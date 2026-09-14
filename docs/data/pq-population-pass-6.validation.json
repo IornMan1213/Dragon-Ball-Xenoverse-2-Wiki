@@ -1,0 +1,9 @@
+{
+  "pass": 6,
+  "status": "validated",
+  "json_structure": "valid by construction",
+  "records_with_sources": 6,
+  "records_with_valid_status": 6,
+  "records_without_fabricated_pq36": 6,
+  "result": "pass"
+}
