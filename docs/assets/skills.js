@@ -30,7 +30,8 @@ function render(data, verified = [], batches = []) {
 const batchFiles = [
   'data/skill-catalog-batches/ki-blast-ultimates.json',
   'data/skill-catalog-batches/strike-supers.json',
-  'data/skill-catalog-batches/ki-blast-supers.json'
+  'data/skill-catalog-batches/ki-blast-supers.json',
+  'data/skill-catalog-batches/strike-ultimates.json'
 ];
 Promise.all([
   fetch('data/skills.json', {cache:'no-store'}).then(r => r.json()),
