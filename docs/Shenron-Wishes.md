@@ -1,25 +1,18 @@
 # Shenron Wishes
 
-Collect all seven Dragon Balls (mainly by defeating Time Patrollers in Parallel Quests) and use them at the Dragon Ball Pedestal to summon Shenron.
+Collect 7 Dragon Balls and summon Shenron at the altar in Conton City to make a wish.
 
-Initially a set of wishes is available. Completing sufficient Guru’s House (Namekian Time Rift) content expands the list with additional wishes.
+## Useful Wishes (Overview)
+- **I want money!** — Large Zeni payout (repeatable).
+- **I want medals!** — TP Medals (very useful for shop purchases and leveling via Tosok).
+- **I want to grow!** / related level wishes — Instant level(s) when below the cap.
+- **I want a second chance at life!** — Full attribute point reset/respec.
+- **I want to be drop-dead gorgeous!** — Appearance reset (face, hair, colors, etc.; race stays the same).
+- **I want a new Super Attack!** / **I want a new Ultimate Attack!** — Unlocks skills from a rotating/sequential pool (can be wished multiple times for different skills).
+- **I want more usable characters!** — Unlocks certain characters (e.g. Hit and others in sequence).
+- **I want to get stronger!** — Materials related to Super Soul mixing.
+- Clothing / rare item wishes — Various outfits and accessories.
 
-## Notable Wishes (Summary)
-- **I want money!** — Large Zeni sum (repeatable).
-- **I want medals!** — TP Medals (repeatable).
-- **I want to grow!** — Instant level(s) (limited by current level cap).
-- **I want a new Super Attack!** / **I want a new Ultimate Attack!** — Specific skills (limited uses, progressive).
-- **I want more usable characters!** — Unlocks Hit, then Eis Shenron, Nuova Shenron, Omega Shenron (in sequence).
-- **I want a second chance at life!** — Reset / reallocate attribute points (repeatable).
-- **I want to be drop-dead gorgeous!** — Appearance change (race/gender locked).
-- **I want to get stronger!** — Super Soul mixing materials (repeatable).
-- Various outfit and one-time rare item wishes.
-- Later Guru-expanded wishes include additional skills and options.
+Exact availability and limits (one-time vs repeatable) vary; some wishes unlock additional options after certain story or Guru progress.
 
-**Sources**:
-- [dbxv2.fandom.com – Wish](https://dbxv2.fandom.com/wiki/Wish) (primary detailed table)
-- Prima Games and GamesKeys.net wish lists
-- dragonballxenoverse2.wiki and localized complete wish guides
-- Community confirmation of progressive character unlocks via the “more usable characters” wish
-
-Always check the current in-game list, as some wishes are one-time or change results on subsequent uses. Guru expansion is required for the full set.
+**Sources**: Community Shenron wish lists and guides, in-game wish menu.

@@ -1,18 +1,27 @@
 # Limit Burst
 
-Limit Burst is a powerful temporary power-up introduced in Extra Pack 2 / DLC 6. It can be activated once per battle (per team in multiplayer) by holding the right stick (or equivalent input) while a Super Soul is equipped.
+Limit Burst is a powerful once-per-battle activation that temporarily boosts the user. It is tied to the equipped Super Soul — different Super Souls grant different Limit Burst effects.
 
-## Key Points
+## How to Activate
+- Hold the right stick (or the equivalent input on your platform) during battle.
 - Requires a Super Soul to be equipped.
-- Effects are determined by the equipped Super Soul (examples include ATK Up, DEF Up + Super Armor, Auto Just Guard, Auto Health/Stamina/Ki recovery, skill-specific damage boosts, Revive Gauge recovery, etc.).
-- Duration is typically 10–30 seconds depending on the soul and situation.
-- Becomes stronger when teammates are knocked out.
-- Extremely strong in PvE and co-op; can feel unbalanced in competitive PvP depending on the soul.
+- Can only be used once per battle / quest (shared across the team in some contexts).
 
-Different Super Souls produce very different Limit Burst effects. Choosing a Super Soul is therefore also choosing your Limit Burst identity.
+## Common Effect Types
+Limit Burst effects vary by Super Soul and can include combinations of:
+- Attack power increases (general or skill-specific)
+- Defense increases + Super Armor
+- Auto Just Guard (automatic perfect blocks for a duration)
+- Auto Health / Stamina / Ki recovery
+- Revive Gauge auto-recovery
+- Speed changes (often a temporary slowdown as a trade-off)
+- Large temporary multipliers to specific Supers or Ultimates
 
-**Sources**:
-- GameRevolution and early Limit Burst explainers
-- Burcol “Every Limit Burst Explained” video series
-- Community discussions on GameFAQs and Reddit regarding revive gauge, Super Armor, and activation rules
-- In-game Super Soul descriptions that list Limit Burst effects
+Duration is typically in the 10–30 second range depending on the Super Soul.
+
+## Strategic Notes
+- Extremely strong in Parallel Quests, Expert Missions, and Raids when timed with a high-damage combo or Ultimate.
+- Some Super Souls make Limit Burst the centerpiece of a build (e.g. auto-guard or massive skill-specific damage).
+- Because it is once per battle, save it for decisive moments rather than using it immediately.
+
+**Sources**: Community Limit Burst breakdowns, in-game Super Soul descriptions, player testing of common effects.
