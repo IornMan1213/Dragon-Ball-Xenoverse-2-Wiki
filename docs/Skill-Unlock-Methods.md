@@ -1,6 +1,6 @@
 # How to Unlock Skills & Moves
 
-Primary legitimate methods (RNG is involved for many PQ drops):
+Primary legitimate methods (RNG is involved for many Parallel Quest drops):
 
 1. **Mentor Lessons** — Most reliable for signature moves. Complete initiation + lessons. Rewards are permanent.
 2. **Parallel Quests** — Largest source. Clear with good ranks / special conditions. Fighting the original user of a move often helps drop rate.
@@ -15,8 +15,14 @@ Primary legitimate methods (RNG is involved for many PQ drops):
 - Track with community spreadsheets.
 - Dual Ultimates require max Friendship + Partner Gauge progress with the mentor.
 - Some skills are character-exclusive and cannot be learned by CaCs.
-- Late skills (Beast-related, Power to Overcome package, Ultra Supervillain variants) require the corresponding DLC ownership.
+- Late skills (Beast-related package, Power to Overcome package, Ultra Supervillain variants) require the corresponding DLC ownership.
 
-For exhaustive per-skill tables (exact PQ number, ki cost, users), use:
-- https://dbxv2.fandom.com/wiki/Category:Skills
-- Burcol’s “How to unlock EVERY skill” video series (search by DLC number).
+**Sources**:
+- [dbxv2.fandom.com – Category:Skills](https://dbxv2.fandom.com/wiki/Category:Skills) and individual skill pages (primary source for exact unlock locations)
+- [dbxv2.fandom.com – Mentors](https://dbxv2.fandom.com/wiki/Mentors)
+- [dbxv2.fandom.com – Wish / Shenron](https://dbxv2.fandom.com/wiki/Wish)
+- dragonballxenoverse2.wiki “Unlock All Skills” and related guides
+- Long-form YouTube series by Burcol (“How to unlock EVERY skill” by DLC number) and similar creators
+- Reddit community consensus on efficient farming order
+
+For exhaustive per-skill tables (exact PQ number, ki cost, original users), always prefer the Fandom skill pages as the most detailed living reference.
