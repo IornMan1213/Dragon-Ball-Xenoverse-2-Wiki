@@ -1,0 +1,12 @@
+{
+  "pass": 6,
+  "domain": "parallel_quests",
+  "records": [
+    {"number":1,"id":"pq-001","detail_file":"pq-population-pass-6.json"},
+    {"number":10,"id":"pq-010","detail_file":"pq-population-pass-6.json"},
+    {"number":11,"id":"pq-011","detail_file":"pq-population-pass-6.json"},
+    {"number":12,"id":"pq-012","detail_file":"pq-population-pass-6.json"},
+    {"number":13,"id":"pq-013","detail_file":"pq-population-pass-6.json"},
+    {"number":14,"id":"pq-014","detail_file":"pq-population-pass-6.json"}
+  ]
+}
