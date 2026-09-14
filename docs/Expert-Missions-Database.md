@@ -5,7 +5,7 @@ title: Expert Missions Database
 
 # Expert Missions Database
 
-Expert Missions (EMs) are repeatable high-difficulty encounters built around a powerful boss. They are an important source of **TP Medals**, **Demon Realm Crystals**, and selected skill unlocks. EMs unlock progressively after the early story/tutorial sequence. The game supports up to six players in an Expert Mission. citeturn0search0
+Expert Missions (EMs) are repeatable high-difficulty encounters built around a powerful boss. They are an important source of **TP Medals**, **Demon Realm Crystals**, and selected skill unlocks. EMs unlock progressively after the early story/tutorial sequence. The game supports up to six players in an Expert Mission.
 
 ## What this database tracks
 
@@ -24,13 +24,13 @@ Expert Missions (EMs) are repeatable high-difficulty encounters built around a p
 2. Complete the two tutorial missions.
 3. New missions appear as purple energy orbs around Conton City.
 4. Clearing missions unlocks later EMs.
-5. After the first nine EMs, the game consolidates previously completed missions into a large orb near the Time Machine Station for easier replay. citeturn0search0
+5. After the first nine EMs, the game consolidates previously completed missions into a large orb near the Time Machine Station for easier replay.
 
 ## Farming tiers
 
 ### TP Medal farming
 
-**EM 16 and EM 17** are established fast-repeat options and are listed as rewarding **16 TP Medals per run**. EM 18 and EM 19 can provide **18 TP Medals per run**, but may take longer depending on the build and player skill. citeturn0search0
+**EM 16 and EM 17** are established fast-repeat options and are listed at **16 TP Medals per run**. EM 18 and EM 19 can provide **18 TP Medals per run**, but may take longer depending on the build and player skill.
 
 | Goal | Recommended starting point | Why |
 |---|---|---|
@@ -44,7 +44,7 @@ Expert Missions (EMs) are repeatable high-difficulty encounters built around a p
 - Standard Battle Items/Capsules are disabled in most Expert Missions; the first two tutorial missions are the exception.
 - Offline versions compensate for the increased challenge by reducing boss health.
 - Demon Realm Crystals can appear as rewards after the tutorial phase.
-- Some skills have Expert Mission acquisition routes, so EMs should be cross-linked from individual skill records. citeturn0search0
+- Some skills have Expert Mission acquisition routes, so EMs should be cross-linked from individual skill records.
 
 ## Database roadmap
 
