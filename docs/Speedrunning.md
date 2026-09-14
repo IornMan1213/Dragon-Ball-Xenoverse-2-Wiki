@@ -1,24 +1,25 @@
 # Speedrunning
 
-*Dragon Ball Xenoverse 2* has an active speedrunning community tracked on Speedrun.com.
+*Dragon Ball Xenoverse 2* has an active speedrunning community tracked on [Speedrun.com](https://www.speedrun.com/dbxv2).
 
-## Categories
-Common full-game categories include:
-- **Any%** (new game / NG+)
+## Main Categories
+- **Any%** (New Game and NG+)
 - Time Patrol focused runs
-- Individual levels (Parallel Quests, Expert Missions, Advancement Tests, etc.)
+- Individual Levels (Parallel Quests, Expert Missions, Advancement Tests, etc.)
 
-Difficulty options (Normal / Easy) were formalized on the leaderboards after a 2023 game update that allowed difficulty changes.
+Difficulty options (Normal / Easy) were added to the leaderboards after a 2023 game update that allowed difficulty changes.
 
-## Community Notes
-- Runs often optimize story mission order, skip cutscenes where possible, and use strong early builds or inheritance (NG+).
-- Expert Mission and Parallel Quest individual-level boards are popular for short, competitive times.
-- Console and PC runs are tracked separately in many cases.
-- Community reports of sub-2-hour Any% times exist for optimized new-game console runs (exact verified world records change over time; check Speedrun.com for current leaders).
+## General Route Notes (Any%)
+- Optimize story mission order and skip cutscenes where possible.
+- Strong early builds or inheritance (NG+) significantly reduce time.
+- Expert Mission and Parallel Quest individual-level boards are popular for short competitive times.
+- Console and PC runs are often tracked separately.
 
-**Sources**:
-- [Speedrun.com – Dragon Ball Xenoverse 2](https://www.speedrun.com/dbxv2)
-- Community videos documenting attempts and record claims
-- Leaderboard rule updates posted by moderators (difficulty variables added March 2024)
+Community reports of optimized new-game console runs in the sub-2-hour range exist; exact world records change over time. Always check Speedrun.com for the current verified leaders and rulesets.
 
-For the absolute latest world records and rulesets, always refer directly to the Speedrun.com leaderboards.
+## Tips from Community Practice
+- Prioritize high-damage early skills and efficient stamina management.
+- Learn boss patterns for key story and Expert Mission encounters.
+- Use strong charge skills and Limit Burst timing in longer fights.
+
+**Sources**: Speedrun.com leaderboards and rule updates, community videos documenting attempts and strategies.
