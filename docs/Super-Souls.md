@@ -1,27 +1,31 @@
 # Super Souls
 
-Super Souls (formerly Z-Souls) are equippable passives that provide permanent or conditional bonuses. Many also define the effect of **Limit Burst** when activated.
+Super Souls provide passive effects, often with activation conditions. They are a core part of build optimization.
 
-They are obtained from mentors, Parallel Quests, TP Medal Shop rotation, events, Crystal Raids, and other sources. Only one Super Soul can be equipped at a time on a CaC.
+## Acquisition Methods
+- Item Shop and TP Medal Shop (rotating stock)
+- Parallel Quests and Expert Missions
+- Crystal Raids
+- Specific story / DLC completion rewards
+- Festival of Universes / events
+- Certain Conton City NPCs after requirements are met
 
-## High-Value Farming Super Souls (Community Consensus)
-- **My Hobbies Are Reading and Sports** — ×3 score / experience (Zeni reduced to 0). One of the strongest pure XP options. Can be used via Partner Customization Goku in some setups.
-- **40 Ton Weights** — ×2 score / experience. Easy to obtain (talk to Nit after unlocking flight, post-Frieza Saga).
-- **Now you're upping the ante** (Marba-related) — Random score multiplier (can be high or zero). Gamble option available via Festival / TP Shop.
-- Other score / Zeni boosters exist with milder multipliers.
+## Useful Categories (Examples)
+**Score / EXP Boosting** (strong for leveling)  
+- Souls that multiply score (e.g. effects that double or triple score earned)  
+- Useful when stacked with in-game campaigns
 
-These stack with in-game campaign multipliers (×2 / ×3 XP or TP events), allowing very high effective gains during events.
+**Combat Utility**  
+- Stamina recovery, Ki recovery, damage boosts on conditions (low HP, after certain skills, after just guards, etc.)  
+- Auto effects, temporary super armor, or stat shifts
 
-## Other Notable Categories
-- Starting Ki / full Ki at battle start (excellent for Expert Mission spam).
-- Damage boosts to specific skill types or after certain conditions.
-- Survival (health recovery, reduced damage, Super Armor effects via Limit Burst).
-- Utility (auto-recovery of Ki/Stamina, Just Guard effects, etc.).
+**Limit Burst Synergy**  
+Many Super Souls define or enhance Limit Burst effects.
 
-**Sources**:
-- dragonballxenoverse2.wiki leveling and Super Soul guides (2025–2026)
-- Reddit r/dbxv discussions on Level 199 grind and XP vs TP methods
-- Community videos comparing “My Hobbies…”, “40 Ton Weights”, and Marba’s soul
-- Fandom Super Soul individual pages and TP Medal Shop notes
+## Farming Tips
+- Check the TP Medal Shop regularly (especially weekends).
+- High-difficulty PQs and Expert Missions are reliable sources for rare souls.
+- Some powerful souls are tied to specific story milestones or DLC content.
+- During EXP or TP Medal campaigns, prioritize runs that also drop Super Souls.
 
-For a full list of every Super Soul and exact effects, use the Fandom wiki Super Soul category or the interactive tools on dragonballxenoverse2.wiki.
+**Sources**: Community Super Soul guides and tier discussions (2025–2026), in-game Item/TP shops, farming videos focused on score-boosting and combat souls.

@@ -1,10 +1,9 @@
 # Changelog
 
-## September 2026 (Ongoing)
-- Core systems, farming, Conton City, Future Saga, development, lore, speedrunning, sales pages established.
-- Skills Database and Parallel Quest Walkthrough expanded with categories, acquisition methods, and high-value examples.
-- Mentors page expanded with early mentor skill summaries and unlock progression.
-- Continued emphasis on original, summarized, sourced, self-contained content.
-- Full exhaustive skill and PQ databases remain outside scope due to copyright restrictions on reconstructed material.
+## September 2026 (Ongoing Expansion)
+- Conton City page expanded with key areas, shops, systems, and Time Rifts.
+- Super Souls page expanded with acquisition methods, useful categories, and farming tips.
+- Mentors, Parallel Quest Walkthrough, Skills Database, and other core pages previously strengthened.
+- Focus remains on original, practical, sourced, self-contained content to make the wiki as useful as possible.
 
-Further modular expansions continue as requested.
+Continuing modular improvements.
