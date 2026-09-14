@@ -20,7 +20,6 @@ Thank you for helping expand this resource!
 ## Style Guidelines
 - Prefer factual, sourced information over speculation.
 - Always note when something requires a specific DLC.
-- Link to Fandom / dragonballxenoverse2.wiki / Reddit for deep tables rather than duplicating huge lists that will go stale.
 - Use clear warnings on any glitch or exploit content.
 
 ## What Not to Do
