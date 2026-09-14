@@ -1,0 +1,32 @@
+name: Wiki data audit
+
+on:
+  pull_request:
+    paths:
+      - 'docs/data/**/*.json'
+      - 'scripts/audit_wiki_data.py'
+      - '.github/workflows/data-audit.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/data/**/*.json'
+      - 'scripts/audit_wiki_data.py'
+      - '.github/workflows/data-audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Run structured-data audit
+        run: python3 scripts/audit_wiki_data.py
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-data-audit
+          path: docs/data/audit-latest.json
