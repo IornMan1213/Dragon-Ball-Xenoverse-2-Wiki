@@ -31,7 +31,14 @@ const batchFiles = [
   'data/skill-catalog-batches/ki-blast-ultimates.json',
   'data/skill-catalog-batches/strike-supers.json',
   'data/skill-catalog-batches/ki-blast-supers.json',
-  'data/skill-catalog-batches/strike-ultimates.json'
+  'data/skill-catalog-batches/strike-ultimates.json',
+  'data/skill-catalog-batches/ki-blast-evasives.json',
+  'data/skill-catalog-batches/strike-evasives.json',
+  'data/skill-catalog-batches/other-evasives.json',
+  'data/skill-catalog-batches/other-supers.json',
+  'data/skill-catalog-batches/other-ultimates.json',
+  'data/skill-catalog-batches/power-up-supers.json',
+  'data/skill-catalog-batches/power-up-evasives.json'
 ];
 Promise.all([
   fetch('data/skills.json', {cache:'no-store'}).then(r => r.json()),
