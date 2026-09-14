@@ -4,8 +4,8 @@ const categoryMeta = {
   "Other Supers": ["Super", "Other"], "Power Up Supers": ["Super", "Power Up"],
   "Ki Blast Evasives": ["Evasive", "Ki Blast"], "Strike Evasives": ["Evasive", "Strike"],
   "Other Evasives": ["Evasive", "Other"], "Power Up Evasives": ["Evasive", "Power Up"],
-  "Other Ultimates": ["Ultimate", "Other"], "Saiyan Skills": ["Awoken", "Race"],
-  "Majin Skills": ["Awoken", "Race"], "Namekian Skills": ["Awoken", "Race"],
+  "Other Ultimates": ["Ultimate", "Other"], "Power Up Ultimates": ["Ultimate", "Power Up"],
+  "Saiyan Skills": ["Awoken", "Race"], "Majin Skills": ["Awoken", "Race"], "Namekian Skills": ["Awoken", "Race"],
   "Frieza Race Skills": ["Awoken", "Race"], "Human Skills": ["Awoken", "Race"],
   "Unavailable for CaC": ["Mixed", "Special"], "Counter Skills": ["Counter", "Counter"],
   "Transformations": ["Awoken", "Transformation"]
@@ -38,7 +38,8 @@ const batchFiles = [
   'data/skill-catalog-batches/other-supers.json',
   'data/skill-catalog-batches/other-ultimates.json',
   'data/skill-catalog-batches/power-up-supers.json',
-  'data/skill-catalog-batches/power-up-evasives.json'
+  'data/skill-catalog-batches/power-up-evasives.json',
+  'data/skill-catalog-batches/power-up-ultimates.json'
 ];
 Promise.all([
   fetch('data/skills.json', {cache:'no-store'}).then(r => r.json()),
