@@ -1,28 +1,27 @@
-# Builds, Attributes, QQ Bangs & Meta
+# Builds – Race & Attribute Approaches
 
-## Attributes Overview
-The six attributes are: Health, Max Ki, Max Stamina, Basic Attacks, Strike Supers, Ki Blast Supers.
+## Core Principles
+- Race determines base stats, preferred damage types, and available Awoken Skills.
+- Female Saiyans and Frieza Race are frequently favored for Ki Blast damage.
+- Male Saiyans and certain Earthlings/Majins excel in Strike or hybrid roles.
+- Namekians have regeneration advantages; Majins have unique stamina/health interactions.
 
-Points are gained on level-up. Total available scales with level cap (see [Level Cap & Attributes](Level-Cap-Attributes.md)). Per-stat caps rise from 100 → 125 (Guru) → 200 (Whis path). Race, height, and weight affect base values and point efficiency.
+## Attribute Philosophy at High Levels (esp. 199)
+With a strong QQ Bang (+5 in key stats), invest the minimum attribute points needed for desired Ki and Stamina bars (often 15 each), then dump the rest into:
+- Health (survivability),
+- Basic Attacks,
+- and/or the preferred Super type (Strike or Ki Blast) up to the 200 cap.
 
-Clothing and especially **QQ Bangs** provide additional +/– modifiers. Players typically aim for +5 in desired stats with minimal negatives.
+Exact numbers vary by QQ Bang; community Level 199 spreadsheets are the best reference.
 
-## QQ Bangs
-Crafted by mixing clothing items. Outcomes are somewhat random but follow patterns that community spreadsheets track extensively. Neutral and +1 to +5 variants are commonly documented for Ki and Stamina focused distributions at high level caps.
+## QQ Bang Goals
+Aim for high positives in the stats your build uses and minimal negatives. 6-star QQ Bangs with multiple +5s are the endgame target.
 
-## High-Level Race Approaches (Community Consensus)
-- **Saiyan**: Most flexible. Strong transformation tree (SSJ line → Blue → Beast, etc.). Good all-rounder for new players.
-- **Earthling**: Excellent basic attacks and Ki recovery synergy; strong with Power Pole Pro and Kaioken.
-- **Namekian**: High sustain and Giant Form tanking; strong in PvE.
-- **Frieza Race**: High speed and Golden forms.
-- **Majin**: Natural durability + Purification.
-
-Super Souls are often more impactful than small attribute differences. Many provide large conditional bonuses (damage, recovery, ki, stamina, etc.).
+## Super Soul & Limit Burst Synergy
+Choose a Super Soul that both helps your playstyle (damage, recovery, starting Ki, etc.) and provides a useful Limit Burst effect.
 
 **Sources**:
-- [dbxv2.fandom.com – Attributes](https://dbxv2.fandom.com/wiki/Attributes)
-- dragonballxenoverse2.wiki Builds, Tier List, and QQ Bang / Attribute Calculator sections (2026)
-- Reddit r/dbxv community spreadsheets and “best race / best build” discussion threads
-- Long-running community consensus from build showcase videos and Discord/Reddit theorycrafting
-
-For current meta spreads and exact QQ Bang recipes, check the interactive tools on dragonballxenoverse2.wiki and the latest shared Google Sheets on Reddit.
+- Community Level 199 attribute discussions and spreadsheets (Reddit r/dbxv, Steam guides)
+- Race comparison videos and guides (Burcol and others)
+- QQ Bang and Super Souls pages in this wiki + their sources
+- Fandom Attributes and race pages
