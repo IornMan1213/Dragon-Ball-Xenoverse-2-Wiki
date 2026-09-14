@@ -1,0 +1,11 @@
+title: XV2 Database
+url: ""
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
