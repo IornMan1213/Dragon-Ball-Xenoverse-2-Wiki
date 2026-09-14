@@ -1,26 +1,27 @@
-# Guides & Tutorials Index
+# Guides & Priority Paths
 
-## Essential Beginner Path
-1. Complete main story (unlocks flying, more mentors, Conton City features).
-2. Unlock mentors early and train them.
-3. Start Advancement Tests ASAP for Potential Unleashed.
-4. Farm Dragon Balls via PQs with Time Patrollers.
-5. Raise level cap via Guru (Namekian Rift) then Whis (parfait).
-6. Work on race Time Rifts for Awoken Skills.
+## Recommended New Player Route
+1. Finish the main story (unlocks flying license after Frieza, more mentors, Conton City features).
+2. Immediately start Advancement Tests (Easy → … → God Class) for Potential Unleashed and mentor access.
+3. Train early mentors (Krillin → Piccolo/Tien/Yamcha etc.) for core skills.
+4. Complete race-specific Time Rift questlines for racial Awoken Skills.
+5. Raise Friendship with key mentors (especially Piccolo + Gohan/Videl for Beast).
+6. Farm TP Medals (Expert Mission 16 and high-value PQs) and Dragon Balls.
+7. Raise level cap via Guru then Whis food items.
+8. Work through DLC stories (Future Saga chapters last) for final content and The Power to Overcome.
 
-## Farming
-- **TP Medals**: Expert Mission 16 (and variants), high-score Parallel Quests, events.
-- **Zeni**: Story, PQs, Shenron "I want money!".
-- **Dragon Balls**: Rotate PQs that spawn patrollers; avoid repeating the exact same one immediately.
-- **Experience / Leveling**: South Supreme Kai Super Soul (from Nit after story), weights, high-score missions. Late game: Tosok leveling with TP Medals + Zeni.
+## High-Value Farming
+- **TP Medals / STP**: Expert Mission 16 (and later variants), Crystal Rush / Double Crystal events when available, high-score Parallel Quests.
+- **Dragon Balls**: Rotate PQs that spawn Time Patrollers. Avoid spamming the exact same PQ repeatedly.
+- **Zeni**: Story, PQs, Shenron “I want money!”.
+- **Experience**: South Supreme Kai Super Soul (from Nit post-story) + weights + score-boosting Super Souls.
 
 ## Expert Missions
-Strategies exist for solo/offline clears (Death Ball spam with appropriate Awoken + Super Soul + QQ Bang is a classic for many). Full guides on Reddit wiki and Fandom.
+Many can be soloed offline with Death Ball spam + appropriate Awoken (Potential Unleashed / Golden / etc.) + Ki Blast focused QQ Bang + “I’m still not used to this form” or similar Super Souls. Later EMs and raids benefit from co-op.
 
-## Other Useful
-- Conton City map & NPC locations
-- QQ Bang mixing (stat outcomes)
-- Z-Rank score checklists
-- Friendship / mentor relationship mechanics
+## Other Systems
+- Conton City is large — use the map markers (pink for mentors, etc.).
+- Distorted Time Eggs (one per major rift) lead to special rewards from Supreme Kai of Time.
+- Partner Customization Keys drop from Raids and unlock extra characters for the Partner Customization system.
 
-Video recommendations: Search YouTube for "Xenoverse 2 [thing] unlock" or "Burcol Xenoverse 2".
+For step-by-step video walkthroughs of specific systems, search YouTube for the exact feature + “Xenoverse 2” (Burcol and others have near-complete unlock series).
