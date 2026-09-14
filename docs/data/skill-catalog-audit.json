@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Exhaustive Dragon Ball Xenoverse 2 skill catalog coverage tracker",
+  "source": "https://dbxv2.fandom.com/wiki/Category:Skills",
+  "status": "in_progress",
+  "rule": "A category is not considered complete until every indexed source record is represented and every record has been checked for duplicates, variants, CaC restrictions, unlock method, costs, and mechanics. Indexed records must not be presented as fully verified mechanics.",
+  "batch_categories": {
+    "Ki Blast Supers": 183,
+    "Strike Supers": 130,
+    "Ki Blast Ultimates": 110,
+    "Strike Ultimates": 30,
+    "Other Supers": 32,
+    "Power Up Supers": 20,
+    "Ki Blast Evasives": 23,
+    "Strike Evasives": 16,
+    "Other Evasives": 11,
+    "Power Up Evasives": 2,
+    "Other Ultimates": 3,
+    "Power Up Ultimates": 1
+  },
+  "batch_indexed_total": 561,
+  "remaining_index_work": [
+    "Saiyan Skills",
+    "Majin Skills",
+    "Namekian Skills",
+    "Frieza Race Skills",
+    "Human Skills",
+    "Unavailable for CaC",
+    "Counter Skills",
+    "Transformations"
+  ],
+  "next_verification_work": [
+    "Individual skill pages and official/game sources",
+    "Unlock source and exact drop conditions",
+    "Ki/Stamina cost and duration",
+    "Damage, modifiers, buffs, debuffs, hit properties and tracking",
+    "CaC/race restrictions and character-exclusive status",
+    "DLC/PQ/Expert Mission/mentor/shop/wish/raid/festival provenance",
+    "Skill variants and renamed/duplicate-looking moves",
+    "Patch-era and DLC-era provenance",
+    "Dual Ultimate relationships where applicable"
+  ]
+}
