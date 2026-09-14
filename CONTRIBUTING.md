@@ -24,7 +24,6 @@ Thank you for helping expand this resource!
 - Use clear warnings on any glitch or exploit content.
 
 ## What Not to Do
-- Do not upload copyrighted game assets, full move lists ripped from the game files, or paid DLC content dumps.
 - Do not encourage online cheating or ban-risking behavior without clear warnings.
 
 Questions or big ideas? Open an Issue first.
