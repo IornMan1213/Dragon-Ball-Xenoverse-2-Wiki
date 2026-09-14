@@ -1,0 +1,8 @@
+{
+  "schema_version":"1.0",
+  "game":"Dragon Ball Xenoverse 2",
+  "status":"known_gaps",
+  "critical":["Ki Blast Supers complete set reconciliation","record-level PQ population","record-level character/preset population","Super Soul population","QQ Bang population"],
+  "high":["33 mentor lesson records","Expert Mission records","equipment records","DLC-to-content relationship resolution","automated cross-reference audit"],
+  "policy":"Known gaps are intentionally visible. The wiki must not claim exhaustive completion while these gaps remain unresolved."
+}
