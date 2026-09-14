@@ -1,32 +1,18 @@
-# Community Resources & Tools
+# Community Resources
 
 ## Primary Wikis
-- **https://dbxv2.fandom.com** — Most complete traditional wiki (skills, characters, mentors, quests, Super Souls, attributes, Expert Missions, Crystal Raids, Hero Colosseum, etc.).
-- **https://dragonballxenoverse2.wiki/** — Modern guides, builds, tier lists, calculators, Expert Missions, Parallel Quest farming (updated into 2026).
+- [dbxv2.fandom.com](https://dbxv2.fandom.com) — Traditional comprehensive wiki (skills, mentors, quests, Super Souls, Expert Missions, Crystal Raids).
+- [dragonballxenoverse2.wiki](https://dragonballxenoverse2.wiki/) — Modern guides, builds, farming, tier lists (updated into 2026).
 
-## Reddit
-- r/dbxv
-- r/DragonBallXenoverse2  
-Search for spreadsheets, checklists, Level 199 attributes, QQ Bang recipes, crystal raid strategies, and current meta.
-
-## Video Creators
-- **Burcol** — Comprehensive unlock-everything series (skills, characters, Awoken Skills, QQ Bangs, presets).
-- ContonMods — Patch notes, bug reports, DLC coverage.
-- SLOplays, Steedoj, and others for farming methods and showcases.
-
-## Spreadsheets & Calculators
-Community Google Sheets for unlock tracking, attribute distributions (Level 199), QQ Bang outcomes, and PQ progress. Search Reddit for the latest shared links. dragonballxenoverse2.wiki also hosts interactive tools.
-
-## PC Tools & Modding (Offline / Single-Player Recommended)
-- LibXenoverse2 and forks — File handling.
-- xv2patcher, xv2ins, character/skill/costume creators.
-- Cheat Engine tables / trainers (version-specific, offline only).
-- Ultrawide / FOV fixes (DBXV2Fix and similar).
-
-**Warning**: Modding and trainers generally require launching without Easy Anti-Cheat. Online use risks bans. Always back up saves.
+## Communities
+- Reddit: r/dbxv, r/DragonBallXenoverse2
+- YouTube creators frequently cited: Burcol (unlocks, QQ Bangs, mechanics), ContonMods, SLOplays, and others.
 
 ## Official
-- Bandai Namco / Dragon Ball Games sites and socials for patch notes and DLC announcements.
+- Bandai Namco / Dragon Ball Games sites for patch notes and DLC announcements.
 - Steam news hub.
 
-**Sources**: Direct links to the listed sites and communities; Codeberg/GitHub modding repositories; official Bandai and Steam pages.
+## Note on Tools
+PC modding tools and trainers exist (LibXenoverse2, xv2patcher, etc.) but are generally for offline use only. Online use carries ban risk.
+
+**Sources**: Community resource lists, official sites, and the materials provided for this wiki expansion.
