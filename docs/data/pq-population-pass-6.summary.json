@@ -1,0 +1,8 @@
+{
+  "pass": 6,
+  "summary": "First concrete high-detail PQ population slice",
+  "records_added": 6,
+  "records": [1,10,11,12,13,14],
+  "verification": "partially_verified",
+  "purpose": "Replace seed-only placeholders with source-backed gameplay records while preserving conservative verification gates."
+}
