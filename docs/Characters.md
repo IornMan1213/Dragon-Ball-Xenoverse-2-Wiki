@@ -1,6 +1,6 @@
 # Characters & Presets Unlock Overview
 
-The roster is treated as a **database**, not a single unlock list. The current source category exposes **155 character records**, with a separate **54-record DLC-character category**. These counts are coverage baselines, not a claim that every record has already been mechanically verified. citehttps://dbxv2.fandom.com/wiki/Category:Characters
+The roster is treated as a **database**, not a single unlock list. The current Fandom source category exposes **155 character records**, with a separate **54-record DLC-character category**. These counts are coverage baselines, not a claim that every record has already been mechanically verified.
 
 ## Coverage Model
 
@@ -30,10 +30,14 @@ Each character record will distinguish:
 ## Important Exhaustive-Wiki Distinctions
 A character page is not considered complete merely because the fighter appears in the roster. The audit must separately account for **forms, presets, alternate names, DLC status, Ultra Supervillain variants, custom partners, and character-exclusive skills**.
 
-The current DLC category alone exposes 54 records, including newer entries such as Goku (Mini), Gohan (Beast), Orange Piccolo, Cell Max, DAIMA characters and multiple Ultra Supervillain variants. citehttps://dbxv2.fandom.com/wiki/Category:DLC_Characters
+The current DLC category alone exposes 54 records, including newer entries such as Goku (Mini), Gohan (Beast), Orange Piccolo, Cell Max, DAIMA characters and multiple Ultra Supervillain variants.
 
 ## Useful Completion Route
 For an “unlock everything” run, separate the checklist into **base-game roster**, **DLC roster**, **special/event presets**, and **Partner Customization**. This prevents a character that is technically unlocked from being mistaken for a character whose alternate preset or customization key is still missing.
 
 **Database source:** `docs/data/characters-index.json`  
+**External cross-checks:**
+- https://dbxv2.fandom.com/wiki/Category:Characters
+- https://dbxv2.fandom.com/wiki/Category:DLC_Characters
+
 **Verification policy:** indexed → partially verified → verified. Indexed records are never treated as mechanically authoritative until their unlock path, skills and restrictions are checked.
