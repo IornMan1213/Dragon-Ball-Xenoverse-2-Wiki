@@ -24,11 +24,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Configure Pages
+        id: pages
         uses: actions/configure-pages@v5
+      - name: Install Jekyll
+        run: gem install jekyll --no-document
+      - name: Prepare wiki source
+        shell: bash
+        run: |
+          rm -rf _site-src
+          mkdir -p _site-src
+          cp -R docs/. _site-src/
+          for file in _site-src/*.md; do
+            [ -f "$file" ] || continue
+            title="$(basename "$file" .md | tr '-' ' ')"
+            tmp="${file}.tmp"
+            printf '%s\n' '---' "layout: default" "title: $title" '---' > "$tmp"
+            cat "$file" >> "$tmp"
+            mv "$tmp" "$file"
+          done
+      - name: Build Jekyll site
+        env:
+          JEKYLL_ENV: production
+        run: jekyll build --source _site-src --destination _site --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'
+          path: './_site'
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
