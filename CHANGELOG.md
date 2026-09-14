@@ -1,11 +1,10 @@
 # Changelog
 
-## September 2026 (Ongoing Community Expansion)
-- Core gameplay systems, farming, customization, combat, Conton City, Future Saga, development, lore, speedrunning, sales pages added.
-- Added **Parallel Quest Walkthrough** — text-based conditions for key/high-value PQs + general strategy, designed to keep data local.
-- Added **Skills Database** — categories, acquisition methods, notable Awoken Skills, emphasis on self-contained information.
-- Added **Main Story Walkthrough** — Time Patrol progression path and key beats kept fully on-wiki.
-- Explicit goal: host as much practical data as possible so users do not need to leave the repository unless they want external verification.
-- All major pages continue to include Sources sections.
+## September 2026 (Ongoing)
+- Core systems, farming, Conton City, Future Saga, development, lore, speedrunning, sales pages established.
+- Skills Database and Parallel Quest Walkthrough expanded with categories, acquisition methods, and high-value examples.
+- Mentors page expanded with early mentor skill summaries and unlock progression.
+- Continued emphasis on original, summarized, sourced, self-contained content.
+- Full exhaustive skill and PQ databases remain outside scope due to copyright restrictions on reconstructed material.
 
-Future contributions of verified individual skill entries or additional PQ Ultimate Finish conditions are welcome.
+Further modular expansions continue as requested.
