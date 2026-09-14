@@ -2,7 +2,7 @@
 
 **Last major update: September 2026** (Future Saga Chapter 4 complete)
 
-Open community knowledge base for *Dragon Ball Xenoverse 2*. All major pages include **Sources**. Not official.
+Open community knowledge base for *Dragon Ball Xenoverse 2*. **Sources cited on every major page**. Not official.
 
 **Primary external resources**:
 - [dbxv2.fandom.com](https://dbxv2.fandom.com)
@@ -20,23 +20,25 @@ Open community knowledge base for *Dragon Ball Xenoverse 2*. All major pages inc
 | [Advancement Tests](docs/Advancement-Tests.md) | Potential Unleashed |
 | [Parallel Quests](docs/Parallel-Quests.md) | Farming routes |
 | [Expert Missions](docs/Expert-Missions.md) | TP Medal farming |
-| [Crystal Raids](docs/Crystal-Raids.md) | Demon Realm Crystals & raids |
+| [Crystal Raids](docs/Crystal-Raids.md) | Demon Realm Crystals |
 | [Time Rifts & Eggs](docs/Time-Rifts-Eggs.md) | Distorted Time Eggs |
 | [Shenron Wishes](docs/Shenron-Wishes.md) | Dragon Ball wishes |
 | [QQ Bangs](docs/QQ-Bangs.md) | Stat override gear |
-| [Partner Customization](docs/Partner-Customization.md) | Keys & partner options |
-| [Conton City](docs/Conton-City.md) | Key NPCs & locations |
+| [Partner Customization](docs/Partner-Customization.md) | Keys & options |
+| [Conton City](docs/Conton-City.md) | Key NPCs |
 | [Combat Basics](docs/Combat-Basics.md) | Vanish, stamina, fundamentals |
 | [Future Saga](docs/Future-Saga.md) | Chapters 1–4 overview |
+| [Farming Hub](docs/Farming-Hub.md) | Consolidated resource methods |
 | [Super Souls](docs/Super-Souls.md) | Passives |
 | [Guides](docs/Guides.md) | Beginner priority |
-| [Builds](docs/Builds.md) | Race & attribute approaches |
+| [Builds](docs/Builds.md) | Race approaches |
 | [Characters](docs/Characters.md) | Roster unlocks |
 | [Glitches & Bugs](docs/Glitches-Bugs.md) | Known issues |
 | [Resources](docs/Resources.md) | Tools & links |
+| [Changelog](CHANGELOG.md) | Update history |
 | [Contributing](CONTRIBUTING.md) | How to help |
 
 ## Current Status (Sep 2026)
-Final major DLC: Future Saga Chapter 4. Level cap 199. Beast + The Power to Overcome available. *Xenoverse 3* announced and in development.
+Final major DLC: Future Saga Chapter 4. Level cap 199. Beast + The Power to Overcome available. *Xenoverse 3* announced.
 
 **Repository**: https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki

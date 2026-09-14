@@ -1,38 +1,31 @@
 # Community Resources & Tools
 
 ## Primary Wikis
-- **https://dbxv2.fandom.com** — Most complete traditional wiki (skills, characters, mentors, quests, Super Souls, attributes).
-- **https://dragonballxenoverse2.wiki/** — Modern, guide-focused site with builds, tier lists, calculators, and updates into 2026.
+- **https://dbxv2.fandom.com** — Most complete traditional wiki (skills, characters, mentors, quests, Super Souls, attributes, Expert Missions, Crystal Raids, etc.).
+- **https://dragonballxenoverse2.wiki/** — Modern guides, builds, tier lists, calculators, Expert Missions, Parallel Quest farming (updated into 2026).
 
 ## Reddit
 - r/dbxv
 - r/DragonBallXenoverse2  
-Check pinned posts, wiki tabs, and search for “spreadsheet”, “checklist”, “level 199”, “QQ Bang”, “best Super Soul”.
+Search for spreadsheets, checklists, level 199 attributes, QQ Bang recipes, crystal raid strategies, and current meta.
 
-## Video Creators (Unlock & Guide Focus)
-- **Burcol** — Extremely thorough “unlock every skill / every character / every Awoken” series across DLC eras.
-- ContonMods, SLOplays, Steedoj, and others for DLC showcases, specific unlocks, and patch commentary.
+## Video Creators
+- **Burcol** — Comprehensive unlock-everything series (skills, characters, Awoken Skills, QQ Bangs).
+- ContonMods, SLOplays, Steedoj, and others for DLC showcases, farming methods, and patch notes.
 
 ## Spreadsheets & Calculators
-Community Google Sheets commonly cover:
-- Full unlock checklists
-- Attribute point distributions (especially Level 199 focused)
-- Equipment / QQ Bang tracking
-- PQ Z-Rank progress  
-Search Reddit for the latest shared links (they are updated by the community).
+Community Google Sheets for unlock tracking, attribute distributions (including Level 199), QQ Bang outcomes, and PQ progress. Search Reddit for the latest shared links.
 
 ## PC Tools & Modding (Offline / Single-Player Recommended)
-- **LibXenoverse2** (and forks) — File format library and conversion tools.
-- **xv2patcher**, **xv2ins**, character/skill/costume creators (eterniti and related GitHub projects).
-- Community Cheat Engine tables / trainers (FearLess Revolution and similar) — version-specific, offline use only.
-- Ultrawide / FOV fixes (e.g. DBXV2Fix on Codeberg).
+- LibXenoverse2 and forks — File handling.
+- xv2patcher, xv2ins, character/skill/costume creators.
+- Cheat Engine tables / trainers (version-specific, offline only).
+- Ultrawide / FOV fixes (e.g. DBXV2Fix).
 
-**Important**: Most modding and trainers require launching without Easy Anti-Cheat and are intended for single-player. Online use carries ban risk.
+**Warning**: Modding and trainers generally require launching without Easy Anti-Cheat. Online use risks bans.
 
-## Official Channels
-- Bandai Namco / Dragon Ball Games official sites and socials for patch notes and DLC announcements.
-- Steam news hub for the game.
+## Official
+- Bandai Namco / Dragon Ball Games sites and socials for patch notes and DLC announcements.
+- Steam news hub.
 
-**Sources for this page**: Direct links to the sites and communities listed above; GitHub/Codeberg modding repositories; Steam and Bandai announcement pages.
-
-Feel free to open a Pull Request with additional high-quality, actively maintained links.
+**Sources**: Direct links to the listed sites and communities; GitHub/Codeberg modding repositories; official Bandai and Steam pages.
