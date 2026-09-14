@@ -1,48 +1,57 @@
-# Awoken Skills (Transformations)
+# Awoken Skills – Mechanics
 
-One Awoken Skill slot per CaC. Most require a minimum Ki amount to activate (some consume Ki on activation). Stages can often be skipped if you have enough Ki.
+Awoken Skills are transformations that provide stat modifiers, unique properties, or both. Most require a certain amount of Ki to activate (often 500 / 5 bars). Some consume the Ki on activation; others only require it to be present.
 
-## Available to All Races
-- **Kaioken** (x1 / x3 / x20)
-- **Potential Unleashed** – Complete and Z-Rank Easy → Intermediate → Advanced → Kai → God Class Advancement Tests, then the final test.
-- **Beast** – Detailed steps below.
-- **Ultra Instinct** (Sign / full variants) – Defeat Full Power Jiren in the relevant mission path after the update that added it.
-- **The Power to Overcome** – Future Saga Chapter 4 exclusive (detailed below).
+## Universal (All Races)
 
-## Race-Restricted Highlights
-- **Saiyan**: Super Saiyan 1/2/3, Super Vegeta 1/2, Future Super Saiyan, SSGSS / Blue Evolution paths.
-- **Frieza Race**: Turn Golden / Golden Evolution.
-- **Namekian**: Become Giant / Super Namekian.
-- **Majin**: Purification.
-- **Earthling**: Power Pole Pro and strong Kaioken synergy.
+### Kaioken (Regular / x3 / x20)
+- Progressive stages with increasing attack power and stamina drain.
+- Higher stages reduce or eliminate Z-Vanish stamina cost at the expense of heavy stamina drain and defense penalties.
+- Classic high-risk, high-reward option.
 
-## Exact Unlock: Beast (All Races)
-1. Ensure the free update / Hero of Justice content that introduced Beast is installed (DLC 16 era).
-2. Max Friendship with **Piccolo** *and* **Gohan & Videl** (they share a friendship track).
-3. Talk to Piccolo (commonly near the Time Nest entrance or Orange Star High School area) and select the option “I want to receive further training” / “I want to train even more”, then “Let’s spar”.
-4. Complete the special mission against Cell Max (Orange Piccolo and Gohan (DBS Super Hero) assist). A cutscene triggers Beast when allies are downed.
-5. Defeat Cell Max to finish the mission. Beast is unlocked permanently for **all** CaCs on the account.
+### Potential Unleashed
+- Requires 500 Ki.
+- Balanced boosts to attack and defense.
+- Improved Ki generation / recovery properties.
+- No major drawbacks — reliable all-rounder.
+- Unlocked via the final Advancement Test (Z-rank all previous tests).
 
-**Properties (summary)**: Massive power boost, improved Ki recovery, new combo string (H, L, H, H, H, H, H), teleport on certain basic attacks, red eyes (and hair change where applicable). Consumes 500 Ki on activation.
+### Beast
+- Requires and consumes 500 Ki on activation.
+- Large attack boosts (+30% range reported) with defense penalties.
+- Improved Ki restoration.
+- Adds special combo strings and teleport properties on certain attacks.
+- Strong glass-cannon style transformation.
 
-**Sources**:
-- [dbxv2.fandom.com – Beast](https://dbxv2.fandom.com/wiki/Beast)
-- [WikiHow – How to Get Beast in Xenoverse 2](https://www.wikihow.com/Get-Beast-in-Xenoverse-2)
-- [CBR – How To Unlock Gohan Beast](https://www.cbr.com/xenoverse-2-gohan-beast-form-guide-dragon-ball/)
-- Multiple community video guides (Burcol, Steedoj, etc.) confirming the friendship + Cell Max path.
+### Ultra Instinct
+- Requires 500 Ki (consumption behavior updated in later patches).
+- No flat attack/defense multipliers.
+- Core feature: Auto-dodge on basic attacks and normal Ki Blasts (costs stamina).
+- Can follow successful dodges with a counter.
+- Guard + Heavy input enables a built-in charge.
+- Replaces/improves Ki Blasts with Soaring Fist / Spirit Pulse variants.
+- Emphasis on evasion and counterplay rather than raw stats.
 
-## Exact Unlock: The Power to Overcome (Final Awoken Skill)
-1. Purchase and install **Future Saga Chapter 4** DLC.
-2. Progress through the Future Saga Chapter 4 Extra Mission story (starting around Quest 24).
-3. Complete the final mission: **Quest No. 31 – Ultimate All-Out Showdown**.
-4. The Awoken Skill unlocks automatically on clear (along with related costume rewards).
+### The Power to Overcome (Future Saga Chapter 4)
+- Requires and consumes 500 Ki.
+- **Stage 1**: Defense boost, movement speed increase, health auto-recovery at ≤50% HP, grab becomes an unblockable slash that can interrupt Ultimates.
+- **Stage 2 (Unleashed)**: Re-input the command for a temporary high-power state with rapid/near-infinite Ki recovery, significant attack boosts, and further speed. Drains health while active. Has a cooldown before it can be used again.
+- Unique two-stage design focused on sustained pressure and recovery options.
 
-**Properties (summary)**: Throw attacks become unblockable slashes; Auto-Recovery Mode activates at 50% HP or lower; re-input the command for a temporary Unleashed mode that boosts damage and Ki recovery while draining health. Consumes 500 Ki on activation.
+## Race-Specific Highlights
+- **Saiyan**: Super Saiyan (1/2/3), Super Vegeta (1/2), Future Super Saiyan, and higher forms (SSG, SSB, SSBE, etc.) depending on unlocks. Progressive damage and mobility benefits; some stages reduce Ki recovery.
+- **Earthling**: Power Pole Pro (among others).
+- **Namekian**: Become Giant / related forms.
+- **Frieza Race**: Turn Golden.
+- **Majin**: Purification (and related).
 
-**Sources**:
-- [dbxv2.fandom.com – The Power to Overcome](https://dbxv2.fandom.com/wiki/The_Power_to_Overcome)
-- [noleep.com guide](https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/)
-- Community video confirmations (SLOplays, Super saiyan Cabby28, and others) stating completion of the final Chapter 4 story mission is the requirement.
-- Bandai Namco Future Saga Chapter 4 announcements (July 2026).
+Many race forms can be staged upward if enough Ki is available, and several grant teleport/warp properties on charged attacks or specific inputs.
 
-For full mechanical details, ki costs, stage differences, and older transformations, cross-reference the Fandom Awoken Skill pages and dragonballxenoverse2.wiki.
+## General Notes
+- Only one Awoken Skill can be equipped at a time.
+- Activation often has a brief window of vulnerability or stamina armor that can be broken.
+- Super Souls can heavily synergize with specific Awoken Skills (activation triggers, duration, or conditional bonuses).
+- Choice of Awoken Skill is one of the biggest factors in build identity (raw power vs. utility vs. evasion).
+
+**Sources**:  
+dbxv2.fandom.com Awoken Skill pages (including Beast, Ultra Instinct, Potential Unleashed, The Power to Overcome), community stat breakdowns and testing videos (2023–2026), in-game descriptions.
