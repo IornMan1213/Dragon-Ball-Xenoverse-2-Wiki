@@ -21,6 +21,7 @@ Open community knowledge base for *Dragon Ball Xenoverse 2*. **Sources cited on 
 | [Parallel Quests](docs/Parallel-Quests.md) | Farming routes |
 | [Expert Missions](docs/Expert-Missions.md) | TP Medal farming |
 | [Crystal Raids](docs/Crystal-Raids.md) | Demon Realm Crystals |
+| [Hero Colosseum](docs/Hero-Colosseum.md) | Figure battler minigame |
 | [Time Rifts & Eggs](docs/Time-Rifts-Eggs.md) | Distorted Time Eggs |
 | [Shenron Wishes](docs/Shenron-Wishes.md) | Dragon Ball wishes |
 | [QQ Bangs](docs/QQ-Bangs.md) | Stat override gear |

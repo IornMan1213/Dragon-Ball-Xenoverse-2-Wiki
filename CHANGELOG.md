@@ -8,9 +8,12 @@
 - Added Combat Basics.
 - Added Future Saga Overview (Chapters 1–4).
 - Added consolidated Farming Hub.
-- Expanded Super Souls with key XP/TP farming souls (My Hobbies…, 40 Ton Weights, Marba).
+- Expanded Super Souls with key XP/TP farming souls.
 - Added dedicated Limit Burst page.
-- Expanded Attributes page with Level 199 guidance and Ki/Stamina thresholds.
+- Expanded Attributes page with Level 199 guidance.
+- Added Hero Colosseum overview.
+- Expanded Characters unlock methods summary.
+- Expanded Glitches & Bugs with platform notes and recent reports.
 - All major pages include Sources sections citing Fandom, official announcements, community guides, Reddit, and video creators.
 - README navigation kept current.
 

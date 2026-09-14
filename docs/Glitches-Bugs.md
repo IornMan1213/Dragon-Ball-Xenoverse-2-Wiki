@@ -1,24 +1,24 @@
-# Known Glitches, Bugs & Exploits
+# Known Glitches, Bugs & Platform Notes
 
-**Strong Warning**: Glitches can cause crashes, softlocks, save issues, or online bans. Prefer offline play. Information is community-reported and changes with patches. Always back up saves.
+As a long-supported live-service title, *Xenoverse 2* has accumulated various bugs and quirks over the years. Many have been patched; others persist or reappear after major updates.
 
-## Recent / Notable (2025–2026)
-- **Infinite History / “Unwelcome Challenger” crash** (reported around July 2026): On Xbox and PC Game Pass versions, certain path choices can crash when Vegeta transforms into Super Saiyan. PlayStation versions were reported working. Different path selection or waiting for a patch are the main workarounds.  
-  *Source*: Community report via @ContonMods on X (July 2026) and related discussions.
+## Notable Categories (Community-Reported)
+- **Online / Multiplayer stability** — Occasional lobby, matchmaking, or connection issues. Platform-specific problems have been reported (e.g. Windows 10 vs 11 differences in some periods, temporary post-patch launch failures on Steam that were later resolved).
+- **Quest / Story crashes** — Rare path-specific crashes in certain DLC quests (example: reported Infinite History path crash on Xbox / PC Game Pass in mid-2026 involving Vegeta’s transformation; other platforms may differ).
+- **Visual / Camera** — Ultrawide support requires community fixes (e.g. DBXV2Fix ASI plugin) for proper FOV and HUD scaling.
+- **Item / Save related** — Older duplication methods involving gifts + cloud/USB save restores have circulated; use at your own risk and preferably offline.
+- **Modding / Trainers** — Version-specific Cheat Engine tables and trainers exist for offline use. Always keep backups; online use risks bans.
 
-- Occasional post-update launch or online stability issues on Steam (usually resolved via official maintenance).  
-  *Source*: Steam news hub for DRAGON BALL XENOVERSE 2.
-
-## Older / Persistent Mentions
-- Item duplication methods involving gifting + cloud/USB restore (platform-dependent, ToS risk).
-- Various offline trainers and Cheat Engine tables for infinite items, max stats, always Z-rank, Shenron anytime, etc. (PC only, version-matched tables required).
-- Ultrawide support and FOV adjustments via community ASI plugins (e.g. DBXV2Fix) — requires non-EAC launch.
+## General Advice
+- Keep the game updated.
+- For PC, community tools (xv2patcher, DBXV2Fix, etc.) address many quality-of-life and compatibility issues.
+- Report persistent bugs through official Bandai support channels when possible.
 
 **Sources**:
-- ContonMods and community X/Twitter reports
-- Steam news and forums
-- FearLess Revolution and similar trainer communities (for offline tools)
-- Codeberg / GitHub modding repos (DBXV2Fix and LibXenoverse-related projects)
-- Reddit r/dbxv bug report threads
+- ContonMods and community X/Twitter reports on specific DLC quest crashes
+- Steam news posts about resolved online/launch issues
+- Codeberg / GitHub DBXV2Fix and modding repositories
+- FearlessRevolution and other trainer discussion threads (offline focus)
+- General community reports on Reddit and Steam forums
 
-This list is intentionally high-level. Check Reddit, ContonMods, and Discord communities for the absolute latest reports and reproduction steps.
+This page is not exhaustive. Check recent Reddit / Discord / ContonMods posts for the latest platform-specific issues after major patches.
