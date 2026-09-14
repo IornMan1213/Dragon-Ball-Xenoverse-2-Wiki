@@ -1,0 +1,8 @@
+{
+  "pass": 6,
+  "primary_data": "docs/data/pq-population-pass-6.json",
+  "schema": "docs/data/pq-population-pass-6.schema.json",
+  "coverage": "docs/data/pq-population-pass-6.coverage.json",
+  "source_notes": "docs/data/pq-population-pass-6.sources.md",
+  "records": 6
+}
