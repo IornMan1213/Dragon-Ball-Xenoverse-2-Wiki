@@ -62,11 +62,14 @@ This is the reliable core of the database — skills where an actual effect, cos
 | Become Giant | Awoken Skill, Namekian-only | Grows the user to roughly Great Ape size, changing almost their entire moveset; drains 20 Stamina/second, and ends automatically if Stamina runs out. |
 | Turn Golden | Awoken Skill, Frieza Race-only | Sharply increases charged and combo ki blast damage (cited multipliers: ~360% charged, ~366%/122% combo hits), and converts charged ki blasts into "quick blasts" that override certain Super Soul effects. |
 | Power Pole Pro | Awoken Skill, Human-only | Increases speed and basic-strike range, allows moving while blocking, and reverts after taking a set amount of damage; regular skills are disabled while active. |
+| Counter Impact (Vegeta GT) | Ki Blast Super, Counter Skill | User enters a brief stance, then teleports behind the opponent and fires a ki wave if hit during that window. Only counters Strike/Normal attacks — Ki-based attacks do not trigger it. |
 
 ## Scope note — what's still missing
 - **Full category listings**: only Majin (10/10) and Namekian (4/4) skill categories have been fully retrieved. Counter Skills is 19/25. Strike Supers, Ki Blast Supers, Strike Ultimates, Ki Blast Ultimates, Other Ultimates, all four Evasive subtypes, Power Up Supers, Other Supers, Saiyan Skills, Posing Skills, and Transformations haven't been pulled yet — each is its own Fandom category page (likely dozens of entries each).
 - **Individual effect descriptions**: the ~30 entries in the Verified Effects table above are a small fraction of the 400+ total skills — everything else is currently just a name inside a category, same honesty rule as [Skills-Detail.md](Skills-Detail.md): don't infer effect from name.
 - **This page needs several more research passes** to actually reach "complete." Good next steps, roughly in order of value: (1) pull the remaining Evasive/Ultimate/Super subcategory lists to get full name coverage, (2) work through Fandom's individual skill pages for effect descriptions on high-usage skills first (things that show up on Tier List/meta discussion pages), (3) fill in the Saiyan Skills and Frieza Race skill categories to match Majin/Namekian.
+
+A community-maintained "DBXV2 Abilities Spreadsheet" turned up on Google Drive during this session's research and wasn't opened yet — worth checking directly next time, since a single well-maintained spreadsheet could cover far more ground per research pass than working through Fandom's ~15 category pages one at a time.
 
 **Sources**:
 - [dbxv2.fandom.com – Category:Skills](https://dbxv2.fandom.com/wiki/Category:Skills) (category structure)
