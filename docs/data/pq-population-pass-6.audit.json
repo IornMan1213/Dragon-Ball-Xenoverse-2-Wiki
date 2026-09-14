@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "pass": 6,
+  "records_added": 6,
+  "record_numbers": [1, 10, 11, 12, 13, 14],
+  "verification_status": "partially_verified",
+  "source_policy": "Datamined quest records are used for concrete gameplay fields; Fandom is retained as the canonical category/index corroboration source.",
+  "known_limitations": [
+    "This pass is not the complete PQ catalog.",
+    "Some unlock relationships in the source data require broader graph reconciliation.",
+    "Exact drop tables for every reward slot are not yet represented in the repository record layer.",
+    "PQ 36 remains a numbering gap and is not fabricated."
+  ],
+  "next_population_targets": [15, 16, 17, 18, 19, 20, 23, 40, 83, 100, 122, 134, 137, 182, 183, 184, 185, 186]
+}
