@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "domain": "parallel_quests",
+  "population_pass": 6,
+  "new_detailed_records": 6,
+  "newly_detailed_numbers": [1, 10, 11, 12, 13, 14],
+  "seed_records_before_pass": 6,
+  "note": "The detailed slice is additive. It does not overwrite the six original seed records and does not claim the overall PQ domain is complete.",
+  "overall_domain_status": "in_progress"
+}
