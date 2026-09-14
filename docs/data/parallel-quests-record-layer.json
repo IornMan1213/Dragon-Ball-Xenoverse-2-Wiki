@@ -1,0 +1,15 @@
+{
+  "schema_version":"1.0",
+  "game":"Dragon Ball Xenoverse 2",
+  "status":"indexed_record_population",
+  "source_index":"https://dbxv2.fandom.com/wiki/Parallel_Quests",
+  "numbering_rule":"PQ 36 is a numbering gap and is not represented as an invented record.",
+  "records":[
+    {"id":"pq-004","number":4,"name":"Prepare for the Attack of Saiyans!","difficulty":null,"dlc_requirement":null,"unlock_method":null,"objectives":[],"ultimate_finish":null,"enemies":[],"rewards":[],"skill_rewards":[],"equipment_rewards":[],"super_soul_rewards":[],"dragon_ball_farming":null,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Parallel_Quests"]},
+    {"id":"pq-023","number":23,"name":"The Explosion of Namek","difficulty":null,"dlc_requirement":null,"unlock_method":null,"objectives":[],"ultimate_finish":null,"enemies":[],"rewards":[],"skill_rewards":[],"equipment_rewards":[],"super_soul_rewards":[],"dragon_ball_farming":null,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Parallel_Quests"]},
+    {"id":"pq-083","number":83,"name":"Dangerous Duo! Warriors Never Rest","difficulty":null,"dlc_requirement":null,"unlock_method":null,"objectives":[],"ultimate_finish":null,"enemies":[],"rewards":[],"skill_rewards":[],"equipment_rewards":[],"super_soul_rewards":[],"dragon_ball_farming":null,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Parallel_Quests"]},
+    {"id":"pq-100","number":100,"name":"The Ultimate Rivalry","difficulty":null,"dlc_requirement":null,"unlock_method":null,"objectives":[],"ultimate_finish":null,"enemies":[],"rewards":[],"skill_rewards":[],"equipment_rewards":[],"super_soul_rewards":[],"dragon_ball_farming":null,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Parallel_Quests"]},
+    {"id":"pq-122","number":122,"name":"The Final Battle Before the Final Battle?!","difficulty":null,"dlc_requirement":null,"unlock_method":null,"objectives":[],"ultimate_finish":null,"enemies":[],"rewards":[],"skill_rewards":[],"equipment_rewards":[],"super_soul_rewards":[],"dragon_ball_farming":null,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Parallel_Quests"]},
+    {"id":"pq-134","number":134,"name":"Universe 7's Next God of Destruction","difficulty":null,"dlc_requirement":null,"unlock_method":null,"objectives":[],"ultimate_finish":null,"enemies":[],"rewards":[],"skill_rewards":[],"equipment_rewards":[],"super_soul_rewards":[],"dragon_ball_farming":null,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Parallel_Quests"]}
+  ]
+}
