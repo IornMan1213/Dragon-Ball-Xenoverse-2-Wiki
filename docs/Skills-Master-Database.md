@@ -34,7 +34,26 @@ The Fandom Skills category currently exposes the following useful category snaps
 | Majin Skills | 10 | Category indexed |
 | Unavailable for CaC | 37 | Special classification |
 
-The interactive database links each category directly to its source so the user can inspect the full live category while the local wiki fills in individual records.
+The live category links remain available from the interactive database. The repository now also has a machine-readable `docs/data/skills.json` seed and a JSON Schema at `docs/data/skills.schema.json` so the project can grow into a real data source rather than a collection of hand-written HTML tables.
+
+## Structured Data Pipeline
+
+The canonical record shape is designed around four layers:
+
+1. **Identity** — name, class and subcategory.
+2. **Availability** — race restriction, CaC availability, character source and DLC requirement.
+3. **Acquisition / mechanics** — costs, unlock source, finish requirements and mechanics.
+4. **Verification** — status, date and source URLs.
+
+Current records deliberately use `verification_status: indexed` when only category membership has been established. A record should move to `partially_verified` or `verified` only after the relevant mechanics/acquisition fields are checked.
+
+### Local data files
+
+- `docs/data/skills.json` — current hand-curated seed used by the browser database.
+- `docs/data/skills.schema.json` — machine-readable record contract.
+- `scripts/sync_skills.py` — reproducible indexer for Fandom category pages. It is intentionally conservative and records category membership before mechanics.
+
+The sync script is the foundation for the next pass: generate the complete category-member manifest, normalize duplicate memberships, then enrich records without losing the original source trail.
 
 ## Race / Special Categories
 
@@ -43,9 +62,18 @@ The interactive database links each category directly to its source so the user 
 - **Namekian / Frieza Race / Human**: these are separate race-oriented pools and should be kept as explicit tags in the eventual per-skill records rather than inferred from the skill name.
 - **Unavailable for CaC**: a special classification for skills exclusive to preset/cast characters and therefore not equippable by custom characters.
 
-## Verified Effects
+## Verification Queue
 
-The original verified-effects table remains the trusted mechanical subset. It includes entries such as Justice Combination, Spirit Sword, Giant Storm, Perfect Kamehameha, Death Ball, Big Bang Kamehameha, Heavenly Arrow, Deadly Dance, Become Giant, Turn Golden, Power Pole Pro and Counter Impact. New entries should be added only when the mechanic can be independently verified.
+The first enrichment pass should prioritize skills that players commonly search for, then expand outward:
+
+| Priority | Data to verify | Why it matters |
+|---|---|---|
+| 1 | Unlock method + source mission/shop | Makes the database actionable |
+| 2 | Ki/Stamina cost | Enables build and loadout comparisons |
+| 3 | Skill behavior/mechanics | Makes entries useful beyond names |
+| 4 | CaC/race availability | Prevents unusable build recommendations |
+| 5 | DLC / event requirements | Helps players locate missing content |
+| 6 | PvE/PvP notes | Adds practical context without pretending there is one universal tier list |
 
 ## Database Record Standard
 
@@ -79,14 +107,14 @@ This makes the wiki suitable for search, filters, build recommendations and futu
 
 ## Research Roadmap
 
-1. Complete category-member manifests for every Super, Ultimate and Evasive subtype.
+1. Generate complete category-member manifests for every Super, Ultimate, Evasive and race/special subtype.
 2. Normalize duplicate names that appear in more than one category.
 3. Add Awoken and race-specific records.
 4. Add acquisition data: mentor, PQ, Expert Mission, TP Medal Shop, Shenron, raid/event or DLC.
 5. Add Ki/Stamina costs and damage type from reliable references.
 6. Add individual mechanic notes for commonly used skills first.
 7. Add a verification date and source to every record.
-8. Generate the interactive database from the structured records rather than hand-maintaining HTML tables.
+8. Generate all interactive views and exports from the structured records instead of hand-maintaining duplicate tables.
 
 **Primary source**: Dragon Ball Xenoverse 2 Wiki on Fandom, especially the Skills category and its subcategories. Fandom's category pages identify the skill taxonomy and member lists; this project uses those pages as a reference/index while writing its own database presentation and explanatory material.
 
