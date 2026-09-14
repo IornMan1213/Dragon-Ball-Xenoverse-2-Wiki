@@ -1,0 +1,64 @@
+name: Deploy Wiki Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: wiki-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare Markdown articles
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .site-src
+          cp -R docs .site-src
+          find .site-src -type f -name '*.md' -print0 | while IFS= read -r -d '' file; do
+            if [[ "$(head -n 1 "$file" || true)" != "---" ]]; then
+              title=$(basename "$file" .md | tr '-' ' ')
+              tmp="${file}.tmp"
+              {
+                printf '%s\n' '---'
+                printf 'layout: wiki\n'
+                printf 'title: "%s"\n' "$title"
+                printf '%s\n' '---'
+                cat "$file"
+              } > "$tmp"
+              mv "$tmp" "$file"
+            fi
+          done
+
+      - name: Build Jekyll site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./.site-src
+          destination: ./_site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

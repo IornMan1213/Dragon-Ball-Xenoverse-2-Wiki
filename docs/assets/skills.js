@@ -1,78 +1,78 @@
-const categories=[
-['Ki Blast Supers','Super','Ki Blast',183,'https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers'],
-['Strike Supers','Super','Strike',130,'https://dbxv2.fandom.com/wiki/Category:Strike_Supers'],
-['Ki Blast Ultimates','Ultimate','Ki Blast',110,'https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates'],
-['Strike Ultimates','Ultimate','Strike',30,'https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates'],
-['Other Supers','Super','Other',32,'https://dbxv2.fandom.com/wiki/Category:Other_Supers'],
-['Power Up Supers','Super','Power Up',20,'https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers'],
-['Ki Blast Evasives','Evasive','Ki Blast',23,'https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives'],
-['Strike Evasives','Evasive','Strike',16,'https://dbxv2.fandom.com/wiki/Category:Strike_Evasives'],
-['Other Evasives','Evasive','Other',11,'https://dbxv2.fandom.com/wiki/Category:Other_Evasives'],
-['Power Up Evasives','Evasive','Power Up',2,'https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives'],
-['Other Ultimates','Ultimate','Other',3,'https://dbxv2.fandom.com/wiki/Category:Other_Ultimates'],
-['Saiyan Skills','Awoken','Race',10,'https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills'],
-['Majin Skills','Awoken','Race',10,'https://dbxv2.fandom.com/wiki/Category:Majin_Skills'],
-['Unavailable for CaC','Mixed','Special',37,'https://dbxv2.fandom.com/wiki/Category:Unavailable_for_CaC']
-];
-const records=[
-['Big Bang Kamehameha','Super','Ki Blast','Fandom category confirmed'],
-['Bending Kamehameha','Super','Ki Blast','Fandom category confirmed'],
-['Destructo-Disc','Super','Ki Blast','Fandom category confirmed'],
-['Divine Kamehameha','Super','Ki Blast','Fandom category confirmed'],
-['Emperor\'s Blast','Super','Ki Blast','Fandom category confirmed'],
-['Final Flash (Super)','Super','Ki Blast','Fandom category confirmed'],
-['Galick Gun','Super','Ki Blast','Fandom category confirmed'],
-['Kamehameha','Super','Ki Blast','Fandom category confirmed'],
-['Masenko','Super','Ki Blast','Fandom category confirmed'],
-['Perfect Shot','Super','Ki Blast','Fandom category confirmed'],
-['Spirit Bomb','Super','Ki Blast','Fandom category confirmed'],
-['Vanishing Ball','Super','Ki Blast','Fandom category confirmed'],
-['Whirlwind Blade','Super','Ki Blast','Fandom category confirmed'],
-['Big Bang Knuckle','Super','Strike','Fandom category confirmed'],
-['Deadly Dance','Super','Strike','Fandom category confirmed'],
-['Demon Flash Strike','Super','Strike','Fandom category confirmed'],
-['Dragon Fist','Ultimate','Strike','Fandom category confirmed'],
-['Divine Lasso','Ultimate','Strike','Fandom category confirmed'],
-['Godly Display','Ultimate','Strike','Fandom category confirmed'],
-['Justice Combination','Ultimate','Strike','Mechanics noted in Master DB'],
-['Spirit Sword','Ultimate','Strike','Mechanics noted in Master DB'],
-['Victory Rush','Ultimate','Strike','Fandom category confirmed'],
-['Death Ball','Ultimate','Ki Blast','Fandom category confirmed'],
-['Emperor\'s Death Beam','Ultimate','Ki Blast','Fandom category confirmed'],
-['Final Kamehameha','Ultimate','Ki Blast','Fandom category confirmed'],
-['Final Explosion','Ultimate','Ki Blast','Fandom category confirmed'],
-['Supernova','Ultimate','Ki Blast','Fandom category confirmed'],
-['Supernova Cooler','Ultimate','Ki Blast','Fandom category confirmed'],
-['Super Spirit Bomb','Ultimate','Ki Blast','Fandom category confirmed'],
-['Ultra Fighting Bomber','Ultimate','Ki Blast','Fandom category confirmed'],
-['Afterimage','Super','Other','Fandom category confirmed'],
-['Energy Charge','Super','Other','Fandom category confirmed'],
-['Instant Transmission','Super','Other','Fandom category confirmed'],
-['Meditation','Super','Power Up','Fandom category confirmed'],
-['Data Input','Super','Power Up','Fandom category confirmed'],
-['Fighting Pose K','Super','Power Up','Fandom category confirmed'],
-['Absolute Zero','Evasive','Ki Blast','Fandom category confirmed'],
-['Dragon Burn','Evasive','Ki Blast','Fandom category confirmed'],
-['Explosive Wave','Evasive','Ki Blast','Fandom category confirmed'],
-['Saiyan Blaster','Evasive','Ki Blast','Fandom category confirmed'],
-['Angry Shout','Evasive','Strike','Fandom category confirmed'],
-['Energy Barrier','Evasive','Strike','Fandom category confirmed'],
-['Spirit Explosion','Evasive','Strike','Fandom category confirmed'],
-['Punisher Guard','Evasive','Other','Fandom category confirmed'],
-['Warp','Evasive','Other','Fandom category confirmed'],
-['Final Pose','Evasive','Power Up','Fandom category confirmed'],
-['Mach Dash','Evasive','Power Up','Fandom category confirmed'],
-['Super Saiyan','Awoken','Race','Saiyan category confirmed'],
-['Super Saiyan God','Awoken','Race','Saiyan category confirmed'],
-['Super Saiyan God Super Saiyan','Awoken','Race','Saiyan category confirmed'],
-['Super Saiyan God Super Saiyan (Evolved)','Awoken','Race','Saiyan category confirmed'],
-['Future Super Saiyan','Awoken','Race','Saiyan category confirmed'],
-['Super Vegeta','Awoken','Race','Saiyan category confirmed'],
-['Purification','Awoken','Race','Majin category confirmed'],
-['Become Giant','Awoken','Race','Namekian category confirmed'],
-['Turn Golden','Awoken','Race','Frieza Race skill category / Master DB'],
-['Power Pole Pro','Awoken','Race','Human skill category / Master DB']
-];
-const catBox=document.querySelector('#categories'), recBox=document.querySelector('#records'), q=document.querySelector('#skillSearch'), type=document.querySelector('#typeFilter'), sub=document.querySelector('#subFilter');
-function draw(){const term=(q.value||'').toLowerCase();const tf=type.value,sf=sub.value;catBox.innerHTML=categories.filter(c=>(!tf||c[1]===tf)&&(!sf||c[2]===sf)&&(!term||c.join(' ').toLowerCase().includes(term))).map(c=>`<a class="db-card" href="${c[4]}" target="_blank" rel="noopener"><span class="count">${c[1]} • ${c[2]} • ${c[3]} INDEXED</span><h3>${c[0]}</h3><p>Open source category reference and continue into individual skill pages.</p><b>Browse source →</b></a>`).join('');recBox.innerHTML=records.filter(r=>(!tf||r[1]===tf)&&(!sf||r[2]===sf)&&(!term||r.join(' ').toLowerCase().includes(term))).map(r=>`<div class="seed-row"><b>${r[0]}</b><span>${r[1]} / ${r[2]}</span><small>${r[3]}</small></div>`).join('');}
-[q,type,sub].forEach(x=>x?.addEventListener('input',draw));draw();
+const categoryMeta = {
+  "Ki Blast Supers": ["Super", "Ki Blast"],
+  "Strike Supers": ["Super", "Strike"],
+  "Ki Blast Ultimates": ["Ultimate", "Ki Blast"],
+  "Strike Ultimates": ["Ultimate", "Strike"],
+  "Other Supers": ["Super", "Other"],
+  "Power Up Supers": ["Super", "Power Up"],
+  "Ki Blast Evasives": ["Evasive", "Ki Blast"],
+  "Strike Evasives": ["Evasive", "Strike"],
+  "Other Evasives": ["Evasive", "Other"],
+  "Power Up Evasives": ["Evasive", "Power Up"],
+  "Other Ultimates": ["Ultimate", "Other"],
+  "Saiyan Skills": ["Awoken", "Race"],
+  "Majin Skills": ["Awoken", "Race"],
+  "Namekian Skills": ["Awoken", "Race"],
+  "Frieza Race Skills": ["Awoken", "Race"],
+  "Human Skills": ["Awoken", "Race"],
+  "Unavailable for CaC": ["Mixed", "Special"]
+};
+
+const categoryUrls = Object.fromEntries(Object.keys(categoryMeta).map(name => [
+  name,
+  `https://dbxv2.fandom.com/wiki/Category:${name.replaceAll(" ", "_")}`
+]));
+
+const catBox = document.querySelector('#categories');
+const recBox = document.querySelector('#records');
+const q = document.querySelector('#skillSearch');
+const type = document.querySelector('#typeFilter');
+const sub = document.querySelector('#subFilter');
+
+function render(data) {
+  const term = (q?.value || '').toLowerCase().trim();
+  const tf = type?.value || '';
+  const sf = sub?.value || '';
+  const categories = Object.entries(data.category_counts || {})
+    .map(([name, count]) => ({ name, count, ...(categoryMeta[name] || ['Mixed', 'Other']) }))
+    .filter(c => (!tf || c[0] === tf) && (!sf || c[1] === sf) && (!term || `${c.name} ${c[0]} ${c[1]}`.toLowerCase().includes(term)));
+
+  catBox.innerHTML = categories.map(c => `
+    <a class="db-card" href="${categoryUrls[c.name] || '#'}" target="_blank" rel="noopener">
+      <span class="count">${c[0]} • ${c[1]} • ${c.count} INDEXED</span>
+      <h3>${c.name}</h3>
+      <p>Open the source category and continue into individual skill pages.</p>
+      <b>Browse source →</b>
+    </a>`).join('');
+
+  const records = (data.records || []).filter(r =>
+    (!tf || r.class === tf) &&
+    (!sf || r.subcategory === sf) &&
+    (!term || Object.values(r).join(' ').toLowerCase().includes(term))
+  );
+
+  recBox.innerHTML = records.length ? records.map(r => `
+    <div class="seed-row">
+      <b>${r.name}</b>
+      <span>${r.class} / ${r.subcategory}${r.race_restriction ? ` / ${r.race_restriction}` : ''}</span>
+      <small>${r.verification_status}</small>
+    </div>`).join('') : '<div class="seed-row"><b>No records matched.</b><small>Try clearing one of the filters.</small></div>';
+}
+
+async function boot() {
+  try {
+    const response = await fetch('data/skills.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    render(await response.json());
+  } catch (error) {
+    catBox.innerHTML = '<div class="db-card"><h3>Database unavailable</h3><p>The canonical JSON file could not be loaded. The source links remain available in the repository.</p></div>';
+    console.error('Skills database load failed:', error);
+  }
+}
+
+[q, type, sub].filter(Boolean).forEach(x => x.addEventListener('input', () => window.__skillsData && render(window.__skillsData)));
+
+fetch('data/skills.json', { cache: 'no-store' })
+  .then(r => r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`)))
+  .then(data => { window.__skillsData = data; render(data); })
+  .catch(() => boot());
