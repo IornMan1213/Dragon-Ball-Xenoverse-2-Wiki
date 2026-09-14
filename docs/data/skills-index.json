@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.1",
+  "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
+  "status": "generated_by_workflow",
+  "generator": "scripts/sync_skills.py"
+}
