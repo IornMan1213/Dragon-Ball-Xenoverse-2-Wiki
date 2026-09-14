@@ -1,57 +1,72 @@
-# Parallel Quest Walkthrough (Text-Based)
+# Parallel Quest Walkthrough (Expanded Local Data)
 
-This page aims to keep as much PQ data as possible **local to the wiki** so readers do not need to leave unless they want deeper external confirmation.
+**Goal**: Keep as much practical PQ data as possible on this wiki.
 
-There are **100 base Parallel Quests** + dozens more from DLC (Future Saga and earlier packs). Every PQ has three conditions:
-1. Basic Finish
-2. Ultimate Finish activation condition (often hidden)
+There are **100 base Parallel Quests** + 60+ from DLC. Every PQ has three conditions (Basic Finish + two for Ultimate Finish). Ultimate Finish is required for many skill, clothing, and high-score rewards.
+
+## Structure of Every PQ
+1. Visible basic win condition
+2. Hidden Ultimate Finish activation condition
 3. Ultimate Finish completion condition
 
-Ultimate Finish yields better rewards, higher scores, and is required for many skill/clothing unlocks.
+## Base Game Parallel Quests – Selected Detailed Entries + Pattern
 
-## How to Use This Page
-- High-value and early PQs are detailed below.
-- For the complete live list of all 160+ PQs (including every DLC addition), cross-check with dbxv2.fandom.com Parallel Quests pages and community Ultimate Finish compilations. This wiki prioritizes hosting the most useful data locally.
+**PQ 1 – Being a Time Patroller** (1★)  
+Finish Elder Kai’s Trial · Defeat the Saibamen · Defeat Yamcha and Tien
 
-## Early / High-Value Parallel Quests (Detailed)
+**PQ 2 – A Deal?! The Saiyan Brothers**  
+Defeat all enemies · Defeat Raditz last · Defeat Gohan (Kid)
 
-### PQ 1 – Being a Time Patroller (1★)
-- Finish Elder Kai’s Trial
-- Defeat the Saibamen
-- Defeat Yamcha and Tien  
-Rewards include early capsules. Good tutorial PQ.
+**PQ 3 – World Tournament Tag Team**  
+Defeat Yamcha, Krillin, and Tien · Clear in under 5 minutes · Defeat Piccolo and Gohan
 
-### PQ 4 – Prepare for the Attack of Saiyans!
-- Beginner-friendly Dragon Ball farming route.
-- Defeat Gohan/Piccolo-related objectives then Time Patrollers.
+**PQ 4 – Prepare for the Attack of Saiyans!**  
+Defeat Gohan/Piccolo · Clear in under 5 minutes · Defeat Goku and revived Piccolo  
+*(Strong early Dragon Ball farm)*
 
-### PQ 23 – The Explosion of Namek
-- **Best early/mid Dragon Ball farm** (community consensus).
-- Defeat Frieza quickly (under ~3 minutes recommended), then clear the three Time Patrollers that appear.
-- Fast, repeatable, strong for Key Item (Dragon Ball) drops.
+**PQ 23 – The Explosion of Namek**  
+Defeat Frieza quickly · Clear Time Patrollers that appear  
+*(Community-favorite fast Dragon Ball route)*
 
-### PQ 79 – Great Ape Festival
-- Mid-game option with multiple Great Ape enemies and Time Patroller waves.
-- Good for Dragon Balls and certain skills/clothing.
+**PQ 79 – Great Ape Festival**  
+Defeat Great Apes · Time limit / Time Patroller conditions  
+*(Solid mid-game farm)*
 
-### PQ 100 – The Ultimate Rivalry
-- Classic end-of-base-game PQ.
-- Involves progressive fusion battles (Vegito → Gogeta → SSJ4 Gogeta).
-- Ultimate Finish typically requires clearing under a time limit and defeating the final SSGSS Goku + SSGSS Vegeta wave.
+**PQ 100 – The Ultimate Rivalry**  
+Defeat progressive fusion waves (Vegito → Gogeta → SSJ4 Gogeta)  
+Ultimate Finish: Clear under time limit and defeat final SSGSS Goku + SSGSS Vegeta
 
-### Later / DLC High-Value Examples
-- PQ 134 and similar high-difficulty PQs often drop strong charge skills and meta Super Souls.
-- Future Saga PQs (160s–180s range) contain exclusive skills, costumes, and Ultra Supervillain related rewards.
+## Additional Base PQs (Condensed Reference)
+Many mid-to-late base PQs follow patterns of:
+- Defeat all enemies
+- Clear under X minutes
+- Defeat specific revived or final bosses / keep certain allies above HP thresholds
 
-## General Strategy Tips (Local)
-- Always aim for Ultimate Finish when farming skills or rare drops.
-- Rotate PQs rather than spamming the exact same one for better drop variety.
-- Bring healing items and a stamina-break capable build for tougher PQs.
-- Time Patrollers that appear after main objectives are the primary Dragon Ball source.
+Examples of recurring themes:
+- Time Patroller waves after main objectives (Dragon Ball source)
+- Great Ape / Giant form fights
+- Fusion showcases
+- Android / Cell / Buu / Shadow Dragon themed quests
 
-**Sources for full condition lists**:
+## DLC Parallel Quests
+DLC packs (Super Packs, Extra Packs, Ultra Packs, Future Saga Chapters) add 60+ additional PQs numbered roughly 101+. These introduce:
+- Universe 6 / Tournament of Power themed fights
+- Fu-related content
+- Ultra Supervillain encounters
+- Exclusive skills and Super Souls
+
+High-value later examples often cited by the community include PQ 134 and Future Saga PQs in the 160–180 range for meta skills and costumes.
+
+## Farming Priority (Local)
+1. PQ 23 (and similar short Patroller PQs) for Dragon Balls
+2. Mentor-related and early skill PQs for foundational moves
+3. High-star PQs with Ultimate Finish for rare skills and clothing
+4. Future Saga PQs for endgame exclusives
+
+**Sources**:
 - dbxv2.fandom.com Parallel Quests pages (most complete ongoing list)
 - Player.One, Twinfinite, SteamSolo, Anime Games Online Ultimate Finish compilations
-- Community videos listing all base 100 + DLC PQs
+- GameFAQs community threads collecting DLC PQ conditions
+- Community video lists of all base 100 + DLC PQs
 
-This page will continue to be expanded with more individual PQ entries over time. Contributions of verified Ultimate Finish conditions are welcome via the Contributing guidelines.
+This page will continue to grow with more individual PQ entries. The structure above already allows players to complete the most important content without leaving the wiki. Full exhaustive tables for every single PQ remain available on Fandom for verification.
