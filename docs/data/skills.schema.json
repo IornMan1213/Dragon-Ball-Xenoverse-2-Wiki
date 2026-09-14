@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://iornman1213.github.io/Dragon-Ball-Xenoverse-2-Wiki/data/skills.schema.json",
+  "title": "Dragon Ball Xenoverse 2 Skill Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "class", "subcategory", "verification_status", "sources"],
+  "properties": {
+    "name": {"type": "string"},
+    "class": {"enum": ["Super", "Ultimate", "Evasive", "Awoken", "Mixed"]},
+    "subcategory": {"enum": ["Ki Blast", "Strike", "Power Up", "Other", "Race", "Special"]},
+    "race_restriction": {"type": ["string", "null"]},
+    "usable_by_cac": {"type": ["boolean", "null"]},
+    "character_source": {"type": ["string", "null"]},
+    "dlc_requirement": {"type": ["string", "null"]},
+    "ki_cost": {"type": ["integer", "null"], "minimum": 0},
+    "stamina_cost": {"type": ["integer", "null"], "minimum": 0},
+    "damage_type": {"type": ["string", "null"]},
+    "unlock_method": {"type": ["string", "null"]},
+    "source_quest_or_shop": {"type": ["string", "null"]},
+    "ultimate_finish_required": {"type": ["boolean", "null"]},
+    "skill_description": {"type": ["string", "null"]},
+    "mechanics_notes": {"type": ["string", "null"]},
+    "combo_notes": {"type": ["string", "null"]},
+    "pve_notes": {"type": ["string", "null"]},
+    "pvp_notes": {"type": ["string", "null"]},
+    "verification_status": {"enum": ["indexed", "partially_verified", "verified"]},
+    "last_verified": {"type": ["string", "null"], "format": "date"},
+    "sources": {"type": "array", "items": {"type": "string", "format": "uri"}, "minItems": 1}
+  }
+}
