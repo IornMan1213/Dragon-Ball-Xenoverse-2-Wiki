@@ -39,7 +39,15 @@ const batchFiles = [
   'data/skill-catalog-batches/other-ultimates.json',
   'data/skill-catalog-batches/power-up-supers.json',
   'data/skill-catalog-batches/power-up-evasives.json',
-  'data/skill-catalog-batches/power-up-ultimates.json'
+  'data/skill-catalog-batches/power-up-ultimates.json',
+  'data/skill-catalog-batches/counter-skills.json',
+  'data/skill-catalog-batches/transformations.json',
+  'data/skill-catalog-batches/unavailable-cac.json',
+  'data/skill-catalog-batches/saiyan-skills.json',
+  'data/skill-catalog-batches/majin-skills.json',
+  'data/skill-catalog-batches/namekian-skills.json',
+  'data/skill-catalog-batches/frieza-race-skills.json',
+  'data/skill-catalog-batches/human-skills.json'
 ];
 Promise.all([
   fetch('data/skills.json', {cache:'no-store'}).then(r => r.json()),
