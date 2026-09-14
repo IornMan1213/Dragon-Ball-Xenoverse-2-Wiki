@@ -1,0 +1,1 @@
+Pass 2 is ready to merge. It strengthens the exhaustive wiki's canonical data layer and leaves record population as the next explicit phase.
