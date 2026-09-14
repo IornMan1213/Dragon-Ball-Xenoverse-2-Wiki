@@ -1,0 +1,13 @@
+{
+  "pass": 6,
+  "checks": {
+    "record_ids_unique": true,
+    "numbers_positive": true,
+    "difficulty_range_valid": true,
+    "sources_present": true,
+    "verification_statuses_valid": true,
+    "pq_36_not_fabricated": true,
+    "partial_verification_used_for_incomplete_records": true
+  },
+  "result": "pass"
+}
