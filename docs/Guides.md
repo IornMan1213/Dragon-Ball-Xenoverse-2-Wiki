@@ -44,4 +44,4 @@ This wiki is moving toward a database model rather than isolated guide pages. A 
 
 The new [Skills Database](skills-database.html) separates category coverage from verified mechanics so the wiki does not turn guesses into “facts.”
 
-**Sources**: This page synthesizes the repository's progression pages plus the current skill-category structure from the Dragon Ball Xenoverse 2 Fandom wiki. The Fandom Skills category distinguishes Super, Ultimate, Evasive, Awoken and race/special categories, while individual category pages provide the current index counts used by the database project. citeturn6search4turn7search5
+**Sources**: Repository progression pages, the Dragon Ball Xenoverse 2 Fandom Skills category, and its individual skill-category pages. The Fandom category system distinguishes Super, Ultimate, Evasive, Awoken and race/special categories.
