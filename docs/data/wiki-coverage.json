@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "game": "Dragon Ball Xenoverse 2",
   "last_audited": "2026-09-14",
   "purpose": "Track exhaustive coverage across the entire wiki. A domain is not considered complete merely because a landing page exists; records, relationships, acquisition data, verification and source provenance must also be covered.",
@@ -11,6 +11,14 @@
     "Source conflicts are recorded rather than silently resolved",
     "Automated duplicate and missing-field checks pass"
   ],
+  "coverage_baselines": {
+    "characters_source_category": 155,
+    "dlc_characters_source_category": 54,
+    "mentors_including_dlc": 33,
+    "transformations": 18,
+    "unavailable_for_cac_skill_records": 37,
+    "ki_blast_supers_source_category": 183
+  },
   "domains": [
     {"id":"skills","status":"in_progress","priority":"critical","expected":"Every skill, variant, category, user restriction, cost, acquisition source and mechanics field"},
     {"id":"characters","status":"in_progress","priority":"critical","expected":"Every playable/cast character, form, preset, skills and availability"},
