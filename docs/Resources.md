@@ -1,24 +1,36 @@
 # Community Resources & Tools
 
-## Wikis & Guides
-- https://dbxv2.fandom.com — Detailed pages for skills, characters, mentors, quests
-- https://dragonballxenoverse2.wiki/ — Builds, tier lists, calculators, 2026-updated guides
-- Reddit: r/dbxv , r/DragonBallXenoverse2 (check pinned / wiki tabs for FAQs and spreadsheets)
+## Primary Wikis
+- **https://dbxv2.fandom.com** — Most complete traditional wiki (skills, characters, mentors, quests, Super Souls).
+- **https://dragonballxenoverse2.wiki/** — Modern, guide-focused site with builds, tier lists, calculators, and 2026 updates.
 
-## Tools & Modding (PC, Offline Recommended)
-- LibXenoverse2 (and forks) — File format library and converters
-- xv2patcher, xv2ins, character/skill/costume creators (by eterniti and others on GitHub)
-- Community trainers / Cheat Engine tables (FearLess Revolution etc.) — version-specific
-- Ultrawide fix: DBXV2Fix (Codeberg)
+## Reddit
+- r/dbxv
+- r/DragonBallXenoverse2  
+Check pinned posts, wiki tabs, and search for “spreadsheet”, “checklist”, “level 199”, “QQ Bang”.
 
-## Spreadsheets
-Search Reddit for "Xenoverse 2 checklist", "attribute points level 199", "equipment tracking", "QQ Bang" — many Google Sheets are shared and updated by the community.
+## Video Creators (Unlock & Guide Focus)
+- **Burcol** — Extremely thorough “unlock every skill / every character / every Awoken” series.
+- ContonMods, SLOplays, Steedoj, and others for DLC showcases and specific unlocks.
 
-## Video Creators
-- Burcol — Extremely thorough unlock-all videos for skills, characters, Awoken Skills
-- Others: ContonMods, Steedoj, various build/showcase channels
+## Spreadsheets & Calculators
+Community Google Sheets for:
+- Full unlock checklists
+- Attribute point distributions (especially Level 199 Ki/Stamina focused)
+- Equipment / QQ Bang tracking
+- PQ Z-Rank progress  
+Search Reddit for the latest shared links (they get updated regularly).
 
-## Official
-- Bandai Namco / Dragon Ball official sites and Steam news for patch notes and DLC announcements
+## PC Tools & Modding (Offline / Single-Player Recommended)
+- **LibXenoverse2** (and forks) — File format handling, conversion tools.
+- **xv2patcher**, **xv2ins**, character/skill/costume creators (eterniti and related GitHub repos).
+- Community Cheat Engine tables / trainers (FearLess Revolution etc.) — version-specific, use offline only.
+- Ultrawide / FOV fixes (e.g. DBXV2Fix).
 
-Contribute links or corrections via Pull Request!
+**Important**: Most modding and trainers require launching without Easy Anti-Cheat and are intended for single-player. Online use risks bans.
+
+## Official Channels
+- Bandai Namco / Dragon Ball Games official sites and socials for patch notes and DLC announcements.
+- Steam news hub for the game.
+
+Feel free to PR additional high-quality links!
