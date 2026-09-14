@@ -27,7 +27,11 @@ function render(data, verified = [], batches = []) {
   const records = [...all.values()].filter(r => (!tf || r.class === tf) && (!sf || r.subcategory === sf) && (!term || Object.values(r).join(' ').toLowerCase().includes(term)));
   recBox.innerHTML = records.length ? records.map(r => `<div class="seed-row"><b>${r.name}</b><span>${r.class} / ${r.subcategory}${r.race_restriction ? ` / ${r.race_restriction}` : ''}${r.unlock_method ? ` — ${r.unlock_method}` : ''}</span><small>${r.verification_status}</small></div>`).join('') : '<div class="seed-row"><b>No records matched.</b><small>Try clearing one of the filters.</small></div>';
 }
-const batchFiles = ['data/skill-catalog-batches/ki-blast-ultimates.json','data/skill-catalog-batches/strike-supers.json'];
+const batchFiles = [
+  'data/skill-catalog-batches/ki-blast-ultimates.json',
+  'data/skill-catalog-batches/strike-supers.json',
+  'data/skill-catalog-batches/ki-blast-supers.json'
+];
 Promise.all([
   fetch('data/skills.json', {cache:'no-store'}).then(r => r.json()),
   fetch('data/verified-skills.json', {cache:'no-store'}).then(r => r.json()),
