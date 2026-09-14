@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "official_baseline",
+  "source_priority": "official",
+  "release_date": "2026-07-08",
+  "is_final_dlc": true,
+  "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+  "content": {
+    "playable_characters": [
+      "Supreme Kai of Time (Ultra Supervillain)",
+      "Goku (Ultra Supervillain Quelled)"
+    ],
+    "ultra_time_patrol_battles": true,
+    "time_gallery": true,
+    "final_extra_missions_arc": true,
+    "parallel_quests": true,
+    "additional_moves": true,
+    "costumes": true
+  },
+  "policy": "This baseline establishes official existence and provenance only. Individual records require their own sources before promotion to verified."
+}
