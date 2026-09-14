@@ -1,20 +1,23 @@
 # Crystal Raids & Demon Realm Crystals
 
-**Demon Realm Crystals** are items primarily obtained from Expert Missions (non-tutorial). They are used to host **Crystal Raid Battles**, in which the host becomes a powered-up boss (Supervillain state) and fights against other Time Patrollers.
+Crystal Raids allow players to act as a Supervillain boss (or fight against one) using Demon Realm Crystals.
 
-## Obtaining Crystals
-- Drop from Expert Missions (higher chance on later EMs; EM 14, 18, 19, 20 often cited for better rates).
-- Alternative: Purchase certain gifts from the TP Medal Shop and give them to Fu (after unlocking the corresponding raid boss). Subsequent gifts of the same type can yield multiple crystals (commonly reported as 10).
-- Also usable as mixing materials in some cases.
+## Obtaining Demon Realm Crystals
+- Drop from Expert Missions (higher chance on later missions).
+  - Notable drop rates (approximate community data):
+    - EM 14: ~30%
+    - EM 18 / 19: ~30%
+    - EM 20: ~50%
+    - EM 16 / 17: lower (~8%)
+- Alternative: Give Fu certain gifts (after unlocking the corresponding Crystal Raid boss). Repeat gifts can yield 10 crystals each.
 
 ## Crystal Raid Modes
-- Standard Crystal Raid: Host spends a crystal to become the boss.
-- Double Crystal Raid variants exist and are noted by the community for broader skill drop potential (including many skills otherwise obtained from PQs).
+- Standard Crystal Raid: Use a crystal to become the boss.
+- Double Crystal Raid: Higher rewards, including a strong chance at skills the player does not yet own.
 
-Rewards can include clothing, skills, and other items. Drop tables and exact rates have been community-datamined over the years.
+## Farming Tips
+- Expert Mission 18 (Broly) and EM 20 are popular for crystal drops due to good rates and clear speed with a strong group.
+- Fu gift method is efficient if you have surplus TP Medals and the relevant gifts available in the shop.
+- Double Crystal Raids are excellent for filling missing skills.
 
-**Sources**:
-- [dbxv2.fandom.com – Crystal Raid Battle](https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle)
-- [Dragon Ball Wiki – Demon Realm Crystal](https://dragonball.fandom.com/wiki/Demon_Realm_Crystal)
-- Reddit crystal raid strategy threads and farming discussions
-- Community videos on fastest crystal methods (Expert Missions + Fu gifts)
+**Sources**: dbxv2.fandom.com Crystal Raid / Demon Realm Crystal pages, community farming videos and drop rate discussions.

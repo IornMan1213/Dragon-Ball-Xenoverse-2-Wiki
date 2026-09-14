@@ -1,19 +1,22 @@
 # QQ Bangs
 
-QQ Bangs are special equipment that **override** the attribute bonuses/penalties of regular clothing. This lets you wear any fashion while keeping optimized stats.
+QQ Bangs override the stats of all four clothing slots, allowing builds to ignore clothing restrictions.
 
-## How to Craft
-1. Unlock the Capsule Corporation Time Rift.
-2. Speak to the Clothing Mixing Shop robot near Bulma.
-3. Provide: **two pieces of clothing** + **one mixing item/capsule** + Zeni.
-4. Result is RNG but heavily influenced by the star rating and stats of the materials used. Higher-star clothing and Super Mix Capsule Z (or equivalent high-tier mixers) produce better (up to 6-star) QQ Bangs.
+## How to Create
+- Go to the Mixing Shop (near Capsule Corp Time Rift / Bulma area).
+- Mix **two pieces of clothing** + **one mixing item** (Super Mix Capsule Z is best for 6-star results).
+- Higher-star clothing generally produces better QQ Bangs.
+- Results have RNG — many players save before mixing and reload if the stats are poor.
 
-Common goals: +5 in desired offensive or resource stats with minimal negatives. Community recipes frequently use combinations involving Bardock Battle Suit, Beerus clothes, Light Heart Suit, and similar high-stat pieces with Super Mix Capsule Z.
+## Key Materials
+- **Super Mix Capsule Z**: Best mixing item for 6-star QQ Bangs (obtained from multiplayer modes / certain drops).
+- Popular high-star clothing: Battle Suit (Bardock), Beerus’ Clothes, Light Heart Suit, and various DLC/high-tier outfits.
 
-**Sources**:
-- [dbxv2.fandom.com – QQ Bang](https://dbxv2.fandom.com/wiki/QQ_Bang)
-- GameRant, Prima, Player.One, and GameSkinny recipe / creation guides
-- Burcol and other YouTube “best 6-star QQ Bang” videos (2024+ methods)
-- Long-running community spreadsheets and Reddit recipe sharing
+## Popular Approaches (Community)
+- Bardock Battle Suit + Beerus Clothes + Super Mix Capsule Z (very common for strong mixed stats)
+- Light Heart Suit combinations for resource-focused results
+- Same high-star pieces paired together for more consistent directional results
 
-Because results are RNG, players often save before mixing or use community-documented high-consistency recipes. Check current videos and spreadsheets for the latest optimal mixes at high level caps.
+Exact final stats vary due to randomness. Focus on clothing with high star ratings and the best available mixing capsule.
+
+**Sources**: Community QQ Bang guides and recipe testing (Burcol and others), Mixing Shop mechanics, player-reported results.
