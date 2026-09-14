@@ -1,57 +1,59 @@
 # Parallel Quests (PQs)
 
-Parallel Quests are the primary side content of *Dragon Ball Xenoverse 2*. They take place in alternate timelines and often feature “what-if” scenarios (including fighting alongside villains). They are a major source of skills, Super Souls, clothing, Zeni, and character unlocks.
+Parallel Quests are the main side content of *Dragon Ball Xenoverse 2*. They feature alternate timelines and “what-if” scenarios, and are a major source of skills, Super Souls, clothing, Zeni, and unlocks.
 
-There are **100 base-game PQs** (difficulty 1–7 stars) plus many more added by DLC (101+). DLC PQs require the corresponding pack.
+- **Base game**: 100 PQs (1–7 stars)
+- **DLC**: Dozens more (101+), requiring the corresponding pack
 
-## Core Mechanics
+## Core Mechanics (Summary)
+- **Regular Finish** → basic clear  
+- **Ultimate Finish Activation** → opens the extended phase  
+- **Ultimate Finish Completion** → best rewards (blue “Ultimate Finish” text)  
+- Failure mainly occurs if the player team (you + up to 2 allies) is fully KO’d or time runs out  
+- Allies can be revived by staying near their body  
+- Skills/equipment drop from specific enemies or randomly on Ultimate Finish  
+- Multiplayer shares skill unlocks among the party  
+- Optional “Patrollers in Training” groups can drop materials, medals, clothing, and occasional Dragon Balls
 
-### Completion Conditions
-Every PQ has up to three conditions:
-1. **Regular Finish** — The basic clear condition. Completing only this ends the quest with standard rewards.
-2. **Ultimate Finish Activation** — A hidden or secondary condition that must be met to open the Ultimate Finish phase.
-3. **Ultimate Finish Completion** — The final condition that awards the blue “Ultimate Finish” text and the best reward table.
+## Notable & High-Value Parallel Quests (Practical Index)
+Drawn from the full list for farming, skill, and progression priority.
 
-Failing after activating Ultimate Finish still counts as a successful regular clear (no full failure screen), but rewards and score are lower.
+### Early / Fast Farming
+| # | Name | Stars | Why Useful |
+|---|------|-------|------------|
+| 23 | The Explosion of Namek | 3 | Fast Dragon Ball farming (Frieza under ~3 min + Patrollers) |
+| 4 | Prepare for the Attack of Saiyans! | 1 | Early clear, basic rewards |
+| 83 | Dangerous Duo! Warriors Never Rest | 7 | Popular multiplayer route for Super Mix Capsule / Super Mix Capsule Z (via Quest Tour) |
 
-### Failure Conditions
-- All player-controlled characters (you + up to 2 chosen allies) are KO’d and cannot be revived in time.
-- Time limit expires (most PQs have a 15-minute limit; some are shorter, e.g. exploding Namek variants ~5 minutes, or grant extra time per enemy defeated).
+### Strong Skill / Equipment Sources (Examples)
+| # | Name | Notable Rewards / Notes |
+|---|------|-------------------------|
+| 2 | A Deal?! The Saiyan Brothers | “Flying Nimbus!!”, Spirit Slash |
+| 8 | Invade Earth | Kaioken |
+| 14 | Saiyan Pride | Kaioken Kamehameha |
+| 24 | Super Saiyan Legend | Double Death Slicer |
+| 57 | Hell is a Picture? | Gogeta’s Clothes, Rakshasa’s Claw |
+| 59 | Potara Warrior | Vegito’s Clothes, Dimension Cannon |
+| 76 | Eternal Rival | Warp Kamehameha, SSGSS cosmetics |
+| 95 | Super 17, the Ultimate Android | Drain Field, Flash Bomber |
+| 100 | The Ultimate Rivalry | x100 Big Bang Kamehameha |
 
-Friendly NPCs do **not** count toward the “all allies KO’d” failure condition and cannot revive the player team.
+### DLC Highlights (Selected)
+- **Super Packs / Extra Packs / Ultra Packs**: Introduce Universe 6/7, Goku Black/Zamasu, Tournament of Power, Broly (Full Power), etc. content and exclusive skills.
+- **Hero of Justice Packs**: Gamma 1/2, Beast-related, and movie-tied rewards.
+- **Future Saga Chapters 1–4**: Large set of high-difficulty PQs (163+) with new skills (e.g. Dragon Spiral, Indomitable, Venus Fist), artwork, and late-game rewards. Chapter 4 includes some of the highest Zeni and newest moves.
 
-### Revival
-If you or a chosen ally is KO’d, fly to their body and stay near it to fill the revive gauge. On revival the character returns with partial health, full stamina, and no Ki. Transformations disabled by the KO remain disabled.
+Many 7-star and DLC PQs gate exclusive Super Souls, clothing sets, and high-tier skills behind Ultimate Finish or specific enemy kills.
 
-### Rewards Structure
-- Zeni (scales with PQ number/difficulty)
-- Consumable / craft item
-- Clothing, Super Soul, and/or Skill(s)
-
-Skills and equipment can drop in two ways:
-- Defeating a specific enemy (notification appears)
-- Randomly on Ultimate Finish
-
-In multiplayer, if one player obtains a skill, the others also receive it (if they don’t already have it).
-
-### Patrollers in Training
-Some PQs spawn groups of 3 optional Time Patrollers. Defeating them can drop materials, Hercule medals, clothing, and occasionally a Dragon Ball (shown as “Key Item Acquired”).
-
-### Unlocking
-- Base PQs (1–100): Progress through the story, speak to Conton City NPCs with blue markers, or complete other PQs.
-- DLC PQs (101+): Require the appropriate DLC pack.
-
-## Notable High-Value / Farming PQs (Examples)
-- **PQ 23 – The Explosion of Namek**: Fast Dragon Ball farming route (defeat Frieza quickly + Time Patrollers).
-- **PQ 83**: Common multiplayer route for Super Mix Capsule / Super Mix Capsule Z via Parallel Quest Tour.
-- Higher-star and DLC PQs: Primary sources for many exclusive skills, Super Souls, and late-game clothing.
-
-Ultimate Finish is strongly recommended when farming rare skills or equipment.
-
-## DLC Parallel Quests
-DLC packs (Super, Extra, Ultra, Legendary, Hero of Justice, Future Saga, etc.) each add multiple new PQs, often themed around the new characters and story content of that pack. Future Saga chapters in particular added a large number of high-difficulty PQs with new skills and rewards.
+## Farming Tips Using the List
+- Prioritize Ultimate Finish on any PQ that lists skills or Super Souls you still need.
+- Use PQ 23 repeatedly for Dragon Balls.
+- Use Multiplayer Parallel Quest Tour (especially PQ 83) for Super Mix Capsule Z.
+- Higher-numbered and DLC PQs generally offer better Zeni and rarer drops.
+- Check the second page of each PQ’s in-game description for the exact reward table.
 
 **Sources**:  
-Provided Parallel Quest mechanics and list data (community compilation), dbxv2.fandom.com Parallel Quests overview, in-game PQ descriptions and reward tables, community farming consensus for high-value routes.
+User-provided Parallel Quest compilation (mechanics + full base + DLC list), cross-checked against community knowledge of high-value routes and drop patterns.  
+This page synthesizes the data into a practical, original reference focused on usefulness rather than a verbatim encyclopedia dump.
 
-This page prioritizes mechanics and practical structure so the information stays useful and self-contained on the wiki.
+The full raw list is extensive; this index highlights the most actionable entries for progression and farming. Additional specific PQs can be expanded on request.
