@@ -16,7 +16,7 @@ Open community knowledge base for *Dragon Ball Xenoverse 2*. **Sources cited on 
 | [Skill Unlock Methods](docs/Skill-Unlock-Methods.md) | Obtaining skills |
 | [Mentors](docs/Mentors.md) | Instructors & rewards |
 | [Awoken Skills](docs/Awoken-Skills.md) | Transformations |
-| [Level Cap & Attributes](docs/Level-Cap-Attributes.md) | Leveling & stats |
+| [Level Cap & Attributes](docs/Level-Cap-Attributes.md) | Leveling, points, Level 199 |
 | [Advancement Tests](docs/Advancement-Tests.md) | Potential Unleashed |
 | [Parallel Quests](docs/Parallel-Quests.md) | Farming routes |
 | [Expert Missions](docs/Expert-Missions.md) | TP Medal farming |
@@ -26,10 +26,11 @@ Open community knowledge base for *Dragon Ball Xenoverse 2*. **Sources cited on 
 | [QQ Bangs](docs/QQ-Bangs.md) | Stat override gear |
 | [Partner Customization](docs/Partner-Customization.md) | Keys & options |
 | [Conton City](docs/Conton-City.md) | Key NPCs |
-| [Combat Basics](docs/Combat-Basics.md) | Vanish, stamina, fundamentals |
-| [Future Saga](docs/Future-Saga.md) | Chapters 1–4 overview |
-| [Farming Hub](docs/Farming-Hub.md) | Consolidated resource methods |
-| [Super Souls](docs/Super-Souls.md) | Passives |
+| [Combat Basics](docs/Combat-Basics.md) | Vanish, stamina |
+| [Limit Burst](docs/Limit-Burst.md) | Super Soul power-up |
+| [Future Saga](docs/Future-Saga.md) | Chapters 1–4 |
+| [Farming Hub](docs/Farming-Hub.md) | Consolidated methods |
+| [Super Souls](docs/Super-Souls.md) | Key farming & effects |
 | [Guides](docs/Guides.md) | Beginner priority |
 | [Builds](docs/Builds.md) | Race approaches |
 | [Characters](docs/Characters.md) | Roster unlocks |

@@ -1,51 +1,29 @@
-# Level Cap & Attribute Points
+# Level Cap & Attributes
 
 ## Level Cap Progression
-Default starts at **80**. Raised stepwise through Guru (Namekian Time Rift) and later Whis (food items bought from the Item Shop for 100,000 Zeni each):
+- Starts at 80.
+- Raised stepwise via Guru (Namekian Time Rift) and later by feeding special foods to Whis (parfait → tempura → sushi → octopus balls, etc.).
+- Current maximum: **Level 199** (Future Saga Chapter 4 era).
 
-| Cap | How to Unlock (approximate) |
-|-----|-----------------------------|
-| 80  | Default / early Guru after Namekian Rift progress |
-| 85–99 | Repeated Guru visits after reaching previous cap |
-| 99 → 120 | Whis + Parfait |
-| 120 → 140 | Whis + further food item (Tempura / Sushi era) |
-| 140 → 160 | Whis + further food (e.g. Octopus Ball) |
-| 160 → 180 | Further Whis training |
-| **199** | Final raise tied to the Future Saga Chapter 4 free update window (community-confirmed July 2026) |
+Attribute points increase with level. At Level 199 players receive a large total pool (community reports around 600 total points depending on prior allocations).
 
-Level cap increases are **account-wide**. Attribute point totals scale with level.
+## Per-Stat Caps
+- Default max investment per attribute: 100.
+- Raised to 125 via Guru “unlock potential”.
+- Raised further (up to 200) after reaching certain levels and speaking with Whis / using the appropriate items.
 
-Approximate total attribute points (from Fandom data, with later caps reported higher by community):
-- Level 80 ≈ 332
-- Level 99 ≈ 375
-- Level 120 ≈ 422
-- Level 140 ≈ 467
-- Level 160 ≈ 512
-- Level 180 ≈ 557
-- Level 199: community reports around 600 total points when none are allocated.
+## Ki & Stamina Bars at High Level
+With a strong QQ Bang (+5 in Ki and/or Stamina), relatively few attribute points are needed to reach the practical maximum of ~15 bars of Ki and Stamina. Community spreadsheets for Level 199 provide exact point thresholds for +0 to +5 QQ Bangs.
 
-## Attribute Caps Per Stat
-- Default: 100 points per individual attribute
-- After Guru “unlock potential”: 125
-- After Whis (level 99+ path): up to 200 per stat
+Typical endgame approach:
+- Invest the minimum needed for desired Ki and Stamina bars (often 15 each with +5 QQ Bang).
+- Put remaining points into Health and the offensive stats that match the build (Basic, Strike Supers, or Ki Blast Supers), frequently maxing preferred damage stats at 200.
 
-Per-stat raises are **per character**.
-
-## The Six Attributes
-1. Health  
-2. Max Ki  
-3. Max Stamina  
-4. Basic Attacks  
-5. Strike Supers  
-6. Ki Blast Supers  
-
-Race, height, and weight affect base values. Clothing and QQ Bangs add further modifiers.
+Race, height, and body type also influence effective Health and slight damage modifiers.
 
 **Sources**:
 - [dbxv2.fandom.com – Attributes](https://dbxv2.fandom.com/wiki/Attributes)
-- [dbxv2.fandom.com – Level](https://dbxv2.fandom.com/wiki/Level)
-- Reddit r/dbxv – “Attribute Points System (Level Cap: 199)” post (July 2026) and related community spreadsheets
-- dragonballxenoverse2.wiki FAQ and level-up guides (2026 updates)
-- Community confirmation posts and videos around the July 2026 final update window regarding level 199
-
-**Practical Tips**: Reach the soft cap → talk to Guru/Whis → continue leveling. Tosok can level with Zeni early and TP Medals later. High-score PQs + score-boosting Super Souls are efficient. Always back up saves before major redistribution.
+- Reddit Level 199 attribute spreadsheets and discussions (r/dbxv)
+- Steam Community Level 199 attribute guides
+- Community videos demonstrating Ki/Stamina thresholds with different QQ Bangs
+- dragonballxenoverse2.wiki attribute calculator tools
