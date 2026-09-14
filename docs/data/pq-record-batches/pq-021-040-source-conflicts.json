@@ -1,0 +1,8 @@
+{
+  "schema_version":"1.0",
+  "range":"PQ 21-40",
+  "conflicts":[
+    {"topic":"PQ 36 numbering","status":"needs_reconciliation","details":"Current-game source lists The Cell Games Begin as PQ 36, while an older project rule described PQ 36 as a numbering gap. No final PQ count is changed by this batch.","sources":["https://dbxv2.fandom.com/wiki/Parallel_Quests","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]},
+    {"topic":"reward attribution","status":"needs_reconciliation","details":"Several guides list rewards but do not consistently identify whether each reward is a normal-clear, Ultimate-Finish, or opponent-specific drop. The batch therefore keeps all records partially verified.","sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]}
+  ]
+}
