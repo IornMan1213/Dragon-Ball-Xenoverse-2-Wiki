@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "official_indexed_records",
+  "dlc_requirement": "FUTURE SAGA Chapter 4",
+  "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+  "records": [
+    {
+      "id": "system-ultra-time-patrol-battles",
+      "name": "Ultra Time Patrol Battles",
+      "type": "gameplay_system",
+      "availability": "FUTURE SAGA Chapter 4",
+      "rules": null,
+      "rewards": null,
+      "verification_status": "indexed"
+    },
+    {
+      "id": "system-time-gallery",
+      "name": "Time Gallery",
+      "type": "gameplay_system",
+      "availability": "FUTURE SAGA Chapter 4",
+      "rules": null,
+      "rewards": null,
+      "verification_status": "indexed"
+    },
+    {
+      "id": "story-future-saga-chapter-4-final-extra-missions-arc",
+      "name": "FUTURE SAGA Chapter 4 Final Extra Missions Arc",
+      "type": "story_content",
+      "availability": "FUTURE SAGA Chapter 4",
+      "objectives": null,
+      "cutscenes": null,
+      "verification_status": "indexed"
+    }
+  ],
+  "policy": "Official existence is recorded; detailed mechanics, objectives, rewards, and unlock conditions remain unresolved until independently sourced."
+}
