@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a normalized XV2 skill catalog from Fandom categories + page data."""
+"""Build a normalized XV2 skill catalog from public Fandom wiki pages."""
 from __future__ import annotations
 
 import html
@@ -9,6 +9,7 @@ import time
 import urllib.parse
 import urllib.request
 from datetime import date
+from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,193 +17,203 @@ INDEX_OUT = ROOT / "docs" / "data" / "skills-index.json"
 CANONICAL_OUT = ROOT / "docs" / "data" / "skills.json"
 MARKDOWN_OUT = ROOT / "docs" / "Skills-Auto-Database.md"
 BASE = "https://dbxv2.fandom.com"
-API = BASE + "/api.php"
 
 CATEGORIES = {
-    "Ki Blast Supers": ("Super", "Ki Blast"),
-    "Strike Supers": ("Super", "Strike"),
-    "Ki Blast Ultimates": ("Ultimate", "Ki Blast"),
-    "Strike Ultimates": ("Ultimate", "Strike"),
-    "Other Supers": ("Super", "Other"),
-    "Power Up Supers": ("Super", "Power Up"),
-    "Ki Blast Evasives": ("Evasive", "Ki Blast"),
-    "Strike Evasives": ("Evasive", "Strike"),
-    "Other Evasives": ("Evasive", "Other"),
-    "Power Up Evasives": ("Evasive", "Power Up"),
-    "Power Up Ultimates": ("Ultimate", "Power Up"),
-    "Other Ultimates": ("Ultimate", "Other"),
-    "Saiyan Skills": ("Awoken", "Race"),
-    "Majin Skills": ("Awoken", "Race"),
-    "Namekian Skills": ("Awoken", "Race"),
-    "Frieza Race Skills": ("Awoken", "Race"),
-    "Human Skills": ("Awoken", "Race"),
-    "Transformations": ("Awoken", "Race"),
-    "Unavailable for CaC": ("Mixed", "Special"),
-    "Counter Skills": ("Counter", "Counter"),
+    "Ki Blast Supers": ("Super", "Ki Blast"), "Strike Supers": ("Super", "Strike"),
+    "Ki Blast Ultimates": ("Ultimate", "Ki Blast"), "Strike Ultimates": ("Ultimate", "Strike"),
+    "Other Supers": ("Super", "Other"), "Power Up Supers": ("Super", "Power Up"),
+    "Ki Blast Evasives": ("Evasive", "Ki Blast"), "Strike Evasives": ("Evasive", "Strike"),
+    "Other Evasives": ("Evasive", "Other"), "Power Up Evasives": ("Evasive", "Power Up"),
+    "Power Up Ultimates": ("Ultimate", "Power Up"), "Other Ultimates": ("Ultimate", "Other"),
+    "Saiyan Skills": ("Awoken", "Race"), "Majin Skills": ("Awoken", "Race"),
+    "Namekian Skills": ("Awoken", "Race"), "Frieza Race Skills": ("Awoken", "Race"),
+    "Human Skills": ("Awoken", "Race"), "Transformations": ("Awoken", "Race"),
+    "Unavailable for CaC": ("Mixed", "Special"), "Counter Skills": ("Counter", "Counter"),
 }
 
 HEADERS = {
-    "User-Agent": "XV2-Wiki-Skills-Sync/3.2 (+https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki)",
-    "Accept": "application/json,text/plain,*/*",
+    "User-Agent": "Mozilla/5.0 (compatible; XV2-Wiki-Skills-Sync/3.3; +https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki)",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-FIELD_ALIASES = {
-    "ki_cost": {"ki cost", "ki", "ki required", "ki req"},
-    "stamina_cost": {"stamina cost", "stamina", "stamina required", "stamina req"},
-    "damage_type": {"type", "damage type", "attack type"},
-    "unlock_method": {"unlock", "how to obtain", "obtained", "obtain", "acquisition", "acquired from"},
-    "source_quest_or_shop": {"source", "quest", "parallel quest", "pq", "shop", "obtained from"},
-    "dlc_requirement": {"dlc", "dlc requirement", "pack", "expansion"},
-    "race_restriction": {"race", "race restriction", "available to"},
-    "character_source": {"character", "user", "users", "cast", "character source"},
-    "usable_by_cac": {"cac", "usable by cac", "custom character", "custom characters"},
-}
 
-
-def http_json(url: str) -> dict:
+def fetch_text(url: str) -> str:
     request = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(request, timeout=45) as response:
-        return json.loads(response.read().decode("utf-8", "replace"))
+    with urllib.request.urlopen(request, timeout=60) as response:
+        return response.read().decode("utf-8", "replace")
 
 
-def api(params: dict[str, str | int]) -> dict:
-    query = urllib.parse.urlencode({"format": "json", "formatversion": 2, **params})
-    return http_json(f"{API}?{query}")
+class LinkParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.links: list[tuple[str, str]] = []
+        self._href: str | None = None
+        self._text: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "a":
+            return
+        attrs_map = dict(attrs)
+        href = attrs_map.get("href")
+        classes = (attrs_map.get("class") or "").lower()
+        if href and ("category-page__member-link" in classes or "category-page__member" in classes):
+            self._href = href
+            self._text = []
+
+    def handle_data(self, data: str) -> None:
+        if self._href is not None:
+            self._text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() == "a" and self._href is not None:
+            text = re.sub(r"\s+", " ", "".join(self._text)).strip()
+            if text:
+                self.links.append((self._href, text))
+            self._href = None
+            self._text = []
+
+
+class TextParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.text: list[str] = []
+        self._skip = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        t = tag.lower()
+        if t in {"script", "style", "noscript", "svg"}:
+            self._skip += 1
+        elif self._skip == 0 and t in {"br", "p", "div", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6"}:
+            self.text.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        t = tag.lower()
+        if t in {"script", "style", "noscript", "svg"} and self._skip:
+            self._skip -= 1
+        elif self._skip == 0 and t in {"p", "div", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6"}:
+            self.text.append("\n")
+
+    def handle_data(self, data: str) -> None:
+        if self._skip == 0:
+            self.text.append(data)
+
+
+def visible_text(page_html: str) -> str:
+    parser = TextParser()
+    parser.feed(page_html)
+    return html.unescape("".join(parser.text))
 
 
 def normalize_text(value: str) -> str:
-    value = re.sub(r"<ref[^>]*>.*?</ref>", "", value, flags=re.I | re.S)
-    value = re.sub(r"<[^>]+>", " ", value)
-    value = re.sub(r"\{\{[^{}]*\}\}", "", value)
-    value = re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", value)
-    value = re.sub(r"'{2,5}", "", value)
     value = html.unescape(value)
-    value = re.sub(r"\s+", " ", value)
+    value = re.sub(r"[ \t\r]+", " ", value)
+    value = re.sub(r"\n\s*\n+", "\n", value)
     return value.strip(" |\t\r\n")
 
 
 def canonical_key(label: str) -> str:
-    label = normalize_text(label).casefold()
-    return re.sub(r"[^a-z0-9]+", " ", label).strip()
+    return re.sub(r"[^a-z0-9]+", " ", normalize_text(label).casefold()).strip()
 
 
-def extract_infobox(wikitext: str) -> dict[str, str]:
-    start = re.search(r"\{\{\s*(?:Skill|Move|Technique|Infobox[^\n}]*)", wikitext, flags=re.I)
-    if not start:
-        return {}
-    pos = start.start()
-    depth = 0
-    end = None
-    for i in range(pos, len(wikitext) - 1):
-        pair = wikitext[i:i + 2]
-        if pair == "{{":
-            depth += 1
-        elif pair == "}}":
-            depth -= 1
-            if depth == 0:
-                end = i + 2
-                break
-    block = wikitext[pos:end] if end else wikitext[pos:pos + 12000]
-    fields: dict[str, str] = {}
-    for match in re.finditer(r"^\s*\|\s*([^=\n]+?)\s*=\s*(.*?)\s*$", block, flags=re.M | re.S):
-        key = canonical_key(match.group(1))
-        value = normalize_text(match.group(2))
-        if key and value:
-            fields[key] = value
-    return fields
-
-
-def extract_sections(wikitext: str) -> dict[str, str]:
-    sections: dict[str, str] = {}
-    matches = list(re.finditer(r"^\s*(={2,4})\s*([^=\n]+?)\s*\1\s*$", wikitext, flags=re.M))
-    for index, match in enumerate(matches):
-        title = canonical_key(match.group(2))
-        start = match.end()
-        end = matches[index + 1].start() if index + 1 < len(matches) else len(wikitext)
-        text = normalize_text(wikitext[start:end])
-        if text:
-            sections[title] = text[:1600]
-    return sections
-
-
-def find_field(fields: dict[str, str], aliases: set[str]) -> str | None:
-    aliases_normalized = {canonical_key(a) for a in aliases}
-    for key, value in fields.items():
-        if key in aliases_normalized:
-            return value
-    for key, value in fields.items():
-        if any(alias in key for alias in aliases_normalized):
-            return value
-    return None
-
-
-def extract_description(wikitext: str, sections: dict[str, str]) -> str | None:
-    for key in ("effect", "effects", "description", "details", "skill description", "about"):
-        if sections.get(key):
-            return sections[key]
-    cleaned = re.sub(r"\{\{.*?\}\}", "", wikitext, flags=re.S)
-    cleaned = re.sub(r"<[^>]+>", " ", cleaned)
-    paragraphs = re.split(r"\n\s*\n+", cleaned)
-    for paragraph in paragraphs:
-        text = normalize_text(paragraph)
-        if len(text) < 50:
-            continue
-        if text.startswith(("#", "==", "This page", "Categories", "Navigation")):
-            continue
-        if text.startswith(("Obtained", "How to", "Unlock")):
-            continue
-        return text[:1000]
-    return None
-
-
-def http_page_url(title: str) -> str:
+def page_url(title: str) -> str:
     return f"{BASE}/wiki/{urllib.parse.quote(title.replace(' ', '_'))}"
 
 
-def page_records(titles: list[str]) -> dict[str, dict]:
-    result: dict[str, dict] = {}
-    for offset in range(0, len(titles), 50):
-        batch = titles[offset:offset + 50]
-        data = api({
-            "action": "query",
-            "prop": "revisions|info",
-            "rvprop": "content",
-            "rvslots": "main",
-            "inprop": "url",
-            "titles": "|".join(batch),
-        })
-        for page in data.get("query", {}).get("pages", []):
-            title = page.get("title")
-            revision = (page.get("revisions") or [{}])[0]
-            slots = revision.get("slots") or {}
-            content = (slots.get("main") or {}).get("content") or revision.get("content") or ""
-            result[title] = {
-                "wikitext": content,
-                "url": page.get("fullurl") or http_page_url(str(title)),
-            }
-        print(f"Fetched skill pages {min(offset + 50, len(titles))}/{len(titles)}")
-        time.sleep(0.2)
-    return result
-
-
 def category_members(category: str) -> list[str]:
-    titles: list[str] = []
-    params: dict[str, str | int] = {
-        "action": "query",
-        "list": "categorymembers",
-        "cmtitle": f"Category:{category}",
-        "cmnamespace": 0,
-        "cmlimit": 500,
+    url = f"{BASE}/wiki/Category:{urllib.parse.quote(category.replace(' ', '_'))}"
+    raw = fetch_text(url)
+    parser = LinkParser()
+    parser.feed(raw)
+    titles = {text for href, text in parser.links if href.startswith("/wiki/") and not href.startswith(("/wiki/Category:", "/wiki/File:", "/wiki/Special:"))}
+    if not titles:
+        for slug, title in re.findall(r'href="/wiki/([^"]+)"[^>]*>([^<]+)</a>', raw, flags=re.I):
+            if title.strip() and not slug.startswith(("Category:", "File:", "Special:")):
+                titles.add(html.unescape(re.sub(r"\s+", " ", title)).strip())
+    return sorted(titles, key=str.casefold)
+
+
+def extract_meta_description(raw: str) -> str | None:
+    patterns = [
+        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)',
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, raw, flags=re.I)
+        if match:
+            return normalize_text(match.group(1))
+    return None
+
+
+def extract_label_value(text: str, labels: tuple[str, ...]) -> str | None:
+    for label in labels:
+        match = re.search(rf"(?:^|\n)\s*{re.escape(label)}\s*:?\s*([^\n]+)", text, flags=re.I)
+        if match:
+            value = normalize_text(match.group(1))
+            if value:
+                return value
+    return None
+
+
+def extract_section(text: str, headings: tuple[str, ...]) -> str | None:
+    wanted = {canonical_key(x) for x in headings}
+    lines = [normalize_text(line) for line in text.splitlines()]
+    for index, line in enumerate(lines):
+        if canonical_key(line) not in wanted:
+            continue
+        collected: list[str] = []
+        for nxt in lines[index + 1:index + 24]:
+            if not nxt:
+                continue
+            if canonical_key(nxt) in {"stats", "properties", "usage tips", "categories", "see also", "notes", "references", "unlock", "description", "effect", "effects"}:
+                break
+            collected.append(nxt)
+            if len(" ".join(collected)) > 1200:
+                break
+        value = normalize_text(" ".join(collected))
+        if value:
+            return value[:1400]
+    return None
+
+
+def parse_skill_page(title: str, raw: str) -> dict:
+    text = visible_text(raw)
+    record: dict = {"sources": [page_url(title)]}
+    meta = extract_meta_description(raw)
+    if meta and len(meta) > 30:
+        record["skill_description"] = meta[:1000]
+
+    label_map = {
+        "ki_cost": ("Ki Used", "Ki Cost", "Ki Required"),
+        "stamina_cost": ("Stamina Used", "Stamina Cost", "Stamina Required"),
+        "damage_type": ("Attack Type", "Damage Type"),
+        "unlock_method": ("Unlock", "How to Obtain", "Obtained"),
+        "source_quest_or_shop": ("Source", "Parallel Quest", "PQ"),
+        "dlc_requirement": ("DLC", "DLC Requirement", "Pack"),
+        "race_restriction": ("Race Restriction", "Available to", "Race"),
+        "character_source": ("Notable User(s)", "Notable User", "Character Source"),
     }
-    while True:
-        data = api(params)
-        titles.extend(item["title"] for item in data.get("query", {}).get("categorymembers", []))
-        cont = data.get("continue")
-        if not cont:
-            break
-        params.update(cont)
-    return sorted(set(titles), key=str.casefold)
+    for key, labels in label_map.items():
+        value = extract_label_value(text, labels)
+        if value:
+            record[key] = value
+
+    if "skill_description" not in record:
+        for headings in (("effect", "effects"), ("properties",), ("description",), ("usage tips",)):
+            value = extract_section(text, headings)
+            if value and len(value) > 35:
+                record["skill_description"] = value[:1000]
+                break
+
+    record["usable_by_cac"] = None
+    match = re.search(r"(?:Usable|Available|Can be used) (?:by|for) (?:a )?CaC[^\n]*(yes|no|true|false)", text, flags=re.I)
+    if match:
+        record["usable_by_cac"] = match.group(1).casefold() in {"yes", "true"}
+
+    populated = sum(1 for key in ("ki_cost", "stamina_cost", "damage_type", "unlock_method", "source_quest_or_shop", "dlc_requirement", "skill_description", "race_restriction", "character_source") if record.get(key))
+    record["research_status"] = "enriched" if populated >= 3 else ("partially_enriched" if populated else "page_unavailable")
+    record["verification_status"] = "partially_verified" if populated else "indexed"
+    return record
 
 
 def load_curated() -> dict[tuple[str, str, str], dict]:
@@ -220,62 +231,20 @@ def load_curated() -> dict[tuple[str, str, str], dict]:
     return result
 
 
-def enrich(record: dict, page: dict | None) -> dict:
-    curated_verified = record.get("verification_status") == "verified"
-    if not page:
-        record["research_status"] = "page_unavailable"
-        record["verification_status"] = "verified" if curated_verified else "indexed"
-        return record
-
-    wikitext = page.get("wikitext", "")
-    fields = extract_infobox(wikitext)
-    sections = extract_sections(wikitext)
-    for output_key in FIELD_ALIASES:
-        value = find_field(fields, FIELD_ALIASES[output_key])
-        if value:
-            if output_key == "usable_by_cac":
-                low = value.casefold().strip()
-                if low in {"yes", "y", "true", "allowed", "available"}:
-                    record[output_key] = True
-                elif low in {"no", "n", "false", "not allowed", "unavailable"}:
-                    record[output_key] = False
-            else:
-                record[output_key] = value
-
-    desc = extract_description(wikitext, sections)
-    if desc:
-        record["skill_description"] = desc
-
-    for key, aliases in {
-        "mechanics_notes": ("mechanics", "mechanic", "properties"),
-        "combo_notes": ("combo", "combos", "combination"),
-        "pve_notes": ("pve", "pve notes", "player versus environment"),
-        "pvp_notes": ("pvp", "pvp notes", "player versus player"),
-    }.items():
-        for alias in aliases:
-            value = sections.get(canonical_key(alias))
-            if value:
-                record[key] = value
-                break
-
-    if not record.get("unlock_method"):
-        for title in ("how to obtain", "obtaining", "unlock", "acquisition", "where to get"):
-            if sections.get(title):
-                record["unlock_method"] = sections[title]
-                break
-    if not record.get("source_quest_or_shop"):
-        for title in ("obtained from", "source", "acquisition", "obtain"):
-            if sections.get(title):
-                record["source_quest_or_shop"] = sections[title]
-                break
-
-    populated = sum(1 for key in (
-        "ki_cost", "stamina_cost", "damage_type", "unlock_method",
-        "source_quest_or_shop", "dlc_requirement", "skill_description",
-    ) if record.get(key))
-    record["research_status"] = "enriched" if populated >= 3 else "partially_enriched"
-    record["verification_status"] = "verified" if curated_verified else ("partially_verified" if populated else "indexed")
-    return record
+def scrape_pages(titles: list[str]) -> dict[str, dict]:
+    result: dict[str, dict] = {}
+    failures = 0
+    for index, title in enumerate(titles, 1):
+        try:
+            result[title] = parse_skill_page(title, fetch_text(page_url(title)))
+        except Exception as exc:
+            failures += 1
+            result[title] = {"sources": [page_url(title)], "research_status": "page_unavailable", "verification_status": "indexed", "source_error": type(exc).__name__}
+            print(f"Page failed {index}/{len(titles)}: {title} ({type(exc).__name__})")
+        if index % 25 == 0 or index == len(titles):
+            print(f"Fetched skill pages {index}/{len(titles)}; failures={failures}")
+        time.sleep(0.05)
+    return result
 
 
 def md_escape(value: object) -> str:
@@ -284,51 +253,38 @@ def md_escape(value: object) -> str:
     return str(value).replace("|", "\\|").replace("\n", " ").strip()
 
 
-def write_markdown(records: list[dict], generated: str, counts: dict[str, int]) -> None:
+def write_outputs(records: list[dict], generated: str, counts: dict[str, int]) -> None:
+    payload = {
+        "schema_version": "1.2", "game": "Dragon Ball Xenoverse 2", "source_index": f"{BASE}/wiki/Category:Skills",
+        "generated": generated, "status": "enriched_catalog",
+        "notes": "Category membership is indexed from public pages. Mechanics and acquisition fields are retained only when individual source pages expose parseable values; missing values remain explicit rather than guessed.",
+        "category_counts": counts, "record_count": len(records), "records": records,
+    }
+    CANONICAL_OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    INDEX_OUT.write_text(json.dumps({
+        "schema_version": "1.2", "source_index": payload["source_index"], "generated": generated,
+        "category_counts": counts, "record_count": len(records),
+        "records": [{k: r[k] for k in ("name", "class", "subcategory", "verification_status", "research_status", "sources")} for r in records],
+    }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     verified = sum(r["verification_status"] == "verified" for r in records)
     partial = sum(r["verification_status"] == "partially_verified" for r in records)
-    pending = len(records) - verified - partial
     lines = [
-        "# Skills — Auto-Generated Master Database",
-        "",
-        f"> Generated {generated}. This table is built from the structured skill catalog and refreshed by GitHub Actions.",
+        "# Skills — Auto-Generated Master Database", "",
+        f"> Generated {generated}. Refreshed from public Fandom category/member pages and individual skill pages.",
         "> **Coverage:** every indexed category member receives a row. A blank value means the source page did not expose that field in a form the importer could safely parse; it is **not** a license to guess.",
-        "",
-        f"**Records:** {len(records)} · **Verified:** {verified} · **Partially verified:** {partial} · **Indexed/pending:** {pending}",
-        "",
-        "## What the columns mean",
-        "",
-        "| Field | Meaning |",
-        "|---|---|",
-        "| Skill | Exact source page title |",
-        "| Effect | Parsed description/effect text |",
-        "| How to get it | Parsed unlock/acquisition information |",
-        "| Source | Quest/shop/source text when exposed |",
-        "| Costs | Parsed Ki / Stamina values |",
-        "| DLC | Parsed pack/expansion requirement |",
-        "| Status | Verification level of the imported record |",
-        "",
-        "## Complete catalog",
-        "",
+        "", f"**Records:** {len(records)} · **Verified:** {verified} · **Partially verified:** {partial} · **Indexed/pending:** {len(records)-verified-partial}", "",
         "| Skill | Class | Subcategory | Effect | How to get it | Source | Ki | Stamina | DLC | Status |",
         "|---|---|---|---|---|---|---:|---:|---|---|",
     ]
-    for record in records:
+    for r in records:
         lines.append("| " + " | ".join([
-            md_escape(record.get("name")), md_escape(record.get("class")), md_escape(record.get("subcategory")),
-            md_escape(record.get("skill_description")), md_escape(record.get("unlock_method")),
-            md_escape(record.get("source_quest_or_shop")), md_escape(record.get("ki_cost")),
-            md_escape(record.get("stamina_cost")), md_escape(record.get("dlc_requirement")),
-            md_escape(record.get("verification_status")),
+            md_escape(r.get("name")), md_escape(r.get("class")), md_escape(r.get("subcategory")), md_escape(r.get("skill_description")),
+            md_escape(r.get("unlock_method")), md_escape(r.get("source_quest_or_shop")), md_escape(r.get("ki_cost")), md_escape(r.get("stamina_cost")),
+            md_escape(r.get("dlc_requirement")), md_escape(r.get("verification_status")),
         ]) + " |")
     lines.extend(["", "## Category counts", "", "| Category | Members |", "|---|---:|"])
-    for category, count in counts.items():
-        lines.append(f"| {md_escape(category)} | {count} |")
-    lines.extend([
-        "", "## Source policy", "",
-        "The importer uses the Fandom skills taxonomy and individual skill pages as an index/reference layer. Mechanics and acquisition data are retained only when the source page exposes a parseable value. This prevents inferred or invented unlock requirements from being presented as fact.",
-        "", "See [Skills Master Database](Skills-Master-Database.md) for the research policy and [Skill Unlock Methods](Skill-Unlock-Methods.md) for acquisition guidance.", "",
-    ])
+    lines.extend(f"| {md_escape(cat)} | {count} |" for cat, count in counts.items())
+    lines.extend(["", "## Research policy", "", "This generated catalog is a coverage layer, not a claim that every field is verified. Source-page data is imported when parseable, while missing acquisition, cost, DLC, restriction, or mechanics information remains pending for manual verification.", "", "See [Skills Master Database](Skills-Master-Database.md) and [Skills Complete Database](Skills-Complete-Database.md) for field definitions and verification rules.", ""])
     MARKDOWN_OUT.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -337,61 +293,39 @@ def main() -> int:
     members_by_category: dict[str, list[str]] = {}
     all_titles: set[str] = set()
     counts: dict[str, int] = {}
-
     for category in CATEGORIES:
-        members = category_members(category)
+        try:
+            members = category_members(category)
+        except Exception as exc:
+            print(f"Category failed: {category} ({type(exc).__name__})")
+            members = []
         members_by_category[category] = members
         counts[category] = len(members)
         all_titles.update(members)
         time.sleep(0.15)
+    if not all_titles:
+        raise SystemExit("No skill category members were discovered; refusing to overwrite the catalog.")
 
-    pages = page_records(sorted(all_titles, key=str.casefold))
+    page_data = scrape_pages(sorted(all_titles, key=str.casefold))
     records_by_key: dict[tuple[str, str, str], dict] = {}
-
     for category, (skill_class, subtype) in CATEGORIES.items():
-        source_url = f"{BASE}/wiki/Category:{urllib.parse.quote(category.replace(' ', '_'))}"
+        category_url = f"{BASE}/wiki/Category:{urllib.parse.quote(category.replace(' ', '_'))}"
         for title in members_by_category[category]:
-            record = {
-                "name": title,
-                "class": skill_class,
-                "subcategory": subtype,
-                "verification_status": "indexed",
-                "research_status": "indexed",
-                "sources": [source_url],
-            }
+            record = {"name": title, "class": skill_class, "subcategory": subtype, "verification_status": "indexed", "research_status": "indexed", "sources": [category_url]}
             record.update(curated.get((title.casefold(), skill_class, subtype), {}))
-            page = pages.get(title)
-            if page:
-                record.setdefault("sources", []).append(page["url"])
-            record = enrich(record, page)
-            record["sources"] = list(dict.fromkeys(record["sources"]))
+            source_data = page_data.get(title, {})
+            for key, value in source_data.items():
+                if key not in {"sources", "source_error"} and value not in (None, ""):
+                    record[key] = value
+            record["sources"] = list(dict.fromkeys(record["sources"] + source_data.get("sources", [])))
+            if source_data.get("source_error"):
+                record["source_error"] = source_data["source_error"]
             records_by_key[(title.casefold(), skill_class, subtype)] = record
-
     records = sorted(records_by_key.values(), key=lambda r: (r["name"].casefold(), r["class"], r["subcategory"]))
-    generated = date.today().isoformat()
-    payload = {
-        "schema_version": "1.2",
-        "game": "Dragon Ball Xenoverse 2",
-        "source_index": f"{BASE}/wiki/Category:Skills",
-        "generated": generated,
-        "status": "enriched_catalog",
-        "notes": "Category membership is indexed automatically. Mechanics/acquisition fields are promoted only when page data supplied a usable value; missing information is left explicit rather than guessed.",
-        "category_counts": counts,
-        "record_count": len(records),
-        "records": records,
-    }
-    CANONICAL_OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    INDEX_OUT.write_text(json.dumps({
-        "schema_version": "1.2", "source_index": payload["source_index"], "generated": generated,
-        "category_counts": counts, "record_count": len(records),
-        "records": [{k: r[k] for k in ("name", "class", "subcategory", "verification_status", "research_status", "sources")} for r in records],
-    }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    write_markdown(records, generated, counts)
-
+    write_outputs(records, date.today().isoformat(), counts)
     verified = sum(r["verification_status"] == "verified" for r in records)
     partial = sum(r["verification_status"] == "partially_verified" for r in records)
-    print(f"Wrote {len(records)} category records")
-    print(f"Verification coverage: verified={verified}, partially_verified={partial}, indexed={len(records) - verified - partial}")
+    print(f"Wrote {len(records)} records; verified={verified}; partially_verified={partial}; indexed={len(records)-verified-partial}")
     return 0
 
 
