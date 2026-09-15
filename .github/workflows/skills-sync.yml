@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "scripts/sync_skills.py"
+      - "scripts/build_skills_from_research.py"
       - "scripts/validate_skills.py"
       - "docs/data/skills.schema.json"
       - "docs/data/skills.json"
@@ -26,8 +27,8 @@ jobs:
       - name: Fetch secondary structured research corpus
         run: git clone --depth 1 --filter=blob:none --sparse https://github.com/Madreag/xenoverse_2_wiki.git /tmp/xv2-research && cd /tmp/xv2-research && git sparse-checkout set content/skills
 
-      - name: Sync and enrich all skill pages
-        run: python scripts/sync_skills.py
+      - name: Build exhaustive structured skill catalog
+        run: python scripts/build_skills_from_research.py
 
       - name: Validate canonical database
         run: python scripts/validate_skills.py
@@ -35,12 +36,12 @@ jobs:
       - name: Create update PR when data changes
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "Sync enriched Xenoverse 2 skill catalog"
-          title: "Sync enriched Xenoverse 2 skill catalog"
+          commit-message: "Sync exhaustive Xenoverse 2 skill catalog"
+          title: "Sync exhaustive Xenoverse 2 skill catalog"
           body: |
             Automated refresh of the Xenoverse 2 skill catalog.
 
-            The refresh indexes every configured skill category and enriches records from public skill pages plus a structured secondary research corpus. Secondary research is used as a cross-reference; missing values are left pending rather than guessed.
+            This refresh imports structured individual skill records as a research/cross-reference layer, retains curated records, preserves source provenance, and leaves records partially verified until independently confirmed.
           branch: automated/skills-catalog-sync
           delete-branch: true
           labels: database,automated,skills
