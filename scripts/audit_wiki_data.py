@@ -9,7 +9,6 @@ verified and never mutates source records.
 from __future__ import annotations
 
 import json
-import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
@@ -37,6 +36,15 @@ def records_from(payload: Any) -> list[dict[str, Any]]:
     if isinstance(payload, list):
         return [r for r in payload if isinstance(r, dict)]
     return []
+
+
+def effective_value(record: dict[str, Any], field: str, payload: Any) -> Any:
+    """Resolve a record value, allowing supported file-level defaults."""
+    if field in record:
+        return record[field]
+    if field == "verification_status" and isinstance(payload, dict):
+        return payload.get("verification_status")
+    return None
 
 
 def main() -> int:
@@ -69,16 +77,21 @@ def main() -> int:
             if name:
                 names[str(name).strip().casefold()].append(idx)
 
-            missing = [field for field in required if field not in record]
+            missing = [
+                field
+                for field in required
+                if effective_value(record, field, payload) is None
+            ]
             if missing:
                 findings.append({"severity": "error", "type": "missing_required_fields", "file": filename, "record": name or record_id, "fields": missing})
                 summary["errors"] += 1
 
-            if "sources" in record and not record["sources"]:
+            sources = effective_value(record, "sources", payload)
+            if "sources" in record and not sources:
                 findings.append({"severity": "error", "type": "empty_sources", "file": filename, "record": name or record_id})
                 summary["errors"] += 1
 
-            status = record.get("verification_status")
+            status = effective_value(record, "verification_status", payload)
             if status is not None and status not in VALID_STATUS:
                 findings.append({"severity": "error", "type": "invalid_verification_status", "file": filename, "record": name or record_id, "status": status})
                 summary["errors"] += 1
@@ -101,7 +114,7 @@ def main() -> int:
                     summary["warnings"] += 1
 
     report = {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "generated_by": "scripts/audit_wiki_data.py",
         "game": "Dragon Ball Xenoverse 2",
         "records_scanned": scanned,
@@ -115,6 +128,7 @@ def main() -> int:
             "warnings_require_review": True,
             "no_automatic_verification": True,
             "no_count_inflation_from_partial_sources": True,
+            "file_level_verification_defaults_supported": True,
         },
         "findings": findings,
     }
