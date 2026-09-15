@@ -1,0 +1,50 @@
+---
+layout: wiki
+title: Every Awoken Skill
+---
+
+# Every Awoken Skill Explorer
+
+This page separates **CaC transformations** from character-only transformation references and lets the detailed research corpus remain current without pretending every field is independently verified.
+
+<div class="wiki-tools">
+  <input id="q" type="search" placeholder="Search transformation, race, unlock, effect…" aria-label="Search Awoken Skills">
+  <select id="race"><option value="">All races</option><option>Saiyan</option><option>Earthling</option><option>Majin</option><option>Namekian</option><option>Frieza Race</option><option>All</option></select>
+</div>
+<div id="stats"></div>
+<div id="results" class="cards"></div>
+
+<script>
+(async function(){
+  const api='https://api.github.com/repos/Madreag/xenoverse_2_wiki/contents/content/skills';
+  const [source] = await Promise.all([fetch(api+'?per_page=100&page=1')]);
+  const items=await source.json();
+  const rows=[];
+  // The public structured corpus has dedicated fields for awoken records; load
+  // only records explicitly classified as awoken rather than guessing from names.
+  for(let page=1;page<=12;page++){
+    const r=page===1?{ok:true,json:async()=>items}:await fetch(api+'?per_page=100&page='+page).then(async x=>({ok:x.ok,json:()=>x.json()}));
+    if(!r.ok) break;
+    const arr=await r.json();
+    if(!arr.length) break;
+    for(const f of arr){
+      try{
+        const t=await (await fetch(f.download_url)).text();
+        const fm=(t.match(/^---([\s\S]*?)---/)||[])[1]||'';
+        const get=k=>{const m=fm.match(new RegExp('^'+k+'\\s*:\\s*(.+)$','m'));return m?m[1].replace(/^['"]|['"]$/g,''):''};
+        if(get('class').toLowerCase()!=='awoken') continue;
+        rows.push({name:get('name')||f.name.replace('.md',''),race:get('race')||get('races')||'All',text:t,html:f.html_url});
+      }catch(e){}
+    }
+    if(arr.length<100) break;
+  }
+  const q=document.getElementById('q'), race=document.getElementById('race'), results=document.getElementById('results'), stats=document.getElementById('stats');
+  function render(){
+    const term=q.value.toLowerCase().trim(), rr=race.value.toLowerCase();
+    const out=rows.filter(x=>(!term||(x.name+' '+x.text).toLowerCase().includes(term))&&(!rr||x.race.toLowerCase().includes(rr)));
+    stats.textContent=`${out.length} Awoken records shown · ${rows.length} awoken records discovered in the source corpus`;
+    results.innerHTML=out.map(x=>`<a class="card" href="${x.html}" target="_blank" rel="noopener"><span class="tag">${x.race}</span><h3>${x.name}</h3><p>${x.text.replace(/^---[\s\S]*?---/,'').replace(/[#*`]/g,'').replace(/\n+/g,' ').slice(0,300)}…</p><span class="arrow">→</span></a>`).join('');
+  }
+  q.addEventListener('input',render); race.addEventListener('change',render); render();
+})().catch(()=>document.getElementById('stats').textContent='The live Awoken source is temporarily unavailable.');
+</script>
