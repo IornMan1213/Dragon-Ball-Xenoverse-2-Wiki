@@ -97,7 +97,7 @@ Dragon-Ball-Xenoverse-2-Wiki/
 └── README.md              # You are here
 ```
 
-The repository is intentionally organized so that human-readable wiki pages, structured data, and maintenance scripts can evolve together. The project also includes automated data auditing and GitHub Actions workflows. fileciteturn10file0
+The repository is intentionally organized so that human-readable wiki pages, structured data, and maintenance scripts can evolve together. The project also includes automated data auditing and GitHub Actions workflows.
 
 ## 🛠️ Project Goals
 
@@ -119,7 +119,7 @@ For a focused change, open a pull request. For a larger idea or suspected proble
 
 ## 🗓️ Current Focus
 
-The project is in active expansion, with recent work focused on core systems, Super Souls, mentors, quests, farming information, and late-game/DLC coverage. fileciteturn11file0
+The project is in active expansion, with recent work focused on core systems, Super Souls, mentors, quests, farming information, and late-game/DLC coverage.
 
 ## 🔗 Links
 
