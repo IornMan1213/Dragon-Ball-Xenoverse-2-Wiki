@@ -6,13 +6,13 @@ from __future__ import annotations
 from pathlib import Path
 
 BAD_MARKERS = (
-    "filecite",
-    "memcite",
-    "turn10file",
-    "turn11file",
+    "file" + "cite",
+    "mem" + "cite",
+    "turn" + "10file",
+    "turn" + "11file",
 )
 
-SKIP_DIRS = {".git", ".github"}
+SKIP_DIRS = {".git"}
 TEXT_SUFFIXES = {
     ".md", ".markdown", ".html", ".htm", ".css", ".scss", ".js", ".ts",
     ".json", ".yml", ".yaml", ".txt", ".py", ".sh", ".bat", ".xml", ".csv",
@@ -36,7 +36,7 @@ def main() -> int:
         lowered = text.lower()
         for marker in BAD_MARKERS:
             if marker.lower() in lowered:
-                failures.append(f"{path}: contains forbidden marker {marker!r}")
+                failures.append(f"{path}: contains forbidden internal artifact")
                 break
 
     if failures:
