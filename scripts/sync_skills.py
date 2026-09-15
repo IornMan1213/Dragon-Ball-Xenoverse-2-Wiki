@@ -42,7 +42,7 @@ CATEGORIES = {
 }
 
 HEADERS = {
-    "User-Agent": "XV2-Wiki-Skills-Sync/3.1 (+https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki)",
+    "User-Agent": "XV2-Wiki-Skills-Sync/3.2 (+https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki)",
     "Accept": "application/json,text/plain,*/*",
     "Accept-Language": "en-US,en;q=0.9",
 }
@@ -221,8 +221,10 @@ def load_curated() -> dict[tuple[str, str, str], dict]:
 
 
 def enrich(record: dict, page: dict | None) -> dict:
+    curated_verified = record.get("verification_status") == "verified"
     if not page:
         record["research_status"] = "page_unavailable"
+        record["verification_status"] = "verified" if curated_verified else "indexed"
         return record
 
     wikitext = page.get("wikitext", "")
@@ -232,8 +234,11 @@ def enrich(record: dict, page: dict | None) -> dict:
         value = find_field(fields, FIELD_ALIASES[output_key])
         if value:
             if output_key == "usable_by_cac":
-                low = value.casefold()
-                record[output_key] = not any(token in low for token in ("no", "not", "false", "cannot"))
+                low = value.casefold().strip()
+                if low in {"yes", "y", "true", "allowed", "available"}:
+                    record[output_key] = True
+                elif low in {"no", "n", "false", "not allowed", "unavailable"}:
+                    record[output_key] = False
             else:
                 record[output_key] = value
 
@@ -269,7 +274,7 @@ def enrich(record: dict, page: dict | None) -> dict:
         "source_quest_or_shop", "dlc_requirement", "skill_description",
     ) if record.get(key))
     record["research_status"] = "enriched" if populated >= 3 else "partially_enriched"
-    record["verification_status"] = "verified" if populated >= 5 else "partially_verified"
+    record["verification_status"] = "verified" if curated_verified else ("partially_verified" if populated else "indexed")
     return record
 
 
@@ -310,34 +315,19 @@ def write_markdown(records: list[dict], generated: str, counts: dict[str, int]) 
     ]
     for record in records:
         lines.append("| " + " | ".join([
-            md_escape(record.get("name")),
-            md_escape(record.get("class")),
-            md_escape(record.get("subcategory")),
-            md_escape(record.get("skill_description")),
-            md_escape(record.get("unlock_method")),
-            md_escape(record.get("source_quest_or_shop")),
-            md_escape(record.get("ki_cost")),
-            md_escape(record.get("stamina_cost")),
-            md_escape(record.get("dlc_requirement")),
+            md_escape(record.get("name")), md_escape(record.get("class")), md_escape(record.get("subcategory")),
+            md_escape(record.get("skill_description")), md_escape(record.get("unlock_method")),
+            md_escape(record.get("source_quest_or_shop")), md_escape(record.get("ki_cost")),
+            md_escape(record.get("stamina_cost")), md_escape(record.get("dlc_requirement")),
             md_escape(record.get("verification_status")),
         ]) + " |")
-    lines.extend([
-        "",
-        "## Category counts",
-        "",
-        "| Category | Members |",
-        "|---|---:|",
-    ])
+    lines.extend(["", "## Category counts", "", "| Category | Members |", "|---|---:|"])
     for category, count in counts.items():
         lines.append(f"| {md_escape(category)} | {count} |")
     lines.extend([
-        "",
-        "## Source policy",
-        "",
+        "", "## Source policy", "",
         "The importer uses the Fandom skills taxonomy and individual skill pages as an index/reference layer. Mechanics and acquisition data are retained only when the source page exposes a parseable value. This prevents inferred or invented unlock requirements from being presented as fact.",
-        "",
-        "See [Skills Master Database](Skills-Master-Database.md) for the research policy and [Skill Unlock Methods](Skill-Unlock-Methods.md) for acquisition guidance.",
-        "",
+        "", "See [Skills Master Database](Skills-Master-Database.md) for the research policy and [Skill Unlock Methods](Skill-Unlock-Methods.md) for acquisition guidance.", "",
     ])
     MARKDOWN_OUT.write_text("\n".join(lines), encoding="utf-8")
 
@@ -392,11 +382,8 @@ def main() -> int:
     }
     CANONICAL_OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     INDEX_OUT.write_text(json.dumps({
-        "schema_version": "1.2",
-        "source_index": payload["source_index"],
-        "generated": generated,
-        "category_counts": counts,
-        "record_count": len(records),
+        "schema_version": "1.2", "source_index": payload["source_index"], "generated": generated,
+        "category_counts": counts, "record_count": len(records),
         "records": [{k: r[k] for k in ("name", "class", "subcategory", "verification_status", "research_status", "sources")} for r in records],
     }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_markdown(records, generated, counts)
