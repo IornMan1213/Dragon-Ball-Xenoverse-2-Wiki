@@ -1,57 +1,54 @@
-# Awoken Skills – Mechanics
+# Awoken Skills – Mechanics & Audit
 
-Awoken Skills are transformations that provide stat modifiers, unique properties, or both. Most require a certain amount of Ki to activate (often 500 / 5 bars). Some consume the Ki on activation; others only require it to be present.
+Awoken Skills are transformations that change a CaC's combat properties, stats, or move behavior. The wiki now separates the **canonical CaC transformation list** from character-only transformation references.
 
-## Universal (All Races)
+> **Browse the live catalog:** [Every Awoken Skill](Awoken-All.html)
+>
+> **Structured audit data:** [`data/awoken-skills.json`](data/awoken-skills.json)
 
-### Kaioken (Regular / x3 / x20)
-- Progressive stages with increasing attack power and stamina drain.
-- Higher stages reduce or eliminate Z-Vanish stamina cost at the expense of heavy stamina drain and defense penalties.
-- Classic high-risk, high-reward option.
+## Universal Awoken Skills
+
+### Kaioken
+Progressive stages include regular Kaioken, x3, and x20. Higher stages increase the transformation's risk and resource pressure, making stamina management central to the form.
 
 ### Potential Unleashed
-- Requires 500 Ki.
-- Balanced boosts to attack and defense.
-- Improved Ki generation / recovery properties.
-- No major drawbacks — reliable all-rounder.
-- Unlocked via the final Advancement Test (Z-rank all previous tests).
+A universal all-round transformation obtained through the Advancement Test progression. It provides a general-purpose stat package without being locked to a race-specific combat identity.
 
 ### Beast
-- Requires and consumes 500 Ki on activation.
-- Large attack boosts (+30% range reported) with defense penalties.
-- Improved Ki restoration.
-- Adds special combo strings and teleport properties on certain attacks.
-- Strong glass-cannon style transformation.
+A universal high-offense transformation. It is designed around large offensive gains and meaningful defensive trade-offs, making it particularly attractive for damage-focused builds.
 
 ### Ultra Instinct
-- Requires 500 Ki (consumption behavior updated in later patches).
-- No flat attack/defense multipliers.
-- Core feature: Auto-dodge on basic attacks and normal Ki Blasts (costs stamina).
-- Can follow successful dodges with a counter.
-- Guard + Heavy input enables a built-in charge.
-- Replaces/improves Ki Blasts with Soaring Fist / Spirit Pulse variants.
-- Emphasis on evasion and counterplay rather than raw stats.
+A universal evasion-oriented transformation. Its defining behavior is automated evasion/counterplay rather than simply applying a conventional damage multiplier.
 
-### The Power to Overcome (Future Saga Chapter 4)
-- Requires and consumes 500 Ki.
-- **Stage 1**: Defense boost, movement speed increase, health auto-recovery at ≤50% HP, grab becomes an unblockable slash that can interrupt Ultimates.
-- **Stage 2 (Unleashed)**: Re-input the command for a temporary high-power state with rapid/near-infinite Ki recovery, significant attack boosts, and further speed. Drains health while active. Has a cooldown before it can be used again.
-- Unique two-stage design focused on sustained pressure and recovery options.
+### The Power to Overcome
+A late-game universal transformation tied to Future Saga Chapter 4. It has a two-stage design: an initial utility/defense-oriented state and a stronger unleashed state with substantial resource and health-management implications.
 
-## Race-Specific Highlights
-- **Saiyan**: Super Saiyan (1/2/3), Super Vegeta (1/2), Future Super Saiyan, and higher forms (SSG, SSB, SSBE, etc.) depending on unlocks. Progressive damage and mobility benefits; some stages reduce Ki recovery.
-- **Earthling**: Power Pole Pro (among others).
-- **Namekian**: Become Giant / related forms.
-- **Frieza Race**: Turn Golden.
-- **Majin**: Purification (and related).
+## Race-Specific Awoken Skills
 
-Many race forms can be staged upward if enough Ki is available, and several grant teleport/warp properties on charged attacks or specific inputs.
+### Saiyan
+- **Super Saiyan** — Super Saiyan → Super Saiyan 2 → Super Saiyan 3 branch.
+- **Super Vegeta** — Super Vegeta → Super Vegeta 2 branch.
+- **Future Super Saiyan** — alternate Saiyan transformation route.
+- **Super Saiyan God** — separate god-form prerequisite chain.
+- **Super Saiyan God Super Saiyan** — Blue transformation branch.
+- **Super Saiyan God Super Saiyan (Evolved)** — advanced Blue branch.
 
-## General Notes
-- Only one Awoken Skill can be equipped at a time.
-- Activation often has a brief window of vulnerability or stamina armor that can be broken.
-- Super Souls can heavily synergize with specific Awoken Skills (activation triggers, duration, or conditional bonuses).
-- Choice of Awoken Skill is one of the biggest factors in build identity (raw power vs. utility vs. evasion).
+The Saiyan research source also tracks these forms as part of the race's transformation tree and distinguishes them from universal awakens. fileciteturn165file0
 
-**Sources**:  
-dbxv2.fandom.com Awoken Skill pages (including Beast, Ultra Instinct, Potential Unleashed, The Power to Overcome), community stat breakdowns and testing videos (2023–2026), in-game descriptions.
+### Majin
+- **Purification** — changes the CaC into a specialized Majin combat form.
+
+### Namekian
+- **Become Giant** — giant-form transformation with a distinct combat state.
+
+### Frieza Race
+- **Turn Golden** — Frieza Race transformation centered on Ki offense.
+
+### Earthling
+- **Power Pole Pro** — unique Earthling transformation that changes combat behavior.
+
+## Verification policy
+
+The structured list currently uses **partially verified** status by default. A transformation is promoted to **verified** only after its current unlock route, resource behavior, major mechanical effects, race restriction, and patch-sensitive behavior have been checked against the source set.
+
+Character-only forms are deliberately not mixed into this CaC catalog. That prevents forms seen on playable presets from being incorrectly presented as Xenoverse 2 CaC unlocks.
