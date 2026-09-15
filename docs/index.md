@@ -10,7 +10,8 @@ title: Dragon Ball Xenoverse 2 Wiki
     <p class="lead">A practical Dragon Ball Xenoverse 2 reference for finding what you need fast — from skill unlocks and builds to quests, farming routes, mentors, Awoken Skills, DLC, and game systems.</p>
     <div class="hero-actions">
       <a class="button primary" href="{{ '/Guides/' | relative_url }}">Start with the Guides</a>
-      <a class="button ghost" href="{{ '/Skills-Database/' | relative_url }}">Browse Skills</a>
+      <a class="button ghost" href="{{ '/Skills-All/' | relative_url }}">Every Skill</a>
+      <a class="button ghost" href="{{ '/Skills-Database/' | relative_url }}">Skill Database</a>
     </div>
   </div>
   <div class="hero-card" aria-hidden="true">
@@ -20,6 +21,7 @@ title: Dragon Ball Xenoverse 2 Wiki
 </section>
 
 <section class="quick-grid" aria-label="Quick links">
+  <a href="{{ '/Skills-All/' | relative_url }}"><b>📚 Every Skill</b><span>Search the full individual skill research catalog</span></a>
   <a href="{{ '/Awoken-Skills/' | relative_url }}"><b>✨ Awoken Skills</b><span>Transformations & unlock requirements</span></a>
   <a href="{{ '/Builds/' | relative_url }}"><b>⚔️ Builds</b><span>Practical setups for different playstyles</span></a>
   <a href="{{ '/Farming-Hub/' | relative_url }}"><b>🎯 Farming Hub</b><span>Rewards, routes, and efficient farming</span></a>
@@ -30,7 +32,7 @@ title: Dragon Ball Xenoverse 2 Wiki
   <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2>Popular destinations</h2></div></div>
   <div class="cards">
     <a class="card featured" href="{{ '/Guides/' | relative_url }}"><span class="tag">BEGINNER</span><h3>Guides</h3><p>Core systems, progression tips, and practical how-to information.</p><span class="arrow">→</span></a>
-    <a class="card" href="{{ '/Skills-Database/' | relative_url }}"><span class="tag">DATABASE</span><h3>Skills</h3><p>Browse skill information, acquisition methods, and related references.</p><span class="arrow">→</span></a>
+    <a class="card" href="{{ '/Skills-All/' | relative_url }}"><span class="tag">EXHAUSTIVE</span><h3>Every Skill</h3><p>Search individual skills, effects, mentors, costs, and acquisition notes.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Parallel-Quests/' | relative_url }}"><span class="tag">QUESTS</span><h3>Parallel Quests</h3><p>Mission information, rewards, and walkthrough material.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Super-Souls/' | relative_url }}"><span class="tag">BUILDS</span><h3>Super Souls</h3><p>Find useful effects and supporting build information.</p><span class="arrow">→</span></a>
   </div>
