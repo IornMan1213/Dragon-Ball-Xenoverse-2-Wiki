@@ -1,0 +1,177 @@
+---
+layout: wiki
+title: All Skills Explorer
+---
+
+<section class="section skill-explorer">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">EXHAUSTIVE SKILL INDEX</p>
+      <h1>Every Skill</h1>
+      <p class="lead">Search every individual skill record currently available in the public Xenoverse 2 research corpus, with your wiki's curated data layered on top where available.</p>
+    </div>
+    <div class="skill-explorer-status" id="skill-status">Loading skill catalog…</div>
+  </div>
+
+  <div class="skill-controls">
+    <input id="skill-search" type="search" placeholder="Search skills, mentors, effects, quests…" autocomplete="off">
+    <select id="skill-class"><option value="">All classes</option><option>Super</option><option>Ultimate</option><option>Evasive</option><option>Awoken</option><option>Counter</option><option>Mixed</option></select>
+    <select id="skill-element"><option value="">All types</option><option>Ki Blast</option><option>Strike</option><option>Other</option><option>Power Up</option><option>Race</option><option>Counter</option><option>Special</option></select>
+    <select id="skill-status-filter"><option value="">All research states</option><option value="verified">Verified</option><option value="partially_verified">Partially verified</option><option value="indexed">Indexed</option></select>
+  </div>
+
+  <div class="skill-stats" id="skill-stats"></div>
+  <div class="skill-grid" id="skill-grid" aria-live="polite"></div>
+</section>
+
+<style>
+.skill-explorer .lead{max-width:900px}.skill-explorer-status{padding:.65rem .9rem;border:1px solid var(--border-color);border-radius:999px;font-size:.85rem;white-space:nowrap}.skill-controls{display:grid;grid-template-columns:minmax(220px,2fr) repeat(3,minmax(150px,1fr));gap:.75rem;margin:1.5rem 0}.skill-controls input,.skill-controls select{width:100%;padding:.8rem 1rem;border:1px solid var(--border-color);border-radius:10px;background:var(--background-color);color:var(--text-color)}.skill-stats{display:flex;flex-wrap:wrap;gap:.65rem;margin-bottom:1rem}.skill-stat{padding:.55rem .8rem;border:1px solid var(--border-color);border-radius:10px;background:var(--card-background)}.skill-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem}.skill-card{display:flex;flex-direction:column;gap:.6rem;padding:1rem;border:1px solid var(--border-color);border-radius:14px;background:var(--card-background);box-shadow:var(--shadow-sm,0 4px 16px rgba(0,0,0,.04))}.skill-card h3{margin:0;font-size:1.05rem}.skill-meta{display:flex;flex-wrap:wrap;gap:.4rem}.skill-pill{font-size:.73rem;padding:.25rem .5rem;border-radius:999px;background:var(--muted-background);border:1px solid var(--border-color)}.skill-description{font-size:.9rem;line-height:1.5}.skill-details{font-size:.82rem;color:var(--muted-text)}.skill-source{margin-top:auto;font-size:.8rem}.skill-source a{text-decoration:none}.skill-empty{padding:2rem;text-align:center;border:1px dashed var(--border-color);border-radius:14px}.skill-loading{grid-column:1/-1;padding:2rem;text-align:center}
+@media(max-width:900px){.skill-controls{grid-template-columns:1fr 1fr}.skill-controls input{grid-column:1/-1}}@media(max-width:560px){.skill-controls{grid-template-columns:1fr}.skill-grid{grid-template-columns:1fr}.skill-explorer-status{white-space:normal}}
+</style>
+
+<script>
+(() => {
+  const apiBase = 'https://api.github.com/repos/Madreag/xenoverse_2_wiki/contents/content/skills';
+  const rawBase = 'https://raw.githubusercontent.com/Madreag/xenoverse_2_wiki/main/content/skills/';
+  const localUrl = '{{ "/data/skills.json" | relative_url }}';
+  const state = { skills: [], local: new Map() };
+  const $ = (id) => document.getElementById(id);
+
+  function parseFrontmatter(text) {
+    const m = text.match(/^---\n([\s\S]*?)\n---/);
+    if (!m) return {};
+    const out = {};
+    for (const line of m[1].split(/\r?\n/)) {
+      const match = line.match(/^([A-Za-z0-9_]+):\s*(.*)$/);
+      if (!match) continue;
+      let value = match[2].trim();
+      if (/^\[.*\]$/.test(value)) {
+        try { value = JSON.parse(value.replace(/'/g, '"')); } catch (_) { value = value.slice(1,-1).split(',').map(v => v.trim().replace(/^['"]|['"]$/g,'')); }
+      } else {
+        value = value.replace(/^['"]|['"]$/g, '');
+      }
+      out[match[1]] = value;
+    }
+    return out;
+  }
+
+  function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+  }
+
+  function classify(skill) {
+    const cls = String(skill.class || '').toLowerCase();
+    const el = String(skill.element || '').toLowerCase();
+    if (cls === 'super') return ['Super', el.includes('strike') ? 'Strike' : el.includes('blast') || el === 'ki' ? 'Ki Blast' : 'Other'];
+    if (cls === 'ultimate') return ['Ultimate', el.includes('strike') ? 'Strike' : el.includes('blast') || el === 'ki' ? 'Ki Blast' : el.includes('power') ? 'Power Up' : 'Other'];
+    if (cls === 'evasive') return ['Evasive', el.includes('strike') ? 'Strike' : el.includes('blast') || el === 'ki' ? 'Ki Blast' : el.includes('power') ? 'Power Up' : 'Other'];
+    if (cls === 'counter') return ['Counter','Counter'];
+    if (cls === 'awoken') return ['Awoken','Race'];
+    return ['Mixed','Special'];
+  }
+
+  async function loadLocal() {
+    try {
+      const res = await fetch(localUrl, {cache:'no-store'});
+      if (!res.ok) return;
+      const data = await res.json();
+      for (const record of (data.records || [])) state.local.set(String(record.name || '').toLowerCase(), record);
+    } catch (_) {}
+  }
+
+  async function fetchFileList() {
+    const all = [];
+    for (let page = 1; page <= 12; page++) {
+      const res = await fetch(`${apiBase}?ref=main&per_page=100&page=${page}`, {headers:{Accept:'application/vnd.github+json'}});
+      if (!res.ok) throw new Error(`GitHub API returned ${res.status}`);
+      const batch = await res.json();
+      if (!Array.isArray(batch) || !batch.length) break;
+      all.push(...batch.filter(x => x.type === 'file' && x.name.endsWith('.md')));
+      if (batch.length < 100) break;
+    }
+    return all;
+  }
+
+  async function fetchSkill(item) {
+    try {
+      const res = await fetch(item.download_url || rawBase + item.name, {cache:'no-store'});
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const front = parseFrontmatter(await res.text());
+      const [klass, sub] = classify(front);
+      const local = state.local.get(String(front.name || item.name.replace(/\.md$/,'' )).toLowerCase()) || {};
+      return {
+        ...front,
+        ...local,
+        name: front.name || local.name || item.name.replace(/\.md$/,''),
+        class: local.class || klass,
+        subcategory: local.subcategory || sub,
+        _slug: item.name,
+        _source: item.html_url || rawBase + item.name,
+      };
+    } catch (_) {
+      const name = item.name.replace(/\.md$/,'').replace(/-/g,' ');
+      const local = state.local.get(name.toLowerCase()) || {};
+      return {...local, name: local.name || name, _slug:item.name, _source:item.html_url || rawBase + item.name, class:local.class || 'Mixed', subcategory:local.subcategory || 'Special', _unavailable:true};
+    }
+  }
+
+  function statusMatch(skill, filter) {
+    if (!filter) return true;
+    return String(skill.verification_status || 'indexed') === filter;
+  }
+
+  function render() {
+    const q = $('skill-search').value.trim().toLowerCase();
+    const cls = $('skill-class').value;
+    const elem = $('skill-element').value;
+    const status = $('skill-status-filter').value;
+    const filtered = state.skills.filter(s => {
+      if (cls && s.class !== cls) return false;
+      if (elem && s.subcategory !== elem) return false;
+      if (!statusMatch(s,status)) return false;
+      if (!q) return true;
+      return [s.name,s.class,s.subcategory,s.summary,s.mechanics,s.source,s.mentor,s.skill_description,s.unlock_method,s.source_quest_or_shop].filter(Boolean).join(' ').toLowerCase().includes(q);
+    });
+
+    $('skill-stats').innerHTML = [
+      `<span class="skill-stat"><strong>${state.skills.length.toLocaleString()}</strong> skills indexed</span>`,
+      `<span class="skill-stat"><strong>${filtered.length.toLocaleString()}</strong> shown</span>`,
+      `<span class="skill-stat"><strong>${state.local.size.toLocaleString()}</strong> local records</span>`,
+    ].join('');
+
+    const grid = $('skill-grid');
+    if (!filtered.length) { grid.innerHTML = '<div class="skill-empty">No skills match your filters.</div>'; return; }
+    grid.innerHTML = filtered.map(s => {
+      const description = s.skill_description || s.summary || s.mechanics || 'Detailed effect information is still being independently verified.';
+      const details = [
+        s.kiCost != null ? `Ki ${s.kiCost}` : (s.ki_cost != null ? `Ki ${s.ki_cost}` : ''),
+        s.stamina_cost != null ? `Stamina ${s.stamina_cost}` : '',
+        s.mentor ? `Mentor: ${s.mentor}` : '',
+        s.source ? `Source: ${s.source}` : (s.source_quest_or_shop ? `Source: ${s.source_quest_or_shop}` : ''),
+        s.dlc_requirement ? `DLC: ${s.dlc_requirement}` : '',
+        s.lastVerified ? `Verified: ${s.lastVerified}` : '',
+      ].filter(Boolean);
+      const status = s.verification_status || 'indexed';
+      return `<article class="skill-card"><div class="skill-meta"><span class="skill-pill">${escapeHtml(s.class)}</span><span class="skill-pill">${escapeHtml(s.subcategory)}</span><span class="skill-pill">${escapeHtml(status)}</span></div><h3>${escapeHtml(s.name)}</h3><div class="skill-description">${escapeHtml(description)}</div>${details.length ? `<div class="skill-details">${details.map(escapeHtml).join(' • ')}</div>` : ''}<div class="skill-source"><a href="${escapeHtml(s._source)}" target="_blank" rel="noopener">Open source record ↗</a></div></article>`;
+    }).join('');
+  }
+
+  async function init() {
+    ['skill-search','skill-class','skill-element','skill-status-filter'].forEach(id => $(id).addEventListener(id === 'skill-search' ? 'input' : 'change', render));
+    $('skill-grid').innerHTML = '<div class="skill-loading">Loading the complete skill catalog…</div>';
+    await loadLocal();
+    const files = await fetchFileList();
+    $('skill-status').textContent = `Found ${files.length.toLocaleString()} individual research records`;
+    const chunk = [];
+    for (let i=0; i<files.length; i+=8) chunk.push(Promise.all(files.slice(i,i+8).map(fetchSkill)));
+    const results = await Promise.all(chunk);
+    state.skills = results.flat().sort((a,b) => String(a.name).localeCompare(String(b.name)));
+    render();
+  }
+
+  init().catch(err => {
+    $('skill-status').textContent = 'Catalog unavailable';
+    $('skill-grid').innerHTML = `<div class="skill-empty">The external skill catalog could not be reached right now. Your local curated skill database is still available from the Skills Database page.<br><br><small>${escapeHtml(err.message)}</small></div>`;
+  });
+})();
+</script>
