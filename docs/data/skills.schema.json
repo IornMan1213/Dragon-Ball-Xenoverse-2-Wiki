@@ -7,8 +7,8 @@
   "required": ["name", "class", "subcategory", "verification_status", "sources"],
   "properties": {
     "name": {"type": "string"},
-    "class": {"enum": ["Super", "Ultimate", "Evasive", "Awoken", "Mixed"]},
-    "subcategory": {"enum": ["Ki Blast", "Strike", "Power Up", "Other", "Race", "Special"]},
+    "class": {"enum": ["Super", "Ultimate", "Evasive", "Awoken", "Counter", "Mixed"]},
+    "subcategory": {"enum": ["Ki Blast", "Strike", "Power Up", "Other", "Race", "Special", "Counter"]},
     "race_restriction": {"type": ["string", "null"]},
     "usable_by_cac": {"type": ["boolean", "null"]},
     "character_source": {"type": ["string", "null"]},
