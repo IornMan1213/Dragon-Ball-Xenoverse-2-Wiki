@@ -5,6 +5,8 @@ title: Parallel Quest Audit
 
 # Parallel Quest Audit
 
+> **Browse the live quest catalog:** [Every Parallel Quest](Parallel-Quests-All.html)
+
 This is the exhaustive PQ verification pass that follows the skill catalog. The target is every available Parallel Quest, including DLC quests, with exact unlock path, difficulty, enemies, base rewards, skill rewards, drop conditions, and Ultimate Finish conditions.
 
 ## Record standard
@@ -40,11 +42,11 @@ A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black 
 
 ## Research target
 
-The wiki will distinguish **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
+The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
 ## Primary research corpus
 
 - Structured public PQ records: https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests
 - Game/wiki Parallel Quest reference: https://dbxv2.fandom.com/wiki/Parallel_Quests
 
-> This page is the audit control sheet; detailed individual PQ pages/data records will be populated during the verification pass.
+> This page is the audit control sheet; the live explorer exposes the individual source records while detailed local verification proceeds.
