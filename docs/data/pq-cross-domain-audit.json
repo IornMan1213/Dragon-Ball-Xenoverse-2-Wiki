@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0",
+  "scope":"PQ 1-186",
+  "gates":{
+    "canonical_batch_coverage":186,
+    "expected_numbered_records":186,
+    "current_numbering_has_no_intentional_gap":true,
+    "reward_edges_require_explicit_source":true,
+    "empty_reward_arrays_are_not_negative_claims":true,
+    "source_conflicts_preserved":true,
+    "reverse_indexes_required_before_domain_complete":true
+  },
+  "current_status":{
+    "skill_edges":"seeded",
+    "super_soul_edges":"partial",
+    "equipment_edges":"partial",
+    "character_edges":"planned",
+    "dlc_edges":"seeded",
+    "farming_edges":"seeded"
+  },
+  "next_completion_gate":"Do not mark the PQ cross-domain layer exhaustive until every populated reward field in the canonical PQ batches has a corresponding normalized edge or an explicit unresolved/conflict record."
+}
