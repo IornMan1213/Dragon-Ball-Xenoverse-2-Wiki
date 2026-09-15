@@ -33,8 +33,6 @@ A late-game universal transformation tied to Future Saga Chapter 4. It has a two
 - **Super Saiyan God Super Saiyan** — Blue transformation branch.
 - **Super Saiyan God Super Saiyan (Evolved)** — advanced Blue branch.
 
-The Saiyan research source also tracks these forms as part of the race's transformation tree and distinguishes them from universal awakens. fileciteturn165file0
-
 ### Majin
 - **Purification** — changes the CaC into a specialized Majin combat form.
 
