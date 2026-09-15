@@ -23,6 +23,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Fetch secondary structured research corpus
+        run: git clone --depth 1 --filter=blob:none --sparse https://github.com/Madreag/xenoverse_2_wiki.git /tmp/xv2-research && cd /tmp/xv2-research && git sparse-checkout set content/skills
+
       - name: Sync and enrich all skill pages
         run: python scripts/sync_skills.py
 
@@ -37,7 +40,7 @@ jobs:
           body: |
             Automated refresh of the Xenoverse 2 skill catalog.
 
-            This refresh indexes every configured skill category and attempts to enrich each individual skill page with effects, acquisition/source text, costs, restrictions and DLC requirements. Missing fields remain explicit rather than being inferred.
+            The refresh indexes every configured skill category and enriches records from public skill pages plus a structured secondary research corpus. Secondary research is used as a cross-reference; missing values are left pending rather than guessed.
           branch: automated/skills-catalog-sync
           delete-branch: true
           labels: database,automated,skills
