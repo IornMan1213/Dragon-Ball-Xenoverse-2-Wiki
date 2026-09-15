@@ -95,12 +95,11 @@ def load_existing() -> dict[tuple[str, str, str], dict]:
     return out
 
 
-def build_record(data: dict, path: Path) -> tuple[str, str, dict] | None:
+def build_record(data: dict, path: Path) -> dict | None:
     name = data.get("name")
     if not name:
         return None
     cls, sub = classify(data)
-    slug = path.stem
     source_url = f"https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{path.name}"
     record = {
         "name": name,
@@ -122,13 +121,16 @@ def build_record(data: dict, path: Path) -> tuple[str, str, dict] | None:
     if data.get("mentor"):
         record["character_source"] = data["mentor"]
     if isinstance(data.get("properties"), list) and data["properties"]:
-        record["mechanics_notes"] = "; ".join(str(x) for x in data["properties"])
-        record["skill_description"] = "; ".join(str(x) for x in data["properties"])
+        props = "; ".join(str(x) for x in data["properties"])
+        record["mechanics_notes"] = props
+        record["skill_description"] = props
+    if data.get("summary"):
+        record.setdefault("skill_description", str(data["summary"]))
     if data.get("lastVerified"):
         record["last_verified"] = str(data["lastVerified"])
     if data.get("confidence"):
         record["research_status"] = "enriched"
-    return (norm(str(name)), slug, record)
+    return record
 
 
 def md(value) -> str:
@@ -140,54 +142,30 @@ def md(value) -> str:
 def main() -> int:
     if not RESEARCH.exists():
         raise SystemExit("Structured research corpus is missing.")
-
     existing = load_existing()
     merged = dict(existing)
-    files = sorted(RESEARCH.glob("*.md"))
     imported = 0
-    for path in files:
+    for path in sorted(RESEARCH.glob("*.md")):
         try:
             data = parse_frontmatter(path)
-            built = build_record(data, path)
+            record = build_record(data, path)
         except Exception:
-            built = None
-        if not built:
+            record = None
+        if not record:
             continue
-        _, _, record = built
         key = (record["name"].casefold(), record["class"], record["subcategory"])
         old = merged.get(key, {})
-        # Curated fields already in the wiki win over imported placeholders.
         merged_record = dict(record)
         for k, v in old.items():
             if v not in (None, "", [], "—"):
                 merged_record[k] = v
         merged_record["sources"] = list(dict.fromkeys(old.get("sources", []) + record.get("sources", [])))
-        if merged_record.get("research_status") == "indexed" and record.get("research_status") != "indexed":
-            merged_record["research_status"] = record["research_status"]
-        if merged_record.get("verification_status") not in {"verified", "partially_verified"}:
-            merged_record["verification_status"] = "partially_verified"
+        if old.get("verification_status") == "verified":
+            merged_record["verification_status"] = "verified"
         merged[key] = merged_record
         imported += 1
 
     rows = sorted(merged.values(), key=lambda r: (r["name"].casefold(), r["class"], r["subcategory"]))
-    counts = {}
-    for category, target in TARGET_COUNTS.items():
-        counts[category] = 0
-        for r in rows:
-            if category == "Counter Skills" and r["class"] == "Counter": counts[category] += 1
-            elif category == "Transformations" and r["class"] == "Awoken": counts[category] += 1
-            elif category == "Saiyan Skills" and r["class"] == "Awoken" and "saiyan" in r["name"].casefold(): counts[category] += 1
-            elif category == "Majin Skills" and r["class"] == "Awoken" and "majin" in r["name"].casefold(): counts[category] += 1
-            elif category == "Namekian Skills" and r["class"] == "Awoken" and "namek" in r["name"].casefold(): counts[category] += 1
-            elif category == "Frieza Race Skills" and r["class"] == "Awoken" and "golden" in r["name"].casefold(): counts[category] += 1
-            elif category == "Human Skills" and r["class"] == "Awoken" and "power pole" in r["name"].casefold(): counts[category] += 1
-            elif category == "Unavailable for CaC" and r["class"] == "Mixed": counts[category] += 1
-            elif r["class"] == "Super" and category == f"{r['subcategory']} Supers": counts[category] += 1
-            elif r["class"] == "Ultimate" and category == f"{r['subcategory']} Ultimates": counts[category] += 1
-            elif r["class"] == "Evasive" and category == f"{r['subcategory']} Evasives": counts[category] += 1
-        if counts[category] == 0 and category in TARGET_COUNTS:
-            counts[category] = min(target, sum(1 for _ in []))
-
     payload = {
         "schema_version": "1.2",
         "game": "Dragon Ball Xenoverse 2",
