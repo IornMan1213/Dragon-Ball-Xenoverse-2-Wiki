@@ -25,14 +25,51 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download structured skill corpus
+      - name: Download structured skill corpus from GitHub API
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          rm -rf /tmp/xv2-research /tmp/xv2-research.tar.gz
-          curl -L --fail --retry 3 --retry-delay 2 -o /tmp/xv2-research.tar.gz https://github.com/Madreag/xenoverse_2_wiki/archive/refs/heads/main.tar.gz
-          mkdir -p /tmp/xv2-research
-          tar -xzf /tmp/xv2-research.tar.gz --strip-components=1 -C /tmp/xv2-research
-          test -d /tmp/xv2-research/content/skills
-          echo "Structured skill files: $(find /tmp/xv2-research/content/skills -name '*.md' | wc -l)"
+          set -euo pipefail
+          rm -rf /tmp/xv2-research
+          mkdir -p /tmp/xv2-research/content/skills
+          page=1
+          total=0
+          while :; do
+            api="https://api.github.com/repos/Madreag/xenoverse_2_wiki/contents/content/skills?ref=main&per_page=100&page=${page}"
+            json="$(curl -fsSL --retry 3 --retry-delay 2 -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${GH_TOKEN}" "$api")"
+            count="$(python -c 'import json,sys; d=json.load(sys.stdin); print(len(d))' <<< "$json")"
+            [ "$count" -gt 0 ] || break
+            python - "$json" "/tmp/xv2-page-${page}.json" <<'PY'
+import json, sys
+items=json.loads(sys.argv[1])
+with open(sys.argv[2], 'w', encoding='utf-8') as f:
+    json.dump(items, f)
+PY
+            python - "/tmp/xv2-page-${page}.json" <<'PY'
+import json, sys, urllib.request, os
+items=json.load(open(sys.argv[1], encoding='utf-8'))
+out='/tmp/xv2-research/content/skills'
+os.makedirs(out, exist_ok=True)
+for item in items:
+    if item.get('type') != 'file' or not item.get('name','').endswith('.md'):
+        continue
+    url=item.get('download_url')
+    if not url:
+        continue
+    req=urllib.request.Request(url, headers={'User-Agent':'xv2-wiki-skill-sync'})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        data=r.read()
+    with open(os.path.join(out,item['name']), 'wb') as f:
+        f.write(data)
+PY
+            total=$((total + count))
+            [ "$count" -lt 100 ] && break
+            page=$((page + 1))
+          done
+          files="$(find /tmp/xv2-research/content/skills -name '*.md' | wc -l)"
+          echo "GitHub API entries: $total"
+          echo "Structured skill files: $files"
+          test "$files" -gt 500
 
       - name: Build exhaustive structured skill catalog
         run: python scripts/build_skills_from_research.py
