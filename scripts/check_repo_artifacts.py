@@ -5,11 +5,16 @@ from __future__ import annotations
 
 from pathlib import Path
 
-BAD_MARKERS = (
-    "file" + "cite",
-    "mem" + "cite",
-    "turn" + "10file",
-    "turn" + "11file",
+# Construct these strings without spelling the marker contiguously in this
+# source file, because this checker scans repository source files including itself.
+BAD_MARKERS = tuple(
+    "".join(parts)
+    for parts in (
+        ("file", "cite"),
+        ("mem", "cite"),
+        ("turn", "10file"),
+        ("turn", "11file"),
+    )
 )
 
 SKIP_DIRS = {".git"}
