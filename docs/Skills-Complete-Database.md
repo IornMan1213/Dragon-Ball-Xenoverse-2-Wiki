@@ -20,7 +20,7 @@ Each skill should ultimately have all of these fields:
 - **DLC requirement**, when applicable
 - **Verification status and source**
 
-The repository's structured schema already supports these fields in `docs/data/skills.schema.json`.
+The repository's structured schema supports these fields in `docs/data/skills.schema.json`.
 
 ## Current indexed scope
 
@@ -67,8 +67,6 @@ The name, classification, mechanical behavior, costs, and acquisition route have
 
 ## Primary acquisition channels
 
-The master database recognizes these main routes:
-
 1. **Mentor lessons** — signature Super and Ultimate attacks taught by instructors.
 2. **Parallel Quest rewards** — many rare Supers, Ultimates, Evasives and DLC skills are reward-table drops, often on Ultimate Finish.
 3. **Expert Missions** — some special skills are tied to Expert Mission reward pools.
@@ -77,8 +75,6 @@ The master database recognizes these main routes:
 6. **Time Rifts / story progression** — especially race-specific Awoken Skills and progression-gated abilities.
 7. **Raids / Festival / limited-time events** — event-exclusive rewards and rotating skill access.
 8. **DLC packs** — paid-content skills and character-specific techniques.
-
-These acquisition channels are cross-checked against current community references and the game's late-DLC research corpus. citehttps://dragonballxenoverse2.wiki/unlockables/skills/
 
 ## Important distinction: CaC skills vs. character/preset skills
 
@@ -98,7 +94,7 @@ This matters because the same technique name can appear in multiple contexts, wh
 
 ## Core detailed records already researched
 
-The repository's `Skills-Detail.md` contains the current detailed mentor skill research and confirmed examples including:
+The repository's `Skills-Detail.md` contains detailed mentor skill research and confirmed examples including:
 
 | Skill | What it does | Acquisition context |
 |---|---|---|
@@ -205,12 +201,10 @@ Example target structure:
 
 ## Research sources
 
-The current seed index uses the Xenoverse 2 Fandom skill categories for category membership. The public 2026 research corpus used for cross-checking contains individual skill pages and distinguishes datamined, confirmed, community and unverified information. The external unlock reference also documents the main acquisition channels used throughout the game.
-
 - Fandom skill categories: https://dbxv2.fandom.com/wiki/Category:Skills
 - Fandom Ki Blast Supers: https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers
-- External 2026 skills/unlock reference: https://dragonballxenoverse2.wiki/unlockables/skills/
-- Public 2026 structured research corpus: https://github.com/Madreag/xenoverse_2_wiki
+- 2026 skills/unlock reference: https://dragonballxenoverse2.wiki/unlockables/skills/
+- 2026 structured research corpus: https://github.com/Madreag/xenoverse_2_wiki
 
 ## Status
 
