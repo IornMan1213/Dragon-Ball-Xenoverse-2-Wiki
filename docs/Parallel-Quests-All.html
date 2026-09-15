@@ -1,0 +1,48 @@
+---
+layout: wiki
+title: Every Parallel Quest
+---
+
+# Every Parallel Quest Explorer
+
+Search the structured public PQ corpus while the local wiki's record-by-record verification pass continues.
+
+<div class="wiki-tools">
+  <input id="q" type="search" placeholder="Search PQ number, name, reward, enemy, condition…" aria-label="Search Parallel Quests">
+  <select id="stars"><option value="">All difficulties</option><option value="1">1 Star</option><option value="2">2 Star</option><option value="3">3 Star</option><option value="4">4 Star</option><option value="5">5 Star</option><option value="6">6 Star</option><option value="7">7 Star</option></select>
+  <select id="status"><option value="">All records</option><option value="source">Structured source</option><option value="local">Local wiki</option></select>
+</div>
+<div id="stats"></div>
+<div id="results" class="cards"></div>
+
+<script>
+(async function(){
+  const api='https://api.github.com/repos/Madreag/xenoverse_2_wiki/contents/content/parallel-quests';
+  const results=document.getElementById('results'), q=document.getElementById('q'), stars=document.getElementById('stars'), status=document.getElementById('status'), stats=document.getElementById('stats');
+  const files=[];
+  for(let page=1;page<=6;page++){
+    const r=await fetch(api+'?per_page=100&page='+page);
+    if(!r.ok) break;
+    const a=await r.json();
+    if(!Array.isArray(a)||!a.length) break;
+    files.push(...a.filter(x=>x.type==='file'&&x.name.endsWith('.md')));
+    if(a.length<100) break;
+  }
+  const records=[];
+  for(const f of files){
+    try{
+      const t=await (await fetch(f.download_url)).text();
+      const fm=(t.match(/^---([\s\S]*?)---/)||[])[1]||'';
+      const get=k=>{const m=fm.match(new RegExp('^'+k+'\\s*:\\s*(.+)$','m'));return m?m[1].replace(/^['"]|['"]$/g,''):''};
+      records.push({file:f,name:get('name')||f.name.replace('.md',''),stars:get('stars'),text:t,html:f.html_url});
+    }catch(e){}
+  }
+  function render(){
+    const term=q.value.trim().toLowerCase(), st=stars.value, mode=status.value;
+    const rows=records.filter(r=>{const hay=(r.name+' '+r.text).toLowerCase();return (!term||hay.includes(term))&&(!st||r.stars===st)&&mode!=='local'});
+    stats.textContent=`${rows.length} source records loaded · ${records.length} total source records`;
+    results.innerHTML=rows.map(r=>`<a class="card" href="${r.html}" target="_blank" rel="noopener"><span class="tag">PQ ${r.file.replace(/\D/g,'')} ${r.stars?`· ${r.stars}★`:''}</span><h3>${r.name}</h3><p>${r.text.replace(/^---[\s\S]*?---/,'').replace(/[#*`]/g,'').replace(/\n+/g,' ').slice(0,280)}…</p><span class="arrow">→</span></a>`).join('');
+  }
+  q.addEventListener('input',render); stars.addEventListener('change',render); status.addEventListener('change',render); render();
+})().catch(e=>{document.getElementById('stats').textContent='The live PQ source is temporarily unavailable.'});
+</script>
