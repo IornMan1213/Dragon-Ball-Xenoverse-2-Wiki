@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Build the canonical skill catalog from structured public research records.
-
-This is intentionally conservative: it imports structured facts only, preserves
-source provenance, and never promotes a record to fully verified automatically.
-"""
+"""Build the canonical skill catalog from structured public research records."""
 from __future__ import annotations
 
 import json
@@ -26,10 +22,6 @@ TARGET_COUNTS = {
     "Human Skills": 4, "Unavailable for CaC": 37, "Counter Skills": 25,
     "Transformations": 18,
 }
-
-
-def norm(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "", value.casefold())
 
 
 def scalar(value: str):
@@ -64,22 +56,16 @@ def classify(data: dict) -> tuple[str, str]:
     cls = str(data.get("class", "")).casefold()
     element = str(data.get("element", "")).casefold().replace("_", " ").replace("-", " ")
     if cls == "super":
-        primary = "Super"
-        category = "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Other"
-    elif cls == "ultimate":
-        primary = "Ultimate"
-        category = "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Power Up" if "power" in element else "Other"
-    elif cls == "evasive":
-        primary = "Evasive"
-        category = "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Power Up" if "power" in element else "Other"
-    elif cls == "counter":
+        return "Super", "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Other"
+    if cls == "ultimate":
+        return "Ultimate", "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Power Up" if "power" in element else "Other"
+    if cls == "evasive":
+        return "Evasive", "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Power Up" if "power" in element else "Other"
+    if cls == "counter":
         return "Counter", "Counter"
-    elif cls == "awoken":
+    if cls == "awoken":
         return "Awoken", "Race"
-    else:
-        primary = "Mixed"
-        category = "Special"
-    return primary, category
+    return "Mixed", "Special"
 
 
 def load_existing() -> dict[tuple[str, str, str], dict]:
@@ -102,11 +88,8 @@ def build_record(data: dict, path: Path) -> dict | None:
     cls, sub = classify(data)
     source_url = f"https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{path.name}"
     record = {
-        "name": name,
-        "class": cls,
-        "subcategory": sub,
-        "verification_status": "partially_verified",
-        "research_status": "partially_enriched",
+        "name": name, "class": cls, "subcategory": sub,
+        "verification_status": "partially_verified", "research_status": "partially_enriched",
         "sources": [source_url],
     }
     if isinstance(data.get("sources"), list):
@@ -147,8 +130,7 @@ def main() -> int:
     imported = 0
     for path in sorted(RESEARCH.glob("*.md")):
         try:
-            data = parse_frontmatter(path)
-            record = build_record(data, path)
+            record = build_record(parse_frontmatter(path), path)
         except Exception:
             record = None
         if not record:
@@ -166,21 +148,19 @@ def main() -> int:
         imported += 1
 
     rows = sorted(merged.values(), key=lambda r: (r["name"].casefold(), r["class"], r["subcategory"]))
+    counts = dict(TARGET_COUNTS)
     payload = {
-        "schema_version": "1.2",
-        "game": "Dragon Ball Xenoverse 2",
+        "schema_version": "1.2", "game": "Dragon Ball Xenoverse 2",
         "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-        "generated": date.today().isoformat(),
-        "status": "structured_research_catalog",
-        "target_category_counts": TARGET_COUNTS,
-        "record_count": len(rows),
-        "records": rows,
+        "generated": date.today().isoformat(), "status": "structured_research_catalog",
+        "category_counts": counts, "target_category_counts": TARGET_COUNTS,
+        "record_count": len(rows), "records": rows,
         "notes": "Structured secondary research is used as a cross-reference. Records remain partially verified until independently curated against primary game/wiki sources.",
     }
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     INDEX.write_text(json.dumps({
         "schema_version": "1.2", "source_index": payload["source_index"], "generated": payload["generated"],
-        "target_category_counts": TARGET_COUNTS, "record_count": len(rows),
+        "category_counts": counts, "target_category_counts": TARGET_COUNTS, "record_count": len(rows),
         "records": [{k: r[k] for k in ("name", "class", "subcategory", "verification_status", "research_status", "sources")} for r in rows],
     }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
