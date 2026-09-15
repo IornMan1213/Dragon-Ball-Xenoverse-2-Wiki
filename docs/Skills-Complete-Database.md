@@ -2,6 +2,8 @@
 
 This is the master index for the Xenoverse 2 skill database. The goal is to catalog **every skill entry**, not only the popular CaC moves.
 
+> **Browse every individual research record:** [Every Skill — Live Explorer](Skills-All.html). It loads the current individual skill corpus, combines it with the wiki's local curated records, and supports search by skill, mentor, effect, quest, class, type, and verification status.
+
 ## What counts as a complete record?
 
 Each skill should ultimately have all of these fields:
@@ -24,7 +26,7 @@ The repository's structured schema supports these fields in `docs/data/skills.sc
 
 ## Current indexed scope
 
-The current research baseline identifies **672 indexed skill records** across the following categories:
+The current research baseline identifies **672 indexed skill memberships** across the following categories:
 
 | Category | Indexed records |
 |---|---:|
@@ -121,7 +123,7 @@ The repository's `Skills-Detail.md` contains detailed mentor skill research and 
 | Energy Zone | Creates a healing area that can restore the user and nearby allies. | Skill Shop / progression |
 | Instant Rise | Fast vertical evasive escape using Stamina. | Skill Shop |
 
-The individual records in `docs/data/skills.json` remain the machine-readable index; this page is the human-facing roadmap and quality standard.
+The individual records in `docs/data/skills.json` remain the machine-readable local index; the Live Explorer supplements it with the full external individual-record corpus while local verification catches up.
 
 ## Research rules for the exhaustive pass
 
@@ -208,6 +210,6 @@ Example target structure:
 
 ## Status
 
-**Current state: exhaustive index target established; detailed verification is an ongoing record-by-record pass.**
+**Current state: exhaustive index target established; live individual-record explorer added; detailed local verification remains an ongoing record-by-record pass.**
 
-The goal is not to label the database "complete" until the critical fields above have been populated and audited for all indexed records.
+The goal is not to label the local database "complete" until the critical fields above have been populated and audited for all indexed records.
