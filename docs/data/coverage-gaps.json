@@ -1,8 +1,33 @@
 {
-  "schema_version":"1.0",
+  "schema_version":"1.1",
   "game":"Dragon Ball Xenoverse 2",
   "status":"known_gaps",
-  "critical":["Ki Blast Supers complete set reconciliation","record-level PQ population","record-level character/preset population","Super Soul population","QQ Bang population"],
-  "high":["33 mentor lesson records","Expert Mission records","equipment records","DLC-to-content relationship resolution","automated cross-reference audit"],
-  "policy":"Known gaps are intentionally visible. The wiki must not claim exhaustive completion while these gaps remain unresolved."
+  "recently_improved":[
+    "Future Saga Chapter 4 official content baseline",
+    "Future Saga Chapter 4 character index",
+    "Future Saga Chapter 4 system/content counts",
+    "DLC overview counts and official source links"
+  ],
+  "critical":[
+    "Ki Blast Supers complete set reconciliation",
+    "record-level PQ population",
+    "record-level character/preset population",
+    "Super Soul population",
+    "QQ Bang population"
+  ],
+  "high":[
+    "33 mentor lesson records",
+    "Expert Mission records",
+    "equipment records",
+    "DLC-to-content relationship resolution",
+    "automated cross-reference audit"
+  ],
+  "next_priority":{
+    "1":"Populate record-level Parallel Quest data and rewards from the existing batch files into a canonical index.",
+    "2":"Expand Super Soul records and tie acquisition sources to Parallel Quests, mentors, shops, and DLC.",
+    "3":"Expand QQ Bang records and normalize stat/effect fields.",
+    "4":"Reconcile Ki Blast Super records against the skill catalog and source registry.",
+    "5":"Complete mentor lesson and Expert Mission records with sources and reward relationships."
+  },
+  "policy":"Known gaps are intentionally visible. The wiki must not claim exhaustive completion while these gaps remain unresolved. Official baselines may establish existence and published counts without implying that individual records are fully verified."
 }
