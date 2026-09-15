@@ -13,8 +13,8 @@
     "usable_by_cac": {"type": ["boolean", "null"]},
     "character_source": {"type": ["string", "null"]},
     "dlc_requirement": {"type": ["string", "null"]},
-    "ki_cost": {"type": ["integer", "null"], "minimum": 0},
-    "stamina_cost": {"type": ["integer", "null"], "minimum": 0},
+    "ki_cost": {"type": ["integer", "string", "null"], "minimum": 0},
+    "stamina_cost": {"type": ["integer", "string", "null"], "minimum": 0},
     "damage_type": {"type": ["string", "null"]},
     "unlock_method": {"type": ["string", "null"]},
     "source_quest_or_shop": {"type": ["string", "null"]},
@@ -24,6 +24,7 @@
     "combo_notes": {"type": ["string", "null"]},
     "pve_notes": {"type": ["string", "null"]},
     "pvp_notes": {"type": ["string", "null"]},
+    "research_status": {"enum": ["indexed", "partially_enriched", "enriched", "page_unavailable"]},
     "verification_status": {"enum": ["indexed", "partially_verified", "verified"]},
     "last_verified": {"type": ["string", "null"], "format": "date"},
     "sources": {"type": "array", "items": {"type": "string", "format": "uri"}, "minItems": 1}
