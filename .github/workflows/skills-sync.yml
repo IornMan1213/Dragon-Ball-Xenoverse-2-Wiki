@@ -25,8 +25,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch secondary structured research corpus
-        run: git clone --depth 1 https://github.com/Madreag/xenoverse_2_wiki.git /tmp/xv2-research
+      - name: Download structured skill corpus
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import base64, json, pathlib, urllib.request
+          root = pathlib.Path('/tmp/xv2-research/content/skills')
+          root.mkdir(parents=True, exist_ok=True)
+          headers = {'Accept': 'application/vnd.github+json', 'User-Agent': 'XV2-Wiki-Skill-Sync'}
+          tree_url = 'https://api.github.com/repos/Madreag/xenoverse_2_wiki/git/trees/main?recursive=1'
+          req = urllib.request.Request(tree_url, headers=headers)
+          with urllib.request.urlopen(req, timeout=60) as r:
+              tree = json.load(r)['tree']
+          files = [x['path'] for x in tree if x.get('type') == 'blob' and x['path'].startswith('content/skills/') and x['path'].endswith('.md')]
+          print(f'Found {len(files)} structured skill files')
+          for path in files:
+              url = 'https://api.github.com/repos/Madreag/xenoverse_2_wiki/contents/' + path + '?ref=main'
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  item = json.load(r)
+              data = base64.b64decode(item['content'])
+              dest = pathlib.Path('/tmp/xv2-research') / path
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              dest.write_bytes(data)
+          print(f'Downloaded {len(files)} skill files')
+          PY
 
       - name: Build exhaustive structured skill catalog
         run: python scripts/build_skills_from_research.py
