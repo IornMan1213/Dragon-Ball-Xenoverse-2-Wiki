@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the XV2 skill catalog from public Fandom category/member pages."""
+"""Build the XV2 skill catalog from public Fandom pages plus structured secondary research."""
 from __future__ import annotations
 
 import html
@@ -8,6 +8,7 @@ import re
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
@@ -17,6 +18,7 @@ OUT = ROOT / "docs/data/skills.json"
 INDEX = ROOT / "docs/data/skills-index.json"
 MD = ROOT / "docs/Skills-Auto-Database.md"
 BASE = "https://dbxv2.fandom.com"
+SECONDARY = Path("/tmp/xv2-research/content/skills")
 
 CATEGORIES = {
     "Ki Blast Supers": ("Super", "Ki Blast"), "Strike Supers": ("Super", "Strike"),
@@ -32,14 +34,14 @@ CATEGORIES = {
 }
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; XV2-Wiki-Skills-Sync/3.4)",
+    "User-Agent": "Mozilla/5.0 (compatible; XV2-Wiki-Skills-Sync/4.0)",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
 
 def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=60) as r:
+    with urllib.request.urlopen(req, timeout=45) as r:
         return r.read().decode("utf-8", "replace")
 
 
@@ -103,6 +105,10 @@ def clean(value: str) -> str:
     return value.strip(" |\t\r\n")
 
 
+def norm(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", value.casefold())
+
+
 def page_url(title: str) -> str:
     return f"{BASE}/wiki/{urllib.parse.quote(title.replace(' ', '_'))}"
 
@@ -114,8 +120,6 @@ def category_members(category: str) -> list[str]:
     titles = sorted(set(p.items), key=str.casefold)
     if titles:
         return titles
-    # Fallback for Fandom markup changes. Restrict to anchors in the category page
-    # and discard obvious navigation/category/file links.
     candidates = set()
     for href, label in re.findall(r"href=[\"'](/wiki/[^\"']+)[\"'][^>]*>(.*?)</a>", raw, flags=re.I | re.S):
         title = clean(re.sub(r"<[^>]+>", " ", label))
@@ -152,6 +156,51 @@ def label_value(text: str, labels: tuple[str, ...]) -> str | None:
     return None
 
 
+def parse_scalar(value: str):
+    value = value.strip().strip('"\'')
+    if re.fullmatch(r"\d+", value):
+        return int(value)
+    return value
+
+
+def parse_secondary_frontmatter(path: Path) -> dict:
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return {}
+    if not text.startswith("---"):
+        return {}
+    block = text.split("---", 2)[1]
+    out: dict = {}
+    for line in block.splitlines():
+        m = re.match(r"^([A-Za-z][A-Za-z0-9_]*)\s*:\s*(.*)$", line)
+        if not m:
+            continue
+        key, value = m.groups()
+        value = value.strip()
+        if value.startswith("[") and value.endswith("]"):
+            items = re.findall(r'"([^"\\]*(?:\\.[^"\\]*)*)"', value)
+            out[key] = [bytes(x, "utf-8").decode("unicode_escape") for x in items]
+        else:
+            out[key] = parse_scalar(value)
+    return out
+
+
+def load_secondary() -> dict[str, dict]:
+    if not SECONDARY.exists():
+        print("Secondary corpus unavailable; continuing with primary web sources.")
+        return {}
+    result = {}
+    for path in SECONDARY.glob("*.md"):
+        data = parse_secondary_frontmatter(path)
+        name = data.get("name")
+        if name:
+            data["_source_url"] = f"https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{path.name}"
+            result[norm(str(name))] = data
+    print(f"Loaded {len(result)} secondary structured skill records.")
+    return result
+
+
 def parse_skill(title: str) -> dict:
     url = page_url(title)
     raw = fetch(url)
@@ -174,10 +223,9 @@ def parse_skill(title: str) -> dict:
     for key, labels in fields.items():
         value = label_value(text, labels)
         if value:
-            record[key] = value
+            record[key] = parse_scalar(value) if key in {"ki_cost", "stamina_cost"} else value
 
     if not record.get("skill_description"):
-        # The public pages generally expose Properties/Usage Tips as prose.
         for heading in ("Properties", "Effect", "Effects", "Description", "Usage Tips"):
             marker = re.search(rf"(?:^|\n)\s*{re.escape(heading)}\s*(?:\n|$)", text, flags=re.I)
             if marker:
@@ -187,12 +235,31 @@ def parse_skill(title: str) -> dict:
                     record["skill_description"] = snippet
                     break
 
-    populated = sum(bool(record.get(k)) for k in (
-        "skill_description", "unlock_method", "source_quest_or_shop", "ki_cost", "stamina_cost", "damage_type", "dlc_requirement", "race_restriction"
-    ))
-    record["research_status"] = "enriched" if populated >= 3 else ("partially_enriched" if populated else "page_unavailable")
-    record["verification_status"] = "partially_verified" if populated else "indexed"
     return record
+
+
+def apply_secondary(record: dict, data: dict) -> None:
+    if not data:
+        return
+    record["sources"] = list(dict.fromkeys(record.get("sources", []) + [data["_source_url"]] + [s for s in data.get("sources", []) if isinstance(s, str) and s.startswith("http")]))
+    if data.get("kiCost") is not None:
+        record.setdefault("ki_cost", data["kiCost"])
+    if data.get("element"):
+        record.setdefault("damage_type", str(data["element"]).title())
+    if data.get("source"):
+        record.setdefault("source_quest_or_shop", data["source"])
+        record.setdefault("unlock_method", "See source record")
+    if data.get("mentor"):
+        record.setdefault("character_source", data["mentor"])
+    if data.get("properties"):
+        props = data["properties"]
+        if isinstance(props, list) and props:
+            record.setdefault("mechanics_notes", "; ".join(str(x) for x in props))
+    if data.get("lastVerified"):
+        record.setdefault("last_verified", str(data["lastVerified"]))
+    populated = sum(bool(record.get(k)) for k in ("skill_description", "unlock_method", "source_quest_or_shop", "ki_cost", "stamina_cost", "damage_type", "dlc_requirement", "race_restriction", "mechanics_notes"))
+    record["research_status"] = "enriched" if populated >= 3 else "partially_enriched"
+    record["verification_status"] = "partially_verified"
 
 
 def load_curated() -> dict[tuple[str, str, str], dict]:
@@ -218,6 +285,7 @@ def md(value) -> str:
 
 def main() -> int:
     curated = load_curated()
+    secondary = load_secondary()
     members: dict[str, list[str]] = {}
     counts: dict[str, int] = {}
     all_titles: set[str] = set()
@@ -239,15 +307,17 @@ def main() -> int:
     page_cache: dict[str, dict] = {}
     failures = 0
     titles = sorted(all_titles, key=str.casefold)
-    for i, title in enumerate(titles, 1):
-        try:
-            page_cache[title] = parse_skill(title)
-        except Exception as exc:
-            failures += 1
-            page_cache[title] = {"sources": [page_url(title)], "research_status": "page_unavailable", "verification_status": "indexed", "source_error": type(exc).__name__}
-        if i % 25 == 0 or i == len(titles):
-            print(f"Pages {i}/{len(titles)}; failures={failures}")
-        time.sleep(0.05)
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        future_map = {pool.submit(parse_skill, title): title for title in titles}
+        for i, future in enumerate(as_completed(future_map), 1):
+            title = future_map[future]
+            try:
+                page_cache[title] = future.result()
+            except Exception as exc:
+                failures += 1
+                page_cache[title] = {"sources": [page_url(title)], "research_status": "page_unavailable", "verification_status": "indexed", "source_error": type(exc).__name__}
+            if i % 50 == 0 or i == len(titles):
+                print(f"Pages {i}/{len(titles)}; failures={failures}")
 
     records = {}
     for category, (skill_class, subtype) in CATEGORIES.items():
@@ -256,8 +326,16 @@ def main() -> int:
             key = (title.casefold(), skill_class, subtype)
             r = {"name": title, "class": skill_class, "subcategory": subtype, "verification_status": "indexed", "research_status": "indexed", "sources": [category_url]}
             r.update(curated.get(key, {}))
-            r.update({k: v for k, v in page_cache.get(title, {}).items() if k != "sources"})
+            secondary_data = secondary.get(norm(title), {})
+            apply_secondary(r, secondary_data)
+            for k, v in page_cache.get(title, {}).items():
+                if k != "sources":
+                    r[k] = v
             r["sources"] = list(dict.fromkeys(r["sources"] + page_cache.get(title, {}).get("sources", [])))
+            populated = sum(bool(r.get(k)) for k in ("skill_description", "unlock_method", "source_quest_or_shop", "ki_cost", "stamina_cost", "damage_type", "dlc_requirement", "race_restriction", "mechanics_notes"))
+            r["research_status"] = "enriched" if populated >= 3 else ("partially_enriched" if populated else "indexed")
+            if r["research_status"] != "indexed":
+                r["verification_status"] = "partially_verified"
             records[key] = r
 
     rows = sorted(records.values(), key=lambda r: (r["name"].casefold(), r["class"], r["subcategory"]))
@@ -265,7 +343,7 @@ def main() -> int:
         "schema_version": "1.2", "game": "Dragon Ball Xenoverse 2", "source_index": f"{BASE}/wiki/Category:Skills",
         "generated": date.today().isoformat(), "status": "enriched_catalog", "category_counts": counts,
         "record_count": len(rows), "records": rows,
-        "notes": "Coverage is indexed from public category pages. Per-skill data is imported only when parseable from the public skill page; missing data is left pending rather than guessed.",
+        "notes": "Coverage is indexed from public skill categories. Individual fields are imported only when supported by a public source or structured cross-reference; missing values remain pending rather than guessed.",
     }
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     INDEX.write_text(json.dumps({
@@ -288,7 +366,7 @@ def main() -> int:
         lines.append("| " + " | ".join(md(r.get(k)) for k in (
             "name", "class", "subcategory", "skill_description", "unlock_method", "source_quest_or_shop", "ki_cost", "stamina_cost", "dlc_requirement", "verification_status"
         )) + " |")
-    lines += ["", "## Research policy", "", "A blank field is intentionally left blank when the source page did not expose a parseable value. This table is an exhaustive coverage layer; it does not turn unverified source material into a verified claim.", ""]
+    lines += ["", "## Research policy", "", "A blank field is intentional. The catalog aims for exhaustive coverage while keeping unverified claims explicitly pending.", ""]
     MD.write_text("\n".join(lines), encoding="utf-8")
     print(f"Wrote {len(rows)} records; partial={partial}; indexed={len(rows)-verified-partial}; page_failures={failures}")
     return 0
