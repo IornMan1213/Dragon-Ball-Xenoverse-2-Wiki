@@ -24,7 +24,8 @@ Practical guides • databases • unlock information • farming routes • bui
 | 🧭 **I'm new to Xenoverse 2** | [Beginner Guides](docs/Guides.md) |
 | ⚔️ **I want better builds** | [Builds](docs/Builds.md) |
 | 🔓 **I need to unlock something** | [Skill Unlock Methods](docs/Skill-Unlock-Methods.md) |
-| 📚 **I want the complete skill database** | [Skills — Complete Database](docs/Skills-Complete-Database.md) |
+| 📚 **I want every individual skill** | [Every Skill — Live Explorer](docs/Skills-All.html) |
+| 📚 **I want the complete local skill database** | [Skills — Complete Database](docs/Skills-Complete-Database.md) |
 | 🎯 **I'm farming rewards** | [Farming Hub](docs/Farming-Hub.md) |
 | 🗺️ **I need a quest walkthrough** | [Parallel Quest Walkthrough](docs/Parallel-Quest-Walkthrough.md) |
 | 🧑‍🏫 **I need mentor rewards** | [Mentors](docs/Mentors.md) |
@@ -47,6 +48,7 @@ Practical guides • databases • unlock information • farming routes • bui
 ### Combat, Skills & Builds
 
 - [Skills Database](docs/Skills-Database.md)
+- [Every Skill — Live Explorer](docs/Skills-All.html) — searchable individual skill records
 - [Skills — Complete Database](docs/Skills-Complete-Database.md)
 - [Skill Unlock Methods](docs/Skill-Unlock-Methods.md)
 - [Super Souls](docs/Super-Souls.md)
@@ -121,7 +123,7 @@ For a focused change, open a pull request. For a larger idea or suspected proble
 
 ## 🗓️ Current Focus
 
-The project is in active expansion, with recent work focused on core systems, Super Souls, mentors, quests, farming information, and late-game/DLC coverage. The skill database is now being expanded toward record-level coverage of every skill's effects and acquisition method.
+The project is in active expansion, with recent work focused on core systems, Super Souls, mentors, quests, farming information, and late-game/DLC coverage. The skill database is being expanded toward record-level coverage of every skill's effects and acquisition method, with the live explorer exposing individual research records while local verification catches up.
 
 ## 🔗 Links
 
