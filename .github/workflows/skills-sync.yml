@@ -25,26 +25,59 @@ jobs:
       - name: Checkout wiki
         uses: actions/checkout@v4
 
-      - name: Fetch structured skill corpus
+      - name: Fetch structured skill corpus from GitHub API
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           rm -rf /tmp/xv2-research
-          for attempt in 1 2 3; do
-            rm -rf /tmp/xv2-research
-            if git clone --depth 1 --filter=blob:none --sparse https://github.com/Madreag/xenoverse_2_wiki.git /tmp/xv2-research; then
-              cd /tmp/xv2-research
-              git sparse-checkout set content/skills
-              break
-            fi
-            if [ "$attempt" -eq 3 ]; then
-              echo "Unable to fetch structured skill corpus after 3 attempts" >&2
-              exit 1
-            fi
-            sleep 5
+          mkdir -p /tmp/xv2-research/content/skills
+          : > /tmp/xv2-fetch-errors.log
+          page=1
+          total=0
+          while :; do
+            api="https://api.github.com/repos/Madreag/xenoverse_2_wiki/contents/content/skills?ref=main&per_page=100&page=${page}"
+            json_file="/tmp/xv2-page-${page}.json"
+            curl -fsSL --retry 3 --retry-delay 2 \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              "$api" > "$json_file"
+            count="$(python - "$json_file" <<'PY'
+import json, sys
+with open(sys.argv[1], encoding='utf-8') as f:
+    data=json.load(f)
+print(len(data) if isinstance(data, list) else 0)
+PY
+)"
+            [ "$count" -gt 0 ] || break
+            while IFS=$'\t' read -r name download_url; do
+              [ -n "$name" ] || continue
+              out="/tmp/xv2-research/content/skills/$name"
+              if ! curl -fsSL --retry 3 --retry-delay 2 \
+                -H "Accept: application/vnd.github+json" \
+                -H "Authorization: Bearer ${GH_TOKEN}" \
+                "$download_url" > "$out"; then
+                echo "$name" >> /tmp/xv2-fetch-errors.log
+                rm -f "$out"
+              fi
+            done < <(python - "$json_file" <<'PY'
+import json, sys
+with open(sys.argv[1], encoding='utf-8') as f:
+    data=json.load(f)
+for item in data:
+    if item.get('type') == 'file' and item.get('name','').endswith('.md') and item.get('download_url'):
+        print(item['name'] + '\t' + item['download_url'])
+PY
+)
+            total=$((total + count))
+            [ "$count" -lt 100 ] && break
+            page=$((page + 1))
           done
-          cd - >/dev/null
           files="$(find /tmp/xv2-research/content/skills -name '*.md' | wc -l)"
+          errors="$(wc -l < /tmp/xv2-fetch-errors.log)"
+          echo "GitHub API entries: $total"
           echo "Structured skill files: $files"
+          echo "Fetch errors: $errors"
           test "$files" -gt 500
 
       - name: Build exhaustive structured skill catalog
