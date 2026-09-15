@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "relationship_index_seeded",
+  "purpose": "Normalize acquisition relationships so a reward can be reached from its PQ and a PQ can be traced to skills, Super Souls, equipment, characters, DLC and farming use.",
+  "relationship_types": [
+    "pq_rewards_skill",
+    "pq_rewards_super_soul",
+    "pq_rewards_equipment",
+    "pq_features_character",
+    "pq_requires_dlc",
+    "pq_farming_route"
+  ],
+  "verified_relationships": [
+    {"pq":"pq-001","relationship":"pq_rewards_skill","target":"Death Slash","status":"indexed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-044","relationship":"pq_farming_route","target":"Dragon Balls","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-045","relationship":"pq_farming_route","target":"Dragon Balls","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-059","relationship":"pq_rewards_equipment","target":"Vegito's Clothes","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-059","relationship":"pq_rewards_skill","target":"Force Shield","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-059","relationship":"pq_rewards_skill","target":"Dimension Cannon","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-060","relationship":"pq_rewards_skill","target":"Majin Kamehameha","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-083","relationship":"pq_farming_route","target":"Dragon Balls","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-088","relationship":"pq_farming_route","target":"Dragon Balls","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-143","relationship":"pq_rewards_skill","target":"Hyper Tornado","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-145","relationship":"pq_rewards_skill","target":"Destructive Fracture","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-145","relationship":"pq_rewards_skill","target":"Destructive Flare","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-147","relationship":"pq_rewards_skill","target":"Crush Cannon","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-147","relationship":"pq_rewards_skill","target":"Double Crush","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-147","relationship":"pq_rewards_skill","target":"Crush Stream","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-149","relationship":"pq_rewards_skill","target":"Comet Strike","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-149","relationship":"pq_rewards_skill","target":"Meteor Explosion","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-155","relationship":"pq_rewards_skill","target":"Heroic Counter","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-155","relationship":"pq_rewards_skill","target":"Gamma Blaster","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-155","relationship":"pq_rewards_skill","target":"Gamma Impact","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-158","relationship":"pq_rewards_skill","target":"Super Gamma Blast","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-158","relationship":"pq_rewards_skill","target":"Core Breaker","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-162","relationship":"pq_rewards_skill","target":"Special Beam Cannon (Beast)","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-179","relationship":"pq_requires_dlc","target":"Dragon Ball DAIMA Pack","status":"source_backed","source":"https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"},
+    {"pq":"pq-180","relationship":"pq_requires_dlc","target":"Dragon Ball DAIMA Pack","status":"source_backed","source":"https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"},
+    {"pq":"pq-181","relationship":"pq_requires_dlc","target":"Dragon Ball DAIMA Pack","status":"source_backed","source":"https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"},
+    {"pq":"pq-185","relationship":"pq_requires_dlc","target":"FUTURE SAGA Chapter 4","status":"source_backed","source":"https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"},
+    {"pq":"pq-185","relationship":"pq_rewards_equipment","target":"Goku (Ultra Supervillain Quelled)'s Clothes","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-185","relationship":"pq_rewards_skill","target":"Dragon Spiral","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-185","relationship":"pq_rewards_skill","target":"Indomitable","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-186","relationship":"pq_requires_dlc","target":"FUTURE SAGA Chapter 4","status":"source_backed","source":"https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"},
+    {"pq":"pq-186","relationship":"pq_rewards_equipment","target":"Fu (Ultra Supervillain)'s Clothes","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
+    {"pq":"pq-186","relationship":"pq_rewards_skill","target":"Venus Fist","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"}
+  ],
+  "normalization_rules": [
+    "Never infer a reward from a character appearing in a PQ; only create a reward edge when the source explicitly lists the reward.",
+    "Keep clothing, accessories, Super Souls and skills as separate relationship types even when they share a PQ.",
+    "DLC edges identify the content pack required for the PQ, not ownership of every reward unless independently verified.",
+    "A farming edge means the PQ is documented as a practical farming route; it does not imply guaranteed drops.",
+    "Preserve source conflicts instead of silently choosing one value."
+  ],
+  "expansion_queue": [
+    "Populate every skill reward edge for PQ 1-186.",
+    "Populate every Super Soul reward edge for PQ 1-186.",
+    "Populate every clothing/accessory reward edge for PQ 1-186.",
+    "Resolve reward-slot attribution and Ultimate Finish gating where sources disagree.",
+    "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
+  ]
+}
