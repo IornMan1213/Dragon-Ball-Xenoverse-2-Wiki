@@ -1,6 +1,13 @@
 name: Sync Skills Catalog
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/sync_skills.py"
+      - "scripts/validate_skills.py"
+      - "docs/data/skills.schema.json"
+      - "docs/data/skills.json"
   workflow_dispatch:
   schedule:
     - cron: "17 5 * * 1"
@@ -16,7 +23,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Sync Fandom skill categories
+      - name: Sync and enrich all skill pages
         run: python scripts/sync_skills.py
 
       - name: Validate canonical database
@@ -25,12 +32,12 @@ jobs:
       - name: Create update PR when data changes
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "Sync Xenoverse 2 skill catalog"
-          title: "Sync Xenoverse 2 skill catalog"
+          commit-message: "Sync enriched Xenoverse 2 skill catalog"
+          title: "Sync enriched Xenoverse 2 skill catalog"
           body: |
-            Automated refresh of the skills catalog from the configured Fandom category sources.
+            Automated refresh of the Xenoverse 2 skill catalog.
 
-            The sync updates category membership/index data only. Mechanics, costs, unlock methods and meta claims remain separate verification work.
+            This refresh indexes every configured skill category and attempts to enrich each individual skill page with effects, acquisition/source text, costs, restrictions and DLC requirements. Missing fields remain explicit rather than being inferred.
           branch: automated/skills-catalog-sync
           delete-branch: true
-          labels: database,automated
+          labels: database,automated,skills
