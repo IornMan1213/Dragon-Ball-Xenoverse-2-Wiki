@@ -32,6 +32,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Kept Afterimage and Super Afterimage `partially_verified` where acquisition or technical interactions still need stronger reconciliation.
 - [x] Added a new homepage research-standard section explaining exhaustive coverage, evidence states, cross-linking, and search-oriented organization.
 - [x] Updated homepage CSS for the new research-standard panel with responsive cards.
+- [x] Expanded `DLC-Overview.md` into an encyclopedia-level DLC index with paid-vs-free provenance, Future Saga coverage, a content audit matrix, verification policy, and downstream record requirements.
 - [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
 
 ## In Progress
@@ -43,6 +44,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Improve PQ verification, especially acquisition conditions, Ultimate Finish requirements, and reward provenance.
 - [ ] Reconcile Awoken/Transformation records, separating CaC transformations from character-only forms.
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
+- [ ] Expand DLC-family inventory into individual content records and connect each pack to its characters, skills, PQs, Super Souls, costumes, systems, and free-update companions.
 - [ ] Continue removing internal/tool artifacts from repository text.
 - [ ] Diagnose the cleanup workflow failure; the connector currently exposes failed jobs without usable step logs, so the failure cause is not yet established.
 - [ ] Recheck native GitHub Pages deployment status after repository changes; do not mark it successful until an actual successful run is observable.
@@ -78,8 +80,9 @@ The project is being worked as parallel tracks so the site visibly improves whil
 2. Research and add the batch with exhaustive field coverage appropriate to that content type.
 3. Re-verify one earlier batch, including source reconciliation and corrections.
 4. Make at least one tangible website/UI improvement.
-5. Check the next under-documented game system so the overall wiki does not become skill-only or PQ-only.
-6. Update this TODO tracker with completed and remaining work.
-7. Update `CHANGELOG.md` with the concrete repository/data/site changes.
-8. Run or inspect available validation/Actions results.
-9. Only then report the completed work, actual results, coverage gaps, and unresolved blockers.
+5. Continue the DLC-family audit by selecting one older DLC line and mapping its individual content into the canonical record layers.
+6. Check the next under-documented game system so the overall wiki does not become skill-only or PQ-only.
+7. Update this TODO tracker with completed and remaining work.
+8. Update `CHANGELOG.md` with the concrete repository/data/site changes.
+9. Run or inspect available validation/Actions results.
+10. Only then report the completed work, actual results, coverage gaps, and unresolved blockers.
