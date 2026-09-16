@@ -1,6 +1,6 @@
 # Expert Missions
 
-Expert Missions (EMs) are repeatable high-difficulty encounters built around large bosses and mechanics that differ from ordinary Parallel Quests. This page is the **system index**; each mission should eventually receive its own structured record covering its boss, arena, unlock route, objectives, attacks, counterplay, rewards, drops, clear conditions, and version-sensitive behavior.
+Expert Missions (EMs) are repeatable high-difficulty encounters built around large bosses and mechanics that differ from ordinary Parallel Quests. This page is the **system index**; individual mission records are being built beneath this standard.
 
 ## Exhaustive Record Standard
 
@@ -21,17 +21,46 @@ Every EM record should capture, where evidence exists:
 - version-sensitive mechanics
 - source and verification state for every important numerical or technical claim
 
-## Unlock and Mission Count
+## Mission Index
 
-Current reference material agrees that Expert Missions begin after the Cell portion of the story and that the Supreme Kai of Time introduces tutorial missions before the sequence expands. Current third-party references disagree on the total because they use different scopes: one current guide describes **20** missions, while another describes **17 standard/base-game** missions. The wiki will preserve that distinction until every mission is mapped by provenance rather than forcing one number into all contexts.
+The current reference set enumerates **20 Expert Missions**, while older/base-game references sometimes use a narrower 17-mission scope. The wiki keeps scope explicit rather than silently mixing historical and current catalogs. citeturn0search0turn0search1
 
-Sources also describe progressive mission unlocks and a consolidated replay access point after the early sequence. These progression rules belong in the individual mission records as well as the system index.
+| EM | Title | Primary boss / encounter | Initial documented reward | Research state |
+|---:|---|---|---|---|
+| 01 | Expert Missions - Tutorial 1 | Great Ape Nappa | 100 Zeni | indexed |
+| 02 | Expert Missions - Tutorial 2 | Turles | 100 Zeni | indexed |
+| 03 | Assault of the Great Ape | Great Ape Nappa | 3,000 Zeni; 2 TP Medals; Murder Grenade | indexed |
+| 04 | Invasion of the Evil Super Namek | Lord Slug | 3,200 Zeni; 2 TP Medals; Super Destructo-Disc | indexed |
+| 05 | The Galactic Tyrant | Turles | 2,800 Zeni; 2 TP Medals; Death Wave | indexed |
+| 06 | The Depths of Despair | Great Ape Vegeta | 4,500 Zeni; 3 TP Medals; Supernova | indexed |
+| 07 | The Big Gete Star Strikes Back | Metal Cooler | 4,500 Zeni; Death Meteor | indexed |
+| 08 | Ominous Androids | Cell (Full Power) | 4,500 Zeni; Dead End Bullet | indexed |
+| 09 | The Most Feared Majin | Kid Buu | 9,600 Zeni; Assault Rain | indexed |
+| 10 | The Emperor's Worth | Golden Frieza | 9,600 Zeni; 6 TP Medals; Hellzone Grenade | indexed |
+| 11 | The Devil Born from the Dragon Balls | Supervillain Omega Shenron | 10,080 Zeni; Super Electric Strike | indexed |
+| 12 | Attack of the Lone Supersoldier | Great Ape Bardock | 10,080 Zeni; Angry Explosion | indexed |
+| 13 | A History of Mixed Battles! | Rotating/mixed superboss encounters | 21,600 Zeni; Dead End Rain; additional raid-related rewards reported | indexed |
+| 14 | Huge Blasts for Huge Apes! | Great Ape Nappa / Vegeta / Baby / Bardock | 21,600 Zeni; Shocking Death Ball | indexed |
+| 15 | Extreme Malice! | Rotating Supervillain encounters | 24,000 Zeni; Blue Hurricane | indexed |
+| 16 | In the Realm of the Gods: Vegeta | SSGSS Vegeta | 30,000 Zeni; 16 TP Medals; Super Spirit Bomb | partially_verified |
+| 17 | In the Realm of the Gods: Goku | SSGSS Goku | 30,000 Zeni; 16 TP Medals; Spirit Sword / Spirit Bomb naming varies by source | partially_verified |
+| 18 | The Ultimate Evil: Broly | Supervillain Broly | 35,000 Zeni; 18 TP Medals; Focus Flash | partially_verified |
+| 19 | A Truly Hellish Transformation | Supervillain Janemba | 35,000 Zeni; 18 TP Medals; Tail Slicer | indexed |
+| 20 | Harbinger of Doom | Android 13 / Dabura / Majin Buu (Gohan Absorbed) / Fused Zamasu | 35,000 Zeni; 20 TP Medals; Data Input | indexed |
+
+The reward column is an **indexing layer**, not a claim that every listed item is guaranteed on every clear. Exact guaranteed, first-clear, repeat, RNG, and version-dependent rewards will be separated in the individual records. Current references also disagree on some reward values/names, so conflicting evidence remains visible rather than being normalized into false certainty. citeturn0search0turn0search2
+
+## Unlock and Progression
+
+Expert Missions begin after the relevant Cell portion of story progression. The Supreme Kai of Time introduces the first two tutorial missions, after which additional missions become available through progression. After the early sequence, cleared missions can be consolidated into a replay hub near the Time Machine Station. citeturn0search0turn0search1
+
+Each individual record will preserve the exact unlock condition, location, and replay route instead of reducing the progression system to a single sentence.
 
 ## Core Mechanics
 
 ### Brainwash Attack
 
-A brainwash mechanic can remove affected players from the normal battlefield and place them into a separate confrontation. Each mission record should identify the boss, trigger, affected players, duration, escape/counter method, and version-specific behavior.
+A brainwash mechanic can remove affected players from the normal battlefield and place them into a separate confrontation. Each affected mission should identify the boss, trigger, affected players, duration, escape/counter method, and version-specific behavior.
 
 ### Scatter Blast
 
@@ -39,7 +68,7 @@ Scatter-style attacks create hazardous Ki objects that can punish teams that ign
 
 ### Gigantic Ki Blast
 
-Some bosses launch a giant Ki projectile requiring a dedicated interception/deflection interaction. Photon Swipe is commonly cited as one response, but the encyclopedia should document the actual interaction and viable alternatives per mission rather than turning a community recommendation into a mandatory rule.
+Some bosses launch a giant Ki projectile requiring a dedicated interception/deflection interaction. Photon Swipe and other defensive interactions are reported in community and guide sources; the encyclopedia should document the actual interaction and viable alternatives per mission rather than turning a community recommendation into a mandatory rule. citeturn0search1
 
 ### Peeler Storm
 
@@ -51,7 +80,9 @@ Marbling Drop uses tracking projectiles. Each affected mission should document i
 
 ## Offline vs Online
 
-Expert Missions can be played without a full human team, while offline play relies on CPU allies. Online teams change practical difficulty because players can coordinate counters and revives. These observations belong in a strategy layer; canonical mission fields should describe the actual mechanics first.
+Expert Missions support solo/offline play with CPU allies as well as multiplayer sessions. Sources also document up to six players. Offline and online behavior should be recorded separately because practical strategy, boss health behavior, ally behavior, and clear timing can differ. citeturn0search0turn0search1
+
+Battle-item restrictions also belong in the mission records; current reference material reports that Capsules/Battle Items are unavailable in ordinary Expert Missions, with an exception for the first two tutorial missions. citeturn0search0
 
 ## Reward Economy
 
@@ -65,7 +96,20 @@ Expert Missions can be played without a full human team, while offline play reli
 | First-clear rewards | One-time rewards and permanent unlocks |
 | Repeat rewards | Repeatable currencies/items/drops |
 
-Current guides identify EM 16/17 as common TP Medal farming targets and EM 18 as a strong medal/crystal target. Those are **strategy observations**, not universal rankings, and should remain separate from canonical reward data.
+EM 16 and EM 17 are repeatedly documented as 16-TP-Medal missions, while EM 18 and EM 19 are documented at 18 medals and EM 20 at 20 medals in current references. These figures are being treated as canonical reward fields only after mission-specific verification, not as a generalized farming ranking. citeturn0search0turn0search3
+
+## Mission Research Priorities
+
+The first detailed pass will prioritize missions with the most cross-system value:
+
+1. **EM 16 — SSGSS Vegeta:** timer, regeneration behavior, reward layers, EXP/Zeni conditions, and skill acquisition.
+2. **EM 17 — SSGSS Goku:** initial timer, damage-based time extensions, reward layers, and skill acquisition.
+3. **EM 18 — Supervillain Broly:** Peeler Storm, Gigantic Ki Blast, Super Armor interactions, crystal economy, and Focus Flash acquisition.
+4. **EM 19 — Supervillain Janemba:** Brainwash-related behavior, reward layers, and Tail Slicer acquisition.
+5. **EM 20 — Harbinger of Doom:** multi-boss behavior, Peeler Storm, reward layers, and Data Input acquisition.
+6. **EM 01–15:** complete the historical progression, exact locations, rewards, mechanics, and drop provenance.
+
+EM 16 has independent older documentation describing a five-minute timer and periodic health regeneration, while EM 17 has documentation describing a short starting timer extended by damage thresholds. These are preserved as research leads until reconciled against current mission behavior. citeturn0search9turn0search4
 
 ## Cross-System Relationships
 
@@ -127,9 +171,11 @@ The production schema should be reconciled with the repository's canonical data 
 
 ## Research State
 
-This page establishes the EM information architecture; it does **not** claim that every Expert Mission has already been exhaustively verified. The next EM data pass should build individual records and cross-link every boss, attack, reward, skill drop, currency interaction, and unlock condition.
+The mission index is now populated with the current 20-mission catalog and a first-pass reward/boss map. It does **not** claim that every Expert Mission has been exhaustively verified. The next data layer is individual mission records with cross-linked bosses, attacks, rewards, skill drops, currency interactions, and unlock conditions.
 
 ## Research References
 
-- [Current Expert Mission reference](https://dragonballxenoverse2.wiki/guides/expert-missions/)
-- [Independent Expert Mission unlock reference](https://www.dragon-ball-xenoverse-2.wiki/fr/builds/dragon-ball-xenoverse-2-how-to-unlock-expert-missions)
+- [Expert Mission reference](https://dbxv2.fandom.com/wiki/Expert_Mission)
+- [Current Expert Mission guide](https://dragonballxenoverse2.wiki/guides/expert-missions/)
+- [Steam Expert Mission guide](https://steamcommunity.com/sharedfiles/filedetails/?id=816459527)
+- [Older Expert Mission walkthrough](https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/faqs/74285?page=2)
