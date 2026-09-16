@@ -1,12 +1,8 @@
 {
-  "schema_version": "1.4.0",
+  "schema_version": "1.4.1",
   "record_type": "accessory_pq_research",
   "purpose": "Evidence-backed mapping layer connecting accessories to Parallel Quest acquisition routes while preserving reward-condition, alternate-route, and source conflicts.",
-  "verification_policy": {
-    "indexed": "Accessory and PQ relationship identified, but acquisition condition or current-version behavior remains unresolved.",
-    "partially_verified": "PQ relationship and basic acquisition route are supported, but one or more meaningful conditions, alternate routes, or current-version details remain unresolved.",
-    "verified": "Accessory identity, PQ source, relevant condition, and applicable alternate-route/version details are reconciled against sufficient independent evidence."
-  },
+  "verification_policy": {"indexed":"Accessory and PQ relationship identified, but acquisition condition or current-version behavior remains unresolved.","partially_verified":"PQ relationship and basic acquisition route are supported, but one or more meaningful conditions, alternate routes, or current-version details remain unresolved.","verified":"Accessory identity, PQ source, relevant condition, and applicable alternate-route/version details are reconciled against sufficient independent evidence."},
   "records": [
     {"id":"pqacc-001","name":"Piccolo's Turban","pq":3,"acquisition_condition":"PQ reward listing","alternate_routes":"Accessory Shop reported","verification_status":"partially_verified"},
     {"id":"pqacc-002","name":"Four-Star Dragon Ball Hat","pq":5,"acquisition_condition":"PQ reward listing","alternate_routes":null,"verification_status":"partially_verified"},
@@ -52,8 +48,7 @@
     {"id":"pqacc-042","name":"Android 17 (DB Super) Wig","pq":152,"acquisition_condition":"Basic reward listing on PQ152, Dyspo's Wanted Man","alternate_routes":"Conton City Vote Pack provenance","verification_status":"partially_verified"},
     {"id":"pqacc-043","name":"King Vegeta (DB Super) Wig","pq":154,"acquisition_condition":"Basic reward listing on PQ154, Dabura the Loyal? Servant","alternate_routes":"Conton City Vote Pack provenance","verification_status":"partially_verified"},
     {"id":"pqacc-044","name":"Gamma 2's Helmet","pq":155,"acquisition_condition":"Basic reward listing on PQ155, I Need a Hero... Pose!","alternate_routes":"Hero of Justice Pack 1 provenance","verification_status":"partially_verified"},
-    {"id":"pqacc-045","name":"Gamma 1's Helmet","pq":156,"acquisition_condition":"Basic reward listing on PQ156, Hunting Down Dr. Hedo","alternate_routes":"Hero of Justice Pack 1 provenance","verification_status":"partially_verified"},
-    {"id":"pqacc-046","name":"Gamma 1's Helmet research duplicate check","pq":156,"acquisition_condition":"Research placeholder retained only for source reconciliation; not a separate inventory item","alternate_routes":null,"verification_status":"indexed"}
+    {"id":"pqacc-045","name":"Gamma 1's Helmet","pq":156,"acquisition_condition":"Basic reward listing on PQ156, Hunting Down Dr. Hedo","alternate_routes":"Hero of Justice Pack 1 provenance","verification_status":"partially_verified"}
   ],
   "research_rules": [
     "A PQ appearing beside an accessory does not automatically establish whether the item is a guaranteed scripted reward, normal reward, Ultimate Finish reward, or random bonus-slot reward.",
@@ -64,8 +59,7 @@
     "Equipment-set names and accessory names are not conflated; uncertain component relationships remain indexed until the exact inventory item is identified.",
     "A basic reward listing is recorded as a PQ association, not as proof that the item is guaranteed on every clear or that it cannot also be a random reward.",
     "DLC-era PQs are tracked individually so accessory provenance can later be reconciled against DLC, shop, raid, and gift routes.",
-    "Later-DLC accessory names are retained as indexed research leads when the currently available source identifies the quest association but does not establish the exact reward slot.",
-    "Temporary research placeholders must never be counted as separate inventory items during canonicalization."
+    "Later-DLC accessory names are retained as indexed research leads when the currently available source identifies the quest association but does not establish the exact reward slot."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
