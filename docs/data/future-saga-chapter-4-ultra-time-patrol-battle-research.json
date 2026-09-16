@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "scope": "FUTURE SAGA Chapter 4 Ultra Time Patrol Battles and Gallery of Time research",
+  "status": "indexed_record_population",
+  "verification_status": "partially_verified",
+  "verification_policy": "Separate official feature existence from player-reported progression and reward behavior. Do not infer exact thresholds, rewards, or unlock order from promotional descriptions or video titles.",
+  "sources": [
+    {
+      "type": "official",
+      "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+      "scope": "Chapter 4 official content overview; confirms Ultra Time Patrol Battles and Gallery of Time"
+    },
+    {
+      "type": "official",
+      "url": "https://www.xbox.com/en-US/games/store/dragon-ball-xenoverse-2-future-saga-chapter-4/9NNB0LXKT16D",
+      "scope": "Official product listing; identifies Ultra Time Patrol Battles as a new high-difficulty quest, eight loading-screen illustrations, and Gallery of Time"
+    },
+    {
+      "type": "secondary",
+      "url": "https://www.youtube.com/watch?v=EUvqXWfDO5I",
+      "scope": "Secondary launch coverage showing/loading progression claims for the new mode"
+    }
+  ],
+  "official_feature_records": [
+    {
+      "id": "ultra-time-patrol-battles",
+      "name": "Ultra Time Patrol Battles",
+      "type": "high_difficulty_quest_category",
+      "status": "indexed",
+      "verification_status": "verified_feature",
+      "official_description": "Chapter 4 adds one new high-difficulty quest category called Ultra Time Patrol Battles.",
+      "exact_quest_count": "unresolved",
+      "exact_stage_list": "unresolved",
+      "exact_reward_table": "unresolved",
+      "score_or_rank_rules": "unresolved",
+      "unlock_conditions": "unresolved"
+    },
+    {
+      "id": "gallery-of-time",
+      "name": "Gallery of Time",
+      "type": "gallery_feature",
+      "status": "indexed",
+      "verification_status": "verified_feature",
+      "official_description": "Chapter 4 adds a Gallery of Time feature associated with loading-screen illustrations and Time Patrol history content.",
+      "exact_inventory": "unresolved",
+      "exact_unlock_sequence": "unresolved",
+      "exact_progression_requirements": "unresolved"
+    },
+    {
+      "id": "chapter-4-loading-screen-illustrations",
+      "name": "Chapter 4 Loading Screen Illustrations",
+      "type": "loading_screen_illustration",
+      "status": "indexed",
+      "verification_status": "verified_count",
+      "official_count": 8,
+      "exact_artwork_numbers": "partially_verified",
+      "exact_unlock_mapping": "unresolved"
+    }
+  ],
+  "research_leads": [
+    {
+      "id": "gallery-progression-via-ultra-time-patrol",
+      "type": "progression_lead",
+      "status": "indexed",
+      "verification_status": "partially_verified",
+      "claim": "Secondary launch coverage reports that completing the new high-difficulty content can unlock new loading-screen art.",
+      "evidence_limit": "This does not establish a complete one-to-one reward table, exact completion threshold, or exact sequence for all eight illustrations."
+    }
+  ],
+  "important_nonclaims": [
+    "The official one-category description is not used to invent a number of individual Ultra Time Patrol Battle missions.",
+    "No exact score, rank, clear-count, or completion-time threshold is inferred.",
+    "No loading-screen illustration is assigned to a specific battle without direct evidence.",
+    "Gallery of Time is not assumed to contain only the eight Chapter 4 illustrations; the official feature and the Chapter 4 eight-item content count are tracked separately.",
+    "No rewards, item IDs, or character unlocks are inferred from video titles or thumbnails."
+  ],
+  "research_targets": [
+    "Identify every individual Ultra Time Patrol Battle encounter and its unlock requirement.",
+    "Record enemy formations, stages, special rules, time limits, and rank/score requirements when independently evidenced.",
+    "Determine the complete reward table for each Ultra Time Patrol Battle.",
+    "Map the eight Chapter 4 loading-screen illustrations to exact acquisition/progression conditions.",
+    "Document what pre-Chapter-4 historical material the Gallery of Time exposes and how progression is structured.",
+    "Check whether the new Gallery has permanent account progression, repeatable rewards, or only collection/unlock tracking."
+  ]
+}
