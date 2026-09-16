@@ -43,7 +43,9 @@
 - Added a new **Equipment Database research foundation** at `docs/Equipment-Database.md`, covering individual equipment records, slots, six core stat fields, acquisition taxonomy, DLC/free-update provenance, version history, accessories, and verification rules.
 - Exposed Equipment Database through the homepage status panel, popular destinations, and category navigation.
 - Cleaned citation artifacts from the Equipment Database before continuing.
+- Added the first **10 structured Equipment records** at `docs/data/equipment-record-layer.json`, covering PQ, Clothing Shop, TP Medal Shop, and Conton City NPC/Expert Mission-related acquisition routes with stat, restriction, provenance, and verification fields.
+- Kept the new equipment records `partially_verified` where component-level restrictions, current shop state, or historical/version details remain unresolved.
 - Updated `TODO.md` with the individual-equipment population track and machine-readable equipment expansion requirements.
-- Current Equipment research remains a foundation: no claim is made that every clothing piece, accessory, or equipment stat record has been populated yet.
+- Current Equipment research remains an active population track; no claim is made that every clothing piece, accessory, or equipment stat record has been populated yet.
 
 Continuing modular improvements.
