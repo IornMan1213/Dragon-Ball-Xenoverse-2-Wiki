@@ -50,6 +50,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="pulse-card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><strong>186</strong><span>numbered Parallel Quests tracked</span><small>Includes Future Saga Chapter 4</small></a>
     <a class="pulse-card" href="{{ '/Awoken-All/' | relative_url }}"><strong>18</strong><span>Awoken/Transformation targets</span><small>CaC and character-only states are separated</small></a>
     <a class="pulse-card" href="{{ '/Mentors/' | relative_url }}"><strong>33+</strong><span>mentor records in the research layer</span><small>Unlocks and progression continue to be reconciled</small></a>
+    <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>10</strong><span>Super Soul records populated</span><small>First research batch — acquisition and effect fields remain independently verifiable</small></a>
   </div>
 </section>
 
