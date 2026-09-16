@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.3.0",
   "record_type": "accessory_pq_research",
   "purpose": "Evidence-backed mapping layer connecting accessories to Parallel Quest acquisition routes while preserving reward-condition, alternate-route, and source conflicts.",
   "verification_policy": {
@@ -39,7 +39,16 @@
     {"id":"pqacc-029","name":"Android 17 (DB Super)'s Ranger Accessory","pq":152,"acquisition_condition":"PQ152 accessory/equipment association requires component-level reconciliation","alternate_routes":null,"verification_status":"indexed"},
     {"id":"pqacc-030","name":"Red Ribbon Army Helmet","pq":160,"acquisition_condition":"Basic reward listing on PQ160, Pan in Peril","alternate_routes":null,"verification_status":"partially_verified"},
     {"id":"pqacc-031","name":"Gohan (Beast) Wig","pq":162,"acquisition_condition":"Basic reward listing on PQ162, The Man, the Myth, the Yamcha","alternate_routes":null,"verification_status":"partially_verified"},
-    {"id":"pqacc-032","name":"Videl (DB Super) Wig","pq":168,"acquisition_condition":"Basic reward listing on PQ168, Videl: Super Mom","alternate_routes":null,"verification_status":"partially_verified"}
+    {"id":"pqacc-032","name":"Videl (DB Super) Wig","pq":168,"acquisition_condition":"Basic reward listing on PQ168, Videl: Super Mom","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-033","name":"Dr. Hedo Hood","pq":159,"acquisition_condition":"PQ159 reward listing; exact reward-slot condition requires reconciliation","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-034","name":"SS4 Goku (DAIMA) Wig & Tail","pq":179,"acquisition_condition":"PQ179 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
+    {"id":"pqacc-035","name":"SS3 Vegeta (DAIMA) Wig","pq":180,"acquisition_condition":"PQ180 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
+    {"id":"pqacc-036","name":"Glorio Wig","pq":181,"acquisition_condition":"PQ181 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
+    {"id":"pqacc-037","name":"Panzy Wig","pq":181,"acquisition_condition":"PQ181 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
+    {"id":"pqacc-038","name":"Golden Frieza Head","pq":182,"acquisition_condition":"PQ182 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
+    {"id":"pqacc-039","name":"Broly Wig (Black Hair, Normal)","pq":183,"acquisition_condition":"PQ183 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
+    {"id":"pqacc-040","name":"Dragon Ball Balloon","pq":184,"acquisition_condition":"PQ184 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
+    {"id":"pqacc-041","name":"Goku (Ultra Supervillain Quelled) Wig","pq":185,"acquisition_condition":"PQ185 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"Future Saga Chapter 4 provenance","verification_status":"indexed"}
   ],
   "research_rules": [
     "A PQ appearing beside an accessory does not automatically establish whether the item is a guaranteed scripted reward, normal reward, Ultimate Finish reward, or random bonus-slot reward.",
@@ -49,14 +58,15 @@
     "No drop percentage is inferred from a reward list that does not explicitly document one.",
     "Equipment-set names and accessory names are not conflated; uncertain component relationships remain indexed until the exact inventory item is identified.",
     "A basic reward listing is recorded as a PQ association, not as proof that the item is guaranteed on every clear or that it cannot also be a random reward.",
-    "DLC-era PQs are tracked individually so accessory provenance can later be reconciled against DLC, shop, raid, and gift routes."
+    "DLC-era PQs are tracked individually so accessory provenance can later be reconciled against DLC, shop, raid, and gift routes.",
+    "Later-DLC accessory names are retained as indexed research leads when the currently available source identifies the quest association but does not establish the exact reward slot."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-110.md",
     "https://dbxv2.fandom.com/wiki/Equipment",
     "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+    "https://dbxv2.fandom.com/wiki/DLC",
     "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html"
   ]
 }
