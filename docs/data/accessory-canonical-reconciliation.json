@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.1",
   "record_type": "accessory_canonical_reconciliation",
   "purpose": "Canonical identity map for accessory acquisition layers. One canonical accessory identity may have multiple PQ, shop, raid, gift, wish, DLC, or event routes.",
   "identity_rules": [
@@ -20,7 +20,7 @@
     {"id":"accr-008","canonical_name":"Saiyuki Hood","aliases":["Saiyuki's Hood"],"routes":["TP Medal Shop","Wish/special route reported"],"status":"partially_verified"},
     {"id":"accr-009","canonical_name":"Mr. Popo's Turban","aliases":[],"routes":["TP Medal Shop","Accessory Shop reported"],"status":"partially_verified"},
     {"id":"accr-010","canonical_name":"Launch's Wig","aliases":["Launch Wig"],"routes":["TP Medal Shop","Accessory Shop reported"],"status":"partially_verified"},
-    {"id":"accr-011","canonical_name":"Spike the Devil Man's Head","aliases":["Spike the Devilman Head","Spike the Devil Man Heas"],"routes":["TP Medal Shop","Accessory Shop reported"],"status":"partially_verified"},
+    {"id":"accr-011","canonical_name":"Spike the Devil Man's Head","aliases":["Spike the Devilman Head"],"routes":["TP Medal Shop","Accessory Shop reported"],"status":"partially_verified"},
     {"id":"accr-012","canonical_name":"Piccolo's Turban","aliases":["Piccolo Turban"],"routes":["PQ3","Accessory Shop reported"],"status":"partially_verified"},
     {"id":"accr-013","canonical_name":"Pan's Bandana","aliases":["Pan Bandana","Pan's Bandanna"],"routes":["PQ93"],"status":"partially_verified"},
     {"id":"accr-014","canonical_name":"Goku's Wig","aliases":["Goku Wig"],"routes":["PQ route — source disagreement between PQ10/PQ25"],"status":"partially_verified","identity_note":"PQ number disagreement remains documented rather than resolved by assumption."},
@@ -44,10 +44,9 @@
     {"id":"accr-032","canonical_name":"Gamma 1's Helmet","aliases":[],"routes":["PQ156","HERO OF JUSTICE Pack 1 provenance"],"status":"partially_verified"},
     {"id":"accr-033","canonical_name":"Dr. Hedo Hood","aliases":[],"routes":["PQ159","HERO OF JUSTICE Pack 2 provenance"],"status":"partially_verified"},
     {"id":"accr-034","canonical_name":"Red Ribbon Army Helmet","aliases":[],"routes":["PQ160","HERO OF JUSTICE Pack 2 provenance"],"status":"partially_verified"},
-    {"id":"accr-035","canonical_name":"Videl (DB Super) Wig","aliases":[],"routes":["PQ168"],"status":"partially_verified"},
-    {"id":"accr-036","canonical_name":"Belmod Wig (with Nose)","aliases":[],"routes":["STP Medal Shop"],"status":"partially_verified"},
-    {"id":"accr-037","canonical_name":"Korin Wig with Ears & Tail","aliases":[],"routes":["Limited login bonus","Time Patrol Support Pack"],"status":"partially_verified"},
-    {"id":"accr-038","canonical_name":"Angel Set","aliases":[],"routes":["STP Medal Shop rotation"],"status":"partially_verified"}
+    {"id":"accr-035","canonical_name":"Belmod Wig (with Nose)","aliases":[],"routes":["STP Medal Shop"],"status":"partially_verified"},
+    {"id":"accr-036","canonical_name":"Korin Wig with Ears & Tail","aliases":[],"routes":["Limited login bonus","Time Patrol Support Pack"],"status":"partially_verified"},
+    {"id":"accr-037","canonical_name":"Angel Set","aliases":[],"routes":["STP Medal Shop rotation"],"status":"partially_verified"}
   ],
   "unresolved_alias_groups": [
     {"group":"Golden Great Ape naming","terms":["Golden Great Ape Hat & Tail","Golden Great Ape Wig & Tail"],"reason":"Historical sources use inconsistent terminology; inventory identity requires direct confirmation."},
@@ -55,13 +54,5 @@
     {"group":"Goku Wig Super Saiyan PQ route","terms":["PQ18","PQ63"],"reason":"Historical source disagreement; requires reward-table reconciliation."},
     {"group":"Power Pole naming","terms":["Power Pole","Goodie Radish / Radish-related naming"],"reason":"Wish/special source terminology is inconsistent; no forced merge is made."}
   ],
-  "sources": [
-    "https://dbxv2.fandom.com/wiki/Equipment",
-    "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
-    "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle",
-    "https://dbxv2.fandom.com/wiki/Free_Update",
-    "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html",
-    "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81168369",
-    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-  ]
+  "sources":["https://dbxv2.fandom.com/wiki/Equipment","https://dbxv2.fandom.com/wiki/Online_Raid_Quest","https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle","https://dbxv2.fandom.com/wiki/Free_Update","https://enjoi7.sakura.ne.jp/db_newproject2/ac.html","https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81168369","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
 }
