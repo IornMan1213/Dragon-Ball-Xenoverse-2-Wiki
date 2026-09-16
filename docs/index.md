@@ -54,6 +54,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="pulse-card" href="{{ '/QQ-Bang-Database/' | relative_url }}"><strong>QQ</strong><span>QQ Bang research layer</span><small>Synthesis system, six-stat schema, Super Mix Capsule Z, and recipe provenance</small></a>
     <a class="pulse-card" href="{{ '/Equipment-Database/' | relative_url }}"><strong>NEW</strong><span>Equipment research track</span><small>Individual gear, clothing, accessories, acquisition, stats, and version provenance</small></a>
     <a class="pulse-card" href="{{ '/Accessory-Shop-Database/' | relative_url }}"><strong>53</strong><span>Accessory Shop research records</span><small>Scouters, headwear, wigs, eyewear, props, staffs, and special accessories</small></a>
+    <a class="pulse-card" href="{{ '/TP-STP-Medal-Shop-Database/' | relative_url }}"><strong>36</strong><span>TP/STP equipment shop records</span><small>Historical rotations, prices, clothing, accessories, and currency provenance</small></a>
   </div>
 </section>
 
@@ -93,6 +94,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="card" href="{{ '/QQ-Bang-Database/' | relative_url }}"><span class="tag">BUILDS</span><h3>QQ Bang Database</h3><p>Six-stat schema, synthesis workflow, recipe provenance, six-star research, and build tags.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Equipment-Database/' | relative_url }}"><span class="tag">EQUIPMENT</span><h3>Equipment Database</h3><p>Clothing, accessories, native stat modifiers, acquisition routes, DLC provenance, and version history.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Accessory-Shop-Database/' | relative_url }}"><span class="tag">ACCESSORIES</span><h3>Accessory Shop Database</h3><p>Research the shop's scouters, headwear, wigs, eyewear, props, staffs, wings, and special accessories.</p><span class="arrow">→</span></a>
+    <a class="card" href="{{ '/TP-STP-Medal-Shop-Database/' | relative_url }}"><span class="tag">SHOPS</span><h3>TP / STP Medal Shop</h3><p>Track rotating clothing and accessory inventory without confusing historical schedules with current availability.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Characters/' | relative_url }}"><span class="tag">ROSTER</span><h3>Character Encyclopedia</h3><p>Forms, presets, unlock routes, DLC provenance, skills, and customization relationships.</p><span class="arrow">→</span></a>
   </div>
 </section>
@@ -104,6 +106,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a href="{{ '/Mentors/' | relative_url }}">Mentors <span>→</span></a>
     <a href="{{ '/Equipment-Database/' | relative_url }}">Equipment <span>→</span></a>
     <a href="{{ '/Accessory-Shop-Database/' | relative_url }}">Accessory Shop <span>→</span></a>
+    <a href="{{ '/TP-STP-Medal-Shop-Database/' | relative_url }}">TP / STP Shops <span>→</span></a>
     <a href="{{ '/QQ-Bangs/' | relative_url }}">QQ Bangs <span>→</span></a>
     <a href="{{ '/Super-Souls-Database/' | relative_url }}">Super Souls <span>→</span></a>
     <a href="{{ '/Skill-Unlock-Methods/' | relative_url }}">Skill Unlocks <span>→</span></a>
