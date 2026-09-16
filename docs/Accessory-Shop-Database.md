@@ -15,7 +15,7 @@ The machine-readable inventory is stored in:
 
 `docs/data/accessory-shop-research.json`
 
-The initial population contains **53 shop-route records** covering:
+The current population contains **49 unique shop-route records** after duplicate-name cleanup, covering:
 
 - Scouters and New/Old Model Scouters
 - Headwear and character hats
@@ -25,7 +25,7 @@ The initial population contains **53 shop-route records** covering:
 - Staffs and wings
 - Special accessories
 
-Historical accessory references document shop prices ranging from inexpensive early accessories to high-cost items such as Angel Halo and Z-Sword. They also show that some accessories have alternate PQ, TP Medal Shop, wish, raid, or event routes. citeturn0search2turn0search3
+Historical accessory references document shop prices ranging from inexpensive early accessories to high-cost items such as Angel Halo and Z-Sword. They also show that some accessories have alternate PQ, TP Medal Shop, wish, raid, or event routes.
 
 ## Research rules
 
@@ -44,6 +44,14 @@ Accessories generally belong to the cosmetic equipment layer, but the database s
 ### Gender/race restrictions are evidence fields
 
 Restrictions are not inferred from character appearance. If a source reports a restriction, it remains marked as reported until reconciled with current-game evidence.
+
+### Duplicate names are not separate inventory records
+
+Repeated historical listings for the same accessory are consolidated into one canonical shop record. Alternate acquisition routes remain attached to that record rather than creating fake duplicate inventory entries.
+
+### TP/STP-only inventory stays separate
+
+Accessories documented specifically as TP/STP Medal Shop rotations are maintained in the separate medal-shop research layer. They are not silently reclassified as ordinary Accessory Shop inventory.
 
 ## Initial shop families
 
