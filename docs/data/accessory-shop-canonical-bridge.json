@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.0.1",
   "record_type": "accessory_shop_canonical_bridge",
   "purpose": "Maps Accessory Shop research records to canonical accessory identities without creating duplicate inventory identities.",
   "matching_policy": [
@@ -68,7 +68,7 @@
     "Spike the Devil Man's Head"
   ],
   "notes": [
-    "The shop source currently contains 52 populated records despite the layer's historical description of 53; the missing shop-051/shop-052 IDs are not recreated here because the surviving data does not establish their contents.",
+    "The surviving Accessory Shop research contains 51 populated records: shop-001 through shop-050 plus shop-053. Historical material described the catalog as 53 entries, but shop-051 and shop-052 are absent from the surviving structured data and are not reconstructed by assumption.",
     "Mr. Popo's Turban, Saiyuki Hood, Launch's Wig, and Spike the Devil Man's Head already have canonical identities and should retain their existing canonical IDs rather than receiving duplicates.",
     "Scouter color variants are treated as distinct inventory identities because the source lists them as separate accessories.",
     "Prices remain source-layer observations and are not promoted to current verified prices here."
