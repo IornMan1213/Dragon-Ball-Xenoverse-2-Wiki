@@ -20,6 +20,15 @@ This directory contains the machine-readable source of truth for the exhaustive 
 - `cross-domain-relationship-types.json` — canonical relationship vocabulary.
 - `audit-metrics.json` — eventual automated audit outputs.
 
+## Evidence and research layers
+
+### Expert Missions
+
+- `expert-missions-16-17-evidence.json` — evidence reconciliation for EM16 and EM17, including skill identity, economy, historical timing reports, and unresolved acquisition conditions.
+- `expert-missions-18-20-evidence.json` — evidence reconciliation for EM18–20, including skill identity, economy, raid-related rewards, historical discrepancies, and unresolved mechanics.
+
+These evidence files are research layers, not substitutes for canonical item records. A value marked `partially_verified` must not be promoted to a guaranteed drop, exact rate, current-version mechanic, or unlock requirement without additional evidence.
+
 ## Population order
 
 Skills → Characters → Parallel Quests → Super Souls → QQ Bangs → DLC relationships → Mentors → Expert Missions → Transformations → Mechanics → Equipment/shops → Story/Future Saga → remaining systems.
