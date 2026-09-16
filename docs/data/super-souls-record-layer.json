@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "super_souls",
+  "purpose": "Canonical research layer for exhaustive Super Soul enumeration, acquisition, effects, Limit Burst behavior, provenance, and verification.",
+  "verification_status": "partially_verified",
+  "source_policy": "Preserve source/version conflicts; never infer undocumented trigger timing, magnitude, drop rates, or stacking behavior.",
+  "record_fields": [
+    "id",
+    "name",
+    "character_source",
+    "dlc_requirement",
+    "acquisition_type",
+    "acquisition_source",
+    "first_clear_or_repeat",
+    "shop_rotation",
+    "trigger_condition",
+    "effect_text",
+    "effect_magnitude",
+    "duration",
+    "stacking_behavior",
+    "limit_burst",
+    "limit_burst_trigger",
+    "limit_burst_effect",
+    "usable_by_cac",
+    "race_restriction",
+    "version_notes",
+    "verification_status",
+    "last_verified",
+    "sources"
+  ],
+  "records": [],
+  "research_notes": [
+    "Super Souls are a separate equipment domain from skills and QQ Bangs.",
+    "The repository must distinguish cataloguing a soul from verifying every trigger, magnitude, duration, and Limit Burst interaction.",
+    "Current research indicates Super Souls can originate from Parallel Quests, Expert Missions, raids, TP Medal Shop rotations, story content, and other acquisition systems; each source must be resolved per record.",
+    "QQ Bang statistics and Super Soul effects must not be conflated.",
+    "Community descriptions are evidence, not automatic canonical values."
+  ],
+  "sources": [
+    {
+      "name": "Madreag Xenoverse 2 research corpus",
+      "url": "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
+      "role": "research seed corpus"
+    },
+    {
+      "name": "Dragon Ball Xenoverse 2 Wiki Super Souls guide",
+      "url": "https://dragonballxenoverse2.wiki/guides/super-souls/",
+      "role": "current secondary reference"
+    },
+    {
+      "name": "Official Dragon Ball Xenoverse 2 site",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
+      "role": "publisher/DLC provenance"
+    }
+  ]
+}
