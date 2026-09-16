@@ -21,7 +21,7 @@ The Parallel Quest accessory research layer connects individual accessories to t
 
 ## Current research population
 
-The machine-readable layer now contains **29 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
+The machine-readable layer contains **29 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
 
 | Accessory / research item | PQ | State |
 |---|---:|---|
@@ -57,11 +57,13 @@ The machine-readable layer now contains **29 accessory/PQ research records**. So
 
 ## High-confidence example: PQ110
 
-Current research for **PQ110, "Heretics from a Dark World,"** identifies the SS4 Wig & Tail (Goku) as an Ultimate Finish reward. The same research separates the Super Saiyan 4 Suit as a scripted reward, the Time Patrol Gi as a separate reward pool, and other rewards such as Super Souls, skills, and Super Mix Capsules. citeturn0search0
+Current research identifies the SS4 Wig & Tail (Goku) as an Ultimate Finish reward on PQ110, while other equipment and rewards on that quest use separate reward mechanisms. This distinction is preserved in the machine-readable record rather than treating every listed reward as an identical drop type.
 
-This is exactly the distinction the database is designed to preserve: **the accessory's PQ association does not mean every reward on that quest uses the same acquisition mechanism.**
+The current research source is:
 
-Historical DLC documentation independently places the SS4 Wig & Tail and Super Saiyan 4 Suit in DLC Pack 4/PQ110, while Resistance Helmet is associated with PQ111. citeturn0search2turn0search1
+https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-110.md
+
+Historical DLC documentation should be used alongside the quest record when reconciling DLC provenance and accessory availability.
 
 ## Reward mechanics matter
 
@@ -75,15 +77,13 @@ A PQ reward list alone does **not** establish whether an accessory is:
 - a scripted reward outside the random pool; or
 - part of a version-specific reward table.
 
-The game's PQ documentation distinguishes ordinary completion from Ultimate Finish and notes that equipment and other rewards can be tied to specific defeated opponents or to Ultimate Finish reward rolls. citeturn0search9
-
-Accordingly, the database does **not** invent a drop percentage when the underlying evidence only says that an accessory is associated with a quest.
+The database therefore does **not** invent a drop percentage when the underlying evidence only says that an accessory is associated with a quest.
 
 ## Known conflicts and caveats
 
 ### Yamcha's Sword
 
-Historical sources disagree on its PQ association. The current record retains PQ29 while documenting the competing PQ36 claim rather than silently selecting one. This needs a direct current-version reconciliation.
+Historical sources disagree on its PQ association. The current record retains PQ29 while documenting the competing PQ36 claim rather than silently selecting one. This needs direct current-version reconciliation.
 
 ### Goku's Wig
 
@@ -91,7 +91,7 @@ PQ25 is the current mapping used by the research layer, but older inventories ca
 
 ### TP/STP overlap
 
-Some accessories that appear in PQ research also have shop routes. The Saiyan Tail and Great Ape-related accessories are a useful example of why the database keeps PQ and shop provenance separate: community documentation describes rotating TP Medal Shop availability alongside PQ/DLC acquisition. citeturn0search4
+Some accessories that appear in PQ research also have shop routes. PQ provenance and shop provenance are therefore stored separately instead of allowing one route to overwrite another.
 
 ## Cross-system relationships
 
@@ -108,7 +108,7 @@ Accessory acquisition is not isolated from the rest of the game. The same item c
 - DLC/free updates
 - Special events
 
-The broader equipment documentation also shows that later content contains a mixture of TP/STP Shop and PQ acquisition routes, so the equipment database must preserve the acquisition source per individual item rather than assuming a single universal route. citeturn0search8
+The broader equipment documentation likewise contains mixed PQ and shop acquisition routes, so each individual item needs its own provenance rather than a single universal acquisition label.
 
 ## Data source
 
