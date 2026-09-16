@@ -33,11 +33,13 @@ title: Dragon Ball Xenoverse 2 Wiki
 <section class="quick-grid" aria-label="Quick links">
   <a href="{{ '/Skills-All/' | relative_url }}"><b>📚 Every Skill</b><span>Search the full individual skill research catalog</span></a>
   <a href="{{ '/Parallel-Quests-All/' | relative_url }}"><b>🗺️ Every PQ</b><span>Search numbered quests, rewards, and conditions</span></a>
+  <a href="{{ '/Expert-Missions/' | relative_url }}"><b>💥 Expert Missions</b><span>Boss mechanics, counters, rewards, TP Medals, and progression</span></a>
   <a href="{{ '/Awoken-All/' | relative_url }}"><b>✨ Every Awoken</b><span>Search transformations by race and unlock route</span></a>
   <a href="{{ '/Builds/' | relative_url }}"><b>⚔️ Builds</b><span>Practical setups for different playstyles</span></a>
   <a href="{{ '/Farming-Hub/' | relative_url }}"><b>🎯 Farming Hub</b><span>Rewards, routes, and efficient farming</span></a>
   <a href="{{ '/Characters/' | relative_url }}"><b>👥 Characters</b><span>Forms, presets, unlocks, DLC, and relationships</span></a>
   <a href="{{ '/Mentors/' | relative_url }}"><b>🥋 Mentors</b><span>Lessons, skills, friendship, and unlock routes</span></a>
+  <a href="{{ '/Conton-City/' | relative_url }}"><b>🏙️ Conton City</b><span>Hub services, Time Rifts, NPCs, travel, and progression</span></a>
   <a href="{{ '/Level-Cap-Attributes/' | relative_url }}"><b>📈 Level & Stats</b><span>Leveling, attributes, and late-game progression</span></a>
 </section>
 
@@ -71,6 +73,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="card featured" href="{{ '/Guides/' | relative_url }}"><span class="tag">BEGINNER</span><h3>Guides</h3><p>Core systems, progression tips, and practical how-to information.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Skills-All/' | relative_url }}"><span class="tag">EXHAUSTIVE</span><h3>Every Skill</h3><p>Search individual skills, effects, mentors, costs, and acquisition notes.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><span class="tag">QUESTS</span><h3>Every Parallel Quest</h3><p>Live searchable quest records with rewards and Ultimate Finish information.</p><span class="arrow">→</span></a>
+    <a class="card" href="{{ '/Expert-Missions/' | relative_url }}"><span class="tag">SYSTEMS</span><h3>Expert Missions</h3><p>Boss mechanics, special attacks, mission progression, reward economy, and research status.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Characters/' | relative_url }}"><span class="tag">ROSTER</span><h3>Character Encyclopedia</h3><p>Forms, presets, unlock routes, DLC provenance, skills, and customization relationships.</p><span class="arrow">→</span></a>
   </div>
 </section>
