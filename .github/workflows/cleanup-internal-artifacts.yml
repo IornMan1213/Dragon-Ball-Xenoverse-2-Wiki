@@ -1,5 +1,6 @@
 name: Clean internal artifacts
 
+# Runs after this workflow is established on main so the cleanup can remove legacy artifacts.
 on:
   push:
     branches: [main]
