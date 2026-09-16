@@ -13,7 +13,8 @@ The canonical identity layer is the bridge between the wiki's separate accessory
 - **88 canonical identities** are currently represented in the canonical layer.
 - **45 accessory → PQ research records** are available in the PQ layer.
 - **51 populated Accessory Shop records** are currently present in the shop research file.
-- **49 shop records** are now represented by explicit canonical IDs in the expanded canonical layer; four pre-existing canonical identities use separate route reconciliation and two shop IDs remain absent from the source layer.
+- **47 shop records** are now represented by explicit canonical IDs in the expanded canonical layer.
+- Four additional shop-linked identities already existed canonically, but their exact shop record IDs remain to be attached without guessing.
 - `shop-051` and `shop-052` remain unresolved data-recovery targets; they are not fabricated.
 - Raid/gift and wish/special research remain separate provenance layers until each item is matched with sufficient evidence.
 
@@ -99,11 +100,11 @@ The newly promoted shop identities are intentionally **partially verified**, not
 
 The database is intentionally conservative. If two sources disagree, the disagreement is recorded. If a source identifies an accessory but does not establish whether the reward is guaranteed, the database records the association without inventing a drop rate.
 
-Current equipment research supports treating the Accessory Shop as one acquisition system among several, alongside PQs, raids, mixers, mentor-related routes, and DLC-related content. citeturn0search0turn0search5
+Current equipment research supports treating the Accessory Shop as one acquisition system among several, alongside PQs, raids, mixers, mentor-related routes, and DLC-related content.
 
-The Time Patrol Support Pack is also a useful example of why DLC provenance and acquisition route must remain separate: its official store listing includes Frieza's Head (Final Form) and Korin Wig with Ears & Tail while noting that some included content can also be obtained through in-game conditions. citeturn0search2turn0search3
+The Time Patrol Support Pack is also a useful example of why DLC provenance and acquisition route must remain separate: its official store listing includes Frieza's Head (Final Form) and Korin Wig with Ears & Tail while noting that some included content can also be obtained through in-game conditions.
 
-Historical accessory lists remain useful for route leads, but they are not automatically treated as current shop state. Older lists also demonstrate that some PQ accessories could later become purchasable in the Accessory Shop. citeturn0search10
+Historical accessory lists remain useful for route leads, but they are not automatically treated as current shop state. Older lists also demonstrate that some PQ accessories could later become purchasable in the Accessory Shop.
 
 ## Next reconciliation targets
 
@@ -118,4 +119,4 @@ Historical accessory lists remain useful for route leads, but they are not autom
 
 ## Research caveat
 
-The game's own Equipment Collection percentage is still a separate research problem. Current player reports continue to disagree about whether certain raid, tournament, or special-event items count toward that percentage, so the wiki does not infer collection-completion rules from the canonical inventory count. citeturn0reddit12
+The game's own Equipment Collection percentage is still a separate research problem. Current player reports continue to disagree about whether certain raid, tournament, or special-event items count toward that percentage, so the wiki does not infer collection-completion rules from the canonical inventory count.
