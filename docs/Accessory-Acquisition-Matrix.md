@@ -57,7 +57,7 @@ The dedicated reconciliation layer records each PQ in this range rather than onl
 - **PQ163-PQ167:** no accessory in the checked basic-reward extracts.
 - **PQ168:** Videl (DB Super) Wig remains a cross-reference requiring reward-condition reconciliation.
 
-The current PQ guide directly identifies Gamma 1's Helmet in PQ156, Gamma 2's Clothes in PQ158, Dr. Hedo Hood in PQ159, Red Ribbon Army Helmet in PQ160, Red Ribbon Soldier 94 Clothes in PQ161, and Gohan (Beast) Wig in PQ162. The DLC catalogue separately groups these items with the corresponding HERO OF JUSTICE content. citeturn0search2turn0search5
+The current PQ guide directly identifies Gamma 1's Helmet in PQ156, Gamma 2's Clothes in PQ158, Dr. Hedo Hood in PQ159, Red Ribbon Army Helmet in PQ160, Red Ribbon Soldier 94 Clothes in PQ161, and Gohan (Beast) Wig in PQ162. The DLC catalogue separately groups these items with the corresponding HERO OF JUSTICE content.
 
 ## Character Gift equipment pools
 
