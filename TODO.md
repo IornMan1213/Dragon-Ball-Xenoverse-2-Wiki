@@ -34,7 +34,8 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Updated homepage CSS for the new research-standard panel with responsive cards.
 - [x] Expanded `DLC-Overview.md` into an encyclopedia-level DLC index with paid-vs-free provenance, Future Saga coverage, a content audit matrix, verification policy, and downstream record requirements.
 - [x] Added an Expert Missions system foundation covering unlock/count uncertainty, mechanics, reward taxonomy, cross-system links, verification rules, and an individual mission record template.
-- [x] Added Expert Missions to homepage quick navigation and popular destinations.
+- [x] Added a current 20-mission Expert Mission index with first-pass boss/reward mapping and explicit research states.
+- [x] Added an Expert Mission status callout to the homepage and responsive styling for it.
 - [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
 
 ## In Progress
