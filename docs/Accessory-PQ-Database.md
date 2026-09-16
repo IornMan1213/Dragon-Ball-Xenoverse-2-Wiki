@@ -21,7 +21,7 @@ The Parallel Quest accessory research layer connects individual accessories to t
 
 ## Current research population
 
-The machine-readable layer contains **29 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
+The machine-readable layer now contains **32 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
 
 | Accessory / research item | PQ | State |
 |---|---:|---|
@@ -54,6 +54,15 @@ The machine-readable layer contains **29 accessory/PQ research records**. Some r
 | Kale accessory lead | 148 | Indexed |
 | Android 17 (DB Super) Ranger accessory/equipment lead | 152 | Indexed |
 | Android 15's Sunglasses | — | Indexed; no PQ route established |
+| Red Ribbon Army Helmet | 160 | Partially verified |
+| Gohan (Beast) Wig | 162 | Partially verified |
+| Videl (DB Super) Wig | 168 | Partially verified |
+
+## New DLC-era coverage
+
+The Hero of Justice PQ research provides direct reward listings for several accessories. PQ160, **Pan in Peril**, lists the Red Ribbon Army Helmet; PQ162, **The Man, the Myth, the Yamcha**, lists the Gohan (Beast) Wig; and PQ168, **Videl: Super Mom**, lists the Videl (DB Super) Wig. These are recorded as PQ associations, not assumed guaranteed drops, because a basic reward listing alone does not establish the underlying roll mechanics. citeturn0search1
+
+The broader PQ documentation confirms that equipment can be obtained through different reward mechanisms, including opponent-linked drops and Ultimate Finish rolls. citeturn0search5
 
 ## High-confidence example: PQ110
 
@@ -136,4 +145,4 @@ Related research:
 
 ## Research status
 
-**Partially verified.** The database has moved from a simple accessory/PQ list toward an acquisition graph. The next verification pass should reconcile individual PQ reward slots and conditions, then continue populating PQs beyond the currently documented accessory set.
+**Partially verified.** The database now covers accessory/PQ relationships from the early base-game quests through selected DLC-era quests, while preserving uncertainty around reward-slot mechanics. Further passes should continue through the remaining PQs and reconcile every relationship against the canonical accessory inventory.
