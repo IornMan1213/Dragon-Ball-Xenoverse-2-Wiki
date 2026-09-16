@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "scope": "Early base-game Parallel Quest skill acquisition evidence",
+  "status": "partially_verified",
+  "purpose": "Capture historically documented PQ reward-to-skill relationships while preserving uncertainty about exact reward triggers and conflicting numbering.",
+  "records": [
+    {
+      "skill": "Kaioken",
+      "parallel_quest": 8,
+      "quest_name": "Invade Earth",
+      "route_type": "ultimate_finish",
+      "trigger_scope": "Historical guides and player reports associate Kaioken with the PQ's Ultimate Finish sequence; exact current reward roll remains unresolved.",
+      "finish_scope": "ultimate",
+      "guarantee_status": "conditional",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified"
+    },
+    {
+      "skill": "Fighting Pose C",
+      "parallel_quest": 13,
+      "quest_name": "Namekian Dragon Balls",
+      "route_type": "specific_enemy_drop",
+      "trigger_scope": "Historical reward documentation identifies Fighting Pose C in the PQ reward set; enemy-specific trigger is retained as unresolved until reconciled against current reward data.",
+      "finish_scope": "unknown",
+      "guarantee_status": "random",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified"
+    },
+    {
+      "skill": "Psycho Escape",
+      "parallel_quest": 13,
+      "quest_name": "Namekian Dragon Balls",
+      "route_type": "unknown",
+      "trigger_scope": "Historical reward documentation identifies Psycho Escape in PQ 13; exact trigger is unresolved.",
+      "finish_scope": "unknown",
+      "guarantee_status": "random",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified"
+    },
+    {
+      "skill": "Fighting Pose D",
+      "parallel_quest": 15,
+      "quest_name": "Gotta Find That Dragon Ball!",
+      "route_type": "unknown",
+      "trigger_scope": "Historical reward documentation identifies Fighting Pose D in PQ 15; exact trigger is unresolved.",
+      "finish_scope": "unknown",
+      "guarantee_status": "random",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified"
+    },
+    {
+      "skill": "Fighting Pose B",
+      "parallel_quest": 16,
+      "quest_name": "Defeat Frieza's Army!",
+      "route_type": "unknown",
+      "trigger_scope": "Current secondary documentation identifies PQ 16, while an older Japanese guide reports PQ 14; the conflict is preserved rather than silently normalized.",
+      "finish_scope": "unknown",
+      "guarantee_status": "unknown",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified",
+      "historical_status": "conflicting_sources"
+    },
+    {
+      "skill": "Fighting Pose J",
+      "parallel_quest": 17,
+      "quest_name": "Challenger Hercule",
+      "route_type": "unknown",
+      "trigger_scope": "Historical reward documentation identifies Fighting Pose J in PQ 17; exact trigger is unresolved.",
+      "finish_scope": "unknown",
+      "guarantee_status": "random",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified"
+    },
+    {
+      "skill": "Mach Dash",
+      "parallel_quest": 18,
+      "quest_name": "Return of Ginyu Force!",
+      "route_type": "unknown",
+      "trigger_scope": "Historical reward documentation identifies Mach Dash in PQ 18; exact trigger is unresolved.",
+      "finish_scope": "unknown",
+      "guarantee_status": "random",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified"
+    },
+    {
+      "skill": "Time Control",
+      "parallel_quest": 18,
+      "quest_name": "Return of Ginyu Force!",
+      "route_type": "specific_enemy_drop",
+      "trigger_scope": "Historical guide evidence identifies Time Control as associated with defeating Guldo; current trigger and reward-generation behavior remain to be reconciled.",
+      "finish_scope": "unknown",
+      "guarantee_status": "random",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified"
+    },
+    {
+      "skill": "Justice Pose",
+      "parallel_quest": 53,
+      "quest_name": "The Fist of Justice!",
+      "route_type": "unknown",
+      "trigger_scope": "PQ 53 is documented as a source for Justice Pose; exact trigger remains unresolved.",
+      "finish_scope": "unknown",
+      "guarantee_status": "random",
+      "drop_rate": "unresolved",
+      "verification_status": "partially_verified"
+    }
+  ],
+  "evidence": [
+    "Steam Community Guide: DBX2 Parallel Quest Item / Skill Rewards, published November 8, 2016",
+    "Historical skill-acquisition guide evidence",
+    "Current repository PQ acquisition model"
+  ],
+  "research_rules": [
+    "A reward listing is not automatically a guaranteed reward or an Ultimate Finish requirement.",
+    "Enemy-specific acquisition is only promoted where a source explicitly connects the skill to an enemy; otherwise the route remains unknown.",
+    "Numerical drop rates are not inferred from farming reports.",
+    "Historical PQ numbering conflicts remain explicit until reconciled.",
+    "This file is an evidence layer and does not replace canonical skill identity data."
+  ]
+}
