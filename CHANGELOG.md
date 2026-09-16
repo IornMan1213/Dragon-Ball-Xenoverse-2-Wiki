@@ -19,8 +19,10 @@
 - Added a DLC content audit matrix covering characters, skills/Awokens, PQs, Extra Missions, Super Souls, equipment, illustrations, stages, systems, and events/raids.
 - Added the Dragon Ball DAIMA paid-DLC versus free-update distinction to the DLC research standard.
 - Added an **Expert Missions** system foundation with unlock/count uncertainty, boss-mechanic taxonomy, reward/economy categories, cross-system relationships, verification rules, and an individual mission-record template.
-- Added Expert Missions to the homepage quick-navigation and popular-destination cards so the growing systems database is easier to discover.
-- Updated `TODO.md` so individual Expert Mission records and Conton City/Time Rift expansion are active research tracks.
+- Added a current **20-mission Expert Mission index** with first-pass boss/reward mapping and explicit research states.
+- Added an **Expert Mission status callout** to the homepage with responsive styling so the new research track is visible from the main entry point.
+- Removed an accidental external citation-artifact insertion from `docs/Expert-Missions.md` before continuing the cycle.
+- Updated `TODO.md` so individual Expert Mission records remain an active research track alongside the broader exhaustive-coverage work.
 - Added an explicit **Exhaustive Game Encyclopedia** scope standard to `TODO.md`: the project is intended to document every documented detail of Xenoverse 2, with structured labels, provenance, uncertainty tracking, and distinctions such as CaC vs character-only, DLC ownership vs unlock method, normal vs Ultimate Finish rewards, and known exceptions.
 - Updated the delivery strategy so coverage of under-documented game systems remains active alongside skill/PQ research rather than allowing the current batch focus to narrow the wiki's scope.
 - Continued provenance-first research: unresolved values are kept explicitly uncertain instead of being invented or silently promoted.
