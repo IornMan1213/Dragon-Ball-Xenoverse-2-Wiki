@@ -15,9 +15,17 @@ The research layer treats the equipment system as several related but distinct l
 |---|---|
 | Clothing/equipment piece | Individual wearable item with its own stat modifiers and appearance |
 | Outfit/set | Collection of pieces that may share a visual theme or source |
-| Accessory | Separate wearable cosmetic/effect item; its exact stat/effect behavior must be recorded per item |
+| Accessory | Separate wearable cosmetic/effect item; exact behavior must be recorded per item |
 | QQ Bang | Synthesized stat modifier that overrides the clothing contribution used for the build |
 | Super Soul | Separate passive/trigger system; it is not a clothing stat modifier |
+
+## Current catalog coverage
+
+The structured research layer now contains an initial population of individual equipment records. A separate machine-readable **equipment catalog index** has also been added so discovered names are not confused with fully researched records:
+
+`docs/data/equipment-catalog-index.json`
+
+The catalog organizes documented equipment families across Goku, Gohan, Piccolo, Trunks, Krillin/Yamcha/Tien, Androids, Broly, race-exclusive clothing, and reusable clothing-set families. This inventory layer is intentionally broader than the fully verified record layer.
 
 ## Individual record fields
 
@@ -51,7 +59,7 @@ A missing value means **not yet established**, not zero.
 
 The database must not collapse an equipment item's native stat contribution into the QQ Bang system. QQ Bang research belongs in [`QQ-Bang-Database`](QQ-Bang-Database.md), where the recipe, mixing item, observed six-stat result, and RNG uncertainty are tracked separately.
 
-Current research describes QQ Bangs as replacing the combined clothing stat contribution, which is why builds can use clothing primarily for appearance after a suitable QQ Bang is equipped.
+Current research describes QQ Bangs as replacing the combined clothing stat contribution. This lets a player separate appearance choices from the clothing stat block when a suitable QQ Bang is equipped.
 
 ## Acquisition taxonomy
 
@@ -95,11 +103,17 @@ Post-launch updates and DLC can alter the available equipment pool. A historical
 
 An item can be visually important without being statistically important. Conversely, a stat-bearing item can matter to a build without being part of a visible outfit.
 
-## Current coverage status
+### 6. Keep inventory and verification separate
 
-The equipment domain is an **active exhaustive research track**, not a claim that every clothing piece has already been entered.
+A catalog entry proves that an equipment name has been discovered. It does **not** prove that its stats, price, restriction, reward condition, or current availability have been independently verified.
 
-The current structured QQ Bang layer already establishes the synthesis system, Super Mix Capsule Z research, and a community recipe family. The next equipment population pass should expand from system-level research into individual clothing/equipment records.
+## Research states
+
+- **indexed** — identity/source discovered; meaningful fields remain unchecked.
+- **partially_verified** — core identity and some acquisition/stat fields corroborated, but important fields remain unresolved.
+- **verified** — identity, core acquisition, and relevant mechanics/stat fields reconciled against sufficient evidence.
+
+The catalog index is therefore deliberately allowed to contain more names than the canonical detailed record layer.
 
 ## High-priority population order
 
@@ -112,18 +126,6 @@ The current structured QQ Bang layer already establishes the synthesis system, S
 7. Accessories and special-effect items.
 8. Historical/version-specific equipment routes.
 9. Cross-links from equipment to QQ Bang recipes and Super Souls.
-
-## Provenance standard
-
-Official publisher/platform DLC listings establish DLC content ownership and content categories; they do not by themselves establish every individual item's in-game unlock route. For example, official Future Saga Chapter 4 documentation identifies two playable characters, one Extra Mission, two Parallel Quests, four moves including an Awoken Skill, six costumes/accessories, four Super Souls, a stage, and the Gallery of Time feature. Individual item records should therefore retain their specific acquisition evidence separately.
-
-## Verification states
-
-- **indexed** — item identity/source discovered but meaningful fields remain unchecked.
-- **partially_verified** — core identity and some acquisition/stat fields corroborated, but important fields remain unresolved.
-- **verified** — identity, core acquisition, and relevant mechanics/stat fields reconciled against sufficient evidence.
-
-Verification is record-specific. A verified outfit source does not automatically verify every piece's stats or every historical acquisition route.
 
 ## Research targets
 
