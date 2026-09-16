@@ -22,6 +22,14 @@ This directory contains the machine-readable source of truth for the exhaustive 
 
 ## Evidence and research layers
 
+### Parallel Quest skill acquisition
+
+- `parallel-quest-skill-acquisition-early-base-game.json` — early base-game PQ skill evidence through PQ28, with unresolved triggers preserved.
+- `parallel-quest-skill-acquisition-base-game-pq29-40.json` — PQ29-PQ40 skill evidence, including the four-star transition and Heat Dome Attack.
+- `parallel-quest-skill-acquisition-reconciliation.json` — cross-source reconciliation for selected PQ skill routes and historical conflicts.
+
+These PQ evidence files are research layers, not substitutes for canonical skill records. A value marked `partially_verified` must not be promoted to a guaranteed drop, exact rate, current-version mechanic, or unlock requirement without additional evidence.
+
 ### Expert Missions
 
 - `expert-missions-16-17-evidence.json` — evidence reconciliation for EM16 and EM17, including skill identity, economy, historical timing reports, and unresolved acquisition conditions.
