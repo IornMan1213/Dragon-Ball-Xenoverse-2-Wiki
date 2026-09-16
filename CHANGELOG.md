@@ -40,6 +40,10 @@
 - Expanded `docs/QQ-Bangs.md` into a practical guide and linked it to the structured QQ Bang database.
 - Removed internal web-tool citation artifacts from both QQ Bang pages.
 - Added QQ Bang research to the homepage database status and popular destinations.
-- Current QQ Bang research remains explicitly partial; recipes are not treated as deterministic and observed results remain separate from expected community results.
+- Added a new **Equipment Database research foundation** at `docs/Equipment-Database.md`, covering individual equipment records, slots, six core stat fields, acquisition taxonomy, DLC/free-update provenance, version history, accessories, and verification rules.
+- Exposed Equipment Database through the homepage status panel, popular destinations, and category navigation.
+- Cleaned citation artifacts from the Equipment Database before continuing.
+- Updated `TODO.md` with the individual-equipment population track and machine-readable equipment expansion requirements.
+- Current Equipment research remains a foundation: no claim is made that every clothing piece, accessory, or equipment stat record has been populated yet.
 
 Continuing modular improvements.
