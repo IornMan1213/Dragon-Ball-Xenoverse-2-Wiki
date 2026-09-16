@@ -19,13 +19,14 @@
     <a href="{{ '/Characters/' | relative_url }}">Characters</a>
     <a href="{{ '/Parallel-Quests/' | relative_url }}">Quests</a>
     <a href="{{ '/Builds/' | relative_url }}">Builds</a>
-    <a class="top-home" href="{{ '/' | relative_url }}">Home</a>
+    <a class="search-nav" href="{{ '/Search/' | relative_url }}">Search</a>
   </nav>
 </header>
 
 <div class="wiki-shell">
   <aside class="wiki-side" aria-label="Wiki navigation">
     <div class="side-title">DATABASE</div>
+    <a href="{{ '/Search/' | relative_url }}">🔎 Search Everything</a>
     <a href="{{ '/Skills-Database/' | relative_url }}">Skills Database</a>
     <a href="{{ '/Super-Souls/' | relative_url }}">Super Souls</a>
     <a href="{{ '/QQ-Bangs/' | relative_url }}">QQ Bangs</a>
@@ -60,5 +61,6 @@
     <footer class="wiki-footer">Unofficial community resource. Game names and trademarks belong to their respective owners.</footer>
   </main>
 </div>
+<script src="{{ '/assets/search.js' | relative_url }}" defer></script>
 </body>
 </html>
