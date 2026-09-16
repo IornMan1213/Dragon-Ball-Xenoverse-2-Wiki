@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "indexed_record_population",
+  "record_policy": "Preset records preserve source-observed roster configurations without assuming that a preset number is a universal identity. Separate playable forms and variants remain separate character records. Acquisition and DLC ownership are distinct fields and remain unresolved when the source only demonstrates roster presence.",
+  "verification_status": "indexed",
+  "sources": [
+    {
+      "type": "community_video",
+      "url": "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
+      "observed": "2024-11-22",
+      "scope": "broad preset and unlock inventory through DLC 18; chapter timestamps provide discovery evidence"
+    },
+    {
+      "type": "official",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
+      "observed": "2026-09-16",
+      "scope": "official roster, mentor and DLC provenance"
+    }
+  ],
+  "records": [
+    {"id":"goku-preset-2","character_id":"goku","name":"Goku Preset 2","preset_number":2,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-3","character_id":"goku","name":"Goku Preset 3","preset_number":3,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-4","character_id":"goku","name":"Goku Preset 4","preset_number":4,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-5","character_id":"goku","name":"Goku Preset 5","preset_number":5,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-6","character_id":"goku","name":"Goku Preset 6","preset_number":6,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-7","character_id":"goku","name":"Goku Preset 7","preset_number":7,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-8","character_id":"goku","name":"Goku Preset 8","preset_number":8,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-9","character_id":"goku","name":"Goku Preset 9","preset_number":9,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-10","character_id":"goku","name":"Goku Preset 10","preset_number":10,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-11","character_id":"goku","name":"Goku Preset 11","preset_number":11,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-12","character_id":"goku","name":"Goku Preset 12","preset_number":12,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-14","character_id":"goku","name":"Goku Preset 14","preset_number":14,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-15","character_id":"goku","name":"Goku Preset 15","preset_number":15,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-16","character_id":"goku","name":"Goku Preset 16","preset_number":16,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-17","character_id":"goku","name":"Goku Preset 17","preset_number":17,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-preset-18","character_id":"goku","name":"Goku Preset 18","preset_number":18,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegeta-preset-2","character_id":"vegeta","name":"Vegeta Preset 2","preset_number":2,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegeta-preset-3","character_id":"vegeta","name":"Vegeta Preset 3","preset_number":3,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegeta-preset-6","character_id":"vegeta","name":"Vegeta Preset 6","preset_number":6,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegeta-preset-7","character_id":"vegeta","name":"Vegeta Preset 7","preset_number":7,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegeta-preset-8","character_id":"vegeta","name":"Vegeta Preset 8","preset_number":8,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegeta-preset-9","character_id":"vegeta","name":"Vegeta Preset 9","preset_number":9,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegeta-preset-10","character_id":"vegeta","name":"Vegeta Preset 10","preset_number":10,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegeta-preset-11","character_id":"vegeta","name":"Vegeta Preset 11","preset_number":11,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"gohan-adult-preset-3","character_id":"gohan-adult","name":"Gohan (Adult) Preset 3","preset_number":3,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"frieza-final-preset-2","character_id":"frieza-final-form","name":"Frieza (Final Form) Preset 2","preset_number":2,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"frieza-first-preset-2","character_id":"frieza-first-form","name":"Frieza (1st Form) Preset 2","preset_number":2,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-gt-preset-2","character_id":"goku-gt","name":"Goku (GT) Preset 2","preset_number":2,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegetto-preset-2","character_id":"vegito","name":"Vegito Preset 2","preset_number":2,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"vegito-preset-3","character_id":"vegito","name":"Vegito Preset 3","preset_number":3,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"captain-ginyu-preset-2","character_id":"captain-ginyu","name":"Captain Ginyu Preset 2","preset_number":2,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"captain-ginyu-preset-3","character_id":"captain-ginyu","name":"Captain Ginyu Preset 3 (Vegeta)","preset_number":3,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","notes":"Source labels this preset as a Vegeta-body configuration; identity mapping requires dedicated verification.","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"captain-ginyu-preset-4","character_id":"captain-ginyu","name":"Captain Ginyu Preset 4 (Xeno Trunks)","preset_number":4,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","notes":"Source labels this preset as an Xeno Trunks-body configuration; identity mapping requires dedicated verification.","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"captain-ginyu-preset-5","character_id":"captain-ginyu","name":"Captain Ginyu Preset 5","preset_number":5,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"captain-ginyu-preset-6","character_id":"captain-ginyu","name":"Captain Ginyu Preset 6","preset_number":6,"verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc"]},
+    {"id":"goku-supersaiyan-god","character_id":"goku-super-saiyan-god","name":"Goku (Super Saiyan God)","record_type":"separate_character","verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","dlc_requirement":"not_assumed","sources":["https://www.youtube.com/watch?v=EJ0ICSoKXPc","https://dbx.bn-ent.net/special/privilege_list.php"]},
+    {"id":"goku-gt","character_id":"goku-gt","name":"Goku (GT)","record_type":"separate_character","verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://dbx.bn-ent.net/special/privilege_list.php"]},
+    {"id":"goku-ss4","character_id":"goku-super-saiyan-4","name":"Goku (Super Saiyan 4)","record_type":"separate_character","verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"community_observed","sources":["https://dbx.bn-ent.net/special/privilege_list.php"]},
+    {"id":"piccolo-power-awakening","character_id":"piccolo-power-awakening","name":"Piccolo (Power Awakening)","record_type":"separate_character","verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"dlc_source","dlc_pack":"HERO OF JUSTICE Pack Set","sources":["https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"]},
+    {"id":"orange-piccolo","character_id":"orange-piccolo","name":"Orange Piccolo","record_type":"separate_character","verification_status":"indexed","loadout_status":"unresolved","acquisition_status":"dlc_source","dlc_pack":"HERO OF JUSTICE Pack Set","sources":["https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"]}
+  ],
+  "unresolved": [
+    "Complete current preset numbering for every character.",
+    "Exact preset loadouts for indexed records.",
+    "Exact unlock route for presets where community evidence only demonstrates roster presence.",
+    "Historical numbering changes across updates and DLC releases.",
+    "Complete Festival and Partner Customization preset records.",
+    "Reconciliation of special Captain Ginyu body-swap configurations with canonical character identity.",
+    "Current Future Saga Chapter 4 character/preset records require a dedicated source-backed update rather than inference from earlier inventories."
+  ]
+}
