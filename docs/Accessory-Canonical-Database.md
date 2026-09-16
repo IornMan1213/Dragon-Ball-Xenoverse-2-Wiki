@@ -77,9 +77,13 @@ The item or relationship is catalogued as a research lead, but important acquisi
 
 The database is intentionally conservative. If two sources disagree, the disagreement is recorded. If a source identifies an accessory but does not establish whether the reward is guaranteed, the database records the association without inventing a drop rate.
 
-Current official DLC documentation confirms that Xenoverse 2 continues to distribute costumes/accessories through DLC alongside Parallel Quests and that some DLC content is obtained by clearing in-game conditions. urlOfficial Dragon Ball Xenoverse 2 DLC pagehttps://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc
+Current official DLC documentation confirms that Xenoverse 2 continues to distribute costumes/accessories through DLC alongside Parallel Quests and that some DLC content is obtained by clearing in-game conditions.
 
-The current 186-PQ research guide also demonstrates why the canonical layer is necessary: late PQs can provide both costume pieces and accessory items, and those need to remain separate inventory identities. urlAll 186 Parallel Quests guidehttps://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+Official source: https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc
+
+The current 186-PQ research guide also demonstrates why the canonical layer is necessary: late PQs can provide both costume pieces and accessory items, and those need to remain separate inventory identities.
+
+Research source: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
 
 ## Next reconciliation targets
 
