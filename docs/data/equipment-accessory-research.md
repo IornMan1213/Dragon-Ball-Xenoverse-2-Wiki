@@ -35,17 +35,24 @@ For every discovered accessory, record where possible:
 
 ## DLC provenance rule
 
-Official Bandai Namco documentation confirms that DLC packs can contain costumes/accessories and that some DLC-listed content can also be obtained by clearing conditions in-game. Therefore, an accessory record should not use DLC ownership as a substitute for its actual acquisition route. citeturn0search0
+Official publisher documentation confirms that DLC packs can contain costumes/accessories and that some DLC-listed content can also be obtained by clearing conditions in-game. Therefore, an accessory record should not use DLC ownership as a substitute for its actual acquisition route.
 
-The Time Patrol Support Pack is a concrete example: its official listing includes **Frieza's Head (Final Form)** and **Korin Wig with Ears & Tail**, while explicitly noting that some included content can be obtained through the in-game shop or specific conditions. citeturn0search4
+The Time Patrol Support Pack is a concrete example: its official listing includes **Frieza's Head (Final Form)** and **Korin Wig with Ears & Tail**, while explicitly noting that some included content can be obtained through the in-game shop or specific conditions.
+
+Source: https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content
+Source: https://www.xbox.com/en-US/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9NRRJXR84XT0
 
 ## Gift provenance
 
-Historical community documentation reports accessory rewards from character gifts, including SS Rosé Wig, Golden Scouter, Golden Ape Wig and Tail, and other character-specific reward pools. These entries remain `partially_verified` until their current-game acquisition behavior is independently reconciled. citeturn0search8
+Historical community documentation reports accessory rewards from character gifts, including SS Rosé Wig, Golden Scouter, Golden Ape Wig and Tail, and other character-specific reward pools. These entries remain `partially_verified` until their current-game acquisition behavior is independently reconciled.
+
+Source: https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77816881
 
 ## Collection research problem
 
-Completion-status reporting is itself inconsistent in community discussion. Recent players have reported difficulty determining exactly which equipment counts toward the in-game Equipment Collection percentage and whether some event, tournament, raid, or special items are included. This is retained as a research problem rather than being resolved by assumption. citeturn0reddit12
+Completion-status reporting is itself inconsistent in community discussion. Recent players have reported difficulty determining exactly which equipment counts toward the in-game Equipment Collection percentage and whether some event, tournament, raid, or special items are included. This is retained as a research problem rather than being resolved by assumption.
+
+Source: https://www.reddit.com/r/xenoverse2/comments/1v8a0iu/completion_statuses_equipment_collection/
 
 ## Verification states
 
