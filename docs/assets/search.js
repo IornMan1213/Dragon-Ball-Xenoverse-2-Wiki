@@ -72,7 +72,7 @@
       : '<div class="no-results">Nothing matched that term yet. Try a character, skill, quest number, reward, mechanic, DLC name, or gameplay keyword.</div>';
   };
 
-  fetch('{{ \'/search-data.json\' | relative_url }}', { cache: 'no-store' })
+  fetch('/Dragon-Ball-Xenoverse-2-Wiki/search-data.json', { cache: 'no-store' })
     .then((response) => {
       if (!response.ok) throw new Error(`Search index returned ${response.status}`);
       return response.json();
