@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "accessory_pq_research",
+  "purpose": "Evidence-backed mapping layer connecting accessories to Parallel Quest acquisition routes while preserving Ultimate Finish, alternate-route, and source conflicts.",
+  "verification_policy": {
+    "indexed": "Accessory and PQ relationship identified, but acquisition condition or current-version behavior remains unresolved.",
+    "partially_verified": "PQ relationship and basic acquisition route are supported, but one or more meaningful conditions, alternate routes, or current-version details remain unresolved.",
+    "verified": "Accessory identity, PQ source, relevant condition, and applicable alternate-route/version details are reconciled against sufficient independent evidence."
+  },
+  "records": [
+    {"id":"pqacc-001","name":"Piccolo's Turban","pq":3,"acquisition_condition":"PQ reward pool","alternate_routes":"Accessory Shop reported","verification_status":"partially_verified"},
+    {"id":"pqacc-002","name":"Four-Star Dragon Ball Hat","pq":5,"acquisition_condition":"PQ reward","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-003","name":"Chiaotzu's Hat (With Collar)","pq":9,"acquisition_condition":"PQ reward","alternate_routes":"Accessory Shop route reported for Chiaotzu's Hat; exact variant distinction retained","verification_status":"partially_verified"},
+    {"id":"pqacc-004","name":"Goku's Wig","pq":25,"acquisition_condition":"PQ reward","alternate_routes":null,"source_conflicts":"Some historical accessory lists report a different early PQ number; PQ25 is supported by the searchable PQ reward guide.","verification_status":"partially_verified"},
+    {"id":"pqacc-005","name":"Android 19's Hat","pq":28,"acquisition_condition":"PQ reward","alternate_routes":"Accessory Shop reported","verification_status":"partially_verified"},
+    {"id":"pqacc-006","name":"Dore's Scouter","pq":27,"acquisition_condition":"PQ reward","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-007","name":"Tapion's Sword","pq":22,"acquisition_condition":"PQ reward","alternate_routes":"Accessory Shop route may exist in later inventories; retain separately until reconciled","verification_status":"partially_verified"},
+    {"id":"pqacc-008","name":"Yamcha's Sword","pq":29,"acquisition_condition":"PQ reward reported by historical guide","alternate_routes":"Accessory Shop reported","source_conflicts":"Other historical sources associate Yamcha's Sword with PQ36; conflict retained rather than silently choosing one route.","verification_status":"partially_verified"},
+    {"id":"pqacc-009","name":"Great Saiyaman Bandana 1","pq":51,"acquisition_condition":"PQ reward","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-010","name":"Great Saiyaman Bandana 2","pq":53,"acquisition_condition":"PQ reward","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-011","name":"Goku Wig (Super Saiyan)","pq":63,"acquisition_condition":"PQ reward","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-012","name":"Jaco's State-of-the-Art Radio","pq":72,"acquisition_condition":"Basic reward listing; exact drop/slot behavior requires current reconciliation","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-013","name":"Tagoma's Scouter","pq":73,"acquisition_condition":"Basic reward listing","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-014","name":"SSGSS Goku Wig","pq":76,"acquisition_condition":"Basic reward listing","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-015","name":"Pan's Bandana","pq":93,"acquisition_condition":"PQ reward reported","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-016","name":"Yamcha Baseball Hat","pq":97,"acquisition_condition":"PQ reward reported","alternate_routes":"Raid reward reported","verification_status":"partially_verified"},
+    {"id":"pqacc-017","name":"SSGSS Vegeta Wig","pq":100,"acquisition_condition":"Basic reward listing","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-018","name":"Bulma (Kid) Wig","pq":149,"acquisition_condition":"Basic reward listing","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-019","name":"SS4 Wig & Tail (Goku)","pq":110,"acquisition_condition":"Ultimate Finish reward; current research corpus reports guaranteed on Ultimate Finish","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-020","name":"Great Saiyaman Helmet","pq":51,"acquisition_condition":"PQ reward/NPC progression relationship reported","alternate_routes":null,"verification_status":"partially_verified"}
+  ],
+  "research_rules": [
+    "A PQ appearing beside an accessory does not automatically establish whether the item is a guaranteed scripted reward, normal reward, Ultimate Finish reward, or random bonus-slot reward.",
+    "Normal-clear and Ultimate-Finish acquisition must remain separate fields when evidence supports the distinction.",
+    "Alternate shop, raid, gift, wish, and DLC routes are preserved rather than replacing the PQ relationship.",
+    "Conflicting historical PQ numbers are retained as source conflicts until independently reconciled.",
+    "No drop percentage is inferred from a reward list that does not explicitly document one."
+  ],
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-110.md",
+    "https://dbxv2.fandom.com/wiki/Equipment"
+  ]
+}
