@@ -10,7 +10,7 @@ This page is the cross-system acquisition layer for **Dragon Ball Xenoverse 2 ac
 
 ## Why this exists
 
-Accessory research is unusually prone to duplicate names, historical PQ-number conflicts, alternate reward routes, and confusion between ordinary raids, Crystal Raids, gifts, shops, wishes, and DLC. Current community documentation also reports disagreement about exactly which equipment contributes to the in-game Equipment Collection percentage, so collection status is tracked separately from acquisition. citeturn0search0turn0reddit23
+Accessory research is unusually prone to duplicate names, historical PQ-number conflicts, alternate reward routes, and confusion between ordinary raids, Crystal Raids, gifts, shops, wishes, and DLC. Current community documentation also reports disagreement about exactly which equipment contributes to the in-game Equipment Collection percentage, so collection status is tracked separately from acquisition.
 
 ## Cross-route records
 
@@ -42,17 +42,17 @@ Current/historical gift documentation reports the following accessory routes:
 - **Nappa:** Golden Scouter.
 - **Vegeta:** Golden Scouter.
 
-The same gift documentation lists clothing pieces alongside these accessories. The wiki keeps those equipment types separate instead of treating the entire gift pool as an accessory collection. citeturn0search9
+The same gift documentation lists clothing pieces alongside these accessories. The wiki keeps those equipment types separate instead of treating the entire gift pool as an accessory collection.
 
 ## Raid and Crystal Raid separation
 
-Raid documentation contains accessories such as Tights Hat, Universe 6 Supreme Kai's Helper's Hat, Lord Zuno's Topknot Wig, Janemba's Sword, Frieza's Head (Final Form), Golden Great Ape Hat & Tail, Golden Scouter, Super Saiyan Rosé Wig, Fused Zamasu Wig, Tapion Wig, and Tiencha Wig. citeturn0search2turn0search5
+Raid documentation contains accessories such as Tights Hat, Universe 6 Supreme Kai's Helper's Hat, Lord Zuno's Topknot Wig, Janemba's Sword, Frieza's Head (Final Form), Golden Great Ape Hat & Tail, Golden Scouter, Super Saiyan Rosé Wig, Fused Zamasu Wig, Tapion Wig, and Tiencha Wig.
 
 These are stored as **event/raid provenance**, not silently converted into PQ or shop records.
 
 ## DLC provenance
 
-The official Bandai Namco DLC catalog confirms that Xenoverse 2's DLC includes Parallel Quests, costumes/accessories, and other content across multiple DLC families, including Future Saga, HERO OF JUSTICE, Conton City Vote Pack, Legendary Pack, Ultra Pack, Extra Pass, and Super Pass. Some DLC content is obtained by clearing in-game conditions rather than directly from the purchase itself. citeturn0search4turn0search8
+The official Bandai Namco DLC catalog confirms that Xenoverse 2's DLC includes Parallel Quests, costumes/accessories, and other content across multiple DLC families, including Future Saga, HERO OF JUSTICE, Conton City Vote Pack, Legendary Pack, Ultra Pack, Extra Pass, and Super Pass. Some DLC content is obtained by clearing in-game conditions rather than directly from the purchase itself.
 
 Therefore:
 
@@ -63,7 +63,7 @@ Therefore:
 
 ## Collection percentage is a separate research problem
 
-Community reports show unresolved disagreement about which base-game, DLC, raid, tournament, and special items contribute to the in-game Equipment Collection percentage. This wiki therefore does **not** claim that every accessory in this database necessarily counts toward the same percentage. citeturn0reddit23
+Community reports show unresolved disagreement about which base-game, DLC, raid, tournament, and special items contribute to the in-game Equipment Collection percentage. This wiki therefore does **not** claim that every accessory in this database necessarily counts toward the same percentage.
 
 The collection-status research target is:
 
