@@ -1,6 +1,6 @@
 # Character Encyclopedia
 
-The character section is being built as a **record-by-record encyclopedia**, not merely a roster list. The source reconciliation currently contains **149 canonical character identities** from a source category that exposed 155 items, plus a separately tracked 54-entry DLC-character category. The difference is intentional: category/template/race-navigation items are not silently counted as characters. citeturn84file0
+The character section is being built as a **record-by-record encyclopedia**, not merely a roster list. The source reconciliation currently contains **149 canonical character identities** from a source category that exposed 155 items, plus a separately tracked 54-entry DLC-character category. The difference is intentional: category/template/race-navigation items are not silently counted as characters.
 
 ## What a complete character entry means
 
@@ -21,7 +21,7 @@ A character entry is considered complete only when the wiki can explain the char
 - **Gameplay notes:** documented behavior, restrictions and useful distinctions between variants.
 - **Verification:** what is sourced, what is cross-checked, and what remains unresolved.
 
-The database contract deliberately leaves gameplay fields unresolved until they are independently sourced; the wiki does **not** invent missing mechanics just to make a record look complete. fileciteturn86file0
+The database contract deliberately leaves gameplay fields unresolved until they are independently sourced; the wiki does **not** invent missing mechanics just to make a record look complete.
 
 ## Search-first design
 
@@ -44,7 +44,7 @@ A character being present in the roster is therefore not the same thing as docum
 
 ## Canonical roster index
 
-The following names are the current canonical record layer. They are intentionally preserved as individual searchable identities; forms and variants are not silently merged just because they share a base character. fileciteturn86file0
+The following names are the current canonical record layer. They are intentionally preserved as individual searchable identities; forms and variants are not silently merged just because they share a base character.
 
 ### Androids, Bio-Androids and related
 
@@ -60,7 +60,7 @@ Appule · Burter · Captain Ginyu · Dodoria · Frieza (1st Form) · Frieza (Fin
 
 ### Majin, Demon, God and Time Patrol-related
 
-Dabura · Demon God Demigra · Fu · Fused Zamasu · Fused Zamasu (Half-Corrupted) · Janemba · Janemba (Supervillain) · Kid Buu · Kid Buu (Supervillain) · Majin Buu · Majin Buu (Gohan Absorbed) · Mira · Mira (Final Form) · Mira (Supervillain) · Towa · Zamasu · Supreme Kai of Time · Supreme Kai of Time · God of Destruction Beerus · God of Destruction Belmod · God of Destruction Champa · Whis · Vados · Toppo (God of Destruction)
+Dabura · Demon God Demigra · Fu · Fused Zamasu · Fused Zamasu (Half-Corrupted) · Janemba · Janemba (Supervillain) · Kid Buu · Kid Buu (Supervillain) · Majin Buu · Majin Buu (Gohan Absorbed) · Mira · Mira (Final Form) · Mira (Supervillain) · Towa · Zamasu · Supreme Kai of Time · God of Destruction Beerus · God of Destruction Belmod · God of Destruction Champa · Whis · Vados · Toppo (God of Destruction)
 
 ### Earthlings, Namekians and other allies
 
@@ -68,9 +68,9 @@ Bulma · Great Saiyaman · Great Saiyaman 2 · Hercule · Jaco · Krillin · Nai
 
 ### Other indexed records and gameplay entities
 
-Saibaman · Patroller · Tosok · Rosé Goku Black · Gohan (DBS Super Hero) and other separately represented variants remain individual records when the source layer treats them as distinct identities.
+Saibaman · Patroller · Tosok · Rosé Goku Black · Cell Max and other separately represented variants remain individual records when the source layer treats them as distinct identities.
 
-> **Data note:** the canonical record layer is an indexing artifact, not proof that every gameplay field above has already been verified. The project tracks `indexed`, `partially_verified`, and `verified` separately so a long roster does not create a false impression of complete research. fileciteturn86file0
+> **Data note:** the canonical record layer is an indexing artifact, not proof that every gameplay field above has already been verified. The project tracks `indexed`, `partially_verified`, and `verified` separately so a long roster does not create a false impression of complete research.
 
 ## Record relationships
 
@@ -91,7 +91,14 @@ The final encyclopedia should let a reader move in both directions:
 - **Partially verified:** some fields such as unlocks, forms or skills have been independently checked.
 - **Verified:** the required factual fields have been checked against an authoritative or corroborated source set.
 
-This distinction is important because the source category itself contains navigation/template/race-related material alongside character records; the project explicitly reconciles those into canonical identities rather than copying the source category blindly. fileciteturn86file0
+This distinction is important because the source category itself contains navigation/template/race-related material alongside character records; the project explicitly reconciles those into canonical identities rather than copying the source category blindly.
+
+## Sources
+
+- Character category: https://dbxv2.fandom.com/wiki/Category:Characters
+- DLC character category: https://dbxv2.fandom.com/wiki/Category:DLC_Characters
+- Repository data record layer: `docs/data/characters-record-layer.json`
+- Repository character schema: `docs/data/characters.schema.json`
 
 ## Next character-writing pass
 
