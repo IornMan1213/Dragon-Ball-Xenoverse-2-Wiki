@@ -18,11 +18,11 @@ A community video or guide can establish that a preset exists and provide a usef
 
 ## Current high-value preset findings
 
-A current community reference provides a broad preset inventory and explicitly separates many preset numbers from distinct roster identities. Its timestamped chapter list is useful for **coverage discovery**, including Goku presets 2–18, multiple Vegeta/Gohan/Piccolo/Frieza presets, special Super Saiyan Blue configurations, GT presets, Festival-related records, Partner Customization keys, and later DLC characters. citeturn0youtube12
+A current community reference provides a broad preset inventory and explicitly separates many preset numbers from distinct roster identities. Its timestamped chapter list is useful for **coverage discovery**, including Goku presets 2–18, multiple Vegeta/Gohan/Piccolo/Frieza presets, special Super Saiyan Blue configurations, GT presets, Festival-related records, Partner Customization keys, and later DLC characters. Source: https://www.youtube.com/watch?v=EJ0ICSoKXPc
 
-The same source also demonstrates why the wiki must not flatten all forms into ordinary preset rows: it separately identifies records such as Goku (Ultra Instinct), Super Saiyan 4 Goku, Super Saiyan God Goku, Goku (Mini), Orange Piccolo, Power Awakening Piccolo, Gohan Beast, and other DLC/event identities. citeturn0youtube12
+The same source also demonstrates why the wiki must not flatten all forms into ordinary preset rows: it separately identifies records such as Goku (Ultra Instinct), Super Saiyan 4 Goku, Super Saiyan God Goku, Goku (Mini), Orange Piccolo, Power Awakening Piccolo, Gohan Beast, and other DLC/event identities. Source: https://www.youtube.com/watch?v=EJ0ICSoKXPc
 
-A second historical community guide from 2022 is useful as a **versioned source**, because its preset inventory differs from the later inventory. For example, it documents earlier preset numbering and older DLC coverage. This should be preserved as historical evidence rather than silently overwritten by the newer list. citeturn0youtube13
+A second historical community guide from 2022 is useful as a **versioned source**, because its preset inventory differs from the later inventory. For example, it documents earlier preset numbering and older DLC coverage. This should be preserved as historical evidence rather than silently overwritten by the newer list. Source: https://www.youtube.com/watch?v=IPtv-OZVe80
 
 ## Canonical rules for preset records
 
