@@ -10,12 +10,13 @@ The canonical identity layer is the bridge between the wiki's separate accessory
 
 ## Current reconciliation state
 
-- **37 canonical identities** currently reconciled in this layer.
+- **37 canonical identities** currently reconciled in the main identity layer.
 - **45 accessory → PQ research records** are available in the PQ layer.
-- **53 Accessory Shop research records** remain a broader source layer and still require direct identity matching.
+- **52 populated Accessory Shop records** are currently present in the shop research file; its historical description previously called this 53.
+- The new **Accessory Shop → Canonical bridge** maps those populated shop records to canonical identities or marks them as new identity candidates.
 - Raid/gift and wish/special research remain separate provenance layers until each item is matched with sufficient evidence.
 
-The count is intentionally not presented as a claim that the game contains only 37 accessories. This is a **reconciled subset**, not a final inventory count.
+The counts are intentionally not presented as the game's total accessory inventory. They describe the current research layers and reconciliation state.
 
 ## Why this layer exists
 
@@ -30,6 +31,21 @@ This database separates those concepts:
 | Acquisition route | A way the player can obtain the item |
 | Provenance | DLC, update, raid, event, or historical context |
 | Verification status | How completely the identity and route have been reconciled |
+
+## Accessory Shop bridge
+
+`docs/data/accessory-shop-canonical-bridge.json` is the current matching layer between the Accessory Shop source data and canonical inventory identity.
+
+The bridge deliberately does **not** manufacture canonical IDs for every shop candidate yet. A `new_identity_candidate` means the shop record is a distinct named inventory candidate that still needs to be inserted into the canonical identity layer after cross-checking PQ, raid, gift, wish, and DLC sources.
+
+Four shop records already have canonical identities elsewhere and therefore must not be duplicated:
+
+- Mr. Popo's Turban
+- Saiyuki Hood
+- Launch's Wig
+- Spike the Devil Man's Head
+
+The shop source currently has 52 populated records. The absent `shop-051` and `shop-052` IDs are not reconstructed from assumption; their contents remain a data-recovery/research task.
 
 ## Verification states
 
@@ -55,6 +71,7 @@ The item or relationship is catalogued as a research lead, but important acquisi
 - Clothing and accessories are not merged because they appear in the same reward table.
 - DLC ownership and the in-game acquisition condition are separate facts.
 - Historical naming conflicts remain visible instead of being silently rewritten.
+- Historical prices remain observations until current-version evidence confirms them.
 
 ## Current known naming conflicts
 
@@ -63,10 +80,12 @@ The item or relationship is catalogued as a research lead, but important acquisi
 - **Goku Wig (Super Saiyan)** — historical PQ numbering differs between source sets.
 - **Yamcha's Sword** — historical sources disagree on the PQ association.
 - **Power Pole / related wish terminology** — source naming requires further reconciliation.
+- **Sunglasses (Turtle Hermit 1) / Turtle Hermit Sunglasses** — source naming requires inventory-level confirmation before merging.
 
 ## Source layers
 
 - `docs/data/accessory-canonical-reconciliation.json` — canonical identity layer
+- `docs/data/accessory-shop-canonical-bridge.json` — Accessory Shop → canonical matching layer
 - `docs/data/accessory-pq-research.json` — PQ acquisition research
 - `docs/data/accessory-shop-research.json` — standard Accessory Shop research
 - `docs/data/accessory-raid-gift-reconciliation.json` — raid, Crystal Raid, and gift routes
@@ -77,19 +96,25 @@ The item or relationship is catalogued as a research lead, but important acquisi
 
 The database is intentionally conservative. If two sources disagree, the disagreement is recorded. If a source identifies an accessory but does not establish whether the reward is guaranteed, the database records the association without inventing a drop rate.
 
-Current official DLC documentation confirms that Xenoverse 2 continues to distribute costumes/accessories through DLC alongside Parallel Quests and that some DLC content is obtained by clearing in-game conditions.
+The current Equipment source lists a broad accessory inventory and separate Accessory Shop acquisition routes, including scouter families, character headwear, wigs, and cosmetic props.
 
-Official source: https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc
+Source: https://dbxv2.fandom.com/wiki/Equipment
 
-The current 186-PQ research guide also demonstrates why the canonical layer is necessary: late PQs can provide both costume pieces and accessory items, and those need to remain separate inventory identities.
+Historical equipment research is used for route and price leads, but those observations are not automatically treated as current shop state.
 
-Research source: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+Source: https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories
+
+Current community shop schedules demonstrate that medal-shop inventory changes by rotation, so TP/STP routes remain separate from the ordinary Accessory Shop layer.
+
+Source: https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81168369
 
 ## Next reconciliation targets
 
-1. Match the 53 standard shop records to canonical identities.
-2. Match all wish/special records to canonical identities.
-3. Expand the canonical layer with the remaining PQ records that are currently only in the source layer.
-4. Reconcile raid/event-only accessories and discontinued event routes.
-5. Add direct route IDs so every acquisition record can be traced back to one canonical identity.
-6. Promote identities to `verified` only after the relevant acquisition conditions are independently reconciled.
+1. Promote the unambiguous shop candidates into the canonical identity layer.
+2. Match the four existing canonical shop identities to their shop route records.
+3. Recover the missing `shop-051` and `shop-052` source records from repository history or independent evidence.
+4. Match all wish/special records to canonical identities.
+5. Expand the canonical layer with remaining PQ records that are currently only in the source layer.
+6. Reconcile raid/event-only accessories and discontinued event routes.
+7. Add direct route IDs so every acquisition record can be traced back to one canonical identity.
+8. Promote identities to `verified` only after the relevant acquisition conditions are independently reconciled.
