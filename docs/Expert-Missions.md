@@ -27,21 +27,21 @@ The current reference set enumerates **20 Expert Missions**, while older/base-ga
 
 | EM | Title | Primary boss / encounter | Initial documented reward | Research state |
 |---:|---|---|---|---|
-| 01 | Expert Missions - Tutorial 1 | Great Ape Nappa | 100 Zeni | indexed |
-| 02 | Expert Missions - Tutorial 2 | Turles | 100 Zeni | indexed |
-| 03 | Assault of the Great Ape | Great Ape Nappa | 3,000 Zeni; 2 TP Medals; Murder Grenade | indexed |
-| 04 | Invasion of the Evil Super Namek | Lord Slug | 3,200 Zeni; 2 TP Medals; Super Destructo-Disc | indexed |
-| 05 | The Galactic Tyrant | Turles | 2,800 Zeni; 2 TP Medals; Death Wave | indexed |
-| 06 | The Depths of Despair | Great Ape Vegeta | 4,500 Zeni; 3 TP Medals; Supernova | indexed |
-| 07 | The Big Gete Star Strikes Back | Metal Cooler | 4,500 Zeni; Death Meteor | indexed |
-| 08 | Ominous Androids | Cell (Full Power) | 4,500 Zeni; Dead End Bullet | indexed |
-| 09 | The Most Feared Majin | Kid Buu | 9,600 Zeni; Assault Rain | indexed |
-| 10 | The Emperor's Worth | Golden Frieza | 9,600 Zeni; 6 TP Medals; Hellzone Grenade | indexed |
-| 11 | The Devil Born from the Dragon Balls | Supervillain Omega Shenron | 10,080 Zeni; Super Electric Strike | indexed |
-| 12 | Attack of the Lone Supersoldier | Great Ape Bardock | 10,080 Zeni; Angry Explosion | indexed |
-| 13 | A History of Mixed Battles! | Rotating/mixed superboss encounters | 21,600 Zeni; Dead End Rain; additional raid-related rewards reported | indexed |
-| 14 | Huge Blasts for Huge Apes! | Great Ape Nappa / Vegeta / Baby / Bardock | 21,600 Zeni; Shocking Death Ball | indexed |
-| 15 | Extreme Malice! | Rotating Supervillain encounters | 24,000 Zeni; Blue Hurricane | indexed |
+| 01 | Expert Missions - Tutorial 1 | Great Ape Nappa | 100 Zeni | partially_verified |
+| 02 | Expert Missions - Tutorial 2 | Turles | 100 Zeni | partially_verified |
+| 03 | Assault of the Great Ape | Great Ape Nappa | 3,000 Zeni; 2 TP Medals; Murder Grenade | partially_verified |
+| 04 | Invasion of the Evil Super Namek | Lord Slug | 3,200 Zeni; 2 TP Medals; Super Destructo-Disc | partially_verified |
+| 05 | The Galactic Tyrant | Turles | 2,800 Zeni; 2 TP Medals; Death Wave | partially_verified |
+| 06 | The Depths of Despair | Great Ape Vegeta | 4,500 Zeni; 3 TP Medals; Supernova | partially_verified |
+| 07 | The Big Gete Star Strikes Back | Metal Cooler | 4,500 Zeni; Death Meteor | partially_verified |
+| 08 | Ominous Androids | Cell (Full Power) | 4,500 Zeni; Dead End Bullet | partially_verified |
+| 09 | The Most Feared Majin | Kid Buu | 9,600 Zeni; Assault Rain | partially_verified |
+| 10 | The Emperor's Worth | Golden Frieza | 9,600 Zeni; 6 TP Medals; Hellzone Grenade | partially_verified |
+| 11 | The Devil Born from the Dragon Balls | Supervillain Omega Shenron | 10,080 Zeni; Super Electric Strike | partially_verified |
+| 12 | Attack of the Lone Supersoldier | Great Ape Bardock | 10,080 Zeni; Angry Explosion | partially_verified |
+| 13 | A History of Mixed Battles! | Rotating/mixed superboss encounters | 21,600 Zeni; Dead End Rain; additional raid-related rewards reported | partially_verified |
+| 14 | Huge Blasts for Huge Apes! | Great Ape Nappa / Vegeta / Baby / Bardock | 21,600 Zeni; Shocking Death Ball | partially_verified |
+| 15 | Extreme Malice! | Rotating Supervillain encounters | 24,000 Zeni; Blue Hurricane | partially_verified |
 | 16 | In the Realm of the Gods: Vegeta | SSGSS Vegeta | 30,000 Zeni; 16 TP Medals; Super Spirit Bomb | partially_verified |
 | 17 | In the Realm of the Gods: Goku | SSGSS Goku | 30,000 Zeni; 16 TP Medals; Spirit Sword / Spirit Bomb naming varies by source | partially_verified |
 | 18 | The Ultimate Evil: Broly | Supervillain Broly | 35,000 Zeni; 18 TP Medals; Focus Flash | partially_verified |
@@ -52,8 +52,9 @@ The reward column is an **indexing layer**, not a claim that every listed item i
 
 ## Individual Records
 
-The first detailed endgame mission layer is now available:
+The first detailed mission layers are now available:
 
+- [EM01–15: individual mission research](./Expert-Missions-01-15.md)
 - [EM16–20: individual mission research](./Expert-Missions-16-20.md)
 
 These records contain mission-specific identity, reward, timer, mechanic, strategy-evidence, unknown-field, and verification sections. They remain `partially_verified` until unresolved technical and acquisition fields are reconciled.
@@ -108,7 +109,7 @@ EM 16 and EM 17 are repeatedly documented as 16-TP-Medal missions, while EM 18 a
 
 ## Mission Research Priorities
 
-The first detailed pass will prioritize missions with the most cross-system value:
+The detailed layer now covers all twenty missions. Current verification priorities are:
 
 1. **EM 16 — SSGSS Vegeta:** timer, regeneration behavior, reward layers, EXP/Zeni conditions, and skill acquisition.
 2. **EM 17 — SSGSS Goku:** initial timer, damage-based time extensions, reward layers, and skill acquisition.
@@ -179,7 +180,7 @@ The production schema should be reconciled with the repository's canonical data 
 
 ## Research State
 
-The mission index is now populated with the current 20-mission catalog and a first-pass reward/boss map. The first five individual endgame records are now present in a dedicated research page. They do **not** claim that every Expert Mission has been exhaustively verified.
+The mission index is populated with the current 20-mission catalog, a first-pass reward/boss map, and individual research layers for EM01–20. The individual records do **not** claim that every Expert Mission field has been exhaustively verified.
 
 ## Research References
 
