@@ -8,7 +8,6 @@ on:
       - "scripts/build_skills_from_research.py"
       - "scripts/validate_skills.py"
       - "docs/data/skills.schema.json"
-      - "docs/data/skills.json"
       - ".github/workflows/skills-sync.yml"
   workflow_dispatch:
   schedule:
@@ -18,6 +17,10 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: skills-catalog-sync
+  cancel-in-progress: true
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -25,66 +28,35 @@ jobs:
       - name: Checkout wiki
         uses: actions/checkout@v4
 
-      - name: Fetch structured skill corpus from GitHub API
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Fetch structured skill corpus
         run: |
           set -euo pipefail
           rm -rf /tmp/xv2-research
-          mkdir -p /tmp/xv2-research/content/skills
-          : > /tmp/xv2-fetch-errors.log
-          page=1
-          total=0
-          while :; do
-            api="https://api.github.com/repos/Madreag/xenoverse_2_wiki/contents/content/skills?ref=main&per_page=100&page=${page}"
-            json_file="/tmp/xv2-page-${page}.json"
-            curl -fsSL --retry 3 --retry-delay 2 \
-              -H "Accept: application/vnd.github+json" \
-              -H "Authorization: Bearer ${GH_TOKEN}" \
-              "$api" > "$json_file"
-            count="$(python - "$json_file" <<'PY'
-import json, sys
-with open(sys.argv[1], encoding='utf-8') as f:
-    data=json.load(f)
-print(len(data) if isinstance(data, list) else 0)
-PY
-)"
-            [ "$count" -gt 0 ] || break
-            while IFS=$'\t' read -r name download_url; do
-              [ -n "$name" ] || continue
-              out="/tmp/xv2-research/content/skills/$name"
-              if ! curl -fsSL --retry 3 --retry-delay 2 \
-                -H "Accept: application/vnd.github+json" \
-                -H "Authorization: Bearer ${GH_TOKEN}" \
-                "$download_url" > "$out"; then
-                echo "$name" >> /tmp/xv2-fetch-errors.log
-                rm -f "$out"
-              fi
-            done < <(python - "$json_file" <<'PY'
-import json, sys
-with open(sys.argv[1], encoding='utf-8') as f:
-    data=json.load(f)
-for item in data:
-    if item.get('type') == 'file' and item.get('name','').endswith('.md') and item.get('download_url'):
-        print(item['name'] + '\t' + item['download_url'])
-PY
-)
-            total=$((total + count))
-            [ "$count" -lt 100 ] && break
-            page=$((page + 1))
-          done
-          files="$(find /tmp/xv2-research/content/skills -name '*.md' | wc -l)"
-          errors="$(wc -l < /tmp/xv2-fetch-errors.log)"
-          echo "GitHub API entries: $total"
-          echo "Structured skill files: $files"
-          echo "Fetch errors: $errors"
-          test "$files" -gt 500
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Madreag/xenoverse_2_wiki.git /tmp/xv2-research
+          git -C /tmp/xv2-research sparse-checkout set content/skills
+          files="$(find /tmp/xv2-research/content/skills -type f -name '*.md' | wc -l)"
+          echo "Structured skill files fetched: $files"
+          if [ "$files" -lt 500 ]; then
+            echo "ERROR: expected at least 500 structured skill files; refusing to build a partial catalog."
+            exit 1
+          fi
 
       - name: Build exhaustive structured skill catalog
         run: python scripts/build_skills_from_research.py
 
       - name: Validate canonical database
         run: python scripts/validate_skills.py
+
+      - name: Show generated data summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('docs/data/skills.json').read_text(encoding='utf-8'))
+          print(f"Canonical records: {data.get('record_count', 0)}")
+          print(f"Generated: {data.get('generated')}")
+          print(f"Status: {data.get('status')}")
+          PY
 
       - name: Create update PR when data changes
         uses: peter-evans/create-pull-request@v7
@@ -95,6 +67,8 @@ PY
             Automated refresh of the Xenoverse 2 skill catalog.
 
             This refresh imports structured individual skill records as a research/cross-reference layer, retains curated records, preserves source provenance, and leaves records partially verified until independently confirmed.
+
+            The sync workflow intentionally does not trigger on generated catalog files, preventing a merged sync PR from recursively retriggering itself.
           branch: automated/skills-catalog-sync
           delete-branch: true
           labels: database,automated,skills
