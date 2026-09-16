@@ -2,6 +2,10 @@
 
 The character section is being built as a **record-by-record encyclopedia**, not merely a roster list. The source reconciliation currently contains **149 canonical character identities** from a source category that exposed 155 items, plus a separately tracked 54-entry DLC-character category. The difference is intentional: category/template/race-navigation items are not silently counted as characters.
 
+## Hard-written character profiles
+
+The first hard-written pass is now available in **[Character Core Profiles](Character-Core-Profiles.md)**. It covers Goku, Vegeta, Piccolo, Gohan (Adult), and Frieza (Final Form), chosen because they connect strongly to mentors, presets, skills, transformations, quests, DLC and equipment. These profiles are `partially_verified`; unresolved fields remain explicit rather than being guessed.
+
 ## What a complete character entry means
 
 A character entry is considered complete only when the wiki can explain the character rather than merely name them. The target writeup covers:
@@ -40,7 +44,7 @@ Character acquisition can come from several different systems, and those systems
 5. **Partner Customization Keys** — selected partner customization content tied to Raid-related keys.
 6. **Special/event content** — Time Rift/Unknown History, Festival and other limited or special systems.
 
-A character being present in the roster is therefore not the same thing as documenting every form, preset, customization option or acquisition path associated with that character.
+A character being present in the roster is therefore not the same thing as documenting every form, preset, customization option or acquisition path associated with the character.
 
 ## Canonical roster index
 
@@ -52,7 +56,7 @@ Android 13 · Android 16 · Android 17 · Android 17 (DB Super) · Android 18 ·
 
 ### Saiyans and Saiyan-related fighters
 
-Bardock · Broly · Broly (DB Super) · Broly (Full Power Super Saiyan) · Broly (Restrained) · Broly (Supervillain) · Cabba · Caulifla (Super Saiyan 2) · Goku · Goku (GT) · Goku (Mini) · Goku (Super Saiyan 4) · Goku (Super Saiyan God) · Goku (Ultra Instinct -Sign-) · Goku (Ultra Instinct) · Goku Black · Goku Black (Super Saiyan Rosé) Ultra Supervillain · SSGSS Goku · Gohan (Kid) · Gohan (Teen) · Gohan (Adult) · Gohan (Future) · Gohan (Beast) · Gohan (DBS Super Hero) · Gogeta (DB Super) · Gogeta (Super Saiyan 4) · Gogeta (Super Saiyan) · SSGSS Gogeta · Goten · Gotenks · Kale (Super Saiyan 2) · Kefla (Super Saiyan) · Masked Saiyan · Nappa · SS3 Vegeta (DAIMA) · SS4 Goku (DAIMA) · Trunks (Future) · Trunks (GT) · Trunks (Kid) · Turles · Vegeta · Vegeta (Super Saiyan 4) · Vegeta (Super Saiyan God) · Vegeta (Super Saiyan God) Ultra Supervillain · Prince of Destruction Vegeta · SSGSS Vegeta · SSGSS Vegeta (Evolved) · Vegito · SSGSS Vegito
+Bardock · Broly · Broly (DB Super) · Broly (Full Power Super Saiyan) · Broly (Restrained) · Broly (Supervillain) · Cabba · Caulifla (Super Saiyan 2) · Goku · Goku (GT) · Goku (Mini) · Goku (Super Saiyan 4) · Goku (Super Saiyan God) · Goku (Ultra Instinct -Sign-) · Goku (Ultra Instinct) · Goku Black · Goku Black (Super Saiyan Rosé) Ultra Supervillain · SSGSS Goku · Gohan (Kid) · Gohan (Teen) · Gohan (Adult) · Gohan (Future) · Gohan (Beast) · Gohan (DBS Super Hero) · Gogeta (DB Super) · Gogeta (Super Saiyan 4) · Gogeta (Super Saiyan) · SSGSS Gogeta · Goten · Gotenks · Kale (Super Saiyan 2) · Kefla (Super Saiyan) · Nappa · SS3 Vegeta (DAIMA) · SS4 Goku (DAIMA) · Trunks (Future) · Trunks (GT) · Trunks (Kid) · Turles · Vegeta · Vegeta (Super Saiyan 4) · Vegeta (Super Saiyan God) · Vegeta (Super Saiyan God) Ultra Supervillain · Prince of Destruction Vegeta · SSGSS Vegeta · SSGSS Vegeta (Evolved) · Vegito · SSGSS Vegito
 
 ### Frieza Force, aliens and other antagonists
 
@@ -99,6 +103,7 @@ This distinction is important because the source category itself contains naviga
 - DLC character category: https://dbxv2.fandom.com/wiki/Category:DLC_Characters
 - Repository data record layer: `docs/data/characters-record-layer.json`
 - Repository character schema: `docs/data/characters.schema.json`
+- Hard-written profile pass: `docs/Character-Core-Profiles.md`
 
 ## Next character-writing pass
 
