@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "qq_bangs",
+  "purpose": "Canonical research layer for QQ Bang mechanics, stat fields, synthesis inputs, recipe provenance, and verification.",
+  "verification_status": "partially_verified",
+  "source_policy": "Preserve RNG and recipe uncertainty; never infer an exact result from a community recipe unless the observed six-stat output is documented.",
+  "record_fields": ["id", "record_type", "name", "stars", "health", "ki", "stamina", "basic_attack", "strike_supers", "ki_blast_supers", "clothing_inputs", "mixing_item", "mixing_location", "acquisition_route", "rng_notes", "build_tags", "verification_status", "last_verified", "sources"],
+  "records": [
+    {
+      "id": "qq-system-001",
+      "record_type": "system",
+      "name": "QQ Bang synthesis system",
+      "stars": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "clothing_inputs": "Two clothing pieces are combined at the Clothing Mixing Shop.",
+      "mixing_item": "A mixing item is required; Super Mix Capsule Z is used for high-tier QQ Bang research.",
+      "mixing_location": "Capsule Corporation Time Rift Clothing Mixing Shop",
+      "acquisition_route": "Synthesis rather than a direct drop",
+      "rng_notes": "The resulting stat spread is not guaranteed. Recipe research must preserve observed outputs separately from expected or community-reported results.",
+      "build_tags": ["Strike-focused", "Ki Blast-focused", "Basic Attack", "Hybrid", "Ki + Stamina", "Health + Stamina", "Defensive", "General-purpose"],
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-16",
+      "sources": [
+        "https://www.gameskinny.com/tips/dragon-ball-xenoverse-2-qq-bangs-guide/",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md"
+      ]
+    },
+    {
+      "id": "qq-mix-001",
+      "record_type": "mixing_item",
+      "name": "Super Mix Capsule Z",
+      "stars": 6,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "clothing_inputs": "Requires a two-clothing-piece QQ Bang synthesis.",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Community-documented multiplayer Parallel Quest Tour farming routes; exact current drop behavior remains separately verifiable.",
+      "rng_notes": "Using Super Mix Capsule Z does not justify promising a particular six-stat result.",
+      "build_tags": ["6-star QQ Bang research"],
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-16",
+      "sources": [
+        "https://www.youtube.com/watch?v=XBy_oawrYnk",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/mq9pnz/how_to_make_qq_bangs/"
+      ]
+    },
+    {
+      "id": "qq-recipe-001",
+      "record_type": "community_recipe",
+      "name": "Bardock + Beerus clothing recipe family",
+      "stars": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "clothing_inputs": "Battle Suit (Bardock) and Beerus clothing are repeatedly documented by players as high-value QQ Bang inputs.",
+      "mixing_item": "Super Mix Capsule Z commonly reported for high-tier attempts.",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Recipe/farming research target",
+      "rng_notes": "This is a recipe family, not a guaranteed exact stat result. Individual outputs must be recorded when observed.",
+      "build_tags": ["Ki + Stamina", "Ki Blast-focused", "General-purpose"],
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-16",
+      "sources": [
+        "https://www.youtube.com/watch?v=XBy_oawrYnk",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/kztvqf/qq_bang_tips/"
+      ]
+    }
+  ]
+}
