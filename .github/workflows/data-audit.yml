@@ -5,12 +5,14 @@ on:
     paths:
       - 'docs/data/**/*.json'
       - 'scripts/audit_wiki_data.py'
+      - 'scripts/audit_accessories.mjs'
       - '.github/workflows/data-audit.yml'
   push:
     branches: [main]
     paths:
       - 'docs/data/**/*.json'
       - 'scripts/audit_wiki_data.py'
+      - 'scripts/audit_accessories.mjs'
       - '.github/workflows/data-audit.yml'
 
 permissions:
@@ -24,6 +26,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Run structured-data audit
         run: python3 scripts/audit_wiki_data.py
+      - name: Run accessory cross-layer audit
+        run: node scripts/audit_accessories.mjs
       - name: Upload audit report
         if: always()
         uses: actions/upload-artifact@v4
