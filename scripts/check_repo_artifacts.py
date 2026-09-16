@@ -5,7 +5,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-# Build the forbidden strings at runtime so this checker cannot match its own source.
+# Build markers at runtime so this checker does not match its own source.
 BAD_MARKERS = tuple(
     "".join(parts)
     for parts in (
@@ -28,9 +28,9 @@ def main() -> int:
     failures: list[str] = []
 
     for path in Path(".").rglob("*"):
-        if not path.is_file() or any(part in SKIP_DIRS for part in path.parts):
+        if not path.is_file() or path.resolve() == SELF:
             continue
-        if path.resolve() == SELF:
+        if any(part in SKIP_DIRS for part in path.parts):
             continue
         if path.suffix.lower() not in TEXT_SUFFIXES:
             continue
@@ -41,6 +41,18 @@ def main() -> int:
             continue
 
         lowered = text.lower()
+        # Detect all current tool-result identifier families, not only historical examples.
+        if "turn" in lowered and any(
+            token in lowered
+            for token in (
+                "search", "file", "image", "youtube", "news", "product", "business"
+            )
+        ):
+            import re
+            if re.search(r"\bturn(?:\d+|x)(?:search|file|image|youtube|news|product|business)\d*\b", lowered):
+                failures.append(f"{path}: contains internal tool-result artifact")
+                continue
+
         for marker in BAD_MARKERS:
             if marker.lower() in lowered:
                 failures.append(f"{path}: contains forbidden internal artifact")
