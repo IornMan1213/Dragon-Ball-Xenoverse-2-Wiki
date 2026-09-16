@@ -21,7 +21,7 @@ The Parallel Quest accessory research layer connects individual accessories to t
 
 ## Current research population
 
-The machine-readable layer now contains **41 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
+The machine-readable layer now contains **45 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
 
 | Accessory / research item | PQ | State |
 |---|---:|---|
@@ -48,34 +48,38 @@ The machine-readable layer now contains **41 accessory/PQ research records**. So
 | SS4 Wig & Tail (Goku) | 110 | Partially verified |
 | Resistance Helmet | 111 | Partially verified |
 | Bulma (Kid) Wig | 149 | Partially verified |
-| Bardock (DB Super) accessory lead | 146 | Indexed |
-| Gine (DB Super) accessory lead | 144 | Indexed |
-| Caulifla accessory lead | 147 | Indexed |
-| Kale accessory lead | 148 | Indexed |
-| Android 17 (DB Super) Ranger accessory/equipment lead | 152 | Indexed |
+| Bardock (DB Super)'s Scouter | 146 | Partially verified |
+| Gine (DB Super)'s Accessory | 144 | Indexed |
+| Caulifla's Accessory | 147 | Indexed |
+| Kale's Accessory | 148 | Indexed |
+| Android 17 (DB Super)'s Ranger Accessory | 152 | Indexed |
 | Android 15's Sunglasses | — | Indexed; no PQ route established |
+| Android 17 (DB Super) Wig | 152 | Partially verified |
+| King Vegeta (DB Super) Wig | 154 | Partially verified |
 | Dr. Hedo Hood | 159 | Partially verified |
 | Red Ribbon Army Helmet | 160 | Partially verified |
 | Gohan (Beast) Wig | 162 | Partially verified |
 | Videl (DB Super) Wig | 168 | Partially verified |
+| Gamma 2's Helmet | 155 | Partially verified |
+| Gamma 1's Helmet | 156 | Partially verified |
 | SS4 Goku (DAIMA) Wig & Tail | 179 | Indexed |
 | SS3 Vegeta (DAIMA) Wig | 180 | Indexed |
 | Glorio Wig | 181 | Indexed |
 | Panzy Wig | 181 | Indexed |
 | Golden Frieza Head | 182 | Indexed |
 | Broly Wig (Black Hair, Normal) | 183 | Indexed |
-| Dragon Ball Balloon | 184 | Indexed |
+| Dragon Ball Balloon | 184 | Partially verified |
 | Goku (Ultra Supervillain Quelled) Wig | 185 | Indexed |
 
-## Hero of Justice coverage
+## Conton City Vote and Hero of Justice coverage
 
-The current PQ guide lists Red Ribbon Army Helmet on PQ160, Gohan (Beast) Wig on PQ162, and Videl (DB Super) Wig on PQ168. The DLC index independently identifies the Hero of Justice accessory/clothing relationships, allowing these to remain tied to their specific quests rather than being flattened into a generic DLC acquisition label.
+PQ152, **Dyspo's Wanted Man**, lists Android 17 (DB Super)'s Wig; PQ154, **Dabura the Loyal? Servant**, lists King Vegeta (DB Super) Wig; PQ155, **I Need a Hero... Pose!**, lists Gamma 2's Helmet; and PQ156, **Hunting Down Dr. Hedo**, lists Gamma 1's Helmet. The DLC documentation independently associates these items with their respective DLC packs. citeturn0search1turn0search2
 
-The database records these as PQ associations rather than guaranteed drops. A basic reward listing does not by itself establish whether an item is a scripted reward, opponent-linked roll, first-clear reward, or Ultimate Finish roll.
+The Hero of Justice PQ layer also identifies later accessories including Red Ribbon Army Helmet, Gohan (Beast) Wig, and Videl (DB Super) Wig. These remain tied to individual quests rather than being flattened into a generic DLC acquisition label. citeturn0search1
 
 ## DAIMA and later DLC coverage
 
-The later PQ guide provides accessory/equipment research leads for PQ179–185, including SS4 Goku (DAIMA) Wig & Tail, SS3 Vegeta (DAIMA) Wig, Glorio Wig, Panzy Wig, Golden Frieza Head, Broly Wig (Black Hair, Normal), Dragon Ball Balloon, and Goku (Ultra Supervillain Quelled) Wig. These remain `indexed` until the exact inventory component and reward mechanism are independently reconciled.
+The later PQ guide provides accessory/equipment research leads for PQ179–185, including SS4 Goku (DAIMA) Wig & Tail, SS3 Vegeta (DAIMA) Wig, Glorio Wig, Panzy Wig, Golden Frieza Head, Broly Wig (Black Hair, Normal), Dragon Ball Balloon, and Goku (Ultra Supervillain Quelled) Wig. The Dragon Ball Balloon has stronger evidence: current Madreag quest data records it as a **50% Ultimate Finish reward**, while the other late-DLC records remain indexed until their exact reward mechanics are reconciled. citeturn0search8turn0search9
 
 This is intentional: a research lead is useful, but it is not the same thing as a verified acquisition condition.
 
@@ -152,6 +156,7 @@ Related research:
 
 - https://steamcommunity.com/sharedfiles/filedetails/?id=796204215
 - https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+- https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md
 - https://dbxv2.fandom.com/wiki/Equipment
 - https://dbxv2.fandom.com/wiki/Parallel_Quests
 - https://dbxv2.fandom.com/wiki/DLC
@@ -159,4 +164,4 @@ Related research:
 
 ## Research status
 
-**Partially verified.** The database now spans early base-game accessory relationships through later DLC research leads, while preserving the distinction between a documented association and a verified reward condition. The next pass should reconcile the indexed late-DLC records against the canonical accessory inventory and continue filling the remaining PQ range.
+**Partially verified.** The database now spans early base-game accessory relationships through Conton City Vote, Hero of Justice, Future Saga, and DAIMA-era PQ research leads. The next pass should reconcile indexed late-DLC records against the canonical accessory inventory and continue filling the remaining PQ range without inventing reward rates.
