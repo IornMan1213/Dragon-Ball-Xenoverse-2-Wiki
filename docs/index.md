@@ -41,6 +41,16 @@ title: Dragon Ball Xenoverse 2 Wiki
   <a href="{{ '/Level-Cap-Attributes/' | relative_url }}"><b>📈 Level & Stats</b><span>Leveling, attributes, and late-game progression</span></a>
 </section>
 
+<section class="data-pulse" aria-label="Database status">
+  <div class="section-heading"><div><p class="eyebrow">DATABASE STATUS</p><h2>Built as a living reference</h2></div><a class="text-link" href="{{ '/Development-History/' | relative_url }}">How the data is maintained →</a></div>
+  <div class="pulse-grid">
+    <a class="pulse-card" href="{{ '/Skills-All/' | relative_url }}"><strong>672</strong><span>skill category memberships indexed</span><small>Research target — not 672 fully verified records</small></a>
+    <a class="pulse-card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><strong>186</strong><span>numbered Parallel Quests tracked</span><small>Includes Future Saga Chapter 4</small></a>
+    <a class="pulse-card" href="{{ '/Awoken-All/' | relative_url }}"><strong>18</strong><span>Awoken/Transformation targets</span><small>CaC and character-only states are separated</small></a>
+    <a class="pulse-card" href="{{ '/Mentors/' | relative_url }}"><strong>33+</strong><span>mentor records in the research layer</span><small>Unlocks and progression continue to be reconciled</small></a>
+  </div>
+</section>
+
 <section class="section">
   <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2>Popular destinations</h2></div></div>
   <div class="cards">
