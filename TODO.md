@@ -38,6 +38,8 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Added an Expert Mission status callout to the homepage and responsive styling for it.
 - [x] Added the first individual Expert Mission research layer for EM16–20, including structured identity, rewards, mechanics, strategy evidence, unknowns, and verification status.
 - [x] Linked the EM16–20 individual records from the Expert Mission system index.
+- [x] Added the first 10 Super Soul records to the canonical machine-readable research layer.
+- [x] Added a Super Soul database status card to the homepage.
 - [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
 
 ## In Progress
@@ -46,6 +48,8 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
 - [ ] Reconcile unresolved Skill fields against multiple independent sources before promoting records to `verified`.
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
+- [ ] Expand the Super Soul catalogue beyond the first 10 records; reconcile acquisition, triggers, effect magnitudes, durations, stacking, and Limit Burst behavior per soul.
+- [ ] Promote Super Soul records only after core identity, acquisition, effects, and key mechanics are independently reconciled.
 - [ ] Expand the EM16–20 records into full mechanic/phase/reward tables and promote only when independently reconciled.
 - [ ] Build individual EM01–15 records and reconcile the base-game vs later-content mission-count definitions.
 - [ ] Improve PQ verification, especially acquisition conditions, Ultimate Finish requirements, and reward provenance.
@@ -88,8 +92,9 @@ The project is being worked as parallel tracks so the site visibly improves whil
 3. Re-verify one earlier batch, including source reconciliation and corrections.
 4. Make at least one tangible website/UI improvement.
 5. Deepen EM16–20 with exact phase/mechanic/reward tables where evidence supports them.
-6. Begin EM01–15 individual records, starting with missions whose mechanics/rewards have the strongest independent documentation.
-7. Expand the next under-documented game system so the overall wiki does not become skill-only or PQ-only.
-8. Update this TODO tracker and `CHANGELOG.md`.
-9. Run or inspect available validation/Actions results.
-10. Only then report completed work, actual results, coverage gaps, and unresolved blockers.
+6. Continue EM01–15 individual records and reconcile the strongest independently documented missions first.
+7. Populate the next Super Soul batch and resolve its acquisition/effect provenance.
+8. Expand the next under-documented game system so the overall wiki does not become skill-only or PQ-only.
+9. Update this TODO tracker and `CHANGELOG.md`.
+10. Run or inspect available validation/Actions results.
+11. Only then report completed work, actual results, coverage gaps, and unresolved blockers.
