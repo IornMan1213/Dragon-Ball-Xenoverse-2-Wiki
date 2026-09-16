@@ -5,7 +5,7 @@ title: QQ Bangs & Super Mix Capsule Z
 
 # QQ Bangs & Super Mix Capsule Z
 
-QQ Bangs are synthesized stat modifiers for CaC builds. They replace the stat contribution of the four main clothing pieces, allowing cosmetic clothing choices without giving up a deliberately chosen stat spread. citeturn0search1turn0search0
+QQ Bangs are synthesized stat modifiers for CaC builds. They replace the stat contribution of the four main clothing pieces, allowing cosmetic clothing choices without giving up a deliberately chosen stat spread.
 
 **Full structured database:** [QQ Bang Database](../QQ-Bang-Database/)
 
@@ -20,7 +20,7 @@ Every QQ Bang research record should preserve all six core attributes:
 - Strike Supers
 - Ki Blast Supers
 
-A displayed result is an observed result. Do not assume a recipe produces one exact spread every time; community testing documents substantial variation. citeturn0search1turn0search8
+A displayed result is an observed result. Do not assume a recipe produces one exact spread every time; community testing documents substantial variation.
 
 ## Creating a QQ Bang
 
@@ -31,11 +31,11 @@ A displayed result is an observed result. Do not assume a recipe produces one ex
 5. Record the star rating and every stat modifier.
 6. Record the exact clothing inputs and mixing item so the result has provenance.
 
-The wiki tracks the **recipe** and the **observed result** as separate pieces of information. This prevents a community recipe from being mistaken for a deterministic output. citeturn0search1
+The wiki tracks the **recipe** and the **observed result** as separate pieces of information. This prevents a community recipe from being mistaken for a deterministic output.
 
 ## Super Mix Capsule Z
 
-Super Mix Capsule Z is used for high-tier six-star QQ Bang attempts. Community farming guides and player reports commonly point to Multiplayer Parallel Quest Tour content, particularly PQ83, as a farming route. The exact current drop behavior is retained as a research field rather than represented as a guaranteed percentage. citeturn0youtube24turn0reddit29
+Super Mix Capsule Z is used for high-tier six-star QQ Bang attempts. Community farming guides and player reports commonly point to Multiplayer Parallel Quest Tour content, particularly PQ83, as a farming route. The exact current drop behavior is retained as a research field rather than represented as a guaranteed percentage.
 
 A community-reported alternative is mixing a regular Super Mix Capsule with a Demon Realm Crystal. That recipe is recorded as community evidence and is not treated as a guaranteed universal route without further reconciliation.
 
@@ -48,7 +48,7 @@ Community research repeatedly discusses combinations involving:
 - Light Heart Suit
 - Other high-quality/high-star clothing
 
-These are **recipe families**, not guaranteed stat rolls. The structured database records the actual six-stat result when one is documented. citeturn0youtube24turn0reddit30
+These are **recipe families**, not guaranteed stat rolls. The structured database records the actual six-stat result when one is documented.
 
 ## Six-star research rules
 
@@ -78,4 +78,4 @@ The project separates:
 - QQ Bang interactions with attribute caps and build calculations.
 - Cross-links to Super Souls, skills, Awoken Skills, equipment, and build records.
 
-**Sources:** GameSkinny's QQ Bang guide, current Madreag gear/QQ Bang research, and community synthesis/farming reports.
+**Sources:** https://www.gameskinny.com/tips/dragon-ball-xenoverse-2-qq-bangs-guide/, https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md, and community synthesis/farming reports.
