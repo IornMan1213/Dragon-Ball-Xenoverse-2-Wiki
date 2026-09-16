@@ -23,7 +23,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Established the canonical skills schema and verification states: `indexed`, `partially_verified`, `verified`.
 - [x] Added skill research batches 01–14.
 - [x] Completed duplicate checks before the recent skill batches.
-- [x] Audited Skill Research Batch 13 against the external datamined corpus and independent references.
+- [x] Audited Skill Research Batch 13 against the external datamined research corpus and independent references.
 - [x] Promoted Batch 13 records with corroborated core facts: All Clear, Angry Hit, Burst Blitz.
 - [x] Kept Angry Explosion and Angry Shout `partially_verified` because some current reward/damage details still lack independent reconciliation.
 - [x] Audited Skill Research Batch 10 against independent references; core facts were reconfirmed while unresolved CaC/version-sensitive fields remained partial.
@@ -33,9 +33,11 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Added a new homepage research-standard section explaining exhaustive coverage, evidence states, cross-linking, and search-oriented organization.
 - [x] Updated homepage CSS for the new research-standard panel with responsive cards.
 - [x] Expanded `DLC-Overview.md` into an encyclopedia-level DLC index with paid-vs-free provenance, Future Saga coverage, a content audit matrix, verification policy, and downstream record requirements.
-- [x] Added an Expert Missions system foundation covering unlock/count uncertainty, mechanics, reward taxonomy, cross-system links, verification rules, and an individual mission record template.
+- [x] Added an Expert Missions system foundation covering unlock/count uncertainty, mechanics, reward taxonomy, cross-system links, verification rules, and an individual mission-record template.
 - [x] Added a current 20-mission Expert Mission index with first-pass boss/reward mapping and explicit research states.
 - [x] Added an Expert Mission status callout to the homepage and responsive styling for it.
+- [x] Added the first individual Expert Mission research layer for EM16–20, including structured identity, rewards, mechanics, strategy evidence, unknowns, and verification status.
+- [x] Linked the EM16–20 individual records from the Expert Mission system index.
 - [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
 
 ## In Progress
@@ -44,7 +46,8 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
 - [ ] Reconcile unresolved Skill fields against multiple independent sources before promoting records to `verified`.
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
-- [ ] Build individual Expert Mission records and reconcile the base-game vs later-content mission-count definitions.
+- [ ] Expand the EM16–20 records into full mechanic/phase/reward tables and promote only when independently reconciled.
+- [ ] Build individual EM01–15 records and reconcile the base-game vs later-content mission-count definitions.
 - [ ] Improve PQ verification, especially acquisition conditions, Ultimate Finish requirements, and reward provenance.
 - [ ] Reconcile Awoken/Transformation records, separating CaC transformations from character-only forms.
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
@@ -84,8 +87,9 @@ The project is being worked as parallel tracks so the site visibly improves whil
 2. Research and add the batch with exhaustive field coverage appropriate to that content type.
 3. Re-verify one earlier batch, including source reconciliation and corrections.
 4. Make at least one tangible website/UI improvement.
-5. Build the first individual Expert Mission records and reconcile mission-count/provenance differences.
-6. Expand the next under-documented game system so the overall wiki does not become skill-only or PQ-only.
-7. Update this TODO tracker and `CHANGELOG.md`.
-8. Run or inspect available validation/Actions results.
-9. Only then report completed work, actual results, coverage gaps, and unresolved blockers.
+5. Deepen EM16–20 with exact phase/mechanic/reward tables where evidence supports them.
+6. Begin EM01–15 individual records, starting with missions whose mechanics/rewards have the strongest independent documentation.
+7. Expand the next under-documented game system so the overall wiki does not become skill-only or PQ-only.
+8. Update this TODO tracker and `CHANGELOG.md`.
+9. Run or inspect available validation/Actions results.
+10. Only then report completed work, actual results, coverage gaps, and unresolved blockers.
