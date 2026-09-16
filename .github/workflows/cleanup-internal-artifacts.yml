@@ -1,12 +1,9 @@
 name: Clean internal artifacts
 
-# Runs after this workflow is established on main so the cleanup can remove legacy artifacts.
+# Keep main clean after every push; commits made with GITHUB_TOKEN do not recursively trigger workflows.
 on:
   push:
     branches: [main]
-    paths:
-      - 'scripts/strip_internal_artifacts.py'
-      - '.github/workflows/cleanup-internal-artifacts.yml'
   workflow_dispatch:
 
 permissions:
