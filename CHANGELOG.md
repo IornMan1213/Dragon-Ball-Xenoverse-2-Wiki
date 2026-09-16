@@ -29,8 +29,12 @@
 - Updated the delivery strategy so coverage of under-documented game systems remains active alongside skill/PQ research rather than allowing the current batch focus to narrow the wiki's scope.
 - Continued provenance-first research: unresolved values are kept explicitly uncertain instead of being invented or silently promoted.
 - Added the first **10 Super Soul canonical research records** to `docs/data/super-souls-record-layer.json`, covering identity, source character, acquisition, trigger/effect fields, Limit Burst data, CaC metadata, verification state, and provenance.
+- Added **Super Soul research batch 2**, bringing the canonical structured catalogue to **18 populated records**.
 - Kept unresolved Super Soul acquisition/mechanics fields explicitly null or provisional rather than inferring missing values from neighboring records.
-- Added a **Super Soul database status card** to the homepage so the expanding structured catalogue is visible alongside skills, PQs, Awokens, and mentors.
+- Removed internal web-citation artifacts from `docs/Super-Souls-Database.md` and expanded the page's structured research guidance.
+- Updated the homepage Super Soul status card from 10 to **18 records** and added Super Souls to the main category navigation.
+- Added a dedicated Super Soul database destination to the homepage's popular-destination cards.
+- Updated `TODO.md` to track the 18-record baseline and the next Super Soul verification/population cycle.
 - Focus remains on original, practical, sourced, self-contained content to make the wiki as useful as possible.
 
 Continuing modular improvements.
