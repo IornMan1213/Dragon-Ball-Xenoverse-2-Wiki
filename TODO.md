@@ -43,6 +43,10 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Cleaned internal citation artifacts from `docs/Super-Souls-Database.md` and expanded its research/schema guidance.
 - [x] Updated the homepage to expose the 18-record Super Soul catalogue and added Super Souls to the main category navigation.
 - [x] Added a Super Soul database status card to the homepage.
+- [x] Added the QQ Bang research foundation covering synthesis, six-stat fields, recipe provenance, Super Mix Capsule Z, RNG handling, and verification rules.
+- [x] Added the exhaustive Equipment Database research foundation covering individual gear records, slots, stats, acquisition taxonomy, DLC provenance, version history, and verification rules.
+- [x] Exposed Equipment Database on the homepage status panel, popular destinations, and category navigation.
+- [x] Cleaned internal web-citation artifacts from the new Equipment Database page before continuing.
 - [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
 
 ## In Progress
@@ -53,6 +57,9 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
 - [ ] Expand the Super Soul catalogue beyond the current 18 records; reconcile acquisition, triggers, effect magnitudes, durations, stacking, and Limit Burst behavior per soul.
 - [ ] Promote Super Soul records only after core identity, acquisition, effects, and key mechanics are independently reconciled.
+- [ ] Expand the Equipment Database from system-level foundation into individual clothing, equipment, accessory, shop, PQ, EM, raid, story, mentor, and DLC records.
+- [ ] Build machine-readable equipment records with exact slot, stat, acquisition, provenance, version, and verification fields.
+- [ ] Expand QQ Bang research from system/recipe families into observed six-stat result records and reproducible recipe/result relationships.
 - [ ] Expand the EM16–20 records into full mechanic/phase/reward tables and promote only when independently reconciled.
 - [ ] Build individual EM01–15 records and reconcile the base-game vs later-content mission-count definitions.
 - [ ] Improve PQ verification, especially acquisition conditions, Ultimate Finish requirements, and reward provenance.
@@ -97,7 +104,8 @@ The project is being worked as parallel tracks so the site visibly improves whil
 5. Deepen EM16–20 with exact phase/mechanic/reward tables where evidence supports them.
 6. Continue EM01–15 individual records and reconcile the strongest independently documented missions first.
 7. Populate the next Super Soul batch and resolve its acquisition/effect provenance.
-8. Expand the next under-documented game system so the overall wiki does not become skill-only or PQ-only.
-9. Update this TODO tracker and `CHANGELOG.md`.
-10. Run or inspect available validation/Actions results.
-11. Only then report completed work, actual results, coverage gaps, and unresolved blockers.
+8. Populate the first individual Equipment records rather than leaving the Equipment Database as a system-only page.
+9. Expand QQ Bang observed-result research alongside the equipment records.
+10. Update this TODO tracker and `CHANGELOG.md`.
+11. Run or inspect available validation/Actions results.
+12. Only then report completed work, actual results, coverage gaps, and unresolved blockers.
