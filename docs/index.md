@@ -55,7 +55,8 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="pulse-card" href="{{ '/Equipment-Database/' | relative_url }}"><strong>NEW</strong><span>Equipment research track</span><small>Individual gear, clothing, accessories, acquisition, stats, and version provenance</small></a>
     <a class="pulse-card" href="{{ '/Accessory-Shop-Database/' | relative_url }}"><strong>53</strong><span>Accessory Shop research records</span><small>Scouters, headwear, wigs, eyewear, props, staffs, and special accessories</small></a>
     <a class="pulse-card" href="{{ '/TP-STP-Medal-Shop-Database/' | relative_url }}"><strong>36</strong><span>TP/STP equipment shop records</span><small>Historical rotations, prices, clothing, accessories, and currency provenance</small></a>
-    <a class="pulse-card" href="{{ '/Accessory-PQ-Database/' | relative_url }}"><strong>20</strong><span>Accessory → PQ relationships</span><small>PQ routes, reward-condition research, conflicts, and alternate acquisition paths</small></a>
+    <a class="pulse-card" href="{{ '/Accessory-PQ-Database/' | relative_url }}"><strong>45</strong><span>Accessory → PQ research records</span><small>PQ routes, reward-condition research, conflicts, and alternate acquisition paths</small></a>
+    <a class="pulse-card" href="{{ '/Accessory-Canonical-Database/' | relative_url }}"><strong>37</strong><span>canonical accessory identities</span><small>Identity reconciliation across PQ, shop, raid, gift, wish, and DLC routes</small></a>
   </div>
 </section>
 
@@ -97,6 +98,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="card" href="{{ '/Accessory-Shop-Database/' | relative_url }}"><span class="tag">ACCESSORIES</span><h3>Accessory Shop Database</h3><p>Research the shop's scouters, headwear, wigs, eyewear, props, staffs, wings, and special accessories.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/TP-STP-Medal-Shop-Database/' | relative_url }}"><span class="tag">SHOPS</span><h3>TP / STP Medal Shop</h3><p>Track rotating clothing and accessory inventory without confusing historical schedules with current availability.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Accessory-PQ-Database/' | relative_url }}"><span class="tag">REWARDS</span><h3>Accessory PQ Database</h3><p>Trace accessories back to their Parallel Quests, reward conditions, Ultimate Finishes, and alternate acquisition routes.</p><span class="arrow">→</span></a>
+    <a class="card" href="{{ '/Accessory-Canonical-Database/' | relative_url }}"><span class="tag">RECONCILIATION</span><h3>Canonical Accessory Database</h3><p>One identity per accessory, with aliases and multiple acquisition routes preserved as provenance.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Characters/' | relative_url }}"><span class="tag">ROSTER</span><h3>Character Encyclopedia</h3><p>Forms, presets, unlock routes, DLC provenance, skills, and customization relationships.</p><span class="arrow">→</span></a>
   </div>
 </section>
@@ -110,6 +112,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a href="{{ '/Accessory-Shop-Database/' | relative_url }}">Accessory Shop <span>→</span></a>
     <a href="{{ '/TP-STP-Medal-Shop-Database/' | relative_url }}">TP / STP Shops <span>→</span></a>
     <a href="{{ '/Accessory-PQ-Database/' | relative_url }}">Accessory → PQs <span>→</span></a>
+    <a href="{{ '/Accessory-Canonical-Database/' | relative_url }}">Canonical Accessories <span>→</span></a>
     <a href="{{ '/QQ-Bangs/' | relative_url }}">QQ Bangs <span>→</span></a>
     <a href="{{ '/Super-Souls-Database/' | relative_url }}">Super Souls <span>→</span></a>
     <a href="{{ '/Skill-Unlock-Methods/' | relative_url }}">Skill Unlocks <span>→</span></a>
