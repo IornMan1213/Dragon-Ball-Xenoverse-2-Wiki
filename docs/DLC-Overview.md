@@ -6,7 +6,7 @@
 
 ## Current DLC Status
 
-Bandai Namco identifies **FUTURE SAGA Chapter 4** as the final DLC for Xenoverse 2. Chapter 4 launched July 8, 2026 and concludes the four-chapter FUTURE SAGA. The official DLC catalog continues to list the accumulated DLC packs and bundles. citeturn0search0turn0search2
+Bandai Namco identifies **FUTURE SAGA Chapter 4** as the final DLC for Xenoverse 2. Chapter 4 launched July 8, 2026 and concludes the four-chapter FUTURE SAGA. The official DLC catalog continues to list the accumulated DLC packs and bundles.
 
 The game's final DLC state should therefore be documented as a historical content set: **paid DLC + free updates + their in-game unlock conditions**, rather than assuming that every piece of content is obtained merely by purchasing a pack.
 
@@ -19,7 +19,7 @@ The game's final DLC state should therefore be documented as a historical conten
 | Chapter 3 | 2 | 3 | 6 | 3 | 1 Extra Mission arc, 5 costumes/accessories, 23 illustrations, Cheelai & Broly scenario |
 | Chapter 4 | 2 | 2 | 4 | 4 | Ultra Time Patrol Battles, 6 costumes/accessories, 8 illustrations, 1 stage, Gallery of Time |
 
-Source: Bandai Namco's official Xenoverse 2 DLC catalog. citeturn0search2
+Source: Bandai Namco's official Xenoverse 2 DLC catalog.
 
 ## Chapter 1
 
@@ -49,7 +49,7 @@ Officially listed content includes:
 - 3 Super Souls
 - 14 illustrations
 
-Bandai Namco notes that **Goku (Mini)'s voice-over is Japanese-only**. citeturn0search5
+Bandai Namco notes that **Goku (Mini)'s voice-over is Japanese-only**.
 
 ## Chapter 3
 
@@ -66,11 +66,11 @@ Officially documented content includes:
 - Cheelai & Broly scenario content
 - Friendship Mode
 
-Bandai Namco describes Friendship Mode as a feature where players interact with Cheelai and Broly for rewards and cutscenes. citeturn0search6
+Bandai Namco describes Friendship Mode as a feature where players interact with Cheelai and Broly for rewards and cutscenes.
 
 ## Chapter 4 — Final Chapter
 
-FUTURE SAGA Chapter 4 is the game's final DLC chapter. It adds two playable characters: **Goku (Ultra Supervillain Quelled)** and **Supreme Kai of Time (Ultra Supervillain)**. It also introduces **Ultra Time Patrol Battles** and the **Gallery of Time**. citeturn0search0
+FUTURE SAGA Chapter 4 is the game's final DLC chapter. It adds two playable characters: **Goku (Ultra Supervillain Quelled)** and **Supreme Kai of Time (Ultra Supervillain)**. It also introduces **Ultra Time Patrol Battles** and the **Gallery of Time**.
 
 Officially listed content includes:
 
@@ -86,7 +86,7 @@ Officially listed content includes:
 
 ### Gallery of Time
 
-The Gallery of Time is a dedicated viewing feature for the game's accumulated loading-screen illustrations and Time Patrol movies. Bandai Namco describes it as containing **over 1,000 loading-screen illustrations** in addition to Time Patrol movies. citeturn0search0
+The Gallery of Time is a dedicated viewing feature for the game's accumulated loading-screen illustrations and Time Patrol movies. Bandai Namco describes it as containing **over 1,000 loading-screen illustrations** in addition to Time Patrol movies.
 
 ### The Power to Overcome
 
@@ -122,13 +122,13 @@ The official catalog groups the game's accumulated paid content into multiple li
 | FUTURE SAGA Pack Set | Treat as a bundle of Chapters 1–4; do not duplicate individual chapter ownership records |
 | Individual/older packs | Preserve individual provenance even when a later bundle contains the same content |
 
-The official catalog currently lists the **Dragon Ball DAIMA Pack**, **HERO OF JUSTICE Pack Set**, **Conton City Vote Pack**, **Legendary Pack Set**, **Ultra Pack Set**, **Extra Pass**, **Super Pass**, and the FUTURE SAGA Pack Set among the game's DLC offerings. citeturn0search2turn0search9
+The official catalog currently lists the **Dragon Ball DAIMA Pack**, **HERO OF JUSTICE Pack Set**, **Conton City Vote Pack**, **Legendary Pack Set**, **Ultra Pack Set**, **Extra Pass**, **Super Pass**, and the FUTURE SAGA Pack Set among the game's DLC offerings.
 
 ## Paid DLC vs Free Updates
 
 This distinction is important for an exhaustive encyclopedia. Some post-launch additions were distributed through free updates alongside paid packs. The wiki should not attribute every item appearing in the same update window to the paid DLC.
 
-For example, Bandai Namco's Dragon Ball DAIMA announcement explicitly separates the paid DAIMA Pack from a **free update** containing additional Raid Boss battles, costumes, Super Souls, Skills, loading screens, and lobby items. citeturn0search9
+For example, Bandai Namco's Dragon Ball DAIMA announcement explicitly separates the paid DAIMA Pack from a **free update** containing additional Raid Boss battles, costumes, Super Souls, Skills, loading screens, and lobby items.
 
 Each future record should therefore use explicit provenance such as:
 
