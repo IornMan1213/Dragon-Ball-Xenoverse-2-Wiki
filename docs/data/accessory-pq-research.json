@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "record_type": "accessory_pq_research",
   "purpose": "Evidence-backed mapping layer connecting accessories to Parallel Quest acquisition routes while preserving reward-condition, alternate-route, and source conflicts.",
   "verification_policy": {
@@ -36,7 +36,10 @@
     {"id":"pqacc-026","name":"Gine (DB Super)'s Accessory","pq":144,"acquisition_condition":"PQ144 accessory reward reported; exact item naming/slot requires reconciliation","alternate_routes":null,"verification_status":"indexed"},
     {"id":"pqacc-027","name":"Kale's Accessory","pq":148,"acquisition_condition":"PQ148 accessory reward reported; exact item naming/variant requires reconciliation","alternate_routes":null,"verification_status":"indexed"},
     {"id":"pqacc-028","name":"Caulifla's Accessory","pq":147,"acquisition_condition":"PQ147 accessory reward reported; exact item naming/variant requires reconciliation","alternate_routes":null,"verification_status":"indexed"},
-    {"id":"pqacc-029","name":"Android 17 (DB Super)'s Ranger Accessory","pq":152,"acquisition_condition":"PQ152 accessory/equipment association requires component-level reconciliation","alternate_routes":null,"verification_status":"indexed"}
+    {"id":"pqacc-029","name":"Android 17 (DB Super)'s Ranger Accessory","pq":152,"acquisition_condition":"PQ152 accessory/equipment association requires component-level reconciliation","alternate_routes":null,"verification_status":"indexed"},
+    {"id":"pqacc-030","name":"Red Ribbon Army Helmet","pq":160,"acquisition_condition":"Basic reward listing on PQ160, Pan in Peril","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-031","name":"Gohan (Beast) Wig","pq":162,"acquisition_condition":"Basic reward listing on PQ162, The Man, the Myth, the Yamcha","alternate_routes":null,"verification_status":"partially_verified"},
+    {"id":"pqacc-032","name":"Videl (DB Super) Wig","pq":168,"acquisition_condition":"Basic reward listing on PQ168, Videl: Super Mom","alternate_routes":null,"verification_status":"partially_verified"}
   ],
   "research_rules": [
     "A PQ appearing beside an accessory does not automatically establish whether the item is a guaranteed scripted reward, normal reward, Ultimate Finish reward, or random bonus-slot reward.",
@@ -44,13 +47,16 @@
     "Alternate shop, raid, gift, wish, and DLC routes are preserved rather than replacing the PQ relationship.",
     "Conflicting historical PQ numbers are retained as source conflicts until independently reconciled.",
     "No drop percentage is inferred from a reward list that does not explicitly document one.",
-    "Equipment-set names and accessory names are not conflated; uncertain component relationships remain indexed until the exact inventory item is identified."
+    "Equipment-set names and accessory names are not conflated; uncertain component relationships remain indexed until the exact inventory item is identified.",
+    "A basic reward listing is recorded as a PQ association, not as proof that the item is guaranteed on every clear or that it cannot also be a random reward.",
+    "DLC-era PQs are tracked individually so accessory provenance can later be reconciled against DLC, shop, raid, and gift routes."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
     "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-110.md",
     "https://dbxv2.fandom.com/wiki/Equipment",
+    "https://dbxv2.fandom.com/wiki/Parallel_Quests",
     "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html"
   ]
 }
