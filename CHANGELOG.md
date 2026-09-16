@@ -28,6 +28,9 @@
 - Added an explicit **Exhaustive Game Encyclopedia** scope standard to `TODO.md`: the project is intended to document every documented detail of Xenoverse 2, with structured labels, provenance, uncertainty tracking, and distinctions such as CaC vs character-only, DLC ownership vs unlock method, normal vs Ultimate Finish rewards, and known exceptions.
 - Updated the delivery strategy so coverage of under-documented game systems remains active alongside skill/PQ research rather than allowing the current batch focus to narrow the wiki's scope.
 - Continued provenance-first research: unresolved values are kept explicitly uncertain instead of being invented or silently promoted.
+- Added the first **10 Super Soul canonical research records** to `docs/data/super-souls-record-layer.json`, covering identity, source character, acquisition, trigger/effect fields, Limit Burst data, CaC metadata, verification state, and provenance.
+- Kept unresolved Super Soul acquisition/mechanics fields explicitly null or provisional rather than inferring missing values from neighboring records.
+- Added a **Super Soul database status card** to the homepage so the expanding structured catalogue is visible alongside skills, PQs, Awokens, and mentors.
 - Focus remains on original, practical, sourced, self-contained content to make the wiki as useful as possible.
 
 Continuing modular improvements.
