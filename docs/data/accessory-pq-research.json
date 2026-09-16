@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.3.0",
+  "schema_version": "1.4.0",
   "record_type": "accessory_pq_research",
   "purpose": "Evidence-backed mapping layer connecting accessories to Parallel Quest acquisition routes while preserving reward-condition, alternate-route, and source conflicts.",
   "verification_policy": {
@@ -47,8 +47,13 @@
     {"id":"pqacc-037","name":"Panzy Wig","pq":181,"acquisition_condition":"PQ181 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
     {"id":"pqacc-038","name":"Golden Frieza Head","pq":182,"acquisition_condition":"PQ182 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
     {"id":"pqacc-039","name":"Broly Wig (Black Hair, Normal)","pq":183,"acquisition_condition":"PQ183 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
-    {"id":"pqacc-040","name":"Dragon Ball Balloon","pq":184,"acquisition_condition":"PQ184 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"DAIMA-era DLC provenance","verification_status":"indexed"},
-    {"id":"pqacc-041","name":"Goku (Ultra Supervillain Quelled) Wig","pq":185,"acquisition_condition":"PQ185 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"Future Saga Chapter 4 provenance","verification_status":"indexed"}
+    {"id":"pqacc-040","name":"Dragon Ball Balloon","pq":184,"acquisition_condition":"Ultimate Finish reward; current Madreag quest data reports 50%","alternate_routes":"DAIMA-era DLC provenance","reward_chance_percent":50,"reward_condition":"Ultimate Finish bonus slot","verification_status":"partially_verified"},
+    {"id":"pqacc-041","name":"Goku (Ultra Supervillain Quelled) Wig","pq":185,"acquisition_condition":"PQ185 reward association reported; exact reward mechanism requires reconciliation","alternate_routes":"Future Saga Chapter 4 provenance","verification_status":"indexed"},
+    {"id":"pqacc-042","name":"Android 17 (DB Super) Wig","pq":152,"acquisition_condition":"Basic reward listing on PQ152, Dyspo's Wanted Man","alternate_routes":"Conton City Vote Pack provenance","verification_status":"partially_verified"},
+    {"id":"pqacc-043","name":"King Vegeta (DB Super) Wig","pq":154,"acquisition_condition":"Basic reward listing on PQ154, Dabura the Loyal? Servant","alternate_routes":"Conton City Vote Pack provenance","verification_status":"partially_verified"},
+    {"id":"pqacc-044","name":"Gamma 2's Helmet","pq":155,"acquisition_condition":"Basic reward listing on PQ155, I Need a Hero... Pose!","alternate_routes":"Hero of Justice Pack 1 provenance","verification_status":"partially_verified"},
+    {"id":"pqacc-045","name":"Gamma 1's Helmet","pq":156,"acquisition_condition":"Basic reward listing on PQ156, Hunting Down Dr. Hedo","alternate_routes":"Hero of Justice Pack 1 provenance","verification_status":"partially_verified"},
+    {"id":"pqacc-046","name":"Gamma 1's Helmet research duplicate check","pq":156,"acquisition_condition":"Research placeholder retained only for source reconciliation; not a separate inventory item","alternate_routes":null,"verification_status":"indexed"}
   ],
   "research_rules": [
     "A PQ appearing beside an accessory does not automatically establish whether the item is a guaranteed scripted reward, normal reward, Ultimate Finish reward, or random bonus-slot reward.",
@@ -59,11 +64,13 @@
     "Equipment-set names and accessory names are not conflated; uncertain component relationships remain indexed until the exact inventory item is identified.",
     "A basic reward listing is recorded as a PQ association, not as proof that the item is guaranteed on every clear or that it cannot also be a random reward.",
     "DLC-era PQs are tracked individually so accessory provenance can later be reconciled against DLC, shop, raid, and gift routes.",
-    "Later-DLC accessory names are retained as indexed research leads when the currently available source identifies the quest association but does not establish the exact reward slot."
+    "Later-DLC accessory names are retained as indexed research leads when the currently available source identifies the quest association but does not establish the exact reward slot.",
+    "Temporary research placeholders must never be counted as separate inventory items during canonicalization."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md",
     "https://dbxv2.fandom.com/wiki/Equipment",
     "https://dbxv2.fandom.com/wiki/Parallel_Quests",
     "https://dbxv2.fandom.com/wiki/DLC",
