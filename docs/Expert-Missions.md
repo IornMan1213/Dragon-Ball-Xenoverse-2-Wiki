@@ -50,6 +50,14 @@ The current reference set enumerates **20 Expert Missions**, while older/base-ga
 
 The reward column is an **indexing layer**, not a claim that every listed item is guaranteed on every clear. Exact guaranteed, first-clear, repeat, RNG, and version-dependent rewards will be separated in the individual records. Current references also disagree on some reward values/names, so conflicting evidence remains visible rather than being normalized into false certainty.
 
+## Individual Records
+
+The first detailed endgame mission layer is now available:
+
+- [EM16–20: individual mission research](./Expert-Missions-16-20.md)
+
+These records contain mission-specific identity, reward, timer, mechanic, strategy-evidence, unknown-field, and verification sections. They remain `partially_verified` until unresolved technical and acquisition fields are reconciled.
+
 ## Unlock and Progression
 
 Expert Missions begin after the relevant Cell portion of story progression. The Supreme Kai of Time introduces the first two tutorial missions, after which additional missions become available through progression. After the early sequence, cleared missions can be consolidated into a replay hub near the Time Machine Station.
@@ -171,7 +179,7 @@ The production schema should be reconciled with the repository's canonical data 
 
 ## Research State
 
-The mission index is now populated with the current 20-mission catalog and a first-pass reward/boss map. It does **not** claim that every Expert Mission has been exhaustively verified. The next data layer is individual mission records with cross-linked bosses, attacks, rewards, skill drops, currency interactions, and unlock conditions.
+The mission index is now populated with the current 20-mission catalog and a first-pass reward/boss map. The first five individual endgame records are now present in a dedicated research page. They do **not** claim that every Expert Mission has been exhaustively verified.
 
 ## Research References
 
