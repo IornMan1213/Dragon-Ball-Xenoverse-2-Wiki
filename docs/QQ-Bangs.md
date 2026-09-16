@@ -1,23 +1,81 @@
+---
+layout: wiki
+title: QQ Bangs & Super Mix Capsule Z
+---
+
 # QQ Bangs & Super Mix Capsule Z
 
-QQ Bangs override the stats of all four clothing slots.
+QQ Bangs are synthesized stat modifiers for CaC builds. They replace the stat contribution of the four main clothing pieces, allowing cosmetic clothing choices without giving up a deliberately chosen stat spread. citeturn0search1turn0search0
 
-## Super Mix Capsule Z Mechanics
-**Super Mix Capsule Z** is the highest-tier mixing item used to create 6-star QQ Bangs.
+**Full structured database:** [QQ Bang Database](../QQ-Bang-Database/)
 
-### How to Obtain Super Mix Capsule Z
-1. **Primary method (recommended)**: Multiplayer Modes NPC → Parallel Quest Tour → **PQ 83** (recover 3 Dragon Balls).  
-   - Very fast clears (often under 30 seconds with a coordinated group).  
-   - Must be done through the Multiplayer Modes / Quest Tour interface — offline Parallel Quest terminals do not offer the same drop table for these capsules.
-2. Alternative: Mix a regular Super Mix Capsule with a Demon Realm Crystal at the Mixing Shop (community-reported recipe).
-3. Occasional drops from certain Expert Mission Tours / multiplayer content.
+## Six tracked attributes
 
-### Creating QQ Bangs
-- Mixing Shop (near Capsule Corp Time Rift).
-- Ingredients: 2 clothing pieces + 1 mixing item (Super Mix Capsule Z for best results).
-- Higher-star clothing yields better potential results.
-- Results have RNG — many players save before mixing.
+Every QQ Bang research record should preserve all six core attributes:
 
-Popular clothing pairs include Battle Suit (Bardock) + Beerus’ Clothes, Light Heart Suit combinations, and other high-star outfits.
+- Health
+- Ki
+- Stamina
+- Basic Attack
+- Strike Supers
+- Ki Blast Supers
 
-**Sources**: Community farming videos (Burcol, others), Mixing Shop mechanics, Multiplayer Modes PQ Tour drop tables, player reports on Super Mix Capsule Z acquisition.
+A displayed result is an observed result. Do not assume a recipe produces one exact spread every time; community testing documents substantial variation. citeturn0search1turn0search8
+
+## Creating a QQ Bang
+
+1. Go to the Clothing Mixing Shop at Capsule Corporation.
+2. Choose two clothing pieces.
+3. Choose the mixing item.
+4. Complete the mix.
+5. Record the star rating and every stat modifier.
+6. Record the exact clothing inputs and mixing item so the result has provenance.
+
+The wiki tracks the **recipe** and the **observed result** as separate pieces of information. This prevents a community recipe from being mistaken for a deterministic output. citeturn0search1
+
+## Super Mix Capsule Z
+
+Super Mix Capsule Z is used for high-tier six-star QQ Bang attempts. Community farming guides and player reports commonly point to Multiplayer Parallel Quest Tour content, particularly PQ83, as a farming route. The exact current drop behavior is retained as a research field rather than represented as a guaranteed percentage. citeturn0youtube24turn0reddit29
+
+A community-reported alternative is mixing a regular Super Mix Capsule with a Demon Realm Crystal. That recipe is recorded as community evidence and is not treated as a guaranteed universal route without further reconciliation.
+
+## Frequently documented recipe families
+
+Community research repeatedly discusses combinations involving:
+
+- Battle Suit (Bardock)
+- Beerus clothing
+- Light Heart Suit
+- Other high-quality/high-star clothing
+
+These are **recipe families**, not guaranteed stat rolls. The structured database records the actual six-stat result when one is documented. citeturn0youtube24turn0reddit30
+
+## Six-star research rules
+
+The project separates:
+
+| Research field | What it means |
+|---|---|
+| Recipe | The inputs used to make the item |
+| Mixing item | Capsule/material used in the mix |
+| Observed result | The six-stat output actually seen |
+| Expected result | Community expectation; never treated as fact by itself |
+| Version | Game version associated with the observation |
+| Verification | Evidence strength for the record |
+
+## Current research layer
+
+`docs/data/qq-bangs-record-layer.json` currently contains system-level records for the synthesis process, Super Mix Capsule Z research, and a Bardock/Beerus recipe family. It is intentionally **not** presented as a complete inventory of every QQ Bang.
+
+## Research targets
+
+- Exhaustive recipe-family inventory.
+- Individual six-stat result records.
+- Six-star synthesis behavior by version.
+- Material rarity and quality effects.
+- Super Mix Capsule Z acquisition and current drop behavior.
+- Other mixing capsules and their exact roles.
+- QQ Bang interactions with attribute caps and build calculations.
+- Cross-links to Super Souls, skills, Awoken Skills, equipment, and build records.
+
+**Sources:** GameSkinny's QQ Bang guide, current Madreag gear/QQ Bang research, and community synthesis/farming reports.
