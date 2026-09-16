@@ -16,18 +16,20 @@ The acquisition matrix tracks canonical identities across gifts, Parallel Quests
 
 | PQ | Accessory evidence | State | Notes |
 |---|---|---|---|
-| 179 | SS4 Goku (DAIMA) Wig & Tail | Partially verified | Accessory association retained; exact reward slot/condition still requires direct reconciliation. |
-| 180 | SS3 Vegeta (DAIMA) Wig | Partially verified | Accessory association retained; exact reward slot/condition still requires direct reconciliation. |
-| 181 | None promoted | Indexed negative | Checked extract identifies Glorio's Clothes, which is clothing rather than an accessory. |
-| 182 | None promoted | Unresolved | Existing evidence does not safely identify an accessory reward. |
-| 183 | None promoted | Unresolved | Existing evidence does not safely identify an accessory reward. |
-| 184 | Dragon Ball Balloon | Partially verified | Current datamined evidence gives a 50% Ultimate Finish reward. |
-| 185 | Goku (Ultra Supervillain Quelled) Wig | Partially verified | Accessory association retained; exact reward slot/condition still requires direct reconciliation. |
-| 186 | None promoted | Indexed negative | Checked extract identifies clothing/set rewards, not an accessory. |
+| 179 | SS4 Goku (DAIMA) Wig & Tail | Partially verified | Basic reward list identifies the accessory; exact reward slot/condition remains separate research. |
+| 180 | SS3 Vegeta (DAIMA) Wig | Partially verified | Basic reward list identifies the accessory; exact reward slot/condition remains separate research. |
+| 181 | Glorio Wig; Panzy Wig | Partially verified | Current complete PQ reward listing identifies both accessories alongside Glorio's and Panzy's Clothes. |
+| 182 | Golden Frieza Head | Partially verified | Current complete PQ reward listing identifies Golden Frieza Head alongside Golden Frieza Suit. |
+| 183 | Broly Wig (Black Hair, Normal) | Partially verified | Current complete PQ reward listing identifies the wig alongside Cheelai's Coat. |
+| 184 | Dragon Ball Balloon | Partially verified | Current complete PQ reward listing identifies the accessory; separate research reports a 50% Ultimate Finish reward chance. |
+| 185 | Goku (Ultra Supervillain Quelled) Wig | Partially verified | Basic reward list identifies the accessory; player reports indicate reward-condition/online behavior may warrant dedicated testing. |
+| 186 | None in the checked basic reward list | Indexed negative | Current reward listing contains clothing/sets, Super Souls and a skill, but no accessory. |
 
-The structured source for this pass is `docs/data/pq-late-accessory-reconciliation.json`. PQ184 is the strongest late-PQ accessory record currently reconciled: the current research corpus identifies Dragon Ball Balloon at 50% on Ultimate Finish. The same source separates that accessory from Chaotic Time Impact, the Super Soul, artwork, and Super Mix Capsule rewards.
+The structured source for this pass is `docs/data/accessory-pq-audit-169-186.json`. The current complete PQ guide explicitly lists the accessories in PQ179-PQ185 and the absence of an accessory in PQ186's basic reward list. citeturn0search0
 
-PQ182 and PQ183 are deliberately **not filled by inference**. The underlying DLC research confirms the PQ182-184 block belongs to Future Saga Chapter 3, but the accessory layer does not yet have sufficiently direct evidence to promote an accessory mapping for 182 or 183.
+PQ184 remains a special case: the accessory is present in the basic reward list, while the current research corpus separately records a 50% Ultimate-Finish reward chance. These facts are not collapsed into a generic guaranteed-drop statement.
+
+PQ185 also receives a research flag rather than a fabricated requirement: recent player reports describe inconsistent clothing rewards and possible online/offline differences, but those reports do not establish a definitive hidden unlock rule. citeturn0search2turn0search3
 
 ## Cross-route records
 
@@ -56,10 +58,6 @@ PQ182 and PQ183 are deliberately **not filled by inference**. The underlying DLC
 | Gohan (Beast) Wig | PQ162; HERO OF JUSTICE Pack 2 | Partially verified | PQ relationship remains subject to reward-condition reconciliation. |
 | Videl (DB Super) Wig | PQ168; Future Saga Chapter 1 | Partially verified | Reward-condition details remain separate. |
 | Goku (Ultra Supervillain Quelled) Wig | PQ185; Future Saga Chapter 4 | Partially verified | Newest PQ route requires current-version reward reconciliation. |
-
-## PQ157-PQ168 checked range
-
-The dedicated reconciliation layer records each PQ in this range rather than only recording positive accessory matches. Clothing is explicitly excluded from accessory identity.
 
 ## Character Gift equipment pools
 
@@ -99,7 +97,7 @@ The wiki does not claim that every accessory in this database necessarily contri
 - `docs/data/equipment-accessories-record-layer.json`
 - `docs/data/accessory-acquisition-matrix.json`
 - `docs/data/accessory-pq-research.json`
-- `docs/data/pq-late-accessory-reconciliation.json`
+- `docs/data/accessory-pq-audit-169-186.json`
 - `docs/data/accessory-pq-reconciliation-157-168.json`
 - `docs/data/accessory-shop-research.json`
 - `docs/Accessory-PQ-Database.md`
