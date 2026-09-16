@@ -43,7 +43,7 @@
       ],
       "reward_condition_mapping": "unresolved",
       "drop_rates": "unresolved",
-      "community_reports": "Some July 2026 community reports describe inconsistent costume drops, but this is not promoted to a confirmed bug or requirement."
+      "community_reports": "Some July 2026 community reports describe inconsistent costume/skill drops, but this is not promoted to a confirmed bug or requirement."
     },
     {
       "id": "pq-186",
@@ -52,21 +52,33 @@
       "name": "Frieza's Right-Hand Man",
       "dlc": "FUTURE SAGA Chapter 4",
       "verification_status": "verified",
+      "plot": "A full-scale battle royale erupts to decide who will become Frieza's right-hand man.",
       "objectives": {
         "primary": "Defeat all enemies",
         "time_limit_condition": "Clear in under 14 minutes",
-        "final_condition": "Defeat Golden Frieza and the other opponents"
+        "final_condition": "Defeat Golden Frieza and the others"
       },
-      "reward_inventory": "partially_indexed",
+      "basic_zeni_reward": 14000,
+      "listed_rewards": [
+        "Fu (Ultra Supervillain)'s Clothes",
+        "Fu (Ultra Supervillain) Set",
+        "Fu Set 2",
+        "The final battle begins now.",
+        "I'll use this power to protect everyone!",
+        "Artwork 866",
+        "Venus Fist"
+      ],
+      "reward_inventory_status": "indexed",
       "reward_condition_mapping": "unresolved",
       "drop_rates": "unresolved"
     }
   ],
   "unresolved": [
     "Exact normal-reward versus Ultimate-Finish reward mapping for PQ 185.",
-    "Exact reward inventory and normal/Ultimate-Finish mapping for PQ 186.",
+    "Exact normal-reward versus Ultimate-Finish reward mapping for PQ 186.",
     "Exact item drop conditions and rates for both quests.",
     "Any hidden conditions affecting Chapter 4 PQ reward generation.",
-    "Complete enemy formation and branch-condition documentation for both quests."
+    "Complete enemy formation and branch-condition documentation for both quests.",
+    "Whether community-reported inconsistent drops reflect ordinary RNG, hidden conditions, or a reproducible bug."
   ]
 }
