@@ -44,8 +44,11 @@
 - Exposed Equipment Database through the homepage status panel, popular destinations, and category navigation.
 - Cleaned citation artifacts from the Equipment Database before continuing.
 - Added the first **10 structured Equipment records** at `docs/data/equipment-record-layer.json`, covering PQ, Clothing Shop, TP Medal Shop, and Conton City NPC/Expert Mission-related acquisition routes with stat, restriction, provenance, and verification fields.
-- Kept the new equipment records `partially_verified` where component-level restrictions, current shop state, or historical/version details remain unresolved.
-- Updated `TODO.md` with the individual-equipment population track and machine-readable equipment expansion requirements.
-- Current Equipment research remains an active population track; no claim is made that every clothing piece, accessory, or equipment stat record has been populated yet.
+- Expanded the equipment research layer with additional populated records while retaining `partially_verified` status where component-level restrictions, current shop state, or historical/version details remain unresolved.
+- Added `docs/data/equipment-catalog-index.json` as a broader inventory layer covering documented equipment families and names beyond the fully researched record layer.
+- Separated equipment **inventory discovery** from **record verification**, so a discovered costume name is not incorrectly treated as proof of its stats, price, restriction, or current acquisition state.
+- Expanded `docs/Equipment-Database.md` with catalog coverage rules and explicit indexed-vs-verified guidance.
+- Kept external research claims out of repository prose as internal tool citation artifacts; repository source references remain ordinary source URLs where applicable.
+- Current Equipment research remains an active population track; no claim is made that every clothing piece, accessory, or equipment stat record has been populated or verified.
 
 Continuing modular improvements.
