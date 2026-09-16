@@ -1,6 +1,6 @@
 name: Clean internal artifacts
 
-# Keep main clean after every push; commits made with GITHUB_TOKEN do not recursively trigger workflows.
+# Keep main clean after every push; cleanup commits are marked to avoid a recursive push run.
 on:
   push:
     branches: [main]
@@ -20,10 +20,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Strip internal artifacts
         run: python3 scripts/strip_internal_artifacts.py
+
+      - name: Verify artifact-free tree
+        run: python3 scripts/check_repo_artifacts.py
 
       - name: Commit cleanup
         run: |
@@ -31,8 +35,10 @@ jobs:
             echo "No internal artifacts found."
             exit 0
           fi
+          git diff --check
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -m "chore: remove internal citation artifacts [skip ci]"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
