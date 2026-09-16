@@ -50,19 +50,19 @@ The first pass contains **20 accessory-to-PQ relationships**. These are research
 
 A reward list alone does **not** establish whether an accessory is guaranteed, random, first-clear, normal-clear, Ultimate Finish, or bonus-slot content. Those mechanisms are being tracked separately.
 
-For example, current structured research for PQ110 identifies the SS4 Wig & Tail (Goku) as an Ultimate Finish reward, while the same quest has separate scripted clothing and reward-pool entries. citeturn0search1
+Current structured research for PQ110 identifies the SS4 Wig & Tail (Goku) as an Ultimate Finish reward, while the same quest has separate scripted clothing and reward-pool entries. See the PQ110 research source listed below.
 
-The older searchable PQ reward guide also demonstrates why the database needs explicit acquisition-condition fields: it lists accessories alongside ordinary quest rewards without necessarily exposing the underlying drop-table mechanics. citeturn0search0turn0search5
+The older searchable PQ reward guides also demonstrate why the database needs explicit acquisition-condition fields: they list accessories alongside ordinary quest rewards without necessarily exposing the underlying drop-table mechanics.
 
 ## Known conflicts
 
 ### Yamcha's Sword
 
-Historical sources disagree on the PQ association. One searchable equipment guide associates it with PQ29, while another historical equipment list associates it with PQ36. The wiki deliberately retains this conflict instead of silently choosing one source. citeturn0search0turn0search4
+Historical sources disagree on the PQ association. One searchable equipment guide associates it with PQ29, while another historical equipment list associates it with PQ36. The wiki deliberately retains this conflict instead of silently choosing one source.
 
 ### Goku's Wig
 
-The searchable PQ reward guide identifies Goku's Wig under PQ25. Older accessory inventories can contain different numbering or acquisition notes, so the record remains partially verified until the discrepancy is reconciled against stronger current evidence. citeturn0search5
+The searchable PQ reward guide identifies Goku's Wig under PQ25. Older accessory inventories can contain different numbering or acquisition notes, so the record remains partially verified until the discrepancy is reconciled against stronger current evidence.
 
 ## Cross-system relationships
 
