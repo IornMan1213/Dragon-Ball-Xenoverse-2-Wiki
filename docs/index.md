@@ -50,7 +50,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="pulse-card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><strong>186</strong><span>numbered Parallel Quests tracked</span><small>Includes Future Saga Chapter 4</small></a>
     <a class="pulse-card" href="{{ '/Awoken-All/' | relative_url }}"><strong>18</strong><span>Awoken/Transformation targets</span><small>CaC and character-only states are separated</small></a>
     <a class="pulse-card" href="{{ '/Mentors/' | relative_url }}"><strong>33+</strong><span>mentor records in the research layer</span><small>Unlocks and progression continue to be reconciled</small></a>
-    <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>10</strong><span>Super Soul records populated</span><small>First research batch — acquisition and effect fields remain independently verifiable</small></a>
+    <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>18</strong><span>Super Soul records populated</span><small>Two research batches — acquisition and effect fields remain independently verifiable</small></a>
   </div>
 </section>
 
@@ -86,6 +86,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="card" href="{{ '/Skills-All/' | relative_url }}"><span class="tag">EXHAUSTIVE</span><h3>Every Skill</h3><p>Search individual skills, effects, mentors, costs, and acquisition notes.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><span class="tag">QUESTS</span><h3>Every Parallel Quest</h3><p>Live searchable quest records with rewards and Ultimate Finish information.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Expert-Missions/' | relative_url }}"><span class="tag">SYSTEMS</span><h3>Expert Missions</h3><p>Boss mechanics, special attacks, mission progression, reward economy, and research status.</p><span class="arrow">→</span></a>
+    <a class="card" href="{{ '/Super-Souls-Database/' | relative_url }}"><span class="tag">EQUIPMENT</span><h3>Super Soul Database</h3><p>Search the growing structured catalogue of triggers, effects, Limit Bursts, and acquisition routes.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Characters/' | relative_url }}"><span class="tag">ROSTER</span><h3>Character Encyclopedia</h3><p>Forms, presets, unlock routes, DLC provenance, skills, and customization relationships.</p><span class="arrow">→</span></a>
   </div>
 </section>
@@ -96,6 +97,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a href="{{ '/Characters/' | relative_url }}">Characters <span>→</span></a>
     <a href="{{ '/Mentors/' | relative_url }}">Mentors <span>→</span></a>
     <a href="{{ '/QQ-Bangs/' | relative_url }}">QQ Bangs <span>→</span></a>
+    <a href="{{ '/Super-Souls-Database/' | relative_url }}">Super Souls <span>→</span></a>
     <a href="{{ '/Skill-Unlock-Methods/' | relative_url }}">Skill Unlocks <span>→</span></a>
     <a href="{{ '/Main-Story-Walkthrough/' | relative_url }}">Story Walkthrough <span>→</span></a>
     <a href="{{ '/Expert-Missions/' | relative_url }}">Expert Missions <span>→</span></a>
