@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "accessory_unmatched_route_backlog",
+  "purpose": "Tracks accessory route records that should not yet be forced into the canonical inventory layer.",
+  "records": [
+    {"name":"Tapion Wig","source_layers":["online_raid","ranked_event"],"reason":"No existing canonical Tapion Wig identity; must remain distinct from Tapion's Sword.","priority":"high"},
+    {"name":"Cheelai Wig","source_layers":["online_raid"],"reason":"Raid identity established but no canonical identity yet.","priority":"high"},
+    {"name":"Tights Hat","source_layers":["crystal_raid"],"reason":"Crystal Raid identity established but no canonical identity yet.","priority":"medium"},
+    {"name":"Universe 6 S. Kai's Helper's Hat","source_layers":["crystal_raid"],"reason":"Crystal Raid identity established but no canonical identity yet.","priority":"medium"},
+    {"name":"Lord Zuno's Topknot Wig","source_layers":["crystal_raid"],"reason":"Crystal Raid identity established but no canonical identity yet.","priority":"medium"},
+    {"name":"Golden Turtle Hermit's Shell","source_layers":["online_raid","crystal_raid"],"reason":"Accessory must be separated from Golden Turtle Hermit Gi clothing before promotion.","priority":"high"},
+    {"name":"Android 21 Wig & Glasses","source_layers":["online_raid"],"reason":"Raid catalogue identifies the item as a combined accessory; exact canonical inventory naming needs reconciliation.","priority":"medium"},
+    {"name":"Hercule Wig 2","source_layers":["online_raid"],"reason":"Numbered variant must be kept separate from Hercule Wig until inventory identity is confirmed.","priority":"medium"},
+    {"name":"SSGSS Goku's Wig","source_layers":["crystal_raid"],"reason":"Separate from SSGSS Goku Wig PQ route unless inventory identity is confirmed identical.","priority":"high"},
+    {"name":"Turtle Hermit's Beard","source_layers":["crystal_raid"],"reason":"Accessory identity is documented but not yet represented in canonical reconciliation.","priority":"medium"}
+  ],
+  "rules": [
+    "Do not create a canonical identity merely because an item appears in a raid reward list.",
+    "Numbered variants remain separate until inventory-level evidence establishes equivalence.",
+    "Combined accessory names such as Android 21 Wig & Glasses require exact slot/name reconciliation.",
+    "Clothing and accessory records must never be merged from set-level terminology alone."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+    "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+  ]
+}
