@@ -23,7 +23,7 @@ Every EM record should capture, where evidence exists:
 
 ## Mission Index
 
-The current reference set enumerates **20 Expert Missions**, while older/base-game references sometimes use a narrower 17-mission scope. The wiki keeps scope explicit rather than silently mixing historical and current catalogs. citeturn0search0turn0search1
+The current reference set enumerates **20 Expert Missions**, while older/base-game references sometimes use a narrower 17-mission scope. The wiki keeps scope explicit rather than silently mixing historical and current catalogs.
 
 | EM | Title | Primary boss / encounter | Initial documented reward | Research state |
 |---:|---|---|---|---|
@@ -48,11 +48,11 @@ The current reference set enumerates **20 Expert Missions**, while older/base-ga
 | 19 | A Truly Hellish Transformation | Supervillain Janemba | 35,000 Zeni; 18 TP Medals; Tail Slicer | indexed |
 | 20 | Harbinger of Doom | Android 13 / Dabura / Majin Buu (Gohan Absorbed) / Fused Zamasu | 35,000 Zeni; 20 TP Medals; Data Input | indexed |
 
-The reward column is an **indexing layer**, not a claim that every listed item is guaranteed on every clear. Exact guaranteed, first-clear, repeat, RNG, and version-dependent rewards will be separated in the individual records. Current references also disagree on some reward values/names, so conflicting evidence remains visible rather than being normalized into false certainty. citeturn0search0turn0search2
+The reward column is an **indexing layer**, not a claim that every listed item is guaranteed on every clear. Exact guaranteed, first-clear, repeat, RNG, and version-dependent rewards will be separated in the individual records. Current references also disagree on some reward values/names, so conflicting evidence remains visible rather than being normalized into false certainty.
 
 ## Unlock and Progression
 
-Expert Missions begin after the relevant Cell portion of story progression. The Supreme Kai of Time introduces the first two tutorial missions, after which additional missions become available through progression. After the early sequence, cleared missions can be consolidated into a replay hub near the Time Machine Station. citeturn0search0turn0search1
+Expert Missions begin after the relevant Cell portion of story progression. The Supreme Kai of Time introduces the first two tutorial missions, after which additional missions become available through progression. After the early sequence, cleared missions can be consolidated into a replay hub near the Time Machine Station.
 
 Each individual record will preserve the exact unlock condition, location, and replay route instead of reducing the progression system to a single sentence.
 
@@ -68,7 +68,7 @@ Scatter-style attacks create hazardous Ki objects that can punish teams that ign
 
 ### Gigantic Ki Blast
 
-Some bosses launch a giant Ki projectile requiring a dedicated interception/deflection interaction. Photon Swipe and other defensive interactions are reported in community and guide sources; the encyclopedia should document the actual interaction and viable alternatives per mission rather than turning a community recommendation into a mandatory rule. citeturn0search1
+Some bosses launch a giant Ki projectile requiring a dedicated interception/deflection interaction. Photon Swipe and other defensive interactions are reported in community and guide sources; the encyclopedia should document the actual interaction and viable alternatives per mission rather than turning a community recommendation into a mandatory rule.
 
 ### Peeler Storm
 
@@ -80,9 +80,9 @@ Marbling Drop uses tracking projectiles. Each affected mission should document i
 
 ## Offline vs Online
 
-Expert Missions support solo/offline play with CPU allies as well as multiplayer sessions. Sources also document up to six players. Offline and online behavior should be recorded separately because practical strategy, boss health behavior, ally behavior, and clear timing can differ. citeturn0search0turn0search1
+Expert Missions support solo/offline play with CPU allies as well as multiplayer sessions. Sources also document up to six players. Offline and online behavior should be recorded separately because practical strategy, boss health behavior, ally behavior, and clear timing can differ.
 
-Battle-item restrictions also belong in the mission records; current reference material reports that Capsules/Battle Items are unavailable in ordinary Expert Missions, with an exception for the first two tutorial missions. citeturn0search0
+Battle-item restrictions also belong in the mission records; current reference material reports that Capsules/Battle Items are unavailable in ordinary Expert Missions, with an exception for the first two tutorial missions.
 
 ## Reward Economy
 
@@ -96,7 +96,7 @@ Battle-item restrictions also belong in the mission records; current reference m
 | First-clear rewards | One-time rewards and permanent unlocks |
 | Repeat rewards | Repeatable currencies/items/drops |
 
-EM 16 and EM 17 are repeatedly documented as 16-TP-Medal missions, while EM 18 and EM 19 are documented at 18 medals and EM 20 at 20 medals in current references. These figures are being treated as canonical reward fields only after mission-specific verification, not as a generalized farming ranking. citeturn0search0turn0search3
+EM 16 and EM 17 are repeatedly documented as 16-TP-Medal missions, while EM 18 and EM 19 are documented at 18 medals and EM 20 at 20 medals in current references. These figures are being treated as canonical reward fields only after mission-specific verification, not as a generalized farming ranking.
 
 ## Mission Research Priorities
 
@@ -109,7 +109,7 @@ The first detailed pass will prioritize missions with the most cross-system valu
 5. **EM 20 — Harbinger of Doom:** multi-boss behavior, Peeler Storm, reward layers, and Data Input acquisition.
 6. **EM 01–15:** complete the historical progression, exact locations, rewards, mechanics, and drop provenance.
 
-EM 16 has independent older documentation describing a five-minute timer and periodic health regeneration, while EM 17 has documentation describing a short starting timer extended by damage thresholds. These are preserved as research leads until reconciled against current mission behavior. citeturn0search9turn0search4
+EM 16 has independent older documentation describing a five-minute timer and periodic health regeneration, while EM 17 has documentation describing a short starting timer extended by damage thresholds. These are preserved as research leads until reconciled against current mission behavior.
 
 ## Cross-System Relationships
 
