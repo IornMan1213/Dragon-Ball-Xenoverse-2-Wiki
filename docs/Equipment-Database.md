@@ -51,7 +51,7 @@ A missing value means **not yet established**, not zero.
 
 The database must not collapse an equipment item's native stat contribution into the QQ Bang system. QQ Bang research belongs in [`QQ-Bang-Database`](QQ-Bang-Database.md), where the recipe, mixing item, observed six-stat result, and RNG uncertainty are tracked separately.
 
-Current research sources describe QQ Bangs as replacing the combined clothing stat contribution, which is why optimized builds can use clothing primarily for appearance after a suitable QQ Bang is equipped. citeturn0search1
+Current research describes QQ Bangs as replacing the combined clothing stat contribution, which is why builds can use clothing primarily for appearance after a suitable QQ Bang is equipped.
 
 ## Acquisition taxonomy
 
@@ -115,7 +115,7 @@ The current structured QQ Bang layer already establishes the synthesis system, S
 
 ## Provenance standard
 
-Official publisher/platform DLC listings establish DLC content ownership and content categories; they do not by themselves establish every individual item's in-game unlock route. For example, official Future Saga Chapter 4 documentation identifies two playable characters, one Extra Mission, two Parallel Quests, four moves including an Awoken Skill, six costumes/accessories, four Super Souls, a stage, and the Gallery of Time feature. Individual item records should therefore retain their specific acquisition evidence separately. citeturn0search3turn0search5
+Official publisher/platform DLC listings establish DLC content ownership and content categories; they do not by themselves establish every individual item's in-game unlock route. For example, official Future Saga Chapter 4 documentation identifies two playable characters, one Extra Mission, two Parallel Quests, four moves including an Awoken Skill, six costumes/accessories, four Super Souls, a stage, and the Gallery of Time feature. Individual item records should therefore retain their specific acquisition evidence separately.
 
 ## Verification states
 
