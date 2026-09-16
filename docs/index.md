@@ -7,7 +7,7 @@ title: Dragon Ball Xenoverse 2 Wiki
   <div>
     <p class="eyebrow">COMMUNITY DATABASE • GUIDES • BUILDS • UNLOCKS</p>
     <h1>Master <span>Conton City.</span></h1>
-    <p class="lead">A practical Dragon Ball Xenoverse 2 reference for finding what you need fast — from skill unlocks and builds to quests, farming routes, mentors, Awoken Skills, DLC, characters, mechanics, and the deep details behind them.</p>
+    <p class="lead">A practical Dragon Ball Xenoverse 2 reference for finding what you need fast — from skill unlocks and builds to quests, farming routes, mentors, Awoken Skills, DLC, characters, equipment, mechanics, and the deep details behind them.</p>
     <div class="hero-actions">
       <a class="button primary" href="{{ '/Search/' | relative_url }}">Search Everything</a>
       <a class="button ghost" href="{{ '/Guides/' | relative_url }}">Start with the Guides</a>
@@ -25,7 +25,7 @@ title: Dragon Ball Xenoverse 2 Wiki
   <div>
     <p class="eyebrow">SEARCH THE WHOLE WIKI</p>
     <h2>Don't know where it lives?</h2>
-    <p>Search a character, skill, quest number, reward, mechanic, DLC name, or ordinary gameplay term. The search is designed to find pages that actually discuss your term.</p>
+    <p>Search a character, skill, quest number, reward, mechanic, DLC name, equipment piece, or ordinary gameplay term. The search is designed to find pages that actually discuss your term.</p>
   </div>
   <a class="button primary" href="{{ '/Search/' | relative_url }}">Open Full Search →</a>
 </section>
@@ -50,8 +50,9 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="pulse-card" href="{{ '/Parallel-Quests-All/' | relative_url }}"><strong>186</strong><span>numbered Parallel Quests tracked</span><small>Includes Future Saga Chapter 4</small></a>
     <a class="pulse-card" href="{{ '/Awoken-All/' | relative_url }}"><strong>18</strong><span>Awoken/Transformation targets</span><small>CaC and character-only states are separated</small></a>
     <a class="pulse-card" href="{{ '/Mentors/' | relative_url }}"><strong>33+</strong><span>mentor records in the research layer</span><small>Unlocks and progression continue to be reconciled</small></a>
-    <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>18</strong><span>Super Soul records populated</span><small>Two research batches — acquisition and effect fields remain independently verifiable</small></a>
+    <a class="pulse-card" href="{{ '/Super-Souls-Database/' | relative_url }}"><strong>18</strong><span>Super Soul records populated</span><small>Acquisition and effect fields remain independently verifiable</small></a>
     <a class="pulse-card" href="{{ '/QQ-Bang-Database/' | relative_url }}"><strong>QQ</strong><span>QQ Bang research layer</span><small>Synthesis system, six-stat schema, Super Mix Capsule Z, and recipe provenance</small></a>
+    <a class="pulse-card" href="{{ '/Equipment-Database/' | relative_url }}"><strong>NEW</strong><span>Equipment research track</span><small>Individual gear, clothing, accessories, acquisition, stats, and version provenance</small></a>
   </div>
 </section>
 
@@ -73,9 +74,9 @@ title: Dragon Ball Xenoverse 2 Wiki
     <p>This wiki is being built as a reference encyclopedia, not a short guide. Each system is organized around the details players actually need: identity, acquisition, requirements, costs, mechanics, restrictions, relationships, exceptions, and provenance.</p>
   </div>
   <div class="scope-grid">
-    <div><strong>01</strong><b>Catalog everything</b><span>Skills, quests, characters, transformations, mentors, items, systems, DLC, events, and obscure mechanics all have a place.</span></div>
+    <div><strong>01</strong><b>Catalog everything</b><span>Skills, quests, characters, transformations, mentors, equipment, items, systems, DLC, events, and obscure mechanics all have a place.</span></div>
     <div><strong>02</strong><b>Separate facts from uncertainty</b><span>Verified, partially verified, and indexed information stay visibly distinct so missing evidence is never disguised as certainty.</span></div>
-    <div><strong>03</strong><b>Cross-link the details</b><span>Unlocks, rewards, characters, skills, quests, shops, DLC, and mechanics should connect instead of becoming isolated lists.</span></div>
+    <div><strong>03</strong><b>Cross-link the details</b><span>Unlocks, rewards, characters, skills, quests, shops, DLC, equipment, and mechanics should connect instead of becoming isolated lists.</span></div>
     <div><strong>04</strong><b>Write for search</b><span>Pages are written so ordinary gameplay questions can lead to the underlying technical or historical detail.</span></div>
   </div>
 </section>
@@ -89,6 +90,7 @@ title: Dragon Ball Xenoverse 2 Wiki
     <a class="card" href="{{ '/Expert-Missions/' | relative_url }}"><span class="tag">SYSTEMS</span><h3>Expert Missions</h3><p>Boss mechanics, special attacks, mission progression, reward economy, and research status.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Super-Souls-Database/' | relative_url }}"><span class="tag">EQUIPMENT</span><h3>Super Soul Database</h3><p>Search the growing structured catalogue of triggers, effects, Limit Bursts, and acquisition routes.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/QQ-Bang-Database/' | relative_url }}"><span class="tag">BUILDS</span><h3>QQ Bang Database</h3><p>Six-stat schema, synthesis workflow, recipe provenance, six-star research, and build tags.</p><span class="arrow">→</span></a>
+    <a class="card" href="{{ '/Equipment-Database/' | relative_url }}"><span class="tag">EQUIPMENT</span><h3>Equipment Database</h3><p>Clothing, accessories, native stat modifiers, acquisition routes, DLC provenance, and version history.</p><span class="arrow">→</span></a>
     <a class="card" href="{{ '/Characters/' | relative_url }}"><span class="tag">ROSTER</span><h3>Character Encyclopedia</h3><p>Forms, presets, unlock routes, DLC provenance, skills, and customization relationships.</p><span class="arrow">→</span></a>
   </div>
 </section>
@@ -98,6 +100,7 @@ title: Dragon Ball Xenoverse 2 Wiki
   <div class="link-grid">
     <a href="{{ '/Characters/' | relative_url }}">Characters <span>→</span></a>
     <a href="{{ '/Mentors/' | relative_url }}">Mentors <span>→</span></a>
+    <a href="{{ '/Equipment-Database/' | relative_url }}">Equipment <span>→</span></a>
     <a href="{{ '/QQ-Bangs/' | relative_url }}">QQ Bangs <span>→</span></a>
     <a href="{{ '/Super-Souls-Database/' | relative_url }}">Super Souls <span>→</span></a>
     <a href="{{ '/Skill-Unlock-Methods/' | relative_url }}">Skill Unlocks <span>→</span></a>
