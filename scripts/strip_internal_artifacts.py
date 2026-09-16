@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
-"""Remove ChatGPT-internal citation artifacts accidentally committed to the repo."""
+"""Remove ChatGPT-internal citation/export artifacts accidentally committed to the repo."""
 
 from __future__ import annotations
 
 import re
 from pathlib import Path
 
-# Construct marker strings at runtime so this utility cannot trip the repository scanner.
 OPEN = chr(0xE000)
-MID = chr(0xE002)
 CLOSE = chr(0xE001)
-FILE_CITE = "file" + "cite"
-MEM_CITE = "mem" + "cite"
-TURN_10_FILE = "turn" + "10" + "file"
-TURN_11_FILE = "turn" + "11" + "file"
 
 TEXT_SUFFIXES = {
     ".md", ".markdown", ".html", ".htm", ".css", ".scss", ".js", ".ts",
@@ -22,15 +16,18 @@ TEXT_SUFFIXES = {
 SELF = Path(__file__).resolve()
 SKIP_DIRS = {".git"}
 
-# Remove complete internal citation spans, then any leftover bare internal reference tokens.
-FILE_CITE_RE = re.compile(re.escape(OPEN) + re.escape(FILE_CITE) + re.escape(MID) + r"[^" + re.escape(CLOSE) + r"]*" + re.escape(CLOSE))
-MEM_CITE_RE = re.compile(re.escape(OPEN) + re.escape(MEM_CITE) + re.escape(CLOSE))
+# Content-reference spans are internal UI/export markup and must never be committed.
+PUA_SPAN_RE = re.compile(re.escape(OPEN) + r"[^" + re.escape(CLOSE) + r"]*" + re.escape(CLOSE))
+# Remove bare tool-result identifiers left behind after a citation span was stripped.
+TURN_REF_RE = re.compile(
+    r"\bturn(?:\d+|X)(?:search|file|image|youtube|news|product|business)\d*\b",
+    re.IGNORECASE,
+)
 
 
 def clean(text: str) -> str:
-    text = FILE_CITE_RE.sub("", text)
-    text = MEM_CITE_RE.sub("", text)
-    text = text.replace(TURN_10_FILE, "").replace(TURN_11_FILE, "")
+    text = PUA_SPAN_RE.sub("", text)
+    text = TURN_REF_RE.sub("", text)
     return text
 
 
