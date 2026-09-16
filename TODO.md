@@ -21,13 +21,18 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Added the internal-artifact cleanup script and cleanup workflow.
 - [x] Reworked the skills-sync workflow to use the external research corpus, validation, and PR-based synchronization.
 - [x] Established the canonical skills schema and verification states: `indexed`, `partially_verified`, `verified`.
-- [x] Added skill research batches 01–13.
+- [x] Added skill research batches 01–14.
 - [x] Completed duplicate checks before the recent skill batches.
 - [x] Audited Skill Research Batch 13 against the external datamined corpus and independent references.
 - [x] Promoted Batch 13 records with corroborated core facts: All Clear, Angry Hit, Burst Blitz.
 - [x] Kept Angry Explosion and Angry Shout `partially_verified` because some current reward/damage details still lack independent reconciliation.
-- [x] Updated Batch 13 provenance and verification notes in `docs/data/skill-research-batches/skill-batch-13.json`.
-- [x] Updated `CHANGELOG.md` to track the current expansion/verification work.
+- [x] Audited Skill Research Batch 10 against independent references; core facts were reconfirmed while unresolved CaC/version-sensitive fields remained partial.
+- [x] Added Batch 14 with Afterimage, Aura Slide, Big Bang Knuckle, Burning Attack, and Super Afterimage.
+- [x] Promoted Batch 14 core records with corroborated identity/acquisition/mechanics: Aura Slide, Big Bang Knuckle, Burning Attack.
+- [x] Kept Afterimage and Super Afterimage `partially_verified` where acquisition or technical interactions still need stronger reconciliation.
+- [x] Added a new homepage research-standard section explaining exhaustive coverage, evidence states, cross-linking, and search-oriented organization.
+- [x] Updated homepage CSS for the new research-standard panel with responsive cards.
+- [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
 
 ## In Progress
 
@@ -42,8 +47,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Diagnose the cleanup workflow failure; the connector currently exposes failed jobs without usable step logs, so the failure cause is not yet established.
 - [ ] Recheck native GitHub Pages deployment status after repository changes; do not mark it successful until an actual successful run is observable.
 - [ ] Run/strengthen data audits for duplicate names, invalid enums, missing sources, contradictory CaC/race metadata, and incomplete acquisition fields.
-- [ ] Beautify and improve the GitHub Pages website continuously, not as a deferred final phase: homepage, navigation, search/explorer UI, responsive layout, data cards, typography, accessibility, empty/error states, and visual consistency.
-- [ ] Each working cycle must include at least one concrete website improvement when it can be safely made without disrupting data integrity.
+- [ ] Continue improving the GitHub Pages website: navigation, search/explorer UI, responsive layout, data cards, typography, accessibility, empty/error states, and visual consistency.
 - [ ] Keep the exhaustive-coverage standard active across every content area; do not narrow the project to skills/PQs merely because those are the current research batches.
 
 ## Productivity / Delivery Strategy

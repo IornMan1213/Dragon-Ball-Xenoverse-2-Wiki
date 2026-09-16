@@ -4,6 +4,12 @@
   "research_status": "enriched",
   "last_verified": "2026-09-16",
   "verification_policy": "These records are sourced from the structured research corpus and remain partially_verified until acquisition, mechanics, and CaC availability are independently reconciled against canonical in-game evidence.",
+  "verification_audit": {
+    "audited": "2026-09-16",
+    "method": "Rechecked the three records against the Madreag corpus and independent Xenoverse 2 reference pages. Big Bang Attack and Big Bang Kamehameha have corroborated core identity, cost, and shop/acquisition information; Backflip has corroborated identity and zero-cost movement behavior. All remain partially_verified because CaC availability and some version-sensitive mechanics are not independently reconciled to sufficient canonical evidence.",
+    "core_facts_reconfirmed": ["Backflip", "Big Bang Attack", "Big Bang Kamehameha"],
+    "promotion_changes": []
+  },
   "records": [
     {
       "name": "Backflip",
@@ -67,8 +73,8 @@
       "source_quest_or_shop": "TP Medal Shop Limited-Time",
       "ultimate_finish_required": false,
       "skill_description": "A chargeable tracking Ki Wave that requires sufficient charge before it fires.",
-      "mechanics_notes": "The source reports a minimum charge requirement, with an undercharged attempt fizzling and refunding Ki. Community measurements in the corpus report approximately 20% at minimum viable charge and 30% at maximum charge, with the charging orb providing attack absorption; exact current scaling remains partially verified.",
-      "combo_notes": "Best used after stun, knockdown, or stamina-break setups that give enough time to charge; the fizzle behavior can also serve as a cancel or feint.",
+      "mechanics_notes": "The source reports a minimum charge requirement, with an undercharged attempt doing nothing and preserving the resource. Community measurements in the corpus report approximately 20% at minimum viable charge and 30% at maximum charge, with the charging orb providing attack absorption; exact current scaling remains partially verified.",
+      "combo_notes": "Best used after stun, knockdown, or stamina-break setups that give enough time to charge; the undercharge behavior can also function as a resource-safe feint.",
       "pve_notes": "High damage for a 100-Ki slot when enemies are controlled, with tracking and charge-based scaling useful against stationary or stunned targets.",
       "pvp_notes": "Strong when the opponent cannot interrupt the charge, but open-neutral use exposes the startup and gives mobile opponents counterplay.",
       "verification_status": "partially_verified",

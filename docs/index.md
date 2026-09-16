@@ -51,6 +51,20 @@ title: Dragon Ball Xenoverse 2 Wiki
   </div>
 </section>
 
+<section class="scope-panel" aria-label="Research standard">
+  <div class="scope-intro">
+    <p class="eyebrow">THE RESEARCH STANDARD</p>
+    <h2>Exhaustive without becoming unreliable.</h2>
+    <p>This wiki is being built as a reference encyclopedia, not a short guide. Each system is organized around the details players actually need: identity, acquisition, requirements, costs, mechanics, restrictions, relationships, exceptions, and provenance.</p>
+  </div>
+  <div class="scope-grid">
+    <div><strong>01</strong><b>Catalog everything</b><span>Skills, quests, characters, transformations, mentors, items, systems, DLC, events, and obscure mechanics all have a place.</span></div>
+    <div><strong>02</strong><b>Separate facts from uncertainty</b><span>Verified, partially verified, and indexed information stay visibly distinct so missing evidence is never disguised as certainty.</span></div>
+    <div><strong>03</strong><b>Cross-link the details</b><span>Unlocks, rewards, characters, skills, quests, shops, DLC, and mechanics should connect instead of becoming isolated lists.</span></div>
+    <div><strong>04</strong><b>Write for search</b><span>Pages are written so ordinary gameplay questions can lead to the underlying technical or historical detail.</span></div>
+  </div>
+</section>
+
 <section class="section">
   <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2>Popular destinations</h2></div></div>
   <div class="cards">
