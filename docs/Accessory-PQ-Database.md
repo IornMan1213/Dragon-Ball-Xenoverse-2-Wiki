@@ -21,7 +21,7 @@ The Parallel Quest accessory research layer connects individual accessories to t
 
 ## Current research population
 
-The machine-readable layer now contains **32 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
+The machine-readable layer now contains **41 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
 
 | Accessory / research item | PQ | State |
 |---|---:|---|
@@ -54,15 +54,30 @@ The machine-readable layer now contains **32 accessory/PQ research records**. So
 | Kale accessory lead | 148 | Indexed |
 | Android 17 (DB Super) Ranger accessory/equipment lead | 152 | Indexed |
 | Android 15's Sunglasses | — | Indexed; no PQ route established |
+| Dr. Hedo Hood | 159 | Partially verified |
 | Red Ribbon Army Helmet | 160 | Partially verified |
 | Gohan (Beast) Wig | 162 | Partially verified |
 | Videl (DB Super) Wig | 168 | Partially verified |
+| SS4 Goku (DAIMA) Wig & Tail | 179 | Indexed |
+| SS3 Vegeta (DAIMA) Wig | 180 | Indexed |
+| Glorio Wig | 181 | Indexed |
+| Panzy Wig | 181 | Indexed |
+| Golden Frieza Head | 182 | Indexed |
+| Broly Wig (Black Hair, Normal) | 183 | Indexed |
+| Dragon Ball Balloon | 184 | Indexed |
+| Goku (Ultra Supervillain Quelled) Wig | 185 | Indexed |
 
-## New DLC-era coverage
+## Hero of Justice coverage
 
-The Hero of Justice PQ research provides direct reward listings for several accessories. PQ160, **Pan in Peril**, lists the Red Ribbon Army Helmet; PQ162, **The Man, the Myth, the Yamcha**, lists the Gohan (Beast) Wig; and PQ168, **Videl: Super Mom**, lists the Videl (DB Super) Wig. These are recorded as PQ associations, not assumed guaranteed drops, because a basic reward listing alone does not establish the underlying roll mechanics. citeturn0search1
+The current PQ guide lists Red Ribbon Army Helmet on PQ160, Gohan (Beast) Wig on PQ162, and Videl (DB Super) Wig on PQ168. The DLC index independently identifies the Hero of Justice accessory/clothing relationships, allowing these to remain tied to their specific quests rather than being flattened into a generic DLC acquisition label.
 
-The broader PQ documentation confirms that equipment can be obtained through different reward mechanisms, including opponent-linked drops and Ultimate Finish rolls. citeturn0search5
+The database records these as PQ associations rather than guaranteed drops. A basic reward listing does not by itself establish whether an item is a scripted reward, opponent-linked roll, first-clear reward, or Ultimate Finish roll.
+
+## DAIMA and later DLC coverage
+
+The later PQ guide provides accessory/equipment research leads for PQ179–185, including SS4 Goku (DAIMA) Wig & Tail, SS3 Vegeta (DAIMA) Wig, Glorio Wig, Panzy Wig, Golden Frieza Head, Broly Wig (Black Hair, Normal), Dragon Ball Balloon, and Goku (Ultra Supervillain Quelled) Wig. These remain `indexed` until the exact inventory component and reward mechanism are independently reconciled.
+
+This is intentional: a research lead is useful, but it is not the same thing as a verified acquisition condition.
 
 ## High-confidence example: PQ110
 
@@ -137,7 +152,6 @@ Related research:
 
 - https://steamcommunity.com/sharedfiles/filedetails/?id=796204215
 - https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
-- https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-110.md
 - https://dbxv2.fandom.com/wiki/Equipment
 - https://dbxv2.fandom.com/wiki/Parallel_Quests
 - https://dbxv2.fandom.com/wiki/DLC
@@ -145,4 +159,4 @@ Related research:
 
 ## Research status
 
-**Partially verified.** The database now covers accessory/PQ relationships from the early base-game quests through selected DLC-era quests, while preserving uncertainty around reward-slot mechanics. Further passes should continue through the remaining PQs and reconcile every relationship against the canonical accessory inventory.
+**Partially verified.** The database now spans early base-game accessory relationships through later DLC research leads, while preserving the distinction between a documented association and a verified reward condition. The next pass should reconcile the indexed late-DLC records against the canonical accessory inventory and continue filling the remaining PQ range.
