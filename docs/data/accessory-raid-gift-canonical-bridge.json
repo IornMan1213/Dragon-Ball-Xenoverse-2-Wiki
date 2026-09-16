@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "accessory_raid_gift_canonical_bridge",
+  "purpose": "Explicit bridge from raid, Crystal Raid, and mentor-gift research records to canonical accessory identities without duplicating inventory items.",
+  "verification_policy": {
+    "partially_verified": "Route and identity are supported, but historical availability, reward thresholds, or alternate-route details remain unresolved."
+  },
+  "records": [
+    {"source_id":"raidgift-001","name":"Fused Zamasu Wig","canonical_id":"accr-004","status":"partially_verified","route_refs":["Demented Deity","Crystal Raid Battle"]},
+    {"source_id":"raidgift-002","name":"Super Saiyan Rosé Wig","canonical_id":"accr-001","status":"partially_verified","route_refs":["Zero Mortal Plan","Crystal Raid Battle","Goku mentor gift"]},
+    {"source_id":"raidgift-003","name":"Golden Scouter","canonical_id":"accr-002","status":"partially_verified","route_refs":["Online Raid","Crystal Raid Battle","Nappa mentor gift","Vegeta gift route reported"]},
+    {"source_id":"raidgift-004","name":"Golden Great Ape Hat & Tail","canonical_id":"accr-003","status":"partially_verified","route_refs":["Online Raid","Crystal Raid Battle","Gohan (Kid) mentor gift"]},
+    {"source_id":"raidgift-005","name":"Tapion Wig","canonical_id":null,"status":"unmatched_existing_canonical_candidate","route_refs":["Time Patroller Takedown","Legendary Hero of Planet Konats","ranked event reported"],"note":"No existing canonical Tapion Wig identity in the current canonical file; do not merge with Tapion's Sword."},
+    {"source_id":"raidgift-006","name":"Cheelai Wig","canonical_id":null,"status":"new_identity_candidate","route_refs":["Time Patroller Takedown"]},
+    {"source_id":"raidgift-007","name":"Tights Hat","canonical_id":null,"status":"new_identity_candidate","route_refs":["Crystal Raid Battle"]},
+    {"source_id":"raidgift-008","name":"Universe 6 S. Kai's Helper's Hat","canonical_id":null,"status":"new_identity_candidate","route_refs":["Crystal Raid Battle"]},
+    {"source_id":"raidgift-009","name":"Lord Zuno's Topknot Wig","canonical_id":null,"status":"new_identity_candidate","route_refs":["Crystal Raid Battle"]},
+    {"source_id":"raidgift-010","name":"Janemba's Sword","canonical_id":"accr-007","status":"partially_verified","route_refs":["Crystal Raid Battle"]},
+    {"source_id":"raidgift-011","name":"Frieza's Head (Final Form)","canonical_id":"accr-005","status":"partially_verified","route_refs":["Crystal Raid Battle","Time Patrol Support Pack"]},
+    {"source_id":"raidgift-012","name":"Golden Turtle Hermit's Shell","canonical_id":null,"status":"new_identity_candidate","route_refs":["Fused Zamasu raid reward family","Crystal Raid Battle"],"note":"Accessory kept separate from Golden Turtle Hermit Gi clothing."},
+    {"source_id":"raidgift-013","name":"Golden Great Ape Set","canonical_id":"accr-003","status":"route_family_only","route_refs":["Gohan (Kid) gift route"],"note":"Set terminology is not treated as proof that every component is the same inventory item."},
+    {"source_id":"raidgift-014","name":"Golden Scouter","canonical_id":"accr-002","status":"partially_verified","route_refs":["Nappa mentor gift","Online Raid Quest","Crystal Raid Battle"]},
+    {"source_id":"raidgift-015","name":"Super Saiyan Rosé Wig","canonical_id":"accr-001","status":"partially_verified","route_refs":["Goku mentor gift","Zero Mortal Plan raid","Crystal Raid Battle"]},
+    {"source_id":"raidgift-016","name":"Golden Great Ape Hat & Tail","canonical_id":"accr-003","status":"partially_verified","route_refs":["Gohan (Kid) mentor gift","Great Ape Baby raid","Crystal Raid Battle"]}
+  ],
+  "unmatched_candidates": ["Tapion Wig","Cheelai Wig","Tights Hat","Universe 6 S. Kai's Helper's Hat","Lord Zuno's Topknot Wig","Golden Turtle Hermit's Shell"],
+  "rules": [
+    "Duplicate route records are expected when one canonical accessory is obtainable through multiple systems.",
+    "Online Raid and Crystal Raid remain distinct route types even when the reward item is identical.",
+    "Mentor gifts are acquisition routes, not new canonical identities.",
+    "Set terminology never automatically creates or merges individual accessory identities.",
+    "Historical raid availability is not represented as permanent current availability."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+    "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle",
+    "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-contents-of-the-4th-year-anniversary-event",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76445309"
+  ]
+}
