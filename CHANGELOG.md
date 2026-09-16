@@ -50,5 +50,8 @@
 - Expanded `docs/Equipment-Database.md` with catalog coverage rules and explicit indexed-vs-verified guidance.
 - Kept external research claims out of repository prose as internal tool citation artifacts; repository source references remain ordinary source URLs where applicable.
 - Current Equipment research remains an active population track; no claim is made that every clothing piece, accessory, or equipment stat record has been populated or verified.
+- Added `scripts/audit_accessories.mjs` to cross-check accessory identity records across the canonical, PQ, shop, raid/gift, wish/special, and canonicalization layers.
+- Extended the structured-data GitHub Actions audit to execute the accessory cross-layer audit alongside the existing wiki-data audit.
+- The accessory audit intentionally treats alternate acquisition routes as warnings/cross-layer matches rather than duplicate canonical items, while flagging duplicate IDs, malformed statuses, invalid PQ ranges, and obvious clothing-to-accessory contamination as failures.
 
 Continuing modular improvements.
