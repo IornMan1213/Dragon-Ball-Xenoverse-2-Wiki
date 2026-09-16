@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "record_type": "accessory_shop_research",
   "purpose": "Evidence-backed inventory layer for accessories reported through the Conton City Accessory Shop. Prices are historical observations unless independently reconciled with the current game version.",
   "verification_policy": {
@@ -58,14 +58,13 @@
     {"id":"shop-048","name":"Royal Army Hat","category":"headwear","price_zeni":1000,"acquisition":"Accessory Shop","status":"partially_verified"},
     {"id":"shop-049","name":"Baby Trunks's Hat","category":"headwear","price_zeni":4000,"acquisition":"Accessory Shop","status":"partially_verified"},
     {"id":"shop-050","name":"Glasses (Gohan) #2","category":"eyewear","price_zeni":5000,"acquisition":"Accessory Shop","status":"partially_verified"},
-    {"id":"shop-051","name":"Yajirobe Wig","category":"wig","price_zeni":5000,"acquisition":"Accessory Shop","status":"partially_verified"},
-    {"id":"shop-052","name":"Chiaotzu Wig","category":"wig","price_zeni":4000,"acquisition":"Accessory Shop","status":"partially_verified"},
     {"id":"shop-053","name":"Bansho Fan","category":"weapon-like cosmetic","price_zeni":null,"acquisition":"Accessory Shop / TP Medal Shop reported","status":"partially_verified"}
   ],
   "source_notes": [
     "Current and historical equipment indexes agree that the Accessory Shop contains a large base accessory inventory, including scouter families and character headwear.",
     "Historical prices are retained as observations and must not be interpreted as guaranteed current prices without version reconciliation.",
-    "Duplicate names or alternate acquisition routes are intentionally preserved for later reconciliation."
+    "Duplicate records have been removed; alternate acquisition routes remain preserved on the surviving canonical record.",
+    "TP/STP Medal Shop-only accessories are deliberately kept in the separate medal-shop research layer rather than being misclassified as Accessory Shop inventory."
   ],
   "sources": [
     "https://dbxv2.fandom.com/wiki/Equipment",
