@@ -24,10 +24,7 @@
       "pve_notes": "The anti-blast approach and charged guard break can be useful against defensive or beam-using AI, while the high Ki cost rewards deliberate setup.",
       "pvp_notes": "The charged guard-break and anti-blast properties create pressure, but long startup and whiff punishment remain important counterplay considerations.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/apocalyptic-burst.md",
-        "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/apocalyptic-burst.md", "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst"]
     },
     {
       "name": "Appetizing Rush",
@@ -48,10 +45,7 @@
       "pve_notes": "Available as part of Android 21's roster kit and useful as a close-range Ultimate when the character has a safe confirm.",
       "pvp_notes": "The teleport entry changes the defender's facing and can beat passive blocking, but the initial approach still requires a valid opening.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/appetizing-rush.md",
-        "https://dbxv2.fandom.com/wiki/Appetizing_Rush"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/appetizing-rush.md", "https://dbxv2.fandom.com/wiki/Appetizing_Rush"]
     },
     {
       "name": "Assault Rain",
@@ -72,10 +66,7 @@
       "pve_notes": "The area coverage can pressure groups of AI enemies and protect recovery windows, although its raw damage is comparatively modest.",
       "pvp_notes": "Can function as area denial and pressure against approaches, but mobile opponents can avoid the rain and the activation requires appropriate setup.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xxenoverse_2_wiki/blob/main/content/skills/assault-rain.md",
-        "https://dbxv2.fandom.com/wiki/Assault_Rain"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/assault-rain.md", "https://dbxv2.fandom.com/wiki/Assault_Rain"]
     },
     {
       "name": "Assault Vanish",
@@ -96,10 +87,7 @@
       "pve_notes": "Provides movement and repositioning utility, though its resource cost competes with direct damage Supers in PvE.",
       "pvp_notes": "The tap-versus-hold ambiguity can create movement and feint options, while the mixed Ki/stamina cost makes resource management important.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/assault-vanish.md",
-        "https://dbxv2.fandom.com/wiki/Assault_Vanish"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/assault-vanish.md", "https://dbxv2.fandom.com/wiki/Assault_Vanish"]
     },
     {
       "name": "Atomic Blast",
@@ -120,10 +108,7 @@
       "pve_notes": "Provides a low-cost ranged option with timing-based damage optimization, especially when enemies are held in place.",
       "pvp_notes": "The timing and grounded bonuses reward deliberate use, but the directional projectile is not treated as homing and exact current tracking behavior is not verified.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/atomic-blast.md",
-        "https://dbxv2.fandom.com/wiki/Atomic_Blast"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/atomic-blast.md", "https://dbxv2.fandom.com/wiki/Atomic_Blast"]
     }
   ]
 }
