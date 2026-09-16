@@ -53,6 +53,17 @@ title: Dragon Ball Xenoverse 2 Wiki
   </div>
 </section>
 
+<section class="em-pulse" aria-label="Expert Mission database status">
+  <a class="em-pulse-card" href="{{ '/Expert-Missions/' | relative_url }}">
+    <div>
+      <p class="eyebrow">NEW RESEARCH TRACK</p>
+      <h3>Expert Missions are now indexed as a full system</h3>
+      <p>Browse the current 20-mission catalog, boss encounters, reward layers, TP Medal economy, special mechanics, and the verification roadmap.</p>
+    </div>
+    <div class="em-count"><strong>20</strong><span>missions indexed</span></div>
+  </a>
+</section>
+
 <section class="scope-panel" aria-label="Research standard">
   <div class="scope-intro">
     <p class="eyebrow">THE RESEARCH STANDARD</p>
