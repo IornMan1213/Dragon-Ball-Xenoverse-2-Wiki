@@ -39,6 +39,9 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Added the first individual Expert Mission research layer for EM16–20, including structured identity, rewards, mechanics, strategy evidence, unknowns, and verification status.
 - [x] Linked the EM16–20 individual records from the Expert Mission system index.
 - [x] Added the first 10 Super Soul records to the canonical machine-readable research layer.
+- [x] Added Super Soul research batch 2, bringing the canonical catalogue to 18 populated records.
+- [x] Cleaned internal citation artifacts from `docs/Super-Souls-Database.md` and expanded its research/schema guidance.
+- [x] Updated the homepage to expose the 18-record Super Soul catalogue and added Super Souls to the main category navigation.
 - [x] Added a Super Soul database status card to the homepage.
 - [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
 
@@ -48,7 +51,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
 - [ ] Reconcile unresolved Skill fields against multiple independent sources before promoting records to `verified`.
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
-- [ ] Expand the Super Soul catalogue beyond the first 10 records; reconcile acquisition, triggers, effect magnitudes, durations, stacking, and Limit Burst behavior per soul.
+- [ ] Expand the Super Soul catalogue beyond the current 18 records; reconcile acquisition, triggers, effect magnitudes, durations, stacking, and Limit Burst behavior per soul.
 - [ ] Promote Super Soul records only after core identity, acquisition, effects, and key mechanics are independently reconciled.
 - [ ] Expand the EM16–20 records into full mechanic/phase/reward tables and promote only when independently reconciled.
 - [ ] Build individual EM01–15 records and reconcile the base-game vs later-content mission-count definitions.
