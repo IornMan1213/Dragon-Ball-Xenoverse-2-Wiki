@@ -28,13 +28,18 @@
 - Added an explicit **Exhaustive Game Encyclopedia** scope standard to `TODO.md`: the project is intended to document every documented detail of Xenoverse 2, with structured labels, provenance, uncertainty tracking, and distinctions such as CaC vs character-only, DLC ownership vs unlock method, normal vs Ultimate Finish rewards, and known exceptions.
 - Updated the delivery strategy so coverage of under-documented game systems remains active alongside skill/PQ research rather than allowing the current batch focus to narrow the wiki's scope.
 - Continued provenance-first research: unresolved values are kept explicitly uncertain instead of being invented or silently promoted.
-- Added the first **10 Super Soul canonical research records** to `docs/data/super-souls-record-layer.json`, covering identity, source character, acquisition, trigger/effect fields, Limit Burst data, CaC metadata, verification state, and provenance.
+- Added the first **10 Super Soul canonical research records** to `docs/data/super-souls-record-layer.json`.
 - Added **Super Soul research batch 2**, bringing the canonical structured catalogue to **18 populated records**.
-- Kept unresolved Super Soul acquisition/mechanics fields explicitly null or provisional rather than inferring missing values from neighboring records.
+- Kept unresolved Super Soul acquisition/mechanics fields explicitly null or provisional rather than inferring missing values.
 - Removed internal web-citation artifacts from `docs/Super-Souls-Database.md` and expanded the page's structured research guidance.
 - Updated the homepage Super Soul status card from 10 to **18 records** and added Super Souls to the main category navigation.
 - Added a dedicated Super Soul database destination to the homepage's popular-destination cards.
 - Updated `TODO.md` to track the 18-record baseline and the next Super Soul verification/population cycle.
-- Focus remains on original, practical, sourced, self-contained content to make the wiki as useful as possible.
+- Added a **machine-readable QQ Bang research layer** at `docs/data/qq-bangs-record-layer.json` covering the synthesis system, Super Mix Capsule Z research, and a Bardock/Beerus recipe family.
+- Expanded `docs/QQ-Bang-Database.md` with six-stat fields, synthesis workflow, recipe-vs-result provenance, six-star research rules, verification policy, and research gaps.
+- Expanded `docs/QQ-Bangs.md` into a practical guide and linked it to the structured QQ Bang database.
+- Removed internal web-tool citation artifacts from both QQ Bang pages.
+- Added QQ Bang research to the homepage database status and popular destinations.
+- Current QQ Bang research remains explicitly partial; recipes are not treated as deterministic and observed results remain separate from expected community results.
 
 Continuing modular improvements.
