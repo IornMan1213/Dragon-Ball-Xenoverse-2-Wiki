@@ -8,6 +8,7 @@ on:
       - "scripts/build_skills_from_research.py"
       - "scripts/apply_awoken_overrides.py"
       - "scripts/validate_skills.py"
+      - "scripts/validate_awoken_integrity.py"
       - "docs/data/skills.schema.json"
       - "docs/data/skill-research-batches/**"
       - "docs/data/awoken-research-batches/**"
@@ -53,6 +54,9 @@ jobs:
 
       - name: Validate canonical database
         run: python scripts/validate_skills.py
+
+      - name: Validate promoted Awoken integrity
+        run: python scripts/validate_awoken_integrity.py
 
       - name: Show generated data summary
         run: |
