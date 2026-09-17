@@ -1,0 +1,59 @@
+{
+  "batch_id": 24,
+  "created": "2026-09-17",
+  "verification_policy": "core_identity_acquisition_verified_with_unresolved_probability_fields",
+  "research_scope": "DLC Parallel Quest skills from PQ 101-110, screened against the canonical skill index and prior research batches. Non-skill rewards excluded.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "PQ numbering and reward identity reconciled against independent PQ reward references and the current DLC documentation. Exact drop probabilities were not inferred where sources did not establish them."
+  },
+  "duplicate_screening": {
+    "canonical_index_checked": true,
+    "prior_research_batches_checked": true,
+    "notes": "Records already represented as canonical/indexed skills were not duplicated merely because they reappear in DLC reward lists."
+  },
+  "records": [
+    {
+      "name": "Breaker Energy Wave",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Cabba",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "skill_description": "A Universe 6 energy-wave Ultimate associated with Cabba and obtainable through PQ101.",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 101",
+      "ultimate_finish_required": true,
+      "dlc_requirement": "Super Pack 1 / DLC Pack 1",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Breaker_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/DLC",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Divinity Unleashed",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Whis",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "skill_description": "A god-ki power-up skill obtainable from PQ110.",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 110",
+      "ultimate_finish_required": true,
+      "dlc_requirement": "Super Pack 4 / DLC Pack 4",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Divinity_Unleashed",
+        "https://dbxv2.fandom.com/wiki/DLC",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    }
+  ]
+}
