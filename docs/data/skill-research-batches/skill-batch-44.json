@@ -1,0 +1,102 @@
+{
+  "batch_id": 44,
+  "created": "2026-09-17",
+  "verification_policy": "research_batch_with_current_and_independent_cross_checks",
+  "research_scope": "Five early/base-game Ginyu Force skills selected after live repository duplicate checks. Quest identity and core mechanics are corroborated; unsupported reward probabilities remain unresolved.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "duplicate_check": {"status":"passed_for_selected_records","selected_records":["Holstein Shock","Ginyu Force Special Combo","Fighting Pose B","Fighting Pose D","Mach Punch"],"duplicate_count":0},
+    "source_basis":[
+      "https://xvguide.neocities.org/Skill",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "https://dbxv2.fandom.com/wiki/Ginyu_Force_Special_Combo",
+      "https://dbxv2.fandom.com/wiki/Fighting_Pose_B",
+      "https://dbxv2.fandom.com/wiki/Fighting_Pose_D",
+      "https://dbxv2.fandom.com/wiki/Fighting_Pose_E",
+      "https://dbxv2.fandom.com/wiki/Mach_Punch"
+    ]
+  },
+  "records":[
+    {
+      "name":"Holstein Shock",
+      "class":"Super",
+      "subcategory":"Other",
+      "usable_by_cac":true,
+      "ki_cost":0,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 15 — Gotta Find That Dragon Ball!",
+      "source_quest_or_shop":"Parallel Quest 15",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A self-damaging utility Super that trades health for resource recovery.",
+      "mechanics_notes":"Current Xenoverse 2 references classify Holstein Shock as an Other Super. Community mechanics references consistently describe it as costing no Ki while damaging the user and restoring two Ki and two stamina bars. PQ15 reward lists identify it among the quest's skill rewards. Exact health-loss amount and reward-slot semantics remain unresolved.",
+      "sources":["https://dbxv2.fandom.com/wiki/Super_Attack","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://www.reddit.com/r/dbxv/comments/1ct9g97/" ]
+    },
+    {
+      "name":"Ginyu Force Special Combo",
+      "class":"Super",
+      "subcategory":"Strike",
+      "usable_by_cac":true,
+      "ki_cost":100,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 16 — Defeat Frieza's Army!",
+      "source_quest_or_shop":"Parallel Quest 16",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A directional multi-option Strike Super with several attack patterns.",
+      "mechanics_notes":"Skill-specific data identifies a 100-Ki Strike Super with multiple directional input branches ranging from 2 to 15 hits. The documented branches include rear-strike, guard-breaking and knock-away variants. PQ16 reward listings independently identify the skill.",
+      "sources":["https://dbxv2.fandom.com/wiki/Ginyu_Force_Special_Combo","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://dbxv2.fandom.com/wiki/Defeat_Frieza%27s_Army%21"]
+    },
+    {
+      "name":"Fighting Pose B",
+      "class":"Super",
+      "subcategory":"Power Up",
+      "usable_by_cac":true,
+      "ki_cost":0,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 16 — Defeat Frieza's Army!",
+      "source_quest_or_shop":"Parallel Quest 16",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A temporary Strike-move power-up pose.",
+      "mechanics_notes":"Current skill-specific data identifies Fighting Pose B as a Power Up Super using 0 Ki, temporarily boosting Strike Moves for 20 seconds. PQ16 reward listings independently identify the skill.",
+      "sources":["https://dbxv2.fandom.com/wiki/Fighting_Pose_B","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://dbxv2.fandom.com/wiki/Defeat_Frieza%27s_Army%21"]
+    },
+    {
+      "name":"Fighting Pose D",
+      "class":"Super",
+      "subcategory":"Power Up",
+      "usable_by_cac":true,
+      "ki_cost":0,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 15 — Gotta Find That Dragon Ball!",
+      "source_quest_or_shop":"Parallel Quest 15",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A temporary pose that increases Boost Dash speed.",
+      "mechanics_notes":"Current skill-specific data identifies Fighting Pose D as a Power Up Super using 0 Ki and lasting 20 seconds, with the documented effect of increasing Boost Dash speed. PQ15 reward listings independently identify the skill.",
+      "sources":["https://dbxv2.fandom.com/wiki/Fighting_Pose_D","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+    },
+    {
+      "name":"Mach Punch",
+      "class":"Super",
+      "subcategory":"Strike",
+      "usable_by_cac":true,
+      "ki_cost":100,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 19 — Fierce Battle! Ginyu Force",
+      "source_quest_or_shop":"Parallel Quest 19",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A fast short-range flurry of punches ending with a kick that knocks the opponent away.",
+      "mechanics_notes":"Skill-specific data identifies Mach Punch as a 100-Ki Strike Super with six punches followed by a kick, totaling 10% documented damage. The move can cancel into an Ultimate Attack on hit. PQ19 reward listings independently identify the skill.",
+      "sources":["https://dbxv2.fandom.com/wiki/Mach_Punch","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://xvguide.neocities.org/Skill"]
+    }
+  ]
+}
