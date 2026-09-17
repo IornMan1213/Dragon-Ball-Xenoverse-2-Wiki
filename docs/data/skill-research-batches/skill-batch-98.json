@@ -1,0 +1,48 @@
+{
+  "batch_id": 98,
+  "created": "2026-09-17",
+  "verification_policy": "Direct research with cross-source acquisition verification. Preserve source conflicts and do not infer Ultimate Finish requirements without explicit evidence.",
+  "research_scope": "Giant Storm — Ki Blast Ultimate.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "duplicate_check": {
+      "status": "passed_for_selected_record",
+      "selected_records": ["Giant Storm"],
+      "duplicate_count": 0
+    },
+    "classification_finding": "Current Xenoverse 2 reference material identifies Giant Storm as a Ki Blast Ultimate with a long-range, tracking, multi-hit projectile attack.",
+    "acquisition_finding": "Current reference material lists Parallel Quest 101 — The Ultimate Legendary Super Saiyan as the acquisition route.",
+    "ultimate_finish_policy": "No Ultimate Finish requirement is asserted because the available evidence confirms the PQ reward route but does not satisfy the project's explicit Ultimate Finish evidence threshold.",
+    "variant_policy": "Giant Storm is kept distinct from other Broly projectile Ultimates and from related Dual attacks.",
+    "damage_policy": "Exact damage values are not promoted as canonical database values because version stability is not established."
+  },
+  "records": [
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Broly (Legendary Super Saiyan), Broly (Super Saiyan), and customizable partner documented by current references",
+      "dlc_requirement": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest 101 — The Ultimate Legendary Super Saiyan",
+      "source_quest_or_shop": "PQ101 — The Ultimate Legendary Super Saiyan",
+      "ultimate_finish_required": null,
+      "skill_description": "Launch a large tracking Ki Blast that travels toward the opponent and explodes on contact.",
+      "mechanics_notes": "Current references classify Giant Storm as a long-range projectile with tracking and multi-hit behavior. Exact hit counts, damage values, and drop probabilities are not promoted as canonical values.",
+      "combo_notes": null,
+      "pve_notes": null,
+      "pvp_notes": null,
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Giant_Storm",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/Giant_Storm"
+      ]
+    }
+  ]
+}
