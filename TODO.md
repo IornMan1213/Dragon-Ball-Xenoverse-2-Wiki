@@ -47,8 +47,10 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Added the exhaustive Equipment Database research foundation covering individual gear records, slots, stats, acquisition taxonomy, DLC provenance, version history, and verification rules.
 - [x] Exposed Equipment Database on the homepage status panel, popular destinations, and category navigation.
 - [x] Added the first 10 structured Equipment records with stat, acquisition, restriction, provenance, and verification fields.
-- [x] Cleaned internal web-citation artifacts from the new Equipment Database page before continuing.
+- [x] Cleaned internal citation artifacts from the new Equipment Database page before continuing.
 - [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
+- [x] Hardened `scripts/check_repo_artifacts.py` to audit Git-tracked text files deterministically and recognize both content-reference and tool-result artifact patterns without self-triggering.
+- [x] Expanded `.github/workflows/repo-quality.yml` pull-request path coverage to include every text format audited by the artifact checker, including TXT, BAT, XML, CSV, SCSS, TS, shell scripts, and the cleanup script/workflow itself.
 
 ## In Progress
 
@@ -58,7 +60,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
 - [ ] Expand the Super Soul catalogue beyond the current 18 records; reconcile acquisition, triggers, effect magnitudes, durations, stacking, and Limit Burst behavior per soul.
 - [ ] Promote Super Soul records only after core identity, acquisition, effects, and key mechanics are independently reconciled.
-- [ ] Expand the Equipment Database from the initial 10 records into the full individual clothing, equipment, accessory, shop, PQ, EM, raid, story, mentor, and DLC inventory.
+- [ ] Expand the Equipment Database from the initial records into the full individual clothing, equipment, accessory, shop, PQ, EM, raid, story, mentor, and DLC inventory.
 - [ ] Build complete machine-readable equipment records with exact component slot, stat, acquisition, provenance, version, and verification fields.
 - [ ] Expand QQ Bang research from system/recipe families into observed six-stat result records and reproducible recipe/result relationships.
 - [ ] Expand the EM16–20 records into full mechanic/phase/reward tables and promote only when independently reconciled.
