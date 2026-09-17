@@ -1,0 +1,101 @@
+{
+  "batch_id": 45,
+  "created": "2026-09-17",
+  "verification_policy": "research_batch_with_current_and_independent_cross_checks",
+  "research_scope": "Five early/base-game skills from PQ19-PQ23 selected after live repository duplicate checks. Quest identity and core mechanics are corroborated; unsupported reward-slot and Ultimate-Finish requirements remain unresolved.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "duplicate_check": {"status":"passed_for_selected_records","selected_records":["Fighting Pose E","Mystic Flash","Evil Flight Strike","Energy Shot","Death Slash"],"duplicate_count":0},
+    "source_basis":[
+      "https://xvguide.neocities.org/Skill",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "https://dbxv2.fandom.com/wiki/Fighting_Pose_E",
+      "https://dbxv2.fandom.com/wiki/Mystic_Flash",
+      "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike",
+      "https://dbxv2.fandom.com/wiki/Energy_Shot"
+    ]
+  },
+  "records":[
+    {
+      "name":"Fighting Pose E",
+      "class":"Super",
+      "subcategory":"Power Up",
+      "usable_by_cac":true,
+      "ki_cost":0,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 19 — Fierce Battle! Ginyu Force",
+      "source_quest_or_shop":"Parallel Quest 19",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A temporary pose that boosts normal/basic attacks.",
+      "mechanics_notes":"Skill-specific data identifies Fighting Pose E as a Power Up Super using 0 Ki, lasting 20 seconds and temporarily boosting normal/basic attack. PQ19 reward listings independently identify the skill. Historical player reports discuss random acquisition but do not establish a canonical drop condition.",
+      "sources":["https://dbxv2.fandom.com/wiki/Fighting_Pose_E","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74533883"]
+    },
+    {
+      "name":"Mystic Flash",
+      "class":"Ultimate",
+      "subcategory":"Ki Blast",
+      "usable_by_cac":true,
+      "ki_cost":300,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 20 — Frieza! Show Yourself",
+      "source_quest_or_shop":"Parallel Quest 20",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A rear-facing Ki Wave Ultimate that hits repeatedly and knocks the opponent back.",
+      "mechanics_notes":"Skill-specific data identifies Mystic Flash as a 300-Ki Ki Blast Ultimate with 25 hits and 30% documented damage. The attack fires only backward. PQ20 reward listings independently identify the skill. Exact reward-slot semantics and CaC availability are retained as unresolved where sources do not directly establish them.",
+      "sources":["https://dbxv2.fandom.com/wiki/Mystic_Flash","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://xvguide.neocities.org/Skill"]
+    },
+    {
+      "name":"Evil Flight Strike",
+      "class":"Super",
+      "subcategory":"Strike",
+      "usable_by_cac":true,
+      "ki_cost":100,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 21 — Tri-Race Coop",
+      "source_quest_or_shop":"Parallel Quest 21",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"An extending-arm rising Strike Super that hits repeatedly while leaving the opponent airborne.",
+      "mechanics_notes":"Current skill-specific data identifies Evil Flight Strike as a 100-Ki Strike Super for Namekian and Majin CaCs, dealing 15% damage across eight hits. Piccolo (Power Awakening) repurposes the technique as an Evasive skill using 300 stamina. PQ21 reward listings identify the quest source.",
+      "sources":["https://dbxv2.fandom.com/wiki/Evil_Flight_Strike","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+    },
+    {
+      "name":"Energy Shot",
+      "class":"Super",
+      "subcategory":"Ki Blast",
+      "usable_by_cac":true,
+      "ki_cost":100,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 22 — Dragon Ball Brawl",
+      "source_quest_or_shop":"Parallel Quest 22",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A chargeable Ki Blast projectile whose damage increases with charge time.",
+      "mechanics_notes":"Skill-specific data identifies Energy Shot as a 100-Ki Ki Blast Super. Base use deals 3% documented damage and maximum charge deals 15%. PQ22 reward listings identify the skill. Exact reward-slot semantics are unresolved.",
+      "sources":["https://dbxv2.fandom.com/wiki/Energy_Shot","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+    },
+    {
+      "name":"Death Slash",
+      "class":"Super",
+      "subcategory":"Strike",
+      "usable_by_cac":true,
+      "ki_cost":100,
+      "stamina_cost":null,
+      "unlock_method":"Parallel Quest 23 — Frieza's Special Squad",
+      "source_quest_or_shop":"Parallel Quest 23",
+      "ultimate_finish_required":null,
+      "verification_status":"partially_verified",
+      "last_verified":"2026-09-17",
+      "skill_description":"A short-range sword-based Strike Super associated with Frieza's elite forces.",
+      "mechanics_notes":"The independent PQ reward transcription places Death Slash in PQ23. The current skill guide also indexes Death Slash under PQ23. Exact resource, damage, hit-count, reward-slot and character/CaC semantics remain unresolved pending a stronger skill-specific reference.",
+      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://xvguide.neocities.org/Skill"]
+    }
+  ]
+}
