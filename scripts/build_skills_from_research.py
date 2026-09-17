@@ -65,11 +65,15 @@ def build_record(d,p):
  return r
 def main():
  if not RESEARCH.exists():raise SystemExit('Structured research corpus is missing.')
- m=load_existing(); imported=load_local_batches(m)
+ m=load_existing()
+ # External corpus is a broad enrichment source. Apply checked-in local research
+ # batches afterwards so explicit corrections and curated provenance always have
+ # final precedence and cannot be overwritten by a later external record.
  for p in sorted(RESEARCH.glob('*.md')):
   try:r=build_record(parse_frontmatter(p),p)
   except Exception:r=None
-  if r:merge_record(m,r); imported+=1
+  if r:merge_record(m,r)
+ imported=load_local_batches(m)
  rows=sorted(m.values(),key=lambda r:(r['name'].casefold(),r['class'],r['subcategory']))
  awoken=sum(1 for r in rows if r.get('class')=='Awoken' and r.get('subcategory')=='Race')
  counts=dict(TARGET_COUNTS); counts['Transformations']=awoken
