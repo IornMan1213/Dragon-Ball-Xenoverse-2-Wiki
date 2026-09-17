@@ -158,17 +158,19 @@
       "stacking_behavior": null,
       "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
-      "version_notes": "PQ identity and core effect are documented by the current catalogue; exact trigger persistence and reward conditions require dedicated PQ reconciliation.",
+      "verification_status": "verified",
+      "version_notes": "Core identity, Gohan (Kid) association, PQ28 acquisition, HP threshold, effects, and Limit Burst agree across the current Super Soul catalogue and the independent GameFAQs guide. Dedicated PQ research also lists Drop dead!!! as a PQ28 reward. Exact drop-rate behavior remains unverified and is not inferred here.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://gamefaqs.gamespot.com/ps5/437193-dragon-ball-xenoverse-2/faqs/74285"
       ]
     }
   ],
   "research_notes": [
     "This staged batch follows the canonical list order after the existing 18 populated records.",
     "Records remain partially verified until acquisition details, current-version behavior, and important mechanics are independently reconciled.",
+    "super-soul-031 is promoted to verified because its core identity, acquisition, trigger, effects, and Limit Burst are corroborated by the current catalogue and an independent guide; drop-rate behavior remains unresolved.",
     "Do not merge staged records into the canonical layer merely because the list source contains them; preserve the project's verification workflow."
   ]
 }
