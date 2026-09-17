@@ -8,6 +8,7 @@ on:
       - "scripts/build_skills_from_research.py"
       - "scripts/apply_awoken_overrides.py"
       - "scripts/normalize_awoken_transformation_category.py"
+      - "scripts/validate_research_batches.py"
       - "scripts/validate_skills.py"
       - "scripts/validate_pq_skill_links.py"
       - "scripts/validate_awoken_integrity.py"
@@ -36,6 +37,8 @@ jobs:
     steps:
       - name: Checkout wiki
         uses: actions/checkout@v4
+      - name: Validate checked-in research batches offline
+        run: python scripts/validate_research_batches.py
       - name: Fetch structured skill corpus
         run: |
           set -euo pipefail
@@ -85,7 +88,7 @@ jobs:
           body: |
             Automated refresh of the Xenoverse 2 skill catalog.
 
-            The sync imports structured skill research, normalizes the canonical Awoken parent/stage model, applies curated repository corrections and Awoken overrides, validates the canonical catalog, and verifies Parallel Quest skill cross-links before proposing changes.
+            The sync validates checked-in research, imports structured skill research, normalizes the canonical Awoken parent/stage model, applies curated repository corrections and Awoken overrides, validates the canonical catalog, and verifies Parallel Quest skill cross-links before proposing changes.
           branch: automated/skills-catalog-sync
           delete-branch: true
           labels: database,automated,skills
