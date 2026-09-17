@@ -53,6 +53,11 @@ def main() -> int:
                         continue
                     skill_records += 1
                     key = (str(r["name"]).casefold(), str(r.get("class", "")), str(r.get("subcategory", "")))
+                    # A correction intentionally references the same canonical key
+                    # as its historical record. It is not duplicate coverage: the
+                    # builder applies the correction over the earlier record.
+                    if r.get("correction_of"):
+                        continue
                     skill_keys.setdefault(key, []).append(path.name)
             elif directory == PQ_DIR:
                 local_numbers: set[int] = set()
@@ -73,8 +78,9 @@ def main() -> int:
                 awoken_records += len(rs)
 
     for key, files in skill_keys.items():
-        if len(files) > 1:
-            errors.append(f"Duplicate skill key {key} across batches: {', '.join(files)}")
+        unique = list(dict.fromkeys(files))
+        if len(unique) > 1:
+            errors.append(f"Duplicate non-correction skill key {key} across batches: {', '.join(unique)}")
     for number, files in pq_numbers.items():
         unique = list(dict.fromkeys(files))
         if len(unique) > 1:
@@ -89,5 +95,5 @@ def main() -> int:
     return 0
 
 
-if __name__ == "__main__":
+if __name__=='__main__':
     raise SystemExit(main())
