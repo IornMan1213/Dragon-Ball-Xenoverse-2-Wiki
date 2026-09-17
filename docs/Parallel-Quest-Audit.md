@@ -115,6 +115,21 @@ PQ61–PQ70 are now structured in `pq-batch-07.json`. This block covers the cont
 - **PQ69 — God of Destruction and His Master:** defeat Beerus and Whis, clear under five minutes, then defeat revived Beerus; Headshot is documented.
 - **PQ70 — Things Are Getting Serious!:** defeat all enemies, clear within eight minutes, then defeat Golden Frieza and Metal Cooler; Emperor's Blast is documented.
 
+### Batch 8 — PQ71–PQ80
+
+PQ71–PQ80 are now structured in `pq-batch-08.json`. This block covers Golden Frieza/Frieza Force assaults, Galactic Patrol training, Beerus and Whis training, the Goku/Vegeta rivalry, the parent-and-child training scenario, Broly's revival, and the Great Ape festival quests. Objective sequences and documented basic rewards were cross-checked against the maintained PQ transcription plus independent hidden-objective references; exact random reward-slot/drop percentages remain unresolved.
+
+- **PQ71 — Abominable Saiyans:** defeat all enemies, keep Trunks above 50%, then defeat Golden Frieza; Last Emperor is documented.
+- **PQ72 — First Training:** defeat Golden Frieza, clear under five minutes, then defeat all enemies while Golden Frieza remains alive; Burst Kamehameha is documented.
+- **PQ73 — Frieza's Siege Against Earth!:** defeat all enemies before Golden Frieza appears, then complete the final enemy phase; Psychic Move is documented.
+- **PQ74 — Galactic Patrol, Away!:** defeat all enemies, clear within ten minutes, then defeat Golden Frieza; Jaco must remain alive; Final Pose is documented.
+- **PQ75 — Room to Spare:** defeat Beerus, trigger the next battle with Whis still present, then defeat Beerus and Whis; Counter Burst is documented.
+- **PQ76 — Eternal Rival:** defeat SSGSS Goku/Vegeta, defeat SS4 Goku after SS4 Vegeta appears, then defeat the SSGSS pair again; Warp Kamehameha is documented.
+- **PQ77 — Parent and Child:** defeat Goku, Vegeta, and Hercule, clear within ten minutes, then defeat all enemies; Ki Explosion is documented.
+- **PQ78 — Heated, Furious, Ultimate Battle:** defeat Broly, keep revived Goku alive, then defeat revived Broly; Dust Attack is documented.
+- **PQ79 — Great Ape Festival:** defeat three Great Apes, clear within ten minutes, then defeat the training Time Patroller; Mighty Explosive Wave is documented.
+- **PQ80 — The Return of the Giant Ape-Fest!:** defeat Janemba and three Great Apes, keep Jaco and Pan alive, then defeat all enemies; Dimensional Hole is documented.
+
 ## Early verified examples
 
 ### PQ 11 — Burst Open and Mix!
@@ -133,7 +148,7 @@ A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black 
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
-Current structured audit coverage: **PQ1–PQ70** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
+Current structured audit coverage: **PQ1–PQ80** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
 
 ## Primary research corpus
 
