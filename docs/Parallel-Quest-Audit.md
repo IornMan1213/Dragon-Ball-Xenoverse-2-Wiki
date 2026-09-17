@@ -100,6 +100,21 @@ PQ51–PQ60 are now structured in `pq-batch-06.json`. This block covers the Grea
 - **PQ59 — Potara Warrior:** defeat Vegito, keep Super Buu above 50%, then defeat Super Vegito; Force Shield and Dimension Cannon are documented.
 - **PQ60 — Blast the Super Spirit Bomb!:** defeat Kid Buu, keep Majin Buu alive, then defeat revived Kid Buu; Majin Kamehameha is documented.
 
+### Batch 7 — PQ61–PQ70
+
+PQ61–PQ70 are now structured in `pq-batch-07.json`. This block covers the continued Cell Games, Frieza's nightmare rematch, Beerus/Whis destruction and training quests, the new-warrior challenge, Super Saiyan God training, the Old Rivals Dragon Ball quest, God of Destruction training, and the first Golden Frieza/Metal Cooler quest. Objective sequences and documented basic rewards were cross-checked against the maintained 184/186-PQ transcription and independent hidden-objective references; exact random reward-slot/drop percentages remain unresolved.
+
+- **PQ61 — The Cell Games Continued:** defeat Gohan, Videl, and Piccolo; defeat Videl and Piccolo before Gohan; then defeat Gohan with Cell alive. Recoome Kick and Fighting Pose H are documented.
+- **PQ62 — Frieza's Nightmare Returns!:** defeat Vegito and Gotenks, defeat Gotenks before Vegito, then defeat Super Vegito and Super Saiyan 3 Gotenks. Teleporting Vanishing Ball is documented.
+- **PQ63 — Appetite for Destruction:** defeat Beerus and Whis, defeat Beerus last, then defeat Beerus again; Kai Kai is documented.
+- **PQ64 — Beerus the Impulsive:** defeat all enemies with at least eight minutes remaining, then defeat Beerus; Ill Rain is documented.
+- **PQ65 — The New Warriors:** defeat all enemies, clear within eight minutes, then defeat Goku and Vegeta; Scissors Paper Rock is documented.
+- **PQ66 — Stop Beerus' Destruction:** defeat Beerus, keep every ally alive, then defeat Whis; Candy Beam is documented and this record represents the Evasive variant.
+- **PQ67 — Power of a Super Saiyan God:** defeat Goku, clear under three minutes, then defeat revived Goku; Super God Fist is documented.
+- **PQ68 — Old Rivals and Dragon Balls:** recover three Dragon Balls, defeat Frieza/Cell/Kid Buu, then recover all seven; Angry Shout is documented.
+- **PQ69 — God of Destruction and His Master:** defeat Beerus and Whis, clear under five minutes, then defeat revived Beerus; Headshot is documented.
+- **PQ70 — Things Are Getting Serious!:** defeat all enemies, clear within eight minutes, then defeat Golden Frieza and Metal Cooler; Emperor's Blast is documented.
+
 ## Early verified examples
 
 ### PQ 11 — Burst Open and Mix!
@@ -118,7 +133,7 @@ A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black 
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
-Current structured audit coverage: **PQ1–PQ60** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
+Current structured audit coverage: **PQ1–PQ70** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
 
 ## Primary research corpus
 
