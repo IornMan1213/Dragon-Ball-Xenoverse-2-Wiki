@@ -1,6 +1,9 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Staged **Super Soul research batch 03** at `docs/data/super-souls-research-batch-03.json` with eight additional records (Burter, Jeice, Ginyu, Nail, Dende, Piccolo, Frieza, and Kid Gohan) kept at `partially_verified` pending acquisition/current-version reconciliation.
+- Expanded `docs/Super-Souls-Database.md` to document the staged-batch workflow and canonical-vs-staged distinction so research additions are not mistaken for fully reconciled canonical records.
+- Continued independent-source reconciliation for the new Super Soul batch using the current Xenoverse 2 Super Soul catalogue plus historical GameFAQs and NPC/world references where applicable.
 - Conton City page expanded with key areas, shops, systems, and Time Rifts.
 - Super Souls page expanded with acquisition methods, useful categories, and farming tips.
 - Mentors, Parallel Quest Walkthrough, Skills Database, and other core pages previously strengthened.
