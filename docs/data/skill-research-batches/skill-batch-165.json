@@ -1,0 +1,49 @@
+{
+  "batch_id": 165,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently verify Xenoverse 2 identity, acquisition route, cost, CaC availability, and mechanics; preserve unsupported stamina and Ultimate Finish fields as null.",
+  "research_scope": "Power Pole — Strike Super / Skill Shop acquisition research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Xenoverse 2 acquisition references.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Power Pole"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Power Pole was found. The canonical identity is Super / Strike and is kept distinct from Power Pole Combo and Power Pole Pro."
+    },
+    "classification_finding": "Current Xenoverse 2-specific documentation classifies Power Pole as a Strike Super Attack and separately groups it with Power Pole-related skills.",
+    "acquisition_finding": "Current Xenoverse 2-specific documentation lists Skill Shop as the acquisition route. Historical player reports independently identify the normal Skill Shop as the source, while noting that shop availability can depend on story progression.",
+    "finish_policy": "ultimate_finish_required remains null because the documented acquisition route is the Skill Shop rather than a Parallel Quest reward.",
+    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed canonical sources do not establish a reliable stamina value."
+  },
+  "records": [
+    {
+      "name": "Power Pole",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goku (GT) / Goku (GT) customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Extend the Power Pole over a long distance to jab the opponent with a straight-line Strike attack.",
+      "mechanics_notes": "The Xenoverse 2 skill reference describes a long-range, single-hit weapon attack that travels in a straight line. It can deal increased damage when the opponent is pinned against the ground. Exact frame, hitbox, and damage values are not promoted to universal canonical numeric data.",
+      "acquisition_notes": "The current Xenoverse 2 skill reference lists the Skill Shop as the unlock route. Historical player reports also identify the normal Skill Shop, with availability potentially gated by story progression. Power Pole Combo is a separate skill and is not merged with this record.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "Long-range straight-line Strike Super with weapon reach and ground-pin synergy; detailed matchup and frame behavior remains version-sensitive.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Power_Pole",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74998319",
+        "https://steamcommunity.com/app/454650/discussions/0/142261352650110246/"
+      ]
+    }
+  ]
+}
