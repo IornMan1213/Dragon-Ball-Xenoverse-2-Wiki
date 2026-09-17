@@ -1,0 +1,59 @@
+{
+  "batch_id": 33,
+  "created": "2026-09-17",
+  "verification_policy": "correction_batch_for_pq144_pq145_skill_attribution_and_classification",
+  "research_scope": "Correct the Batch 28 attribution of Destructive Fracture and Destructive Flare. Both are PQ145 rewards, and Destructive Flare is a Super rather than an Ultimate.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Reconciled the current structured PQ145 record, the current Destructive Flare and Destructive Fracture skill references, and the Steam all-186 guide. The structured PQ145 record identifies both skills as PQ145 rewards; the skill references classify both as Supers.",
+    "sources": [
+      "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-145.md",
+      "https://dbxv2.fandom.com/wiki/Destructive_Flare",
+      "https://dbxv2.fandom.com/wiki/Destructive_Fracture",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    ]
+  },
+  "corrections": [
+    {
+      "name": "Destructive Fracture",
+      "class": "Super",
+      "subcategory": "Strike",
+      "source_character": "Toppo (God of Destruction)",
+      "ki_cost": 100,
+      "skill_description": "A Strike Super obtainable from Parallel Quest 145.",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 145",
+      "ultimate_finish_required": true,
+      "dlc_requirement": "Legendary Pack 1 / DLC Pack 12",
+      "verification_status": "verified",
+      "correction_of": {
+        "name": "Destructive Fracture",
+        "previous_class": "Super",
+        "previous_subcategory": "Strike",
+        "previous_source_quest_or_shop": "Parallel Quest 144"
+      },
+      "correction_fields": ["skill_description", "source_quest_or_shop"]
+    },
+    {
+      "name": "Destructive Flare",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "source_character": "Toppo (God of Destruction)",
+      "ki_cost": 200,
+      "skill_description": "A Ki Blast Super obtainable from Parallel Quest 145.",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 145",
+      "ultimate_finish_required": true,
+      "dlc_requirement": "Legendary Pack 1 / DLC Pack 12",
+      "verification_status": "verified",
+      "correction_of": {
+        "name": "Destructive Flare",
+        "previous_class": "Ultimate",
+        "previous_subcategory": "Ki Blast",
+        "previous_source_quest_or_shop": "Parallel Quest 144"
+      },
+      "correction_fields": ["class", "skill_description", "source_quest_or_shop", "ki_cost"]
+    }
+  ],
+  "notes": "Batch 28 incorrectly placed both skills at PQ144. Current PQ145 structured data lists both as skill rewards, while the individual skill references classify Destructive Fracture and Destructive Flare as Strike Super and Ki Blast Super respectively. The correction is intentionally represented as a new batch so the historical research record remains auditable."
+}
