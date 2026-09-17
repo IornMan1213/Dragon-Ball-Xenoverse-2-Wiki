@@ -1,6 +1,9 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 43** with five previously absent early/base-game PQ skills: **Meteor Blow**, **Earth Splitting Galick Gun**, **Meteor Crash**, **Fighting Pose C**, and **Kaioken Kamehameha**.
+- Duplicate-checked all five selected names against the live repository before addition; **0 repository-search matches** were returned for each.
+- Reconciled Batch 43 against the current Xenoverse 2 skill guide and independent PQ reward transcriptions. Earth Splitting Galick Gun also has a newer independently maintained PQ database entry reporting an Ultimate Finish reward roll; the batch keeps `ultimate_finish_required` unresolved rather than promoting that source-specific result into an unconditional field.
 - Added **Skill Research Batch 42** with five previously absent early/base-game PQ skills: **Recoome Eraser Gun**, **Mach Kick**, **Fighting Pose J**, **Time Control**, and **Unrelenting Barrage**.
 - Cross-checked Batch 42 against the current Xenoverse 2 skill guide, independent PQ reward transcriptions, and skill-specific references where available. Unsupported reward-slot, drop-probability, and technical fields remain unresolved.
 - Identified that **Skill Research Batch 41 duplicates Batch 40's five records** rather than adding new catalog coverage; both batches remain preserved as historical research, but Batch 41 is not counted as five additional unique skills.
