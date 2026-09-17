@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "skill-batch-56",
+  "created": "2026-09-17",
+  "verification_policy": "Correction batch for unsupported negative Ultimate Finish assertions identified during the evidence-certainty audit. Historical records remain intact; canonical output is corrected to null where the evidence establishes character-lock status but not an acquisition requirement.",
+  "records": [
+    {
+      "name": "Appetizing Rush",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "correction_of": {
+        "name": "Appetizing Rush",
+        "previous_class": "Ultimate",
+        "previous_subcategory": "Strike"
+      },
+      "correction_fields": ["ultimate_finish_required"],
+      "ultimate_finish_required": null,
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/appetizing-rush.md",
+        "https://dbxv2.fandom.com/wiki/Appetizing_Rush"
+      ]
+    }
+  ],
+  "audit_note": "Batch 09 described Appetizing Rush as character-locked and assigned ultimate_finish_required=false. The character-lock evidence does not itself establish a negative Ultimate Finish requirement, so the field is superseded by null until requirement-specific acquisition evidence is established."
+}
