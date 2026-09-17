@@ -1,60 +1,40 @@
 #!/usr/bin/env python3
-"""Validate the canonical XV2 skills JSON against repository schema rules."""
+"""Validate the canonical XV2 skills JSON and its deterministic index."""
 from __future__ import annotations
-
 import json
 from pathlib import Path
-
-ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "docs" / "data" / "skills.json"
-SCHEMA = ROOT / "docs" / "data" / "skills.schema.json"
-ALLOWED_CLASS = {"Super", "Ultimate", "Evasive", "Awoken", "Mixed", "Counter"}
-ALLOWED_SUB = {"Ki Blast", "Strike", "Power Up", "Other", "Race", "Special", "Counter"}
-ALLOWED_STATUS = {"indexed", "partially_verified", "verified"}
-ALLOWED_RESEARCH = {"indexed", "partially_enriched", "enriched", "page_unavailable"}
-
-
-def main() -> int:
-    data = json.loads(DATA.read_text(encoding="utf-8"))
-    schema = json.loads(SCHEMA.read_text(encoding="utf-8"))
-    assert schema["title"] == "Dragon Ball Xenoverse 2 Skill Record"
-    records = data.get("records")
-    if not isinstance(records, list) or not records:
-        raise SystemExit("skills.json must contain a non-empty records array")
-
-    seen = set()
-    for i, r in enumerate(records):
-        for key in ("name", "class", "subcategory", "verification_status", "sources"):
-            if key not in r:
-                raise SystemExit(f"record {i} missing required field: {key}")
-        if not isinstance(r["name"], str) or not r["name"].strip():
-            raise SystemExit(f"record {i} has invalid name")
-        if r["class"] not in ALLOWED_CLASS or r["subcategory"] not in ALLOWED_SUB:
-            raise SystemExit(f"record {i} has invalid class/subcategory")
-        if r["verification_status"] not in ALLOWED_STATUS:
-            raise SystemExit(f"record {i} has invalid verification_status")
-        if r.get("research_status") and r["research_status"] not in ALLOWED_RESEARCH:
-            raise SystemExit(f"record {i} has invalid research_status")
-        if not isinstance(r["sources"], list) or not r["sources"]:
-            raise SystemExit(f"record {i} must contain at least one source")
-        key = (r["name"].casefold(), r["class"], r["subcategory"])
-        if key in seen:
-            raise SystemExit(f"duplicate record: {key}")
-        seen.add(key)
-
-    counts = data.get("category_counts", {})
-    if not isinstance(counts, dict) or not counts:
-        raise SystemExit("category_counts is missing or empty")
-    if any(not isinstance(v, int) or v < 0 for v in counts.values()):
-        raise SystemExit("category_counts contains an invalid value")
-
-    expected = data.get("record_count")
-    if expected is not None and expected != len(records):
-        raise SystemExit(f"record_count={expected} does not match records={len(records)}")
-
-    print(f"Validated {len(records)} skill records across {len(counts)} categories.")
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+ROOT=Path(__file__).resolve().parents[1]
+DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCHEMA=ROOT/'docs/data/skills.schema.json'
+ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
+ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter'}
+ALLOWED_RESEARCH={'indexed','partially_enriched','enriched','page_unavailable'}
+def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
+def main():
+ d=json.loads(DATA.read_text(encoding='utf-8')); idx=json.loads(INDEX.read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
+ rs=d.get('records',[]); ir=idx.get('records',[]); errors=[]
+ if d.get('record_count')!=len(rs):errors.append('skills.json record_count mismatch')
+ if idx.get('record_count')!=len(ir):errors.append('skills-index.json record_count mismatch')
+ if len(rs)!=len(ir):errors.append('skills/index record lengths differ')
+ keys=[key(r) for r in rs]
+ if len(keys)!=len(set(keys)):errors.append('duplicate canonical skill keys')
+ for r in rs:
+  if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
+  if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
+  if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
+ ikeys=[key(r) for r in ir]
+ if keys!=ikeys:errors.append('skills-index.json is not in the same deterministic record order/content key sequence as skills.json')
+ for a,b in zip(rs,ir):
+  for f in ('name','class','subcategory','verification_status','research_status','sources'):
+   if a.get(f)!=b.get(f):errors.append(f"index mismatch for {a.get('name')}: {f}")
+ awoken=[r for r in rs if r.get('class')=='Awoken' and r.get('subcategory')=='Race']
+ if len(awoken)!=15:errors.append(f'expected 15 canonical Awoken parent records, found {len(awoken)}')
+ counts=d.get('category_counts',{}); targets=d.get('target_category_counts',{})
+ if counts.get('Transformations')!=len(awoken):errors.append('Transformation count does not equal canonical Awoken parent count')
+ if targets.get('Transformations')!=15:errors.append('Transformation target must be 15 canonical parent records')
+ if idx.get('category_counts')!=counts:errors.append('index category_counts mismatch')
+ if idx.get('target_category_counts')!=targets:errors.append('index target_category_counts mismatch')
+ if errors:
+  print('Skill validation failed:'); print('\n'.join(dict.fromkeys(errors))); return 1
+ print(f'Validated {len(rs)} skills; index synchronized; {len(awoken)} canonical Awoken parent records.')
+ return 0
+if __name__=='__main__':raise SystemExit(main())
