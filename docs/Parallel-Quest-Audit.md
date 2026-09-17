@@ -85,6 +85,21 @@ PQ41–PQ50 are now structured in `pq-batch-05.json`. This block covers the Futu
 - **PQ49 — Namek Berserker:** defeat Goten, Gohan, and Piccolo, clear under five minutes, then defeat Nail and revived Piccolo; Do or Die is documented.
 - **PQ50 — Majin Chaos:** defeat 30 small Majin Buu, clear within ten minutes, then defeat Majin Buu and Super Buu; Explosive Buu Buu Punch is documented.
 
+### Batch 6 — PQ51–PQ60
+
+PQ51–PQ60 are now structured in `pq-batch-06.json`. This block covers the Great Saiyaman/Cell rematch, Super Saiyan bargain quest, Great Saiyaman Justice sequence, Majin Buu revival, Gotenks and Super Buu, Hercule's alternate-history quest, Janemba/Buu fusion, the Sacred World of the Kais, Potara Warrior, and the Super Spirit Bomb finale. Core objective sequences and historical basic rewards were cross-checked against multiple independent references; exact random reward-slot/drop percentages remain unresolved.
+
+- **PQ51 — Great Saiyaman is Here:** defeat Cell, keep Great Saiyaman alive, then defeat revived Cell and Frieza; Burst Rush is documented.
+- **PQ52 — Super Saiyan Bargain Sale:** defeat Gohan and Goku, clear under five minutes, then defeat Goku and Gotenks; Final Cannon is documented.
+- **PQ53 — The Fist of Justice!:** defeat all enemies, defeat all Saibamen, then defeat Majin Buu; Justice Pose is documented.
+- **PQ54 — Majin Revival:** defeat Hercule, keep Majin Buu above 50%, then defeat revived Hercule; Victory Cannon is documented.
+- **PQ55 — Tag with Gotenks:** defeat Gotenks, clear under five minutes, then defeat Super Buu; Super Donut Volley is documented.
+- **PQ56 — Hercule Is Number One:** defeat Hercule, clear under five minutes, then defeat Hercule again; Stone Bullet is documented. One historical source additionally reports Kid Trunks near the waterfall as the quest-unlock interaction; the prerequisite chain remains unresolved.
+- **PQ57 — Hell Is a Picture?:** defeat Janemba and Majin Buu, successfully fuse Goku and Vegeta, then defeat Janemba; Rakshasa's Claw is documented.
+- **PQ58 — Majin Banquet:** defeat the Majin Buus, clear under five minutes, then defeat Hercule and the revived Buus; Vanishing Ball is documented.
+- **PQ59 — Potara Warrior:** defeat Vegito, keep Super Buu above 50%, then defeat Super Vegito; Force Shield and Dimension Cannon are documented.
+- **PQ60 — Blast the Super Spirit Bomb!:** defeat Kid Buu, keep Majin Buu alive, then defeat revived Kid Buu; Majin Kamehameha is documented.
+
 ## Early verified examples
 
 ### PQ 11 — Burst Open and Mix!
@@ -103,7 +118,7 @@ A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black 
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
-Current structured audit coverage: **PQ1–PQ50** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
+Current structured audit coverage: **PQ1–PQ60** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
 
 ## Primary research corpus
 
