@@ -1,10 +1,17 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 17** with five previously uncovered early/base-game PQ skills: **Heat Dome Attack**, **Freedom Kick**, **Rolling Bullet**, **Super Drain**, and **Justice Pose**.
+- Duplicate-checked Batch 17 against the current canonical skill catalog and repository search before addition; **0 duplicates** were found for the selected records.
+- Reconciled Batch 17 acquisition and core identity/mechanics against multiple Xenoverse 2 references. **Heat Dome Attack** and **Super Drain** were promoted to `verified`; **Freedom Kick**, **Rolling Bullet**, and **Justice Pose** remain `partially_verified` where technical details remain unresolved.
+- Re-verified the Batch 16 research layer while preparing Batch 17; no corrections were required.
+- Added Batch 17 to `docs/data/skill-research-batches/skill-batch-17.json` so it participates in the repository's curated skill research pipeline.
+
 - Added **Skill Research Batch 16** with five previously uncovered early/base-game skills: **Mach Punch**, **Fighting Pose E**, **Mystic Flash**, **Energy Shot**, and **Ginyu Force Special Combo**.
 - Duplicate-checked the selected Batch 16 records against the current canonical skill response and repository search before addition; **Evil Flight Strike was explicitly excluded because it was already indexed**.
 - Reconciled Batch 16 identity, classification, acquisition route, resource cost, and core mechanics against current Xenoverse 2 references and corroborating research. Exact reward probabilities were not inferred where the sources did not establish them.
 - Added Batch 16 to `docs/data/skill-research-batches/skill-batch-16.json` as the next canonical research layer for the skill catalog.
+
 - Added **Skill Research Batch 15** with five previously uncovered base-game skills: **Dodoria Headbutt**, **Earth Splitting Galick Gun**, **Milky Cannon**, **Recoome Kick**, and **Time Control**.
 - Duplicate-checked Batch 15 against `docs/data/skills.json` and prior skill research batches before addition; no duplicates were found.
 - Reconciled Batch 15 identity, category, acquisition, resource cost, and core mechanics against current Xenoverse 2 skill references plus corroborating research sources. The five records are marked `verified` for their documented core fields; exact community damage measurements remain outside the promoted claims.
