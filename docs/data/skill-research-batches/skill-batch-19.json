@@ -1,0 +1,128 @@
+{
+  "batch_id": 19,
+  "created": "2026-09-17",
+  "verification_policy": "core_identity_acquisition_verified_with_unresolved_probability_fields",
+  "research_scope": "Base-game Parallel Quest skills from PQ 48-55 selected after duplicate screening against the canonical skill index and prior research batches.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Skill identity, class, core cost data, and PQ acquisition routes were reconciled against current Xenoverse 2 skill references and independent PQ reward guides. Exact drop probabilities and version-sensitive frame data were not inferred.",
+    "duplicate_check": {
+      "status": "passed_for_selected_records",
+      "selected_records": ["Kamekameha", "Do or Die", "Explosive Buu Buu Punch", "Victory Cannon"],
+      "excluded_known_duplicates": ["Burst Rush", "Justice Pose"],
+      "duplicate_count": 0
+    }
+  },
+  "records": [
+    {
+      "name": "Kamekameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goten",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest 48 — 2nd World Tournament Tag Team; reward",
+      "source_quest_or_shop": "Parallel Quest 48",
+      "ultimate_finish_required": false,
+      "skill_description": "A fast Kamehameha-style beam that fires more quickly than the standard Kamehameha but cannot be charged.",
+      "mechanics_notes": "Current Xenoverse 2 skill documentation identifies Kamekameha as Goten's Ki Blast Super, costing 100 Ki and obtained from PQ48. The documented attack is a six-hit beam with knockback; exact current damage scaling is not promoted as universal.",
+      "combo_notes": "The uncharged, fast-firing behavior distinguishes it from the standard Kamehameha; detailed frame routes remain outside the verified scope.",
+      "pve_notes": "A quick beam option useful when a faster activation is preferable to a chargeable Kamehameha.",
+      "pvp_notes": "Its speed can matter for confirms, but version-specific frame advantage is intentionally unresolved.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kamekameha",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/6/"
+      ]
+    },
+    {
+      "name": "Do or Die",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Nail; Piccolo (Customize Partner)",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Power Up",
+      "unlock_method": "Parallel Quest 49 — Namek Berserker; reward",
+      "source_quest_or_shop": "Parallel Quest 49",
+      "ultimate_finish_required": false,
+      "skill_description": "Strengthens the user's resolve and temporarily reduces damage taken, while producing a small close-range knockback wave on activation.",
+      "mechanics_notes": "Current Xenoverse 2 documentation identifies Do or Die as a Power Up Super costing 100 Ki, lasting 20 seconds, and reducing incoming damage by 10 percent. The PQ49 route is independently corroborated. Exact version-specific defensive interactions are not asserted beyond the documented effect.",
+      "combo_notes": "This is a defensive reinforcement skill rather than a conventional combo starter; activation timing should be documented separately from attack routes.",
+      "pve_notes": "The temporary damage reduction can support sustained PvE encounters where the user expects to absorb incoming attacks.",
+      "pvp_notes": "The activation commitment and defensive effect make timing important; no universal cancel or frame advantage is asserted.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Do_or_Die",
+        "https://dragonball.fandom.com/wiki/Stalling",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74738444",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Explosive Buu Buu Punch",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": "Majin",
+      "usable_by_cac": true,
+      "character_source": "Majin Buu (Good); Majin CaCs",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest 50 — Majin Chaos; reward",
+      "source_quest_or_shop": "Parallel Quest 50",
+      "ultimate_finish_required": false,
+      "skill_description": "A short-range nine-hit punch barrage that can also be activated while jumping and provides super armor during the attack sequence.",
+      "mechanics_notes": "Current Xenoverse 2 documentation identifies Explosive Buu Buu Punch as a 100-Ki Strike Super usable by Majin CaCs. It is documented as a nine-hit barrage with super armor and knockback. Exact current damage values are not promoted as universal.",
+      "combo_notes": "The move's super armor and multi-hit rush behavior distinguish it from ordinary single-hit Strike Supers; detailed combo routes require separate testing.",
+      "pve_notes": "The armor and sustained punch sequence can be relevant when trading with AI enemies, subject to stamina and matchup context.",
+      "pvp_notes": "Super armor changes how opponents can challenge the startup, but exact armor windows and punish timings are version-sensitive.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Explosive_Buu_Buu_Punch",
+        "https://steamcommunity.com/app/454650/discussions/0/1620599015867446781/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Victory Cannon",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Gotenks",
+      "dlc_requirement": null,
+      "ki_cost": 0,
+      "stamina_cost": 300,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest 54 — Majin Revival; reward",
+      "source_quest_or_shop": "Parallel Quest 54",
+      "ultimate_finish_required": false,
+      "skill_description": "Fires a Ki wave from the user's mouth while recoil propels the user backward to create distance from the opponent.",
+      "mechanics_notes": "Current Xenoverse 2 documentation identifies Victory Cannon as Gotenks's Ki Blast Evasive, costing 300 stamina. The attack launches nearby opponents and uses recoil to move the user backward. Exact current damage and invulnerability-frame data are intentionally unresolved.",
+      "combo_notes": "Its defining behavior is defensive repositioning through recoil rather than a conventional offensive combo sequence.",
+      "pve_notes": "Can create substantial separation after an unfavorable close-range exchange, making its movement component important against AI pressure.",
+      "pvp_notes": "The recoil changes spacing after activation; exact invulnerability and punish windows should be tested per game version rather than inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Victory_Cannon",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dragonball.fandom.com/wiki/Revenge_Cannon",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    }
+  ]
+}
