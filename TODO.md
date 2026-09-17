@@ -59,7 +59,11 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Reconciled Batch 16 core identity, classification, acquisition, resource cost, and mechanics against multiple Xenoverse 2 references without inventing unsupported reward probabilities.
 - [x] Re-verified Skill Research Batch 17 and added correction batch 35 for five proven acquisition/classification/mechanics errors: Heat Dome Attack/PQ40, Freedom Kick/PQ29, Rolling Bullet as Ki Blast Evasive/PQ42, Super Drain via Skill Shop after A Desperate Future, and Justice Pose/PQ53.
 - [x] Added Skill Research Batch 19 with Charge, Stone Bullet, Double Buster, Finish Buster, and Justice Rush after a live duplicate check.
-- [x] Preserved the pre-existing Batch 18 research instead of overwriting its records when continuing the skill sequence.
+- [x] Preserved the pre-existing Skill Research Batch 18 instead of overwriting it when continuing the sequence.
+- [x] Added **Skill Research Batch 36** covering the final DLC's new skills: Dragon Spiral, Indomitable, Venus Fist, and The Power to Overcome.
+- [x] Verified the official Future Saga Chapter 4 scope and reconciled the new PQ skill acquisition routes against PQ185/PQ186 reward evidence.
+- [x] Fixed the skill builder so correction batches can remove obsolete records when the correction changes the canonical uniqueness key.
+- [x] Inspected and reran the Repository Quality artifact-check job after its failure; GitHub currently exposes no usable step logs, so the failure remains an unresolved workflow/infrastructure issue rather than a claimed validator failure.
 
 ## In Progress
 
@@ -67,6 +71,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
 - [ ] Reconcile unresolved Skill fields against multiple independent sources before promoting records to `verified`.
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
+- [ ] Deeply verify Batch 36's three Chapter 4 PQ skills and The Power to Overcome mechanics, including exact resource costs, reward-slot semantics, detailed effects, and version-sensitive behavior.
 - [ ] Expand the Super Soul catalogue beyond the current 18 records; reconcile acquisition, triggers, effect magnitudes, durations, stacking, and Limit Burst behavior per soul.
 - [ ] Promote Super Soul records only after core identity, acquisition, effects, and key mechanics are independently reconciled.
 - [ ] Expand the Equipment Database from the initial records into the full individual clothing, equipment, accessory, shop, PQ, EM, raid, story, mentor, and DLC inventory.
@@ -74,8 +79,8 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Expand QQ Bang research from system/recipe families into observed six-stat result records and reproducible recipe/result relationships.
 - [ ] Expand the EM16–20 records into full mechanic/phase/reward tables and promote only when independently reconciled.
 - [ ] Build individual EM01–15 records and reconcile the base-game vs later-content mission-count definitions.
-- [ ] Improve PQ verification, especially acquisition conditions, Ultimate Finish requirements, and reward provenance.
-- [ ] Reconcile Awoken/Transformation records, separating CaC transformations from character-only forms.
+- [ ] Improve PQ verification, especially acquisition conditions, Ultimate Finish requirements, and reward provenance, including a dedicated PQ185–186 audit for the final DLC skills.
+- [ ] Reconcile Awoken/Transformation records, separating CaC transformations from character-only forms; include the new Power to Overcome transformation.
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
 - [ ] Expand Conton City and Time Rift records with complete NPC, service, progression, collectible, and access relationships.
 - [ ] Continue removing internal/tool artifacts from repository text.
@@ -109,10 +114,10 @@ The project is being worked as parallel tracks so the site visibly improves whil
 
 ## Next Working Cycle
 
-1. Select the next non-duplicate skill/content batch.
-2. Research and add the batch with exhaustive field coverage appropriate to that content type.
-3. Re-verify one earlier batch, including source reconciliation and corrections.
-4. Make at least one tangible website/UI improvement.
+1. Re-verify Batch 36, starting with PQ185/PQ186 reward-slot semantics and the exact mechanics of Dragon Spiral, Indomitable, and Venus Fist.
+2. Verify The Power to Overcome's exact activation/Overdrive behavior against independent technical research while retaining conflicting measurements as provenance rather than averaging them.
+3. Select the next non-duplicate skill/content batch only after the final-DLC additions have been reconciled.
+4. Make at least one tangible website/UI improvement that exposes the expanded final-DLC skill coverage.
 5. Deepen EM16–20 with exact phase/mechanic/reward tables where evidence supports them.
 6. Continue EM01–15 individual records and reconcile the strongest independently documented missions first.
 7. Populate the next Super Soul batch and resolve its acquisition/effect provenance.
@@ -121,3 +126,12 @@ The project is being worked as parallel tracks so the site visibly improves whil
 10. Update this TODO tracker and `CHANGELOG.md`.
 11. Run or inspect available validation/Actions results.
 12. Only then report completed work, actual results, coverage gaps, and unresolved blockers.
+
+## Verification Rules
+
+- `indexed` = discovered/catalogued, not researched.
+- `partially_verified` = some important facts have been checked, but one or more meaningful fields remain unresolved or source-dependent.
+- `verified` = core identity/acquisition/mechanics have been reconciled against sufficient independent evidence; it does not mean every community damage measurement is exact.
+- Never invent drop percentages, costs, unlock conditions, or character/CaC restrictions.
+- Preserve source conflicts and uncertainty in the data rather than silently choosing a convenient value.
+- Exhaustiveness means recording known details and known unknowns, not manufacturing certainty.
