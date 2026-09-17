@@ -1,8 +1,38 @@
 {
   "batch_id": 127,
   "created": "2026-09-17",
-  "verification_policy": "Single-skill Strike Super research: independently reconcile identity, acquisition route, mechanics, CaC availability, and unresolved costs without promoting unsupported claims.",
-  "research_scope": "Super Dragon Fist — Strike Super acquisition and mechanics research.",
-  "verification_audit": {"audited":"2026-09-17","method":"Compared repository research coverage with current Xenoverse 2-specific documentation and independent acquisition reports.","duplicate_check":{"status":"passed","selected_records":["Super Dragon Fist"],"duplicate_count":0,"identity_note":"No existing repository research batch for Super Dragon Fist was found. Dragon Fist is a separate Strike Ultimate and is not treated as the same identity."},"classification_finding":"Current Xenoverse 2 documentation classifies Super Dragon Fist as a Strike Super.","acquisition_finding":"Current Xenoverse 2 documentation lists Skill Shop as the acquisition route. Independent player reports also place it in the regular Skill Shop after early story progression; exact shop timing is not promoted to canonical data.","finish_policy":"ultimate_finish_required is null because the documented acquisition route is the Skill Shop rather than a Parallel Quest reward.","cost_policy":"The documented Ki cost is 100; stamina cost remains null because the reviewed sources do not establish a reliable stamina value."},
-  "records":[{"name":"Super Dragon Fist","class":"Super","subcategory":"Strike","race_restriction":null,"usable_by_cac":true,"character_source":"Goku / Goku (Super Saiyan God) / Goku (GT) Customize Partner / Goku (Super Saiyan 4) / other documented customizable partners","dlc_requirement":null,"ki_cost":100,"stamina_cost":null,"damage_type":"Strike","unlock_method":"Skill Shop","source_quest_or_shop":"Skill Shop","ultimate_finish_required":null,"skill_description":"A short-range-to-rushdown Strike Super in which the user flies toward the opponent and, on connection, performs a rapid three-hit punch sequence.","mechanics_notes":"The current Xenoverse 2 skill reference describes a short approach followed by three rapid punches on hit. Exact frame and damage values are not promoted to canonical data here.","acquisition_notes":"Skill Shop is the documented Xenoverse 2 route. Independent reports also describe the move appearing in the regular Skill Shop after early story progression; exact timing is not encoded as a fixed unlock flag.","pve_notes":"Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.","pvp_notes":"Fast approach and three-hit rushdown behavior are documented; detailed matchup and frame claims remain version-sensitive.","verification_status":"partially_verified","last_verified":"2026-09-17","sources":["https://dbxv2.fandom.com/wiki/Super_Dragon_Fist","https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74463110","https://www.reddit.com/r/dbxv/comments/dckutv"]}]
+  "verification_policy": "Single-skill Strike Super research; unresolved fields remain null.",
+  "research_scope": "Deadly Dance — Strike Super acquisition and mechanics.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository coverage with current Xenoverse 2-specific documentation and independent mentor-reward documentation.",
+    "duplicate_check": {"status":"passed","selected_records":["Deadly Dance"],"duplicate_count":0,"identity_note":"No existing repository research batch for Deadly Dance was found; canonical identity is Super / Strike."},
+    "classification_finding": "Xenoverse 2-specific documentation identifies Deadly Dance as a Strike Super.",
+    "acquisition_finding": "Deadly Dance is the Android 18 Lesson 2 mentor-training reward.",
+    "finish_policy": "ultimate_finish_required remains null because the documented acquisition route is mentor training.",
+    "cost_policy": "Ki cost is 100; stamina cost remains null."
+  },
+  "records": [{
+    "name":"Deadly Dance",
+    "class":"Super",
+    "subcategory":"Strike",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Android 18 / Android 18 (DB Super) / Krillin customizable partner / Android 17 (DB Super) customizable partner / Kefla (Super Saiyan) customizable partner",
+    "dlc_requirement":null,
+    "ki_cost":100,
+    "stamina_cost":null,
+    "damage_type":"Strike",
+    "unlock_method":"Training with Android 18",
+    "source_quest_or_shop":"Android 18 Training — Lesson 2",
+    "ultimate_finish_required":null,
+    "skill_description":"A series of dance-like kicks that can repel Ki Blasts and finishes with a somersault kick that launches the opponent.",
+    "mechanics_notes":"Five-hit Strike Super with Ki Blast-deflecting behavior and an upward launching finishing kick. Exact frame data is not encoded.",
+    "acquisition_notes":"Android 18's Lesson 2 explicitly awards Deadly Dance.",
+    "pve_notes":"Mentor-training acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+    "pvp_notes":"Ki Blast-repelling Strike Super; detailed matchup/frame behavior remains version-sensitive.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":["https://dbxv2.fandom.com/wiki/Deadly_Dance","https://dragonball.fandom.com/wiki/Deadly_Dance","https://dbxv2.fandom.com/wiki/Mentors","https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"]
+  }]
 }
