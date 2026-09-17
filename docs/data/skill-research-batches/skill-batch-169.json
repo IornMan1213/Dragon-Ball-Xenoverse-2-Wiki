@@ -1,0 +1,49 @@
+{
+  "batch_id": 169,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, acquisition route, Ki cost, CaC usability, and documented mechanics. Preserve unsupported stamina and version-sensitive values as null.",
+  "research_scope": "Android Kick — Strike Super / Skill Shop acquisition research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository Strike Super coverage with current Xenoverse 2-specific skill documentation and independent Dragon Ball documentation.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Android Kick"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Android Kick was found. The canonical identity is Super / Strike."
+    },
+    "classification_finding": "Current Xenoverse 2 documentation classifies Android Kick as a Strike Super Attack.",
+    "acquisition_finding": "Android Kick is available from the Skill Shop for the Future Warrior; the skill is also available through partner customization for specified characters.",
+    "finish_policy": "ultimate_finish_required remains null because the documented acquisition route is the Skill Shop rather than a Parallel Quest reward.",
+    "cost_policy": "Ki cost is documented as 100. Stamina cost remains null because the reviewed canonical sources do not establish a reliable stamina value."
+  },
+  "records": [
+    {
+      "name": "Android Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Mira / Fu customizable partner / Super Baby 2 customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A two-stage Strike Super in which the user performs a somersault and can input the attack again for a quick diving kick.",
+      "mechanics_notes": "The Xenoverse 2 reference describes a high somersault followed by an optional second-input dive kick. Holding back changes the initial movement to a backflip. The second input does not establish an additional Ki cost in the reviewed sources.",
+      "acquisition_notes": "The documented Future Warrior route is purchasing Android Kick from the Skill Shop. Partner customization provides additional character availability and is retained as secondary context.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "The flip has invulnerability/punish utility reported in community patch discussion, but exact frame and matchup claims are not promoted to canonical numeric data.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Android_Kick",
+        "https://dragonball.fandom.com/wiki/Android_Kick",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608443"
+      ]
+    }
+  ]
+}
