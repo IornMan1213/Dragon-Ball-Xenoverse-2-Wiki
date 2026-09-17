@@ -12,6 +12,7 @@ OUT = ROOT / "docs/data/skills.json"
 INDEX = ROOT / "docs/data/skills-index.json"
 MD = ROOT / "docs/Skills-Auto-Database.md"
 RESEARCH = Path("/tmp/xv2-research/content/skills")
+LOCAL_BATCHES = ROOT / "docs/data/skill-research-batches"
 
 TARGET_COUNTS = {
     "Ki Blast Supers": 183, "Strike Supers": 130, "Ki Blast Ultimates": 110,
@@ -81,6 +82,49 @@ def load_existing() -> dict[tuple[str, str, str], dict]:
     return out
 
 
+def merge_record(merged: dict, record: dict) -> bool:
+    name = record.get("name")
+    if not name:
+        return False
+    key = (name.casefold(), record.get("class", ""), record.get("subcategory", ""))
+    old = merged.get(key, {})
+    merged_record = dict(record)
+    for k, v in old.items():
+        if v not in (None, "", [], "—"):
+            merged_record[k] = v
+    merged_record["sources"] = list(dict.fromkeys(old.get("sources", []) + record.get("sources", [])))
+    if old.get("verification_status") == "verified":
+        merged_record["verification_status"] = "verified"
+    merged[key] = merged_record
+    return key not in {(k[0], k[1], k[2]) for k in merged if k != key}
+
+
+def load_local_batches(merged: dict[tuple[str, str, str], dict]) -> int:
+    """Import curated repository research batches before external enrichment.
+
+    Local batch records may contain richer acquisition/mechanics/provenance fields than
+    the external seed corpus. Existing curated canonical values remain authoritative
+    because merge_record preserves non-empty existing fields.
+    """
+    imported = 0
+    if not LOCAL_BATCHES.exists():
+        return imported
+    for path in sorted(LOCAL_BATCHES.glob("skill-batch-*.json")) + sorted(LOCAL_BATCHES.glob("skills-batch-*.json")):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        for record in payload.get("records", []):
+            if not isinstance(record, dict) or not record.get("name"):
+                continue
+            record = dict(record)
+            record["research_batch"] = payload.get("batch_id")
+            record["research_status"] = "curated_batch"
+            imported += 1
+            merge_record(merged, record)
+    return imported
+
+
 def build_record(data: dict, path: Path) -> dict | None:
     name = data.get("name")
     if not name:
@@ -127,7 +171,8 @@ def main() -> int:
         raise SystemExit("Structured research corpus is missing.")
     existing = load_existing()
     merged = dict(existing)
-    imported = 0
+    local_imported = load_local_batches(merged)
+    imported = local_imported
     for path in sorted(RESEARCH.glob("*.md")):
         try:
             record = build_record(parse_frontmatter(path), path)
@@ -135,16 +180,7 @@ def main() -> int:
             record = None
         if not record:
             continue
-        key = (record["name"].casefold(), record["class"], record["subcategory"])
-        old = merged.get(key, {})
-        merged_record = dict(record)
-        for k, v in old.items():
-            if v not in (None, "", [], "—"):
-                merged_record[k] = v
-        merged_record["sources"] = list(dict.fromkeys(old.get("sources", []) + record.get("sources", [])))
-        if old.get("verification_status") == "verified":
-            merged_record["verification_status"] = "verified"
-        merged[key] = merged_record
+        merge_record(merged, record)
         imported += 1
 
     rows = sorted(merged.values(), key=lambda r: (r["name"].casefold(), r["class"], r["subcategory"]))
@@ -155,20 +191,20 @@ def main() -> int:
         "generated": date.today().isoformat(), "status": "structured_research_catalog",
         "category_counts": counts, "target_category_counts": TARGET_COUNTS,
         "record_count": len(rows), "records": rows,
-        "notes": "Structured secondary research is used as a cross-reference. Records remain partially verified until independently curated against primary game/wiki sources.",
+        "notes": "Structured secondary research and repository research batches are cross-reference layers. Records remain partially verified until independently curated against primary game/wiki sources; curated verified records are preserved.",
     }
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     INDEX.write_text(json.dumps({
         "schema_version": "1.2", "source_index": payload["source_index"], "generated": payload["generated"],
         "category_counts": counts, "target_category_counts": TARGET_COUNTS, "record_count": len(rows),
-        "records": [{k: r[k] for k in ("name", "class", "subcategory", "verification_status", "research_status", "sources")} for r in rows],
+        "records": [{k: r[k] for k in ("name", "class", "subcategory", "verification_status", "research_status", "sources") if k in r} for r in rows],
     }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     verified = sum(r["verification_status"] == "verified" for r in rows)
     partial = sum(r["verification_status"] == "partially_verified" for r in rows)
     lines = [
         "# Skills — Exhaustive Research Database", "",
-        f"> Generated {payload['generated']}. Imported {imported} structured individual skill records and retained existing curated records.",
+        f"> Generated {payload['generated']}. Imported {imported} research records (including {local_imported} repository batch records) and retained existing curated records.",
         f"> **Current records:** {len(rows)} · **Verified:** {verified} · **Partially verified:** {partial}",
         f"> **Coverage target:** {sum(TARGET_COUNTS.values())} indexed skill-category memberships.",
         "",
@@ -177,9 +213,9 @@ def main() -> int:
     ]
     for r in rows:
         lines.append("| " + " | ".join(md(r.get(k)) for k in ("name", "class", "subcategory", "skill_description", "unlock_method", "source_quest_or_shop", "ki_cost", "verification_status")) + " |")
-    lines += ["", "## Verification policy", "", "Structured research is a discovery and cross-reference layer. It does not automatically promote records to fully verified status. Missing fields are intentionally left blank.", ""]
+    lines += ["", "## Verification policy", "", "Structured research is a discovery and cross-reference layer. Repository research batches may provide curated acquisition/mechanics evidence, but records are not promoted to verified without independent corroboration. Missing fields are intentionally left blank.", ""]
     MD.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Imported {imported}; total records={len(rows)}; partial={partial}; verified={verified}")
+    print(f"Imported {imported} ({local_imported} local batches); total records={len(rows)}; partial={partial}; verified={verified}")
     return 0
 
 
