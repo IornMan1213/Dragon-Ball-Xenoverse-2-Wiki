@@ -1,6 +1,10 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Parallel Quest Audit Batch 1** covering **PQ1-PQ10** with structured records for quest identity, star difficulty, objective/lose-condition sequences, historically documented basic rewards, skill reward candidates, and Ultimate Finish triggers.
+- Cross-checked PQ1-PQ10 against the maintained 186-PQ transcription and independent hidden-objective references. Exact reward-slot probabilities remain unresolved where the accessible sources do not establish them, so no unsupported drop rates were added.
+- Added the first structured PQ audit source file at `docs/data/parallel-quest-research-batches/pq-batch-01.json` and updated `docs/Parallel-Quest-Audit.md` with the verified coverage and audit policy.
+
 - Added **Skill Research Batch 54** with fifteen base-game skills from PQ86-PQ100: **Neo Wolf Fang Fist**, **Atomic Blast**, **Buu Buu Ball**, **Victory Rush**, **III Bomber**, **Final Kamehameha**, **Maiden Burst**, **Bluff Kamehameha**, **Drain Field**, **Absolute Zero**, **Charged Ki Wave**, **Phantom Fist**, **Dimension Ray**, **Emperor's Edge**, and **X100 Big Bang Kamehameha**.
 - Duplicate-audited all fifteen Batch 54 names against the live repository before addition; no repository-search matches were returned for the selected records. Existing **Charge** and **Flash Bomber** research was intentionally reused rather than duplicated.
 - Cross-checked Batch 54 against the maintained PQ reward transcription, the all-186-PQ walkthrough, and an independent hidden-objective/Ultimate-Finish reference. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
@@ -8,17 +12,17 @@
 - **Neo Wolf Fang Fist** retains partially unresolved resource/extension mechanics pending deeper skill-specific reconciliation.
 
 - Added **Skill Research Batch 53** with five base-game skills from PQ81-PQ85: **Afterimage Strike**, **Dragon Burn**, **Charge**, **Saiyan Spirit**, and **Zigzag Express**.
-- Duplicate-audited all five Batch 53 names against the live repository before addition; no repository-search matches were returned for the selected records.
+- Duplicate-audited all five Batch 53 names against the live repository; no repository-search matches were returned for the selected records.
 - Cross-checked Batch 53 against the maintained PQ reward transcription, current skill-specific references, and independent technique material. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
 
 - Added **Skill Research Batch 52** with ten base-game skills from PQ71-PQ80: **Last Emperor**, **Burst Kamehameha**, **Psychic Move**, **Final Pose**, **Counter Burst**, **Warp Kamehameha**, **Ki Explosion**, **Dust Attack**, **Mighty Explosive Wave**, and **Dimensional Hole**.
-- Duplicate-audited all ten Batch 52 names against the live repository before addition; no repository-search matches were returned for the selected records.
+- Duplicate-audited all ten Batch 52 names against the live repository; no repository-search matches were returned for the selected records.
 - Cross-checked Batch 52 against the maintained PQ reward transcription, GameFAQs, the historical XVGuide skill list, current skill-specific references, and an independent technique/character-ID reference. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
 - **Warp Kamehameha** has a current-vs-older Ki-cost discrepancy (400 vs. 300); the current skill-specific value is retained while the older value remains documented in provenance.
 - **Psychic Move** and **Final Pose** retain unresolved stamina costs rather than receiving inferred values. **Dimensional Hole** is explicitly separated from the later Evasive Mighty Explosive Wave variant.
 
 - Added **Skill Research Batch 51** with eleven early/base-game skills from PQ61-PQ70: **Recoome Kick**, **Fighting Pose H**, **Teleporting Vanishing Ball**, **Kai Kai**, **Ill Rain**, **Scissors Paper Rock**, **Candy Beam**, **Super God Fist**, **Angry Shout**, **Headshot**, and **Emperor's Blast**.
-- Duplicate-audited all eleven Batch 51 names against the live repository before addition; no repository-search matches were returned for the selected records.
+- Duplicate-audited all eleven Batch 51 names against the live repository; no repository-search matches were returned for the selected records.
 - Cross-checked Batch 51 against the maintained PQ reward transcription, GameFAQs, current skill-specific references, and independent technique/character-ID material. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
 - **Kai Kai** retains unresolved resource costs because the accessible sources establish the teleportation technique but do not provide a sufficiently reliable current cost.
 - The PQ66 **Candy Beam** record specifically represents the Evasive variant and is kept distinct from the later Candy Beam Super.
