@@ -33,80 +33,32 @@ Only one Super Soul can be equipped at a time on a preset. Because copies are sh
 | **Version notes** | Changes, exceptions, or unresolved version differences |
 | **Verification** | `indexed`, `partially_verified`, or `verified` |
 
-## Effect notation
-
-Community references commonly use letter tiers for effect magnitude. The current catalogue describes S/M/L/XL as generally corresponding to 5/10/15/20 percent, while XXL can vary. These tiers are treated as reference notation, not a substitute for an exact numeric value when one is documented.
-
-## Trigger categories
-
-The structured catalogue separates triggers instead of reducing every soul to a generic damage bonus.
-
-- **Always** — active while equipped.
-- **Battle start** — activates when the battle begins.
-- **HP threshold** — activates at a specified HP condition.
-- **Ki threshold** — activates at a specified Ki condition.
-- **Stamina threshold** — activates at a specified stamina condition.
-- **Awoken activation** — reacts to a particular transformation.
-- **Skill activation** — reacts to using a defined skill category or skill.
-- **KO / revive** — reacts to the user or another combatant being KO'd or revived.
-- **Just Guard** — reacts to a successful Just Guard.
-- **Charged Ki Blast** — reacts to a charged Ki Blast connecting.
-- **Reinforcement activation** — reacts to an active reinforcement skill.
-
-## Acquisition coverage
-
-The catalogue must eventually account for every documented acquisition route, including:
-
-1. Parallel Quest reward tables.
-2. Item Shop purchases.
-3. TP Medal Shop and STP Medal Shop rotations.
-4. Mixing Shop recipes.
-5. Conton City and NPC rewards.
-6. Expert Mission rewards.
-7. Raid and event rewards.
-8. Story and progression rewards.
-9. DLC-specific PQ and system rewards.
-10. Special or version-sensitive acquisition paths.
-
-Current references confirm that Super Souls span multiple acquisition systems rather than being limited to PQs.
-
 ## Current structured catalogue
 
 The machine-readable source of truth is `docs/data/super-souls-record-layer.json`.
 
-The first research batch contains 10 canonical records. The project intentionally does **not** treat those 10 records as the complete Super Soul catalogue.
+The canonical layer currently contains **18 populated records**. This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
 
-### Initial records
+### Canonical records
 
-| ID | Super Soul | Source | Acquisition | Status |
+The initial canonical population covers the first 18 research records, including PQ, Item Shop, TP/STP Shop, and NPC acquisition families. All remain `partially_verified` until acquisition details and important mechanics are sufficiently reconciled.
+
+### Staged research batch 03
+
+The next eight records have now been researched and staged in `docs/data/super-souls-research-batch-03.json`. They are deliberately **not merged into the canonical layer yet**; this keeps the canonical dataset's verification workflow honest while acquisition and current-version details are reconciled.
+
+| Staged ID | Super Soul | Source | Acquisition | Status |
 |---|---|---|---|---|
-| 001 | Hee Hee Sunglasses | Kid Goku | Item Shop | Partially verified |
-| 002 | Flying Nimbus!! | Goku | PQ02 | Partially verified |
-| 003 | Haaaaaaaaaaaah!! | Tien | TP/STP Medal Shop | Partially verified |
-| 004 | Your death is imminent! | Piccolo | PQ05 | Partially verified |
-| 005 | Your power is 5? ...Scum. | Raditz | Item Shop | Partially verified |
-| 006 | Get lost before I send you flying. | Yamcha | Item Shop | Partially verified |
-| 007 | Gyau!!!! | Saibaman | PQ07 | Partially verified |
-| 008 | Tien, please don't die | Chiaotzu | Item Shop | Partially verified |
-| 009 | You cocky little...! | Nappa | Acquisition unresolved | Partially verified |
-| 010 | I'll kill all of you!! | Dodoria | PQ22 | Partially verified |
+| 024 | I'm the fastest in the universe | Burter | Item Shop | Partially verified |
+| 025 | We're the one and only Ginyu Force! | Jeice | Item Shop | Partially verified |
+| 026 | Let me show you how it's done. | Ginyu | Item Shop | Partially verified |
+| 027 | I must protect Grand Elder Guru! | Nail | Item Shop | Partially verified |
+| 028 | Popporunga pupirittparo | Dende | NPC Sasana | Partially verified |
+| 029 | The ultimate power is mine! | Piccolo | Mixing Shop / DLC provenance | Partially verified |
+| 030 | I'll never forgive you, scum! | Frieza (1st Form) | Item Shop | Partially verified |
+| 031 | Drop dead!!! | Gohan (Kid) | PQ28 | Partially verified |
 
-## Next research targets
-
-The next catalogue pass is targeting the following documented records after the initial batch:
-
-| Target | Character | Acquisition currently indexed | Important mechanics to reconcile |
-|---|---|---|---|
-| H-How could he?! | Zarbon | PQ12 | Always; stamina recovery +5% |
-| Saiyans are a warrior race!! | Vegeta | Item Shop | Enemy KO; Strike damage; stacking behavior |
-| Kieeeee!! | Guldo | Item Shop | Charged Ki Blast hit; Slow status |
-| Your life is mine! Toh! | Recoome | Item Shop | Reinforcement activation; all Attack +10%; duration |
-| I must tell Lord Frieza... | Appule | Item Shop | Passive-effect state and Limit Burst |
-| Tch... Guess I have no choice. | Raspberry | Item Shop | Passive-effect state and Limit Burst |
-| Unleash your power!! | Krillin | Item Shop | Battle-start effect and duration |
-| Stop trampling on Namek's peace! | Young Namekian | NPC Moraska | Ally-race scaling and mobility effect |
-
-These entries remain research targets until their structured records are added and independently reconciled.
+The staged batch follows the game's catalogue ordering for this research pass; its IDs are research identifiers and do not overwrite the canonical layer's existing IDs.
 
 ## Verification policy
 
@@ -116,12 +68,17 @@ A record may be promoted to **verified** only when its core identity, acquisitio
 
 `indexed` means the soul has been catalogued or discovered, but substantial research remains.
 
+## Acquisition coverage
+
+The catalogue must eventually account for Parallel Quests, Item Shop purchases, TP/STP Medal Shop rotations, Mixing Shop recipes, Conton City/NPC rewards, Expert Missions, raids/events, story/progression rewards, DLC-specific content, and version-sensitive acquisition paths.
+
 ## DLC provenance
 
-DLC ownership and in-game acquisition are stored separately. A DLC can introduce a Super Soul while the soul itself may be obtained through a PQ or another in-game route after the relevant content is available. Official Bandai Namco DLC descriptions confirm that DLC packs can contain dedicated Super Souls alongside characters, PQs, skills, and other content.
+DLC ownership and in-game acquisition are stored separately. A DLC can introduce a Super Soul while the soul itself may be obtained through a PQ or another in-game route after the relevant content is available. DLC provenance should never be used as a substitute for an acquisition condition.
 
 ## Research priorities
 
+- Merge staged records into the canonical layer only after schema, duplicate, acquisition, and source reconciliation passes.
 - Populate the remaining base-game catalogue.
 - Reconcile acquisition and effects against independent references.
 - Inventory DLC-specific Super Souls by DLC family.
