@@ -46,56 +46,38 @@ Structured in `pq-batch-04.json`. Covers Cell training through the Future Warrio
 
 ### Batch 5 — PQ41–PQ50
 
-Structured in `pq-batch-05.json`. Covers Future Androids, Dragon Ball collection, Android 16, Broly/Vegeta protection, the second World Tournament, Namek training, and Majin Buu quests. Skills documented include Burning Attack, Rolling Bullet, Change The Future, God Breaker, Burning Slash, Taunt, Chain Destructo-Disc Barrage, Kamekameha, Do or Die, and Explosive Buu Buu Punch.
+Structured in `pq-batch-05.json`. Covers Future Androids, Dragon Ball collection, Android 16, Broly/Vegeta protection, the second World Tournament, Namek training, and Majin Buu quests.
 
 ### Batch 6 — PQ51–PQ60
 
-Structured in `pq-batch-06.json`. Covers Great Saiyaman, Super Saiyan bargain, Majin Buu, Gotenks, Hercule, Janemba, Potara, and Super Spirit Bomb quests. Skills documented include Burst Rush, Final Cannon, Justice Pose, Victory Cannon, Super Donut Volley, Stone Bullet, Rakshasa's Claw, Vanishing Ball, Force Shield, Dimension Cannon, and Majin Kamehameha.
+Structured in `pq-batch-06.json`. Covers Great Saiyaman, Super Saiyan bargain, Majin Buu, Gotenks, Hercule, Janemba, Potara, and Super Spirit Bomb quests.
 
 ### Batch 7 — PQ61–PQ70
 
 Structured in `pq-batch-07.json`. Covers continued Cell Games, Frieza rematch, Beerus/Whis, Super Saiyan God, Dragon Ball recovery, God of Destruction, and Golden Frieza/Metal Cooler quests.
 
-- **PQ61 — The Cell Games Continued:** defeat Gohan, Videl, and Piccolo; defeat Videl and Piccolo before Gohan; then defeat Gohan with Cell alive. Recoome Kick and Fighting Pose H are documented.
-- **PQ62 — Frieza's Nightmare Returns!:** defeat Vegito and Gotenks, defeat Gotenks before Vegito, then defeat Super Vegito and Super Saiyan 3 Gotenks. Teleporting Vanishing Ball is documented.
-- **PQ63 — Appetite for Destruction:** defeat Beerus and Whis, defeat Beerus last, then defeat Beerus again; Kai Kai is documented.
-- **PQ64 — Beerus the Impulsive:** defeat all enemies with at least eight minutes remaining, then defeat Beerus; Ill Rain is documented.
-- **PQ65 — The New Warriors:** defeat all enemies, clear within eight minutes, then defeat Goku and Vegeta; Scissors Paper Rock is documented.
-- **PQ66 — Stop Beerus' Destruction:** defeat Beerus without an ally being defeated, then defeat Whis; Candy Beam is documented.
-- **PQ67 — Power of a Super Saiyan God:** defeat Goku, clear under three minutes, then defeat revived Goku; Super God Fist is documented.
-- **PQ68 — Old Rivals and Dragon Balls:** recover three Dragon Balls, defeat Frieza/Cell/Kid Buu, then recover all seven; Angry Shout is documented.
-- **PQ69 — God of Destruction and His Master:** defeat Beerus and Whis, clear under five minutes, then defeat revived Beerus; Headshot is documented.
-- **PQ70 — Things Are Getting Serious!:** defeat all enemies, clear within eight minutes, then defeat Golden Frieza and Metal Cooler; Emperor's Blast is documented.
-
 ### Batch 8 — PQ71–PQ80
 
 Structured in `pq-batch-08.json`. Covers Golden Frieza/Frieza Force assaults, Galactic Patrol training, Beerus/Whis training, the Goku/Vegeta rivalry, parent-and-child training, Broly's revival, and Great Ape festival quests.
 
-- **PQ71 — Abominable Saiyans:** keep Trunks above 50%, then defeat Golden Frieza; Last Emperor is documented.
-- **PQ72 — First Training:** clear under five minutes and defeat all enemies while Golden Frieza survives; Burst Kamehameha is documented.
-- **PQ73 — Frieza's Siege Against Earth!:** defeat all enemies before Golden Frieza appears, then complete the final phase; Psychic Move is documented.
-- **PQ74 — Galactic Patrol, Away!:** clear within ten minutes, keep Jaco alive, then defeat Golden Frieza; Final Pose is documented.
-- **PQ75 — Room to Spare:** have Beerus enter the next battle with Whis remaining, then defeat Beerus and Whis; Counter Burst is documented.
-- **PQ76 — Eternal Rival:** defeat the SSGSS pair, defeat SS4 Goku after SS4 Vegeta appears, then defeat the SSGSS pair again; Warp Kamehameha is documented.
-- **PQ77 — Parent and Child:** clear within ten minutes, then defeat all enemies; Ki Explosion is documented.
-- **PQ78 — Heated, Furious, Ultimate Battle:** keep revived Goku alive, then defeat revived Broly; Dust Attack is documented.
-- **PQ79 — Great Ape Festival:** clear within ten minutes, then defeat the training Time Patroller; Mighty Explosive Wave is documented.
-- **PQ80 — The Return of the Giant Ape-Fest!:** keep Jaco and Pan alive, then defeat all enemies; Dimensional Hole is documented.
-
 ### Batch 9 — PQ81–PQ90
 
-Structured in `pq-batch-09.json`. This block covers the later base-game Gogeta, Golden Frieza/Metal Cooler, Broly/Dragon Ball, Saiyan, Yamcha, Dragon Ball collection, ultimate-series, and great-evil-alliance quests. Objective sequences and documented basic rewards were cross-checked against the maintained PQ transcription and independent hidden-objective references. Exact random reward-slot/drop percentages remain unresolved.
+Structured in `pq-batch-09.json`. Covers later base-game Gogeta, Golden Frieza/Metal Cooler, Broly/Dragon Ball, Saiyan, Yamcha, Dragon Ball collection, ultimate-series, and great-evil-alliance quests. Exact random reward-slot/drop percentages remain unresolved.
 
-- **PQ81 — Wake UP!:** defeat all enemies, clear within eight minutes, then defeat Gogeta; Afterimage Strike is documented.
-- **PQ82 — Ultimate Brotherly Battle:** defeat all enemies, clear within eight minutes, then defeat Golden Frieza and Metal Cooler; Dragon Burn is documented.
-- **PQ83 — Dangerous Duo! Warriors Never Rest:** recover three Dragon Balls, defeat Broly while Gohan survives, then recover all seven; Charge is documented.
-- **PQ84 — Saiyan Warriors:** defeat Broly, clear within ten minutes, then defeat Broly, Vegito, and Gotenks; Saiyan Spirit is documented.
-- **PQ85 — Power Berserkers:** defeat Gohan, Piccolo, and Vegeta, clear within ten minutes, then defeat Gohan, Broly, and Bardock; Zigzag Express is documented.
-- **PQ86 — Yamcha is Number One:** clear in under five minutes, then defeat Yamcha again; Neo Wolf Fang Fist is documented.
-- **PQ87 — Saiyan Battle:** defeat Gotenks, Gohan, and Vegeta, clear in under five minutes, then defeat Goku and the revived warriors; Atomic Blast is documented.
-- **PQ88 — Evil Seeks Dragon Balls Yet Again!:** recover six Dragon Balls, defeat all enemies, then recover the seventh; Buu Buu Ball is documented.
-- **PQ89 — Super-Super Ultimate Series of Battles!:** defeat Goku, Gohan, and Goten, clear within ten minutes, then defeat Vegito and Gotenks; Victory Rush is documented.
-- **PQ90 — Gathering of the Great Evil Alliance:** defeat all enemies, clear within ten minutes, then defeat revived Frieza, Cell, and Majin Buu; III Bomber is documented.
+### Batch 10 — PQ91–PQ100
+
+Structured in `pq-batch-10.json`. This completes the **100 base-game PQ audit block**. The quests cover the Saiyan Revolt, Baby/Tuffle conflict, Pan and GT Goku scenario, Shadow Dragons, Super 17, Mira/Towa, villain regrouping, Frieza-race invasion, and the final SSGSS rivalry.
+
+- **PQ91 — Saiyan Revolt:** defeat Goku while keeping Raditz and Nappa alive, then defeat Vegito; Final Kamehameha is documented.
+- **PQ92 — Revenge of the Tuffle:** defeat Great Ape Baby, clear under five minutes, then defeat Goku; Maiden Burst is documented.
+- **PQ93 — Small but Strong!:** defeat Goku, defeat GT Goku and Trunks before Pan, then defeat Goku and Vegeta; documented rewards are equipment/Super Souls rather than a documented skill reward.
+- **PQ94 — Ultimate Power, Ultimate Saiyan:** defeat Gogeta, clear under five minutes, then defeat Gogeta, Eis, Nuova, and Omega Shenron; Bluff Kamehameha is documented.
+- **PQ95 — Super 17, the Ultimate Android:** defeat Super 17 while keeping Goku alive, then defeat revived Super 17; Spirit Explosion is documented.
+- **PQ96 — The Shadow Dragons:** defeat Omega Shenron while keeping all allies alive, then defeat all enemies; Crazy Finger Shot is documented.
+- **PQ97 — Insidious Plot:** defeat Mira and Towa, clear under three minutes, then defeat all enemies; Sauzer Blade is documented.
+- **PQ98 — Villains Regroup!:** defeat all enemies, clear under five minutes, then defeat Janemba and Turles; Dimension Ray is documented.
+- **PQ99 — Frieza Race Revivified:** defeat all enemies, clear under five minutes, then defeat Frieza and the avatar; Emperor's Edge is documented.
+- **PQ100 — The Ultimate Rivalry:** defeat all enemies, clear within eight minutes, then defeat SSGSS Goku and SSGSS Vegeta; X100 Big Bang Kamehameha is documented.
 
 ## Early verified examples
 
@@ -115,7 +97,7 @@ A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black 
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
-Current structured audit coverage: **PQ1–PQ90** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
+Current structured audit coverage: **PQ1–PQ100** plus the previously documented spot-verified PQ examples. The base-game 100-PQ block is now structurally covered; remaining work moves into the DLC PQ blocks, with the same provenance and conflict-preservation rules.
 
 ## Primary research corpus
 
