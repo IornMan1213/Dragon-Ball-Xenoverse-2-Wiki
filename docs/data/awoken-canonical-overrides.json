@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "status": "promoted_research_overrides",
+  "generated": "2026-09-17",
+  "policy": "Only fields supported by the completed Awoken research batches are eligible for canonical enrichment. Unresolved or conflicting values are retained as notes rather than guessed canonical values.",
+  "source_batches": [
+    "docs/data/awoken-research-batches/awoken-batch-02-corrections.json",
+    "docs/data/awoken-research-batches/awoken-batch-03-acquisition-audit.json",
+    "docs/data/awoken-research-batches/awoken-batch-04-mechanics-audit.json",
+    "docs/data/awoken-research-batches/awoken-batch-05-classification-audit.json"
+  ],
+  "records": [
+    {"name":"Super Saiyan","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"ki_cost":300,"mechanics_notes":"+10% Strike, +5% Ki Blast, +5% Strike Defense; Ki regeneration penalty varies by stage. Stage chain: Super Saiyan -> Super Saiyan 2 -> Super Saiyan 3.","verification_status":"partially_verified"},
+    {"name":"Super Saiyan God","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"ki_cost":300,"mechanics_notes":"Current research supports +60% Basic Attack, +60% Ki recovery and +12.5% movement speed; does not directly increase Strike/Ki Blast skill damage.","verification_status":"partially_verified"},
+    {"name":"Super Saiyan God Super Saiyan","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"ki_cost":500,"mechanics_notes":"+25% all attack and current research supports reduced damage taken; sustained Ki-drain behavior is version-sensitive and retained in research notes.","verification_status":"partially_verified"},
+    {"name":"Super Saiyan God Super Saiyan (Evolved)","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"ki_cost":500,"mechanics_notes":"+35% all attack and +10% damage resistance; current research records an 18% Ki-recovery/drain penalty.","verification_status":"partially_verified"},
+    {"name":"Future Super Saiyan","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"ki_cost":300,"mechanics_notes":"+10% Strike and +5% Ki Blast; current research treats the faster Stamina regeneration behavior as authoritative and flags conflicting in-game wording.","verification_status":"partially_verified"},
+    {"name":"Super Vegeta","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"ki_cost":300,"mechanics_notes":"+5% Strike, +10% Ki Blast and +5% Blast Defense. Stage 2 is Super Vegeta 2.","verification_status":"partially_verified"},
+    {"name":"Purification","class":"Awoken","subcategory":"Race","race_restriction":"Majin","usable_by_cac":true,"ki_cost":300,"mechanics_notes":"Replaces the normal moveset with a Kid Buu-style moveset; current research records transformation-specific Stamina/resource behavior.","verification_status":"partially_verified"},
+    {"name":"Become Giant","class":"Awoken","subcategory":"Race","race_restriction":"Namekian","usable_by_cac":true,"ki_cost":300,"mechanics_notes":"Giant Namekian moveset with hyper armor; maintained technical research records 20 Stamina/sec and restricted Ultimate/evasive use.","verification_status":"partially_verified"},
+    {"name":"Turn Golden","class":"Awoken","subcategory":"Race","race_restriction":"Frieza Race","usable_by_cac":true,"ki_cost":300,"mechanics_notes":"+30% Ki Blast and +20% movement speed; resource behavior remains version-sensitive in the research corpus.","verification_status":"partially_verified"},
+    {"name":"Power Pole Pro","class":"Awoken","subcategory":"Race","race_restriction":"Earthling","usable_by_cac":true,"ki_cost":0,"unlock_method":"Level 35 and completion of the Great Saiyaman/Hercule's House questline.","mechanics_notes":"Nimbus and Power Pole moveset; transformation ends on hitstun or grab.","verification_status":"verified"},
+    {"name":"Kaioken","class":"Awoken","subcategory":"Race","race_restriction":"Universal","usable_by_cac":true,"ki_cost":100,"source_quest_or_shop":"Parallel Quest 8 Ultimate Finish","mechanics_notes":"Base stage of the Kaioken chain. Higher stages are Kaioken x3 and Kaioken x20.","verification_status":"partially_verified"},
+    {"name":"Potential Unleashed","class":"Awoken","subcategory":"Race","race_restriction":"Universal","usable_by_cac":true,"ki_cost":500,"unlock_method":"Patroller Academy advancement-test progression; final test requires the prerequisite advancement tests to be completed at the required rank.","mechanics_notes":"+15% all attack and +5% defense in current research. Sources disagree on whether the 500 Ki requirement is represented as consumed or merely required; this remains explicitly unresolved.","verification_status":"partially_verified"},
+    {"name":"Beast","class":"Awoken","subcategory":"Race","race_restriction":"Universal","usable_by_cac":true,"ki_cost":500,"mechanics_notes":"Consumes 500 Ki on activation; +30% all attack, +20% damage taken, +20% Ki recovery.","verification_status":"partially_verified"},
+    {"name":"Ultra Instinct","class":"Awoken","subcategory":"Race","race_restriction":"Universal","usable_by_cac":true,"ki_cost":500,"mechanics_notes":"Current-version correction: requires 500 Ki but no longer consumes the five Ki bars on activation. No base attack/defense modifier; auto-dodge costs 100 Stamina and the counter mechanic has a 100 Ki cost.","verification_status":"verified"},
+    {"name":"The Power to Overcome","class":"Awoken","subcategory":"Race","race_restriction":"Universal","usable_by_cac":true,"dlc_requirement":"Future Saga Chapter 4","ki_cost":500,"mechanics_notes":"Two-stage transformation. Current 2026 research supports a roughly 12-second second stage with effectively unlimited/rapid Ki and health drain; exact cooldown and some stage-1 values remain unresolved.","verification_status":"partially_verified"}
+  ],
+  "excluded_from_promotion": [
+    "Super Saiyan 2",
+    "Super Saiyan 3",
+    "Super Vegeta 2",
+    "Kaioken x3",
+    "Kaioken x20"
+  ],
+  "excluded_note": "These are staged forms represented through their parent Awoken records rather than separate canonical transformation records."
+}
