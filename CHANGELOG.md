@@ -1,6 +1,13 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Parallel Quest Audit Batch 4** covering **PQ31-PQ40** with structured records for quest identity, star difficulty, objective/lose-condition sequences, documented basic rewards, skill reward candidates, and Ultimate Finish triggers.
+- Cross-checked PQ31-PQ40 against the maintained 186-PQ reward transcription plus independent hidden-objective references. Exact reward-slot/drop percentages remain unresolved where the accessible evidence does not establish them.
+- Preserved the **PQ36 existence conflict** instead of silently deleting the quest: the long-running game-specific reward transcription and multiple independent guides document "The Cell Games Begin" as PQ36, while a newer independently maintained datamined corpus claims PQ36 was cut. The local audit retains the directly documented PQ36 record pending deeper game-file reconciliation.
+- Added **Parallel Quest Audit Batch 3** covering **PQ21-PQ30** with structured objective, lose-condition, basic-reward, skill-reward, and Ultimate Finish records. Reward-slot/drop semantics remain unresolved where not directly established.
+- Cross-checked PQ21-PQ30 against GameFAQs, Critical Hit, Steam's maintained PQ transcription, and independent hidden-objective references. Duplicate audit passed with zero duplicates.
+- Added **Parallel Quest Audit Batch 2** covering **PQ11-PQ20** with structured quest identity, objective sequences, documented rewards, skill reward candidates, and Ultimate Finish triggers.
+- Cross-checked PQ11-PQ20 against the maintained 186-PQ transcription and independent hidden-objective references. Exact reward-slot probabilities remain unresolved where the accessible sources do not establish them.
 - Added **Parallel Quest Audit Batch 1** covering **PQ1-PQ10** with structured records for quest identity, star difficulty, objective/lose-condition sequences, historically documented basic rewards, skill reward candidates, and Ultimate Finish triggers.
 - Cross-checked PQ1-PQ10 against the maintained 186-PQ transcription and independent hidden-objective references. Exact reward-slot probabilities remain unresolved where the accessible sources do not establish them, so no unsupported drop rates were added.
 - Added the first structured PQ audit source file at `docs/data/parallel-quest-research-batches/pq-batch-01.json` and updated `docs/Parallel-Quest-Audit.md` with the verified coverage and audit policy.
@@ -16,7 +23,7 @@
 - Cross-checked Batch 53 against the maintained PQ reward transcription, current skill-specific references, and independent technique material. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
 
 - Added **Skill Research Batch 52** with ten base-game skills from PQ71-PQ80: **Last Emperor**, **Burst Kamehameha**, **Psychic Move**, **Final Pose**, **Counter Burst**, **Warp Kamehameha**, **Ki Explosion**, **Dust Attack**, **Mighty Explosive Wave**, and **Dimensional Hole**.
-- Duplicate-audited all ten Batch 52 names against the live repository; no repository-search matches were returned for the selected records.
+- Duplicate-audited all ten Batch 52 names against the live repository; no code-search matches were returned for the selected records.
 - Cross-checked Batch 52 against the maintained PQ reward transcription, GameFAQs, the historical XVGuide skill list, current skill-specific references, and an independent technique/character-ID reference. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
 - **Warp Kamehameha** has a current-vs-older Ki-cost discrepancy (400 vs. 300); the current skill-specific value is retained while the older value remains documented in provenance.
 - **Psychic Move** and **Final Pose** retain unresolved stamina costs rather than receiving inferred values. **Dimensional Hole** is explicitly separated from the later Evasive Mighty Explosive Wave variant.
