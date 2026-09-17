@@ -7,6 +7,7 @@ on:
       - "scripts/sync_skills.py"
       - "scripts/build_skills_from_research.py"
       - "scripts/apply_awoken_overrides.py"
+      - "scripts/normalize_awoken_transformation_category.py"
       - "scripts/validate_skills.py"
       - "scripts/validate_awoken_integrity.py"
       - "docs/data/skills.schema.json"
@@ -52,6 +53,9 @@ jobs:
       - name: Apply researched Awoken canonical overrides
         run: python scripts/apply_awoken_overrides.py
 
+      - name: Normalize Awoken Transformation category
+        run: python scripts/normalize_awoken_transformation_category.py
+
       - name: Validate canonical database
         run: python scripts/validate_skills.py
 
@@ -68,6 +72,7 @@ jobs:
           print(f"Generated: {data.get('generated')}")
           print(f"Status: {data.get('status')}")
           print(f"Awoken promotion: {data.get('awoken_promotion', {})}")
+          print(f"Awoken Transformation category: {data.get('awoken_transformation_category', {})}")
           PY
 
       - name: Create update PR when data changes
@@ -78,7 +83,7 @@ jobs:
           body: |
             Automated refresh of the Xenoverse 2 skill catalog.
 
-            This refresh imports structured individual skill records plus curated repository research batches as a research/cross-reference layer, applies explicitly verified Awoken overrides, retains curated records, preserves source provenance, and leaves records partially verified until independently confirmed.
+            This refresh imports structured individual skill records plus curated repository research batches as a research/cross-reference layer, applies explicitly verified Awoken overrides, normalizes the current CaC Awoken Transformation category, retains curated records, preserves source provenance, and leaves records partially verified until independently confirmed.
 
             The sync workflow intentionally does not trigger on generated catalog files, preventing a merged sync PR from recursively retriggering itself.
           branch: automated/skills-catalog-sync
