@@ -28,6 +28,12 @@ def main():
    errors.append(f"{r.get('name')}: ultimate_finish_required=false lacks explicit evidence")
   if uf not in (None,True,False):
    errors.append(f"{r.get('name')}: invalid ultimate_finish_required value")
+  if r.get('usable_by_cac') is True:
+   if not any(r.get(f) not in (None,'',[]) for f in ('race_restriction','character_source','unlock_method')):
+    errors.append(f"{r.get('name')}: usable_by_cac=true lacks player-character evidence")
+  for source in r.get('sources',[]):
+   if isinstance(source,str) and ('543This' in source or source.endswith('This')):
+    errors.append(f"{r.get('name')}: malformed source URL {source}")
  ikeys=[key(r) for r in ir]
  if keys!=ikeys:errors.append('skills-index.json is not in the same deterministic record order/content key sequence as skills.json')
  for a,b in zip(rs,ir):
