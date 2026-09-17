@@ -1,0 +1,62 @@
+{
+  "batch_id": 55,
+  "created": "2026-09-17",
+  "verification_policy": "evidence_certainty_correction",
+  "research_scope": "Correct unsupported negative Ultimate Finish assertions carried by skill batches 14 and 15. These records document acquisition routes but do not establish that an Ultimate Finish is not required, so the canonical value is unresolved (null).",
+  "corrections": [
+    {
+      "name": "Afterimage",
+      "class": "Super",
+      "subcategory": "Other",
+      "correction_of": {"name": "Afterimage", "previous_class": "Super", "previous_subcategory": "Other"},
+      "correction_fields": ["ultimate_finish_required"],
+      "ultimate_finish_required": null,
+      "sources": ["https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-14.json"]
+    },
+    {
+      "name": "Aura Slide",
+      "class": "Super",
+      "subcategory": "Strike",
+      "correction_of": {"name": "Aura Slide", "previous_class": "Super", "previous_subcategory": "Strike"},
+      "correction_fields": ["ultimate_finish_required"],
+      "ultimate_finish_required": null,
+      "sources": ["https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-14.json"]
+    },
+    {
+      "name": "Super Afterimage",
+      "class": "Super",
+      "subcategory": "Other",
+      "correction_of": {"name": "Super Afterimage", "previous_class": "Super", "previous_subcategory": "Other"},
+      "correction_fields": ["ultimate_finish_required"],
+      "ultimate_finish_required": null,
+      "sources": ["https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-14.json"]
+    },
+    {
+      "name": "Dodoria Headbutt",
+      "class": "Super",
+      "subcategory": "Strike",
+      "correction_of": {"name": "Dodoria Headbutt", "previous_class": "Super", "previous_subcategory": "Strike"},
+      "correction_fields": ["ultimate_finish_required"],
+      "ultimate_finish_required": null,
+      "sources": ["https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-15.json"]
+    },
+    {
+      "name": "Milky Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "correction_of": {"name": "Milky Cannon", "previous_class": "Super", "previous_subcategory": "Ki Blast"},
+      "correction_fields": ["ultimate_finish_required"],
+      "ultimate_finish_required": null,
+      "sources": ["https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-15.json"]
+    },
+    {
+      "name": "Recoome Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "correction_of": {"name": "Recoome Kick", "previous_class": "Super", "previous_subcategory": "Strike"},
+      "correction_fields": ["ultimate_finish_required"],
+      "ultimate_finish_required": null,
+      "sources": ["https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-15.json"]
+    }
+  ]
+}
