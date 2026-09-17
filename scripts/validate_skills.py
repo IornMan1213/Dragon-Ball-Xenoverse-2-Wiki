@@ -8,7 +8,9 @@ DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCH
 ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
 ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter'}
 ALLOWED_RESEARCH={'indexed','partially_enriched','enriched','page_unavailable'}
+
 def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
+
 def main():
  d=json.loads(DATA.read_text(encoding='utf-8')); idx=json.loads(INDEX.read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
  rs=d.get('records',[]); ir=idx.get('records',[]); errors=[]
@@ -21,6 +23,11 @@ def main():
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
+  uf=r.get('ultimate_finish_required')
+  if uf is False and not r.get('ultimate_finish_evidence'):
+   errors.append(f"{r.get('name')}: ultimate_finish_required=false lacks explicit evidence")
+  if uf not in (None,True,False):
+   errors.append(f"{r.get('name')}: invalid ultimate_finish_required value")
  ikeys=[key(r) for r in ir]
  if keys!=ikeys:errors.append('skills-index.json is not in the same deterministic record order/content key sequence as skills.json')
  for a,b in zip(rs,ir):
