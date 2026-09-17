@@ -2,19 +2,18 @@
   "batch_id": 53,
   "created": "2026-09-17",
   "verification_policy": "research_batch_with_current_and_independent_cross_checks",
-  "research_scope": "Five base-game skills from PQ81-PQ85. Reward-slot and Ultimate-Finish semantics remain unresolved unless directly established.",
+  "research_scope": "Four unique base-game skills from PQ81-PQ85 after removing Charge, which was already canonically researched in batch 19.",
   "verification_audit": {
     "audited": "2026-09-17",
     "duplicate_check": {
-      "status": "passed_for_selected_records",
-      "selected_records": ["Afterimage Strike", "Dragon Burn", "Charge", "Saiyan Spirit", "Zigzag Express"],
+      "status": "passed_after_correction",
+      "selected_records": ["Afterimage Strike", "Dragon Burn", "Saiyan Spirit", "Zigzag Express"],
       "duplicate_count": 0,
-      "repository_search_note": "All five selected names returned no repository-search matches before insertion."
+      "removed_duplicate": "Charge — already covered by skill-batch-19 (PQ83)."
     },
     "source_basis": [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
-      "https://dbxv2.fandom.com/wiki/Charge",
       "https://dbxv2.fandom.com/wiki/Saiyan_Spirit",
       "https://dbxv2.fandom.com/wiki/Zigzag_Express",
       "https://dragonball.fandom.com/wiki/Afterimage_Strike"
@@ -59,27 +58,7 @@
       "mechanics_notes": "The PQ reward is independently confirmed for PQ82, but the accessible current sources used in this batch did not establish a sufficiently reliable resource cost or full technical specification, so those fields remain unresolved.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
-      "sources": ["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543", "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543This"]
-    },
-    {
-      "name": "Charge",
-      "class": "Super",
-      "subcategory": "Strike",
-      "race_restriction": null,
-      "usable_by_cac": true,
-      "character_source": "Goten; Gotenks",
-      "dlc_requirement": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 83 — Dangerous Duo! Warriors Never Rest",
-      "source_quest_or_shop": "Parallel Quest 83",
-      "ultimate_finish_required": null,
-      "skill_description": "Jumps high, then dives and charges toward the opponent for a multi-hit attack.",
-      "mechanics_notes": "Current skill-specific data classifies Charge as a Strike Super using 100 Ki. At very close range the attack can land all three hits.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
-      "sources": ["https://dbxv2.fandom.com/wiki/Charge", "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
+      "sources": ["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
     },
     {
       "name": "Saiyan Spirit",
