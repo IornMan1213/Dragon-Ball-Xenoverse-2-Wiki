@@ -59,15 +59,23 @@ jobs:
         run: python scripts/validate_awoken_integrity.py
       - name: Validate Awoken parent-stage model
         run: python scripts/validate_awoken_model.py
+      - name: Validate generated artifacts are tracked
+        run: |
+          test -s docs/data/skills.json
+          test -s docs/data/skills-index.json
+          git diff --check
       - name: Show generated data summary
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
           data=json.loads(Path('docs/data/skills.json').read_text(encoding='utf-8'))
+          index=json.loads(Path('docs/data/skills-index.json').read_text(encoding='utf-8'))
           print(f"Canonical records: {data.get('record_count',0)}")
+          print(f"Index records: {index.get('record_count',0)}")
           print(f"Generated: {data.get('generated')}")
           print(f"Status: {data.get('status')}")
+          print(f"Transformations: {data.get('category_counts',{}).get('Transformations')}")
           PY
       - name: Create update PR when data changes
         uses: peter-evans/create-pull-request@v7
