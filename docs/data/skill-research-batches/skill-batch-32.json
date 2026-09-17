@@ -1,0 +1,52 @@
+{
+  "batch_id": 32,
+  "created": "2026-09-17",
+  "verification_policy": "correction_batch_for_reward_attribution_audit",
+  "research_scope": "Audit corrections for Legendary Pack 2 PQ150 and the final Future Saga PQ184 skill attribution.",
+  "records": [
+    {
+      "name": "Impact Flare",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Jiren (Full Power)",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "skill_description": "Ki Blast Super unlocked through Parallel Quest 150, Battle of the Mind.",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 150",
+      "ultimate_finish_required": null,
+      "dlc_requirement": "Legendary Pack 2 / DLC Pack 13",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Impact_Flare",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Power Wall",
+      "class": "Super",
+      "subcategory": "Other",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Jiren (Full Power)",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "skill_description": "Skill reward from Parallel Quest 150, Battle of the Mind.",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 150",
+      "ultimate_finish_required": null,
+      "dlc_requirement": "Legendary Pack 2 / DLC Pack 13",
+      "verification_status": "verified",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.youtube.com/watch?v=XWVArstZ8JY"
+      ]
+    }
+  ],
+  "audit_notes": {
+    "pq150": "The current all-186 reward guide lists both Impact Flare and Power Wall under PQ150. This closes the two-record gap in the previous PQ138-150 batch.",
+    "pq184": "Batch 31 was corrected before this batch was created: Super Saiyan 4 Limit Break was removed from PQ184 and Chaotic Time Impact is the retained PQ184 record."
+  }
+}
