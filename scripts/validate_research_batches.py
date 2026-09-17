@@ -25,6 +25,42 @@ def records(payload):
     return value if isinstance(value, list) else []
 
 
+def validate_skill_semantics(path: Path, record: dict, errors: list[str]) -> None:
+    """Reject certainty that the research model cannot substantiate.
+
+    In particular, ``ultimate_finish_required: false`` is not a safe default:
+    an audit that merely fails to establish an Ultimate Finish requirement must
+    use null. A negative assertion is accepted only when the record carries an
+    explicit evidence field explaining how that negative was established.
+    """
+    uf = record.get("ultimate_finish_required")
+    if uf not in (None, True, False):
+        errors.append(
+            f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
+            f"ultimate_finish_required must be true, false, or null"
+        )
+    if uf is False and not record.get("ultimate_finish_evidence"):
+        errors.append(
+            f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
+            "ultimate_finish_required=false requires explicit ultimate_finish_evidence; "
+            "use null when the requirement is unresolved"
+        )
+
+    # A CaC claim is allowed only when the research record identifies some
+    # player-character basis. This catches accidental blanket true values while
+    # avoiding an overly narrow requirement for a particular race restriction.
+    if record.get("usable_by_cac") is True:
+        has_cac_basis = any(
+            record.get(field) not in (None, "", [])
+            for field in ("race_restriction", "character_source", "unlock_method")
+        )
+        if not has_cac_basis:
+            errors.append(
+                f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
+                "usable_by_cac=true lacks a player-character evidence field"
+            )
+
+
 def main() -> int:
     errors: list[str] = []
     files_checked = 0
@@ -52,6 +88,7 @@ def main() -> int:
                         errors.append(f"{path.relative_to(ROOT)}: record missing name")
                         continue
                     skill_records += 1
+                    validate_skill_semantics(path, r, errors)
                     key = (str(r["name"]).casefold(), str(r.get("class", "")), str(r.get("subcategory", "")))
                     # A correction intentionally references the same canonical key
                     # as its historical record. It is not duplicate coverage: the
