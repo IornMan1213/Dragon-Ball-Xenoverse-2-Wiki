@@ -31,7 +31,11 @@ TURN_REF_RE = re.compile(
     r"\bturn(?:\d+|x)(?:search|file|image|youtube|news|product|business)\d*\b",
     re.IGNORECASE,
 )
-PUA_RE = re.compile(r"[\uE000-\uF8FF]")
+# The content-reference UI delimiter used by the assistant is U+E000/U+E001.
+# Do not reject unrelated Unicode private-use characters: projects may legitimately
+# use private-use glyphs in fonts/assets, and the artifact contract targets the
+# assistant citation delimiters specifically.
+PUA_RE = re.compile(r"[\uE000\uE001]")
 
 
 def tracked_files() -> list[Path]:
@@ -62,7 +66,7 @@ def main() -> int:
         relative = path.relative_to(ROOT)
 
         if PUA_RE.search(text):
-            failures.append(f"{relative}: contains private-use content-reference artifact")
+            failures.append(f"{relative}: contains assistant content-reference delimiter")
             continue
         if TURN_REF_RE.search(lowered):
             failures.append(f"{relative}: contains internal tool-result artifact")
