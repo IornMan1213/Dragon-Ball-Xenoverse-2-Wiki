@@ -1,0 +1,50 @@
+{
+  "batch_id": 163,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: verify Xenoverse 2 identity, acquisition route, cost, and documented mechanics. Preserve unresolved values as null.",
+  "research_scope": "Savage Strike — Strike Super / SSGSS Vegito skill research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with Xenoverse 2-specific documentation and independent Xenoverse 2 gameplay/acquisition references.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Savage Strike"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Savage Strike was found."
+    },
+    "classification_finding": "Savage Strike is a Strike Super associated with SSGSS Vegito.",
+    "acquisition_finding": "Current Xenoverse 2 references identify Savage Strike as an SSGSS Vegito Super Skill obtained through the Skill Shop route.",
+    "finish_policy": "ultimate_finish_required remains null because the documented route is not established here as a Parallel Quest Ultimate Finish reward.",
+    "cost_policy": "Exact Ki cost is left null because the reviewed evidence did not establish a sufficiently reliable canonical current value."
+  },
+  "records": [
+    {
+      "name": "Savage Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "SSGSS Vegito / SSGSS Vegito customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A Strike Super with a forward punch and an alternate Instant Transmission follow-up that can pursue a knocked-back opponent and deliver a downward punch.",
+      "mechanics_notes": "The skill has multiple input modes. The alternate input performs an Instant Transmission-style teleport above the opponent for a downward punch; community gameplay references also document its use as a combo follow-up. Exact frame data and damage values are not promoted to canonical data.",
+      "acquisition_notes": "Current Xenoverse 2 references identify Savage Strike as an SSGSS Vegito Super Skill available through the Skill Shop. Exact shop timing/price is not encoded without stronger evidence.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "The alternate input can pursue a knocked-back opponent; detailed matchup and frame behavior remains version-sensitive.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Savage_Strike",
+        "https://dragonball.fandom.com/wiki/Savage_Strike",
+        "https://steamcommunity.com/app/454650/discussions/0/3726197342895914480/",
+        "https://www.youtube.com/watch?v=nPSb_Qmoq0w"
+      ]
+    }
+  ]
+}
