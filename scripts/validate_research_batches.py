@@ -25,8 +25,30 @@ def records(payload):
     return value if isinstance(value, list) else []
 
 
+def validate_correction_metadata(path: Path, record: dict, errors: list[str]) -> None:
+    """Ensure corrections carry enough identity/provenance to be deterministic."""
+    correction = record.get("correction_of")
+    fields = record.get("correction_fields")
+    if correction is None:
+        if fields is not None:
+            errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: correction_fields requires correction_of")
+        return
+    if not isinstance(correction, dict):
+        errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: correction_of must be an object")
+        return
+    if not correction.get("name"):
+        errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: correction_of.name is required")
+    if not isinstance(fields, list) or not fields or not all(isinstance(field, str) and field for field in fields):
+        errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: correction_fields must be a non-empty list of field names")
+    if "class" not in correction and "previous_class" not in correction:
+        errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: correction_of must preserve the previous class")
+    if "subcategory" not in correction and "previous_subcategory" not in correction:
+        errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: correction_of must preserve the previous subcategory")
+
+
 def validate_skill_semantics(path: Path, record: dict, errors: list[str], skip_uf: bool = False) -> None:
     """Reject certainty that the research model cannot substantiate."""
+    validate_correction_metadata(path, record, errors)
     uf = record.get("ultimate_finish_required")
     if not skip_uf:
         if uf not in (None, True, False):
