@@ -57,6 +57,9 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Added Skill Research Batch 16 with five additional early/base-game skills: Mach Punch, Fighting Pose E, Mystic Flash, Energy Shot, and Ginyu Force Special Combo.
 - [x] Excluded Evil Flight Strike from Batch 16 because it was already present in the canonical indexed catalog.
 - [x] Reconciled Batch 16 core identity, classification, acquisition, resource cost, and mechanics against multiple Xenoverse 2 references without inventing unsupported reward probabilities.
+- [x] Re-verified Skill Research Batch 17 and added correction batch 35 for five proven acquisition/classification/mechanics errors: Heat Dome Attack/PQ40, Freedom Kick/PQ29, Rolling Bullet as Ki Blast Evasive/PQ42, Super Drain via Skill Shop after A Desperate Future, and Justice Pose/PQ53.
+- [x] Added Skill Research Batch 19 with Charge, Stone Bullet, Double Buster, Finish Buster, and Justice Rush after a live duplicate check.
+- [x] Preserved the pre-existing Batch 18 research instead of overwriting its records when continuing the skill sequence.
 
 ## In Progress
 
