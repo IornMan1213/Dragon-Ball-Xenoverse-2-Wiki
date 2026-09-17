@@ -8,6 +8,7 @@ on:
       - "scripts/build_skills_from_research.py"
       - "scripts/validate_skills.py"
       - "docs/data/skills.schema.json"
+      - "docs/data/skill-research-batches/**"
       - ".github/workflows/skills-sync.yml"
   workflow_dispatch:
   schedule:
@@ -66,7 +67,7 @@ jobs:
           body: |
             Automated refresh of the Xenoverse 2 skill catalog.
 
-            This refresh imports structured individual skill records as a research/cross-reference layer, retains curated records, preserves source provenance, and leaves records partially verified until independently confirmed.
+            This refresh imports structured individual skill records plus curated repository research batches as a research/cross-reference layer, retains curated records, preserves source provenance, and leaves records partially verified until independently confirmed.
 
             The sync workflow intentionally does not trigger on generated catalog files, preventing a merged sync PR from recursively retriggering itself.
           branch: automated/skills-catalog-sync
