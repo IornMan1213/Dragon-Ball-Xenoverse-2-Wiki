@@ -1,6 +1,12 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 48** with five early/base-game skills from PQ36-PQ40: **Evil Whirlwind**, **Instant Rise**, **Shining Slash**, **Side Bridge**, and **Heat Dome Attack**.
+- Duplicate-checked all five selected names against the live repository before addition; no code-search matches were returned.
+- Cross-checked Batch 48 against the maintained PQ reward transcription, the current Xenoverse 2 skill guide, and current skill-specific references.
+- **Instant Rise** has conflicting stamina figures between an older category table and the current skill-specific page; the batch uses the current specific reference's 300-stamina value and preserves the discrepancy in provenance.
+- **Heat Dome Attack** confirms the previously established PQ40 correction and does not resurrect the obsolete historical attribution.
+
 - Added **Skill Research Batch 47** with five early/base-game skills from PQ29-PQ34: **Freedom Kick**, **Energy Field**, **Energy Barrier**, **Death Psycho Bomb**, and **Paralysis**.
 - Duplicate-checked all five selected names against the live repository before addition; no code-search matches were returned.
 - Cross-checked the batch against the maintained PQ reward transcription, current Xenoverse 2 skill-specific references, and independent Future Warrior/technique references.
