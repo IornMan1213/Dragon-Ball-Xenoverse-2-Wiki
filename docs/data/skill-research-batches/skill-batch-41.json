@@ -1,103 +1,19 @@
 {
   "batch_id": 41,
   "created": "2026-09-17",
-  "verification_policy": "research_batch_with_current_and_historical_cross_checks",
-  "research_scope": "Five skills selected after live repository duplicate checks. Acquisition and classification are recorded only where supported by current references; unsupported technical fields remain unresolved.",
+  "verification_policy": "historical_duplicate_preserved_for_audit",
+  "research_scope": "Historical duplicate of skill-batch-40. Retained for auditability; it is not a unique research batch and must not be counted as additional canonical coverage.",
+  "historical_duplicate_of": 40,
   "verification_audit": {
     "audited": "2026-09-17",
-    "method": "Cross-checked current Xenoverse 2 references against an independent searchable PQ reward transcription and a current skill guide.",
-    "source_basis": [
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-      "https://xvguide.neocities.org/Skill",
-      "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
-      "https://dbxv2.fandom.com/wiki/Solar_Flare"
-    ]
+    "duplicate_check": {"status":"confirmed_historical_duplicate","duplicate_count":5,"canonical_coverage_added":0},
+    "note": "This batch reproduces the five records in skill-batch-40 (Solar Flare, Paralyze Beam, Meteor Strike, Shine Shot, Wall of Defense). It remains in repository history but is explicitly excluded from duplicate-coverage validation and canonical coverage accounting."
   },
   "records": [
-    {
-      "name": "Solar Flare",
-      "class": "Super",
-      "subcategory": "Other",
-      "usable_by_cac": true,
-      "ki_cost": 200,
-      "stamina_cost": null,
-      "unlock_method": "Parallel Quest 3 — World Tournament Tag Team",
-      "source_quest_or_shop": "Parallel Quest 3",
-      "ultimate_finish_required": false,
-      "verification_state": "partially_verified",
-      "mechanics_notes": "Current Xenoverse 2 reference lists Solar Flare as an Other Super requiring 200 Ki and obtainable by the Time Patroller from PQ03. It blinds/stuns affected opponents. Exact reward-slot semantics are not asserted beyond the direct PQ listing.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Solar_Flare",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
-    },
-    {
-      "name": "Paralyze Beam",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "usable_by_cac": true,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "unlock_method": "Parallel Quest 4 — Prepare for the Attack of Saiyans!",
-      "source_quest_or_shop": "Parallel Quest 4",
-      "ultimate_finish_required": false,
-      "verification_state": "partially_verified",
-      "mechanics_notes": "Current Xenoverse 2 reference classifies Paralyze Beam as a 100-Ki Ki Blast Super that fires a short-range beam backward and briefly stuns the target. The current reference lists PQ04 as its unlock source.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
-    },
-    {
-      "name": "Meteor Strike",
-      "class": "Super",
-      "subcategory": "Strike",
-      "usable_by_cac": true,
-      "ki_cost": null,
-      "stamina_cost": null,
-      "unlock_method": "Parallel Quest 6 — Saibaman's Revenge",
-      "source_quest_or_shop": "Parallel Quest 6",
-      "ultimate_finish_required": false,
-      "verification_state": "partially_verified",
-      "mechanics_notes": "Independent current-game skill listings and the original PQ reward transcription identify Meteor Strike as a PQ06 Strike Super. The exact Ki cost and reward-slot semantics are left unresolved here.",
-      "sources": [
-        "https://xvguide.neocities.org/Skill",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
-    },
-    {
-      "name": "Shine Shot",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "usable_by_cac": true,
-      "ki_cost": null,
-      "stamina_cost": null,
-      "unlock_method": "Parallel Quest 7 — Saiyan Attack",
-      "source_quest_or_shop": "Parallel Quest 7",
-      "ultimate_finish_required": false,
-      "verification_state": "partially_verified",
-      "mechanics_notes": "The original searchable PQ reward transcription and current PQ guide place Shine Shot in PQ07. Exact resource cost and reward-slot semantics are left unresolved.",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://xvguide.neocities.org/Skill"
-      ]
-    },
-    {
-      "name": "Wall of Defense",
-      "class": "Super",
-      "subcategory": "Other",
-      "usable_by_cac": true,
-      "ki_cost": null,
-      "stamina_cost": null,
-      "unlock_method": "Parallel Quest 10 — The Invincible Vegeta",
-      "source_quest_or_shop": "Parallel Quest 10",
-      "ultimate_finish_required": false,
-      "verification_state": "partially_verified",
-      "mechanics_notes": "Current skill-list references classify Wall of Defense as an Other Super and the PQ reward transcription places it in PQ10. Exact resource cost and reward-slot semantics remain unresolved.",
-      "sources": [
-        "https://xvguide.neocities.org/Skill",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
-      ]
-    }
+    {"name":"Solar Flare","class":"Super","subcategory":"Other","usable_by_cac":true,"ki_cost":200,"unlock_method":"Parallel Quest 03 — World Tournament Tag Team","source_quest_or_shop":"Parallel Quest 03","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://dbxv2.fandom.com/wiki/Solar_Flare","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]},
+    {"name":"Paralyze Beam","class":"Super","subcategory":"Ki Blast","usable_by_cac":true,"ki_cost":100,"unlock_method":"Parallel Quest 04 — Prepare for the Attack of Saiyans!","source_quest_or_shop":"Parallel Quest 04","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://dbxv2.fandom.com/wiki/Paralyze_Beam","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]},
+    {"name":"Meteor Strike","class":"Super","subcategory":"Strike","usable_by_cac":true,"ki_cost":100,"unlock_method":"Parallel Quest 06 — Saibaman's Revenge","source_quest_or_shop":"Parallel Quest 06","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://xvguide.neocities.org/Skill","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]},
+    {"name":"Shine Shot","class":"Super","subcategory":"Ki Blast","usable_by_cac":true,"ki_cost":null,"unlock_method":"Parallel Quest 07 — Saiyan Attack","source_quest_or_shop":"Parallel Quest 07","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://xvguide.neocities.org/Skill"]},
+    {"name":"Wall of Defense","class":"Super","subcategory":"Other","usable_by_cac":true,"ki_cost":null,"unlock_method":"Parallel Quest 10 — The Invincible Vegeta","source_quest_or_shop":"Parallel Quest 10","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://xvguide.neocities.org/Skill","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]}
   ]
 }
