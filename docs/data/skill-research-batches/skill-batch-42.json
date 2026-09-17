@@ -24,7 +24,7 @@
       "stamina_cost": null,
       "unlock_method": "Parallel Quest 17 — Ginyu and the Fruit",
       "source_quest_or_shop": "Parallel Quest 17",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "verification_state": "partially_verified",
       "mechanics_notes": "Skill-specific reference identifies Recoome Eraser Gun as a Ki Blast Super using 100 Ki and obtainable from PQ17. The move is a long-range beam with a startup animation. Exact reward-slot semantics and current drop conditions are not asserted.",
       "sources": [
@@ -41,7 +41,7 @@
       "stamina_cost": null,
       "unlock_method": "Parallel Quest 17 — Ginyu and the Fruit",
       "source_quest_or_shop": "Parallel Quest 17",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "verification_state": "partially_verified",
       "mechanics_notes": "The current skill guide and independent PQ reward transcription place Mach Kick in PQ17. Exact resource cost, hit count, damage, and reward-slot semantics remain unresolved.",
       "sources": [
@@ -58,7 +58,7 @@
       "stamina_cost": null,
       "unlock_method": "Parallel Quest 17 — Ginyu and the Fruit",
       "source_quest_or_shop": "Parallel Quest 17",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "verification_state": "partially_verified",
       "mechanics_notes": "PQ17 reward listings identify Fighting Pose J. Community acquisition reports distinguish its end-of-mission acquisition behavior from Recoome's immediately reported skill drops; no unsupported drop condition or probability is asserted here.",
       "sources": [
@@ -76,7 +76,7 @@
       "stamina_cost": null,
       "unlock_method": "Parallel Quest 18 — Force Entrance Exam",
       "source_quest_or_shop": "Parallel Quest 18",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "verification_state": "partially_verified",
       "mechanics_notes": "Independent PQ reward listings place Time Control in PQ18. Current skill-guide data identifies it as the PQ18 skill alongside Mach Dash. Exact resource cost, duration, and reward-slot semantics remain unresolved.",
       "sources": [
@@ -93,7 +93,7 @@
       "stamina_cost": null,
       "unlock_method": "Parallel Quest 10 — The Invincible Vegeta",
       "source_quest_or_shop": "Parallel Quest 10",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "verification_state": "partially_verified",
       "mechanics_notes": "The current Xenoverse 2 skill guide places Unrelenting Barrage in PQ10 alongside Wall of Defense. It is recorded as a Strike Ultimate, while exact Ki cost, reward-slot semantics, and technical hit data remain unresolved pending a stronger skill-specific source.",
       "sources": [
