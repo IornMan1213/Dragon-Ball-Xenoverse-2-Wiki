@@ -62,14 +62,28 @@ def validate_skill_semantics(path: Path, record: dict, errors: list[str], skip_u
 
 
 def has_explicit_negative_uf_evidence(record: dict) -> bool:
-    if record.get("ultimate_finish_evidence"):
+    """Return true only when the record itself states evidence that no UF is required.
+
+    A generic `verification_status=verified` is deliberately insufficient: verification
+    of identity/acquisition/mechanics does not prove a negative Ultimate-Finish condition.
+    """
+    evidence = record.get("ultimate_finish_evidence")
+    if isinstance(evidence, str) and any(token in evidence.casefold() for token in (
+        "not an ultimate finish", "not ultimate finish", "any clear", "normal clear",
+        "first-clear", "basic reward", "standard reward", "no ultimate finish"
+    )):
         return True
-    if record.get("verification_status") == "verified":
+    if isinstance(evidence, list) and any(
+        isinstance(item, str) and any(token in item.casefold() for token in (
+            "not an ultimate finish", "not ultimate finish", "any clear", "normal clear",
+            "first-clear", "basic reward", "standard reward", "no ultimate finish"
+        )) for item in evidence
+    ):
         return True
-    text = " ".join(str(record.get(k, "")) for k in ("unlock_method", "source_quest_or_shop")).casefold()
+    text = " ".join(str(record.get(k, "")) for k in ("unlock_method", "source_quest_or_shop", "mechanics_notes")).casefold()
     pq_route = "parallel quest" in text or "pq " in text
     if pq_route:
-        return any(token in text for token in ("any clear", "first-clear", "normal clear", "basic reward", "standard reward", "not an ultimate finish", "not ultimate finish"))
+        return any(token in text for token in ("any clear", "first-clear", "normal clear", "basic reward", "standard reward", "not an ultimate finish", "not ultimate finish", "no ultimate finish"))
     return any(token in text for token in ("skill shop", "tp medal shop", "mentor", "instructor quest", "extra story", "built into", "character-locked", "not obtainable", "shenron wish", "wish"))
 
 
