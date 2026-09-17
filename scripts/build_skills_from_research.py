@@ -88,8 +88,11 @@ def merge_record(merged: dict[tuple[str, str, str], dict], record: dict) -> bool
         return False
     correction = record.get("correction_of") or {}
     old_name = correction.get("name", name)
-    old_class = correction.get("previous_class", record.get("class", ""))
-    old_sub = correction.get("previous_subcategory", record.get("subcategory", ""))
+    # Accept both the explicit previous_* form and the natural class/subcategory
+    # fields used by correction batches. This matters when a correction changes
+    # the canonical uniqueness key, e.g. Rolling Bullet Super -> Evasive.
+    old_class = correction.get("previous_class", correction.get("class", record.get("class", "")))
+    old_sub = correction.get("previous_subcategory", correction.get("subcategory", record.get("subcategory", "")))
     old_key = (old_name.casefold(), old_class, old_sub)
     if correction:
         merged.pop(old_key, None)
