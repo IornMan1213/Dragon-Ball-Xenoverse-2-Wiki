@@ -51,6 +51,11 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Updated `CHANGELOG.md` to track the current expansion/verification/site work.
 - [x] Hardened `scripts/check_repo_artifacts.py` to audit Git-tracked text files deterministically and recognize both content-reference and tool-result artifact patterns without self-triggering.
 - [x] Expanded `.github/workflows/repo-quality.yml` pull-request path coverage to include every text format audited by the artifact checker, including TXT, BAT, XML, CSV, SCSS, TS, shell scripts, and the cleanup script/workflow itself.
+- [x] Added Skill Research Batch 15 with five previously uncovered base-game skills: Dodoria Headbutt, Earth Splitting Galick Gun, Milky Cannon, Recoome Kick, and Time Control.
+- [x] Duplicate-checked Batch 15 against the canonical skill catalog and prior skill research batches before addition; no duplicates were found.
+- [x] Independently reconciled Batch 15 identity, category, acquisition, and core mechanics against current Xenoverse 2 references and corroborating sources; all five records are marked `verified` for their documented core fields.
+- [x] Updated the skill-catalog build pipeline so curated repository research batches are imported into the canonical generated catalog instead of remaining disconnected research files.
+- [x] Updated the Skills Sync workflow to run when curated skill research batches change, allowing Batch 15 to flow through canonical generation and validation automatically.
 
 ## In Progress
 
