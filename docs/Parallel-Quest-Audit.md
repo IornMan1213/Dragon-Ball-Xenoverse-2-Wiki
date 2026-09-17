@@ -78,26 +78,28 @@ Structured in `pq-batch-12.json`. Covers the end of Super Pack 4 and the transit
 
 ### Batch 13 — PQ121–PQ130
 
-Structured in `pq-batch-13.json`. This block completes Extra Pack 2, covers Extra Pack 3, and begins Extra Pack 4. The maintained historical PQ transcription provides the objective sequences and documented basic rewards; GameFAQs independently confirms the key UF triggers for PQ121–127. citeturn0search0turn0search2turn0search3
+Structured in `pq-batch-13.json`. This block completes Extra Pack 2, covers Extra Pack 3, and begins Extra Pack 4. The maintained historical PQ transcription provides the objective sequences and documented basic rewards; current maintained data confirms the later DLC records.
 
-- **PQ121 — Off-The-Charts Energy:** defeat all enemies, clear under eight minutes, then defeat Fu and the others; the Fu Super Soul is documented.
-- **PQ122 — The Final Battle Before the Final Battle?!:** defeat enemies while leaving Beerus for last, then defeat Beerus and the others; Meditation and Power Rush are documented.
-- **PQ123 — Planetary Possession:** keep Super Baby 2 above 50%, then defeat Omega, Eis, and Nuova Shenron; Reverse Shot and Variant Drive are documented. citeturn0search2
-- **PQ124 — Downfall of the Ultimate Saiyan:** allow Super Baby 2 to heal at least three times before the final defeat sequence; Revenge Final Flash is documented. citeturn0search2
-- **PQ125 — Proof's in the Potara:** keep Kefla above 50%, then defeat Ultra Instinct Goku, Beerus, and Champa; Blaster Ball and Ray Blast are documented. citeturn0search2
-- **PQ126 — Catch Kefla If You Can!:** reach Kami's Lookout, clear in six minutes, then defeat Kefla and the others; Gigantic Breaker is documented. citeturn0search2
-- **PQ127 — Multiverse Match of the Century:** defeat all enemies, clear in eight minutes, then defeat Kefla and the others; Gigantic Burst and Revenge Death Ball are documented. citeturn0search2
-- **PQ128 — Legendary Super Saiyan Smackdown:** clear under eight minutes, then defeat Broly (Full Power Super Saiyan); Powered Shell and Gigantic Charge are documented.
-- **PQ129 — Frieza Force on the Hunt:** keep an NPC above 50%, then defeat Gotenks and SSGSS Gogeta; Spirit Blaster and Punisher Shield are documented.
-- **PQ130 — Legendary Starving Saiyan Broly:** keep Broly (Full Power Super Saiyan) above 50%, then defeat him; Gigantic Rage is documented. citeturn0search0
+### Batch 14 — PQ131–PQ140
 
-The source corpus also continues beyond this batch through PQ131–133, confirming that the audit should continue sequentially rather than treating PQ130 as the end of the DLC corpus. citeturn0search0
+Structured in `pq-batch-14.json`. Covers the remainder of Extra Pack 4 and the Ultra Pack 1–2 blocks. Current maintained quest records provide exact 7-star classification and, where available, datamined reward-slot percentages; the historical Steam transcription independently confirms the in-game objective/reward lists. citeturn0search0turn0search1
+
+- **PQ131 — Fight of the Fusions! Vegito vs Gogeta:** clear under 10.5 minutes, then defeat SSGSS Gogeta and SSGSS Vegito; Assault Vanish is documented as a 25% UF roll. citeturn0search0
+- **PQ132 — The Ultimate Legendary Super Saiyan:** keep Broly above 50%, then defeat Broly (Full Power Super Saiyan) and the others; God Punisher and Gigantic Roar are documented at 20% each in the maintained data. citeturn0search0
+- **PQ133 — Ribrianne's Beauty Lesson:** clear under seven minutes, then defeat Ribrianne and the others; Pretty Cannon and Formation! are documented. citeturn0search0
+- **PQ134 — Universe 7's Next God of Destruction:** clear under 6.5 minutes, then defeat Ultra Instinct Goku and the others; Ultimate Charge and Burst Charge are documented. citeturn0search0
+- **PQ135 — Ribrianne, Defender of Love and Justice:** keep Ribrianne above 50%, then defeat Mira (Final Form) and the others; Lovely Cyclone is documented. citeturn0search0
+- **PQ136 — Breaking Down the Barrier:** clear under seven minutes, then defeat Ultra Instinct Goku; Burst Stinger, Raid Blast, and Blazing Attack are documented. citeturn0search0
+- **PQ137 — Tournament of Power Round 2:** finish with at least 8.5 minutes remaining, then defeat Jiren and the others; Ribrianne's Eternal Love and Prominence Flash are documented. citeturn0search0turn543file0L2-L10
+- **PQ138 — The Battle for Earth:** keep GT Goku alive, then defeat Omega Shenron and the others; Flash Chaser is documented at 34% in the maintained data. citeturn545file0L2-L10
+- **PQ139 — War and Pieces:** clear under eight minutes, then defeat Frieza and the others; Total Detonation Ball and Photon Swipe are documented with current slot percentages. citeturn546file0L2-L10
+- **PQ140 — Spirit Bomb Away!:** endure four minutes while keeping Goku above 70%, then defeat Android 21 and the others; Savory Slicer is documented at 50% on the UF bonus slot. citeturn542file0L2-L10
 
 ## Early verified examples
 
 ### PQ 11 — Burst Open and Mix!
 
-A 2-star Saiyan Saga quest. Clear PQ10 first. The Ultimate Finish requires defeating Great Ape Vegeta within 10 minutes and then defeating the Time Patroller who appears. Earth Splitting Galick Gun is preserved as a documented UF reward in the existing local audit.
+A 2-star Saiyan Saga quest. Clear PQ10 first. The Ultimate Finish requires defeating Great Ape Vegeta within 10 minutes and then defeating the Time Patroller who appears. Earth Splitting Galick Gun is preserved as a documented UF reward in the existing local audit. citeturn0search3
 
 ### PQ 18 — Force Entrance Exam
 
@@ -105,13 +107,13 @@ A 3-star Ginyu Force quest. Clear PQ17 first. Keep Guldo above 50%, defeat Burte
 
 ### PQ 110 — Heretics from a Dark World
 
-A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black above 50% and then defeating Mira. Divinity Unleashed, SS4 Wig & Tail, and Time Patrol Gi are preserved as documented rewards.
+A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black above 50% and then defeating Mira. Divinity Unleashed, SS4 Wig & Tail, and Time Patrol Gi are preserved as documented rewards. citeturn0search2
 
 ## Research target
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
-Current structured audit coverage: **PQ1–PQ130** plus the previously documented spot-verified examples. Remaining DLC PQs will be processed in numbered batches with the same provenance and conflict-preservation rules.
+Current structured audit coverage: **PQ1–PQ140** plus the previously documented spot-verified examples. Remaining DLC PQs will be processed in numbered batches with the same provenance and conflict-preservation rules.
 
 ## Primary research corpus
 
