@@ -1,50 +1,29 @@
 {
   "batch_id": 140,
   "created": "2026-09-17",
-  "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, acquisition route, cost, counter taxonomy, and mechanics. Preserve unresolved stamina/version-sensitive details as null or descriptive text.",
-  "research_scope": "Flash Fist Crush — Strike Super / universal counter acquisition and mechanics research.",
+  "verification_policy": "Duplicate-reconciliation audit: preserve historical research while preventing duplicate canonical identities.",
+  "research_scope": "Flash Fist Crush — duplicate reconciliation against Batch 127.",
   "verification_audit": {
     "audited": "2026-09-17",
-    "method": "Compared repository exact-name coverage and seeded Strike Super/Counter membership with current Xenoverse 2-specific skill documentation and independent Xenoverse 2 discussion/documentation.",
+    "method": "Compared this batch with the repository's earlier Flash Fist Crush Batch 127 using canonical identity (name.casefold(), class, subcategory).",
     "duplicate_check": {
-      "status": "passed",
+      "status": "resolved",
       "selected_records": ["Flash Fist Crush"],
-      "duplicate_count": 0,
-      "identity_note": "No existing repository research batch for Flash Fist Crush was found. The canonical identity is Super / Strike; its universal-counter behavior is retained through the Counter Skills taxonomy rather than creating a second identity."
+      "duplicate_count": 1,
+      "duplicate_of_batch": 127,
+      "identity_note": "Batch 140 duplicated the existing Flash Fist Crush Super / Strike identity established by Batch 127. The earlier batch remains the canonical research record; this batch is retained as an audit trail and is not imported as a second record."
     },
-    "classification_finding": "Current Xenoverse 2 documentation classifies Flash Fist Crush as a Strike Super Attack and separately categorizes it as a Counter Skill. It is a universal counter that can respond to both Strike and Ki Blast attacks.",
-    "acquisition_finding": "The Xenoverse 2-specific skill documentation lists Shenron Wish — 'I want a new Super Attack' as the acquisition route. The skill is used by Hit and can be equipped by the Future Warrior after obtaining the wish reward.",
-    "finish_policy": "ultimate_finish_required remains null because the documented acquisition route is a Shenron wish reward rather than a Parallel Quest reward.",
-    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed canonical documentation does not establish a reliable stamina value."
+    "reconciliation_finding": "Batch 127 already records the same canonical identity and acquisition route. Batch 140 adds no distinct canonical identity and therefore must not create another record in the built catalog.",
+    "canonical_policy": "Retain Batch 127 as the canonical Flash Fist Crush research record. Batch 140 is audit-only historical provenance."
   },
-  "records": [
+  "records": [],
+  "superseded_records": [
     {
       "name": "Flash Fist Crush",
       "class": "Super",
       "subcategory": "Strike",
-      "race_restriction": null,
-      "usable_by_cac": true,
-      "character_source": "Hit / Hit customizable partner",
-      "dlc_requirement": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "damage_type": "Strike",
-      "unlock_method": "Shenron wish reward",
-      "source_quest_or_shop": "Shenron — 'I want a new Super Attack'",
-      "ultimate_finish_required": null,
-      "skill_description": "Enter a defensive stance that can counter incoming attacks, including Ki Blasts, then strike with a powerful straight punch.",
-      "mechanics_notes": "The Xenoverse 2 reference identifies Flash Fist Crush as a universal counter. The user raises a defensive hand/stance and counters attacks that connect during the active window with a single punch. The reviewed documentation also notes that the punch can occur if the stance is not successfully struck, so exact activation behavior should be treated as version-sensitive rather than encoded as frame-perfect data.",
-      "acquisition_notes": "The canonical Future Warrior route is the Shenron wish 'I want a new Super Attack'. Hit uses the skill and it is available through partner customization after acquisition.",
-      "pve_notes": "Shenron wish acquisition; no Parallel Quest or Ultimate Finish requirement established.",
-      "pvp_notes": "Universal Strike Super counter capable of responding to both Strike and Ki Blast attacks. Community reports also describe broad defensive coverage, but detailed frame, invulnerability, and ultimate-interaction claims are intentionally not promoted to canonical numeric data.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Flash_Fist_Crush",
-        "https://dragonball.fandom.com/wiki/Flash_Fist_Crush",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74739381",
-        "https://www.kanzenshuu.com/forum/viewtopic.php?start=7080&t=34039"
-      ]
+      "superseded_by_batch": 127,
+      "reason": "Duplicate canonical identity; Batch 127 predates and already establishes the same skill identity and acquisition route."
     }
   ]
 }
