@@ -18,6 +18,9 @@ SKIP_DIRS = {".git"}
 
 # Content-reference spans are internal UI/export markup and must never be committed.
 PUA_SPAN_RE = re.compile(re.escape(OPEN) + r"[^" + re.escape(CLOSE) + r"]*" + re.escape(CLOSE))
+# Any remaining Unicode private-use character is also forbidden by the artifact checker.
+# This catches malformed/partial exports where the opening/closing delimiters are missing.
+PUA_RE = re.compile(r"[\uE000-\uF8FF]")
 # Remove bare tool-result identifiers left behind after a citation span was stripped.
 TURN_REF_RE = re.compile(
     r"\bturn(?:\d+|X)(?:search|file|image|youtube|news|product|business)\d*\b",
@@ -27,6 +30,7 @@ TURN_REF_RE = re.compile(
 
 def clean(text: str) -> str:
     text = PUA_SPAN_RE.sub("", text)
+    text = PUA_RE.sub("", text)
     text = TURN_REF_RE.sub("", text)
     return text
 
