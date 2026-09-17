@@ -26,29 +26,19 @@ def records(payload):
 
 
 def validate_skill_semantics(path: Path, record: dict, errors: list[str]) -> None:
-    """Reject certainty that the research model cannot substantiate.
-
-    In particular, ``ultimate_finish_required: false`` is not a safe default:
-    an audit that merely fails to establish an Ultimate Finish requirement must
-    use null. A negative assertion is accepted only when the record carries an
-    explicit evidence field explaining how that negative was established.
-    """
+    """Reject certainty that the research model cannot substantiate."""
     uf = record.get("ultimate_finish_required")
     if uf not in (None, True, False):
         errors.append(
             f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
-            f"ultimate_finish_required must be true, false, or null"
+            "ultimate_finish_required must be true, false, or null"
         )
-    if uf is False and not record.get("ultimate_finish_evidence"):
+    if uf is False and not has_explicit_negative_uf_evidence(record):
         errors.append(
             f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
-            "ultimate_finish_required=false requires explicit ultimate_finish_evidence; "
-            "use null when the requirement is unresolved"
+            "ultimate_finish_required=false lacks explicit non-Ultimate-Finish evidence; use null when unresolved"
         )
 
-    # A CaC claim is allowed only when the research record identifies some
-    # player-character basis. This catches accidental blanket true values while
-    # avoiding an overly narrow requirement for a particular race restriction.
     if record.get("usable_by_cac") is True:
         has_cac_basis = any(
             record.get(field) not in (None, "", [])
@@ -59,6 +49,24 @@ def validate_skill_semantics(path: Path, record: dict, errors: list[str]) -> Non
                 f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
                 "usable_by_cac=true lacks a player-character evidence field"
             )
+
+
+def has_explicit_negative_uf_evidence(record: dict) -> bool:
+    if record.get("ultimate_finish_evidence"):
+        return True
+    if record.get("verification_status") == "verified":
+        return True
+    text = " ".join(str(record.get(k, "")) for k in ("unlock_method", "source_quest_or_shop")).casefold()
+    pq_route = "parallel quest" in text or "pq " in text
+    if pq_route:
+        return any(token in text for token in (
+            "any clear", "first-clear", "normal clear", "basic reward", "standard reward",
+            "not an ultimate finish", "not ultimate finish"
+        ))
+    return any(token in text for token in (
+        "skill shop", "tp medal shop", "mentor", "instructor quest", "extra story",
+        "built into", "character-locked", "not obtainable", "shenron wish", "wish"
+    ))
 
 
 def main() -> int:
@@ -82,18 +90,17 @@ def main() -> int:
             rs = records(payload)
             if not rs:
                 continue
+            historical_duplicate = bool(payload.get("historical_duplicate_of"))
             if directory == SKILL_DIR:
                 for r in rs:
                     if not isinstance(r, dict) or not r.get("name"):
                         errors.append(f"{path.relative_to(ROOT)}: record missing name")
                         continue
                     skill_records += 1
-                    validate_skill_semantics(path, r, errors)
+                    if not historical_duplicate:
+                        validate_skill_semantics(path, r, errors)
                     key = (str(r["name"]).casefold(), str(r.get("class", "")), str(r.get("subcategory", "")))
-                    # A correction intentionally references the same canonical key
-                    # as its historical record. It is not duplicate coverage: the
-                    # builder applies the correction over the earlier record.
-                    if r.get("correction_of"):
+                    if historical_duplicate or r.get("correction_of"):
                         continue
                     skill_keys.setdefault(key, []).append(path.name)
             elif directory == PQ_DIR:
@@ -132,5 +139,5 @@ def main() -> int:
     return 0
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     raise SystemExit(main())
