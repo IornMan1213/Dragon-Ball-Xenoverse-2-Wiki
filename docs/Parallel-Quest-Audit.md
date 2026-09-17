@@ -47,6 +47,29 @@ The batch deliberately does **not** convert a skill appearing in a historical ba
 
 The structured source is `docs/data/parallel-quest-research-batches/pq-batch-01.json`.
 
+### Batch 2 — PQ11–PQ20
+
+PQ11–PQ20 are now structured in `pq-batch-02.json`, with objective sequences, lose conditions, documented basic rewards, and skill-reward candidates cross-checked against the maintained 186-PQ transcription and independent hidden-objective references. PQ11's Earth Splitting Galick Gun Ultimate Finish condition is preserved as an explicitly documented UF reward; other reward-slot semantics remain unresolved where the evidence is insufficient.
+
+### Batch 3 — PQ21–PQ30
+
+PQ21–PQ30 are now structured in `pq-batch-03.json`. The audit captures the five-minute, three-minute, Dragon Ball recovery, escort/health-threshold, and revived-enemy Ultimate Finish sequences across this block, along with documented basic rewards and associated skill candidates. Exact reward-slot/drop percentages remain unresolved unless directly established.
+
+### Batch 4 — PQ31–PQ40
+
+PQ31–PQ40 are now structured in `pq-batch-04.json`. This block covers the Cell-training and Cell Games sequence through the Future Warriors quest, including the eight-warrior training condition at PQ31, Cell Jr. requirements at PQ32/PQ37, the Ginyu return at PQ34, Cell health protection at PQ35, the three-minute Cell condition at PQ37, the ten-minute Power Teams condition at PQ38, the Vegeta/Piccolo survival requirement at PQ39, and the eight-minute Future Gohan/Trunks condition at PQ40.
+
+- **PQ31 — Let's Train:** defeat eight warriors, have Vegeta and Gohan transformed, then defeat revived Gohan; Super Dragon Flight is documented in the reward list.
+- **PQ32 — Multiple Cell Jr. Hunt:** defeat seven Cell Jr., clear under five minutes, then defeat Cell and every Cell Jr.; Energy Barrier is documented.
+- **PQ33 — Earth in Danger!:** defeat Cell, all enemies, and all revived enemies; Death Psycho Bomb is documented.
+- **PQ34 — Return of Ginyu Force!:** defeat all Ginyu Force members, clear under five minutes, then defeat Frieza and revived Ginyu; Paralysis is documented.
+- **PQ35 — Miscalculations in Time:** defeat the training Time Patroller, keep Cell above 50%, then defeat Gohan; the documented basic reward list contains the Super Soul "I wanted to kill you with my own hands.".
+- **PQ36 — The Cell Games Begin:** defeat Piccolo and Goku before Gohan, then defeat Gohan with Cell surviving; Evil Whirlwind is documented. A newer datamined corpus claims PQ36 was cut, while the maintained game-specific reward transcription and independent guides document PQ36 directly, so this contradiction remains explicitly flagged for later reconciliation.
+- **PQ37 — Clash! Perfect Cell!:** defeat Cell and each Cell Jr., clear under three minutes, then defeat both Cells; Instant Rise is documented.
+- **PQ38 — Power Teams:** defeat Goku and Cell, clear within ten minutes, then defeat revived Gohan and Cell; Shining Slash is documented.
+- **PQ39 — 17 and 18 of the Official History:** defeat Android 17 and 18, keep Vegeta and Piccolo alive, then defeat Android 16 and the revived Androids 17 and 18; Side Bridge is documented.
+- **PQ40 — The Future Warriors!:** defeat all enemies, clear within eight minutes, then defeat Future Gohan and Trunks; Heat Dome Attack is documented.
+
 ## Early verified examples
 
 ### PQ 11 — Burst Open and Mix!
@@ -65,7 +88,7 @@ A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black 
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
-Current structured audit coverage: **PQ1–PQ10** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
+Current structured audit coverage: **PQ1–PQ40** plus the previously documented spot-verified PQ examples. The remaining PQs will be processed in numbered batches so contradictions and historical research remain auditable.
 
 ## Primary research corpus
 
