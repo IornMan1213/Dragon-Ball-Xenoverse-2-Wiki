@@ -1,30 +1,42 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
-- Added **Skill Research Batch 50** with ten newly researched early/base-game skills from PQ49-PQ60: **Do or Die**, **Explosive Buu Buu Punch**, **Burst Rush**, **Final Cannon**, **Victory Cannon**, **Super Donut Volley**, **Rakshasa's Claw**, **Vanishing Ball**, **Force Shield**, **Dimension Cannon**, and **Majin Kamehameha**.
+- Added **Skill Research Batch 52** with ten base-game skills from PQ71-PQ80: **Last Emperor**, **Burst Kamehameha**, **Psychic Move**, **Final Pose**, **Counter Burst**, **Warp Kamehameha**, **Ki Explosion**, **Dust Attack**, **Mighty Explosive Wave**, and **Dimensional Hole**.
+- Duplicate-audited all ten Batch 52 names against the live repository before addition; no repository-search matches were returned for the selected records.
+- Cross-checked Batch 52 against the maintained PQ reward transcription, GameFAQs, the historical XVGuide skill list, current skill-specific references, and an independent technique/character-ID reference. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
+- **Warp Kamehameha** has a current-vs-older Ki-cost discrepancy (400 vs. 300); the current skill-specific value is retained while the older value remains documented in provenance.
+- **Psychic Move** and **Final Pose** retain unresolved stamina costs rather than receiving inferred values. **Dimensional Hole** is explicitly separated from the later Evasive Mighty Explosive Wave variant.
+
+- Added **Skill Research Batch 51** with eleven early/base-game skills from PQ61-PQ70: **Recoome Kick**, **Fighting Pose H**, **Teleporting Vanishing Ball**, **Kai Kai**, **Ill Rain**, **Scissors Paper Rock**, **Candy Beam**, **Super God Fist**, **Angry Shout**, **Headshot**, and **Emperor's Blast**.
+- Duplicate-audited all eleven Batch 51 names against the live repository before addition; no repository-search matches were returned for the selected records.
+- Cross-checked Batch 51 against the maintained PQ reward transcription, GameFAQs, current skill-specific references, and independent technique/character-ID material. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
+- **Kai Kai** retains unresolved resource costs because the accessible sources establish the teleportation technique but do not provide a sufficiently reliable current cost.
+- The PQ66 **Candy Beam** record specifically represents the Evasive variant and is kept distinct from the later Candy Beam Super.
+
+- Added **Skill Research Batch 50** with eleven newly researched early/base-game skills from PQ49-PQ60: **Do or Die**, **Explosive Buu Buu Punch**, **Burst Rush**, **Final Cannon**, **Victory Cannon**, **Super Donut Volley**, **Rakshasa's Claw**, **Vanishing Ball**, **Force Shield**, **Dimension Cannon**, and **Majin Kamehameha**.
 - Duplicate-audited the selected Batch 50 names against the live repository before addition; the repository search returned no matches for the selected records. **Stone Bullet** and **Justice Pose** were intentionally excluded because their canonical research already exists.
 - Cross-checked Batch 50 against the maintained PQ reward transcription, the current Xenoverse 2 skill guide, and current skill-specific references. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
 - **Do or Die** retains an unresolved CaC-availability field because the accessible current skill-specific reference identifies Nail/Piccolo users but does not establish a reliable CaC route.
 
 - Added **Skill Research Batch 49** with seven early/base-game skills from PQ41-PQ48: **Burning Attack**, **Change The Future**, **God Breaker**, **Burning Slash**, **Taunt**, **Chain Destructo-Disc Barrage**, and **Kamekameha**.
-- Duplicate-checked all seven selected names against the live repository before addition; no code-search matches were returned. **Rolling Bullet** was intentionally excluded because its existing PQ42 correction is already canonical research.
+- Duplicate-checked all seven selected names against the live repository; no code-search matches were returned. **Rolling Bullet** was intentionally excluded because its existing PQ42 correction is already canonical research.
 - Cross-checked Batch 49 against the maintained PQ reward transcription, the current Xenoverse 2 skill guide, and current skill-specific references. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
 - **Taunt** has less reliable current technical metadata than the attack skills in this sweep, so its cost and precise technical fields remain unresolved rather than being inferred.
 
 - Added **Skill Research Batch 48** with five early/base-game skills from PQ36-PQ40: **Evil Whirlwind**, **Instant Rise**, **Shining Slash**, **Side Bridge**, and **Heat Dome Attack**.
-- Duplicate-checked all five selected names against the live repository before addition; no code-search matches were returned.
+- Duplicate-checked all five selected names against the live repository; no code-search matches were returned.
 - Cross-checked Batch 48 against the maintained PQ reward transcription, the current Xenoverse 2 skill guide, and current skill-specific references.
 - **Instant Rise** has conflicting stamina figures between an older category table and the current skill-specific page; the batch uses the current specific reference's 300-stamina value and preserves the discrepancy in provenance.
 - **Heat Dome Attack** confirms the previously established PQ40 correction and does not resurrect the obsolete historical attribution.
 
 - Added **Skill Research Batch 47** with five early/base-game skills from PQ29-PQ34: **Freedom Kick**, **Energy Field**, **Energy Barrier**, **Death Psycho Bomb**, and **Paralysis**.
-- Duplicate-checked all five selected names against the live repository before addition; no code-search matches were returned.
+- Duplicate-checked all five selected names against the live repository; no code-search matches were returned.
 - Cross-checked the batch against the maintained PQ reward transcription, current Xenoverse 2 skill-specific references, and independent Future Warrior/technique references.
 - Preserved unresolved reward-slot and Ultimate-Finish semantics instead of inferring them. **Paralysis** also has a classification conflict across current references (Strike Ultimate vs. Super), so it remains `partially_verified` with the disagreement documented in its provenance.
 - Batch 47 also records the already-established **Freedom Kick PQ29 correction** while leaving the historical Batch 17 and correction Batch 35 intact for auditability.
 
 - Added **Skill Research Batch 46** with five early/base-game skills from PQ24-PQ28: **Double Death Slicer**, **Spirit Explosion**, **Crazy Finger Shot**, **Sauzer Blade**, and **Spread Shot Retreat**.
-- Duplicate-checked all five selected names against the live repository before addition; no code-search matches were returned.
+- Duplicate-checked all five selected names against the live repository; no code-search matches were returned.
 - Cross-checked Batch 46 against the current Xenoverse 2 skill guide, independent PQ reward transcriptions, and skill-specific references. Unsupported reward-slot semantics and Ultimate-Finish requirements remain unresolved.
 - Double Death Slicer has player reports connecting acquisition to the Ultimate Finish, but the batch intentionally keeps `ultimate_finish_required` unresolved rather than converting anecdotal reports into canonical reward metadata.
 
