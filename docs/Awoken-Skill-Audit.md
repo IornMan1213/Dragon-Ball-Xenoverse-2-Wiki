@@ -20,15 +20,19 @@ This is the dedicated verification pass for **CaC Awoken skills / transformation
 
 Structured in `docs/data/awoken-research-batches/awoken-batch-01.json`.
 
-The initial roster covers 18 canonical CaC Awoken records when staged forms are grouped into their parent transformations:
+The initial audit used an **18-record convention**, but the later canonical integrity pass found that this convention was internally inconsistent: the roster names 20 CaC Awoken forms when every staged form (SS2/SS3, Super Vegeta 2, Kaioken x3/x20) is represented individually alongside the later Power to Overcome. This is now explicitly corrected rather than perpetuated.
+
+Current CaC Awoken forms represented individually are:
 
 - Saiyan: Super Saiyan 1–3, Super Vegeta 1–2, Future Super Saiyan, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved).
-- Universal: Kaioken (including x3/x20 stages), Potential Unleashed, Beast, Ultra Instinct.
+- Universal: Kaioken, Kaioken x3, Kaioken x20, Potential Unleashed, Beast, Ultra Instinct.
 - Frieza Race: Turn Golden.
 - Majin: Purification.
 - Namekian: Become Giant.
 - Earthling: Power Pole Pro.
 - Universal/DLC: The Power to Overcome.
+
+That is **20 individual forms**. The older "18 transformations" target was therefore stale and is no longer treated as authoritative.
 
 The audit deliberately does **not** treat Pure Progress, Supersonic Mode, Super Saiyan Blue Kaioken, Super/Ultra Supervillain states, SS4 variants, or cast-exclusive forms as standard CaC Awoken skills.
 
@@ -54,30 +58,33 @@ Current-version mechanics were cross-checked against the consolidated Awoken tab
 
 Structured in `docs/data/awoken-research-batches/awoken-batch-05-classification-audit.json`.
 
-The classification pass confirms **18 canonical CaC Awoken records**. Staged transformations are intentionally grouped rather than counted as separate records:
+The classification pass originally recorded 18 canonical CaC Awoken records. The subsequent canonical integrity pass found that this count was incorrect once every staged form was counted individually and The Power to Overcome was included.
 
-- Super Saiyan → Super Saiyan 2 → Super Saiyan 3
-- Super Vegeta → Super Vegeta 2
-- Kaioken → Kaioken x3 → Kaioken x20
+## Batch 6 — Acquisition reconciliation
 
-The current seeded `skills.json` reports a **Transformations category count of 18**, matching this canonical roster. The file remains a seeded index, so category membership itself is not treated as proof of mechanics or acquisition.
+Structured in `docs/data/awoken-research-batches/awoken-batch-06-acquisition-reconciliation.json`.
 
-### Explicitly excluded from the CaC roster
+Acquisition metadata was reconciled without inventing disputed level gates, friendship thresholds, PQ numbers, or Ultimate Finish requirements.
 
-- Pure Progress — Hit's cast transformation.
-- Supersonic Mode — Dyspo's cast transformation.
-- Super Saiyan Blue Kaioken — Goku's cast transformation rather than a separate CaC Awoken skill.
-- Supervillain / Ultra Supervillain states — enemy/story states.
-- SS4 / SS4 Limit Breaker — not a standard selectable CaC Awoken skill in the current game.
-- Orange Piccolo — cast-character transformation; the CaC transformation introduced alongside that era is Beast.
+## Batch 7 — Canonical roster correction
 
-Current 2026 independent material likewise presents the same 18-form CaC roster, including the three-stage Super Saiyan chain, both Super Vegeta stages, Kaioken stages, racial forms, and The Power to Overcome.
+Structured in `docs/data/awoken-research-batches/awoken-batch-07-canonical-roster-correction.json`.
+
+The canonical integrity audit identified a stale Transformation-category index containing cast/enemy-only entries while omitting several CaC stages and The Power to Overcome. The stale seeded entries were Pure Progress, Super Saiyan Blue Kaioken, and Supersonic Mode. Missing entries included Super Saiyan 3, Super Vegeta 2, Kaioken x3, Kaioken x20, and The Power to Overcome.
+
+The correction establishes the current **20-form individual CaC roster** and explicitly records that the previous 18-count convention was erroneous.
+
+## Canonical normalization
+
+`scripts/normalize_awoken_transformation_category.py` now rebuilds only the `Awoken / Transformation` membership records from the audited roster after the general catalog build. Detailed mechanics and acquisition data remain in the researched Awoken records and promotion layer.
+
+`scripts/validate_awoken_integrity.py` separately verifies that promoted Awoken fields are not silently lost during future catalog regeneration.
 
 ## Coverage status
 
-**Structured Awoken audit coverage: 18 canonical CaC transformation records.**
+**Structured Awoken audit coverage: 20 individual CaC transformation forms.**
 
-Classification is now audited. Mechanics and acquisition are researched separately, with unresolved fields retained as unresolved. The next promotion step is to reconcile these research batches against the canonical skill records and only promote fields that have sufficient evidence.
+Mechanics, acquisition, and classification are audited separately. Unresolved fields remain unresolved. The canonical sync now normalizes the Transformation category after rebuilding the general skill catalog, preventing stale cast-only transformation entries from displacing current CaC Awoken forms.
 
 ## Primary research corpus
 
