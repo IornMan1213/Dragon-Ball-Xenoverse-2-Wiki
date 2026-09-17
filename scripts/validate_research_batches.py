@@ -25,30 +25,18 @@ def records(payload):
     return value if isinstance(value, list) else []
 
 
-def validate_skill_semantics(path: Path, record: dict, errors: list[str]) -> None:
+def validate_skill_semantics(path: Path, record: dict, errors: list[str], skip_uf: bool = False) -> None:
     """Reject certainty that the research model cannot substantiate."""
     uf = record.get("ultimate_finish_required")
-    if uf not in (None, True, False):
-        errors.append(
-            f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
-            "ultimate_finish_required must be true, false, or null"
-        )
-    if uf is False and not has_explicit_negative_uf_evidence(record):
-        errors.append(
-            f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
-            "ultimate_finish_required=false lacks explicit non-Ultimate-Finish evidence; use null when unresolved"
-        )
-
+    if not skip_uf:
+        if uf not in (None, True, False):
+            errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: ultimate_finish_required must be true, false, or null")
+        if uf is False and not has_explicit_negative_uf_evidence(record):
+            errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: ultimate_finish_required=false lacks explicit non-Ultimate-Finish evidence; use null when unresolved")
     if record.get("usable_by_cac") is True:
-        has_cac_basis = any(
-            record.get(field) not in (None, "", [])
-            for field in ("race_restriction", "character_source", "unlock_method")
-        )
+        has_cac_basis = any(record.get(field) not in (None, "", []) for field in ("race_restriction", "character_source", "unlock_method"))
         if not has_cac_basis:
-            errors.append(
-                f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: "
-                "usable_by_cac=true lacks a player-character evidence field"
-            )
+            errors.append(f"{path.relative_to(ROOT)}: {record.get('name', '<unnamed>')}: usable_by_cac=true lacks a player-character evidence field")
 
 
 def has_explicit_negative_uf_evidence(record: dict) -> bool:
@@ -59,14 +47,27 @@ def has_explicit_negative_uf_evidence(record: dict) -> bool:
     text = " ".join(str(record.get(k, "")) for k in ("unlock_method", "source_quest_or_shop")).casefold()
     pq_route = "parallel quest" in text or "pq " in text
     if pq_route:
-        return any(token in text for token in (
-            "any clear", "first-clear", "normal clear", "basic reward", "standard reward",
-            "not an ultimate finish", "not ultimate finish"
-        ))
-    return any(token in text for token in (
-        "skill shop", "tp medal shop", "mentor", "instructor quest", "extra story",
-        "built into", "character-locked", "not obtainable", "shenron wish", "wish"
-    ))
+        return any(token in text for token in ("any clear", "first-clear", "normal clear", "basic reward", "standard reward", "not an ultimate finish", "not ultimate finish"))
+    return any(token in text for token in ("skill shop", "tp medal shop", "mentor", "instructor quest", "extra story", "built into", "character-locked", "not obtainable", "shenron wish", "wish"))
+
+
+def collect_uf_corrections() -> set[tuple[str, str, str]]:
+    """Find canonical keys whose historical UF value is explicitly superseded."""
+    corrected: set[tuple[str, str, str]] = set()
+    if not SKILL_DIR.exists():
+        return corrected
+    for path in sorted(SKILL_DIR.glob("*.json")):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        for r in records(payload):
+            if not isinstance(r, dict):
+                continue
+            c = r.get("correction_of")
+            if c and "ultimate_finish_required" in r.get("correction_fields", []):
+                corrected.add((str(c.get("name", r.get("name", ""))).casefold(), str(c.get("previous_class", c.get("class", r.get("class", "")))), str(c.get("previous_subcategory", c.get("subcategory", "")))))
+    return corrected
 
 
 def main() -> int:
@@ -75,6 +76,7 @@ def main() -> int:
     skill_records = pq_records = awoken_records = 0
     skill_keys: dict[tuple[str, str, str], list[str]] = {}
     pq_numbers: dict[int, list[str]] = {}
+    superseded_uf_keys = collect_uf_corrections()
 
     for directory, pattern in ((SKILL_DIR, "*.json"), (PQ_DIR, "pq-batch-*.json"), (AWOKEN_DIR, "*.json")):
         if not directory.exists():
@@ -97,9 +99,10 @@ def main() -> int:
                         errors.append(f"{path.relative_to(ROOT)}: record missing name")
                         continue
                     skill_records += 1
-                    if not historical_duplicate:
-                        validate_skill_semantics(path, r, errors)
                     key = (str(r["name"]).casefold(), str(r.get("class", "")), str(r.get("subcategory", "")))
+                    skip_uf = historical_duplicate or (not r.get("correction_of") and key in superseded_uf_keys)
+                    if not historical_duplicate:
+                        validate_skill_semantics(path, r, errors, skip_uf=skip_uf)
                     if historical_duplicate or r.get("correction_of"):
                         continue
                     skill_keys.setdefault(key, []).append(path.name)
@@ -134,7 +137,6 @@ def main() -> int:
         print("Research-batch validation failed:")
         print("\n".join(dict.fromkeys(errors)))
         return 1
-
     print(f"Research batches validated offline: files={files_checked}, skill records={skill_records}, PQ records={pq_records}, Awoken records={awoken_records}.")
     return 0
 
