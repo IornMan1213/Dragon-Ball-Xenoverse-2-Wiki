@@ -5,8 +5,9 @@ import json,re
 from datetime import date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
-TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25,"Transformations":18}
-
+# Legacy category targets retained for ordinary skill classes. Awoken transformations
+# are represented canonically by 15 parent records and five documented stages.
+TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
 def scalar(v):
  v=v.strip().strip('"\''); return int(v) if re.fullmatch(r'\d+',v) else v
 def parse_frontmatter(p):
@@ -33,7 +34,7 @@ def load_existing():
 def merge_record(m,r):
  n=r.get('name');
  if not n:return False
- c=r.get('correction_of') or {}; oldname=c.get('name',n); oldclass=c.get('previous_class',c.get('class',r.get('class',''))); oldsub=c.get('previous_subcategory',c.get('subcategory',r.get('subcategory',r.get('subcategory','')))); oldkey=(oldname.casefold(),oldclass,oldsub)
+ c=r.get('correction_of') or {}; oldname=c.get('name',n); oldclass=c.get('previous_class',c.get('class',r.get('class',''))); oldsub=c.get('previous_subcategory',c.get('subcategory',r.get('class',''))); oldkey=(oldname.casefold(),oldclass,oldsub)
  if c:m.pop(oldkey,None)
  k=(n.casefold(),r.get('class',''),r.get('subcategory','')); old=m.get(k,{}) ; out=dict(r); fields=set(r.get('correction_fields',[]))
  for x,v in old.items():
@@ -66,15 +67,17 @@ def build_record(d,p):
  return r
 def main():
  if not RESEARCH.exists():raise SystemExit('Structured research corpus is missing.')
- m=load_existing(); local=load_local_batches(m); imported=local
+ m=load_existing(); imported=load_local_batches(m)
  for p in sorted(RESEARCH.glob('*.md')):
   try:r=build_record(parse_frontmatter(p),p)
   except Exception:r=None
   if r:merge_record(m,r); imported+=1
- rows=sorted(m.values(),key=lambda r:(r['name'].casefold(),r['class'],r['subcategory'])); counts=dict(TARGET_COUNTS)
- payload={'schema_version':'1.2','game':'Dragon Ball Xenoverse 2','source_index':'https://dbxv2.fandom.com/wiki/Category:Skills','generated':date.today().isoformat(),'status':'structured_research_catalog','category_counts':counts,'target_category_counts':TARGET_COUNTS,'record_count':len(rows),'records':rows,'notes':'Structured research and repository batches are cross-reference layers; unresolved fields remain blank.'}
+ rows=sorted(m.values(),key=lambda r:(r['name'].casefold(),r['class'],r['subcategory']))
+ awoken=sum(1 for r in rows if r.get('class')=='Awoken' and r.get('subcategory')=='Race')
+ counts=dict(TARGET_COUNTS); counts['Transformations']=awoken
+ targets=dict(TARGET_COUNTS); targets['Transformations']=15
+ payload={'schema_version':'1.2','game':'Dragon Ball Xenoverse 2','source_index':'https://dbxv2.fandom.com/wiki/Category:Skills','generated':date.today().isoformat(),'status':'structured_research_catalog','category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':rows,'notes':'Transformation category counts canonical parent records (15); five additional named forms are documented as stages in the Awoken parent records. Unresolved fields remain blank rather than inferred.'}
  OUT.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
- INDEX.write_text(json.dumps({'schema_version':'1.2','source_index':payload['source_index'],'generated':payload['generated'],'category_counts':counts,'target_category_counts':TARGET_COUNTS,'record_count':len(rows),'records':[{k:r[k] for k in ('name','class','subcategory','verification_status','research_status','sources') if k in r} for r in rows]},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
- print(f'Imported {imported}; total records={len(rows)}')
- return 0
+ INDEX.write_text(json.dumps({'schema_version':'1.2','source_index':payload['source_index'],'generated':payload['generated'],'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':[{k:r[k] for k in ('name','class','subcategory','verification_status','research_status','sources') if k in r} for r in rows]},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+ print(f'Imported {imported}; total records={len(rows)}; Awoken parent records={awoken}')
 if __name__=='__main__':raise SystemExit(main())
