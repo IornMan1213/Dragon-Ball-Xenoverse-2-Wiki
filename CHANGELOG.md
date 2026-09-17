@@ -1,6 +1,11 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 46** with five early/base-game skills from PQ24-PQ28: **Double Death Slicer**, **Spirit Explosion**, **Crazy Finger Shot**, **Sauzer Blade**, and **Spread Shot Retreat**.
+- Duplicate-checked all five selected names against the live repository before addition; no code-search matches were returned.
+- Cross-checked Batch 46 against the current Xenoverse 2 skill guide, independent PQ reward transcriptions, and skill-specific references. Unsupported reward-slot semantics and Ultimate-Finish requirements remain unresolved.
+- Double Death Slicer has player reports connecting acquisition to the Ultimate Finish, but the batch intentionally keeps `ultimate_finish_required` unresolved rather than converting anecdotal reports into canonical reward metadata.
+
 - Added **Skill Research Batch 45** with five early/base-game skills from PQ19-PQ23: **Fighting Pose E**, **Mystic Flash**, **Evil Flight Strike**, **Energy Shot**, and **Death Slash**.
 - Duplicate-checked all five selected names against the live repository search before addition; no code-search matches were returned.
 - Cross-checked Batch 45 against the current Xenoverse 2 skill guide, independent PQ reward transcriptions, and skill-specific references. Reward-slot semantics and Ultimate-Finish requirements remain unresolved where the sources do not establish them.
