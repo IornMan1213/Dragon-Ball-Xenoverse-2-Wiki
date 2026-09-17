@@ -1,0 +1,49 @@
+{
+  "batch_id": 127,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, acquisition route, counter behavior, and unresolved numeric fields. Do not infer unsupported Ultimate Finish requirements.",
+  "research_scope": "Flash Fist Crush — Strike Super / universal counter acquisition research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Dragon Ball documentation.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Flash Fist Crush"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Flash Fist Crush was found. The canonical identity is Super / Strike; its universal-counter behavior is also represented by the Counter Skills taxonomy without creating a second identity."
+    },
+    "classification_finding": "Xenoverse 2 documentation classifies Flash Fist Crush as a Strike Super and a Universal Counter.",
+    "acquisition_finding": "Xenoverse 2 documentation lists the wish 'I want a new Super Attack' as the Future Warrior acquisition route. Independent Dragon Ball documentation confirms it can be obtained by wishing from Shenron.",
+    "finish_policy": "ultimate_finish_required remains null because the documented acquisition route is a Shenron wish rather than a Parallel Quest reward.",
+    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because reviewed sources do not establish a reliable canonical stamina value."
+  },
+  "records": [
+    {
+      "name": "Flash Fist Crush",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Hit / Super Saiyan 4 Gogeta customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Shenron wish",
+      "source_quest_or_shop": "Wish — I want a new Super Attack",
+      "ultimate_finish_required": null,
+      "skill_description": "A universal Strike counter that places the user in a defensive stance; when the counter succeeds, the user delivers a powerful punch, and the attack can also fire offensively if the stance expires without being triggered.",
+      "mechanics_notes": "The Xenoverse 2 reference describes a defensive stance that counters both Strike and Ki Blast attacks. If triggered, Hit throws a punch. The reference also notes that the move can execute offensively after the stance duration. Exact frame timing is version-sensitive and is not encoded as unsupported numeric data.",
+      "acquisition_notes": "The canonical Future Warrior route is the Shenron wish 'I want a new Super Attack'. Later partner customization availability for Super Saiyan 4 Gogeta is retained as character-access context rather than a separate unlock identity.",
+      "pve_notes": "No Parallel Quest or Ultimate Finish acquisition requirement established.",
+      "pvp_notes": "Universal counter against both Strike and Ki Blast attacks; detailed frame and matchup behavior remains version-sensitive.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Flash_Fist_Crush",
+        "https://dragonball.fandom.com/wiki/Flash_Fist_Crush",
+        "https://dbxv2.fandom.com/wiki/Counter_Skill"
+      ]
+    }
+  ]
+}
