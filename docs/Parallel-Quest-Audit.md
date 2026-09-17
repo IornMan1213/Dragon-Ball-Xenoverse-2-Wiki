@@ -7,7 +7,7 @@ title: Parallel Quest Audit
 
 > **Browse the live quest catalog:** [Every Parallel Quest](Parallel-Quests-All.html)
 
-This is the exhaustive Parallel Quest verification pass. The target is every available PQ, including DLC quests, with documented objectives, difficulty, DLC ownership, rewards, skill rewards, Ultimate Finish conditions, and provenance. Unsupported details remain `null` or unresolved rather than being guessed.
+This is the exhaustive Parallel Quest verification pass. The audit covers the numbered PQ range through PQ186, while distinguishing **quest-number coverage** from the number of currently available quests. Current maintained datamined research reports **183 standalone PQs**, with **PQ36 absent/cut**, so the catalog must not imply that all numbers 1–186 correspond to live quests. citeturn0search0
 
 ## Record standard
 
@@ -36,7 +36,7 @@ Structured in `pq-batch-02.json`. Covers Saiyan, Namek, and Ginyu Force quests, 
 Structured in `pq-batch-03.json`. Covers Frieza/Namek, Cooler, Android, and Hercule quests, including Dragon Ball recovery, time-limit, escort, and revived-enemy conditions.
 
 ### Batch 4 — PQ31–PQ40
-Structured in `pq-batch-04.json`. Covers Cell training through Future Warriors. A historical PQ36 conflict is preserved rather than silently choosing between maintained game-specific guides and newer datamined claims.
+Structured in `pq-batch-04.json`. Covers Cell training through Future Warriors. **PQ36 is a preserved historical conflict:** the historical maintained Steam/game-specific transcription lists a PQ36, while current maintained datamined research identifies PQ36 as cut and the live numbering as skipping 36. The audit preserves the evidence rather than silently deleting the historical record. citeturn0search0turn0search1
 
 ### Batch 5 — PQ41–PQ50
 Structured in `pq-batch-05.json`. Covers Future Androids, Dragon Ball collection, Android 16, Broly/Vegeta protection, World Tournament, Namek training, and Majin Buu quests.
@@ -68,39 +68,20 @@ Structured in `pq-batch-13.json`. Completes Extra Pack 2, covers Extra Pack 3, a
 ### Batch 14 — PQ131–PQ140
 Structured in `pq-batch-14.json`. Covers the remainder of Extra Pack 4 and Ultra Packs 1–2. Current maintained quest records provide 7-star classification and, where established, datamined reward-slot percentages; the maintained Steam transcription independently confirms the objective/reward lists.
 
+### Numbering gap — PQ141–PQ150
+The audit intentionally records the numbering gap rather than fabricating ten quests. The next populated block begins at PQ151.
+
 ### Batch 15 — PQ151–PQ160
 Structured in `pq-batch-15.json`. Covers the Conton City Vote Pack and Hero of Justice Packs 1–2. The historical Steam transcription confirms the quest names, DLC labels, win/lose conditions, and basic reward lists, while the maintained corpus supplies 7-star classification and exact reward-slot percentages where established.
 
 ### Batch 16 — PQ161–PQ170
 Structured in `pq-batch-16.json`. Covers the final Hero of Justice Pack 2 quests and Future Saga Chapter 1. Steam's maintained 186-PQ transcription independently confirms the quest names, DLC labels, objective sequences, lose conditions, and documented reward lists; GameFAQs independently corroborates the Ultimate Finish objective sequences for the later quests.
 
-- **PQ161 — Scream Team vs. Dream Team:** clear under 7 minutes, then defeat Orange Piccolo and Gohan (Beast); Apocalyptic Burst is documented.
-- **PQ162 — The Man, the Myth, the Yamcha:** keep player health above 50%, then defeat Supervillain Yamcha; Special Beam Cannon (Beast) is documented.
-- **PQ163 — Broly the Invader:** clear under 10 minutes, then defeat Goku; Giant Cluster and Eraser Bomb are documented.
-- **PQ164 — Where is Goku?!:** clear under 8 minutes, then defeat SSGSS Goku; Gigantic Explosion is documented.
-- **PQ165 — Anniversary Antics:** clear under 8 minutes, then defeat SSGSS Goku; Variable Snipe Shot and Steel Mirage are documented.
-- **PQ166 — Escape from West City:** clear under 7 minutes, then defeat Super 17; Pendulum Bullet is documented.
-- **PQ167 — Fighting for Family:** clear under 10 minutes, then defeat Gohan (Adult); Seagull Combination and Burning Swan are documented.
-- **PQ168 — Videl: Super Mom:** clear under 7 minutes, then defeat Golden Frieza and the others; Justice Drive is documented.
-- **PQ169 — Reclaiming a Holy Vessel:** clear under 10 minutes, then defeat Golden Frieza and the others; no skill reward is asserted because the checked transcription does not list one.
-- **PQ170 — Love: A Field Study:** clear under 9 minutes, then defeat Android 18 (DB Super); no skill reward is asserted because the checked transcription does not list one.
-
 ### Batch 17 — PQ171–PQ180
 Structured in `pq-batch-17.json`. Covers Future Saga Chapters 1–2 and the Dragon Ball DAIMA Pack. The maintained Steam transcription independently confirms the quest names, DLC labels, objective sequences, lose conditions, and documented reward lists; GameFAQs corroborates the Ultimate Finish objective sequences for PQ171–178.
 
-- **PQ171 — Fighters with Finesse:** clear under 9 minutes, then defeat Great Saiyaman 1 and others; Crimson Edge and Divine Spear are documented.
-- **PQ172 — Little Big Brother:** clear under 8 minutes, then defeat Great Ape Baby; Big Bang Knuckle and Wild Stinger are documented.
-- **PQ173 — Decoding Dinner:** clear under 9 minutes, then defeat Beerus; Divine Ray Bomb is documented.
-- **PQ174 — Hyper Special Training:** keep your health over 40%, then defeat Supreme Kai of Time and Trunks; Final Rampage is documented.
-- **PQ175 — Who's the Next Leader?!:** clear under 15 minutes, then defeat Belmod; God of Destruction's Plaything and God of Destruction's Poise are documented.
-- **PQ176 — Havoc at the 3-Universe Feast:** clear under 10 minutes, then defeat Belmod; the checked transcription lists no skill reward.
-- **PQ177 — Warped Sense of Justice:** clear under 10 minutes, then defeat Jiren (Full Power, Ultra Supervillain); Full Power Destruction, Dragon Spark, and Soaring Rush are documented.
-- **PQ178 — The Tireless Pursuit of Strength:** clear under 10 minutes, then defeat Jiren (Full Power, Ultra Supervillain) and the others; Burst Blitz is documented.
-- **PQ179 — 24/7 Time Patrol:** clear under 10 minutes, then defeat Vegeta (Super Saiyan God); Heat Wave and Supreme Fury are documented.
-- **PQ180 — Battle of Resolve: VS Goku Black:** clear under 10 minutes, then defeat Vegeta (Super Saiyan God); Force Edge and Burning Blast are documented.
-
 ### Batch 18 — PQ181–PQ186
-Structured in `pq-batch-18.json`. This completes the current 186-PQ catalog. The maintained Steam 186-PQ transcription confirms all six quest names, DLC assignments, objective sequences, lose conditions, and documented rewards; GameFAQs independently corroborates the Ultimate Finish sequences for PQ181–186.
+Structured in `pq-batch-18.json`. This is the final numbered block. The maintained Steam 186-PQ transcription confirms the six quest names, DLC assignments, objective sequences, lose conditions, and documented rewards; GameFAQs independently corroborates the Ultimate Finish sequences. The structured records explicitly leave exact reward-slot/drop percentages unresolved where they are not established. fileciteturn848file0L2-L10
 
 - **PQ181 — The Greatest Training Ever:** clear under 15 minutes, then defeat Beerus and the others; Super Kamehameha (SS4 DAIMA) and Final Flash (SS3 DAIMA) are documented.
 - **PQ182 — Frieza's Fervent Wish:** clear under 10 minutes, then defeat SSGSS Gogeta; Dark Inscription is documented.
@@ -122,9 +103,9 @@ A 7-star crossover quest. The existing audit preserves the Rosé Goku Black heal
 
 ## Research target
 
-The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: objectives, rewards, and Ultimate Finish conditions must be checked before promotion.
+The wiki distinguishes **numbered audit coverage** from **currently available PQs**. A quest is not marked complete merely because its title or number has been indexed: objectives, rewards, and Ultimate Finish conditions must be checked before promotion.
 
-**Current structured audit coverage: PQ1–PQ186.** The 186-quest Parallel Quest audit is now structurally complete. A final consistency pass remains before the project moves to the requested Awoken/Transformation skill audit.
+**Current structured audit coverage: numbered PQ1–PQ186, with known numbering gaps preserved.** The audit is structurally complete, but a final cross-link consistency pass remains: every documented skill reward should resolve to exactly one canonical skill key, and every skill record claiming a PQ source should resolve back to a numbered PQ audit record. Current research supports 183 standalone PQs because PQ36 is cut; the historical PQ36 evidence remains preserved for auditability. citeturn0search0
 
 ## Primary research corpus
 
