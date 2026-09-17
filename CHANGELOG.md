@@ -1,6 +1,10 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 16** with five previously uncovered early/base-game skills: **Mach Punch**, **Fighting Pose E**, **Mystic Flash**, **Energy Shot**, and **Ginyu Force Special Combo**.
+- Duplicate-checked the selected Batch 16 records against the current canonical skill response and repository search before addition; **Evil Flight Strike was explicitly excluded because it was already indexed**.
+- Reconciled Batch 16 identity, classification, acquisition route, resource cost, and core mechanics against current Xenoverse 2 references and corroborating research. Exact reward probabilities were not inferred where the sources did not establish them.
+- Added Batch 16 to `docs/data/skill-research-batches/skill-batch-16.json` as the next canonical research layer for the skill catalog.
 - Added **Skill Research Batch 15** with five previously uncovered base-game skills: **Dodoria Headbutt**, **Earth Splitting Galick Gun**, **Milky Cannon**, **Recoome Kick**, and **Time Control**.
 - Duplicate-checked Batch 15 against `docs/data/skills.json` and prior skill research batches before addition; no duplicates were found.
 - Reconciled Batch 15 identity, category, acquisition, resource cost, and core mechanics against current Xenoverse 2 skill references plus corroborating research sources. The five records are marked `verified` for their documented core fields; exact community damage measurements remain outside the promoted claims.
@@ -38,30 +42,3 @@
 - Added an explicit **Exhaustive Game Encyclopedia** scope standard to `TODO.md`: the project is intended to document every documented detail of Xenoverse 2, with structured labels, provenance, uncertainty tracking, and distinctions such as CaC vs character-only, DLC ownership vs unlock method, normal vs Ultimate Finish rewards, and known exceptions.
 - Updated the delivery strategy so coverage of under-documented game systems remains active alongside skill/PQ research rather than allowing the current batch focus to narrow the wiki's scope.
 - Continued provenance-first research: unresolved values are kept explicitly uncertain instead of being invented or silently promoted.
-- Added the first **10 Super Soul canonical research records** to `docs/data/super-souls-record-layer.json`.
-- Added **Super Soul research batch 2**, bringing the canonical structured catalogue to **18 populated records**.
-- Kept unresolved Super Soul acquisition/mechanics fields explicitly null or provisional rather than inferring missing values.
-- Removed internal web-citation artifacts from `docs/Super-Souls-Database.md` and expanded the page's structured research guidance.
-- Updated the homepage Super Soul status card from 10 to **18 records** and added Super Souls to the main category navigation.
-- Added a dedicated Super Soul database destination to the homepage's popular-destination cards.
-- Updated `TODO.md` to track the 18-record baseline and the next Super Soul verification/population cycle.
-- Added a **machine-readable QQ Bang research layer** at `docs/data/qq-bangs-record-layer.json` covering the synthesis system, Super Mix Capsule Z research, and a Bardock/Beerus recipe family.
-- Expanded `docs/QQ-Bang-Database.md` with six-stat fields, synthesis workflow, recipe-vs-result provenance, six-star research rules, verification policy, and research gaps.
-- Expanded `docs/QQ-Bangs.md` into a practical guide and linked it to the structured QQ Bang database.
-- Removed internal web-tool citation artifacts from both QQ Bang pages.
-- Added QQ Bang research to the homepage database status and popular destinations.
-- Added a new **Equipment Database research foundation** at `docs/Equipment-Database.md`, covering individual equipment records, slots, six core stat fields, acquisition taxonomy, DLC/free-update provenance, version history, accessories, and verification rules.
-- Exposed Equipment Database through the homepage status panel, popular destinations, and category navigation.
-- Cleaned citation artifacts from the Equipment Database before continuing.
-- Added the first **10 structured Equipment records** at `docs/data/equipment-record-layer.json`, covering PQ, Clothing Shop, TP Medal Shop, and Conton City NPC/Expert Mission-related acquisition routes with stat, restriction, provenance, and verification fields.
-- Expanded the equipment research layer with additional populated records while retaining `partially_verified` status where component-level restrictions, current shop state, or historical/version details remain unresolved.
-- Added `docs/data/equipment-catalog-index.json` as a broader inventory layer covering documented equipment families and names beyond the fully researched record layer.
-- Separated equipment **inventory discovery** from **record verification**, so a discovered costume name is not incorrectly treated as proof of its stats, price, restriction, or current acquisition state.
-- Expanded `docs/Equipment-Database.md` with catalog coverage rules and explicit indexed-vs-verified guidance.
-- Kept external research claims out of repository prose as internal tool citation artifacts; repository source references remain ordinary source URLs where applicable.
-- Current Equipment research remains an active population track; no claim is made that every clothing piece, accessory, or equipment stat record has been populated or verified.
-- Added `scripts/audit_accessories.mjs` to cross-check accessory identity records across the canonical, PQ, shop, raid/gift, wish/special, and canonicalization layers.
-- Extended the structured-data GitHub Actions audit to execute the accessory cross-layer audit alongside the existing wiki-data audit.
-- The accessory audit intentionally treats alternate acquisition routes as warnings/cross-layer matches rather than duplicate canonical items, while flagging duplicate IDs, malformed statuses, invalid PQ ranges, and obvious clothing-to-accessory contamination as failures.
-
-Continuing modular improvements.
