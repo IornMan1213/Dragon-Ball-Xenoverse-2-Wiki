@@ -80,24 +80,26 @@ Structured in `pq-batch-13.json`. Completes Extra Pack 2, covers Extra Pack 3, a
 
 ### Batch 14 — PQ131–PQ140
 
-Structured in `pq-batch-14.json`. Covers the remainder of Extra Pack 4 and Ultra Packs 1–2. Current maintained quest records provide 7-star classification and, where established, datamined reward-slot percentages; the maintained Steam transcription independently confirms the objective/reward lists. citeturn0search0turn0search1
-
-Key later examples include PQ131's 10.5-minute fusion battle, PQ132's Broly health condition, PQ137's 8.5-minute remaining-time condition, PQ139's 8-minute condition, and PQ140's four-minute endurance condition. citeturn0search0
+Structured in `pq-batch-14.json`. Covers the remainder of Extra Pack 4 and Ultra Packs 1–2. Current maintained quest records provide 7-star classification and, where established, datamined reward-slot percentages; the maintained Steam transcription independently confirms the objective/reward lists.
 
 ### Batch 15 — PQ151–PQ160
 
-Structured in `pq-batch-15.json`. This block covers the Conton City Vote Pack and Hero of Justice Packs 1–2. The historical Steam transcription confirms the quest names, DLC labels, win/lose conditions, and basic reward lists, while the maintained datamined corpus supplies 7-star classification and exact reward-slot percentages where established. citeturn1search0turn1search1
+Structured in `pq-batch-15.json`. Covers the Conton City Vote Pack and Hero of Justice Packs 1–2. The historical Steam transcription confirms the quest names, DLC labels, win/lose conditions, and basic reward lists, while the maintained corpus supplies 7-star classification and exact reward-slot percentages where established.
 
-- **PQ151 — Even Further Beyond:** clear under 7 minutes, then defeat Omega Shenron and the others; Ultrasonic Blitz, Spirit Pulse, and Celestial Wave are documented with current slot data. fileciteturn623file0L2-L8
-- **PQ152 — Dyspo's Wanted Man:** keep player health over 50%, then defeat Dyspo; Justice Kick and Justice Blade are documented at 40% UF-bonus slots. fileciteturn609file0L2-L8
-- **PQ153 — Seeing Double:** keep GT Vegeta above 50%, then defeat evolved SSGSS Vegeta; Wild Buster, Shield Barrier, and Counter Impact are documented. fileciteturn610file0L2-L8
-- **PQ154 — Dabura the Loyal? Servant:** clear under 10 minutes, then defeat Metal Cooler and the others; Sign of Awakening and Circle Flash are documented. fileciteturn611file0L2-L8
-- **PQ155 — I Need a Hero... Pose!:** clear under 9 minutes, then defeat Gamma 1; Heroic Counter, Gamma Blaster, and Gamma Impact are documented. fileciteturn624file0L2-L10
-- **PQ156 — Hunting Down Dr. Hedo:** clear under 8 minutes, then defeat Super 17 and Super Baby 2; Heroic Assault and Shooting Strike are documented. fileciteturn625file0L2-L8
-- **PQ157 — Whis's Training: Gohan's Awakening:** keep player health above 50%, then defeat Gohan (DBS Super Hero); the maintained data records Gamma 1's Clothes as a scripted reward and no skill reward in this quest. fileciteturn626file0L2-L8
-- **PQ158 — Beat Bulma's Minions!:** clear under 7 minutes, then defeat SSGSS Goku and SSGSS Vegeta; Super Gamma Blast and Core Breaker are documented. fileciteturn627file0L2-L8
-- **PQ159 — Lights! Camera! Super Heroes!:** clear under 7 minutes, then defeat Gamma 1 and Gamma 2; Fierce Fist and Demonic Destruction are documented. fileciteturn628file0L2-L8
-- **PQ160 — Pan in Peril:** clear under 7 minutes, then defeat Super Saiyan 4 Gogeta; Demon Ray, Demon Flash Strike, and Demon Flurry are documented. fileciteturn629file0L2-L8
+### Batch 16 — PQ161–PQ170
+
+Structured in `pq-batch-16.json`. Covers the final Hero of Justice Pack 2 quests and Future Saga Chapter 1. Steam's maintained 186-PQ transcription independently confirms the quest names, DLC labels, objective sequences, lose conditions, and documented reward lists; GameFAQs independently corroborates the Ultimate Finish objective sequences for the later quests. citeturn0search1turn0search2
+
+- **PQ161 — Scream Team vs. Dream Team:** clear under 7 minutes, then defeat Orange Piccolo and Gohan (Beast); Apocalyptic Burst is documented.
+- **PQ162 — The Man, the Myth, the Yamcha:** keep player health above 50%, then defeat Supervillain Yamcha; Special Beam Cannon (Beast) is documented.
+- **PQ163 — Broly the Invader:** clear under 10 minutes, then defeat Goku; Giant Cluster and Eraser Bomb are documented.
+- **PQ164 — Where is Goku?!:** clear under 8 minutes, then defeat SSGSS Goku; Gigantic Explosion is documented.
+- **PQ165 — Anniversary Antics:** clear under 8 minutes, then defeat SSGSS Goku; Variable Snipe Shot and Steel Mirage are documented.
+- **PQ166 — Escape from West City:** clear under 7 minutes, then defeat Super 17; Pendulum Bullet is documented.
+- **PQ167 — Fighting for Family:** clear under 10 minutes, then defeat Gohan (Adult); Seagull Combination and Burning Swan are documented.
+- **PQ168 — Videl: Super Mom:** clear under 7 minutes, then defeat Golden Frieza and the others; Justice Drive is documented.
+- **PQ169 — Reclaiming a Holy Vessel:** clear under 10 minutes, then defeat Golden Frieza and the others; no skill reward is asserted because the checked transcription does not list one.
+- **PQ170 — Love: A Field Study:** clear under 9 minutes, then defeat Android 18 (DB Super); no skill reward is asserted because the checked transcription does not list one.
 
 ## Early verified examples
 
@@ -117,7 +119,7 @@ A 7-star crossover quest. The existing audit preserves the Rosé Goku Black heal
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: objectives, rewards, and Ultimate Finish conditions must be checked before promotion.
 
-**Current structured audit coverage: PQ1–PQ160.** Remaining DLC PQs will continue in numbered batches with the same provenance and conflict-preservation rules.
+**Current structured audit coverage: PQ1–PQ170.** Remaining DLC PQs will continue in numbered batches with the same provenance and conflict-preservation rules.
 
 ## Primary research corpus
 
