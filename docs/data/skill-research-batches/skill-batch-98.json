@@ -10,10 +10,10 @@
       "selected_records": ["Giant Storm"],
       "duplicate_count": 0
     },
-    "classification_finding": "Current Xenoverse 2 reference material identifies Giant Storm as a Ki Blast Ultimate with a long-range, tracking, multi-hit projectile attack.",
-    "acquisition_finding": "Current reference material lists Parallel Quest 101 — The Ultimate Legendary Super Saiyan as the acquisition route.",
-    "ultimate_finish_policy": "No Ultimate Finish requirement is asserted because the available evidence confirms the PQ reward route but does not satisfy the project's explicit Ultimate Finish evidence threshold.",
-    "variant_policy": "Giant Storm is kept distinct from other Broly projectile Ultimates and from related Dual attacks.",
+    "classification_finding": "Current Xenoverse 2 reference material identifies Giant Storm as a Ki Blast Ultimate costing 300 Ki, with explosion, tracking, long-range, single-hit, and launching characteristics.",
+    "acquisition_finding": "Current DBXV2 reference material lists Skill Shop as the unlock route. Independent references also document Nappa training and earlier acquisition reporting; the canonical record retains the current Skill Shop route while noting the historical discrepancy.",
+    "ultimate_finish_policy": "No Ultimate Finish requirement is asserted. The current evidence establishes a Skill Shop route rather than a PQ reward condition, so the field remains null.",
+    "variant_policy": "Giant Storm is kept distinct from DUAL Giant Storm and the separate Super Skill variation.",
     "damage_policy": "Exact damage values are not promoted as canonical database values because version stability is not established."
   },
   "records": [
@@ -23,16 +23,16 @@
       "subcategory": "Ki Blast",
       "race_restriction": null,
       "usable_by_cac": true,
-      "character_source": "Broly (Legendary Super Saiyan), Broly (Super Saiyan), and customizable partner documented by current references",
+      "character_source": "Nappa and customizable partners documented by current references",
       "dlc_requirement": null,
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 101 — The Ultimate Legendary Super Saiyan",
-      "source_quest_or_shop": "PQ101 — The Ultimate Legendary Super Saiyan",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
-      "skill_description": "Launch a large tracking Ki Blast that travels toward the opponent and explodes on contact.",
-      "mechanics_notes": "Current references classify Giant Storm as a long-range projectile with tracking and multi-hit behavior. Exact hit counts, damage values, and drop probabilities are not promoted as canonical values.",
+      "skill_description": "Create a large explosion beneath the opponent by charging and flicking the hand upward.",
+      "mechanics_notes": "Current DBXV2 documentation classifies Giant Storm as an explosion-type, tracking, long-range, single-hit Ki Blast Ultimate that launches the opponent. Historical and community references also describe Nappa training as an acquisition path; this is retained as source history rather than replacing the current Skill Shop route.",
       "combo_notes": null,
       "pve_notes": null,
       "pvp_notes": null,
@@ -40,8 +40,9 @@
       "last_verified": "2026-09-17",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Giant_Storm",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://dragonball.fandom.com/wiki/Giant_Storm"
+        "https://dragonball.fandom.com/wiki/Volcano_Explosion",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74486517",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     }
   ]
