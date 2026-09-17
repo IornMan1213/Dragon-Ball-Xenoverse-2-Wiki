@@ -74,18 +74,24 @@ Structured in `pq-batch-11.json`. Covers Super Packs 1–4. Historical guides an
 
 ### Batch 12 — PQ111–PQ120
 
-Structured in `pq-batch-12.json`. This block continues from Super Pack 4 into Extra Packs 1 and 2. DLC ownership was cross-checked rather than inferred from numbering: PQ111–112 belong to Super Pack 4; PQ113–117 belong to Extra Pack 1; PQ118–122 belong to Extra Pack 2. citeturn1search2turn1search10
+Structured in `pq-batch-12.json`. Covers the end of Super Pack 4 and the transition through Extra Packs 1 and 2. DLC ownership was cross-checked rather than inferred from numbering.
 
-- **PQ111 — The Zero Mortal Plan:** defeat all enemies, clear under five minutes, then defeat Rosé Goku Black and Super 17; Lightning of Absolution and Holy Wrath are documented.
-- **PQ112 — Advent of the Mighty God Zamasu!:** defeat all enemies while keeping allies alive, then defeat Android 17 and the other enemies; Blades of Judgment and Divine Wrath: Purification are documented.
-- **PQ113 — Birth of the Ultimate Majin!:** keep Majin Buu (Gohan Abs.) above 50%, then defeat all Majin Buus; Super Ghost Buu Attack and the Super variant of Candy Beam are documented.
-- **PQ114 — The Majin Revival Plan:** clear under ten minutes, then defeat Dabura and Kid Buu; Petrifying Spit and Evil Blast are documented.
-- **PQ115 — Extreme Battle with Android 13!:** defeat all enemies without losing allies, then defeat Android 13 and Android 17; Handy Canon and S.S. Deadly Bomber are documented. citeturn1search0turn1search1
-- **PQ116 — A Hero's Duty:** clear under nine minutes, then defeat Dabura and Omega Shenron; Brave Sword Slash and Hero's Flute are documented. citeturn1search3
-- **PQ117 — A Dance of Swords:** clear under ten minutes, then defeat Future Trunks and Tapion; Evil Flame and Brave Sword Attack are documented. citeturn2search0
-- **PQ118 — Beerus's Tournament Troubles:** keep Beerus above 50%, then defeat Golden Frieza and the other enemies; no skill is documented in the basic reward list. citeturn2youtube8turn2search1
-- **PQ119 — A Ranger's Duty:** clear under nine minutes, then defeat Great Ape Nappa; Rough Ranger is documented. citeturn2search1
-- **PQ120 — Whis's Special Training:** defeat all Jirens before one leaves, then defeat Beerus, Whis, and Jiren; Power Impact is documented. citeturn2search1
+### Batch 13 — PQ121–PQ130
+
+Structured in `pq-batch-13.json`. This block completes Extra Pack 2, covers Extra Pack 3, and begins Extra Pack 4. The maintained historical PQ transcription provides the objective sequences and documented basic rewards; GameFAQs independently confirms the key UF triggers for PQ121–127. citeturn0search0turn0search2turn0search3
+
+- **PQ121 — Off-The-Charts Energy:** defeat all enemies, clear under eight minutes, then defeat Fu and the others; the Fu Super Soul is documented.
+- **PQ122 — The Final Battle Before the Final Battle?!:** defeat enemies while leaving Beerus for last, then defeat Beerus and the others; Meditation and Power Rush are documented.
+- **PQ123 — Planetary Possession:** keep Super Baby 2 above 50%, then defeat Omega, Eis, and Nuova Shenron; Reverse Shot and Variant Drive are documented. citeturn0search2
+- **PQ124 — Downfall of the Ultimate Saiyan:** allow Super Baby 2 to heal at least three times before the final defeat sequence; Revenge Final Flash is documented. citeturn0search2
+- **PQ125 — Proof's in the Potara:** keep Kefla above 50%, then defeat Ultra Instinct Goku, Beerus, and Champa; Blaster Ball and Ray Blast are documented. citeturn0search2
+- **PQ126 — Catch Kefla If You Can!:** reach Kami's Lookout, clear in six minutes, then defeat Kefla and the others; Gigantic Breaker is documented. citeturn0search2
+- **PQ127 — Multiverse Match of the Century:** defeat all enemies, clear in eight minutes, then defeat Kefla and the others; Gigantic Burst and Revenge Death Ball are documented. citeturn0search2
+- **PQ128 — Legendary Super Saiyan Smackdown:** clear under eight minutes, then defeat Broly (Full Power Super Saiyan); Powered Shell and Gigantic Charge are documented.
+- **PQ129 — Frieza Force on the Hunt:** keep an NPC above 50%, then defeat Gotenks and SSGSS Gogeta; Spirit Blaster and Punisher Shield are documented.
+- **PQ130 — Legendary Starving Saiyan Broly:** keep Broly (Full Power Super Saiyan) above 50%, then defeat him; Gigantic Rage is documented. citeturn0search0
+
+The source corpus also continues beyond this batch through PQ131–133, confirming that the audit should continue sequentially rather than treating PQ130 as the end of the DLC corpus. citeturn0search0
 
 ## Early verified examples
 
@@ -105,7 +111,7 @@ A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black 
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
-Current structured audit coverage: **PQ1–PQ120** plus the previously documented spot-verified examples. Remaining DLC PQs will be processed in numbered batches with the same provenance and conflict-preservation rules.
+Current structured audit coverage: **PQ1–PQ130** plus the previously documented spot-verified examples. Remaining DLC PQs will be processed in numbered batches with the same provenance and conflict-preservation rules.
 
 ## Primary research corpus
 
