@@ -13,6 +13,7 @@
     "usable_by_cac": {"type": ["boolean", "null"]},
     "character_source": {"type": ["string", "null"]},
     "dlc_requirement": {"type": ["string", "null"]},
+    "level_requirement": {"type": ["integer", "null"], "minimum": 0},
     "ki_cost": {"type": ["integer", "string", "null"], "minimum": 0},
     "stamina_cost": {"type": ["integer", "string", "null"], "minimum": 0},
     "damage_type": {"type": ["string", "null"]},
