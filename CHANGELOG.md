@@ -1,6 +1,16 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 54** with fifteen base-game skills from PQ86-PQ100: **Neo Wolf Fang Fist**, **Atomic Blast**, **Buu Buu Ball**, **Victory Rush**, **III Bomber**, **Final Kamehameha**, **Maiden Burst**, **Bluff Kamehameha**, **Drain Field**, **Absolute Zero**, **Charged Ki Wave**, **Phantom Fist**, **Dimension Ray**, **Emperor's Edge**, and **X100 Big Bang Kamehameha**.
+- Duplicate-audited all fifteen Batch 54 names against the live repository before addition; no repository-search matches were returned for the selected records. Existing **Charge** and **Flash Bomber** research was intentionally reused rather than duplicated.
+- Cross-checked Batch 54 against the maintained PQ reward transcription, the all-186-PQ walkthrough, and an independent hidden-objective/Ultimate-Finish reference. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
+- Preserved the **III Bomber / Ill Bomber** naming discrepancy as provenance rather than silently creating two skills.
+- **Neo Wolf Fang Fist** retains partially unresolved resource/extension mechanics pending deeper skill-specific reconciliation.
+
+- Added **Skill Research Batch 53** with five base-game skills from PQ81-PQ85: **Afterimage Strike**, **Dragon Burn**, **Charge**, **Saiyan Spirit**, and **Zigzag Express**.
+- Duplicate-audited all five Batch 53 names against the live repository before addition; no repository-search matches were returned for the selected records.
+- Cross-checked Batch 53 against the maintained PQ reward transcription, current skill-specific references, and independent technique material. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
+
 - Added **Skill Research Batch 52** with ten base-game skills from PQ71-PQ80: **Last Emperor**, **Burst Kamehameha**, **Psychic Move**, **Final Pose**, **Counter Burst**, **Warp Kamehameha**, **Ki Explosion**, **Dust Attack**, **Mighty Explosive Wave**, and **Dimensional Hole**.
 - Duplicate-audited all ten Batch 52 names against the live repository before addition; no repository-search matches were returned for the selected records.
 - Cross-checked Batch 52 against the maintained PQ reward transcription, GameFAQs, the historical XVGuide skill list, current skill-specific references, and an independent technique/character-ID reference. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
@@ -21,7 +31,6 @@
 - Added **Skill Research Batch 49** with seven early/base-game skills from PQ41-PQ48: **Burning Attack**, **Change The Future**, **God Breaker**, **Burning Slash**, **Taunt**, **Chain Destructo-Disc Barrage**, and **Kamekameha**.
 - Duplicate-checked all seven selected names against the live repository; no code-search matches were returned. **Rolling Bullet** was intentionally excluded because its existing PQ42 correction is already canonical research.
 - Cross-checked Batch 49 against the maintained PQ reward transcription, the current Xenoverse 2 skill guide, and current skill-specific references. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
-- **Taunt** has less reliable current technical metadata than the attack skills in this sweep, so its cost and precise technical fields remain unresolved rather than being inferred.
 
 - Added **Skill Research Batch 48** with five early/base-game skills from PQ36-PQ40: **Evil Whirlwind**, **Instant Rise**, **Shining Slash**, **Side Bridge**, and **Heat Dome Attack**.
 - Duplicate-checked all five selected names against the live repository; no code-search matches were returned.
@@ -38,7 +47,6 @@
 - Added **Skill Research Batch 46** with five early/base-game skills from PQ24-PQ28: **Double Death Slicer**, **Spirit Explosion**, **Crazy Finger Shot**, **Sauzer Blade**, and **Spread Shot Retreat**.
 - Duplicate-checked all five selected names against the live repository; no code-search matches were returned.
 - Cross-checked Batch 46 against the current Xenoverse 2 skill guide, independent PQ reward transcriptions, and skill-specific references. Unsupported reward-slot semantics and Ultimate-Finish requirements remain unresolved.
-- Double Death Slicer has player reports connecting acquisition to the Ultimate Finish, but the batch intentionally keeps `ultimate_finish_required` unresolved rather than converting anecdotal reports into canonical reward metadata.
 
 - Added **Skill Research Batch 45** with five early/base-game skills from PQ19-PQ23: **Fighting Pose E**, **Mystic Flash**, **Evil Flight Strike**, **Energy Shot**, and **Death Slash**.
 - Duplicate-checked all five selected names against the live repository search; no code-search matches were returned.
@@ -52,6 +60,7 @@
 - Added **Skill Research Batch 43** with five previously absent early/base-game PQ skills: **Meteor Blow**, **Earth Splitting Galick Gun**, **Meteor Crash**, **Fighting Pose C**, and **Kaioken Kamehameha**.
 - Duplicate-checked all five selected names against the live repository; **0 repository-search matches** were returned for each.
 - Reconciled Batch 43 against the current Xenoverse 2 skill guide and independent PQ reward transcriptions. Earth Splitting Galick Gun also has a newer independently maintained PQ database entry reporting an Ultimate Finish reward roll; the batch keeps `ultimate_finish_required` unresolved rather than promoting that source-specific result into an unconditional field.
+
 - Added **Skill Research Batch 42** with five previously absent early/base-game PQ skills: **Recoome Eraser Gun**, **Mach Kick**, **Fighting Pose J**, **Time Control**, and **Unrelenting Barrage**.
 - Cross-checked Batch 42 against the current Xenoverse 2 skill guide, independent PQ reward transcriptions, and skill-specific references where available. Unsupported reward-slot, drop-probability, and technical fields remain unresolved.
 - Identified that **Skill Research Batch 41 duplicates Batch 40's five records** rather than adding new catalog coverage; both batches remain preserved as historical research, but Batch 41 is not counted as five additional unique skills.
@@ -68,7 +77,6 @@
 - Added **Skill Research Batch 38** with five previously unrecorded skills found absent from the live repository search: **Drain Charge**, **Hyper Drain**, **Life Absorption**, **Energy Release**, and **Flash Bomber**.
 - Duplicate-checked all five selected names against the live repository before addition; **0 repository-search matches** were found.
 - Reconciled Batch 38 against current Xenoverse 2 references. Drain Charge, Hyper Drain, and Flash Bomber have documented acquisition/cost data; Energy Release remains partial because its current reference does not establish a CaC route or resource cost; Life Absorption was initially kept partial because current reference variants disagreed on the health-drain percentage, then corrected by Batch 39 using the current 10% reference.
-- Kept Batch 38 records `partially_verified` pending independent reconciliation of remaining reward-slot, acquisition, and technical fields.
 
 - Added **Skill Research Correction Batch 37** to preserve Batch 36's historical research while correcting the final-DLC acquisition mapping: the directly enumerated PQ reward list places **Dragon Spiral** and **Indomitable** on PQ185 and **Venus Fist** on PQ186. A conflicting July 2026 acquisition guide says all three can drop from both PQs, so the disagreement is retained as provenance rather than silently erased.
 - Kept `ultimate_finish_required` unresolved for all three final-DLC PQ skills because the available reward lists do not establish that the skills occupy an Ultimate-Finish-only slot.
