@@ -1,6 +1,13 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 15** with five previously uncovered base-game skills: **Dodoria Headbutt**, **Earth Splitting Galick Gun**, **Milky Cannon**, **Recoome Kick**, and **Time Control**.
+- Duplicate-checked Batch 15 against `docs/data/skills.json` and prior skill research batches before addition; no duplicates were found.
+- Reconciled Batch 15 identity, category, acquisition, resource cost, and core mechanics against current Xenoverse 2 skill references plus corroborating research sources. The five records are marked `verified` for their documented core fields; exact community damage measurements remain outside the promoted claims.
+- Updated `scripts/build_skills_from_research.py` so repository-curated `skill-batch-*.json` research records are imported into the generated canonical skill catalog rather than remaining disconnected staging data.
+- Updated `.github/workflows/skills-sync.yml` so curated skill research batches trigger the canonical build/validation workflow.
+- Continued to preserve curated fields and verification states when external structured research is merged, preventing a weaker external record from overwriting a stronger repository record.
+
 - Staged **Super Soul research batch 03** at `docs/data/super-souls-research-batch-03.json` with eight additional records (Burter, Jeice, Ginyu, Nail, Dende, Piccolo, Frieza, and Kid Gohan) kept at `partially_verified` pending acquisition/current-version reconciliation.
 - Expanded `docs/Super-Souls-Database.md` to document the staged-batch workflow and canonical-vs-staged distinction so research additions are not mistaken for fully reconciled canonical records.
 - Continued independent-source reconciliation for the new Super Soul batch using the current Xenoverse 2 Super Soul catalogue plus historical GameFAQs and NPC/world references where applicable.
