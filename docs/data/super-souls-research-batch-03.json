@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0.0",
+  "domain": "super_souls",
+  "batch": "03",
+  "purpose": "Staged research records for the next Super Soul population pass. These records remain separate from the canonical layer until reconciliation/merge validation is complete.",
+  "verification_status": "partially_verified",
+  "records": [
+    {
+      "id": "super-soul-024",
+      "name": "I'm the fastest in the universe",
+      "character_source": "Burter",
+      "acquisition_type": "Item Shop",
+      "acquisition_source": "Item Shop",
+      "trigger_condition": "User Ki equals 100%",
+      "effect_text": "Increases all Mobility stats.",
+      "effect_magnitude": "+20%",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": "Revive Gauge Auto-Recovery!",
+      "usable_by_cac": true,
+      "verification_status": "partially_verified",
+      "version_notes": "Core identity, trigger, effect, and Item Shop acquisition agree across the current catalogue and independent guide; exact current shop availability remains unverified.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ]
+    },
+    {
+      "id": "super-soul-025",
+      "name": "We're the one and only Ginyu Force!",
+      "character_source": "Jeice",
+      "acquisition_type": "Item Shop",
+      "acquisition_source": "Item Shop",
+      "trigger_condition": "Always; once only when user HP is under 50%",
+      "effect_text": "Decreases Strike Skill damage; once only restores Stamina when HP is under 50%.",
+      "effect_magnitude": "-10% Strike Skill damage; +200 Stamina on the second trigger",
+      "duration": null,
+      "stacking_behavior": "Second effect is once only.",
+      "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
+      "usable_by_cac": true,
+      "verification_status": "partially_verified",
+      "version_notes": "The two-condition structure and values are documented by the current catalogue and independent guide; current shop availability remains unverified.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ]
+    },
+    {
+      "id": "super-soul-026",
+      "name": "Let me show you how it's done.",
+      "character_source": "Ginyu",
+      "acquisition_type": "Item Shop",
+      "acquisition_source": "Item Shop",
+      "trigger_condition": "Always",
+      "effect_text": "Increases Charged Ki Blast damage.",
+      "effect_magnitude": "+15%",
+      "duration": "While equipped",
+      "stacking_behavior": null,
+      "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "verification_status": "partially_verified",
+      "version_notes": "Core identity, trigger, effect, and acquisition agree across the current catalogue and independent guide; current shop availability remains unverified.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ]
+    },
+    {
+      "id": "super-soul-027",
+      "name": "I must protect Grand Elder Guru!",
+      "character_source": "Nail",
+      "acquisition_type": "Item Shop",
+      "acquisition_source": "Item Shop",
+      "trigger_condition": "Once only when a Reinforcement Skill is activated (any)",
+      "effect_text": "Activates Health Auto-Recovery.",
+      "effect_magnitude": "+1.8% of Max HP per second",
+      "duration": "10 seconds",
+      "stacking_behavior": "Once only",
+      "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
+      "usable_by_cac": true,
+      "verification_status": "partially_verified",
+      "version_notes": "Core identity and mechanic are present in the current catalogue; current shop availability and exact behavior under repeated reinforcement skills remain unverified.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ]
+    },
+    {
+      "id": "super-soul-028",
+      "name": "Popporunga pupirittparo",
+      "character_source": "Dende",
+      "acquisition_type": "NPC reward",
+      "acquisition_source": "NPC Sasana",
+      "trigger_condition": "Always",
+      "effect_text": "Increases Capsule recovery speed and shortens ally revival time.",
+      "effect_magnitude": "+5% Capsule recovery speed; -20% ally revival time",
+      "duration": "While equipped",
+      "stacking_behavior": null,
+      "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
+      "usable_by_cac": true,
+      "verification_status": "partially_verified",
+      "version_notes": "NPC reward identity is supported by independent character/world references; current acquisition state and effect implementation require deeper reconciliation.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dragonball.fandom.com/wiki/Hero_Society"
+      ]
+    },
+    {
+      "id": "super-soul-029",
+      "name": "The ultimate power is mine!",
+      "character_source": "Piccolo",
+      "acquisition_type": "Mixing Shop",
+      "acquisition_source": "Mixing Shop; Time Patrol Support Pack DLC provenance",
+      "trigger_condition": "Always",
+      "effect_text": "Increases all Attack damage.",
+      "effect_magnitude": "+10%",
+      "duration": "While equipped",
+      "stacking_behavior": null,
+      "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "verification_status": "partially_verified",
+      "version_notes": "Catalogue identifies Mixing Shop acquisition and Time Patrol Support Pack provenance; DLC ownership and in-game acquisition are intentionally represented as separate concepts.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dragonballxenoverse2.wiki/guides/super-souls/"
+      ]
+    },
+    {
+      "id": "super-soul-030",
+      "name": "I'll never forgive you, scum!",
+      "character_source": "Frieza (1st Form)",
+      "acquisition_type": "Item Shop",
+      "acquisition_source": "Item Shop",
+      "trigger_condition": "User's guard is broken",
+      "effect_text": "Decreases damage taken from all attacks.",
+      "effect_magnitude": "-20%",
+      "duration": "4 seconds",
+      "stacking_behavior": null,
+      "limit_burst": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
+      "usable_by_cac": true,
+      "verification_status": "partially_verified",
+      "version_notes": "Core effect and acquisition are documented by the current catalogue; exact current shop availability remains unverified.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ]
+    },
+    {
+      "id": "super-soul-031",
+      "name": "Drop dead!!!",
+      "character_source": "Gohan (Kid)",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 28",
+      "trigger_condition": "User HP is below 50%",
+      "effect_text": "Increases Basic Ki Blast damage and Ki Blast Skill damage.",
+      "effect_magnitude": "+10% Basic Ki Blast; +10% Ki Blast Skills",
+      "duration": "While the trigger condition remains active",
+      "stacking_behavior": null,
+      "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "verification_status": "partially_verified",
+      "version_notes": "PQ identity and core effect are documented by the current catalogue; exact trigger persistence and reward conditions require dedicated PQ reconciliation.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ]
+    }
+  ],
+  "research_notes": [
+    "This staged batch follows the canonical list order after the existing 18 populated records.",
+    "Records remain partially verified until acquisition details, current-version behavior, and important mechanics are independently reconciled.",
+    "Do not merge staged records into the canonical layer merely because the list source contains them; preserve the project's verification workflow."
+  ]
+}
