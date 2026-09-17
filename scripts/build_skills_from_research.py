@@ -5,8 +5,6 @@ import json,re
 from datetime import date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
-# Legacy category targets retained for ordinary skill classes. Awoken transformations
-# are represented canonically by 15 parent records and five documented stages.
 TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
 def scalar(v):
  v=v.strip().strip('"\''); return int(v) if re.fullmatch(r'\d+',v) else v
@@ -34,7 +32,7 @@ def load_existing():
 def merge_record(m,r):
  n=r.get('name');
  if not n:return False
- c=r.get('correction_of') or {}; oldname=c.get('name',n); oldclass=c.get('previous_class',c.get('class',r.get('class',''))); oldsub=c.get('previous_subcategory',c.get('subcategory',r.get('class',''))); oldkey=(oldname.casefold(),oldclass,oldsub)
+ c=r.get('correction_of') or {}; oldname=c.get('name',n); oldclass=c.get('previous_class',c.get('class',r.get('class',''))); oldsub=c.get('previous_subcategory',c.get('subcategory',r.get('subcategory',r.get('class','')))); oldkey=(oldname.casefold(),oldclass,oldsub)
  if c:m.pop(oldkey,None)
  k=(n.casefold(),r.get('class',''),r.get('subcategory','')); old=m.get(k,{}) ; out=dict(r); fields=set(r.get('correction_fields',[]))
  for x,v in old.items():
