@@ -7,7 +7,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Treat the wiki as an exhaustive, excessive reference for **every documented detail of Dragon Ball Xenoverse 2**, not merely a guide to the most popular content.
 - [ ] Cover the full game surface area: story/Extra Missions, Parallel Quests, Expert Missions, Time Patrol/Conton City systems, mentors and training, skills, Awoken/Transformations, playable and non-playable characters, CaC/race restrictions, Super Souls, equipment/costumes/accessories, items, currencies, shops, drops/rewards, Dragon Balls/wishes, raids/events, modes, stages, maps/areas, mechanics, combat properties, progression, DLC/free updates, and other discoverable systems.
 - [ ] For every record, prefer structured, consistently labeled fields over prose-only descriptions so the information can be searched, compared, validated, and reused by the website and machine-readable datasets.
-- [ ] Preserve fine-grained distinctions that are easy to lose: CaC vs character-only availability, race/gender restrictions, DLC ownership vs in-game unlock conditions, normal clear vs Ultimate Finish rewards, first-clear vs repeat rewards, shop rotations, prerequisite progression, costs, resource consumption, damage type, hit behavior, status effects, defensive properties, combo interactions, PvE/PvP behavior, and known exceptions.
+- [ ] Preserve fine-grained distinctions that are easy to lose: CaC vs character-only availability, race/gender restrictions, DLC ownership vs in-game unlock conditions, first-clear vs repeat rewards, shop rotations, prerequisite progression, costs, resource consumption, damage type, hit behavior, status effects, defensive properties, combo interactions, PvE/PvP behavior, and known exceptions.
 - [ ] Keep factual certainty explicit. Do not fill missing details merely to make a record look complete; use `indexed`, `partially_verified`, and `verified` appropriately and preserve source conflicts/unknowns.
 - [ ] Use multiple sources where practical, distinguish datamined/researched values from community observations, and record provenance so later verification can replace provisional values without losing research history.
 - [ ] Organize the information so exhaustive coverage remains readable: canonical data first, detailed notes second, source/provenance metadata alongside the relevant record, and dedicated indexes/explorers for navigation.
@@ -36,8 +36,6 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Added an Expert Missions system foundation covering unlock/count uncertainty, mechanics, reward taxonomy, cross-system links, verification rules, and an individual mission-record template.
 - [x] Added a current 20-mission Expert Mission index with first-pass boss/reward mapping and explicit research states.
 - [x] Added an Expert Mission status callout to the homepage and responsive styling for it.
-- [x] Added the first individual Expert Mission research layer for EM16–20, including structured identity, rewards, mechanics, strategy evidence, unknowns, and verification status.
-- [x] Linked the EM16–20 individual records from the Expert Mission system index.
 - [x] Added the first 10 Super Soul records to the canonical machine-readable research layer.
 - [x] Added Super Soul research batch 2, bringing the canonical catalogue to 18 populated records.
 - [x] Cleaned internal citation artifacts from `docs/Super-Souls-Database.md` and expanded its research/schema guidance.
@@ -56,6 +54,9 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Independently reconciled Batch 15 identity, category, acquisition, and core mechanics against current Xenoverse 2 references and corroborating sources; all five records are marked `verified` for their documented core fields.
 - [x] Updated the skill-catalog build pipeline so curated repository research batches are imported into the canonical generated catalog instead of remaining disconnected research files.
 - [x] Updated the Skills Sync workflow to run when curated skill research batches change, allowing Batch 15 to flow through canonical generation and validation automatically.
+- [x] Added Skill Research Batch 16 with five additional early/base-game skills: Mach Punch, Fighting Pose E, Mystic Flash, Energy Shot, and Ginyu Force Special Combo.
+- [x] Excluded Evil Flight Strike from Batch 16 because it was already present in the canonical indexed catalog.
+- [x] Reconciled Batch 16 core identity, classification, acquisition, resource cost, and mechanics against multiple Xenoverse 2 references without inventing unsupported reward probabilities.
 
 ## In Progress
 
