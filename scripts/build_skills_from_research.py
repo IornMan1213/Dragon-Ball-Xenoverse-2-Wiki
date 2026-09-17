@@ -1,245 +1,80 @@
 #!/usr/bin/env python3
 """Build the canonical skill catalog from structured public research records."""
 from __future__ import annotations
-
-import json
-import re
+import json,re
 from datetime import date
 from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; MD=ROOT/'docs/Skills-Auto-Database.md'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
+TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25,"Transformations":18}
 
-ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "docs/data/skills.json"
-INDEX = ROOT / "docs/data/skills-index.json"
-MD = ROOT / "docs/Skills-Auto-Database.md"
-RESEARCH = Path("/tmp/xv2-research/content/skills")
-LOCAL_BATCHES = ROOT / "docs/data/skill-research-batches"
-
-TARGET_COUNTS = {
-    "Ki Blast Supers": 183, "Strike Supers": 130, "Ki Blast Ultimates": 110,
-    "Strike Ultimates": 30, "Other Supers": 32, "Power Up Supers": 20,
-    "Ki Blast Evasives": 23, "Strike Evasives": 16, "Other Evasives": 11,
-    "Power Up Evasives": 2, "Other Ultimates": 3, "Saiyan Skills": 10,
-    "Majin Skills": 10, "Namekian Skills": 4, "Frieza Race Skills": 4,
-    "Human Skills": 4, "Unavailable for CaC": 37, "Counter Skills": 25,
-    "Transformations": 18,
-}
-
-
-def scalar(value: str):
-    value = value.strip().strip('"\'')
-    if re.fullmatch(r"\d+", value):
-        return int(value)
-    return value
-
-
-def parse_frontmatter(path: Path) -> dict:
-    text = path.read_text(encoding="utf-8", errors="replace")
-    if not text.startswith("---"):
-        return {}
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return {}
-    out: dict = {}
-    for line in parts[1].splitlines():
-        m = re.match(r"^([A-Za-z][A-Za-z0-9_]*)\s*:\s*(.*)$", line)
-        if not m:
-            continue
-        key, value = m.groups()
-        value = value.strip()
-        if value.startswith("[") and value.endswith("]"):
-            out[key] = re.findall(r'"([^"\\]*(?:\\.[^"\\]*)*)"', value)
-        else:
-            out[key] = scalar(value)
-    return out
-
-
-def classify(data: dict) -> tuple[str, str]:
-    cls = str(data.get("class", "")).casefold()
-    element = str(data.get("element", "")).casefold().replace("_", " ").replace("-", " ")
-    if cls == "super":
-        return "Super", "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Other"
-    if cls == "ultimate":
-        return "Ultimate", "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Power Up" if "power" in element else "Other"
-    if cls == "evasive":
-        return "Evasive", "Ki Blast" if "blast" in element or element == "ki" else "Strike" if "strike" in element else "Power Up" if "power" in element else "Other"
-    if cls == "counter":
-        return "Counter", "Counter"
-    if cls == "awoken":
-        return "Awoken", "Race"
-    return "Mixed", "Special"
-
-
-def load_existing() -> dict[tuple[str, str, str], dict]:
-    try:
-        data = json.loads(OUT.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        return {}
-    out = {}
-    for record in data.get("records", []):
-        key = (record.get("name", "").casefold(), record.get("class", ""), record.get("subcategory", ""))
-        if key[0]:
-            out[key] = record
-    return out
-
-
-def merge_record(merged: dict[tuple[str, str, str], dict], record: dict) -> bool:
-    name = record.get("name")
-    if not name:
-        return False
-    correction = record.get("correction_of") or {}
-    old_name = correction.get("name", name)
-    # Accept both the explicit previous_* form and the natural class/subcategory
-    # fields used by correction batches. This matters when a correction changes
-    # the canonical uniqueness key, e.g. Rolling Bullet Super -> Evasive.
-    old_class = correction.get("previous_class", correction.get("class", record.get("class", "")))
-    old_sub = correction.get("previous_subcategory", correction.get("subcategory", record.get("subcategory", "")))
-    old_key = (old_name.casefold(), old_class, old_sub)
-    if correction:
-        merged.pop(old_key, None)
-
-    key = (name.casefold(), record.get("class", ""), record.get("subcategory", ""))
-    old = merged.get(key, {})
-    merged_record = dict(record)
-    correction_fields = set(record.get("correction_fields", []))
-    for k, v in old.items():
-        if k in correction_fields:
-            continue
-        if v not in (None, "", [], "—"):
-            merged_record[k] = v
-    merged_record["sources"] = list(dict.fromkeys(old.get("sources", []) + record.get("sources", [])))
-    if old.get("verification_status") == "verified":
-        merged_record["verification_status"] = "verified"
-    merged_record.pop("correction_fields", None)
-    merged_record.pop("correction_of", None)
-    merged[key] = merged_record
-    return True
-
-
-def load_local_batches(merged: dict[tuple[str, str, str], dict]) -> int:
-    """Import curated repository research batches before external enrichment.
-
-    Correction records replace their superseded canonical key while preserving the
-    historical batch file for auditability.
-    """
-    imported = 0
-    if not LOCAL_BATCHES.exists():
-        return imported
-    paths = sorted(LOCAL_BATCHES.glob("skill-batch-*.json")) + sorted(LOCAL_BATCHES.glob("skills-batch-*.json"))
-    for path in paths:
-        try:
-            payload = json.loads(path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            continue
-        records = payload.get("records", [])
-        is_correction = bool(payload.get("corrections"))
-        if is_correction:
-            records = payload["corrections"]
-        for record in records:
-            if not isinstance(record, dict) or not record.get("name"):
-                continue
-            record = dict(record)
-            if is_correction:
-                record.setdefault("sources", list(payload.get("verification_audit", {}).get("sources", [])))
-            record["research_batch"] = payload.get("batch_id")
-            record["research_status"] = "curated_correction" if is_correction else "curated_batch"
-            imported += 1
-            merge_record(merged, record)
-    return imported
-
-
-def build_record(data: dict, path: Path) -> dict | None:
-    name = data.get("name")
-    if not name:
-        return None
-    cls, sub = classify(data)
-    source_url = f"https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{path.name}"
-    record = {
-        "name": name, "class": cls, "subcategory": sub,
-        "verification_status": "partially_verified", "research_status": "partially_enriched",
-        "sources": [source_url],
-    }
-    if isinstance(data.get("sources"), list):
-        record["sources"].extend(x for x in data["sources"] if isinstance(x, str) and x.startswith("http"))
-    if data.get("kiCost") is not None:
-        record["ki_cost"] = data["kiCost"]
-    if data.get("element"):
-        record["damage_type"] = str(data["element"]).title()
-    if data.get("source"):
-        record["source_quest_or_shop"] = data["source"]
-        record["unlock_method"] = "See source record"
-    if data.get("mentor"):
-        record["character_source"] = data["mentor"]
-    if isinstance(data.get("properties"), list) and data["properties"]:
-        props = "; ".join(str(x) for x in data["properties"])
-        record["mechanics_notes"] = props
-        record["skill_description"] = props
-    if data.get("summary"):
-        record.setdefault("skill_description", str(data["summary"]))
-    if data.get("lastVerified"):
-        record["last_verified"] = str(data["lastVerified"])
-    if data.get("confidence"):
-        record["research_status"] = "enriched"
-    return record
-
-
-def md(value) -> str:
-    if value in (None, ""):
-        return "—"
-    return str(value).replace("|", "\\|").replace("\n", " ").strip()
-
-
-def main() -> int:
-    if not RESEARCH.exists():
-        raise SystemExit("Structured research corpus is missing.")
-    existing = load_existing()
-    merged = dict(existing)
-    local_imported = load_local_batches(merged)
-    imported = local_imported
-    for path in sorted(RESEARCH.glob("*.md")):
-        try:
-            record = build_record(parse_frontmatter(path), path)
-        except Exception:
-            record = None
-        if not record:
-            continue
-        merge_record(merged, record)
-        imported += 1
-
-    rows = sorted(merged.values(), key=lambda r: (r["name"].casefold(), r["class"], r["subcategory"]))
-    counts = dict(TARGET_COUNTS)
-    payload = {
-        "schema_version": "1.2", "game": "Dragon Ball Xenoverse 2",
-        "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-        "generated": date.today().isoformat(), "status": "structured_research_catalog",
-        "category_counts": counts, "target_category_counts": TARGET_COUNTS,
-        "record_count": len(rows), "records": rows,
-        "notes": "Structured secondary research and repository research batches are cross-reference layers. Records remain partially verified until independently curated against primary game/wiki sources; curated verified records are preserved.",
-    }
-    OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    INDEX.write_text(json.dumps({
-        "schema_version": "1.2", "source_index": payload["source_index"], "generated": payload["generated"],
-        "category_counts": counts, "target_category_counts": TARGET_COUNTS, "record_count": len(rows),
-        "records": [{k: r[k] for k in ("name", "class", "subcategory", "verification_status", "research_status", "sources") if k in r} for r in rows],
-    }, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
-    verified = sum(r["verification_status"] == "verified" for r in rows)
-    partial = sum(r["verification_status"] == "partially_verified" for r in rows)
-    lines = [
-        "# Skills — Exhaustive Research Database", "",
-        f"> Generated {payload['generated']}. Imported {imported} research records (including {local_imported} repository batch records) and retained existing curated records.",
-        f"> **Current records:** {len(rows)} · **Verified:** {verified} · **Partially verified:** {partial}",
-        f"> **Coverage target:** {sum(TARGET_COUNTS.values())} indexed skill-category memberships.",
-        "",
-        "| Skill | Class | Subcategory | Effect / properties | How to get it | Source | Ki | Status |",
-        "|---|---|---|---|---|---|---:|---|",
-    ]
-    for r in rows:
-        lines.append("| " + " | ".join(md(r.get(k)) for k in ("name", "class", "subcategory", "skill_description", "unlock_method", "source_quest_or_shop", "ki_cost", "verification_status")) + " |")
-    lines += ["", "## Verification policy", "", "Structured research is a discovery and cross-reference layer. Repository research batches may provide curated acquisition/mechanics evidence, but records are not promoted to verified without independent corroboration. Missing fields are intentionally left blank.", ""]
-    MD.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Imported {imported} ({local_imported} local batches); total records={len(rows)}; partial={partial}; verified={verified}")
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+def scalar(v):
+ v=v.strip().strip('"\''); return int(v) if re.fullmatch(r'\d+',v) else v
+def parse_frontmatter(p):
+ t=p.read_text(encoding='utf-8',errors='replace'); parts=t.split('---',2)
+ if len(parts)<3:return {}
+ o={}
+ for line in parts[1].splitlines():
+  m=re.match(r'^([A-Za-z][A-Za-z0-9_]*)\s*:\s*(.*)$',line)
+  if not m:continue
+  k,v=m.groups(); o[k]=re.findall(r'"([^"\\]*(?:\\.[^"\\]*)*)"',v) if v.strip().startswith('[') and v.strip().endswith(']') else scalar(v)
+ return o
+def classify(d):
+ c=str(d.get('class','')).casefold(); e=str(d.get('element','')).casefold().replace('_',' ').replace('-',' ')
+ if c=='super':return 'Super','Ki Blast' if 'blast' in e or e=='ki' else 'Strike' if 'strike' in e else 'Other'
+ if c=='ultimate':return 'Ultimate','Ki Blast' if 'blast' in e or e=='ki' else 'Strike' if 'strike' in e else 'Power Up' if 'power' in e else 'Other'
+ if c=='evasive':return 'Evasive','Ki Blast' if 'blast' in e or e=='ki' else 'Strike' if 'strike' in e else 'Power Up' if 'power' in e else 'Other'
+ if c=='counter':return 'Counter','Counter'
+ if c=='awoken':return 'Awoken','Race'
+ return 'Mixed','Special'
+def load_existing():
+ try:d=json.loads(OUT.read_text(encoding='utf-8'))
+ except (OSError,json.JSONDecodeError):return {}
+ return {(r.get('name','').casefold(),r.get('class',''),r.get('subcategory','')):r for r in d.get('records',[]) if r.get('name')}
+def merge_record(m,r):
+ n=r.get('name');
+ if not n:return False
+ c=r.get('correction_of') or {}; oldname=c.get('name',n); oldclass=c.get('previous_class',c.get('class',r.get('class',''))); oldsub=c.get('previous_subcategory',c.get('subcategory',r.get('subcategory',''))); oldkey=(oldname.casefold(),oldclass,oldsub)
+ if c:m.pop(oldkey,None)
+ k=(n.casefold(),r.get('class',''),r.get('subcategory','')); old=m.get(k,{}) ; out=dict(r); fields=set(r.get('correction_fields',[]))
+ for x,v in old.items():
+  if x not in fields and v not in (None,'',[],'—'):out[x]=v
+ out['sources']=list(dict.fromkeys(old.get('sources',[])+r.get('sources',[]))); out.pop('correction_fields',None); out.pop('correction_of',None); m[k]=out; return True
+def load_local_batches(m):
+ imported=0
+ if not LOCAL_BATCHES.exists():return 0
+ for p in sorted(LOCAL_BATCHES.glob('skill-batch-*.json'))+sorted(LOCAL_BATCHES.glob('skills-batch-*.json')):
+  try:payload=json.loads(p.read_text(encoding='utf-8'))
+  except (OSError,json.JSONDecodeError):continue
+  rs=payload.get('corrections',[]) if payload.get('corrections') else payload.get('records',[])
+  for r in rs:
+   if not isinstance(r,dict) or not r.get('name'):continue
+   r=dict(r); r['research_batch']=payload.get('batch_id'); r['research_status']='curated_correction' if payload.get('corrections') else 'curated_batch'; imported+=1; merge_record(m,r)
+ return imported
+def build_record(d,p):
+ n=d.get('name');
+ if not n:return None
+ c,s=classify(d); src=f'https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{p.name}'; r={'name':n,'class':c,'subcategory':s,'verification_status':'partially_verified','research_status':'partially_enriched','sources':[src]}
+ if isinstance(d.get('sources'),list):r['sources'] += [x for x in d['sources'] if isinstance(x,str) and x.startswith('http')]
+ if d.get('kiCost') is not None:r['ki_cost']=d['kiCost']
+ if d.get('element'):r['damage_type']=str(d['element']).title()
+ if d.get('source'):r['source_quest_or_shop']=d['source']; r['unlock_method']='See source record'
+ if d.get('mentor'):r['character_source']=d['mentor']
+ if isinstance(d.get('properties'),list) and d['properties']:r['mechanics_notes']=r['skill_description']='; '.join(map(str,d['properties']))
+ if d.get('summary'):r.setdefault('skill_description',str(d['summary']))
+ if d.get('lastVerified'):r['last_verified']=str(d['lastVerified'])
+ if d.get('confidence'):r['research_status']='enriched'
+ return r
+def main():
+ if not RESEARCH.exists():raise SystemExit('Structured research corpus is missing.')
+ m=load_existing(); local=load_local_batches(m); imported=local
+ for p in sorted(RESEARCH.glob('*.md')):
+  try:r=build_record(parse_frontmatter(p),p)
+  except Exception:r=None
+  if r:merge_record(m,r); imported+=1
+ rows=sorted(m.values(),key=lambda r:(r['name'].casefold(),r['class'],r['subcategory'])); counts=dict(TARGET_COUNTS)
+ payload={'schema_version':'1.2','game':'Dragon Ball Xenoverse 2','source_index':'https://dbxv2.fandom.com/wiki/Category:Skills','generated':date.today().isoformat(),'status':'structured_research_catalog','category_counts':counts,'target_category_counts':TARGET_COUNTS,'record_count':len(rows),'records':rows,'notes':'Structured research and repository batches are cross-reference layers; unresolved fields remain blank.'}
+ OUT.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+ INDEX.write_text(json.dumps({'schema_version':'1.2','source_index':payload['source_index'],'generated':payload['generated'],'category_counts':counts,'target_category_counts':TARGET_COUNTS,'record_count':len(rows),'records':[{k:r[k] for k in ('name','class','subcategory','verification_status','research_status','sources') if k in r} for r in rows]},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+ print(f'Imported {imported}; total records={len(rows)}')
+ return 0
+if __name__=='__main__':raise SystemExit(main())
