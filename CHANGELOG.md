@@ -1,6 +1,13 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 19** with five newly researched skills: **Charge**, **Stone Bullet**, **Double Buster**, **Finish Buster**, and **Justice Rush**.
+- Duplicate-checked the selected Batch 19 names against the live repository before research; **0 duplicates** were found for the selected records.
+- Reconciled Batch 19 against current Xenoverse 2-specific references. Current-game acquisition routes were used instead of inheriting older Xenoverse 1 PQ numbering, and unsupported drop probabilities were left unresolved.
+- Re-verified **Skill Research Batch 17** and found five proven corrections: **Heat Dome Attack** now points to PQ40; **Freedom Kick** to PQ29; **Rolling Bullet** is a Ki Blast Evasive from PQ42 rather than a Strike Super; **Super Drain** is a Skill Shop skill after *A Desperate Future* and transfers two stamina bars; and **Justice Pose** is from PQ53 with a documented 20-second all-stat boost.
+- Added correction batch `docs/data/skill-research-batches/skill-batch-35.json` so the historical Batch 17 remains auditable while the canonical builder can apply the corrected fields.
+- Preserved the pre-existing **Skill Research Batch 18** unchanged after detecting that an attempted continuation used the already-assigned batch number; the new five-record research was moved to **Batch 19** instead of overwriting historical research.
+
 - Added **Skill Research Batch 17** with five previously uncovered early/base-game PQ skills: **Heat Dome Attack**, **Freedom Kick**, **Rolling Bullet**, **Super Drain**, and **Justice Pose**.
 - Duplicate-checked Batch 17 against the current canonical skill catalog and repository search before addition; **0 duplicates** were found for the selected records.
 - Reconciled Batch 17 acquisition and core identity/mechanics against multiple Xenoverse 2 references. **Heat Dome Attack** and **Super Drain** were promoted to `verified`; **Freedom Kick**, **Rolling Bullet**, and **Justice Pose** remain `partially_verified` where technical details remain unresolved.
