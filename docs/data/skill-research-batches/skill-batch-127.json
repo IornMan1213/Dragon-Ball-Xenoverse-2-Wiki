@@ -13,26 +13,16 @@
     "cost_policy": "Ki cost is 100; stamina cost remains null."
   },
   "records": [{
-    "name":"Deadly Dance",
-    "class":"Super",
-    "subcategory":"Strike",
-    "race_restriction":null,
-    "usable_by_cac":true,
+    "name":"Deadly Dance","class":"Super","subcategory":"Strike","race_restriction":null,"usable_by_cac":true,
     "character_source":"Android 18 / Android 18 (DB Super) / Krillin customizable partner / Android 17 (DB Super) customizable partner / Kefla (Super Saiyan) customizable partner",
-    "dlc_requirement":null,
-    "ki_cost":100,
-    "stamina_cost":null,
-    "damage_type":"Strike",
-    "unlock_method":"Training with Android 18",
-    "source_quest_or_shop":"Android 18 Training — Lesson 2",
-    "ultimate_finish_required":null,
+    "dlc_requirement":null,"ki_cost":100,"stamina_cost":null,"damage_type":"Strike",
+    "unlock_method":"Training with Android 18","source_quest_or_shop":"Android 18 Training — Lesson 2","ultimate_finish_required":null,
     "skill_description":"A series of dance-like kicks that can repel Ki Blasts and finishes with a somersault kick that launches the opponent.",
     "mechanics_notes":"Five-hit Strike Super with Ki Blast-deflecting behavior and an upward launching finishing kick. Exact frame data is not encoded.",
     "acquisition_notes":"Android 18's Lesson 2 explicitly awards Deadly Dance.",
     "pve_notes":"Mentor-training acquisition; no Parallel Quest or Ultimate Finish requirement established.",
     "pvp_notes":"Ki Blast-repelling Strike Super; detailed matchup/frame behavior remains version-sensitive.",
-    "verification_status":"partially_verified",
-    "last_verified":"2026-09-17",
+    "verification_status":"partially_verified","last_verified":"2026-09-17",
     "sources":["https://dbxv2.fandom.com/wiki/Deadly_Dance","https://dragonball.fandom.com/wiki/Deadly_Dance","https://dbxv2.fandom.com/wiki/Mentors","https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"]
   }]
 }
