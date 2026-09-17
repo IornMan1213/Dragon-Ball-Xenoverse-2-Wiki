@@ -18,8 +18,8 @@
       "stacking_behavior": null,
       "limit_burst": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
-      "version_notes": "Core identity, trigger, effect, and Item Shop acquisition agree across the current catalogue and independent guide; exact current shop availability remains unverified.",
+      "verification_status": "verified",
+      "version_notes": "Core identity, trigger, effect, Limit Burst, and Item Shop acquisition are corroborated by the current catalogue and an independent Super Soul guide. Exact current shop rotation/availability remains unverified.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -38,8 +38,8 @@
       "stacking_behavior": "Second effect is once only.",
       "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
-      "version_notes": "The two-condition structure and values are documented by the current catalogue and independent guide; current shop availability remains unverified.",
+      "verification_status": "verified",
+      "version_notes": "Core identity, trigger structure, values, Limit Burst, and Item Shop acquisition are corroborated by the current catalogue and an independent Super Soul guide. Exact current shop rotation/availability remains unverified.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -58,8 +58,8 @@
       "stacking_behavior": null,
       "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
-      "version_notes": "Core identity, trigger, effect, and acquisition agree across the current catalogue and independent guide; current shop availability remains unverified.",
+      "verification_status": "verified",
+      "version_notes": "Core identity, trigger, effect, Limit Burst, and Item Shop acquisition are corroborated by the current catalogue and an independent Super Soul guide. Exact current shop rotation/availability remains unverified.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -78,11 +78,12 @@
       "stacking_behavior": "Once only",
       "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
-      "version_notes": "Core identity and mechanic are present in the current catalogue; current shop availability and exact behavior under repeated reinforcement skills remain unverified.",
+      "verification_status": "verified",
+      "version_notes": "Current catalogue and independent guide agree on identity, trigger, recovery behavior, duration, Limit Burst, and Item Shop acquisition. A separate GameFAQs acquisition answer also reports Item Shop availability. Exact current shop rotation and edge-case repeat-trigger behavior remain unverified.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/451926-where-to-find-quot-i-must-protect-grand-elder-guruquot-z-soul-xenoverse-2"
       ]
     },
     {
@@ -98,10 +99,11 @@
       "stacking_behavior": null,
       "limit_burst": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
-      "version_notes": "NPC reward identity is supported by independent character/world references; current acquisition state and effect implementation require deeper reconciliation.",
+      "verification_status": "verified",
+      "version_notes": "Current catalogue and independent Super Soul guide corroborate the identity, trigger, effects, and Limit Burst. Dragon Ball Wiki's Hero Society documentation independently identifies Sasana as the NPC who rewards this Super Soul. Exact current acquisition implementation is treated as stable but current NPC/shop state is not independently time-checked.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://dragonball.fandom.com/wiki/Hero_Society"
       ]
     },
@@ -118,11 +120,12 @@
       "stacking_behavior": null,
       "limit_burst": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
-      "version_notes": "Catalogue identifies Mixing Shop acquisition and Time Patrol Support Pack provenance; DLC ownership and in-game acquisition are intentionally represented as separate concepts.",
+      "verification_status": "verified",
+      "version_notes": "Current catalogue and independent GameFAQs reports corroborate Mixing Shop acquisition and the all-attack +10% effect. Official Nintendo documentation confirms the Super Soul is included in the Time Patrol Support Pack; this is DLC provenance/ownership information, not proof that the in-game acquisition route is DLC-exclusive. Recipe ingredients are not asserted here beyond the documented Mixing Shop route because older community answers conflict on exact wording.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://dragonballxenoverse2.wiki/guides/super-souls/"
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/455501-super-soul-quotthe-ultimate-power-is-minequot",
+        "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/"
       ]
     },
     {
@@ -138,11 +141,12 @@
       "stacking_behavior": null,
       "limit_burst": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
-      "version_notes": "Core effect and acquisition are documented by the current catalogue; exact current shop availability remains unverified.",
+      "verification_status": "verified",
+      "version_notes": "Current catalogue corroborates identity, trigger, magnitude, duration, Limit Burst, and Item Shop acquisition; the independent Super Soul guide corroborates the guard-break defensive effect, while a separate GameFAQs discussion clarifies that the trigger refers to stamina breaks. Exact current shop rotation/availability remains unverified.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75106294"
       ]
     },
     {
@@ -169,8 +173,9 @@
   ],
   "research_notes": [
     "This staged batch follows the canonical list order after the existing 18 populated records.",
-    "Records remain partially verified until acquisition details, current-version behavior, and important mechanics are independently reconciled.",
-    "super-soul-031 is promoted to verified because its core identity, acquisition, trigger, effects, and Limit Burst are corroborated by the current catalogue and an independent guide; drop-rate behavior remains unresolved.",
+    "Records 024-030 were promoted to verified after independent corroboration of their core identity, acquisition route, trigger/effect behavior, and Limit Burst where available. Current Item Shop rotation/availability remains intentionally unverified for shop-acquired records.",
+    "super-soul-028 is independently corroborated as Sasana's Hero Society reward; super-soul-029 is independently corroborated as a Mixing Shop soul and separately documented by Nintendo as included in the Time Patrol Support Pack.",
+    "super-soul-031 remains verified because its core identity, acquisition, trigger, effects, and Limit Burst are corroborated; drop-rate behavior remains unresolved.",
     "Do not merge staged records into the canonical layer merely because the list source contains them; preserve the project's verification workflow."
   ]
 }
