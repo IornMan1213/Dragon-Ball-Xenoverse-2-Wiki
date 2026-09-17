@@ -1,6 +1,11 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 50** with ten newly researched early/base-game skills from PQ49-PQ60: **Do or Die**, **Explosive Buu Buu Punch**, **Burst Rush**, **Final Cannon**, **Victory Cannon**, **Super Donut Volley**, **Rakshasa's Claw**, **Vanishing Ball**, **Force Shield**, **Dimension Cannon**, and **Majin Kamehameha**.
+- Duplicate-audited the selected Batch 50 names against the live repository before addition; the repository search returned no matches for the selected records. **Stone Bullet** and **Justice Pose** were intentionally excluded because their canonical research already exists.
+- Cross-checked Batch 50 against the maintained PQ reward transcription, the current Xenoverse 2 skill guide, and current skill-specific references. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
+- **Do or Die** retains an unresolved CaC-availability field because the accessible current skill-specific reference identifies Nail/Piccolo users but does not establish a reliable CaC route.
+
 - Added **Skill Research Batch 49** with seven early/base-game skills from PQ41-PQ48: **Burning Attack**, **Change The Future**, **God Breaker**, **Burning Slash**, **Taunt**, **Chain Destructo-Disc Barrage**, and **Kamekameha**.
 - Duplicate-checked all seven selected names against the live repository before addition; no code-search matches were returned. **Rolling Bullet** was intentionally excluded because its existing PQ42 correction is already canonical research.
 - Cross-checked Batch 49 against the maintained PQ reward transcription, the current Xenoverse 2 skill guide, and current skill-specific references. Unsupported reward-slot and Ultimate-Finish semantics remain unresolved.
