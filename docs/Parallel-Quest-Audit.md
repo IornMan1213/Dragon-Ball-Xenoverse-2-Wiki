@@ -88,7 +88,7 @@ Structured in `pq-batch-15.json`. Covers the Conton City Vote Pack and Hero of J
 
 ### Batch 16 — PQ161–PQ170
 
-Structured in `pq-batch-16.json`. Covers the final Hero of Justice Pack 2 quests and Future Saga Chapter 1. Steam's maintained 186-PQ transcription independently confirms the quest names, DLC labels, objective sequences, lose conditions, and documented reward lists; GameFAQs independently corroborates the Ultimate Finish objective sequences for the later quests. citeturn0search1turn0search2
+Structured in `pq-batch-16.json`. Covers the final Hero of Justice Pack 2 quests and Future Saga Chapter 1. Steam's maintained 186-PQ transcription independently confirms the quest names, DLC labels, objective sequences, lose conditions, and documented reward lists; GameFAQs independently corroborates the Ultimate Finish objective sequences for the later quests.
 
 - **PQ161 — Scream Team vs. Dream Team:** clear under 7 minutes, then defeat Orange Piccolo and Gohan (Beast); Apocalyptic Burst is documented.
 - **PQ162 — The Man, the Myth, the Yamcha:** keep player health above 50%, then defeat Supervillain Yamcha; Special Beam Cannon (Beast) is documented.
@@ -100,6 +100,21 @@ Structured in `pq-batch-16.json`. Covers the final Hero of Justice Pack 2 quests
 - **PQ168 — Videl: Super Mom:** clear under 7 minutes, then defeat Golden Frieza and the others; Justice Drive is documented.
 - **PQ169 — Reclaiming a Holy Vessel:** clear under 10 minutes, then defeat Golden Frieza and the others; no skill reward is asserted because the checked transcription does not list one.
 - **PQ170 — Love: A Field Study:** clear under 9 minutes, then defeat Android 18 (DB Super); no skill reward is asserted because the checked transcription does not list one.
+
+### Batch 17 — PQ171–PQ180
+
+Structured in `pq-batch-17.json`. Covers Future Saga Chapters 1–2 and the Dragon Ball DAIMA Pack. The maintained Steam transcription independently confirms the quest names, DLC labels, objective sequences, lose conditions, and documented reward lists; GameFAQs corroborates the Ultimate Finish objective sequences for PQ171–178. citeturn0search1turn0search4
+
+- **PQ171 — Fighters with Finesse:** clear under 9 minutes, then defeat Great Saiyaman 1 and others; Crimson Edge and Divine Spear are documented.
+- **PQ172 — Little Big Brother:** clear under 8 minutes, then defeat Great Ape Baby; Big Bang Knuckle and Wild Stinger are documented.
+- **PQ173 — Decoding Dinner:** clear under 9 minutes, then defeat Beerus; Divine Ray Bomb is documented.
+- **PQ174 — Hyper Special Training:** keep your health over 40%, then defeat Supreme Kai of Time and Trunks; Final Rampage is documented.
+- **PQ175 — Who's the Next Leader?!:** clear under 15 minutes, then defeat Belmod; God of Destruction's Plaything and God of Destruction's Poise are documented.
+- **PQ176 — Havoc at the 3-Universe Feast:** clear under 10 minutes, then defeat Belmod; the checked transcription lists no skill reward.
+- **PQ177 — Warped Sense of Justice:** clear under 10 minutes, then defeat Jiren (Full Power, Ultra Supervillain); Full Power Destruction, Dragon Spark, and Soaring Rush are documented.
+- **PQ178 — The Tireless Pursuit of Strength:** clear under 10 minutes, then defeat Jiren (Full Power, Ultra Supervillain) and the others; Burst Blitz is documented.
+- **PQ179 — 24/7 Time Patrol:** clear under 10 minutes, then defeat Vegeta (Super Saiyan God); Heat Wave and Supreme Fury are documented.
+- **PQ180 — Battle of Resolve: VS Goku Black:** clear under 10 minutes, then defeat Vegeta (Super Saiyan God); Force Edge and Burning Blast are documented.
 
 ## Early verified examples
 
@@ -119,7 +134,7 @@ A 7-star crossover quest. The existing audit preserves the Rosé Goku Black heal
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: objectives, rewards, and Ultimate Finish conditions must be checked before promotion.
 
-**Current structured audit coverage: PQ1–PQ170.** Remaining DLC PQs will continue in numbered batches with the same provenance and conflict-preservation rules.
+**Current structured audit coverage: PQ1–PQ180.** Remaining DLC PQs will continue in numbered batches with the same provenance and conflict-preservation rules.
 
 ## Primary research corpus
 
