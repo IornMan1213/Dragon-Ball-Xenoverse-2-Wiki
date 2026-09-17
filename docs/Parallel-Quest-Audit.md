@@ -68,31 +68,24 @@ Structured in `pq-batch-09.json`. Covers later base-game Gogeta, Golden Frieza/M
 
 Structured in `pq-batch-10.json`. This completes the **100 base-game PQ audit block**. The quests cover the Saiyan Revolt, Baby/Tuffle conflict, Pan and GT Goku scenario, Shadow Dragons, Super 17, Mira/Towa, villain regrouping, Frieza-race invasion, and the final SSGSS rivalry.
 
-- **PQ91 — Saiyan Revolt:** defeat Goku while keeping Raditz and Nappa alive, then defeat Vegito; Final Kamehameha is documented.
-- **PQ92 — Revenge of the Tuffle:** defeat Great Ape Baby, clear under five minutes, then defeat Goku; Maiden Burst is documented.
-- **PQ93 — Small but Strong!:** defeat Goku, defeat GT Goku and Trunks before Pan, then defeat Goku and Vegeta; documented rewards are equipment/Super Souls rather than a documented skill reward.
-- **PQ94 — Ultimate Power, Ultimate Saiyan:** defeat Gogeta, clear under five minutes, then defeat Gogeta, Eis, Nuova, and Omega Shenron; Bluff Kamehameha is documented.
-- **PQ95 — Super 17, the Ultimate Android:** defeat Super 17 while keeping Goku alive, then defeat revived Super 17; Spirit Explosion is documented.
-- **PQ96 — The Shadow Dragons:** defeat Omega Shenron while keeping all allies alive, then defeat all enemies; Crazy Finger Shot is documented.
-- **PQ97 — Insidious Plot:** defeat Mira and Towa, clear under three minutes, then defeat all enemies; Sauzer Blade is documented.
-- **PQ98 — Villains Regroup!:** defeat all enemies, clear under five minutes, then defeat Janemba and Turles; Dimension Ray is documented.
-- **PQ99 — Frieza Race Revivified:** defeat all enemies, clear under five minutes, then defeat Frieza and the avatar; Emperor's Edge is documented.
-- **PQ100 — The Ultimate Rivalry:** defeat all enemies, clear within eight minutes, then defeat SSGSS Goku and SSGSS Vegeta; X100 Big Bang Kamehameha is documented.
-
 ### Batch 11 — PQ101–PQ110
 
-Structured in `pq-batch-11.json`. This block begins the DLC audit, covering Super Packs 1–4. Historical guides and independent sources agree on the major Ultimate Finish triggers and documented basic rewards; exact random reward-slot percentages remain unresolved except where a current maintained source explicitly establishes one.
+Structured in `pq-batch-11.json`. Covers Super Packs 1–4. Historical guides and independent sources agree on the major Ultimate Finish triggers and documented basic rewards; exact random reward-slot percentages remain unresolved except where a current maintained source explicitly establishes one.
 
-- **PQ101 — Seeking Fighters for Tournament!:** keep Goku and Vegeta above 50%, then defeat SSGSS Goku and SSGSS Vegeta; Breaker Energy Wave is documented.
-- **PQ102 — Universe 6 in a Fix!:** keep all allies alive, then defeat Omega Shenron and Super 17; no skill is documented in the basic reward list.
-- **PQ103 — Warriors of Universes 6 & 7!:** finish with at least ten minutes remaining, then defeat Hit; the documented basic rewards are Super Souls/items.
-- **PQ104 — Vados the Talent Scout:** keep Vados above 80%, then fight Vados and revived enemies; Destruction's Concerto: Comet and Starfall are documented.
-- **PQ105 — Champa's Hellish Holiday:** clear under five minutes, then fight Champa; Sonic Bomb, God of Destruction's Menace, and God of Destruction's Roar are documented.
-- **PQ106 — A Destructive Showdown!:** fight Champa/Vados, keep Beerus and Whis above 50%, then fight Beerus/Whis; Destruction's Concerto: Meteor, Requiem of Destruction, and Destruction's Conductor are documented.
-- **PQ107 — The Future's Greatest Hope!:** keep Future Trunks above 50%, then defeat SSGSS Goku and SSGSS Vegeta; no skill is documented in the basic reward list.
-- **PQ108 — Doppleganger Dispute!:** clear under ten minutes, then defeat SSGSS Goku and Future Trunks; no skill is documented in the basic reward list.
-- **PQ109 — A Fateful Fight With Deity!:** keep all allies alive, then defeat Zamasu and Rosé Goku Black; Super Black Kamehameha Rosé is documented.
-- **PQ110 — Heretics from a Dark World:** keep Rosé Goku Black above 50%, then defeat Mira; Divinity Unleashed is documented. Current maintained data additionally identifies PQ110 as a 7-star quest and explicitly documents its reward-slot semantics.
+### Batch 12 — PQ111–PQ120
+
+Structured in `pq-batch-12.json`. This block continues from Super Pack 4 into Extra Packs 1 and 2. DLC ownership was cross-checked rather than inferred from numbering: PQ111–112 belong to Super Pack 4; PQ113–117 belong to Extra Pack 1; PQ118–122 belong to Extra Pack 2. citeturn1search2turn1search10
+
+- **PQ111 — The Zero Mortal Plan:** defeat all enemies, clear under five minutes, then defeat Rosé Goku Black and Super 17; Lightning of Absolution and Holy Wrath are documented.
+- **PQ112 — Advent of the Mighty God Zamasu!:** defeat all enemies while keeping allies alive, then defeat Android 17 and the other enemies; Blades of Judgment and Divine Wrath: Purification are documented.
+- **PQ113 — Birth of the Ultimate Majin!:** keep Majin Buu (Gohan Abs.) above 50%, then defeat all Majin Buus; Super Ghost Buu Attack and the Super variant of Candy Beam are documented.
+- **PQ114 — The Majin Revival Plan:** clear under ten minutes, then defeat Dabura and Kid Buu; Petrifying Spit and Evil Blast are documented.
+- **PQ115 — Extreme Battle with Android 13!:** defeat all enemies without losing allies, then defeat Android 13 and Android 17; Handy Canon and S.S. Deadly Bomber are documented. citeturn1search0turn1search1
+- **PQ116 — A Hero's Duty:** clear under nine minutes, then defeat Dabura and Omega Shenron; Brave Sword Slash and Hero's Flute are documented. citeturn1search3
+- **PQ117 — A Dance of Swords:** clear under ten minutes, then defeat Future Trunks and Tapion; Evil Flame and Brave Sword Attack are documented. citeturn2search0
+- **PQ118 — Beerus's Tournament Troubles:** keep Beerus above 50%, then defeat Golden Frieza and the other enemies; no skill is documented in the basic reward list. citeturn2youtube8turn2search1
+- **PQ119 — A Ranger's Duty:** clear under nine minutes, then defeat Great Ape Nappa; Rough Ranger is documented. citeturn2search1
+- **PQ120 — Whis's Special Training:** defeat all Jirens before one leaves, then defeat Beerus, Whis, and Jiren; Power Impact is documented. citeturn2search1
 
 ## Early verified examples
 
@@ -112,12 +105,13 @@ A 7-star crossover quest. The Ultimate Finish requires keeping Rosé Goku Black 
 
 The wiki distinguishes **indexed PQs** from **fully verified PQs**. A quest is not marked complete merely because its title or number has been indexed: reward tables and Ultimate Finish conditions must be checked before promotion.
 
-Current structured audit coverage: **PQ1–PQ110** plus the previously documented spot-verified examples. The first DLC block is now structurally covered; remaining DLC PQs will be processed in numbered batches with the same provenance and conflict-preservation rules.
+Current structured audit coverage: **PQ1–PQ120** plus the previously documented spot-verified examples. Remaining DLC PQs will be processed in numbered batches with the same provenance and conflict-preservation rules.
 
 ## Primary research corpus
 
 - Structured public PQ records: https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests
 - Game/wiki Parallel Quest reference: https://dbxv2.fandom.com/wiki/Parallel_Quests
+- DLC catalog: https://dbxv2.fandom.com/wiki/DLC
 - Independent hidden-objective reference: https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/
 - Maintained historical PQ transcription: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
 
