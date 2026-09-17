@@ -2,8 +2,9 @@
   "schema_version": "1.0",
   "batch_id": "skill-batch-03",
   "research_status": "enriched",
-  "last_verified": "2026-06-10",
+  "last_verified": "2026-09-17",
   "verification_policy": "Each record is independently sourced from the structured research corpus and remains partially_verified until reconciled against the canonical in-game acquisition/drop tables.",
+  "audit_note": "Negative Ultimate Finish claims were removed where the research records did not carry explicit evidence establishing that an Ultimate Finish is not required. Unresolved cases remain null.",
   "records": [
     {
       "name": "Eraser Bomb",
@@ -21,10 +22,7 @@
       "pve_notes": "Useful for ranged pressure and tracking against moving targets; transformation-active casts provide the stronger damage mode.",
       "pvp_notes": "Steering and acceleration improve neutral pressure, while the Awoken condition rewards transformation-focused builds.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/eraser-bomb.md",
-        "https://dbxv2.fandom.com/wiki/Eraser_Bomb"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/eraser-bomb.md", "https://dbxv2.fandom.com/wiki/Eraser_Bomb"]
     },
     {
       "name": "Spirit Pulse",
@@ -42,11 +40,7 @@
       "pve_notes": "Fast startup and recovery make it useful as combo punctuation and quick ranged damage.",
       "pvp_notes": "Low-commitment poke and pressure option; UI users already receive its functionality through the Awoken kit.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/spirit-pulse.md",
-        "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
-        "https://dbxv2.fandom.com/wiki/Ultra_Instinct"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/spirit-pulse.md", "https://dbxv2.fandom.com/wiki/Spirit_Pulse", "https://dbxv2.fandom.com/wiki/Ultra_Instinct"]
     },
     {
       "name": "Gigantic Explosion",
@@ -64,10 +58,7 @@
       "pve_notes": "Strong against clustered melee enemies and particularly effective when surrounding targets are already close.",
       "pvp_notes": "Niche but powerful reversal option when transformed; high Ki and Stamina costs demand careful resource management.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/gigantic-explosion.md",
-        "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/gigantic-explosion.md", "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"]
     },
     {
       "name": "Surging Spirit",
@@ -79,16 +70,13 @@
       "damage_type": "Power Up",
       "unlock_method": "Built into Ultra Instinct; not independently purchased.",
       "source_quest_or_shop": "Ultra Instinct Awoken Skill",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "skill_description": "Ultra Instinct's built-in rapid Ki charge, available while the form is active rather than as a normal equippable charge skill.",
       "mechanics_notes": "Replaces the normal charge behavior inside Ultra Instinct; research source measures roughly five seconds from empty to full Ki.",
       "pve_notes": "Supports sustained Ultra Instinct play by shortening the vulnerable recharge window.",
       "pvp_notes": "Its strategic value is primarily resource recovery inside the Ultra Instinct state; a separate charge skill generally duplicates its role.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/surging-spirit.md",
-        "https://dbxv2.fandom.com/wiki/Surging_Spirit"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/surging-spirit.md", "https://dbxv2.fandom.com/wiki/Surging_Spirit"]
     },
     {
       "name": "Sword of Hope",
@@ -100,16 +88,13 @@
       "damage_type": "Strike",
       "unlock_method": "TP Medal Shop limited-time rotation; 300 TP Medals.",
       "source_quest_or_shop": "TP Medal Shop",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "skill_description": "Ki-sword stance that replaces the user's moveset with multiple sword attacks while continuously draining Ki.",
       "mechanics_notes": "Four primary sword inputs include Triple Slash, Flying Stab, Spin Slash, and the Upward Slash & Sheathe finisher. The stance ends when Ki is exhausted, the finisher is used, or it is manually canceled.",
       "pve_notes": "Very strong after a guaranteed opening such as a stamina break; useful for extended melee damage and finishing pressure.",
       "pvp_notes": "Resource-draining stance is best used during safe advantage windows; opponents can exploit the Ki drain by disengaging or waiting it out.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/sword-of-hope.md",
-        "https://dbxv2.fandom.com/wiki/Sword_of_Hope"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/sword-of-hope.md", "https://dbxv2.fandom.com/wiki/Sword_of_Hope"]
     },
     {
       "name": "DUAL Remote Serious Bomb",
@@ -121,16 +106,13 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Reach 80% Total Completion in the Extra Story (Infinite History).",
       "source_quest_or_shop": "Extra Story / Infinite History",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "skill_description": "Partnered DUAL version of Remote Serious Bomb that synchronizes the Serious Bomb setup and detonation between two casters.",
       "mechanics_notes": "Designed as a co-op DUAL skill; the synchronized cinematic changes the behavior from the solo Remote Serious Bomb and does not preserve its solo transformation-sealing interaction.",
       "pve_notes": "Primarily a co-op completion reward and synchronized damage option rather than a universal solo loadout staple.",
       "pvp_notes": "Not applicable to standard solo PvP use; its DUAL mechanics are designed around partner play.",
       "verification_status": "partially_verified",
-      "sources": [
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/dual-remote-serious-bomb.md",
-        "https://dbxv2.fandom.com/wiki/Remote_Serious_Bomb"
-      ]
+      "sources": ["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/dual-remote-serious-bomb.md", "https://dbxv2.fandom.com/wiki/Remote_Serious_Bomb"]
     }
   ]
 }
