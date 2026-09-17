@@ -1,0 +1,48 @@
+{
+  "batch_id": 127,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently reconcile the Xenoverse 2 identity, acquisition route, mechanics, and Ultimate Finish condition. Preserve unresolved stamina/probability fields as null.",
+  "research_scope": "Sledgehammer — Strike Super acquisition and mechanics research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository search results and seeded category membership with current Xenoverse 2-specific skill documentation and independent Future Warrior skill documentation.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Sledgehammer"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Sledgehammer was found. The canonical identity is Super / Strike."
+    },
+    "classification_finding": "Xenoverse 2 documentation classifies Sledgehammer as a Strike Super Attack with a hard-knockdown characteristic.",
+    "acquisition_finding": "The current Xenoverse 2-specific skill documentation lists the Skill Shop as the unlock route. Independent Future Warrior documentation lists Sledgehammer among Super Skills available to the Future Warrior.",
+    "finish_policy": "ultimate_finish_required remains null because the documented acquisition route is the Skill Shop rather than a Parallel Quest reward.",
+    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed sources do not establish a reliable canonical stamina value."
+  },
+  "records": [
+    {
+      "name": "Sledgehammer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Multiple cast characters and customizable partners",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A chargeable Strike Super in which the user swings both hands downward to smash the opponent and knock them down.",
+      "mechanics_notes": "The skill can be charged for increased damage and stronger knockdown. At maximum charge it can produce a hard knockdown and is documented as capable of breaking guard or hyper armor. Exact frame and damage values are not encoded because they are version-sensitive.",
+      "acquisition_notes": "The current Xenoverse 2-specific documentation lists Skill Shop as the unlock route. No Parallel Quest or Ultimate Finish requirement is used for the canonical acquisition record.",
+      "pve_notes": "Skill Shop acquisition; exact shop progression/availability timing is not promoted to a mandatory condition without stronger source evidence.",
+      "pvp_notes": "The skill is documented as a fast uncharged knockdown option with stronger properties at higher charge levels; detailed matchup and frame claims remain version-sensitive.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sledgehammer",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ]
+}
