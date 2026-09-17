@@ -1,6 +1,11 @@
 # Changelog
 
 ## September 2026 (Ongoing Expansion)
+- Added **Skill Research Batch 44** with five early/base-game Ginyu Force skills: **Holstein Shock**, **Ginyu Force Special Combo**, **Fighting Pose B**, **Fighting Pose D**, and **Mach Punch**.
+- Duplicate-checked all five selected names against the live repository search before addition; no code-search matches were returned. The canonical seeded index already contains some category-only records such as Mach Dash, so research batches are being used to enrich records rather than falsely treating every indexed name as absent.
+- Cross-checked Batch 44 against the current Xenoverse 2 skill guide, independent PQ reward transcriptions, and skill-specific references. Exact reward-slot probabilities remain unresolved.
+- Identified a separate **Spinning Blade acquisition conflict** for follow-up correction: the historical PQ15 reward transcription lists it with Holstein Shock and Fighting Pose D, while the current skill-specific reference identifies TP Medal Shop as its unlock method. This conflict is being preserved for a dedicated correction/reconciliation batch rather than silently choosing one source.
+
 - Added **Skill Research Batch 43** with five previously absent early/base-game PQ skills: **Meteor Blow**, **Earth Splitting Galick Gun**, **Meteor Crash**, **Fighting Pose C**, and **Kaioken Kamehameha**.
 - Duplicate-checked all five selected names against the live repository before addition; **0 repository-search matches** were returned for each.
 - Reconciled Batch 43 against the current Xenoverse 2 skill guide and independent PQ reward transcriptions. Earth Splitting Galick Gun also has a newer independently maintained PQ database entry reporting an Ultimate Finish reward roll; the batch keeps `ultimate_finish_required` unresolved rather than promoting that source-specific result into an unconditional field.
