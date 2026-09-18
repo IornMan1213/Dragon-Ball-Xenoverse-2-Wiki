@@ -5,54 +5,6 @@
   "scope": "Previously absent cast/boss skill identities",
   "records": [
     {
-      "name": "Darkness Mixer",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Yamcha (Supervillain), other Supervillain characters, Demon God Demigra",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Charge Super that rapidly restores Ki and also restores Stamina while emitting an aura that damages nearby enemies and protects the user.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Darkness_Mixer",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
-      "name": "Rage Saucer",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Villainous/Supervillain characters and Crystal Raid bosses",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Dark-energy rush attack that chains vanishing attacks between enemies.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Rage_Saucer",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
-      "name": "Brainwash Attack",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": 200,
-      "usable_by_cac": false,
-      "character_source": "Crystal Raid bosses",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Crystal Raid boss control/brainwashing attack.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Brainwash_Attack",
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
-      ]
-    },
-    {
       "name": "Celestial Hammer",
       "class": "Super",
       "subcategory": "Strike",
@@ -76,45 +28,14 @@
       "usable_by_cac": false,
       "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan) Customize Partner",
       "dlc_requirement": null,
-      "unlock_method": null,
+      "unlock_method": "PQ 83 - Dangerous Duo! Warriors Never Rest",
       "ultimate_finish_required": null,
-      "effect": "Grab the opponent and slam them down with a Ki Wave; six-hit grab attack.",
+      "effect": "Grab-and-slam Super that leaves the user open after the attack.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
-      ]
-    },
-    {
-      "name": "Acid",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Saibaman 2",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Cast-exclusive Saibaman acid projectile.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack",
-        "https://dbxv2.fandom.com/wiki/Saibaman"
-      ]
-    },
-    {
-      "name": "Saibabeam",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Kyukonman; Kaiwareman; Saibaman 2",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Cast-exclusive short-range green Ki beam.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Saibaman",
-        "https://dragonball.fandom.com/wiki/Saibabeam"
+        "https://dbxv2.fandom.com/wiki/Gigantic_Slam",
+        "https://dragonballxenoverse2.wiki/"
       ]
     }
   ],
-  "notes": "Reconciliation batch restricted to identities not already represented by earlier research batches. Previously researched Marbling Drop, Seasoning Arrow, Time Shackles, Flames of Retribution, and Spiral of Condemnation were removed to preserve the batch validator's duplicate-identity invariant."
+  "notes": "Cleaned duplicate entries that were already researched in Batch 264. This batch now contains only unique catalog gaps: Bloody Sauce, Celestial Hammer, and Gigantic Slam."
 }
