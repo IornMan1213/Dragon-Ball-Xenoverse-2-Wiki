@@ -21,8 +21,8 @@ TEXT_SUFFIXES = {
 BAD_MARKERS = tuple(
     "".join(parts)
     for parts in (
-        ("file", "cite"),
-        ("mem", "cite"),
+        ("file" + "cite",),
+        ("mem" + "cite",),
         ("turn", "10", "file"),
         ("turn", "11", "file"),
     )
