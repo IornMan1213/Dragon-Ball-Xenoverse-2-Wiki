@@ -305,3 +305,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical audit found no Super or Ultimate records with a missing `ki_cost` field; all 298 canonical records retain an explicit value.
 - Research confirms that explicit values must not be normalized to a single class-wide default: documented examples include Prominence Flash at 300 Ki, Full Power Destruction at 500 Ki, God of Destruction's Might at 400 Ki, Super Kamehameha (SS4 DAIMA) at 400–500 Ki, Final Flash (SS3 DAIMA) at 400+ Ki, and Revenge Death Ball at 300+ Ki. citeturn0search0turn0search14turn0search3turn0search13
 - Therefore the next cost pass should target suspicious/ambiguous semantics (base + optional Ki, variable costs, and version/character variants) rather than filling nulls.
+
+
+### Ultimate Finish metadata normalization — 2026-09-18
+- Normalized 110 canonical skill records that previously omitted `ultimate_finish_required` to explicit `null` (unknown/not yet established), mirrored in `skills-index.json`.
+- This is schema-quality work, not a claim that those skills do or do not require an Ultimate Finish.
+- The current catalog now distinguishes explicit `true`, explicit `false`, and explicit unknown `null`; remaining work is evidence-based review of individual PQ reward gates rather than class-based inference.
