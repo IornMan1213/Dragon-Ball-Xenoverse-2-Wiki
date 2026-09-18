@@ -90,10 +90,10 @@ Every important nontrivial claim should retain:
 ## Immediate research sequence
 
 1. Keep GitHub Actions blocked as a billing/infrastructure issue; do not weaken validators.
-2. Reconcile the existing final-DLC skill research and the persisted 10 additional canonical matches were resolved in the PQ171-PQ186 frontier; remaining skill names require identity research before promotion.
+2. Reconcile the canonical skill layer against research and perform the active second-pass metadata audit: exact costs, acquisition routes, CaC/race/gender restrictions, character-only variants, Ultimate Finish requirements, DLC/version provenance, and mechanics.
 
-PQ-to-skill cross-link gap before adding another generic skill batch.
-3. Deepen the existing Parallel Quest layer by resolving canonical skill links and then filling remaining reward/acquisition/version fields.
+The PQ-to-skill cross-link audit is now fully reconciled: 298 canonical skill records/index records, 205 linked PQ skill rewards, and 0 unresolved PQ skill references. Do not reopen the resolved frontier unless new evidence identifies a conflict.
+3. Deepen the existing Parallel Quest layer by filling remaining reward/acquisition/version fields now that skill cross-links are reconciled.
 4. Audit Awoken/Transformation records against the same exhaustive field standard.
 5. Finish EM01–20 verification.
 6. Expand Super Souls, Equipment, and QQ Bang records.
@@ -105,3 +105,13 @@ PQ-to-skill cross-link gap before adding another generic skill batch.
 **A missing field is research work. A page containing a list is not proof of exhaustive coverage.**
 
 Unknown values remain unknown until evidence is found. The audit must never be satisfied by filling gaps with inferred values.
+
+
+## Skill metadata audit milestone — 2026-09-18
+
+- [x] Corrected invalid `Power Up` class values by normalizing Power Up records to `Super / Power Up`.
+- [x] Corrected several Evasive taxonomy/resource errors, including Spirit Explosion, Celestial Wave, Mighty Explosive Wave, and Instant Rise.
+- [x] Separated CaC race restrictions from skill class/subcategory for race-restricted skills.
+- [x] Corrected Darkness Rush (Melee/Ranged) to `Ultimate / Strike` while preserving their distinct race restrictions.
+- [x] Verified the currently explicit `ultimate_finish_required: true` records have supporting PQ evidence for Time Control (PQ18) and Super Dragon Flight (PQ31).
+- [ ] Continue auditing remaining canonical skills for costs, restrictions, acquisition semantics, Ultimate Finish requirements, DLC/version provenance, and mechanics.
