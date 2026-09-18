@@ -141,3 +141,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Filled three previously missing Ultimate Ki-cost fields where current accessible references independently document the values: Dragon Fist = 500 Ki, Divine Lasso = 300 Ki, Final Kamehameha = 500 Ki. citeturn2search0turn2search3turn1search2turn1search3
 - Kept the remaining missing costs unresolved rather than inferring them from skill class or common cost tiers; several skills have variable or nonstandard resource behavior.
 - Fandom access was partially blocked by robots.txt during this pass, so community sources were used only where they explicitly stated the cost and the records remain subject to stronger-source verification.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Began the second-pass Ki-cost audit instead of inferring costs from skill class.
+- Verified and populated five previously missing legacy costs: Divine Kamehameha (200), Death Ball (400), Final Explosion (500), Supernova (500), and Super Spirit Bomb (300).
+- Divine Kamehameha's current skill page explicitly lists 200 Ki; community/reference material independently reports Super Spirit Bomb at 300 Ki and Death Ball at 400 Ki. citeturn1search0turn1search1turn1search11
+- This pass intentionally leaves uncertain/variable skills unresolved rather than assigning a class-based default.
