@@ -196,3 +196,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Hardened `scripts/build_skills_from_research.py` so structured research provenance objects are normalized to their URL before canonical source merging.
 - This prevents an unhashable-dictionary failure when research batches use structured source metadata; it is a preventive code-quality fix and is not claimed as the cause of the current GitHub Actions runner/billing failures.
 - Canonical Super/Ultimate cost audit currently has no missing Ki-cost fields across the 298-record catalog. Zero-cost entries are concentrated in charge/support/power-up skills and are retained for individual evidence review rather than normalized by class.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Audited the canonical Super/Ultimate resource-cost distribution and cross-checked variable/high-cost Ultimates against current skill references.
+- Corrected **Gigantic Explosion** from 500 → 600 Ki; Fandom's current skill page explicitly lists 600 Ki and 400 optional Stamina expenditure. citeturn2search0
+- Normalized **Final Flash (SS3 DAIMA)** to **400+ Ki** and **Super Kamehameha (SS4 DAIMA)** to **400–500 Ki**, matching the documented variable-cost behavior. citeturn1search0turn1search3turn2search1
+- Variable-cost skills must remain represented as variable rather than being flattened to a single nominal bar cost.
+- Next: continue individual acquisition/Ultimate-Finish/version audits rather than applying class-wide cost assumptions.
