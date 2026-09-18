@@ -122,7 +122,7 @@
       ]
     }
   ],
-  "notes": "Gigantic Slam and Bloody Sauce were absent from the canonical catalog and are therefore represented as new records, not corrections. Boulder Break, Boulder Toss, Energy Cannon, and Beam Rifle are retained as formal corrections to Batch 283. Giant Storm is intentionally not included because it is an Ultimate Skill and will be handled in the appropriate Ultimate catalog.",
+  "notes": "Gigantic Slam was absent from the canonical catalog and is represented as a new record. Bloody Sauce was added in Batch 285 and is corrected here. Boulder Break, Boulder Toss, Energy Cannon, and Beam Rifle are retained as formal corrections to Batch 283. Giant Storm is intentionally not included because it is an Ultimate Skill and will be handled in the appropriate Ultimate catalog.",
   "records": [
     {
       "name": "Gigantic Slam",
@@ -137,22 +137,6 @@
       "effect": "Grab the opponent and slam them down with a Ki Wave; leaves the user open.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
-      ]
-    },
-    {
-      "name": "Bloody Sauce",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Supervillain and boss characters; Time Patroller use restricted to Crystal Raid or Training",
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 20: Harbinger of Doom",
-      "ultimate_finish_required": null,
-      "effect": "Scattered Ki Blasts that can poison or slow targets.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
-        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
       ]
     }
   ]
