@@ -5,22 +5,6 @@
   "scope": "Previously absent cast-exclusive and dual-role skills",
   "records": [
     {
-      "name": "Pretty Charge",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": 0,
-      "usable_by_cac": false,
-      "character_source": "Ribrianne",
-      "dlc_requirement": "Ultra Pack 1",
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Ki charging Super that uses Ribrianne's signature pose.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Pretty_Charge",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
       "name": "Explosive Scream",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -81,5 +65,5 @@
       ]
     }
   ],
-  "notes": "Dedicated Xenoverse 2 documentation explicitly identifies Pretty Charge as an Other Super, 0 Ki used, Ribrianne as its user, and unavailable for CaCs. Added four verified identities: Explosive Scream, Appetizing Rush, Total Evasion, and the separate Evasive identity of Evil Whirlwind."
+  "notes": "Dedicated Xenoverse 2 documentation explicitly identifies Pretty Charge as an Other Super, 0 Ki used, Ribrianne as its user, and unavailable for CaCs. Added four verified identities: Explosive Scream, Appetizing Rush, Total Evasion, and the separate Evasive identity of Evil Whirlwind. Pretty Charge was removed because Batch 286 already established the same canonical identity."
 }
