@@ -3118,13 +3118,17 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
-        "https://dbxv2.fandom.com/wiki/Meditation"
+        "https://dbxv2.fandom.com/wiki/Meditation",
+        "https://steamcommunity.com/app/454650/discussions/0/2564160288807893705/"
       ],
       "ki_cost": 0,
       "mechanics_notes": "Documented max-Ki/auto-recovery effect duration: 20 seconds after activation; Ki cost 0. Source page explicitly lists 0:20.0.",
       "last_verified": "2026-09-18",
       "research_status": "partially_enriched",
-      "duration_seconds": 20
+      "duration_seconds": 20,
+      "unlock_method": "Parallel Quest reward",
+      "source_quest": 122,
+      "source_quest_or_shop": "Parallel Quest 122 - The Final Battle Before The Final Battle?!"
     },
     {
       "name": "Taunt",
