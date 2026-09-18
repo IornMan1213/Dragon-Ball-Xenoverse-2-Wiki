@@ -141,3 +141,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Confirmed Chaotic Time Impact = 600 Ki, Gigantic Explosion = 600 Ki, Thunder Flash = 300–600 Ki, and Emperor's Death Beam = 400+ Ki. These values are consistent with current Xenoverse 2 reference pages. citeturn0search3turn0search4turn0search0turn0search2
 - No normalization was made where the variable-cost notation itself is meaningful.
 - Next cost work should target ordinary Super/Ultimate records with weak provenance or mechanics uncertainty, not mechanically overwrite documented variable/600+ costs.
+
+
+### Ki-cost audit — 2026-09-18
+- Canonical Super/Ultimate records were scanned for missing Ki costs: **0 missing** across the current catalog.
+- A second pass identified six nonstandard Ultimate costs (400/600 Ki) rather than treating the common 300/500 values as universal defaults: Chaotic Time Impact (600), Death Ball (400), Final Flash (SS3 DAIMA) (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), and Super Kamehameha (SS4 DAIMA) (400).
+- External corroboration supports the nonstandard-cost principle and specifically documents Death Ball at 400 Ki and Gigantic Explosion at 600 Ki; older GameFAQs/Steam/community material also documents other 400/500-cost Ultimate variants. citeturn1search0turn1reddit36turn1search8
+- These values are retained pending skill-specific authoritative/version-aware verification rather than normalized away.
