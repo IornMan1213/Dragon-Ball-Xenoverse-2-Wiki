@@ -59,10 +59,11 @@
       "name": "Divine Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 200
     },
     {
       "name": "Emperor's Blast",
@@ -207,10 +208,11 @@
       "name": "Death Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 400
     },
     {
       "name": "Emperor's Death Beam",
@@ -235,28 +237,31 @@
       "name": "Final Explosion",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Supernova",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Super Spirit Bomb",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Afterimage",
