@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 132,
+  "record_count": 131,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -549,11 +549,12 @@
     },
     {
       "name": "Dragon Thunder",
-      "class": "Counter",
-      "subcategory": "Counter",
+      "class": "Super",
+      "subcategory": "Strike",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+        "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     },
     {
@@ -585,11 +586,11 @@
     },
     {
       "name": "Pressure Sign",
-      "class": "Counter",
-      "subcategory": "Counter",
+      "class": "Super",
+      "subcategory": "Strike",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+        "https://dbxv2.fandom.com/wiki/Pressure_Sign"
       ]
     },
     {
@@ -905,15 +906,6 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
-    },
-    {
-      "name": "Instant Transmission",
-      "class": "Super",
-      "subcategory": "Other",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
       ]
     },
     {
