@@ -467,3 +467,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Evidence distinguishes Skill Shop, TP Medal Shop, mentor/training, Parallel Quest, and advancement-test routes rather than collapsing them into a generic source label. citeturn1search19turn1search7turn1search1turn1search14turn1search9turn1search2turn1search0turn2search11turn2search0turn2search5turn2search3turn2search2
 - Final Charge remains intentionally unassigned an acquisition route in this pass because available evidence identifies it as a character-exclusive skill unavailable to CaCs; character-only availability is not the same as a player acquisition route. citeturn2search15turn2search10
 - Next acquisition frontier: the remaining blank Super/Ultimate routes, especially character-exclusive, shop, mentor, and story/progression cases, audited individually.
+
+
+### Ultimate acquisition-route pass — 2026-09-18
+- Added sourced acquisition semantics for Final Explosion, Divine Lasso, Supernova, Super Spirit Bomb, and Victory Rush.
+- Evidence covers TP/STP Medal Shop, Double Crystal Raid, Expert Mission, and Parallel Quest routes. Final Explosion is documented as TP Medal Shop; Divine Lasso as TP/STP Medal Shop plus Double Crystal Raid; Supernova as Expert Mission 6; Super Spirit Bomb as Expert Mission 16; Victory Rush as PQ89. citeturn1search1turn1search4turn2search0turn2search2turn1search3
+- These routes are marked partially verified rather than treated as immutable across shop rotations, DLC/version history, or platform differences.
+- Remaining acquisition frontier is 31 Super/Ultimate records with blank unlock routes; continue individually rather than inferring from class, user, or PQ proximity.
