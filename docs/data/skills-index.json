@@ -5462,7 +5462,7 @@
       "usable_by_cac": true,
       "character_source": "Jiren",
       "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
-      "ki_cost": 500,
+      "ki_cost": 1000,
       "stamina_cost": null,
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest reward",
