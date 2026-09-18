@@ -33,21 +33,6 @@
   ],
   "records": [
     {
-      "name": "Gigantic Slam",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan) Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": "Unobtainable for CaC; partner customization for Broly variants",
-      "ultimate_finish_required": null,
-      "effect": "Grab-and-slam attack that leaves the user open.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
-      ]
-    },
-    {
       "name": "Darkness Mixer",
       "class": "Super",
       "subcategory": "Other",
@@ -124,5 +109,5 @@
       ]
     }
   ],
-  "notes": "Keeps only records not already represented by the canonical catalog or earlier research batches. Final Flash (Super) was removed because canonical skills.json already contains it; Bloody Sauce was removed because Batch 285 now covers it. Energy Cannon remains a formal metadata correction against Batch 283. Added four previously absent character-signature skills: Ice Claw, Dragon Flash Bullet, Whirlwind Blade, and Gigantic Omega; dedicated pages establish their taxonomy and costs. Removed Dragon Flash Bullet and Whirlwind Blade from this batch because they are already established in Batch 265; duplicate non-correction identities would fail validate_research_batches.py. Removed duplicate Giant Storm identity; canonical research remains in Batch 285."
+  "notes": "Keeps only records not already represented by the canonical catalog or earlier research batches. Final Flash (Super) was removed because canonical skills.json already contains it; Bloody Sauce was removed because Batch 285 now covers it. Energy Cannon remains a formal metadata correction against Batch 283. Added four previously absent character-signature skills: Ice Claw, Dragon Flash Bullet, Whirlwind Blade, and Gigantic Omega; dedicated pages establish their taxonomy and costs. Removed Dragon Flash Bullet and Whirlwind Blade from this batch because they are already established in Batch 265; duplicate non-correction identities would fail validate_research_batches.py. Removed duplicate Giant Storm identity; canonical research remains in Batch 285. Removed duplicate Gigantic Slam; retained the earlier canonical record in Batch 285."
 }
