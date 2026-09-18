@@ -204,3 +204,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Normalized **Final Flash (SS3 DAIMA)** to **400+ Ki** and **Super Kamehameha (SS4 DAIMA)** to **400–500 Ki**, matching the documented variable-cost behavior. citeturn1search0turn1search3turn2search1
 - Variable-cost skills must remain represented as variable rather than being flattened to a single nominal bar cost.
 - Next: continue individual acquisition/Ultimate-Finish/version audits rather than applying class-wide cost assumptions.
+
+### Power Up duration audit — 2026-09-18
+- Researched and enriched duration/mechanics evidence for Fighting Pose H (20s), Fighting Pose K (8s), Justice Pose (20s), Meditation (20s), Do or Die (20s), Formation! (30/31.5/33s by charge level), and Data Input (20s).
+- Costs were preserved from canonical data rather than inferred from category membership; Formation! and Do or Die are documented at 100 Ki, while Fighting Pose H/K, Justice Pose, and Meditation are 0 Ki and Data Input is 100 Ki. citeturn1search1turn1search2turn1search0turn2search0turn2search1turn2search2turn2search7
+- The schema has no dedicated duration field, so these verified duration facts are retained in mechanics_notes rather than introducing an unsanctioned schema field.
+- Next: continue the remaining Power Up records, especially the known duration/behavior discrepancy around Fighting Pose G, before moving to the broader Super/Ultimate resource-cost audit.
