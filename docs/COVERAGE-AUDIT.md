@@ -656,3 +656,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Ultimate Ki-cost audit — 2026-09-18
 - Refined documented baseline costs for five variable/standard Ultimate records: Prominence Flash 300; Super Kamehameha (SS4 DAIMA) 400 baseline with 500 maximum; Final Flash (SS3 DAIMA) 400+; Full Power Destruction 500; Revenge Death Ball 300+.
 - These values preserve variable-cost mechanics rather than collapsing them into a generic Ultimate cost.
+
+
+### Resource-cost audit checkpoint — 2026-09-18
+- Canonical skill scan now shows **0 Super/Ultimate records with a null Ki-cost field** across the 298-record catalog.
+- Zero-cost entries are retained where the data records a genuinely free activation (not treated as missing data); examples include charge/reinforcement and other documented utility skills.
+- Web research independently confirms that Xenoverse 2 contains genuine 0-Ki skills, so a blanket “Super = 100 / Ultimate = 300” normalization would corrupt the catalog. citeturn1search0turn1reddit48
+- Remaining cost work is therefore verification of individual numeric values and version-history changes, rather than filling nulls.
