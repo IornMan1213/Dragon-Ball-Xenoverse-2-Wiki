@@ -124,7 +124,7 @@
       ]
     }
   ],
-  "notes": "Audit/reconciliation completed against dedicated skill pages. Gigantic Slam is explicitly a Strike Super, 100 Ki, and unavailable for CaC. Boulder Break and Boulder Toss are Great Ape Super Skills; their exact canonical subtype remains a research judgment recorded here as Strike pending stronger in-game stat evidence. Energy Cannon and Beam Rifle retain Ki Blast classification with unresolved Ki cost. Bloody Sauce is a Ki Blast Super costing 100 Ki; its dedicated page gives Expert Mission 20 as the skill unlock while Expert Mission 13 separately lists the Raid variant. Darkness Mixer and Pretty Charge are Other Supers and cast-exclusive. Giant Storm was added after dedicated current documentation confirmed Ultimate/Ki Blast classification, 300 Ki, Skill Shop unlock, and CaC availability.",
+  "notes": "Audit/reconciliation completed against dedicated skill pages. Gigantic Slam is explicitly a Strike Super, 100 Ki, and unavailable for CaC. Boulder Break and Boulder Toss are Great Ape Super Skills; their exact canonical subtype remains a research judgment recorded here as Strike pending stronger in-game stat evidence. Energy Cannon and Beam Rifle retain Ki Blast classification with unresolved Ki cost. Bloody Sauce is a Ki Blast Super costing 100 Ki; its dedicated page gives Expert Mission 20 as the skill unlock while Expert Mission 13 separately lists the Raid variant. Darkness Mixer and Pretty Charge are Other Supers and cast-exclusive. Giant Storm was added after dedicated current documentation confirmed Ultimate/Ki Blast classification, 300 Ki, Skill Shop unlock, and CaC availability. Batch 286 was extended with Saibabeam, Acid, and Guldo Fighting Pose after independent current-source corroboration; unresolved costs remain null.",
   "records": [
     {
       "name": "Gigantic Slam",
@@ -205,6 +205,54 @@
       "effect": "Non-damaging gum projectile that paralyzes the opponent.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Go-Go_Gum"
+      ]
+    },
+    {
+      "name": "Saibabeam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Saibamen variants; Kaiwareman; Kyukonman",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Green energy wave fired from the Saibaman head gland; cast-exclusive.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dragonball.fandom.com/wiki/Saibabeam"
+      ]
+    },
+    {
+      "name": "Acid",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Saibaman variants",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Acid projectile attack used by Saibaman variants; cast-exclusive.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dragonball.fandom.com/wiki/Acid"
+      ]
+    },
+    {
+      "name": "Guldo Fighting Pose",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Guldo",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Guldo's personal Fighting Pose Super Skill.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Fighting_Pose",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     }
   ]
