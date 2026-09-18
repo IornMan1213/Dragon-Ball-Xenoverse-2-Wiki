@@ -190,3 +190,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Filled the canonical `source_quest_or_shop` field for Thunder Flash (PQ146), Final Flash (SS3 DAIMA) (PQ181), and Super Kamehameha (SS4 DAIMA) (PQ181).
 - Web research corroborates Thunder Flash's PQ146 unlock and 300–600 Ki behavior, and PQ181's two DAIMA Ultimate rewards. citeturn1search1turn1search12
 - Final Flash (SS3 DAIMA) is documented as a 400+ Ki Ultimate whose held input consumes remaining Ki; Super Kamehameha (SS4 DAIMA) uses an additional 100 Ki for its boosted version. citeturn1search2turn1search14
+
+
+### Skill builder integrity milestone — 2026-09-18
+- Hardened `scripts/build_skills_from_research.py` so structured research provenance objects are normalized to their URL before canonical source merging.
+- This prevents an unhashable-dictionary failure when research batches use structured source metadata; it is a preventive code-quality fix and is not claimed as the cause of the current GitHub Actions runner/billing failures.
+- Canonical Super/Ultimate cost audit currently has no missing Ki-cost fields across the 298-record catalog. Zero-cost entries are concentrated in charge/support/power-up skills and are retained for individual evidence review rather than normalized by class.
