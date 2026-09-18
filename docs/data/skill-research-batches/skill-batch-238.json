@@ -1,0 +1,37 @@
+{
+  "batch_id":238,
+  "created":"2026-09-17",
+  "type":"correction",
+  "scope":"Evasive CaC-access reconciliation",
+  "corrections":[
+    {
+      "name":"Final Pose",
+      "changed":{"usable_by_cac":true},
+      "previous":{"usable_by_cac":false},
+      "why":"The current Evasive reference describes two Power Up Evasives as available for CaCs, and an independent Xenoverse 2 skill-ID corpus marks Final Pose as a CaC skill. Its individual page identifies Recoome as a notable cast user, which does not by itself make it cast-exclusive.",
+      "sources":["https://dbxv2.fandom.com/wiki/Evasive_Skill","https://dbxv2.fandom.com/wiki/Final_Pose","https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"]
+    },
+    {
+      "name":"Mach Dash",
+      "changed":{"usable_by_cac":true},
+      "previous":{"usable_by_cac":false},
+      "why":"The current Evasive reference states the two Power Up Evasives are available for CaCs, and the independent skill-ID corpus marks Mach Dash as a CaC skill.",
+      "sources":["https://dbxv2.fandom.com/wiki/Evasive_Skill","https://dbxv2.fandom.com/wiki/Mach_Dash","https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"]
+    },
+    {
+      "name":"Punisher Guard",
+      "changed":{"usable_by_cac":true},
+      "previous":{"usable_by_cac":false},
+      "why":"Punisher Guard is the current name for Vanisher Guard. The current Other Evasives category includes Punisher Guard, while the skill-ID corpus marks Vanisher Guard as a CaC skill. Therefore the renamed/current record should retain CaC availability.",
+      "sources":["https://dbxv2.fandom.com/wiki/Category%3AOther_Evasives","https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"]
+    }
+  ],
+  "reconciliation":{
+    "other_evasive_category_count":11,
+    "other_evasive_cac_members":9,
+    "other_evasive_cast_exclusive_members":["Science Vanish","Warp"],
+    "note":"The broader Evasive Skill page currently says eight Other Evasives are available for CaCs, but the current category has 11 entries and Backflip is explicitly a Time Patroller skill. The category plus individual page and skill-ID evidence support nine CaC-accessible Other Evasives. Preserve the source-count discrepancy rather than forcing the eight-count.",
+    "sources":["https://dbxv2.fandom.com/wiki/Category%3AOther_Evasives","https://dbxv2.fandom.com/wiki/Backflip","https://dbxv2.fandom.com/wiki/Evasive_Skill"]
+  },
+  "last_verified":"2026-09-17"
+}
