@@ -1,149 +1,85 @@
 {
   "batch_id": 295,
   "created": "2026-09-18",
-  "type": "taxonomy_correction",
-  "scope": "Counter Skills canonical class/subcategory audit",
-  "corrections": [
+  "type": "catalog_research",
+  "scope": "Previously absent cast-exclusive Ultimate Skills",
+  "records": [
     {
-      "name": "Absolute Zero",
-      "correction_of": {
-        "name": "Absolute Zero",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Evasive",
+      "name": "Self-Destruct",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Saibaman; Tennenman; Jinkouman",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Cookie Beam",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Majin Buu",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Turns the opponent into a cookie and consumes them, damaging the target and restoring the user's health.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Energy Jet",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
       "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Eis Shenron; Omega Shenron Customize Partner",
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra",
       "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 96 - \"The Shadow Dragons\"",
+      "unlock_method": null,
       "ultimate_finish_required": null,
-      "reason": "Dedicated skill documentation explicitly identifies Absolute Zero as a Ki Blast Evasive Skill; Counter is a separate behavioral category.",
+      "effect": null,
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Absolute_Zero"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
       ]
     },
     {
-      "name": "Burst Reflection",
-      "correction_of": {
-        "name": "Burst Reflection",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
+      "name": "Evil Explosion (Ultimate)",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": true,
-      "character_source": "Nuova Shenron",
-      "dlc_requirement": null,
-      "unlock_method": "Shenron wish - \"I want a new Super Attack!\"",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Piccolo (Power Awakening)",
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "unlock_method": null,
       "ultimate_finish_required": null,
-      "reason": "Dedicated skill documentation identifies Burst Reflection as a Ki Blast Super Attack; Counter Skills is a separate category.",
+      "effect": null,
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Burst_Reflection"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
-      "name": "Burst Rush",
-      "correction_of": {
-        "name": "Burst Rush",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": true,
-      "character_source": "Gohan (Adult); Majin Buu (Gohan Absorbed); Gohan (DBS Super Hero)",
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 51 - \"Great Saiyaman is Here\"",
-      "ultimate_finish_required": null,
-      "reason": "Dedicated skill documentation identifies Burst Rush as a Strike Super Attack; its Strike Counter behavior is separately categorized.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Burst_Rush"
-      ]
-    },
-    {
-      "name": "Change The Future",
-      "correction_of": {
-        "name": "Change The Future",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
+      "name": "Light Grenade (Ultimate)",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": true,
-      "character_source": "Future Trunks; Tapion Customize Partner; Vegeta (Super Saiyan God) Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 43 - \"Change The Future\"",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Piccolo (Power Awakening)",
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "unlock_method": null,
       "ultimate_finish_required": null,
-      "reason": "Dedicated skill documentation identifies Change The Future as a Ki Blast Super Attack; Counter Skills is separate from canonical skill class.",
+      "effect": null,
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Change_The_Future"
-      ]
-    },
-    {
-      "name": "God Breaker",
-      "correction_of": {
-        "name": "God Breaker",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": true,
-      "character_source": "Future Trunks; Tapion Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 44 - \"Dragon Balls of the Future\"",
-      "ultimate_finish_required": null,
-      "reason": "Dedicated skill documentation identifies God Breaker as a Ki Blast Super Attack while separately listing it under Counter Skills.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/God_Breaker"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     }
   ],
-  "notes": "This batch converts five canonical Counter/Counter records to their documented underlying skill classes. The repository's Counter taxonomy is behavioral and must not replace Super/Evasive plus Strike/Ki Blast/Other identity."
+  "notes": "Current Xenoverse 2 Ultimate Attack documentation explicitly places Self-Destruct and Cookie Beam under Strike Skills, and Energy Jet, Evil Explosion (Ultimate), and Light Grenade (Ultimate) under Ki Blast Skills; each is listed at 300 Ki and as unavailable to CaC."
 }
