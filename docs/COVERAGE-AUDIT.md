@@ -514,3 +514,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Converted five already-explicit PQ references embedded in unlock text into the structured `source_quest` field: Dimensional Hole (PQ80), God Breaker (PQ44), Heroic Counter (PQ155), Punisher Shield (PQ129), and Rough Ranger (PQ119 Ultimate Finish).
 - This is a normalization-only change: no quest number was inferred from a generic “Parallel Quest reward” statement.
 - Next acquisition pass should continue distinguishing exact PQ numbers, Ultimate Finish gating, shops, mentors/training, wishes, raids, and character-only acquisition routes.
+
+
+### Super/Ultimate acquisition-route audit — 2026-09-18
+- Continued the second-pass metadata audit after the earlier cost normalization work.
+- Canonical skill layer currently contains 294 records (179 Super, 66 Ultimate); every Super/Ultimate record currently has a non-null Ki cost field.
+- Explicit PQ reward entries now have a numeric `source_quest` or equivalent explicit quest field; the remaining acquisition backlog is concentrated in non-PQ/shop/character-specific routes and records without a `last_verified` date.
+- Added sourced acquisition metadata for Meditation: PQ122, “The Final Battle Before The Final Battle?!”. A Steam community discussion explicitly identifies PQ122 as the acquisition quest; this is retained as partially enriched rather than promoted to fully verified because the source is community evidence. citeturn2search3
+- Research caution: Data Input has conflicting historical community descriptions around Expert Mission 20 versus TP Medal Shop availability, so it remains unresolved rather than being assigned a single acquisition route from weak evidence. citeturn3search0turn3search2
