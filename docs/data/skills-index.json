@@ -332,7 +332,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Angry Shout",
@@ -352,7 +352,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Punisher Guard",
@@ -362,7 +362,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Evasives"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Final Pose",
