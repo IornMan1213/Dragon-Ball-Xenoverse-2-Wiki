@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 132,
+  "canonical_skill_records": 131,
   "linked_skill_rewards": 43,
   "alias_matches": [
     {
@@ -715,7 +715,7 @@
     }
   ],
   "status": "unresolved_links",
-  "interpretation": "This is a cross-link coverage finding, not proof that the skills are absent from the game. The current canonical skills.json contains 108 named records while the PQ audit exposes 212 unique skill-reward references; 36 resolve directly or through the documented Kamekameha alias and 175 remain unresolved. The gap should be reconciled against the canonical skill catalog/research batches before additional PQ skill research is promoted.",
-  "unique_canonical_skill_names": 118,
+  "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
+  "unique_canonical_skill_names": 117,
   "unresolved_count": 168
 }
