@@ -16,7 +16,11 @@
       "ultimate_finish_required": null,
       "effect": "Final Flash whose input can consume additional Ki beyond the initial cost to substantially increase its power.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29"
+        {
+          "url": "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29",
+          "accessed": "2026-09-18",
+          "scope": "Xenoverse 2 skill identity/mechanics/acquisition"
+        }
       ]
     },
     {
@@ -31,7 +35,11 @@
       "ultimate_finish_required": null,
       "effect": "Super Kamehameha variant that can consume an additional 100 Ki during input for an extended, more powerful attack.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29"
+        {
+          "url": "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29",
+          "accessed": "2026-09-18",
+          "scope": "Xenoverse 2 skill identity/mechanics/acquisition"
+        }
       ]
     },
     {
@@ -46,7 +54,11 @@
       "ultimate_finish_required": null,
       "effect": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Thunder_Flash"
+        {
+          "url": "https://dbxv2.fandom.com/wiki/Thunder_Flash",
+          "accessed": "2026-09-18",
+          "scope": "Xenoverse 2 skill identity/mechanics/acquisition"
+        }
       ]
     },
     {
@@ -61,7 +73,11 @@
       "ultimate_finish_required": null,
       "effect": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Prominence_Flash"
+        {
+          "url": "https://dbxv2.fandom.com/wiki/Prominence_Flash",
+          "accessed": "2026-09-18",
+          "scope": "Xenoverse 2 skill identity/mechanics/acquisition"
+        }
       ]
     },
     {
@@ -76,9 +92,13 @@
       "ultimate_finish_required": null,
       "effect": "Rear-facing Ki wave that is fired behind the user rather than forward.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mystic_Flash"
+        {
+          "url": "https://dbxv2.fandom.com/wiki/Mystic_Flash",
+          "accessed": "2026-09-18",
+          "scope": "Xenoverse 2 skill identity/mechanics/acquisition"
+        }
       ]
     }
   ],
-  "notes": "Five additional Ki Blast Ultimate identities were researched from current Xenoverse 2-specific wiki pages on 2026-09-18. Ki costs are left null where the source documents variable/extended costs rather than a single fixed value. Ultimate Finish requirements and CaC availability remain null where the consulted source did not explicitly establish them. These identities were checked against the repository's current canonical name search and were not found in the indexed repository search results; they must still pass the repository-wide canonical duplicate validator before promotion."
+  "notes": "Five additional Ki Blast Ultimate identities were researched from current Xenoverse 2-specific wiki pages on 2026-09-18. Ki costs are left null where the source documents variable/extended costs rather than a single fixed value. Ultimate Finish requirements and CaC availability remain null where the consulted source did not explicitly establish them. These identities were checked against the repository's current canonical name search and were not found in the indexed repository search results; they must still pass the repository-wide canonical duplicate validator before promotion. Sources were normalized to the repository's structured provenance shape; no unresolved field was promoted to certainty."
 }
