@@ -327,3 +327,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Web evidence independently confirms Chaotic Time Impact 600, Death Ball 400, Gigantic Explosion 600, and Power Rush 1000; the latter is specifically described as requiring 1000 Ki. citeturn1search0turn1search1turn1search3turn1search4
 - These values are intentionally preserved because Xenoverse 2 includes legitimate 400/600/1000-Ki Ultimates; class-based defaulting would corrupt canonical data.
 - Next: audit acquisition semantics, Ultimate Finish flags, CaC/race restrictions, and version/DLC provenance for Super/Ultimate records.
+
+
+### Super/Ultimate Ki-cost audit checkpoint — 2026-09-18
+- Canonical audit confirms all 298 skill records have populated Ki-cost fields where applicable; no Super/Ultimate records have null or empty Ki costs.
+- Current nonstandard values are retained rather than normalized by class: 0-cost charge/power-up/counter-style Supers exist, and some skills use 200/400/500/600/1000 or variable-style costs.
+- Web verification independently confirms Dimensional Hole is a 0-Ki Super Ki Blast counter, so the catalog's 0-cost entry is intentional rather than missing data. citeturn1search0
+- Blaster Cannon is independently listed as a 100-Ki Super, reinforcing the need for individual verification instead of class-based inference. citeturn1search12
+- Next metadata frontier: audit acquisition semantics, CaC/race restrictions, Ultimate Finish requirements, DLC/version provenance, and mechanics for Super/Ultimate records, then continue PQ reward-field enrichment.
