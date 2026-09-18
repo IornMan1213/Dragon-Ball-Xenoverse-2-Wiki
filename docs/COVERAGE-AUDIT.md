@@ -270,3 +270,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical Super and Ultimate records were checked for missing Ki-cost fields: **0 missing** across the current catalog.
 - The audit also flagged that nonstandard costs exist and therefore must be researched individually rather than normalized by class: current canonical Ultimates include 400-Ki entries (Death Ball and S.S. Deadly Bomber), while authoritative skill references also document variable costs such as 300+ or 400+. citeturn0search2turn0search3
 - Next pass should focus on suspicious/nonstandard costs and acquisition/version provenance, rather than filling nulls.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found **0 missing Ki-cost values** across all Super and Ultimate records (298 total skill records overall).
+- The remaining zero-Ki entries are concentrated in charge/reinforcement/utility skills plus Dimensional Hole and Indomitable; Dimensional Hole is explicitly documented as 0 Ki in the current Fandom skill page. citeturn1search0
+- No blanket class-based cost normalization was applied; variable/nonstandard costs require per-skill evidence.
+- Next cost pass should focus on sampled nonzero Super/Ultimate values and version/DLC changes rather than filling nulls.
