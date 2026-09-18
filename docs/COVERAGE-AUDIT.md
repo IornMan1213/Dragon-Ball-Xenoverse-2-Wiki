@@ -207,3 +207,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Verified the two 600-Ki Ultimate records in the current canonical layer: **Chaotic Time Impact** (PQ184) and **Gigantic Explosion** (PQ164). Fandom's Ultimate Attack index and per-skill pages explicitly report 600 Ki for both. citeturn1search0turn1search1turn1search2
 - Refined their canonical mechanics notes to preserve the Awoken requirement/400-Stamina continuation behavior of Gigantic Explosion and the Power of Time scaling/reset behavior of Chaotic Time Impact.
 - The canonical catalog currently has no null Ki cost among Super/Ultimate records and no null stamina cost among Evasive records; this is a field-completeness milestone, not proof that every individual value is fully independently verified.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited all 298 canonical skill records for missing Ki costs: **0 Super/Ultimate records are missing a Ki-cost field**.
+- Found 19 documented zero-Ki Super/Ultimate entries; these are charge/power-up/utility skills and were retained rather than normalized to a guessed positive cost.
+- Two records use variable/string cost notation rather than a scalar: Emperor's Death Beam (`400+`) and Thunder Flash (`300-600`). These values were preserved because replacing them with a single number would discard documented mechanics.
+- No canonical identity duplicates were found; the canonical and index layers remain synchronized.
+- Research limitation: Fandom pages were not accessible in the latest web pass because robots.txt blocked retrieval, so no unsupported cost corrections were made.
