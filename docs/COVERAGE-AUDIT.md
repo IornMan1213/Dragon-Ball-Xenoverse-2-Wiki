@@ -384,3 +384,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Emperor's Death Beam remains represented as **400+ Ki** because the documented mechanic consumes additional stored Ki after the 400-Ki activation threshold; Death Ball remains **400 Ki**. citeturn1search0turn1search2turn1search3turn1search13
 - Divine Kamehameha remains **200 Ki**, corroborated by a contemporary Xenoverse 2 community reference. citeturn1search7
 - No null Super/Ultimate Ki-cost fields were found in the current canonical catalog; nonstandard and variable costs remain explicit rather than normalized to a guessed fixed value.
+
+
+### Ultimate Finish requirement audit — 2026-09-18
+- Audited the canonical skill layer's explicit `ultimate_finish_required` values alongside PQ reward evidence.
+- The catalog currently has **5 explicit true flags** and **1 explicit false flag**; all other records remain null rather than being inferred.
+- The five true flags are supported by PQ evidence: Earth Splitting Galick Gun (PQ11), Time Control (PQ18), Super Dragon Flight (PQ31), X 100 Big Bang Kamehameha (PQ100), Power Rush (PQ122), and Chaotic Time Impact (PQ184). The maintained PQ records distinguish Ultimate Finish reward slots from ordinary skill drops. citeturn3search0turn2search0turn2search1
+- The explicit false flag on Spread Shot Retreat is retained as a documented non-UF acquisition case; no broad assumption that all PQ skills require Ultimate Finish is being introduced. citeturn2search1turn2search2
+- Next: reconcile acquisition semantics at the individual reward-slot level (ordinary enemy drop vs UF-only reward vs post-quest roll) before expanding additional true/false flags.
