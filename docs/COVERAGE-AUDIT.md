@@ -298,3 +298,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected three canonical Power Up Super records whose stored Ki costs conflicted with current skill references: Charge → 100 Ki, Do or Die → 100 Ki, Formation! → 100 Ki. citeturn1search1turn2search8turn2search14
 - This pass deliberately did not normalize every zero-cost Power Up: several documented poses and buffs genuinely cost 0 Ki, so costs must remain evidence-driven. citeturn1search0turn1search2turn1search3turn2search0
 - Next: continue the Super/Ultimate cost audit with variable and DLC-era skills before changing additional records.
+
+
+### Ultimate Finish reward-field audit — 2026-09-18
+- Enriched **Time Control** with the maintained PQ18 reward evidence: 40% on the Ultimate Finish roll.
+- Enriched **Super Dragon Flight** with the maintained PQ31 reward evidence: 35% on the Ultimate Finish roll.
+- Both canonical records retain `ultimate_finish_required: true`; the evidence now connects the skill-level flag to explicit PQ reward-slot data rather than relying only on a generic PQ association.
+- Web corroboration: the maintained Madreag PQ records document PQ18 Time Control at 40% UF and PQ31 Super Dragon Flight at 35% UF. citeturn2search0
+- Next: continue the same evidence-backed audit for remaining non-null/uncertain Ultimate Finish fields and then acquisition/version metadata.
