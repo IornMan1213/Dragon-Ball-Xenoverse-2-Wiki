@@ -2267,12 +2267,15 @@
       "name": "Vanishing Ball",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Vanishing_Ball",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "ki_cost": 100,
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "skill_description": "Vanishing Ball is a Ki Blast Super Attack used by Kid Buu.",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Variable Snipe Shot",
@@ -4958,7 +4961,7 @@
     },
     {
       "name": "Vanishing Ball",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Majin Buu",
@@ -4969,14 +4972,14 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 58",
       "ultimate_finish_required": null,
-      "skill_description": "Vanishing Ball is a Ultimate Ki Blast skill associated with Majin Buu.",
+      "skill_description": "Vanishing Ball is a Ki Blast Super Attack used by Kid Buu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Vanishing_Ball"
+        "https://dbxv2.fandom.com/wiki/Vanishing_Ball",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
