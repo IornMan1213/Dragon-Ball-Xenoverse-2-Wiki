@@ -104,7 +104,7 @@
       "name": "Pretty Charge",
       "class": "Super",
       "subcategory": "Other",
-      "ki_cost": 0,
+      "ki_cost": null,
       "usable_by_cac": false,
       "character_source": "Ribrianne",
       "dlc_requirement": "Ultra Pack 1",
@@ -114,7 +114,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Pretty_Charge"
       ],
-      "notes": "Source explicitly categorizes it as Other Super and Unavailable for CaC."
+      "notes": "Source explicitly categorizes it as Other Super and Unavailable for CaC; numeric Ki cost is not retained because the retrieved page does not establish it."
     },
     {
       "name": "Energy Jet",
