@@ -252,3 +252,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The 24 zero-Ki Super records are charge, buff, guard, movement, or similar support actions; they are not being normalized to 100 Ki by class-based inference.
 - Time Control is independently corroborated at 100 Ki, while the distinct Super Dragon Flight and Super Dragon Flight (Ultimate) entries are corroborated at 100 and 300 Ki respectively. citeturn0search0
 - Research remains focused on source-backed exceptions and version changes rather than assuming the common 100/300/500 Ki tiers apply universally.
+
+
+### Super/Ultimate cost and taxonomy audit — 2026-09-18
+- Audited nonstandard Ki-cost values rather than normalizing by class: 600-Ki Chaotic Time Impact and Gigantic Explosion, 400-Ki Death Ball, and variable-cost Emperor's Death Beam remain supported by source evidence. citeturn3search1turn3search2turn4search1turn4search5
+- Corrected **Burning Blast** from the incorrect `Ultimate / Ki Blast` taxonomy to **Super / Ki Blast** while retaining its documented 200 Ki cost and PQ180 provenance. citeturn4search0
+- No Super/Ultimate records have a missing `ki_cost` after this pass.
