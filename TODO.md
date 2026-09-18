@@ -80,6 +80,8 @@ The repository tracker is authoritative for continuation order. The current rese
 5. **P3:** expose the growing database through Pages navigation/search/explorer improvements only after data gaps are being tracked.
 
 This correction is intentional: the project goal is an exhaustive encyclopedia, so raw skill-batch throughput must not crowd out major systems whose pages still lack exhaustive details.
+- [ ] Maintain `docs/COVERAGE-AUDIT.md` as the active gap map; update it whenever a major system's record inventory or field-completeness state changes.
+
 ## In Progress
 
 - [ ] **P0 — Clear remaining GitHub Actions validation failures.** Canonical skill verification statuses are now normalized to the schema (`partially_verified`), and cleanup now removes bare citation markers, but Repository Quality/Clean Internal Artifacts still fail on commit 2c20abe5. Skills Sync still needs a fresh run against the corrected research frontier.
