@@ -98,5 +98,5 @@
       ]
     }
   ],
-  "notes": "Identity-layer research for cast/boss-side skills. Energy Cannon was removed from this batch because batch 283 already established the same canonical identity; its stronger subtype/user audit remains there. Numeric costs and acquisition remain null where the retrieved evidence does not establish them. Darkness Mixer is explicitly classified as an Other Super and unavailable to ordinary CaCs by its dedicated page. The ID-list corroborates Bloody Sauce, Rage Saucer and Brainwash Attack as boss-side skill records."
+  "notes": "Only genuinely new identities are retained here. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have prior research in batch 264; Spiral of Condemnation has prior research in batch 271. Bloody Sauce is a new catalog record in this batch; Celestial Hammer is also new."
 }
