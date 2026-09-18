@@ -175,3 +175,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected documented fixed costs for Divine Spear (200), Wild Stinger (100), God of Destruction's Plaything (100), God of Destruction's Poise (100 base; up to 300 with extension), Dragon Spark (100), Soaring Rush (100), Burst Blitz (300), Supreme Fury (100), Heat Wave (100), and Force Edge (100). The cited Xenoverse 2 references explicitly document several of these values; variable-cost skills remain represented as variable/null where the research source does not establish one fixed activation cost. citeturn1search0turn2search0turn2search1turn2search2turn2search10turn2search12
 - Normalized documented zero-cost support/charge skills including Indomitable, Taunt, Do or Die, Justice Pose, Fighting Pose H, Divinity Unleashed, and Formation! to ki_cost 0.
 - Remaining null costs are an explicit research queue, not assumed values: variable/extended-cost DAIMA/Pikkon ultimates and Burning Blast require individual source verification before promotion to a fixed number.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the four canonical Super/Ultimate records that lacked Ki-cost values.
+- Final Flash (SS3 DAIMA): 400 Ki base, with additional Ki consumed while held.
+- Super Kamehameha (SS4 DAIMA): 400 Ki base, with additional Ki for the boosted version.
+- Thunder Flash: 300–600 Ki depending on charge.
+- Burning Blast: 200 Ki; its optional defensive effect consumes 300 Stamina.
+- These values remain partially verified where the available evidence is community/testing based; they are not treated as blanket class defaults.
