@@ -1,72 +1,78 @@
 {
   "batch_id": 286,
   "created": "2026-09-18",
-  "type": "catalog_research",
-  "scope": "Core cast-exclusive and obtainable skill reconciliation",
-  "records": [
+  "type": "catalog_research_and_corrections",
+  "scope": "Cast-exclusive and Crystal Raid skill taxonomy corrections",
+  "corrections": [
     {
-      "name": "Giant Storm",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Nappa; Raditz, Broly, Bardock, Omega Shenron, Majin Buu (Gohan Absorbed), and Kefla (Super Saiyan) Customize Partners",
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "ultimate_finish_required": null,
-      "effect": "Creates a large tracked explosion beneath the opponent.",
+      "name": "Rage Saucer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "correction_of": {
+        "name": "Rage Saucer",
+        "class": "Super",
+        "subcategory": "Strike"
+      },
+      "correction_fields": [
+        "ki_cost",
+        "unlock_method"
+      ],
+      "previous_values": {
+        "ki_cost": null,
+        "unlock_method": null
+      },
+      "new_values": {
+        "ki_cost": 100,
+        "unlock_method": "Expert Mission 13"
+      },
+      "why": "Dedicated Xenoverse 2 page explicitly gives 100 Ki and Expert Mission 13.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Giant_Storm",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Rage_Saucer"
       ]
     },
     {
       "name": "Gigantic Slam",
       "class": "Super",
       "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan) Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Grab-and-slam attack.",
+      "correction_of": {
+        "name": "Gigantic Slam",
+        "class": "Super",
+        "subcategory": "Strike"
+      },
+      "correction_fields": [
+        "ki_cost",
+        "unlock_method"
+      ],
+      "previous_values": {
+        "ki_cost": null,
+        "unlock_method": "Parallel Quest 83"
+      },
+      "new_values": {
+        "ki_cost": 100,
+        "unlock_method": null
+      },
+      "why": "Dedicated Xenoverse 2 page explicitly gives 100 Ki and lists Unlock as n/a; older guide material conflicts with the dedicated current page.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
-      "name": "Pretty Charge",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": 0,
-      "usable_by_cac": false,
-      "character_source": "Ribrianne",
-      "dlc_requirement": "Ultra Pack 1",
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Ki charging Super that functions similarly to Full Power Charge and ends with Ribrianne's pose.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Pretty_Charge",
-        "https://dragonball.fandom.com/wiki/Pretty_Charge"
-      ]
-    },
-    {
-      "name": "Darkness Mixer",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Supervillain characters; Demon God Demigra",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Charge Super that rapidly restores Ki and Stamina while its dark aura damages nearby enemies and blocks normal Ki shots.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Darkness_Mixer"
+        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
     }
   ],
-  "notes": "Both names were absent from docs/data/skills.json before this batch. Dedicated pages establish class, subtype, and cost."
+  "records": [
+    {
+      "name": "Gigantic Omega",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": true,
+      "character_source": "Broly; Broly (Full Power Super Saiyan); Kefla (Super Saiyan) Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Broly",
+      "ultimate_finish_required": null,
+      "effect": "Long-range pseudo-Ki-Blast projectile classified mechanically as a Strike Super.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Omega"
+      ]
+    }
+  ],
+  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence."
 }
