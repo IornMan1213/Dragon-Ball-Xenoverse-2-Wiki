@@ -709,7 +709,7 @@
     },
     {
       "name": "Darkness Rush (Melee)",
-      "class": "Super",
+      "class": "Ultimate",
       "subcategory": "Strike",
       "verification_status": "indexed",
       "sources": [
@@ -731,11 +731,17 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
-      ]
+      ],
+      "race_restrictions": [
+        "Human",
+        "Saiyan"
+      ],
+      "usable_by_cac": true,
+      "ki_cost": 100
     },
     {
       "name": "Darkness Rush (Ranged)",
-      "class": "Super",
+      "class": "Ultimate",
       "subcategory": "Strike",
       "verification_status": "indexed",
       "sources": [
