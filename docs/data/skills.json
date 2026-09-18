@@ -2519,7 +2519,168 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Drive"
       ]
+    },
+    {
+      "name": "Spirit Slash",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Gohan (Teen)",
+      "dlc_requirement": "Base Game",
+      "ki_cost": null,
+      "stamina_cost": 200,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 02",
+      "ultimate_finish_required": null,
+      "skill_description": "Spirit Slash is a Evasive Strike skill associated with Gohan (Teen).",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Spirit_Slash"
+      ]
+    },
+    {
+      "name": "Paralyze Beam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Piccolo",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 04",
+      "ultimate_finish_required": null,
+      "skill_description": "Paralyze Beam is a Super Ki Blast skill associated with Piccolo.",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Paralyze_Beam"
+      ]
+    },
+    {
+      "name": "Meteor Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Goku / Gohan (Kid)",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 06",
+      "ultimate_finish_required": null,
+      "skill_description": "Meteor Strike is a Super Strike skill associated with Goku / Gohan (Kid).",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Meteor_Strike"
+      ]
+    },
+    {
+      "name": "Shine Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Vegeta",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 07",
+      "ultimate_finish_required": null,
+      "skill_description": "Shine Shot is a Super Ki Blast skill associated with Vegeta.",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Shine_Shot"
+      ]
+    },
+    {
+      "name": "Meteor Blow",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Goku / Gohan",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 09",
+      "ultimate_finish_required": null,
+      "skill_description": "Meteor Blow is a Super Strike skill associated with Goku / Gohan.",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Meteor_Blow"
+      ]
+    },
+    {
+      "name": "Unrelenting Barrage",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Gohan (Kid)",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 10",
+      "ultimate_finish_required": null,
+      "skill_description": "Unrelenting Barrage is a Ultimate Strike skill associated with Gohan (Kid).",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage"
+      ]
+    },
+    {
+      "name": "Earth Splitting Galick Gun",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Vegeta",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 200,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 11",
+      "ultimate_finish_required": null,
+      "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun"
+      ]
     }
   ],
-  "record_count": 181
+  "record_count": 188
 }
