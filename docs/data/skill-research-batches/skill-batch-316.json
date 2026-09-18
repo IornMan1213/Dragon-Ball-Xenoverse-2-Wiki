@@ -1,0 +1,84 @@
+{
+  "batch_id": "skill-batch-316",
+  "research_type": "skill_research",
+  "status": "research_only",
+  "created": "2026-09-18",
+  "notes": "Research-only Ki Blast Ultimate candidates. Ultimate-Finish and CaC fields remain null unless the cited evidence explicitly resolves them.",
+  "records": [
+    {
+      "name": "Blaster Stream",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan)",
+      "source_quest_or_shop": "Parallel Quest 148 — Finding Out About Fusion",
+      "ki_cost": 300,
+      "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit.",
+      "ultimate_finish_required": null,
+      "usable_by_cac": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Stream"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "name": "Full Power Destruction",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "character_source": "Jiren (Full Power) Ultra Supervillain; Jiren — Customize Partner",
+      "source_quest_or_shop": "Parallel Quest 177 — Warped Sense of Justice",
+      "ki_cost": 500,
+      "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects.",
+      "ultimate_finish_required": null,
+      "usable_by_cac": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Full_Power_Destruction"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "name": "Gigantic Burst",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "character_source": "Kefla (Super Saiyan)",
+      "source_quest_or_shop": "Parallel Quest 127 — Multiverse Match of the Century",
+      "ki_cost": 500,
+      "mechanics_notes": "Two-stage attack: three sweeping Ki Waves followed by a spiraling energy wave; can be entered from Ray Blast when sufficiently fueled.",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Burst"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "name": "Lightning Impact",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "character_source": "Majuub; Goku (GT)",
+      "source_quest_or_shop": "Parallel Quest 142 — Timespace Tussle",
+      "ki_cost": 300,
+      "mechanics_notes": "Channels Ki into a Ki Wave; rapid input increases charge and damage; opponent is paralyzed if they touch the user while charging.",
+      "ultimate_finish_required": null,
+      "usable_by_cac": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Lightning_Impact"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "name": "Requiem of Destruction",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "character_source": "Vados; Whis — Customize Partner",
+      "source_quest_or_shop": "Parallel Quest 106 — A Destructive Showdown",
+      "ki_cost": 300,
+      "mechanics_notes": "Traps the opponent in a powerful Ki Blast and detonates it in a large explosion.",
+      "ultimate_finish_required": null,
+      "usable_by_cac": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction"
+      ],
+      "verification_status": "partially_verified"
+    }
+  ]
+}
