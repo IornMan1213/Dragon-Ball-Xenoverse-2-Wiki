@@ -1351,7 +1351,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Story progression reward"
     },
     {
       "name": "Dimension Cannon",
@@ -1613,7 +1614,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
-      "ki_cost": 200
+      "ki_cost": 200,
+      "unlock_method": "Training with Vegeta"
     },
     {
       "name": "Flash Chaser",
@@ -1646,7 +1648,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Training with Vegeta"
     },
     {
       "name": "Gamma Blaster",
@@ -1886,7 +1889,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 05 reward"
     },
     {
       "name": "Masenko",
@@ -1896,7 +1900,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Training with Kid Gohan"
     },
     {
       "name": "Paralysis",
@@ -2373,7 +2378,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 81 reward"
     },
     {
       "name": "Assault Vanish",
