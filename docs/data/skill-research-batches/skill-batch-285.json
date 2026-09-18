@@ -82,5 +82,5 @@
       ]
     }
   ],
-  "notes": "Batch 285 was reconciled against Batch 264 to prevent duplicate canonical identities. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already researched in Batch 264 and are not duplicated. This batch retains five distinct absent catalog records: Bloody Sauce, Celestial Hammer, Gigantic Slam, Giant Storm, and Spiral of Condemnation. Giant Storm is not raid-exclusive; it is included because it was independently absent from the canonical skills.json and is a documented Ki Blast Ultimate."
+  "notes": "Cleaned to retain only identities not already covered by prior research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already documented in batch 264 and are therefore excluded here. Peeler Storm was likewise excluded because it is already covered in batch 264."
 }
