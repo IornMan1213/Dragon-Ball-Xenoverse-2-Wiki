@@ -320,3 +320,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Normalized 20 documented counter skills into their actual Super/Ultimate categories using current skill-page evidence; Super Afterimage is now Super / Other, and duplicate Counter entries for Absolute Zero and Dragon Burn were removed because their canonical Evasive records already exist.
 - Research confirms the source taxonomy places counter skills inside ordinary categories such as Strike Supers, Ki Blast Supers, Other Supers, and Ki Blast Ultimates. citeturn2search5turn2search8turn5search0
 - Remaining skill-layer work is metadata completeness/accuracy, not creation of a separate Counter class.
+
+
+### Skill taxonomy/cost reconciliation — 2026-09-18
+- Canonical skill layer is now 294 records with 294 synchronized index records.
+- Counter skills no longer use the legacy Counter / Counter class; current records use their documented Super/Ultimate taxonomy, with counter behavior treated as a property.
+- Completed documented Ki-cost backfill for the formerly counter-classified records: Super counter skills are 0 or 100 Ki where explicitly documented, while Reverse Mabakusenko is 300 Ki. No Super/Ultimate record now lacks a Ki-cost field.
+- Removed the remaining duplicate Demon Flash Strike canonical identity while preserving both provenance URLs.
+- Research evidence supports the taxonomy and costs, including Burst Reflection, Burst Rush, Change The Future, Counter Burst, Dimensional Hole, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Super God Shock Flash, Time Skip variants, and Ultrasonic Blitz. citeturn2search0turn2search1turn2search2turn2search3turn3search2turn4search2turn4search12turn4search1turn4search0turn3search4turn3search5turn3search6turn3search10
