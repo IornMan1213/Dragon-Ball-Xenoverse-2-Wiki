@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 263,
+  "record_count": 274,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -4345,6 +4345,259 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification"
+      ]
+    },
+    {
+      "name": "Super Ghost Buu Attack",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Majin Buu (Gohan Absorbed)",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 113",
+      "ultimate_finish_required": null,
+      "skill_description": "Super Ghost Buu Attack is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Candy Beam (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Majin Buu (Gohan Absorbed)",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 113",
+      "ultimate_finish_required": null,
+      "skill_description": "Candy Beam (Super) is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Petrifying Spit",
+      "class": "Super",
+      "subcategory": "Other",
+      "usable_by_cac": true,
+      "character_source": "Dabura",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Other",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 114",
+      "ultimate_finish_required": null,
+      "skill_description": "Petrifying Spit is a Super Other skill associated with Dabura.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Evil Blast",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Dabura",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 114",
+      "ultimate_finish_required": null,
+      "skill_description": "Evil Blast is a Super Ki Blast skill associated with Dabura.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Handy Canon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Android 13",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 115",
+      "ultimate_finish_required": null,
+      "skill_description": "Handy Canon is a Super Ki Blast skill associated with Android 13.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "S.S. Deadly Bomber",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Android 13",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 115",
+      "ultimate_finish_required": null,
+      "skill_description": "S.S. Deadly Bomber is a Ultimate Ki Blast skill associated with Android 13.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Brave Sword Slash",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Tapion",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 116",
+      "ultimate_finish_required": null,
+      "skill_description": "Brave Sword Slash is a Super Strike skill associated with Tapion.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Evil Flame",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Dabura",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 117",
+      "ultimate_finish_required": null,
+      "skill_description": "Evil Flame is a Super Ki Blast skill associated with Dabura.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Brave Sword Attack",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Tapion",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 117",
+      "ultimate_finish_required": null,
+      "skill_description": "Brave Sword Attack is a Ultimate Strike skill associated with Tapion.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Power Impact",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Jiren",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 120",
+      "ultimate_finish_required": null,
+      "skill_description": "Power Impact is a Super Strike skill associated with Jiren.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ]
+    },
+    {
+      "name": "Power Rush",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Jiren",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 122",
+      "ultimate_finish_required": null,
+      "skill_description": "Power Rush is a Ultimate Strike skill associated with Jiren.",
+      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
       ]
     }
   ]
