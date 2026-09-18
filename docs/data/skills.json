@@ -1059,7 +1059,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Atomic_Blast"
-      ]
+      ],
+      "source_quest": 87
     },
     {
       "name": "Bending Kamehameha",
@@ -1137,7 +1138,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "source_quest": 125
     },
     {
       "name": "Bluff Kamehameha",
@@ -1160,7 +1162,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha"
-      ]
+      ],
+      "source_quest": 94
     },
     {
       "name": "Breaker Energy Wave",
@@ -1183,7 +1186,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Breaker_Energy_Wave"
-      ]
+      ],
+      "source_quest": 101
     },
     {
       "name": "Burning Attack",
@@ -1206,7 +1210,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burning_Attack"
-      ]
+      ],
+      "source_quest": 41
     },
     {
       "name": "Burst Kamehameha",
@@ -1229,7 +1234,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha"
-      ]
+      ],
+      "source_quest": 72
     },
     {
       "name": "Burst Stinger",
@@ -1252,7 +1258,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "source_quest": 136
     },
     {
       "name": "Buu Buu Ball",
@@ -1299,7 +1306,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Candy_Beam"
-      ]
+      ],
+      "source_quest": 66
     },
     {
       "name": "Candy Beam (Super)",
@@ -1322,7 +1330,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "source_quest": 113
     },
     {
       "name": "Crazy Finger Shot",
@@ -1345,7 +1354,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "source_quest": 26
     },
     {
       "name": "Dark Inscription",
@@ -1391,7 +1401,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Psycho_Bomb"
-      ]
+      ],
+      "source_quest": 33
     },
     {
       "name": "Demon Ray",
@@ -1555,7 +1566,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Double_Death_Slicer"
-      ]
+      ],
+      "source_quest": 24
     },
     {
       "name": "Dust Attack",
