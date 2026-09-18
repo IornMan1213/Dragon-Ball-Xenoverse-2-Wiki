@@ -481,3 +481,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Nonstandard Ultimate costs were preserved rather than normalized away: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
 - These values are supported by the current Ultimate Attack reference and individual skill references where available; variable-cost skills remain explicitly represented as ranges rather than being reduced to a single nominal cost. citeturn1search0turn1search1turn1search2
 - Next metadata pass should focus on acquisition/unlock semantics, Ultimate Finish requirements, CaC/race restrictions, DLC/version provenance, and mechanics rather than filling already-present cost fields.
+
+
+### Super acquisition-route pass — 2026-09-18
+- Added sourced acquisition semantics for six previously blank Super routes: Super Guard, Dancing Parapara, Energy Charge, Rise to Action, Solar Flare, and Wall of Defense.
+- Evidence covers starting-style/Skill Shop, Pan training, Advancement Test, Krillin training, and PQ reward routes. citeturn0search0turn0search1turn0search2turn0search3turn0search10turn1search0
+- Rising Rage and Instant Charge remain intentionally blank because available references identify them as character-exclusive/raid-boss skills rather than normal player acquisition routes; no generic route is being inferred. citeturn1search2turn1search4
+- Remaining blank Super/Ultimate acquisition routes should continue to be audited individually, with character-exclusive skills separated from player acquisition semantics.
