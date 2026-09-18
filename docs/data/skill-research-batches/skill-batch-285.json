@@ -49,7 +49,39 @@
         "https://dbxv2.fandom.com/wiki/Bloody_Sauce"
       ],
       "acquisition_note": "The dedicated page labels Expert Mission 20: Harbinger of Doom in its Unlock field, but also states the skill is usable by Time Patrollers only in Crystal Raid or Training mode; this is therefore not treated as a normal CaC unlock."
+    },
+    {
+      "name": "Boulder Toss",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Great Ape Nappa; Great Ape Vegeta",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape picks up and throws a large boulder.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Gigantic_Rock_Throw",
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+      ]
+    },
+    {
+      "name": "Boulder Break",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Great Ape Nappa; Great Ape Bardock",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape slams a large boulder into the ground.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Boulder_Break",
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+      ]
     }
   ],
-  "notes": "High-confidence dedicated-page reconciliation. Bloody Sauce is explicitly a Ki Blast Super and Crystal Raid Skill; its page states Expert Mission 20 and 100 Ki. Gigantic Slam is explicitly a Strike Super, 100 Ki, and unavailable to CaC. Celestial Hammer remains conservatively cost-null because the available research evidence establishes identity/type but not a reliable current numeric Ki cost."
+  "notes": "High-confidence dedicated-page reconciliation. Bloody Sauce is explicitly a Ki Blast Super and Crystal Raid Skill; its page states Expert Mission 20 and 100 Ki. Gigantic Slam is explicitly a Strike Super, 100 Ki, and unavailable to CaC. Celestial Hammer remains conservatively cost-null because the available research evidence establishes identity/type but not a reliable current numeric Ki cost. Boulder Toss and Boulder Break are now classified as Strike based on the technique documentation describing them as physical boulder attacks and the Great Ape Festival enemy skill assignments; exact Ki costs remain unresolved."
 }
