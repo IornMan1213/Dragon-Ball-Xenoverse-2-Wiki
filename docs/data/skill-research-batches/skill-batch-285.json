@@ -5,6 +5,22 @@
   "scope": "Verified cast-exclusive / catalog-gap reconciliation",
   "records": [
     {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Supervillain/Boss characters",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 20: Harbinger of Doom",
+      "ultimate_finish_required": null,
+      "effect": "Fires scattered purple Ki blasts that can poison or slow the opponent; Crystal Raid/Training availability is separately documented.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+      ]
+    },
+    {
       "name": "Celestial Hammer",
       "class": "Super",
       "subcategory": "Strike",
@@ -17,6 +33,21 @@
       "effect": "Fused Zamasu charges and slams the opponent with a fist, sending them flying.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
+      ]
+    },
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Nappa; Raditz, Broly, Omega Shenron, Kefla (Super Saiyan) Customize Partners",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Large-area energy explosion ultimate.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Giant_Storm"
       ]
     },
     {
@@ -35,20 +66,20 @@
       ]
     },
     {
-      "name": "Giant Storm",
-      "class": "Ultimate",
+      "name": "Spiral of Condemnation",
+      "class": "Super",
       "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Nappa; Raditz, Broly, Omega Shenron, Kefla (Super Saiyan) Customize Partners",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
       "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
+      "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Large-area energy explosion ultimate.",
+      "effect": "Releases three energy spirals toward the opponent.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Giant_Storm"
+        "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation"
       ]
     }
   ],
-  "notes": "Removed Acid, Poison, and Saibabeam from this batch because current research established them as Super Skills/CaC-unavailable but did not establish their canonical Strike/Ki Blast/Other subtype with sufficient confidence. They remain explicit research gaps rather than guessed taxonomy. Corrected Giant Storm from Super to Ultimate / Ki Blast using the dedicated skill page. Celestial Hammer and Gigantic Slam are explicitly Strike Supers."
+  "notes": "Reconciled Batch 285 against Batch 264 to prevent duplicate canonical identities. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already researched in Batch 264 and are therefore not duplicated here. Added only the remaining distinct records: Bloody Sauce, Celestial Hammer, and Spiral of Condemnation."
 }
