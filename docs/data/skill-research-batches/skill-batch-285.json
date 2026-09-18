@@ -57,29 +57,14 @@
       "ki_cost": 100,
       "usable_by_cac": false,
       "character_source": "Supervillain/boss characters",
-      "dlc_requirement": "Extra Pack 1",
+      "dlc_requirement": null,
       "unlock_method": "Expert Mission 20: Harbinger of Doom",
       "ultimate_finish_required": null,
       "effect": "Wave of purple Ki blasts; can poison or slow targets.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Bloody_Sauce"
       ]
-    },
-    {
-      "name": "Spiral of Condemnation",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": "Extra Pack 3",
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Three spiral energy waves fired toward the opponent.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation"
-      ]
     }
   ],
-  "notes": "Batch 285 was reconciled against the prior batch-264 records to avoid duplicate identities. Strong dedicated Xenoverse 2 pages establish Bloody Sauce, Celestial Hammer, Spiral of Condemnation, and Gigantic Slam. Other names previously listed in this batch were already researched in batch 264 and were removed here. Duplicate identities were collapsed to one record per canonical (name, class, subcategory) key after validation. Removed Marbling Drop, Seasoning Arrow, and Time Shackles because Batch 264 already contains those identities. This batch retains only newly cataloged identities."
+  "notes": "Reconciled against prior research batches. Spiral of Condemnation was removed because it is already covered by Batch 271. Bloody Sauce has no DLC requirement established; Expert Mission 20 is a base-game Expert Mission and is not evidence of an Extra Pack requirement. Remaining records are distinct canonical identities."
 }
