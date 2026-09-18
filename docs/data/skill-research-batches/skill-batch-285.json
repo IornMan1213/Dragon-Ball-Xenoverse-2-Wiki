@@ -2,7 +2,7 @@
   "batch_id": 285,
   "created": "2026-09-18",
   "type": "catalog_research",
-  "scope": "Crystal Raid-exclusive skill correction/reconciliation",
+  "scope": "Raid/Boss-exclusive Super Skills not already covered by prior research batches",
   "records": [
     {
       "name": "Celestial Hammer",
@@ -21,5 +21,5 @@
       ]
     }
   ],
-  "notes": "Reduced to the only genuinely new record after checking prior research batches. Bloody Sauce, Marbling Drop, Seasoning Arrow, Time Shackles, Flames of Retribution and Spiral of Condemnation were already researched in earlier batches and were removed to prevent cross-batch duplicate identities."
+  "notes": "Reduced to two genuinely new identities after reconciliation against prior batches 264 and 271. Bloody Sauce, Marbling Drop, Seasoning Arrow, Time Shackles, Flames of Retribution were already researched in batch 264; Spiral of Condemnation was already researched in batch 271; Light of Justice was removed before commit as a duplicate of batch 272-era research."
 }
