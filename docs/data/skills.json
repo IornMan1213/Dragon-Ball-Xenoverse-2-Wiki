@@ -4426,7 +4426,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
       ],
-      "ki_cost": 500
+      "ki_cost": 500,
+      "unlock_method": "TP Medal Shop",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
@@ -5018,7 +5020,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
       ],
-      "ki_cost": 300
+      "ki_cost": 300,
+      "unlock_method": "Expert Mission 16",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Supernova",
@@ -5028,7 +5032,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
       ],
-      "ki_cost": 500
+      "ki_cost": 500,
+      "unlock_method": "Expert Mission 6 - \"The Depths of Despair\"",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -5226,11 +5232,13 @@
       "name": "Divine Lasso",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
       ],
-      "ki_cost": 300
+      "ki_cost": 300,
+      "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Divine Wrath: Purification",
@@ -5488,12 +5496,14 @@
       "name": "Victory Rush",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
       ],
       "ki_cost": 300,
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "unlock_method": "Parallel Quest 89 - \"Super-Super Ultimate Series of Battles!\"",
+      "last_verified": "2026-09-18"
     }
   ],
   "record_count": 298
