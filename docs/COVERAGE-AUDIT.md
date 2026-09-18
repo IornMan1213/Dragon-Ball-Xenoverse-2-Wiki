@@ -413,3 +413,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Current research confirms these are Parallel Quest rewards; costs and skill classifications remain separately represented.
 - Hero's Flute (PQ116) and Power Impact (PQ120) were already present with acquisition metadata and were cross-checked during this pass. citeturn1search0turn1search1turn1search2turn1search8
 - Remaining acquisition backlog is concentrated in older canonical records with missing route semantics; continue individually and preserve multi-route/UF distinctions.
+
+
+### Core skill acquisition-method pass — 2026-09-18
+- Added evidence-backed acquisition semantics for six previously incomplete core skills: **Kamehameha (PQ05)**, **Galick Gun (Vegeta training)**, **Masenko (Kid Gohan training)**, **Final Flash (Vegeta training)**, **Afterimage Strike (PQ81)**, and **Destructo-Disc (story progression)**.
+- Sources distinguish mentor-training rewards from PQ rewards; Destructo-Disc is retained as a story-progression acquisition rather than being mislabeled as a PQ drop. citeturn1search1turn1search6turn1search7turn1search3turn1search5turn1search14
+- Remaining acquisition gaps should continue to be researched individually, with multi-route and Ultimate-Finish distinctions preserved.
