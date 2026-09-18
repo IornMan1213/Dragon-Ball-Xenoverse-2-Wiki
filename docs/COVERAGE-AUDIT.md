@@ -522,3 +522,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Explicit PQ reward entries now have a numeric `source_quest` or equivalent explicit quest field; the remaining acquisition backlog is concentrated in non-PQ/shop/character-specific routes and records without a `last_verified` date.
 - Added sourced acquisition metadata for Meditation: PQ122, “The Final Battle Before The Final Battle?!”. A Steam community discussion explicitly identifies PQ122 as the acquisition quest; this is retained as partially enriched rather than promoted to fully verified because the source is community evidence. citeturn2search3
 - Research caution: Data Input has conflicting historical community descriptions around Expert Mission 20 versus TP Medal Shop availability, so it remains unresolved rather than being assigned a single acquisition route from weak evidence. citeturn3search0turn3search2
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited canonical Super/Ultimate records for missing Ki-cost values: **0 missing**.
+- Reviewed the zero-Ki Super records as a distinct case rather than treating 0 as missing data. Dimensional Hole is explicitly documented at 0 Ki; charge/power-up style Supers can likewise have 0 activation cost. citeturn1search0turn1search1
+- Verified representative nonzero/variable costs: Power Impact 100 Ki, Wild Buster 100 Ki with an additional 100 Ki input, Full Power Destruction 500 Ki, and Super Kamehameha (SS4 DAIMA) 400–500 Ki. citeturn0search4turn0search10turn0search7turn0search0
+- No blanket normalization was applied; variable and input-dependent costs remain represented as documented data.
