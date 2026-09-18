@@ -5,23 +5,6 @@
   "scope": "Raid/Boss-exclusive Super Skills reconciliation",
   "records": [
     {
-      "name": "Bloody Sauce",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Supervillain and boss characters; Time Patroller only in Crystal Raid or Training",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Scattered Ki Blasts that can poison or slow targets.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
-        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
-      ],
-      "notes": "Raid/Boss-exclusive skill; no ordinary CaC unlock established. Do not infer Expert Mission 13 as a player unlock."
-    },
-    {
       "name": "Celestial Hammer",
       "class": "Super",
       "subcategory": "Strike",
@@ -37,5 +20,5 @@
       ]
     }
   ],
-  "notes": "Retains only skills not already covered by earlier research batches. Marbling Drop, Seasoning Arrow, Time Shackles, Flames of Retribution, and Spiral of Condemnation were excluded because earlier batches already record them."
+  "notes": "Cleaned duplicate Bloody Sauce: it was already covered by an earlier research batch. Celestial Hammer remains the only new record in this batch."
 }
