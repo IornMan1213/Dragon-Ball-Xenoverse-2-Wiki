@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 274,
-  "linked_skill_rewards": 181,
+  "canonical_skill_records": 298,
+  "linked_skill_rewards": 205,
   "alias_matches": [
     {
       "pq": 48,
@@ -12,108 +12,11 @@
       "match": "alias"
     }
   ],
-  "unresolved": [
-    {
-      "pq": 123,
-      "skill": "Reverse Shot"
-    },
-    {
-      "pq": 123,
-      "skill": "Variant Drive"
-    },
-    {
-      "pq": 124,
-      "skill": "Revenge Final Flash"
-    },
-    {
-      "pq": 125,
-      "skill": "Blaster Ball"
-    },
-    {
-      "pq": 125,
-      "skill": "Ray Blast"
-    },
-    {
-      "pq": 126,
-      "skill": "Gigantic Breaker"
-    },
-    {
-      "pq": 127,
-      "skill": "Revenge Death Ball"
-    },
-    {
-      "pq": 128,
-      "skill": "Powered Shell"
-    },
-    {
-      "pq": 128,
-      "skill": "Gigantic Charge"
-    },
-    {
-      "pq": 129,
-      "skill": "Spirit Blaster"
-    },
-    {
-      "pq": 130,
-      "skill": "Gigantic Rage"
-    },
-    {
-      "pq": 132,
-      "skill": "God Punisher"
-    },
-    {
-      "pq": 132,
-      "skill": "Gigantic Roar"
-    },
-    {
-      "pq": 133,
-      "skill": "Pretty Cannon"
-    },
-    {
-      "pq": 133,
-      "skill": "Formation!"
-    },
-    {
-      "pq": 135,
-      "skill": "Lovely Cyclone"
-    },
-    {
-      "pq": 136,
-      "skill": "Burst Stinger"
-    },
-    {
-      "pq": 136,
-      "skill": "Raid Blast"
-    },
-    {
-      "pq": 136,
-      "skill": "Blazing Attack"
-    },
-    {
-      "pq": 137,
-      "skill": "Ribrianne's Eternal Love"
-    },
-    {
-      "pq": 138,
-      "skill": "Flash Chaser"
-    },
-    {
-      "pq": 139,
-      "skill": "Total Detonation Ball"
-    },
-    {
-      "pq": 139,
-      "skill": "Photon Swipe"
-    },
-    {
-      "pq": 140,
-      "skill": "Savory Slicer"
-    }
-  ],
+  "unresolved": [],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 259,
-  "unresolved_count": 24,
+  "unique_canonical_skill_names": 283,
+  "unresolved_count": 0,
   "resolved_skill_rewards": [
     {
       "pq": 172,
