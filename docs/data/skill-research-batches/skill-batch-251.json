@@ -1,0 +1,40 @@
+{
+  "batch_id":251,
+  "created":"2026-09-17",
+  "type":"catalog_expansion",
+  "scope":"Ki Blast Super catalog — base-game and early-game missing records",
+  "records":[
+    {
+      "name":"Saturday Crash","class":"Super","subcategory":"Ki Blast","ki_cost":100,"stamina_cost":0,
+      "usable_by_cac":true,"character_source":"Raditz","dlc_requirement":null,
+      "unlock_method":"Raditz training","ultimate_finish_required":false,
+      "effect":"Fires a fast tracking Ki blast that briefly paralyzes the opponent.",
+      "sources":["https://dbxv2.fandom.com/wiki/Saturday_Crash"]
+    },
+    {
+      "name":"Consecutive Energy Blast","class":"Super","subcategory":"Ki Blast","ki_cost":100,"stamina_cost":0,
+      "usable_by_cac":true,"character_source":null,"dlc_requirement":null,
+      "unlock_method":"Skill Shop","ultimate_finish_required":false,
+      "effect":"Fires a tracking barrage of 10 Ki blasts.",
+      "sources":["https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast"]
+    },
+    {
+      "name":"Super Destructo-Disc","class":"Super","subcategory":"Ki Blast","ki_cost":200,"stamina_cost":0,
+      "usable_by_cac":true,"character_source":"Krillin / Android 18","dlc_requirement":null,
+      "unlock_method":"Expert Mission 4 - Invasion of the Evil Super Namek",
+      "ultimate_finish_required":false,
+      "effect":"Throws a fast tracking, unblockable Destructo-Disc with stronger damage than the standard version.",
+      "sources":["https://dbxv2.fandom.com/wiki/Super_Destructo-Disc","https://dbxv2.fandom.com/wiki/Expert_Mission"]
+    },
+    {
+      "name":"Earth Splitting Galick Gun","class":"Super","subcategory":"Ki Blast","ki_cost":200,"stamina_cost":0,
+      "usable_by_cac":true,"character_source":"Vegeta","dlc_requirement":null,
+      "unlock_method":"Parallel Quest 11 - Burst Open and Mix!",
+      "ultimate_finish_required":false,
+      "effect":"Rapidly fires a large multi-hit Galick Gun beam; up to 23 hits.",
+      "sources":["https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun"]
+    }
+  ],
+  "reconciliation_note":"All four names were absent from the repository's local docs/data/skills.json at audit time. Their current XV2 pages explicitly classify them as Ki Blast Supers and provide the listed costs/acquisition routes. Non-PQ routes are marked UF=false because an Ultimate Finish is not part of the acquisition method.",
+  "last_verified":"2026-09-17"
+}
