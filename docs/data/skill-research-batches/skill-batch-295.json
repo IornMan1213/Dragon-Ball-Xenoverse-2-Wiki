@@ -35,22 +35,6 @@
       ]
     },
     {
-      "name": "Energy Jet",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": false,
-      "character_source": "Demon God Demigra",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
-      ]
-    },
-    {
       "name": "Evil Explosion (Ultimate)",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -81,5 +65,5 @@
       ]
     }
   ],
-  "notes": "Current Xenoverse 2 Ultimate Attack documentation explicitly places Self-Destruct and Cookie Beam under Strike Skills, and Energy Jet, Evil Explosion (Ultimate), and Light Grenade (Ultimate) under Ki Blast Skills; each is listed at 300 Ki and as unavailable to CaC."
+  "notes": "Current Xenoverse 2 Ultimate Attack documentation explicitly places Self-Destruct and Cookie Beam under Strike Skills, and Energy Jet, Evil Explosion (Ultimate), and Light Grenade (Ultimate) under Ki Blast Skills; each is listed at 300 Ki and as unavailable to CaC. Removed duplicate Energy Jet identity; retained its earlier canonical research/correction chain."
 }
