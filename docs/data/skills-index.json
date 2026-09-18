@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 131,
+  "record_count": 135,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -1310,6 +1310,99 @@
       "mechanics_notes": "Traps the opponent in a powerful Ki Blast and detonates it in a large explosion.",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Dragon Spiral",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Goku (Ultra Supervillain Quelled)",
+      "dlc_requirement": "Future Saga Chapter 4",
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Strike",
+      "unlock_method": "Random reward from Parallel Quest 185 or Parallel Quest 186",
+      "source_quest_or_shop": "Parallel Quest 185; Parallel Quest 186",
+      "ultimate_finish_required": null,
+      "skill_description": "Strike Super associated with Goku (Ultra Supervillain Quelled).",
+      "mechanics_notes": "Detailed hit sequence remains under mechanics verification.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Indomitable",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "usable_by_cac": true,
+      "character_source": "Goku (Ultra Supervillain Quelled)",
+      "dlc_requirement": "Future Saga Chapter 4",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Power Up",
+      "unlock_method": "Random reward from Parallel Quest 185 or Parallel Quest 186",
+      "source_quest_or_shop": "Parallel Quest 185; Parallel Quest 186",
+      "ultimate_finish_required": null,
+      "skill_description": "Chapter 4 power-management Super associated with Goku (Ultra Supervillain Quelled).",
+      "mechanics_notes": "Exact resource costs and detailed charge behavior remain under mechanics verification.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Venus Fist",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Goku (Ultra Supervillain Quelled)",
+      "dlc_requirement": "Future Saga Chapter 4",
+      "ki_cost": 500,
+      "stamina_cost": 0,
+      "damage_type": "Strike",
+      "unlock_method": "Random reward from Parallel Quest 185 or Parallel Quest 186",
+      "source_quest_or_shop": "Parallel Quest 185; Parallel Quest 186",
+      "ultimate_finish_required": null,
+      "skill_description": "Chapter 4 Strike Ultimate associated with Goku (Ultra Supervillain Quelled).",
+      "mechanics_notes": "Exact hit sequence and reward-slot semantics remain under verification.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "The Power to Overcome",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
+      "usable_by_cac": true,
+      "character_source": "CaC / Future Saga Chapter 4",
+      "dlc_requirement": "Future Saga Chapter 4",
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Future Saga Chapter 4 story/final progression",
+      "source_quest_or_shop": "Future Saga Chapter 4",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal CaC Awoken Skill with an initial state and a stronger unleashed second stage.",
+      "mechanics_notes": "2026 testing sources document a second-stage state with very high or effectively infinite Ki availability, health consumption, and a cooldown; exact numerical modifiers remain version-sensitive.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/"
+      ]
     }
   ]
 }
