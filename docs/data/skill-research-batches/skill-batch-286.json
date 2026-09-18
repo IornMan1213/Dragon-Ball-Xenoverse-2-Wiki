@@ -106,7 +106,39 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash_%28Super%29"
       ]
+    },
+    {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Supervillain/boss characters; Crystal Raid",
+      "dlc_requirement": "Extra Pack 1 for the relevant Supervillain encounters",
+      "unlock_method": "Expert Mission 20: Harbinger of Doom; Crystal Raid use is restricted to raid/training contexts",
+      "ultimate_finish_required": null,
+      "effect": "Scattered Ki blasts that can slow or poison depending on firing direction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+      ]
+    },
+    {
+      "name": "Energy Jet",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Large Ki ball projectile followed by a finishing explosion.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Jet",
+        "https://dbxv2.fandom.com/wiki/Demon_God_Demigra"
+      ]
     }
   ],
-  "notes": "Retains the new Giant Storm catalog record and the Energy Cannon provenance/effect correction. Previously researched records from Batches 264, 278, and 285 are intentionally not duplicated here. Gigantic Slam was verified directly from its dedicated Xenoverse 2 page as Strike/Super, 100 Ki, and unavailable to CaC."
+  "notes": "Retains the new Giant Storm catalog record and the Energy Cannon provenance/effect correction. Previously researched records from Batches 264, 278, and 285 are intentionally not duplicated here. Gigantic Slam was verified directly from its dedicated Xenoverse 2 page as Strike/Super, 100 Ki, and unavailable to CaC. Added Bloody Sauce and Energy Jet after dedicated-source verification; Energy Jet is explicitly an Ultimate rather than a Super."
 }
