@@ -699,7 +699,13 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
-      ]
+      ],
+      "usable_by_cac": true,
+      "race_restrictions": [
+        "Human",
+        "Saiyan"
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Darkness Rush (Melee)",
@@ -708,7 +714,15 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
-      ]
+      ],
+      "usable_by_cac": true,
+      "race_restrictions": [
+        "Human",
+        "Saiyan",
+        "Majin",
+        "Frieza Race"
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Shining Slash",
@@ -726,7 +740,12 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
-      ]
+      ],
+      "usable_by_cac": true,
+      "race_restrictions": [
+        "Namekian"
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Evil Flight Strike",
@@ -735,7 +754,14 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
-      ]
+      ],
+      "usable_by_cac": true,
+      "race_restrictions": [
+        "Namekian",
+        "Majin"
+      ],
+      "ki_cost": 100,
+      "stamina_cost": 300
     },
     {
       "name": "Namek Finger",
@@ -744,7 +770,12 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
-      ]
+      ],
+      "usable_by_cac": true,
+      "race_restrictions": [
+        "Namekian"
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Beast",
