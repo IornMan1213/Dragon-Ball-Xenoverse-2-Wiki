@@ -768,3 +768,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Dimensional Hole is independently reported as a 0-Ki Super; the repository retains that value rather than normalizing it to a generic Super cost. citeturn2search27
 - Two current 600-Ki Ultimate records, Chaotic Time Impact and Gigantic Explosion, were retained as documented nonstandard costs. Independent community evidence explicitly reports Gigantic Explosion at 600 Ki. citeturn2reddit25turn2reddit26
 - This pass therefore produced no speculative cost edits. Next cost work should focus on provenance and exact mechanics for records whose source evidence is broad/category-level rather than skill-specific.
+
+
+### Super/Ultimate resource-cost audit milestone — 2026-09-18
+- Audited canonical Super/Ultimate records for missing Ki costs: **0 missing** across 298 canonical records.
+- Reviewed zero-Ki entries as a special class of resource semantics rather than treating zero as missing; charge/reinforcement/power-up skills legitimately use 0 Ki in the current data model.
+- Corrected **Supreme Fury** taxonomy from `Ultimate / Strike` to `Super / Strike`; its source reference explicitly identifies it as a Strike Super Attack and lists 100 Ki. citeturn1search0turn1search1
+- This prevents a false Ultimate classification from propagating into PQ/DLC and skill-type analytics.
