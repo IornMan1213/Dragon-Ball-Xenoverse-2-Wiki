@@ -244,3 +244,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Explicit zero-cost records were reviewed as a separate class of data because charge/reinforcement/stance skills can legitimately have 0 Ki. They remain preserved rather than normalized to a generic Super cost.
 - External research confirms that Xenoverse 2 has distinct resource models and that skill costs vary by move; therefore costs must continue to be verified individually rather than inferred from class alone.
 - Next cost pass: verify suspicious/nonstandard numeric values and variable-cost mechanics, then audit acquisition routes and Ultimate Finish requirements.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited all canonical Super and Ultimate records for missing, malformed, or nonstandard Ki-cost values.
+- No Super/Ultimate records have a missing Ki-cost field.
+- Eight nonstandard values were retained rather than normalized: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400), and Thunder Flash (300–600). These require individual source-backed verification rather than class-based assumptions.
+- Current web lookup of the Fandom source was blocked by robots.txt, so this pass did not overwrite those values without accessible corroboration.
