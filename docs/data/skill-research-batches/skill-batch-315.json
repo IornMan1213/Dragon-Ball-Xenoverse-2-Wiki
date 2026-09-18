@@ -1,0 +1,84 @@
+{
+  "batch_id": 315,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Ki Blast Ultimate coverage expansion — current high-confidence records",
+  "records": [
+    {
+      "name": "Final Flash (SS3 DAIMA)",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": null,
+      "character_source": "SS3 Vegeta (DAIMA)",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
+      "ultimate_finish_required": null,
+      "effect": "Final Flash whose input can consume additional Ki beyond the initial cost to substantially increase its power.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29"
+      ]
+    },
+    {
+      "name": "Super Kamehameha (SS4 DAIMA)",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": null,
+      "character_source": "SS4 Goku (DAIMA)",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
+      "ultimate_finish_required": null,
+      "effect": "Super Kamehameha variant that can consume an additional 100 Ki during input for an extended, more powerful attack.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29"
+      ]
+    },
+    {
+      "name": "Thunder Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": null,
+      "character_source": "Pikkon",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 146 - \"Zen-Ohs' Earthly Excursion\"",
+      "ultimate_finish_required": null,
+      "effect": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Thunder_Flash"
+      ]
+    },
+    {
+      "name": "Prominence Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": null,
+      "character_source": "Vegeta (Super Saiyan God)",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 137 - \"Tournament of Power Round 2\"",
+      "ultimate_finish_required": null,
+      "effect": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Prominence_Flash"
+      ]
+    },
+    {
+      "name": "Mystic Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": null,
+      "character_source": "Nail",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 20 - \"Frieza! Show Yourself!\"",
+      "ultimate_finish_required": null,
+      "effect": "Rear-facing Ki wave that is fired behind the user rather than forward.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mystic_Flash"
+      ]
+    }
+  ],
+  "notes": "Five additional Ki Blast Ultimate identities were researched from current Xenoverse 2-specific wiki pages on 2026-09-18. Ki costs are left null where the source documents variable/extended costs rather than a single fixed value. Ultimate Finish requirements and CaC availability remain null where the consulted source did not explicitly establish them. These identities were checked against the repository's current canonical name search and were not found in the indexed repository search results; they must still pass the repository-wide canonical duplicate validator before promotion."
+}
