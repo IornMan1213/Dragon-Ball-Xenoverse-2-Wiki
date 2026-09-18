@@ -229,5 +229,5 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Audited all 159 Super and 67 Ultimate canonical records for missing/invalid Ki costs.
-- Result: 0 missing or invalid Ki-cost values; no blanket class-based cost assumptions were applied.
+- Result: 0 missing Ki-cost values. Three records intentionally use variable-cost strings (Final Flash (SS3 DAIMA) `400+`, Super Kamehameha (SS4 DAIMA) `400-500`, Thunder Flash `300-600`) because their mechanics explicitly consume additional Ki. No blanket class-based cost assumptions were applied.
 - Remaining research focus is verifying whether documented numeric costs match the correct version/source where skills have variable, staged, or version-specific costs.
