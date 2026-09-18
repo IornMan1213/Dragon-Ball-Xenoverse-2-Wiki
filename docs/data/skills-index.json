@@ -115,7 +115,9 @@
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Turn Golden",
@@ -296,7 +298,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Burst Rush",
@@ -307,7 +310,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Rush",
         "https://dragonball.fandom.com/wiki/Burst_Rush"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Change The Future",
@@ -318,7 +322,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Change_the_Future_%28Parallel_Quest%29",
         "https://dragonball.fandom.com/wiki/Change_the_Future"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Counter Burst",
@@ -328,7 +333,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Counter Impact",
@@ -338,7 +344,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Demon Flash Strike",
@@ -349,7 +356,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flash_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Dimensional Hole",
@@ -359,7 +367,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Flash Fist Crush",
@@ -369,7 +378,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "God Breaker",
@@ -379,7 +389,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Heroic Counter",
@@ -389,7 +400,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Punisher Shield",
@@ -399,7 +411,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Reverse Mabakusenko",
@@ -410,7 +423,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Reverse_Mabakusenko",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Rough Ranger",
@@ -420,7 +434,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Shadow Crusher",
@@ -430,7 +445,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Sudden Death Beam",
@@ -440,7 +456,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Super Afterimage",
@@ -450,7 +467,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/Super_Afterimage"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Super God Shock Flash",
@@ -460,7 +478,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -470,7 +489,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -480,7 +500,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -490,7 +511,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Ultrasonic Blitz",
@@ -500,7 +522,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Absolute Zero",
@@ -510,7 +533,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
-      ]
+      ],
+      "stamina_cost": 300
     },
     {
       "name": "Celestial Wave",
@@ -521,7 +545,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 300
     },
     {
       "name": "Dragon Burn",
@@ -531,7 +557,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Explosive Wave",
@@ -541,7 +568,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
-      ]
+      ],
+      "stamina_cost": 300
     },
     {
       "name": "Force Shield",
@@ -552,7 +580,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Force_Shield"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Instant Rise",
@@ -563,7 +593,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Instant_Rise"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 300
     },
     {
       "name": "Ki Explosion",
@@ -574,7 +606,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ki_Explosion"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Maiden Burst",
@@ -585,7 +619,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Maiden_Burst"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Mighty Explosive Wave",
@@ -596,7 +632,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Psychic Move",
@@ -607,7 +645,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Psychic_Move"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Punisher Guard",
@@ -617,7 +657,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Evasives"
-      ]
+      ],
+      "stamina_cost": 300
     },
     {
       "name": "Side Bridge",
@@ -628,7 +669,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Side_Bridge"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Spread Shot Retreat",
@@ -639,7 +682,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Steel Mirage",
@@ -650,7 +695,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Steel_Mirage"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Final Pose",
@@ -660,7 +707,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Mach Dash",
@@ -670,7 +718,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Angry Shout",
@@ -680,7 +729,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
-      ]
+      ],
+      "stamina_cost": 300
     },
     {
       "name": "Energy Barrier",
@@ -690,7 +740,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
-      ]
+      ],
+      "stamina_cost": 300
     },
     {
       "name": "Spirit Explosion",
@@ -701,7 +752,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Explosion"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Spirit Slash",
@@ -712,7 +765,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Spirit_Slash"
-      ]
+      ],
+      "ki_cost": null,
+      "stamina_cost": 200
     },
     {
       "name": "Atomic Blast",
@@ -723,7 +778,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Atomic_Blast"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Bending Kamehameha",
@@ -733,7 +790,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Big Bang Kamehameha",
@@ -743,7 +801,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Big Bang Knuckle",
@@ -754,7 +813,9 @@
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Blaster Ball",
@@ -765,7 +826,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Bluff Kamehameha",
@@ -776,7 +839,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Breaker Energy Wave",
@@ -787,7 +852,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Breaker_Energy_Wave"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Burning Attack",
@@ -798,7 +865,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burning_Attack"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Burst Kamehameha",
@@ -809,7 +878,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Burst Stinger",
@@ -820,7 +891,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Buu Buu Ball",
@@ -831,7 +904,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Candy Beam",
@@ -842,7 +917,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Candy_Beam"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Candy Beam (Super)",
@@ -853,7 +930,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Crazy Finger Shot",
@@ -864,7 +943,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Dark Inscription",
@@ -875,7 +956,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Death Psycho Bomb",
@@ -886,7 +969,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Psycho_Bomb"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Demon Ray",
@@ -897,7 +982,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Destruction's Concerto: Comet",
@@ -908,7 +995,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Comet"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Destruction's Concerto: Starfall",
@@ -919,7 +1008,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Starfall"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Destructo-Disc",
@@ -928,7 +1019,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Dimension Cannon",
@@ -939,7 +1031,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dimension_Cannon"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Divine Kamehameha",
@@ -950,7 +1044,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80192272",
         "https://dbxv2.fandom.com/wiki/Divine_Kamehameha"
-      ]
+      ],
+      "ki_cost": 200
     },
     {
       "name": "Divine Spear",
@@ -961,7 +1056,9 @@
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 200,
+      "stamina_cost": null
     },
     {
       "name": "Double Death Slicer",
@@ -972,7 +1069,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Double_Death_Slicer"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Dust Attack",
@@ -983,7 +1082,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dust_Attack"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Earth Splitting Galick Gun",
@@ -995,7 +1096,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md"
-      ]
+      ],
+      "ki_cost": 200,
+      "stamina_cost": null
     },
     {
       "name": "Emperor's Blast",
@@ -1005,7 +1108,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Emperor's Cannon",
@@ -1016,7 +1120,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Eraser Bomb",
@@ -1027,7 +1133,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Eraser_Bomb"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Evil Blast",
@@ -1038,7 +1146,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Evil Flame",
@@ -1049,7 +1159,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Final Cannon",
@@ -1060,7 +1172,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Final_Cannon"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Final Flash (Super)",
@@ -1070,7 +1184,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 200
     },
     {
       "name": "Flash Chaser",
@@ -1081,7 +1196,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Galick Gun",
@@ -1090,7 +1207,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Gamma Blaster",
@@ -1101,7 +1219,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Giant Cluster",
@@ -1112,7 +1232,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Giant_Cluster"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Gigantic Charge",
@@ -1123,7 +1245,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "God of Destruction's Plaything",
@@ -1134,7 +1258,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "God Punisher",
@@ -1145,7 +1271,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Handy Canon",
@@ -1156,7 +1284,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Headshot",
@@ -1167,7 +1297,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Headshot"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Heat Wave",
@@ -1178,7 +1310,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Ill Bomber",
@@ -1189,7 +1323,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Ill_Bomber"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Ill Rain",
@@ -1200,7 +1336,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ill_Rain"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Kamehameha",
@@ -1209,7 +1347,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Masenko",
@@ -1219,7 +1358,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Paralysis",
@@ -1230,7 +1370,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Paralysis"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Paralyze Beam",
@@ -1241,7 +1383,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Paralyze_Beam"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Pendulum Bullet",
@@ -1252,7 +1396,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Pendulum_Bullet"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Perfect Shot",
@@ -1262,7 +1408,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Perfect_Shot"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Photon Swipe",
@@ -1273,7 +1420,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Pretty Cannon",
@@ -1284,7 +1433,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Raid Blast",
@@ -1295,7 +1446,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Ray Blast",
@@ -1306,7 +1459,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Reverse Shot",
@@ -1317,7 +1472,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Rolling Bullet",
@@ -1328,7 +1485,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Rolling_Bullet"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Shine Shot",
@@ -1339,7 +1498,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Shine_Shot"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Spirit Blaster",
@@ -1350,7 +1511,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Spirit Bomb",
@@ -1360,7 +1523,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Spirit_Bomb"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Spirit Pulse",
@@ -1371,7 +1535,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Stone Bullet",
@@ -1382,7 +1548,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Stone_Bullet"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Super Donut Volley",
@@ -1393,7 +1561,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Donut_Volley"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Super Ghost Buu Attack",
@@ -1404,7 +1574,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Vanishing Ball",
@@ -1415,7 +1587,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Vanishing_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Variable Snipe Shot",
@@ -1426,7 +1600,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Victory Cannon",
@@ -1437,7 +1613,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Victory_Cannon"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Wild Buster",
@@ -1448,7 +1626,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wild_Buster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Afterimage",
@@ -1459,7 +1639,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Afterimage"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Afterimage Strike",
@@ -1468,7 +1649,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Assault Vanish",
@@ -1478,7 +1660,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Assault_Vanish"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Burst Charge",
@@ -1489,7 +1672,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Burst_Charge"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Charged Ki Wave",
@@ -1499,7 +1683,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Dancing Parapara",
@@ -1511,7 +1696,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonball.fandom.com/wiki/Para_Para_Boogie",
         "https://dbxv2.fandom.com/wiki/Pan"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Energy Charge",
@@ -1522,7 +1708,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Energy_Charge"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Energy Release",
@@ -1533,7 +1720,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Final Charge",
@@ -1543,7 +1731,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Charge",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Full Power Charge",
@@ -1553,7 +1742,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Full_Power_Charge"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Hero's Flute",
@@ -1564,7 +1754,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76050181"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Instant Charge",
@@ -1575,7 +1767,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Instant_Charge"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Instant Transmission",
@@ -1585,7 +1778,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Instant_Transmission"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Kai Kai",
@@ -1596,7 +1790,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Maximum Charge",
@@ -1606,7 +1802,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Maximum_Charge"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Petrifying Spit",
@@ -1617,7 +1814,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Phantom Fist",
@@ -1627,7 +1826,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Phantom_Fist"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Quick Sleep",
@@ -1637,7 +1837,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonball.fandom.com/wiki/Sleep"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Rise to Action",
@@ -1660,7 +1861,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Rising_Rage"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Shield Barrier",
@@ -1671,7 +1873,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Shield_Barrier"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Solar Flare",
@@ -1683,7 +1886,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonballupdates.fandom.com/wiki/Solar_Flare",
         "https://dragonball.fandom.com/wiki/Solar_Flare"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Spirit Boost",
@@ -1692,7 +1896,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Super Guard",
@@ -1703,7 +1908,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Super_Guard"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Surging Spirit",
@@ -1713,7 +1919,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Surging_Spirit",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Time Bullet",
@@ -1724,7 +1931,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Time Control",
@@ -1736,7 +1944,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Time_Control",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-18.md"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Ultimate Charge",
@@ -1747,7 +1957,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Ultimate_Charge"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Wall of Defense",
@@ -1758,7 +1969,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Charge",
@@ -1769,7 +1981,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Charge"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Data Input",
@@ -1780,7 +1994,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Data_Input"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Divinity Unleashed",
@@ -1791,7 +2006,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed"
-      ]
+      ],
+      "ki_cost": 0,
+      "stamina_cost": null
     },
     {
       "name": "Do or Die",
@@ -1802,7 +2019,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Do_or_Die"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Fighting Pose E",
@@ -1813,7 +2032,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E"
-      ]
+      ],
+      "ki_cost": 0,
+      "stamina_cost": null
     },
     {
       "name": "Fighting Pose H",
@@ -1824,7 +2045,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_H"
-      ]
+      ],
+      "ki_cost": 0,
+      "stamina_cost": null
     },
     {
       "name": "Fighting Pose K",
@@ -1835,7 +2058,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_K"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Formation!",
@@ -1847,7 +2071,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dbxv2.fandom.com/wiki/Formation%21"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Indomitable",
@@ -1858,7 +2084,9 @@
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 0,
+      "stamina_cost": null
     },
     {
       "name": "Justice Pose",
@@ -1869,7 +2097,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Pose"
-      ]
+      ],
+      "ki_cost": 0,
+      "stamina_cost": null
     },
     {
       "name": "Meditation",
@@ -1881,7 +2111,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Meditation",
         "https://steamcommunity.com/app/454650/discussions/0/2564160288807893705/"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Taunt",
@@ -1892,7 +2123,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Taunt"
-      ]
+      ],
+      "ki_cost": 0,
+      "stamina_cost": null
     },
     {
       "name": "Big Bang Knuckle",
@@ -1901,7 +2134,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Blazing Attack",
@@ -1912,7 +2146,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Brave Sword Slash",
@@ -1923,7 +2159,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Burning Slash",
@@ -1932,7 +2170,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Burning Swan",
@@ -1943,7 +2182,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burning_Swan"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Burst Blitz",
@@ -1954,7 +2195,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Crimson Edge",
@@ -1965,7 +2208,9 @@
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Deadly Dance",
@@ -1974,7 +2219,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Death Slash",
@@ -1985,7 +2231,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Slash"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Demon Flurry",
@@ -1996,7 +2244,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flurry",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Demonic Destruction",
@@ -2007,7 +2257,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Destruction's Conductor",
@@ -2018,7 +2270,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Conductor"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Dragon Spark",
@@ -2029,7 +2283,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Dragon Spiral",
@@ -2040,7 +2296,9 @@
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": 0
     },
     {
       "name": "Dragon Thunder",
@@ -2050,7 +2308,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Emperor's Edge",
@@ -2061,7 +2320,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Emperor's_Edge"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Evil Flight Strike",
@@ -2070,7 +2331,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": 300
     },
     {
       "name": "Evil Whirlwind",
@@ -2081,7 +2344,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Whirlwind"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Fierce Fist",
@@ -2092,7 +2357,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fierce_Fist",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Force Edge",
@@ -2103,7 +2370,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Freedom Kick",
@@ -2114,7 +2383,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Freedom_Kick"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Gamma Impact",
@@ -2125,7 +2396,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "God of Destruction's Poise",
@@ -2136,7 +2409,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Poise",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Heroic Assault",
@@ -2147,7 +2422,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Assault",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Justice Blade",
@@ -2158,7 +2435,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Blade",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Justice Drive",
@@ -2169,7 +2448,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Drive"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Justice Kick",
@@ -2180,7 +2461,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Kick",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Lovely Cyclone",
@@ -2191,7 +2474,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Mach Punch",
@@ -2202,7 +2487,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mach_Punch"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Meteor Blow",
@@ -2213,7 +2500,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Blow"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Meteor Strike",
@@ -2224,7 +2513,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Strike"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Namek Finger",
@@ -2233,7 +2524,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -2244,7 +2536,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Power Impact",
@@ -2255,7 +2549,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Powered Shell",
@@ -2266,7 +2562,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Pressure Sign",
@@ -2275,7 +2573,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Pressure_Sign"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Recoome Kick",
@@ -2286,7 +2585,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Recoome_Kick"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Sauzer Blade",
@@ -2297,7 +2598,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sauzer_Blade"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Savory Slicer",
@@ -2308,7 +2611,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Scissors Paper Rock",
@@ -2319,7 +2624,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Seagull Combination",
@@ -2330,7 +2637,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Seagull_Combination"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Shining Slash",
@@ -2339,7 +2648,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Shooting Strike",
@@ -2350,7 +2660,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shooting_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Soaring Rush",
@@ -2361,7 +2673,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Sonic Bomb",
@@ -2372,7 +2686,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sonic_Bomb"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Super God Fist",
@@ -2383,7 +2699,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_God_Fist"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Variant Drive",
@@ -2394,7 +2712,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Wild Stinger",
@@ -2405,7 +2725,9 @@
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Zigzag Express",
@@ -2416,7 +2738,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Zigzag_Express"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Apocalyptic Burst",
@@ -2427,7 +2751,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Blaster Stream",
@@ -2437,7 +2763,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Stream"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Burning Blast",
@@ -2448,7 +2775,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 200,
+      "stamina_cost": null
     },
     {
       "name": "Chain Destructo-Disc Barrage",
@@ -2459,7 +2788,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Chaotic Time Impact",
@@ -2471,7 +2802,9 @@
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md"
-      ]
+      ],
+      "ki_cost": 600,
+      "stamina_cost": null
     },
     {
       "name": "Circle Flash",
@@ -2482,7 +2815,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Circle_Flash",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Core Breaker",
@@ -2493,7 +2828,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Death Ball",
@@ -2504,7 +2841,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://dbxv2.fandom.com/wiki/Death_Ball",
         "https://gamefaqs.gamespot.com/boards/466298-dragon-ball-xenoverse-2-future-saga-chapter-1/74429476"
-      ]
+      ],
+      "ki_cost": 400
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -2515,7 +2853,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Dimension Ray",
@@ -2526,7 +2866,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Dimension_Ray"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Divine Ray Bomb",
@@ -2537,7 +2879,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Emperor's Death Beam",
@@ -2548,7 +2892,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80390334"
-      ]
+      ],
+      "ki_cost": "400+"
     },
     {
       "name": "Energy Field",
@@ -2559,7 +2904,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Energy_Field"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Final Explosion",
@@ -2568,7 +2915,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
@@ -2578,7 +2926,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29"
-      ]
+      ],
+      "ki_cost": "400+"
     },
     {
       "name": "Final Kamehameha",
@@ -2587,7 +2936,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Full Power Destruction",
@@ -2597,7 +2947,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Full_Power_Destruction"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Gigantic Breaker",
@@ -2608,7 +2959,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Gigantic Burst",
@@ -2618,7 +2971,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Burst"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Gigantic Explosion",
@@ -2629,7 +2983,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
-      ]
+      ],
+      "ki_cost": 600,
+      "stamina_cost": null
     },
     {
       "name": "Gigantic Roar",
@@ -2640,7 +2996,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "God of Destruction's Menace",
@@ -2651,7 +3009,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Menace"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "God of Destruction's Roar",
@@ -2662,7 +3022,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Roar"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Heat Dome Attack",
@@ -2673,7 +3035,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Heat_Dome_Attack"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Holy Wrath",
@@ -2684,7 +3048,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Holy_Wrath"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Last Emperor",
@@ -2695,7 +3061,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Last_Emperor"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Lightning Impact",
@@ -2705,7 +3073,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_Impact"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Lightning of Absolution",
@@ -2716,7 +3085,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Majin Kamehameha",
@@ -2727,7 +3098,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Majin_Kamehameha"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Mystic Flash",
@@ -2737,7 +3110,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mystic_Flash"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Prominence Flash",
@@ -2747,7 +3121,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Prominence_Flash"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Requiem of Destruction",
@@ -2757,7 +3132,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Revenge Death Ball",
@@ -2768,7 +3144,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Revenge Final Flash",
@@ -2779,7 +3157,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Ribrianne's Eternal Love",
@@ -2790,7 +3170,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "S.S. Deadly Bomber",
@@ -2802,7 +3184,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber"
-      ]
+      ],
+      "ki_cost": 400,
+      "stamina_cost": null
     },
     {
       "name": "Sign of Awakening",
@@ -2813,7 +3197,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Special Beam Cannon (Beast)",
@@ -2824,7 +3210,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Super Black Kamehameha Rosé",
@@ -2835,7 +3223,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Super Gamma Blast",
@@ -2846,7 +3236,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
@@ -2856,7 +3248,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29"
-      ]
+      ],
+      "ki_cost": "400-500"
     },
     {
       "name": "Super Spirit Bomb",
@@ -2865,7 +3258,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Supernova",
@@ -2874,7 +3268,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -2885,7 +3280,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Thunder Flash",
@@ -2895,7 +3292,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Thunder_Flash"
-      ]
+      ],
+      "ki_cost": "300-600"
     },
     {
       "name": "Total Detonation Ball",
@@ -2906,7 +3304,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Warp Kamehameha",
@@ -2917,7 +3317,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Warp_Kamehameha"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "X 100 Big Bang Kamehameha",
@@ -2929,7 +3331,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=432754991"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Blades of Judgment",
@@ -2940,7 +3344,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Blades_of_Judgment"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Brave Sword Attack",
@@ -2951,7 +3357,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Darkness Rush (Melee)",
@@ -2960,7 +3368,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -2969,7 +3378,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Divine Lasso",
@@ -2978,7 +3388,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Divine Wrath: Purification",
@@ -2989,7 +3400,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Dragon Fist",
@@ -2998,7 +3411,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -3009,7 +3423,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Explosive_Buu_Buu_Punch"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Final Rampage",
@@ -3020,7 +3436,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Gigantic Rage",
@@ -3031,7 +3449,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Godly Display",
@@ -3040,7 +3460,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Power Rush",
@@ -3052,7 +3473,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76367830"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Saiyan Spirit",
@@ -3063,7 +3486,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Saiyan_Spirit"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Super Dragon Flight",
@@ -3075,7 +3500,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Supreme Fury",
@@ -3086,7 +3513,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "name": "Unrelenting Barrage",
@@ -3097,7 +3526,9 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage"
-      ]
+      ],
+      "ki_cost": 300,
+      "stamina_cost": null
     },
     {
       "name": "Venus Fist",
@@ -3108,7 +3539,9 @@
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": 0
     },
     {
       "name": "Victory Rush",
@@ -3118,7 +3551,8 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Kaioken",
@@ -3128,7 +3562,9 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kaioken"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Potential Unleashed",
@@ -3138,7 +3574,9 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Potential_Unleashed"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Beast",
@@ -3148,7 +3586,9 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Beast"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     },
     {
       "name": "Ultra Instinct",
@@ -3158,7 +3598,9 @@
       "research_status": "partially_enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct"
-      ]
+      ],
+      "ki_cost": 500,
+      "stamina_cost": null
     }
   ]
 }
