@@ -34,23 +34,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
       ]
-    },
-    {
-      "name": "Spiral of Condemnation",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Raid-exclusive Ki Blast Super.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
-        "https://dbxv2.fandom.com/wiki/Characters"
-      ]
     }
   ],
-  "notes": "Three raid-exclusive Super Skills were still absent from docs/data/skills.json and from prior research batches. Marbling Drop, Seasoning Arrow, Time Shackles, Flames of Retribution, and Peeler Storm were deliberately excluded because batch 264 already covers them."
+  "notes": "Celestial Hammer and Bloody Sauce were researched here; Spiral of Condemnation was removed because batch 271 already contains the canonical research record. Other raid skills already covered by batch 264 remain excluded."
 }
