@@ -106,10 +106,12 @@
         "subcategory": "Ki Blast"
       },
       "correction_fields": [
-        "unlock_method"
+        "unlock_method",
+        "ki_cost"
       ],
       "previous_values": {
-        "unlock_method": "Expert Mission 13: History of Mixed Battles"
+        "unlock_method": "Expert Mission 13: History of Mixed Battles",
+        "ki_cost": null
       },
       "corrected_values": {
         "unlock_method": "Expert Mission 20: Harbinger of Doom",
