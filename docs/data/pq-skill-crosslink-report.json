@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 188,
-  "linked_skill_rewards": 106,
+  "canonical_skill_records": 200,
+  "linked_skill_rewards": 118,
   "alias_matches": [
     {
       "pq": 48,
@@ -13,54 +13,6 @@
     }
   ],
   "unresolved": [
-    {
-      "pq": 18,
-      "skill": "Time Control"
-    },
-    {
-      "pq": 19,
-      "skill": "Mach Punch"
-    },
-    {
-      "pq": 19,
-      "skill": "Fighting Pose E"
-    },
-    {
-      "pq": 23,
-      "skill": "Death Slash"
-    },
-    {
-      "pq": 24,
-      "skill": "Double Death Slicer"
-    },
-    {
-      "pq": 25,
-      "skill": "Spirit Explosion"
-    },
-    {
-      "pq": 26,
-      "skill": "Crazy Finger Shot"
-    },
-    {
-      "pq": 27,
-      "skill": "Sauzer Blade"
-    },
-    {
-      "pq": 28,
-      "skill": "Spread Shot Retreat"
-    },
-    {
-      "pq": 29,
-      "skill": "Freedom Kick"
-    },
-    {
-      "pq": 29,
-      "skill": "Energy Field"
-    },
-    {
-      "pq": 31,
-      "skill": "Super Dragon Flight"
-    },
     {
       "pq": 33,
       "skill": "Death Psycho Bomb"
@@ -468,8 +420,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 174,
-  "unresolved_count": 113,
+  "unique_canonical_skill_names": 186,
+  "unresolved_count": 101,
   "resolved_skill_rewards": [
     {
       "pq": 172,
