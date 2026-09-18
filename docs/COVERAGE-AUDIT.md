@@ -264,3 +264,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Researched and enriched acquisition metadata for 11 canonical skills where the unlock route had been missing: Big Bang Knuckle (PQ172), Burning Slash (PQ44), Deadly Dance (Android 18 training), Evil Flight Strike (PQ21), Namek Finger (TP Medal Shop / Namekian Future Warrior), Pressure Sign (Conton City Skill Shop), Shining Slash (PQ38), Darkness Rush (Melee/Ranged) (Lord Slug training, Lesson 3), Dragon Fist (TP Medal Shop), and Godly Display (TP Medal Shop, 500 TP Medals). Sources include the Xenoverse 2 Fandom skill pages and corroborating Dragon Ball Wiki/GameFAQs/Steam material. citeturn2search4turn2search5turn2search11turn2search0turn2search3turn2search13turn3search1turn3search4turn3search5turn3search0
 - Preserved uncertainty for Dragon Thunder and Death Ball rather than inventing acquisition routes.
 - Canonical/index synchronization remains the validation gate; future passes should continue filling acquisition semantics only when evidence is explicit.
+
+
+### Ki-cost audit — 2026-09-18
+- Canonical Super and Ultimate records were checked for missing Ki-cost fields: **0 missing** across the current catalog.
+- The audit also flagged that nonstandard costs exist and therefore must be researched individually rather than normalized by class: current canonical Ultimates include 400-Ki entries (Death Ball and S.S. Deadly Bomber), while authoritative skill references also document variable costs such as 300+ or 400+. citeturn0search2turn0search3
+- Next pass should focus on suspicious/nonstandard costs and acquisition/version provenance, rather than filling nulls.
