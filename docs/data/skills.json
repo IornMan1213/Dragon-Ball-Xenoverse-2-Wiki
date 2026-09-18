@@ -4742,7 +4742,7 @@
     },
     {
       "name": "Gigantic Breaker",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Kefla",
@@ -4760,8 +4760,10 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+        "https://dbxv2.fandom.com/wiki/Gigantic_Breaker"
+      ],
+      "description": "Focus your Ki into your fist and charge forward with a powerful strike. Missing leaves you vulnerable."
     },
     {
       "name": "Gigantic Burst",
