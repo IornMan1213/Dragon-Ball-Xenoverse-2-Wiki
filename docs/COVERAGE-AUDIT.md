@@ -279,3 +279,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Zero-cost entries were retained where the catalog models charge, reinforcement, or utility-style skills or documented no-Ki-cost techniques; they were not mass-normalized to generic 100/300 values.
 - External research confirms that Super/Ultimate costs vary by skill and that charge/support skills are part of the skill system, so class-based inference would be unsafe.
 - Next cost pass should target individual suspicious/nonstandard values and version-sensitive mechanics rather than filling nulls.
+
+
+### Super/Ultimate Ki-cost completeness check — 2026-09-18
+- Canonical audit found no missing Ki-cost fields among current Super or Ultimate records.
+- Nonstandard documented costs are preserved rather than normalized to a class default: Chaotic Time Impact 600, Gigantic Explosion 600, Power Rush 1000, Death Ball 400, S.S. Deadly Bomber 400, Final Flash (SS3 DAIMA) 400, and Super Kamehameha (SS4 DAIMA) 400.
+- These outliers are a targeted follow-up list for source-level verification; the repository does not infer costs from class alone.
+- Web lookup against the Fandom skill pages was blocked by robots.txt in this pass, so no new external cost claim is promoted from that lookup.
