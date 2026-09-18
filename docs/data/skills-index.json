@@ -357,7 +357,8 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
       ],
       "ki_cost": 100
     },
@@ -3068,16 +3069,6 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Slash"
       ]
-    },
-    {
-      "name": "Demon Flash Strike",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
-      ],
-      "ki_cost": 100
     },
     {
       "name": "Demon Flurry",
