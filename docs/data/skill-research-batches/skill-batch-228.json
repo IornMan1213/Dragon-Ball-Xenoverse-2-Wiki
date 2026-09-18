@@ -1,0 +1,14 @@
+{
+  "batch_id":228,
+  "created":"2026-09-17",
+  "type":"skill_research",
+  "scope":"Ki Blast Evasives",
+  "records":[
+    {"name":"Special Beam Blast","class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":false,"unlock_method":"TP Medal Shop","ultimate_finish_required":false,"effect":"Jumps backward and fires a long-range Special Beam Cannon; single-hit knockback.","sources":["https://dbxv2.fandom.com/wiki/Special_Beam_Blast"]},
+    {"name":"Break Strike","class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":true,"unlock_method":"Skill Shop","ultimate_finish_required":false,"effect":"Creates a close-range explosion that launches the opponent upward.","sources":["https://dbxv2.fandom.com/wiki/Break_Strike","https://dragonball.fandom.com/wiki/Break_Strike"]},
+    {"name":"Celestial Wave","class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":false,"unlock_method":"Parallel Quest 151 - Even Further Beyond","ultimate_finish_required":null,"effect":"Launches a seven-hit blue energy wave into the air.","sources":["https://dbxv2.fandom.com/wiki/Celestial_Wave"]},
+    {"name":"Chaos Wall","class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":true,"unlock_method":"Conton City Tournament Match 4 - Semifinal Showdown","ultimate_finish_required":null,"effect":"Creates a rainbow Ki wall that nullifies/deflects Ki Blasts; holding the input enlarges and strengthens it.","sources":["https://dbxv2.fandom.com/wiki/Evasive_Skill","https://dragonball.fandom.com/wiki/Chaos_Wall"]}
+  ],
+  "notes":"The current Ki Blast Evasive category contains 23 entries. Special Beam Blast, Break Strike, and Chaos Wall are documented as Future Warrior-accessible; Celestial Wave is currently listed only for Goku Ultra Instinct variants and therefore is not treated as CaC-usable. Special Beam Blast and Break Strike have direct shop acquisition, so UF is false because no PQ UF is involved. Chaos Wall's tournament acquisition does not provide an explicit UF condition, so it remains null.",
+  "last_verified":"2026-09-17"
+}
