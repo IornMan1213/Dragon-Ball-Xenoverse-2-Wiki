@@ -116,5 +116,5 @@
       ]
     }
   ],
-  "notes": "Validated against current Xenoverse 2 skill-category documentation. Gigantic Slam now carries its dedicated-page metadata (Strike Super, 100 Ki, CaC-unavailable). Acid and Saibabeam remain conservatively cost-null because no reliable current dedicated page established a numeric Ki cost; their cast-only users are corroborated by the Saibaman character page. Bloody Sauce, Marbling Drop, Seasoning Arrow, Time Shackles, Peeler Storm, and other already-researched raid skills were intentionally not duplicated."
+  "notes": "Reconciliation batch restricted to identities not already represented by earlier research batches. Previously researched Marbling Drop, Seasoning Arrow, Time Shackles, Flames of Retribution, and Spiral of Condemnation were removed to preserve the batch validator's duplicate-identity invariant."
 }
