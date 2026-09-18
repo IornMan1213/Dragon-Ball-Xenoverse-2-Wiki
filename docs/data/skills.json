@@ -4584,7 +4584,7 @@
       "usable_by_cac": true,
       "character_source": "Kefla",
       "dlc_requirement": "DLC PQ",
-      "ki_cost": 300,
+      "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
