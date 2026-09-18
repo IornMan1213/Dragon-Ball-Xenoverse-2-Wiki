@@ -96,7 +96,23 @@
         "https://dbxv2.fandom.com/wiki/Brainwash_Attack",
         "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
       ]
+    },
+    {
+      "name": "Celestial Hammer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": null,
+      "unlock_method": "Crystal Raid Mode",
+      "ultimate_finish_required": null,
+      "effect": "Fused Zamasu charges at the opponent and slams them with his fist, sending them flying.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Celestial_Hammer",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ]
     }
   ],
-  "notes": "Only genuinely new identities are retained here. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have prior research in batch 264; Spiral of Condemnation has prior research in batch 271. Bloody Sauce is a new catalog record in this batch; Celestial Hammer is also new."
+  "notes": "Only genuinely new identities are retained here. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have prior research in batch 264; Spiral of Condemnation has prior research in batch 271. Dedicated Xenoverse 2 documentation confirms Celestial Hammer is a Strike Super and a Crystal Raid Skill. Unresolved costs remain null."
 }
