@@ -20,21 +20,6 @@
       ]
     },
     {
-      "name": "Teleporting Vanishing Ball",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Kid Buu; Kid Buu (Supervillain)",
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 62: Frieza's Nightmare Returns!",
-      "ultimate_finish_required": null,
-      "effect": "Teleports a large Ki Blast directly in front of the opponent.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
       "name": "Full Power Energy Blast Volley",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -155,5 +140,5 @@
       ]
     }
   ],
-  "notes": "All ten names were absent from the current docs/data/skills.json check before this batch. Classification and acquisition data are taken from the current Xenoverse 2 Ultimate Attack taxonomy; fields not explicitly established were left null."
+  "notes": "Removed duplicate Teleporting Vanishing Ball identity already established in batch 309; remaining records are the other Ultimate taxonomy entries."
 }
