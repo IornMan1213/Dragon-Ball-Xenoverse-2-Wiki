@@ -1,0 +1,38 @@
+{
+  "batch_id":247,
+  "created":"2026-09-17",
+  "type":"catalog_expansion",
+  "scope":"Ki Blast Super catalog — first missing current records",
+  "records":[
+    {
+      "name":"Photon Swipe",
+      "class":"Super",
+      "subcategory":"Ki Blast",
+      "ki_cost":100,
+      "stamina_cost":0,
+      "usable_by_cac":true,
+      "character_source":"Android 21",
+      "dlc_requirement":"Ultra Pack 2",
+      "unlock_method":"Parallel Quest 139 - War and Pieces",
+      "ultimate_finish_required":false,
+      "effect":"Fires a fingertip beam and sweeps it horizontally across the target area, knocking caught opponents away.",
+      "sources":["https://dbxv2.fandom.com/wiki/Photon_Swipe","https://dragonball.fandom.com/wiki/Photon_Swipe","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
+    },
+    {
+      "name":"Gamma Blaster",
+      "class":"Super",
+      "subcategory":"Ki Blast",
+      "ki_cost":100,
+      "stamina_cost":0,
+      "usable_by_cac":true,
+      "character_source":"Gamma 2",
+      "dlc_requirement":"Hero of Justice Pack 1",
+      "unlock_method":"Parallel Quest 155 - I Need a Hero... Pose!",
+      "ultimate_finish_required":null,
+      "effect":"Uncharged: fires a spread of homing blaster shots. Charged: fires a larger concentrated blast shaped like Gamma 2's face.",
+      "sources":["https://dbxv2.fandom.com/wiki/Gamma_Blaster","https://dragonball.fandom.com/wiki/Gamma_Blaster"]
+    }
+  ],
+  "notes":"Both names were absent from the repository's local docs/data/skills.json at audit time. Photon Swipe is explicitly listed as a current Ki Blast Super and PQ139 Basic Reward, so UF=false is supported. Gamma Blaster is explicitly a Ki Blast Super with 100 Ki and PQ155; the reviewed evidence does not establish whether its reward requires Ultimate Finish, so that field remains null.",
+  "last_verified":"2026-09-17"
+}
