@@ -614,7 +614,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
       ],
-      "stamina_cost": 300
+      "stamina_cost": 300,
+      "unlock_method": "Parallel Quest 96 - \"The Shadow Dragons\" (random reward)",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Celestial Wave",
@@ -647,7 +650,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 200,
+      "unlock_method": "Parallel Quest 82 - \"Ultimate Brotherly Battle\" (random reward)",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Explosive Wave",
@@ -657,7 +663,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
       ],
-      "stamina_cost": 300
+      "stamina_cost": 300,
+      "unlock_method": "Skill Shop - 15,000 Zeni after completing the main story (normal ending)",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Force Shield",
@@ -805,7 +814,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Evasives"
       ],
-      "stamina_cost": 300
+      "stamina_cost": 300,
+      "unlock_method": "Skill Shop after completing the relevant story progression; renamed from Vanisher Guard in Update 1.30",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Side Bridge",
@@ -884,7 +896,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 200,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Mach Dash",
@@ -894,7 +909,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 200,
+      "unlock_method": "Parallel Quest 18 - \"Force Entrance Exam\" (first-clear reward slot / random reward)",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Angry Shout",
@@ -904,7 +922,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
       ],
-      "stamina_cost": 300
+      "stamina_cost": 300,
+      "unlock_method": "Parallel Quest 68 - \"Old Rivals and Dragon Balls\" (random reward)",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Energy Barrier",
@@ -914,7 +935,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
       ],
-      "stamina_cost": 300
+      "stamina_cost": 300,
+      "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" (random reward; Ultimate Finish associated with the drop)",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Spirit Explosion",
