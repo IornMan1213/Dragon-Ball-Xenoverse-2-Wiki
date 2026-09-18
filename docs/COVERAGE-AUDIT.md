@@ -202,3 +202,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Variable/nonstandard cost values are also present, so future cost verification remains skill-specific.
 - Web research corroborates that Xenoverse 2 has skill-specific and version-sensitive resource costs; official patch notes document individual Ki-cost changes, while community references describe distinct charge-skill behavior. citeturn0search0turn0search25
 - Next: verify suspicious/nonstandard Super/Ultimate costs individually and audit Ultimate Finish, acquisition, DLC/version, and restriction metadata rather than inferring values from class.
+
+
+### Ultimate Finish flag audit — 2026-09-18
+- Reviewed the current canonical `ultimate_finish_required=true` set: 14 records.
+- Current flags include both ordinary Super/charge skills and Ultimate skills; therefore the field must remain skill-specific rather than inferred from the class name.
+- Web evidence independently confirms Ultimate Finish gating for Burst Rush, Formation!, Lovely Cyclone, Burst Stinger, Raid Blast, Blazing Attack, and the PQ134 charge-skill rewards. citeturn1search0turn1search2turn1search3turn1search9
+- No flags were changed in this pass because the remaining records require individual quest/drop verification rather than broad normalization.
+- Next: reconcile each flagged record to its exact PQ and drop condition, then inspect the null/false population for missed or explicitly non-UF cases.
