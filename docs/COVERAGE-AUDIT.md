@@ -709,3 +709,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Current explicit true records include documented UF-gated cases such as Earth Splitting Galick Gun (PQ11), Time Control (PQ18), Super Dragon Flight (PQ31), Power Rush (PQ122), and X 100 Big Bang Kamehameha (PQ100); current external references support the UF relationship for the audited examples. citeturn1search11turn1search2turn1search3turn1search0
 - Kept uncertain/undocumented cases null rather than converting absence of evidence into false or true. The schema permits boolean/null and does not require this optional field.
 - This pass did not invent additional UF requirements; acquisition/quest evidence remains the source of truth.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical Super/Ultimate records have no null Ki-cost fields.
+- Corrected two newly researched variable-cost Daima Ultimates: **Final Flash (SS3 DAIMA)** is **400+ Ki**; **Super Kamehameha (SS4 DAIMA)** is **400–500 Ki**. The source pages explicitly document those ranges. citeturn3search6turn3search0
+- Existing variable-cost conventions such as Emperor's Death Beam and Thunder Flash remain represented as ranges rather than forced into a single fixed cost.
+- Next: continue individual cost verification for older/legacy skills and then audit Ultimate Finish/acquisition/version provenance.
