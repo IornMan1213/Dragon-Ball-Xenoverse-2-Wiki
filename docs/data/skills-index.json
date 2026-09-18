@@ -3218,10 +3218,11 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/"
       ],
       "description": "Power Up Super Skill from Future Saga Chapter 4 that charges both Ki and Stamina; its behavior changes as the user's health falls.",
-      "mechanics": "Charges Ki and Stamina simultaneously. Community testing reports a slow baseline Ki charge that becomes substantially faster below 50% health; treat exact timing/threshold behavior as partially verified."
+      "mechanics": "Charges Ki and Stamina simultaneously. Recent community testing reports a slow baseline Ki charge that becomes substantially faster below 50% health; exact timing and whether the threshold applies identically across all contexts remain partially verified."
     },
     {
       "name": "Justice Pose",
