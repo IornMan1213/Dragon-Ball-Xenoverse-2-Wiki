@@ -15,7 +15,7 @@ This file is the working project tracker. Statuses describe repository work, not
 
 ## Done
 
-- [x] Audited Skill Research Batch 314 for canonical-identity duplication; removed five records already covered by earlier batches while preserving the earlier research history and evidence.
+- [x] Audited Skill Research Batch 315 for canonical-identity duplication; removed five records already covered by earlier batches while preserving the earlier research history and evidence.
 - [x] Confirmed current Xenoverse 2 evidence for Perfect Kamehameha as a 400-Ki Blast Ki Blast Ultimate taught by Perfect Cell; the earlier Batch 312 duplicate is retained as the canonical research history.
 
 - [x] Removed duplicate custom GitHub Pages workflows that could compete with native Pages deployment.

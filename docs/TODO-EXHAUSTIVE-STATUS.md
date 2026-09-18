@@ -9,10 +9,14 @@ This is the live progress companion to TODO-EXHAUSTIVE.md. It records the curren
 ### Skills
 
 - **Canonical source index:** docs/data/skills.json remains a seeded/indexed catalog generated on 2026-09-14; it has not yet been proven synchronized with the later research batches now present in docs/data/skill-research-batches/.
-- **Research batch frontier:** the repository currently contains skill research through **Batch 314**.
+- **Research batch frontier:** the repository currently contains skill research through **Batch 315**.
 - **Immediate P0 issue:** canonical verification-status enum drift and the cleanup script's bare-marker gap have been corrected, but Repository Quality and Clean Internal Artifacts still fail on commit 2c20abe5. The connector exposes failed jobs but no usable step logs. Skills Sync has not yet been rerun against the corrected research frontier.
 - **Batch 314 correction:** removed duplicate records for Heat Dome Attack, Perfect Kamehameha, Angry Explosion, Gigantic Meteor, and Sphere of Destruction. Earlier evidence remains in Batches 17/35, 312, 13, 306, and 307 respectively.
 - **Research standard:** unresolved values remain null; Ultimate Finish requirements are not inferred from silence; canonical identity remains (name.casefold(), class, subcategory).
+
+## Latest research batch
+
+**Batch 315:** added five Ki Blast Ultimate records — Final Flash (SS3 DAIMA), Super Kamehameha (SS4 DAIMA), Thunder Flash, Prominence Flash, and Mystic Flash. Variable/uncertain fields remain null; these are research-layer records and are not claimed as canonical until Skills Sync/validators succeed.
 
 ## Current priorities
 

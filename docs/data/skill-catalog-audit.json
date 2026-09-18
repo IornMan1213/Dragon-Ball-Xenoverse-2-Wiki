@@ -41,9 +41,9 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-18",
-  "latest_research_batch": 314,
+  "latest_research_batch": 315,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": true,
   "current_research_focus": "Ki Blast Ultimate coverage with strict canonical-identity duplicate checks",
-  "validation_blocker": "Canonical verification_status enum drift was corrected in b42c5759; cleanup was strengthened in 2c20abe5. Repository Quality and Clean Internal Artifacts still fail, with no usable connector logs. A fresh Skills Sync run has not yet been triggered against the corrected research frontier."
+  "validation_blocker": "Repository Quality and Clean Internal Artifacts continue to fail before exposing usable step details. Batch 315 was added as research-layer only; canonical promotion remains blocked on successful Skills Sync and validators."
 }
