@@ -2439,11 +2439,24 @@
       "name": "Hero's Flute",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76050181"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "usable_by_cac": true,
+      "character_source": "Tapion",
+      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "stamina_cost": null,
+      "damage_type": "Other",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 116",
+      "ultimate_finish_required": null,
+      "skill_description": "Hero's Flute is a Super Other skill that creates a protective barrier around the user while playing Tapion's flute.",
+      "mechanics_notes": "Fandom documents a 7.5-second barrier that protects against normal/super melee and Ki Blast attacks. Community evidence identifies Broly as the drop source in PQ116; retain that drop detail as community evidence rather than definitive game-data proof.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Instant Charge",
