@@ -343,3 +343,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Final Charge remains character-exclusive to SSGSS Evolved Vegeta; Surging Spirit has version-sensitive character/CaC semantics because current Ultra Instinct CaCs can access it as an Awoken action. citeturn2search1turn2search3turn3search13
 - Data Input is explicitly tied to Expert Mission 20, while Fighting Pose K is a Skill Shop unlock and Spirit Boost is a Skill Shop skill. Emperor's Blast is documented from PQ70 with an additional TP Medal Shop route. citeturn3search0turn3search1turn2search0turn2search4turn2search6
 - Next: continue acquisition metadata in small evidence-backed batches, prioritizing records with both missing unlock semantics and clear authoritative source pages.
+
+
+### Ki-cost audit baseline — 2026-09-18
+- Canonical skill scan: 298 records; every Super/Ultimate record currently has an explicit `ki_cost` value.
+- Zero-cost entries are concentrated in charge/power-up style skills and documented special cases; they are not being normalized to a generic 100 Ki assumption.
+- Nonstandard costs (including 400, 600, and 1000 Ki) were retained for individual verification rather than “corrected” from class-based expectations.
+- Research confirms community documentation uses 3-Ki and 5-Ki language for common Ultimate costs and discusses 700-Ki resource management, reinforcing that cost must remain skill-specific rather than inferred solely from class. citeturn0search5turn0search9
+- Next: individually verify the nonstandard-cost records and the zero-cost exceptions against stronger source evidence, then audit Ultimate Finish flags and acquisition semantics.
