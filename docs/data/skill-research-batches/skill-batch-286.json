@@ -241,21 +241,6 @@
       ]
     },
     {
-      "name": "Acid",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Saibaman",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
       "name": "Poison",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -269,37 +254,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
-    },
-    {
-      "name": "Saibabeam",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Saibaman",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
-      "name": "Final Flash (Super)",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "SSGSS Vegeta (Evolved)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
     }
   ],
-  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Energy Cannon, Boulder Toss, and Boulder Break are formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, and Giant Storm are retained as research records. Pretty Charge and Energy Jet are explicitly unavailable for CaC in current Xenoverse 2 documentation; Darkness Mixer is also listed in the unavailable-for-CaC category. Giant Storm is a CaC skill obtained from the Skill Shop, while Gigantic Omega is a Strike Super obtained from Broly training. Gigantic Slam was added after dedicated documentation resolved its previously unrecorded subtype. Added Cookie Beam, Zetsumei Bullet, and Appetizing Rush after dedicated Ultimate Attack documentation confirmed their class, subtype, cost, and CaC availability. Added four remaining cast-exclusive gaps: Acid, Poison, Saibabeam, and Final Flash (Super), with unresolved numeric costs intentionally left null."
+  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Acid and Saibabeam were removed because they were already documented in batch 276. Final Flash (Super) was removed because it is already present in canonical skills.json. Energy Cannon, Boulder Toss, and Boulder Break remain formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, Giant Storm, Gigantic Slam, Cookie Beam, Zetsumei Bullet, and Appetizing Rush remain distinct research records."
 }
