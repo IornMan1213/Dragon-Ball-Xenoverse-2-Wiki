@@ -33,21 +33,6 @@
   ],
   "records": [
     {
-      "name": "Giant Storm",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Nappa; Raditz Customize Partner; Broly Customize Partner; Omega Shenron Customize Partner; Kefla (Super Saiyan) Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "ultimate_finish_required": null,
-      "effect": "Long-range tracked explosion.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Giant_Storm"
-      ]
-    },
-    {
       "name": "Gigantic Slam",
       "class": "Super",
       "subcategory": "Strike",
@@ -139,5 +124,5 @@
       ]
     }
   ],
-  "notes": "Keeps only records not already represented by the canonical catalog or earlier research batches. Final Flash (Super) was removed because canonical skills.json already contains it; Bloody Sauce was removed because Batch 285 now covers it. Energy Cannon remains a formal metadata correction against Batch 283. Added four previously absent character-signature skills: Ice Claw, Dragon Flash Bullet, Whirlwind Blade, and Gigantic Omega; dedicated pages establish their taxonomy and costs. Removed Dragon Flash Bullet and Whirlwind Blade from this batch because they are already established in Batch 265; duplicate non-correction identities would fail validate_research_batches.py."
+  "notes": "Keeps only records not already represented by the canonical catalog or earlier research batches. Final Flash (Super) was removed because canonical skills.json already contains it; Bloody Sauce was removed because Batch 285 now covers it. Energy Cannon remains a formal metadata correction against Batch 283. Added four previously absent character-signature skills: Ice Claw, Dragon Flash Bullet, Whirlwind Blade, and Gigantic Omega; dedicated pages establish their taxonomy and costs. Removed Dragon Flash Bullet and Whirlwind Blade from this batch because they are already established in Batch 265; duplicate non-correction identities would fail validate_research_batches.py. Removed duplicate Giant Storm identity; canonical research remains in Batch 285."
 }
