@@ -330,3 +330,15 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected the audit status for this block from unresolved drop-rate semantics to verified reward/drop-rate coverage where the external record explicitly established it.
 - No probability was inferred; values were copied only where the external research record explicitly documented them.
 - Next PQ priority: continue reward/acquisition enrichment through the remaining numbered blocks, then perform a full unresolved-field census before broadening to Awoken/Transformation mechanics.
+
+
+### Parallel Quest reward/acquisition enrichment — 2026-09-18 (PQ171–PQ178)
+- Audited PQ171–PQ178 against the maintained Steam transcription and Madreag's current datamined PQ records.
+- Added the documented generic DLC/PQ-board unlock condition and exact skill-drop semantics for the block.
+- Preserved the distinction between ordinary Ultimate Finish drops and Ultimate Finish bonus-slot drops; no drop probability was inferred.
+- PQ171–178 now have explicit reward/drop-rate verification rather than the previous unresolved drop-rate status.
+
+### GitHub Actions diagnostic — 2026-09-18
+- New push-triggered workflow runs were observed after the PQ updates, but validation is not yet reportable as successful.
+- Wiki data audit run 35385230606 terminated with `failure`; its only job (105730467465) exposed no steps and no logs through the GitHub API. Repository quality and cleanup runs were still queued/in progress at the time of inspection, while a Pages run was cancelled.
+- Because the failed audit terminated before actionable step/log output was available, the failure cause cannot responsibly be classified as script, dependency, permission, billing, runner, or GitHub infrastructure from the available evidence. The project therefore continues local/repository validation without weakening validators or repeatedly rerunning an opaque failure.
