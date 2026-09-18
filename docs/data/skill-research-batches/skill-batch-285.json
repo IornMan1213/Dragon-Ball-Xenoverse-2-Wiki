@@ -2,7 +2,7 @@
   "batch_id": 285,
   "created": "2026-09-18",
   "type": "catalog_research",
-  "scope": "Verified cast-exclusive / catalog-gap reconciliation",
+  "scope": "Catalog reconciliation: remaining distinct cast-exclusive and boss/raid skill gaps",
   "records": [
     {
       "name": "Bloody Sauce",
@@ -41,13 +41,14 @@
       "subcategory": "Ki Blast",
       "ki_cost": 300,
       "usable_by_cac": true,
-      "character_source": "Nappa; Raditz, Broly, Omega Shenron, Kefla (Super Saiyan) Customize Partners",
+      "character_source": "Nappa; multiple Customize Partners",
       "dlc_requirement": null,
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
-      "effect": "Large-area energy explosion ultimate.",
+      "effect": "Creates a large tracking explosion beneath the opponent.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Giant_Storm"
+        "https://dbxv2.fandom.com/wiki/Giant_Storm",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
@@ -56,11 +57,11 @@
       "subcategory": "Strike",
       "ki_cost": 100,
       "usable_by_cac": false,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan)",
+      "character_source": "Broly; Broly (Supervillain)",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Broly-exclusive close-range slam attack.",
+      "effect": "Grab attack followed by a Ki Wave slam; leaves the user open.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
@@ -81,5 +82,5 @@
       ]
     }
   ],
-  "notes": "Reconciled Batch 285 against Batch 264 to prevent duplicate canonical identities. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already researched in Batch 264 and are therefore not duplicated here. Added only the remaining distinct records: Bloody Sauce, Celestial Hammer, and Spiral of Condemnation."
+  "notes": "Batch 285 was reconciled against Batch 264 to prevent duplicate canonical identities. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already researched in Batch 264 and are not duplicated. This batch retains five distinct absent catalog records: Bloody Sauce, Celestial Hammer, Gigantic Slam, Giant Storm, and Spiral of Condemnation. Giant Storm is not raid-exclusive; it is included because it was independently absent from the canonical skills.json and is a documented Ki Blast Ultimate."
 }
