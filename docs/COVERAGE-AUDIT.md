@@ -683,3 +683,8 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Evasive cost correction follow-up — 2026-09-18
 - Corrected four Evasive stamina values using current indexed skill references: Instant Rise 200, Mighty Explosive Wave 300 (Evasive variant), Maiden Burst 300, and Spread Shot Retreat 300.
 - The source distinguishes Mighty Explosive Wave's Evasive use from its 100-Ki Super Attack use, so the repository retains the Evasive classification while recording the 300-stamina Evasive cost. citeturn1search2turn1search1turn1search0turn1search3
+
+
+### Crosslink report synchronization — 2026-09-18
+- Reconciled the persisted PQ→skill crosslink report's canonical-record count with the current canonical catalog: 298 records / 283 unique skill names.
+- The report continues to record 205 linked skill rewards and zero unresolved references; no PQ reward identities were fabricated or altered in this maintenance pass.
