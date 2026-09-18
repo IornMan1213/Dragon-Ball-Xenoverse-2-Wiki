@@ -53,6 +53,35 @@
         "https://dbxv2.fandom.com/wiki/Expert_Mission",
         "https://ultradragonball.fandom.com/wiki/Mira"
       ]
+    },
+    {
+      "name": "Pressure Sign",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Vegito; SSGSS Vegito Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Universal counter stance that teleports behind the attacker and delivers a kick when struck.",
+      "correction_of": {
+        "name": "Pressure Sign",
+        "class": "Counter",
+        "subcategory": "Counter"
+      },
+      "correction_fields": [
+        "class",
+        "subcategory",
+        "ki_cost",
+        "usable_by_cac",
+        "character_source",
+        "unlock_method"
+      ],
+      "reason": "The dedicated skill page explicitly identifies Pressure Sign as a Strike Super Attack while separately categorizing it as a Counter Skill. Counter behavior is a separate taxonomy attribute, not the canonical class/subcategory.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pressure_Sign"
+      ]
     }
   ],
   "notes": "Batch 286 already contains the new Gigantic Slam record. This batch contains only true corrections to earlier Batch 285 metadata; unchanged Celestial Hammer data was removed to avoid a non-correction duplicate."
