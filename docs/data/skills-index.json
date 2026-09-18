@@ -2522,9 +2522,13 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "unlock_method": "Character-exclusive / non-CaC skill",
+      "usable_by_cac": false,
+      "research_status": "partially_enriched"
     },
     {
       "name": "Final Charge",
@@ -2582,9 +2586,13 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Instant_Charge"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "unlock_method": "Character-exclusive: Mira (Final Form); also used by certain raid/boss encounters",
+      "usable_by_cac": false,
+      "research_status": "partially_enriched"
     },
     {
       "name": "Instant Transmission",
@@ -2699,9 +2707,13 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Rising_Rage"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Character-exclusive: Broly (Restrained)",
+      "usable_by_cac": false,
+      "research_status": "partially_enriched"
     },
     {
       "name": "Shield Barrier",
@@ -2776,9 +2788,13 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Character-exclusive / non-CaC skill",
+      "usable_by_cac": false,
+      "research_status": "partially_enriched"
     },
     {
       "name": "Time Control",
