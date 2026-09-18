@@ -35,38 +35,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
       ]
-    },
-    {
-      "name": "Gigantic Slam",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Grab-and-slam Strike Super.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
-      ]
-    },
-    {
-      "name": "Giant Storm",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Nappa; customizable partner users",
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "ultimate_finish_required": null,
-      "effect": "Large tracking explosion under the opponent.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Giant_Storm"
-      ],
-      "notes": "Obtainable by the Future Warrior from the Skill Shop; also available to several Customize Partners. This is not a cast-exclusive skill."
     }
   ],
-  "notes": "Removed Boulder Toss and Boulder Break because Batch 283 already owns their canonical research records; this batch retains only reconciliation records not duplicated by earlier batches."
+  "notes": "Only retains identities not already covered by earlier research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were removed because batch 264 already records them."
 }
