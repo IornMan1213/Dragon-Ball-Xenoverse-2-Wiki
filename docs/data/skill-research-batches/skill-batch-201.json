@@ -1,0 +1,44 @@
+{
+  "batch_id":201,
+  "created":"2026-09-17",
+  "research_scope":"Time Skip/Jump Spike — Strike Super / Counter Skill.",
+  "verification_audit":{
+    "audited":"2026-09-17",
+    "duplicate_check":{"status":"passed","repository_history_search":"No prior research commit found.","duplicate_count":0},
+    "classification_finding":"Xenoverse 2 reference classifies Jump Spike as a Strike Super and Counter Skill. Canonical identity is Super / Strike.",
+    "acquisition_finding":"Training with Hit, School Quest Lesson 2; Dragon Ball Wiki says Future Warrior can learn it through Hit's Training.",
+    "cost_finding":"100 Ki.",
+    "availability_finding":"Future Warrior acquisition is documented; usable_by_cac true.",
+    "dlc_finding":"Super Pack 1.",
+    "finish_policy":"Instructor training rather than PQ reward; ultimate_finish_required false.",
+    "mechanics_finding":"User flies forward and strikes the opponent, with approximately 20% damage. During the rush the user is impermeable to Strike attacks; holding the input increases flight range."
+  },
+  "records":[{
+    "name":"Time Skip/Jump Spike",
+    "class":"Super",
+    "subcategory":"Strike",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Hit",
+    "dlc_requirement":"Super Pack 1",
+    "ki_cost":100,
+    "stamina_cost":null,
+    "damage_type":"Strike",
+    "unlock_method":"Training with Hit",
+    "source_quest_or_shop":"School Quest — Lesson 2 of Hit's Training",
+    "ultimate_finish_required":false,
+    "ultimate_finish_evidence":"Documented acquisition is instructor training, not a Parallel Quest reward.",
+    "skill_description":"Fly and then time skip before attacking an opponent. Holding longer increases flight distance.",
+    "mechanics_notes":"The user flies forward and strikes for approximately 20% damage. The user is protected from Strike attacks during the rush; holding the input extends flight range.",
+    "acquisition_notes":"Dragon Ball Wiki documents the Future Warrior learning the skill in Hit's Lesson 2. It also documents a historical Lesson 2 plot-description naming error that was later fixed.",
+    "pve_notes":"No unsupported AI-specific behavior added.",
+    "pvp_notes":"Current frame data and matchup-specific details are not independently verified.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":[
+      "https://dbxv2.fandom.com/wiki/Time_Skip/Jump_Spike",
+      "https://dragonball.fandom.com/wiki/Time-Skip/Jump_Spike",
+      "https://steamcommunity.com/app/454650/discussions/0/1697168437875520252/"
+    ]
+  }]
+}
