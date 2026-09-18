@@ -8,13 +8,13 @@
       "name": "Bloody Sauce",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Supervillain Yamcha; Mira (Final Form) and other raid bosses",
+      "ki_cost": 100,
+      "usable_by_cac": true,
+      "character_source": "Supervillain and boss characters; Time Patroller only in Crystal Raid or Training",
       "dlc_requirement": null,
-      "unlock_method": "Expert Mission 13",
+      "unlock_method": "Expert Mission 20: Harbinger of Doom",
       "ultimate_finish_required": null,
-      "effect": "Rapid homing Ki blasts with a debilitating effect.",
+      "effect": "Scattered Ki Blasts that can poison or slow targets.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
