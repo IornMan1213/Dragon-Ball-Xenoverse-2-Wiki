@@ -2495,9 +2495,13 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dragonball.fandom.com/wiki/Para_Para_Boogie",
+        "https://dbxv2.fandom.com/wiki/Pan"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Pan's Initiation Test / Pan training",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Energy Charge",
@@ -2505,9 +2509,12 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Energy_Charge"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "unlock_method": "First Advancement Test (Easy Class) or starting fighting-style choice ('I'll hang back and blast 'em from afar!')",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Energy Release",
@@ -2679,9 +2686,12 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Rise_to_Action"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "unlock_method": "Krillin training",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Rising Rage",
@@ -2714,9 +2724,13 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dragonballupdates.fandom.com/wiki/Solar_Flare",
+        "https://dragonball.fandom.com/wiki/Solar_Flare"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 03 reward",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Spirit Boost",
@@ -2734,9 +2748,12 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Super_Guard"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Surging Spirit",
@@ -2808,9 +2825,12 @@
       "subcategory": "Other",
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 10: Saiyan Survivors reward",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Charge",
