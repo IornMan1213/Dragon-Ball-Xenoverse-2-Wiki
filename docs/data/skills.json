@@ -33,11 +33,15 @@
       "subcategory": "Race",
       "race_restriction": "Namekian",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "mechanics_notes": " Current research references a 300 Ki activation threshold; the form uses a distinct moveset and drains Stamina over time.",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Future Super Saiyan",
@@ -57,11 +61,15 @@
       "subcategory": "Race",
       "race_restriction": "Earthling",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "ki_cost": 0,
+      "mechanics_notes": " Current research documents Power Pole Pro as a 0 Ki activation cost; the transformation uses the Nimbus/Power Pole moveset.",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Purification",
@@ -69,11 +77,15 @@
       "subcategory": "Race",
       "race_restriction": "Majin",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Majin_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Majin_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "mechanics_notes": " Current research references a 300 Ki activation threshold; transformation changes the moveset and affects stamina recovery.",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Super Saiyan",
@@ -81,11 +93,15 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "mechanics_notes": " Stage activation thresholds: Super Saiyan 300 Ki, Super Saiyan 2 400 Ki, Super Saiyan 3 500 Ki.",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Super Saiyan God",
@@ -93,11 +109,15 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "mechanics_notes": " Current research references a 300 Ki activation threshold; the form does not consume the activation Ki.",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -129,11 +149,15 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "mechanics_notes": " Stage activation thresholds: Super Vegeta 300 Ki and Super Vegeta 2 400 Ki.",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "The Power to Overcome",
@@ -165,11 +189,15 @@
       "subcategory": "Race",
       "race_restriction": "Frieza Race",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "mechanics_notes": " Current research references a 300 Ki activation threshold; stamina drains while transformed.",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Beast",
@@ -5745,19 +5773,20 @@
       "usable_by_cac": true,
       "character_source": "CaC / Universal",
       "dlc_requirement": null,
-      "ki_cost": 500,
+      "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Awoken",
       "unlock_method": "Kaioken Parallel Quest reward route",
       "source_quest_or_shop": "Parallel Quest reward route",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill with Kaioken, Kaioken x3, and Kaioken x20 stages.",
-      "mechanics_notes": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power.",
+      "mechanics_notes": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power. Stage activation thresholds: Kaioken 100 Ki, Kaioken x3 300 Ki, Kaioken x20 500 Ki.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Kaioken"
+        "https://dbxv2.fandom.com/wiki/Kaioken",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     },
     {
