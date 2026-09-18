@@ -36,5 +36,5 @@
       ]
     }
   ],
-  "notes": "Bloody Sauce is a raid/boss-exclusive Super; the Crystal Raid variant has a separate internal skill entry that can be used by the Future Warrior only in Crystal Raid/Training. The catalog record therefore uses the ordinary skill identity with usable_by_cac:false. Celestial Hammer is a Strike Super and Crystal Raid skill used by Fused Zamasu (Half-Corrupted)."
+  "notes": "Four raid/boss-exclusive skills that were absent from the canonical skills.json at research time. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have prior research records; this batch therefore retains only the three genuinely new identities plus Bloody Sauce."
 }
