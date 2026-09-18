@@ -1,0 +1,73 @@
+{
+  "batch_id": 283,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Cast-exclusive skills with reliable identity but unresolved attack subtype",
+  "records": [
+    {
+      "name": "Boulder Toss",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Great Ape",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape cast-exclusive boulder projectile.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.xpgamesaves.com/threads/teamxpg-dragon-ball-xenoverse-item-codes.139700/"
+      ]
+    },
+    {
+      "name": "Boulder Break",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Great Ape",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape cast-exclusive boulder attack.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.xpgamesaves.com/threads/teamxpg-dragon-ball-xenoverse-item-codes.139700/"
+      ]
+    },
+    {
+      "name": "Energy Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra (Final Form)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Cast-exclusive energy cannon attack.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.xpgamesaves.com/threads/teamxpg-dragon-ball-xenoverse-item-codes.139700/"
+      ]
+    },
+    {
+      "name": "Beam Rifle",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Raspberry",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Cast-exclusive rifle energy projectile.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.xpgamesaves.com/threads/teamxpg-dragon-ball-xenoverse-item-codes.139700/"
+      ]
+    }
+  ],
+  "notes": "The Xenoverse 2 ID-list sources establish these as distinct cast-only skills and identify their users. Because stronger dedicated attack-type pages were not retrievable in this pass, Boulder Toss/Break are conservatively marked Other rather than forcing Strike or Ki Blast; Energy Cannon and Beam Rifle are marked Ki Blast from their explicit energy-projectile implementations. Exact costs and acquisition remain null. These entries should remain audit candidates for dedicated-page confirmation."
+}
