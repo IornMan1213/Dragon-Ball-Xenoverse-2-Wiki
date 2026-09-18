@@ -1,0 +1,70 @@
+{
+  "batch_id": 288,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Evasive skill taxonomy corrections and cast-only coverage",
+  "records": [
+    {
+      "name": "Force Shield",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Vegito; SSGSS Vegito",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 59: Potara Warrior",
+      "ultimate_finish_required": null,
+      "effect": "Extendable blue barrier that cancels Ki waves and knocks back nearby opponents.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Force_Shield"
+      ]
+    },
+    {
+      "name": "Science Vanish",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Towa; Towa (Swimsuit)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Towa disappears and can move while invisible before reappearing.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Science_Vanish"
+      ]
+    },
+    {
+      "name": "Celestial Wave",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Goku (Ultra Instinct -Sign-); Goku (Ultra Instinct) Turtle Hermit Gi 3",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 151: Even Further Beyond",
+      "ultimate_finish_required": null,
+      "effect": "Seven-hit blue energy wave launched into the air.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Celestial_Wave"
+      ]
+    },
+    {
+      "name": "Mighty Explosive Wave",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Jiren (Full Power)",
+      "dlc_requirement": "Legendary Pack 2",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Evasive variant of the explosive-wave technique used by Jiren (Full Power).",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Mighty_Explosive_Wave",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ]
+    }
+  ],
+  "notes": "This batch distinguishes skill variants by canonical class: Mighty Explosive Wave has both a Super Skill form and a separate Jiren (Full Power) Evasive variant. Force Shield and Celestial Wave use their dedicated pages' explicit Ki Blast Evasive classification. Science Vanish is explicitly Other Evasive and unavailable to CaCs."
+}
