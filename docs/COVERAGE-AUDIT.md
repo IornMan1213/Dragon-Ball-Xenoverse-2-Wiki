@@ -236,3 +236,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - This is a completeness baseline, not proof that every numeric cost is correct. Variable, zero-cost, and version-specific mechanics still require record-level evidence.
 - External Fandom pages were not accessible during this pass because robots.txt blocked retrieval, so no unsupported numeric corrections were made from that source.
 - Next cost pass should sample documented numeric values against accessible primary/secondary references and prioritize unusual costs, variable-cost attacks, and character/DLC-specific variants.
+
+
+### Super/Ultimate Ki-cost completeness audit — 2026-09-18
+- Audited all 298 canonical skill records in the current skills.json layer for missing Ki costs across Super and Ultimate classes.
+- Result: **0 missing Ki-cost fields**. This is a completeness milestone, not proof that every numeric value is correct.
+- Explicit zero-cost records were reviewed as a separate class of data because charge/reinforcement/stance skills can legitimately have 0 Ki. They remain preserved rather than normalized to a generic Super cost.
+- External research confirms that Xenoverse 2 has distinct resource models and that skill costs vary by move; therefore costs must continue to be verified individually rather than inferred from class alone.
+- Next cost pass: verify suspicious/nonstandard numeric values and variable-cost mechanics, then audit acquisition routes and Ultimate Finish requirements.
