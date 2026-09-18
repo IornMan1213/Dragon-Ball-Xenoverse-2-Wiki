@@ -3,7 +3,7 @@
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
   "canonical_skill_records": 139,
-  "linked_skill_rewards": 56,
+  "linked_skill_rewards": 57,
   "alias_matches": [
     {
       "pq": 48,
@@ -665,5 +665,13 @@
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
   "unique_canonical_skill_names": 125,
-  "unresolved_count": 162
+  "unresolved_count": 162,
+  "resolved_skill_rewards": [
+    {
+      "pq": 172,
+      "skill": "Big Bang Knuckle",
+      "canonical_skill": "Big Bang Knuckle",
+      "match": "exact"
+    }
+  ]
 }
