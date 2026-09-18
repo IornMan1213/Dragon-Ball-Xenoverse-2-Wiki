@@ -123,3 +123,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Four previously missing values were populated: Dragon Burn (200), Absolute Zero (300), Angry Shout (300), and Mach Dash (200).
 - These values remain subject to source-by-source recheck; no cost is inferred solely from the Evasive class.
 - Next: audit Super/Ultimate Ki-cost fields individually, preserving documented variable, zero-cost, and nonstandard costs.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical catalog now has a non-null `ki_cost` field for every Super and Ultimate record (298 total skills; no missing Ki-cost fields found in the current canonical layer).
+- Zero-Ki records are concentrated in documented charge/utility/Power Up skills; these were retained rather than normalized to a generic 100/300 cost.
+- This pass is a field-completeness audit, not proof that every cost is independently re-verified against a primary source. Continue with targeted verification of nonstandard/variable costs and acquisition/version metadata.
