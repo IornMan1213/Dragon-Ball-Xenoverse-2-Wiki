@@ -3641,7 +3641,7 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": "Unknown — acquisition route not yet independently verified"
+      "unlock_method": null
     },
     {
       "name": "Emperor's Edge",
@@ -4580,7 +4580,7 @@
       "last_verified": "2026-09-18",
       "mechanics": "400 Ki base cost; documented as a 400-Ki Ki Blast Ultimate. Cost is version-sensitive historically, so retain provenance rather than infer from Ultimate class.",
       "ultimate_finish_required": null,
-      "unlock_method": "Unknown — acquisition route not yet independently verified"
+      "unlock_method": null
     },
     {
       "name": "Destruction's Concerto: Meteor",
