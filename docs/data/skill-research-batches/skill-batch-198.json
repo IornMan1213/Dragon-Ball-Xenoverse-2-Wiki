@@ -1,0 +1,44 @@
+{
+  "batch_id":198,
+  "created":"2026-09-17",
+  "research_scope":"Burst Reflection — Ki Blast Super / Counter Skill.",
+  "verification_audit":{
+    "audited":"2026-09-17",
+    "duplicate_check":{"status":"passed","selected_records":["Burst Reflection"],"duplicate_count":0,"history_search":"No prior repository research commit was found."},
+    "classification_finding":"The Xenoverse 2-specific skill page classifies Burst Reflection as a Ki Blast Super and Counter Skill. Its canonical identity remains Super / Ki Blast; the counter taxonomy is separate.",
+    "acquisition_finding":"The skill is obtained from the Shenron wish 'I want a new Super Attack!' rather than a Parallel Quest.",
+    "cost_finding":"The skill reference lists 100 Ki.",
+    "availability_finding":"Burst Reflection is a Nuova Shenron technique and the wish reward is available to the Future Warrior, supporting usable_by_cac true.",
+    "finish_policy":"Because the documented acquisition route is a Shenron wish rather than a PQ reward, ultimate_finish_required is false.",
+    "mechanics_finding":"The user creates a lens-like barrier for about one second before firing a Ki Wave. The barrier protects the user while active; the reference reports approximately 10% damage for the beam."
+  },
+  "records":[{
+    "name":"Burst Reflection",
+    "class":"Super",
+    "subcategory":"Ki Blast",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Nuova Shenron",
+    "dlc_requirement":"GT Pack 2",
+    "ki_cost":100,
+    "stamina_cost":null,
+    "damage_type":"Ki Blast",
+    "unlock_method":"Shenron wish",
+    "source_quest_or_shop":"Shenron wish — I want a new Super Attack!",
+    "ultimate_finish_required":false,
+    "ultimate_finish_evidence":"The documented acquisition route is a Shenron wish, not a Parallel Quest reward.",
+    "skill_description":"Put up a lens-like barrier in front of yourself and unleash a powerful Ki wave while protected by the barrier.",
+    "mechanics_notes":"The reference describes a translucent, diamond-shaped barrier that remains active for roughly one second before the beam fires. The barrier grants Super Armor while active. The documented beam deals approximately 10% damage.",
+    "acquisition_notes":"The wish is the documented Future Warrior acquisition route. No unsupported shop or PQ route is added.",
+    "pve_notes":"The barrier provides protection while the follow-up beam is prepared, making the move function as a counter-style defensive Super.",
+    "pvp_notes":"The barrier's protection is documented; exact frame advantage, attack-specific interactions, and current matchup data remain unverified.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":[
+      "https://dbxv2.fandom.com/wiki/Burst_Reflection",
+      "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+      "https://dragonball.fandom.com/wiki/Burst_Reflection",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74408512"
+    ]
+  }]
+}
