@@ -49,7 +49,67 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
+    },
+    {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Supervillain/boss characters",
+      "dlc_requirement": "Extra Pack 1",
+      "unlock_method": "Expert Mission 20: Harbinger of Doom",
+      "ultimate_finish_required": null,
+      "effect": "Wave of purple Ki blasts; can poison or slow targets.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Sauce"
+      ]
+    },
+    {
+      "name": "Celestial Hammer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": "Extra Pack 3",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Fused Zamasu charges and slams the opponent with his fist.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
+      ]
+    },
+    {
+      "name": "Spiral of Condemnation",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": "Extra Pack 3",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Three spiral energy waves fired toward the opponent.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation"
+      ]
+    },
+    {
+      "name": "Gigantic Slam",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Grab and slam attack ending with a Ki wave.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
+      ]
     }
   ],
-  "notes": "Cleaned after cross-batch reconciliation: Bloody Sauce is already documented in an earlier Ki Blast Super batch, and Spiral of Condemnation is already documented in batch 271. Retained only distinct catalog gaps: Celestial Hammer, Giant Storm, and Gigantic Slam. Removed identities already established in Batch 264 to preserve batch-level canonical uniqueness. Removed identities already established in Batch 264 to preserve batch-level canonical uniqueness. Removed identities already established in Batch 264 to preserve batch-level canonical uniqueness."
+  "notes": "Batch 285 was reconciled against the prior batch-264 records to avoid duplicate identities. Strong dedicated Xenoverse 2 pages establish Bloody Sauce, Celestial Hammer, Spiral of Condemnation, and Gigantic Slam. Other names previously listed in this batch were already researched in batch 264 and were removed here."
 }
