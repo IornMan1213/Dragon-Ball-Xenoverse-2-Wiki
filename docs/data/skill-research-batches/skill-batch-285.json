@@ -50,20 +50,53 @@
       ]
     },
     {
-      "name": "Energy Cannon",
+      "name": "Bloody Sauce",
       "class": "Super",
       "subcategory": "Ki Blast",
       "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Demon God Demigra (Final Form)",
+      "character_source": "Villainous/Supervillain characters and Crystal Raid bosses",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": null,
+      "effect": "Dark-energy sphere attack with alternate poison/slow effects depending on firing mode.",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "name": "Rage Saucer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Villainous/Supervillain characters and Crystal Raid bosses",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Dark-energy rush attack that chains vanishing attacks between enemies.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Rage_Saucer",
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "name": "Brainwash Attack",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Crystal Raid bosses",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Crystal Raid boss control/brainwashing attack.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Brainwash_Attack",
         "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
       ]
     }
   ],
-  "notes": "Identity-layer additions only where current evidence establishes the skill name, Super identity/category, and CaC availability. Numeric costs, acquisition and Ultimate Finish requirements remain null unless directly established. ID-list evidence identifies Energy Cannon as Demigra (Final Form) and all four as non-CaC/cast-side records; subtype labels are retained conservatively where the skill guide/category mapping supports them."
+  "notes": "Identity-layer research for cast/boss-side skills. Energy Cannon was removed from this batch because batch 283 already established the same canonical identity; its stronger subtype/user audit remains there. Numeric costs and acquisition remain null where the retrieved evidence does not establish them. Darkness Mixer is explicitly classified as an Other Super and unavailable to ordinary CaCs by its dedicated page. The ID-list corroborates Bloody Sauce, Rage Saucer and Brainwash Attack as boss-side skill records."
 }
