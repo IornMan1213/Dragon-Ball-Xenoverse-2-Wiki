@@ -1,0 +1,73 @@
+{
+  "batch_id": 286,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Great Ape and legacy cast-only Ultimate/Super reconciliation",
+  "records": [
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Nappa; Custom Partners including Raditz, Broly, Omega Shenron and Kefla (Super Saiyan)",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Large tracking explosion; long-range single-hit Ki Blast Ultimate.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Giant_Storm",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Gigantic Slam",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan) Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Grab-and-slam attack; six-hit Strike Super.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
+      ]
+    },
+    {
+      "name": "Gigantic Ki Blast",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Raid/Boss characters; Great Ape Baby raid",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 18 (Raid)",
+      "ultimate_finish_required": null,
+      "effect": "Large-area raid boss Ki Blast Ultimate; also known as Great Ape Raid Orb in raid reporting.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dbxv2.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://steamcommunity.com/app/454650/discussions/0/1639793203768446656/"
+      ]
+    },
+    {
+      "name": "Super Great Ape Beam",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Great Ape Vegeta; Great Ape Bardock; Great Ape Baby",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape-exclusive high-power Ki Blast beam Ultimate.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
+        "https://www.youtube.com/watch?v=d7ZNR8AjA5Y"
+      ]
+    }
+  ],
+  "notes": "All four identities were absent from the repository's prior research-batch search. Gigantic Slam is intentionally classified as Super/Strike rather than Ultimate because its dedicated page explicitly states Skill Type Super. Giant Storm is a normal CaC-obtainable Ultimate despite appearing on many cast/custom-partner lists. Gigantic Ki Blast and Super Great Ape Beam are preserved as CaC-unavailable boss/Great Ape Ultimates; exact acquisition details remain null unless directly documented."
+}
