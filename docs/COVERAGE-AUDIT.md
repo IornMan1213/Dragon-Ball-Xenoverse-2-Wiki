@@ -373,3 +373,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Reviewed outlier costs rather than normalizing them by class: Power Rush is explicitly 1000 Ki, while Chaotic Time Impact and Gigantic Explosion are explicitly 600 Ki. citeturn1search0turn1search2turn1search3
 - Updated mechanics notes for those three high-cost Ultimates while preserving their existing costs and uncertainty fields.
 - Next pass should focus on acquisition/Ultimate-Finish semantics and DLC/version provenance, not blanket cost normalization.
+
+
+### Super/Ultimate resource-cost taxonomy audit — 2026-09-18
+- Corrected Power Impact from Super / Strike to Super / Ki Blast after source verification; its documented cost is 100 Ki.
+- Confirmed representative Ultimate costs including Full Power Destruction at 500 Ki and Prominence Flash at 300 Ki.
+- Confirmed Pendulum Bullet uses a 300 Ki base cost with additional Ki expenditure possible through follow-up input.
+- Variable and conditional costs must remain explicit rather than being normalized to a presumed fixed value.
