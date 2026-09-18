@@ -182,7 +182,23 @@
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"
       ]
+    },
+    {
+      "name": "Brainwash Attack",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": 200,
+      "usable_by_cac": false,
+      "character_source": "Saibaman; Raid Boss",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 19 - A Truly Hellish Transformation",
+      "ultimate_finish_required": null,
+      "effect": "Dark-energy restraint/bubble attack; in Crystal Raid it temporarily immobilizes targets.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Brainwash_Attack",
+        "https://dbxv2.fandom.com/wiki/Category%3AOther_Supers"
+      ]
     }
   ],
-  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence. Added five cast-exclusive Ultimate records with dedicated taxonomy evidence: Energy Jet, Zetsumei Bullet, Self-Destruct, Cookie Beam, and Appetizing Rush. Added Pretty Charge and Divinity Unleashed after dedicated pages confirmed their Super subcategories and availability."
+  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence. Added five cast-exclusive Ultimate records with dedicated taxonomy evidence: Energy Jet, Zetsumei Bullet, Self-Destruct, Cookie Beam, and Appetizing Rush. Added Pretty Charge and Divinity Unleashed after dedicated pages confirmed their Super subcategories and availability. Brainwash Attack was additionally reconciled here after its dedicated page confirmed Super/Other, 200 Ki, and Expert Mission 19."
 }
