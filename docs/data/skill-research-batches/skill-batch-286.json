@@ -150,7 +150,39 @@
         "https://dbxv2.fandom.com/wiki/Appetizing_Rush",
         "https://dbxv2.fandom.com/wiki/Android_21"
       ]
+    },
+    {
+      "name": "Pretty Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": 0,
+      "usable_by_cac": false,
+      "character_source": "Ribrianne",
+      "dlc_requirement": "Ultra Pack 1",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Ki-charge Super with a unique Ribrianne pose; functions similarly to Full Power Charge.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pretty_Charge",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Divinity Unleashed",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 0,
+      "usable_by_cac": true,
+      "character_source": "Fused Zamasu",
+      "dlc_requirement": "Super Pack 4",
+      "unlock_method": "Parallel Quest 110: Heretics from a Dark World",
+      "ultimate_finish_required": null,
+      "effect": "Charges Ki; after one Ki bar is charged, grants a temporary buff that increases Ki gained from attacks and accelerates charging.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Divinity_Unleashed",
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
+      ]
     }
   ],
-  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence. Added five cast-exclusive Ultimate records with dedicated taxonomy evidence: Energy Jet, Zetsumei Bullet, Self-Destruct, Cookie Beam, and Appetizing Rush."
+  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence. Added five cast-exclusive Ultimate records with dedicated taxonomy evidence: Energy Jet, Zetsumei Bullet, Self-Destruct, Cookie Beam, and Appetizing Rush. Added Pretty Charge and Divinity Unleashed after dedicated pages confirmed their Super subcategories and availability."
 }
