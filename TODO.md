@@ -101,6 +101,7 @@ This correction is intentional: the project goal is an exhaustive encyclopedia, 
 - [ ] Build individual EM01–15 records and reconcile the base-game vs later-content mission-count definitions.
 - [x] Establish the structured Parallel Quest audit through PQ186, preserving known numbering gaps/conflicts instead of fabricating missing quests.
 - [x] Promote/reconcile Batch 315 and Batch 316 Ki Blast Ultimate research into the canonical skill catalog after duplicate-key checks.
+- [x] Promote the four Future Saga Chapter 4 skill records from Batch 36 into the canonical catalog and Awoken dataset.
 - [ ] Reconcile the PQ-to-skill cross-link report (`docs/data/pq-skill-crosslink-report.json`): resolve the 175 currently unresolved reward references against canonical skill identities/research history, while preserving aliases and historical naming conflicts.
 - [ ] Audit and expand Awoken/Transformation records as a first-class coverage track: separate CaC transformations from character-only forms, document resource costs, stages, race restrictions, unlock prerequisites, version history, and include The Power to Overcome where applicable.
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
