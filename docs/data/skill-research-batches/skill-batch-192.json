@@ -1,0 +1,43 @@
+{
+  "batch_id":192,
+  "created":"2026-09-17",
+  "research_scope":"Counter Burst — Ki Blast Super / Counter Skill.",
+  "verification_audit":{
+    "audited":"2026-09-17",
+    "duplicate_check":{"status":"passed","selected_records":["Counter Burst"],"duplicate_count":0,"identity_note":"No prior repository research commit for Counter Burst was found."},
+    "classification_finding":"Xenoverse 2-specific documentation classifies Counter Burst as a Ki Blast Super and Ki counter.",
+    "acquisition_finding":"Counter Burst is obtained from Parallel Quest 75 — Room to Spare.",
+    "finish_finding":"The all-186 Parallel Quest guide explicitly lists Counter Burst under PQ75 Basic Reward, so an Ultimate Finish is not required.",
+    "cost_finding":"The skill reference lists 100 Ki. No reliable reviewed source established a stamina cost or drop probability, so those remain null.",
+    "availability_finding":"The documented users include Vegeta variants and the skill is a PQ reward usable by the Future Warrior; therefore usable_by_cac is true."
+  },
+  "records":[{
+    "name":"Counter Burst",
+    "class":"Super",
+    "subcategory":"Ki Blast",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Vegeta",
+    "dlc_requirement":null,
+    "ki_cost":100,
+    "stamina_cost":null,
+    "damage_type":"Ki Blast",
+    "unlock_method":"Parallel Quest reward",
+    "source_quest_or_shop":"Parallel Quest 75 — Room to Spare",
+    "ultimate_finish_required":false,
+    "ultimate_finish_evidence":"The all-186 Parallel Quest guide lists Counter Burst under PQ75 Basic Reward.",
+    "skill_description":"Raise a barrier to stop an incoming Ki Blast and counter with a stronger Ki Blast.",
+    "mechanics_notes":"The documented behavior is a frontal barrier that activates when struck by a Ki Blast skill, followed by a six-hit Ki projectile that knocks the opponent away. The reviewed Xenoverse 2 reference records approximately 20% damage for the six-hit counter.",
+    "acquisition_notes":"PQ75 is the documented Future Warrior acquisition route. No unsupported drop probability is recorded.",
+    "pve_notes":"The skill is a documented PQ75 Basic Reward and is specifically designed to answer Ki Blast attacks.",
+    "pvp_notes":"Its counter trigger is documented for Ki Blast attacks; exact matchup and timing behavior is version-sensitive and is not expanded beyond the cited evidence.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":[
+      "https://dbxv2.fandom.com/wiki/Counter_Burst",
+      "https://dbxv2.fandom.com/wiki/Counter_Skill",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "https://dragonball.fandom.com/wiki/Counter_Burst"
+    ]
+  }]
+}
