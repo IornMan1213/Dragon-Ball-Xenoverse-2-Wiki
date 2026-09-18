@@ -1,27 +1,21 @@
 {
   "batch_id": 286,
   "created": "2026-09-18",
-  "type": "catalog_research",
-  "scope": "Great Ape and legacy cast-only Ultimate/Super reconciliation",
-  "records": [
-    {
-      "name": "Giant Storm",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Nappa; Custom Partners including Raditz, Broly, Omega Shenron and Kefla (Super Saiyan)",
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "ultimate_finish_required": null,
-      "effect": "Large tracking explosion; long-range single-hit Ki Blast Ultimate.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Giant_Storm",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
+  "type": "correction_research",
+  "scope": "Cast-exclusive and Great Ape skill taxonomy corrections",
+  "corrections": [
     {
       "name": "Gigantic Slam",
+      "correction_of": {
+        "name": "Gigantic Slam",
+        "class": "Super",
+        "subcategory": "Strike"
+      },
+      "correction_fields": [
+        "ki_cost",
+        "character_source",
+        "usable_by_cac"
+      ],
       "class": "Super",
       "subcategory": "Strike",
       "ki_cost": 100,
@@ -30,44 +24,105 @@
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Grab-and-slam attack; six-hit Strike Super.",
+      "reason": "Dedicated Xenoverse 2 skill page explicitly identifies Gigantic Slam as a Strike Super, 100 Ki, and unavailable to CaCs.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
     },
     {
-      "name": "Gigantic Ki Blast",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
+      "name": "Boulder Break",
+      "correction_of": {
+        "name": "Boulder Break",
+        "class": "Super",
+        "subcategory": "Other"
+      },
+      "correction_fields": [
+        "subcategory"
+      ],
+      "class": "Super",
+      "subcategory": "Strike",
       "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Raid/Boss characters; Great Ape Baby raid",
+      "character_source": "Great Ape Nappa; Great Ape Bardock",
       "dlc_requirement": null,
-      "unlock_method": "Expert Mission 18 (Raid)",
+      "unlock_method": "Great Ape Festival",
       "ultimate_finish_required": null,
-      "effect": "Large-area raid boss Ki Blast Ultimate; also known as Great Ape Raid Orb in raid reporting.",
+      "reason": "Current sources establish Boulder Break as a Super Skill used by Great Apes; its physical boulder-slam behavior supports Strike taxonomy. Cost remains unresolved.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://dbxv2.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
-        "https://steamcommunity.com/app/454650/discussions/0/1639793203768446656/"
+        "https://dragonball.fandom.com/wiki/Boulder_Break",
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
       ]
     },
     {
-      "name": "Super Great Ape Beam",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
+      "name": "Boulder Toss",
+      "correction_of": {
+        "name": "Boulder Toss",
+        "class": "Super",
+        "subcategory": "Other"
+      },
+      "correction_fields": [
+        "subcategory"
+      ],
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Great Ape Vegeta; Great Ape Bardock; Great Ape Baby",
+      "character_source": "Great Ape Nappa; Great Ape Vegeta",
+      "dlc_requirement": null,
+      "unlock_method": "Great Ape Festival",
+      "ultimate_finish_required": null,
+      "reason": "Current sources establish Boulder Toss as the physical rock-throw Super Skill used by Great Apes; cost remains unresolved.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Gigantic_Rock_Throw",
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+      ]
+    },
+    {
+      "name": "Energy Cannon",
+      "correction_of": {
+        "name": "Energy Cannon",
+        "class": "Super",
+        "subcategory": "Ki Blast"
+      },
+      "correction_fields": [
+        "ki_cost"
+      ],
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra (Final Form)",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Great Ape-exclusive high-power Ki Blast beam Ultimate.",
+      "reason": "Retain Ki Blast classification and cast-only status; no reliable numeric Ki-cost evidence was found.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
-        "https://www.youtube.com/watch?v=d7ZNR8AjA5Y"
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Beam Rifle",
+      "correction_of": {
+        "name": "Beam Rifle",
+        "class": "Super",
+        "subcategory": "Ki Blast"
+      },
+      "correction_fields": [
+        "ki_cost"
+      ],
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Raspberry",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "reason": "Retain Ki Blast classification and cast-only status; no reliable numeric Ki-cost evidence was found.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     }
   ],
-  "notes": "Audited against current repository identity rules. Giant Storm is retained as Ultimate/Ki Blast and CaC-usable because it is a normal skill-shop skill; the GameFAQs character guide only establishes cast usage, while current community references corroborate its continued CaC availability. Gigantic Slam is retained as Super/Strike and cast-only based on its dedicated skill documentation. Gigantic Ki Blast and Super Great Ape Beam remain CaC-unavailable with acquisition left conservative where the available evidence does not establish a normal CaC unlock."
+  "notes": "Giant Storm was not added to the Super catalog because current sources identify it as an Ultimate Skill. Poison was not added because current evidence states the Poison skill does not return in Xenoverse 2. Saibabeam and Acid remain candidates pending dedicated XV2 subtype/cost evidence."
 }
