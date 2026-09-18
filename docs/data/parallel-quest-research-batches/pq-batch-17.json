@@ -227,9 +227,7 @@
         "God of Destruction's Might"
       ],
       "skill_rewards": [],
-      "skill_drop_conditions": [
-        "50% Ultimate Finish bonus slot"
-      ],
+      "skill_drop_conditions": [],
       "verification_status": "verified_objectives_rewards_drop_rates",
       "last_verified": "2026-09-18"
     },
