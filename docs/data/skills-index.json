@@ -3084,7 +3084,7 @@
     },
     {
       "name": "Taunt",
-      "class": "Power Up",
+      "class": "Super",
       "subcategory": "Power Up",
       "usable_by_cac": true,
       "character_source": "Hercule",
@@ -3130,7 +3130,7 @@
     },
     {
       "name": "Do or Die",
-      "class": "Power Up",
+      "class": "Super",
       "subcategory": "Power Up",
       "usable_by_cac": true,
       "character_source": "Super Saiyan 3 Gotenks",
@@ -3199,7 +3199,7 @@
     },
     {
       "name": "Justice Pose",
-      "class": "Power Up",
+      "class": "Super",
       "subcategory": "Power Up",
       "usable_by_cac": true,
       "character_source": "Great Saiyaman",
@@ -3406,7 +3406,7 @@
     },
     {
       "name": "Fighting Pose H",
-      "class": "Power Up",
+      "class": "Super",
       "subcategory": "Power Up",
       "usable_by_cac": true,
       "character_source": "Recoome",
@@ -4234,7 +4234,7 @@
     },
     {
       "name": "Divinity Unleashed",
-      "class": "Power Up",
+      "class": "Super",
       "subcategory": "Power Up",
       "usable_by_cac": true,
       "character_source": "Zamasu",
@@ -4924,7 +4924,7 @@
     },
     {
       "name": "Formation!",
-      "class": "Power Up",
+      "class": "Super",
       "subcategory": "Power Up",
       "usable_by_cac": true,
       "character_source": "Ribrianne",
