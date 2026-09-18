@@ -5,36 +5,6 @@
   "scope": "Previously absent cast-exclusive Ultimate Skills",
   "records": [
     {
-      "name": "Self-Destruct",
-      "class": "Ultimate",
-      "subcategory": "Strike",
-      "ki_cost": 300,
-      "usable_by_cac": false,
-      "character_source": "Saibaman; Tennenman; Jinkouman",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
-      "name": "Cookie Beam",
-      "class": "Ultimate",
-      "subcategory": "Strike",
-      "ki_cost": 300,
-      "usable_by_cac": false,
-      "character_source": "Majin Buu",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Turns the opponent into a cookie and consumes them, damaging the target and restoring the user's health.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
       "name": "Evil Explosion (Ultimate)",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -65,5 +35,5 @@
       ]
     }
   ],
-  "notes": "Current Xenoverse 2 Ultimate Attack documentation explicitly places Self-Destruct and Cookie Beam under Strike Skills, and Energy Jet, Evil Explosion (Ultimate), and Light Grenade (Ultimate) under Ki Blast Skills; each is listed at 300 Ki and as unavailable to CaC. Removed duplicate Energy Jet identity; retained its earlier canonical research/correction chain."
+  "notes": "Removed duplicate identities already established in batch 287. Evil Explosion (Ultimate) and Light Grenade (Ultimate) remain as the canonical records from this batch."
 }
