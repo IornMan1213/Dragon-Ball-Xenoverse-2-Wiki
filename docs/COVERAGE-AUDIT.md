@@ -335,3 +335,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Web verification independently confirms Dimensional Hole is a 0-Ki Super Ki Blast counter, so the catalog's 0-cost entry is intentional rather than missing data. citeturn1search0
 - Blaster Cannon is independently listed as a 100-Ki Super, reinforcing the need for individual verification instead of class-based inference. citeturn1search12
 - Next metadata frontier: audit acquisition semantics, CaC/race restrictions, Ultimate Finish requirements, DLC/version provenance, and mechanics for Super/Ultimate records, then continue PQ reward-field enrichment.
+
+
+### Super/Ultimate acquisition metadata pass — 2026-09-18
+- Enriched six records with evidence-backed acquisition semantics: Emperor's Blast, Spirit Boost, Data Input, Fighting Pose K, Final Charge, and Surging Spirit.
+- Distinguished obtainable routes (PQ, Skill Shop, Expert Mission) from character-exclusive skills/actions rather than forcing every record into a quest-reward model.
+- Final Charge remains character-exclusive to SSGSS Evolved Vegeta; Surging Spirit has version-sensitive character/CaC semantics because current Ultra Instinct CaCs can access it as an Awoken action. citeturn2search1turn2search3turn3search13
+- Data Input is explicitly tied to Expert Mission 20, while Fighting Pose K is a Skill Shop unlock and Spirit Boost is a Skill Shop skill. Emperor's Blast is documented from PQ70 with an additional TP Medal Shop route. citeturn3search0turn3search1turn2search0turn2search4turn2search6
+- Next: continue acquisition metadata in small evidence-backed batches, prioritizing records with both missing unlock semantics and clear authoritative source pages.
