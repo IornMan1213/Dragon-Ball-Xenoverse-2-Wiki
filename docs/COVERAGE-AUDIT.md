@@ -252,3 +252,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical catalog now has no missing `ki_cost` values among Super or Ultimate skills (298/298 records remain indexed).
 - Nonstandard documented costs were retained rather than normalized away: Chaotic Time Impact 600, Gigantic Explosion 600, Power Rush 1000, Emperor's Death Beam 400+, Final Flash (SS3 DAIMA) 400+, and Super Kamehameha (SS4 DAIMA) 400–500.
 - This confirms the next cost pass should focus on **evidence quality and semantics** (variable/charge-based costs and version/DLC context), not filling nulls with class defaults.
+
+
+### Ki-cost taxonomy correction — 2026-09-18
+- Corrected **Gigantic Breaker** from `Ultimate / Ki Blast` to `Super / Ki Blast`; authoritative indexed skill data identifies it as a Super Attack and documents a 200 Ki cost. citeturn2search1
+- Preserved its 200 Ki cost; this is an example of why the audit does not infer cost solely from broad attack families.
+- Confirmed several intentionally nonstandard Ultimate costs during this pass: Chaotic Time Impact (600), Gigantic Explosion (600), Power Rush (1000), Death Ball (400), S.S. Deadly Bomber (400), and the DAIMA Ultimates' variable 400+ / 400–500 costs. citeturn2search0turn2search2turn2search3turn1search0turn1search2turn1search3
