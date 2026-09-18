@@ -174,3 +174,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical catalog check: all 278 Super/Ultimate records currently have a non-null `ki_cost`; no missing Ki-cost fields remain in those two classes.
 - Nonstandard documented values were preserved rather than normalized away: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400), and Thunder Flash (300–600).
 - This pass confirms field completeness, not universal mechanic correctness; exact costs, charge behavior, and version-specific changes remain candidates for evidence-level review.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found no missing Ki-cost fields among the 298 skill records: all Super and Ultimate records have a populated `ki_cost` value.
+- Nonstandard values were reviewed rather than normalized by class: charge/recovery and support Supers legitimately use 0 Ki; Emperor's Death Beam is variable (`400+`); Thunder Flash is variable (`300-600`); Chaotic Time Impact and Gigantic Explosion are 600 Ki.
+- Current web evidence independently supports these exceptions and the 600-Ki values. citeturn1search1turn1search2turn1search3turn1search4
+- This closes the missing-cost portion of the Super/Ultimate pass; the remaining metadata audit should focus on acquisition semantics, race/gender restrictions, character-only availability, Ultimate Finish requirements, DLC/version provenance, and mechanics.
