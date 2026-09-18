@@ -3001,7 +3001,7 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 49",
       "ultimate_finish_required": null,
-      "skill_description": "Do or Die is a Power Up Power Up skill associated with Super Saiyan 3 Gotenks.",
+      "skill_description": "Do or Die is a Super Power Up skill associated with Super Saiyan 3 Gotenks.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Documented damage-reduction buff duration: 20 seconds; 10% damage reduction; Ki cost 100. Source page explicitly lists 0:20.0.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
