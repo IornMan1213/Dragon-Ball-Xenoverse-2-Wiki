@@ -218,3 +218,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Distribution: 24 at 0 Ki, 131 at 100, 5 at 200, 44 at 300, 2 at 400, 15 at 500, 2 at 600, plus four explicitly variable/ranged entries (400+, 400–500, 300–600, and one additional non-fixed value representation).
 - The zero-cost set is dominated by charge/power-up/utility skills, so no blanket class-based cost inference was applied.
 - Next pass should verify the non-fixed cost representations and then audit Ultimate Finish flags and acquisition/version metadata individually.
+
+
+### PQ116 skill-coverage correction — 2026-09-18
+- Added **Hero's Flute** to the canonical skill layer and synchronized index data.
+- Evidence: the skill is a Super/Other skill, costs 100 Ki, and is listed as a Parallel Quest 116 unlock; Fandom documents its barrier behavior and GameFAQs community evidence identifies the Broly encounter as the drop source. citeturn2search0turn2search7
+- Ultimate-Finish requirement remains **null** because the available evidence establishes the reward/drop identity but does not justify converting the skill to a definitive UF-required flag.
+- This closes a previously missing canonical record rather than treating PQ116's existing page/listing as proof of complete skill coverage.
