@@ -488,3 +488,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Evidence covers starting-style/Skill Shop, Pan training, Advancement Test, Krillin training, and PQ reward routes. citeturn0search0turn0search1turn0search2turn0search3turn0search10turn1search0
 - Rising Rage and Instant Charge remain intentionally blank because available references identify them as character-exclusive/raid-boss skills rather than normal player acquisition routes; no generic route is being inferred. citeturn1search2turn1search4
 - Remaining blank Super/Ultimate acquisition routes should continue to be audited individually, with character-exclusive skills separated from player acquisition semantics.
+
+
+### Super acquisition / character-exclusive pass — 2026-09-18
+- Enriched four previously blank acquisition routes: Rising Rage, Instant Charge, Energy Release, and Time Bullet.
+- Character-only evidence is now represented explicitly rather than leaving acquisition blank: Rising Rage is tied to Broly (Restrained); Instant Charge to Mira (Final Form)/boss use; Energy Release and Time Bullet are documented as non-CaC character-exclusive skills.
+- Research references also distinguish ordinary obtainable charge skills from cast/raid-exclusive variants; this prevents treating every Super with a known cost as automatically obtainable by CaCs. citeturn1search0turn1search1turn1search10turn1search12
+- Continue the same field-by-field acquisition audit for the remaining blank Super/Ultimate routes, prioritizing skills where character-only, mentor/training, shop, PQ, raid, or DLC provenance can be established without inference.
