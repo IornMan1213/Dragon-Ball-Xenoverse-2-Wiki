@@ -2740,7 +2740,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Data_Input"
       ],
-      "ki_cost": 0,
+      "ki_cost": 100,
       "mechanics_notes": "Documented Auto Dodge duration: 20 seconds; Ki cost 100. Source page explicitly lists 0:20.0.",
       "last_verified": "2026-09-18",
       "research_status": "partially_enriched"
