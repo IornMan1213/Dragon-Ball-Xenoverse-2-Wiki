@@ -135,3 +135,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected five well-supported Super Skill Ki-cost fields: Big Bang Kamehameha, Bending Kamehameha, Destructo-Disc, Galick Gun, and Kamehameha → 100 Ki.
 - Web corroboration supports the 100-Ki values for Big Bang Kamehameha and Kamehameha, while community/reference material supports the 100-Ki baseline for Galick Gun. citeturn1search3turn1search6turn1search5
 - The broader audit remains intentionally conservative: variable-cost, character-specific, charge-based, and defensive/utility skills are not normalized by class alone.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Filled three previously missing Ultimate Ki-cost fields where current accessible references independently document the values: Dragon Fist = 500 Ki, Divine Lasso = 300 Ki, Final Kamehameha = 500 Ki. citeturn2search0turn2search3turn1search2turn1search3
+- Kept the remaining missing costs unresolved rather than inferring them from skill class or common cost tiers; several skills have variable or nonstandard resource behavior.
+- Fandom access was partially blocked by robots.txt during this pass, so community sources were used only where they explicitly stated the cost and the records remain subject to stronger-source verification.
