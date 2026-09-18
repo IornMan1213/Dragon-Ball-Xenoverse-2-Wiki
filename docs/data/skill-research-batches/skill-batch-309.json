@@ -1,0 +1,71 @@
+{
+  "batch_id": 309,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Ki Blast Ultimate coverage expansion",
+  "records": [
+    {
+      "name": "Serious Bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 500,
+      "usable_by_cac": true,
+      "character_source": "Mira; Mira (Supervillain); Mira (Final Form); Fu Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop after defeating Final Form Mira",
+      "ultimate_finish_required": null,
+      "effect": "Uppercut followed by a large Ki Blast; Mira's incomplete version of Remote Serious Bomb.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Serious_Bomb",
+        "https://dragonball.fandom.com/wiki/Serious_Bomb"
+      ]
+    },
+    {
+      "name": "Shocking Death Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Super 17; Android 17 (DB Super) Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 14 - Huge Blasts for Huge Apes!",
+      "ultimate_finish_required": null,
+      "effect": "Large Ki ball that paralyzes the target.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Shocking_Death_Ball"
+      ]
+    },
+    {
+      "name": "Teleporting Vanishing Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Kid Buu; Kid Buu (Supervillain)",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 62 - Frieza's Nightmare Returns!",
+      "ultimate_finish_required": null,
+      "effect": "Creates a Ki sphere, teleports to the opponent, and launches it at close range.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball",
+        "https://dragonball.fandom.com/wiki/Teleporting_Vanishing_Ball"
+      ]
+    },
+    {
+      "name": "Super Vanishing Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Kid Buu; Kid Buu (Supervillain); Janemba Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Large long-range Ki sphere with multi-hit damage.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Vanishing_Ball"
+      ]
+    }
+  ],
+  "notes": "All four identities were absent from canonical docs/data/skills.json at audit time. Dedicated Xenoverse 2 pages explicitly provide the class/subcategory and numeric Ki costs. Ultimate Finish requirements remain null because the cited pages do not establish one."
+}
