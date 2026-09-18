@@ -2,7 +2,7 @@
   "batch_id": 285,
   "created": "2026-09-18",
   "type": "catalog_research",
-  "scope": "Previously absent cast/boss skill identities",
+  "scope": "Crystal Raid-exclusive skill correction/reconciliation",
   "records": [
     {
       "name": "Celestial Hammer",
@@ -12,14 +12,14 @@
       "usable_by_cac": false,
       "character_source": "Fused Zamasu (Half-Corrupted)",
       "dlc_requirement": null,
-      "unlock_method": null,
+      "unlock_method": "Crystal Raid Mode",
       "ultimate_finish_required": null,
-      "effect": "Charges at the opponent and slams them with a fist, sending them flying.",
+      "effect": "Fused Zamasu charges at the opponent and slams them with his fist, sending the opponent flying.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer",
-        "https://dbxv2.fandom.com/wiki/Fused_Zamasu_(Half-Corrupted)"
+        "https://dbxv2.fandom.com/wiki/Fused_Zamasu_%28Half-Corrupted%29"
       ]
     }
   ],
-  "notes": "Reduced to the one identity not already represented by an earlier research batch. Bloody Sauce was already researched in Batch 258; Spiral of Condemnation was already researched in Batch 271."
+  "notes": "Reduced to the only genuinely new record after checking prior research batches. Bloody Sauce, Marbling Drop, Seasoning Arrow, Time Shackles, Flames of Retribution and Spiral of Condemnation were already researched in earlier batches and were removed to prevent cross-batch duplicate identities."
 }
