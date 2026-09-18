@@ -474,3 +474,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Evidence covers TP/STP Medal Shop, Double Crystal Raid, Expert Mission, and Parallel Quest routes. Final Explosion is documented as TP Medal Shop; Divine Lasso as TP/STP Medal Shop plus Double Crystal Raid; Supernova as Expert Mission 6; Super Spirit Bomb as Expert Mission 16; Victory Rush as PQ89. citeturn1search1turn1search4turn2search0turn2search2turn1search3
 - These routes are marked partially verified rather than treated as immutable across shop rotations, DLC/version history, or platform differences.
 - Remaining acquisition frontier is 31 Super/Ultimate records with blank unlock routes; continue individually rather than inferring from class, user, or PQ proximity.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited canonical Super and Ultimate records for missing Ki costs: **0 missing**.
+- Nonstandard Ultimate costs were preserved rather than normalized away: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
+- These values are supported by the current Ultimate Attack reference and individual skill references where available; variable-cost skills remain explicitly represented as ranges rather than being reduced to a single nominal cost. citeturn1search0turn1search1turn1search2
+- Next metadata pass should focus on acquisition/unlock semantics, Ultimate Finish requirements, CaC/race restrictions, DLC/version provenance, and mechanics rather than filling already-present cost fields.
