@@ -400,3 +400,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Filled the missing `unlock_method` for five researched PQ Ultimates where the canonical record already identifies the source PQ: **Blaster Stream (PQ148), Full Power Destruction (PQ177), Gigantic Burst (PQ127), Lightning Impact (PQ142), and Requiem of Destruction (PQ106)**.
 - Web references corroborate the PQ unlocks and costs for these records; Requiem's acquisition is additionally documented as DLC Super Pack 2 content. citeturn1search0turn1search1turn1search4turn1search14
 - Remaining gap: many older canonical records still lack acquisition semantics even when their identity/cost is established. Research them individually rather than filling from class or character assumptions.
+
+
+### Acquisition-method audit milestone — 2026-09-18
+- Added evidence-backed acquisition semantics for 9 previously incomplete Super/Ultimate records: Burst Rush (PQ51 Ultimate Finish), Change The Future (PQ43 Ultimate Finish), God Breaker (PQ44), Dimensional Hole (PQ80), Flash Fist Crush (Shenron wish), Heroic Counter (PQ155), Punisher Shield (PQ129), Rough Ranger (PQ119 Ultimate Finish), and Demon Flash Strike (PQ160).
+- The cited references document the corresponding PQ/wish acquisition routes; the distinction between ordinary PQ reward and Ultimate Finish remains explicit rather than treating all PQ skills as UF-only. citeturn1search0turn1search4turn1search1turn1search6turn1search10turn1search17turn1search8turn1search9
+- Current Super/Ultimate Ki-cost coverage remains complete (no null Ki-cost fields). Acquisition coverage still has older records requiring individual research; no class-wide defaults are being inferred.
