@@ -194,7 +194,52 @@
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ],
       "notes": "Dedicated Xenoverse 2 documentation explicitly identifies Attack Type Strike, Skill Type Super, Ki Used 100, and Unavailable for CaC."
+    },
+    {
+      "name": "Cookie Beam",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Majin Buu (Good 2)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Turns the opponent into a cookie; Buu consumes it and restores health.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Cookie_Beam"
+      ]
+    },
+    {
+      "name": "Zetsumei Bullet",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Cell (First Form)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Grab ultimate ending with a Ki wave fired through the opponent.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Zetsumei_Bullet"
+      ]
+    },
+    {
+      "name": "Appetizing Rush",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 400,
+      "usable_by_cac": false,
+      "character_source": "Android 21",
+      "dlc_requirement": "Ultra Pack 2",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Teleporting rush combo ending in Savory Slicer.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Appetizing_Rush"
+      ]
     }
   ],
-  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Energy Cannon, Boulder Toss, and Boulder Break are formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, and Giant Storm are retained as research records. Pretty Charge and Energy Jet are explicitly unavailable for CaC in current Xenoverse 2 documentation; Darkness Mixer is also listed in the unavailable-for-CaC category. Giant Storm is a CaC skill obtained from the Skill Shop, while Gigantic Omega is a Strike Super obtained from Broly training. Gigantic Slam was added after dedicated documentation resolved its previously unrecorded subtype."
+  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Energy Cannon, Boulder Toss, and Boulder Break are formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, and Giant Storm are retained as research records. Pretty Charge and Energy Jet are explicitly unavailable for CaC in current Xenoverse 2 documentation; Darkness Mixer is also listed in the unavailable-for-CaC category. Giant Storm is a CaC skill obtained from the Skill Shop, while Gigantic Omega is a Strike Super obtained from Broly training. Gigantic Slam was added after dedicated documentation resolved its previously unrecorded subtype. Added Cookie Beam, Zetsumei Bullet, and Appetizing Rush after dedicated Ultimate Attack documentation confirmed their class, subtype, cost, and CaC availability."
 }
