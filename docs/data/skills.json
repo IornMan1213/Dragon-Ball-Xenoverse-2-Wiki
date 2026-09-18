@@ -573,7 +573,7 @@
       "name": "Dragon Thunder",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "corrected",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -610,7 +610,7 @@
       "name": "Pressure Sign",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "corrected",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Pressure_Sign"
       ]
@@ -1033,7 +1033,7 @@
       "name": "Final Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "researched",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Charge",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"
@@ -1153,7 +1153,7 @@
       "name": "Surging Spirit",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "researched",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Surging_Spirit",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"

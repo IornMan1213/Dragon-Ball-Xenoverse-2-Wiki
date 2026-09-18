@@ -551,7 +551,7 @@
       "name": "Dragon Thunder",
       "class": "Counter",
       "subcategory": "Counter",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ]
@@ -587,7 +587,7 @@
       "name": "Pressure Sign",
       "class": "Counter",
       "subcategory": "Counter",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ]
@@ -974,7 +974,7 @@
       "name": "Final Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
       ]
@@ -1091,7 +1091,7 @@
       "name": "Surging Spirit",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
       ]
