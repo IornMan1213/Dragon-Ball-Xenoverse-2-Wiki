@@ -69,5 +69,5 @@
       ]
     }
   ],
-  "notes": "The Xenoverse 2 ID-list sources establish these as distinct cast-only skills and identify their users. Because stronger dedicated attack-type pages were not retrievable in this pass, Boulder Toss/Break are conservatively marked Other rather than forcing Strike or Ki Blast; Energy Cannon and Beam Rifle are marked Ki Blast from their explicit energy-projectile implementations. Exact costs and acquisition remain null. These entries should remain audit candidates for dedicated-page confirmation."
+  "notes": "Audit update: newer web evidence confirms Boulder Break is a Xenoverse 2 Super Skill used by Great Apes, and Great Ape Festival lists Boulder Break and Boulder Toss in the Great Ape presets. The evidence still does not expose the repository canonical Attack Type field, so both remain Other as conservative placeholders. Energy Cannon and Beam Rifle remain cast-only identity records; their exact Xenoverse 2 Attack Type metadata is still unresolved. Exact costs/acquisition remain null."
 }
