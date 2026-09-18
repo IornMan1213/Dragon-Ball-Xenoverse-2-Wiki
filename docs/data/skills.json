@@ -378,10 +378,11 @@
       "research_status": "partially_enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 51 - \"Great Saiyaman is Here\"",
+      "source_quest_or_shop": "Parallel Quest 51",
       "ultimate_finish_required": true,
       "mechanics_notes": "Strike counter Super; brief stance counters an incoming normal attack and follows with a four-hit rush.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "source_quest": 51
     },
     {
       "name": "Change The Future",
@@ -438,10 +439,11 @@
       "ki_cost": 100,
       "research_status": "partially_enriched",
       "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 160 - \"Pan in Peril\"",
+      "source_quest_or_shop": "Parallel Quest 160",
       "ultimate_finish_required": null,
       "mechanics_notes": "Strike counter Super; enters a melee-counter stance and can use an additional input to move in front of the opponent.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "source_quest": 160
     },
     {
       "name": "Dimensional Hole",
@@ -651,7 +653,9 @@
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 96 - \"The Shadow Dragons\" (random reward)",
       "last_verified": "2026-09-18",
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "source_quest": 96,
+      "source_quest_or_shop": "Parallel Quest 96"
     },
     {
       "name": "Celestial Wave",
@@ -664,7 +668,7 @@
       "stamina_cost": 300,
       "damage_type": "Ki Blast",
       "unlock_method": "Random Parallel Quest reward",
-      "source_quest_or_shop": "PQ151",
+      "source_quest_or_shop": "Parallel Quest 151",
       "ultimate_finish_required": null,
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
@@ -674,7 +678,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "source_quest": 151
     },
     {
       "name": "Dragon Burn",
@@ -687,7 +692,9 @@
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 82 - \"Ultimate Brotherly Battle\" (random reward)",
       "last_verified": "2026-09-18",
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "source_quest": 82,
+      "source_quest_or_shop": "Parallel Quest 82"
     },
     {
       "name": "Explosive Wave",
@@ -723,7 +730,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Force_Shield"
-      ]
+      ],
+      "source_quest": 59
     },
     {
       "name": "Instant Rise",
@@ -746,7 +754,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Instant_Rise"
-      ]
+      ],
+      "source_quest": 37
     },
     {
       "name": "Ki Explosion",
@@ -792,7 +801,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Maiden_Burst"
-      ]
+      ],
+      "source_quest": 92
     },
     {
       "name": "Mighty Explosive Wave",
@@ -838,7 +848,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Psychic_Move"
-      ]
+      ],
+      "source_quest": 73
     },
     {
       "name": "Punisher Guard",
@@ -946,7 +957,9 @@
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 18 - \"Force Entrance Exam\" (first-clear reward slot / random reward)",
       "last_verified": "2026-09-18",
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "source_quest": 18,
+      "source_quest_or_shop": "Parallel Quest 18"
     },
     {
       "name": "Angry Shout",
@@ -959,7 +972,9 @@
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 68 - \"Old Rivals and Dragon Balls\" (random reward)",
       "last_verified": "2026-09-18",
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "source_quest": 68,
+      "source_quest_or_shop": "Parallel Quest 68"
     },
     {
       "name": "Energy Barrier",
@@ -972,7 +987,9 @@
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" (random reward; Ultimate Finish associated with the drop)",
       "last_verified": "2026-09-18",
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "source_quest": 32,
+      "source_quest_or_shop": "Parallel Quest 32"
     },
     {
       "name": "Spirit Explosion",
@@ -995,7 +1012,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Explosion"
-      ]
+      ],
+      "source_quest": 25
     },
     {
       "name": "Spirit Slash",
@@ -1257,7 +1275,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball"
-      ]
+      ],
+      "source_quest": 88
     },
     {
       "name": "Candy Beam",
@@ -1475,7 +1494,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dimension_Cannon"
-      ]
+      ],
+      "source_quest": 59
     },
     {
       "name": "Divine Kamehameha",
@@ -2445,7 +2465,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Victory_Cannon"
-      ]
+      ],
+      "source_quest": 54
     },
     {
       "name": "Wild Buster",
