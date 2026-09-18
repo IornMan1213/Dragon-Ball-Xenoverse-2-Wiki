@@ -2656,11 +2656,12 @@
       "name": "Super Guard",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
       ],
-      "ki_cost": 0
+      "ki_cost": 100,
+      "description": " Base cost corrected to 100 Ki; holding the skill drains additional Ki."
     },
     {
       "name": "Surging Spirit",
