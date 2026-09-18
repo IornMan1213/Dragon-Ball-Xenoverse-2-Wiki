@@ -186,3 +186,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The 19 zero-Ki Super records are not being normalized away: the current evidence confirms that zero-cost skills can be legitimate. For example, Dimensional Hole is explicitly documented as a Ki Blast Super with **0 Ki**; community references also document Instant Transmission as zero-Ki. citeturn1search0turn1search12
 - This pass therefore preserves explicit zero-cost values and avoids inferring costs from skill class alone.
 - Remaining priority: spot-check non-zero Super/Ultimate costs against individual skill evidence, especially historical/version-sensitive skills whose costs have changed over time. Official Steam patch notes demonstrate that skill Ki costs can change between versions. citeturn0search8
+
+
+### Awoken activation-cost baseline audit — 2026-09-18
+- Corrected the canonical Awoken activation-cost baselines for eight records where the prior value represented a highest-stage/legacy value rather than the documented entry threshold: Kaioken (100; stages 100/300/500), Super Saiyan (300; stages 300/400/500), Super Vegeta (300; stage 2 = 400), Super Saiyan God (300), Turn Golden (300), Purification (300), Become Giant (300), and Power Pole Pro (0).
+- Updated `docs/data/awoken-skills.json`, `docs/data/skills.json`, and `docs/data/skills-index.json` together and retained the stage-specific values in notes rather than collapsing multi-stage forms to a single generic cost.
+- Research source: Madreag's consolidated transformation research table, which records the per-stage thresholds and resource behavior. citeturn2view0
+- The audit remains partially verified: some transformation mechanics and acquisition/version details still require per-record evidence.
