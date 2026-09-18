@@ -337,7 +337,11 @@
         "Supreme Fury"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "skill_drop_conditions": [
+        "50% Ultimate Finish",
+        "50% Ultimate Finish"
+      ]
     },
     {
       "number": 180,
@@ -371,7 +375,11 @@
         "Burning Blast"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "skill_drop_conditions": [
+        "50% Ultimate Finish",
+        "50% Ultimate Finish"
+      ]
     }
   ]
 }
