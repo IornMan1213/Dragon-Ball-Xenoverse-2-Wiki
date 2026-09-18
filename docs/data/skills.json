@@ -1033,10 +1033,13 @@
       "name": "Final Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "researched",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+        "https://dbxv2.fandom.com/wiki/Final_Charge",
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
+      ],
+      "character_source": "SSGSS Vegeta (Evolved)",
+      "dlc_requirement": "Ultra Pack 1"
     },
     {
       "name": "Full Power Charge",
@@ -1150,10 +1153,13 @@
       "name": "Surging Spirit",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "researched",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+        "https://dbxv2.fandom.com/wiki/Surging_Spirit",
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
+      ],
+      "character_source": "Goku (Ultra Instinct); Goku (Ultra Instinct -Sign-)",
+      "dlc_requirement": "Extra Pack 2; Conton City Vote Pack"
     },
     {
       "name": "Time Bullet",
