@@ -570,3 +570,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Retained documented zero-cost skills where current references support zero cost, including Dimensional Hole, Instant Transmission, and Meditation. citeturn1search0turn0search2turn0search0
 - Did not normalize costs by class alone: charging, transformation-adjacent, counter, and utility skills can legitimately use 0 or nonstandard costs.
 - Remaining work: continue individual verification of nonzero and historically/version-sensitive Ki costs, then audit Ultimate Finish flags and acquisition/version provenance.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Audited all 245 canonical Super/Ultimate records for missing Ki-cost values; **0** are null/missing.
+- Zero-Ki records are concentrated in charge/power-up/utility techniques and were retained rather than normalized generically.
+- Variable costs are preserved for resource-dumping techniques: Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600). This matches the available skill references, including the current Ultimate Attack index and individual DAIMA pages. citeturn1search0turn1search1turn1search2
+- Fixed high-cost examples such as Death Ball (400) and Full Power Destruction (500) also match the indexed reference data. citeturn1search1
+- No blanket cost correction was applied where evidence did not establish a discrepancy. Next pass should target acquisition/version provenance and Ultimate Finish semantics rather than inferring costs from class.
