@@ -336,3 +336,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - This preserves variable/charge-based costs as represented by the research layer instead of flattening them into a single number.
 - Fandom skill pages were inaccessible to the web retriever in this pass because of robots.txt, so no new web facts from those pages are being asserted here; existing repository provenance remains the basis for these records.
 - Next: audit Ultimate Finish flags and acquisition semantics, then DLC/version provenance and mechanics.
+
+
+### Crosslink report synchronization — 2026-09-18
+- Refreshed `docs/data/pq-skill-crosslink-report.json` to the current canonical skill layer: **294 canonical records**, **283 unique skill names**, **205 linked PQ skill rewards**, **0 unresolved references**.
+- The report was stale at 297 canonical records; no unresolved PQ reward references were introduced by the subsequent duplicate/taxonomy cleanup.
+- The remaining duplicate names are intentional multi-record identities (not duplicate canonical identities), including Awoken race/Transformation records and Big Bang Knuckle where applicable.
