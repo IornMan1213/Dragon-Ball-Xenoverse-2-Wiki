@@ -608,11 +608,11 @@
     },
     {
       "name": "Pressure Sign",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "corrected",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+        "https://dbxv2.fandom.com/wiki/Pressure_Sign"
       ]
     },
     {
