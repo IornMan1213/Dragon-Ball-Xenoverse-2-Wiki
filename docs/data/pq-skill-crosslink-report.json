@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 139,
-  "linked_skill_rewards": 57,
+  "canonical_skill_records": 147,
+  "linked_skill_rewards": 65,
   "alias_matches": [
     {
       "pq": 48,
@@ -606,40 +606,8 @@
       "skill": "Justice Drive"
     },
     {
-      "pq": 173,
-      "skill": "Divine Ray Bomb"
-    },
-    {
-      "pq": 174,
-      "skill": "Final Rampage"
-    },
-    {
-      "pq": 175,
-      "skill": "God of Destruction's Plaything"
-    },
-    {
-      "pq": 175,
-      "skill": "God of Destruction's Poise"
-    },
-    {
-      "pq": 177,
-      "skill": "Dragon Spark"
-    },
-    {
-      "pq": 177,
-      "skill": "Soaring Rush"
-    },
-    {
       "pq": 178,
       "skill": "Burst Blitz"
-    },
-    {
-      "pq": 179,
-      "skill": "Heat Wave"
-    },
-    {
-      "pq": 179,
-      "skill": "Supreme Fury"
     },
     {
       "pq": 180,
@@ -664,8 +632,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 125,
-  "unresolved_count": 162,
+  "unique_canonical_skill_names": 133,
+  "unresolved_count": 154,
   "resolved_skill_rewards": [
     {
       "pq": 172,
