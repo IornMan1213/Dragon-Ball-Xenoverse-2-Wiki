@@ -81,5 +81,5 @@
       ]
     }
   ],
-  "notes": "Batch 285 was reconciled against the prior batch-264 records to avoid duplicate identities. Strong dedicated Xenoverse 2 pages establish Bloody Sauce, Celestial Hammer, Spiral of Condemnation, and Gigantic Slam. Other names previously listed in this batch were already researched in batch 264 and were removed here. Duplicate identities were collapsed to one record per canonical (name, class, subcategory) key after validation."
+  "notes": "Batch 285 was reconciled against the prior batch-264 records to avoid duplicate identities. Strong dedicated Xenoverse 2 pages establish Bloody Sauce, Celestial Hammer, Spiral of Condemnation, and Gigantic Slam. Other names previously listed in this batch were already researched in batch 264 and were removed here. Duplicate identities were collapsed to one record per canonical (name, class, subcategory) key after validation. Removed Marbling Drop, Seasoning Arrow, and Time Shackles because Batch 264 already contains those identities. This batch retains only newly cataloged identities."
 }
