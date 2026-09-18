@@ -1,0 +1,51 @@
+{
+  "batch_id": 184,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: verify Xenoverse 2 identity, acquisition route, costs, and mechanics; preserve unresolved fields as null.",
+  "research_scope": "Punisher Drive — Strike Super acquisition and mechanics research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with Xenoverse 2-specific documentation and independent Dragon Ball documentation.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Punisher Drive"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Punisher Drive was found. Canonical identity is Super / Strike."
+    },
+    "classification_finding": "Xenoverse 2 documentation identifies Punisher Drive as one of Gogeta's Super Skills and the repository's seeded index places it in Strike Supers.",
+    "acquisition_finding": "Independent Dragon Ball documentation states that the Future Warrior obtains Punisher Drive from the Skill Shop after progressing through the main story; current character documentation identifies it as Gogeta's Super Skill.",
+    "finish_policy": "ultimate_finish_required is null because the documented acquisition route is the Skill Shop rather than a Parallel Quest reward.",
+    "cost_policy": "The exact current Ki cost was not established by the reviewed authoritative sources and is therefore left null rather than inferred."
+  },
+  "records": [
+    {
+      "name": "Punisher Drive",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Gogeta (Super Saiyan) / Gogeta (DB Super)",
+      "dlc_requirement": null,
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A rush Strike Super in which the user repeatedly slides forward and, on reaching the opponent, unleashes a rapid invisible barrage before appearing behind them.",
+      "mechanics_notes": "Xenoverse 2 documentation describes repeated sliding movement followed by a lightning-fast combo. Historical patch documentation records a later change allowing the final attack to be guarded, demonstrating version-sensitive behavior; exact frame and damage values are not promoted to canonical data.",
+      "acquisition_notes": "The documented Future Warrior route is the Skill Shop after the relevant main-story progression. Historical community reports are retained only as supporting context.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "Historical community reports describe strong tracking and evasive/defensive interactions, but these are version-sensitive and are not encoded as unsupported numeric claims.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Punisher_Drive",
+        "https://videogaming.fandom.com/wiki/Punisher_Drive",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74765001",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74512351",
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    }
+  ]
+}
