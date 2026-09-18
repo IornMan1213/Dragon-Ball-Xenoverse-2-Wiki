@@ -562,3 +562,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - All canonical Super and Ultimate records currently have a non-null Ki-cost field; no blanket defaulting was performed.
 - The 20 zero-Ki Super records are concentrated in charge, utility, and Power Up skills (including Instant Transmission, Final Charge, Surging Spirit, Fighting Pose variants, and related entries), so their zero values remain candidates for evidence-level verification rather than automatic correction.
 - Web lookup of the Fandom skill pages was blocked by robots.txt in this pass; no unsupported costs were inferred from that failed lookup.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Completed a targeted audit of canonical Super/Ultimate records with zero Ki cost.
+- Corrected **Rise to Action** from 0 to **100 Ki**, matching its current skill reference. citeturn0search1
+- Retained documented zero-cost skills where current references support zero cost, including Dimensional Hole, Instant Transmission, and Meditation. citeturn1search0turn0search2turn0search0
+- Did not normalize costs by class alone: charging, transformation-adjacent, counter, and utility skills can legitimately use 0 or nonstandard costs.
+- Remaining work: continue individual verification of nonzero and historically/version-sensitive Ki costs, then audit Ultimate Finish flags and acquisition/version provenance.
