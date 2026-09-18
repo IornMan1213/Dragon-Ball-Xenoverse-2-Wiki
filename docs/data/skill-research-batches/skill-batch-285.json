@@ -1,0 +1,102 @@
+{
+  "batch_id": 285,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Previously absent cast-exclusive Super/Ultimate skills",
+  "records": [
+    {
+      "name": "Darkness Mixer",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Supervillain characters / Crystal Raid bosses",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Charge skill that rapidly restores Ki while also recovering Stamina and providing protection from normal Ki shots.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Darkness_Mixer",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Gigantic Slam",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Broly",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Grab-and-slam attack; Broly grabs the opponent and slams them down with a Ki wave.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
+      ]
+    },
+    {
+      "name": "Zetsumei Bullet",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Cell (First Form)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Rush/grab Ultimate that finishes with a point-blank energy blast.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/Zetsumei_Bullet"
+      ]
+    },
+    {
+      "name": "Cookie Beam",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Majin Buu",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Transforms the opponent into a cookie; Buu eats it and restores health.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Cookie_Beam"
+      ]
+    },
+    {
+      "name": "Appetizing Rush",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 400,
+      "usable_by_cac": false,
+      "character_source": "Android 21",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Teleporting rush attack ending in a Savory Slicer follow-up.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Appetizing_Rush",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Energy Jet",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    }
+  ],
+  "notes": "All six names were confirmed absent from docs/data/skills.json before this batch. Dedicated Xenoverse 2 sources establish their class/subcategory and CaC availability where available. Numeric Ki costs are recorded only where the source explicitly provides them; no unlock/Ultimate-Finish requirement is inferred from absence."
+}
