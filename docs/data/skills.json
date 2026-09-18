@@ -967,15 +967,6 @@
       ]
     },
     {
-      "name": "Instant Transmission",
-      "class": "Super",
-      "subcategory": "Other",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
-    },
-    {
       "name": "Afterimage Strike",
       "class": "Super",
       "subcategory": "Other",
@@ -1379,5 +1370,5 @@
       "last_verified": "2026-09-18"
     }
   ],
-  "record_count": 132
+  "record_count": 131
 }
