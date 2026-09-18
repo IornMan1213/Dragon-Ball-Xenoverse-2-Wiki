@@ -165,3 +165,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Five nonstandard Ultimate costs were explicitly spot-checked rather than normalized: Chaotic Time Impact (600), Death Ball (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), and Power Rush (1000).
 - Current source evidence supports retaining these values; Power Rush is explicitly documented at 1000 Ki, while Death Ball is documented at 400 Ki and Gigantic Explosion at 600 Ki. citeturn1search0turn1search2turn1reddit48
 - No blanket class-based cost inference was applied. Remaining second-pass work is to verify acquisition routes, CaC/race restrictions, Ultimate Finish semantics, DLC/version provenance, and mechanics for the full Super/Ultimate catalog.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the canonical Super/Ultimate cost distribution rather than applying class-based defaults.
+- No Super/Ultimate records currently have a missing Ki cost.
+- Verified documented nonstandard Ultimate costs: Chaotic Time Impact = 600 Ki, Gigantic Explosion = 600 Ki, and Power Rush = 1000 Ki. citeturn1search2turn1search3turn1search0turn1search1
+- Zero-Ki Super/Power Up entries are intentional charge/stance-style exceptions and remain unchanged; they should not be normalized to 100 Ki without move-specific evidence.
+- Next cost pass should focus on conditional/variable resource mechanics (including stamina-on-hit/alternate-input costs) and acquisition/version metadata rather than bulk cost normalization.
