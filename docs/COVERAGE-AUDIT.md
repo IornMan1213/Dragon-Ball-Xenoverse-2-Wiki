@@ -285,3 +285,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Fandom's current Vanishing Ball page identifies it as a Ki Blast Super, lists 100 Ki, and identifies PQ58 “Majin Banquet” as its acquisition source. citeturn3search0
 - Independent PQ references corroborate Vanishing Ball as a PQ58 reward. citeturn3search1turn3youtube20
 - This correction demonstrates that cost auditing must be paired with class/taxonomy verification rather than assuming class from resource cost alone.
+
+
+### Super/Ultimate resource-cost audit milestone — 2026-09-18
+- Canonical Super/Ultimate records have no null/missing Ki-cost fields in the current catalog.
+- A targeted audit found **Data Input** incorrectly recorded at 0 Ki; authoritative Fandom data lists **100 Ki**, so canonical and index data were corrected. citeturn1search4
+- Zero-cost entries were not mass-normalized: charge/reinforcement skills can legitimately have no activation Ki cost, while sustained or variable-cost skills require separate treatment. For example, Super Guard consumes Ki while held and is documented as 100+ Ki, so its zero placeholder remains a distinct audit item rather than being silently converted. citeturn1search0
+- Next: continue individual review of remaining nonstandard/variable resource semantics and Ultimate Finish/acquisition/version fields.
