@@ -362,3 +362,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Refined canonical acquisition metadata for four skills with independently documented shop/PQ routes: Bending Kamehameha (Skill Shop), Big Bang Kamehameha (TP Medal Shop), X 100 Big Bang Kamehameha (TP Medal Shop + PQ100), and Final Kamehameha (TP Medal Shop + PQ91).
 - The source research also confirms that skill acquisition is not limited to one route: current references explicitly list shop and PQ routes for X100 Big Bang Kamehameha and Final Kamehameha, so the canonical layer preserves both rather than overwriting one with the other. citeturn2search0turn2search1turn2search2turn2search5
 - Next acquisition pass should target additional non-PQ skills and multi-route skills, then reconcile character-only versus CaC availability without inferring restrictions from character users alone.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Audited the canonical Super/Ultimate Ki-cost outliers rather than applying class-wide defaults.
+- Corrected Super Guard from 0 to a 100 Ki base cost; its reference documents 100+ Ki because holding the guard continues draining Ki. citeturn2search0
+- Confirmed legitimate nonstandard values: Dimensional Hole and Destruction's Conductor use 0 Ki, while Chaotic Time Impact and Gigantic Explosion use 600 Ki. citeturn2search1turn2search2turn1search0turn1search1
+- Confirmed variable-cost skills such as Super Guard and Dark Inscription should retain base/variable semantics rather than being flattened into a fixed cost. citeturn2search0turn2search3
+- Next: continue individual Ki-cost review for variable and multi-stage skills, then audit Ultimate Finish and acquisition semantics.
