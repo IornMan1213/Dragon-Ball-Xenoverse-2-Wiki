@@ -688,3 +688,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Crosslink report synchronization — 2026-09-18
 - Reconciled the persisted PQ→skill crosslink report's canonical-record count with the current canonical catalog: 298 records / 283 unique skill names.
 - The report continues to record 205 linked skill rewards and zero unresolved references; no PQ reward identities were fabricated or altered in this maintenance pass.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the canonical Super/Ultimate layer for null Ki-cost fields; none remain in those two classes.
+- Corrected the documented cost of **Gigantic Breaker** from 300 to **200 Ki**, matching the skill reference's explicit Ki-used value. citeturn0search7
+- Reference material also demonstrates why class-wide defaults are unsafe: Ultimate costs include 300, 400, 500, and variable values, while some skills consume additional Ki during use. citeturn0search0turn0search5
+- Next: audit non-null costs for suspicious values and then review Ultimate Finish requirements, acquisition semantics, and DLC/version provenance.
