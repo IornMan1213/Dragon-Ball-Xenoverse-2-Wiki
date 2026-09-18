@@ -61,6 +61,51 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
+    },
+    {
+      "name": "Darkness Mixer",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Supervillain characters; Demon God Demigra",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Ki and Stamina charging Super with a damaging dark aura.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Darkness_Mixer"
+      ]
+    },
+    {
+      "name": "Pretty Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": 0,
+      "usable_by_cac": false,
+      "character_source": "Ribrianne",
+      "dlc_requirement": "Ultra Pack 1",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Ki charging Super.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pretty_Charge"
+      ]
+    },
+    {
+      "name": "Final Flash (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 200,
+      "usable_by_cac": false,
+      "character_source": "SSGSS Vegeta (Evolved); Gogeta (Super Saiyan 4) Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Long-range Final Flash Super variant.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Flash_%28Super%29"
+      ]
     }
   ],
   "notes": "Retains the new Giant Storm catalog record and the Energy Cannon provenance/effect correction. Previously researched records from Batches 264, 278, and 285 are intentionally not duplicated here. Gigantic Slam was verified directly from its dedicated Xenoverse 2 page as Strike/Super, 100 Ki, and unavailable to CaC."
