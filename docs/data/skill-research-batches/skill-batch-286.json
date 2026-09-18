@@ -122,7 +122,7 @@
       ]
     }
   ],
-  "notes": "Gigantic Slam was absent from the canonical catalog and is represented as a new record. Bloody Sauce was added in Batch 285 and is corrected here. Boulder Break, Boulder Toss, Energy Cannon, and Beam Rifle are retained as formal corrections to Batch 283. Giant Storm is intentionally not included because it is an Ultimate Skill and will be handled in the appropriate Ultimate catalog.",
+  "notes": "Gigantic Slam was absent from the canonical catalog and is represented as a new record. Bloody Sauce was added in Batch 285 and is corrected here. Boulder Break, Boulder Toss, Energy Cannon, and Beam Rifle are retained as formal corrections to Batch 283. Giant Storm is intentionally not included because it is an Ultimate Skill and will be handled in the appropriate Ultimate catalog. Added Darkness Mixer and Pretty Charge after dedicated source verification; both were absent from canonical skills.json.",
   "records": [
     {
       "name": "Gigantic Slam",
@@ -138,6 +138,38 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
+    },
+    {
+      "name": "Darkness Mixer",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Supervillain characters; Demon God Demigra; Crystal Raid",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Rapid Ki charge that also restores Stamina and produces a damaging aura.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Darkness_Mixer"
+      ],
+      "notes": "Dedicated source explicitly classifies this as Other Super and Unavailable for CaC."
+    },
+    {
+      "name": "Pretty Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": 0,
+      "usable_by_cac": false,
+      "character_source": "Ribrianne",
+      "dlc_requirement": "Ultra Pack 1",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Ribrianne's unique Ki-charging Super.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pretty_Charge"
+      ],
+      "notes": "Dedicated source explicitly gives Attack Type Other, Skill Type Super, Ki Used 0, and Unavailable for CaC."
     }
   ]
 }
