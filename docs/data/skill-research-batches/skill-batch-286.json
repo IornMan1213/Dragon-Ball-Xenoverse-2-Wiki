@@ -35,7 +35,38 @@
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
+    },
+    {
+      "name": "Pretty Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": 0,
+      "usable_by_cac": false,
+      "character_source": "Ribrianne",
+      "dlc_requirement": "Ultra Pack 1",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Ki charging Super that functions similarly to Full Power Charge and ends with Ribrianne's pose.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pretty_Charge",
+        "https://dragonball.fandom.com/wiki/Pretty_Charge"
+      ]
+    },
+    {
+      "name": "Darkness Mixer",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Supervillain characters; Demon God Demigra",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Charge Super that rapidly restores Ki and Stamina while its dark aura damages nearby enemies and blocks normal Ki shots.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Darkness_Mixer"
+      ]
     }
   ],
-  "notes": "Both identities are explicitly documented in current Xenoverse 2 skill-category pages. Giant Storm is an obtainable Ki Blast Ultimate with a 300 Ki cost and Skill Shop unlock. Gigantic Slam is a 100 Ki Strike Super and explicitly unavailable to CaCs. These were absent from docs/data/skills.json at research time."
+  "notes": "Both identities are explicitly documented in current Xenoverse 2 skill-category pages. Giant Storm is an obtainable Ki Blast Ultimate with a 300 Ki cost and Skill Shop unlock. Gigantic Slam is a 100 Ki Strike Super and explicitly unavailable to CaCs. These were absent from docs/data/skills.json at research time. Pretty Charge and Darkness Mixer were also absent from canonical skills.json and are now reconciled here. Surging Spirit was checked but is already present canonically, so it was not duplicated."
 }
