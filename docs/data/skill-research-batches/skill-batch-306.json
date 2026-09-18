@@ -1,0 +1,68 @@
+{
+  "batch_id": 306,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Ki Blast Ultimate coverage expansion",
+  "records": [
+    {
+      "name": "Gigantic Meteor",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Broly; Broly (Restrained); Broly (Supervillain); Broly (Full Power Super Saiyan); Kefla (Super Saiyan) Customize Partner; Kale (Super Saiyan 2) variant",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Broly",
+      "ultimate_finish_required": null,
+      "effect": "Tracking Ki Blast that detonates after reaching the target.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Meteor"
+      ]
+    },
+    {
+      "name": "Gigantic Explosion",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 600,
+      "usable_by_cac": true,
+      "character_source": "Broly (Restrained); Broly (DB Super); Broly Customize Partner",
+      "dlc_requirement": "Extra Pack 4",
+      "unlock_method": "Parallel Quest 164 - Where is Goku?!",
+      "ultimate_finish_required": null,
+      "effect": "Awoken-required expanding explosion; can spend 400 Stamina to continue through damage.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
+      ]
+    },
+    {
+      "name": "Super Electric Strike",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Android 17; Android 17 (DB Super)",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 11 - The Devil Born from the Dragon Balls",
+      "ultimate_finish_required": null,
+      "effect": "Large tracking electrical Ki wave with multiple hits.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Electric_Strike"
+      ]
+    },
+    {
+      "name": "Minus Energy Power Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 500,
+      "usable_by_cac": true,
+      "character_source": "Omega Shenron; Omega Shenron (Supervillain); Mira",
+      "dlc_requirement": null,
+      "unlock_method": "Shenron wish: I want another Ultimate Attack! (again)",
+      "ultimate_finish_required": null,
+      "effect": "Condensed minus-energy projectile that can hit repeatedly during setup and launch.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Minus_Energy_Power_Ball"
+      ]
+    }
+  ]
+}
