@@ -1487,7 +1487,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 11",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
       "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
       "verification_status": "partially_verified",
@@ -1495,7 +1495,8 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun"
+        "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md"
       ]
     },
     {
@@ -4132,7 +4133,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
       "source_quest_or_shop": "PQ184",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "skill_description": "Chaotic Time Impact is a Ultimate Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
@@ -4140,7 +4141,8 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md"
       ]
     },
     {
@@ -5015,7 +5017,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 100",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "skill_description": "X 100 Big Bang Kamehameha is a Ultimate Ki Blast skill associated with Vegeta (Super Saiyan Blue).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
@@ -5023,7 +5025,8 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha"
+        "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=432754991"
       ]
     },
     {
@@ -5239,7 +5242,7 @@
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 122",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "skill_description": "Power Rush is a Ultimate Strike skill associated with Jiren.",
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
@@ -5247,7 +5250,8 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76367830"
       ]
     },
     {
