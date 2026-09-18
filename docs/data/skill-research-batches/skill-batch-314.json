@@ -35,21 +35,6 @@
       ]
     },
     {
-      "name": "Heat Dome Attack",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Trunks (Future)",
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 40: The Future Warriors",
-      "ultimate_finish_required": null,
-      "effect": "Large Ki wave fired upward and then toward the opponent.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
       "name": "Dual Destructo-Disc",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -60,21 +45,6 @@
       "unlock_method": "Training with Android 18",
       "ultimate_finish_required": null,
       "effect": "Two Destructo-Discs fired in a pincer attack.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
-      "name": "Perfect Kamehameha",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 400,
-      "usable_by_cac": true,
-      "character_source": "Cell (Perfect); Cell (Full Power); Cell (Full Power) Supervillain",
-      "dlc_requirement": null,
-      "unlock_method": "Training with Cell (Perfect)",
-      "ultimate_finish_required": null,
-      "effect": "Maximum-powered Kamehameha that cannot be guarded.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -95,51 +65,6 @@
       ]
     },
     {
-      "name": "Angry Explosion",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": true,
-      "character_source": "Majin Buu",
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 12: Attack of the Lone Super Soldier",
-      "ultimate_finish_required": null,
-      "effect": "Area explosion that can be prolonged by holding the input and consuming Ki.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
-      "name": "Gigantic Meteor",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan); Kefla (Super Saiyan) Customize Partner; Kale (Super Saiyan 2)",
-      "dlc_requirement": null,
-      "unlock_method": "Training with Broly",
-      "ultimate_finish_required": null,
-      "effect": "Tiny compressed Ki blast that expands into a huge explosion.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
-      "name": "Sphere of Destruction",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": true,
-      "character_source": "God of Destruction Beerus",
-      "dlc_requirement": null,
-      "unlock_method": "Training with God of Destruction Beerus",
-      "ultimate_finish_required": null,
-      "effect": "Large destructive Ki blast.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
       "name": "Maiden Blast",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -155,5 +80,5 @@
       ]
     }
   ],
-  "notes": "All ten identities were absent from docs/data/skills.json at the audit point. The current Ultimate Attack taxonomy explicitly supplies their Ki Blast Ultimate classification and acquisition. X4 Kaioken Kamehameha's variable 300-400 Ki cost is represented as null here rather than collapsing its range; Angry Explosion's variable 300+ cost is likewise left null."
+  "notes": "All ten identities were absent from docs/data/skills.json at the audit point. The current Ultimate Attack taxonomy explicitly supplies their Ki Blast Ultimate classification and acquisition. X4 Kaioken Kamehameha's variable 300-400 Ki cost is represented as null here rather than collapsing its range; Angry Explosion's variable 300+ cost is likewise left null. Duplicate audit on 2026-09-18 removed five identities already represented by earlier research batches: Heat Dome Attack (Batch 17/corrected by Batch 35), Perfect Kamehameha (Batch 312), Angry Explosion (Batch 13), Gigantic Meteor (Batch 306), and Sphere of Destruction (Batch 307). Their earlier research records remain the canonical research history."
 }

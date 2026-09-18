@@ -15,6 +15,9 @@ This file is the working project tracker. Statuses describe repository work, not
 
 ## Done
 
+- [x] Audited Skill Research Batch 314 for canonical-identity duplication; removed five records already covered by earlier batches while preserving the earlier research history and evidence.
+- [x] Confirmed current Xenoverse 2 evidence for Perfect Kamehameha as a 400-Ki Ki Blast Ultimate taught by Perfect Cell; the earlier Batch 312 duplicate is superseded as a duplicate, not a second skill identity.
+
 - [x] Removed duplicate custom GitHub Pages workflows that could compete with native Pages deployment.
 - [x] Removed the duplicate `docs/index.html` Pages entry point.
 - [x] Added/expanded the homepage database status and progress indicators.
@@ -67,6 +70,8 @@ This file is the working project tracker. Statuses describe repository work, not
 
 ## In Progress
 
+- [ ] **P0 — Clear research-batch validation blockers exposed by the Skills Sync workflow, starting with duplicate canonical identities and then rerunning the full repository validators.**
+
 - [ ] Continue skill research in batches, with a duplicate search before every batch.
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
 - [ ] Reconcile unresolved Skill fields against multiple independent sources before promoting records to `verified`.
@@ -113,6 +118,22 @@ The project is being worked as parallel tracks so the site visibly improves whil
 - Exhaustiveness means recording known details and known unknowns, not manufacturing certainty.
 
 ## Next Working Cycle
+
+1. **P0:** verify the corrected Batch 314 against the repository duplicate/semantic validators and inspect the next Skills Sync/Data Audit workflow result.
+2. **P1:** if validation is clean, synchronize accumulated research batches into the canonical skills.json/skills-index.json layer and verify the generated catalog rather than assuming sync occurred.
+3. Re-verify one previously researched batch while continuing the next non-duplicate Ki Blast Ultimate coverage batch.
+4. Continue resolving high-value unresolved skill fields with independent Xenoverse 2 sources; do not promote uncertain UF, cost, drop-rate, or acquisition fields.
+5. Reconcile Batch 36 final-DLC skills and The Power to Overcome mechanics.
+6. Deepen EM16–20 with exact phase/mechanic/reward tables where evidence supports them.
+7. Continue EM01–15 individual records and reconcile the strongest independently documented missions first.
+8. Populate the next Super Soul batch and resolve its acquisition/effect provenance.
+9. Expand the individual Equipment population from the first 10 records into complete clothing and accessory coverage.
+10. Expand QQ Bang observed-result research alongside the equipment records.
+11. Update this TODO tracker and CHANGELOG.md as priorities change.
+12. Inspect GitHub Pages deployment and repository-quality/data-audit results; record failures honestly.
+
+## Legacy Next-Cycle Notes
+
 
 1. Re-verify Batch 36, starting with PQ185/PQ186 reward-slot semantics and the exact mechanics of Dragon Spiral, Indomitable, and Venus Fist.
 2. Verify The Power to Overcome's exact activation/Overdrive behavior against independent technical research while retaining conflicting measurements as provenance rather than averaging them.
