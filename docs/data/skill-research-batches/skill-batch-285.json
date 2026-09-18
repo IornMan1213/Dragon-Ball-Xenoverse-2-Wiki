@@ -42,13 +42,15 @@
       "usable_by_cac": false,
       "character_source": "Supervillain and Crystal Raid boss characters",
       "dlc_requirement": null,
-      "unlock_method": "Expert Mission 20: Harbinger of Doom",
+      "unlock_method": null,
       "ultimate_finish_required": null,
       "effect": "Wave of purple Ki blasts that can poison or slow targets.",
       "sources": [
-        "dbxv2.fandom.com/wiki/Bloody_Sauce"
-      ]
+        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76313736"
+      ],
+      "acquisition_note": "The dedicated page labels Expert Mission 20: Harbinger of Doom in its Unlock field, but also states the skill is usable by Time Patrollers only in Crystal Raid or Training mode; this is therefore not treated as a normal CaC unlock."
     }
   ],
-  "notes": "Cleaned duplicate identity: Spiral of Condemnation is already covered by batch 271. Remaining records are Celestial Hammer, Gigantic Slam, and Bloody Sauce."
+  "notes": "Validated against dedicated skill pages and character/skill references. Bloody Sauce's page reports 100 Ki, Ki Blast, Crystal Raid behavior, and the Supervillain/boss user set; its separate Unlock field is not interpreted as ordinary CaC acquisition. Gigantic Slam is explicitly Strike/Super, 100 Ki, and unavailable to CaC. Celestial Hammer is a Half-Corrupted Fused Zamasu Crystal Raid skill; its exact Ki cost remains null."
 }
