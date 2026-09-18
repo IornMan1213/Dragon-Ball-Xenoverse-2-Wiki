@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 200,
-  "linked_skill_rewards": 118,
+  "canonical_skill_records": 216,
+  "linked_skill_rewards": 134,
   "alias_matches": [
     {
       "pq": 48,
@@ -13,70 +13,6 @@
     }
   ],
   "unresolved": [
-    {
-      "pq": 33,
-      "skill": "Death Psycho Bomb"
-    },
-    {
-      "pq": 34,
-      "skill": "Paralysis"
-    },
-    {
-      "pq": 36,
-      "skill": "Evil Whirlwind"
-    },
-    {
-      "pq": 37,
-      "skill": "Instant Rise"
-    },
-    {
-      "pq": 39,
-      "skill": "Side Bridge"
-    },
-    {
-      "pq": 40,
-      "skill": "Heat Dome Attack"
-    },
-    {
-      "pq": 41,
-      "skill": "Burning Attack"
-    },
-    {
-      "pq": 42,
-      "skill": "Rolling Bullet"
-    },
-    {
-      "pq": 45,
-      "skill": "Taunt"
-    },
-    {
-      "pq": 46,
-      "skill": "Chain Destructo-Disc Barrage"
-    },
-    {
-      "pq": 49,
-      "skill": "Do or Die"
-    },
-    {
-      "pq": 50,
-      "skill": "Explosive Buu Buu Punch"
-    },
-    {
-      "pq": 52,
-      "skill": "Final Cannon"
-    },
-    {
-      "pq": 53,
-      "skill": "Justice Pose"
-    },
-    {
-      "pq": 54,
-      "skill": "Victory Cannon"
-    },
-    {
-      "pq": 55,
-      "skill": "Super Donut Volley"
-    },
     {
       "pq": 56,
       "skill": "Stone Bullet"
@@ -420,8 +356,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 186,
-  "unresolved_count": 101,
+  "unique_canonical_skill_names": 202,
+  "unresolved_count": 85,
   "resolved_skill_rewards": [
     {
       "pq": 172,
