@@ -299,3 +299,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Nonstandard costs were retained rather than normalized by class: charging/utility Supers legitimately use 0 Ki, Power Rush is 1000 Ki, Chaotic Time Impact and Gigantic Explosion are 600 Ki, and Emperor's Death Beam is represented as 400+ because its documented cost can consume additional Ki.
 - This pass confirms that class-based defaults (for example, assuming every Super costs 100 or every Ultimate costs 300/500) would corrupt the catalog.
 - Remaining metadata work is to verify individual acquisition routes, Ultimate Finish requirements, DLC/version provenance, CaC/race restrictions, and mechanics for older records whose evidence is still partial.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found no Super or Ultimate records with a missing `ki_cost` field; all 298 canonical records retain an explicit value.
+- Research confirms that explicit values must not be normalized to a single class-wide default: documented examples include Prominence Flash at 300 Ki, Full Power Destruction at 500 Ki, God of Destruction's Might at 400 Ki, Super Kamehameha (SS4 DAIMA) at 400–500 Ki, Final Flash (SS3 DAIMA) at 400+ Ki, and Revenge Death Ball at 300+ Ki. citeturn0search0turn0search14turn0search3turn0search13
+- Therefore the next cost pass should target suspicious/ambiguous semantics (base + optional Ki, variable costs, and version/character variants) rather than filling nulls.
