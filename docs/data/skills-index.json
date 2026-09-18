@@ -450,7 +450,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
       "ki_cost": 0,
-      "unlock_method": "Parallel Quest reward (PQ80)"
+      "unlock_method": "Parallel Quest reward (PQ80)",
+      "source_quest": 80
     },
     {
       "name": "Flash Fist Crush",
@@ -472,7 +473,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward (PQ44)"
+      "unlock_method": "Parallel Quest reward (PQ44)",
+      "source_quest": 44
     },
     {
       "name": "Heroic Counter",
@@ -483,7 +485,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward (PQ155)"
+      "unlock_method": "Parallel Quest reward (PQ155)",
+      "source_quest": 155
     },
     {
       "name": "Punisher Shield",
@@ -494,7 +497,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward (PQ129)"
+      "unlock_method": "Parallel Quest reward (PQ129)",
+      "source_quest": 129
     },
     {
       "name": "Reverse Mabakusenko",
@@ -522,7 +526,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward (PQ119 Ultimate Finish)"
+      "unlock_method": "Parallel Quest reward (PQ119 Ultimate Finish)",
+      "source_quest": 119
     },
     {
       "name": "Shadow Crusher",
