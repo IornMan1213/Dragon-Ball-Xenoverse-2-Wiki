@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 171,
+  "record_count": 181,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -2230,6 +2230,236 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Special Beam Cannon (Beast)",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Gohan (Beast)",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ162",
+      "ultimate_finish_required": null,
+      "skill_description": "Special Beam Cannon (Beast) is a Ultimate Ki Blast skill associated with Gohan (Beast).",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)"
+      ]
+    },
+    {
+      "name": "Giant Cluster",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Broly",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ163",
+      "ultimate_finish_required": null,
+      "skill_description": "Giant Cluster is a Super Ki Blast skill associated with Broly.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Giant_Cluster"
+      ]
+    },
+    {
+      "name": "Eraser Bomb",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Broly",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ163",
+      "ultimate_finish_required": null,
+      "skill_description": "Eraser Bomb is a Super Ki Blast skill associated with Broly.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Eraser_Bomb"
+      ]
+    },
+    {
+      "name": "Gigantic Explosion",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Broly",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ164",
+      "ultimate_finish_required": null,
+      "skill_description": "Gigantic Explosion is a Ultimate Ki Blast skill associated with Broly.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
+      ]
+    },
+    {
+      "name": "Variable Snipe Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Android 18",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ165",
+      "ultimate_finish_required": null,
+      "skill_description": "Variable Snipe Shot is a Super Ki Blast skill associated with Android 18.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot"
+      ]
+    },
+    {
+      "name": "Steel Mirage",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "usable_by_cac": true,
+      "character_source": "Android 18",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": null,
+      "stamina_cost": 200,
+      "damage_type": "Other",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ165",
+      "ultimate_finish_required": null,
+      "skill_description": "Steel Mirage is a Evasive Other skill associated with Android 18.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Steel_Mirage"
+      ]
+    },
+    {
+      "name": "Pendulum Bullet",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Android 17",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ166",
+      "ultimate_finish_required": null,
+      "skill_description": "Pendulum Bullet is a Super Ki Blast skill associated with Android 17.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Pendulum_Bullet"
+      ]
+    },
+    {
+      "name": "Seagull Combination",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Videl",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ167",
+      "ultimate_finish_required": null,
+      "skill_description": "Seagull Combination is a Super Strike skill associated with Videl.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Seagull_Combination"
+      ]
+    },
+    {
+      "name": "Burning Swan",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Videl",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ167",
+      "ultimate_finish_required": null,
+      "skill_description": "Burning Swan is a Super Strike skill associated with Videl.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Burning_Swan"
+      ]
+    },
+    {
+      "name": "Justice Drive",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Videl",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Random Parallel Quest reward",
+      "source_quest_or_shop": "PQ168",
+      "ultimate_finish_required": null,
+      "skill_description": "Justice Drive is a Super Strike skill associated with Videl.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Justice_Drive"
       ]
     }
   ]
