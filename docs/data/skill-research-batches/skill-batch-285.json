@@ -12,13 +12,14 @@
       "usable_by_cac": false,
       "character_source": "Supervillain and boss characters; Time Patroller only in Crystal Raid or Training",
       "dlc_requirement": null,
-      "unlock_method": "Expert Mission 13: History of Mixed Battles",
+      "unlock_method": null,
       "ultimate_finish_required": null,
       "effect": "Scattered Ki Blasts that can poison or slow targets.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
-      ]
+      ],
+      "notes": "Raid/Boss-exclusive skill; no ordinary CaC unlock established. Do not infer Expert Mission 13 as a player unlock."
     },
     {
       "name": "Celestial Hammer",
@@ -63,7 +64,8 @@
       "effect": "Large tracking explosion under the opponent.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Giant_Storm"
-      ]
+      ],
+      "notes": "Obtainable by the Future Warrior from the Skill Shop; also available to several Customize Partners. This is not a cast-exclusive skill."
     },
     {
       "name": "Boulder Toss",
