@@ -321,3 +321,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Final Flash (Super) is explicitly character-only/unavailable to CaCs; Kamehameha is PQ05; Galick Gun and Masenko are training rewards; Energy Charge is tied to advancement/playstyle rewards; Final Kamehameha has TP Medal Shop, PQ91, and Double Crystal Raid acquisition paths. citeturn0search0turn0search1turn0search2turn0search3turn0search4turn0search5
 - Canonical and index records were updated together and timestamped 2026-09-18.
 - Remaining acquisition backlog is still large; continue in evidence-backed batches rather than filling routes by inference.
+
+
+### Parallel Quest reward/acquisition enrichment — 2026-09-18
+- Audited PQ161–PQ170 against the maintained Steam transcription and Madreag's current datamined PQ records.
+- Added the documented generic unlock condition for this DLC block: owning the relevant DLC and having the PQ board open.
+- Added explicit skill-drop semantics for the skills in PQ161–PQ168, distinguishing normal-clear drops from Ultimate Finish and Ultimate Finish bonus-slot drops. PQ169–170 correctly remain skillless rather than receiving fabricated skill rewards.
+- Corrected the audit status for this block from unresolved drop-rate semantics to verified reward/drop-rate coverage where the external record explicitly established it.
+- No probability was inferred; values were copied only where the external research record explicitly documented them.
+- Next PQ priority: continue reward/acquisition enrichment through the remaining numbered blocks, then perform a full unresolved-field census before broadening to Awoken/Transformation mechanics.
