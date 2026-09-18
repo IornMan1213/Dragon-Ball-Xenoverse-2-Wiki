@@ -380,3 +380,6 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Confirmed representative Ultimate costs including Full Power Destruction at 500 Ki and Prominence Flash at 300 Ki.
 - Confirmed Pendulum Bullet uses a 300 Ki base cost with additional Ki expenditure possible through follow-up input.
 - Variable and conditional costs must remain explicit rather than being normalized to a presumed fixed value.
+
+### Ultimate Finish evidence cleanup — 2026-09-18
+- Removed the affirmative `ultimate_finish_required` flag from Prominence Flash because the available evidence reviewed in this pass did not establish an authoritative requirement. Community reports about PQ137 drop conditions are anecdotal and conflicting; the canonical field now preserves uncertainty rather than treating them as proof.
