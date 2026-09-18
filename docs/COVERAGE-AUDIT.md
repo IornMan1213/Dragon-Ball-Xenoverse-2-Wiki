@@ -432,3 +432,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The skill remains classified as **Ultimate / Ki Blast** and retains its counter behavior; acquisition was not inferred from its Counter taxonomy.
 - Source evidence identifies it as a Skill Shop purchase for the Future Warrior. citeturn1search1turn1search0
 - Continue counter-skill acquisition research individually; do not treat the Counter category as an acquisition source.
+
+
+### Counter-skill acquisition audit — 2026-09-18
+- Added evidence-backed acquisition routes for Burst Reflection (Dragon Ball wish), Counter Burst (PQ75), Counter Impact (PQ153), Shadow Crusher (Cooler training), Sudden Death Beam (TP/STP Medal Shops and Double Crystal Raid), Super God Shock Flash (Skill Shop), Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike (Hit training), and Ultrasonic Blitz (PQ151).
+- Counter taxonomy remains separate from acquisition semantics; no skill was assigned an acquisition route merely because it is categorized as a counter.
+- Sources include the current Fandom skill pages and mentor/category references. citeturn2search0turn2search4turn2search5turn2search1turn2search3turn2search2turn3search1turn3search2turn3search3turn3search0
+- Continue auditing the remaining counter skills and multi-route acquisition cases individually.
