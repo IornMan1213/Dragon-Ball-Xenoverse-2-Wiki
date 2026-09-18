@@ -168,3 +168,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Verified and synchronized six researched costs: Crimson Edge 100, Divine Ray Bomb 300, Final Rampage 500, Dark Inscription 100, Emperor's Cannon 100, and Chaotic Time Impact 600.
 - External references corroborate these values and the associated PQ acquisitions for the Future Saga skills. citeturn0search0turn0search1turn0search2turn0search3turn0search4turn0search7
 - Continue auditing the remaining null Ki-cost records individually; null remains intentional where the available evidence describes variable/conditional costs or has not yet established an exact value.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the canonical Super/Ultimate resource fields rather than applying class-wide defaults.
+- Corrected documented fixed costs for Divine Spear (200), Wild Stinger (100), God of Destruction's Plaything (100), God of Destruction's Poise (100 base; up to 300 with extension), Dragon Spark (100), Soaring Rush (100), Burst Blitz (300), Supreme Fury (100), Heat Wave (100), and Force Edge (100). The cited Xenoverse 2 references explicitly document several of these values; variable-cost skills remain represented as variable/null where the research source does not establish one fixed activation cost. citeturn1search0turn2search0turn2search1turn2search2turn2search10turn2search12
+- Normalized documented zero-cost support/charge skills including Indomitable, Taunt, Do or Die, Justice Pose, Fighting Pose H, Divinity Unleashed, and Formation! to ki_cost 0.
+- Remaining null costs are an explicit research queue, not assumed values: variable/extended-cost DAIMA/Pikkon ultimates and Burning Blast require individual source verification before promotion to a fixed number.
