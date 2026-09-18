@@ -121,7 +121,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Spirit Bomb",
@@ -130,7 +131,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Vanishing Ball",
@@ -195,7 +197,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Victory Rush",
@@ -223,7 +226,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 400
     },
     {
       "name": "Final Kamehameha",
