@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 153,
-  "linked_skill_rewards": 71,
+  "canonical_skill_records": 171,
+  "linked_skill_rewards": 89,
   "alias_matches": [
     {
       "pq": 48,
@@ -494,78 +494,6 @@
       "skill": "Savory Slicer"
     },
     {
-      "pq": 151,
-      "skill": "Spirit Pulse"
-    },
-    {
-      "pq": 151,
-      "skill": "Celestial Wave"
-    },
-    {
-      "pq": 152,
-      "skill": "Justice Kick"
-    },
-    {
-      "pq": 152,
-      "skill": "Justice Blade"
-    },
-    {
-      "pq": 153,
-      "skill": "Wild Buster"
-    },
-    {
-      "pq": 154,
-      "skill": "Sign of Awakening"
-    },
-    {
-      "pq": 154,
-      "skill": "Circle Flash"
-    },
-    {
-      "pq": 155,
-      "skill": "Gamma Blaster"
-    },
-    {
-      "pq": 155,
-      "skill": "Gamma Impact"
-    },
-    {
-      "pq": 156,
-      "skill": "Heroic Assault"
-    },
-    {
-      "pq": 156,
-      "skill": "Shooting Strike"
-    },
-    {
-      "pq": 158,
-      "skill": "Super Gamma Blast"
-    },
-    {
-      "pq": 158,
-      "skill": "Core Breaker"
-    },
-    {
-      "pq": 159,
-      "skill": "Fierce Fist"
-    },
-    {
-      "pq": 159,
-      "skill": "Demonic Destruction"
-    },
-    {
-      "pq": 160,
-      "skill": "Demon Ray"
-    },
-    {
-      "pq": 160,
-      "skill": "Demon Flurry"
-    },
-    {
-      "pq": 161,
-      "skill": "Apocalyptic Burst"
-    },
-    {
       "pq": 162,
       "skill": "Special Beam Cannon (Beast)"
     },
@@ -608,8 +536,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 139,
-  "unresolved_count": 148,
+  "unique_canonical_skill_names": 157,
+  "unresolved_count": 130,
   "resolved_skill_rewards": [
     {
       "pq": 172,
