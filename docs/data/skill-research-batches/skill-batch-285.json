@@ -68,22 +68,6 @@
       ]
     },
     {
-      "name": "Light of Justice",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Charged energy attack.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Light_of_Justice",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
       "name": "Celestial Hammer",
       "class": "Super",
       "subcategory": "Strike",
@@ -131,5 +115,5 @@
       ]
     }
   ],
-  "notes": "Reconciles raid-exclusive skills that were absent from docs/data/skills.json. Light of Justice is intentionally repeated here only as a catalog reconciliation target; if validator treats cross-batch duplicate identity as invalid, this record should be omitted in a future cleanup rather than duplicated. Peeler Storm was intentionally excluded because it already has a prior research record and has dual Super/Evasive source behavior."
+  "notes": "Reconciles raid-exclusive skills that were absent from docs/data/skills.json. Peeler Storm was intentionally excluded because it already has a prior research record and has dual Super/Evasive source behavior."
 }
