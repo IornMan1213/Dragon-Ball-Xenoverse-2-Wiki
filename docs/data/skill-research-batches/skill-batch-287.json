@@ -17,7 +17,7 @@
         "name": "Bloody Sauce",
         "class": "Super",
         "subcategory": "Ki Blast",
-        "batch_id": 285
+        "batch_id": 258
       },
       "correction_fields": [
         "ki_cost",
@@ -84,5 +84,37 @@
       ]
     }
   ],
-  "notes": "Batch 286 already contains the new Gigantic Slam record. This batch contains only true corrections to earlier Batch 285 metadata; unchanged Celestial Hammer data was removed to avoid a non-correction duplicate."
+  "notes": "Batch 286 already contains the new Gigantic Slam record. This batch contains only true corrections to earlier Batch 285 metadata; unchanged Celestial Hammer data was removed to avoid a non-correction duplicate. Added Father-Son Kamehameha and Explosive Scream after dedicated pages confirmed their Ki Blast Ultimate classification and CaC-unavailable status.",
+  "records": [
+    {
+      "name": "Father-Son Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Gohan (Teen); Gohan (Future) Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Long-startup Kamehameha assisted by Goku's spirit.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Father-Son_Kamehameha"
+      ]
+    },
+    {
+      "name": "Explosive Scream",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Cell Max",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Cell Max charges and launches a compressed gigantic Ki Blast.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Explosive_Scream"
+      ]
+    }
+  ]
 }
