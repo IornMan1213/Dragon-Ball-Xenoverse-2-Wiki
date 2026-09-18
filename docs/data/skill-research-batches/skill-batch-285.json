@@ -66,21 +66,6 @@
       ]
     },
     {
-      "name": "Gigantic Slam",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan) Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Grab-and-slam Strike Super; leaves the user open after the attack.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
-      ]
-    },
-    {
       "name": "Boulder Toss",
       "class": "Super",
       "subcategory": "Other",
@@ -111,5 +96,5 @@
       ]
     }
   ],
-  "notes": "Four raid/boss-exclusive skills that were absent from the canonical skills.json at research time. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have prior research records; this batch therefore retains only the three genuinely new identities plus Bloody Sauce. Added dedicated-source confirmation for Gigantic Slam and conservative Great Ape classifications for Boulder Toss/Boulder Break; exact Ki costs remain null where the retrieved sources do not state them."
+  "notes": "Focused reconciliation of previously absent or weakly classified cast-exclusive/Great Ape skills. Exact costs remain null where dedicated retrieved sources do not state them. Giant Storm is included because the dedicated Xenoverse 2 page explicitly identifies it as a 300-Ki Ki Blast Ultimate; it should not be classified as a Super."
 }
