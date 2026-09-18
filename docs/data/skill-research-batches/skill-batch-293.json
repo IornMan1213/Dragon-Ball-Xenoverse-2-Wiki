@@ -1,0 +1,70 @@
+{
+  "batch_id": 293,
+  "created": "2026-09-18",
+  "type": "catalog_research_and_corrections",
+  "scope": "Other/Strike Super gap audit",
+  "records": [
+    {
+      "name": "All Clear",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": true,
+      "character_source": "Cell (Perfect); Cell (Full Power)",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Cell (Perfect)",
+      "ultimate_finish_required": null,
+      "effect": "Frontal sweeping strike that negates Ki Waves and can be used while guarding.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/All_Clear",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "name": "Bluff Kamehameha",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Gogeta (Super Saiyan 4); Goku (GT) Customize Partner; SSGSS Gogeta Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Feint Kamehameha-style Super Skill categorized as Other.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gogeta_(Super_Saiyan_4)",
+        "https://dbxv2.fandom.com/wiki/Goku_(GT)"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "name": "Pressure Sign",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": true,
+      "character_source": "Vegito; SSGSS Vegito Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Universal counter that teleports behind the attacker and kicks.",
+      "correction_of": {
+        "name": "Pressure Sign",
+        "class": "Counter",
+        "subcategory": "Counter"
+      },
+      "correction_fields": [
+        "class",
+        "subcategory",
+        "ki_cost",
+        "unlock_method"
+      ],
+      "reason": "The dedicated Xenoverse 2 page explicitly identifies Pressure Sign as a Strike Super Attack with 100 Ki and also places it in the Counter Skills category. Counter behavior is separate from the canonical skill class/subcategory.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pressure_Sign"
+      ]
+    }
+  ],
+  "notes": "All Clear and Bluff Kamehameha were absent from docs/data/skills.json. Pressure Sign existed with the invalid Counter/Counter canonical taxonomy and is formally corrected while preserving its counter behavior as a separate property/category."
+}
