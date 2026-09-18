@@ -48,7 +48,38 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Characters"
       ]
+    },
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Nappa; Customize Partners",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": false,
+      "effect": "Creates a large explosion beneath the opponent and launches the user upward to avoid the backdraft.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Giant_Storm",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Gigantic Slam",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan) Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Grab-based slam; the attack is categorized as a Strike Super despite the in-game description referring to a Ki Wave.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
+      ]
     }
   ],
-  "notes": "Existing Batch 264 entries were deliberately not duplicated. Removed Rage Saucer because it was already established in Batch 284; Batch 285 now contains only previously absent identities."
+  "notes": "Expanded after dedicated Xenoverse 2 pages confirmed Giant Storm as a 300-Ki Ki Blast Ultimate and Gigantic Slam as a 100-Ki Strike Super. Giant Storm is CaC-usable through the Skill Shop; Gigantic Slam remains cast-exclusive."
 }
