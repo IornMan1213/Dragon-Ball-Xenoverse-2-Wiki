@@ -731,3 +731,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Nonstandard values were reviewed rather than normalized mechanically: Emperor's Death Beam is documented as **400+ Ki**, while Thunder Flash is documented as **300–600 Ki** because it can consume additional Ki while charged. citeturn1search0turn1search2turn1search8
 - The current catalog therefore preserves variable/ki-dumping costs instead of forcing every Ultimate into a fixed 300/500 pattern.
 - Next metadata frontier: audit Ultimate Finish requirements and acquisition semantics, then DLC/version provenance and character/CaC restrictions.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found **0 missing/null Ki-cost fields** across all Super and Ultimate records.
+- Zero-cost Supers were retained where they represent charging, utility, or Power Up behavior; they were not normalized to generic 100-Ki costs.
+- This preserves documented exceptions such as charge skills and Power Up skills while avoiding class-based inference.
+- Next pass: inspect nonzero cost outliers and acquisition/version metadata, then reconcile any evidence-backed corrections in both canonical and index layers.
