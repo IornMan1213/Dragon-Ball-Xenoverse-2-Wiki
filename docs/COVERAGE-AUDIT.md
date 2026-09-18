@@ -745,3 +745,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The zero-Ki Super records are concentrated in charge/reinforcement/power-up/utility skills; they were not normalized to a generic cost because the cost model is skill-specific.
 - External reference material describes supers as generally 1–3 Ki bars and ultimates as generally 3–7 bars while noting skill-specific behavior. citeturn0search10
 - No missing Ki-cost fields were found in the canonical Super/Ultimate layer, so the next audit should target acquisition semantics and Ultimate Finish evidence rather than filling absent costs.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited all 298 canonical skill records for missing Ki costs in the `Super` and `Ultimate` classes.
+- Result: **0 missing Ki-cost fields** across those classes.
+- Legitimate zero-Ki Super records were retained rather than normalized to a default cost; these include charge/support/power-up skills and Instant Transmission. `Dimensional Hole` was independently checked against its skill reference and explicitly uses 0 Ki, so it remains 0. citeturn1search0turn1search8
+- Historical/version-sensitive costs remain a research concern: official Steam patch notes document that skill costs can change between versions (for example Ki Explosion and x10 Kamehameha), so future cost audits must preserve version context instead of assuming current values from class/category alone. citeturn0search4
+- Next metadata frontier: audit Ultimate Finish requirements and acquisition semantics, especially records currently using null rather than explicit true/false.
