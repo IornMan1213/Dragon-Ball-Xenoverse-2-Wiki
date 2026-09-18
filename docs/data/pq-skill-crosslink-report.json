@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 216,
-  "linked_skill_rewards": 134,
+  "canonical_skill_records": 221,
+  "linked_skill_rewards": 138,
   "alias_matches": [
     {
       "pq": 48,
@@ -14,24 +14,8 @@
   ],
   "unresolved": [
     {
-      "pq": 56,
-      "skill": "Stone Bullet"
-    },
-    {
       "pq": 57,
       "skill": "Rakshasa's Claw"
-    },
-    {
-      "pq": 59,
-      "skill": "Force Shield"
-    },
-    {
-      "pq": 59,
-      "skill": "Dimension Cannon"
-    },
-    {
-      "pq": 60,
-      "skill": "Majin Kamehameha"
     },
     {
       "pq": 61,
@@ -356,8 +340,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 202,
-  "unresolved_count": 85,
+  "unique_canonical_skill_names": 206,
+  "unresolved_count": 81,
   "resolved_skill_rewards": [
     {
       "pq": 172,
