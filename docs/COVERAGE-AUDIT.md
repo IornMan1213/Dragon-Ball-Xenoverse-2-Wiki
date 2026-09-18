@@ -272,3 +272,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Confirmed Chaotic Time Impact = 600 Ki, Gigantic Explosion = 600 Ki, Emperor's Death Beam = 400+ Ki, Final Flash (SS3 DAIMA) = 400+ Ki, Super Kamehameha (SS4 DAIMA) = 400 Ki with a 100-Ki extension (represented as 400–500), and Thunder Flash = 300–600 Ki. citeturn1search3turn1search4turn1search1turn1search0turn1search5turn1search6
 - No canonical Ki-cost records were left null for Super/Ultimate skills; variable/threshold costs remain intentionally represented as ranges or plus-costs where the source documents them.
 - Next metadata pass should focus on acquisition semantics, Ultimate Finish evidence, DLC/version provenance, and character/CaC restrictions rather than mechanically changing valid cost values.
+
+
+### Ki-cost audit checkpoint — 2026-09-18
+- Canonical skill scan: all 298 Super/Ultimate records currently have a populated Ki-cost field; no null/undefined Ki costs remain in those classes.
+- Zero-Ki entries were retained rather than normalized away because they include utility, charge, and Power Up skills. Independent community evidence confirms Instant Transmission as a no-Ki skill and documents Rise to Action as a utility option.
+- This is a completeness checkpoint, not proof that every numeric cost is fully source-verified. Next pass should target acquisition semantics, character/CaC restrictions, Ultimate Finish requirements, and DLC/version provenance.
