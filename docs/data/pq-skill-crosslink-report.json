@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 131,
-  "linked_skill_rewards": 43,
+  "canonical_skill_records": 135,
+  "linked_skill_rewards": 53,
   "alias_matches": [
     {
       "pq": 48,
@@ -52,10 +52,6 @@
     {
       "pq": 19,
       "skill": "Fighting Pose E"
-    },
-    {
-      "pq": 20,
-      "skill": "Mystic Flash"
     },
     {
       "pq": 23,
@@ -331,10 +327,6 @@
     },
     {
       "pq": 106,
-      "skill": "Requiem of Destruction"
-    },
-    {
-      "pq": 106,
       "skill": "Destruction's Conductor"
     },
     {
@@ -431,10 +423,6 @@
     },
     {
       "pq": 127,
-      "skill": "Gigantic Burst"
-    },
-    {
-      "pq": 127,
       "skill": "Revenge Death Ball"
     },
     {
@@ -488,10 +476,6 @@
     {
       "pq": 137,
       "skill": "Ribrianne's Eternal Love"
-    },
-    {
-      "pq": 137,
-      "skill": "Prominence Flash"
     },
     {
       "pq": 138,
@@ -651,10 +635,6 @@
     },
     {
       "pq": 177,
-      "skill": "Full Power Destruction"
-    },
-    {
-      "pq": 177,
       "skill": "Dragon Spark"
     },
     {
@@ -682,14 +662,6 @@
       "skill": "Burning Blast"
     },
     {
-      "pq": 181,
-      "skill": "Super Kamehameha (SS4 DAIMA)"
-    },
-    {
-      "pq": 181,
-      "skill": "Final Flash (SS3 DAIMA)"
-    },
-    {
       "pq": 182,
       "skill": "Dark Inscription"
     },
@@ -700,22 +672,10 @@
     {
       "pq": 184,
       "skill": "Chaotic Time Impact"
-    },
-    {
-      "pq": 185,
-      "skill": "Dragon Spiral"
-    },
-    {
-      "pq": 185,
-      "skill": "Indomitable"
-    },
-    {
-      "pq": 186,
-      "skill": "Venus Fist"
     }
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 117,
-  "unresolved_count": 168
+  "unique_canonical_skill_names": 122,
+  "unresolved_count": 165
 }
