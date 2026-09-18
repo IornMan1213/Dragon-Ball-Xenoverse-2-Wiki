@@ -578,3 +578,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Variable costs are preserved for resource-dumping techniques: Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600). This matches the available skill references, including the current Ultimate Attack index and individual DAIMA pages. citeturn1search0turn1search1turn1search2
 - Fixed high-cost examples such as Death Ball (400) and Full Power Destruction (500) also match the indexed reference data. citeturn1search1
 - No blanket cost correction was applied where evidence did not establish a discrepancy. Next pass should target acquisition/version provenance and Ultimate Finish semantics rather than inferring costs from class.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited canonical Super/Ultimate records for missing Ki costs: **0 missing** across the 298-record catalog.
+- Investigated four nonstandard Ultimate costs rather than normalizing them to common 300/500 values: Death Ball (400), S.S. Deadly Bomber (400), Gigantic Explosion (600), and Chaotic Time Impact (600).
+- Current external references independently document all four values. citeturn1search0turn1search2turn1search3turn1search4
+- No canonical Ki-cost changes were required in this pass. Continue with mechanics/acquisition/Ultimate-Finish/version metadata instead of forcing standardized costs.
