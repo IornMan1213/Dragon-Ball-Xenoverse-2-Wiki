@@ -342,3 +342,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - New push-triggered workflow runs were observed after the PQ updates, but validation is not yet reportable as successful.
 - Wiki data audit run 35385230606 terminated with `failure`; its only job (105730467465) exposed no steps and no logs through the GitHub API. Repository quality and cleanup runs were still queued/in progress at the time of inspection, while a Pages run was cancelled.
 - Because the failed audit terminated before actionable step/log output was available, the failure cause cannot responsibly be classified as script, dependency, permission, billing, runner, or GitHub infrastructure from the available evidence. The project therefore continues local/repository validation without weakening validators or repeatedly rerunning an opaque failure.
+
+
+### Parallel Quest reward/acquisition enrichment — 2026-09-18 (PQ179–PQ180)
+- Extended the same evidence-backed enrichment through the Dragon Ball DAIMA Pack quests PQ179–PQ180.
+- Added the documented DLC/PQ-board unlock condition and 50% Ultimate Finish skill-drop semantics for Heat Wave, Supreme Fury, Force Edge, and Burning Blast.
+- Kept the skill/drop arrays aligned with canonical reward records after validation; no inferred percentages were introduced.
