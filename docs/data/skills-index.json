@@ -913,7 +913,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "TP Medal Shop purchase",
+      "source_quest_or_shop": "TP Medal Shop"
     },
     {
       "name": "Big Bang Knuckle",
@@ -4254,7 +4256,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
       ],
-      "ki_cost": 500
+      "ki_cost": 500,
+      "unlock_method": "TP Medal Shop purchase or Parallel Quest reward",
+      "source_quest_or_shop": "TP Medal Shop; Parallel Quest 91"
     },
     {
       "name": "Full Power Destruction",
@@ -4923,8 +4927,8 @@
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 100",
+      "unlock_method": "TP Medal Shop purchase or Parallel Quest reward",
+      "source_quest_or_shop": "TP Medal Shop; Parallel Quest 100",
       "ultimate_finish_required": true,
       "skill_description": "X 100 Big Bang Kamehameha is a Ultimate Ki Blast skill associated with Vegeta (Super Saiyan Blue).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
