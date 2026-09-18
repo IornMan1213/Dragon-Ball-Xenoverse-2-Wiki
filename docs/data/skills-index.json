@@ -32,7 +32,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Bending Kamehameha",
@@ -41,7 +42,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Destructo-Disc",
@@ -50,7 +52,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Divine Kamehameha",
@@ -86,7 +89,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Kamehameha",
@@ -95,7 +99,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Masenko",
