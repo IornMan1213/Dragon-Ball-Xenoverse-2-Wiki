@@ -1,0 +1,69 @@
+{
+  "batch_id": 307,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Ki Blast Ultimate coverage expansion",
+  "records": [
+    {
+      "name": "Serious Bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 500,
+      "usable_by_cac": true,
+      "character_source": "Mira; Mira (Supervillain); Mira (Final Form); Fu Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "effect": "Large tracking Ki sphere launched after a spinning uppercut.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Serious_Bomb"
+      ]
+    },
+    {
+      "name": "Warp Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 400,
+      "usable_by_cac": true,
+      "character_source": "Goku and multiple Customize Partners",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 76 - Eternal Rival",
+      "ultimate_finish_required": null,
+      "effect": "Teleports to the locked-on opponent and fires a Kamehameha.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Warp_Kamehameha"
+      ]
+    },
+    {
+      "name": "Sphere of Destruction",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "God of Destruction Beerus",
+      "dlc_requirement": null,
+      "unlock_method": "Training with God of Destruction Beerus",
+      "ultimate_finish_required": null,
+      "effect": "Large tracking Ki sphere thrown at the opponent.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sphere_of_Destruction"
+      ]
+    },
+    {
+      "name": "Ice Cannon",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Eis Shenron; Omega Shenron Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Shenron wish - I want a new Ultimate Attack!",
+      "ultimate_finish_required": null,
+      "effect": "Freezing projectile that hits five times and freezes the opponent.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ice_Cannon"
+      ]
+    }
+  ],
+  "notes": "All four identities were absent from docs/data/skills.json immediately before this batch. Dedicated Xenoverse 2 pages explicitly provide Ultimate/Ki Blast classification and numeric Ki costs. CaC availability and acquisition are recorded only where the dedicated page states them."
+}
