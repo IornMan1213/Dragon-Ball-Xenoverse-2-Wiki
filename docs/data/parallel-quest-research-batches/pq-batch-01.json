@@ -37,7 +37,7 @@
       ],
       "skill_rewards": [],
       "skill_drop_conditions": [],
-      "verification_status": "verified_objectives_basic_rewards;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards",
       "last_verified": "2026-09-18"
     },
     {
@@ -72,7 +72,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     },
     {
@@ -106,7 +106,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     },
     {
@@ -140,7 +140,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     },
     {
@@ -176,7 +176,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     },
     {
@@ -209,7 +209,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     },
     {
@@ -242,7 +242,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     },
     {
@@ -276,7 +276,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     },
     {
@@ -310,7 +310,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     },
     {
@@ -348,7 +348,7 @@
           "condition": "Reward is listed by the historical guide; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics;unlock_verified_from_external_guide",
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
       "last_verified": "2026-09-18"
     }
   ]
