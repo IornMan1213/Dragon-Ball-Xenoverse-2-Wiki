@@ -1,0 +1,49 @@
+{
+  "batch_id": 182,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, CaC availability, acquisition status, mechanics, and costs. Preserve unsupported unlock, stamina, probability, and Ultimate Finish fields as null.",
+  "research_scope": "Gigantic Slam — Strike Super / unavailable-for-CaC classification research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository exact-name research coverage with current Xenoverse 2-specific skill documentation and independent Dragon Ball documentation.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Gigantic Slam"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Gigantic Slam was found. The canonical identity is Super / Strike; unavailable-for-CaC status is retained as a separate catalog characteristic."
+    },
+    "classification_finding": "Current Xenoverse 2-specific documentation classifies Gigantic Slam as a Strike Super and separately lists it as unavailable for CaC.",
+    "acquisition_finding": "The skill is a Broly-exclusive Super and is not obtainable by the Future Warrior. Current documentation lists no CaC unlock route; later Partner Customization makes it available for Broly custom presets, not CaC.",
+    "finish_policy": "ultimate_finish_required remains null because no Future Warrior acquisition route is established.",
+    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed canonical documentation does not establish a reliable stamina value."
+  },
+  "records": [
+    {
+      "name": "Gigantic Slam",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": false,
+      "character_source": "Broly / Broly (Supervillain) / Broly (Full Power Super Saiyan) customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "skill_description": "A close-range grab Strike Super in which Broly seizes the opponent and slams them downward with a Ki Wave.",
+      "mechanics_notes": "The Xenoverse 2 skill reference describes a face grab followed by a downward slam and Ki Blast impact. It is categorized as a grab Super and leaves the user exposed after the attack. Exact frame and damage values are not promoted to canonical numeric data.",
+      "acquisition_notes": "Gigantic Slam is unobtainable for the Future Warrior/CaC. Later Partner Customization availability applies to Broly custom presets and does not constitute a CaC unlock route.",
+      "pve_notes": "Cast/partner-only skill; no CaC Parallel Quest, Skill Shop, mentor, or Shenron acquisition route established.",
+      "pvp_notes": "Close-range grab with a Ki Wave follow-up; detailed matchup and frame behavior remains version-sensitive.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Slam",
+        "https://dragonball.fandom.com/wiki/Gigantic_Hammer",
+        "https://reddit.com/r/DragonBallXenoverse2/comments/wyzxb2/is_there_anyway_to_get_gigantic_slam_for_cacs/"
+      ]
+    }
+  ]
+}
