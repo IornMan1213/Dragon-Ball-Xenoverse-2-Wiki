@@ -425,3 +425,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Added documented duration metadata for Fighting Pose E (20s), Fighting Pose K (8s), Justice Pose (20s), and Meditation (20s).
 - Research also confirms Fighting Pose G has race-dependent behavior: 25s for Male Saiyans versus 20s for Female Saiyans and other races, while its displayed base duration is 20s. This should remain represented as a mechanic/race exception rather than flattening it into a single universal value. citeturn0search0turn0search1
 - The Power Up audit remains incomplete; additional skills should be checked individually for duration, cost, activation behavior, and race/version exceptions.
+
+
+### Counter-skill acquisition pass — 2026-09-18
+- Added an evidence-backed acquisition route for **Reverse Mabakusenko**: Skill Shop.
+- The skill remains classified as **Ultimate / Ki Blast** and retains its counter behavior; acquisition was not inferred from its Counter taxonomy.
+- Source evidence identifies it as a Skill Shop purchase for the Future Warrior. citeturn1search1turn1search0
+- Continue counter-skill acquisition research individually; do not treat the Counter category as an acquisition source.
