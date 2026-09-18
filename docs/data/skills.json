@@ -365,67 +365,74 @@
     },
     {
       "name": "Burst Reflection",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
-    },
-    {
-      "name": "Burst Rush",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
-    },
-    {
-      "name": "Change The Future",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
-    },
-    {
-      "name": "Counter Burst",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
-    },
-    {
-      "name": "Counter Impact",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
-    },
-    {
-      "name": "Demon Flash Strike",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "research_status": "partially_enriched"
+    },
+    {
+      "name": "Burst Rush",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ],
+      "research_status": "partially_enriched"
+    },
+    {
+      "name": "Change The Future",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ],
+      "research_status": "partially_enriched"
+    },
+    {
+      "name": "Counter Burst",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ],
+      "research_status": "partially_enriched"
+    },
+    {
+      "name": "Counter Impact",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ],
+      "research_status": "partially_enriched"
+    },
+    {
+      "name": "Demon Flash Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ],
+      "ki_cost": 100,
+      "research_status": "partially_enriched"
     },
     {
       "name": "Dimensional Hole",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Dragon Burn",
@@ -439,75 +446,83 @@
     },
     {
       "name": "Flash Fist Crush",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "God Breaker",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Heroic Counter",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Punisher Shield",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Reverse Mabakusenko",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Rough Ranger",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Shadow Crusher",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Sudden Death Beam",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Super Afterimage",
@@ -520,48 +535,53 @@
     },
     {
       "name": "Super God Shock Flash",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Time Skip/Back Breaker",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Time Skip/Flash Skewer",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Time Skip/Jump Spike",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Ultrasonic Blitz",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "research_status": "partially_enriched"
     },
     {
       "name": "Absolute Zero",
