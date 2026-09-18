@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SELF = Path(__file__).resolve()
+CLEANER = ROOT / "scripts" / "strip_internal_artifacts.py"
 TEXT_SUFFIXES = {
     ".md", ".markdown", ".html", ".htm", ".css", ".scss", ".js", ".ts",
     ".json", ".yml", ".yaml", ".txt", ".py", ".sh", ".bat", ".xml", ".csv",
@@ -55,7 +56,7 @@ def main() -> int:
     paths = tracked_files()
 
     for path in paths:
-        if path.resolve() == SELF or path.suffix.lower() not in TEXT_SUFFIXES:
+        if path.resolve() in {SELF, CLEANER} or path.suffix.lower() not in TEXT_SUFFIXES:
             continue
         try:
             text = path.read_text(encoding="utf-8")
