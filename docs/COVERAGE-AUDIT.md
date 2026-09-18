@@ -631,3 +631,8 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - A focused anomaly pass found six intentionally nonstandard values requiring source-aware handling rather than normalization: Chaotic Time Impact (600), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Gigantic Explosion (600), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
 - Current external reference material confirms variable-cost behavior for Super Kamehameha (SS4 DAIMA) and Final Flash (SS3 DAIMA), and confirms 300–600-style scaling exists for charged/variable Ultimate attacks. citeturn0search2turn0search3
 - These values are preserved rather than forced into a fixed 100/300/500 taxonomy. Next pass should reconcile each anomaly against its individual skill page and in-game behavior/version history.
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Audited the canonical 298-record skill layer for missing Ki costs among `Super` and `Ultimate` records: **0 missing**.
+- Spot-checked nonstandard costs rather than applying class-based defaults: Dimensional Hole remains 0 Ki; Divine Kamehameha is 200 Ki (2 bars); Divine Spear is 200 Ki (2 bars). Independent community references corroborate these nonstandard values. citeturn1search3turn1search0turn1search4
+- This pass confirms field completeness, not universal source-level verification. The remaining priority is evidence-depth: acquisition route, race/gender restrictions, Ultimate Finish semantics, DLC/version provenance, and mechanics for older partially verified records.
