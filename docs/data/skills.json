@@ -24,7 +24,7 @@
     "Human Skills": 4,
     "Unavailable for CaC": 37,
     "Counter Skills": 25,
-    "Transformations": 18
+    "Transformations": 15
   },
   "records": [
     {
@@ -5598,6 +5598,98 @@
       "research_status": "partially_enriched",
       "unlock_method": "Parallel Quest 89 - \"Super-Super Ultimate Series of Battles!\"",
       "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Kaioken",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
+      "usable_by_cac": true,
+      "character_source": "CaC / Universal",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Kaioken Parallel Quest reward route",
+      "source_quest_or_shop": "Parallel Quest reward route",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal CaC Awoken Skill with Kaioken, Kaioken x3, and Kaioken x20 stages.",
+      "mechanics_notes": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kaioken"
+      ]
+    },
+    {
+      "name": "Potential Unleashed",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
+      "usable_by_cac": true,
+      "character_source": "CaC / Universal",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Final Advancement Test",
+      "source_quest_or_shop": "Final Advancement Test",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal balanced CaC Awoken Skill with broad offensive and defensive benefits.",
+      "mechanics_notes": "Universal transformation with broad offensive and defensive benefits.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Potential_Unleashed"
+      ]
+    },
+    {
+      "name": "Beast",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
+      "usable_by_cac": true,
+      "character_source": "CaC / Universal",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Beast unlock chain",
+      "source_quest_or_shop": "Beast unlock chain",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal CaC Awoken Skill with high offensive output and defensive trade-offs.",
+      "mechanics_notes": "High-offense transformation with defensive trade-offs and enhanced combat properties.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Beast"
+      ]
+    },
+    {
+      "name": "Ultra Instinct",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
+      "usable_by_cac": true,
+      "character_source": "CaC / Universal",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Ultra Instinct unlock route",
+      "source_quest_or_shop": "Ultra Instinct unlock route",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal CaC Awoken Skill centered on automatic evasion and counterplay.",
+      "mechanics_notes": "Centers on automatic evasion and counterplay instead of a conventional flat damage multiplier.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultra_Instinct"
+      ]
     }
   ],
   "record_count": 298
