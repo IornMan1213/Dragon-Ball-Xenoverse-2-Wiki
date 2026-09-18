@@ -501,3 +501,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Enriched four remaining blank Super/Ultimate acquisition fields: Burst Rush (PQ51), Change The Future (PQ43), Demon Flash Strike (PQ160), and Reverse Mabakusenko (Skill Shop).
 - Burst Rush's PQ51 route is specifically tied to the Ultimate Finish condition; the other three are recorded without inventing an Ultimate Finish requirement. citeturn3search1turn3search2turn3search4turn4search0turn4search2turn4search13
 - Continue auditing blank acquisition routes individually, especially cast-only/raid-only skills and skills whose source is a mentor, shop, PQ, or DLC route.
+
+
+### Super/Ultimate resource-cost audit — 2026-09-18
+- Audited all canonical Super and Ultimate records for missing Ki-cost values; none are null or undefined.
+- Reviewed the nonstandard-cost set rather than coercing it into the common 0/100/200/300/500 pattern: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
+- These values are retained as variable/string costs where the attack can consume additional Ki; this preserves gameplay semantics instead of falsely converting them to a single fixed cost. Community/reference evidence independently supports Death Ball at 400 Ki and Emperor's Death Beam at a 400-Ki minimum with additional Ki consumption. citeturn1search0turn1search1turn1search5
+- Next cost pass should target acquisition/version provenance and Ultimate Finish requirements rather than changing already-populated fixed costs without contrary evidence.
