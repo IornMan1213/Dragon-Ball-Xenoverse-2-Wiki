@@ -36,22 +36,6 @@
       ]
     },
     {
-      "name": "Gigantic Slam",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Great Ape/Boss character",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Cast-exclusive close-range Great Ape strike.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack",
-        "https://dbxv2.fandom.com/wiki/Characters"
-      ]
-    },
-    {
       "name": "Spiral of Condemnation",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -68,5 +52,5 @@
       ]
     }
   ],
-  "notes": "Reconciled against prior research: Rage Saucer, Brainwash Attack and Light of Justice are in Batch 284; Marbling Drop, Seasoning Arrow, Time Shackles and Flames of Retribution were already researched in Batch 264; Peeler Storm was also covered in Batch 264. This batch therefore retains only previously uncovered identities plus the already researched Bloody Sauce/Gigantic Slam records."
+  "notes": "Reduced to skills not already represented by earlier research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have research records in Batch 264 and are intentionally not duplicated."
 }
