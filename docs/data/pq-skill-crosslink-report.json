@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 263,
-  "linked_skill_rewards": 170,
+  "canonical_skill_records": 274,
+  "linked_skill_rewards": 181,
   "alias_matches": [
     {
       "pq": 48,
@@ -13,50 +13,6 @@
     }
   ],
   "unresolved": [
-    {
-      "pq": 113,
-      "skill": "Super Ghost Buu Attack"
-    },
-    {
-      "pq": 113,
-      "skill": "Candy Beam (Super)"
-    },
-    {
-      "pq": 114,
-      "skill": "Petrifying Spit"
-    },
-    {
-      "pq": 114,
-      "skill": "Evil Blast"
-    },
-    {
-      "pq": 115,
-      "skill": "Handy Canon"
-    },
-    {
-      "pq": 115,
-      "skill": "S.S. Deadly Bomber"
-    },
-    {
-      "pq": 116,
-      "skill": "Brave Sword Slash"
-    },
-    {
-      "pq": 117,
-      "skill": "Evil Flame"
-    },
-    {
-      "pq": 117,
-      "skill": "Brave Sword Attack"
-    },
-    {
-      "pq": 120,
-      "skill": "Power Impact"
-    },
-    {
-      "pq": 122,
-      "skill": "Power Rush"
-    },
     {
       "pq": 123,
       "skill": "Reverse Shot"
@@ -156,8 +112,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 248,
-  "unresolved_count": 35,
+  "unique_canonical_skill_names": 259,
+  "unresolved_count": 24,
   "resolved_skill_rewards": [
     {
       "pq": 172,
