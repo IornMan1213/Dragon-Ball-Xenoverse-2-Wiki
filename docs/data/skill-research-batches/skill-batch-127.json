@@ -1,1 +1,48 @@
-{"batch_id":127,"created":"2026-09-17","verification_policy":"Single-skill Strike Super research: independently reconcile the Xenoverse 2 identity, acquisition route, counter behavior, and costs. Preserve unresolved fields as null.","research_scope":"Flash Fist Crush — Strike Super / universal counter acquisition research.","verification_audit":{"audited":"2026-09-17","method":"Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Dragon Ball documentation.","duplicate_check":{"status":"passed","selected_records":["Flash Fist Crush"],"duplicate_count":0,"identity_note":"No existing repository research batch for Flash Fist Crush was found. The canonical identity is Super / Strike; its universal-counter behavior is also represented by the Counter Skills taxonomy without creating a second identity."},"classification_finding":"Xenoverse 2 documentation classifies Flash Fist Crush as a Strike Super and Universal Counter.","acquisition_finding":"The documented Xenoverse 2 route is the Shenron wish 'I want a new Super Attack'. Independent Dragon Ball documentation confirms that the Future Warrior can obtain Flash Fist Crush by wishing for a new Super Attack.","finish_policy":"ultimate_finish_required is null because the documented acquisition route is a Shenron wish rather than a Parallel Quest reward.","cost_policy":"The documented Ki cost is 100; stamina cost remains null because the reviewed sources do not establish a reliable canonical stamina value."},"records":[{"name":"Flash Fist Crush","class":"Super","subcategory":"Strike","race_restriction":null,"usable_by_cac":true,"character_source":"Hit - Suit 1 / Hit Customize Partner","dlc_requirement":null,"ki_cost":100,"stamina_cost":null,"damage_type":"Strike","unlock_method":"Shenron wish","source_quest_or_shop":"Shenron — I want a new Super Attack","ultimate_finish_required":null,"skill_description":"A universal counter Strike Super that places the user in a defensive stance; it can counter incoming attacks and then delivers a powerful punch.","mechanics_notes":"The Xenoverse 2 reference describes a universal counter that works against both Strike and Ki Blast attacks. The move can also punch offensively if the counter window expires without being triggered. Exact frame and damage behavior is not promoted to canonical numeric data.","acquisition_notes":"The documented Future Warrior route is the Shenron wish 'I want a new Super Attack'. Later partner-customization availability is retained as character context rather than a separate acquisition identity.","pve_notes":"Shenron wish acquisition; no Parallel Quest or Ultimate Finish requirement established.","pvp_notes":"Universal counter against both Strike and Ki Blast attacks; detailed matchup and frame behavior remains version-sensitive.","verification_status":"partially_verified","last_verified":"2026-09-17","sources":["https://dbxv2.fandom.com/wiki/Flash_Fist_Crush","https://dragonball.fandom.com/wiki/Flash_Fist_Crush","https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74739381"]}]}
+{
+  "batch_id": 127,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: verify canonical identity, acquisition route, cost, and mechanics independently; unresolved fields remain null.",
+  "research_scope": "Deadly Dance — Strike Super mentor acquisition research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared the repository seeded Strike Super index with Xenoverse 2-specific skill documentation and independent mentor-training documentation.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Deadly Dance"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Deadly Dance was found. Canonical identity is Super / Strike."
+    },
+    "classification_finding": "Xenoverse 2 documentation identifies Deadly Dance as Android 18's Strike Super.",
+    "acquisition_finding": "Deadly Dance is obtained from Android 18's Lesson 2 mentor training. Current documentation also records later partner-customization availability for Krillin.",
+    "finish_policy": "ultimate_finish_required remains null because the canonical acquisition route is mentor training rather than a Parallel Quest reward.",
+    "cost_policy": "Ki cost is 100; stamina cost remains null because reviewed canonical sources do not establish a reliable stamina value."
+  },
+  "records": [{
+    "name": "Deadly Dance",
+    "class": "Super",
+    "subcategory": "Strike",
+    "race_restriction": null,
+    "usable_by_cac": true,
+    "character_source": "Android 18 / Krillin customizable partner",
+    "dlc_requirement": null,
+    "ki_cost": 100,
+    "stamina_cost": null,
+    "damage_type": "Strike",
+    "unlock_method": "Training with Android 18",
+    "source_quest_or_shop": "Android 18 — Lesson 2",
+    "ultimate_finish_required": null,
+    "skill_description": "A fast melee rush that sends the user forward through a series of punches and kicks before an upward finishing kick.",
+    "mechanics_notes": "Xenoverse 2 documentation describes Deadly Dance as a melee attack that can eliminate weak Ki Blasts. Independent gameplay descriptions identify the move as a fast multi-hit Strike Super with an upward final kick and combo-extension utility.",
+    "acquisition_notes": "Android 18's Lesson 2 is the canonical Future Warrior acquisition route. Later updates allow Deadly Dance to be equipped to Krillin's customizable partner skillset after purchase through Partner Customization.",
+    "pve_notes": "Mentor-training acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+    "pvp_notes": "Fast multi-hit Strike Super with combo-extension utility; detailed frame and matchup claims are not encoded as canonical numeric data.",
+    "verification_status": "partially_verified",
+    "last_verified": "2026-09-17",
+    "sources": [
+      "https://dbxv2.fandom.com/wiki/Deadly_Dance",
+      "https://dragonball.fandom.com/wiki/Deadly_Dance",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+      "https://xvguide.neocities.org/Skill"
+    ]
+  }]
+}
