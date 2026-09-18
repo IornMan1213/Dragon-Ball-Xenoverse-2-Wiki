@@ -1,0 +1,105 @@
+---
+layout: wiki
+title: Exhaustive Coverage Audit
+---
+
+# Exhaustive Coverage Audit
+
+**Audit date:** 2026-09-18
+
+This audit exists to prevent the project from confusing the existence of a wiki page, index, or seeded catalogue with exhaustive documentation.
+
+## Current finding
+
+The repository has strong research foundations for several systems, but multiple sections are still **framework-first rather than encyclopedia-complete**. The next phase must therefore prioritize missing records and missing fields, not merely new page polish or raw batch count.
+
+## Priority matrix
+
+| Area | Current state | Highest-value missing detail | Priority |
+|---|---|---|---|
+| GitHub Actions validation | Blocked by reported billing error; connector also shows pre-run failures with no steps/logs | Restore executable validation path | P0 |
+| Skills | Large seeded/indexed catalogue plus hundreds of research batches | Reconcile research into canonical data; exact costs, acquisition, CaC restrictions, mechanics, UF conditions, version history | P1 |
+| Parallel Quests | Research is referenced throughout skills/EM work, but an exhaustive individual-PQ canonical layer is not yet established here | Every PQ, objectives, Ultimate Finish conditions, reward slots, skills/equipment/Super Souls, unlocks, DLC/version provenance | P1 |
+| Awoken/Transformations | Foundation exists in skill/index material, but broad exhaustive record coverage remains incomplete | CaC vs character-only, race/gender restrictions, resource costs, stages, prerequisites, effects, exceptions, version history | P1 |
+| Expert Missions | 20-mission index and individual-record framework exist | Complete EM01–20 mechanics, phases, rewards, skill drops, first-clear/repeat distinction, version differences | P1/P2 |
+| Super Souls | 18 canonical records plus staged research | Expand inventory and reconcile triggers, magnitudes, durations, stacking, Limit Burst, acquisition/rotation | P2 |
+| Equipment | Catalog/index foundation and initial records exist | Individual clothing/accessory inventory, exact stats, slot/set relationships, costs, PQ/EM/raid provenance, version history | P2 |
+| QQ Bangs | System/research foundation exists | Reproducible recipe families, observed six-stat outputs, materials, RNG/version behavior | P2 |
+| Characters | No exhaustive structured layer was located during this audit | Playable/NPC identity, forms, restrictions, skills, mentors, PQ/EM/story appearances, DLC/version provenance | P2 |
+| Story / Time Rifts / Conton City | Referenced by other systems but not yet treated as a complete structured dataset | Missions, unlocks, NPCs, rewards, progression gates, locations, version/DLC relationships | P2 |
+| Shops / rewards | Acquisition taxonomy exists inside individual databases | Complete inventories, costs, rotations, progression requirements, availability/version history | P2 |
+| Raids / events | Mentioned as acquisition sources | Event inventory, dates/recurrence, rewards, Super Souls/equipment/skills, historical availability | P2 |
+| GitHub Pages / navigation | Site polish exists | Expose structured research status and coverage gaps without hiding incomplete data | P3 |
+
+## Exhaustive record standard
+
+A record should be considered complete only when the applicable fields have been researched or explicitly marked unknown.
+
+### Acquisition
+
+Record the actual route, not merely DLC ownership:
+
+- story/progression prerequisite
+- PQ/EM/raid/event source
+- shop and exact cost when applicable
+- NPC/mentor source
+- mixing/recipe source
+- first-clear versus repeat acquisition
+- reward-slot or RNG semantics
+- DLC/free-update provenance
+- historical/current availability
+
+### Gameplay
+
+Where applicable:
+
+- resource cost
+- damage type
+- charge/stage behavior
+- hit count and follow-ups
+- tracking
+- status effects
+- defensive properties
+- combo interactions
+- PvE/PvP behavior
+- transformations/forms involved
+- known version differences
+
+### Restrictions
+
+Preserve separately:
+
+- CaC availability
+- race restriction
+- gender restriction
+- character-only availability
+- partner/customization requirements
+- DLC ownership
+- progression prerequisites
+
+### Evidence
+
+Every important nontrivial claim should retain:
+
+- source URL/reference
+- verification state
+- uncertainty
+- conflicting-source notes
+- historical/version context where relevant
+
+## Immediate research sequence
+
+1. Keep GitHub Actions blocked as a billing/infrastructure issue; do not weaken validators.
+2. Reconcile the existing final-DLC skill research before adding another generic skill batch.
+3. Establish the individual Parallel Quest data model and inventory.
+4. Audit Awoken/Transformation records against the same exhaustive field standard.
+5. Finish EM01–20 verification.
+6. Expand Super Souls, Equipment, and QQ Bang records.
+7. Establish structured Characters, Story/Time Rift, Shops/Rewards, and Raid/Event layers.
+8. Only then use page/UI work to expose the growing data surface.
+
+## Important rule
+
+**A missing field is research work. A page containing a list is not proof of exhaustive coverage.**
+
+Unknown values remain unknown until evidence is found. The audit must never be satisfied by filling gaps with inferred values.
