@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 221,
-  "linked_skill_rewards": 138,
+  "canonical_skill_records": 237,
+  "linked_skill_rewards": 154,
   "alias_matches": [
     {
       "pq": 48,
@@ -16,70 +16,6 @@
     {
       "pq": 57,
       "skill": "Rakshasa's Claw"
-    },
-    {
-      "pq": 61,
-      "skill": "Recoome Kick"
-    },
-    {
-      "pq": 61,
-      "skill": "Fighting Pose H"
-    },
-    {
-      "pq": 62,
-      "skill": "Teleporting Vanishing Ball"
-    },
-    {
-      "pq": 63,
-      "skill": "Kai Kai"
-    },
-    {
-      "pq": 64,
-      "skill": "Ill Rain"
-    },
-    {
-      "pq": 65,
-      "skill": "Scissors Paper Rock"
-    },
-    {
-      "pq": 66,
-      "skill": "Candy Beam"
-    },
-    {
-      "pq": 67,
-      "skill": "Super God Fist"
-    },
-    {
-      "pq": 69,
-      "skill": "Headshot"
-    },
-    {
-      "pq": 71,
-      "skill": "Last Emperor"
-    },
-    {
-      "pq": 72,
-      "skill": "Burst Kamehameha"
-    },
-    {
-      "pq": 73,
-      "skill": "Psychic Move"
-    },
-    {
-      "pq": 76,
-      "skill": "Warp Kamehameha"
-    },
-    {
-      "pq": 77,
-      "skill": "Ki Explosion"
-    },
-    {
-      "pq": 78,
-      "skill": "Dust Attack"
-    },
-    {
-      "pq": 79,
-      "skill": "Mighty Explosive Wave"
     },
     {
       "pq": 83,
@@ -340,8 +276,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 206,
-  "unresolved_count": 81,
+  "unique_canonical_skill_names": 222,
+  "unresolved_count": 65,
   "resolved_skill_rewards": [
     {
       "pq": 172,
