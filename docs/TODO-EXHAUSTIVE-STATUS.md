@@ -9,7 +9,7 @@ This is the live progress companion to TODO-EXHAUSTIVE.md. It records the curren
 ### Skills
 
 - **Canonical source index:** docs/data/skills.json remains a seeded/indexed catalog generated on 2026-09-14; it has not yet been proven synchronized with the later research batches now present in docs/data/skill-research-batches/.
-- **Research batch frontier:** the repository currently contains skill research through **Batch 315**.
+- **Research batch frontier:** the repository currently contains skill research through **Batch 316**.
 - **Immediate P0 issue:** canonical verification-status enum drift and the cleanup script's bare-marker gap have been corrected, but Repository Quality and Clean Internal Artifacts still fail on commit 2c20abe5. The connector exposes failed jobs but no usable step logs. Skills Sync has not yet been rerun against the corrected research frontier.
 - **Batch 314 correction:** removed duplicate records for Heat Dome Attack, Perfect Kamehameha, Angry Explosion, Gigantic Meteor, and Sphere of Destruction. Earlier evidence remains in Batches 17/35, 312, 13, 306, and 307 respectively.
 - **Research standard:** unresolved values remain null; Ultimate Finish requirements are not inferred from silence; canonical identity remains (name.casefold(), class, subcategory).
@@ -29,9 +29,20 @@ This is the live progress companion to TODO-EXHAUSTIVE.md. It records the curren
 ### P1 — Highest value
 
 1. Synchronize the accumulated non-duplicate skill research into the canonical catalog.
-2. Continue Ki Blast Ultimate coverage with a duplicate check before every batch.
+2. Reconcile final-DLC Batch 36, including The Power to Overcome and PQ185/PQ186 reward relationships, before adding more batches.
 3. Re-verify completed batches and reconcile unresolved costs, acquisition, CaC, mechanics, and UF fields.
-4. Reconcile final-DLC Batch 36, including The Power to Overcome and PQ185/PQ186 reward relationships.
+4. Begin a structured coverage audit of thin/underdeveloped systems and pages so missing records and missing fields become explicit research work.
+5. Resume new Ki Blast Ultimate batches only when they do not displace higher-value verification or coverage work.
+
+### Exhaustive coverage track
+
+This is an active research track, not a future polish task. The presence of a page or index does not mean the system is exhaustively documented. For each system, audit record count, field completeness, acquisition/reward relationships, restrictions, mechanics, provenance, uncertainty, and cross-links.
+
+- Parallel Quests: individual records, objectives, Ultimate Finish conditions, reward slots, skill/equipment drops, unlocks, DLC/version provenance.
+- Awoken/Transformations: every CaC form plus character-only forms, race restrictions, resource model, stages, prerequisites, effects, exceptions, and version history.
+- Expert Missions: all missions, phases, bosses, mechanics, rewards, unlocks, and mission-count definitions.
+- Super Souls / Equipment / QQ Bangs: individual records and structured acquisition/effect/stat/recipe provenance.
+- Characters / Story / Time Rifts / Shops / Raids: record-level coverage, relationships, prerequisites, rewards, and version/DLC provenance.
 
 ### P2 — Important
 
