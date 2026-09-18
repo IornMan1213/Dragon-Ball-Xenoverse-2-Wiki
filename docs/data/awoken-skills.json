@@ -16,13 +16,14 @@
         "Kaioken x3",
         "Kaioken x20"
       ],
-      "ki_cost": 500,
+      "ki_cost": 100,
       "verification_status": "partially_verified",
       "unlock_method": "Kaioken Parallel Quest reward route",
       "prerequisites": [],
-      "mechanics_summary": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power.",
+      "mechanics_summary": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power. Stage activation thresholds: Kaioken 100 Ki, Kaioken x3 300 Ki, Kaioken x20 500 Ki.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Kaioken"
+        "https://dbxv2.fandom.com/wiki/Kaioken",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     },
     {
@@ -115,9 +116,10 @@
         "Progress Capsule Corp time rift",
         "Complete the required Vegeta training/progression"
       ],
-      "mechanics_summary": "Three-stage Saiyan branch with escalating transformation effects.",
+      "mechanics_summary": "Three-stage Saiyan branch with escalating transformation effects. Stage activation thresholds: Super Saiyan 300 Ki, Super Saiyan 2 400 Ki, Super Saiyan 3 500 Ki.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Saiyan"
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     },
     {
@@ -138,9 +140,10 @@
         "Progress Capsule Corp time rift",
         "Complete the required Vegeta training/progression"
       ],
-      "mechanics_summary": "Saiyan branch emphasizing Ki Blast-oriented output.",
+      "mechanics_summary": "Saiyan branch emphasizing Ki Blast-oriented output. Stage activation thresholds: Super Vegeta 300 Ki and Super Vegeta 2 400 Ki.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Vegeta"
+        "https://dbxv2.fandom.com/wiki/Super_Vegeta",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     },
     {
@@ -167,7 +170,7 @@
       "class": "Awoken",
       "scope": "Race-specific",
       "races": "Saiyan",
-      "ki_cost": 500,
+      "ki_cost": 300,
       "verification_status": "partially_verified",
       "unlock_method": "Shenron wish plus friendship prerequisites",
       "prerequisites": [
@@ -179,9 +182,10 @@
         "Max friendship with Pan",
         "Max friendship with Vegeta"
       ],
-      "mechanics_summary": "Saiyan god transformation with its own prerequisite chain rather than an extension of SS1–3.",
+      "mechanics_summary": "Saiyan god transformation with its own prerequisite chain rather than an extension of SS1–3. Current research references a 300 Ki activation threshold; the form does not consume the activation Ki.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God"
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     },
     {
@@ -229,16 +233,17 @@
       "class": "Awoken",
       "scope": "Race-specific",
       "races": "Majin",
-      "ki_cost": 500,
+      "ki_cost": 300,
       "verification_status": "partially_verified",
       "unlock_method": "Majin-specific progression",
       "prerequisites": [
         "Majin CaC",
         "Complete the current Majin progression requirement"
       ],
-      "mechanics_summary": "Transforms the Majin CaC into a Kid Buu-like combat state and changes the available combat behavior.",
+      "mechanics_summary": "Transforms the Majin CaC into a Kid Buu-like combat state and changes the available combat behavior. Current research references a 300 Ki activation threshold; transformation changes the moveset and affects stamina recovery.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Purification"
+        "https://dbxv2.fandom.com/wiki/Purification",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     },
     {
@@ -247,16 +252,17 @@
       "class": "Awoken",
       "scope": "Race-specific",
       "races": "Namekian",
-      "ki_cost": 500,
+      "ki_cost": 300,
       "verification_status": "partially_verified",
       "unlock_method": "Namekian-specific progression",
       "prerequisites": [
         "Namekian CaC",
         "Complete the current Namekian progression requirement"
       ],
-      "mechanics_summary": "Giant-form transformation with a distinct combat state and resource behavior.",
+      "mechanics_summary": "Giant-form transformation with a distinct combat state and resource behavior. Current research references a 300 Ki activation threshold; the form uses a distinct moveset and drains Stamina over time.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Become_Giant"
+        "https://dbxv2.fandom.com/wiki/Become_Giant",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     },
     {
@@ -265,16 +271,17 @@
       "class": "Awoken",
       "scope": "Race-specific",
       "races": "Frieza Race",
-      "ki_cost": 500,
+      "ki_cost": 300,
       "verification_status": "partially_verified",
       "unlock_method": "Frieza Race-specific progression",
       "prerequisites": [
         "Frieza Race CaC",
         "Complete the current Frieza Race progression requirement"
       ],
-      "mechanics_summary": "Frieza Race transformation focused on Ki-based offense.",
+      "mechanics_summary": "Frieza Race transformation focused on Ki-based offense. Current research references a 300 Ki activation threshold; stamina drains while transformed.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Turn_Golden"
+        "https://dbxv2.fandom.com/wiki/Turn_Golden",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     },
     {
@@ -283,16 +290,17 @@
       "class": "Awoken",
       "scope": "Race-specific",
       "races": "Earthling",
-      "ki_cost": 500,
+      "ki_cost": 0,
       "verification_status": "partially_verified",
       "unlock_method": "Earthling-specific progression",
       "prerequisites": [
         "Earthling CaC",
         "Complete the current Earthling progression requirement"
       ],
-      "mechanics_summary": "Unique Earthling transformation that changes combat style and provides the Power Pole combat state.",
+      "mechanics_summary": "Unique Earthling transformation that changes combat style and provides the Power Pole combat state. Current research documents Power Pole Pro as a 0 Ki activation cost; the transformation uses the Nimbus/Power Pole moveset.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Power_Pole_Pro"
+        "https://dbxv2.fandom.com/wiki/Power_Pole_Pro",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
       ]
     }
   ]
