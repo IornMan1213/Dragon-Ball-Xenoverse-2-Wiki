@@ -1,0 +1,76 @@
+{
+  "batch_id": 287,
+  "created": "2026-09-18",
+  "type": "catalog_corrections",
+  "scope": "Raid/cast-only Super metadata audit",
+  "corrections": [
+    {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Broly (Supervillain); Cell (Full Power) Supervillain; Golden Frieza (Supervillain); Yamcha (Supervillain)",
+      "unlock_method": "Expert Mission 20: Harbinger of Doom",
+      "ultimate_finish_required": null,
+      "correction_of": {
+        "name": "Bloody Sauce",
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "batch_id": 285
+      },
+      "correction_fields": [
+        "ki_cost",
+        "character_source",
+        "unlock_method"
+      ],
+      "reason": "The dedicated Xenoverse 2 page lists Bloody Sauce as a Ki Blast Super, 100 Ki, with Expert Mission 20 as its unlock source and the listed Supervillain users. Batch 285 incorrectly attached it to Expert Mission 13.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Sauce"
+      ]
+    },
+    {
+      "name": "Marbling Drop",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Mira (Final Form) and raid/boss characters",
+      "unlock_method": "Expert Mission 15: Extreme Malice!",
+      "ultimate_finish_required": null,
+      "correction_of": {
+        "name": "Marbling Drop",
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "batch_id": 285
+      },
+      "correction_fields": [
+        "character_source",
+        "unlock_method"
+      ],
+      "reason": "The Expert Mission list explicitly associates Marbling Drop (Raid) with Expert Mission 15, while current character documentation identifies Mira (Final Form) as a user. A dedicated current page was not found for a numeric Ki cost, so cost remains null.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Expert_Mission",
+        "https://ultradragonball.fandom.com/wiki/Mira"
+      ]
+    },
+    {
+      "name": "Celestial Hammer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "correction_of": null,
+      "correction_fields": [],
+      "reason": "The dedicated Xenoverse 2 page explicitly classifies Celestial Hammer as a Strike Super and Crystal Raid Skill. The character page confirms Fused Zamasu (Half-Corrupted) uses it and is Crystal Raid-exclusive.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Celestial_Hammer",
+        "https://dbxv2.fandom.com/wiki/Fused_Zamasu_(Half-Corrupted)"
+      ]
+    }
+  ],
+  "notes": "Batch 286 already contains the new Gigantic Slam record; this batch deliberately does not duplicate it. Corrections preserve the canonical Super/Ki Blast identity while changing only fields supported by stronger evidence."
+}
