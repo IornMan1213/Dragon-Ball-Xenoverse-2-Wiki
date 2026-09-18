@@ -5,6 +5,22 @@
   "scope": "Previously absent cast/boss skill identities",
   "records": [
     {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Broly (Supervillain)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Fires a melee-range Ki blast that splits into smaller blasts.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://steamcommunity.com/app/454650/discussions/0/276237094309688362/"
+      ]
+    },
+    {
       "name": "Celestial Hammer",
       "class": "Super",
       "subcategory": "Strike",
