@@ -168,3 +168,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Zero-Ki Super records were reviewed as a special case rather than treated as missing data. They include charge/support/power-up skills and therefore require semantic verification rather than blanket normalization.
 - Research sources distinguish ordinary Ki costs from charge/support mechanics and document examples such as 1-bar Supers and 3–5-bar Awoken costs; these sources are useful corroboration but are not sufficient to overwrite individual canonical values without skill-specific evidence. citeturn0search0turn0search1
 - Next metadata frontier: verify the zero-cost special cases individually, then audit Ultimate Finish semantics and acquisition/version provenance.
+
+
+### Super/Ultimate Ki-cost completeness audit — 2026-09-18
+- Canonical catalog check: all 278 Super/Ultimate records currently have a non-null `ki_cost`; no missing Ki-cost fields remain in those two classes.
+- Nonstandard documented values were preserved rather than normalized away: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400), and Thunder Flash (300–600).
+- This pass confirms field completeness, not universal mechanic correctness; exact costs, charge behavior, and version-specific changes remain candidates for evidence-level review.
