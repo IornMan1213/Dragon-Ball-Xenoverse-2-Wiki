@@ -529,3 +529,8 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Reviewed the zero-Ki Super records as a distinct case rather than treating 0 as missing data. Dimensional Hole is explicitly documented at 0 Ki; charge/power-up style Supers can likewise have 0 activation cost. citeturn1search0turn1search1
 - Verified representative nonzero/variable costs: Power Impact 100 Ki, Wild Buster 100 Ki with an additional 100 Ki input, Full Power Destruction 500 Ki, and Super Kamehameha (SS4 DAIMA) 400–500 Ki. citeturn0search4turn0search10turn0search7turn0search0
 - No blanket normalization was applied; variable and input-dependent costs remain represented as documented data.
+
+
+### Explicit PQ source-field enrichment — 2026-09-18
+- Added structured source_quest / source_quest_or_shop values for 16 canonical skills where the PQ number is explicitly documented by researched skill pages: Burst Rush (PQ51), Demon Flash Strike (PQ160), Force Shield (PQ59), Instant Rise (PQ37), Maiden Burst (PQ92), Spirit Explosion (PQ25), Psychic Move (PQ73), Buu Buu Ball (PQ88), Angry Shout (PQ68), Energy Barrier (PQ32), Dimension Cannon (PQ59), Victory Cannon (PQ54), Dragon Burn (PQ82), Absolute Zero (PQ96), Celestial Wave (PQ151), and Mach Dash (PQ18). citeturn2search0turn2search1turn2search2turn2search3turn2search4
+- These are structured provenance enrichments only; no Ultimate Finish requirement was inferred from a generic PQ reward listing.
