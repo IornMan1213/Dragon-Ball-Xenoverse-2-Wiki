@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 181,
-  "linked_skill_rewards": 99,
+  "canonical_skill_records": 188,
+  "linked_skill_rewards": 106,
   "alias_matches": [
     {
       "pq": 48,
@@ -13,34 +13,6 @@
     }
   ],
   "unresolved": [
-    {
-      "pq": 2,
-      "skill": "Spirit Slash"
-    },
-    {
-      "pq": 4,
-      "skill": "Paralyze Beam"
-    },
-    {
-      "pq": 6,
-      "skill": "Meteor Strike"
-    },
-    {
-      "pq": 7,
-      "skill": "Shine Shot"
-    },
-    {
-      "pq": 9,
-      "skill": "Meteor Blow"
-    },
-    {
-      "pq": 10,
-      "skill": "Unrelenting Barrage"
-    },
-    {
-      "pq": 11,
-      "skill": "Earth Splitting Galick Gun"
-    },
     {
       "pq": 18,
       "skill": "Time Control"
@@ -496,8 +468,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 167,
-  "unresolved_count": 120,
+  "unique_canonical_skill_names": 174,
+  "unresolved_count": 113,
   "resolved_skill_rewards": [
     {
       "pq": 172,
