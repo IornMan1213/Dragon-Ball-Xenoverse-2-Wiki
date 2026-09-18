@@ -174,7 +174,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Divine Lasso",
@@ -183,7 +184,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Godly Display",
@@ -228,7 +230,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Final Explosion",
