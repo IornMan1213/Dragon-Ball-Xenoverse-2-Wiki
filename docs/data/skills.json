@@ -1300,13 +1300,14 @@
       "usable_by_cac": null,
       "character_source": "SS3 Vegeta (DAIMA)",
       "dlc_requirement": null,
-      "ki_cost": null,
+      "ki_cost": 400,
       "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
       "mechanics_notes": "Final Flash whose input can consume additional Ki beyond the initial cost to substantially increase its power.",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "mechanics": "Base 400 Ki; holding input consumes additional Ki. Community testing describes it as a Ki-dumping Ultimate."
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
@@ -1319,13 +1320,14 @@
       "usable_by_cac": null,
       "character_source": "SS4 Goku (DAIMA)",
       "dlc_requirement": null,
-      "ki_cost": null,
+      "ki_cost": 400,
       "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
       "mechanics_notes": "Super Kamehameha variant that can consume an additional 100 Ki during input for an extended, more powerful attack.",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "mechanics": "Base 400 Ki; holding input consumes additional Ki for the boosted version. Community testing describes a 500 Ki boosted option."
     },
     {
       "name": "Thunder Flash",
@@ -1338,13 +1340,14 @@
       "usable_by_cac": null,
       "character_source": "Pikkon",
       "dlc_requirement": null,
-      "ki_cost": null,
+      "ki_cost": "300-600",
       "unlock_method": "Parallel Quest 146 - \"Zen-Ohs' Earthly Excursion\"",
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage.",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "mechanics": "Base 300 Ki with up to three additional Ki bars when held; community spreadsheet records 300–600 Ki total."
     },
     {
       "name": "Prominence Flash",
@@ -1902,7 +1905,7 @@
       "usable_by_cac": null,
       "character_source": "SS3 Vegeta (DAIMA)",
       "dlc_requirement": "Dragon Ball DAIMA Pack",
-      "ki_cost": null,
+      "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
@@ -1916,7 +1919,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "mechanics": "200 Ki; optional 300 Stamina consumption enables use while under pressure and grants temporary Super Armor."
     },
     {
       "name": "Dark Inscription",
