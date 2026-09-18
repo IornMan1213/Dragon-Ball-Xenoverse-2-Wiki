@@ -8,11 +8,11 @@
       "name": "Bloody Sauce",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": true,
+      "ki_cost": null,
+      "usable_by_cac": false,
       "character_source": "Supervillain and boss characters; Time Patroller only in Crystal Raid or Training",
       "dlc_requirement": null,
-      "unlock_method": "Expert Mission 20: Harbinger of Doom",
+      "unlock_method": "Expert Mission 13: History of Mixed Battles",
       "ultimate_finish_required": null,
       "effect": "Scattered Ki Blasts that can poison or slow targets.",
       "sources": [
@@ -36,5 +36,5 @@
       ]
     }
   ],
-  "notes": "Celestial Hammer and Bloody Sauce were researched here; Spiral of Condemnation was removed because batch 271 already contains the canonical research record. Other raid skills already covered by batch 264 remain excluded."
+  "notes": "Bloody Sauce is a raid/boss-exclusive Super; the Crystal Raid variant has a separate internal skill entry that can be used by the Future Warrior only in Crystal Raid/Training. The catalog record therefore uses the ordinary skill identity with usable_by_cac:false. Celestial Hammer is a Strike Super and Crystal Raid skill used by Fused Zamasu (Half-Corrupted)."
 }
