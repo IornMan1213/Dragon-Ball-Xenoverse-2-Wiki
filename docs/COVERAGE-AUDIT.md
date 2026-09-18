@@ -671,3 +671,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Zero-Ki Super records are concentrated in charge/power-up/utility skills and are retained where the documented resource model supports them.
 - Web corroboration confirms Xenoverse 2 uses 300/500-Ki Ultimates as common tiers while individual skills can have different costs; this supports continuing field-by-field verification rather than class-based inference. citeturn0search0turn0search5
 - Next metadata pass: audit Ultimate Finish requirements and acquisition semantics, especially records where `ultimate_finish_required` remains null.
+
+
+### Super/Ultimate resource-cost audit checkpoint — 2026-09-18
+- Canonical skills.json currently has no Super or Ultimate records with a null/missing ki_cost field, so the next pass should focus on semantic accuracy rather than filling blanks.
+- Validation also confirms 298 canonical records and 298 index records, with zero duplicate canonical identities and zero canonical records missing from the index.
+- Web verification of the Fandom skill pages was unavailable in this pass because the site blocked automated access; no unsupported cost changes were made on that basis.
+- The canonical array is not globally name-sorted; treat this as a synchronization/order audit item only and do not reorder the dataset blindly, because existing generation/index conventions may intentionally differ.
