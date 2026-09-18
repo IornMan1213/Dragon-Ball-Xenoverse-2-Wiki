@@ -1236,13 +1236,14 @@
       "usable_by_cac": null,
       "character_source": "SS3 Vegeta (DAIMA)",
       "dlc_requirement": null,
-      "ki_cost": 400,
+      "ki_cost": "400+",
       "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Final Flash whose input can consume additional Ki beyond the initial cost to substantially increase its power.",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "mechanics": "Base 400 Ki; while the attack lands, holding input can consume all additional available Ki for a major power boost."
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
@@ -1255,13 +1256,14 @@
       "usable_by_cac": null,
       "character_source": "SS4 Goku (DAIMA)",
       "dlc_requirement": null,
-      "ki_cost": 400,
+      "ki_cost": "400-500",
       "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Super Kamehameha variant that can consume an additional 100 Ki during input for an extended, more powerful attack.",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "mechanics": "Base 400 Ki; holding input on hit spends an additional 100 Ki for the boosted version."
     },
     {
       "name": "Thunder Flash",
@@ -2413,7 +2415,7 @@
       "usable_by_cac": true,
       "character_source": "Broly",
       "dlc_requirement": "Future Saga Chapter 1",
-      "ki_cost": 500,
+      "ki_cost": 600,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Random Parallel Quest reward",
@@ -2427,7 +2429,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
-      ]
+      ],
+      "mechanics": "Requires an Awoken Skill for CaCs; releases a large area explosion. Costs 600 Ki and can spend 400 Stamina to continue while taking damage."
     },
     {
       "name": "Variable Snipe Shot",
