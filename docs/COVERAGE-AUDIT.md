@@ -122,3 +122,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected/confirmed documented costs including Dragon Burn (200), Absolute Zero (300), Angry Shout (300), and Mach Dash (200).
 - The Fandom Evasive overview confirms Evasive stamina costs commonly range from 200–300 and independently lists these four values. citeturn0search4turn0search0turn0search1turn0search2turn0search3
 - Remaining work: audit the Super/Ultimate Ki-cost fields individually; do not infer costs from class alone because variable, zero-cost, and nonstandard skills exist.
+
+
+### Super/Ultimate Ki-cost audit frontier — 2026-09-18
+- Canonical catalog currently contains 298 skill records; an inspection found 84 Super/Ultimate records with null Ki cost.
+- These nulls are concentrated in older category-sourced records and therefore represent a metadata backlog, not evidence that the skills cost 0 Ki.
+- Current research sources support that Super/Ultimate costs vary by individual skill, so costs must be verified per skill rather than inferred from class (for example, published references describe Super skills as spanning multiple Ki-bar costs). citeturn0search8turn0search3
+- Next pass should resolve a small evidence-backed batch of these null costs, prioritizing records already linked to PQs or named individual skill pages; preserve null where authoritative evidence is unavailable.
