@@ -724,3 +724,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Confirmed Full Power Destruction at 500 Ki and Prominence Flash at 300 Ki.
 - Reference evidence: the Xenoverse 2 Ultimate Attack catalog lists Full Power Destruction at 500 Ki and the DAIMA attacks at 400/400+; individual Prominence Flash data lists 300 Ki. citeturn0search0turn0search4turn0search6
 - Do not normalize Ultimate costs by class alone: the catalog includes 300, 400, 500, variable, and special/conditional costs.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited all 298 canonical skill records for missing Ki-cost values in Super/Ultimate classes; **0** are missing a Ki-cost field.
+- Nonstandard values were reviewed rather than normalized mechanically: Emperor's Death Beam is documented as **400+ Ki**, while Thunder Flash is documented as **300–600 Ki** because it can consume additional Ki while charged. citeturn1search0turn1search2turn1search8
+- The current catalog therefore preserves variable/ki-dumping costs instead of forcing every Ultimate into a fixed 300/500 pattern.
+- Next metadata frontier: audit Ultimate Finish requirements and acquisition semantics, then DLC/version provenance and character/CaC restrictions.
