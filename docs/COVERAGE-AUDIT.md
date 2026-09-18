@@ -611,3 +611,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Cost values are intentionally not normalized to a single default: the catalog preserves zero-cost skills, standard 100/300/500 Ki costs, higher costs, and variable/extendable costs such as 300–600, 400+, and 400–600.
 - External references corroborate variable-cost semantics for Thunder Flash (300–600), Final Flash (SS3 DAIMA) (400+), and One-Handed Kamehameha mk.II (400–600). citeturn0search2turn0search1turn0search13
 - Next pass should target semantic accuracy of acquisition/unlock routes and Ultimate Finish requirements rather than filling already-complete cost fields.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found **0 Super/Ultimate records with a missing Ki-cost field** across all 298 skills.
+- Zero-cost entries are concentrated in charge, power-up, and utility skills; sampled sources explicitly confirm 0 Ki for Dimensional Hole, Burst/charge-family behavior, and Fighting Pose E. These values are therefore not being mass-normalized to 100/300 based on class alone. citeturn0search0turn0search3turn0search6
+- Charge skills require special treatment because their Ki recovery is their mechanic rather than an upfront Ki expenditure; Ultimate Charge and Final Charge sources document their charging behavior rather than a conventional fixed spend. citeturn0search5turn0search15
+- Next metadata pass: individually audit non-zero Super/Ultimate costs, acquisition semantics, CaC restrictions, and Ultimate Finish evidence.
