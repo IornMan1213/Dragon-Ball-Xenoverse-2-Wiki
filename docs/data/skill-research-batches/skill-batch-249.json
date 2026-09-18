@@ -1,0 +1,17 @@
+{
+  "batch_id":249,
+  "created":"2026-09-17",
+  "type":"catalog_expansion",
+  "scope":"Ki Blast Super catalog — remaining documented DLC/cast-exclusive candidates",
+  "records":[
+    {"name":"Gigantic Cross","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Broly (DB Super)","dlc_requirement":"Dragon Ball Super Pack 4","unlock_method":"Parallel Quest 142 - The New Dragon Ball Super: Broly","ultimate_finish_required":null,"sources":["https://dbxv2.fandom.com/wiki/Gigantic_Cross"]},
+    {"name":"Gigantic Cluster","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Broly (Restrained)","dlc_requirement":"Dragon Ball Super Pack 3","unlock_method":"Parallel Quest 132 - The Great Ape Festival","ultimate_finish_required":null,"sources":["https://dbxv2.fandom.com/wiki/Gigantic_Cluster"]},
+    {"name":"Eraser Bomb","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Broly (Restrained)","dlc_requirement":"Dragon Ball Super Pack 3","unlock_method":"Parallel Quest 132 - The Great Ape Festival","ultimate_finish_required":null,"sources":["https://dbxv2.fandom.com/wiki/Eraser_Bomb"]},
+    {"name":"Variable Snipe Shot","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Android 18 (DB Super)","dlc_requirement":"Future Saga: Chapter 1","unlock_method":"Parallel Quest 166 - Androids Assemble!","ultimate_finish_required":null,"sources":["https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot"]},
+    {"name":"Burning Swan","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Videl (DB Super)","dlc_requirement":"Hero of Justice Pack 2","unlock_method":"Parallel Quest 159 - Heroic Showdown","ultimate_finish_required":null,"sources":["https://dbxv2.fandom.com/wiki/Burning_Swan"]},
+    {"name":"Swallow Shot","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Videl (DB Super)","dlc_requirement":"Hero of Justice Pack 2","unlock_method":"Parallel Quest 159 - Heroic Showdown","ultimate_finish_required":null,"sources":["https://dbxv2.fandom.com/wiki/Swallow_Shot"]},
+    {"name":"Emperor's Cannon","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Golden Frieza (Ultra Supervillain)","dlc_requirement":"Future Saga: Chapter 3","unlock_method":"Parallel Quest 183 - A New Threat Emerges","ultimate_finish_required":null,"sources":["https://dbxv2.fandom.com/wiki/Emperor%27s_Cannon"]}
+  ],
+  "notes":"All seven names were absent from the repository's local docs/data/skills.json at audit time. The current Ki Blast Super category independently lists these names. UF requirements remain null because category membership and individual reviewed metadata did not establish a definitive UF requirement.",
+  "last_verified":"2026-09-17"
+}
