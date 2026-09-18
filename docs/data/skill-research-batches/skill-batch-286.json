@@ -239,22 +239,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Appetizing_Rush"
       ]
-    },
-    {
-      "name": "Poison",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Saibaman",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
     }
   ],
-  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Acid and Saibabeam were removed because they were already documented in batch 276. Final Flash (Super) was removed because it is already present in canonical skills.json. Energy Cannon, Boulder Toss, and Boulder Break remain formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, Giant Storm, Gigantic Slam, Cookie Beam, Zetsumei Bullet, and Appetizing Rush remain distinct research records."
+  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Acid and Saibabeam were removed because they were already documented in batch 276. Poison was removed because Xenoverse 2 does not return the Xenoverse Poison skill; current evidence identifies Poison as a Xenoverse (not Xenoverse 2) technique. Final Flash (Super) was removed because it is already present in canonical skills.json. Energy Cannon, Boulder Toss, and Boulder Break remain formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, Giant Storm, Gigantic Slam, Cookie Beam, Zetsumei Bullet, and Appetizing Rush remain distinct research records."
 }
