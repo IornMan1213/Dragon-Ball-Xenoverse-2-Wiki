@@ -946,21 +946,33 @@
       "name": "Bending Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Skill Shop purchase",
+      "source_quest_or_shop": "Skill Shop",
+      "skill_description": "Ki Blast Super Skill that bends its follow-up projectile toward the target.",
+      "mechanics_notes": "The skill is sold through the Conton City Skill Shop; the second input bends the projectile toward the target. Current acquisition evidence is community-sourced and should be retained as partially verified until an authoritative catalog is available.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Big Bang Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "TP Medal Shop purchase",
+      "source_quest_or_shop": "TP Medal Shop",
+      "skill_description": "Ki Blast Super Skill associated with Vegeta that fires a large beam after charging.",
+      "mechanics_notes": "Contemporary launch-era GameFAQs reports identify the Super version as a TP Medal Shop item rather than a PQ reward; later community discussion likewise distinguishes it from X100 Big Bang Kamehameha, which is a PQ 100 reward. Shop rotation is time-dependent.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Big Bang Knuckle",
