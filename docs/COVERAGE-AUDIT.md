@@ -19,7 +19,7 @@ The repository has strong research foundations for several systems, but multiple
 |---|---|---|---|
 | GitHub Actions validation | Blocked by reported billing error; connector also shows pre-run failures with no steps/logs | Restore executable validation path | P0 |
 | Skills | Large seeded/indexed catalogue plus hundreds of research batches | Reconcile research into canonical data; exact costs, acquisition, CaC restrictions, mechanics, UF conditions, version history | P1 |
-| Parallel Quests | Research is referenced throughout skills/EM work, but an exhaustive individual-PQ canonical layer is not yet established here | Every PQ, objectives, Ultimate Finish conditions, reward slots, skills/equipment/Super Souls, unlocks, DLC/version provenance | P1 |
+| Parallel Quests | Structured audit now covers PQ1–PQ186 with known numbering gaps/conflicts preserved; skill cross-links are not yet fully reconciled | Resolve 175 PQ skill-reward references against canonical skill identities; then deepen reward-slot, acquisition, unlock, DLC/version and cross-system provenance | P1 |
 | Awoken/Transformations | Foundation exists in skill/index material, but broad exhaustive record coverage remains incomplete | CaC vs character-only, race/gender restrictions, resource costs, stages, prerequisites, effects, exceptions, version history | P1 |
 | Expert Missions | 20-mission index and individual-record framework exist | Complete EM01–20 mechanics, phases, rewards, skill drops, first-clear/repeat distinction, version differences | P1/P2 |
 | Super Souls | 18 canonical records plus staged research | Expand inventory and reconcile triggers, magnitudes, durations, stacking, Limit Burst, acquisition/rotation | P2 |
@@ -90,8 +90,8 @@ Every important nontrivial claim should retain:
 ## Immediate research sequence
 
 1. Keep GitHub Actions blocked as a billing/infrastructure issue; do not weaken validators.
-2. Reconcile the existing final-DLC skill research before adding another generic skill batch.
-3. Establish the individual Parallel Quest data model and inventory.
+2. Reconcile the existing final-DLC skill research and the persisted PQ-to-skill cross-link gap before adding another generic skill batch.
+3. Deepen the existing Parallel Quest layer by resolving canonical skill links and then filling remaining reward/acquisition/version fields.
 4. Audit Awoken/Transformation records against the same exhaustive field standard.
 5. Finish EM01–20 verification.
 6. Expand Super Souls, Equipment, and QQ Bang records.
