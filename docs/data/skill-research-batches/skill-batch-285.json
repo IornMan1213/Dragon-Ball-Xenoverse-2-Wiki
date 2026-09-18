@@ -24,7 +24,7 @@
       "name": "Rage Saucer",
       "class": "Super",
       "subcategory": "Strike",
-      "ki_cost": null,
+      "ki_cost": 100,
       "usable_by_cac": false,
       "character_source": "Villainous/Supervillain characters and Crystal Raid bosses",
       "dlc_requirement": null,
@@ -40,7 +40,7 @@
       "name": "Brainwash Attack",
       "class": "Super",
       "subcategory": "Other",
-      "ki_cost": null,
+      "ki_cost": 200,
       "usable_by_cac": false,
       "character_source": "Crystal Raid bosses",
       "dlc_requirement": null,
@@ -114,67 +114,7 @@
       "sources": [
         "https://www.reddit.com/r/dbxv/comments/jzgby9/"
       ]
-    },
-    {
-      "name": "Beam Rifle",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Frieza Soldier/Raspberry",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Cast-exclusive firearm-based energy attack.",
-      "sources": [
-        "https://www.reddit.com/r/dbxv/comments/13u6y4a/"
-      ]
-    },
-    {
-      "name": "Energy Cannon",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Demon God Demigra (Final Form)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Cast-exclusive energy projectile.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Boulder Toss",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Great Ape characters",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Great Ape-exclusive physical projectile.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Boulder Break",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Great Ape characters",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Great Ape-exclusive physical attack.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
     }
   ],
-  "notes": "Audited against current Xenoverse 2 category documentation. Removed Boiling Ball and Tricky Strike because the available evidence located them only in legacy ID lists without a current dedicated Xenoverse 2 taxonomy page. Removed previously duplicated raid records. Remaining four records have direct/current category evidence. Added seven cast-exclusive skills whose identity/CaC restriction is corroborated by community skill inventories; numeric costs remain null where no reliable source established them."
+  "notes": "Focused batch: only records not already present in earlier research batches. Duplicate cast-exclusive records from Batch 283 were removed. Current Xenoverse 2 documentation identifies Darkness Mixer as an Other Super unavailable to CaCs; Rage Saucer as a 100-Ki Strike Super; Brainwash Attack as a 200-Ki Other Super/Crystal Raid skill; Celestial Hammer as a Strike Super/Crystal Raid skill; Gigantic Slam as a cast-exclusive Strike Super; Acid and Saibabeam as cast-exclusive Super Skills. Numeric costs remain null where the current dedicated source does not establish them."
 }
