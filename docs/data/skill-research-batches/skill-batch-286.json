@@ -178,7 +178,23 @@
         "https://dbxv2.fandom.com/wiki/Giant_Storm",
         "https://dragonball.fandom.com/wiki/Volcano_Explosion"
       ]
+    },
+    {
+      "name": "Gigantic Slam",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan) Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Grab-and-slam attack: Broly grabs the opponent and drives them down with a Ki wave.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
+      ],
+      "notes": "Dedicated Xenoverse 2 documentation explicitly identifies Attack Type Strike, Skill Type Super, Ki Used 100, and Unavailable for CaC."
     }
   ],
-  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Energy Cannon, Boulder Toss, and Boulder Break are formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, and Giant Storm are retained as research records. Pretty Charge and Energy Jet are explicitly unavailable for CaC in current Xenoverse 2 documentation; Darkness Mixer is also listed in the unavailable-for-CaC category. Giant Storm is a CaC skill obtained from the Skill Shop, while Gigantic Omega is a Strike Super obtained from Broly training."
+  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Energy Cannon, Boulder Toss, and Boulder Break are formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, and Giant Storm are retained as research records. Pretty Charge and Energy Jet are explicitly unavailable for CaC in current Xenoverse 2 documentation; Darkness Mixer is also listed in the unavailable-for-CaC category. Giant Storm is a CaC skill obtained from the Skill Shop, while Gigantic Omega is a Strike Super obtained from Broly training. Gigantic Slam was added after dedicated documentation resolved its previously unrecorded subtype."
 }
