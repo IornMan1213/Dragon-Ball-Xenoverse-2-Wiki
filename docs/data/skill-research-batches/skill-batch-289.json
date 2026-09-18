@@ -53,22 +53,6 @@
       ]
     },
     {
-      "name": "Darkness Mixer",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Villainous characters / Raid Bosses; Hercule preset",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Cast-only special skill used by villainous/raid characters.",
-      "sources": [
-        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
-        "https://dbxv2.fandom.com/wiki/Hercule"
-      ]
-    },
-    {
       "name": "Boiling Ball",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -99,5 +83,5 @@
       ]
     }
   ],
-  "notes": "Mentor entries use current mentor taxonomy. Cast-only Demigra/Raid entries are catalogued only where the current ID-list establishes the user and the skill's category can be supported without inventing costs."
+  "notes": "Mentor entries use current mentor taxonomy. Cast-only Demigra/Raid entries are catalogued only where the current ID-list establishes the user and the skill's category can be supported without inventing costs. Darkness Mixer was removed because Batch 285 already established the same canonical identity; this avoids a cross-batch duplicate."
 }
