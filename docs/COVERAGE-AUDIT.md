@@ -148,3 +148,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - A second pass identified six nonstandard Ultimate costs (400/600 Ki) rather than treating the common 300/500 values as universal defaults: Chaotic Time Impact (600), Death Ball (400), Final Flash (SS3 DAIMA) (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), and Super Kamehameha (SS4 DAIMA) (400).
 - External corroboration supports the nonstandard-cost principle and specifically documents Death Ball at 400 Ki and Gigantic Explosion at 600 Ki; older GameFAQs/Steam/community material also documents other 400/500-cost Ultimate variants. citeturn1search0turn1reddit36turn1search8
 - These values are retained pending skill-specific authoritative/version-aware verification rather than normalized away.
+
+
+### Ki-cost completeness checkpoint — 2026-09-18
+- Canonical audit confirms all 298 current skill records have a populated `ki_cost` field where the schema expects it; no Super/Ultimate records are missing Ki cost.
+- Zero-Ki entries are concentrated in charge, teleport/utility, and Power Up records and are therefore retained pending individual mechanics verification rather than normalized to a default cost.
+- Next pass should target the semantics behind non-zero Super/Ultimate costs, especially variable-cost and version-specific skills, plus Ultimate Finish evidence.
