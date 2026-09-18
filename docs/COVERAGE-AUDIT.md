@@ -547,3 +547,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical skill records were scanned for missing Ki costs: **0 Super/Ultimate records have null Ki cost**.
 - A targeted anomaly review found legitimate nonstandard values (including 0-cost reinforcement/charge skills and 400/600-Ki Ultimates), so no blanket normalization was applied.
 - Current research sources also document that skill costs vary by move rather than mapping rigidly to class; therefore remaining work is source-by-source verification of individual costs and version history. citeturn0search0turn0search10
+
+
+### Canonical Awoken parent reconciliation — 2026-09-18
+- Restored the four missing universal canonical Awoken parent records: Kaioken, Potential Unleashed, Beast, and Ultra Instinct.
+- These records already existed in the dedicated `awoken-skills.json` canonical CaC dataset, so this was a reconciliation of two canonical layers rather than new speculative entries.
+- Canonical skill catalog is back to **298 records** with **15** Awoken parent records; the deterministic index is also 298 records and has no duplicate canonical identities.
+- The four additions retain partially verified status and existing dedicated Awoken sources; exact unlock chains remain a follow-up research task rather than being upgraded to fully verified.
+- Validator note: `scripts/validate_skills.py` still references a `target_category_counts` structure that is absent from the current skills JSON/index. This is a validator/data-contract drift issue and should be repaired separately rather than hidden by changing the data to fit an obsolete field.
