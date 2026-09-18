@@ -369,7 +369,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest reward (PQ51 Ultimate Finish)"
     },
     {
       "name": "Change The Future",
@@ -379,7 +380,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest reward (PQ43 Ultimate Finish)"
     },
     {
       "name": "Counter Burst",
@@ -410,7 +412,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest reward (PQ160)"
     },
     {
       "name": "Dimensional Hole",
@@ -420,7 +423,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "unlock_method": "Parallel Quest reward (PQ80)"
     },
     {
       "name": "Flash Fist Crush",
@@ -430,7 +434,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Shenron wish reward"
     },
     {
       "name": "God Breaker",
@@ -440,7 +445,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest reward (PQ44)"
     },
     {
       "name": "Heroic Counter",
@@ -450,7 +456,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest reward (PQ155)"
     },
     {
       "name": "Punisher Shield",
@@ -460,7 +467,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest reward (PQ129)"
     },
     {
       "name": "Reverse Mabakusenko",
@@ -480,7 +488,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest reward (PQ119 Ultimate Finish)"
     },
     {
       "name": "Shadow Crusher",
