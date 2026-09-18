@@ -349,3 +349,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Six nonstandard Ultimate costs/ranges remain intentionally represented as documented values: Chaotic Time Impact (600), Gigantic Explosion (600), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
 - These are not normalized to the common 100/300/500 pattern because variable or higher costs are legitimate and the current records are only partially verified.
 - Next pass should focus on acquisition/unlock semantics and Ultimate Finish evidence rather than mechanically changing cost fields.
+
+
+### Ultimate Finish evidence milestone — 2026-09-18
+- Added explicit ultimate_finish_required=true evidence for four canonical skills where maintained PQ research or corroborating guides explicitly tie acquisition to Ultimate Finish: Earth Splitting Galick Gun (PQ11), Power Rush (PQ122), Chaotic Time Impact (PQ184), and X 100 Big Bang Kamehameha (PQ100-era evidence).
+- This pass intentionally did not convert every PQ skill to true: documented Xenoverse 2 rewards can come from opponent-specific drops, ordinary completion, or Ultimate Finish reward slots, so null remains appropriate where gating is unresolved.
+- Web research: the Fandom Parallel Quests overview describes both opponent-specific random drops and Ultimate-Finish reward drops; Madreag's maintained PQ records explicitly mark PQ11 Earth Splitting Galick Gun and PQ184 Chaotic Time Impact as UF rewards, while GameFAQs/Steam corroborate PQ122 Power Rush and the broader RNG/UF behavior. citeturn1search0turn1search4turn1search2turn2search1turn2search12
+- Next: continue acquisition semantics by separating opponent-drop, normal-finish, and UF-gated skills, then audit DLC/version provenance.
