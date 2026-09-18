@@ -716,3 +716,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected two newly researched variable-cost Daima Ultimates: **Final Flash (SS3 DAIMA)** is **400+ Ki**; **Super Kamehameha (SS4 DAIMA)** is **400–500 Ki**. The source pages explicitly document those ranges. citeturn3search6turn3search0
 - Existing variable-cost conventions such as Emperor's Death Beam and Thunder Flash remain represented as ranges rather than forced into a single fixed cost.
 - Next: continue individual cost verification for older/legacy skills and then audit Ultimate Finish/acquisition/version provenance.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited documented non-null Ki costs for the canonical Super/Ultimate layer; no Super/Ultimate record currently has a missing Ki cost.
+- Corrected the DAIMA Ultimate base costs to match the current reference data: Super Kamehameha (SS4 DAIMA) 400 Ki and Final Flash (SS3 DAIMA) 400 Ki, with their documented follow-up mechanics consuming additional/all Ki separately.
+- Confirmed Full Power Destruction at 500 Ki and Prominence Flash at 300 Ki.
+- Reference evidence: the Xenoverse 2 Ultimate Attack catalog lists Full Power Destruction at 500 Ki and the DAIMA attacks at 400/400+; individual Prominence Flash data lists 300 Ki. citeturn0search0turn0search4turn0search6
+- Do not normalize Ultimate costs by class alone: the catalog includes 300, 400, 500, variable, and special/conditional costs.
