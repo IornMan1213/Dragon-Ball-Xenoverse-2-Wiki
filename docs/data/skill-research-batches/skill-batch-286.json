@@ -97,6 +97,28 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
+    },
+    {
+      "name": "Bloody Sauce",
+      "correction_of": {
+        "name": "Bloody Sauce",
+        "class": "Super",
+        "subcategory": "Ki Blast"
+      },
+      "correction_fields": [
+        "unlock_method"
+      ],
+      "previous_values": {
+        "unlock_method": "Expert Mission 13: History of Mixed Battles"
+      },
+      "corrected_values": {
+        "unlock_method": "Expert Mission 20: Harbinger of Doom"
+      },
+      "reason": "Dedicated skill documentation lists Expert Mission 20 as the unlock; Mission 13 separately lists the Raid variant.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
+        "https://dbxv2.fandom.com/wiki/Expert_Mission"
+      ]
     }
   ],
   "notes": "Gigantic Slam and Bloody Sauce were absent from the canonical catalog and are therefore represented as new records, not corrections. Boulder Break, Boulder Toss, Energy Cannon, and Beam Rifle are retained as formal corrections to Batch 283. Giant Storm is intentionally not included because it is an Ultimate Skill and will be handled in the appropriate Ultimate catalog.",
@@ -124,7 +146,7 @@
       "usable_by_cac": false,
       "character_source": "Supervillain and boss characters; Time Patroller use restricted to Crystal Raid or Training",
       "dlc_requirement": null,
-      "unlock_method": "Expert Mission 13: History of Mixed Battles",
+      "unlock_method": "Expert Mission 20: Harbinger of Doom",
       "ultimate_finish_required": null,
       "effect": "Scattered Ki Blasts that can poison or slow targets.",
       "sources": [
