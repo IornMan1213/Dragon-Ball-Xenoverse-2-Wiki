@@ -200,3 +200,8 @@ The project is being worked as parallel tracks so the site visibly improves whil
 - [x] Reconciled PQ113–117 Extra Pack 1 skill rewards.
 - [x] Reconciled PQ120 and PQ122 Extra Pack 2 skill rewards.
 - [ ] Continue remaining DLC PQ skill crosslinks; current unresolved count: 24.
+
+### PQ Skill Crosslink Milestone — 2026-09-18
+- [x] Reconciled the remaining PQ123–140 skill frontier.
+- [x] PQ skill crosslink report now has 0 unresolved references.
+- [ ] Perform a second-pass metadata audit of all promoted PQ skill records: exact costs, CaC restrictions, Ultimate Finish requirements, DLC/version provenance, and mechanics.
