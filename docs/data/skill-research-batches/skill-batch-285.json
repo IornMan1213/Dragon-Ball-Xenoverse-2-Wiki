@@ -20,21 +20,6 @@
       ]
     },
     {
-      "name": "Spiral of Condemnation",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Crystal Raid-exclusive Ki Blast Super.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Characters"
-      ]
-    },
-    {
       "name": "Gigantic Slam",
       "class": "Super",
       "subcategory": "Strike",
@@ -65,5 +50,5 @@
       ]
     }
   ],
-  "notes": "Deduplicated against earlier research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution are already covered by Batch 264; Rage Saucer and Brainwash Attack are covered by Batch 284. Bloody Sauce was added after dedicated-source verification; Gigantic Slam was likewise verified as a Strike Super."
+  "notes": "Cleaned duplicate identity: Spiral of Condemnation is already covered by batch 271. Remaining records are Celestial Hammer, Gigantic Slam, and Bloody Sauce."
 }
