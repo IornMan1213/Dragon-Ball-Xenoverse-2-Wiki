@@ -495,3 +495,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Character-only evidence is now represented explicitly rather than leaving acquisition blank: Rising Rage is tied to Broly (Restrained); Instant Charge to Mira (Final Form)/boss use; Energy Release and Time Bullet are documented as non-CaC character-exclusive skills.
 - Research references also distinguish ordinary obtainable charge skills from cast/raid-exclusive variants; this prevents treating every Super with a known cost as automatically obtainable by CaCs. citeturn1search0turn1search1turn1search10turn1search12
 - Continue the same field-by-field acquisition audit for the remaining blank Super/Ultimate routes, prioritizing skills where character-only, mentor/training, shop, PQ, raid, or DLC provenance can be established without inference.
+
+
+### Acquisition-route audit milestone — 2026-09-18
+- Enriched four remaining blank Super/Ultimate acquisition fields: Burst Rush (PQ51), Change The Future (PQ43), Demon Flash Strike (PQ160), and Reverse Mabakusenko (Skill Shop).
+- Burst Rush's PQ51 route is specifically tied to the Ultimate Finish condition; the other three are recorded without inventing an Ultimate Finish requirement. citeturn3search1turn3search2turn3search4turn4search0turn4search2turn4search13
+- Continue auditing blank acquisition routes individually, especially cast-only/raid-only skills and skills whose source is a mentor, shop, PQ, or DLC route.
