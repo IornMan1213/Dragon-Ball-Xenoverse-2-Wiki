@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 139,
+  "record_count": 147,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -1493,6 +1493,190 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Divine Ray Bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": null,
+      "character_source": "Goku Black (Super Saiyan Rosé) Ultra Supervillain",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "source_quest_or_shop": "PQ173 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Divine Ray Bomb is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Final Rampage",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "usable_by_cac": null,
+      "character_source": "Vegeta (Super Saiyan God) Ultra Supervillain",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "source_quest_or_shop": "PQ174 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Final Rampage is a Ultimate Strike skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Rampage",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "God of Destruction's Plaything",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": null,
+      "character_source": "God of Destruction Belmod",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "source_quest_or_shop": "PQ175 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "God of Destruction's Plaything is a Super Ki Blast skill associated with God of Destruction Belmod.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "God of Destruction's Poise",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": null,
+      "character_source": "God of Destruction Belmod",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "source_quest_or_shop": "PQ175 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "God of Destruction's Poise is a Super Strike skill associated with God of Destruction Belmod.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Poise",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Dragon Spark",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": null,
+      "character_source": "Goku (Mini)",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "source_quest_or_shop": "PQ177 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dragon_Spark",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Soaring Rush",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": null,
+      "character_source": "Goku (Mini)",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "source_quest_or_shop": "PQ177 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Soaring_Rush",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Supreme Fury",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "usable_by_cac": null,
+      "character_source": "SS4 Goku (DAIMA)",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "source_quest_or_shop": "PQ179 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Supreme Fury is a Ultimate Strike skill associated with SS4 Goku (DAIMA).",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Supreme_Fury",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Heat Wave",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": null,
+      "character_source": "SS4 Goku (DAIMA)",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "source_quest_or_shop": "PQ179 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Heat Wave is a Super Ki Blast skill associated with SS4 Goku (DAIMA).",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Heat_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     }
