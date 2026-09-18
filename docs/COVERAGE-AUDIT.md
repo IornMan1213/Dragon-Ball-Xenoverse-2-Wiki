@@ -90,7 +90,9 @@ Every important nontrivial claim should retain:
 ## Immediate research sequence
 
 1. Keep GitHub Actions blocked as a billing/infrastructure issue; do not weaken validators.
-2. Reconcile the existing final-DLC skill research and the persisted PQ-to-skill cross-link gap before adding another generic skill batch.
+2. Reconcile the existing final-DLC skill research and the persisted 10 additional canonical matches were resolved in the PQ171-PQ186 frontier; remaining skill names require identity research before promotion.
+
+PQ-to-skill cross-link gap before adding another generic skill batch.
 3. Deepen the existing Parallel Quest layer by resolving canonical skill links and then filling remaining reward/acquisition/version fields.
 4. Audit Awoken/Transformation records against the same exhaustive field standard.
 5. Finish EM01–20 verification.
