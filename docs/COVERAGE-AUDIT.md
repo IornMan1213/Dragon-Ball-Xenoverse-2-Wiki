@@ -144,3 +144,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Added a recent Steam community-testing source to the canonical/index Indomitable record.
 - The source describes simultaneous Ki/Stamina charging and a health-sensitive acceleration below 50% HP; exact timing remains marked partially verified rather than promoted to a hard mechanic.
 - Surging Spirit remains documented as a zero-Ki charge skill; current sources describe its charge rate improving with continued use and its CaC access through Ultra Instinct's built-in action. citeturn2search0turn2search1turn2search2
+
+
+### Ki-cost audit milestone — 2026-09-18
+- Audited the canonical Super/Ultimate ki_cost field for null/missing values: none remain among those classes.
+- Reviewed nonstandard costs rather than normalizing them to generic 100/300/500 values. Confirmed examples include Power Rush at 1000 Ki, Chaotic Time Impact at 600 Ki, Gigantic Breaker at 200 Ki, and Gigantic Explosion at 600 Ki. citeturn1search1turn1search4turn1search2turn1search6
+- Preserved variable costs for Final Flash (SS3 DAIMA) as 400+ and Super Kamehameha (SS4 DAIMA) as 400-500, matching the documented base cost and optional extra-Ki behavior. citeturn1search0turn1search3turn1search5
+- Next: continue acquisition/unlock-route and Ultimate Finish verification; cost completeness is not evidence of complete skill metadata.
