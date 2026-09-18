@@ -508,3 +508,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Reviewed the nonstandard-cost set rather than coercing it into the common 0/100/200/300/500 pattern: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
 - These values are retained as variable/string costs where the attack can consume additional Ki; this preserves gameplay semantics instead of falsely converting them to a single fixed cost. Community/reference evidence independently supports Death Ball at 400 Ki and Emperor's Death Beam at a 400-Ki minimum with additional Ki consumption. citeturn1search0turn1search1turn1search5
 - Next cost pass should target acquisition/version provenance and Ultimate Finish requirements rather than changing already-populated fixed costs without contrary evidence.
+
+
+### Skill acquisition metadata normalization — 2026-09-18
+- Converted five already-explicit PQ references embedded in unlock text into the structured `source_quest` field: Dimensional Hole (PQ80), God Breaker (PQ44), Heroic Counter (PQ155), Punisher Shield (PQ129), and Rough Ranger (PQ119 Ultimate Finish).
+- This is a normalization-only change: no quest number was inferred from a generic “Parallel Quest reward” statement.
+- Next acquisition pass should continue distinguishing exact PQ numbers, Ultimate Finish gating, shops, mentors/training, wishes, raids, and character-only acquisition routes.
