@@ -2623,7 +2623,8 @@
       "dlc_requirement": "Ultra Pack 1",
       "ki_cost": 0,
       "description": "Ki-charging Super Skill used by Super Saiyan God Super Saiyan (Evolved) Vegeta; it begins slowly and rapidly accelerates after about two seconds, functioning similarly to Ultimate Charge.",
-      "mechanics": "Starts at a slow charging rate, then accelerates rapidly after roughly two seconds; slightly faster than Ultimate Charge. Character-exclusive and unavailable to CaCs."
+      "mechanics": "Starts at a slow charging rate, then accelerates rapidly after roughly two seconds; slightly faster than Ultimate Charge. Character-exclusive and unavailable to CaCs.",
+      "usable_by_cac": false
     },
     {
       "name": "Full Power Charge",
