@@ -1,0 +1,69 @@
+{
+  "batch_id": 285,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Previously absent cast/boss skill identities",
+  "records": [
+    {
+      "name": "Boiling Ball",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Boss/cast-only character",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": null,
+      "sources": [
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "name": "Tricky Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Cast-only character",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": null,
+      "sources": [
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "name": "Darkness Mixer",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Cast/boss character",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": null,
+      "sources": [
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "name": "Energy Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra (Final Form)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": null,
+      "sources": [
+        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+      ]
+    }
+  ],
+  "notes": "Identity-layer additions only where current evidence establishes the skill name, Super identity/category, and CaC availability. Numeric costs, acquisition and Ultimate Finish requirements remain null unless directly established. ID-list evidence identifies Energy Cannon as Demigra (Final Form) and all four as non-CaC/cast-side records; subtype labels are retained conservatively where the skill guide/category mapping supports them."
+}
