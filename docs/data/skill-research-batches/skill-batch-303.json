@@ -1,0 +1,26 @@
+{
+  "batch_id": 303,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Remaining Other Super catalog gap",
+  "records": [
+    {
+      "name": "Audacious Laugh",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Zarbon; Future Warrior",
+      "dlc_requirement": null,
+      "unlock_method": "Zarbon's Initiation Test",
+      "ultimate_finish_required": false,
+      "effect": "Intimidating laugh that applies a movement-speed slowdown to the opponent.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Audacious_Laugh",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ]
+    }
+  ],
+  "notes": "Dedicated/current documentation identifies Audacious Laugh as a Zarbon Super Skill and a Future Warrior technique learned through Zarbon's initiation test. The repository records the class as Super / Other; the exact numeric Ki cost was not established by the reviewed sources, so it remains null. The negative Ultimate Finish value is supported by the mentor guide listing Audacious Laugh as a Basic Reward of the Initiation Test rather than an Ultimate Finish reward."
+}
