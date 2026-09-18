@@ -370,3 +370,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Confirmed legitimate nonstandard values: Dimensional Hole and Destruction's Conductor use 0 Ki, while Chaotic Time Impact and Gigantic Explosion use 600 Ki. citeturn2search1turn2search2turn1search0turn1search1
 - Confirmed variable-cost skills such as Super Guard and Dark Inscription should retain base/variable semantics rather than being flattened into a fixed cost. citeturn2search0turn2search3
 - Next: continue individual Ki-cost review for variable and multi-stage skills, then audit Ultimate Finish and acquisition semantics.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the current canonical Super/Ultimate cost distribution; no Super or Ultimate records have a null Ki cost.
+- Corrected **S.S. Deadly Bomber** from 300 to **400 Ki** using the current Xenoverse 2 skill reference. citeturn1search8
+- Retained documented nonstandard Ultimate costs where evidence supports them, including Death Ball (400), Chaotic Time Impact (600), and Gigantic Explosion (600). citeturn1search0turn1search2turn1search3
+- Variable-cost records remain represented as ranges/thresholds rather than being collapsed to a guessed single value.
