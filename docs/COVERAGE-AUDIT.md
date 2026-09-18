@@ -136,3 +136,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Nonstandard costs are preserved rather than normalized by class: documented examples include 200-Ki Supers (Divine Kamehameha, Divine Spear, Earth Splitting Galick Gun, Final Flash (Super), Burning Blast), 200-Ki Ultimate Gigantic Breaker, 400-Ki Death Ball and DAIMA Ultimates, and 600-Ki Chaotic Time Impact/Gigantic Explosion.
 - Independent community references corroborate Death Ball at 400 Ki and Gigantic Explosion at 600 Ki; these are corroboration rather than primary authoritative evidence. citeturn1search0turn1reddit29
 - Zero-Ki entries are retained where the catalog models charge/buff/stance-type skills with no direct Ki activation cost; no blanket correction was applied.
+
+
+### Super/Ultimate Ki-cost completeness check — 2026-09-18
+- Canonical audit found **0 Super/Ultimate records with a missing Ki-cost field**.
+- Nonstandard costs are intentionally preserved rather than normalized: e.g. Chaotic Time Impact and Gigantic Explosion use 600 Ki, Death Ball uses 400 Ki, Emperor's Death Beam uses a variable 400+ Ki model, and Thunder Flash uses a 300–600 Ki model.
+- External research independently confirms that Xenoverse 2 skills can use nonstandard/variable Ki costs, so class-based assumptions such as “every Ultimate = 300/500” would be unsafe. citeturn0search0turn0search6
+- Dimensional Hole was also checked directly: its documented cost is 0 Ki, confirming that zero-cost Super records can be legitimate. citeturn1search0
+- Next metadata frontier: audit acquisition semantics, Ultimate Finish requirements, CaC/race restrictions, and DLC/version provenance rather than bulk-normalizing costs.
