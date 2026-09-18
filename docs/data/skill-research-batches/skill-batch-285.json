@@ -2,7 +2,7 @@
   "batch_id": 285,
   "created": "2026-09-18",
   "type": "catalog_research",
-  "scope": "Previously unrecorded raid-exclusive Super Skills",
+  "scope": "Raid/Boss-exclusive Super Skills — unresolved gap only",
   "records": [
     {
       "name": "Celestial Hammer",
@@ -18,143 +18,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
       ]
-    },
-    {
-      "name": "Bloody Sauce",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Supervillain and boss characters",
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 20: Harbinger of Doom",
-      "ultimate_finish_required": null,
-      "effect": "Wave of purple Ki blasts that can poison or slow targets; Crystal Raid/Training availability.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Bloody_Sauce"
-      ],
-      "acquisition_note": "The dedicated page labels Expert Mission 20: Harbinger of Doom in its Unlock field, but also states the skill is usable by Time Patrollers only in Crystal Raid or Training mode; this is therefore not treated as a normal CaC unlock."
-    },
-    {
-      "name": "Rage Saucer",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Raid-exclusive skill",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Raid-exclusive Super Skill.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Brainwash Attack",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Raid-exclusive skill",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Raid-exclusive Super Skill.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Marbling Drop",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Raid-exclusive skill",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Raid-exclusive Super Skill.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Spiral of Condemnation",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Raid-exclusive skill",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Raid-exclusive Super Skill.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Seasoning Arrow",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Demon God Demigra / Raid-exclusive skill",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Raid-exclusive Super Skill.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Time Shackles",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Demon God Demigra / Raid-exclusive skill",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Raid-exclusive Super Skill.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Flames of Retribution",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Raid-exclusive skill",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Ki Blast Super; also appears as a separate Evasive classification.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
-    },
-    {
-      "name": "Light of Justice",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Raid-exclusive Ki Blast Super.",
-      "sources": [
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
-      ]
     }
   ],
-  "notes": "Reconciled raid-exclusive Super Skills. Identity/category claims are supported by the categorized community inventory; numeric costs and unlocks remain null where not independently established. This batch intentionally excludes Peeler Storm because batch 264 already covers it."
+  "notes": "Deduplicated against earlier research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already researched in Batch 264; Bloody Sauce was already researched earlier; Spiral of Condemnation was already researched in Batch 271. Only Celestial Hammer remains as a new record."
 }
