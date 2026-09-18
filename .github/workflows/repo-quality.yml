@@ -38,4 +38,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Scan repository text
-        run: python3 scripts/check_repo_artifacts.py
+        run: |
+          set +e
+          python3 scripts/check_repo_artifacts.py 2>&1 | tee artifact-check-report.txt
+          status=${PIPESTATUS[0]}
+          exit "$status"
+      - name: Upload artifact-check diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: repository-quality-artifact-check
+          path: artifact-check-report.txt
