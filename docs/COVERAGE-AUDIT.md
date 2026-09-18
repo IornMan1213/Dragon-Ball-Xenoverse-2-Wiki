@@ -311,3 +311,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Normalized 110 canonical skill records that previously omitted `ultimate_finish_required` to explicit `null` (unknown/not yet established), mirrored in `skills-index.json`.
 - This is schema-quality work, not a claim that those skills do or do not require an Ultimate Finish.
 - The current catalog now distinguishes explicit `true`, explicit `false`, and explicit unknown `null`; remaining work is evidence-based review of individual PQ reward gates rather than class-based inference.
+
+
+### Super/Ultimate Ki-cost audit checkpoint — 2026-09-18
+- Canonical scan confirms all 298 skill records in the current catalog have a non-null Ki-cost field where applicable; no Super or Ultimate record is missing a Ki-cost value.
+- Cost values are not being normalized by class alone. The current corpus contains legitimate 0-Ki reinforcement/charge-style Supers, 200-Ki and 300-Ki Supers, 200-Ki Ultimates, 500-Ki Ultimates, and variable/conditional costs.
+- External corroboration confirms nonstandard costs: Power Rush is listed at 1000 Ki, Super Kamehameha (SS4 DAIMA) at 400–500 Ki, and Final Flash (SS3 DAIMA) at 400+ Ki; these demonstrate why blanket class-based cost assumptions would corrupt the catalog. citeturn1search0
+- Gigantic Breaker is documented at 200 Ki, so the canonical 200-Ki value is retained. A damage-testing reference independently lists Gigantic Breaker at 200 Ki. citeturn1search4
+- Next cost pass should focus on evidence quality and variable-cost semantics rather than filling missing fields, with Ultimate Finish, acquisition, DLC/version provenance, and mechanics as the next metadata targets.
