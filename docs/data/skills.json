@@ -8,7 +8,7 @@
   "category_counts": {
     "Ki Blast Supers": 183,
     "Strike Supers": 130,
-    "Ki Blast Ultimates": 110,
+    "Ki Blast Ultimates": 16,
     "Strike Ultimates": 30,
     "Other Supers": 32,
     "Power Up Supers": 20,
@@ -1187,6 +1187,197 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
       ]
+    },
+    {
+      "name": "Final Flash (SS3 DAIMA)",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29"
+      ],
+      "usable_by_cac": null,
+      "character_source": "SS3 Vegeta (DAIMA)",
+      "dlc_requirement": null,
+      "ki_cost": null,
+      "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Final Flash whose input can consume additional Ki beyond the initial cost to substantially increase its power.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Super Kamehameha (SS4 DAIMA)",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29"
+      ],
+      "usable_by_cac": null,
+      "character_source": "SS4 Goku (DAIMA)",
+      "dlc_requirement": null,
+      "ki_cost": null,
+      "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Super Kamehameha variant that can consume an additional 100 Ki during input for an extended, more powerful attack.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Thunder Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Thunder_Flash"
+      ],
+      "usable_by_cac": null,
+      "character_source": "Pikkon",
+      "dlc_requirement": null,
+      "ki_cost": null,
+      "unlock_method": "Parallel Quest 146 - \"Zen-Ohs' Earthly Excursion\"",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Prominence Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Prominence_Flash"
+      ],
+      "usable_by_cac": null,
+      "character_source": "Vegeta (Super Saiyan God)",
+      "dlc_requirement": null,
+      "ki_cost": 300,
+      "unlock_method": "Parallel Quest 137 - \"Tournament of Power Round 2\"",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Mystic Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mystic_Flash"
+      ],
+      "usable_by_cac": null,
+      "character_source": "Nail",
+      "dlc_requirement": null,
+      "ki_cost": 300,
+      "unlock_method": "Parallel Quest 20 - \"Frieza! Show Yourself!\"",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Rear-facing Ki wave that is fired behind the user rather than forward.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Blaster Stream",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Stream"
+      ],
+      "usable_by_cac": null,
+      "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan)",
+      "dlc_requirement": null,
+      "ki_cost": 300,
+      "unlock_method": null,
+      "source_quest_or_shop": "Parallel Quest 148 — Finding Out About Fusion",
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Full Power Destruction",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Full_Power_Destruction"
+      ],
+      "usable_by_cac": null,
+      "character_source": "Jiren (Full Power) Ultra Supervillain; Jiren — Customize Partner",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "unlock_method": null,
+      "source_quest_or_shop": "Parallel Quest 177 — Warped Sense of Justice",
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Gigantic Burst",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Burst"
+      ],
+      "usable_by_cac": true,
+      "character_source": "Kefla (Super Saiyan)",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "unlock_method": null,
+      "source_quest_or_shop": "Parallel Quest 127 — Multiverse Match of the Century",
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Two-stage attack: three sweeping Ki Waves followed by a spiraling energy wave; can be entered from Ray Blast when sufficiently fueled.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Lightning Impact",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Lightning_Impact"
+      ],
+      "usable_by_cac": null,
+      "character_source": "Majuub; Goku (GT)",
+      "dlc_requirement": null,
+      "ki_cost": 300,
+      "unlock_method": null,
+      "source_quest_or_shop": "Parallel Quest 142 — Timespace Tussle",
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Channels Ki into a Ki Wave; rapid input increases charge and damage; opponent is paralyzed if they touch the user while charging.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
+    },
+    {
+      "name": "Requiem of Destruction",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction"
+      ],
+      "usable_by_cac": null,
+      "character_source": "Vados; Whis — Customize Partner",
+      "dlc_requirement": null,
+      "ki_cost": 300,
+      "unlock_method": null,
+      "source_quest_or_shop": "Parallel Quest 106 — A Destructive Showdown",
+      "ultimate_finish_required": null,
+      "mechanics_notes": "Traps the opponent in a powerful Ki Blast and detonates it in a large explosion.",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18"
     }
-  ]
+  ],
+  "record_count": 132
 }
