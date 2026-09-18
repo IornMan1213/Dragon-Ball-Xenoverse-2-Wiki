@@ -20,21 +20,6 @@
       ]
     },
     {
-      "name": "Bloody Sauce",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Raid/Boss characters including Broly (Supervillain)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Boss-only Ki Blast Super.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Characters"
-      ]
-    },
-    {
       "name": "Spiral of Condemnation",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -81,5 +66,5 @@
       ]
     }
   ],
-  "notes": "Expanded after dedicated Xenoverse 2 pages confirmed Giant Storm as a 300-Ki Ki Blast Ultimate and Gigantic Slam as a 100-Ki Strike Super. Giant Storm is CaC-usable through the Skill Shop; Gigantic Slam remains cast-exclusive."
+  "notes": "Expanded after dedicated Xenoverse 2 pages confirmed Giant Storm as a 300-Ki Ki Blast Ultimate and Gigantic Slam as a 100-Ki Strike Super. Giant Storm is CaC-usable through the Skill Shop; Gigantic Slam remains cast-exclusive. Removed duplicate Bloody Sauce identity; retained its earlier canonical research/correction chain."
 }
