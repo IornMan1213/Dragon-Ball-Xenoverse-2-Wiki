@@ -361,7 +361,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Burst Rush",
@@ -371,7 +372,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Change The Future",
@@ -381,7 +383,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Counter Burst",
@@ -391,7 +394,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Counter Impact",
@@ -401,7 +405,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Demon Flash Strike",
@@ -422,7 +427,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 0
     },
     {
       "name": "Flash Fist Crush",
@@ -432,7 +438,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "God Breaker",
@@ -442,7 +449,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Heroic Counter",
@@ -452,7 +460,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Punisher Shield",
@@ -462,7 +471,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Reverse Mabakusenko",
@@ -472,7 +482,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 300
     },
     {
       "name": "Rough Ranger",
@@ -482,7 +493,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Shadow Crusher",
@@ -492,7 +504,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Sudden Death Beam",
@@ -502,7 +515,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Super Afterimage",
@@ -522,7 +536,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -532,7 +547,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -542,7 +558,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -552,7 +569,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Ultrasonic Blitz",
@@ -562,7 +580,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "ki_cost": 100
     },
     {
       "name": "Absolute Zero",
