@@ -1,0 +1,25 @@
+{
+  "batch_id": 290,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Missing Ki Blast Ultimate",
+  "records": [
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Nappa; Broly; Broly Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Large targeted explosion beneath the locked-on opponent.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Giant_Storm",
+        "https://dbxv2.fandom.com/wiki/Broly"
+      ]
+    }
+  ],
+  "notes": "Giant Storm was absent from docs/data/skills.json. Current Xenoverse 2 documentation identifies it as a Ki Blast Ultimate; independent Xenoverse 2 move-list/community sources corroborate the 300 Ki cost."
+}
