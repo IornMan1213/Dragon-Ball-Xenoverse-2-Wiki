@@ -3981,7 +3981,7 @@
     },
     {
       "name": "Burning Blast",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Ki Blast",
       "usable_by_cac": null,
       "character_source": "SS3 Vegeta (DAIMA)",
@@ -3992,7 +3992,7 @@
       "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
       "source_quest_or_shop": "PQ180",
       "ultimate_finish_required": null,
-      "skill_description": "Burning Blast is a Ultimate Ki Blast skill associated with SS3 Vegeta (DAIMA).",
+      "skill_description": "Burning Blast is a Super Ki Blast skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
@@ -4000,7 +4000,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "mechanics": "200 Ki; optional 300 Stamina consumption enables use while under pressure and grants temporary Super Armor."
     },
     {
       "name": "Chain Destructo-Disc Barrage",
@@ -4100,9 +4101,11 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
+        "https://dbxv2.fandom.com/wiki/Death_Ball"
       ],
-      "ki_cost": 400
+      "ki_cost": 400,
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -4177,11 +4180,13 @@
       "name": "Emperor's Death Beam",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "ki_cost": 400
+      "ki_cost": "400+",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Energy Field",
