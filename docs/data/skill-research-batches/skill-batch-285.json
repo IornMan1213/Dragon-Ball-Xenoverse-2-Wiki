@@ -5,22 +5,6 @@
   "scope": "Catalog reconciliation: remaining distinct cast-exclusive and boss/raid skill gaps",
   "records": [
     {
-      "name": "Bloody Sauce",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Supervillain/Boss characters",
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 20: Harbinger of Doom",
-      "ultimate_finish_required": null,
-      "effect": "Fires scattered purple Ki blasts that can poison or slow the opponent; Crystal Raid/Training availability is separately documented.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
-        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
-      ]
-    },
-    {
       "name": "Celestial Hammer",
       "class": "Super",
       "subcategory": "Strike",
@@ -65,22 +49,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
-    },
-    {
-      "name": "Spiral of Condemnation",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Releases three energy spirals toward the opponent.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation"
-      ]
     }
   ],
-  "notes": "Cleaned to retain only identities not already covered by prior research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already documented in batch 264 and are therefore excluded here. Peeler Storm was likewise excluded because it is already covered in batch 264."
+  "notes": "Cleaned after cross-batch reconciliation: Bloody Sauce is already documented in an earlier Ki Blast Super batch, and Spiral of Condemnation is already documented in batch 271. Retained only distinct catalog gaps: Celestial Hammer, Giant Storm, and Gigantic Slam."
 }
