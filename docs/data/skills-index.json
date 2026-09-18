@@ -1568,14 +1568,15 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80192272",
-        "https://dbxv2.fandom.com/wiki/Divine_Kamehameha"
+        "https://dbxv2.fandom.com/wiki/Divine_Kamehameha",
+        "https://dragonball.fandom.com/wiki/Perfected_Ultra_Instinct"
       ],
       "ki_cost": 200,
       "last_verified": "2026-09-18",
       "unlock_method": "TP Medal Shop",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "dlc_requirement": "Free Update 11 / Ultra Instinct update",
+      "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)"
     },
     {
       "name": "Divine Spear",
@@ -4593,14 +4594,14 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80390334",
-        "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam"
+        "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam",
+        "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam"
       ],
       "ki_cost": "400+",
       "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "dlc_requirement": "Resurrection 'F' Pack / DLC Pack 3",
+      "character_source": "Golden Frieza"
     },
     {
       "name": "Energy Field",
@@ -4631,12 +4632,15 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Final_Explosion",
+        "https://dragonball.fandom.com/wiki/Final_God_Explosion"
       ],
       "ki_cost": 500,
       "unlock_method": "TP Medal Shop",
       "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "dlc_requirement": "Ultra Pack 1 / Legendary Pack 1 availability history",
+      "character_source": "SSGSS Vegeta (Evolved)"
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
