@@ -92,7 +92,7 @@ Every important nontrivial claim should retain:
 1. Keep GitHub Actions blocked as a billing/infrastructure issue; do not weaken validators.
 2. Reconcile the canonical skill layer against research and perform the active second-pass metadata audit: exact costs, acquisition routes, CaC/race/gender restrictions, character-only variants, Ultimate Finish requirements, DLC/version provenance, and mechanics.
 
-The PQ-to-skill cross-link audit is now fully reconciled: 298 canonical skill records/index records, 205 linked PQ skill rewards, and 0 unresolved PQ skill references. Do not reopen the resolved frontier unless new evidence identifies a conflict.
+The PQ-to-skill cross-link audit is currently represented by the repository's latest persisted reconciliation report; the canonical skill files presently contain 294 records each, with ordering and canonical identities synchronized. Treat older 298-record milestone text below as historical unless refreshed by the latest report. Do not reopen the resolved frontier unless new evidence identifies a conflict.
 3. Deepen the existing Parallel Quest layer by filling remaining reward/acquisition/version fields now that skill cross-links are reconciled.
 4. Audit Awoken/Transformation records against the same exhaustive field standard.
 5. Finish EM01–20 verification.
@@ -120,9 +120,17 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Evasive stamina-cost audit — 2026-09-18
 - Completed a focused Evasive stamina-cost pass against available skill references.
 - Corrected/confirmed documented costs including Dragon Burn (200), Absolute Zero (300), Angry Shout (300), and Mach Dash (200).
-- Research cross-check: the Evasive Skill reference lists Absolute Zero (300), Dragon Burn (200), Angry Shout (300), and Mach Dash (200). Source: https://dbxv2.fandom.com/wiki/Evasive_Skill
-- Remaining work: audit the Super/Ultimate Ki-cost fields individually; do not infer costs from class alone because variable, zero-cost, and nonstandard skills exist.
+- Current canonical/index files remain synchronized after the pass.
+- Remaining work: preserve the already-complete Super/Ultimate Ki-cost coverage while moving the active audit frontier to acquisition semantics and individual mechanics.
 
+### Current canonical validation checkpoint — 2026-09-18
+- Canonical skills: **294** records.
+- Skills index: **294** records.
+- Duplicate canonical identities: **0**.
+- Canonical/index ordering and identity keys: synchronized.
+- Null Ki-cost fields among Super/Ultimate records: **0**.
+- The repository currently differs from older 298-record milestone text elsewhere in this document; do not treat that historical count as the present catalog size without re-running the validation.
+- The four Evasive corrections above are retained in the current canonical/index state.
 
 ### Super/Ultimate Ki-cost audit frontier — 2026-09-18
 - Canonical catalog currently contains 298 skill records; an inspection found 84 Super/Ultimate records with null Ki cost.
