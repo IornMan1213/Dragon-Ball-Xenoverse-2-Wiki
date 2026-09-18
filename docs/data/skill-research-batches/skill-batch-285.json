@@ -18,7 +18,52 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
       ]
+    },
+    {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Raid/Boss characters including Broly (Supervillain)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Boss-only Ki Blast Super.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    },
+    {
+      "name": "Rage Saucer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Kid Buu (Supervillain), Janemba (Supervillain), Broly (Supervillain), Demon God Demigra, Mira (Final Form)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Boss-only Strike Super.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    },
+    {
+      "name": "Spiral of Condemnation",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Crystal Raid-exclusive Ki Blast Super.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
     }
   ],
-  "notes": "Four raid/boss-exclusive Super Skills not already covered by earlier research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were removed because they are already present in Batch 264; Light of Justice was removed because it is already covered by Batch 272-era research."
+  "notes": "Four previously absent raid/boss-exclusive Super Skills: Celestial Hammer, Bloody Sauce, Rage Saucer, and Spiral of Condemnation. Existing Batch 264 entries were deliberately not duplicated."
 }
