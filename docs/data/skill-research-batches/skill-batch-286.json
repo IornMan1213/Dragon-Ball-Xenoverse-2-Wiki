@@ -122,7 +122,31 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
+    },
+    {
+      "name": "Bloody Sauce",
+      "correction_of": {
+        "name": "Bloody Sauce",
+        "class": "Super",
+        "subcategory": "Ki Blast"
+      },
+      "correction_fields": [
+        "usable_by_cac"
+      ],
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Supervillain and boss characters; Time Patroller use restricted to Crystal Raid or Training",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 20: Harbinger of Doom",
+      "ultimate_finish_required": null,
+      "reason": "Dedicated Xenoverse 2 documentation identifies Bloody Sauce as a Crystal Raid skill and explicitly limits Time Patroller use to Crystal Raid or Training; it is not a normal CaC-usable skill.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+      ]
     }
   ],
-  "notes": "Giant Storm was not added to the Super catalog because current sources identify it as an Ultimate Skill. Poison was not added because current evidence states the Poison skill does not return in Xenoverse 2. Saibabeam and Acid remain candidates pending dedicated XV2 subtype/cost evidence."
+  "notes": "Giant Storm was not added to the Super catalog because current sources identify it as an Ultimate Skill. Poison was not added because current evidence states the Poison skill does not return in Xenoverse 2. Saibabeam and Acid remain candidates pending dedicated XV2 subtype/cost evidence. Bloody Sauce availability was reconciled after dedicated-source review."
 }
