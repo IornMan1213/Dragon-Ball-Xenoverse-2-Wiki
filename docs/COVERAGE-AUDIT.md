@@ -257,3 +257,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected five canonical Power Up skill descriptions that duplicated the taxonomy label (for example, “Power Up Power Up”) into normal skill descriptions.
 - Affected records: Divinity Unleashed, Fighting Pose H, Justice Pose, Taunt, and Formation!.
 - This is presentation/data-quality cleanup only; no resource cost or gameplay value was inferred from the wording.
+
+
+### Resource-cost and Ultimate-Finish provenance pass — 2026-09-18
+- Audited all 298 canonical Super/Ultimate records for missing Ki-cost values: **0 missing**.
+- Zero-Ki entries were retained where the skill is a charge/buff/pose/utility action rather than forcing a class-based default cost. For example, Dimensional Hole and Fighting Pose K are explicitly documented at 0 Ki. citeturn1search1turn1search0
+- Confirmed the existing `ultimate_finish_required: true` state for Burst Charge: PQ134 sources describe Burst Charge/Ultimate Charge as Ultimate Finish rewards. citeturn2search0turn2search12
+- Confirmed the existing Ultimate Finish requirement for Formation! from PQ133 documentation. citeturn2search3
+- Do not normalize remaining costs by class; variable/zero-cost mechanics require skill-specific evidence.
