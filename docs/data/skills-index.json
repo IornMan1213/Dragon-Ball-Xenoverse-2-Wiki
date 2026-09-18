@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 147,
+  "record_count": 153,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -1677,6 +1677,144 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Burst Blitz",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": null,
+      "character_source": "Goku (Mini)",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "source_quest_or_shop": "PQ178",
+      "ultimate_finish_required": null,
+      "skill_description": "Burst Blitz is a Super Strike skill associated with Goku (Mini).",
+      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Blitz",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Force Edge",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": null,
+      "character_source": "SS3 Vegeta (DAIMA)",
+      "dlc_requirement": "Dragon Ball DAIMA Pack",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "source_quest_or_shop": "PQ180",
+      "ultimate_finish_required": null,
+      "skill_description": "Force Edge is a Super Strike skill associated with SS3 Vegeta (DAIMA).",
+      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Force_Edge",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Burning Blast",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": null,
+      "character_source": "SS3 Vegeta (DAIMA)",
+      "dlc_requirement": "Dragon Ball DAIMA Pack",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "source_quest_or_shop": "PQ180",
+      "ultimate_finish_required": null,
+      "skill_description": "Burning Blast is a Ultimate Ki Blast skill associated with SS3 Vegeta (DAIMA).",
+      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burning_Blast",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Dark Inscription",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": null,
+      "character_source": "Golden Frieza (Ultra Supervillain)",
+      "dlc_requirement": "FUTURE SAGA Chapter 3",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "source_quest_or_shop": "PQ182",
+      "ultimate_finish_required": null,
+      "skill_description": "Dark Inscription is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
+      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dark_Inscription",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Emperor's Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": null,
+      "character_source": "Golden Frieza (Ultra Supervillain)",
+      "dlc_requirement": "FUTURE SAGA Chapter 3",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "source_quest_or_shop": "PQ183",
+      "ultimate_finish_required": null,
+      "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
+      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Chaotic Time Impact",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": null,
+      "character_source": "Golden Frieza (Ultra Supervillain)",
+      "dlc_requirement": "FUTURE SAGA Chapter 3",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "source_quest_or_shop": "PQ184",
+      "ultimate_finish_required": null,
+      "skill_description": "Chaotic Time Impact is a Ultimate Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
+      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     }
