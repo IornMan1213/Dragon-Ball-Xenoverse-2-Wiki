@@ -154,3 +154,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical audit confirms all 298 current skill records have a populated `ki_cost` field where the schema expects it; no Super/Ultimate records are missing Ki cost.
 - Zero-Ki entries are concentrated in charge, teleport/utility, and Power Up records and are therefore retained pending individual mechanics verification rather than normalized to a default cost.
 - Next pass should target the semantics behind non-zero Super/Ultimate costs, especially variable-cost and version-specific skills, plus Ultimate Finish evidence.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Canonical audit found **no missing Ki-cost values** among Super or Ultimate records (298 total skill records checked).
+- Nonstandard costs are present and must remain evidence-driven: Super records include 200/300 Ki entries, while Ultimate records include 200, 300, 400, 500, 600, and variable-range costs.
+- Spot-check research supports retaining non-100/300 values rather than normalizing by class: Xenoverse 2 references document chargeable/extended skills whose base cost differs from their maximum spend, and community/research sources document 200-Ki supers such as x10 Kamehameha. citeturn1search5turn1search12
+- Next skill pass should target **acquisition semantics, Ultimate Finish requirements, CaC/race restrictions, DLC/version provenance, and mechanics**, not blanket Ki-cost normalization.
