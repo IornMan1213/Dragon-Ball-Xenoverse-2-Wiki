@@ -460,3 +460,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Filled documented acquisition routes for 8 previously incomplete Evasive records: Absolute Zero, Dragon Burn, Explosive Wave, Angry Shout, Energy Barrier, Punisher Guard, Final Pose, and Mach Dash.
 - Sources distinguish PQ rewards, Skill Shop acquisition, and historical/name-change cases; the catalog preserves those distinctions instead of collapsing them into a generic “PQ reward” label. citeturn2search1turn1search8turn1search10turn1search2turn1search4turn2search0turn1search7turn1search3turn1search9
 - Current Evasive layer now has no missing stamina costs and no missing acquisition routes among these 20 canonical Evasive records.
+
+
+### Core acquisition-route pass — 2026-09-18
+- Added sourced acquisition semantics for 12 additional skills with previously blank unlock routes: Super Afterimage, Divine Kamehameha, Perfect Shot, Spirit Bomb, Afterimage, Assault Vanish, Charged Ki Wave, Phantom Fist, Quick Sleep, Full Power Charge, Maximum Charge, and Instant Transmission.
+- Evidence distinguishes Skill Shop, TP Medal Shop, mentor/training, Parallel Quest, and advancement-test routes rather than collapsing them into a generic source label. citeturn1search19turn1search7turn1search1turn1search14turn1search9turn1search2turn1search0turn2search11turn2search0turn2search5turn2search3turn2search2
+- Final Charge remains intentionally unassigned an acquisition route in this pass because available evidence identifies it as a character-exclusive skill unavailable to CaCs; character-only availability is not the same as a player acquisition route. citeturn2search15turn2search10
+- Next acquisition frontier: the remaining blank Super/Ultimate routes, especially character-exclusive, shop, mentor, and story/progression cases, audited individually.
