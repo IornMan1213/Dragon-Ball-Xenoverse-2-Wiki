@@ -3798,7 +3798,7 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 79",
       "ultimate_finish_required": null,
-      "skill_description": "Mighty Explosive Wave is a Ultimate Ki Blast skill associated with Majin Buu.",
+      "skill_description": "Mighty Explosive Wave is an Evasive skill associated with Majin Buu.",
       "mechanics_notes": "Reclassified from Ultimate/Ki Blast to Evasive/Other during metadata audit; reward identity remains PQ79. Detailed mechanics and exact acquisition gating remain under research.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
