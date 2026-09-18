@@ -4681,7 +4681,7 @@
       "usable_by_cac": true,
       "character_source": "Android 13",
       "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
-      "ki_cost": 300,
+      "ki_cost": 400,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
@@ -4694,7 +4694,8 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
+        "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber"
       ]
     },
     {
