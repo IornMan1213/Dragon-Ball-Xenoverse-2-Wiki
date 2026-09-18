@@ -695,7 +695,7 @@
     {
       "name": "Burning Slash",
       "class": "Super",
-      "subcategory": "Human",
+      "subcategory": "Strike",
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
@@ -704,7 +704,7 @@
     {
       "name": "Darkness Rush (Melee)",
       "class": "Super",
-      "subcategory": "Human",
+      "subcategory": "Strike",
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
@@ -713,7 +713,7 @@
     {
       "name": "Shining Slash",
       "class": "Super",
-      "subcategory": "Human",
+      "subcategory": "Strike",
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
@@ -722,7 +722,7 @@
     {
       "name": "Darkness Rush (Ranged)",
       "class": "Super",
-      "subcategory": "Namekian",
+      "subcategory": "Strike",
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
@@ -731,7 +731,7 @@
     {
       "name": "Evil Flight Strike",
       "class": "Super",
-      "subcategory": "Namekian",
+      "subcategory": "Strike",
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
@@ -740,7 +740,7 @@
     {
       "name": "Namek Finger",
       "class": "Super",
-      "subcategory": "Namekian",
+      "subcategory": "Strike",
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
@@ -2975,12 +2975,12 @@
       "character_source": "Cell",
       "dlc_requirement": "Base Game",
       "ki_cost": null,
-      "stamina_cost": null,
+      "stamina_cost": 300,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 37",
       "ultimate_finish_required": null,
-      "skill_description": "Instant Rise is a Evasive Other skill associated with Cell.",
+      "skill_description": "Instant Rise is an Evasive skill that rapidly ascends to evade attacks.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
