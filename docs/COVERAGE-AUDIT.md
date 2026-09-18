@@ -663,3 +663,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Zero-cost entries are retained where the data records a genuinely free activation (not treated as missing data); examples include charge/reinforcement and other documented utility skills.
 - Web research independently confirms that Xenoverse 2 contains genuine 0-Ki skills, so a blanket “Super = 100 / Ultimate = 300” normalization would corrupt the catalog. citeturn1search0turn1reddit48
 - Remaining cost work is therefore verification of individual numeric values and version-history changes, rather than filling nulls.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found **0 missing Ki-cost values** across all Super and Ultimate records.
+- The catalog intentionally contains non-default costs and variable costs, so costs must not be normalized by class: documented exceptions include 400/600 Ki Ultimates and variable entries such as Emperor's Death Beam (400+) and Thunder Flash (300–600).
+- Zero-Ki Super records are concentrated in charge/power-up/utility skills and are retained where the documented resource model supports them.
+- Web corroboration confirms Xenoverse 2 uses 300/500-Ki Ultimates as common tiers while individual skills can have different costs; this supports continuing field-by-field verification rather than class-based inference. citeturn0search0turn0search5
+- Next metadata pass: audit Ultimate Finish requirements and acquisition semantics, especially records where `ultimate_finish_required` remains null.
