@@ -51,9 +51,12 @@ for (const [filename, payload] of loaded) {
     const entry = crossLayer.get(key);
     if (!entry.files.includes(filename)) entry.files.push(filename);
 
-    const status = record.verification_status ?? record.status;
-    if (status && !statusValues.has(status) && !excludedStatuses.has(status)) {
-      failures.push(`${filename}: ${name}: invalid verification status '${status}'`);
+    // `status` may be a domain-specific research finding state (for example
+    // `basic_reward_confirmed` in the PQ audit), so only verification_status
+    // is validated against the verification enum.
+    const verificationStatus = record.verification_status;
+    if (verificationStatus && !statusValues.has(verificationStatus) && !excludedStatuses.has(verificationStatus)) {
+      failures.push(`${filename}: ${name}: invalid verification status '${verificationStatus}'`);
     }
 
     if (record.sources !== undefined && (!Array.isArray(record.sources) || record.sources.length === 0)) {
