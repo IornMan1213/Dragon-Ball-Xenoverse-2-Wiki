@@ -21,5 +21,11 @@
       ]
     }
   ],
-  "notes": "The current dedicated Xenoverse 2 page explicitly classifies Giant Storm as a Ki Blast Ultimate, 300 Ki, Skill Shop unlock, and lists the relevant users/customize partners. It was absent from docs/data/skills.json at audit time. This batch corrects the earlier Batch 290 note that incorrectly claimed Giant Storm was already represented by Batch 286."
+  "notes": "The current dedicated Xenoverse 2 page explicitly classifies Giant Storm as a Ki Blast Ultimate, 300 Ki, Skill Shop unlock, and lists the relevant users/customize partners. It was absent from docs/data/skills.json at audit time. This batch corrects the earlier Batch 290 note that incorrectly claimed Giant Storm was already represented by Batch 286. Marked as historical duplicate of Batch 285 so the coverage-audit note does not create a duplicate canonical identity.",
+  "historical_duplicate_of": {
+    "name": "Giant Storm",
+    "class": "Ultimate",
+    "subcategory": "Ki Blast",
+    "batch_id": 285
+  }
 }
