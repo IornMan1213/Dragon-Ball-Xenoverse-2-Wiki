@@ -1,0 +1,50 @@
+{
+  "batch_id": 175,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, acquisition route, CaC availability, and mechanics. Preserve unsupported probability, stamina, and Ultimate Finish fields as null.",
+  "research_scope": "Smile Charge — Strike Super / cast-exclusive acquisition research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Xenoverse 2 references.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Smile Charge"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Smile Charge was found. The canonical identity is Super / Strike; its cast-exclusive status is represented independently through usable_by_cac and the Unavailable for CaC taxonomy."
+    },
+    "classification_finding": "Xenoverse 2-specific documentation classifies Smile Charge as a Strike Super Attack.",
+    "acquisition_finding": "Smile Charge is a cast-exclusive Android 17 skill. It is not obtainable by the Future Warrior as a normal CaC skill. Android 17 (DB Super) can use the skill after its customization content is unlocked and the skill is purchased for that partner.",
+    "finish_policy": "ultimate_finish_required remains null because the canonical record is cast-exclusive and the reviewed sources do not establish an Ultimate Finish acquisition requirement for the skill itself.",
+    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed canonical source does not establish a reliable stamina value."
+  },
+  "records": [
+    {
+      "name": "Smile Charge",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": false,
+      "character_source": "Android 17 / Android 17 (DB Super) customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Cast-exclusive / Partner Customization",
+      "source_quest_or_shop": "Android 17 partner customization; historical PQ39/Official History association retained as context",
+      "ultimate_finish_required": null,
+      "skill_description": "A mid-range grab rush in which Android 17 flies toward the opponent, grabs them, fires a Ki wave through them, and knocks them away.",
+      "mechanics_notes": "The Xenoverse 2 skill reference characterizes Smile Charge as grab, rush, single-hit, mid-range, and knockback. The skill deals Strike-class damage despite using a Ki wave during the grab sequence. It is unavailable for CaCs.",
+      "acquisition_notes": "Smile Charge is a cast-exclusive Android 17 skill. Android 17 (DB Super) can use it through Partner Customization after the relevant customization unlock. Historical PQ/Official History listings are not promoted as a current CaC acquisition route.",
+      "pve_notes": "Cast-exclusive skill; no CaC acquisition route established and no Ultimate Finish requirement promoted.",
+      "pvp_notes": "The move uses a grab-style rush and knockback sequence; exact frame and matchup behavior remains version-sensitive.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Smile_Charge",
+        "https://dragonball.fandom.com/wiki/Smile_Charge",
+        "https://dbxv2.fandom.com/wiki/Category:Unavailable_for_CaC",
+        "https://www.scribd.com/document/814904235/Skills-and-Quests"
+      ]
+    }
+  ]
+}
