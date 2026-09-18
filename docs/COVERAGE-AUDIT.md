@@ -604,3 +604,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Audited the canonical Super and Ultimate records for missing Ki-cost values: none remain.
 - Non-fixed documented costs are intentionally preserved for Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600); these must not be normalized to a single inferred value.
 - Next pass: verify acquisition semantics, character/source restrictions, Ultimate Finish requirements, and DLC/version provenance for these variable-cost skills and remaining partially verified records.
+
+
+### Super/Ultimate resource-cost audit — 2026-09-18
+- Completed a schema-level cost completeness pass across all 298 canonical skills: every Super and Ultimate record has a non-null Ki-cost field and a non-empty source/verification state.
+- Cost values are intentionally not normalized to a single default: the catalog preserves zero-cost skills, standard 100/300/500 Ki costs, higher costs, and variable/extendable costs such as 300–600, 400+, and 400–600.
+- External references corroborate variable-cost semantics for Thunder Flash (300–600), Final Flash (SS3 DAIMA) (400+), and One-Handed Kamehameha mk.II (400–600). citeturn0search2turn0search1turn0search13
+- Next pass should target semantic accuracy of acquisition/unlock routes and Ultimate Finish requirements rather than filling already-complete cost fields.
