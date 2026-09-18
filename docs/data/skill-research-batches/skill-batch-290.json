@@ -35,5 +35,6 @@
       ]
     }
   ],
-  "notes": "Giant Storm was absent from docs/data/skills.json. Current Xenoverse 2 documentation identifies it as a Ki Blast Ultimate; independent Xenoverse 2 move-list/community sources corroborate the 300 Ki cost. Added two previously absent cast-exclusive Ultimates after dedicated-page verification. Giant Storm was removed because Batch 286 already established the same canonical identity."
+  "notes": "Retained as historical research provenance only. Zetsumei Bullet is canonically established in batch 287; Lovely Showtime is canonically established in batch 308 with effect reconciliation in correction batch 298. Marked historical duplicate so validation does not treat this archival record as a second canonical identity.",
+  "historical_duplicate_of": "skill-batch-287 (Zetsumei Bullet) and skill-batch-308/298 Lovely Showtime reconciliation"
 }
