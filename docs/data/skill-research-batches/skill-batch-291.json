@@ -1,0 +1,25 @@
+{
+  "batch_id": 291,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Previously absent cast-exclusive charge Super",
+  "records": [
+    {
+      "name": "Pretty Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": 0,
+      "usable_by_cac": false,
+      "character_source": "Ribrianne",
+      "dlc_requirement": "Ultra Pack 1",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Ki charging Super that uses Ribrianne's signature pose.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pretty_Charge",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    }
+  ],
+  "notes": "Dedicated Xenoverse 2 documentation explicitly identifies Pretty Charge as an Other Super, 0 Ki used, Ribrianne as its user, and unavailable for CaCs."
+}
