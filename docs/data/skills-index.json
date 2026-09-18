@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 216,
+  "record_count": 221,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -3264,6 +3264,121 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Donut_Volley"
+      ]
+    },
+    {
+      "name": "Stone Bullet",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Hercule",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 56",
+      "ultimate_finish_required": null,
+      "skill_description": "Stone Bullet is a Super Ki Blast skill associated with Hercule.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Stone_Bullet"
+      ]
+    },
+    {
+      "name": "Vanishing Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Majin Buu",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 58",
+      "ultimate_finish_required": null,
+      "skill_description": "Vanishing Ball is a Ultimate Ki Blast skill associated with Majin Buu.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Vanishing_Ball"
+      ]
+    },
+    {
+      "name": "Force Shield",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "usable_by_cac": true,
+      "character_source": "Vegito",
+      "dlc_requirement": "Base Game",
+      "ki_cost": null,
+      "stamina_cost": 200,
+      "damage_type": "Other",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 59",
+      "ultimate_finish_required": null,
+      "skill_description": "Force Shield is a Evasive Other skill associated with Vegito.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Force_Shield"
+      ]
+    },
+    {
+      "name": "Dimension Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Super Buu",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 59",
+      "ultimate_finish_required": null,
+      "skill_description": "Dimension Cannon is a Super Ki Blast skill associated with Super Buu.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Dimension_Cannon"
+      ]
+    },
+    {
+      "name": "Majin Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Majin Buu",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 60",
+      "ultimate_finish_required": null,
+      "skill_description": "Majin Kamehameha is a Ultimate Ki Blast skill associated with Majin Buu.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Majin_Kamehameha"
       ]
     }
   ]
