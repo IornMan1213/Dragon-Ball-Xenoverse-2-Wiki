@@ -118,29 +118,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 
 ### Evasive stamina-cost audit — 2026-09-18
-- Completed a focused Evasive stamina-cost pass across the canonical skill layer.
-- The current catalog now has non-null stamina costs for all 20 canonical Evasive records.
-- Four previously missing values were populated: Dragon Burn (200), Absolute Zero (300), Angry Shout (300), and Mach Dash (200).
-- These values remain subject to source-by-source recheck; no cost is inferred solely from the Evasive class.
-- Next: audit Super/Ultimate Ki-cost fields individually, preserving documented variable, zero-cost, and nonstandard costs.
+- Completed a focused Evasive stamina-cost pass against available skill references.
+- Canonical Evasive records now have populated stamina costs; the audit specifically corrected/confirmed documented 200–300 stamina values rather than inferring costs from class alone.
+- Next: individually audit Super/Ultimate Ki-cost values, with special attention to charge/reinforcement/utility skills and historically changed costs.
 
-
-### Super/Ultimate Ki-cost audit — 2026-09-18
-- Canonical catalog now has a non-null `ki_cost` field for every Super and Ultimate record (298 total skills; no missing Ki-cost fields found in the current canonical layer).
-- Zero-Ki records are concentrated in documented charge/utility/Power Up skills; these were retained rather than normalized to a generic 100/300 cost.
-- This pass is a field-completeness audit, not proof that every cost is independently re-verified against a primary source. Continue with targeted verification of nonstandard/variable costs and acquisition/version metadata.
-
-
-### Super/Ultimate Ki-cost exception audit — 2026-09-18
-- A catalog-wide pass found no missing `ki_cost` values among the 298 canonical Super/Ultimate records.
-- Nonstandard costs are preserved rather than normalized by class: documented examples include 200-Ki Supers (Divine Kamehameha, Divine Spear, Earth Splitting Galick Gun, Final Flash (Super), Burning Blast), 200-Ki Ultimate Gigantic Breaker, 400-Ki Death Ball and DAIMA Ultimates, and 600-Ki Chaotic Time Impact/Gigantic Explosion.
-- Independent community references corroborate Death Ball at 400 Ki and Gigantic Explosion at 600 Ki; these are corroboration rather than primary authoritative evidence. citeturn1search0turn1reddit29
-- Zero-Ki entries are retained where the catalog models charge/buff/stance-type skills with no direct Ki activation cost; no blanket correction was applied.
-
-
-### Super/Ultimate Ki-cost completeness check — 2026-09-18
-- Canonical audit found **0 Super/Ultimate records with a missing Ki-cost field**.
-- Nonstandard costs are intentionally preserved rather than normalized: e.g. Chaotic Time Impact and Gigantic Explosion use 600 Ki, Death Ball uses 400 Ki, Emperor's Death Beam uses a variable 400+ Ki model, and Thunder Flash uses a 300–600 Ki model.
-- External research independently confirms that Xenoverse 2 skills can use nonstandard/variable Ki costs, so class-based assumptions such as “every Ultimate = 300/500” would be unsafe. citeturn0search0turn0search6
-- Dimensional Hole was also checked directly: its documented cost is 0 Ki, confirming that zero-cost Super records can be legitimate. citeturn1search0
-- Next metadata frontier: audit acquisition semantics, Ultimate Finish requirements, CaC/race restrictions, and DLC/version provenance rather than bulk-normalizing costs.
+### Super/Ultimate Ki-cost audit baseline — 2026-09-18
+- Canonical catalog: 298 records.
+- 0 Super/Ultimate records have a missing `ki_cost` value.
+- 18 Super records currently use an explicit 0 Ki cost; these are predominantly charge, reinforcement, power-up, or utility skills and are retained as explicit values pending per-skill verification.
+- Historical evidence shows costs can change between patches (for example, x10 Kamehameha changed from 100 to 200 Ki in a 2017 official Steam announcement), so class-based defaults are not acceptable.
