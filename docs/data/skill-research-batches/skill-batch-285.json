@@ -48,7 +48,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
+    },
+    {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Supervillain and Crystal Raid boss characters",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 20: Harbinger of Doom",
+      "ultimate_finish_required": null,
+      "effect": "Wave of purple Ki blasts that can poison or slow targets.",
+      "sources": [
+        "dbxv2.fandom.com/wiki/Bloody_Sauce"
+      ]
     }
   ],
-  "notes": "Only identities not already covered by earlier research batches are retained here. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have research in Batch 264; Rage Saucer and Brainwash Attack were added in Batch 284."
+  "notes": "Deduplicated against earlier research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution are already covered by Batch 264; Rage Saucer and Brainwash Attack are covered by Batch 284. Bloody Sauce was added after dedicated-source verification; Gigantic Slam was likewise verified as a Strike Super."
 }
