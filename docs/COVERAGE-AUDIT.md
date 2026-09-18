@@ -591,3 +591,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Audited the canonical catalog for missing Ki-cost values across all Super and Ultimate records: **0 missing values** remain.
 - External reference checks support the documented cost model without treating class alone as a cost rule: Prominence Flash is documented at 300 Ki, while community references distinguish common 300-Ki ultimates from 500-Ki high-cost ultimates. citeturn0search7turn0search3turn0search13
 - No blanket cost normalization was applied; variable, zero-cost, and higher-cost skills require skill-specific evidence.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the canonical Super and Ultimate records for missing Ki-cost values: **0 missing** across the current 298-record catalog.
+- The current distribution contains documented fixed costs of 0/100/200/300/400/500/600 Ki plus explicitly variable ranges (`400+`, `400-500`, `300-600`), so costs were not normalized by class alone.
+- This is a completeness milestone for the resource-cost field, not a claim that every individual cost has been independently re-tested against primary game data.
+- Next pass remains acquisition semantics, Ultimate Finish requirements, race/gender/CaC restrictions, and DLC/version provenance for suspicious or weakly sourced records.
