@@ -225,3 +225,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Evidence: the skill is a Super/Other skill, costs 100 Ki, and is listed as a Parallel Quest 116 unlock; Fandom documents its barrier behavior and GameFAQs community evidence identifies the Broly encounter as the drop source. citeturn2search0turn2search7
 - Ultimate-Finish requirement remains **null** because the available evidence establishes the reward/drop identity but does not justify converting the skill to a definitive UF-required flag.
 - This closes a previously missing canonical record rather than treating PQ116's existing page/listing as proof of complete skill coverage.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited all 159 Super and 67 Ultimate canonical records for missing/invalid Ki costs.
+- Result: 0 missing or invalid Ki-cost values; no blanket class-based cost assumptions were applied.
+- Remaining research focus is verifying whether documented numeric costs match the correct version/source where skills have variable, staged, or version-specific costs.
