@@ -618,3 +618,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Zero-cost entries are concentrated in charge, power-up, and utility skills; sampled sources explicitly confirm 0 Ki for Dimensional Hole, Burst/charge-family behavior, and Fighting Pose E. These values are therefore not being mass-normalized to 100/300 based on class alone. citeturn0search0turn0search3turn0search6
 - Charge skills require special treatment because their Ki recovery is their mechanic rather than an upfront Ki expenditure; Ultimate Charge and Final Charge sources document their charging behavior rather than a conventional fixed spend. citeturn0search5turn0search15
 - Next metadata pass: individually audit non-zero Super/Ultimate costs, acquisition semantics, CaC restrictions, and Ultimate Finish evidence.
+
+
+### Super/Power Up cost audit — 2026-09-18
+- Audited zero-cost Super records rather than assuming all Power Up skills cost 0 Ki.
+- Corrected **Do or Die** and **Formation!** from 0 to **100 Ki**, matching their documented skill pages. citeturn2search4turn2search6
+- Confirmed **Dimensional Hole** is legitimately **0 Ki** and replaced its broad category-only source with the specific skill page. citeturn1search0
+- This reinforces the audit rule: resource costs must be verified per skill, especially for Power Up/charge/counter skills.
