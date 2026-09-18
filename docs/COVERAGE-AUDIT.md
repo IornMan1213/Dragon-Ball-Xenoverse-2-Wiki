@@ -328,3 +328,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Completed documented Ki-cost backfill for the formerly counter-classified records: Super counter skills are 0 or 100 Ki where explicitly documented, while Reverse Mabakusenko is 300 Ki. No Super/Ultimate record now lacks a Ki-cost field.
 - Removed the remaining duplicate Demon Flash Strike canonical identity while preserving both provenance URLs.
 - Research evidence supports the taxonomy and costs, including Burst Reflection, Burst Rush, Change The Future, Counter Burst, Dimensional Hole, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Super God Shock Flash, Time Skip variants, and Ultrasonic Blitz. citeturn2search0turn2search1turn2search2turn2search3turn3search2turn4search2turn4search12turn4search1turn4search0turn3search4turn3search5turn3search6turn3search10
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the canonical catalog for missing Ki costs: **0** Super/Ultimate records currently have a null or missing `ki_cost`.
+- Reviewed the nonstandard/high-cost values separately rather than normalizing them to a presumed default. Current documented exceptions include Death Ball (400), Chaotic Time Impact (600), Gigantic Explosion (600), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
+- This preserves variable/charge-based costs as represented by the research layer instead of flattening them into a single number.
+- Fandom skill pages were inaccessible to the web retriever in this pass because of robots.txt, so no new web facts from those pages are being asserted here; existing repository provenance remains the basis for these records.
+- Next: audit Ultimate Finish flags and acquisition semantics, then DLC/version provenance and mechanics.
