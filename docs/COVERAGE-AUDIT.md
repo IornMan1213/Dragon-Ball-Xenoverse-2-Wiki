@@ -306,3 +306,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Both canonical records retain `ultimate_finish_required: true`; the evidence now connects the skill-level flag to explicit PQ reward-slot data rather than relying only on a generic PQ association.
 - Web corroboration: the maintained Madreag PQ records document PQ18 Time Control at 40% UF and PQ31 Super Dragon Flight at 35% UF. citeturn2search0
 - Next: continue the same evidence-backed audit for remaining non-null/uncertain Ultimate Finish fields and then acquisition/version metadata.
+
+
+### Super/Ultimate resource-cost audit — 2026-09-18
+- Canonical catalog currently contains 297 skill records; all Super/Ultimate records have an explicit Ki-cost field and non-empty sources.
+- Zero-Ki records are concentrated in charge/support/power-up utility skills; they were retained rather than normalized to generic 100/300-bar assumptions.
+- Research sources describe Super/Ultimate costs in bars and note that individual skills can use nonstandard/variable costs, so future corrections must remain skill-specific. citeturn0search7turn0search11
+- Next metadata pass: inspect zero-cost utility skills and variable/multi-stage costs for semantic accuracy, then audit Ultimate Finish and acquisition/version fields.
