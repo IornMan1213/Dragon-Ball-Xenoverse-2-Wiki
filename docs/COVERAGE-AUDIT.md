@@ -636,3 +636,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Audited the canonical 298-record skill layer for missing Ki costs among `Super` and `Ultimate` records: **0 missing**.
 - Spot-checked nonstandard costs rather than applying class-based defaults: Dimensional Hole remains 0 Ki; Divine Kamehameha is 200 Ki (2 bars); Divine Spear is 200 Ki (2 bars). Independent community references corroborate these nonstandard values. citeturn1search3turn1search0turn1search4
 - This pass confirms field completeness, not universal source-level verification. The remaining priority is evidence-depth: acquisition route, race/gender restrictions, Ultimate Finish semantics, DLC/version provenance, and mechanics for older partially verified records.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the canonical 298-record skill layer for missing Ki costs: **0 Super/Ultimate records have null or missing `ki_cost`**.
+- The current zero-Ki Super entries are concentrated in charge, Power Up, movement/utility, and character-specific support skills; they were not mass-normalized because class alone does not imply a fixed cost.
+- External research corroborates that Xenoverse 2 has distinct resource models and that some charge/support skills use zero Ki to activate while building or modifying resources. citeturn0search0turn0search2
+- Next pass: verify the **semantics and evidence** behind individual nonstandard/zero-cost skills, then audit Ultimate Finish requirements and acquisition/version provenance rather than applying blanket cost assumptions.
