@@ -1,0 +1,69 @@
+{
+  "batch_id": 313,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Core Ki Blast Ultimate coverage expansion",
+  "records": [
+    {
+      "name": "Super Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Goku and numerous Goku-family/fusion Customize Partners",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Goku - Lesson 4",
+      "ultimate_finish_required": null,
+      "effect": "Large multi-hit Kamehameha beam.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Kamehameha"
+      ]
+    },
+    {
+      "name": "Saiyan Spirit",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Bardock; Goku (GT) Customize Partner; Saiyan CaCs",
+      "dlc_requirement": null,
+      "unlock_method": "TP Medal Shop; Parallel Quest 84",
+      "ultimate_finish_required": null,
+      "effect": "Pseudo-strike rush into a follow-up Ki beam.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Saiyan_Spirit"
+      ]
+    },
+    {
+      "name": "Explosive Assault",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Gohan (Kid)",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Gohan (Kid)",
+      "ultimate_finish_required": null,
+      "effect": "Barrage of Ki blasts and Ki waves.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Explosive_Assault"
+      ]
+    },
+    {
+      "name": "Special Beam Cannon",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Piccolo; Gohan (Adult); Gohan (Future); Cell (Perfect); Majin Buu (Gohan Absorbed) Customize Partners",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Piccolo",
+      "ultimate_finish_required": null,
+      "effect": "Unblockable single-hit long-range beam.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Ultimate)"
+      ]
+    }
+  ],
+  "notes": "All four identities were absent from docs/data/skills.json during the coverage audit. Dedicated Xenoverse 2 pages establish the canonical Ultimate/Ki Blast classification and 300-Ki cost. CaC availability is explicitly supported by the listed training/TP Shop routes or the Saiyan CaC note."
+}
