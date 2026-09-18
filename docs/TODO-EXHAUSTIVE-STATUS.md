@@ -74,3 +74,8 @@ This is an active research track, not a future polish task. The presence of a pa
 ## Definition of done
 
 A skill is not done merely because its name exists or a research batch exists. It requires enough evidence for identity, type, restrictions, costs, mechanics, acquisition, conditions, provenance, version history where relevant, related content, and explicit uncertainty.
+
+
+### Billing blocker detail — 2026-09-18
+
+The repository owner reports that GitHub displays a **billing error when these workflows are attempted**. This is consistent with the observed runner-level symptom (`steps: []`, `runner_id: 0`, no usable step logs) and should now be treated as the leading documented explanation for the Actions blocker. This is user-reported account/billing evidence, not connector-observed billing telemetry. Do not modify validators or workflow logic merely to bypass the billing restriction. Canonical synchronization remains blocked until Actions can actually execute and produce observable validation output, or an independently verifiable generation path is established.
