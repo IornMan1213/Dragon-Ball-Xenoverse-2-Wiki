@@ -251,3 +251,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - No Super/Ultimate records have a missing Ki-cost field.
 - Eight nonstandard values were retained rather than normalized: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400), and Thunder Flash (300–600). These require individual source-backed verification rather than class-based assumptions.
 - Current web lookup of the Fandom source was blocked by robots.txt, so this pass did not overwrite those values without accessible corroboration.
+
+
+### Power Up description cleanup — 2026-09-18
+- Corrected five canonical Power Up skill descriptions that duplicated the taxonomy label (for example, “Power Up Power Up”) into normal skill descriptions.
+- Affected records: Divinity Unleashed, Fighting Pose H, Justice Pose, Taunt, and Formation!.
+- This is presentation/data-quality cleanup only; no resource cost or gameplay value was inferred from the wording.
