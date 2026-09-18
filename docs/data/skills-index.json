@@ -359,7 +359,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Wish - \"I want a new Super Attack!\"",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Burst Rush",
@@ -391,7 +394,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 75 - \"Room to Spare\"",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Counter Impact",
@@ -401,7 +407,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 153 - \"Seeing Double\"",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Demon Flash Strike",
@@ -504,7 +513,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Training with Cooler (Final Form)",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Sudden Death Beam",
@@ -514,7 +526,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Super Afterimage",
@@ -534,7 +549,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -544,7 +562,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Training with Hit",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -554,7 +575,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Training with Hit",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -564,7 +588,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Training with Hit",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Ultrasonic Blitz",
@@ -574,7 +601,10 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\"",
+      "last_verified": "2026-09-18",
+      "research_status": "partially_enriched"
     },
     {
       "name": "Absolute Zero",
