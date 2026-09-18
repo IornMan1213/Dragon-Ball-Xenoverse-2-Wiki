@@ -258,3 +258,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected **Gigantic Breaker** from `Ultimate / Ki Blast` to `Super / Ki Blast`; authoritative indexed skill data identifies it as a Super Attack and documents a 200 Ki cost. citeturn2search1
 - Preserved its 200 Ki cost; this is an example of why the audit does not infer cost solely from broad attack families.
 - Confirmed several intentionally nonstandard Ultimate costs during this pass: Chaotic Time Impact (600), Gigantic Explosion (600), Power Rush (1000), Death Ball (400), S.S. Deadly Bomber (400), and the DAIMA Ultimates' variable 400+ / 400–500 costs. citeturn2search0turn2search2turn2search3turn1search0turn1search2turn1search3
+
+
+### Skill acquisition-route audit — 2026-09-18
+- Researched and enriched acquisition metadata for 11 canonical skills where the unlock route had been missing: Big Bang Knuckle (PQ172), Burning Slash (PQ44), Deadly Dance (Android 18 training), Evil Flight Strike (PQ21), Namek Finger (TP Medal Shop / Namekian Future Warrior), Pressure Sign (Conton City Skill Shop), Shining Slash (PQ38), Darkness Rush (Melee/Ranged) (Lord Slug training, Lesson 3), Dragon Fist (TP Medal Shop), and Godly Display (TP Medal Shop, 500 TP Medals). Sources include the Xenoverse 2 Fandom skill pages and corroborating Dragon Ball Wiki/GameFAQs/Steam material. citeturn2search4turn2search5turn2search11turn2search0turn2search3turn2search13turn3search1turn3search4turn3search5turn3search0
+- Preserved uncertainty for Dragon Thunder and Death Ball rather than inventing acquisition routes.
+- Canonical/index synchronization remains the validation gate; future passes should continue filling acquisition semantics only when evidence is explicit.
