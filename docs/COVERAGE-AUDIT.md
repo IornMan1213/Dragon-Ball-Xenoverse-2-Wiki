@@ -406,3 +406,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Added evidence-backed acquisition semantics for 9 previously incomplete Super/Ultimate records: Burst Rush (PQ51 Ultimate Finish), Change The Future (PQ43 Ultimate Finish), God Breaker (PQ44), Dimensional Hole (PQ80), Flash Fist Crush (Shenron wish), Heroic Counter (PQ155), Punisher Shield (PQ129), Rough Ranger (PQ119 Ultimate Finish), and Demon Flash Strike (PQ160).
 - The cited references document the corresponding PQ/wish acquisition routes; the distinction between ordinary PQ reward and Ultimate Finish remains explicit rather than treating all PQ skills as UF-only. citeturn1search0turn1search4turn1search1turn1search6turn1search10turn1search17turn1search8turn1search9
 - Current Super/Ultimate Ki-cost coverage remains complete (no null Ki-cost fields). Acquisition coverage still has older records requiring individual research; no class-wide defaults are being inferred.
+
+
+### Skill acquisition-method follow-up — 2026-09-18
+- Added evidence-backed acquisition routes for **Burst Charge (PQ134)**, **Shield Barrier (PQ153)**, and **Ultimate Charge (PQ134)**.
+- Current research confirms these are Parallel Quest rewards; costs and skill classifications remain separately represented.
+- Hero's Flute (PQ116) and Power Impact (PQ120) were already present with acquisition metadata and were cross-checked during this pass. citeturn1search0turn1search1turn1search2turn1search8
+- Remaining acquisition backlog is concentrated in older canonical records with missing route semantics; continue individually and preserve multi-route/UF distinctions.
