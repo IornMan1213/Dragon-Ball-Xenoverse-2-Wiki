@@ -184,3 +184,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Thunder Flash: 300–600 Ki depending on charge.
 - Burning Blast: 200 Ki; its optional defensive effect consumes 300 Stamina.
 - These values remain partially verified where the available evidence is community/testing based; they are not treated as blanket class defaults.
+
+
+### Skill acquisition-field audit — 2026-09-18
+- Filled the canonical `source_quest_or_shop` field for Thunder Flash (PQ146), Final Flash (SS3 DAIMA) (PQ181), and Super Kamehameha (SS4 DAIMA) (PQ181).
+- Web research corroborates Thunder Flash's PQ146 unlock and 300–600 Ki behavior, and PQ181's two DAIMA Ultimate rewards. citeturn1search1turn1search12
+- Final Flash (SS3 DAIMA) is documented as a 400+ Ki Ultimate whose held input consumes remaining Ki; Super Kamehameha (SS4 DAIMA) uses an additional 100 Ki for its boosted version. citeturn1search2turn1search14
