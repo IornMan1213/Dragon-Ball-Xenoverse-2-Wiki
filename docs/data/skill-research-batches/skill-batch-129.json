@@ -1,47 +1,49 @@
 {
   "batch_id": 129,
   "created": "2026-09-17",
-  "verification_policy": "Single-skill Strike Super research: independently reconcile the Xenoverse 2 identity, acquisition route, Ki cost, and mechanics. Preserve unresolved stamina/probability/version-sensitive fields as null or descriptive text.",
-  "research_scope": "Android Rush — Strike Super acquisition and mechanics research.",
+  "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, acquisition route, mechanics, and costs. Preserve unsupported values as null.",
+  "research_scope": "Super Mad Dance — Strike Super / Skill Shop acquisition research.",
   "verification_audit": {
     "audited": "2026-09-17",
-    "method": "Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Future Warrior documentation.",
+    "method": "Compared current Xenoverse 2-specific skill documentation with independent Xenoverse 2 references and existing repository research coverage.",
     "duplicate_check": {
       "status": "passed",
-      "selected_records": ["Android Rush"],
+      "selected_records": ["Super Mad Dance"],
       "duplicate_count": 0,
-      "identity_note": "No existing repository research batch for Android Rush was identified. The canonical identity is Super / Strike."
+      "identity_note": "No existing repository research batch for Super Mad Dance was found. The canonical identity is Super / Strike."
     },
-    "classification_finding": "Xenoverse 2 documentation classifies Android Rush as a Strike Super Attack.",
-    "acquisition_finding": "The Xenoverse 2-specific documentation lists Training with Android 16 as the unlock route. The Future Warrior documentation independently identifies Android Rush as an Android 16 Super Skill.",
-    "finish_policy": "ultimate_finish_required remains null because the documented acquisition route is mentor training rather than a Parallel Quest reward.",
+    "classification_finding": "Current Xenoverse 2-specific documentation classifies Super Mad Dance as a Strike Super Attack.",
+    "acquisition_finding": "Current Xenoverse 2-specific documentation lists the Skill Shop as the acquisition route. Independent documentation also lists Super Mad Dance among Gogeta's skills available from the Skill Shop.",
+    "finish_policy": "ultimate_finish_required remains null because the documented canonical acquisition route is Skill Shop rather than a Parallel Quest reward.",
     "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed sources do not establish a reliable canonical stamina value."
   },
   "records": [
     {
-      "name": "Android Rush",
+      "name": "Super Mad Dance",
       "class": "Super",
       "subcategory": "Strike",
       "race_restriction": null,
       "usable_by_cac": true,
-      "character_source": "Android 16 / Android 16 customizable partner / Android 17 (DB Super) customizable partner / Gamma 1",
+      "character_source": "Gogeta (Super Saiyan) / Gogeta (Super Saiyan 4) customizable partner / SSGSS Gogeta / Gogeta (DB Super)",
       "dlc_requirement": null,
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Training with Android 16",
-      "source_quest_or_shop": "Android 16 Training",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
-      "skill_description": "A close-range rush of three kicks followed by a backhand that knocks the opponent away.",
-      "mechanics_notes": "The Xenoverse 2 skill reference describes three kicks followed by a backhand. Directional control changes the direction in which the opponent is launched: neutral sends them forward, up sends them downward, and down sends them upward. The move is close-range and consists of four damaging hits before knockback.",
-      "acquisition_notes": "The canonical Future Warrior acquisition route is Android 16 mentor training. Character customization availability is retained as metadata rather than treated as a separate acquisition route.",
-      "pve_notes": "Mentor-training acquisition; no Parallel Quest or Ultimate Finish requirement established.",
-      "pvp_notes": "Close-range Strike Super with directional knockback control. Exact frame and matchup behavior remains version-sensitive.",
+      "skill_description": "A teleporting Strike Super that begins with a kick and can continue into additional teleporting kicks; directional input changes the follow-up pattern.",
+      "mechanics_notes": "The Xenoverse 2 reference describes a three-hit sequence for the standard version, with additional follow-up attacks possible depending on transformation and directional input. The move launches the opponent, teleports along the opponent's path, and changes the final attacks based on input direction. Exact frame and damage values are not promoted to canonical numeric data.",
+      "acquisition_notes": "The canonical Xenoverse 2 route is the Skill Shop. Independent references also identify Super Mad Dance as one of Gogeta's Super Skills available through the shop.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "Fast Strike Super with teleporting follow-ups and directional pattern selection; detailed frame and matchup behavior remains version-sensitive.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-17",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Android_Rush",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dbxv2.fandom.com/wiki/Super_Mad_Dance",
+        "https://videogaming.fandom.com/wiki/Super_Mad_Dance",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74495441",
+        "https://xvguide.neocities.org/Skill"
       ]
     }
   ]
