@@ -135,7 +135,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate Ki-cost audit frontier — 2026-09-18
 - Canonical catalog currently contains 298 skill records; an inspection found 84 Super/Ultimate records with null Ki cost.
 - These nulls are concentrated in older category-sourced records and therefore represent a metadata backlog, not evidence that the skills cost 0 Ki.
-- Current research sources support that Super/Ultimate costs vary by individual skill, so costs must be verified per skill rather than inferred from class (for example, published references describe Super skills as spanning multiple Ki-bar costs). citeturn0search8turn0search3
+- Current research sources support that Super/Ultimate costs vary by individual skill, so costs must be verified per skill rather than inferred from class (for example, published references describe Super skills as spanning multiple Ki-bar costs).
 - Next pass should resolve a small evidence-backed batch of these null costs, prioritizing records already linked to PQs or named individual skill pages; preserve null where authoritative evidence is unavailable.
 
 
@@ -168,13 +168,13 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Began a second-pass Ki-cost audit for canonical Super/Ultimate skills rather than applying class-wide defaults.
 - Filled documented Super-skill costs for 34 unique skill names in the current catalog, including zero-cost charge/utility skills and 100-Ki attacks.
-- External references confirm Energy Charge consumes no resources, while Instant Transmission is described as costing no Ki/Stamina; charge-skill references also identify the charge family separately from ordinary attacks. citeturn0search9turn0search2
+- External references confirm Energy Charge consumes no resources, while Instant Transmission is described as costing no Ki/Stamina; charge-skill references also identify the charge family separately from ordinary attacks.
 - Remaining null-cost records require individual evidence review, especially newer DLC/Ultimate skills and skills whose costs may vary by stage or version.
 
 
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Verified and synchronized six researched costs: Crimson Edge 100, Divine Ray Bomb 300, Final Rampage 500, Dark Inscription 100, Emperor's Cannon 100, and Chaotic Time Impact 600.
-- External references corroborate these values and the associated PQ acquisitions for the Future Saga skills. citeturn0search0turn0search1turn0search2turn0search3turn0search4turn0search7
+- External references corroborate these values and the associated PQ acquisitions for the Future Saga skills.
 - Continue auditing the remaining null Ki-cost records individually; null remains intentional where the available evidence describes variable/conditional costs or has not yet established an exact value.
 
 
@@ -258,7 +258,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate resource-cost audit — 2026-09-18
 - Canonical audit confirms all 298 Super/Ultimate records have a non-null Ki cost; no missing Ki-cost fields remain in these two classes.
 - The 24 zero-Ki Super records are charge, buff, guard, movement, or similar support actions; they are not being normalized to 100 Ki by class-based inference.
-- Time Control is independently corroborated at 100 Ki, while the distinct Super Dragon Flight and Super Dragon Flight (Ultimate) entries are corroborated at 100 and 300 Ki respectively. citeturn0search0
+- Time Control is independently corroborated at 100 Ki, while the distinct Super Dragon Flight and Super Dragon Flight (Ultimate) entries are corroborated at 100 and 300 Ki respectively.
 - Research remains focused on source-backed exceptions and version changes rather than assuming the common 100/300/500 Ki tiers apply universally.
 
 
@@ -319,7 +319,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate resource-cost audit — 2026-09-18
 - Canonical catalog currently contains 297 skill records; all Super/Ultimate records have an explicit Ki-cost field and non-empty sources.
 - Zero-Ki records are concentrated in charge/support/power-up utility skills; they were retained rather than normalized to generic 100/300-bar assumptions.
-- Research sources describe Super/Ultimate costs in bars and note that individual skills can use nonstandard/variable costs, so future corrections must remain skill-specific. citeturn0search7turn0search11
+- Research sources describe Super/Ultimate costs in bars and note that individual skills can use nonstandard/variable costs, so future corrections must remain skill-specific.
 - Next metadata pass: inspect zero-cost utility skills and variable/multi-stage costs for semantic accuracy, then audit Ultimate Finish and acquisition/version fields.
 
 
@@ -431,7 +431,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ### Power Up Super duration audit — 2026-09-18
 - Added documented duration metadata for Fighting Pose E (20s), Fighting Pose K (8s), Justice Pose (20s), and Meditation (20s).
-- Research also confirms Fighting Pose G has race-dependent behavior: 25s for Male Saiyans versus 20s for Female Saiyans and other races, while its displayed base duration is 20s. This should remain represented as a mechanic/race exception rather than flattening it into a single universal value. citeturn0search0turn0search1
+- Research also confirms Fighting Pose G has race-dependent behavior: 25s for Male Saiyans versus 20s for Female Saiyans and other races, while its displayed base duration is 20s. This should remain represented as a mechanic/race exception rather than flattening it into a single universal value.
 - The Power Up audit remains incomplete; additional skills should be checked individually for duration, cost, activation behavior, and race/version exceptions.
 
 
@@ -527,7 +527,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Audited canonical Super/Ultimate records for missing Ki-cost values: **0 missing**.
 - Reviewed the zero-Ki Super records as a distinct case rather than treating 0 as missing data. Dimensional Hole is explicitly documented at 0 Ki; charge/power-up style Supers can likewise have 0 activation cost. citeturn1search0turn1search1
-- Verified representative nonzero/variable costs: Power Impact 100 Ki, Wild Buster 100 Ki with an additional 100 Ki input, Full Power Destruction 500 Ki, and Super Kamehameha (SS4 DAIMA) 400–500 Ki. citeturn0search4turn0search10turn0search7turn0search0
+- Verified representative nonzero/variable costs: Power Impact 100 Ki, Wild Buster 100 Ki with an additional 100 Ki input, Full Power Destruction 500 Ki, and Super Kamehameha (SS4 DAIMA) 400–500 Ki.
 - No blanket normalization was applied; variable and input-dependent costs remain represented as documented data.
 
 
@@ -546,7 +546,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Canonical skill records were scanned for missing Ki costs: **0 Super/Ultimate records have null Ki cost**.
 - A targeted anomaly review found legitimate nonstandard values (including 0-cost reinforcement/charge skills and 400/600-Ki Ultimates), so no blanket normalization was applied.
-- Current research sources also document that skill costs vary by move rather than mapping rigidly to class; therefore remaining work is source-by-source verification of individual costs and version history. citeturn0search0turn0search10
+- Current research sources also document that skill costs vary by move rather than mapping rigidly to class; therefore remaining work is source-by-source verification of individual costs and version history.
 
 
 ### Canonical Awoken parent reconciliation — 2026-09-18
@@ -566,7 +566,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Completed a targeted audit of canonical Super/Ultimate records with zero Ki cost.
-- Corrected **Rise to Action** from 0 to **100 Ki**, matching its current skill reference. citeturn0search1
+- Corrected **Rise to Action** from 0 to **100 Ki**, matching its current skill reference.
 - Retained documented zero-cost skills where current references support zero cost, including Dimensional Hole, Instant Transmission, and Meditation. citeturn1search0turn0search2turn0search0
 - Did not normalize costs by class alone: charging, transformation-adjacent, counter, and utility skills can legitimately use 0 or nonstandard costs.
 - Remaining work: continue individual verification of nonzero and historically/version-sensitive Ki costs, then audit Ultimate Finish flags and acquisition/version provenance.
@@ -589,7 +589,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Audited the canonical catalog for missing Ki-cost values across all Super and Ultimate records: **0 missing values** remain.
-- External reference checks support the documented cost model without treating class alone as a cost rule: Prominence Flash is documented at 300 Ki, while community references distinguish common 300-Ki ultimates from 500-Ki high-cost ultimates. citeturn0search7turn0search3turn0search13
+- External reference checks support the documented cost model without treating class alone as a cost rule: Prominence Flash is documented at 300 Ki, while community references distinguish common 300-Ki ultimates from 500-Ki high-cost ultimates.
 - No blanket cost normalization was applied; variable, zero-cost, and higher-cost skills require skill-specific evidence.
 
 
@@ -609,14 +609,14 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate resource-cost audit — 2026-09-18
 - Completed a schema-level cost completeness pass across all 298 canonical skills: every Super and Ultimate record has a non-null Ki-cost field and a non-empty source/verification state.
 - Cost values are intentionally not normalized to a single default: the catalog preserves zero-cost skills, standard 100/300/500 Ki costs, higher costs, and variable/extendable costs such as 300–600, 400+, and 400–600.
-- External references corroborate variable-cost semantics for Thunder Flash (300–600), Final Flash (SS3 DAIMA) (400+), and One-Handed Kamehameha mk.II (400–600). citeturn0search2turn0search1turn0search13
+- External references corroborate variable-cost semantics for Thunder Flash (300–600), Final Flash (SS3 DAIMA) (400+), and One-Handed Kamehameha mk.II (400–600).
 - Next pass should target semantic accuracy of acquisition/unlock routes and Ultimate Finish requirements rather than filling already-complete cost fields.
 
 
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Canonical audit found **0 Super/Ultimate records with a missing Ki-cost field** across all 298 skills.
-- Zero-cost entries are concentrated in charge, power-up, and utility skills; sampled sources explicitly confirm 0 Ki for Dimensional Hole, Burst/charge-family behavior, and Fighting Pose E. These values are therefore not being mass-normalized to 100/300 based on class alone. citeturn0search0turn0search3turn0search6
-- Charge skills require special treatment because their Ki recovery is their mechanic rather than an upfront Ki expenditure; Ultimate Charge and Final Charge sources document their charging behavior rather than a conventional fixed spend. citeturn0search5turn0search15
+- Zero-cost entries are concentrated in charge, power-up, and utility skills; sampled sources explicitly confirm 0 Ki for Dimensional Hole, Burst/charge-family behavior, and Fighting Pose E. These values are therefore not being mass-normalized to 100/300 based on class alone.
+- Charge skills require special treatment because their Ki recovery is their mechanic rather than an upfront Ki expenditure; Ultimate Charge and Final Charge sources document their charging behavior rather than a conventional fixed spend.
 - Next metadata pass: individually audit non-zero Super/Ultimate costs, acquisition semantics, CaC restrictions, and Ultimate Finish evidence.
 
 
@@ -629,7 +629,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Canonical catalog currently has 245 Super/Ultimate records and none with a missing `ki_cost` field.
 - A focused anomaly pass found six intentionally nonstandard values requiring source-aware handling rather than normalization: Chaotic Time Impact (600), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Gigantic Explosion (600), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
-- Current external reference material confirms variable-cost behavior for Super Kamehameha (SS4 DAIMA) and Final Flash (SS3 DAIMA), and confirms 300–600-style scaling exists for charged/variable Ultimate attacks. citeturn0search2turn0search3
+- Current external reference material confirms variable-cost behavior for Super Kamehameha (SS4 DAIMA) and Final Flash (SS3 DAIMA), and confirms 300–600-style scaling exists for charged/variable Ultimate attacks.
 - These values are preserved rather than forced into a fixed 100/300/500 taxonomy. Next pass should reconcile each anomaly against its individual skill page and in-game behavior/version history.
 
 ### Super/Ultimate Ki-cost audit milestone — 2026-09-18
