@@ -419,3 +419,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Added evidence-backed acquisition semantics for six previously incomplete core skills: **Kamehameha (PQ05)**, **Galick Gun (Vegeta training)**, **Masenko (Kid Gohan training)**, **Final Flash (Vegeta training)**, **Afterimage Strike (PQ81)**, and **Destructo-Disc (story progression)**.
 - Sources distinguish mentor-training rewards from PQ rewards; Destructo-Disc is retained as a story-progression acquisition rather than being mislabeled as a PQ drop. citeturn1search1turn1search6turn1search7turn1search3turn1search5turn1search14
 - Remaining acquisition gaps should continue to be researched individually, with multi-route and Ultimate-Finish distinctions preserved.
+
+
+### Power Up Super duration audit — 2026-09-18
+- Added documented duration metadata for Fighting Pose E (20s), Fighting Pose K (8s), Justice Pose (20s), and Meditation (20s).
+- Research also confirms Fighting Pose G has race-dependent behavior: 25s for Male Saiyans versus 20s for Female Saiyans and other races, while its displayed base duration is 20s. This should remain represented as a mechanic/race exception rather than flattening it into a single universal value. citeturn0search0turn0search1
+- The Power Up audit remains incomplete; additional skills should be checked individually for duration, cost, activation behavior, and race/version exceptions.
