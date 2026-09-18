@@ -314,3 +314,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - No nonstandard positive Ki-cost values were found in the canonical layer; this is a completeness check, not proof that every historical/version-specific cost is current.
 - Research sources confirm that skill costs can change across versions (for example, official Steam patch notes documented x10 Kamehameha changing from 100 to 200 Ki), so future work should preserve version/history evidence rather than treating one value as timeless. citeturn0search7
 - Next metadata pass: verify acquisition route, DLC/version provenance, CaC/race/gender restrictions, Ultimate Finish requirements, and mechanics against individual sources.
+
+
+### Skill acquisition-route audit — 2026-09-18
+- Enriched six previously under-documented Super/Ultimate acquisition records from current source evidence: Final Flash (Super), Galick Gun, Kamehameha, Masenko, Energy Charge, and Final Kamehameha.
+- Final Flash (Super) is explicitly character-only/unavailable to CaCs; Kamehameha is PQ05; Galick Gun and Masenko are training rewards; Energy Charge is tied to advancement/playstyle rewards; Final Kamehameha has TP Medal Shop, PQ91, and Double Crystal Raid acquisition paths. citeturn0search0turn0search1turn0search2turn0search3turn0search4turn0search5
+- Canonical and index records were updated together and timestamped 2026-09-18.
+- Remaining acquisition backlog is still large; continue in evidence-backed batches rather than filling routes by inference.
