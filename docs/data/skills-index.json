@@ -312,7 +312,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Dragon Burn",
@@ -342,7 +342,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Energy Barrier",
@@ -482,7 +482,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Burst Reflection",
