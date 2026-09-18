@@ -52,5 +52,5 @@
       ]
     }
   ],
-  "notes": "Batch 285 records three previously unrecorded identities. Earlier duplicate candidates (Marbling Drop, Seasoning Arrow, Time Shackles, Flames of Retribution, Spiral of Condemnation) remain excluded because they are already represented by earlier research batches."
+  "notes": "Only genuinely new identities are retained. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already researched in Batch 264 and are not duplicated."
 }
