@@ -356,3 +356,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - This pass intentionally did not convert every PQ skill to true: documented Xenoverse 2 rewards can come from opponent-specific drops, ordinary completion, or Ultimate Finish reward slots, so null remains appropriate where gating is unresolved.
 - Web research: the Fandom Parallel Quests overview describes both opponent-specific random drops and Ultimate-Finish reward drops; Madreag's maintained PQ records explicitly mark PQ11 Earth Splitting Galick Gun and PQ184 Chaotic Time Impact as UF rewards, while GameFAQs/Steam corroborate PQ122 Power Rush and the broader RNG/UF behavior. citeturn1search0turn1search4turn1search2turn2search1turn2search12
 - Next: continue acquisition semantics by separating opponent-drop, normal-finish, and UF-gated skills, then audit DLC/version provenance.
+
+
+### Acquisition-route audit milestone — 2026-09-18
+- Refined canonical acquisition metadata for four skills with independently documented shop/PQ routes: Bending Kamehameha (Skill Shop), Big Bang Kamehameha (TP Medal Shop), X 100 Big Bang Kamehameha (TP Medal Shop + PQ100), and Final Kamehameha (TP Medal Shop + PQ91).
+- The source research also confirms that skill acquisition is not limited to one route: current references explicitly list shop and PQ routes for X100 Big Bang Kamehameha and Final Kamehameha, so the canonical layer preserves both rather than overwriting one with the other. citeturn2search0turn2search1turn2search2turn2search5
+- Next acquisition pass should target additional non-PQ skills and multi-route skills, then reconcile character-only versus CaC availability without inferring restrictions from character users alone.
