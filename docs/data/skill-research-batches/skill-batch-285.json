@@ -18,22 +18,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
       ]
-    },
-    {
-      "name": "Spiral of Condemnation",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Releases three dark-energy spirals toward the opponent; Crystal Raid exclusive.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation"
-      ]
     }
   ],
-  "notes": "Only genuinely new identities are retained. Bloody Sauce and Gigantic Slam were removed because they are already represented in other research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were also already researched in Batch 264."
+  "notes": "Single new record only. Spiral of Condemnation was intentionally removed because it already exists in research batch 271; Bloody Sauce, Marbling Drop, Seasoning Arrow, Time Shackles, Light of Justice, and Flames of Retribution were also previously researched in earlier batches where applicable."
 }
