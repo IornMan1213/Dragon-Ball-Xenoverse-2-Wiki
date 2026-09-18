@@ -68,5 +68,5 @@
       ]
     }
   ],
-  "notes": "Both identities are explicitly documented in current Xenoverse 2 skill-category pages. Giant Storm is an obtainable Ki Blast Ultimate with a 300 Ki cost and Skill Shop unlock. Gigantic Slam is a 100 Ki Strike Super and explicitly unavailable to CaCs. These were absent from docs/data/skills.json at research time. Pretty Charge and Darkness Mixer were also absent from canonical skills.json and are now reconciled here. Surging Spirit was checked but is already present canonically, so it was not duplicated."
+  "notes": "Both names were absent from docs/data/skills.json before this batch. Dedicated pages establish class, subtype, and cost."
 }
