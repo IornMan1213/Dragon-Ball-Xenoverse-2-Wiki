@@ -155,3 +155,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Filled four previously missing values: Perfect Shot (100 Ki), Spirit Bomb (100 Ki), Godly Display (500 Ki), and Emperor's Death Beam (400 Ki).
 - Evidence includes historical Xenoverse 2 community documentation for Perfect Shot, Spirit Bomb, and Emperor's Death Beam, plus documented Godly Display 500-Ki usage; these are recorded as research evidence rather than universal class defaults. citeturn1search2turn2search8turn2search3turn2search4
 - The remaining null Ki-cost fields stay intentionally unresolved until skill-specific evidence is available.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Began a second-pass Ki-cost audit for canonical Super/Ultimate skills rather than applying class-wide defaults.
+- Filled documented Super-skill costs for 34 unique skill names in the current catalog, including zero-cost charge/utility skills and 100-Ki attacks.
+- External references confirm Energy Charge consumes no resources, while Instant Transmission is described as costing no Ki/Stamina; charge-skill references also identify the charge family separately from ordinary attacks. citeturn0search9turn0search2
+- Remaining null-cost records require individual evidence review, especially newer DLC/Ultimate skills and skills whose costs may vary by stage or version.
