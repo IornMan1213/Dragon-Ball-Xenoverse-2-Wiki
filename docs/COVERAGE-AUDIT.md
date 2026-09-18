@@ -123,3 +123,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Current canonical distribution across 20 Evasive records is 11 at 200 Stamina and 9 at 300 Stamina.
 - Canonical and index skill layers remain synchronized after the pass.
 - Remaining work: audit Super/Ultimate mechanics, acquisition routes, Ultimate Finish requirements, DLC/version provenance, and restrictions individually; do not infer Ki costs from class alone because variable and nonstandard costs exist.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the full canonical Super/Ultimate cost distribution (279 records with Ki costs present).
+- Verified the nonstandard high-cost outliers against external references: Chaotic Time Impact = 600 Ki, Gigantic Explosion = 600 Ki, Power Rush = 1000 Ki, and Emperor's Death Beam = 400+ Ki. citeturn2search0turn2search1turn1search0turn1search1
+- No blanket normalization was applied: 0, variable, 400, 600, and 1000-cost skills can be legitimate mechanics. The audit therefore preserves documented exceptions instead of forcing a 100/300/500 pattern.
+- Next cost work should focus on historical/version-sensitive values and mechanics for individual records rather than class-wide inference.
