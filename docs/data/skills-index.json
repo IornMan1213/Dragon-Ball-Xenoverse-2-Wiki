@@ -595,7 +595,7 @@
         "https://dbxv2.fandom.com/wiki/Instant_Rise"
       ],
       "ki_cost": null,
-      "stamina_cost": 300
+      "stamina_cost": 200
     },
     {
       "name": "Ki Explosion",
@@ -621,7 +621,7 @@
         "https://dbxv2.fandom.com/wiki/Maiden_Burst"
       ],
       "ki_cost": null,
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Mighty Explosive Wave",
@@ -634,7 +634,7 @@
         "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave"
       ],
       "ki_cost": null,
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Psychic Move",
@@ -684,7 +684,7 @@
         "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat"
       ],
       "ki_cost": null,
-      "stamina_cost": 200
+      "stamina_cost": 300
     },
     {
       "name": "Steel Mirage",
