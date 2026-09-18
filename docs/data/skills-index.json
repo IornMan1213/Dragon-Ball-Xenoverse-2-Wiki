@@ -72,7 +72,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Final Flash (Super)",
@@ -81,7 +82,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 200
     },
     {
       "name": "Galick Gun",
@@ -110,7 +112,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Perfect Shot",
@@ -139,7 +142,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Big Bang Knuckle",
@@ -205,7 +209,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Death Ball",
@@ -274,7 +279,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Energy Charge",
@@ -3360,7 +3366,7 @@
       "usable_by_cac": true,
       "character_source": "Majin Buu",
       "dlc_requirement": "Base Game",
-      "ki_cost": 300,
+      "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
