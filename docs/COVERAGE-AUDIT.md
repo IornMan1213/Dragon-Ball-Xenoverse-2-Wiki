@@ -162,3 +162,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Filled documented Super-skill costs for 34 unique skill names in the current catalog, including zero-cost charge/utility skills and 100-Ki attacks.
 - External references confirm Energy Charge consumes no resources, while Instant Transmission is described as costing no Ki/Stamina; charge-skill references also identify the charge family separately from ordinary attacks. citeturn0search9turn0search2
 - Remaining null-cost records require individual evidence review, especially newer DLC/Ultimate skills and skills whose costs may vary by stage or version.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Verified and synchronized six researched costs: Crimson Edge 100, Divine Ray Bomb 300, Final Rampage 500, Dark Inscription 100, Emperor's Cannon 100, and Chaotic Time Impact 600.
+- External references corroborate these values and the associated PQ acquisitions for the Future Saga skills. citeturn0search0turn0search1turn0search2turn0search3turn0search4turn0search7
+- Continue auditing the remaining null Ki-cost records individually; null remains intentional where the available evidence describes variable/conditional costs or has not yet established an exact value.
