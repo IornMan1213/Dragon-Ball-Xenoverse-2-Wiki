@@ -1,0 +1,43 @@
+{
+  "batch_id":195,
+  "created":"2026-09-17",
+  "research_scope":"Rough Ranger — Strike Super / Counter Skill.",
+  "verification_audit":{
+    "audited":"2026-09-17",
+    "duplicate_check":{"status":"passed","selected_records":["Rough Ranger"],"duplicate_count":0,"history_search":"No prior repository commit for Rough Ranger was found."},
+    "classification_finding":"Xenoverse 2-specific Counter Skill documentation classifies Rough Ranger as a Universal Counter, while the canonical skill class is Super and the attack type is Strike.",
+    "acquisition_finding":"Dragon Ball Wiki documents Future Warrior acquisition from Parallel Quest 119 — A Ranger's Duty via Ultimate Finish.",
+    "finish_finding":"Ultimate Finish is explicitly required for the documented PQ119 acquisition route.",
+    "dlc_finding":"The skill is part of Extra Pack 2 and is associated with Android 17 (Super).",
+    "cost_finding":"No combat Ki/stamina cost was established from the reviewed sources, so both remain null."
+  },
+  "records":[{
+    "name":"Rough Ranger",
+    "class":"Super",
+    "subcategory":"Strike",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Android 17 (Super)",
+    "dlc_requirement":"Extra Pack 2",
+    "ki_cost":null,
+    "stamina_cost":null,
+    "damage_type":"Strike",
+    "unlock_method":"Parallel Quest reward",
+    "source_quest_or_shop":"Parallel Quest 119 — A Ranger's Duty",
+    "ultimate_finish_required":true,
+    "ultimate_finish_evidence":"Dragon Ball Wiki explicitly states that the Future Warrior obtains Rough Ranger randomly as a reward from PQ119 by achieving an Ultimate Finish.",
+    "skill_description":"Brace for an incoming attack. Ki-based attacks are answered with a barrier, while Strike attacks and point-blank Ki Blasts are answered with a kick.",
+    "mechanics_notes":"Rough Ranger's response depends on the incoming attack: the barrier handles Ki-based attacks except point-blank Ki Blasts, while the kick handles Strike attacks and point-blank Ki Blasts. Community testing independently describes the range-sensitive point-blank behavior.",
+    "acquisition_notes":"PQ119 is the documented Future Warrior route. Because the source explicitly requires Ultimate Finish, this is recorded as true rather than inferred.",
+    "pve_notes":"The counter's split response makes its trigger behavior dependent on attack type and distance.",
+    "pvp_notes":"Community reports corroborate the universal-counter behavior and the point-blank Ki Blast exception; exact frame data remains unverified.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":[
+      "https://dbxv2.fandom.com/wiki/Counter_Skill",
+      "https://dragonball.fandom.com/wiki/Rough_Ranger",
+      "https://www.youtube.com/watch?v=y26s7_O9XKI",
+      "https://reddit.com/r/dbxv/comments/ukouxz"
+    ]
+  }]
+}
