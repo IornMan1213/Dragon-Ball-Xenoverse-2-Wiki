@@ -277,3 +277,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The remaining zero-Ki entries are concentrated in charge/reinforcement/utility skills plus Dimensional Hole and Indomitable; Dimensional Hole is explicitly documented as 0 Ki in the current Fandom skill page. citeturn1search0
 - No blanket class-based cost normalization was applied; variable/nonstandard costs require per-skill evidence.
 - Next cost pass should focus on sampled nonzero Super/Ultimate values and version/DLC changes rather than filling nulls.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited all 298 canonical skill records for missing or structurally invalid Ki costs on Super and Ultimate skills.
+- Result: **0 missing Ki-cost fields**, **0 negative/out-of-range values**, and canonical/index Ki-cost values are synchronized.
+- The 19 zero-cost Super/Ultimate entries are charge/reinforcement/utility-style skills or other explicitly non-spending mechanics; they were preserved rather than forcing a class-based default.
+- Nonstandard costs (including variable/threshold-style entries) remain explicitly represented where the data model supports them; no blanket 100/300/500 replacement was applied.
+- External research corroborates the game's use of distinct 100/300/500 Ki thresholds and nonstandard transformation/resource models, while individual skill costs still require skill-specific evidence. citeturn0search0turn0search11
+- Next metadata frontier: audit **Ultimate Finish requirements and acquisition semantics** for remaining canonical Super/Ultimate skills, then reconcile DLC/version provenance and mechanics notes.
