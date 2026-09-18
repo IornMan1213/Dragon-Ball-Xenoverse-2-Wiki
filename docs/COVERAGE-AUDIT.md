@@ -391,3 +391,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Rechecked affirmative Ultimate Finish flags against acquisition evidence. Documented UF-gated examples include Earth Splitting Galick Gun (PQ11), Time Control (PQ18), Burst/Ultimate Charge (PQ134), Burst Stinger/Raid Blast/Blazing Attack (PQ136), Formation!/Lovely Cyclone (PQ133/135), Chaotic Time Impact (PQ184), and Power Rush (PQ122). citeturn1search0turn1search3turn2search4turn2search0turn2search5
 - Prominence Flash is now `ultimate_finish_required: null`: reviewed evidence includes community reports tying it to PQ137's Ultimate Finish phase, but the available sources did not meet the repository's threshold for an unqualified affirmative canonical flag.
 - Next: audit acquisition semantics and DLC/version provenance for Super/Ultimate records, especially records whose source quest, character source, or CaC restrictions remain null.
+
+
+### Super/Ultimate acquisition provenance pass — 2026-09-18
+- Enriched documented provenance for Divine Kamehameha (Free Update 11 / Ultra Instinct update), Emperor's Death Beam (Resurrection 'F' Pack / DLC Pack 3 lineage), and Final Explosion (Legendary Pack 1).
+- Added character-source context where the cited evidence identifies the associated playable user.
+- No generic DLC inference was applied to the remaining null fields; shop/mentor/free-update acquisition and later character customization can differ from original content provenance.
+- Sources reviewed include per-skill wiki entries and Dragon Ball technique/content references. citeturn2search1turn2search8turn1search12turn1search8turn2search0
