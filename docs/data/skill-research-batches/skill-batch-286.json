@@ -1,252 +1,129 @@
 {
   "batch_id": 286,
   "created": "2026-09-18",
-  "type": "catalog_research_and_corrections",
-  "scope": "Cast-exclusive and Crystal Raid skill taxonomy corrections",
-  "corrections": [
-    {
-      "name": "Rage Saucer",
-      "class": "Super",
-      "subcategory": "Strike",
-      "correction_of": {
-        "name": "Rage Saucer",
-        "class": "Super",
-        "subcategory": "Strike"
-      },
-      "correction_fields": [
-        "ki_cost",
-        "unlock_method"
-      ],
-      "previous_values": {
-        "ki_cost": null,
-        "unlock_method": null
-      },
-      "new_values": {
-        "ki_cost": 100,
-        "unlock_method": "Expert Mission 13"
-      },
-      "why": "Dedicated Xenoverse 2 page explicitly gives 100 Ki and Expert Mission 13.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Rage_Saucer"
-      ]
-    },
+  "type": "catalog_research",
+  "scope": "Cast-exclusive and boss-only Super Skills",
+  "records": [
     {
       "name": "Gigantic Slam",
       "class": "Super",
       "subcategory": "Strike",
-      "correction_of": {
-        "name": "Gigantic Slam",
-        "class": "Super",
-        "subcategory": "Strike"
-      },
-      "correction_fields": [
-        "ki_cost",
-        "unlock_method"
-      ],
-      "previous_values": {
-        "ki_cost": null,
-        "unlock_method": "Parallel Quest 83"
-      },
-      "new_values": {
-        "ki_cost": 100,
-        "unlock_method": null
-      },
-      "why": "Dedicated Xenoverse 2 page explicitly gives 100 Ki and lists Unlock as n/a; older guide material conflicts with the dedicated current page.",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Hirudegarn",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 83",
+      "ultimate_finish_required": null,
+      "effect": "Large rushing strike attack.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
+        "https://videogamemods.com/the-citadel/dragon-ball-xenoverse-2/mods/unusable-skills-1041694"
       ]
-    }
-  ],
-  "records": [
+    },
     {
-      "name": "Gigantic Omega",
+      "name": "Darkness Mixer",
       "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": true,
-      "character_source": "Broly; Broly (Full Power Super Saiyan); Kefla (Super Saiyan) Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": "Training with Broly",
-      "ultimate_finish_required": null,
-      "effect": "Long-range pseudo-Ki-Blast projectile classified mechanically as a Strike Super.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Omega"
-      ]
-    },
-    {
-      "name": "Energy Jet",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
+      "subcategory": "Other",
+      "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Demon God Demigra",
+      "character_source": "Mira (Final Form)",
       "dlc_requirement": null,
-      "unlock_method": "N/A; Crystal Raid exclusive character",
+      "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Large purple Ki ball launched for a multi-hit attack.",
+      "effect": "Charge-style skill used by Mira.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Energy_Jet"
-      ]
-    },
-    {
-      "name": "Zetsumei Bullet",
-      "class": "Ultimate",
-      "subcategory": "Strike",
-      "ki_cost": 300,
-      "usable_by_cac": false,
-      "character_source": "Cell (First Form)",
-      "dlc_requirement": null,
-      "unlock_method": "N/A",
-      "ultimate_finish_required": null,
-      "effect": "Close-range grab ending with Cell's tail thrust and Ki wave.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Zetsumei_Bullet"
-      ]
-    },
-    {
-      "name": "Self-Destruct",
-      "class": "Ultimate",
-      "subcategory": "Strike",
-      "ki_cost": 300,
-      "usable_by_cac": false,
-      "character_source": "Saibaman, Tennenman, Jinkouman, Saibaman 2",
-      "dlc_requirement": null,
-      "unlock_method": "N/A",
-      "ultimate_finish_required": null,
-      "effect": "Grab-based self-destruction that kills both user and target on connection.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Self-Destruct",
-        "https://dbxv2.fandom.com/wiki/Saibaman"
-      ]
-    },
-    {
-      "name": "Cookie Beam",
-      "class": "Ultimate",
-      "subcategory": "Strike",
-      "ki_cost": 300,
-      "usable_by_cac": false,
-      "character_source": "Majin Buu - Good 2",
-      "dlc_requirement": null,
-      "unlock_method": "N/A",
-      "ultimate_finish_required": null,
-      "effect": "Turns the opponent into a cookie; Buu eats the cookie and restores health.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Cookie_Beam",
-        "https://dbxv2.fandom.com/wiki/Majin_Buu"
-      ]
-    },
-    {
-      "name": "Appetizing Rush",
-      "class": "Ultimate",
-      "subcategory": "Strike",
-      "ki_cost": 400,
-      "usable_by_cac": false,
-      "character_source": "Android 21",
-      "dlc_requirement": "Ultra Pack 2",
-      "unlock_method": "N/A",
-      "ultimate_finish_required": null,
-      "effect": "Teleporting rush attack ending in Savory Slicer.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Appetizing_Rush",
-        "https://dbxv2.fandom.com/wiki/Android_21"
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
       ]
     },
     {
       "name": "Pretty Charge",
       "class": "Super",
       "subcategory": "Other",
-      "ki_cost": 0,
+      "ki_cost": null,
       "usable_by_cac": false,
       "character_source": "Ribrianne",
-      "dlc_requirement": "Ultra Pack 1",
+      "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Ki-charge Super with a unique Ribrianne pose; functions similarly to Full Power Charge.",
+      "effect": "Cast-exclusive charging skill.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Pretty_Charge",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
       ]
     },
     {
-      "name": "Divinity Unleashed",
-      "class": "Super",
-      "subcategory": "Power Up",
-      "ki_cost": 0,
-      "usable_by_cac": true,
-      "character_source": "Fused Zamasu",
-      "dlc_requirement": "Super Pack 4",
-      "unlock_method": "Parallel Quest 110: Heretics from a Dark World",
-      "ultimate_finish_required": null,
-      "effect": "Charges Ki; after one Ki bar is charged, grants a temporary buff that increases Ki gained from attacks and accelerates charging.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Divinity_Unleashed",
-        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
-      ]
-    },
-    {
-      "name": "Brainwash Attack",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": 200,
-      "usable_by_cac": false,
-      "character_source": "Saibaman; Raid Boss",
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 19 - A Truly Hellish Transformation",
-      "ultimate_finish_required": null,
-      "effect": "Dark-energy restraint/bubble attack; in Crystal Raid it temporarily immobilizes targets.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Brainwash_Attack",
-        "https://dbxv2.fandom.com/wiki/Category%3AOther_Supers"
-      ]
-    },
-    {
-      "name": "Acid",
+      "name": "Bloody Sauce",
       "class": "Super",
       "subcategory": "Ki Blast",
       "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Saibaman; Saibaman raid variants",
+      "character_source": "Yamcha (Supervillain) / Crystal Raid boss",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Short-range acid projectile from the Saibaman's head.",
+      "effect": "Short-range Ki blast that splits into multiple smaller blasts.",
       "sources": [
-        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
-        "https://www.gaaaaaame.info/entry/2016/11/06/200005"
+        "https://steamcommunity.com/app/454650/discussions/0/276237094309688362/"
       ]
     },
     {
-      "name": "Poison",
+      "name": "Rage Saucer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Crystal Raid boss",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Boss-exclusive attack.",
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
+      ]
+    },
+    {
+      "name": "Marbling Drop",
       "class": "Super",
       "subcategory": "Ki Blast",
       "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Saibaman",
+      "character_source": "Crystal Raid boss",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Saibaman-exclusive poison attack.",
+      "effect": "Raid-exclusive Ki blast skill.",
       "sources": [
-        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
-        "https://www.gaaaaaame.info/entry/2016/11/06/200005"
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
       ]
     },
     {
-      "name": "Saibabeam",
+      "name": "Celestial Hammer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Close-range strike attack.",
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
+      ]
+    },
+    {
+      "name": "Spiral of Condemnation",
       "class": "Super",
       "subcategory": "Ki Blast",
       "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Saibaman; Kaiwareman and Kyukonman",
+      "character_source": "Fused Zamasu (Half-Corrupted)",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": "Green short-range energy beam fired from the Saibaman's head.",
+      "effect": "Raid-exclusive Ki Blast Super.",
       "sources": [
-        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
-        "https://www.reddit.com/r/dbxv/comments/jzgby7/im_bored_so_i_made_a_list_of_every_character_in_xv2_with_unique_mechanics/"
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4"
       ]
     }
   ],
-  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence. Added five cast-exclusive Ultimate records with dedicated taxonomy evidence: Energy Jet, Zetsumei Bullet, Self-Destruct, Cookie Beam, and Appetizing Rush. Added Pretty Charge and Divinity Unleashed after dedicated pages confirmed their Super subcategories and availability. Brainwash Attack was additionally reconciled here after its dedicated page confirmed Super/Other, 200 Ki, and Expert Mission 19. Added Acid, Poison, and Saibabeam as Saibaman-exclusive Ki Blast Supers; exact costs and acquisition remain null because the available sources establish identity/CaC restriction but not those fields."
+  "notes": "Conservative research-layer records. Numeric costs and acquisition details remain null unless directly established. Canonical skills.json was checked before this batch; all eight names were absent."
 }
