@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 147,
-  "linked_skill_rewards": 65,
+  "canonical_skill_records": 153,
+  "linked_skill_rewards": 71,
   "alias_matches": [
     {
       "pq": 48,
@@ -604,36 +604,12 @@
     {
       "pq": 168,
       "skill": "Justice Drive"
-    },
-    {
-      "pq": 178,
-      "skill": "Burst Blitz"
-    },
-    {
-      "pq": 180,
-      "skill": "Force Edge"
-    },
-    {
-      "pq": 180,
-      "skill": "Burning Blast"
-    },
-    {
-      "pq": 182,
-      "skill": "Dark Inscription"
-    },
-    {
-      "pq": 183,
-      "skill": "Emperor's Cannon"
-    },
-    {
-      "pq": 184,
-      "skill": "Chaotic Time Impact"
     }
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 133,
-  "unresolved_count": 154,
+  "unique_canonical_skill_names": 139,
+  "unresolved_count": 148,
   "resolved_skill_rewards": [
     {
       "pq": 172,
