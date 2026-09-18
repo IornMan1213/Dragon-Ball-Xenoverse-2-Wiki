@@ -5,48 +5,19 @@
   "scope": "Previously absent cast/boss skill identities",
   "records": [
     {
-      "name": "Boiling Ball",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Boss/cast-only character",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
-      ]
-    },
-    {
-      "name": "Tricky Strike",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Cast-only character",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
-      ]
-    },
-    {
       "name": "Darkness Mixer",
       "class": "Super",
       "subcategory": "Other",
       "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Cast/boss character",
+      "character_source": "Yamcha (Supervillain), other Supervillain characters, Demon God Demigra",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "effect": null,
+      "effect": "Charge Super that rapidly restores Ki and also restores Stamina while emitting an aura that damages nearby enemies and protects the user.",
       "sources": [
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+        "https://dbxv2.fandom.com/wiki/Darkness_Mixer",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     },
     {
@@ -62,7 +33,7 @@
       "effect": "Dark-energy rush attack that chains vanishing attacks between enemies.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rage_Saucer",
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     },
     {
@@ -98,5 +69,5 @@
       ]
     }
   ],
-  "notes": "Focused reconciliation of currently absent raid/boss skills. Existing prior research for Bloody Sauce, Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution was detected in batch 264 and was removed here to avoid cross-batch duplicate identities. Celestial Hammer and Spiral of Condemnation remain new records in this batch."
+  "notes": "Audited against current Xenoverse 2 category documentation. Removed Boiling Ball and Tricky Strike because the available evidence located them only in legacy ID lists without a current dedicated Xenoverse 2 taxonomy page. Removed previously duplicated raid records. Remaining four records have direct/current category evidence."
 }
