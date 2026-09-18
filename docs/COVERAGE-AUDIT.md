@@ -366,3 +366,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Four nonstandard documented values were explicitly reviewed rather than normalized away: Chaotic Time Impact (600), Gigantic Explosion (600), Power Rush (1000), and Emperor's Death Beam (400+).
 - Web corroboration supports Power Rush at 1000 Ki and Emperor's Death Beam at a 400 Ki starting cost with additional Ki consumed during the attack. citeturn1search0turn1search2turn1search3
 - Because the remaining Super/Ultimate costs are populated, the next pass should focus on acquisition semantics, Ultimate Finish flags, restrictions, and version/DLC provenance rather than filling blank costs.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Confirmed the canonical catalog has no null Ki-cost fields among Super/Ultimate records.
+- Reviewed outlier costs rather than normalizing them by class: Power Rush is explicitly 1000 Ki, while Chaotic Time Impact and Gigantic Explosion are explicitly 600 Ki. citeturn1search0turn1search2turn1search3
+- Updated mechanics notes for those three high-cost Ultimates while preserving their existing costs and uncertainty fields.
+- Next pass should focus on acquisition/Ultimate-Finish semantics and DLC/version provenance, not blanket cost normalization.
