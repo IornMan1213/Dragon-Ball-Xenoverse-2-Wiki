@@ -702,3 +702,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Verified and normalized seven nonstandard Ultimate values: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400 base), Gigantic Explosion (600), S.S. Deadly Bomber (400), and Super Kamehameha (SS4 DAIMA) (400 base). These values are supported by current skill references; Final Flash's source explicitly documents 400+, while current references list the fixed 400/600 values for the other audited moves. citeturn0search0turn0search1turn0search2turn0search3turn0search6
 - Do not normalize variable/extra-Ki skills to a single fixed cost when the documented mechanic consumes additional Ki.
 - Next metadata frontier: audit Ultimate Finish requirements and acquisition semantics, then DLC/version provenance and character/CaC restrictions.
+
+
+### Ultimate Finish flag audit — 2026-09-18
+- Reviewed the canonical records that explicitly carry `ultimate_finish_required` as true/false.
+- Current explicit true records include documented UF-gated cases such as Earth Splitting Galick Gun (PQ11), Time Control (PQ18), Super Dragon Flight (PQ31), Power Rush (PQ122), and X 100 Big Bang Kamehameha (PQ100); current external references support the UF relationship for the audited examples. citeturn1search11turn1search2turn1search3turn1search0
+- Kept uncertain/undocumented cases null rather than converting absence of evidence into false or true. The schema permits boolean/null and does not require this optional field.
+- This pass did not invent additional UF requirements; acquisition/quest evidence remains the source of truth.
