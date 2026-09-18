@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 298,
+  "canonical_skill_records": 297,
   "linked_skill_rewards": 205,
   "alias_matches": [
     {
@@ -13,8 +13,8 @@
     }
   ],
   "unresolved": [],
-  "status": "unresolved_links",
-  "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
+  "status": "resolved",
+  "interpretation": "All currently indexed PQ skill reward references reconcile to the canonical catalog; alias matches remain explicitly recorded.",
   "unique_canonical_skill_names": 283,
   "unresolved_count": 0,
   "resolved_skill_rewards": [
