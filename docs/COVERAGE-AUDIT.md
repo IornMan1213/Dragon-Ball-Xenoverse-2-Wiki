@@ -258,3 +258,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Audited nonstandard Ki-cost values rather than normalizing by class: 600-Ki Chaotic Time Impact and Gigantic Explosion, 400-Ki Death Ball, and variable-cost Emperor's Death Beam remain supported by source evidence. citeturn3search1turn3search2turn4search1turn4search5
 - Corrected **Burning Blast** from the incorrect `Ultimate / Ki Blast` taxonomy to **Super / Ki Blast** while retaining its documented 200 Ki cost and PQ180 provenance. citeturn4search0
 - No Super/Ultimate records have a missing `ki_cost` after this pass.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the canonical Super/Ultimate layer for missing Ki-cost values: **0 missing** across 298 canonical records.
+- Nonstandard costs were reviewed rather than normalized mechanically. Verified examples include Death Ball (400 Ki), Chaotic Time Impact (600 Ki), and Gigantic Explosion (600 Ki). citeturn1search0turn1search1turn1search2
+- Variable-cost records remain represented as ranges/thresholds where appropriate: Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600). These should not be coerced into a single fixed cost without stronger evidence.
+- Next skill metadata pass: acquisition semantics, Ultimate Finish requirements, CaC/race restrictions, DLC/version provenance, and mechanics text.
