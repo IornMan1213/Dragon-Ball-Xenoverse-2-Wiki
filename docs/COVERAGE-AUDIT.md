@@ -179,3 +179,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical skill audit found no Super or Ultimate records with missing/null Ki costs; all 298 canonical records have a populated cost field.
 - This is a completeness check, not proof that every numeric value is correct. Variable-cost, zero-cost, and nonstandard mechanics still require source-level verification.
 - Fandom was not accessible for direct verification during this pass because its robots policy blocked retrieval; no unsupported values were inferred from that source.
+
+
+### Super/Ultimate Ki-cost audit checkpoint — 2026-09-18
+- Canonical validation found **0 missing Ki-cost values** among Super and Ultimate records (298 total skill records).
+- The 19 zero-Ki Super records are not being normalized away: the current evidence confirms that zero-cost skills can be legitimate. For example, Dimensional Hole is explicitly documented as a Ki Blast Super with **0 Ki**; community references also document Instant Transmission as zero-Ki. citeturn1search0turn1search12
+- This pass therefore preserves explicit zero-cost values and avoids inferring costs from skill class alone.
+- Remaining priority: spot-check non-zero Super/Ultimate costs against individual skill evidence, especially historical/version-sensitive skills whose costs have changed over time. Official Steam patch notes demonstrate that skill Ki costs can change between versions. citeturn0search8
