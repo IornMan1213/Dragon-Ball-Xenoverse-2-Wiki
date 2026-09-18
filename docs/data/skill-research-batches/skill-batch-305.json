@@ -1,0 +1,58 @@
+{
+  "batch_id": 305,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Complete Other Ultimate category",
+  "records": [
+    {
+      "name": "Body Change",
+      "class": "Ultimate",
+      "subcategory": "Other",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Captain Ginyu; Future Warrior",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Captain Ginyu",
+      "ultimate_finish_required": null,
+      "effect": "Switches the user's body with the target.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/Body_Change",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "name": "Energy Zone",
+      "class": "Ultimate",
+      "subcategory": "Other",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Towa; Future Warrior",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Creates a field that heals allies inside while knocking back enemies.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Zone",
+        "https://dragonball.fandom.com/wiki/Energy_Zone"
+      ]
+    },
+    {
+      "name": "The Saviour Has Come",
+      "class": "Ultimate",
+      "subcategory": "Other",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Hercule; Majin Buu Customize Partner; Jaco Customize Partner; Future Warrior",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Hercule",
+      "ultimate_finish_required": null,
+      "effect": "Taunts nearby enemies so they can only lock onto the user for 10 seconds.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/The_Saviour_Has_Come",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    }
+  ],
+  "notes": "The current Other Ultimates category contains exactly three identities: Body Change, Energy Zone, and The Saviour Has Come. All three were absent from canonical skills.json before this batch. Dedicated/current documentation explicitly supplies their Other Ultimate classification and 300 Ki cost."
+}
