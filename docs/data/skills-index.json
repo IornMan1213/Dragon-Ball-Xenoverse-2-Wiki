@@ -1185,7 +1185,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Character skill; not established as a CaC skill in current evidence",
+      "unlock_method": "Parallel Quest 172 reward",
       "source_quest_or_shop": "PQ171 / PQ172 reward context",
       "ultimate_finish_required": null,
       "skill_description": "Big Bang Knuckle is a Super Ki Blast skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
@@ -1195,8 +1195,10 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Big_Bang_Knuckle"
+      ],
+      "source_quest": 172
     },
     {
       "name": "Blaster Ball",
@@ -3329,12 +3331,15 @@
       "name": "Big Bang Knuckle",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers",
+        "https://dbxv2.fandom.com/wiki/Big_Bang_Knuckle"
       ],
       "ki_cost": 100,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Parallel Quest 172 reward",
+      "source_quest": 172
     },
     {
       "name": "Blazing Attack",
@@ -3388,9 +3393,10 @@
       "class": "Super",
       "subcategory": "Strike",
       "race_restriction": "Earthling",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
+        "https://dbxv2.fandom.com/wiki/Burning_Slash"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
@@ -3398,7 +3404,9 @@
         "Saiyan"
       ],
       "ki_cost": 100,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Parallel Quest 44 reward",
+      "source_quest": 44
     },
     {
       "name": "Burning Swan",
@@ -3473,12 +3481,14 @@
       "name": "Deadly Dance",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers",
+        "https://dbxv2.fandom.com/wiki/Deadly_Dance"
       ],
       "ki_cost": 100,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Training with Android 18"
     },
     {
       "name": "Death Slash",
@@ -3628,7 +3638,8 @@
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 100,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Unknown — acquisition route not yet independently verified"
     },
     {
       "name": "Emperor's Edge",
@@ -3658,9 +3669,10 @@
       "class": "Super",
       "subcategory": "Strike",
       "race_restriction": "Namekian",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
+        "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
@@ -3669,7 +3681,9 @@
       ],
       "ki_cost": 100,
       "stamina_cost": 300,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Parallel Quest 21 reward",
+      "source_quest": 21
     },
     {
       "name": "Evil Whirlwind",
@@ -4000,16 +4014,18 @@
       "class": "Super",
       "subcategory": "Strike",
       "race_restriction": "Namekian",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
+        "https://dragonball.fandom.com/wiki/Demon_Hand"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
         "Namekian"
       ],
       "ki_cost": 100,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition"
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -4089,7 +4105,8 @@
         "https://dbxv2.fandom.com/wiki/Pressure_Sign"
       ],
       "ki_cost": 100,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Skill Shop in Conton City"
     },
     {
       "name": "Recoome Kick",
@@ -4211,9 +4228,10 @@
       "class": "Super",
       "subcategory": "Strike",
       "race_restriction": "Earthling",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
+        "https://dragonball.fandom.com/wiki/High_Strike"
       ],
       "race_restrictions": [
         "Human",
@@ -4221,7 +4239,9 @@
       ],
       "usable_by_cac": true,
       "ki_cost": 100,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Parallel Quest 38 reward",
+      "source_quest": 38
     },
     {
       "name": "Shooting Strike",
@@ -4557,7 +4577,8 @@
       "ki_cost": 400,
       "last_verified": "2026-09-18",
       "mechanics": "400 Ki base cost; documented as a 400-Ki Ki Blast Ultimate. Cost is version-sensitive historically, so retain provenance rather than infer from Ultimate class.",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Unknown — acquisition route not yet independently verified"
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -5466,9 +5487,10 @@
       "class": "Ultimate",
       "subcategory": "Strike",
       "race_restriction": "Earthling",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
+        "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Melee%29"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
@@ -5478,23 +5500,26 @@
         "Frieza Race"
       ],
       "ki_cost": 300,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Training with Lord Slug, Lesson 3"
     },
     {
       "name": "Darkness Rush (Ranged)",
       "class": "Ultimate",
       "subcategory": "Strike",
       "race_restriction": "Namekian",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
+        "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Ranged%29"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
         "Namekian"
       ],
       "ki_cost": 300,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Training with Lord Slug, Lesson 3"
     },
     {
       "name": "Divine Lasso",
@@ -5536,12 +5561,14 @@
       "name": "Dragon Fist",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
+        "https://dbxv2.fandom.com/wiki/Dragon_Fist"
       ],
       "ki_cost": 500,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "TP Medal Shop"
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -5616,12 +5643,14 @@
       "name": "Godly Display",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
+        "https://dbxv2.fandom.com/wiki/Godly_Display"
       ],
       "ki_cost": 500,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "TP Medal Shop (500 TP Medals)"
     },
     {
       "name": "Power Rush",
