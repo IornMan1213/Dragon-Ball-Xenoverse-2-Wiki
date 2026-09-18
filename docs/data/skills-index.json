@@ -311,7 +311,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Dragon Burn",
@@ -320,7 +321,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Explosive Wave",
@@ -329,7 +331,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Angry Shout",
@@ -338,7 +341,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Energy Barrier",
@@ -347,7 +351,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Punisher Guard",
@@ -356,7 +361,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Final Pose",
@@ -365,7 +371,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Mach Dash",
@@ -374,7 +381,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Super Saiyan",
@@ -473,7 +481,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Burst Reflection",
@@ -545,7 +554,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "stamina_cost": 200
     },
     {
       "name": "Dragon Thunder",
