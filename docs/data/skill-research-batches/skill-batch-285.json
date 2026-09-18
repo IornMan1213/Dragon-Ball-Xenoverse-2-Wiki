@@ -3,53 +3,6 @@
   "created": "2026-09-18",
   "type": "catalog_research",
   "scope": "Raid/Boss-exclusive Super Skills not already covered by prior research batches",
-  "records": [
-    {
-      "name": "Gigantic Slam",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan) Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Grab-and-slam Strike Super; the attack ends with a Ki Wave.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
-      ]
-    },
-    {
-      "name": "Darkness Mixer",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": 0,
-      "usable_by_cac": false,
-      "character_source": "Supervillain characters; Demon God Demigra",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Charge Super that rapidly restores Ki and Stamina while protecting against normal attacks and damaging nearby enemies.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Darkness_Mixer"
-      ]
-    },
-    {
-      "name": "Pretty Charge",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": 0,
-      "usable_by_cac": false,
-      "character_source": "Ribrianne",
-      "dlc_requirement": "Ultra Pack 1",
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Ki-charge Super used by Ribrianne; functions similarly to Full Power Charge.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Pretty_Charge",
-        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
-      ]
-    }
-  ],
-  "notes": "Focused follow-up batch. Removed Marbling Drop, Seasoning Arrow, and Time Shackles because they were already researched in Batch 264. Removed Light of Justice because it was researched in Batch 272. Peeler Storm and Flames of Retribution are likewise already covered in Batch 264."
+  "records": [],
+  "notes": "Focused follow-up batch. Marbling Drop, Seasoning Arrow, Time Shackles, Peeler Storm, and Flames of Retribution were removed because they are already researched in Batch 264; Light of Justice was removed because it is already researched in Batch 272; Spiral of Condemnation was removed because it is already researched in Batch 271."
 }
