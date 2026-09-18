@@ -50,22 +50,6 @@
       ]
     },
     {
-      "name": "Bloody Sauce",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Villainous/Supervillain characters and Crystal Raid bosses",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Dark-energy sphere attack with alternate poison/slow effects depending on firing mode.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
-        "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
-      ]
-    },
-    {
       "name": "Rage Saucer",
       "class": "Super",
       "subcategory": "Strike",
@@ -114,5 +98,5 @@
       ]
     }
   ],
-  "notes": "Only genuinely new identities are retained here. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have prior research in batch 264; Spiral of Condemnation has prior research in batch 271. Dedicated Xenoverse 2 documentation confirms Celestial Hammer is a Strike Super and a Crystal Raid Skill. Unresolved costs remain null."
+  "notes": "Focused reconciliation of currently absent raid/boss skills. Existing prior research for Bloody Sauce, Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution was detected in batch 264 and was removed here to avoid cross-batch duplicate identities. Celestial Hammer and Spiral of Condemnation remain new records in this batch."
 }
