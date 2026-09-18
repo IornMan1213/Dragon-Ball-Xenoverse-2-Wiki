@@ -22,6 +22,7 @@ PUA_SPAN_RE = re.compile(re.escape(OPEN) + r"[^" + re.escape(CLOSE) + r"]*" + re
 # This catches malformed/partial exports where the opening/closing delimiters are missing.
 PUA_RE = re.compile(r"[\uE000-\uF8FF]")
 # Remove bare tool-result identifiers left behind after a citation span was stripped.
+BARE_MARKER_RE = re.compile(r"\\b(?:filecite|memcite)\\b", re.IGNORECASE)
 TURN_REF_RE = re.compile(
     r"\bturn(?:\d+|X)(?:search|file|image|youtube|news|product|business)\d*\b",
     re.IGNORECASE,
@@ -31,6 +32,7 @@ TURN_REF_RE = re.compile(
 def clean(text: str) -> str:
     text = PUA_SPAN_RE.sub("", text)
     text = PUA_RE.sub("", text)
+    text = BARE_MARKER_RE.sub("", text)
     text = TURN_REF_RE.sub("", text)
     return text
 
