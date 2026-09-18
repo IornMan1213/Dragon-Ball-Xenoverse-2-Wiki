@@ -643,3 +643,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The current zero-Ki Super entries are concentrated in charge, Power Up, movement/utility, and character-specific support skills; they were not mass-normalized because class alone does not imply a fixed cost.
 - External research corroborates that Xenoverse 2 has distinct resource models and that some charge/support skills use zero Ki to activate while building or modifying resources. citeturn0search0turn0search2
 - Next pass: verify the **semantics and evidence** behind individual nonstandard/zero-cost skills, then audit Ultimate Finish requirements and acquisition/version provenance rather than applying blanket cost assumptions.
+
+
+### Nonstandard Ultimate Ki-cost provenance — 2026-09-18
+- Individually rechecked the six flagged nonstandard Ultimate costs instead of normalizing them by class.
+- Confirmed variable/extended-cost behavior for Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), Thunder Flash (300–600), and Emperor's Death Beam (400+). citeturn1search0turn1search1turn1search2turn1search3turn1search4
+- Gigantic Explosion remains a 600-Ki Ultimate; community reporting independently describes the 600-Ki cost. citeturn1reddit53
+- Added direct skill-page provenance to the canonical/index records where it was missing. Costs remain source-aware and are not flattened into 300/500 defaults.
+- Next evidence-depth target: Ultimate Finish requirements and acquisition/version provenance, especially older partially verified skills.
