@@ -1,0 +1,135 @@
+{
+  "batch_id": 285,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Raid/Boss-exclusive Super Skills reconciliation",
+  "records": [
+    {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Supervillain Yamcha; Mira (Final Form) and other raid bosses",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 13",
+      "ultimate_finish_required": null,
+      "effect": "Rapid homing Ki blasts with a debilitating effect.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+      ]
+    },
+    {
+      "name": "Marbling Drop",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Raid/Crystal Raid bosses",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 15",
+      "ultimate_finish_required": null,
+      "effect": "Creates numerous blue Ki blasts around the user that can break stamina.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Marbling_Drop",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+      ]
+    },
+    {
+      "name": "Seasoning Arrow",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Purple Ki beams rain around Demigra and paralyze targets.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Seasoning_Arrow"
+      ]
+    },
+    {
+      "name": "Time Shackles",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Time-based restraint skill used by Demigra.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Demon_God_Demigra",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Light of Justice",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Charged energy attack.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Light_of_Justice",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Celestial Hammer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Fused Zamasu charges at the opponent and slams them with his fist.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
+      ]
+    },
+    {
+      "name": "Flames of Retribution",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Ki Blast Super; also has a separate Evasive classification in the source taxonomy.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
+      ]
+    },
+    {
+      "name": "Spiral of Condemnation",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Raid-exclusive Ki Blast Super.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    }
+  ],
+  "notes": "Reconciles raid-exclusive skills that were absent from docs/data/skills.json. Light of Justice is intentionally repeated here only as a catalog reconciliation target; if validator treats cross-batch duplicate identity as invalid, this record should be omitted in a future cleanup rather than duplicated. Peeler Storm was intentionally excluded because it already has a prior research record and has dual Super/Evasive source behavior."
+}
