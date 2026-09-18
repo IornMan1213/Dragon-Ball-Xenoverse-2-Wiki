@@ -246,3 +246,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
   - Power Rush — 1000 Ki (10 bars), independently documented by contemporary player testing and reference material. citeturn0search2turn0search10
 - No cost normalization was performed because the canonical values already match the evidence.
 - This pass confirms that remaining resource-cost work must be skill-specific, including variable-cost attacks and conditional Stamina expenditures.
+
+
+### Super/Ultimate Ki-cost completeness audit — 2026-09-18
+- Canonical catalog now has no missing `ki_cost` values among Super or Ultimate skills (298/298 records remain indexed).
+- Nonstandard documented costs were retained rather than normalized away: Chaotic Time Impact 600, Gigantic Explosion 600, Power Rush 1000, Emperor's Death Beam 400+, Final Flash (SS3 DAIMA) 400+, and Super Kamehameha (SS4 DAIMA) 400–500.
+- This confirms the next cost pass should focus on **evidence quality and semantics** (variable/charge-based costs and version/DLC context), not filling nulls with class defaults.
