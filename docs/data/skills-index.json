@@ -302,16 +302,6 @@
       ]
     },
     {
-      "name": "Absolute Zero",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ],
-      "stamina_cost": 300
-    },
-    {
       "name": "Burst Reflection",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -374,16 +364,6 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ]
-    },
-    {
-      "name": "Dragon Burn",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ],
-      "stamina_cost": 200
     },
     {
       "name": "Flash Fist Crush",
@@ -459,12 +439,13 @@
     },
     {
       "name": "Super Afterimage",
-      "class": "Counter",
-      "subcategory": "Counter",
-      "verification_status": "indexed",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Super God Shock Flash",
