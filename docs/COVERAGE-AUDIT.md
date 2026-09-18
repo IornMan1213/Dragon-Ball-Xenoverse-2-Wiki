@@ -351,3 +351,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Nonstandard costs (including 400, 600, and 1000 Ki) were retained for individual verification rather than “corrected” from class-based expectations.
 - Research confirms community documentation uses 3-Ki and 5-Ki language for common Ultimate costs and discusses 700-Ki resource management, reinforcing that cost must remain skill-specific rather than inferred solely from class. citeturn0search5turn0search9
 - Next: individually verify the nonstandard-cost records and the zero-cost exceptions against stronger source evidence, then audit Ultimate Finish flags and acquisition semantics.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Audited the canonical Super/Ultimate Ki-cost fields for missing values and nonstandard costs.
+- No canonical Super/Ultimate record has a missing Ki cost.
+- Verified/documented nonstandard Ultimate costs: Chaotic Time Impact (600), Gigantic Explosion (600), and Power Rush (1000). citeturn1search1turn1search0turn1search9
+- Emperor's Death Beam remains represented as a variable `400+` cost rather than being normalized to a fixed value; this is intentional pending deeper mechanics/version research.
+- Next cost pass should focus on variable-cost moves, acquisition semantics, Ultimate Finish requirements, and version/DLC provenance rather than assuming fixed class-based costs.
