@@ -201,3 +201,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - A zero-cost review found the zero-cost set is concentrated in charge, reinforcement/power-up, and utility skills; these should not be normalized to generic 100/300 Ki values.
 - External research confirms charge-skill behavior varies by skill and that Fighting Pose K/Meditation interactions have changed across game versions, reinforcing the need to preserve individual metadata rather than infer costs from class. citeturn0reddit27turn0search1
 - Next cost pass should focus on nonzero values that are potentially stale, especially DLC/Future Saga skills and skills with version-sensitive mechanics.
+
+
+### Ultimate cost/mechanics spot-audit — 2026-09-18
+- Verified the two 600-Ki Ultimate records in the current canonical layer: **Chaotic Time Impact** (PQ184) and **Gigantic Explosion** (PQ164). Fandom's Ultimate Attack index and per-skill pages explicitly report 600 Ki for both. citeturn1search0turn1search1turn1search2
+- Refined their canonical mechanics notes to preserve the Awoken requirement/400-Stamina continuation behavior of Gigantic Explosion and the Power of Time scaling/reset behavior of Chaotic Time Impact.
+- The canonical catalog currently has no null Ki cost among Super/Ultimate records and no null stamina cost among Evasive records; this is a field-completeness milestone, not proof that every individual value is fully independently verified.
