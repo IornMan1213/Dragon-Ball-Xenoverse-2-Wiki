@@ -2833,7 +2833,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E"
-      ]
+      ],
+      "duration_seconds": 20
     },
     {
       "name": "Fighting Pose H",
@@ -2870,7 +2871,8 @@
       "ki_cost": 0,
       "mechanics_notes": "Documented Super Armor duration: 8 seconds after activation. Ki cost 0. Source page explicitly lists 0:08.0.",
       "last_verified": "2026-09-18",
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "duration_seconds": 8
     },
     {
       "name": "Formation!",
@@ -2942,7 +2944,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Pose"
-      ]
+      ],
+      "duration_seconds": 20
     },
     {
       "name": "Meditation",
@@ -2956,7 +2959,8 @@
       "ki_cost": 0,
       "mechanics_notes": "Documented max-Ki/auto-recovery effect duration: 20 seconds after activation; Ki cost 0. Source page explicitly lists 0:20.0.",
       "last_verified": "2026-09-18",
-      "research_status": "partially_enriched"
+      "research_status": "partially_enriched",
+      "duration_seconds": 20
     },
     {
       "name": "Taunt",
