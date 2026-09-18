@@ -651,3 +651,8 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Gigantic Explosion remains a 600-Ki Ultimate; community reporting independently describes the 600-Ki cost. citeturn1reddit53
 - Added direct skill-page provenance to the canonical/index records where it was missing. Costs remain source-aware and are not flattened into 300/500 defaults.
 - Next evidence-depth target: Ultimate Finish requirements and acquisition/version provenance, especially older partially verified skills.
+
+
+### Ultimate Ki-cost audit — 2026-09-18
+- Refined documented baseline costs for five variable/standard Ultimate records: Prominence Flash 300; Super Kamehameha (SS4 DAIMA) 400 baseline with 500 maximum; Final Flash (SS3 DAIMA) 400+; Full Power Destruction 500; Revenge Death Ball 300+.
+- These values preserve variable-cost mechanics rather than collapsing them into a generic Ultimate cost.
