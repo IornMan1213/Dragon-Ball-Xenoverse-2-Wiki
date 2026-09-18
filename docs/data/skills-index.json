@@ -2929,7 +2929,7 @@
         "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "ki_cost": "400+"
+      "ki_cost": 400
     },
     {
       "name": "Final Kamehameha",
@@ -3252,7 +3252,7 @@
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "ki_cost": "400-500"
+      "ki_cost": 400
     },
     {
       "name": "Super Spirit Bomb",
