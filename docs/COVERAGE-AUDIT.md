@@ -134,3 +134,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - This is a completeness milestone, not proof that every numeric cost is correct. Variable-cost, zero-cost, and version-specific skills still require evidence-level review.
 - External Fandom searches were attempted for spot verification but were blocked by robots.txt in this environment, so no Fandom claim is treated as independently verified in this pass.
 - Next metadata focus: spot-audit nonstandard/variable costs and Ultimate Finish requirements, then acquisition/version provenance.
+
+
+### Super/Ultimate Ki-cost exception audit — 2026-09-18
+- Audited the nonstandard/high Ki-cost entries rather than applying class-wide defaults.
+- Confirmed Chaotic Time Impact = 600 Ki, Gigantic Explosion = 600 Ki, Thunder Flash = 300–600 Ki, and Emperor's Death Beam = 400+ Ki. These values are consistent with current Xenoverse 2 reference pages. citeturn0search3turn0search4turn0search0turn0search2
+- No normalization was made where the variable-cost notation itself is meaningful.
+- Next cost work should target ordinary Super/Ultimate records with weak provenance or mechanics uncertainty, not mechanically overwrite documented variable/600+ costs.
