@@ -1402,9 +1402,11 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80192272"
       ],
-      "ki_cost": 200
+      "ki_cost": 200,
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Divine Spear",
@@ -4199,7 +4201,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
-        "https://dbxv2.fandom.com/wiki/Death_Ball"
+        "https://dbxv2.fandom.com/wiki/Death_Ball",
+        "https://gamefaqs.gamespot.com/boards/466298-dragon-ball-xenoverse-2-future-saga-chapter-1/74429476"
       ],
       "ki_cost": 400,
       "last_verified": "2026-09-18"
@@ -4280,7 +4283,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80390334"
       ],
       "ki_cost": "400+",
       "last_verified": "2026-09-18"
