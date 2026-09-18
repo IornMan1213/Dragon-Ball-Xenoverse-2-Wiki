@@ -286,3 +286,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Nonstandard documented costs are preserved rather than normalized to a class default: Chaotic Time Impact 600, Gigantic Explosion 600, Power Rush 1000, Death Ball 400, S.S. Deadly Bomber 400, Final Flash (SS3 DAIMA) 400, and Super Kamehameha (SS4 DAIMA) 400.
 - These outliers are a targeted follow-up list for source-level verification; the repository does not infer costs from class alone.
 - Web lookup against the Fandom skill pages was blocked by robots.txt in this pass, so no new external cost claim is promoted from that lookup.
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Canonical catalog contains Ki-cost values for all 298 skill records; no Super/Ultimate record has a null Ki cost.
+- Audited nonstandard cost values rather than applying class-based defaults. Confirmed documented examples include Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (variable 400+), Final Flash (SS3 DAIMA) (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400), and Power Rush (1000).
+- Corrected Thunder Flash from an unsupported `300-600` range to 300 Ki using the Madreag skill record; PQ146 independently identifies Thunder Flash as a 50% Ultimate Finish reward.
+- Next: audit Ultimate Finish requirements and acquisition semantics, especially where PQ reward text distinguishes normal vs Ultimate Finish reward slots.
