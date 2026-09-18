@@ -348,3 +348,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Extended the same evidence-backed enrichment through the Dragon Ball DAIMA Pack quests PQ179–PQ180.
 - Added the documented DLC/PQ-board unlock condition and 50% Ultimate Finish skill-drop semantics for Heat Wave, Supreme Fury, Force Edge, and Burning Blast.
 - Kept the skill/drop arrays aligned with canonical reward records after validation; no inferred percentages were introduced.
+
+
+### Parallel Quest final-block reconciliation — 2026-09-18 (PQ181–PQ186)
+- Completed the final numbered PQ block against the maintained Steam transcription and the current datamined corpus.
+- Added the documented DLC/PQ-board unlock condition to PQ181–PQ186.
+- Preserved unresolved skill-drop rates for PQ181–PQ183 and PQ185–PQ186 rather than inventing percentages from the basic-reward list.
+- Confirmed PQ184's **Chaotic Time Impact** as a **50% Ultimate Finish bonus-slot** skill drop from the maintained datamined page.
+- The Steam guide independently confirms the final PQ181–PQ186 objective sequences and listed rewards. citeturn0search4
+- This completes the numbered PQ acquisition pass; the next priority is a repository-wide unresolved-field census and reconciliation, followed by the Awoken/Transformation second-pass audit.
