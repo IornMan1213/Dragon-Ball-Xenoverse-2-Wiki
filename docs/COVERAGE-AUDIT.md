@@ -555,3 +555,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical skill catalog is back to **298 records** with **15** Awoken parent records; the deterministic index is also 298 records and has no duplicate canonical identities.
 - The four additions retain partially verified status and existing dedicated Awoken sources; exact unlock chains remain a follow-up research task rather than being upgraded to fully verified.
 - Validator note: `scripts/validate_skills.py` still references a `target_category_counts` structure that is absent from the current skills JSON/index. This is a validator/data-contract drift issue and should be repaired separately rather than hidden by changing the data to fit an obsolete field.
+
+
+### Resource-cost audit milestone — 2026-09-18
+- Canonical skill catalog remains at 298 records.
+- All canonical Super and Ultimate records currently have a non-null Ki-cost field; no blanket defaulting was performed.
+- The 20 zero-Ki Super records are concentrated in charge, utility, and Power Up skills (including Instant Transmission, Final Charge, Surging Spirit, Fighting Pose variants, and related entries), so their zero values remain candidates for evidence-level verification rather than automatic correction.
+- Web lookup of the Fandom skill pages was blocked by robots.txt in this pass; no unsupported costs were inferred from that failed lookup.
