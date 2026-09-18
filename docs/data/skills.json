@@ -2826,11 +2826,11 @@
       "usable_by_cac": true,
       "character_source": "Frieza",
       "dlc_requirement": "Base Game",
-      "ki_cost": "Parallel Quest 26",
+      "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": false,
+      "source_quest_or_shop": "Parallel Quest 26",
       "skill_description": "Crazy Finger Shot is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
@@ -2839,7 +2839,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot"
-      ]
+      ],
+      "ultimate_finish_required": null
     },
     {
       "name": "Sauzer Blade",
