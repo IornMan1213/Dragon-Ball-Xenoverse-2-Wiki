@@ -32,7 +32,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
-      ]
+      ],
+      "race_restriction": "Namekian",
+      "usable_by_cac": true
     },
     {
       "name": "Future Super Saiyan",
@@ -41,7 +43,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Power Pole Pro",
@@ -50,7 +54,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
-      ]
+      ],
+      "race_restriction": "Earthling",
+      "usable_by_cac": true
     },
     {
       "name": "Purification",
@@ -59,7 +65,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Majin_Skills"
-      ]
+      ],
+      "race_restriction": "Majin",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan",
@@ -68,7 +76,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan God",
@@ -77,7 +87,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -86,7 +98,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -95,7 +109,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Vegeta",
@@ -104,7 +120,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "The Power to Overcome",
@@ -137,7 +155,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills"
-      ]
+      ],
+      "race_restriction": "Frieza Race",
+      "usable_by_cac": true
     },
     {
       "name": "Beast",
@@ -146,7 +166,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "usable_by_cac": true
     },
     {
       "name": "Become Giant",
@@ -155,7 +176,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Namekian",
+      "usable_by_cac": true
     },
     {
       "name": "Future Super Saiyan",
@@ -164,7 +187,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Kaioken",
@@ -173,7 +198,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "usable_by_cac": true
     },
     {
       "name": "Potential Unleashed",
@@ -182,7 +208,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "usable_by_cac": true
     },
     {
       "name": "Power Pole Pro",
@@ -191,7 +218,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Earthling",
+      "usable_by_cac": true
     },
     {
       "name": "Pure Progress",
@@ -200,7 +229,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "usable_by_cac": true
     },
     {
       "name": "Purification",
@@ -209,7 +239,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Majin",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan",
@@ -218,7 +250,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan 2",
@@ -227,7 +261,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan Blue Kaioken",
@@ -236,7 +272,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan God",
@@ -245,7 +283,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -254,7 +294,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -263,7 +305,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Super Vegeta",
@@ -272,7 +316,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true
     },
     {
       "name": "Supersonic Mode",
@@ -281,7 +327,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "usable_by_cac": true
     },
     {
       "name": "Turn Golden",
@@ -290,7 +337,9 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "race_restriction": "Frieza Race",
+      "usable_by_cac": true
     },
     {
       "name": "Ultra Instinct",
@@ -299,7 +348,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ]
+      ],
+      "usable_by_cac": true
     },
     {
       "name": "Burst Reflection",
@@ -2968,7 +3018,8 @@
         "Human",
         "Saiyan"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "race_restriction": "Earthling"
     },
     {
       "name": "Burning Swan",
@@ -3235,7 +3286,8 @@
         "Majin"
       ],
       "ki_cost": 100,
-      "stamina_cost": 300
+      "stamina_cost": 300,
+      "race_restriction": "Namekian"
     },
     {
       "name": "Evil Whirlwind",
@@ -3572,7 +3624,8 @@
       "race_restrictions": [
         "Namekian"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "race_restriction": "Namekian"
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -3781,7 +3834,8 @@
         "Saiyan"
       ],
       "usable_by_cac": true,
-      "ki_cost": 100
+      "ki_cost": 100,
+      "race_restriction": "Earthling"
     },
     {
       "name": "Shooting Strike",
@@ -5002,7 +5056,8 @@
         "Majin",
         "Frieza Race"
       ],
-      "ki_cost": 300
+      "ki_cost": 300,
+      "race_restriction": "Earthling"
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -5016,7 +5071,8 @@
       "race_restrictions": [
         "Namekian"
       ],
-      "ki_cost": 300
+      "ki_cost": 300,
+      "race_restriction": "Namekian"
     },
     {
       "name": "Divine Lasso",
