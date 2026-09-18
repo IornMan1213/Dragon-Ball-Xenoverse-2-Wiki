@@ -194,3 +194,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Re-audited the canonical records currently marked `ultimate_finish_required: true`; the live catalog contains 15 such records, not the earlier five-record snapshot.
 - Independent PQ evidence supports Ultimate Finish gating for Burst Charge and Ultimate Charge on PQ134 and Formation! on PQ133. citeturn2search0turn2search1turn2search8
 - These flags are being treated as evidence-backed acquisition requirements, not as a generic property of all PQ rewards. Remaining true flags require individual quest-level verification.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found **no Super or Ultimate records with a missing Ki-cost field**.
+- A zero-cost review found the zero-cost set is concentrated in charge, reinforcement/power-up, and utility skills; these should not be normalized to generic 100/300 Ki values.
+- External research confirms charge-skill behavior varies by skill and that Fighting Pose K/Meditation interactions have changed across game versions, reinforcing the need to preserve individual metadata rather than infer costs from class. citeturn0reddit27turn0search1
+- Next cost pass should focus on nonzero values that are potentially stale, especially DLC/Future Saga skills and skills with version-sensitive mechanics.
