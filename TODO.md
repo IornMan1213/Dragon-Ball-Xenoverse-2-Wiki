@@ -74,7 +74,7 @@ The repository tracker is authoritative for continuation order. The current skil
 
 **Continuation order:**
 1. **P0:** resolve or obtain observable evidence for the GitHub Actions pre-run failures; never weaken validators to make CI green.
-2. **P1:** reconcile the existing final-DLC skill work (especially Batch 36) and the PQ-to-skill cross-link gap before adding another generic skill batch. The refreshed cross-link report identifies 162 unresolved PQ skill references against 117 unique canonical skill names; this is a data-reconciliation gap, not evidence that those skills do not exist.
+2. **P1:** reconcile the existing final-DLC skill work (especially Batch 36) and the PQ-to-skill cross-link gap before adding another generic skill batch. The refreshed cross-link report identifies 154 unresolved PQ skill references against 117 unique canonical skill names; this is a data-reconciliation gap, not evidence that those skills do not exist.
 3. **P1 coverage:** begin an exhaustive coverage audit of the currently thin wiki systems/pages. Record missing fields and missing records as TODO/data gaps instead of assuming the presence of a page means the system is complete.
 4. **P2:** expand PQ, Awoken/Transformation, Expert Mission, Super Soul, Equipment, QQ Bang, character, story/Time Rift, shop/reward, and raid/event datasets with structured fields and provenance.
 5. **P3:** expose the growing database through Pages navigation/search/explorer improvements only after data gaps are being tracked.
@@ -104,6 +104,7 @@ This correction is intentional: the project goal is an exhaustive encyclopedia, 
 - [x] Promote the four Future Saga Chapter 4 skill records from Batch 36 into the canonical catalog and Awoken dataset.
 - [x] Reconcile canonical matches from the PQ171-PQ186 frontier; 10 additional links are now resolved.
 - [x] Add the four verified Future Saga Chapter 1 skill identities: Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger.
+- [x] Reconcile the researched PQ171-PQ180 skill identities currently supported by evidence.
 - [ ] Reconcile the remaining PQ171-PQ186 skill names (not yet present in the canonical catalog) before expanding to earlier PQs.
 - [ ] Reconcile the PQ-to-skill cross-link report (`docs/data/pq-skill-crosslink-report.json`): resolve the 175 currently unresolved reward references against canonical skill identities/research history, while preserving aliases and historical naming conflicts.
 - [ ] Audit and expand Awoken/Transformation records as a first-class coverage track: separate CaC transformations from character-only forms, document resource costs, stages, race restrictions, unlock prerequisites, version history, and include The Power to Overcome where applicable.
