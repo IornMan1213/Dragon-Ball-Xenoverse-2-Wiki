@@ -1700,7 +1700,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md"
-      ]
+      ],
+      "source_quest": 11
     },
     {
       "name": "Emperor's Blast",
@@ -2282,7 +2283,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "source_quest": 136
     },
     {
       "name": "Ray Blast",
@@ -2653,7 +2655,8 @@
       "source_quest_or_shop": "Parallel Quest 134",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
-      "ultimate_finish_required": true
+      "ultimate_finish_required": true,
+      "source_quest": 134
     },
     {
       "name": "Charged Ki Wave",
@@ -3020,7 +3023,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Time_Control",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-18.md"
-      ]
+      ],
+      "source_quest": 18
     },
     {
       "name": "Ultimate Charge",
@@ -3038,7 +3042,8 @@
       "source_quest_or_shop": "Parallel Quest 134",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
-      "ultimate_finish_required": true
+      "ultimate_finish_required": true,
+      "source_quest": 134
     },
     {
       "name": "Wall of Defense",
@@ -3226,7 +3231,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dbxv2.fandom.com/wiki/Formation%21",
         "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2-extra-pack-3/answers/642221-what-do-i-have-to-complete-to-get-the-formation-skill-in-xeno-verse-2"
-      ]
+      ],
+      "source_quest": 133
     },
     {
       "name": "Indomitable",
@@ -3353,7 +3359,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "source_quest": 136
     },
     {
       "name": "Brave Sword Slash",
@@ -3918,7 +3925,8 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+      ],
+      "source_quest": 135
     },
     {
       "name": "Mach Punch",
@@ -4489,7 +4497,8 @@
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md"
-      ]
+      ],
+      "source_quest": 184
     },
     {
       "name": "Circle Flash",
@@ -5403,7 +5412,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=432754991"
-      ]
+      ],
+      "source_quest": 100
     },
     {
       "name": "Blades of Judgment",
@@ -5637,7 +5647,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76367830",
         "https://dbxv2.fandom.com/wiki/Power_Rush",
         "https://steamcommunity.com/app/454650/discussions/0/1697167355226740361/"
-      ]
+      ],
+      "source_quest": 122
     },
     {
       "name": "Saiyan Spirit",
@@ -5684,7 +5695,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md"
-      ]
+      ],
+      "source_quest": 31
     },
     {
       "name": "Supreme Fury",
