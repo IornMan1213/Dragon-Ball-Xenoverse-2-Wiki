@@ -181,3 +181,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Nonstandard values were reviewed rather than normalized by class: charge/recovery and support Supers legitimately use 0 Ki; Emperor's Death Beam is variable (`400+`); Thunder Flash is variable (`300-600`); Chaotic Time Impact and Gigantic Explosion are 600 Ki.
 - Current web evidence independently supports these exceptions and the 600-Ki values. citeturn1search1turn1search2turn1search3turn1search4
 - This closes the missing-cost portion of the Super/Ultimate pass; the remaining metadata audit should focus on acquisition semantics, race/gender restrictions, character-only availability, Ultimate Finish requirements, DLC/version provenance, and mechanics.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found no null Ki-cost fields among Super or Ultimate records.
+- A targeted 400-Ki review verified Death Ball and S.S. Deadly Bomber at 400 Ki, while the DAIMA Final Flash and Super Kamehameha variants require a 400-Ki base and have additional Ki-dump behavior. citeturn1search0turn1search1turn1search2turn1search3
+- The canonical ki_cost field remains the base activation cost; variable/additional consumption is documented in mechanics rather than flattened into a misleading fixed number.
+- Next: audit Ultimate Finish requirements and acquisition semantics, especially where PQ reward evidence distinguishes normal drops from Ultimate Finish-only rewards.
