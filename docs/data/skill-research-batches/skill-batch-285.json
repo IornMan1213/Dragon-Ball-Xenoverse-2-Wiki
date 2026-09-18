@@ -5,21 +5,6 @@
   "scope": "Previously absent cast/boss skill identities",
   "records": [
     {
-      "name": "Bloody Sauce",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Supervillain and Crystal Raid boss characters",
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 20",
-      "ultimate_finish_required": null,
-      "effect": "Dark Ki blasts that can poison or slow the target.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Bloody_Sauce"
-      ]
-    },
-    {
       "name": "Celestial Hammer",
       "class": "Super",
       "subcategory": "Strike",
@@ -34,23 +19,7 @@
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer",
         "https://dbxv2.fandom.com/wiki/Fused_Zamasu_(Half-Corrupted)"
       ]
-    },
-    {
-      "name": "Spiral of Condemnation",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Crystal Raid-exclusive Ki Blast Super.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Fused_Zamasu_(Half-Corrupted)",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
     }
   ],
-  "notes": "Reduced to skills not already represented by earlier research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have research records in Batch 264 and are intentionally not duplicated."
+  "notes": "Reduced to the one identity not already represented by an earlier research batch. Bloody Sauce was already researched in Batch 258; Spiral of Condemnation was already researched in Batch 271."
 }
