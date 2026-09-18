@@ -120,7 +120,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Evasive stamina-cost audit — 2026-09-18
 - Completed a focused Evasive stamina-cost pass against available skill references.
 - Corrected/confirmed documented costs including Dragon Burn (200), Absolute Zero (300), Angry Shout (300), and Mach Dash (200).
-- The Fandom Evasive overview confirms Evasive stamina costs commonly range from 200–300 and independently lists these four values. citeturn0search4turn0search0turn0search1turn0search2turn0search3
+- Research cross-check: the Evasive Skill reference lists Absolute Zero (300), Dragon Burn (200), Angry Shout (300), and Mach Dash (200). Source: https://dbxv2.fandom.com/wiki/Evasive_Skill
 - Remaining work: audit the Super/Ultimate Ki-cost fields individually; do not infer costs from class alone because variable, zero-cost, and nonstandard skills exist.
 
 
