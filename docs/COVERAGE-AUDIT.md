@@ -241,9 +241,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ### High-cost Ultimate Ki audit — 2026-09-18
 - Verified three nonstandard Ultimate Ki costs against external references rather than normalizing them to a generic 300/500 pattern:
-  - Chaotic Time Impact — 600 Ki; PQ184 and Ultimate Finish reward evidence are consistent. citeturn0search1turn0search7
-  - Gigantic Explosion — 600 Ki, with an additional 400 Stamina expenditure to continue while taking damage. citeturn0search0
-  - Power Rush — 1000 Ki (10 bars), independently documented by contemporary player testing and reference material. citeturn0search2turn0search10
+  - Chaotic Time Impact — 600 Ki; PQ184 and Ultimate Finish reward evidence are consistent.
+  - Gigantic Explosion — 600 Ki, with an additional 400 Stamina expenditure to continue while taking damage.
+  - Power Rush — 1000 Ki (10 bars), independently documented by contemporary player testing and reference material.
 - No cost normalization was performed because the canonical values already match the evidence.
 - This pass confirms that remaining resource-cost work must be skill-specific, including variable-cost attacks and conditional Stamina expenditures.
 
@@ -255,26 +255,26 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 
 ### Ki-cost taxonomy correction — 2026-09-18
-- Corrected **Gigantic Breaker** from `Ultimate / Ki Blast` to `Super / Ki Blast`; authoritative indexed skill data identifies it as a Super Attack and documents a 200 Ki cost. citeturn2search1
+- Corrected **Gigantic Breaker** from `Ultimate / Ki Blast` to `Super / Ki Blast`; authoritative indexed skill data identifies it as a Super Attack and documents a 200 Ki cost.
 - Preserved its 200 Ki cost; this is an example of why the audit does not infer cost solely from broad attack families.
-- Confirmed several intentionally nonstandard Ultimate costs during this pass: Chaotic Time Impact (600), Gigantic Explosion (600), Power Rush (1000), Death Ball (400), S.S. Deadly Bomber (400), and the DAIMA Ultimates' variable 400+ / 400–500 costs. citeturn2search0turn2search2turn2search3turn1search0turn1search2turn1search3
+- Confirmed several intentionally nonstandard Ultimate costs during this pass: Chaotic Time Impact (600), Gigantic Explosion (600), Power Rush (1000), Death Ball (400), S.S. Deadly Bomber (400), and the DAIMA Ultimates' variable 400+ / 400–500 costs.
 
 
 ### Skill acquisition-route audit — 2026-09-18
-- Researched and enriched acquisition metadata for 11 canonical skills where the unlock route had been missing: Big Bang Knuckle (PQ172), Burning Slash (PQ44), Deadly Dance (Android 18 training), Evil Flight Strike (PQ21), Namek Finger (TP Medal Shop / Namekian Future Warrior), Pressure Sign (Conton City Skill Shop), Shining Slash (PQ38), Darkness Rush (Melee/Ranged) (Lord Slug training, Lesson 3), Dragon Fist (TP Medal Shop), and Godly Display (TP Medal Shop, 500 TP Medals). Sources include the Xenoverse 2 Fandom skill pages and corroborating Dragon Ball Wiki/GameFAQs/Steam material. citeturn2search4turn2search5turn2search11turn2search0turn2search3turn2search13turn3search1turn3search4turn3search5turn3search0
+- Researched and enriched acquisition metadata for 11 canonical skills where the unlock route had been missing: Big Bang Knuckle (PQ172), Burning Slash (PQ44), Deadly Dance (Android 18 training), Evil Flight Strike (PQ21), Namek Finger (TP Medal Shop / Namekian Future Warrior), Pressure Sign (Conton City Skill Shop), Shining Slash (PQ38), Darkness Rush (Melee/Ranged) (Lord Slug training, Lesson 3), Dragon Fist (TP Medal Shop), and Godly Display (TP Medal Shop, 500 TP Medals). Sources include the Xenoverse 2 Fandom skill pages and corroborating Dragon Ball Wiki/GameFAQs/Steam material.
 - Preserved uncertainty for Dragon Thunder and Death Ball rather than inventing acquisition routes.
 - Canonical/index synchronization remains the validation gate; future passes should continue filling acquisition semantics only when evidence is explicit.
 
 
 ### Ki-cost audit — 2026-09-18
 - Canonical Super and Ultimate records were checked for missing Ki-cost fields: **0 missing** across the current catalog.
-- The audit also flagged that nonstandard costs exist and therefore must be researched individually rather than normalized by class: current canonical Ultimates include 400-Ki entries (Death Ball and S.S. Deadly Bomber), while authoritative skill references also document variable costs such as 300+ or 400+. citeturn0search2turn0search3
+- The audit also flagged that nonstandard costs exist and therefore must be researched individually rather than normalized by class: current canonical Ultimates include 400-Ki entries (Death Ball and S.S. Deadly Bomber), while authoritative skill references also document variable costs such as 300+ or 400+.
 - Next pass should focus on suspicious/nonstandard costs and acquisition/version provenance, rather than filling nulls.
 
 
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Canonical audit found **0 missing Ki-cost values** across all Super and Ultimate records (298 total skill records overall).
-- The remaining zero-Ki entries are concentrated in charge/reinforcement/utility skills plus Dimensional Hole and Indomitable; Dimensional Hole is explicitly documented as 0 Ki in the current Fandom skill page. citeturn1search0
+- The remaining zero-Ki entries are concentrated in charge/reinforcement/utility skills plus Dimensional Hole and Indomitable; Dimensional Hole is explicitly documented as 0 Ki in the current Fandom skill page.
 - No blanket class-based cost normalization was applied; variable/nonstandard costs require per-skill evidence.
 - Next cost pass should focus on sampled nonzero Super/Ultimate values and version/DLC changes rather than filling nulls.
 
@@ -284,7 +284,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Result: **0 missing Ki-cost fields**, **0 negative/out-of-range values**, and canonical/index Ki-cost values are synchronized.
 - The 19 zero-cost Super/Ultimate entries are charge/reinforcement/utility-style skills or other explicitly non-spending mechanics; they were preserved rather than forcing a class-based default.
 - Nonstandard costs (including variable/threshold-style entries) remain explicitly represented where the data model supports them; no blanket 100/300/500 replacement was applied.
-- External research corroborates the game's use of distinct 100/300/500 Ki thresholds and nonstandard transformation/resource models, while individual skill costs still require skill-specific evidence. citeturn0search0turn0search11
+- External research corroborates the game's use of distinct 100/300/500 Ki thresholds and nonstandard transformation/resource models, while individual skill costs still require skill-specific evidence.
 - Next metadata frontier: audit **Ultimate Finish requirements and acquisition semantics** for remaining canonical Super/Ultimate skills, then reconcile DLC/version provenance and mechanics notes.
 
 ### Super/Ultimate Ki-cost audit — 2026-09-18
@@ -299,7 +299,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - No Super/Ultimate records had null/missing Ki costs.
 - Three variable-cost Ultimate records were normalized to the repository's documented string representation: Emperor's Death Beam = 400+, Final Flash (SS3 DAIMA) = 400+, Super Kamehameha (SS4 DAIMA) = 400–500.
 - Fixed 0-Ki Super records were retained where the skill is a charge, reinforcement, utility, or other documented zero-cost technique; zero is not treated as missing data.
-- Research sources describe Super attacks as generally costing 1–3 bars and Ultimates 3–7, but individual variable-cost mechanics require per-skill handling rather than class-based inference. citeturn0search3turn0search2
+- Research sources describe Super attacks as generally costing 1–3 bars and Ultimates 3–7, but individual variable-cost mechanics require per-skill handling rather than class-based inference.
 
 
 ### Super/Ultimate Ki-cost completeness audit — 2026-09-18
@@ -312,13 +312,13 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate Ki-cost audit — 2026-09-18
 - Canonical audit confirms all 298 skill records are represented in the current skill catalog and every record classified as Super or Ultimate has a non-null Ki cost.
 - No nonstandard positive Ki-cost values were found in the canonical layer; this is a completeness check, not proof that every historical/version-specific cost is current.
-- Research sources confirm that skill costs can change across versions (for example, official Steam patch notes documented x10 Kamehameha changing from 100 to 200 Ki), so future work should preserve version/history evidence rather than treating one value as timeless. citeturn0search7
+- Research sources confirm that skill costs can change across versions (for example, official Steam patch notes documented x10 Kamehameha changing from 100 to 200 Ki), so future work should preserve version/history evidence rather than treating one value as timeless.
 - Next metadata pass: verify acquisition route, DLC/version provenance, CaC/race/gender restrictions, Ultimate Finish requirements, and mechanics against individual sources.
 
 
 ### Skill acquisition-route audit — 2026-09-18
 - Enriched six previously under-documented Super/Ultimate acquisition records from current source evidence: Final Flash (Super), Galick Gun, Kamehameha, Masenko, Energy Charge, and Final Kamehameha.
-- Final Flash (Super) is explicitly character-only/unavailable to CaCs; Kamehameha is PQ05; Galick Gun and Masenko are training rewards; Energy Charge is tied to advancement/playstyle rewards; Final Kamehameha has TP Medal Shop, PQ91, and Double Crystal Raid acquisition paths. citeturn0search0turn0search1turn0search2turn0search3turn0search4turn0search5
+- Final Flash (Super) is explicitly character-only/unavailable to CaCs; Kamehameha is PQ05; Galick Gun and Masenko are training rewards; Energy Charge is tied to advancement/playstyle rewards; Final Kamehameha has TP Medal Shop, PQ91, and Double Crystal Raid acquisition paths.
 - Canonical and index records were updated together and timestamped 2026-09-18.
 - Remaining acquisition backlog is still large; continue in evidence-backed batches rather than filling routes by inference.
 
