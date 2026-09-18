@@ -84,7 +84,7 @@
       ]
     }
   ],
-  "notes": "Batch 286 already contains the new Gigantic Slam record. This batch contains only true corrections to earlier Batch 285 metadata; unchanged Celestial Hammer data was removed to avoid a non-correction duplicate. Added Father-Son Kamehameha and Explosive Scream after dedicated pages confirmed their Ki Blast Ultimate classification and CaC-unavailable status. Added three previously absent cast-exclusive entries after dedicated/category confirmation. Final Flash (Super) was removed because canonical skills.json already contains that identity.",
+  "notes": "Batch 286 already contains the new Gigantic Slam record. This batch contains only true corrections to earlier Batch 285 metadata; unchanged Celestial Hammer data was removed to avoid a non-correction duplicate. Added Father-Son Kamehameha and Explosive Scream after dedicated pages confirmed their Ki Blast Ultimate classification and CaC-unavailable status. Added two previously absent cast-exclusive entries after dedicated/category confirmation. Final Flash (Super) was removed because canonical skills.json already contains that identity.",
   "records": [
     {
       "name": "Father-Son Kamehameha",
@@ -129,22 +129,6 @@
       "effect": "Applies poison to the target.",
       "sources": [
         "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
-      "name": "Pretty Charge",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Ribrianne",
-      "dlc_requirement": "Ultra Pack 1",
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Ki charging skill used by Ribrianne.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Characters",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     }
