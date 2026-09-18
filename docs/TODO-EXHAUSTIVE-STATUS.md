@@ -10,7 +10,7 @@ This is the live progress companion to TODO-EXHAUSTIVE.md. It records the curren
 
 - **Canonical source index:** docs/data/skills.json remains a seeded/indexed catalog generated on 2026-09-14; it has not yet been proven synchronized with the later research batches now present in docs/data/skill-research-batches/.
 - **Research batch frontier:** the repository currently contains skill research through **Batch 314**.
-- **Immediate P0 issue:** the corrected commit 05b3bbd now triggers all normal repository workflows, but Skills Sync, Wiki Data Audit, Repository Quality, and Clean Internal Artifacts still fail; each was rerun once with the same result. The connector exposes failed jobs/check runs but no usable step logs or failure annotations. Pages deployment succeeds.
+- **Immediate P0 issue:** canonical verification-status enum drift and the cleanup script's bare-marker gap have been corrected, but Repository Quality and Clean Internal Artifacts still fail on commit 2c20abe5. The connector exposes failed jobs but no usable step logs. Skills Sync has not yet been rerun against the corrected research frontier.
 - **Batch 314 correction:** removed duplicate records for Heat Dome Attack, Perfect Kamehameha, Angry Explosion, Gigantic Meteor, and Sphere of Destruction. Earlier evidence remains in Batches 17/35, 312, 13, 306, and 307 respectively.
 - **Research standard:** unresolved values remain null; Ultimate Finish requirements are not inferred from silence; canonical identity remains (name.casefold(), class, subcategory).
 
@@ -45,8 +45,9 @@ This is the live progress companion to TODO-EXHAUSTIVE.md. It records the curren
 
 ## Latest validation result
 
-- Commit 05b3bbd: Pages deployment succeeded.
-- Commit 05b3bbd: Skills Sync, Wiki Data Audit, Repository Quality, and Clean Internal Artifacts failed; rerun attempt 2 also failed for each.
+- Commit b42c5759: the four canonical skill verification-status values were normalized from invalid `corrected`/`researched` states to schema-valid `partially_verified` states in both canonical files.
+- Commit 2c20abe5: cleanup was strengthened to remove bare `filecite`/`memcite` markers in addition to PUA spans and turn references.
+- Commit 2c20abe5: Repository Quality and Clean Internal Artifacts still fail; Pages is still building. Skills Sync was not triggered by the status/cleanup-only changes.
 - The available connector exposes check-run failure counts but not the underlying annotation payloads, so the root cause remains unresolved.
 
 ## Known blockers

@@ -70,7 +70,7 @@ This file is the working project tracker. Statuses describe repository work, not
 
 ## In Progress
 
-- [ ] **P0 — Clear remaining GitHub Actions validation failures.** Batch 314's known duplicate identities are corrected, but Skills Sync, Wiki Data Audit, Repository Quality, and Clean Internal Artifacts still fail on commit 05b3bbd; reruns also fail and the connector cannot expose their step logs/annotations.
+- [ ] **P0 — Clear remaining GitHub Actions validation failures.** Canonical skill verification statuses are now normalized to the schema (`partially_verified`), and cleanup now removes bare citation markers, but Repository Quality/Clean Internal Artifacts still fail on commit 2c20abe5. Skills Sync still needs a fresh run against the corrected research frontier.
 
 - [ ] Continue skill research in batches, with a duplicate search before every batch.
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
@@ -89,7 +89,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
 - [ ] Expand Conton City and Time Rift records with complete NPC, service, progression, collectible, and access relationships.
 - [ ] Continue removing internal/tool artifacts from repository text.
-- [ ] Diagnose the cleanup workflow failure; the connector currently exposes failed jobs without usable step logs, so the failure cause is not yet established.
+- [ ] Diagnose the cleanup/repository-quality artifact failure; `strip_internal_artifacts.py` now also removes bare `filecite`/`memcite` markers, but the workflows still fail and the connector exposes no usable logs.
 - [ ] Recheck native GitHub Pages deployment status after repository changes; do not mark it successful until an actual successful run is observable.
 - [ ] Run/strengthen data audits for duplicate names, invalid enums, missing sources, contradictory CaC/race metadata, and incomplete acquisition fields.
 - [ ] Continue improving the GitHub Pages website: navigation, search/explorer UI, responsive layout, data cards, typography, accessibility, empty/error states, and visual consistency.
