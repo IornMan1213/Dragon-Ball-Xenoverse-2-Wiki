@@ -18,7 +18,87 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
       ]
+    },
+    {
+      "name": "Gigantic Slam",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Broly; Partner Broly (Full Power Super Saiyan)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Broly-exclusive close-range slam attack.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
+      ]
+    },
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Nappa and other cast presets",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Large-area energy explosion ultimate.",
+      "sources": [
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+        "https://gamefaqs.gamespot.com/ps4/248428-dragon-ball-xenoverse-dragon-ball-xenoverse-2/faqs/71395?page=3"
+      ]
+    },
+    {
+      "name": "Acid",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Cast-exclusive enemy skill",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Cast-exclusive acid attack; exact canonical attack subtype remains unresolved.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      ]
+    },
+    {
+      "name": "Poison",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Cast-exclusive enemy skill",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Cast-exclusive poison attack; exact canonical attack subtype remains unresolved.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      ]
+    },
+    {
+      "name": "Saibabeam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Saibaman",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Cast-exclusive Saibaman beam attack.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      ]
     }
   ],
-  "notes": "Deduplicated against earlier research batches 264 and 284. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution already have prior research records and are not repeated here."
+  "notes": "Added only unresolved catalog identities not already present in canonical skills.json or prior batch 285. Gigantic Slam is explicitly a Super Skill and the current ID list identifies two cast-only Broly variants; Giant Storm is explicitly an Ultimate Attack in the cast move list. Acid and Poison remain Other placeholders because available evidence establishes cast-only identity but not the repository Attack Type. Saibabeam is retained as Ki Blast based on its named beam attack and cast-only ID entry; cost remains null."
 }
