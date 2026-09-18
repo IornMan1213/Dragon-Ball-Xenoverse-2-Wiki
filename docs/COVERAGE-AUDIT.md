@@ -272,3 +272,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Targeted source verification corrected **Power Rush** from 500 to **1000 Ki**; current reference material identifies it as the game's mandatory 1000-Ki attack. citeturn0search2turn0search8
 - **Special Beam Cannon (Beast)** remains **500 Ki**, independently documented by the skill reference. citeturn0search0turn0search1
 - Future passes should continue spot-checking nonstandard/variable costs rather than applying class-wide defaults.
+
+
+### Super/Ultimate Ki-cost completeness audit — 2026-09-18
+- Canonical audit found **0** Super/Ultimate records with a missing Ki-cost field across all 298 skills.
+- Zero-cost entries were retained where the catalog models charge, reinforcement, or utility-style skills or documented no-Ki-cost techniques; they were not mass-normalized to generic 100/300 values.
+- External research confirms that Super/Ultimate costs vary by skill and that charge/support skills are part of the skill system, so class-based inference would be unsafe.
+- Next cost pass should target individual suspicious/nonstandard values and version-sensitive mechanics rather than filling nulls.
