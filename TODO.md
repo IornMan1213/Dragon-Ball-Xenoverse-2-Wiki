@@ -71,6 +71,7 @@ This file is the working project tracker. Statuses describe repository work, not
 ## In Progress
 
 - [ ] **P0 — Clear remaining GitHub Actions validation failures.** Canonical skill verification statuses are now normalized to the schema (`partially_verified`), and cleanup now removes bare citation markers, but Repository Quality/Clean Internal Artifacts still fail on commit 2c20abe5. Skills Sync still needs a fresh run against the corrected research frontier.
+- **Latest runner-level evidence (2026-09-18):** fresh push-triggered Skills Sync, Wiki Data Audit, Repository Quality, and Clean Internal Artifacts jobs all terminated within ~3–4 seconds with `steps: []`, `runner_id: 0`, and no exposed logs. This is consistent with failure before a runner step executed; the repository does not have enough connector evidence to attribute a specific GitHub-side cause.
 
 - [ ] Continue skill research in batches, with a duplicate search before every batch.
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
