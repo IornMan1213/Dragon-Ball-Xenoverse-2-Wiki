@@ -5,23 +5,6 @@
   "scope": "Previously absent cast-exclusive Super/Ultimate skills",
   "records": [
     {
-      "name": "Bloody Sauce",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Supervillain/Boss characters",
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 20: Harbinger of Doom",
-      "ultimate_finish_required": null,
-      "effect": "Fires purple Ki blasts that can poison or slow targets; the Time Patroller version is restricted to Crystal Raid or Training mode.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Bloody_Sauce",
-        "https://dbxv2.fandom.com/wiki/Expert_Mission",
-        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
-      ]
-    },
-    {
       "name": "Celestial Hammer",
       "class": "Super",
       "subcategory": "Strike",
@@ -50,7 +33,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
       ]
+    },
+    {
+      "name": "Spiral of Condemnation",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Fused Zamasu (Half-Corrupted)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Releases three dark-energy spirals toward the opponent; Crystal Raid exclusive.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation"
+      ]
     }
   ],
-  "notes": "Only genuinely new identities are retained. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were already researched in Batch 264 and are not duplicated."
+  "notes": "Only genuinely new identities are retained. Bloody Sauce was removed because Batch 264 already contains it. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were also already researched in Batch 264."
 }
