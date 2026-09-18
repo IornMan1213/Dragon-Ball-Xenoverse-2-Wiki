@@ -738,3 +738,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Zero-cost Supers were retained where they represent charging, utility, or Power Up behavior; they were not normalized to generic 100-Ki costs.
 - This preserves documented exceptions such as charge skills and Power Up skills while avoiding class-based inference.
 - Next pass: inspect nonzero cost outliers and acquisition/version metadata, then reconcile any evidence-backed corrections in both canonical and index layers.
+
+
+### Super/Ultimate Ki-cost completeness audit — 2026-09-18
+- Audited all 298 canonical skill records: every Super and Ultimate record has a non-null numeric ki_cost.
+- The zero-Ki Super records are concentrated in charge/reinforcement/power-up/utility skills; they were not normalized to a generic cost because the cost model is skill-specific.
+- External reference material describes supers as generally 1–3 Ki bars and ultimates as generally 3–7 bars while noting skill-specific behavior. citeturn0search10
+- No missing Ki-cost fields were found in the canonical Super/Ultimate layer, so the next audit should target acquisition semantics and Ultimate Finish evidence rather than filling absent costs.
