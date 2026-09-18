@@ -195,3 +195,8 @@ The project is being worked as parallel tracks so the site visibly improves whil
 - [x] Reconciled PQ61–100 skill frontier; canonical skill catalog reached 249 records.
 - [x] Reconciled Super Pass PQ101–112 skill rewards and resolved four pre-existing canonical-name crosslinks (Rakshasa's Claw, Spirit Explosion, Crazy Finger Shot, Sauzer Blade).
 - [ ] Continue remaining PQ skill crosslinks; current unresolved count: 35.
+
+### PQ Skill Crosslink Progress — 2026-09-18 (continued)
+- [x] Reconciled PQ113–117 Extra Pack 1 skill rewards.
+- [x] Reconciled PQ120 and PQ122 Extra Pack 2 skill rewards.
+- [ ] Continue remaining DLC PQ skill crosslinks; current unresolved count: 24.
