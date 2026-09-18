@@ -107,7 +107,23 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Omega"
       ]
+    },
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Nappa; Raditz, Broly, Omega Shenron, Kefla (Super Saiyan), and other Customize Partners",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Creates a large explosion beneath the target; long-range tracking Ki Blast Ultimate.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Giant_Storm",
+        "https://dragonball.fandom.com/wiki/Volcano_Explosion"
+      ]
     }
   ],
-  "notes": "Reconciles previously uncovered cast/boss skills and one metadata correction. Duplicate identities already represented by earlier batches were removed: Gigantic Ki Blast (Batch 264), Super Great Ape Beam (Batch 278), Boulder Toss and Boulder Break (Batch 283), plus Dragon Flash Bullet/Whirlwind Blade/Gigantic Slam/Final Flash/Bloody Sauce where applicable. Energy Cannon is retained as a formal correction to Batch 283. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, and Gigantic Omega remain new research records."
+  "notes": "Reconciles previously uncovered cast/boss skills and one metadata correction. Duplicate identities already represented by earlier batches were removed: Gigantic Ki Blast (Batch 264), Super Great Ape Beam (Batch 278), Boulder Toss and Boulder Break (Batch 283), plus Dragon Flash Bullet/Whirlwind Blade/Gigantic Slam/Final Flash/Bloody Sauce where applicable. Energy Cannon is retained as a formal correction to Batch 283. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, and Gigantic Omega remain new research records. Giant Storm was also absent from docs/data/skills.json and is explicitly documented as a 300-Ki Ki Blast Ultimate obtained from the Skill Shop."
 }
