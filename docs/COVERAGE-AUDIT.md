@@ -454,3 +454,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Zero-cost entries are concentrated in charge/power-up style skills and are retained pending individual mechanics review; zero does not mean unverified.
 - Nonstandard costs were reviewed rather than normalized blindly. Documented examples include Chaotic Time Impact (600), Gigantic Explosion (600), Death Ball (400), S.S. Deadly Bomber (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600). Sources/mechanics are preserved in the canonical records.
 - This confirms the current catalog has complete Ki-cost field coverage for Super/Ultimate records, while exact historical/version-specific costs remain a targeted research concern.
+
+
+### Evasive acquisition-route audit — 2026-09-18
+- Filled documented acquisition routes for 8 previously incomplete Evasive records: Absolute Zero, Dragon Burn, Explosive Wave, Angry Shout, Energy Barrier, Punisher Guard, Final Pose, and Mach Dash.
+- Sources distinguish PQ rewards, Skill Shop acquisition, and historical/name-change cases; the catalog preserves those distinctions instead of collapsing them into a generic “PQ reward” label. citeturn2search1turn1search8turn1search10turn1search2turn1search4turn2search0turn1search7turn1search3turn1search9
+- Current Evasive layer now has no missing stamina costs and no missing acquisition routes among these 20 canonical Evasive records.
