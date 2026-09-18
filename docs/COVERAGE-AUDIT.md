@@ -148,3 +148,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Verified and populated five previously missing legacy costs: Divine Kamehameha (200), Death Ball (400), Final Explosion (500), Supernova (500), and Super Spirit Bomb (300).
 - Divine Kamehameha's current skill page explicitly lists 200 Ki; community/reference material independently reports Super Spirit Bomb at 300 Ki and Death Ball at 400 Ki. citeturn1search0turn1search1turn1search11
 - This pass intentionally leaves uncertain/variable skills unresolved rather than assigning a class-based default.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Began the Super/Ultimate Ki-cost second pass using explicit cost evidence rather than class-based assumptions.
+- Filled four previously missing values: Perfect Shot (100 Ki), Spirit Bomb (100 Ki), Godly Display (500 Ki), and Emperor's Death Beam (400 Ki).
+- Evidence includes historical Xenoverse 2 community documentation for Perfect Shot, Spirit Bomb, and Emperor's Death Beam, plus documented Godly Display 500-Ki usage; these are recorded as research evidence rather than universal class defaults. citeturn1search2turn2search8turn2search3turn2search4
+- The remaining null Ki-cost fields stay intentionally unresolved until skill-specific evidence is available.
