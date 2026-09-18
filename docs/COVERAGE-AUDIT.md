@@ -237,3 +237,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Added/normalized source quest IDs for Burst Rush (PQ51), Earth Splitting Galick Gun (PQ11), Time Control (PQ18), Burst Charge and Ultimate Charge (PQ134), Formation! (PQ133), Lovely Cyclone (PQ135), Burst Stinger/Raid Blast/Blazing Attack (PQ136), Chaotic Time Impact (PQ184), X 100 Big Bang Kamehameha (PQ100), Power Rush (PQ122), and Super Dragon Flight (PQ31).
 - External corroboration includes explicit Ultimate Finish/drop statements for Burst Rush, Formation!, and the PQ135–137 DLC skill drops.
 - No true flags were converted to false/null: the goal is provenance completeness, not assuming that absence of a source equals absence of a requirement.
+
+
+### High-cost Ultimate Ki audit — 2026-09-18
+- Verified three nonstandard Ultimate Ki costs against external references rather than normalizing them to a generic 300/500 pattern:
+  - Chaotic Time Impact — 600 Ki; PQ184 and Ultimate Finish reward evidence are consistent. citeturn0search1turn0search7
+  - Gigantic Explosion — 600 Ki, with an additional 400 Stamina expenditure to continue while taking damage. citeturn0search0
+  - Power Rush — 1000 Ki (10 bars), independently documented by contemporary player testing and reference material. citeturn0search2turn0search10
+- No cost normalization was performed because the canonical values already match the evidence.
+- This pass confirms that remaining resource-cost work must be skill-specific, including variable-cost attacks and conditional Stamina expenditures.
