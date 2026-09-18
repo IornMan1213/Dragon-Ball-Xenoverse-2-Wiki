@@ -138,3 +138,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Power Rush remains the sole 1000-Ki canonical skill and is independently documented as requiring 1000 Ki. citeturn1search0turn1search1
 - Burst Charge and Ultimate Charge retain 0 Ki and now include an additional Steam PQ134 source; independent GameFAQs/Steam evidence states their drops require the PQ134 Ultimate Finish, supporting the existing `ultimate_finish_required: true` flags. citeturn1search2turn1search9
 - Web access to the Fandom Evasive pages was blocked by robots.txt during this pass, so blocked pages were not treated as verified evidence.
+
+
+### Indomitable charge-behavior evidence — 2026-09-18
+- Added a recent Steam community-testing source to the canonical/index Indomitable record.
+- The source describes simultaneous Ki/Stamina charging and a health-sensitive acceleration below 50% HP; exact timing remains marked partially verified rather than promoted to a hard mechanic.
+- Surging Spirit remains documented as a zero-Ki charge skill; current sources describe its charge rate improving with continued use and its CaC access through Ultra Instinct's built-in action. citeturn2search0turn2search1turn2search2
