@@ -313,3 +313,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Zero-Ki records are concentrated in charge/support/power-up utility skills; they were retained rather than normalized to generic 100/300-bar assumptions.
 - Research sources describe Super/Ultimate costs in bars and note that individual skills can use nonstandard/variable costs, so future corrections must remain skill-specific. citeturn0search7turn0search11
 - Next metadata pass: inspect zero-cost utility skills and variable/multi-stage costs for semantic accuracy, then audit Ultimate Finish and acquisition/version fields.
+
+
+### Counter taxonomy cleanup — 2026-09-18
+- Removed the legacy Counter / Counter canonical taxonomy: counter behavior is now represented by the skill's actual class/subcategory, while counter status remains a property of the technique rather than a canonical class.
+- Normalized 20 documented counter skills into their actual Super/Ultimate categories using current skill-page evidence; Super Afterimage is now Super / Other, and duplicate Counter entries for Absolute Zero and Dragon Burn were removed because their canonical Evasive records already exist.
+- Research confirms the source taxonomy places counter skills inside ordinary categories such as Strike Supers, Ki Blast Supers, Other Supers, and Ki Blast Ultimates. citeturn2search5turn2search8turn5search0
+- Remaining skill-layer work is metadata completeness/accuracy, not creation of a separate Counter class.
