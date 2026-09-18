@@ -124,7 +124,7 @@
       ]
     }
   ],
-  "notes": "Audit/reconciliation completed against dedicated skill pages. Gigantic Slam is explicitly a Strike Super, 100 Ki, and unavailable for CaC. Boulder Break and Boulder Toss are Great Ape Super Skills; their exact canonical subtype remains a research judgment recorded here as Strike pending stronger in-game stat evidence. Energy Cannon and Beam Rifle retain Ki Blast classification with unresolved Ki cost. Bloody Sauce is a Ki Blast Super costing 100 Ki; its dedicated page gives Expert Mission 20 as the skill unlock while Expert Mission 13 separately lists the Raid variant. Darkness Mixer and Pretty Charge are Other Supers and cast-exclusive.",
+  "notes": "Audit/reconciliation completed against dedicated skill pages. Gigantic Slam is explicitly a Strike Super, 100 Ki, and unavailable for CaC. Boulder Break and Boulder Toss are Great Ape Super Skills; their exact canonical subtype remains a research judgment recorded here as Strike pending stronger in-game stat evidence. Energy Cannon and Beam Rifle retain Ki Blast classification with unresolved Ki cost. Bloody Sauce is a Ki Blast Super costing 100 Ki; its dedicated page gives Expert Mission 20 as the skill unlock while Expert Mission 13 separately lists the Raid variant. Darkness Mixer and Pretty Charge are Other Supers and cast-exclusive. Giant Storm was added after dedicated current documentation confirmed Ultimate/Ki Blast classification, 300 Ki, Skill Shop unlock, and CaC availability.",
   "records": [
     {
       "name": "Gigantic Slam",
@@ -172,6 +172,22 @@
         "https://dbxv2.fandom.com/wiki/Pretty_Charge"
       ],
       "notes": "Dedicated source explicitly gives Attack Type Other, Skill Type Super, Ki Used 0, and Unavailable for CaC."
+    },
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Nappa; Raditz, Broly, Bardock, Omega Shenron, Majin Buu (Gohan Absorbed), Kefla (Super Saiyan) Customize Partners",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Creates a large explosion beneath the opponent and launches the user upward to avoid the backdraft.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Giant_Storm",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
     }
   ]
 }
