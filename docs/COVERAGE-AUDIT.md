@@ -695,3 +695,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected the documented cost of **Gigantic Breaker** from 300 to **200 Ki**, matching the skill reference's explicit Ki-used value. citeturn0search7
 - Reference material also demonstrates why class-wide defaults are unsafe: Ultimate costs include 300, 400, 500, and variable values, while some skills consume additional Ki during use. citeturn0search0turn0search5
 - Next: audit non-null costs for suspicious values and then review Ultimate Finish requirements, acquisition semantics, and DLC/version provenance.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Audited the canonical Super/Ultimate records for missing and nonstandard Ki costs; no Super/Ultimate record had a null Ki cost.
+- Verified and normalized seven nonstandard Ultimate values: Chaotic Time Impact (600), Death Ball (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400 base), Gigantic Explosion (600), S.S. Deadly Bomber (400), and Super Kamehameha (SS4 DAIMA) (400 base). These values are supported by current skill references; Final Flash's source explicitly documents 400+, while current references list the fixed 400/600 values for the other audited moves. citeturn0search0turn0search1turn0search2turn0search3turn0search6
+- Do not normalize variable/extra-Ki skills to a single fixed cost when the documented mechanic consumes additional Ki.
+- Next metadata frontier: audit Ultimate Finish requirements and acquisition semantics, then DLC/version provenance and character/CaC restrictions.
