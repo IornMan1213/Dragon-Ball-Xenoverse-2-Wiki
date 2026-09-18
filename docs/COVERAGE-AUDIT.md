@@ -534,3 +534,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Explicit PQ source-field enrichment — 2026-09-18
 - Added structured source_quest / source_quest_or_shop values for 16 canonical skills where the PQ number is explicitly documented by researched skill pages: Burst Rush (PQ51), Demon Flash Strike (PQ160), Force Shield (PQ59), Instant Rise (PQ37), Maiden Burst (PQ92), Spirit Explosion (PQ25), Psychic Move (PQ73), Buu Buu Ball (PQ88), Angry Shout (PQ68), Energy Barrier (PQ32), Dimension Cannon (PQ59), Victory Cannon (PQ54), Dragon Burn (PQ82), Absolute Zero (PQ96), Celestial Wave (PQ151), and Mach Dash (PQ18). citeturn2search0turn2search1turn2search2turn2search3turn2search4
 - These are structured provenance enrichments only; no Ultimate Finish requirement was inferred from a generic PQ reward listing.
+
+
+### Explicit PQ source-field enrichment pass 2 — 2026-09-18
+- Added structured source_quest/source_quest_or_shop fields for 12 additional canonical skills with explicit PQ provenance: Atomic Blast (PQ87), Blaster Ball (PQ125), Bluff Kamehameha (PQ94), Breaker Energy Wave (PQ101), Burning Attack (PQ41), Burst Kamehameha (PQ72), Burst Stinger (PQ136), Candy Beam (PQ66), Candy Beam (Super) (PQ113), Crazy Finger Shot (PQ26), Death Psycho Bomb (PQ33), and Double Death Slicer (PQ24).
+- This pass intentionally records only explicit quest-number provenance; it does not infer Ultimate Finish requirements, drop percentages, or reward-slot semantics.
+- Current canonical skill catalog: 294 records; all Super/Ultimate records have a non-null Ki-cost representation, including documented variable/input-dependent forms.
+- A crosslink-report integrity issue remains to be repaired: the persisted report summary says 205 linked rewards, but its serialized resolved_skill_rewards array is incomplete. The validator source is the authoritative regeneration path; this is tracked rather than silently treating the stale report as complete.
