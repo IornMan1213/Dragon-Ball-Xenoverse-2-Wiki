@@ -537,9 +537,11 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+        "https://dragonball.fandom.com/wiki/Super_Afterimage"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Skill Shop (Conton City)"
     },
     {
       "name": "Super God Shock Flash",
@@ -1443,10 +1445,12 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80192272"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80192272",
+        "https://dbxv2.fandom.com/wiki/Divine_Kamehameha"
       ],
       "ki_cost": 200,
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "unlock_method": "TP Medal Shop"
     },
     {
       "name": "Divine Spear",
@@ -2035,11 +2039,13 @@
       "name": "Perfect Shot",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
+        "https://dbxv2.fandom.com/wiki/Perfect_Shot"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Cell (Perfect) mentor training"
     },
     {
       "name": "Photon Swipe",
@@ -2229,11 +2235,13 @@
       "name": "Spirit Bomb",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
+        "https://dbxv2.fandom.com/wiki/Spirit_Bomb"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Goku mentor training"
     },
     {
       "name": "Spirit Pulse",
@@ -2423,11 +2431,13 @@
       "name": "Afterimage",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Afterimage"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Starting move / initial \"Mixed\" choice"
     },
     {
       "name": "Afterimage Strike",
@@ -2444,11 +2454,13 @@
       "name": "Assault Vanish",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Assault_Vanish"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 131 - \"Fight of the Fusions! Vegito vs Gogeta\""
     },
     {
       "name": "Burst Charge",
@@ -2469,11 +2481,13 @@
       "name": "Charged Ki Wave",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 97 - \"Insidious Plot\""
     },
     {
       "name": "Dancing Parapara",
@@ -2524,11 +2538,13 @@
       "name": "Full Power Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Full_Power_Charge"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "unlock_method": "Advancement Test - Advanced Class"
     },
     {
       "name": "Hero's Flute",
@@ -2567,11 +2583,13 @@
       "name": "Instant Transmission",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Instant_Transmission"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "unlock_method": "Goku mentor training, Lesson 1"
     },
     {
       "name": "Kai Kai",
@@ -2600,11 +2618,13 @@
       "name": "Maximum Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Maximum_Charge"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "unlock_method": "Advancement Test - God Class"
     },
     {
       "name": "Petrifying Spit",
@@ -2633,21 +2653,25 @@
       "name": "Phantom Fist",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Phantom_Fist"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 97 - \"Insidious Plot\""
     },
     {
       "name": "Quick Sleep",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dragonball.fandom.com/wiki/Sleep"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "unlock_method": "Skill Shop (Conton City), after defeating Mira (Final Form) in the main story"
     },
     {
       "name": "Rise to Action",
