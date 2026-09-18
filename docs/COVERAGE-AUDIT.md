@@ -342,3 +342,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Refreshed `docs/data/pq-skill-crosslink-report.json` to the current canonical skill layer: **294 canonical records**, **283 unique skill names**, **205 linked PQ skill rewards**, **0 unresolved references**.
 - The report was stale at 297 canonical records; no unresolved PQ reward references were introduced by the subsequent duplicate/taxonomy cleanup.
 - The remaining duplicate names are intentional multi-record identities (not duplicate canonical identities), including Awoken race/Transformation records and Big Bang Knuckle where applicable.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical scan found no Super or Ultimate records with missing `ki_cost` values.
+- Six nonstandard Ultimate costs/ranges remain intentionally represented as documented values: Chaotic Time Impact (600), Gigantic Explosion (600), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
+- These are not normalized to the common 100/300/500 pattern because variable or higher costs are legitimate and the current records are only partially verified.
+- Next pass should focus on acquisition/unlock semantics and Ultimate Finish evidence rather than mechanically changing cost fields.
