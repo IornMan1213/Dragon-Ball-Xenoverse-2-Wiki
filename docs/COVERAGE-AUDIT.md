@@ -278,3 +278,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical skill scan: all 298 Super/Ultimate records currently have a populated Ki-cost field; no null/undefined Ki costs remain in those classes.
 - Zero-Ki entries were retained rather than normalized away because they include utility, charge, and Power Up skills. Independent community evidence confirms Instant Transmission as a no-Ki skill and documents Rise to Action as a utility option.
 - This is a completeness checkpoint, not proof that every numeric cost is fully source-verified. Next pass should target acquisition semantics, character/CaC restrictions, Ultimate Finish requirements, and DLC/version provenance.
+
+
+### Skill taxonomy correction — 2026-09-18
+- Corrected **Vanishing Ball** from **Ultimate / Ki Blast** to **Super / Ki Blast** in the canonical skill layer and synchronized index data.
+- Fandom's current Vanishing Ball page identifies it as a Ki Blast Super, lists 100 Ki, and identifies PQ58 “Majin Banquet” as its acquisition source. citeturn3search0
+- Independent PQ references corroborate Vanishing Ball as a PQ58 reward. citeturn3search1turn3youtube20
+- This correction demonstrates that cost auditing must be paired with class/taxonomy verification rather than assuming class from resource cost alone.
