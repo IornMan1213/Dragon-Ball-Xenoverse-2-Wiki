@@ -541,3 +541,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - This pass intentionally records only explicit quest-number provenance; it does not infer Ultimate Finish requirements, drop percentages, or reward-slot semantics.
 - Current canonical skill catalog: 294 records; all Super/Ultimate records have a non-null Ki-cost representation, including documented variable/input-dependent forms.
 - A crosslink-report integrity issue remains to be repaired: the persisted report summary says 205 linked rewards, but its serialized resolved_skill_rewards array is incomplete. The validator source is the authoritative regeneration path; this is tracked rather than silently treating the stale report as complete.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical skill records were scanned for missing Ki costs: **0 Super/Ultimate records have null Ki cost**.
+- A targeted anomaly review found legitimate nonstandard values (including 0-cost reinforcement/charge skills and 400/600-Ki Ultimates), so no blanket normalization was applied.
+- Current research sources also document that skill costs vary by move rather than mapping rigidly to class; therefore remaining work is source-by-source verification of individual costs and version history. citeturn0search0turn0search10
