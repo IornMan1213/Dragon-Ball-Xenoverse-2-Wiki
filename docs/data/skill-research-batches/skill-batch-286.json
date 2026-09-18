@@ -107,7 +107,71 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Omega"
       ]
+    },
+    {
+      "name": "Gigantic Ki Blast",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Great Ape Nappa; Great Ape Bardock; Great Ape Baby",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape boss ultimate that creates and launches a gigantic Ki sphere.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
+        "https://www.reddit.com/r/dbxv/comments/1pp2wvm/raid_quest_revenge_of_the_tuffle_reloaded_vs/"
+      ]
+    },
+    {
+      "name": "Super Great Ape Beam",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Great Ape Vegeta; Great Ape Bardock; Great Ape Baby",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape mouth-fired energy beam used by Great Ape bosses.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
+        "https://www.reddit.com/r/dbxv/comments/1pp2wvm/raid_quest_revenge_of_the_tuffle_reloaded_vs/"
+      ]
+    },
+    {
+      "name": "Boulder Toss",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Great Ape Nappa; Great Ape Vegeta; Great Ape Baby",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape picks up and throws a large boulder.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
+        "https://videogaming.fandom.com/wiki/Boulder_Toss_(Dragon_Ball)"
+      ]
+    },
+    {
+      "name": "Boulder Break",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Great Ape Nappa; Great Ape Bardock; Great Ape Baby",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Great Ape jumps with a large boulder and slams it into the ground.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Boulder_Break",
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
+      ]
     }
   ],
-  "notes": "Keeps only records not already represented by the canonical catalog or earlier research batches. Final Flash (Super) was removed because canonical skills.json already contains it; Bloody Sauce was removed because Batch 285 now covers it. Energy Cannon remains a formal metadata correction against Batch 283. Added four previously absent character-signature skills: Ice Claw, Dragon Flash Bullet, Whirlwind Blade, and Gigantic Omega; dedicated pages establish their taxonomy and costs. Removed Dragon Flash Bullet and Whirlwind Blade from this batch because they are already established in Batch 265; duplicate non-correction identities would fail validate_research_batches.py. Removed duplicate Giant Storm identity; canonical research remains in Batch 285. Removed duplicate Gigantic Slam; retained the earlier canonical record in Batch 285."
+  "notes": "Keeps only records not already represented by the canonical catalog or earlier research batches. Final Flash (Super) was removed because canonical skills.json already contains it; Bloody Sauce was removed because Batch 285 now covers it. Energy Cannon remains a formal metadata correction against Batch 283. Added four previously absent character-signature skills: Ice Claw, Dragon Flash Bullet, Whirlwind Blade, and Gigantic Omega; dedicated pages establish their taxonomy and costs. Removed Dragon Flash Bullet and Whirlwind Blade from this batch because they are already established in Batch 265; duplicate non-correction identities would fail validate_research_batches.py. Removed duplicate Giant Storm identity; canonical research remains in Batch 285. Removed duplicate Gigantic Slam; retained the earlier canonical record in Batch 285. Added Great Ape-specific catalog records for Gigantic Ki Blast, Super Great Ape Beam, Boulder Toss, and Boulder Break. Boulder Toss/Boulder Break retain the conservative Other subtype because available sources establish them as Great Ape Super Skills/projectiles but do not expose a dedicated Xenoverse 2 Attack Type field."
 }
