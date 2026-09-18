@@ -319,3 +319,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - External corroboration confirms nonstandard costs: Power Rush is listed at 1000 Ki, Super Kamehameha (SS4 DAIMA) at 400–500 Ki, and Final Flash (SS3 DAIMA) at 400+ Ki; these demonstrate why blanket class-based cost assumptions would corrupt the catalog. citeturn1search0
 - Gigantic Breaker is documented at 200 Ki, so the canonical 200-Ki value is retained. A damage-testing reference independently lists Gigantic Breaker at 200 Ki. citeturn1search4
 - Next cost pass should focus on evidence quality and variable-cost semantics rather than filling missing fields, with Ultimate Finish, acquisition, DLC/version provenance, and mechanics as the next metadata targets.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found **0** Super or Ultimate records with a missing Ki cost.
+- Seven nonstandard Ultimate costs were explicitly reviewed rather than normalized to a default: Chaotic Time Impact (600), Death Ball (400), Final Flash (SS3 DAIMA) (400), Gigantic Explosion (600), S.S. Deadly Bomber (400), Super Kamehameha (SS4 DAIMA) (400), and Power Rush (1000).
+- Web evidence independently confirms Chaotic Time Impact 600, Death Ball 400, Gigantic Explosion 600, and Power Rush 1000; the latter is specifically described as requiring 1000 Ki. citeturn1search0turn1search1turn1search3turn1search4
+- These values are intentionally preserved because Xenoverse 2 includes legitimate 400/600/1000-Ki Ultimates; class-based defaulting would corrupt canonical data.
+- Next: audit acquisition semantics, Ultimate Finish flags, CaC/race restrictions, and version/DLC provenance for Super/Ultimate records.
