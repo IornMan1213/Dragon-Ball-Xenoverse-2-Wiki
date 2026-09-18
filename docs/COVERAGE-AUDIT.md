@@ -383,3 +383,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ### Ultimate Finish evidence cleanup — 2026-09-18
 - Removed the affirmative `ultimate_finish_required` flag from Prominence Flash because the available evidence reviewed in this pass did not establish an authoritative requirement. Community reports about PQ137 drop conditions are anecdotal and conflicting; the canonical field now preserves uncertainty rather than treating them as proof.
+
+
+### Super/Ultimate resource + Ultimate Finish audit — 2026-09-18
+- Audited all 245 canonical Super/Ultimate records: **0 missing Ki-cost values**.
+- Zero-Ki entries are concentrated in charge/power-up utility skills, which are intentionally retained rather than normalized to a generic Super cost.
+- Rechecked affirmative Ultimate Finish flags against acquisition evidence. Documented UF-gated examples include Earth Splitting Galick Gun (PQ11), Time Control (PQ18), Burst/Ultimate Charge (PQ134), Burst Stinger/Raid Blast/Blazing Attack (PQ136), Formation!/Lovely Cyclone (PQ133/135), Chaotic Time Impact (PQ184), and Power Rush (PQ122). citeturn1search0turn1search3turn2search4turn2search0turn2search5
+- Prominence Flash is now `ultimate_finish_required: null`: reviewed evidence includes community reports tying it to PQ137's Ultimate Finish phase, but the available sources did not meet the repository's threshold for an unqualified affirmative canonical flag.
+- Next: audit acquisition semantics and DLC/version provenance for Super/Ultimate records, especially records whose source quest, character source, or CaC restrictions remain null.
