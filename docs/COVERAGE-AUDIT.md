@@ -265,3 +265,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Confirmed the existing `ultimate_finish_required: true` state for Burst Charge: PQ134 sources describe Burst Charge/Ultimate Charge as Ultimate Finish rewards. citeturn2search0turn2search12
 - Confirmed the existing Ultimate Finish requirement for Formation! from PQ133 documentation. citeturn2search3
 - Do not normalize remaining costs by class; variable/zero-cost mechanics require skill-specific evidence.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical Super/Ultimate records have no null Ki-cost fields.
+- Targeted source verification corrected **Power Rush** from 500 to **1000 Ki**; current reference material identifies it as the game's mandatory 1000-Ki attack. citeturn0search2turn0search8
+- **Special Beam Cannon (Beast)** remains **500 Ki**, independently documented by the skill reference. citeturn0search0turn0search1
+- Future passes should continue spot-checking nonstandard/variable costs rather than applying class-wide defaults.
