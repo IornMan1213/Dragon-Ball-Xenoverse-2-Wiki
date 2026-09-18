@@ -152,7 +152,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Deadly Dance",
@@ -161,7 +162,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Demon Flash Strike",
@@ -170,7 +172,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Dragon Fist",
@@ -289,7 +292,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Instant Transmission",
@@ -298,7 +302,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Meditation",
@@ -307,7 +312,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Data Input",
@@ -316,7 +322,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Fighting Pose K",
@@ -325,7 +332,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Absolute Zero",
@@ -559,7 +567,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Dimensional Hole",
@@ -588,7 +597,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Flash Fist Crush",
@@ -624,7 +634,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Pressure_Sign"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Punisher Shield",
@@ -985,7 +996,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Assault Vanish",
@@ -994,7 +1006,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Burst Charge",
@@ -1003,7 +1016,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Charged Ki Wave",
@@ -1012,7 +1026,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Dancing Parapara",
@@ -1021,7 +1036,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Energy Release",
@@ -1030,7 +1046,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Final Charge",
@@ -1042,7 +1059,8 @@
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"
       ],
       "character_source": "SSGSS Vegeta (Evolved)",
-      "dlc_requirement": "Ultra Pack 1"
+      "dlc_requirement": "Ultra Pack 1",
+      "ki_cost": 0
     },
     {
       "name": "Full Power Charge",
@@ -1051,7 +1069,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Hero's Flute",
@@ -1060,7 +1079,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Instant Charge",
@@ -1069,7 +1089,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Maximum Charge",
@@ -1078,7 +1099,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Phantom Fist",
@@ -1087,7 +1109,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Quick Sleep",
@@ -1096,7 +1119,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Rise to Action",
@@ -1105,7 +1129,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Rising Rage",
@@ -1114,7 +1139,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Shield Barrier",
@@ -1123,7 +1149,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Solar Flare",
@@ -1132,7 +1159,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Spirit Boost",
@@ -1141,7 +1169,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Super Guard",
@@ -1150,7 +1179,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Surging Spirit",
@@ -1162,7 +1192,8 @@
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"
       ],
       "character_source": "Goku (Ultra Instinct); Goku (Ultra Instinct -Sign-)",
-      "dlc_requirement": "Extra Pack 2; Conton City Vote Pack"
+      "dlc_requirement": "Extra Pack 2; Conton City Vote Pack",
+      "ki_cost": 0
     },
     {
       "name": "Time Bullet",
@@ -1171,7 +1202,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Ultimate Charge",
@@ -1180,7 +1212,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Wall of Defense",
@@ -1189,7 +1222,8 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
@@ -1527,7 +1561,7 @@
       "usable_by_cac": false,
       "character_source": "Vegeta (Super Saiyan God) Ultra Supervillain",
       "dlc_requirement": "Future Saga Chapter 1",
-      "ki_cost": null,
+      "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Character skill; not established as a CaC skill in current evidence",
