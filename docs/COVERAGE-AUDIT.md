@@ -357,3 +357,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Confirmed PQ184's **Chaotic Time Impact** as a **50% Ultimate Finish bonus-slot** skill drop from the maintained datamined page.
 - The Steam guide independently confirms the final PQ181–PQ186 objective sequences and listed rewards.
 - This completes the numbered PQ acquisition pass; the next priority is a repository-wide unresolved-field census and reconciliation, followed by the Awoken/Transformation second-pass audit.
+
+
+### Repository-wide Parallel Quest unresolved-field census — 2026-09-18
+- Audited all 18 checked-in PQ research batches covering **176 canonical quest records (PQ1–PQ186, with the known numbering gap at PQ36)**.
+- **Unlock conditions:** 131 records currently have no explicit `unlock_condition`. The gaps are concentrated in the earlier/base-game blocks (PQ1–PQ10, PQ21–PQ160, plus selected other early records), while the recently reconciled PQ161–186 blocks are populated.
+- The maintained general PQ documentation states that PQs are unlocked through story progression, blue-mark NPC prompts, or prerequisite PQ completion; PQ101+ require the appropriate DLC. This establishes the general mechanism, but does **not** safely provide an exact per-PQ unlock route for every missing record, so the census records these as research gaps rather than fabricating generic unlock text.
+- **Skill/drop alignment:** all explicitly populated skill-reward arrays through PQ1–PQ180 are aligned with their corresponding skill-drop conditions; PQ181, 182, 183, 185, and 186 intentionally remain unresolved because the exact drop-slot percentages have not yet been established in the maintained evidence. PQ184 is explicitly documented at 50% Ultimate Finish bonus slot.
+- **Sources:** the older PQ batches frequently lack record-level `sources` fields even where their verification notes identify the evidence basis. This is now a separate provenance-enrichment priority rather than silently copying one global source into every record.
+- The next data pass should therefore prioritize **exact unlock-route research for the 131 missing records**, followed by **record-level provenance normalization**, then the remaining Awoken/Transformation audit.
