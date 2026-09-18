@@ -2613,14 +2613,15 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 18",
       "ultimate_finish_required": true,
-      "skill_description": "Time Control is a Super Skill that freezes an opponent in place; it is obtained as a random reward from Parallel Quest 18.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "skill_description": "Time Control is a Super Skill that freezes an opponent in place; it is a 40% Ultimate Finish reward from Parallel Quest 18.",
+      "mechanics_notes": "PQ18 is a 40% Ultimate Finish reward in the maintained datamined PQ record; exact in-game RNG presentation remains subject to reward-roll behavior.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Time_Control"
+        "https://dbxv2.fandom.com/wiki/Time_Control",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-18.md"
       ]
     },
     {
@@ -5202,14 +5203,15 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 31",
       "ultimate_finish_required": true,
-      "skill_description": "Super Dragon Flight is a Ultimate Strike skill associated with Gohan (Adult).",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "skill_description": "Super Dragon Flight is an Ultimate Strike skill associated with Gohan (Adult); it is a 35% Ultimate Finish reward from Parallel Quest 31.",
+      "mechanics_notes": "PQ31 is a 35% Ultimate Finish reward in the maintained datamined PQ record; the quest's documented Ultimate Finish requires the transformation kill-order and revived Gohan.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight"
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md"
       ]
     },
     {
