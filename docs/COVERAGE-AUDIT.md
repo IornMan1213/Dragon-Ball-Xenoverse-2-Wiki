@@ -217,3 +217,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Every Super and Ultimate record currently has a non-null Ki-cost field; no blanket class-based cost inference was applied.
 - Zero-Ki records were reviewed as intentional resource/support cases rather than automatically treated as missing data (charge skills and Power Up skills are expected examples).
 - The next pass should target acquisition semantics, Ultimate Finish requirements, DLC/version provenance, and mechanics where the current record is only partially verified.
+
+
+### Super/Ultimate resource-cost audit — 2026-09-18
+- Canonical audit found **0 Super/Ultimate records with missing `ki_cost`** across the 298-record skill catalog.
+- Nonstandard values were retained rather than normalized by class: charge/stance skills legitimately use 0 Ki, while documented Ultimate values include 200/300/400/500 Ki and therefore require skill-specific evidence.
+- The current pass treats unusual values as audit candidates, not errors; the next pass should verify acquisition semantics and Ultimate Finish requirements for the remaining high-impact records.
