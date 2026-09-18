@@ -5,22 +5,6 @@
   "scope": "Ki Blast Ultimate coverage expansion",
   "records": [
     {
-      "name": "Serious Bomb",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 500,
-      "usable_by_cac": true,
-      "character_source": "Mira; Mira (Supervillain); Mira (Final Form); Fu Customize Partner",
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop after defeating Final Form Mira",
-      "ultimate_finish_required": null,
-      "effect": "Uppercut followed by a large Ki Blast; Mira's incomplete version of Remote Serious Bomb.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Serious_Bomb",
-        "https://dragonball.fandom.com/wiki/Serious_Bomb"
-      ]
-    },
-    {
       "name": "Shocking Death Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -67,5 +51,5 @@
       ]
     }
   ],
-  "notes": "All four identities were absent from canonical docs/data/skills.json at audit time. Dedicated Xenoverse 2 pages explicitly provide the class/subcategory and numeric Ki costs. Ultimate Finish requirements remain null because the cited pages do not establish one."
+  "notes": "Removed duplicate Serious Bomb identity already established in batch 307; remaining records are Shocking Death Ball, Teleporting Vanishing Ball, and Super Vanishing Ball."
 }
