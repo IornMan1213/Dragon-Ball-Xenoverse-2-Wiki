@@ -156,7 +156,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Super/Ultimate Ki-cost field audit — 2026-09-18
 - Audited the canonical 298-skill catalog for missing Ki costs on all `Super` and `Ultimate` records: **0 missing**.
 - The 19 explicit zero-Ki Super records are concentrated in charge, reinforcement/power-up, teleport, and other utility skills; they were retained rather than normalized to a class-wide default.
-- This matches the repository's evidence-first rule: cost must be researched per skill because Super/Ultimate categories contain exceptions and variable mechanics. External reference material likewise distinguishes ordinary Super/Ultimate cost bands while documenting special utility/charge behavior. citeturn0search0turn0search9
+- This matches the repository's evidence-first rule: cost must be researched per skill because Super/Ultimate categories contain exceptions and variable mechanics. External reference material likewise distinguishes ordinary Super/Ultimate cost bands while documenting special utility/charge behavior.
 - Next cost pass: spot-check non-zero and high-cost values against primary/wiki/empirical sources, prioritizing records with `indexed` or `partially_verified` status and recent DLC provenance.
 
 
@@ -185,7 +185,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical validation found **0 missing Ki-cost values** among Super and Ultimate records (298 total skill records).
 - The 19 zero-Ki Super records are not being normalized away: the current evidence confirms that zero-cost skills can be legitimate. For example, Dimensional Hole is explicitly documented as a Ki Blast Super with **0 Ki**; community references also document Instant Transmission as zero-Ki. citeturn1search0turn1search12
 - This pass therefore preserves explicit zero-cost values and avoids inferring costs from skill class alone.
-- Remaining priority: spot-check non-zero Super/Ultimate costs against individual skill evidence, especially historical/version-sensitive skills whose costs have changed over time. Official Steam patch notes demonstrate that skill Ki costs can change between versions. citeturn0search8
+- Remaining priority: spot-check non-zero Super/Ultimate costs against individual skill evidence, especially historical/version-sensitive skills whose costs have changed over time. Official Steam patch notes demonstrate that skill Ki costs can change between versions.
 
 
 ### Awoken activation-cost baseline audit — 2026-09-18
@@ -200,7 +200,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - All Super/Ultimate records currently have a non-null `ki_cost`; no missing Ki-cost fields remain in the canonical layer.
 - The 19 zero-Ki entries are concentrated in charge/reinforcement/power-up style skills and are retained as explicit data rather than normalized to a class-wide default.
 - Variable/nonstandard cost values are also present, so future cost verification remains skill-specific.
-- Web research corroborates that Xenoverse 2 has skill-specific and version-sensitive resource costs; official patch notes document individual Ki-cost changes, while community references describe distinct charge-skill behavior. citeturn0search0turn0search25
+- Web research corroborates that Xenoverse 2 has skill-specific and version-sensitive resource costs; official patch notes document individual Ki-cost changes, while community references describe distinct charge-skill behavior.
 - Next: verify suspicious/nonstandard Super/Ultimate costs individually and audit Ultimate Finish, acquisition, DLC/version, and restriction metadata rather than inferring values from class.
 
 
@@ -210,3 +210,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Web evidence independently confirms Ultimate Finish gating for Burst Rush, Formation!, Lovely Cyclone, Burst Stinger, Raid Blast, Blazing Attack, and the PQ134 charge-skill rewards. citeturn1search0turn1search2turn1search3turn1search9
 - No flags were changed in this pass because the remaining records require individual quest/drop verification rather than broad normalization.
 - Next: reconcile each flagged record to its exact PQ and drop condition, then inspect the null/false population for missed or explicitly non-UF cases.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Rechecked all 298 canonical skill records after the Evasive pass.
+- Every Super and Ultimate record currently has a non-null Ki-cost field; no blanket class-based cost inference was applied.
+- Zero-Ki records were reviewed as intentional resource/support cases rather than automatically treated as missing data (charge skills and Power Up skills are expected examples).
+- The next pass should target acquisition semantics, Ultimate Finish requirements, DLC/version provenance, and mechanics where the current record is only partially verified.
