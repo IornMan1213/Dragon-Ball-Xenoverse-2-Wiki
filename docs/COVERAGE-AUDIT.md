@@ -377,3 +377,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected **S.S. Deadly Bomber** from 300 to **400 Ki** using the current Xenoverse 2 skill reference. citeturn1search8
 - Retained documented nonstandard Ultimate costs where evidence supports them, including Death Ball (400), Chaotic Time Impact (600), and Gigantic Explosion (600). citeturn1search0turn1search2turn1search3
 - Variable-cost records remain represented as ranges/thresholds rather than being collapsed to a guessed single value.
+
+
+### Super/Ultimate Ki-cost provenance follow-up — 2026-09-18
+- Strengthened source provenance for **Emperor's Death Beam**, **Death Ball**, and **Divine Kamehameha** with additional community/reference evidence while preserving their documented costs.
+- Emperor's Death Beam remains represented as **400+ Ki** because the documented mechanic consumes additional stored Ki after the 400-Ki activation threshold; Death Ball remains **400 Ki**. citeturn1search0turn1search2turn1search3turn1search13
+- Divine Kamehameha remains **200 Ki**, corroborated by a contemporary Xenoverse 2 community reference. citeturn1search7
+- No null Super/Ultimate Ki-cost fields were found in the current canonical catalog; nonstandard and variable costs remain explicit rather than normalized to a guessed fixed value.
