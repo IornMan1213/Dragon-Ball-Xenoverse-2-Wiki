@@ -5524,7 +5524,7 @@
     },
     {
       "name": "Supreme Fury",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Strike",
       "usable_by_cac": null,
       "character_source": "SS4 Goku (DAIMA)",
@@ -5535,7 +5535,7 @@
       "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
       "source_quest_or_shop": "PQ179 reward context",
       "ultimate_finish_required": null,
-      "skill_description": "Supreme Fury is a Ultimate Strike skill associated with SS4 Goku (DAIMA).",
+      "skill_description": "Supreme Fury is a Strike Super Attack associated with SS4 Goku (DAIMA).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
