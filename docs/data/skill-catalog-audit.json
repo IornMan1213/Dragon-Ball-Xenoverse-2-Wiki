@@ -45,5 +45,6 @@
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": true,
   "current_research_focus": "Ki Blast Ultimate coverage with strict canonical-identity duplicate checks",
-  "validation_blocker": "Repository Quality and Clean Internal Artifacts continue to fail before exposing usable step details. Batch 315 was added as research-layer only; canonical promotion remains blocked on successful Skills Sync and validators."
+  "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
+  "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json."
 }
