@@ -66,37 +66,7 @@
         "https://dbxv2.fandom.com/wiki/Giant_Storm"
       ],
       "notes": "Obtainable by the Future Warrior from the Skill Shop; also available to several Customize Partners. This is not a cast-exclusive skill."
-    },
-    {
-      "name": "Boulder Toss",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Great Ape characters",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Great Ape picks up and throws a large boulder.",
-      "sources": [
-        "https://dragonball.fandom.com/wiki/Gigantic_Rock_Throw"
-      ]
-    },
-    {
-      "name": "Boulder Break",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Great Ape characters",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Great Ape slams a boulder into the ground.",
-      "sources": [
-        "https://dragonball.fandom.com/wiki/Boulder_Break"
-      ]
     }
   ],
-  "notes": "Focused reconciliation of previously absent or weakly classified cast-exclusive/Great Ape skills. Exact costs remain null where dedicated retrieved sources do not state them. Giant Storm is included because the dedicated Xenoverse 2 page explicitly identifies it as a 300-Ki Ki Blast Ultimate; it should not be classified as a Super."
+  "notes": "Removed Boulder Toss and Boulder Break because Batch 283 already owns their canonical research records; this batch retains only reconciliation records not duplicated by earlier batches."
 }
