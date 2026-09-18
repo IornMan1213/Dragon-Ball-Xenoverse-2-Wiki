@@ -223,3 +223,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical audit found **0 Super/Ultimate records with missing `ki_cost`** across the 298-record skill catalog.
 - Nonstandard values were retained rather than normalized by class: charge/stance skills legitimately use 0 Ki, while documented Ultimate values include 200/300/400/500 Ki and therefore require skill-specific evidence.
 - The current pass treats unusual values as audit candidates, not errors; the next pass should verify acquisition semantics and Ultimate Finish requirements for the remaining high-impact records.
+
+
+### High-cost Ultimate provenance audit — 2026-09-18
+- Audited the nonstandard high-cost Ultimate records: Chaotic Time Impact (600 Ki), Gigantic Explosion (600 Ki), Emperor's Death Beam (400+ Ki), and Power Rush (1000 Ki).
+- Preserved their nonstandard costs rather than normalizing them to a generic 300/500 Ki rule.
+- Enriched acquisition/mechanics provenance where source evidence was available, including PQ184/PQ164 reward context and TP Medal Shop acquisition for Emperor's Death Beam.
+- The remaining Super/Ultimate cost audit should focus on version-sensitive variable-cost skills and historical cost changes rather than assuming class-based defaults.
