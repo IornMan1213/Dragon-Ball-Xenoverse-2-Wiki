@@ -245,3 +245,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Surging Spirit: documented as a rapidly accelerating Ki charge; later game material documents its Ultra Instinct Future Warrior special-input implementation. citeturn2search2turn2search9
 - Indomitable: community testing reports simultaneous Ki/Stamina recovery and a substantial behavior change below 50% HP; exact timing remains marked partially verified rather than promoted as authoritative. citeturn2search12
 - Zero-Ki charge/buff skills remain intentionally represented as zero rather than being normalized to a generic Super cost.
+
+
+### Super/Ultimate resource-cost audit — 2026-09-18
+- Canonical audit confirms all 298 Super/Ultimate records have a non-null Ki cost; no missing Ki-cost fields remain in these two classes.
+- The 24 zero-Ki Super records are charge, buff, guard, movement, or similar support actions; they are not being normalized to 100 Ki by class-based inference.
+- Time Control is independently corroborated at 100 Ki, while the distinct Super Dragon Flight and Super Dragon Flight (Ultimate) entries are corroborated at 100 and 300 Ki respectively. citeturn0search0
+- Research remains focused on source-backed exceptions and version changes rather than assuming the common 100/300/500 Ki tiers apply universally.
