@@ -69,5 +69,5 @@
       ]
     }
   ],
-  "notes": "All four identities were absent from the repository's prior research-batch search. Gigantic Slam is intentionally classified as Super/Strike rather than Ultimate because its dedicated page explicitly states Skill Type Super. Giant Storm is a normal CaC-obtainable Ultimate despite appearing on many cast/custom-partner lists. Gigantic Ki Blast and Super Great Ape Beam are preserved as CaC-unavailable boss/Great Ape Ultimates; exact acquisition details remain null unless directly documented."
+  "notes": "Audited against current repository identity rules. Giant Storm is retained as Ultimate/Ki Blast and CaC-usable because it is a normal skill-shop skill; the GameFAQs character guide only establishes cast usage, while current community references corroborate its continued CaC availability. Gigantic Slam is retained as Super/Strike and cast-only based on its dedicated skill documentation. Gigantic Ki Blast and Super Great Ape Beam remain CaC-unavailable with acquisition left conservative where the available evidence does not establish a normal CaC unlock."
 }
