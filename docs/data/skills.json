@@ -4995,10 +4995,11 @@
       "ki_cost": 300,
       "unlock_method": "Parallel Quest 137 - \"Tournament of Power Round 2\"",
       "source_quest_or_shop": null,
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted."
     },
     {
       "name": "Requiem of Destruction",
