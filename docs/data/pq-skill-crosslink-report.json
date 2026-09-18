@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 171,
-  "linked_skill_rewards": 89,
+  "canonical_skill_records": 181,
+  "linked_skill_rewards": 99,
   "alias_matches": [
     {
       "pq": 48,
@@ -492,52 +492,12 @@
     {
       "pq": 140,
       "skill": "Savory Slicer"
-    },
-    {
-      "pq": 162,
-      "skill": "Special Beam Cannon (Beast)"
-    },
-    {
-      "pq": 163,
-      "skill": "Giant Cluster"
-    },
-    {
-      "pq": 163,
-      "skill": "Eraser Bomb"
-    },
-    {
-      "pq": 164,
-      "skill": "Gigantic Explosion"
-    },
-    {
-      "pq": 165,
-      "skill": "Variable Snipe Shot"
-    },
-    {
-      "pq": 165,
-      "skill": "Steel Mirage"
-    },
-    {
-      "pq": 166,
-      "skill": "Pendulum Bullet"
-    },
-    {
-      "pq": 167,
-      "skill": "Seagull Combination"
-    },
-    {
-      "pq": 167,
-      "skill": "Burning Swan"
-    },
-    {
-      "pq": 168,
-      "skill": "Justice Drive"
     }
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 157,
-  "unresolved_count": 130,
+  "unique_canonical_skill_names": 167,
+  "unresolved_count": 120,
   "resolved_skill_rewards": [
     {
       "pq": 172,
