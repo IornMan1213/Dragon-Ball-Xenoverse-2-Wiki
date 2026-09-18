@@ -6,6 +6,16 @@ from datetime import date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
 TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
+def normalize_sources(values):
+ out=[]
+ for value in values or []:
+  if isinstance(value,str) and value:
+   out.append(value)
+  elif isinstance(value,dict):
+   url=value.get('url')
+   if isinstance(url,str) and url:
+    out.append(url)
+ return list(dict.fromkeys(out))
 def scalar(v):
  v=v.strip().strip('"\''); return int(v) if re.fullmatch(r'\d+',v) else v
 def parse_frontmatter(p):
@@ -41,7 +51,7 @@ def merge_record(m,r,protected=None,blocked=None):
   for field,value in r.items():
    if field in ('correction_of','correction_fields') or value in (None,'',[],'—'):continue
    if field not in old or old.get(field) in (None,'',[],'—'):old[field]=value
-  old['sources']=list(dict.fromkeys(old.get('sources',[])+r.get('sources',[])))
+  old['sources']=normalize_sources(old.get('sources',[])+r.get('sources',[]))
   m[k]=old
   return True
  if c:
@@ -49,7 +59,7 @@ def merge_record(m,r,protected=None,blocked=None):
  old=m.get(k,{}) ; out=dict(r); fields=set(r.get('correction_fields',[]))
  for x,v in old.items():
   if x not in fields and v not in (None,'',[],'—'):out[x]=v
- out['sources']=list(dict.fromkeys(old.get('sources',[])+r.get('sources',[]))); out.pop('correction_fields',None); out.pop('correction_of',None); m[k]=out; return True
+ out['sources']=normalize_sources(old.get('sources',[])+r.get('sources',[])); out.pop('correction_fields',None); out.pop('correction_of',None); m[k]=out; return True
 def load_local_batches(m,protected=None,blocked=None):
  imported=0
  if not LOCAL_BATCHES.exists():return 0
@@ -65,7 +75,7 @@ def build_record(d,p):
  n=d.get('name');
  if not n:return None
  c,s=classify(d); src=f'https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{p.name}'; r={'name':n,'class':c,'subcategory':s,'verification_status':'partially_verified','research_status':'partially_enriched','sources':[src]}
- if isinstance(d.get('sources'),list):r['sources'] += [x for x in d['sources'] if isinstance(x,str) and x.startswith('http')]
+ if isinstance(d.get('sources'),list):r['sources'] += normalize_sources(d.get('sources',[]))
  if d.get('kiCost') is not None:r['ki_cost']=d['kiCost']
  if d.get('element'):r['damage_type']=str(d['element']).title()
  if d.get('source'):r['source_quest_or_shop']=d['source']; r['unlock_method']='See source record'
