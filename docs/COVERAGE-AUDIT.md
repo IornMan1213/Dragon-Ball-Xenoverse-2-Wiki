@@ -753,3 +753,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Legitimate zero-Ki Super records were retained rather than normalized to a default cost; these include charge/support/power-up skills and Instant Transmission. `Dimensional Hole` was independently checked against its skill reference and explicitly uses 0 Ki, so it remains 0. citeturn1search0turn1search8
 - Historical/version-sensitive costs remain a research concern: official Steam patch notes document that skill costs can change between versions (for example Ki Explosion and x10 Kamehameha), so future cost audits must preserve version context instead of assuming current values from class/category alone. citeturn0search4
 - Next metadata frontier: audit Ultimate Finish requirements and acquisition semantics, especially records currently using null rather than explicit true/false.
+
+
+### Ultimate Finish evidence audit — 2026-09-18
+- Added explicit Ultimate Finish-required evidence for Burst Charge and Ultimate Charge (PQ134), Formation! (PQ133), Lovely Cyclone (PQ135), Prominence Flash (PQ137), Burst Stinger (PQ136), Raid Blast (PQ136), and Blazing Attack (PQ136).
+- Evidence is attributed to community/guide sources; these records remain partially verified rather than being treated as first-party-confirmed.
+- This pass deliberately updates only skills with explicit Ultimate Finish evidence; unresolved/null fields remain null rather than being inferred.
+- Next: continue auditing null Ultimate Finish fields against individual PQ reward/drop evidence and preserve source quality/version context.
