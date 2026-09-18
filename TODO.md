@@ -68,12 +68,24 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Fixed the skill builder so correction batches can remove obsolete records when the correction changes the canonical uniqueness key.
 - [x] Inspected and reran the Repository Quality artifact-check job after its failure; GitHub currently exposes no usable step logs, so the failure remains an unresolved workflow/infrastructure issue rather than a claimed validator failure.
 
+## Current priority correction — 2026-09-18
+
+The repository tracker is authoritative for continuation order. The current research frontier is **Batch 316**, not Batch 315. Batch 315 and Batch 316 are research-layer work; neither should be treated as canonical synchronization until the P0 Actions blocker is resolved and the generated files are independently fetched and validated.
+
+**Continuation order:**
+1. **P0:** resolve or obtain observable evidence for the GitHub Actions pre-run failures; never weaken validators to make CI green.
+2. **P1:** reconcile the existing final-DLC skill work (especially Batch 36) and verify accumulated research against canonical identities before adding another skill batch.
+3. **P1 coverage:** begin an exhaustive coverage audit of the currently thin wiki systems/pages. Record missing fields and missing records as TODO/data gaps instead of assuming the presence of a page means the system is complete.
+4. **P2:** expand PQ, Awoken/Transformation, Expert Mission, Super Soul, Equipment, QQ Bang, character, story/Time Rift, shop/reward, and raid/event datasets with structured fields and provenance.
+5. **P3:** expose the growing database through Pages navigation/search/explorer improvements only after data gaps are being tracked.
+
+This correction is intentional: the project goal is an exhaustive encyclopedia, so raw skill-batch throughput must not crowd out major systems whose pages still lack exhaustive details.
 ## In Progress
 
 - [ ] **P0 — Clear remaining GitHub Actions validation failures.** Canonical skill verification statuses are now normalized to the schema (`partially_verified`), and cleanup now removes bare citation markers, but Repository Quality/Clean Internal Artifacts still fail on commit 2c20abe5. Skills Sync still needs a fresh run against the corrected research frontier.
 - **Latest runner-level evidence (2026-09-18):** fresh push-triggered Skills Sync, Wiki Data Audit, Repository Quality, and Clean Internal Artifacts jobs all terminated within ~3–4 seconds with `steps: []`, `runner_id: 0`, and no exposed logs. This is consistent with failure before a runner step executed; the repository does not have enough connector evidence to attribute a specific GitHub-side cause.
 
-- [ ] Continue skill research in batches, with a duplicate search before every batch.
+- [ ] Continue skill research in batches only after the current P0/P1 verification work permits it; perform a duplicate search before every batch.
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
 - [ ] Reconcile unresolved Skill fields against multiple independent sources before promoting records to `verified`.
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
@@ -86,7 +98,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Expand the EM16–20 records into full mechanic/phase/reward tables and promote only when independently reconciled.
 - [ ] Build individual EM01–15 records and reconcile the base-game vs later-content mission-count definitions.
 - [ ] Improve PQ verification, especially acquisition conditions, Ultimate Finish requirements, and reward provenance, including a dedicated PQ185–186 audit for the final DLC skills.
-- [ ] Reconcile Awoken/Transformation records, separating CaC transformations from character-only forms; include the new Power to Overcome transformation.
+- [ ] Audit and expand Awoken/Transformation records as a first-class coverage track: separate CaC transformations from character-only forms, document resource costs, stages, race restrictions, unlock prerequisites, version history, and include The Power to Overcome where applicable.
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
 - [ ] Expand Conton City and Time Rift records with complete NPC, service, progression, collectible, and access relationships.
 - [ ] Continue removing internal/tool artifacts from repository text.
@@ -94,7 +106,7 @@ This file is the working project tracker. Statuses describe repository work, not
 - [ ] Recheck native GitHub Pages deployment status after repository changes; do not mark it successful until an actual successful run is observable.
 - [ ] Run/strengthen data audits for duplicate names, invalid enums, missing sources, contradictory CaC/race metadata, and incomplete acquisition fields.
 - [ ] Continue improving the GitHub Pages website: navigation, search/explorer UI, responsive layout, data cards, typography, accessibility, empty/error states, and visual consistency.
-- [ ] Keep the exhaustive-coverage standard active across every content area; do not narrow the project to skills/PQs merely because those are the current research batches.
+- [ ] Keep the exhaustive-coverage standard active across every content area. After P0 is cleared or while it remains externally blocked, prioritize coverage audits of underdeveloped systems/pages (PQs, Awoken/Transformations, Expert Missions, Super Souls, Equipment, QQ Bangs, story/Time Rifts, characters, shops/rewards, raids/events) rather than generating skill batches indefinitely.
 
 ## Productivity / Delivery Strategy
 
