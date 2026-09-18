@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 135,
+  "record_count": 139,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -1402,6 +1402,98 @@
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/"
+      ]
+    },
+    {
+      "name": "Crimson Edge",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": false,
+      "character_source": "Goku Black (Super Saiyan Rosé) Ultra Supervillain",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Character skill; not established as a CaC skill in current evidence",
+      "source_quest_or_shop": "PQ171 / PQ172 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Crimson Edge is a Super Strike skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
+      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://en.dragon-ball-official.com/news/01_2604.html",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Divine Spear",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Goku Black (Super Saiyan Rosé) Ultra Supervillain",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Character skill; not established as a CaC skill in current evidence",
+      "source_quest_or_shop": "PQ171 / PQ172 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Divine Spear is a Super Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
+      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://en.dragon-ball-official.com/news/01_2604.html",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Big Bang Knuckle",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Vegeta (Super Saiyan God) Ultra Supervillain",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Character skill; not established as a CaC skill in current evidence",
+      "source_quest_or_shop": "PQ171 / PQ172 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Big Bang Knuckle is a Super Ki Blast skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
+      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://en.dragon-ball-official.com/news/01_2604.html",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Wild Stinger",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": false,
+      "character_source": "Vegeta (Super Saiyan God) Ultra Supervillain",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Character skill; not established as a CaC skill in current evidence",
+      "source_quest_or_shop": "PQ171 / PQ172 reward context",
+      "ultimate_finish_required": null,
+      "skill_description": "Wild Stinger is a Super Strike skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
+      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://en.dragon-ball-official.com/news/01_2604.html",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     }
   ]
