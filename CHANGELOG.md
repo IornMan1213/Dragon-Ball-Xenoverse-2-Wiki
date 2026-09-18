@@ -1,5 +1,12 @@
 # Changelog
 
+## September 2026 — PQ Cross-Link Reconciliation
+- Persisted `docs/data/pq-skill-crosslink-report.json` after auditing all 18 Parallel Quest research batches.
+- The audit found 212 unique PQ skill-reward references against 108 currently named canonical skill records: 36 resolve directly or through a documented `Kamekameha` → `Kamehameha` alias, while 175 remain unresolved.
+- Treated the unresolved links as a canonical-data reconciliation gap rather than evidence that the skills are absent; this is now a tracked P1 task before further generic skill-batch expansion.
+- Updated `TODO.md` and `docs/COVERAGE-AUDIT.md` so PQ work proceeds from the existing PQ1–PQ186 audit instead of recreating a PQ inventory.
+
+
 ## September 2026 (Ongoing Expansion)
 - Added **Parallel Quest Audit Batch 4** covering **PQ31-PQ40** with structured records for quest identity, star difficulty, objective/lose-condition sequences, documented basic rewards, skill reward candidates, and Ultimate Finish triggers.
 - Cross-checked PQ31-PQ40 against the maintained 186-PQ reward transcription plus independent hidden-objective references. Exact reward-slot/drop percentages remain unresolved where the accessible evidence does not establish them.
