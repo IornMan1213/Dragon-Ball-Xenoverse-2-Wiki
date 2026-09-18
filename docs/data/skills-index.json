@@ -23,7 +23,7 @@
     "Counter Skills": 25,
     "Transformations": 18
   },
-  "record_count": 188,
+  "record_count": 200,
   "records": [
     {
       "name": "Big Bang Kamehameha",
@@ -2621,6 +2621,281 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun"
+      ]
+    },
+    {
+      "name": "Time Control",
+      "class": "Super",
+      "subcategory": "Other",
+      "usable_by_cac": true,
+      "character_source": "Guldo",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 0,
+      "stamina_cost": null,
+      "damage_type": "Other",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 18",
+      "ultimate_finish_required": true,
+      "skill_description": "Time Control is a Super Other skill associated with Guldo.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Time_Control"
+      ]
+    },
+    {
+      "name": "Mach Punch",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Burter",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 19",
+      "ultimate_finish_required": false,
+      "skill_description": "Mach Punch is a Super Strike skill associated with Burter.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Mach_Punch"
+      ]
+    },
+    {
+      "name": "Fighting Pose E",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "usable_by_cac": true,
+      "character_source": "Captain Ginyu",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 0,
+      "stamina_cost": null,
+      "damage_type": "Other",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 19",
+      "ultimate_finish_required": false,
+      "skill_description": "Fighting Pose E is a Super Power Up skill associated with Captain Ginyu.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_E"
+      ]
+    },
+    {
+      "name": "Death Slash",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Frieza",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 23",
+      "ultimate_finish_required": false,
+      "skill_description": "Death Slash is a Super Strike skill associated with Frieza.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Death_Slash"
+      ]
+    },
+    {
+      "name": "Double Death Slicer",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Frieza",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 24",
+      "ultimate_finish_required": false,
+      "skill_description": "Double Death Slicer is a Super Ki Blast skill associated with Frieza.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Double_Death_Slicer"
+      ]
+    },
+    {
+      "name": "Spirit Explosion",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Cooler",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 25",
+      "ultimate_finish_required": false,
+      "skill_description": "Spirit Explosion is a Super Strike skill associated with Cooler.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Spirit_Explosion"
+      ]
+    },
+    {
+      "name": "Crazy Finger Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Frieza",
+      "dlc_requirement": "Base Game",
+      "ki_cost": "Parallel Quest 26",
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": false,
+      "skill_description": "Crazy Finger Shot is a Super Ki Blast skill associated with Frieza.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot"
+      ]
+    },
+    {
+      "name": "Sauzer Blade",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Sauzer",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 27",
+      "ultimate_finish_required": false,
+      "skill_description": "Sauzer Blade is a Super Strike skill associated with Sauzer.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Sauzer_Blade"
+      ]
+    },
+    {
+      "name": "Spread Shot Retreat",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "usable_by_cac": true,
+      "character_source": "Frieza",
+      "dlc_requirement": "Base Game",
+      "ki_cost": null,
+      "stamina_cost": 200,
+      "damage_type": "Other",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 28",
+      "ultimate_finish_required": false,
+      "skill_description": "Spread Shot Retreat is a Evasive Other skill associated with Frieza.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat"
+      ]
+    },
+    {
+      "name": "Freedom Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Android 17",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 29",
+      "ultimate_finish_required": false,
+      "skill_description": "Freedom Kick is a Super Strike skill associated with Android 17.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Freedom_Kick"
+      ]
+    },
+    {
+      "name": "Energy Field",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Android 17",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 29",
+      "ultimate_finish_required": false,
+      "skill_description": "Energy Field is a Ultimate Ki Blast skill associated with Android 17.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Energy_Field"
+      ]
+    },
+    {
+      "name": "Super Dragon Flight",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Gohan (Adult)",
+      "dlc_requirement": "Base Game",
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 31",
+      "ultimate_finish_required": true,
+      "skill_description": "Super Dragon Flight is a Ultimate Strike skill associated with Gohan (Adult).",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight"
       ]
     }
   ]
