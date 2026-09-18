@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 297,
+  "canonical_skill_records": 294,
   "linked_skill_rewards": 205,
   "alias_matches": [
     {
