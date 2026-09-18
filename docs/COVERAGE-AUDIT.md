@@ -392,3 +392,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The five true flags are supported by PQ evidence: Earth Splitting Galick Gun (PQ11), Time Control (PQ18), Super Dragon Flight (PQ31), X 100 Big Bang Kamehameha (PQ100), Power Rush (PQ122), and Chaotic Time Impact (PQ184). The maintained PQ records distinguish Ultimate Finish reward slots from ordinary skill drops. citeturn3search0turn2search0turn2search1
 - The explicit false flag on Spread Shot Retreat is retained as a documented non-UF acquisition case; no broad assumption that all PQ skills require Ultimate Finish is being introduced. citeturn2search1turn2search2
 - Next: reconcile acquisition semantics at the individual reward-slot level (ordinary enemy drop vs UF-only reward vs post-quest roll) before expanding additional true/false flags.
+
+
+### Super/Ultimate Ki-cost + PQ unlock-method milestone — 2026-09-18
+- Audited all **179 Super** and **66 Ultimate** canonical records: no Super/Ultimate record currently has a null Ki-cost field.
+- Preserved documented nonstandard/variable costs rather than normalizing them to a class default; examples include variable/threshold costs and 400–600 Ki Ultimates.
+- Filled the missing `unlock_method` for five researched PQ Ultimates where the canonical record already identifies the source PQ: **Blaster Stream (PQ148), Full Power Destruction (PQ177), Gigantic Burst (PQ127), Lightning Impact (PQ142), and Requiem of Destruction (PQ106)**.
+- Web references corroborate the PQ unlocks and costs for these records; Requiem's acquisition is additionally documented as DLC Super Pack 2 content. citeturn1search0turn1search1turn1search4turn1search14
+- Remaining gap: many older canonical records still lack acquisition semantics even when their identity/cost is established. Research them individually rather than filling from class or character assumptions.
