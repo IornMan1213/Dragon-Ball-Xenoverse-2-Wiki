@@ -215,3 +215,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Two records use variable/string cost notation rather than a scalar: Emperor's Death Beam (`400+`) and Thunder Flash (`300-600`). These values were preserved because replacing them with a single number would discard documented mechanics.
 - No canonical identity duplicates were found; the canonical and index layers remain synchronized.
 - Research limitation: Fandom pages were not accessible in the latest web pass because robots.txt blocked retrieval, so no unsupported cost corrections were made.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the catalog for missing and nonstandard Ki-cost values; no Super/Ultimate record currently has a null Ki cost.
+- Verified the four nonstandard values rather than normalizing them to generic 100/300/500 assumptions: Chaotic Time Impact = 600 Ki, Gigantic Explosion = 600 Ki, Emperor's Death Beam = 400+ Ki, and Thunder Flash = 300–600 Ki. citeturn1search3turn1search4turn1search0turn1search1
+- This preserves variable/extended-cost mechanics as data, rather than treating the displayed starting cost as the entire resource requirement.
+- Next metadata frontier: audit Ultimate Finish requirements and acquisition semantics, then DLC/version provenance and mechanics for remaining canonical skills.
