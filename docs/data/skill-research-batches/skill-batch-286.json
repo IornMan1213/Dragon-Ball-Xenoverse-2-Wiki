@@ -124,7 +124,7 @@
       ]
     }
   ],
-  "notes": "Gigantic Slam was absent from the canonical catalog and is represented as a new record. Bloody Sauce was added in Batch 285 and is corrected here. Boulder Break, Boulder Toss, Energy Cannon, and Beam Rifle are retained as formal corrections to Batch 283. Giant Storm is intentionally not included because it is an Ultimate Skill and will be handled in the appropriate Ultimate catalog. Added Darkness Mixer and Pretty Charge after dedicated source verification; both were absent from canonical skills.json.",
+  "notes": "Audit/reconciliation completed against dedicated skill pages. Gigantic Slam is explicitly a Strike Super, 100 Ki, and unavailable for CaC. Boulder Break and Boulder Toss are Great Ape Super Skills; their exact canonical subtype remains a research judgment recorded here as Strike pending stronger in-game stat evidence. Energy Cannon and Beam Rifle retain Ki Blast classification with unresolved Ki cost. Bloody Sauce is a Ki Blast Super costing 100 Ki; its dedicated page gives Expert Mission 20 as the skill unlock while Expert Mission 13 separately lists the Raid variant. Darkness Mixer and Pretty Charge are Other Supers and cast-exclusive.",
   "records": [
     {
       "name": "Gigantic Slam",
