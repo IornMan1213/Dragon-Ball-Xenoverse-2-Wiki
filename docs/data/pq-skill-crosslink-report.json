@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 249,
-  "linked_skill_rewards": 166,
+  "canonical_skill_records": 263,
+  "linked_skill_rewards": 170,
   "alias_matches": [
     {
       "pq": 48,
@@ -13,78 +13,6 @@
     }
   ],
   "unresolved": [
-    {
-      "pq": 57,
-      "skill": "Rakshasa's Claw"
-    },
-    {
-      "pq": 95,
-      "skill": "Spirit Explosion"
-    },
-    {
-      "pq": 96,
-      "skill": "Crazy Finger Shot"
-    },
-    {
-      "pq": 97,
-      "skill": "Sauzer Blade"
-    },
-    {
-      "pq": 101,
-      "skill": "Breaker Energy Wave"
-    },
-    {
-      "pq": 104,
-      "skill": "Destruction's Concerto: Comet"
-    },
-    {
-      "pq": 104,
-      "skill": "Destruction's Concerto: Starfall"
-    },
-    {
-      "pq": 105,
-      "skill": "Sonic Bomb"
-    },
-    {
-      "pq": 105,
-      "skill": "God of Destruction's Menace"
-    },
-    {
-      "pq": 105,
-      "skill": "God of Destruction's Roar"
-    },
-    {
-      "pq": 106,
-      "skill": "Destruction's Concerto: Meteor"
-    },
-    {
-      "pq": 106,
-      "skill": "Destruction's Conductor"
-    },
-    {
-      "pq": 109,
-      "skill": "Super Black Kamehameha Rosé"
-    },
-    {
-      "pq": 110,
-      "skill": "Divinity Unleashed"
-    },
-    {
-      "pq": 111,
-      "skill": "Lightning of Absolution"
-    },
-    {
-      "pq": 111,
-      "skill": "Holy Wrath"
-    },
-    {
-      "pq": 112,
-      "skill": "Blades of Judgment"
-    },
-    {
-      "pq": 112,
-      "skill": "Divine Wrath: Purification"
-    },
     {
       "pq": 113,
       "skill": "Super Ghost Buu Attack"
@@ -228,8 +156,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 234,
-  "unresolved_count": 53,
+  "unique_canonical_skill_names": 248,
+  "unresolved_count": 35,
   "resolved_skill_rewards": [
     {
       "pq": 172,
