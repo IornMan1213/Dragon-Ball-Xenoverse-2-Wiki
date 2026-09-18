@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 237,
-  "linked_skill_rewards": 154,
+  "canonical_skill_records": 249,
+  "linked_skill_rewards": 166,
   "alias_matches": [
     {
       "pq": 48,
@@ -18,42 +18,6 @@
       "skill": "Rakshasa's Claw"
     },
     {
-      "pq": 83,
-      "skill": "Charge"
-    },
-    {
-      "pq": 84,
-      "skill": "Saiyan Spirit"
-    },
-    {
-      "pq": 85,
-      "skill": "Zigzag Express"
-    },
-    {
-      "pq": 86,
-      "skill": "Neo Wolf Fang Fist"
-    },
-    {
-      "pq": 87,
-      "skill": "Atomic Blast"
-    },
-    {
-      "pq": 88,
-      "skill": "Buu Buu Ball"
-    },
-    {
-      "pq": 90,
-      "skill": "III Bomber"
-    },
-    {
-      "pq": 92,
-      "skill": "Maiden Burst"
-    },
-    {
-      "pq": 94,
-      "skill": "Bluff Kamehameha"
-    },
-    {
       "pq": 95,
       "skill": "Spirit Explosion"
     },
@@ -64,18 +28,6 @@
     {
       "pq": 97,
       "skill": "Sauzer Blade"
-    },
-    {
-      "pq": 98,
-      "skill": "Dimension Ray"
-    },
-    {
-      "pq": 99,
-      "skill": "Emperor's Edge"
-    },
-    {
-      "pq": 100,
-      "skill": "X 100 Big Bang Kamehameha"
     },
     {
       "pq": 101,
@@ -276,8 +228,8 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 222,
-  "unresolved_count": 65,
+  "unique_canonical_skill_names": 234,
+  "unresolved_count": 53,
   "resolved_skill_rewards": [
     {
       "pq": 172,
