@@ -129,3 +129,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - These nulls are concentrated in older category-sourced records and therefore represent a metadata backlog, not evidence that the skills cost 0 Ki.
 - Current research sources support that Super/Ultimate costs vary by individual skill, so costs must be verified per skill rather than inferred from class (for example, published references describe Super skills as spanning multiple Ki-bar costs). citeturn0search8turn0search3
 - Next pass should resolve a small evidence-backed batch of these null costs, prioritizing records already linked to PQs or named individual skill pages; preserve null where authoritative evidence is unavailable.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Corrected five well-supported Super Skill Ki-cost fields: Big Bang Kamehameha, Bending Kamehameha, Destructo-Disc, Galick Gun, and Kamehameha → 100 Ki.
+- Web corroboration supports the 100-Ki values for Big Bang Kamehameha and Kamehameha, while community/reference material supports the 100-Ki baseline for Galick Gun. citeturn1search3turn1search6turn1search5
+- The broader audit remains intentionally conservative: variable-cost, character-specific, charge-based, and defensive/utility skills are not normalized by class alone.
