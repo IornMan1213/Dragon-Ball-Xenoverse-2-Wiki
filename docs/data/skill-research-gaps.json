@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "last_audited": "2026-09-17",
+  "purpose": "Explicit ledger of skill identities found during enumeration that are not promoted to canonical records because Xenoverse 2-specific class/subcategory evidence is insufficient or conflicting.",
+  "rules": [
+    "Do not invent class/subcategory, Ki cost, acquisition, DLC, CaC availability, or Ultimate Finish requirements.",
+    "A gap may be promoted only after Xenoverse 2-specific evidence establishes the required field(s).",
+    "Historical or cross-game evidence is retained as corroboration, not treated as current Xenoverse 2 proof."
+  ],
+  "gaps": [
+    {
+      "name": "Acid",
+      "status": "unresolved",
+      "known_identity": "Cast-exclusive Super used by Saibaman variants",
+      "missing": [
+        "class",
+        "subcategory",
+        "ki_cost",
+        "unlock_method"
+      ],
+      "evidence": [
+        "docs/data/skills.json audit: absent",
+        "Xenoverse 2 character ID list identifies Acid as CaC-unavailable",
+        "Xenoverse 2 PQ evidence identifies Kyukonman/Kaiwareman as users"
+      ],
+      "reason": "Current dedicated searches did not establish the Xenoverse 2 attack/subcategory fields strongly enough."
+    },
+    {
+      "name": "Howl",
+      "status": "unresolved",
+      "known_identity": "Great Ape-exclusive skill used by Great Ape enemies",
+      "missing": [
+        "class",
+        "subcategory",
+        "ki_cost",
+        "unlock_method"
+      ],
+      "evidence": [
+        "Great Ape Festival and related PQ enemy tables list Howl for Great Ape Nappa, Vegeta, Bardock and Baby"
+      ],
+      "reason": "Identity and cast restriction are established, but a reliable Xenoverse 2 skill page establishing its canonical class/subcategory was not located."
+    },
+    {
+      "name": "Boiling Burg",
+      "status": "unresolved",
+      "known_identity": "Demon God Demigra (Final Form) attack",
+      "missing": [
+        "class",
+        "subcategory",
+        "ki_cost"
+      ],
+      "evidence": [
+        "Xenoverse 2 Legend Patrol enemy table lists Boiling Burg on Final Form Demigra"
+      ],
+      "reason": "Older Xenoverse documentation describes Boiling Burg as an Ultimate, but that is not sufficient by itself to establish the current Xenoverse 2 canonical subtype."
+    },
+    {
+      "name": "Energy Boil",
+      "status": "unresolved",
+      "known_identity": "Demon God Demigra (Final Form) attack",
+      "missing": [
+        "class",
+        "subcategory",
+        "ki_cost"
+      ],
+      "evidence": [
+        "Xenoverse 2 Legend Patrol enemy table lists Energy Boil on Final Form Demigra"
+      ],
+      "reason": "Current Xenoverse 2-specific subtype evidence was not located."
+    },
+    {
+      "name": "Baked Sphere",
+      "status": "unresolved",
+      "known_identity": "Villainous/Supervillain cast skill",
+      "missing": [
+        "class",
+        "subcategory",
+        "ki_cost"
+      ],
+      "evidence": [
+        "Xenoverse 2 PQ enemy tables list Baked Sphere for villainous characters",
+        "Dragon Ball technique documentation describes its Xenoverse lineage"
+      ],
+      "reason": "Cross-game descriptions disagree with or do not explicitly establish the current Xenoverse 2 canonical class/subcategory, so it remains a gap rather than a guessed record."
+    }
+  ],
+  "notes": "Saibabeam was intentionally excluded from this ledger because Batch 294 established its research record. Boiling Ball and Tricky Strike were likewise covered in Batch 289."
+}
