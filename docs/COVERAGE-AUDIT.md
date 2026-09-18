@@ -127,3 +127,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - 0 Super/Ultimate records have a missing `ki_cost` value.
 - 18 Super records currently use an explicit 0 Ki cost; these are predominantly charge, reinforcement, power-up, or utility skills and are retained as explicit values pending per-skill verification.
 - Historical evidence shows costs can change between patches (for example, x10 Kamehameha changed from 100 to 200 Ki in a 2017 official Steam announcement), so class-based defaults are not acceptable.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical audit found all 298 skill records populated with a Ki-cost field; no Super or Ultimate record currently has a missing/null Ki cost.
+- This is a completeness milestone, not proof that every numeric cost is correct. Variable-cost, zero-cost, and version-specific skills still require evidence-level review.
+- External Fandom searches were attempted for spot verification but were blocked by robots.txt in this environment, so no Fandom claim is treated as independently verified in this pass.
+- Next metadata focus: spot-audit nonstandard/variable costs and Ultimate Finish requirements, then acquisition/version provenance.
