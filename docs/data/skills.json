@@ -2423,7 +2423,9 @@
       ],
       "character_source": "SSGSS Vegeta (Evolved)",
       "dlc_requirement": "Ultra Pack 1",
-      "ki_cost": 0
+      "ki_cost": 0,
+      "description": "Ki-charging Super Skill used by Super Saiyan God Super Saiyan (Evolved) Vegeta; it begins slowly and rapidly accelerates after about two seconds, functioning similarly to Ultimate Charge.",
+      "mechanics": "Starts at a slow charging rate, then accelerates rapidly after roughly two seconds; slightly faster than Ultimate Charge. Character-exclusive and unavailable to CaCs."
     },
     {
       "name": "Full Power Charge",
@@ -2625,7 +2627,9 @@
       ],
       "character_source": "Goku (Ultra Instinct); Goku (Ultra Instinct -Sign-)",
       "dlc_requirement": "Extra Pack 2; Conton City Vote Pack",
-      "ki_cost": 0
+      "ki_cost": 0,
+      "description": "Ki-charging Super Skill associated with Ultra Instinct Goku; its charge rate improves as it is maintained, and later updates allow the Ultra Instinct Future Warrior to use the same charging function through the Awoken Skill's special input.",
+      "mechanics": "Charges Ki significantly faster the longer it is maintained. Ultra Instinct Future Warrior access is tied to the Awoken Skill special input rather than a normal equipped skill slot."
     },
     {
       "name": "Time Bullet",
@@ -2868,7 +2872,9 @@
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "description": "Power Up Super Skill from Future Saga Chapter 4 that charges both Ki and Stamina; its behavior changes as the user's health falls.",
+      "mechanics": "Charges Ki and Stamina simultaneously. Community testing reports a slow baseline Ki charge that becomes substantially faster below 50% health; treat exact timing/threshold behavior as partially verified."
     },
     {
       "name": "Justice Pose",
