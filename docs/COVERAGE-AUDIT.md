@@ -188,3 +188,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - A targeted 400-Ki review verified Death Ball and S.S. Deadly Bomber at 400 Ki, while the DAIMA Final Flash and Super Kamehameha variants require a 400-Ki base and have additional Ki-dump behavior. citeturn1search0turn1search1turn1search2turn1search3
 - The canonical ki_cost field remains the base activation cost; variable/additional consumption is documented in mechanics rather than flattened into a misleading fixed number.
 - Next: audit Ultimate Finish requirements and acquisition semantics, especially where PQ reward evidence distinguishes normal drops from Ultimate Finish-only rewards.
+
+
+### Ultimate Finish provenance audit — 2026-09-18
+- Re-audited the canonical records currently marked `ultimate_finish_required: true`; the live catalog contains 15 such records, not the earlier five-record snapshot.
+- Independent PQ evidence supports Ultimate Finish gating for Burst Charge and Ultimate Charge on PQ134 and Formation! on PQ133. citeturn2search0turn2search1turn2search8
+- These flags are being treated as evidence-backed acquisition requirements, not as a generic property of all PQ rewards. Remaining true flags require individual quest-level verification.
