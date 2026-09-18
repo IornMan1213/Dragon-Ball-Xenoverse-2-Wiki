@@ -210,3 +210,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Costs were preserved from canonical data rather than inferred from category membership; Formation! and Do or Die are documented at 100 Ki, while Fighting Pose H/K, Justice Pose, and Meditation are 0 Ki and Data Input is 100 Ki. citeturn1search1turn1search2turn1search0turn2search0turn2search1turn2search2turn2search7
 - The schema has no dedicated duration field, so these verified duration facts are retained in mechanics_notes rather than introducing an unsanctioned schema field.
 - Next: continue the remaining Power Up records, especially the known duration/behavior discrepancy around Fighting Pose G, before moving to the broader Super/Ultimate resource-cost audit.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited all 226 canonical Super and Ultimate records for missing Ki-cost values.
+- Result: **0 null/missing Ki-cost fields** remain in these two classes.
+- Distribution: 24 at 0 Ki, 131 at 100, 5 at 200, 44 at 300, 2 at 400, 15 at 500, 2 at 600, plus four explicitly variable/ranged entries (400+, 400–500, 300–600, and one additional non-fixed value representation).
+- The zero-cost set is dominated by charge/power-up/utility skills, so no blanket class-based cost inference was applied.
+- Next pass should verify the non-fixed cost representations and then audit Ultimate Finish flags and acquisition/version metadata individually.
