@@ -27,127 +27,1160 @@
     "Transformations": 18
   },
   "records": [
-    {"name":"Big Bang Kamehameha","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Bending Kamehameha","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Destructo-Disc","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Divine Kamehameha","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Emperor's Blast","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Final Flash (Super)","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Galick Gun","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Kamehameha","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Masenko","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Perfect Shot","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Spirit Bomb","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Vanishing Ball","class":"Super","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"]},
-    {"name":"Big Bang Knuckle","class":"Super","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Supers"]},
-    {"name":"Deadly Dance","class":"Super","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Supers"]},
-    {"name":"Demon Flash Strike","class":"Super","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Supers"]},
-    {"name":"Dragon Fist","class":"Ultimate","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"]},
-    {"name":"Divine Lasso","class":"Ultimate","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"]},
-    {"name":"Godly Display","class":"Ultimate","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"]},
-    {"name":"Victory Rush","class":"Ultimate","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"]},
-    {"name":"Death Ball","class":"Ultimate","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"]},
-    {"name":"Emperor's Death Beam","class":"Ultimate","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"]},
-    {"name":"Final Kamehameha","class":"Ultimate","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"]},
-    {"name":"Final Explosion","class":"Ultimate","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"]},
-    {"name":"Supernova","class":"Ultimate","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"]},
-    {"name":"Super Spirit Bomb","class":"Ultimate","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"]},
-    {"name":"Afterimage","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Energy Charge","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Instant Transmission","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Meditation","class":"Super","subcategory":"Power Up","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"]},
-    {"name":"Data Input","class":"Super","subcategory":"Power Up","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"]},
-    {"name":"Fighting Pose K","class":"Super","subcategory":"Power Up","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"]},
-    {"name":"Absolute Zero","class":"Evasive","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"]},
-    {"name":"Dragon Burn","class":"Evasive","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"]},
-    {"name":"Explosive Wave","class":"Evasive","subcategory":"Ki Blast","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"]},
-    {"name":"Angry Shout","class":"Evasive","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"]},
-    {"name":"Energy Barrier","class":"Evasive","subcategory":"Strike","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"]},
-    {"name":"Punisher Guard","class":"Evasive","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Evasives"]},
-    {"name":"Final Pose","class":"Evasive","subcategory":"Power Up","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"]},
-    {"name":"Mach Dash","class":"Evasive","subcategory":"Power Up","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"]},
-    {"name":"Super Saiyan","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"]},
-    {"name":"Super Saiyan God","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"]},
-    {"name":"Super Saiyan God Super Saiyan","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"]},
-    {"name":"Super Saiyan God Super Saiyan (Evolved)","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"]},
-    {"name":"Future Super Saiyan","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"]},
-    {"name":"Super Vegeta","class":"Awoken","subcategory":"Race","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"]},
-    {"name":"Purification","class":"Awoken","subcategory":"Race","race_restriction":"Majin","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Majin_Skills"]},
-    {"name":"Become Giant","class":"Awoken","subcategory":"Race","race_restriction":"Namekian","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"]},
-    {"name":"Turn Golden","class":"Awoken","subcategory":"Race","race_restriction":"Frieza Race","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills"]},
-    {"name":"Power Pole Pro","class":"Awoken","subcategory":"Race","race_restriction":"Earthling","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Human_Skills"]},
-    {"name":"Absolute Zero","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Burst Reflection","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Burst Rush","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Change The Future","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Counter Burst","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Counter Impact","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Demon Flash Strike","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Dimensional Hole","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Dragon Burn","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Dragon Thunder","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Flash Fist Crush","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"God Breaker","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Heroic Counter","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Pressure Sign","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Punisher Shield","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Reverse Mabakusenko","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Rough Ranger","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Shadow Crusher","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Sudden Death Beam","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Super Afterimage","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Super God Shock Flash","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Time Skip/Back Breaker","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Time Skip/Flash Skewer","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Time Skip/Jump Spike","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Ultrasonic Blitz","class":"Counter","subcategory":"Counter","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Counter_Skills"]},
-    {"name":"Burning Slash","class":"Super","subcategory":"Human","race_restriction":"Earthling","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Human_Skills"]},
-    {"name":"Darkness Rush (Melee)","class":"Super","subcategory":"Human","race_restriction":"Earthling","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Human_Skills"]},
-    {"name":"Shining Slash","class":"Super","subcategory":"Human","race_restriction":"Earthling","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Human_Skills"]},
-    {"name":"Darkness Rush (Ranged)","class":"Super","subcategory":"Namekian","race_restriction":"Namekian","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"]},
-    {"name":"Evil Flight Strike","class":"Super","subcategory":"Namekian","race_restriction":"Namekian","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"]},
-    {"name":"Namek Finger","class":"Super","subcategory":"Namekian","race_restriction":"Namekian","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"]},
-    {"name":"Beast","class":"Awoken","subcategory":"Transformation","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Future Super Saiyan","class":"Awoken","subcategory":"Transformation","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Kaioken","class":"Awoken","subcategory":"Transformation","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Potential Unleashed","class":"Awoken","subcategory":"Transformation","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Power Pole Pro","class":"Awoken","subcategory":"Transformation","race_restriction":"Earthling","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Pure Progress","class":"Awoken","subcategory":"Transformation","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Purification","class":"Awoken","subcategory":"Transformation","race_restriction":"Majin","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Super Saiyan","class":"Awoken","subcategory":"Transformation","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Super Saiyan 2","class":"Awoken","subcategory":"Transformation","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Super Saiyan Blue Kaioken","class":"Awoken","subcategory":"Transformation","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Super Saiyan God","class":"Awoken","subcategory":"Transformation","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Super Saiyan God Super Saiyan","class":"Awoken","subcategory":"Transformation","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Super Saiyan God Super Saiyan (Evolved)","class":"Awoken","subcategory":"Transformation","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Super Vegeta","class":"Awoken","subcategory":"Transformation","race_restriction":"Saiyan","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Supersonic Mode","class":"Awoken","subcategory":"Transformation","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Turn Golden","class":"Awoken","subcategory":"Transformation","race_restriction":"Frieza Race","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Ultra Instinct","class":"Awoken","subcategory":"Transformation","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Become Giant","class":"Awoken","subcategory":"Transformation","race_restriction":"Namekian","usable_by_cac":true,"verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Transformations"]},
-    {"name":"Instant Transmission","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Afterimage Strike","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Assault Vanish","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Burst Charge","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Charged Ki Wave","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Dancing Parapara","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Energy Release","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Final Charge","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Full Power Charge","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Hero's Flute","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Instant Charge","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Maximum Charge","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Phantom Fist","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Quick Sleep","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Rise to Action","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Rising Rage","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Shield Barrier","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Solar Flare","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Spirit Boost","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Super Guard","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Surging Spirit","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Time Bullet","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Ultimate Charge","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]},
-    {"name":"Wall of Defense","class":"Super","subcategory":"Other","verification_status":"indexed","sources":["https://dbxv2.fandom.com/wiki/Category:Other_Supers"]}
+    {
+      "name": "Big Bang Kamehameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Bending Kamehameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Destructo-Disc",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Divine Kamehameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Emperor's Blast",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Final Flash (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Galick Gun",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Kamehameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Masenko",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Perfect Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Spirit Bomb",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Vanishing Ball",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+      ]
+    },
+    {
+      "name": "Big Bang Knuckle",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
+      ]
+    },
+    {
+      "name": "Deadly Dance",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
+      ]
+    },
+    {
+      "name": "Demon Flash Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
+      ]
+    },
+    {
+      "name": "Dragon Fist",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
+      ]
+    },
+    {
+      "name": "Divine Lasso",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
+      ]
+    },
+    {
+      "name": "Godly Display",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
+      ]
+    },
+    {
+      "name": "Victory Rush",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
+      ]
+    },
+    {
+      "name": "Death Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+      ]
+    },
+    {
+      "name": "Emperor's Death Beam",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+      ]
+    },
+    {
+      "name": "Final Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+      ]
+    },
+    {
+      "name": "Final Explosion",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+      ]
+    },
+    {
+      "name": "Supernova",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+      ]
+    },
+    {
+      "name": "Super Spirit Bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+      ]
+    },
+    {
+      "name": "Afterimage",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Energy Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Instant Transmission",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Meditation",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"
+      ]
+    },
+    {
+      "name": "Data Input",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"
+      ]
+    },
+    {
+      "name": "Fighting Pose K",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers"
+      ]
+    },
+    {
+      "name": "Absolute Zero",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
+      ]
+    },
+    {
+      "name": "Dragon Burn",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
+      ]
+    },
+    {
+      "name": "Explosive Wave",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
+      ]
+    },
+    {
+      "name": "Angry Shout",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
+      ]
+    },
+    {
+      "name": "Energy Barrier",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
+      ]
+    },
+    {
+      "name": "Punisher Guard",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Evasives"
+      ]
+    },
+    {
+      "name": "Final Pose",
+      "class": "Evasive",
+      "subcategory": "Power Up",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
+      ]
+    },
+    {
+      "name": "Mach Dash",
+      "class": "Evasive",
+      "subcategory": "Power Up",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
+      ]
+    },
+    {
+      "name": "Super Saiyan",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+      ]
+    },
+    {
+      "name": "Super Saiyan God",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+      ]
+    },
+    {
+      "name": "Super Saiyan God Super Saiyan",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+      ]
+    },
+    {
+      "name": "Super Saiyan God Super Saiyan (Evolved)",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+      ]
+    },
+    {
+      "name": "Future Super Saiyan",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+      ]
+    },
+    {
+      "name": "Super Vegeta",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+      ]
+    },
+    {
+      "name": "Purification",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Majin",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Majin_Skills"
+      ]
+    },
+    {
+      "name": "Become Giant",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Namekian",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
+      ]
+    },
+    {
+      "name": "Turn Golden",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Frieza Race",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills"
+      ]
+    },
+    {
+      "name": "Power Pole Pro",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Earthling",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
+      ]
+    },
+    {
+      "name": "Absolute Zero",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Burst Reflection",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Burst Rush",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Change The Future",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Counter Burst",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Counter Impact",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Demon Flash Strike",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Dimensional Hole",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Dragon Burn",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Dragon Thunder",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "corrected",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Flash Fist Crush",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "God Breaker",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Heroic Counter",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Pressure Sign",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Punisher Shield",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Reverse Mabakusenko",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Rough Ranger",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Shadow Crusher",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Sudden Death Beam",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Super Afterimage",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Super God Shock Flash",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Time Skip/Back Breaker",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Time Skip/Flash Skewer",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Time Skip/Jump Spike",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Ultrasonic Blitz",
+      "class": "Counter",
+      "subcategory": "Counter",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+      ]
+    },
+    {
+      "name": "Burning Slash",
+      "class": "Super",
+      "subcategory": "Human",
+      "race_restriction": "Earthling",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
+      ]
+    },
+    {
+      "name": "Darkness Rush (Melee)",
+      "class": "Super",
+      "subcategory": "Human",
+      "race_restriction": "Earthling",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
+      ]
+    },
+    {
+      "name": "Shining Slash",
+      "class": "Super",
+      "subcategory": "Human",
+      "race_restriction": "Earthling",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Human_Skills"
+      ]
+    },
+    {
+      "name": "Darkness Rush (Ranged)",
+      "class": "Super",
+      "subcategory": "Namekian",
+      "race_restriction": "Namekian",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
+      ]
+    },
+    {
+      "name": "Evil Flight Strike",
+      "class": "Super",
+      "subcategory": "Namekian",
+      "race_restriction": "Namekian",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
+      ]
+    },
+    {
+      "name": "Namek Finger",
+      "class": "Super",
+      "subcategory": "Namekian",
+      "race_restriction": "Namekian",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills"
+      ]
+    },
+    {
+      "name": "Beast",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Future Super Saiyan",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Kaioken",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Potential Unleashed",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Power Pole Pro",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Earthling",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Pure Progress",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Purification",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Majin",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Super Saiyan",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Super Saiyan 2",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Super Saiyan Blue Kaioken",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Super Saiyan God",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Super Saiyan God Super Saiyan",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Super Saiyan God Super Saiyan (Evolved)",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Super Vegeta",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Supersonic Mode",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Turn Golden",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Frieza Race",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Ultra Instinct",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Become Giant",
+      "class": "Awoken",
+      "subcategory": "Transformation",
+      "race_restriction": "Namekian",
+      "usable_by_cac": true,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+      ]
+    },
+    {
+      "name": "Instant Transmission",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Afterimage Strike",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Assault Vanish",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Burst Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Charged Ki Wave",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Dancing Parapara",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Energy Release",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Final Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Full Power Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Hero's Flute",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Instant Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Maximum Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Phantom Fist",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Quick Sleep",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Rise to Action",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Rising Rage",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Shield Barrier",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Solar Flare",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Spirit Boost",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Super Guard",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Surging Spirit",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Time Bullet",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Ultimate Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    },
+    {
+      "name": "Wall of Defense",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+      ]
+    }
   ]
 }
