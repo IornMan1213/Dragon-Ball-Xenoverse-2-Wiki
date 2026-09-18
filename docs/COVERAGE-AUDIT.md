@@ -625,3 +625,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected **Do or Die** and **Formation!** from 0 to **100 Ki**, matching their documented skill pages. citeturn2search4turn2search6
 - Confirmed **Dimensional Hole** is legitimately **0 Ki** and replaced its broad category-only source with the specific skill page. citeturn1search0
 - This reinforces the audit rule: resource costs must be verified per skill, especially for Power Up/charge/counter skills.
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Canonical catalog currently has 245 Super/Ultimate records and none with a missing `ki_cost` field.
+- A focused anomaly pass found six intentionally nonstandard values requiring source-aware handling rather than normalization: Chaotic Time Impact (600), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Gigantic Explosion (600), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600).
+- Current external reference material confirms variable-cost behavior for Super Kamehameha (SS4 DAIMA) and Final Flash (SS3 DAIMA), and confirms 300–600-style scaling exists for charged/variable Ultimate attacks. citeturn0search2turn0search3
+- These values are preserved rather than forced into a fixed 100/300/500 taxonomy. Next pass should reconcile each anomaly against its individual skill page and in-game behavior/version history.
