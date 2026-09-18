@@ -447,3 +447,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Counter taxonomy remains separate from acquisition semantics; no skill was assigned an acquisition route merely because it is categorized as a counter.
 - Sources include the current Fandom skill pages and mentor/category references. citeturn2search0turn2search4turn2search5turn2search1turn2search3turn2search2turn3search1turn3search2turn3search3turn3search0
 - Continue auditing the remaining counter skills and multi-route acquisition cases individually.
+
+
+### Super/Ultimate resource-cost audit — 2026-09-18
+- Audited all 245 canonical Super/Ultimate records for missing Ki costs: **0 missing**.
+- Zero-cost entries are concentrated in charge/power-up style skills and are retained pending individual mechanics review; zero does not mean unverified.
+- Nonstandard costs were reviewed rather than normalized blindly. Documented examples include Chaotic Time Impact (600), Gigantic Explosion (600), Death Ball (400), S.S. Deadly Bomber (400), Emperor's Death Beam (400+), Final Flash (SS3 DAIMA) (400+), Super Kamehameha (SS4 DAIMA) (400–500), and Thunder Flash (300–600). Sources/mechanics are preserved in the canonical records.
+- This confirms the current catalog has complete Ki-cost field coverage for Super/Ultimate records, while exact historical/version-specific costs remain a targeted research concern.
