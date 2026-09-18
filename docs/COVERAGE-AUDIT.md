@@ -678,3 +678,8 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Validation also confirms 298 canonical records and 298 index records, with zero duplicate canonical identities and zero canonical records missing from the index.
 - Web verification of the Fandom skill pages was unavailable in this pass because the site blocked automated access; no unsupported cost changes were made on that basis.
 - The canonical array is not globally name-sorted; treat this as a synchronization/order audit item only and do not reorder the dataset blindly, because existing generation/index conventions may intentionally differ.
+
+
+### Evasive cost correction follow-up — 2026-09-18
+- Corrected four Evasive stamina values using current indexed skill references: Instant Rise 200, Mighty Explosive Wave 300 (Evasive variant), Maiden Burst 300, and Spread Shot Retreat 300.
+- The source distinguishes Mighty Explosive Wave's Evasive use from its 100-Ki Super Attack use, so the repository retains the Evasive classification while recording the 300-stamina Evasive cost. citeturn1search2turn1search1turn1search0turn1search3
