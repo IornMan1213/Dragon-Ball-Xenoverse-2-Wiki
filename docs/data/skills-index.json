@@ -1841,8 +1841,10 @@
       ],
       "ki_cost": 200,
       "research_status": "partially_enriched",
-      "unlock_method": "Training with Vegeta",
-      "ultimate_finish_required": null
+      "unlock_method": "Not available for CaCs (character-only skill)",
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "SSGSS Vegeta (Evolved) / Gogeta (Super Saiyan 4) Customize Partner",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Flash Chaser",
@@ -1877,7 +1879,9 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Training with Vegeta",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "Vegeta training",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Gamma Blaster",
@@ -2118,8 +2122,10 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 05 reward",
-      "ultimate_finish_required": null
+      "unlock_method": "Parallel Quest reward",
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "Parallel Quest 05 - \"Saiyan Blood\"",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Masenko",
@@ -2131,8 +2137,10 @@
       ],
       "ki_cost": 100,
       "research_status": "partially_enriched",
-      "unlock_method": "Training with Kid Gohan",
-      "ultimate_finish_required": null
+      "unlock_method": "Training with Gohan (Kid)",
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "Gohan (Kid) training",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Paralysis",
@@ -2696,9 +2704,11 @@
         "https://dbxv2.fandom.com/wiki/Energy_Charge"
       ],
       "ki_cost": 0,
-      "unlock_method": "First Advancement Test (Easy Class) or starting fighting-style choice ('I'll hang back and blast 'em from afar!')",
+      "unlock_method": "Advancement Test / Playstyle reward",
       "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "First Advancement Test - Easy Class; CaC Playstyle \"I'll hang back and blast 'em from afar!\"",
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Energy Release",
@@ -4736,9 +4746,10 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
       ],
       "ki_cost": 500,
-      "unlock_method": "TP Medal Shop purchase or Parallel Quest reward",
-      "source_quest_or_shop": "TP Medal Shop; Parallel Quest 91",
-      "ultimate_finish_required": null
+      "unlock_method": "TP Medal Shop / Parallel Quest reward / Double Crystal Raid",
+      "source_quest_or_shop": "TP Medal Shop; Parallel Quest 91 - \"Saiyan Revolt\"; Double Crystal Raids",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-18"
     },
     {
       "name": "Full Power Destruction",
