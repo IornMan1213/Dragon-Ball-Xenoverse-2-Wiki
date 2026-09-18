@@ -190,3 +190,8 @@ The project is being worked as parallel tracks so the site visibly improves whil
 - Never invent drop percentages, costs, unlock conditions, or character/CaC restrictions.
 - Preserve source conflicts and uncertainty in the data rather than silently choosing a convenient value.
 - Exhaustiveness means recording known details and known unknowns, not manufacturing certainty.
+
+### PQ Skill Crosslink Progress — 2026-09-18
+- [x] Reconciled PQ61–100 skill frontier; canonical skill catalog reached 249 records.
+- [x] Reconciled Super Pass PQ101–112 skill rewards and resolved four pre-existing canonical-name crosslinks (Rakshasa's Claw, Spirit Explosion, Crazy Finger Shot, Sauzer Blade).
+- [ ] Continue remaining PQ skill crosslinks; current unresolved count: 35.
