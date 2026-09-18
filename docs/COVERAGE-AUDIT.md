@@ -229,3 +229,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Current distribution is 19 at 0, 154 at 100, 6 at 200, 44 at 300, 4 at 400, 14 at 500, 2 at 600, plus explicitly variable/ongoing costs represented as `400+` (Emperor's Death Beam) and `300-600` (Thunder Flash).
 - The nonstandard high-cost entries were retained rather than normalized to a generic 300/500-bar assumption. External research independently documents 600-Ki costs for Chaotic Time Impact and Gigantic Explosion, and variable costs for Thunder Flash/Emperor's Death Beam. citeturn0search0turn0search13
 - This closes the **missing Ki-cost field** portion of the second-pass skill metadata audit; exact acquisition/version/Ultimate-Finish/mechanics verification remains active.
+
+
+### Super/Ultimate resource-cost baseline — 2026-09-18
+- Canonical audit confirms all current Super and Ultimate records have a non-null `ki_cost`; no blank Ki-cost fields remain in the 298-record catalog.
+- This is a completeness baseline, not proof that every numeric cost is correct. Variable, zero-cost, and version-specific mechanics still require record-level evidence.
+- External Fandom pages were not accessible during this pass because robots.txt blocked retrieval, so no unsupported numeric corrections were made from that source.
+- Next cost pass should sample documented numeric values against accessible primary/secondary references and prioritize unusual costs, variable-cost attacks, and character/DLC-specific variants.
