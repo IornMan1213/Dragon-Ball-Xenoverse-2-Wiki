@@ -585,3 +585,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Investigated four nonstandard Ultimate costs rather than normalizing them to common 300/500 values: Death Ball (400), S.S. Deadly Bomber (400), Gigantic Explosion (600), and Chaotic Time Impact (600).
 - Current external references independently document all four values. citeturn1search0turn1search2turn1search3turn1search4
 - No canonical Ki-cost changes were required in this pass. Continue with mechanics/acquisition/Ultimate-Finish/version metadata instead of forcing standardized costs.
+
+
+### Super/Ultimate Ki-cost audit — 2026-09-18
+- Audited the canonical catalog for missing Ki-cost values across all Super and Ultimate records: **0 missing values** remain.
+- External reference checks support the documented cost model without treating class alone as a cost rule: Prominence Flash is documented at 300 Ki, while community references distinguish common 300-Ki ultimates from 500-Ki high-cost ultimates. citeturn0search7turn0search3turn0search13
+- No blanket cost normalization was applied; variable, zero-cost, and higher-cost skills require skill-specific evidence.
