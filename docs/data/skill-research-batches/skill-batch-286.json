@@ -198,7 +198,55 @@
         "https://dbxv2.fandom.com/wiki/Brainwash_Attack",
         "https://dbxv2.fandom.com/wiki/Category%3AOther_Supers"
       ]
+    },
+    {
+      "name": "Acid",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Saibaman; Saibaman raid variants",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Short-range acid projectile from the Saibaman's head.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.gaaaaaame.info/entry/2016/11/06/200005"
+      ]
+    },
+    {
+      "name": "Poison",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Saibaman",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Saibaman-exclusive poison attack.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.gaaaaaame.info/entry/2016/11/06/200005"
+      ]
+    },
+    {
+      "name": "Saibabeam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Saibaman; Kaiwareman and Kyukonman",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Green short-range energy beam fired from the Saibaman's head.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.reddit.com/r/dbxv/comments/jzgby7/im_bored_so_i_made_a_list_of_every_character_in_xv2_with_unique_mechanics/"
+      ]
     }
   ],
-  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence. Added five cast-exclusive Ultimate records with dedicated taxonomy evidence: Energy Jet, Zetsumei Bullet, Self-Destruct, Cookie Beam, and Appetizing Rush. Added Pretty Charge and Divinity Unleashed after dedicated pages confirmed their Super subcategories and availability. Brainwash Attack was additionally reconciled here after its dedicated page confirmed Super/Other, 200 Ki, and Expert Mission 19."
+  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence. Added five cast-exclusive Ultimate records with dedicated taxonomy evidence: Energy Jet, Zetsumei Bullet, Self-Destruct, Cookie Beam, and Appetizing Rush. Added Pretty Charge and Divinity Unleashed after dedicated pages confirmed their Super subcategories and availability. Brainwash Attack was additionally reconciled here after its dedicated page confirmed Super/Other, 200 Ki, and Expert Mission 19. Added Acid, Poison, and Saibabeam as Saibaman-exclusive Ki Blast Supers; exact costs and acquisition remain null because the available sources establish identity/CaC restriction but not those fields."
 }
