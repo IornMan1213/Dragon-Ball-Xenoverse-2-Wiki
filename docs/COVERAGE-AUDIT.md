@@ -130,3 +130,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Verified the nonstandard high-cost outliers against external references: Chaotic Time Impact = 600 Ki, Gigantic Explosion = 600 Ki, Power Rush = 1000 Ki, and Emperor's Death Beam = 400+ Ki. citeturn2search0turn2search1turn1search0turn1search1
 - No blanket normalization was applied: 0, variable, 400, 600, and 1000-cost skills can be legitimate mechanics. The audit therefore preserves documented exceptions instead of forcing a 100/300/500 pattern.
 - Next cost work should focus on historical/version-sensitive values and mechanics for individual records rather than class-wide inference.
+
+
+### Super/Ultimate Ki-cost audit milestone — 2026-09-18
+- Canonical audit found no missing Ki-cost values among Super/Ultimate records.
+- Zero-cost Supers are concentrated in charge, teleportation, power-up, and utility skills; they are not being normalized to a generic cost.
+- Power Rush remains the sole 1000-Ki canonical skill and is independently documented as requiring 1000 Ki. citeturn1search0turn1search1
+- Burst Charge and Ultimate Charge retain 0 Ki and now include an additional Steam PQ134 source; independent GameFAQs/Steam evidence states their drops require the PQ134 Ultimate Finish, supporting the existing `ultimate_finish_required: true` flags. citeturn1search2turn1search9
+- Web access to the Fandom Evasive pages was blocked by robots.txt during this pass, so blocked pages were not treated as verified evidence.
