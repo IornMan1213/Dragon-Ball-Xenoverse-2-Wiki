@@ -1,148 +1,71 @@
 {
   "batch_id": 297,
   "created": "2026-09-18",
-  "type": "taxonomy_correction",
-  "scope": "Counter Skills canonical class/subcategory audit batch 3",
-  "corrections": [
+  "type": "catalog_research",
+  "scope": "Missing Ki Blast Ultimate catalog entries",
+  "records": [
     {
-      "name": "Burst Reflection",
-      "correction_of": {
-        "name": "Burst Reflection",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
+      "name": "Blaster Stream",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Nuova Shenron",
-      "dlc_requirement": null,
-      "unlock_method": "Shenron wish - \"I want a new Super Attack!\"",
-      "ultimate_finish_required": null,
-      "reason": "Dedicated page explicitly identifies it as a Ki Blast Super while separately listing Counter Skills.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Burst_Reflection"
-      ]
-    },
-    {
-      "name": "Burst Rush",
-      "correction_of": {
-        "name": "Burst Rush",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
+      "ki_cost": 300,
       "usable_by_cac": true,
-      "character_source": "Gohan (Adult); Majin Buu (Gohan Absorbed); Gohan (DBS Super Hero)",
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 51 - \"Great Saiyaman is Here\"",
+      "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan) Customize Partner",
+      "dlc_requirement": "Legendary Pack 2",
+      "unlock_method": "Parallel Quest 148: Finding Out About Fusion",
       "ultimate_finish_required": null,
-      "reason": "Dedicated page explicitly identifies it as a Strike Super while separately listing Counter Skills.",
+      "effect": "Chargeable long-range beam followed by a second Ki Wave on hit.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Burst_Rush"
+        "https://dbxv2.fandom.com/wiki/Blaster_Stream",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ]
     },
     {
-      "name": "Change The Future",
-      "correction_of": {
-        "name": "Change The Future",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
+      "name": "Brave Heat",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": 100,
+      "ki_cost": 300,
       "usable_by_cac": true,
-      "character_source": "Trunks (Future); Tapion; Vegeta (Super Saiyan God) Customize Partners",
+      "character_source": "Bardock; Bardock Customize Partner",
       "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 43 - \"Change The Future\"",
+      "unlock_method": "Training with Bardock",
       "ultimate_finish_required": null,
-      "reason": "Dedicated page explicitly identifies it as a Ki Blast Super while separately listing Counter Skills.",
+      "effect": "Ki-laced punch followed by a beam fired from the same hand.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Change_The_Future"
+        "https://dbxv2.fandom.com/wiki/Brave_Heat",
+        "https://dbxv2.fandom.com/wiki/Mentors"
       ]
     },
     {
-      "name": "Counter Impact",
-      "correction_of": {
-        "name": "Counter Impact",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
+      "name": "Chain Destructo-Disc Barrage",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "ki_cost": 100,
+      "ki_cost": 300,
       "usable_by_cac": true,
-      "character_source": "Vegeta (GT)",
+      "character_source": "Krillin; Krillin Customize Partner",
       "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 153 - \"Seeing Double\"",
+      "unlock_method": "Parallel Quest 46: 16 of the Official History",
       "ultimate_finish_required": null,
-      "reason": "Dedicated page explicitly identifies it as a Ki Blast Super while separately listing Counter Skills.",
+      "effect": "Five unblockable Destructo-Discs fired sequentially.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Counter_Impact"
+        "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage"
       ]
     },
     {
-      "name": "Demon Flash Strike",
-      "correction_of": {
-        "name": "Demon Flash Strike",
-        "class": "Counter",
-        "subcategory": "Counter"
-      },
-      "correction_fields": [
-        "class",
-        "subcategory",
-        "ki_cost",
-        "usable_by_cac",
-        "character_source",
-        "unlock_method"
-      ],
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
+      "name": "Circle Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
       "usable_by_cac": true,
-      "character_source": "Gohan (Beast)",
+      "character_source": "Dyspo",
       "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 160 - \"Pan in Peril\"",
+      "unlock_method": "Parallel Quest 154: Dabura The Loyal? Servant",
       "ultimate_finish_required": null,
-      "reason": "Dedicated page explicitly identifies it as a Strike Super while separately listing Counter Skills.",
+      "effect": "Ring-shaped Ki Blast that captures the opponent before exploding.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Demon_Flash_Strike"
+        "https://dbxv2.fandom.com/wiki/Circle_Flash"
       ]
     }
-  ]
+  ],
+  "notes": "All four names were absent from docs/data/skills.json at research time. Dedicated pages establish Ki Blast Ultimate taxonomy and 300 Ki cost. The documented PQ/training unlocks support player/CaC usability for the first three; Circle Flash is treated as player-obtainable through its PQ unlock and is not marked unavailable on its dedicated page."
 }
