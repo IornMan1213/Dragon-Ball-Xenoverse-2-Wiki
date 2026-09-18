@@ -5,51 +5,29 @@
   "scope": "Great Ape and boss-exclusive skill taxonomy corrections",
   "corrections": [
     {
-      "name": "Boulder Toss",
+      "name": "Energy Cannon",
       "correction_of": {
-        "name": "Boulder Toss",
+        "name": "Energy Cannon",
         "class": "Super",
-        "subcategory": "Other"
+        "subcategory": "Ki Blast"
       },
       "class": "Super",
-      "subcategory": "Strike",
+      "subcategory": "Ki Blast",
       "correction_fields": [
-        "subcategory"
+        "effect",
+        "sources"
       ],
       "ki_cost": null,
       "usable_by_cac": false,
-      "character_source": "Great Ape Nappa; Great Ape Vegeta",
+      "character_source": "Demon God Demigra (Final Form)",
       "dlc_requirement": null,
       "unlock_method": null,
       "ultimate_finish_required": null,
-      "reason": "Replaces the provisional Other classification from Batch 283. Great Ape Festival documents the move as a Great Ape Super, while the physical boulder/grab taxonomy belongs with Strike Supers.",
+      "effect": "Creates turrets that fire a volley of small Ki Blasts followed by three larger Ki Blasts.",
+      "reason": "Dedicated Xenoverse skill documentation explicitly categorizes Energy Cannon as Super and Ki Blast and identifies Final Form Demigra as its user.",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
-      "name": "Boulder Break",
-      "correction_of": {
-        "name": "Boulder Break",
-        "class": "Super",
-        "subcategory": "Other"
-      },
-      "class": "Super",
-      "subcategory": "Strike",
-      "correction_fields": [
-        "subcategory"
-      ],
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Great Ape Nappa; Great Ape Bardock",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "reason": "Replaces the provisional Other classification from Batch 283. It is a physical Great Ape Super and is treated as Strike rather than an untyped Other skill.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxenoverse.fandom.com/wiki/Energy_Cannon_%28Skill%29",
+        "https://videogamemods.com/the-citadel/dragon-ball-xenoverse-2/mods/demon-god-demigra-2"
       ]
     }
   ],
@@ -163,5 +141,5 @@
       ]
     }
   ],
-  "notes": "Removed duplicate Bloody Sauce, Rage Saucer, Marbling Drop, Celestial Hammer, and Spiral of Condemnation entries that had been staged in this batch. Those skills already have earlier research records. Poison was deliberately not added: current evidence says the Poison skill does not return in Xenoverse 2. Acid remains Other because the retrieved evidence does not expose a reliable XV2 attack-type field."
+  "notes": "Boulder Toss and Boulder Break remain at the provisional Other subtype from Batch 283 because the newly retrieved Great Ape Festival evidence confirms they are Supers and identifies their users, but does not explicitly expose the game's Strike/Ki Blast subtype. Energy Cannon receives a provenance correction based on dedicated Xenoverse skill documentation. Acid remains Other because reliable retrieved XV2 evidence still does not expose an attack-type field; Saibabeam is retained as Ki Blast based on its explicit energy-wave description."
 }
