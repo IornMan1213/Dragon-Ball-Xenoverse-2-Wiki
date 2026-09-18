@@ -2,8 +2,8 @@
   "schema_version": "1.2",
   "generated_by": "scripts/validate_pq_skill_links.py",
   "generated_at": "2026-09-18",
-  "canonical_skill_records": 135,
-  "linked_skill_rewards": 53,
+  "canonical_skill_records": 139,
+  "linked_skill_rewards": 56,
   "alias_matches": [
     {
       "pq": 48,
@@ -606,18 +606,6 @@
       "skill": "Justice Drive"
     },
     {
-      "pq": 171,
-      "skill": "Crimson Edge"
-    },
-    {
-      "pq": 171,
-      "skill": "Divine Spear"
-    },
-    {
-      "pq": 172,
-      "skill": "Wild Stinger"
-    },
-    {
       "pq": 173,
       "skill": "Divine Ray Bomb"
     },
@@ -676,6 +664,6 @@
   ],
   "status": "unresolved_links",
   "interpretation": "Unresolved links are reconciliation findings, not proof that a referenced skill is absent from the game. The catalog promotion resolved additional PQ links; remaining links require identity/history reconciliation.",
-  "unique_canonical_skill_names": 122,
-  "unresolved_count": 165
+  "unique_canonical_skill_names": 125,
+  "unresolved_count": 162
 }
