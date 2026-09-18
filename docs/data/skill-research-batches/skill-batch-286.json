@@ -72,7 +72,85 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Omega"
       ]
+    },
+    {
+      "name": "Energy Jet",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra",
+      "dlc_requirement": null,
+      "unlock_method": "N/A; Crystal Raid exclusive character",
+      "ultimate_finish_required": null,
+      "effect": "Large purple Ki ball launched for a multi-hit attack.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Jet"
+      ]
+    },
+    {
+      "name": "Zetsumei Bullet",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Cell (First Form)",
+      "dlc_requirement": null,
+      "unlock_method": "N/A",
+      "ultimate_finish_required": null,
+      "effect": "Close-range grab ending with Cell's tail thrust and Ki wave.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Zetsumei_Bullet"
+      ]
+    },
+    {
+      "name": "Self-Destruct",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Saibaman, Tennenman, Jinkouman, Saibaman 2",
+      "dlc_requirement": null,
+      "unlock_method": "N/A",
+      "ultimate_finish_required": null,
+      "effect": "Grab-based self-destruction that kills both user and target on connection.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Self-Destruct",
+        "https://dbxv2.fandom.com/wiki/Saibaman"
+      ]
+    },
+    {
+      "name": "Cookie Beam",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 300,
+      "usable_by_cac": false,
+      "character_source": "Majin Buu - Good 2",
+      "dlc_requirement": null,
+      "unlock_method": "N/A",
+      "ultimate_finish_required": null,
+      "effect": "Turns the opponent into a cookie; Buu eats the cookie and restores health.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Cookie_Beam",
+        "https://dbxv2.fandom.com/wiki/Majin_Buu"
+      ]
+    },
+    {
+      "name": "Appetizing Rush",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "ki_cost": 400,
+      "usable_by_cac": false,
+      "character_source": "Android 21",
+      "dlc_requirement": "Ultra Pack 2",
+      "unlock_method": "N/A",
+      "ultimate_finish_required": null,
+      "effect": "Teleporting rush attack ending in Savory Slicer.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Appetizing_Rush",
+        "https://dbxv2.fandom.com/wiki/Android_21"
+      ]
     }
   ],
-  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence."
+  "notes": "Dedicated Xenoverse 2 pages are preferred over older guides when metadata conflicts. Gigantic Omega was absent from canonical skills.json and has explicit dedicated-page taxonomy and cost evidence. Added five cast-exclusive Ultimate records with dedicated taxonomy evidence: Energy Jet, Zetsumei Bullet, Self-Destruct, Cookie Beam, and Appetizing Rush."
 }
