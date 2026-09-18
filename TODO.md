@@ -70,11 +70,11 @@ This file is the working project tracker. Statuses describe repository work, not
 
 ## Current priority correction — 2026-09-18
 
-The repository tracker is authoritative for continuation order. The current research frontier is **Batch 316**, not Batch 315. Batch 315 and Batch 316 are research-layer work; neither should be treated as canonical synchronization until the P0 Actions blocker is resolved and the generated files are independently fetched and validated.
+The repository tracker is authoritative for continuation order. The current skill research frontier remains **Batch 316**, while the Parallel Quest audit is structurally complete through PQ186. The PQ audit now has an explicit unresolved cross-link report; PQ coverage is not considered fully reconciled until documented skill rewards resolve against canonical skill identities.
 
 **Continuation order:**
 1. **P0:** resolve or obtain observable evidence for the GitHub Actions pre-run failures; never weaken validators to make CI green.
-2. **P1:** reconcile the existing final-DLC skill work (especially Batch 36) and verify accumulated research against canonical identities before adding another skill batch.
+2. **P1:** reconcile the existing final-DLC skill work (especially Batch 36) and the PQ-to-skill cross-link gap before adding another generic skill batch. The current cross-link report identifies 175 unresolved PQ skill references against 108 canonical skill names; this is a data-reconciliation gap, not evidence that those skills do not exist.
 3. **P1 coverage:** begin an exhaustive coverage audit of the currently thin wiki systems/pages. Record missing fields and missing records as TODO/data gaps instead of assuming the presence of a page means the system is complete.
 4. **P2:** expand PQ, Awoken/Transformation, Expert Mission, Super Soul, Equipment, QQ Bang, character, story/Time Rift, shop/reward, and raid/event datasets with structured fields and provenance.
 5. **P3:** expose the growing database through Pages navigation/search/explorer improvements only after data gaps are being tracked.
@@ -99,7 +99,8 @@ This correction is intentional: the project goal is an exhaustive encyclopedia, 
 - [ ] Expand QQ Bang research from system/recipe families into observed six-stat result records and reproducible recipe/result relationships.
 - [ ] Expand the EM16–20 records into full mechanic/phase/reward tables and promote only when independently reconciled.
 - [ ] Build individual EM01–15 records and reconcile the base-game vs later-content mission-count definitions.
-- [ ] Improve PQ verification, especially acquisition conditions, Ultimate Finish requirements, and reward provenance, including a dedicated PQ185–186 audit for the final DLC skills.
+- [x] Establish the structured Parallel Quest audit through PQ186, preserving known numbering gaps/conflicts instead of fabricating missing quests.
+- [ ] Reconcile the PQ-to-skill cross-link report (`docs/data/pq-skill-crosslink-report.json`): resolve the 175 currently unresolved reward references against canonical skill identities/research history, while preserving aliases and historical naming conflicts.
 - [ ] Audit and expand Awoken/Transformation records as a first-class coverage track: separate CaC transformations from character-only forms, document resource costs, stages, race restrictions, unlock prerequisites, version history, and include The Power to Overcome where applicable.
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
 - [ ] Expand Conton City and Time Rift records with complete NPC, service, progression, collectible, and access relationships.
@@ -146,6 +147,12 @@ The project is being worked as parallel tracks so the site visibly improves whil
 10. Expand QQ Bang observed-result research alongside the equipment records.
 11. Update this TODO tracker and CHANGELOG.md as priorities change.
 12. Inspect GitHub Pages deployment and repository-quality/data-audit results; record failures honestly.
+
+## PQ Cross-Link Validation Snapshot — 2026-09-18
+
+- 18 PQ research batches cover the numbered audit through PQ186, with PQ36 and the PQ141–150 numbering gap explicitly preserved as evidence conflicts/gaps.
+- Cross-link audit found 212 unique PQ skill-reward references: 36 resolve to the current 108-name canonical skill catalog (including one documented alias), while 175 remain unresolved.
+- The unresolved links are now persisted in `docs/data/pq-skill-crosslink-report.json` so reconciliation is trackable and does not get lost in transient command output.
 
 ## Current Validation Result
 
