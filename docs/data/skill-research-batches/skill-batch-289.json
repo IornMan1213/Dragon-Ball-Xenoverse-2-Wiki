@@ -81,22 +81,7 @@
       "sources": [
         "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
       ]
-    },
-    {
-      "name": "Celestial Hammer",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Fused Zamasu (Half-Corrupted)",
-      "dlc_requirement": null,
-      "unlock_method": "Crystal Raid",
-      "ultimate_finish_required": null,
-      "effect": "Fused Zamasu charges at the opponent and slams them with his fist, sending them flying.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Celestial_Hammer"
-      ]
     }
   ],
-  "notes": "Mentor entries use current mentor taxonomy. Cast-only Demigra/Raid entries are catalogued only where the current ID-list establishes the user and the skill's category can be supported without inventing costs. Darkness Mixer was removed because Batch 285 already established the same canonical identity; this avoids a cross-batch duplicate. Celestial Hammer was added after dedicated documentation explicitly classified it as a Strike Super and Crystal Raid Skill; its numeric Ki cost remains null because the retrieved page does not expose one."
+  "notes": "Mentor entries use current mentor taxonomy. Cast-only Demigra/Raid entries are catalogued only where the current ID-list establishes the user and the skill's category can be supported without inventing costs. Darkness Mixer was removed because Batch 285 already established the same canonical identity; this avoids a cross-batch duplicate. Celestial Hammer was added after dedicated documentation explicitly classified it as a Strike Super and Crystal Raid Skill; its numeric Ki cost remains null because the retrieved page does not expose one. Removed duplicate Celestial Hammer; retained the earlier canonical record in Batch 285."
 }
