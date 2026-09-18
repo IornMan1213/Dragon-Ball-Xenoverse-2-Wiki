@@ -1,0 +1,44 @@
+{
+  "batch_id":200,
+  "created":"2026-09-17",
+  "research_scope":"Time Skip/Flash Skewer — Strike Super / Counter Skill.",
+  "verification_audit":{
+    "audited":"2026-09-17",
+    "duplicate_check":{"status":"passed","repository_history_search":"No prior research commit found for this skill.","duplicate_count":0},
+    "classification_finding":"Xenoverse 2 reference classifies Flash Skewer as a Strike Super and Counter Skill. Canonical identity is Super / Strike.",
+    "acquisition_finding":"Training with Hit; Dragon Ball Wiki identifies the Future Warrior as learning it through Hit's initiation test. Associated with Super Pack 2.",
+    "cost_finding":"100 Ki.",
+    "availability_finding":"The Future Warrior can learn the skill; usable_by_cac true.",
+    "finish_policy":"Instructor-training acquisition, not a PQ reward; ultimate_finish_required false.",
+    "mechanics_finding":"The user enters a defensive stance and, when struck from the front by a Strike attack, counterattacks. The current Xenoverse 2 reference lists it as short-range, single-hit and unblockable, with approximately 5% initial damage and follow-up opportunities."
+  },
+  "records":[{
+    "name":"Time Skip/Flash Skewer",
+    "class":"Super",
+    "subcategory":"Strike",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Hit",
+    "dlc_requirement":"Super Pack 2",
+    "ki_cost":100,
+    "stamina_cost":null,
+    "damage_type":"Strike",
+    "unlock_method":"Training with Hit",
+    "source_quest_or_shop":"Hit initiation test / training",
+    "ultimate_finish_required":false,
+    "ultimate_finish_evidence":"Documented acquisition is instructor training rather than a Parallel Quest reward.",
+    "skill_description":"Time skip and attack an opponent in front of you.",
+    "mechanics_notes":"A defensive stance counters a front-side Strike hit. The current skill reference describes a short-range, single-hit, unblockable counter and lists approximately 5% initial damage, with follow-up attacks possible.",
+    "acquisition_notes":"Dragon Ball Wiki states that the Future Warrior learns the technique through Hit's initiation test.",
+    "pve_notes":"Exact AI behavior and current quest-specific interactions are not independently verified.",
+    "pvp_notes":"Historical community reports indicate balance changes to Flash Skewer; current frame data is not recorded here.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":[
+      "https://dbxv2.fandom.com/wiki/Time_Skip/Flash_Skewer",
+      "https://dragonball.fandom.com/wiki/Time-Skip/Flash_Skewer",
+      "https://dbxenoverse.fandom.com/wiki/Time_Skip/Flash_Skewer",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78934627"
+    ]
+  }]
+}
