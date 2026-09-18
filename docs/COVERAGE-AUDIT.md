@@ -760,3 +760,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Evidence is attributed to community/guide sources; these records remain partially verified rather than being treated as first-party-confirmed.
 - This pass deliberately updates only skills with explicit Ultimate Finish evidence; unresolved/null fields remain null rather than being inferred.
 - Next: continue auditing null Ultimate Finish fields against individual PQ reward/drop evidence and preserve source quality/version context.
+
+
+### Super/Ultimate Ki-cost triage — 2026-09-18
+- Audited the canonical catalog for missing and nonstandard Ki costs. All 298 canonical records have explicit Ki-cost fields where applicable; no Super/Ultimate record is currently null.
+- The low/zero-cost cluster is dominated by charge, movement, transmission, and Power Up skills, so class-based defaulting would be incorrect.
+- Dimensional Hole is independently reported as a 0-Ki Super; the repository retains that value rather than normalizing it to a generic Super cost. citeturn2search27
+- Two current 600-Ki Ultimate records, Chaotic Time Impact and Gigantic Explosion, were retained as documented nonstandard costs. Independent community evidence explicitly reports Gigantic Explosion at 600 Ki. citeturn2reddit25turn2reddit26
+- This pass therefore produced no speculative cost edits. Next cost work should focus on provenance and exact mechanics for records whose source evidence is broad/category-level rather than skill-specific.
