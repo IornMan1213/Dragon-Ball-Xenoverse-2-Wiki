@@ -3999,7 +3999,7 @@
     {
       "name": "Power Impact",
       "class": "Super",
-      "subcategory": "Strike",
+      "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Jiren",
       "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
