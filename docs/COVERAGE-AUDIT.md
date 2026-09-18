@@ -193,3 +193,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Updated `docs/data/awoken-skills.json`, `docs/data/skills.json`, and `docs/data/skills-index.json` together and retained the stage-specific values in notes rather than collapsing multi-stage forms to a single generic cost.
 - Research source: Madreag's consolidated transformation research table, which records the per-stage thresholds and resource behavior. citeturn2view0
 - The audit remains partially verified: some transformation mechanics and acquisition/version details still require per-record evidence.
+
+
+### Ki-cost audit — 2026-09-18
+- Canonical Super/Ultimate records: 244.
+- All Super/Ultimate records currently have a non-null `ki_cost`; no missing Ki-cost fields remain in the canonical layer.
+- The 19 zero-Ki entries are concentrated in charge/reinforcement/power-up style skills and are retained as explicit data rather than normalized to a class-wide default.
+- Variable/nonstandard cost values are also present, so future cost verification remains skill-specific.
+- Web research corroborates that Xenoverse 2 has skill-specific and version-sensitive resource costs; official patch notes document individual Ki-cost changes, while community references describe distinct charge-skill behavior. citeturn0search0turn0search25
+- Next: verify suspicious/nonstandard Super/Ultimate costs individually and audit Ultimate Finish, acquisition, DLC/version, and restriction metadata rather than inferring values from class.
