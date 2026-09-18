@@ -5175,14 +5175,15 @@
       "usable_by_cac": null,
       "character_source": "Pikkon",
       "dlc_requirement": null,
-      "ki_cost": "300-600",
+      "ki_cost": 300,
       "unlock_method": "Parallel Quest 146 - \"Zen-Ohs' Earthly Excursion\"",
       "source_quest_or_shop": "PQ146 - \"Zen-Ohs' Earthly Excursion\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage.",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
-      "mechanics": "Base 300 Ki with up to three additional Ki bars when held; community spreadsheet records 300–600 Ki total."
+      "mechanics": "Base 300 Ki with up to three additional Ki bars when held; community spreadsheet records 300–600 Ki total.",
+      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record."
     },
     {
       "name": "Total Detonation Ball",
