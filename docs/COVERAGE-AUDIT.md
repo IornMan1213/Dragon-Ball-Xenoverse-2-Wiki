@@ -129,3 +129,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Canonical catalog now has a non-null `ki_cost` field for every Super and Ultimate record (298 total skills; no missing Ki-cost fields found in the current canonical layer).
 - Zero-Ki records are concentrated in documented charge/utility/Power Up skills; these were retained rather than normalized to a generic 100/300 cost.
 - This pass is a field-completeness audit, not proof that every cost is independently re-verified against a primary source. Continue with targeted verification of nonstandard/variable costs and acquisition/version metadata.
+
+
+### Super/Ultimate Ki-cost exception audit — 2026-09-18
+- A catalog-wide pass found no missing `ki_cost` values among the 298 canonical Super/Ultimate records.
+- Nonstandard costs are preserved rather than normalized by class: documented examples include 200-Ki Supers (Divine Kamehameha, Divine Spear, Earth Splitting Galick Gun, Final Flash (Super), Burning Blast), 200-Ki Ultimate Gigantic Breaker, 400-Ki Death Ball and DAIMA Ultimates, and 600-Ki Chaotic Time Impact/Gigantic Explosion.
+- Independent community references corroborate Death Ball at 400 Ki and Gigantic Explosion at 600 Ki; these are corroboration rather than primary authoritative evidence. citeturn1search0turn1reddit29
+- Zero-Ki entries are retained where the catalog models charge/buff/stance-type skills with no direct Ki activation cost; no blanket correction was applied.
