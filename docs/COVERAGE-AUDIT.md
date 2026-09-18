@@ -237,3 +237,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Audited all 226 canonical Super and Ultimate records for missing Ki costs: **0 missing**.
 - Zero-cost records were reviewed as a distinct class of legitimate non-spending/support moves rather than treated as missing data; the current zero-cost set is concentrated in charge/reinforcement/utility skills.
 - This closes the current schema-level completeness check for the ki_cost field. Individual numeric values still require source-backed spot checks and version-history research where mechanics changed.
+
+
+### Charge-skill mechanics audit — 2026-09-18
+- Enriched Final Charge, Surging Spirit, and Indomitable with documented mechanics and explicit uncertainty boundaries.
+- Final Charge: starts slowly, accelerates after roughly two seconds, and is slightly faster than Ultimate Charge; Fandom identifies it as an Other Super used by SSBE Vegeta and unavailable to CaCs. citeturn2search0
+- Surging Spirit: documented as a rapidly accelerating Ki charge; later game material documents its Ultra Instinct Future Warrior special-input implementation. citeturn2search2turn2search9
+- Indomitable: community testing reports simultaneous Ki/Stamina recovery and a substantial behavior change below 50% HP; exact timing remains marked partially verified rather than promoted as authoritative. citeturn2search12
+- Zero-Ki charge/buff skills remain intentionally represented as zero rather than being normalized to a generic Super cost.
