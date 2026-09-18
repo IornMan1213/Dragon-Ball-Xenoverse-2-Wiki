@@ -4479,7 +4479,7 @@
       "source_quest_or_shop": "PQ184",
       "ultimate_finish_required": true,
       "skill_description": "Chaotic Time Impact is a Ki Blast Ultimate Attack used by Golden Frieza (Ultra Supervillain).",
-      "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest.",
+      "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest and its reward data marks the skill as an Ultimate Finish reward.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
@@ -4632,7 +4632,10 @@
       "last_verified": "2026-09-18",
       "ultimate_finish_required": null,
       "dlc_requirement": "Resurrection 'F' Pack / DLC Pack 3",
-      "character_source": "Golden Frieza"
+      "character_source": "Golden Frieza",
+      "mechanics_notes": "Starts at 400 Ki and consumes additional available Ki while firing; the number of beams and total damage scale with the user's stored Ki. The documented skill page lists 400+ Ki used.",
+      "source_quest_or_shop": "TP Medal Shop",
+      "unlock_method": "TP Medal Shop"
     },
     {
       "name": "Energy Field",
@@ -4782,7 +4785,7 @@
       "source_quest_or_shop": "PQ164",
       "ultimate_finish_required": null,
       "skill_description": "Gigantic Explosion is a Ultimate Ki Blast skill associated with Broly.",
-      "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill.",
+      "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
@@ -5622,7 +5625,7 @@
       "source_quest_or_shop": "Parallel Quest 122",
       "ultimate_finish_required": true,
       "skill_description": "Power Rush is a Ultimate Strike skill associated with Jiren.",
-      "mechanics_notes": "Requires 1000 Ki (10 bars) and is documented as the game's highest mandatory Ki-cost skill. It is a 14-hit Strike Ultimate; using it can end Ki-draining transformations when the activation consumes the user's Ki. Source evidence confirms PQ122 acquisition and the 1000 Ki requirement.",
+      "mechanics_notes": "Requires 1000 Ki (10 bars). The skill is a high-cost Strike Ultimate obtained from PQ122; contemporary player testing also documents the 1000 Ki activation requirement. Using it can consume the user's available Ki on activation.",
       "verification_status": "partially_verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-18",
@@ -5630,7 +5633,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76367830",
-        "https://dbxv2.fandom.com/wiki/Power_Rush"
+        "https://dbxv2.fandom.com/wiki/Power_Rush",
+        "https://steamcommunity.com/app/454650/discussions/0/1697167355226740361/"
       ]
     },
     {
