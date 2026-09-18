@@ -893,7 +893,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
       ],
       "ki_cost": 100,
-      "stamina_cost": null
+      "stamina_cost": null,
+      "ultimate_finish_required": true
     },
     {
       "name": "Buu Buu Ball",
@@ -1448,7 +1449,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
       ],
       "ki_cost": 100,
-      "stamina_cost": null
+      "stamina_cost": null,
+      "ultimate_finish_required": true
     },
     {
       "name": "Ray Blast",
@@ -1673,7 +1675,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Burst_Charge"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "ultimate_finish_required": true
     },
     {
       "name": "Charged Ki Wave",
@@ -1958,7 +1961,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Ultimate_Charge"
       ],
-      "ki_cost": 0
+      "ki_cost": 0,
+      "ultimate_finish_required": true
     },
     {
       "name": "Wall of Defense",
@@ -2073,7 +2077,8 @@
         "https://dbxv2.fandom.com/wiki/Formation%21"
       ],
       "ki_cost": 100,
-      "stamina_cost": null
+      "stamina_cost": null,
+      "ultimate_finish_required": true
     },
     {
       "name": "Indomitable",
@@ -2148,7 +2153,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
       ],
       "ki_cost": 100,
-      "stamina_cost": null
+      "stamina_cost": null,
+      "ultimate_finish_required": true
     },
     {
       "name": "Brave Sword Slash",
@@ -2476,7 +2482,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
       ],
       "ki_cost": 100,
-      "stamina_cost": null
+      "stamina_cost": null,
+      "ultimate_finish_required": true
     },
     {
       "name": "Mach Punch",
@@ -3124,7 +3131,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Prominence_Flash"
       ],
-      "ki_cost": 300
+      "ki_cost": 300,
+      "ultimate_finish_required": true
     },
     {
       "name": "Requiem of Destruction",
