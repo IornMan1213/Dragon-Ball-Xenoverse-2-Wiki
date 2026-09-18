@@ -84,7 +84,7 @@
       ]
     }
   ],
-  "notes": "Batch 286 already contains the new Gigantic Slam record. This batch contains only true corrections to earlier Batch 285 metadata; unchanged Celestial Hammer data was removed to avoid a non-correction duplicate. Added Father-Son Kamehameha and Explosive Scream after dedicated pages confirmed their Ki Blast Ultimate classification and CaC-unavailable status.",
+  "notes": "Batch 286 already contains the new Gigantic Slam record. This batch contains only true corrections to earlier Batch 285 metadata; unchanged Celestial Hammer data was removed to avoid a non-correction duplicate. Added Father-Son Kamehameha and Explosive Scream after dedicated pages confirmed their Ki Blast Ultimate classification and CaC-unavailable status. Added three previously absent cast-exclusive entries after dedicated/category confirmation.",
   "records": [
     {
       "name": "Father-Son Kamehameha",
@@ -114,6 +114,54 @@
       "effect": "Cell Max charges and launches a compressed gigantic Ki Blast.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Explosive_Scream"
+      ]
+    },
+    {
+      "name": "Poison",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Saibaman",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Applies poison to the target.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Pretty Charge",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Ribrianne",
+      "dlc_requirement": "Ultra Pack 1",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Ki charging skill used by Ribrianne.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Final Flash (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 200,
+      "usable_by_cac": false,
+      "character_source": "SSGSS Vegeta (Evolved); Gogeta (Super Saiyan 4) Customize Partner",
+      "dlc_requirement": "Ultra Pack 1",
+      "unlock_method": "N/A (cast-exclusive)",
+      "ultimate_finish_required": null,
+      "effect": "Long-range 24-hit Ki Blast beam.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Flash_%28Super%29",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     }
   ]
