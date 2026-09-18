@@ -16,7 +16,7 @@ This file is the working project tracker. Statuses describe repository work, not
 ## Done
 
 - [x] Audited Skill Research Batch 314 for canonical-identity duplication; removed five records already covered by earlier batches while preserving the earlier research history and evidence.
-- [x] Confirmed current Xenoverse 2 evidence for Perfect Kamehameha as a 400-Ki Ki Blast Ultimate taught by Perfect Cell; the earlier Batch 312 duplicate is superseded as a duplicate, not a second skill identity.
+- [x] Confirmed current Xenoverse 2 evidence for Perfect Kamehameha as a 400-Ki Blast Ki Blast Ultimate taught by Perfect Cell; the earlier Batch 312 duplicate is retained as the canonical research history.
 
 - [x] Removed duplicate custom GitHub Pages workflows that could compete with native Pages deployment.
 - [x] Removed the duplicate `docs/index.html` Pages entry point.
@@ -70,7 +70,7 @@ This file is the working project tracker. Statuses describe repository work, not
 
 ## In Progress
 
-- [ ] **P0 — Clear research-batch validation blockers exposed by the Skills Sync workflow, starting with duplicate canonical identities and then rerunning the full repository validators.**
+- [ ] **P0 — Clear remaining GitHub Actions validation failures.** Batch 314's known duplicate identities are corrected, but Skills Sync, Wiki Data Audit, Repository Quality, and Clean Internal Artifacts still fail on commit 05b3bbd; reruns also fail and the connector cannot expose their step logs/annotations.
 
 - [ ] Continue skill research in batches, with a duplicate search before every batch.
 - [ ] Verify one completed batch alongside each new research batch instead of only adding new records.
@@ -131,6 +131,12 @@ The project is being worked as parallel tracks so the site visibly improves whil
 10. Expand QQ Bang observed-result research alongside the equipment records.
 11. Update this TODO tracker and CHANGELOG.md as priorities change.
 12. Inspect GitHub Pages deployment and repository-quality/data-audit results; record failures honestly.
+
+## Current Validation Result
+
+- Pages build/deployment for commit 05b3bbd succeeded.
+- Skills Sync, Wiki Data Audit, Repository Quality, and Clean Internal Artifacts failed on the same commit; each was rerun once and remained failed.
+- No usable step logs or failure annotations are exposed through the available GitHub connector, so the failure cause is not being guessed or mislabeled.
 
 ## Legacy Next-Cycle Notes
 

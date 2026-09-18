@@ -45,5 +45,5 @@
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": true,
   "current_research_focus": "Ki Blast Ultimate coverage with strict canonical-identity duplicate checks",
-  "validation_blocker": "Latest Skills Sync and Wiki Data Audit runs for commit e86dad4 failed; usable step logs were not exposed by the connector. Batch 314 was directly audited and five duplicate identities were removed before the next validation attempt."
+  "validation_blocker": "Commit 05b3bbd triggered four repository workflow failures: Skills Sync, Wiki Data Audit, Repository Quality, and Clean Internal Artifacts. Each was rerun once and failed again. The available connector exposes failed check runs but not usable step logs/annotation payloads; Pages deployment succeeded."
 }
