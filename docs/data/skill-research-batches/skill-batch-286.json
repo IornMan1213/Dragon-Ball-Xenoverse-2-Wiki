@@ -33,21 +33,6 @@
   ],
   "records": [
     {
-      "name": "Gigantic Slam",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Grab-and-slam Strike Super followed by a Ki blast.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
-      ]
-    },
-    {
       "name": "Giant Storm",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -61,85 +46,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Giant_Storm"
       ]
-    },
-    {
-      "name": "Gigantic Ki Blast",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Raid/Expert Mission villain bosses",
-      "dlc_requirement": null,
-      "unlock_method": "Crystal Raid/Expert Mission boss skill",
-      "ultimate_finish_required": null,
-      "effect": "Massive boss projectile that can be pushed back during Expert Missions.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
-        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
-      ]
-    },
-    {
-      "name": "Great Ape Beam",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Great Ape Vegeta; Great Ape Baby",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Great Ape Ki Blast beam.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
-      ]
-    },
-    {
-      "name": "Super Great Ape Beam",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "ki_cost": 300,
-      "usable_by_cac": false,
-      "character_source": "Great Ape Vegeta; Great Ape Bardock; Great Ape Baby",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Stronger Great Ape Ki Blast beam.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival"
-      ]
-    },
-    {
-      "name": "Acid",
-      "class": "Super",
-      "subcategory": "Other",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Saibaman 2; Kyukonman/Tennenman variants",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Saibaman secretion attack.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Saibaman",
-        "https://dragonball.fandom.com/wiki/Acid"
-      ]
-    },
-    {
-      "name": "Saibabeam",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "usable_by_cac": false,
-      "character_source": "Kaiwareman; Kyukonman; Saibaman 2",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Green energy wave fired from the Saibaman head gland.",
-      "sources": [
-        "https://dragonball.fandom.com/wiki/Saibabeam",
-        "https://dbxv2.fandom.com/wiki/Saibaman"
-      ]
     }
   ],
-  "notes": "Boulder Toss and Boulder Break remain at the provisional Other subtype from Batch 283 because the newly retrieved Great Ape Festival evidence confirms they are Supers and identifies their users, but does not explicitly expose the game's Strike/Ki Blast subtype. Energy Cannon receives a provenance correction based on dedicated Xenoverse skill documentation. Acid remains Other because reliable retrieved XV2 evidence still does not expose an attack-type field; Saibabeam is retained as Ki Blast based on its explicit energy-wave description."
+  "notes": "Retains the new Giant Storm catalog record and the Energy Cannon provenance/effect correction. Previously researched records from Batches 264, 278, and 285 are intentionally not duplicated here."
 }
