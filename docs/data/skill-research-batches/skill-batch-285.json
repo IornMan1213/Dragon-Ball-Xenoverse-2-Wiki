@@ -20,21 +20,6 @@
       ]
     },
     {
-      "name": "Gigantic Slam",
-      "class": "Super",
-      "subcategory": "Strike",
-      "ki_cost": 100,
-      "usable_by_cac": false,
-      "character_source": "Broly; Broly (Supervillain); Broly (Full Power Super Saiyan)",
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": "Grab-and-slam attack followed by a Ki blast; unobtainable for CaC.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Slam"
-      ]
-    },
-    {
       "name": "Spiral of Condemnation",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -50,5 +35,5 @@
       ]
     }
   ],
-  "notes": "Only genuinely new identities are retained. Bloody Sauce was removed because Batch 264 already contains it. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were also already researched in Batch 264."
+  "notes": "Only genuinely new identities are retained. Bloody Sauce and Gigantic Slam were removed because they are already represented in other research batches. Marbling Drop, Seasoning Arrow, Time Shackles, and Flames of Retribution were also already researched in Batch 264."
 }
