@@ -97,7 +97,8 @@
       "effect": "Ki and Stamina charging Super with a damaging dark aura.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Darkness_Mixer"
-      ]
+      ],
+      "notes": "Source's Unavailable for CaC category lists Darkness Mixer."
     },
     {
       "name": "Pretty Charge",
@@ -112,7 +113,8 @@
       "effect": "Ki charging Super.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Pretty_Charge"
-      ]
+      ],
+      "notes": "Source explicitly categorizes it as Other Super and Unavailable for CaC."
     },
     {
       "name": "Energy Jet",
@@ -128,7 +130,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Jet",
         "https://dbxv2.fandom.com/wiki/Demon_God_Demigra"
-      ]
+      ],
+      "notes": "Source explicitly categorizes it as Ki Blast Ultimate and Unavailable for CaC."
     },
     {
       "name": "Ice Claw",
@@ -177,5 +180,5 @@
       ]
     }
   ],
-  "notes": "Reconciles previously uncovered cast/boss skills and one metadata correction. Duplicate identities already represented by earlier batches were removed: Gigantic Ki Blast (Batch 264), Super Great Ape Beam (Batch 278), Boulder Toss and Boulder Break (Batch 283), plus Dragon Flash Bullet/Whirlwind Blade/Gigantic Slam/Final Flash/Bloody Sauce where applicable. Energy Cannon is retained as a formal correction to Batch 283. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, and Gigantic Omega remain new research records. Giant Storm was also absent from docs/data/skills.json and is explicitly documented as a 300-Ki Ki Blast Ultimate obtained from the Skill Shop. Added Boulder Toss/Boulder Break corrections after current Xenoverse 2 quest evidence established their physical Strike taxonomy."
+  "notes": "Reconciles previously uncovered cast/boss skills and taxonomy corrections. Energy Cannon, Boulder Toss, and Boulder Break are formal corrections. Darkness Mixer, Pretty Charge, Energy Jet, Ice Claw, Gigantic Omega, and Giant Storm are retained as research records. Pretty Charge and Energy Jet are explicitly unavailable for CaC in current Xenoverse 2 documentation; Darkness Mixer is also listed in the unavailable-for-CaC category. Giant Storm is a CaC skill obtained from the Skill Shop, while Gigantic Omega is a Strike Super obtained from Broly training."
 }
