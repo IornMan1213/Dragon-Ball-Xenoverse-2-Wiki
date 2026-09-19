@@ -932,3 +932,8 @@ Reviewed **Evil Blast, Evil Flame, Final Cannon, and Flash Chaser** against curr
 ## 2026-09-19 — Gamma/Gigantic provenance boundary
 
 Reviewed **Gamma Blaster, Giant Cluster, Gigantic Charge, and God of Destruction's Plaything** against current Xenoverse 2 evidence. Current records identify these as character/custom-partner or acquisition-linked skills, but the reviewed evidence does not explicitly establish a CaC race/gender/form restriction. Therefore all four retain null `race_restriction`. Added dedicated current-version provenance URLs for Giant Cluster and Gigantic Charge, and refreshed verification dates for the four records. No race inference was made from character identity or acquisition method.
+
+
+## 2026-09-19 — God/Headshot provenance boundary
+
+Reviewed **God Punisher, Handy Canon, Headshot, and Heat Wave** against current Xenoverse 2 evidence. God Punisher is documented as an SSGSS Gogeta skill, Handy Canon as an Android 13 skill obtainable from PQ 115, Headshot as Beerus's evasive skill, and Heat Wave as SS4 Goku (DAIMA)'s super skill from PQ 179. The reviewed evidence does not explicitly establish a CaC race/gender/form restriction for these records, so null `race_restriction` is preserved. Added dedicated current-version provenance URLs for God Punisher and Handy Canon and refreshed all four verification dates.
