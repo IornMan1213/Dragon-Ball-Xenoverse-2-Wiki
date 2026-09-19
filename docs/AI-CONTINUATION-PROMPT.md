@@ -714,3 +714,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `256d88f05c339da6bfcab7a7c7b3f1d18bd68a1e`.
 - Coverage commit: `dbf067c9586b4c654c59821edba06fe36a09b342`.
 - The explicit null-CaC census is now complete. Next priority is the **race-restriction census**: recompute the live cohort, identify every CaC-usable skill with `race_restriction: null`, and reconcile restrictions in evidence-backed batches without inferring from character ownership alone.
+
+
+### 2026-09-19 cycle update — race restriction census kickoff
+- Live census: **283 skills / 270 CaC-usable / 202 CaC-usable with race restriction still null**.
+- Reconciled **Majin Kamehameha → Majin-only** using explicit Future Warrior technique documentation rather than merely its Majin character association. citeturn3view0turn1search1
+- Skills commit: `574e87cde26b8e8ed1bdaa410e7b59786e3e4305`.
+- Coverage commit: `e636115236dad51830fbfcf96f9759bbf0176d7c`.
+- Next priority: systematically identify additional explicit race/gender restrictions, beginning with skills whose Future Warrior documentation directly names a race restriction; do not blanket-mark character-origin skills.
