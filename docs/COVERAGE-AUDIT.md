@@ -819,3 +819,7 @@ Cross-checked the source's explicitly stated Future Warrior race/gender restrict
 ## 2026-09-19 Justice Pose — explicit unrestricted evidence
 
 `Justice Pose` was reclassified from null to **All CaC races**. The dedicated source states that the Xenoverse 2 Super Skill can be used by the Future Warrior **regardless of race or gender** and distinguishes this from the separately named emote restriction. This directly matches the canonical CaC skill record. citeturn0search9
+
+## 2026-09-19 — dedicated technique provenance
+
+Added direct technique-page provenance to six existing CaC-usable skill records without changing their race classifications: `Mach Dash`, `Energy Barrier`, `Blaster Ball`, `Crazy Finger Shot`, `Evil Flame`, and `Final Cannon`. The search produced no new explicit race/unrestricted statement strong enough to reclassify the remaining null-race cohort in this pass. Existing classifications were therefore left unchanged.
