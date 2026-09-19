@@ -897,3 +897,8 @@ Reviewed the next unresolved null-race cohort: **Absolute Zero, Dragon Burn, Exp
 ## 2026-09-19 — evasive cohort and explicit CaC scope
 
 Reviewed **Instant Rise, Ki Explosion, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, and Spread Shot Retreat**. Direct Xenoverse 2 pages were checked. **Ki Explosion** explicitly states that it is available for **all CaCs**, so its `race_restriction` was classified as `All CaC races` and `last_verified` set to `2026-09-19`. Instant Rise only states availability for CaCs without an all-races statement; the remaining reviewed pages identify NPC users/unlock data without explicit CaC race scope. Those records remain null. NPC ownership and broad Evasive Skill/category listings were not used as race evidence.
+
+
+## 2026-09-19 — evasive/early-super provenance batch
+
+Reviewed **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, and Blaster Ball**. The live data already had direct Xenoverse 2 provenance for seven; **Blaster Ball** received its missing dedicated Xenoverse 2 page URL. The available evidence reviewed does not explicitly establish CaC race/gender/form restrictions for these records, so no `race_restriction` values were changed. General Future Warrior lists, category membership, NPC ownership, and acquisition references were not promoted into race classifications.
