@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Re-audit all 1-186 canonical PQ records against every populated reward field and relationship type; record explicit unresolved/conflict cases before declaring the cross-domain layer exhaustive.",
+  "next_completion_gate": "Reconcile the 232 reward-map/forward-edge differences against their source provenance. Do not delete edge-only relationships or fill source-only gaps without evidence. Equipment subtype differences must be reconciled against typed clothing/accessory provenance.",
   "current_counts": {
     "skill": 229,
     "super_soul": 125,
@@ -32,5 +32,34 @@
     "canonical_targets": 75,
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
     "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
+  },
+  "status": "reconciliation_required",
+  "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
+  "full_corpus_audit": {
+    "canonical_reward_maps": 6,
+    "canonical_records": 186,
+    "affected_cases": 232,
+    "stats": {
+      "skills": {
+        "source_only": 3,
+        "edge_only": 118,
+        "affected_pq": 78
+      },
+      "super_souls": {
+        "source_only": 0,
+        "edge_only": 61,
+        "affected_pq": 38
+      },
+      "clothing": {
+        "source_only": 52,
+        "edge_only": 39,
+        "affected_pq": 71
+      },
+      "accessories": {
+        "source_only": 21,
+        "edge_only": 39,
+        "affected_pq": 45
+      }
+    }
   }
 }
