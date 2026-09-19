@@ -1951,3 +1951,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `ba2aaf3d6443b0f1d93cad8253dad2f4dae77932`.
 - Live census: **283 total / 269 CaC-usable / 4 CaC-usable with null race restriction**.
 - Exact next task: recompute the live dataset and finish the remaining null-race CaC census; do not rely on stale cohort names.
+
+
+### 2026-09-19 continuation — Circle Flash through Dimension Ray; null-race census complete
+- Workstream: P1 skill race-restriction census.
+- Reviewed **Circle Flash, Core Breaker, Destruction's Concerto: Meteor, and Dimension Ray**, completing the current null-race CaC census.
+- Added explicit **All CaC races** scope to all four using current evidence; no narrower CaC race/gender/form restriction was established. Existing research fields were preserved.
+- Data commit: `fa25321b8f9a7dbe8b8388aaabeb8e3c4b0e24fb`.
+- Live census: **283 total / 269 CaC-usable / 0 CaC-usable with null race restriction**.
+- Next task: recompute the dataset and inspect for other coverage-quality gaps now that the P1 null-race census is complete; do not assume this race-restriction workstream has remaining records.
