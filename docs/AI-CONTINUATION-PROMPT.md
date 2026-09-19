@@ -1346,3 +1346,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important correction: Divinity Unleashed is a 100-Ki activation skill; charging one full bar triggers its temporary increased Ki-gain effect. Time Control is 100 Ki/PQ18 Ultimate Finish; Data Input is 100 Ki/EM20; Ultimate Charge is 0 Ki/PQ134 Ultimate Finish.
 - Data commit: `23164e1e1fde108f0b389f02e2ee4fb3e5f0d8df`; audit commit: `0dd2d31178ff47fc107628aaaed0d501c7e9ff70`.
 - Continue from the records immediately following Divinity Unleashed in dataset order.
+
+
+### 2026-09-19 continuation — Do or Die through Meditation
+- Reconciled Do or Die, Fighting Pose E, Fighting Pose H, Fighting Pose K, Formation!, Indomitable, Justice Pose, and Meditation.
+- Important corrections: Fighting Pose E user is Recoome; Fighting Pose H user is Guldo. Fighting Pose K is Recoome's 8-second Super Armor pose. Do or Die is 100 Ki with 10% damage reduction for 20 seconds. Meditation is currently 20 seconds and its stacking behavior is version-sensitive.
+- Data commit: `df316a53cded14519d79df069795e8bfaf8ec7e5`; audit commit: `0f51f2c70c92ae2ecfbaa7a9ccd28035a15f7348`.
+- Continue from the records immediately following Meditation in dataset order.
