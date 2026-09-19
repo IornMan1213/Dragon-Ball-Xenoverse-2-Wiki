@@ -5571,6 +5571,328 @@
       "target": "Vegito's Clothes",
       "status": "source_backed",
       "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-002",
+      "relationship": "pq_rewards_equipment",
+      "target": "Flying Nimbus!!",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-002",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku's Damaged Turtle Hermit Gi",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-003",
+      "relationship": "pq_rewards_equipment",
+      "target": "Demon Clothes (Piccolo, with Cape)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-003",
+      "relationship": "pq_rewards_equipment",
+      "target": "Piccolo's Turban",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-004",
+      "relationship": "pq_rewards_equipment",
+      "target": "Demon Clothes (Gohan, Kid)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-004",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku's Turtle Hermit Gi",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-005",
+      "relationship": "pq_rewards_equipment",
+      "target": "Four-Star Dragon Ball Hat",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-008",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku's Turtle Hermit Gi (King Kai)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-009",
+      "relationship": "pq_rewards_equipment",
+      "target": "Chiaotzu's Hat (With Collar)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-011",
+      "relationship": "pq_rewards_skill",
+      "target": "Time Control",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-011",
+      "relationship": "pq_rewards_skill",
+      "target": "Mach Dash",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-021",
+      "relationship": "pq_rewards_equipment",
+      "target": "Hercule's Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-021",
+      "relationship": "pq_rewards_equipment",
+      "target": "Tien Shinhan's Gi",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-001-040-reward-map.json"
+    },
+    {
+      "pq": "pq-049",
+      "relationship": "pq_rewards_equipment",
+      "target": "Piccolo's School Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-050",
+      "relationship": "pq_rewards_equipment",
+      "target": "Mr. Shape Up M",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-061",
+      "relationship": "pq_rewards_equipment",
+      "target": "Battle Suit (CC)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-062",
+      "relationship": "pq_rewards_equipment",
+      "target": "Frieza's Suit (Final Form)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-063",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku Wig (Super Saiyan)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-065",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gohan's Gi (Adult)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-066",
+      "relationship": "pq_rewards_skill",
+      "target": "Warp Kamehameha",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-066",
+      "relationship": "pq_rewards_equipment",
+      "target": "Whis Symbol Gi",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-066",
+      "relationship": "pq_rewards_equipment",
+      "target": "SSGSS Goku Wig",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-079",
+      "relationship": "pq_rewards_equipment",
+      "target": "Vegeta's Shirt",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-041-080-reward-map.json"
+    },
+    {
+      "pq": "pq-168",
+      "relationship": "pq_rewards_equipment",
+      "target": "Videl (DB Super) Wig",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-169",
+      "relationship": "pq_rewards_equipment",
+      "target": "Orange Piccolo's Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-170",
+      "relationship": "pq_rewards_equipment",
+      "target": "Videl (DB Super)'s Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-176",
+      "relationship": "pq_rewards_equipment",
+      "target": "Belmod's Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-178",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku (Mini)'s Gi",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-179",
+      "relationship": "pq_rewards_equipment",
+      "target": "SS4 Goku (DAIMA) Suit",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-179",
+      "relationship": "pq_rewards_equipment",
+      "target": "SS4 Goku (DAIMA) Wig & Tail",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-180",
+      "relationship": "pq_rewards_equipment",
+      "target": "SS3 Vegeta (DAIMA) Battle Suit",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-180",
+      "relationship": "pq_rewards_equipment",
+      "target": "SS3 Vegeta (DAIMA) Wig",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-181",
+      "relationship": "pq_rewards_equipment",
+      "target": "Glorio's Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-181",
+      "relationship": "pq_rewards_equipment",
+      "target": "Panzy's Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-181",
+      "relationship": "pq_rewards_equipment",
+      "target": "Glorio Wig",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-181",
+      "relationship": "pq_rewards_equipment",
+      "target": "Panzy Wig",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-182",
+      "relationship": "pq_rewards_equipment",
+      "target": "Golden Frieza Suit",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-182",
+      "relationship": "pq_rewards_equipment",
+      "target": "Golden Frieza Head",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-183",
+      "relationship": "pq_rewards_equipment",
+      "target": "Cheelai's Coat",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-183",
+      "relationship": "pq_rewards_equipment",
+      "target": "Broly Wig (Black Hair, Normal)",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-184",
+      "relationship": "pq_rewards_equipment",
+      "target": "Dragon Ball Balloon",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku (Ultra Supervillain Quelled)'s Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku (Ultra Supervillain Quelled) Wig",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_rewards_equipment",
+      "target": "Fu (Ultra Supervillain)'s Clothes",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_rewards_equipment",
+      "target": "Fu (Ultra Supervillain) Set",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_rewards_equipment",
+      "target": "Fu Set 2",
+      "status": "source_normalized",
+      "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
     }
   ],
   "normalization_rules": [
@@ -5587,15 +5909,16 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "skill": 229,
+    "skill": 232,
     "super_soul": 135,
-    "equipment": 53,
+    "equipment": 96,
     "character": 247,
     "dlc": 88,
     "farming": 7
   },
   "last_reconciled_scope": "PQ 15-186 reward layer checked against canonical typed fields; 24 previously missing canonical entries added. Existing edge-only relationships retained pending independent-source reconciliation because canonical typed arrays are explicitly partial.",
   "notes": [
-    "2026-09-19: Corrected an overly aggressive reconciliation pass. Canonical PQ batch reward arrays are explicitly partial, so edge-only relationships were restored. Only 24 canonical typed reward entries absent from the prior forward layer were added."
+    "2026-09-19: Corrected an overly aggressive reconciliation pass. Canonical PQ batch reward arrays are explicitly partial, so edge-only relationships were restored. Only 24 canonical typed reward entries absent from the prior forward layer were added.",
+    "2026-09-19: Added 46 reward relationships supported by the repository's source-normalized reward maps. These are marked source_normalized rather than source_backed because the map layer is explicitly partial."
   ]
 }
