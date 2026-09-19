@@ -422,7 +422,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 PQ151–160 unlock research milestone
 
 - Recomputed the live PQ census after the PQ131–140 pass: 176 canonical records across 18 batches.
-- Researched PQ151–160. Current DLC mapping is PQ151–154 → Conton City Vote Pack; PQ155–158 → Hero of Justice Pack 1; PQ159–160 → Hero of Justice Pack 2. The maintained Steam guide independently lists the same PQ/DLC groupings, while the DLC reference confirms the four PQs in the Conton City Vote Pack. citeturn1search0turn1search5
+- Researched PQ151–160. Current DLC mapping is PQ151–154 → Conton City Vote Pack; PQ155–158 → Hero of Justice Pack 1; PQ159–160 → Hero of Justice Pack 2. The maintained Steam guide independently lists the same PQ/DLC groupings, while the DLC reference confirms the four PQs in the Conton City Vote Pack.
 - Added the conservative unlock route to all ten records: own the listed DLC pack and have the Parallel Quest board available. No unsupported sequential/story/NPC prerequisite was added.
 - Added record-level source provenance, `unlock_verification`, and 2026-09-19 verification dates to `docs/data/parallel-quest-research-batches/pq-batch-15.json`.
 - Live missing `unlock_condition` count is now **4**: PQ36, PQ53–55.
