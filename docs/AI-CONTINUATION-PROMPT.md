@@ -2274,3 +2274,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Explicitly preserved null DLC requirements where available provenance does not establish Base Game vs DLC.
 - Updated `docs/COVERAGE-AUDIT.md` with the applicability census.
 - Next exact task: **target the next small evidence-backed skill field batch (preferably Evasive Ki-cost mechanics or Ultimate/Super acquisition metadata) and update only fields supported by direct sources.**
+
+
+### 2026-09-19 continuation — Evasive damage-type evidence batch
+- Populated evidence-backed `damage_type` for 16 previously-null Evasive records: 7 Ki Blast, 6 Strike, 2 Other, plus Psychic Move included in Strike count.
+- Sources establish the relevant Attack Type / skill classification for the affected records.
+- Preserved nullable `ki_cost` values because Evasive activation consumes Stamina; additional Ki consumption for sustained barriers is a separate mechanic.
+- Updated `docs/COVERAGE-AUDIT.md` and `docs/data/skills.json`.
+- Next exact task: **recompute the remaining Evasive null census and target only fields with direct item-level evidence; do not convert Evasive Ki nulls to zero.**
