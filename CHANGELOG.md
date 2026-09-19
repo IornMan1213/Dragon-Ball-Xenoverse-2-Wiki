@@ -1,3 +1,9 @@
+## September 2026 — Raid/Event Super Soul Batch 05
+- Added research batch 05 and promoted four additional raid-associated Super Souls: **040–043**.
+- Added reconciled acquisition/effect provenance for Cell, Hercule, Masked Saiyan, and Fused Zamasu raid families.
+- Preserved unresolved numerical/recurrence details instead of inventing values.
+- Canonical Super Soul population increased from **34 to 38**.
+
 ## September 2026 — Raid/Event Super Soul Batch 04
 - Added research batch 04 for raid-associated Super Souls.
 - Promoted canonical records **036–039** covering Hit and Broly raid reward families.
