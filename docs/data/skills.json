@@ -472,11 +472,11 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 51",
       "ultimate_finish_required": true,
-      "mechanics_notes": "Current evidence confirms Burst Rush as a 100-Ki Strike Super and melee counter from PQ51. The dedicated page identifies Gohan (Adult) and customizable variants; no CaC race/gender/form restriction is established. Current Future Warrior technique listings explicitly include this skill and do not attach a CaC race/gender/form restriction; the null race field is therefore intentional rather than an unreviewed omission.",
+      "mechanics_notes": "Current evidence confirms Burst Rush as a 100-Ki Strike Super and melee counter from PQ51. The dedicated page identifies Gohan (Adult) and customizable variants; no CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "last_verified": "2026-09-19",
       "source_quest": 51,
       "usable_by_cac": true,
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game"
     },
     {
@@ -494,10 +494,10 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 43 - Change the Future",
       "ultimate_finish_required": null,
-      "mechanics_notes": "Current evidence confirms Change The Future as a 100-Ki Ki Blast Super counter from PQ43. It counters Ki Blasts/skills; no CaC race/gender/form restriction is established. Current Future Warrior technique listings explicitly include this skill and do not attach a CaC race/gender/form restriction; the null race field is therefore intentional rather than an unreviewed omission.",
+      "mechanics_notes": "Current evidence confirms Change The Future as a 100-Ki Ki Blast Super counter from PQ43. It counters Ki Blasts/skills; no CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game"
     },
     {
@@ -517,9 +517,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 75 - Room to Spare",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Current Future Warrior technique listings explicitly include this skill and do not attach a CaC race/gender/form restriction; the null race field is therefore intentional rather than an unreviewed omission."
+      "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
     },
     {
       "name": "Counter Impact",
@@ -538,9 +538,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 153 - Seeing Double",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
-      "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Current Future Warrior technique listings explicitly include this skill and do not attach a CaC race/gender/form restriction; the null race field is therefore intentional rather than an unreviewed omission."
+      "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
     },
     {
       "name": "Demon Flash Strike",
@@ -557,11 +557,11 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 160",
       "ultimate_finish_required": null,
-      "mechanics_notes": "Current dataset evidence identifies Demon Flash Strike as a 100-Ki Strike Super from PQ160 and a melee counter. No CaC race/gender/form restriction is established. Current Future Warrior technique listings explicitly include this skill and do not attach a CaC race/gender/form restriction; the null race field is therefore intentional rather than an unreviewed omission.",
+      "mechanics_notes": "Current dataset evidence identifies Demon Flash Strike as a 100-Ki Strike Super from PQ160 and a melee counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "last_verified": "2026-09-19",
       "source_quest": 160,
       "usable_by_cac": true,
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation"
     },
     {
@@ -580,10 +580,10 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 80",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current dataset evidence identifies Dimensional Hole as a Ki Blast Super from PQ80 with 0 Ki recorded. No CaC race/gender/form restriction is established. Current Future Warrior technique listings explicitly include this skill and do not attach a CaC race/gender/form restriction; the null race field is therefore intentional rather than an unreviewed omission."
+      "mechanics_notes": "Current dataset evidence identifies Dimensional Hole as a Ki Blast Super from PQ80 with 0 Ki recorded. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
     },
     {
       "name": "Flash Fist Crush",
@@ -601,10 +601,10 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Shenron wish",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Current Future Warrior technique listings explicitly include this skill and do not attach a CaC race/gender/form restriction; the null race field is therefore intentional rather than an unreviewed omission."
+      "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
     },
     {
       "name": "God Breaker",
@@ -623,10 +623,10 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 44",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Current Future Warrior technique listings explicitly include this skill and do not attach a CaC race/gender/form restriction; the null race field is therefore intentional rather than an unreviewed omission."
+      "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
     },
     {
       "name": "Heroic Counter",
