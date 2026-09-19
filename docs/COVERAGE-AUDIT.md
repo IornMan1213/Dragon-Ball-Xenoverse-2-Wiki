@@ -967,3 +967,8 @@ Reviewed **Fighting Pose H, Formation!, Indomitable, Taunt, Blazing Attack, Brav
 ## 2026-09-19 — Death/Demon/Destruction boundary
 
 Reviewed **Death Slash, Demon Flurry, Demonic Destruction, and Destruction's Conductor** as the next unresolved CaC-usable null-race cohort. Current-version sources identify their skill availability/association but do not provide an explicit race/gender/form restriction or explicit unrestricted-all-CaC statement sufficient to change `race_restriction`. All four remain null. Verification dates were refreshed to 2026-09-19. No race inference was made from mentor/character ownership or acquisition context.
+
+
+## 2026-09-19 — Dragon/Emperor/Gamma boundary
+
+Reviewed **Dragon Spark, Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edge, Freedom Kick, and Gamma Impact** as the next unresolved CaC-usable null-race cohort. Current evidence establishes these as Xenoverse 2 skills but does not explicitly establish a race/gender/form restriction or unrestricted-all-CaC statement sufficient to change `race_restriction`. All eight remain null. Verification dates were refreshed to 2026-09-19. Dragon Spiral also received a dedicated current-version skill-page URL.
