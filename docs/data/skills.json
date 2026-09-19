@@ -2132,7 +2132,7 @@
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 200,
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "unlock_method": "Character-exclusive skill; not equippable by CaCs",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
@@ -2156,7 +2156,7 @@
       "skill_description": "Flash Chaser is a Super Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2182,7 +2182,7 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "race_restriction": "All CaC races"
     },
     {
@@ -2201,7 +2201,7 @@
       "skill_description": "Gamma Blaster is a Super Ki Blast skill used by Gamma 2.",
       "mechanics_notes": "Current evidence confirms Gamma Blaster as a 100-Ki Ki Blast Super from PQ155. The existing random-PQ acquisition record is retained; no unsupported CaC restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
@@ -2226,7 +2226,7 @@
       "skill_description": "Giant Cluster is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2250,7 +2250,7 @@
       "skill_description": "Gigantic Charge is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
       "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2275,7 +2275,7 @@
       "skill_description": "God of Destruction's Plaything is a Super Ki Blast skill associated with God of Destruction Belmod.",
       "mechanics_notes": "Current evidence confirms God of Destruction's Plaything as a Belmod Super from PQ175. The existing 100-Ki record and CaC usability are retained pending stronger dedicated numeric evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
@@ -2298,7 +2298,7 @@
       "skill_description": "God Punisher is a Super Ki Blast skill associated with Gogeta (Super Saiyan Blue).",
       "mechanics_notes": "Dedicated current-version evidence corrects God Punisher to a **400-Ki Ki Blast Ultimate**, not a 100-Ki Super. It is obtained from PQ132 and includes the rush/barrage mechanic; Festival variant behavior is documented separately.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
