@@ -77,10 +77,11 @@ Known completed frontier:
 - PQ52: complete PQ53.
 - PQ56: speak with Kid Trunks near the waterfall.
 - PQ57–60: bounded Buu-era progression metadata; exact triggers remain unresolved.
+- PQ61–70: bounded evidence metadata added because consulted sources establish quest placement/objectives but not reliable individual unlock triggers.
 - PQ161–186: later-batch reward/unlock semantics enriched; exact unknown percentages remain unresolved rather than fabricated.
 - PQ184 Chaotic Time Impact: documented as a 50% Ultimate Finish bonus-slot drop.
 
-**Next exact PQ task: PQ61–70.**
+**Next exact PQ task: PQ71–80.**
 First recompute the live unlock census instead of trusting historical counts.
 
 ### P1 — Awoken / Transformations
@@ -134,7 +135,7 @@ Only after data-completeness work, expose the improved structured research surfa
 8. Commit the complete cycle.
 
 ### Latest known PQ unlock census
-Historical audit value: **92 records without an explicit unlock condition before the latest PQ51–60 refinement**. This number is intentionally only a reference; recompute it from the live 18 PQ batch files before making decisions.
+Latest audit reference after PQ61–70: **82 records without an explicit unlock condition**. Recompute from the live 18 PQ batch files before making decisions.
 
 ## Recent commits
 
