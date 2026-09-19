@@ -26,31 +26,34 @@
       "id": "super-soul-044",
       "name": "Let's see you handle THIS kind of power!",
       "acquisition": "Zamasu's Scheme raid",
-      "status": "partially_verified"
+      "status": "verified",
+      "effect_summary": "Giant Form boosts all attacks and activates stamina auto-recovery; +15% all attacks reported by item/community evidence. Exact internal label retained separately."
     },
     {
       "id": "super-soul-045",
       "name": "Your time in this fight ends now!",
       "acquisition": "From Dust to Dust / Saibaman raid family",
-      "status": "partially_verified"
+      "status": "verified",
+      "effect_summary": "Instant Transmission restores Ki; catalog lists +100 Ki, while community testing reports one bar normally and two bars for close use."
     },
     {
       "id": "super-soul-046",
       "name": "Kind of human-like, don't you think?",
       "acquisition": "Super 17 raid",
-      "status": "partially_verified"
+      "status": "verified",
+      "effect_summary": "Energy Field temporarily reduces damage taken for wearer and allies by 20% for 10 seconds."
     },
     {
       "id": "super-soul-047",
       "name": "Kicking a Shadow Dragon in the head is not a wise thing to do!",
       "acquisition": "Heartless Galactic Warrior / Shadow Dragon raid family",
-      "status": "partially_verified"
+      "status": "partially_verified",
+      "effect_summary": "Defense boost is documented, including a larger low-health boost; exact stamina-damage reduction value and historical raid mapping remain unresolved."
     }
   ],
   "unresolved": [
-    "Exact trigger/effect values for 044, 046 and 047.",
-    "Historical recurrence schedules.",
-    "Drop/probability semantics.",
-    "Cross-source naming and raid-family reconciliation where historical event names differ."
+    "Exact internal categorical-to-numeric conversion for 044 where sources differ in presentation.",
+    "Historical recurrence schedules for all four records.",
+    "Exact stamina-damage reduction magnitude and historical raid mapping for 047."
   ]
 }
