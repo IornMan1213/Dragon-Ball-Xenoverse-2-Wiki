@@ -2377,3 +2377,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Commit: 2ae6a86f2160a7e4edc226002e603ab06da66c90.
 - Important continuation rule: after any automated catalog sync, re-check these 12 records because synchronization can overwrite manually enriched acquisition metadata. Restore only when the underlying evidence remains present; do not blanket-edit the catalog.
 - Next exact task: inspect the remaining nullable records for explicit Skill Shop, TP/STP Medal Shop, mentor, wish, Expert Mission, Advancement Test, starter, or other intrinsically non-UF acquisition routes, while treating generic PQ reward wording as insufficient.
+
+
+### 2026-09-19 continuation — Data Input Expert Mission batch
+- Resolved `ultimate_finish_required=false` for Data Input.
+- Evidence: Data Input is explicitly unlocked through Expert Mission 20, Harbinger of Doom; repeated EM20 completion is the documented acquisition route. This is independent of PQ Ultimate Finish gating.
+- Skills commit: 25689ddde2426dde26377a097013e489653632cb.
+- Live nullable Super/Ultimate census after the edit: 172 total (132 Super, 40 Ultimate).
+- Next task: continue with another small evidence-backed batch, prioritizing explicit non-PQ routes and rechecking for catalog-sync overwrites.
