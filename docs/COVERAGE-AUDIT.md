@@ -608,7 +608,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 Future Warrior ultimate-skill reconciliation
 
 - Reconciled **Big Bang Kamehameha, Super Spirit Bomb, Emperor's Death Beam, and Final Explosion** from Future Warrior-specific Xenoverse 2 references.
-- Big Bang Kamehameha is explicitly obtainable by the Future Warrior through the TP Medal Shop; Super Spirit Bomb is a Future Warrior reward from Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion is obtainable by the Future Warrior from the TP Medal Shop. citeturn1search1turn2search1turn2search2turn3search0
+- Big Bang Kamehameha is explicitly obtainable by the Future Warrior through the TP Medal Shop; Super Spirit Bomb is a Future Warrior reward from Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion is obtainable by the Future Warrior from the TP Medal Shop. 
 - Added CaC eligibility, race scope, acquisition/provenance, and supported resource data without promoting the records to `verified` because exact historical/version and reward-state semantics remain separate audit questions.
 - Skills commit: `ed425d388377902aed738ba03ae49b85342d3c41`.
 
@@ -616,22 +616,22 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 DAIMA/Future Saga CaC boundary investigation
 
 - Investigated the remaining high-priority null-CaC cohort against current technique/Ultimate Attack references.
-- The Future Warrior technique index explicitly notes that CaC techniques can have race/gender/transform restrictions and should not be inferred solely from a character's equipped moves. citeturn0search3
-- The DAIMA-specific **Burning Blast, Force Edge, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** remain unresolved for direct CaC eligibility. Current references identify them in the corresponding DAIMA character skillsets and list their PQ unlocks, but do not provide sufficiently explicit Future Warrior eligibility to justify changing `usable_by_cac` from null. citeturn0search5turn0search7turn0search10turn2search0
-- Likewise, Future Saga Chapter 2 is documented by Bandai Namco as adding seven moves and four Parallel Quests, but the official announcement does not establish individual CaC eligibility. citeturn0search1turn0search9
+- The Future Warrior technique index explicitly notes that CaC techniques can have race/gender/transform restrictions and should not be inferred solely from a character's equipped moves. 
+- The DAIMA-specific **Burning Blast, Force Edge, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** remain unresolved for direct CaC eligibility. Current references identify them in the corresponding DAIMA character skillsets and list their PQ unlocks, but do not provide sufficiently explicit Future Warrior eligibility to justify changing `usable_by_cac` from null. 
+- Likewise, Future Saga Chapter 2 is documented by Bandai Namco as adding seven moves and four Parallel Quests, but the official announcement does not establish individual CaC eligibility. 
 - Deliberately left these fields unresolved rather than converting absence of evidence into `false` or assuming all PQ rewards are CaC-compatible.
 
 
 ## 2026-09-19 Future Warrior skill-evidence batch — PQ/shop techniques
 
-- Reconciled **Phantom Fist, Shield Barrier, Assault Vanish, Fighting Pose K, Death Ball, Supernova, Divine Lasso, Lightning Impact, and Prominence Flash** using explicit Future Warrior evidence. Phantom Fist is obtained by Future Warrior from PQ97; Shield Barrier from PQ153; Assault Vanish from PQ131's Legendary Finish; Fighting Pose K is among the Fighting Poses the Future Warrior can learn; Divine Lasso is purchasable by the Future Warrior from the TP Medal Shop; Lightning Impact and Prominence Flash explicitly list Future Warrior users. citeturn2search0turn2search4turn2search5turn2search1turn3search0turn3search1turn3search16
+- Reconciled **Phantom Fist, Shield Barrier, Assault Vanish, Fighting Pose K, Death Ball, Supernova, Divine Lasso, Lightning Impact, and Prominence Flash** using explicit Future Warrior evidence. Phantom Fist is obtained by Future Warrior from PQ97; Shield Barrier from PQ153; Assault Vanish from PQ131's Legendary Finish; Fighting Pose K is among the Fighting Poses the Future Warrior can learn; Divine Lasso is purchasable by the Future Warrior from the TP Medal Shop; Lightning Impact and Prominence Flash explicitly list Future Warrior users. 
 - These records remain `partially_verified`; CaC eligibility is now evidenced, but exact reward-slot/drop semantics and historical version boundaries remain separate verification requirements.
 
 
 ## 2026-09-19 Future Warrior/form-exclusive reconciliation
 
 - Reconciled the remaining high-value CaC gaps **Surging Spirit, Dragon Fist, Divine Ray Bomb, Dragon Thunder, Final Rampage, Godly Display, Supreme Fury, and Victory Rush** where the live Future Warrior technique corpus supports CaC/form access.
-- `Surging Spirit` is recorded as CaC-usable specifically through the **Ultra Instinct Future Warrior** form rather than as an unrestricted standalone CaC skill. The Future Warrior technique reference explicitly documents this form-exclusive access. citeturn0search0
+- `Surging Spirit` is recorded as CaC-usable specifically through the **Ultra Instinct Future Warrior** form rather than as an unrestricted standalone CaC skill. The Future Warrior technique reference explicitly documents this form-exclusive access. 
 - The remaining records were populated with CaC eligibility while retaining `partially_verified`; exact reward/drop semantics and version boundaries are not being collapsed into the CaC field.
 - Skills commit: `6f1a988f2eee96c59e137999f6842cd628b49c73`.
 
@@ -639,14 +639,14 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 explicit race-restriction reconciliation
 
 - Reconciled race/gender restrictions for **Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Ill Bomber, Candy Beam, Buu Buu Ball, Shining Slash, Burning Slash, Evil Flight Strike, Darkness Rush (Melee), and Darkness Rush (Ranged)**.
-- The Future Warrior technique reference explicitly identifies Saiyan Spirit as Saiyan-only; Explosive Buu Buu Punch, Ill Bomber, Candy Beam, and Buu Buu Ball as Majin-restricted; Zigzag Express as male Majin-restricted; Shining/Burning Slash as Human-or-Saiyan; Evil Flight Strike as Namekian-or-Majin; and the two Darkness Rush variants as Namekian versus non-Namekian. citeturn0search0
+- The Future Warrior technique reference explicitly identifies Saiyan Spirit as Saiyan-only; Explosive Buu Buu Punch, Ill Bomber, Candy Beam, and Buu Buu Ball as Majin-restricted; Zigzag Express as male Majin-restricted; Shining/Burning Slash as Human-or-Saiyan; Evil Flight Strike as Namekian-or-Majin; and the two Darkness Rush variants as Namekian versus non-Namekian. 
 - These restrictions are now recorded instead of the generic/unresolved race scope. Records remain `partially_verified`.
 
 
 ## 2026-09-19 recent-DLC unresolved-CaC evidence refinement
 
 - Recalculated the canonical skill census: **18 records still have `usable_by_cac: null`**, while **184 CaC-eligible records still have an unresolved `race_restriction`**.
-- Reviewed recent Future Saga/DAIMA candidates including **Dark Inscription, Emperor's Cannon, Chaotic Time Impact, Burst Blitz, Dragon Spark, and Soaring Rush**. Current evidence identifies Golden Frieza (Ultra Supervillain) as the user/preset holder for the first three and Goku (Mini) as the user for the latter three, but does not by itself establish a valid CaC route. citeturn3search13turn3search2turn3search17turn3search0turn3search1turn3search14
+- Reviewed recent Future Saga/DAIMA candidates including **Dark Inscription, Emperor's Cannon, Chaotic Time Impact, Burst Blitz, Dragon Spark, and Soaring Rush**. Current evidence identifies Golden Frieza (Ultra Supervillain) as the user/preset holder for the first three and Goku (Mini) as the user for the latter three, but does not by itself establish a valid CaC route. 
 - These records therefore remain unresolved rather than being promoted to `usable_by_cac: true` or `false` from weak inference. This preserves the audit's evidence standard.
 - Skills commit: `b9a8e3ae8baa7c8acbe11c150266a01b1f0c747b`.
 
@@ -654,29 +654,29 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 explicit Future Warrior corrections
 
 - Re-audited the remaining null-CaC cohort against the live Future Warrior technique corpus.
-- **Mystic Flash** and **Thunder Flash** were found to be explicitly documented as Future Warrior techniques, so both are now `usable_by_cac: true`. The source identifies Mystic Flash as Nail's Ultimate Skill usable by the Future Warrior and Thunder Flash as Pikkon's Ultimate Skill usable by the Future Warrior. citeturn3search0turn3search6
+- **Mystic Flash** and **Thunder Flash** were found to be explicitly documented as Future Warrior techniques, so both are now `usable_by_cac: true`. The source identifies Mystic Flash as Nail's Ultimate Skill usable by the Future Warrior and Thunder Flash as Pikkon's Ultimate Skill usable by the Future Warrior. 
 - No race restriction was inferred for either record because the source does not establish one.
 - Skills commit: `cbb114e5cef2b499450dc937367d3b95e7a1e202`.
 
 
 ## 2026-09-19 Requiem of Destruction verification
 
-- **Requiem of Destruction** was removed from the null-CaC cohort. Its technique page explicitly lists the Future Warrior as a user and states that in Xenoverse 2 it is obtainable by the Future Warrior from New Parallel Quest 104, "Vados the Talent Scout." citeturn1search0
+- **Requiem of Destruction** was removed from the null-CaC cohort. Its technique page explicitly lists the Future Warrior as a user and states that in Xenoverse 2 it is obtainable by the Future Warrior from New Parallel Quest 104, "Vados the Talent Scout." 
 - The record is now `usable_by_cac: true`; no race restriction was inferred.
 - Skills commit: `6cc97745e9856af45e52d148aa3d40f6f14f7184`.
 
 
 ## 2026-09-19 DLC evidence boundary re-audit
 
-- Re-audited the remaining unresolved recent-DLC skills against explicit character/PQ evidence. Current sources continue to identify **God of Destruction's Plaything/Poise** as Belmod's skills and **Force Edge/Burning Blast** as SS3 Vegeta (DAIMA)'s skills; PQ reward listings establish acquisition availability but not automatically CaC eligibility. citeturn0search2turn0search5turn0search17turn0search1
-- The Future Saga Chapter 2 DLC source lists its seven new skills and four PQs, but does not establish individual CaC eligibility. citeturn0search0
+- Re-audited the remaining unresolved recent-DLC skills against explicit character/PQ evidence. Current sources continue to identify **God of Destruction's Plaything/Poise** as Belmod's skills and **Force Edge/Burning Blast** as SS3 Vegeta (DAIMA)'s skills; PQ reward listings establish acquisition availability but not automatically CaC eligibility. 
+- The Future Saga Chapter 2 DLC source lists its seven new skills and four PQs, but does not establish individual CaC eligibility. 
 - Preserved these records as unresolved instead of treating a PQ reward or character moveset as proof of CaC access.
 - Skills commit: `dd675147e02a668b79a8b94b2293a8d55d27fbf9`.
 
 
 ## 2026-09-19 DAIMA CaC evidence reconciliation
 
-- Explicit CaC evidence was found for **Force Edge, Burning Blast, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)**. A published Xenoverse 2 video specifically presents the DAIMA skills as "CaC Super & Ultimate Attacks," while additional community evidence documents Final Flash (SS3 DAIMA) and Burning Blast being used in CaC builds/combo testing. citeturn3youtube37turn3reddit38turn3reddit43
+- Explicit CaC evidence was found for **Force Edge, Burning Blast, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)**. A published Xenoverse 2 video specifically presents the DAIMA skills as "CaC Super & Ultimate Attacks," while additional community evidence documents Final Flash (SS3 DAIMA) and Burning Blast being used in CaC builds/combo testing. 
 - These four records are now `usable_by_cac: true`. No race restriction was inferred from these sources.
 - This is stronger than merely observing that the skills are PQ rewards or equipped by DAIMA characters, but the records remain `partially_verified` because exact reward-slot/drop semantics are still a separate verification requirement.
 - Skills commit: `9db1be415b06fbfde8288f0eb8e47548477b30f6`.
@@ -684,7 +684,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ## 2026-09-19 CaC build evidence correction
 
-- **God of Destruction's Plaything** was previously left unresolved because PQ reward/Belmod moveset evidence did not prove CaC access. A separate CaC build source explicitly lists the skill as usable in a custom-character moveset. citeturn0reddit42
+- **God of Destruction's Plaything** was previously left unresolved because PQ reward/Belmod moveset evidence did not prove CaC access. A separate CaC build source explicitly lists the skill as usable in a custom-character moveset. 
 - Corrected the canonical record to `usable_by_cac: true`; no race restriction was inferred.
 - This remains `partially_verified` because the exact acquisition/drop semantics are a separate evidence requirement.
 - Skills commit: `c4c98ee41354038d4e0701c8d82a0f18c52b0df3`.
@@ -693,16 +693,16 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 explicit DLC CaC reconciliation — second pass
 
 - Reconciled six remaining null-CaC records with stronger evidence: **Blaster Stream, God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark**.
-- Blaster Stream is explicitly documented as obtainable by the Future Warrior from PQ148. citeturn1search3
-- A DLC 17 CaC-focused source explicitly groups the Belmod, Jiren Full Power, and Goku Mini skills as **CaC Super & Ultimate Attacks**, covering God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark. citeturn1youtube29
-- Independent player testing also documents Full Power Destruction and God of Destruction's Poise being used on a CaC. citeturn1search5
+- Blaster Stream is explicitly documented as obtainable by the Future Warrior from PQ148. 
+- A DLC 17 CaC-focused source explicitly groups the Belmod, Jiren Full Power, and Goku Mini skills as **CaC Super & Ultimate Attacks**, covering God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark. 
+- Independent player testing also documents Full Power Destruction and God of Destruction's Poise being used on a CaC. 
 - All six are now `usable_by_cac: true`; no race restriction was inferred. Exact reward/drop semantics remain separate from CaC eligibility, so they remain `partially_verified`.
 - Skills commit: `6bb28b3140b30047c04a22436593cfc4feb55157`.
 
 
 ## 2026-09-19 Heat Wave CaC evidence
 
-- **Heat Wave** was found in a documented player CaC build, providing direct evidence of in-game custom-character use rather than relying on the skill's character/PQ provenance. citeturn4search4
+- **Heat Wave** was found in a documented player CaC build, providing direct evidence of in-game custom-character use rather than relying on the skill's character/PQ provenance. 
 - Corrected `usable_by_cac` to `true`; no race restriction was inferred from that build.
 - The record remains `partially_verified` because the build establishes use, not the complete acquisition/drop semantics.
 - Skills commit: `7e4650b290fdf48c6b1c237286b1a7772ff6cd25`.
@@ -711,8 +711,8 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 final null-CaC cohort closure
 
 - Closed the final three `usable_by_cac: null` records: **Dark Inscription, Emperor's Cannon, and Chaotic Time Impact**.
-- A DLC 20 CaC-focused source explicitly presents all three Golden Frieza skills as **CaC Super & Ultimate Attacks**. citeturn1youtube13
-- The Future Warrior technique reference establishes that the custom protagonist can learn character-origin techniques through the game's skill acquisition systems, but character preset ownership alone was not used as proof. citeturn0search5
+- A DLC 20 CaC-focused source explicitly presents all three Golden Frieza skills as **CaC Super & Ultimate Attacks**. 
+- The Future Warrior technique reference establishes that the custom protagonist can learn character-origin techniques through the game's skill acquisition systems, but character preset ownership alone was not used as proof. 
 - All three are now `usable_by_cac: true`; no race restriction was inferred from this evidence. Acquisition/drop gating remains separately marked as research where unresolved.
 - Skills commit: `256d88f05c339da6bfcab7a7c7b3f1d18bd68a1e`.
 
@@ -720,7 +720,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 race-restriction census kickoff
 
 - Recomputed the live skills cohort after closing the null-CaC audit: **283 total skill records, 270 CaC-usable, 202 CaC-usable records still lacking a race restriction value**.
-- The Future Warrior technique reference explicitly states that some techniques are race/gender/form exclusive and specifically identifies **Majin Kamehameha** as an imitation used by members of the Majin race. citeturn3view0turn1search1
+- The Future Warrior technique reference explicitly states that some techniques are race/gender/form exclusive and specifically identifies **Majin Kamehameha** as an imitation used by members of the Majin race. 
 - Updated **Majin Kamehameha** to `race_restriction: "Majin"`.
 - This is a restriction census, not a character-source inference: the repository will continue requiring explicit Future Warrior/CaC evidence before assigning a restriction.
 - Skills commit: `574e87cde26b8e8ed1bdaa410e7b59786e3e4305`.
@@ -728,7 +728,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ## 2026-09-19 race census — universal CaC batch
 
-- Used the Future Warrior technique reference to distinguish explicitly available techniques from race-exclusive techniques. The reference lists **Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, and Galick Gun** among Future Warrior techniques and provides no race restriction for these entries. citeturn0search1
+- Used the Future Warrior technique reference to distinguish explicitly available techniques from race-exclusive techniques. The reference lists **Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, and Galick Gun** among Future Warrior techniques and provides no race restriction for these entries. 
 - Reconciled all nine to `race_restriction: "All CaC races"` rather than leaving them ambiguous.
 - This is evidence of CaC availability across the selectable Future Warrior races; it is not inferred from the source character's race.
 - Skills commit: `d248c4be6598c338181efd83a9c5edbe1472e496`.
@@ -736,15 +736,15 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ## 2026-09-19 race census — universal technique batch 2
 
-- Reconciled **Candy Beam (Super)** as `All CaC races`: independent Xenoverse 2 documentation explicitly states the Super Buu (Gohan Absorbed) Candy Beam can be used by non-Majin characters, while the Evasive Candy Beam remains Majin-CaC-only. citeturn1search2turn1search10
-- Reconciled **Petrifying Spit** and **Kai Kai** as `All CaC races`: the Future Warrior reference lists both among the Warrior's general/all-race techniques, while separately identifying race-exclusive abilities elsewhere. citeturn2search5
+- Reconciled **Candy Beam (Super)** as `All CaC races`: independent Xenoverse 2 documentation explicitly states the Super Buu (Gohan Absorbed) Candy Beam can be used by non-Majin characters, while the Evasive Candy Beam remains Majin-CaC-only. 
+- Reconciled **Petrifying Spit** and **Kai Kai** as `All CaC races`: the Future Warrior reference lists both among the Warrior's general/all-race techniques, while separately identifying race-exclusive abilities elsewhere. 
 - Skills commit: `dc4fc4234876c747429e81a73cf8be8be4c946e6`.
 
 
 ## 2026-09-19 race census — explicit restriction batch
 
-- Reconciled **Zigzag Express → Majin male**. The Future Warrior reference explicitly says it can only be used by a male Majin, and the skill page independently states the same restriction. citeturn0search0turn0search3
-- Reconciled **Namek Finger → Namekian**. The Future Warrior reference explicitly identifies it as usable by a Namekian Future Warrior. citeturn0search3
+- Reconciled **Zigzag Express → Majin male**. The Future Warrior reference explicitly says it can only be used by a male Majin, and the skill page independently states the same restriction. 
+- Reconciled **Namek Finger → Namekian**. The Future Warrior reference explicitly identifies it as usable by a Namekian Future Warrior. 
 - Skills commit: `8425c7ed5804608fdbd38df7668d9495e94642a8`.
 
 
@@ -752,7 +752,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 - Recomputed the live race backlog: **189 CaC-usable skill records still have `race_restriction` unset**.
 - No new restriction was inferred in this pass. Instead, hardened provenance for the already reconciled race-specific cohort by adding the dedicated Future Warrior technique reference to **Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Quick Sleep, Ill Bomber, Burning Slash, Shining Slash, Evil Flight Strike, Namek Finger, and Majin Kamehameha**.
-- The reference explicitly distinguishes race/gender-restricted techniques from general Future Warrior techniques; examples include Saiyan Spirit (Saiyan), Explosive Buu Buu Punch/Ill Bomber/Quick Sleep (Majin), Zigzag Express (male Majin), Shining/Burning Slash (Human or Saiyan), Evil Flight Strike (Namekian or Majin), Namek Finger (Namekian), and Majin Kamehameha (Majin). citeturn2search0
+- The reference explicitly distinguishes race/gender-restricted techniques from general Future Warrior techniques; examples include Saiyan Spirit (Saiyan), Explosive Buu Buu Punch/Ill Bomber/Quick Sleep (Majin), Zigzag Express (male Majin), Shining/Burning Slash (Human or Saiyan), Evil Flight Strike (Namekian or Majin), Namek Finger (Namekian), and Majin Kamehameha (Majin). 
 - This pass intentionally made no blanket assumptions about the remaining 189 records.
 - Skills commit: `7dad27d834189474438cae340de541b1ad1ca168`.
 
@@ -760,14 +760,14 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## 2026-09-19 race/form census — Pure Majin batch
 
 - Reconciled six form-exclusive records from the Future Warrior technique reference: **Angry Shout, Vanishing Ball, Super Vanishing Ball, Teleporting Vanishing Ball, Pearl Flash, and Buu Buu Ball** → `Majin (Pure Majin form)`.
-- The reference explicitly places these techniques under **Purification (Pure Majin)** and identifies them as usable by the Pure Majin Future Warrior. It separately identifies Quick Sleep as a Majin technique and Pure Majin-specific in the form section. citeturn0search0
+- The reference explicitly places these techniques under **Purification (Pure Majin)** and identifies them as usable by the Pure Majin Future Warrior. It separately identifies Quick Sleep as a Majin technique and Pure Majin-specific in the form section. 
 - This distinction matters: these are not merely general Majin-race restrictions; their documented use is tied to the Pure Majin/Purification form.
 - Skills commit: `156e8fce946ffd4085ebb86e0accb41e943b0706`.
 
 
 ### Correction — Pure Majin batch representation check (2026-09-19)
 - Live `docs/data/skills.json` contains four of the six techniques discussed in the prior audit entry: **Angry Shout, Buu Buu Ball, Vanishing Ball, and Teleporting Vanishing Ball**. Those four are now explicitly marked `Majin (Pure Majin form)`.
-- **Pearl Flash** and **Super Vanishing Ball** are documented by the external Future Warrior reference as Pure Majin techniques, but they are **not currently represented as records in `skills.json`**, so no phantom records were created. They remain data-model/content backlog items rather than falsely being counted as reconciled records. citeturn0search0
+- **Pearl Flash** and **Super Vanishing Ball** are documented by the external Future Warrior reference as Pure Majin techniques, but they are **not currently represented as records in `skills.json`**, so no phantom records were created. They remain data-model/content backlog items rather than falsely being counted as reconciled records. 
 
 
 ## 2026-09-19 skill race-restriction evidence boundary
@@ -786,7 +786,7 @@ Added the independent Future Warrior technique reference to seven existing CaC-u
 
 ## 2026-09-19 Future Warrior provenance expansion — batch 2
 
-Added the independent Future Warrior technique reference to 20 existing CaC-usable records: **Burst Rush, Change The Future, God Breaker, Psychic Move, Atomic Blast, Burning Attack, Crazy Finger Shot, Death Psycho Bomb, Emperor's Blast, Charge, Blazing Attack, Burst Blitz, Evil Whirlwind, Freedom Kick, Mach Punch, Recoome Kick, Sauzer Blade, Final Explosion, Heat Dome Attack, and Victory Rush**. These edits strengthen evidence/provenance only. The reference establishes Future Warrior usage but does not by itself establish an all-race classification for each technique, so no `race_restriction` value was invented. citeturn1view0
+Added the independent Future Warrior technique reference to 20 existing CaC-usable records: **Burst Rush, Change The Future, God Breaker, Psychic Move, Atomic Blast, Burning Attack, Crazy Finger Shot, Death Psycho Bomb, Emperor's Blast, Charge, Blazing Attack, Burst Blitz, Evil Whirlwind, Freedom Kick, Mach Punch, Recoome Kick, Sauzer Blade, Final Explosion, Heat Dome Attack, and Victory Rush**. These edits strengthen evidence/provenance only. The reference establishes Future Warrior usage but does not by itself establish an all-race classification for each technique, so no `race_restriction` value was invented. 
 
 ## 2026-09-19 Future Warrior provenance expansion — batch 3
 
@@ -814,11 +814,11 @@ Cross-checked the source's explicitly stated Future Warrior race/gender restrict
 
 ## 2026-09-19 Death Psycho Bomb — explicit unrestricted evidence
 
-`Death Psycho Bomb` was the first new classification from the expanded independent-source pass. The dedicated technique page explicitly states that in Xenoverse 2 it can be obtained by the Future Warrior from PQ33 and **can be used by the Future Warrior regardless of race**. The canonical skill had `usable_by_cac: true` and a null `race_restriction`, so it is now classified as **All CaC races**. This is an evidence-backed classification, not an inference from Frieza ownership. citeturn2search0
+`Death Psycho Bomb` was the first new classification from the expanded independent-source pass. The dedicated technique page explicitly states that in Xenoverse 2 it can be obtained by the Future Warrior from PQ33 and **can be used by the Future Warrior regardless of race**. The canonical skill had `usable_by_cac: true` and a null `race_restriction`, so it is now classified as **All CaC races**. This is an evidence-backed classification, not an inference from Frieza ownership. 
 
 ## 2026-09-19 Justice Pose — explicit unrestricted evidence
 
-`Justice Pose` was reclassified from null to **All CaC races**. The dedicated source states that the Xenoverse 2 Super Skill can be used by the Future Warrior **regardless of race or gender** and distinguishes this from the separately named emote restriction. This directly matches the canonical CaC skill record. citeturn0search9
+`Justice Pose` was reclassified from null to **All CaC races**. The dedicated source states that the Xenoverse 2 Super Skill can be used by the Future Warrior **regardless of race or gender** and distinguishes this from the separately named emote restriction. This directly matches the canonical CaC skill record. 
 
 ## 2026-09-19 — dedicated technique provenance
 
