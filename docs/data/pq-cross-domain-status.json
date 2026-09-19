@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "scope": "PQ 1-186",
-  "status": "relationship_layer_reconciled_with_provenance_caveats",
+  "status": "relationship_index_populated_with_provenance_layers",
   "canonical_range": {
     "first": 1,
     "last": 186,
@@ -12,14 +12,14 @@
   "audit": "docs/data/pq-cross-domain-audit.json",
   "reverse_index_plan": "docs/data/pq-cross-domain-index.json",
   "current_edges": {
-    "skill": 229,
+    "skill": 232,
     "super_soul": 135,
-    "equipment": 53,
+    "equipment": 96,
     "character": 247,
     "dlc": 88,
     "farming": 7
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Resolve remaining normalized reward-map provenance drift against independent sources; do not delete forward edges solely because a partially verified batch has an empty reward field."
+  "next_gate": "Reconcile remaining reward provenance drift against independent sources; distinguish source_normalized from source_backed."
 }
