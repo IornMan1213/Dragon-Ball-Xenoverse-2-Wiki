@@ -1,3 +1,9 @@
+## September 2026 — PQ31–40 Provenance Pass
+- Added record-level provenance to **PQ31–PQ40** with 2026-09-19 verification dates.
+- Cross-checked objectives and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish/objective references; no unsupported reward-slot percentages were introduced.
+- Preserved the explicit PQ36 numbering/existence conflict rather than silently normalizing it.
+- Repository-wide PQ provenance gap is now **82 of 176 records** without individual `sources` arrays.
+
 ## September 2026 — PQ21–30 Provenance and Reward Reconciliation
 - Added explicit record-level `sources` arrays to all **PQ21–PQ30** records in `docs/data/parallel-quest-research-batches/pq-batch-03.json`.
 - Reconciled their basic reward lists against the maintained 186-PQ transcription and independent PQ tables, correcting incomplete reward data in the batch.
