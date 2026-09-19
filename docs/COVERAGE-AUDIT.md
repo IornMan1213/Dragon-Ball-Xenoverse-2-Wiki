@@ -2063,3 +2063,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ 47 and PQ 57 remain without a skill in the referenced basic reward table; no skill was invented for them. PQ 59-60 were already populated and retained.
 - Added the current all-186 Steam reference to all PQ 41-60 source arrays.
 - Data commit: **cdb07c22c96b28d4acaa355a7a29a3d77cf42edf**.
+
+
+## 2026-09-19 — PQ 61-80 skill-reward provenance pass
+
+- Reconciled PQ 61-80 canonical skill rewards against the current all-186 Steam reward listing and supporting references. citeturn0search1turn1search2turn1search4
+- Added skill-reward fields for the full PQ 61-80 range and added the current all-186 source to each record.
+- PQ 66 was specifically cross-checked against independent GameFAQs/Steam evidence and recorded as **Candy Beam**, not the conflicting `Warp Kamehameha` value present in the partial normalization map. citeturn1search0turn1search1
+- The normalization map remains partial; its empty arrays are not treated as negative evidence.
+- Data commits: `482dd3e44fefbbde853e62163c2fd7630e0ce90b` and correction `3bbce3ccc4e7ec3d9ff311fa38263d649382d107`.
