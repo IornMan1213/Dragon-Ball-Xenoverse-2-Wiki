@@ -82,7 +82,7 @@ Known completed frontier:
 - PQ161–186: later-batch reward/unlock semantics enriched; exact unknown percentages remain unresolved rather than fabricated.
 - PQ184 Chaotic Time Impact: documented as a 50% Ultimate Finish bonus-slot drop.
 
-**Next exact PQ task: PQ101–110.**
+**Next exact PQ task: PQ111–120.**
 First recompute the live unlock census instead of trusting historical counts.
 
 ### P1 — Awoken / Transformations
@@ -127,16 +127,16 @@ Only after data-completeness work, expose the improved structured research surfa
 
 ### Next exact action
 1. Recompute the live PQ unlock census.
-2. Research **PQ61–70** individually.
-3. Prioritize NPC, story, and prerequisite-PQ evidence.
+2. Research **PQ111–120** individually.
+3. Prioritize DLC ownership, PQ-board availability, NPC/story/progression gates, and prerequisite-PQ evidence.
 4. Do not manufacture sequential prerequisites.
-5. Update the relevant batch.
+5. Update the relevant batch with record-level sources.
 6. Update `docs/COVERAGE-AUDIT.md`.
-7. Update this file with the new state.
-8. Commit the complete cycle.
+7. Inspect GitHub Actions without weakening validators.
+8. Update this file with the new state and commit the complete cycle.
 
 ### Latest known PQ unlock census
-Latest numeric unlock-field reference should be recomputed from all 18 batch files before each cycle. Do not equate field presence with exact-route verification.
+**176 canonical PQ records across 18 research batches; 54 currently lack an explicit `unlock_condition` field.** The remaining missing records are PQ36, PQ53–55, PQ111–140, and PQ151–160. Field presence is not equivalent to exact-route verification.
 
 ## Recent commits
 
@@ -157,6 +157,18 @@ Latest numeric unlock-field reference should be recomputed from all 18 batch fil
 - `docs/data/equipment-accessories-record-layer.json`
 - `.github/workflows/`
 - `scripts/`
+
+### 2026-09-19 cycle update — PQ101–110
+- Workstream: Parallel Quest unlock-route research.
+- Recomputed all 18 canonical PQ research batches: 176 records total; 54 records remain without an explicit unlock_condition.
+- Researched PQ101–110 individually using current Madreag datamined quest records plus the maintained Steam PQ guide, GameFAQs UF discussion, and DLC mapping.
+- PQ101–103 now record Super Pack 1 ownership + PQ-board availability; PQ104–106 use Super Pack 2; PQ107–109 use Super Pack 3; PQ110 uses Super Pack 4.
+- Added record-level source URLs to all PQ101–110 records and preserved unresolved reward-slot semantics where evidence was insufficient.
+- Updated `docs/data/parallel-quest-research-batches/pq-batch-11.json` and `docs/COVERAGE-AUDIT.md`.
+- Commits: `7e74ea206ff4672d0501e96e2a083d23ee38f540` (PQ101–110 research), `2ec23fb1c2db0048094413c78b90a25c08dcde97` (coverage census).
+- Validation/CI: push-triggered Wiki data audit, Repository quality, and cleanup runs failed with jobs exposing no steps/logs; this remains an infrastructure/runner/account signal and validators were not weakened. A Pages deployment run for the latest commit was queued at inspection time.
+- Current unresolved unlock records: PQ36, PQ53–55, PQ111–140, PQ151–160 (54 total). Exact reward-slot semantics remain unresolved in many earlier records and are a separate research dimension.
+- Next exact task: **PQ111–120**; repeat the live census first and treat DLC ownership/version provenance as first-class evidence.
 
 ### 2026-09-19 cycle update — PQ71–100
 - Workstream: Parallel Quest unlock-route research.
