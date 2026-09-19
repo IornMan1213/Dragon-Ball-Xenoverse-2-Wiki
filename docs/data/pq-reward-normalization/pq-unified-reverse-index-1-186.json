@@ -38,10 +38,12 @@
       10
     ],
     "Time Control": [
-      11
+      11,
+      18
     ],
     "Mach Dash": [
-      11
+      11,
+      18
     ],
     "Mach Punch": [
       19
@@ -104,7 +106,8 @@
       65
     ],
     "Warp Kamehameha": [
-      66
+      66,
+      76
     ],
     "Ki Explosion": [
       77
@@ -215,7 +218,8 @@
       113
     ],
     "Candy Beam": [
-      113
+      113,
+      66
     ],
     "Petrifying Spit": [
       114
@@ -576,6 +580,123 @@
     ],
     "Venus Fist": [
       186
+    ],
+    "Meteor Strike": [
+      6
+    ],
+    "Shine Shot": [
+      7
+    ],
+    "Earth Splitting Galick Gun": [
+      11
+    ],
+    "Evil Flight Strike": [
+      21
+    ],
+    "Energy Shot": [
+      22
+    ],
+    "Death Slash": [
+      23
+    ],
+    "Double Death Slicer": [
+      24
+    ],
+    "Spirit Explosion": [
+      25
+    ],
+    "Crazy Finger Shot": [
+      26
+    ],
+    "Sauzer Blade": [
+      27
+    ],
+    "Spread Shot Retreat": [
+      28
+    ],
+    "Freedom Kick": [
+      29
+    ],
+    "Energy Field": [
+      29
+    ],
+    "Energy Barrier": [
+      32
+    ],
+    "Death Psycho Bomb": [
+      33
+    ],
+    "Crusher Ball": [
+      34
+    ],
+    "Paralysis": [
+      34
+    ],
+    "Evil Whirlwind": [
+      36
+    ],
+    "Instant Rise": [
+      37
+    ],
+    "Shining Slash": [
+      38
+    ],
+    "Chain Destructo-disc Barrage": [
+      46
+    ],
+    "Explosive Buu Buu Punch": [
+      50
+    ],
+    "Burst Rush": [
+      51
+    ],
+    "Final Cannon": [
+      52
+    ],
+    "Justice Pose": [
+      53
+    ],
+    "Victory Cannon": [
+      54
+    ],
+    "Super Donut Volley": [
+      55
+    ],
+    "Stone Bullet": [
+      56
+    ],
+    "Vanishing Ball": [
+      58
+    ],
+    "Fighting Pose H": [
+      61
+    ],
+    "Super God Fist": [
+      67
+    ],
+    "Angry Shout": [
+      68
+    ],
+    "Headshot": [
+      69
+    ],
+    "Emperor's Blast": [
+      70
+    ],
+    "Last Emperor": [
+      71
+    ],
+    "Burst Kamehameha": [
+      72
+    ],
+    "Psychic Move": [
+      73
+    ],
+    "Final Pose": [
+      74
+    ],
+    "Counter Burst": [
+      75
     ]
   },
   "super_souls": {
@@ -810,7 +931,8 @@
       137
     ],
     "I'm not gonna die until I defeat you!": [
-      151
+      151,
+      138
     ],
     "I just flew around the whole world!": [
       138
@@ -1229,6 +1351,96 @@
     ],
     "Perfect Cell's Wings": [
       45
+    ],
+    "Goku Wig (Ultra Instinct)": [
+      125
+    ],
+    "Janemba Head": [
+      127
+    ],
+    "Broly Wig (Legendary Super Saiyan)": [
+      132
+    ],
+    "Kakunsa's Wig and Mask": [
+      133
+    ],
+    "Kakunsa's Tail": [
+      133
+    ],
+    "Rozie's Hood and Goggles": [
+      135
+    ],
+    "Universe 7 Baseball Cap": [
+      139
+    ],
+    "Caulifla Wig": [
+      147
+    ],
+    "Kale Wig": [
+      148
+    ],
+    "Bulma (Kid) Wig": [
+      149
+    ],
+    "Android 17 (DB Super) Ranger Wig": [
+      152
+    ],
+    "King Vegeta (DB Super) Wig": [
+      154
+    ],
+    "Gamma 2 Helmet": [
+      155
+    ],
+    "Gamma 1's Helmet": [
+      156
+    ],
+    "Dr. Hedo Hood": [
+      159
+    ],
+    "Red Ribbon Army Helmet": [
+      160
+    ],
+    "Gohan (Beast) Wig": [
+      162
+    ],
+    "Piccolo's Turban": [
+      3
+    ],
+    "Four-Star Dragon Ball Hat": [
+      5
+    ],
+    "Chiaotzu's Hat (With Collar)": [
+      9
+    ],
+    "Goku Wig (Super Saiyan)": [
+      63
+    ],
+    "SSGSS Goku Wig": [
+      66
+    ],
+    "SS4 Goku (DAIMA) Wig & Tail": [
+      179
+    ],
+    "SS3 Vegeta (DAIMA) Wig": [
+      180
+    ],
+    "Glorio Wig": [
+      181
+    ],
+    "Panzy Wig": [
+      181
+    ],
+    "Golden Frieza Head": [
+      182
+    ],
+    "Broly Wig (Black Hair, Normal)": [
+      183
+    ],
+    "Dragon Ball Balloon": [
+      184
+    ],
+    "Goku (Ultra Supervillain Quelled) Wig": [
+      185
     ]
   },
   "accessories": {
@@ -1351,7 +1563,8 @@
     "DLC reverse entries now cover every explicit pq_requires_dlc edge in the current forward relationship layer.",
     "Farming reverse entries reflect explicit repeatable-route flags only; they do not assert guaranteed reward drops.",
     "Character reverse index remains empty until explicit character-feature edges are established; enemy appearance is not converted into reward attribution.",
-    "2026-09-19: Added 24 canonical typed reward entries missing from the forward relationship layer (10 Super Souls, 14 equipment). Equipment subtype placement in this reverse index follows the canonical batch reward naming; source fields remain authoritative for exact subtype where provided."
+    "2026-09-19: Added 24 canonical typed reward entries missing from the forward relationship layer (10 Super Souls, 14 equipment). Equipment subtype placement in this reverse index follows the canonical batch reward naming; source fields remain authoritative for exact subtype where provided.",
+    "2026-09-19: Reverse index extended from the forward relationship layer after adding 46 source-normalized reward edges."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -1896,9 +2109,9 @@
     ]
   },
   "current_relationship_counts": {
-    "skill": 229,
+    "skill": 232,
     "super_soul": 135,
-    "equipment": 53,
+    "equipment": 96,
     "character": 247,
     "dlc": 88,
     "farming": 7
