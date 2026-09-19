@@ -2656,3 +2656,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `5bab0a70c05064b9044ab7d25f93e20255058eb7`.
 - Coverage audit commit: `0a473b4bf4d9fab0845bb2dd6f60b05096751354`.
 - Exact next task: continue the bounded Basic Reward evidence pass across the remaining nullable records; preserve `null` when a reward-section gate is not established.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 30
+- Resolved **Prominence Flash (PQ137)** and **Ribrianne's Eternal Love (PQ137)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. citeturn0search0turn0search1
+- Live nullable Super/Ultimate census: **25 total — 24 Super / 1 Ultimate**.
+- Skills commit: `ea9f5e9d0386a40baa0b4447d62e542b0cb464e9`.
+- Coverage audit commit: `462206e7d9666566542594a00ee6788257898573`.
+- Exact next task: finish the bounded evidence pass on the remaining nullable Ultimate records; do not infer UF gating from RNG or general PQ association.
