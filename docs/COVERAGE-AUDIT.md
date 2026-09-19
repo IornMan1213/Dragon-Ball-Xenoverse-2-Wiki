@@ -1622,3 +1622,14 @@ Reconciled the next seven live skill records after Godly Display: **Power Rush, 
 - No unsupported race restriction was inferred from character ownership alone.
 - Live dataset remains **283 total / 269 CaC-usable**; this cohort reduces the unresolved CaC race-field census by seven where explicit scope was supportable.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Burst Rush through God Breaker
+
+Reviewed the first eight remaining CaC-usable skills with `race_restriction: null`: **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, and God Breaker**.
+
+- The null race field is now explicitly documented as **intentional unresolved restriction status**, not an unreviewed omission: current Future Warrior technique listings include these skills without attaching a CaC race/gender/form restriction. citeturn1search5turn1search10
+- Counter classification was cross-checked against the current Counter Skill taxonomy: Burst Rush and God Breaker are melee/strike counters; Change The Future and Counter Burst are Ki counters; Flash Fist Crush is a universal counter. citeturn1search0
+- No race restriction was inferred merely from the associated character. This is consistent with the repository's research rule and the evidence that Future Warrior availability is separate from character ownership. citeturn0search2turn1search5
+- No fabricated restrictions, unlock routes, or drop conditions were added.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**; these eight remain null because evidence does not establish a restriction.
