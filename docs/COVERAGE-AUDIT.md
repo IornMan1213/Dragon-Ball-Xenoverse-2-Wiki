@@ -1645,3 +1645,14 @@ Reviewed the next eight CaC-usable skills with null `race_restriction`: **Heroic
 - No restriction was inferred from Gamma 2, SSGSS Gogeta, Android 17, Piccolo, or other character associations.
 - No unsupported acquisition condition or drop requirement was added.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Time Skip/Back Breaker through Explosive Wave
+
+Reviewed the next eight CaC-usable skills with null `race_restriction`: **Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Absolute Zero, Celestial Wave, Dragon Burn, and Explosive Wave**.
+
+- The reviewed evidence establishes Future Warrior/CaC availability but no explicit CaC race/gender/form restriction for these records; null race fields remain intentional.
+- The Time Skip trio retain their 100-Ki Strike Super / Hit-training mechanics. Ultrasonic Blitz remains the 100-Ki Strike Super from PQ151. Absolute Zero, Celestial Wave, and Dragon Burn remain 300/300/200-Stamina Ki Blast Evasives respectively; Explosive Wave remains the 300-Stamina Skill Shop Evasive.
+- Character association was not converted into a race restriction.
+- No unsupported acquisition or drop condition was introduced.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
