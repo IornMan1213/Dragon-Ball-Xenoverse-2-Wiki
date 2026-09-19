@@ -2324,7 +2324,7 @@
       "skill_description": "Handy Canon is a Super Ki Blast skill associated with Android 13.",
       "mechanics_notes": "Dedicated current-version evidence confirms Handy Canon as a **100-Ki Ki Blast Super** from PQ115. It fires a cancellable barrage of Ki Blasts.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2349,7 +2349,7 @@
       "skill_description": "Headshot is a Super Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "Dedicated current-version evidence corrects Headshot to a **Strike Evasive**, using **300 Stamina**, obtained from PQ69. The prior 100-Ki Ki Blast Super classification was incorrect.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2374,7 +2374,7 @@
       "skill_description": "Heat Wave is a Super Ki Blast skill associated with SS4 Goku (DAIMA).",
       "mechanics_notes": "Dedicated current-version evidence corrects Heat Wave to a **200-Ki Strike Super** from PQ179. It charges, repels Ki Blasts during its rush, and can break guard when fully charged.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
@@ -2398,7 +2398,7 @@
       "skill_description": "Ill Bomber is a Super Ki Blast skill associated with Super 17.",
       "mechanics_notes": "Dedicated current-version evidence confirms Ill Bomber as a **100-Ki Ki Blast Super** from PQ90. It is an unblockable close-range explosion that makes the user invisible; it is restricted to Majin CaCs.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -2424,7 +2424,7 @@
       "skill_description": "Ill Rain is a Super Ki Blast skill associated with Janemba.",
       "mechanics_notes": "Confirmed as Janemba's 100-Ki Ki Blast Super from PQ64. The projectile/orb can produce separate hits; detailed drop gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2447,7 +2447,7 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ05 and usable by all CaC races. It has three charge levels.",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "race_restriction": "All CaC races"
     },
     {
@@ -2460,7 +2460,7 @@
         "https://dragonball.fandom.com/wiki/Masenko"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "unlock_method": "Gohan (Kid) mentor training, School Quest Lesson 2",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
@@ -2485,7 +2485,7 @@
       "skill_description": "Paralysis is a Super Ki Blast skill associated with Ginyu Force.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ34. The skill immobilizes the target; exact drop gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
