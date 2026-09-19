@@ -1855,3 +1855,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: 1d2599d67fc1bd963cdd3fb43424e8179f991630.
 - Live census: 283 total / 269 CaC-usable / 100 CaC-usable with null race restriction.
 - Exact next task: continue with **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, Spread Shot Retreat** after recomputing the live dataset.
+
+
+### 2026-09-19 continuation — Force Shield through Spread Shot Retreat
+- Reviewed 8 null-race CaC-usable records: Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, Spread Shot Retreat.
+- Added explicit All CaC races scope to all eight; no narrower CaC race/gender/form restriction was established.
+- Data commit: 921ddbf015777460af175e72944c2f2bc15257ed.
+- Audit commit: 6d155944c4da900a716f3955610ee490bf69eaef.
+- Live census: 283 total / 269 CaC-usable / 92 CaC-usable with null race restriction.
+- Exact next task: continue with **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, Blaster Ball** after recomputing the live dataset.
