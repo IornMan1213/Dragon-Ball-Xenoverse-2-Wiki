@@ -2282,3 +2282,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Preserved nullable `ki_cost` values because Evasive activation consumes Stamina; additional Ki consumption for sustained barriers is a separate mechanic.
 - Updated `docs/COVERAGE-AUDIT.md` and `docs/data/skills.json`.
 - Next exact task: **recompute the remaining Evasive null census and target only fields with direct item-level evidence; do not convert Evasive Ki nulls to zero.**
+
+
+### 2026-09-19 continuation — Evasive damage-type follow-up
+- Resolved the final two Evasive damage_type nulls with direct classifications: Explosive Wave = Ki Blast; Mach Dash = Other/Power Up.
+- Evasive damage-type census is now complete for all 22 Evasive records.
+- Remaining Evasive nulls are primarily ki_cost, dlc_requirement, and ultimate_finish_required; these remain evidence queues, not automatic defects.
+- Next exact task: target a small evidence-backed acquisition/DLC or Ultimate-Finish metadata batch; do not bulk-fill Evasive Ki costs.
