@@ -1446,3 +1446,14 @@ Reconciled **Shield Barrier, Solar Flare, Spirit Boost, Super Guard, Surging Spi
 - Surging Spirit remains restricted in practice to CaCs using the Ultra Instinct access path; its existing **All CaC races while using Ultra Instinct** wording is retained.
 - Time Bullet remains character-exclusive/non-CaC.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Wall of Defense through Fighting Pose K
+
+Reconciled **Wall of Defense, Charge, Data Input, Divinity Unleashed, Do or Die, Fighting Pose E, Fighting Pose H, and Fighting Pose K**.
+
+- All eight records remain CaC-usable.
+- Current evidence supports **All CaC races** for the cohort; no narrower race/gender/form restriction was inferred from mentor/character association alone.
+- Fighting Pose H retains the corrected Guldo attribution.
+- Charge, Data Input, Divinity Unleashed, and the Fighting Pose skills retain their current acquisition/mechanics records pending stronger numerical/drop evidence where applicable.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
