@@ -904,3 +904,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `26f671904498064085a7361881fb6161a0b3e442`.
 - Coverage commit: `f656c0dada47a8f9a9bb5ea3e59a5c0d77f2fd09`.
 - Continue exact-name research of the remaining null-race cohort.
+
+### 2026-09-19 cycle update — Counter Burst dedicated provenance
+- Added dedicated `Counter Burst` provenance confirming the Xenoverse 2 skill and Future Warrior PQ75 acquisition route.
+- No race classification was inferred because the source does not explicitly establish one.
+- Skills commit: `4100878419655f176a6d3125242355b20b257bdf`.
+- Coverage commit: `5ab2663a7cad21144e537e93b1a84255f8110bb3`.
+- Continue the null-race explicit-evidence sweep.
