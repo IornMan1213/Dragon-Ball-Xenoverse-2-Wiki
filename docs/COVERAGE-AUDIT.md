@@ -877,3 +877,8 @@ Reviewed the next 12 null-race CaC records: **Super Ghost Buu Attack, Variable S
 - No `race_restriction` values were changed in this cohort. This is an evidence-boundary result, not an assumption that the skills are restricted.
 
 Sources consulted include the accessible Future Warrior technique reference, dedicated Xenoverse 2 skill pages, the official Dragon Ball announcement for Variable Snipe Shot, and legacy Xenoverse skill pages used only to identify version-sensitive evidence boundaries.
+
+
+## 2026-09-19 — null-race counter provenance batch
+
+Reviewed the next unresolved cohort: **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker, Heroic Counter, Punisher Shield, Reverse Mabakusenko, and Rough Ranger**. Dedicated Xenoverse 2 technique pages were added as direct provenance for **Counter Impact, Flash Fist Crush, God Breaker, Heroic Counter, Punisher Shield, and Rough Ranger**. These pages establish the technique identity, user/acquisition details, and mechanics, but do **not** provide an explicit CaC race/gender/form restriction or an explicit unrestricted-race statement. Consequently, all 12 records retain their existing null race_restriction values. Character ownership and the counter-skill category were not treated as race evidence.

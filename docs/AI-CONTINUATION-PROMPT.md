@@ -966,3 +966,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - No canonical race classifications changed. Coverage commit: 4a142e80e3fe46a6fc64c8049dea52fd1cba5106.
 - CI remains opaque: current-head Repository quality and cleanup runs failed with no recorded job steps; validators were not weakened.
 - Exact next task: continue the next unresolved null-race cohort with current-version explicit evidence only.
+
+
+### 2026-09-19 cycle update — counter-skill provenance batch
+- Reviewed the next 12 unresolved null-race records: Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker, Heroic Counter, Punisher Shield, Reverse Mabakusenko, and Rough Ranger.
+- Added direct Xenoverse 2 technique-page provenance to Counter Impact, Flash Fist Crush, God Breaker, Heroic Counter, Punisher Shield, and Rough Ranger.
+- The checked dedicated pages establish skill identity, acquisition/user information, or mechanics but do not explicitly establish CaC race/gender/form scope. No race_restriction values were changed.
+- Character ownership and generic Counter Skills categorization were not treated as race evidence.
+- Canonical skill count remains 283 and the unresolved CaC null-race count remains 183.
+- Exact next task: continue with the following unresolved cohort beginning at Shadow Crusher, preserving nulls unless current-version evidence explicitly establishes restriction or unrestricted access.
