@@ -2452,3 +2452,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved `God Breaker` (`PQ44`) to `false`: acquisition evidence identifies a direct Future Trunks reward route rather than an Ultimate Finish-gated drop.
 - Data commit: `0741304e5ed8e750bd1c57e391e60a909c122ec6`.
 - Next task: recompute the null census and continue with the remaining PQ candidates using the same explicit-gate standard.
+
+
+### 2026-09-19 continuation — next PQ candidate audit
+- Inspected Heroic Counter (PQ155), Punisher Shield (PQ129), Ultrasonic Blitz (PQ151), and Dimensional Hole (PQ80), including their existing provenance and repository-indexed UF searches.
+- No explicit skill-level evidence tying any of the four to an Ultimate Finish was found in the repository.
+- No data changes made; the fields remain `null` under the evidence threshold.
+- Current nullable Super/Ultimate count remains **158**.
+- Next task: continue with the remaining records, prioritizing dedicated acquisition guides/datamined reward tables that identify ordinary versus Ultimate Finish reward slots.
