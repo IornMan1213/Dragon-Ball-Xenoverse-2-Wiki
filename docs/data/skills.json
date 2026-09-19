@@ -1550,7 +1550,7 @@
       "skill_description": "Burst Kamehameha is a Super Ki Blast skill associated with Goku.",
       "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1575,7 +1575,7 @@
       "skill_description": "Burst Stinger is a Super Ki Blast skill associated with Goku (Ultra Instinct).",
       "mechanics_notes": "Current evidence confirms Burst Stinger as a 100-Ki Ki Blast Super from PQ136, with Ultimate Finish required in the dataset's acquisition record. No unsupported CaC race/gender/form restriction was inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1601,7 +1601,7 @@
       "skill_description": "Buu Buu Ball is a Super Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "Current evidence confirms Buu Buu Ball as a 100-Ki Ki Blast Super from PQ88. The existing explicit Pure Majin-form restriction is retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -1628,7 +1628,7 @@
       "skill_description": "Candy Beam is a Super Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "Current evidence confirms the base Candy Beam record as a 100-Ki Ki Blast Super from PQ66. The current record's explicit Majin CaC restriction is retained; the 200-Ki Candy Beam (Super) variant is a separate skill entry.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1654,7 +1654,7 @@
       "skill_description": "Candy Beam (Super) is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
       "mechanics_notes": "Dedicated current-version evidence confirms Candy Beam (Super) as a 200-Ki Ki Blast Super from PQ113. It transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage; the existing all-CaC-races restriction is retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1678,7 +1678,7 @@
       "skill_description": "Crazy Finger Shot is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "Dedicated current-version evidence confirms Crazy Finger Shot as a 100-Ki Ki Blast Super from PQ26. Holding the input extends the attack to up to 14 blasts, consuming up to 800 Ki total; existing all-CaC-races restriction retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1705,9 +1705,9 @@
       "source_quest_or_shop": "PQ182",
       "ultimate_finish_required": null,
       "skill_description": "Dark Inscription is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
-      "mechanics_notes": "Dedicated current-version evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182. Additional inputs spend more Ki, generate more rifts, and build Power of Time; no unsupported CaC restriction inferred.",
+      "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
@@ -1731,7 +1731,7 @@
       "skill_description": "Death Psycho Bomb is a Super Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "Dedicated current-version evidence confirms Death Psycho Bomb as a 100-Ki Ki Blast Super from PQ33. It is a psychic grab/trap that catches the opponent and causes an explosion; existing all-CaC-races restriction retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
