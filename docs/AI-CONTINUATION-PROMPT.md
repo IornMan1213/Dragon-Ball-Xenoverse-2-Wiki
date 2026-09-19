@@ -274,3 +274,17 @@ A new AI chat must be able to continue from this file without depending on the p
 - Exact next task: **reconcile record-level PQ provenance and reward/acquisition/version semantics**, starting with unresolved reward-slot semantics and older records lacking record-level `sources`; then continue the next P1 coverage track according to the live TODO and validation state.
 
 - Commits for this cycle: `cadb477aa7442bc338521e9929162c429242a5c6` (PQ36), `110e02c1f42242c3c8ae8d24a6dff3924df0b951` (PQ53–55), `ae50088213a92b7ad34e6ce413bf8a3f5e962f17` (coverage audit), `ca89b37745f925ad13f9f4ef9bfaacd3fdd67f7d` (changelog), and `6359d8ee9622c029b9bcef669178e00812c07178` (handoff).
+
+
+### 2026-09-19 cycle update — PQ1–10 record-level provenance
+- Workstream: Parallel Quest provenance and reward/acquisition evidence cleanup.
+- Live PQ census remains **176 canonical records across 18 research batches; 0 records lack an explicit `unlock_condition` field**.
+- Recomputed the batch-level provenance gap before editing: **122 of 176 records lacked an individual `sources` array**. This is distinct from unlock-field completeness and is now treated as a separate evidence-quality gap.
+- Completed the first bounded provenance pass on **PQ1–PQ10**. All ten records now have explicit record-level source URLs and a 2026-09-19 verification date.
+- Sources used: maintained 186-PQ Steam transcription, Steam PQ reward transcription, and an independent quest-objective reference. These support the documented quest identity/objectives/rewards; exact reward-slot/drop percentages remain unresolved where the sources do not establish them.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-01.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `9106443db5f7469806c87b32d8dca7a17b7e5384` (PQ1–10 provenance), `060abb3d86283dd26338ab0cae89901dd3558d64` (coverage audit), `d26d8e99ec1f482a787559473d3de83260d13888` (changelog).
+- Validation: all 18 PQ batches were fetched and parsed before the pass; total remains 176. PQ1–PQ10 now have record-level sources. Repository text search found no ChatGPT/UI citation artifacts or tool-result identifiers.
+- CI: the latest changelog commit has no associated workflow runs and no reported status checks through the available GitHub connector. No validator was weakened. Continue treating missing/opaque Actions execution as an infrastructure/account signal until actionable logs appear.
+- Remaining provenance gap after this pass: **112 PQ records still lack individual `sources` arrays**. Reward-slot semantics remain a separate unresolved field across many records.
+- Exact next task: **continue the record-level provenance pass with PQ11–PQ20**, while checking their existing reward/acquisition claims against the maintained PQ transcription and an independent source. Preserve unresolved reward-slot/drop semantics rather than inferring them; then update the coverage audit, changelog, and this handoff and inspect Actions again.
