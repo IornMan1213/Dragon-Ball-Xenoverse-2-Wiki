@@ -21,7 +21,7 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Audit relationship schema/documentation consumers and verify all current relationship artifacts are internally consistent before the cross-domain layer is considered stable.",
+  "next_gate": "Run a final cross-domain reconciliation against the live relationship artifacts and handoff, then record the stable baseline and leave only evidence-driven expansion work in the queue.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -124,5 +124,58 @@
       },
       "status": "clean"
     }
+  },
+  "schema_documentation_consumer_review": {
+    "date": "2026-09-19",
+    "scope": "relationship schema/documentation consumer integrity",
+    "schema_versions": {
+      "forward": "1.0",
+      "reverse": "1.0",
+      "reconciliation": "1.0",
+      "audit": "1.0",
+      "status": "1.0"
+    },
+    "counts": {
+      "forward": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 88,
+        "farming": 7
+      },
+      "audit": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 88,
+        "farming": 7
+      },
+      "status": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 88,
+        "farming": 7
+      },
+      "reverse": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 88,
+        "farming": 7
+      }
+    },
+    "alignment": true,
+    "reverse_character_alias_count": 5,
+    "notes": [
+      "All five relationship artifacts use schema_version 1.0.",
+      "Forward, reverse, audit, and status counts agree at 840 total edges.",
+      "Reverse index generated_from intentionally names six normalized reward-map files; the canonical 015-020 through 163-186 batch files are separate evidence and are not incorrectly substituted for the partial normalized maps.",
+      "No schema migration or consumer-facing field change is required in this tranche."
+    ]
   }
 }
