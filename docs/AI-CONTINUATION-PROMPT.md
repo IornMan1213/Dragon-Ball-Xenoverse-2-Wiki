@@ -1646,3 +1646,17 @@ A new AI chat must be able to continue from this file without depending on the p
 - Updated docs/data/skills.json. Live census: 283 total / 269 CaC-usable / 140 CaC-usable with null race restriction.
 - Data commit: ad1111aca24c4c45e574c10e895d76e3b015c322. Coverage commit: 26ddcd012f14cbcf3f9ecf7d51d9c5657172d208.
 - Exact next task: recompute the live dataset order and continue with the next eight records after Darkness Rush (Melee). Preserve null restrictions where explicit evidence remains insufficient.
+
+
+### 2026-09-19 continuation — Darkness Rush (Ranged) through Godly Display
+- Workstream: P1 canonical skill race-restriction census and mechanics reconciliation.
+- Recomputed the live canonical dataset before/after the edit: **283 total / 269 CaC-usable / 138 CaC-usable with null race restriction**.
+- Reconciled **Darkness Rush (Ranged), Divine Lasso, Divine Wrath: Purification, Dragon Fist, Explosive Buu Buu Punch, Final Rampage, Gigantic Rage, and Godly Display**.
+- Corrected stale classifications/mechanics: Divine Wrath: Purification -> **Ki Blast Ultimate / 300 Ki**; Explosive Buu Buu Punch -> **Strike Super / 100 Ki**; Gigantic Rage -> **Strike Super / 200 Ki**. Darkness Rush (Ranged) remains Namekian-only; Explosive Buu Buu Punch remains Majin-only; the other reviewed CaC-usable skills carry explicit All CaC races where current Future Warrior evidence supports it.
+- Evidence used: Xenoverse 2-specific skill pages, maintained Future Warrior/skill references, the maintained 186-PQ Steam guide, official Bandai Namco TP Medal Shop scheduling, and current/archival player evidence where useful. Character ownership alone was not used as a race restriction.
+- Updated docs/data/skills.json and docs/COVERAGE-AUDIT.md.
+- Data commit: 79b9c9bbefcaf3156451912d0f62b4c410cd0cfd. Audit update follows in this cycle.
+- Validation: skills.json parses successfully; target cohort classifications, race fields, and Ki costs were re-read from the live file. No validator was weakened.
+- CI: inspect the push-triggered workflow status for the new data/audit commits; prior opaque pre-step failures remain infrastructure/account signals unless actionable logs appear.
+- Current unresolved skill race-restriction count: **138 CaC-usable records with null race_restriction**. This is a live field census, not a claim that all 138 are restricted.
+- Exact next task: recompute the live skill order and continue with the next eight records after **Godly Display**. Preserve null restrictions where explicit evidence remains insufficient; continue correcting stale class/category/mechanics data when the same evidence directly establishes a correction.
