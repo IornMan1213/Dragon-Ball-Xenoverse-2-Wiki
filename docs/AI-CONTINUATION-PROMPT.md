@@ -2393,3 +2393,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: f0f949bc5a4a3e8fc1017d1e0602cc6f57e41022.
 - Live nullable Super/Ultimate census after the edit: 171 total (132 Super, 39 Ultimate).
 - Next task: continue item-level audit of remaining nullable PQ records, prioritizing explicit basic-reward/non-UF evidence and avoiding inference from generic quest association.
+
+
+### 2026-09-19 continuation — basic-reward PQ non-UF batch
+- Resolved `ultimate_finish_required=false` for Change The Future (PQ43), Counter Burst (PQ75), and God Breaker (PQ44).
+- Evidence: each appears in the corresponding PQ Basic Reward list, distinct from Ultimate Finish conditions.
+- Skills commit: df4f9f9b5609db56fba3ba49aeb7bf9232ecedc3.
+- Live nullable Super/Ultimate census: 168 total (129 Super, 39 Ultimate).
+- Next task: continue with small batches of nullable PQ skills where the reward category can be established explicitly; generic PQ association remains insufficient.
