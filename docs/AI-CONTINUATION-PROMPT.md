@@ -2376,3 +2376,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `ab8992daa0c4d43f6164116ce71d520650b68bfb`.
 - Evidence basis: starting/Advancement Test, Expert Mission 20, and Lord Slug mentor Lesson 3 acquisition routes are independent of PQ Ultimate-Finish gating.
 - Exact next task: recompute the live Super/Ultimate null census and inspect remaining nullable records for explicit non-PQ acquisition channels; preserve null where route evidence is insufficient.
+
+
+### 2026-09-19 continuation — character-exclusive non-UF acquisition batch 6
+- Workstream: P1 skill Ultimate-Finish acquisition metadata.
+- Resolved `ultimate_finish_required: false` for Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Time Bullet, and Dragon Thunder.
+- Updated `docs/data/skills.json` and `docs/COVERAGE-AUDIT.md`.
+- Data commit: `9c29219f772c908397228f5526d9a1d582b548c9`.
+- Evidence basis: existing records explicitly classify these skills as character-exclusive/non-CaC; no PQ Ultimate Finish is required for that character-only acquisition/access path.
+- Evidence limitation: Divine Spear, Crimson Edge, Wild Stinger, and Surging Spirit were not changed because their current records contain mixed character/PQ or built-in-action context.
+- Exact next task: recompute the live Super/Ultimate null census and inspect remaining records for another explicit non-PQ acquisition channel or explicit UF-only evidence.
