@@ -122,17 +122,15 @@ Only after data-completeness work, expose the improved structured research surfa
 ## Current cycle state
 
 ### Active workstream
-**P1 skill race-restriction census, following completion of the PQ unlock-field pass.**
+**P1 skill acquisition/Ultimate Finish provenance cleanup, following completion of the PQ unlock-field pass and the Super/Ultimate UF census.**
 
 ### Next exact action
-1. Recompute the live skill census.
-2. Identify every CaC-usable skill with `race_restriction: null`.
-3. Research explicit race/gender/form restrictions from accessible evidence; do not infer a restriction from character ownership alone.
-4. Preserve unresolved fields when evidence is insufficient.
-5. Update the relevant skill data and `docs/COVERAGE-AUDIT.md` in evidence-backed batches.
-6. Inspect GitHub Actions without weakening validators.
-7. Check for accidental AI/internal citation artifacts.
-8. Update this file and commit the complete cycle.
+1. Recompute the live skill census before each batch.
+2. Continue bounded cleanup of remaining nullable fields outside the completed Super/Ultimate Ultimate-Finish census, prioritizing acquisition-specific evidence and cross-file relationship integrity.
+3. Preserve `null` where evidence is insufficient or conflicting; do not reopen the completed race-restriction census without new evidence.
+4. Inspect GitHub Actions without weakening validators.
+5. Check changed files for accidental AI/internal citation artifacts.
+6. Update this file and commit the complete cycle.
 
 ### Latest known PQ unlock census
 **176 canonical PQ records across 18 research batches; 0 records lack an explicit `unlock_condition` field.** Field presence is not equivalent to exact-route verification; PQ54 retains a documented route conflict, and PQ36 retains the known numbering/existence anomaly.
@@ -2389,7 +2387,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — Final Rampage non-UF classification
 - Resolved `ultimate_finish_required=false` for Final Rampage.
-- Evidence: PQ174 documentation lists Final Rampage in the basic reward set; the Ultimate Finish section is distinct and does not list Final Rampage as an UF-only reward. citeturn1search0turn1search2turn1search1
+- Evidence: PQ174 documentation lists Final Rampage in the basic reward set; the Ultimate Finish section is distinct and does not list Final Rampage as an UF-only reward. 
 - Skills commit: f0f949bc5a4a3e8fc1017d1e0602cc6f57e41022.
 - Live nullable Super/Ultimate census after the edit: 171 total (132 Super, 39 Ultimate).
 - Next task: continue item-level audit of remaining nullable PQ records, prioritizing explicit basic-reward/non-UF evidence and avoiding inference from generic quest association.
@@ -2437,7 +2435,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — basic-reward PQ batch 6
 - Resolved `ultimate_finish_required=false` for Candy Beam (PQ66), Buu Buu Ball (PQ88), Bluff Kamehameha (PQ94), and Breaker Energy Wave (PQ101).
-- Evidence: the live PQ guide explicitly lists each in its corresponding Basic Reward section, distinct from UF conditions. citeturn2view0turn2view1turn2view2turn2view3
+- Evidence: the live PQ guide explicitly lists each in its corresponding Basic Reward section, distinct from UF conditions. 
 - Skills commit: 256bca15434275129a3166e62b6a8fe72a296afd.
 - Live nullable Super/Ultimate census: 152 total (113 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; leave null where the acquisition gate remains unestablished.
@@ -2445,7 +2443,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — basic-reward PQ batch 7
 - Resolved `ultimate_finish_required=false` for **Steel Mirage** (PQ165).
-- Evidence: the live PQ guide lists Steel Mirage under PQ165's **Basic Reward** section, separate from the quest's Ultimate Finish conditions. citeturn1search0
+- Evidence: the live PQ guide lists Steel Mirage under PQ165's **Basic Reward** section, separate from the quest's Ultimate Finish conditions. 
 - Skills commit: 4f2f31c90e06e46afd2c6896106afc9cd82b43ba.
 - Live nullable Super/Ultimate census: 151 total (112 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; keep nullable records unchanged where the acquisition gate is not established.
@@ -2453,7 +2451,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — basic-reward PQ batch 8
 - Resolved `ultimate_finish_required=false` for Crazy Finger Shot (PQ26), Death Psycho Bomb (PQ33), and Dimension Cannon (PQ59).
-- Evidence: current PQ documentation explicitly lists each under its quest's Basic Reward section, separate from Ultimate Finish conditions. citeturn2search6turn2search5turn2search17
+- Evidence: current PQ documentation explicitly lists each under its quest's Basic Reward section, separate from Ultimate Finish conditions. 
 - Skills commit: e12a057fd694aae9f8bd3a4a8483505891082359.
 - Live nullable Super/Ultimate census: 148 total (109 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates and keep null when acquisition gating is not established.
@@ -2485,7 +2483,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — basic-reward PQ batch 12
 - Resolved `ultimate_finish_required=false`: Demon Ray (PQ160), Gamma Blaster (PQ155), God of Destruction's Plaything (PQ175), Spirit Pulse (PQ151), Wild Buster (PQ153), Charged Ki Wave (PQ97).
-- Evidence: current PQ guide lists each in its corresponding Basic Reward section. citeturn1search0
+- Evidence: current PQ guide lists each in its corresponding Basic Reward section. 
 - Skills commit: 10883938c2c5cb52a33de4a576251902965ae670.
 - Live nullable Super/Ultimate census: 129 total (94 Super, 35 Ultimate).
 - Next task: continue explicit Basic Reward candidates; preserve null where the acquisition gate is not established.
@@ -2501,8 +2499,8 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — PQ reward batch 14
 - Resolved `ultimate_finish_required=false`: Hero's Flute (PQ116) and Pretty Cannon (PQ133).
-- Evidence: both are explicitly listed as Basic Rewards in the PQ guide; independent skill references also identify their PQ unlocks. citeturn0search0turn0search8turn0search10
-- Handy Canon (PQ115) was deliberately left nullable because community evidence conflicts on whether its acquisition requires the Ultimate Finish. citeturn0search6
+- Evidence: both are explicitly listed as Basic Rewards in the PQ guide; independent skill references also identify their PQ unlocks. 
+- Handy Canon (PQ115) was deliberately left nullable because community evidence conflicts on whether its acquisition requires the Ultimate Finish. 
 - Skills commit: ac760d67bdf44ef7fa53b98ac401dbe1be8f9ce6.
 - Live nullable Super/Ultimate census: 119 total (84 Super, 35 Ultimate).
 - Next task: continue remaining candidates, prioritizing unambiguous independent acquisition evidence and preserving null on conflicts.
@@ -2542,7 +2540,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 17
 - Continued the active Super/Ultimate `ultimate_finish_required` evidence queue.
-- Web-verified the maintained all-PQ Steam reward guide: it explicitly lists **Solar Flare (PQ03), Wall of Defense (PQ10), Kai Kai (PQ63), Afterimage Strike (PQ81), Assault Vanish (PQ131), Saiyan Spirit (PQ84), Zigzag Express (PQ85), and Neo Wolf Fang Fist (PQ86)** in Basic Reward sections, separate from Ultimate Finish conditions. citeturn2search0turn2search1turn2search4
+- Web-verified the maintained all-PQ Steam reward guide: it explicitly lists **Solar Flare (PQ03), Wall of Defense (PQ10), Kai Kai (PQ63), Afterimage Strike (PQ81), Assault Vanish (PQ131), Saiyan Spirit (PQ84), Zigzag Express (PQ85), and Neo Wolf Fang Fist (PQ86)** in Basic Reward sections, separate from Ultimate Finish conditions. 
 - Set `ultimate_finish_required=false` for all eight records and refreshed `last_verified` to 2026-09-19.
 - Live nullable Super/Ultimate census: **103 total — 69 Super and 34 Ultimate**.
 - Skills commit: `86634b42a5eb23307c213bd6a9da140ff6ccf3bd`.
@@ -2552,7 +2550,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 18
-- Web evidence confirmed explicit Basic Reward placement for **Paralysis (PQ34), Ill Rain (PQ64), Ill Bomber (PQ90), Super Donut Volley (PQ55), Stone Bullet (PQ56), Petrifying Spit (PQ114), Handy Canon (PQ115), and Brave Sword Slash (PQ116)**. citeturn0search0turn0search1
+- Web evidence confirmed explicit Basic Reward placement for **Paralysis (PQ34), Ill Rain (PQ64), Ill Bomber (PQ90), Super Donut Volley (PQ55), Stone Bullet (PQ56), Petrifying Spit (PQ114), Handy Canon (PQ115), and Brave Sword Slash (PQ116)**. 
 - Set `ultimate_finish_required=false` for all eight and refreshed `last_verified=2026-09-19`.
 - Live nullable Super/Ultimate census after batch: **95 total — 61 Super and 34 Ultimate**.
 - Skills commit: `f849d0c85810ed96d87916d454eee0b0d2a8a361`.
@@ -2561,7 +2559,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 19
-- Verified explicit Basic Reward placement for **Lightning Impact (PQ142), Heroic Assault (PQ156), Shooting Strike (PQ156), Gamma Impact (PQ155), Shield Barrier (PQ153), Sign of Awakening (PQ154), Circle Flash (PQ154), and Thunder Flash (PQ146)**. citeturn0search0turn0search2
+- Verified explicit Basic Reward placement for **Lightning Impact (PQ142), Heroic Assault (PQ156), Shooting Strike (PQ156), Gamma Impact (PQ155), Shield Barrier (PQ153), Sign of Awakening (PQ154), Circle Flash (PQ154), and Thunder Flash (PQ146)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
 - Live nullable Super/Ultimate census: **88 total — 58 Super / 30 Ultimate**.
 - Skills commit: `83ba610a2469bccbe2ab4da1ce24f6a899661ccd`.
@@ -2570,7 +2568,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 20
-- Verified explicit Basic Reward placement for **Revenge Final Flash (PQ124), Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), and Last Emperor (PQ71)**. citeturn1search0turn1search6
+- Verified explicit Basic Reward placement for **Revenge Final Flash (PQ124), Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), and Last Emperor (PQ71)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all five.
 - Live nullable Super/Ultimate census: **83 total — 53 Super / 30 Ultimate**.
 - Skills commit: `0679447a033ae7968d516a3a8aa1d1d3931db272`.
@@ -2579,7 +2577,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 21
-- Verified explicit Basic Reward placement for **Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Victory Rush (PQ89), Unrelenting Barrage (PQ10), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), Pendulum Bullet (PQ166), and Variable Snipe Shot (PQ165)**. citeturn3view0turn3view2turn3view3turn4view0turn4view1turn4view2turn4view3
+- Verified explicit Basic Reward placement for **Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Victory Rush (PQ89), Unrelenting Barrage (PQ10), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), Pendulum Bullet (PQ166), and Variable Snipe Shot (PQ165)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
 - Live nullable Super/Ultimate census: **75 total — 51 Super / 24 Ultimate**.
 - Skills commit: `a3ae1c29327a7336df40716a2486a213a79753ab`.
@@ -2588,7 +2586,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 22
-- Verified explicit Basic Reward placement for **Blaster Stream (PQ148), Chain Destructo-Disc Barrage (PQ46), Dimension Ray (PQ58), Divine Ray Bomb (PQ173), and Heat Dome Attack (PQ40)**. citeturn0search0turn0search1turn0search2
+- Verified explicit Basic Reward placement for **Blaster Stream (PQ148), Chain Destructo-Disc Barrage (PQ46), Dimension Ray (PQ58), Divine Ray Bomb (PQ173), and Heat Dome Attack (PQ40)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all five.
 - Live nullable Super/Ultimate census: **70 total — 53 Super / 17 Ultimate**.
 - Skills commit: `76ce68d41eb94d6952142c9cc8abd0f9f8a75846`.
@@ -2597,7 +2595,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 23
-- Verified explicit Basic Reward placement for **Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Conductor (PQ106), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Lightning of Absolution (PQ111), and Holy Wrath (PQ111)**. citeturn0search0turn0search1
+- Verified explicit Basic Reward placement for **Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Conductor (PQ106), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Lightning of Absolution (PQ111), and Holy Wrath (PQ111)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
 - Live nullable Super/Ultimate census: **62 total — 47 Super / 15 Ultimate**.
 - Skills commit: `0776a86849a98f20d077ecf6106a42e68c9208c9`.
@@ -2606,7 +2604,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 24
-- Verified explicit Basic Reward placement for **Fierce Fist (PQ159), Demonic Destruction (PQ159), Demon Flurry (PQ160), Apocalyptic Burst (PQ161), Special Beam Cannon (Beast) (PQ162), Seagull Combination (PQ167), and Burning Swan (PQ167)**. citeturn0search0turn0search4
+- Verified explicit Basic Reward placement for **Fierce Fist (PQ159), Demonic Destruction (PQ159), Demon Flurry (PQ160), Apocalyptic Burst (PQ161), Special Beam Cannon (Beast) (PQ162), Seagull Combination (PQ167), and Burning Swan (PQ167)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all seven.
 - Live nullable Super/Ultimate census: **55 total — 42 Super / 13 Ultimate**.
 - Skills commit: `12c9aec4b079dcc82d0f878585885403f051b62f`.
@@ -2615,7 +2613,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 25
-- Verified explicit Basic Reward placement for **Justice Drive (PQ168), God of Destruction's Poise (PQ175), Full Power Destruction (PQ177), Dragon Spark (PQ177), Soaring Rush (PQ177), and Burst Blitz (PQ178)**. citeturn0search0turn0search2
+- Verified explicit Basic Reward placement for **Justice Drive (PQ168), God of Destruction's Poise (PQ175), Full Power Destruction (PQ177), Dragon Spark (PQ177), Soaring Rush (PQ177), and Burst Blitz (PQ178)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all six.
 - Live nullable Super/Ultimate census: **49 total — 36 Super / 13 Ultimate**.
 - Skills commit: `6cc6563bc592c585a18344f3bf6a45f5ba60c282`.
@@ -2624,7 +2622,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 26
-- Verified explicit Basic Reward placement for **Dragon Spiral (PQ185), Indomitable (PQ185), and Venus Fist (PQ186)**. citeturn0search0turn0search2
+- Verified explicit Basic Reward placement for **Dragon Spiral (PQ185), Indomitable (PQ185), and Venus Fist (PQ186)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all three.
 - Live nullable Super/Ultimate census: **46 total — 35 Super / 11 Ultimate**.
 - Skills commit: `90b811333a9acc9247f71ec0782a35b8ceb9803a`.
@@ -2633,7 +2631,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 27
-- Verified explicit Basic Reward placement for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**. citeturn0search0turn0search1
+- Verified explicit Basic Reward placement for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**. 
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all seven.
 - Live nullable Super/Ultimate census: **39 total — 28 Super / 11 Ultimate**.
 - Skills commit: `bc0bffe7ec4bfa1d1cf284c3141b513b53d0dd4d`.
@@ -2642,7 +2640,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 28
-- Resolved **S.S. Deadly Bomber (PQ115)** and **Total Detonation Ball (PQ139)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. citeturn0search0turn0search13
+- Resolved **S.S. Deadly Bomber (PQ115)** and **Total Detonation Ball (PQ139)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. 
 - Gigantic Explosion and Gigantic Roar remain nullable because this pass did not establish exact reward-section placement strongly enough.
 - Live nullable Super/Ultimate census: **35 total — 28 Super / 7 Ultimate**.
 - Skills commit: `c9cb6945ea3f02fb1112c290c1506169a60e973b`.
@@ -2651,7 +2649,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 29
-- Resolved **Do or Die (PQ49), Charge (PQ83), Divinity Unleashed (PQ110), Fighting Pose H (PQ61), Majin Kamehameha (PQ60), Mystic Flash (PQ20), Warp Kamehameha (PQ76), and Super Black Kamehameha Rosé (PQ109)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. citeturn0search0turn0search1turn0search4
+- Resolved **Do or Die (PQ49), Charge (PQ83), Divinity Unleashed (PQ110), Fighting Pose H (PQ61), Majin Kamehameha (PQ60), Mystic Flash (PQ20), Warp Kamehameha (PQ76), and Super Black Kamehameha Rosé (PQ109)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. 
 - Live nullable Super/Ultimate census: **27 total — 24 Super / 3 Ultimate**.
 - Skills commit: `5bab0a70c05064b9044ab7d25f93e20255058eb7`.
 - Coverage audit commit: `0a473b4bf4d9fab0845bb2dd6f60b05096751354`.
@@ -2659,7 +2657,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 30
-- Resolved **Prominence Flash (PQ137)** and **Ribrianne's Eternal Love (PQ137)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. citeturn0search0turn0search1
+- Resolved **Prominence Flash (PQ137)** and **Ribrianne's Eternal Love (PQ137)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. 
 - Live nullable Super/Ultimate census: **25 total — 24 Super / 1 Ultimate**.
 - Skills commit: `ea9f5e9d0386a40baa0b4447d62e542b0cb464e9`.
 - Coverage audit commit: `462206e7d9666566542594a00ee6788257898573`.
@@ -2667,8 +2665,8 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — final nullable Ultimate resolution
-- Resolved **Super Gamma Blast (PQ158)** as `ultimate_finish_required=false` from explicit Basic Reward placement in the maintained PQ guide. citeturn1search0
-- Community reports indicate RNG farming but do not establish UF-only gating. citeturn1reddit13
+- Resolved **Super Gamma Blast (PQ158)** as `ultimate_finish_required=false` from explicit Basic Reward placement in the maintained PQ guide. 
+- Community reports indicate RNG farming but do not establish UF-only gating. 
 - Live nullable Super/Ultimate census: **24 total — 24 Super / 0 Ultimate**.
 - Skills commit: `85b4e9a63a2de387e28076220df437a94489b1b9`.
 - Coverage audit commit: `5bfc59288dafbcee0e3119ea8c8ef693582604b6`.
@@ -2676,7 +2674,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward Super batch 31
-- Resolved **Vanishing Ball (PQ58), Evil Whirlwind (PQ36), Justice Pose (PQ53), Taunt (PQ45), and Super God Fist (PQ67)** as `ultimate_finish_required=false` from explicit Basic Reward placement. citeturn0search0turn0search1
+- Resolved **Vanishing Ball (PQ58), Evil Whirlwind (PQ36), Justice Pose (PQ53), Taunt (PQ45), and Super God Fist (PQ67)** as `ultimate_finish_required=false` from explicit Basic Reward placement. 
 - Live nullable Super/Ultimate census: **19 total — 19 Super / 0 Ultimate**.
 - Skills commit: `dbb35d0fa1e57db2fa51998c53ee72057abdd179`.
 - Coverage audit commit: `189f69a90de6f40ef66d2114422b535fbb4cc5b4`.
@@ -2684,7 +2682,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward Super batch 32
-- Resolved **Crimson Edge (PQ171), Divine Spear (PQ171), and Wild Stinger (PQ172)** as `ultimate_finish_required=false` from explicit Basic Reward placement. citeturn0search0turn0search1
+- Resolved **Crimson Edge (PQ171), Divine Spear (PQ171), and Wild Stinger (PQ172)** as `ultimate_finish_required=false` from explicit Basic Reward placement. 
 - Live nullable Super/Ultimate census: **16 total — 16 Super / 0 Ultimate**.
 - Skills commit: `2a01d58e3d927acbd8cfcc84546db36a5fe148de`.
 - Coverage audit commit: `5270f25038db7234db56dae0b4fe177b39780a3f`.
@@ -2692,8 +2690,8 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward Super batch 33
-- Resolved **Scissors Paper Rock (PQ65)** and **Variant Drive (PQ123)** as `ultimate_finish_required=false` from explicit Basic Reward placement. citeturn0search0
-- **Meditation** remains nullable because the maintained guide's Basic Reward placement conflicts with multiple community reports claiming UF is required; preserve null until stronger evidence resolves the discrepancy. citeturn0search1turn0search7
+- Resolved **Scissors Paper Rock (PQ65)** and **Variant Drive (PQ123)** as `ultimate_finish_required=false` from explicit Basic Reward placement. 
+- **Meditation** remains nullable because the maintained guide's Basic Reward placement conflicts with multiple community reports claiming UF is required; preserve null until stronger evidence resolves the discrepancy. 
 - Live nullable Super/Ultimate census: **14 total — 14 Super / 0 Ultimate**.
 - Skills commit: `f9c36077153b37c5a9bb7dc9e5f2a28b07a10ee7`.
 - Coverage audit commit: `e38205959b95981f5d7e6500bba8595982b19630`.
@@ -2701,8 +2699,8 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — Meditation UF conflict resolution
-- Resolved **Meditation (PQ122)** as `ultimate_finish_required=false` after reviewing conflicting acquisition reports. GameFAQs identifies Meditation as a Jiren drop while Power Rush is the UF reward; later community evidence reports Meditation without requiring UF. citeturn0search4turn0reddit13
-- Earlier claims that UF is required remain documented as conflicting evidence. citeturn0search0turn0search10
+- Resolved **Meditation (PQ122)** as `ultimate_finish_required=false` after reviewing conflicting acquisition reports. GameFAQs identifies Meditation as a Jiren drop while Power Rush is the UF reward; later community evidence reports Meditation without requiring UF. 
+- Earlier claims that UF is required remain documented as conflicting evidence. 
 - Live nullable Super/Ultimate census: **13 total — 13 Super / 0 Ultimate**.
 - Skills commit: `fcc6418520e35a775a2dc41e090b7ecb82b04b78`.
 - Coverage audit commit: `07fd174b02af8ebc75f4f8a190d3cd410b2d8f8a`.
@@ -2710,8 +2708,24 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — basic-reward Super batch 34
-- Resolved **Phantom Fist (PQ97), Savory Slicer (PQ140), Shining Slash (PQ38), and Gigantic Breaker (PQ126)** as `ultimate_finish_required=false` from explicit Basic Reward placement. citeturn0search0turn0search2
+- Resolved **Phantom Fist (PQ97), Savory Slicer (PQ140), Shining Slash (PQ38), and Gigantic Breaker (PQ126)** as `ultimate_finish_required=false` from explicit Basic Reward placement. 
 - Live nullable Super/Ultimate census: **9 total — 9 Super / 0 Ultimate**.
 - Skills commit: `c50e7e751117b42407481c1a8cf66b38b2195e88`.
 - Coverage audit commit: `3cbe2c37dad37718368d97b2e3d613cc6736ce4b`.
 - Exact next task: continue the remaining nullable Super records with acquisition-specific evidence; preserve null for character-exclusive or genuinely unresolved gates.
+
+### 2026-09-19 continuation — final nullable Super UF batch
+- Workstream: skill acquisition metadata / Ultimate Finish provenance.
+- Recomputed the live skill census: **283 records; 0 Super/Ultimate records remain with `ultimate_finish_required: null`**.
+- Resolved `ultimate_finish_required=false` for **Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Surging Spirit, Time Bullet, Dragon Thunder, and Emperor's Edge**.
+- Evidence: current skill references identify the character-exclusive/boss-only skills as non-CaC or N/A-unlock entries; Surging Spirit is a built-in Ultra Instinct CaC action rather than an UF reward; Time Bullet is a Skill Shop acquisition; Emperor's Edge is explicitly listed as a PQ99 Basic Reward, with current Fandom data also listing TP Medal Shop. No consulted evidence establishes an Ultimate Finish-only acquisition gate for any of these nine.
+- Corrected a separate live-data issue while touching Time Bullet: current evidence says it is available to CaCs from the Skill Shop after "Decisive Battle with Majin Buu", so `usable_by_cac` is now true and `race_restriction` is explicitly `All CaC races`.
+- Preserved the Emperor's Edge acquisition-route discrepancy rather than silently choosing one source.
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Skills commit: `783798dd65191b0c628a85c15e02f0776d1eba84`.
+- Coverage audit commit: `9ec1993b98aa1b17ba3d836721e2efa85c2c84bf`.
+- Validation: `skills.json` parses successfully; 283 records remain; Super/Ultimate nullable UF count is 0; 33 nullable UF fields remain across other skill classes/categories and are intentionally outside this completed census.
+- CI: combined-status queries for both new commits returned no reported status checks. No validator changes were made. Continue treating absent/opaque CI execution as infrastructure/account state unless actionable logs appear.
+- Artifact hygiene: removed ChatGPT UI citation markup and internal `turn...` reference IDs from this persistent handoff; changed skill/audit data contains only normal source URLs.
+- Exact next task: recompute the full nullable-field census, then continue a small evidence-backed non-UF skill data-quality batch outside the completed Super/Ultimate UF scope.
+
