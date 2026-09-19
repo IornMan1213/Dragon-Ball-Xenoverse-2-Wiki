@@ -4,7 +4,7 @@
   "verification_policy": "parallel_quest_audit_with_independent_cross_checks",
   "research_scope": "PQ171-PQ180 DLC Parallel Quest audit. Objective sequences and documented rewards are recorded; exact reward-slot/drop percentages are included only where directly established by the maintained corpus.",
   "verification_audit": {
-    "audited": "2026-09-18",
+    "audited": "2026-09-19",
     "duplicate_check": {
       "status": "passed",
       "duplicate_count": 0
@@ -15,7 +15,12 @@
       "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
       "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
     ],
-    "notes": "External datamined PQ records were reconciled for PQ171-PQ178: DLC/PQ-board unlock wording and exact skill reward/drop semantics were added where explicitly documented. Normal-clear versus Ultimate Finish and bonus-slot drops remain distinct; no probabilities were inferred."
+    "notes": "External datamined PQ records were reconciled for PQ171-PQ178: DLC/PQ-board unlock wording and exact skill reward/drop semantics were added where explicitly documented. Normal-clear versus Ultimate Finish and bonus-slot drops remain distinct; no probabilities were inferred.",
+    "record_level_source_pass": {
+      "status": "completed",
+      "scope": "PQ171-PQ180",
+      "note": "Added individual source arrays and refreshed verification dates for all ten records. Independent references cross-check the quest names, DLC associations, Ultimate Finish conditions, and documented basic rewards. No additional probabilities were inferred."
+    }
   },
   "records": [
     {
@@ -53,7 +58,13 @@
         "50% Ultimate Finish"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
+      ]
     },
     {
       "number": 172,
@@ -91,7 +102,13 @@
         "45% Ultimate Finish"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
+      ]
     },
     {
       "number": 173,
@@ -127,7 +144,13 @@
         "45% Ultimate Finish bonus slot"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
+      ]
     },
     {
       "number": 174,
@@ -162,7 +185,13 @@
         "60% Ultimate Finish"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
+      ]
     },
     {
       "number": 175,
@@ -200,7 +229,13 @@
         "50% Ultimate Finish"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
+      ]
     },
     {
       "number": 176,
@@ -229,7 +264,13 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
+      ]
     },
     {
       "number": 177,
@@ -269,7 +310,13 @@
         "50% Ultimate Finish"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
+      ]
     },
     {
       "number": 178,
@@ -302,7 +349,13 @@
         "50% Ultimate Finish bonus slot"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
+      ]
     },
     {
       "number": 179,
@@ -335,10 +388,16 @@
         "Supreme Fury"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "skill_drop_conditions": [
         "50% Ultimate Finish",
         "50% Ultimate Finish"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
       ]
     },
     {
@@ -373,10 +432,16 @@
         "Burning Blast"
       ],
       "verification_status": "verified_objectives_rewards_drop_rates",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "skill_drop_conditions": [
         "50% Ultimate Finish",
         "50% Ultimate Finish"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071?page=15",
+        "https://github.com/Madreag/xenoverse_2_wiki/tree/main/content/parallel-quests"
       ]
     }
   ]
