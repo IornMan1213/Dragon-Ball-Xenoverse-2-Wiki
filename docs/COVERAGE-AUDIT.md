@@ -1881,3 +1881,15 @@ Reviewed: **God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis,
 - Preserved existing mechanics corrections, including God Punisher as a **400-Ki Ki Blast Ultimate**, Heat Wave as a **200-Ki Strike Super**, and Headshot as Beerus's **Strike Evasive**.
 - Live census: **283 total / 269 CaC-usable / 52 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Photon Swipe through Spirit Blaster race-restriction census
+
+Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster**.
+
+- Added explicit **All CaC races** scope to all eight records. Current Future Warrior technique-list evidence identifies each skill as usable by the Future Warrior; the reviewed evidence does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition, classification, cost, Ultimate Finish, and mechanics metadata. Rolling Bullet remains a Ki Blast Evasive with 200 Stamina cost; no class normalization was introduced in this pass.
+- Added the maintained Future Warrior technique-list source to the eight records as provenance for CaC scope.
+- No character association was converted into a race restriction, and no unsupported unlock/drop claim was added.
+- Live skill census after this batch: **283 total / 269 CaC-usable / 44 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
