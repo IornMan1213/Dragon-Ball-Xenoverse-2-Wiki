@@ -1,3 +1,8 @@
+## September 2026 — Awoken classification correction
+- Corrected three seeded Awoken records that incorrectly indicated CaC availability: **Pure Progress**, **Super Saiyan Blue Kaioken**, and **Supersonic Mode**.
+- Added correction batch 37 and preserved the original research history.
+- Super Soul tracker reference updated to the current **42-record** canonical population.
+
 ## September 2026 — Raid Super Soul Reconciliation
 - Reconciled raid Super Souls **044–047** against item-level and community evidence.
 - 044, 045 and 046 now have verified core effects; 047 remains partially verified due to unresolved stamina-damage reduction magnitude and historical raid mapping.
