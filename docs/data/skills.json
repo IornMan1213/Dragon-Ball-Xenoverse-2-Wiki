@@ -5263,13 +5263,15 @@
       "skill_description": "Circle Flash is a Ultimate Ki Blast skill used by Dyspo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Circle_Flash",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred."
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Core Breaker",
@@ -5287,13 +5289,15 @@
       "skill_description": "Core Breaker is a Ultimate Ki Blast skill used by Gamma 2.",
       "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can randomly obtain it from PQ158; the PQ Ultimate Finish conditions are documented. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/Core_Breaker"
-      ]
+        "https://dragonball.fandom.com/wiki/Core_Breaker",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Death Ball",
@@ -5330,13 +5334,15 @@
       "skill_description": "Destruction's Concerto: Meteor is a Ultimate Ki Blast skill associated with Vados.",
       "mechanics_notes": "Dedicated current-version evidence identifies this as Vados's Ki Blast Super; the Future Warrior can obtain it from PQ106, and Whis can use it through Partner Customization. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor",
-        "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Meteor"
-      ]
+        "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Meteor",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Dimension Ray",
@@ -5354,14 +5360,15 @@
       "skill_description": "Dimension Ray is a Ultimate Ki Blast skill associated with Janemba.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Dimension_Ray",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Divine Ray Bomb",
