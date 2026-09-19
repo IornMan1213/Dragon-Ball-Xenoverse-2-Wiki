@@ -1554,6 +1554,9 @@
     ],
     "Goku (Ultra Supervillain Quelled) Wig": [
       185
+    ],
+    "Piccolo's Turban": [
+      3
     ]
   },
   "coverage_notes": [
@@ -1564,7 +1567,8 @@
     "Farming reverse entries reflect explicit repeatable-route flags only; they do not assert guaranteed reward drops.",
     "Character reverse index remains empty until explicit character-feature edges are established; enemy appearance is not converted into reward attribution.",
     "2026-09-19: Added 24 canonical typed reward entries missing from the forward relationship layer (10 Super Souls, 14 equipment). Equipment subtype placement in this reverse index follows the canonical batch reward naming; source fields remain authoritative for exact subtype where provided.",
-    "2026-09-19: Reverse index extended from the forward relationship layer after adding 46 source-normalized reward edges."
+    "2026-09-19: Reverse index extended from the forward relationship layer after adding 46 source-normalized reward edges.",
+    "2026-09-19: Subtype-aware reverse-index reconciliation added normalized-map clothing/accessory provenance without changing forward equipment relationship semantics. The forward layer intentionally uses one equipment relationship type; reverse index retains subtype where the source identifies it."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -2111,7 +2115,7 @@
   "current_relationship_counts": {
     "skill": 232,
     "super_soul": 135,
-    "equipment": 96,
+    "equipment": 122,
     "character": 247,
     "dlc": 88,
     "farming": 7
