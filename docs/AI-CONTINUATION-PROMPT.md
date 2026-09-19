@@ -1585,3 +1585,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `549e3e2a6f993e1cbf218a03e6d91da5ee342b2f`.
 - Audit commit: `391cd805ad0ef60e0fdf8808e95740990ed17ac7`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Burning Blast.
+
+
+### 2026-09-19 continuation — Chain Destructo-Disc Barrage through Divine Ray Bomb
+- Reconciled **Chain Destructo-Disc Barrage, Chaotic Time Impact, Circle Flash, Core Breaker, Death Ball, Destruction's Concerto: Meteor, Dimension Ray, and Divine Ray Bomb**.
+- Death Ball and Divine Ray Bomb retain explicit All CaC races scope; the other six remain CaC-usable without inferred narrower restrictions.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+- Data commit: `232d0cfa9a9278548e509318c7f67ca503675322`.
+- Audit commit: `07dca93cf13eb6e75fc46b5cd6e8a545b33928f2`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Divine Ray Bomb.
