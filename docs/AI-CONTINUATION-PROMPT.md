@@ -1882,3 +1882,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: 188435ebcc294f824e54d32be0f7b8cde432e024.
 - Live census: 283 total / 269 CaC-usable / 76 CaC-usable with null race restriction.
 - Exact next task: continue with **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, Eraser Bomb** after recomputing the live dataset.
+
+
+### 2026-09-19 continuation — Destruction's Concerto: Starfall through Eraser Bomb
+- Reviewed 8 null-race CaC-usable records: Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, Eraser Bomb.
+- Added explicit All CaC races scope to all eight; no narrower CaC race/gender/form restriction was established.
+- Data commit: fc35aa807ae92b1ae27c42a11ca942aff6b43b6d.
+- Audit commit: d681e50aafb7749435931aa7e4537241f9adc4f3.
+- Live census: 283 total / 269 CaC-usable / 68 CaC-usable with null race restriction.
+- Exact next task: continue with **Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Giant Cluster, Gigantic Charge, God of Destruction's Plaything** after recomputing the live dataset.
