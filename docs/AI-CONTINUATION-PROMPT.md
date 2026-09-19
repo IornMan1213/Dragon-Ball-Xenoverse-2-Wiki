@@ -359,3 +359,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - An accidental chat citation marker was introduced into the audit during this cycle and immediately removed in commit `f6aa653826042880f7b9ca86fb0cd7436f21ff7f`; the repository audit text was rechecked before continuing.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Exact next task: **continue with PQ71–PQ80**, the 7-star block. Verify the story/NPC unlock routes carefully, especially PQ70→71 and any NPC-triggered quests, and reconcile objectives/rewards against independent sources. Keep provenance at record level, avoid unsupported drop percentages, update the coverage audit/changelog/handoff, and inspect Actions/status.
+
+
+### 2026-09-19 cycle update — PQ71–80 provenance pass
+- Workstream: Parallel Quest provenance and 7-star objective/reward verification.
+- Completed record-level provenance for **PQ71–PQ80**, all with explicit source URLs and 2026-09-19 verification dates.
+- Cross-checked the 7-star objective sequences and documented basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish references. Exact reward-slot/drop percentages remain unresolved.
+- Reviewed unlock metadata conservatively. Existing documented routes were retained; broader evidence indicates PQ availability can also depend on story progression, so no unsupported single-prerequisite claim was added.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-08.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `a1330abb009dc4dd1498d42385660dd3c5f0157e` (PQ71–80 research), `111f9f17f37a5e193bf59241ec7e6cf3f6b2d724` (coverage audit), `3e2758cfa023c0ae671c48baa92610601ae29c6b` (changelog).
+- Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **46 records still lacking individual `sources` arrays**.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Exact next task: **continue with PQ81–PQ90**. Research the next 7-star block, including PQ81/PQ82 chain behavior, Dragon Ball/time-patroller mechanics, unlock routes, objective sequences, basic rewards, and individual provenance. Preserve conflicts and uncertainty instead of inventing prerequisites or drop rates. Then update coverage audit, changelog, handoff, and inspect Actions/status.
