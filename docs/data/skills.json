@@ -1506,8 +1506,8 @@
       "source_quest_or_shop": "PQ171 / PQ172 reward context",
       "ultimate_finish_required": false,
       "skill_description": "Big Bang Knuckle is a Super Ki Blast skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established.",
-      "verification_status": "verified",
+      "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1517,7 +1517,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
       ],
       "source_quest": 172,
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged.",
+      "race_restriction": "Character-only"
     },
     {
       "name": "Blaster Ball",
@@ -1992,14 +1993,15 @@
       "source_quest_or_shop": "PQ171 / PQ172 reward context",
       "ultimate_finish_required": false,
       "skill_description": "Divine Spear is a Super Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
-      "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": "Character-only"
     },
     {
       "name": "Double Death Slicer",
@@ -2245,7 +2247,8 @@
       "source_quest_or_shop": "Character skill",
       "last_verified": "2026-09-19",
       "usable_by_cac": false,
-      "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established."
+      "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "race_restriction": "Character-only"
     },
     {
       "name": "Flash Chaser",
@@ -3280,8 +3283,9 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established.",
-      "last_verified": "2026-09-19"
+      "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "last_verified": "2026-09-19",
+      "race_restriction": "Character-only"
     },
     {
       "name": "Final Charge",
@@ -3303,7 +3307,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "source_quest_or_shop": "Character-exclusive",
-      "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established."
+      "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "race_restriction": "Character-only"
     },
     {
       "name": "Full Power Charge",
@@ -3366,8 +3371,9 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established.",
-      "last_verified": "2026-09-19"
+      "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "last_verified": "2026-09-19",
+      "race_restriction": "Character-only"
     },
     {
       "name": "Instant Transmission",
@@ -3531,8 +3537,9 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established.",
-      "last_verified": "2026-09-19"
+      "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "last_verified": "2026-09-19",
+      "race_restriction": "Character-only"
     },
     {
       "name": "Shield Barrier",
@@ -4158,14 +4165,15 @@
       "source_quest_or_shop": "PQ171 / PQ172 reward context",
       "ultimate_finish_required": false,
       "skill_description": "Crimson Edge is a Super Strike skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
-      "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": "Character-only"
     },
     {
       "name": "Deadly Dance",
@@ -4353,8 +4361,9 @@
       "usable_by_cac": false,
       "research_status": "enriched",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established.",
-      "source_quest_or_shop": "Character skill"
+      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "source_quest_or_shop": "Character skill",
+      "race_restriction": "Character-only"
     },
     {
       "name": "Emperor's Edge",
@@ -5177,14 +5186,15 @@
       "source_quest_or_shop": "PQ171 / PQ172 reward context",
       "ultimate_finish_required": false,
       "skill_description": "Wild Stinger is a Super Strike skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
-      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": "Character-only"
     },
     {
       "name": "Zigzag Express",
