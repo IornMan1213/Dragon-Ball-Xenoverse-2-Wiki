@@ -674,3 +674,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - These four records are now `usable_by_cac: true`. No race restriction was inferred from these sources.
 - This is stronger than merely observing that the skills are PQ rewards or equipped by DAIMA characters, but the records remain `partially_verified` because exact reward-slot/drop semantics are still a separate verification requirement.
 - Skills commit: `9db1be415b06fbfde8288f0eb8e47548477b30f6`.
+
+
+## 2026-09-19 CaC build evidence correction
+
+- **God of Destruction's Plaything** was previously left unresolved because PQ reward/Belmod moveset evidence did not prove CaC access. A separate CaC build source explicitly lists the skill as usable in a custom-character moveset. citeturn0reddit42
+- Corrected the canonical record to `usable_by_cac: true`; no race restriction was inferred.
+- This remains `partially_verified` because the exact acquisition/drop semantics are a separate evidence requirement.
+- Skills commit: `c4c98ee41354038d4e0701c8d82a0f18c52b0df3`.
