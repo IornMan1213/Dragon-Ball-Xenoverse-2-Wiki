@@ -2045,3 +2045,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - The older `pq-001-040-reward-map.json` still contains an incomplete/stale representation for these rows; it is explicitly marked partial/finalized as a normalization layer, so it was not allowed to overwrite the canonical batch. The canonical batch now carries the independently verified skill relationships.
 - Data commit: **909c71bd5082761f9848b937bcb8aa4d65f35f5d**.
 - Next task: continue the same source-backed skill-reward reconciliation through PQ 21-40, resolving only rows where the evidence is direct and preserving unresolved fields otherwise.
+
+
+## 2026-09-19 — PQ 21-40 provenance reconciliation
+
+- Audited the canonical PQ 21-40 skill-reward relationships against the current all-186 PQ reference and the existing dedicated reward references.
+- Confirmed the canonical skill sets already represented in the batch: PQ 21 Evil Flight Strike; 22 Energy Shot; 23 Death Slash; 24 Double Death Slicer; 25 Spirit Explosion; 26 Crazy Finger Shot; 27 Sauzer Blade; 28 Spread Shot Retreat; 29 Freedom Kick + Energy Field; 31 Super Dragon Flight; 32 Energy Barrier; 33 Death Psycho Bomb; 34 Crusher Ball + Paralysis; 36 Evil Whirlwind; 37 Instant Rise; 38 Shining Slash; 39 Side Bridge; 40 Heat Dome Attack. PQ 30 and PQ 35 have no skill reward in the referenced basic reward tables, so their empty skill arrays were retained. citeturn0search1turn0search7turn0search10
+- Added the current all-186 Steam reference to every PQ 21-40 record's source list without changing established skill data.
+- Data commit: **2a16f0fdb1f871713fa5b61234362853b95b042c**.
+- Note: reward normalization remains partial by design; empty fields elsewhere are not negative evidence.
