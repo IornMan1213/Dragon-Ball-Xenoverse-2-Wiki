@@ -4,7 +4,7 @@
   "verification_policy": "parallel_quest_audit_with_independent_cross_checks",
   "research_scope": "PQ81-PQ90 base-game Parallel Quest audit. Objective sequences and documented basic rewards are recorded; exact reward-slot/drop percentages remain unresolved unless directly established.",
   "verification_audit": {
-    "audited": "2026-09-17",
+    "audited": "2026-09-19",
     "duplicate_check": {
       "status": "passed",
       "duplicate_count": 0
@@ -13,7 +13,8 @@
       "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
       "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+      "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/"
     ]
   },
   "records": [
@@ -22,7 +23,7 @@
       "name": "Wake UP!",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 80.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Defeat all enemies",
         "Clear in 8 minutes",
@@ -56,7 +57,7 @@
       "name": "Ultimate Brotherly Battle",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 81.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Defeat all enemies",
         "Clear in 8 minutes",
@@ -90,7 +91,7 @@
       "name": "Dangerous Duo! Warriors Never Rest",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 82.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Recover 3 Dragon Balls",
         "Defeat Broly with Gohan surviving",
@@ -124,7 +125,7 @@
       "name": "Saiyan Warriors",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 83.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Defeat Broly",
         "Clear in 10 minutes",
@@ -157,7 +158,7 @@
       "name": "Power Berserkers",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 84.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Defeat Gohan, Piccolo, and Vegeta",
         "Clear in 10 minutes",
@@ -190,7 +191,7 @@
       "name": "Yamcha is Number One",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 85.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Defeat Yamcha",
         "Clear in under 5 minutes",
@@ -224,7 +225,7 @@
       "name": "Saiyan Battle",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 86.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Defeat Gotenks, Gohan, and Vegeta",
         "Clear in under 5 minutes",
@@ -258,7 +259,7 @@
       "name": "Evil Seeks Dragon Balls Yet Again!",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 87.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Recover 6 Dragon Balls",
         "Clear by defeating all enemies",
@@ -292,7 +293,7 @@
       "name": "Super-Super Ultimate Series of Battles!",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 88.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Defeat Goku, Gohan, and Goten",
         "Clear in 10 minutes",
@@ -325,7 +326,7 @@
       "name": "Gathering of the Great Evil Alliance",
       "stars": null,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ 89.",
+      "unlock_condition": "Current consulted sources confirm this PQ's placement and objectives but do not establish a reliable individual unlock trigger; preserve that uncertainty rather than asserting a sequential prerequisite.",
       "win_conditions": [
         "Defeat all enemies",
         "Clear in 10 minutes",
