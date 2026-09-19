@@ -584,3 +584,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Tooling limitation: creation of a new skill-batch-48.json failed twice because the GitHub create-file wrapper returned HTTP 422 requiring a SHA for a new file. No historical batch was overwritten to bypass this.
 - CI: no new actionable workflow evidence was exposed; validators were not weakened.
 - Exact next task: recompute the live skill census, identify the highest-impact partially_verified gaps, then continue P1 skill research into exact race/gender restrictions, DLC/version provenance, and unresolved reward/acquisition semantics before moving to QQ Bang expansion.
+
+
+### 2026-09-19 cycle update — Skill acquisition/CaC reconciliation follow-up
+- Continued P1 canonical skill research after clearing all `indexed` records.
+- Reconciled another high-impact partial cohort: Burst Reflection, Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker, Heroic Counter, Punisher Shield, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Celestial Wave, Force Shield, Instant Rise, Ki Explosion, and Maiden Burst.
+- Added concrete acquisition/source locations and CaC eligibility; filled supported zero-Ki Evasive costs. Late-PQ DLC pack provenance remains explicitly unresolved where quest-number evidence alone is insufficient.
+- Skills commit: `4ec88f3820e2a38d49f3cfa10e6256b244e679c7`. Coverage commit: `756f51f2e9c54d4e5f5e6bc026dc8b027bbd0ab7`.
+- Exact next task: recompute the live partial-field gaps and prioritize records with missing race restrictions, DLC/version provenance, or exact reward-slot semantics. Do not downgrade the evidence standard merely to increase the verified count.
