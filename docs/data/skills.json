@@ -1749,7 +1749,7 @@
       "source_quest_or_shop": "Parallel Quest 26",
       "skill_description": "Crazy Finger Shot is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "Dedicated current-version evidence confirms Crazy Finger Shot as a 100-Ki Ki Blast Super from PQ26. Holding the input extends the attack to up to 14 blasts, consuming up to 800 Ki total; existing all-CaC-races restriction retained.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1759,7 +1759,7 @@
         "https://dragonball.fandom.com/wiki/Crazy_Finger_Beam",
         "https://dragonball.fandom.com/wiki/Death_Bullet"
       ],
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest": 26,
       "race_restriction": "All CaC races"
     },
@@ -1800,10 +1800,10 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 33",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Death Psycho Bomb is a Super Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "Dedicated current-version evidence confirms Death Psycho Bomb as a 100-Ki Ki Blast Super from PQ33. It is a psychic grab/trap that catches the opponent and causes an explosion; existing all-CaC-races restriction retained.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1921,10 +1921,10 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 59",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Dimension Cannon is a Super Ki Blast skill associated with Super Buu.",
       "mechanics_notes": "Current indexed evidence confirms Dimension Cannon as a 300-Ki Ki Blast Super from PQ59. Exact drop gating and detailed numerical mechanics remain under research; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
