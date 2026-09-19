@@ -1712,3 +1712,15 @@ Reviewed **Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Gi
 - The null race field is therefore preserved intentionally.
 - No unsupported class, cost, unlock, or mechanics correction was made during this pass.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: God Punisher through Pendulum Bullet
+
+Reviewed **God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, and Pendulum Bullet**.
+
+- The Future Warrior technique reference lists God Punisher, Handy Canon, Headshot, Ill Rain, Paralysis, and Paralyze Beam among techniques usable by the Future Warrior. It also notes that only some techniques have explicit race/gender/transformation exclusivity; none was established for this cohort. citeturn0search1
+- **God Punisher** remains a 400-Ki Ki Blast Ultimate from PQ132. citeturn0search3
+- **Headshot** was corrected: it is Beerus's 300-Stamina Strike Evasive from PQ69, not a Frieza-associated Ki Blast Super. citeturn0search0
+- **Ill Rain** is a 100-Ki Ki Blast Super from PQ64. citeturn0search6
+- No CaC race/gender/form restriction was inferred from character ownership.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
