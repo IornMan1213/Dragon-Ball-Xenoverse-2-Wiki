@@ -1718,9 +1718,20 @@ Reviewed **Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Gi
 
 Reviewed **God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, and Pendulum Bullet**.
 
-- The Future Warrior technique reference lists God Punisher, Handy Canon, Headshot, Ill Rain, Paralysis, and Paralyze Beam among techniques usable by the Future Warrior. It also notes that only some techniques have explicit race/gender/transformation exclusivity; none was established for this cohort. citeturn0search1
-- **God Punisher** remains a 400-Ki Ki Blast Ultimate from PQ132. citeturn0search3
-- **Headshot** was corrected: it is Beerus's 300-Stamina Strike Evasive from PQ69, not a Frieza-associated Ki Blast Super. citeturn0search0
-- **Ill Rain** is a 100-Ki Ki Blast Super from PQ64. citeturn0search6
+- The Future Warrior technique reference lists God Punisher, Handy Canon, Headshot, Ill Rain, Paralysis, and Paralyze Beam among techniques usable by the Future Warrior. It also notes that only some techniques have explicit race/gender/transformation exclusivity; none was established for this cohort. 
+- **God Punisher** remains a 400-Ki Ki Blast Ultimate from PQ132. 
+- **Headshot** was corrected: it is Beerus's 300-Stamina Strike Evasive from PQ69, not a Frieza-associated Ki Blast Super. 
+- **Ill Rain** is a 100-Ki Ki Blast Super from PQ64. 
 - No CaC race/gender/form restriction was inferred from character ownership.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Photon Swipe through Spirit Blaster
+
+Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster**.
+
+- The current Future Warrior technique reference explicitly lists all eight as techniques usable by the Future Warrior, including Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster. citeturn0search0turn0search2
+- Reviewed evidence does not establish an explicit CaC race/gender/form restriction for this cohort; the null race fields are therefore preserved intentionally.
+- No character association was converted into a race restriction.
+- No unsupported unlock, cost, class, or mechanics correction was made during this pass.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
