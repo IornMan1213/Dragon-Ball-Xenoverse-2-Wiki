@@ -2639,3 +2639,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `bc0bffe7ec4bfa1d1cf284c3141b513b53d0dd4d`.
 - Coverage audit commit: `3e33b6d18793b42601754934a5a5bb25411909e9`.
 - Exact next task: continue the bounded Basic Reward evidence pass; remaining nullable Ultimate records are few, so verify their reward sections carefully and preserve `null` where UF gating remains unresolved.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 28
+- Resolved **S.S. Deadly Bomber (PQ115)** and **Total Detonation Ball (PQ139)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. citeturn0search0turn0search13
+- Gigantic Explosion and Gigantic Roar remain nullable because this pass did not establish exact reward-section placement strongly enough.
+- Live nullable Super/Ultimate census: **35 total — 28 Super / 7 Ultimate**.
+- Skills commit: `c9cb6945ea3f02fb1112c290c1506169a60e973b`.
+- Coverage audit commit: `6d19d04ab026689de4d974e6b656d49902623d3b`.
+- Exact next task: continue the bounded Basic Reward evidence pass on the remaining nullable records, prioritizing explicit quest-guide reward sections and preserving null when evidence is insufficient.
