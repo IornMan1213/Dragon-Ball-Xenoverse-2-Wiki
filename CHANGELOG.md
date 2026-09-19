@@ -1,3 +1,9 @@
+## September 2026 — FUTURE SAGA Chapter 4 Super Soul Expansion
+- Added four Chapter 4 Super Soul identities to the canonical research layer: **032–035**.
+- Added official DLC provenance plus PQ185/PQ186 acquisition leads and attributed community effect evidence where available.
+- Kept item-level mechanics, exact reward mapping, and drop rates unresolved where evidence is insufficient.
+- Canonical Super Soul population increased from **26 to 30** records.
+
 ## September 2026 — Super Soul Batch 03 Promotion
 - Promoted Super Soul research batch 03 (IDs **024–031**) into the canonical research layer after duplicate, schema, acquisition, and independent-source reconciliation.
 - Canonical Super Soul population increased from **18 to 26** records.
