@@ -2784,3 +2784,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `6f4fd55b1fd5a6bfb29a2509c6b61ed21086aa6c`.
 - Exact next task: continue `source_quest` provenance in small batches using explicit existing quest identifiers/titles; do not infer a quest from a vague reward description.
 
+### 2026-09-19 continuation — source-quest provenance batch 2
+- Verified one additional missing `source_quest`: **Spirit Slash → Parallel Quest 02 — A Deal?! The Saiyan Brothers**.
+- The repository already identified PQ02 in the acquisition metadata, and the external quest guide lists Spirit Slash as a Basic Reward of PQ02.
+- Skills commit: `09749b684f757f585b223ccea8eafacbe8e3ab14`.
+- Coverage audit cleanup/record commit: `e4f661379283590e02371766c0bc0143ece38a4d`.
+- Exact next task: continue the `source_quest` census, prioritizing records where the existing `source_quest_or_shop` or `unlock_method` contains an explicit quest number/title. Do not overwrite existing numeric quest IDs merely to normalize formatting.
+
