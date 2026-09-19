@@ -1766,3 +1766,15 @@ Reviewed **Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edg
 - Dedicated current skill documentation confirms Gamma Impact as a Strike Super costing 100 Ki and God of Destruction's Poise as a Strike Super costing 100–300 Ki; neither source establishes a CaC race/gender/form restriction.
 - No explicit CaC race/gender/form restriction was established for this cohort; null race fields remain intentional.
 - No character ownership was converted into a race restriction.
+
+
+## 2026-09-19 — Heroic Assault through Meteor Strike race-restriction census
+
+Reconciled the next live null-race CaC cohort after God of Destruction's Poise: Heroic Assault, Justice Blade, Justice Drive, Justice Kick, Lovely Cyclone, Mach Punch, Meteor Blow, and Meteor Strike.
+
+- Heroic Assault, Justice Blade, Justice Kick, Lovely Cyclone, Mach Punch, Meteor Blow, and Meteor Strike now carry explicit All CaC races scope because current Future Warrior evidence establishes CaC availability and does not establish a narrower race/gender/form restriction.
+- Justice Drive remains race_restriction: null. Current accessible evidence identifies it as Videl (DB Super)'s Ultimate/PQ168 skill, but the reviewed sources do not independently establish Future Warrior/CaC availability; character ownership is not treated as a CaC race restriction.
+- No race restriction was inferred from the source character for any record.
+- No unlock, cost, class, or drop semantics were changed during this pass.
+- Live skill census after this batch: 283 total / 269 CaC-usable / 127 CaC-usable with null race restriction.
+- No validator or validation rule was weakened.
