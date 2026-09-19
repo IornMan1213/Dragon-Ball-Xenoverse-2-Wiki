@@ -6428,12 +6428,12 @@
         "Namekian"
       ],
       "ki_cost": 300,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
-      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors.",
+      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. Lord Slug Lesson 3 mentor training is an independent non-Ultimate-Finish acquisition route; Ultimate Finish is not required to obtain the skill.",
       "source_quest_or_shop": "Training with Lord Slug, Lesson 3"
     },
     {
@@ -6493,14 +6493,15 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792"
       ],
       "ki_cost": 500,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop; 200 TP Medals in the documented shop listing.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price.",
-      "source_quest_or_shop": "TP Medal Shop"
+      "source_quest_or_shop": "TP Medal Shop",
+      "notes": "TP Medal Shop acquisition is an independent non-Ultimate-Finish route; Ultimate Finish is not required to obtain the skill."
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -6590,14 +6591,15 @@
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
       ],
       "ki_cost": 500,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop; current documented price is 500 TP Medals.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "TP Medal Shop",
-      "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent."
+      "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent.",
+      "notes": "TP Medal Shop acquisition is an independent non-Ultimate-Finish route; Ultimate Finish is not required to obtain the skill."
     },
     {
       "name": "Power Rush",
