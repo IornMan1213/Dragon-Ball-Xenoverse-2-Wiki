@@ -907,3 +907,8 @@ Reviewed **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion
 ## 2026-09-19 — early super provenance boundary
 
 Reviewed **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, and Burst Kamehameha** against current Xenoverse 2 sources. Breaker Energy Wave explicitly states it is available for CaCs, while Burst Kamehameha is documented as a Future Warrior reward; these establish CaC access but not an explicit race/gender/form scope. Bluff Kamehameha and Burning Attack likewise have current-version Future Warrior/custom-partner evidence but no explicit current-version race scope. Therefore no `race_restriction` values were changed. Older Xenoverse 1 race labels were not promoted into Xenoverse 2 classifications. No data provenance changes were necessary because all four already had dedicated current-version skill-page URLs in the canonical records.
+
+
+## 2026-09-19 — super-skill evidence boundary
+
+Reviewed **Burst Stinger, Dark Inscription, Demon Ray, and Destruction's Concerto: Comet** using current Xenoverse 2 skill/character pages. Burst Stinger is documented on Vegeta (Super Saiyan God), Dark Inscription on Golden Frieza (Ultra Supervillain), Demon Ray on Gohan (Beast), and Destruction's Concerto: Comet on Vados; these user associations do not by themselves establish CaC race/gender/form restrictions. The current sources did not provide explicit race scope for these records, so their null `race_restriction` values were preserved. Burst Stinger lacked a dedicated current-version provenance URL in the canonical record, so that URL was added. No race classifications were inferred from NPC identity or acquisition method.
