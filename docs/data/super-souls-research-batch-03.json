@@ -3,7 +3,7 @@
   "domain": "super_souls",
   "batch": "03",
   "purpose": "Staged research records for the next Super Soul population pass. These records remain separate from the canonical layer until reconciliation/merge validation is complete.",
-  "verification_status": "partially_verified",
+  "verification_status": "verified",
   "records": [
     {
       "id": "super-soul-024",
@@ -23,7 +23,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
-      ]
+      ],
+      "last_verified": "2026-09-19"
     },
     {
       "id": "super-soul-025",
@@ -43,7 +44,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
-      ]
+      ],
+      "last_verified": "2026-09-19"
     },
     {
       "id": "super-soul-026",
@@ -63,7 +65,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
-      ]
+      ],
+      "last_verified": "2026-09-19"
     },
     {
       "id": "super-soul-027",
@@ -84,7 +87,8 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/451926-where-to-find-quot-i-must-protect-grand-elder-guruquot-z-soul-xenoverse-2"
-      ]
+      ],
+      "last_verified": "2026-09-19"
     },
     {
       "id": "super-soul-028",
@@ -105,7 +109,8 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://dragonball.fandom.com/wiki/Hero_Society"
-      ]
+      ],
+      "last_verified": "2026-09-19"
     },
     {
       "id": "super-soul-029",
@@ -126,7 +131,8 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/455501-super-soul-quotthe-ultimate-power-is-minequot",
         "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/"
-      ]
+      ],
+      "last_verified": "2026-09-19"
     },
     {
       "id": "super-soul-030",
@@ -147,7 +153,8 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75106294"
-      ]
+      ],
+      "last_verified": "2026-09-19"
     },
     {
       "id": "super-soul-031",
@@ -168,7 +175,8 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://gamefaqs.gamespot.com/ps5/437193-dragon-ball-xenoverse-2/faqs/74285"
-      ]
+      ],
+      "last_verified": "2026-09-19"
     }
   ],
   "research_notes": [
@@ -176,6 +184,7 @@
     "Records 024-030 were promoted to verified after independent corroboration of their core identity, acquisition route, trigger/effect behavior, and Limit Burst where available. Current Item Shop rotation/availability remains intentionally unverified for shop-acquired records.",
     "super-soul-028 is independently corroborated as Sasana's Hero Society reward; super-soul-029 is independently corroborated as a Mixing Shop soul and separately documented by Nintendo as included in the Time Patrol Support Pack.",
     "super-soul-031 remains verified because its core identity, acquisition, trigger, effects, and Limit Burst are corroborated; drop-rate behavior remains unresolved.",
-    "Do not merge staged records into the canonical layer merely because the list source contains them; preserve the project's verification workflow."
+    "Do not merge staged records into the canonical layer merely because the list source contains them; preserve the project's verification workflow.",
+    "2026-09-19: all eight staged records were promoted to the canonical layer after duplicate/schema/source reconciliation. Exact shop rotation timing and unresolved drop-rate behavior remain unclaimed."
   ]
 }
