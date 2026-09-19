@@ -520,18 +520,20 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Change_the_Future_%28Parallel_Quest%29",
         "https://dragonball.fandom.com/wiki/Change_the_Future",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Change_the_Future_%28Parallel_Quest%29"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 43 - Change the Future",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "mechanics_notes": "Current evidence confirms Change The Future as a 100-Ki Ki Blast Super counter from PQ43. It counters Ki Blasts/skills; no CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "notes": "PQ43 acquisition evidence lists Change The Future in the quest's ordinary Rewards section, while the Ultimate Finish section separately describes the Cell encounter and does not associate the skill with that route. This supports an independent/non-UF acquisition route."
     },
     {
       "name": "Counter Burst",
