@@ -2758,3 +2758,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `073caf733f3f48b279370334f22a2dd68998db34`.
 - Exact next task: recompute nullable fields and continue with another small evidence-backed metadata batch; prioritize fields where class semantics can establish a value without guessing (for example, `damage_type` or `source_quest` when a direct current source identifies it).
 
+### 2026-09-19 continuation — character-only race restriction pass
+- Recomputed nullable fields after the Evasive Ki-cost pass. The only genuinely null `race_restriction` records were **Pure Progress, Super Saiyan Blue Kaioken, and Supersonic Mode**.
+- Current research identifies all three as character-exclusive/non-CaC transformations, so `race_restriction` is now explicitly **`Character-only`** for each instead of remaining null. citeturn0search1turn0search0
+- The other ten records that use unusual/non-normalized legacy race strings were deliberately left untouched; they are a separate normalization problem, not null resolution.
+- Skills commit: `1d72edc69ea25e81595acf23b006f69d1b8f1476`.
+- Coverage audit commit: `08574159b0abeb9d029e593be7fdf4bed5578cf2`.
+- Exact next task: inspect the remaining non-null race-restriction vocabulary (`undefined`, `Majin only`, `Majin male`, `Majin (Pure Majin form)`, `All CaC races while using Ultra Instinct`, and mixed-race strings) and determine which are legitimate contextual restrictions versus stale/invalid normalization artifacts. Change only values supported by current evidence.
+
