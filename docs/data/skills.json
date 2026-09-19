@@ -2310,7 +2310,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Random Parallel Quest reward",
       "source_quest_or_shop": "PQ163",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Giant Cluster is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
@@ -2321,7 +2321,8 @@
         "https://dbxv2.fandom.com/wiki/Giant_Cluster",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route."
     },
     {
       "name": "Gigantic Charge",
@@ -2335,7 +2336,7 @@
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 128",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Gigantic Charge is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
       "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
@@ -2347,7 +2348,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route."
     },
     {
       "name": "God of Destruction's Plaything",
@@ -2412,7 +2414,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 115",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Handy Canon is a Super Ki Blast skill associated with Android 13.",
       "mechanics_notes": "Dedicated current-version evidence confirms Handy Canon as a **100-Ki Ki Blast Super** from PQ115. It fires a cancellable barrage of Ki Blasts. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
@@ -2424,7 +2426,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route."
     },
     {
       "name": "Headshot",
@@ -2979,7 +2982,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 113",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Super Ghost Buu Attack is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ113. Five ghosts remain in place until launched by another input or after the automatic delay. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
@@ -2991,7 +2994,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route."
     },
     {
       "name": "Vanishing Ball",
