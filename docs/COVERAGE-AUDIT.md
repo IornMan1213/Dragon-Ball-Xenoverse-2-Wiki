@@ -847,3 +847,7 @@ Reviewed `Rough Ranger`, `Shadow Crusher`, `Sudden Death Beam`, `Super Afterimag
 ## 2026-09-19 — null-race batch: defensive/evasive skills
 
 Reviewed `Force Shield`, `Instant Rise`, `Ki Explosion`, `Maiden Burst`, `Mighty Explosive Wave`, `Psychic Move`, `Punisher Guard`, `Side Bridge`, `Spread Shot Retreat`, `Steel Mirage`, `Final Pose`, and `Mach Dash`. The checked Future Warrior index and dedicated skill pages establish technique identity and Future Warrior availability. A secondary Future Warrior profile groups Force Shield and several other abilities under an “All Races” section, but this is not sufficiently direct to overwrite the canonical null race fields because it does not provide a skill-by-skill race-access statement. No classifications were changed.
+
+## 2026-09-19 — null-race batch: barriers, counters, and offensive skills
+
+Reviewed `Energy Barrier`, `Spirit Explosion`, `Spirit Slash`, `Atomic Blast`, `Blaster Ball`, `Bluff Kamehameha`, `Breaker Energy Wave`, `Burning Attack`, `Burst Kamehameha`, `Burst Stinger`, `Dark Inscription`, and `Demon Ray`. Dedicated/reference pages confirm Future Warrior use for the checked techniques, but the reviewed evidence does not provide sufficiently explicit individual race/gender restrictions or an individual “regardless of race” statement for these records. No `race_restriction` classifications were changed.
