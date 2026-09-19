@@ -443,3 +443,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Commits: `ca75f7b653ea8622d576ecd27b794b29dd727909` (canonical Super Souls), `f6842a2c5e2b41d879640d4b3962d76ff5de799d` (batch finalization), `5485adf46c15c6dae5d96de2caf81352fbdb679f` (database page), `7cf0a059f1cbadfe12358a0ea9434f5ab705128` (coverage gaps), `8d5472238261bcf35bce7703026969762cc240f7` (TODO), `e57927e52634f456d6f7a9244ebf33963194b5eb` (changelog).
 - Validation: live cross-link report is resolved with 0 unresolved references; repository artifact audit remains clean in the inspected coverage audit. GitHub Actions still exposes no usable runner-step evidence for the known pre-run failures, so validators were not weakened and CI was not claimed as passing.
 - Exact next task: continue **Super Soul expansion** beyond the 26-record baseline, prioritizing acquisition families that are still absent/underrepresented (Expert Missions, raids/events, shops/rotations, DLC-specific souls), while independently reconciling triggers/effects/Limit Burst behavior. In parallel, continue the P0 Actions diagnosis only from observable GitHub evidence and maintain the exhaustive coverage gap map.
+
+
+### 2026-09-19 cycle update — FUTURE SAGA Chapter 4 Super Soul expansion
+- Workstream: Super Soul catalogue expansion after PQ provenance completion.
+- Added four FUTURE SAGA Chapter 4 Super Souls to the canonical research layer: records **032–035**.
+- Official DLC evidence establishes four new Chapter 4 Super Souls; repository PQ185/PQ186 reward inventories provide acquisition leads. Community testing supplies secondary effect evidence for three records. These are explicitly marked **partially verified**; item-level mechanics, exact Normal-vs-Ultimate-Finish mapping, and drop rates were not inferred.
+- Canonical Super Soul population is now **30 records**.
+- Files changed: `docs/data/super-souls-record-layer.json`, `docs/Super-Souls-Database.md`, `docs/data/coverage-gaps.json`, `CHANGELOG.md`, and this handoff.
+- Commits: `704820758f555d13ddcf06350be1258f8c6b24fa` (canonical records), `fe7e53073daaeae8dd1826980d2157a0e77d6c4d` (database), `e348bda6a107c873dcf984c97d0a1b93bc403e4c` (coverage gaps), `87a9f9f7078f108a55771010e910fe15ea2e10dc` (changelog).
+- Validation: PQ-to-skill cross-link report remains resolved with 0 unresolved references; coverage audit artifact check remains clean. Do not infer CI success where GitHub exposes no workflow-run evidence.
+- Exact next task: continue Super Soul expansion beyond 30, prioritizing acquisition families absent from the canonical layer (Expert Missions, raids/events, TP Medal Shop rotations, DLC-specific rewards) and upgrading partially verified Chapter 4 mechanics only when stronger item-level evidence is found.
