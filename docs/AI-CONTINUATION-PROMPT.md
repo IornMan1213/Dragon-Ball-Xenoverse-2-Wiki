@@ -1576,3 +1576,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `df2637cc958582a9d8e6d13a7bdf3a4dd06a8d6f`.
 - Audit commit: `b866d2079bd81cd37c630bc15358de7e1b26b8a6`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Soaring Rush.
+
+
+### 2026-09-19 continuation — Sonic Bomb through Burning Blast
+- Reconciled **Sonic Bomb, Super God Fist, Variant Drive, Wild Stinger, Zigzag Express, Apocalyptic Burst, Blaster Stream, and Burning Blast**.
+- Wild Stinger remains non-CaC/character-exclusive; Zigzag Express retains the explicit Majin male restriction. Other CaC-usable records retain null race restriction where no narrower evidence exists.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+- Data commit: `549e3e2a6f993e1cbf218a03e6d91da5ee342b2f`.
+- Audit commit: `391cd805ad0ef60e0fdf8808e95740990ed17ac7`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Burning Blast.
