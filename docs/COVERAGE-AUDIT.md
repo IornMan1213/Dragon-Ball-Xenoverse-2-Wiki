@@ -2293,3 +2293,10 @@ Live nullable Super/Ultimate census: **162** total — 123 Super and 39 Ultimate
 Resolved `ultimate_finish_required: false` for **Dimensional Hole** (PQ80), **Atomic Blast** (PQ87), **Blaster Ball** (PQ125), and **Punisher Shield** (PQ129). The live PQ reward guide lists each under its corresponding **Basic Reward** section, which is distinct from the quest's Ultimate Finish conditions. citeturn1search0turn1search1
 
 Live nullable Super/Ultimate census: **158** total — 119 Super and 39 Ultimate.
+
+
+## 2026-09-19 — basic-reward PQ batch 5
+
+Resolved `ultimate_finish_required: false` for **Burst Kamehameha** (PQ72) and **Big Bang Knuckle** (PQ172). Current PQ documentation explicitly places Burst Kamehameha and Big Bang Knuckle in their respective Basic Reward lists, so these acquisitions are not contingent on the Ultimate Finish reward section. citeturn1search13turn1search4
+
+Live nullable Super/Ultimate census: **156** total — 117 Super and 39 Ultimate.
