@@ -2804,3 +2804,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `68882bddc6fbebb8d8b3c96e38aea312d746a1d6`.
 - Exact next task: continue `source_quest` in small evidence-backed batches, using explicit identifiers already present in the records and external confirmation where useful.
 
+### 2026-09-19 continuation — source-quest provenance batch 5
+- Populated eight explicit `source_quest` identifiers: **Headshot (PQ69), Ill Rain (PQ64), Kamehameha (PQ05), Paralysis (PQ34), Paralyze Beam (PQ04), Photon Swipe (PQ139), Pretty Cannon (PQ133), Rolling Bullet (PQ42)**.
+- External references independently confirm Headshot/PQ69 and Ill Rain/PQ64; the remaining values were promoted only because the repository's existing acquisition fields already explicitly named the PQ number.
+- Skills commit: `c8c42075dd243931c5b752fbe06d6e4af68be361`.
+- Coverage audit commit: `58098a246c1a9c8008adea26d3ca8148d99db48b`.
+- Exact next task: continue the `source_quest` census with explicit quest identifiers; leave records whose metadata only says generic/random PQ reward without a specific quest unchanged.
+
