@@ -68,13 +68,13 @@ This file is the working project tracker. Statuses describe repository work, not
 - [x] Fixed the skill builder so correction batches can remove obsolete records when the correction changes the canonical uniqueness key.
 - [x] Inspected and reran the Repository Quality artifact-check job after its failure; GitHub currently exposes no usable step logs, so the failure remains an unresolved workflow/infrastructure issue rather than a claimed validator failure.
 
-## Current priority correction — 2026-09-18
+## Current priority correction — 2026-09-19
 
-The repository tracker is authoritative for continuation order. The current skill research frontier remains **Batch 316**. Batches 315–316 are now promoted into the canonical skill catalog after duplicate checks; the Parallel Quest audit is structurally complete through PQ186. The PQ audit now has an explicit unresolved cross-link report; PQ coverage is not considered fully reconciled until documented skill rewards resolve against canonical skill identities.
+The repository tracker is authoritative for continuation order. The current skill research frontier remains **Batch 316**, but the immediate data-quality track is now Super Soul expansion and cross-system reconciliation. Batches 315–316 are promoted into the canonical skill catalog, PQ provenance is complete through PQ186, and the current PQ-to-skill report is resolved against the 298-record canonical skill catalog. Super Soul batch 03 is now promoted, bringing the canonical Super Soul population to 26 records.
 
 **Continuation order:**
 1. **P0:** resolve or obtain observable evidence for the GitHub Actions pre-run failures; never weaken validators to make CI green.
-2. **P1:** reconcile the existing final-DLC skill work (especially Batch 36) and the PQ-to-skill cross-link gap before adding another generic skill batch. The refreshed cross-link report identifies 120 unresolved PQ skill references against 117 unique canonical skill names; this is a data-reconciliation gap, not evidence that those skills do not exist.
+2. **P1:** continue cross-system reconciliation around the final-DLC skills and Super Souls; the current PQ-to-skill report is resolved, so remaining work should target acquisition/version semantics and the next under-documented systems rather than a stale unresolved-link count.
 3. **P1 coverage:** begin an exhaustive coverage audit of the currently thin wiki systems/pages. Record missing fields and missing records as TODO/data gaps instead of assuming the presence of a page means the system is complete.
 4. **P2:** expand PQ, Awoken/Transformation, Expert Mission, Super Soul, Equipment, QQ Bang, character, story/Time Rift, shop/reward, and raid/event datasets with structured fields and provenance.
 5. **P3:** expose the growing database through Pages navigation/search/explorer improvements only after data gaps are being tracked.
@@ -92,8 +92,8 @@ This correction is intentional: the project goal is an exhaustive encyclopedia, 
 - [ ] Reconcile unresolved Skill fields against multiple independent sources before promoting records to `verified`.
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
 - [ ] Deeply verify Batch 36's three Chapter 4 PQ skills and The Power to Overcome mechanics, including exact resource costs, reward-slot semantics, detailed effects, and version-sensitive behavior.
-- [ ] Expand the Super Soul catalogue beyond the current 18 records; reconcile acquisition, triggers, effect magnitudes, durations, stacking, and Limit Burst behavior per soul.
-- [ ] Promote Super Soul records only after core identity, acquisition, effects, and key mechanics are independently reconciled.
+- [ ] Expand the Super Soul catalogue beyond the current **26 records**; reconcile acquisition, triggers, effect magnitudes, durations, stacking, shop rotations, and Limit Burst behavior per soul.
+- [x] Promote Super Soul research batch 03 (IDs 024–031) after duplicate, schema, acquisition, and independent-source reconciliation.
 - [ ] Expand the Equipment Database from the initial records into the full individual clothing, equipment, accessory, shop, PQ, EM, raid, story, mentor, and DLC inventory.
 - [ ] Build complete machine-readable equipment records with exact component slot, stat, acquisition, provenance, version, and verification fields.
 - [ ] Expand QQ Bang research from system/recipe families into observed six-stat result records and reproducible recipe/result relationships.
@@ -105,8 +105,8 @@ This correction is intentional: the project goal is an exhaustive encyclopedia, 
 - [x] Reconcile canonical matches from the PQ171-PQ186 frontier; 10 additional links are now resolved.
 - [x] Add the four verified Future Saga Chapter 1 skill identities: Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger.
 - [x] Reconcile the researched PQ171-PQ180 skill identities currently supported by evidence.
-- [ ] Reconcile the remaining PQ171-PQ186 skill names (not yet present in the canonical catalog) before expanding to earlier PQs.
-- [ ] Reconcile the PQ-to-skill cross-link report (`docs/data/pq-skill-crosslink-report.json`): resolve the 175 currently unresolved reward references against canonical skill identities/research history, while preserving aliases and historical naming conflicts.
+- [x] Reconcile the remaining PQ171-PQ186 skill names supported by the current canonical catalog/research layer; unresolved references are now tracked by the current cross-link audit rather than the stale 175-link count.
+- [x] Reconcile the PQ-to-skill cross-link report (`docs/data/pq-skill-crosslink-report.json`): the current report is `resolved` with 0 unresolved references; preserve aliases and historical naming conflicts.
 - [ ] Audit and expand Awoken/Transformation records as a first-class coverage track: separate CaC transformations from character-only forms, document resource costs, stages, race restrictions, unlock prerequisites, version history, and include The Power to Overcome where applicable.
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
 - [ ] Expand Conton City and Time Rift records with complete NPC, service, progression, collectible, and access relationships.
@@ -141,14 +141,14 @@ The project is being worked as parallel tracks so the site visibly improves whil
 
 ## Next Working Cycle
 
-1. **P0:** verify the corrected Batch 314 against the repository duplicate/semantic validators and inspect the next Skills Sync/Data Audit workflow result.
-2. **P1:** if validation is clean, synchronize accumulated research batches into the canonical skills.json/skills-index.json layer and verify the generated catalog rather than assuming sync occurred.
+1. **P0:** continue diagnosing the pre-run GitHub Actions failures from observable workflow metadata; do not weaken validators or claim CI success without runner evidence.
+2. **P1:** continue Super Soul expansion from the new 26-record canonical baseline, reconciling acquisition and effects before promotion.
 3. Re-verify one previously researched batch while continuing the next non-duplicate Ki Blast Ultimate coverage batch.
 4. Continue resolving high-value unresolved skill fields with independent Xenoverse 2 sources; do not promote uncertain UF, cost, drop-rate, or acquisition fields.
 5. Reconcile Batch 36 final-DLC skills and The Power to Overcome mechanics.
 6. Deepen EM16–20 with exact phase/mechanic/reward tables where evidence supports them.
 7. Continue EM01–15 individual records and reconcile the strongest independently documented missions first.
-8. Populate the next Super Soul batch and resolve its acquisition/effect provenance.
+8. Populate and reconcile the next Super Soul research batch, prioritizing under-documented acquisition families and DLC/raid/Expert Mission provenance.
 9. Expand the individual Equipment population from the first 10 records into complete clothing and accessory coverage.
 10. Expand QQ Bang observed-result research alongside the equipment records.
 11. Update this TODO tracker and CHANGELOG.md as priorities change.
