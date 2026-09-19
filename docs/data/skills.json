@@ -1005,7 +1005,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
       "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "damage_type": "Ki Blast"
     },
     {
       "name": "Force Shield",
@@ -1299,7 +1300,8 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "mechanics_notes": "Dedicated current-version evidence confirms Mach Dash as a 200-Stamina Power Up Evasive from PQ18. It creates distance and temporarily increases movement speed. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "damage_type": "Other"
     },
     {
       "name": "Angry Shout",
