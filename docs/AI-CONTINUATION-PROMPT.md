@@ -78,11 +78,11 @@ Known completed frontier:
 - PQ56: speak with Kid Trunks near the waterfall.
 - PQ57–60: bounded Buu-era progression metadata; exact triggers remain unresolved.
 - PQ61–70: bounded evidence metadata added because consulted sources establish quest placement/objectives but not reliable individual unlock triggers.
-- PQ71–80: exact unlock routes researched and recorded; sequential PQ dependencies and story/NPC gates were preserved where supported.
+- PQ71–80: unlock research reviewed; exact-looking prerequisites were removed where consulted evidence did not directly establish them, preserving bounded uncertainty.
 - PQ161–186: later-batch reward/unlock semantics enriched; exact unknown percentages remain unresolved rather than fabricated.
 - PQ184 Chaotic Time Impact: documented as a 50% Ultimate Finish bonus-slot drop.
 
-**Next exact PQ task: PQ81–90.**
+**Next exact PQ task: PQ91–100.**
 First recompute the live unlock census instead of trusting historical counts.
 
 ### P1 — Awoken / Transformations
@@ -136,7 +136,7 @@ Only after data-completeness work, expose the improved structured research surfa
 8. Commit the complete cycle.
 
 ### Latest known PQ unlock census
-Latest audit reference after PQ71–80: **72 records without an explicit unlock condition**. Recompute from the live 18 PQ batch files before making decisions.
+Latest numeric unlock-field reference: **72 records without any `unlock_condition` field**. This is not equivalent to 72 unresolved exact routes; classify populated fields by evidence quality before claiming coverage.
 
 ## Recent commits
 
@@ -158,14 +158,13 @@ Latest audit reference after PQ71–80: **72 records without an explicit unlock 
 - `.github/workflows/`
 - `scripts/`
 
-### 2026-09-19 cycle update — PQ71–80
+### 2026-09-19 cycle update — PQ71–90
 - Workstream: Parallel Quest unlock-route research.
-- Changed: `pq-batch-08.json`, `docs/COVERAGE-AUDIT.md`, and this handoff file.
-- Research: verified PQ71–80 against independent PQ references, including explicit prerequisite chains and story/NPC gates.
-- Evidence limitations: none of the ten entries required an invented prerequisite; exact wording is normalized from source evidence.
-- Commits: `5a68cbf35b6aae022ae71acaff1faec07d45c775` (PQ71–80), `cec93e91d5e72a2952a95499b1a28320c612d19d` (coverage), plus this handoff update.
-- Current unlock-gap reference: 72; recompute live before next decisions.
-- Next exact task: PQ81–90.
+- PQ71–80 and PQ81–90 were reviewed against independent objective/Ultimate Finish references.
+- Important correction: exact-looking sequential unlock claims were not retained when the consulted evidence did not directly establish the individual trigger. The records now use bounded uncertainty wording instead of presenting inference as fact.
+- Updated: `pq-batch-08.json`, `pq-batch-09.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Numeric unlock-field gap: 72 records lack the field entirely; this must not be treated as an exact unresolved-route count.
+- Next exact task: PQ91–100.
 
 ## End-of-cycle update protocol
 
