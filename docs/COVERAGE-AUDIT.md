@@ -2199,3 +2199,10 @@ Resolved `ultimate_finish_required` to `false` for **Explosive Wave**, **Punishe
 ## 2026-09-19 — Super Ultimate-Finish metadata batch
 
 Resolved `ultimate_finish_required` to `true` for **Rough Ranger**. Its current repository acquisition metadata explicitly identifies PQ119's **Ultimate Finish** as the acquisition route, providing direct positive evidence rather than an inference from a generic PQ reward.
+
+
+## 2026-09-19 — Super acquisition metadata batch
+
+Resolved `ultimate_finish_required` to `false` for 15 Super skills whose repository acquisition metadata identifies non-Ultimate-Finish routes: Shenron wishes, mentor training, Skill Shop, or explicitly non-UF PQ reward routes. This avoids treating every PQ-linked skill as UF-gated.
+
+Batch: Burst Reflection, Flash Fist Crush, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Shadow Crusher, Destructo-Disc, Galick Gun, Masenko, Perfect Shot, Spirit Bomb, Kamehameha, Paralyze Beam.
