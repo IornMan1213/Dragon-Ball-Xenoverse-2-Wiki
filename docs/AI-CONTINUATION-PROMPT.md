@@ -861,3 +861,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - None of those exact technique names currently exists as a canonical record in `docs/data/skills.json`, so no new classification was fabricated and the live 186-record null-race cohort is unchanged.
 - The audit also confirmed the source's general warning that some Future Warrior techniques are exclusive by race, gender, and/or transformation.
 - Exact next task: continue matching explicit restriction evidence against the actual canonical skill inventory, then classify only records that exist and remain unresolved.
+
+### 2026-09-19 cycle update — explicit-restriction cross-check
+- Rechecked the source's explicit Future Warrior race/gender restriction set against live `skills.json`.
+- Result: **0** explicit restricted skills remain unclassified among CaC-usable records. The reconciled set includes Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Quick Sleep, Ill Bomber, Shining Slash, Burning Slash, Candy Beam, Buu Buu Ball, Evil Flight Strike, Namek Finger, Darkness Rush (Ranged), Darkness Rush (Melee), and Majin Kamehameha.
+- No data change was warranted this pass; the remaining 186 null-race records need new evidence rather than inference.
+- Coverage commit: `546a9531560caa7213ee226349c032096d89cabe`.
+- Exact next task: expand research beyond the current Future Warrior technique list and seek independent explicit race/gender/form statements for unresolved canonical skills.
