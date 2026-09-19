@@ -692,3 +692,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `c4c98ee41354038d4e0701c8d82a0f18c52b0df3`.
 - Coverage commit: `a18eed0e500cf2c18818743a5a80d02daab5b3fa`.
 - Remaining null-CaC cohort is now **10 records**. Continue explicit evidence research; do not infer eligibility from PQ rewards alone.
+
+
+### 2026-09-19 cycle update — second-pass DLC CaC reconciliation
+- Reconciled **Blaster Stream, God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark** to `usable_by_cac: true` using explicit Future Warrior/CaC evidence. citeturn1search3turn1youtube29turn1search5
+- Skills commit: `6bb28b3140b30047c04a22436593cfc4feb55157`.
+- Coverage commit: `e876a3a75fd039bdac4a381e621043f771290060`.
+- Remaining null-CaC cohort is now **4 records**: Dark Inscription, Emperor's Cannon, Heat Wave, and Chaotic Time Impact. Continue those four with the same evidence standard before beginning the race-restriction census.
