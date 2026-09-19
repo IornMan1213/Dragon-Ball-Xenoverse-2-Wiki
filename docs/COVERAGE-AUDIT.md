@@ -543,3 +543,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Independent references cross-check the Future Saga Chapter 1/2 and Dragon Ball DAIMA DLC associations, Ultimate Finish conditions, and documented rewards for these quests. 
 - No new reward probabilities were inferred; existing explicit drop-rate evidence in the maintained corpus was preserved.
 - Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 6 records still lacking individual `sources` arrays**.
+
+
+## Parallel Quest provenance pass — PQ181–PQ186 — 2026-09-19
+
+- Completed record-level provenance for the **final six unsourced PQ records, PQ181–PQ186**; all six now carry explicit source URLs and a 2026-09-19 verification date.
+- Independent references cross-check the DLC associations, Ultimate Finish conditions, and documented rewards. The maintained Steam transcription identifies PQ181 as Dragon Ball DAIMA Pack, PQ182–184 as Future Saga Chapter 3, and PQ185–186 as Future Saga Chapter 4. 
+- PQ184's documented `Chaotic Time Impact` 50% Ultimate Finish bonus-slot rate was independently cross-checked; no unsupported probabilities were added to PQ181–183 or PQ185–186. 
+- Repository-wide provenance census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 0 records lacking individual `sources` arrays**.
