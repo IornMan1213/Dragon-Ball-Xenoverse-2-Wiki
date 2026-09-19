@@ -2473,3 +2473,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 9d84220a3fda43a27fb84228e57dee8e6a6d4418.
 - Live nullable Super/Ultimate census: 139 total (104 Super, 35 Ultimate).
 - Next task: continue with explicit Basic Reward candidates, especially remaining newer PQ records; preserve null when evidence does not establish the gate.
+
+
+### 2026-09-19 continuation — basic-reward DAIMA PQ batch 11
+- Resolved `ultimate_finish_required=false`: Dark Inscription (PQ182), Supreme Fury (PQ179), Force Edge (PQ180), Burning Blast (PQ180).
+- Evidence: current PQ guide lists each in Basic Reward sections. Chaotic Time Impact remains `true` because datamined reward data identifies it as a UF bonus drop.
+- Skills commit: 57e4cf8c8c5884363b23755783bece76958a94c1.
+- Live nullable Super/Ultimate census: 135 total (100 Super, 35 Ultimate).
+- Next task: continue explicit Basic Reward candidates; resolve conflicts conservatively and preserve established UF requirements.
