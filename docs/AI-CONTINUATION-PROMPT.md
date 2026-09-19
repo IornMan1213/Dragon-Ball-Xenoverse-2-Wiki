@@ -678,3 +678,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `dd675147e02a668b79a8b94b2293a8d55d27fbf9`.
 - Coverage commit: `f38f3e3544682ab7d107c2ba1de5e10b8dbb6b87`.
 - Next: seek explicit Future Warrior/CaC references for the remaining 15 records; if unavailable, keep them unresolved and move to the race-restriction census rather than guessing.
+
+
+### 2026-09-19 cycle update — DAIMA CaC evidence
+- Reconciled **Force Edge, Burning Blast, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** to `usable_by_cac: true` based on explicit CaC-focused coverage and CaC build/combo evidence. citeturn3youtube37turn3reddit38turn3reddit43
+- Skills commit: `9db1be415b06fbfde8288f0eb8e47548477b30f6`.
+- Coverage commit: `9ef664e50f208c1a3e8b955ee10f199e3ef40806`.
+- Remaining null-CaC cohort is now **11 records**. Continue explicit evidence research before moving to the race-restriction census.
