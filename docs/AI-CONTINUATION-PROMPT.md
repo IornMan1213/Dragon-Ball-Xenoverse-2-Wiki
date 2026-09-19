@@ -876,3 +876,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `d510d9aadf33fda593ed2cef2695af1d58aa16f2`.
 - Coverage commit: `d79eeed38912d6f37269233554aa24a3a29cd9e1`.
 - Exact next task: continue searching independent technique pages for equally explicit race/unrestricted statements among the remaining null-race records.
+
+### 2026-09-19 cycle update — Justice Pose explicit unrestricted evidence
+- Classified **Justice Pose** as `All CaC races`.
+- Evidence explicitly states the Xenoverse 2 Super Skill can be used by the Future Warrior regardless of race or gender; the separate emote has different restrictions and must not be conflated with the skill.
+- Skills commit: `d3db810e63893318f8cf40b38b2fa9601301a730`.
+- Coverage commit: `7206a4cf543304579c6893dfa4b4d6597a92ece3`.
+- Exact next task: continue independent skill-page research for explicit unrestricted/race/gender/form statements.
