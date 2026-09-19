@@ -2549,3 +2549,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `26d73b3e088c1a2e30445180722cc436ab24e5da`.
 - Preserve null for remaining records unless their reward section or another source establishes the actual UF gate. Do not infer UF status merely from PQ acquisition.
 - Exact next task: continue the same bounded Basic Reward/non-UF evidence pass, prioritizing remaining PQ-only nullable records with explicit Basic Reward listings. Recompute the nullable census after every batch and record the new frontier here.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 18
+- Web evidence confirmed explicit Basic Reward placement for **Paralysis (PQ34), Ill Rain (PQ64), Ill Bomber (PQ90), Super Donut Volley (PQ55), Stone Bullet (PQ56), Petrifying Spit (PQ114), Handy Canon (PQ115), and Brave Sword Slash (PQ116)**. citeturn0search0turn0search1
+- Set `ultimate_finish_required=false` for all eight and refreshed `last_verified=2026-09-19`.
+- Live nullable Super/Ultimate census after batch: **95 total — 61 Super and 34 Ultimate**.
+- Skills commit: `f849d0c85810ed96d87916d454eee0b0d2a8a361`.
+- Coverage audit commit: `169954139ace252fb4224dcdd9078ba0e8a1ccfe`.
+- Exact next task: continue the same evidence-backed Basic Reward pass. Recompute the nullable census first and do not alter records whose actual UF gating remains unresolved.
