@@ -729,3 +729,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `d248c4be6598c338181efd83a9c5edbe1472e496`.
 - Coverage commit: `648330db2fbe3bb5c6502b0fc2c54a26034b8647`.
 - Continue the race census with explicit race-specific entries; avoid treating a skill's character_source as proof of a CaC race lock.
+
+
+### 2026-09-19 cycle update — universal race batch 2
+- Reconciled **Candy Beam (Super), Petrifying Spit, and Kai Kai** → `All CaC races` using explicit Future Warrior/CaC evidence. citeturn1search2turn1search10turn2search5
+- Skills commit: `dc4fc4234876c747429e81a73cf8be8be4c946e6`.
+- Coverage commit: `2f3f95939e96e990b1da81ea76b91988e3aaaf79`.
+- Continue the census with explicit race/gender/form-exclusive evidence; unresolved records remain untouched until evidence clears the threshold.
