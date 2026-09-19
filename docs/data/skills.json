@@ -5828,14 +5828,16 @@
       "skill_description": "S.S. Deadly Bomber is a Ultimate Ki Blast skill associated with Android 13.",
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
-        "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber"
+        "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "mechanics": "400 Ki; tracking Ki-ball projectile that follows the opponent and deals damage across multiple hits."
+      "mechanics": "400 Ki; tracking Ki-ball projectile that follows the opponent and deals damage across multiple hits.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Sign of Awakening",
@@ -5853,12 +5855,14 @@
       "skill_description": "Sign of Awakening is a Ultimate Ki Blast skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Sign_of_Awakening"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Special Beam Cannon (Beast)",
@@ -5876,12 +5880,14 @@
       "skill_description": "Special Beam Cannon (Beast) is a Ultimate Ki Blast skill associated with Gohan (Beast).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)"
-      ]
+        "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)",
+        "https://dragonball.fandom.com/wiki/Special_Beam_Cannon_%28Beast%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Super Black Kamehameha Rosé",
@@ -5899,12 +5905,15 @@
       "skill_description": "Super Black Kamehameha Rosé is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9"
-      ]
+        "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
+        "https://dragonball.fandom.com/wiki/Super_Black_Kamehameha",
+        "https://dbxenoverse.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Super Gamma Blast",
@@ -5922,12 +5931,14 @@
       "skill_description": "Super Gamma Blast is a Ultimate Ki Blast skill used by Gamma 1.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Super_Gamma_Blast"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
@@ -5946,9 +5957,10 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for a 500 Ki total.",
-      "research_status": "reconciled_explicit_cac_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
-      "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range."
+      "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Super Spirit Bomb",
@@ -5957,7 +5969,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb"
       ],
       "ki_cost": 300,
       "unlock_method": "Expert Mission 16",
@@ -5967,7 +5980,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 16 - In the Realm of the Gods: Vegeta",
-      "research_status": "reconciled_future_warrior_evidence"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Supernova",
@@ -5975,7 +5988,8 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
+        "https://dragonball.fandom.com/wiki/Supernova"
       ],
       "ki_cost": 500,
       "unlock_method": "Expert Mission 6 - \"The Depths of Despair\"",
@@ -5983,7 +5997,7 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "reconciled_future_warrior_evidence"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Teleporting Vanishing Ball",
