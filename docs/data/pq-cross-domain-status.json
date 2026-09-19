@@ -21,7 +21,7 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Run a final cross-domain reconciliation against the live relationship artifacts and handoff, then record the stable baseline and leave only evidence-driven expansion work in the queue.",
+  "next_gate": "Leave the 840-edge baseline intact and perform only evidence-driven expansion when stronger source coverage is found; re-run the same integrity/reconciliation checks after any additions.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -176,6 +176,59 @@
       "Forward, reverse, audit, and status counts agree at 840 total edges.",
       "Reverse index generated_from intentionally names six normalized reward-map files; the canonical 015-020 through 163-186 batch files are separate evidence and are not incorrectly substituted for the partial normalized maps.",
       "No schema migration or consumer-facing field change is required in this tranche."
+    ]
+  },
+  "final_stable_baseline": {
+    "date": "2026-09-19",
+    "scope": "final cross-domain reconciliation",
+    "result": "stable_baseline",
+    "forward_counts": {
+      "skill": 236,
+      "super_soul": 137,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "total_edges": 840,
+    "reverse_counts": {
+      "skill": 236,
+      "super_soul": 137,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "audit_counts": {
+      "skill": 236,
+      "super_soul": 137,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "status_counts": {
+      "skill": 236,
+      "super_soul": 137,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "duplicate_pairs": {
+      "pq_farming_route": 0,
+      "pq_requires_dlc": 0,
+      "pq_rewards_skill": 0,
+      "pq_rewards_super_soul": 0,
+      "pq_rewards_equipment": 0,
+      "pq_features_character": 0
+    },
+    "reconciliation_status": "reward_provenance_reconciled_with_partial-map-drift-retained",
+    "known_scope_limits": [
+      "PQ 1 has no typed skill/Super Soul/equipment reward relationship because the cited Basic Reward source lists only Zeni and Energy Capsule S.",
+      "Normalized reward maps are partial and omissions are not negative evidence.",
+      "Character edges are limited to explicit objective/ultimate-finish references; generic appearances are not inferred.",
+      "DLC and farming edges require explicit source evidence."
     ]
   }
 }
