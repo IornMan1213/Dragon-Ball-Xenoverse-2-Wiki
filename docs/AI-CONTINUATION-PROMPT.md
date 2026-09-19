@@ -300,3 +300,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - CI: inspect the latest push-triggered runs before changing validators; no validator was weakened during this cycle.
 - Remaining provenance gap: **102 PQ records** still lack individual `sources` arrays after completing PQ1–PQ20.
 - Exact next task: **continue with PQ21–PQ30**, recheck objective/Ultimate Finish claims against independent sources, add record-level provenance, then update the coverage audit, changelog, and this handoff and inspect Actions/status.
+
+
+### 2026-09-19 cycle update — PQ21–30 provenance and reward reconciliation
+- Workstream: Parallel Quest provenance and reward/acquisition evidence cleanup.
+- Completed the third bounded provenance pass on **PQ21–PQ30**. All ten records now have explicit record-level source URLs and 2026-09-19 verification dates.
+- Reconciled basic reward lists against the maintained 186-PQ Steam transcription and independent PQ tables. Several incomplete repository reward lists were corrected, including PQ22, PQ26, PQ28, PQ29, and PQ30.
+- Strengthened PQ27 and PQ28 unlock metadata with explicit NPC triggers: Metal Cooler near Master Cell in northern Conton City for PQ27, and Appule in the Bamboo Forest for PQ28. Other quests retain conservative unlock wording where exact quest-specific triggers were not independently established.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-03.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `581cc2067b38370ef2a970f459ba567d9a40367a` (PQ21–30 provenance/rewards), `7d9b0501c9352e96ff8427685c1321c5cb987b67` (coverage audit), `f5d67985bf25616768eaf387abd72bdfd75c7f3c` (changelog).
+- Validation: all 18 PQ batches were fetched and parsed after the edit; **176 total records**, **0 missing explicit `unlock_condition` fields**, and **92 records still lacking individual `sources` arrays**.
+- CI: inspect the latest push-triggered runs/status before changing validators. No validator was weakened during this cycle.
+- Exact next task: **continue with PQ31–PQ40**, with the same record-level provenance pass plus reward reconciliation. Pay special attention to PQ36's already-documented numbering/existence conflict and preserve that conflict rather than silently resolving it. Then update the coverage audit, changelog, handoff, and inspect Actions/status.
