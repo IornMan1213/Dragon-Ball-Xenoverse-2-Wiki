@@ -947,3 +947,8 @@ Reviewed **Ill Rain, Paralysis, Paralyze Beam, and Pendulum Bullet** against cur
 ## 2026-09-19 — Photon/Raid provenance boundary
 
 Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, and Ray Blast** against current Xenoverse 2 evidence. The reviewed evidence establishes current-version skill identity and user/acquisition context but does not explicitly establish a CaC race/gender/form restriction. Null `race_restriction` is preserved for all four. Added dedicated current-version provenance URLs for all four and refreshed their verification dates.
+
+
+## 2026-09-19 — Reverse/Spirit provenance boundary
+
+Reviewed **Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster**. The current repository sources establish Xenoverse 2 skill identity and acquisition/user context, but the reviewed evidence does not explicitly establish CaC race/gender/form scope. Null `race_restriction` is therefore preserved for all four. Added dedicated current-version provenance URLs for Reverse Shot and Spirit Blaster and refreshed verification dates for all four. A fresh web search for current dbxv2 Fandom pages was blocked by robots.txt, so no unsupported external claim was substituted.
