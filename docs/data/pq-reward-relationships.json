@@ -5588,15 +5588,11 @@
   ],
   "current_counts": {
     "skill": 229,
-    "super_soul": 125,
-    "equipment": 39,
+    "super_soul": 135,
+    "equipment": 53,
     "character": 247,
     "dlc": 88,
     "farming": 7
-  },
-  "relationship_counts": {
-    "pq_rewards_super_soul": 10,
-    "pq_rewards_equipment": 14
   },
   "last_reconciled_scope": "PQ 15-186 reward layer checked against canonical typed fields; 24 previously missing canonical entries added. Existing edge-only relationships retained pending independent-source reconciliation because canonical typed arrays are explicitly partial.",
   "notes": [
