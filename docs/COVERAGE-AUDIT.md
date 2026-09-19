@@ -1497,3 +1497,13 @@ Reconciled **Freedom Kick, Gamma Impact, God of Destruction's Poise, Heroic Assa
 - No narrower CaC race/gender/form restriction is established by the current evidence for these records, so restrictions remain null rather than being inferred from the associated character.
 - Existing acquisition details, including the PQ135 Ultimate Finish requirement for Lovely Cyclone, were retained.
 - Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Mach Punch through Pressure Sign
+
+Reconciled **Mach Punch, Meteor Blow, Meteor Strike, Namek Finger, Neo Wolf Fang Fist, Power Impact, Powered Shell, and Pressure Sign**.
+
+- Namek Finger retains its explicit **Namekian** restriction; Pressure Sign retains **All CaC races**.
+- Power Impact was corrected from the stale `Ki Blast` subcategory to **Strike**, matching its skill classification and `damage_type`.
+- Mach Punch, Meteor Blow, Meteor Strike, Neo Wolf Fang Fist, and Powered Shell remain CaC-usable with no inferred narrower race/gender/form restriction.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
