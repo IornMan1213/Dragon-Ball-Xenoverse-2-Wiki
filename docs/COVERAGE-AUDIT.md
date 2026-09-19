@@ -1477,3 +1477,13 @@ Reconciled **Burning Swan, Burst Blitz, Crimson Edge, Deadly Dance, Death Slash,
 - Current evidence does not explicitly establish a narrower CaC race/gender/form restriction for the CaC-usable records whose `race_restriction` remains null; character association is not treated as a restriction.
 - Crimson Edge remains explicitly non-CaC and character-exclusive to Goku Black (Super Saiyan Rosé) Ultra Supervillain.
 - Live census remains **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Dragon Spark through Force Edge
+
+Reconciled **Dragon Spark, Dragon Spiral, Dragon Thunder, Emperor's Edge, Evil Flight Strike, Evil Whirlwind, Fierce Fist, and Force Edge**.
+
+- Dragon Thunder remains non-CaC; dedicated evidence explicitly contradicts the former all-CaC classification.
+- Evil Flight Strike retains its explicit **Namekian or Majin** restriction.
+- Dragon Spark, Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, and Force Edge remain CaC-usable without an inferred narrower race/gender/form restriction.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
