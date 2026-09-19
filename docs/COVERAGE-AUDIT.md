@@ -1388,3 +1388,15 @@ Reconciled **Paralyze Beam, Pendulum Bullet, Perfect Shot, Photon Swipe, Pretty 
 - Pretty Cannon, Ray Blast, and Reverse Shot remain bounded where exact drop/Ultimate Finish conditions or detailed numerical mechanics are not explicitly established.
 - No race restriction was inferred from character ownership or PQ source alone.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Rolling Bullet through Super Ghost Buu Attack
+
+Reconciled **Rolling Bullet, Shine Shot, Spirit Blaster, Spirit Bomb, Spirit Pulse, Stone Bullet, Super Donut Volley, and Super Ghost Buu Attack**.
+
+- **Rolling Bullet** retains its corrected **Ki Blast Evasive** classification and its Android 18 / Great Saiyaman 2 association; the stale Android 16 description was corrected.
+- **Stone Bullet** retains its corrected **Strike Super** classification and Goten association.
+- Spirit Bomb retains explicit **All CaC races** scope.
+- Shine Shot, Spirit Blaster, Spirit Pulse, Super Donut Volley, and Super Ghost Buu Attack remain CaC-usable without an explicitly established narrower race/gender/form restriction.
+- No race restriction was inferred from character ownership or PQ source alone.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
