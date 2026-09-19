@@ -803,3 +803,7 @@ Added the Future Warrior technique reference to 24 additional existing CaC-usabl
 ## 2026-09-19 Future Warrior cross-source provenance
 
 Added a second independent Future Warrior reference to 8 existing CaC-usable records: **Mach Dash, Stone Bullet, Hero's Flute, Formation!, Brave Sword Slash, Dimension Ray, God of Destruction's Menace, and Brave Sword Attack**. This is a provenance corroboration pass, not a race-classification pass. The Codex reference explicitly documents the Future Warrior's race-dependent technique cases and also lists these techniques; where it does not state a restriction, the canonical `race_restriction` remains unchanged.
+
+## 2026-09-19 Explicit form-restriction audit
+
+Reviewed the Future Warrior source's form-exclusive sections for Great Namekian, Pure Majin, Golden-form Frieza Race, and Ultra Instinct techniques. The source explicitly identifies several transformation-specific techniques, but none of those exact technique names is present in the current canonical `docs/data/skills.json` inventory. Therefore this pass produced **no canonical classification changes** and preserved the existing 186-record null-race frontier.
