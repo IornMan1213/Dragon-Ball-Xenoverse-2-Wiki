@@ -46,7 +46,8 @@
       "last_verified": "2026-09-19",
       "notes": "Namekian CaC-only Awoken Skill. Requires 300 Ki; has a continuous Stamina drain and no Ultimate/Evasive slot while active.",
       "unlock_method": "Complete the Namekian Awakening quest at Guru's House as a Namekian CaC.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Namekian Awakening quest — Guru's House"
     },
     {
       "name": "Future Super Saiyan",
@@ -68,7 +69,8 @@
       "unlock_method": "Vegeta's Capsule Corporation Time Rift; complete the required Super Saiyan/Super Vegeta progression and obtain the skill from Vegeta.",
       "last_verified": "2026-09-19",
       "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift"
     },
     {
       "name": "Power Pole Pro",
@@ -89,7 +91,8 @@
       "last_verified": "2026-09-19",
       "notes": "Earthling CaC-only Awoken Skill. Requires 0 Ki; summons Nimbus/Power Pole, changes the basic moveset, and ends when hitstun or a grab connects.",
       "unlock_method": "At level 35 or higher, complete the Great Saiyaman questline at Hercule's House Time Rift and clear the final unlock mission.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Great Saiyaman questline — Hercule's House Time Rift"
     },
     {
       "name": "Purification",
@@ -110,7 +113,8 @@
       "last_verified": "2026-09-19",
       "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.",
       "unlock_method": "Progress the Majin Buu's House Time Rift until Buu has the required family members, then complete the associated Purification unlock fight as a Majin CaC.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Majin Buu's House Time Rift — Purification unlock fight"
     },
     {
       "name": "Super Saiyan",
@@ -131,7 +135,8 @@
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3.",
       "unlock_method": "Complete the Saiyan Awakening progression at Capsule Corporation and train with Vegeta; the resulting Awoken Skill provides Super Saiyan stages 1–3.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression"
     },
     {
       "name": "Super Saiyan God",
@@ -152,7 +157,8 @@
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus.",
       "unlock_method": "Use the Shenron wish for Super Saiyan God after maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan; Beerus then provides the skill.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Shenron wish for Super Saiyan God; Beerus awards the skill"
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -175,7 +181,8 @@
       "ki_cost": 500,
       "last_verified": "2026-09-19",
       "mechanics_notes": "500 Ki; +25% Strike/+25% Blast, +5% Strike/+5% Blast Defense; drains 10 Ki/sec while active.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Whis training — max friendship and level 90"
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -198,7 +205,8 @@
       "ki_cost": 500,
       "last_verified": "2026-09-19",
       "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Whis training — max friendship with Vegeta, level 95, SSGSS required"
     },
     {
       "name": "Super Vegeta",
@@ -219,7 +227,8 @@
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2.",
       "unlock_method": "Complete the Vegeta training progression at the Capsule Corporation Time Rift as a Saiyan CaC.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift"
     },
     {
       "name": "The Power to Overcome",
@@ -268,7 +277,8 @@
       "last_verified": "2026-09-19",
       "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki.",
       "unlock_method": "Complete the Frieza's Spaceship Time Rift progression and its Frieza/Meta-Cooler recruitment battles as a Frieza Race CaC.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression"
     },
     {
       "name": "Beast",
@@ -365,7 +375,8 @@
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "source_quest_or_shop": "Character-only Awoken Skill / roster use"
     },
     {
       "name": "Super Saiyan 2",
@@ -385,7 +396,8 @@
       "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped.",
       "last_verified": "2026-09-19",
       "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table.",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "source_quest_or_shop": "Super Saiyan Awoken Skill — second transformation stage"
     },
     {
       "name": "Super Saiyan Blue Kaioken",
@@ -403,7 +415,8 @@
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "source_quest_or_shop": "Character-only Awoken Skill / roster use"
     },
     {
       "name": "Supersonic Mode",
@@ -421,7 +434,8 @@
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "source_quest_or_shop": "Character-only Awoken Skill / roster use"
     },
     {
       "name": "Ultra Instinct",
@@ -5343,7 +5357,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
-      "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile."
+      "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile.",
+      "source_quest_or_shop": "Frieza mentor — Intergalactic Emperor of Evil 3"
     },
     {
       "name": "Destruction's Concerto: Meteor",
