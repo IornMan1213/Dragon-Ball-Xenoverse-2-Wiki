@@ -1,60 +1,53 @@
 {
   "batch_id": 37,
-  "created": "2026-09-17",
+  "created": "2026-09-19",
   "verification_policy": "correction_batch_preserving_batch_36_history",
   "research_scope": "Reconciliation corrections for Future Saga Chapter 4 skills after a dedicated PQ185/PQ186 reward-slot audit and independent Power to Overcome mechanics review.",
   "verification_audit": {
-    "audited": "2026-09-17",
-    "duplicate_check": {"status":"passed_for_corrections","selected_records":["Dragon Spiral","Indomitable","Venus Fist","The Power to Overcome"],"duplicate_count":0},
-    "reward_slot_finding": "The current all-186-PQ guide explicitly lists Dragon Spiral and Indomitable in PQ185's Basic Reward section and Venus Fist in PQ186's Basic Reward section. A July 2026 community acquisition guide instead states that all three can drop from both PQs. The canonical correction therefore uses the directly enumerated PQ reward lists as the primary acquisition mapping, preserves the contrary report as a source conflict, and does not infer Ultimate-Finish-only status.",
-    "mechanics_finding": "Independent 2026 testing reports The Power to Overcome as a persistent first stage with health regeneration below 50% HP, 20% damage reduction, +5% movement speed, an unblockable sword replacement for the grab, and a second Unleashed stage lasting about 12 seconds. The same testing reports +15% basic attack, +30% Strike/Ki Super damage, +10% movement speed, 500 Ki activation, health drain of roughly half a bar during the stage, and a roughly 24-second reuse cooldown. Other community reports place the cooldown closer to 30 seconds. Exact numerical values remain testing-derived rather than official game-data facts.",
-    "conflict_policy": "Conflicting community measurements are retained as provenance. The canonical record does not average incompatible cooldown measurements and does not present them as official constants."
+    "audited": "2026-09-19",
+    "method": "Compared canonical Awoken records against current Xenoverse 2-specific Awoken references and the maintained research corpus.",
+    "source_basis": [
+      "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+      "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+    ]
   },
   "corrections": [
     {
-      "name":"Dragon Spiral","class":"Super","subcategory":"Strike",
-      "correction_of":{"name":"Dragon Spiral","class":"Super","subcategory":"Strike"},
-      "correction_fields":["source_quest_or_shop","unlock_method","ultimate_finish_required","mechanics_notes","verification_status"],
-      "source_quest_or_shop":"Parallel Quest 185 — A God's Amusement",
-      "unlock_method":"Reward listed for Parallel Quest 185; exact reward-slot/RNG semantics remain unresolved",
-      "ultimate_finish_required":null,
-      "mechanics_notes":"The directly enumerated current PQ185 reward list includes Dragon Spiral. A separate July 2026 guide reports the skill can also drop from PQ186; that conflict is preserved rather than silently discarded.",
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/","https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=12"]
+      "name": "Pure Progress",
+      "usable_by_cac": false,
+      "character_only": true,
+      "verification_status": "verified",
+      "correction_fields": [
+        "usable_by_cac",
+        "character_only",
+        "verification_status"
+      ],
+      "evidence": "Pure Progress is used by Hit and is inaccessible to CaCs."
     },
     {
-      "name":"Indomitable","class":"Super","subcategory":"Power Up",
-      "correction_of":{"name":"Indomitable","class":"Super","subcategory":"Power Up"},
-      "correction_fields":["source_quest_or_shop","unlock_method","ultimate_finish_required","mechanics_notes","verification_status"],
-      "source_quest_or_shop":"Parallel Quest 185 — A God's Amusement",
-      "unlock_method":"Reward listed for Parallel Quest 185; exact reward-slot/RNG semantics remain unresolved",
-      "ultimate_finish_required":null,
-      "mechanics_notes":"Independent July 2026 player testing identifies Indomitable as a charge skill that charges both Ki and Stamina. At normal health its Ki charge is slower than Maximum Charge; at 50% HP or lower, community testing reports behavior approaching Burst Charge while still charging both resources. Exact timing values are not promoted as canonical.",
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","https://steamcommunity.com/app/454650/discussions/0/564787571097573891/","https://www.24vids.com/channel/contonmods"]
+      "name": "Super Saiyan Blue Kaioken",
+      "usable_by_cac": false,
+      "character_only": true,
+      "verification_status": "verified",
+      "correction_fields": [
+        "usable_by_cac",
+        "character_only",
+        "verification_status"
+      ],
+      "evidence": "SSGSS Kaioken is cast-exclusive rather than an obtainable CaC Awoken transformation."
     },
     {
-      "name":"Venus Fist","class":"Ultimate","subcategory":"Strike",
-      "correction_of":{"name":"Venus Fist","class":"Ultimate","subcategory":"Strike"},
-      "correction_fields":["source_quest_or_shop","unlock_method","ultimate_finish_required","mechanics_notes","verification_status"],
-      "source_quest_or_shop":"Parallel Quest 186 — Frieza's Right-Hand Man",
-      "unlock_method":"Reward listed for Parallel Quest 186; exact reward-slot/RNG semantics remain unresolved",
-      "ultimate_finish_required":null,
-      "mechanics_notes":"The directly enumerated current PQ186 reward list includes Venus Fist. A separate July 2026 guide reports the skill can also drop from PQ185; that conflict is preserved. Community discussion confirms players report obtaining Venus Fist from PQ186 without establishing a numerical drop rate.",
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/","https://steamcommunity.com/app/454650/discussions/0/564787571097573891/"]
-    },
-    {
-      "name":"The Power to Overcome","class":"Awoken","subcategory":"Race",
-      "correction_of":{"name":"The Power to Overcome","class":"Awoken","subcategory":"Race"},
-      "correction_fields":["ki_cost","skill_description","mechanics_notes","combo_notes","pve_notes","verification_status"],
-      "ki_cost":500,
-      "skill_description":"Universal CaC Awoken Skill with a persistent first stage and a temporary second Unleashed stage.",
-      "mechanics_notes":"2026 testing reports the first stage grants roughly 20% damage reduction, +5% movement speed, health regeneration when below 50% HP, and replaces the normal grab with an unblockable sword slash. Re-inputting the transformation activates Unleashed for about 12 seconds. Testing reports +15% Basic Attack, +30% Strike Super and Ki Blast Super damage, and +10% movement speed during Unleashed. The second stage consumes 500 Ki to activate and drains roughly half a health bar over its duration. Reported reuse cooldowns vary between about 24 and 30 seconds, so the canonical field remains version/source-sensitive rather than asserting one exact constant.",
-      "combo_notes":"The first-stage grab replacement is an unblockable sword strike according to 2026 testing; exact interruption/super-armor interactions remain technical-research fields.",
-      "pve_notes":"The second stage provides temporary very rapid/infinite-feeling Ki regeneration while trading health for the duration.",
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/81167570","https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/","https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"]
+      "name": "Supersonic Mode",
+      "usable_by_cac": false,
+      "character_only": true,
+      "verification_status": "verified",
+      "correction_fields": [
+        "usable_by_cac",
+        "character_only",
+        "verification_status"
+      ],
+      "evidence": "Supersonic Mode is Dyspo's cast-exclusive Awoken state."
     }
-  ]
+  ],
+  "notes": "Historical batches remain unchanged; this correction supersedes incorrect CaC availability in the canonical skill layer."
 }
