@@ -1698,6 +1698,881 @@
       "target": "Venus Fist",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-005",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Your death is imminent!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-021",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'm neither Kami nor Piccolo...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-040",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Time to dismantle you androids!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-042",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Set your rage free...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-044",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Getting beat up makes me cranky...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-049",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Do or Die",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-063",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Before creation comes ruin...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-064",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Janemba! Janemba!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-065",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I never knew this world existed!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-092",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Everyone, lend me your energy!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-093",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Finally, some excitement.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-093",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I...hate you!!!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-094",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Strengthen me, Shadow Dragons!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-097",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Someone, satisfy me...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-097",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Revival of the Demon Realm is at hand",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-102",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'll make you regret that!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-102",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Don't quit! Get up!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-103",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This is not a weapon.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-103",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I've been saving this! Kaioken!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-103",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Now you understand. Surrender.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-104",
+      "relationship": "pq_rewards_super_soul",
+      "target": "How Dare You...! That's My Bulma",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Me...Protecting Some Pipsqueak",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Buu Don't Wanna!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_rewards_super_soul",
+      "target": "You're Just Pieces in a Game",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Watch Your Tongue",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Eehee hee hee heee!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-107",
+      "relationship": "pq_rewards_super_soul",
+      "target": "You can't win...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-108",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Now, give your father a message for me.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-108",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Eehee hee hee heee!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I really do love being immortal.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I like you better when you're mad!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This fight is only just beginning!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I shall show you my great godly might!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I feel it... Everyone, lend me your power!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-112",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Sorry. You were way open there.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-112",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I ain't losin'! Here's my full power!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-112",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'm never going to forgive him!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-113",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'll make good use of you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-113",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'm stronger than ever now!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_rewards_super_soul",
+      "target": "The real fight starts now!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-115",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Looks like you're done!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-116",
+      "relationship": "pq_rewards_super_soul",
+      "target": "If I don't do it, who will?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-116",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Earth is in your hands now!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-117",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Get serious, would you?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-118",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Now we're even.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-118",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I hate what I've become!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-119",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Time to get serious, I guess.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-120",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Hmph! For justice!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-120",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This heat...will be your downfall!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-121",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Right, then... Let's begin the experiment!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-122",
+      "relationship": "pq_rewards_super_soul",
+      "target": "For beauty! For elegance! For love!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-122",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This Super Saiyan 2 is crazy strong!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-124",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Don't think I'm the same as before!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-126",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Alright! Let's go wreck some faces!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-128",
+      "relationship": "pq_rewards_super_soul",
+      "target": "GAAAGH!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-128",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Your father has been killed!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-128",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I've waited an unbelievably long time for this...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Heh heh! Now THIS is real power!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Hey, you think you could fight a little quieter?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Don't think I'm gonna show you any gratitude!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-130",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Hey, you! You ready for me?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-130",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Hmph. I'm off to take a nap.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-130",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Th-Thanks...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Leave the rest to me!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_rewards_super_soul",
+      "target": "You'd better survive, you got that?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Shall we pick up where we left off?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Whoa, it's freezing here!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This is no time to mess around...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I can't have you dying on me!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Here it comes!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I got my claws in you, and fangs too!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-134",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Power! A lotta power! It's great!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-135",
+      "relationship": "pq_rewards_super_soul",
+      "target": "That won't work on me!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-136",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Pathetic",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-136",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Justice is nothing to me now.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-137",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This is everything I've got!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-137",
+      "relationship": "pq_rewards_super_soul",
+      "target": "That heat... I'll have to match it.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-138",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'm not gonna die until I defeat you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-138",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I just flew around the whole world!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-140",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This thing carries hopes of everyone on Earth!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-140",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Now then, time for another delightful hunt!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-141",
+      "relationship": "pq_rewards_super_soul",
+      "target": "D-Don't talk bad about my family!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-141",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This oughta make things interesting.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-142",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I don't want them to get hurt!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-143",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This is as far as you go.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-144",
+      "relationship": "pq_rewards_super_soul",
+      "target": "You've awakened my true power...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-144",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I won't forgive those who best my comrades!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-145",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I've cast aside everything for this!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-146",
+      "relationship": "pq_rewards_super_soul",
+      "target": "There's no way you can hit me!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-147",
+      "relationship": "pq_rewards_super_soul",
+      "target": "It's just me and you now!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_rewards_super_soul",
+      "target": "My back's getting tingly...!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-149",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Our two strengths aren't just added together.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-150",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I will prevail, no matter the cost!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'll never forgive you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'm not gonna die until I defeat you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'll show you the power of a true warrior!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Don't underestimate my power!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I won't forgive you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-154",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'm the one who will win!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-155",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This is the ultimate hero!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-156",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This is your true power?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-156",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Still haven't figured out you're gonna lose?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-157",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'll be the one to fight you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-157",
+      "relationship": "pq_rewards_super_soul",
+      "target": "You need to be more careful.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-158",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Heh heh! I'm not a rusty as I look!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-159",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Enter the hero!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-159",
+      "relationship": "pq_rewards_super_soul",
+      "target": "The Red Ribbon Army is back in business!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-160",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Is that all?",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-161",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'm a whole new me.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-162",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Shenron really went the extra mile.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-164",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This place Will be your grave!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-166",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Hope you're ready for a trip!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-168",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'm not about to let Pan see me lose!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-173",
+      "relationship": "pq_rewards_super_soul",
+      "target": "You Will know the power of the gods!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-175",
+      "relationship": "pq_rewards_super_soul",
+      "target": "It's about time...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-177",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Strength is justice! Strength is absolute!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-178",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'll take all of you on at once!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-180",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Damn it all!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-182",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Rejoice! A new ruler is born!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-183",
+      "relationship": "pq_rewards_super_soul",
+      "target": "AAAAAAAAAGH!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-184",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Send me back to the planet I came from!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This power... It's different from any I've ever had.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Malice... Existence... Cruelty...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_rewards_super_soul",
+      "target": "The final battle begins now.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'll use this power to protect everyone!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "normalization_rules": [
@@ -1712,5 +2587,9 @@
     "Populate every clothing/accessory reward edge for PQ 1-186.",
     "Resolve reward-slot attribution and Ultimate Finish gating where sources disagree.",
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
-  ]
+  ],
+  "current_counts": {
+    "skill": 229,
+    "super_soul": 125
+  }
 }
