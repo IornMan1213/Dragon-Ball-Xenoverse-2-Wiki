@@ -2427,3 +2427,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `8dc3dd761fbaddfa5f23dc2bbdc2d3ade2f1322e`.
 - This is an acquisition-gate determination; random drop behavior remains separate.
 - Next task: continue searching remaining nullable skills for explicit UF-only or explicit non-UF acquisition evidence.
+
+
+### 2026-09-19 continuation — explicit non-Ultimate-Finish batch 1
+- Resolved `Change The Future` (`PQ43`) to `ultimate_finish_required: false`.
+- Evidence: the current PQ43 page lists the skill under ordinary Rewards while its Ultimate Finish section separately describes the additional Cell encounter.
+- Data commit: `a76102550b7fb7e06081f191e8994efc7cc815f3`.
+- This records an independent acquisition route; it does not assert anything about random drop probability.
+- Next task: continue looking for explicit non-UF ordinary reward listings or explicit UF-only acquisition statements among the remaining 162 nulls.
