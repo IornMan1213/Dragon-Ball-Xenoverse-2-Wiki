@@ -525,3 +525,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Preserved the distinction between a mentor awarding a skill to any race and the actual race restriction: SSGSS and Evolved remain Saiyan-only despite Whis being able to award them to a non-Saiyan character meeting the mentor requirement. This distinction is supported by the Awoken reference and GameFAQs unlock documentation. cite references are external only; repository provenance is stored in skill-batch-40.json.
 - Added `docs/data/skill-research-batches/skill-batch-40.json`; updated `docs/data/skills.json`, `TODO.md`, `docs/data/coverage-gaps.json`, and `CHANGELOG.md`.
 - Next task: continue the Awoken audit across remaining partially verified race-exclusive and universal forms, resolving unlock routes and exact mechanics before adding new forms.
+
+
+### 2026-09-19 cycle update — Core Awoken reconciliation batch 41
+- Reconciled the remaining primary Awoken records in the canonical layer: **Kaioken, Potential Unleashed, Ultra Instinct, Beast, Super Saiyan, Super Vegeta, Super Saiyan God, Turn Golden, Purification, Become Giant, and Power Pole Pro**.
+- Promoted all 11 from `partially_verified` to `verified` for core unlock/CaC availability facts.
+- Recorded the documented race boundaries: universal CaC forms versus Saiyan, Earthling, Namekian, Majin, and Frieza Race exclusive forms. Do not infer race eligibility from mentor-award behavior.
+- Recorded supported resource thresholds: Kaioken 100/300/500 Ki, Super Saiyan 300/400/500 Ki, Super Vegeta 300/400 Ki, Super Saiyan God 300 Ki, race-exclusive 300 Ki forms where supported, Power Pole Pro 0 Ki, and 500 Ki activation for Potential Unleashed/Beast/Ultra Instinct.
+- Added `docs/data/skill-research-batches/skill-batch-41.json` and updated canonical skills, TODO, coverage gaps, and changelog.
+- External evidence reviewed includes the current Awoken reference, individual transformation records, GameFAQs unlock tables, and the current research corpus. cite references are external only; repository provenance is stored in batch 41.
+- Next exact task: audit the remaining transformation records for version-sensitive mechanics and cast-only/DLC boundaries, then reconcile any still-partial records without inventing unsupported values.
