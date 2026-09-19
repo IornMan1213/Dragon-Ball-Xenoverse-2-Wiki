@@ -494,3 +494,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Canonical population remains **42 records**.
 - Commits: `50447e2f6275734c3996879a2c937eb1c0e9d77b` (canonical), `f6c89aefe23ab22f6f785a9c9d473a035d04e4c3` (research), `a3f717b799b6196cfd644b341a6113fdcb8e5ec3` (database), `b811a8a34eff61916ea21a79628cbb2b9d525663` (coverage), `f1a6b8a879465c0b11c35c049316402e5c1f9919` (changelog).
 - Next task: continue the raid/DLC Super Soul census beyond 047, prioritizing unreconciled raid-exclusive names and exact item-level acquisition/effect provenance. Do not infer recurrence schedules or drop probabilities.
+
+
+### 2026-09-19 cycle update — Awoken/CaC classification correction
+- Workstream: **Awoken / Transformation coverage audit**, following the tracker’s P1 cross-system coverage priority. The prior handoff’s Super Soul work remains complete at 42 indexed records; this cycle corrected a higher-priority data-quality issue in the canonical skill layer.
+- Audited current Awoken classification against Xenoverse 2-specific references. Three seeded records incorrectly presented character-only forms as CaC transformations: **Pure Progress**, **Super Saiyan Blue Kaioken**, and **Supersonic Mode**.
+- Corrected those three records in `docs/data/skills.json` to `usable_by_cac: false`, added correction/research provenance, and created/updated `docs/data/skill-research-batches/skill-batch-37.json`.
+- Evidence: the maintained research corpus explicitly lists Pure Progress as Hit-only and SSGSS Kaioken/Supersonic Mode among cast-exclusive Awoken states; the current Awoken reference likewise separates CaC forms from race-exclusive/cast-only forms. cite references are kept out of repository files; web evidence was reviewed externally during this cycle.
+- Updated `TODO.md`, `docs/data/coverage-gaps.json`, and `CHANGELOG.md` so the stale Super Soul count is now **42** and the Awoken correction is tracked.
+- Commits: `e8550a05f97f421948edb4ff74a9b2b29e223391` (canonical skill correction), `3fec3b5d0382aec59598d5660de47c5164a367cf` (correction batch), `2fb1ad700ba2f2507d69e9c6d69ea982b0e5ffdf` (TODO), `7b8d9656a0ab66cbd4e842ab11e4ab5ac4d539bd` (changelog), `b72cf0efc817f47ddb74f515a37fc08f3ca4b7e5` (coverage).
+- Evidence limitation: this cycle corrected availability/classification only. Exact stage modifiers, resource costs, unlock routes, and version-sensitive mechanics for the remaining Awoken records still require individual reconciliation.
+- Next exact task: continue the Awoken/Transformation audit record-by-record, prioritizing remaining indexed forms with only `indexed` status and resolving CaC availability before adding new skill batches. Preserve character-only forms as such and do not infer CaC eligibility from category membership alone.
