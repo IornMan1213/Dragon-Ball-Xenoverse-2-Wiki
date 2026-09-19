@@ -2211,3 +2211,8 @@ Batch: Burst Reflection, Flash Fist Crush, Super Afterimage, Super God Shock Fla
 ## 2026-09-19 — Super/Ultimate non-UF acquisition batch
 
 Resolved `ultimate_finish_required` to `false` for 10 skills with explicit acquisition routes that do not require a Parallel Quest Ultimate Finish: Reverse Mabakusenko (Skill Shop); Death Ball (Frieza mentor training); Emperor's Death Beam (TP Medal Shop); Final Explosion (TP Medal Shop); Divine Lasso (TP/STP Medal Shop or Double Crystal Raid); Bending Kamehameha (Skill Shop); Big Bang Kamehameha (TP Medal Shop); Divine Kamehameha (TP Medal Shop); Dancing Parapara (Pan mentor training); Instant Transmission (Goku mentor training). For mixed-source skills, the field is false because the documented non-UF route provides an obtainable path without UF gating.
+
+
+## 2026-09-19 — Super non-UF acquisition batch 2
+
+Resolved `ultimate_finish_required` to `false` for 10 additional Super skills with explicit non-UF acquisition routes: Sudden Death Beam, Emperor's Blast, Namek Finger, Pressure Sign, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, and Deadly Dance. Evidence was limited to documented TP/STP Medal Shop, Skill Shop, starter, or mentor-training routes; no generic PQ reward was treated as sufficient evidence.
