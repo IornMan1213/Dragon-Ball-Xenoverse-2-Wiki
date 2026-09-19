@@ -2775,3 +2775,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Live nullable `race_restriction`: **0**.
 - Exact next task: recompute the complete nullable-field census and move to the next bounded field. `notes` is currently the only remaining nullable field with substantial coverage (247 records); do not bulk-fill notes unless each addition carries concrete provenance. Prefer another structured metadata field if a small evidence-backed batch can be established.
 
+### 2026-09-19 continuation — source-quest provenance batch 1
+- With `ultimate_finish_required`, `ki_cost`, and `race_restriction` fully populated, began the next structured metadata census on `source_quest`.
+- Filled `source_quest` only where the existing record already explicitly supplied a PQ identifier/title in `source_quest_or_shop` and/or `unlock_method`.
+- Updated 10 records: **Kaioken (PQ8 — Invade Earth), Change The Future (PQ43 — Change the Future), Counter Burst (PQ75 — Room to Spare), Counter Impact (PQ153 — Seeing Double), Ultrasonic Blitz (PQ151 — Even Further Beyond), Ki Explosion (PQ77), Mighty Explosive Wave (PQ79), Side Bridge (PQ39), Spread Shot Retreat (PQ28), and Steel Mirage (PQ165)**.
+- Character-only records that merely mention a PQ as reward context were deliberately excluded rather than assigning a misleading quest provenance.
+- Skills commit: `70f66b9f705a3c8c040b68386823ae9b457f5bf8`.
+- Coverage audit commit: `6f4fd55b1fd5a6bfb29a2509c6b61ed21086aa6c`.
+- Exact next task: continue `source_quest` provenance in small batches using explicit existing quest identifiers/titles; do not infer a quest from a vague reward description.
+
