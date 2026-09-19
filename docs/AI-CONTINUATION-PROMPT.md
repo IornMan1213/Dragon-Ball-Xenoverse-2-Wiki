@@ -1151,3 +1151,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added dedicated current-version provenance for Lovely Cyclone, Power Impact, and Powered Shell.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Powered Shell; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Recoome/Sonic boundary
+- Reviewed Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, and Sonic Bomb.
+- Preserved null race restrictions; no explicit current race/gender/form scope was established.
+- Refreshed all eight verification dates to 2026-09-19.
+- Added dedicated current-version provenance for Savory Slicer.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Sonic Bomb; inspect canonical ordering before selecting the next batch.
