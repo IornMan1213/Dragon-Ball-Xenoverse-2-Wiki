@@ -863,3 +863,17 @@ Reviewed `Flash Chaser`, `Gamma Blaster`, `Giant Cluster`, `Gigantic Charge`, `G
 ## 2026-09-19 — null-race batch: late offensive/evasion skills
 
 Reviewed `Pendulum Bullet`, `Photon Swipe`, `Pretty Cannon`, `Raid Blast`, `Ray Blast`, `Reverse Shot`, `Rolling Bullet`, `Shine Shot`, `Spirit Blaster`, `Spirit Pulse`, `Stone Bullet`, and `Super Donut Volley`. Added direct technique-page provenance for `Photon Swipe`, confirming its Xenoverse 2 identity and Future Warrior acquisition from New Parallel Quest 139. The checked evidence does not establish a new individual race/gender restriction for the cohort, so no `race_restriction` values were changed.
+
+## 2026-09-19 race-restriction census — next unresolved cohort
+
+Recomputed the live canonical skill census before editing: **283 total / 270 CaC-usable / 183 CaC-usable with null `race_restriction`**. The earlier 186-count frontier is stale because Death Psycho Bomb, Justice Pose, and Crazy Finger Shot have since received explicit unrestricted-race classifications.
+
+Reviewed the next 12 null-race CaC records: **Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, Dancing Parapara, Hero's Flute, Spirit Boost, Time Control, Charge, Divinity Unleashed, Do or Die, and Fighting Pose E**.
+
+- Current Xenoverse 2 sources confirm Future Warrior acquisition/use for these records but do not provide sufficiently explicit individual race/gender/form restrictions for the canonical race field in this cohort.
+- The official Dragon Ball site confirms Variable Snipe Shot as Android 18's Xenoverse 2 Super Attack, but does not establish CaC race access; it therefore cannot support a race classification for the canonical record.
+- The accessible Xenoverse 2 technique list likewise identifies Future Warrior usage but explicitly warns that only some techniques have race/gender/transformation restrictions; omission is not treated as proof of universal access.
+- Older Xenoverse (not Xenoverse 2) skill pages explicitly label some matching skills as usable by all races, including Time Control, Victory Cannon, Dancing Parapara, and Fighting Pose E. Because this audit is version-sensitive and the current Xenoverse 2 evidence does not independently establish that same restriction state, those older-game labels were **not** promoted into current Xenoverse 2 classifications.
+- No `race_restriction` values were changed in this cohort. This is an evidence-boundary result, not an assumption that the skills are restricted.
+
+Sources consulted include the accessible Future Warrior technique reference, dedicated Xenoverse 2 skill pages, the official Dragon Ball announcement for Variable Snipe Shot, and legacy Xenoverse skill pages used only to identify version-sensitive evidence boundaries.
