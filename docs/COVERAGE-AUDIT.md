@@ -1100,3 +1100,15 @@ Reconciled Angry Shout, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic B
 - Big Bang Kamehameha is a 100-Ki TP Medal Shop Ki Blast Super and retains its explicit all-CaC-races coverage.
 - Big Bang Knuckle is corrected to a **100-Ki Strike Super** from PQ172; the current evidence does not establish CaC acquisition, so it remains non-CaC.
 - Energy Barrier remains a 300-Stamina Evasive; its barrier behavior is confirmed, but the attack-type field is retained pending stronger direct evidence.
+
+
+## 2026-09-19 — Ki Blast Super cohort
+
+Reconciled Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehameha, Burst Stinger, Buu Buu Ball, and Candy Beam against current skill pages.
+
+- Blaster Ball confirmed at **100–500 Ki** with repeated-input extension.
+- Burning Attack confirmed at **100 Ki / PQ41**.
+- Burst Kamehameha confirmed at **100–200 Ki / PQ72**, with additional input extending the beam.
+- Buu Buu Ball retains its explicit **Pure Majin-form** restriction.
+- Candy Beam retains its explicit **Majin CaC** restriction; its separate 200-Ki Candy Beam (Super) variant was not conflated with this 100-Ki record.
+- No unsupported CaC race/gender/form restrictions were inferred for the remaining records.
