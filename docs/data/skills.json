@@ -2628,9 +2628,9 @@
       "source_quest_or_shop": "Parallel Quest 139",
       "ultimate_finish_required": null,
       "skill_description": "Photon Swipe is a Super Ki Blast skill associated with Toppo.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ139. It is Toppo's Photon Swipe; exact drop/Ultimate Finish gating remains bounded.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ139. It is Toppo's Photon Swipe; exact drop/Ultimate Finish gating remains bounded. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2638,7 +2638,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Photon_Swipe"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Pretty Cannon",
@@ -2654,16 +2655,17 @@
       "source_quest_or_shop": "Parallel Quest 133",
       "ultimate_finish_required": null,
       "skill_description": "Pretty Cannon is a Super Ki Blast skill associated with Ribrianne.",
-      "mechanics_notes": "Confirmed as Ribrianne's 100-Ki Ki Blast Super from PQ133. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded.",
+      "mechanics_notes": "Confirmed as Ribrianne's 100-Ki Ki Blast Super from PQ133. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Pretty_Cannon",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Raid Blast",
@@ -2679,9 +2681,9 @@
       "source_quest_or_shop": "Parallel Quest 136",
       "ultimate_finish_required": true,
       "skill_description": "Raid Blast is a Super Ki Blast skill used by Super Saiyan God Vegeta.",
-      "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. The dataset's existing Ultimate Finish requirement is retained.",
+      "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. The dataset's existing Ultimate Finish requirement is retained. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2690,7 +2692,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Niagara_Pummel"
       ],
-      "source_quest": 136
+      "source_quest": 136,
+      "race_restriction": null
     },
     {
       "name": "Ray Blast",
@@ -2706,16 +2709,17 @@
       "source_quest_or_shop": "Parallel Quest 125",
       "ultimate_finish_required": null,
       "skill_description": "Ray Blast is a Super Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "Confirmed as Kefla's 100-Ki Ki Blast Super from PQ125. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded.",
+      "mechanics_notes": "Confirmed as Kefla's 100-Ki Ki Blast Super from PQ125. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ray_Blast",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Reverse Shot",
@@ -2731,16 +2735,17 @@
       "source_quest_or_shop": "Parallel Quest 123",
       "ultimate_finish_required": null,
       "skill_description": "Reverse Shot is a Super Ki Blast skill associated with Super Baby 2.",
-      "mechanics_notes": "Confirmed as Super Baby 2's 100-Ki Ki Blast Super from PQ123. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded.",
+      "mechanics_notes": "Confirmed as Super Baby 2's 100-Ki Ki Blast Super from PQ123. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Reverse_Shot",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Rolling Bullet",
@@ -2756,15 +2761,16 @@
       "source_quest_or_shop": "Parallel Quest 42",
       "ultimate_finish_required": null,
       "skill_description": "Rolling Bullet is a Ki Blast Evasive associated with Android 18, Android 18 (DB Super), and Great Saiyaman 2.",
-      "mechanics_notes": "Corrected to a Ki Blast Evasive, not a Super. It scatters Ki Blasts while ascending and is used to escape attacks.",
+      "mechanics_notes": "Corrected to a Ki Blast Evasive, not a Super. It scatters Ki Blasts while ascending and is used to escape attacks. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Rolling_Bullet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Shine Shot",
@@ -2780,15 +2786,16 @@
       "source_quest_or_shop": "Parallel Quest 07",
       "ultimate_finish_required": null,
       "skill_description": "Shine Shot is a Super Ki Blast skill associated with Vegeta.",
-      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Shine_Shot",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Spirit Blaster",
@@ -2804,16 +2811,17 @@
       "source_quest_or_shop": "Parallel Quest 129",
       "ultimate_finish_required": null,
       "skill_description": "Spirit Blaster is a Super Ki Blast skill associated with SSGSS Gogeta.",
-      "mechanics_notes": "Confirmed as SSGSS Gogeta's 100-Ki Ki Blast Super from PQ129. It fires tracking Ki Blasts followed by a cancellable barrage.",
+      "mechanics_notes": "Confirmed as SSGSS Gogeta's 100-Ki Ki Blast Super from PQ129. It fires tracking Ki Blasts followed by a cancellable barrage. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Blaster",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Spirit Bomb",
