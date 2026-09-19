@@ -817,9 +817,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no explicit CaC race/gender/form restriction was established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -838,9 +838,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no explicit CaC race/gender/form restriction was established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -859,9 +859,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no explicit CaC race/gender/form restriction was established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
     },
     {
       "name": "Ultrasonic Blitz",
@@ -880,9 +880,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super counter obtained from Parallel Quest 151. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no explicit CaC race/gender/form restriction was established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super counter obtained from Parallel Quest 151. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
     },
     {
       "name": "Absolute Zero",
@@ -902,8 +902,8 @@
       "source_quest_or_shop": "Parallel Quest 96",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ96. It freezes attackers who strike the stance; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no explicit CaC race/gender/form restriction was established, so character-specific usage is not converted into a race restriction.",
-      "race_restriction": null
+      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ96. It freezes attackers who strike the stance; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Celestial Wave",
@@ -919,7 +919,7 @@
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "ultimate_finish_required": null,
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
-      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ151, associated with Goku (Ultra Instinct -Sign-) and available to CaCs. The reviewed evidence does not explicitly establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Reviewed in the current null-race census; no explicit CaC race/gender/form restriction was established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ151, associated with Goku (Ultra Instinct -Sign-) and available to CaCs. The reviewed evidence does not explicitly establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -929,7 +929,7 @@
       ],
       "source_quest": 151,
       "mechanics": "Ki Blast Evasive; launches a 7-hit wave and costs 300 Stamina.",
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Dragon Burn",
@@ -949,8 +949,8 @@
       "source_quest_or_shop": "Parallel Quest 82",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "mechanics_notes": "Current dedicated evidence confirms a 200-Stamina Ki Blast Evasive from PQ82. The stance can inflict paralysis/burn on an attacker; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no explicit CaC race/gender/form restriction was established, so character-specific usage is not converted into a race restriction.",
-      "race_restriction": null
+      "mechanics_notes": "Current dedicated evidence confirms a 200-Stamina Ki Blast Evasive from PQ82. The stance can inflict paralysis/burn on an attacker; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Explosive Wave",
@@ -969,8 +969,8 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
-      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no explicit CaC race/gender/form restriction was established, so character-specific usage is not converted into a race restriction.",
-      "race_restriction": null
+      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Force Shield",
