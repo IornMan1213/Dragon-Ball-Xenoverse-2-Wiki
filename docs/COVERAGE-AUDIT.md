@@ -2168,3 +2168,14 @@ A second-pass census classified the remaining nullable structured fields in `doc
 The Evasive `ki_cost` nulls were deliberately not converted to zero: several Evasive records are dual-purpose or have attack-specific Ki costs documented separately from their Evasive activation, so a blanket zero would conflate mechanics. Likewise, null DLC fields were not converted to Base Game merely from absence of a DLC source.
 
 This census therefore identifies the remaining nullable fields as **evidence queues**, not defects. No unsupported values were inserted in this pass.
+
+
+## 2026-09-19 — Evasive damage-type evidence batch
+
+Populated `damage_type` for **16 Evasive records** using item-level source evidence. The values are derived from each source's Attack Type / skill classification, not inferred from the skill name.
+
+- Ki Blast: Absolute Zero, Dragon Burn, Energy Field, Mighty Explosive Wave, Spread Shot Retreat, Rolling Bullet, Victory Cannon.
+- Strike: Angry Shout, Energy Barrier, Headshot, Psychic Move, Spirit Explosion, Spirit Slash.
+- Other: Punisher Guard, Final Pose.
+
+`ki_cost` remains nullable for these records because Evasive activation is stamina-based; barrier/extended-input Ki usage is a separate mechanic and is not represented as an activation Ki cost. No unsupported Ki values were inserted.
