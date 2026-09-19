@@ -3239,7 +3239,7 @@
       "source_quest_or_shop": "Goku mentor training, Lesson 1",
       "mechanics": "Teleports the user to the opponent; uses no Ki or Stamina.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost."
     },
     {
@@ -3258,7 +3258,7 @@
       "skill_description": "Kai Kai is a Super Other skill associated with Whis.",
       "mechanics_notes": "Confirmed as Whis's 100-Ki Other Super from PQ63 and usable by all CaC races. It teleports the user to a selected ally/partner rather than the opponent.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3283,7 +3283,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - God Class",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills."
     },
     {
@@ -3302,7 +3302,7 @@
       "skill_description": "Petrifying Spit is a Super Other skill associated with Dabura.",
       "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3325,7 +3325,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "PQ97",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive."
     },
@@ -3347,7 +3347,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super sold in the Skill Shop after defeating Mira (Final Form). It puts the user to sleep to recover stamina/health while vulnerable; restricted to Majin CaCs."
     },
     {
@@ -3361,7 +3361,7 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Krillin's initiation test / mentor training",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
@@ -3380,7 +3380,7 @@
       "ki_cost": 100,
       "unlock_method": "Character-exclusive: Broly (Restrained)",
       "usable_by_cac": false,
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established.",
