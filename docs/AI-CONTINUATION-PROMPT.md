@@ -2206,3 +2206,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated `docs/data/pq-cross-domain-audit.json` and `docs/data/pq-cross-domain-status.json`.
 - Current totals remain **232 skills, 135 Super Souls, 122 equipment, 247 characters, 88 DLC, 7 farming = 831 edges**.
 - Exact next task: **obtain authoritative/source-backed reward data for PQ 1, 12, 13, and 14 before adding relationships; otherwise preserve the documented 182-PQ coverage boundary.**
+
+
+### 2026-09-19 continuation — PQ 1-14 reward coverage completion
+- Verified PQ 1-14 against the repository's all-186 PQ guide. PQ 12-14 had **9 explicitly listed typed reward entries** missing from the relationship layer; all 9 were added as `source_backed`: **4 skills, 2 Super Souls, 3 equipment**.
+- PQ 1's Basic Reward list contains only Zeni and an Energy Capsule S, so no skill/Super Soul/equipment relationship was fabricated.
+- Final post-addition checks: **840 total edges, 0 duplicates, 0 invalid PQ numbers, 0 missing reverse reward mappings, and counts synchronized across forward/reverse/audit/status layers**.
+- Current totals: **236 skills, 137 Super Souls, 125 equipment, 247 characters, 88 DLC, 7 farming = 840 edges**.
+- Exact next task: **audit non-reward relationship completeness and source coverage (characters, DLC, and farming), then preserve any genuine source limitations rather than inferring edges.**
