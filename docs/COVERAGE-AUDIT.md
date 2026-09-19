@@ -2251,3 +2251,10 @@ A subsequent catalog update had reverted several previously verified non-Ultimat
 The four newly audited starter/Advancement Test skills are intrinsically independent of PQ Ultimate Finishes: Afterimage (starting move), Energy Charge (First Advancement Test), Full Power Charge (Advanced Class Advancement Test), and Maximum Charge (God Class Advancement Test).
 
 Live nullable Super/Ultimate census after reconciliation: **173 records** — 133 Super and 40 Ultimate. This live count supersedes earlier stale counts. No validator or schema rule was changed.
+
+
+## 2026-09-19 — Data Input Expert Mission batch
+
+Resolved `ultimate_finish_required: false` for **Data Input**. The skill is obtained from **Expert Mission 20 — Harbinger of Doom**, an acquisition channel distinct from Parallel Quest Ultimate Finishes. Current sources explicitly identify Expert Mission 20 as the unlock/acquisition route. citeturn0search0turn0search2turn0search11
+
+Live nullable Super/Ultimate census after this batch: **172 records** — 132 Super and 40 Ultimate. No schema or validator changes were made.
