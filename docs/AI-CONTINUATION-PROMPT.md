@@ -2386,3 +2386,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Evidence basis: existing records explicitly classify these skills as character-exclusive/non-CaC; no PQ Ultimate Finish is required for that character-only acquisition/access path.
 - Evidence limitation: Divine Spear, Crimson Edge, Wild Stinger, and Surging Spirit were not changed because their current records contain mixed character/PQ or built-in-action context.
 - Exact next task: recompute the live Super/Ultimate null census and inspect remaining records for another explicit non-PQ acquisition channel or explicit UF-only evidence.
+
+
+### 2026-09-19 continuation — explicit Ultimate Finish batch 1
+- Workstream: P1 skill Ultimate-Finish acquisition metadata.
+- Resolved `ultimate_finish_required: true` for Assault Vanish from the explicit PQ131 Legendary Finish provenance.
+- Updated `docs/data/skills.json` and `docs/COVERAGE-AUDIT.md`.
+- Data commit: `5df921ecd37983892f37154a81bee2e64afdb795`.
+- Evidence limitation: Prominence Flash remains null because current reports conflict and are anecdotal; Final Flash (SS3 DAIMA) and Super Kamehameha (SS4 DAIMA) remain null because PQ181 acquisition alone does not establish UF gating.
+- Exact next task: recompute the live null census and continue only with explicit UF-only or independently non-UF acquisition evidence.
