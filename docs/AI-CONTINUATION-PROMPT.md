@@ -2367,3 +2367,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `5e88850b70a495da6381ab0e973699a8bc7929da`.
 - Evidence limitation: the remaining nullable Super/Ultimate fields are not safe to bulk-fill; generic PQ reward wording remains insufficient to establish either true or false UF gating.
 - Exact next task: recompute the live null census and target the next smallest explicitly documented shop/mentor/wish/raid/Expert-Mission or UF-only batch.
+
+
+### 2026-09-19 continuation — explicit non-UF acquisition batch 5
+- Workstream: P1 skill Ultimate-Finish acquisition metadata.
+- Resolved `ultimate_finish_required: false` for Afterimage, Energy Charge, Full Power Charge, Maximum Charge, Data Input, and Darkness Rush (Melee).
+- Updated `docs/data/skills.json` and `docs/COVERAGE-AUDIT.md`.
+- Data commit: `ab8992daa0c4d43f6164116ce71d520650b68bfb`.
+- Evidence basis: starting/Advancement Test, Expert Mission 20, and Lord Slug mentor Lesson 3 acquisition routes are independent of PQ Ultimate-Finish gating.
+- Exact next task: recompute the live Super/Ultimate null census and inspect remaining nullable records for explicit non-PQ acquisition channels; preserve null where route evidence is insufficient.
