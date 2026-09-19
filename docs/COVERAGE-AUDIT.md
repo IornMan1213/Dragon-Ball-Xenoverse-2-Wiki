@@ -1960,3 +1960,13 @@ Reviewed **Circle Flash, Core Breaker, Destruction's Concerto: Meteor, and Dimen
 - Added the maintained Future Warrior technique-list source as provenance for CaC scope.
 - Live skill census after completion: **283 total / 269 CaC-usable / 0 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — verified transformation research-status normalization
+
+Reviewed the **11 transformation/Awoken records with missing `research_status`**: Become Giant, Future Super Saiyan, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Vegeta, Turn Golden, and Super Saiyan 2.
+
+- Added `reconciled_race_restriction_verified` to each record because their existing evidence already explicitly establishes their CaC race restriction and their records are marked verified.
+- Set `last_verified` to **2026-09-19** for these records.
+- Preserved the existing race restrictions, mechanics, acquisition data, and source lists; no transformation restriction was inferred or broadened.
+- This closes the identified missing research-status metadata without weakening validation rules.
