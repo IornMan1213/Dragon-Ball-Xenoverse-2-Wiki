@@ -332,7 +332,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dbxv2.fandom.com/wiki/Kaioken"
       ],
-      "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain."
+      "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain.",
+      "source_quest": "Parallel Quest 8 — Invade Earth"
     },
     {
       "name": "Potential Unleashed",
@@ -516,7 +517,7 @@
       "name": "Change The Future",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Change_the_Future_%28Parallel_Quest%29",
         "https://dragonball.fandom.com/wiki/Change_the_Future",
@@ -531,13 +532,14 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "source_quest": "Parallel Quest 43 — Change the Future"
     },
     {
       "name": "Counter Burst",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -552,13 +554,14 @@
       "source_quest_or_shop": "Parallel Quest 75 - Room to Spare",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
+      "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "source_quest": "Parallel Quest 75 — Room to Spare"
     },
     {
       "name": "Counter Impact",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Counter_Impact",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -573,7 +576,8 @@
       "source_quest_or_shop": "Parallel Quest 153 - Seeing Double",
       "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
-      "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
+      "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "source_quest": "Parallel Quest 153 — Seeing Double"
     },
     {
       "name": "Demon Flash Strike",
@@ -900,7 +904,7 @@
       "name": "Ultrasonic Blitz",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultrasonic_Blitz",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -915,7 +919,8 @@
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super counter obtained from Parallel Quest 151. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super counter obtained from Parallel Quest 151. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "source_quest": "Parallel Quest 151 — Even Further Beyond"
     },
     {
       "name": "Absolute Zero",
@@ -1090,7 +1095,8 @@
         "https://dbxv2.fandom.com/wiki/Ki_Explosion",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 77"
     },
     {
       "name": "Maiden Burst",
@@ -1142,7 +1148,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
+      "source_quest": "Parallel Quest 79"
     },
     {
       "name": "Psychic Move",
@@ -1210,7 +1217,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Side Bridge is a Evasive Other skill associated with Android 17.",
       "mechanics_notes": "Dedicated current-version evidence corrects Side Bridge to a 100-Ki Ki Blast Super from PQ39. It throws a disc that returns like a boomerang. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1218,7 +1225,8 @@
         "https://dbxv2.fandom.com/wiki/Side_Bridge",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 39"
     },
     {
       "name": "Spread Shot Retreat",
@@ -1244,7 +1252,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
+      "source_quest": "Parallel Quest 28"
     },
     {
       "name": "Steel Mirage",
@@ -1261,7 +1270,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Steel Mirage is a Evasive Other skill associated with Android 18.",
       "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1269,7 +1278,8 @@
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 165"
     },
     {
       "name": "Final Pose",
