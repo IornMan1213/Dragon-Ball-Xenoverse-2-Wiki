@@ -516,3 +516,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Updated `TODO.md` to reflect the deduplicated canonical count.
 - Important: do not recreate the removed generic duplicate entries merely to reach 298; the canonical uniqueness rule is one record per exact skill identity, while historical research remains preserved.
 - Next task remains the Awoken/Transformation audit: resolve remaining `indexed` forms' CaC availability, unlock routes, costs, stages, and version-sensitive mechanics record-by-record. The current deduplication correction should be treated as a prerequisite for reliable coverage counts.
+
+
+### 2026-09-19 cycle update — Saiyan Awoken verification batch 40
+- Continued the Awoken/Transformation audit after canonical skill deduplication.
+- Verified **Future Super Saiyan**, **Super Saiyan God Super Saiyan**, and **Super Saiyan God Super Saiyan (Evolved)** as Saiyan CaC Awoken Skills.
+- Recorded SSGSS unlock as level 90 + max Whis friendship; recorded Evolved as level 95 + max Vegeta friendship + prior SSGSS acquisition. Future Super Saiyan remains on the Vegeta/Capsule Corporation progression route.
+- Preserved the distinction between a mentor awarding a skill to any race and the actual race restriction: SSGSS and Evolved remain Saiyan-only despite Whis being able to award them to a non-Saiyan character meeting the mentor requirement. This distinction is supported by the Awoken reference and GameFAQs unlock documentation. cite references are external only; repository provenance is stored in skill-batch-40.json.
+- Added `docs/data/skill-research-batches/skill-batch-40.json`; updated `docs/data/skills.json`, `TODO.md`, `docs/data/coverage-gaps.json`, and `CHANGELOG.md`.
+- Next task: continue the Awoken audit across remaining partially verified race-exclusive and universal forms, resolving unlock routes and exact mechanics before adding new forms.
