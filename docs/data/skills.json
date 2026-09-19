@@ -3721,9 +3721,12 @@
       "last_verified": "2026-09-18",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Justice_Pose"
+        "https://dbxv2.fandom.com/wiki/Justice_Pose",
+        "https://dragonball.fandom.com/wiki/Justice_Finishing_Pose",
+        "https://dragonball.fandom.com/wiki/Justice_Pose"
       ],
-      "duration_seconds": 20
+      "duration_seconds": 20,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Meditation",
