@@ -1828,3 +1828,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: c61346c0b35d11e5348ea349878cbbb425ff772e.
 - Live census: 283 total / 269 CaC-usable / 124 CaC-usable with null race restriction.
 - Exact next task: continue the null-race census with **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker** after recomputing the live dataset. Preserve null restrictions when explicit evidence is insufficient.
+
+
+### 2026-09-19 continuation — Burst Rush through God Breaker
+- Reviewed the next eight null-race CaC-usable records: Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker.
+- Added explicit All CaC races scope to all eight using the maintained Future Warrior technique evidence; no narrower CaC race/gender/form restriction was established.
+- Data commit: 118d5f5f5be9bfb505a8a8a0355693ed84767c8a (skills update commit immediately preceding audit).
+- Audit commit: 118d5f5f5be9bfb505a8a8a0355693ed84767c8a.
+- Live census: 283 total / 269 CaC-usable / 116 CaC-usable with null race restriction.
+- Exact next task: continue with **Heroic Counter, Punisher Shield, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash** after recomputing the live dataset.
