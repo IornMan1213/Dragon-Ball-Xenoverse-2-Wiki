@@ -697,6 +697,18 @@
     ],
     "Counter Burst": [
       75
+    ],
+    "Meteor Crash": [
+      12
+    ],
+    "Fighting Pose C": [
+      13
+    ],
+    "Psycho Escape": [
+      13
+    ],
+    "Kaioken Kamehameha": [
+      14
     ]
   },
   "super_souls": {
@@ -1098,6 +1110,12 @@
     ],
     "This fight...is truly pointless...": [
       38
+    ],
+    "H-How could he?!": [
+      12
+    ],
+    "I actually felt that one...": [
+      12
     ]
   },
   "clothing": {
@@ -1348,6 +1366,15 @@
     ],
     "Cell's Suit (Perfect)": [
       37
+    ],
+    "Battle Suit (Turles)": [
+      12
+    ],
+    "Battle Suit (Ginyu Force Black)": [
+      13
+    ],
+    "Goku's Turtle Hermit Gi (Go)": [
+      14
     ]
   },
   "accessories": {
@@ -1476,7 +1503,8 @@
     "2026-09-19: Added 24 canonical typed reward entries missing from the forward relationship layer (10 Super Souls, 14 equipment). Equipment subtype placement in this reverse index follows the canonical batch reward naming; source fields remain authoritative for exact subtype where provided.",
     "2026-09-19: Reverse index extended from the forward relationship layer after adding 46 source-normalized reward edges.",
     "2026-09-19: Subtype-aware reverse-index reconciliation added normalized-map clothing/accessory provenance without changing forward equipment relationship semantics. The forward layer intentionally uses one equipment relationship type; reverse index retains subtype where the source identifies it.",
-    "2026-09-19: Final subtype audit removed legacy dual clothing/accessory placements where the normalized source explicitly classifies the item as an accessory. 122 forward equipment edges now have complete reverse coverage; subtype is only asserted where the source layer identifies it."
+    "2026-09-19: Final subtype audit removed legacy dual clothing/accessory placements where the normalized source explicitly classifies the item as an accessory. 122 forward equipment edges now have complete reverse coverage; subtype is only asserted where the source layer identifies it.",
+    "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -2021,9 +2049,9 @@
     ]
   },
   "current_relationship_counts": {
-    "skill": 232,
-    "super_soul": 135,
-    "equipment": 122,
+    "skill": 236,
+    "super_soul": 137,
+    "equipment": 125,
     "character": 247,
     "dlc": 88,
     "farming": 7
