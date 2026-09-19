@@ -5636,11 +5636,13 @@
       "skill_description": "Lightning of Absolution is a Ultimate Ki Blast skill associated with Fused Zamasu.",
       "mechanics_notes": "Dedicated current-version evidence confirms Lightning of Absolution as a 100-Ki tracking Ki Blast Super from PQ111. The reviewed page identifies Fused Zamasu as the notable user and does not explicitly establish CaC race/gender/form scope.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution"
-      ]
+        "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution",
+        "https://dragonball.fandom.com/wiki/Lightning_of_Absolution"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Majin Kamehameha",
@@ -5664,9 +5666,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Majin_Kamehameha",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Majin_Kamehameha"
       ],
-      "race_restriction": "Majin"
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Mystic Flash",
@@ -5674,7 +5677,8 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Mystic_Flash"
+        "https://dbxv2.fandom.com/wiki/Mystic_Flash",
+        "https://dragonball.fandom.com/wiki/Mystic_Flash"
       ],
       "usable_by_cac": true,
       "character_source": "Nail",
@@ -5684,9 +5688,10 @@
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
       "mechanics_notes": "Dedicated current-version evidence confirms Mystic Flash as a 300-Ki Ki Blast Ultimate from PQ20, used by Nail and customizable Piccolo. The page does not explicitly establish CaC race/gender/form scope.",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
-      "damage_type": "Ki Blast"
+      "damage_type": "Ki Blast",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Prominence Flash",
@@ -5694,7 +5699,8 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Prominence_Flash"
+        "https://dbxv2.fandom.com/wiki/Prominence_Flash",
+        "https://dragonball.fandom.com/wiki/Prominence_Flash"
       ],
       "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan God)",
@@ -5704,7 +5710,7 @@
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted.",
       "race_restriction": "All CaC races"
@@ -5715,7 +5721,8 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction"
+        "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction",
+        "https://dragonball.fandom.com/wiki/Requiem_of_Destruction"
       ],
       "usable_by_cac": true,
       "character_source": "Vados; Whis — Customize Partner",
@@ -5725,9 +5732,10 @@
       "source_quest_or_shop": "Parallel Quest 106 — A Destructive Showdown",
       "ultimate_finish_required": null,
       "mechanics_notes": "Dedicated current-version evidence confirms Requiem of Destruction as a 300-Ki Ki Blast Ultimate from PQ106, used by Vados and Whis Customize Partner. The page does not explicitly establish CaC race/gender/form scope.",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
-      "damage_type": "Ki Blast"
+      "damage_type": "Ki Blast",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Revenge Death Ball",
@@ -5745,12 +5753,14 @@
       "skill_description": "Revenge Death Ball is a Ultimate Ki Blast skill associated with Super Baby 2.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+        "https://dragonball.fandom.com/wiki/Revenge_Death_Ball"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Revenge Final Flash",
@@ -5768,12 +5778,14 @@
       "skill_description": "Revenge Final Flash is a Ultimate Ki Blast skill associated with Super Baby 2.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+        "https://dragonball.fandom.com/wiki/Revenge_Final_Flash"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Ribrianne's Eternal Love",
@@ -5791,12 +5803,14 @@
       "skill_description": "Ribrianne's Eternal Love is a Ultimate Ki Blast skill associated with Ribrianne.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+        "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "S.S. Deadly Bomber",
