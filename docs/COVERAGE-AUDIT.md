@@ -1633,3 +1633,15 @@ Reviewed the first eight remaining CaC-usable skills with `race_restriction: nul
 - No race restriction was inferred merely from the associated character. This is consistent with the repository's research rule and the evidence that Future Warrior availability is separate from character ownership. citeturn0search2turn1search5
 - No fabricated restrictions, unlock routes, or drop conditions were added.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**; these eight remain null because evidence does not establish a restriction.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Heroic Counter through Super God Shock Flash
+
+Reviewed the next eight CaC-usable skills with null `race_restriction`: **Heroic Counter, Punisher Shield, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Sudden Death Beam, Super Afterimage, and Super God Shock Flash**.
+
+- Current Future Warrior evidence explicitly includes these techniques; no reviewed source establishes a CaC race/gender/form restriction, so the null race field remains intentional.
+- Dedicated skill evidence confirms Heroic Counter as a 100-Ki Strike Super, Punisher Shield as a 100-Ki Ki Blast Super, Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate, and Rough Ranger as a 100-Ki Strike Super. citeturn0search2turn0search3turn0search9turn0search6
+- Future Warrior evidence also lists Heroic Counter, Punisher Shield, and Rough Ranger among techniques usable by the Future Warrior; Reverse Mabakusenko explicitly lists Future Warrior as a user. citeturn0search7turn0search0
+- No restriction was inferred from Gamma 2, SSGSS Gogeta, Android 17, Piccolo, or other character associations.
+- No unsupported acquisition condition or drop requirement was added.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
