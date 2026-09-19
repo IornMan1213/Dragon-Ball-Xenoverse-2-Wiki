@@ -2323,3 +2323,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Mixed-source skills were marked false only where a documented shop/mentor/raid route independently provides acquisition without a PQ Ultimate Finish.
 - Preserved all remaining nullable UF fields where acquisition gating is ambiguous or only described as a generic PQ reward.
 - Next exact task: **recompute the remaining Super/Ultimate nullable acquisition metadata and continue with another small batch of explicitly non-UF or explicitly UF-gated records.**
+
+
+### 2026-09-19 continuation — Super non-UF acquisition batch 2
+- Resolved `ultimate_finish_required: false` for 10 additional Super skills with explicit shop, starter, or mentor-training acquisition routes: Sudden Death Beam, Emperor's Blast, Namek Finger, Pressure Sign, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance.
+- TP/STP Medal Shop and Skill Shop acquisition routes were treated as non-UF routes; mentor training and starter acquisition were likewise treated as non-UF.
+- Preserved remaining nullable fields where the repository only has ambiguous or PQ-gating evidence.
+- External cross-check: current reference material confirms TP/STP shops and mentor training are distinct skill acquisition channels. citeturn0search0turn0search2turn0search8
+- Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and target another evidence-backed batch, prioritizing explicit Ultimate Finish requirements or unambiguous shop/mentor routes.**
