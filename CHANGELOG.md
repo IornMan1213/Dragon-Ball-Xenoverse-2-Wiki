@@ -1,3 +1,9 @@
+## September 2026 — PQ Record-Level Provenance Pass
+- Added explicit record-level `sources` arrays to all PQ1-PQ10 records in `docs/data/parallel-quest-research-batches/pq-batch-01.json`.
+- Re-verified the batch against the maintained 186-PQ Steam transcription, the Steam PQ reward transcription, and an independent quest-objective reference.
+- Kept exact reward-slot/drop percentages unresolved where the consulted evidence does not establish them; no unsupported probability claims were added.
+- Updated `docs/COVERAGE-AUDIT.md` to track the remaining older-batch provenance gap.
+
 # Changelog
 
 ## September 2026 — PQ Unlock Census Closure
