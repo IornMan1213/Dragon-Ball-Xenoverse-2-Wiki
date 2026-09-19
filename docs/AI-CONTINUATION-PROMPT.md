@@ -1753,3 +1753,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — God Punisher through Pendulum Bullet
+- Reviewed the next eight null-race CaC-usable records: **God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, Pendulum Bullet**.
+- Preserved null race restrictions because reviewed Future Warrior/CaC evidence does not establish a narrower race/gender/form restriction.
+- Corrected **Headshot** metadata: Beerus source, Strike Evasive, 300 Stamina, PQ69.
+- Corrected the God Punisher description to match its existing Ultimate classification.
+- Data commit: 080c4070f86abf1023bbbc0a7e52a531b6ff3031.
+- Audit commit follows in this cycle.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
