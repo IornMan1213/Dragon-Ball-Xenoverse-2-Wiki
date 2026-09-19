@@ -2416,6 +2416,6 @@ Resolved `ultimate_finish_required: false` for **Sonic Bomb (PQ105), God of Dest
 Resolved `ultimate_finish_required: false` for **Fierce Fist (PQ159), Demonic Destruction (PQ159), Demon Flurry (PQ160), Apocalyptic Burst (PQ161), Special Beam Cannon (Beast) (PQ162), and Seagull Combination (PQ167), Burning Swan (PQ167)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search4
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
-- Live nullable Super/Ultimate census after this batch: **55 total — 40 Super / 15 Ultimate**.
+- Live nullable Super/Ultimate census after this batch: **55 total — 42 Super / 13 Ultimate**.
 - Skills commit: `12c9aec4b079dcc82d0f878585885403f051b62f`.
 - No schema or validator changes.
