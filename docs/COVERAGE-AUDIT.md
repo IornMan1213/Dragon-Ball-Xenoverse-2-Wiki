@@ -733,3 +733,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Reconciled **Candy Beam (Super)** as `All CaC races`: independent Xenoverse 2 documentation explicitly states the Super Buu (Gohan Absorbed) Candy Beam can be used by non-Majin characters, while the Evasive Candy Beam remains Majin-CaC-only. citeturn1search2turn1search10
 - Reconciled **Petrifying Spit** and **Kai Kai** as `All CaC races`: the Future Warrior reference lists both among the Warrior's general/all-race techniques, while separately identifying race-exclusive abilities elsewhere. citeturn2search5
 - Skills commit: `dc4fc4234876c747429e81a73cf8be8be4c946e6`.
+
+
+## 2026-09-19 race census — explicit restriction batch
+
+- Reconciled **Zigzag Express → Majin male**. The Future Warrior reference explicitly says it can only be used by a male Majin, and the skill page independently states the same restriction. citeturn0search0turn0search3
+- Reconciled **Namek Finger → Namekian**. The Future Warrior reference explicitly identifies it as usable by a Namekian Future Warrior. citeturn0search3
+- Skills commit: `8425c7ed5804608fdbd38df7668d9495e94642a8`.
