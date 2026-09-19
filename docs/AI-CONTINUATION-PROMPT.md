@@ -2409,3 +2409,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 08a282359b3a7e3bb5f455ed36f3e263ba1463e9.
 - Live nullable Super/Ultimate census: 166 total (127 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; leave records nullable where reward gating cannot be established.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 3
+- Resolved `ultimate_finish_required=false` for Counter Impact (PQ153), Demon Flash Strike (PQ160), Heroic Counter (PQ155), and Ultrasonic Blitz (PQ151).
+- Evidence: each is explicitly listed in the corresponding PQ Basic Reward list, separate from UF conditions.
+- Skills commit: 725e4773ae33154c6db41b8e96b42400f9f5ed34.
+- Live nullable Super/Ultimate census: 162 total (123 Super, 39 Ultimate).
+- Next task: continue with explicit Basic Reward candidates; do not infer non-UF status from a generic PQ acquisition statement.
