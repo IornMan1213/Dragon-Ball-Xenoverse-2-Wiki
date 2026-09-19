@@ -775,3 +775,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - CI status at inspection: the latest push-triggered Repository quality run for b9dc3ba1fcef62cac5c99e9ad419a0fbcec91994 completed with failure; the latest Clean internal artifacts run for the same commit was pending. Prior cycles and the current failure pattern do not expose actionable validation-step evidence, so validators are not to be weakened.
 - No repository data validator was modified or bypassed during this reconciliation.
 - Exact next task: P1 skill race-restriction census. Recompute the live skills.json cohort, prioritize explicit Future Warrior race/gender/form restrictions, and preserve null when accessible evidence does not establish a restriction.
+
+
+### 2026-09-19 cycle update — live skill race-restriction census refresh
+- Re-fetched the live `docs/data/skills.json` after the PQ unlock-field pass.
+- Current canonical skill census: **283 records; 270 CaC-usable; 186 CaC-usable records still have `race_restriction` unset**. This supersedes older race-backlog counts in historical handoff sections.
+- Confirmed that recent explicit restrictions already reconciled include Shining Slash (Earthling or Saiyan) and Saiyan Spirit (Saiyan); no new restriction was inferred from character ownership alone in this refresh.
+- Accessible web evidence remains uneven: some wiki endpoints are robots-blocked, so only accessible sources are treated as independent evidence. Preserve null when the evidence does not explicitly establish a race/gender/form restriction.
+- Exact next task: research an evidence-backed batch from the remaining 186 null-race records, prioritizing explicit Future Warrior race/gender/form wording, then re-run the live census and update coverage.
