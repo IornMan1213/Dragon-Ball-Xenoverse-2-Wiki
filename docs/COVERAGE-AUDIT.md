@@ -2399,3 +2399,13 @@ Resolved `ultimate_finish_required: false` for **Blaster Stream (PQ148), Chain D
 - Live nullable Super/Ultimate census after this batch: **70 total — 53 Super / 17 Ultimate**.
 - Skills commit: `76ce68d41eb94d6952142c9cc8abd0f9f8a75846`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 23
+
+Resolved `ultimate_finish_required: false` for **Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Conductor (PQ106), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Lightning of Absolution (PQ111), and Holy Wrath (PQ111)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1
+
+- Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
+- Live nullable Super/Ultimate census after this batch: **62 total — 47 Super / 15 Ultimate**.
+- Skills commit: `0776a86849a98f20d077ecf6106a42e68c9208c9`.
+- No schema or validator changes.
