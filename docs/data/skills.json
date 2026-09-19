@@ -3844,9 +3844,9 @@
       "source_quest_or_shop": "Parallel Quest 45",
       "ultimate_finish_required": null,
       "skill_description": "Taunt is a Super Power Up skill associated with Hercule.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Hercule's 0-Ki Power Up Super from PQ45. The user performs a taunting pose that can draw opponent attention; it is usable by CaCs.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3867,9 +3867,9 @@
       "source_quest_or_shop": "Parallel Quest 136",
       "ultimate_finish_required": true,
       "skill_description": "Blazing Attack is a Super Strike skill associated with Goku (Ultra Instinct).",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Goku (Ultra Instinct)'s 100-Ki Strike Super from PQ136 Ultimate Finish. It is a close-range martial-arts strike that can be extended with additional input.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3892,9 +3892,9 @@
       "source_quest_or_shop": "Parallel Quest 116",
       "ultimate_finish_required": null,
       "skill_description": "Brave Sword Slash is a Super Strike skill associated with Tapion.",
-      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Tapion's 100-Ki Strike Super from PQ116, usable by CaCs. Tapion draws the Brave Sword and performs a long-range sword slash; it is one of Tapion's Future Warrior-compatible sword skills.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3925,7 +3925,8 @@
       "unlock_method": "Parallel Quest 44 reward",
       "source_quest": 44,
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback."
     },
     {
       "name": "Burning Swan",
@@ -3941,9 +3942,9 @@
       "source_quest_or_shop": "PQ167",
       "ultimate_finish_required": null,
       "skill_description": "Burning Swan is a Super Strike skill associated with Videl.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Videl's 100-Ki Strike Super from Future Saga Chapter 1 PQ167. It performs a rapid series of acrobatic strikes; current evidence supports CaC usability.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3964,9 +3965,9 @@
       "source_quest_or_shop": "PQ178",
       "ultimate_finish_required": null,
       "skill_description": "Burst Blitz is a Super Strike skill associated with Goku (Mini).",
-      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
+      "mechanics_notes": "Confirmed as Goku (Mini)'s 300-Ki Strike Super from Future Saga Chapter 2 PQ178. It is a close-range rush strike; current Future Warrior evidence supports CaC usability.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_explicit_cac_evidence",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
@@ -3988,10 +3989,10 @@
       "source_quest_or_shop": "PQ171 / PQ172 reward context",
       "ultimate_finish_required": null,
       "skill_description": "Crimson Edge is a Super Strike skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
-      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified.",
+      "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -4014,7 +4015,8 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Android 18",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_cac_race_provenance"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension."
     },
     {
       "name": "Death Slash",
