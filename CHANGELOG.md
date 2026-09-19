@@ -1,3 +1,10 @@
+## September 2026 — PQ91–100 Final Base-Game Provenance Pass
+- Added record-level provenance to the final **PQ91–PQ100** base-game block with 2026-09-19 verification dates.
+- Corrected the missing difficulty metadata to the documented **7-star** tier.
+- Reconciled reward data, including PQ95 Flash Bomber/Drain Field, PQ96 GT Vegeta's Jacket/Absolute Zero, PQ97's expanded reward set, PQ98 Lord Slug's Clothes/Dimension Ray, and PQ100's x100 Big Bang Kamehameha/SSGSS Vegeta Wig/Whis Symbol Battle Suit.
+- Cross-checked Ultimate Finish objectives against multiple independent references and kept unlock triggers conservative where evidence does not establish a unique prerequisite.
+- Base-game PQ provenance gap reduced from 36 to **26 of 176 records** without individual `sources` arrays.
+
 ## September 2026 — PQ81–90 Provenance and Difficulty Pass
 - Added record-level provenance to **PQ81–PQ90** with 2026-09-19 verification dates.
 - Corrected the missing difficulty metadata for this block to the documented **7-star** tier.
