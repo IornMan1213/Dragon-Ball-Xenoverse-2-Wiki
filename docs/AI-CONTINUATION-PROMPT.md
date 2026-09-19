@@ -2648,3 +2648,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `c9cb6945ea3f02fb1112c290c1506169a60e973b`.
 - Coverage audit commit: `6d19d04ab026689de4d974e6b656d49902623d3b`.
 - Exact next task: continue the bounded Basic Reward evidence pass on the remaining nullable records, prioritizing explicit quest-guide reward sections and preserving null when evidence is insufficient.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 29
+- Resolved **Do or Die (PQ49), Charge (PQ83), Divinity Unleashed (PQ110), Fighting Pose H (PQ61), Majin Kamehameha (PQ60), Mystic Flash (PQ20), Warp Kamehameha (PQ76), and Super Black Kamehameha Rosé (PQ109)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. citeturn0search0turn0search1turn0search4
+- Live nullable Super/Ultimate census: **27 total — 24 Super / 3 Ultimate**.
+- Skills commit: `5bab0a70c05064b9044ab7d25f93e20255058eb7`.
+- Coverage audit commit: `0a473b4bf4d9fab0845bb2dd6f60b05096751354`.
+- Exact next task: continue the bounded Basic Reward evidence pass across the remaining nullable records; preserve `null` when a reward-section gate is not established.
