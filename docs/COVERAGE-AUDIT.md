@@ -643,3 +643,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Reviewed recent Future Saga/DAIMA candidates including **Dark Inscription, Emperor's Cannon, Chaotic Time Impact, Burst Blitz, Dragon Spark, and Soaring Rush**. Current evidence identifies Golden Frieza (Ultra Supervillain) as the user/preset holder for the first three and Goku (Mini) as the user for the latter three, but does not by itself establish a valid CaC route. citeturn3search13turn3search2turn3search17turn3search0turn3search1turn3search14
 - These records therefore remain unresolved rather than being promoted to `usable_by_cac: true` or `false` from weak inference. This preserves the audit's evidence standard.
 - Skills commit: `b9a8e3ae8baa7c8acbe11c150266a01b1f0c747b`.
+
+
+## 2026-09-19 explicit Future Warrior corrections
+
+- Re-audited the remaining null-CaC cohort against the live Future Warrior technique corpus.
+- **Mystic Flash** and **Thunder Flash** were found to be explicitly documented as Future Warrior techniques, so both are now `usable_by_cac: true`. The source identifies Mystic Flash as Nail's Ultimate Skill usable by the Future Warrior and Thunder Flash as Pikkon's Ultimate Skill usable by the Future Warrior. citeturn3search0turn3search6
+- No race restriction was inferred for either record because the source does not establish one.
+- Skills commit: `cbb114e5cef2b499450dc937367d3b95e7a1e202`.
