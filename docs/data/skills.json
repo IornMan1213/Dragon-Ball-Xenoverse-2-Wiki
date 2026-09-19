@@ -748,7 +748,7 @@
       "name": "Absolute Zero",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
       ],
@@ -788,7 +788,7 @@
       "name": "Dragon Burn",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
       ],
@@ -804,7 +804,7 @@
       "name": "Explosive Wave",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
       ],
@@ -960,7 +960,7 @@
       "name": "Punisher Guard",
       "class": "Evasive",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Evasives"
       ],
@@ -1043,7 +1043,7 @@
       "name": "Final Pose",
       "class": "Evasive",
       "subcategory": "Power Up",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
       ],
@@ -1057,7 +1057,7 @@
       "name": "Mach Dash",
       "class": "Evasive",
       "subcategory": "Power Up",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
       ],
@@ -1073,7 +1073,7 @@
       "name": "Angry Shout",
       "class": "Evasive",
       "subcategory": "Strike",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
       ],
@@ -1089,7 +1089,7 @@
       "name": "Energy Barrier",
       "class": "Evasive",
       "subcategory": "Strike",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
       ],
