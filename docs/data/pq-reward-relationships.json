@@ -6147,6 +6147,78 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-012",
+      "relationship": "pq_rewards_super_soul",
+      "target": "H-How could he?!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-012",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I actually felt that one...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-012",
+      "relationship": "pq_rewards_equipment",
+      "target": "Battle Suit (Turles)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-012",
+      "relationship": "pq_rewards_skill",
+      "target": "Meteor Crash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-013",
+      "relationship": "pq_rewards_equipment",
+      "target": "Battle Suit (Ginyu Force Black)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-013",
+      "relationship": "pq_rewards_skill",
+      "target": "Fighting Pose C",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-013",
+      "relationship": "pq_rewards_skill",
+      "target": "Psycho Escape",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-014",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku's Turtle Hermit Gi (Go)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-014",
+      "relationship": "pq_rewards_skill",
+      "target": "Kaioken Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
     }
   ],
   "normalization_rules": [
@@ -6163,9 +6235,9 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "skill": 232,
-    "super_soul": 135,
-    "equipment": 122,
+    "skill": 236,
+    "super_soul": 137,
+    "equipment": 125,
     "character": 247,
     "dlc": 88,
     "farming": 7
