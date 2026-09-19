@@ -2439,3 +2439,13 @@ Resolved `ultimate_finish_required: false` for **Dragon Spiral (PQ185), Indomita
 - Live nullable Super/Ultimate census after this batch: **46 total — 35 Super / 11 Ultimate**.
 - Skills commit: `90b811333a9acc9247f71ec0782a35b8ceb9803a`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 27
+
+Resolved `ultimate_finish_required: false` for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1
+
+- Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
+- Live nullable Super/Ultimate census after this batch: **39 total — 35 Super / 4 Ultimate**.
+- Skills commit: `bc0bffe7ec4bfa1d1cf284c3141b513b53d0dd4d`.
+- No schema or validator changes.
