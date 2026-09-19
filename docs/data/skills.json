@@ -2,8 +2,8 @@
   "schema_version": "1.1",
   "game": "Dragon Ball Xenoverse 2",
   "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "generated": "2026-09-14",
-  "status": "seeded_index",
+  "generated": "2026-09-19",
+  "status": "researched_canonical",
   "notes": "Indexed records establish category membership. Mechanics, costs and unlock methods must be verified before promotion to verified status.",
   "category_counts": {
     "Ki Blast Supers": 183,
@@ -36,12 +36,14 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; the form uses a distinct moveset and drains Stamina over time.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Future Super Saiyan",
@@ -51,9 +53,11 @@
       "usable_by_cac": true,
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Power Pole Pro",
@@ -64,12 +68,14 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 0,
       "mechanics_notes": " Current research documents Power Pole Pro as a 0 Ki activation cost; the transformation uses the Nimbus/Power Pole moveset.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Purification",
@@ -80,12 +86,14 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Majin_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; transformation changes the moveset and affects stamina recovery.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Super Saiyan",
@@ -96,12 +104,14 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Stage activation thresholds: Super Saiyan 300 Ki, Super Saiyan 2 400 Ki, Super Saiyan 3 500 Ki.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Super Saiyan God",
@@ -112,12 +122,14 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; the form does not consume the activation Ki.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -127,9 +139,11 @@
       "usable_by_cac": true,
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -139,9 +153,11 @@
       "usable_by_cac": true,
       "verification_status": "indexed",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Super Vegeta",
@@ -152,12 +168,14 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Stage activation thresholds: Super Vegeta 300 Ki and Super Vegeta 2 400 Ki.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "The Power to Overcome",
@@ -192,81 +210,90 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; stamina drains while transformed.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Beast",
       "class": "Awoken",
-      "subcategory": "Transformation",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "character_source": "CaC / Universal",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Beast unlock chain",
+      "source_quest_or_shop": "Beast unlock chain",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal CaC Awoken Skill with high offensive output and defensive trade-offs.",
+      "mechanics_notes": "High-offense transformation with defensive trade-offs and enhanced combat properties.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Beast",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
-    },
-    {
-      "name": "Become Giant",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Namekian",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
-    },
-    {
-      "name": "Future Super Saiyan",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Saiyan",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Kaioken",
       "class": "Awoken",
-      "subcategory": "Transformation",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "character_source": "CaC / Universal",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Kaioken Parallel Quest reward route",
+      "source_quest_or_shop": "Parallel Quest reward route",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal CaC Awoken Skill with Kaioken, Kaioken x3, and Kaioken x20 stages.",
+      "mechanics_notes": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power. Stage activation thresholds: Kaioken 100 Ki, Kaioken x3 300 Ki, Kaioken x20 500 Ki.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Kaioken",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Potential Unleashed",
       "class": "Awoken",
-      "subcategory": "Transformation",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "character_source": "CaC / Universal",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Final Advancement Test",
+      "source_quest_or_shop": "Final Advancement Test",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal balanced CaC Awoken Skill with broad offensive and defensive benefits.",
+      "mechanics_notes": "Universal transformation with broad offensive and defensive benefits.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
-    },
-    {
-      "name": "Power Pole Pro",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Earthling",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Pure Progress",
@@ -285,30 +312,6 @@
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
       "last_verified": "2026-09-19"
-    },
-    {
-      "name": "Purification",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Majin",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
-    },
-    {
-      "name": "Super Saiyan",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Saiyan",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
     },
     {
       "name": "Super Saiyan 2",
@@ -341,54 +344,6 @@
       "last_verified": "2026-09-19"
     },
     {
-      "name": "Super Saiyan God",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Saiyan",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
-    },
-    {
-      "name": "Super Saiyan God Super Saiyan",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Saiyan",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
-    },
-    {
-      "name": "Super Saiyan God Super Saiyan (Evolved)",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Saiyan",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
-    },
-    {
-      "name": "Super Vegeta",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Saiyan",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
-    },
-    {
       "name": "Supersonic Mode",
       "class": "Awoken",
       "subcategory": "Transformation",
@@ -407,27 +362,29 @@
       "last_verified": "2026-09-19"
     },
     {
-      "name": "Turn Golden",
-      "class": "Awoken",
-      "subcategory": "Transformation",
-      "race_restriction": "Frieza Race",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
-      ],
-      "ultimate_finish_required": null
-    },
-    {
       "name": "Ultra Instinct",
       "class": "Awoken",
-      "subcategory": "Transformation",
+      "subcategory": "Race",
+      "race_restriction": "All CaC races",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "character_source": "CaC / Universal",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Awoken",
+      "unlock_method": "Ultra Instinct unlock route",
+      "source_quest_or_shop": "Ultra Instinct unlock route",
+      "ultimate_finish_required": null,
+      "skill_description": "Universal CaC Awoken Skill centered on automatic evasion and counterplay.",
+      "mechanics_notes": "Centers on automatic evasion and counterplay instead of a conventional flat damage multiplier.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-18",
       "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Burst Reflection",
@@ -1218,9 +1175,11 @@
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Big_Bang_Knuckle"
+        "https://dbxv2.fandom.com/wiki/Big_Bang_Knuckle",
+        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
       ],
-      "source_quest": 172
+      "source_quest": 172,
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
     },
     {
       "name": "Blaster Ball",
@@ -3358,20 +3317,6 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Taunt"
       ]
-    },
-    {
-      "name": "Big Bang Knuckle",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Supers",
-        "https://dbxv2.fandom.com/wiki/Big_Bang_Knuckle"
-      ],
-      "ki_cost": 100,
-      "ultimate_finish_required": null,
-      "unlock_method": "Parallel Quest 172 reward",
-      "source_quest": 172
     },
     {
       "name": "Blazing Attack",
@@ -5842,100 +5787,7 @@
       "unlock_method": "Parallel Quest 89 - \"Super-Super Ultimate Series of Battles!\"",
       "last_verified": "2026-09-18",
       "ultimate_finish_required": null
-    },
-    {
-      "name": "Kaioken",
-      "class": "Awoken",
-      "subcategory": "Race",
-      "race_restriction": "All CaC races",
-      "usable_by_cac": true,
-      "character_source": "CaC / Universal",
-      "dlc_requirement": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "damage_type": "Awoken",
-      "unlock_method": "Kaioken Parallel Quest reward route",
-      "source_quest_or_shop": "Parallel Quest reward route",
-      "ultimate_finish_required": null,
-      "skill_description": "Universal CaC Awoken Skill with Kaioken, Kaioken x3, and Kaioken x20 stages.",
-      "mechanics_notes": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power. Stage activation thresholds: Kaioken 100 Ki, Kaioken x3 300 Ki, Kaioken x20 500 Ki.",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Kaioken",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md"
-      ]
-    },
-    {
-      "name": "Potential Unleashed",
-      "class": "Awoken",
-      "subcategory": "Race",
-      "race_restriction": "All CaC races",
-      "usable_by_cac": true,
-      "character_source": "CaC / Universal",
-      "dlc_requirement": null,
-      "ki_cost": 500,
-      "stamina_cost": null,
-      "damage_type": "Awoken",
-      "unlock_method": "Final Advancement Test",
-      "source_quest_or_shop": "Final Advancement Test",
-      "ultimate_finish_required": null,
-      "skill_description": "Universal balanced CaC Awoken Skill with broad offensive and defensive benefits.",
-      "mechanics_notes": "Universal transformation with broad offensive and defensive benefits.",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Potential_Unleashed"
-      ]
-    },
-    {
-      "name": "Beast",
-      "class": "Awoken",
-      "subcategory": "Race",
-      "race_restriction": "All CaC races",
-      "usable_by_cac": true,
-      "character_source": "CaC / Universal",
-      "dlc_requirement": null,
-      "ki_cost": 500,
-      "stamina_cost": null,
-      "damage_type": "Awoken",
-      "unlock_method": "Beast unlock chain",
-      "source_quest_or_shop": "Beast unlock chain",
-      "ultimate_finish_required": null,
-      "skill_description": "Universal CaC Awoken Skill with high offensive output and defensive trade-offs.",
-      "mechanics_notes": "High-offense transformation with defensive trade-offs and enhanced combat properties.",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Beast"
-      ]
-    },
-    {
-      "name": "Ultra Instinct",
-      "class": "Awoken",
-      "subcategory": "Race",
-      "race_restriction": "All CaC races",
-      "usable_by_cac": true,
-      "character_source": "CaC / Universal",
-      "dlc_requirement": null,
-      "ki_cost": 500,
-      "stamina_cost": null,
-      "damage_type": "Awoken",
-      "unlock_method": "Ultra Instinct unlock route",
-      "source_quest_or_shop": "Ultra Instinct unlock route",
-      "ultimate_finish_required": null,
-      "skill_description": "Universal CaC Awoken Skill centered on automatic evasion and counterplay.",
-      "mechanics_notes": "Centers on automatic evasion and counterplay instead of a conventional flat damage multiplier.",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultra_Instinct"
-      ]
     }
   ],
-  "record_count": 298
+  "record_count": 283
 }
