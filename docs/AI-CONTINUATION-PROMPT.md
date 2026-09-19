@@ -1891,3 +1891,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: d681e50aafb7749435931aa7e4537241f9adc4f3.
 - Live census: 283 total / 269 CaC-usable / 68 CaC-usable with null race restriction.
 - Exact next task: continue with **Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Giant Cluster, Gigantic Charge, God of Destruction's Plaything** after recomputing the live dataset.
+
+
+### 2026-09-19 continuation — Evil Blast through God of Destruction's Plaything
+- Reviewed: Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Giant Cluster, Gigantic Charge, God of Destruction's Plaything.
+- Added explicit All CaC races scope to all eight; no narrower CaC race/gender/form restriction was established.
+- Data commit: 758d4cf9fb027afc8bbb71750c3b64156898493f.
+- Audit commit: d45beb674c77d6b8345b696542044916b2dc7185.
+- Live census: 283 total / 269 CaC-usable / 60 CaC-usable with null race restriction.
+- Exact next cohort: **God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, Pendulum Bullet**.
