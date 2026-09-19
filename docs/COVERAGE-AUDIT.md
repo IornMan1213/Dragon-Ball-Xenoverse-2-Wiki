@@ -987,3 +987,15 @@ Reviewed **Justice Kick, Lovely Cyclone, Mach Punch, Meteor Blow, Meteor Strike,
 ## 2026-09-19 — Recoome/Sonic boundary
 
 Reviewed **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, and Sonic Bomb** as the next unresolved CaC-usable null-race cohort. Current-version evidence confirms skill identity/availability but does not explicitly establish a race/gender/form restriction or unrestricted-all-CaC statement sufficient to change `race_restriction`. All eight remain null. Verification dates were refreshed to 2026-09-19; dedicated dbxv2 Fandom provenance was added for Savory Slicer where absent.
+
+
+## 2026-09-19 — null-race cohort: Super God Fist through Circle Flash
+
+Recomputed the live canonical skill census before editing: **283 total / 270 CaC-usable / 182 CaC-usable with null `race_restriction`**. Reviewed the next eight unresolved records after Sonic Bomb: **Super God Fist, Variant Drive, Apocalyptic Burst, Blaster Stream, Burning Blast, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash**.
+
+- Added or normalized dedicated current-version Xenoverse 2 skill-page provenance for all eight records.
+- Current evidence confirms skill identity, user/acquisition context, and mechanics, but the reviewed pages do **not** explicitly establish CaC race/gender/form scope or an explicit unrestricted-all-CaC statement for these records.
+- Character ownership, Parallel Quest availability, partner customization, and skill-category membership were not treated as race evidence.
+- No `race_restriction` classifications changed; all eight remain null. Verification dates were refreshed to **2026-09-19**.
+- Web evidence included the dedicated Xenoverse 2 pages for Super God Fist, Variant Drive, Apocalyptic Burst, Blaster Stream, Burning Blast, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash. The sources document their current-version users and acquisition/skill data but do not supply the missing CaC race-scope statement. cite references intentionally omitted from repository text.
+
