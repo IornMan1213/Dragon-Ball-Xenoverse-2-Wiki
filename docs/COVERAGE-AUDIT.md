@@ -1204,3 +1204,15 @@ Reconciled Afterimage, Afterimage Strike, Assault Vanish, Burst Charge, Charged 
 - **Charged Ki Wave:** confirmed as a stamina-charging Other Super, PQ97.
 - **Energy Release:** confirmed Towa-exclusive and non-CaC; it is a slow Ki-charging stance.
 - Other movement/charge mechanics and explicit CaC provenance were reconciled without inferring unsupported race restrictions.
+
+
+## 2026-09-19 — Final Charge through Petrifying Spit cohort
+
+Reconciled Final Charge, Full Power Charge, Hero's Flute, Instant Charge, Instant Transmission, Kai Kai, Maximum Charge, and Petrifying Spit.
+
+- Final Charge and Instant Charge retained as character/boss-exclusive, non-CaC skills.
+- Full Power Charge and Maximum Charge confirmed as CaC charge skills from Advanced/God Class Advancement Tests.
+- Hero's Flute confirmed as Tapion's 100-Ki barrier skill from PQ116.
+- Instant Transmission confirmed as Goku Lesson 1, 0-resource teleport usable by all CaC races.
+- Kai Kai confirmed as Whis's 100-Ki ally/partner teleport from PQ63.
+- Petrifying Spit confirmed as Dabura's 100-Ki petrification skill from PQ114, usable by all CaC races.
