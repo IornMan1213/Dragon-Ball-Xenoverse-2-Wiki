@@ -371,3 +371,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **46 records still lacking individual `sources` arrays**.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Exact next task: **continue with PQ81–PQ90**. Research the next 7-star block, including PQ81/PQ82 chain behavior, Dragon Ball/time-patroller mechanics, unlock routes, objective sequences, basic rewards, and individual provenance. Preserve conflicts and uncertainty instead of inventing prerequisites or drop rates. Then update coverage audit, changelog, handoff, and inspect Actions/status.
+
+
+### 2026-09-19 cycle update — PQ81–90 provenance and difficulty pass
+- Workstream: Parallel Quest provenance, difficulty metadata, and objective/reward verification.
+- Completed record-level provenance for **PQ81–PQ90**, with explicit sources and 2026-09-19 verification dates.
+- Corrected missing difficulty metadata: all ten quests are documented as **7-star** base-game PQs.
+- Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish references. PQ83 has community evidence for an 81→82→83 progression, but broader sources show base-game PQ availability can also involve story progression/NPC triggers; unresolved individual unlock fields were not overclaimed.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-09.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `53208c49a7e3d710dab1710e6c77dfd2062ea0d5` (PQ81–90 research), `c5cb05c6d33ab2372c0ed91fb463a0611b2518ee` (coverage audit), `302fecc0724c5dbfccff7df90ea1b63b538141b6` (changelog).
+- Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **36 records still lacking individual `sources` arrays**.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Exact next task: **continue with PQ91–PQ100**, the final ten base-game PQs. Verify difficulty metadata, unlock routes, objective sequences, Dragon Ball/Ultimate Finish mechanics, rewards, and record-level provenance. Pay particular attention to the final PQ100 and any conflicts in old guides. Then update coverage audit, changelog, handoff, and inspect Actions/status.
