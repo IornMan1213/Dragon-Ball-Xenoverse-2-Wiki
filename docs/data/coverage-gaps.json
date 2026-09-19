@@ -7,14 +7,15 @@
     "Future Saga Chapter 4 character index",
     "Future Saga Chapter 4 system/content counts",
     "DLC overview counts and official source links",
-    "Super Soul canonical population expanded from 18 to 26 records; research batch 03 promoted after independent reconciliation"
+    "Super Soul canonical population expanded from 18 to 26 records; research batch 03 promoted after independent reconciliation",
+    "Added four FUTURE SAGA Chapter 4 Super Soul identities (records 032–035) with attributed acquisition/effect evidence"
   ],
   "critical": [
     "Ki Blast Supers complete set reconciliation",
     "record-level character/preset population",
     "Super Soul population",
     "QQ Bang population",
-    "Super Soul population beyond the first 26 records"
+    "Super Soul population beyond the current 30 records; unresolved item-level mechanics and acquisition mapping remain tracked"
   ],
   "high": [
     "33 mentor lesson records",
@@ -24,7 +25,7 @@
     "automated cross-reference audit"
   ],
   "next_priority": {
-    "1": "Expand Super Soul records and tie acquisition sources to Parallel Quests, mentors, shops, raids/events, Expert Missions, and DLC.",
+    "1": "Expand Super Soul records beyond 30, prioritizing acquisition families absent from the canonical layer and reconciling exact item-level effects.",
     "2": "Expand QQ Bang records and normalize stat/effect fields.",
     "3": "Reconcile Ki Blast Super records against the skill catalog and source registry.",
     "4": "Complete mentor lesson and Expert Mission records with sources and reward relationships.",
