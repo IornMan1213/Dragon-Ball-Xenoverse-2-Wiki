@@ -2358,3 +2358,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Evidence limitation: no other nullable Ultimate-Finish field was changed merely because a skill is associated with a PQ. Generic PQ reward wording remains insufficient negative evidence.
 - Current known skill baseline remains 283 records / 269 CaC-usable / 0 CaC-usable with null race restriction; remaining nullable acquisition fields require item-level evidence.
 - Exact next task: **recompute the live Super/Ultimate `ultimate_finish_required` null census after these three updates, identify the next smallest set with explicit shop/mentor/wish/raid or explicit UF-only provenance, then update only those records and the audit.**
+
+
+### 2026-09-19 continuation — explicit non-UF acquisition batch 4
+- Workstream: P1 skill Ultimate-Finish acquisition metadata.
+- Resolved `ultimate_finish_required: false` for **Super Spirit Bomb**, **Supernova**, and **Final Kamehameha** from documented independent acquisition channels rather than PQ Ultimate-Finish gating.
+- Updated `docs/data/skills.json` and `docs/COVERAGE-AUDIT.md`.
+- Data commit: `5e88850b70a495da6381ab0e973699a8bc7929da`.
+- Evidence limitation: the remaining nullable Super/Ultimate fields are not safe to bulk-fill; generic PQ reward wording remains insufficient to establish either true or false UF gating.
+- Exact next task: recompute the live null census and target the next smallest explicitly documented shop/mentor/wish/raid/Expert-Mission or UF-only batch.
