@@ -1234,3 +1234,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Neither page explicitly establishes CaC race/gender/form scope; no restriction was inferred.
 - Commits: `6c7debe720c03b4332954a56eb5508949a4d9bae` (data), `59dad11176065a4a57899801f3239983daa1276b` (audit).
 - Continue with the next unresolved CaC-usable/null-race records in dataset order.
+
+
+### 2026-09-19 continuation — Counter cohort
+- Reconciled dataset-order records: Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz.
+- Dedicated current-version evidence was added to the mechanics/research notes. No unsupported CaC race/gender/form restrictions were inferred.
+- Sudden Death Beam's existing acquisition data was retained because its dedicated page could not be freshly retrieved in this pass.
+- Data commit: `4cdc73fd86aa0a2d0945aaf3ccb4413c014590e5`; audit commit: `567e1698100dfde569aa9518751e13677ea48416`.
+- Next continuation should proceed from the next dataset-order unresolved records after Ultrasonic Blitz.
