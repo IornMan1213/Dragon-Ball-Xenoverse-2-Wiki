@@ -46,7 +46,7 @@
       "last_verified": "2026-09-19",
       "notes": "Namekian CaC-only Awoken Skill. Requires 300 Ki; has a continuous Stamina drain and no Ultimate/Evasive slot while active.",
       "unlock_method": "Complete the Namekian Awakening quest at Guru's House as a Namekian CaC.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Future Super Saiyan",
@@ -68,7 +68,7 @@
       "unlock_method": "Vegeta's Capsule Corporation Time Rift; complete the required Super Saiyan/Super Vegeta progression and obtain the skill from Vegeta.",
       "last_verified": "2026-09-19",
       "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Power Pole Pro",
@@ -89,7 +89,7 @@
       "last_verified": "2026-09-19",
       "notes": "Earthling CaC-only Awoken Skill. Requires 0 Ki; summons Nimbus/Power Pole, changes the basic moveset, and ends when hitstun or a grab connects.",
       "unlock_method": "At level 35 or higher, complete the Great Saiyaman questline at Hercule's House Time Rift and clear the final unlock mission.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Purification",
@@ -110,7 +110,7 @@
       "last_verified": "2026-09-19",
       "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.",
       "unlock_method": "Progress the Majin Buu's House Time Rift until Buu has the required family members, then complete the associated Purification unlock fight as a Majin CaC.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan",
@@ -131,7 +131,7 @@
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3.",
       "unlock_method": "Complete the Saiyan Awakening progression at Capsule Corporation and train with Vegeta; the resulting Awoken Skill provides Super Saiyan stages 1–3.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God",
@@ -152,7 +152,7 @@
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus.",
       "unlock_method": "Use the Shenron wish for Super Saiyan God after maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan; Beerus then provides the skill.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -175,7 +175,7 @@
       "ki_cost": 500,
       "last_verified": "2026-09-19",
       "mechanics_notes": "500 Ki; +25% Strike/+25% Blast, +5% Strike/+5% Blast Defense; drains 10 Ki/sec while active.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -198,7 +198,7 @@
       "ki_cost": 500,
       "last_verified": "2026-09-19",
       "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Super Vegeta",
@@ -219,7 +219,7 @@
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2.",
       "unlock_method": "Complete the Vegeta training progression at the Capsule Corporation Time Rift as a Saiyan CaC.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "The Power to Overcome",
@@ -238,7 +238,7 @@
       "skill_description": "Universal CaC Awoken Skill with an initial state and a stronger unleashed second stage.",
       "mechanics_notes": "Two-stage Awoken. Stage 1 has a documented +20% all-damage defense effect and +5% movement speed in current community testing, plus automatic HP recovery while below 50% HP and an unblockable sword-strike replacement for grabs. Re-inputting the Awoken command activates Unleashed Stage 2: approximately 12 seconds of effectively/infinite Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, and increased movement speed; HP drains during Stage 2 and a cooldown follows before reactivation. Sources disagree on some exact Stage 2 speed/cooldown values (reports include +10% vs +15% speed and ~24 vs ~30 sec cooldown), so those fields remain unresolved.",
       "verification_status": "partially_verified",
-      "research_status": "mechanics_reconciled_core_verified",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
@@ -268,7 +268,7 @@
       "last_verified": "2026-09-19",
       "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki.",
       "unlock_method": "Complete the Frieza's Spaceship Time Rift progression and its Frieza/Meta-Cooler recruitment battles as a Frieza Race CaC.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Beast",
@@ -362,7 +362,7 @@
       ],
       "ultimate_finish_required": null,
       "race_restriction": null,
-      "research_status": "corrected_character_only",
+      "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
       "last_verified": "2026-09-19"
@@ -385,7 +385,7 @@
       "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped.",
       "last_verified": "2026-09-19",
       "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table.",
-      "research_status": "reconciled_race_restriction_verified"
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan Blue Kaioken",
@@ -400,7 +400,7 @@
         "https://dbxv2.fandom.com/wiki/Awoken_Skill"
       ],
       "ultimate_finish_required": null,
-      "research_status": "corrected_character_only",
+      "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
       "last_verified": "2026-09-19"
@@ -418,7 +418,7 @@
       ],
       "ultimate_finish_required": null,
       "race_restriction": null,
-      "research_status": "corrected_character_only",
+      "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
       "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
       "last_verified": "2026-09-19"
@@ -457,7 +457,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "reconciled_external_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Wish - \"I want a new Super Attack!\"",
       "last_verified": "2026-09-19",
@@ -479,7 +479,7 @@
         "https://dragonball.fandom.com/wiki/Burst_Rush",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 51",
@@ -501,7 +501,7 @@
         "https://dragonball.fandom.com/wiki/Change_the_Future",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 43 - Change the Future",
@@ -522,7 +522,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Counter_Burst"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 75 - \"Room to Spare\"",
       "last_verified": "2026-09-19",
@@ -543,7 +543,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 153 - \"Seeing Double\"",
       "last_verified": "2026-09-19",
@@ -565,7 +565,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 160",
       "ultimate_finish_required": null,
@@ -585,7 +585,7 @@
         "https://dbxv2.fandom.com/wiki/Dimensional_Hole",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward (PQ80)",
       "source_quest": 80,
@@ -607,7 +607,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Shenron wish reward",
       "ultimate_finish_required": null,
@@ -628,7 +628,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ44)",
       "source_quest": 44,
@@ -650,7 +650,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ155)",
       "source_quest": 155,
@@ -672,7 +672,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ129)",
       "source_quest": 129,
@@ -694,7 +694,7 @@
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 300,
       "unlock_method": "Skill Shop",
       "last_verified": "2026-09-19",
@@ -715,7 +715,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ119 Ultimate Finish)",
       "source_quest": 119,
@@ -737,7 +737,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Training with Cooler (Final Form)",
       "last_verified": "2026-09-19",
@@ -758,7 +758,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
       "last_verified": "2026-09-19",
@@ -788,7 +788,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
@@ -801,7 +801,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Skill Shop",
       "last_verified": "2026-09-19",
@@ -822,7 +822,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
       "last_verified": "2026-09-19",
@@ -843,7 +843,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
       "last_verified": "2026-09-19",
@@ -864,7 +864,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
       "last_verified": "2026-09-19",
@@ -885,7 +885,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\"",
       "last_verified": "2026-09-19",
@@ -909,7 +909,7 @@
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 96 - \"The Shadow Dragons\" (random reward)",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "source_quest": 96,
       "source_quest_or_shop": "Parallel Quest 96",
       "ultimate_finish_required": null,
@@ -933,7 +933,7 @@
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ151, associated with Goku (Ultra Instinct -Sign-) and available to CaCs. The reviewed evidence does not explicitly establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
@@ -956,7 +956,7 @@
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 82 - \"Ultimate Brotherly Battle\" (random reward)",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "source_quest": 82,
       "source_quest_or_shop": "Parallel Quest 82",
       "ultimate_finish_required": null,
@@ -977,7 +977,7 @@
       "stamina_cost": 300,
       "unlock_method": "Skill Shop for 15,000 Zeni after completing the main story (normal ending)",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
@@ -1000,7 +1000,7 @@
       "skill_description": "Force Shield is a Evasive Other skill associated with Vegito.",
       "mechanics_notes": "Current dedicated evidence confirms Force Shield as a 200-Stamina Ki Blast Evasive from PQ59, used by Vegito. It creates a blue barrier that cancels Ki waves and can be held while consuming Ki; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1026,7 +1026,7 @@
       "skill_description": "Instant Rise is an Evasive skill that rapidly ascends to evade attacks.",
       "mechanics_notes": "Current dedicated evidence confirms Instant Rise as a 200-Stamina Other Evasive from PQ37. It rapidly moves the user upward for evasion; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1052,7 +1052,7 @@
       "skill_description": "Ki Explosion is a Evasive Other skill associated with Majin Buu.",
       "mechanics_notes": "Current evidence confirms Ki Explosion as a 200-Stamina Evasive available to CaCs, obtained from PQ77. It is an omnidirectional ki explosion; the dataset's existing explicit all-CaC-races restriction is retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1077,7 +1077,7 @@
       "skill_description": "Maiden Burst is a Evasive Other skill associated with Pan.",
       "mechanics_notes": "Current dedicated evidence confirms Maiden Burst as a 300-Stamina Evasive from PQ92, associated with Pan/Videl (Customize Partner)/Ribrianne. No unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -1103,7 +1103,7 @@
       "skill_description": "Mighty Explosive Wave is an Evasive skill associated with Majin Buu.",
       "mechanics_notes": "Dedicated current-version evidence identifies Mighty Explosive Wave as a Ki Blast Super/Evasive skill from PQ79, costing 100 Ki when used as the attack and 300 Stamina as the Evasive. It creates a close-range explosion. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1128,7 +1128,7 @@
       "skill_description": "Psychic Move is a Evasive Other skill associated with Guldo.",
       "mechanics_notes": "Dedicated current-version evidence identifies Psychic Move as a 300-Stamina Strike Evasive from PQ73. It teleports behind the opponent and creates a short-range shockwave. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1151,7 +1151,7 @@
       "stamina_cost": 300,
       "unlock_method": "Skill Shop after completing the relevant story progression; originally associated with PQ87 before the current acquisition route",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
@@ -1174,7 +1174,7 @@
       "skill_description": "Side Bridge is a Evasive Other skill associated with Android 17.",
       "mechanics_notes": "Dedicated current-version evidence corrects Side Bridge to a 100-Ki Ki Blast Super from PQ39. It throws a disc that returns like a boomerang. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1199,7 +1199,7 @@
       "skill_description": "Spread Shot Retreat is a Evasive Other skill associated with Frieza.",
       "mechanics_notes": "Dedicated current-version evidence confirms Spread Shot Retreat as a 300-Stamina Ki Blast Evasive from PQ28. It retreats while firing a tracking barrage that can stun. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1224,7 +1224,7 @@
       "skill_description": "Steel Mirage is a Evasive Other skill associated with Android 18.",
       "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1246,7 +1246,7 @@
       "stamina_cost": 200,
       "unlock_method": "Skill Shop",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
@@ -1268,7 +1268,7 @@
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 18 - \"Force Entrance Exam\" (first-clear/random reward)",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "source_quest": 18,
       "source_quest_or_shop": "Parallel Quest 18",
       "ultimate_finish_required": null,
@@ -1289,7 +1289,7 @@
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 68 - \"Old Rivals and Dragon Balls\" (random reward)",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "enriched",
       "source_quest": 68,
       "source_quest_or_shop": "Parallel Quest 68",
       "ultimate_finish_required": null,
@@ -1311,7 +1311,7 @@
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" (random reward; Ultimate Finish associated with the drop)",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "source_quest": 32,
       "source_quest_or_shop": "Parallel Quest 32",
       "ultimate_finish_required": null,
@@ -1335,7 +1335,7 @@
       "skill_description": "Spirit Explosion is a Strike Evasive skill.",
       "mechanics_notes": "Dedicated current-version evidence confirms Spirit Explosion as a 200-Stamina Strike Evasive from PQ25 and explicitly states it is obtainable for CaCs. It creates a close-range blue explosion that knocks opponents away. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1361,7 +1361,7 @@
       "skill_description": "Spirit Slash is a Evasive Strike skill associated with Gohan (Teen).",
       "mechanics_notes": "Dedicated current-version evidence confirms Spirit Slash as a 200-Stamina Strike Evasive from PQ02. The Gohan (DBS Super Hero) variant uses 300 Stamina and can be charged to teleport behind the opponent. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -1386,7 +1386,7 @@
       "skill_description": "Atomic Blast is a Super Ki Blast skill associated with Vegeta (Super Saiyan 4).",
       "mechanics_notes": "Dedicated current-version evidence confirms Atomic Blast as a 100-Ki Ki Blast Super from PQ87. It is a chargeable Ki wave whose optimal damage depends on charge timing and whether the user is grounded. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -1409,7 +1409,7 @@
       "source_quest_or_shop": "Skill Shop",
       "skill_description": "Ki Blast Super Skill that bends its follow-up projectile toward the target.",
       "mechanics_notes": "Dedicated current-version evidence confirms Bending Kamehameha as a 100-Ki Ki Blast Super from the Skill Shop. A second input makes the beam track the target. Existing all-CaC-races restriction is retained.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
@@ -1429,7 +1429,7 @@
       "source_quest_or_shop": "TP Medal Shop",
       "skill_description": "Ki Blast Super Skill associated with Vegeta that fires a large beam after charging.",
       "mechanics_notes": "Dedicated current-version evidence confirms Big Bang Kamehameha as a 100-Ki Ki Blast Super from the TP Medal Shop. Full charge can trigger the Saiyan CaC warp behavior when a Super Saiyan transformation is equipped; existing all-CaC-races restriction is retained.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
@@ -1452,7 +1452,7 @@
       "skill_description": "Big Bang Knuckle is a Super Ki Blast skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
       "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established.",
       "verification_status": "partially_verified",
-      "research_status": "corrected_non_cac_scope",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
@@ -1479,7 +1479,7 @@
       "skill_description": "Blaster Ball is a Super Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Dedicated current-version evidence confirms Blaster Ball as a 100–500 Ki Ki Blast Super from PQ125. Repeated input extends the barrage up to 13 total hits. No unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Ball",
@@ -1507,7 +1507,7 @@
       "skill_description": "Bluff Kamehameha is a Super Ki Blast skill associated with Hercule.",
       "mechanics_notes": "Current evidence confirms Bluff Kamehameha as a 100-Ki Ki Blast Super from PQ94. It is a deceptive Kamehameha-style projectile; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -1533,7 +1533,7 @@
       "skill_description": "Breaker Energy Wave is a Super Ki Blast skill associated with Hit.",
       "mechanics_notes": "Current evidence confirms Breaker Energy Wave as a 100-Ki Ki Blast Super from PQ101. It is a close/medium-range energy-wave attack associated with Hit; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1559,7 +1559,7 @@
       "skill_description": "Burning Attack is a Super Ki Blast skill associated with Future Trunks.",
       "mechanics_notes": "Dedicated current-version evidence confirms Burning Attack as a 100-Ki Ki Blast Super from PQ41. The projectile explodes on impact and launches the opponent upward; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1585,7 +1585,7 @@
       "skill_description": "Burst Kamehameha is a Super Ki Blast skill associated with Goku.",
       "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1611,7 +1611,7 @@
       "skill_description": "Burst Stinger is a Super Ki Blast skill associated with Goku (Ultra Instinct).",
       "mechanics_notes": "Current evidence confirms Burst Stinger as a 100-Ki Ki Blast Super from PQ136, with Ultimate Finish required in the dataset's acquisition record. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1638,7 +1638,7 @@
       "skill_description": "Buu Buu Ball is a Super Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "Current evidence confirms Buu Buu Ball as a 100-Ki Ki Blast Super from PQ88. The existing explicit Pure Majin-form restriction is retained.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -1665,7 +1665,7 @@
       "skill_description": "Candy Beam is a Super Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "Current evidence confirms the base Candy Beam record as a 100-Ki Ki Blast Super from PQ66. The current record's explicit Majin CaC restriction is retained; the 200-Ki Candy Beam (Super) variant is a separate skill entry.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1691,7 +1691,7 @@
       "skill_description": "Candy Beam (Super) is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
       "mechanics_notes": "Dedicated current-version evidence confirms Candy Beam (Super) as a 200-Ki Ki Blast Super from PQ113. It transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage; the existing all-CaC-races restriction is retained.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1715,7 +1715,7 @@
       "skill_description": "Crazy Finger Shot is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "Dedicated current-version evidence confirms Crazy Finger Shot as a 100-Ki Ki Blast Super from PQ26. Holding the input extends the attack to up to 14 blasts, consuming up to 800 Ki total; existing all-CaC-races restriction retained.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1744,7 +1744,7 @@
       "skill_description": "Dark Inscription is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
@@ -1769,7 +1769,7 @@
       "skill_description": "Death Psycho Bomb is a Super Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "Dedicated current-version evidence confirms Death Psycho Bomb as a 100-Ki Ki Blast Super from PQ33. It is a psychic grab/trap that catches the opponent and causes an explosion; existing all-CaC-races restriction retained.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1796,7 +1796,7 @@
       "skill_description": "Demon Ray is a Super Ki Blast skill used by Gohan (Beast).",
       "mechanics_notes": "Dedicated current-version evidence confirms Demon Ray as a 100-Ki Ki Blast Super from PQ160, with a 300-Stamina follow-up/use-while-hit mechanic. Existing acquisition record is retained. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
@@ -1821,7 +1821,7 @@
       "skill_description": "Destruction's Concerto: Comet is a Super Ki Blast skill associated with Vados.",
       "mechanics_notes": "Dedicated current-version evidence confirms Destruction's Concerto: Comet as a 100–200 Ki Ki Blast Super from PQ104. It creates a slow-moving tracking sphere; Destruction's Conductor can accelerate it and enable the multi-hit behavior. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1846,7 +1846,7 @@
       "skill_description": "Destruction's Concerto: Starfall is a Super Ki Blast skill associated with Vados.",
       "mechanics_notes": "Current evidence confirms Destruction's Concerto: Starfall as a Vados Super Skill obtainable from PQ104; it creates two energy spheres and can interact with Destruction's Conductor. No unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1871,7 +1871,7 @@
       "source_quest_or_shop": "Krillin mentor training",
       "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "race_restriction": "All CaC races"
     },
     {
@@ -1890,7 +1890,7 @@
       "skill_description": "Dimension Cannon is a Super Ki Blast skill associated with Super Buu.",
       "mechanics_notes": "Current indexed evidence confirms Dimension Cannon as a 300-Ki Ki Blast Super from PQ59. Exact drop gating and detailed numerical mechanics remain under research; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1919,7 +1919,7 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics": "Moving Kamehameha Super with directional movement during charge; additional input can fire early; 15-hit beam.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super sold through the TP Medal Shop and usable by all CaC races. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input."
     },
     {
@@ -1938,7 +1938,7 @@
       "skill_description": "Divine Spear is a Super Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
       "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
@@ -1961,7 +1961,7 @@
       "skill_description": "Double Death Slicer is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1987,7 +1987,7 @@
       "skill_description": "Dust Attack is a Super Ki Blast skill associated with Hercule.",
       "mechanics_notes": "Current evidence confirms Dust Attack's PQ78 acquisition record. The broad Super Attack index places Dust Attack under Other rather than Ki Blast Skills, so the dataset's existing Ki-Blast classification should remain flagged for direct skill-page reconciliation rather than being silently normalized. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2012,7 +2012,7 @@
       "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
       "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11, with Ultimate Finish required in the existing acquisition record. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -2034,7 +2034,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 70 - \"Things Are Getting Serious!\"; also available through TP Medal Shop rotation",
       "usable_by_cac": true,
@@ -2059,7 +2059,7 @@
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Current dedicated evidence confirms Emperor's Cannon as a 100-Ki Ki Blast Super from PQ184, 'The Invincible Duo', correcting the prior PQ183 record. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
@@ -2085,7 +2085,7 @@
       "skill_description": "Eraser Bomb is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2110,7 +2110,7 @@
       "skill_description": "Evil Blast is a Super Ki Blast skill associated with Dabura.",
       "mechanics_notes": "Current evidence confirms Evil Blast as a 100-Ki Ki Blast Super from PQ114. Its dedicated documentation should remain the authority for exact drop gating; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2136,7 +2136,7 @@
       "skill_description": "Evil Flame is a Super Ki Blast skill associated with Dabura.",
       "mechanics_notes": "Current evidence confirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. Its dedicated documentation is retained as the primary mechanics source; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2163,7 +2163,7 @@
       "skill_description": "Final Cannon is a Super Ki Blast skill associated with Android 16.",
       "mechanics_notes": "Current evidence confirms Final Cannon as a 100-Ki Ki Blast Super from PQ52. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2183,7 +2183,7 @@
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 200,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "unlock_method": "Character-exclusive skill; not equippable by CaCs",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
@@ -2207,7 +2207,7 @@
       "skill_description": "Flash Chaser is a Super Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2234,7 +2234,7 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "race_restriction": "All CaC races"
     },
     {
@@ -2253,7 +2253,7 @@
       "skill_description": "Gamma Blaster is a Super Ki Blast skill used by Gamma 2.",
       "mechanics_notes": "Current evidence confirms Gamma Blaster as a 100-Ki Ki Blast Super from PQ155. The existing random-PQ acquisition record is retained; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
@@ -2279,7 +2279,7 @@
       "skill_description": "Giant Cluster is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2304,7 +2304,7 @@
       "skill_description": "Gigantic Charge is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
       "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2330,7 +2330,7 @@
       "skill_description": "God of Destruction's Plaything is a Super Ki Blast skill associated with God of Destruction Belmod.",
       "mechanics_notes": "Current evidence confirms God of Destruction's Plaything as a Belmod Super from PQ175. The existing 100-Ki record and CaC usability are retained pending stronger dedicated numeric evidence. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
@@ -2354,7 +2354,7 @@
       "skill_description": "God Punisher is a Ki Blast Ultimate skill associated with Gogeta (Super Saiyan Blue).",
       "mechanics_notes": "Dedicated current-version evidence corrects God Punisher to a **400-Ki Ki Blast Ultimate**, not a 100-Ki Super. It is obtained from PQ132 and includes the rush/barrage mechanic; Festival variant behavior is documented separately. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2381,7 +2381,7 @@
       "skill_description": "Handy Canon is a Super Ki Blast skill associated with Android 13.",
       "mechanics_notes": "Dedicated current-version evidence confirms Handy Canon as a **100-Ki Ki Blast Super** from PQ115. It fires a cancellable barrage of Ki Blasts. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2407,7 +2407,7 @@
       "skill_description": "Headshot is a Strike Evasive skill associated with Beerus.",
       "mechanics_notes": "Dedicated current-version evidence confirms Headshot as Beerus's Strike Evasive, using 300 Stamina, obtained from PQ69. The previous Frieza (Final Form) association and Ki Blast Super classification were incorrect. Reviewed in the current null-race census; maintained Future Warrior/CaC evidence establishes availability, and no narrower CaC race/gender/form restriction is established.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2433,7 +2433,7 @@
       "skill_description": "Heat Wave is a Super Ki Blast skill associated with SS4 Goku (DAIMA).",
       "mechanics_notes": "Dedicated current-version evidence corrects Heat Wave to a **200-Ki Strike Super** from PQ179. It charges, repels Ki Blasts during its rush, and can break guard when fully charged. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
@@ -2458,7 +2458,7 @@
       "skill_description": "Ill Bomber is a Super Ki Blast skill associated with Super 17.",
       "mechanics_notes": "Dedicated current-version evidence confirms Ill Bomber as a **100-Ki Ki Blast Super** from PQ90. It is an unblockable close-range explosion that makes the user invisible; it is restricted to Majin CaCs.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -2484,7 +2484,7 @@
       "skill_description": "Ill Rain is a Super Ki Blast skill associated with Janemba.",
       "mechanics_notes": "Confirmed as Janemba's 100-Ki Ki Blast Super from PQ64. The projectile/orb can produce separate hits; detailed drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2508,7 +2508,7 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ05 and usable by all CaC races. It has three charge levels.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "race_restriction": "All CaC races"
     },
     {
@@ -2521,7 +2521,7 @@
         "https://dragonball.fandom.com/wiki/Masenko"
       ],
       "ki_cost": 100,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "unlock_method": "Gohan (Kid) mentor training, School Quest Lesson 2",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
@@ -2546,7 +2546,7 @@
       "skill_description": "Paralysis is a Super Ki Blast skill associated with Ginyu Force.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ34. The skill immobilizes the target; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2571,7 +2571,7 @@
       "skill_description": "Paralyze Beam is a Super Ki Blast skill associated with Piccolo.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ04. It can paralyze/hold the target; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -2596,7 +2596,7 @@
       "skill_description": "Pendulum Bullet is a Super Ki Blast skill associated with Android 17.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2623,7 +2623,7 @@
       "source_quest_or_shop": "Training with Cell (Perfect)",
       "mechanics": "Slow, tracking Ki Blast Super; charged finger shot.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot."
     },
     {
@@ -2642,7 +2642,7 @@
       "skill_description": "Photon Swipe is a Super Ki Blast skill associated with Toppo.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ139. It is Toppo's Photon Swipe; exact drop/Ultimate Finish gating remains bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2669,7 +2669,7 @@
       "skill_description": "Pretty Cannon is a Super Ki Blast skill associated with Ribrianne.",
       "mechanics_notes": "Confirmed as Ribrianne's 100-Ki Ki Blast Super from PQ133. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2695,7 +2695,7 @@
       "skill_description": "Raid Blast is a Super Ki Blast skill used by Super Saiyan God Vegeta.",
       "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. The dataset's existing Ultimate Finish requirement is retained. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2723,7 +2723,7 @@
       "skill_description": "Ray Blast is a Super Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Confirmed as Kefla's 100-Ki Ki Blast Super from PQ125. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2749,7 +2749,7 @@
       "skill_description": "Reverse Shot is a Super Ki Blast skill associated with Super Baby 2.",
       "mechanics_notes": "Confirmed as Super Baby 2's 100-Ki Ki Blast Super from PQ123. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2775,7 +2775,7 @@
       "skill_description": "Rolling Bullet is a Ki Blast Evasive associated with Android 18, Android 18 (DB Super), and Great Saiyaman 2.",
       "mechanics_notes": "Corrected to a Ki Blast Evasive, not a Super. It scatters Ki Blasts while ascending and is used to escape attacks. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2800,7 +2800,7 @@
       "skill_description": "Shine Shot is a Super Ki Blast skill associated with Vegeta.",
       "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -2825,7 +2825,7 @@
       "skill_description": "Spirit Blaster is a Super Ki Blast skill associated with SSGSS Gogeta.",
       "mechanics_notes": "Confirmed as SSGSS Gogeta's 100-Ki Ki Blast Super from PQ129. It fires tracking Ki Blasts followed by a cancellable barrage. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2853,7 +2853,7 @@
       "source_quest_or_shop": "Training with Goku",
       "mechanics": "Ki Blast Super learned from Goku mentor training; charge/release projectile.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile."
     },
     {
@@ -2872,7 +2872,7 @@
       "skill_description": "Spirit Pulse is a Super Ki Blast skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Confirmed as Goku (Ultra Instinct -Sign-)'s 100-Ki Ki Blast Super from PQ151. It is a slower single-shot variation of Soaring Fist; Ultra Instinct also uses Spirit Pulse as its fully charged Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
@@ -2897,7 +2897,7 @@
       "skill_description": "Stone Bullet is a Strike Super associated with Goten.",
       "mechanics_notes": "Corrected to a **Strike Super**, 100 Ki, PQ56. It throws up to 22 rocks and can be charged to greatly extend range; Hercule's version is categorized as Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2923,7 +2923,7 @@
       "skill_description": "Super Donut Volley is a Super Ki Blast skill associated with Gotenks.",
       "mechanics_notes": "Confirmed as Gotenks' 100-Ki Ki Blast Super from PQ55. Additional inputs fire up to eight explosive energy rings. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2948,7 +2948,7 @@
       "skill_description": "Super Ghost Buu Attack is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ113. Five ghosts remain in place until launched by another input or after the automatic delay. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2969,7 +2969,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "skill_description": "Vanishing Ball is a Ki Blast Super Attack used by Kid Buu.",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
@@ -2999,7 +2999,7 @@
       "skill_description": "Variable Snipe Shot is a Super Ki Blast skill associated with Android 18.",
       "mechanics_notes": "Confirmed as Android 18 (DB Super)'s 100-Ki Ki Blast Super from Future Saga Chapter 1/PQ165. It has multiple input variations, including a charged overhead blast and a back-jump shot. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3024,7 +3024,7 @@
       "skill_description": "Victory Cannon is a Ki Blast Evasive associated with Gotenks.",
       "mechanics_notes": "Corrected to a **Ki Blast Evasive**, 300 Stamina, PQ54. Fires a mouth Ki Wave while recoil propels the user backward. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3050,7 +3050,7 @@
       "skill_description": "Wild Buster is a Super Ki Blast skill used by Vegeta (GT).",
       "mechanics_notes": "Confirmed as Vegeta (GT)'s 100-Ki Ki Blast Super from PQ153. Exact drop gating and some numerical mechanics remain bounded. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wild_Buster",
@@ -3069,7 +3069,7 @@
         "https://dbxv2.fandom.com/wiki/Afterimage"
       ],
       "ki_cost": 100,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "unlock_method": "Starting move / initial \"Mixed\" choice",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
@@ -3096,7 +3096,7 @@
       "source_quest_or_shop": "Parallel Quest 81",
       "mechanics_notes": "Confirmed as Other Super from PQ81 and usable by all CaC races. It creates an afterimage while moving and can transition into follow-up attacks.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "race_restriction": "All CaC races"
     },
     {
@@ -3115,7 +3115,7 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "PQ131 — Legendary Finish",
       "dlc_requirement": "Extra Pack 4",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "stamina_cost": 100,
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position."
@@ -3135,7 +3135,7 @@
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": true,
       "source_quest": 134,
@@ -3161,7 +3161,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki."
     },
     {
@@ -3176,7 +3176,7 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Complete Pan's Initiation Test / train under Pan",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Pan mentor training",
@@ -3194,7 +3194,7 @@
       ],
       "ki_cost": 0,
       "unlock_method": "First Advancement Test - Easy Class / CaC playstyle reward",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Advancement Test",
       "last_verified": "2026-09-19",
@@ -3214,7 +3214,7 @@
       "ki_cost": 0,
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs.",
@@ -3238,7 +3238,7 @@
       "ultimate_finish_required": null,
       "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs."
     },
@@ -3259,7 +3259,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - Advanced Class",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge."
     },
     {
@@ -3284,7 +3284,7 @@
       "ultimate_finish_required": null,
       "skill_description": "Hero's Flute is a Super Other skill that creates a protective barrier around the user while playing Tapion's flute.",
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races"
     },
@@ -3299,7 +3299,7 @@
       "ki_cost": 0,
       "unlock_method": "Character-exclusive: Mira (Final Form); also used by certain raid/boss encounters",
       "usable_by_cac": false,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established.",
@@ -3323,7 +3323,7 @@
       "source_quest_or_shop": "Goku mentor training, Lesson 1",
       "mechanics": "Teleports the user to the opponent; uses no Ki or Stamina.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost."
     },
     {
@@ -3342,7 +3342,7 @@
       "skill_description": "Kai Kai is a Super Other skill associated with Whis.",
       "mechanics_notes": "Confirmed as Whis's 100-Ki Other Super from PQ63 and usable by all CaC races. It teleports the user to a selected ally/partner rather than the opponent.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3367,7 +3367,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - God Class",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills."
     },
     {
@@ -3386,7 +3386,7 @@
       "skill_description": "Petrifying Spit is a Super Other skill associated with Dabura.",
       "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3409,7 +3409,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "PQ97",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive."
     },
@@ -3431,7 +3431,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super sold in the Skill Shop after defeating Mira (Final Form). It puts the user to sleep to recover stamina/health while vulnerable; restricted to Majin CaCs."
     },
     {
@@ -3445,7 +3445,7 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Krillin's initiation test / mentor training",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
@@ -3464,7 +3464,7 @@
       "ki_cost": 100,
       "unlock_method": "Character-exclusive: Broly (Restrained)",
       "usable_by_cac": false,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established.",
@@ -3482,7 +3482,7 @@
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "PQ153",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
@@ -3499,7 +3499,7 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 01 reward",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 01",
@@ -3524,7 +3524,7 @@
       "source_quest_or_shop": "Skill Shop",
       "mechanics_notes": "Confirmed as a 0-Ki Skill Shop defensive Other Super. It projects a wide defensive barrier that can cancel incoming Ki attacks for a short window and can protect nearby allies. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "race_restriction": "All CaC races"
     },
     {
@@ -3539,7 +3539,7 @@
       "ki_cost": 100,
       "description": " Base cost corrected to 100 Ki; holding the skill drains additional Ki.",
       "unlock_method": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3567,7 +3567,7 @@
       "unlock_method": "Character-exclusive to Ultra Instinct Goku variants; CaCs can access the technique through Ultra Instinct's built-in action in current versions",
       "usable_by_cac": true,
       "race_restriction": "All CaC races while using Ultra Instinct",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Charge/action associated with Ultra Instinct Goku variants; current versions allow CaCs to access the technique through Ultra Instinct's built-in action."
@@ -3584,7 +3584,7 @@
       "ki_cost": 100,
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Retained as a 100-Ki Other Super that is character-exclusive/non-CaC. It is associated with Guldo/Captain Ginyu-era time-manipulation moves; no CaC acquisition route established.",
@@ -3606,7 +3606,7 @@
       "skill_description": "Time Control is a Super Skill that freezes an opponent in place; it is a 40% Ultimate Finish reward from Parallel Quest 18.",
       "mechanics_notes": "Confirmed as Guldo's 100-Ki Other Super from PQ18, requiring the Ultimate Finish reward. It temporarily freezes the opponent in place.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3631,7 +3631,7 @@
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": true,
       "source_quest": 134,
@@ -3650,7 +3650,7 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest 10 - \"Saiyan Survivors\"",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 10",
@@ -3674,7 +3674,7 @@
       "skill_description": "Charge is a Super Power Up skill associated with Goku.",
       "mechanics_notes": "Confirmed as Goku's 100-Ki Power Up Super from PQ83. It is an early/intermediate Ki charging skill; detailed reward-roll conditions remain less certain than the PQ identity. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -3695,7 +3695,7 @@
       "ki_cost": 100,
       "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "ultimate_finish_required": null,
       "unlock_method": "Expert Mission 20 — Harbinger of Doom",
       "usable_by_cac": true,
@@ -3719,7 +3719,7 @@
       "skill_description": "Divinity Unleashed is a Super Power Up skill associated with Zamasu.",
       "mechanics_notes": "Confirmed as Zamasu's 100-Ki Power Up Super from PQ110. Charging at least one full Ki bar activates a temporary effect that substantially increases Ki gained from attacks/charging; it is a CaC-usable charge skill. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3743,7 +3743,7 @@
       "skill_description": "Do or Die is a Super Power Up skill associated with Super Saiyan 3 Gotenks.",
       "mechanics_notes": "Confirmed as 100-Ki PQ49 Power Up Super. It knocks back nearby enemies on activation and grants 10% damage reduction for 20 seconds. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3767,7 +3767,7 @@
       "skill_description": "Fighting Pose E is a Super Power Up skill associated with Captain Ginyu.",
       "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3792,7 +3792,7 @@
       "skill_description": "Fighting Pose H is a Super Power Up skill associated with Recoome.",
       "mechanics_notes": "Corrected user attribution to Guldo. Confirmed as 0-Ki PQ61 Power Up Super that reduces damage taken for 20 seconds; usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3812,7 +3812,7 @@
       "ki_cost": 0,
       "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "duration_seconds": 8,
       "ultimate_finish_required": null,
       "unlock_method": "Skill Shop after The Ginyu Force Strikes",
@@ -3837,7 +3837,7 @@
       "skill_description": "Formation! is a Super Power Up skill associated with Ribrianne.",
       "mechanics_notes": "Confirmed as Ribrianne's 100-Ki PQ133 Ultimate Finish Power Up Super. Holding/charging changes the duration, documented at about 30, 31.5, and 33 seconds for the three charge levels. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3865,7 +3865,7 @@
       "skill_description": "Chapter 4 power-management Super associated with Goku (Ultra Supervillain Quelled).",
       "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
@@ -3892,7 +3892,7 @@
       "skill_description": "Justice Pose is a Super Power Up skill associated with Great Saiyaman.",
       "mechanics_notes": "Confirmed as Great Saiyaman's 0-Ki PQ53 Power Up Super, usable by all CaC races. It boosts all stats for 20 seconds.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3916,7 +3916,7 @@
       "ki_cost": 0,
       "mechanics_notes": "Confirmed as a 0-Ki PQ122 Power Up Super usable by all CaC races. After activation it raises maximum Ki and provides automatic Ki recovery for about 20 seconds in current versions; its interactions with other reinforcement buffs are version-sensitive.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "duration_seconds": 20,
       "unlock_method": "Parallel Quest reward",
       "source_quest": 122,
@@ -3942,7 +3942,7 @@
       "skill_description": "Taunt is a Super Power Up skill associated with Hercule.",
       "mechanics_notes": "Confirmed as Hercule's 0-Ki Power Up Super from PQ45. The user performs a taunting pose that can draw opponent attention; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3966,7 +3966,7 @@
       "skill_description": "Blazing Attack is a Super Strike skill associated with Goku (Ultra Instinct).",
       "mechanics_notes": "Confirmed as Goku (Ultra Instinct)'s 100-Ki Strike Super from PQ136 Ultimate Finish. It is a close-range martial-arts strike that can be extended with additional input. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3992,7 +3992,7 @@
       "skill_description": "Brave Sword Slash is a Super Strike skill associated with Tapion.",
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Strike Super from PQ116, usable by CaCs. Tapion draws the Brave Sword and performs a long-range sword slash; it is one of Tapion's Future Warrior-compatible sword skills. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4024,7 +4024,7 @@
       "unlock_method": "Parallel Quest 44 reward",
       "source_quest": 44,
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback.",
       "source_quest_or_shop": "Parallel Quest 44"
     },
@@ -4044,7 +4044,7 @@
       "skill_description": "Burning Swan is a Super Strike skill associated with Videl.",
       "mechanics_notes": "Confirmed as Videl's 100-Ki Strike Super from Future Saga Chapter 1 PQ167. It performs a rapid series of acrobatic strikes; current evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4069,7 +4069,7 @@
       "skill_description": "Burst Blitz is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Confirmed as Goku (Mini)'s 300-Ki Strike Super from Future Saga Chapter 2 PQ178. It is a close-range rush strike; current Future Warrior evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
@@ -4094,7 +4094,7 @@
       "skill_description": "Crimson Edge is a Super Strike skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
       "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
@@ -4118,7 +4118,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Android 18",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension."
     },
     {
@@ -4137,7 +4137,7 @@
       "skill_description": "Death Slash is a Super Strike skill associated with Frieza.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4162,7 +4162,7 @@
       "skill_description": "Demon Flurry is a Super Strike skill used by Gohan (Beast).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flurry",
@@ -4187,7 +4187,7 @@
       "skill_description": "Demonic Destruction is a Super Strike skill used by Orange Piccolo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
@@ -4212,7 +4212,7 @@
       "skill_description": "Destruction's Conductor is a Super Strike skill associated with Champa.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4237,7 +4237,7 @@
       "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
@@ -4262,7 +4262,7 @@
       "skill_description": "Strike Super associated with Goku (Ultra Supervillain Quelled).",
       "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
@@ -4285,7 +4285,7 @@
       "ultimate_finish_required": null,
       "unlock_method": null,
       "usable_by_cac": false,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect.",
       "source_quest_or_shop": "Character skill"
@@ -4306,7 +4306,7 @@
       "skill_description": "Emperor's Edge is a Super Strike skill associated with Frieza.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -4338,7 +4338,7 @@
       "unlock_method": "Parallel Quest 21 reward",
       "source_quest": 21,
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "source_quest_or_shop": "Parallel Quest 21",
       "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent."
     },
@@ -4358,7 +4358,7 @@
       "skill_description": "Evil Whirlwind is a Super Strike skill associated with Cell.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4383,7 +4383,7 @@
       "skill_description": "Fierce Fist is a Super Strike skill used by Orange Piccolo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fierce_Fist",
@@ -4408,7 +4408,7 @@
       "skill_description": "Force Edge is a Super Strike skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
@@ -4433,7 +4433,7 @@
       "skill_description": "Freedom Kick is a Super Strike skill associated with Android 17.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4458,7 +4458,7 @@
       "skill_description": "Gamma Impact is a Super Strike skill used by Gamma 2.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
@@ -4483,7 +4483,7 @@
       "skill_description": "God of Destruction's Poise is a Super Strike skill associated with God of Destruction Belmod.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Poise",
@@ -4509,7 +4509,7 @@
       "skill_description": "Heroic Assault is a Super Strike skill used by Gamma 1.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Assault",
@@ -4534,7 +4534,7 @@
       "skill_description": "Justice Blade is a Super Strike skill used by Dyspo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Blade",
@@ -4559,7 +4559,7 @@
       "skill_description": "Justice Drive is a Super Strike skill associated with Videl.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4584,7 +4584,7 @@
       "skill_description": "Justice Kick is a Super Strike skill used by Dyspo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Kick",
@@ -4609,7 +4609,7 @@
       "skill_description": "Lovely Cyclone is a Super Strike skill associated with Ribrianne.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4636,7 +4636,7 @@
       "skill_description": "Mach Punch is a Super Strike skill associated with Burter.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4661,7 +4661,7 @@
       "skill_description": "Meteor Blow is a Super Strike skill associated with Goku / Gohan.",
       "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -4686,7 +4686,7 @@
       "skill_description": "Meteor Strike is a Super Strike skill associated with Goku / Gohan (Kid).",
       "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -4715,7 +4715,7 @@
       "ultimate_finish_required": null,
       "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill."
     },
@@ -4735,7 +4735,7 @@
       "skill_description": "Neo Wolf Fang Fist is a Super Strike skill associated with Yamcha.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -4760,7 +4760,7 @@
       "skill_description": "Power Impact is a Super Strike skill associated with Jiren.",
       "mechanics_notes": "PQ reward identity corroborated; Power Impact is classified as a Strike Super, despite the stale Ki Blast subcategory value previously present. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4786,7 +4786,7 @@
       "skill_description": "Powered Shell is a Super Strike skill associated with Broly (Full Power Super Saiyan).",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4812,7 +4812,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop (Conton City)",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_cac_race_provenance",
+      "research_status": "enriched",
       "mechanics_notes": "100 Ki Strike Super from the Conton City Skill Shop; short-range strike technique used to pressure the opponent."
     },
     {
@@ -4831,7 +4831,7 @@
       "skill_description": "Recoome Kick is a Super Strike skill associated with Recoome.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4856,7 +4856,7 @@
       "skill_description": "Sauzer Blade is a Super Strike skill associated with Sauzer.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4881,7 +4881,7 @@
       "skill_description": "Savory Slicer is a Super Strike skill associated with Android 18.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4907,7 +4907,7 @@
       "skill_description": "Scissors Paper Rock is a Super Strike skill associated with Gotenks.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4932,7 +4932,7 @@
       "skill_description": "Seagull Combination is a Super Strike skill associated with Videl.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4963,7 +4963,7 @@
       "unlock_method": "Parallel Quest 38 reward",
       "source_quest": 38,
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "source_quest_or_shop": "Parallel Quest 38",
       "mechanics_notes": "100 Ki Strike Super from PQ38; sword-based strike technique associated with Trunks and restricted to the documented Human/Earthling and Saiyan CaC scope."
     },
@@ -4983,7 +4983,7 @@
       "skill_description": "Shooting Strike is a Super Strike skill used by Gamma 1.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shooting_Strike",
@@ -5008,7 +5008,7 @@
       "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
@@ -5033,7 +5033,7 @@
       "skill_description": "Sonic Bomb is a Super Strike skill associated with Champa.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5058,7 +5058,7 @@
       "skill_description": "Super God Fist is a Super Strike skill associated with Goku.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5084,7 +5084,7 @@
       "skill_description": "Variant Drive is a Super Strike skill associated with Super Baby 2.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5111,7 +5111,7 @@
       "skill_description": "Wild Stinger is a Super Strike skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
       "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
@@ -5134,7 +5134,7 @@
       "skill_description": "Zigzag Express is a Super Strike skill associated with Majin (Male).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -5160,7 +5160,7 @@
       "skill_description": "Apocalyptic Burst is a Ultimate Ki Blast skill used by Orange Piccolo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst",
@@ -5187,7 +5187,7 @@
       "source_quest_or_shop": "Parallel Quest 148 — Finding Out About Fusion",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
       "race_restriction": "All CaC races"
@@ -5208,7 +5208,7 @@
       "skill_description": "Burning Blast is a Super Ki Blast skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
@@ -5235,7 +5235,7 @@
       "skill_description": "Chain Destructo-Disc Barrage is a Ultimate Ki Blast skill associated with Krillin.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5261,7 +5261,7 @@
       "skill_description": "Chaotic Time Impact is a Ki Blast Ultimate Attack used by Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest and its reward data marks the skill as an Ultimate Finish reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
@@ -5289,7 +5289,7 @@
       "skill_description": "Circle Flash is a Ultimate Ki Blast skill used by Dyspo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Circle_Flash",
@@ -5315,7 +5315,7 @@
       "skill_description": "Core Breaker is a Ultimate Ki Blast skill used by Gamma 2.",
       "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can randomly obtain it from PQ158; the PQ Ultimate Finish conditions are documented. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
@@ -5342,7 +5342,7 @@
       "unlock_method": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile."
     },
     {
@@ -5361,7 +5361,7 @@
       "skill_description": "Destruction's Concerto: Meteor is a Ultimate Ki Blast skill associated with Vados.",
       "mechanics_notes": "Dedicated current-version evidence identifies this as Vados's Ki Blast Super; the Future Warrior can obtain it from PQ106, and Whis can use it through Partner Customization. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5387,7 +5387,7 @@
       "skill_description": "Dimension Ray is a Ultimate Ki Blast skill associated with Janemba.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -5413,7 +5413,7 @@
       "skill_description": "Divine Ray Bomb is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
@@ -5441,7 +5441,7 @@
       "unlock_method": "TP Medal Shop",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "enriched"
     },
     {
       "name": "Energy Field",
@@ -5459,7 +5459,7 @@
       "skill_description": "Energy Field is a Ultimate Ki Blast skill associated with Android 17.",
       "mechanics_notes": "Dedicated current-version evidence identifies Energy Field as a Ki Blast Evasive skill and lists Android 17, Android 16, Mira, and Android 17 (DB Super) as users. The repository's prior Ultimate classification was incorrect. CaC race/gender scope remains unproven here, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5486,7 +5486,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "500 Ki Ki Blast Ultimate; user detonates a large area explosion around themselves, consuming health during the technique."
     },
     {
@@ -5507,7 +5507,7 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Base activation uses 400 Ki; holding the input while the attack lands spends additional available Ki for a power boost.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; while the attack lands, holding input can consume all additional available Ki for a major power boost.",
       "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence.",
@@ -5530,7 +5530,7 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users.",
       "race_restriction": "All CaC races"
     },
@@ -5551,7 +5551,7 @@
       "source_quest_or_shop": "Parallel Quest 177 — Warped Sense of Justice",
       "ultimate_finish_required": null,
       "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "notes": "Dedicated current-version evidence confirms PQ177 acquisition, 500 Ki, Ki Blast Ultimate classification, and Jiren users. The reviewed page does not explicitly establish CaC race/gender/form scope. Keep race_restriction null rather than inferring from Jiren or partner customization.",
       "race_restriction": "All CaC races"
@@ -5572,7 +5572,7 @@
       "skill_description": "Gigantic Breaker is a Ultimate Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Dedicated current-version evidence identifies Gigantic Breaker as Kefla's Ki Blast Super; the Future Warrior can obtain it as a random PQ126 reward. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5600,7 +5600,7 @@
       "source_quest_or_shop": "Parallel Quest 127 — Multiverse Match of the Century",
       "ultimate_finish_required": null,
       "mechanics_notes": "Dedicated current-version skill evidence explicitly states that Gigantic Burst is a Ki Blast Ultimate used by Kefla (Super Saiyan) and is available for CaCs; PQ127 is the listed unlock.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races"
@@ -5621,7 +5621,7 @@
       "skill_description": "Gigantic Explosion is a Ultimate Ki Blast skill associated with Broly.",
       "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5646,7 +5646,7 @@
       "skill_description": "Gigantic Roar is a Ultimate Ki Blast skill associated with Broly (Full Power Super Saiyan).",
       "mechanics_notes": "Dedicated current-version evidence confirms Gigantic Roar as a 500-Ki Ki Blast Ultimate used by Broly (Full Power Super Saiyan), obtained from PQ132. The reviewed page does not explicitly establish CaC race/gender/form scope.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Roar",
@@ -5670,7 +5670,7 @@
       "skill_description": "God of Destruction's Menace is a Ultimate Ki Blast skill associated with Champa.",
       "mechanics_notes": "Current Ultimate Attack index evidence confirms God of Destruction's Menace as a 300-Ki Ki Blast Ultimate obtained from PQ105 and used by Champa. Existing CaC availability is retained only as a dataset value pending a stronger dedicated explicit-scope statement.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace",
@@ -5695,7 +5695,7 @@
       "skill_description": "God of Destruction's Roar is a Ultimate Ki Blast skill associated with Champa.",
       "mechanics_notes": "Dedicated current-version evidence classifies God of Destruction's Roar as a Strike Super used by Champa, obtained through PQ105. The page describes it as a shout/pseudo-Ki Blast that drains enemy Stamina; its mechanics do not support the existing Ki Blast Ultimate classification.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Roar",
@@ -5719,7 +5719,7 @@
       "skill_description": "Heat Dome Attack is a Ultimate Ki Blast skill associated with Future Trunks.",
       "mechanics_notes": "Dedicated current-version evidence confirms PQ40, 300 Ki, and Ki Blast Ultimate classification. The reviewed page lists Trunks/Tapion users but does not explicitly establish CaC race/gender/form scope.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Dome_Attack",
@@ -5743,7 +5743,7 @@
       "skill_description": "Holy Wrath is a Ultimate Ki Blast skill associated with Fused Zamasu.",
       "mechanics_notes": "Dedicated current-version evidence corrects the record to a 100-Ki Ki Blast Super from PQ111. The reviewed page identifies Fused Zamasu as the notable user and does not explicitly establish CaC race/gender/form scope.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Holy_Wrath",
@@ -5767,7 +5767,7 @@
       "skill_description": "Last Emperor is a Ultimate Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "Dedicated current-version evidence confirms Last Emperor as a 0-Ki, health-gated Ki Blast Ultimate from PQ71. It is usable only at low Health and can be used once under the documented condition; the reviewed page does not explicitly establish CaC race/gender/form scope.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Last_Emperor",
@@ -5791,7 +5791,7 @@
       "source_quest_or_shop": "Parallel Quest 142 — Timespace Tussle",
       "ultimate_finish_required": null,
       "mechanics_notes": "Channels Ki into a Ki Wave; rapid input increases charge and damage; opponent is paralyzed if they touch the user while charging.",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races"
     },
@@ -5811,7 +5811,7 @@
       "skill_description": "Lightning of Absolution is a Ultimate Ki Blast skill associated with Fused Zamasu.",
       "mechanics_notes": "Dedicated current-version evidence confirms Lightning of Absolution as a 100-Ki tracking Ki Blast Super from PQ111. The reviewed page identifies Fused Zamasu as the notable user and does not explicitly establish CaC race/gender/form scope.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution",
@@ -5835,7 +5835,7 @@
       "skill_description": "Majin Kamehameha is a Ultimate Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5863,7 +5863,7 @@
       "source_quest_or_shop": "Parallel Quest 20",
       "ultimate_finish_required": null,
       "mechanics_notes": "Dedicated current-version evidence confirms Mystic Flash as a 300-Ki Ki Blast Ultimate from PQ20, used by Nail and customizable Piccolo. The page does not explicitly establish CaC race/gender/form scope.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races"
@@ -5885,7 +5885,7 @@
       "source_quest_or_shop": "Parallel Quest 137",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted.",
       "race_restriction": "All CaC races"
@@ -5907,7 +5907,7 @@
       "source_quest_or_shop": "Parallel Quest 106 — A Destructive Showdown",
       "ultimate_finish_required": null,
       "mechanics_notes": "Dedicated current-version evidence confirms Requiem of Destruction as a 300-Ki Ki Blast Ultimate from PQ106, used by Vados and Whis Customize Partner. The page does not explicitly establish CaC race/gender/form scope.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races"
@@ -5928,7 +5928,7 @@
       "skill_description": "Revenge Death Ball is a Ultimate Ki Blast skill associated with Super Baby 2.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5953,7 +5953,7 @@
       "skill_description": "Revenge Final Flash is a Ultimate Ki Blast skill associated with Super Baby 2.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5978,7 +5978,7 @@
       "skill_description": "Ribrianne's Eternal Love is a Ultimate Ki Blast skill associated with Ribrianne.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6003,7 +6003,7 @@
       "skill_description": "S.S. Deadly Bomber is a Ultimate Ki Blast skill associated with Android 13.",
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6030,7 +6030,7 @@
       "skill_description": "Sign of Awakening is a Ultimate Ki Blast skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
@@ -6055,7 +6055,7 @@
       "skill_description": "Special Beam Cannon (Beast) is a Ultimate Ki Blast skill associated with Gohan (Beast).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6080,7 +6080,7 @@
       "skill_description": "Super Black Kamehameha Rosé is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6106,7 +6106,7 @@
       "skill_description": "Super Gamma Blast is a Ultimate Ki Blast skill used by Gamma 1.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
@@ -6132,7 +6132,7 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for a 500 Ki total.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
       "race_restriction": "All CaC races"
@@ -6155,7 +6155,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 16 - In the Realm of the Gods: Vegeta",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile."
     },
     {
@@ -6173,7 +6173,7 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "source_quest_or_shop": "Expert Mission 6",
       "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere."
     },
@@ -6193,7 +6193,7 @@
       "skill_description": "Teleporting Vanishing Ball is a Ultimate Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6220,7 +6220,7 @@
       "source_quest_or_shop": "PQ146 - \"Zen-Ohs' Earthly Excursion\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics": "Base 300 Ki with up to three additional Ki bars when held; community spreadsheet records 300–600 Ki total.",
       "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record.",
@@ -6242,7 +6242,7 @@
       "skill_description": "Total Detonation Ball is a Ultimate Ki Blast skill associated with Toppo.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6267,7 +6267,7 @@
       "skill_description": "Warp Kamehameha is a Ultimate Ki Blast skill associated with Goku.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6292,7 +6292,7 @@
       "skill_description": "X 100 Big Bang Kamehameha is a Ultimate Ki Blast skill associated with Vegeta (Super Saiyan Blue).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -6319,7 +6319,7 @@
       "skill_description": "Blades of Judgment is a Ultimate Strike skill associated with Fused Zamasu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6344,7 +6344,7 @@
       "skill_description": "Brave Sword Attack is a Ultimate Strike skill associated with Tapion.",
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6371,7 +6371,7 @@
       "ultimate_finish_required": null,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "source_quest_or_shop": "Training with Lord Slug, Lesson 3",
       "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack."
     },
@@ -6395,7 +6395,7 @@
       "ultimate_finish_required": null,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
       "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors.",
       "source_quest_or_shop": "Training with Lord Slug, Lesson 3"
@@ -6417,7 +6417,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "mechanics_notes": "300 Ki Ultimate. TP Medal Shop/STP Medal Shop availability is rotation-dependent; the official 2017 update explicitly scheduled Divine Lasso in the TP Medal Shop."
     },
     {
@@ -6436,7 +6436,7 @@
       "skill_description": "Divine Wrath: Purification is a Ki Blast Ultimate associated with Fused Zamasu and obtainable by the Future Warrior.",
       "mechanics_notes": "300 Ki; large stationary energy sphere that remains in place until it vanishes/explodes. Exact drop probability remains unresolved.",
       "verification_status": "verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6461,7 +6461,7 @@
       "unlock_method": "TP Medal Shop; 200 TP Medals in the documented shop listing.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price.",
       "source_quest_or_shop": "TP Medal Shop"
@@ -6482,7 +6482,7 @@
       "skill_description": "Explosive Buu Buu Punch is a Strike Super usable by Majin CaCs.",
       "mechanics_notes": "100 Ki; nine-hit close-range punch barrage with super armor.",
       "verification_status": "verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6509,7 +6509,7 @@
       "skill_description": "Final Rampage is a 500-Ki Strike Ultimate associated with Vegeta (Super Saiyan God) Ultra Supervillain; the repository currently retains All CaC races based on prior Future Warrior evidence.",
       "mechanics_notes": "500 Ki; multi-stage rush/ground-impact sequence. Exact CaC acquisition/drop semantics remain under reconciliation because current public skill-page evidence emphasizes the character user.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
@@ -6533,7 +6533,7 @@
       "skill_description": "Gigantic Rage is a 200-Ki Strike Super obtainable by the Future Warrior.",
       "mechanics_notes": "200 Ki; close-range grab sequence with five hits and hard knockdown. Super Armor is documented for Broly's own use; it should not be generalized to CaC use without direct evidence.",
       "verification_status": "verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6558,7 +6558,7 @@
       "unlock_method": "TP Medal Shop; current documented price is 500 TP Medals.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent."
@@ -6579,7 +6579,7 @@
       "skill_description": "Power Rush is a Ultimate Strike skill associated with Jiren.",
       "mechanics_notes": "1000 Ki Strike Ultimate; 14-hit rushdown. It can only be activated with 1000 Ki. PQ122 is the documented acquisition quest and Power Rush is an Ultimate Finish reward.",
       "verification_status": "verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6607,7 +6607,7 @@
       "skill_description": "Saiyan Spirit is a Ultimate Strike skill associated with Bardock.",
       "mechanics_notes": "300 Ki Strike Ultimate. PQ84 is the documented reward quest. The repository retains Saiyan-only CaC access based on Future Warrior evidence.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -6633,7 +6633,7 @@
       "skill_description": "Super Dragon Flight is an Ultimate Strike skill associated with Gohan (Adult); it is a 35% Ultimate Finish reward from Parallel Quest 31.",
       "mechanics_notes": "300 Ki Strike Ultimate. PQ31 is the documented Ultimate Finish reward; the current repository records the quest's transformation/kill-order Ultimate Finish requirement.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6659,7 +6659,7 @@
       "skill_description": "Supreme Fury is a Strike Super Attack associated with SS4 Goku (DAIMA).",
       "mechanics_notes": "100 Ki Strike Super. PQ179 reward context is retained; exact drop conditions and numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
@@ -6683,7 +6683,7 @@
       "skill_description": "Unrelenting Barrage is a Ultimate Strike skill associated with Gohan (Kid).",
       "mechanics_notes": "300 Ki Strike Ultimate. PQ10 is the documented acquisition quest; exact drop gating remains under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -6707,7 +6707,7 @@
       "skill_description": "Chapter 4 Strike Ultimate associated with Goku (Ultra Supervillain Quelled).",
       "mechanics_notes": "500 Ki Strike Ultimate from the Future Saga Chapter 4 PQ reward pool. Exact drop/follow-up behavior remains under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
@@ -6725,7 +6725,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 300,
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "enriched",
       "unlock_method": "Parallel Quest 89 - \"Super-Super Ultimate Series of Battles!\"",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
