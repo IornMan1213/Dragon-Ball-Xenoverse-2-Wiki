@@ -1,3 +1,7 @@
+## September 2026 — Transformation stage reconciliation batch 42
+- Reconciled **Super Saiyan 2** as the 400-Ki second stage of the Super Saiyan Awoken Skill rather than a separately equipped transformation.
+- Reconciled **The Power to Overcome** core DLC/unlock/universal-CaC facts and its two-stage behavior while preserving conflicts over exact numeric stage modifiers.
+
 ## September 2026 — Core Awoken audit batch 41
 - Promoted 11 core Awoken records from `partially_verified` to `verified` after reconciling CaC/race availability and unlock routes.
 - Added exact current resource thresholds where supported, including staged Kaioken and Super Saiyan/Super Vegeta costs.
