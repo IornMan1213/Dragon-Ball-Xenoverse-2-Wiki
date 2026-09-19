@@ -1284,3 +1284,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important correction: **Emperor's Cannon is PQ184**, not PQ183. Dust Attack's class remains explicitly flagged for direct reconciliation because the broad skill index places it under Other.
 - Data commit: `2ecc94006aeb914921bcd817289946daf6e8569b`; audit commit: `58c38ff79e78268f4b6f5b238c9cf34b8fd800cb`.
 - Next continuation should proceed from the records immediately following Emperor's Cannon in dataset order.
+
+
+### 2026-09-19 continuation — Eraser/Evil/Final/Gamma cohort
+- Reconciled Eraser Bomb, Evil Blast, Evil Flame, Final Cannon, Final Flash (Super), Flash Chaser, Galick Gun, and Gamma Blaster.
+- Final Flash (Super) remains character-exclusive/non-CaC; Galick Gun remains all-CaC-races. No unsupported race/gender/form restrictions inferred for the remaining records.
+- Data commit: `67e0da218135e66ac2c3c4b15d332c4578b9c3e6`; audit commit: `2efca126471664ae33a0cd31ba3c75f497f22eec`.
+- Next continuation should proceed from the records immediately following Gamma Blaster in dataset order.
