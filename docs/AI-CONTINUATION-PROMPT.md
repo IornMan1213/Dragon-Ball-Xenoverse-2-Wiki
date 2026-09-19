@@ -649,3 +649,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `e6c352c9423aa2a42a6fa271644b3d68f5306902`.
 - Coverage commit: `dbe618bb14ab12938df39f32edf3e526baa51780`.
 - Exact next task: continue the race-restriction census, prioritizing records whose source text explicitly names a race or gender, then revisit the remaining null-CaC cohort. Do not replace an explicit multi-race restriction with `All CaC races`.
+
+
+### 2026-09-19 cycle update — unresolved recent DLC evidence
+- Recalculated the live census: **18 null-CaC skills** and **184 CaC-eligible skills with null race restriction**.
+- Reviewed recent DLC candidates without over-promoting ambiguous records. Dark Inscription, Emperor's Cannon, and Chaotic Time Impact are documented on Golden Frieza (Ultra Supervillain); Burst Blitz, Dragon Spark, and Soaring Rush are documented on Goku (Mini). Current evidence does not establish CaC access for these records, so they remain null. citeturn3search13turn3search2turn3search17turn3search0turn3search1turn3search14
+- Skills commit: `b9a8e3ae8baa7c8acbe11c150266a01b1f0c747b`.
+- Coverage commit: `865fb30619def2d79296b5cb767dbe2576c069e6`.
+- Next: continue the 18-record null-CaC cohort, then resume the 184-record race-restriction census using explicit race/gender/form evidence only.
