@@ -2179,3 +2179,8 @@ Populated `damage_type` for **16 Evasive records** using item-level source evide
 - Other: Punisher Guard, Final Pose.
 
 `ki_cost` remains nullable for these records because Evasive activation is stamina-based; barrier/extended-input Ki usage is a separate mechanic and is not represented as an activation Ki cost. No unsupported Ki values were inserted.
+
+
+## 2026-09-19 — Evasive damage-type follow-up
+
+Resolved two remaining Evasive damage_type nulls from direct skill-source classifications: Explosive Wave → Ki Blast and Mach Dash → Other. Mach Dash is explicitly classified as a Power Up Evasive rather than a damaging Strike/Ki Blast Evasive. Remaining Evasive nullable fields are preserved for further evidence review; no Evasive ki_cost values were bulk-filled.
