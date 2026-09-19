@@ -1318,3 +1318,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important corrections: Stone Bullet = **Strike Super, 100 Ki, PQ56**; Victory Cannon = **Ki Blast Evasive, 300 Stamina, PQ54**.
 - Data commit: `b16a03d4cee11af7a1bcc8f6a2ce1e3e582a453a`; audit commit: `0ddc01bf8c4a92ebce70c0fd4c6e97fe8e2cdbe4`.
 - Continue from the records immediately following Wild Buster in dataset order.
+
+
+### 2026-09-19 continuation — Afterimage through Energy Release
+- Reconciled Afterimage, Afterimage Strike, Assault Vanish, Burst Charge, Charged Ki Wave, Dancing Parapara, Energy Charge, and Energy Release.
+- Important findings: Assault Vanish = 100 Ki + 100 Stamina; Charged Ki Wave charges Stamina; Energy Release is Towa-exclusive/non-CaC; Burst Charge has rapid-start/slowdown behavior.
+- Data commit: `1a04699939da26bfc07c1bd3d32cb9149fa41b79`; audit commit: `8287d4ec5fc4865913c2bc0428b0f14a05cdd501`.
+- Continue from the records immediately following Energy Release in dataset order.
