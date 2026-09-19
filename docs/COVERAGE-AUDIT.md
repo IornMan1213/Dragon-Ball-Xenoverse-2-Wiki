@@ -2242,3 +2242,12 @@ Resolved ultimate_finish_required=false for four Ultimate skills whose repositor
 Resolved `ultimate_finish_required: false` for three skills with explicit acquisition evidence independent of an Ultimate Finish: **Supernova** (Expert Mission 6), **Super Spirit Bomb** (Expert Mission 16), and **Divine Wrath: Purification** (PQ112 reward from defeating Fused Zamasu/Merged Zamasu). For Divine Wrath: Purification, community evidence explicitly reports the skill dropping without requiring the PQ Ultimate Finish. Remaining nullable Super/Ultimate records are preserved for further item-level research rather than inferred from generic PQ association.
 
 Live nullable Super/Ultimate count after this batch: **61 records**. This includes 44 Ultimate and 17 Super records with `ultimate_finish_required: null` after the preceding explicit non-UF batches. No validator or schema rule was changed.
+
+
+## 2026-09-19 — nullable Ultimate-Finish census correction and Final Kamehameha resolution
+
+The live post-batch census was recomputed instead of relying on the prior handoff count. There are now **177 nullable `ultimate_finish_required` fields among Super/Ultimate skills: 137 Super and 40 Ultimate**.
+
+Final Kamehameha was then resolved to `false` after current source evidence confirmed it is independently obtainable from the TP Medal Shop (as well as PQ91 and Double Crystal Raids). A TP Medal Shop acquisition route is sufficient to establish that an Ultimate Finish is not required for acquisition.
+
+The earlier audit note that stated 61 nullable Super/Ultimate records was incorrect and is superseded by this live census. No validator was changed or weakened.
