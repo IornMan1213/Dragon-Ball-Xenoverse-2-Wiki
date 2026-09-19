@@ -1399,3 +1399,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commits: `7f7dd0933662ea1b01db975eaae633c2b9843fda` and `36f615fd2b8f49212ba8a7d439529db0a63c8b89`.
 - No validator or validation rule was changed. Public update-history evidence confirms that Big Bang Kamehameha mechanics have changed over the game's lifetime, so older behavior should not overwrite current-version records.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Burning Attack.
+
+
+### 2026-09-19 continuation — Burst Kamehameha through Death Psycho Bomb
+- Reconciled **Burst Kamehameha, Burst Stinger, Buu Buu Ball, Candy Beam, Candy Beam (Super), Crazy Finger Shot, Dark Inscription, and Death Psycho Bomb**.
+- Buu Buu Ball retains **Majin (Pure Majin form)** scope; Candy Beam retains **Majin** scope; Candy Beam (Super), Crazy Finger Shot, and Death Psycho Bomb retain **All CaC races**.
+- Burst Kamehameha, Burst Stinger, and Dark Inscription remain CaC-usable without an explicitly established narrower race/gender/form restriction.
+- Dark Inscription current evidence confirms PQ182 and its Power of Time mechanics; no unsupported race restriction was inferred.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `ab0c0033476ac46517577f7cf189cb297ac64e2a`.
+- Audit commit: `e8839ab5cbd8c4856c970ff143dde1dd0bc875c2`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Death Psycho Bomb.
