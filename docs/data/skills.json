@@ -3324,8 +3324,9 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "PQ97",
-      "research_status": "reconciled_future_warrior_evidence",
-      "last_verified": "2026-09-19"
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive."
     },
     {
       "name": "Quick Sleep",
@@ -3345,7 +3346,8 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as a 0-Ki Other Super sold in the Skill Shop after defeating Mira (Final Form). It puts the user to sleep to recover stamina/health while vulnerable; restricted to Majin CaCs."
     },
     {
       "name": "Rise to Action",
@@ -3358,11 +3360,11 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Krillin's initiation test / mentor training",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
-      "mechanics_notes": "Support Super that restores Stamina after the user smacks their own cheeks.",
+      "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina.",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races"
     },
@@ -3377,10 +3379,10 @@
       "ki_cost": 100,
       "unlock_method": "Character-exclusive: Broly (Restrained)",
       "usable_by_cac": false,
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Character-exclusive Super used by Restrained Broly; no CaC route established.",
+      "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established.",
       "last_verified": "2026-09-19"
     },
     {
@@ -3395,11 +3397,12 @@
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "PQ153",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks."
     },
     {
       "name": "Solar Flare",
@@ -3411,11 +3414,11 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 01 reward",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 01",
-      "mechanics_notes": "Other Super that briefly blinds the opponent; the technique is not effective when performed behind the opponent.",
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ01, usable by all CaC races. It blinds/stuns opponents in front of the user; positioning matters because it is ineffective from behind.",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races"
     },
@@ -3434,9 +3437,9 @@
       "unlock_method": "Skill Shop",
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
-      "mechanics_notes": "Defensive Other Super that cancels incoming Ki attacks for a short window; uses no Ki.",
+      "mechanics_notes": "Confirmed as a 0-Ki Skill Shop defensive Other Super. It projects a wide defensive barrier that can cancel incoming Ki attacks for a short window and can protect nearby allies.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_indexed_skill_fields"
+      "research_status": "reconciled_current_version_evidence"
     },
     {
       "name": "Super Guard",
@@ -3450,14 +3453,15 @@
       "ki_cost": 100,
       "description": " Base cost corrected to 100 Ki; holding the skill drains additional Ki.",
       "unlock_method": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
-      "research_status": "reconciled_external_evidence",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
       "mechanics": "Ki-draining barrier that grants immunity to damage while held.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki."
     },
     {
       "name": "Surging Spirit",
