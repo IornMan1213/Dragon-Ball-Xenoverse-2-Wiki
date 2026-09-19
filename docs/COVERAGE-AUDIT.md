@@ -2003,3 +2003,15 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Index normalization commits: 0fbe0b2d97e9874040ffb408294c60bae53cfad1 and 7541bc5744da33d61de2c755429f673aab3bce71.
 - Current census: 283 total / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes.
 - No validator was weakened; metadata was brought back into the declared validation contract.
+
+
+## 2026-09-19 — skill acquisition-source coverage completion
+
+- Recomputed the live canonical skill dataset before editing: **283 records / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes**.
+- The remaining actionable metadata gap was **15 records without source_quest_or_shop**. This was distinct from source-URL provenance and from unlock-field completeness.
+- Added evidence-backed acquisition-source metadata to **Become Giant, Future Super Saiyan, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Vegeta, Turn Golden, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Death Ball**.
+- For **Death Ball**, current reference evidence identifies Frieza mentor Lesson 3 / Intergalactic Emperor of Evil 3 as the acquisition route; no PQ drop was invented.
+- Evidence limitations: the source field is normalized as a concise acquisition-source label, while detailed source URLs remain in each record's sources array. Character-only entries retain character/roster wording rather than inventing a nonexistent quest.
+- Validation: canonical skills JSON parsed successfully after the edit; live source-field gap is **0/283**.
+- CI: no validator was weakened. Existing opaque pre-step GitHub Actions failures remain infrastructure/account signals unless actionable logs appear.
+- Exact next task: recompute metadata coverage again, then inspect the remaining skill records for other actionable structured gaps; if the skill layer is clean, move to the next P1/PQ provenance or reward/acquisition field rather than reopening the completed null-race census.
