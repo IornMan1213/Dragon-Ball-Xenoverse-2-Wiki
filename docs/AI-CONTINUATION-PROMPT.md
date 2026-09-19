@@ -2412,3 +2412,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No additional record met the repository's affirmative evidence threshold in this pass. In particular, PQ reward/skill-drop listings and community reports were insufficient to distinguish an Ultimate Finish requirement from ordinary/random PQ reward gating where the source did not explicitly make that dependency.
 - No data change made in this audit; preserving `null` is intentional rather than inferred `false`.
 - Next task: continue targeted research of the remaining 164 nulls, prioritizing explicit statements that a skill requires or does not require the PQ Ultimate Finish.
+
+
+### 2026-09-19 continuation — PQ reward/UF distinction audit
+- Cross-checked additional early/mid-PQ candidates against current PQ guides, including Change The Future (PQ43), Side Bridge (PQ39), Death Psycho Bomb (PQ33), and other nullable PQ rewards.
+- The guides clearly document Ultimate Finish conditions and list skill rewards, but do not establish that the listed skill itself is gated exclusively behind the Ultimate Finish. Per repository rules, ordinary reward presence is not sufficient evidence for `ultimate_finish_required=false`.
+- No skill records changed in this pass. Current nullable Super/Ultimate count remains **164**.
+- Next task: prioritize sources that explicitly map a particular skill drop to the Ultimate Finish or explicitly state that it can drop without the Ultimate Finish.
