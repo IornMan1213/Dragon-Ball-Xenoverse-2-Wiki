@@ -1182,3 +1182,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Cleaned provenance URLs after the first reconciliation edit and re-fetched the JSON.
 - Commits: `33fdaaf6acdfb46819eb9fe49d188ff9fecca9b4` (reconciliation), `80a320fe9875ff821c2e154eaaddf0e31d9e420b` (URL normalization), `655d55fe8e807185e3075b1491054266900c6a8c` (coverage audit).
 - Next exact research target: **Final Flash (SS3 DAIMA), Final Kamehameha, Full Power Destruction**, followed by the next unresolved null-race records. Do not infer CaC race scope from a character's preset or from generic Future Warrior technique lists unless the source explicitly establishes that the skill is learnable by the Future Warrior.
+
+
+### 2026-09-19 continuation — final Ultimate Ki Blast scope review
+- Reviewed **Final Flash (SS3 DAIMA), Final Kamehameha, and Full Power Destruction** against their dedicated current-version Xenoverse 2 pages.
+- Confirmed their current classifications/acquisition/user data and documented the evidence boundary in `docs/data/skills.json`.
+- No `race_restriction` values were inferred or changed: the reviewed pages do not explicitly establish CaC race/gender/form scope. Character presets, partner customization, and generic technique indexing are not being treated as sufficient proof of CaC race scope.
+- Updated `docs/COVERAGE-AUDIT.md` with the three-record evidence review.
+- Commits: `798535bedb3a986a93b2fa09f6aa396b7d89ddb4` (canonical data), `ce19dc8a2589396cffdfdca81a7a6335e87ec221` (coverage audit).
+- Next exact target: continue from the next unresolved null-race record after Gigantic Breaker, using the same explicit-scope standard; recompute the live census before editing.
