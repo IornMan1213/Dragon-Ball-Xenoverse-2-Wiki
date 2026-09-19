@@ -2465,3 +2465,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 4c69445cd5e0bf3ca3c03835fe09d24d11faa5b0.
 - Live nullable Super/Ultimate census: 145 total (107 Super, 38 Ultimate).
 - Next task: continue explicit Basic Reward candidates; preserve null for records whose acquisition gate is not established.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 10
+- Resolved `ultimate_finish_required=false` for Heat Wave (PQ174), God Punisher (PQ132), Emperor's Cannon (PQ183), Photon Swipe (PQ139), Final Flash (SS3 DAIMA) (PQ181), and Super Kamehameha (SS4 DAIMA) (PQ181).
+- Evidence: each is explicitly listed in its corresponding PQ Basic Reward list, separate from UF conditions.
+- Skills commit: 9d84220a3fda43a27fb84228e57dee8e6a6d4418.
+- Live nullable Super/Ultimate census: 139 total (104 Super, 35 Ultimate).
+- Next task: continue with explicit Basic Reward candidates, especially remaining newer PQ records; preserve null when evidence does not establish the gate.
