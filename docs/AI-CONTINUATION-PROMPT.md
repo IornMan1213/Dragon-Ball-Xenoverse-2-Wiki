@@ -1510,3 +1510,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `7e7994b3346dcb3202ba01658b657677d03b9d50`.
 - Audit commit: `b37b04960a8b0491e9c6d93b53d078e7090762b5`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Ultimate Charge.
+
+
+### 2026-09-19 continuation — Wall of Defense through Fighting Pose K
+- Reconciled **Wall of Defense, Charge, Data Input, Divinity Unleashed, Do or Die, Fighting Pose E, Fighting Pose H, and Fighting Pose K**.
+- All eight remain CaC-usable with **All CaC races** recorded under the current evidence boundary; no narrower restriction was inferred from character/mentor association alone.
+- Fighting Pose H retains corrected Guldo attribution.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `7ce1f38d9f7efe9ae5bba923b6ab8ab554272d8d`.
+- Audit commit: `74a22030f3fc34ff7315cb1dae56c25ee23848b8`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Fighting Pose K.
