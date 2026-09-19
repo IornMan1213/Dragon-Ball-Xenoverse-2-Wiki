@@ -1846,3 +1846,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: 6eeff0cfa3a00c8c351c82c84587bcd8f99fde70.
 - Live census: 283 total / 269 CaC-usable / 108 CaC-usable with null race restriction.
 - Exact next task: continue with **Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Absolute Zero, Celestial Wave, Dragon Burn, Explosive Wave** after recomputing the live dataset.
+
+
+### 2026-09-19 continuation — Time Skip/Back Breaker through Explosive Wave
+- Reviewed 8 null-race CaC-usable records: Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Absolute Zero, Celestial Wave, Dragon Burn, Explosive Wave.
+- Added explicit All CaC races scope to all eight; no narrower CaC race/gender/form restriction was established.
+- Data commit: dffa4912ccea32c12c7796af039024140cd14dd9.
+- Audit commit: 1d2599d67fc1bd963cdd3fb43424e8179f991630.
+- Live census: 283 total / 269 CaC-usable / 100 CaC-usable with null race restriction.
+- Exact next task: continue with **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, Spread Shot Retreat** after recomputing the live dataset.
