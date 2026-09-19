@@ -2244,3 +2244,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No schema migration or consumer-facing field change was justified by this review.
 - Updated audit, status, and persistent handoff.
 - Exact next task: **run a final cross-domain reconciliation against the live relationship artifacts and handoff, record the stable baseline, and leave only evidence-driven expansion work in the queue.**
+
+
+### 2026-09-19 continuation — final cross-domain reconciliation and stable baseline
+- Completed the final reconciliation across the live forward relationship index, unified reverse index, reconciliation report, audit, and status artifacts.
+- Stable baseline confirmed: **840 edges**, with **236 skills, 137 Super Souls, 125 equipment, 247 characters, 88 DLC, 7 farming**; all forward/reverse/audit/status counts agree and every relationship type has **0 duplicate PQ/target pairs**.
+- Preserved known evidence limits: PQ 1 has no typed reward edge; normalized reward maps are partial; character relationships require explicit objective/ultimate-finish references; DLC/farming edges require explicit evidence.
+- No additional edge was fabricated or removed during final reconciliation.
+- Updated audit, status, and persistent handoff.
+- Baseline is now stable; future work should be **evidence-driven expansion only**, followed by the same integrity checks after each addition.
