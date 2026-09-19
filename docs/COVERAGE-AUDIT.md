@@ -942,3 +942,8 @@ Reviewed **God Punisher, Handy Canon, Headshot, and Heat Wave** against current 
 ## 2026-09-19 — status/paralysis provenance boundary
 
 Reviewed **Ill Rain, Paralysis, Paralyze Beam, and Pendulum Bullet** against current Xenoverse 2 evidence. The reviewed records establish current-version skill identity and acquisition/user context, but do not explicitly establish a CaC race/gender/form restriction. Null `race_restriction` is therefore preserved for all four. Added/normalized dedicated current-version provenance URLs for all four and refreshed their verification dates.
+
+
+## 2026-09-19 — Photon/Raid provenance boundary
+
+Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, and Ray Blast** against current Xenoverse 2 evidence. The reviewed evidence establishes current-version skill identity and user/acquisition context but does not explicitly establish a CaC race/gender/form restriction. Null `race_restriction` is preserved for all four. Added dedicated current-version provenance URLs for all four and refreshed their verification dates.
