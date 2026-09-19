@@ -999,3 +999,17 @@ Recomputed the live canonical skill census before editing: **283 total / 270 CaC
 - No `race_restriction` classifications changed; all eight remain null. Verification dates were refreshed to **2026-09-19**.
 - Web evidence included the dedicated Xenoverse 2 pages for Super God Fist, Variant Drive, Apocalyptic Burst, Blaster Stream, Burning Blast, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash. The sources document their current-version users and acquisition/skill data but do not supply the missing CaC race-scope statement. Internal web citation markers omitted from repository text.
 
+
+
+## 2026-09-19 — class/provenance reconciliation: Core Breaker through Gigantic Breaker
+
+A live evidence pass found several field-level classification errors in the next null-race cohort. Corrected the canonical records without inferring unsupported race restrictions:
+
+- **Core Breaker:** corrected from Ki Blast to **Strike**, with 500 Ki; current evidence identifies it as Gamma 2's Strike Ultimate and explicitly says the Future Warrior can randomly obtain it from PQ158.
+- **Destruction's Concerto: Meteor:** corrected from Ultimate to **Super**, with a 100–200 Ki range; current evidence identifies it as Vados's Ki Blast Super and says the Future Warrior can obtain it from PQ106.
+- **Energy Field:** corrected from Ultimate to **Evasive** and restored its 200 Stamina cost; current evidence identifies it as a Ki Blast Evasive skill.
+- **Gigantic Breaker:** corrected to **Super / Ki Blast**, 200 Ki; current evidence says the Future Warrior can obtain it as a random PQ126 reward.
+
+These are classification/provenance corrections, not race-scope inferences. The four records remain without a `race_restriction` value because the reviewed evidence does not explicitly establish a CaC race/gender restriction or unrestricted race scope. Final Flash (SS3 DAIMA), Final Kamehameha, and Full Power Destruction remain queued for a separate explicit-CaC evidence pass.
+
+Sources reviewed include the dedicated Xenoverse 2 skill pages and Future Warrior technique index; those sources support the Future Warrior acquisition/use statements and corrected skill classes above. 
