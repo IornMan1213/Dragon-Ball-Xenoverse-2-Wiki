@@ -1615,7 +1615,7 @@
       "skill_description": "Dark Inscription is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "cast_user_confirmed_cac_unresolved",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
@@ -1907,7 +1907,7 @@
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "cast_user_confirmed_cac_unresolved",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
@@ -2150,8 +2150,8 @@
       "skill_description": "God of Destruction's Plaything is a Super Ki Blast skill associated with God of Destruction Belmod.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -2242,8 +2242,8 @@
       "skill_description": "Heat Wave is a Super Ki Blast skill associated with SS4 Goku (DAIMA).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -3759,7 +3759,7 @@
       "skill_description": "Burst Blitz is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "goku_mini_user_cac_unresolved",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
@@ -3916,7 +3916,7 @@
       "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "goku_mini_user_cac_unresolved",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
@@ -4071,8 +4071,8 @@
       "skill_description": "Force Edge is a Super Strike skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -4140,8 +4140,8 @@
       "skill_description": "God of Destruction's Poise is a Super Strike skill associated with God of Destruction Belmod.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Poise",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -4614,7 +4614,7 @@
       "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "goku_mini_user_cac_unresolved",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
@@ -4776,8 +4776,8 @@
       "source_quest_or_shop": "Parallel Quest 148 — Finding Out About Fusion",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Burning Blast",
@@ -4795,8 +4795,8 @@
       "skill_description": "Burning Blast is a Super Ki Blast skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -4842,7 +4842,7 @@
       "skill_description": "Chaotic Time Impact is a Ki Blast Ultimate Attack used by Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest and its reward data marks the skill as an Ultimate Finish reward.",
       "verification_status": "partially_verified",
-      "research_status": "cast_user_confirmed_cac_unresolved",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
@@ -5067,8 +5067,8 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Base activation uses 400 Ki; holding the input while the attack lands spends additional available Ki for a power boost.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; while the attack lands, holding input can consume all additional available Ki for a major power boost."
     },
     {
@@ -5105,8 +5105,8 @@
       "source_quest_or_shop": "Parallel Quest 177 — Warped Sense of Justice",
       "ultimate_finish_required": null,
       "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Gigantic Breaker",
@@ -5642,8 +5642,8 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for a 500 Ki total.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range."
     },
     {
