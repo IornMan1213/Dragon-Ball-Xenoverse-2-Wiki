@@ -626,3 +626,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - This follows the repository's evidence rule: character-equipped skill lists are not sufficient proof of CaC availability, because Xenoverse 2 has race/gender/transform-specific restrictions. citeturn0search3
 - Coverage investigation commit: `79e5e23a659df0b4eb73fb73bb505f0f6d4ea953`.
 - Exact next task: continue the unresolved Future Saga/DAIMA cohort using explicit Future Warrior/CaC evidence, then audit remaining null `usable_by_cac`, `race_restriction`, and DLC/version fields as a complete census. Do not promote records to `verified` without resolving acquisition/reward semantics as well.
+
+
+### 2026-09-19 cycle update — additional Future Warrior skill evidence
+- Reconciled **Phantom Fist, Shield Barrier, Assault Vanish, Fighting Pose K, Death Ball, Supernova, Divine Lasso, Lightning Impact, and Prominence Flash** with explicit Future Warrior evidence. citeturn2search0turn2search4turn2search5turn2search1turn3search0turn3search1turn3search16
+- Skills commit: `550556f9385263b468fd2153ca38bdc0b98dda4e`.
+- Coverage commit: `7ec129d63d11c6353e3d82995d614ffe44e9b193`.
+- Live null-`usable_by_cac` census before this batch contained 35 records; this batch removes nine explicit-evidence gaps while preserving the `partially_verified` evidence standard.
+- Exact next task: continue the remaining 26 null-CaC records, prioritizing Future Saga/DAIMA and other recent DLC skills, then audit the 190 CaC records still lacking explicit `race_restriction` values. Do not infer race scope from generic CaC availability.
