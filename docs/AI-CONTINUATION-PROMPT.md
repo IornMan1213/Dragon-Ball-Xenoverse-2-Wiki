@@ -2585,3 +2585,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `a3ae1c29327a7336df40716a2486a213a79753ab`.
 - Coverage audit commit: `c481e7c62e37632aadd51398f1fb3faf5a29e318`.
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 22
+- Verified explicit Basic Reward placement for **Blaster Stream (PQ148), Chain Destructo-Disc Barrage (PQ46), Dimension Ray (PQ58), Divine Ray Bomb (PQ173), and Heat Dome Attack (PQ40)**. citeturn0search0turn0search1turn0search2
+- Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all five.
+- Live nullable Super/Ultimate census: **70 total — 53 Super / 17 Ultimate**.
+- Skills commit: `76ce68d41eb94d6952142c9cc8abd0f9f8a75846`.
+- Coverage audit commit: `3bca1b7a53f2f6b1539a175e0877e55b51e122ed`.
+- Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
