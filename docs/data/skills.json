@@ -4479,14 +4479,16 @@
       "source_quest_or_shop": "PQ156",
       "ultimate_finish_required": null,
       "skill_description": "Heroic Assault is a Super Strike skill used by Gamma 1.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Assault",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Justice Blade",
@@ -4502,14 +4504,16 @@
       "source_quest_or_shop": "PQ152",
       "ultimate_finish_required": null,
       "skill_description": "Justice Blade is a Super Strike skill used by Dyspo.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Blade",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Justice Drive",
@@ -4548,14 +4552,16 @@
       "source_quest_or_shop": "PQ152",
       "ultimate_finish_required": null,
       "skill_description": "Justice Kick is a Super Strike skill used by Dyspo.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Kick",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Lovely Cyclone",
@@ -4571,16 +4577,18 @@
       "source_quest_or_shop": "Parallel Quest 135",
       "ultimate_finish_required": true,
       "skill_description": "Lovely Cyclone is a Super Strike skill associated with Ribrianne.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dbxv2.fandom.com/wiki/Lovely_Cyclone"
+        "https://dbxv2.fandom.com/wiki/Lovely_Cyclone",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 135
+      "source_quest": 135,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Mach Punch",
@@ -4596,7 +4604,7 @@
       "source_quest_or_shop": "Parallel Quest 19",
       "ultimate_finish_required": false,
       "skill_description": "Mach Punch is a Super Strike skill associated with Burter.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
@@ -4604,7 +4612,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mach_Punch",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Meteor Blow",
@@ -4620,14 +4629,16 @@
       "source_quest_or_shop": "Parallel Quest 09",
       "ultimate_finish_required": null,
       "skill_description": "Meteor Blow is a Super Strike skill associated with Goku / Gohan.",
-      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Meteor_Blow"
-      ]
+        "https://dbxv2.fandom.com/wiki/Meteor_Blow",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Meteor Strike",
@@ -4643,14 +4654,16 @@
       "source_quest_or_shop": "Parallel Quest 06",
       "ultimate_finish_required": null,
       "skill_description": "Meteor Strike is a Super Strike skill associated with Goku / Gohan (Kid).",
-      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "partially_verified",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Meteor_Strike"
-      ]
+        "https://dbxv2.fandom.com/wiki/Meteor_Strike",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Namek Finger",
