@@ -1413,3 +1413,14 @@ Reconciled **Vanishing Ball, Variable Snipe Shot, Victory Cannon, Wild Buster, A
 - Variable Snipe Shot remains CaC-usable without an explicitly established narrower race/gender/form restriction.
 - No race restriction was inferred from character ownership or PQ source alone.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Charged Ki Wave through Instant Charge
+
+Reconciled **Charged Ki Wave, Dancing Parapara, Energy Charge, Energy Release, Final Charge, Full Power Charge, Hero's Flute, and Instant Charge**.
+
+- Charged Ki Wave, Energy Charge, and Full Power Charge retain explicit **All CaC races** scope.
+- **Energy Release, Final Charge, and Instant Charge** remain non-CaC based on explicit character-exclusive/boss skill evidence.
+- Dancing Parapara and Hero's Flute remain CaC-usable without an explicitly established narrower race/gender/form restriction; no restriction was inferred from mentor or character association alone.
+- Final Charge retains its character-exclusive Evolved Vegeta scope; Instant Charge retains its Mira/boss-only scope.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
