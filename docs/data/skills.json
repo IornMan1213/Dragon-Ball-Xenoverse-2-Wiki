@@ -6177,16 +6177,17 @@
       "name": "Super Spirit Bomb",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb"
+        "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb",
+        "https://dbxv2.fandom.com/wiki/Super_Spirit_Bomb"
       ],
       "ki_cost": 300,
       "unlock_method": "Expert Mission 16",
       "last_verified": "2026-09-19",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
@@ -6198,15 +6199,17 @@
       "name": "Supernova",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
-        "https://dragonball.fandom.com/wiki/Supernova"
+        "https://dragonball.fandom.com/wiki/Supernova",
+        "https://dbxv2.fandom.com/wiki/Supernova",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/597797-i-have-finished-expert-mission-6-but-i-didnt-get-supernova"
       ],
       "ki_cost": 500,
       "unlock_method": "Expert Mission 6 - \"The Depths of Despair\"",
       "last_verified": "2026-09-19",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
@@ -6470,7 +6473,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 112 reward; obtain the skill after defeating Fused Zamasu in PQ112.",
       "source_quest_or_shop": "Parallel Quest 112",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Divine Wrath: Purification is a Ki Blast Ultimate associated with Fused Zamasu and obtainable by the Future Warrior.",
       "mechanics_notes": "300 Ki; large stationary energy sphere that remains in place until it vanishes/explodes. Exact drop probability remains unresolved.",
       "verification_status": "verified",
@@ -6480,7 +6483,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification",
         "https://dragonball.fandom.com/wiki/Divine_Wrath%3A_Purification",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75508786"
       ],
       "race_restriction": "All CaC races"
     },
