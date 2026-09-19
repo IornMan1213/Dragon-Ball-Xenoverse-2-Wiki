@@ -31,7 +31,7 @@ At the start of every cycle:
 - Distinguish directly verified facts, incomplete source-supported facts, general/inferred progression, and unresolved information.
 - Preserve conflicting evidence instead of silently choosing a convenient answer.
 - Keep source/provenance information in repository data where the schema supports it.
-- Never put ChatGPT UI citations such as `cite...`, `filecite...`, `memcite...`, or `turn...search...` into repository files.
+- Never put ChatGPT UI citation markup, internal tool reference IDs, or search-result IDs into repository files.
 - Never weaken, disable, bypass, or rewrite validators merely to make CI pass.
 - If CI fails before workflow steps execute, treat that as an infrastructure/runner/account issue until evidence shows otherwise.
 - Preserve canonical numbering anomalies such as the known missing/cut PQ36.
@@ -521,7 +521,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - Continued the Awoken/Transformation audit after canonical skill deduplication.
 - Verified **Future Super Saiyan**, **Super Saiyan God Super Saiyan**, and **Super Saiyan God Super Saiyan (Evolved)** as Saiyan CaC Awoken Skills.
 - Recorded SSGSS unlock as level 90 + max Whis friendship; recorded Evolved as level 95 + max Vegeta friendship + prior SSGSS acquisition. Future Super Saiyan remains on the Vegeta/Capsule Corporation progression route.
-- Preserved the distinction between a mentor awarding a skill to any race and the actual race restriction: SSGSS and Evolved remain Saiyan-only despite Whis being able to award them to a non-Saiyan character meeting the mentor requirement. This distinction is supported by the Awoken reference and GameFAQs unlock documentation. cite references are external only; repository provenance is stored in skill-batch-40.json.
+- Preserved the distinction between a mentor awarding a skill to any race and the actual race restriction: SSGSS and Evolved remain Saiyan-only despite Whis being able to award them to a non-Saiyan character meeting the mentor requirement. This distinction is supported by the Awoken reference and GameFAQs unlock documentation. External web citations were reviewed outside the repository; repository provenance is stored in skill-batch-40.json.
 - Added `docs/data/skill-research-batches/skill-batch-40.json`; updated `docs/data/skills.json`, `TODO.md`, `docs/data/coverage-gaps.json`, and `CHANGELOG.md`.
 - Next task: continue the Awoken audit across remaining partially verified race-exclusive and universal forms, resolving unlock routes and exact mechanics before adding new forms.
 
@@ -532,7 +532,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - Recorded the documented race boundaries: universal CaC forms versus Saiyan, Earthling, Namekian, Majin, and Frieza Race exclusive forms. Do not infer race eligibility from mentor-award behavior.
 - Recorded supported resource thresholds: Kaioken 100/300/500 Ki, Super Saiyan 300/400/500 Ki, Super Vegeta 300/400 Ki, Super Saiyan God 300 Ki, race-exclusive 300 Ki forms where supported, Power Pole Pro 0 Ki, and 500 Ki activation for Potential Unleashed/Beast/Ultra Instinct.
 - Added `docs/data/skill-research-batches/skill-batch-41.json` and updated canonical skills, TODO, coverage gaps, and changelog.
-- External evidence reviewed includes the current Awoken reference, individual transformation records, GameFAQs unlock tables, and the current research corpus. cite references are external only; repository provenance is stored in batch 41.
+- External evidence reviewed includes the current Awoken reference, individual transformation records, GameFAQs unlock tables, and the current research corpus. External web citations were reviewed outside the repository; repository provenance is stored in batch 41.
 - Next exact task: audit the remaining transformation records for version-sensitive mechanics and cast-only/DLC boundaries, then reconcile any still-partial records without inventing unsupported values.
 
 
@@ -1811,3 +1811,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: d0545872c4aadd51f3d09ba327dd57548d6e3d13.
 - Evidence limitations: the Future Warrior list directly establishes seven records as usable by the Future Warrior; Justice Drive remains unresolved for CaC scope rather than being inferred from Videl's character association.
 - Exact next task: continue the null-race census with the next eight CaC-usable records after the completed cohort: Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, Apocalyptic Burst. Recompute the live census first and preserve null restrictions when explicit evidence is insufficient.
+
+
+### 2026-09-19 continuation — repository citation-artifact hygiene
+- Reviewed the live handoff and coverage audit for accidental ChatGPT/UI citation artifacts.
+- Removed literal UI citation markup from docs/COVERAGE-AUDIT.md and docs/AI-CONTINUATION-PROMPT.md while preserving the underlying provenance notes and source URLs.
+- Validators were not changed or weakened.
+- Exact next task remains: continue the null-race skill census with Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, and Apocalyptic Burst.
