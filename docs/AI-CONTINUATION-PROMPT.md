@@ -783,3 +783,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Confirmed that recent explicit restrictions already reconciled include Shining Slash (Earthling or Saiyan) and Saiyan Spirit (Saiyan); no new restriction was inferred from character ownership alone in this refresh.
 - Accessible web evidence remains uneven: some wiki endpoints are robots-blocked, so only accessible sources are treated as independent evidence. Preserve null when the evidence does not explicitly establish a race/gender/form restriction.
 - Exact next task: research an evidence-backed batch from the remaining 186 null-race records, prioritizing explicit Future Warrior race/gender/form wording, then re-run the live census and update coverage.
+
+
+### 2026-09-19 cycle update — race-restriction evidence boundary recheck
+- Rechecked the live 283-record skill census and the remaining CaC/race restriction backlog against the accessible Future Warrior technique reference.
+- The reference explicitly documents race/gender/form restrictions for the already-reconciled cohort, including Saiyan Spirit (Saiyan), Explosive Buu Buu Punch (Majin), Zigzag Express (male Majin), Quick Sleep (Majin), Ill Bomber (Majin), Shining Slash/Burning Slash (Human or Saiyan), Candy Beam/Buu Buu Ball (Majin), Evil Flight Strike (Namekian or Majin), and Namek Finger (Namekian).
+- Live canonical data already contains these restrictions, so this cycle made **no speculative race edits**. The remaining null-race records cannot be safely converted to `All CaC races` merely because the source does not state a restriction; the repository rule requires explicit evidence.
+- Updated `docs/COVERAGE-AUDIT.md` to record this evidence boundary and prevent duplicate/redundant race edits.
+- Coverage commit: `ccd2348846a0d72c909b52fa8de01615221f026d`.
+- Current live skill census remains **283 total / 270 CaC-usable / 186 CaC-usable with null `race_restriction`**.
+- Exact next task: continue the race-restriction census using source passages that explicitly identify additional Future Warrior race/gender/form limits; if a candidate is only associated with a character or category, leave it unresolved.
