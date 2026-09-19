@@ -2138,7 +2138,7 @@
       "name": "God of Destruction's Plaything",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "God of Destruction Belmod",
       "dlc_requirement": "Future Saga Chapter 2",
       "ki_cost": 100,
@@ -2150,7 +2150,7 @@
       "skill_description": "God of Destruction's Plaything is a Super Ki Blast skill associated with God of Destruction Belmod.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_build_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
