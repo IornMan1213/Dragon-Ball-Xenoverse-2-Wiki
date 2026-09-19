@@ -918,16 +918,15 @@
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "ultimate_finish_required": null,
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
-      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ151, associated with Goku (Ultra Instinct -Sign-) and available to CaCs. The dedicated list explicitly describes the PQ151 acquisition; no narrower CaC race restriction was inferred.",
+      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ151, associated with Goku (Ultra Instinct -Sign-) and available to CaCs. The reviewed evidence does not explicitly establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "source_quest": 151,
-      "race_restriction": "All CaC races",
       "mechanics": "Ki Blast Evasive; launches a 7-hit wave and costs 300 Stamina."
     },
     {
