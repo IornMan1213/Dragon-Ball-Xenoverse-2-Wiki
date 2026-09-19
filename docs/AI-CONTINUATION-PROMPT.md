@@ -1628,3 +1628,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Updated docs/data/skills.json. Live census: 283 total / 269 CaC-usable / 152 CaC-usable with null race restriction.
 - Data commit: a0739f544609510d6d695a3f2f5531c557737bdb. Coverage commit: 1dc789bddbb3480951bcdade736e4a2a195bbdbe.
 - Exact next task: recompute the live dataset order and continue with S.S. Deadly Bomber, Sign of Awakening, Special Beam Cannon (Beast), Super Black Kamehameha Rosé, Super Gamma Blast, Super Kamehameha (SS4 DAIMA), Super Spirit Bomb, and Supernova. Preserve null restrictions where explicit evidence remains insufficient.
+
+
+### 2026-09-19 continuation — S.S. Deadly Bomber through Supernova
+- Reconciled S.S. Deadly Bomber, Sign of Awakening, Special Beam Cannon (Beast), Super Black Kamehameha Rosé, Super Gamma Blast, Super Kamehameha (SS4 DAIMA), Super Spirit Bomb, and Supernova.
+- All eight CaC-usable records now carry explicit All CaC races scope from Future Warrior/CaC evidence.
+- Preserved mechanics and uncertainty boundaries: S.S. Deadly Bomber 400 Ki tracking projectile; Sign of Awakening 300 Ki rush/beam; Special Beam Cannon (Beast) PQ162; Super Black Kamehameha Rosé 500 Ki; Super Gamma Blast 300 Ki chargeable; Super Kamehameha (SS4 DAIMA) 400–500 Ki; Super Spirit Bomb and Supernova remain Expert Mission rewards.
+- Updated docs/data/skills.json. Live census: 283 total / 269 CaC-usable / 146 CaC-usable with null race restriction.
+- Data commit: 53d55a0914ef64233bc88c16a7a3508c4cab055a. Coverage commit: f00540e4e988aa16765266c90c6229ca57d36db2.
+- Exact next task: recompute the live dataset order and continue with the next eight records after Supernova. Preserve null restrictions where explicit evidence remains insufficient.
