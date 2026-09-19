@@ -4240,15 +4240,16 @@
       "source_quest_or_shop": "PQ185 (also reported in PQ186 reward pool)",
       "ultimate_finish_required": null,
       "skill_description": "Strike Super associated with Goku (Ultra Supervillain Quelled).",
-      "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dragon_Spiral"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Dragon Thunder",
@@ -4281,15 +4282,16 @@
       "source_quest_or_shop": "Parallel Quest 99",
       "ultimate_finish_required": null,
       "skill_description": "Emperor's Edge is a Super Strike skill associated with Frieza.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Emperor's_Edge",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Evil Flight Strike",
@@ -4330,15 +4332,16 @@
       "source_quest_or_shop": "Parallel Quest 36",
       "ultimate_finish_required": null,
       "skill_description": "Evil Whirlwind is a Super Strike skill associated with Cell.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Whirlwind",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Fierce Fist",
@@ -4354,14 +4357,15 @@
       "source_quest_or_shop": "PQ159",
       "ultimate_finish_required": null,
       "skill_description": "Fierce Fist is a Super Strike skill used by Orange Piccolo.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fierce_Fist",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Force Edge",
@@ -4377,14 +4381,15 @@
       "source_quest_or_shop": "PQ180",
       "ultimate_finish_required": null,
       "skill_description": "Force Edge is a Super Strike skill associated with SS3 Vegeta (DAIMA).",
-      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Freedom Kick",
@@ -4400,15 +4405,16 @@
       "source_quest_or_shop": "Parallel Quest 29",
       "ultimate_finish_required": false,
       "skill_description": "Freedom Kick is a Super Strike skill associated with Android 17.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Freedom_Kick",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Gamma Impact",
@@ -4424,14 +4430,15 @@
       "source_quest_or_shop": "PQ155",
       "ultimate_finish_required": null,
       "skill_description": "Gamma Impact is a Super Strike skill used by Gamma 2.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "God of Destruction's Poise",
@@ -4447,15 +4454,16 @@
       "source_quest_or_shop": "PQ175 reward context",
       "ultimate_finish_required": null,
       "skill_description": "God of Destruction's Poise is a Super Strike skill associated with God of Destruction Belmod.",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Poise",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "ki_cost_note": "Variable: 100 base, up to 300 when extended."
+      "ki_cost_note": "Variable: 100 base, up to 300 when extended.",
+      "race_restriction": null
     },
     {
       "name": "Heroic Assault",
