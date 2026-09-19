@@ -638,7 +638,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ155)",
       "source_quest": 155,
@@ -647,7 +647,8 @@
       "source_quest_or_shop": "Parallel Quest 155",
       "race_restriction": null,
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction."
     },
     {
       "name": "Punisher Shield",
@@ -659,7 +660,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ129)",
       "source_quest": 129,
@@ -668,7 +669,8 @@
       "source_quest_or_shop": "Parallel Quest 129",
       "race_restriction": null,
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Current dedicated evidence confirms Punisher Shield as a 100-Ki Ki Blast Super, universal counter, from PQ129. SSGSS Gogeta is the notable user; the page does not establish a CaC race/gender/form restriction."
     },
     {
       "name": "Reverse Mabakusenko",
@@ -680,11 +682,11 @@
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 300,
       "unlock_method": "Skill Shop",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Ki Blast Ultimate counter; enters a universal counter stance and retaliates with a multi-hit Ki Wave.",
+      "mechanics_notes": "Current dedicated evidence confirms Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate from the Skill Shop and a universal counter. Current users include Piccolo, Pikkon, Gohan (Beast), and customizable partners; this does not establish a CaC race/gender/form restriction.",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
@@ -701,7 +703,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ119 Ultimate Finish)",
       "source_quest": 119,
@@ -710,7 +712,8 @@
       "source_quest_or_shop": "Parallel Quest 119 - Ultimate Finish",
       "race_restriction": null,
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Current dedicated evidence confirms Rough Ranger as a 100-Ki Strike Super, universal counter, from PQ119. Android 17 (DB Super) is the notable user; the page does not establish a CaC race/gender/form restriction."
     },
     {
       "name": "Shadow Crusher",
