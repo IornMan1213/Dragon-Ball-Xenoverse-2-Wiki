@@ -2266,3 +2266,8 @@ Resolved `ultimate_finish_required` to `true` for **Burst Kamehameha**. Dedicate
 ## 2026-09-19 — Explicit non-Ultimate-Finish batch 1
 
 Resolved `ultimate_finish_required` to `false` for **Change The Future**. The PQ43 page places the skill in the ordinary Rewards section and describes the Ultimate Finish as a separate Cell encounter, with no linkage of the skill to that UF route.
+
+
+## 2026-09-19 — Explicit PQ acquisition-gate batch 4
+
+Resolved four skill acquisition gates: **Counter Burst = false**, **Counter Impact = true**, **Demon Flash Strike = true**, **God Breaker = false**. Evidence distinguishes ordinary character/reward drops from Ultimate Finish bonus slots and explicit UF-only acquisition reports.
