@@ -2389,3 +2389,13 @@ Resolved `ultimate_finish_required: false` for **Blades of Judgment (PQ112), Bra
 - Live nullable Super/Ultimate census after this batch: **75 total — 51 Super / 24 Ultimate**.
 - Skills commit: `a3ae1c29327a7336df40716a2486a213a79753ab`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 22
+
+Resolved `ultimate_finish_required: false` for **Blaster Stream (PQ148), Chain Destructo-Disc Barrage (PQ46), Dimension Ray (PQ58), Divine Ray Bomb (PQ173), and Heat Dome Attack (PQ40)**. The maintained PQ guide and corroborating PQ documentation explicitly list these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1turn0search2
+
+- Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
+- Live nullable Super/Ultimate census after this batch: **70 total — 53 Super / 17 Ultimate**.
+- Skills commit: `76ce68d41eb94d6952142c9cc8abd0f9f8a75846`.
+- No schema or validator changes.
