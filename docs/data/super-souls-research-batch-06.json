@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "batch_id": "06",
+  "scope": "Additional raid-exclusive Super Soul candidates 044–047",
+  "verification_policy": "Index acquisition candidates only when raid catalog/community evidence identifies them; do not promote uncertain mechanics as verified.",
+  "sources": [
+    {
+      "type": "secondary",
+      "url": "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+      "scope": "raid reward catalog"
+    },
+    {
+      "type": "secondary",
+      "url": "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "scope": "Super Soul catalog"
+    },
+    {
+      "type": "secondary",
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396",
+      "scope": "raid-exclusive Super Soul index"
+    }
+  ],
+  "records": [
+    {
+      "id": "super-soul-044",
+      "name": "Let's see you handle THIS kind of power!",
+      "acquisition": "Zamasu's Scheme raid",
+      "status": "partially_verified"
+    },
+    {
+      "id": "super-soul-045",
+      "name": "Your time in this fight ends now!",
+      "acquisition": "From Dust to Dust / Saibaman raid family",
+      "status": "partially_verified"
+    },
+    {
+      "id": "super-soul-046",
+      "name": "Kind of human-like, don't you think?",
+      "acquisition": "Super 17 raid",
+      "status": "partially_verified"
+    },
+    {
+      "id": "super-soul-047",
+      "name": "Kicking a Shadow Dragon in the head is not a wise thing to do!",
+      "acquisition": "Heartless Galactic Warrior / Shadow Dragon raid family",
+      "status": "partially_verified"
+    }
+  ],
+  "unresolved": [
+    "Exact trigger/effect values for 044, 046 and 047.",
+    "Historical recurrence schedules.",
+    "Drop/probability semantics.",
+    "Cross-source naming and raid-family reconciliation where historical event names differ."
+  ]
+}
