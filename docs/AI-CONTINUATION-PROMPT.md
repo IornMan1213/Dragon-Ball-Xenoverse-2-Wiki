@@ -1097,3 +1097,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Fresh dbxv2 Fandom search was blocked by robots.txt; no unsupported inference was made.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Spirit Blaster; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Spirit/Buu provenance boundary
+- Reviewed Spirit Pulse, Stone Bullet, Super Donut Volley, and Super Ghost Buu Attack.
+- Preserved null race restrictions because current evidence does not explicitly establish CaC race/gender/form scope.
+- Added dedicated current-version provenance URLs for Stone Bullet and Super Ghost Buu Attack.
+- Refreshed all four verification dates to 2026-09-19.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Super Ghost Buu Attack; inspect canonical ordering before selecting the next batch.
