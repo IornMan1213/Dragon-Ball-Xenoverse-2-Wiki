@@ -568,3 +568,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Character-only records were explicitly retained as non-CaC rather than inferred from category membership. Exact reward-slot probabilities and disputed/version-sensitive details remain unresolved where evidence is insufficient.
 - `docs/data/skills.json` updated in commit `8f82dd22a7e0d43f4186da95295807b1fd8feedd`.
 - The connector could not create a new `skill-batch-48.json` because its create-file wrapper returned a GitHub 422 requiring a SHA even though the target path was new. No existing historical batch was overwritten to work around this tooling limitation.
+
+
+## 2026-09-19 Skill acquisition/CaC reconciliation follow-up
+
+- Continued P1 canonical skill research after clearing the `indexed` status backlog.
+- Reconciled another high-impact partial cohort covering counter skills and remaining Evasives: CaC eligibility, concrete PQ/mentor/shop acquisition locations, base-game versus DLC-era provenance where supported, and zero-Ki Evasive costs where the maintained corpus supports them.
+- Records touched include Burst Reflection, Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker, Heroic Counter, Punisher Shield, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Celestial Wave, Force Shield, Instant Rise, Ki Explosion, and Maiden Burst.
+- Exact DLC-pack provenance for several late PQ records remains intentionally unresolved rather than inferred solely from quest numbering.
+- `docs/data/skills.json` commit: `4ec88f3820e2a38d49f3cfa10e6256b244e679c7`.
