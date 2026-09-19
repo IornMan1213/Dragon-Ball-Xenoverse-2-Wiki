@@ -2231,3 +2231,8 @@ Resolved `ultimate_finish_required` to `false` for 9 Super skills with explicit 
 ## 2026-09-19 — Explicit non-UF acquisition batch 3
 
 Resolved `ultimate_finish_required` to `false` for **Dragon Fist**, **Godly Display**, and **Darkness Rush (Ranged)**. Each has an explicit acquisition route independent of a Parallel Quest Ultimate Finish: Dragon Fist and Godly Display are TP Medal Shop skills, while Darkness Rush (Ranged) is awarded through Lord Slug mentor Lesson 3. No generic PQ association was used as negative evidence.
+
+
+## 2026-09-19 — Explicit non-UF acquisition batch 4
+
+Resolved `ultimate_finish_required` to `false` for **Super Spirit Bomb**, **Supernova**, and **Final Kamehameha** based on documented independent acquisition channels (Expert Mission or TP Medal Shop/other non-UF routes). Generic Parallel Quest association was not used as negative evidence.
