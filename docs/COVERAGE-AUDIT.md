@@ -2035,3 +2035,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `c3dcfefe7380410cd6cdcfa058983c0f0bf24732`.
 - Validator contract inspection confirms the canonical validator checks record/index length, deterministic ordering, required enums, CaC evidence, source URL hygiene, and Awoken counts; the live index remains synchronized at **283 records**.
 - Next task: classify the remaining nullable Ki/Stamina/Damage fields by skill class and applicability, then prioritize the next genuinely missing evidence-backed value or move into the P1 Parallel Quest reward/acquisition/version provenance audit.
+
+
+## 2026-09-19 — Parallel Quest reward provenance tranche: PQ 18-20
+
+- Began the P1 PQ reward/acquisition audit after the skill-layer nullable-field classification.
+- Reconciled the canonical PQ 18-20 `skill_rewards` fields against independent current-reference evidence: **PQ 18 → Time Control, Mach Dash; PQ 19 → Mach Punch, Fighting Pose E; PQ 20 → Mystic Flash**. citeturn1search1turn1search0turn1search5
+- These are skill relationships only; Zeni, capsules and other generic reward types were intentionally not inferred into the skill field.
+- The older `pq-001-040-reward-map.json` still contains an incomplete/stale representation for these rows; it is explicitly marked partial/finalized as a normalization layer, so it was not allowed to overwrite the canonical batch. The canonical batch now carries the independently verified skill relationships.
+- Data commit: **909c71bd5082761f9848b937bcb8aa4d65f35f5d**.
+- Next task: continue the same source-backed skill-reward reconciliation through PQ 21-40, resolving only rows where the evidence is direct and preserving unresolved fields otherwise.
