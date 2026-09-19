@@ -3427,6 +3427,1982 @@
       "target": "Future Saga Chapter 4",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-016",
+      "relationship": "pq_features_character",
+      "target": "Burter",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-016",
+      "relationship": "pq_features_character",
+      "target": "Jeice",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-017",
+      "relationship": "pq_features_character",
+      "target": "Turles",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-017",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-018",
+      "relationship": "pq_features_character",
+      "target": "Burter",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-018",
+      "relationship": "pq_features_character",
+      "target": "Jeice",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-018",
+      "relationship": "pq_features_character",
+      "target": "Recoome",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-018",
+      "relationship": "pq_features_character",
+      "target": "Guldo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-021",
+      "relationship": "pq_features_character",
+      "target": "Krillin",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-021",
+      "relationship": "pq_features_character",
+      "target": "Piccolo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-021",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-023",
+      "relationship": "pq_features_character",
+      "target": "Patroller",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-024",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-025",
+      "relationship": "pq_features_character",
+      "target": "Metal Cooler",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-026",
+      "relationship": "pq_features_character",
+      "target": "Lord Slug",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-026",
+      "relationship": "pq_features_character",
+      "target": "Turles",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-027",
+      "relationship": "pq_features_character",
+      "target": "Metal Cooler",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-028",
+      "relationship": "pq_features_character",
+      "target": "Krillin",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-029",
+      "relationship": "pq_features_character",
+      "target": "Piccolo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-030",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-030",
+      "relationship": "pq_features_character",
+      "target": "Hercule",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-031",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-032",
+      "relationship": "pq_features_character",
+      "target": "Cell Jr.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-035",
+      "relationship": "pq_features_character",
+      "target": "Patroller",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-036",
+      "relationship": "pq_features_character",
+      "target": "Piccolo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-037",
+      "relationship": "pq_features_character",
+      "target": "Cell Jr.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-039",
+      "relationship": "pq_features_character",
+      "target": "Piccolo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-039",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-039",
+      "relationship": "pq_features_character",
+      "target": "Android 16",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-041",
+      "relationship": "pq_features_character",
+      "target": "Android 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-041",
+      "relationship": "pq_features_character",
+      "target": "Android 18",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-042",
+      "relationship": "pq_features_character",
+      "target": "Android 16",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-042",
+      "relationship": "pq_features_character",
+      "target": "Android 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-042",
+      "relationship": "pq_features_character",
+      "target": "Android 18",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-042",
+      "relationship": "pq_features_character",
+      "target": "Cell Jr.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-045",
+      "relationship": "pq_features_character",
+      "target": "Cell Jr.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-046",
+      "relationship": "pq_features_character",
+      "target": "Android 16",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-047",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-047",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-047",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-048",
+      "relationship": "pq_features_character",
+      "target": "Android 18",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-048",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-049",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-049",
+      "relationship": "pq_features_character",
+      "target": "Piccolo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-050",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-050",
+      "relationship": "pq_features_character",
+      "target": "Super Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-051",
+      "relationship": "pq_features_character",
+      "target": "Great Saiyaman",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-052",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-052",
+      "relationship": "pq_features_character",
+      "target": "Gotenks",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-053",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-054",
+      "relationship": "pq_features_character",
+      "target": "Hercule",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-054",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-055",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-055",
+      "relationship": "pq_features_character",
+      "target": "Gotenks",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-055",
+      "relationship": "pq_features_character",
+      "target": "Super Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-056",
+      "relationship": "pq_features_character",
+      "target": "Hercule",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-057",
+      "relationship": "pq_features_character",
+      "target": "Janemba",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-057",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-057",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-058",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-058",
+      "relationship": "pq_features_character",
+      "target": "Hercule",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-059",
+      "relationship": "pq_features_character",
+      "target": "Vegito",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-059",
+      "relationship": "pq_features_character",
+      "target": "Super Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-060",
+      "relationship": "pq_features_character",
+      "target": "Kid Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-060",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-061",
+      "relationship": "pq_features_character",
+      "target": "Piccolo",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-061",
+      "relationship": "pq_features_character",
+      "target": "Videl",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-062",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-062",
+      "relationship": "pq_features_character",
+      "target": "Gotenks",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-062",
+      "relationship": "pq_features_character",
+      "target": "Vegito",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-063",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-064",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-065",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-066",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-068",
+      "relationship": "pq_features_character",
+      "target": "Kid Buu",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-069",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-070",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-070",
+      "relationship": "pq_features_character",
+      "target": "Metal Cooler",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-071",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-072",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-073",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-074",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-075",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-076",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-076",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-076",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-077",
+      "relationship": "pq_features_character",
+      "target": "Hercule",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-077",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-078",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-079",
+      "relationship": "pq_features_character",
+      "target": "Patroller",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-080",
+      "relationship": "pq_features_character",
+      "target": "Janemba",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-082",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-082",
+      "relationship": "pq_features_character",
+      "target": "Metal Cooler",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-083",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-084",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-084",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-084",
+      "relationship": "pq_features_character",
+      "target": "Gotenks",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-084",
+      "relationship": "pq_features_character",
+      "target": "Vegito",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-085",
+      "relationship": "pq_features_character",
+      "target": "Piccolo",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-085",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-085",
+      "relationship": "pq_features_character",
+      "target": "Bardock",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-085",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-086",
+      "relationship": "pq_features_character",
+      "target": "Yamcha",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-087",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-087",
+      "relationship": "pq_features_character",
+      "target": "Gotenks",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-087",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-089",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-089",
+      "relationship": "pq_features_character",
+      "target": "Gotenks",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-089",
+      "relationship": "pq_features_character",
+      "target": "Vegito",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-090",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-091",
+      "relationship": "pq_features_character",
+      "target": "Nappa",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-091",
+      "relationship": "pq_features_character",
+      "target": "Raditz",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-091",
+      "relationship": "pq_features_character",
+      "target": "Vegito",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-093",
+      "relationship": "pq_features_character",
+      "target": "Goku (GT)",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-093",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-094",
+      "relationship": "pq_features_character",
+      "target": "Omega Shenron",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-095",
+      "relationship": "pq_features_character",
+      "target": "Super 17",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-096",
+      "relationship": "pq_features_character",
+      "target": "Omega Shenron",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-098",
+      "relationship": "pq_features_character",
+      "target": "Janemba",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-098",
+      "relationship": "pq_features_character",
+      "target": "Turles",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-100",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-100",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-100",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Vegeta",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-101",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-101",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-101",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-102",
+      "relationship": "pq_features_character",
+      "target": "Omega Shenron",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-102",
+      "relationship": "pq_features_character",
+      "target": "Super 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-104",
+      "relationship": "pq_features_character",
+      "target": "Vados",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_features_character",
+      "target": "Vados",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-107",
+      "relationship": "pq_features_character",
+      "target": "Future Trunks",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-107",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-107",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-107",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-108",
+      "relationship": "pq_features_character",
+      "target": "Future Trunks",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-108",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_features_character",
+      "target": "Goku Black",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_features_character",
+      "target": "Rosé Goku Black",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_features_character",
+      "target": "Zamasu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_features_character",
+      "target": "Goku Black",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_features_character",
+      "target": "Rosé Goku Black",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_features_character",
+      "target": "Goku Black",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_features_character",
+      "target": "Rosé Goku Black",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_features_character",
+      "target": "Super 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-112",
+      "relationship": "pq_features_character",
+      "target": "Android 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-113",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_features_character",
+      "target": "Dabura",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_features_character",
+      "target": "Kid Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-116",
+      "relationship": "pq_features_character",
+      "target": "Dabura",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-116",
+      "relationship": "pq_features_character",
+      "target": "Omega Shenron",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-117",
+      "relationship": "pq_features_character",
+      "target": "Future Trunks",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-117",
+      "relationship": "pq_features_character",
+      "target": "Tapion",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-118",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-118",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-119",
+      "relationship": "pq_features_character",
+      "target": "Nappa",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-120",
+      "relationship": "pq_features_character",
+      "target": "Jiren",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-120",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-122",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-123",
+      "relationship": "pq_features_character",
+      "target": "Super Baby 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-123",
+      "relationship": "pq_features_character",
+      "target": "Nuova Shenron",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-124",
+      "relationship": "pq_features_character",
+      "target": "Super Baby 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-125",
+      "relationship": "pq_features_character",
+      "target": "Goku (Ultra Instinct)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-125",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-128",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-128",
+      "relationship": "pq_features_character",
+      "target": "Broly (Full Power Super Saiyan)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Gogeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_features_character",
+      "target": "Goten",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_features_character",
+      "target": "Gotenks",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-130",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-130",
+      "relationship": "pq_features_character",
+      "target": "Broly (Full Power Super Saiyan)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Gogeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_features_character",
+      "target": "Vegito",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Vegito",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_features_character",
+      "target": "Broly (Full Power Super Saiyan)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_features_character",
+      "target": "Ribrianne",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-134",
+      "relationship": "pq_features_character",
+      "target": "Goku (Ultra Instinct)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-135",
+      "relationship": "pq_features_character",
+      "target": "Ribrianne",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-135",
+      "relationship": "pq_features_character",
+      "target": "Mira (Final Form)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-136",
+      "relationship": "pq_features_character",
+      "target": "Goku (Ultra Instinct)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-137",
+      "relationship": "pq_features_character",
+      "target": "Jiren",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-138",
+      "relationship": "pq_features_character",
+      "target": "Goku (GT)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-138",
+      "relationship": "pq_features_character",
+      "target": "Omega Shenron",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-139",
+      "relationship": "pq_features_character",
+      "target": "Frieza (Final Form)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-140",
+      "relationship": "pq_features_character",
+      "target": "Android 21",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-141",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-141",
+      "relationship": "pq_features_character",
+      "target": "Majuub",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-141",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-143",
+      "relationship": "pq_features_character",
+      "target": "Kid Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-144",
+      "relationship": "pq_features_character",
+      "target": "Super 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-144",
+      "relationship": "pq_features_character",
+      "target": "Android 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-144",
+      "relationship": "pq_features_character",
+      "target": "Android 17 (DB Super)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-145",
+      "relationship": "pq_features_character",
+      "target": "Pikkon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-145",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-146",
+      "relationship": "pq_features_character",
+      "target": "Toppo (God of Destruction)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_features_character",
+      "target": "Kid Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_features_character",
+      "target": "Majin Buu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-149",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Gogeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-150",
+      "relationship": "pq_features_character",
+      "target": "Goku (Ultra Instinct)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_features_character",
+      "target": "Omega Shenron",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_features_character",
+      "target": "Dyspo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Vegeta (Evolved)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-154",
+      "relationship": "pq_features_character",
+      "target": "Metal Cooler",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-155",
+      "relationship": "pq_features_character",
+      "target": "Gamma 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-156",
+      "relationship": "pq_features_character",
+      "target": "Super 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-156",
+      "relationship": "pq_features_character",
+      "target": "Super Baby 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-157",
+      "relationship": "pq_features_character",
+      "target": "Gohan (DBS Super Hero)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-158",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-158",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-158",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-159",
+      "relationship": "pq_features_character",
+      "target": "Gamma 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-159",
+      "relationship": "pq_features_character",
+      "target": "Gamma 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-161",
+      "relationship": "pq_features_character",
+      "target": "Gohan (Beast)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-161",
+      "relationship": "pq_features_character",
+      "target": "Orange Piccolo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-161",
+      "relationship": "pq_features_character",
+      "target": "Piccolo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-162",
+      "relationship": "pq_features_character",
+      "target": "Yamcha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-162",
+      "relationship": "pq_features_character",
+      "target": "Yamcha (Supervillain)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-164",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-165",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Goku",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-166",
+      "relationship": "pq_features_character",
+      "target": "Super 17",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-167",
+      "relationship": "pq_features_character",
+      "target": "Gohan (Adult)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-168",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-169",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-170",
+      "relationship": "pq_features_character",
+      "target": "Android 18",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-170",
+      "relationship": "pq_features_character",
+      "target": "Android 18 (DB Super)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-171",
+      "relationship": "pq_features_character",
+      "target": "Great Saiyaman",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-173",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-174",
+      "relationship": "pq_features_character",
+      "target": "Supreme Kai of Time",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-177",
+      "relationship": "pq_features_character",
+      "target": "Jiren",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-177",
+      "relationship": "pq_features_character",
+      "target": "Jiren (Full Power) Ultra Supervillain",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-178",
+      "relationship": "pq_features_character",
+      "target": "Jiren",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-178",
+      "relationship": "pq_features_character",
+      "target": "Jiren (Full Power) Ultra Supervillain",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-179",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-179",
+      "relationship": "pq_features_character",
+      "target": "Vegeta (Super Saiyan God)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-180",
+      "relationship": "pq_features_character",
+      "target": "Vegeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-180",
+      "relationship": "pq_features_character",
+      "target": "Vegeta (Super Saiyan God)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-181",
+      "relationship": "pq_features_character",
+      "target": "God of Destruction Beerus",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-182",
+      "relationship": "pq_features_character",
+      "target": "SSGSS Gogeta",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-183",
+      "relationship": "pq_features_character",
+      "target": "Broly",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-184",
+      "relationship": "pq_features_character",
+      "target": "SS4 Goku (DAIMA)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_features_character",
+      "target": "Fused Zamasu (Half-Corrupted)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_features_character",
+      "target": "Zamasu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_features_character",
+      "target": "Fused Zamasu",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_features_character",
+      "target": "Golden Frieza",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit character name appears in the PQ objective or ultimate-finish text; canonical character identity resolved without inferring from generic enemy/appearance text."
     }
   ],
   "normalization_rules": [
@@ -3446,7 +5422,7 @@
     "skill": 229,
     "super_soul": 125,
     "equipment": 39,
-    "character": 0,
+    "character": 247,
     "dlc": 88,
     "farming": 7
   }
