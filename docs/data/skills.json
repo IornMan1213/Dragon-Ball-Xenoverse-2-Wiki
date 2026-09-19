@@ -224,16 +224,18 @@
       "source_quest_or_shop": "Future Saga Chapter 4 — Quest 31, Ultimate All-Out Showdown",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill with an initial state and a stronger unleashed second stage.",
-      "mechanics_notes": "Two-stage Awoken. Stage 1 provides defensive/speed benefits; reactivating enters the stronger Unleashed/Overdrive state, which grants effectively/infinite Ki availability for a limited duration while consuming Health and later reverting. Current 2026 community testing conflicts on exact Stage 1 defense/speed numbers and exact Stage 2 speed/damage values, so those numeric modifiers remain intentionally unresolved.",
+      "mechanics_notes": "Two-stage Awoken. Stage 1 has a documented +20% all-damage defense effect and +5% movement speed in current community testing, plus automatic HP recovery while below 50% HP and an unblockable sword-strike replacement for grabs. Re-inputting the Awoken command activates Unleashed Stage 2: approximately 12 seconds of effectively/infinite Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, and increased movement speed; HP drains during Stage 2 and a cooldown follows before reactivation. Sources disagree on some exact Stage 2 speed/cooldown values (reports include +10% vs +15% speed and ~24 vs ~30 sec cooldown), so those fields remain unresolved.",
       "verification_status": "partially_verified",
       "research_status": "mechanics_reconciled_core_verified",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
-        "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/"
+        "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819",
+        "https://www.reddit.com/r/dbxv/comments/1ut3fc0/the_power_to_overcome_stats/"
       ],
-      "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Exact numeric stage modifiers remain partially verified because current sources disagree; do not collapse the conflict into a single value."
+      "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Current testing supports Stage 1 +20% defense/+5% speed and Stage 2 +30% Strike/Ki Super/+15% basic attack, but conflicting reports on Stage 2 speed/cooldown and exact HP regeneration rate remain intentionally unresolved."
     },
     {
       "name": "Turn Golden",
