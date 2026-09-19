@@ -2046,3 +2046,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Added `https://steamcommunity.com/sharedfiles/filedetails/?id=808851543` to all PQ 21-40 source arrays for consistent current provenance.
 - Commit: `2a16f0fdb1f871713fa5b61234362853b95b042c`.
 - Next exact task: continue the same evidence-backed skill-reward/source audit into **PQ 41-60**, then update the audit and handoff.
+
+
+### 2026-09-19 continuation — PQ 41-60 skill-reward pass
+- Canonical `pq-041-060.json` now contains evidence-backed skill rewards for PQ 46, 48, 50-56, and 58; PQ 47 and PQ 57 remain empty because the cited reward table does not list a skill for those quests.
+- Added the current all-186 Steam guide to every PQ 41-60 source array.
+- Data commit: `cdb07c22c96b28d4acaa355a7a29a3d77cf42edf`.
+- Next exact task: continue the source-backed skill-reward audit through **PQ 61-80**, then update the audit and this handoff.
