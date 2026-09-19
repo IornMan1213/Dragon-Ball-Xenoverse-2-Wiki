@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
-  "status": "relationship_index_seeded",
+  "status": "relationship_index_populated",
   "purpose": "Normalize acquisition relationships so a reward can be reached from its PQ and a PQ can be traced to skills, Super Souls, equipment, characters, DLC and farming use.",
   "relationship_types": [
     "pq_rewards_skill",
@@ -12,39 +12,1693 @@
     "pq_farming_route"
   ],
   "verified_relationships": [
-    {"pq":"pq-001","relationship":"pq_rewards_skill","target":"Death Slash","status":"indexed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-044","relationship":"pq_farming_route","target":"Dragon Balls","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-045","relationship":"pq_farming_route","target":"Dragon Balls","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-059","relationship":"pq_rewards_equipment","target":"Vegito's Clothes","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-059","relationship":"pq_rewards_skill","target":"Force Shield","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-059","relationship":"pq_rewards_skill","target":"Dimension Cannon","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-060","relationship":"pq_rewards_skill","target":"Majin Kamehameha","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-083","relationship":"pq_farming_route","target":"Dragon Balls","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-088","relationship":"pq_farming_route","target":"Dragon Balls","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-143","relationship":"pq_rewards_skill","target":"Hyper Tornado","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-145","relationship":"pq_rewards_skill","target":"Destructive Fracture","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-145","relationship":"pq_rewards_skill","target":"Destructive Flare","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-147","relationship":"pq_rewards_skill","target":"Crush Cannon","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-147","relationship":"pq_rewards_skill","target":"Double Crush","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-147","relationship":"pq_rewards_skill","target":"Crush Stream","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-149","relationship":"pq_rewards_skill","target":"Comet Strike","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-149","relationship":"pq_rewards_skill","target":"Meteor Explosion","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-155","relationship":"pq_rewards_skill","target":"Heroic Counter","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-155","relationship":"pq_rewards_skill","target":"Gamma Blaster","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-155","relationship":"pq_rewards_skill","target":"Gamma Impact","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-158","relationship":"pq_rewards_skill","target":"Super Gamma Blast","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-158","relationship":"pq_rewards_skill","target":"Core Breaker","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-162","relationship":"pq_rewards_skill","target":"Special Beam Cannon (Beast)","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-179","relationship":"pq_requires_dlc","target":"Dragon Ball DAIMA Pack","status":"source_backed","source":"https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"},
-    {"pq":"pq-180","relationship":"pq_requires_dlc","target":"Dragon Ball DAIMA Pack","status":"source_backed","source":"https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"},
-    {"pq":"pq-181","relationship":"pq_requires_dlc","target":"Dragon Ball DAIMA Pack","status":"source_backed","source":"https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"},
-    {"pq":"pq-185","relationship":"pq_requires_dlc","target":"FUTURE SAGA Chapter 4","status":"source_backed","source":"https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"},
-    {"pq":"pq-185","relationship":"pq_rewards_equipment","target":"Goku (Ultra Supervillain Quelled)'s Clothes","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-185","relationship":"pq_rewards_skill","target":"Dragon Spiral","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-185","relationship":"pq_rewards_skill","target":"Indomitable","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-186","relationship":"pq_requires_dlc","target":"FUTURE SAGA Chapter 4","status":"source_backed","source":"https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"},
-    {"pq":"pq-186","relationship":"pq_rewards_equipment","target":"Fu (Ultra Supervillain)'s Clothes","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"},
-    {"pq":"pq-186","relationship":"pq_rewards_skill","target":"Venus Fist","status":"source_backed","source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"}
+    {
+      "pq": "pq-044",
+      "relationship": "pq_farming_route",
+      "target": "Dragon Balls",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-045",
+      "relationship": "pq_farming_route",
+      "target": "Dragon Balls",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-059",
+      "relationship": "pq_rewards_equipment",
+      "target": "Vegito's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-083",
+      "relationship": "pq_farming_route",
+      "target": "Dragon Balls",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-088",
+      "relationship": "pq_farming_route",
+      "target": "Dragon Balls",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-179",
+      "relationship": "pq_requires_dlc",
+      "target": "Dragon Ball DAIMA Pack",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+    },
+    {
+      "pq": "pq-180",
+      "relationship": "pq_requires_dlc",
+      "target": "Dragon Ball DAIMA Pack",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+    },
+    {
+      "pq": "pq-181",
+      "relationship": "pq_requires_dlc",
+      "target": "Dragon Ball DAIMA Pack",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_requires_dlc",
+      "target": "FUTURE SAGA Chapter 4",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku (Ultra Supervillain Quelled)'s Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_requires_dlc",
+      "target": "FUTURE SAGA Chapter 4",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_rewards_equipment",
+      "target": "Fu (Ultra Supervillain)'s Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-002",
+      "relationship": "pq_rewards_skill",
+      "target": "Spirit Slash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-003",
+      "relationship": "pq_rewards_skill",
+      "target": "Solar Flare",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-004",
+      "relationship": "pq_rewards_skill",
+      "target": "Paralyze Beam",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-005",
+      "relationship": "pq_rewards_skill",
+      "target": "Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-006",
+      "relationship": "pq_rewards_skill",
+      "target": "Meteor Strike",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-007",
+      "relationship": "pq_rewards_skill",
+      "target": "Shine Shot",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-008",
+      "relationship": "pq_rewards_skill",
+      "target": "Kaioken",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-009",
+      "relationship": "pq_rewards_skill",
+      "target": "Meteor Blow",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-010",
+      "relationship": "pq_rewards_skill",
+      "target": "Wall of Defense",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-010",
+      "relationship": "pq_rewards_skill",
+      "target": "Unrelenting Barrage",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-011",
+      "relationship": "pq_rewards_skill",
+      "target": "Earth Splitting Galick Gun",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-018",
+      "relationship": "pq_rewards_skill",
+      "target": "Time Control",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-018",
+      "relationship": "pq_rewards_skill",
+      "target": "Mach Dash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-019",
+      "relationship": "pq_rewards_skill",
+      "target": "Mach Punch",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-019",
+      "relationship": "pq_rewards_skill",
+      "target": "Fighting Pose E",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-020",
+      "relationship": "pq_rewards_skill",
+      "target": "Mystic Flash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-021",
+      "relationship": "pq_rewards_skill",
+      "target": "Evil Flight Strike",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-022",
+      "relationship": "pq_rewards_skill",
+      "target": "Energy Shot",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-023",
+      "relationship": "pq_rewards_skill",
+      "target": "Death Slash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-024",
+      "relationship": "pq_rewards_skill",
+      "target": "Double Death Slicer",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-025",
+      "relationship": "pq_rewards_skill",
+      "target": "Spirit Explosion",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-026",
+      "relationship": "pq_rewards_skill",
+      "target": "Crazy Finger Shot",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-027",
+      "relationship": "pq_rewards_skill",
+      "target": "Sauzer Blade",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-028",
+      "relationship": "pq_rewards_skill",
+      "target": "Spread Shot Retreat",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-029",
+      "relationship": "pq_rewards_skill",
+      "target": "Freedom Kick",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-029",
+      "relationship": "pq_rewards_skill",
+      "target": "Energy Field",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-031",
+      "relationship": "pq_rewards_skill",
+      "target": "Super Dragon Flight",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-032",
+      "relationship": "pq_rewards_skill",
+      "target": "Energy Barrier",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-033",
+      "relationship": "pq_rewards_skill",
+      "target": "Death Psycho Bomb",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-034",
+      "relationship": "pq_rewards_skill",
+      "target": "Crusher Ball",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-034",
+      "relationship": "pq_rewards_skill",
+      "target": "Paralysis",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-036",
+      "relationship": "pq_rewards_skill",
+      "target": "Evil Whirlwind",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-037",
+      "relationship": "pq_rewards_skill",
+      "target": "Instant Rise",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-038",
+      "relationship": "pq_rewards_skill",
+      "target": "Shining Slash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-039",
+      "relationship": "pq_rewards_skill",
+      "target": "Side Bridge",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-040",
+      "relationship": "pq_rewards_skill",
+      "target": "Heat Dome Attack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-041",
+      "relationship": "pq_rewards_skill",
+      "target": "Burning Attack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-042",
+      "relationship": "pq_rewards_skill",
+      "target": "Rolling Bullet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-043",
+      "relationship": "pq_rewards_skill",
+      "target": "Change The Future",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-044",
+      "relationship": "pq_rewards_skill",
+      "target": "God Breaker",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-044",
+      "relationship": "pq_rewards_skill",
+      "target": "Burning Slash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-045",
+      "relationship": "pq_rewards_skill",
+      "target": "Taunt",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-046",
+      "relationship": "pq_rewards_skill",
+      "target": "Chain Destructo-disc Barrage",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-048",
+      "relationship": "pq_rewards_skill",
+      "target": "Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-050",
+      "relationship": "pq_rewards_skill",
+      "target": "Explosive Buu Buu Punch",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-051",
+      "relationship": "pq_rewards_skill",
+      "target": "Burst Rush",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-052",
+      "relationship": "pq_rewards_skill",
+      "target": "Final Cannon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-053",
+      "relationship": "pq_rewards_skill",
+      "target": "Justice Pose",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-054",
+      "relationship": "pq_rewards_skill",
+      "target": "Victory Cannon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-055",
+      "relationship": "pq_rewards_skill",
+      "target": "Super Donut Volley",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-056",
+      "relationship": "pq_rewards_skill",
+      "target": "Stone Bullet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-058",
+      "relationship": "pq_rewards_skill",
+      "target": "Vanishing Ball",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-059",
+      "relationship": "pq_rewards_skill",
+      "target": "Force Shield",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-059",
+      "relationship": "pq_rewards_skill",
+      "target": "Dimension Cannon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-060",
+      "relationship": "pq_rewards_skill",
+      "target": "Majin Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-061",
+      "relationship": "pq_rewards_skill",
+      "target": "Recoome Kick",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-061",
+      "relationship": "pq_rewards_skill",
+      "target": "Fighting Pose H",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-062",
+      "relationship": "pq_rewards_skill",
+      "target": "Teleporting Vanishing Ball",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-063",
+      "relationship": "pq_rewards_skill",
+      "target": "Kai Kai",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-064",
+      "relationship": "pq_rewards_skill",
+      "target": "Ill Rain",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-065",
+      "relationship": "pq_rewards_skill",
+      "target": "Scissors Paper Rock",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-066",
+      "relationship": "pq_rewards_skill",
+      "target": "Candy Beam",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-067",
+      "relationship": "pq_rewards_skill",
+      "target": "Super God Fist",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-068",
+      "relationship": "pq_rewards_skill",
+      "target": "Angry Shout",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-069",
+      "relationship": "pq_rewards_skill",
+      "target": "Headshot",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-070",
+      "relationship": "pq_rewards_skill",
+      "target": "Emperor's Blast",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-071",
+      "relationship": "pq_rewards_skill",
+      "target": "Last Emperor",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-072",
+      "relationship": "pq_rewards_skill",
+      "target": "Burst Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-073",
+      "relationship": "pq_rewards_skill",
+      "target": "Psychic Move",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-074",
+      "relationship": "pq_rewards_skill",
+      "target": "Final Pose",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-075",
+      "relationship": "pq_rewards_skill",
+      "target": "Counter Burst",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-076",
+      "relationship": "pq_rewards_skill",
+      "target": "Warp Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-077",
+      "relationship": "pq_rewards_skill",
+      "target": "Ki Explosion",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-078",
+      "relationship": "pq_rewards_skill",
+      "target": "Dust Attack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-079",
+      "relationship": "pq_rewards_skill",
+      "target": "Mighty Explosive Wave",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-080",
+      "relationship": "pq_rewards_skill",
+      "target": "Dimensional Hole",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-081",
+      "relationship": "pq_rewards_skill",
+      "target": "Afterimage Strike",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-082",
+      "relationship": "pq_rewards_skill",
+      "target": "Dragon Burn",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-083",
+      "relationship": "pq_rewards_skill",
+      "target": "Charge",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-084",
+      "relationship": "pq_rewards_skill",
+      "target": "Saiyan Spirit",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-085",
+      "relationship": "pq_rewards_skill",
+      "target": "Zigzag Express",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-088",
+      "relationship": "pq_rewards_skill",
+      "target": "Buu Buu Ball",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-089",
+      "relationship": "pq_rewards_skill",
+      "target": "Victory Rush",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-090",
+      "relationship": "pq_rewards_skill",
+      "target": "III Bomber",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-091",
+      "relationship": "pq_rewards_skill",
+      "target": "Final Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-092",
+      "relationship": "pq_rewards_skill",
+      "target": "Maiden Burst",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-094",
+      "relationship": "pq_rewards_skill",
+      "target": "Bluff Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-095",
+      "relationship": "pq_rewards_skill",
+      "target": "Flash Bomber",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-095",
+      "relationship": "pq_rewards_skill",
+      "target": "Drain Field",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-096",
+      "relationship": "pq_rewards_skill",
+      "target": "Absolute Zero",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-097",
+      "relationship": "pq_rewards_skill",
+      "target": "Charged Ki Wave",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-097",
+      "relationship": "pq_rewards_skill",
+      "target": "Phantom Fist",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-098",
+      "relationship": "pq_rewards_skill",
+      "target": "Dimension Ray",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-099",
+      "relationship": "pq_rewards_skill",
+      "target": "Emperor's Edge",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-100",
+      "relationship": "pq_rewards_skill",
+      "target": "X 100 Big Bang Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-101",
+      "relationship": "pq_rewards_skill",
+      "target": "Breaker Energy Wave",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-104",
+      "relationship": "pq_rewards_skill",
+      "target": "Destruction's Concerto: Comet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-104",
+      "relationship": "pq_rewards_skill",
+      "target": "Starfall",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_rewards_skill",
+      "target": "Sonic Bomb",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_rewards_skill",
+      "target": "God of Destruction's Menace",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_rewards_skill",
+      "target": "God of Destruction's Roar",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_rewards_skill",
+      "target": "Super Black Kamehameha Rosé",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_rewards_skill",
+      "target": "Divinity Unleashed",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_rewards_skill",
+      "target": "Lightning of Absolution",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_rewards_skill",
+      "target": "Holy Wrath",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-112",
+      "relationship": "pq_rewards_skill",
+      "target": "Blades of Judgment",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-112",
+      "relationship": "pq_rewards_skill",
+      "target": "Divine Wrath: Purification",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-113",
+      "relationship": "pq_rewards_skill",
+      "target": "Super Ghost Buu Attack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-113",
+      "relationship": "pq_rewards_skill",
+      "target": "Candy Beam",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_rewards_skill",
+      "target": "Petrifying Spit",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_rewards_skill",
+      "target": "Evil Blast",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-115",
+      "relationship": "pq_rewards_skill",
+      "target": "Handy Canon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-115",
+      "relationship": "pq_rewards_skill",
+      "target": "S.S. Deadly Bomber",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-116",
+      "relationship": "pq_rewards_skill",
+      "target": "Brave Sword Slash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-116",
+      "relationship": "pq_rewards_skill",
+      "target": "Hero's Flute",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-117",
+      "relationship": "pq_rewards_skill",
+      "target": "Evil Flame",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-117",
+      "relationship": "pq_rewards_skill",
+      "target": "Brave Sword Attack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-119",
+      "relationship": "pq_rewards_skill",
+      "target": "Rough Ranger",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-120",
+      "relationship": "pq_rewards_skill",
+      "target": "Power Impact",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-122",
+      "relationship": "pq_rewards_skill",
+      "target": "Meditation",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-122",
+      "relationship": "pq_rewards_skill",
+      "target": "Power Rush",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-123",
+      "relationship": "pq_rewards_skill",
+      "target": "Reverse Shot",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-123",
+      "relationship": "pq_rewards_skill",
+      "target": "Variant Drive",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-124",
+      "relationship": "pq_rewards_skill",
+      "target": "Revenge Final Flash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-125",
+      "relationship": "pq_rewards_skill",
+      "target": "Blaster Ball",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-125",
+      "relationship": "pq_rewards_skill",
+      "target": "Ray Blast",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-126",
+      "relationship": "pq_rewards_skill",
+      "target": "Gigantic Breaker",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-127",
+      "relationship": "pq_rewards_skill",
+      "target": "Gigantic Burst",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-127",
+      "relationship": "pq_rewards_skill",
+      "target": "Revenge Death Ball",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-128",
+      "relationship": "pq_rewards_skill",
+      "target": "Powered Shell",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-128",
+      "relationship": "pq_rewards_skill",
+      "target": "Gigantic Charge",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_rewards_skill",
+      "target": "Spirit Blaster",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_rewards_skill",
+      "target": "Punisher Shield",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-130",
+      "relationship": "pq_rewards_skill",
+      "target": "Gigantic Rage",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_rewards_skill",
+      "target": "Assault Vanish",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_rewards_skill",
+      "target": "God Punisher",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_rewards_skill",
+      "target": "Gigantic Roar",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_rewards_skill",
+      "target": "Pretty Cannon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_rewards_skill",
+      "target": "Formation!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-134",
+      "relationship": "pq_rewards_skill",
+      "target": "Ultimate Charge",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-134",
+      "relationship": "pq_rewards_skill",
+      "target": "Burst Charge",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-135",
+      "relationship": "pq_rewards_skill",
+      "target": "Lovely Cyclone",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-136",
+      "relationship": "pq_rewards_skill",
+      "target": "Burst Stinger",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-136",
+      "relationship": "pq_rewards_skill",
+      "target": "Raid Blast",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-136",
+      "relationship": "pq_rewards_skill",
+      "target": "Blazing Attack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-137",
+      "relationship": "pq_rewards_skill",
+      "target": "Ribrianne's Eternal Love",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-137",
+      "relationship": "pq_rewards_skill",
+      "target": "Prominence Flash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-138",
+      "relationship": "pq_rewards_skill",
+      "target": "Flash Chaser",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-139",
+      "relationship": "pq_rewards_skill",
+      "target": "Total Detonation Ball",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-139",
+      "relationship": "pq_rewards_skill",
+      "target": "Photon Swipe",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-140",
+      "relationship": "pq_rewards_skill",
+      "target": "Savory Slicer",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-141",
+      "relationship": "pq_rewards_skill",
+      "target": "Dragon Blitz",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-141",
+      "relationship": "pq_rewards_skill",
+      "target": "Brutal Buster",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-142",
+      "relationship": "pq_rewards_skill",
+      "target": "Lightning Impact",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-142",
+      "relationship": "pq_rewards_skill",
+      "target": "Excellent Full Course",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-143",
+      "relationship": "pq_rewards_skill",
+      "target": "Hyper Tornado",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-143",
+      "relationship": "pq_rewards_skill",
+      "target": "Burning Shot",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-145",
+      "relationship": "pq_rewards_skill",
+      "target": "Destructive Fracture",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-145",
+      "relationship": "pq_rewards_skill",
+      "target": "Destructive Flare",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-146",
+      "relationship": "pq_rewards_skill",
+      "target": "Thunder Flash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-146",
+      "relationship": "pq_rewards_skill",
+      "target": "Destructive Fission",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-147",
+      "relationship": "pq_rewards_skill",
+      "target": "Crush Cannon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-147",
+      "relationship": "pq_rewards_skill",
+      "target": "Double Crush",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-147",
+      "relationship": "pq_rewards_skill",
+      "target": "Crush Stream",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_rewards_skill",
+      "target": "Blaster Cannon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_rewards_skill",
+      "target": "Blaster Bomb",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_rewards_skill",
+      "target": "Blaster Stream",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-149",
+      "relationship": "pq_rewards_skill",
+      "target": "Comet Strike",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-149",
+      "relationship": "pq_rewards_skill",
+      "target": "Meteor Explosion",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-150",
+      "relationship": "pq_rewards_skill",
+      "target": "Impact Flare",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-150",
+      "relationship": "pq_rewards_skill",
+      "target": "Power Wall",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_rewards_skill",
+      "target": "Ultrasonic Blitz",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_rewards_skill",
+      "target": "Spirit Pulse",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_rewards_skill",
+      "target": "Celestial Wave",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_rewards_skill",
+      "target": "Justice Kick",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_rewards_skill",
+      "target": "Justice Blade",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_rewards_skill",
+      "target": "Wild Buster",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_rewards_skill",
+      "target": "Shield Barrier",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_rewards_skill",
+      "target": "Counter Impact",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-154",
+      "relationship": "pq_rewards_skill",
+      "target": "Sign of Awakening",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-154",
+      "relationship": "pq_rewards_skill",
+      "target": "Circle Flash",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-155",
+      "relationship": "pq_rewards_skill",
+      "target": "Heroic Counter",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-155",
+      "relationship": "pq_rewards_skill",
+      "target": "Gamma Blaster",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-155",
+      "relationship": "pq_rewards_skill",
+      "target": "Gamma Impact",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-156",
+      "relationship": "pq_rewards_skill",
+      "target": "Heroic Assault",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-156",
+      "relationship": "pq_rewards_skill",
+      "target": "Shooting Strike",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-158",
+      "relationship": "pq_rewards_skill",
+      "target": "Super Gamma Blast",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-158",
+      "relationship": "pq_rewards_skill",
+      "target": "Core Breaker",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-159",
+      "relationship": "pq_rewards_skill",
+      "target": "Fierce Fist",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-159",
+      "relationship": "pq_rewards_skill",
+      "target": "Demonic Destruction",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-160",
+      "relationship": "pq_rewards_skill",
+      "target": "Demon Ray",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-160",
+      "relationship": "pq_rewards_skill",
+      "target": "Demon Flash Strike",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-160",
+      "relationship": "pq_rewards_skill",
+      "target": "Demon Flurry",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-161",
+      "relationship": "pq_rewards_skill",
+      "target": "Apocalyptic Burst",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-162",
+      "relationship": "pq_rewards_skill",
+      "target": "Special Beam Cannon (Beast)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-163",
+      "relationship": "pq_rewards_skill",
+      "target": "Giant Cluster",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-163",
+      "relationship": "pq_rewards_skill",
+      "target": "Eraser Bomb",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-164",
+      "relationship": "pq_rewards_skill",
+      "target": "Gigantic Explosion",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-165",
+      "relationship": "pq_rewards_skill",
+      "target": "Variable Snipe Shot",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-165",
+      "relationship": "pq_rewards_skill",
+      "target": "Steel Mirage",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-166",
+      "relationship": "pq_rewards_skill",
+      "target": "Pendulum Bullet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-167",
+      "relationship": "pq_rewards_skill",
+      "target": "Seagull Combination",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-167",
+      "relationship": "pq_rewards_skill",
+      "target": "Burning Swan",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-168",
+      "relationship": "pq_rewards_skill",
+      "target": "Justice Drive",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-171",
+      "relationship": "pq_rewards_skill",
+      "target": "Crimson Edge",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-171",
+      "relationship": "pq_rewards_skill",
+      "target": "Divine Spear",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-172",
+      "relationship": "pq_rewards_skill",
+      "target": "Big Bang Knuckle",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-172",
+      "relationship": "pq_rewards_skill",
+      "target": "Wild Stinger",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-173",
+      "relationship": "pq_rewards_skill",
+      "target": "Divine Ray Bomb",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-174",
+      "relationship": "pq_rewards_skill",
+      "target": "Final Rampage",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-175",
+      "relationship": "pq_rewards_skill",
+      "target": "God of Destruction's Plaything",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-175",
+      "relationship": "pq_rewards_skill",
+      "target": "God of Destruction's Poise",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-176",
+      "relationship": "pq_rewards_skill",
+      "target": "God of Destruction's Might",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-177",
+      "relationship": "pq_rewards_skill",
+      "target": "Full Power Destruction",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-177",
+      "relationship": "pq_rewards_skill",
+      "target": "Dragon Spark",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-177",
+      "relationship": "pq_rewards_skill",
+      "target": "Soaring Rush",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-178",
+      "relationship": "pq_rewards_skill",
+      "target": "Burst Blitz",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-179",
+      "relationship": "pq_rewards_skill",
+      "target": "Heat Wave",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-179",
+      "relationship": "pq_rewards_skill",
+      "target": "Supreme Fury",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-180",
+      "relationship": "pq_rewards_skill",
+      "target": "Force Edge",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-180",
+      "relationship": "pq_rewards_skill",
+      "target": "Burning Blast",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-181",
+      "relationship": "pq_rewards_skill",
+      "target": "Super Kamehameha (SS4 DAIMA)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-181",
+      "relationship": "pq_rewards_skill",
+      "target": "Final Flash (SS3 DAIMA)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-182",
+      "relationship": "pq_rewards_skill",
+      "target": "Dark Inscription",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-183",
+      "relationship": "pq_rewards_skill",
+      "target": "Emperor's Cannon",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-184",
+      "relationship": "pq_rewards_skill",
+      "target": "Chaotic Time Impact",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_rewards_skill",
+      "target": "Dragon Spiral",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_rewards_skill",
+      "target": "Indomitable",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_rewards_skill",
+      "target": "Venus Fist",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    }
   ],
   "normalization_rules": [
     "Never infer a reward from a character appearing in a PQ; only create a reward edge when the source explicitly lists the reward.",
@@ -54,7 +1708,6 @@
     "Preserve source conflicts instead of silently choosing one value."
   ],
   "expansion_queue": [
-    "Populate every skill reward edge for PQ 1-186.",
     "Populate every Super Soul reward edge for PQ 1-186.",
     "Populate every clothing/accessory reward edge for PQ 1-186.",
     "Resolve reward-slot attribution and Ultimate Finish gating where sources disagree.",
