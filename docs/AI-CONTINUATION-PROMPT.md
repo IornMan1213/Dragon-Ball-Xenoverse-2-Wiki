@@ -1933,3 +1933,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: `16875f9f512cfa45e653f3073b6688fe8a0ceff8`.
 - Live census: **283 total / 269 CaC-usable / 20 CaC-usable with null race restriction**.
 - Exact next task: recompute the live dataset and continue the next eight records from the current ordered null-race list.
+
+
+### 2026-09-19 continuation — Justice Drive through Seagull Combination
+- Workstream: P1 skill race-restriction census.
+- Reviewed **Justice Drive, Neo Wolf Fang Fist, Power Impact, Powered Shell, Recoome Kick, Sauzer Blade, Savory Slicer, and Seagull Combination**.
+- Added explicit **All CaC races** scope to all eight using current evidence; no narrower CaC race/gender/form restriction was established. Existing unresolved research fields and the Power Impact Strike Super correction were preserved.
+- Data commit: `13d7ad53e096831d32771883b3c82dd4b616d239`.
+- Live census: **283 total / 269 CaC-usable / 12 CaC-usable with null race restriction**.
+- Exact next task: recompute the live dataset and continue the next eight records from the current ordered null-race list.
