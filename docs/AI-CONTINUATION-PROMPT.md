@@ -1900,3 +1900,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: d45beb674c77d6b8345b696542044916b2dc7185.
 - Live census: 283 total / 269 CaC-usable / 60 CaC-usable with null race restriction.
 - Exact next cohort: **God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, Pendulum Bullet**.
+
+
+### 2026-09-19 continuation — God Punisher through Pendulum Bullet
+- Reviewed: God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, Pendulum Bullet.
+- Added explicit All CaC races scope to all eight; no narrower CaC race/gender/form restriction was established.
+- Data commit: b612ae55830c057c84f9de3386c5cc9cafc59258.
+- Audit commit: ad059cb80e60c5b578b2edbf2a37a7da57f6e429.
+- Live census: 283 total / 269 CaC-usable / 52 CaC-usable with null race restriction.
+- Exact next cohort: **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster**.
