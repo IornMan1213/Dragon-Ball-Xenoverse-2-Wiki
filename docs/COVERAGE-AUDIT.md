@@ -2256,3 +2256,8 @@ Resolved `ultimate_finish_required` to `true` for **Assault Vanish**. Its acquis
 ## 2026-09-19 — Explicit Ultimate Finish batch 2
 
 Resolved `ultimate_finish_required` to `true` for **Prominence Flash**. Current research found direct acquisition evidence identifying it as a PQ137 Ultimate Finish drop from SSGSS Vegeta (Evolved), replacing the prior unresolved status.
+
+
+## 2026-09-19 — Explicit Ultimate Finish batch 3
+
+Resolved `ultimate_finish_required` to `true` for **Burst Kamehameha**. Dedicated acquisition evidence explicitly identifies the PQ72 drop as an Ultimate Finish reward, rather than merely listing the skill among PQ72 rewards.
