@@ -918,3 +918,9 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `2533919cfe27a9ecd1ea663e47d85a4d4293bf89`.
 - Coverage commit: `45c92022cec71b8b08b1673ec04941d2e4725ff2`.
 - Continue the explicit-evidence sweep of the remaining null-race canonical records.
+
+### 2026-09-19 cycle update — null-race batch: counter/time-skip skills
+- Reviewed 12 null-race records: `Rough Ranger`, `Shadow Crusher`, `Sudden Death Beam`, `Super Afterimage`, `Super God Shock Flash`, `Time Skip/Back Breaker`, `Time Skip/Flash Skewer`, `Time Skip/Jump Spike`, `Ultrasonic Blitz`, `Absolute Zero`, `Dragon Burn`, and `Explosive Wave`.
+- No race/gender/unrestricted classification was added because the checked evidence did not explicitly establish one.
+- Coverage commit: `db71cad10db630b2f945a67c1f254ea0b075421e`.
+- Continue with the next null-race cohort.
