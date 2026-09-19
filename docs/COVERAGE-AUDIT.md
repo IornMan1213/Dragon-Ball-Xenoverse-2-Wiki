@@ -1916,3 +1916,14 @@ Reviewed **Hero's Flute, Burning Swan, Burst Blitz, Death Slash, Demon Flurry, D
 - Added the maintained Future Warrior technique-list source to the cohort where useful for CaC scope; no character association was converted into a race restriction.
 - Live skill census after this batch: **283 total / 269 CaC-usable / 28 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Dragon Spiral through God of Destruction's Poise race-restriction census
+
+Reviewed **Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edge, Freedom Kick, Gamma Impact, and God of Destruction's Poise**.
+
+- Added explicit **All CaC races** scope to all eight records. Current evidence establishes CaC/Future Warrior usability where applicable; no narrower CaC race/gender/form restriction was established.
+- Preserved existing acquisition, classification, cost, mechanics, and unresolved research fields; no unsupported drop claim was added.
+- Added the maintained Future Warrior technique-list source to the cohort as provenance for CaC scope.
+- Live skill census after this batch: **283 total / 269 CaC-usable / 20 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
