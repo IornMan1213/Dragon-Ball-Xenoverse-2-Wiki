@@ -5553,16 +5553,18 @@
       "name": "Final Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
         "https://dragonball.fandom.com/wiki/Final_Kamehameha",
-        "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
+        "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792"
       ],
       "ki_cost": 500,
       "unlock_method": "TP Medal Shop / Parallel Quest 91 - \"Saiyan Revolt\" / Double Crystal Raids",
       "source_quest_or_shop": "TP Medal Shop / Parallel Quest 91 / Double Crystal Raids",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha.",
