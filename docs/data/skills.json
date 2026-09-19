@@ -3282,7 +3282,11 @@
       "description": "Ki-charging Super Skill associated with Ultra Instinct Goku; its charge rate improves as it is maintained, and later updates allow the Ultra Instinct Future Warrior to use the same charging function through the Awoken Skill's special input.",
       "mechanics": "Charges Ki significantly faster the longer it is maintained. Ultra Instinct Future Warrior access is tied to the Awoken Skill special input rather than a normal equipped skill slot.",
       "ultimate_finish_required": null,
-      "unlock_method": "Character-exclusive to Ultra Instinct Goku variants; CaCs can access the technique through Ultra Instinct's built-in action in current versions"
+      "unlock_method": "Character-exclusive to Ultra Instinct Goku variants; CaCs can access the technique through Ultra Instinct's built-in action in current versions",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races while using Ultra Instinct",
+      "research_status": "reconciled_form_exclusive_cac",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Time Bullet",
@@ -3948,7 +3952,11 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": null
+      "unlock_method": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Emperor's Edge",
@@ -4948,7 +4956,7 @@
       "name": "Divine Ray Bomb",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Goku Black (Super Saiyan Rosé) Ultra Supervillain",
       "dlc_requirement": "Future Saga Chapter 2",
       "ki_cost": 300,
@@ -4960,12 +4968,13 @@
       "skill_description": "Divine Ray Bomb is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Emperor's Death Beam",
@@ -5912,7 +5921,11 @@
       ],
       "ki_cost": 500,
       "ultimate_finish_required": null,
-      "unlock_method": "TP Medal Shop"
+      "unlock_method": "TP Medal Shop",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -5941,7 +5954,7 @@
       "name": "Final Rampage",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan God) Ultra Supervillain",
       "dlc_requirement": "Future Saga Chapter 2",
       "ki_cost": 500,
@@ -5953,12 +5966,13 @@
       "skill_description": "Final Rampage is a Ultimate Strike skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Gigantic Rage",
@@ -5994,7 +6008,11 @@
       ],
       "ki_cost": 500,
       "ultimate_finish_required": null,
-      "unlock_method": "TP Medal Shop (500 TP Medals)"
+      "unlock_method": "TP Medal Shop (500 TP Medals)",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Power Rush",
@@ -6075,7 +6093,7 @@
       "name": "Supreme Fury",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "SS4 Goku (DAIMA)",
       "dlc_requirement": "Future Saga Chapter 2",
       "ki_cost": 100,
@@ -6087,12 +6105,13 @@
       "skill_description": "Supreme Fury is a Strike Super Attack associated with SS4 Goku (DAIMA).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Unrelenting Barrage",
@@ -6149,10 +6168,12 @@
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
       ],
       "ki_cost": 300,
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_future_warrior_evidence",
       "unlock_method": "Parallel Quest 89 - \"Super-Super Ultimate Series of Battles!\"",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races"
     }
   ],
   "record_count": 283
