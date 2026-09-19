@@ -16,8 +16,8 @@
     "super_soul": 125,
     "equipment": 39,
     "character": 0,
-    "dlc": 5,
-    "farming": 4
+    "dlc": 88,
+    "farming": 7
   },
-  "note": "Skill, Super Soul, and typed equipment reward relationships are populated from normalized PQ reward data; character, DLC, farming, and unresolved alternate-reward attribution remain under reconciliation."
+  "note": "Skill, Super Soul, and typed equipment reward relationships remain populated; the explicit DLC requirement layer is now complete for the current canonical batch files, and explicit Dragon Ball farming routes are reconciled. Character/enemy relationship resolution remains under evidence-backed reconciliation."
 }
