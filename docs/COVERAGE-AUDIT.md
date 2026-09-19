@@ -709,3 +709,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The Future Warrior technique reference establishes that the custom protagonist can learn character-origin techniques through the game's skill acquisition systems, but character preset ownership alone was not used as proof. citeturn0search5
 - All three are now `usable_by_cac: true`; no race restriction was inferred from this evidence. Acquisition/drop gating remains separately marked as research where unresolved.
 - Skills commit: `256d88f05c339da6bfcab7a7c7b3f1d18bd68a1e`.
+
+
+## 2026-09-19 race-restriction census kickoff
+
+- Recomputed the live skills cohort after closing the null-CaC audit: **283 total skill records, 270 CaC-usable, 202 CaC-usable records still lacking a race restriction value**.
+- The Future Warrior technique reference explicitly states that some techniques are race/gender/form exclusive and specifically identifies **Majin Kamehameha** as an imitation used by members of the Majin race. citeturn3view0turn1search1
+- Updated **Majin Kamehameha** to `race_restriction: "Majin"`.
+- This is a restriction census, not a character-source inference: the repository will continue requiring explicit Future Warrior/CaC evidence before assigning a restriction.
+- Skills commit: `574e87cde26b8e8ed1bdaa410e7b59786e3e4305`.
