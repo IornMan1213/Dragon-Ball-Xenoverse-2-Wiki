@@ -272,12 +272,19 @@
       "name": "Pure Progress",
       "class": "Awoken",
       "subcategory": "Transformation",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
+      "usable_by_cac": false,
+      "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "race_restriction": null,
+      "research_status": "corrected_character_only",
+      "unlock_method": "Character-only / non-CaC roster use",
+      "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Purification",
@@ -319,13 +326,19 @@
       "name": "Super Saiyan Blue Kaioken",
       "class": "Awoken",
       "subcategory": "Transformation",
-      "race_restriction": "Saiyan",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
+      "race_restriction": null,
+      "usable_by_cac": false,
+      "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "corrected_character_only",
+      "unlock_method": "Character-only / non-CaC roster use",
+      "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super Saiyan God",
@@ -379,12 +392,19 @@
       "name": "Supersonic Mode",
       "class": "Awoken",
       "subcategory": "Transformation",
-      "usable_by_cac": true,
-      "verification_status": "indexed",
+      "usable_by_cac": false,
+      "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "race_restriction": null,
+      "research_status": "corrected_character_only",
+      "unlock_method": "Character-only / non-CaC roster use",
+      "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Turn Golden",
