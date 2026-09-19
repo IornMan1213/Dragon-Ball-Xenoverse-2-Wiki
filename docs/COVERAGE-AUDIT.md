@@ -835,3 +835,7 @@ Added the dedicated `Niagara Pummel` reference to the existing `Raid Blast` skil
 ## 2026-09-19 Counter Burst — dedicated provenance
 
 Added the dedicated `Counter Burst` technique reference to the existing skill record. It confirms the Xenoverse 2 skill and Future Warrior PQ75 acquisition route, but does not provide an explicit race/gender restriction. The null `race_restriction` value is therefore retained.
+
+## 2026-09-19 Super Spirit Bomb — independent Future Warrior corroboration
+
+Added The Codex Future Warrior reference to the existing `Super Spirit Bomb` record. The source explicitly states that the Future Warrior can learn/use Spirit Bomb and Super Spirit Bomb regardless of selected race, independently corroborating the existing `All CaC races` classification. No new classification was inferred from this pass. The same audit confirmed that `Brave Heat`, `Power Pole`, and `Power Pole Combo` are discussed by external Future Warrior references but are not canonical records in the current `skills.json`; no records were fabricated.
