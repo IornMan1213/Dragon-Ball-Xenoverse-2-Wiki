@@ -2591,3 +2591,14 @@ This pass does not alter `stamina_cost`; the existing per-skill stamina values r
 Skills commit: `c27d65ec768d9c292e59fc165d0a87dd6d82229a`.
 No schema or validator changes were made.
 
+## 2026-09-19 — character-only race restriction pass
+
+The 13 nullable `race_restriction` records were inspected. Ten records have populated legacy values that are outside the current normalized CaC race vocabulary; the **three genuinely null records** are Pure Progress, Super Saiyan Blue Kaioken, and Supersonic Mode. Current research explicitly identifies these as character-exclusive/non-CaC transformations, so their restriction is represented as `Character-only` rather than leaving the field null. citeturn0search1turn0search0
+
+Updated: **Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode → `race_restriction: "Character-only"`**.
+
+This does not reinterpret the other ten non-null legacy values; those require a separate normalization review because changing them would be broader than this bounded null-resolution pass.
+
+Skills commit: `1d72edc69ea25e81595acf23b006f69d1b8f1476`.
+No schema or validator changes were made.
+
