@@ -2197,3 +2197,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated the reverse index, audit, status, and handoff.
 - Current totals: **232 skills, 135 Super Souls, 122 equipment, 247 characters, 88 DLC, 7 farming = 831 edges**.
 - Exact next task: **run final 1-186 relationship consistency checks for duplicate edges, invalid PQ numbers, missing reverse mappings, stale counts, and provenance/status integrity.**
+
+
+### 2026-09-19 continuation — final relationship consistency audit
+- Final 1-186 relationship consistency checks completed: **831 total edges, 0 duplicates, 0 invalid PQ numbers, 0 stale count fields, 0 provenance/status integrity failures**.
+- Reverse equipment coverage is complete (**122/122**), with **0 dual clothing/accessory subtype placements** after the subtype audit.
+- The relationship layer covers **182 distinct PQs**. The only uncovered PQ numbers are **1, 12, 13, and 14**, for which the repository has no canonical reward-batch files. They remain explicitly documented rather than guessed or fabricated.
+- Updated `docs/data/pq-cross-domain-audit.json` and `docs/data/pq-cross-domain-status.json`.
+- Current totals remain **232 skills, 135 Super Souls, 122 equipment, 247 characters, 88 DLC, 7 farming = 831 edges**.
+- Exact next task: **obtain authoritative/source-backed reward data for PQ 1, 12, 13, and 14 before adding relationships; otherwise preserve the documented 182-PQ coverage boundary.**
