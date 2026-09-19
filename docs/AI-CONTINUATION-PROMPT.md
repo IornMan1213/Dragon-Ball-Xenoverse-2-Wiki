@@ -855,3 +855,9 @@ A new AI chat must be able to continue from this file without depending on the p
 - Coverage commit: `4dc14d75b8d53539e2c07c557b89366be9682274`.
 - Research source: The Codex Future Warrior (Xenoverse 2), which explicitly documents several race/gender restrictions and distinguishes those from general technique listings. 
 - Exact next task: continue the null-race census and prioritize records where the source provides explicit race/gender/form wording.
+
+### 2026-09-19 cycle update — explicit form-restriction audit
+- Rechecked the Future Warrior reference for its explicit **Great Namekian**, **Pure Majin**, **Golden Frieza Race**, and **Ultra Instinct** form-exclusive technique sections. The source explicitly establishes restrictions such as Great Namekian-only Demon Hand/Mouth Cannon variants, Pure Majin-only Body Manipulation/Mystic Attack/Mystic Shot/Mystic Ball Attack/Pearl Flash/Super Vanishing Ball, Golden-form Death Bullet/Death Beam, and Ultra Instinct Dodge.
+- None of those exact technique names currently exists as a canonical record in `docs/data/skills.json`, so no new classification was fabricated and the live 186-record null-race cohort is unchanged.
+- The audit also confirmed the source's general warning that some Future Warrior techniques are exclusive by race, gender, and/or transformation.
+- Exact next task: continue matching explicit restriction evidence against the actual canonical skill inventory, then classify only records that exist and remain unresolved.
