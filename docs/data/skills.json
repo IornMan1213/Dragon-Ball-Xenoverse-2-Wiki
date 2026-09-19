@@ -3269,9 +3269,9 @@
       "ultimate_finish_required": null,
       "skill_description": "Hero's Flute is a Super Other skill that creates a protective barrier around the user while playing Tapion's flute.",
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Instant Charge",
@@ -4026,13 +4026,14 @@
       "skill_description": "Burning Swan is a Super Strike skill associated with Videl.",
       "mechanics_notes": "Confirmed as Videl's 100-Ki Strike Super from Future Saga Chapter 1 PQ167. It performs a rapid series of acrobatic strikes; current evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Burning_Swan"
+        "https://dbxv2.fandom.com/wiki/Burning_Swan",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Burst Blitz",
@@ -4050,14 +4051,14 @@
       "skill_description": "Burst Blitz is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Confirmed as Goku (Mini)'s 300-Ki Strike Super from Future Saga Chapter 2 PQ178. It is a close-range rush strike; current Future Warrior evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Crimson Edge",
@@ -4118,14 +4119,14 @@
       "skill_description": "Death Slash is a Super Strike skill associated with Frieza.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Slash",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Demon Flurry",
@@ -4143,14 +4144,14 @@
       "skill_description": "Demon Flurry is a Super Strike skill used by Gohan (Beast).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flurry",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Demonic Destruction",
@@ -4168,14 +4169,14 @@
       "skill_description": "Demonic Destruction is a Super Strike skill used by Orange Piccolo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Destruction's Conductor",
@@ -4193,14 +4194,14 @@
       "skill_description": "Destruction's Conductor is a Super Strike skill associated with Champa.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Conductor",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Dragon Spark",
@@ -4218,13 +4219,14 @@
       "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_no_race_restriction_evidence",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Dragon Spiral",
