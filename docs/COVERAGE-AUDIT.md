@@ -2236,3 +2236,8 @@ Resolved `ultimate_finish_required` to `false` for **Dragon Fist**, **Godly Disp
 ## 2026-09-19 — Explicit non-UF acquisition batch 4
 
 Resolved `ultimate_finish_required` to `false` for **Super Spirit Bomb**, **Supernova**, and **Final Kamehameha** based on documented independent acquisition channels (Expert Mission or TP Medal Shop/other non-UF routes). Generic Parallel Quest association was not used as negative evidence.
+
+
+## 2026-09-19 — Explicit non-UF acquisition batch 5
+
+Resolved `ultimate_finish_required` to `false` for **Afterimage**, **Energy Charge**, **Full Power Charge**, **Maximum Charge**, **Data Input**, and **Darkness Rush (Melee)**. Their documented acquisition routes are starting/Advancement Test, Expert Mission, or mentor training and therefore do not depend on a Parallel Quest Ultimate Finish.
