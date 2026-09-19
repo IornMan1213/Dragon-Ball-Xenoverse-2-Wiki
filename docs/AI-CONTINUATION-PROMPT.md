@@ -454,3 +454,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Commits: `704820758f555d13ddcf06350be1258f8c6b24fa` (canonical records), `fe7e53073daaeae8dd1826980d2157a0e77d6c4d` (database), `e348bda6a107c873dcf984c97d0a1b93bc403e4c` (coverage gaps), `87a9f9f7078f108a55771010e910fe15ea2e10dc` (changelog).
 - Validation: PQ-to-skill cross-link report remains resolved with 0 unresolved references; coverage audit artifact check remains clean. Do not infer CI success where GitHub exposes no workflow-run evidence.
 - Exact next task: continue Super Soul expansion beyond 30, prioritizing acquisition families absent from the canonical layer (Expert Missions, raids/events, TP Medal Shop rotations, DLC-specific rewards) and upgrading partially verified Chapter 4 mechanics only when stronger item-level evidence is found.
+
+
+### 2026-09-19 cycle update — Raid/Event Super Soul batch 04
+- Continued the Super Soul expansion after Chapter 4, targeting an underrepresented acquisition family: **Online Raid Quest** rewards.
+- Added research batch 04 and promoted canonical records **036–039**: “Buu's reached full power!”, “I'm over 1,000 years old.”, “My Ki is building... Overflowing...”, and “I am going to bathe in your blood!”.
+- Reconciled acquisition and secondary effect evidence from the raid inventory/catalog and historical GameFAQs raid reports. Record 036 retains the documented 10%-vs-20% discrepancy; record 039 retains the categorical XXL label without inventing a percentage.
+- Canonical Super Soul population is now **34 records**.
+- Commits: `94edc1e35bc08f5c77d1ab3c30f9b879bf857c32` (research batch), `83c7d0831599230cecbb2cd89a75d57e8bf3cc86` (canonical layer), `52006691fd5ca1760153c0f8dee23de36f5ab776` (database), `96ad639272a60d11142d1308d8c801cfa4987991` (coverage), `9ebedde3a9d885334629617c15bcca32b3a2f9e4` (changelog).
+- Next task: continue Super Soul expansion beyond 34, prioritizing **Expert Mission-specific souls**, then additional raid/event families, TP Medal Shop/STP rotations, and DLC-specific rewards. Upgrade secondary evidence only when stronger item-level evidence is found.
+- Do not infer drop rates or historical recurrence schedules, and do not claim CI success without exposed workflow-run evidence.
