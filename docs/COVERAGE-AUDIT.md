@@ -2265,3 +2265,10 @@ Live nullable Super/Ultimate census after this batch: **172 records** — 132 Su
 Resolved `ultimate_finish_required: false` for **Final Rampage**. Current quest documentation lists Final Rampage among the **basic rewards** of PQ174, while the quest's Ultimate Finish section is separate and does not identify Final Rampage as an Ultimate Finish-only reward. This supports classifying the skill as non-UF-gated. citeturn1search0turn1search2turn1search1
 
 Live nullable Super/Ultimate census after this batch: **171 records** — 132 Super and 39 Ultimate.
+
+
+## 2026-09-19 — basic-reward PQ non-UF batch
+
+Resolved `ultimate_finish_required: false` for **Change The Future**, **Counter Burst**, and **God Breaker**. Current reward documentation places each skill in the PQ's **Basic Reward** list: PQ43 for Change The Future, PQ75 for Counter Burst, and PQ44 for God Breaker. The documented Ultimate Finish conditions are separate, so these skills are not treated as UF-only. citeturn1search4turn1search0turn1search1
+
+Live nullable Super/Ultimate census after this batch: **168 records** — 129 Super and 39 Ultimate.
