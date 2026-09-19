@@ -408,3 +408,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **16 records still lacking individual `sources` arrays**.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Exact next task: **PQ171–PQ180**, then PQ181–PQ186. Continue reducing the remaining 16 unsourced records with the same record-level provenance standard. Pay attention to Future Saga Chapter 1/2/3 and later DLC associations, objective/reward changes, and exact skill-drop semantics; preserve explicit percentages but never infer them. Update coverage audit, changelog, handoff, and Actions/status after each pass.
+
+
+### 2026-09-19 cycle update — PQ171–180 provenance pass
+- Workstream: Remaining DLC Parallel Quest record-level provenance.
+- Completed source coverage for **PQ171–PQ180**, with explicit source URLs and 2026-09-19 verification dates.
+- Independent references cross-check the Future Saga Chapter 1/2 and Dragon Ball DAIMA DLC associations, Ultimate Finish conditions, and documented rewards.
+- Existing explicit reward/drop-rate evidence was preserved; no probabilities were inferred beyond the maintained corpus.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-17.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `acb3b5a10fbf7b47efbb698069a802d47ffbf1e1` (PQ171–180 research), `b2e4a7a14736864f50ce1270b27f987e928b2145` (coverage audit), `4de13829c0efcd4c19674bcea9c87ea79e110d14` (changelog).
+- Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **6 records still lacking individual `sources` arrays**.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Exact next task: **PQ181–PQ186**. These are the final six unsourced records. Continue with the same record-level provenance standard, carefully distinguishing Dragon Ball DAIMA Pack versus Future Saga Chapter 3/4 content and preserving documented Ultimate Finish/reward evidence without inventing probabilities. Update coverage audit, changelog, handoff, and Actions/status after the final pass.
