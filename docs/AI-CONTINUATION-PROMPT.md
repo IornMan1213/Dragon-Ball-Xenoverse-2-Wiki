@@ -1392,9 +1392,9 @@ A new AI chat must be able to continue from this file without depending on the p
 ### 2026-09-19 continuation — Atomic Blast through Burning Attack
 - Reconciled **Atomic Blast, Bending Kamehameha, Big Bang Kamehameha, Big Bang Knuckle, Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, and Burning Attack**.
 - Atomic Blast remains CaC-usable with no explicit race/gender/form restriction established. Bending Kamehameha and Big Bang Kamehameha retain explicit all-CaC-races scope.
-- **Big Bang Knuckle is non-CaC.** The current record identifies the PQ172 Vegeta (Super Saiyan God) Ultra Supervillain skill and no CaC acquisition/equip path was established; the previous CaC-usable classification was corrected.
+- **Big Bang Knuckle remains non-CaC.** The current record identifies the PQ172 Vegeta (Super Saiyan God) Ultra Supervillain skill and no CaC acquisition/equip path was established; this pass reconciled its provenance and did not change its existing non-CaC classification.
 - Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, and Burning Attack remain CaC-usable with null race restriction because no explicit narrower scope was established.
-- Live census after correction: **283 total / 268 CaC-usable / 184 CaC-usable with null race restriction**.
+- Live census after this pass: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - Data commit: `8b8f95ae7f6848c6c5dfcf6590d354b336de984c`.
 - Audit commits: `7f7dd0933662ea1b01db975eaae633c2b9843fda` and `36f615fd2b8f49212ba8a7d439529db0a63c8b89`.
 - No validator or validation rule was changed. Public update-history evidence confirms that Big Bang Kamehameha mechanics have changed over the game's lifetime, so older behavior should not overwrite current-version records.
