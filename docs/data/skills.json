@@ -3175,7 +3175,8 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - Advanced Class",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_cac_race_provenance"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge."
     },
     {
       "name": "Hero's Flute",
@@ -3198,9 +3199,9 @@
       "source_quest_or_shop": "Parallel Quest 116",
       "ultimate_finish_required": null,
       "skill_description": "Hero's Flute is a Super Other skill that creates a protective barrier around the user while playing Tapion's flute.",
-      "mechanics_notes": "Fandom documents a 7.5-second barrier that protects against normal/super melee and Ki Blast attacks. Community evidence identifies Broly as the drop source in PQ116; retain that drop detail as community evidence rather than definitive game-data proof.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds.",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Instant Charge",
@@ -3237,7 +3238,8 @@
       "source_quest_or_shop": "Goku mentor training, Lesson 1",
       "mechanics": "Teleports the user to the opponent; uses no Ki or Stamina.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_external_evidence"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost."
     },
     {
       "name": "Kai Kai",
@@ -3253,9 +3255,9 @@
       "source_quest_or_shop": "Parallel Quest 63",
       "ultimate_finish_required": null,
       "skill_description": "Kai Kai is a Super Other skill associated with Whis.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Whis's 100-Ki Other Super from PQ63 and usable by all CaC races. It teleports the user to a selected ally/partner rather than the opponent.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3280,7 +3282,8 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - God Class",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_cac_race_provenance"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills."
     },
     {
       "name": "Petrifying Spit",
@@ -3296,9 +3299,9 @@
       "source_quest_or_shop": "Parallel Quest 114",
       "ultimate_finish_required": null,
       "skill_description": "Petrifying Spit is a Super Other skill associated with Dabura.",
-      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
