@@ -2075,3 +2075,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Empty skill arrays for PQ 102-103, 106-108, and 118 remain unresolved/no-established-skill rather than being inferred from non-skill rewards.
 - Data commit: `c6da4d9c37dd8436491d7ba226c2930ee69f048e`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 121-142**, then update the audit and this handoff.
+
+
+### 2026-09-19 continuation — PQ 121-142 reward pass
+- Canonical `pq-121-142.json` now carries source-backed skill relationships for PQ 122-142 and consistent all-186 provenance.
+- PQ 121 remains empty for `skill_rewards`; its source-backed reward list currently establishes Tuxedo, Wedding Dress, and the Fu Super Soul, not a skill. citeturn0search3
+- Data commit: `ab2907fbaefa5500747d58fdec8e861cbe615f`.
+- Next exact task: continue the source-backed skill-reward audit through **PQ 143-162**, then update the audit and this handoff.
