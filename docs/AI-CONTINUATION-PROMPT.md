@@ -2395,3 +2395,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `5df921ecd37983892f37154a81bee2e64afdb795`.
 - Evidence limitation: Prominence Flash remains null because current reports conflict and are anecdotal; Final Flash (SS3 DAIMA) and Super Kamehameha (SS4 DAIMA) remain null because PQ181 acquisition alone does not establish UF gating.
 - Exact next task: recompute the live null census and continue only with explicit UF-only or independently non-UF acquisition evidence.
+
+
+### 2026-09-19 continuation — explicit Ultimate Finish batch 2
+- Workstream: P1 skill Ultimate-Finish acquisition metadata.
+- Resolved `ultimate_finish_required: true` for Prominence Flash.
+- Added the GameFAQs DLC skill-drop guide to the record's provenance; it explicitly describes the skill as obtained during PQ137's Ultimate Finish.
+- Data commit: `c8bcbad7b8773c7cbfd4b49783e272f033db1a59`.
+- Evidence limitation: this resolves the acquisition gate, not the separate random drop chance; those are distinct mechanics.
+- Exact next task: recompute the live null census and inspect the remaining records for similarly explicit acquisition-gate evidence.
