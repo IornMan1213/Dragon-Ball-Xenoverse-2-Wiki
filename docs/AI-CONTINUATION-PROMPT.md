@@ -1744,3 +1744,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — Evil Blast through God of Destruction's Plaything
+- Reviewed the next eight null-race CaC-usable records: **Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Giant Cluster, Gigantic Charge, God of Destruction's Plaything**.
+- Preserved null race restrictions because reviewed Future Warrior/CaC evidence does not establish a narrower race/gender/form restriction.
+- Data commit: f6bcb3fbfd9ce47d95284a1fd08a4554f629454b.
+- Audit commit follows in this cycle.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
