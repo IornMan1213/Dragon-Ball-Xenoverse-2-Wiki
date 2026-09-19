@@ -37,7 +37,7 @@ Only one Super Soul can be equipped at a time on a preset. Because copies are sh
 
 The machine-readable source of truth is `docs/data/super-souls-record-layer.json`.
 
-The canonical layer currently contains **34 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
+The canonical layer currently contains **38 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
 
 ### Canonical records
 
@@ -119,3 +119,16 @@ Four raid-associated Super Souls are now represented in the canonical layer (036
 | 039 | I am going to bathe in your blood! | Broly / Broly Lite Raid | Verified secondary |
 
 The Hit raid evidence also preserves a documented discrepancy for record 036 rather than silently choosing between conflicting percentage values.
+
+### Additional raid/event additions — 2026-09-19
+
+Four more raid-associated records have been reconciled into the canonical layer (040–043):
+
+| ID | Super Soul | Raid family | Verification |
+|---|---|---|---|
+| 040 | You fool! Why are you laughing? | Cell / An Invitation from Cell | Verified secondary |
+| 041 | Not on my watch! | Hercule / Humanity's Greatest Threat | Verified secondary |
+| 042 | Over here, you idiot... | Masked Saiyan / The Power of the Mask | Verified secondary |
+| 043 | Bye-bye, universe! | Fused Zamasu / Demented Deity | Verified secondary |
+
+The canonical layer retains unresolved numerical damage details for 043 instead of converting community testing into a false exact value.
