@@ -936,3 +936,9 @@ A new AI chat must be able to continue from this file without depending on the p
 - Direct/reference sources establish Future Warrior use, but no sufficiently explicit per-skill race/gender restriction or unrestricted-race statement was found. No classifications were changed.
 - Coverage commit: `081e248c8db6df7ef44ada4be368db5aea10a032`.
 - Continue with the next unresolved null-race cohort.
+
+### 2026-09-19 cycle update — DLC/character-derived null-race cohort
+- Reviewed 12 records: `Destruction's Concerto: Comet`, `Destruction's Concerto: Starfall`, `Dimension Cannon`, `Double Death Slicer`, `Dust Attack`, `Earth Splitting Galick Gun`, `Emperor's Blast`, `Emperor's Cannon`, `Eraser Bomb`, `Evil Blast`, `Evil Flame`, and `Final Cannon`.
+- Evidence confirms Future Warrior acquisition/use where documented, but no sufficiently explicit individual race/gender restriction was established. Index omission is not treated as universal access. No classifications changed.
+- Coverage commit: `c6a32d79cb1d04e6ca21561a68d241bb63c295fd`.
+- Continue with the next unresolved null-race cohort.
