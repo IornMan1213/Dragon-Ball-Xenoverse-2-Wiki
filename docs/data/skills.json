@@ -4032,13 +4032,14 @@
       "source_quest_or_shop": "Parallel Quest 23",
       "ultimate_finish_required": false,
       "skill_description": "Death Slash is a Super Strike skill associated with Frieza.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Death_Slash"
+        "https://dbxv2.fandom.com/wiki/Death_Slash",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
     },
     {
@@ -4055,13 +4056,14 @@
       "source_quest_or_shop": "PQ160",
       "ultimate_finish_required": null,
       "skill_description": "Demon Flurry is a Super Strike skill used by Gohan (Beast).",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flurry",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
     },
     {
@@ -4078,13 +4080,14 @@
       "source_quest_or_shop": "PQ159",
       "ultimate_finish_required": null,
       "skill_description": "Demonic Destruction is a Super Strike skill used by Orange Piccolo.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
     },
     {
@@ -4101,13 +4104,14 @@
       "source_quest_or_shop": "Parallel Quest 106",
       "ultimate_finish_required": null,
       "skill_description": "Destruction's Conductor is a Super Strike skill associated with Champa.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Destruction's_Conductor"
+        "https://dbxv2.fandom.com/wiki/Destruction's_Conductor",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
     },
     {
@@ -4124,9 +4128,9 @@
       "source_quest_or_shop": "PQ177 reward context",
       "ultimate_finish_required": null,
       "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_explicit_cac_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
@@ -4147,9 +4151,9 @@
       "source_quest_or_shop": "PQ185 (also reported in PQ186 reward pool)",
       "ultimate_finish_required": null,
       "skill_description": "Strike Super associated with Goku (Ultra Supervillain Quelled).",
-      "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research.",
+      "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
@@ -4161,7 +4165,7 @@
       "name": "Dragon Thunder",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -4169,10 +4173,10 @@
       "ki_cost": 100,
       "ultimate_finish_required": null,
       "unlock_method": null,
-      "usable_by_cac": true,
-      "race_restriction": "All CaC races",
-      "research_status": "reconciled_future_warrior_evidence",
-      "last_verified": "2026-09-19"
+      "usable_by_cac": false,
+      "research_status": "corrected_non_cac_scope",
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect."
     },
     {
       "name": "Emperor's Edge",
@@ -4188,13 +4192,14 @@
       "source_quest_or_shop": "Parallel Quest 99",
       "ultimate_finish_required": null,
       "skill_description": "Emperor's Edge is a Super Strike skill associated with Frieza.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Emperor's_Edge"
+        "https://dbxv2.fandom.com/wiki/Emperor's_Edge",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
     },
     {
