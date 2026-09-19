@@ -2367,3 +2367,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validation: skills JSON parsed successfully; targeted records carry explicit false values and refreshed verification dates. No validator or schema rule was changed.
 - CI: inspect push-triggered quality/cleanup/audit runs for the newest commit; previous failures exposed jobs with zero recorded steps/logs and remain infrastructure/account signals unless actionable logs appear.
 - Exact next task: recompute the live 177-record nullable Super/Ultimate census again, then research another small item-level batch. Prioritize records with explicit Skill Shop, TP/STP Medal Shop, mentor, wish, Expert Mission, or clearly non-UF character-drop provenance; do not infer false from generic PQ reward wording.
+
+
+### 2026-09-19 continuation — catalog-sync reconciliation
+- Reconciled a later skills-catalog update that had reverted several previously verified non-UF flags to null.
+- Restored explicit false `ultimate_finish_required` for 12 evidence-backed skills: Darkness Rush (Melee), Darkness Rush (Ranged), Dragon Fist, Godly Display, Supernova, Super Spirit Bomb, Divine Wrath: Purification, Final Kamehameha, Afterimage, Energy Charge, Full Power Charge, Maximum Charge.
+- Added/confirmed starter and Advancement Test provenance for the final four; these channels are intrinsically independent of PQ Ultimate Finish requirements.
+- Live nullable Super/Ultimate census must be recomputed from the post-sync file; the previous stale count is superseded.
+- Commit: 2ae6a86f2160a7e4edc226002e603ab06da66c90.
+- Important continuation rule: after any automated catalog sync, re-check these 12 records because synchronization can overwrite manually enriched acquisition metadata. Restore only when the underlying evidence remains present; do not blanket-edit the catalog.
+- Next exact task: inspect the remaining nullable records for explicit Skill Shop, TP/STP Medal Shop, mentor, wish, Expert Mission, Advancement Test, starter, or other intrinsically non-UF acquisition routes, while treating generic PQ reward wording as insufficient.
