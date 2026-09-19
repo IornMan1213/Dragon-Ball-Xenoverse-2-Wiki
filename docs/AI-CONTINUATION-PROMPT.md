@@ -1218,3 +1218,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Confirmed the current counter classifications and recorded resource/acquisition fields; no unsupported CaC race/gender/form restrictions were inferred.
 - Commits: `26d27c9d50be0d0ba1f8fa9a3aacec6fae0a3b36` (data), `2d3a9f52debad3f00a684c1ac4669cb3b3decc32` (audit).
 - Next continuation should advance beyond this counter cohort and select the next unresolved CaC-usable/null-race records from the canonical dataset.
+
+
+### 2026-09-19 continuation — remaining counter skills
+- Reconciled **Heroic Counter, Punisher Shield, Reverse Mabakusenko, and Rough Ranger** against current dedicated skill pages.
+- Confirmed current classes, attack types, resource costs, counter roles, and acquisition sources.
+- No CaC race/gender/form restriction was inferred from character users or partner customization.
+- Commits: `61a89b5e248ae96b6a5461530421665ea17097b3` (data), `9addfd0dd216a3d192c215b4dc8ebd1d543d60e2` (audit).
+- Continue with the next unresolved CaC-usable/null-race records after this counter cohort.
