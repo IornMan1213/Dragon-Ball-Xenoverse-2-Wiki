@@ -758,3 +758,9 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `156e8fce946ffd4085ebb86e0accb41e943b0706`.
 - Coverage commit: `21015527a5f032c42b9ad02768bedbd8717160e6`.
 - Continue prioritizing explicit form/race/gender entries, with ordinary character-origin techniques remaining null until the evidence actually establishes a CaC restriction.
+
+
+### Correction — Pure Majin batch representation
+- Verified live skill records after the previous batch. Only **Angry Shout, Buu Buu Ball, Vanishing Ball, and Teleporting Vanishing Ball** exist in `skills.json` from that six-technique source section; **Pearl Flash** and **Super Vanishing Ball** are absent, so they were not fabricated.
+- Coverage correction commit: `8fe4ef723a67e2d23358807deb55187e6a61854f`.
+- Next priority: continue explicit Future Warrior restriction mining while separately tracking source-documented techniques missing from the structured skill dataset.
