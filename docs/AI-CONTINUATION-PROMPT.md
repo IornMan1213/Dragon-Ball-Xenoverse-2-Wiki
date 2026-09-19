@@ -1442,3 +1442,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `d6d82ba7f5322495a0f7c0495a390a3aa51c6470`.
 - Audit commit: `9779acd8284d7c823a347101d47d74bd55ebc248`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following God Punisher.
+
+
+### 2026-09-19 continuation — Handy Canon through Paralysis
+- Reconciled **Handy Canon, Headshot, Heat Wave, Ill Bomber, Ill Rain, Kamehameha, Masenko, and Paralysis**.
+- Headshot retains **Strike Evasive / 300 Stamina**; Heat Wave retains **Strike Super / 200 Ki**; Ill Bomber retains **Majin** scope; Kamehameha and Masenko retain **All CaC races**.
+- Handy Canon, Ill Rain, and Paralysis remain CaC-usable without an explicitly established narrower race/gender/form restriction.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `832f7167527a88322581132ad02e2b9e0acbaaf1`.
+- Audit commit: `c38f51bf47496f1e8acfe59e00cc9efcc75a5930`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Paralysis.
