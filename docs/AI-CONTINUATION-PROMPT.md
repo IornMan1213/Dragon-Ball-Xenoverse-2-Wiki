@@ -2385,3 +2385,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 25689ddde2426dde26377a097013e489653632cb.
 - Live nullable Super/Ultimate census after the edit: 172 total (132 Super, 40 Ultimate).
 - Next task: continue with another small evidence-backed batch, prioritizing explicit non-PQ routes and rechecking for catalog-sync overwrites.
+
+
+### 2026-09-19 continuation — Final Rampage non-UF classification
+- Resolved `ultimate_finish_required=false` for Final Rampage.
+- Evidence: PQ174 documentation lists Final Rampage in the basic reward set; the Ultimate Finish section is distinct and does not list Final Rampage as an UF-only reward. citeturn1search0turn1search2turn1search1
+- Skills commit: f0f949bc5a4a3e8fc1017d1e0602cc6f57e41022.
+- Live nullable Super/Ultimate census after the edit: 171 total (132 Super, 39 Ultimate).
+- Next task: continue item-level audit of remaining nullable PQ records, prioritizing explicit basic-reward/non-UF evidence and avoiding inference from generic quest association.
