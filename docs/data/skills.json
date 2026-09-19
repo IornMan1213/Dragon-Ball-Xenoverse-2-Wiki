@@ -6200,11 +6200,12 @@
       "class": "Ultimate",
       "subcategory": "Strike",
       "race_restriction": "Namekian",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Ranged%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
@@ -6214,15 +6215,19 @@
       "ultimate_finish_required": null,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_race_restriction"
+      "research_status": "race_restriction_reconciled",
+      "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
+      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors."
     },
     {
       "name": "Divine Lasso",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Divine_Lasso",
+        "https://dragonball.fandom.com/wiki/Divine_Lasso",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
       ],
       "ki_cost": 300,
       "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
@@ -6231,64 +6236,70 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
-      "research_status": "reconciled_future_warrior_evidence"
+      "research_status": "reconciled_future_warrior_evidence",
+      "mechanics_notes": "300 Ki Ultimate. TP Medal Shop/STP Medal Shop availability is rotation-dependent; the official 2017 update explicitly scheduled Divine Lasso in the TP Medal Shop."
     },
     {
       "name": "Divine Wrath: Purification",
       "class": "Ultimate",
-      "subcategory": "Strike",
+      "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Fused Zamasu",
-      "dlc_requirement": "Super Pass",
+      "dlc_requirement": "Super Pack 4",
       "ki_cost": 300,
       "stamina_cost": null,
-      "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest 112 reward; obtain the skill after defeating Fused Zamasu in PQ112.",
       "source_quest_or_shop": "Parallel Quest 112",
       "ultimate_finish_required": null,
-      "skill_description": "Divine Wrath: Purification is a Ultimate Strike skill associated with Fused Zamasu.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "skill_description": "Divine Wrath: Purification is a Ki Blast Ultimate associated with Fused Zamasu and obtainable by the Future Warrior.",
+      "mechanics_notes": "300 Ki; large stationary energy sphere that remains in place until it vanishes/explodes. Exact drop probability remains unresolved.",
+      "verification_status": "verified",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification"
-      ]
+        "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification",
+        "https://dragonball.fandom.com/wiki/Divine_Wrath%3A_Purification",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Dragon Fist",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
-        "https://dbxv2.fandom.com/wiki/Dragon_Fist"
+        "https://dbxv2.fandom.com/wiki/Dragon_Fist",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792"
       ],
       "ki_cost": 500,
       "ultimate_finish_required": null,
-      "unlock_method": "TP Medal Shop",
+      "unlock_method": "TP Medal Shop; 200 TP Medals in the documented shop listing.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "reconciled_future_warrior_evidence",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price."
     },
     {
       "name": "Explosive Buu Buu Punch",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "Majin Buu",
       "dlc_requirement": "Base Game",
-      "ki_cost": 300,
+      "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 50 - Majin Chaos reward.",
       "source_quest_or_shop": "Parallel Quest 50",
       "ultimate_finish_required": null,
-      "skill_description": "Explosive Buu Buu Punch is a Ultimate Strike skill associated with Majin Buu.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
-      "verification_status": "partially_verified",
+      "skill_description": "Explosive Buu Buu Punch is a Strike Super usable by Majin CaCs.",
+      "mechanics_notes": "100 Ki; nine-hit close-range punch barrage with super armor.",
+      "verification_status": "verified",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
@@ -6297,7 +6308,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "Majin"
+      "race_restriction": "Majin",
+      "notes": "Current public skill evidence confirms Majin-only CaC access. The current source does not establish a separate gender restriction, so none is inferred."
     },
     {
       "name": "Final Rampage",
@@ -6305,15 +6317,15 @@
       "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan God) Ultra Supervillain",
-      "dlc_requirement": "Future Saga Chapter 2",
+      "dlc_requirement": "Future Saga Chapter 1",
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
-      "source_quest_or_shop": "PQ174 reward context",
+      "unlock_method": "Parallel Quest 174 - Hyper Special Training reward; exact drop gating requires further reconciliation.",
+      "source_quest_or_shop": "Parallel Quest 174",
       "ultimate_finish_required": null,
-      "skill_description": "Final Rampage is a Ultimate Strike skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "skill_description": "Final Rampage is a 500-Ki Strike Ultimate associated with Vegeta (Super Saiyan God) Ultra Supervillain; the repository currently retains All CaC races based on prior Future Warrior evidence.",
+      "mechanics_notes": "500 Ki; multi-stage rush/ground-impact sequence. Exact CaC acquisition/drop semantics remain under reconciliation because current public skill-page evidence emphasizes the character user.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_future_warrior_evidence",
       "last_verified": "2026-09-19",
@@ -6325,43 +6337,49 @@
     },
     {
       "name": "Gigantic Rage",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "Broly (Full Power Super Saiyan)",
       "dlc_requirement": "DLC PQ",
-      "ki_cost": 300,
+      "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 130 - Legendary Starving Saiyan Broly reward.",
       "source_quest_or_shop": "Parallel Quest 130",
       "ultimate_finish_required": null,
-      "skill_description": "Gigantic Rage is a Ultimate Strike skill associated with Broly (Full Power Super Saiyan).",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "skill_description": "Gigantic Rage is a 200-Ki Strike Super obtainable by the Future Warrior.",
+      "mechanics_notes": "200 Ki; close-range grab sequence with five hits and hard knockdown. Super Armor is documented for Broly's own use; it should not be generalized to CaC use without direct evidence.",
+      "verification_status": "verified",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+        "https://dragonball.fandom.com/wiki/Gigantic_Fury",
+        "https://dbxv2.fandom.com/wiki/Gigantic_Rage"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Godly Display",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
-        "https://dbxv2.fandom.com/wiki/Godly_Display"
+        "https://dbxv2.fandom.com/wiki/Godly_Display",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
       ],
       "ki_cost": 500,
       "ultimate_finish_required": null,
-      "unlock_method": "TP Medal Shop (500 TP Medals)",
+      "unlock_method": "TP Medal Shop; current documented price is 500 TP Medals.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "reconciled_future_warrior_evidence",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "source_quest_or_shop": "TP Medal Shop",
+      "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent."
     },
     {
       "name": "Power Rush",
