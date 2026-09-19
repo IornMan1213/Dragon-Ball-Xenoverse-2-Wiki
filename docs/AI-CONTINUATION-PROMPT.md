@@ -699,3 +699,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `6bb28b3140b30047c04a22436593cfc4feb55157`.
 - Coverage commit: `e876a3a75fd039bdac4a381e621043f771290060`.
 - Remaining null-CaC cohort is now **4 records**: Dark Inscription, Emperor's Cannon, Heat Wave, and Chaotic Time Impact. Continue those four with the same evidence standard before beginning the race-restriction census.
+
+
+### 2026-09-19 cycle update — Heat Wave CaC evidence
+- Confirmed **Heat Wave** as CaC-usable from a documented player custom-character build. citeturn4search4
+- Skills commit: `7e4650b290fdf48c6b1c237286b1a7772ff6cd25`.
+- Coverage commit: `b029dc646ccacea77c579212bddff201ed1e204b`.
+- Remaining null-CaC cohort is now **3 records**: Dark Inscription, Emperor's Cannon, and Chaotic Time Impact.
+- Next: exhaust those three with explicit evidence, then begin the race-restriction census in earnest.
