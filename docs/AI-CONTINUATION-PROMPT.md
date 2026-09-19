@@ -1291,3 +1291,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Final Flash (Super) remains character-exclusive/non-CaC; Galick Gun remains all-CaC-races. No unsupported race/gender/form restrictions inferred for the remaining records.
 - Data commit: `67e0da218135e66ac2c3c4b15d332c4578b9c3e6`; audit commit: `2efca126471664ae33a0cd31ba3c75f497f22eec`.
 - Next continuation should proceed from the records immediately following Gamma Blaster in dataset order.
+
+
+### 2026-09-19 continuation — Giant/God/Headshot/Heat cohort
+- Reconciled Giant Cluster, Gigantic Charge, God of Destruction's Plaything, God Punisher, Handy Canon, Headshot, Heat Wave, and Ill Bomber.
+- Important corrections: Gigantic Charge = **200 Ki Strike Super + 300 Stamina while hit**; God Punisher = **400 Ki Ki Blast Ultimate**; Headshot = **Strike Evasive + 300 Stamina**; Heat Wave = **200 Ki Strike Super**; Ill Bomber = **Majin-only**.
+- Data commit: `f7b6b69d49fae4bd67ec69f946084622e37e7cf7`; audit commit: `b3a884c182e362e7f376a04da5b148c3709bac7a`.
+- Next continuation should proceed from the records immediately following Ill Bomber in dataset order.
