@@ -1832,7 +1832,7 @@
       "source_quest_or_shop": "Parallel Quest 104",
       "ultimate_finish_required": null,
       "skill_description": "Destruction's Concerto: Starfall is a Super Ki Blast skill associated with Vados.",
-      "mechanics_notes": "Current evidence confirms Destruction's Concerto: Starfall as a Vados Super Skill obtainable from PQ104; it creates two energy spheres and can interact with Destruction's Conductor. No unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Destruction's Concerto: Starfall as a Vados Super Skill obtainable from PQ104; it creates two energy spheres and can interact with Destruction's Conductor. No unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1841,7 +1841,7 @@
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Starfall",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Destructo-Disc",
@@ -1876,7 +1876,7 @@
       "source_quest_or_shop": "Parallel Quest 59",
       "ultimate_finish_required": null,
       "skill_description": "Dimension Cannon is a Super Ki Blast skill associated with Super Buu.",
-      "mechanics_notes": "Current indexed evidence confirms Dimension Cannon as a 300-Ki Ki Blast Super from PQ59. Exact drop gating and detailed numerical mechanics remain under research; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current indexed evidence confirms Dimension Cannon as a 300-Ki Ki Blast Super from PQ59. Exact drop gating and detailed numerical mechanics remain under research; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1886,7 +1886,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 59,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Divine Kamehameha",
@@ -1947,7 +1947,7 @@
       "source_quest_or_shop": "Parallel Quest 24",
       "ultimate_finish_required": false,
       "skill_description": "Double Death Slicer is a Super Ki Blast skill associated with Frieza.",
-      "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1957,7 +1957,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 24,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Dust Attack",
@@ -1973,7 +1973,7 @@
       "source_quest_or_shop": "Parallel Quest 78",
       "ultimate_finish_required": null,
       "skill_description": "Dust Attack is a Super Ki Blast skill associated with Hercule.",
-      "mechanics_notes": "Current evidence confirms Dust Attack's PQ78 acquisition record. The broad Super Attack index places Dust Attack under Other rather than Ki Blast Skills, so the dataset's existing Ki-Blast classification should remain flagged for direct skill-page reconciliation rather than being silently normalized. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Dust Attack's PQ78 acquisition record. The broad Super Attack index places Dust Attack under Other rather than Ki Blast Skills, so the dataset's existing Ki-Blast classification should remain flagged for direct skill-page reconciliation rather than being silently normalized. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1982,7 +1982,7 @@
         "https://dbxv2.fandom.com/wiki/Dust_Attack",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Earth Splitting Galick Gun",
@@ -1998,7 +1998,7 @@
       "source_quest_or_shop": "Parallel Quest 11",
       "ultimate_finish_required": true,
       "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
-      "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11, with Ultimate Finish required in the existing acquisition record. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11, with Ultimate Finish required in the existing acquisition record. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -2009,7 +2009,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 11,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Emperor's Blast",
@@ -2027,9 +2027,9 @@
       "unlock_method": "Parallel Quest 70 - \"Things Are Getting Serious!\"; also available through TP Medal Shop rotation",
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 70 / TP Medal Shop",
-      "mechanics_notes": "Current evidence confirms Emperor's Blast as a 100-Ki Ki Blast Super associated with Hercule; the existing PQ70/TP Medal Shop acquisition record is retained. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Emperor's Blast as a 100-Ki Ki Blast Super associated with Hercule; the existing PQ70/TP Medal Shop acquisition record is retained. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "last_verified": "2026-09-19",
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Emperor's Cannon",
@@ -2045,7 +2045,7 @@
       "source_quest_or_shop": "PQ184",
       "ultimate_finish_required": null,
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
-      "mechanics_notes": "Current dedicated evidence confirms Emperor's Cannon as a 100-Ki Ki Blast Super from PQ184, 'The Invincible Duo', correcting the prior PQ183 record. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current dedicated evidence confirms Emperor's Cannon as a 100-Ki Ki Blast Super from PQ184, 'The Invincible Duo', correcting the prior PQ183 record. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -2055,7 +2055,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 184,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Eraser Bomb",
@@ -2071,7 +2071,7 @@
       "source_quest_or_shop": "PQ163",
       "ultimate_finish_required": null,
       "skill_description": "Eraser Bomb is a Super Ki Blast skill associated with Broly.",
-      "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -2080,7 +2080,7 @@
         "https://dbxv2.fandom.com/wiki/Eraser_Bomb",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Evil Blast",
