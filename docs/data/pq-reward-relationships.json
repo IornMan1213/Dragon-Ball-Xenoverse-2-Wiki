@@ -27,13 +27,6 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-059",
-      "relationship": "pq_rewards_equipment",
-      "target": "Vegito's Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
       "pq": "pq-083",
       "relationship": "pq_farming_route",
       "target": "Dragon Balls",
@@ -76,25 +69,11 @@
       "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
     },
     {
-      "pq": "pq-185",
-      "relationship": "pq_rewards_equipment",
-      "target": "Goku (Ultra Supervillain Quelled)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
       "pq": "pq-186",
       "relationship": "pq_requires_dlc",
       "target": "FUTURE SAGA Chapter 4",
       "status": "source_backed",
       "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
-    },
-    {
-      "pq": "pq-186",
-      "relationship": "pq_rewards_equipment",
-      "target": "Fu (Ultra Supervillain)'s Clothes",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq": "pq-002",
@@ -2573,6 +2552,279 @@
       "target": "I'll use this power to protect everyone!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-121",
+      "relationship": "pq_rewards_equipment",
+      "target": "Tuxedo",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-121",
+      "relationship": "pq_rewards_equipment",
+      "target": "Wedding Dress",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-123",
+      "relationship": "pq_rewards_equipment",
+      "target": "Arabian Costume",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-125",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku Wig (Ultra Instinct)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-127",
+      "relationship": "pq_rewards_equipment",
+      "target": "Janemba Suit",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-127",
+      "relationship": "pq_rewards_equipment",
+      "target": "Janemba Head",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-130",
+      "relationship": "pq_rewards_equipment",
+      "target": "Broly (Full Power Super Saiyan)'s Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_rewards_equipment",
+      "target": "SSGSS Gogeta's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_rewards_equipment",
+      "target": "Broly Wig (Legendary Super Saiyan)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_rewards_equipment",
+      "target": "Kakunsa's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_rewards_equipment",
+      "target": "Kakunsa's Wig and Mask",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_rewards_equipment",
+      "target": "Kakunsa's Tail",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-135",
+      "relationship": "pq_rewards_equipment",
+      "target": "Rozie's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-135",
+      "relationship": "pq_rewards_equipment",
+      "target": "Rozie's Hood and Goggles",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-139",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 21's Lab Uniform",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-139",
+      "relationship": "pq_rewards_equipment",
+      "target": "Universe 7 Baseball Uniform",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-139",
+      "relationship": "pq_rewards_equipment",
+      "target": "Universe 7 Baseball Cap",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-142",
+      "relationship": "pq_rewards_equipment",
+      "target": "Universe 6 Baseball Uniform",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-144",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gine (DB Super)'s Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-144",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gine (DB Super) Set",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-146",
+      "relationship": "pq_rewards_equipment",
+      "target": "Bardock (DB Super)'s Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-147",
+      "relationship": "pq_rewards_equipment",
+      "target": "Caulifla's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-147",
+      "relationship": "pq_rewards_equipment",
+      "target": "Caulifla Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_rewards_equipment",
+      "target": "Kale's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_rewards_equipment",
+      "target": "Kale Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-149",
+      "relationship": "pq_rewards_equipment",
+      "target": "Bulma (Kid)'s Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-149",
+      "relationship": "pq_rewards_equipment",
+      "target": "Bulma (Kid) Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 17 (DB Super) Ranger Outfit",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 17 (DB Super) Ranger Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-154",
+      "relationship": "pq_rewards_equipment",
+      "target": "King Vegeta (DB Super)'s Battle Suit",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-154",
+      "relationship": "pq_rewards_equipment",
+      "target": "King Vegeta (DB Super) Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-155",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gamma 2 Helmet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-156",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gamma 1's Helmet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-158",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gamma 2's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-159",
+      "relationship": "pq_rewards_equipment",
+      "target": "Dr. Hedo Hood",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-160",
+      "relationship": "pq_rewards_equipment",
+      "target": "Red Ribbon Army Helmet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-161",
+      "relationship": "pq_rewards_equipment",
+      "target": "Red Ribbon Soldier 94 Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-162",
+      "relationship": "pq_rewards_equipment",
+      "target": "Dr. Hedo Suit",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-162",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gohan (Beast) Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "normalization_rules": [
@@ -2590,6 +2842,7 @@
   ],
   "current_counts": {
     "skill": 229,
-    "super_soul": 125
+    "super_soul": 125,
+    "equipment": 39
   }
 }
