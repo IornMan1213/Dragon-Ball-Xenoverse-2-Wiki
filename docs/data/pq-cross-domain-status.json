@@ -13,11 +13,11 @@
   "reverse_index_plan": "docs/data/pq-cross-domain-index.json",
   "current_edges": {
     "skill": 229,
-    "super_soul": 0,
+    "super_soul": 125,
     "equipment": 4,
     "character": 0,
     "dlc": 5,
     "farming": 4
   },
-  "note": "Skill relationship population is source-backed across PQ 1-186; remaining cross-domain expansion is Super Soul, equipment, character, DLC and reverse-index reconciliation."
+  "note": "Skill and Super Soul relationship populations are source-backed across the normalized PQ reward layer; equipment, character, DLC and farming relationships remain under reconciliation."
 }
