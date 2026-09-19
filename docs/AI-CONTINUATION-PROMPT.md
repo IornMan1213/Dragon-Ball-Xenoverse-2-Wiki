@@ -2331,3 +2331,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Preserved remaining nullable fields where the repository only has ambiguous or PQ-gating evidence.
 - External cross-check: current reference material confirms TP/STP shops and mentor training are distinct skill acquisition channels. citeturn0search0turn0search2turn0search8
 - Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and target another evidence-backed batch, prioritizing explicit Ultimate Finish requirements or unambiguous shop/mentor routes.**
+
+
+### 2026-09-19 continuation — additional explicit non-UF acquisition batch
+- Resolved `ultimate_finish_required: false` for 10 additional skills with explicit non-UF routes: Sudden Death Beam, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance, Namek Finger, Pressure Sign, and Emperor's Blast.
+- Preserved nullable values where the repository only has ambiguous or PQ-only acquisition wording without enough evidence to establish UF requirements.
+- Web cross-check: TP Medal Shop and mentor training are documented independent skill acquisition channels. citeturn0search0turn0search2
+- Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and continue with evidence-driven batches; do not convert generic PQ reward entries to `false` without explicit non-UF evidence.**
