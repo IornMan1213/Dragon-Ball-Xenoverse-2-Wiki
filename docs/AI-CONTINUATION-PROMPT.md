@@ -1242,3 +1242,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Sudden Death Beam's existing acquisition data was retained because its dedicated page could not be freshly retrieved in this pass.
 - Data commit: `4cdc73fd86aa0a2d0945aaf3ccb4413c014590e5`; audit commit: `567e1698100dfde569aa9518751e13677ea48416`.
 - Next continuation should proceed from the next dataset-order unresolved records after Ultrasonic Blitz.
+
+
+### 2026-09-19 continuation — Evasive cohort
+- Reconciled: Absolute Zero, Celestial Wave, Dragon Burn, Explosive Wave, Force Shield, Instant Rise, Ki Explosion, Maiden Burst.
+- Current evidence confirms Evasive classifications, stamina costs and acquisition routes where documented. Force Shield was corrected to Ki Blast. Existing explicit all-CaC-races coverage for Ki Explosion was retained.
+- Data commit: `8830647798b1b93b499b8d1269d3fecf3386f684`; audit commit: `08d8bcee08b92ef2f05b9b16f0cfdb396faaf448`.
+- Next continuation should proceed from the next dataset-order unresolved records after Maiden Burst.
