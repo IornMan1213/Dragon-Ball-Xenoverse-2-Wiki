@@ -597,3 +597,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Resource values were filled only where the current evidence supports them; no reward probability was inferred.
 - Skills commit: `00ef8d9e609274297915e365f21f0924e598d968`.
 - External evidence: Bending Kamehameha/Future Warrior, Data Input, Full Power Charge/charge-skill lineage, Pressure Sign, Meditation, Deadly Dance, and Quick Sleep references were reviewed. cite references are external only; repository files retain source URLs.
+
+
+## 2026-09-19 Future Warrior ultimate-skill reconciliation
+
+- Reconciled **Big Bang Kamehameha, Super Spirit Bomb, Emperor's Death Beam, and Final Explosion** from Future Warrior-specific Xenoverse 2 references.
+- Big Bang Kamehameha is explicitly obtainable by the Future Warrior through the TP Medal Shop; Super Spirit Bomb is a Future Warrior reward from Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion is obtainable by the Future Warrior from the TP Medal Shop. citeturn1search1turn2search1turn2search2turn3search0
+- Added CaC eligibility, race scope, acquisition/provenance, and supported resource data without promoting the records to `verified` because exact historical/version and reward-state semantics remain separate audit questions.
+- Skills commit: `ed425d388377902aed738ba03ae49b85342d3c41`.
