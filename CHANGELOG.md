@@ -1,3 +1,7 @@
+## September 2026 — Saiyan Awoken verification
+- Verified **Future Super Saiyan**, **Super Saiyan God Super Saiyan**, and **Super Saiyan God Super Saiyan (Evolved)** as Saiyan CaC Awoken Skills.
+- Added exact level/friendship progression for SSGSS and Evolved and preserved the distinction between mentor award eligibility and actual race usability.
+
 ## September 2026 — Awoken classification correction
 - Corrected three seeded Awoken records that incorrectly indicated CaC availability: **Pure Progress**, **Super Saiyan Blue Kaioken**, and **Supersonic Mode**.
 - Added correction batch 37 and preserved the original research history.
