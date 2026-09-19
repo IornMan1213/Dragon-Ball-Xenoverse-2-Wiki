@@ -2170,3 +2170,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated the reverse reward index and cross-domain audit/status.
 - Empty fields remain non-negative; existing independently sourced edge-only relationships were not deleted.
 - Exact next task: **reconcile the remaining edge-only Super Soul/equipment provenance against independent sources, keeping `source_normalized` and `source_backed` evidence distinct.**
+
+
+### 2026-09-19 continuation — edge-only reward provenance reconciliation
+- Audited the remaining edge-only Super Soul/equipment cases in the 232-case provenance inventory.
+- **88 edge-only cases** were resolved as retained independently `source_backed` relationships; **0 remained unresolved** in this tranche.
+- The key distinction is now explicit: omission from a partial normalized reward map is not treated as a negative claim when the forward relationship has independent source-backed provenance.
+- Updated `docs/data/pq-cross-domain-reconciliation.json`, `docs/data/pq-cross-domain-audit.json`, and `docs/data/pq-cross-domain-status.json`.
+- Current totals remain **232 skills, 135 Super Souls, 96 equipment, 247 characters, 88 DLC, 7 farming = 805 edges**.
+- Exact next task: **resolve the remaining source-only normalized reward-map entries by independent source verification or retain them as an explicitly unresolved normalized-source inventory; then audit equipment subtype classification and the PQ 1-14 coverage limitation.**
