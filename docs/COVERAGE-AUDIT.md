@@ -2226,3 +2226,12 @@ Resolved `ultimate_finish_required` to `false` for 10 skills with explicit non-U
 ## 2026-09-19 — Super non-UF acquisition batch 2
 
 Resolved `ultimate_finish_required` to `false` for 9 Super skills with explicit non-PQ-UF acquisition routes: Sudden Death Beam (TP/STP Medal Shop or Double Crystal Raid), Quick Sleep (Skill Shop), Rise to Action (Krillin mentor training), Spirit Boost (Skill Shop), Super Guard (starter/Skill Shop), Fighting Pose K (Skill Shop), Deadly Dance (Android 18 training), Namek Finger (TP Medal Shop), and Pressure Sign (Skill Shop). The acquisition model distinguishes guaranteed shop/mentor routes from PQ drop gating.
+
+
+## 2026-09-19 — explicit non-UF Ultimate acquisition batch
+
+Resolved ultimate_finish_required=false for four Ultimate skills whose repository acquisition metadata provides a direct non-Ultimate-Finish route: Darkness Rush (Melee) and Darkness Rush (Ranged) through Lord Slug Lesson 3 mentor training, plus Dragon Fist and Godly Display through the TP Medal Shop. No value was assigned to Final Kamehameha because its mixed TP Medal Shop / PQ91 / Double Crystal Raid provenance is documented but the currently available evidence was not sufficient to reconcile every acquisition path cleanly.
+
+- Updated docs/data/skills.json only for the four directly supported records.
+- Preserved nullable UF metadata for PQ-only skills where generic PQ association does not establish Ultimate Finish gating.
+- No validator or schema rule was changed.
