@@ -2628,3 +2628,9 @@ Verified one additional missing `source_quest`: **Spirit Slash → Parallel Ques
 
 Skills commit: `09749b684f757f585b223ccea8eafacbe8e3ab14`.
 
+## 2026-09-19 — source-quest provenance batch 3
+
+Added four explicit Parallel Quest provenance references: **Dark Inscription → PQ182 — Frieza's Fervent Wish; Demon Ray → PQ160 — Pan in Peril; Destruction's Concerto: Comet → PQ104 — Vados the Talent Scout; Destruction's Concerto: Starfall → PQ104 — Vados the Talent Scout**. The skill pages explicitly identify these quest unlocks, while the PQ guide independently lists the relevant PQ104 rewards. https://dbxv2.fandom.com/wiki/Dark_Inscription https://dbxv2.fandom.com/wiki/Demon_Ray https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto%3A_Comet https://dbxv2.fandom.com/wiki/Destruction%27s_Concerto%3A_Starfall https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+
+Skills commit: `302826e735c5394d6b46f0a8c23ac953becddc16`.
+
