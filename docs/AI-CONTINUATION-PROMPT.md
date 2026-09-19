@@ -2038,3 +2038,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `909c71bd5082761f9848b937bcb8aa4d65f35f5d`.
 - Do not use the older partial reward-map empties as negative evidence. They mean unresolved in that normalization layer, not “no reward.”
 - Exact next task: reconcile PQ 21-40 skill rewards against direct current-reference evidence, updating only evidence-backed relationships and then update this handoff again.
+
+
+### 2026-09-19 continuation — PQ 21-40 provenance pass
+- Audited PQ 21-40 skill rewards against current all-186 PQ evidence.
+- No unsupported skill additions were necessary. PQ 30 and PQ 35 remain empty for `skill_rewards` because the referenced reward tables list clothing/souls or other rewards but no skill for those quests.
+- Added `https://steamcommunity.com/sharedfiles/filedetails/?id=808851543` to all PQ 21-40 source arrays for consistent current provenance.
+- Commit: `2a16f0fdb1f871713fa5b61234362853b95b042c`.
+- Next exact task: continue the same evidence-backed skill-reward/source audit into **PQ 41-60**, then update the audit and handoff.
