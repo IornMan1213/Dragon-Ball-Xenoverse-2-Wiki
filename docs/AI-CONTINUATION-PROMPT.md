@@ -2558,3 +2558,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `f849d0c85810ed96d87916d454eee0b0d2a8a361`.
 - Coverage audit commit: `169954139ace252fb4224dcdd9078ba0e8a1ccfe`.
 - Exact next task: continue the same evidence-backed Basic Reward pass. Recompute the nullable census first and do not alter records whose actual UF gating remains unresolved.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 19
+- Verified explicit Basic Reward placement for **Lightning Impact (PQ142), Heroic Assault (PQ156), Shooting Strike (PQ156), Gamma Impact (PQ155), Shield Barrier (PQ153), Sign of Awakening (PQ154), Circle Flash (PQ154), and Thunder Flash (PQ146)**. citeturn0search0turn0search2
+- Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
+- Live nullable Super/Ultimate census: **88 total — 55 Super / 33 Ultimate**.
+- Skills commit: `83ba610a2469bccbe2ab4da1ce24f6a899661ccd`.
+- Coverage audit commit: `2fd7f1ed3d80161c31e79c6ff9edafa143d196d1`.
+- Exact next task: continue bounded evidence-backed Basic Reward auditing; recompute the live nullable census first and preserve `null` where actual UF gating remains unresolved.
