@@ -2522,3 +2522,19 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 7e9d2d8 (latest skills change in this continuation; verify exact SHA in history if needed).
 - Live nullable Super/Ultimate census: 115 total (80 Super, 35 Ultimate).
 - Next task: continue remaining nullable PQ candidates and reconcile any conflicts before clearing gates.
+
+
+### 2026-09-19 continuation — basic-reward Super non-UF batch 16
+- Workstream: skill acquisition metadata / Ultimate Finish provenance.
+- Recomputed the live skill census before editing: **283 records; 269 CaC-usable; 0 CaC-usable records with null race restriction**. The active race-restriction census is therefore complete for the current canonical skill file; do not reopen it unless new evidence or a contradiction appears.
+- Resolved `ultimate_finish_required: false` for **Giant Cluster** (PQ163), **Gigantic Charge** (PQ128), **Handy Canon** (PQ115), and **Super Ghost Buu Attack** (PQ113).
+- Evidence: the maintained all-186 PQ guide explicitly places each skill in its quest's **Basic Reward** list, distinct from the Ultimate Finish conditions. This is direct negative evidence for a UF-only acquisition requirement. Source: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+- Handy Canon was previously left nullable because of conflicting acquisition-gating evidence; the explicit PQ115 Basic Reward listing now supplies direct evidence supporting `false`.
+- Giant Cluster, Gigantic Charge, and Super Ghost Buu Attack likewise now have explicit false UF metadata from Basic Reward placement.
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Skills commit: `d4ba9551578e8cfc2a953ed78d8c3cea5ebc9b22`.
+- Coverage audit commit: `edc6b37be4971e09793177c062e875f94b7ba408`.
+- Validation: `docs/data/skills.json` parsed successfully after rewrite; targeted four records have explicit `ultimate_finish_required=false`; live nullable Super/Ultimate census is **111 total — 76 Super and 35 Ultimate**. No schema or validator was changed.
+- Artifact hygiene: changed skill data contains no ChatGPT/UI citation markup or internal tool-reference IDs.
+- CI status: the GitHub connector returned **no workflow runs** for the latest coverage-audit commit, so there is no actionable run result to evaluate. Do not weaken validators; continue treating absent/opaque CI execution as infrastructure/account state until actionable logs exist.
+- Exact next task: **recompute the nullable Super/Ultimate census again, then continue with a small evidence-backed Basic Reward/non-UF batch.** Prioritize explicit Basic Reward candidates among the remaining 76 Super / 35 Ultimate nulls; preserve null where reward-slot gating is not established. Continue rechecking catalog-sync overwrites after any automated catalog update.
