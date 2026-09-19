@@ -2113,3 +2113,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Added/confirmed skills for PQ 163-168, 171-186; PQ 169 and PQ 170 remain without normalized skill rewards because their current source-backed reward lists establish clothing/artwork/Super Soul rewards but no skill.
 - Added the all-186 Steam reference to every PQ 163-186 record.
 - Data commit: `3432f50877c550189d6f25f6d2026bf294f61f35`.
+
+
+## 2026-09-19 — Full PQ skill-edge reconciliation
+
+- Reconciled the canonical PQ 1-186 skill reward fields into `docs/data/pq-reward-relationships.json`.
+- Populated **229 source-backed `pq_rewards_skill` edges** across PQ 1-186, including the early PQ 1-14 research layer.
+- Removed the stale `pq-001 -> Death Slash` relationship; current source-backed PQ 1 establishes no skill reward, while Death Slash is documented at PQ 23. citeturn0search0
+- Regenerated `docs/data/pq-skill-crosslink-report.json`: 229 linked skill rewards, 0 unresolved.
+- Updated `docs/data/pq-cross-domain-status.json` to reflect skill-edge completion.
+- Commits: relationship `4e1b628045bdcbf35c4d0f221111cd24b8a9a6a4`, report `01bed910511947d5b614eed0f2d7de597ca7f2c3`, status `a483755f96a02a1a6f06c013aa98aeb90c925e79`.
