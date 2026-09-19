@@ -2459,3 +2459,12 @@ Resolved `ultimate_finish_required: false` for **S.S. Deadly Bomber (PQ115)** an
 - Live nullable Super/Ultimate census after this batch: **35 total — 28 Super / 7 Ultimate**.
 - Skills commit: `c9cb6945ea3f02fb1112c290c1506169a60e973b`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 29
+
+Resolved `ultimate_finish_required: false` for **Do or Die (PQ49), Charge (PQ83), Divinity Unleashed (PQ110), Fighting Pose H (PQ61), Majin Kamehameha (PQ60), Mystic Flash (PQ20), Warp Kamehameha (PQ76), and Super Black Kamehameha Rosé (PQ109)**. The maintained PQ reward guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1turn0search4
+
+- Live nullable Super/Ultimate census after this batch: **27 total — 24 Super / 3 Ultimate**.
+- Skills commit: `5bab0a70c05064b9044ab7d25f93e20255058eb7`.
+- No schema or validator changes.
