@@ -657,3 +657,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `b9a8e3ae8baa7c8acbe11c150266a01b1f0c747b`.
 - Coverage commit: `865fb30619def2d79296b5cb767dbe2576c069e6`.
 - Next: continue the 18-record null-CaC cohort, then resume the 184-record race-restriction census using explicit race/gender/form evidence only.
+
+
+### 2026-09-19 cycle update — explicit Future Warrior corrections
+- Recalculated and re-audited the null-CaC cohort. **Mystic Flash** and **Thunder Flash** are explicitly included in the Future Warrior technique corpus and were corrected to `usable_by_cac: true`; race scope remains unresolved rather than being guessed. citeturn3search0turn3search6
+- Skills commit: `cbb114e5cef2b499450dc937367d3b95e7a1e202`.
+- Coverage commit: `4db0b54773c7bdf8964ec74d47356436fdc28250`.
+- Next: continue the remaining null-CaC cohort, then resume the explicit race-restriction census.
