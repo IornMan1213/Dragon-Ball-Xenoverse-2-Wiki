@@ -2425,3 +2425,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 19c144ca570be2651ce5ce586181f38d9f022311.
 - Live nullable Super/Ultimate census: 158 total (119 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; preserve null when evidence does not establish the acquisition gate.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 5
+- Resolved `ultimate_finish_required=false` for Burst Kamehameha (PQ72) and Big Bang Knuckle (PQ172).
+- Evidence: both are explicitly listed in their corresponding PQ Basic Reward lists, separate from UF conditions.
+- Skills commit: 2a5de6d1cd85ef67c874e6e8a294062f2b164331.
+- Live nullable Super/Ultimate census: 156 total (117 Super, 39 Ultimate).
+- Next task: continue with explicit Basic Reward candidates; avoid treating generic “obtained from PQ” pages as proof of non-UF gating.
