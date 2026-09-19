@@ -1258,3 +1258,17 @@ Reconciled Do or Die, Fighting Pose E, Fighting Pose H, Fighting Pose K, Formati
 - Indomitable retained as 0-Ki Future Saga Chapter 4 skill with health-sensitive Ki/Stamina charging; exact thresholds remain partially verified.
 - Justice Pose confirmed as 0-Ki/PQ53 all-stat buff for 20 seconds.
 - Meditation confirmed as 0-Ki/PQ122 maximum-Ki/auto-recovery buff with current 20-second duration; stacking interactions remain version-sensitive.
+
+
+## 2026-09-19 — Taunt through Deadly Dance cohort
+
+Reconciled Taunt, Blazing Attack, Brave Sword Slash, Burning Slash, Burning Swan, Burst Blitz, Crimson Edge, and Deadly Dance.
+
+- Taunt confirmed as 0-Ki Hercule/PQ45 Power Up Super.
+- Blazing Attack confirmed as 100-Ki Goku (Ultra Instinct)/PQ136 Ultimate Finish Strike Super.
+- Brave Sword Slash confirmed as 100-Ki Tapion/PQ116 Strike Super, CaC-usable.
+- Burning Slash confirmed as 100-Ki/PQ44 Strike Super restricted to Human/Earthling and Saiyan CaCs.
+- Burning Swan confirmed as 100-Ki Videl/Future Saga Chapter 1 PQ167 Strike Super.
+- Burst Blitz confirmed as 300-Ki Goku (Mini)/Future Saga Chapter 2 PQ178 Strike Super.
+- Crimson Edge retained as 100-Ki Goku Black (Rosé) Ultra Supervillain Strike Super and non-CaC.
+- Deadly Dance confirmed as 100-Ki Android 18 mentor Strike Super, all CaC races.
