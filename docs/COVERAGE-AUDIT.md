@@ -2246,3 +2246,8 @@ Resolved `ultimate_finish_required` to `false` for **Afterimage**, **Energy Char
 ## 2026-09-19 — Character-exclusive non-UF acquisition batch 6
 
 Resolved `ultimate_finish_required` to `false` for **Final Flash (Super)**, **Energy Release**, **Final Charge**, **Instant Charge**, **Rising Rage**, **Time Bullet**, and **Dragon Thunder**. Existing records explicitly identify these as character-exclusive/non-CaC skills, so their acquisition does not depend on a Parallel Quest Ultimate Finish. Ambiguous character-skill/PQ-context records were left unchanged.
+
+
+## 2026-09-19 — Explicit Ultimate Finish batch 1
+
+Resolved `ultimate_finish_required` to `true` for **Assault Vanish**. Its acquisition provenance explicitly identifies the PQ131 Legendary Finish route, which is the recorded Ultimate Finish acquisition path. No other ambiguous PQ records were changed.
