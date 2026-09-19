@@ -2630,3 +2630,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `90b811333a9acc9247f71ec0782a35b8ceb9803a`.
 - Coverage audit commit: `17724f19445cb2f8600033c480c70438b4f9d3ec`.
 - Exact next task: continue the bounded Basic Reward evidence pass, but distinguish explicit Basic Reward placement from separate Ultimate Finish-only rewards; preserve `null` where the acquisition gate itself is not established.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 27
+- Verified explicit Basic Reward placement for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**. citeturn0search0turn0search1
+- Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all seven.
+- Live nullable Super/Ultimate census: **39 total — 35 Super / 4 Ultimate**.
+- Skills commit: `bc0bffe7ec4bfa1d1cf284c3141b513b53d0dd4d`.
+- Coverage audit commit: `3e33b6d18793b42601754934a5a5bb25411909e9`.
+- Exact next task: continue the bounded Basic Reward evidence pass; remaining nullable Ultimate records are few, so verify their reward sections carefully and preserve `null` where UF gating remains unresolved.
