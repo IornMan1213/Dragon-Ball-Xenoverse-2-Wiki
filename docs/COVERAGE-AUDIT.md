@@ -1216,3 +1216,17 @@ Reconciled Final Charge, Full Power Charge, Hero's Flute, Instant Charge, Instan
 - Instant Transmission confirmed as Goku Lesson 1, 0-resource teleport usable by all CaC races.
 - Kai Kai confirmed as Whis's 100-Ki ally/partner teleport from PQ63.
 - Petrifying Spit confirmed as Dabura's 100-Ki petrification skill from PQ114, usable by all CaC races.
+
+
+## 2026-09-19 — Phantom Fist through Super Guard cohort
+
+Reconciled Phantom Fist, Quick Sleep, Rise to Action, Rising Rage, Shield Barrier, Solar Flare, Spirit Boost, and Super Guard.
+
+- Phantom Fist confirmed as 100-Ki PQ97 Other Super, all CaC races.
+- Quick Sleep confirmed as 0-Ki Skill Shop Other Super, restricted to Majin CaCs.
+- Rise to Action confirmed as 100-Ki Krillin mentor skill, all CaC races.
+- Rising Rage retained as Restrained Broly-exclusive, non-CaC.
+- Shield Barrier confirmed as 100-Ki PQ153 Other Super, all CaC races.
+- Solar Flare confirmed as 100-Ki PQ01 Other Super, all CaC races.
+- Spirit Boost confirmed as 0-Ki Skill Shop defensive barrier, usable by CaCs.
+- Super Guard confirmed as 100-Ki base/Skill Shop barrier, all CaC races.
