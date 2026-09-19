@@ -18,11 +18,11 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Future work should obtain authoritative/source-backed reward data for PQ 1, 12, 13, and 14 before adding relationships; otherwise maintain the documented 182-PQ coverage boundary.",
+  "next_completion_gate": "Re-run final 1-186 relationship consistency checks after PQ 12-14 additions.",
   "current_counts": {
-    "skill": 232,
-    "super_soul": 135,
-    "equipment": 122,
+    "skill": 236,
+    "super_soul": 137,
+    "equipment": 125,
     "character": 247,
     "dlc": 88,
     "farming": 7
@@ -33,7 +33,7 @@
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
     "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
   },
-  "status": "final_relationship_consistency_audit_complete",
+  "status": "pq_1_186_reward_coverage_reconciled",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
   "full_corpus_audit": {
     "canonical_reward_maps": 6,
@@ -99,13 +99,9 @@
       14
     ],
     "relationship_PQ_coverage": {
-      "covered_PQs": 182,
-      "missing_PQs": [
-        1,
-        12,
-        13,
-        14
-      ]
+      "covered_PQs": 186,
+      "missing_PQs": [],
+      "note": "PQ 1 has no typed skill/Super Soul/equipment reward in the cited Basic Reward list; PQ 12-14 now have all explicitly listed typed rewards recorded."
     },
     "equipment_reverse_coverage": {
       "forward_edges": 122,
