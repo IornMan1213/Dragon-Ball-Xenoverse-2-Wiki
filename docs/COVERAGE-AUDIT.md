@@ -2436,6 +2436,6 @@ Resolved `ultimate_finish_required: false` for **Justice Drive (PQ168), God of D
 Resolved `ultimate_finish_required: false` for **Dragon Spiral (PQ185), Indomitable (PQ185), and Venus Fist (PQ186)**. The maintained all-186-PQ guide explicitly places these skills in the respective **Basic Reward** lists, separate from the quest Ultimate Finish conditions. citeturn0search0turn0search2
 
 - Evidence is explicit reward-section evidence; community discussion about the skills' RNG/drop behavior does not override the documented reward-section placement. citeturn0search1turn0search3
-- Live nullable Super/Ultimate census after this batch: **52 total — 40 Super / 12 Ultimate**.
+- Live nullable Super/Ultimate census after this batch: **46 total — 35 Super / 11 Ultimate**.
 - Skills commit: `90b811333a9acc9247f71ec0782a35b8ceb9803a`.
 - No schema or validator changes.
