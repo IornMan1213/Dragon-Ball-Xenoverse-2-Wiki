@@ -2435,3 +2435,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `a76102550b7fb7e06081f191e8994efc7cc815f3`.
 - This records an independent acquisition route; it does not assert anything about random drop probability.
 - Next task: continue looking for explicit non-UF ordinary reward listings or explicit UF-only acquisition statements among the remaining 162 nulls.
+
+
+### 2026-09-19 continuation — targeted PQ skill-gate search
+- Checked Side Bridge (PQ39), Death Psycho Bomb (PQ33), Atomic Blast (PQ87), Bluff Kamehameha (PQ94), Burning Attack (PQ41), Crazy Finger Shot (PQ26), and Candy Beam (PQ66) for repository evidence explicitly tying the skill to an Ultimate Finish.
+- No matching explicit UF-gate evidence was found in the repository search index.
+- No data changes made; these remain `null` because ordinary PQ reward listings do not prove either UF-only or non-UF acquisition.
+- Current nullable Super/Ultimate count remains **162**.
+- Next task: continue targeted evidence searches, especially records with richer provenance or dedicated acquisition-guide sources.
