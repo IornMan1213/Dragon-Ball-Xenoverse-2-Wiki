@@ -373,10 +373,10 @@
         "https://dbxv2.fandom.com/wiki/Pure_Progress"
       ],
       "ultimate_finish_required": false,
-      "race_restriction": null,
+      "race_restriction": "Character-only",
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
-      "mechanics_notes": "500 Ki is required and consumed for each transformation stage; Stage 1 and Stage 2 use the character-only Pure Progress transformation. Current reference documents 500 Ki consumed on transformation. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "500 Ki is required and consumed for each transformation stage; Stage 1 and Stage 2 use the character-only Pure Progress transformation. Current reference documents 500 Ki consumed on transformation. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 500
@@ -406,7 +406,7 @@
       "name": "Super Saiyan Blue Kaioken",
       "class": "Awoken",
       "subcategory": "Transformation",
-      "race_restriction": null,
+      "race_restriction": "Character-only",
       "usable_by_cac": false,
       "verification_status": "verified_current_scope",
       "sources": [
@@ -418,7 +418,7 @@
       "ultimate_finish_required": false,
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
-      "mechanics_notes": "500 Ki is required for the normal Super Saiyan Blue Kaioken stage and 500 Ki for the x10 stage; the transformation is character-only and remains unavailable to CaCs. Current reference documents the 500 Ki requirement and both stages. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "500 Ki is required for the normal Super Saiyan Blue Kaioken stage and 500 Ki for the x10 stage; the transformation is character-only and remains unavailable to CaCs. Current reference documents the 500 Ki requirement and both stages. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 500
@@ -436,10 +436,10 @@
         "https://dbxv2.fandom.com/wiki/Supersonic_Mode"
       ],
       "ultimate_finish_required": false,
-      "race_restriction": null,
+      "race_restriction": "Character-only",
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
-      "mechanics_notes": "No Ki is required to activate Supersonic Mode; the character-only transformation instead has an automatic Stamina drain while active. Current reference lists Ki Required: None. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "No Ki is required to activate Supersonic Mode; the character-only transformation instead has an automatic Stamina drain while active. Current reference lists Ki Required: None. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 0
