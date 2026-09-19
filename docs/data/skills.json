@@ -6391,14 +6391,14 @@
       "ki_cost": 1000,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 122 Ultimate Finish reward",
       "source_quest_or_shop": "Parallel Quest 122",
       "ultimate_finish_required": true,
       "skill_description": "Power Rush is a Ultimate Strike skill associated with Jiren.",
-      "mechanics_notes": "Requires 1000 Ki (10 bars). The skill is a high-cost Strike Ultimate obtained from PQ122; contemporary player testing also documents the 1000 Ki activation requirement. Using it can consume the user's available Ki on activation.",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "mechanics_notes": "1000 Ki Strike Ultimate; 14-hit rushdown. It can only be activated with 1000 Ki. PQ122 is the documented acquisition quest and Power Rush is an Ultimate Finish reward.",
+      "verification_status": "verified",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -6406,7 +6406,8 @@
         "https://dbxv2.fandom.com/wiki/Power_Rush",
         "https://steamcommunity.com/app/454650/discussions/0/1697167355226740361/"
       ],
-      "source_quest": 122
+      "source_quest": 122,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Saiyan Spirit",
@@ -6422,9 +6423,9 @@
       "source_quest_or_shop": "Parallel Quest 84",
       "ultimate_finish_required": null,
       "skill_description": "Saiyan Spirit is a Ultimate Strike skill associated with Bardock.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "300 Ki Strike Ultimate. PQ84 is the documented reward quest. The repository retains Saiyan-only CaC access based on Future Warrior evidence.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_future_warrior_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -6448,16 +6449,17 @@
       "source_quest_or_shop": "Parallel Quest 31",
       "ultimate_finish_required": true,
       "skill_description": "Super Dragon Flight is an Ultimate Strike skill associated with Gohan (Adult); it is a 35% Ultimate Finish reward from Parallel Quest 31.",
-      "mechanics_notes": "PQ31 is a 35% Ultimate Finish reward in the maintained datamined PQ record; the quest's documented Ultimate Finish requires the transformation kill-order and revived Gohan.",
+      "mechanics_notes": "300 Ki Strike Ultimate. PQ31 is the documented Ultimate Finish reward; the current repository records the quest's transformation/kill-order Ultimate Finish requirement.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md"
       ],
-      "source_quest": 31
+      "source_quest": 31,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Supreme Fury",
@@ -6473,7 +6475,7 @@
       "source_quest_or_shop": "PQ179 reward context",
       "ultimate_finish_required": null,
       "skill_description": "Supreme Fury is a Strike Super Attack associated with SS4 Goku (DAIMA).",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
+      "mechanics_notes": "100 Ki Strike Super. PQ179 reward context is retained; exact drop conditions and numerical mechanics remain under research.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_future_warrior_evidence",
       "last_verified": "2026-09-19",
@@ -6497,14 +6499,15 @@
       "source_quest_or_shop": "Parallel Quest 10",
       "ultimate_finish_required": null,
       "skill_description": "Unrelenting Barrage is a Ultimate Strike skill associated with Gohan (Kid).",
-      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "mechanics_notes": "300 Ki Strike Ultimate. PQ10 is the documented acquisition quest; exact drop gating remains under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Venus Fist",
@@ -6520,14 +6523,15 @@
       "source_quest_or_shop": "PQ186 (also reported in PQ185–186 reward pool)",
       "ultimate_finish_required": null,
       "skill_description": "Chapter 4 Strike Ultimate associated with Goku (Ultra Supervillain Quelled).",
-      "mechanics_notes": "Community testing reports a long multi-stage Strike Ultimate; exact damage/follow-up behavior remains under research.",
+      "mechanics_notes": "500 Ki Strike Ultimate from the Future Saga Chapter 4 PQ reward pool. Exact drop/follow-up behavior remains under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Victory Rush",
@@ -6544,7 +6548,9 @@
       "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "mechanics_notes": "300 Ki Strike Ultimate. Parallel Quest 89 is the documented acquisition quest.",
+      "source_quest_or_shop": "Parallel Quest 89"
     }
   ],
   "record_count": 283
