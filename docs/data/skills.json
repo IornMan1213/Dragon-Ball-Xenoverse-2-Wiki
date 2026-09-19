@@ -5081,24 +5081,25 @@
     {
       "name": "Core Breaker",
       "class": "Ultimate",
-      "subcategory": "Ki Blast",
+      "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "Gamma 2",
       "dlc_requirement": "Hero of Justice Pack 1",
-      "ki_cost": 300,
+      "ki_cost": 500,
       "stamina_cost": null,
-      "damage_type": "Ki Blast",
+      "damage_type": "Strike",
       "unlock_method": "Random Parallel Quest reward",
       "source_quest_or_shop": "PQ158",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "skill_description": "Core Breaker is a Ultimate Ki Blast skill used by Gamma 2.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
+      "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can randomly obtain it from PQ158; the PQ Ultimate Finish conditions are documented. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Core%20Breaker"
       ]
     },
     {
@@ -5122,25 +5123,26 @@
     },
     {
       "name": "Destruction's Concerto: Meteor",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Vados",
       "dlc_requirement": "Super Pass",
-      "ki_cost": 300,
+      "ki_cost": "100-200",
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 106",
       "ultimate_finish_required": null,
       "skill_description": "Destruction's Concerto: Meteor is a Ultimate Ki Blast skill associated with Vados.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Dedicated current-version evidence identifies this as Vados's Ki Blast Super; the Future Warrior can obtain it from PQ106, and Whis can use it through Partner Customization. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor"
+        "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor",
+        "https://dragonball.fandom.com/wiki/Destruction's%20Concerto%3A%20Meteor"
       ]
     },
     {
@@ -5215,25 +5217,26 @@
     },
     {
       "name": "Energy Field",
-      "class": "Ultimate",
+      "class": "Evasive",
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Android 17",
       "dlc_requirement": "Base Game",
-      "ki_cost": 300,
-      "stamina_cost": null,
+      "ki_cost": null,
+      "stamina_cost": 200,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 29",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "skill_description": "Energy Field is a Ultimate Ki Blast skill associated with Android 17.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Dedicated current-version evidence identifies Energy Field as a Ki Blast Evasive skill and lists Android 17, Android 16, Mira, and Android 17 (DB Super) as users. The repository's prior Ultimate classification was incorrect. CaC race/gender scope remains unproven here, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Energy_Field"
+        "https://dbxv2.fandom.com/wiki/Energy_Field",
+        "https://dragonball.fandom.com/wiki/Energy%20Field"
       ]
     },
     {
@@ -5329,14 +5332,15 @@
       "source_quest_or_shop": "Parallel Quest 126",
       "ultimate_finish_required": null,
       "skill_description": "Gigantic Breaker is a Ultimate Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Dedicated current-version evidence identifies Gigantic Breaker as Kefla's Ki Blast Super; the Future Warrior can obtain it as a random PQ126 reward. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dbxv2.fandom.com/wiki/Gigantic_Breaker"
+        "https://dbxv2.fandom.com/wiki/Gigantic_Breaker",
+        "https://dragonball.fandom.com/wiki/Gigantic%20Breaker"
       ],
       "description": "Focus your Ki into your fist and charge forward with a powerful strike. Missing leaves you vulnerable."
     },
