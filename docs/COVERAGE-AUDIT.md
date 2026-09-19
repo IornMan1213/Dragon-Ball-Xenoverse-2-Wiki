@@ -107,6 +107,14 @@ The PQ-to-skill cross-link audit is currently represented by the repository's la
 Unknown values remain unknown until evidence is found. The audit must never be satisfied by filling gaps with inferred values.
 
 
+## Parallel Quest provenance pass — 2026-09-19
+
+- Completed a record-level provenance pass for **PQ1–PQ10**.
+- All 10 records now carry explicit source URLs in their individual records, rather than relying only on the batch-level source list.
+- Sources used for the pass: the maintained 186-PQ Steam transcription, the Steam PQ reward transcription, and an independent Ultimate Finish reference.
+- The pass deliberately did **not** add reward-slot percentages or other probability claims where the consulted sources do not establish them.
+- Remaining provenance work: older PQ batches still contain records without individual `sources` arrays; continue in bounded batches and preserve unresolved reward semantics.
+
 ## Skill metadata audit milestone — 2026-09-18
 
 - [x] Corrected invalid `Power Up` class values by normalizing Power Up records to `Super / Power Up`.
