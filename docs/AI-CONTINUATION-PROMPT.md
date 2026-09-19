@@ -1567,3 +1567,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `e363e31d8c7d69d4054e21ef5256f04a8ad49fca`.
 - Audit commit: `700350aaccadeb3346c1dd872bde264c9bc93498`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Pressure Sign.
+
+
+### 2026-09-19 continuation — Recoome Kick through Soaring Rush
+- Reconciled **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock, Seagull Combination, Shining Slash, Shooting Strike, and Soaring Rush**.
+- Shining Slash retains its explicit Earthling/Human or Saiyan restriction. The other seven remain CaC-usable without inferred narrower restrictions.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+- Data commit: `df2637cc958582a9d8e6d13a7bdf3a4dd06a8d6f`.
+- Audit commit: `b866d2079bd81cd37c630bc15358de7e1b26b8a6`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Soaring Rush.
