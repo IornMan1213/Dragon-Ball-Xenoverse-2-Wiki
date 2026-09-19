@@ -1263,3 +1263,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Corrected Big Bang Knuckle to 100-Ki Strike Super / PQ172 and retained it as non-CaC pending evidence of CaC acquisition. Retained Angry Shout's Pure Majin restriction and all-CaC-races restrictions for Bending Kamehameha and Big Bang Kamehameha.
 - Data commit: `080b0425b251b1088807576179443555c20ab310`; audit commit: `d8a9227ac3c8996d51d0930f4366ebb30657e378`.
 - Next continuation should proceed from the next dataset-order unresolved records after Big Bang Knuckle.
+
+
+### 2026-09-19 continuation — Ki Blast Super cohort
+- Reconciled Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehameha, Burst Stinger, Buu Buu Ball, and Candy Beam.
+- Blaster Ball: 100–500 Ki; Burst Kamehameha: 100–200 Ki. Buu Buu Ball retains Pure Majin restriction; Candy Beam retains Majin restriction.
+- Data commit: `a7e1b790c64c07e4d1948d28664aefcca8bddfec`; audit commit: `353a78cbd9654de959cafc958fda2178c88c7503`.
+- Next continuation should proceed from the next dataset-order unresolved records after Candy Beam.
