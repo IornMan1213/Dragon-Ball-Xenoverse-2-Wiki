@@ -601,3 +601,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added/confirmed CaC eligibility, acquisition routes, supported resource values, and provenance. Divine Kamehameha remains explicitly version/update-sensitive; Celestial Wave retains Vote Pack/PQ151 provenance.
 - Skills commit: `28a6fb4b85a7a6eabf4b60052a8a92f7a5c6bee1`. Coverage commit: `4c4576a2c0c9571f4dd3e8b5e275fccd5c4e8cc5`.
 - Exact next task: continue the missing `usable_by_cac` and race/DLC field audit, prioritizing skills with character-only users or recent DLC/DAIMA-era names. Do not mark a skill verified merely because a source lists a user; establish Future Warrior/CaC availability explicitly.
+
+
+### 2026-09-19 cycle update — Charge/support CaC and race restriction batch
+- Continued the P1 missing-`usable_by_cac` audit using current Future Warrior technique references and individual skill pages.
+- Reconciled **Bending Kamehameha, Full Power Charge, Maximum Charge, Charged Ki Wave, Ultimate Charge, Burst Charge, Data Input, Pressure Sign, Meditation, Deadly Dance, and Quick Sleep**.
+- Confirmed CaC availability for the charge/support/mentor skills; recorded Quick Sleep as **Majin-only** rather than treating it as universally available. Data Input is Extra Pack 1 / Expert Mission 20; Ultimate Charge and Burst Charge are PQ134/Extra Pack-era skills.
+- Skills commit: `00ef8d9e609274297915e365f21f0924e598d968`; coverage commit: `b8be718e528cbb5c03e356448d8639ee160cab9e`.
+- Note: the public Fandom endpoint was robots-blocked in one web lookup, so corroboration used accessible Dragon Ball Wiki/current repository source URLs rather than pretending the blocked page was independently verified.
+- Exact next task: continue the remaining missing `usable_by_cac` cohort, prioritizing recent DLC/DAIMA skills and explicit character-only boundaries, then reconcile race restrictions before promoting any records to `verified`.
