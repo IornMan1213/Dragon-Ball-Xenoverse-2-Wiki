@@ -1487,3 +1487,13 @@ Reconciled **Dragon Spark, Dragon Spiral, Dragon Thunder, Emperor's Edge, Evil F
 - Evil Flight Strike retains its explicit **Namekian or Majin** restriction.
 - Dragon Spark, Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, and Force Edge remain CaC-usable without an inferred narrower race/gender/form restriction.
 - Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Freedom Kick through Lovely Cyclone
+
+Reconciled **Freedom Kick, Gamma Impact, God of Destruction's Poise, Heroic Assault, Justice Blade, Justice Drive, Justice Kick, and Lovely Cyclone**.
+
+- All eight remain CaC-usable.
+- No narrower CaC race/gender/form restriction is established by the current evidence for these records, so restrictions remain null rather than being inferred from the associated character.
+- Existing acquisition details, including the PQ135 Ultimate Finish requirement for Lovely Cyclone, were retained.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
