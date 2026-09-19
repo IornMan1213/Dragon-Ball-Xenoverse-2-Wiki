@@ -1790,3 +1790,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: dce1895acf0754ceabccf8c71b4cbeac111540ec.
 - Audit commit: 7dfd074aed82b84c6fc145914d40711c90bed1a9.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — Dragon Spiral through God of Destruction's Poise
+- Reviewed the next eight null-race CaC-usable records: **Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edge, Freedom Kick, Gamma Impact, God of Destruction's Poise**.
+- Preserved null race restrictions because reviewed evidence does not establish a narrower CaC race/gender/form restriction.
+- Data commit: a8d443c432aadfbf75e44562d4359570e1bd0af9.
+- Audit commit: 3ffb8d6d4984e870a950214e4451851ef35d0003.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
