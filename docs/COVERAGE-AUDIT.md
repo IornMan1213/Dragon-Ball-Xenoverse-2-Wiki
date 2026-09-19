@@ -2251,3 +2251,8 @@ Resolved `ultimate_finish_required` to `false` for **Final Flash (Super)**, **En
 ## 2026-09-19 — Explicit Ultimate Finish batch 1
 
 Resolved `ultimate_finish_required` to `true` for **Assault Vanish**. Its acquisition provenance explicitly identifies the PQ131 Legendary Finish route, which is the recorded Ultimate Finish acquisition path. No other ambiguous PQ records were changed.
+
+
+## 2026-09-19 — Explicit Ultimate Finish batch 2
+
+Resolved `ultimate_finish_required` to `true` for **Prominence Flash**. Current research found direct acquisition evidence identifying it as a PQ137 Ultimate Finish drop from SSGSS Vegeta (Evolved), replacing the prior unresolved status.
