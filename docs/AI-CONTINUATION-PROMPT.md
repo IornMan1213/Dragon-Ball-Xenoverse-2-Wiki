@@ -1353,3 +1353,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important corrections: Fighting Pose E user is Recoome; Fighting Pose H user is Guldo. Fighting Pose K is Recoome's 8-second Super Armor pose. Do or Die is 100 Ki with 10% damage reduction for 20 seconds. Meditation is currently 20 seconds and its stacking behavior is version-sensitive.
 - Data commit: `df316a53cded14519d79df069795e8bfaf8ec7e5`; audit commit: `0f51f2c70c92ae2ecfbaa7a9ccd28035a15f7348`.
 - Continue from the records immediately following Meditation in dataset order.
+
+
+### 2026-09-19 continuation — Taunt through Deadly Dance
+- Reconciled Taunt, Blazing Attack, Brave Sword Slash, Burning Slash, Burning Swan, Burst Blitz, Crimson Edge, and Deadly Dance.
+- Important boundaries: Burning Slash remains Human/Saiyan-only; Crimson Edge remains non-CaC; Burst Blitz is 300 Ki; Taunt is 0 Ki; Deadly Dance is 100 Ki/all CaC races.
+- Data commit: `08ff44947b5249f5131f9d84a98fe2d8d705d58b`; audit commit: `86135187a014082690256f8ac8289a3867aff352`.
+- Continue from the records immediately following Deadly Dance in dataset order.
