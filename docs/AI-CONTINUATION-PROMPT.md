@@ -1256,3 +1256,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Corrected **Side Bridge** to 100-Ki Ki Blast Super / PQ39 and **Steel Mirage** to 100-Ki Ki Blast Super / PQ165. Mighty Explosive Wave is documented as Ki Blast Super/Evasive with 100 Ki attack cost and 300 Stamina Evasive cost.
 - Data commit: `50768f9d8305e2a6e62bb8a38c72cc10c0656ad2`; audit commit: `6e9243b360fb83068e53ed5510d1ad7dcc96592a`.
 - Next continuation should proceed from the next dataset-order unresolved records after Mach Dash.
+
+
+### 2026-09-19 continuation — Shout/barrier/Ki cohort
+- Reconciled Angry Shout, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, Bending Kamehameha, Big Bang Kamehameha, and Big Bang Knuckle.
+- Corrected Big Bang Knuckle to 100-Ki Strike Super / PQ172 and retained it as non-CaC pending evidence of CaC acquisition. Retained Angry Shout's Pure Majin restriction and all-CaC-races restrictions for Bending Kamehameha and Big Bang Kamehameha.
+- Data commit: `080b0425b251b1088807576179443555c20ab310`; audit commit: `d8a9227ac3c8996d51d0930f4366ebb30657e378`.
+- Next continuation should proceed from the next dataset-order unresolved records after Big Bang Knuckle.
