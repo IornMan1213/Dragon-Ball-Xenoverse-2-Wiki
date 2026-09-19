@@ -1,3 +1,8 @@
+## September 2026 — Raid Super Soul Reconciliation
+- Reconciled raid Super Souls **044–047** against item-level and community evidence.
+- 044, 045 and 046 now have verified core effects; 047 remains partially verified due to unresolved stamina-damage reduction magnitude and historical raid mapping.
+- Preserved uncertainty around recurrence schedules, drop probabilities, and categorical-to-numeric conversions.
+
 ## September 2026 — Raid Super Soul Candidate Batch 06
 - Indexed four additional raid-exclusive Super Soul candidates **044–047** from raid catalog and community raid-exclusive evidence.
 - Marked all four **partially verified** rather than inventing mechanics where item-level evidence remains incomplete.
