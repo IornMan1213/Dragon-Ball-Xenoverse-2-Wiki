@@ -2339,10 +2339,10 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 132",
       "ultimate_finish_required": null,
-      "skill_description": "God Punisher is a Super Ki Blast skill associated with Gogeta (Super Saiyan Blue).",
-      "mechanics_notes": "Dedicated current-version evidence corrects God Punisher to a **400-Ki Ki Blast Ultimate**, not a 100-Ki Super. It is obtained from PQ132 and includes the rush/barrage mechanic; Festival variant behavior is documented separately.",
+      "skill_description": "God Punisher is a Ki Blast Ultimate skill associated with Gogeta (Super Saiyan Blue).",
+      "mechanics_notes": "Dedicated current-version evidence corrects God Punisher to a **400-Ki Ki Blast Ultimate**, not a 100-Ki Super. It is obtained from PQ132 and includes the rush/barrage mechanic; Festival variant behavior is documented separately. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2350,7 +2350,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/God_Punisher"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Handy Canon",
@@ -2366,23 +2367,24 @@
       "source_quest_or_shop": "Parallel Quest 115",
       "ultimate_finish_required": null,
       "skill_description": "Handy Canon is a Super Ki Blast skill associated with Android 13.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Handy Canon as a **100-Ki Ki Blast Super** from PQ115. It fires a cancellable barrage of Ki Blasts.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Handy Canon as a **100-Ki Ki Blast Super** from PQ115. It fires a cancellable barrage of Ki Blasts. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Handy_Canon",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Headshot",
       "class": "Evasive",
       "subcategory": "Strike",
       "usable_by_cac": true,
-      "character_source": "Frieza (Final Form)",
+      "character_source": "Beerus",
       "dlc_requirement": "Base Game",
       "ki_cost": null,
       "stamina_cost": 300,
@@ -2390,17 +2392,18 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 69",
       "ultimate_finish_required": null,
-      "skill_description": "Headshot is a Super Ki Blast skill associated with Frieza (Final Form).",
-      "mechanics_notes": "Dedicated current-version evidence corrects Headshot to a **Strike Evasive**, using **300 Stamina**, obtained from PQ69. The prior 100-Ki Ki Blast Super classification was incorrect.",
+      "skill_description": "Headshot is a Strike Evasive skill associated with Beerus.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Headshot as Beerus's Strike Evasive, using 300 Stamina, obtained from PQ69. The previous Frieza (Final Form) association and Ki Blast Super classification were incorrect.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Headshot",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Headshot"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Heat Wave",
@@ -2416,15 +2419,16 @@
       "source_quest_or_shop": "PQ179 reward context",
       "ultimate_finish_required": null,
       "skill_description": "Heat Wave is a Super Ki Blast skill associated with SS4 Goku (DAIMA).",
-      "mechanics_notes": "Dedicated current-version evidence corrects Heat Wave to a **200-Ki Strike Super** from PQ179. It charges, repels Ki Blasts during its rush, and can break guard when fully charged.",
+      "mechanics_notes": "Dedicated current-version evidence corrects Heat Wave to a **200-Ki Strike Super** from PQ179. It charges, repels Ki Blasts during its rush, and can break guard when fully charged. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Ill Bomber",
@@ -2466,15 +2470,16 @@
       "source_quest_or_shop": "Parallel Quest 64",
       "ultimate_finish_required": null,
       "skill_description": "Ill Rain is a Super Ki Blast skill associated with Janemba.",
-      "mechanics_notes": "Confirmed as Janemba's 100-Ki Ki Blast Super from PQ64. The projectile/orb can produce separate hits; detailed drop gating remains bounded.",
+      "mechanics_notes": "Confirmed as Janemba's 100-Ki Ki Blast Super from PQ64. The projectile/orb can produce separate hits; detailed drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ill_Rain",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Kamehameha",
@@ -2527,15 +2532,16 @@
       "source_quest_or_shop": "Parallel Quest 34",
       "ultimate_finish_required": null,
       "skill_description": "Paralysis is a Super Ki Blast skill associated with Ginyu Force.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ34. The skill immobilizes the target; exact drop gating remains bounded.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ34. The skill immobilizes the target; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Paralysis",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Paralyze Beam",
@@ -2551,15 +2557,16 @@
       "source_quest_or_shop": "Parallel Quest 04",
       "ultimate_finish_required": null,
       "skill_description": "Paralyze Beam is a Super Ki Blast skill associated with Piccolo.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ04. It can paralyze/hold the target; exact drop gating remains bounded.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ04. It can paralyze/hold the target; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Pendulum Bullet",
@@ -2575,15 +2582,16 @@
       "source_quest_or_shop": "PQ166",
       "ultimate_finish_required": null,
       "skill_description": "Pendulum Bullet is a Super Ki Blast skill associated with Android 17.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Pendulum_Bullet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Perfect Shot",
