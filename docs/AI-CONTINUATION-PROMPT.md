@@ -930,3 +930,9 @@ A new AI chat must be able to continue from this file without depending on the p
 - A secondary Future Warrior profile places Force Shield and related abilities under an “All Races” grouping, but the evidence is not skill-specific enough to convert the canonical null race fields. No classifications were changed.
 - Coverage commit: `b1653219a5060ed0ac7152a817a34536d0ba0e06`.
 - Continue with the next unresolved null-race cohort.
+
+### 2026-09-19 cycle update — next null-race skill batch
+- Reviewed 12 records: `Energy Barrier`, `Spirit Explosion`, `Spirit Slash`, `Atomic Blast`, `Blaster Ball`, `Bluff Kamehameha`, `Breaker Energy Wave`, `Burning Attack`, `Burst Kamehameha`, `Burst Stinger`, `Dark Inscription`, and `Demon Ray`.
+- Direct/reference sources establish Future Warrior use, but no sufficiently explicit per-skill race/gender restriction or unrestricted-race statement was found. No classifications were changed.
+- Coverage commit: `081e248c8db6df7ef44ada4be368db5aea10a032`.
+- Continue with the next unresolved null-race cohort.
