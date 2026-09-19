@@ -1059,3 +1059,12 @@ No CaC race/gender/form restriction was inferred from character or partner users
 Reviewed **Heroic Counter, Punisher Shield, Reverse Mabakusenko, and Rough Ranger** against current dedicated skill pages. Confirmed their current classes, attack types, costs, counter roles, and acquisition sources. Heroic Counter is a 100-Ki Strike Super from PQ155; Punisher Shield is a 100-Ki Ki Blast Super from PQ129; Reverse Mabakusenko is a 300-Ki Ki Blast Ultimate from the Skill Shop; and Rough Ranger is a 100-Ki Strike Super from PQ119. 
 
 No CaC race/gender/form restriction was inferred from their character users or partner customization data.
+
+## 2026-09-19 — Mystic Flash / Requiem of Destruction review
+
+Reviewed the two remaining records from the prior queue against dedicated current-version skill pages.
+
+- **Mystic Flash:** confirmed as a **300-Ki Ki Blast Ultimate**, obtained from PQ20; notable users are Nail and customizable Piccolo.
+- **Requiem of Destruction:** confirmed as a **300-Ki Ki Blast Ultimate**, obtained from PQ106; notable users are Vados and Whis Customize Partner.
+
+Neither dedicated page explicitly establishes CaC race/gender/form scope, so no race restriction was inferred. 
