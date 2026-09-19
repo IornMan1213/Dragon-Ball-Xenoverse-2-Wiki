@@ -750,15 +750,18 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
+        "https://dbxv2.fandom.com/wiki/Absolute_Zero",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 96 - \"The Shadow Dragons\" (random reward)",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
+      "last_verified": "2026-09-19",
+      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
       "source_quest": 96,
       "source_quest_or_shop": "Parallel Quest 96",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "mechanics_notes": "Ki Blast Evasive counter. The user takes a brief stance; attackers who hit the stance are frozen. Current reference documents a 3-second freeze effect."
     },
     {
       "name": "Celestial Wave",
@@ -790,15 +793,18 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
+        "https://dbxv2.fandom.com/wiki/Dragon_Burn",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 82 - \"Ultimate Brotherly Battle\" (random reward)",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
+      "last_verified": "2026-09-19",
+      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
       "source_quest": 82,
       "source_quest_or_shop": "Parallel Quest 82",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "mechanics_notes": "Ki Blast Evasive counter. The user briefly enters a stance; attackers who hit it are paralyzed and burned. Current reference documents a 3-second paralysis/burn effect."
     },
     {
       "name": "Explosive Wave",
@@ -806,13 +812,17 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Evasives"
+        "https://dragonball.fandom.com/wiki/Explosive_Wave",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 300,
-      "unlock_method": "Skill Shop - 15,000 Zeni after completing the main story (normal ending)",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "unlock_method": "Skill Shop for 15,000 Zeni after completing the main story (normal ending)",
+      "last_verified": "2026-09-19",
+      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop",
+      "mechanics_notes": "Ki Blast Evasive. Creates an explosion around the user that staggers/knocks back nearby enemies."
     },
     {
       "name": "Force Shield",
@@ -962,13 +972,17 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Evasives"
+        "https://dbxv2.fandom.com/wiki/Punisher_Guard",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 300,
-      "unlock_method": "Skill Shop after completing the relevant story progression; renamed from Vanisher Guard in Update 1.30",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "unlock_method": "Skill Shop after completing the relevant story progression; originally associated with PQ87 before the current acquisition route",
+      "last_verified": "2026-09-19",
+      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop",
+      "mechanics_notes": "Other Evasive universal guard. Current reference documents approximately 3 seconds of invulnerability, with the effect lasting through the active skill attack."
     },
     {
       "name": "Side Bridge",
@@ -1045,13 +1059,17 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
+        "https://dbxv2.fandom.com/wiki/Final_Pose",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 200,
       "unlock_method": "Skill Shop",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop",
+      "mechanics_notes": "Power Up Evasive. Produces a close-range shockwave and temporarily increases Basic Attack power; current reference documents a 1.5% Basic Attack increase for 12 seconds."
     },
     {
       "name": "Mach Dash",
@@ -1059,15 +1077,18 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Power_Up_Evasives"
+        "https://dbxv2.fandom.com/wiki/Mach_Dash",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 200,
-      "unlock_method": "Parallel Quest 18 - \"Force Entrance Exam\" (first-clear reward slot / random reward)",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
+      "unlock_method": "Parallel Quest 18 - \"Force Entrance Exam\" (first-clear/random reward)",
+      "last_verified": "2026-09-19",
+      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
       "source_quest": 18,
       "source_quest_or_shop": "Parallel Quest 18",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "mechanics_notes": "Power Up Evasive. Creates distance by flying over the opponent and grants a temporary 1.5% movement-speed increase for 12 seconds in the current reference."
     },
     {
       "name": "Angry Shout",
@@ -1075,15 +1096,18 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
+        "https://dbxv2.fandom.com/wiki/Angry_Shout",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 68 - \"Old Rivals and Dragon Balls\" (random reward)",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
+      "last_verified": "2026-09-19",
+      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
       "source_quest": 68,
       "source_quest_or_shop": "Parallel Quest 68",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "mechanics_notes": "Strike Evasive. Emits a close-area shockwave/attack that pushes opponents back and restores the user's Ki."
     },
     {
       "name": "Energy Barrier",
@@ -1091,15 +1115,18 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Strike_Evasives"
+        "https://dbxv2.fandom.com/wiki/Energy_Barrier",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" (random reward; Ultimate Finish associated with the drop)",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
+      "last_verified": "2026-09-19",
+      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
       "source_quest": 32,
       "source_quest_or_shop": "Parallel Quest 32",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "mechanics_notes": "Strike Evasive barrier. Cancels Ki Waves, knocks enemies back, and can be extended with additional input at the cost of Ki."
     },
     {
       "name": "Spirit Explosion",
