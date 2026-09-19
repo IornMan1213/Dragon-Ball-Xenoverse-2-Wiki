@@ -2234,3 +2234,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Reverse reward index remains synchronized at **236 skills, 137 Super Souls, 87 clothing, 38 accessories = 262 equipment placements**, corresponding to 125 unified equipment relationships without dual subtype placements.
 - Updated audit, status, and persistent handoff.
 - Exact next task: **audit relationship schema/documentation consumers and verify all current relationship artifacts are internally consistent before considering the cross-domain layer stable.**
+
+
+### 2026-09-19 continuation — relationship schema/documentation consumer review
+- Verified the five cross-domain relationship artifacts all remain on **schema_version 1.0**.
+- Forward, reverse, audit, and status count fields are synchronized at **840 total edges**: 236 skills, 137 Super Souls, 125 equipment, 247 characters, 88 DLC, 7 farming.
+- Confirmed the reverse index's six normalized reward-map inputs remain intentionally distinct from the canonical PQ batch evidence; the normalized maps are partial and their omissions are not negative claims.
+- Confirmed the five documented character aliases remain present and the reverse index remains structurally aligned with the forward relationship layer.
+- No schema migration or consumer-facing field change was justified by this review.
+- Updated audit, status, and persistent handoff.
+- Exact next task: **run a final cross-domain reconciliation against the live relationship artifacts and handoff, record the stable baseline, and leave only evidence-driven expansion work in the queue.**
