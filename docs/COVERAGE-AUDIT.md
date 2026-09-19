@@ -1036,3 +1036,14 @@ Reviewed the next queued cohort. Four records received evidence-backed reconcili
 - **Gigantic Roar:** confirmed as a 500-Ki Ki Blast Ultimate from PQ132; no unsupported CaC race scope was inferred.
 
 The remaining queued records (Gigantic Explosion, Heat Dome Attack, Holy Wrath, Last Emperor) remain pending stronger dedicated current-version evidence review.
+
+## 2026-09-19 — Heat Dome / Zamasu / Last Emperor reconciliation
+
+Reviewed four queued records against dedicated current-version skill pages:
+
+- **Heat Dome Attack:** confirmed as a 300-Ki Ki Blast Ultimate from PQ40.
+- **Holy Wrath:** corrected from Ultimate/300 Ki to **Super/100 Ki**; PQ111 and Ki Blast classification confirmed.
+- **Last Emperor:** corrected from 300 Ki to **0 Ki**; confirmed as a health-gated Ki Blast Ultimate from PQ71.
+- **Lightning of Absolution:** confirmed/corrected as a **100-Ki Ki Blast Super** from PQ111.
+
+No CaC race/gender/form restriction was inferred from character-only users. The dedicated pages establish skill identity and acquisition but do not, by themselves, establish a specific CaC race scope.
