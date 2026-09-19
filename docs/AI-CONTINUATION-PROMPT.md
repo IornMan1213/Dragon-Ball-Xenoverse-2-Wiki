@@ -1674,7 +1674,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - Reconciled the next live cohort: **Power Rush, Saiyan Spirit, Super Dragon Flight, Supreme Fury, Unrelenting Barrage, Venus Fist, Victory Rush**.
 - Updated docs/data/skills.json and docs/COVERAGE-AUDIT.md.
 - Data commit: 50f848fa53c1c615d1b64ab3d02378e487b43444.
-- Web evidence specifically corroborated Power Rush's 1000 Ki / Strike Ultimate / 14-hit behavior and PQ122 acquisition; the maintained PQ guide corroborates PQ122 and PQ84 reward identities. citeturn0search0turn0search5turn0search8
+- Web evidence specifically corroborated Power Rush's 1000 Ki / Strike Ultimate / 14-hit behavior and PQ122 acquisition; the maintained PQ guide corroborates PQ122 and PQ84 reward identities. 
 - Validation after write: reparse skills.json, recount CaC fields, and re-read the seven target records.
 - Exact next task: continue with the next eight records after Victory Rush. Preserve null race restrictions when explicit evidence is insufficient.
 
@@ -1781,4 +1781,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: ab865fbf65641fe44bbf295c54a53c456c7ed5fd.
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — Hero's Flute through Dragon Spark
+- Reviewed the next eight null-race CaC-usable records: **Hero's Flute, Burning Swan, Burst Blitz, Death Slash, Demon Flurry, Demonic Destruction, Destruction's Conductor, Dragon Spark**.
+- Preserved null race restrictions because reviewed evidence does not establish a narrower CaC race/gender/form restriction.
+- Data commit: dce1895acf0754ceabccf8c71b4cbeac111540ec.
+- Audit commit: 7dfd074aed82b84c6fc145914d40711c90bed1a9.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
