@@ -3398,7 +3398,7 @@
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "PQ153",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
@@ -3415,7 +3415,7 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 01 reward",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 01",
@@ -3438,9 +3438,10 @@
       "unlock_method": "Skill Shop",
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
-      "mechanics_notes": "Confirmed as a 0-Ki Skill Shop defensive Other Super. It projects a wide defensive barrier that can cancel incoming Ki attacks for a short window and can protect nearby allies.",
+      "mechanics_notes": "Confirmed as a 0-Ki Skill Shop defensive Other Super. It projects a wide defensive barrier that can cancel incoming Ki attacks for a short window and can protect nearby allies. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence"
+      "research_status": "race_restriction_reconciled",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Super Guard",
@@ -3454,7 +3455,7 @@
       "ki_cost": 100,
       "description": " Base cost corrected to 100 Ki; holding the skill drains additional Ki.",
       "unlock_method": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3482,7 +3483,7 @@
       "unlock_method": "Character-exclusive to Ultra Instinct Goku variants; CaCs can access the technique through Ultra Instinct's built-in action in current versions",
       "usable_by_cac": true,
       "race_restriction": "All CaC races while using Ultra Instinct",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19"
     },
     {
@@ -3497,7 +3498,7 @@
       "ki_cost": 100,
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Retained as a 100-Ki Other Super that is character-exclusive/non-CaC. It is associated with Guldo/Captain Ginyu-era time-manipulation moves; no CaC acquisition route established.",
@@ -3519,7 +3520,7 @@
       "skill_description": "Time Control is a Super Skill that freezes an opponent in place; it is a 40% Ultimate Finish reward from Parallel Quest 18.",
       "mechanics_notes": "Confirmed as Guldo's 100-Ki Other Super from PQ18, requiring the Ultimate Finish reward. It temporarily freezes the opponent in place.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3527,7 +3528,8 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-18.md",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 18
+      "source_quest": 18,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Ultimate Charge",
@@ -3543,7 +3545,7 @@
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": true,
       "source_quest": 134,
