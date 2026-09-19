@@ -826,4 +826,4 @@ Added direct technique-page provenance to six existing CaC-usable skill records 
 
 ## 2026-09-19 Crazy Finger Shot — explicit unrestricted evidence
 
-`Crazy Finger Shot` was reclassified from null to **All CaC races**. The dedicated `Death Bullet` reference explicitly states that the Future Warrior, regardless of race, can use Death Bullets as part of the `Crazy Finger Shot` Super Skill. This is direct evidence for the canonical skill's unrestricted race access, distinct from the separate Frieza-race basic Ki Blast behavior. citeturn0search4
+`Crazy Finger Shot` was reclassified from null to **All CaC races**. The dedicated `Death Bullet` reference explicitly states that the Future Warrior, regardless of race, can use Death Bullets as part of the `Crazy Finger Shot` Super Skill. This is direct evidence for the canonical skill's unrestricted race access, distinct from the separate Frieza-race basic Ki Blast behavior. 
