@@ -2856,7 +2856,13 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 131 - \"Fight of the Fusions! Vegito vs Gogeta\"",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "source_quest_or_shop": "PQ131 — Legendary Finish",
+      "dlc_requirement": "Extra Pack 4",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Burst Charge",
@@ -3126,7 +3132,12 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 97 - \"Insidious Plot\"",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "source_quest_or_shop": "PQ97",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Quick Sleep",
@@ -3193,10 +3204,12 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 153",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "source_quest_or_shop": "PQ153",
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Solar Flare",
@@ -3500,11 +3513,14 @@
       ],
       "ki_cost": 0,
       "mechanics_notes": "Documented Super Armor duration: 8 seconds after activation. Ki cost 0. Source page explicitly lists 0:08.0.",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_future_warrior_evidence",
       "duration_seconds": 8,
       "ultimate_finish_required": null,
-      "unlock_method": "Skill Shop after The Ginyu Force Strikes"
+      "unlock_method": "Skill Shop after The Ginyu Force Strikes",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes"
     },
     {
       "name": "Formation!",
@@ -4874,10 +4890,13 @@
         "https://gamefaqs.gamespot.com/boards/466298-dragon-ball-xenoverse-2-future-saga-chapter-1/74429476"
       ],
       "ki_cost": 400,
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; documented as a 400-Ki Ki Blast Ultimate. Cost is version-sensitive historically, so retain provenance rather than infer from Ultimate class.",
       "ultimate_finish_required": null,
-      "unlock_method": null
+      "unlock_method": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "research_status": "reconciled_future_warrior_evidence"
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -5284,7 +5303,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_Impact"
       ],
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Majuub; Goku (GT)",
       "dlc_requirement": null,
       "ki_cost": 300,
@@ -5292,8 +5311,9 @@
       "source_quest_or_shop": "Parallel Quest 142 — Timespace Tussle",
       "ultimate_finish_required": null,
       "mechanics_notes": "Channels Ki into a Ki Wave; rapid input increases charge and damage; opponent is paralyzed if they touch the user while charging.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18"
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Lightning of Absolution",
@@ -5368,7 +5388,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Prominence_Flash"
       ],
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan God)",
       "dlc_requirement": null,
       "ki_cost": 300,
@@ -5376,9 +5396,10 @@
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
-      "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted."
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
+      "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Requiem of Destruction",
@@ -5634,8 +5655,11 @@
       ],
       "ki_cost": 500,
       "unlock_method": "Expert Mission 6 - \"The Depths of Despair\"",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "research_status": "reconciled_future_warrior_evidence"
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -5847,8 +5871,12 @@
       ],
       "ki_cost": 300,
       "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "source_quest_or_shop": "TP Medal Shop",
+      "research_status": "reconciled_future_warrior_evidence"
     },
     {
       "name": "Divine Wrath: Purification",
