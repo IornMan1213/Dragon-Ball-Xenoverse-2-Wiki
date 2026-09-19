@@ -1410,3 +1410,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `ab0c0033476ac46517577f7cf189cb297ac64e2a`.
 - Audit commit: `e8839ab5cbd8c4856c970ff143dde1dd0bc875c2`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Death Psycho Bomb.
+
+
+### 2026-09-19 continuation — Demon Ray through Double Death Slicer
+- Reconciled **Demon Ray, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, Destructo-Disc, Dimension Cannon, Divine Kamehameha, Divine Spear, and Double Death Slicer**.
+- Destructo-Disc and Divine Kamehameha retain **All CaC races**. Divine Spear remains **non-CaC** because current evidence does not establish a CaC acquisition/equip path.
+- The other five CaC-usable skills remain without an explicitly established narrower race/gender/form restriction.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `106ea8b54dff7767bacbebc687fabebb6af289a9`.
+- Audit commit: `e73838117864770ec9aef37de9ffae01f8296291`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Double Death Slicer.
