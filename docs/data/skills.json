@@ -369,15 +369,17 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Pure_Progress"
       ],
       "ultimate_finish_required": null,
       "race_restriction": null,
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
-      "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
+      "mechanics_notes": "500 Ki is required and consumed for each transformation stage; Stage 1 and Stage 2 use the character-only Pure Progress transformation. Current reference documents 500 Ki consumed on transformation.",
       "last_verified": "2026-09-19",
-      "source_quest_or_shop": "Character-only Awoken Skill / roster use"
+      "source_quest_or_shop": "Character-only Awoken Skill / roster use",
+      "ki_cost": 500
     },
     {
       "name": "Super Saiyan 2",
@@ -410,14 +412,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_Blue_Kaioken"
       ],
       "ultimate_finish_required": null,
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
-      "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
+      "mechanics_notes": "500 Ki is required for the normal Super Saiyan Blue Kaioken stage and 500 Ki for the x10 stage; the transformation is character-only and remains unavailable to CaCs. Current reference documents the 500 Ki requirement and both stages.",
       "last_verified": "2026-09-19",
-      "source_quest_or_shop": "Character-only Awoken Skill / roster use"
+      "source_quest_or_shop": "Character-only Awoken Skill / roster use",
+      "ki_cost": 500
     },
     {
       "name": "Supersonic Mode",
@@ -428,15 +432,17 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Supersonic_Mode"
       ],
       "ultimate_finish_required": null,
       "race_restriction": null,
       "research_status": "enriched",
       "unlock_method": "Character-only / non-CaC roster use",
-      "mechanics_notes": " Corrected 2026-09-19: current Xenoverse 2-specific research identifies this Awoken Skill as character-only, not a CaC transformation.",
+      "mechanics_notes": "No Ki is required to activate Supersonic Mode; the character-only transformation instead has an automatic Stamina drain while active. Current reference lists Ki Required: None.",
       "last_verified": "2026-09-19",
-      "source_quest_or_shop": "Character-only Awoken Skill / roster use"
+      "source_quest_or_shop": "Character-only Awoken Skill / roster use",
+      "ki_cost": 0
     },
     {
       "name": "Ultra Instinct",
