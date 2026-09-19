@@ -2825,6 +2825,608 @@
       "target": "Gohan (Beast) Wig",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-015",
+      "relationship": "pq_farming_route",
+      "target": "Dragon Balls",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-022",
+      "relationship": "pq_farming_route",
+      "target": "Dragon Balls",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-068",
+      "relationship": "pq_farming_route",
+      "target": "Dragon Balls",
+      "status": "source_backed",
+      "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+    },
+    {
+      "pq": "pq-101",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-102",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-103",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-104",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-107",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-108",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-112",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pack 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-113",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-115",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-116",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-117",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-118",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-119",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-120",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-121",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-122",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-123",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-124",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-125",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-126",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-127",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-128",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-129",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-130",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-131",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-132",
+      "relationship": "pq_requires_dlc",
+      "target": "Extra Pack 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-133",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-134",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-135",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-136",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-137",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-138",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-139",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-140",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-141",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-142",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-143",
+      "relationship": "pq_requires_dlc",
+      "target": "Ultra Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-144",
+      "relationship": "pq_requires_dlc",
+      "target": "Legendary Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-145",
+      "relationship": "pq_requires_dlc",
+      "target": "Legendary Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-146",
+      "relationship": "pq_requires_dlc",
+      "target": "Legendary Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-147",
+      "relationship": "pq_requires_dlc",
+      "target": "Legendary Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-148",
+      "relationship": "pq_requires_dlc",
+      "target": "Legendary Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-149",
+      "relationship": "pq_requires_dlc",
+      "target": "Legendary Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-150",
+      "relationship": "pq_requires_dlc",
+      "target": "Legendary Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_requires_dlc",
+      "target": "Conton City Vote Pack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_requires_dlc",
+      "target": "Conton City Vote Pack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_requires_dlc",
+      "target": "Conton City Vote Pack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-154",
+      "relationship": "pq_requires_dlc",
+      "target": "Conton City Vote Pack",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-155",
+      "relationship": "pq_requires_dlc",
+      "target": "Hero of Justice Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-156",
+      "relationship": "pq_requires_dlc",
+      "target": "Hero of Justice Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-157",
+      "relationship": "pq_requires_dlc",
+      "target": "Hero of Justice Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-158",
+      "relationship": "pq_requires_dlc",
+      "target": "Hero of Justice Pack 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-159",
+      "relationship": "pq_requires_dlc",
+      "target": "Hero of Justice Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-160",
+      "relationship": "pq_requires_dlc",
+      "target": "Hero of Justice Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-161",
+      "relationship": "pq_requires_dlc",
+      "target": "Hero of Justice Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-162",
+      "relationship": "pq_requires_dlc",
+      "target": "Hero of Justice Pack 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-163",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-164",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-165",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-166",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-167",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-168",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-169",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-170",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-171",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-172",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-173",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-174",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-175",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-176",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-177",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-178",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-182",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-183",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-184",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 3",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-185",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-186",
+      "relationship": "pq_requires_dlc",
+      "target": "Future Saga Chapter 4",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "normalization_rules": [
@@ -2843,6 +3445,9 @@
   "current_counts": {
     "skill": 229,
     "super_soul": 125,
-    "equipment": 39
+    "equipment": 39,
+    "character": 0,
+    "dlc": 88,
+    "farming": 7
   }
 }
