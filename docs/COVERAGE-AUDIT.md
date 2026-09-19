@@ -2140,3 +2140,17 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated the canonical relationship index and cross-domain status counts: 229 skills, 125 Super Souls, 39 equipment.
 - The current all-186 reward guide explicitly lists clothing and accessory rewards alongside skills and Super Souls, providing provenance for this reward layer. citeturn0search0
 - Commits: relationship `8c62e65f1f2364937f4c4405e64eabc92db671a2`; status `95d15c95846d2e15822d487a5dda0dba3088ffd4`.
+
+
+## 2026-09-19 — character-only Awoken Ki-cost census
+
+Reviewed the three character-only Awoken records that remained without a Ki-cost value: **Pure Progress**, **Super Saiyan Blue Kaioken**, and **Supersonic Mode**.
+
+- **Pure Progress:** populated `ki_cost: 500`; current reference documents 500 Ki consumed on each transformation stage.
+- **Super Saiyan Blue Kaioken:** populated `ki_cost: 500`; current reference documents a 500 Ki requirement for the normal stage and 500 Ki for the x10 stage.
+- **Supersonic Mode:** populated `ki_cost: 0`; current reference explicitly lists no Ki requirement and documents Stamina drain instead.
+- Added the dedicated skill references to each affected record and refreshed `last_verified`.
+- No CaC race restriction was inferred for these character-only skills, and no unrelated nullable fields were filled.
+- Live skill census after this batch: **283 records / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing `research_status` / 0 missing `mechanics_notes` / 0 missing `unlock_method` / 0 missing `source_quest_or_shop`**.
+- No validator or validation rule was weakened.
+
