@@ -1520,3 +1520,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `7ce1f38d9f7efe9ae5bba923b6ab8ab554272d8d`.
 - Audit commit: `74a22030f3fc34ff7315cb1dae56c25ee23848b8`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Fighting Pose K.
+
+
+### 2026-09-19 continuation — Formation! through Burning Slash
+- Reconciled **Formation!, Indomitable, Justice Pose, Meditation, Taunt, Blazing Attack, Brave Sword Slash, and Burning Slash**.
+- The first seven remain CaC-usable with **All CaC races** recorded; Burning Slash retains explicit **Earthling/Human + Saiyan** restriction.
+- Indomitable's health-dependent charge behavior remains partially verified rather than overstated.
+- Live census: **283 total / 269 CaC-usable / 170 CaC-usable with null race restriction**.
+- Data commit: `1d5c971a5618818d77b4bfb860462ca5535c32ae`.
+- Audit commit: `41ef312f6f8fe8c8cc955ab9e050338389e2f369`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Burning Slash.
