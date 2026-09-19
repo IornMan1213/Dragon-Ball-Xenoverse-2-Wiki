@@ -2419,3 +2419,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - The guides clearly document Ultimate Finish conditions and list skill rewards, but do not establish that the listed skill itself is gated exclusively behind the Ultimate Finish. Per repository rules, ordinary reward presence is not sufficient evidence for `ultimate_finish_required=false`.
 - No skill records changed in this pass. Current nullable Super/Ultimate count remains **164**.
 - Next task: prioritize sources that explicitly map a particular skill drop to the Ultimate Finish or explicitly state that it can drop without the Ultimate Finish.
+
+
+### 2026-09-19 continuation — explicit Ultimate Finish batch 3
+- Resolved `Burst Kamehameha` (`PQ72`) to `ultimate_finish_required: true`.
+- Added GameFAQs acquisition evidence explicitly describing the skill as an Ultimate Finish drop.
+- Data commit: `8dc3dd761fbaddfa5f23dc2bbdc2d3ade2f1322e`.
+- This is an acquisition-gate determination; random drop behavior remains separate.
+- Next task: continue searching remaining nullable skills for explicit UF-only or explicit non-UF acquisition evidence.
