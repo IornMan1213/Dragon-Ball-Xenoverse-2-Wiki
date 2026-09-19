@@ -1080,3 +1080,10 @@ No unsupported CaC race/gender/form restrictions were inferred.
 ## 2026-09-19 — Evasive skill cohort
 
 Reconciled Absolute Zero, Celestial Wave, Dragon Burn, Explosive Wave, Force Shield, Instant Rise, Ki Explosion, and Maiden Burst against current skill-list evidence. Confirmed their Evasive classifications, stamina costs, and acquisition routes where documented. Force Shield was normalized to **Ki Blast** rather than Other. Existing explicit all-CaC-races coverage for Ki Explosion was retained; no unsupported race/gender/form restrictions were inferred for the other records.
+
+
+## 2026-09-19 — Mixed Evasive cohort reconciliation
+
+Reviewed Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, Spread Shot Retreat, Steel Mirage, Final Pose, and Mach Dash against dedicated current-version pages.
+
+Important metadata corrections: **Side Bridge** is a 100-Ki **Ki Blast Super** from PQ39, not an Evasive; **Steel Mirage** is a 100-Ki **Ki Blast Super** from PQ165, not an Evasive. Mighty Explosive Wave is documented as a Ki Blast Super/Evasive with 100 Ki for the attack and 300 Stamina for its Evasive function. The remaining records retain their Evasive classifications and current stamina costs. No unsupported CaC race/gender/form restrictions were inferred.
