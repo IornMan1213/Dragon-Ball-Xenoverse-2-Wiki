@@ -1507,3 +1507,13 @@ Reconciled **Mach Punch, Meteor Blow, Meteor Strike, Namek Finger, Neo Wolf Fang
 - Power Impact was corrected from the stale `Ki Blast` subcategory to **Strike**, matching its skill classification and `damage_type`.
 - Mach Punch, Meteor Blow, Meteor Strike, Neo Wolf Fang Fist, and Powered Shell remain CaC-usable with no inferred narrower race/gender/form restriction.
 - Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Recoome Kick through Soaring Rush
+
+Reconciled **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock, Seagull Combination, Shining Slash, Shooting Strike, and Soaring Rush**.
+
+- Shining Slash retains its explicit **Earthling/Human or Saiyan** restriction.
+- The other seven remain CaC-usable without an inferred narrower race/gender/form restriction.
+- Existing PQ acquisition data was retained while detailed drop mechanics remain research items.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
