@@ -827,3 +827,7 @@ Added direct technique-page provenance to six existing CaC-usable skill records 
 ## 2026-09-19 Crazy Finger Shot — explicit unrestricted evidence
 
 `Crazy Finger Shot` was reclassified from null to **All CaC races**. The dedicated `Death Bullet` reference explicitly states that the Future Warrior, regardless of race, can use Death Bullets as part of the `Crazy Finger Shot` Super Skill. This is direct evidence for the canonical skill's unrestricted race access, distinct from the separate Frieza-race basic Ki Blast behavior. 
+
+## 2026-09-19 Raid Blast — dedicated provenance
+
+Added the dedicated `Niagara Pummel` reference to the existing `Raid Blast` skill record. The source confirms the Xenoverse 2 identity and Future Warrior acquisition route (New Parallel Quest 136), but does not establish a race restriction, so `race_restriction` remains unchanged.
