@@ -552,3 +552,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Conflicting Stage 2 movement-speed and cooldown reports remain unresolved; exact HP regeneration rate also remains unresolved.
 - Added `docs/data/skill-research-batches/skill-batch-43.json`; updated skills, coverage gaps, and changelog.
 - Next task: continue the remaining version-sensitive transformation audit and do not promote disputed numeric mechanics without independent corroboration.
+
+
+### 2026-09-19 cycle update — Awoken mechanics batch 44
+- Synchronized current descriptive mechanics across the canonical Awoken layer: Kaioken, Potential Unleashed, Beast, Super Saiyan stages, Super Vegeta, Future Super Saiyan, Super Saiyan God, SSGSS, SSGSS Evolved, Turn Golden, Purification, Become Giant, Power Pole Pro, Ultra Instinct, and Super Saiyan 2.
+- Added stage-specific resource thresholds, attack/defense modifiers, Stamina/Ki drain, movement effects, moveset changes, and Ultra Instinct's post-1.22.00 non-consuming transformation behavior.
+- Added `docs/data/skill-research-batches/skill-batch-44.json` and updated canonical skills, coverage gaps, and changelog.
+- Source baseline: consolidated Awoken research table plus individual Awoken references. Meta/build rankings were intentionally excluded.
+- Next exact task: finish the remaining Awoken/version-sensitive audit by reconciling disputed values and documenting version provenance, then proceed to QQ Bang expansion.
