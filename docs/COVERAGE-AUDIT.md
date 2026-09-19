@@ -855,3 +855,7 @@ Reviewed `Energy Barrier`, `Spirit Explosion`, `Spirit Slash`, `Atomic Blast`, `
 ## 2026-09-19 — null-race batch: DLC/character-derived techniques
 
 Reviewed `Destruction's Concerto: Comet`, `Destruction's Concerto: Starfall`, `Dimension Cannon`, `Double Death Slicer`, `Dust Attack`, `Earth Splitting Galick Gun`, `Emperor's Blast`, `Emperor's Cannon`, `Eraser Bomb`, `Evil Blast`, `Evil Flame`, and `Final Cannon`. Current dedicated/reference evidence confirms Future Warrior acquisition or use where documented, but does not establish sufficiently explicit individual race/gender restrictions for these records. The Future Warrior index also lists several of them without a race qualifier; omission is not treated as proof of universal access. No `race_restriction` fields were changed.
+
+## 2026-09-19 — null-race batch: later DLC/mentor techniques
+
+Reviewed `Flash Chaser`, `Gamma Blaster`, `Giant Cluster`, `Gigantic Charge`, `God of Destruction's Plaything`, `God Punisher`, `Handy Canon`, `Headshot`, `Heat Wave`, `Ill Rain`, `Paralysis`, and `Paralyze Beam`. Direct technique references were checked where available. Four records (`Flash Chaser`, `Gamma Blaster`, `God Punisher`, `Headshot`) received additional direct technique-page provenance; the evidence confirms Future Warrior acquisition/use but does not establish a new race restriction. No `race_restriction` values were changed for this cohort.
