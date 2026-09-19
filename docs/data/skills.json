@@ -1303,9 +1303,12 @@
       "source_quest_or_shop": "Skill Shop",
       "skill_description": "Ki Blast Super Skill that bends its follow-up projectile toward the target.",
       "mechanics_notes": "The skill is sold through the Conton City Skill Shop; the second input bends the projectile toward the target. Current acquisition evidence is community-sourced and should be retained as partially verified until an authoritative catalog is available.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "research_status": "reconciled_cac_race_provenance",
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Big Bang Kamehameha",
@@ -2866,11 +2869,14 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 134",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
+      "research_status": "reconciled_cac_race_provenance",
+      "last_verified": "2026-09-19",
       "ultimate_finish_required": true,
-      "source_quest": 134
+      "source_quest": 134,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Extra Pack-era DLC"
     },
     {
       "name": "Charged Ki Wave",
@@ -2881,9 +2887,15 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave"
       ],
-      "ki_cost": 100,
+      "ki_cost": 0,
       "unlock_method": "Parallel Quest 97 - \"Insidious Plot\"",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_cac_race_provenance"
     },
     {
       "name": "Dancing Parapara",
@@ -2967,7 +2979,13 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Advancement Test - Advanced Class",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Advancement Test - Advanced Class",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_cac_race_provenance"
     },
     {
       "name": "Hero's Flute",
@@ -3063,7 +3081,13 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Advancement Test - God Class",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Advancement Test - God Class",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_cac_race_provenance"
     },
     {
       "name": "Petrifying Spit",
@@ -3110,9 +3134,15 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonball.fandom.com/wiki/Sleep"
       ],
-      "ki_cost": 100,
+      "ki_cost": 0,
       "unlock_method": "Skill Shop (Conton City), after defeating Mira (Final Form) in the main story",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "Majin only",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_cac_race_provenance"
     },
     {
       "name": "Rise to Action",
@@ -3294,11 +3324,14 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 134",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
+      "research_status": "reconciled_cac_race_provenance",
+      "last_verified": "2026-09-19",
       "ultimate_finish_required": true,
-      "source_quest": 134
+      "source_quest": 134,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Extra Pack-era DLC"
     },
     {
       "name": "Wall of Defense",
@@ -3351,10 +3384,14 @@
       ],
       "ki_cost": 100,
       "mechanics_notes": "Documented Auto Dodge duration: 20 seconds; Ki cost 100. Source page explicitly lists 0:20.0.",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_cac_race_provenance",
       "ultimate_finish_required": null,
-      "unlock_method": "Expert Mission 20 — Harbinger of Doom"
+      "unlock_method": "Expert Mission 20 — Harbinger of Doom",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Extra Pack 1",
+      "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom"
     },
     {
       "name": "Divinity Unleashed",
@@ -3554,13 +3591,16 @@
       ],
       "ki_cost": 0,
       "mechanics_notes": "Documented max-Ki/auto-recovery effect duration: 20 seconds after activation; Ki cost 0. Source page explicitly lists 0:20.0.",
-      "last_verified": "2026-09-18",
-      "research_status": "partially_enriched",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_cac_race_provenance",
       "duration_seconds": 20,
       "unlock_method": "Parallel Quest reward",
       "source_quest": 122,
-      "source_quest_or_shop": "Parallel Quest 122 - The Final Battle Before The Final Battle?!",
-      "ultimate_finish_required": null
+      "source_quest_or_shop": "Parallel Quest reward",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance retained for research"
     },
     {
       "name": "Taunt",
@@ -3732,7 +3772,13 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": "Training with Android 18"
+      "unlock_method": "Training with Android 18",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Training with Android 18",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_cac_race_provenance"
     },
     {
       "name": "Death Slash",
@@ -4350,7 +4396,13 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": "Skill Shop in Conton City"
+      "unlock_method": "Skill Shop in Conton City",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_cac_race_provenance"
     },
     {
       "name": "Recoome Kick",
