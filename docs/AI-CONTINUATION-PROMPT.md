@@ -543,3 +543,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Exact Power to Overcome numeric stage modifiers remain deliberately unresolved because current 2026 sources conflict on defense, speed, damage, duration, and cooldown values. Do not replace the conflict with a guessed value.
 - Added `docs/data/skill-research-batches/skill-batch-42.json` and updated canonical skills, coverage gaps, TODO, and changelog.
 - Next exact task: continue version-sensitive transformation mechanics and remaining partial Awoken records, prioritizing independent corroboration of exact stage values.
+
+
+### 2026-09-19 cycle update — Power to Overcome mechanics batch 43
+- Enriched the canonical **The Power to Overcome** record using current 2026 testing references.
+- Stage 1 now records reported +20% defense, +5% movement speed, below-50%-HP recovery, and the unblockable sword-strike grab replacement.
+- Stage 2 now records reported ~12-second duration, +15% basic attack damage, +30% Strike/Ki Super damage, effectively/infinite Ki regeneration, and HP drain.
+- Conflicting Stage 2 movement-speed and cooldown reports remain unresolved; exact HP regeneration rate also remains unresolved.
+- Added `docs/data/skill-research-batches/skill-batch-43.json`; updated skills, coverage gaps, and changelog.
+- Next task: continue the remaining version-sensitive transformation audit and do not promote disputed numeric mechanics without independent corroboration.
