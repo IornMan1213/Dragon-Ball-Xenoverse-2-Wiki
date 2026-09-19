@@ -1539,3 +1539,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `ff9925f71fa23df93b5cfd448554a07f4c7baa12`.
 - Audit commit: `3e3ce0ab4622003d251f3d5e23f62dbf9afd076a`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Destruction's Conductor.
+
+
+### 2026-09-19 continuation — Dragon Spark through Force Edge
+- Reconciled **Dragon Spark, Dragon Spiral, Dragon Thunder, Emperor's Edge, Evil Flight Strike, Evil Whirlwind, Fierce Fist, and Force Edge**.
+- Dragon Thunder is retained as non-CaC based on dedicated current evidence; Evil Flight Strike retains its explicit Namekian/Majin restriction. Other CaC-usable records do not receive inferred race restrictions.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+- Data commit: `121f2cf091bdd303923d73f5592b4481798ecedc`.
+- Audit commit: `206f372be2d329166d3534926ffe54932b23eff6`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Force Edge.
