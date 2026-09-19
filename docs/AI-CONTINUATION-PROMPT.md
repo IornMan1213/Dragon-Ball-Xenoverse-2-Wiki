@@ -1619,3 +1619,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: 6178b9176c90880288a46f54dbe61921d4fe0bbc. Coverage commit: 2481e066b20cb87452d3b1a705110d1a8a9d4308.
 - Evidence sources included current Xenoverse 2 skill pages and independent Future Warrior/skill references. Reward-slot probabilities and Ultimate-Finish semantics remain bounded where not directly established.
 - Exact next task: recompute the live dataset order and continue with Lightning of Absolution, Majin Kamehameha, Mystic Flash, Prominence Flash, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, and Ribrianne's Eternal Love.
+
+
+### 2026-09-19 continuation — Lightning of Absolution through Ribrianne's Eternal Love
+- Reconciled Lightning of Absolution, Majin Kamehameha, Mystic Flash, Prominence Flash, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, and Ribrianne's Eternal Love.
+- All eight CaC-usable records now carry explicit All CaC races scope. Majin Kamehameha's previous `Majin` race field was removed because the skill is available to the Future Warrior; character association alone is not a CaC race restriction.
+- Preserved existing mechanics and uncertainty boundaries, including unresolved exact drop/Ultimate Finish conditions.
+- Updated docs/data/skills.json. Live census: 283 total / 269 CaC-usable / 152 CaC-usable with null race restriction.
+- Data commit: a0739f544609510d6d695a3f2f5531c557737bdb. Coverage commit: 1dc789bddbb3480951bcdade736e4a2a195bbdbe.
+- Exact next task: recompute the live dataset order and continue with S.S. Deadly Bomber, Sign of Awakening, Special Beam Cannon (Beast), Super Black Kamehameha Rosé, Super Gamma Blast, Super Kamehameha (SS4 DAIMA), Super Spirit Bomb, and Supernova. Preserve null restrictions where explicit evidence remains insufficient.
