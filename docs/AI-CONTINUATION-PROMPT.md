@@ -2484,3 +2484,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Current PQ/reward references available in the repository do not expose a sufficiently explicit UF-only reward-slot mapping for Dimension Cannon.
 - Kept `ultimate_finish_required=null`; no inference from repeated UF farming.
 - Nullable Super/Ultimate count remains **158**.
+
+
+### 2026-09-19 continuation — explicit UF evidence found
+- **Ultrasonic Blitz** (PQ151) was resolved to `ultimate_finish_required=true` using dedicated acquisition evidence that explicitly identifies it as a PQ151 Ultimate Finish reward.
+- Data commit: `977bbb025839abfa95c79672929ec6bc0256b76b`.
+- Nullable Super/Ultimate count decreased from **158 to 157**.
+- Next task: continue remaining nulls using the same explicit-gate evidence threshold; prioritize dedicated acquisition videos/guides or datamined reward-slot mappings.
