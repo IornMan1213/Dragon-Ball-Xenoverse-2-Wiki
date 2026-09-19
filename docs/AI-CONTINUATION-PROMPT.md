@@ -1249,3 +1249,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Current evidence confirms Evasive classifications, stamina costs and acquisition routes where documented. Force Shield was corrected to Ki Blast. Existing explicit all-CaC-races coverage for Ki Explosion was retained.
 - Data commit: `8830647798b1b93b499b8d1269d3fecf3386f684`; audit commit: `08d8bcee08b92ef2f05b9b16f0cfdb396faaf448`.
 - Next continuation should proceed from the next dataset-order unresolved records after Maiden Burst.
+
+
+### 2026-09-19 continuation — Mixed Evasive cohort
+- Reconciled Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, Spread Shot Retreat, Steel Mirage, Final Pose, and Mach Dash.
+- Corrected **Side Bridge** to 100-Ki Ki Blast Super / PQ39 and **Steel Mirage** to 100-Ki Ki Blast Super / PQ165. Mighty Explosive Wave is documented as Ki Blast Super/Evasive with 100 Ki attack cost and 300 Stamina Evasive cost.
+- Data commit: `50768f9d8305e2a6e62bb8a38c72cc10c0656ad2`; audit commit: `6e9243b360fb83068e53ed5510d1ad7dcc96592a`.
+- Next continuation should proceed from the next dataset-order unresolved records after Mach Dash.
