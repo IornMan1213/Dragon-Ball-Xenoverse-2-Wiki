@@ -1,3 +1,8 @@
+## September 2026 — Core Awoken audit batch 41
+- Promoted 11 core Awoken records from `partially_verified` to `verified` after reconciling CaC/race availability and unlock routes.
+- Added exact current resource thresholds where supported, including staged Kaioken and Super Saiyan/Super Vegeta costs.
+- Added batch 41 provenance and preserved the distinction between unlock eligibility and actual race usability.
+
 ## September 2026 — Saiyan Awoken verification
 - Verified **Future Super Saiyan**, **Super Saiyan God Super Saiyan**, and **Super Saiyan God Super Saiyan (Evolved)** as Saiyan CaC Awoken Skills.
 - Added exact level/friendship progression for SSGSS and Evolved and preserved the distinction between mentor award eligibility and actual race usability.
