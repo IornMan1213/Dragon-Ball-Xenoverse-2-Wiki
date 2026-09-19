@@ -2536,3 +2536,22 @@ Resolved `ultimate_finish_required: false` for **Phantom Fist (PQ97), Savory Sli
 - Live nullable Super/Ultimate census after this batch: **9 total — 9 Super / 0 Ultimate**.
 - Skills commit: `c50e7e751117b42407481c1a8cf66b38b2195e88`.
 - No schema or validator changes.
+
+## 2026-09-19 — final nullable Super/Ultimate UF pass
+
+Resolved `ultimate_finish_required=false` for the final nine nullable Super records: **Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Surging Spirit, Time Bullet, Dragon Thunder, and Emperor's Edge**.
+
+- **Final Flash (Super):** current skill evidence marks it unavailable for CaCs and gives `Unlock: N/A`; it is a character-exclusive Super rather than an Ultimate Finish acquisition. Source: https://dbxv2.fandom.com/wiki/Final_Flash_(Super)
+- **Energy Release:** current skill evidence identifies it as Towa's Other Super; the repository retains it as non-CaC and no UF acquisition route is established. Source: https://dbxv2.fandom.com/wiki/Energy_Release
+- **Final Charge:** current evidence identifies it as the SSGSS Vegeta (Evolved) charge Super and explicitly unavailable for CaCs. Source: https://dbxv2.fandom.com/wiki/Final_Charge
+- **Instant Charge:** current evidence identifies it as Mira (Final Form)'s Crystal Raid/boss charge skill, with no CaC acquisition route. Source: https://dbxv2.fandom.com/wiki/Instant_Charge
+- **Rising Rage:** current evidence explicitly identifies it as Broly (Restrained)'s character-exclusive Super and marks it unavailable for CaCs. Source: https://dbxv2.fandom.com/wiki/Rising_Rage
+- **Surging Spirit:** current evidence gives `Unlock: N/A` and documents CaC access only through the Ultra Instinct Awoken Skill's built-in action; it is not an Ultimate Finish reward. Source: https://dbxv2.fandom.com/wiki/Surging_Spirit
+- **Time Bullet:** current evidence corrects the prior repository classification: it is available to CaCs from the Skill Shop after "Decisive Battle with Majin Buu." This is a shop acquisition, not an UF gate; the record's CaC availability/race restriction were corrected at the same time. Source: https://dbxv2.fandom.com/wiki/Time_Bullet
+- **Dragon Thunder:** current evidence explicitly marks it unavailable for CaCs and identifies Omega Shenron as its user. Source: https://dbxv2.fandom.com/wiki/Dragon_Thunder
+- **Emperor's Edge:** the maintained PQ guide explicitly lists it in PQ99's Basic Reward list, while current Fandom data also lists TP Medal Shop. The acquisition-route conflict is preserved; neither source establishes UF-only acquisition, so the field is explicitly false rather than nullable. Sources: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543 and https://dbxv2.fandom.com/wiki/Emperor%27s_Edge
+
+- Live nullable Super/Ultimate census after this pass: **0**.
+- The broader skill file still contains nullable `ultimate_finish_required` values for Awoken/Evasive and other non-UF-scope records; these are not part of the completed Super/Ultimate UF census.
+- No schema or validator changes were made.
+
