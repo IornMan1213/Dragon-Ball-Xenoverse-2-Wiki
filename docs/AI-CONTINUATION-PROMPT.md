@@ -1923,3 +1923,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - CI: latest pre-cycle runs for `cf7f32b402d9ffbc21dcaa0086bea90bcb7fb285` (Repository quality and Clean internal artifacts) completed with **failure** and no actionable steps/logs exposed; this remains consistent with the documented opaque pre-step infrastructure/account failure pattern. Validators were not weakened.
 - Evidence limitations: the Future Warrior source establishes usability but does not enumerate a separate race-by-race restriction for these eight; therefore **All CaC races** is retained as the dataset's explicit scope while no narrower restriction is asserted.
 - Exact next task: continue the null-race census with **Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, and Dancing Parapara** after recomputing the live dataset.
+
+
+### 2026-09-19 continuation — Dragon Spiral through God of Destruction's Poise
+- Workstream: P1 skill race-restriction census.
+- Reviewed **Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edge, Freedom Kick, Gamma Impact, and God of Destruction's Poise**.
+- Added explicit **All CaC races** scope to all eight using current evidence; no narrower CaC race/gender/form restriction was established. Existing unresolved research fields were preserved.
+- Data commit: `38a055bb986c7be84f4c84c73491828795437bef`.
+- Audit commit: `16875f9f512cfa45e653f3073b6688fe8a0ceff8`.
+- Live census: **283 total / 269 CaC-usable / 20 CaC-usable with null race restriction**.
+- Exact next task: recompute the live dataset and continue the next eight records from the current ordered null-race list.
