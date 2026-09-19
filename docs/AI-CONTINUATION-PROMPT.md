@@ -793,3 +793,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Coverage commit: `ccd2348846a0d72c909b52fa8de01615221f026d`.
 - Current live skill census remains **283 total / 270 CaC-usable / 186 CaC-usable with null `race_restriction`**.
 - Exact next task: continue the race-restriction census using source passages that explicitly identify additional Future Warrior race/gender/form limits; if a candidate is only associated with a character or category, leave it unresolved.
+
+
+### 2026-09-19 cycle update — independent Future Warrior provenance hardening
+- Recomputed the live skill census before editing: **283 total / 270 CaC-usable / 186 CaC-usable with null `race_restriction` / 0 null `usable_by_cac`**.
+- Added the accessible independent Future Warrior reference to 13 already-reconciled restricted records: Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Ill Bomber, Candy Beam, Buu Buu Ball, Shining Slash, Burning Slash, Evil Flight Strike, Darkness Rush (Melee), Darkness Rush (Ranged), Majin Kamehameha, and Namek Finger.
+- No race values were changed in this cycle. The source explicitly supports the existing restrictions, so this is provenance hardening rather than speculative classification.
+- Skills commit: `5fe12abd56347b2d4e34974d5653a72a2cff308d`.
+- Coverage commit: `a976239d0e48357a68b44b0603d26ac7a3913fc5`.
+- Evidence source: accessible Future Warrior reference, which explicitly states race/gender restrictions for these techniques. citeturn1search0
+- Exact next task: continue mining explicit race/gender/form restrictions among the remaining 186 null-race CaC records; if the accessible source only identifies a character association, leave the record unresolved.
