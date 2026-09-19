@@ -1656,3 +1656,14 @@ Reviewed the next eight CaC-usable skills with null `race_restriction`: **Time S
 - Character association was not converted into a race restriction.
 - No unsupported acquisition or drop condition was introduced.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Force Shield through Spread Shot Retreat
+
+Reviewed **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, and Spread Shot Retreat**.
+
+- Current Future Warrior/CaC evidence supports these as usable techniques, but the reviewed evidence does not establish a CaC race/gender/form restriction; null race fields are intentionally preserved. citeturn0search0turn0search1
+- Force Shield remains a 200-Stamina Ki Blast Evasive from PQ59; Instant Rise remains an Evasive available to CaCs; Maiden Burst remains a 300-Stamina Ki Blast Evasive from PQ92; Punisher Guard is a defensive Evasive in the reviewed CaC skill corpus. citeturn0search4turn0search8turn0search10turn0search6
+- Mighty Explosive Wave remains the Super Skill version of Explosive Wave and is used by the Future Warrior; the Jiren (Full Power) Evasive is a separate variation and is not treated as a CaC restriction. citeturn0search7
+- No character-only association was converted into a race restriction.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
