@@ -15,15 +15,20 @@
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
       "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
-    ]
+    ],
+    "record_level_source_pass": {
+      "status": "completed",
+      "scope": "PQ91-PQ100",
+      "note": "Completed record-level provenance for the final ten base-game PQs. Corrected the batch's missing 7-star difficulty metadata. Reconciled PQ95-PQ98 basic reward/skill data against the maintained 186-PQ transcription: PQ95 includes Flash Bomber and Drain Field; PQ96 includes GT Vegeta's Jacket and Absolute Zero; PQ97 includes the documented clothing/capsules/souls plus Charged Ki Wave and Phantom Fist; PQ98 includes Lord Slug's Clothes and Dimension Ray. PQ100's reward list was cross-checked as x100 Big Bang Kamehameha with SSGSS Vegeta Wig and Whis Symbol Battle Suit. Unlock triggers were made conservative where sources conflict or only establish general story/PQ progression. Exact reward-slot/drop percentages remain unresolved."
+    }
   },
   "records": [
     {
       "number": 91,
       "name": "Saiyan Revolt",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
-      "unlock_condition": "Clear PQ 90.",
+      "unlock_condition": "Unlock trigger remains conservatively documented as progression-dependent; current independent sources confirm the quest's placement but do not establish a unique prerequisite with sufficient consistency.",
       "win_conditions": [
         "Defeat Goku",
         "Clear with Raditz and Nappa surviving",
@@ -49,15 +54,21 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 92,
       "name": "Revenge of the Tuffle",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
-      "unlock_condition": "Clear PQ 91.",
+      "unlock_condition": "Unlock trigger remains conservatively documented as progression-dependent; current independent sources confirm the quest's placement but do not establish a unique prerequisite with sufficient consistency.",
       "win_conditions": [
         "Defeat Great Ape Baby",
         "Clear in under 5 minutes",
@@ -83,13 +94,19 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 93,
       "name": "Small but Strong!",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
       "unlock_condition": "Clear PQ 92.",
       "win_conditions": [
@@ -112,12 +129,18 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_basic_rewards_no_skill_documented",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 94,
       "name": "Ultimate Power, Ultimate Saiyan",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
       "unlock_condition": "Clear PQ 93.",
       "win_conditions": [
@@ -145,13 +168,19 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 95,
       "name": "Super 17, the Ultimate Android",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
       "unlock_condition": "Clear PQ 94.",
       "win_conditions": [
@@ -165,12 +194,14 @@
       ],
       "ultimate_finish_trigger": "Defeat Super 17 while keeping Goku alive, then defeat revived Super 17.",
       "basic_rewards": [
-        "4480 Zeni",
+        "4470 Zeni",
         "Super 17's Clothes",
-        "Spirit Explosion"
+        "Flash Bomber",
+        "Drain Field"
       ],
       "skill_rewards": [
-        "Spirit Explosion"
+        "Flash Bomber",
+        "Drain Field"
       ],
       "skill_drop_conditions": [
         {
@@ -178,13 +209,19 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 96,
       "name": "The Shadow Dragons",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
       "unlock_condition": "Clear PQ 95.",
       "win_conditions": [
@@ -198,12 +235,12 @@
       ],
       "ultimate_finish_trigger": "Defeat Omega Shenron while keeping all allies alive, then defeat all enemies.",
       "basic_rewards": [
-        "4510 Zeni",
-        "Dragon Ball 4-star",
-        "Crazy Finger Shot"
+        "4500 Zeni",
+        "GT Vegeta's Jacket",
+        "Absolute Zero"
       ],
       "skill_rewards": [
-        "Crazy Finger Shot"
+        "Absolute Zero"
       ],
       "skill_drop_conditions": [
         {
@@ -211,13 +248,19 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 97,
       "name": "Insidious Plot",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
       "unlock_condition": "Clear PQ 96.",
       "win_conditions": [
@@ -232,11 +275,17 @@
       "ultimate_finish_trigger": "Defeat Mira and Towa, clear in under three minutes, then defeat all enemies.",
       "basic_rewards": [
         "4520 Zeni",
-        "Android 21's Clothes",
-        "Sauzer Blade"
+        "Yamcha's Baseball Hat",
+        "Power Capsule S",
+        "High Mix Capsule",
+        "Someone, satisfy me...",
+        "Revival of the Demon Realm is at hand",
+        "Charged Ki Wave",
+        "Phantom Fist"
       ],
       "skill_rewards": [
-        "Sauzer Blade"
+        "Charged Ki Wave",
+        "Phantom Fist"
       ],
       "skill_drop_conditions": [
         {
@@ -244,15 +293,21 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 98,
       "name": "Villains Regroup!",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
-      "unlock_condition": "Complete the base-game story and the Unknown History story after collecting all 5 Time Eggs.",
+      "unlock_condition": "Unlock trigger remains conservatively documented as story/progression-dependent; current independent sources establish the quest and objectives but do not provide sufficiently consistent evidence for a unique prerequisite.",
       "win_conditions": [
         "Defeat all enemies",
         "Clear in under 5 minutes",
@@ -277,15 +332,21 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 99,
       "name": "Frieza Race Revivified",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
-      "unlock_condition": "Clear PQ 98.",
+      "unlock_condition": "Unlock trigger remains conservatively documented as progression-dependent; current independent sources confirm the quest's placement but do not establish a unique prerequisite with sufficient consistency.",
       "win_conditions": [
         "Defeat all enemies",
         "Clear in under 5 minutes",
@@ -310,15 +371,21 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 100,
       "name": "The Ultimate Rivalry",
-      "stars": null,
+      "stars": 7,
       "dlc_requirement": null,
-      "unlock_condition": "Clear PQ 99.",
+      "unlock_condition": "Unlock trigger remains conservatively documented as progression-dependent; current independent sources confirm the quest's placement but do not establish a unique prerequisite with sufficient consistency.",
       "win_conditions": [
         "Defeat all enemies",
         "Clear in 8 minutes",
@@ -344,8 +411,14 @@
           "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
         }
       ],
-      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "verification_status": "verified_objectives_basic_rewards_unlock_metadata_partial_reward_semantics",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     }
   ]
 }
