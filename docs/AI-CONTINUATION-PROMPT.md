@@ -2491,3 +2491,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `977bbb025839abfa95c79672929ec6bc0256b76b`.
 - Nullable Super/Ultimate count decreased from **158 to 157**.
 - Next task: continue remaining nulls using the same explicit-gate evidence threshold; prioritize dedicated acquisition videos/guides or datamined reward-slot mappings.
+
+
+### 2026-09-19 continuation — post-Ultrasonic Blitz candidate pass
+- Rechecked Heroic Counter (PQ155), Punisher Shield (PQ129), Side Bridge (PQ39), Steel Mirage (PQ165), Blaster Ball (PQ125), and Breaker Energy Wave (PQ101).
+- Existing repository provenance confirms their PQ sources, but no additional explicit current Xenoverse 2 evidence was sufficient to establish an Ultimate Finish-only gate for these six.
+- No data changes made; they remain `null`.
+- Nullable Super/Ultimate count remains **157**.
+- Continue with remaining null records, prioritizing explicit UF reward-slot evidence and dedicated acquisition guides.
