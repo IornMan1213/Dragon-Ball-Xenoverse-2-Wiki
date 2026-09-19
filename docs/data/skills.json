@@ -2220,11 +2220,12 @@
       "ki_cost": 200,
       "research_status": "enriched",
       "unlock_method": "Character-exclusive skill; not equippable by CaCs",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "last_verified": "2026-09-19",
       "usable_by_cac": false,
-      "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained."
+      "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained.",
+      "notes": "Character-exclusive/non-CaC acquisition does not depend on a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Flash Chaser",
@@ -3252,10 +3253,11 @@
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "notes": "Character-exclusive/non-CaC acquisition does not depend on a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Final Charge",
@@ -3272,12 +3274,13 @@
       "description": "Ki-charging Super Skill used by Super Saiyan God Super Saiyan (Evolved) Vegeta; it begins slowly and rapidly accelerates after about two seconds, functioning similarly to Ultimate Charge.",
       "mechanics": "Starts at a slow charging rate, then accelerates rapidly after roughly two seconds; slightly faster than Ultimate Charge. Character-exclusive and unavailable to CaCs.",
       "usable_by_cac": false,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "source_quest_or_shop": "Character-exclusive",
-      "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs."
+      "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs.",
+      "notes": "Character-exclusive/non-CaC acquisition does not depend on a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Full Power Charge",
@@ -3338,10 +3341,11 @@
       "unlock_method": "Character-exclusive: Mira (Final Form); also used by certain raid/boss encounters",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "notes": "Character-exclusive/non-CaC acquisition does not depend on a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Instant Transmission",
@@ -3504,10 +3508,11 @@
       "unlock_method": "Character-exclusive: Broly (Restrained)",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "notes": "Character-exclusive/non-CaC acquisition does not depend on a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Shield Barrier",
@@ -3624,10 +3629,11 @@
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Retained as a 100-Ki Other Super that is character-exclusive/non-CaC. It is associated with Guldo/Captain Ginyu-era time-manipulation moves; no CaC acquisition route established.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "notes": "Character-exclusive/non-CaC acquisition does not depend on a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Time Control",
@@ -4322,13 +4328,14 @@
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 100,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "N/A — character-only skill; unavailable for CaC",
       "usable_by_cac": false,
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect.",
-      "source_quest_or_shop": "Character skill"
+      "source_quest_or_shop": "Character skill",
+      "notes": "Character-exclusive/non-CaC acquisition does not depend on a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Emperor's Edge",
