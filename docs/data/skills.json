@@ -2268,11 +2268,12 @@
       "skill_description": "Ill Bomber is a Super Ki Blast skill associated with Super 17.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_race_restriction",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Ill_Bomber"
+        "https://dbxv2.fandom.com/wiki/Ill_Bomber",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "Majin"
     },
@@ -3158,7 +3159,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dragonball.fandom.com/wiki/Sleep"
+        "https://dragonball.fandom.com/wiki/Sleep",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 0,
       "unlock_method": "Skill Shop (Conton City), after defeating Mira (Final Form) in the main story",
@@ -3168,7 +3170,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_cac_race_provenance"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Rise to Action",
@@ -3718,7 +3720,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
-        "https://dbxv2.fandom.com/wiki/Burning_Slash"
+        "https://dbxv2.fandom.com/wiki/Burning_Slash",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
@@ -3730,7 +3733,7 @@
       "unlock_method": "Parallel Quest 44 reward",
       "source_quest": 44,
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_race_restriction"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Burning Swan",
@@ -4006,7 +4009,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
-        "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike"
+        "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
@@ -4019,7 +4023,7 @@
       "unlock_method": "Parallel Quest 21 reward",
       "source_quest": 21,
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_race_restriction"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Evil Whirlwind",
@@ -4353,7 +4357,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
-        "https://dragonball.fandom.com/wiki/Demon_Hand"
+        "https://dragonball.fandom.com/wiki/Demon_Hand",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
@@ -4575,7 +4580,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
-        "https://dragonball.fandom.com/wiki/High_Strike"
+        "https://dragonball.fandom.com/wiki/High_Strike",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restrictions": [
         "Human",
@@ -4587,7 +4593,7 @@
       "unlock_method": "Parallel Quest 38 reward",
       "source_quest": 38,
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_race_restriction"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Shooting Strike",
@@ -4747,7 +4753,8 @@
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Zigzag_Express"
+        "https://dbxv2.fandom.com/wiki/Zigzag_Express",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "Majin male"
     },
@@ -5391,7 +5398,8 @@
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Majin_Kamehameha"
+        "https://dbxv2.fandom.com/wiki/Majin_Kamehameha",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "Majin"
     },
@@ -5972,11 +5980,12 @@
       "skill_description": "Explosive Buu Buu Punch is a Ultimate Strike skill associated with Majin Buu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_race_restriction",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Explosive_Buu_Buu_Punch"
+        "https://dbxv2.fandom.com/wiki/Explosive_Buu_Buu_Punch",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "Majin"
     },
@@ -6087,11 +6096,12 @@
       "skill_description": "Saiyan Spirit is a Ultimate Strike skill associated with Bardock.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_race_restriction",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Saiyan_Spirit"
+        "https://dbxv2.fandom.com/wiki/Saiyan_Spirit",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "Saiyan"
     },
