@@ -2514,3 +2514,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 77bd6ceab0821fb3a60e965027b597b85952b476.
 - Live nullable Super/Ultimate census: 115 total (80 Super, 35 Ultimate).
 - Next task: continue remaining nullable candidates; resolve only when the acquisition route is explicitly independent of Ultimate Finish.
+
+
+### 2026-09-19 continuation — PQ reward batch 15
+- Resolved `ultimate_finish_required=false`: Ray Blast (PQ125), Reverse Shot (PQ123), Shine Shot (PQ07), Spirit Blaster (PQ129).
+- Evidence: these skills have independent PQ reward acquisition entries in the repository's researched catalog; generic/random-only candidates remain nullable.
+- Skills commit: 7e9d2d8 (latest skills change in this continuation; verify exact SHA in history if needed).
+- Live nullable Super/Ultimate census: 115 total (80 Super, 35 Ultimate).
+- Next task: continue remaining nullable PQ candidates and reconcile any conflicts before clearing gates.
