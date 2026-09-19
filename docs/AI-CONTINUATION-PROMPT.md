@@ -2214,3 +2214,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Final post-addition checks: **840 total edges, 0 duplicates, 0 invalid PQ numbers, 0 missing reverse reward mappings, and counts synchronized across forward/reverse/audit/status layers**.
 - Current totals: **236 skills, 137 Super Souls, 125 equipment, 247 characters, 88 DLC, 7 farming = 840 edges**.
 - Exact next task: **audit non-reward relationship completeness and source coverage (characters, DLC, and farming), then preserve any genuine source limitations rather than inferring edges.**
+
+
+### 2026-09-19 continuation — non-reward relationship audit
+- Audited the populated character, DLC, and farming relationship layers for duplicate PQ/target pairs, provenance, and inference risk.
+- Character layer: **247 edges / 75 canonical targets**, all source-backed; no duplicate edges found. Existing methodology remains explicit objective/ultimate-finish character references with documented aliases only.
+- DLC layer: **88 source-backed edges**, no duplicate PQ/target pairs found. DLC attribution remains separate from reward ownership.
+- Farming layer: **7 source-backed edges**, no duplicate PQ/target pairs found; these represent documented practical farming routes, not guaranteed drops.
+- No new relationship edges were added because this tranche found no sufficiently explicit evidence that would justify inferred character, DLC, or farming relationships.
+- Updated the audit, status, and persistent handoff.
+- Current totals remain **236 skills, 137 Super Souls, 125 equipment, 247 characters, 88 DLC, 7 farming = 840 edges**.
+- Exact next task: **perform a repository-wide relationship/source integrity review and reconcile any newly discovered PQ character, DLC, or farming evidence before declaring the cross-domain relationship layer stable.**
