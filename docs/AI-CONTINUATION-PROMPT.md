@@ -383,3 +383,16 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **36 records still lacking individual `sources` arrays**.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Exact next task: **continue with PQ91–PQ100**, the final ten base-game PQs. Verify difficulty metadata, unlock routes, objective sequences, Dragon Ball/Ultimate Finish mechanics, rewards, and record-level provenance. Pay particular attention to the final PQ100 and any conflicts in old guides. Then update coverage audit, changelog, handoff, and inspect Actions/status.
+
+
+### 2026-09-19 cycle update — PQ91–100 final base-game provenance pass
+- Workstream: Complete the base-game PQ1–PQ100 provenance/objective/reward audit.
+- Completed record-level provenance for **PQ91–PQ100**, with explicit sources and 2026-09-19 verification dates.
+- Corrected missing difficulty metadata: PQ91–PQ100 are **7-star** quests.
+- Reconciled reward discrepancies against the maintained 186-PQ transcription and independent guides. PQ95 now records Flash Bomber and Drain Field; PQ96 records GT Vegeta's Jacket and Absolute Zero; PQ97 records its full documented reward set including Charged Ki Wave and Phantom Fist; PQ98 records Lord Slug's Clothes and Dimension Ray; PQ100 records x100 Big Bang Kamehameha, SSGSS Vegeta Wig, and Whis Symbol Battle Suit.
+- Cross-checked Ultimate Finish objectives, including PQ100's 8-minute condition followed by SSGSS Goku/Vegeta. Unlock metadata was kept conservative where no unique prerequisite is consistently established.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-10.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `a4ba623945d9ec3903c6440d5cd865e46bdce78e` (PQ91–100 research), `6a8ff70456aec7002287aeeb2ff44905c5128aa6` (coverage audit), `c284f67ee57dd66a28cc8a7622c21ed60fbf3458` (changelog).
+- Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **26 records still lacking individual `sources` arrays**.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Base-game PQ1–PQ100 provenance pass is now complete at the current record-level-source standard. **Exact next task: continue with the remaining 26 records lacking individual sources, starting with the next highest-priority batch and preserving the same evidence standard.** Do not assume the remaining records are lower quality merely because they lack sources; inspect each batch, reconcile objectives/rewards/unlocks independently, and update coverage audit, changelog, handoff, and Actions/status after each pass.
