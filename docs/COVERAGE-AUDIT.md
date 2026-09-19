@@ -1272,3 +1272,19 @@ Reconciled Taunt, Blazing Attack, Brave Sword Slash, Burning Slash, Burning Swan
 - Burst Blitz confirmed as 300-Ki Goku (Mini)/Future Saga Chapter 2 PQ178 Strike Super.
 - Crimson Edge retained as 100-Ki Goku Black (Rosé) Ultra Supervillain Strike Super and non-CaC.
 - Deadly Dance confirmed as 100-Ki Android 18 mentor Strike Super, all CaC races.
+
+
+## 2026-09-19 — Deadly Dance through Emperor's Edge cohort
+
+Reconciled the next eight dataset-order skills after Deadly Dance against current Xenoverse 2 evidence.
+
+- **Death Slash:** Future Warrior/CaC availability is supported through the maintained Future Warrior technique index; no explicit CaC race/gender/form restriction was established, so the race field remains null.
+- **Demon Flurry:** current skill evidence confirms the PQ160 acquisition and Future Warrior availability; no explicit CaC race/gender/form restriction was established.
+- **Demonic Destruction:** current skill evidence confirms PQ159 acquisition and Future Warrior availability; no explicit CaC race/gender/form restriction was established.
+- **Destruction's Conductor:** current evidence identifies it as a Future Warrior reward from PQ106; no explicit CaC race/gender/form restriction was established.
+- **Dragon Spark:** current dedicated evidence confirms the PQ177 skill identity; it does not explicitly establish CaC race/gender/form scope, so the existing null restriction is preserved.
+- **Dragon Spiral:** current Chapter 4/PQ185–186 evidence confirms the skill identity and CaC availability recorded in the dataset, but does not explicitly establish a CaC race/gender/form restriction.
+- **Dragon Thunder:** corrected to **non-CaC**. Dedicated Xenoverse 2 evidence explicitly marks the Omega Shenron 100-Ki Strike Super as unavailable for CaCs; the prior all-CaC-races value was removed.
+- **Emperor's Edge:** current evidence confirms Future Warrior availability; no explicit CaC race/gender/form restriction was established.
+
+The live skill census remains **283 total / 269 CaC-usable / 182 CaC-usable with null race restriction**. The Dragon Thunder correction reduced CaC-usable count by one without changing the null-race count because its previous race field was populated.
