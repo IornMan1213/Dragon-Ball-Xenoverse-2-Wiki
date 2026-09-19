@@ -4361,7 +4361,9 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition"
+      "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition",
+      "last_verified": "2026-09-19",
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -4741,7 +4743,7 @@
       "skill_description": "Zigzag Express is a Super Strike skill associated with Majin (Male).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_race_restriction",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
