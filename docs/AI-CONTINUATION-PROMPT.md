@@ -975,3 +975,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Character ownership and generic Counter Skills categorization were not treated as race evidence.
 - Canonical skill count remains 283 and the unresolved CaC null-race count remains 183.
 - Exact next task: continue with the following unresolved cohort beginning at Shadow Crusher, preserving nulls unless current-version evidence explicitly establishes restriction or unrestricted access.
+
+
+### 2026-09-19 cycle update — counter/time-skip provenance batch
+- Reviewed Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Ultrasonic Blitz.
+- Added direct Xenoverse 2 technique-page provenance for all eight records.
+- Current evidence documents identity/unlock/user/mechanics but does not explicitly establish CaC race/gender/form scope; no race_restriction values were changed.
+- Character ownership, mentor status, and category membership remain insufficient evidence for race classification.
+- Canonical skill count remains 283 and unresolved CaC null-race count remains 183.
+- Exact next task: continue the next unresolved null-race cohort after Ultrasonic Blitz, beginning with the current live ordering, and classify only from explicit current-version evidence.
