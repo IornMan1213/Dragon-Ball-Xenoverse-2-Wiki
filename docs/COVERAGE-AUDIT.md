@@ -2189,3 +2189,8 @@ Resolved two remaining Evasive damage_type nulls from direct skill-source classi
 ## 2026-09-19 — Evasive acquisition/DLC provenance batch
 
 Resolved `dlc_requirement` for six Evasive skills with direct acquisition evidence showing base-game availability: Explosive Wave (Skill Shop), Mach Dash (PQ18), Final Pose (Skill Shop), Punisher Guard (Skill Shop), Angry Shout (PQ68), and Energy Barrier (PQ32). These records are explicitly listed among base-game Evasives in the repository's cited Evasive reference. Remaining nullable DLC fields are preserved where the available evidence does not establish version provenance.
+
+
+## 2026-09-19 — Evasive Ultimate-Finish metadata batch
+
+Resolved `ultimate_finish_required` to `false` for **Explosive Wave**, **Punisher Guard**, and **Final Pose**. Their current acquisition method is Skill Shop rather than a Parallel Quest Ultimate Finish, so these records have direct negative evidence for a UF acquisition requirement. Other Evasive Ultimate-Finish fields remain nullable where the available evidence does not establish whether a PQ reward is specifically tied to Ultimate Finish.
