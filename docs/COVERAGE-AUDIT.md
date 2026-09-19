@@ -887,3 +887,8 @@ Reviewed the next unresolved cohort: **Burst Rush, Change The Future, Counter Bu
 ## 2026-09-19 — counter/time-skip provenance batch
 
 Reviewed the next unresolved null-race cohort: **Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Ultrasonic Blitz**. Added direct Xenoverse 2 technique-page provenance for all eight records. The checked pages document skill identity, unlock/acquisition, notable users, and mechanics; they do not explicitly establish CaC race/gender/form restrictions or universal race access. Therefore no race_restriction classifications were changed. Character ownership, mentor status, and category membership were not treated as race evidence. Shadow Crusher is specifically documented as obtained through Cooler training, while the three Time Skip skills are taught by Hit; those acquisition facts do not establish CaC race scope.
+
+
+## 2026-09-19 — evasive-skill provenance boundary
+
+Reviewed the next unresolved null-race cohort: **Absolute Zero, Dragon Burn, Explosive Wave, and Force Shield**. Existing direct Xenoverse 2 provenance was already present for Absolute Zero, Dragon Burn, and Force Shield; Explosive Wave received its direct Xenoverse 2 skill-page provenance. Current evidence identifies these as Evasive Skills and documents users/unlock information, but does not explicitly establish CaC race/gender/form restrictions or universal race access for these records. No `race_restriction` classifications were changed. The Evasive Skill category's CaC list was not treated as sufficient race-specific evidence.
