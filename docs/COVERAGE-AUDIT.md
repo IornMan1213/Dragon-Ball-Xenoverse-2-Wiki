@@ -811,3 +811,7 @@ Reviewed the Future Warrior source's form-exclusive sections for Great Namekian,
 ## 2026-09-19 explicit-restriction cross-check
 
 Cross-checked the source's explicitly stated Future Warrior race/gender restrictions against the live canonical skill inventory. The complete explicit set represented by the source — Saiyan Spirit; Explosive Buu Buu Punch; Zigzag Express; Quick Sleep; Ill Bomber; Shining Slash; Burning Slash; Candy Beam; Buu Buu Ball; Evil Flight Strike; Namek Finger; Darkness Rush (Ranged); Darkness Rush (Melee); and Majin Kamehameha — has **no remaining CaC-usable record with a null `race_restriction`**. This confirms the previously reconciled restriction cohort is still closed. The remaining 186 null records require separate evidence rather than inference.
+
+## 2026-09-19 Death Psycho Bomb — explicit unrestricted evidence
+
+`Death Psycho Bomb` was the first new classification from the expanded independent-source pass. The dedicated technique page explicitly states that in Xenoverse 2 it can be obtained by the Future Warrior from PQ33 and **can be used by the Future Warrior regardless of race**. The canonical skill had `usable_by_cac: true` and a null `race_restriction`, so it is now classified as **All CaC races**. This is an evidence-backed classification, not an inference from Frieza ownership. citeturn2search0
