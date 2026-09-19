@@ -1810,3 +1810,13 @@ Reviewed the next eight null-race CaC-usable records: **Heroic Counter, Punisher
 - Preserved existing acquisition and mechanics metadata; no unsupported character-to-CaC race inference was used.
 - Live census: **283 total / 269 CaC-usable / 108 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Time Skip/Back Breaker through Explosive Wave race-restriction census
+
+Reviewed the next eight null-race CaC-usable records: **Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Absolute Zero, Celestial Wave, Dragon Burn, Explosive Wave**.
+
+- Added explicit **All CaC races** scope to all eight. Reviewed evidence establishes CaC/Future Warrior availability and does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition and mechanics metadata; character-specific usage was not converted into a race restriction.
+- Live census: **283 total / 269 CaC-usable / 100 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
