@@ -2602,3 +2602,12 @@ This does not reinterpret the other ten non-null legacy values; those require a 
 Skills commit: `1d72edc69ea25e81595acf23b006f69d1b8f1476`.
 No schema or validator changes were made.
 
+## 2026-09-19 — remaining race restriction nulls resolved
+
+The remaining **10 nullable `race_restriction` records** were audited after the three Awoken character-only records were normalized. All ten are explicitly marked `usable_by_cac: false` and have current acquisition/source metadata identifying them as character-exclusive/non-CaC skills: Big Bang Knuckle, Divine Spear, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Crimson Edge, Dragon Thunder, and Wild Stinger. Current race/skill references distinguish CaC-race restrictions from character-exclusive skills; character-only transformations/skills are not tied to one of the five CaC races. citeturn0search11turn0search1
+
+Resolved all ten to **`race_restriction: "Character-only"`**. No race-specific restriction was invented for them.
+
+Skills commit: `a7e53e9a40f317c095247e55ddaf91e51b09fcb7`.
+No schema or validator changes were made.
+
