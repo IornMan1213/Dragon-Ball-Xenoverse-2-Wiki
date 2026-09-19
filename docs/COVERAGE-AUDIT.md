@@ -508,3 +508,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Cross-checked the 7-star objective sequences and documented basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish references. 
 - Unlock metadata was reviewed conservatively. The maintained records retain their documented routes; external evidence also indicates PQ availability can depend on broader story progression rather than a single universal sequential prerequisite, so no stronger unsupported claim was introduced. 
 - Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 46 records still lacking individual `sources` arrays**.
+
+
+## Parallel Quest provenance pass — PQ81–PQ90 — 2026-09-19
+
+- Completed record-level provenance for **PQ81–PQ90**; all ten records now carry explicit source URLs and a 2026-09-19 verification date.
+- Corrected missing difficulty metadata: PQ81–PQ90 are documented as the base game's **7-star** block. 
+- Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription plus independent Ultimate Finish/objective tables. 
+- PQ83 progression has community evidence for the 81→82→83 sequence, while general documentation notes that base-game PQs can also be surfaced through story progression and Conton City NPCs; individual unlock fields therefore remain conservative where a unique trigger is not established. 
+- Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 36 records still lacking individual `sources` arrays**.
