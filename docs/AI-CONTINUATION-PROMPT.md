@@ -2404,3 +2404,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `c8bcbad7b8773c7cbfd4b49783e272f033db1a59`.
 - Evidence limitation: this resolves the acquisition gate, not the separate random drop chance; those are distinct mechanics.
 - Exact next task: recompute the live null census and inspect the remaining records for similarly explicit acquisition-gate evidence.
+
+
+### 2026-09-19 continuation — null-candidate evidence audit
+- Recomputed the live nullable `ultimate_finish_required` scope: **164** Super/Ultimate records remain unresolved after Prominence Flash.
+- Audited early/mid PQ candidates including Change The Future, Counter Burst, Counter Impact, God Breaker, Heroic Counter, Punisher Shield, and Ultrasonic Blitz against available acquisition/UF evidence.
+- No additional record met the repository's affirmative evidence threshold in this pass. In particular, PQ reward/skill-drop listings and community reports were insufficient to distinguish an Ultimate Finish requirement from ordinary/random PQ reward gating where the source did not explicitly make that dependency.
+- No data change made in this audit; preserving `null` is intentional rather than inferred `false`.
+- Next task: continue targeted research of the remaining 164 nulls, prioritizing explicit statements that a skill requires or does not require the PQ Ultimate Finish.
