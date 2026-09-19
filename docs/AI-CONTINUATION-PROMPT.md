@@ -1325,3 +1325,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important findings: Assault Vanish = 100 Ki + 100 Stamina; Charged Ki Wave charges Stamina; Energy Release is Towa-exclusive/non-CaC; Burst Charge has rapid-start/slowdown behavior.
 - Data commit: `1a04699939da26bfc07c1bd3d32cb9149fa41b79`; audit commit: `8287d4ec5fc4865913c2bc0428b0f14a05cdd501`.
 - Continue from the records immediately following Energy Release in dataset order.
+
+
+### 2026-09-19 continuation — Final Charge through Petrifying Spit
+- Reconciled Final Charge, Full Power Charge, Hero's Flute, Instant Charge, Instant Transmission, Kai Kai, Maximum Charge, and Petrifying Spit.
+- Important findings: Final Charge/Instant Charge remain non-CaC character/boss skills; Full Power Charge and Maximum Charge are CaC Advancement Test charge skills; Instant Transmission is 0-resource Goku Lesson 1 teleport; Kai Kai is Whis's 100-Ki ally teleport; Petrifying Spit is Dabura's 100-Ki petrification skill.
+- Data commit: `014af364386a1befc30d2d428484fda639e5943f`; audit commit: `d040293e8bbda661ea1f1dd2dee90375534d7a46`.
+- Continue from the records immediately following Petrifying Spit in dataset order.
