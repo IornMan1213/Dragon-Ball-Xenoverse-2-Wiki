@@ -1,101 +1,179 @@
 {
   "batch_id": 45,
-  "created": "2026-09-17",
-  "verification_policy": "research_batch_with_current_and_independent_cross_checks",
-  "research_scope": "Five early/base-game skills from PQ19-PQ23 selected after live repository duplicate checks. Quest identity and core mechanics are corroborated; unsupported reward-slot and Ultimate-Finish requirements remain unresolved.",
-  "verification_audit": {
-    "audited": "2026-09-17",
-    "duplicate_check": {"status":"passed_for_selected_records","selected_records":["Fighting Pose E","Mystic Flash","Evil Flight Strike","Energy Shot","Death Slash"],"duplicate_count":0},
-    "source_basis":[
-      "https://xvguide.neocities.org/Skill",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "https://dbxv2.fandom.com/wiki/Fighting_Pose_E",
-      "https://dbxv2.fandom.com/wiki/Mystic_Flash",
-      "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike",
-      "https://dbxv2.fandom.com/wiki/Energy_Shot"
-    ]
-  },
-  "records":[
+  "created": "2026-09-19",
+  "scope": "Indexed Evasive skill CaC availability, acquisition, stamina-cost, and descriptive mechanics reconciliation",
+  "records": [
     {
-      "name":"Fighting Pose E",
-      "class":"Super",
-      "subcategory":"Power Up",
-      "usable_by_cac":true,
-      "ki_cost":0,
-      "stamina_cost":null,
-      "unlock_method":"Parallel Quest 19 — Fierce Battle! Ginyu Force",
-      "source_quest_or_shop":"Parallel Quest 19",
-      "ultimate_finish_required":null,
-      "verification_status":"partially_verified",
-      "last_verified":"2026-09-17",
-      "skill_description":"A temporary pose that boosts normal/basic attacks.",
-      "mechanics_notes":"Skill-specific data identifies Fighting Pose E as a Power Up Super using 0 Ki, lasting 20 seconds and temporarily boosting normal/basic attack. PQ19 reward listings independently identify the skill. Historical player reports discuss random acquisition but do not establish a canonical drop condition.",
-      "sources":["https://dbxv2.fandom.com/wiki/Fighting_Pose_E","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74533883"]
+      "name": "Absolute Zero",
+      "verified_fields": [
+        "CaC availability",
+        "acquisition route",
+        "stamina cost",
+        "descriptive mechanics"
+      ],
+      "usable_by_cac": true,
+      "unlock_method": "Parallel Quest 96 - \"The Shadow Dragons\" (random reward)",
+      "source_quest_or_shop": "Parallel Quest 96",
+      "stamina_cost": 300,
+      "mechanics_notes": "Ki Blast Evasive counter; attackers who hit the stance are frozen for the documented 3-second effect.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Absolute_Zero",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
     },
     {
-      "name":"Mystic Flash",
-      "class":"Ultimate",
-      "subcategory":"Ki Blast",
-      "usable_by_cac":true,
-      "ki_cost":300,
-      "stamina_cost":null,
-      "unlock_method":"Parallel Quest 20 — Frieza! Show Yourself",
-      "source_quest_or_shop":"Parallel Quest 20",
-      "ultimate_finish_required":null,
-      "verification_status":"partially_verified",
-      "last_verified":"2026-09-17",
-      "skill_description":"A rear-facing Ki Wave Ultimate that hits repeatedly and knocks the opponent back.",
-      "mechanics_notes":"Skill-specific data identifies Mystic Flash as a 300-Ki Ki Blast Ultimate with 25 hits and 30% documented damage. The attack fires only backward. PQ20 reward listings independently identify the skill. Exact reward-slot semantics and CaC availability are retained as unresolved where sources do not directly establish them.",
-      "sources":["https://dbxv2.fandom.com/wiki/Mystic_Flash","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://xvguide.neocities.org/Skill"]
+      "name": "Dragon Burn",
+      "verified_fields": [
+        "CaC availability",
+        "acquisition route",
+        "stamina cost",
+        "descriptive mechanics"
+      ],
+      "usable_by_cac": true,
+      "unlock_method": "Parallel Quest 82 - \"Ultimate Brotherly Battle\" (random reward)",
+      "source_quest_or_shop": "Parallel Quest 82",
+      "stamina_cost": 200,
+      "mechanics_notes": "Ki Blast Evasive counter; attackers who hit the stance are paralyzed and burned for the documented 3-second effect.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dragon_Burn",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
     },
     {
-      "name":"Evil Flight Strike",
-      "class":"Super",
-      "subcategory":"Strike",
-      "usable_by_cac":true,
-      "ki_cost":100,
-      "stamina_cost":null,
-      "unlock_method":"Parallel Quest 21 — Tri-Race Coop",
-      "source_quest_or_shop":"Parallel Quest 21",
-      "ultimate_finish_required":null,
-      "verification_status":"partially_verified",
-      "last_verified":"2026-09-17",
-      "skill_description":"An extending-arm rising Strike Super that hits repeatedly while leaving the opponent airborne.",
-      "mechanics_notes":"Current skill-specific data identifies Evil Flight Strike as a 100-Ki Strike Super for Namekian and Majin CaCs, dealing 15% damage across eight hits. Piccolo (Power Awakening) repurposes the technique as an Evasive skill using 300 stamina. PQ21 reward listings identify the quest source.",
-      "sources":["https://dbxv2.fandom.com/wiki/Evil_Flight_Strike","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "name": "Explosive Wave",
+      "verified_fields": [
+        "CaC availability",
+        "acquisition route",
+        "stamina cost",
+        "descriptive mechanics"
+      ],
+      "usable_by_cac": true,
+      "unlock_method": "Skill Shop for 15,000 Zeni after completing the main story (normal ending)",
+      "source_quest_or_shop": "Skill Shop",
+      "stamina_cost": 300,
+      "mechanics_notes": "Ki Blast Evasive that creates an explosion around the user and staggers/knocks back nearby enemies.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Explosive_Wave",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
     },
     {
-      "name":"Energy Shot",
-      "class":"Super",
-      "subcategory":"Ki Blast",
-      "usable_by_cac":true,
-      "ki_cost":100,
-      "stamina_cost":null,
-      "unlock_method":"Parallel Quest 22 — Dragon Ball Brawl",
-      "source_quest_or_shop":"Parallel Quest 22",
-      "ultimate_finish_required":null,
-      "verification_status":"partially_verified",
-      "last_verified":"2026-09-17",
-      "skill_description":"A chargeable Ki Blast projectile whose damage increases with charge time.",
-      "mechanics_notes":"Skill-specific data identifies Energy Shot as a 100-Ki Ki Blast Super. Base use deals 3% documented damage and maximum charge deals 15%. PQ22 reward listings identify the skill. Exact reward-slot semantics are unresolved.",
-      "sources":["https://dbxv2.fandom.com/wiki/Energy_Shot","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "name": "Punisher Guard",
+      "verified_fields": [
+        "CaC availability",
+        "acquisition route",
+        "stamina cost",
+        "descriptive mechanics"
+      ],
+      "usable_by_cac": true,
+      "unlock_method": "Skill Shop after completing the relevant story progression; originally associated with PQ87 before the current acquisition route",
+      "source_quest_or_shop": "Skill Shop",
+      "stamina_cost": 300,
+      "mechanics_notes": "Other Evasive universal guard; current reference documents approximately 3 seconds of invulnerability.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Punisher_Guard",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
     },
     {
-      "name":"Death Slash",
-      "class":"Super",
-      "subcategory":"Strike",
-      "usable_by_cac":true,
-      "ki_cost":100,
-      "stamina_cost":null,
-      "unlock_method":"Parallel Quest 23 — Frieza's Special Squad",
-      "source_quest_or_shop":"Parallel Quest 23",
-      "ultimate_finish_required":null,
-      "verification_status":"partially_verified",
-      "last_verified":"2026-09-17",
-      "skill_description":"A short-range sword-based Strike Super associated with Frieza's elite forces.",
-      "mechanics_notes":"The independent PQ reward transcription places Death Slash in PQ23. The current skill guide also indexes Death Slash under PQ23. Exact resource, damage, hit-count, reward-slot and character/CaC semantics remain unresolved pending a stronger skill-specific reference.",
-      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://xvguide.neocities.org/Skill"]
+      "name": "Final Pose",
+      "verified_fields": [
+        "CaC availability",
+        "acquisition route",
+        "stamina cost",
+        "descriptive mechanics"
+      ],
+      "usable_by_cac": true,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "stamina_cost": 200,
+      "mechanics_notes": "Power Up Evasive that creates a close-range shockwave and temporarily increases Basic Attack power; current reference documents 1.5% for 12 seconds.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Pose",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
+    },
+    {
+      "name": "Mach Dash",
+      "verified_fields": [
+        "CaC availability",
+        "acquisition route",
+        "stamina cost",
+        "descriptive mechanics"
+      ],
+      "usable_by_cac": true,
+      "unlock_method": "Parallel Quest 18 - \"Force Entrance Exam\" (first-clear/random reward)",
+      "source_quest_or_shop": "Parallel Quest 18",
+      "stamina_cost": 200,
+      "mechanics_notes": "Power Up Evasive that creates distance and grants a temporary 1.5% movement-speed increase for 12 seconds in the current reference.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mach_Dash",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
+    },
+    {
+      "name": "Angry Shout",
+      "verified_fields": [
+        "CaC availability",
+        "acquisition route",
+        "stamina cost",
+        "descriptive mechanics"
+      ],
+      "usable_by_cac": true,
+      "unlock_method": "Parallel Quest 68 - \"Old Rivals and Dragon Balls\" (random reward)",
+      "source_quest_or_shop": "Parallel Quest 68",
+      "stamina_cost": 300,
+      "mechanics_notes": "Strike Evasive that emits a close-area attack, pushes opponents back, and restores the user's Ki.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Angry_Shout",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
+    },
+    {
+      "name": "Energy Barrier",
+      "verified_fields": [
+        "CaC availability",
+        "acquisition route",
+        "stamina cost",
+        "descriptive mechanics"
+      ],
+      "usable_by_cac": true,
+      "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" (random reward; Ultimate Finish associated with the drop)",
+      "source_quest_or_shop": "Parallel Quest 32",
+      "stamina_cost": 300,
+      "mechanics_notes": "Strike Evasive barrier that cancels Ki Waves, knocks enemies back, and can be extended with additional input at the cost of Ki.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Barrier",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
     }
-  ]
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+    "https://dbxv2.fandom.com/wiki/Absolute_Zero",
+    "https://dbxv2.fandom.com/wiki/Dragon_Burn",
+    "https://dragonball.fandom.com/wiki/Explosive_Wave",
+    "https://dbxv2.fandom.com/wiki/Punisher_Guard",
+    "https://dbxv2.fandom.com/wiki/Final_Pose",
+    "https://dbxv2.fandom.com/wiki/Mach_Dash",
+    "https://dbxv2.fandom.com/wiki/Angry_Shout",
+    "https://dbxv2.fandom.com/wiki/Energy_Barrier"
+  ],
+  "notes": "The Evasive Skill reference explicitly distinguishes CaC-available evasives from cast-exclusive evasives and provides the relevant stamina costs and acquisition routes. Individual skill references were used for mechanics and current naming. No drop percentages were inferred; exact reward-slot gating remains a separate research dimension."
 }
