@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Run final 1-186 relationship consistency checks: duplicate edges, invalid PQ numbers, missing reverse mappings, stale counts, and provenance/status integrity.",
+  "next_completion_gate": "Future work should obtain authoritative/source-backed reward data for PQ 1, 12, 13, and 14 before adding relationships; otherwise maintain the documented 182-PQ coverage boundary.",
   "current_counts": {
     "skill": 232,
     "super_soul": 135,
@@ -33,7 +33,7 @@
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
     "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
   },
-  "status": "final_relationship_consistency_audit_in_progress",
+  "status": "final_relationship_consistency_audit_complete",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
   "full_corpus_audit": {
     "canonical_reward_maps": 6,
@@ -114,5 +114,24 @@
       "dual_subtype_edges_after_fix": 0
     },
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
+  },
+  "final_consistency_checks": {
+    "total_edges": 831,
+    "duplicates": 0,
+    "invalid_pq_numbers": 0,
+    "stale_forward_counts": false,
+    "stale_status_counts": false,
+    "stale_audit_counts": false,
+    "stale_reverse_counts": false,
+    "provenance_invalid": 0,
+    "distinct_PQs": 182,
+    "missing_PQs": [
+      1,
+      12,
+      13,
+      14
+    ],
+    "equipment_reverse_missing": 0,
+    "equipment_dual_subtype": 0
   }
 }
