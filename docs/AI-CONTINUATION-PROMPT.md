@@ -2161,3 +2161,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated `docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json`, `docs/data/pq-cross-domain-audit.json`, and `docs/data/pq-cross-domain-status.json` accordingly.
 - The 232-case report remains useful as a provenance-drift inventory, not as a deletion list. Existing edge-only relationships are retained pending independent source reconciliation.
 - Exact next task: **reconcile the remaining normalized reward-map provenance drift against independent sources, starting with the Super Soul and equipment conflicts, while preserving evidence and not treating partial/empty batch fields as negative claims.**
+
+
+### 2026-09-19 continuation — normalized reward-map tranche
+- Added **46 source-normalized reward relationships** from the repository's six PQ reward-map files: **3 skills and 43 equipment**.
+- These entries are explicitly marked `source_normalized`, not `source_backed`, because the reward-map files declare themselves partial.
+- Current forward totals: **232 skills, 135 Super Souls, 96 equipment, 247 characters, 88 DLC, 7 farming = 805 edges**.
+- Updated the reverse reward index and cross-domain audit/status.
+- Empty fields remain non-negative; existing independently sourced edge-only relationships were not deleted.
+- Exact next task: **reconcile the remaining edge-only Super Soul/equipment provenance against independent sources, keeping `source_normalized` and `source_backed` evidence distinct.**
