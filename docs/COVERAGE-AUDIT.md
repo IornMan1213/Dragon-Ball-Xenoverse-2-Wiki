@@ -1325,3 +1325,15 @@ Reconciled the next eight dataset-order records: **Burst Kamehameha, Burst Sting
 - **Dark Inscription** remains CaC-usable with no explicit race/gender/form restriction established; its current mechanics/acquisition evidence confirms PQ182 and the Power of Time interaction. (current public skill reference)
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Demon Ray through Double Death Slicer
+
+Reconciled **Demon Ray, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, Destructo-Disc, Dimension Cannon, Divine Kamehameha, Divine Spear, and Double Death Slicer**.
+
+- Demon Ray, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, Dimension Cannon, and Double Death Slicer remain CaC-usable without an explicitly established narrower race/gender/form restriction.
+- Destructo-Disc and Divine Kamehameha retain explicit **All CaC races** scope.
+- **Divine Spear remains non-CaC**; current evidence identifies it as the Goku Black (Super Saiyan Rosé) Ultra Supervillain character skill and does not establish a CaC acquisition/equip path.
+- No race restriction was inferred from character ownership, mentor/PQ source, or generic Future Warrior listings alone.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
