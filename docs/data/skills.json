@@ -1620,13 +1620,19 @@
       "name": "Destructo-Disc",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Destructo-Disc",
+        "https://dbxv2.fandom.com/wiki/Krillin"
       ],
       "ki_cost": 100,
-      "unlock_method": "Story progression reward",
-      "ultimate_finish_required": null
+      "unlock_method": "Training with Krillin",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Krillin mentor training",
+      "mechanics_notes": "Unblockable tracking Ki Blast Super; the disc travels slowly but can track the locked target.",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_indexed_skill_fields"
     },
     {
       "name": "Dimension Cannon",
@@ -1767,14 +1773,19 @@
       "name": "Emperor's Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Emperor%27s_Blast",
+        "https://dragonball.fandom.com/wiki/Emperor%27s_Blast"
       ],
       "ki_cost": 100,
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_indexed_skill_fields",
       "ultimate_finish_required": null,
-      "unlock_method": "Parallel Quest 70 — Things Are Getting Serious! (also reported in TP Medal Shop)"
+      "unlock_method": "Parallel Quest 70 - \"Things Are Getting Serious!\"; also available through TP Medal Shop rotation",
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 70 / TP Medal Shop",
+      "mechanics_notes": "Rear-facing Ki Blast Super that stuns hit targets for the documented 3 seconds.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Emperor's Cannon",
@@ -1895,16 +1906,19 @@
       "name": "Final Flash (Super)",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Final_Flash_(Super)",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 200,
-      "research_status": "partially_enriched",
-      "unlock_method": "Not available for CaCs (character-only skill)",
+      "research_status": "reconciled_indexed_skill_fields",
+      "unlock_method": "Character-exclusive skill; not equippable by CaCs",
       "ultimate_finish_required": null,
-      "source_quest_or_shop": "SSGSS Vegeta (Evolved) / Gogeta (Super Saiyan 4) Customize Partner",
-      "last_verified": "2026-09-18"
+      "source_quest_or_shop": "Character skill",
+      "last_verified": "2026-09-19",
+      "usable_by_cac": false,
+      "mechanics_notes": "Super-version Final Flash is a character skill rather than a CaC learnable skill."
     },
     {
       "name": "Flash Chaser",
@@ -1933,15 +1947,19 @@
       "name": "Galick Gun",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Galick_Gun",
+        "https://dragonball.fandom.com/wiki/Galick_Gun"
       ],
       "ki_cost": 100,
       "unlock_method": "Training with Vegeta",
       "ultimate_finish_required": null,
-      "source_quest_or_shop": "Vegeta training",
-      "last_verified": "2026-09-18"
+      "source_quest_or_shop": "Vegeta mentor training",
+      "last_verified": "2026-09-19",
+      "usable_by_cac": true,
+      "mechanics_notes": "Chargeable Ki Blast Super; shorter charge time than Kamehameha according to the in-game description.",
+      "research_status": "reconciled_indexed_skill_fields"
     },
     {
       "name": "Gamma Blaster",
@@ -2177,30 +2195,36 @@
       "name": "Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Kamehameha"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 05 - \"Saiyan Blood\"",
       "ultimate_finish_required": null,
-      "source_quest_or_shop": "Parallel Quest 05 - \"Saiyan Blood\"",
-      "last_verified": "2026-09-18"
+      "source_quest_or_shop": "Parallel Quest 05",
+      "last_verified": "2026-09-19",
+      "usable_by_cac": true,
+      "mechanics_notes": "Chargeable Ki Blast Super with three charge levels.",
+      "research_status": "reconciled_indexed_skill_fields"
     },
     {
       "name": "Masenko",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Masenko",
+        "https://dragonball.fandom.com/wiki/Masenko"
       ],
       "ki_cost": 100,
-      "research_status": "partially_enriched",
-      "unlock_method": "Training with Gohan (Kid)",
+      "research_status": "reconciled_indexed_skill_fields",
+      "unlock_method": "Gohan (Kid) mentor training, School Quest Lesson 2",
       "ultimate_finish_required": null,
-      "source_quest_or_shop": "Gohan (Kid) training",
-      "last_verified": "2026-09-18"
+      "source_quest_or_shop": "Gohan (Kid) mentor training",
+      "last_verified": "2026-09-19",
+      "usable_by_cac": true,
+      "mechanics_notes": "Single-hit Ki Blast Super; opposite directional input causes a back-jump before firing."
     },
     {
       "name": "Paralysis",
@@ -2685,13 +2709,19 @@
       "name": "Afterimage Strike",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
+        "https://dragonball.fandom.com/wiki/Afterimage_Strike"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 81 reward",
-      "ultimate_finish_required": null
+      "unlock_method": "Parallel Quest 81 - \"Wake Up!\"",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 81",
+      "mechanics_notes": "Other Super with afterimage/evasive properties; the move can be interrupted or followed by another attack during/after use.",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_indexed_skill_fields"
     },
     {
       "name": "Assault Vanish",
@@ -2743,47 +2773,54 @@
       "name": "Dancing Parapara",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonball.fandom.com/wiki/Para_Para_Boogie",
         "https://dbxv2.fandom.com/wiki/Pan"
       ],
       "ki_cost": 100,
-      "unlock_method": "Pan's Initiation Test / Pan training",
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "unlock_method": "Complete Pan's Initiation Test / train under Pan",
+      "research_status": "reconciled_indexed_skill_fields",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Pan mentor training",
+      "mechanics_notes": "Dance-based Super that rapidly restores the user's stamina while active.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Energy Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Energy_Charge"
       ],
       "ki_cost": 0,
-      "unlock_method": "Advancement Test / Playstyle reward",
-      "research_status": "partially_enriched",
+      "unlock_method": "First Advancement Test - Easy Class / CaC playstyle reward",
+      "research_status": "reconciled_indexed_skill_fields",
       "ultimate_finish_required": null,
-      "source_quest_or_shop": "First Advancement Test - Easy Class; CaC Playstyle \"I'll hang back and blast 'em from afar!\"",
-      "last_verified": "2026-09-18"
+      "source_quest_or_shop": "Advancement Test",
+      "last_verified": "2026-09-19",
+      "usable_by_cac": true,
+      "mechanics_notes": "Slow Ki-charge Super; the repository source identifies it as a CaC skill."
     },
     {
       "name": "Energy Release",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Energy_Release",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 0,
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "research_status": "reconciled_indexed_skill_fields",
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "Character skill",
+      "mechanics_notes": "Retained as non-CaC based on the character-skill classification.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Final Charge",
@@ -2843,16 +2880,18 @@
       "name": "Instant Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Instant_Charge"
       ],
       "ki_cost": 0,
       "unlock_method": "Character-exclusive: Mira (Final Form); also used by certain raid/boss encounters",
       "usable_by_cac": false,
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "research_status": "reconciled_indexed_skill_fields",
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "Character skill",
+      "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Instant Transmission",
@@ -2956,30 +2995,36 @@
       "name": "Rise to Action",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dragonball.fandom.com/wiki/Rise_to_Action",
         "https://dbxv2.fandom.com/wiki/Rise_to_Action"
       ],
       "ki_cost": 100,
-      "unlock_method": "Krillin training",
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "unlock_method": "Krillin's initiation test / mentor training",
+      "research_status": "reconciled_indexed_skill_fields",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Krillin mentor training",
+      "mechanics_notes": "Support Super that restores Stamina after the user smacks their own cheeks.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Rising Rage",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Rising_Rage"
       ],
       "ki_cost": 100,
       "unlock_method": "Character-exclusive: Broly (Restrained)",
       "usable_by_cac": false,
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "research_status": "reconciled_indexed_skill_fields",
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "Character skill",
+      "mechanics_notes": "Character-exclusive Super used by Restrained Broly; no CaC route established.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Shield Barrier",
@@ -3001,28 +3046,36 @@
       "name": "Solar Flare",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dragonballupdates.fandom.com/wiki/Solar_Flare",
         "https://dragonball.fandom.com/wiki/Solar_Flare"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 03 reward",
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "unlock_method": "Parallel Quest 01 reward",
+      "research_status": "reconciled_indexed_skill_fields",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 01",
+      "mechanics_notes": "Other Super that briefly blinds the opponent; the technique is not effective when performed behind the opponent.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Spirit Boost",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers"
+        "https://dbxv2.fandom.com/wiki/Spirit_Boost",
+        "https://dragonball.fandom.com/wiki/Spirit_Boost"
       ],
-      "ki_cost": 100,
+      "ki_cost": 0,
       "ultimate_finish_required": null,
-      "unlock_method": "Skill Shop"
+      "unlock_method": "Skill Shop",
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop",
+      "mechanics_notes": "Defensive Other Super that cancels incoming Ki attacks for a short window; uses no Ki.",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_indexed_skill_fields"
     },
     {
       "name": "Super Guard",
@@ -3060,16 +3113,19 @@
       "name": "Time Bullet",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Time_Bullet",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 100,
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "research_status": "reconciled_indexed_skill_fields",
+      "ultimate_finish_required": null,
+      "source_quest_or_shop": "Character skill",
+      "mechanics_notes": "Retained as non-CaC based on the character-skill classification.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Time Control",
@@ -3119,15 +3175,18 @@
       "name": "Wall of Defense",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
       ],
-      "ki_cost": 100,
-      "unlock_method": "Parallel Quest 10: Saiyan Survivors reward",
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "ki_cost": 0,
+      "unlock_method": "Parallel Quest 10 - \"Saiyan Survivors\"",
+      "research_status": "reconciled_indexed_skill_fields",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 10",
+      "mechanics_notes": "Protective Other Super that teleports in front of an ally and absorbs incoming attacks while held; if no ally exists, it targets the nearest opponent instead.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Charge",
@@ -4787,15 +4846,19 @@
       "name": "Final Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
+        "https://dragonball.fandom.com/wiki/Final_Kamehameha"
       ],
       "ki_cost": 500,
-      "unlock_method": "TP Medal Shop / Parallel Quest reward / Double Crystal Raid",
-      "source_quest_or_shop": "TP Medal Shop; Parallel Quest 91 - \"Saiyan Revolt\"; Double Crystal Raids",
+      "unlock_method": "TP Medal Shop / Parallel Quest 91 - \"Saiyan Revolt\" / Double Crystal Raids",
+      "source_quest_or_shop": "TP Medal Shop / Parallel Quest 91 / Double Crystal Raids",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "usable_by_cac": true,
+      "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha.",
+      "research_status": "reconciled_indexed_skill_fields"
     },
     {
       "name": "Full Power Destruction",
