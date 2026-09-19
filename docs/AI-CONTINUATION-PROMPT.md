@@ -2729,3 +2729,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Artifact hygiene: removed ChatGPT UI citation markup and internal `turn...` reference IDs from this persistent handoff; changed skill/audit data contains only normal source URLs.
 - Exact next task: recompute the full nullable-field census, then continue a small evidence-backed non-UF skill data-quality batch outside the completed Super/Ultimate UF scope.
 
+### 2026-09-19 continuation — Evasive Ultimate Finish census completed
+- Recomputed the nullable `ultimate_finish_required` census after the Super/Ultimate pass: **33 nullable fields remained; all 17 Evasive nulls were the next bounded acquisition-data target**.
+- Resolved **16 Evasive records as `false`** from explicit PQ reward/acquisition evidence: Absolute Zero (PQ96), Celestial Wave (PQ151), Dragon Burn (PQ82), Force Shield (PQ59), Instant Rise (PQ37), Ki Explosion (PQ77), Maiden Burst (PQ92), Mighty Explosive Wave (PQ79), Psychic Move (PQ73), Mach Dash (PQ18), Angry Shout (PQ68), Spirit Slash (PQ02), Headshot (PQ69), Rolling Bullet (PQ42), Victory Cannon (PQ54), and Energy Field (PQ29).
+- Resolved **Energy Barrier as `true`** because current evidence explicitly says the Future Warrior obtains it by defeating Cell in PQ32 during the Ultimate Finish. This exception is intentionally preserved rather than treating every random PQ reward as UF-gated.
+- Live Evasive nullable UF census: **0**. Overall nullable `ultimate_finish_required` count is now **16**, consisting of Awoken records only; these are the next bounded scope.
+- Skills commit: `cb9b89cec7bd54c8464c1a4b8156b65f4244eae9`.
+- Coverage audit commit: `a3ee3c5245009c01db5af8c00c0ba7dac935f8eb`.
+- Validation: `skills.json` parses successfully; 283 records remain; Evasive nullable UF count is 0; no schema/validator changes were made.
+- Exact next task: audit the remaining **16 Awoken** nullable `ultimate_finish_required` records. Separate race/time-rift/story/wish/character-only unlocks from the one known UF-gated Awoken route (Kaioken/PQ8), and preserve null whenever current evidence does not establish the acquisition gate.
+
