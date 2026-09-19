@@ -1927,3 +1927,14 @@ Reviewed **Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edg
 - Added the maintained Future Warrior technique-list source to the cohort as provenance for CaC scope.
 - Live skill census after this batch: **283 total / 269 CaC-usable / 20 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Justice Drive through Seagull Combination race-restriction census
+
+Reviewed **Justice Drive, Neo Wolf Fang Fist, Power Impact, Powered Shell, Recoome Kick, Sauzer Blade, Savory Slicer, and Seagull Combination**.
+
+- Added explicit **All CaC races** scope to all eight records. Current evidence does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition, classification, cost, mechanics, and unresolved research fields. Power Impact's existing Strike Super classification correction remains intact.
+- Added the maintained Future Warrior technique-list source as provenance for CaC scope.
+- Live skill census after this batch: **283 total / 269 CaC-usable / 12 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
