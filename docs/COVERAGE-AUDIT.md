@@ -2261,3 +2261,8 @@ Resolved `ultimate_finish_required` to `true` for **Prominence Flash**. Current 
 ## 2026-09-19 — Explicit Ultimate Finish batch 3
 
 Resolved `ultimate_finish_required` to `true` for **Burst Kamehameha**. Dedicated acquisition evidence explicitly identifies the PQ72 drop as an Ultimate Finish reward, rather than merely listing the skill among PQ72 rewards.
+
+
+## 2026-09-19 — Explicit non-Ultimate-Finish batch 1
+
+Resolved `ultimate_finish_required` to `false` for **Change The Future**. The PQ43 page places the skill in the ordinary Rewards section and describes the Ultimate Finish as a separate Cell encounter, with no linkage of the skill to that UF route.
