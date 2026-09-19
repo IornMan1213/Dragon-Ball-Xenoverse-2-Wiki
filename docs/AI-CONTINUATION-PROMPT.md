@@ -1124,3 +1124,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Current sources confirm skill identity/availability, but availability or character association was not treated as race-scope evidence.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Destruction's Conductor; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Dragon/Emperor/Gamma boundary
+- Reviewed Dragon Spark, Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edge, Freedom Kick, and Gamma Impact.
+- Preserved null race restrictions; no explicit current race/gender/form scope was established.
+- Refreshed all eight verification dates to 2026-09-19.
+- Added dedicated current-version provenance for Dragon Spiral.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Gamma Impact; inspect canonical ordering before selecting the next batch.
