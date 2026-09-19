@@ -803,3 +803,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Coverage commit: `a976239d0e48357a68b44b0603d26ac7a3913fc5`.
 - Evidence source: accessible Future Warrior reference, which explicitly states race/gender restrictions for these techniques. citeturn1search0
 - Exact next task: continue mining explicit race/gender/form restrictions among the remaining 186 null-race CaC records; if the accessible source only identifies a character association, leave the record unresolved.
+
+
+### 2026-09-19 cycle update — Future Warrior provenance expansion
+- Recomputed the live skill census: **283 total / 270 CaC-usable / 186 CaC-usable with null `race_restriction` / 0 null `usable_by_cac`**.
+- Added the independent Future Warrior technique reference to seven existing CaC-usable records: **Demon Ray, Stone Bullet, Hero's Flute, Brave Sword Slash, Dimension Ray, God of Destruction's Roar, and Brave Sword Attack**.
+- These are provenance improvements only. The accessible evidence identifies the moves as part of the Future Warrior's Xenoverse 2 technique set, but does not explicitly establish an unrestricted all-race scope for each one; their race restrictions therefore remain null rather than being inferred.
+- Skills commit: `9f371e8ab6b63f23f6133db785bceb349f8ad474`.
+- Coverage commit: `f5b4b180bc21eb1a49431252b90c10e450816c18`.
+- Evidence: accessible Future Warrior technique reference plus individual technique pages for the clearest acquisition/user confirmations. citeturn1search0turn1search2turn1search3turn1search5
+- Exact next task: continue the 186-record race-restriction backlog, prioritizing explicit race/gender/form wording. Do not turn generic Future Warrior technique membership into `All CaC races` without an explicit universal-race statement.
