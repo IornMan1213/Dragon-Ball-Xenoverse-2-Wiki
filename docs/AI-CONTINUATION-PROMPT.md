@@ -2309,3 +2309,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved Rough Ranger `ultimate_finish_required` to true from explicit PQ119 Ultimate Finish acquisition metadata.
 - No other Super Ultimate-Finish nulls were changed because ordinary PQ reward wording does not establish UF-only gating.
 - Next exact task: **continue with a small Super/Ultimate acquisition batch where the repository has explicit mentor, shop, wish, or Ultimate-Finish provenance.**
+
+
+### 2026-09-19 continuation — Super acquisition metadata batch
+- Resolved `ultimate_finish_required: false` for 15 Super skills with explicit non-UF acquisition routes: Shenron wishes, mentor training, Skill Shop, or documented ordinary PQ reward routes.
+- No PQ skill was marked false merely because it is associated with a PQ; only explicit acquisition-route evidence was used.
+- Web cross-checks confirmed mentor skills are awarded through mentor training and that skill acquisition has multiple routes rather than universally requiring Ultimate Finish. citeturn0search2turn0search8turn0search7
+- Next exact task: **recompute Super/Ultimate nullable acquisition metadata and target another small batch with explicit non-PQ or UF-specific evidence.**
