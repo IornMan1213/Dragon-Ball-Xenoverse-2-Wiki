@@ -2258,3 +2258,10 @@ Live nullable Super/Ultimate census after reconciliation: **173 records** — 13
 Resolved `ultimate_finish_required: false` for **Data Input**. The skill is obtained from **Expert Mission 20 — Harbinger of Doom**, an acquisition channel distinct from Parallel Quest Ultimate Finishes. Current sources explicitly identify Expert Mission 20 as the unlock/acquisition route. citeturn0search0turn0search2turn0search11
 
 Live nullable Super/Ultimate census after this batch: **172 records** — 132 Super and 40 Ultimate. No schema or validator changes were made.
+
+
+## 2026-09-19 — Final Rampage non-UF reward classification
+
+Resolved `ultimate_finish_required: false` for **Final Rampage**. Current quest documentation lists Final Rampage among the **basic rewards** of PQ174, while the quest's Ultimate Finish section is separate and does not identify Final Rampage as an Ultimate Finish-only reward. This supports classifying the skill as non-UF-gated. citeturn1search0turn1search2turn1search1
+
+Live nullable Super/Ultimate census after this batch: **171 records** — 132 Super and 39 Ultimate.
