@@ -2054,3 +2054,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Added the current all-186 Steam reference to every PQ 21-40 record's source list without changing established skill data.
 - Data commit: **2a16f0fdb1f871713fa5b61234362853b95b042c**.
 - Note: reward normalization remains partial by design; empty fields elsewhere are not negative evidence.
+
+
+## 2026-09-19 — PQ 41-60 skill-reward provenance pass
+
+- Reconciled additional canonical skill rewards in `pq-041-060.json` against the current all-PQ reward reference and dedicated skill pages.
+- Added/confirmed: PQ 46 **Chain Destructo-disc Barrage**; PQ 48 **Kamehameha**; PQ 50 **Explosive Buu Buu Punch**; PQ 51 **Burst Rush**; PQ 52 **Final Cannon**; PQ 53 **Justice Pose**; PQ 54 **Victory Cannon**; PQ 55 **Super Donut Volley**; PQ 56 **Stone Bullet**; PQ 58 **Vanishing Ball**. citeturn1search0turn2search0turn2search4turn2search1turn2search8turn3search1
+- PQ 47 and PQ 57 remain without a skill in the referenced basic reward table; no skill was invented for them. PQ 59-60 were already populated and retained.
+- Added the current all-186 Steam reference to all PQ 41-60 source arrays.
+- Data commit: **cdb07c22c96b28d4acaa355a7a29a3d77cf42edf**.
