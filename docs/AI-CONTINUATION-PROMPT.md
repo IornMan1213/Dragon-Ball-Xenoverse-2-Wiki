@@ -1142,3 +1142,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Gamma Impact was additionally checked against its current skill page: its Future Warrior acquisition does not by itself establish unrestricted race scope, so its null classification remains unchanged.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Justice Drive; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Justice/Power boundary
+- Reviewed Justice Kick, Lovely Cyclone, Mach Punch, Meteor Blow, Meteor Strike, Neo Wolf Fang Fist, Power Impact, and Powered Shell.
+- Preserved null race restrictions; no explicit current race/gender/form scope was established.
+- Refreshed all eight verification dates to 2026-09-19.
+- Added dedicated current-version provenance for Lovely Cyclone, Power Impact, and Powered Shell.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Powered Shell; inspect canonical ordering before selecting the next batch.
