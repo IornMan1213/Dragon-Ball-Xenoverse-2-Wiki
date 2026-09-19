@@ -2527,3 +2527,12 @@ Resolved `ultimate_finish_required: false` for **Meditation (PQ122)**. Current e
 - Live nullable Super/Ultimate census after this resolution: **13 total — 13 Super / 0 Ultimate**.
 - Skills commit: `fcc6418520e35a775a2dc41e090b7ecb82b04b78`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward Super batch 34
+
+Resolved `ultimate_finish_required: false` for **Phantom Fist (PQ97), Savory Slicer (PQ140), Shining Slash (PQ38), and Gigantic Breaker (PQ126)**. The maintained PQ guide explicitly lists each in its quest's Basic Reward section, separate from the listed Ultimate Finish conditions. citeturn0search0turn0search2
+
+- Live nullable Super/Ultimate census after this batch: **9 total — 9 Super / 0 Ultimate**.
+- Skills commit: `c50e7e751117b42407481c1a8cf66b38b2195e88`.
+- No schema or validator changes.
