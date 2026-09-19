@@ -924,3 +924,9 @@ A new AI chat must be able to continue from this file without depending on the p
 - No race/gender/unrestricted classification was added because the checked evidence did not explicitly establish one.
 - Coverage commit: `db71cad10db630b2f945a67c1f254ea0b075421e`.
 - Continue with the next null-race cohort.
+
+### 2026-09-19 cycle update — defensive/evasive null-race batch
+- Reviewed 12 records: `Force Shield`, `Instant Rise`, `Ki Explosion`, `Maiden Burst`, `Mighty Explosive Wave`, `Psychic Move`, `Punisher Guard`, `Side Bridge`, `Spread Shot Retreat`, `Steel Mirage`, `Final Pose`, and `Mach Dash`.
+- A secondary Future Warrior profile places Force Shield and related abilities under an “All Races” grouping, but the evidence is not skill-specific enough to convert the canonical null race fields. No classifications were changed.
+- Coverage commit: `b1653219a5060ed0ac7152a817a34536d0ba0e06`.
+- Continue with the next unresolved null-race cohort.
