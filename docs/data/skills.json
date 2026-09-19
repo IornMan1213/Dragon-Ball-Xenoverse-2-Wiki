@@ -1247,10 +1247,10 @@
       "damage_type": "Other",
       "unlock_method": "Random Parallel Quest reward",
       "source_quest_or_shop": "PQ165",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Steel Mirage is a Evasive Other skill associated with Android 18.",
       "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
