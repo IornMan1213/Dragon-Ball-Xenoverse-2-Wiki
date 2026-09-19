@@ -651,3 +651,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - **Mystic Flash** and **Thunder Flash** were found to be explicitly documented as Future Warrior techniques, so both are now `usable_by_cac: true`. The source identifies Mystic Flash as Nail's Ultimate Skill usable by the Future Warrior and Thunder Flash as Pikkon's Ultimate Skill usable by the Future Warrior. citeturn3search0turn3search6
 - No race restriction was inferred for either record because the source does not establish one.
 - Skills commit: `cbb114e5cef2b499450dc937367d3b95e7a1e202`.
+
+
+## 2026-09-19 Requiem of Destruction verification
+
+- **Requiem of Destruction** was removed from the null-CaC cohort. Its technique page explicitly lists the Future Warrior as a user and states that in Xenoverse 2 it is obtainable by the Future Warrior from New Parallel Quest 104, "Vados the Talent Scout." citeturn1search0
+- The record is now `usable_by_cac: true`; no race restriction was inferred.
+- Skills commit: `6cc97745e9856af45e52d148aa3d40f6f14f7184`.
