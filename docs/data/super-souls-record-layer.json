@@ -946,6 +946,118 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134"
       ]
+    },
+    {
+      "id": "super-soul-040",
+      "name": "You fool! Why are you laughing?",
+      "character_source": "Cell (Perfect)",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "An Invitation from Cell Online Raid",
+      "first_clear_or_repeat": "Individual performance/reward route",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text",
+      "effect_text": "Once only when hit with an Ultimate Attack while stamina is available, temporarily activates Health Auto-Recovery Mode.",
+      "effect_magnitude": "+3% HP approximately per second",
+      "duration": "3 seconds",
+      "stacking_behavior": "unresolved",
+      "limit_burst": "Documented secondary Limit Burst",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Raid acquisition and mechanics reconciled from secondary/official event evidence; unresolved numerical or recurrence details are not inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Cell_%28Perfect%29",
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest"
+      ]
+    },
+    {
+      "id": "super-soul-041",
+      "name": "Not on my watch!",
+      "character_source": "Hercule",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Hercule Online Raid / individual performance reward",
+      "first_clear_or_repeat": "Individual performance/reward route",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text",
+      "effect_text": "When an ally is KO'ed, temporarily boosts all attack strength; also temporarily increases damage taken from all attacks.",
+      "effect_magnitude": "+30% attack; +30% damage taken",
+      "duration": "30 seconds",
+      "stacking_behavior": "unresolved",
+      "limit_burst": "Documented secondary Limit Burst",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Raid acquisition and mechanics reconciled from secondary/official event evidence; unresolved numerical or recurrence details are not inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Hercule",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80338743"
+      ]
+    },
+    {
+      "id": "super-soul-042",
+      "name": "Over here, you idiot...",
+      "character_source": "Gohan (Adult)",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "The Power of the Mask / Masked Saiyan Online Raid",
+      "first_clear_or_repeat": "Individual performance/reward route",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text",
+      "effect_text": "When using Z-Vanish during an attack, temporarily increases stamina recovery speed and all attack strength.",
+      "effect_magnitude": "+20% stamina recovery; +25% all attacks",
+      "duration": "10 seconds",
+      "stacking_behavior": "unresolved",
+      "limit_burst": "Documented secondary Limit Burst",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Just Guard",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Raid acquisition and mechanics reconciled from secondary/official event evidence; unresolved numerical or recurrence details are not inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81135384"
+      ]
+    },
+    {
+      "id": "super-soul-043",
+      "name": "Bye-bye, universe!",
+      "character_source": "Fused Zamasu",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Demented Deity Online Raid / anniversary individual performance reward",
+      "first_clear_or_repeat": "Individual performance/reward route",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text",
+      "effect_text": "When health reaches approximately 25%, activates an automatic health decrease affecting allies and enemies; the damage-over-time persists while the wearer remains alive.",
+      "effect_magnitude": "Unresolved numeric damage rate",
+      "duration": "Until wearer dies/revives and effect conditions are reapplied",
+      "stacking_behavior": "unresolved",
+      "limit_burst": "Documented secondary Limit Burst",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Raid acquisition and mechanics reconciled from secondary/official event evidence; unresolved numerical or recurrence details are not inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79100038",
+        "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-contents-of-the-4th-year-anniversary-event"
+      ]
     }
   ],
   "research_notes": [
@@ -958,7 +1070,8 @@
     "New records remain partially verified until core identity, acquisition, and important mechanics are reconciled against sufficient independent evidence.",
     "2026-09-19: promoted Super Soul research batch 03 (IDs 024–031) after duplicate, schema, acquisition, and independent-source reconciliation. Shop rotation details and unresolved drop-rate behavior remain explicitly unclaimed.",
     "2026-09-19: indexed and promoted four FUTURE SAGA Chapter 4 Super Souls (032–035) using official DLC identity evidence, PQ inventory evidence, and explicitly attributed community testing. Unresolved item-level mechanics remain marked unresolved; no drop rates or Normal-vs-Ultimate-Finish mapping inferred.",
-    "2026-09-19: promoted raid/event Super Soul batch 04 (036–039) with secondary acquisition/effect reconciliation; exact recurrence schedules and drop rates remain unresolved."
+    "2026-09-19: promoted raid/event Super Soul batch 04 (036–039) with secondary acquisition/effect reconciliation; exact recurrence schedules and drop rates remain unresolved.",
+    "2026-09-19: expanded raid/event coverage with records 040–043, including Cell, Hercule, Gohan (Adult), and Fused Zamasu raid reward families."
   ],
   "sources": [
     {
