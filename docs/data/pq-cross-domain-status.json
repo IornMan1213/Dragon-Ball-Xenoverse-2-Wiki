@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "scope": "PQ 1-186",
-  "status": "relationship_index_populated_with_provenance_layers",
+  "status": "relationship_index_populated_with_reward_provenance_reconciliation",
   "canonical_range": {
     "first": 1,
     "last": 186,
@@ -21,5 +21,10 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Reconcile remaining reward provenance drift against independent sources; distinguish source_normalized from source_backed."
+  "next_gate": "Resolve remaining source-only normalized reward-map entries by independent source verification or retain as unresolved normalized-source inventory; then audit equipment subtype classification and PQ 1-14 coverage limitations.",
+  "provenance_reconciliation": {
+    "source_backed_edge_only_cases_resolved": 88,
+    "edge_only_cases_remaining_unresolved": 0,
+    "rule": "Do not delete forward edges solely because partial normalized reward maps omit them."
+  }
 }
