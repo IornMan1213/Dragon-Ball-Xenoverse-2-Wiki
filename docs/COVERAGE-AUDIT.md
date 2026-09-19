@@ -2242,3 +2242,12 @@ Resolved ultimate_finish_required=false for four Ultimate skills whose repositor
 Resolved `ultimate_finish_required: false` for four Super skills whose acquisition channels are intrinsically independent of Parallel Quest Ultimate Finishes: **Afterimage** (starting-move selection), **Energy Charge** (First Advancement Test), **Full Power Charge** (Advanced Class Advancement Test), and **Maximum Charge** (God Class Advancement Test).
 
 Live nullable Super/Ultimate census after this batch: **177 records** — 133 Super and 44 Ultimate. No schema or validator changes were made.
+
+
+## 2026-09-19 — catalog-sync reconciliation and starter/Advancement Test batch
+
+A subsequent catalog update had reverted several previously verified non-Ultimate-Finish acquisition flags to null. The live skill file was reconciled and the known evidence-backed records were restored: Darkness Rush (Melee), Darkness Rush (Ranged), Dragon Fist, Godly Display, Supernova, Super Spirit Bomb, Divine Wrath: Purification, Final Kamehameha, Afterimage, Energy Charge, Full Power Charge, and Maximum Charge.
+
+The four newly audited starter/Advancement Test skills are intrinsically independent of PQ Ultimate Finishes: Afterimage (starting move), Energy Charge (First Advancement Test), Full Power Charge (Advanced Class Advancement Test), and Maximum Charge (God Class Advancement Test).
+
+Live nullable Super/Ultimate census after reconciliation: **173 records** — 133 Super and 40 Ultimate. This live count supersedes earlier stale counts. No validator or schema rule was changed.
