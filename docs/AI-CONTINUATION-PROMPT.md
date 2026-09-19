@@ -897,3 +897,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `b1d5d848e781814ddb531371ee382b48bc2fcb1b`.
 - Coverage commit: `6dfc0cfbc4d748ccb53601c1cd5bcc9d570878f8`.
 - Continue exact-name dedicated-page research for the remaining null-race cohort.
+
+### 2026-09-19 cycle update — Raid Blast dedicated provenance
+- Added dedicated `Niagara Pummel` provenance to `Raid Blast`.
+- No race classification was inferred because the source confirms Future Warrior acquisition but does not state race availability.
+- Skills commit: `26f671904498064085a7361881fb6161a0b3e442`.
+- Coverage commit: `f656c0dada47a8f9a9bb5ea3e59a5c0d77f2fd09`.
+- Continue exact-name research of the remaining null-race cohort.
