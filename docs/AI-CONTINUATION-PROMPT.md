@@ -1133,3 +1133,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added dedicated current-version provenance for Dragon Spiral.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Gamma Impact; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Gamma/Justice boundary
+- Reviewed God of Destruction's Poise, Heroic Assault, Justice Blade, and Justice Drive.
+- Preserved null race restrictions; no explicit current race/gender/form scope was established.
+- Refreshed all four verification dates to 2026-09-19.
+- Gamma Impact was additionally checked against its current skill page: its Future Warrior acquisition does not by itself establish unrestricted race scope, so its null classification remains unchanged.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Justice Drive; inspect canonical ordering before selecting the next batch.
