@@ -2468,3 +2468,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No data changes made; candidates remain `null` rather than inferring from generic PQ reward listings.
 - Nullable Super/Ultimate count remains **158**.
 - Next task: continue toward candidates with explicit reward-slot or dedicated acquisition evidence.
+
+
+### 2026-09-19 continuation — evidence review for cannon skills
+- Reviewed Dimension Cannon (PQ59), Final Cannon (PQ52), and Emperor's Cannon (PQ184).
+- Web research produced anecdotal/current-Xenoverse-2 discussion about Dimension Cannon being repeatedly farmed with Ultimate Finishes, but did not establish an explicit requirement; Final Cannon discussion likewise confirms heavy RNG but does not establish UF-only gating. Older Xenoverse 1 guides were rejected as non-applicable evidence.
+- Emperor's Cannon had no sufficiently explicit current acquisition-gate evidence found in this pass.
+- No data changes made; all three remain `null`.
+- Nullable Super/Ultimate count remains **158**.
+- Next task: continue searching for explicit current Xenoverse 2 reward-slot or non-UF acquisition evidence rather than inferring from farming anecdotes.
