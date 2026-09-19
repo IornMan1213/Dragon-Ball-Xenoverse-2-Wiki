@@ -464,3 +464,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Commits: `94edc1e35bc08f5c77d1ab3c30f9b879bf857c32` (research batch), `83c7d0831599230cecbb2cd89a75d57e8bf3cc86` (canonical layer), `52006691fd5ca1760153c0f8dee23de36f5ab776` (database), `96ad639272a60d11142d1308d8c801cfa4987991` (coverage), `9ebedde3a9d885334629617c15bcca32b3a2f9e4` (changelog).
 - Next task: continue Super Soul expansion beyond 34, prioritizing **Expert Mission-specific souls**, then additional raid/event families, TP Medal Shop/STP rotations, and DLC-specific rewards. Upgrade secondary evidence only when stronger item-level evidence is found.
 - Do not infer drop rates or historical recurrence schedules, and do not claim CI success without exposed workflow-run evidence.
+
+
+### 2026-09-19 cycle update — Raid/Event Super Soul batch 05
+- The planned Expert Mission investigation was checked against current repository/source evidence. Available Expert Mission references primarily enumerate mission rewards as skills, Zeni, and TP Medals and do not establish a new Expert-Mission-specific Super Soul family. Do not invent one merely to satisfy the priority label.
+- Continued the broader Super Soul acquisition-family expansion with records 040–043: “You fool! Why are you laughing?”, “Not on my watch!”, “Over here, you idiot...”, and “Bye-bye, universe!”.
+- Added docs/data/super-souls-research-batch-05.json and promoted the four records into the canonical layer. Official anniversary material independently confirms the Fused Zamasu/“Bye-bye, universe!” reward and historical Masked Saiyan/Hercule raid rewards; secondary item records provide effect details.
+- Canonical Super Soul population is now 38 records.
+- Commits: 868ce79a2f30f76f405ab2330a1e905a81489f0e (research batch), 355a4276df4cd65b9bf1d943920db1ab4b811ce9 (canonical layer), a62eef930190807741b9729c89a67b83d882cd3e (database), 709419be50351186f125a4d7c03a18db254595c1 (coverage), ec234d52ca0b8c6e41b55fab2d2eb2f7b3f9b1a4 (changelog).
+- Next task: continue Super Soul expansion beyond 38, prioritizing additional raid/event families and DLC-specific rewards; simultaneously audit the existing PQ cross-link layer for Super Souls that are named but not yet promoted into canonical records.
+- Preserve conflicts, do not infer drop rates/recurrence schedules, and do not claim CI success without exposed workflow-run evidence.
