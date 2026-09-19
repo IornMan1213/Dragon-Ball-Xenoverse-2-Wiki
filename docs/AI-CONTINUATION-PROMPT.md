@@ -1968,3 +1968,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added `reconciled_race_restriction_verified` and refreshed `last_verified` to **2026-09-19** without changing their explicit race restrictions or substantive mechanics/acquisition evidence.
 - Data commit: `1df235dc58eeee4e9545531fde63eac2019fb772`.
 - Next task: recompute metadata coverage and inspect the remaining records for similarly actionable missing/ambiguous fields, while preserving evidence limitations.
+
+
+### 2026-09-19 continuation — explicit acquisition-source metadata normalization
+- After completing the race-restriction census and research-status cleanup, audited `source_quest_or_shop` coverage.
+- Normalized explicit acquisition-source metadata for **28 records** where the existing unlock text supplied a sufficiently direct source; preserved ambiguity rather than inventing sources.
+- Data commit: `5ba2130b6104167d02afd152391b6fc8da3df544`.
+- Next task: recompute metadata coverage and continue with the remaining actionable gaps, especially records lacking mechanics notes or other structured acquisition/mechanics fields where evidence can be established without speculation.
