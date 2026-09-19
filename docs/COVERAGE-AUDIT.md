@@ -1610,3 +1610,15 @@ Reconciled **Darkness Rush (Ranged), Divine Lasso, Divine Wrath: Purification, D
 - TP Medal Shop skills retain rotation-dependent availability; no fixed current shop date was inferred from historical schedules.
 - Live skill census after this batch: **283 total / 269 CaC-usable / 138 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Power Rush through Victory Rush
+
+Reconciled the next seven live skill records after Godly Display: **Power Rush, Saiyan Spirit, Super Dragon Flight, Supreme Fury, Unrelenting Barrage, Venus Fist, and Victory Rush**.
+
+- **Power Rush** is now explicitly **All CaC races**, with the documented 1000-Ki requirement, 14-hit Strike Ultimate behavior, and PQ122 Ultimate Finish acquisition retained.
+- **Saiyan Spirit** retains **Saiyan** restriction; PQ84 and 300 Ki are retained.
+- **Super Dragon Flight, Supreme Fury, Unrelenting Barrage, Venus Fist, and Victory Rush** now carry explicit **All CaC races** based on Future Warrior/CaC evidence already present in the repository.
+- No unsupported race restriction was inferred from character ownership alone.
+- Live dataset remains **283 total / 269 CaC-usable**; this cohort reduces the unresolved CaC race-field census by seven where explicit scope was supportable.
+- No validator or validation rule was weakened.
