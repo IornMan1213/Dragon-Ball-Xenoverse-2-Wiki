@@ -1226,3 +1226,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - No CaC race/gender/form restriction was inferred from character users or partner customization.
 - Commits: `61a89b5e248ae96b6a5461530421665ea17097b3` (data), `9addfd0dd216a3d192c215b4dc8ebd1d543d60e2` (audit).
 - Continue with the next unresolved CaC-usable/null-race records after this counter cohort.
+
+
+### 2026-09-19 continuation — Mystic Flash / Requiem
+- Reconciled **Mystic Flash** and **Requiem of Destruction** against their dedicated current-version pages.
+- Both confirmed as 300-Ki Ki Blast Ultimates; Mystic Flash is from PQ20 and Requiem of Destruction is from PQ106.
+- Neither page explicitly establishes CaC race/gender/form scope; no restriction was inferred.
+- Commits: `6c7debe720c03b4332954a56eb5508949a4d9bae` (data), `59dad11176065a4a57899801f3239983daa1276b` (audit).
+- Continue with the next unresolved CaC-usable/null-race records in dataset order.
