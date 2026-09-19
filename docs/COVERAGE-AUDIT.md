@@ -902,3 +902,8 @@ Reviewed **Instant Rise, Ki Explosion, Maiden Burst, Mighty Explosive Wave, Psyc
 ## 2026-09-19 — evasive/early-super provenance batch
 
 Reviewed **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, and Blaster Ball**. The live data already had direct Xenoverse 2 provenance for seven; **Blaster Ball** received its missing dedicated Xenoverse 2 page URL. The available evidence reviewed does not explicitly establish CaC race/gender/form restrictions for these records, so no `race_restriction` values were changed. General Future Warrior lists, category membership, NPC ownership, and acquisition references were not promoted into race classifications.
+
+
+## 2026-09-19 — early super provenance boundary
+
+Reviewed **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, and Burst Kamehameha** against current Xenoverse 2 sources. Breaker Energy Wave explicitly states it is available for CaCs, while Burst Kamehameha is documented as a Future Warrior reward; these establish CaC access but not an explicit race/gender/form scope. Bluff Kamehameha and Burning Attack likewise have current-version Future Warrior/custom-partner evidence but no explicit current-version race scope. Therefore no `race_restriction` values were changed. Older Xenoverse 1 race labels were not promoted into Xenoverse 2 classifications. No data provenance changes were necessary because all four already had dedicated current-version skill-page URLs in the canonical records.
