@@ -2499,3 +2499,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No data changes made; they remain `null`.
 - Nullable Super/Ultimate count remains **157**.
 - Continue with remaining null records, prioritizing explicit UF reward-slot evidence and dedicated acquisition guides.
+
+
+### 2026-09-19 continuation — Heroic Counter evidence check
+- Checked current web evidence for Heroic Counter (PQ155). The PQ155 material confirms Heroic Counter is used by Gamma 2, but the available reward listing does not expose an explicit Heroic Counter UF-only acquisition condition.
+- Kept `ultimate_finish_required=null`; no inference from the presence of an Ultimate Finish in the quest.
+- Nullable Super/Ultimate count remains **157**.
