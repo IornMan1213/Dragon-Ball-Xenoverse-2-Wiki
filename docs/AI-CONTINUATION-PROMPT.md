@@ -751,3 +751,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `7dad27d834189474438cae340de541b1ad1ca168`.
 - Coverage commit: `1f8b558bc012640a4517507251886894ff62f3c4`.
 - Next priority: continue mining the Future Warrior reference for any explicit race/gender/transform restrictions that map to the remaining 189 records; otherwise preserve null rather than guessing.
+
+
+### 2026-09-19 cycle update — Pure Majin form batch
+- Reconciled **Angry Shout, Vanishing Ball, Super Vanishing Ball, Teleporting Vanishing Ball, Pearl Flash, and Buu Buu Ball** as `Majin (Pure Majin form)` using explicit form-exclusive Future Warrior documentation. citeturn0search0
+- Skills commit: `156e8fce946ffd4085ebb86e0accb41e943b0706`.
+- Coverage commit: `21015527a5f032c42b9ad02768bedbd8717160e6`.
+- Continue prioritizing explicit form/race/gender entries, with ordinary character-origin techniques remaining null until the evidence actually establishes a CaC restriction.
