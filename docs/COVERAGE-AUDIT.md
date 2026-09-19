@@ -517,3 +517,13 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription plus independent Ultimate Finish/objective tables. 
 - PQ83 progression has community evidence for the 81→82→83 sequence, while general documentation notes that base-game PQs can also be surfaced through story progression and Conton City NPCs; individual unlock fields therefore remain conservative where a unique trigger is not established. 
 - Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 36 records still lacking individual `sources` arrays**.
+
+
+## Parallel Quest provenance pass — PQ91–PQ100 — 2026-09-19
+
+- Completed record-level provenance for the final **PQ91–PQ100** base-game block; all ten records now carry explicit source URLs and 2026-09-19 verification dates.
+- Corrected missing difficulty metadata: PQ91–PQ100 are documented as **7-star** quests. 
+- Reconciled reward data against the maintained 186-PQ transcription. In particular, PQ95 includes **Flash Bomber** and **Drain Field**; PQ96 includes **GT Vegeta's Jacket** and **Absolute Zero**; PQ97 includes its documented clothing/capsule/super-soul set plus **Charged Ki Wave** and **Phantom Fist**; PQ98 includes **Lord Slug's Clothes** and **Dimension Ray**; PQ100 includes **x100 Big Bang Kamehameha**, **SSGSS Vegeta Wig**, and **Whis Symbol Battle Suit**. 
+- Cross-checked final Ultimate Finish objectives against multiple independent tables; PQ100 requires the 8-minute condition before the SSGSS Goku/Vegeta phase. 
+- Unlock metadata was deliberately kept conservative where sources establish only general story/PQ progression or disagree on a unique prerequisite. Base-game PQs are generally surfaced through story progression, blue-NPC prompts, or other PQ completion. 
+- Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 26 records still lacking individual `sources` arrays**.
