@@ -921,7 +921,7 @@ Reviewed **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slic
 
 ## 2026-09-19 — Earth/Emperor cohort verification boundary
 
-Reviewed **Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, and Eraser Bomb** against current Xenoverse 2 sources. Current records document named-character/custom-partner usage and/or acquisition, but the evidence reviewed does not explicitly establish a CaC race/gender/form restriction. For example, Earth Splitting Galick Gun is documented for Vegeta and multiple customize partners, while Emperor's Cannon is documented for Golden Frieza (Ultra Supervillain); neither establishes a CaC race restriction. cite references intentionally omitted from repository text. All four therefore retain null `race_restriction`. Their verification dates were refreshed to 2026-09-19.
+Reviewed **Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, and Eraser Bomb** against current Xenoverse 2 sources. Current records document named-character/custom-partner usage and/or acquisition, but the evidence reviewed does not explicitly establish a CaC race/gender/form restriction. For example, Earth Splitting Galick Gun is documented for Vegeta and multiple customize partners, while Emperor's Cannon is documented for Golden Frieza (Ultra Supervillain); neither establishes a CaC race restriction. Internal web citation markers omitted from repository text. All four therefore retain null `race_restriction`. Their verification dates were refreshed to 2026-09-19.
 
 
 ## 2026-09-19 — Evil/Flash provenance boundary
@@ -997,5 +997,5 @@ Recomputed the live canonical skill census before editing: **283 total / 270 CaC
 - Current evidence confirms skill identity, user/acquisition context, and mechanics, but the reviewed pages do **not** explicitly establish CaC race/gender/form scope or an explicit unrestricted-all-CaC statement for these records.
 - Character ownership, Parallel Quest availability, partner customization, and skill-category membership were not treated as race evidence.
 - No `race_restriction` classifications changed; all eight remain null. Verification dates were refreshed to **2026-09-19**.
-- Web evidence included the dedicated Xenoverse 2 pages for Super God Fist, Variant Drive, Apocalyptic Burst, Blaster Stream, Burning Blast, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash. The sources document their current-version users and acquisition/skill data but do not supply the missing CaC race-scope statement. cite references intentionally omitted from repository text.
+- Web evidence included the dedicated Xenoverse 2 pages for Super God Fist, Variant Drive, Apocalyptic Burst, Blaster Stream, Burning Blast, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash. The sources document their current-version users and acquisition/skill data but do not supply the missing CaC race-scope statement. Internal web citation markers omitted from repository text.
 
