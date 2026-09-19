@@ -1431,3 +1431,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `aed1d10b50a8f79a9848ee379b1bdc4ef5f5ca63`.
 - Audit commit: `f92c509ca85bc90cfba418fc0f49c5e5fe75d2cb`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Final Cannon.
+
+
+### 2026-09-19 continuation — Final Flash (Super) through God Punisher
+- Reconciled **Final Flash (Super), Flash Chaser, Galick Gun, Gamma Blaster, Giant Cluster, Gigantic Charge, God of Destruction's Plaything, and God Punisher**.
+- Final Flash (Super) remains non-CaC as a character-exclusive skill. Galick Gun retains **All CaC races**.
+- Gigantic Charge retains corrected **Strike / 200 Ki / 300 Stamina** mechanics. God Punisher retains corrected **Ultimate / 400 Ki** classification.
+- The remaining CaC-usable skills have no explicitly established narrower race/gender/form restriction.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `d6d82ba7f5322495a0f7c0495a390a3aa51c6470`.
+- Audit commit: `9779acd8284d7c823a347101d47d74bd55ebc248`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following God Punisher.
