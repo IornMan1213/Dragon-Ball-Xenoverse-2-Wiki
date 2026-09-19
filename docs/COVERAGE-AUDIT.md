@@ -2235,3 +2235,10 @@ Resolved ultimate_finish_required=false for four Ultimate skills whose repositor
 - Updated docs/data/skills.json only for the four directly supported records.
 - Preserved nullable UF metadata for PQ-only skills where generic PQ association does not establish Ultimate Finish gating.
 - No validator or schema rule was changed.
+
+
+## 2026-09-19 — explicit non-UF Expert Mission/PQ skill batch
+
+Resolved `ultimate_finish_required: false` for three skills with explicit acquisition evidence independent of an Ultimate Finish: **Supernova** (Expert Mission 6), **Super Spirit Bomb** (Expert Mission 16), and **Divine Wrath: Purification** (PQ112 reward from defeating Fused Zamasu/Merged Zamasu). For Divine Wrath: Purification, community evidence explicitly reports the skill dropping without requiring the PQ Ultimate Finish. Remaining nullable Super/Ultimate records are preserved for further item-level research rather than inferred from generic PQ association.
+
+Live nullable Super/Ultimate count after this batch: **61 records**. This includes 44 Ultimate and 17 Super records with `ultimate_finish_required: null` after the preceding explicit non-UF batches. No validator or schema rule was changed.
