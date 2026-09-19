@@ -1009,3 +1009,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - No race classifications changed because explicit CaC race/gender/form scope was not established.
 - Canonical count remains 283; CaC-usable count remains 270; unresolved null-race count remains 182.
 - Exact next task: continue the next live unresolved cohort beginning with Bluff Kamehameha, Breaker Energy Wave, Burning Attack, and Burst Kamehameha.
+
+
+### 2026-09-19 cycle update — early super provenance boundary
+- Reviewed Bluff Kamehameha, Breaker Energy Wave, Burning Attack, and Burst Kamehameha.
+- Current-version evidence confirms acquisition/CaC access for some of these skills but does not explicitly establish race/gender/form scope.
+- Preserved null `race_restriction` values and deliberately did not import Xenoverse 1 race labels into Xenoverse 2.
+- No canonical data changes were required; coverage and handoff were updated to record the evidence boundary.
+- Canonical count remains 283; CaC-usable count remains 270; unresolved null-race count remains 182.
+- Exact next task: continue the live unresolved ordering beginning with Burst Stinger, Dark Inscription, Demon Ray, and Destruction's Concerto: Comet.
