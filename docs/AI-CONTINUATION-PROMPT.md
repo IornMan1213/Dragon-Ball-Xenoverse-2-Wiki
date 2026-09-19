@@ -1660,3 +1660,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - CI: inspect the push-triggered workflow status for the new data/audit commits; prior opaque pre-step failures remain infrastructure/account signals unless actionable logs appear.
 - Current unresolved skill race-restriction count: **138 CaC-usable records with null race_restriction**. This is a live field census, not a claim that all 138 are restricted.
 - Exact next task: recompute the live skill order and continue with the next eight records after **Godly Display**. Preserve null restrictions where explicit evidence remains insufficient; continue correcting stale class/category/mechanics data when the same evidence directly establishes a correction.
+
+
+### 2026-09-19 cycle completion — cohort validation
+- Audit commit: c7edc2f11f75127ae51b1e1da92574bc118a7f98.
+- Handoff commit: e39f12f6b0434bb9fc4b5d7e9251472c0624b8d5.
+- GitHub Actions inspection for data commit 79b9c9bbefcaf3156451912d0f62b4c410cd0cfd returned no associated pull-request workflow runs and no combined status checks. This matches the repository's previously observed opaque CI state; no validator changes were made.
+- Live skills JSON reparse succeeded: 283 records, 269 CaC-usable, 138 CaC-usable with null race_restriction. The eight target records were re-read after the write and matched the intended classifications/costs.
+- Repository artifact searches did not surface actionable citation-artifact results; continue the same hygiene check next cycle.
