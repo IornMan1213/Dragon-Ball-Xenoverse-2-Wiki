@@ -2707,3 +2707,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `fcc6418520e35a775a2dc41e090b7ecb82b04b78`.
 - Coverage audit commit: `07fd174b02af8ebc75f4f8a190d3cd410b2d8f8a`.
 - Exact next task: continue the remaining nullable Super records; prioritize acquisition-specific evidence and preserve null for character-exclusive or genuinely unresolved gates.
+
+
+### 2026-09-19 continuation — basic-reward Super batch 34
+- Resolved **Phantom Fist (PQ97), Savory Slicer (PQ140), Shining Slash (PQ38), and Gigantic Breaker (PQ126)** as `ultimate_finish_required=false` from explicit Basic Reward placement. citeturn0search0turn0search2
+- Live nullable Super/Ultimate census: **9 total — 9 Super / 0 Ultimate**.
+- Skills commit: `c50e7e751117b42407481c1a8cf66b38b2195e88`.
+- Coverage audit commit: `3cbe2c37dad37718368d97b2e3d613cc6736ce4b`.
+- Exact next task: continue the remaining nullable Super records with acquisition-specific evidence; preserve null for character-exclusive or genuinely unresolved gates.
