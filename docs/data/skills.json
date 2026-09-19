@@ -6020,9 +6020,10 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Teleporting_Vanishing_Ball"
       ],
-      "race_restriction": "Majin (Pure Majin form)"
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Thunder Flash",
@@ -6030,7 +6031,8 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Thunder_Flash"
+        "https://dbxv2.fandom.com/wiki/Thunder_Flash",
+        "https://dragonball.fandom.com/wiki/Thunder_Flash"
       ],
       "usable_by_cac": true,
       "character_source": "Pikkon",
@@ -6040,10 +6042,11 @@
       "source_quest_or_shop": "PQ146 - \"Zen-Ohs' Earthly Excursion\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage.",
-      "research_status": "reconciled_future_warrior_explicit_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "mechanics": "Base 300 Ki with up to three additional Ki bars when held; community spreadsheet records 300–600 Ki total.",
-      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record."
+      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Total Detonation Ball",
@@ -6061,12 +6064,14 @@
       "skill_description": "Total Detonation Ball is a Ultimate Ki Blast skill associated with Toppo.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
-      ]
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
+        "https://dragonball.fandom.com/wiki/Total_Detonation_Ball"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Warp Kamehameha",
@@ -6084,12 +6089,14 @@
       "skill_description": "Warp Kamehameha is a Ultimate Ki Blast skill associated with Goku.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Warp_Kamehameha"
-      ]
+        "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
+        "https://dragonball.fandom.com/wiki/Instant_Kamehameha"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "X 100 Big Bang Kamehameha",
@@ -6107,14 +6114,16 @@
       "skill_description": "X 100 Big Bang Kamehameha is a Ultimate Ki Blast skill associated with Vegeta (Super Saiyan Blue).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=432754991"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=432754991",
+        "https://dragonball.fandom.com/wiki/Big_Bang_Kamehameha"
       ],
-      "source_quest": 100
+      "source_quest": 100,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Blades of Judgment",
@@ -6132,12 +6141,14 @@
       "skill_description": "Blades of Judgment is a Ultimate Strike skill associated with Fused Zamasu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Blades_of_Judgment"
-      ]
+        "https://dbxv2.fandom.com/wiki/Blades_of_Judgment",
+        "https://dragonball.fandom.com/wiki/Blades_of_Judgment"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Brave Sword Attack",
@@ -6155,20 +6166,22 @@
       "skill_description": "Brave Sword Attack is a Ultimate Strike skill associated with Tapion.",
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Brave_Sword_Attack"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Darkness Rush (Melee)",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "race_restriction": "Non-Namekian",
+      "race_restriction": "All CaC races",
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
@@ -6176,17 +6189,11 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "usable_by_cac": true,
-      "race_restrictions": [
-        "Human",
-        "Saiyan",
-        "Majin",
-        "Frieza Race"
-      ],
       "ki_cost": 300,
       "ultimate_finish_required": null,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_race_restriction"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Darkness Rush (Ranged)",
