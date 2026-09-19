@@ -1537,3 +1537,15 @@ Reconciled **Chain Destructo-Disc Barrage, Chaotic Time Impact, Circle Flash, Co
 - The other six remain CaC-usable without an inferred narrower race/gender/form restriction.
 - Existing class/category distinctions were preserved; no unsupported normalization was introduced.
 - Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Emperor's Death Beam through Gigantic Burst
+
+Reconciled **Emperor's Death Beam, Energy Field, Final Explosion, Final Flash (SS3 DAIMA), Final Kamehameha, Full Power Destruction, Gigantic Breaker, and Gigantic Burst**.
+
+- The eight selected CaC-usable records now have explicit **All CaC races** scope.
+- Current Xenoverse 2-specific evidence supports player/CaC use for the cohort; character association alone was not used to infer a narrower race/gender/form restriction.
+- Final Flash (SS3 DAIMA) remains partially verified for other mechanics despite the race-scope reconciliation; its current skill page establishes the PQ181 acquisition and 400+ Ki behavior, while current player evidence demonstrates CaC use.
+- Existing unresolved reward-slot/drop and version-sensitive mechanics remain bounded rather than fabricated.
+- Live census after the data update: **283 total / 269 CaC-usable / 175 CaC-usable with null race restriction**.
+- The previously documented 171 null-restriction count is superseded by this live recomputation.
