@@ -2576,3 +2576,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `0679447a033ae7968d516a3a8aa1d1d3931db272`.
 - Coverage audit commit: `21938a5031846e1ce2c218df1f9b0d4a50a41dc7`.
 - Exact next task: continue the bounded Basic Reward evidence pass, prioritizing remaining nullable records with explicit Basic Reward listings; preserve `null` where UF gating remains unresolved.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 21
+- Verified explicit Basic Reward placement for **Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Victory Rush (PQ89), Unrelenting Barrage (PQ10), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), Pendulum Bullet (PQ166), and Variable Snipe Shot (PQ165)**. citeturn3view0turn3view2turn3view3turn4view0turn4view1turn4view2turn4view3
+- Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
+- Live nullable Super/Ultimate census: **75 total — 51 Super / 24 Ultimate**.
+- Skills commit: `a3ae1c29327a7336df40716a2486a213a79753ab`.
+- Coverage audit commit: `c481e7c62e37632aadd51398f1fb3faf5a29e318`.
+- Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
