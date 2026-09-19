@@ -1548,3 +1548,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `121f2cf091bdd303923d73f5592b4481798ecedc`.
 - Audit commit: `206f372be2d329166d3534926ffe54932b23eff6`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Force Edge.
+
+
+### 2026-09-19 continuation — Freedom Kick through Lovely Cyclone
+- Reconciled **Freedom Kick, Gamma Impact, God of Destruction's Poise, Heroic Assault, Justice Blade, Justice Drive, Justice Kick, and Lovely Cyclone**.
+- All eight remain CaC-usable with no inferred narrower race restriction; current evidence does not establish race/gender/form limits. Existing PQ acquisition details were retained.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+- Data commit: `b3a03364904e1e9a0e0be4f2772899f26c07ac71`.
+- Audit commit: `fa987fc2b061fb086f498726c47e9684e2a91bba`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Lovely Cyclone.
