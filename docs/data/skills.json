@@ -2501,7 +2501,8 @@
         "https://dragonball.fandom.com/wiki/Headshot"
       ],
       "race_restriction": "All CaC races",
-      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
+      "source_quest": "Parallel Quest 69"
     },
     {
       "name": "Heat Wave",
@@ -2569,7 +2570,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Ill Rain is a Super Ki Blast skill associated with Janemba.",
       "mechanics_notes": "Confirmed as Janemba's 100-Ki Ki Blast Super from PQ64. The projectile/orb can produce separate hits; detailed drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -2577,13 +2578,14 @@
         "https://dbxv2.fandom.com/wiki/Ill_Rain",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 64"
     },
     {
       "name": "Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kamehameha"
       ],
@@ -2595,7 +2597,8 @@
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ05 and usable by all CaC races. It has three charge levels.",
       "research_status": "enriched",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 05"
     },
     {
       "name": "Masenko",
@@ -2631,7 +2634,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Paralysis is a Super Ki Blast skill associated with Ginyu Force.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ34. The skill immobilizes the target; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -2639,7 +2642,8 @@
         "https://dbxv2.fandom.com/wiki/Paralysis",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 34"
     },
     {
       "name": "Paralyze Beam",
@@ -2656,7 +2660,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Paralyze Beam is a Super Ki Blast skill associated with Piccolo.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ04. It can paralyze/hold the target; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -2664,7 +2668,8 @@
         "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 04"
     },
     {
       "name": "Pendulum Bullet",
@@ -2727,7 +2732,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Photon Swipe is a Super Ki Blast skill associated with Toppo.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ139. It is Toppo's Photon Swipe; exact drop/Ultimate Finish gating remains bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -2737,7 +2742,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Photon_Swipe"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 139"
     },
     {
       "name": "Pretty Cannon",
@@ -2754,7 +2760,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Pretty Cannon is a Super Ki Blast skill associated with Ribrianne.",
       "mechanics_notes": "Confirmed as Ribrianne's 100-Ki Ki Blast Super from PQ133. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -2763,7 +2769,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 133"
     },
     {
       "name": "Raid Blast",
@@ -2869,7 +2876,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
+      "source_quest": "Parallel Quest 42"
     },
     {
       "name": "Shine Shot",
