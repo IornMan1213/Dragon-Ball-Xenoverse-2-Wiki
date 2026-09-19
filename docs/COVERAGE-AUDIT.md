@@ -2321,3 +2321,19 @@ Live nullable Super/Ultimate census: **135** total — 100 Super and 35 Ultimate
 Resolved `ultimate_finish_required: false` for **Ray Blast** (PQ125), **Reverse Shot** (PQ123), **Shine Shot** (PQ07), and **Spirit Blaster** (PQ129). The PQ guide explicitly lists each under Basic Reward. citeturn0search0turn0search1 **Handy Canon** (PQ115) remains nullable because acquisition-gating evidence is conflicting and the conservative rule requires preserving null until resolved.
 
 Live nullable Super/Ultimate census: **115** total — 80 Super and 35 Ultimate.
+
+
+## 2026-09-19 — basic-reward Super non-UF batch 16
+
+Resolved `ultimate_finish_required: false` for **Giant Cluster** (PQ163), **Gigantic Charge** (PQ128), **Handy Canon** (PQ115), and **Super Ghost Buu Attack** (PQ113). The current all-186 PQ guide explicitly places all four skills in their respective **Basic Reward** lists, separate from each quest's Ultimate Finish conditions. 
+
+- Giant Cluster — PQ163 Basic Reward.
+- Gigantic Charge — PQ128 Basic Reward.
+- Handy Canon — PQ115 Basic Reward.
+- Super Ghost Buu Attack — PQ113 Basic Reward.
+- No Ultimate Finish requirement was inferred from generic PQ association; the explicit Basic Reward placement is the negative UF evidence.
+- Live skill census after this batch: **283 records / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes / 0 missing unlock_method / 0 missing source_quest_or_shop**.
+- Live nullable Super/Ultimate census: **111 records — 76 Super and 35 Ultimate**.
+- No schema or validator changes were made.
+- Skills commit: `d4ba9551578e8cfc2a953ed78d8c3cea5ebc9b22`.
+
