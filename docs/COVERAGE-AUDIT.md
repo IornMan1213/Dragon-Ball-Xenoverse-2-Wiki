@@ -1068,3 +1068,11 @@ Reviewed the two remaining records from the prior queue against dedicated curren
 - **Requiem of Destruction:** confirmed as a **300-Ki Ki Blast Ultimate**, obtained from PQ106; notable users are Vados and Whis Customize Partner.
 
 Neither dedicated page explicitly establishes CaC race/gender/form scope, so no race restriction was inferred. 
+
+## 2026-09-19 — Counter skill cohort continuation
+
+Reconciled the next dataset-order cohort: Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Ultrasonic Blitz.
+
+Dedicated current-version evidence confirms the classifications and 100-Ki costs for the reviewed skills, along with their acquisition routes where available. Hit's three Time Skip skills are mentor-training rewards; Ultrasonic Blitz is from PQ151; Shadow Crusher is from Cooler (Final Form) training; Super God Shock Flash is a Skill Shop skill. Sudden Death Beam retains its existing TP Medal Shop / STP Medal Shop / Double Crystal Raid acquisition record because a dedicated page could not be freshly retrieved in this pass.
+
+No unsupported CaC race/gender/form restrictions were inferred.
