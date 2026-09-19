@@ -1160,3 +1160,16 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added dedicated current-version provenance for Savory Slicer.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Sonic Bomb; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Super God Fist through Circle Flash
+- Workstream: P1 skill race-restriction census / current-version provenance boundary.
+- Recomputed the live canonical census before editing: **283 total skills / 270 CaC-usable / 182 CaC-usable records with null `race_restriction`**.
+- Reviewed the next eight unresolved null-race records after Sonic Bomb: **Super God Fist, Variant Drive, Apocalyptic Burst, Blaster Stream, Burning Blast, Chain Destructo-Disc Barrage, Chaotic Time Impact, and Circle Flash**.
+- Current dedicated Xenoverse 2 evidence confirms skill identity, users, acquisition routes, and mechanics, but does not explicitly establish CaC race/gender/form scope for these records. No race restriction was inferred from character ownership, PQ availability, partner customization, or category membership.
+- Added/normalized dedicated current-version provenance URLs and refreshed `last_verified` to 2026-09-19 for all eight. No `race_restriction` values changed.
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `a9b7122a95621a4a1ef9b036f1459c644940a836` (skill research), `89503f686768e11e7104d6cc204ad21834d26086` (coverage audit), `50aae8fe8160c6db942e7d67bccfab14dacef46` and `dd5401473ddb7378181b52a4dfe5cce1d3bcdda0` (audit citation-artifact cleanup).
+- Validation: `skills.json` fetched and parsed successfully; live census remains 283/270/182. Audit file was re-fetched and checked for ChatGPT/internal citation artifacts; none remain after cleanup. No validators were changed.
+- CI status: combined status for the latest audit-cleanup commit returned no statuses, and the commit-specific workflow-run query returned no runs. This provides no actionable CI result; do not interpret the absence as a passing validator result.
+- Exact next task: **Core Breaker, Destruction's Concerto: Meteor, Dimension Ray, Energy Field, Final Flash (SS3 DAIMA), Final Kamehameha, Full Power Destruction, and Gigantic Breaker**. Recompute the live census first, then research explicit current-version race/gender/form evidence only and preserve nulls where the evidence boundary remains.
