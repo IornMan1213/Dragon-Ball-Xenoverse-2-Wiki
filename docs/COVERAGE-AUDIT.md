@@ -1585,3 +1585,15 @@ Reconciled **S.S. Deadly Bomber, Sign of Awakening, Special Beam Cannon (Beast),
 - Super Spirit Bomb and Supernova retain their Expert Mission acquisition records; explicit Future Warrior evidence supports their broad CaC scope.
 - Exact drop probabilities and Ultimate Finish requirements remain bounded where the reviewed evidence does not establish them.
 - Live census: **283 total / 269 CaC-usable / 146 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Teleporting Vanishing Ball through Darkness Rush (Melee)
+
+Reconciled **Teleporting Vanishing Ball, Thunder Flash, Total Detonation Ball, Warp Kamehameha, X 100 Big Bang Kamehameha, Blades of Judgment, Brave Sword Attack, and Darkness Rush (Melee)**.
+
+- All eight CaC-usable records now carry explicit **All CaC races** scope where the reviewed evidence establishes Future Warrior access.
+- Teleporting Vanishing Ball's Pure Majin/Purification access is an additional form-specific route, not a restriction on ordinary Future Warrior access.
+- Warp Kamehameha, Blades of Judgment, Brave Sword Attack, and Total Detonation Ball have direct Future Warrior acquisition evidence; X 100 Big Bang Kamehameha remains a Future Warrior PQ/TP Medal acquisition.
+- Darkness Rush (Melee)'s previous `Non-Namekian` restriction was removed because the reviewed Future Warrior evidence does not support treating that character-wide restriction as a CaC race restriction.
+- Exact drop probabilities and Ultimate Finish semantics remain bounded where evidence is incomplete.
+- Live census: **283 total / 269 CaC-usable / 140 CaC-usable with null race restriction**.
