@@ -577,3 +577,13 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Records touched include Burst Reflection, Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker, Heroic Counter, Punisher Shield, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Celestial Wave, Force Shield, Instant Rise, Ki Explosion, and Maiden Burst.
 - Exact DLC-pack provenance for several late PQ records remains intentionally unresolved rather than inferred solely from quest numbering.
 - `docs/data/skills.json` commit: `4ec88f3820e2a38d49f3cfa10e6256b244e679c7`.
+
+
+## 2026-09-19 Skill CaC/provenance reconciliation batch
+
+- Reconciled a focused partial cohort against current Xenoverse 2 references: **Burst Reflection, Divine Kamehameha, Perfect Shot, Spirit Bomb, Instant Transmission, Super Guard, Afterimage, and Celestial Wave**.
+- Added/confirmed CaC eligibility and documented the relevant acquisition routes. Supported resource values were also filled: Divine Kamehameha 200 Ki, Perfect Shot 100 Ki, Instant Transmission 0 Ki, Super Guard's Ki-drain behavior, and Celestial Wave's 300 Stamina.
+- Divine Kamehameha's TP Medal Shop distribution is version/update-sensitive, so the record retains provenance rather than claiming a timeless shop state. Celestial Wave remains associated with the Conton City Vote Pack/PQ151 provenance.
+- These records remain `partially_verified` because this pass establishes acquisition/CaC facts, not exhaustive reward-slot probability or every historical version boundary.
+- Skills commit: `28a6fb4b85a7a6eabf4b60052a8a92f7a5c6bee1`.
+- External corroboration included current Xenoverse 2 skill pages for Burst Reflection, Divine Kamehameha, Perfect Shot, Instant Transmission, Super Guard, and Celestial Wave, plus the mentor/reward reference for Cell and the current wish table. cite references are external only; repository files retain source URLs.
