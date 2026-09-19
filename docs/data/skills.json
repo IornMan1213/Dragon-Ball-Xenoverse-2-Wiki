@@ -1758,7 +1758,7 @@
       "skill_description": "Demon Ray is a Super Ki Blast skill used by Gohan (Beast).",
       "mechanics_notes": "Dedicated current-version evidence confirms Demon Ray as a 100-Ki Ki Blast Super from PQ160, with a 300-Stamina follow-up/use-while-hit mechanic. Existing acquisition record is retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
@@ -1782,7 +1782,7 @@
       "skill_description": "Destruction's Concerto: Comet is a Super Ki Blast skill associated with Vados.",
       "mechanics_notes": "Dedicated current-version evidence confirms Destruction's Concerto: Comet as a 100–200 Ki Ki Blast Super from PQ104. It creates a slow-moving tracking sphere; Destruction's Conductor can accelerate it and enable the multi-hit behavior.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1806,7 +1806,7 @@
       "skill_description": "Destruction's Concerto: Starfall is a Super Ki Blast skill associated with Vados.",
       "mechanics_notes": "Current evidence confirms Destruction's Concerto: Starfall as a Vados Super Skill obtainable from PQ104; it creates two energy spheres and can interact with Destruction's Conductor. No unsupported CaC restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1830,7 +1830,7 @@
       "source_quest_or_shop": "Krillin mentor training",
       "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "race_restriction": "All CaC races"
     },
     {
@@ -1849,7 +1849,7 @@
       "skill_description": "Dimension Cannon is a Super Ki Blast skill associated with Super Buu.",
       "mechanics_notes": "Current indexed evidence confirms Dimension Cannon as a 300-Ki Ki Blast Super from PQ59. Exact drop gating and detailed numerical mechanics remain under research; no unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1877,7 +1877,7 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics": "Moving Kamehameha Super with directional movement during charge; additional input can fire early; 15-hit beam.",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super sold through the TP Medal Shop and usable by all CaC races. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input."
     },
     {
@@ -1896,7 +1896,7 @@
       "skill_description": "Divine Spear is a Super Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
       "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
@@ -1919,7 +1919,7 @@
       "skill_description": "Double Death Slicer is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
