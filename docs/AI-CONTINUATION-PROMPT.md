@@ -1609,3 +1609,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Current PQ state remains 176 canonical records / 0 missing unlock_condition fields / 0 missing individual source arrays.
 - Current unresolved skill race-restriction count: 165 CaC-usable records with null race_restriction. This is a live field census, not a claim that all 165 are race-restricted.
 - Exact next task: recompute the live skill order and continue with Gigantic Explosion, Gigantic Roar, God of Destruction's Menace, God of Destruction's Roar, Heat Dome Attack, Holy Wrath, Last Emperor, and Lightning Impact. Preserve null restrictions where explicit evidence remains insufficient; continue documenting DLC/version provenance and acquisition uncertainty separately.
+
+
+### 2026-09-19 continuation — Gigantic Explosion through Lightning Impact
+- Reconciled Gigantic Explosion, Gigantic Roar, God of Destruction's Menace, God of Destruction's Roar, Heat Dome Attack, Holy Wrath, Last Emperor, and Lightning Impact.
+- Current Xenoverse 2-specific evidence establishes Future Warrior/CaC availability across the cohort, so all eight now carry explicit All CaC races scope. Character association alone was not used to infer narrower race/gender/form limits.
+- Preserved/verified mechanics: Gigantic Explosion 600 Ki with optional 400 Stamina continuation and Awoken requirement; Gigantic Roar 500 Ki; God of Destruction's Menace 300 Ki; God of Destruction's Roar corrected as Strike Super / 100 Ki; Heat Dome Attack 300 Ki; Holy Wrath 100 Ki; Last Emperor 0 Ki and low-health once-only condition; Lightning Impact 300 Ki.
+- Updated docs/data/skills.json. Live census is now 283 total / 269 CaC-usable / 158 CaC-usable with null race restriction.
+- Data commit: 6178b9176c90880288a46f54dbe61921d4fe0bbc. Coverage commit: 2481e066b20cb87452d3b1a705110d1a8a9d4308.
+- Evidence sources included current Xenoverse 2 skill pages and independent Future Warrior/skill references. Reward-slot probabilities and Ultimate-Finish semantics remain bounded where not directly established.
+- Exact next task: recompute the live dataset order and continue with Lightning of Absolution, Majin Kamehameha, Mystic Flash, Prominence Flash, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, and Ribrianne's Eternal Love.
