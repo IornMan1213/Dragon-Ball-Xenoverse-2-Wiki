@@ -2611,3 +2611,14 @@ Resolved all ten to **`race_restriction: "Character-only"`**. No race-specific r
 Skills commit: `a7e53e9a40f317c095247e55ddaf91e51b09fcb7`.
 No schema or validator changes were made.
 
+## 2026-09-19 — source-quest provenance batch 1
+
+Started the next structured metadata census by filling `source_quest` only where the existing record already contains an explicit Parallel Quest identifier/title in `source_quest_or_shop` and/or `unlock_method`. This avoids inventing provenance while improving machine-readable cross-file linkage.
+
+Resolved 10 records: **Kaioken → PQ8 — Invade Earth; Change The Future → PQ43 — Change the Future; Counter Burst → PQ75 — Room to Spare; Counter Impact → PQ153 — Seeing Double; Ultrasonic Blitz → PQ151 — Even Further Beyond; Ki Explosion → PQ77; Mighty Explosive Wave → PQ79; Side Bridge → PQ39; Spread Shot Retreat → PQ28; Steel Mirage → PQ165.**
+
+Character-only records with a PQ appearing merely as reward context were intentionally excluded from this batch.
+
+Skills commit: `70f66b9f705a3c8c040b68386823ae9b457f5bf8`.
+No schema or validator changes were made.
+
