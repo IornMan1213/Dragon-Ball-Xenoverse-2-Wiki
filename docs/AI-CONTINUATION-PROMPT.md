@@ -432,3 +432,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation census: **176 total records, 0 missing `unlock_condition` fields, 0 records lacking individual `sources` arrays**. This completes the current PQ provenance coverage objective.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Exact next task: do not stop at provenance completion. Re-open the repository TODO/priority list and identify the highest-priority remaining **data-quality/functionality gap**. Continue exhaustive page/function/detail coverage rather than starting another redundant source pass. Preserve conflicts, cite evidence, and update this handoff after the next substantive work unit.
+
+
+### 2026-09-19 cycle update — Super Soul batch 03 promotion and priority refresh
+- Workstream: post-PQ-provenance data-quality expansion.
+- Inspected the authoritative `TODO.md` after completing PQ1–PQ186 provenance. The previous handoff's stale PQ-to-skill unresolved count was no longer accurate: the live `docs/data/pq-skill-crosslink-report.json` is currently `resolved` with **0 unresolved references** against the 298-record canonical skill catalog.
+- Promoted **Super Soul research batch 03 (IDs 024–031)** into `docs/data/super-souls-record-layer.json` after duplicate, schema, acquisition, trigger/effect, Limit Burst, and independent-source reconciliation. Canonical Super Soul population is now **26 records**, up from 18.
+- Preserved unresolved current shop-rotation timing and drop-rate semantics; no unsupported values were filled.
+- Updated `docs/Super-Souls-Database.md`, `docs/data/coverage-gaps.json`, `TODO.md`, and `CHANGELOG.md` to reflect the new baseline and priorities.
+- Commits: `ca75f7b653ea8622d576ecd27b794b29dd727909` (canonical Super Souls), `f6842a2c5e2b41d879640d4b3962d76ff5de799d` (batch finalization), `5485adf46c15c6dae5d96de2caf81352fbdb679f` (database page), `7cf0a059f1cbadfe12358a0ea9434f5ab705128` (coverage gaps), `8d5472238261bcf35bce7703026969762cc240f7` (TODO), `e57927e52634f456d6f7a9244ebf33963194b5eb` (changelog).
+- Validation: live cross-link report is resolved with 0 unresolved references; repository artifact audit remains clean in the inspected coverage audit. GitHub Actions still exposes no usable runner-step evidence for the known pre-run failures, so validators were not weakened and CI was not claimed as passing.
+- Exact next task: continue **Super Soul expansion** beyond the 26-record baseline, prioritizing acquisition families that are still absent/underrepresented (Expert Missions, raids/events, shops/rotations, DLC-specific souls), while independently reconciling triggers/effects/Limit Burst behavior. In parallel, continue the P0 Actions diagnosis only from observable GitHub evidence and maintain the exhaustive coverage gap map.
