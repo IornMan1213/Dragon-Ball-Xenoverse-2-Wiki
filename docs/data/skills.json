@@ -3564,7 +3564,7 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest 10 - \"Saiyan Survivors\"",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 10",
@@ -3586,15 +3586,16 @@
       "source_quest_or_shop": "Parallel Quest 83",
       "ultimate_finish_required": null,
       "skill_description": "Charge is a Super Power Up skill associated with Goku.",
-      "mechanics_notes": "Confirmed as Goku's 100-Ki Power Up Super from PQ83. It is an early/intermediate Ki charging skill; detailed reward-roll conditions remain less certain than the PQ identity.",
+      "mechanics_notes": "Confirmed as Goku's 100-Ki Power Up Super from PQ83. It is an early/intermediate Ki charging skill; detailed reward-roll conditions remain less certain than the PQ identity. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Charge",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Data Input",
@@ -3608,7 +3609,7 @@
       "ki_cost": 100,
       "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "unlock_method": "Expert Mission 20 — Harbinger of Doom",
       "usable_by_cac": true,
@@ -3630,14 +3631,15 @@
       "source_quest_or_shop": "Parallel Quest 110",
       "ultimate_finish_required": null,
       "skill_description": "Divinity Unleashed is a Super Power Up skill associated with Zamasu.",
-      "mechanics_notes": "Confirmed as Zamasu's 100-Ki Power Up Super from PQ110. Charging at least one full Ki bar activates a temporary effect that substantially increases Ki gained from attacks/charging; it is a CaC-usable charge skill.",
+      "mechanics_notes": "Confirmed as Zamasu's 100-Ki Power Up Super from PQ110. Charging at least one full Ki bar activates a temporary effect that substantially increases Ki gained from attacks/charging; it is a CaC-usable charge skill. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Do or Die",
@@ -3653,14 +3655,15 @@
       "source_quest_or_shop": "Parallel Quest 49",
       "ultimate_finish_required": null,
       "skill_description": "Do or Die is a Super Power Up skill associated with Super Saiyan 3 Gotenks.",
-      "mechanics_notes": "Confirmed as 100-Ki PQ49 Power Up Super. It knocks back nearby enemies on activation and grants 10% damage reduction for 20 seconds.",
+      "mechanics_notes": "Confirmed as 100-Ki PQ49 Power Up Super. It knocks back nearby enemies on activation and grants 10% damage reduction for 20 seconds. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Do_or_Die"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Fighting Pose E",
@@ -3676,15 +3679,16 @@
       "source_quest_or_shop": "Parallel Quest 19",
       "ultimate_finish_required": false,
       "skill_description": "Fighting Pose E is a Super Power Up skill associated with Captain Ginyu.",
-      "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs.",
+      "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E"
       ],
-      "duration_seconds": 20
+      "duration_seconds": 20,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Fighting Pose H",
@@ -3700,14 +3704,15 @@
       "source_quest_or_shop": "Parallel Quest 61",
       "ultimate_finish_required": null,
       "skill_description": "Fighting Pose H is a Super Power Up skill associated with Recoome.",
-      "mechanics_notes": "Corrected user attribution to Guldo. Confirmed as 0-Ki PQ61 Power Up Super that reduces damage taken for 20 seconds; usable by CaCs.",
+      "mechanics_notes": "Corrected user attribution to Guldo. Confirmed as 0-Ki PQ61 Power Up Super that reduces damage taken for 20 seconds; usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_H"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Fighting Pose K",
@@ -3721,7 +3726,7 @@
       "ki_cost": 0,
       "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "duration_seconds": 8,
       "ultimate_finish_required": null,
       "unlock_method": "Skill Shop after The Ginyu Force Strikes",
