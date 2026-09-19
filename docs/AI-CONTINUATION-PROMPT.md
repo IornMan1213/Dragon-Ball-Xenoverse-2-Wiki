@@ -2612,3 +2612,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `12c9aec4b079dcc82d0f878585885403f051b62f`.
 - Coverage audit commit: `c5155f8a9c50114108f4de1501158c8d35185961`.
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 25
+- Verified explicit Basic Reward placement for **Justice Drive (PQ168), God of Destruction's Poise (PQ175), Full Power Destruction (PQ177), Dragon Spark (PQ177), Soaring Rush (PQ177), and Burst Blitz (PQ178)**. citeturn0search0turn0search2
+- Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all six.
+- Live nullable Super/Ultimate census: **49 total — 36 Super / 13 Ultimate**.
+- Skills commit: `6cc6563bc592c585a18344f3bf6a45f5ba60c282`.
+- Coverage audit commit: `7ac9eb3c67ca2de1fe60dd4e41c5564ed01dc496`.
+- Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
