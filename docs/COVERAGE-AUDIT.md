@@ -2123,3 +2123,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Regenerated `docs/data/pq-skill-crosslink-report.json`: 229 linked skill rewards, 0 unresolved.
 - Updated `docs/data/pq-cross-domain-status.json` to reflect skill-edge completion.
 - Commits: relationship `4e1b628045bdcbf35c4d0f221111cd24b8a9a6a4`, report `01bed910511947d5b614eed0f2d7de597ca7f2c3`, status `a483755f96a02a1a6f06c013aa98aeb90c925e79`.
+
+
+## 2026-09-19 — PQ Super Soul relationship reconciliation
+
+- Populated the canonical PQ 1-186 Super Soul reward relationships from the repository's normalized reward maps.
+- Added **125 source-backed `pq_rewards_super_soul` edges** to `docs/data/pq-reward-relationships.json`.
+- Updated `docs/data/pq-cross-domain-status.json` to record 229 skill edges and 125 Super Soul edges.
+- The current all-186 guide explicitly presents Super Souls alongside PQ rewards, supporting this reward-layer normalization. citeturn0search0
+- Commits: relationship `ce11b853b6e0325dfa4f19a9e6140a39985a140c`; status `efd12568a533b42a5aea3265c8a4d95d917c8001`.
