@@ -1707,3 +1707,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 - Exact next task: continue with the next eight CaC-usable records whose `race_restriction` remains null.
+
+
+### 2026-09-19 continuation — Force Shield through Spread Shot Retreat
+- Reviewed the next eight null-race CaC-usable records: **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, Spread Shot Retreat**.
+- Evidence supports CaC/Future Warrior availability without establishing a narrower CaC race/gender/form restriction. Null fields are intentionally preserved.
+- Data commit: 9f542ec1843204f58d6a2df9d7dcb0fe36b8e7ba.
+- Audit commit follows in this cycle.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
