@@ -1998,3 +1998,16 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Index normalization commits: 0fbe0b2d97e9874040ffb408294c60bae53cfad1 and 7541bc5744da33d61de2c755429f673aab3bce71.
 - Current census: 283 total / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes.
 - No validator was weakened; metadata was brought back into the declared validation contract.
+
+
+### 2026-09-19 continuation — skill acquisition-source metadata completion
+- Workstream: P1 canonical skill metadata audit.
+- Live census before/after: **283 total / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes**; the final actionable source_quest_or_shop gap fell from **15 to 0**.
+- Added concise acquisition-source metadata to 15 records: Become Giant, Future Super Saiyan, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Vegeta, Turn Golden, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Death Ball.
+- Death Ball was specifically checked against current reference evidence identifying Frieza mentor training / Intergalactic Emperor of Evil 3; the repository now records the mentor route instead of leaving the acquisition source blank.
+- Files changed: docs/data/skills.json, docs/COVERAGE-AUDIT.md, and this handoff.
+- Commits: skills metadata **f5ba060d18ed06c178a00b7118fc89b11712cbde**; coverage audit **75143b311d804e210dc514e70dc00075e6483257**; handoff commit follows.
+- Validation: skills JSON and audit content were successfully rewritten; repository-wide canonical skill source-field census is now **283/283 populated**. No validator was weakened.
+- CI: inspect the latest push-triggered runs after this handoff commit; if jobs again terminate before actionable steps/logs, preserve the documented infrastructure/account classification.
+- Current unresolved skill metadata count: **0 missing source_quest_or_shop fields**, with deeper individual evidence/version conflicts still possible.
+- Exact next task: recompute the full skill metadata census and identify the next nonempty coverage gap; if no higher-value skill gap remains, continue the P1 Parallel Quest reward/acquisition/version provenance audit.
