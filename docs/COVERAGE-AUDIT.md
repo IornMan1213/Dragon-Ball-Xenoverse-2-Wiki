@@ -972,3 +972,8 @@ Reviewed **Death Slash, Demon Flurry, Demonic Destruction, and Destruction's Con
 ## 2026-09-19 — Dragon/Emperor/Gamma boundary
 
 Reviewed **Dragon Spark, Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edge, Freedom Kick, and Gamma Impact** as the next unresolved CaC-usable null-race cohort. Current evidence establishes these as Xenoverse 2 skills but does not explicitly establish a race/gender/form restriction or unrestricted-all-CaC statement sufficient to change `race_restriction`. All eight remain null. Verification dates were refreshed to 2026-09-19. Dragon Spiral also received a dedicated current-version skill-page URL.
+
+
+## 2026-09-19 — Gamma/Justice boundary
+
+Reviewed **God of Destruction's Poise, Heroic Assault, Justice Blade, and Justice Drive** as the next unresolved CaC-usable null-race cohort. Current-version evidence confirms these Xenoverse 2 skills and their associated users/availability, but does not explicitly establish a race/gender/form restriction or an unrestricted-all-CaC statement sufficient to change `race_restriction`. All four remain null. Verification dates were refreshed to 2026-09-19.
