@@ -977,3 +977,8 @@ Reviewed **Dragon Spark, Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce F
 ## 2026-09-19 — Gamma/Justice boundary
 
 Reviewed **God of Destruction's Poise, Heroic Assault, Justice Blade, and Justice Drive** as the next unresolved CaC-usable null-race cohort. Current-version evidence confirms these Xenoverse 2 skills and their associated users/availability, but does not explicitly establish a race/gender/form restriction or an unrestricted-all-CaC statement sufficient to change `race_restriction`. All four remain null. Verification dates were refreshed to 2026-09-19.
+
+
+## 2026-09-19 — Justice/Power boundary
+
+Reviewed **Justice Kick, Lovely Cyclone, Mach Punch, Meteor Blow, Meteor Strike, Neo Wolf Fang Fist, Power Impact, and Powered Shell** as the next unresolved CaC-usable null-race cohort. Current-version evidence confirms skill identity/availability but does not explicitly establish a race/gender/form restriction or unrestricted-all-CaC statement sufficient to change `race_restriction`. All eight remain null. Verification dates were refreshed to 2026-09-19; dedicated dbxv2 Fandom provenance was added for Lovely Cyclone, Power Impact, and Powered Shell where absent.
