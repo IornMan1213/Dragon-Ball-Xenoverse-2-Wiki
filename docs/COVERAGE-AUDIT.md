@@ -1628,9 +1628,9 @@ Reconciled the next seven live skill records after Godly Display: **Power Rush, 
 
 Reviewed the first eight remaining CaC-usable skills with `race_restriction: null`: **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, and God Breaker**.
 
-- The null race field is now explicitly documented as **intentional unresolved restriction status**, not an unreviewed omission: current Future Warrior technique listings include these skills without attaching a CaC race/gender/form restriction. citeturn1search5turn1search10
-- Counter classification was cross-checked against the current Counter Skill taxonomy: Burst Rush and God Breaker are melee/strike counters; Change The Future and Counter Burst are Ki counters; Flash Fist Crush is a universal counter. citeturn1search0
-- No race restriction was inferred merely from the associated character. This is consistent with the repository's research rule and the evidence that Future Warrior availability is separate from character ownership. citeturn0search2turn1search5
+- The null race field is now explicitly documented as **intentional unresolved restriction status**, not an unreviewed omission: current Future Warrior technique listings include these skills without attaching a CaC race/gender/form restriction. 
+- Counter classification was cross-checked against the current Counter Skill taxonomy: Burst Rush and God Breaker are melee/strike counters; Change The Future and Counter Burst are Ki counters; Flash Fist Crush is a universal counter. 
+- No race restriction was inferred merely from the associated character. This is consistent with the repository's research rule and the evidence that Future Warrior availability is separate from character ownership. 
 - No fabricated restrictions, unlock routes, or drop conditions were added.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**; these eight remain null because evidence does not establish a restriction.
 
@@ -1640,8 +1640,8 @@ Reviewed the first eight remaining CaC-usable skills with `race_restriction: nul
 Reviewed the next eight CaC-usable skills with null `race_restriction`: **Heroic Counter, Punisher Shield, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Sudden Death Beam, Super Afterimage, and Super God Shock Flash**.
 
 - Current Future Warrior evidence explicitly includes these techniques; no reviewed source establishes a CaC race/gender/form restriction, so the null race field remains intentional.
-- Dedicated skill evidence confirms Heroic Counter as a 100-Ki Strike Super, Punisher Shield as a 100-Ki Ki Blast Super, Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate, and Rough Ranger as a 100-Ki Strike Super. citeturn0search2turn0search3turn0search9turn0search6
-- Future Warrior evidence also lists Heroic Counter, Punisher Shield, and Rough Ranger among techniques usable by the Future Warrior; Reverse Mabakusenko explicitly lists Future Warrior as a user. citeturn0search7turn0search0
+- Dedicated skill evidence confirms Heroic Counter as a 100-Ki Strike Super, Punisher Shield as a 100-Ki Ki Blast Super, Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate, and Rough Ranger as a 100-Ki Strike Super. 
+- Future Warrior evidence also lists Heroic Counter, Punisher Shield, and Rough Ranger among techniques usable by the Future Warrior; Reverse Mabakusenko explicitly lists Future Warrior as a user. 
 - No restriction was inferred from Gamma 2, SSGSS Gogeta, Android 17, Piccolo, or other character associations.
 - No unsupported acquisition condition or drop requirement was added.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
@@ -1662,9 +1662,9 @@ Reviewed the next eight CaC-usable skills with null `race_restriction`: **Time S
 
 Reviewed **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, and Spread Shot Retreat**.
 
-- Current Future Warrior/CaC evidence supports these as usable techniques, but the reviewed evidence does not establish a CaC race/gender/form restriction; null race fields are intentionally preserved. citeturn0search0turn0search1
-- Force Shield remains a 200-Stamina Ki Blast Evasive from PQ59; Instant Rise remains an Evasive available to CaCs; Maiden Burst remains a 300-Stamina Ki Blast Evasive from PQ92; Punisher Guard is a defensive Evasive in the reviewed CaC skill corpus. citeturn0search4turn0search8turn0search10turn0search6
-- Mighty Explosive Wave remains the Super Skill version of Explosive Wave and is used by the Future Warrior; the Jiren (Full Power) Evasive is a separate variation and is not treated as a CaC restriction. citeturn0search7
+- Current Future Warrior/CaC evidence supports these as usable techniques, but the reviewed evidence does not establish a CaC race/gender/form restriction; null race fields are intentionally preserved. 
+- Force Shield remains a 200-Stamina Ki Blast Evasive from PQ59; Instant Rise remains an Evasive available to CaCs; Maiden Burst remains a 300-Stamina Ki Blast Evasive from PQ92; Punisher Guard is a defensive Evasive in the reviewed CaC skill corpus. 
+- Mighty Explosive Wave remains the Super Skill version of Explosive Wave and is used by the Future Warrior; the Jiren (Full Power) Evasive is a separate variation and is not treated as a CaC restriction. 
 - No character-only association was converted into a race restriction.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 
@@ -1673,10 +1673,20 @@ Reviewed **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psyc
 
 Reviewed **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, and Blaster Ball**.
 
-- Current Future Warrior evidence lists these techniques among skills usable by the Future Warrior/CaC, while the reviewed sources do not establish a CaC race/gender/form restriction. The null race field is therefore preserved intentionally. citeturn0search0
-- Steel Mirage is confirmed as a **100-Ki Ki Blast Super** from PQ165; the previous Evasive/Other description was corrected in the live record before this census pass. citeturn0search3
-- Final Pose and Mach Dash remain **200-Stamina Power Up Evasives**; current Evasive documentation lists both as CaC-available. citeturn0search2
-- Spirit Explosion remains a **200-Stamina Strike Evasive** from PQ25 and is explicitly obtainable for CaCs. citeturn0search6
+- Current Future Warrior evidence lists these techniques among skills usable by the Future Warrior/CaC, while the reviewed sources do not establish a CaC race/gender/form restriction. The null race field is therefore preserved intentionally. 
+- Steel Mirage is confirmed as a **100-Ki Ki Blast Super** from PQ165; the previous Evasive/Other description was corrected in the live record before this census pass. 
+- Final Pose and Mach Dash remain **200-Stamina Power Up Evasives**; current Evasive documentation lists both as CaC-available. 
+- Spirit Explosion remains a **200-Stamina Strike Evasive** from PQ25 and is explicitly obtainable for CaCs. 
 - Atomic Blast remains a **100-Ki Ki Blast Super** from PQ87; Blaster Ball retains its **100–500 Ki** variable-cost Ki Blast Super behavior.
 - No character association was converted into a race restriction.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Bluff Kamehameha through Destruction's Concerto: Comet
+
+Reviewed **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehameha, Burst Stinger, Dark Inscription, Demon Ray, and Destruction's Concerto: Comet**.
+
+- The reviewed Future Warrior reference identifies these techniques as part of the Future Warrior's usable technique set; explicit race/gender/form restrictions were not established for this cohort.
+- The null race field is therefore preserved intentionally rather than inferring restrictions from the source character.
+- No unlock, cost, class, or mechanics correction was made solely from character ownership.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
