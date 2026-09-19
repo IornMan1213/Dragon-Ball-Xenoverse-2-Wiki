@@ -1201,3 +1201,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - God of Destruction's Menace is confirmed as a 300-Ki Ki Blast Ultimate from PQ105; existing CaC scope remains conservatively retained pending stronger dedicated explicit-scope evidence.
 - Remaining immediate cohort: **Gigantic Explosion, Heat Dome Attack, Holy Wrath, Last Emperor**.
 - Commits: `cd04519a91003c8707a13c14876dba541aee805e` (data), `bc148b615ca618eb4011296efb1b7c435813b966` (audit).
+
+
+### 2026-09-19 continuation — Heat Dome / Zamasu / Last Emperor
+- Reconciled **Heat Dome Attack, Holy Wrath, Last Emperor, and Lightning of Absolution** against dedicated current-version skill pages.
+- Corrected **Holy Wrath** from Ultimate/300 Ki to **Super/100 Ki**.
+- Corrected **Last Emperor** from 300 Ki to **0 Ki** and documented its low-health/one-use condition.
+- Confirmed **Lightning of Absolution** as a 100-Ki Ki Blast Super and **Heat Dome Attack** as a 300-Ki Ki Blast Ultimate.
+- No unsupported CaC race/gender/form restrictions were inferred from character users.
+- Commits: `ff28f527b5813cb8a2644c0e83aa0e1791b530c5` (data), `453120ea547b2e041cc7d2c21ed24e5550141082` (audit).
+- Next queued cohort begins with **Mystic Flash** and **Requiem of Destruction**, followed by the remaining unresolved null-race records.
