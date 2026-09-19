@@ -1295,7 +1295,7 @@ The live skill census remains **283 total / 269 CaC-usable / 182 CaC-usable with
 Reconciled the next eight dataset-order records after Side Bridge: **Spread Shot Retreat, Steel Mirage, Final Pose, Mach Dash, Angry Shout, Energy Barrier, Spirit Explosion, and Spirit Slash**.
 
 - Current evidence supports CaC availability for all eight records. No new race/gender/form restriction was inferred for Spread Shot Retreat, Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, or Spirit Slash.
-- **Angry Shout retains the explicit Pure Majin-form restriction.** The current Future Warrior technique index places Angry Shout under the Purification (Pure Majin) form-exclusive techniques. citeturn1search0
+- **Angry Shout retains the explicit Pure Majin-form restriction.** The current Future Warrior technique index places Angry Shout under the Purification (Pure Majin) form-exclusive techniques. (current Future Warrior technique index reference)
 - **Celestial Wave was also tightened during this pass:** its previous all-CaC-races value was removed because the reviewed current evidence establishes CaC availability but did not explicitly establish an all-races restriction. This is an evidence-boundary correction, not a change to CaC usability.
 - Live census after the correction: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - No race restriction was inferred merely from character ownership, mentor source, PQ source, or inclusion in a generic Future Warrior technique list.
