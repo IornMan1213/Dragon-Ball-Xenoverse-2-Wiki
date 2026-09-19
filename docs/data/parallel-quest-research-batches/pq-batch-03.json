@@ -4,7 +4,7 @@
   "verification_policy": "parallel_quest_audit_with_independent_cross_checks",
   "research_scope": "PQ21-PQ30 base-game Parallel Quest audit. Core objective sequences and documented rewards are recorded; exact reward-slot/drop percentages remain unresolved unless directly established.",
   "verification_audit": {
-    "audited": "2026-09-17",
+    "audited": "2026-09-19",
     "duplicate_check": {
       "status": "passed",
       "duplicate_count": 0
@@ -13,7 +13,12 @@
       "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
       "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    ]
+    ],
+    "record_level_source_pass": {
+      "status": "completed",
+      "scope": "PQ21-PQ30",
+      "note": "Added record-level provenance and corrected/reconciled basic reward lists against the maintained 186-PQ transcription and independent PQ tables. PQ27 and PQ28 unlock records were strengthened with explicit NPC triggers documented by an independent PQ table. Other base-game unlock routes remain conservative where exact quest-specific triggers were not independently established."
+    }
   },
   "records": [
     {
@@ -49,7 +54,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 22,
@@ -69,12 +80,22 @@
       "ultimate_finish_trigger": "Recover seven Dragon Balls while completing the quest's enemy objective.",
       "basic_rewards": [
         "900 Zeni",
-        "Battle Suit (Frieza Saga Vegeta)"
+        "Battle Suit (Frieza Saga Vegeta)",
+        "Energy Capsule S",
+        "Small Mix Capsule",
+        "I'll kill all of you!!",
+        "Energy Shot"
       ],
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_basic_rewards",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 23,
@@ -94,8 +115,8 @@
       "ultimate_finish_trigger": "Clear in under 3 minutes, then defeat the training Time Patroller.",
       "basic_rewards": [
         "950 Zeni",
-        "Battle Suit (Frieza)",
-        "Energy Capsule M",
+        "Energy Capsule S",
+        "Regen Capsule S",
         "Death Slash"
       ],
       "skill_rewards": [
@@ -108,7 +129,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 24,
@@ -128,8 +155,7 @@
       "ultimate_finish_trigger": "Befriend Vegeta, keep him alive, then defeat Super Saiyan Vegeta.",
       "basic_rewards": [
         "1000 Zeni",
-        "Saiyan Battle Suit",
-        "Energy Capsule M",
+        "Small Mix Capsule",
         "Double Death Slicer"
       ],
       "skill_rewards": [
@@ -142,7 +168,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 25,
@@ -161,9 +193,9 @@
       ],
       "ultimate_finish_trigger": "Clear in under 5 minutes, then defeat Metal Cooler.",
       "basic_rewards": [
-        "1050 Zeni",
-        "Battle Suit (Cooler)",
-        "Energy Capsule M",
+        "1100 Zeni",
+        "Goku Wig",
+        "Small Mix Capsule",
         "Spirit Explosion"
       ],
       "skill_rewards": [
@@ -176,7 +208,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 26,
@@ -195,9 +233,10 @@
       ],
       "ultimate_finish_trigger": "Clear in under 5 minutes, then defeat Turles and Lord Slug.",
       "basic_rewards": [
-        "1100 Zeni",
-        "Demon Clothes (Lord Slug)",
-        "Energy Capsule M",
+        "1250 Zeni",
+        "Energy Capsule S",
+        "All-Energy Shard",
+        "I got back my youth and vigor!",
         "Crazy Finger Shot"
       ],
       "skill_rewards": [
@@ -210,14 +249,20 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 27,
       "name": "Metal Cooler Riot",
       "stars": 3,
       "dlc_requirement": null,
-      "unlock_condition": "Progress through the base-game PQ board to this quest; exact quest-specific prerequisite is not established by the currently consulted source.",
+      "unlock_condition": "Talk to Metal Cooler near Master Cell in the northern part of Conton City (the area with the many mushrooms), then access PQ 27.",
       "win_conditions": [
         "Defeat 20 Metal Coolers",
         "Clear with at least 10 minutes left",
@@ -229,9 +274,9 @@
       ],
       "ultimate_finish_trigger": "Defeat 20 Metal Coolers, retain at least 10 minutes, then defeat Cooler.",
       "basic_rewards": [
-        "1150 Zeni",
-        "Metal Cooler Suit",
-        "Energy Capsule M",
+        "1330 Zeni",
+        "Dore's Scouter",
+        "Small Mix Capsule",
         "Sauzer Blade"
       ],
       "skill_rewards": [
@@ -244,14 +289,20 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 28,
       "name": "Legendary Super Saiyan",
       "stars": 3,
       "dlc_requirement": null,
-      "unlock_condition": "Progress through the base-game PQ board to this quest; exact quest-specific prerequisite is not established by the currently consulted source.",
+      "unlock_condition": "Talk to Appule in the Bamboo Forest, then access PQ 28.",
       "win_conditions": [
         "Defeat Goku and Krillin",
         "Defeat Krillin before Goku",
@@ -263,9 +314,11 @@
       ],
       "ultimate_finish_trigger": "Defeat Krillin before Goku, then defeat Super Saiyan Goku.",
       "basic_rewards": [
-        "1200 Zeni",
-        "Goku's Turtle Hermit Gi",
-        "Energy Capsule M",
+        "1470 Zeni",
+        "Battle Suit (Gohan)",
+        "Energy Capsule S",
+        "Drop dead!!!",
+        "Goku the legendary Super Saiyan!",
         "Spread Shot Retreat"
       ],
       "skill_rewards": [
@@ -278,7 +331,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 29,
@@ -297,9 +356,10 @@
       ],
       "ultimate_finish_trigger": "Keep Cell above 50% health and then defeat Piccolo.",
       "basic_rewards": [
-        "1250 Zeni",
-        "Android 16's Clothes",
-        "Energy Capsule M",
+        "1480 Zeni",
+        "Aura Shard",
+        "I'll use all my strength to kill you.",
+        "Android 18's Clothes (Vest & Pants)",
         "Freedom Kick",
         "Energy Field"
       ],
@@ -318,7 +378,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 30,
@@ -333,18 +399,26 @@
       ],
       "lose_conditions": [
         "All team HP depleted",
+        "Hercule is defeated",
         "Time expires"
       ],
       "ultimate_finish_trigger": "Keep Hercule above 50% health and then defeat revived Vegeta.",
       "basic_rewards": [
-        "1300 Zeni",
+        "1500 Zeni",
         "Hercule's Clothes",
-        "Energy Capsule M"
+        "Tien Shinhan's Gi",
+        "I'm neither Kami nor Piccolo..."
       ],
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_basic_rewards",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/4/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     }
   ]
 }
