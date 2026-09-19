@@ -1332,3 +1332,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important findings: Final Charge/Instant Charge remain non-CaC character/boss skills; Full Power Charge and Maximum Charge are CaC Advancement Test charge skills; Instant Transmission is 0-resource Goku Lesson 1 teleport; Kai Kai is Whis's 100-Ki ally teleport; Petrifying Spit is Dabura's 100-Ki petrification skill.
 - Data commit: `014af364386a1befc30d2d428484fda639e5943f`; audit commit: `d040293e8bbda661ea1f1dd2dee90375534d7a46`.
 - Continue from the records immediately following Petrifying Spit in dataset order.
+
+
+### 2026-09-19 continuation — Phantom Fist through Super Guard
+- Reconciled Phantom Fist, Quick Sleep, Rise to Action, Rising Rage, Shield Barrier, Solar Flare, Spirit Boost, and Super Guard.
+- Important findings: Quick Sleep is Majin-only; Rising Rage remains Restrained Broly-exclusive; Phantom Fist/PQ97, Shield Barrier/PQ153 and Solar Flare/PQ01 are all-CaC; Spirit Boost is 0-Ki; Super Guard is 100-Ki with sustained Ki drain while held.
+- Data commit: `6c4cc5933d37fda61c0b0d87306294b9bbb433d7`; audit commit: `facb21b61b26cdc45364f32b8fb5dc2afcb1f4b1`.
+- Continue from the records immediately following Super Guard in dataset order.
