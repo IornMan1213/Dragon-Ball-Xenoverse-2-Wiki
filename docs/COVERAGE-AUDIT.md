@@ -815,3 +815,7 @@ Cross-checked the source's explicitly stated Future Warrior race/gender restrict
 ## 2026-09-19 Death Psycho Bomb — explicit unrestricted evidence
 
 `Death Psycho Bomb` was the first new classification from the expanded independent-source pass. The dedicated technique page explicitly states that in Xenoverse 2 it can be obtained by the Future Warrior from PQ33 and **can be used by the Future Warrior regardless of race**. The canonical skill had `usable_by_cac: true` and a null `race_restriction`, so it is now classified as **All CaC races**. This is an evidence-backed classification, not an inference from Frieza ownership. citeturn2search0
+
+## 2026-09-19 Justice Pose — explicit unrestricted evidence
+
+`Justice Pose` was reclassified from null to **All CaC races**. The dedicated source states that the Xenoverse 2 Super Skill can be used by the Future Warrior **regardless of race or gender** and distinguishes this from the separately named emote restriction. This directly matches the canonical CaC skill record. citeturn0search9
