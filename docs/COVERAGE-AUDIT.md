@@ -2359,3 +2359,13 @@ Resolved `ultimate_finish_required: false` for **Paralysis** (PQ34), **Ill Rain*
 - Skills commit: `f849d0c85810ed96d87916d454eee0b0d2a8a361`.
 - No schema or validator changes.
 
+
+
+## 2026-09-19 — basic-reward non-UF batch 19
+
+Resolved `ultimate_finish_required: false` for **Lightning Impact (PQ142), Heroic Assault (PQ156), Shooting Strike (PQ156), Gamma Impact (PQ155), Shield Barrier (PQ153), Sign of Awakening (PQ154), Circle Flash (PQ154), and Thunder Flash (PQ146)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search2
+
+- Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
+- Live nullable Super/Ultimate census after this batch: **88 total — 55 Super / 33 Ultimate**.
+- Skills commit: `83ba610a2469bccbe2ab4da1ce24f6a899661ccd`.
+- No schema or validator changes.
