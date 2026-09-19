@@ -1830,3 +1830,13 @@ Reviewed: **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psy
 - Preserved existing acquisition and mechanics metadata; no character-specific usage was converted into a race restriction.
 - Live census: **283 total / 269 CaC-usable / 92 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Steel Mirage through Blaster Ball race-restriction census
+
+Reviewed: **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, Blaster Ball**.
+
+- Added explicit **All CaC races** scope to all eight. Reviewed evidence establishes CaC/Future Warrior availability and does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing metadata; no character-specific usage was converted into a race restriction. Energy Barrier's existing attack-type uncertainty remains unchanged.
+- Live census: **283 total / 269 CaC-usable / 84 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
