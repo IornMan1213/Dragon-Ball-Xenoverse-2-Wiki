@@ -497,6 +497,6 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ## Parallel Quest provenance pass — PQ61–PQ70 — 2026-09-19
 
 - Completed record-level provenance for **PQ61–PQ70**; all ten records now carry explicit source URLs and a 2026-09-19 verification date.
-- Reconciled the previously conservative unlock metadata against an independent Japanese PQ progression table: PQ61/PQ63 are tied to the Beerus/Wrath of the God of Destruction story arc; PQ62 and PQ64–PQ68 follow the documented PQ chain; PQ69 requires the Beerus-arc progression plus the documented Trunks interaction near the Time Nest; PQ70 is tied to the Resurrection of the Emperor/Golden Frieza story arc. citeturn0search5
-- Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish references. citeturn0search1turn0search0turn0search4
+- Reconciled the previously conservative unlock metadata against an independent Japanese PQ progression table: PQ61/PQ63 are tied to the Beerus/Wrath of the God of Destruction story arc; PQ62 and PQ64–PQ68 follow the documented PQ chain; PQ69 requires the Beerus-arc progression plus the documented Trunks interaction near the Time Nest; PQ70 is tied to the Resurrection of the Emperor/Golden Frieza story arc.
+- Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish references.
 - Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 56 records still lacking individual `sources` arrays**.
