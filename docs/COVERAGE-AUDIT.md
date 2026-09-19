@@ -2300,3 +2300,10 @@ Live nullable Super/Ultimate census: **158** total — 119 Super and 39 Ultimate
 Resolved `ultimate_finish_required: false` for **Burst Kamehameha** (PQ72) and **Big Bang Knuckle** (PQ172). Current PQ documentation explicitly places Burst Kamehameha and Big Bang Knuckle in their respective Basic Reward lists, so these acquisitions are not contingent on the Ultimate Finish reward section. citeturn1search13turn1search4
 
 Live nullable Super/Ultimate census: **156** total — 117 Super and 39 Ultimate.
+
+
+## 2026-09-19 — basic-reward PQ batch 10
+
+Resolved `ultimate_finish_required: false` for **Heat Wave** (PQ174), **God Punisher** (PQ132), **Emperor's Cannon** (PQ183), **Photon Swipe** (PQ139), **Final Flash (SS3 DAIMA)** (PQ181), and **Super Kamehameha (SS4 DAIMA)** (PQ181). The current PQ guide explicitly places these skills in Basic Reward lists, separate from Ultimate Finish conditions. citeturn0search0turn0search1
+
+Live nullable Super/Ultimate census: **139** total — 104 Super and 35 Ultimate.
