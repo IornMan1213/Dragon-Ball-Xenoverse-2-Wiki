@@ -1,3 +1,7 @@
+## September 2026 — Awoken mechanics batch 44
+- Synchronized current stage/resource mechanics across the canonical Awoken records from the consolidated research table and individual references.
+- Added explicit resource, attack/defense, stamina/Ki drain, moveset, and transformation-specific mechanics without turning community build opinions into factual claims.
+
 ## September 2026 — Power to Overcome mechanics batch 43
 - Enriched The Power to Overcome with current testing evidence for Stage 1 defense/speed, low-health recovery, unblockable sword strike, and Stage 2 damage/Ki behavior.
 - Preserved conflicting Stage 2 speed/cooldown and exact regeneration values rather than choosing an unsupported number.
