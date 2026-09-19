@@ -2241,3 +2241,8 @@ Resolved `ultimate_finish_required` to `false` for **Super Spirit Bomb**, **Supe
 ## 2026-09-19 — Explicit non-UF acquisition batch 5
 
 Resolved `ultimate_finish_required` to `false` for **Afterimage**, **Energy Charge**, **Full Power Charge**, **Maximum Charge**, **Data Input**, and **Darkness Rush (Melee)**. Their documented acquisition routes are starting/Advancement Test, Expert Mission, or mentor training and therefore do not depend on a Parallel Quest Ultimate Finish.
+
+
+## 2026-09-19 — Character-exclusive non-UF acquisition batch 6
+
+Resolved `ultimate_finish_required` to `false` for **Final Flash (Super)**, **Energy Release**, **Final Charge**, **Instant Charge**, **Rising Rage**, **Time Bullet**, and **Dragon Thunder**. Existing records explicitly identify these as character-exclusive/non-CaC skills, so their acquisition does not depend on a Parallel Quest Ultimate Finish. Ambiguous character-skill/PQ-context records were left unchanged.
