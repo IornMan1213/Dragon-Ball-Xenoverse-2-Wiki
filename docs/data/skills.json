@@ -5071,9 +5071,9 @@
       "source_quest_or_shop": "Parallel Quest 46",
       "ultimate_finish_required": null,
       "skill_description": "Chain Destructo-Disc Barrage is a Ultimate Ki Blast skill associated with Krillin.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5095,9 +5095,9 @@
       "source_quest_or_shop": "PQ184",
       "ultimate_finish_required": true,
       "skill_description": "Chaotic Time Impact is a Ki Blast Ultimate Attack used by Golden Frieza (Ultra Supervillain).",
-      "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest and its reward data marks the skill as an Ultimate Finish reward.",
+      "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest and its reward data marks the skill as an Ultimate Finish reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_explicit_cac_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
@@ -5121,9 +5121,9 @@
       "source_quest_or_shop": "PQ154",
       "ultimate_finish_required": null,
       "skill_description": "Circle Flash is a Ultimate Ki Blast skill used by Dyspo.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Circle_Flash",
@@ -5147,7 +5147,7 @@
       "skill_description": "Core Breaker is a Ultimate Ki Blast skill used by Gamma 2.",
       "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can randomly obtain it from PQ158; the PQ Ultimate Finish conditions are documented. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
@@ -5172,7 +5172,7 @@
       "unlock_method": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "reconciled_future_warrior_evidence"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -5190,7 +5190,7 @@
       "skill_description": "Destruction's Concerto: Meteor is a Ultimate Ki Blast skill associated with Vados.",
       "mechanics_notes": "Dedicated current-version evidence identifies this as Vados's Ki Blast Super; the Future Warrior can obtain it from PQ106, and Whis can use it through Partner Customization. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5212,10 +5212,10 @@
       "source_quest_or_shop": "Parallel Quest 98",
       "ultimate_finish_required": null,
       "skill_description": "Dimension Ray is a Ultimate Ki Blast skill associated with Janemba.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Dimension_Ray",
@@ -5239,7 +5239,7 @@
       "skill_description": "Divine Ray Bomb is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_future_warrior_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
