@@ -1400,3 +1400,16 @@ Reconciled **Rolling Bullet, Shine Shot, Spirit Blaster, Spirit Bomb, Spirit Pul
 - Shine Shot, Spirit Blaster, Spirit Pulse, Super Donut Volley, and Super Ghost Buu Attack remain CaC-usable without an explicitly established narrower race/gender/form restriction.
 - No race restriction was inferred from character ownership or PQ source alone.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Vanishing Ball through Burst Charge
+
+Reconciled **Vanishing Ball, Variable Snipe Shot, Victory Cannon, Wild Buster, Afterimage, Afterimage Strike, Assault Vanish, and Burst Charge**.
+
+- **Vanishing Ball** retains its explicit **Majin (Pure Majin form)** restriction.
+- **Victory Cannon** retains its corrected **Ki Blast Evasive / 300 Stamina** classification; its stale Super description was corrected.
+- Wild Buster retains its 100-Ki Ki Blast Super identity for Vegeta (GT); bounded drop/mechanics language remains intact.
+- Afterimage, Afterimage Strike, Assault Vanish, and Burst Charge retain explicit **All CaC races** scope.
+- Variable Snipe Shot remains CaC-usable without an explicitly established narrower race/gender/form restriction.
+- No race restriction was inferred from character ownership or PQ source alone.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
