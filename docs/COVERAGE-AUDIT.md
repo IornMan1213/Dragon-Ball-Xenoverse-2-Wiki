@@ -1244,3 +1244,17 @@ Reconciled Surging Spirit, Time Bullet, Time Control, Ultimate Charge, Wall of D
 - Charge confirmed as 100-Ki Goku/PQ83 Power Up Super.
 - Data Input confirmed as 100-Ki Expert Mission 20 auto-dodge skill, all CaC races.
 - Divinity Unleashed corrected to 100 Ki and documented as the 100-Ki threshold charge/buff skill from PQ110.
+
+
+## 2026-09-19 — Do or Die through Meditation cohort
+
+Reconciled Do or Die, Fighting Pose E, Fighting Pose H, Fighting Pose K, Formation!, Indomitable, Justice Pose, and Meditation.
+
+- Do or Die confirmed as 100-Ki/PQ49 with 10% damage reduction for 20 seconds.
+- Fighting Pose E attribution corrected to Recoome; 0 Ki/PQ19, Basic Attack boost for 20 seconds.
+- Fighting Pose H attribution corrected to Guldo; 0 Ki/PQ61, damage reduction for 20 seconds.
+- Fighting Pose K confirmed as Recoome's 0-Ki Skill Shop Super Armor pose, 8-second duration.
+- Formation! confirmed as Ribrianne's 100-Ki PQ133 Ultimate Finish skill with three documented duration levels.
+- Indomitable retained as 0-Ki Future Saga Chapter 4 skill with health-sensitive Ki/Stamina charging; exact thresholds remain partially verified.
+- Justice Pose confirmed as 0-Ki/PQ53 all-stat buff for 20 seconds.
+- Meditation confirmed as 0-Ki/PQ122 maximum-Ki/auto-recovery buff with current 20-second duration; stacking interactions remain version-sensitive.
