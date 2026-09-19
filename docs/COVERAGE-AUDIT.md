@@ -2567,3 +2567,16 @@ Resolved the nullable `ultimate_finish_required` field across all **17 Evasive**
 
 Key evidence includes the maintained 186-PQ reward guide, which explicitly places Spirit Slash, Mach Dash, Instant Rise, Force Shield, Ki Explosion, Mighty Explosive Wave, Dragon Burn, Maiden Burst, Absolute Zero, Celestial Wave, and related skills in Basic Reward sections, plus current skill pages documenting their PQ unlock identities. The maintained guide also supports the explicit PQ32 Energy Barrier reward context, while current Dragon Ball Wiki evidence specifies the UF condition for the Future Warrior drop.
 
+## 2026-09-19 — Awoken Ultimate Finish gate pass
+
+Completed the remaining nullable `ultimate_finish_required` census for all **16 Awoken** records.
+
+- **true:** Kaioken. Current evidence explicitly states it is obtained by completing the Ultimate Finish of Parallel Quest 8, *Invade Earth*. citeturn0search10turn0search1
+- **false:** Become Giant, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Vegeta, The Power to Overcome, Turn Golden, Beast, Potential Unleashed, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Ultra Instinct. Their acquisition evidence points to Time Rift/mentor/story/wish/Advancement Test/DLC/challenge or character-only routes rather than an Ultimate Finish requirement. citeturn0search0turn0search1turn0search4turn0search8turn0search9
+- Potential Unleashed is specifically documented as requiring Z-ranks on the Advancement Tests, not a PQ Ultimate Finish. citeturn0search9
+- The broader Awoken reference confirms the CaC/character-only split and identifies Kaioken, Potential Unleashed, Beast and Ultra Instinct as shared CaC transformations while Pure Progress and Supersonic Mode are character-exclusive. citeturn0search8turn0search4
+
+Live nullable `ultimate_finish_required` census after this pass: **0 across all 283 skill records**.
+
+No schema or validator changes were made. The field is now fully populated for the current skill dataset; future additions should preserve evidence-backed provenance rather than defaulting to false.
+
