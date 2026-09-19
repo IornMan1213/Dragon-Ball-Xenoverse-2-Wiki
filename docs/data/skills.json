@@ -42,7 +42,7 @@
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
-      "mechanics_notes": " Current research references a 300 Ki activation threshold; the form uses a distinct moveset and drains Stamina over time.",
+      "mechanics_notes": "300 Ki; replaces the moveset, grants hyper armor, continuously drains about 20 Stamina/sec, and prevents Ultimate/Evasive use while active.",
       "last_verified": "2026-09-19",
       "notes": "Namekian CaC-only Awoken Skill. Requires 300 Ki; has a continuous Stamina drain and no Ultimate/Evasive slot while active.",
       "unlock_method": "Complete the Namekian Awakening quest at Guru's House as a Namekian CaC."
@@ -65,7 +65,8 @@
       "ultimate_finish_required": false,
       "notes": "Saiyan CaC-only Awoken Skill. Current references identify it as the Saiyan transformation route; it is not a cast-exclusive form.",
       "unlock_method": "Vegeta's Capsule Corporation Time Rift; complete the required Super Saiyan/Super Vegeta progression and obtain the skill from Vegeta.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation."
     },
     {
       "name": "Power Pole Pro",
@@ -82,7 +83,7 @@
       ],
       "ultimate_finish_required": null,
       "ki_cost": 0,
-      "mechanics_notes": " Current research documents Power Pole Pro as a 0 Ki activation cost; the transformation uses the Nimbus/Power Pole moveset.",
+      "mechanics_notes": "0 Ki; Nimbus/Power Pole moveset with super armor; transformation ends on hitstun or grab.",
       "last_verified": "2026-09-19",
       "notes": "Earthling CaC-only Awoken Skill. Requires 0 Ki; summons Nimbus/Power Pole, changes the basic moveset, and ends when hitstun or a grab connects.",
       "unlock_method": "At level 35 or higher, complete the Great Saiyaman questline at Hercule's House Time Rift and clear the final unlock mission."
@@ -102,7 +103,7 @@
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
-      "mechanics_notes": " Current research references a 300 Ki activation threshold; transformation changes the moveset and affects stamina recovery.",
+      "mechanics_notes": "300 Ki; +20% Strike/+15% Blast, -20% Strike Defense, halts Stamina recovery and replaces the user's moveset.",
       "last_verified": "2026-09-19",
       "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.",
       "unlock_method": "Progress the Majin Buu's House Time Rift until Buu has the required family members, then complete the associated Purification unlock fight as a Majin CaC."
@@ -122,7 +123,7 @@
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
-      "mechanics_notes": " Stage activation thresholds: Super Saiyan 300 Ki, Super Saiyan 2 400 Ki, Super Saiyan 3 500 Ki.",
+      "mechanics_notes": "Stages use 300/400/500 Ki. Current consolidated table reports SS1 +10% Strike/+5% Blast, SS2 +15%/+7.5%, SS3 +20%/+10%; defense bonuses rise by stage while Ki regeneration becomes increasingly restricted.",
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3.",
       "unlock_method": "Complete the Saiyan Awakening progression at Capsule Corporation and train with Vegeta; the resulting Awoken Skill provides Super Saiyan stages 1–3."
@@ -142,7 +143,7 @@
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
-      "mechanics_notes": " Current research references a 300 Ki activation threshold; the form does not consume the activation Ki.",
+      "mechanics_notes": "300 Ki; current consolidated table reports no direct Strike/Blast skill modifier but +60% Basic Attack, +50% Ki recovery, and +12.5% movement speed. This distinction is important: the major attack boost is Basic Attack rather than Super/Ultimate damage.",
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus.",
       "unlock_method": "Use the Shenron wish for Super Saiyan God after maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan; Beerus then provides the skill."
@@ -166,7 +167,8 @@
       "notes": "Saiyan CaC-only Awoken Skill. Whis can award it to any race that meets the friendship/level requirement, but only Saiyan CaCs can equip/use it.",
       "unlock_method": "Reach level 90 and max friendship with Whis; Whis awards the skill.",
       "ki_cost": 500,
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "500 Ki; +25% Strike/+25% Blast, +5% Strike/+5% Blast Defense; drains 10 Ki/sec while active."
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -187,7 +189,8 @@
       "notes": "Saiyan CaC-only Awoken Skill. The form is gated behind SSGSS; Whis can award it to any race that meets the requirement, but only Saiyan CaCs can equip/use it.",
       "unlock_method": "Reach level 95, max friendship with Vegeta, and already possess Super Saiyan God Super Saiyan; Whis awards the skill.",
       "ki_cost": 500,
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active."
     },
     {
       "name": "Super Vegeta",
@@ -204,7 +207,7 @@
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
-      "mechanics_notes": " Stage activation thresholds: Super Vegeta 300 Ki and Super Vegeta 2 400 Ki.",
+      "mechanics_notes": "Stages use 300/400 Ki. Current consolidated table reports SV1 +5% Strike/+10% Blast and SV2 +7.5%/+17.5%, with increasing Blast-defense bonuses.",
       "last_verified": "2026-09-19",
       "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2.",
       "unlock_method": "Complete the Vegeta training progression at the Capsule Corporation Time Rift as a Saiyan CaC."
@@ -252,7 +255,7 @@
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
-      "mechanics_notes": " Current research references a 300 Ki activation threshold; stamina drains while transformed.",
+      "mechanics_notes": "300 Ki; +30% Blast, -5% Blast Defense, +20% movement speed; Stamina drains while active.",
       "last_verified": "2026-09-19",
       "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki.",
       "unlock_method": "Complete the Frieza's Spaceship Time Rift progression and its Frieza/Meta-Cooler recruitment battles as a Frieza Race CaC."
@@ -272,7 +275,7 @@
       "source_quest_or_shop": "Beast unlock chain",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill with high offensive output and defensive trade-offs.",
-      "mechanics_notes": "High-offense transformation with defensive trade-offs and enhanced combat properties.",
+      "mechanics_notes": "500 Ki consumed on transformation; +30% Strike and Blast, -20% Strike and Blast Defense, +20% Ki restoration.",
       "verification_status": "verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-19",
@@ -298,7 +301,7 @@
       "source_quest_or_shop": "Parallel Quest reward route",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill with Kaioken, Kaioken x3, and Kaioken x20 stages.",
-      "mechanics_notes": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power. Stage activation thresholds: Kaioken 100 Ki, Kaioken x3 300 Ki, Kaioken x20 500 Ki.",
+      "mechanics_notes": "Stages: 100 Ki (+2.5% Strike/Blast; 3.5 Stamina/sec), 300 Ki (+7.5%; -10% Strike Defense/+10% Blast Defense; 7.5 Stamina/sec; reduced Z-Vanish cost), 500 Ki (+15%; -30% both defenses; 33 Stamina/sec; Z-Vanish costs 0). Drain accelerates at higher stages.",
       "verification_status": "verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-19",
@@ -325,7 +328,7 @@
       "source_quest_or_shop": "Final Advancement Test",
       "ultimate_finish_required": null,
       "skill_description": "Universal balanced CaC Awoken Skill with broad offensive and defensive benefits.",
-      "mechanics_notes": "Universal transformation with broad offensive and defensive benefits.",
+      "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values.",
       "verification_status": "verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-19",
@@ -370,7 +373,8 @@
       "unlock_method": "Obtained as the second stage of the Super Saiyan Awoken Skill after completing Saiyan Awakening at Capsule Corporation.",
       "ki_cost": 400,
       "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table."
     },
     {
       "name": "Super Saiyan Blue Kaioken",
@@ -423,7 +427,7 @@
       "source_quest_or_shop": "Ultra Instinct unlock route",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill centered on automatic evasion and counterplay.",
-      "mechanics_notes": "Centers on automatic evasion and counterplay instead of a conventional flat damage multiplier.",
+      "mechanics_notes": "500 Ki required but not consumed after Update 1.22.00; no attack/defense/speed modifiers. Auto-dodge consumes 100 Stamina, successful dodge can be followed by a 100 Ki counter; guarding + Heavy Attack provides a built-in charge action; normal/charged Ki Blasts are replaced.",
       "verification_status": "verified",
       "research_status": "partially_enriched",
       "last_verified": "2026-09-19",
