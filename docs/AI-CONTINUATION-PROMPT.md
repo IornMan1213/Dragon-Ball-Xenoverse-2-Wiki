@@ -474,3 +474,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Commits: 868ce79a2f30f76f405ab2330a1e905a81489f0e (research batch), 355a4276df4cd65b9bf1d943920db1ab4b811ce9 (canonical layer), a62eef930190807741b9729c89a67b83d882cd3e (database), 709419be50351186f125a4d7c03a18db254595c1 (coverage), ec234d52ca0b8c6e41b55fab2d2eb2f7b3f9b1a4 (changelog).
 - Next task: continue Super Soul expansion beyond 38, prioritizing additional raid/event families and DLC-specific rewards; simultaneously audit the existing PQ cross-link layer for Super Souls that are named but not yet promoted into canonical records.
 - Preserve conflicts, do not infer drop rates/recurrence schedules, and do not claim CI success without exposed workflow-run evidence.
+
+
+### 2026-09-19 cycle update — Raid Super Soul candidate batch 06
+- Continued the Super Soul expansion by auditing the broader raid-exclusive catalogue rather than forcing an Expert Mission family that current evidence does not establish.
+- Indexed records **044–047**: “Let's see you handle THIS kind of power!”, “Your time in this fight ends now!”, “Kind of human-like, don't you think?”, and “Kicking a Shadow Dragon in the head is not a wise thing to do!”.
+- Added research batch `docs/data/super-souls-research-batch-06.json`. All four are explicitly **partially verified** because acquisition-family evidence is stronger than the currently reconciled item-level mechanic evidence.
+- Canonical indexed Super Soul population is now **42 records**.
+- Commits: `cbee59a0e5efd86dc07a95e654a1a0274a426b87` (research), `9ee20d52e9483b2986d94c38ca254bb807fdcd9d` (canonical), `4a5f0bb609a53428189449a0b5258f1c6690d77e` (database), `df87d99e5d806a0bc05d61aefeb69066faec66f9` (coverage), `bdfb0d97768e113f2bf58271465e2852b1aea738` (changelog).
+- Next task: reconcile 044–047 against item-level effect evidence, then continue the raid/DLC Super Soul census. Do not infer drop rates, recurrence schedules, or numeric values from categorical labels.
