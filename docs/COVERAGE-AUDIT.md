@@ -2025,3 +2025,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated both records without inventing a quest/drop route.
 - Result: **0/283 skill records missing unlock_method**.
 - Next task: recompute the complete structured-field census and move to the next nonempty/high-value gap, prioritizing Parallel Quest reward/acquisition/version provenance if the skill layer is otherwise complete.
+
+
+## 2026-09-19 — nullable Ki-cost classification pass
+
+- Recomputed the remaining null Ki-cost cohort after unlock-method completion.
+- **Future Super Saiyan** was the one clearly actionable omission: its existing mechanics notes explicitly document a **300 Ki** activation requirement, so `ki_cost` was populated and the verification date refreshed.
+- The remaining null Ki-cost records are not blanket omissions: several are character-only Awokens with no CaC activation cost, while the Evasive cohort primarily uses `stamina_cost`; fields must remain nullable until their applicability semantics are established rather than being filled with guessed zeros.
+- Data commit: `c3dcfefe7380410cd6cdcfa058983c0f0bf24732`.
+- Validator contract inspection confirms the canonical validator checks record/index length, deterministic ordering, required enums, CaC evidence, source URL hygiene, and Awoken counts; the live index remains synchronized at **283 records**.
+- Next task: classify the remaining nullable Ki/Stamina/Damage fields by skill class and applicability, then prioritize the next genuinely missing evidence-backed value or move into the P1 Parallel Quest reward/acquisition/version provenance audit.
