@@ -2922,7 +2922,7 @@
       "skill_description": "Variable Snipe Shot is a Super Ki Blast skill associated with Android 18.",
       "mechanics_notes": "Confirmed as Android 18 (DB Super)'s 100-Ki Ki Blast Super from Future Saga Chapter 1/PQ165. It has multiple input variations, including a charged overhead blast and a back-jump shot.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2943,10 +2943,10 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 54",
       "ultimate_finish_required": null,
-      "skill_description": "Victory Cannon is a Super Ki Blast skill associated with Gotenks.",
+      "skill_description": "Victory Cannon is a Ki Blast Evasive associated with Gotenks.",
       "mechanics_notes": "Corrected to a **Ki Blast Evasive**, 300 Stamina, PQ54. Fires a mouth Ki Wave while recoil propels the user backward.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2969,10 +2969,10 @@
       "source_quest_or_shop": "PQ153",
       "ultimate_finish_required": null,
       "skill_description": "Wild Buster is a Super Ki Blast skill used by Vegeta (GT).",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Vegeta (GT)'s 100-Ki Ki Blast Super from PQ153. Exact drop gating and some numerical mechanics remain bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wild_Buster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2989,7 +2989,7 @@
         "https://dbxv2.fandom.com/wiki/Afterimage"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "unlock_method": "Starting move / initial \"Mixed\" choice",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
@@ -3016,7 +3016,7 @@
       "source_quest_or_shop": "Parallel Quest 81",
       "mechanics_notes": "Confirmed as Other Super from PQ81 and usable by all CaC races. It creates an afterimage while moving and can transition into follow-up attacks.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "race_restriction": "All CaC races"
     },
     {
@@ -3035,7 +3035,7 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "PQ131 — Legendary Finish",
       "dlc_requirement": "Extra Pack 4",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "stamina_cost": 100,
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position."
@@ -3055,7 +3055,7 @@
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": true,
       "source_quest": 134,
