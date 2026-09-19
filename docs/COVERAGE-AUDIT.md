@@ -957,3 +957,8 @@ Reviewed **Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster**. The c
 ## 2026-09-19 — Spirit/Buu provenance boundary
 
 Reviewed **Spirit Pulse, Stone Bullet, Super Donut Volley, and Super Ghost Buu Attack**. Current-version evidence establishes skill identity and user/acquisition context, but the reviewed evidence does not explicitly establish CaC race/gender/form scope. Null `race_restriction` is preserved for all four. Added dedicated current-version provenance URLs for Stone Bullet and Super Ghost Buu Attack and refreshed verification dates for all four. No race inference was made from NPC identity or acquisition method.
+
+
+## 2026-09-19 — Fighting Pose/Burst boundary
+
+Reviewed **Fighting Pose H, Formation!, Indomitable, Taunt, Blazing Attack, Brave Sword Slash, Burning Swan, and Burst Blitz** as the next unresolved CaC-usable null-race cohort. The reviewed current-version evidence did not establish an explicit CaC race/gender/form restriction or unrestricted-all-CaC statement sufficient to change `race_restriction`; all eight remain null. Verification dates were refreshed to 2026-09-19. No race inference was made from character association or acquisition context.
