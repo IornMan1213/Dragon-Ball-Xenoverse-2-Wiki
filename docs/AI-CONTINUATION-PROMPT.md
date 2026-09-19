@@ -1087,3 +1087,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Refreshed all four verification dates to 2026-09-19.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Ray Blast; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Reverse/Spirit provenance boundary
+- Reviewed Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster.
+- Preserved null race restrictions; no explicit current race/gender/form scope was established.
+- Added dedicated current-version provenance URLs for Reverse Shot and Spirit Blaster.
+- Refreshed all four verification dates to 2026-09-19.
+- Fresh dbxv2 Fandom search was blocked by robots.txt; no unsupported inference was made.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Spirit Blaster; inspect canonical ordering before selecting the next batch.
