@@ -5,13 +5,13 @@ title: Exhaustive Coverage Audit
 
 # Exhaustive Coverage Audit
 
-**Audit date:** 2026-09-18
+**Audit date:** 2026-09-19
 
 This audit exists to prevent the project from confusing the existence of a wiki page, index, or seeded catalogue with exhaustive documentation.
 
 ## Current finding
 
-The repository has strong research foundations for several systems, but multiple sections are still **framework-first rather than encyclopedia-complete**. The next phase must therefore prioritize missing records and missing fields, not merely new page polish or raw batch count.
+The repository has strong research foundations for several systems, but multiple sections are still **framework-first rather than encyclopedia-complete**. Unlock-field presence must not be mistaken for exact unlock-route verification: several PQ batches use explicitly bounded wording where sources establish placement/objectives but not the individual trigger. The next phase must therefore prioritize missing records and missing fields, not merely new page polish or raw batch count.
 
 ## Priority matrix
 
@@ -366,3 +366,9 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - **Skill/drop alignment:** all explicitly populated skill-reward arrays through PQ1–PQ180 are aligned with their corresponding skill-drop conditions; PQ181, 182, 183, 185, and 186 intentionally remain unresolved because the exact drop-slot percentages have not yet been established in the maintained evidence. PQ184 is explicitly documented at 50% Ultimate Finish bonus slot.
 - **Sources:** the older PQ batches frequently lack record-level `sources` fields even where their verification notes identify the evidence basis. This is now a separate provenance-enrichment priority rather than silently copying one global source into every record.
 - The next data pass should therefore prioritize **exact unlock-route research for the 72 remaining missing records**, followed by **record-level provenance normalization**, then the remaining Awoken/Transformation audit.
+
+## 2026-09-19 PQ unlock research milestone
+
+- **PQ71–80:** reviewed and normalized; several exact-looking prerequisites were removed where the consulted evidence did not directly establish them. The records now preserve uncertainty rather than presenting inferred sequential unlocks as fact.
+- **PQ81–90:** reviewed against independent PQ objective/UF references. These sources establish the quests and their objectives, but did not establish reliable individual unlock triggers, so the records use bounded uncertainty wording.
+- The numeric unlock-field gap remains **72 records without any explicit `unlock_condition` field**, but that number is **not equivalent to 72 unresolved exact unlock routes**; populated fields must be classified by evidence quality in future work.
