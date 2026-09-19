@@ -1173,3 +1173,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation: `skills.json` fetched and parsed successfully; live census remains 283/270/182. Audit file was re-fetched and checked for ChatGPT/internal citation artifacts; none remain after cleanup. No validators were changed.
 - CI status: combined status for the latest audit-cleanup commit returned no statuses, and the commit-specific workflow-run query returned no runs. This provides no actionable CI result; do not interpret the absence as a passing validator result.
 - Exact next task: **Core Breaker, Destruction's Concerto: Meteor, Dimension Ray, Energy Field, Final Flash (SS3 DAIMA), Final Kamehameha, Full Power Destruction, and Gigantic Breaker**. Recompute the live census first, then research explicit current-version race/gender/form evidence only and preserve nulls where the evidence boundary remains.
+
+
+### 2026-09-19 continuation — classification reconciliation completed
+- Re-researched the queued cohort with current web evidence before editing.
+- Corrected four canonical skill records where earlier field values conflicted with dedicated Xenoverse 2 evidence: **Core Breaker** → Strike Ultimate / 500 Ki; **Destruction's Concerto: Meteor** → Super / Ki Blast / 100–200 Ki; **Energy Field** → Evasive / Ki Blast / 200 Stamina; **Gigantic Breaker** → Super / Ki Blast / 200 Ki.
+- Current evidence explicitly supports Future Warrior acquisition/use for Core Breaker, Destruction's Concerto: Meteor, and Gigantic Breaker; Energy Field's dedicated page identifies its Evasive classification and character users. No unsupported CaC race restriction was inferred.
+- Cleaned provenance URLs after the first reconciliation edit and re-fetched the JSON.
+- Commits: `33fdaaf6acdfb46819eb9fe49d188ff9fecca9b4` (reconciliation), `80a320fe9875ff821c2e154eaaddf0e31d9e420b` (URL normalization), `655d55fe8e807185e3075b1491054266900c6a8c` (coverage audit).
+- Next exact research target: **Final Flash (SS3 DAIMA), Final Kamehameha, Full Power Destruction**, followed by the next unresolved null-race records. Do not infer CaC race scope from a character's preset or from generic Future Warrior technique lists unless the source explicitly establishes that the skill is learnable by the Future Warrior.
