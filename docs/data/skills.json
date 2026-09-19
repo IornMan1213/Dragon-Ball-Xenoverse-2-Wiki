@@ -467,12 +467,12 @@
         "https://dragonball.fandom.com/wiki/Burst_Rush",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 51",
       "ultimate_finish_required": true,
-      "mechanics_notes": "Strike counter Super; brief stance counters an incoming normal attack and follows with a four-hit rush.",
+      "mechanics_notes": "Current evidence confirms Burst Rush as a 100-Ki Strike Super and melee counter from PQ51. The dedicated page identifies Gohan (Adult) and customizable variants; no CaC race/gender/form restriction is established.",
       "last_verified": "2026-09-19",
       "source_quest": 51,
       "usable_by_cac": true,
@@ -489,12 +489,12 @@
         "https://dragonball.fandom.com/wiki/Change_the_Future",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 43 - Change the Future",
       "ultimate_finish_required": null,
-      "mechanics_notes": "Ki Blast counter Super; evades an incoming Ki Blast/skill and retaliates with a close-range energy wave.",
+      "mechanics_notes": "Current evidence confirms Change The Future as a 100-Ki Ki Blast Super counter from PQ43. It counters Ki Blasts/skills; no CaC race/gender/form restriction is established.",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "race_restriction": null,
@@ -510,7 +510,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Counter_Burst"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 75 - \"Room to Spare\"",
       "last_verified": "2026-09-19",
@@ -518,7 +518,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 75 - Room to Spare",
       "race_restriction": null,
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established."
     },
     {
       "name": "Counter Impact",
@@ -530,7 +531,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 153 - \"Seeing Double\"",
       "last_verified": "2026-09-19",
@@ -538,7 +539,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 153 - Seeing Double",
       "race_restriction": null,
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation"
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established."
     },
     {
       "name": "Demon Flash Strike",
@@ -551,11 +553,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 160",
       "ultimate_finish_required": null,
-      "mechanics_notes": "Strike counter Super; enters a melee-counter stance and can use an additional input to move in front of the opponent.",
+      "mechanics_notes": "Current dataset evidence identifies Demon Flash Strike as a 100-Ki Strike Super from PQ160 and a melee counter. No CaC race/gender/form restriction is established.",
       "last_verified": "2026-09-19",
       "source_quest": 160,
       "usable_by_cac": true,
@@ -571,7 +573,7 @@
         "https://dbxv2.fandom.com/wiki/Dimensional_Hole",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward (PQ80)",
       "source_quest": 80,
@@ -580,7 +582,8 @@
       "source_quest_or_shop": "Parallel Quest 80",
       "race_restriction": null,
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Current dataset evidence identifies Dimensional Hole as a Ki Blast Super from PQ80 with 0 Ki recorded. No CaC race/gender/form restriction is established."
     },
     {
       "name": "Flash Fist Crush",
@@ -592,7 +595,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Shenron wish reward",
       "ultimate_finish_required": null,
@@ -600,7 +603,8 @@
       "source_quest_or_shop": "Shenron wish",
       "race_restriction": null,
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established."
     },
     {
       "name": "God Breaker",
@@ -612,7 +616,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ44)",
       "source_quest": 44,
@@ -621,7 +625,8 @@
       "source_quest_or_shop": "Parallel Quest 44",
       "race_restriction": null,
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established."
     },
     {
       "name": "Heroic Counter",
