@@ -2419,3 +2419,13 @@ Resolved `ultimate_finish_required: false` for **Fierce Fist (PQ159), Demonic De
 - Live nullable Super/Ultimate census after this batch: **55 total — 42 Super / 13 Ultimate**.
 - Skills commit: `12c9aec4b079dcc82d0f878585885403f051b62f`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 25
+
+Resolved `ultimate_finish_required: false` for **Justice Drive (PQ168), God of Destruction's Poise (PQ175), Full Power Destruction (PQ177), Dragon Spark (PQ177), Soaring Rush (PQ177), and Burst Blitz (PQ178)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search2
+
+- Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
+- Live nullable Super/Ultimate census after this batch: **49 total — 36 Super / 13 Ultimate**.
+- Skills commit: `6cc6563bc592c585a18344f3bf6a45f5ba60c282`.
+- No schema or validator changes.
