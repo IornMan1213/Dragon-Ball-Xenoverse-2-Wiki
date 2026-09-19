@@ -6544,10 +6544,10 @@
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest 174 - Hyper Special Training reward; exact drop gating requires further reconciliation.",
       "source_quest_or_shop": "Parallel Quest 174",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "skill_description": "Final Rampage is a 500-Ki Strike Ultimate associated with Vegeta (Super Saiyan God) Ultra Supervillain; the repository currently retains All CaC races based on prior Future Warrior evidence.",
       "mechanics_notes": "500 Ki; multi-stage rush/ground-impact sequence. Exact CaC acquisition/drop semantics remain under reconciliation because current public skill-page evidence emphasizes the character user.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
