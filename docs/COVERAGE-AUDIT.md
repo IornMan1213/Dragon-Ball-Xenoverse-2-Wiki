@@ -982,3 +982,8 @@ Reviewed **God of Destruction's Poise, Heroic Assault, Justice Blade, and Justic
 ## 2026-09-19 — Justice/Power boundary
 
 Reviewed **Justice Kick, Lovely Cyclone, Mach Punch, Meteor Blow, Meteor Strike, Neo Wolf Fang Fist, Power Impact, and Powered Shell** as the next unresolved CaC-usable null-race cohort. Current-version evidence confirms skill identity/availability but does not explicitly establish a race/gender/form restriction or unrestricted-all-CaC statement sufficient to change `race_restriction`. All eight remain null. Verification dates were refreshed to 2026-09-19; dedicated dbxv2 Fandom provenance was added for Lovely Cyclone, Power Impact, and Powered Shell where absent.
+
+
+## 2026-09-19 — Recoome/Sonic boundary
+
+Reviewed **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, and Sonic Bomb** as the next unresolved CaC-usable null-race cohort. Current-version evidence confirms skill identity/availability but does not explicitly establish a race/gender/form restriction or unrestricted-all-CaC statement sufficient to change `race_restriction`. All eight remain null. Verification dates were refreshed to 2026-09-19; dedicated dbxv2 Fandom provenance was added for Savory Slicer where absent.
