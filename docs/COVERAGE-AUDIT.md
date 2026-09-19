@@ -483,3 +483,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish/objective tables.
 - Preserved unresolved reward-slot/drop semantics rather than converting documented rewards into unsupported percentages.
 - Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 72 records still lacking individual `sources` arrays**.
+
+
+## Parallel Quest provenance pass — PQ51–PQ60 — 2026-09-19
+
+- Completed record-level provenance for **PQ51–PQ60**; all ten records now carry explicit source URLs and a 2026-09-19 verification date.
+- Independently cross-checked the transition from the 5-star PQs into the 6-star block, including objectives and basic rewards.
+- PQ52's unusual documented unlock behavior (completion of PQ53) is preserved because multiple long-running guide sources report it despite the apparent numbering reversal; it is not silently normalized.
+- PQ54/PQ55 unlock evidence remains attributed to the underlying community report, including the direct report that PQ52 unlocked PQ54 and PQ54 unlocked PQ55.
+- Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 66 records still lacking individual `sources` arrays**.
