@@ -2096,16 +2096,17 @@
       "source_quest_or_shop": "Parallel Quest 114",
       "ultimate_finish_required": null,
       "skill_description": "Evil Blast is a Super Ki Blast skill associated with Dabura.",
-      "mechanics_notes": "Current evidence confirms Evil Blast as a 100-Ki Ki Blast Super from PQ114. Its dedicated documentation should remain the authority for exact drop gating; no unsupported CaC restriction inferred.",
+      "mechanics_notes": "Current evidence confirms Evil Blast as a 100-Ki Ki Blast Super from PQ114. Its dedicated documentation should remain the authority for exact drop gating; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Blast",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Evil Flame",
@@ -2121,9 +2122,9 @@
       "source_quest_or_shop": "Parallel Quest 117",
       "ultimate_finish_required": null,
       "skill_description": "Evil Flame is a Super Ki Blast skill associated with Dabura.",
-      "mechanics_notes": "Current evidence confirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. Its dedicated documentation is retained as the primary mechanics source; no unsupported CaC restriction inferred.",
+      "mechanics_notes": "Current evidence confirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. Its dedicated documentation is retained as the primary mechanics source; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2131,7 +2132,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Evil_Flame"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Final Cannon",
@@ -2147,16 +2149,17 @@
       "source_quest_or_shop": "Parallel Quest 52",
       "ultimate_finish_required": null,
       "skill_description": "Final Cannon is a Super Ki Blast skill associated with Android 16.",
-      "mechanics_notes": "Current evidence confirms Final Cannon as a 100-Ki Ki Blast Super from PQ52. No unsupported CaC race/gender/form restriction inferred.",
+      "mechanics_notes": "Current evidence confirms Final Cannon as a 100-Ki Ki Blast Super from PQ52. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Final_Cannon",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Final_Cannon"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Final Flash (Super)",
@@ -2190,9 +2193,9 @@
       "source_quest_or_shop": "Parallel Quest 138",
       "ultimate_finish_required": null,
       "skill_description": "Flash Chaser is a Super Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred.",
+      "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2200,7 +2203,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Lightning_Arrow"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Galick Gun",
@@ -2235,16 +2239,17 @@
       "source_quest_or_shop": "PQ155",
       "ultimate_finish_required": null,
       "skill_description": "Gamma Blaster is a Super Ki Blast skill used by Gamma 2.",
-      "mechanics_notes": "Current evidence confirms Gamma Blaster as a 100-Ki Ki Blast Super from PQ155. The existing random-PQ acquisition record is retained; no unsupported CaC restriction inferred.",
+      "mechanics_notes": "Current evidence confirms Gamma Blaster as a 100-Ki Ki Blast Super from PQ155. The existing random-PQ acquisition record is retained; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Gamma_Blaster"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Giant Cluster",
@@ -2260,15 +2265,16 @@
       "source_quest_or_shop": "PQ163",
       "ultimate_finish_required": null,
       "skill_description": "Giant Cluster is a Super Ki Blast skill associated with Broly.",
-      "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred.",
+      "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Giant_Cluster",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Gigantic Charge",
@@ -2284,16 +2290,17 @@
       "source_quest_or_shop": "Parallel Quest 128",
       "ultimate_finish_required": null,
       "skill_description": "Gigantic Charge is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
-      "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect.",
+      "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Charge",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "God of Destruction's Plaything",
@@ -2309,14 +2316,15 @@
       "source_quest_or_shop": "PQ175 reward context",
       "ultimate_finish_required": null,
       "skill_description": "God of Destruction's Plaything is a Super Ki Blast skill associated with God of Destruction Belmod.",
-      "mechanics_notes": "Current evidence confirms God of Destruction's Plaything as a Belmod Super from PQ175. The existing 100-Ki record and CaC usability are retained pending stronger dedicated numeric evidence.",
+      "mechanics_notes": "Current evidence confirms God of Destruction's Plaything as a Belmod Super from PQ175. The existing 100-Ki record and CaC usability are retained pending stronger dedicated numeric evidence. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "God Punisher",
