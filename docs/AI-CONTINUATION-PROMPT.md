@@ -1462,3 +1462,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `6a19e7cc0250e5669aeddea165844dcabdb2e83a`.
 - Audit commit: `67d1dd62912fa1b4c259db8b4a2c748522e58087`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Reverse Shot.
+
+
+### 2026-09-19 continuation — Rolling Bullet through Super Ghost Buu Attack
+- Reconciled **Rolling Bullet, Shine Shot, Spirit Blaster, Spirit Bomb, Spirit Pulse, Stone Bullet, Super Donut Volley, and Super Ghost Buu Attack**.
+- Rolling Bullet retains **Ki Blast Evasive** classification; its stale Android 16 description was corrected to match its recorded Android 18 / Great Saiyaman 2 association. Stone Bullet retains corrected **Strike Super** classification and Goten association.
+- Spirit Bomb retains **All CaC races**. The remaining CaC-usable skills have no explicitly established narrower race/gender/form restriction.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `0f663668f0ed8d7dee23cae1560334afd1d16914`.
+- Audit commit: `c9dd40dd7dc231cb55d4d6065d16dbaa86730662`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Super Ghost Buu Attack.
