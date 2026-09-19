@@ -37,7 +37,7 @@ Only one Super Soul can be equipped at a time on a preset. Because copies are sh
 
 The machine-readable source of truth is `docs/data/super-souls-record-layer.json`.
 
-The canonical layer currently contains **38 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
+The canonical layer currently contains **42 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
 
 ### Canonical records
 
@@ -132,3 +132,14 @@ Four more raid-associated records have been reconciled into the canonical layer 
 | 043 | Bye-bye, universe! | Fused Zamasu / Demented Deity | Verified secondary |
 
 The canonical layer retains unresolved numerical damage details for 043 instead of converting community testing into a false exact value.
+
+### Raid-exclusive candidates indexed — 2026-09-19
+
+Records 044–047 have been indexed as **partially verified** raid-exclusive candidates. The acquisition family is supported by raid catalog/community evidence, but their exact item-level mechanics are intentionally not presented as verified yet.
+
+| ID | Super Soul | Acquisition family | Status |
+|---|---|---|---|
+| 044 | Let's see you handle THIS kind of power! | Zamasu's Scheme | Partially verified |
+| 045 | Your time in this fight ends now! | From Dust to Dust / Saibaman | Partially verified |
+| 046 | Kind of human-like, don't you think? | Super 17 | Partially verified |
+| 047 | Kicking a Shadow Dragon in the head is not a wise thing to do! | Heartless Galactic Warrior / Shadow Dragon | Partially verified |
