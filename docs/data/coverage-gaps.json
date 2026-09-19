@@ -1,33 +1,34 @@
 {
-  "schema_version":"1.1",
-  "game":"Dragon Ball Xenoverse 2",
-  "status":"known_gaps",
-  "recently_improved":[
+  "schema_version": "1.1",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "known_gaps",
+  "recently_improved": [
     "Future Saga Chapter 4 official content baseline",
     "Future Saga Chapter 4 character index",
     "Future Saga Chapter 4 system/content counts",
-    "DLC overview counts and official source links"
+    "DLC overview counts and official source links",
+    "Super Soul canonical population expanded from 18 to 26 records; research batch 03 promoted after independent reconciliation"
   ],
-  "critical":[
+  "critical": [
     "Ki Blast Supers complete set reconciliation",
-    "record-level PQ population",
     "record-level character/preset population",
     "Super Soul population",
-    "QQ Bang population"
+    "QQ Bang population",
+    "Super Soul population beyond the first 26 records"
   ],
-  "high":[
+  "high": [
     "33 mentor lesson records",
     "Expert Mission records",
     "equipment records",
     "DLC-to-content relationship resolution",
     "automated cross-reference audit"
   ],
-  "next_priority":{
-    "1":"Populate record-level Parallel Quest data and rewards from the existing batch files into a canonical index.",
-    "2":"Expand Super Soul records and tie acquisition sources to Parallel Quests, mentors, shops, and DLC.",
-    "3":"Expand QQ Bang records and normalize stat/effect fields.",
-    "4":"Reconcile Ki Blast Super records against the skill catalog and source registry.",
-    "5":"Complete mentor lesson and Expert Mission records with sources and reward relationships."
+  "next_priority": {
+    "1": "Expand Super Soul records and tie acquisition sources to Parallel Quests, mentors, shops, raids/events, Expert Missions, and DLC.",
+    "2": "Expand QQ Bang records and normalize stat/effect fields.",
+    "3": "Reconcile Ki Blast Super records against the skill catalog and source registry.",
+    "4": "Complete mentor lesson and Expert Mission records with sources and reward relationships.",
+    "5": "Expand Awoken/Transformation records with exact prerequisites, stage/resource mechanics, and version provenance."
   },
-  "policy":"Known gaps are intentionally visible. The wiki must not claim exhaustive completion while these gaps remain unresolved. Official baselines may establish existence and published counts without implying that individual records are fully verified."
+  "policy": "Known gaps are intentionally visible. The wiki must not claim exhaustive completion while these gaps remain unresolved. Official baselines may establish existence and published counts without implying that individual records are fully verified."
 }
