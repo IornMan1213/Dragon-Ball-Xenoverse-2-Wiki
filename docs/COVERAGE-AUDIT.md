@@ -2314,3 +2314,10 @@ Live nullable Super/Ultimate census: **139** total — 104 Super and 35 Ultimate
 Resolved `ultimate_finish_required: false` for **Dark Inscription** (PQ182), **Supreme Fury** (PQ179), **Force Edge** (PQ180), and **Burning Blast** (PQ180). The Steam PQ guide lists each in the corresponding Basic Reward section. citeturn0search0turn0search3 Chaotic Time Impact (PQ184) was not changed because separate datamined evidence reports it as a UF bonus drop, despite the guide's simplified Basic Reward presentation. citeturn0search4
 
 Live nullable Super/Ultimate census: **135** total — 100 Super and 35 Ultimate.
+
+
+## 2026-09-19 — PQ reward batch 15
+
+Resolved `ultimate_finish_required: false` for **Ray Blast** (PQ125), **Reverse Shot** (PQ123), **Shine Shot** (PQ07), and **Spirit Blaster** (PQ129). The PQ guide explicitly lists each under Basic Reward. citeturn0search0turn0search1 **Handy Canon** (PQ115) remains nullable because acquisition-gating evidence is conflicting and the conservative rule requires preserving null until resolved.
+
+Live nullable Super/Ultimate census: **115** total — 80 Super and 35 Ultimate.
