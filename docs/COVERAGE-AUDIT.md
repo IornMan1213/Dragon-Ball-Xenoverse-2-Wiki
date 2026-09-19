@@ -2497,3 +2497,13 @@ Resolved `ultimate_finish_required: false` for **Vanishing Ball (PQ58), Evil Whi
 - Live nullable Super/Ultimate census after this batch: **19 total — 19 Super / 0 Ultimate**.
 - Skills commit: `dbb35d0fa1e57db2fa51998c53ee72057abdd179`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward Super batch 32
+
+Resolved `ultimate_finish_required: false` for **Crimson Edge (PQ171), Divine Spear (PQ171), and Wild Stinger (PQ172)**. The maintained PQ guide explicitly lists these skills under the respective quests' Basic Reward sections, while each quest's win conditions are separately stated. citeturn0search0turn0search1
+
+- This is explicit reward-section evidence; no UF requirement is inferred from the fact that these are PQ rewards.
+- Live nullable Super/Ultimate census after this batch: **16 total — 16 Super / 0 Ultimate**.
+- Skills commit: `2a01d58e3d927acbd8cfcc84546db36a5fe148de`.
+- No schema or validator changes.
