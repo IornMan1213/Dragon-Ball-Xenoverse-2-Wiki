@@ -799,3 +799,7 @@ Added the Future Warrior technique reference to 25 additional existing CaC-usabl
 ## 2026-09-19 Future Warrior provenance expansion — batch 5
 
 Added the Future Warrior technique reference to 24 additional existing CaC-usable records: **Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, Pendulum Bullet, Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster, Spirit Pulse, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, Dancing Parapara, Spirit Boost, and Time Control**. This is provenance-only. The accessible evidence does not by itself establish unrestricted race access, so `race_restriction` was not changed.
+
+## 2026-09-19 Future Warrior cross-source provenance
+
+Added a second independent Future Warrior reference to 8 existing CaC-usable records: **Mach Dash, Stone Bullet, Hero's Flute, Formation!, Brave Sword Slash, Dimension Ray, God of Destruction's Menace, and Brave Sword Attack**. This is a provenance corroboration pass, not a race-classification pass. The Codex reference explicitly documents the Future Warrior's race-dependent technique cases and also lists these techniques; where it does not state a restriction, the canonical `race_restriction` remains unchanged.
