@@ -1,49 +1,32 @@
 {
   "batch_id": 39,
-  "created": "2026-09-17",
-  "verification_policy": "correction_batch_for_skill_batch_38_after_independent_reverification",
-  "research_scope": "Corrections discovered while independently re-verifying Batch 38. Historical Batch 38 remains unchanged; this batch supersedes only fields directly supported by stronger evidence.",
+  "created": "2026-09-19",
+  "verification_policy": "canonical_deduplication_with_provenance_preservation",
+  "research_scope": "Reconcile duplicate skill records already present in the canonical skills.json layer without deleting research provenance.",
   "verification_audit": {
-    "audited": "2026-09-17",
-    "method": "Compared Batch 38 against current Xenoverse 2 skill references and an independent PQ reward discussion. Conflicting community measurements are not promoted over direct current references.",
-    "source_basis": [
-      "https://dbxv2.fandom.com/wiki/Life_Absorbtion",
-      "https://dbxv2.fandom.com/wiki/Flash_Bomber",
-      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76173007",
-      "https://dbxv2.fandom.com/wiki/Energy_Release",
-      "https://dbxv2.fandom.com/wiki/Towa"
-    ]
+    "audited": "2026-09-19",
+    "method": "Grouped canonical skill records by exact skill name, retained the richest record, merged distinct source URLs and non-empty fields from duplicate records, and preserved historical research batches unchanged.",
+    "before_record_count": 298,
+    "after_record_count": 283,
+    "duplicate_records_removed": 15,
+    "unique_skill_names": 283
   },
-  "corrections": [
-    {
-      "name": "Life Absorption",
-      "class": "Super",
-      "subcategory": "Strike",
-      "mechanics_notes": "The current Xenoverse 2 reference explicitly states that Cell (First Form) drains 10% of the target's life before kicking them away. This replaces Batch 38's unresolved 5%-vs-10% conflict for the canonical value.",
-      "correction_of": {"mechanics_notes": "Two current reference variants disagree on the amount drained: one reports 5% and another 10%. The canonical value is intentionally unresolved until game-data reconciliation."},
-      "correction_fields": ["mechanics_notes"]
-    },
-    {
-      "name": "Flash Bomber",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ultimate_finish_required": true,
-      "unlock_method": "Parallel Quest 95 — Super 17, the Ultimate Android; Ultimate Finish reward",
-      "source_quest_or_shop": "Parallel Quest 95",
-      "mechanics_notes": "Current reference data lists Flash Bomber at 100 Ki and describes its extended barrage after spending additional Ki. An independent Xenoverse 2 acquisition discussion specifically identifies Flash Bomber as the Ultimate Finish reward of PQ95, while distinguishing Drain Field as the non-UF reward. This replaces Batch 38's unresolved reward-slot field.",
-      "correction_of": {"ultimate_finish_required": null, "unlock_method": "Parallel Quest 95 — Super 17, the Ultimate Android", "source_quest_or_shop": "Parallel Quest 95"},
-      "correction_fields": ["ultimate_finish_required", "unlock_method", "source_quest_or_shop", "mechanics_notes"]
-    },
-    {
-      "name": "Energy Release",
-      "class": "Super",
-      "subcategory": "Other",
-      "usable_by_cac": false,
-      "character_source": "Towa",
-      "mechanics_notes": "Independent current references confirm Energy Release is a Towa-exclusive Xenoverse/Xenoverse 2 energy-charging Super; Towa's Xenoverse 2 preset explicitly uses Energy Release. Exact resource cost and CaC acquisition remain unresolved and are not inferred.",
-      "correction_of": {"mechanics_notes": "The current reference classifies Energy Release as an Other Super and describes it as a slow charge comparable to Energy Charge, with Towa charging in place while holding her staff. Exact resource cost and acquisition are not asserted here."},
-      "correction_fields": ["character_source", "mechanics_notes"]
-    }
+  "deduplicated_names": [
+    "Become Giant",
+    "Future Super Saiyan",
+    "Power Pole Pro",
+    "Purification",
+    "Super Saiyan",
+    "Super Saiyan God",
+    "Super Saiyan God Super Saiyan",
+    "Super Saiyan God Super Saiyan (Evolved)",
+    "Super Vegeta",
+    "Turn Golden",
+    "Beast",
+    "Kaioken",
+    "Potential Unleashed",
+    "Ultra Instinct",
+    "Big Bang Knuckle"
   ],
-  "notes": "Batch 38 remains historical and auditable. These corrections should be applied by the canonical builder after Batch 38 so corrected fields replace weaker or unresolved values without deleting the historical research record."
+  "notes": "Canonical data-quality correction only. Duplicate historical research remains intact for auditability; canonical layer now has one record per exact skill name with provenance merged."
 }
