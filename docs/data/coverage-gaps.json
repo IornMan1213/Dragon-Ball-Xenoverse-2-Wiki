@@ -13,7 +13,8 @@
     "Expanded raid/event Super Soul coverage with records 040–043",
     "Indexed four additional raid-exclusive Super Soul candidates (044–047) with acquisition-family provenance",
     "Reconciled raid Super Soul candidates 044–047; three core effects verified and one retained as partially verified.",
-    "Corrected three character-only Awoken classifications in the canonical skill layer (Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode)."
+    "Corrected three character-only Awoken classifications in the canonical skill layer (Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode).",
+    "Verified three previously indexed Saiyan Awoken routes: Future Super Saiyan, Super Saiyan God Super Saiyan, and SSGSS Evolved."
   ],
   "critical": [
     "Ki Blast Supers complete set reconciliation",
@@ -30,7 +31,7 @@
     "automated cross-reference audit"
   ],
   "next_priority": {
-    "1": "Continue Awoken/Transformation coverage audit: reconcile remaining indexed forms for CaC availability, exact unlock routes, resource costs, stages, and version-sensitive mechanics.",
+    "1": "Continue Awoken audit across remaining partially verified race-exclusive and universal forms, resolving unlock routes and exact mechanics.",
     "2": "Expand QQ Bang records and normalize stat/effect fields.",
     "3": "Reconcile Ki Blast Super records against the skill catalog and source registry.",
     "4": "Complete mentor lesson and Expert Mission records with sources and reward relationships.",
