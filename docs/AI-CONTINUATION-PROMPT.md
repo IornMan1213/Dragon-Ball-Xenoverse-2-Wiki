@@ -1339,3 +1339,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important findings: Quick Sleep is Majin-only; Rising Rage remains Restrained Broly-exclusive; Phantom Fist/PQ97, Shield Barrier/PQ153 and Solar Flare/PQ01 are all-CaC; Spirit Boost is 0-Ki; Super Guard is 100-Ki with sustained Ki drain while held.
 - Data commit: `6c4cc5933d37fda61c0b0d87306294b9bbb433d7`; audit commit: `facb21b61b26cdc45364f32b8fb5dc2afcb1f4b1`.
 - Continue from the records immediately following Super Guard in dataset order.
+
+
+### 2026-09-19 continuation — Surging Spirit through Divinity Unleashed
+- Reconciled Surging Spirit, Time Bullet, Time Control, Ultimate Charge, Wall of Defense, Charge, Data Input, and Divinity Unleashed.
+- Important correction: Divinity Unleashed is a 100-Ki activation skill; charging one full bar triggers its temporary increased Ki-gain effect. Time Control is 100 Ki/PQ18 Ultimate Finish; Data Input is 100 Ki/EM20; Ultimate Charge is 0 Ki/PQ134 Ultimate Finish.
+- Data commit: `23164e1e1fde108f0b389f02e2ee4fb3e5f0d8df`; audit commit: `0dd2d31178ff47fc107628aaaed0d501c7e9ff70`.
+- Continue from the records immediately following Divinity Unleashed in dataset order.
