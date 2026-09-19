@@ -735,6 +735,105 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://gamefaqs.gamespot.com/ps5/437193-dragon-ball-xenoverse-2/faqs/74285"
       ]
+    },
+    {
+      "id": "super-soul-032",
+      "name": "This power... It's different from any I've ever had.",
+      "character_source": "Goku (Ultra Instinct -Sign-)",
+      "dlc_requirement": "FUTURE SAGA Chapter 4",
+      "acquisition_type": "Parallel Quest 185 reward inventory (mapping unresolved)",
+      "acquisition_source": "PQ 185",
+      "effect_text": "Below 50% max health, community-tested evidence reports a 20% boost to all abilities; canonical item-level confirmation remains unresolved.",
+      "effect_magnitude": "reported 20%",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
+      ]
+    },
+    {
+      "id": "super-soul-033",
+      "name": "Malice... Existence... Cruelty...",
+      "character_source": "Frieza (Black)",
+      "dlc_requirement": "FUTURE SAGA Chapter 4",
+      "acquisition_type": "Parallel Quest 185 reward inventory (mapping unresolved)",
+      "acquisition_source": "PQ 185",
+      "effect_text": "Community evidence associates the soul with HP regeneration; exact trigger, rate, and duration remain unresolved.",
+      "effect_magnitude": "unresolved",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Only secondary community evidence is currently available.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/"
+      ]
+    },
+    {
+      "id": "super-soul-034",
+      "name": "The final battle begins now.",
+      "character_source": "Gogeta (Super Saiyan 4)",
+      "dlc_requirement": "FUTURE SAGA Chapter 4",
+      "acquisition_type": "Parallel Quest 186 reward inventory (mapping unresolved)",
+      "acquisition_source": "PQ 186",
+      "effect_text": "Effect unresolved; identity and PQ inventory presence are established, but item-level mechanics have not been independently confirmed.",
+      "effect_magnitude": "unresolved",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Do not infer mechanics from the title.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "super-soul-035",
+      "name": "I'll use this power to protect everyone!",
+      "character_source": "Gogeta (Super Saiyan 4)",
+      "dlc_requirement": "FUTURE SAGA Chapter 4",
+      "acquisition_type": "Parallel Quest 186 reward inventory (mapping unresolved)",
+      "acquisition_source": "PQ 186",
+      "effect_text": "Community-tested evidence reports 5000 damage distributed to user/allies/enemies over approximately 30 seconds at battle start, followed by a reported 15% boost to all abilities; canonical item-level confirmation remains unresolved.",
+      "effect_magnitude": "reported 5000 initial damage; reported 15% all-ability boost",
+      "duration": "reported ~30 seconds for initial damage phase; boost duration unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
+      ]
     }
   ],
   "research_notes": [
@@ -745,7 +844,8 @@
     "Community descriptions are evidence, not automatic canonical values.",
     "The current catalogue is an enumeration/research layer, not a claim that every documented Super Soul has been populated.",
     "New records remain partially verified until core identity, acquisition, and important mechanics are reconciled against sufficient independent evidence.",
-    "2026-09-19: promoted Super Soul research batch 03 (IDs 024–031) after duplicate, schema, acquisition, and independent-source reconciliation. Shop rotation details and unresolved drop-rate behavior remain explicitly unclaimed."
+    "2026-09-19: promoted Super Soul research batch 03 (IDs 024–031) after duplicate, schema, acquisition, and independent-source reconciliation. Shop rotation details and unresolved drop-rate behavior remain explicitly unclaimed.",
+    "2026-09-19: indexed and promoted four FUTURE SAGA Chapter 4 Super Souls (032–035) using official DLC identity evidence, PQ inventory evidence, and explicitly attributed community testing. Unresolved item-level mechanics remain marked unresolved; no drop rates or Normal-vs-Ultimate-Finish mapping inferred."
   ],
   "sources": [
     {
