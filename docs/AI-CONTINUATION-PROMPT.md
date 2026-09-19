@@ -2506,3 +2506,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: ac760d67bdf44ef7fa53b98ac401dbe1be8f9ce6.
 - Live nullable Super/Ultimate census: 119 total (84 Super, 35 Ultimate).
 - Next task: continue remaining candidates, prioritizing unambiguous independent acquisition evidence and preserving null on conflicts.
+
+
+### 2026-09-19 continuation — PQ reward batch 15
+- Resolved `ultimate_finish_required=false`: Ray Blast (PQ125), Reverse Shot (PQ123), Shine Shot (PQ07), Spirit Blaster (PQ129).
+- Evidence: current PQ guide explicitly lists each as a Basic Reward. Handy Canon (PQ115) remains nullable because acquisition-gating evidence is conflicting.
+- Skills commit: 77bd6ceab0821fb3a60e965027b597b85952b476.
+- Live nullable Super/Ultimate census: 115 total (80 Super, 35 Ultimate).
+- Next task: continue remaining nullable candidates; resolve only when the acquisition route is explicitly independent of Ultimate Finish.
