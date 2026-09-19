@@ -2689,3 +2689,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `2a01d58e3d927acbd8cfcc84546db36a5fe148de`.
 - Coverage audit commit: `5270f25038db7234db56dae0b4fe177b39780a3f`.
 - Exact next task: continue the remaining nullable Super records with explicit reward-section evidence; preserve `null` for character-exclusive or otherwise unresolved acquisition gates.
+
+
+### 2026-09-19 continuation — basic-reward Super batch 33
+- Resolved **Scissors Paper Rock (PQ65)** and **Variant Drive (PQ123)** as `ultimate_finish_required=false` from explicit Basic Reward placement. citeturn0search0
+- **Meditation** remains nullable because the maintained guide's Basic Reward placement conflicts with multiple community reports claiming UF is required; preserve null until stronger evidence resolves the discrepancy. citeturn0search1turn0search7
+- Live nullable Super/Ultimate census: **14 total — 14 Super / 0 Ultimate**.
+- Skills commit: `f9c36077153b37c5a9bb7dc9e5f2a28b07a10ee7`.
+- Coverage audit commit: `e38205959b95981f5d7e6500bba8595982b19630`.
+- Exact next task: continue the remaining nullable Super records, prioritizing explicit reward-section evidence and resolving source conflicts rather than forcing a boolean.
