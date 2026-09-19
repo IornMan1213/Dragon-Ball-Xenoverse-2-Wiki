@@ -82,7 +82,7 @@ Known completed frontier:
 - PQ161–186: later-batch reward/unlock semantics enriched; exact unknown percentages remain unresolved rather than fabricated.
 - PQ184 Chaotic Time Impact: documented as a 50% Ultimate Finish bonus-slot drop.
 
-**Next exact PQ task: PQ111–120.**
+**Next exact PQ task: PQ121–130.**
 First recompute the live unlock census instead of trusting historical counts.
 
 ### P1 — Awoken / Transformations
@@ -127,7 +127,7 @@ Only after data-completeness work, expose the improved structured research surfa
 
 ### Next exact action
 1. Recompute the live PQ unlock census.
-2. Research **PQ111–120** individually.
+2. Research **PQ121–130** individually.
 3. Prioritize DLC ownership, PQ-board availability, NPC/story/progression gates, and prerequisite-PQ evidence.
 4. Do not manufacture sequential prerequisites.
 5. Update the relevant batch with record-level sources.
@@ -157,6 +157,20 @@ Only after data-completeness work, expose the improved structured research surfa
 - `docs/data/equipment-accessories-record-layer.json`
 - `.github/workflows/`
 - `scripts/`
+
+
+### 2026-09-19 cycle update — PQ111–120
+- Workstream: Parallel Quest unlock-route research.
+- Recomputed all 18 canonical PQ research batches after the prior cycle: **176 records total; 34 records remain without an explicit unlock_condition field**.
+- Remaining missing unlock records are PQ36, PQ53–55, PQ121–140, and PQ151–160. This live census supersedes stale historical counts.
+- Researched PQ111–120 individually. Current evidence maps PQ111–112 to Super Pack 4, PQ113–117 to Extra Pack 1, and PQ118–120 to Extra Pack 2.
+- Recorded the conservative DLC-era unlock route for all ten as owning the relevant DLC pack and having the Parallel Quest board open. No sequential prerequisite was invented.
+- Added record-level sources to all ten records: Madreag individual quest pages, the maintained Steam all-PQ guide, the Steam DLC-to-PQ mapping discussion, and the DLC reference.
+- Updated `docs/data/parallel-quest-research-batches/pq-batch-12.json` and `docs/COVERAGE-AUDIT.md`.
+- Commits: `05ec68d4b802c512f0140b46bbc09aa9cd165f89` (PQ111–120 research), `8042276049a7d9751e9e6433f1332b463dcc8b5c` (audit refresh), `4537caba8a2fd4304f366c5ca3a7eeb823f7f34` (live census correction).
+- Validation: all 18 batch files were fetched and parsed successfully; total record count remains 176 and the live missing-unlock count is 34.
+- CI status: the connector returned no pull-request workflow runs for the latest audit commit; prior push-triggered audit/quality/cleanup failures exposed zero steps/logs. Validators were not weakened. Continue treating opaque pre-step failures as infrastructure/account signals until actionable logs exist.
+- Next exact task: **PQ121–130**; repeat the live census first and continue treating DLC ownership/version provenance as first-class evidence.
 
 ### 2026-09-19 cycle update — PQ101–110
 - Workstream: Parallel Quest unlock-route research.
