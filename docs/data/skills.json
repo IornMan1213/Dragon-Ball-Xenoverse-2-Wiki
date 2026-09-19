@@ -220,18 +220,20 @@
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Awoken",
-      "unlock_method": "Future Saga Chapter 4 story/final progression",
-      "source_quest_or_shop": "Future Saga Chapter 4",
+      "unlock_method": "Own Future Saga Chapter 4 and complete the Chapter 4 story through Quest 31, Ultimate All-Out Showdown.",
+      "source_quest_or_shop": "Future Saga Chapter 4 — Quest 31, Ultimate All-Out Showdown",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill with an initial state and a stronger unleashed second stage.",
-      "mechanics_notes": "2026 testing sources document a second-stage state with very high or effectively infinite Ki availability, health consumption, and a cooldown; exact numerical modifiers remain version-sensitive.",
+      "mechanics_notes": "Two-stage Awoken. Stage 1 provides defensive/speed benefits; reactivating enters the stronger Unleashed/Overdrive state, which grants effectively/infinite Ki availability for a limited duration while consuming Health and later reverting. Current 2026 community testing conflicts on exact Stage 1 defense/speed numbers and exact Stage 2 speed/damage values, so those numeric modifiers remain intentionally unresolved.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "mechanics_reconciled_core_verified",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/"
-      ]
+      ],
+      "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Exact numeric stage modifiers remain partially verified because current sources disagree; do not collapse the conflict into a single value."
     },
     {
       "name": "Turn Golden",
@@ -356,11 +358,17 @@
       "subcategory": "Transformation",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74469364"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "unlock_method": "Obtained as the second stage of the Super Saiyan Awoken Skill after completing Saiyan Awakening at Capsule Corporation.",
+      "ki_cost": 400,
+      "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super Saiyan Blue Kaioken",
