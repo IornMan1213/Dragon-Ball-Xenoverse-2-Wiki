@@ -2460,3 +2460,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No data changes made; the fields remain `null` under the evidence threshold.
 - Current nullable Super/Ultimate count remains **158**.
 - Next task: continue with the remaining records, prioritizing dedicated acquisition guides/datamined reward tables that identify ordinary versus Ultimate Finish reward slots.
+
+
+### 2026-09-19 continuation — second PQ candidate audit
+- Reviewed Atomic Blast (PQ87), Big Bang Knuckle (PQ172), Blaster Ball (PQ125), Breaker Energy Wave (PQ101), Burning Attack (PQ41), Buu Buu Ball (PQ88), Candy Beam (PQ66), Candy Beam (Super) (PQ113), and Crazy Finger Shot (PQ26).
+- Repository searches found no explicit skill-level Ultimate Finish gate for these candidates. Existing provenance identifies the PQ/reward source but does not establish whether the drop is ordinary or UF-gated.
+- No data changes made; candidates remain `null` rather than inferring from generic PQ reward listings.
+- Nullable Super/Ultimate count remains **158**.
+- Next task: continue toward candidates with explicit reward-slot or dedicated acquisition evidence.
