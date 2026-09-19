@@ -736,3 +736,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `dc4fc4234876c747429e81a73cf8be8be4c946e6`.
 - Coverage commit: `2f3f95939e96e990b1da81ea76b91988e3aaaf79`.
 - Continue the census with explicit race/gender/form-exclusive evidence; unresolved records remain untouched until evidence clears the threshold.
+
+
+### 2026-09-19 cycle update — explicit restriction batch
+- Reconciled **Zigzag Express → Majin male** and **Namek Finger → Namekian** using explicit Future Warrior restrictions. citeturn0search0turn0search3
+- Skills commit: `8425c7ed5804608fdbd38df7668d9495e94642a8`.
+- Coverage commit: `f594df1729fe0bbc4e95f7b8ecb46e552939720d`.
+- Continue the race census with the same strict evidence threshold, prioritizing explicit Future Warrior race/gender wording.
