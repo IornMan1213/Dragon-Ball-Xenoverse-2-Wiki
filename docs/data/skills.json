@@ -2037,9 +2037,9 @@
       "source_quest_or_shop": "PQ163",
       "ultimate_finish_required": null,
       "skill_description": "Eraser Bomb is a Super Ki Blast skill associated with Broly.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2061,9 +2061,9 @@
       "source_quest_or_shop": "Parallel Quest 114",
       "ultimate_finish_required": null,
       "skill_description": "Evil Blast is a Super Ki Blast skill associated with Dabura.",
-      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Evil Blast as a 100-Ki Ki Blast Super from PQ114. Its dedicated documentation should remain the authority for exact drop gating; no unsupported CaC restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2086,9 +2086,9 @@
       "source_quest_or_shop": "Parallel Quest 117",
       "ultimate_finish_required": null,
       "skill_description": "Evil Flame is a Super Ki Blast skill associated with Dabura.",
-      "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. Its dedicated documentation is retained as the primary mechanics source; no unsupported CaC restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2112,9 +2112,9 @@
       "source_quest_or_shop": "Parallel Quest 52",
       "ultimate_finish_required": null,
       "skill_description": "Final Cannon is a Super Ki Blast skill associated with Android 16.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Final Cannon as a 100-Ki Ki Blast Super from PQ52. No unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2133,13 +2133,13 @@
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 200,
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "reconciled_current_version_evidence",
       "unlock_method": "Character-exclusive skill; not equippable by CaCs",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "last_verified": "2026-09-19",
       "usable_by_cac": false,
-      "mechanics_notes": "Super-version Final Flash is a character skill rather than a CaC learnable skill."
+      "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained."
     },
     {
       "name": "Flash Chaser",
@@ -2155,9 +2155,9 @@
       "source_quest_or_shop": "Parallel Quest 138",
       "ultimate_finish_required": null,
       "skill_description": "Flash Chaser is a Super Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2182,8 +2182,8 @@
       "source_quest_or_shop": "Vegeta mentor training",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
-      "mechanics_notes": "Chargeable Ki Blast Super; shorter charge time than Kamehameha according to the in-game description.",
-      "research_status": "race_restriction_reconciled",
+      "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
+      "research_status": "reconciled_current_version_evidence",
       "race_restriction": "All CaC races"
     },
     {
@@ -2200,9 +2200,9 @@
       "source_quest_or_shop": "PQ155",
       "ultimate_finish_required": null,
       "skill_description": "Gamma Blaster is a Super Ki Blast skill used by Gamma 2.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Gamma Blaster as a 100-Ki Ki Blast Super from PQ155. The existing random-PQ acquisition record is retained; no unsupported CaC restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
