@@ -2344,3 +2344,17 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved `ultimate_finish_required: false` for 9 Super skills with explicit non-PQ-UF routes: Sudden Death Beam, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance, Namek Finger, Pressure Sign.
 - Evidence used shop, mentor-training, starter, and Double Crystal Raid acquisition routes; generic PQ association was not used as sufficient evidence by itself.
 - Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and audit ambiguous mixed-source skills before another batch.**
+
+
+### 2026-09-19 continuation — explicit non-UF acquisition batch 3
+- Workstream: P1 skill Ultimate-Finish acquisition metadata.
+- Recomputed/inspected the live skill records and targeted only explicit non-UF acquisition routes.
+- Resolved `ultimate_finish_required: false` for **Dragon Fist**, **Godly Display**, and **Darkness Rush (Ranged)**.
+- Evidence basis: Dragon Fist and Godly Display have TP Medal Shop acquisition routes; Darkness Rush (Ranged) is obtained through Lord Slug mentor Lesson 3. These are independent acquisition channels rather than Parallel Quest Ultimate Finish gates.
+- Updated `docs/data/skills.json` and `docs/COVERAGE-AUDIT.md`.
+- Data commit: `3348afeceeab25fefa71501c50925a2068337a71`.
+- Audit commit: `60d4fb8fdbd152f5f573b34bd075406318e37333`.
+- Validation: edited JSON was fetched and parsed successfully before/after the data update; no validator was weakened. CI status must be inspected after the branch changes are committed/merged because the repository's prior Actions failures have often exposed no actionable steps.
+- Evidence limitation: no other nullable Ultimate-Finish field was changed merely because a skill is associated with a PQ. Generic PQ reward wording remains insufficient negative evidence.
+- Current known skill baseline remains 283 records / 269 CaC-usable / 0 CaC-usable with null race restriction; remaining nullable acquisition fields require item-level evidence.
+- Exact next task: **recompute the live Super/Ultimate `ultimate_finish_required` null census after these three updates, identify the next smallest set with explicit shop/mentor/wish/raid or explicit UF-only provenance, then update only those records and the audit.**
