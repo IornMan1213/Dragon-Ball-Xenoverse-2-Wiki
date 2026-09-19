@@ -535,3 +535,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added `docs/data/skill-research-batches/skill-batch-41.json` and updated canonical skills, TODO, coverage gaps, and changelog.
 - External evidence reviewed includes the current Awoken reference, individual transformation records, GameFAQs unlock tables, and the current research corpus. cite references are external only; repository provenance is stored in batch 41.
 - Next exact task: audit the remaining transformation records for version-sensitive mechanics and cast-only/DLC boundaries, then reconcile any still-partial records without inventing unsupported values.
+
+
+### 2026-09-19 cycle update — Transformation stage reconciliation batch 42
+- Reconciled **Super Saiyan 2** as a stage of the Super Saiyan Awoken Skill: Saiyan-only, 400 Ki, not separately equipped.
+- Audited **The Power to Overcome** from Future Saga Chapter 4. Core facts are now documented: universal CaC availability, 500 Ki activation, Chapter 4 DLC requirement, unlock after Quest 31 / Ultimate All-Out Showdown, and two-stage behavior.
+- Exact Power to Overcome numeric stage modifiers remain deliberately unresolved because current 2026 sources conflict on defense, speed, damage, duration, and cooldown values. Do not replace the conflict with a guessed value.
+- Added `docs/data/skill-research-batches/skill-batch-42.json` and updated canonical skills, coverage gaps, TODO, and changelog.
+- Next exact task: continue version-sensitive transformation mechanics and remaining partial Awoken records, prioritizing independent corroboration of exact stage values.
