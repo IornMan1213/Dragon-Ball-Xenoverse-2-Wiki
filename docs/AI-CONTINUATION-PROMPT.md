@@ -1873,3 +1873,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: f924cea6a892b8d1801f16e77ac0da67bf720c3c.
 - Live census: 283 total / 269 CaC-usable / 84 CaC-usable with null race restriction.
 - Exact next task: continue with **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehameha, Burst Stinger, Dark Inscription, Demon Ray, Destruction's Concerto: Comet** after recomputing the live dataset.
+
+
+### 2026-09-19 continuation — Bluff Kamehameha through Destruction's Concerto: Comet
+- Reviewed 8 null-race CaC-usable records: Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehameha, Burst Stinger, Dark Inscription, Demon Ray, Destruction's Concerto: Comet.
+- Added explicit All CaC races scope to all eight; no narrower CaC race/gender/form restriction was established.
+- Data commit: cde788b045ec639ceb95aac39ebd1a1d19b4f3e8.
+- Audit commit: 188435ebcc294f824e54d32be0f7b8cde432e024.
+- Live census: 283 total / 269 CaC-usable / 76 CaC-usable with null race restriction.
+- Exact next task: continue with **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, Eraser Bomb** after recomputing the live dataset.
