@@ -1567,13 +1567,14 @@
       "skill_description": "Candy Beam (Super) is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
       ],
-      "source_quest": 113
+      "source_quest": 113,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Crazy Finger Shot",
@@ -3081,12 +3082,13 @@
       "skill_description": "Kai Kai is a Super Other skill associated with Whis.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Maximum Charge",
@@ -3123,12 +3125,13 @@
       "skill_description": "Petrifying Spit is a Super Other skill associated with Dabura.",
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Phantom Fist",
