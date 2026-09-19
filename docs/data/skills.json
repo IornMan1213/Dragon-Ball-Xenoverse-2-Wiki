@@ -3953,14 +3953,14 @@
         "https://steamcommunity.com/app/454650/discussions/0/2564160288807893705/"
       ],
       "ki_cost": 0,
-      "mechanics_notes": "Confirmed as a 0-Ki PQ122 Power Up Super usable by all CaC races. After activation it raises maximum Ki and provides automatic Ki recovery for about 20 seconds in current versions; its interactions with other reinforcement buffs are version-sensitive.",
+      "mechanics_notes": "Confirmed as a 0-Ki PQ122 Power Up Super usable by all CaC races. After activation it raises maximum Ki and provides automatic Ki recovery for about 20 seconds in current versions; its interactions with other reinforcement buffs are version-sensitive. UF audit 2026-09-19: acquisition evidence identifies Meditation as a random skill drop from Jiren in PQ122 rather than an Ultimate Finish-only reward; community reports conflict, but direct opponent-drop reports support non-UF gating.",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "duration_seconds": 20,
       "unlock_method": "Parallel Quest reward",
       "source_quest": 122,
       "source_quest_or_shop": "Parallel Quest reward",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance retained for research"
