@@ -4,7 +4,7 @@
   "verification_policy": "parallel_quest_audit_with_independent_cross_checks",
   "research_scope": "PQ61-PQ70 base-game Parallel Quest audit. Objective sequences and documented basic rewards are recorded; exact reward-slot/drop percentages remain unresolved unless directly established.",
   "verification_audit": {
-    "audited": "2026-09-17",
+    "audited": "2026-09-19",
     "duplicate_check": {
       "status": "passed",
       "duplicate_count": 0
@@ -14,7 +14,12 @@
       "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
-    ]
+    ],
+    "record_level_source_pass": {
+      "status": "completed",
+      "scope": "PQ61-PQ70",
+      "note": "Added record-level provenance and reconciled unlock conditions against an independent Japanese PQ progression table. This resolves the prior intentionally conservative unlock wording for PQ61-PQ70: PQ61 and PQ63 are tied to the Beerus/Wrath of the God of Destruction story arc; PQ62 and PQ64-PQ68 follow the documented PQ chain; PQ69 additionally requires the documented Trunks interaction near the Time Nest; PQ70 is tied to the Resurrection of the Emperor story arc. Objective and reward data were cross-checked against the maintained 186-PQ transcription and independent objective tables. Exact reward-slot/drop percentages remain unresolved."
+    }
   },
   "records": [
     {
@@ -22,7 +27,7 @@
       "name": "The Cell Games Continued",
       "stars": 5,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete the story arc 'Wrath of the God of Destruction' (Beerus arc).",
       "win_conditions": [
         "Defeat Gohan, Videl, and Piccolo",
         "Defeat Videl and Piccolo before Gohan",
@@ -55,14 +60,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 62,
       "name": "Frieza's Nightmare Returns!",
       "stars": 5,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete PQ 61.",
       "win_conditions": [
         "Defeat Vegito and Gotenks",
         "Defeat Gotenks before Vegito",
@@ -90,14 +102,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 63,
       "name": "Appetite for Destruction",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete the story arc 'Wrath of the God of Destruction' (Beerus arc).",
       "win_conditions": [
         "Defeat Beerus and Whis",
         "Defeat Beerus last",
@@ -126,14 +145,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 64,
       "name": "Beerus the Impulsive",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete PQ 63.",
       "win_conditions": [
         "Defeat all enemies",
         "Clear with at least 8 minutes left",
@@ -161,14 +187,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 65,
       "name": "The New Warriors",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete PQ 64.",
       "win_conditions": [
         "Defeat all enemies",
         "Clear in 8 minutes",
@@ -197,14 +230,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 66,
       "name": "Stop Beerus' Destruction",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete PQ 65.",
       "win_conditions": [
         "Defeat Beerus",
         "Clear without any ally defeated",
@@ -230,14 +270,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 67,
       "name": "Power of a Super Saiyan God",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete PQ 66.",
       "win_conditions": [
         "Defeat Goku",
         "Clear in under 3 minutes",
@@ -263,14 +310,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 68,
       "name": "Old Rivals and Dragon Balls",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete PQ 67.",
       "win_conditions": [
         "Recover 3 Dragon Balls",
         "Clear by defeating Frieza, Cell and Kid Buu",
@@ -297,14 +351,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 69,
       "name": "God of Destruction and His Master",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete the story arc 'Wrath of the God of Destruction' (Beerus arc), then speak with Trunks near the Time Nest.",
       "win_conditions": [
         "Defeat Beerus and Whis",
         "Clear in under 5 minutes",
@@ -332,14 +393,21 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     },
     {
       "number": 70,
       "name": "Things Are Getting Serious!",
       "stars": 7,
       "dlc_requirement": null,
-      "unlock_condition": "Current sources confirm PQ61–70 quest placement/objectives but do not establish reliable individual unlock triggers; preserve that uncertainty rather than inventing sequential prerequisites.",
+      "unlock_condition": "Complete the story arc 'Resurrection of the Emperor' (Golden Frieza arc).",
       "win_conditions": [
         "Defeat all enemies",
         "Clear in 8 minutes",
@@ -367,7 +435,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://enjoi7.sakura.ne.jp/db_newproject2/pq.html"
+      ],
+      "unlock_verification": "verified_against_independent_unlock_table"
     }
   ]
 }
