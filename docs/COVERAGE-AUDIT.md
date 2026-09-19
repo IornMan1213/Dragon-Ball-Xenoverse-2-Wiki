@@ -952,3 +952,8 @@ Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, and Ray Blast** against curr
 ## 2026-09-19 — Reverse/Spirit provenance boundary
 
 Reviewed **Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster**. The current repository sources establish Xenoverse 2 skill identity and acquisition/user context, but the reviewed evidence does not explicitly establish CaC race/gender/form scope. Null `race_restriction` is therefore preserved for all four. Added dedicated current-version provenance URLs for Reverse Shot and Spirit Blaster and refreshed verification dates for all four. A fresh web search for current dbxv2 Fandom pages was blocked by robots.txt, so no unsupported external claim was substituted.
+
+
+## 2026-09-19 — Spirit/Buu provenance boundary
+
+Reviewed **Spirit Pulse, Stone Bullet, Super Donut Volley, and Super Ghost Buu Attack**. Current-version evidence establishes skill identity and user/acquisition context, but the reviewed evidence does not explicitly establish CaC race/gender/form scope. Null `race_restriction` is preserved for all four. Added dedicated current-version provenance URLs for Stone Bullet and Super Ghost Buu Attack and refreshed verification dates for all four. No race inference was made from NPC identity or acquisition method.
