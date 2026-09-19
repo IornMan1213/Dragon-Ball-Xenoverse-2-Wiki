@@ -3747,7 +3747,7 @@
       "name": "Burst Blitz",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Goku (Mini)",
       "dlc_requirement": "Future Saga Chapter 2",
       "ki_cost": 300,
@@ -3759,7 +3759,7 @@
       "skill_description": "Burst Blitz is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
@@ -3904,7 +3904,7 @@
       "name": "Dragon Spark",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Goku (Mini)",
       "dlc_requirement": "Future Saga Chapter 2",
       "ki_cost": 100,
@@ -3916,7 +3916,7 @@
       "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
@@ -4128,7 +4128,7 @@
       "name": "God of Destruction's Poise",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "God of Destruction Belmod",
       "dlc_requirement": "Future Saga Chapter 2",
       "ki_cost": 100,
@@ -4140,7 +4140,7 @@
       "skill_description": "God of Destruction's Poise is a Super Strike skill associated with God of Destruction Belmod.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Poise",
@@ -4602,7 +4602,7 @@
       "name": "Soaring Rush",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Goku (Mini)",
       "dlc_requirement": "Future Saga Chapter 2",
       "ki_cost": 100,
@@ -4614,7 +4614,7 @@
       "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
@@ -4768,7 +4768,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Stream"
       ],
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan)",
       "dlc_requirement": null,
       "ki_cost": 300,
@@ -4776,7 +4776,7 @@
       "source_quest_or_shop": "Parallel Quest 148 — Finding Out About Fusion",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit.",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19"
     },
     {
@@ -5097,7 +5097,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Full_Power_Destruction"
       ],
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "Jiren (Full Power) Ultra Supervillain; Jiren — Customize Partner",
       "dlc_requirement": null,
       "ki_cost": 500,
@@ -5105,7 +5105,7 @@
       "source_quest_or_shop": "Parallel Quest 177 — Warped Sense of Justice",
       "ultimate_finish_required": null,
       "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects.",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19"
     },
     {
