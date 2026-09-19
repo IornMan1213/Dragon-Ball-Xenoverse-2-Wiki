@@ -664,3 +664,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `cbb114e5cef2b499450dc937367d3b95e7a1e202`.
 - Coverage commit: `4db0b54773c7bdf8964ec74d47356436fdc28250`.
 - Next: continue the remaining null-CaC cohort, then resume the explicit race-restriction census.
+
+
+### 2026-09-19 cycle update — Requiem of Destruction
+- Confirmed **Requiem of Destruction** as an explicit Future Warrior/CaC technique. Its technique page identifies Future Warrior as a user and gives New Parallel Quest 104 as the acquisition route. citeturn1search0
+- Skills commit: `6cc97745e9856af45e52d148aa3d40f6f14f7184`.
+- Coverage commit: `2a6a05a09584ebfcd7ef0936015969123ae25d74`.
+- The null-CaC cohort is now **15 records**. Continue explicit-evidence review; do not infer CaC eligibility from a character's equipped moves alone.
