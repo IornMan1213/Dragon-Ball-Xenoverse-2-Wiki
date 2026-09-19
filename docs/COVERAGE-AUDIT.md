@@ -937,3 +937,8 @@ Reviewed **Gamma Blaster, Giant Cluster, Gigantic Charge, and God of Destruction
 ## 2026-09-19 — God/Headshot provenance boundary
 
 Reviewed **God Punisher, Handy Canon, Headshot, and Heat Wave** against current Xenoverse 2 evidence. God Punisher is documented as an SSGSS Gogeta skill, Handy Canon as an Android 13 skill obtainable from PQ 115, Headshot as Beerus's evasive skill, and Heat Wave as SS4 Goku (DAIMA)'s super skill from PQ 179. The reviewed evidence does not explicitly establish a CaC race/gender/form restriction for these records, so null `race_restriction` is preserved. Added dedicated current-version provenance URLs for God Punisher and Handy Canon and refreshed all four verification dates.
+
+
+## 2026-09-19 — status/paralysis provenance boundary
+
+Reviewed **Ill Rain, Paralysis, Paralyze Beam, and Pendulum Bullet** against current Xenoverse 2 evidence. The reviewed records establish current-version skill identity and acquisition/user context, but do not explicitly establish a CaC race/gender/form restriction. Null `race_restriction` is therefore preserved for all four. Added/normalized dedicated current-version provenance URLs for all four and refreshed their verification dates.
