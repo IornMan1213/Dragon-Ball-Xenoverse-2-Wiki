@@ -1942,3 +1942,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `13d7ad53e096831d32771883b3c82dd4b616d239`.
 - Live census: **283 total / 269 CaC-usable / 12 CaC-usable with null race restriction**.
 - Exact next task: recompute the live dataset and continue the next eight records from the current ordered null-race list.
+
+
+### 2026-09-19 continuation — Soaring Rush through Chaotic Time Impact
+- Workstream: P1 skill race-restriction census.
+- Reviewed **Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, Blaster Stream, Burning Blast, Chain Destructo-Disc Barrage, and Chaotic Time Impact**.
+- Added explicit **All CaC races** scope to all eight using current evidence; no narrower CaC race/gender/form restriction was established. Existing unresolved research fields were preserved.
+- Data commit: `ba2aaf3d6443b0f1d93cad8253dad2f4dae77932`.
+- Live census: **283 total / 269 CaC-usable / 4 CaC-usable with null race restriction**.
+- Exact next task: recompute the live dataset and finish the remaining null-race CaC census; do not rely on stale cohort names.
