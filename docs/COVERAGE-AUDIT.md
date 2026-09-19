@@ -1893,3 +1893,15 @@ Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rol
 - No character association was converted into a race restriction, and no unsupported unlock/drop claim was added.
 - Live skill census after this batch: **283 total / 269 CaC-usable / 44 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Spirit Pulse through Dancing Parapara race-restriction census
+
+Reviewed **Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, and Dancing Parapara**.
+
+- Added explicit **All CaC races** scope to all eight records. Current Future Warrior technique-list evidence establishes Future Warrior/CaC usability; the reviewed evidence does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition, classification, cost, and mechanics metadata. Existing corrections remain intact: Stone Bullet is a Strike Super; Victory Cannon is a Ki Blast Evasive with 300 Stamina cost.
+- Added the maintained Future Warrior technique-list source to the eight records as provenance for CaC scope.
+- No character association was converted into a race restriction, and no unsupported unlock/drop claim was added.
+- Live skill census after this batch: **283 total / 269 CaC-usable / 36 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
