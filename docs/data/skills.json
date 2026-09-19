@@ -645,10 +645,10 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 155",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, with no explicit CaC race/gender/form restriction established by the reviewed evidence. Character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
       "name": "Punisher Shield",
@@ -667,10 +667,10 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 129",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current dedicated evidence confirms Punisher Shield as a 100-Ki Ki Blast Super, universal counter, from PQ129. SSGSS Gogeta is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, with no explicit CaC race/gender/form restriction established by the reviewed evidence. Character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Current dedicated evidence confirms Punisher Shield as a 100-Ki Ki Blast Super, universal counter, from PQ129. SSGSS Gogeta is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
       "name": "Reverse Mabakusenko",
@@ -686,11 +686,11 @@
       "ki_cost": 300,
       "unlock_method": "Skill Shop",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current dedicated evidence confirms Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate from the Skill Shop and a universal counter. Current users include Piccolo, Pikkon, Gohan (Beast), and customizable partners; this does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, with no explicit CaC race/gender/form restriction established by the reviewed evidence. Character-specific users are not treated as race restrictions.",
+      "mechanics_notes": "Current dedicated evidence confirms Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate from the Skill Shop and a universal counter. Current users include Piccolo, Pikkon, Gohan (Beast), and customizable partners; this does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game"
     },
     {
@@ -710,10 +710,10 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 119 - Ultimate Finish",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current dedicated evidence confirms Rough Ranger as a 100-Ki Strike Super, universal counter, from PQ119. Android 17 (DB Super) is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, with no explicit CaC race/gender/form restriction established by the reviewed evidence. Character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Current dedicated evidence confirms Rough Ranger as a 100-Ki Strike Super, universal counter, from PQ119. Android 17 (DB Super) is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
       "name": "Shadow Crusher",
@@ -732,9 +732,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, with no explicit CaC race/gender/form restriction established by the reviewed evidence. Character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
       "name": "Sudden Death Beam",
@@ -753,9 +753,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "TP Medal Shop / STP Medal Shop / Double Crystal Raid",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game + later STP/raid distribution",
-      "mechanics_notes": "Current dataset acquisition evidence remains TP Medal Shop / STP Medal Shop / Double Crystal Raid with 100 Ki. Dedicated current-version page access was unavailable in this pass, so the existing acquisition record is retained without inventing additional scope. Reviewed in the current null-race census: available to the Future Warrior/CaC, with no explicit CaC race/gender/form restriction established by the reviewed evidence. Character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Current dataset acquisition evidence remains TP Medal Shop / STP Medal Shop / Double Crystal Raid with 100 Ki. Dedicated current-version page access was unavailable in this pass, so the existing acquisition record is retained without inventing additional scope. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
       "name": "Super Afterimage",
@@ -773,11 +773,11 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop (Conton City)",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
       "research_status": "reconciled_no_race_restriction_evidence",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, with no explicit CaC race/gender/form restriction established by the reviewed evidence. Character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
       "name": "Super God Shock Flash",
@@ -796,9 +796,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super and melee counter obtained from the Skill Shop. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, with no explicit CaC race/gender/form restriction established by the reviewed evidence. Character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super and melee counter obtained from the Skill Shop. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
       "name": "Time Skip/Back Breaker",
