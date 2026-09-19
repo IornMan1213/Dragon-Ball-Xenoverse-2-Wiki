@@ -1024,3 +1024,15 @@ Reviewed the three queued Ultimate Ki Blast records against their dedicated curr
 - **Full Power Destruction:** PQ177; 500 Ki; Jiren (Full Power) Ultra Supervillain / Jiren Customize Partner; Ki Blast Ultimate. Character/partner availability does not establish CaC race scope.
 
 The canonical records now explicitly document this evidence boundary in their research notes and remain queued for stronger explicit CaC-scope evidence rather than speculative classification. 
+
+
+## 2026-09-19 — queued skill classification reconciliation
+
+Reviewed the next queued cohort. Four records received evidence-backed reconciliation:
+
+- **Gigantic Burst:** confirmed as a 500-Ki Ki Blast Ultimate, PQ127, and explicitly documented as available for CaCs.
+- **God of Destruction's Roar:** corrected from **Ultimate / Ki Blast / 300 Ki** to **Super / Strike / 100 Ki**. The dedicated page describes the move as a Champa Strike Super that drains Stamina.
+- **God of Destruction's Menace:** confirmed as a 300-Ki Ki Blast Ultimate from PQ105 via the current Ultimate Attack index.
+- **Gigantic Roar:** confirmed as a 500-Ki Ki Blast Ultimate from PQ132; no unsupported CaC race scope was inferred.
+
+The remaining queued records (Gigantic Explosion, Heat Dome Attack, Holy Wrath, Last Emperor) remain pending stronger dedicated current-version evidence review.
