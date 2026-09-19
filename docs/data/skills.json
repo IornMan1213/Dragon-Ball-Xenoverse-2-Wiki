@@ -2423,9 +2423,9 @@
       "source_quest_or_shop": "Parallel Quest 64",
       "ultimate_finish_required": null,
       "skill_description": "Ill Rain is a Super Ki Blast skill associated with Janemba.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Janemba's 100-Ki Ki Blast Super from PQ64. The projectile/orb can produce separate hits; detailed drop gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2447,8 +2447,8 @@
       "source_quest_or_shop": "Parallel Quest 05",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
-      "mechanics_notes": "Chargeable Ki Blast Super with three charge levels.",
-      "research_status": "race_restriction_reconciled",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ05 and usable by all CaC races. It has three charge levels.",
+      "research_status": "reconciled_current_version_evidence",
       "race_restriction": "All CaC races"
     },
     {
@@ -2461,13 +2461,13 @@
         "https://dragonball.fandom.com/wiki/Masenko"
       ],
       "ki_cost": 100,
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_current_version_evidence",
       "unlock_method": "Gohan (Kid) mentor training, School Quest Lesson 2",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
-      "mechanics_notes": "Single-hit Ki Blast Super; opposite directional input causes a back-jump before firing.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing.",
       "race_restriction": "All CaC races"
     },
     {
@@ -2484,9 +2484,9 @@
       "source_quest_or_shop": "Parallel Quest 34",
       "ultimate_finish_required": null,
       "skill_description": "Paralysis is a Super Ki Blast skill associated with Ginyu Force.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ34. The skill immobilizes the target; exact drop gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2508,9 +2508,9 @@
       "source_quest_or_shop": "Parallel Quest 04",
       "ultimate_finish_required": null,
       "skill_description": "Paralyze Beam is a Super Ki Blast skill associated with Piccolo.",
-      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ04. It can paralyze/hold the target; exact drop gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -2532,9 +2532,9 @@
       "source_quest_or_shop": "PQ166",
       "ultimate_finish_required": null,
       "skill_description": "Pendulum Bullet is a Super Ki Blast skill associated with Android 17.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2560,7 +2560,8 @@
       "source_quest_or_shop": "Training with Cell (Perfect)",
       "mechanics": "Slow, tracking Ki Blast Super; charged finger shot.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_external_evidence"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot."
     },
     {
       "name": "Photon Swipe",
@@ -2576,9 +2577,9 @@
       "source_quest_or_shop": "Parallel Quest 139",
       "ultimate_finish_required": null,
       "skill_description": "Photon Swipe is a Super Ki Blast skill associated with Toppo.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ139. It is Toppo's Photon Swipe; exact drop/Ultimate Finish gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
