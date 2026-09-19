@@ -1452,3 +1452,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `832f7167527a88322581132ad02e2b9e0acbaaf1`.
 - Audit commit: `c38f51bf47496f1e8acfe59e00cc9efcc75a5930`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Paralysis.
+
+
+### 2026-09-19 continuation — Paralyze Beam through Reverse Shot
+- Reconciled **Paralyze Beam, Pendulum Bullet, Perfect Shot, Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, and Reverse Shot**.
+- Perfect Shot retains **All CaC races**. Raid Blast is correctly documented as **Super Saiyan God Vegeta's** 100-Ki Super from PQ136; the stale Goku (Ultra Instinct) description was removed.
+- The remaining CaC-usable skills have no explicitly established narrower race/gender/form restriction. Unverified drop/Ultimate Finish details remain bounded rather than inferred.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `6a19e7cc0250e5669aeddea165844dcabdb2e83a`.
+- Audit commit: `67d1dd62912fa1b4c259db8b4a2c748522e58087`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Reverse Shot.
