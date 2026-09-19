@@ -1051,3 +1051,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Refreshed all four verification dates to 2026-09-19.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Flash Chaser; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Gamma/Gigantic provenance boundary
+- Reviewed Gamma Blaster, Giant Cluster, Gigantic Charge, and God of Destruction's Plaything.
+- Preserved null race restrictions because the reviewed current evidence does not explicitly establish CaC race/gender/form scope.
+- Added dedicated current-version provenance URLs for Giant Cluster and Gigantic Charge.
+- Refreshed all four verification dates to 2026-09-19.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows God of Destruction's Plaything; inspect canonical ordering before selecting the next batch.
