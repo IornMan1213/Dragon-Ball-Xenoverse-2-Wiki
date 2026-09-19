@@ -605,3 +605,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Big Bang Kamehameha is explicitly obtainable by the Future Warrior through the TP Medal Shop; Super Spirit Bomb is a Future Warrior reward from Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion is obtainable by the Future Warrior from the TP Medal Shop. citeturn1search1turn2search1turn2search2turn3search0
 - Added CaC eligibility, race scope, acquisition/provenance, and supported resource data without promoting the records to `verified` because exact historical/version and reward-state semantics remain separate audit questions.
 - Skills commit: `ed425d388377902aed738ba03ae49b85342d3c41`.
+
+
+## 2026-09-19 DAIMA/Future Saga CaC boundary investigation
+
+- Investigated the remaining high-priority null-CaC cohort against current technique/Ultimate Attack references.
+- The Future Warrior technique index explicitly notes that CaC techniques can have race/gender/transform restrictions and should not be inferred solely from a character's equipped moves. citeturn0search3
+- The DAIMA-specific **Burning Blast, Force Edge, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** remain unresolved for direct CaC eligibility. Current references identify them in the corresponding DAIMA character skillsets and list their PQ unlocks, but do not provide sufficiently explicit Future Warrior eligibility to justify changing `usable_by_cac` from null. citeturn0search5turn0search7turn0search10turn2search0
+- Likewise, Future Saga Chapter 2 is documented by Bandai Namco as adding seven moves and four Parallel Quests, but the official announcement does not establish individual CaC eligibility. citeturn0search1turn0search9
+- Deliberately left these fields unresolved rather than converting absence of evidence into `false` or assuming all PQ rewards are CaC-compatible.
