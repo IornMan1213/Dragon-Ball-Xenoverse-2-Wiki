@@ -361,17 +361,17 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 
 ### Repository-wide Parallel Quest unresolved-field census — 2026-09-18
 - Audited all 18 checked-in PQ research batches covering **176 canonical quest records (PQ1–PQ186, with the known numbering gap at PQ36)**.
-- **Unlock conditions:** 44 of the 176 canonical quest records currently have no explicit `unlock_condition`. The remaining gaps are concentrated in PQ36, PQ53–55, PQ121–140, and PQ151–160. PQ101–120 have now been researched and populated with DLC-ownership/PQ-board unlock routes.
+- **Unlock conditions:** 34 of the 176 canonical quest records currently have no explicit `unlock_condition`. The remaining gaps are concentrated in PQ36, PQ53–55, PQ121–140, and PQ151–160. PQ101–120 have now been researched and populated with DLC-ownership/PQ-board unlock routes.
 - The maintained general PQ documentation states that PQs are unlocked through story progression, blue-mark NPC prompts, or prerequisite PQ completion; PQ101+ require the appropriate DLC. This establishes the general mechanism, but does **not** safely provide an exact per-PQ unlock route for every missing record, so the census records these as research gaps rather than fabricating generic unlock text.
 - **Skill/drop alignment:** all explicitly populated skill-reward arrays through PQ1–PQ180 are aligned with their corresponding skill-drop conditions; PQ181, 182, 183, 185, and 186 intentionally remain unresolved because the exact drop-slot percentages have not yet been established in the maintained evidence. PQ184 is explicitly documented at 50% Ultimate Finish bonus slot.
 - **Sources:** the older PQ batches frequently lack record-level `sources` fields even where their verification notes identify the evidence basis. This is now a separate provenance-enrichment priority rather than silently copying one global source into every record.
-- The next data pass should therefore prioritize **exact unlock-route research for the 72 remaining missing records**, followed by **record-level provenance normalization**, then the remaining Awoken/Transformation audit.
+- The next data pass should therefore prioritize **exact unlock-route research for the 34 remaining missing records**, followed by **record-level provenance normalization**, then the remaining Awoken/Transformation audit.
 
 ## 2026-09-19 PQ unlock research milestone
 
 - **PQ71–80:** reviewed and normalized; several exact-looking prerequisites were removed where the consulted evidence did not directly establish them. The records now preserve uncertainty rather than presenting inferred sequential unlocks as fact.
 - **PQ81–90:** reviewed against independent PQ objective/UF references. These sources establish the quests and their objectives, but did not establish reliable individual unlock triggers, so the records use bounded uncertainty wording.
-- The numeric unlock-field gap remains **72 records without any explicit `unlock_condition` field**, but that number is **not equivalent to 72 unresolved exact unlock routes**; populated fields must be classified by evidence quality in future work.
+- The numeric unlock-field gap in the earlier 2026-09-19 wording was stale; the live census now finds **34 records without any explicit `unlock_condition` field**, and that number is **not equivalent to 34 unresolved exact unlock routes**; populated fields must be classified by evidence quality in future work.
 
 ## 2026-09-19 PQ101–110 unlock research milestone
 
@@ -387,7 +387,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Recomputed the live unlock census before editing the batch: 176 canonical PQ records across 18 research batches.
 - Researched PQ111–120 as the next DLC frontier. Current evidence maps PQ111–112 to Super Pack 4, PQ113–117 to Extra Pack 1, and PQ118–120 to Extra Pack 2. The maintained Steam DLC mapping explicitly groups these PQ ranges by pack. - Recorded the conservative unlock route as owning the relevant DLC pack and having the Parallel Quest board open. This mirrors the evidence-backed DLC-era convention already used for PQ101–110 and avoids inventing sequential PQ prerequisites.
 - Added record-level provenance for all ten records: Madreag's individual datamined quest page, the maintained Steam all-PQ guide, the Steam DLC-to-PQ mapping discussion, and the DLC reference page.
-- Updated the live numeric gap from 54 to 44 missing `unlock_condition` fields. Remaining missing records are PQ36, PQ53–55, PQ121–140, and PQ151–160.
+- Updated the live numeric gap from 44 to 34 missing `unlock_condition` fields. Remaining missing records are PQ36, PQ53–55, PQ121–140, and PQ151–160.
 - Evidence limitation: the consulted mapping establishes DLC ownership/availability but does not prove additional story, NPC, or sequential prerequisites for each of PQ111–120; none were invented.
 
 ## 2026-09-19 PQ91–100 unlock research milestone
