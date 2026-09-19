@@ -962,3 +962,8 @@ Reviewed **Spirit Pulse, Stone Bullet, Super Donut Volley, and Super Ghost Buu A
 ## 2026-09-19 — Fighting Pose/Burst boundary
 
 Reviewed **Fighting Pose H, Formation!, Indomitable, Taunt, Blazing Attack, Brave Sword Slash, Burning Swan, and Burst Blitz** as the next unresolved CaC-usable null-race cohort. The reviewed current-version evidence did not establish an explicit CaC race/gender/form restriction or unrestricted-all-CaC statement sufficient to change `race_restriction`; all eight remain null. Verification dates were refreshed to 2026-09-19. No race inference was made from character association or acquisition context.
+
+
+## 2026-09-19 — Death/Demon/Destruction boundary
+
+Reviewed **Death Slash, Demon Flurry, Demonic Destruction, and Destruction's Conductor** as the next unresolved CaC-usable null-race cohort. Current-version sources identify their skill availability/association but do not provide an explicit race/gender/form restriction or explicit unrestricted-all-CaC statement sufficient to change `race_restriction`. All four remain null. Verification dates were refreshed to 2026-09-19. No race inference was made from mentor/character ownership or acquisition context.
