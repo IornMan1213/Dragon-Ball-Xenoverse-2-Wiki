@@ -1,69 +1,34 @@
 {
   "batch_id": 43,
-  "created": "2026-09-17",
-  "verification_policy": "research_batch_with_current_and_independent_cross_checks",
-  "research_scope": "Five early/base-game PQ skills selected after live repository duplicate checks. PQ acquisition identity is independently corroborated; unsupported reward probabilities remain unresolved.",
-  "verification_audit": {
-    "audited": "2026-09-17",
-    "duplicate_check": {"status":"passed_for_selected_records","selected_records":["Meteor Blow","Earth Splitting Galick Gun","Meteor Crash","Fighting Pose C","Kaioken Kamehameha"],"duplicate_count":0},
-    "source_basis":[
-      "https://xvguide.neocities.org/Skill",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "https://dbxv2.fandom.com/wiki/Meteor_Blow",
-      "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun"
-    ]
-  },
-  "records":[
+  "created": "2026-09-19",
+  "scope": "The Power to Overcome mechanics reconciliation",
+  "records": [
     {
-      "name":"Meteor Blow","class":"Super","subcategory":"Strike","race_restriction":null,"usable_by_cac":true,
-      "character_source":"Goku; Gohan (Kid); Gohan (Adult)","dlc_requirement":null,"ki_cost":100,"stamina_cost":null,"damage_type":"Strike",
-      "unlock_method":"Parallel Quest 09 — The Saiyan King Is...Who?","source_quest_or_shop":"Parallel Quest 09","ultimate_finish_required":null,
-      "skill_description":"A two-hit Strike Super that launches the opponent and follows with a finishing kick.",
-      "mechanics_notes":"Current Xenoverse 2 skill reference identifies Meteor Blow as a Strike Super using 100 Ki and obtainable from PQ09. The same reference describes the launching upkick followed by a teleporting finishing blow. Exact reward-slot/drop conditions are unresolved.",
-      "combo_notes":"The first kick can be used as a combo confirm; the second hit provides the follow-up knockback.","pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://dbxv2.fandom.com/wiki/Meteor_Blow","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
-    },
-    {
-      "name":"Earth Splitting Galick Gun","class":"Super","subcategory":"Ki Blast","race_restriction":null,"usable_by_cac":true,
-      "character_source":"Vegeta; Cell (Perfect); other customizable users","dlc_requirement":null,"ki_cost":200,"stamina_cost":null,"damage_type":"Ki Blast",
-      "unlock_method":"Parallel Quest 11 — Burst Open and Mix!","source_quest_or_shop":"Parallel Quest 11","ultimate_finish_required":null,
-      "skill_description":"A fast, multi-hit purple Galick Gun beam.",
-      "mechanics_notes":"Current Xenoverse 2 skill reference identifies Earth Splitting Galick Gun as a Ki Blast Super using 200 Ki and obtainable from PQ11, with up to 23 hits. A newer independently maintained PQ database reports the skill in an Ultimate Finish reward roll; that condition is retained as source-specific evidence rather than converted to an unconditional canonical boolean.",
-      "combo_notes":null,"pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md"]
-    },
-    {
-      "name":"Meteor Crash","class":"Super","subcategory":"Strike","race_restriction":null,"usable_by_cac":true,
-      "character_source":"Multiple characters","dlc_requirement":null,"ki_cost":100,"stamina_cost":null,"damage_type":"Strike",
-      "unlock_method":"Parallel Quest 12 — In the Name of Frieza!","source_quest_or_shop":"Parallel Quest 12","ultimate_finish_required":null,
-      "skill_description":"A multi-hit Strike Super that continues with additional attacks while Ki is available.",
-      "mechanics_notes":"The independent PQ reward transcription places Meteor Crash in PQ12. Exact current hit scaling, total Ki consumption, and reward-slot semantics are left unresolved pending a stronger skill-specific technical reference.",
-      "combo_notes":null,"pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://xvguide.neocities.org/Skill","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
-    },
-    {
-      "name":"Fighting Pose C","class":"Super","subcategory":"Power Up","race_restriction":null,"usable_by_cac":true,
-      "character_source":"Guldo; Captain Ginyu - Customize Partner","dlc_requirement":null,"ki_cost":0,"stamina_cost":null,"damage_type":"Other",
-      "unlock_method":"Parallel Quest 13 — Namekian Dragon Balls","source_quest_or_shop":"Parallel Quest 13","ultimate_finish_required":null,
-      "skill_description":"A Power Up pose that temporarily prevents abnormal status effects.",
-      "mechanics_notes":"PQ13 reward transcriptions identify Fighting Pose C. Current skill-reference material documents a 0-Ki Power Up Super with a 20-second duration and abnormal-status prevention. Exact reward-slot semantics remain unresolved.",
-      "combo_notes":null,"pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://xvguide.neocities.org/Skill"]
-    },
-    {
-      "name":"Kaioken Kamehameha","class":"Super","subcategory":"Ki Blast","race_restriction":null,"usable_by_cac":true,
-      "character_source":"Goku; customizable users","dlc_requirement":null,"ki_cost":200,"stamina_cost":null,"damage_type":"Ki Blast",
-      "unlock_method":"Parallel Quest 14 — Saiyan Pride","source_quest_or_shop":"Parallel Quest 14","ultimate_finish_required":null,
-      "skill_description":"A Kaioken-enhanced Kamehameha beam Super.",
-      "mechanics_notes":"The independent PQ reward transcription and current skill guide place Kaioken Kamehameha in PQ14. The documented skill cost is 200 Ki. Exact reward-slot semantics and any additional Kaioken-state interactions are left unresolved here.",
-      "combo_notes":null,"pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","https://xvguide.neocities.org/Skill"]
+      "name": "The Power to Overcome",
+      "status": "partially_verified",
+      "stage_1": {
+        "defense": "+20% reported by current testing",
+        "movement": "+5% reported",
+        "low_health_recovery": "activates below 50% HP; exact regeneration rate unresolved",
+        "grab": "replaced by unblockable sword strike"
+      },
+      "stage_2": {
+        "duration": "about 12 seconds reported",
+        "basic_attack": "+15% reported",
+        "strike_and_ki_super": "+30% reported",
+        "ki": "effectively/infinite regeneration during state",
+        "health": "drains during state",
+        "movement": "conflicting reports +10% and +15%",
+        "cooldown": "conflicting reports about 24 and 30 seconds"
+      },
+      "evidence_policy": "Promote core mechanics supported by multiple current references, but retain unresolved values when independent reports disagree."
     }
-  ]
+  ],
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819",
+    "https://www.reddit.com/r/dbxv/comments/1ut3fc0/the_power_to_overcome_stats/",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=16",
+    "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/"
+  ],
+  "notes": "This batch does not treat community meta opinions as factual rankings. Only mechanics and observed values are recorded."
 }
