@@ -2212,7 +2212,7 @@
       "name": "Final Flash (Super)",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash_(Super)",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -2220,11 +2220,11 @@
       "ki_cost": 200,
       "research_status": "enriched",
       "unlock_method": "Character-exclusive skill; not equippable by CaCs",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "last_verified": "2026-09-19",
       "usable_by_cac": false,
-      "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained."
+      "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established."
     },
     {
       "name": "Flash Chaser",
@@ -3245,7 +3245,7 @@
       "name": "Energy Release",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Release",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -3254,16 +3254,16 @@
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs.",
+      "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established.",
       "last_verified": "2026-09-19"
     },
     {
       "name": "Final Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Charge",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"
@@ -3274,12 +3274,12 @@
       "description": "Ki-charging Super Skill used by Super Saiyan God Super Saiyan (Evolved) Vegeta; it begins slowly and rapidly accelerates after about two seconds, functioning similarly to Ultimate Charge.",
       "mechanics": "Starts at a slow charging rate, then accelerates rapidly after roughly two seconds; slightly faster than Ultimate Charge. Character-exclusive and unavailable to CaCs.",
       "usable_by_cac": false,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "source_quest_or_shop": "Character-exclusive",
-      "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs."
+      "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established."
     },
     {
       "name": "Full Power Charge",
@@ -3331,17 +3331,18 @@
       "name": "Instant Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Instant_Charge"
+        "https://dbxv2.fandom.com/wiki/Instant_Charge",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 0,
       "unlock_method": "Character-exclusive: Mira (Final Form); also used by certain raid/boss encounters",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established.",
+      "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established.",
       "last_verified": "2026-09-19"
     },
     {
@@ -3496,7 +3497,7 @@
       "name": "Rising Rage",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rising_Rage"
       ],
@@ -3504,9 +3505,9 @@
       "unlock_method": "Character-exclusive: Broly (Restrained)",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established.",
+      "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established.",
       "last_verified": "2026-09-19"
     },
     {
@@ -3592,42 +3593,44 @@
       "name": "Surging Spirit",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Surging_Spirit",
-        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "character_source": "Goku (Ultra Instinct); Goku (Ultra Instinct -Sign-)",
       "dlc_requirement": "Extra Pack 2; Conton City Vote Pack",
       "ki_cost": 0,
       "description": "Ki-charging Super Skill associated with Ultra Instinct Goku; its charge rate improves as it is maintained, and later updates allow the Ultra Instinct Future Warrior to use the same charging function through the Awoken Skill's special input.",
       "mechanics": "Charges Ki increasingly quickly the longer it is maintained; Ultra Instinct Future Warriors access the same function through the Awoken Skill's special action rather than an equipped Super slot.",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Character-exclusive to Ultra Instinct Goku variants; CaCs can access the technique through Ultra Instinct's built-in action in current versions",
       "usable_by_cac": true,
       "race_restriction": "All CaC races while using Ultra Instinct",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-exclusive",
-      "mechanics_notes": "Charge/action associated with Ultra Instinct Goku variants; current versions allow CaCs to access the technique through Ultra Instinct's built-in action."
+      "mechanics_notes": "Charge/action associated with Ultra Instinct Goku variants; current versions allow CaCs to access the technique through Ultra Instinct's built-in action. Current evidence documents N/A unlock and access only as an Ultra Instinct built-in CaC action; it is not an Ultimate Finish reward."
     },
     {
       "name": "Time Bullet",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Bullet",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 100,
-      "unlock_method": "Character-exclusive / non-CaC skill",
-      "usable_by_cac": false,
+      "unlock_method": "Skill Shop after \"Decisive Battle with Majin Buu\"",
+      "usable_by_cac": true,
       "research_status": "enriched",
-      "ultimate_finish_required": null,
-      "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Retained as a 100-Ki Other Super that is character-exclusive/non-CaC. It is associated with Guldo/Captain Ginyu-era time-manipulation moves; no CaC acquisition route established.",
-      "last_verified": "2026-09-19"
+      "ultimate_finish_required": false,
+      "source_quest_or_shop": "Skill Shop",
+      "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
+      "last_verified": "2026-09-19",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Time Control",
@@ -4321,12 +4324,12 @@
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 100,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "N/A — character-only skill; unavailable for CaC",
       "usable_by_cac": false,
       "research_status": "enriched",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect.",
+      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established.",
       "source_quest_or_shop": "Character skill"
     },
     {
@@ -4339,18 +4342,20 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 99",
-      "ultimate_finish_required": null,
+      "unlock_method": "Parallel Quest 99 reward; current Fandom data also lists TP Medal Shop as an acquisition route.",
+      "source_quest_or_shop": "Parallel Quest 99 / TP Medal Shop",
+      "ultimate_finish_required": false,
       "skill_description": "Emperor's Edge is a Super Strike skill associated with Frieza.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "PQ99 Basic Reward placement is explicitly documented in the maintained all-PQ guide; current Fandom data also lists TP Medal Shop. Neither source establishes Ultimate Finish as an acquisition requirement, so ultimate_finish_required=false.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Emperor's_Edge",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Emperor%27s_Edge",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "race_restriction": "All CaC races"
     },
