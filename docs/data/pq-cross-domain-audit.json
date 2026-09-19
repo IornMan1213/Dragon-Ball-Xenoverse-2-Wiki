@@ -18,11 +18,11 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Audit PQ 1-14 coverage and equipment subtype semantics; then perform final 1-186 relationship consistency audit without treating partial normalized maps as exhaustive negatives.",
+  "next_completion_gate": "Run final 1-186 relationship consistency checks: duplicate edges, invalid PQ numbers, missing reverse mappings, stale counts, and provenance/status integrity.",
   "current_counts": {
-    "skill": 229,
-    "super_soul": 125,
-    "equipment": 39,
+    "skill": 232,
+    "super_soul": 135,
+    "equipment": 122,
     "character": 247,
     "dlc": 88,
     "farming": 7
@@ -33,7 +33,7 @@
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
     "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
   },
-  "status": "reward_provenance_reconciled",
+  "status": "final_relationship_consistency_audit_in_progress",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
   "full_corpus_audit": {
     "canonical_reward_maps": 6,
@@ -87,5 +87,32 @@
     "source_only_cases_resolved": 68,
     "source_only_entries_resolved": 76,
     "remaining_unresolved_source_only_entries": 0
+  },
+  "coverage_audit": {
+    "canonical_reward_batch_files": 9,
+    "canonical_reward_batch_records": 172,
+    "canonical_reward_batch_scope": "PQ 15-186",
+    "missing_canonical_reward_batch_PQs": [
+      1,
+      12,
+      13,
+      14
+    ],
+    "relationship_PQ_coverage": {
+      "covered_PQs": 182,
+      "missing_PQs": [
+        1,
+        12,
+        13,
+        14
+      ]
+    },
+    "equipment_reverse_coverage": {
+      "forward_edges": 122,
+      "missing_reverse_edges": 0,
+      "dual_subtype_edges_before_fix": 31,
+      "dual_subtype_edges_after_fix": 0
+    },
+    "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   }
 }
