@@ -2417,3 +2417,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 725e4773ae33154c6db41b8e96b42400f9f5ed34.
 - Live nullable Super/Ultimate census: 162 total (123 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; do not infer non-UF status from a generic PQ acquisition statement.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 4
+- Resolved `ultimate_finish_required=false` for Dimensional Hole (PQ80), Atomic Blast (PQ87), Blaster Ball (PQ125), and Punisher Shield (PQ129).
+- Evidence: each is explicitly listed in its corresponding PQ Basic Reward list, separate from UF conditions.
+- Skills commit: 19c144ca570be2651ce5ce586181f38d9f022311.
+- Live nullable Super/Ultimate census: 158 total (119 Super, 39 Ultimate).
+- Next task: continue with explicit Basic Reward candidates; preserve null when evidence does not establish the acquisition gate.
