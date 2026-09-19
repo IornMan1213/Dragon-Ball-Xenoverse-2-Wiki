@@ -2068,3 +2068,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ 86, PQ 87, and PQ 93 remain unresolved/no-normalized-skill rather than being filled by inference.
 - Data commit: `f724f2e9f98f64043628a361cdd86d0717581b2d`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 101-120**, then update the audit and this handoff.
+
+
+### 2026-09-19 continuation — PQ 101-120 reward pass
+- Canonical `pq-101-120.json` now carries source-normalized skill relationships and consistent all-186 provenance.
+- Empty skill arrays for PQ 102-103, 106-108, and 118 remain unresolved/no-established-skill rather than being inferred from non-skill rewards.
+- Data commit: `c6da4d9c37dd8436491d7ba226c2930ee69f048e`.
+- Next exact task: continue the source-backed skill-reward audit through **PQ 121-142**, then update the audit and this handoff.
