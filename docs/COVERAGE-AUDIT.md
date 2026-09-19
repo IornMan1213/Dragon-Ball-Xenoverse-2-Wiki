@@ -2449,3 +2449,13 @@ Resolved `ultimate_finish_required: false` for **Burning Slash (PQ44), Justice B
 - Live nullable Super/Ultimate census after this batch: **39 total — 28 Super / 11 Ultimate**.
 - Skills commit: `bc0bffe7ec4bfa1d1cf284c3141b513b53d0dd4d`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 28
+
+Resolved `ultimate_finish_required: false` for **S.S. Deadly Bomber (PQ115)** and **Total Detonation Ball (PQ139)**. The maintained PQ guide explicitly places both in Basic Reward. Community discussion also identifies S.S. Deadly Bomber as an Android 13 drop without establishing UF-only gating. citeturn0search0turn0search13
+
+- **Gigantic Explosion** and **Gigantic Roar** were checked against the live skill records but were not changed because the fetched evidence did not establish their exact reward-section placement with sufficient confidence.
+- Live nullable Super/Ultimate census after this batch: **35 total — 28 Super / 7 Ultimate**.
+- Skills commit: `c9cb6945ea3f02fb1112c290c1506169a60e973b`.
+- No schema or validator changes.
