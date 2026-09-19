@@ -288,3 +288,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - CI: the latest changelog commit has no associated workflow runs and no reported status checks through the available GitHub connector. No validator was weakened. Continue treating missing/opaque Actions execution as an infrastructure/account signal until actionable logs appear.
 - Remaining provenance gap after this pass: **112 PQ records still lack individual `sources` arrays**. Reward-slot semantics remain a separate unresolved field across many records.
 - Exact next task: **continue the record-level provenance pass with PQ11–PQ20**, while checking their existing reward/acquisition claims against the maintained PQ transcription and an independent source. Preserve unresolved reward-slot/drop semantics rather than inferring them; then update the coverage audit, changelog, and this handoff and inspect Actions again.
+
+
+### 2026-09-19 cycle update — PQ11–20 record-level provenance
+- Workstream: Parallel Quest provenance and reward/acquisition evidence cleanup.
+- Completed the second bounded provenance pass on **PQ11–PQ20**. All ten records now have explicit record-level source URLs and a 2026-09-19 verification date.
+- Rechecked objective and Ultimate Finish claims against the maintained Steam 186-PQ transcription, Critical Hit, Twinfinite, and the maintained PQ11 repository record where applicable. These sources corroborate the documented objective sequences; the pass did not invent unsupported reward probabilities or unlock gates.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-02.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `0e270cacd215af12f7f2e2f0283c768642141be6` (PQ11–20 provenance), `3bd7862cd32d271004304f3305db5a6feacb699e` (coverage audit), `1efbb24e1a0399ddff296f214835ea541bcbf7c3` (changelog).
+- Validation: PQ11–PQ20 now have record-level sources. The repository-wide PQ census remains **176 records** with **0 missing explicit `unlock_condition` fields**. Reward-slot semantics remain a separate unresolved evidence-quality track.
+- CI: inspect the latest push-triggered runs before changing validators; no validator was weakened during this cycle.
+- Remaining provenance gap: **102 PQ records** still lack individual `sources` arrays after completing PQ1–PQ20.
+- Exact next task: **continue with PQ21–PQ30**, recheck objective/Ultimate Finish claims against independent sources, add record-level provenance, then update the coverage audit, changelog, and this handoff and inspect Actions/status.
