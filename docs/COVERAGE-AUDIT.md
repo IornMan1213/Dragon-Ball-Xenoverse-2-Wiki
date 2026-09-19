@@ -1561,3 +1561,14 @@ Reconciled **Gigantic Explosion, Gigantic Roar, God of Destruction's Menace, God
 - Holy Wrath remains a **100 Ki Ki Blast Super**; Heat Dome Attack remains a **300 Ki Ki Blast Ultimate**; Gigantic Roar remains a **500 Ki Ki Blast Ultimate**; God of Destruction's Menace remains a **300 Ki Ki Blast Ultimate**.
 - Reward/drop probability and Ultimate-Finish semantics remain bounded where the reviewed evidence does not establish them conclusively.
 - Live census: **283 total / 269 CaC-usable / 158 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Lightning of Absolution through Ribrianne's Eternal Love
+
+Reconciled **Lightning of Absolution, Majin Kamehameha, Mystic Flash, Prominence Flash, Requiem of Destruction, Revenge Death Ball, Revenge Final Flash, and Ribrianne's Eternal Love**.
+
+- All eight CaC-usable records now carry explicit **All CaC races** scope.
+- The prior `Majin` race field on Majin Kamehameha was removed: the skill is available to the Future Warrior, so character association is not treated as a CaC race restriction.
+- Prominence Flash already had explicit All-CaC scope and was independently rechecked.
+- Exact drop conditions and Ultimate Finish requirements remain bounded where evidence is insufficient.
+- Live census: **283 total / 269 CaC-usable / 152 CaC-usable with null race restriction**.
