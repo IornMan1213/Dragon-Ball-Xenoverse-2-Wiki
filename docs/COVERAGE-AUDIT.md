@@ -1053,3 +1053,9 @@ No CaC race/gender/form restriction was inferred from character-only users. The 
 Reviewed the queued counter-skill cohort and refreshed the canonical evidence notes for **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, and God Breaker**. Current evidence supports their recorded skill classes, attack subcategories, Ki costs, counter roles, and listed acquisition sources. Counter Impact is specifically documented as a 100-Ki Ki Blast Super from PQ153; Burst Rush is a 100-Ki Strike Super from PQ51; Change The Future is a 100-Ki Ki Blast Super from PQ43; and God Breaker is a 100-Ki Ki Blast Super from PQ44. 
 
 No CaC race/gender/form restriction was inferred from character or partner users. The canonical records now explicitly preserve that evidence boundary.
+
+## 2026-09-19 — remaining counter-skill reconciliation
+
+Reviewed **Heroic Counter, Punisher Shield, Reverse Mabakusenko, and Rough Ranger** against current dedicated skill pages. Confirmed their current classes, attack types, costs, counter roles, and acquisition sources. Heroic Counter is a 100-Ki Strike Super from PQ155; Punisher Shield is a 100-Ki Ki Blast Super from PQ129; Reverse Mabakusenko is a 300-Ki Ki Blast Ultimate from the Skill Shop; and Rough Ranger is a 100-Ki Strike Super from PQ119. 
+
+No CaC race/gender/form restriction was inferred from their character users or partner customization data.
