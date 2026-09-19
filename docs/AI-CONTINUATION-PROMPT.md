@@ -2681,3 +2681,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `dbb35d0fa1e57db2fa51998c53ee72057abdd179`.
 - Coverage audit commit: `189f69a90de6f40ef66d2114422b535fbb4cc5b4`.
 - Exact next task: continue the remaining nullable Super records using explicit reward-section evidence; do not infer UF gating from RNG or generic PQ association.
+
+
+### 2026-09-19 continuation — basic-reward Super batch 32
+- Resolved **Crimson Edge (PQ171), Divine Spear (PQ171), and Wild Stinger (PQ172)** as `ultimate_finish_required=false` from explicit Basic Reward placement. citeturn0search0turn0search1
+- Live nullable Super/Ultimate census: **16 total — 16 Super / 0 Ultimate**.
+- Skills commit: `2a01d58e3d927acbd8cfcc84546db36a5fe148de`.
+- Coverage audit commit: `5270f25038db7234db56dae0b4fe177b39780a3f`.
+- Exact next task: continue the remaining nullable Super records with explicit reward-section evidence; preserve `null` for character-exclusive or otherwise unresolved acquisition gates.
