@@ -1726,3 +1726,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — Bluff Kamehameha through Destruction's Concerto: Comet
+- Reviewed the next eight null-race CaC-usable records: **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehameha, Burst Stinger, Dark Inscription, Demon Ray, Destruction's Concerto: Comet**.
+- Preserved null race restrictions because reviewed Future Warrior/CaC evidence does not establish a narrower race/gender/form restriction.
+- Data commit: 94d5e95dcc7bb9614cbe3250e44034f263779378.
+- Audit commit follows in this cycle.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
