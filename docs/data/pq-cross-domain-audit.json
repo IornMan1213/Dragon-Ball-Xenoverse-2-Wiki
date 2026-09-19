@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Re-run final 1-186 relationship consistency checks after PQ 12-14 additions.",
+  "next_completion_gate": "Audit other non-reward relationship completeness and source coverage; preserve PQ 1 as having no typed reward edge unless stronger evidence identifies one.",
   "current_counts": {
     "skill": 236,
     "super_soul": 137,
@@ -33,7 +33,7 @@
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
     "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
   },
-  "status": "pq_1_186_reward_coverage_reconciled",
+  "status": "reward_relationship_consistency_audited_after_pq_12_14",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
   "full_corpus_audit": {
     "canonical_reward_maps": 6,
@@ -112,22 +112,15 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 831,
+    "total_edges": 840,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
-    "stale_forward_counts": false,
-    "stale_status_counts": false,
-    "stale_audit_counts": false,
-    "stale_reverse_counts": false,
-    "provenance_invalid": 0,
-    "distinct_PQs": 182,
-    "missing_PQs": [
-      1,
-      12,
-      13,
-      14
+    "stale_count_fields": 0,
+    "missing_reverse_reward_edges": 0,
+    "missing_typed_reward_PQs": [
+      1
     ],
-    "equipment_reverse_missing": 0,
-    "equipment_dual_subtype": 0
+    "pq_12_14_added": true,
+    "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated."
   }
 }
