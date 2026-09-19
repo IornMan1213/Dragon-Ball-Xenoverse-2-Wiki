@@ -2478,3 +2478,12 @@ Resolved `ultimate_finish_required: false` for **Prominence Flash (PQ137)** and 
 - Live nullable Super/Ultimate census after this batch: **25 total — 24 Super / 1 Ultimate**.
 - Skills commit: `ea9f5e9d0386a40baa0b4447d62e542b0cb464e9`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — final nullable Ultimate resolution
+
+Resolved `ultimate_finish_required: false` for **Super Gamma Blast (PQ158)**. The maintained PQ guide explicitly lists Super Gamma Blast in PQ158's **Basic Reward** list; the quest's win conditions are listed separately. Community reports describe repeated RNG farming but do not establish Ultimate Finish as a required acquisition gate. citeturn1search0turn1reddit13
+
+- Live nullable Super/Ultimate census after this resolution: **24 total — 24 Super / 0 Ultimate**.
+- Skills commit: `85b4e9a63a2de387e28076220df437a94489b1b9`.
+- No schema or validator changes.
