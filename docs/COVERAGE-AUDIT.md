@@ -1112,3 +1112,17 @@ Reconciled Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, Burning Attack, 
 - Buu Buu Ball retains its explicit **Pure Majin-form** restriction.
 - Candy Beam retains its explicit **Majin CaC** restriction; its separate 200-Ki Candy Beam (Super) variant was not conflated with this 100-Ki record.
 - No unsupported CaC race/gender/form restrictions were inferred for the remaining records.
+
+
+## 2026-09-19 — Extended Ki Blast Super cohort
+
+Reconciled Candy Beam (Super), Crazy Finger Shot, Dark Inscription, Death Psycho Bomb, Demon Ray, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, and Destructo-Disc against current skill evidence.
+
+- Candy Beam (Super) corrected to **200 Ki**; transformation/candy effect and all-CaC-races scope retained.
+- Crazy Finger Shot confirmed **100 Ki**, extendable to 14 blasts with additional Ki expenditure.
+- Dark Inscription confirmed **100+ Ki** with additional-input/Power of Time mechanics.
+- Death Psycho Bomb confirmed **100 Ki** and psychic-grab/explosion behavior.
+- Demon Ray confirmed **100 Ki / 300 Stamina** and its follow-up/use-while-hit mechanic.
+- Destruction's Concerto: Comet confirmed **100–200 Ki** and tracking/conductor interaction.
+- Destruction's Concerto: Starfall confirmed as the PQ104 Vados Super Skill with the two-sphere/conductor behavior.
+- Destructo-Disc confirmed **100 Ki**, Krillin training acquisition, tracking and unblockable behavior.
