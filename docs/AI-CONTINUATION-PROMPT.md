@@ -722,3 +722,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `574e87cde26b8e8ed1bdaa410e7b59786e3e4305`.
 - Coverage commit: `e636115236dad51830fbfcf96f9759bbf0176d7c`.
 - Next priority: systematically identify additional explicit race/gender restrictions, beginning with skills whose Future Warrior documentation directly names a race restriction; do not blanket-mark character-origin skills.
+
+
+### 2026-09-19 cycle update — universal CaC race batch
+- Reconciled nine unrestricted CaC skills: **Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, Galick Gun** → `All CaC races`, based on explicit Future Warrior technique documentation. citeturn0search1
+- Skills commit: `d248c4be6598c338181efd83a9c5edbe1472e496`.
+- Coverage commit: `648330db2fbe3bb5c6502b0fc2c54a26034b8647`.
+- Continue the race census with explicit race-specific entries; avoid treating a skill's character_source as proof of a CaC race lock.
