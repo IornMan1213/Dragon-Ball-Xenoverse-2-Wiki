@@ -1,3 +1,9 @@
+## September 2026 — Raid/Event Super Soul Batch 04
+- Added research batch 04 for raid-associated Super Souls.
+- Promoted canonical records **036–039** covering Hit and Broly raid reward families.
+- Preserved conflicting evidence and categorical effect labels rather than inventing numeric values or drop rates.
+- Canonical Super Soul population increased from **30 to 34**.
+
 ## September 2026 — FUTURE SAGA Chapter 4 Super Soul Expansion
 - Added four Chapter 4 Super Soul identities to the canonical research layer: **032–035**.
 - Added official DLC provenance plus PQ185/PQ186 acquisition leads and attributed community effect evidence where available.
