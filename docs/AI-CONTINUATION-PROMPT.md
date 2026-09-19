@@ -1482,3 +1482,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `87866c3572aeb5a731ebea24c4552d2f5bd8b291`.
 - Audit commit: `cc0b5052d7ddd426c74af556d04cb16db6315cde`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Burst Charge.
+
+
+### 2026-09-19 continuation — Charged Ki Wave through Instant Charge
+- Reconciled **Charged Ki Wave, Dancing Parapara, Energy Charge, Energy Release, Final Charge, Full Power Charge, Hero's Flute, and Instant Charge**.
+- Charged Ki Wave, Energy Charge, and Full Power Charge retain **All CaC races**. Energy Release, Final Charge, and Instant Charge remain explicitly non-CaC.
+- Dancing Parapara and Hero's Flute remain CaC-usable with no explicitly established narrower race/gender/form restriction.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `a9bb8f480384d6437928f5c7cd2525f683290477`.
+- Audit commit: `fedcd64d3c443c94718862b78ca1fe3adaba0da1`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Instant Charge.
