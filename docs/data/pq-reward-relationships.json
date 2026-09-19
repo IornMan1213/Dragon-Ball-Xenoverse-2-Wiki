@@ -5893,6 +5893,214 @@
       "target": "Fu Set 2",
       "status": "source_normalized",
       "source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+    },
+    {
+      "pq": "pq-092",
+      "relationship": "pq_rewards_equipment",
+      "target": "GT Goku's Gi",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-093",
+      "relationship": "pq_rewards_equipment",
+      "target": "Pan's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-093",
+      "relationship": "pq_rewards_equipment",
+      "target": "Pan's Bandanna",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-095",
+      "relationship": "pq_rewards_equipment",
+      "target": "Super 17's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-096",
+      "relationship": "pq_rewards_equipment",
+      "target": "GT Vegeta's Jacket",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-097",
+      "relationship": "pq_rewards_equipment",
+      "target": "Yamcha's Baseball Hat",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-098",
+      "relationship": "pq_rewards_equipment",
+      "target": "Lord Slug's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-099",
+      "relationship": "pq_rewards_equipment",
+      "target": "Mr. Shape Up L",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-100",
+      "relationship": "pq_rewards_equipment",
+      "target": "Whis Symbol Battle Suit",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-100",
+      "relationship": "pq_rewards_equipment",
+      "target": "SSGSS Vegeta Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-101",
+      "relationship": "pq_rewards_equipment",
+      "target": "Champa's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-102",
+      "relationship": "pq_rewards_equipment",
+      "target": "Battle Suit (Cabba)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-104",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 14's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 13's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_rewards_equipment",
+      "target": "Super Android 13's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-107",
+      "relationship": "pq_rewards_equipment",
+      "target": "Future Mai's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-108",
+      "relationship": "pq_rewards_equipment",
+      "target": "Goku Black's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_rewards_equipment",
+      "target": "Zamasu's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_rewards_equipment",
+      "target": "Super Saiyan 4 Suit (Goku)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_rewards_equipment",
+      "target": "SS4 Wig & Tail (Goku)",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_rewards_equipment",
+      "target": "Resistance Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_rewards_equipment",
+      "target": "Resistance Helmet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_rewards_equipment",
+      "target": "Pride Trooper Uniform",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_rewards_equipment",
+      "target": "Toppo's Moustache",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-115",
+      "relationship": "pq_rewards_equipment",
+      "target": "Ribrianne's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
+    },
+    {
+      "pq": "pq-115",
+      "relationship": "pq_rewards_equipment",
+      "target": "Ribrianne's Hood",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward is explicitly listed in the repository's identified all-186 PQ guide; the normalized map is partial and its omission is not treated as a negative claim."
     }
   ],
   "normalization_rules": [
@@ -5911,7 +6119,7 @@
   "current_counts": {
     "skill": 232,
     "super_soul": 135,
-    "equipment": 96,
+    "equipment": 122,
     "character": 247,
     "dlc": 88,
     "farming": 7
@@ -5919,6 +6127,7 @@
   "last_reconciled_scope": "PQ 15-186 reward layer checked against canonical typed fields; 24 previously missing canonical entries added. Existing edge-only relationships retained pending independent-source reconciliation because canonical typed arrays are explicitly partial.",
   "notes": [
     "2026-09-19: Corrected an overly aggressive reconciliation pass. Canonical PQ batch reward arrays are explicitly partial, so edge-only relationships were restored. Only 24 canonical typed reward entries absent from the prior forward layer were added.",
-    "2026-09-19: Added 46 reward relationships supported by the repository's source-normalized reward maps. These are marked source_normalized rather than source_backed because the map layer is explicitly partial."
+    "2026-09-19: Added 46 reward relationships supported by the repository's source-normalized reward maps. These are marked source_normalized rather than source_backed because the map layer is explicitly partial.",
+    "2026-09-19: Promoted 76 source-only normalized reward entries to source_backed using the repository's all-186 PQ guide as independent reward-list evidence."
   ]
 }
