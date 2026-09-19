@@ -39,7 +39,8 @@
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; the form uses a distinct moveset and drains Stamina over time.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Future Super Saiyan",
@@ -51,7 +52,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Power Pole Pro",
@@ -67,7 +69,8 @@
       "ultimate_finish_required": null,
       "ki_cost": 0,
       "mechanics_notes": " Current research documents Power Pole Pro as a 0 Ki activation cost; the transformation uses the Nimbus/Power Pole moveset.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Purification",
@@ -83,7 +86,8 @@
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; transformation changes the moveset and affects stamina recovery.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan",
@@ -99,7 +103,8 @@
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Stage activation thresholds: Super Saiyan 300 Ki, Super Saiyan 2 400 Ki, Super Saiyan 3 500 Ki.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God",
@@ -115,7 +120,8 @@
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; the form does not consume the activation Ki.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -127,7 +133,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -139,7 +146,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Vegeta",
@@ -155,7 +163,8 @@
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Stage activation thresholds: Super Vegeta 300 Ki and Super Vegeta 2 400 Ki.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "The Power to Overcome",
@@ -195,7 +204,8 @@
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; stamina drains while transformed.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Beast",
@@ -206,7 +216,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Become Giant",
@@ -218,7 +229,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Future Super Saiyan",
@@ -230,7 +242,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Kaioken",
@@ -241,7 +254,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Potential Unleashed",
@@ -252,7 +266,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Power Pole Pro",
@@ -264,7 +279,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Pure Progress",
@@ -275,7 +291,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Purification",
@@ -287,7 +304,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan",
@@ -299,7 +317,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan 2",
@@ -311,7 +330,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan Blue Kaioken",
@@ -323,7 +343,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God",
@@ -335,7 +356,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -347,7 +369,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -359,7 +382,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super Vegeta",
@@ -371,7 +395,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Supersonic Mode",
@@ -382,7 +407,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Turn Golden",
@@ -394,7 +420,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Ultra Instinct",
@@ -405,7 +432,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Burst Reflection",
@@ -641,7 +669,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Skill Shop (Conton City)",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Super God Shock Flash",
@@ -1566,7 +1595,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Story progression reward",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Dimension Cannon",
@@ -1606,7 +1636,8 @@
       "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": null,
       "dlc_requirement": "Free Update 11 / Ultra Instinct update",
-      "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)"
+      "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)",
+      "research_status": "enriched"
     },
     {
       "name": "Divine Spear",
@@ -1881,7 +1912,8 @@
       "unlock_method": "Training with Vegeta",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Vegeta training",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Gamma Blaster",
@@ -2125,7 +2157,8 @@
       "unlock_method": "Parallel Quest reward",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Parallel Quest 05 - \"Saiyan Blood\"",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Masenko",
@@ -2222,7 +2255,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Cell (Perfect) mentor training",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Photon Swipe",
@@ -2420,7 +2454,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Goku mentor training",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Spirit Pulse",
@@ -2631,7 +2666,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 81 reward",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Assault Vanish",
@@ -2644,7 +2680,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 131 - \"Fight of the Fusions! Vegito vs Gogeta\"",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Burst Charge",
@@ -2677,7 +2714,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 97 - \"Insidious Plot\"",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Dancing Parapara",
@@ -2741,7 +2779,8 @@
       "mechanics": "Starts at a slow charging rate, then accelerates rapidly after roughly two seconds; slightly faster than Ultimate Charge. Character-exclusive and unavailable to CaCs.",
       "usable_by_cac": false,
       "ultimate_finish_required": null,
-      "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs"
+      "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
+      "research_status": "enriched"
     },
     {
       "name": "Full Power Charge",
@@ -2754,7 +2793,8 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Advancement Test - Advanced Class",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Hero's Flute",
@@ -2805,7 +2845,8 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Goku mentor training, Lesson 1",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Kai Kai",
@@ -2841,7 +2882,8 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Advancement Test - God Class",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Petrifying Spit",
@@ -2877,7 +2919,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 97 - \"Insidious Plot\"",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Quick Sleep",
@@ -2890,7 +2933,8 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Skill Shop (Conton City), after defeating Mira (Final Form) in the main story",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Rise to Action",
@@ -2962,7 +3006,8 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": "Skill Shop"
+      "unlock_method": "Skill Shop",
+      "research_status": "enriched"
     },
     {
       "name": "Super Guard",
@@ -2994,7 +3039,8 @@
       "description": "Ki-charging Super Skill associated with Ultra Instinct Goku; its charge rate improves as it is maintained, and later updates allow the Ultra Instinct Future Warrior to use the same charging function through the Awoken Skill's special input.",
       "mechanics": "Charges Ki significantly faster the longer it is maintained. Ultra Instinct Future Warrior access is tied to the Awoken Skill special input rather than a normal equipped skill slot.",
       "ultimate_finish_required": null,
-      "unlock_method": "Character-exclusive to Ultra Instinct Goku variants; CaCs can access the technique through Ultra Instinct's built-in action in current versions"
+      "unlock_method": "Character-exclusive to Ultra Instinct Goku variants; CaCs can access the technique through Ultra Instinct's built-in action in current versions",
+      "research_status": "enriched"
     },
     {
       "name": "Time Bullet",
@@ -3349,7 +3395,8 @@
       "ki_cost": 100,
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 172 reward",
-      "source_quest": 172
+      "source_quest": 172,
+      "research_status": "enriched"
     },
     {
       "name": "Blazing Attack",
@@ -3416,7 +3463,8 @@
       "ki_cost": 100,
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 44 reward",
-      "source_quest": 44
+      "source_quest": 44,
+      "research_status": "enriched"
     },
     {
       "name": "Burning Swan",
@@ -3498,7 +3546,8 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": "Training with Android 18"
+      "unlock_method": "Training with Android 18",
+      "research_status": "enriched"
     },
     {
       "name": "Death Slash",
@@ -3649,7 +3698,8 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": null
+      "unlock_method": null,
+      "research_status": "enriched"
     },
     {
       "name": "Emperor's Edge",
@@ -3693,7 +3743,8 @@
       "stamina_cost": 300,
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 21 reward",
-      "source_quest": 21
+      "source_quest": 21,
+      "research_status": "enriched"
     },
     {
       "name": "Evil Whirlwind",
@@ -4035,7 +4086,8 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition"
+      "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition",
+      "research_status": "enriched"
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -4116,7 +4168,8 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": null,
-      "unlock_method": "Skill Shop in Conton City"
+      "unlock_method": "Skill Shop in Conton City",
+      "research_status": "enriched"
     },
     {
       "name": "Recoome Kick",
@@ -4251,7 +4304,8 @@
       "ki_cost": 100,
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 38 reward",
-      "source_quest": 38
+      "source_quest": 38,
+      "research_status": "enriched"
     },
     {
       "name": "Shooting Strike",
@@ -4588,7 +4642,8 @@
       "last_verified": "2026-09-18",
       "mechanics": "400 Ki base cost; documented as a 400-Ki Ki Blast Ultimate. Cost is version-sensitive historically, so retain provenance rather than infer from Ultimate class.",
       "ultimate_finish_required": null,
-      "unlock_method": null
+      "unlock_method": null,
+      "research_status": "enriched"
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -4675,7 +4730,8 @@
       "character_source": "Golden Frieza",
       "mechanics_notes": "Starts at 400 Ki and consumes additional available Ki while firing; the number of beams and total damage scale with the user's stored Ki. The documented skill page lists 400+ Ki used.",
       "source_quest_or_shop": "TP Medal Shop",
-      "unlock_method": "TP Medal Shop"
+      "unlock_method": "TP Medal Shop",
+      "research_status": "enriched"
     },
     {
       "name": "Energy Field",
@@ -4714,7 +4770,8 @@
       "last_verified": "2026-09-18",
       "ultimate_finish_required": null,
       "dlc_requirement": "Legendary Pack 1",
-      "character_source": "SSGSS Vegeta (Evolved)"
+      "character_source": "SSGSS Vegeta (Evolved)",
+      "research_status": "enriched"
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
@@ -4749,7 +4806,8 @@
       "unlock_method": "TP Medal Shop / Parallel Quest reward / Double Crystal Raid",
       "source_quest_or_shop": "TP Medal Shop; Parallel Quest 91 - \"Saiyan Revolt\"; Double Crystal Raids",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-18",
+      "research_status": "enriched"
     },
     {
       "name": "Full Power Destruction",
@@ -5317,7 +5375,8 @@
       "ki_cost": 300,
       "unlock_method": "Expert Mission 16",
       "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Supernova",
@@ -5330,7 +5389,8 @@
       "ki_cost": 500,
       "unlock_method": "Expert Mission 6 - \"The Depths of Despair\"",
       "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -5512,7 +5572,8 @@
       ],
       "ki_cost": 300,
       "ultimate_finish_required": null,
-      "unlock_method": "Training with Lord Slug, Lesson 3"
+      "unlock_method": "Training with Lord Slug, Lesson 3",
+      "research_status": "enriched"
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -5530,7 +5591,8 @@
       ],
       "ki_cost": 300,
       "ultimate_finish_required": null,
-      "unlock_method": "Training with Lord Slug, Lesson 3"
+      "unlock_method": "Training with Lord Slug, Lesson 3",
+      "research_status": "enriched"
     },
     {
       "name": "Divine Lasso",
@@ -5543,7 +5605,8 @@
       "ki_cost": 300,
       "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
       "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "research_status": "enriched"
     },
     {
       "name": "Divine Wrath: Purification",
@@ -5579,7 +5642,8 @@
       ],
       "ki_cost": 500,
       "ultimate_finish_required": null,
-      "unlock_method": "TP Medal Shop"
+      "unlock_method": "TP Medal Shop",
+      "research_status": "enriched"
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -5661,7 +5725,8 @@
       ],
       "ki_cost": 500,
       "ultimate_finish_required": null,
-      "unlock_method": "TP Medal Shop (500 TP Medals)"
+      "unlock_method": "TP Medal Shop (500 TP Medals)",
+      "research_status": "enriched"
     },
     {
       "name": "Power Rush",
