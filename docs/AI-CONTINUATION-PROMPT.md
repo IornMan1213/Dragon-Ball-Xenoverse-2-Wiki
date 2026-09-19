@@ -2152,3 +2152,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated the cross-domain audit and status to reconciliation_required.
 - Do not treat empty reward arrays as negative claims. Do not resolve discrepancies by assuming one layer is authoritative; use provenance/source evidence and preserve conflicts.
 - Exact next task: reconcile the 232 recorded differences, beginning with the 3 skill source-only cases and the earliest edge-only skill cases, then equipment subtype gaps, while preserving source conflicts and updating the audit after each tranche.
+
+
+### 2026-09-19 continuation — reward-layer reconciliation correction
+- The initial 232-case audit compared the forward layer to older normalized reward-map artifacts. A direct check of canonical PQ batch files showed those batch reward arrays are explicitly partial, so empty fields cannot justify deleting existing independently sourced relationship edges.
+- Restored the pre-reconciliation forward relationship layer and added **24 canonical typed reward entries** that were genuinely absent: **10 Super Soul edges and 14 equipment edges**.
+- Current forward totals: **229 skills, 135 Super Souls, 53 equipment, 247 characters, 88 DLC, 7 farming** = **759 edges**.
+- Updated `docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json`, `docs/data/pq-cross-domain-audit.json`, and `docs/data/pq-cross-domain-status.json` accordingly.
+- The 232-case report remains useful as a provenance-drift inventory, not as a deletion list. Existing edge-only relationships are retained pending independent source reconciliation.
+- Exact next task: **reconcile the remaining normalized reward-map provenance drift against independent sources, starting with the Super Soul and equipment conflicts, while preserving evidence and not treating partial/empty batch fields as negative claims.**
