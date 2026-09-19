@@ -2271,3 +2271,7 @@ Resolved `ultimate_finish_required` to `false` for **Change The Future**. The PQ
 ## 2026-09-19 — Explicit PQ acquisition-gate batch 4
 
 Resolved four skill acquisition gates: **Counter Burst = false**, **Counter Impact = true**, **Demon Flash Strike = true**, **God Breaker = false**. Evidence distinguishes ordinary character/reward drops from Ultimate Finish bonus slots and explicit UF-only acquisition reports.
+
+
+### 2026-09-19 skill acquisition update
+- **Ultrasonic Blitz**: `ultimate_finish_required=true`; dedicated acquisition evidence identifies it as a PQ151 Ultimate Finish reward.
