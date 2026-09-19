@@ -1307,8 +1307,8 @@ Reconciled the next eight dataset-order records: **Atomic Blast, Bending Kameham
 
 - **Atomic Blast:** CaC-usable; current evidence does not explicitly establish a race/gender/form restriction, so the race field remains null.
 - **Bending Kamehameha:** retained explicit `All CaC races` scope.
-- **Big Bang Kamehameha:** retained explicit `All CaC races` scope. Current public documentation also confirms that the skill's historical behavior changed across updates; the repository records current-version mechanics rather than older teleport behavior. citeturn0search1turn0search9
+- **Big Bang Kamehameha:** retained explicit `All CaC races` scope. Current public documentation also confirms that the skill's historical behavior changed across updates; the repository records current-version mechanics rather than older teleport behavior. (current public update-history references)
 - **Big Bang Knuckle:** corrected/retained as **non-CaC**. Current evidence identifies the PQ172 skill as Vegeta (Super Saiyan God) Ultra Supervillain's Strike Super, without an established CaC acquisition/equip path.
 - **Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, and Burning Attack:** CaC-usable; no explicit narrower CaC race/gender/form restriction was established, so no restriction was inferred.
 - Live census after the Big Bang Knuckle correction: **283 total / 268 CaC-usable / 184 CaC-usable with null race restriction**.
-- The public skill-ID evidence independently lists Atomic Blast and Burning Attack as CaC-usable, supporting the repository's scope classification. citeturn1search0
+- The public skill-ID evidence independently lists Atomic Blast and Burning Attack as CaC-usable, supporting the repository's scope classification. (public skill-ID reference)
