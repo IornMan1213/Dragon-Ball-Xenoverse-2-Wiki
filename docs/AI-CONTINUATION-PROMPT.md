@@ -2061,3 +2061,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Added the current all-186 Steam source to the range.
 - Latest data correction commit: `3bbce3ccc4e7ec3d9ff311fa38263d649382d107`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 81-100**, then update the audit and this handoff.
+
+
+### 2026-09-19 continuation — PQ 81-100 reward pass
+- Canonical `pq-081-100.json` now carries the repository's source-backed skill relationships for PQ 81-100 and consistent all-186 provenance.
+- PQ 86, PQ 87, and PQ 93 remain unresolved/no-normalized-skill rather than being filled by inference.
+- Data commit: `f724f2e9f98f64043628a361cdd86d0717581b2d`.
+- Next exact task: continue the source-backed skill-reward audit through **PQ 101-120**, then update the audit and this handoff.
