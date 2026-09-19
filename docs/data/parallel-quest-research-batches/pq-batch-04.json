@@ -15,7 +15,12 @@
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
       "https://www.reddit.com/r/DragonBallXenoverse2/comments/1cm7bah/"
-    ]
+    ],
+    "record_level_source_pass": {
+      "status": "completed",
+      "scope": "PQ31-PQ40",
+      "note": "Added record-level provenance for all ten records and cross-checked objectives and basic rewards against the maintained 186-PQ transcription plus independent objective tables. PQ36's existing numbering/existence conflict remains explicitly documented and was not silently resolved."
+    }
   },
   "records": [
     {
@@ -49,7 +54,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 32,
@@ -82,7 +94,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 33,
@@ -115,7 +134,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 34,
@@ -148,7 +174,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 35,
@@ -176,7 +209,14 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_basic_rewards",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 36,
@@ -216,7 +256,11 @@
       "unlock_verification": "verified_prerequisite_pq35",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1cm7bah/"
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+        "https://www.youtube.com/watch?v=9TF_bKaaShE"
       ]
     },
     {
@@ -251,7 +295,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 38,
@@ -284,7 +335,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 39,
@@ -317,7 +375,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 40,
@@ -352,7 +417,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     }
   ]
 }
