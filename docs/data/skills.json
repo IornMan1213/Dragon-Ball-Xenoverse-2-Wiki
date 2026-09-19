@@ -937,7 +937,9 @@
       "usable_by_cac": true,
       "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ96. It freezes attackers who strike the stance; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "race_restriction": "All CaC races",
-      "damage_type": "Ki Blast"
+      "damage_type": "Ki Blast",
+      "ki_cost": 0,
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Celestial Wave",
@@ -985,13 +987,15 @@
       "usable_by_cac": true,
       "mechanics_notes": "Current dedicated evidence confirms a 200-Stamina Ki Blast Evasive from PQ82. The stance can inflict paralysis/burn on an attacker; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "race_restriction": "All CaC races",
-      "damage_type": "Ki Blast"
+      "damage_type": "Ki Blast",
+      "ki_cost": 0,
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Explosive Wave",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Explosive_Wave",
         "https://dragonball.fandom.com/wiki/Explosive_Wave",
@@ -1007,7 +1011,9 @@
       "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "race_restriction": "All CaC races",
       "damage_type": "Ki Blast",
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "ki_cost": 0,
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Force Shield",
@@ -1119,7 +1125,7 @@
       "usable_by_cac": true,
       "character_source": "Majin Buu",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest reward",
@@ -1135,7 +1141,8 @@
         "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Psychic Move",
@@ -1144,7 +1151,7 @@
       "usable_by_cac": true,
       "character_source": "Guldo",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest reward",
@@ -1161,13 +1168,14 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 73,
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Punisher Guard",
       "class": "Evasive",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Punisher_Guard",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -1183,7 +1191,9 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Punisher Guard as a 300-Stamina Other Evasive from the Skill Shop after story progression. It provides universal invulnerability/super armor for about 3 seconds. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "race_restriction": "All CaC races",
       "damage_type": "Other",
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "ki_cost": 0,
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Side Bridge",
@@ -1217,7 +1227,7 @@
       "usable_by_cac": true,
       "character_source": "Frieza",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest reward",
@@ -1225,7 +1235,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Spread Shot Retreat is a Evasive Other skill associated with Frieza.",
       "mechanics_notes": "Dedicated current-version evidence confirms Spread Shot Retreat as a 300-Stamina Ki Blast Evasive from PQ28. It retreats while firing a tracking barrage that can stun. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1233,7 +1243,8 @@
         "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Steel Mirage",
@@ -1264,7 +1275,7 @@
       "name": "Final Pose",
       "class": "Evasive",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Pose",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -1280,7 +1291,9 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive from the Skill Shop. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "race_restriction": "All CaC races",
       "damage_type": "Other",
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "ki_cost": 0,
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Mach Dash",
@@ -1305,7 +1318,9 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Mach Dash as a 200-Stamina Power Up Evasive from PQ18. It creates distance and temporarily increases movement speed. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "race_restriction": "All CaC races",
       "damage_type": "Other",
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "ki_cost": 0,
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Angry Shout",
@@ -1328,7 +1343,9 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Angry Shout as a 300-Stamina Strike Evasive from PQ68 that pushes opponents back and restores Ki. The existing explicit Pure Majin-form restriction is retained. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "race_restriction": "Majin (Pure Majin form)",
       "damage_type": "Strike",
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "ki_cost": 0,
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Energy Barrier",
@@ -1352,7 +1369,9 @@
       "mechanics_notes": "Current evidence confirms Energy Barrier as a 300-Stamina Evasive barrier from PQ32. It cancels Ki waves, knocks opponents back, and can be extended by holding the input while consuming Ki. The record remains Strike pending a stronger direct attack-type source. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current evidence explicitly ties the CaC drop to defeating Cell during the Ultimate Finish of PQ32.",
       "race_restriction": "All CaC races",
       "damage_type": "Strike",
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "ki_cost": 0,
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Spirit Explosion",
@@ -1361,7 +1380,7 @@
       "usable_by_cac": true,
       "character_source": "Cooler",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest reward",
@@ -1369,7 +1388,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Spirit Explosion is a Strike Evasive skill.",
       "mechanics_notes": "Dedicated current-version evidence confirms Spirit Explosion as a 200-Stamina Strike Evasive from PQ25 and explicitly states it is obtainable for CaCs. It creates a close-range blue explosion that knocks opponents away. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1378,7 +1397,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 25,
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Spirit Slash",
@@ -1387,7 +1407,7 @@
       "usable_by_cac": true,
       "character_source": "Gohan (Teen)",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest reward",
@@ -1403,7 +1423,8 @@
         "https://dbxv2.fandom.com/wiki/Spirit_Slash",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Atomic Blast",
@@ -2436,7 +2457,7 @@
       "usable_by_cac": true,
       "character_source": "Beerus",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest reward",
@@ -2453,7 +2474,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Headshot"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Heat Wave",
@@ -2804,7 +2826,7 @@
       "usable_by_cac": true,
       "character_source": "Android 18 / Android 18 (DB Super) / Great Saiyaman 2",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
@@ -2820,7 +2842,8 @@
         "https://dbxv2.fandom.com/wiki/Rolling_Bullet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Shine Shot",
@@ -3054,7 +3077,7 @@
       "usable_by_cac": true,
       "character_source": "Gotenks",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
@@ -3071,7 +3094,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 54,
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Wild Buster",
@@ -5495,7 +5519,7 @@
       "usable_by_cac": true,
       "character_source": "Android 17",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
@@ -5510,7 +5534,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Energy_Field"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
     },
     {
       "name": "Final Explosion",
