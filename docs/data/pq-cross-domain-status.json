@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "scope": "PQ 1-186",
-  "status": "relationship_index_populated_and_reward_provenance_reconciled",
+  "status": "final_relationship_consistency_audit_in_progress",
   "canonical_range": {
     "first": 1,
     "last": 186,
@@ -21,7 +21,7 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Audit PQ 1-14 coverage and equipment subtype semantics; then perform final 1-186 relationship consistency audit without treating partial normalized maps as exhaustive negatives.",
+  "next_gate": "Run final 1-186 relationship consistency checks: duplicate edges, invalid PQ numbers, missing reverse mappings, stale counts, and provenance/status integrity.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -29,5 +29,40 @@
     "source_only_cases_resolved": 68,
     "source_only_entries_resolved": 76,
     "remaining_unresolved_source_only_entries": 0
+  },
+  "current_counts": {
+    "skill": 232,
+    "super_soul": 135,
+    "equipment": 122,
+    "character": 247,
+    "dlc": 88,
+    "farming": 7
+  },
+  "coverage_audit": {
+    "canonical_reward_batch_files": 9,
+    "canonical_reward_batch_records": 172,
+    "canonical_reward_batch_scope": "PQ 15-186",
+    "missing_canonical_reward_batch_PQs": [
+      1,
+      12,
+      13,
+      14
+    ],
+    "relationship_PQ_coverage": {
+      "covered_PQs": 182,
+      "missing_PQs": [
+        1,
+        12,
+        13,
+        14
+      ]
+    },
+    "equipment_reverse_coverage": {
+      "forward_edges": 122,
+      "missing_reverse_edges": 0,
+      "dual_subtype_edges_before_fix": 31,
+      "dual_subtype_edges_after_fix": 0
+    },
+    "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   }
 }
