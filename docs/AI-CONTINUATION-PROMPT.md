@@ -1472,3 +1472,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `0f663668f0ed8d7dee23cae1560334afd1d16914`.
 - Audit commit: `c9dd40dd7dc231cb55d4d6065d16dbaa86730662`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Super Ghost Buu Attack.
+
+
+### 2026-09-19 continuation — Vanishing Ball through Burst Charge
+- Reconciled **Vanishing Ball, Variable Snipe Shot, Victory Cannon, Wild Buster, Afterimage, Afterimage Strike, Assault Vanish, and Burst Charge**.
+- Vanishing Ball retains **Majin (Pure Majin form)**. Victory Cannon retains corrected **Ki Blast Evasive / 300 Stamina** classification and its stale Super description was corrected.
+- Afterimage, Afterimage Strike, Assault Vanish, and Burst Charge retain **All CaC races**. Variable Snipe Shot remains without an explicitly established narrower restriction.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `87866c3572aeb5a731ebea24c4552d2f5bd8b291`.
+- Audit commit: `cc0b5052d7ddd426c74af556d04cb16db6315cde`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Burst Charge.
