@@ -1360,3 +1360,18 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important boundaries: Burning Slash remains Human/Saiyan-only; Crimson Edge remains non-CaC; Burst Blitz is 300 Ki; Taunt is 0 Ki; Deadly Dance is 100 Ki/all CaC races.
 - Data commit: `08ff44947b5249f5131f9d84a98fe2d8d705d58b`; audit commit: `86135187a014082690256f8ac8289a3867aff352`.
 - Continue from the records immediately following Deadly Dance in dataset order.
+
+
+### 2026-09-19 continuation — Deadly Dance through Emperor's Edge
+- Workstream: P1 skill race-restriction census / current-version provenance boundary.
+- Recomputed the live canonical census before editing: **283 total skills / 269 CaC-usable / 182 CaC-usable records with null race_restriction**.
+- Reconciled the next eight dataset-order records after Deadly Dance: **Death Slash, Demon Flurry, Demonic Destruction, Destruction's Conductor, Dragon Spark, Dragon Spiral, Dragon Thunder, and Emperor's Edge**.
+- Current evidence supports Future Warrior/CaC availability for Death Slash, Demon Flurry, Demonic Destruction, Destruction's Conductor, and Emperor's Edge, but does not explicitly establish CaC race/gender/form scope; their race fields remain null.
+- Dragon Spark and Dragon Spiral were rechecked for current skill identity/acquisition. The accessible evidence did not establish explicit CaC race/gender/form scope, so no race restriction was inferred.
+- **Dragon Thunder was corrected from all-CaC-races to non-CaC.** Its dedicated Xenoverse 2 evidence explicitly marks the 100-Ki Omega Shenron Strike Super as unavailable for CaCs. This reduced the CaC-usable count from 270 to 269; the null-race count remains 182 because Dragon Thunder's prior race field was populated.
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Evidence limitations: several current skill pages establish Future Warrior availability but do not expose an explicit race/gender/form restriction. Character ownership, partner customization, PQ availability, and generic Future Warrior technique indexing were not treated as sufficient evidence for a race restriction. Dragon Spark/Dragon Spiral remain evidence-bound rather than guessed.
+- Commits: `8b2b6f729974c8e569fdaf48a87916e07abd0053` (skill data), `eaa080195dd8c25f1931e1533698defd525fff38` (coverage audit).
+- Validation: `skills.json` re-fetched and parsed successfully; 283 records remain. Live census is 283/269/182. No validator was changed or weakened. Modified audit/data files were checked for accidental ChatGPT/internal citation artifacts; none were added.
+- CI: combined status returned no statuses and commit-specific workflow-run queries returned no runs for either new commit. This is not evidence of a passing validator; continue treating absent/opaque workflow results as non-actionable infrastructure/account state.
+- Exact next task: **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, and God Breaker**. Recompute the live census first, then research explicit current-version race/gender/form evidence only and preserve nulls where the evidence boundary remains.
