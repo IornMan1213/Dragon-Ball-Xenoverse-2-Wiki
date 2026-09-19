@@ -1597,3 +1597,16 @@ Reconciled **Teleporting Vanishing Ball, Thunder Flash, Total Detonation Ball, W
 - Darkness Rush (Melee)'s previous `Non-Namekian` restriction was removed because the reviewed Future Warrior evidence does not support treating that character-wide restriction as a CaC race restriction.
 - Exact drop probabilities and Ultimate Finish semantics remain bounded where evidence is incomplete.
 - Live census: **283 total / 269 CaC-usable / 140 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Darkness Rush (Ranged) through Godly Display
+
+Reconciled **Darkness Rush (Ranged), Divine Lasso, Divine Wrath: Purification, Dragon Fist, Explosive Buu Buu Punch, Final Rampage, Gigantic Rage, and Godly Display**.
+
+- **Darkness Rush (Ranged)** retains its explicit **Namekian** restriction; current skill evidence also confirms the 300-Ki Strike Ultimate identity and Lord Slug Lesson 3 route.
+- **Divine Lasso, Dragon Fist, Divine Wrath: Purification, Gigantic Rage, and Godly Display** now carry explicit **All CaC races** scope where Future Warrior/CaC evidence establishes access. Divine Wrath: Purification is corrected to **Ki Blast Ultimate**; Gigantic Rage is corrected to **Strike Super / 200 Ki**.
+- **Explosive Buu Buu Punch** is corrected to **Strike Super / 100 Ki** and retains **Majin** restriction. Current evidence does not establish a separate gender restriction, so none is inferred.
+- **Final Rampage** retains **All CaC races** from the repository's existing Future Warrior evidence, but remains **partially verified** because the current public skill page emphasizes Vegeta's character use while the maintained quest corpus identifies PQ174 as its reward. No unsupported drop condition was added.
+- TP Medal Shop skills retain rotation-dependent availability; no fixed current shop date was inferred from historical schedules.
+- Live skill census after this batch: **283 total / 269 CaC-usable / 138 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
