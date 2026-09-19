@@ -851,3 +851,7 @@ Reviewed `Force Shield`, `Instant Rise`, `Ki Explosion`, `Maiden Burst`, `Mighty
 ## 2026-09-19 — null-race batch: barriers, counters, and offensive skills
 
 Reviewed `Energy Barrier`, `Spirit Explosion`, `Spirit Slash`, `Atomic Blast`, `Blaster Ball`, `Bluff Kamehameha`, `Breaker Energy Wave`, `Burning Attack`, `Burst Kamehameha`, `Burst Stinger`, `Dark Inscription`, and `Demon Ray`. Dedicated/reference pages confirm Future Warrior use for the checked techniques, but the reviewed evidence does not provide sufficiently explicit individual race/gender restrictions or an individual “regardless of race” statement for these records. No `race_restriction` classifications were changed.
+
+## 2026-09-19 — null-race batch: DLC/character-derived techniques
+
+Reviewed `Destruction's Concerto: Comet`, `Destruction's Concerto: Starfall`, `Dimension Cannon`, `Double Death Slicer`, `Dust Attack`, `Earth Splitting Galick Gun`, `Emperor's Blast`, `Emperor's Cannon`, `Eraser Bomb`, `Evil Blast`, `Evil Flame`, and `Final Cannon`. Current dedicated/reference evidence confirms Future Warrior acquisition or use where documented, but does not establish sufficiently explicit individual race/gender restrictions for these records. The Future Warrior index also lists several of them without a race qualifier; omission is not treated as proof of universal access. No `race_restriction` fields were changed.
