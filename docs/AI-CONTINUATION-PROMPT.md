@@ -1677,3 +1677,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Web evidence specifically corroborated Power Rush's 1000 Ki / Strike Ultimate / 14-hit behavior and PQ122 acquisition; the maintained PQ guide corroborates PQ122 and PQ84 reward identities. citeturn0search0turn0search5turn0search8
 - Validation after write: reparse skills.json, recount CaC fields, and re-read the seven target records.
 - Exact next task: continue with the next eight records after Victory Rush. Preserve null race restrictions when explicit evidence is insufficient.
+
+
+### 2026-09-19 continuation — reviewed null-race cohort
+- The canonical skill order reaches Victory Rush at the end of the current 283-record dataset, so there are no records after Victory Rush to process by simple sequential order.
+- Per the active P1 census objective, switched to the first eight remaining CaC-usable records with `race_restriction: null`: **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker**.
+- Reviewed their Future Warrior/CaC availability and counter classifications using current accessible evidence. No explicit race/gender/form restriction was established, so the null race field is intentionally preserved rather than replaced with an inferred value.
+- Updated docs/data/skills.json and docs/COVERAGE-AUDIT.md.
+- Data commit: 63564f57503db5695b57d08f6ee810113f80fe5c.
+- Audit commit follows in this cycle.
+- Live census: **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue the null-race census with the next eight CaC-usable records whose `race_restriction` is null. Do not force a restriction when evidence only establishes character ownership or generic Future Warrior availability.
