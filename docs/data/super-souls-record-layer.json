@@ -1058,6 +1058,118 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79100038",
         "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-contents-of-the-4th-year-anniversary-event"
       ]
+    },
+    {
+      "id": "super-soul-044",
+      "name": "Let's see you handle THIS kind of power!",
+      "character_source": "Goku Black",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Zamasu's Scheme raid",
+      "first_clear_or_repeat": "Raid reward",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text; exact trigger requires further reconciliation",
+      "effect_text": "Boosts all attacks after a successful Just Guard; exact magnitude/duration require reconciliation.",
+      "effect_magnitude": "unresolved",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396"
+      ]
+    },
+    {
+      "id": "super-soul-045",
+      "name": "Your time in this fight ends now!",
+      "character_source": "Jimeze",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "From Dust to Dust raid",
+      "first_clear_or_repeat": "Raid reward",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text; exact trigger requires further reconciliation",
+      "effect_text": "After using Instant Transmission, restores Ki.",
+      "effect_magnitude": "Ki recovery S reported",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396"
+      ]
+    },
+    {
+      "id": "super-soul-046",
+      "name": "Kind of human-like, don't you think?",
+      "character_source": "Super 17",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Super 17 raid",
+      "first_clear_or_repeat": "Raid reward",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text; exact trigger requires further reconciliation",
+      "effect_text": "Effect requires item-level reconciliation; raid acquisition is established.",
+      "effect_magnitude": "unresolved",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396"
+      ]
+    },
+    {
+      "id": "super-soul-047",
+      "name": "Kicking a Shadow Dragon in the head is not a wise thing to do!",
+      "character_source": "Omega Shenron",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Heartless Galactic Warrior / Superior Shadow Dragon reward family",
+      "first_clear_or_repeat": "Raid reward",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text; exact trigger requires further reconciliation",
+      "effect_text": "Effect requires item-level reconciliation; raid acquisition is established.",
+      "effect_magnitude": "unresolved",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396"
+      ]
     }
   ],
   "research_notes": [
@@ -1071,7 +1183,8 @@
     "2026-09-19: promoted Super Soul research batch 03 (IDs 024–031) after duplicate, schema, acquisition, and independent-source reconciliation. Shop rotation details and unresolved drop-rate behavior remain explicitly unclaimed.",
     "2026-09-19: indexed and promoted four FUTURE SAGA Chapter 4 Super Souls (032–035) using official DLC identity evidence, PQ inventory evidence, and explicitly attributed community testing. Unresolved item-level mechanics remain marked unresolved; no drop rates or Normal-vs-Ultimate-Finish mapping inferred.",
     "2026-09-19: promoted raid/event Super Soul batch 04 (036–039) with secondary acquisition/effect reconciliation; exact recurrence schedules and drop rates remain unresolved.",
-    "2026-09-19: expanded raid/event coverage with records 040–043, including Cell, Hercule, Gohan (Adult), and Fused Zamasu raid reward families."
+    "2026-09-19: expanded raid/event coverage with records 040–043, including Cell, Hercule, Gohan (Adult), and Fused Zamasu raid reward families.",
+    "2026-09-19: identified additional raid-exclusive Super Soul candidates 044–047 from raid reward catalog and community raid-exclusive index; mechanics remain partially verified pending item-level reconciliation."
   ],
   "sources": [
     {
