@@ -1,19 +1,23 @@
 {
-  "schema_version":"1.0",
-  "scope":"PQ 1-186",
-  "status":"framework_complete_population_in_progress",
-  "canonical_range":{"first":1,"last":186,"count":186},
-  "forward_relationship_index":"docs/data/pq-reward-relationships.json",
-  "schema":"docs/data/pq-cross-domain-schema.json",
-  "audit":"docs/data/pq-cross-domain-audit.json",
-  "reverse_index_plan":"docs/data/pq-cross-domain-index.json",
-  "current_edges":{
-    "skill":20,
-    "super_soul":0,
-    "equipment":4,
-    "character":0,
-    "dlc":5,
-    "farming":4
+  "schema_version": "1.0",
+  "scope": "PQ 1-186",
+  "status": "framework_complete_population_in_progress",
+  "canonical_range": {
+    "first": 1,
+    "last": 186,
+    "count": 186
   },
-  "note":"Counts are the explicitly normalized seed edges in this pass, not total game rewards. The expansion queue remains intentionally open until all canonical batch reward fields have been reconciled."
+  "forward_relationship_index": "docs/data/pq-reward-relationships.json",
+  "schema": "docs/data/pq-cross-domain-schema.json",
+  "audit": "docs/data/pq-cross-domain-audit.json",
+  "reverse_index_plan": "docs/data/pq-cross-domain-index.json",
+  "current_edges": {
+    "skill": 229,
+    "super_soul": 0,
+    "equipment": 4,
+    "character": 0,
+    "dlc": 5,
+    "farming": 4
+  },
+  "note": "Skill relationship population is source-backed across PQ 1-186; remaining cross-domain expansion is Super Soul, equipment, character, DLC and reverse-index reconciliation."
 }
