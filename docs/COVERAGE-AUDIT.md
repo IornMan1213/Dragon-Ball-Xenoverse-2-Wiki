@@ -1376,3 +1376,15 @@ Reconciled **Handy Canon, Headshot, Heat Wave, Ill Bomber, Ill Rain, Kamehameha,
 - No race restriction was inferred from character ownership, mentor/PQ source, or generic Future Warrior listings alone.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Paralyze Beam through Reverse Shot
+
+Reconciled **Paralyze Beam, Pendulum Bullet, Perfect Shot, Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, and Reverse Shot**.
+
+- Paralyze Beam, Pendulum Bullet, Photon Swipe, Pretty Cannon, Ray Blast, and Reverse Shot remain CaC-usable without an explicitly established narrower race/gender/form restriction.
+- **Perfect Shot** retains explicit **All CaC races** scope.
+- **Raid Blast** remains a 100-Ki Ki Blast Super for **Super Saiyan God Vegeta** from PQ136 with the existing Ultimate Finish requirement; its stale description naming Goku (Ultra Instinct) was corrected.
+- Pretty Cannon, Ray Blast, and Reverse Shot remain bounded where exact drop/Ultimate Finish conditions or detailed numerical mechanics are not explicitly established.
+- No race restriction was inferred from character ownership or PQ source alone.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
