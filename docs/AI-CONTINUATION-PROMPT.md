@@ -2457,3 +2457,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: e12a057fd694aae9f8bd3a4a8483505891082359.
 - Live nullable Super/Ultimate census: 148 total (109 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates and keep null when acquisition gating is not established.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 9
+- Resolved `ultimate_finish_required=false` for Final Cannon (PQ52), Evil Flight Strike (PQ21), and Teleporting Vanishing Ball (PQ62).
+- Evidence: the live PQ guide explicitly lists each in its corresponding Basic Reward section.
+- Skills commit: 4c69445cd5e0bf3ca3c03835fe09d24d11faa5b0.
+- Live nullable Super/Ultimate census: 145 total (107 Super, 38 Ultimate).
+- Next task: continue explicit Basic Reward candidates; preserve null for records whose acquisition gate is not established.
