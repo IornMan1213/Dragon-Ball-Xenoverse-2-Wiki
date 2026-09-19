@@ -5373,12 +5373,13 @@
       "skill_description": "Majin Kamehameha is a Ultimate Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "race_restriction_reconciled",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Majin_Kamehameha"
-      ]
+      ],
+      "race_restriction": "Majin"
     },
     {
       "name": "Mystic Flash",
