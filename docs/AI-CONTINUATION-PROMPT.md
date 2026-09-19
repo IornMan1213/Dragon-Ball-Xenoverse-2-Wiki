@@ -1735,3 +1735,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — Destruction's Concerto: Starfall through Eraser Bomb
+- Reviewed the next eight null-race CaC-usable records: **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, Eraser Bomb**.
+- Preserved null race restrictions because reviewed Future Warrior/CaC evidence does not establish a narrower race/gender/form restriction.
+- Data commit: 249472aeae4819c4a855cd9054f1a09a059b536d.
+- Audit commit follows in this cycle.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
