@@ -740,7 +740,7 @@
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ119 Ultimate Finish)",
       "source_quest": 119,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 119 - Ultimate Finish",
       "race_restriction": "All CaC races",
