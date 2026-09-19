@@ -700,3 +700,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected `usable_by_cac` to `true`; no race restriction was inferred from that build.
 - The record remains `partially_verified` because the build establishes use, not the complete acquisition/drop semantics.
 - Skills commit: `7e4650b290fdf48c6b1c237286b1a7772ff6cd25`.
+
+
+## 2026-09-19 final null-CaC cohort closure
+
+- Closed the final three `usable_by_cac: null` records: **Dark Inscription, Emperor's Cannon, and Chaotic Time Impact**.
+- A DLC 20 CaC-focused source explicitly presents all three Golden Frieza skills as **CaC Super & Ultimate Attacks**. citeturn1youtube13
+- The Future Warrior technique reference establishes that the custom protagonist can learn character-origin techniques through the game's skill acquisition systems, but character preset ownership alone was not used as proof. citeturn0search5
+- All three are now `usable_by_cac: true`; no race restriction was inferred from this evidence. Acquisition/drop gating remains separately marked as research where unresolved.
+- Skills commit: `256d88f05c339da6bfcab7a7c7b3f1d18bd68a1e`.
