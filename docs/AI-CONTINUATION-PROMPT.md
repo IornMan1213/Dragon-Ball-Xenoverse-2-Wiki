@@ -671,3 +671,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `6cc97745e9856af45e52d148aa3d40f6f14f7184`.
 - Coverage commit: `2a6a05a09584ebfcd7ef0936015969123ae25d74`.
 - The null-CaC cohort is now **15 records**. Continue explicit-evidence review; do not infer CaC eligibility from a character's equipped moves alone.
+
+
+### 2026-09-19 cycle update — DLC evidence boundary re-audit
+- Re-audited the remaining unresolved DLC cohort. Character movesets and PQ reward tables were verified, but those sources do not by themselves establish CaC eligibility. God of Destruction's Plaything/Poise remain tied to Belmod; Force Edge/Burning Blast remain tied to SS3 Vegeta (DAIMA) in the current evidence. citeturn0search2turn0search5turn0search17turn0search1
+- Skills commit: `dd675147e02a668b79a8b94b2293a8d55d27fbf9`.
+- Coverage commit: `f38f3e3544682ab7d107c2ba1de5e10b8dbb6b87`.
+- Next: seek explicit Future Warrior/CaC references for the remaining 15 records; if unavailable, keep them unresolved and move to the race-restriction census rather than guessing.
