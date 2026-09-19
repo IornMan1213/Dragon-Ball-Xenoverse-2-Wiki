@@ -813,3 +813,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Coverage commit: `f5b4b180bc21eb1a49431252b90c10e450816c18`.
 - Evidence: accessible Future Warrior technique reference plus individual technique pages for the clearest acquisition/user confirmations. citeturn1search0turn1search2turn1search3turn1search5
 - Exact next task: continue the 186-record race-restriction backlog, prioritizing explicit race/gender/form wording. Do not turn generic Future Warrior technique membership into `All CaC races` without an explicit universal-race statement.
+
+
+### 2026-09-19 cycle update — Future Warrior provenance expansion batch 2
+- Continued the race-restriction census after rechecking the live **283 / 270 / 186** skill census.
+- Added the independent Future Warrior technique reference to 20 existing CaC-usable records: **Burst Rush, Change The Future, God Breaker, Psychic Move, Atomic Blast, Burning Attack, Crazy Finger Shot, Death Psycho Bomb, Emperor's Blast, Charge, Blazing Attack, Burst Blitz, Evil Whirlwind, Freedom Kick, Mach Punch, Recoome Kick, Sauzer Blade, Final Explosion, Heat Dome Attack, and Victory Rush**.
+- These are provenance-only updates. The source explicitly identifies the techniques within the Future Warrior's Xenoverse 2 technique set, while also warning that some techniques are race/gender/transformation exclusive; therefore these records remain race-null unless a separate explicit restriction is established.
+- Skills commit: `02bdd16007073f4e838e6242279f7b65c21571f9`.
+- Coverage commit: `04768530cb211172ed514d3e619f76a43f23b9d2`.
+- Evidence source: Future Warrior technique reference. citeturn1view0
+- Exact next task: continue the remaining **186** null-race CaC records, separating explicit restriction evidence from mere Future Warrior usage/provenance and preserving null where race scope remains unproven.
