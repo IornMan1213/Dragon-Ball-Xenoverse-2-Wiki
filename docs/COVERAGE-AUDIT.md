@@ -1424,3 +1424,14 @@ Reconciled **Charged Ki Wave, Dancing Parapara, Energy Charge, Energy Release, F
 - Dancing Parapara and Hero's Flute remain CaC-usable without an explicitly established narrower race/gender/form restriction; no restriction was inferred from mentor or character association alone.
 - Final Charge retains its character-exclusive Evolved Vegeta scope; Instant Charge retains its Mira/boss-only scope.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Instant Transmission through Rising Rage
+
+Reconciled **Instant Transmission, Kai Kai, Maximum Charge, Petrifying Spit, Phantom Fist, Quick Sleep, Rise to Action, and Rising Rage**.
+
+- Instant Transmission, Kai Kai, Maximum Charge, Petrifying Spit, Phantom Fist, and Rise to Action retain explicit **All CaC races** scope.
+- Quick Sleep retains its explicit **Majin only** restriction.
+- Rising Rage remains character-exclusive to Restrained Broly and non-CaC.
+- No new narrower race/gender/form restriction was inferred from mentor or character association alone.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
