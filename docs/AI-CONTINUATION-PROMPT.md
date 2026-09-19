@@ -2797,3 +2797,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `23022bc2ce8175f687d7b190f0369fdfe78404ba`.
 - Exact next task: continue `source_quest` only where an explicit quest identifier/title is already supported by the record and reliable external evidence; leave ambiguous reward-context records unchanged.
 
+### 2026-09-19 continuation — source-quest provenance batch 4
+- Added eight explicit PQ identifiers: **Dust Attack (PQ78), Emperor's Blast (PQ70), Evil Blast (PQ114), Evil Flame (PQ117), Final Cannon (PQ52), Flash Chaser (PQ138), Gamma Blaster (PQ155), Giant Cluster (PQ163)**.
+- Quest titles were intentionally not inferred; the repository already supplied the numbered PQ references.
+- Skills commit: `f94c23e99bd1bce43f153b57fbaec54d9fd9187b`.
+- Coverage audit commit: `68882bddc6fbebb8d8b3c96e38aea312d746a1d6`.
+- Exact next task: continue `source_quest` in small evidence-backed batches, using explicit identifiers already present in the records and external confirmation where useful.
+
