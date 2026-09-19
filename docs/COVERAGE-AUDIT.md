@@ -1970,3 +1970,13 @@ Reviewed the **11 transformation/Awoken records with missing `research_status`**
 - Set `last_verified` to **2026-09-19** for these records.
 - Preserved the existing race restrictions, mechanics, acquisition data, and source lists; no transformation restriction was inferred or broadened.
 - This closes the identified missing research-status metadata without weakening validation rules.
+
+
+## 2026-09-19 — explicit acquisition-source metadata normalization
+
+Inspected the remaining skill records with missing `source_quest_or_shop` and matched only cases where the existing `unlock_method` already explicitly identified a quest, shop, training source, wish, or character-exclusive boundary.
+
+- Normalized explicit acquisition-source fields for **28 records** where the source was directly recoverable from existing structured data, including Parallel Quests, Expert Missions, Skill/TP Medal Shops, mentor training, Shenron wish, and character-exclusive skills.
+- Preserved unresolved acquisition fields where the existing record did not provide a sufficiently precise source; no source was inferred from character ownership alone.
+- Refreshed `last_verified` to **2026-09-19** only for records changed in this normalization.
+- No validator or validation rule was weakened.
