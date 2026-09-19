@@ -984,3 +984,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Character ownership, mentor status, and category membership remain insufficient evidence for race classification.
 - Canonical skill count remains 283 and unresolved CaC null-race count remains 183.
 - Exact next task: continue the next unresolved null-race cohort after Ultrasonic Blitz, beginning with the current live ordering, and classify only from explicit current-version evidence.
+
+
+### 2026-09-19 cycle update — evasive-skill provenance boundary
+- Reviewed Absolute Zero, Dragon Burn, Explosive Wave, and Force Shield.
+- Added the missing direct Xenoverse 2 provenance URL for Explosive Wave; the other three already had direct provenance.
+- Current evidence does not explicitly establish CaC race/gender/form scope, so no race classifications were changed.
+- Do not convert generic Evasive Skill/CaC availability listings into race-specific classifications without explicit evidence.
+- Canonical skill count remains 283 and unresolved CaC null-race count remains 183.
+- Exact next task: continue the next unresolved null-race cohort beginning with Instant Rise, then Ki Explosion, Maiden Burst, and subsequent live-order records.
