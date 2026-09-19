@@ -868,3 +868,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - No data change was warranted this pass; the remaining 186 null-race records need new evidence rather than inference.
 - Coverage commit: `546a9531560caa7213ee226349c032096d89cabe`.
 - Exact next task: expand research beyond the current Future Warrior technique list and seek independent explicit race/gender/form statements for unresolved canonical skills.
+
+### 2026-09-19 cycle update — Death Psycho Bomb explicit unrestricted evidence
+- Classified **Death Psycho Bomb** as `All CaC races`.
+- Evidence: the dedicated technique source explicitly states that in Xenoverse 2 the Future Warrior obtains it from PQ33 and can use it **regardless of race**. 
+- This was a canonical null-race record, so the live unresolved cohort decreases by one.
+- Skills commit: `d510d9aadf33fda593ed2cef2695af1d58aa16f2`.
+- Coverage commit: `d79eeed38912d6f37269233554aa24a3a29cd9e1`.
+- Exact next task: continue searching independent technique pages for equally explicit race/unrestricted statements among the remaining null-race records.
