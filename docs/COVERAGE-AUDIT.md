@@ -1820,3 +1820,13 @@ Reviewed the next eight null-race CaC-usable records: **Time Skip/Back Breaker, 
 - Preserved existing acquisition and mechanics metadata; character-specific usage was not converted into a race restriction.
 - Live census: **283 total / 269 CaC-usable / 100 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Force Shield through Spread Shot Retreat race-restriction census
+
+Reviewed: **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, Spread Shot Retreat**.
+
+- Added explicit **All CaC races** scope to all eight. Reviewed evidence documents Future Warrior/CaC availability and does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition and mechanics metadata; no character-specific usage was converted into a race restriction.
+- Live census: **283 total / 269 CaC-usable / 92 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
