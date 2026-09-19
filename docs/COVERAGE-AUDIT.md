@@ -1756,3 +1756,13 @@ Reviewed **Hero's Flute, Burning Swan, Burst Blitz, Death Slash, Demon Flurry, D
 - PQ116 documentation lists Hero's Flute as a reward, while Future Saga Chapter 2 documentation lists Dragon Spark and Burst Blitz among its skills.
 - No explicit CaC race/gender/form restriction was established for this cohort; null race fields remain intentional.
 - No character ownership was converted into a race restriction.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Dragon Spiral through God of Destruction's Poise
+
+Reviewed **Dragon Spiral, Emperor's Edge, Evil Whirlwind, Fierce Fist, Force Edge, Freedom Kick, Gamma Impact, and God of Destruction's Poise**.
+
+- Current Future Warrior documentation identifies Death Slash/Emperor's Edge with Frieza/Golden Frieza, Evil Whirlwind with Teen Gohan, Freedom Kick with Android 17, Gamma Impact with Gamma 2, and Fierce Fist with Orange Piccolo; these character associations do not by themselves establish CaC race/gender/form restrictions.
+- Dedicated current skill documentation confirms Gamma Impact as a Strike Super costing 100 Ki and God of Destruction's Poise as a Strike Super costing 100–300 Ki; neither source establishes a CaC race/gender/form restriction.
+- No explicit CaC race/gender/form restriction was established for this cohort; null race fields remain intentional.
+- No character ownership was converted into a race restriction.
