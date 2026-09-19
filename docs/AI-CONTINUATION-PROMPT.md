@@ -1594,3 +1594,18 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `232d0cfa9a9278548e509318c7f67ca503675322`.
 - Audit commit: `07dca93cf13eb6e75fc46b5cd6e8a545b33928f2`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Divine Ray Bomb.
+
+
+### 2026-09-19 continuation — Emperor's Death Beam through Gigantic Burst
+- Workstream: P1 canonical skill race-restriction census, continuing the post-PQ unlock-field skill audit.
+- Recomputed the live canonical dataset before the edit: 283 unique skills / 269 CaC-usable / 171 CaC-usable with null race restriction.
+- Reconciled Energy Field, Final Flash (SS3 DAIMA), Final Kamehameha, Full Power Destruction, Gigantic Breaker, and Gigantic Burst as All CaC races. Emperor's Death Beam and Final Explosion already carried that explicit scope and were re-verified in the same cohort.
+- Evidence used: Xenoverse 2-specific skill pages, the maintained Future Warrior/skill corpus, and current player evidence for the newly reconciled CaC-usable records. Character ownership alone was not treated as a race restriction.
+- Updated docs/data/skills.json. Canonical count remains 283 and the live null-race count is now 165.
+- Attempted to create docs/data/skill-research-batches/skill-batch-48.json; the create-file connector returned HTTP 422 requiring a SHA for a new file. No historical batch was overwritten or validators bypassed.
+- Data commit: 6361732632aeafcf3d22b55def68d8285339635b. Coverage commit: 28831d9d35666df54d0e9865f82f4dd2a1052e8b.
+- Validation: skills.json parses as JSON; repository search found 0 ChatGPT/UI citation artifacts and 0 turn-search identifiers.
+- CI: the connector returned no pull-request workflow runs and no combined status checks for the data commit. No validator was weakened.
+- Current PQ state remains 176 canonical records / 0 missing unlock_condition fields / 0 missing individual source arrays.
+- Current unresolved skill race-restriction count: 165 CaC-usable records with null race_restriction. This is a live field census, not a claim that all 165 are race-restricted.
+- Exact next task: recompute the live skill order and continue with Gigantic Explosion, Gigantic Roar, God of Destruction's Menace, God of Destruction's Roar, Heat Dome Attack, Holy Wrath, Last Emperor, and Lightning Impact. Preserve null restrictions where explicit evidence remains insufficient; continue documenting DLC/version provenance and acquisition uncertainty separately.
