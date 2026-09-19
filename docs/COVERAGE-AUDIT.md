@@ -1362,3 +1362,17 @@ Reconciled **Final Flash (Super), Flash Chaser, Galick Gun, Gamma Blaster, Giant
 - **God Punisher** retains its corrected **Ultimate / 400 Ki** classification rather than the older incorrect Super / 100 Ki values.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Handy Canon through Paralysis
+
+Reconciled **Handy Canon, Headshot, Heat Wave, Ill Bomber, Ill Rain, Kamehameha, Masenko, and Paralysis**.
+
+- Handy Canon, Ill Rain, and Paralysis remain CaC-usable without an explicitly established narrower race/gender/form restriction.
+- **Headshot** retains its corrected **Strike Evasive / 300 Stamina** classification from PQ69.
+- **Heat Wave** retains its corrected **Strike Super / 200 Ki** classification from PQ179.
+- **Ill Bomber** retains its explicit **Majin** CaC restriction.
+- Kamehameha and Masenko retain explicit **All CaC races** scope.
+- No race restriction was inferred from character ownership, mentor/PQ source, or generic Future Warrior listings alone.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
