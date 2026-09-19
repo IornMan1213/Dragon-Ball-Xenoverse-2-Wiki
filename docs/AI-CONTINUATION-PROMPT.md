@@ -2749,3 +2749,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No schema or validator changes were made.
 - Exact next task: with the entire UF provenance field populated, begin the next bounded data-quality census. Prioritize cross-file relationship integrity (skill ↔ PQ/source references), duplicate/inconsistent acquisition metadata, and remaining nullable fields in other columns. Do not invent values where evidence is insufficient.
 
+### 2026-09-19 continuation — Evasive Ki-cost metadata pass
+- Recomputed nullable fields after completing the Ultimate Finish census; the next bounded target was the **17 Evasive records with nullable `ki_cost`**.
+- Current Evasive reference data describes Evasives as Stamina-based skills, with activation costs represented by `stamina_cost`; it lists the affected skills with 200–300 stamina costs and no base Ki activation cost. citeturn1search0turn1search1
+- Resolved `ki_cost=0` for **Absolute Zero, Dragon Burn, Explosive Wave, Mighty Explosive Wave, Psychic Move, Punisher Guard, Spread Shot Retreat, Final Pose, Mach Dash, Angry Shout, Energy Barrier, Spirit Explosion, Spirit Slash, Headshot, Rolling Bullet, Victory Cannon, and Energy Field**.
+- Preserved each existing `stamina_cost`; no stamina values were inferred or changed. The distinction is intentional because some Evasives can have additional-input behavior involving Ki, while their base activation remains Stamina-based. citeturn1search1
+- Skills commit: `c27d65ec768d9c292e59fc165d0a87dd6d82229a`.
+- Coverage audit commit: `073caf733f3f48b279370334f22a2dd68998db34`.
+- Exact next task: recompute nullable fields and continue with another small evidence-backed metadata batch; prioritize fields where class semantics can establish a value without guessing (for example, `damage_type` or `source_quest` when a direct current source identifies it).
+
