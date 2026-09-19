@@ -1312,3 +1312,16 @@ Reconciled the next eight dataset-order records: **Atomic Blast, Bending Kameham
 - **Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, and Burning Attack:** CaC-usable; no explicit narrower CaC race/gender/form restriction was established, so no restriction was inferred.
 - Live census after this pass: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - The public skill-ID evidence independently lists Atomic Blast and Burning Attack as CaC-usable, supporting the repository's scope classification. (public skill-ID reference)
+
+
+## 2026-09-19 — Burst Kamehameha through Death Psycho Bomb
+
+Reconciled the next eight dataset-order records: **Burst Kamehameha, Burst Stinger, Buu Buu Ball, Candy Beam, Candy Beam (Super), Crazy Finger Shot, Dark Inscription, and Death Psycho Bomb**.
+
+- Burst Kamehameha and Burst Stinger remain CaC-usable with no explicit narrower race/gender/form restriction established.
+- **Buu Buu Ball** retains its explicit **Majin (Pure Majin form)** restriction.
+- **Candy Beam** retains its explicit **Majin** restriction. Current historical evidence also confirms the move is usable by a Majin CaC; early launch-era discussion is not treated as current-version evidence. (current and historical public references)
+- Candy Beam (Super), Crazy Finger Shot, and Death Psycho Bomb retain their explicit **All CaC races** scope.
+- **Dark Inscription** remains CaC-usable with no explicit race/gender/form restriction established; its current mechanics/acquisition evidence confirms PQ182 and the Power of Time interaction. (current public skill reference)
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
