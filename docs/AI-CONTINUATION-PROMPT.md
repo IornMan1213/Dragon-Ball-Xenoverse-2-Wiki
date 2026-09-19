@@ -2264,3 +2264,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Live skill census remains **283 records / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes / 0 missing unlock_method / 0 missing source_quest_or_shop**.
 - Data commit: **4b7c161f0ca24cafe5dc3fee14c37ad8bdb8d111**.
 - Next exact task: **continue the skill structured-field census by classifying the remaining nullable Ki/Stamina/Damage/DLC fields and only populate values with direct evidence; otherwise move to the next P1 PQ reward/acquisition/version-provenance gap.**
+
+
+## 2026-09-19 continuation — skill nullable-field applicability census
+- Reclassified remaining nullable skill fields by class to distinguish genuinely missing data from fields whose applicability varies by skill/mechanic.
+- Confirmed the three character-only Awoken Ki-cost gaps were already resolved in commit `4b7c161f0ca24cafe5dc3fee14c37ad8bdb8d111`.
+- Current live census: 283 skills. Remaining nulls are concentrated in stamina/damage/DLC/Ultimate-Finish fields plus 17 Evasive Ki-cost fields; these require item-level evidence and should not be bulk-filled.
+- Explicitly preserved null Evasive Ki costs where a record documents a separate Ki cost for an attack variant rather than the Evasive activation.
+- Explicitly preserved null DLC requirements where available provenance does not establish Base Game vs DLC.
+- Updated `docs/COVERAGE-AUDIT.md` with the applicability census.
+- Next exact task: **target the next small evidence-backed skill field batch (preferably Evasive Ki-cost mechanics or Ultimate/Super acquisition metadata) and update only fields supported by direct sources.**
