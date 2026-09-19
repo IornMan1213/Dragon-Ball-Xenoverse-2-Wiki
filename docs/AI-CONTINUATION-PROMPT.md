@@ -2034,7 +2034,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-19 continuation — PQ reward provenance tranche: PQ 18-20
 - Started the P1 Parallel Quest reward/acquisition/version provenance workstream.
 - Canonical `docs/data/pq-record-batches/pq-015-020.json` now records verified skill rewards for PQ 18-20: **18 = Time Control + Mach Dash; 19 = Mach Punch + Fighting Pose E; 20 = Mystic Flash**.
-- Evidence was checked against the current Steam all-186 PQ guide and dedicated skill pages; PQ 19 is independently listed with Mach Punch/Fighting Pose E, and Mystic Flash is explicitly unlocked by PQ 20. citeturn1search1turn1search0turn1search5
+- Evidence was checked against the current Steam all-186 PQ guide and dedicated skill pages; PQ 19 is independently listed with Mach Punch/Fighting Pose E, and Mystic Flash is explicitly unlocked by PQ 20. 
 - Data commit: `909c71bd5082761f9848b937bcb8aa4d65f35f5d`.
 - Do not use the older partial reward-map empties as negative evidence. They mean unresolved in that normalization layer, not “no reward.”
 - Exact next task: reconcile PQ 21-40 skill rewards against direct current-reference evidence, updating only evidence-backed relationships and then update this handoff again.
@@ -2057,7 +2057,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — PQ 61-80 reward pass
 - Canonical `pq-061-080.json` now carries source-backed `skill_rewards` for PQ 61-80.
-- PQ 66 was corrected to **Candy Beam** after independent corroboration; the partial normalization map's `Warp Kamehameha` entry was not used as authoritative evidence. citeturn1search0turn1search1
+- PQ 66 was corrected to **Candy Beam** after independent corroboration; the partial normalization map's `Warp Kamehameha` entry was not used as authoritative evidence. 
 - Added the current all-186 Steam source to the range.
 - Latest data correction commit: `3bbce3ccc4e7ec3d9ff311fa38263d649382d107`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 81-100**, then update the audit and this handoff.
@@ -2079,14 +2079,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — PQ 121-142 reward pass
 - Canonical `pq-121-142.json` now carries source-backed skill relationships for PQ 122-142 and consistent all-186 provenance.
-- PQ 121 remains empty for `skill_rewards`; its source-backed reward list currently establishes Tuxedo, Wedding Dress, and the Fu Super Soul, not a skill. citeturn0search3
+- PQ 121 remains empty for `skill_rewards`; its source-backed reward list currently establishes Tuxedo, Wedding Dress, and the Fu Super Soul, not a skill. 
 - Data commit: `ab2907fbaefa5500747d58fdec8e861cbe615f`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 143-162**, then update the audit and this handoff.
 
 
 ### 2026-09-19 continuation — PQ 143-162 reward pass
 - Canonical `pq-143-162.json` now carries source-backed skill relationships for PQ 143, 145-156, and 158-162, with consistent all-186 provenance.
-- PQ 144 and PQ 157 remain empty for `skill_rewards` because the current normalized reward layer does not establish skills for them. citeturn0search1
+- PQ 144 and PQ 157 remain empty for `skill_rewards` because the current normalized reward layer does not establish skills for them. 
 - Data commit: `c80087a1225f25c300f6d81778f6f398f4ae0bc8`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 163-186**, then update the audit and this handoff.
 
@@ -2100,7 +2100,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — PQ skill-edge population complete
 - The PQ 1-186 canonical skill reward relationships are now populated as **229 source-backed edges**.
-- Corrected a stale seed relationship that incorrectly linked Death Slash to PQ 1; PQ 1's current reward listing has no skill, while Death Slash is listed at PQ 23. citeturn0search0
+- Corrected a stale seed relationship that incorrectly linked Death Slash to PQ 1; PQ 1's current reward listing has no skill, while Death Slash is listed at PQ 23. 
 - Crosslink report now records 229 resolved skill relationships with zero unresolved links.
 - Next exact task: populate and reconcile **Super Soul reward edges for PQ 1-186**, preserving empty arrays as unresolved/non-negative and recording source conflicts rather than guessing.
 - Latest commits: `4e1b628045bdcbf35c4d0f221111cd24b8a9a6a4`, `01bed910511947d5b614eed0f2d7de597ca7f2c3`, `a483755f96a02a1a6f06c013aa98aeb90c925e79`.
@@ -2314,7 +2314,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-19 continuation — Super acquisition metadata batch
 - Resolved `ultimate_finish_required: false` for 15 Super skills with explicit non-UF acquisition routes: Shenron wishes, mentor training, Skill Shop, or documented ordinary PQ reward routes.
 - No PQ skill was marked false merely because it is associated with a PQ; only explicit acquisition-route evidence was used.
-- Web cross-checks confirmed mentor skills are awarded through mentor training and that skill acquisition has multiple routes rather than universally requiring Ultimate Finish. citeturn0search2turn0search8turn0search7
+- Web cross-checks confirmed mentor skills are awarded through mentor training and that skill acquisition has multiple routes rather than universally requiring Ultimate Finish. 
 - Next exact task: **recompute Super/Ultimate nullable acquisition metadata and target another small batch with explicit non-PQ or UF-specific evidence.**
 
 
@@ -2329,14 +2329,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved `ultimate_finish_required: false` for 10 additional Super skills with explicit shop, starter, or mentor-training acquisition routes: Sudden Death Beam, Emperor's Blast, Namek Finger, Pressure Sign, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance.
 - TP/STP Medal Shop and Skill Shop acquisition routes were treated as non-UF routes; mentor training and starter acquisition were likewise treated as non-UF.
 - Preserved remaining nullable fields where the repository only has ambiguous or PQ-gating evidence.
-- External cross-check: current reference material confirms TP/STP shops and mentor training are distinct skill acquisition channels. citeturn0search0turn0search2turn0search8
+- External cross-check: current reference material confirms TP/STP shops and mentor training are distinct skill acquisition channels. 
 - Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and target another evidence-backed batch, prioritizing explicit Ultimate Finish requirements or unambiguous shop/mentor routes.**
 
 
 ### 2026-09-19 continuation — additional explicit non-UF acquisition batch
 - Resolved `ultimate_finish_required: false` for 10 additional skills with explicit non-UF routes: Sudden Death Beam, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance, Namek Finger, Pressure Sign, and Emperor's Blast.
 - Preserved nullable values where the repository only has ambiguous or PQ-only acquisition wording without enough evidence to establish UF requirements.
-- Web cross-check: TP Medal Shop and mentor training are documented independent skill acquisition channels. citeturn0search0turn0search2
+- Web cross-check: TP Medal Shop and mentor training are documented independent skill acquisition channels. 
 - Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and continue with evidence-driven batches; do not convert generic PQ reward entries to `false` without explicit non-UF evidence.**
 
 
@@ -2344,3 +2344,15 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved `ultimate_finish_required: false` for 9 Super skills with explicit non-PQ-UF routes: Sudden Death Beam, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance, Namek Finger, Pressure Sign.
 - Evidence used shop, mentor-training, starter, and Double Crystal Raid acquisition routes; generic PQ association was not used as sufficient evidence by itself.
 - Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and audit ambiguous mixed-source skills before another batch.**
+
+
+### 2026-09-19 continuation — explicit non-UF Ultimate acquisition batch
+- Workstream: skill acquisition metadata / Ultimate Finish provenance.
+- Resolved ultimate_finish_required=false for four Ultimate skills with explicit non-UF acquisition routes: Darkness Rush (Melee), Darkness Rush (Ranged), Dragon Fist, and Godly Display.
+- Evidence: Lord Slug Lesson 3 mentor training for the two Darkness Rush variants; TP Medal Shop for Dragon Fist and Godly Display. Final Kamehameha remains nullable because its mixed TP Medal Shop / PQ91 / Double Crystal Raid provenance was not fully reconciled.
+- Files changed: docs/data/skills.json and docs/COVERAGE-AUDIT.md, plus this handoff.
+- Commits: 1a4fdce963dd191e0d5694e9ae0279b985e9a8eb (skills), f3ce968dfec11365263501179fa83b5eff9d74c9 (coverage audit).
+- Validation: skills JSON was parsed and rewritten successfully; targeted records now carry explicit false UF requirements and refreshed verification dates. No validator or schema rule was changed.
+- CI status: inspect push-triggered Repository quality/cleanup/audit runs for the resulting commits; prior opaque pre-step failures remain infrastructure/account signals until actionable logs exist.
+- Current skill census remains 283 records / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes / 0 missing unlock_method / 0 missing source_quest_or_shop. The nullable UF queue is reduced by four for directly evidenced non-UF Ultimate acquisitions.
+- Exact next task: recompute the remaining Super/Ultimate nullable ultimate_finish_required census and target another small batch only where the acquisition route is explicit; otherwise audit mixed-source skills such as Final Kamehameha without forcing a false/true value.
