@@ -2132,3 +2132,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated `docs/data/pq-cross-domain-status.json` to record 229 skill edges and 125 Super Soul edges.
 - The current all-186 guide explicitly presents Super Souls alongside PQ rewards, supporting this reward-layer normalization. citeturn0search0
 - Commits: relationship `ce11b853b6e0325dfa4f19a9e6140a39985a140c`; status `efd12568a533b42a5aea3265c8a4d95d917c8001`.
+
+
+## 2026-09-19 — PQ equipment reward reconciliation
+
+- Populated **39 source-backed `pq_rewards_equipment` edges** from the typed clothing/accessory reward fields across PQ 1-186.
+- Updated the canonical relationship index and cross-domain status counts: 229 skills, 125 Super Souls, 39 equipment.
+- The current all-186 reward guide explicitly lists clothing and accessory rewards alongside skills and Super Souls, providing provenance for this reward layer. citeturn0search0
+- Commits: relationship `8c62e65f1f2364937f4c4405e64eabc92db671a2`; status `95d15c95846d2e15822d487a5dda0dba3088ffd4`.
