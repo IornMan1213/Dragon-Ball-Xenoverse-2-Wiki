@@ -21,7 +21,7 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Audit other non-reward relationship completeness and source coverage; preserve PQ 1 as having no typed reward edge unless stronger evidence identifies one.",
+  "next_gate": "Perform a repository-wide relationship/source integrity review and reconcile any newly discovered PQ character, DLC, or farming evidence before declaring the cross-domain relationship layer stable.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -76,5 +76,28 @@
     ],
     "pq_12_14_added": true,
     "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated."
+  },
+  "non_reward_audit": {
+    "date": "2026-09-19",
+    "character": {
+      "edges": 247,
+      "canonical_targets": 75,
+      "duplicate_edges": 0,
+      "method": "Explicit character mentions in objective/ultimate-finish text; aliases only where documented",
+      "source_status": "All current character edges are source_backed."
+    },
+    "dlc": {
+      "edges": 88,
+      "unique_pq_target_pairs": 88,
+      "duplicate_edges": 0,
+      "source_status": "All current DLC edges are source_backed; DLC attribution is kept separate from reward ownership."
+    },
+    "farming": {
+      "edges": 7,
+      "unique_pq_target_pairs": 7,
+      "duplicate_edges": 0,
+      "source_status": "All current farming edges are source_backed and represent documented practical farming routes, not guaranteed drops."
+    },
+    "conclusion": "No duplicate non-reward edges found; no evidence reviewed in this tranche justified adding inferred character, DLC, or farming edges."
   }
 }
