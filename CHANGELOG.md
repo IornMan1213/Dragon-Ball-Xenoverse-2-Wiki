@@ -1,5 +1,14 @@
 # Changelog
 
+## September 2026 — PQ Unlock Census Closure
+- Completed the final four missing explicit Parallel Quest unlock fields: **PQ36, PQ53, PQ54, and PQ55**.
+- PQ36 records completion of PQ35 as the reported prerequisite while preserving the separate PQ36 numbering/existence conflict.
+- PQ53 records the Great Saiyaman 1 + 2 trigger on the floating Resort Island south of Conton City's Recreation Plaza.
+- PQ54 records PQ52 as the direct completion-state report but preserves conflicting community evidence instead of presenting the route as unqualified certainty.
+- PQ55 records PQ54 as its prerequisite.
+- Recomputed all 18 research batches: **176 canonical PQ records; 0 missing explicit unlock_condition fields**. Field presence remains distinct from exact-route verification.
+
+
 ## September 2026 — PQ Cross-Link Reconciliation
 - Persisted `docs/data/pq-skill-crosslink-report.json` after auditing all 18 Parallel Quest research batches.
 - The audit found 212 unique PQ skill-reward references against 108 currently named canonical skill records: 36 resolve directly or through a documented `Kamekameha` → `Kamehameha` alias, while 175 remain unresolved.
