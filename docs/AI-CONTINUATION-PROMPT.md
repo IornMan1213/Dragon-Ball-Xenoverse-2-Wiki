@@ -2096,3 +2096,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ 169 and PQ 170 remain empty for `skill_rewards`; no reward was inferred from non-skill entries.
 - The canonical PQ skill-reward provenance sweep through **PQ 186 is now complete**. Next work should shift to reconciliation/quality-control across the full 1-186 corpus rather than advancing to another PQ range.
 - Data commit: `3432f50877c550189d6f25f6d2026bf294f61f35`.
+
+
+### 2026-09-19 continuation — PQ skill-edge population complete
+- The PQ 1-186 canonical skill reward relationships are now populated as **229 source-backed edges**.
+- Corrected a stale seed relationship that incorrectly linked Death Slash to PQ 1; PQ 1's current reward listing has no skill, while Death Slash is listed at PQ 23. citeturn0search0
+- Crosslink report now records 229 resolved skill relationships with zero unresolved links.
+- Next exact task: populate and reconcile **Super Soul reward edges for PQ 1-186**, preserving empty arrays as unresolved/non-negative and recording source conflicts rather than guessing.
+- Latest commits: `4e1b628045bdcbf35c4d0f221111cd24b8a9a6a4`, `01bed910511947d5b614eed0f2d7de597ca7f2c3`, `a483755f96a02a1a6f06c013aa98aeb90c925e79`.
