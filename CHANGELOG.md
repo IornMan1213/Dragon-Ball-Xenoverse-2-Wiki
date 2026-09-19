@@ -1,3 +1,9 @@
+## September 2026 — PQ161–170 Provenance Pass
+- Added record-level provenance to **PQ161–PQ170** with 2026-09-19 verification dates.
+- Cross-checked quest/DLC associations, Ultimate Finish conditions, and documented rewards against independent references.
+- Preserved existing explicit reward/drop-rate evidence without inferring additional probabilities.
+- Remaining unsourced PQ records reduced from 26 to **16 of 176**.
+
 ## September 2026 — PQ91–100 Final Base-Game Provenance Pass
 - Added record-level provenance to the final **PQ91–PQ100** base-game block with 2026-09-19 verification dates.
 - Corrected the missing difficulty metadata to the documented **7-star** tier.
