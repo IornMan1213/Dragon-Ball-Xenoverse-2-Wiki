@@ -2433,3 +2433,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 2a5de6d1cd85ef67c874e6e8a294062f2b164331.
 - Live nullable Super/Ultimate census: 156 total (117 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; avoid treating generic “obtained from PQ” pages as proof of non-UF gating.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 6
+- Resolved `ultimate_finish_required=false` for Candy Beam (PQ66), Buu Buu Ball (PQ88), Bluff Kamehameha (PQ94), and Breaker Energy Wave (PQ101).
+- Evidence: the live PQ guide explicitly lists each in its corresponding Basic Reward section, distinct from UF conditions. citeturn2view0turn2view1turn2view2turn2view3
+- Skills commit: 256bca15434275129a3166e62b6a8fe72a296afd.
+- Live nullable Super/Ultimate census: 152 total (113 Super, 39 Ultimate).
+- Next task: continue with explicit Basic Reward candidates; leave null where the acquisition gate remains unestablished.
