@@ -1840,3 +1840,13 @@ Reviewed: **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosio
 - Preserved existing metadata; no character-specific usage was converted into a race restriction. Energy Barrier's existing attack-type uncertainty remains unchanged.
 - Live census: **283 total / 269 CaC-usable / 84 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Bluff Kamehameha through Destruction's Concerto: Comet race-restriction census
+
+Reviewed: **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehameha, Burst Stinger, Dark Inscription, Demon Ray, Destruction's Concerto: Comet**.
+
+- Added explicit **All CaC races** scope to all eight. Reviewed evidence establishes CaC/Future Warrior availability and does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition and mechanics metadata; no character-specific usage was converted into a race restriction.
+- Live census: **283 total / 269 CaC-usable / 76 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
