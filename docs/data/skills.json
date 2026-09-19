@@ -466,7 +466,8 @@
       "source_quest_or_shop": "Shenron wish",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics": "Ki Blast Super: brief barrier grants protection while active, then fires a single-hit Ki wave."
+      "mechanics": "Ki Blast Super: brief barrier grants protection while active, then fires a single-hit Ki wave.",
+      "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification."
     },
     {
       "name": "Burst Rush",
@@ -2852,7 +2853,8 @@
       "source_quest_or_shop": "Training with Goku",
       "mechanics": "Ki Blast Super learned from Goku mentor training; charge/release projectile.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile."
     },
     {
       "name": "Spirit Pulse",
@@ -3237,7 +3239,8 @@
       "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
       "last_verified": "2026-09-19",
       "research_status": "race_restriction_reconciled",
-      "source_quest_or_shop": "Character-exclusive"
+      "source_quest_or_shop": "Character-exclusive",
+      "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs."
     },
     {
       "name": "Full Power Charge",
@@ -3566,7 +3569,8 @@
       "race_restriction": "All CaC races while using Ultra Instinct",
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
-      "source_quest_or_shop": "Character-exclusive"
+      "source_quest_or_shop": "Character-exclusive",
+      "mechanics_notes": "Charge/action associated with Ultra Instinct Goku variants; current versions allow CaCs to access the technique through Ultra Instinct's built-in action."
     },
     {
       "name": "Time Bullet",
@@ -4335,7 +4339,8 @@
       "source_quest": 21,
       "last_verified": "2026-09-19",
       "research_status": "race_restriction_reconciled",
-      "source_quest_or_shop": "Parallel Quest 21"
+      "source_quest_or_shop": "Parallel Quest 21",
+      "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent."
     },
     {
       "name": "Evil Whirlwind",
@@ -4711,7 +4716,8 @@
       "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition",
       "last_verified": "2026-09-19",
       "research_status": "race_restriction_reconciled",
-      "source_quest_or_shop": "TP Medal Shop"
+      "source_quest_or_shop": "TP Medal Shop",
+      "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill."
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -4806,7 +4812,8 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop (Conton City)",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_cac_race_provenance"
+      "research_status": "reconciled_cac_race_provenance",
+      "mechanics_notes": "100 Ki Strike Super from the Conton City Skill Shop; short-range strike technique used to pressure the opponent."
     },
     {
       "name": "Recoome Kick",
@@ -4957,7 +4964,8 @@
       "source_quest": 38,
       "last_verified": "2026-09-19",
       "research_status": "race_restriction_reconciled",
-      "source_quest_or_shop": "Parallel Quest 38"
+      "source_quest_or_shop": "Parallel Quest 38",
+      "mechanics_notes": "100 Ki Strike Super from PQ38; sword-based strike technique associated with Trunks and restricted to the documented Human/Earthling and Saiyan CaC scope."
     },
     {
       "name": "Shooting Strike",
@@ -5334,7 +5342,8 @@
       "unlock_method": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile."
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -5477,7 +5486,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "mechanics_notes": "500 Ki Ki Blast Ultimate; user detonates a large area explosion around themselves, consuming health during the technique."
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
@@ -6145,7 +6155,8 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 16 - In the Realm of the Gods: Vegeta",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile."
     },
     {
       "name": "Supernova",
@@ -6163,7 +6174,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "race_restriction_reconciled",
-      "source_quest_or_shop": "Expert Mission 6"
+      "source_quest_or_shop": "Expert Mission 6",
+      "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere."
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -6360,7 +6372,8 @@
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
       "research_status": "race_restriction_reconciled",
-      "source_quest_or_shop": "Training with Lord Slug, Lesson 3"
+      "source_quest_or_shop": "Training with Lord Slug, Lesson 3",
+      "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack."
     },
     {
       "name": "Darkness Rush (Ranged)",
