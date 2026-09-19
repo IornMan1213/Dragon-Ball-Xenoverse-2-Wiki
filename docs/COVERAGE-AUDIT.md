@@ -2206,3 +2206,8 @@ Resolved `ultimate_finish_required` to `true` for **Rough Ranger**. Its current 
 Resolved `ultimate_finish_required` to `false` for 15 Super skills whose repository acquisition metadata identifies non-Ultimate-Finish routes: Shenron wishes, mentor training, Skill Shop, or explicitly non-UF PQ reward routes. This avoids treating every PQ-linked skill as UF-gated.
 
 Batch: Burst Reflection, Flash Fist Crush, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Shadow Crusher, Destructo-Disc, Galick Gun, Masenko, Perfect Shot, Spirit Bomb, Kamehameha, Paralyze Beam.
+
+
+## 2026-09-19 — Super/Ultimate non-UF acquisition batch
+
+Resolved `ultimate_finish_required` to `false` for 10 skills with explicit acquisition routes that do not require a Parallel Quest Ultimate Finish: Reverse Mabakusenko (Skill Shop); Death Ball (Frieza mentor training); Emperor's Death Beam (TP Medal Shop); Final Explosion (TP Medal Shop); Divine Lasso (TP/STP Medal Shop or Double Crystal Raid); Bending Kamehameha (Skill Shop); Big Bang Kamehameha (TP Medal Shop); Divine Kamehameha (TP Medal Shop); Dancing Parapara (Pan mentor training); Instant Transmission (Goku mentor training). For mixed-source skills, the field is false because the documented non-UF route provides an obtainable path without UF gating.
