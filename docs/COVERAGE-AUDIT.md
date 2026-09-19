@@ -1230,3 +1230,17 @@ Reconciled Phantom Fist, Quick Sleep, Rise to Action, Rising Rage, Shield Barrie
 - Solar Flare confirmed as 100-Ki PQ01 Other Super, all CaC races.
 - Spirit Boost confirmed as 0-Ki Skill Shop defensive barrier, usable by CaCs.
 - Super Guard confirmed as 100-Ki base/Skill Shop barrier, all CaC races.
+
+
+## 2026-09-19 — Surging Spirit through Divinity Unleashed cohort
+
+Reconciled Surging Spirit, Time Bullet, Time Control, Ultimate Charge, Wall of Defense, Charge, Data Input, and Divinity Unleashed.
+
+- Surging Spirit retained as Ultra Instinct-associated charging functionality, with current CaC access through the Awoken Skill action.
+- Time Bullet retained as 100-Ki character-exclusive/non-CaC utility skill.
+- Time Control confirmed as 100-Ki PQ18 Ultimate Finish reward and opponent-freeze skill.
+- Ultimate Charge confirmed as 0-Ki PQ134 Ultimate Finish reward, all CaC races, with charge rate improving over time.
+- Wall of Defense confirmed as 0-Ki PQ10 protective ally-intercept skill, all CaC races.
+- Charge confirmed as 100-Ki Goku/PQ83 Power Up Super.
+- Data Input confirmed as 100-Ki Expert Mission 20 auto-dodge skill, all CaC races.
+- Divinity Unleashed corrected to 100 Ki and documented as the 100-Ki threshold charge/buff skill from PQ110.
