@@ -1668,3 +1668,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - GitHub Actions inspection for data commit 79b9c9bbefcaf3156451912d0f62b4c410cd0cfd returned no associated pull-request workflow runs and no combined status checks. This matches the repository's previously observed opaque CI state; no validator changes were made.
 - Live skills JSON reparse succeeded: 283 records, 269 CaC-usable, 138 CaC-usable with null race_restriction. The eight target records were re-read after the write and matched the intended classifications/costs.
 - Repository artifact searches did not surface actionable citation-artifact results; continue the same hygiene check next cycle.
+
+
+### 2026-09-19 continuation — Power Rush through Victory Rush
+- Reconciled the next live cohort: **Power Rush, Saiyan Spirit, Super Dragon Flight, Supreme Fury, Unrelenting Barrage, Venus Fist, Victory Rush**.
+- Updated docs/data/skills.json and docs/COVERAGE-AUDIT.md.
+- Data commit: 50f848fa53c1c615d1b64ab3d02378e487b43444.
+- Web evidence specifically corroborated Power Rush's 1000 Ki / Strike Ultimate / 14-hit behavior and PQ122 acquisition; the maintained PQ guide corroborates PQ122 and PQ84 reward identities. citeturn0search0turn0search5turn0search8
+- Validation after write: reparse skills.json, recount CaC fields, and re-read the seven target records.
+- Exact next task: continue with the next eight records after Victory Rush. Preserve null race restrictions when explicit evidence is insufficient.
