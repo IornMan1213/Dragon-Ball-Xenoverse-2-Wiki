@@ -1698,3 +1698,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 - Exact next task: continue with the next eight CaC-usable records whose `race_restriction` remains null. Preserve null when evidence does not establish a restriction.
+
+
+### 2026-09-19 continuation — Time Skip/Back Breaker through Explosive Wave
+- Reviewed the next eight null-race CaC-usable records: **Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Absolute Zero, Celestial Wave, Dragon Burn, Explosive Wave**.
+- No explicit CaC race/gender/form restriction was established; null race fields are intentionally preserved.
+- Data commit: 633910fc226dd518d9e5d24ad374dc357e517592.
+- Audit commit follows in this cycle.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose `race_restriction` remains null.
