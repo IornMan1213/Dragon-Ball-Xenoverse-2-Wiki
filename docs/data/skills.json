@@ -3081,7 +3081,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki."
     },
     {
@@ -3096,11 +3096,11 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Complete Pan's Initiation Test / train under Pan",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Pan mentor training",
-      "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence.",
+      "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence.",
       "last_verified": "2026-09-19"
     },
     {
@@ -3113,7 +3113,7 @@
       ],
       "ki_cost": 0,
       "unlock_method": "First Advancement Test - Easy Class / CaC playstyle reward",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Advancement Test",
       "last_verified": "2026-09-19",
@@ -3133,7 +3133,7 @@
       "ki_cost": 0,
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs.",
@@ -3155,7 +3155,9 @@
       "mechanics": "Starts at a slow charging rate, then accelerates rapidly after roughly two seconds; slightly faster than Ultimate Charge. Character-exclusive and unavailable to CaCs.",
       "usable_by_cac": false,
       "ultimate_finish_required": null,
-      "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs"
+      "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
+      "last_verified": "2026-09-19",
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Full Power Charge",
@@ -3174,7 +3176,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - Advanced Class",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge."
     },
     {
@@ -3198,8 +3200,8 @@
       "source_quest_or_shop": "Parallel Quest 116",
       "ultimate_finish_required": null,
       "skill_description": "Hero's Flute is a Super Other skill that creates a protective barrier around the user while playing Tapion's flute.",
-      "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds.",
-      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds. No narrower CaC race/gender/form restriction is established by the current evidence.",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19"
     },
     {
@@ -3213,7 +3215,7 @@
       "ki_cost": 0,
       "unlock_method": "Character-exclusive: Mira (Final Form); also used by certain raid/boss encounters",
       "usable_by_cac": false,
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established.",
