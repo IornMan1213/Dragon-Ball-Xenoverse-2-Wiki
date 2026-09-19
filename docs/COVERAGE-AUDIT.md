@@ -917,3 +917,8 @@ Reviewed **Burst Stinger, Dark Inscription, Demon Ray, and Destruction's Concert
 ## 2026-09-19 — next super-skill verification boundary
 
 Reviewed **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, and Dust Attack** against current Xenoverse 2 evidence. Starfall is documented as a Vados skill; Dimension Cannon as a Super Buu skill; Double Death Slicer as a Frieza (Full Power) skill; and the available canonical/current record for Dust Attack does not expose explicit CaC race/gender/form scope. These character associations and acquisition data do not establish a race restriction for CaCs. All four therefore retain null `race_restriction`. Their verification dates were refreshed to 2026-09-19. No new provenance URL was required.
+
+
+## 2026-09-19 — Earth/Emperor cohort verification boundary
+
+Reviewed **Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, and Eraser Bomb** against current Xenoverse 2 sources. Current records document named-character/custom-partner usage and/or acquisition, but the evidence reviewed does not explicitly establish a CaC race/gender/form restriction. For example, Earth Splitting Galick Gun is documented for Vegeta and multiple customize partners, while Emperor's Cannon is documented for Golden Frieza (Ultra Supervillain); neither establishes a CaC race restriction. cite references intentionally omitted from repository text. All four therefore retain null `race_restriction`. Their verification dates were refreshed to 2026-09-19.
