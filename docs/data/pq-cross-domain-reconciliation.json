@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "scope": "PQ 1-186",
   "generated_from": "pq-reward-normalization/*-reward-map.json + pq-reward-relationships.json",
-  "status": "provenance_reconciliation_in_progress",
+  "status": "reward_provenance_reconciled_with_partial-map-drift-retained",
   "summary": {
     "canonical_records": 186,
     "affected_cases": 232,
@@ -38,7 +38,9 @@
         "Flying Nimbus!!",
         "Goku's Damaged Turtle Hermit Gi"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 3,
@@ -46,7 +48,9 @@
       "source_only": [
         "Demon Clothes (Piccolo, with Cape)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 3,
@@ -54,7 +58,9 @@
       "source_only": [
         "Piccolo's Turban"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 4,
@@ -63,7 +69,9 @@
         "Demon Clothes (Gohan, Kid)",
         "Goku's Turtle Hermit Gi"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 5,
@@ -71,7 +79,9 @@
       "source_only": [
         "Four-Star Dragon Ball Hat"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 6,
@@ -95,7 +105,9 @@
       "source_only": [
         "Goku's Turtle Hermit Gi (King Kai)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 9,
@@ -103,7 +115,9 @@
       "source_only": [
         "Chiaotzu's Hat (With Collar)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 11,
@@ -114,7 +128,9 @@
       ],
       "edge_only": [
         "Earth Splitting Galick Gun"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 18,
@@ -140,7 +156,9 @@
         "Hercule's Clothes",
         "Tien Shinhan's Gi"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 22,
@@ -213,7 +231,9 @@
       "source_only": [
         "Goku's Turtle Hermit Gi (No Character)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 32,
@@ -270,7 +290,9 @@
       "source_only": [
         "Yamcha's Baseball Uniform"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 45,
@@ -278,7 +300,9 @@
       "source_only": [
         "Perfect Cell's Wings"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 46,
@@ -294,7 +318,9 @@
       "source_only": [
         "Piccolo's School Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 50,
@@ -302,7 +328,9 @@
       "source_only": [
         "Mr. Shape Up M"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 51,
@@ -366,7 +394,9 @@
       "source_only": [
         "Vegito's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 61,
@@ -382,7 +412,9 @@
       "source_only": [
         "Battle Suit (CC)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 62,
@@ -390,7 +422,9 @@
       "source_only": [
         "Frieza's Suit (Final Form)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 63,
@@ -398,7 +432,9 @@
       "source_only": [
         "Goku Wig (Super Saiyan)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 65,
@@ -406,7 +442,9 @@
       "source_only": [
         "Gohan's Gi (Adult)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 66,
@@ -416,7 +454,9 @@
       ],
       "edge_only": [
         "Candy Beam"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 66,
@@ -424,7 +464,9 @@
       "source_only": [
         "Whis Symbol Gi"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 66,
@@ -432,7 +474,9 @@
       "source_only": [
         "SSGSS Goku Wig"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 67,
@@ -520,7 +564,9 @@
       "source_only": [
         "Vegeta's Shirt"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 92,
@@ -528,7 +574,9 @@
       "source_only": [
         "GT Goku's Gi"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 93,
@@ -536,7 +584,9 @@
       "source_only": [
         "Pan's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 93,
@@ -544,7 +594,9 @@
       "source_only": [
         "Pan's Bandanna"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 95,
@@ -552,7 +604,9 @@
       "source_only": [
         "Super 17's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 96,
@@ -560,7 +614,9 @@
       "source_only": [
         "GT Vegeta's Jacket"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 97,
@@ -568,7 +624,9 @@
       "source_only": [
         "Yamcha's Baseball Hat"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 98,
@@ -576,7 +634,9 @@
       "source_only": [
         "Lord Slug's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 99,
@@ -584,7 +644,9 @@
       "source_only": [
         "Mr. Shape Up L"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 100,
@@ -592,7 +654,9 @@
       "source_only": [
         "Whis Symbol Battle Suit"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 100,
@@ -600,7 +664,9 @@
       "source_only": [
         "SSGSS Vegeta Wig"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 101,
@@ -608,7 +674,9 @@
       "source_only": [
         "Champa's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 102,
@@ -616,7 +684,9 @@
       "source_only": [
         "Battle Suit (Cabba)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 104,
@@ -624,7 +694,9 @@
       "source_only": [
         "Android 14's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 105,
@@ -632,7 +704,9 @@
       "source_only": [
         "Android 13's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 106,
@@ -640,7 +714,9 @@
       "source_only": [
         "Super Android 13's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 107,
@@ -648,7 +724,9 @@
       "source_only": [
         "Future Mai's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 108,
@@ -656,7 +734,9 @@
       "source_only": [
         "Goku Black's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 109,
@@ -664,7 +744,9 @@
       "source_only": [
         "Zamasu's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 110,
@@ -672,7 +754,9 @@
       "source_only": [
         "Super Saiyan 4 Suit (Goku)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 110,
@@ -680,7 +764,9 @@
       "source_only": [
         "SS4 Wig & Tail (Goku)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 111,
@@ -688,7 +774,9 @@
       "source_only": [
         "Resistance Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 111,
@@ -696,7 +784,9 @@
       "source_only": [
         "Resistance Helmet"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 114,
@@ -704,7 +794,9 @@
       "source_only": [
         "Pride Trooper Uniform"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 114,
@@ -712,7 +804,9 @@
       "source_only": [
         "Toppo's Moustache"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 115,
@@ -720,7 +814,9 @@
       "source_only": [
         "Ribrianne's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 115,
@@ -728,7 +824,9 @@
       "source_only": [
         "Ribrianne's Hood"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 121,
@@ -2016,7 +2114,9 @@
       "source_only": [
         "Videl (DB Super) Wig"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 169,
@@ -2024,7 +2124,9 @@
       "source_only": [
         "Orange Piccolo's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 170,
@@ -2032,7 +2134,9 @@
       "source_only": [
         "Videl (DB Super)'s Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 176,
@@ -2040,7 +2144,9 @@
       "source_only": [
         "Belmod's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 178,
@@ -2048,7 +2154,9 @@
       "source_only": [
         "Goku (Mini)'s Gi"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 179,
@@ -2056,7 +2164,9 @@
       "source_only": [
         "SS4 Goku (DAIMA) Suit"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 179,
@@ -2064,7 +2174,9 @@
       "source_only": [
         "SS4 Goku (DAIMA) Wig & Tail"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 180,
@@ -2072,7 +2184,9 @@
       "source_only": [
         "SS3 Vegeta (DAIMA) Battle Suit"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 180,
@@ -2080,7 +2194,9 @@
       "source_only": [
         "SS3 Vegeta (DAIMA) Wig"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 181,
@@ -2089,7 +2205,9 @@
         "Glorio's Clothes",
         "Panzy's Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 181,
@@ -2098,7 +2216,9 @@
         "Glorio Wig",
         "Panzy Wig"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 182,
@@ -2106,7 +2226,9 @@
       "source_only": [
         "Golden Frieza Suit"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 182,
@@ -2114,7 +2236,9 @@
       "source_only": [
         "Golden Frieza Head"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 183,
@@ -2122,7 +2246,9 @@
       "source_only": [
         "Cheelai's Coat"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 183,
@@ -2130,7 +2256,9 @@
       "source_only": [
         "Broly Wig (Black Hair, Normal)"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 184,
@@ -2138,7 +2266,9 @@
       "source_only": [
         "Dragon Ball Balloon"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 185,
@@ -2146,7 +2276,9 @@
       "source_only": [
         "Goku (Ultra Supervillain Quelled)'s Clothes"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 185,
@@ -2154,7 +2286,9 @@
       "source_only": [
         "Goku (Ultra Supervillain Quelled) Wig"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     },
     {
       "pq": 186,
@@ -2164,12 +2298,17 @@
         "Fu (Ultra Supervillain) Set",
         "Fu Set 2"
       ],
-      "edge_only": []
+      "edge_only": [],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Normalized-map entry independently verified against the all-186 PQ reward guide; the partial map's provenance difference is retained as historical drift, not a deletion signal."
     }
   ],
   "reconciliation_summary": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
-    "rule": "Do not delete forward edges solely because partial normalized reward maps omit them."
+    "rule": "Do not delete forward edges solely because partial normalized reward maps omit them.",
+    "source_only_cases_resolved": 68,
+    "source_only_entries_resolved": 76,
+    "remaining_unresolved_source_only_entries": 0
   }
 }
