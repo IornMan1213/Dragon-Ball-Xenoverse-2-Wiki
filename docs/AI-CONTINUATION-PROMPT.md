@@ -2253,3 +2253,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No additional edge was fabricated or removed during final reconciliation.
 - Updated audit, status, and persistent handoff.
 - Baseline is now stable; future work should be **evidence-driven expansion only**, followed by the same integrity checks after each addition.
+
+
+## 2026-09-19 — character-only Awoken Ki-cost census
+
+- Recomputed the complete live skill structured-field census after the previous skill metadata passes.
+- The only clearly actionable Ki-cost omissions in the character-only Awoken cohort were **Pure Progress**, **Super Saiyan Blue Kaioken**, and **Supersonic Mode**.
+- Added evidence-backed values: **Pure Progress = 500 Ki**, **Super Saiyan Blue Kaioken = 500 Ki**, **Supersonic Mode = 0 Ki**; updated mechanics notes and dedicated source lists for all three.
+- Preserved nullable fields where applicability is not established rather than filling zeros or unrelated values. In particular, Evasive skills do not inherit a Ki cost merely because the field exists, and character-only skills retain null CaC race restrictions.
+- Live skill census remains **283 records / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes / 0 missing unlock_method / 0 missing source_quest_or_shop**.
+- Data commit: **4b7c161f0ca24cafe5dc3fee14c37ad8bdb8d111**.
+- Next exact task: **continue the skill structured-field census by classifying the remaining nullable Ki/Stamina/Damage/DLC fields and only populate values with direct evidence; otherwise move to the next P1 PQ reward/acquisition/version-provenance gap.**
