@@ -666,3 +666,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The Future Saga Chapter 2 DLC source lists its seven new skills and four PQs, but does not establish individual CaC eligibility. citeturn0search0
 - Preserved these records as unresolved instead of treating a PQ reward or character moveset as proof of CaC access.
 - Skills commit: `dd675147e02a668b79a8b94b2293a8d55d27fbf9`.
+
+
+## 2026-09-19 DAIMA CaC evidence reconciliation
+
+- Explicit CaC evidence was found for **Force Edge, Burning Blast, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)**. A published Xenoverse 2 video specifically presents the DAIMA skills as "CaC Super & Ultimate Attacks," while additional community evidence documents Final Flash (SS3 DAIMA) and Burning Blast being used in CaC builds/combo testing. citeturn3youtube37turn3reddit38turn3reddit43
+- These four records are now `usable_by_cac: true`. No race restriction was inferred from these sources.
+- This is stronger than merely observing that the skills are PQ rewards or equipped by DAIMA characters, but the records remain `partially_verified` because exact reward-slot/drop semantics are still a separate verification requirement.
+- Skills commit: `9db1be415b06fbfde8288f0eb8e47548477b30f6`.
