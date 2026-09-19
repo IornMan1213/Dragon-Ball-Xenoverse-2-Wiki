@@ -1298,3 +1298,9 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important corrections: Gigantic Charge = **200 Ki Strike Super + 300 Stamina while hit**; God Punisher = **400 Ki Ki Blast Ultimate**; Headshot = **Strike Evasive + 300 Stamina**; Heat Wave = **200 Ki Strike Super**; Ill Bomber = **Majin-only**.
 - Data commit: `f7b6b69d49fae4bd67ec69f946084622e37e7cf7`; audit commit: `b3a884c182e362e7f376a04da5b148c3709bac7a`.
 - Next continuation should proceed from the records immediately following Ill Bomber in dataset order.
+
+
+### 2026-09-19 continuation — Ill Rain through Photon Swipe
+- Reconciled Ill Rain, Kamehameha, Masenko, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Shot, and Photon Swipe.
+- Data commit: `1d044cf4caf917fac008b758c9aa40259c4967ba`; audit commit: `32f54a1fc1baaca7aa4d120a23187949f691da80`.
+- Continue from the records immediately following Photon Swipe in dataset order.
