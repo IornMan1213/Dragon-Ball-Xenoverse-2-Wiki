@@ -9,14 +9,15 @@
     "DLC overview counts and official source links",
     "Super Soul canonical population expanded from 18 to 26 records; research batch 03 promoted after independent reconciliation",
     "Added four FUTURE SAGA Chapter 4 Super Soul identities (records 032–035) with attributed acquisition/effect evidence",
-    "Promoted raid/event Super Soul batch 04 (records 036–039) with acquisition and secondary effect reconciliation"
+    "Promoted raid/event Super Soul batch 04 (records 036–039) with acquisition and secondary effect reconciliation",
+    "Expanded raid/event Super Soul coverage with records 040–043"
   ],
   "critical": [
     "Ki Blast Supers complete set reconciliation",
     "record-level character/preset population",
     "Super Soul population",
     "QQ Bang population",
-    "Super Soul population beyond the current 34 records; unresolved acquisition/effect details remain tracked"
+    "Super Soul population beyond the current 38 records; unresolved acquisition/effect details remain tracked"
   ],
   "high": [
     "33 mentor lesson records",
@@ -26,7 +27,7 @@
     "automated cross-reference audit"
   ],
   "next_priority": {
-    "1": "Expand Super Soul records beyond 34, prioritizing Expert Missions, additional raid/event families, TP Medal Shop rotations, and DLC-specific rewards; upgrade secondary evidence when stronger item-level sources are found.",
+    "1": "Expand Super Soul records beyond 38, prioritizing additional raid/event families and DLC-specific rewards, while checking Expert Mission research for actual Super Soul acquisition evidence before assuming EM rewards contain souls.",
     "2": "Expand QQ Bang records and normalize stat/effect fields.",
     "3": "Reconcile Ki Blast Super records against the skill catalog and source registry.",
     "4": "Complete mentor lesson and Expert Mission records with sources and reward relationships.",
