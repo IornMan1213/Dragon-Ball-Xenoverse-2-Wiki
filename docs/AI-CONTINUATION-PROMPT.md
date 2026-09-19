@@ -1492,3 +1492,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `a9bb8f480384d6437928f5c7cd2525f683290477`.
 - Audit commit: `fedcd64d3c443c94718862b78ca1fe3adaba0da1`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Instant Charge.
+
+
+### 2026-09-19 continuation — Instant Transmission through Rising Rage
+- Reconciled **Instant Transmission, Kai Kai, Maximum Charge, Petrifying Spit, Phantom Fist, Quick Sleep, Rise to Action, and Rising Rage**.
+- Instant Transmission, Kai Kai, Maximum Charge, Petrifying Spit, Phantom Fist, and Rise to Action retain **All CaC races**; Quick Sleep retains **Majin only**; Rising Rage remains non-CaC/Restrained Broly-exclusive.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `a220e491b5bbaa518ee2563488e05f304024d525`.
+- Audit commit: `fa71be06469465a883c4951990871c9a982f6d77`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Rising Rage.
