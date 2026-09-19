@@ -1183,3 +1183,13 @@ Reconciled Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, S
 - **Spirit Blaster:** corrected character source to SSGSS Gogeta; retained 100-Ki Ki Blast Super and PQ129.
 - **Rolling Bullet:** corrected from Super Ki Blast to **Ki Blast Evasive**, 200 Stamina, PQ42; Android 18/Great Saiyaman 2 users.
 - Other cohort records retained their supported 100-Ki Super classifications/acquisition data.
+
+
+## 2026-09-19 — Spirit Pulse through Wild Buster cohort
+
+Reconciled Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attack, Vanishing Ball, Variable Snipe Shot, Victory Cannon, and Wild Buster.
+
+- **Stone Bullet corrected:** Strike Super / 100 Ki / PQ56; charge extends range. Hercule's character implementation is a Ki Blast variant.
+- **Victory Cannon corrected:** Ki Blast Evasive / 300 Stamina / PQ54.
+- Spirit Pulse mechanics reconciled with current Ultra Instinct behavior.
+- Variable Snipe Shot mechanics reconciled with the official Android 18 (DB Super) description.
