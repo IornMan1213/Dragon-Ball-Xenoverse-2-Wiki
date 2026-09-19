@@ -2468,3 +2468,13 @@ Resolved `ultimate_finish_required: false` for **Do or Die (PQ49), Charge (PQ83)
 - Live nullable Super/Ultimate census after this batch: **27 total — 24 Super / 3 Ultimate**.
 - Skills commit: `5bab0a70c05064b9044ab7d25f93e20255058eb7`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 30
+
+Resolved `ultimate_finish_required: false` for **Prominence Flash (PQ137)** and **Ribrianne's Eternal Love (PQ137)**. The maintained PQ guide explicitly lists both skills under PQ137's Basic Reward, while the Ultimate Finish condition is separately listed as defeating Jiren and the other final opponents. citeturn0search0turn0search1
+
+- Community discussion confirms RNG can affect whether a drop appears, but does not establish UF-only gating for these two skills; the maintained guide's reward-section placement is the evidence used here. citeturn0search2
+- Live nullable Super/Ultimate census after this batch: **25 total — 24 Super / 1 Ultimate**.
+- Skills commit: `ea9f5e9d0386a40baa0b4447d62e542b0cb464e9`.
+- No schema or validator changes.
