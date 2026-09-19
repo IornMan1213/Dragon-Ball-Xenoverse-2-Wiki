@@ -22,7 +22,7 @@
       "name": "Great Saiyaman is Here",
       "stars": 5,
       "dlc_requirement": null,
-      "unlock_condition": "Speak with Great Saiyaman 1 and Great Saiyaman 2 near the beach to unlock PQ51.",
+      "unlock_condition": "Speak with Great Saiyaman 1 and Great Saiyaman 2 near the beach.",
       "win_conditions": [
         "Defeat Cell",
         "Clear with Great Saiyaman still alive",
@@ -56,7 +56,7 @@
       "name": "Super Saiyan Bargain Sale",
       "stars": 5,
       "dlc_requirement": null,
-      "unlock_condition": "Complete PQ53 to unlock PQ52.",
+      "unlock_condition": "Complete PQ 53.",
       "win_conditions": [
         "Defeat Gohan and Goku",
         "Clear in under 5 minutes",
@@ -192,7 +192,7 @@
       "name": "Hercule Is Number One",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": "Speak with Kid Trunks near the waterfall to unlock PQ56; the source does not establish an additional prerequisite chain.",
+      "unlock_condition": "Speak with Kid Trunks near the waterfall.",
       "win_conditions": [
         "Defeat Hercule",
         "Clear in under 5 minutes",
@@ -226,7 +226,7 @@
       "name": "Hell Is a Picture?",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": null,
+      "unlock_condition": "Unlocks after the preceding Buu-era PQ progression; the consulted sources do not establish a reliable quest-specific prerequisite beyond board/story progression.",
       "win_conditions": [
         "Defeat Janemba and Majin Buu",
         "Successfully fuse Goku and Vegeta",
@@ -255,14 +255,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-18"
     },
     {
       "number": 58,
       "name": "Majin Banquet",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": null,
+      "unlock_condition": "Unlocks after the preceding Buu-era PQ progression; the consulted sources do not establish a reliable quest-specific prerequisite beyond board/story progression.",
       "win_conditions": [
         "Defeat Majin Buus",
         "Clear in under 5 minutes",
@@ -290,14 +290,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-18"
     },
     {
       "number": 59,
       "name": "Potara Warrior",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": null,
+      "unlock_condition": "Unlocks after the preceding Buu-era PQ progression; the consulted sources do not establish a reliable quest-specific prerequisite beyond board/story progression.",
       "win_conditions": [
         "Defeat Vegito",
         "Clear with Super Buu's health over 50%",
@@ -330,14 +330,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-18"
     },
     {
       "number": 60,
       "name": "Blast the Super Spirit Bomb!",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": null,
+      "unlock_condition": "Unlocks after the preceding Buu-era PQ progression; the consulted sources do not establish a reliable quest-specific prerequisite beyond board/story progression.",
       "win_conditions": [
         "Defeat Kid Buu",
         "Clear with Majin Buu surviving",
@@ -365,7 +365,7 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-18"
     }
   ]
 }
