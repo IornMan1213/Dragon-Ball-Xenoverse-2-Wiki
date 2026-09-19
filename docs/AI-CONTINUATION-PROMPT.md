@@ -2766,3 +2766,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `08574159b0abeb9d029e593be7fdf4bed5578cf2`.
 - Exact next task: inspect the remaining non-null race-restriction vocabulary (`undefined`, `Majin only`, `Majin male`, `Majin (Pure Majin form)`, `All CaC races while using Ultra Instinct`, and mixed-race strings) and determine which are legitimate contextual restrictions versus stale/invalid normalization artifacts. Change only values supported by current evidence.
 
+### 2026-09-19 continuation — complete race-restriction null census
+- Recomputed the remaining `race_restriction` nulls: after the three earlier character-only Awoken records, **10 nullable records remained**, all marked `usable_by_cac: false` and carrying character-exclusive/non-CaC acquisition metadata.
+- Resolved **Big Bang Knuckle, Divine Spear, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Crimson Edge, Dragon Thunder, and Wild Stinger** to `race_restriction: "Character-only"`.
+- This avoids incorrectly assigning a CaC race to skills that cannot be equipped by CaCs. Current race references distinguish the five playable CaC races from character-exclusive skills. citeturn0search11turn0search1
+- Skills commit: `a7e53e9a40f317c095247e55ddaf91e51b09fcb7`.
+- Coverage audit commit: `6a4ec6fc9bbf2a980cff0ce1382011bff42e83da`.
+- Live nullable `race_restriction`: **0**.
+- Exact next task: recompute the complete nullable-field census and move to the next bounded field. `notes` is currently the only remaining nullable field with substantial coverage (247 records); do not bulk-fill notes unless each addition carries concrete provenance. Prefer another structured metadata field if a small evidence-backed batch can be established.
+
