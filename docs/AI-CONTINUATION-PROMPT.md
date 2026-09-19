@@ -1106,3 +1106,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Refreshed all four verification dates to 2026-09-19.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Super Ghost Buu Attack; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Fighting Pose/Burst boundary
+- Reviewed Fighting Pose H, Formation!, Indomitable, Taunt, Blazing Attack, Brave Sword Slash, Burning Swan, and Burst Blitz.
+- Preserved null race restrictions; no explicit current race/gender/form scope was established.
+- Refreshed all eight verification dates to 2026-09-19.
+- Current web search for dedicated dbxv2 Fandom pages was blocked by robots.txt, so no unsupported provenance URL was added.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Burst Blitz; inspect canonical ordering before selecting the next batch.
