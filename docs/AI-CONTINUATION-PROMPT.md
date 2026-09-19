@@ -613,7 +613,7 @@ A new AI chat must be able to continue from this file without depending on the p
 
 ### 2026-09-19 cycle update — Future Warrior ultimate-skill reconciliation
 - Continued the missing-`usable_by_cac` audit with Future Warrior-specific evidence rather than inferring CaC eligibility from a character's use of a skill.
-- Reconciled **Big Bang Kamehameha, Super Spirit Bomb, Emperor's Death Beam, and Final Explosion**. Big Bang Kamehameha is obtainable through the TP Medal Shop; Super Spirit Bomb through Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion through the TP Medal Shop. citeturn1search1turn2search1turn2search2turn3search0
+- Reconciled **Big Bang Kamehameha, Super Spirit Bomb, Emperor's Death Beam, and Final Explosion**. Big Bang Kamehameha is obtainable through the TP Medal Shop; Super Spirit Bomb through Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion through the TP Medal Shop. 
 - Skills commit: `ed425d388377902aed738ba03ae49b85342d3c41`; coverage commit: `71c9479de17e21b3a0eac16f5b18ddd6b8614e32`.
 - The external Fandom search endpoint remains intermittently robots-blocked; accessible search results and repository source URLs were used where available. No unsupported claims were promoted to `verified`.
 - Exact next task: continue the remaining missing-CaC cohort, focusing on DAIMA/Future Saga skills and explicit racial/character boundaries, then perform a census of remaining null core fields before moving beyond the skills workstream.
@@ -621,14 +621,14 @@ A new AI chat must be able to continue from this file without depending on the p
 
 ### 2026-09-19 cycle update — DAIMA/Future Saga boundary investigation
 - Read the live handoff and continued the P1 missing-`usable_by_cac` audit.
-- Investigated **Burning Blast, Force Edge, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** plus the broader Future Saga Chapter 2 cohort. Current sources confirm their DAIMA character/PQ provenance, but do not explicitly establish Future Warrior eligibility for the individual moves. The repository therefore leaves `usable_by_cac` null rather than incorrectly marking them false or true. citeturn0search5turn0search7turn0search10turn2search0
-- This follows the repository's evidence rule: character-equipped skill lists are not sufficient proof of CaC availability, because Xenoverse 2 has race/gender/transform-specific restrictions. citeturn0search3
+- Investigated **Burning Blast, Force Edge, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** plus the broader Future Saga Chapter 2 cohort. Current sources confirm their DAIMA character/PQ provenance, but do not explicitly establish Future Warrior eligibility for the individual moves. The repository therefore leaves `usable_by_cac` null rather than incorrectly marking them false or true. 
+- This follows the repository's evidence rule: character-equipped skill lists are not sufficient proof of CaC availability, because Xenoverse 2 has race/gender/transform-specific restrictions. 
 - Coverage investigation commit: `79e5e23a659df0b4eb73fb73bb505f0f6d4ea953`.
 - Exact next task: continue the unresolved Future Saga/DAIMA cohort using explicit Future Warrior/CaC evidence, then audit remaining null `usable_by_cac`, `race_restriction`, and DLC/version fields as a complete census. Do not promote records to `verified` without resolving acquisition/reward semantics as well.
 
 
 ### 2026-09-19 cycle update — additional Future Warrior skill evidence
-- Reconciled **Phantom Fist, Shield Barrier, Assault Vanish, Fighting Pose K, Death Ball, Supernova, Divine Lasso, Lightning Impact, and Prominence Flash** with explicit Future Warrior evidence. citeturn2search0turn2search4turn2search5turn2search1turn3search0turn3search1turn3search16
+- Reconciled **Phantom Fist, Shield Barrier, Assault Vanish, Fighting Pose K, Death Ball, Supernova, Divine Lasso, Lightning Impact, and Prominence Flash** with explicit Future Warrior evidence. 
 - Skills commit: `550556f9385263b468fd2153ca38bdc0b98dda4e`.
 - Coverage commit: `7ec129d63d11c6353e3d82995d614ffe44e9b193`.
 - Live null-`usable_by_cac` census before this batch contained 35 records; this batch removes nine explicit-evidence gaps while preserving the `partially_verified` evidence standard.
@@ -636,7 +636,7 @@ A new AI chat must be able to continue from this file without depending on the p
 
 
 ### 2026-09-19 cycle update — Future Warrior/form-exclusive reconciliation
-- Continued the null-`usable_by_cac` audit using the current Future Warrior technique corpus. The source explicitly documents that Future Warrior techniques can be race/gender/transform restricted, so form-specific access is represented rather than flattened into universal availability. citeturn0search0
+- Continued the null-`usable_by_cac` audit using the current Future Warrior technique corpus. The source explicitly documents that Future Warrior techniques can be race/gender/transform restricted, so form-specific access is represented rather than flattened into universal availability. 
 - Reconciled **Surging Spirit, Dragon Fist, Divine Ray Bomb, Dragon Thunder, Final Rampage, Godly Display, Supreme Fury, and Victory Rush**. `Surging Spirit` is specifically recorded as usable through Ultra Instinct Future Warrior access.
 - Skills commit: `6f1a988f2eee96c59e137999f6842cd628b49c73`; coverage commit: `96ff82019d1d8be3abf05805e6346cd8e6e89f81`.
 - Exact next task: recalculate the remaining null-CaC cohort and continue explicit-evidence research. Then begin the 190-record race-restriction census, prioritizing known race/gender/form-specific techniques instead of assigning `All CaC races` by default.
@@ -644,7 +644,7 @@ A new AI chat must be able to continue from this file without depending on the p
 
 ### 2026-09-19 cycle update — explicit race restriction audit
 - Shifted from null CaC eligibility into the next mandated race-restriction workstream.
-- Reconciled **Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Ill Bomber, Candy Beam, Buu Buu Ball, Shining Slash, Burning Slash, Evil Flight Strike, Darkness Rush (Melee), and Darkness Rush (Ranged)** using the Future Warrior technique corpus. citeturn0search0
+- Reconciled **Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Ill Bomber, Candy Beam, Buu Buu Ball, Shining Slash, Burning Slash, Evil Flight Strike, Darkness Rush (Melee), and Darkness Rush (Ranged)** using the Future Warrior technique corpus. 
 - Skills commit: `e6c352c9423aa2a42a6fa271644b3d68f5306902`.
 - Coverage commit: `dbe618bb14ab12938df39f32edf3e526baa51780`.
 - Exact next task: continue the race-restriction census, prioritizing records whose source text explicitly names a race or gender, then revisit the remaining null-CaC cohort. Do not replace an explicit multi-race restriction with `All CaC races`.
@@ -652,56 +652,56 @@ A new AI chat must be able to continue from this file without depending on the p
 
 ### 2026-09-19 cycle update — unresolved recent DLC evidence
 - Recalculated the live census: **18 null-CaC skills** and **184 CaC-eligible skills with null race restriction**.
-- Reviewed recent DLC candidates without over-promoting ambiguous records. Dark Inscription, Emperor's Cannon, and Chaotic Time Impact are documented on Golden Frieza (Ultra Supervillain); Burst Blitz, Dragon Spark, and Soaring Rush are documented on Goku (Mini). Current evidence does not establish CaC access for these records, so they remain null. citeturn3search13turn3search2turn3search17turn3search0turn3search1turn3search14
+- Reviewed recent DLC candidates without over-promoting ambiguous records. Dark Inscription, Emperor's Cannon, and Chaotic Time Impact are documented on Golden Frieza (Ultra Supervillain); Burst Blitz, Dragon Spark, and Soaring Rush are documented on Goku (Mini). Current evidence does not establish CaC access for these records, so they remain null. 
 - Skills commit: `b9a8e3ae8baa7c8acbe11c150266a01b1f0c747b`.
 - Coverage commit: `865fb30619def2d79296b5cb767dbe2576c069e6`.
 - Next: continue the 18-record null-CaC cohort, then resume the 184-record race-restriction census using explicit race/gender/form evidence only.
 
 
 ### 2026-09-19 cycle update — explicit Future Warrior corrections
-- Recalculated and re-audited the null-CaC cohort. **Mystic Flash** and **Thunder Flash** are explicitly included in the Future Warrior technique corpus and were corrected to `usable_by_cac: true`; race scope remains unresolved rather than being guessed. citeturn3search0turn3search6
+- Recalculated and re-audited the null-CaC cohort. **Mystic Flash** and **Thunder Flash** are explicitly included in the Future Warrior technique corpus and were corrected to `usable_by_cac: true`; race scope remains unresolved rather than being guessed. 
 - Skills commit: `cbb114e5cef2b499450dc937367d3b95e7a1e202`.
 - Coverage commit: `4db0b54773c7bdf8964ec74d47356436fdc28250`.
 - Next: continue the remaining null-CaC cohort, then resume the explicit race-restriction census.
 
 
 ### 2026-09-19 cycle update — Requiem of Destruction
-- Confirmed **Requiem of Destruction** as an explicit Future Warrior/CaC technique. Its technique page identifies Future Warrior as a user and gives New Parallel Quest 104 as the acquisition route. citeturn1search0
+- Confirmed **Requiem of Destruction** as an explicit Future Warrior/CaC technique. Its technique page identifies Future Warrior as a user and gives New Parallel Quest 104 as the acquisition route. 
 - Skills commit: `6cc97745e9856af45e52d148aa3d40f6f14f7184`.
 - Coverage commit: `2a6a05a09584ebfcd7ef0936015969123ae25d74`.
 - The null-CaC cohort is now **15 records**. Continue explicit-evidence review; do not infer CaC eligibility from a character's equipped moves alone.
 
 
 ### 2026-09-19 cycle update — DLC evidence boundary re-audit
-- Re-audited the remaining unresolved DLC cohort. Character movesets and PQ reward tables were verified, but those sources do not by themselves establish CaC eligibility. God of Destruction's Plaything/Poise remain tied to Belmod; Force Edge/Burning Blast remain tied to SS3 Vegeta (DAIMA) in the current evidence. citeturn0search2turn0search5turn0search17turn0search1
+- Re-audited the remaining unresolved DLC cohort. Character movesets and PQ reward tables were verified, but those sources do not by themselves establish CaC eligibility. God of Destruction's Plaything/Poise remain tied to Belmod; Force Edge/Burning Blast remain tied to SS3 Vegeta (DAIMA) in the current evidence. 
 - Skills commit: `dd675147e02a668b79a8b94b2293a8d55d27fbf9`.
 - Coverage commit: `f38f3e3544682ab7d107c2ba1de5e10b8dbb6b87`.
 - Next: seek explicit Future Warrior/CaC references for the remaining 15 records; if unavailable, keep them unresolved and move to the race-restriction census rather than guessing.
 
 
 ### 2026-09-19 cycle update — DAIMA CaC evidence
-- Reconciled **Force Edge, Burning Blast, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** to `usable_by_cac: true` based on explicit CaC-focused coverage and CaC build/combo evidence. citeturn3youtube37turn3reddit38turn3reddit43
+- Reconciled **Force Edge, Burning Blast, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** to `usable_by_cac: true` based on explicit CaC-focused coverage and CaC build/combo evidence. 
 - Skills commit: `9db1be415b06fbfde8288f0eb8e47548477b30f6`.
 - Coverage commit: `9ef664e50f208c1a3e8b955ee10f199e3ef40806`.
 - Remaining null-CaC cohort is now **11 records**. Continue explicit evidence research before moving to the race-restriction census.
 
 
 ### 2026-09-19 cycle update — CaC build evidence correction
-- Corrected **God of Destruction's Plaything** to `usable_by_cac: true` after finding explicit custom-character build evidence. citeturn0reddit42
+- Corrected **God of Destruction's Plaything** to `usable_by_cac: true` after finding explicit custom-character build evidence. 
 - Skills commit: `c4c98ee41354038d4e0701c8d82a0f18c52b0df3`.
 - Coverage commit: `a18eed0e500cf2c18818743a5a80d02daab5b3fa`.
 - Remaining null-CaC cohort is now **10 records**. Continue explicit evidence research; do not infer eligibility from PQ rewards alone.
 
 
 ### 2026-09-19 cycle update — second-pass DLC CaC reconciliation
-- Reconciled **Blaster Stream, God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark** to `usable_by_cac: true` using explicit Future Warrior/CaC evidence. citeturn1search3turn1youtube29turn1search5
+- Reconciled **Blaster Stream, God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark** to `usable_by_cac: true` using explicit Future Warrior/CaC evidence. 
 - Skills commit: `6bb28b3140b30047c04a22436593cfc4feb55157`.
 - Coverage commit: `e876a3a75fd039bdac4a381e621043f771290060`.
 - Remaining null-CaC cohort is now **4 records**: Dark Inscription, Emperor's Cannon, Heat Wave, and Chaotic Time Impact. Continue those four with the same evidence standard before beginning the race-restriction census.
 
 
 ### 2026-09-19 cycle update — Heat Wave CaC evidence
-- Confirmed **Heat Wave** as CaC-usable from a documented player custom-character build. citeturn4search4
+- Confirmed **Heat Wave** as CaC-usable from a documented player custom-character build. 
 - Skills commit: `7e4650b290fdf48c6b1c237286b1a7772ff6cd25`.
 - Coverage commit: `b029dc646ccacea77c579212bddff201ed1e204b`.
 - Remaining null-CaC cohort is now **3 records**: Dark Inscription, Emperor's Cannon, and Chaotic Time Impact.
@@ -709,7 +709,7 @@ A new AI chat must be able to continue from this file without depending on the p
 
 
 ### 2026-09-19 cycle update — final null-CaC cohort closed
-- Closed **Dark Inscription, Emperor's Cannon, and Chaotic Time Impact** as `usable_by_cac: true` based on explicit DLC 20 CaC-focused evidence. citeturn1youtube13
+- Closed **Dark Inscription, Emperor's Cannon, and Chaotic Time Impact** as `usable_by_cac: true` based on explicit DLC 20 CaC-focused evidence. 
 - Skills commit: `256d88f05c339da6bfcab7a7c7b3f1d18bd68a1e`.
 - Coverage commit: `dbf067c9586b4c654c59821edba06fe36a09b342`.
 - The explicit null-CaC census is now complete. Next priority is the **race-restriction census**: recompute the live cohort, identify every CaC-usable skill with `race_restriction: null`, and reconcile restrictions in evidence-backed batches without inferring from character ownership alone.
@@ -717,28 +717,28 @@ A new AI chat must be able to continue from this file without depending on the p
 
 ### 2026-09-19 cycle update — race restriction census kickoff
 - Live census: **283 skills / 270 CaC-usable / 202 CaC-usable with race restriction still null**.
-- Reconciled **Majin Kamehameha → Majin-only** using explicit Future Warrior technique documentation rather than merely its Majin character association. citeturn3view0turn1search1
+- Reconciled **Majin Kamehameha → Majin-only** using explicit Future Warrior technique documentation rather than merely its Majin character association. 
 - Skills commit: `574e87cde26b8e8ed1bdaa410e7b59786e3e4305`.
 - Coverage commit: `e636115236dad51830fbfcf96f9759bbf0176d7c`.
 - Next priority: systematically identify additional explicit race/gender restrictions, beginning with skills whose Future Warrior documentation directly names a race restriction; do not blanket-mark character-origin skills.
 
 
 ### 2026-09-19 cycle update — universal CaC race batch
-- Reconciled nine unrestricted CaC skills: **Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, Galick Gun** → `All CaC races`, based on explicit Future Warrior technique documentation. citeturn0search1
+- Reconciled nine unrestricted CaC skills: **Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, Galick Gun** → `All CaC races`, based on explicit Future Warrior technique documentation. 
 - Skills commit: `d248c4be6598c338181efd83a9c5edbe1472e496`.
 - Coverage commit: `648330db2fbe3bb5c6502b0fc2c54a26034b8647`.
 - Continue the race census with explicit race-specific entries; avoid treating a skill's character_source as proof of a CaC race lock.
 
 
 ### 2026-09-19 cycle update — universal race batch 2
-- Reconciled **Candy Beam (Super), Petrifying Spit, and Kai Kai** → `All CaC races` using explicit Future Warrior/CaC evidence. citeturn1search2turn1search10turn2search5
+- Reconciled **Candy Beam (Super), Petrifying Spit, and Kai Kai** → `All CaC races` using explicit Future Warrior/CaC evidence. 
 - Skills commit: `dc4fc4234876c747429e81a73cf8be8be4c946e6`.
 - Coverage commit: `2f3f95939e96e990b1da81ea76b91988e3aaaf79`.
 - Continue the census with explicit race/gender/form-exclusive evidence; unresolved records remain untouched until evidence clears the threshold.
 
 
 ### 2026-09-19 cycle update — explicit restriction batch
-- Reconciled **Zigzag Express → Majin male** and **Namek Finger → Namekian** using explicit Future Warrior restrictions. citeturn0search0turn0search3
+- Reconciled **Zigzag Express → Majin male** and **Namek Finger → Namekian** using explicit Future Warrior restrictions. 
 - Skills commit: `8425c7ed5804608fdbd38df7668d9495e94642a8`.
 - Coverage commit: `f594df1729fe0bbc4e95f7b8ecb46e552939720d`.
 - Continue the race census with the same strict evidence threshold, prioritizing explicit Future Warrior race/gender wording.
@@ -746,14 +746,14 @@ A new AI chat must be able to continue from this file without depending on the p
 
 ### 2026-09-19 cycle update — race provenance hardening
 - Live race backlog: **189** CaC-usable records with `race_restriction` still unset.
-- Hardened provenance for the existing explicit race-restriction cohort by adding the dedicated Future Warrior technique reference to ten records; no new restrictions were inferred without explicit evidence. citeturn2search0
+- Hardened provenance for the existing explicit race-restriction cohort by adding the dedicated Future Warrior technique reference to ten records; no new restrictions were inferred without explicit evidence. 
 - Skills commit: `7dad27d834189474438cae340de541b1ad1ca168`.
 - Coverage commit: `1f8b558bc012640a4517507251886894ff62f3c4`.
 - Next priority: continue mining the Future Warrior reference for any explicit race/gender/transform restrictions that map to the remaining 189 records; otherwise preserve null rather than guessing.
 
 
 ### 2026-09-19 cycle update — Pure Majin form batch
-- Reconciled **Angry Shout, Vanishing Ball, Super Vanishing Ball, Teleporting Vanishing Ball, Pearl Flash, and Buu Buu Ball** as `Majin (Pure Majin form)` using explicit form-exclusive Future Warrior documentation. citeturn0search0
+- Reconciled **Angry Shout, Vanishing Ball, Super Vanishing Ball, Teleporting Vanishing Ball, Pearl Flash, and Buu Buu Ball** as `Majin (Pure Majin form)` using explicit form-exclusive Future Warrior documentation. 
 - Skills commit: `156e8fce946ffd4085ebb86e0accb41e943b0706`.
 - Coverage commit: `21015527a5f032c42b9ad02768bedbd8717160e6`.
 - Continue prioritizing explicit form/race/gender entries, with ordinary character-origin techniques remaining null until the evidence actually establishes a CaC restriction.
@@ -801,7 +801,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - No race values were changed in this cycle. The source explicitly supports the existing restrictions, so this is provenance hardening rather than speculative classification.
 - Skills commit: `5fe12abd56347b2d4e34974d5653a72a2cff308d`.
 - Coverage commit: `a976239d0e48357a68b44b0603d26ac7a3913fc5`.
-- Evidence source: accessible Future Warrior reference, which explicitly states race/gender restrictions for these techniques. citeturn1search0
+- Evidence source: accessible Future Warrior reference, which explicitly states race/gender restrictions for these techniques. 
 - Exact next task: continue mining explicit race/gender/form restrictions among the remaining 186 null-race CaC records; if the accessible source only identifies a character association, leave the record unresolved.
 
 
@@ -811,7 +811,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - These are provenance improvements only. The accessible evidence identifies the moves as part of the Future Warrior's Xenoverse 2 technique set, but does not explicitly establish an unrestricted all-race scope for each one; their race restrictions therefore remain null rather than being inferred.
 - Skills commit: `9f371e8ab6b63f23f6133db785bceb349f8ad474`.
 - Coverage commit: `f5b4b180bc21eb1a49431252b90c10e450816c18`.
-- Evidence: accessible Future Warrior technique reference plus individual technique pages for the clearest acquisition/user confirmations. citeturn1search0turn1search2turn1search3turn1search5
+- Evidence: accessible Future Warrior technique reference plus individual technique pages for the clearest acquisition/user confirmations. 
 - Exact next task: continue the 186-record race-restriction backlog, prioritizing explicit race/gender/form wording. Do not turn generic Future Warrior technique membership into `All CaC races` without an explicit universal-race statement.
 
 
@@ -821,7 +821,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - These are provenance-only updates. The source explicitly identifies the techniques within the Future Warrior's Xenoverse 2 technique set, while also warning that some techniques are race/gender/transformation exclusive; therefore these records remain race-null unless a separate explicit restriction is established.
 - Skills commit: `02bdd16007073f4e838e6242279f7b65c21571f9`.
 - Coverage commit: `04768530cb211172ed514d3e619f76a43f23b9d2`.
-- Evidence source: Future Warrior technique reference. citeturn1view0
+- Evidence source: Future Warrior technique reference. 
 - Exact next task: continue the remaining **186** null-race CaC records, separating explicit restriction evidence from mere Future Warrior usage/provenance and preserving null where race scope remains unproven.
 
 
@@ -911,3 +911,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `4100878419655f176a6d3125242355b20b257bdf`.
 - Coverage commit: `5ab2663a7cad21144e537e93b1a84255f8110bb3`.
 - Continue the null-race explicit-evidence sweep.
+
+### 2026-09-19 cycle update — Super Spirit Bomb corroboration and missing-record audit
+- Added The Codex Future Warrior source to `Super Spirit Bomb`; it independently corroborates unrestricted race access already recorded as `All CaC races`. 
+- Confirmed `Brave Heat`, `Power Pole`, and `Power Pole Combo` are referenced by external Future Warrior material but do not exist as canonical records in the current `skills.json`; do not fabricate records during the race census.
+- Skills commit: `2533919cfe27a9ecd1ea663e47d85a4d4293bf89`.
+- Coverage commit: `45c92022cec71b8b08b1673ec04941d2e4725ff2`.
+- Continue the explicit-evidence sweep of the remaining null-race canonical records.
