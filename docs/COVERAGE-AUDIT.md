@@ -922,3 +922,8 @@ Reviewed **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slic
 ## 2026-09-19 — Earth/Emperor cohort verification boundary
 
 Reviewed **Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, and Eraser Bomb** against current Xenoverse 2 sources. Current records document named-character/custom-partner usage and/or acquisition, but the evidence reviewed does not explicitly establish a CaC race/gender/form restriction. For example, Earth Splitting Galick Gun is documented for Vegeta and multiple customize partners, while Emperor's Cannon is documented for Golden Frieza (Ultra Supervillain); neither establishes a CaC race restriction. cite references intentionally omitted from repository text. All four therefore retain null `race_restriction`. Their verification dates were refreshed to 2026-09-19.
+
+
+## 2026-09-19 — Evil/Flash provenance boundary
+
+Reviewed **Evil Blast, Evil Flame, Final Cannon, and Flash Chaser** against current Xenoverse 2 evidence. Evil Blast is a Dabura counter obtainable by the Future Warrior and later usable by custom partners; Evil Flame is a Dabura skill obtainable by the Future Warrior and later available to a custom partner; Final Cannon is a Future Warrior reward and is available to multiple custom partners; Flash Chaser is a Future Warrior-obtainable Majuub skill and later a Goku (GT) custom-partner skill. These facts establish CaC access where documented, but do not explicitly establish a CaC race/gender/form restriction. All four therefore retain null `race_restriction`. Added dedicated current-version URLs for Evil Blast, Evil Flame, and Flash Chaser; refreshed verification dates for all four.
