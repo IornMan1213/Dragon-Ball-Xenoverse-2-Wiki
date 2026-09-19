@@ -832,3 +832,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Coverage commit: `8212c04cb04b8b8abe3f6e3d753493443e1f65e2`.
 - Current live census remains **283 total / 270 CaC-usable / 186 null race restrictions**.
 - Exact next task: continue the 186-record null-race census, prioritizing explicit race/gender/form statements rather than character ownership.
+
+
+### 2026-09-19 cycle update — Future Warrior provenance expansion batch 4
+- Added Future Warrior provenance to 25 more existing CaC-usable skill records: Energy Barrier, Spirit Explosion, Spirit Slash, Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, Burst Kamehameha, Burst Stinger, Dark Inscription, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Cannon, Eraser Bomb, Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Giant Cluster, Gigantic Charge, and God Punisher.
+- No race restriction was inferred; explicit race evidence remains the required threshold.
+- Skills commit: `df1165aba7a66954c492dd402dbce698d250a2b2`.
+- Coverage commit: `f22e9932d63d18c6ee5a3013fbf3e4d0861c4934`.
+- Exact next task: continue the null-race census and seek explicit race/gender/form restrictions before changing classifications.
