@@ -2194,3 +2194,8 @@ Resolved `dlc_requirement` for six Evasive skills with direct acquisition eviden
 ## 2026-09-19 — Evasive Ultimate-Finish metadata batch
 
 Resolved `ultimate_finish_required` to `false` for **Explosive Wave**, **Punisher Guard**, and **Final Pose**. Their current acquisition method is Skill Shop rather than a Parallel Quest Ultimate Finish, so these records have direct negative evidence for a UF acquisition requirement. Other Evasive Ultimate-Finish fields remain nullable where the available evidence does not establish whether a PQ reward is specifically tied to Ultimate Finish.
+
+
+## 2026-09-19 — Super Ultimate-Finish metadata batch
+
+Resolved `ultimate_finish_required` to `true` for **Rough Ranger**. Its current repository acquisition metadata explicitly identifies PQ119's **Ultimate Finish** as the acquisition route, providing direct positive evidence rather than an inference from a generic PQ reward.
