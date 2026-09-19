@@ -4538,12 +4538,14 @@
       "skill_description": "Justice Drive is a Super Strike skill associated with Videl.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Justice_Drive"
-      ]
+        "https://dbxv2.fandom.com/wiki/Justice_Drive",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Justice Kick",
@@ -4710,12 +4712,14 @@
       "skill_description": "Neo Wolf Fang Fist is a Super Strike skill associated with Yamcha.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist"
-      ]
+        "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Power Impact",
@@ -4733,13 +4737,15 @@
       "skill_description": "Power Impact is a Super Strike skill associated with Jiren.",
       "mechanics_notes": "PQ reward identity corroborated; Power Impact is classified as a Strike Super, despite the stale Ki Blast subcategory value previously present. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "category_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
-        "https://dbxv2.fandom.com/wiki/Power_Impact"
-      ]
+        "https://dbxv2.fandom.com/wiki/Power_Impact",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Powered Shell",
@@ -4757,13 +4763,15 @@
       "skill_description": "Powered Shell is a Super Strike skill associated with Broly (Full Power Super Saiyan).",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dbxv2.fandom.com/wiki/Powered_Shell"
-      ]
+        "https://dbxv2.fandom.com/wiki/Powered_Shell",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Pressure Sign",
@@ -4799,13 +4807,14 @@
       "skill_description": "Recoome Kick is a Super Strike skill associated with Recoome.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Recoome_Kick",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Sauzer Blade",
@@ -4823,13 +4832,14 @@
       "skill_description": "Sauzer Blade is a Super Strike skill associated with Sauzer.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Savory Slicer",
@@ -4847,13 +4857,15 @@
       "skill_description": "Savory Slicer is a Super Strike skill associated with Android 18.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dbxv2.fandom.com/wiki/Savory_Slicer"
-      ]
+        "https://dbxv2.fandom.com/wiki/Savory_Slicer",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Scissors Paper Rock",
@@ -4896,12 +4908,14 @@
       "skill_description": "Seagull Combination is a Super Strike skill associated with Videl.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Seagull_Combination"
-      ]
+        "https://dbxv2.fandom.com/wiki/Seagull_Combination",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Shining Slash",
