@@ -1701,3 +1701,14 @@ Reviewed **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slic
 - Current reference material also places these skills in the expected Super/Ultimate/Other skill families; no unsupported class or unlock correction was made during this pass.
 - Emperor's Cannon is a current Future Saga Chapter 3 skill, while Eraser Bomb is associated with Broly (Restrained); character association alone was not treated as a CaC race restriction.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Evil Blast through God of Destruction's Plaything
+
+Reviewed **Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Giant Cluster, Gigantic Charge, and God of Destruction's Plaything**.
+
+- Current Future Warrior references explicitly list Evil Blast/Evil Flame, Final Cannon, Flash Chaser, and Gigantic Charge among techniques available to the Future Warrior. Reviewed evidence does not establish an explicit CaC race/gender/form restriction for this cohort.
+- Giant Cluster is documented in the current PQ reward list (PQ163); its association with Broly does not by itself establish a CaC race restriction.
+- The null race field is therefore preserved intentionally.
+- No unsupported class, cost, unlock, or mechanics correction was made during this pass.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
