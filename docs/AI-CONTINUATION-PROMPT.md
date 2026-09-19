@@ -2316,3 +2316,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No PQ skill was marked false merely because it is associated with a PQ; only explicit acquisition-route evidence was used.
 - Web cross-checks confirmed mentor skills are awarded through mentor training and that skill acquisition has multiple routes rather than universally requiring Ultimate Finish. citeturn0search2turn0search8turn0search7
 - Next exact task: **recompute Super/Ultimate nullable acquisition metadata and target another small batch with explicit non-PQ or UF-specific evidence.**
+
+
+### 2026-09-19 continuation — Super/Ultimate non-UF acquisition batch
+- Resolved `ultimate_finish_required: false` for 10 skills with explicit non-UF acquisition routes: Reverse Mabakusenko, Death Ball, Emperor's Death Beam, Final Explosion, Divine Lasso, Bending Kamehameha, Big Bang Kamehameha, Divine Kamehameha, Dancing Parapara, Instant Transmission.
+- Mixed-source skills were marked false only where a documented shop/mentor/raid route independently provides acquisition without a PQ Ultimate Finish.
+- Preserved all remaining nullable UF fields where acquisition gating is ambiguous or only described as a generic PQ reward.
+- Next exact task: **recompute the remaining Super/Ultimate nullable acquisition metadata and continue with another small batch of explicitly non-UF or explicitly UF-gated records.**
