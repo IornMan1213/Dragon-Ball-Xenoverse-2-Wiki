@@ -912,3 +912,8 @@ Reviewed **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, and Burst Kame
 ## 2026-09-19 — super-skill evidence boundary
 
 Reviewed **Burst Stinger, Dark Inscription, Demon Ray, and Destruction's Concerto: Comet** using current Xenoverse 2 skill/character pages. Burst Stinger is documented on Vegeta (Super Saiyan God), Dark Inscription on Golden Frieza (Ultra Supervillain), Demon Ray on Gohan (Beast), and Destruction's Concerto: Comet on Vados; these user associations do not by themselves establish CaC race/gender/form restrictions. The current sources did not provide explicit race scope for these records, so their null `race_restriction` values were preserved. Burst Stinger lacked a dedicated current-version provenance URL in the canonical record, so that URL was added. No race classifications were inferred from NPC identity or acquisition method.
+
+
+## 2026-09-19 — next super-skill verification boundary
+
+Reviewed **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, and Dust Attack** against current Xenoverse 2 evidence. Starfall is documented as a Vados skill; Dimension Cannon as a Super Buu skill; Double Death Slicer as a Frieza (Full Power) skill; and the available canonical/current record for Dust Attack does not expose explicit CaC race/gender/form scope. These character associations and acquisition data do not establish a race restriction for CaCs. All four therefore retain null `race_restriction`. Their verification dates were refreshed to 2026-09-19. No new provenance URL was required.
