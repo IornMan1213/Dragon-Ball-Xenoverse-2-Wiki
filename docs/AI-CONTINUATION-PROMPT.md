@@ -1960,3 +1960,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `fa25321b8f9a7dbe8b8388aaabeb8e3c4b0e24fb`.
 - Live census: **283 total / 269 CaC-usable / 0 CaC-usable with null race restriction**.
 - Next task: recompute the dataset and inspect for other coverage-quality gaps now that the P1 null-race census is complete; do not assume this race-restriction workstream has remaining records.
+
+
+### 2026-09-19 continuation — verified transformation research-status normalization
+- After completing the null-race census, inspected dataset metadata for coverage gaps.
+- Normalized the 11 verified transformation/Awoken records that lacked `research_status`: **Become Giant, Future Super Saiyan, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Saiyan God Super Saiyan, Super Saiyan God Super Saiyan (Evolved), Super Vegeta, Turn Golden, and Super Saiyan 2**.
+- Added `reconciled_race_restriction_verified` and refreshed `last_verified` to **2026-09-19** without changing their explicit race restrictions or substantive mechanics/acquisition evidence.
+- Data commit: `1df235dc58eeee4e9545531fde63eac2019fb772`.
+- Next task: recompute metadata coverage and inspect the remaining records for similarly actionable missing/ambiguous fields, while preserving evidence limitations.
