@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "scope": "PQ 1-186",
-  "status": "relationship_population_in_progress",
+  "status": "reconciliation_required",
   "canonical_range": {
     "first": 1,
     "last": 186,
@@ -19,5 +19,7 @@
     "dlc": 88,
     "farming": 7
   },
-  "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records."
+  "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
+  "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
+  "next_gate": "Resolve or explicitly classify the 232 reward-map/relationship differences before declaring the PQ cross-domain layer exhaustive."
 }
