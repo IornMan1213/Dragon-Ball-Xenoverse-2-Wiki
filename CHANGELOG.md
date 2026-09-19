@@ -1,3 +1,7 @@
+## September 2026 — Power to Overcome mechanics batch 43
+- Enriched The Power to Overcome with current testing evidence for Stage 1 defense/speed, low-health recovery, unblockable sword strike, and Stage 2 damage/Ki behavior.
+- Preserved conflicting Stage 2 speed/cooldown and exact regeneration values rather than choosing an unsupported number.
+
 ## September 2026 — Transformation stage reconciliation batch 42
 - Reconciled **Super Saiyan 2** as the 400-Ki second stage of the Super Saiyan Awoken Skill rather than a separately equipped transformation.
 - Reconciled **The Power to Overcome** core DLC/unlock/universal-CaC facts and its two-stage behavior while preserving conflicts over exact numeric stage modifiers.
