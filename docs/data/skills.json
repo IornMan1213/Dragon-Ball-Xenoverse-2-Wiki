@@ -70,7 +70,8 @@
       "last_verified": "2026-09-19",
       "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation.",
       "research_status": "enriched",
-      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift"
+      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift",
+      "ki_cost": 300
     },
     {
       "name": "Power Pole Pro",
