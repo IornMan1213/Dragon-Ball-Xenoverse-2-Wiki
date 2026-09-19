@@ -2369,3 +2369,13 @@ Resolved `ultimate_finish_required: false` for **Lightning Impact (PQ142), Heroi
 - Live nullable Super/Ultimate census after this batch: **88 total — 58 Super / 30 Ultimate**.
 - Skills commit: `83ba610a2469bccbe2ab4da1ce24f6a899661ccd`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 20
+
+Resolved `ultimate_finish_required: false` for **Revenge Final Flash (PQ124), Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), and Last Emperor (PQ71)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn1search0turn1search6
+
+- Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
+- Live nullable Super/Ultimate census after this batch: **83 total — 53 Super / 30 Ultimate**.
+- Skills commit: `0679447a033ae7968d516a3a8aa1d1d3931db272`.
+- No schema or validator changes.
