@@ -834,6 +834,118 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
       ]
+    },
+    {
+      "id": "super-soul-036",
+      "name": "Buu's reached full power!",
+      "character_source": "Babidi",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Hit / Hit Lite Raid individual reward",
+      "first_clear_or_repeat": "Individual reward / recurring raid",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text; exact item-level wording retained as secondary evidence",
+      "effect_text": "Always reduces Ki recovery speed; when Ki is maxed out, boosts all attacks.",
+      "effect_magnitude": "reported -20% Ki recovery; +30% all attacks",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Secondary catalog records a description/files discrepancy (10% vs 20% Ki recovery); conflict preserved.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81010605"
+      ]
+    },
+    {
+      "id": "super-soul-037",
+      "name": "I'm over 1,000 years old.",
+      "character_source": "Hit",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Hit / Hit Lite Raid individual reward; also NPC Gogoh after base-game completion",
+      "first_clear_or_repeat": "Individual reward / recurring raid",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text; exact item-level wording retained as secondary evidence",
+      "effect_text": "When succeeding at a Just Guard, temporarily boosts Strike Skills.",
+      "effect_magnitude": "+15% Strike Skills",
+      "duration": "10 seconds",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Raid is an additional acquisition route; NPC Gogoh remains separately documented.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81010605"
+      ]
+    },
+    {
+      "id": "super-soul-038",
+      "name": "My Ki is building... Overflowing...",
+      "character_source": "Broly",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Broly / Broly Lite Raid",
+      "first_clear_or_repeat": "Individual reward / recurring raid",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text; exact item-level wording retained as secondary evidence",
+      "effect_text": "Always reduces Stamina recovery speed; when Ki is maxed out, reduces damage taken from all attacks.",
+      "effect_magnitude": "reported -40% Stamina recovery; -20% damage taken",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Secondary evidence supports the reward/effect pairing; no unsupported recurrence or drop-rate claim.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134"
+      ]
+    },
+    {
+      "id": "super-soul-039",
+      "name": "I am going to bathe in your blood!",
+      "character_source": "Broly",
+      "dlc_requirement": null,
+      "acquisition_type": "Online Raid Quest",
+      "acquisition_source": "Broly / Broly Lite Raid",
+      "first_clear_or_repeat": "Individual reward / recurring raid",
+      "shop_rotation": null,
+      "trigger_condition": "See effect_text; exact item-level wording retained as secondary evidence",
+      "effect_text": "When the battle begins, temporarily boosts the strength of all attacks.",
+      "effect_magnitude": "XXL (categorical secondary report)",
+      "duration": "unresolved",
+      "stacking_behavior": "unresolved",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Categorical XXL magnitude retained; no numeric conversion inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134"
+      ]
     }
   ],
   "research_notes": [
@@ -845,7 +957,8 @@
     "The current catalogue is an enumeration/research layer, not a claim that every documented Super Soul has been populated.",
     "New records remain partially verified until core identity, acquisition, and important mechanics are reconciled against sufficient independent evidence.",
     "2026-09-19: promoted Super Soul research batch 03 (IDs 024–031) after duplicate, schema, acquisition, and independent-source reconciliation. Shop rotation details and unresolved drop-rate behavior remain explicitly unclaimed.",
-    "2026-09-19: indexed and promoted four FUTURE SAGA Chapter 4 Super Souls (032–035) using official DLC identity evidence, PQ inventory evidence, and explicitly attributed community testing. Unresolved item-level mechanics remain marked unresolved; no drop rates or Normal-vs-Ultimate-Finish mapping inferred."
+    "2026-09-19: indexed and promoted four FUTURE SAGA Chapter 4 Super Souls (032–035) using official DLC identity evidence, PQ inventory evidence, and explicitly attributed community testing. Unresolved item-level mechanics remain marked unresolved; no drop rates or Normal-vs-Ultimate-Finish mapping inferred.",
+    "2026-09-19: promoted raid/event Super Soul batch 04 (036–039) with secondary acquisition/effect reconciliation; exact recurrence schedules and drop rates remain unresolved."
   ],
   "sources": [
     {
