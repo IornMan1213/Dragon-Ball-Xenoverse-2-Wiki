@@ -1210,7 +1210,7 @@
       "source_quest_or_shop": "PQ165",
       "ultimate_finish_required": null,
       "skill_description": "Steel Mirage is a Evasive Other skill associated with Android 18.",
-      "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1219,7 +1219,7 @@
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Final Pose",
@@ -1238,8 +1238,8 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
-      "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive from the Skill Shop. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "race_restriction": null
+      "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive from the Skill Shop. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Mach Dash",
@@ -1261,8 +1261,8 @@
       "source_quest_or_shop": "Parallel Quest 18",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "mechanics_notes": "Dedicated current-version evidence confirms Mach Dash as a 200-Stamina Power Up Evasive from PQ18. It creates distance and temporarily increases movement speed. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "race_restriction": null
+      "mechanics_notes": "Dedicated current-version evidence confirms Mach Dash as a 200-Stamina Power Up Evasive from PQ18. It creates distance and temporarily increases movement speed. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Angry Shout",
@@ -1304,8 +1304,8 @@
       "source_quest_or_shop": "Parallel Quest 32",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "mechanics_notes": "Current evidence confirms Energy Barrier as a 300-Stamina Evasive barrier from PQ32. It cancels Ki waves, knocks opponents back, and can be extended by holding the input while consuming Ki. The record remains Strike pending a stronger direct attack-type source. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "race_restriction": null
+      "mechanics_notes": "Current evidence confirms Energy Barrier as a 300-Stamina Evasive barrier from PQ32. It cancels Ki waves, knocks opponents back, and can be extended by holding the input while consuming Ki. The record remains Strike pending a stronger direct attack-type source. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Spirit Explosion",
@@ -1321,7 +1321,7 @@
       "source_quest_or_shop": "Parallel Quest 25",
       "ultimate_finish_required": false,
       "skill_description": "Spirit Explosion is a Strike Evasive skill.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Spirit Explosion as a 200-Stamina Strike Evasive from PQ25 and explicitly states it is obtainable for CaCs. It creates a close-range blue explosion that knocks opponents away. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Spirit Explosion as a 200-Stamina Strike Evasive from PQ25 and explicitly states it is obtainable for CaCs. It creates a close-range blue explosion that knocks opponents away. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1331,7 +1331,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 25,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Spirit Slash",
@@ -1347,7 +1347,7 @@
       "source_quest_or_shop": "Parallel Quest 02",
       "ultimate_finish_required": null,
       "skill_description": "Spirit Slash is a Evasive Strike skill associated with Gohan (Teen).",
-      "mechanics_notes": "Dedicated current-version evidence confirms Spirit Slash as a 200-Stamina Strike Evasive from PQ02. The Gohan (DBS Super Hero) variant uses 300 Stamina and can be charged to teleport behind the opponent. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Spirit Slash as a 200-Stamina Strike Evasive from PQ02. The Gohan (DBS Super Hero) variant uses 300 Stamina and can be charged to teleport behind the opponent. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1356,7 +1356,7 @@
         "https://dbxv2.fandom.com/wiki/Spirit_Slash",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Atomic Blast",
@@ -1372,7 +1372,7 @@
       "source_quest_or_shop": "Parallel Quest 87",
       "ultimate_finish_required": null,
       "skill_description": "Atomic Blast is a Super Ki Blast skill associated with Vegeta (Super Saiyan 4).",
-      "mechanics_notes": "Dedicated current-version evidence confirms Atomic Blast as a 100-Ki Ki Blast Super from PQ87. It is a chargeable Ki wave whose optimal damage depends on charge timing and whether the user is grounded. Current evidence confirms CaC availability but does not explicitly establish a CaC race/gender/form restriction; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Atomic Blast as a 100-Ki Ki Blast Super from PQ87. It is a chargeable Ki wave whose optimal damage depends on charge timing and whether the user is grounded. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1382,7 +1382,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 87,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Bending Kamehameha",
@@ -1465,7 +1465,7 @@
       "source_quest_or_shop": "Parallel Quest 125",
       "ultimate_finish_required": null,
       "skill_description": "Blaster Ball is a Super Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Blaster Ball as a 100–500 Ki Ki Blast Super from PQ125. Repeated input extends the barrage up to 13 total hits. No unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability but does not explicitly establish a CaC race/gender/form restriction; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Blaster Ball as a 100–500 Ki Ki Blast Super from PQ125. Repeated input extends the barrage up to 13 total hits. No unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1477,7 +1477,7 @@
         "https://dragonball.fandom.com/wiki/Blaster_Ball"
       ],
       "source_quest": 125,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Bluff Kamehameha",
