@@ -986,7 +986,7 @@
       "source_quest_or_shop": "Parallel Quest 59",
       "ultimate_finish_required": null,
       "skill_description": "Force Shield is a Evasive Other skill associated with Vegito.",
-      "mechanics_notes": "Current dedicated evidence confirms Force Shield as a 200-Stamina Ki Blast Evasive from PQ59, used by Vegito. It creates a blue barrier that cancels Ki waves and can be held while consuming Ki; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, but no explicit CaC race/gender/form restriction was established in the reviewed evidence.",
+      "mechanics_notes": "Current dedicated evidence confirms Force Shield as a 200-Stamina Ki Blast Evasive from PQ59, used by Vegito. It creates a blue barrier that cancels Ki waves and can be held while consuming Ki; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -996,7 +996,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 59,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Instant Rise",
@@ -1012,7 +1012,7 @@
       "source_quest_or_shop": "Parallel Quest 37",
       "ultimate_finish_required": null,
       "skill_description": "Instant Rise is an Evasive skill that rapidly ascends to evade attacks.",
-      "mechanics_notes": "Current dedicated evidence confirms Instant Rise as a 200-Stamina Other Evasive from PQ37. It rapidly moves the user upward for evasion; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, but no explicit CaC race/gender/form restriction was established in the reviewed evidence.",
+      "mechanics_notes": "Current dedicated evidence confirms Instant Rise as a 200-Stamina Other Evasive from PQ37. It rapidly moves the user upward for evasion; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1022,7 +1022,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 37,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Ki Explosion",
@@ -1063,7 +1063,7 @@
       "source_quest_or_shop": "Parallel Quest 92",
       "ultimate_finish_required": null,
       "skill_description": "Maiden Burst is a Evasive Other skill associated with Pan.",
-      "mechanics_notes": "Current dedicated evidence confirms Maiden Burst as a 300-Stamina Evasive from PQ92, associated with Pan/Videl (Customize Partner)/Ribrianne. No unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, but no explicit CaC race/gender/form restriction was established in the reviewed evidence.",
+      "mechanics_notes": "Current dedicated evidence confirms Maiden Burst as a 300-Stamina Evasive from PQ92, associated with Pan/Videl (Customize Partner)/Ribrianne. No unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1073,7 +1073,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 92,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Mighty Explosive Wave",
@@ -1089,7 +1089,7 @@
       "source_quest_or_shop": "Parallel Quest 79",
       "ultimate_finish_required": null,
       "skill_description": "Mighty Explosive Wave is an Evasive skill associated with Majin Buu.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Mighty Explosive Wave as a Ki Blast Super/Evasive skill from PQ79, costing 100 Ki when used as the attack and 300 Stamina as the Evasive. It creates a close-range explosion. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, but no explicit CaC race/gender/form restriction was established in the reviewed evidence.",
+      "mechanics_notes": "Dedicated current-version evidence identifies Mighty Explosive Wave as a Ki Blast Super/Evasive skill from PQ79, costing 100 Ki when used as the attack and 300 Stamina as the Evasive. It creates a close-range explosion. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1098,7 +1098,7 @@
         "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Psychic Move",
@@ -1114,7 +1114,7 @@
       "source_quest_or_shop": "Parallel Quest 73",
       "ultimate_finish_required": null,
       "skill_description": "Psychic Move is a Evasive Other skill associated with Guldo.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Psychic Move as a 300-Stamina Strike Evasive from PQ73. It teleports behind the opponent and creates a short-range shockwave. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, but no explicit CaC race/gender/form restriction was established in the reviewed evidence.",
+      "mechanics_notes": "Dedicated current-version evidence identifies Psychic Move as a 300-Stamina Strike Evasive from PQ73. It teleports behind the opponent and creates a short-range shockwave. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1124,7 +1124,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 73,
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Punisher Guard",
@@ -1143,8 +1143,8 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
-      "mechanics_notes": "Dedicated current-version evidence confirms Punisher Guard as a 300-Stamina Other Evasive from the Skill Shop after story progression. It provides universal invulnerability/super armor for about 3 seconds. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, but no explicit CaC race/gender/form restriction was established in the reviewed evidence.",
-      "race_restriction": null
+      "mechanics_notes": "Dedicated current-version evidence confirms Punisher Guard as a 300-Stamina Other Evasive from the Skill Shop after story progression. It provides universal invulnerability/super armor for about 3 seconds. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Side Bridge",
@@ -1160,7 +1160,7 @@
       "source_quest_or_shop": "Parallel Quest 39",
       "ultimate_finish_required": null,
       "skill_description": "Side Bridge is a Evasive Other skill associated with Android 17.",
-      "mechanics_notes": "Dedicated current-version evidence corrects Side Bridge to a 100-Ki Ki Blast Super from PQ39. It throws a disc that returns like a boomerang. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, but no explicit CaC race/gender/form restriction was established in the reviewed evidence.",
+      "mechanics_notes": "Dedicated current-version evidence corrects Side Bridge to a 100-Ki Ki Blast Super from PQ39. It throws a disc that returns like a boomerang. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1169,7 +1169,7 @@
         "https://dbxv2.fandom.com/wiki/Side_Bridge",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Spread Shot Retreat",
@@ -1185,7 +1185,7 @@
       "source_quest_or_shop": "Parallel Quest 28",
       "ultimate_finish_required": false,
       "skill_description": "Spread Shot Retreat is a Evasive Other skill associated with Frieza.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Spread Shot Retreat as a 300-Stamina Ki Blast Evasive from PQ28. It retreats while firing a tracking barrage that can stun. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, but no explicit CaC race/gender/form restriction was established in the reviewed evidence.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Spread Shot Retreat as a 300-Stamina Ki Blast Evasive from PQ28. It retreats while firing a tracking barrage that can stun. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "partially_verified",
       "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
@@ -1194,7 +1194,7 @@
         "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Steel Mirage",
