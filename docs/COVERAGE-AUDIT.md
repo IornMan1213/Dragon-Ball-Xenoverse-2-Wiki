@@ -1980,3 +1980,14 @@ Inspected the remaining skill records with missing `source_quest_or_shop` and ma
 - Preserved unresolved acquisition fields where the existing record did not provide a sufficiently precise source; no source was inferred from character ownership alone.
 - Refreshed `last_verified` to **2026-09-19** only for records changed in this normalization.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — mechanics-notes coverage completion
+
+Reviewed all 13 records that lacked mechanics_notes and filled the field using mechanics already supported by the repository's existing sources and structured metadata.
+
+- Covered Burst Reflection, Spirit Bomb, Final Charge, Surging Spirit, Evil Flight Strike, Namek Finger, Pressure Sign, Shining Slash, Death Ball, Final Explosion, Super Spirit Bomb, Supernova, and Darkness Rush (Melee).
+- Preserved character-only/CaC boundaries and existing uncertainty; no new race restriction or unsupported acquisition claim was introduced.
+- Refreshed last_verified to 2026-09-19 for the changed records.
+- Data commit: 5e5fe94a0da113d6dd059af9a286067632ec1dfb.
+- No validator or validation rule was weakened.
