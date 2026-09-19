@@ -2580,3 +2580,14 @@ Live nullable `ultimate_finish_required` census after this pass: **0 across all 
 
 No schema or validator changes were made. The field is now fully populated for the current skill dataset; future additions should preserve evidence-backed provenance rather than defaulting to false.
 
+## 2026-09-19 — Evasive Ki-cost metadata pass
+
+Audited the 17 Evasive records whose `ki_cost` was still nullable. Current Evasive reference data describes Evasives as Stamina-based skills, with activation costs represented by `stamina_cost`; the maintained Evasive reference lists the affected skills with stamina costs rather than a Ki activation cost. citeturn1search0turn1search1
+
+Resolved `ki_cost` to **0** for: Absolute Zero, Dragon Burn, Explosive Wave, Mighty Explosive Wave, Psychic Move, Punisher Guard, Spread Shot Retreat, Final Pose, Mach Dash, Angry Shout, Energy Barrier, Spirit Explosion, Spirit Slash, Headshot, Rolling Bullet, Victory Cannon, and Energy Field.
+
+This pass does not alter `stamina_cost`; the existing per-skill stamina values remain authoritative. The distinction matters because some Evasives can have additional-input behavior involving Ki, but the base Evasive activation is Stamina-based. citeturn1search1
+
+Skills commit: `c27d65ec768d9c292e59fc165d0a87dd6d82229a`.
+No schema or validator changes were made.
+
