@@ -2356,3 +2356,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - CI status: inspect push-triggered Repository quality/cleanup/audit runs for the resulting commits; prior opaque pre-step failures remain infrastructure/account signals until actionable logs exist.
 - Current skill census remains 283 records / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes / 0 missing unlock_method / 0 missing source_quest_or_shop. The nullable UF queue is reduced by four for directly evidenced non-UF Ultimate acquisitions.
 - Exact next task: recompute the remaining Super/Ultimate nullable ultimate_finish_required census and target another small batch only where the acquisition route is explicit; otherwise audit mixed-source skills such as Final Kamehameha without forcing a false/true value.
+
+
+### 2026-09-19 continuation — Expert Mission/PQ non-UF batch and Final Kamehameha census correction
+- Workstream: skill acquisition metadata / Ultimate Finish provenance.
+- Resolved ultimate_finish_required=false for Supernova (Expert Mission 6), Super Spirit Bomb (Expert Mission 16), Divine Wrath: Purification (PQ112 skill drop), and Final Kamehameha (TP Medal Shop / PQ91 / Double Crystal Raids). The latter was resolved after current source evidence confirmed the independent TP Medal Shop route.
+- Live post-edit census: 177 Super/Ultimate records remain nullable for ultimate_finish_required: 137 Super and 40 Ultimate. The earlier audit note claiming 61 was incorrect and is superseded by this live census.
+- Commits: 15b65baf2b747a8aeca0db04eed2cc5e68720778 (Expert Mission/PQ batch), 963bbac8eeabe70df5461cfefb634a5a044c2cf (audit note), 16d4fa36274f77b131dd44597f8a6925f4193153 (Final Kamehameha), 05daed3d4e8e7bbb6cef523efe3747fe7a030b11 (census correction).
+- Evidence limits: generic PQ reward association is still not treated as sufficient to infer Ultimate Finish gating. Direct non-UF acquisition routes are required. Divine Wrath: Purification has explicit evidence of dropping without the PQ Ultimate Finish; Supernova has Expert Mission 6 RNG acquisition; Super Spirit Bomb has Expert Mission 16 acquisition; Final Kamehameha has an explicit TP Medal Shop route.
+- Validation: skills JSON parsed successfully; targeted records carry explicit false values and refreshed verification dates. No validator or schema rule was changed.
+- CI: inspect push-triggered quality/cleanup/audit runs for the newest commit; previous failures exposed jobs with zero recorded steps/logs and remain infrastructure/account signals unless actionable logs appear.
+- Exact next task: recompute the live 177-record nullable Super/Ultimate census again, then research another small item-level batch. Prioritize records with explicit Skill Shop, TP/STP Medal Shop, mentor, wish, Expert Mission, or clearly non-UF character-drop provenance; do not infer false from generic PQ reward wording.
