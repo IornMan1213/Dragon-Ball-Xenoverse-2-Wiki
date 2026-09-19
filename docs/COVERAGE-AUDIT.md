@@ -2015,3 +2015,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validation: canonical skills JSON parsed successfully after the edit; live source-field gap is **0/283**.
 - CI: no validator was weakened. Existing opaque pre-step GitHub Actions failures remain infrastructure/account signals unless actionable logs appear.
 - Exact next task: recompute metadata coverage again, then inspect the remaining skill records for other actionable structured gaps; if the skill layer is clean, move to the next P1/PQ provenance or reward/acquisition field rather than reopening the completed null-race census.
+
+
+## 2026-09-19 — unlock-method coverage completion
+
+- Recomputed canonical skill metadata after the acquisition-source pass.
+- Found exactly **2** null `unlock_method` fields: **Dragon Thunder** and **Death Ball**.
+- Verified Dragon Thunder is explicitly unavailable for CaC and has no unlock route (`N/A`), while Death Ball is a Frieza mentor reward from **Intergalactic Emperor of Evil 3**. citeturn1search0turn1search4
+- Updated both records without inventing a quest/drop route.
+- Result: **0/283 skill records missing unlock_method**.
+- Next task: recompute the complete structured-field census and move to the next nonempty/high-value gap, prioritizing Parallel Quest reward/acquisition/version provenance if the skill layer is otherwise complete.
