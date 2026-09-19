@@ -1517,3 +1517,13 @@ Reconciled **Recoome Kick, Sauzer Blade, Savory Slicer, Scissors Paper Rock, Sea
 - The other seven remain CaC-usable without an inferred narrower race/gender/form restriction.
 - Existing PQ acquisition data was retained while detailed drop mechanics remain research items.
 - Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Sonic Bomb through Burning Blast
+
+Reconciled **Sonic Bomb, Super God Fist, Variant Drive, Wild Stinger, Zigzag Express, Apocalyptic Burst, Blaster Stream, and Burning Blast**.
+
+- Wild Stinger remains non-CaC/character-exclusive to Vegeta (Super Saiyan God) Ultra Supervillain.
+- Zigzag Express retains its explicit **Majin male** restriction.
+- Sonic Bomb, Super God Fist, Variant Drive, Apocalyptic Burst, Blaster Stream, and Burning Blast remain CaC-usable without an inferred narrower race/gender/form restriction.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
