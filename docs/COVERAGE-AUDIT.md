@@ -9,6 +9,12 @@ title: Exhaustive Coverage Audit
 
 This audit exists to prevent the project from confusing the existence of a wiki page, index, or seeded catalogue with exhaustive documentation.
 
+## 2026-09-19 live PQ unlock census correction
+
+Live repository census: 176 canonical PQ records, 176 unique numbers, 0 duplicates, and 0 records missing an explicit `unlock_condition` field. PQ36, PQ53–55, PQ131–140, and PQ151–160 now all have explicit unlock metadata. This field census does not make every route exact: PQ54 retains conflicting community evidence, PQ36 retains the known numbering/existence anomaly, and some DLC-era entries intentionally retain bounded DLC-ownership + PQ-board wording where an individual prerequisite was not independently established.
+
+Historical cycle counts below remain unchanged for provenance; this section is the current live census.
+
 ## Current finding
 
 The repository has strong research foundations for several systems, but multiple sections are still **framework-first rather than encyclopedia-complete**. Unlock-field presence must not be mistaken for exact unlock-route verification: several PQ batches use explicitly bounded wording where sources establish placement/objectives but not the individual trigger. The next phase must therefore prioritize missing records and missing fields, not merely new page polish or raw batch count.
