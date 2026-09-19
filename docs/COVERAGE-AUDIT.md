@@ -587,3 +587,13 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - These records remain `partially_verified` because this pass establishes acquisition/CaC facts, not exhaustive reward-slot probability or every historical version boundary.
 - Skills commit: `28a6fb4b85a7a6eabf4b60052a8a92f7a5c6bee1`.
 - External corroboration included current Xenoverse 2 skill pages for Burst Reflection, Divine Kamehameha, Perfect Shot, Instant Transmission, Super Guard, and Celestial Wave, plus the mentor/reward reference for Cell and the current wish table. cite references are external only; repository files retain source URLs.
+
+
+## 2026-09-19 Skill CaC/race restriction batch — charge, mentor, and support skills
+
+- Reconciled **Bending Kamehameha, Full Power Charge, Maximum Charge, Charged Ki Wave, Ultimate Charge, Burst Charge, Data Input, Pressure Sign, Meditation, Deadly Dance, and Quick Sleep**.
+- Confirmed Future Warrior/CaC availability for the charge, support, mentor, and Expert Mission skills using current Future Warrior technique references and individual skill references. Quick Sleep is explicitly restricted to **Majin** CaCs.
+- Recorded Extra Pack 1 provenance for Data Input and Extra Pack-era/PQ134 provenance for Ultimate Charge and Burst Charge. Base-game provenance was retained for the standard advancement-test and mentor skills.
+- Resource values were filled only where the current evidence supports them; no reward probability was inferred.
+- Skills commit: `00ef8d9e609274297915e365f21f0924e598d968`.
+- External evidence: Bending Kamehameha/Future Warrior, Data Input, Full Power Charge/charge-skill lineage, Pressure Sign, Meditation, Deadly Dance, and Quick Sleep references were reviewed. cite references are external only; repository files retain source URLs.
