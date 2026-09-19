@@ -1850,3 +1850,14 @@ Reviewed: **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kameham
 - Preserved existing acquisition and mechanics metadata; no character-specific usage was converted into a race restriction.
 - Live census: **283 total / 269 CaC-usable / 76 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Destruction's Concerto: Starfall through Eraser Bomb race-restriction census
+
+Reviewed: **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, Eraser Bomb**.
+
+- Added explicit **All CaC races** scope to all eight. Reviewed Future Warrior/CaC evidence establishes availability and does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition/mechanics metadata. Dust Attack's existing attack-type classification discrepancy remains flagged for direct reconciliation; it was not silently normalized.
+- Emperor's Cannon's corrected PQ184 acquisition record remains intact.
+- Live census: **283 total / 269 CaC-usable / 68 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
