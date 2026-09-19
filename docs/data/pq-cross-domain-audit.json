@@ -14,17 +14,23 @@
     "skill_edges": "populated",
     "super_soul_edges": "populated",
     "equipment_edges": "populated",
-    "character_edges": "not_yet_populated",
+    "character_edges": "populated",
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Do not mark the PQ cross-domain layer exhaustive until every populated reward field in the canonical PQ batches has a corresponding normalized edge or an explicit unresolved/conflict record, and character/enemy references have been resolved where canonical character records are available.",
+  "next_completion_gate": "Re-audit all 1-186 canonical PQ records against every populated reward field and relationship type; record explicit unresolved/conflict cases before declaring the cross-domain layer exhaustive.",
   "current_counts": {
     "skill": 229,
     "super_soul": 125,
     "equipment": 39,
-    "character": 0,
+    "character": 247,
     "dlc": 88,
     "farming": 7
+  },
+  "character_resolution": {
+    "edges": 247,
+    "canonical_targets": 75,
+    "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
+    "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
   }
 }
