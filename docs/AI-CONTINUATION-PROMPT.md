@@ -2111,3 +2111,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Current relationship totals: 229 skills, 125 Super Souls.
 - Next exact task: reconcile **equipment/clothing/accessory reward edges for PQ 1-186**, using the typed normalization maps and preserving unresolved attribution.
 - Commits: `ce11b853b6e0325dfa4f19a9e6140a39985a140c`, `efd12568a533b42a5aea3265c8a4d95d917c8001`.
+
+
+### 2026-09-19 continuation — PQ equipment edges populated
+- Added 39 source-backed equipment reward edges across PQ 1-186 from typed clothing/accessory normalization.
+- Current relationship totals: 229 skills, 125 Super Souls, 39 equipment.
+- Next exact task: reconcile **character/DLC/farming relationships and the PQ reverse index**, without inferring relationships from artwork or generic encounter text.
+- Commits: `8c62e65f1f2364937f4c4405e64eabc92db671a2`, `95d15c95846d2e15822d487a5dda0dba3088ffd4`.
