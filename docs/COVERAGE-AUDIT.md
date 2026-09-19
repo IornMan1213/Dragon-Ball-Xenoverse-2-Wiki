@@ -1047,3 +1047,9 @@ Reviewed four queued records against dedicated current-version skill pages:
 - **Lightning of Absolution:** confirmed/corrected as a **100-Ki Ki Blast Super** from PQ111.
 
 No CaC race/gender/form restriction was inferred from character-only users. The dedicated pages establish skill identity and acquisition but do not, by themselves, establish a specific CaC race scope.
+
+## 2026-09-19 — counter-skill cohort evidence reconciliation
+
+Reviewed the queued counter-skill cohort and refreshed the canonical evidence notes for **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, and God Breaker**. Current evidence supports their recorded skill classes, attack subcategories, Ki costs, counter roles, and listed acquisition sources. Counter Impact is specifically documented as a 100-Ki Ki Blast Super from PQ153; Burst Rush is a 100-Ki Strike Super from PQ51; Change The Future is a 100-Ki Ki Blast Super from PQ43; and God Breaker is a 100-Ki Ki Blast Super from PQ44. 
+
+No CaC race/gender/form restriction was inferred from character or partner users. The canonical records now explicitly preserve that evidence boundary.
