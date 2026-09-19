@@ -3722,7 +3722,7 @@
       "name": "Data Input",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Data_Input"
@@ -3731,7 +3731,7 @@
       "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks.",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Expert Mission 20 — Harbinger of Doom",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
