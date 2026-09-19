@@ -1155,3 +1155,16 @@ Reconciled Eraser Bomb, Evil Blast, Evil Flame, Final Cannon, Final Flash (Super
 - Galick Gun confirmed **100 Ki / Vegeta mentor training / all CaC races**.
 - Gamma Blaster confirmed **100 Ki / PQ155**.
 - No unsupported race/gender/form restrictions were inferred.
+
+
+## 2026-09-19 — Giant/God/Headshot/Heat cohort
+
+Reconciled Giant Cluster, Gigantic Charge, God of Destruction's Plaything, God Punisher, Handy Canon, Headshot, Heat Wave, and Ill Bomber.
+
+- **Gigantic Charge corrected:** 200 Ki / Strike Super / 300 Stamina while being hit, PQ128.
+- **God Punisher corrected:** 400 Ki / Ki Blast Ultimate, PQ132; prior 100-Ki Super classification was incorrect.
+- **Headshot corrected:** Strike Evasive / 300 Stamina / PQ69; prior Ki Blast Super classification was incorrect.
+- **Heat Wave corrected:** 200 Ki / Strike Super / PQ179.
+- Handy Canon confirmed 100 Ki / Ki Blast Super / PQ115.
+- Ill Bomber confirmed 100 Ki / Ki Blast Super / PQ90 and restricted to Majin CaCs.
+- Giant Cluster and God of Destruction's Plaything retained their existing costs while mechanics/restriction evidence remains bounded.
