@@ -37,7 +37,7 @@ Only one Super Soul can be equipped at a time on a preset. Because copies are sh
 
 The machine-readable source of truth is `docs/data/super-souls-record-layer.json`.
 
-The canonical layer currently contains **26 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
+The canonical layer currently contains **30 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
 
 ### Canonical records
 
@@ -93,3 +93,15 @@ DLC ownership and in-game acquisition are stored separately. A DLC can introduce
 External references are evidence, not text to copy blindly. The current research layer uses the Xenoverse 2 Wiki Super Soul index, independent Super Soul guides, the Madreag research corpus, historical GameFAQs research, and official Bandai Namco DLC documentation.
 
 **Repository rule:** internal web-tool citation markers must never be committed to wiki files. Repository pages use ordinary source URLs or repository references instead.
+
+
+### FUTURE SAGA Chapter 4 additions — 2026-09-19
+
+Four Chapter 4 Super Souls are now indexed in the canonical layer (records 032–035). Official DLC material establishes that Chapter 4 adds four new Super Souls, while PQ 185/186 reward inventories provide the acquisition leads. Community testing supplies secondary effect evidence for three; those mechanics remain explicitly marked as partially verified rather than presented as official item-level values.
+
+| ID | Super Soul | Acquisition lead | Verification |
+|---|---|---|---|
+| 032 | This power... It's different from any I've ever had. | PQ 185 | Partially verified |
+| 033 | Malice... Existence... Cruelty... | PQ 185 | Partially verified |
+| 034 | The final battle begins now. | PQ 186 | Partially verified |
+| 035 | I'll use this power to protect everyone! | PQ 186 | Partially verified |
