@@ -1848,9 +1848,9 @@
       "source_quest_or_shop": "Parallel Quest 59",
       "ultimate_finish_required": null,
       "skill_description": "Dimension Cannon is a Super Ki Blast skill associated with Super Buu.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current indexed evidence confirms Dimension Cannon as a 300-Ki Ki Blast Super from PQ59. Exact drop gating and detailed numerical mechanics remain under research; no unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1878,7 +1878,8 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics": "Moving Kamehameha Super with directional movement during charge; additional input can fire early; 15-hit beam.",
-      "research_status": "reconciled_external_evidence"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super sold through the TP Medal Shop and usable by all CaC races. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input."
     },
     {
       "name": "Divine Spear",
@@ -1894,10 +1895,10 @@
       "source_quest_or_shop": "PQ171 / PQ172 reward context",
       "ultimate_finish_required": null,
       "skill_description": "Divine Spear is a Super Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
-      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified.",
+      "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -1917,9 +1918,9 @@
       "source_quest_or_shop": "Parallel Quest 24",
       "ultimate_finish_required": false,
       "skill_description": "Double Death Slicer is a Super Ki Blast skill associated with Frieza.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1942,9 +1943,9 @@
       "source_quest_or_shop": "Parallel Quest 78",
       "ultimate_finish_required": null,
       "skill_description": "Dust Attack is a Super Ki Blast skill associated with Hercule.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Dust Attack's PQ78 acquisition record. The broad Super Attack index places Dust Attack under Other rather than Ki Blast Skills, so the dataset's existing Ki-Blast classification should remain flagged for direct skill-page reconciliation rather than being silently normalized.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1966,9 +1967,9 @@
       "source_quest_or_shop": "Parallel Quest 11",
       "ultimate_finish_required": true,
       "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
-      "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research.",
+      "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11, with Ultimate Finish required in the existing acquisition record.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -1989,12 +1990,12 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 70 - \"Things Are Getting Serious!\"; also available through TP Medal Shop rotation",
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 70 / TP Medal Shop",
-      "mechanics_notes": "Rear-facing Ki Blast Super that stuns hit targets for the documented 3 seconds.",
+      "mechanics_notes": "Current evidence confirms Emperor's Blast as a 100-Ki Ki Blast Super associated with Hercule; the existing PQ70/TP Medal Shop acquisition record is retained.",
       "last_verified": "2026-09-19"
     },
     {
@@ -2008,18 +2009,19 @@
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
-      "source_quest_or_shop": "PQ183",
+      "source_quest_or_shop": "PQ184",
       "ultimate_finish_required": null,
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
-      "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
+      "mechanics_notes": "Current dedicated evidence confirms Emperor's Cannon as a 100-Ki Ki Blast Super from PQ184, 'The Invincible Duo', correcting the prior PQ183 record. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_explicit_cac_evidence",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "source_quest": 184
     },
     {
       "name": "Eraser Bomb",
