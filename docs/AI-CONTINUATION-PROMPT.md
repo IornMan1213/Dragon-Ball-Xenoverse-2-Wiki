@@ -2739,3 +2739,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validation: `skills.json` parses successfully; 283 records remain; Evasive nullable UF count is 0; no schema/validator changes were made.
 - Exact next task: audit the remaining **16 Awoken** nullable `ultimate_finish_required` records. Separate race/time-rift/story/wish/character-only unlocks from the one known UF-gated Awoken route (Kaioken/PQ8), and preserve null whenever current evidence does not establish the acquisition gate.
 
+### 2026-09-19 continuation — complete `ultimate_finish_required` census
+- Audited the final **16 nullable Awoken** records.
+- Resolved **Kaioken = `true`** because current evidence explicitly identifies the PQ8 *Invade Earth* Ultimate Finish as the acquisition gate. citeturn0search10turn0search1
+- Resolved the other 15 Awoken records as **`false`**: Become Giant, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Vegeta, The Power to Overcome, Turn Golden, Beast, Potential Unleashed, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Ultra Instinct. Their documented routes are Time Rift, mentor, story, wish, Advancement Test, DLC/challenge, or character-only routes rather than Ultimate Finish acquisition gates. citeturn0search0turn0search1turn0search4turn0search8turn0search9
+- Live `ultimate_finish_required` census: **0 nulls across all 283 skill records**.
+- Skills commit: `4086353a628c12ac1767227e9396135158eadae2`.
+- Coverage audit commit: `40a7e9f646d313c50aff36dcb237d7a8dc0d948b`.
+- No schema or validator changes were made.
+- Exact next task: with the entire UF provenance field populated, begin the next bounded data-quality census. Prioritize cross-file relationship integrity (skill ↔ PQ/source references), duplicate/inconsistent acquisition metadata, and remaining nullable fields in other columns. Do not invent values where evidence is insufficient.
+
