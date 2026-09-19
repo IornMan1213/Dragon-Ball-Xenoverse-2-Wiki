@@ -1905,3 +1905,14 @@ Reviewed **Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attac
 - No character association was converted into a race restriction, and no unsupported unlock/drop claim was added.
 - Live skill census after this batch: **283 total / 269 CaC-usable / 36 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Hero's Flute through Dragon Spark race-restriction census
+
+Reviewed **Hero's Flute, Burning Swan, Burst Blitz, Death Slash, Demon Flurry, Demonic Destruction, Destruction's Conductor, and Dragon Spark**.
+
+- Added explicit **All CaC races** scope to all eight records. Current Future Warrior/CaC evidence establishes usability; the reviewed evidence does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition, classification, cost, and mechanics metadata, including unresolved drop-gating/numerical fields where evidence remains incomplete.
+- Added the maintained Future Warrior technique-list source to the cohort where useful for CaC scope; no character association was converted into a race restriction.
+- Live skill census after this batch: **283 total / 269 CaC-usable / 28 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
