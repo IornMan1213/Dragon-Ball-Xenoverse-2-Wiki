@@ -407,3 +407,13 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - **PQ98:** preserved as a special progression gate: completion of the base-game story, all five Time Eggs, and the Unknown History story are required by the consulted reference.
 - **PQ99–100:** verified as the continuation of the PQ chain after PQ98.
 - This batch reduces the numeric count of records with no `unlock_condition` field; exact evidence quality remains separately tracked and must not be inferred from field presence alone.
+
+
+## 2026-09-19 PQ131–140 unlock research milestone
+
+- Recomputed the live PQ unlock census after the PQ131–140 pass: **176 canonical PQ records** remain in the 18 checked-in research batches.
+- Researched **PQ131–140** as the next DLC-era unlock frontier. The maintained Steam DLC mapping places PQ131–132 in **Extra Pack 4**, PQ133–137 in **Ultra Pack 1**, and PQ138–140 in **Ultra Pack 2**. Bandai Namco's official DLC reference independently confirms that Extra Pack 4 and Ultra Pack 1/2 contain the relevant DLC-era Parallel Quest content.
+- Added the conservative unlock route to all ten records: **own the relevant DLC pack and have the Parallel Quest board available**. No sequential prerequisite, story gate, or NPC trigger was manufactured where the consulted evidence did not establish one.
+- Added record-level provenance and an explicit bounded unlock-verification state to all ten records in `docs/data/parallel-quest-research-batches/pq-batch-14.json`.
+- The live numeric gap is now **14 records without an explicit `unlock_condition` field**: **PQ36, PQ53–55, and PQ151–160**.
+- Evidence limitation: the DLC mapping establishes the pack-to-PQ relationship and the repository's conservative DLC-era availability convention, but does not independently establish additional individual story/NPC/prerequisite-PQ gates for these ten records. Those details remain unresolved rather than inferred.
