@@ -1517,13 +1517,14 @@
       "skill_description": "Buu Buu Ball is a Super Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_race_restriction",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball"
       ],
-      "source_quest": 88
+      "source_quest": 88,
+      "race_restriction": "Majin"
     },
     {
       "name": "Candy Beam",
@@ -1541,13 +1542,14 @@
       "skill_description": "Candy Beam is a Super Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_race_restriction",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Candy_Beam"
       ],
-      "source_quest": 66
+      "source_quest": 66,
+      "race_restriction": "Majin"
     },
     {
       "name": "Candy Beam (Super)",
@@ -2263,12 +2265,13 @@
       "skill_description": "Ill Bomber is a Super Ki Blast skill associated with Super 17.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_race_restriction",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Ill_Bomber"
-      ]
+      ],
+      "race_restriction": "Majin"
     },
     {
       "name": "Ill Rain",
@@ -3699,7 +3702,7 @@
       "name": "Burning Slash",
       "class": "Super",
       "subcategory": "Strike",
-      "race_restriction": "Earthling",
+      "race_restriction": "Earthling or Saiyan",
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
@@ -3713,7 +3716,9 @@
       "ki_cost": 100,
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 44 reward",
-      "source_quest": 44
+      "source_quest": 44,
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_race_restriction"
     },
     {
       "name": "Burning Swan",
@@ -3985,7 +3990,7 @@
       "name": "Evil Flight Strike",
       "class": "Super",
       "subcategory": "Strike",
-      "race_restriction": "Namekian",
+      "race_restriction": "Namekian or Majin",
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
@@ -4000,7 +4005,9 @@
       "stamina_cost": 300,
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 21 reward",
-      "source_quest": 21
+      "source_quest": 21,
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_race_restriction"
     },
     {
       "name": "Evil Whirlwind",
@@ -4550,7 +4557,7 @@
       "name": "Shining Slash",
       "class": "Super",
       "subcategory": "Strike",
-      "race_restriction": "Earthling",
+      "race_restriction": "Earthling or Saiyan",
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
@@ -4564,7 +4571,9 @@
       "ki_cost": 100,
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 38 reward",
-      "source_quest": 38
+      "source_quest": 38,
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_race_restriction"
     },
     {
       "name": "Shooting Strike",
@@ -4720,12 +4729,13 @@
       "skill_description": "Zigzag Express is a Super Strike skill associated with Majin (Male).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_race_restriction",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Zigzag_Express"
-      ]
+      ],
+      "race_restriction": "Majin male"
     },
     {
       "name": "Apocalyptic Burst",
@@ -5835,7 +5845,7 @@
       "name": "Darkness Rush (Melee)",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "race_restriction": "Earthling",
+      "race_restriction": "Non-Namekian",
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
@@ -5850,7 +5860,9 @@
       ],
       "ki_cost": 300,
       "ultimate_finish_required": null,
-      "unlock_method": "Training with Lord Slug, Lesson 3"
+      "unlock_method": "Training with Lord Slug, Lesson 3",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_race_restriction"
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -5868,7 +5880,9 @@
       ],
       "ki_cost": 300,
       "ultimate_finish_required": null,
-      "unlock_method": "Training with Lord Slug, Lesson 3"
+      "unlock_method": "Training with Lord Slug, Lesson 3",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_race_restriction"
     },
     {
       "name": "Divine Lasso",
@@ -5943,12 +5957,13 @@
       "skill_description": "Explosive Buu Buu Punch is a Ultimate Strike skill associated with Majin Buu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_race_restriction",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Explosive_Buu_Buu_Punch"
-      ]
+      ],
+      "race_restriction": "Majin"
     },
     {
       "name": "Final Rampage",
@@ -6057,12 +6072,13 @@
       "skill_description": "Saiyan Spirit is a Ultimate Strike skill associated with Bardock.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_race_restriction",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Saiyan_Spirit"
-      ]
+      ],
+      "race_restriction": "Saiyan"
     },
     {
       "name": "Super Dragon Flight",
