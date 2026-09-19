@@ -2401,3 +2401,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: df4f9f9b5609db56fba3ba49aeb7bf9232ecedc3.
 - Live nullable Super/Ultimate census: 168 total (129 Super, 39 Ultimate).
 - Next task: continue with small batches of nullable PQ skills where the reward category can be established explicitly; generic PQ association remains insufficient.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 2
+- Resolved `ultimate_finish_required=false` for Side Bridge (PQ39) and Burning Attack (PQ41).
+- Evidence: both are explicitly listed as Basic Rewards in current PQ documentation, separate from UF conditions.
+- Skills commit: 08a282359b3a7e3bb5f455ed36f3e263ba1463e9.
+- Live nullable Super/Ultimate census: 166 total (127 Super, 39 Ultimate).
+- Next task: continue with explicit Basic Reward candidates; leave records nullable where reward gating cannot be established.
