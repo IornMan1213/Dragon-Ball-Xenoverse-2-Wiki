@@ -1,3 +1,10 @@
+## September 2026 — PQ21–30 Provenance and Reward Reconciliation
+- Added explicit record-level `sources` arrays to all **PQ21–PQ30** records in `docs/data/parallel-quest-research-batches/pq-batch-03.json`.
+- Reconciled their basic reward lists against the maintained 186-PQ transcription and independent PQ tables, correcting incomplete reward data in the batch.
+- Strengthened PQ27 and PQ28 unlock metadata with the documented Metal Cooler and Appule NPC triggers respectively.
+- Preserved conservative unlock wording where an exact quest-specific trigger could not be independently established.
+- Updated `docs/COVERAGE-AUDIT.md`; **92 of 176 PQ records remain without individual record-level sources**.
+
 ## September 2026 — PQ11–20 Record-Level Provenance Pass
 - Added explicit record-level `sources` arrays to all **PQ11–PQ20** records in `docs/data/parallel-quest-research-batches/pq-batch-02.json`.
 - Rechecked the objective and Ultimate Finish data against the maintained Steam transcription and independent quest guides, with a current maintained PQ11 repository record used where applicable.
