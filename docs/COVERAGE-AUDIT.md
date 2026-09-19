@@ -1467,3 +1467,13 @@ Reconciled **Formation!, Indomitable, Justice Pose, Meditation, Taunt, Blazing A
 - Burning Slash retains its explicit **Earthling/Human and Saiyan** restriction.
 - Indomitable's current mechanics remain partially verified, including the reported health-dependent Ki-charge behavior.
 - Live census is now **283 total / 269 CaC-usable / 170 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Burning Swan through Destruction's Conductor
+
+Reconciled **Burning Swan, Burst Blitz, Crimson Edge, Deadly Dance, Death Slash, Demon Flurry, Demonic Destruction, and Destruction's Conductor**.
+
+- Burning Swan, Burst Blitz, Deadly Dance, Death Slash, Demon Flurry, Demonic Destruction, and Destruction's Conductor remain CaC-usable.
+- Current evidence does not explicitly establish a narrower CaC race/gender/form restriction for the CaC-usable records whose `race_restriction` remains null; character association is not treated as a restriction.
+- Crimson Edge remains explicitly non-CaC and character-exclusive to Goku Black (Super Saiyan Rosé) Ultra Supervillain.
+- Live census remains **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
