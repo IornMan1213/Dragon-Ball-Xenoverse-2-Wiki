@@ -1042,3 +1042,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Refreshed all four verification dates to 2026-09-19.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Eraser Bomb; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Evil/Flash provenance boundary
+- Reviewed Evil Blast, Evil Flame, Final Cannon, and Flash Chaser.
+- Preserved null race restrictions; acquisition and custom-partner availability do not establish race/gender/form scope.
+- Added dedicated current-version provenance URLs for Evil Blast, Evil Flame, and Flash Chaser.
+- Refreshed all four verification dates to 2026-09-19.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Flash Chaser; inspect canonical ordering before selecting the next batch.
