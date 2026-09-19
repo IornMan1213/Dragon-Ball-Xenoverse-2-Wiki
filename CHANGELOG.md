@@ -1,3 +1,9 @@
+## September 2026 — PQ41–50 Provenance Pass
+- Added record-level provenance to **PQ41–PQ50** with 2026-09-19 verification dates.
+- Cross-checked objectives and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish references.
+- Kept reward-slot/drop percentages unresolved where direct evidence was not established.
+- Repository-wide PQ provenance gap is now **72 of 176 records** without individual `sources` arrays.
+
 ## September 2026 — PQ31–40 Provenance Pass
 - Added record-level provenance to **PQ31–PQ40** with 2026-09-19 verification dates.
 - Cross-checked objectives and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish/objective references; no unsupported reward-slot percentages were introduced.
