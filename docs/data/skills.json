@@ -1493,16 +1493,17 @@
       "source_quest_or_shop": "Parallel Quest 94",
       "ultimate_finish_required": null,
       "skill_description": "Bluff Kamehameha is a Super Ki Blast skill associated with Hercule.",
-      "mechanics_notes": "Current evidence confirms Bluff Kamehameha as a 100-Ki Ki Blast Super from PQ94. It is a deceptive Kamehameha-style projectile; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability but does not explicitly establish a CaC race/gender/form restriction; no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Bluff Kamehameha as a 100-Ki Ki Blast Super from PQ94. It is a deceptive Kamehameha-style projectile; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability but does not explicitly establish a CaC race/gender/form restriction; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 94
+      "source_quest": 94,
+      "race_restriction": null
     },
     {
       "name": "Breaker Energy Wave",
@@ -1518,16 +1519,17 @@
       "source_quest_or_shop": "Parallel Quest 101",
       "ultimate_finish_required": null,
       "skill_description": "Breaker Energy Wave is a Super Ki Blast skill associated with Hit.",
-      "mechanics_notes": "Current evidence confirms Breaker Energy Wave as a 100-Ki Ki Blast Super from PQ101. It is a close/medium-range energy-wave attack associated with Hit; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability but does not explicitly establish a CaC race/gender/form restriction; no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Breaker Energy Wave as a 100-Ki Ki Blast Super from PQ101. It is a close/medium-range energy-wave attack associated with Hit; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability but does not explicitly establish a CaC race/gender/form restriction; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Breaker_Energy_Wave",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 101
+      "source_quest": 101,
+      "race_restriction": null
     },
     {
       "name": "Burning Attack",
@@ -1543,16 +1545,17 @@
       "source_quest_or_shop": "Parallel Quest 41",
       "ultimate_finish_required": null,
       "skill_description": "Burning Attack is a Super Ki Blast skill associated with Future Trunks.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Burning Attack as a 100-Ki Ki Blast Super from PQ41. The projectile explodes on impact and launches the opponent upward; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability but does not explicitly establish a CaC race/gender/form restriction; no narrower restriction is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Burning Attack as a 100-Ki Ki Blast Super from PQ41. The projectile explodes on impact and launches the opponent upward; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability but does not explicitly establish a CaC race/gender/form restriction; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burning_Attack",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 41
+      "source_quest": 41,
+      "race_restriction": null
     },
     {
       "name": "Burst Kamehameha",
@@ -1568,16 +1571,17 @@
       "source_quest_or_shop": "Parallel Quest 72",
       "ultimate_finish_required": null,
       "skill_description": "Burst Kamehameha is a Super Ki Blast skill associated with Goku.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 72
+      "source_quest": 72,
+      "race_restriction": null
     },
     {
       "name": "Burst Stinger",
@@ -1593,9 +1597,9 @@
       "source_quest_or_shop": "Parallel Quest 136",
       "ultimate_finish_required": true,
       "skill_description": "Burst Stinger is a Super Ki Blast skill associated with Goku (Ultra Instinct).",
-      "mechanics_notes": "Current evidence confirms Burst Stinger as a 100-Ki Ki Blast Super from PQ136, with Ultimate Finish required in the dataset's acquisition record. No unsupported CaC race/gender/form restriction was inferred.",
+      "mechanics_notes": "Current evidence confirms Burst Stinger as a 100-Ki Ki Blast Super from PQ136, with Ultimate Finish required in the dataset's acquisition record. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1603,7 +1607,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 136
+      "source_quest": 136,
+      "race_restriction": null
     },
     {
       "name": "Buu Buu Ball",
@@ -1725,15 +1730,16 @@
       "source_quest_or_shop": "PQ182",
       "ultimate_finish_required": null,
       "skill_description": "Dark Inscription is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
-      "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred.",
+      "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Death Psycho Bomb",
@@ -1776,15 +1782,16 @@
       "source_quest_or_shop": "PQ160",
       "ultimate_finish_required": null,
       "skill_description": "Demon Ray is a Super Ki Blast skill used by Gohan (Beast).",
-      "mechanics_notes": "Dedicated current-version evidence confirms Demon Ray as a 100-Ki Ki Blast Super from PQ160, with a 300-Stamina follow-up/use-while-hit mechanic. Existing acquisition record is retained.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Demon Ray as a 100-Ki Ki Blast Super from PQ160, with a 300-Stamina follow-up/use-while-hit mechanic. Existing acquisition record is retained. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Destruction's Concerto: Comet",
@@ -1800,15 +1807,16 @@
       "source_quest_or_shop": "Parallel Quest 104",
       "ultimate_finish_required": null,
       "skill_description": "Destruction's Concerto: Comet is a Super Ki Blast skill associated with Vados.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Destruction's Concerto: Comet as a 100–200 Ki Ki Blast Super from PQ104. It creates a slow-moving tracking sphere; Destruction's Conductor can accelerate it and enable the multi-hit behavior.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Destruction's Concerto: Comet as a 100–200 Ki Ki Blast Super from PQ104. It creates a slow-moving tracking sphere; Destruction's Conductor can accelerate it and enable the multi-hit behavior. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_no_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Comet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": null
     },
     {
       "name": "Destruction's Concerto: Starfall",
