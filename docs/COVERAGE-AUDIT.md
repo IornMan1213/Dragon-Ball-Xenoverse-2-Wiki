@@ -551,3 +551,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Independent references cross-check the DLC associations, Ultimate Finish conditions, and documented rewards. The maintained Steam transcription identifies PQ181 as Dragon Ball DAIMA Pack, PQ182–184 as Future Saga Chapter 3, and PQ185–186 as Future Saga Chapter 4. 
 - PQ184's documented `Chaotic Time Impact` 50% Ultimate Finish bonus-slot rate was independently cross-checked; no unsupported probabilities were added to PQ181–183 or PQ185–186. 
 - Repository-wide provenance census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 0 records lacking individual `sources` arrays**.
+
+
+## 2026-09-19 Skill indexed-Evasive reconciliation — batch 45
+
+- Reconciled eight indexed Evasive records: Absolute Zero, Dragon Burn, Explosive Wave, Punisher Guard, Final Pose, Mach Dash, Angry Shout, and Energy Barrier.
+- Verified CaC availability, acquisition route, stamina cost, current naming, and descriptive mechanics against the current Evasive Skill reference and individual skill references.
+- Updated `docs/data/skills.json` and the existing `docs/data/skill-research-batches/skill-batch-45.json`. Records remain `partially_verified` because exact reward-slot/drop gating remains unresolved.
+- No unsupported drop percentages were added. Canonical skill population remains 283 unique records.
