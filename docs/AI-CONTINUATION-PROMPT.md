@@ -2188,3 +2188,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated the reconciliation, audit, status, and reverse-index files.
 - Important: the normalized maps remain partial historical/provenance artifacts; their omissions are not treated as negative reward claims.
 - Exact next task: **audit PQ 1-14 coverage and equipment subtype semantics, then run a final 1-186 relationship consistency audit.**
+
+
+### 2026-09-19 continuation — PQ coverage and equipment subtype audit
+- Audited the canonical reward-batch boundary: the repository contains **9 canonical reward batch files covering PQ 15-186 (172 records)**; there are no canonical reward batch files for **PQ 1, 12, 13, or 14**.
+- Audited reverse equipment subtype consistency: **122/122 forward equipment edges have reverse coverage**. Removed **31 legacy dual clothing/accessory placements** where the normalized source explicitly classified the item as an accessory; no dual subtype placements remain.
+- Relationship coverage currently spans **182 distinct PQs**, with only **1, 12, 13, 14** absent from the forward relationship layer. This is now documented as a coverage limitation rather than a fabricated gap fill.
+- Updated the reverse index, audit, status, and handoff.
+- Current totals: **232 skills, 135 Super Souls, 122 equipment, 247 characters, 88 DLC, 7 farming = 831 edges**.
+- Exact next task: **run final 1-186 relationship consistency checks for duplicate edges, invalid PQ numbers, missing reverse mappings, stale counts, and provenance/status integrity.**
