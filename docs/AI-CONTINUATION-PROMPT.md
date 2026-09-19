@@ -82,8 +82,7 @@ Known completed frontier:
 - PQ161–186: later-batch reward/unlock semantics enriched; exact unknown percentages remain unresolved rather than fabricated.
 - PQ184 Chaotic Time Impact: documented as a 50% Ultimate Finish bonus-slot drop.
 
-**Next exact PQ task: PQ131–140.**
-First recompute the live unlock census instead of trusting historical counts.
+**PQ unlock-field frontier is complete.** The live 18-batch census now shows explicit `unlock_condition` fields on all 176 canonical records; do not reopen the completed PQ unlock-field pass unless new evidence or a contradiction appears.
 
 ### P1 — Awoken / Transformations
 Build exhaustive structured coverage:
@@ -123,20 +122,20 @@ Only after data-completeness work, expose the improved structured research surfa
 ## Current cycle state
 
 ### Active workstream
-**Parallel Quest unlock-route research.**
+**P1 skill race-restriction census, following completion of the PQ unlock-field pass.**
 
 ### Next exact action
-1. Recompute the live PQ unlock census.
-2. Research **PQ121–130** individually.
-3. Prioritize DLC ownership, PQ-board availability, NPC/story/progression gates, and prerequisite-PQ evidence.
-4. Do not manufacture sequential prerequisites.
-5. Update the relevant batch with record-level sources.
-6. Update `docs/COVERAGE-AUDIT.md`.
-7. Inspect GitHub Actions without weakening validators.
-8. Update this file with the new state and commit the complete cycle.
+1. Recompute the live skill census.
+2. Identify every CaC-usable skill with `race_restriction: null`.
+3. Research explicit race/gender/form restrictions from accessible evidence; do not infer a restriction from character ownership alone.
+4. Preserve unresolved fields when evidence is insufficient.
+5. Update the relevant skill data and `docs/COVERAGE-AUDIT.md` in evidence-backed batches.
+6. Inspect GitHub Actions without weakening validators.
+7. Check for accidental AI/internal citation artifacts.
+8. Update this file and commit the complete cycle.
 
 ### Latest known PQ unlock census
-**176 canonical PQ records across 18 research batches; 24 currently lack an explicit `unlock_condition` field.** The remaining missing records are PQ36, PQ53–55, PQ131–140, and PQ151–160. Field presence is not equivalent to exact-route verification.
+**176 canonical PQ records across 18 research batches; 0 records lack an explicit `unlock_condition` field.** Field presence is not equivalent to exact-route verification; PQ54 retains a documented route conflict, and PQ36 retains the known numbering/existence anomaly.
 
 ## Recent commits
 
@@ -764,3 +763,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - Verified live skill records after the previous batch. Only **Angry Shout, Buu Buu Ball, Vanishing Ball, and Teleporting Vanishing Ball** exist in `skills.json` from that six-technique source section; **Pearl Flash** and **Super Vanishing Ball** are absent, so they were not fabricated.
 - Coverage correction commit: `8fe4ef723a67e2d23358807deb55187e6a61854f`.
 - Next priority: continue explicit Future Warrior restriction mining while separately tracking source-documented techniques missing from the structured skill dataset.
+
+
+### 2026-09-19 cycle update — live PQ census reconciliation after stale handoff state
+- Workstream: repository-wide PQ unlock-field validation / transition back to P1 skill research.
+- Re-fetched all 18 canonical PQ research batches from the live repository and parsed every record directly from main.
+- Validation result: 176 total records, 176 unique PQ numbers, 0 duplicates, 0 missing unlock_condition fields.
+- The live repository is therefore ahead of the older handoff counts that still listed PQ36, PQ53–55, PQ131–140, or PQ151–160 as missing. Those historical counts remain in older cycle notes for provenance but are superseded by this live census.
+- Confirmed that pq-batch-14.json covers PQ131–140, pq-batch-15.json covers PQ151–160, and the special early-PQ records PQ36/PQ53–55 now have explicit unlock metadata in their respective batches.
+- Evidence limitations remain: an explicit field does not make every route exact. PQ54 has conflicting community reports; PQ36 retains the canonical numbering/existence anomaly; DLC-era records commonly use conservative DLC-ownership + PQ-board wording where an individual prerequisite was not independently established.
+- CI status at inspection: the latest push-triggered Repository quality run for b9dc3ba1fcef62cac5c99e9ad419a0fbcec91994 completed with failure; the latest Clean internal artifacts run for the same commit was pending. Prior cycles and the current failure pattern do not expose actionable validation-step evidence, so validators are not to be weakened.
+- No repository data validator was modified or bypassed during this reconciliation.
+- Exact next task: P1 skill race-restriction census. Recompute the live skills.json cohort, prioritize explicit Future Warrior race/gender/form restrictions, and preserve null when accessible evidence does not establish a restriction.
