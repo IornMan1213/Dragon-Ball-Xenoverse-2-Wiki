@@ -2379,3 +2379,13 @@ Resolved `ultimate_finish_required: false` for **Revenge Final Flash (PQ124), Gi
 - Live nullable Super/Ultimate census after this batch: **83 total — 53 Super / 30 Ultimate**.
 - Skills commit: `0679447a033ae7968d516a3a8aa1d1d3931db272`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward non-UF batch 21
+
+Resolved `ultimate_finish_required: false` for **Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Victory Rush (PQ89), Unrelenting Barrage (PQ10), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), Pendulum Bullet (PQ166), and Variable Snipe Shot (PQ165)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn3view0turn3view2turn3view3turn4view0turn4view1turn4view2turn4view3
+
+- Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
+- Live nullable Super/Ultimate census after this batch: **75 total — 51 Super / 24 Ultimate**.
+- Skills commit: `a3ae1c29327a7336df40716a2486a213a79753ab`.
+- No schema or validator changes.
