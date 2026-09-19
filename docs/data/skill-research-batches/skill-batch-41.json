@@ -1,19 +1,98 @@
 {
   "batch_id": 41,
-  "created": "2026-09-17",
-  "verification_policy": "historical_duplicate_preserved_for_audit",
-  "research_scope": "Historical duplicate of skill-batch-40. Retained for auditability; it is not a unique research batch and must not be counted as additional canonical coverage.",
-  "historical_duplicate_of": 40,
-  "verification_audit": {
-    "audited": "2026-09-17",
-    "duplicate_check": {"status":"confirmed_historical_duplicate","duplicate_count":5,"canonical_coverage_added":0},
-    "note": "This batch reproduces the five records in skill-batch-40 (Solar Flare, Paralyze Beam, Meteor Strike, Shine Shot, Wall of Defense). It remains in repository history but is explicitly excluded from duplicate-coverage validation and canonical coverage accounting."
-  },
+  "created": "2026-09-19",
+  "scope": "Core Awoken/Transformation unlock and availability reconciliation",
   "records": [
-    {"name":"Solar Flare","class":"Super","subcategory":"Other","usable_by_cac":true,"ki_cost":200,"unlock_method":"Parallel Quest 03 — World Tournament Tag Team","source_quest_or_shop":"Parallel Quest 03","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://dbxv2.fandom.com/wiki/Solar_Flare","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]},
-    {"name":"Paralyze Beam","class":"Super","subcategory":"Ki Blast","usable_by_cac":true,"ki_cost":100,"unlock_method":"Parallel Quest 04 — Prepare for the Attack of Saiyans!","source_quest_or_shop":"Parallel Quest 04","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://dbxv2.fandom.com/wiki/Paralyze_Beam","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]},
-    {"name":"Meteor Strike","class":"Super","subcategory":"Strike","usable_by_cac":true,"ki_cost":100,"unlock_method":"Parallel Quest 06 — Saibaman's Revenge","source_quest_or_shop":"Parallel Quest 06","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://xvguide.neocities.org/Skill","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]},
-    {"name":"Shine Shot","class":"Super","subcategory":"Ki Blast","usable_by_cac":true,"ki_cost":null,"unlock_method":"Parallel Quest 07 — Saiyan Attack","source_quest_or_shop":"Parallel Quest 07","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://xvguide.neocities.org/Skill"]},
-    {"name":"Wall of Defense","class":"Super","subcategory":"Other","usable_by_cac":true,"ki_cost":null,"unlock_method":"Parallel Quest 10 — The Invincible Vegeta","source_quest_or_shop":"Parallel Quest 10","ultimate_finish_required":false,"verification_status":"partially_verified","sources":["https://xvguide.neocities.org/Skill","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]}
-  ]
+    {
+      "name": "Kaioken",
+      "verification_status": "verified",
+      "race_restriction": "All CaC races",
+      "unlock": "PQ8 Ultimate Finish",
+      "cost": "100/300/500 Ki stages"
+    },
+    {
+      "name": "Potential Unleashed",
+      "verification_status": "verified",
+      "race_restriction": "All CaC races",
+      "unlock": "Z-rank prior Advancement Tests, then final Patroller Academy test",
+      "cost": "500 Ki"
+    },
+    {
+      "name": "Ultra Instinct",
+      "verification_status": "verified",
+      "race_restriction": "All CaC races",
+      "unlock": "Jiren (Full Power) mastery challenge",
+      "cost": "500 Ki activation; current mechanics use Stamina for auto-dodge"
+    },
+    {
+      "name": "Beast",
+      "verification_status": "verified",
+      "race_restriction": "All CaC races",
+      "unlock": "Max Gohan/Videl/Piccolo friendship, then Piccolo additional-training Cell Max mission",
+      "cost": "500 Ki"
+    },
+    {
+      "name": "Super Saiyan",
+      "verification_status": "verified",
+      "race_restriction": "Saiyan",
+      "unlock": "Capsule Corporation Saiyan Awakening / Vegeta training",
+      "cost": "300/400/500 Ki for stages 1/2/3"
+    },
+    {
+      "name": "Super Vegeta",
+      "verification_status": "verified",
+      "race_restriction": "Saiyan",
+      "unlock": "Capsule Corporation Vegeta training progression",
+      "cost": "300/400 Ki for stages 1/2"
+    },
+    {
+      "name": "Super Saiyan God",
+      "verification_status": "verified",
+      "race_restriction": "Saiyan",
+      "unlock": "Shenron wish after required five mentor friendships; Beerus awards skill",
+      "cost": "300 Ki"
+    },
+    {
+      "name": "Turn Golden",
+      "verification_status": "verified",
+      "race_restriction": "Frieza Race",
+      "unlock": "Frieza's Spaceship Time Rift progression",
+      "cost": "300 Ki"
+    },
+    {
+      "name": "Purification",
+      "verification_status": "verified",
+      "race_restriction": "Majin",
+      "unlock": "Majin Buu's House Time Rift progression and unlock fight",
+      "cost": "300 Ki"
+    },
+    {
+      "name": "Become Giant",
+      "verification_status": "verified",
+      "race_restriction": "Namekian",
+      "unlock": "Guru's House, Namekian Awakening",
+      "cost": "300 Ki"
+    },
+    {
+      "name": "Power Pole Pro",
+      "verification_status": "verified",
+      "race_restriction": "Earthling",
+      "unlock": "Level 35+ Great Saiyaman/Hercule's House questline",
+      "cost": "0 Ki"
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+    "https://dbxv2.fandom.com/wiki/Kaioken",
+    "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
+    "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
+    "https://dbxv2.fandom.com/wiki/Beast",
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan",
+    "https://dbxv2.fandom.com/wiki/Super_Vegeta",
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan_God",
+    "https://dbxv2.fandom.com/wiki/Become_Giant",
+    "https://dbxv2.fandom.com/wiki/Power_Pole_Pro",
+    "https://gamefaqs.gamespot.com/switch/466300-dragon-ball-xenoverse-2-future-saga-chapter-1/cheats"
+  ],
+  "notes": "Core unlock and CaC/race availability were reconciled. Version-sensitive numeric mechanics are recorded only where current source evidence supports them; unresolved historical conflicts should remain visible in later fields."
 }
