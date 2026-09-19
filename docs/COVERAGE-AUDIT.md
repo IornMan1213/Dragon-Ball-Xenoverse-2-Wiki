@@ -2507,3 +2507,13 @@ Resolved `ultimate_finish_required: false` for **Crimson Edge (PQ171), Divine Sp
 - Live nullable Super/Ultimate census after this batch: **16 total — 16 Super / 0 Ultimate**.
 - Skills commit: `2a01d58e3d927acbd8cfcc84546db36a5fe148de`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward Super batch 33
+
+Resolved `ultimate_finish_required: false` for **Scissors Paper Rock (PQ65)** and **Variant Drive (PQ123)**. The maintained PQ guide explicitly lists both in Basic Reward sections, separate from each quest's win conditions. citeturn0search0
+
+- **Meditation (PQ122)** remains `null`: although the guide lists it under Basic Reward, multiple community reports specifically associate obtaining it with the Ultimate Finish and do not provide enough evidence to resolve the conflict. citeturn0search1turn0search7
+- Live nullable Super/Ultimate census after this batch: **14 total — 14 Super / 0 Ultimate**.
+- Skills commit: `f9c36077153b37c5a9bb7dc9e5f2a28b07a10ee7`.
+- No schema or validator changes.
