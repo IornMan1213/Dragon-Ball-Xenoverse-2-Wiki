@@ -5924,7 +5924,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Prominence_Flash",
-        "https://dragonball.fandom.com/wiki/Prominence_Flash"
+        "https://dragonball.fandom.com/wiki/Prominence_Flash",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870"
       ],
       "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan God)",
@@ -5932,11 +5933,11 @@
       "ki_cost": 300,
       "unlock_method": "Parallel Quest 137 - \"Tournament of Power Round 2\"",
       "source_quest_or_shop": "Parallel Quest 137",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
-      "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted.",
+      "notes": "Dedicated acquisition evidence identifies Prominence Flash as a PQ137 skill awarded through the Ultimate Finish route. A GameFAQs DLC skill-drop guide explicitly lists it as obtained from SSGSS Vegeta (Evolved) during the Ultimate Finish; the repository therefore records the UF requirement as true.",
       "race_restriction": "All CaC races"
     },
     {
