@@ -1975,3 +1975,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Normalized explicit acquisition-source metadata for **28 records** where the existing unlock text supplied a sufficiently direct source; preserved ambiguity rather than inventing sources.
 - Data commit: `5ba2130b6104167d02afd152391b6fc8da3df544`.
 - Next task: recompute metadata coverage and continue with the remaining actionable gaps, especially records lacking mechanics notes or other structured acquisition/mechanics fields where evidence can be established without speculation.
+
+
+## 2026-09-19 — mechanics-notes coverage completion
+
+Reviewed all 13 records that lacked mechanics_notes and filled the field using mechanics already supported by the repository's existing sources and structured metadata.
+
+- Covered Burst Reflection, Spirit Bomb, Final Charge, Surging Spirit, Evil Flight Strike, Namek Finger, Pressure Sign, Shining Slash, Death Ball, Final Explosion, Super Spirit Bomb, Supernova, and Darkness Rush (Melee).
+- Preserved character-only/CaC boundaries and existing uncertainty; no new race restriction or unsupported acquisition claim was introduced.
+- Refreshed last_verified to 2026-09-19 for the changed records.
+- Data commit: 5e5fe94a0da113d6dd059af9a286067632ec1dfb.
+- No validator or validation rule was weakened.
