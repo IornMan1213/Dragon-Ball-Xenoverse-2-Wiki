@@ -2080,3 +2080,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Added the source-backed skills present in the normalized reward layer: PQ 81-85, 88-92, 94-100; PQ 86, 87, and 93 remain without a normalized skill entry.
 - Added the current all-186 Steam reference to every PQ 81-100 record.
 - Data commit: `f724f2e9f98f64043628a361cdd86d0717581b2d`.
+
+
+## 2026-09-19 — PQ 101-120 skill-reward provenance pass
+
+- Reconciled canonical PQ 101-120 skill relationships against the repository's source-normalized reward layer and the all-186 PQ reward reference. citeturn0search0turn0search1
+- Added/confirmed skills for PQ 101, 104-105, 109-117, 119-120; retained empty skill arrays where the normalized source layer does not establish a skill (PQ 102-103, 106-108, 118).
+- Added the current all-186 Steam reference to every PQ 101-120 record.
+- Data commit: `c6da4d9c37dd8436491d7ba226c2930ee69f048e`.
