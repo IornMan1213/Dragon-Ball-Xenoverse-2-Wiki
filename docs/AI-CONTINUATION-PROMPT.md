@@ -1375,3 +1375,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation: `skills.json` re-fetched and parsed successfully; 283 records remain. Live census is 283/269/182. No validator was changed or weakened. Modified audit/data files were checked for accidental ChatGPT/internal citation artifacts; none were added.
 - CI: combined status returned no statuses and commit-specific workflow-run queries returned no runs for either new commit. This is not evidence of a passing validator; continue treating absent/opaque workflow results as non-actionable infrastructure/account state.
 - Exact next task: **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, and God Breaker**. Recompute the live census first, then research explicit current-version race/gender/form evidence only and preserve nulls where the evidence boundary remains.
+
+
+### 2026-09-19 continuation — Side Bridge through Spirit Slash
+- Continued the P1 skill race-restriction census through the next evasive-skill cohort: **Spread Shot Retreat, Steel Mirage, Final Pose, Mach Dash, Angry Shout, Energy Barrier, Spirit Explosion, and Spirit Slash**.
+- These records were already carrying current-version reconciliation metadata; this pass audited the evidence boundary rather than inventing new restrictions.
+- **Angry Shout** retains the explicit **Majin (Pure Majin form)** restriction because the current Future Warrior technique index places it under the Purification/Pure Majin form-exclusive techniques.
+- **Celestial Wave was corrected:** removed its previous `All CaC races` value. Current evidence establishes CaC availability and PQ151 acquisition, but the reviewed evidence does not explicitly establish an all-races restriction. The record remains CaC-usable with `race_restriction` null.
+- Live census after the correction: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `1812f40937b542003b6b9ff473d5289647186972`.
+- Audit commits: `88d67edf5553ed12f51e83c4f76d41af6c0149b6` and `aecca83925ef14395010e879005e8396ab3d4a43`.
+- No validator was changed or weakened. The audit was kept free of ChatGPT citation markup after cleanup.
+- Exact next task: **Spread Shot Retreat has now been audited; continue from the records immediately following Spirit Slash: Spread Shot Retreat is already covered in this cohort, so next dataset-order records are to be recomputed from the live file before editing rather than trusting an old handoff.**
