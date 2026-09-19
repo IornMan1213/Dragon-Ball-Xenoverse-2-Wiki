@@ -707,3 +707,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Coverage commit: `b029dc646ccacea77c579212bddff201ed1e204b`.
 - Remaining null-CaC cohort is now **3 records**: Dark Inscription, Emperor's Cannon, and Chaotic Time Impact.
 - Next: exhaust those three with explicit evidence, then begin the race-restriction census in earnest.
+
+
+### 2026-09-19 cycle update — final null-CaC cohort closed
+- Closed **Dark Inscription, Emperor's Cannon, and Chaotic Time Impact** as `usable_by_cac: true` based on explicit DLC 20 CaC-focused evidence. citeturn1youtube13
+- Skills commit: `256d88f05c339da6bfcab7a7c7b3f1d18bd68a1e`.
+- Coverage commit: `dbf067c9586b4c654c59821edba06fe36a09b342`.
+- The explicit null-CaC census is now complete. Next priority is the **race-restriction census**: recompute the live cohort, identify every CaC-usable skill with `race_restriction: null`, and reconcile restrictions in evidence-backed batches without inferring from character ownership alone.
