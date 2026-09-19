@@ -1270,3 +1270,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Blaster Ball: 100–500 Ki; Burst Kamehameha: 100–200 Ki. Buu Buu Ball retains Pure Majin restriction; Candy Beam retains Majin restriction.
 - Data commit: `a7e1b790c64c07e4d1948d28664aefcca8bddfec`; audit commit: `353a78cbd9654de959cafc958fda2178c88c7503`.
 - Next continuation should proceed from the next dataset-order unresolved records after Candy Beam.
+
+
+### 2026-09-19 continuation — Extended Ki Blast cohort
+- Reconciled Candy Beam (Super), Crazy Finger Shot, Dark Inscription, Death Psycho Bomb, Demon Ray, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, and Destructo-Disc.
+- Important correction: Candy Beam (Super) is **200 Ki**, not 100 Ki. Destruction's Concerto: Comet is **100–200 Ki**.
+- Data commit: `74c525a9c7be92a8eee1bdc43f30dfc5493a09fe`; audit commit: `44f0416aed8eadc97e37d065351339898b737068`.
+- Next continuation should proceed from the records immediately following Destructo-Disc in dataset order.
