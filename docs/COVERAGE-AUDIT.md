@@ -1861,3 +1861,13 @@ Reviewed: **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Sli
 - Emperor's Cannon's corrected PQ184 acquisition record remains intact.
 - Live census: **283 total / 269 CaC-usable / 68 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Evil Blast through God of Destruction's Plaything race-restriction census
+
+Reviewed: **Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Giant Cluster, Gigantic Charge, God of Destruction's Plaything**.
+
+- Added explicit **All CaC races** scope to all eight. The maintained Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established.
+- Preserved existing mechanics and acquisition evidence. Gigantic Charge's corrected **200-Ki Strike Super** classification remains intact.
+- Live census: **283 total / 269 CaC-usable / 60 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
