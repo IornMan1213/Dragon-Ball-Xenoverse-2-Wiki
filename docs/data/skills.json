@@ -3106,14 +3106,15 @@
       "ki_cost": 100,
       "research_status": "enriched",
       "unlock_method": "Starting move / initial \"Mixed\" choice",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Starting move / initial 'Mixed' choice",
       "mechanics": "Teleport/evasion movement: user leaves an afterimage and can redirect during the move.",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained."
+      "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained.",
+      "notes": "Documented acquisition is independent of Parallel Quest Ultimate-Finish gating."
     },
     {
       "name": "Afterimage Strike",
@@ -3230,12 +3231,13 @@
       "ki_cost": 0,
       "unlock_method": "First Advancement Test - Easy Class / CaC playstyle reward",
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "source_quest_or_shop": "Advancement Test",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "Documented acquisition is independent of Parallel Quest Ultimate-Finish gating."
     },
     {
       "name": "Energy Release",
@@ -3288,14 +3290,15 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Advancement Test - Advanced Class",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - Advanced Class",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
-      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge."
+      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge.",
+      "notes": "Documented acquisition is independent of Parallel Quest Ultimate-Finish gating."
     },
     {
       "name": "Hero's Flute",
@@ -3396,14 +3399,15 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Advancement Test - God Class",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - God Class",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
-      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills."
+      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills.",
+      "notes": "Documented acquisition is independent of Parallel Quest Ultimate-Finish gating."
     },
     {
       "name": "Petrifying Spit",
@@ -3731,12 +3735,13 @@
       "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks.",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Expert Mission 20 — Harbinger of Doom",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 1",
-      "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom"
+      "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom",
+      "notes": "Documented acquisition is independent of Parallel Quest Ultimate-Finish gating."
     },
     {
       "name": "Divinity Unleashed",
@@ -6406,12 +6411,13 @@
       ],
       "usable_by_cac": true,
       "ki_cost": 300,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "source_quest_or_shop": "Training with Lord Slug, Lesson 3",
-      "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack."
+      "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack.",
+      "notes": "Documented acquisition is independent of Parallel Quest Ultimate-Finish gating."
     },
     {
       "name": "Darkness Rush (Ranged)",
