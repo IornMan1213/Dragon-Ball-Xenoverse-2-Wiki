@@ -483,3 +483,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Canonical indexed Super Soul population is now **42 records**.
 - Commits: `cbee59a0e5efd86dc07a95e654a1a0274a426b87` (research), `9ee20d52e9483b2986d94c38ca254bb807fdcd9d` (canonical), `4a5f0bb609a53428189449a0b5258f1c6690d77e` (database), `df87d99e5d806a0bc05d61aefeb69066faec66f9` (coverage), `bdfb0d97768e113f2bf58271465e2852b1aea738` (changelog).
 - Next task: reconcile 044–047 against item-level effect evidence, then continue the raid/DLC Super Soul census. Do not infer drop rates, recurrence schedules, or numeric values from categorical labels.
+
+
+### 2026-09-19 cycle update — Raid Super Soul reconciliation 044–047
+- Reconciled the four previously indexed raid candidates against item-level/community evidence.
+- **044** “Let's see you handle THIS kind of power!”: verified core effect — Giant Form boosts all attacks (+15% reported) and provides stamina auto-recovery; Great Ape Baby raid provenance established.
+- **045** “Your time in this fight ends now!”: verified — Instant Transmission restores Ki; catalogue data lists +100 Ki, while community testing reports one bar normally and two bars for close use. Saibaman raid provenance established.
+- **046** “Kind of human-like, don't you think?”: verified — Energy Field temporarily reduces damage taken for wearer and allies by 20% for 10 seconds; Super 17 raid provenance confirmed by official Bandai Namco event documentation.
+- **047** “Kicking a Shadow Dragon in the head is not a wise thing to do!”: remains partially verified — defense effects are documented, but the stamina-damage reduction magnitude and exact historical raid mapping remain unresolved.
+- Canonical population remains **42 records**.
+- Commits: `50447e2f6275734c3996879a2c937eb1c0e9d77b` (canonical), `f6c89aefe23ab22f6f785a9c9d473a035d04e4c3` (research), `a3f717b799b6196cfd644b341a6113fdcb8e5ec3` (database), `b811a8a34eff61916ea21a79628cbb2b9d525663` (coverage), `f1a6b8a879465c0b11c35c049316402e5c1f9919` (changelog).
+- Next task: continue the raid/DLC Super Soul census beyond 047, prioritizing unreconciled raid-exclusive names and exact item-level acquisition/effect provenance. Do not infer recurrence schedules or drop probabilities.
