@@ -2624,7 +2624,7 @@ No schema or validator changes were made.
 
 ## 2026-09-19 — source-quest provenance batch 2
 
-Verified one additional missing `source_quest`: **Spirit Slash → Parallel Quest 02 — A Deal?! The Saiyan Brothers**. The existing repository record already identified PQ02, and the external quest guide lists Spirit Slash among PQ02's Basic Rewards. citeturn1search0
+Verified one additional missing `source_quest`: **Spirit Slash → Parallel Quest 02 — A Deal?! The Saiyan Brothers**. The existing repository record already identified PQ02, and the Steam Community quest guide lists Spirit Slash among PQ02's Basic Rewards: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
 
 Skills commit: `09749b684f757f585b223ccea8eafacbe8e3ab14`.
 
