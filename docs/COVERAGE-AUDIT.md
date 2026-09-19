@@ -113,7 +113,7 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - All 10 records now carry explicit source URLs in their individual records, rather than relying only on the batch-level source list.
 - Sources used for the pass: the maintained 186-PQ Steam transcription, the Steam PQ reward transcription, and an independent Ultimate Finish reference.
 - The pass deliberately did **not** add reward-slot percentages or other probability claims where the consulted sources do not establish them.
-- Remaining provenance work: older PQ batches still contain records without individual `sources` arrays; continue in bounded batches and preserve unresolved reward semantics.
+- Remaining provenance work: older PQ batches still contain records without individual `sources` arrays; continue in bounded batches and preserve unresolved reward semantics. The PQ11–PQ20 provenance pass is complete.
 
 ## Skill metadata audit milestone — 2026-09-18
 
