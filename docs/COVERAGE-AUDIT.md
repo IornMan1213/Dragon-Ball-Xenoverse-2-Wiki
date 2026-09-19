@@ -1087,3 +1087,16 @@ Reconciled Absolute Zero, Celestial Wave, Dragon Burn, Explosive Wave, Force Shi
 Reviewed Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, Spread Shot Retreat, Steel Mirage, Final Pose, and Mach Dash against dedicated current-version pages.
 
 Important metadata corrections: **Side Bridge** is a 100-Ki **Ki Blast Super** from PQ39, not an Evasive; **Steel Mirage** is a 100-Ki **Ki Blast Super** from PQ165, not an Evasive. Mighty Explosive Wave is documented as a Ki Blast Super/Evasive with 100 Ki for the attack and 300 Stamina for its Evasive function. The remaining records retain their Evasive classifications and current stamina costs. No unsupported CaC race/gender/form restrictions were inferred.
+
+
+## 2026-09-19 — Shout, barrier, and Ki-skill cohort
+
+Reconciled Angry Shout, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, Bending Kamehameha, Big Bang Kamehameha, and Big Bang Knuckle against current skill evidence.
+
+- Angry Shout retains its explicit **Pure Majin form** CaC restriction.
+- Spirit Explosion and Spirit Slash are confirmed Strike Evasives at 200 Stamina (with the DBS Super Hero Spirit Slash variant at 300).
+- Atomic Blast is confirmed as a 100-Ki Ki Blast Super from PQ87.
+- Bending Kamehameha is a 100-Ki Skill Shop Ki Blast Super and retains its explicit all-CaC-races coverage.
+- Big Bang Kamehameha is a 100-Ki TP Medal Shop Ki Blast Super and retains its explicit all-CaC-races coverage.
+- Big Bang Knuckle is corrected to a **100-Ki Strike Super** from PQ172; the current evidence does not establish CaC acquisition, so it remains non-CaC.
+- Energy Barrier remains a 300-Stamina Evasive; its barrier behavior is confirmed, but the attack-type field is retained pending stronger direct evidence.
