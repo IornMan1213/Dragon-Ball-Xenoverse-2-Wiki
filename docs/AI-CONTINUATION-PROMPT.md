@@ -312,3 +312,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation: all 18 PQ batches were fetched and parsed after the edit; **176 total records**, **0 missing explicit `unlock_condition` fields**, and **92 records still lacking individual `sources` arrays**.
 - CI: inspect the latest push-triggered runs/status before changing validators. No validator was weakened during this cycle.
 - Exact next task: **continue with PQ31–PQ40**, with the same record-level provenance pass plus reward reconciliation. Pay special attention to PQ36's already-documented numbering/existence conflict and preserve that conflict rather than silently resolving it. Then update the coverage audit, changelog, handoff, and inspect Actions/status.
+
+
+### 2026-09-19 cycle update — PQ31–40 provenance pass
+- Workstream: Parallel Quest provenance and objective/reward evidence cleanup.
+- Completed record-level provenance for **PQ31–PQ40**. All ten records now have explicit source URLs and 2026-09-19 verification dates.
+- Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription plus independent Ultimate Finish/objective tables. Existing reward lists in this batch matched the primary transcription, so no speculative reward-slot percentages were added.
+- PQ36's existing numbering/existence conflict remains explicitly documented and independently cross-checked; it was not silently deleted or normalized.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-04.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `e1c68ad1706c210663ee68003e16cd74adaae961` (PQ31–40 provenance), `676c403463c6918c47a3ff1ad675782d9c6c8c15` (coverage audit), `209da396b119668bc997c9d4bba434e0b656909c` (changelog).
+- Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **82 records still lacking individual `sources` arrays**.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Exact next task: **continue with PQ41–PQ50** using the same provenance/reward reconciliation workflow. Verify the future-era objectives and reward lists independently, preserve unresolved acquisition/drop semantics, then update the coverage audit, changelog, handoff, and inspect Actions/status.
