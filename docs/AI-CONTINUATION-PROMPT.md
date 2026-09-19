@@ -847,3 +847,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `24322d250d88b5949e6e4d964c881fda4b076bd3`.
 - Coverage commit: `9d7fe275f1fdba6e44c5f7fe3ecdf1edb4bd0aa3`.
 - Exact next task: continue the null-race census with explicit race/gender/form evidence as the classification threshold.
+
+### 2026-09-19 cycle update — Future Warrior cross-source provenance
+- Added a second independent Future Warrior reference (The Codex) to 8 existing CaC-usable records: Mach Dash, Stone Bullet, Hero's Flute, Formation!, Brave Sword Slash, Dimension Ray, God of Destruction's Menace, and Brave Sword Attack.
+- This corroborates provenance only; race restrictions were not inferred where the source merely lists the technique.
+- Skills commit: `cb8e9944eb6136186f0149b2cac586291eb5a78f`.
+- Coverage commit: `4dc14d75b8d53539e2c07c557b89366be9682274`.
+- Research source: The Codex Future Warrior (Xenoverse 2), which explicitly documents several race/gender restrictions and distinguishes those from general technique listings. 
+- Exact next task: continue the null-race census and prioritize records where the source provides explicit race/gender/form wording.
