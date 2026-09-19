@@ -2791,3 +2791,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit cleanup/record commit: `e4f661379283590e02371766c0bc0143ece38a4d`.
 - Exact next task: continue the `source_quest` census, prioritizing records where the existing `source_quest_or_shop` or `unlock_method` contains an explicit quest number/title. Do not overwrite existing numeric quest IDs merely to normalize formatting.
 
+### 2026-09-19 continuation — source-quest provenance batch 3
+- Added four explicitly documented quest sources: **Dark Inscription → PQ182 — Frieza's Fervent Wish; Demon Ray → PQ160 — Pan in Peril; Destruction's Concerto: Comet → PQ104 — Vados the Talent Scout; Destruction's Concerto: Starfall → PQ104 — Vados the Talent Scout**.
+- Skills commit: `302826e735c5394d6b46f0a8c23ac953becddc16`.
+- Coverage audit commit: `23022bc2ce8175f687d7b190f0369fdfe78404ba`.
+- Exact next task: continue `source_quest` only where an explicit quest identifier/title is already supported by the record and reliable external evidence; leave ambiguous reward-context records unchanged.
+
