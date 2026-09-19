@@ -420,3 +420,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **6 records still lacking individual `sources` arrays**.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Exact next task: **PQ181–PQ186**. These are the final six unsourced records. Continue with the same record-level provenance standard, carefully distinguishing Dragon Ball DAIMA Pack versus Future Saga Chapter 3/4 content and preserving documented Ultimate Finish/reward evidence without inventing probabilities. Update coverage audit, changelog, handoff, and Actions/status after the final pass.
+
+
+### 2026-09-19 cycle update — PQ181–186 final provenance pass
+- Workstream milestone: **complete record-level provenance coverage for PQ1–PQ186**.
+- Completed source coverage for **PQ181–PQ186**, with explicit source URLs and 2026-09-19 verification dates.
+- Independent references cross-check the final DLC associations, Ultimate Finish conditions, and documented rewards. PQ181 is Dragon Ball DAIMA Pack; PQ182–184 are Future Saga Chapter 3; PQ185–186 are Future Saga Chapter 4.
+- PQ184's explicitly documented 50% Ultimate Finish bonus-slot rate for Chaotic Time Impact was preserved. No unsupported probabilities were added to the other five final records.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-18.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `66e6e9a3b04523dabac4bc2aaf684f4806415b9a` (PQ181–186 research), `fbeee7523b6e557562b470e749d2a4ac3734b0de` (coverage audit), `a81fe43704ba7b661ee4c72a053c6ac50c691db0` (changelog).
+- Validation census: **176 total records, 0 missing `unlock_condition` fields, 0 records lacking individual `sources` arrays**. This completes the current PQ provenance coverage objective.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Exact next task: do not stop at provenance completion. Re-open the repository TODO/priority list and identify the highest-priority remaining **data-quality/functionality gap**. Continue exhaustive page/function/detail coverage rather than starting another redundant source pass. Preserve conflicts, cite evidence, and update this handoff after the next substantive work unit.
