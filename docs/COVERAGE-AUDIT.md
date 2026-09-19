@@ -1076,3 +1076,7 @@ Reconciled the next dataset-order cohort: Shadow Crusher, Sudden Death Beam, Sup
 Dedicated current-version evidence confirms the classifications and 100-Ki costs for the reviewed skills, along with their acquisition routes where available. Hit's three Time Skip skills are mentor-training rewards; Ultrasonic Blitz is from PQ151; Shadow Crusher is from Cooler (Final Form) training; Super God Shock Flash is a Skill Shop skill. Sudden Death Beam retains its existing TP Medal Shop / STP Medal Shop / Double Crystal Raid acquisition record because a dedicated page could not be freshly retrieved in this pass.
 
 No unsupported CaC race/gender/form restrictions were inferred.
+
+## 2026-09-19 — Evasive skill cohort
+
+Reconciled Absolute Zero, Celestial Wave, Dragon Burn, Explosive Wave, Force Shield, Instant Rise, Ki Explosion, and Maiden Burst against current skill-list evidence. Confirmed their Evasive classifications, stamina costs, and acquisition routes where documented. Force Shield was normalized to **Ki Blast** rather than Other. Existing explicit all-CaC-races coverage for Ki Explosion was retained; no unsupported race/gender/form restrictions were inferred for the other records.
