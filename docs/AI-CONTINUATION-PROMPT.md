@@ -1818,3 +1818,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Removed literal UI citation markup from docs/COVERAGE-AUDIT.md and docs/AI-CONTINUATION-PROMPT.md while preserving the underlying provenance notes and source URLs.
 - Validators were not changed or weakened.
 - Exact next task remains: continue the null-race skill census with Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, and Apocalyptic Burst.
+
+
+### 2026-09-19 continuation — Scissors Paper Rock through Apocalyptic Burst
+- Reviewed the next eight null-race CaC-usable records: Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, Apocalyptic Burst.
+- Added explicit All CaC races scope to Scissors Paper Rock, Shooting Strike, and Apocalyptic Burst using Future Warrior evidence.
+- Preserved null race restrictions for Seagull Combination, Soaring Rush, Sonic Bomb, Super God Fist, and Variant Drive because reviewed evidence does not independently establish Future Warrior/CaC availability; cast-character ownership was not treated as a CaC restriction.
+- Data commit: c61346c0b35d11e5348ea349878cbbb425ff772e.
+- Audit commit: c61346c0b35d11e5348ea349878cbbb425ff772e.
+- Live census: 283 total / 269 CaC-usable / 124 CaC-usable with null race restriction.
+- Exact next task: continue the null-race census with **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker** after recomputing the live dataset. Preserve null restrictions when explicit evidence is insufficient.
