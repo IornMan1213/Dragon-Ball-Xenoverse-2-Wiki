@@ -807,3 +807,7 @@ Added a second independent Future Warrior reference to 8 existing CaC-usable rec
 ## 2026-09-19 Explicit form-restriction audit
 
 Reviewed the Future Warrior source's form-exclusive sections for Great Namekian, Pure Majin, Golden-form Frieza Race, and Ultra Instinct techniques. The source explicitly identifies several transformation-specific techniques, but none of those exact technique names is present in the current canonical `docs/data/skills.json` inventory. Therefore this pass produced **no canonical classification changes** and preserved the existing 186-record null-race frontier.
+
+## 2026-09-19 explicit-restriction cross-check
+
+Cross-checked the source's explicitly stated Future Warrior race/gender restrictions against the live canonical skill inventory. The complete explicit set represented by the source — Saiyan Spirit; Explosive Buu Buu Punch; Zigzag Express; Quick Sleep; Ill Bomber; Shining Slash; Burning Slash; Candy Beam; Buu Buu Ball; Evil Flight Strike; Namek Finger; Darkness Rush (Ranged); Darkness Rush (Melee); and Majin Kamehameha — has **no remaining CaC-usable record with a null `race_restriction`**. This confirms the previously reconciled restriction cohort is still closed. The remaining 186 null records require separate evidence rather than inference.
