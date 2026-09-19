@@ -1731,7 +1731,8 @@
       "source_quest_or_shop": "Krillin mentor training",
       "mechanics_notes": "Unblockable tracking Ki Blast Super; the disc travels slowly but can track the locked target.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_indexed_skill_fields"
+      "research_status": "race_restriction_reconciled",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Dimension Cannon",
@@ -2063,7 +2064,8 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "Chargeable Ki Blast Super; shorter charge time than Kamehameha according to the in-game description.",
-      "research_status": "reconciled_indexed_skill_fields"
+      "research_status": "race_restriction_reconciled",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Gamma Blaster",
@@ -2311,7 +2313,8 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "Chargeable Ki Blast Super with three charge levels.",
-      "research_status": "reconciled_indexed_skill_fields"
+      "research_status": "race_restriction_reconciled",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Masenko",
@@ -2323,13 +2326,14 @@
         "https://dragonball.fandom.com/wiki/Masenko"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "race_restriction_reconciled",
       "unlock_method": "Gohan (Kid) mentor training, School Quest Lesson 2",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
-      "mechanics_notes": "Single-hit Ki Blast Super; opposite directional input causes a back-jump before firing."
+      "mechanics_notes": "Single-hit Ki Blast Super; opposite directional input causes a back-jump before firing.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Paralysis",
@@ -2846,7 +2850,8 @@
       "source_quest_or_shop": "Parallel Quest 81",
       "mechanics_notes": "Other Super with afterimage/evasive properties; the move can be interrupted or followed by another attack during/after use.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_indexed_skill_fields"
+      "research_status": "race_restriction_reconciled",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Assault Vanish",
@@ -2937,12 +2942,13 @@
       ],
       "ki_cost": 0,
       "unlock_method": "First Advancement Test - Easy Class / CaC playstyle reward",
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Advancement Test",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
-      "mechanics_notes": "Slow Ki-charge Super; the repository source identifies it as a CaC skill."
+      "mechanics_notes": "Slow Ki-charge Super; the repository source identifies it as a CaC skill.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Energy Release",
@@ -3172,12 +3178,13 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Krillin's initiation test / mentor training",
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
       "mechanics_notes": "Support Super that restores Stamina after the user smacks their own cheeks.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Rising Rage",
@@ -3224,12 +3231,13 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 01 reward",
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 01",
       "mechanics_notes": "Other Super that briefly blinds the opponent; the technique is not effective when performed behind the opponent.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Spirit Boost",
@@ -3366,12 +3374,13 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest 10 - \"Saiyan Survivors\"",
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 10",
       "mechanics_notes": "Protective Other Super that teleports in front of an ally and absorbs incoming attacks while held; if no ally exists, it targets the nearest opponent instead.",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Charge",
