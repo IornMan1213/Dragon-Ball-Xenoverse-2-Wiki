@@ -2509,7 +2509,7 @@
       "skill_description": "Paralyze Beam is a Super Ki Blast skill associated with Piccolo.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ04. It can paralyze/hold the target; exact drop gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -2533,7 +2533,7 @@
       "skill_description": "Pendulum Bullet is a Super Ki Blast skill associated with Android 17.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2559,7 +2559,7 @@
       "source_quest_or_shop": "Training with Cell (Perfect)",
       "mechanics": "Slow, tracking Ki Blast Super; charged finger shot.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot."
     },
     {
@@ -2578,7 +2578,7 @@
       "skill_description": "Photon Swipe is a Super Ki Blast skill associated with Toppo.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ139. It is Toppo's Photon Swipe; exact drop/Ultimate Finish gating remains bounded.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2602,9 +2602,9 @@
       "source_quest_or_shop": "Parallel Quest 133",
       "ultimate_finish_required": null,
       "skill_description": "Pretty Cannon is a Super Ki Blast skill associated with Ribrianne.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Ribrianne's 100-Ki Ki Blast Super from PQ133. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2626,10 +2626,10 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 136",
       "ultimate_finish_required": true,
-      "skill_description": "Raid Blast is a Super Ki Blast skill associated with Goku (Ultra Instinct).",
+      "skill_description": "Raid Blast is a Super Ki Blast skill used by Super Saiyan God Vegeta.",
       "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. The dataset's existing Ultimate Finish requirement is retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2654,9 +2654,9 @@
       "source_quest_or_shop": "Parallel Quest 125",
       "ultimate_finish_required": null,
       "skill_description": "Ray Blast is a Super Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Kefla's 100-Ki Ki Blast Super from PQ125. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2679,9 +2679,9 @@
       "source_quest_or_shop": "Parallel Quest 123",
       "ultimate_finish_required": null,
       "skill_description": "Reverse Shot is a Super Ki Blast skill associated with Super Baby 2.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Confirmed as Super Baby 2's 100-Ki Ki Blast Super from PQ123. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
