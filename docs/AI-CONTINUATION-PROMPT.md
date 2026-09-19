@@ -823,3 +823,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Coverage commit: `04768530cb211172ed514d3e619f76a43f23b9d2`.
 - Evidence source: Future Warrior technique reference. citeturn1view0
 - Exact next task: continue the remaining **186** null-race CaC records, separating explicit restriction evidence from mere Future Warrior usage/provenance and preserving null where race scope remains unproven.
+
+
+### 2026-09-19 cycle update — Future Warrior provenance expansion batch 3
+- Added independent Future Warrior provenance to 30 more existing CaC-usable skill records: Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, Heroic Counter, Punisher Shield, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Ultrasonic Blitz, Absolute Zero, Dragon Burn, Force Shield, Instant Rise, Ki Explosion, Maiden Burst, Mighty Explosive Wave, Punisher Guard, Side Bridge, Spread Shot Retreat, Steel Mirage, Final Pose, and Mach Dash.
+- Classification was intentionally unchanged: Future Warrior provenance is not treated as proof of unrestricted race access.
+- Skills commit: `0c951f6f66367bf27dd7b485fdb742e0ad5c2ab4`.
+- Coverage commit: `8212c04cb04b8b8abe3f6e3d753493443e1f65e2`.
+- Current live census remains **283 total / 270 CaC-usable / 186 null race restrictions**.
+- Exact next task: continue the 186-record null-race census, prioritizing explicit race/gender/form statements rather than character ownership.
