@@ -1549,3 +1549,15 @@ Reconciled **Emperor's Death Beam, Energy Field, Final Explosion, Final Flash (S
 - Existing unresolved reward-slot/drop and version-sensitive mechanics remain bounded rather than fabricated.
 - Live census after the data update: **283 total / 269 CaC-usable / 165 CaC-usable with null race restriction**.
 - The previously documented 171 null-restriction count is superseded by this live recomputation; two of the selected records already had explicit race scope, while six newly reconciled records were removed from the null set.
+
+
+## 2026-09-19 — Gigantic Explosion through Lightning Impact
+
+Reconciled **Gigantic Explosion, Gigantic Roar, God of Destruction's Menace, God of Destruction's Roar, Heat Dome Attack, Holy Wrath, Last Emperor, and Lightning Impact**.
+
+- All eight are documented as obtainable by the Future Warrior/CaC; the canonical records now carry **All CaC races** rather than leaving the race field null.
+- Dedicated current-version evidence also confirms **God of Destruction's Roar** as a **Strike Super / 100 Ki** skill, preserving the correction already present in the live dataset.
+- Gigantic Explosion retains its **600 Ki / optional 400 Stamina** mechanic and Awoken Skill requirement for CaCs. Last Emperor retains its **0 Ki / low-health once-per-battle** behavior.
+- Holy Wrath remains a **100 Ki Ki Blast Super**; Heat Dome Attack remains a **300 Ki Ki Blast Ultimate**; Gigantic Roar remains a **500 Ki Ki Blast Ultimate**; God of Destruction's Menace remains a **300 Ki Ki Blast Ultimate**.
+- Reward/drop probability and Ultimate-Finish semantics remain bounded where the reviewed evidence does not establish them conclusively.
+- Live census: **283 total / 269 CaC-usable / 158 CaC-usable with null race restriction**.
