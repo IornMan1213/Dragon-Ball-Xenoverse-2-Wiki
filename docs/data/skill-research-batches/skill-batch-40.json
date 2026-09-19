@@ -1,63 +1,36 @@
 {
   "batch_id": 40,
-  "created": "2026-09-17",
-  "verification_policy": "new_skill_research_with_conflict_preservation",
-  "research_scope": "Five early/base-game skills selected after live repository duplicate checks. Acquisition identity is documented from current Xenoverse 2 references; unsupported reward-slot probabilities and technical fields remain unresolved.",
-  "verification_audit": {
-    "audited": "2026-09-17",
-    "duplicate_check": {"status":"passed_for_selected_records","selected_records":["Solar Flare","Paralyze Beam","Meteor Strike","Shine Shot","Wall of Defense"],"duplicate_count":0},
-    "source_policy":"Repository code search returned zero matches for every selected skill. Current Xenoverse 2-specific references were preferred; older guide material is used only to corroborate quest identity."
-  },
+  "created": "2026-09-19",
+  "verification_policy": "individual_awoken_unlock_and_availability_reconciliation",
+  "research_scope": "Verify remaining indexed Saiyan CaC Awoken records after canonical deduplication.",
   "records": [
     {
-      "name":"Solar Flare","class":"Super","subcategory":"Other","race_restriction":null,"usable_by_cac":true,
-      "character_source":"Time Patroller; also used by multiple characters","dlc_requirement":null,"ki_cost":200,"stamina_cost":null,"damage_type":"Other",
-      "unlock_method":"Parallel Quest 03 — World Tournament Tag Team","source_quest_or_shop":"Parallel Quest 03","ultimate_finish_required":null,
-      "skill_description":"A head blast that temporarily distracts/blinds nearby enemies.",
-      "mechanics_notes":"Current Xenoverse 2 reference lists Solar Flare as an Other Super requiring 200 Ki and obtainable by completing PQ03. Exact reward-slot semantics are not asserted here.",
-      "combo_notes":null,"pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://dbxv2.fandom.com/wiki/Solar_Flare","https://dbxv2.fandom.com/wiki/Parallel_Quests"]
+      "name": "Future Super Saiyan",
+      "status": "verified",
+      "usable_by_cac": true,
+      "race_restriction": "Saiyan",
+      "unlock": "Vegeta/Capsule Corporation Time Rift progression"
     },
     {
-      "name":"Paralyze Beam","class":"Super","subcategory":"Other","race_restriction":null,"usable_by_cac":true,
-      "character_source":null,"dlc_requirement":null,"ki_cost":null,"stamina_cost":null,"damage_type":"Other",
-      "unlock_method":"Parallel Quest 04 — Prepare for the Attack of Saiyans!","source_quest_or_shop":"Parallel Quest 04","ultimate_finish_required":null,
-      "skill_description":"A paralysis-oriented beam Super.",
-      "mechanics_notes":"Current quest references list Paralyze Beam among PQ04's skill rewards. Exact Ki cost, detailed effect duration, and reward-slot semantics are intentionally unresolved pending a stronger skill-specific source.",
-      "combo_notes":null,"pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://dbxv2.fandom.com/wiki/Parallel_Quests","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+      "name": "Super Saiyan God Super Saiyan",
+      "status": "verified",
+      "usable_by_cac": true,
+      "race_restriction": "Saiyan",
+      "unlock": "Level 90 + max Whis friendship"
     },
     {
-      "name":"Meteor Strike","class":"Super","subcategory":"Strike","race_restriction":null,"usable_by_cac":true,
-      "character_source":"Multiple characters","dlc_requirement":null,"ki_cost":100,"stamina_cost":null,"damage_type":"Strike",
-      "unlock_method":"Parallel Quest 06 — Saibamen's Revenge","source_quest_or_shop":"Parallel Quest 06","ultimate_finish_required":null,
-      "skill_description":"A two-hit Strike Super consisting of a launching kick followed by a finishing blow.",
-      "mechanics_notes":"Current Xenoverse 2 reference lists Meteor Strike as a Strike Super, 100 Ki, and PQ06 as its acquisition source. The same reference documents a two-hit kick/teleport sequence. Exact reward-slot semantics remain unresolved.",
-      "combo_notes":"The documented sequence uses a launching kick followed by a teleporting finishing kick.","pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://dbxv2.fandom.com/wiki/Meteor_Strike","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
-    },
-    {
-      "name":"Shine Shot","class":"Super","subcategory":"Ki Blast","race_restriction":null,"usable_by_cac":true,
-      "character_source":null,"dlc_requirement":null,"ki_cost":null,"stamina_cost":null,"damage_type":"Ki Blast",
-      "unlock_method":"Parallel Quest 07 — Attack of the Saiyans","source_quest_or_shop":"Parallel Quest 07","ultimate_finish_required":null,
-      "skill_description":"A Ki Blast Super obtained from the early Saiyan-saga Parallel Quest pool.",
-      "mechanics_notes":"Current quest lists consistently identify Shine Shot as a PQ07 skill reward. Exact resource cost, hit properties, and whether it is tied to a specific enemy or reward pool are left unresolved rather than inferred.",
-      "combo_notes":null,"pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","https://xvguide.neocities.org/Skill"]
-    },
-    {
-      "name":"Wall of Defense","class":"Super","subcategory":"Other","race_restriction":null,"usable_by_cac":true,
-      "character_source":null,"dlc_requirement":null,"ki_cost":null,"stamina_cost":null,"damage_type":"Other",
-      "unlock_method":"Parallel Quest 10 — Saiyan Survivors","source_quest_or_shop":"Parallel Quest 10","ultimate_finish_required":null,
-      "skill_description":"A defensive/reinforcement Super from the early Saiyan-saga quest set.",
-      "mechanics_notes":"Current quest references list Wall of Defense as a PQ10 skill reward. Exact classification details, resource cost, defensive modifiers, duration, and reward-slot semantics require a stronger skill-specific technical source and remain unresolved.",
-      "combo_notes":null,"pve_notes":null,"pvp_notes":null,
-      "verification_status":"partially_verified","last_verified":"2026-09-17",
-      "sources":["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","https://xvguide.neocities.org/Skill"]
+      "name": "Super Saiyan God Super Saiyan (Evolved)",
+      "status": "verified",
+      "usable_by_cac": true,
+      "race_restriction": "Saiyan",
+      "unlock": "Level 95 + max Vegeta friendship + SSGSS already acquired"
     }
-  ]
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
+    "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_(Evolved)",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
+  ],
+  "notes": "Race restriction and unlock routes were verified separately. Do not infer that NPC/mentor awarding to any race makes the skill equippable by that race."
 }
