@@ -1741,8 +1741,18 @@ Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rol
 
 Reviewed **Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, and Dancing Parapara**.
 
-- Current Future Warrior documentation lists these techniques among the Future Warrior's usable techniques; Spirit Pulse is specifically documented as available to the Future Warrior through New Parallel Quest 151. citeturn0search0turn0search2
-- Super Donut Volley is documented as a Gotenks Super Skill obtainable by the Future Warrior from PQ55. citeturn0search3turn0search4
+- Current Future Warrior documentation lists these techniques among the Future Warrior's usable techniques; Spirit Pulse is specifically documented as available to the Future Warrior through New Parallel Quest 151. 
+- Super Donut Volley is documented as a Gotenks Super Skill obtainable by the Future Warrior from PQ55. 
 - Reviewed evidence does not establish an explicit CaC race/gender/form restriction for this cohort, so null race fields remain intentional.
 - No character ownership was converted into a race restriction.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Hero's Flute through Dragon Spark
+
+Reviewed **Hero's Flute, Burning Swan, Burst Blitz, Death Slash, Demon Flurry, Demonic Destruction, Destruction's Conductor, and Dragon Spark**.
+
+- Current skill documentation associates Hero's Flute with Tapion, Burning Swan with Videl (DB Super), Demon Flurry and Demonic Destruction with Gohan (Beast)/Orange Piccolo respectively, Destruction's Conductor with Champa/Vados, and Dragon Spark/Burst Blitz with Goku (Mini). The reviewed character associations do not by themselves establish a CaC race/gender/form restriction.
+- PQ116 documentation lists Hero's Flute as a reward, while Future Saga Chapter 2 documentation lists Dragon Spark and Burst Blitz among its skills.
+- No explicit CaC race/gender/form restriction was established for this cohort; null race fields remain intentional.
+- No character ownership was converted into a race restriction.
