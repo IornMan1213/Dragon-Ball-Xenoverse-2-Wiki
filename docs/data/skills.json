@@ -725,7 +725,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Training with Cooler (Final Form)",
       "last_verified": "2026-09-19",
@@ -733,7 +733,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training",
       "race_restriction": null,
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated."
     },
     {
       "name": "Sudden Death Beam",
@@ -745,7 +746,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
       "last_verified": "2026-09-19",
@@ -753,7 +754,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "TP Medal Shop / STP Medal Shop / Double Crystal Raid",
       "race_restriction": null,
-      "dlc_requirement": "Base Game + later STP/raid distribution"
+      "dlc_requirement": "Base Game + later STP/raid distribution",
+      "mechanics_notes": "Current dataset acquisition evidence remains TP Medal Shop / STP Medal Shop / Double Crystal Raid with 100 Ki. Dedicated current-version page access was unavailable in this pass, so the existing acquisition record is retained without inventing additional scope."
     },
     {
       "name": "Super Afterimage",
@@ -774,7 +776,8 @@
       "race_restriction": null,
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_acquisition_cac_resource_fields"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated."
     },
     {
       "name": "Super God Shock Flash",
@@ -786,7 +789,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Skill Shop",
       "last_verified": "2026-09-19",
@@ -794,7 +797,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
       "race_restriction": null,
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super and melee counter obtained from the Skill Shop. No explicit CaC race/gender/form restriction is stated."
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -806,7 +810,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
       "last_verified": "2026-09-19",
@@ -814,7 +818,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training",
       "race_restriction": null,
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated."
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -826,7 +831,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
       "last_verified": "2026-09-19",
@@ -834,7 +839,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training",
       "race_restriction": null,
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated."
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -846,7 +852,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
       "last_verified": "2026-09-19",
@@ -854,7 +860,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training",
       "race_restriction": null,
-      "dlc_requirement": "Base Game"
+      "dlc_requirement": "Base Game",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated."
     },
     {
       "name": "Ultrasonic Blitz",
@@ -866,7 +873,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\"",
       "last_verified": "2026-09-19",
@@ -874,7 +881,8 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "race_restriction": null,
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation"
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super counter obtained from Parallel Quest 151. No explicit CaC race/gender/form restriction is stated."
     },
     {
       "name": "Absolute Zero",
