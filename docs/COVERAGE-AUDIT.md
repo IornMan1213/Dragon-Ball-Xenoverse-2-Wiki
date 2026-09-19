@@ -2235,3 +2235,10 @@ Resolved ultimate_finish_required=false for four Ultimate skills whose repositor
 - Updated docs/data/skills.json only for the four directly supported records.
 - Preserved nullable UF metadata for PQ-only skills where generic PQ association does not establish Ultimate Finish gating.
 - No validator or schema rule was changed.
+
+
+## 2026-09-19 — starter/Advancement Test non-UF batch
+
+Resolved `ultimate_finish_required: false` for four Super skills whose acquisition channels are intrinsically independent of Parallel Quest Ultimate Finishes: **Afterimage** (starting-move selection), **Energy Charge** (First Advancement Test), **Full Power Charge** (Advanced Class Advancement Test), and **Maximum Charge** (God Class Advancement Test).
+
+Live nullable Super/Ultimate census after this batch: **177 records** — 133 Super and 44 Ultimate. No schema or validator changes were made.
