@@ -1191,3 +1191,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Updated `docs/COVERAGE-AUDIT.md` with the three-record evidence review.
 - Commits: `798535bedb3a986a93b2fa09f6aa396b7d89ddb4` (canonical data), `ce19dc8a2589396cffdfdca81a7a6335e87ec221` (coverage audit).
 - Next exact target: continue from the next unresolved null-race record after Gigantic Breaker, using the same explicit-scope standard; recompute the live census before editing.
+
+
+### 2026-09-19 continuation — queued skill reconciliation
+- Reconciled **Gigantic Burst, God of Destruction's Roar, God of Destruction's Menace, and Gigantic Roar** against current evidence.
+- **God of Destruction's Roar** was materially corrected from Ultimate/Ki Blast/300 Ki to **Super/Strike/100 Ki**.
+- Gigantic Burst has explicit current evidence that it is available for CaCs; no race restriction was inferred.
+- Gigantic Roar's current page confirms its Ultimate/Ki Blast/PQ132 identity, but does not establish a CaC race/gender/form restriction.
+- God of Destruction's Menace is confirmed as a 300-Ki Ki Blast Ultimate from PQ105; existing CaC scope remains conservatively retained pending stronger dedicated explicit-scope evidence.
+- Remaining immediate cohort: **Gigantic Explosion, Heat Dome Attack, Holy Wrath, Last Emperor**.
+- Commits: `cd04519a91003c8707a13c14876dba541aee805e` (data), `bc148b615ca618eb4011296efb1b7c435813b966` (audit).
