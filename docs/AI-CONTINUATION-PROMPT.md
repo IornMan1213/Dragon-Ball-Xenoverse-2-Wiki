@@ -82,7 +82,7 @@ Known completed frontier:
 - PQ161–186: later-batch reward/unlock semantics enriched; exact unknown percentages remain unresolved rather than fabricated.
 - PQ184 Chaotic Time Impact: documented as a 50% Ultimate Finish bonus-slot drop.
 
-**Next exact PQ task: PQ91–100.**
+**Next exact PQ task: PQ101–110.**
 First recompute the live unlock census instead of trusting historical counts.
 
 ### P1 — Awoken / Transformations
@@ -136,7 +136,7 @@ Only after data-completeness work, expose the improved structured research surfa
 8. Commit the complete cycle.
 
 ### Latest known PQ unlock census
-Latest numeric unlock-field reference: **72 records without any `unlock_condition` field**. This is not equivalent to 72 unresolved exact routes; classify populated fields by evidence quality before claiming coverage.
+Latest numeric unlock-field reference should be recomputed from all 18 batch files before each cycle. Do not equate field presence with exact-route verification.
 
 ## Recent commits
 
@@ -158,13 +158,14 @@ Latest numeric unlock-field reference: **72 records without any `unlock_conditio
 - `.github/workflows/`
 - `scripts/`
 
-### 2026-09-19 cycle update — PQ71–90
+### 2026-09-19 cycle update — PQ71–100
 - Workstream: Parallel Quest unlock-route research.
-- PQ71–80 and PQ81–90 were reviewed against independent objective/Ultimate Finish references.
-- Important correction: exact-looking sequential unlock claims were not retained when the consulted evidence did not directly establish the individual trigger. The records now use bounded uncertainty wording instead of presenting inference as fact.
-- Updated: `pq-batch-08.json`, `pq-batch-09.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
-- Numeric unlock-field gap: 72 records lack the field entirely; this must not be treated as an exact unresolved-route count.
-- Next exact task: PQ91–100.
+- PQ91–97 were verified as a sequential PQ chain against an independent Japanese PQ reference and corroborating community evidence.
+- PQ98 was verified as a special progression gate involving the base-game story, five Time Eggs, and the Unknown History story.
+- PQ99–100 were verified as the continuation after PQ98.
+- Updated `pq-batch-10.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Evidence discipline: exact-looking prerequisites are retained only where the consulted sources support them.
+- Next exact task: PQ101–110 (DLC-era PQs); treat DLC ownership/version provenance as a first-class field when researching them.
 
 ## End-of-cycle update protocol
 
