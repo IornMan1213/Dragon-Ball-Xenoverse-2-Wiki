@@ -1026,3 +1026,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added dedicated current-version Burst Stinger provenance URL and refreshed its verification date.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort begins with Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, and Dust Attack.
+
+
+### 2026-09-19 cycle update — next super-skill verification boundary
+- Reviewed Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, and Dust Attack.
+- Preserved null race restrictions; NPC user identity/acquisition does not establish CaC race/gender/form scope.
+- Refreshed all four `last_verified` dates to 2026-09-19.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort begins after Dust Attack; inspect the canonical ordering before selecting the next batch.
