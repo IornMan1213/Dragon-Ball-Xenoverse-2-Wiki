@@ -426,3 +426,15 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Added the conservative unlock route to all ten records: own the listed DLC pack and have the Parallel Quest board available. No unsupported sequential/story/NPC prerequisite was added.
 - Added record-level source provenance, `unlock_verification`, and 2026-09-19 verification dates to `docs/data/parallel-quest-research-batches/pq-batch-15.json`.
 - Live missing `unlock_condition` count is now **4**: PQ36, PQ53–55.
+
+
+## 2026-09-19 PQ missing-unlock closure milestone
+
+- Recomputed the live Parallel Quest unlock census after researching the four remaining missing records: **176 canonical records across 18 research batches; 0 records remain without an explicit `unlock_condition` field**.
+- PQ36 now records completion of PQ35 as its unlock route, while preserving the independent numbering/existence conflict around PQ36 and treating the prerequisite evidence as separate provenance.
+- PQ53 now records the Great Saiyaman 1 + 2 trigger on the floating Resort Island south of Conton City's Recreation Plaza.
+- PQ54 now records PQ52 as the direct reported prerequisite, but remains `partially_verified_conflicting_community_evidence` because a separate community reply attributes the unlock to the earlier Great Saiyaman blue-exclamation quest.
+- PQ55 records completion of PQ54 as its prerequisite.
+- Evidence sources are retained at record level; no generic sequential prerequisite was propagated beyond what the sources support.
+- This closes the explicit PQ unlock-field census, but **does not mean every unlock route is fully verified**. PQ54 remains contested, and other populated records may still use bounded board/story wording rather than an exact NPC/PQ trigger.
+- Next PQ priority is therefore **record-level provenance and reward/acquisition/version semantics**, followed by the next P1 system audit rather than inventing more unlock fields.
