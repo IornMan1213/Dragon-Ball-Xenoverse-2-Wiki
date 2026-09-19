@@ -950,3 +950,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `222be3bacf6432f577f6936da4eef66e116db430`.
 - Coverage commit: `df206ce6b5941e9770a028e4ae4704f965987dfe`.
 - Continue with the next unresolved null-race cohort.
+
+### 2026-09-19 cycle update — late offensive/evasion null-race cohort
+- Reviewed 12 records: `Pendulum Bullet`, `Photon Swipe`, `Pretty Cannon`, `Raid Blast`, `Ray Blast`, `Reverse Shot`, `Rolling Bullet`, `Shine Shot`, `Spirit Blaster`, `Spirit Pulse`, `Stone Bullet`, and `Super Donut Volley`.
+- Added direct technique provenance to `Photon Swipe`; it confirms Future Warrior acquisition from New Parallel Quest 139 but does not establish a race restriction.
+- No `race_restriction` values changed.
+- Skills commit: `6e740b7a1c7be6608af7f3220e43dc8b998b7b38`.
+- Coverage commit: `76c2cfa76cc1e3f89a5f231adc5e8d6a2a909cf9`.
+- Continue with the next unresolved null-race cohort.
