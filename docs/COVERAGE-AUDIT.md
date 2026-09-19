@@ -1527,3 +1527,13 @@ Reconciled **Sonic Bomb, Super God Fist, Variant Drive, Wild Stinger, Zigzag Exp
 - Zigzag Express retains its explicit **Majin male** restriction.
 - Sonic Bomb, Super God Fist, Variant Drive, Apocalyptic Burst, Blaster Stream, and Burning Blast remain CaC-usable without an inferred narrower race/gender/form restriction.
 - Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Chain Destructo-Disc Barrage through Divine Ray Bomb
+
+Reconciled **Chain Destructo-Disc Barrage, Chaotic Time Impact, Circle Flash, Core Breaker, Death Ball, Destruction's Concerto: Meteor, Dimension Ray, and Divine Ray Bomb**.
+
+- Death Ball and Divine Ray Bomb retain explicit **All CaC races** scope.
+- The other six remain CaC-usable without an inferred narrower race/gender/form restriction.
+- Existing class/category distinctions were preserved; no unsupported normalization was introduced.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
