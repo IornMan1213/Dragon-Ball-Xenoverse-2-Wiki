@@ -446,11 +446,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Wish - \"I want a new Super Attack!\"",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Shenron wish",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Burst Rush",
@@ -461,14 +465,17 @@
         "https://dbxv2.fandom.com/wiki/Burst_Rush",
         "https://dragonball.fandom.com/wiki/Burst_Rush"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 51",
       "ultimate_finish_required": true,
       "mechanics_notes": "Strike counter Super; brief stance counters an incoming normal attack and follows with a four-hit rush.",
-      "last_verified": "2026-09-18",
-      "source_quest": 51
+      "last_verified": "2026-09-19",
+      "source_quest": 51,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Change The Future",
@@ -479,13 +486,16 @@
         "https://dbxv2.fandom.com/wiki/Change_the_Future_%28Parallel_Quest%29",
         "https://dragonball.fandom.com/wiki/Change_the_Future"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 43 - \"Change the Future\"",
+      "source_quest_or_shop": "Parallel Quest 43 - Change the Future",
       "ultimate_finish_required": null,
       "mechanics_notes": "Ki Blast counter Super; evades an incoming Ki Blast/skill and retaliates with a close-range energy wave.",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Counter Burst",
@@ -495,11 +505,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 75 - \"Room to Spare\"",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 75 - Room to Spare",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Counter Impact",
@@ -509,11 +523,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 153 - \"Seeing Double\"",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 153 - Seeing Double",
+      "race_restriction": null,
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation"
     },
     {
       "name": "Demon Flash Strike",
@@ -525,13 +543,16 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "ki_cost": 100,
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 160",
       "ultimate_finish_required": null,
       "mechanics_notes": "Strike counter Super; enters a melee-counter stance and can use an additional input to move in front of the opponent.",
-      "last_verified": "2026-09-18",
-      "source_quest": 160
+      "last_verified": "2026-09-19",
+      "source_quest": 160,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation"
     },
     {
       "name": "Dimensional Hole",
@@ -541,11 +562,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dimensional_Hole"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward (PQ80)",
       "source_quest": 80,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 80",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Flash Fist Crush",
@@ -555,10 +581,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Shenron wish reward",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Shenron wish",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "God Breaker",
@@ -568,11 +599,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ44)",
       "source_quest": 44,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 44",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Heroic Counter",
@@ -582,11 +618,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ155)",
       "source_quest": 155,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 155",
+      "race_restriction": null,
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Punisher Shield",
@@ -596,11 +637,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ129)",
       "source_quest": 129,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 129",
+      "race_restriction": null,
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Reverse Mabakusenko",
@@ -611,13 +657,16 @@
         "https://dbxv2.fandom.com/wiki/Reverse_Mabakusenko",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 300,
       "unlock_method": "Skill Shop",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "mechanics_notes": "Ki Blast Ultimate counter; enters a universal counter stance and retaliates with a multi-hit Ki Wave.",
       "source_quest_or_shop": "Skill Shop",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Rough Ranger",
@@ -627,11 +676,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ119 Ultimate Finish)",
       "source_quest": 119,
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 119 - Ultimate Finish",
+      "race_restriction": null,
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Shadow Crusher",
@@ -641,11 +695,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Training with Cooler (Final Form)",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Cooler (Final Form) mentor training",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Sudden Death Beam",
@@ -655,11 +713,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "TP Medal Shop / STP Medal Shop / Double Crystal Raid",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game + later STP/raid distribution"
     },
     {
       "name": "Super Afterimage",
@@ -672,7 +734,13 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Skill Shop (Conton City)",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_acquisition_cac_resource_fields"
     },
     {
       "name": "Super God Shock Flash",
@@ -682,11 +750,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Skill Shop",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -696,11 +768,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Hit mentor training",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -710,11 +786,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Hit mentor training",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -724,11 +804,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Training with Hit",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Hit mentor training",
+      "race_restriction": null,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Ultrasonic Blitz",
@@ -738,11 +822,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\"",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
+      "race_restriction": null,
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation"
     },
     {
       "name": "Absolute Zero",
@@ -770,7 +858,7 @@
       "usable_by_cac": true,
       "character_source": "Goku (Ultra Instinct -Sign-)",
       "dlc_requirement": "Conton City Vote Pack",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Ki Blast",
       "unlock_method": "Random Parallel Quest reward",
@@ -779,8 +867,8 @@
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -831,7 +919,7 @@
       "usable_by_cac": true,
       "character_source": "Vegito",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest reward",
@@ -840,8 +928,8 @@
       "skill_description": "Force Shield is a Evasive Other skill associated with Vegito.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Force_Shield"
@@ -855,7 +943,7 @@
       "usable_by_cac": true,
       "character_source": "Cell",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest reward",
@@ -864,8 +952,8 @@
       "skill_description": "Instant Rise is an Evasive skill that rapidly ascends to evade attacks.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Instant_Rise"
@@ -879,7 +967,7 @@
       "usable_by_cac": true,
       "character_source": "Majin Buu",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest reward",
@@ -888,8 +976,8 @@
       "skill_description": "Ki Explosion is a Evasive Other skill associated with Majin Buu.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ki_Explosion"
@@ -902,7 +990,7 @@
       "usable_by_cac": true,
       "character_source": "Pan",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest reward",
@@ -911,8 +999,8 @@
       "skill_description": "Maiden Burst is a Evasive Other skill associated with Pan.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Maiden_Burst"
