@@ -1615,8 +1615,8 @@
       "skill_description": "Dark Inscription is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "cast_user_confirmed_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -1907,8 +1907,8 @@
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "cast_user_confirmed_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -3759,8 +3759,8 @@
       "skill_description": "Burst Blitz is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "goku_mini_user_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -3916,8 +3916,8 @@
       "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "goku_mini_user_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -4614,8 +4614,8 @@
       "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "goku_mini_user_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -4842,8 +4842,8 @@
       "skill_description": "Chaotic Time Impact is a Ki Blast Ultimate Attack used by Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest and its reward data marks the skill as an Ultimate Finish reward.",
       "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "research_status": "cast_user_confirmed_cac_unresolved",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
