@@ -2088,3 +2088,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Added/confirmed skills for PQ 101, 104-105, 109-117, 119-120; retained empty skill arrays where the normalized source layer does not establish a skill (PQ 102-103, 106-108, 118).
 - Added the current all-186 Steam reference to every PQ 101-120 record.
 - Data commit: `c6da4d9c37dd8436491d7ba226c2930ee69f048e`.
+
+
+## 2026-09-19 — PQ 121-142 skill-reward provenance pass
+
+- Reconciled canonical PQ 121-142 skill relationships against the repository's partially verified reward-normalization layer and the current all-186 PQ reference. citeturn0search3turn0search2
+- Added/confirmed skill rewards for PQ 122-142; PQ 121 remains without a normalized skill reward because its current reward list contains clothing and a Super Soul only. The normalization layer explicitly preserves unresolved attribution rather than inventing drops.
+- Added the all-186 Steam source to every PQ 121-142 record.
+- Data commit: `ab2907fbaefa5500747dba58fdec8e861cbe615f`.
