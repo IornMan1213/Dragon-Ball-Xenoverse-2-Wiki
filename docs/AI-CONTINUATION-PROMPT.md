@@ -573,3 +573,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - CI: no pull-request workflow runs returned for the latest coverage commit; validators were not weakened.
 - PQ state: 176 records, 0 missing unlock_condition fields, 0 missing individual source arrays.
 - Exact next task: audit the remaining 18 indexed skill records, prioritizing CaC/race restrictions, acquisition routes, resource costs, and DLC/version provenance.
+
+
+### 2026-09-19 cycle update — Indexed skill completion pass
+- Workstream: P1 canonical skill audit.
+- Audited all 18 records that remained indexed after the canonical deduplication and Evasive audit: Destructo-Disc, Emperor's Blast, Final Flash (Super), Galick Gun, Kamehameha, Masenko, Afterimage Strike, Dancing Parapara, Energy Charge, Energy Release, Instant Charge, Rise to Action, Rising Rage, Solar Flare, Spirit Boost, Time Bullet, Wall of Defense, and Final Kamehameha.
+- Updated docs/data/skills.json with CaC availability, acquisition route, source location, Ki cost, and core descriptive mechanics where current evidence supported them. Character-only records were explicitly kept non-CaC.
+- The live skill census is now 283 unique records with no records left at `indexed` status; the reconciled records remain `partially_verified` where exact reward-slot probabilities or version-sensitive details remain unresolved.
+- Updated docs/COVERAGE-AUDIT.md. Commit: 8f82dd22a7e0d43f4186da95295807b1fd8feedd (skills), e17130e2f663ee18b59bc755d6e2f6a046cab3cf (coverage).
+- Tooling limitation: creation of a new skill-batch-48.json failed twice because the GitHub create-file wrapper returned HTTP 422 requiring a SHA for a new file. No historical batch was overwritten to bypass this.
+- CI: no new actionable workflow evidence was exposed; validators were not weakened.
+- Exact next task: recompute the live skill census, identify the highest-impact partially_verified gaps, then continue P1 skill research into exact race/gender restrictions, DLC/version provenance, and unresolved reward/acquisition semantics before moving to QQ Bang expansion.
