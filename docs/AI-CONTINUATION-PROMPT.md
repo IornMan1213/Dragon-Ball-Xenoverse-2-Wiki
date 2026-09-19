@@ -1501,3 +1501,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `a220e491b5bbaa518ee2563488e05f304024d525`.
 - Audit commit: `fa71be06469465a883c4951990871c9a982f6d77`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Rising Rage.
+
+
+### 2026-09-19 continuation — Shield Barrier through Ultimate Charge
+- Reconciled **Shield Barrier, Solar Flare, Spirit Boost, Super Guard, Surging Spirit, Time Bullet, Time Control, and Ultimate Charge**.
+- Shield Barrier, Solar Flare, Spirit Boost, Super Guard, Time Control, and Ultimate Charge are recorded as CaC-usable; explicit All CaC scope is retained/established where current evidence supports it. Surging Spirit retains its Ultra Instinct access condition. Time Bullet remains non-CaC.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `7e7994b3346dcb3202ba01658b657677d03b9d50`.
+- Audit commit: `b37b04960a8b0491e9c6d93b53d078e7090762b5`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Ultimate Charge.
