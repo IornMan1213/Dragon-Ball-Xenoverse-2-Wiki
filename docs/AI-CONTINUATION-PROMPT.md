@@ -2441,3 +2441,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 256bca15434275129a3166e62b6a8fe72a296afd.
 - Live nullable Super/Ultimate census: 152 total (113 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; leave null where the acquisition gate remains unestablished.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 7
+- Resolved `ultimate_finish_required=false` for **Steel Mirage** (PQ165).
+- Evidence: the live PQ guide lists Steel Mirage under PQ165's **Basic Reward** section, separate from the quest's Ultimate Finish conditions. citeturn1search0
+- Skills commit: 4f2f31c90e06e46afd2c6896106afc9cd82b43ba.
+- Live nullable Super/Ultimate census: 151 total (112 Super, 39 Ultimate).
+- Next task: continue with explicit Basic Reward candidates; keep nullable records unchanged where the acquisition gate is not established.
