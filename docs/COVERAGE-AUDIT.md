@@ -1572,3 +1572,16 @@ Reconciled **Lightning of Absolution, Majin Kamehameha, Mystic Flash, Prominence
 - Prominence Flash already had explicit All-CaC scope and was independently rechecked.
 - Exact drop conditions and Ultimate Finish requirements remain bounded where evidence is insufficient.
 - Live census: **283 total / 269 CaC-usable / 152 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — S.S. Deadly Bomber through Supernova
+
+Reconciled **S.S. Deadly Bomber, Sign of Awakening, Special Beam Cannon (Beast), Super Black Kamehameha Rosé, Super Gamma Blast, Super Kamehameha (SS4 DAIMA), Super Spirit Bomb, and Supernova**.
+
+- All eight CaC-usable records now carry explicit **All CaC races** scope based on Future Warrior/CaC availability evidence.
+- S.S. Deadly Bomber is a 400-Ki tracking Ki Blast Ultimate from PQ115; Sign of Awakening is a 300-Ki rush/beam Ultimate from PQ154.
+- Special Beam Cannon (Beast) is a PQ162 Ultimate; Super Black Kamehameha Rosé is the 500-Ki PQ109 Ultimate; Super Gamma Blast is a chargeable 300-Ki PQ158 Ultimate.
+- Super Kamehameha (SS4 DAIMA) retains its 400–500 Ki mechanic from PQ181, with the extra 100 Ki producing the boosted version.
+- Super Spirit Bomb and Supernova retain their Expert Mission acquisition records; explicit Future Warrior evidence supports their broad CaC scope.
+- Exact drop probabilities and Ultimate Finish requirements remain bounded where the reviewed evidence does not establish them.
+- Live census: **283 total / 269 CaC-usable / 146 CaC-usable with null race restriction**.
