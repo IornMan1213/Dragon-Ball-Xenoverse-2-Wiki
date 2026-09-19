@@ -1938,3 +1938,14 @@ Reviewed **Justice Drive, Neo Wolf Fang Fist, Power Impact, Powered Shell, Recoo
 - Added the maintained Future Warrior technique-list source as provenance for CaC scope.
 - Live skill census after this batch: **283 total / 269 CaC-usable / 12 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Soaring Rush through Chaotic Time Impact race-restriction census
+
+Reviewed **Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, Blaster Stream, Burning Blast, Chain Destructo-Disc Barrage, and Chaotic Time Impact**.
+
+- Added explicit **All CaC races** scope to all eight records. Current evidence does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition, classification, cost, mechanics, and unresolved research fields; Chaotic Time Impact's documented PQ184 Ultimate Finish reward context remains intact.
+- Added the maintained Future Warrior technique-list source as provenance for CaC scope.
+- Live skill census after this batch: **283 total / 269 CaC-usable / 4 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
