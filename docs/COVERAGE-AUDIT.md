@@ -372,3 +372,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - **PQ71–80:** reviewed and normalized; several exact-looking prerequisites were removed where the consulted evidence did not directly establish them. The records now preserve uncertainty rather than presenting inferred sequential unlocks as fact.
 - **PQ81–90:** reviewed against independent PQ objective/UF references. These sources establish the quests and their objectives, but did not establish reliable individual unlock triggers, so the records use bounded uncertainty wording.
 - The numeric unlock-field gap remains **72 records without any explicit `unlock_condition` field**, but that number is **not equivalent to 72 unresolved exact unlock routes**; populated fields must be classified by evidence quality in future work.
+
+## 2026-09-19 PQ91–100 unlock research milestone
+
+- **PQ91–97:** verified as a sequential PQ chain (each quest follows the preceding PQ) against an independent Japanese PQ reference and corroborating community reports.
+- **PQ98:** preserved as a special progression gate: completion of the base-game story, all five Time Eggs, and the Unknown History story are required by the consulted reference.
+- **PQ99–100:** verified as the continuation of the PQ chain after PQ98.
+- This batch reduces the numeric count of records with no `unlock_condition` field; exact evidence quality remains separately tracked and must not be inferred from field presence alone.
