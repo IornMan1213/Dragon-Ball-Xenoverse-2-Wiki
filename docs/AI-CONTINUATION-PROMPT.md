@@ -743,3 +743,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `8425c7ed5804608fdbd38df7668d9495e94642a8`.
 - Coverage commit: `f594df1729fe0bbc4e95f7b8ecb46e552939720d`.
 - Continue the race census with the same strict evidence threshold, prioritizing explicit Future Warrior race/gender wording.
+
+
+### 2026-09-19 cycle update — race provenance hardening
+- Live race backlog: **189** CaC-usable records with `race_restriction` still unset.
+- Hardened provenance for the existing explicit race-restriction cohort by adding the dedicated Future Warrior technique reference to ten records; no new restrictions were inferred without explicit evidence. citeturn2search0
+- Skills commit: `7dad27d834189474438cae340de541b1ad1ca168`.
+- Coverage commit: `1f8b558bc012640a4517507251886894ff62f3c4`.
+- Next priority: continue mining the Future Warrior reference for any explicit race/gender/transform restrictions that map to the remaining 189 records; otherwise preserve null rather than guessing.
