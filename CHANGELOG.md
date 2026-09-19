@@ -1,3 +1,10 @@
+## September 2026 — PQ81–90 Provenance and Difficulty Pass
+- Added record-level provenance to **PQ81–PQ90** with 2026-09-19 verification dates.
+- Corrected the missing difficulty metadata for this block to the documented **7-star** tier.
+- Cross-checked objectives and basic rewards against independent PQ/Ultimate Finish references.
+- Reviewed unlock evidence conservatively; retained unresolved individual triggers where the sources do not establish a unique prerequisite.
+- PQ provenance gap reduced from 46 to **36 of 176 records** without individual `sources` arrays.
+
 ## September 2026 — PQ71–80 Provenance Pass
 - Added record-level provenance to **PQ71–PQ80** with 2026-09-19 verification dates.
 - Cross-checked 7-star objectives and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish references.
