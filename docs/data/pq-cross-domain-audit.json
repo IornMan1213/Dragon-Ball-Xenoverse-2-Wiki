@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Audit relationship schema/documentation consumers and verify all current relationship artifacts are internally consistent before the cross-domain layer is considered stable.",
+  "next_completion_gate": "Run a final cross-domain reconciliation against the live relationship artifacts and handoff, then record the stable baseline and leave only evidence-driven expansion work in the queue.",
   "current_counts": {
     "skill": 236,
     "super_soul": 137,
@@ -170,5 +170,58 @@
       },
       "status": "clean"
     }
+  },
+  "schema_documentation_consumer_review": {
+    "date": "2026-09-19",
+    "scope": "relationship schema/documentation consumer integrity",
+    "schema_versions": {
+      "forward": "1.0",
+      "reverse": "1.0",
+      "reconciliation": "1.0",
+      "audit": "1.0",
+      "status": "1.0"
+    },
+    "counts": {
+      "forward": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 88,
+        "farming": 7
+      },
+      "audit": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 88,
+        "farming": 7
+      },
+      "status": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 88,
+        "farming": 7
+      },
+      "reverse": {
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
+        "character": 247,
+        "dlc": 88,
+        "farming": 7
+      }
+    },
+    "alignment": true,
+    "reverse_character_alias_count": 5,
+    "notes": [
+      "All five relationship artifacts use schema_version 1.0.",
+      "Forward, reverse, audit, and status counts agree at 840 total edges.",
+      "Reverse index generated_from intentionally names six normalized reward-map files; the canonical 015-020 through 163-186 batch files are separate evidence and are not incorrectly substituted for the partial normalized maps.",
+      "No schema migration or consumer-facing field change is required in this tranche."
+    ]
   }
 }
