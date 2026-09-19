@@ -2664,3 +2664,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `ea9f5e9d0386a40baa0b4447d62e542b0cb464e9`.
 - Coverage audit commit: `462206e7d9666566542594a00ee6788257898573`.
 - Exact next task: finish the bounded evidence pass on the remaining nullable Ultimate records; do not infer UF gating from RNG or general PQ association.
+
+
+### 2026-09-19 continuation — final nullable Ultimate resolution
+- Resolved **Super Gamma Blast (PQ158)** as `ultimate_finish_required=false` from explicit Basic Reward placement in the maintained PQ guide. citeturn1search0
+- Community reports indicate RNG farming but do not establish UF-only gating. citeturn1reddit13
+- Live nullable Super/Ultimate census: **24 total — 24 Super / 0 Ultimate**.
+- Skills commit: `85b4e9a63a2de387e28076220df437a94489b1b9`.
+- Coverage audit commit: `5bfc59288dafbcee0e3119ea8c8ef693582604b6`.
+- Exact next task: with the UF nullable census at zero, begin the next bounded data-quality pass rather than making unsupported UF inferences. Prioritize remaining nulls in other skill fields and cross-file relationship integrity.
