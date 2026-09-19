@@ -583,7 +583,8 @@
       5
     ],
     "I'm neither Kami nor Piccolo...": [
-      21
+      21,
+      30
     ],
     "Time to dismantle you androids!": [
       40
@@ -948,6 +949,33 @@
     ],
     "I'll use this power to protect everyone!": [
       186
+    ],
+    "I am the universe's strongest!": [
+      21
+    ],
+    "I'll kill all of you!!": [
+      22
+    ],
+    "I got back my youth and vigor!": [
+      26
+    ],
+    "Drop dead!!!": [
+      28
+    ],
+    "Goku the legendary Super Saiyan!": [
+      28
+    ],
+    "I'll use all my strength to kill you.": [
+      29
+    ],
+    "I wanted to kill you with my own hands.": [
+      35
+    ],
+    "I am...Super Vegeta!!": [
+      36
+    ],
+    "This fight...is truly pointless...": [
+      38
     ]
   },
   "clothing": {
@@ -970,10 +998,12 @@
       8
     ],
     "Hercule's Clothes": [
-      21
+      21,
+      30
     ],
     "Tien Shinhan's Gi": [
-      21
+      21,
+      30
     ],
     "Goku's Turtle Hermit Gi (No Character)": [
       31
@@ -1172,6 +1202,33 @@
     ],
     "Fu Set 2": [
       186
+    ],
+    "Battle Suit (Krillin)": [
+      21
+    ],
+    "Battle Suit (Frieza Saga Vegeta)": [
+      22
+    ],
+    "Goku Wig": [
+      25
+    ],
+    "Dore's Scouter": [
+      27
+    ],
+    "Battle Suit (Gohan)": [
+      28
+    ],
+    "Android 18's Clothes (Vest & Pants)": [
+      29
+    ],
+    "Yamcha's Sword": [
+      36
+    ],
+    "Cell's Suit (Perfect)": [
+      37
+    ],
+    "Perfect Cell's Wings": [
+      45
     ]
   },
   "accessories": {
@@ -1293,7 +1350,8 @@
     "The index is designed to be regenerated after future source verification rather than hand-edited indefinitely.",
     "DLC reverse entries now cover every explicit pq_requires_dlc edge in the current forward relationship layer.",
     "Farming reverse entries reflect explicit repeatable-route flags only; they do not assert guaranteed reward drops.",
-    "Character reverse index remains empty until explicit character-feature edges are established; enemy appearance is not converted into reward attribution."
+    "Character reverse index remains empty until explicit character-feature edges are established; enemy appearance is not converted into reward attribution.",
+    "2026-09-19: Added 24 canonical typed reward entries missing from the forward relationship layer (10 Super Souls, 14 equipment). Equipment subtype placement in this reverse index follows the canonical batch reward naming; source fields remain authoritative for exact subtype where provided."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -1839,8 +1897,8 @@
   },
   "current_relationship_counts": {
     "skill": 229,
-    "super_soul": 125,
-    "equipment": 39,
+    "super_soul": 135,
+    "equipment": 53,
     "character": 247,
     "dlc": 88,
     "farming": 7
