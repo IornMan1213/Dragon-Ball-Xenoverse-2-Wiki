@@ -1013,3 +1013,14 @@ A live evidence pass found several field-level classification errors in the next
 These are classification/provenance corrections, not race-scope inferences. The four records remain without a `race_restriction` value because the reviewed evidence does not explicitly establish a CaC race/gender restriction or unrestricted race scope. Final Flash (SS3 DAIMA), Final Kamehameha, and Full Power Destruction remain queued for a separate explicit-CaC evidence pass.
 
 Sources reviewed include the dedicated Xenoverse 2 skill pages and Future Warrior technique index; those sources support the Future Warrior acquisition/use statements and corrected skill classes above. 
+
+
+## 2026-09-19 — explicit CaC-scope review: Final Flash (SS3 DAIMA), Final Kamehameha, Full Power Destruction
+
+Reviewed the three queued Ultimate Ki Blast records against their dedicated current-version Xenoverse 2 pages. All three have their identity, classification, costs, and acquisition/user data documented, but the reviewed pages do not provide an explicit CaC race/gender/form scope statement. Accordingly, **no `race_restriction` value was inferred or changed**.
+
+- **Final Flash (SS3 DAIMA):** PQ181; 400+ Ki; SS3 Vegeta (DAIMA); Ki Blast Ultimate. The page documents the attack and acquisition but does not explicitly establish CaC learnability.
+- **Final Kamehameha:** TP Medal Shop / PQ91 / Double Crystal Raids; 500 Ki; Vegito/SSGSS Vegito users; Ki Blast Ultimate. User presets do not establish CaC race scope.
+- **Full Power Destruction:** PQ177; 500 Ki; Jiren (Full Power) Ultra Supervillain / Jiren Customize Partner; Ki Blast Ultimate. Character/partner availability does not establish CaC race scope.
+
+The canonical records now explicitly document this evidence boundary in their research notes and remain queued for stronger explicit CaC-scope evidence rather than speculative classification. 
