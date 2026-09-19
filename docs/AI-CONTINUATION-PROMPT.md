@@ -685,3 +685,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `9db1be415b06fbfde8288f0eb8e47548477b30f6`.
 - Coverage commit: `9ef664e50f208c1a3e8b955ee10f199e3ef40806`.
 - Remaining null-CaC cohort is now **11 records**. Continue explicit evidence research before moving to the race-restriction census.
+
+
+### 2026-09-19 cycle update — CaC build evidence correction
+- Corrected **God of Destruction's Plaything** to `usable_by_cac: true` after finding explicit custom-character build evidence. citeturn0reddit42
+- Skills commit: `c4c98ee41354038d4e0701c8d82a0f18c52b0df3`.
+- Coverage commit: `a18eed0e500cf2c18818743a5a80d02daab5b3fa`.
+- Remaining null-CaC cohort is now **10 records**. Continue explicit evidence research; do not infer eligibility from PQ rewards alone.
