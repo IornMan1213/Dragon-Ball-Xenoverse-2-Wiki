@@ -1667,3 +1667,16 @@ Reviewed **Force Shield, Instant Rise, Maiden Burst, Mighty Explosive Wave, Psyc
 - Mighty Explosive Wave remains the Super Skill version of Explosive Wave and is used by the Future Warrior; the Jiren (Full Power) Evasive is a separate variation and is not treated as a CaC restriction. citeturn0search7
 - No character-only association was converted into a race restriction.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Steel Mirage through Blaster Ball
+
+Reviewed **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, and Blaster Ball**.
+
+- Current Future Warrior evidence lists these techniques among skills usable by the Future Warrior/CaC, while the reviewed sources do not establish a CaC race/gender/form restriction. The null race field is therefore preserved intentionally. citeturn0search0
+- Steel Mirage is confirmed as a **100-Ki Ki Blast Super** from PQ165; the previous Evasive/Other description was corrected in the live record before this census pass. citeturn0search3
+- Final Pose and Mach Dash remain **200-Stamina Power Up Evasives**; current Evasive documentation lists both as CaC-available. citeturn0search2
+- Spirit Explosion remains a **200-Stamina Strike Evasive** from PQ25 and is explicitly obtainable for CaCs. citeturn0search6
+- Atomic Blast remains a **100-Ki Ki Blast Super** from PQ87; Blaster Ball retains its **100–500 Ki** variable-cost Ki Blast Super behavior.
+- No character association was converted into a race restriction.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
