@@ -559,3 +559,12 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Verified CaC availability, acquisition route, stamina cost, current naming, and descriptive mechanics against the current Evasive Skill reference and individual skill references.
 - Updated `docs/data/skills.json` and the existing `docs/data/skill-research-batches/skill-batch-45.json`. Records remain `partially_verified` because exact reward-slot/drop gating remains unresolved.
 - No unsupported drop percentages were added. Canonical skill population remains 283 unique records.
+
+
+## 2026-09-19 Skill indexed-record completion pass
+
+- Audited all 18 records that remained `indexed` after canonical skill deduplication and the Evasive batch.
+- Reconciled CaC availability, acquisition route, source location, Ki cost, and core descriptive mechanics for Destructo-Disc, Emperor's Blast, Final Flash (Super), Galick Gun, Kamehameha, Masenko, Afterimage Strike, Dancing Parapara, Energy Charge, Energy Release, Instant Charge, Rise to Action, Rising Rage, Solar Flare, Spirit Boost, Time Bullet, Wall of Defense, and Final Kamehameha.
+- Character-only records were explicitly retained as non-CaC rather than inferred from category membership. Exact reward-slot probabilities and disputed/version-sensitive details remain unresolved where evidence is insufficient.
+- `docs/data/skills.json` updated in commit `8f82dd22a7e0d43f4186da95295807b1fd8feedd`.
+- The connector could not create a new `skill-batch-48.json` because its create-file wrapper returned a GitHub 422 requiring a SHA even though the target path was new. No existing historical batch was overwritten to work around this tooling limitation.
