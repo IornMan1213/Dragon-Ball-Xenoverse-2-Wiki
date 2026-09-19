@@ -1277,3 +1277,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important correction: Candy Beam (Super) is **200 Ki**, not 100 Ki. Destruction's Concerto: Comet is **100–200 Ki**.
 - Data commit: `74c525a9c7be92a8eee1bdc43f30dfc5493a09fe`; audit commit: `44f0416aed8eadc97e37d065351339898b737068`.
 - Next continuation should proceed from the records immediately following Destructo-Disc in dataset order.
+
+
+### 2026-09-19 continuation — Dimension/Divine/Emperor cohort
+- Reconciled Dimension Cannon, Divine Kamehameha, Divine Spear, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, and Emperor's Cannon.
+- Important correction: **Emperor's Cannon is PQ184**, not PQ183. Dust Attack's class remains explicitly flagged for direct reconciliation because the broad skill index places it under Other.
+- Data commit: `2ecc94006aeb914921bcd817289946daf6e8569b`; audit commit: `58c38ff79e78268f4b6f5b238c9cf34b8fd800cb`.
+- Next continuation should proceed from the records immediately following Emperor's Cannon in dataset order.
