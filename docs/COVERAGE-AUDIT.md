@@ -768,3 +768,8 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 ### Correction — Pure Majin batch representation check (2026-09-19)
 - Live `docs/data/skills.json` contains four of the six techniques discussed in the prior audit entry: **Angry Shout, Buu Buu Ball, Vanishing Ball, and Teleporting Vanishing Ball**. Those four are now explicitly marked `Majin (Pure Majin form)`.
 - **Pearl Flash** and **Super Vanishing Ball** are documented by the external Future Warrior reference as Pure Majin techniques, but they are **not currently represented as records in `skills.json`**, so no phantom records were created. They remain data-model/content backlog items rather than falsely being counted as reconciled records. citeturn0search0
+
+
+## 2026-09-19 skill race-restriction evidence boundary
+
+The current race-restriction pass was rechecked against the accessible Future Warrior technique reference. That source explicitly distinguishes skills restricted to a race/gender/form from ordinary character-origin skills, and directly documents restrictions including Saiyan Spirit (Saiyan), Explosive Buu Buu Punch (Majin), Zigzag Express (male Majin), Quick Sleep (Majin), Ill Bomber (Majin), Shining Slash/Burning Slash (Human or Saiyan), Candy Beam/Buu Buu Ball (Majin), Evil Flight Strike (Namekian or Majin), and Namek Finger (Namekian). Existing canonical records already capture these restrictions, so no duplicate or speculative edits were made in this cycle. The remaining null-race cohort is therefore not safely reducible merely from character ownership or from absence of a restriction sentence. Future batches must require explicit Future Warrior race/gender/form wording before replacing null.
