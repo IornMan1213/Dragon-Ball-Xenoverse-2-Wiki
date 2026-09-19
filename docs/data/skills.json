@@ -2990,15 +2990,16 @@
         "https://dbxv2.fandom.com/wiki/Afterimage"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_external_evidence",
+      "research_status": "reconciled_current_version_evidence",
       "unlock_method": "Starting move / initial \"Mixed\" choice",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Starting move / initial 'Mixed' choice",
-      "mechanics": "Other Super evasive/afterimage movement skill.",
-      "last_verified": "2026-09-19"
+      "mechanics": "Teleport/evasion movement: user leaves an afterimage and can redirect during the move.",
+      "last_verified": "2026-09-19",
+      "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained."
     },
     {
       "name": "Afterimage Strike",
@@ -3014,9 +3015,9 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 81",
-      "mechanics_notes": "Other Super with afterimage/evasive properties; the move can be interrupted or followed by another attack during/after use.",
+      "mechanics_notes": "Confirmed as Other Super from PQ81 and usable by all CaC races. It creates an afterimage while moving and can transition into follow-up attacks.",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_current_version_evidence",
       "race_restriction": "All CaC races"
     },
     {
@@ -3035,8 +3036,10 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "PQ131 — Legendary Finish",
       "dlc_requirement": "Extra Pack 4",
-      "research_status": "reconciled_future_warrior_evidence",
-      "last_verified": "2026-09-19"
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
+      "stamina_cost": 100,
+      "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position."
     },
     {
       "name": "Burst Charge",
@@ -3053,13 +3056,14 @@
       "ki_cost": 0,
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
-      "research_status": "reconciled_cac_race_provenance",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": true,
       "source_quest": 134,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Extra Pack-era DLC"
+      "dlc_requirement": "Extra Pack-era DLC",
+      "mechanics_notes": "Confirmed as Other Super from PQ134 and usable by all CaC races. It starts charging extremely quickly and slows over time, making short bursts its intended use."
     },
     {
       "name": "Charged Ki Wave",
@@ -3078,7 +3082,8 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_cac_race_provenance"
+      "research_status": "reconciled_current_version_evidence",
+      "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki."
     },
     {
       "name": "Dancing Parapara",
@@ -3092,11 +3097,11 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Complete Pan's Initiation Test / train under Pan",
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Pan mentor training",
-      "mechanics_notes": "Dance-based Super that rapidly restores the user's stamina while active.",
+      "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence.",
       "last_verified": "2026-09-19"
     },
     {
@@ -3109,12 +3114,12 @@
       ],
       "ki_cost": 0,
       "unlock_method": "First Advancement Test - Easy Class / CaC playstyle reward",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Advancement Test",
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
-      "mechanics_notes": "Slow Ki-charge Super; the repository source identifies it as a CaC skill.",
+      "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill.",
       "race_restriction": "All CaC races"
     },
     {
@@ -3129,10 +3134,10 @@
       "ki_cost": 0,
       "unlock_method": "Character-exclusive / non-CaC skill",
       "usable_by_cac": false,
-      "research_status": "reconciled_indexed_skill_fields",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "source_quest_or_shop": "Character skill",
-      "mechanics_notes": "Retained as non-CaC based on the character-skill classification.",
+      "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs.",
       "last_verified": "2026-09-19"
     },
     {
