@@ -1690,3 +1690,14 @@ Reviewed **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehame
 - The null race field is therefore preserved intentionally rather than inferring restrictions from the source character.
 - No unlock, cost, class, or mechanics correction was made solely from character ownership.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Destruction's Concerto: Starfall through Eraser Bomb
+
+Reviewed **Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, and Eraser Bomb**.
+
+- Future Warrior references explicitly list Destruction's Concerto: Starfall as Vados's Super Skill and list the broader CaC technique set; the reviewed evidence does not establish a CaC race/gender/form restriction for this cohort.
+- The null race field is therefore preserved intentionally rather than inferred from the source character.
+- Current reference material also places these skills in the expected Super/Ultimate/Other skill families; no unsupported class or unlock correction was made during this pass.
+- Emperor's Cannon is a current Future Saga Chapter 3 skill, while Eraser Bomb is associated with Broly (Restrained); character association alone was not treated as a CaC race restriction.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
