@@ -51,13 +51,19 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_(Evolved)",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
       ],
-      "ultimate_finish_required": null,
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "ultimate_finish_required": false,
+      "notes": "Saiyan CaC-only Awoken Skill. Current references identify it as the Saiyan transformation route; it is not a cast-exclusive form.",
+      "unlock_method": "Vegeta's Capsule Corporation Time Rift; complete the required Super Saiyan/Super Vegeta progression and obtain the skill from Vegeta.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Power Pole Pro",
@@ -137,13 +143,20 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_(Evolved)",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
       ],
-      "ultimate_finish_required": null,
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "ultimate_finish_required": false,
+      "notes": "Saiyan CaC-only Awoken Skill. Whis can award it to any race that meets the friendship/level requirement, but only Saiyan CaCs can equip/use it.",
+      "unlock_method": "Reach level 90 and max friendship with Whis; Whis awards the skill.",
+      "ki_cost": 500,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -151,13 +164,20 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "indexed",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_(Evolved)",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
       ],
-      "ultimate_finish_required": null,
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "ultimate_finish_required": false,
+      "notes": "Saiyan CaC-only Awoken Skill. The form is gated behind SSGSS; Whis can award it to any race that meets the requirement, but only Saiyan CaCs can equip/use it.",
+      "unlock_method": "Reach level 95, max friendship with Vegeta, and already possess Super Saiyan God Super Saiyan; Whis awards the skill.",
+      "ki_cost": 500,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super Vegeta",
