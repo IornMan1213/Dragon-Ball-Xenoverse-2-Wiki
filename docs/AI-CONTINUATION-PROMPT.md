@@ -560,3 +560,16 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added `docs/data/skill-research-batches/skill-batch-44.json` and updated canonical skills, coverage gaps, and changelog.
 - Source baseline: consolidated Awoken research table plus individual Awoken references. Meta/build rankings were intentionally excluded.
 - Next exact task: finish the remaining Awoken/version-sensitive audit by reconciling disputed values and documenting version provenance, then proceed to QQ Bang expansion.
+
+
+### 2026-09-19 cycle update — Indexed Evasive skill audit batch 45
+- Workstream: P1 canonical skill audit.
+- Live skill census: 283 unique records; 18 indexed, 247 partially_verified, 18 verified.
+- Audited eight indexed Evasives: Absolute Zero, Dragon Burn, Explosive Wave, Punisher Guard, Final Pose, Mach Dash, Angry Shout, Energy Barrier.
+- Updated docs/data/skills.json, docs/data/skill-research-batches/skill-batch-45.json, and docs/COVERAGE-AUDIT.md.
+- Verified CaC availability, acquisition route, stamina cost, naming, and descriptive mechanics. Exact reward-slot/drop gating remains unresolved and no probabilities were invented.
+- Commits: e2e163920ce684a286515c6b06556c5ecea57554; b6bc84f95b8f540d1075c8290d5b4e59fc00a532; a654c7bad4faa66b3b81378b03eb11b79ac3e371.
+- Validation: modified JSON parsed; no accidental ChatGPT/UI citation artifacts found.
+- CI: no pull-request workflow runs returned for the latest coverage commit; validators were not weakened.
+- PQ state: 176 records, 0 missing unlock_condition fields, 0 missing individual source arrays.
+- Exact next task: audit the remaining 18 indexed skill records, prioritizing CaC/race restrictions, acquisition routes, resource costs, and DLC/version provenance.
