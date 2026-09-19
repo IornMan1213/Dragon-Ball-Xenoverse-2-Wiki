@@ -446,15 +446,16 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_external_evidence",
       "ki_cost": 100,
       "unlock_method": "Wish - \"I want a new Super Attack!\"",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Shenron wish",
-      "race_restriction": null,
-      "dlc_requirement": "Base Game"
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "mechanics": "Ki Blast Super: brief barrier grants protection while active, then fires a single-hit Ki wave."
     },
     {
       "name": "Burst Rush",
@@ -862,18 +863,20 @@
       "stamina_cost": 300,
       "damage_type": "Ki Blast",
       "unlock_method": "Random Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 151",
+      "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "ultimate_finish_required": null,
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_external_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "source_quest": 151
+      "source_quest": 151,
+      "race_restriction": "All CaC races",
+      "mechanics": "Ki Blast Evasive; launches a 7-hit wave and costs 300 Stamina."
     },
     {
       "name": "Dragon Burn",
@@ -1756,11 +1759,16 @@
         "https://dragonball.fandom.com/wiki/Perfected_Ultra_Instinct"
       ],
       "ki_cost": 200,
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": null,
-      "dlc_requirement": "Free Update 11 / Ultra Instinct update",
-      "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)"
+      "dlc_requirement": "Free Update 1.14-era distribution / TP Medal Shop",
+      "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "source_quest_or_shop": "TP Medal Shop",
+      "mechanics": "Moving Kamehameha Super with directional movement during charge; additional input can fire early; 15-hit beam.",
+      "research_status": "reconciled_external_evidence"
     },
     {
       "name": "Divine Spear",
@@ -2394,7 +2402,14 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Cell (Perfect) mentor training",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Training with Cell (Perfect)",
+      "mechanics": "Slow, tracking Ki Blast Super; charged finger shot.",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_external_evidence"
     },
     {
       "name": "Photon Swipe",
@@ -2592,7 +2607,14 @@
       ],
       "ki_cost": 100,
       "unlock_method": "Goku mentor training",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Training with Goku",
+      "mechanics": "Ki Blast Super learned from Goku mentor training; charge/release projectile.",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_external_evidence"
     },
     {
       "name": "Spirit Pulse",
@@ -2789,9 +2811,15 @@
         "https://dbxv2.fandom.com/wiki/Afterimage"
       ],
       "ki_cost": 100,
-      "research_status": "partially_enriched",
+      "research_status": "reconciled_external_evidence",
       "unlock_method": "Starting move / initial \"Mixed\" choice",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Starting move / initial 'Mixed' choice",
+      "mechanics": "Other Super evasive/afterimage movement skill.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Afterimage Strike",
@@ -2992,7 +3020,14 @@
       ],
       "ki_cost": 0,
       "unlock_method": "Goku mentor training, Lesson 1",
-      "ultimate_finish_required": null
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Goku mentor training, Lesson 1",
+      "mechanics": "Teleports the user to the opponent; uses no Ki or Stamina.",
+      "last_verified": "2026-09-19",
+      "research_status": "reconciled_external_evidence"
     },
     {
       "name": "Kai Kai",
@@ -3177,8 +3212,14 @@
       "ki_cost": 100,
       "description": " Base cost corrected to 100 Ki; holding the skill drains additional Ki.",
       "unlock_method": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
-      "research_status": "partially_enriched",
-      "ultimate_finish_required": null
+      "research_status": "reconciled_external_evidence",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
+      "mechanics": "Ki-draining barrier that grants immunity to damage while held.",
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Surging Spirit",
