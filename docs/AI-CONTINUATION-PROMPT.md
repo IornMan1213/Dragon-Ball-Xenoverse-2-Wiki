@@ -1069,3 +1069,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Refreshed all four verification dates to 2026-09-19.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Heat Wave; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — status/paralysis provenance boundary
+- Reviewed Ill Rain, Paralysis, Paralyze Beam, and Pendulum Bullet.
+- Preserved null race restrictions because the reviewed evidence does not explicitly establish CaC race/gender/form scope.
+- Added or normalized dedicated current-version provenance URLs for all four.
+- Refreshed all four verification dates to 2026-09-19.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Pendulum Bullet; inspect canonical ordering before selecting the next batch.
