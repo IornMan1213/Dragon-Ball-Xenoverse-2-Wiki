@@ -2272,3 +2272,10 @@ Live nullable Super/Ultimate census after this batch: **171 records** — 132 Su
 Resolved `ultimate_finish_required: false` for **Change The Future**, **Counter Burst**, and **God Breaker**. Current reward documentation places each skill in the PQ's **Basic Reward** list: PQ43 for Change The Future, PQ75 for Counter Burst, and PQ44 for God Breaker. The documented Ultimate Finish conditions are separate, so these skills are not treated as UF-only. citeturn1search4turn1search0turn1search1
 
 Live nullable Super/Ultimate census after this batch: **168 records** — 129 Super and 39 Ultimate.
+
+
+## 2026-09-19 — basic-reward PQ batch 2
+
+Resolved `ultimate_finish_required: false` for **Side Bridge** (PQ39) and **Burning Attack** (PQ41). Current PQ reward documentation places both skills in the Basic Reward lists, separate from each quest's Ultimate Finish conditions. citeturn1search1turn1search3
+
+Live nullable Super/Ultimate census after this batch: **166 records** — 127 Super and 39 Ultimate.
