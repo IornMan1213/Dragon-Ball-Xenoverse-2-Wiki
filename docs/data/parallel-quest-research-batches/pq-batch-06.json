@@ -16,7 +16,12 @@
       "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
       "https://dbxenoverse.fandom.com/wiki/Justice_Finishing_Pose",
       "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142"
-    ]
+    ],
+    "record_level_source_pass": {
+      "status": "completed",
+      "scope": "PQ51-PQ60",
+      "note": "Added record-level provenance to all ten records and independently cross-checked the 5-star to 6-star transition, objectives, and basic rewards. PQ52's documented unlock behavior is preserved because multiple long-running guide sources report completion of PQ53 as the trigger despite the apparent numbering reversal. PQ54/PQ55 community unlock evidence remains explicitly documented where applicable. Exact reward-slot/drop percentages remain unresolved."
+    }
   },
   "records": [
     {
@@ -51,7 +56,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142"
+      ]
     },
     {
       "number": 52,
@@ -84,7 +96,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142"
+      ]
     },
     {
       "number": 53,
@@ -121,8 +140,11 @@
       "last_verified": "2026-09-19",
       "unlock_verification": "verified_npc_board_trigger",
       "sources": [
-        "https://dbxenoverse.fandom.com/wiki/Justice_Finishing_Pose",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+        "https://dbxenoverse.fandom.com/wiki/Justice_Finishing_Pose"
       ],
       "notes": "The unlock source identifies the Great Saiyaman pair on the floating Resort Island as the trigger. The maintained PQ guide independently documents PQ53 and its rewards/objectives."
     },
@@ -163,8 +185,11 @@
       "last_verified": "2026-09-19",
       "unlock_verification": "partially_verified_conflicting_community_evidence",
       "sources": [
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142"
       ],
       "notes": "Community evidence is not fully consistent: one GameFAQs reply says the Resort District blue-exclamation PQ unlocked PQ54, while the original poster later reports that beating PQ52 unlocked PQ54. The latter is the direct completion-state report used here; the conflicting report is preserved rather than hidden."
     },
@@ -202,8 +227,11 @@
       "last_verified": "2026-09-19",
       "unlock_verification": "verified_prerequisite_pq54",
       "sources": [
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142"
       ],
       "notes": "The GameFAQs discussion reports that completing PQ54 unlocked PQ55. The maintained PQ guide independently confirms PQ54 and PQ55 as consecutive base-game quests."
     },
@@ -239,7 +267,14 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_unlock_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+        "https://www.youtube.com/watch?v=XlANmG7tF2s"
+      ]
     },
     {
       "number": 57,
@@ -275,7 +310,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 58,
@@ -310,7 +351,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 59,
@@ -350,7 +397,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     },
     {
       "number": 60,
@@ -385,7 +438,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ]
     }
   ]
 }
