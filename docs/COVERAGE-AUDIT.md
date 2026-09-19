@@ -843,3 +843,7 @@ Added The Codex Future Warrior reference to the existing `Super Spirit Bomb` rec
 ## 2026-09-19 — null-race batch: counter/time-skip skills
 
 Reviewed `Rough Ranger`, `Shadow Crusher`, `Sudden Death Beam`, `Super Afterimage`, `Super God Shock Flash`, `Time Skip/Back Breaker`, `Time Skip/Flash Skewer`, `Time Skip/Jump Spike`, `Ultrasonic Blitz`, `Absolute Zero`, `Dragon Burn`, and `Explosive Wave`. Existing Future Warrior/dedicated technique references confirm these as usable techniques, but the checked evidence does not explicitly establish a race/gender restriction or unrestricted-race statement. No classifications were changed.
+
+## 2026-09-19 — null-race batch: defensive/evasive skills
+
+Reviewed `Force Shield`, `Instant Rise`, `Ki Explosion`, `Maiden Burst`, `Mighty Explosive Wave`, `Psychic Move`, `Punisher Guard`, `Side Bridge`, `Spread Shot Retreat`, `Steel Mirage`, `Final Pose`, and `Mach Dash`. The checked Future Warrior index and dedicated skill pages establish technique identity and Future Warrior availability. A secondary Future Warrior profile groups Force Shield and several other abilities under an “All Races” section, but this is not sufficiently direct to overwrite the canonical null race fields because it does not provide a skill-by-skill race-access statement. No classifications were changed.
