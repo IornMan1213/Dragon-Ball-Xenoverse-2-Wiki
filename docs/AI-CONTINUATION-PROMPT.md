@@ -958,3 +958,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `6e740b7a1c7be6608af7f3220e43dc8b998b7b38`.
 - Coverage commit: `76c2cfa76cc1e3f89a5f231adc5e8d6a2a909cf9`.
 - Continue with the next unresolved null-race cohort.
+
+### 2026-09-19 cycle update — null-race evidence boundary
+- Live skill census: 283 total / 270 CaC-usable / 183 CaC-usable with null `race_restriction`.
+- Reviewed the next 12 unresolved records: Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, Dancing Parapara, Hero's Flute, Spirit Boost, Time Control, Charge, Divinity Unleashed, Do or Die, and Fighting Pose E.
+- Current Xenoverse 2 evidence did not establish a sufficiently explicit individual race/gender/form restriction for this cohort. Legacy Xenoverse all-race labels were not promoted across versions.
+- No canonical race classifications changed. Coverage commit: 4a142e80e3fe46a6fc64c8049dea52fd1cba5106.
+- CI remains opaque: current-head Repository quality and cleanup runs failed with no recorded job steps; validators were not weakened.
+- Exact next task: continue the next unresolved null-race cohort with current-version explicit evidence only.
