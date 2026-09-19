@@ -14,10 +14,10 @@
   "current_edges": {
     "skill": 229,
     "super_soul": 125,
-    "equipment": 4,
+    "equipment": 39,
     "character": 0,
     "dlc": 5,
     "farming": 4
   },
-  "note": "Skill and Super Soul relationship populations are source-backed across the normalized PQ reward layer; equipment, character, DLC and farming relationships remain under reconciliation."
+  "note": "Skill, Super Soul, and typed equipment reward relationships are populated from normalized PQ reward data; character, DLC, farming, and unresolved alternate-reward attribution remain under reconciliation."
 }
