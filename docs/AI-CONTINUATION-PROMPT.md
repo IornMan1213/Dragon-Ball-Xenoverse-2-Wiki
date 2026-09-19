@@ -2621,3 +2621,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `6cc6563bc592c585a18344f3bf6a45f5ba60c282`.
 - Coverage audit commit: `7ac9eb3c67ca2de1fe60dd4e41c5564ed01dc496`.
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 26
+- Verified explicit Basic Reward placement for **Dragon Spiral (PQ185), Indomitable (PQ185), and Venus Fist (PQ186)**. citeturn0search0turn0search2
+- Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all three.
+- Live nullable Super/Ultimate census: **52 total — 40 Super / 12 Ultimate**.
+- Skills commit: `90b811333a9acc9247f71ec0782a35b8ceb9803a`.
+- Coverage audit commit: `17724f19445cb2f8600033c480c70438b4f9d3ec`.
+- Exact next task: continue the bounded Basic Reward evidence pass, but distinguish explicit Basic Reward placement from separate Ultimate Finish-only rewards; preserve `null` where the acquisition gate itself is not established.
