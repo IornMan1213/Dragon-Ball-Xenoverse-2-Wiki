@@ -2104,3 +2104,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Crosslink report now records 229 resolved skill relationships with zero unresolved links.
 - Next exact task: populate and reconcile **Super Soul reward edges for PQ 1-186**, preserving empty arrays as unresolved/non-negative and recording source conflicts rather than guessing.
 - Latest commits: `4e1b628045bdcbf35c4d0f221111cd24b8a9a6a4`, `01bed910511947d5b614eed0f2d7de597ca7f2c3`, `a483755f96a02a1a6f06c013aa98aeb90c925e79`.
+
+
+### 2026-09-19 continuation — PQ Super Soul edges populated
+- Added 125 source-backed Super Soul reward edges across the normalized PQ 1-186 reward layer.
+- Current relationship totals: 229 skills, 125 Super Souls.
+- Next exact task: reconcile **equipment/clothing/accessory reward edges for PQ 1-186**, using the typed normalization maps and preserving unresolved attribution.
+- Commits: `ce11b853b6e0325dfa4f19a9e6140a39985a140c`, `efd12568a533b42a5aea3265c8a4d95d917c8001`.
