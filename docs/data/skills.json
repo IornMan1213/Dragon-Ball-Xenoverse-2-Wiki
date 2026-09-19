@@ -1616,7 +1616,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 72",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "skill_description": "Burst Kamehameha is a Super Ki Blast skill associated with Goku.",
       "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "partially_verified",
@@ -1625,10 +1625,12 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76181284"
       ],
       "source_quest": 72,
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "Dedicated acquisition evidence reports Burst Kamehameha as an Ultimate Finish drop from PQ72. The evidence distinguishes this from ordinary PQ reward/RNG reporting, so the UF gate is recorded as true."
     },
     {
       "name": "Burst Stinger",
