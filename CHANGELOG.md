@@ -1,3 +1,9 @@
+## September 2026 — Super Soul Batch 03 Promotion
+- Promoted Super Soul research batch 03 (IDs **024–031**) into the canonical research layer after duplicate, schema, acquisition, and independent-source reconciliation.
+- Canonical Super Soul population increased from **18 to 26** records.
+- Preserved unresolved shop-rotation timing and drop-rate semantics rather than inferring them.
+- Refreshed `docs/data/coverage-gaps.json` and `TODO.md` so the PQ provenance milestone is no longer treated as an unresolved population gap and Super Soul expansion becomes the next data-coverage focus.
+
 ## September 2026 — PQ181–186 Final Provenance Pass
 - Added record-level provenance to the final six records, **PQ181–PQ186**, with 2026-09-19 verification dates.
 - Cross-checked DLC associations, Ultimate Finish conditions, and documented rewards against independent references.
