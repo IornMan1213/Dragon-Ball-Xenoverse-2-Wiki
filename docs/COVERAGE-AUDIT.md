@@ -658,3 +658,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - **Requiem of Destruction** was removed from the null-CaC cohort. Its technique page explicitly lists the Future Warrior as a user and states that in Xenoverse 2 it is obtainable by the Future Warrior from New Parallel Quest 104, "Vados the Talent Scout." citeturn1search0
 - The record is now `usable_by_cac: true`; no race restriction was inferred.
 - Skills commit: `6cc97745e9856af45e52d148aa3d40f6f14f7184`.
+
+
+## 2026-09-19 DLC evidence boundary re-audit
+
+- Re-audited the remaining unresolved recent-DLC skills against explicit character/PQ evidence. Current sources continue to identify **God of Destruction's Plaything/Poise** as Belmod's skills and **Force Edge/Burning Blast** as SS3 Vegeta (DAIMA)'s skills; PQ reward listings establish acquisition availability but not automatically CaC eligibility. citeturn0search2turn0search5turn0search17turn0search1
+- The Future Saga Chapter 2 DLC source lists its seven new skills and four PQs, but does not establish individual CaC eligibility. citeturn0search0
+- Preserved these records as unresolved instead of treating a PQ reward or character moveset as proof of CaC access.
+- Skills commit: `dd675147e02a668b79a8b94b2293a8d55d27fbf9`.
