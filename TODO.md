@@ -70,7 +70,7 @@ This file is the working project tracker. Statuses describe repository work, not
 
 ## Current priority correction — 2026-09-19
 
-The repository tracker is authoritative for continuation order. The current skill research frontier remains **Batch 316**, but the immediate data-quality track is now Super Soul expansion and cross-system reconciliation. Batches 315–316 are promoted into the canonical skill catalog, duplicate skill identities have been reconciled to 283 unique canonical records, and PQ provenance is complete through PQ186, and the current PQ-to-skill report is resolved against the 283-record deduplicated canonical skill catalog. Super Soul batch 03 is now promoted, bringing the canonical Super Soul population to 26 records.
+The repository tracker is authoritative for continuation order. The current skill research frontier remains **Batch 316**, but the immediate data-quality track is now Super Soul expansion and cross-system reconciliation. Batch 40 are promoted into the canonical skill catalog, duplicate skill identities have been reconciled to 283 unique canonical records, and PQ provenance is complete through PQ186, and the current PQ-to-skill report is resolved against the 283-record deduplicated canonical skill catalog. Super Soul batch 03 is now promoted, bringing the canonical Super Soul population to 26 records.
 
 **Continuation order:**
 1. **P0:** resolve or obtain observable evidence for the GitHub Actions pre-run failures; never weaken validators to make CI green.
