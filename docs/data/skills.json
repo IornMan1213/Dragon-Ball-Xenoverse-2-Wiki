@@ -4982,12 +4982,14 @@
       "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Sonic Bomb",
@@ -5005,12 +5007,14 @@
       "skill_description": "Sonic Bomb is a Super Strike skill associated with Champa.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Sonic_Bomb"
-      ]
+        "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Super God Fist",
@@ -5028,13 +5032,15 @@
       "skill_description": "Super God Fist is a Super Strike skill associated with Goku.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_God_Fist"
+        "https://dbxv2.fandom.com/wiki/Super_God_Fist",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred."
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Variant Drive",
@@ -5052,14 +5058,16 @@
       "skill_description": "Variant Drive is a Super Strike skill associated with Super Baby 2.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dbxv2.fandom.com/wiki/Variant_Drive"
+        "https://dbxv2.fandom.com/wiki/Variant_Drive",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred."
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Wild Stinger",
@@ -5142,7 +5150,8 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Blaster_Stream"
+        "https://dbxv2.fandom.com/wiki/Blaster_Stream",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "usable_by_cac": true,
       "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan)",
@@ -5152,9 +5161,10 @@
       "source_quest_or_shop": "Parallel Quest 148 — Finding Out About Fusion",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred."
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Burning Blast",
@@ -5172,14 +5182,16 @@
       "skill_description": "Burning Blast is a Super Ki Blast skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "mechanics": "200 Ki; optional 300 Stamina consumption enables use while under pressure and grants temporary Super Armor.",
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred."
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Chain Destructo-Disc Barrage",
@@ -5197,13 +5209,15 @@
       "skill_description": "Chain Destructo-Disc Barrage is a Ultimate Ki Blast skill associated with Krillin.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage"
+        "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred."
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Chaotic Time Impact",
@@ -5221,15 +5235,17 @@
       "skill_description": "Chaotic Time Impact is a Ki Blast Ultimate Attack used by Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest and its reward data marks the skill as an Ultimate Finish reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "partially_verified",
-      "research_status": "race_restriction_reconciled",
+      "research_status": "reconciled_cac_scope_no_narrower_race_restriction_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md"
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 184,
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred."
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Circle Flash",
