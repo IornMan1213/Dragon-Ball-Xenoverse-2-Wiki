@@ -2011,3 +2011,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - CI: inspect the latest push-triggered runs after this handoff commit; if jobs again terminate before actionable steps/logs, preserve the documented infrastructure/account classification.
 - Current unresolved skill metadata count: **0 missing source_quest_or_shop fields**, with deeper individual evidence/version conflicts still possible.
 - Exact next task: recompute the full skill metadata census and identify the next nonempty coverage gap; if no higher-value skill gap remains, continue the P1 Parallel Quest reward/acquisition/version provenance audit.
+
+
+### 2026-09-19 continuation — unlock-method coverage completion
+- Recomputed the live canonical skill metadata after the source-field pass.
+- Found exactly two null unlock_method fields: **Dragon Thunder** and **Death Ball**.
+- Updated Dragon Thunder to explicit `N/A — character-only skill; unavailable for CaC`, supported by current skill evidence; updated Death Ball to `Frieza mentor — Intergalactic Emperor of Evil 3`, matching the mentor reward evidence. 
+- Data commit: `6f9817c1d7117b43e6b0e9c742d9567f2bce8a25`.
+- Current skill metadata census: **283 total / 269 CaC-usable / 0 missing research_status / 0 missing mechanics_notes / 0 missing source_quest_or_shop / 0 missing unlock_method**. The remaining null `ki_cost`, `stamina_cost`, and `damage_type` values are largely legitimate/non-applicable fields and must be classified before filling; do not invent values.
+- Next exact task: recompute the field census and classify the 21 null Ki-cost records and other nullable fields by applicability/evidence, then continue into P1 Parallel Quest reward/acquisition/version provenance.
