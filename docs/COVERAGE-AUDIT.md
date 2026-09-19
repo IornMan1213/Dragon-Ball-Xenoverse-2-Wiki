@@ -1299,3 +1299,16 @@ Reconciled the next eight dataset-order records after Side Bridge: **Spread Shot
 - **Celestial Wave was also tightened during this pass:** its previous all-CaC-races value was removed because the reviewed current evidence establishes CaC availability but did not explicitly establish an all-races restriction. This is an evidence-boundary correction, not a change to CaC usability.
 - Live census after the correction: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - No race restriction was inferred merely from character ownership, mentor source, PQ source, or inclusion in a generic Future Warrior technique list.
+
+
+## 2026-09-19 — Atomic Blast through Burning Attack
+
+Reconciled the next eight dataset-order records: **Atomic Blast, Bending Kamehameha, Big Bang Kamehameha, Big Bang Knuckle, Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, and Burning Attack**.
+
+- **Atomic Blast:** CaC-usable; current evidence does not explicitly establish a race/gender/form restriction, so the race field remains null.
+- **Bending Kamehameha:** retained explicit `All CaC races` scope.
+- **Big Bang Kamehameha:** retained explicit `All CaC races` scope. Current public documentation also confirms that the skill's historical behavior changed across updates; the repository records current-version mechanics rather than older teleport behavior. citeturn0search1turn0search9
+- **Big Bang Knuckle:** corrected/retained as **non-CaC**. Current evidence identifies the PQ172 skill as Vegeta (Super Saiyan God) Ultra Supervillain's Strike Super, without an established CaC acquisition/equip path.
+- **Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, and Burning Attack:** CaC-usable; no explicit narrower CaC race/gender/form restriction was established, so no restriction was inferred.
+- Live census after the Big Bang Knuckle correction: **283 total / 268 CaC-usable / 184 CaC-usable with null race restriction**.
+- The public skill-ID evidence independently lists Atomic Blast and Burning Attack as CaC-usable, supporting the repository's scope classification. citeturn1search0
