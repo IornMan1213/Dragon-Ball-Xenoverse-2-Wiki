@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Resolve remaining source-only normalized reward-map entries by independent source verification or retain as unresolved normalized-source inventory; then audit equipment subtype classification and PQ 1-14 coverage limitations.",
+  "next_completion_gate": "Audit PQ 1-14 coverage and equipment subtype semantics; then perform final 1-186 relationship consistency audit without treating partial normalized maps as exhaustive negatives.",
   "current_counts": {
     "skill": 229,
     "super_soul": 125,
@@ -33,7 +33,7 @@
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
     "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
   },
-  "status": "provenance_reconciled_for_edge_only_super_soul_and_equipment_cases",
+  "status": "reward_provenance_reconciled",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
   "full_corpus_audit": {
     "canonical_reward_maps": 6,
@@ -83,6 +83,9 @@
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
-    "rule": "Do not delete forward edges solely because partial normalized reward maps omit them."
+    "rule": "Do not delete forward edges solely because partial normalized reward maps omit them.",
+    "source_only_cases_resolved": 68,
+    "source_only_entries_resolved": 76,
+    "remaining_unresolved_source_only_entries": 0
   }
 }
