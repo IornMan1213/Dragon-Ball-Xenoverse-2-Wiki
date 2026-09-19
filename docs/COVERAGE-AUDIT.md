@@ -795,3 +795,7 @@ Added the independent Future Warrior technique reference to 30 additional existi
 ## 2026-09-19 Future Warrior provenance expansion — batch 4
 
 Added the Future Warrior technique reference to 25 additional existing CaC-usable records: **Energy Barrier, Spirit Explosion, Spirit Slash, Blaster Ball, Bluff Kamehameha, Breaker Energy Wave, Burst Kamehameha, Burst Stinger, Dark Inscription, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Cannon, Eraser Bomb, Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, Giant Cluster, Gigantic Charge, and God Punisher**. This remains provenance-only; no race classification was inferred from character ownership or technique listing.
+
+## 2026-09-19 Future Warrior provenance expansion — batch 5
+
+Added the Future Warrior technique reference to 24 additional existing CaC-usable records: **Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, Pendulum Bullet, Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster, Spirit Pulse, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, Dancing Parapara, Spirit Boost, and Time Control**. This is provenance-only. The accessible evidence does not by itself establish unrestricted race access, so `race_restriction` was not changed.
