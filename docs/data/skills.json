@@ -1650,10 +1650,12 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Crazy_Finger_Beam"
+        "https://dragonball.fandom.com/wiki/Crazy_Finger_Beam",
+        "https://dragonball.fandom.com/wiki/Death_Bullet"
       ],
       "ultimate_finish_required": null,
-      "source_quest": 26
+      "source_quest": 26,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Dark Inscription",
