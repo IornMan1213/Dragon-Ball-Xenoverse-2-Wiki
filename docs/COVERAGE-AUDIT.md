@@ -2154,3 +2154,17 @@ Reviewed the three character-only Awoken records that remained without a Ki-cost
 - Live skill census after this batch: **283 records / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing `research_status` / 0 missing `mechanics_notes` / 0 missing `unlock_method` / 0 missing `source_quest_or_shop`**.
 - No validator or validation rule was weakened.
 
+
+
+## 2026-09-19 — skill nullable-field applicability census
+
+A second-pass census classified the remaining nullable structured fields in `docs/data/skills.json` by skill class rather than treating null as missing data by default.
+
+- **Awoken (19):** all 19 have nullable `stamina_cost`; 14 have nullable `damage_type`; 18 have nullable `dlc_requirement`; 16 have nullable `ultimate_finish_required`. These fields require transformation-specific/version-specific evidence and are not safe to bulk-fill.
+- **Super (184):** 180 nullable `stamina_cost`, 66 nullable `damage_type`, 25 nullable `dlc_requirement`, 168 nullable `ultimate_finish_required`.
+- **Ultimate (58):** 57 nullable `stamina_cost`, 20 nullable `damage_type`, 19 nullable `dlc_requirement`, 53 nullable `ultimate_finish_required`.
+- **Evasive (22):** 17 nullable `ki_cost`, 0 nullable `stamina_cost`, 8 nullable `damage_type`, 8 nullable `dlc_requirement`, 20 nullable `ultimate_finish_required`.
+
+The Evasive `ki_cost` nulls were deliberately not converted to zero: several Evasive records are dual-purpose or have attack-specific Ki costs documented separately from their Evasive activation, so a blanket zero would conflate mechanics. Likewise, null DLC fields were not converted to Base Game merely from absence of a DLC source.
+
+This census therefore identifies the remaining nullable fields as **evidence queues**, not defects. No unsupported values were inserted in this pass.
