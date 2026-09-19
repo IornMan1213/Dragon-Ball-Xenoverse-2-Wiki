@@ -1949,3 +1949,14 @@ Reviewed **Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, Blaster Stre
 - Added the maintained Future Warrior technique-list source as provenance for CaC scope.
 - Live skill census after this batch: **283 total / 269 CaC-usable / 4 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Circle Flash through Dimension Ray race-restriction census completion
+
+Reviewed **Circle Flash, Core Breaker, Destruction's Concerto: Meteor, and Dimension Ray**, completing the current null-race CaC census.
+
+- Added explicit **All CaC races** scope to all four records. Current evidence does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition, classification, cost, mechanics, and unresolved research fields. Core Breaker's PQ158 and Destruction's Concerto: Meteor's PQ106 evidence remain intact.
+- Added the maintained Future Warrior technique-list source as provenance for CaC scope.
+- Live skill census after completion: **283 total / 269 CaC-usable / 0 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
