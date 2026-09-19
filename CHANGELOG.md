@@ -1,3 +1,9 @@
+## September 2026 — PQ11–20 Record-Level Provenance Pass
+- Added explicit record-level `sources` arrays to all **PQ11–PQ20** records in `docs/data/parallel-quest-research-batches/pq-batch-02.json`.
+- Rechecked the objective and Ultimate Finish data against the maintained Steam transcription and independent quest guides, with a current maintained PQ11 repository record used where applicable.
+- Preserved unresolved reward-slot/drop semantics and did not add unsupported unlock gates during this pass.
+- Updated `docs/COVERAGE-AUDIT.md`; the next bounded provenance pass is PQ21–PQ30.
+
 ## September 2026 — PQ Record-Level Provenance Pass
 - Added explicit record-level `sources` arrays to all PQ1-PQ10 records in `docs/data/parallel-quest-research-batches/pq-batch-01.json`.
 - Re-verified the batch against the maintained 186-PQ Steam transcription, the Steam PQ reward transcription, and an independent quest-objective reference.
