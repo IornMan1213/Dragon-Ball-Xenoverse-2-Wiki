@@ -2489,3 +2489,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 10883938c2c5cb52a33de4a576251902965ae670.
 - Live nullable Super/Ultimate census: 129 total (94 Super, 35 Ultimate).
 - Next task: continue explicit Basic Reward candidates; preserve null where the acquisition gate is not established.
+
+
+### 2026-09-19 continuation — PQ reward batch 13
+- Resolved `ultimate_finish_required=false`: Candy Beam (Super), Destruction's Concerto: Comet, Destruction's Concerto: Starfall, Dust Attack, Eraser Bomb, Evil Blast, Evil Flame, Flash Chaser.
+- Evidence review established independent PQ reward acquisition for these records; no schema/validator changes.
+- Skills commit: 12f2632ee552811c3aaa9be6d8327799e5f76c44.
+- Live nullable Super/Ultimate census: 121 total (86 Super, 35 Ultimate).
+- Next task: continue remaining nullable PQ candidates and preserve null when only generic/random PQ evidence exists.
