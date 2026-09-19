@@ -543,18 +543,20 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Counter_Burst"
+        "https://dragonball.fandom.com/wiki/Counter_Burst",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=455701946"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 75 - \"Room to Spare\"",
       "last_verified": "2026-09-19",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 75 - Room to Spare",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
+      "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "notes": "PQ75 acquisition guide explicitly says the skill drops from SSGSS Vegeta and does not require the Ultimate Finish."
     },
     {
       "name": "Counter Impact",
@@ -564,18 +566,20 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Counter_Impact",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.reddit.com/r/dbxv/comments/vx5tu8"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 153 - \"Seeing Double\"",
       "last_verified": "2026-09-19",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 153 - Seeing Double",
       "race_restriction": "All CaC races",
       "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
-      "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
+      "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "notes": "Community acquisition reports explicitly state the PQ153 skills require an Ultimate Finish; this is corroborated by reports describing Counter Impact as a random drop after an Ultimate Finish."
     },
     {
       "name": "Demon Flash Strike",
@@ -585,19 +589,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flash_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-160.md"
       ],
       "ki_cost": 100,
       "research_status": "enriched",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 160",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": true,
       "mechanics_notes": "Current dataset evidence identifies Demon Flash Strike as a 100-Ki Strike Super from PQ160 and a melee counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "last_verified": "2026-09-19",
       "source_quest": 160,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation"
+      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "notes": "Current datamined PQ160 reward data places Demon Flash Strike in the Ultimate Finish bonus reward slots."
     },
     {
       "name": "Dimensional Hole",
@@ -649,19 +655,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_Breaker",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/God_Breaker"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest reward (PQ44)",
       "source_quest": 44,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 44",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
+      "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "notes": "Acquisition guides distinguish God Breaker as a direct Future Trunks drop rather than an Ultimate Finish reward; a separate PQ44 guide likewise lists the ordinary Trunks reward route."
     },
     {
       "name": "Heroic Counter",
