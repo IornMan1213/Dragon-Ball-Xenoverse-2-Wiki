@@ -892,3 +892,8 @@ Reviewed the next unresolved null-race cohort: **Shadow Crusher, Sudden Death Be
 ## 2026-09-19 — evasive-skill provenance boundary
 
 Reviewed the next unresolved null-race cohort: **Absolute Zero, Dragon Burn, Explosive Wave, and Force Shield**. Existing direct Xenoverse 2 provenance was already present for Absolute Zero, Dragon Burn, and Force Shield; Explosive Wave received its direct Xenoverse 2 skill-page provenance. Current evidence identifies these as Evasive Skills and documents users/unlock information, but does not explicitly establish CaC race/gender/form restrictions or universal race access for these records. No `race_restriction` classifications were changed. The Evasive Skill category's CaC list was not treated as sufficient race-specific evidence.
+
+
+## 2026-09-19 — evasive cohort and explicit CaC scope
+
+Reviewed **Instant Rise, Ki Explosion, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, and Spread Shot Retreat**. Direct Xenoverse 2 pages were checked. **Ki Explosion** explicitly states that it is available for **all CaCs**, so its `race_restriction` was classified as `All CaC races` and `last_verified` set to `2026-09-19`. Instant Rise only states availability for CaCs without an all-races statement; the remaining reviewed pages identify NPC users/unlock data without explicit CaC race scope. Those records remain null. NPC ownership and broad Evasive Skill/category listings were not used as race evidence.
