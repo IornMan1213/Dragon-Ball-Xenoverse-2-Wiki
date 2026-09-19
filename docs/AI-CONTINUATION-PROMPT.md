@@ -634,3 +634,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Coverage commit: `7ec129d63d11c6353e3d82995d614ffe44e9b193`.
 - Live null-`usable_by_cac` census before this batch contained 35 records; this batch removes nine explicit-evidence gaps while preserving the `partially_verified` evidence standard.
 - Exact next task: continue the remaining 26 null-CaC records, prioritizing Future Saga/DAIMA and other recent DLC skills, then audit the 190 CaC records still lacking explicit `race_restriction` values. Do not infer race scope from generic CaC availability.
+
+
+### 2026-09-19 cycle update — Future Warrior/form-exclusive reconciliation
+- Continued the null-`usable_by_cac` audit using the current Future Warrior technique corpus. The source explicitly documents that Future Warrior techniques can be race/gender/transform restricted, so form-specific access is represented rather than flattened into universal availability. citeturn0search0
+- Reconciled **Surging Spirit, Dragon Fist, Divine Ray Bomb, Dragon Thunder, Final Rampage, Godly Display, Supreme Fury, and Victory Rush**. `Surging Spirit` is specifically recorded as usable through Ultra Instinct Future Warrior access.
+- Skills commit: `6f1a988f2eee96c59e137999f6842cd628b49c73`; coverage commit: `96ff82019d1d8be3abf05805e6346cd8e6e89f81`.
+- Exact next task: recalculate the remaining null-CaC cohort and continue explicit-evidence research. Then begin the 190-record race-restriction census, prioritizing known race/gender/form-specific techniques instead of assigning `All CaC races` by default.
