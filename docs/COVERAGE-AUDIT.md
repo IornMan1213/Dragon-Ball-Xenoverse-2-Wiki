@@ -1337,3 +1337,15 @@ Reconciled **Demon Ray, Destruction's Concerto: Comet, Destruction's Concerto: S
 - No race restriction was inferred from character ownership, mentor/PQ source, or generic Future Warrior listings alone.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Dust Attack through Final Cannon
+
+Reconciled **Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, Eraser Bomb, Evil Blast, Evil Flame, and Final Cannon**.
+
+- All eight remain CaC-usable. No explicit narrower CaC race/gender/form restriction was established in this pass.
+- **Dust Attack** retains its existing Ki Blast classification but is flagged for future direct skill-page reconciliation because the broad public index places it under a different grouping; classification was not silently changed from a category listing alone.
+- **Emperor's Cannon** retains the corrected current acquisition record of **PQ184**, rather than the prior PQ183 entry.
+- No race restriction was inferred from character ownership, mentor/PQ source, or generic Future Warrior listings alone.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
