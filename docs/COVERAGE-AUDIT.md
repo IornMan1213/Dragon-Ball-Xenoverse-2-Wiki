@@ -2105,3 +2105,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ 144 and PQ 157 remain without `skill_rewards` because the repository's normalized layer does not establish a skill for those quests; no inference was made.
 - Added the all-186 Steam reference to every PQ 143-162 record.
 - Data commit: `c80087a1225f25c300f6d81778f6f398f4ae0bc8`.
+
+
+## 2026-09-19 — PQ 163-186 skill-reward provenance pass
+
+- Completed the final canonical PQ skill-reward provenance range, 163-186, using the repository's source-normalized reward layer and the current all-186 Steam guide. citeturn0search0turn0search2
+- Added/confirmed skills for PQ 163-168, 171-186; PQ 169 and PQ 170 remain without normalized skill rewards because their current source-backed reward lists establish clothing/artwork/Super Soul rewards but no skill.
+- Added the all-186 Steam reference to every PQ 163-186 record.
+- Data commit: `3432f50877c550189d6f25f6d2026bf294f61f35`.
