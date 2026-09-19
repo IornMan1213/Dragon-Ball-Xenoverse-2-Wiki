@@ -1773,3 +1773,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — Spirit Pulse through Dancing Parapara
+- Reviewed the next eight null-race CaC-usable records: **Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, Dancing Parapara**.
+- Preserved null race restrictions because reviewed Future Warrior/CaC evidence does not establish a narrower race/gender/form restriction.
+- Data commit: ab865fbf65641fe44bbf295c54a53c456c7ed5fd.
+- Audit commit follows in this cycle.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
