@@ -2446,6 +2446,6 @@ Resolved `ultimate_finish_required: false` for **Dragon Spiral (PQ185), Indomita
 Resolved `ultimate_finish_required: false` for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
-- Live nullable Super/Ultimate census after this batch: **39 total — 35 Super / 4 Ultimate**.
+- Live nullable Super/Ultimate census after this batch: **39 total — 28 Super / 11 Ultimate**.
 - Skills commit: `bc0bffe7ec4bfa1d1cf284c3141b513b53d0dd4d`.
 - No schema or validator changes.
