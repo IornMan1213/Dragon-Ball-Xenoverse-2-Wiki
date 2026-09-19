@@ -1,3 +1,9 @@
+## September 2026 — PQ181–186 Final Provenance Pass
+- Added record-level provenance to the final six records, **PQ181–PQ186**, with 2026-09-19 verification dates.
+- Cross-checked DLC associations, Ultimate Finish conditions, and documented rewards against independent references.
+- Preserved the explicitly documented PQ184 Chaotic Time Impact 50% Ultimate Finish bonus-slot rate and left unsupported probabilities unresolved.
+- **All 176 canonical PQ records now have individual source arrays.**
+
 ## September 2026 — PQ171–180 Provenance Pass
 - Added record-level provenance to **PQ171–PQ180** with 2026-09-19 verification dates.
 - Cross-checked DLC associations, Ultimate Finish conditions, and documented rewards against independent references.
