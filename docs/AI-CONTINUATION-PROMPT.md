@@ -2698,3 +2698,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `f9c36077153b37c5a9bb7dc9e5f2a28b07a10ee7`.
 - Coverage audit commit: `e38205959b95981f5d7e6500bba8595982b19630`.
 - Exact next task: continue the remaining nullable Super records, prioritizing explicit reward-section evidence and resolving source conflicts rather than forcing a boolean.
+
+
+### 2026-09-19 continuation — Meditation UF conflict resolution
+- Resolved **Meditation (PQ122)** as `ultimate_finish_required=false` after reviewing conflicting acquisition reports. GameFAQs identifies Meditation as a Jiren drop while Power Rush is the UF reward; later community evidence reports Meditation without requiring UF. citeturn0search4turn0reddit13
+- Earlier claims that UF is required remain documented as conflicting evidence. citeturn0search0turn0search10
+- Live nullable Super/Ultimate census: **13 total — 13 Super / 0 Ultimate**.
+- Skills commit: `fcc6418520e35a775a2dc41e090b7ecb82b04b78`.
+- Coverage audit commit: `07fd174b02af8ebc75f4f8a190d3cd410b2d8f8a`.
+- Exact next task: continue the remaining nullable Super records; prioritize acquisition-specific evidence and preserve null for character-exclusive or genuinely unresolved gates.
