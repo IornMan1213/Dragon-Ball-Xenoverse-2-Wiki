@@ -2481,3 +2481,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 57e4cf8c8c5884363b23755783bece76958a94c1.
 - Live nullable Super/Ultimate census: 135 total (100 Super, 35 Ultimate).
 - Next task: continue explicit Basic Reward candidates; resolve conflicts conservatively and preserve established UF requirements.
+
+
+### 2026-09-19 continuation — basic-reward PQ batch 12
+- Resolved `ultimate_finish_required=false`: Demon Ray (PQ160), Gamma Blaster (PQ155), God of Destruction's Plaything (PQ175), Spirit Pulse (PQ151), Wild Buster (PQ153), Charged Ki Wave (PQ97).
+- Evidence: current PQ guide lists each in its corresponding Basic Reward section. citeturn1search0
+- Skills commit: 10883938c2c5cb52a33de4a576251902965ae670.
+- Live nullable Super/Ultimate census: 129 total (94 Super, 35 Ultimate).
+- Next task: continue explicit Basic Reward candidates; preserve null where the acquisition gate is not established.
