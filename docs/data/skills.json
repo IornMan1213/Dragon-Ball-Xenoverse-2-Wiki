@@ -5254,7 +5254,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam",
-        "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam"
+        "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam",
+        "https://dragonball.fandom.com/wiki/Death_Beam"
       ],
       "ki_cost": 300,
       "last_verified": "2026-09-19",
@@ -5266,7 +5267,7 @@
       "unlock_method": "TP Medal Shop",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "reconciled_future_warrior_evidence"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Energy Field",
@@ -5284,12 +5285,13 @@
       "skill_description": "Energy Field is a Ultimate Ki Blast skill associated with Android 17.",
       "mechanics_notes": "Dedicated current-version evidence identifies Energy Field as a Ki Blast Evasive skill and lists Android 17, Android 16, Mira, and Android 17 (DB Super) as users. The repository's prior Ultimate classification was incorrect. CaC race/gender scope remains unproven here, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Energy_Field"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Final Explosion",
@@ -5310,7 +5312,7 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
-      "research_status": "reconciled_future_warrior_evidence"
+      "research_status": "race_restriction_reconciled"
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
@@ -5319,7 +5321,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=14"
       ],
       "usable_by_cac": true,
       "character_source": "SS3 Vegeta (DAIMA)",
@@ -5329,10 +5332,11 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Base activation uses 400 Ki; holding the input while the attack lands spends additional available Ki for a power boost.",
-      "research_status": "explicit_scope_unresolved",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; while the attack lands, holding input can consume all additional available Ki for a major power boost.",
-      "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence."
+      "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Final Kamehameha",
@@ -5341,7 +5345,8 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
-        "https://dragonball.fandom.com/wiki/Final_Kamehameha"
+        "https://dragonball.fandom.com/wiki/Final_Kamehameha",
+        "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
       ],
       "ki_cost": 500,
       "unlock_method": "TP Medal Shop / Parallel Quest 91 - \"Saiyan Revolt\" / Double Crystal Raids",
@@ -5350,8 +5355,9 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha.",
-      "research_status": "explicit_scope_unresolved",
-      "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users."
+      "research_status": "race_restriction_reconciled",
+      "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Full Power Destruction",
@@ -5359,7 +5365,8 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Full_Power_Destruction"
+        "https://dbxv2.fandom.com/wiki/Full_Power_Destruction",
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/81043121"
       ],
       "usable_by_cac": true,
       "character_source": "Jiren (Full Power) Ultra Supervillain; Jiren — Customize Partner",
@@ -5369,9 +5376,10 @@
       "source_quest_or_shop": "Parallel Quest 177 — Warped Sense of Justice",
       "ultimate_finish_required": null,
       "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects.",
-      "research_status": "explicit_scope_unresolved",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
-      "notes": "Dedicated current-version evidence confirms PQ177 acquisition, 500 Ki, Ki Blast Ultimate classification, and Jiren users. The reviewed page does not explicitly establish CaC race/gender/form scope. Keep race_restriction null rather than inferring from Jiren or partner customization."
+      "notes": "Dedicated current-version evidence confirms PQ177 acquisition, 500 Ki, Ki Blast Ultimate classification, and Jiren users. The reviewed page does not explicitly establish CaC race/gender/form scope. Keep race_restriction null rather than inferring from Jiren or partner customization.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Gigantic Breaker",
@@ -5389,7 +5397,7 @@
       "skill_description": "Gigantic Breaker is a Ultimate Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Dedicated current-version evidence identifies Gigantic Breaker as Kefla's Ki Blast Super; the Future Warrior can obtain it as a random PQ126 reward. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5397,7 +5405,8 @@
         "https://dbxv2.fandom.com/wiki/Gigantic_Breaker",
         "https://dragonball.fandom.com/wiki/Gigantic_Breaker"
       ],
-      "description": "Focus your Ki into your fist and charge forward with a powerful strike. Missing leaves you vulnerable."
+      "description": "Focus your Ki into your fist and charge forward with a powerful strike. Missing leaves you vulnerable.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Gigantic Burst",
@@ -5405,7 +5414,8 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Burst"
+        "https://dbxv2.fandom.com/wiki/Gigantic_Burst",
+        "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
       ],
       "usable_by_cac": true,
       "character_source": "Kefla (Super Saiyan)",
@@ -5415,9 +5425,10 @@
       "source_quest_or_shop": "Parallel Quest 127 — Multiverse Match of the Century",
       "ultimate_finish_required": null,
       "mechanics_notes": "Dedicated current-version skill evidence explicitly states that Gigantic Burst is a Ki Blast Ultimate used by Kefla (Super Saiyan) and is available for CaCs; PQ127 is the listed unlock.",
-      "research_status": "reconciled_explicit_cac_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
-      "damage_type": "Ki Blast"
+      "damage_type": "Ki Blast",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Gigantic Explosion",
