@@ -1548,4 +1548,4 @@ Reconciled **Emperor's Death Beam, Energy Field, Final Explosion, Final Flash (S
 - Final Flash (SS3 DAIMA) remains partially verified for other mechanics despite the race-scope reconciliation; its current skill page establishes the PQ181 acquisition and 400+ Ki behavior, while current player evidence demonstrates CaC use.
 - Existing unresolved reward-slot/drop and version-sensitive mechanics remain bounded rather than fabricated.
 - Live census after the data update: **283 total / 269 CaC-usable / 165 CaC-usable with null race restriction**.
-- The previously documented 171 null-restriction count is superseded by this live recomputation; five of the selected records already had explicit race scope, while three newly reconciled records removed from the null set.
+- The previously documented 171 null-restriction count is superseded by this live recomputation; two of the selected records already had explicit race scope, while six newly reconciled records were removed from the null set.
