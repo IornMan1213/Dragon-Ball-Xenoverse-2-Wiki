@@ -1767,7 +1767,7 @@ A new AI chat must be able to continue from this file without depending on the p
 
 
 ### 2026-09-19 continuation — Photon Swipe through Spirit Blaster
-- Reviewed the next eight null-race CaC-usable records: **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster**.
+- Reviewed the next eight CaC-usable records previously carrying null race restrictions: **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster**.
 - Preserved null race restrictions because reviewed Future Warrior/CaC evidence does not establish a narrower race/gender/form restriction.
 - Data commit: 0b2f660b9101a219dea71e1411cda9ff872d2fa7.
 - Audit commit follows in this cycle.
@@ -1909,3 +1909,17 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: ad059cb80e60c5b578b2edbf2a37a7da57f6e429.
 - Live census: 283 total / 269 CaC-usable / 52 CaC-usable with null race restriction.
 - Exact next cohort: **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster**.
+
+
+### 2026-09-19 continuation — Photon Swipe through Spirit Blaster
+- Workstream: P1 skill race-restriction census.
+- Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster**.
+- Added explicit **All CaC races** scope to all eight using current Future Warrior technique-list evidence. The reviewed evidence establishes Future Warrior/CaC usability and does not establish a narrower race/gender/form restriction.
+- Preserved existing acquisition, classification, cost, Ultimate Finish, and mechanics metadata; Rolling Bullet remains a Ki Blast Evasive with 200 Stamina cost.
+- Added the maintained Future Warrior technique-list source to all eight records. No character ownership was converted into a race restriction, and no unsupported unlock/drop claim was added.
+- Data commit: `7bc0489fb62e3b74319d30ee5e7caf24f5a0cd08`.
+- Audit commit: `25483301dec105c825aaad49f71cc7be9d3bc22a`.
+- Live census: **283 total / 269 CaC-usable / 44 CaC-usable with null race restriction**.
+- CI: latest pre-cycle runs for `cf7f32b402d9ffbc21dcaa0086bea90bcb7fb285` (Repository quality and Clean internal artifacts) completed with **failure** and no actionable steps/logs exposed; this remains consistent with the documented opaque pre-step infrastructure/account failure pattern. Validators were not weakened.
+- Evidence limitations: the Future Warrior source establishes usability but does not enumerate a separate race-by-race restriction for these eight; therefore **All CaC races** is retained as the dataset's explicit scope while no narrower restriction is asserted.
+- Exact next task: continue the null-race census with **Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, and Dancing Parapara** after recomputing the live dataset.
