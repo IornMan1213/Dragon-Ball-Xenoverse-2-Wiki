@@ -37,7 +37,7 @@ Only one Super Soul can be equipped at a time on a preset. Because copies are sh
 
 The machine-readable source of truth is `docs/data/super-souls-record-layer.json`.
 
-The canonical layer currently contains **30 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
+The canonical layer currently contains **34 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
 
 ### Canonical records
 
@@ -105,3 +105,17 @@ Four Chapter 4 Super Souls are now indexed in the canonical layer (records 032�
 | 033 | Malice... Existence... Cruelty... | PQ 185 | Partially verified |
 | 034 | The final battle begins now. | PQ 186 | Partially verified |
 | 035 | I'll use this power to protect everyone! | PQ 186 | Partially verified |
+
+
+### Raid / event additions — 2026-09-19
+
+Four raid-associated Super Souls are now represented in the canonical layer (036–039). Their acquisition families and secondary effect evidence have been reconciled without inventing drop rates or recurrence schedules.
+
+| ID | Super Soul | Acquisition family | Verification |
+|---|---|---|---|
+| 036 | Buu's reached full power! | Hit / Hit Lite Raid | Verified secondary |
+| 037 | I'm over 1,000 years old. | Hit / Hit Lite Raid; NPC Gogoh | Verified secondary |
+| 038 | My Ki is building... Overflowing... | Broly / Broly Lite Raid | Verified secondary |
+| 039 | I am going to bathe in your blood! | Broly / Broly Lite Raid | Verified secondary |
+
+The Hit raid evidence also preserves a documented discrepancy for record 036 rather than silently choosing between conflicting percentage values.
