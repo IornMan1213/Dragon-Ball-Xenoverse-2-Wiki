@@ -4,7 +4,7 @@
   "verification_policy": "parallel_quest_audit_with_independent_cross_checks",
   "research_scope": "PQ51-PQ60 base-game Parallel Quest audit. Objective sequences and documented basic rewards are recorded; exact reward-slot/drop percentages remain unresolved unless directly established.",
   "verification_audit": {
-    "audited": "2026-09-17",
+    "audited": "2026-09-19",
     "duplicate_check": {
       "status": "passed",
       "duplicate_count": 0
@@ -13,7 +13,9 @@
       "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/74485071",
       "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html",
+      "https://dbxenoverse.fandom.com/wiki/Justice_Finishing_Pose",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142"
     ]
   },
   "records": [
@@ -89,7 +91,7 @@
       "name": "The Fist of Justice!",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": null,
+      "unlock_condition": "Talk to Great Saiyaman and Great Saiyaman 2 on the floating Resort Island south of Conton City's Recreation Plaza.",
       "win_conditions": [
         "Defeat all enemies",
         "Defeat all Saibamen",
@@ -116,14 +118,20 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "unlock_verification": "verified_npc_board_trigger",
+      "sources": [
+        "https://dbxenoverse.fandom.com/wiki/Justice_Finishing_Pose",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "notes": "The unlock source identifies the Great Saiyaman pair on the floating Resort Island as the trigger. The maintained PQ guide independently documents PQ53 and its rewards/objectives."
     },
     {
       "number": 54,
       "name": "Majin Revival",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": null,
+      "unlock_condition": "Complete PQ 52 (Super Saiyan Bargain Sale).",
       "win_conditions": [
         "Defeat Hercule",
         "Clear with Majin Buu's health over 50%",
@@ -152,14 +160,20 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "unlock_verification": "partially_verified_conflicting_community_evidence",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "notes": "Community evidence is not fully consistent: one GameFAQs reply says the Resort District blue-exclamation PQ unlocked PQ54, while the original poster later reports that beating PQ52 unlocked PQ54. The latter is the direct completion-state report used here; the conflicting report is preserved rather than hidden."
     },
     {
       "number": 55,
       "name": "Tag with Gotenks",
       "stars": 6,
       "dlc_requirement": null,
-      "unlock_condition": null,
+      "unlock_condition": "Complete PQ 54 (Majin Revival).",
       "win_conditions": [
         "Defeat Gotenks",
         "Clear in under 5 minutes",
@@ -185,7 +199,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "unlock_verification": "verified_prerequisite_pq54",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74577142",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "notes": "The GameFAQs discussion reports that completing PQ54 unlocked PQ55. The maintained PQ guide independently confirms PQ54 and PQ55 as consecutive base-game quests."
     },
     {
       "number": 56,
