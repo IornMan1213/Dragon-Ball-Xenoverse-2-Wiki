@@ -11,7 +11,8 @@
     "Added four FUTURE SAGA Chapter 4 Super Soul identities (records 032–035) with attributed acquisition/effect evidence",
     "Promoted raid/event Super Soul batch 04 (records 036–039) with acquisition and secondary effect reconciliation",
     "Expanded raid/event Super Soul coverage with records 040–043",
-    "Indexed four additional raid-exclusive Super Soul candidates (044–047) with acquisition-family provenance"
+    "Indexed four additional raid-exclusive Super Soul candidates (044–047) with acquisition-family provenance",
+    "Reconciled raid Super Soul candidates 044–047; three core effects verified and one retained as partially verified."
   ],
   "critical": [
     "Ki Blast Supers complete set reconciliation",
@@ -28,7 +29,7 @@
     "automated cross-reference audit"
   ],
   "next_priority": {
-    "1": "Reconcile partially verified raid candidates 044–047 against item-level Super Soul evidence, then continue additional raid/event and DLC-specific acquisition families.",
+    "1": "Continue raid/DLC Super Soul census beyond 047, prioritizing unreconciled raid-exclusive names and exact item-level acquisition/effect provenance.",
     "2": "Expand QQ Bang records and normalize stat/effect fields.",
     "3": "Reconcile Ki Blast Super records against the skill catalog and source registry.",
     "4": "Complete mentor lesson and Expert Mission records with sources and reward relationships.",
