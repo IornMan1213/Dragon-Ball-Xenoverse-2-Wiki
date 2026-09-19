@@ -335,3 +335,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **72 records still lacking individual `sources` arrays**.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Exact next task: **continue with PQ51–PQ60**, using the same provenance/reward reconciliation workflow. Verify the transition into the 6-star PQs carefully, cross-check objectives and rewards independently, preserve unresolved acquisition/drop semantics, then update the coverage audit, changelog, handoff, and inspect Actions/status.
+
+
+### 2026-09-19 cycle update — PQ51–60 provenance pass
+- Workstream: Parallel Quest provenance and objective/reward evidence cleanup.
+- Completed record-level provenance for **PQ51–PQ60**. All ten records now have explicit source URLs and 2026-09-19 verification dates.
+- Independently cross-checked the transition from 5-star PQs into the 6-star block, including objectives and basic rewards. PQ52's unusual completion-of-PQ53 unlock behavior is preserved because multiple long-running guides report it; it was not silently normalized. PQ54/PQ55 unlock evidence remains attributed to the underlying community report.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-06.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `a2f3ab52b99181e89eed18537d2ea4de79fdd927` (PQ51–60 provenance), `f50f39a50ad2fa08882164c596e72ed6d0f30133` (coverage audit), `2a2a4df9448863a7f100f181ab6788fb7a63b249` (changelog).
+- Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **66 records still lacking individual `sources` arrays**.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Exact next task: **continue with PQ61–PQ70**, covering the remaining early/base-game quests with the same record-level provenance and reward reconciliation. Pay special attention to the transition from the Buu-era quests into Beerus/Dragon Ball Super material, verify unlock metadata conservatively, and preserve documented historical conflicts rather than inventing certainty. Then update the coverage audit, changelog, handoff, and inspect Actions/status.
