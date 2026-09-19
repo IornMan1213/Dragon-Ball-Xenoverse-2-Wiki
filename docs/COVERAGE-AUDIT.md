@@ -2487,3 +2487,13 @@ Resolved `ultimate_finish_required: false` for **Super Gamma Blast (PQ158)**. Th
 - Live nullable Super/Ultimate census after this resolution: **24 total — 24 Super / 0 Ultimate**.
 - Skills commit: `85b4e9a63a2de387e28076220df437a94489b1b9`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — basic-reward Super batch 31
+
+Resolved `ultimate_finish_required: false` for **Vanishing Ball (PQ58), Evil Whirlwind (PQ36), Justice Pose (PQ53), Taunt (PQ45), and Super God Fist (PQ67)**. The maintained PQ reward guide explicitly places each skill in its quest's Basic Reward list. citeturn0search0turn0search1
+
+- Community discussion around Super God Fist reports RNG/drop difficulty but does not establish UF-only gating; the explicit reward-section placement is the basis for this audit. citeturn0search2turn0search3
+- Live nullable Super/Ultimate census after this batch: **19 total — 19 Super / 0 Ultimate**.
+- Skills commit: `dbb35d0fa1e57db2fa51998c53ee72057abdd179`.
+- No schema or validator changes.
