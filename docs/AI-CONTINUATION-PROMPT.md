@@ -1001,3 +1001,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - The other seven reviewed records remain unresolved where the evidence does not explicitly establish all-race or race-specific CaC scope.
 - Canonical skill count remains 283; CaC-usable count remains 270; unresolved null-race count decreases from 183 to 182.
 - Exact next task: continue from the live unresolved ordering after this batch, beginning with Steel Mirage and subsequent records, using explicit current-version race/gender/form evidence only.
+
+
+### 2026-09-19 cycle update — evasive/early-super provenance batch
+- Reviewed Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, and Blaster Ball.
+- Added direct Xenoverse 2 provenance for Blaster Ball; the other seven already had dedicated current-version provenance.
+- No race classifications changed because explicit CaC race/gender/form scope was not established.
+- Canonical count remains 283; CaC-usable count remains 270; unresolved null-race count remains 182.
+- Exact next task: continue the next live unresolved cohort beginning with Bluff Kamehameha, Breaker Energy Wave, Burning Attack, and Burst Kamehameha.
