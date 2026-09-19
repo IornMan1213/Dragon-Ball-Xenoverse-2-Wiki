@@ -1193,3 +1193,14 @@ Reconciled Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attac
 - **Victory Cannon corrected:** Ki Blast Evasive / 300 Stamina / PQ54.
 - Spirit Pulse mechanics reconciled with current Ultra Instinct behavior.
 - Variable Snipe Shot mechanics reconciled with the official Android 18 (DB Super) description.
+
+
+## 2026-09-19 — Afterimage through Energy Release cohort
+
+Reconciled Afterimage, Afterimage Strike, Assault Vanish, Burst Charge, Charged Ki Wave, Dancing Parapara, Energy Charge, and Energy Release.
+
+- **Assault Vanish:** confirmed 100 Ki + 100 Stamina, PQ131, all CaC races.
+- **Burst Charge:** confirmed rapid-start/slowdown charging behavior, PQ134, all CaC races.
+- **Charged Ki Wave:** confirmed as a stamina-charging Other Super, PQ97.
+- **Energy Release:** confirmed Towa-exclusive and non-CaC; it is a slow Ki-charging stance.
+- Other movement/charge mechanics and explicit CaC provenance were reconciled without inferring unsupported race restrictions.
