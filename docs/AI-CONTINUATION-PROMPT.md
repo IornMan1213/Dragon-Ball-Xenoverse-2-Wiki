@@ -1211,3 +1211,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - No unsupported CaC race/gender/form restrictions were inferred from character users.
 - Commits: `ff28f527b5813cb8a2644c0e83aa0e1791b530c5` (data), `453120ea547b2e041cc7d2c21ed24e5550141082` (audit).
 - Next queued cohort begins with **Mystic Flash** and **Requiem of Destruction**, followed by the remaining unresolved null-race records.
+
+
+### 2026-09-19 continuation — counter-skill cohort
+- Refreshed evidence notes for **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, and God Breaker**.
+- Confirmed the current counter classifications and recorded resource/acquisition fields; no unsupported CaC race/gender/form restrictions were inferred.
+- Commits: `26d27c9d50be0d0ba1f8fa9a3aacec6fae0a3b36` (data), `2d3a9f52debad3f00a684c1ac4669cb3b3decc32` (audit).
+- Next continuation should advance beyond this counter cohort and select the next unresolved CaC-usable/null-race records from the canonical dataset.
