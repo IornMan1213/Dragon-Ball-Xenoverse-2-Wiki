@@ -2634,3 +2634,9 @@ Added four explicit Parallel Quest provenance references: **Dark Inscription →
 
 Skills commit: `302826e735c5394d6b46f0a8c23ac953becddc16`.
 
+## 2026-09-19 — source-quest provenance batch 4
+
+Added eight `source_quest` identifiers from explicit existing PQ references in the records: **Dust Attack (PQ78), Emperor's Blast (PQ70), Evil Blast (PQ114), Evil Flame (PQ117), Final Cannon (PQ52), Flash Chaser (PQ138), Gamma Blaster (PQ155), Giant Cluster (PQ163)**. Only the quest numbers already present in repository metadata were promoted; no quest titles were inferred.
+
+Skills commit: `f94c23e99bd1bce43f153b57fbaec54d9fd9187b`.
+
