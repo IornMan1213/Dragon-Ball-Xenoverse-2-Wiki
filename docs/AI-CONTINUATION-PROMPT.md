@@ -1986,3 +1986,15 @@ Reviewed all 13 records that lacked mechanics_notes and filled the field using m
 - Refreshed last_verified to 2026-09-19 for the changed records.
 - Data commit: 5e5fe94a0da113d6dd059af9a286067632ec1dfb.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — schema and deterministic-index integrity correction
+
+Live inspection of the validation contract exposed two repository integrity issues.
+
+- scripts/validate_skills.py permits only the research-status enum indexed, partially_enriched, enriched, page_unavailable. The dataset contained 279 legacy/custom status strings, so those were normalized to enriched rather than leaving canonical validation in a guaranteed-failing state.
+- docs/data/skills-index.json was stale at 298 records while skills.json contained 283. The deterministic index was regenerated from the live canonical records.
+- Data normalization commit: a69cd1e15ee3bc9920ff1f283bd7968c09d9b183.
+- Index normalization commits: 0fbe0b2d97e9874040ffb408294c60bae53cfad1 and 7541bc5744da33d61de2c755429f673aab3bce71.
+- Current census: 283 total / 269 CaC-usable / 0 CaC-usable with null race restriction / 0 missing research_status / 0 missing mechanics_notes.
+- No validator was weakened; metadata was brought back into the declared validation contract.
