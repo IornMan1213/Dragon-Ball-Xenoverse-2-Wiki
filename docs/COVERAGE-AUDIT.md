@@ -839,3 +839,7 @@ Added the dedicated `Counter Burst` technique reference to the existing skill re
 ## 2026-09-19 Super Spirit Bomb — independent Future Warrior corroboration
 
 Added The Codex Future Warrior reference to the existing `Super Spirit Bomb` record. The source explicitly states that the Future Warrior can learn/use Spirit Bomb and Super Spirit Bomb regardless of selected race, independently corroborating the existing `All CaC races` classification. No new classification was inferred from this pass. The same audit confirmed that `Brave Heat`, `Power Pole`, and `Power Pole Combo` are discussed by external Future Warrior references but are not canonical records in the current `skills.json`; no records were fabricated.
+
+## 2026-09-19 — null-race batch: counter/time-skip skills
+
+Reviewed `Rough Ranger`, `Shadow Crusher`, `Sudden Death Beam`, `Super Afterimage`, `Super God Shock Flash`, `Time Skip/Back Breaker`, `Time Skip/Flash Skewer`, `Time Skip/Jump Spike`, `Ultrasonic Blitz`, `Absolute Zero`, `Dragon Burn`, and `Explosive Wave`. Existing Future Warrior/dedicated technique references confirm these as usable techniques, but the checked evidence does not explicitly establish a race/gender restriction or unrestricted-race statement. No classifications were changed.
