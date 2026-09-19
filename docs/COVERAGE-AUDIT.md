@@ -1778,3 +1778,15 @@ Reconciled the next live null-race CaC cohort after God of Destruction's Poise: 
 - No unlock, cost, class, or drop semantics were changed during this pass.
 - Live skill census after this batch: 283 total / 269 CaC-usable / 127 CaC-usable with null race restriction.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Scissors Paper Rock through Apocalyptic Burst race-restriction census
+
+Reviewed the next eight null-race CaC-usable records: **Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, Apocalyptic Burst**.
+
+- Added explicit **All CaC races** scope to **Scissors Paper Rock, Shooting Strike, and Apocalyptic Burst** where Future Warrior evidence establishes CaC availability.
+- Preserved `race_restriction: null` for **Seagull Combination, Soaring Rush, Sonic Bomb, Super God Fist, and Variant Drive**. The reviewed evidence identifies these as cast-character skills or does not independently establish Future Warrior/CaC availability, so no CaC race scope was inferred.
+- Seagull Combination is specifically documented as a Videl (DB Super) skill; Soaring Rush is documented as Goku (Mini)'s skill. Neither was converted to CaC scope merely because the dataset currently marks it CaC-usable.
+- No unlock, class, cost, or drop semantics were changed.
+- Live skill census: **283 total / 269 CaC-usable / 124 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
