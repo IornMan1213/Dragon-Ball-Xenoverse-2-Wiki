@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Reconcile the older normalized reward-map provenance against independent source tables without treating partial canonical batch reward arrays as exhaustive negatives. Next tranche: investigate the remaining normalized-map drift by provenance, starting with Super Soul and equipment conflicts.",
+  "next_completion_gate": "Continue provenance reconciliation of the remaining normalized-map drift, especially edge-only Super Soul/equipment entries, against independent source evidence. Keep source_normalized and source_backed provenance distinct.",
   "current_counts": {
     "skill": 229,
     "super_soul": 125,
@@ -60,6 +60,24 @@
         "edge_only": 39,
         "affected_pq": 45
       }
+    }
+  },
+  "reward_provenance_tranche": {
+    "date": "2026-09-19",
+    "added_source_normalized_edges": 46,
+    "added_by_type": {
+      "skills": 3,
+      "super_souls": 0,
+      "equipment": 43
+    },
+    "principle": "Source-normalized map entries are retained as provenance-backed relationships but are not upgraded to source_backed. Partial empty fields remain non-negative.",
+    "current_counts": {
+      "skill": 232,
+      "super_soul": 135,
+      "equipment": 96,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
     }
   }
 }
