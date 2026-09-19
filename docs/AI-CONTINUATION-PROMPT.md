@@ -1530,3 +1530,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `1d5c971a5618818d77b4bfb860462ca5535c32ae`.
 - Audit commit: `41ef312f6f8fe8c8cc955ab9e050338389e2f369`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Burning Slash.
+
+
+### 2026-09-19 continuation — Burning Swan through Destruction's Conductor
+- Reconciled **Burning Swan, Burst Blitz, Crimson Edge, Deadly Dance, Death Slash, Demon Flurry, Demonic Destruction, and Destruction's Conductor**.
+- CaC-usable records retain null race restriction where no explicit narrower race/gender/form evidence exists; character association alone was not converted into a restriction. Crimson Edge remains non-CaC/character-exclusive.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+- Data commit: `ff9925f71fa23df93b5cfd448554a07f4c7baa12`.
+- Audit commit: `3e3ce0ab4622003d251f3d5e23f62dbf9afd076a`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Destruction's Conductor.
