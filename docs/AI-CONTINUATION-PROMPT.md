@@ -2029,3 +2029,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Inspected `scripts/validate_skills.py`: the validator's deterministic index checks remain satisfied; live `skills-index.json` and `skills.json` both contain **283 records** with matching canonical keys/order.
 - Current direction: classify nullable cost/damage fields rather than treating every null as an error; then proceed to P1 Parallel Quest reward/acquisition/version provenance.
 - Exact next task: perform that class-by-class nullable-field classification and make only evidence-backed corrections, followed by the persistent handoff update.
+
+
+### 2026-09-19 continuation — PQ reward provenance tranche: PQ 18-20
+- Started the P1 Parallel Quest reward/acquisition/version provenance workstream.
+- Canonical `docs/data/pq-record-batches/pq-015-020.json` now records verified skill rewards for PQ 18-20: **18 = Time Control + Mach Dash; 19 = Mach Punch + Fighting Pose E; 20 = Mystic Flash**.
+- Evidence was checked against the current Steam all-186 PQ guide and dedicated skill pages; PQ 19 is independently listed with Mach Punch/Fighting Pose E, and Mystic Flash is explicitly unlocked by PQ 20. citeturn1search1turn1search0turn1search5
+- Data commit: `909c71bd5082761f9848b937bcb8aa4d65f35f5d`.
+- Do not use the older partial reward-map empties as negative evidence. They mean unresolved in that normalization layer, not “no reward.”
+- Exact next task: reconcile PQ 21-40 skill rewards against direct current-reference evidence, updating only evidence-backed relationships and then update this handoff again.
