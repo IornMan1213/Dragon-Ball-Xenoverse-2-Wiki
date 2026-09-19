@@ -2673,3 +2673,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `85b4e9a63a2de387e28076220df437a94489b1b9`.
 - Coverage audit commit: `5bfc59288dafbcee0e3119ea8c8ef693582604b6`.
 - Exact next task: with the UF nullable census at zero, begin the next bounded data-quality pass rather than making unsupported UF inferences. Prioritize remaining nulls in other skill fields and cross-file relationship integrity.
+
+
+### 2026-09-19 continuation — basic-reward Super batch 31
+- Resolved **Vanishing Ball (PQ58), Evil Whirlwind (PQ36), Justice Pose (PQ53), Taunt (PQ45), and Super God Fist (PQ67)** as `ultimate_finish_required=false` from explicit Basic Reward placement. citeturn0search0turn0search1
+- Live nullable Super/Ultimate census: **19 total — 19 Super / 0 Ultimate**.
+- Skills commit: `dbb35d0fa1e57db2fa51998c53ee72057abdd179`.
+- Coverage audit commit: `189f69a90de6f40ef66d2114422b535fbb4cc5b4`.
+- Exact next task: continue the remaining nullable Super records using explicit reward-section evidence; do not infer UF gating from RNG or generic PQ association.
