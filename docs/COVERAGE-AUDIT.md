@@ -1349,3 +1349,16 @@ Reconciled **Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's
 - No race restriction was inferred from character ownership, mentor/PQ source, or generic Future Warrior listings alone.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Final Flash (Super) through God Punisher
+
+Reconciled **Final Flash (Super), Flash Chaser, Galick Gun, Gamma Blaster, Giant Cluster, Gigantic Charge, God of Destruction's Plaything, and God Punisher**.
+
+- **Final Flash (Super)** remains non-CaC because current evidence explicitly identifies it as a character-exclusive skill.
+- Flash Chaser, Gamma Blaster, Giant Cluster, and God of Destruction's Plaything remain CaC-usable without an explicitly established narrower race/gender/form restriction.
+- Galick Gun retains explicit **All CaC races** scope.
+- **Gigantic Charge** retains its corrected **Strike** classification and 200 Ki / 300 Stamina mechanics; it was not normalized back to Ki Blast based on its character association.
+- **God Punisher** retains its corrected **Ultimate / 400 Ki** classification rather than the older incorrect Super / 100 Ki values.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
