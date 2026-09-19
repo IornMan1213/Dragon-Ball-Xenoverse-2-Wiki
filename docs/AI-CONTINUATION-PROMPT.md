@@ -1311,3 +1311,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Important corrections: Raid Blast source = Super Saiyan God Vegeta; Spirit Blaster source = SSGSS Gogeta; Rolling Bullet = **Ki Blast Evasive, 200 Stamina**, PQ42.
 - Data commit: `0be27a0e9081d2214741ec0a357643207eedc0b2`; audit commit: `dd7ad4396caabdb78b386f575340ea4e9d2da877`.
 - Continue from the records immediately following Spirit Bomb in dataset order.
+
+
+### 2026-09-19 continuation — Spirit Pulse through Wild Buster
+- Reconciled Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attack, Vanishing Ball, Variable Snipe Shot, Victory Cannon, and Wild Buster.
+- Important corrections: Stone Bullet = **Strike Super, 100 Ki, PQ56**; Victory Cannon = **Ki Blast Evasive, 300 Stamina, PQ54**.
+- Data commit: `b16a03d4cee11af7a1bcc8f6a2ce1e3e582a453a`; audit commit: `0ddc01bf8c4a92ebce70c0fd4c6e97fe8e2cdbe4`.
+- Continue from the records immediately following Wild Buster in dataset order.
