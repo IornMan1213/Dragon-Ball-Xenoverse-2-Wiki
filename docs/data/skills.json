@@ -3749,9 +3749,9 @@
       "source_quest_or_shop": "Parallel Quest 133",
       "ultimate_finish_required": true,
       "skill_description": "Formation! is a Super Power Up skill associated with Ribrianne.",
-      "mechanics_notes": "Confirmed as Ribrianne's 100-Ki PQ133 Ultimate Finish Power Up Super. Holding/charging changes the duration, documented at about 30, 31.5, and 33 seconds for the three charge levels.",
+      "mechanics_notes": "Confirmed as Ribrianne's 100-Ki PQ133 Ultimate Finish Power Up Super. Holding/charging changes the duration, documented at about 30, 31.5, and 33 seconds for the three charge levels. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3760,7 +3760,8 @@
         "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2-extra-pack-3/answers/642221-what-do-i-have-to-complete-to-get-the-formation-skill-in-xeno-verse-2",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 133
+      "source_quest": 133,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Indomitable",
@@ -3776,9 +3777,9 @@
       "source_quest_or_shop": "PQ185 (also reported in PQ186 reward pool)",
       "ultimate_finish_required": null,
       "skill_description": "Chapter 4 power-management Super associated with Goku (Ultra Supervillain Quelled).",
-      "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified.",
+      "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
@@ -3786,7 +3787,8 @@
         "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/"
       ],
       "description": "Power Up Super Skill from Future Saga Chapter 4 that charges both Ki and Stamina; its behavior changes as the user's health falls.",
-      "mechanics": "Charges Ki and Stamina simultaneously. Recent community testing reports a slow baseline Ki charge that becomes substantially faster below 50% health; exact timing and whether the threshold applies identically across all contexts remain partially verified."
+      "mechanics": "Charges Ki and Stamina simultaneously. Recent community testing reports a slow baseline Ki charge that becomes substantially faster below 50% health; exact timing and whether the threshold applies identically across all contexts remain partially verified.",
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Justice Pose",
@@ -3804,7 +3806,7 @@
       "skill_description": "Justice Pose is a Super Power Up skill associated with Great Saiyaman.",
       "mechanics_notes": "Confirmed as Great Saiyaman's 0-Ki PQ53 Power Up Super, usable by all CaC races. It boosts all stats for 20 seconds.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3828,7 +3830,7 @@
       "ki_cost": 0,
       "mechanics_notes": "Confirmed as a 0-Ki PQ122 Power Up Super usable by all CaC races. After activation it raises maximum Ki and provides automatic Ki recovery for about 20 seconds in current versions; its interactions with other reinforcement buffs are version-sensitive.",
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "duration_seconds": 20,
       "unlock_method": "Parallel Quest reward",
       "source_quest": 122,
@@ -3852,14 +3854,15 @@
       "source_quest_or_shop": "Parallel Quest 45",
       "ultimate_finish_required": null,
       "skill_description": "Taunt is a Super Power Up skill associated with Hercule.",
-      "mechanics_notes": "Confirmed as Hercule's 0-Ki Power Up Super from PQ45. The user performs a taunting pose that can draw opponent attention; it is usable by CaCs.",
+      "mechanics_notes": "Confirmed as Hercule's 0-Ki Power Up Super from PQ45. The user performs a taunting pose that can draw opponent attention; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Taunt"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Blazing Attack",
@@ -3875,16 +3878,17 @@
       "source_quest_or_shop": "Parallel Quest 136",
       "ultimate_finish_required": true,
       "skill_description": "Blazing Attack is a Super Strike skill associated with Goku (Ultra Instinct).",
-      "mechanics_notes": "Confirmed as Goku (Ultra Instinct)'s 100-Ki Strike Super from PQ136 Ultimate Finish. It is a close-range martial-arts strike that can be extended with additional input.",
+      "mechanics_notes": "Confirmed as Goku (Ultra Instinct)'s 100-Ki Strike Super from PQ136 Ultimate Finish. It is a close-range martial-arts strike that can be extended with additional input. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 136
+      "source_quest": 136,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Brave Sword Slash",
@@ -3900,16 +3904,17 @@
       "source_quest_or_shop": "Parallel Quest 116",
       "ultimate_finish_required": null,
       "skill_description": "Brave Sword Slash is a Super Strike skill associated with Tapion.",
-      "mechanics_notes": "Confirmed as Tapion's 100-Ki Strike Super from PQ116, usable by CaCs. Tapion draws the Brave Sword and performs a long-range sword slash; it is one of Tapion's Future Warrior-compatible sword skills.",
+      "mechanics_notes": "Confirmed as Tapion's 100-Ki Strike Super from PQ116, usable by CaCs. Tapion draws the Brave Sword and performs a long-range sword slash; it is one of Tapion's Future Warrior-compatible sword skills. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Burning Slash",
@@ -3933,7 +3938,7 @@
       "unlock_method": "Parallel Quest 44 reward",
       "source_quest": 44,
       "last_verified": "2026-09-19",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback."
     },
     {
