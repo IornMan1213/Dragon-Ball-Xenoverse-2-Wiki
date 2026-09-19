@@ -2348,3 +2348,14 @@ Resolved `ultimate_finish_required: false` for **Solar Flare** (PQ03), **Wall of
 - No schema or validator changes were made.
 - Skills commit: `86634b42a5eb23307c213bd6a9da140ff6ccf3bd`.
 
+
+
+## 2026-09-19 — basic-reward non-UF batch 18
+
+Resolved `ultimate_finish_required: false` for **Paralysis** (PQ34), **Ill Rain** (PQ64), **Ill Bomber** (PQ90), **Super Donut Volley** (PQ55), **Stone Bullet** (PQ56), **Petrifying Spit** (PQ114), **Handy Canon** (PQ115), and **Brave Sword Slash** (PQ116). The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from the quest Ultimate Finish conditions. citeturn0search0turn0search1
+
+- Evidence was treated as explicit reward-row evidence; no UF status was inferred merely from PQ association.
+- Live nullable Super/Ultimate census after this batch should be recomputed before the next batch.
+- Skills commit: `f849d0c85810ed96d87916d454eee0b0d2a8a361`.
+- No schema or validator changes.
+
