@@ -1811,7 +1811,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Dark Inscription is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1819,7 +1819,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 182 — Frieza's Fervent Wish"
     },
     {
       "name": "Death Psycho Bomb",
@@ -1863,7 +1864,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Demon Ray is a Super Ki Blast skill used by Gohan (Beast).",
       "mechanics_notes": "Dedicated current-version evidence confirms Demon Ray as a 100-Ki Ki Blast Super from PQ160, with a 300-Stamina follow-up/use-while-hit mechanic. Existing acquisition record is retained. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1871,7 +1872,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 160 — Pan in Peril"
     },
     {
       "name": "Destruction's Concerto: Comet",
@@ -1888,7 +1890,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Comet is a Super Ki Blast skill associated with Vados.",
       "mechanics_notes": "Dedicated current-version evidence confirms Destruction's Concerto: Comet as a 100–200 Ki Ki Blast Super from PQ104. It creates a slow-moving tracking sphere; Destruction's Conductor can accelerate it and enable the multi-hit behavior. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1896,7 +1898,8 @@
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Comet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 104 — Vados the Talent Scout"
     },
     {
       "name": "Destruction's Concerto: Starfall",
@@ -1913,7 +1916,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Starfall is a Super Ki Blast skill associated with Vados.",
       "mechanics_notes": "Current evidence confirms Destruction's Concerto: Starfall as a Vados Super Skill obtainable from PQ104; it creates two energy spheres and can interact with Destruction's Conductor. No unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1921,7 +1924,8 @@
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Starfall",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Parallel Quest 104 — Vados the Talent Scout"
     },
     {
       "name": "Destructo-Disc",
