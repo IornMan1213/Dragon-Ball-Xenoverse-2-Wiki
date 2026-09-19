@@ -692,3 +692,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Independent player testing also documents Full Power Destruction and God of Destruction's Poise being used on a CaC. citeturn1search5
 - All six are now `usable_by_cac: true`; no race restriction was inferred. Exact reward/drop semantics remain separate from CaC eligibility, so they remain `partially_verified`.
 - Skills commit: `6bb28b3140b30047c04a22436593cfc4feb55157`.
+
+
+## 2026-09-19 Heat Wave CaC evidence
+
+- **Heat Wave** was found in a documented player CaC build, providing direct evidence of in-game custom-character use rather than relying on the skill's character/PQ provenance. citeturn4search4
+- Corrected `usable_by_cac` to `true`; no race restriction was inferred from that build.
+- The record remains `partially_verified` because the build establishes use, not the complete acquisition/drop semantics.
+- Skills commit: `7e4650b290fdf48c6b1c237286b1a7772ff6cd25`.
