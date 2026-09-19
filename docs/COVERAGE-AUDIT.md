@@ -1168,3 +1168,8 @@ Reconciled Giant Cluster, Gigantic Charge, God of Destruction's Plaything, God P
 - Handy Canon confirmed 100 Ki / Ki Blast Super / PQ115.
 - Ill Bomber confirmed 100 Ki / Ki Blast Super / PQ90 and restricted to Majin CaCs.
 - Giant Cluster and God of Destruction's Plaything retained their existing costs while mechanics/restriction evidence remains bounded.
+
+
+## 2026-09-19 — Ill Rain through Photon Swipe cohort
+
+Reconciled Ill Rain, Kamehameha, Masenko, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Shot, and Photon Swipe. Confirmed classifications, costs, acquisition, and explicit CaC restrictions where supported; no unsupported race restrictions were inferred.
