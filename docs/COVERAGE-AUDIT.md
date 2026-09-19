@@ -1457,3 +1457,13 @@ Reconciled **Wall of Defense, Charge, Data Input, Divinity Unleashed, Do or Die,
 - Fighting Pose H retains the corrected Guldo attribution.
 - Charge, Data Input, Divinity Unleashed, and the Fighting Pose skills retain their current acquisition/mechanics records pending stronger numerical/drop evidence where applicable.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Formation! through Burning Slash
+
+Reconciled **Formation!, Indomitable, Justice Pose, Meditation, Taunt, Blazing Attack, Brave Sword Slash, and Burning Slash**.
+
+- Formation!, Indomitable, Justice Pose, Meditation, Taunt, Blazing Attack, and Brave Sword Slash remain CaC-usable with **All CaC races** recorded under the current evidence boundary.
+- Burning Slash retains its explicit **Earthling/Human and Saiyan** restriction.
+- Indomitable's current mechanics remain partially verified, including the reported health-dependent Ki-charge behavior.
+- Live census is now **283 total / 269 CaC-usable / 170 CaC-usable with null race restriction**.
