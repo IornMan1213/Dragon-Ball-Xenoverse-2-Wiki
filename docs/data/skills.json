@@ -3236,7 +3236,8 @@
       "ultimate_finish_required": null,
       "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "source_quest_or_shop": "Character-exclusive"
     },
     {
       "name": "Full Power Charge",
@@ -3564,7 +3565,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races while using Ultra Instinct",
       "research_status": "race_restriction_reconciled",
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "source_quest_or_shop": "Character-exclusive"
     },
     {
       "name": "Time Bullet",
@@ -4019,7 +4021,8 @@
       "source_quest": 44,
       "last_verified": "2026-09-19",
       "research_status": "race_restriction_reconciled",
-      "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback."
+      "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback.",
+      "source_quest_or_shop": "Parallel Quest 44"
     },
     {
       "name": "Burning Swan",
@@ -4280,7 +4283,8 @@
       "usable_by_cac": false,
       "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect."
+      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect.",
+      "source_quest_or_shop": "Character skill"
     },
     {
       "name": "Emperor's Edge",
@@ -4330,7 +4334,8 @@
       "unlock_method": "Parallel Quest 21 reward",
       "source_quest": 21,
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "source_quest_or_shop": "Parallel Quest 21"
     },
     {
       "name": "Evil Whirlwind",
@@ -4705,7 +4710,8 @@
       "ultimate_finish_required": null,
       "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "source_quest_or_shop": "TP Medal Shop"
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -4950,7 +4956,8 @@
       "unlock_method": "Parallel Quest 38 reward",
       "source_quest": 38,
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "source_quest_or_shop": "Parallel Quest 38"
     },
     {
       "name": "Shooting Strike",
@@ -5843,7 +5850,7 @@
       "dlc_requirement": null,
       "ki_cost": 300,
       "unlock_method": "Parallel Quest 20 - \"Frieza! Show Yourself!\"",
-      "source_quest_or_shop": null,
+      "source_quest_or_shop": "Parallel Quest 20",
       "ultimate_finish_required": null,
       "mechanics_notes": "Dedicated current-version evidence confirms Mystic Flash as a 300-Ki Ki Blast Ultimate from PQ20, used by Nail and customizable Piccolo. The page does not explicitly establish CaC race/gender/form scope.",
       "research_status": "race_restriction_reconciled",
@@ -5865,7 +5872,7 @@
       "dlc_requirement": null,
       "ki_cost": 300,
       "unlock_method": "Parallel Quest 137 - \"Tournament of Power Round 2\"",
-      "source_quest_or_shop": null,
+      "source_quest_or_shop": "Parallel Quest 137",
       "ultimate_finish_required": null,
       "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum.",
       "research_status": "race_restriction_reconciled",
@@ -6155,7 +6162,8 @@
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "source_quest_or_shop": "Expert Mission 6"
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -6351,7 +6359,8 @@
       "ultimate_finish_required": null,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
-      "research_status": "race_restriction_reconciled"
+      "research_status": "race_restriction_reconciled",
+      "source_quest_or_shop": "Training with Lord Slug, Lesson 3"
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -6375,7 +6384,8 @@
       "last_verified": "2026-09-19",
       "research_status": "race_restriction_reconciled",
       "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
-      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors."
+      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors.",
+      "source_quest_or_shop": "Training with Lord Slug, Lesson 3"
     },
     {
       "name": "Divine Lasso",
@@ -6440,7 +6450,8 @@
       "race_restriction": "All CaC races",
       "research_status": "reconciled_future_warrior_evidence",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price."
+      "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price.",
+      "source_quest_or_shop": "TP Medal Shop"
     },
     {
       "name": "Explosive Buu Buu Punch",
