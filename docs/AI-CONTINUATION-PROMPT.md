@@ -1304,3 +1304,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Reconciled Ill Rain, Kamehameha, Masenko, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Shot, and Photon Swipe.
 - Data commit: `1d044cf4caf917fac008b758c9aa40259c4967ba`; audit commit: `32f54a1fc1baaca7aa4d120a23187949f691da80`.
 - Continue from the records immediately following Photon Swipe in dataset order.
+
+
+### 2026-09-19 continuation — Pretty Cannon through Spirit Bomb
+- Reconciled Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster, and Spirit Bomb.
+- Important corrections: Raid Blast source = Super Saiyan God Vegeta; Spirit Blaster source = SSGSS Gogeta; Rolling Bullet = **Ki Blast Evasive, 200 Stamina**, PQ42.
+- Data commit: `0be27a0e9081d2214741ec0a357643207eedc0b2`; audit commit: `dd7ad4396caabdb78b386f575340ea4e9d2da877`.
+- Continue from the records immediately following Spirit Bomb in dataset order.
