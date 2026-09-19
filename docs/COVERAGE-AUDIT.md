@@ -535,3 +535,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Independent references confirm the quest names, DLC associations, Ultimate Finish conditions, and documented rewards. PQ161–162 belong to Hero of Justice Pack 2, while PQ163–170 are Future Saga Chapter 1 content. 
 - The existing explicit drop-rate statements were preserved; no new probabilities were inferred. PQ161's 7-minute condition, PQ162's player-health-over-50% condition, and PQ163–170's listed time/target conditions were cross-checked against independent Ultimate Finish records. 
 - Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 16 records still lacking individual `sources` arrays**.
+
+
+## Parallel Quest provenance pass — PQ171–PQ180 — 2026-09-19
+
+- Completed record-level provenance for **PQ171–PQ180**; all ten records now carry explicit source URLs and a 2026-09-19 verification date.
+- Independent references cross-check the Future Saga Chapter 1/2 and Dragon Ball DAIMA DLC associations, Ultimate Finish conditions, and documented rewards for these quests. 
+- No new reward probabilities were inferred; existing explicit drop-rate evidence in the maintained corpus was preserved.
+- Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 6 records still lacking individual `sources` arrays**.
