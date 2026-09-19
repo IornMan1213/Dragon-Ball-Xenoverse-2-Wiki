@@ -5562,12 +5562,12 @@
       "ki_cost": 500,
       "unlock_method": "TP Medal Shop / Parallel Quest 91 - \"Saiyan Revolt\" / Double Crystal Raids",
       "source_quest_or_shop": "TP Medal Shop / Parallel Quest 91 / Double Crystal Raids",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "usable_by_cac": true,
       "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha.",
       "research_status": "enriched",
-      "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users.",
+      "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users. Documented independent acquisition route does not require a Parallel Quest Ultimate Finish.",
       "race_restriction": "All CaC races"
     },
     {
@@ -6186,13 +6186,14 @@
       "ki_cost": 300,
       "unlock_method": "Expert Mission 16",
       "last_verified": "2026-09-19",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Expert Mission 16 - In the Realm of the Gods: Vegeta",
       "research_status": "enriched",
-      "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile."
+      "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile.",
+      "notes": "Documented independent acquisition route does not require a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Supernova",
@@ -6206,12 +6207,13 @@
       "ki_cost": 500,
       "unlock_method": "Expert Mission 6 - \"The Depths of Despair\"",
       "last_verified": "2026-09-19",
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
       "source_quest_or_shop": "Expert Mission 6",
-      "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere."
+      "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere.",
+      "notes": "Documented independent acquisition route does not require a Parallel Quest Ultimate Finish."
     },
     {
       "name": "Teleporting Vanishing Ball",
