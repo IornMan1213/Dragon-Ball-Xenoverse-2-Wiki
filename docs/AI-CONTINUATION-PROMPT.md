@@ -1764,3 +1764,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit follows in this cycle.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — Photon Swipe through Spirit Blaster
+- Reviewed the next eight null-race CaC-usable records: **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster**.
+- Preserved null race restrictions because reviewed Future Warrior/CaC evidence does not establish a narrower race/gender/form restriction.
+- Data commit: 0b2f660b9101a219dea71e1411cda9ff872d2fa7.
+- Audit commit follows in this cycle.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+- Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
