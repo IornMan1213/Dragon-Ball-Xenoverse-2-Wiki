@@ -618,3 +618,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `ed425d388377902aed738ba03ae49b85342d3c41`; coverage commit: `71c9479de17e21b3a0eac16f5b18ddd6b8614e32`.
 - The external Fandom search endpoint remains intermittently robots-blocked; accessible search results and repository source URLs were used where available. No unsupported claims were promoted to `verified`.
 - Exact next task: continue the remaining missing-CaC cohort, focusing on DAIMA/Future Saga skills and explicit racial/character boundaries, then perform a census of remaining null core fields before moving beyond the skills workstream.
+
+
+### 2026-09-19 cycle update — DAIMA/Future Saga boundary investigation
+- Read the live handoff and continued the P1 missing-`usable_by_cac` audit.
+- Investigated **Burning Blast, Force Edge, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** plus the broader Future Saga Chapter 2 cohort. Current sources confirm their DAIMA character/PQ provenance, but do not explicitly establish Future Warrior eligibility for the individual moves. The repository therefore leaves `usable_by_cac` null rather than incorrectly marking them false or true. citeturn0search5turn0search7turn0search10turn2search0
+- This follows the repository's evidence rule: character-equipped skill lists are not sufficient proof of CaC availability, because Xenoverse 2 has race/gender/transform-specific restrictions. citeturn0search3
+- Coverage investigation commit: `79e5e23a659df0b4eb73fb73bb505f0f6d4ea953`.
+- Exact next task: continue the unresolved Future Saga/DAIMA cohort using explicit Future Warrior/CaC evidence, then audit remaining null `usable_by_cac`, `race_restriction`, and DLC/version fields as a complete census. Do not promote records to `verified` without resolving acquisition/reward semantics as well.
