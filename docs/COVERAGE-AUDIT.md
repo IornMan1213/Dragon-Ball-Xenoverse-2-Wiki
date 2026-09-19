@@ -2517,3 +2517,13 @@ Resolved `ultimate_finish_required: false` for **Scissors Paper Rock (PQ65)** an
 - Live nullable Super/Ultimate census after this batch: **14 total — 14 Super / 0 Ultimate**.
 - Skills commit: `f9c36077153b37c5a9bb7dc9e5f2a28b07a10ee7`.
 - No schema or validator changes.
+
+
+## 2026-09-19 — Meditation UF conflict resolution
+
+Resolved `ultimate_finish_required: false` for **Meditation (PQ122)**. Current evidence identifies Meditation as a random drop from Jiren rather than an Ultimate Finish-only reward: a GameFAQs PQ122 discussion explicitly distinguishes Meditation as dropping from Jiren while identifying Power Rush as the Ultimate Finish reward, and a later community report states Meditation can drop without Ultimate Finish. citeturn0search4turn0reddit13
+
+- Earlier reports claiming UF was required are retained as conflicting evidence rather than ignored; the stronger acquisition-specific evidence supports non-UF gating. citeturn0search0turn0search10
+- Live nullable Super/Ultimate census after this resolution: **13 total — 13 Super / 0 Ultimate**.
+- Skills commit: `fcc6418520e35a775a2dc41e090b7ecb82b04b78`.
+- No schema or validator changes.
