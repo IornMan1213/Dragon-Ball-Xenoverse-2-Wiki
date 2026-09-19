@@ -37,7 +37,7 @@ Only one Super Soul can be equipped at a time on a preset. Because copies are sh
 
 The machine-readable source of truth is `docs/data/super-souls-record-layer.json`.
 
-The canonical layer currently contains **18 populated records**. This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
+The canonical layer currently contains **26 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
 
 ### Canonical records
 
@@ -45,18 +45,18 @@ The initial canonical population covers the first 18 research records, including
 
 ### Staged research batch 03
 
-The next eight records have now been researched and staged in `docs/data/super-souls-research-batch-03.json`. They are deliberately **not merged into the canonical layer yet**; this keeps the canonical dataset's verification workflow honest while acquisition and current-version details are reconciled.
+The next eight records have now been researched and staged in `docs/data/super-souls-research-batch-03.json`. These eight records were promoted into the canonical layer on 2026-09-19 after duplicate, schema, acquisition, and independent-source reconciliation. Exact current shop rotation timing and unresolved drop-rate behavior remain intentionally unclaimed.
 
 | Staged ID | Super Soul | Source | Acquisition | Status |
 |---|---|---|---|---|
-| 024 | I'm the fastest in the universe | Burter | Item Shop | Partially verified |
-| 025 | We're the one and only Ginyu Force! | Jeice | Item Shop | Partially verified |
-| 026 | Let me show you how it's done. | Ginyu | Item Shop | Partially verified |
-| 027 | I must protect Grand Elder Guru! | Nail | Item Shop | Partially verified |
-| 028 | Popporunga pupirittparo | Dende | NPC Sasana | Partially verified |
-| 029 | The ultimate power is mine! | Piccolo | Mixing Shop / DLC provenance | Partially verified |
-| 030 | I'll never forgive you, scum! | Frieza (1st Form) | Item Shop | Partially verified |
-| 031 | Drop dead!!! | Gohan (Kid) | PQ28 | Partially verified |
+| 024 | I'm the fastest in the universe | Burter | Item Shop | Verified |
+| 025 | We're the one and only Ginyu Force! | Jeice | Item Shop | Verified |
+| 026 | Let me show you how it's done. | Ginyu | Item Shop | Verified |
+| 027 | I must protect Grand Elder Guru! | Nail | Item Shop | Verified |
+| 028 | Popporunga pupirittparo | Dende | NPC Sasana | Verified |
+| 029 | The ultimate power is mine! | Piccolo | Mixing Shop / DLC provenance | Verified |
+| 030 | I'll never forgive you, scum! | Frieza (1st Form) | Item Shop | Verified |
+| 031 | Drop dead!!! | Gohan (Kid) | PQ28 | Verified |
 
 The staged batch follows the game's catalogue ordering for this research pass; its IDs are research identifiers and do not overwrite the canonical layer's existing IDs.
 
@@ -78,7 +78,7 @@ DLC ownership and in-game acquisition are stored separately. A DLC can introduce
 
 ## Research priorities
 
-- Merge staged records into the canonical layer only after schema, duplicate, acquisition, and source reconciliation passes.
+- Continue expanding the canonical layer after schema, duplicate, acquisition, and source reconciliation passes. Batch 03 (IDs 024–031) has completed this promotion gate.
 - Populate the remaining base-game catalogue.
 - Reconcile acquisition and effects against independent references.
 - Inventory DLC-specific Super Souls by DLC family.
