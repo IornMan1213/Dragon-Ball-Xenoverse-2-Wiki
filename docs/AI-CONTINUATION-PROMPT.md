@@ -2303,3 +2303,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - These are currently Skill Shop acquisitions, providing direct evidence that Ultimate Finish is not required for their acquisition.
 - Preserved remaining Evasive Ultimate-Finish nulls where PQ reward mechanics are not explicit enough to distinguish ordinary random rewards from UF-only rewards.
 - Next exact task: **continue with a small Super/Ultimate acquisition metadata batch or another Evasive field only where direct source evidence is explicit.**
+
+
+### 2026-09-19 continuation — Super Ultimate-Finish metadata batch
+- Resolved Rough Ranger `ultimate_finish_required` to true from explicit PQ119 Ultimate Finish acquisition metadata.
+- No other Super Ultimate-Finish nulls were changed because ordinary PQ reward wording does not establish UF-only gating.
+- Next exact task: **continue with a small Super/Ultimate acquisition batch where the repository has explicit mentor, shop, wish, or Ultimate-Finish provenance.**
