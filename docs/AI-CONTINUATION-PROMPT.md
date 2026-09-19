@@ -396,3 +396,15 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **26 records still lacking individual `sources` arrays**.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Base-game PQ1–PQ100 provenance pass is now complete at the current record-level-source standard. **Exact next task: continue with the remaining 26 records lacking individual sources, starting with the next highest-priority batch and preserving the same evidence standard.** Do not assume the remaining records are lower quality merely because they lack sources; inspect each batch, reconcile objectives/rewards/unlocks independently, and update coverage audit, changelog, handoff, and Actions/status after each pass.
+
+
+### 2026-09-19 cycle update — PQ161–170 provenance pass
+- Workstream: Remaining DLC Parallel Quest record-level provenance.
+- Completed source coverage for **PQ161–PQ170**, with explicit source URLs and 2026-09-19 verification dates.
+- Independent references confirm PQ161–162 as Hero of Justice Pack 2 and PQ163–170 as Future Saga Chapter 1, along with their listed Ultimate Finish conditions and basic rewards.
+- Existing explicit reward/drop-rate evidence was preserved; no probabilities were inferred beyond the maintained corpus.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-16.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `5c0eaf8f926dc5495b20f21fb8932412abcb27ac` (PQ161–170 research), `4ea086886b425dd0db2a10adc38a34e29a57348e` (coverage audit), `e86fa4086cc14760b30c0ca7781d45c550aa2ec6` (changelog).
+- Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **16 records still lacking individual `sources` arrays**.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Exact next task: **PQ171–PQ180**, then PQ181–PQ186. Continue reducing the remaining 16 unsourced records with the same record-level provenance standard. Pay attention to Future Saga Chapter 1/2/3 and later DLC associations, objective/reward changes, and exact skill-drop semantics; preserve explicit percentages but never infer them. Update coverage audit, changelog, handoff, and Actions/status after each pass.
