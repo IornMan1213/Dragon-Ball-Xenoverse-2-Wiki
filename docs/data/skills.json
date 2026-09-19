@@ -1944,7 +1944,7 @@
       "skill_description": "Dust Attack is a Super Ki Blast skill associated with Hercule.",
       "mechanics_notes": "Current evidence confirms Dust Attack's PQ78 acquisition record. The broad Super Attack index places Dust Attack under Other rather than Ki Blast Skills, so the dataset's existing Ki-Blast classification should remain flagged for direct skill-page reconciliation rather than being silently normalized.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1968,7 +1968,7 @@
       "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
       "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11, with Ultimate Finish required in the existing acquisition record.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
@@ -1989,7 +1989,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "ultimate_finish_required": null,
       "unlock_method": "Parallel Quest 70 - \"Things Are Getting Serious!\"; also available through TP Medal Shop rotation",
       "usable_by_cac": true,
@@ -2013,7 +2013,7 @@
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Current dedicated evidence confirms Emperor's Cannon as a 100-Ki Ki Blast Super from PQ184, 'The Invincible Duo', correcting the prior PQ183 record. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
@@ -2038,7 +2038,7 @@
       "skill_description": "Eraser Bomb is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2062,7 +2062,7 @@
       "skill_description": "Evil Blast is a Super Ki Blast skill associated with Dabura.",
       "mechanics_notes": "Current evidence confirms Evil Blast as a 100-Ki Ki Blast Super from PQ114. Its dedicated documentation should remain the authority for exact drop gating; no unsupported CaC restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2087,7 +2087,7 @@
       "skill_description": "Evil Flame is a Super Ki Blast skill associated with Dabura.",
       "mechanics_notes": "Current evidence confirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. Its dedicated documentation is retained as the primary mechanics source; no unsupported CaC restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2113,7 +2113,7 @@
       "skill_description": "Final Cannon is a Super Ki Blast skill associated with Android 16.",
       "mechanics_notes": "Current evidence confirms Final Cannon as a 100-Ki Ki Blast Super from PQ52. No unsupported CaC race/gender/form restriction inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_current_version_evidence",
+      "research_status": "race_restriction_reconciled",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
