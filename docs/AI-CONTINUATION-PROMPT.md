@@ -610,3 +610,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `00ef8d9e609274297915e365f21f0924e598d968`; coverage commit: `b8be718e528cbb5c03e356448d8639ee160cab9e`.
 - Note: the public Fandom endpoint was robots-blocked in one web lookup, so corroboration used accessible Dragon Ball Wiki/current repository source URLs rather than pretending the blocked page was independently verified.
 - Exact next task: continue the remaining missing `usable_by_cac` cohort, prioritizing recent DLC/DAIMA skills and explicit character-only boundaries, then reconcile race restrictions before promoting any records to `verified`.
+
+
+### 2026-09-19 cycle update — Future Warrior ultimate-skill reconciliation
+- Continued the missing-`usable_by_cac` audit with Future Warrior-specific evidence rather than inferring CaC eligibility from a character's use of a skill.
+- Reconciled **Big Bang Kamehameha, Super Spirit Bomb, Emperor's Death Beam, and Final Explosion**. Big Bang Kamehameha is obtainable through the TP Medal Shop; Super Spirit Bomb through Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion through the TP Medal Shop. citeturn1search1turn2search1turn2search2turn3search0
+- Skills commit: `ed425d388377902aed738ba03ae49b85342d3c41`; coverage commit: `71c9479de17e21b3a0eac16f5b18ddd6b8614e32`.
+- The external Fandom search endpoint remains intermittently robots-blocked; accessible search results and repository source URLs were used where available. No unsupported claims were promoted to `verified`.
+- Exact next task: continue the remaining missing-CaC cohort, focusing on DAIMA/Future Saga skills and explicit racial/character boundaries, then perform a census of remaining null core fields before moving beyond the skills workstream.
