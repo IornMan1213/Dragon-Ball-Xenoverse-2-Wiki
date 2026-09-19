@@ -859,3 +859,7 @@ Reviewed `Destruction's Concerto: Comet`, `Destruction's Concerto: Starfall`, `D
 ## 2026-09-19 — null-race batch: later DLC/mentor techniques
 
 Reviewed `Flash Chaser`, `Gamma Blaster`, `Giant Cluster`, `Gigantic Charge`, `God of Destruction's Plaything`, `God Punisher`, `Handy Canon`, `Headshot`, `Heat Wave`, `Ill Rain`, `Paralysis`, and `Paralyze Beam`. Direct technique references were checked where available. Four records (`Flash Chaser`, `Gamma Blaster`, `God Punisher`, `Headshot`) received additional direct technique-page provenance; the evidence confirms Future Warrior acquisition/use but does not establish a new race restriction. No `race_restriction` values were changed for this cohort.
+
+## 2026-09-19 — null-race batch: late offensive/evasion skills
+
+Reviewed `Pendulum Bullet`, `Photon Swipe`, `Pretty Cannon`, `Raid Blast`, `Ray Blast`, `Reverse Shot`, `Rolling Bullet`, `Shine Shot`, `Spirit Blaster`, `Spirit Pulse`, `Stone Bullet`, and `Super Donut Volley`. Added direct technique-page provenance for `Photon Swipe`, confirming its Xenoverse 2 identity and Future Warrior acquisition from New Parallel Quest 139. The checked evidence does not establish a new individual race/gender restriction for the cohort, so no `race_restriction` values were changed.
