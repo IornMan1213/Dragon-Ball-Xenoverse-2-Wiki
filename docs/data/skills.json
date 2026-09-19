@@ -5614,9 +5614,10 @@
       "unlock_method": "Parallel Quest 20 - \"Frieza! Show Yourself!\"",
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
-      "mechanics_notes": "Rear-facing Ki wave that is fired behind the user rather than forward.",
-      "research_status": "reconciled_future_warrior_explicit_evidence",
-      "last_verified": "2026-09-19"
+      "mechanics_notes": "Dedicated current-version evidence confirms Mystic Flash as a 300-Ki Ki Blast Ultimate from PQ20, used by Nail and customizable Piccolo. The page does not explicitly establish CaC race/gender/form scope.",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
+      "damage_type": "Ki Blast"
     },
     {
       "name": "Prominence Flash",
@@ -5654,9 +5655,10 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 106 — A Destructive Showdown",
       "ultimate_finish_required": null,
-      "mechanics_notes": "Traps the opponent in a powerful Ki Blast and detonates it in a large explosion.",
-      "research_status": "reconciled_future_warrior_explicit_evidence",
-      "last_verified": "2026-09-19"
+      "mechanics_notes": "Dedicated current-version evidence confirms Requiem of Destruction as a 300-Ki Ki Blast Ultimate from PQ106, used by Vados and Whis Customize Partner. The page does not explicitly establish CaC race/gender/form scope.",
+      "research_status": "reconciled_current_version_evidence",
+      "last_verified": "2026-09-19",
+      "damage_type": "Ki Blast"
     },
     {
       "name": "Revenge Death Ball",
