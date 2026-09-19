@@ -324,3 +324,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **82 records still lacking individual `sources` arrays**.
 - CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
 - Exact next task: **continue with PQ41–PQ50** using the same provenance/reward reconciliation workflow. Verify the future-era objectives and reward lists independently, preserve unresolved acquisition/drop semantics, then update the coverage audit, changelog, handoff, and inspect Actions/status.
+
+
+### 2026-09-19 cycle update — PQ41–50 provenance pass
+- Workstream: Parallel Quest provenance and objective/reward evidence cleanup.
+- Completed record-level provenance for **PQ41–PQ50**. All ten records now have explicit source URLs and 2026-09-19 verification dates.
+- Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription plus independent Ultimate Finish/objective references. Exact reward-slot/drop percentages remain unresolved by design.
+- Files changed: `docs/data/parallel-quest-research-batches/pq-batch-05.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `7053b7f5c1cd5373ec8ee7654c9e4217a18b0b8d` (PQ41–50 provenance), `4d7c71d52a04d1ec267de11d041a295c8294e47e` (coverage audit), `98cc58e6919c8743ade08754267a8628ebc9dc73` (changelog).
+- Validation census: **176 total records**, **0 missing `unlock_condition` fields**, **72 records still lacking individual `sources` arrays**.
+- CI: inspect Actions/status for the final handoff commit before changing validators. No validator was weakened.
+- Exact next task: **continue with PQ51–PQ60**, using the same provenance/reward reconciliation workflow. Verify the transition into the 6-star PQs carefully, cross-check objectives and rewards independently, preserve unresolved acquisition/drop semantics, then update the coverage audit, changelog, handoff, and inspect Actions/status.
