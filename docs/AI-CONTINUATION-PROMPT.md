@@ -2497,3 +2497,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: 12f2632ee552811c3aaa9be6d8327799e5f76c44.
 - Live nullable Super/Ultimate census: 121 total (86 Super, 35 Ultimate).
 - Next task: continue remaining nullable PQ candidates and preserve null when only generic/random PQ evidence exists.
+
+
+### 2026-09-19 continuation — PQ reward batch 14
+- Resolved `ultimate_finish_required=false`: Hero's Flute (PQ116) and Pretty Cannon (PQ133).
+- Evidence: both are explicitly listed as Basic Rewards in the PQ guide; independent skill references also identify their PQ unlocks. citeturn0search0turn0search8turn0search10
+- Handy Canon (PQ115) was deliberately left nullable because community evidence conflicts on whether its acquisition requires the Ultimate Finish. citeturn0search6
+- Skills commit: ac760d67bdf44ef7fa53b98ac401dbe1be8f9ce6.
+- Live nullable Super/Ultimate census: 119 total (84 Super, 35 Ultimate).
+- Next task: continue remaining candidates, prioritizing unambiguous independent acquisition evidence and preserving null on conflicts.
