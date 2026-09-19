@@ -1115,3 +1115,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Current web search for dedicated dbxv2 Fandom pages was blocked by robots.txt, so no unsupported provenance URL was added.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows Burst Blitz; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — Death/Demon/Destruction boundary
+- Reviewed Death Slash, Demon Flurry, Demonic Destruction, and Destruction's Conductor.
+- Preserved null race restrictions; current evidence did not establish explicit race/gender/form scope.
+- Refreshed all four verification dates to 2026-09-19.
+- Current sources confirm skill identity/availability, but availability or character association was not treated as race-scope evidence.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Destruction's Conductor; inspect canonical ordering before selecting the next batch.
