@@ -2567,3 +2567,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `83ba610a2469bccbe2ab4da1ce24f6a899661ccd`.
 - Coverage audit commit: `2fd7f1ed3d80161c31e79c6ff9edafa143d196d1`.
 - Exact next task: continue bounded evidence-backed Basic Reward auditing; recompute the live nullable census first and preserve `null` where actual UF gating remains unresolved.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 20
+- Verified explicit Basic Reward placement for **Revenge Final Flash (PQ124), Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), and Last Emperor (PQ71)**. citeturn1search0turn1search6
+- Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all five.
+- Live nullable Super/Ultimate census: **83 total — 53 Super / 30 Ultimate**.
+- Skills commit: `0679447a033ae7968d516a3a8aa1d1d3931db272`.
+- Coverage audit commit: `21938a5031846e1ce2c218df1f9b0d4a50a41dc7`.
+- Exact next task: continue the bounded Basic Reward evidence pass, prioritizing remaining nullable records with explicit Basic Reward listings; preserve `null` where UF gating remains unresolved.
