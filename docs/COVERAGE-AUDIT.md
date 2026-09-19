@@ -2184,3 +2184,8 @@ Populated `damage_type` for **16 Evasive records** using item-level source evide
 ## 2026-09-19 — Evasive damage-type follow-up
 
 Resolved two remaining Evasive damage_type nulls from direct skill-source classifications: Explosive Wave → Ki Blast and Mach Dash → Other. Mach Dash is explicitly classified as a Power Up Evasive rather than a damaging Strike/Ki Blast Evasive. Remaining Evasive nullable fields are preserved for further evidence review; no Evasive ki_cost values were bulk-filled.
+
+
+## 2026-09-19 — Evasive acquisition/DLC provenance batch
+
+Resolved `dlc_requirement` for six Evasive skills with direct acquisition evidence showing base-game availability: Explosive Wave (Skill Shop), Mach Dash (PQ18), Final Pose (Skill Shop), Punisher Guard (Skill Shop), Angry Shout (PQ68), and Energy Barrier (PQ32). These records are explicitly listed among base-game Evasives in the repository's cited Evasive reference. Remaining nullable DLC fields are preserved where the available evidence does not establish version provenance.
