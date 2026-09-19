@@ -505,3 +505,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Commits: `e8550a05f97f421948edb4ff74a9b2b29e223391` (canonical skill correction), `3fec3b5d0382aec59598d5660de47c5164a367cf` (correction batch), `2fb1ad700ba2f2507d69e9c6d69ea982b0e5ffdf` (TODO), `7b8d9656a0ab66cbd4e842ab11e4ab5ac4d539bd` (changelog), `b72cf0efc817f47ddb74f515a37fc08f3ca4b7e5` (coverage).
 - Evidence limitation: this cycle corrected availability/classification only. Exact stage modifiers, resource costs, unlock routes, and version-sensitive mechanics for the remaining Awoken records still require individual reconciliation.
 - Next exact task: continue the Awoken/Transformation audit record-by-record, prioritizing remaining indexed forms with only `indexed` status and resolving CaC availability before adding new skill batches. Preserve character-only forms as such and do not infer CaC eligibility from category membership alone.
+
+
+### 2026-09-19 cycle update — canonical skill deduplication + Awoken audit continuation
+- Continued the Awoken/Transformation data-quality track and inspected the live canonical `docs/data/skills.json` rather than assuming its 298 records were unique.
+- Found **15 duplicate skill-name identities** in the canonical layer. Several were thin `indexed` placeholders duplicated by richer researched records; `Big Bang Knuckle` also existed twice with conflicting category metadata.
+- Reconciled duplicates by exact skill name: retained the richest record, merged distinct source URLs/non-empty fields, and preserved all historical research batch files. Canonical skill population is now **283 unique records** instead of 298 duplicate-containing records.
+- Added `docs/data/skill-research-batches/skill-batch-39.json` documenting the correction and the 15 affected names.
+- Synchronized `docs/data/pq-skill-crosslink-report.json` from 298 to **283** canonical records; its unique canonical name count was already 283 and unresolved count remains 0.
+- Updated `TODO.md` to reflect the deduplicated canonical count.
+- Important: do not recreate the removed generic duplicate entries merely to reach 298; the canonical uniqueness rule is one record per exact skill identity, while historical research remains preserved.
+- Next task remains the Awoken/Transformation audit: resolve remaining `indexed` forms' CaC availability, unlock routes, costs, stages, and version-sensitive mechanics record-by-record. The current deduplication correction should be treated as a prerequisite for reliable coverage counts.
