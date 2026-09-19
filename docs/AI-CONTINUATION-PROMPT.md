@@ -2179,3 +2179,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated `docs/data/pq-cross-domain-reconciliation.json`, `docs/data/pq-cross-domain-audit.json`, and `docs/data/pq-cross-domain-status.json`.
 - Current totals remain **232 skills, 135 Super Souls, 96 equipment, 247 characters, 88 DLC, 7 farming = 805 edges**.
 - Exact next task: **resolve the remaining source-only normalized reward-map entries by independent source verification or retain them as an explicitly unresolved normalized-source inventory; then audit equipment subtype classification and the PQ 1-14 coverage limitation.**
+
+
+### 2026-09-19 continuation — source-only reward reconciliation
+- Resolved the remaining normalized-map source-only reward drift against the repository's all-186 PQ reward guide. **76 source-only entries across 68 cases** are now retained as `source_backed` relationships; none remain unresolved.
+- Updated equipment subtype reverse indexing for clothing/accessory distinctions from the normalized source layer while keeping the forward `pq_rewards_equipment` relationship type unified.
+- Forward totals are now **232 skills, 135 Super Souls, 122 equipment, 247 characters, 88 DLC, 7 farming = 831 edges**.
+- Updated the reconciliation, audit, status, and reverse-index files.
+- Important: the normalized maps remain partial historical/provenance artifacts; their omissions are not treated as negative reward claims.
+- Exact next task: **audit PQ 1-14 coverage and equipment subtype semantics, then run a final 1-186 relationship consistency audit.**
