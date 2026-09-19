@@ -33,17 +33,19 @@
       "subcategory": "Race",
       "race_restriction": "Namekian",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Become_Giant"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; the form uses a distinct moveset and drains Stamina over time.",
-      "last_verified": "2026-09-18",
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "last_verified": "2026-09-19",
+      "notes": "Namekian CaC-only Awoken Skill. Requires 300 Ki; has a continuous Stamina drain and no Ultimate/Evasive slot while active.",
+      "unlock_method": "Complete the Namekian Awakening quest at Guru's House as a Namekian CaC."
     },
     {
       "name": "Future Super Saiyan",
@@ -71,17 +73,19 @@
       "subcategory": "Race",
       "race_restriction": "Earthling",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Power_Pole_Pro"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 0,
       "mechanics_notes": " Current research documents Power Pole Pro as a 0 Ki activation cost; the transformation uses the Nimbus/Power Pole moveset.",
-      "last_verified": "2026-09-18",
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "last_verified": "2026-09-19",
+      "notes": "Earthling CaC-only Awoken Skill. Requires 0 Ki; summons Nimbus/Power Pole, changes the basic moveset, and ends when hitstun or a grab connects.",
+      "unlock_method": "At level 35 or higher, complete the Great Saiyaman questline at Hercule's House Time Rift and clear the final unlock mission."
     },
     {
       "name": "Purification",
@@ -89,17 +93,19 @@
       "subcategory": "Race",
       "race_restriction": "Majin",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Majin_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Purification"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; transformation changes the moveset and affects stamina recovery.",
-      "last_verified": "2026-09-18",
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "last_verified": "2026-09-19",
+      "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.",
+      "unlock_method": "Progress the Majin Buu's House Time Rift until Buu has the required family members, then complete the associated Purification unlock fight as a Majin CaC."
     },
     {
       "name": "Super Saiyan",
@@ -107,17 +113,19 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Stage activation thresholds: Super Saiyan 300 Ki, Super Saiyan 2 400 Ki, Super Saiyan 3 500 Ki.",
-      "last_verified": "2026-09-18",
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "last_verified": "2026-09-19",
+      "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3.",
+      "unlock_method": "Complete the Saiyan Awakening progression at Capsule Corporation and train with Vegeta; the resulting Awoken Skill provides Super Saiyan stages 1–3."
     },
     {
       "name": "Super Saiyan God",
@@ -125,17 +133,19 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; the form does not consume the activation Ki.",
-      "last_verified": "2026-09-18",
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "last_verified": "2026-09-19",
+      "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus.",
+      "unlock_method": "Use the Shenron wish for Super Saiyan God after maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan; Beerus then provides the skill."
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -185,17 +195,19 @@
       "subcategory": "Race",
       "race_restriction": "Saiyan",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Super_Vegeta"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Stage activation thresholds: Super Vegeta 300 Ki and Super Vegeta 2 400 Ki.",
-      "last_verified": "2026-09-18",
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "last_verified": "2026-09-19",
+      "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2.",
+      "unlock_method": "Complete the Vegeta training progression at the Capsule Corporation Time Rift as a Saiyan CaC."
     },
     {
       "name": "The Power to Overcome",
@@ -227,17 +239,19 @@
       "subcategory": "Race",
       "race_restriction": "Frieza Race",
       "usable_by_cac": true,
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Turn_Golden"
       ],
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "mechanics_notes": " Current research references a 300 Ki activation threshold; stamina drains while transformed.",
-      "last_verified": "2026-09-18",
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "last_verified": "2026-09-19",
+      "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki.",
+      "unlock_method": "Complete the Frieza's Spaceship Time Rift progression and its Frieza/Meta-Cooler recruitment battles as a Frieza Race CaC."
     },
     {
       "name": "Beast",
@@ -250,19 +264,20 @@
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Awoken",
-      "unlock_method": "Beast unlock chain",
+      "unlock_method": "Max friendship with Gohan (Adult), Videl, and Piccolo; talk to Piccolo and choose the additional training/spar mission, then clear the Cell Max mission.",
       "source_quest_or_shop": "Beast unlock chain",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill with high offensive output and defensive trade-offs.",
       "mechanics_notes": "High-offense transformation with defensive trade-offs and enhanced combat properties.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Beast",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Beast"
       ],
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken."
     },
     {
       "name": "Kaioken",
@@ -275,20 +290,21 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Awoken",
-      "unlock_method": "Kaioken Parallel Quest reward route",
+      "unlock_method": "Complete Parallel Quest 8, 'Invade Earth', with an Ultimate Finish.",
       "source_quest_or_shop": "Parallel Quest reward route",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill with Kaioken, Kaioken x3, and Kaioken x20 stages.",
       "mechanics_notes": "Progressive stages increase offense while sharply increasing stamina-management risk; higher stages trade safety for power. Stage activation thresholds: Kaioken 100 Ki, Kaioken x3 300 Ki, Kaioken x20 500 Ki.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kaioken",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Kaioken"
       ],
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain."
     },
     {
       "name": "Potential Unleashed",
@@ -301,19 +317,20 @@
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Awoken",
-      "unlock_method": "Final Advancement Test",
+      "unlock_method": "Z-rank all prior Advancement Tests, then complete the unlocked final Patroller Academy Advancement Test.",
       "source_quest_or_shop": "Final Advancement Test",
       "ultimate_finish_required": null,
       "skill_description": "Universal balanced CaC Awoken Skill with broad offensive and defensive benefits.",
       "mechanics_notes": "Universal transformation with broad offensive and defensive benefits.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Potential_Unleashed"
       ],
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction."
     },
     {
       "name": "Pure Progress",
@@ -392,19 +409,20 @@
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Awoken",
-      "unlock_method": "Ultra Instinct unlock route",
+      "unlock_method": "Defeat Jiren (Full Power) in the 'In Pursuit of Mastery' challenge after the relevant unlock route.",
       "source_quest_or_shop": "Ultra Instinct unlock route",
       "ultimate_finish_required": null,
       "skill_description": "Universal CaC Awoken Skill centered on automatic evasion and counterplay.",
       "mechanics_notes": "Centers on automatic evasion and counterplay instead of a conventional flat damage multiplier.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Ultra_Instinct"
       ],
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged."
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior."
     },
     {
       "name": "Burst Reflection",
