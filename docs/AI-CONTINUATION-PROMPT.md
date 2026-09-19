@@ -2142,3 +2142,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated `docs/data/pq-cross-domain-status.json` and `docs/data/pq-cross-domain-audit.json` to record the populated character layer while keeping overall completion open.
 - Important limitation: this character layer represents explicit named character references in PQ objectives/ultimate-finish text, not a claim that every named character is necessarily an enemy or reward recipient. No generic encounter text was converted into attribution.
 - Exact next task: **perform a full 1-186 cross-domain re-audit against every populated reward/relationship field, identify unresolved or conflicting records, and reconcile any remaining canonical character aliases before declaring the relationship layer exhaustive.**
+
+
+### 2026-09-19 continuation — full PQ 1-186 cross-domain re-audit
+- Completed a corpus-wide comparison of all 186 canonical PQ reward-map records against the forward relationship layer across skills, Super Souls, clothing, and accessories.
+- Found 232 affected PQ/type cases requiring reconciliation. Difference counts: skills 3 source-only / 118 edge-only across 78 PQs; Super Souls 0 source-only / 61 edge-only across 38 PQs; clothing 52 source-only / 39 edge-only across 71 PQs; accessories 21 source-only / 39 edge-only across 45 PQs.
+- Created docs/data/pq-cross-domain-reconciliation.json containing the complete machine-generated case list. Differences are intentionally recorded rather than silently deleting edges or filling gaps.
+- Important finding: the current relationship layer is materially ahead of some older normalized reward-map files, while other map entries, especially equipment, are not represented as forward edges. The layers cannot yet be declared identical/exhaustive without source-level reconciliation.
+- Updated the cross-domain audit and status to reconciliation_required.
+- Do not treat empty reward arrays as negative claims. Do not resolve discrepancies by assuming one layer is authoritative; use provenance/source evidence and preserve conflicts.
+- Exact next task: reconcile the 232 recorded differences, beginning with the 3 skill source-only cases and the earliest edge-only skill cases, then equipment subtype gaps, while preserving source conflicts and updating the audit after each tranche.
