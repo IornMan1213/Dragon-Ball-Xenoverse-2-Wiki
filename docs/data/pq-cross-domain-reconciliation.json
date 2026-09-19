@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "scope": "PQ 1-186",
   "generated_from": "pq-reward-normalization/*-reward-map.json + pq-reward-relationships.json",
-  "status": "reconciliation_required",
+  "status": "provenance_reconciliation_in_progress",
   "summary": {
     "canonical_records": 186,
     "affected_cases": 232,
@@ -736,7 +736,9 @@
       "source_only": [],
       "edge_only": [
         "Right, then... Let's begin the experiment!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 121,
@@ -745,7 +747,9 @@
       "edge_only": [
         "Tuxedo",
         "Wedding Dress"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 121,
@@ -754,7 +758,9 @@
       "edge_only": [
         "Tuxedo",
         "Wedding Dress"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 122,
@@ -772,7 +778,9 @@
       "edge_only": [
         "For beauty! For elegance! For love!",
         "This Super Saiyan 2 is crazy strong!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 123,
@@ -789,7 +797,9 @@
       "source_only": [],
       "edge_only": [
         "Arabian Costume"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 123,
@@ -797,7 +807,9 @@
       "source_only": [],
       "edge_only": [
         "Arabian Costume"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 124,
@@ -813,7 +825,9 @@
       "source_only": [],
       "edge_only": [
         "Don't think I'm the same as before!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 125,
@@ -830,7 +844,9 @@
       "source_only": [],
       "edge_only": [
         "Goku Wig (Ultra Instinct)"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 125,
@@ -838,7 +854,9 @@
       "source_only": [],
       "edge_only": [
         "Goku Wig (Ultra Instinct)"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 126,
@@ -854,7 +872,9 @@
       "source_only": [],
       "edge_only": [
         "Alright! Let's go wreck some faces!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 127,
@@ -872,7 +892,9 @@
       "edge_only": [
         "Janemba Suit",
         "Janemba Head"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 127,
@@ -881,7 +903,9 @@
       "edge_only": [
         "Janemba Suit",
         "Janemba Head"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 128,
@@ -900,7 +924,9 @@
         "GAAAGH!",
         "Your father has been killed!",
         "I've waited an unbelievably long time for this..."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 129,
@@ -919,7 +945,9 @@
         "Heh heh! Now THIS is real power!",
         "Hey, you think you could fight a little quieter?!",
         "Don't think I'm gonna show you any gratitude!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 130,
@@ -937,7 +965,9 @@
         "Hey, you! You ready for me?!",
         "Hmph. I'm off to take a nap.",
         "Th-Thanks..."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 130,
@@ -945,7 +975,9 @@
       "source_only": [],
       "edge_only": [
         "Broly (Full Power Super Saiyan)'s Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 130,
@@ -953,7 +985,9 @@
       "source_only": [],
       "edge_only": [
         "Broly (Full Power Super Saiyan)'s Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 131,
@@ -971,7 +1005,9 @@
         "Leave the rest to me!",
         "You'd better survive, you got that?!",
         "Shall we pick up where we left off?"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 131,
@@ -979,7 +1015,9 @@
       "source_only": [],
       "edge_only": [
         "SSGSS Gogeta's Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 131,
@@ -987,7 +1025,9 @@
       "source_only": [],
       "edge_only": [
         "SSGSS Gogeta's Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 132,
@@ -1006,7 +1046,9 @@
         "Whoa, it's freezing here!",
         "This is no time to mess around...",
         "I can't have you dying on me!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 132,
@@ -1014,7 +1056,9 @@
       "source_only": [],
       "edge_only": [
         "Broly Wig (Legendary Super Saiyan)"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 132,
@@ -1022,7 +1066,9 @@
       "source_only": [],
       "edge_only": [
         "Broly Wig (Legendary Super Saiyan)"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 133,
@@ -1040,7 +1086,9 @@
       "edge_only": [
         "Here it comes!",
         "I got my claws in you, and fangs too!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 133,
@@ -1050,7 +1098,9 @@
         "Kakunsa's Clothes",
         "Kakunsa's Wig and Mask",
         "Kakunsa's Tail"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 133,
@@ -1060,7 +1110,9 @@
         "Kakunsa's Clothes",
         "Kakunsa's Wig and Mask",
         "Kakunsa's Tail"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 134,
@@ -1077,7 +1129,9 @@
       "source_only": [],
       "edge_only": [
         "Power! A lotta power! It's great!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 135,
@@ -1093,7 +1147,9 @@
       "source_only": [],
       "edge_only": [
         "That won't work on me!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 135,
@@ -1102,7 +1158,9 @@
       "edge_only": [
         "Rozie's Clothes",
         "Rozie's Hood and Goggles"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 135,
@@ -1111,7 +1169,9 @@
       "edge_only": [
         "Rozie's Clothes",
         "Rozie's Hood and Goggles"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 136,
@@ -1130,7 +1190,9 @@
       "edge_only": [
         "Pathetic",
         "Justice is nothing to me now."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 137,
@@ -1148,7 +1210,9 @@
       "edge_only": [
         "This is everything I've got!",
         "That heat... I'll have to match it."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 138,
@@ -1165,7 +1229,9 @@
       "edge_only": [
         "I'm not gonna die until I defeat you!",
         "I just flew around the whole world!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 139,
@@ -1184,7 +1250,9 @@
         "Android 21's Lab Uniform",
         "Universe 7 Baseball Uniform",
         "Universe 7 Baseball Cap"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 139,
@@ -1194,7 +1262,9 @@
         "Android 21's Lab Uniform",
         "Universe 7 Baseball Uniform",
         "Universe 7 Baseball Cap"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 140,
@@ -1211,7 +1281,9 @@
       "edge_only": [
         "This thing carries hopes of everyone on Earth!",
         "Now then, time for another delightful hunt!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 141,
@@ -1229,7 +1301,9 @@
       "edge_only": [
         "D-Don't talk bad about my family!",
         "This oughta make things interesting."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 142,
@@ -1246,7 +1320,9 @@
       "source_only": [],
       "edge_only": [
         "I don't want them to get hurt!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 142,
@@ -1254,7 +1330,9 @@
       "source_only": [],
       "edge_only": [
         "Universe 6 Baseball Uniform"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 142,
@@ -1262,7 +1340,9 @@
       "source_only": [],
       "edge_only": [
         "Universe 6 Baseball Uniform"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 143,
@@ -1279,7 +1359,9 @@
       "source_only": [],
       "edge_only": [
         "This is as far as you go."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 144,
@@ -1288,7 +1370,9 @@
       "edge_only": [
         "You've awakened my true power...",
         "I won't forgive those who best my comrades!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 144,
@@ -1297,7 +1381,9 @@
       "edge_only": [
         "Gine (DB Super)'s Clothes",
         "Gine (DB Super) Set"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 144,
@@ -1306,7 +1392,9 @@
       "edge_only": [
         "Gine (DB Super)'s Clothes",
         "Gine (DB Super) Set"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 145,
@@ -1323,7 +1411,9 @@
       "source_only": [],
       "edge_only": [
         "I've cast aside everything for this!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 146,
@@ -1340,7 +1430,9 @@
       "source_only": [],
       "edge_only": [
         "There's no way you can hit me!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 146,
@@ -1348,7 +1440,9 @@
       "source_only": [],
       "edge_only": [
         "Bardock (DB Super)'s Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 146,
@@ -1356,7 +1450,9 @@
       "source_only": [],
       "edge_only": [
         "Bardock (DB Super)'s Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 147,
@@ -1374,7 +1470,9 @@
       "source_only": [],
       "edge_only": [
         "It's just me and you now!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 147,
@@ -1383,7 +1481,9 @@
       "edge_only": [
         "Caulifla's Clothes",
         "Caulifla Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 147,
@@ -1392,7 +1492,9 @@
       "edge_only": [
         "Caulifla's Clothes",
         "Caulifla Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 148,
@@ -1410,7 +1512,9 @@
       "source_only": [],
       "edge_only": [
         "My back's getting tingly...!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 148,
@@ -1419,7 +1523,9 @@
       "edge_only": [
         "Kale's Clothes",
         "Kale Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 148,
@@ -1428,7 +1534,9 @@
       "edge_only": [
         "Kale's Clothes",
         "Kale Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 149,
@@ -1445,7 +1553,9 @@
       "source_only": [],
       "edge_only": [
         "Our two strengths aren't just added together."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 149,
@@ -1454,7 +1564,9 @@
       "edge_only": [
         "Bulma (Kid)'s Clothes",
         "Bulma (Kid) Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 149,
@@ -1463,7 +1575,9 @@
       "edge_only": [
         "Bulma (Kid)'s Clothes",
         "Bulma (Kid) Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 150,
@@ -1480,7 +1594,9 @@
       "source_only": [],
       "edge_only": [
         "I will prevail, no matter the cost!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 151,
@@ -1499,7 +1615,9 @@
       "edge_only": [
         "I'll never forgive you!",
         "I'm not gonna die until I defeat you!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 152,
@@ -1516,7 +1634,9 @@
       "source_only": [],
       "edge_only": [
         "I'll show you the power of a true warrior!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 152,
@@ -1525,7 +1645,9 @@
       "edge_only": [
         "Android 17 (DB Super) Ranger Outfit",
         "Android 17 (DB Super) Ranger Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 152,
@@ -1534,7 +1656,9 @@
       "edge_only": [
         "Android 17 (DB Super) Ranger Outfit",
         "Android 17 (DB Super) Ranger Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 153,
@@ -1553,7 +1677,9 @@
       "edge_only": [
         "Don't underestimate my power!",
         "I won't forgive you!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 154,
@@ -1570,7 +1696,9 @@
       "source_only": [],
       "edge_only": [
         "I'm the one who will win!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 154,
@@ -1579,7 +1707,9 @@
       "edge_only": [
         "King Vegeta (DB Super)'s Battle Suit",
         "King Vegeta (DB Super) Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 154,
@@ -1588,7 +1718,9 @@
       "edge_only": [
         "King Vegeta (DB Super)'s Battle Suit",
         "King Vegeta (DB Super) Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 155,
@@ -1606,7 +1738,9 @@
       "source_only": [],
       "edge_only": [
         "This is the ultimate hero!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 155,
@@ -1614,7 +1748,9 @@
       "source_only": [],
       "edge_only": [
         "Gamma 2 Helmet"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 155,
@@ -1622,7 +1758,9 @@
       "source_only": [],
       "edge_only": [
         "Gamma 2 Helmet"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 156,
@@ -1640,7 +1778,9 @@
       "edge_only": [
         "This is your true power?",
         "Still haven't figured out you're gonna lose?"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 156,
@@ -1648,7 +1788,9 @@
       "source_only": [],
       "edge_only": [
         "Gamma 1's Helmet"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 156,
@@ -1656,7 +1798,9 @@
       "source_only": [],
       "edge_only": [
         "Gamma 1's Helmet"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 157,
@@ -1665,7 +1809,9 @@
       "edge_only": [
         "I'll be the one to fight you!",
         "You need to be more careful."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 158,
@@ -1682,7 +1828,9 @@
       "source_only": [],
       "edge_only": [
         "Heh heh! I'm not a rusty as I look!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 158,
@@ -1690,7 +1838,9 @@
       "source_only": [],
       "edge_only": [
         "Gamma 2's Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 158,
@@ -1698,7 +1848,9 @@
       "source_only": [],
       "edge_only": [
         "Gamma 2's Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 159,
@@ -1716,7 +1868,9 @@
       "edge_only": [
         "Enter the hero!",
         "The Red Ribbon Army is back in business!"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 159,
@@ -1724,7 +1878,9 @@
       "source_only": [],
       "edge_only": [
         "Dr. Hedo Hood"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 159,
@@ -1732,7 +1888,9 @@
       "source_only": [],
       "edge_only": [
         "Dr. Hedo Hood"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 160,
@@ -1750,7 +1908,9 @@
       "source_only": [],
       "edge_only": [
         "Is that all?"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 160,
@@ -1758,7 +1918,9 @@
       "source_only": [],
       "edge_only": [
         "Red Ribbon Army Helmet"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 160,
@@ -1766,7 +1928,9 @@
       "source_only": [],
       "edge_only": [
         "Red Ribbon Army Helmet"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 161,
@@ -1782,7 +1946,9 @@
       "source_only": [],
       "edge_only": [
         "I'm a whole new me."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 161,
@@ -1790,7 +1956,9 @@
       "source_only": [],
       "edge_only": [
         "Red Ribbon Soldier 94 Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 161,
@@ -1798,7 +1966,9 @@
       "source_only": [],
       "edge_only": [
         "Red Ribbon Soldier 94 Clothes"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 162,
@@ -1814,7 +1984,9 @@
       "source_only": [],
       "edge_only": [
         "Shenron really went the extra mile."
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 162,
@@ -1823,7 +1995,9 @@
       "edge_only": [
         "Dr. Hedo Suit",
         "Gohan (Beast) Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 162,
@@ -1832,7 +2006,9 @@
       "edge_only": [
         "Dr. Hedo Suit",
         "Gohan (Beast) Wig"
-      ]
+      ],
+      "reconciliation_status": "retained_source_backed",
+      "reconciliation_note": "Forward edge has independent source_backed provenance; absence from the partial normalized map is not treated as a negative claim."
     },
     {
       "pq": 168,
@@ -1990,5 +2166,10 @@
       ],
       "edge_only": []
     }
-  ]
+  ],
+  "reconciliation_summary": {
+    "source_backed_edge_only_cases_resolved": 88,
+    "edge_only_cases_remaining_unresolved": 0,
+    "rule": "Do not delete forward edges solely because partial normalized reward maps omit them."
+  }
 }
