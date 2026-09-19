@@ -1800,3 +1800,13 @@ Reviewed the next eight null-race CaC-usable records: **Burst Rush, Change The F
 - Preserved existing unlock, class, cost, and mechanics metadata.
 - Live skill census: **283 total / 269 CaC-usable / 116 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Heroic Counter through Super God Shock Flash race-restriction census
+
+Reviewed the next eight null-race CaC-usable records: **Heroic Counter, Punisher Shield, Reverse Mabakusenko, Rough Ranger, Shadow Crusher, Sudden Death Beam, Super Afterimage, Super God Shock Flash**.
+
+- Added explicit **All CaC races** scope to all eight. Reviewed evidence establishes Future Warrior/CaC availability and does not establish a narrower CaC race/gender/form restriction.
+- Preserved existing acquisition and mechanics metadata; no unsupported character-to-CaC race inference was used.
+- Live census: **283 total / 269 CaC-usable / 108 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
