@@ -2538,3 +2538,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Artifact hygiene: changed skill data contains no ChatGPT/UI citation markup or internal tool-reference IDs.
 - CI status: the GitHub connector returned **no workflow runs** for the latest coverage-audit commit, so there is no actionable run result to evaluate. Do not weaken validators; continue treating absent/opaque CI execution as infrastructure/account state until actionable logs exist.
 - Exact next task: **recompute the nullable Super/Ultimate census again, then continue with a small evidence-backed Basic Reward/non-UF batch.** Prioritize explicit Basic Reward candidates among the remaining 76 Super / 35 Ultimate nulls; preserve null where reward-slot gating is not established. Continue rechecking catalog-sync overwrites after any automated catalog update.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 17
+- Continued the active Super/Ultimate `ultimate_finish_required` evidence queue.
+- Web-verified the maintained all-PQ Steam reward guide: it explicitly lists **Solar Flare (PQ03), Wall of Defense (PQ10), Kai Kai (PQ63), Afterimage Strike (PQ81), Assault Vanish (PQ131), Saiyan Spirit (PQ84), Zigzag Express (PQ85), and Neo Wolf Fang Fist (PQ86)** in Basic Reward sections, separate from Ultimate Finish conditions. citeturn2search0turn2search1turn2search4
+- Set `ultimate_finish_required=false` for all eight records and refreshed `last_verified` to 2026-09-19.
+- Live nullable Super/Ultimate census: **103 total — 69 Super and 34 Ultimate**.
+- Skills commit: `86634b42a5eb23307c213bd6a9da140ff6ccf3bd`.
+- Coverage audit commit: `26d73b3e088c1a2e30445180722cc436ab24e5da`.
+- Preserve null for remaining records unless their reward section or another source establishes the actual UF gate. Do not infer UF status merely from PQ acquisition.
+- Exact next task: continue the same bounded Basic Reward/non-UF evidence pass, prioritizing remaining PQ-only nullable records with explicit Basic Reward listings. Recompute the nullable census after every batch and record the new frontier here.
