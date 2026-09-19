@@ -1435,3 +1435,14 @@ Reconciled **Instant Transmission, Kai Kai, Maximum Charge, Petrifying Spit, Pha
 - Rising Rage remains character-exclusive to Restrained Broly and non-CaC.
 - No new narrower race/gender/form restriction was inferred from mentor or character association alone.
 - Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Shield Barrier through Ultimate Charge
+
+Reconciled **Shield Barrier, Solar Flare, Spirit Boost, Super Guard, Surging Spirit, Time Bullet, Time Control, and Ultimate Charge**.
+
+- Shield Barrier, Solar Flare, Super Guard, Time Control, and Ultimate Charge retain explicit **All CaC races** scope.
+- Spirit Boost is CaC-usable; current evidence does not establish a narrower race/gender/form restriction, so it is recorded as **All CaC races** consistent with the repository's established evidence boundary.
+- Surging Spirit remains restricted in practice to CaCs using the Ultra Instinct access path; its existing **All CaC races while using Ultra Instinct** wording is retained.
+- Time Bullet remains character-exclusive/non-CaC.
+- Live census remains **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
