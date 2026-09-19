@@ -2337,3 +2337,14 @@ Resolved `ultimate_finish_required: false` for **Giant Cluster** (PQ163), **Giga
 - No schema or validator changes were made.
 - Skills commit: `d4ba9551578e8cfc2a953ed78d8c3cea5ebc9b22`.
 
+
+
+## 2026-09-19 — basic-reward Super/Ultimate non-UF batch 17
+
+Resolved `ultimate_finish_required: false` for **Solar Flare** (PQ03), **Wall of Defense** (PQ10), **Kai Kai** (PQ63), **Afterimage Strike** (PQ81), **Assault Vanish** (PQ131), **Saiyan Spirit** (PQ84), **Zigzag Express** (PQ85), and **Neo Wolf Fang Fist** (PQ86). The maintained all-PQ reward guide explicitly places these skills in their respective **Basic Reward** sections, separate from the Ultimate Finish conditions. citeturn2search0turn2search1turn2search4
+
+- This is negative UF evidence based on explicit reward-section placement, not inference from the fact that the skills are PQ rewards.
+- Live nullable Super/Ultimate census after this batch: **103 records — 69 Super and 34 Ultimate**.
+- No schema or validator changes were made.
+- Skills commit: `86634b42a5eb23307c213bd6a9da140ff6ccf3bd`.
+
