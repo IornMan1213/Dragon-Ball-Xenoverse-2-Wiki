@@ -682,3 +682,13 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Corrected the canonical record to `usable_by_cac: true`; no race restriction was inferred.
 - This remains `partially_verified` because the exact acquisition/drop semantics are a separate evidence requirement.
 - Skills commit: `c4c98ee41354038d4e0701c8d82a0f18c52b0df3`.
+
+
+## 2026-09-19 explicit DLC CaC reconciliation — second pass
+
+- Reconciled six remaining null-CaC records with stronger evidence: **Blaster Stream, God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark**.
+- Blaster Stream is explicitly documented as obtainable by the Future Warrior from PQ148. citeturn1search3
+- A DLC 17 CaC-focused source explicitly groups the Belmod, Jiren Full Power, and Goku Mini skills as **CaC Super & Ultimate Attacks**, covering God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark. citeturn1youtube29
+- Independent player testing also documents Full Power Destruction and God of Destruction's Poise being used on a CaC. citeturn1search5
+- All six are now `usable_by_cac: true`; no race restriction was inferred. Exact reward/drop semantics remain separate from CaC eligibility, so they remain `partially_verified`.
+- Skills commit: `6bb28b3140b30047c04a22436593cfc4feb55157`.
