@@ -1730,8 +1730,19 @@ Reviewed **God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, 
 
 Reviewed **Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster**.
 
-- The current Future Warrior technique reference explicitly lists all eight as techniques usable by the Future Warrior, including Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster. citeturn0search0turn0search2
+- The current Future Warrior technique reference explicitly lists all eight as techniques usable by the Future Warrior, including Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, and Spirit Blaster. 
 - Reviewed evidence does not establish an explicit CaC race/gender/form restriction for this cohort; the null race fields are therefore preserved intentionally.
 - No character association was converted into a race restriction.
 - No unsupported unlock, cost, class, or mechanics correction was made during this pass.
+- Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
+
+
+## 2026-09-19 — Reviewed null-race cohort: Spirit Pulse through Dancing Parapara
+
+Reviewed **Spirit Pulse, Stone Bullet, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, and Dancing Parapara**.
+
+- Current Future Warrior documentation lists these techniques among the Future Warrior's usable techniques; Spirit Pulse is specifically documented as available to the Future Warrior through New Parallel Quest 151. citeturn0search0turn0search2
+- Super Donut Volley is documented as a Gotenks Super Skill obtainable by the Future Warrior from PQ55. citeturn0search3turn0search4
+- Reviewed evidence does not establish an explicit CaC race/gender/form restriction for this cohort, so null race fields remain intentional.
+- No character ownership was converted into a race restriction.
 - Live census remains **283 total / 269 CaC-usable / 134 CaC-usable with null race restriction**.
