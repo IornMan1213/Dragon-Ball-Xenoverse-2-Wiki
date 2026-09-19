@@ -2289,3 +2289,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Evasive damage-type census is now complete for all 22 Evasive records.
 - Remaining Evasive nulls are primarily ki_cost, dlc_requirement, and ultimate_finish_required; these remain evidence queues, not automatic defects.
 - Next exact task: target a small evidence-backed acquisition/DLC or Ultimate-Finish metadata batch; do not bulk-fill Evasive Ki costs.
+
+
+### 2026-09-19 continuation — Evasive acquisition/DLC provenance batch
+- Resolved six Evasive `dlc_requirement` nulls as Base Game from direct acquisition/reference evidence: Explosive Wave, Mach Dash, Final Pose, Punisher Guard, Angry Shout, Energy Barrier.
+- Preserved remaining DLC nulls where evidence does not establish version provenance.
+- Evasive damage_type census remains complete for all 22 records.
+- Next exact task: **audit remaining Evasive Ultimate-Finish metadata for a small directly sourced batch; otherwise continue with Super/Ultimate acquisition metadata.**
