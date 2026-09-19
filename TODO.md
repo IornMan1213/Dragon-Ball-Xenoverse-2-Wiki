@@ -92,7 +92,7 @@ This correction is intentional: the project goal is an exhaustive encyclopedia, 
 - [ ] Reconcile unresolved Skill fields against multiple independent sources before promoting records to `verified`.
 - [ ] Expand the 672 indexed skill target toward fully researched records; 672 is the catalog target, not a claim that 672 are verified.
 - [ ] Deeply verify Batch 36's three Chapter 4 PQ skills and The Power to Overcome mechanics, including exact resource costs, reward-slot semantics, detailed effects, and version-sensitive behavior.
-- [ ] Expand the Super Soul catalogue beyond the current **26 records**; reconcile acquisition, triggers, effect magnitudes, durations, stacking, shop rotations, and Limit Burst behavior per soul.
+- [ ] Expand the Super Soul catalogue beyond the current **42 records**; reconcile acquisition, triggers, effect magnitudes, durations, stacking, shop rotations, and Limit Burst behavior per soul.
 - [x] Promote Super Soul research batch 03 (IDs 024–031) after duplicate, schema, acquisition, and independent-source reconciliation.
 - [ ] Expand the Equipment Database from the initial records into the full individual clothing, equipment, accessory, shop, PQ, EM, raid, story, mentor, and DLC inventory.
 - [ ] Build complete machine-readable equipment records with exact component slot, stat, acquisition, provenance, version, and verification fields.
@@ -107,7 +107,7 @@ This correction is intentional: the project goal is an exhaustive encyclopedia, 
 - [x] Reconcile the researched PQ171-PQ180 skill identities currently supported by evidence.
 - [x] Reconcile the remaining PQ171-PQ186 skill names supported by the current canonical catalog/research layer; unresolved references are now tracked by the current cross-link audit rather than the stale 175-link count.
 - [x] Reconcile the PQ-to-skill cross-link report (`docs/data/pq-skill-crosslink-report.json`): the current report is `resolved` with 0 unresolved references; preserve aliases and historical naming conflicts.
-- [ ] Audit and expand Awoken/Transformation records as a first-class coverage track: separate CaC transformations from character-only forms, document resource costs, stages, race restrictions, unlock prerequisites, version history, and include The Power to Overcome where applicable.
+- [ ] Audit and expand Awoken/Transformation records as a first-class coverage track: separate CaC transformations from character-only forms, document resource costs, stages, race restrictions, unlock prerequisites, version history, and include The Power to Overcome where applicable. Corrected the canonical CaC availability of Pure Progress, Super Saiyan Blue Kaioken, and Supersonic Mode in correction batch 37.
 - [ ] Improve mentor progression, training-stage rewards, and DLC mentor availability data.
 - [ ] Expand Conton City and Time Rift records with complete NPC, service, progression, collectible, and access relationships.
 - [ ] Continue removing internal/tool artifacts from repository text.
