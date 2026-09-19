@@ -4,7 +4,7 @@
   "verification_policy": "parallel_quest_audit_with_independent_cross_checks",
   "research_scope": "PQ31-PQ40 base-game Parallel Quest audit. Objective sequences and documented basic rewards are recorded; exact reward-slot/drop percentages remain unresolved unless directly established.",
   "verification_audit": {
-    "audited": "2026-09-17",
+    "audited": "2026-09-19",
     "duplicate_check": {
       "status": "passed",
       "duplicate_count": 0
@@ -13,7 +13,8 @@
       "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
       "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-      "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+      "https://www.reddit.com/r/DragonBallXenoverse2/comments/1cm7bah/"
     ]
   },
   "records": [
@@ -182,7 +183,7 @@
       "name": "The Cell Games Begin",
       "stars": 4,
       "dlc_requirement": null,
-      "unlock_condition": null,
+      "unlock_condition": "Complete PQ 35 (Miscalculations in Time); independent player reports identify PQ 35 as the immediate prerequisite.",
       "win_conditions": [
         "Defeat Piccolo, Goku and Gohan",
         "Defeat Piccolo and Goku before Gohan",
@@ -210,8 +211,13 @@
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
-      "last_verified": "2026-09-17",
-      "notes": "A newer independently maintained datamined corpus claims PQ36 was cut and the numbering skips 35 to 37, while the long-running game-specific reward transcription and multiple independent objective guides document PQ36 as an actual quest. This batch preserves the directly observed/game-specific PQ36 record and the contradiction for later reconciliation rather than silently deleting it."
+      "last_verified": "2026-09-19",
+      "notes": "A newer independently maintained datamined corpus claims PQ36 was cut and the numbering skips 35 to 37, while the long-running game-specific reward transcription and multiple independent objective guides document PQ36 as an actual quest. Independent player evidence also reports that completing PQ35 unlocks PQ36. The quest is retained with the numbering conflict explicit rather than silently deleted.",
+      "unlock_verification": "verified_prerequisite_pq35",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1cm7bah/"
+      ]
     },
     {
       "number": 37,
