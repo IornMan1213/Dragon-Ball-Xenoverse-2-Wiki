@@ -2594,3 +2594,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `76ce68d41eb94d6952142c9cc8abd0f9f8a75846`.
 - Coverage audit commit: `3bca1b7a53f2f6b1539a175e0877e55b51e122ed`.
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
+
+
+### 2026-09-19 continuation — basic-reward non-UF batch 23
+- Verified explicit Basic Reward placement for **Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Conductor (PQ106), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Lightning of Absolution (PQ111), and Holy Wrath (PQ111)**. citeturn0search0turn0search1
+- Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
+- Live nullable Super/Ultimate census: **62 total — 47 Super / 15 Ultimate**.
+- Skills commit: `0776a86849a98f20d077ecf6106a42e68c9208c9`.
+- Coverage audit commit: `c84659452b78b45eaa2bedf9e1f1e600762292ea`.
+- Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
