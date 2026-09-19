@@ -726,3 +726,10 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Reconciled all nine to `race_restriction: "All CaC races"` rather than leaving them ambiguous.
 - This is evidence of CaC availability across the selectable Future Warrior races; it is not inferred from the source character's race.
 - Skills commit: `d248c4be6598c338181efd83a9c5edbe1472e496`.
+
+
+## 2026-09-19 race census — universal technique batch 2
+
+- Reconciled **Candy Beam (Super)** as `All CaC races`: independent Xenoverse 2 documentation explicitly states the Super Buu (Gohan Absorbed) Candy Beam can be used by non-Majin characters, while the Evasive Candy Beam remains Majin-CaC-only. citeturn1search2turn1search10
+- Reconciled **Petrifying Spit** and **Kai Kai** as `All CaC races`: the Future Warrior reference lists both among the Warrior's general/all-race techniques, while separately identifying race-exclusive abilities elsewhere. citeturn2search5
+- Skills commit: `dc4fc4234876c747429e81a73cf8be8be4c946e6`.
