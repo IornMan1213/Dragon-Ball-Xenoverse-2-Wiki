@@ -4059,7 +4059,7 @@
       "name": "Force Edge",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "SS3 Vegeta (DAIMA)",
       "dlc_requirement": "Dragon Ball DAIMA Pack",
       "ki_cost": 100,
@@ -4071,7 +4071,7 @@
       "skill_description": "Force Edge is a Super Strike skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
@@ -4783,7 +4783,7 @@
       "name": "Burning Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "SS3 Vegeta (DAIMA)",
       "dlc_requirement": "Dragon Ball DAIMA Pack",
       "ki_cost": 200,
@@ -4795,7 +4795,7 @@
       "skill_description": "Burning Blast is a Super Ki Blast skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation.",
       "verification_status": "partially_verified",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
@@ -5059,7 +5059,7 @@
         "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "SS3 Vegeta (DAIMA)",
       "dlc_requirement": null,
       "ki_cost": "400+",
@@ -5067,7 +5067,7 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Base activation uses 400 Ki; holding the input while the attack lands spends additional available Ki for a power boost.",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; while the attack lands, holding input can consume all additional available Ki for a major power boost."
     },
@@ -5634,7 +5634,7 @@
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "usable_by_cac": null,
+      "usable_by_cac": true,
       "character_source": "SS4 Goku (DAIMA)",
       "dlc_requirement": null,
       "ki_cost": "400-500",
@@ -5642,7 +5642,7 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": null,
       "mechanics_notes": "Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for a 500 Ki total.",
-      "research_status": "explicit_character_or_pq_evidence_cac_unresolved",
+      "research_status": "reconciled_explicit_cac_evidence",
       "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range."
     },
