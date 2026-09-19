@@ -1,3 +1,8 @@
+## September 2026 — Raid Super Soul Candidate Batch 06
+- Indexed four additional raid-exclusive Super Soul candidates **044–047** from raid catalog and community raid-exclusive evidence.
+- Marked all four **partially verified** rather than inventing mechanics where item-level evidence remains incomplete.
+- Canonical Super Soul population is now **42 indexed records**.
+
 ## September 2026 — Raid/Event Super Soul Batch 05
 - Added research batch 05 and promoted four additional raid-associated Super Souls: **040–043**.
 - Added reconciled acquisition/effect provenance for Cell, Hercule, Masked Saiyan, and Fused Zamasu raid families.
