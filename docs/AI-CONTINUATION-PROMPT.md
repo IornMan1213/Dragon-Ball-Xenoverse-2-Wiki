@@ -2053,3 +2053,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Added the current all-186 Steam guide to every PQ 41-60 source array.
 - Data commit: `cdb07c22c96b28d4acaa355a7a29a3d77cf42edf`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 61-80**, then update the audit and this handoff.
+
+
+### 2026-09-19 continuation — PQ 61-80 reward pass
+- Canonical `pq-061-080.json` now carries source-backed `skill_rewards` for PQ 61-80.
+- PQ 66 was corrected to **Candy Beam** after independent corroboration; the partial normalization map's `Warp Kamehameha` entry was not used as authoritative evidence. citeturn1search0turn1search1
+- Added the current all-186 Steam source to the range.
+- Latest data correction commit: `3bbce3ccc4e7ec3d9ff311fa38263d649382d107`.
+- Next exact task: continue the source-backed skill-reward audit through **PQ 81-100**, then update the audit and this handoff.
