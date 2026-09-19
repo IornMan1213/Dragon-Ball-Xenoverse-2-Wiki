@@ -1140,3 +1140,18 @@ Reconciled Dimension Cannon, Divine Kamehameha, Divine Spear, Double Death Slice
 - Earth Splitting Galick Gun confirmed at **200 Ki / PQ11**; existing Ultimate Finish gate retained.
 - Emperor's Blast confirmed at **100 Ki**.
 - **Emperor's Cannon corrected from PQ183 to PQ184** based on its dedicated current skill page.
+
+
+## 2026-09-19 — Eraser/Evil/Final/Gamma cohort
+
+Reconciled Eraser Bomb, Evil Blast, Evil Flame, Final Cannon, Final Flash (Super), Flash Chaser, Galick Gun, and Gamma Blaster.
+
+- Eraser Bomb confirmed **100 Ki / PQ163**.
+- Evil Blast confirmed **100 Ki / PQ114**.
+- Evil Flame confirmed **100 Ki / PQ117**.
+- Final Cannon confirmed **100 Ki / PQ52**.
+- Final Flash (Super) retained as **200 Ki / character-exclusive / not CaC-equippable**.
+- Flash Chaser confirmed **100 Ki / PQ138**.
+- Galick Gun confirmed **100 Ki / Vegeta mentor training / all CaC races**.
+- Gamma Blaster confirmed **100 Ki / PQ155**.
+- No unsupported race/gender/form restrictions were inferred.
