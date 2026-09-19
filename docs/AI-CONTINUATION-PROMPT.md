@@ -890,3 +890,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `893b7cac3b045873ab6b0f2c629e89bf2a3b6723`.
 - Coverage commit: `cd597e9c3d40629360d91cd5eaa8d723a2529eb1`.
 - Continue the null-race cohort with exact-name dedicated-page searches; do not infer universal access from mere Future Warrior ownership.
+
+### 2026-09-19 cycle update — Crazy Finger Shot explicit unrestricted evidence
+- Classified **Crazy Finger Shot** as `All CaC races` based on a dedicated technique source explicitly stating that the Future Warrior can use its Death Bullets regardless of race.
+- The Frieza-race restriction applies to Death Bullets as a basic uncharged Ki Blast under Turn Golden, not to the Death Bullets embedded in Crazy Finger Shot.
+- Skills commit: `b1d5d848e781814ddb531371ee382b48bc2fcb1b`.
+- Coverage commit: `6dfc0cfbc4d748ccb53601c1cd5bcc9d570878f8`.
+- Continue exact-name dedicated-page research for the remaining null-race cohort.
