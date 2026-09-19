@@ -749,3 +749,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - The reference explicitly distinguishes race/gender-restricted techniques from general Future Warrior techniques; examples include Saiyan Spirit (Saiyan), Explosive Buu Buu Punch/Ill Bomber/Quick Sleep (Majin), Zigzag Express (male Majin), Shining/Burning Slash (Human or Saiyan), Evil Flight Strike (Namekian or Majin), Namek Finger (Namekian), and Majin Kamehameha (Majin). citeturn2search0
 - This pass intentionally made no blanket assumptions about the remaining 189 records.
 - Skills commit: `7dad27d834189474438cae340de541b1ad1ca168`.
+
+
+## 2026-09-19 race/form census — Pure Majin batch
+
+- Reconciled six form-exclusive records from the Future Warrior technique reference: **Angry Shout, Vanishing Ball, Super Vanishing Ball, Teleporting Vanishing Ball, Pearl Flash, and Buu Buu Ball** → `Majin (Pure Majin form)`.
+- The reference explicitly places these techniques under **Purification (Pure Majin)** and identifies them as usable by the Pure Majin Future Warrior. It separately identifies Quick Sleep as a Majin technique and Pure Majin-specific in the form section. citeturn0search0
+- This distinction matters: these are not merely general Majin-race restrictions; their documented use is tied to the Pure Majin/Purification form.
+- Skills commit: `156e8fce946ffd4085ebb86e0accb41e943b0706`.
