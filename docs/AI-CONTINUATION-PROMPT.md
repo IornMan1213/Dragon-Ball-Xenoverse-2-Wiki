@@ -1557,3 +1557,13 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `b3a03364904e1e9a0e0be4f2772899f26c07ac71`.
 - Audit commit: `fa987fc2b061fb086f498726c47e9684e2a91bba`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Lovely Cyclone.
+
+
+### 2026-09-19 continuation — Mach Punch through Pressure Sign
+- Reconciled **Mach Punch, Meteor Blow, Meteor Strike, Namek Finger, Neo Wolf Fang Fist, Power Impact, Powered Shell, and Pressure Sign**.
+- Namek Finger retains the explicit Namekian restriction; Pressure Sign retains All CaC races. Power Impact's stale Ki Blast subcategory was corrected to Strike.
+- Other CaC-usable records in this cohort retain null race restriction where no narrower evidence exists.
+- Live census: **283 total / 269 CaC-usable / 171 CaC-usable with null race restriction**.
+- Data commit: `e363e31d8c7d69d4054e21ef5256f04a8ad49fca`.
+- Audit commit: `700350aaccadeb3346c1dd872bde264c9bc93498`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Pressure Sign.
