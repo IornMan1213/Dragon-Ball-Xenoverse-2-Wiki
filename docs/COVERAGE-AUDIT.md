@@ -2640,3 +2640,9 @@ Added eight `source_quest` identifiers from explicit existing PQ references in t
 
 Skills commit: `f94c23e99bd1bce43f153b57fbaec54d9fd9187b`.
 
+## 2026-09-19 — source-quest provenance batch 5
+
+Populated eight explicit `source_quest` identifiers already present in the records: **Headshot (PQ69), Ill Rain (PQ64), Kamehameha (PQ05), Paralysis (PQ34), Paralyze Beam (PQ04), Photon Swipe (PQ139), Pretty Cannon (PQ133), Rolling Bullet (PQ42)**. Independent PQ references confirm Headshot is a PQ69 Basic Reward and Ill Rain is a PQ64 Basic Reward. https://dbxv2.fandom.com/wiki/Headshot https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+
+Skills commit: `c8c42075dd243931c5b752fbe06d6e4af68be361`.
+
