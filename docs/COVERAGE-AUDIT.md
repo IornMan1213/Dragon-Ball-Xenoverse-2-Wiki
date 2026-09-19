@@ -2555,3 +2555,15 @@ Resolved `ultimate_finish_required=false` for the final nine nullable Super reco
 - The broader skill file still contains nullable `ultimate_finish_required` values for Awoken/Evasive and other non-UF-scope records; these are not part of the completed Super/Ultimate UF census.
 - No schema or validator changes were made.
 
+## 2026-09-19 — Evasive Ultimate Finish gate pass
+
+Resolved the nullable `ultimate_finish_required` field across all **17 Evasive** skill records. Evidence-backed results:
+
+- **false:** Absolute Zero (PQ96 Basic Reward), Celestial Wave (PQ151 Basic Reward), Dragon Burn (PQ82 Basic Reward), Force Shield (PQ59 Basic Reward), Instant Rise (PQ37 Basic Reward), Ki Explosion (PQ77 Basic Reward), Maiden Burst (PQ92 Basic Reward), Mighty Explosive Wave (PQ79 Basic Reward), Psychic Move (PQ73 Basic Reward), Mach Dash (PQ18 Basic Reward), Angry Shout (PQ68 Basic Reward), Spirit Slash (PQ02 Basic Reward), Headshot (PQ69 reward), Rolling Bullet (PQ42 reward), Victory Cannon (PQ54 Basic Reward), Energy Field (PQ29 reward).
+- **true:** Energy Barrier (PQ32), because current evidence explicitly ties its Future Warrior acquisition to defeating Cell during the PQ32 Ultimate Finish; this is a genuine UF-gated drop rather than merely a random PQ reward.
+- The evidence distinguishes Basic Reward placement from UF-only drops; generic statements such as “random reward” were not treated as proof of UF gating.
+- Live Evasive nullable UF census after this pass: **0**.
+- No schema or validator changes were made.
+
+Key evidence includes the maintained 186-PQ reward guide, which explicitly places Spirit Slash, Mach Dash, Instant Rise, Force Shield, Ki Explosion, Mighty Explosive Wave, Dragon Burn, Maiden Burst, Absolute Zero, Celestial Wave, and related skills in Basic Reward sections, plus current skill pages documenting their PQ unlock identities. The maintained guide also supports the explicit PQ32 Energy Barrier reward context, while current Dragon Ball Wiki evidence specifies the UF condition for the Future Warrior drop.
+
