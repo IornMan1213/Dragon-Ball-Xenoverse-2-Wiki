@@ -840,3 +840,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `df1165aba7a66954c492dd402dbce698d250a2b2`.
 - Coverage commit: `f22e9932d63d18c6ee5a3013fbf3e4d0861c4934`.
 - Exact next task: continue the null-race census and seek explicit race/gender/form restrictions before changing classifications.
+
+### 2026-09-19 cycle update — Future Warrior provenance expansion batch 5
+- Added Future Warrior provenance to 24 additional CaC-usable skill records: Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, Pendulum Bullet, Photon Swipe, Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster, Spirit Pulse, Super Donut Volley, Super Ghost Buu Attack, Variable Snipe Shot, Victory Cannon, Wild Buster, Dancing Parapara, Spirit Boost, and Time Control.
+- No race restriction was inferred from provenance alone.
+- Skills commit: `24322d250d88b5949e6e4d964c881fda4b076bd3`.
+- Coverage commit: `9d7fe275f1fdba6e44c5f7fe3ecdf1edb4bd0aa3`.
+- Exact next task: continue the null-race census with explicit race/gender/form evidence as the classification threshold.
