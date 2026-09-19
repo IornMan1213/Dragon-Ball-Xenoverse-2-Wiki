@@ -2020,3 +2020,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Data commit: `6f9817c1d7117b43e6b0e9c742d9567f2bce8a25`.
 - Current skill metadata census: **283 total / 269 CaC-usable / 0 missing research_status / 0 missing mechanics_notes / 0 missing source_quest_or_shop / 0 missing unlock_method**. The remaining null `ki_cost`, `stamina_cost`, and `damage_type` values are largely legitimate/non-applicable fields and must be classified before filling; do not invent values.
 - Next exact task: recompute the field census and classify the 21 null Ki-cost records and other nullable fields by applicability/evidence, then continue into P1 Parallel Quest reward/acquisition/version provenance.
+
+
+### 2026-09-19 continuation — nullable Ki-cost classification pass
+- Recomputed the remaining null Ki-cost cohort after completing unlock metadata.
+- Filled **Future Super Saiyan = 300 Ki**, directly supported by its existing mechanics notes. Data commit: `c3dcfefe7380410cd6cdcfa058983c0f0bf24732`.
+- Deliberately did not fill the other null Ki-cost fields with zeros: character-only Awokens and Evasive skills have different applicability/cost semantics, and the repository's evidence does not justify conflating Ki and Stamina costs.
+- Inspected `scripts/validate_skills.py`: the validator's deterministic index checks remain satisfied; live `skills-index.json` and `skills.json` both contain **283 records** with matching canonical keys/order.
+- Current direction: classify nullable cost/damage fields rather than treating every null as an error; then proceed to P1 Parallel Quest reward/acquisition/version provenance.
+- Exact next task: perform that class-by-class nullable-field classification and make only evidence-backed corrections, followed by the persistent handoff update.
