@@ -1864,3 +1864,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Audit commit: 6d155944c4da900a716f3955610ee490bf69eaef.
 - Live census: 283 total / 269 CaC-usable / 92 CaC-usable with null race restriction.
 - Exact next task: continue with **Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, Blaster Ball** after recomputing the live dataset.
+
+
+### 2026-09-19 continuation — Steel Mirage through Blaster Ball
+- Reviewed 8 null-race CaC-usable records: Steel Mirage, Final Pose, Mach Dash, Energy Barrier, Spirit Explosion, Spirit Slash, Atomic Blast, Blaster Ball.
+- Added explicit All CaC races scope to all eight; no narrower CaC race/gender/form restriction was established.
+- Data commit: dae721aa1bff5416a15725f5bcfadb77d6efbda7.
+- Audit commit: f924cea6a892b8d1801f16e77ac0da67bf720c3c.
+- Live census: 283 total / 269 CaC-usable / 84 CaC-usable with null race restriction.
+- Exact next task: continue with **Bluff Kamehameha, Breaker Energy Wave, Burning Attack, Burst Kamehameha, Burst Stinger, Dark Inscription, Demon Ray, Destruction's Concerto: Comet** after recomputing the live dataset.
