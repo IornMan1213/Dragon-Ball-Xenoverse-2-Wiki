@@ -6400,11 +6400,12 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Melee%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "usable_by_cac": true,
       "ki_cost": 300,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
@@ -6421,14 +6422,15 @@
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Ranged%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29"
+        "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "usable_by_cac": true,
       "race_restrictions": [
         "Namekian"
       ],
       "ki_cost": 300,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "Training with Lord Slug, Lesson 3",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
@@ -6490,10 +6492,11 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
         "https://dbxv2.fandom.com/wiki/Dragon_Fist",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "ki_cost": 500,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop; 200 TP Medals in the documented shop listing.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -6587,10 +6590,11 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Godly_Display",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "ki_cost": 500,
-      "ultimate_finish_required": null,
+      "ultimate_finish_required": false,
       "unlock_method": "TP Medal Shop; current documented price is 500 TP Medals.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
