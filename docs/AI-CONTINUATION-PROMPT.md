@@ -1420,3 +1420,14 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: `106ea8b54dff7767bacbebc687fabebb6af289a9`.
 - Audit commit: `e73838117864770ec9aef37de9ffae01f8296291`.
 - Exact next task: recompute the live dataset order and continue with the eight records immediately following Double Death Slicer.
+
+
+### 2026-09-19 continuation — Dust Attack through Final Cannon
+- Reconciled **Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, Emperor's Cannon, Eraser Bomb, Evil Blast, Evil Flame, and Final Cannon**.
+- All eight remain CaC-usable with no explicitly established narrower race/gender/form restriction.
+- Dust Attack's existing Ki Blast classification is preserved while flagged for future direct skill-page reconciliation; a broad category listing alone was not used to silently normalize it.
+- Emperor's Cannon retains the corrected **PQ184** acquisition record.
+- Live census: **283 total / 269 CaC-usable / 183 CaC-usable with null race restriction**.
+- Data commit: `aed1d10b50a8f79a9848ee379b1bdc4ef5f5ca63`.
+- Audit commit: `f92c509ca85bc90cfba418fc0f49c5e5fe75d2cb`.
+- Exact next task: recompute the live dataset order and continue with the eight records immediately following Final Cannon.
