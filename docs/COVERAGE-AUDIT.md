@@ -718,3 +718,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Updated **Majin Kamehameha** to `race_restriction: "Majin"`.
 - This is a restriction census, not a character-source inference: the repository will continue requiring explicit Future Warrior/CaC evidence before assigning a restriction.
 - Skills commit: `574e87cde26b8e8ed1bdaa410e7b59786e3e4305`.
+
+
+## 2026-09-19 race census — universal CaC batch
+
+- Used the Future Warrior technique reference to distinguish explicitly available techniques from race-exclusive techniques. The reference lists **Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, and Galick Gun** among Future Warrior techniques and provides no race restriction for these entries. citeturn0search1
+- Reconciled all nine to `race_restriction: "All CaC races"` rather than leaving them ambiguous.
+- This is evidence of CaC availability across the selectable Future Warrior races; it is not inferred from the source character's race.
+- Skills commit: `d248c4be6598c338181efd83a9c5edbe1472e496`.
