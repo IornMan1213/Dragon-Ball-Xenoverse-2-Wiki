@@ -2072,3 +2072,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ 66 was specifically cross-checked against independent GameFAQs/Steam evidence and recorded as **Candy Beam**, not the conflicting `Warp Kamehameha` value present in the partial normalization map. citeturn1search0turn1search1
 - The normalization map remains partial; its empty arrays are not treated as negative evidence.
 - Data commits: `482dd3e44fefbbde853e62163c2fd7630e0ce90b` and correction `3bbce3ccc4e7ec3d9ff311fa38263d649382d107`.
+
+
+## 2026-09-19 — PQ 81-100 skill-reward provenance pass
+
+- Reconciled the canonical PQ 81-100 skill-reward fields against the current all-186 reward listing and the repository's partial normalization layer. citeturn0search0turn0search6
+- Added the source-backed skills present in the normalized reward layer: PQ 81-85, 88-92, 94-100; PQ 86, 87, and 93 remain without a normalized skill entry.
+- Added the current all-186 Steam reference to every PQ 81-100 record.
+- Data commit: `f724f2e9f98f64043628a361cdd86d0717581b2d`.
