@@ -1126,3 +1126,17 @@ Reconciled Candy Beam (Super), Crazy Finger Shot, Dark Inscription, Death Psycho
 - Destruction's Concerto: Comet confirmed **100–200 Ki** and tracking/conductor interaction.
 - Destruction's Concerto: Starfall confirmed as the PQ104 Vados Super Skill with the two-sphere/conductor behavior.
 - Destructo-Disc confirmed **100 Ki**, Krillin training acquisition, tracking and unblockable behavior.
+
+
+## 2026-09-19 — Dimension/Divine/Emperor cohort
+
+Reconciled Dimension Cannon, Divine Kamehameha, Divine Spear, Double Death Slicer, Dust Attack, Earth Splitting Galick Gun, Emperor's Blast, and Emperor's Cannon.
+
+- Dimension Cannon confirmed at **300 Ki / PQ59**.
+- Divine Kamehameha confirmed at **200 Ki**, TP Medal Shop, all CaC races.
+- Divine Spear remains **not established as CaC-usable** in current evidence.
+- Double Death Slicer confirmed at **100 Ki / PQ24**.
+- Dust Attack remains flagged: the broad Super Attack index places it under **Other**, while the dataset currently carries a Ki Blast classification; direct skill-page reconciliation is still needed before changing the canonical class.
+- Earth Splitting Galick Gun confirmed at **200 Ki / PQ11**; existing Ultimate Finish gate retained.
+- Emperor's Blast confirmed at **100 Ki**.
+- **Emperor's Cannon corrected from PQ183 to PQ184** based on its dedicated current skill page.
