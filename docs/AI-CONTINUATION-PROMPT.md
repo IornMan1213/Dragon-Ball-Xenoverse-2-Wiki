@@ -592,3 +592,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Added concrete acquisition/source locations and CaC eligibility; filled supported zero-Ki Evasive costs. Late-PQ DLC pack provenance remains explicitly unresolved where quest-number evidence alone is insufficient.
 - Skills commit: `4ec88f3820e2a38d49f3cfa10e6256b244e679c7`. Coverage commit: `756f51f2e9c54d4e5f5e6bc026dc8b027bbd0ab7`.
 - Exact next task: recompute the live partial-field gaps and prioritize records with missing race restrictions, DLC/version provenance, or exact reward-slot semantics. Do not downgrade the evidence standard merely to increase the verified count.
+
+
+### 2026-09-19 cycle update — Skill CaC/provenance reconciliation batch
+- Recomputed the live canonical skill census: **283 unique records; 265 partially_verified; 18 verified; 0 indexed**.
+- Identified remaining partial-field gaps, with race restrictions and DLC/version provenance now the dominant broad gaps rather than missing indexed records.
+- Reconciled **Burst Reflection, Divine Kamehameha, Perfect Shot, Spirit Bomb, Instant Transmission, Super Guard, Afterimage, and Celestial Wave** using current Xenoverse 2 references.
+- Added/confirmed CaC eligibility, acquisition routes, supported resource values, and provenance. Divine Kamehameha remains explicitly version/update-sensitive; Celestial Wave retains Vote Pack/PQ151 provenance.
+- Skills commit: `28a6fb4b85a7a6eabf4b60052a8a92f7a5c6bee1`. Coverage commit: `4c4576a2c0c9571f4dd3e8b5e275fccd5c4e8cc5`.
+- Exact next task: continue the missing `usable_by_cac` and race/DLC field audit, prioritizing skills with character-only users or recent DLC/DAIMA-era names. Do not mark a skill verified merely because a source lists a user; establish Future Warrior/CaC availability explicitly.
