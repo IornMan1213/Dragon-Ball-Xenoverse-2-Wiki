@@ -1060,3 +1060,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Refreshed all four verification dates to 2026-09-19.
 - Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
 - Next live unresolved cohort follows God of Destruction's Plaything; inspect canonical ordering before selecting the next batch.
+
+
+### 2026-09-19 cycle update — God/Headshot provenance boundary
+- Reviewed God Punisher, Handy Canon, Headshot, and Heat Wave.
+- Preserved null race restrictions because current evidence does not explicitly establish CaC race/gender/form scope.
+- Added dedicated current-version provenance URLs for God Punisher and Handy Canon.
+- Refreshed all four verification dates to 2026-09-19.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort follows Heat Wave; inspect canonical ordering before selecting the next batch.
