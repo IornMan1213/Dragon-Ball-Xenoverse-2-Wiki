@@ -1323,9 +1323,12 @@
       "source_quest_or_shop": "TP Medal Shop",
       "skill_description": "Ki Blast Super Skill associated with Vegeta that fires a large beam after charging.",
       "mechanics_notes": "Contemporary launch-era GameFAQs reports identify the Super version as a TP Medal Shop item rather than a PQ reward; later community discussion likewise distinguishes it from X100 Big Bang Kamehameha, which is a PQ 100 reward. Shop rotation is time-dependent.",
-      "research_status": "partially_enriched",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "research_status": "reconciled_future_warrior_evidence",
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Big Bang Knuckle",
@@ -4954,14 +4957,17 @@
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam",
         "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam"
       ],
-      "ki_cost": "400+",
-      "last_verified": "2026-09-18",
+      "ki_cost": 300,
+      "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "dlc_requirement": "Resurrection 'F' Pack / DLC Pack 3",
       "character_source": "Golden Frieza",
       "mechanics_notes": "Starts at 400 Ki and consumes additional available Ki while firing; the number of beams and total damage scale with the user's stored Ki. The documented skill page lists 400+ Ki used.",
       "source_quest_or_shop": "TP Medal Shop",
-      "unlock_method": "TP Medal Shop"
+      "unlock_method": "TP Medal Shop",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "research_status": "reconciled_future_warrior_evidence"
     },
     {
       "name": "Energy Field",
@@ -4997,10 +5003,14 @@
       ],
       "ki_cost": 500,
       "unlock_method": "TP Medal Shop",
-      "last_verified": "2026-09-18",
+      "last_verified": "2026-09-19",
       "ultimate_finish_required": null,
       "dlc_requirement": "Legendary Pack 1",
-      "character_source": "SSGSS Vegeta (Evolved)"
+      "character_source": "SSGSS Vegeta (Evolved)",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "source_quest_or_shop": "TP Medal Shop",
+      "research_status": "reconciled_future_warrior_evidence"
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
@@ -5606,8 +5616,13 @@
       ],
       "ki_cost": 300,
       "unlock_method": "Expert Mission 16",
-      "last_verified": "2026-09-18",
-      "ultimate_finish_required": null
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": null,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "source_quest_or_shop": "Expert Mission 16 - In the Realm of the Gods: Vegeta",
+      "research_status": "reconciled_future_warrior_evidence"
     },
     {
       "name": "Supernova",
