@@ -2089,3 +2089,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ 144 and PQ 157 remain empty for `skill_rewards` because the current normalized reward layer does not establish skills for them. citeturn0search1
 - Data commit: `c80087a1225f25c300f6d81778f6f398f4ae0bc8`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 163-186**, then update the audit and this handoff.
+
+
+### 2026-09-19 continuation — PQ 163-186 reward pass complete
+- Canonical `pq-163-186.json` now carries source-backed skill relationships for PQ 163-168 and 171-186.
+- PQ 169 and PQ 170 remain empty for `skill_rewards`; no reward was inferred from non-skill entries.
+- The canonical PQ skill-reward provenance sweep through **PQ 186 is now complete**. Next work should shift to reconciliation/quality-control across the full 1-186 corpus rather than advancing to another PQ range.
+- Data commit: `3432f50877c550189d6f25f6d2026bf294f61f35`.
