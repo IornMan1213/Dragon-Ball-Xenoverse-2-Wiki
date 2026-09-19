@@ -897,12 +897,12 @@
       "stamina_cost": 300,
       "unlock_method": "Parallel Quest 96 - \"The Shadow Dragons\" (random reward)",
       "last_verified": "2026-09-19",
-      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
+      "research_status": "reconciled_current_version_evidence",
       "source_quest": 96,
       "source_quest_or_shop": "Parallel Quest 96",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "mechanics_notes": "Ki Blast Evasive counter. The user takes a brief stance; attackers who hit the stance are frozen. Current reference documents a 3-second freeze effect."
+      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ96. It freezes attackers who strike the stance; no unsupported CaC race/gender/form restriction was added."
     },
     {
       "name": "Celestial Wave",
@@ -918,9 +918,9 @@
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "ultimate_finish_required": null,
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research.",
+      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ151, associated with Goku (Ultra Instinct -Sign-) and available to CaCs. The dedicated list explicitly describes the PQ151 acquisition; no narrower CaC race restriction was inferred.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_external_evidence",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
@@ -943,12 +943,12 @@
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 82 - \"Ultimate Brotherly Battle\" (random reward)",
       "last_verified": "2026-09-19",
-      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
+      "research_status": "reconciled_current_version_evidence",
       "source_quest": 82,
       "source_quest_or_shop": "Parallel Quest 82",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
-      "mechanics_notes": "Ki Blast Evasive counter. The user briefly enters a stance; attackers who hit it are paralyzed and burned. Current reference documents a 3-second paralysis/burn effect."
+      "mechanics_notes": "Current dedicated evidence confirms a 200-Stamina Ki Blast Evasive from PQ82. The stance can inflict paralysis/burn on an attacker; no unsupported CaC race/gender/form restriction was added."
     },
     {
       "name": "Explosive Wave",
@@ -963,16 +963,16 @@
       "stamina_cost": 300,
       "unlock_method": "Skill Shop for 15,000 Zeni after completing the main story (normal ending)",
       "last_verified": "2026-09-19",
-      "research_status": "partially_enriched_cac_cost_acquisition_mechanics",
+      "research_status": "reconciled_current_version_evidence",
       "ultimate_finish_required": null,
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop",
-      "mechanics_notes": "Ki Blast Evasive. Creates an explosion around the user that staggers/knocks back nearby enemies."
+      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added."
     },
     {
       "name": "Force Shield",
       "class": "Evasive",
-      "subcategory": "Other",
+      "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Vegito",
       "dlc_requirement": "Base Game",
@@ -983,9 +983,9 @@
       "source_quest_or_shop": "Parallel Quest 59",
       "ultimate_finish_required": null,
       "skill_description": "Force Shield is a Evasive Other skill associated with Vegito.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current dedicated evidence confirms Force Shield as a 200-Stamina Ki Blast Evasive from PQ59, used by Vegito. It creates a blue barrier that cancels Ki waves and can be held while consuming Ki; no unsupported CaC race/gender/form restriction was added.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1008,9 +1008,9 @@
       "source_quest_or_shop": "Parallel Quest 37",
       "ultimate_finish_required": null,
       "skill_description": "Instant Rise is an Evasive skill that rapidly ascends to evade attacks.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current dedicated evidence confirms Instant Rise as a 200-Stamina Other Evasive from PQ37. It rapidly moves the user upward for evasion; no unsupported CaC race/gender/form restriction was added.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1033,9 +1033,9 @@
       "source_quest_or_shop": "Parallel Quest 77",
       "ultimate_finish_required": null,
       "skill_description": "Ki Explosion is a Evasive Other skill associated with Majin Buu.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current evidence confirms Ki Explosion as a 200-Stamina Evasive available to CaCs, obtained from PQ77. It is an omnidirectional ki explosion; the dataset's existing explicit all-CaC-races restriction is retained.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1058,9 +1058,9 @@
       "source_quest_or_shop": "Parallel Quest 92",
       "ultimate_finish_required": null,
       "skill_description": "Maiden Burst is a Evasive Other skill associated with Pan.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
+      "mechanics_notes": "Current dedicated evidence confirms Maiden Burst as a 300-Stamina Evasive from PQ92, associated with Pan/Videl (Customize Partner)/Ribrianne. No unsupported CaC race/gender/form restriction was added.",
       "verification_status": "partially_verified",
-      "research_status": "reconciled_acquisition_cac_resource_fields",
+      "research_status": "reconciled_current_version_evidence",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
