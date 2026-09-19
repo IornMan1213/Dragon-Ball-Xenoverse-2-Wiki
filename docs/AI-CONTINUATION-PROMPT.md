@@ -1637,3 +1637,12 @@ A new AI chat must be able to continue from this file without depending on the p
 - Updated docs/data/skills.json. Live census: 283 total / 269 CaC-usable / 146 CaC-usable with null race restriction.
 - Data commit: 53d55a0914ef64233bc88c16a7a3508c4cab055a. Coverage commit: f00540e4e988aa16765266c90c6229ca57d36db2.
 - Exact next task: recompute the live dataset order and continue with the next eight records after Supernova. Preserve null restrictions where explicit evidence remains insufficient.
+
+
+### 2026-09-19 continuation — Teleporting Vanishing Ball through Darkness Rush (Melee)
+- Reconciled Teleporting Vanishing Ball, Thunder Flash, Total Detonation Ball, Warp Kamehameha, X 100 Big Bang Kamehameha, Blades of Judgment, Brave Sword Attack, and Darkness Rush (Melee).
+- All eight now carry explicit All CaC races scope based on Future Warrior evidence. Teleporting Vanishing Ball's Pure Majin/Purification route is additional form-specific access, not a general CaC restriction.
+- Removed the previous Non-Namekian restriction from Darkness Rush (Melee); the reviewed Future Warrior evidence does not establish it as a character-wide CaC race restriction.
+- Updated docs/data/skills.json. Live census: 283 total / 269 CaC-usable / 140 CaC-usable with null race restriction.
+- Data commit: ad1111aca24c4c45e574c10e895d76e3b015c322. Coverage commit: 26ddcd012f14cbcf3f9ecf7d51d9c5657172d208.
+- Exact next task: recompute the live dataset order and continue with the next eight records after Darkness Rush (Melee). Preserve null restrictions where explicit evidence remains insufficient.
