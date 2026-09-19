@@ -1173,3 +1173,13 @@ Reconciled Giant Cluster, Gigantic Charge, God of Destruction's Plaything, God P
 ## 2026-09-19 — Ill Rain through Photon Swipe cohort
 
 Reconciled Ill Rain, Kamehameha, Masenko, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Shot, and Photon Swipe. Confirmed classifications, costs, acquisition, and explicit CaC restrictions where supported; no unsupported race restrictions were inferred.
+
+
+## 2026-09-19 — Pretty Cannon through Spirit Bomb cohort
+
+Reconciled Pretty Cannon, Raid Blast, Ray Blast, Reverse Shot, Rolling Bullet, Shine Shot, Spirit Blaster, and Spirit Bomb.
+
+- **Raid Blast:** corrected character source to Super Saiyan God Vegeta; retained 100-Ki Ki Blast Super and PQ136/Ultimate Finish requirement.
+- **Spirit Blaster:** corrected character source to SSGSS Gogeta; retained 100-Ki Ki Blast Super and PQ129.
+- **Rolling Bullet:** corrected from Super Ki Blast to **Ki Blast Evasive**, 200 Stamina, PQ42; Android 18/Great Saiyaman 2 users.
+- Other cohort records retained their supported 100-Ki Super classifications/acquisition data.
