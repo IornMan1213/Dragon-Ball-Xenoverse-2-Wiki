@@ -1798,3 +1798,16 @@ A new AI chat must be able to continue from this file without depending on the p
 - Data commit: a8d443c432aadfbf75e44562d4359570e1bd0af9.
 - Audit commit: 3ffb8d6d4984e870a950214e4451851ef35d0003.
 - Exact next task: continue with the next eight CaC-usable records whose race_restriction remains null.
+
+
+### 2026-09-19 continuation — Heroic Assault through Meteor Strike
+- Workstream: P1 skill race-restriction census.
+- Recomputed the live skills dataset: 283 records / 269 CaC-usable / 127 CaC-usable with null race restriction after this cohort.
+- Reviewed Heroic Assault, Justice Blade, Justice Drive, Justice Kick, Lovely Cyclone, Mach Punch, Meteor Blow, and Meteor Strike.
+- Added explicit All CaC races scope to Heroic Assault, Justice Blade, Justice Kick, Lovely Cyclone, Mach Punch, Meteor Blow, and Meteor Strike using current Future Warrior evidence. Justice Drive remains intentionally null because accessible evidence reviewed in this cycle identifies Videl (DB Super) as its user/PQ168 reward but does not independently establish Future Warrior/CaC availability.
+- Added the maintained Future Warrior technique-list source to the seven records whose CaC scope was established.
+- No validator or validation rule was weakened; no unsupported restriction, unlock condition, or drop percentage was added.
+- Data commit: d63a88ff98d79c125d5cf49af297dfa3916749cf.
+- Audit commit: d0545872c4aadd51f3d09ba327dd57548d6e3d13.
+- Evidence limitations: the Future Warrior list directly establishes seven records as usable by the Future Warrior; Justice Drive remains unresolved for CaC scope rather than being inferred from Videl's character association.
+- Exact next task: continue the null-race census with the next eight CaC-usable records after the completed cohort: Scissors Paper Rock, Seagull Combination, Shooting Strike, Soaring Rush, Sonic Bomb, Super God Fist, Variant Drive, Apocalyptic Burst. Recompute the live census first and preserve null restrictions when explicit evidence is insufficient.
