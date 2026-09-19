@@ -2443,3 +2443,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No data changes made; these remain `null` because ordinary PQ reward listings do not prove either UF-only or non-UF acquisition.
 - Current nullable Super/Ultimate count remains **162**.
 - Next task: continue targeted evidence searches, especially records with richer provenance or dedicated acquisition-guide sources.
+
+
+### 2026-09-19 continuation — explicit PQ acquisition-gate batch 4
+- Resolved `Counter Burst` (`PQ75`) to `false`: dedicated DLC3 guide says the skill drops from SSGSS Vegeta and explicitly says the skills do not require the Ultimate Finish.
+- Resolved `Counter Impact` (`PQ153`) to `true`: acquisition reports explicitly describe the PQ153 skill drops as occurring after an Ultimate Finish.
+- Resolved `Demon Flash Strike` (`PQ160`) to `true`: current datamined PQ160 data places the skill in Ultimate Finish bonus reward slots.
+- Resolved `God Breaker` (`PQ44`) to `false`: acquisition evidence identifies a direct Future Trunks reward route rather than an Ultimate Finish-gated drop.
+- Data commit: `0741304e5ed8e750bd1c57e391e60a909c122ec6`.
+- Next task: recompute the null census and continue with the remaining PQ candidates using the same explicit-gate standard.
