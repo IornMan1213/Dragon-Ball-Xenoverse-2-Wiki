@@ -475,3 +475,11 @@ Unknown values remain unknown until evidence is found. The audit must never be s
 - Cross-checked the objective sequences and basic reward lists against the maintained 186-PQ transcription and independent Ultimate Finish/objective tables. The repository's existing reward data for this batch matches the primary transcription; no unsupported reward-slot percentages were added.
 - PQ36's existing numbering/existence conflict remains explicitly documented and was independently cross-checked; it was not silently removed or normalized.
 - Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 82 records still lacking individual `sources` arrays**.
+
+
+## Parallel Quest provenance pass — PQ41–PQ50 — 2026-09-19
+
+- Completed record-level provenance for **PQ41–PQ50**; all ten records now carry explicit source URLs and a 2026-09-19 verification date.
+- Cross-checked objective sequences and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish/objective tables.
+- Preserved unresolved reward-slot/drop semantics rather than converting documented rewards into unsupported percentages.
+- Repository-wide census after this pass: **176 canonical records; 0 missing `unlock_condition` fields; 72 records still lacking individual `sources` arrays**.
