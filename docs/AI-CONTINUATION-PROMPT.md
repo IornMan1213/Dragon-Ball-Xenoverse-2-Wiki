@@ -993,3 +993,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Do not convert generic Evasive Skill/CaC availability listings into race-specific classifications without explicit evidence.
 - Canonical skill count remains 283 and unresolved CaC null-race count remains 183.
 - Exact next task: continue the next unresolved null-race cohort beginning with Instant Rise, then Ki Explosion, Maiden Burst, and subsequent live-order records.
+
+
+### 2026-09-19 cycle update — explicit CaC scope found
+- Reviewed Instant Rise, Ki Explosion, Maiden Burst, Mighty Explosive Wave, Psychic Move, Punisher Guard, Side Bridge, and Spread Shot Retreat.
+- Classified **Ki Explosion** as `All CaC races` because its current Xenoverse 2 page explicitly says it is available for all CaCs.
+- The other seven reviewed records remain unresolved where the evidence does not explicitly establish all-race or race-specific CaC scope.
+- Canonical skill count remains 283; CaC-usable count remains 270; unresolved null-race count decreases from 183 to 182.
+- Exact next task: continue from the live unresolved ordering after this batch, beginning with Steel Mirage and subsequent records, using explicit current-version race/gender/form evidence only.
