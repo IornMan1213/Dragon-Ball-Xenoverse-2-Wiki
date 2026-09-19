@@ -2296,3 +2296,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Preserved remaining DLC nulls where evidence does not establish version provenance.
 - Evasive damage_type census remains complete for all 22 records.
 - Next exact task: **audit remaining Evasive Ultimate-Finish metadata for a small directly sourced batch; otherwise continue with Super/Ultimate acquisition metadata.**
+
+
+### 2026-09-19 continuation — Evasive Ultimate-Finish metadata batch
+- Resolved three Evasive ultimate_finish_required nulls to false: Explosive Wave, Punisher Guard, Final Pose.
+- These are currently Skill Shop acquisitions, providing direct evidence that Ultimate Finish is not required for their acquisition.
+- Preserved remaining Evasive Ultimate-Finish nulls where PQ reward mechanics are not explicit enough to distinguish ordinary random rewards from UF-only rewards.
+- Next exact task: **continue with a small Super/Ultimate acquisition metadata batch or another Evasive field only where direct source evidence is explicit.**
