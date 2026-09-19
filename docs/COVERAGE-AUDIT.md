@@ -1790,3 +1790,13 @@ Reviewed the next eight null-race CaC-usable records: **Scissors Paper Rock, Sea
 - No unlock, class, cost, or drop semantics were changed.
 - Live skill census: **283 total / 269 CaC-usable / 124 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — Burst Rush through God Breaker race-restriction census
+
+Reviewed the next eight null-race CaC-usable records: **Burst Rush, Change The Future, Counter Burst, Counter Impact, Demon Flash Strike, Dimensional Hole, Flash Fist Crush, God Breaker**.
+
+- Added explicit **All CaC races** scope to all eight records. The maintained Future Warrior technique list explicitly includes each skill; no narrower CaC race/gender/form restriction is established.
+- Preserved existing unlock, class, cost, and mechanics metadata.
+- Live skill census: **283 total / 269 CaC-usable / 116 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
