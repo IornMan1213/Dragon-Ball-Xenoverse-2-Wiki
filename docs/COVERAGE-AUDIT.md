@@ -831,3 +831,7 @@ Added direct technique-page provenance to six existing CaC-usable skill records 
 ## 2026-09-19 Raid Blast — dedicated provenance
 
 Added the dedicated `Niagara Pummel` reference to the existing `Raid Blast` skill record. The source confirms the Xenoverse 2 identity and Future Warrior acquisition route (New Parallel Quest 136), but does not establish a race restriction, so `race_restriction` remains unchanged.
+
+## 2026-09-19 Counter Burst — dedicated provenance
+
+Added the dedicated `Counter Burst` technique reference to the existing skill record. It confirms the Xenoverse 2 skill and Future Warrior PQ75 acquisition route, but does not provide an explicit race/gender restriction. The null `race_restriction` value is therefore retained.
