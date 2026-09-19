@@ -82,7 +82,7 @@ Known completed frontier:
 - PQ161–186: later-batch reward/unlock semantics enriched; exact unknown percentages remain unresolved rather than fabricated.
 - PQ184 Chaotic Time Impact: documented as a 50% Ultimate Finish bonus-slot drop.
 
-**Next exact PQ task: PQ121–130.**
+**Next exact PQ task: PQ131–140.**
 First recompute the live unlock census instead of trusting historical counts.
 
 ### P1 — Awoken / Transformations
@@ -136,7 +136,7 @@ Only after data-completeness work, expose the improved structured research surfa
 8. Update this file with the new state and commit the complete cycle.
 
 ### Latest known PQ unlock census
-**176 canonical PQ records across 18 research batches; 54 currently lack an explicit `unlock_condition` field.** The remaining missing records are PQ36, PQ53–55, PQ111–140, and PQ151–160. Field presence is not equivalent to exact-route verification.
+**176 canonical PQ records across 18 research batches; 24 currently lack an explicit `unlock_condition` field.** The remaining missing records are PQ36, PQ53–55, PQ131–140, and PQ151–160. Field presence is not equivalent to exact-route verification.
 
 ## Recent commits
 
@@ -192,6 +192,20 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `pq-batch-10.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
 - Evidence discipline: exact-looking prerequisites are retained only where the consulted sources support them.
 - Next exact task: PQ101–110 (DLC-era PQs); treat DLC ownership/version provenance as a first-class field when researching them.
+
+
+### 2026-09-19 cycle update — PQ121–130
+- Workstream: Parallel Quest unlock-route research.
+- Recomputed the live census before editing: **176 canonical PQ records; 24 records remain without an explicit `unlock_condition` field**.
+- Researched PQ121–130 individually. Current evidence maps PQ121–122 to Extra Pack 2, PQ123–127 to Extra Pack 3, and PQ128–130 to Extra Pack 4.
+- Added the conservative DLC-era unlock route to all ten: owning the relevant DLC pack and having the Parallel Quest board available. No sequential prerequisite was invented.
+- Added record-level provenance to all ten records using the maintained Steam all-PQ guide, the Steam DLC-to-PQ mapping discussion, and Bandai Namco's official DLC reference.
+- Updated `docs/data/parallel-quest-research-batches/pq-batch-13.json` and `docs/COVERAGE-AUDIT.md`.
+- Commits: `44c2ce4622cc41dd921edb94faaf741569f798a8` (PQ121–130 research), `29c04917673d82f433172dca6be5e5683817ddeb` (coverage audit).
+- Validation: batch JSON was parsed and rewritten through the repository connector; all ten records received explicit unlock metadata, verification state, source URLs, and a 2026-09-19 verification date. A follow-up repository-wide census is still required before treating the count as final.
+- CI status: no new actionable workflow result was available during this cycle; prior opaque pre-step failures remain infrastructure/account signals. Validators were not weakened.
+- Current unresolved unlock records: PQ36, PQ53–55, PQ131–140, PQ151–160 (**24 total**).
+- Exact next task: **PQ131–140**; recompute the live census first, then research the Ultra Pack-era DLC mapping and exact unlock routes without inventing sequential prerequisites.
 
 ## End-of-cycle update protocol
 
