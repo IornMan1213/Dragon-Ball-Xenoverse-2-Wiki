@@ -4,7 +4,7 @@
   "verification_policy": "parallel_quest_audit_with_independent_cross_checks",
   "research_scope": "PQ11-PQ20 base-game Parallel Quest audit. Core objectives and documented rewards are recorded; exact reward-slot/drop percentages remain unresolved unless directly established.",
   "verification_audit": {
-    "audited": "2026-09-17",
+    "audited": "2026-09-19",
     "duplicate_check": {
       "status": "passed",
       "duplicate_count": 0
@@ -14,7 +14,12 @@
       "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
       "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
-    ]
+    ],
+    "record_level_source_pass": {
+      "status": "completed",
+      "scope": "PQ11-PQ20",
+      "note": "Added record-level provenance to every PQ11-PQ20 record. Independent references corroborate the recorded quest objectives and Ultimate Finish conditions. Existing unlock-route and reward data were not expanded where the accessible evidence did not directly establish them."
+    }
   },
   "records": [
     {
@@ -49,7 +54,13 @@
         }
       ],
       "verification_status": "verified_objectives_and_reward_semantics",
-      "last_verified": "2026-09-17"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 12,
@@ -75,7 +86,13 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_partial_rewards",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 13,
@@ -99,7 +116,13 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_partial_rewards",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 14,
@@ -125,7 +148,13 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_partial_rewards",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 15,
@@ -149,7 +178,13 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_partial_rewards",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 16,
@@ -174,7 +209,13 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_partial_rewards",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 17,
@@ -199,7 +240,13 @@
       "skill_rewards": [],
       "skill_drop_conditions": [],
       "verification_status": "verified_objectives_partial_rewards",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 18,
@@ -239,7 +286,13 @@
         }
       ],
       "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 19,
@@ -277,7 +330,13 @@
         }
       ],
       "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     },
     {
       "number": 20,
@@ -311,7 +370,13 @@
         }
       ],
       "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
-      "last_verified": "2026-09-18"
+      "last_verified": "2026-09-19",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ]
     }
   ]
 }
