@@ -1,3 +1,9 @@
+## September 2026 — PQ71–80 Provenance Pass
+- Added record-level provenance to **PQ71–PQ80** with 2026-09-19 verification dates.
+- Cross-checked 7-star objectives and basic rewards against the maintained 186-PQ transcription and independent Ultimate Finish references.
+- Reviewed unlock metadata conservatively; retained documented routes without introducing unsupported prerequisite claims because external evidence shows broader story progression can affect PQ availability.
+- PQ provenance gap reduced from 56 to **46 of 176 records** without individual `sources` arrays.
+
 ## September 2026 — PQ61–70 Unlock and Provenance Reconciliation
 - Added record-level provenance to **PQ61–PQ70** with 2026-09-19 verification dates.
 - Reconciled unlock metadata against an independent PQ progression table: PQ61/PQ63 follow the Beerus/Wrath of the God of Destruction story arc; PQ62 and PQ64–PQ68 follow the documented PQ chain; PQ69 requires the Beerus-arc progression plus the documented Trunks interaction near the Time Nest; PQ70 follows the Resurrection of the Emperor/Golden Frieza story arc.
