@@ -778,3 +778,8 @@ The current race-restriction pass was rechecked against the accessible Future Wa
 ## 2026-09-19 independent Future Warrior provenance hardening
 
 Rechecked the live skill census and added an independent accessible Future Warrior reference to 13 already-reconciled race/gender/form-restricted skill records: Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Ill Bomber, Candy Beam, Buu Buu Ball, Shining Slash, Burning Slash, Evil Flight Strike, Darkness Rush (Melee), Darkness Rush (Ranged), Majin Kamehameha, and Namek Finger. This is provenance hardening only; no race values were inferred or changed in this batch. The independent reference explicitly states the relevant Future Warrior restrictions. The live census remains **283 total / 270 CaC-usable / 186 CaC-usable with null race restriction**. The remaining null cohort requires the same explicit-evidence threshold.
+
+
+## 2026-09-19 Future Warrior unrestricted-provenance batch
+
+Added the independent Future Warrior technique reference to seven existing CaC-usable records: **Demon Ray, Stone Bullet, Hero's Flute, Brave Sword Slash, Dimension Ray, God of Destruction's Roar, and Brave Sword Attack**. This batch strengthens acquisition/user provenance without assigning a race restriction: the accessible reference identifies these techniques as part of the Future Warrior's Xenoverse 2 technique set, but does not provide a sufficiently explicit universal-race statement for each record. The repository therefore keeps the race restriction field null for these records rather than converting them to `All CaC races` by inference. The live race backlog remains **186** CaC-usable records with null race restriction.
