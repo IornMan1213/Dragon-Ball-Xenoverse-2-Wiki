@@ -883,3 +883,10 @@ A new AI chat must be able to continue from this file without depending on the p
 - Skills commit: `d3db810e63893318f8cf40b38b2fa9601301a730`.
 - Coverage commit: `7206a4cf543304579c6893dfa4b4d6597a92ece3`.
 - Exact next task: continue independent skill-page research for explicit unrestricted/race/gender/form statements.
+
+### 2026-09-19 cycle update — dedicated technique provenance pass
+- Added dedicated technique-page sources to `Mach Dash`, `Energy Barrier`, `Blaster Ball`, `Crazy Finger Shot`, `Evil Flame`, and `Final Cannon`.
+- No race classification was changed where the newly checked evidence only established Future Warrior acquisition/usage rather than an explicit race restriction or unrestricted statement.
+- Skills commit: `893b7cac3b045873ab6b0f2c629e89bf2a3b6723`.
+- Coverage commit: `cd597e9c3d40629360d91cd5eaa8d723a2529eb1`.
+- Continue the null-race cohort with exact-name dedicated-page searches; do not infer universal access from mere Future Warrior ownership.
