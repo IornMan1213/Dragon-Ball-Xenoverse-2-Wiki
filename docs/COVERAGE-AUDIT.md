@@ -1871,3 +1871,13 @@ Reviewed: **Evil Blast, Evil Flame, Final Cannon, Flash Chaser, Gamma Blaster, G
 - Preserved existing mechanics and acquisition evidence. Gigantic Charge's corrected **200-Ki Strike Super** classification remains intact.
 - Live census: **283 total / 269 CaC-usable / 60 CaC-usable with null race restriction**.
 - No validator or validation rule was weakened.
+
+
+## 2026-09-19 — God Punisher through Pendulum Bullet race-restriction census
+
+Reviewed: **God Punisher, Handy Canon, Headshot, Heat Wave, Ill Rain, Paralysis, Paralyze Beam, Pendulum Bullet**.
+
+- Added explicit **All CaC races** scope to all eight. Maintained Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established.
+- Preserved existing mechanics corrections, including God Punisher as a **400-Ki Ki Blast Ultimate**, Heat Wave as a **200-Ki Strike Super**, and Headshot as Beerus's **Strike Evasive**.
+- Live census: **283 total / 269 CaC-usable / 52 CaC-usable with null race restriction**.
+- No validator or validation rule was weakened.
