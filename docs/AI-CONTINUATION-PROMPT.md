@@ -1018,3 +1018,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - No canonical data changes were required; coverage and handoff were updated to record the evidence boundary.
 - Canonical count remains 283; CaC-usable count remains 270; unresolved null-race count remains 182.
 - Exact next task: continue the live unresolved ordering beginning with Burst Stinger, Dark Inscription, Demon Ray, and Destruction's Concerto: Comet.
+
+
+### 2026-09-19 cycle update — super-skill evidence boundary
+- Reviewed Burst Stinger, Dark Inscription, Demon Ray, and Destruction's Concerto: Comet.
+- Preserved null race restrictions because current evidence establishes named-character usage/acquisition but not explicit CaC race/gender/form scope.
+- Added dedicated current-version Burst Stinger provenance URL and refreshed its verification date.
+- Canonical totals remain 283 skills, 270 CaC-usable, 182 unresolved null-race records.
+- Next live unresolved cohort begins with Destruction's Concerto: Starfall, Dimension Cannon, Double Death Slicer, and Dust Attack.
