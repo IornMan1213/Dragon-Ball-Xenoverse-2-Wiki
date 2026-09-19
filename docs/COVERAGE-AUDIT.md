@@ -2221,3 +2221,8 @@ Resolved `ultimate_finish_required` to `false` for 10 additional Super skills wi
 ## 2026-09-19 — Additional explicit non-UF acquisition batch
 
 Resolved `ultimate_finish_required` to `false` for 10 skills with explicit non-UF acquisition routes: Sudden Death Beam (TP/STP Medal Shop or Double Crystal Raid), Quick Sleep (Skill Shop), Rise to Action (Krillin mentor training), Spirit Boost (Skill Shop), Super Guard (starting fighting-style choice or Skill Shop), Fighting Pose K (Skill Shop), Deadly Dance (Android 18 training), Namek Finger (TP Medal Shop), Pressure Sign (Skill Shop), and Emperor's Blast (TP Medal Shop route). The mixed PQ/TP-shop Emperor's Blast entry is false because the TP Medal Shop provides an independent acquisition path.
+
+
+## 2026-09-19 — Super non-UF acquisition batch 2
+
+Resolved `ultimate_finish_required` to `false` for 9 Super skills with explicit non-PQ-UF acquisition routes: Sudden Death Beam (TP/STP Medal Shop or Double Crystal Raid), Quick Sleep (Skill Shop), Rise to Action (Krillin mentor training), Spirit Boost (Skill Shop), Super Guard (starter/Skill Shop), Fighting Pose K (Skill Shop), Deadly Dance (Android 18 training), Namek Finger (TP Medal Shop), and Pressure Sign (Skill Shop). The acquisition model distinguishes guaranteed shop/mentor routes from PQ drop gating.
