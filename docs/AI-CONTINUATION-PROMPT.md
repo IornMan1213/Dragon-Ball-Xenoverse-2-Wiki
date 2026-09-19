@@ -2338,3 +2338,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Preserved nullable values where the repository only has ambiguous or PQ-only acquisition wording without enough evidence to establish UF requirements.
 - Web cross-check: TP Medal Shop and mentor training are documented independent skill acquisition channels. citeturn0search0turn0search2
 - Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and continue with evidence-driven batches; do not convert generic PQ reward entries to `false` without explicit non-UF evidence.**
+
+
+### 2026-09-19 continuation — Super non-UF acquisition batch 2
+- Resolved `ultimate_finish_required: false` for 9 Super skills with explicit non-PQ-UF routes: Sudden Death Beam, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance, Namek Finger, Pressure Sign.
+- Evidence used shop, mentor-training, starter, and Double Crystal Raid acquisition routes; generic PQ association was not used as sufficient evidence by itself.
+- Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and audit ambiguous mixed-source skills before another batch.**
