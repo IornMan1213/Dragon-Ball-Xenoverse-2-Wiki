@@ -942,3 +942,11 @@ A new AI chat must be able to continue from this file without depending on the p
 - Evidence confirms Future Warrior acquisition/use where documented, but no sufficiently explicit individual race/gender restriction was established. Index omission is not treated as universal access. No classifications changed.
 - Coverage commit: `c6a32d79cb1d04e6ca21561a68d241bb63c295fd`.
 - Continue with the next unresolved null-race cohort.
+
+### 2026-09-19 cycle update — later DLC/mentor null-race cohort
+- Reviewed 12 records: `Flash Chaser`, `Gamma Blaster`, `Giant Cluster`, `Gigantic Charge`, `God of Destruction's Plaything`, `God Punisher`, `Handy Canon`, `Headshot`, `Heat Wave`, `Ill Rain`, `Paralysis`, and `Paralyze Beam`.
+- Added direct technique provenance to `Flash Chaser`, `Gamma Blaster`, `God Punisher`, and `Headshot`.
+- These sources establish Future Warrior acquisition/use but do not establish a new race restriction, so no `race_restriction` values changed.
+- Skills commit: `222be3bacf6432f577f6936da4eef66e116db430`.
+- Coverage commit: `df206ce6b5941e9770a028e4ae4704f965987dfe`.
+- Continue with the next unresolved null-race cohort.
