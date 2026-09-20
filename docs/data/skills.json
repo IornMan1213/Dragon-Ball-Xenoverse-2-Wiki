@@ -5106,11 +5106,11 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
-      "source_quest_or_shop": "PQ175 reward context",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 175 — \"Who's the Next Leader?!\" Ultimate Finish reward (50%)",
+      "source_quest_or_shop": "PQ175",
+      "ultimate_finish_required": true,
       "skill_description": "God of Destruction's Poise is a Super Strike skill associated with God of Destruction Belmod.",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. Acquisition verification 2026-09-20: Verified by current skill page: unlock is explicitly PQ175. No Ultimate Finish requirement is stated; existing audit already records it as outside the UF reward condition.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. Acquisition verification 2026-09-20: Verified by current skill page: unlock is explicitly PQ175. No Ultimate Finish requirement is stated; existing audit already records it as outside the UF reward condition. 2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier.",
       "verification_status": "verified",
       "research_status": "verified",
       "last_verified": "2026-09-20",
@@ -5123,7 +5123,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 175,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier."
     },
     {
       "name": "Heroic Assault",
@@ -5608,11 +5608,11 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 167 — \"Fighting for Family\" normal-clear reward (40%)",
       "source_quest_or_shop": "PQ167",
       "ultimate_finish_required": false,
       "skill_description": "Seagull Combination is a Super Strike skill associated with Videl.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: PQ167 is explicitly listed as the acquisition source; the maintained PQ guide lists Seagull Combination in PQ167 Basic Reward and independent documentation notes its random drop from that PQ.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: PQ167 is explicitly listed as the acquisition source; the maintained PQ guide lists Seagull Combination in PQ167 Basic Reward and independent documentation notes its random drop from that PQ. 2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated.",
       "verification_status": "verified",
       "research_status": "verified",
       "last_verified": "2026-09-20",
@@ -5624,7 +5624,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated."
     },
     {
       "name": "Shining Slash",
@@ -5665,11 +5665,11 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\" Ultimate Finish bonus reward (50% bonus slot)",
       "source_quest_or_shop": "PQ156",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Shooting Strike is a Super Strike skill used by Gamma 1.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 reconciliation: current skill page explicitly identifies PQ156 as the unlock and classifies Shooting Strike as a Ki Blast Super; corrected stale canonical Strike classification.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 reconciliation: current skill page explicitly identifies PQ156 as the unlock and classifies Shooting Strike as a Ki Blast Super; corrected stale canonical Strike classification. 2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
       "verification_status": "verified",
       "research_status": "verified",
       "last_verified": "2026-09-20",
@@ -5681,7 +5681,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate."
     },
     {
       "name": "Soaring Rush",
@@ -5693,11 +5693,11 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
-      "source_quest_or_shop": "PQ177 reward context",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 177 — \"Warped Sense of Justice\" Ultimate Finish reward (50%)",
+      "source_quest_or_shop": "PQ177",
+      "ultimate_finish_required": true,
       "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current skill page explicitly identifies PQ177 as the unlock and Strike classification.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current skill page explicitly identifies PQ177 as the unlock and Strike classification. 2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite.",
       "verification_status": "verified",
       "research_status": "verified",
       "last_verified": "2026-09-20",
@@ -5709,7 +5709,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite."
     },
     {
       "name": "Sonic Bomb",
@@ -5862,11 +5862,11 @@
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 161 — \"Scream Team vs. Dream Team\" Ultimate Finish bonus reward (45% bonus slot)",
       "source_quest_or_shop": "PQ161",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Apocalyptic Burst is a Ultimate Ki Blast skill used by Orange Piccolo.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current skill page explicitly states PQ161 unlock; the maintained PQ guide lists Apocalyptic Burst as a Basic Reward.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current skill page explicitly states PQ161 unlock; the maintained PQ guide lists Apocalyptic Burst as a Basic Reward. 2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate.",
       "verification_status": "verified",
       "research_status": "verified",
       "last_verified": "2026-09-20",
@@ -5875,7 +5875,7 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "notes": "2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate.",
       "race_restriction": "All CaC races",
       "source_quest": 161,
       "acquisition_type": "quest_or_mission"
@@ -6140,11 +6140,11 @@
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
-      "source_quest_or_shop": "PQ173 reward context",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 173 — \"Decoding Dinner\" Ultimate Finish bonus reward (45% bonus slot)",
+      "source_quest_or_shop": "PQ173",
+      "ultimate_finish_required": true,
       "skill_description": "Divine Ray Bomb is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records. 2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -6155,7 +6155,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 173,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording."
     },
     {
       "name": "Emperor's Death Beam",
@@ -6859,11 +6859,11 @@
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 162 — \"The Man, the Myth, the Yamcha\" Ultimate Finish bonus reward (45% bonus slot)",
       "source_quest_or_shop": "PQ162",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Special Beam Cannon (Beast) is a Ultimate Ki Blast skill associated with Gohan (Beast).",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Special Beam Cannon (Beast); no Ultimate Finish requirement is recorded for this route.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Special Beam Cannon (Beast); no Ultimate Finish requirement is recorded for this route. 2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -6875,7 +6875,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 162,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred."
     },
     {
       "name": "Super Black Kamehameha Rosé",
@@ -6916,11 +6916,11 @@
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 158 — \"Beat Bulma's Minions!\" Ultimate Finish bonus reward (50% bonus slot)",
       "source_quest_or_shop": "PQ158",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Super Gamma Blast is a Ultimate Ki Blast skill used by Gamma 1.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. UF audit 2026-09-19: PQ158's maintained reward guide explicitly lists Super Gamma Blast under Basic Reward, separate from the quest's listed win conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Super Gamma Blast; no Ultimate Finish requirement is recorded for this route.",
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. UF audit 2026-09-19: PQ158's maintained reward guide explicitly lists Super Gamma Blast under Basic Reward, separate from the quest's listed win conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Super Gamma Blast; no Ultimate Finish requirement is recorded for this route. 2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -6932,7 +6932,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate."
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
