@@ -3456,3 +3456,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - The next `Clean internal artifacts` run (`35487157005`) and `Wiki data audit` run (`35487157049`) still ended in failure, but the connected GitHub job API returns `steps: null` and `logs_url: null` for both jobs. This means the available integration cannot establish that the repository content is the cause; GitHub's documented job/log endpoints normally expose step diagnostics when accessible. 
 - Workflow definitions were inspected and left unchanged. No validation gate was weakened.
 - Next task: continue with substantive repository data-quality priorities rather than repeatedly editing workflows without diagnostics; revisit Actions when step/log access becomes available.
+
+### 2026-09-20 cycle update — transformation provenance correction
+- Rechecked the remaining historically ambiguous character-only transformation provenance. **Super Saiyan Blue Kaioken** is now corrected to `Free Update 1` based on official Bandai Namco Free Update #1 material.
+- Canonical census remains 283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified.
+- Skill-data commit: `d3d9d6222ff8af005886b206c631ecc39c164c35`.
+- Next task: continue the remaining source-field audit, prioritizing any record with historical version ambiguity or contradictory acquisition metadata, then refresh Actions/artifact status.
