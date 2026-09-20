@@ -3999,18 +3999,18 @@
         "https://dragonball.fandom.com/wiki/Solar_Flare"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 1 reward.",
+      "unlock_method": "Parallel Quest 3 — \"World Tournament Tag Team\" reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
-      "source_quest_or_shop": "Parallel Quest 01",
+      "source_quest_or_shop": "Parallel Quest 03",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ01, usable by all CaC races. It blinds/stuns opponents in front of the user; positioning matters because it is ineffective from behind. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "source_quest": 1,
+      "source_quest": 3,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ1; no Ultimate Finish-only condition is established for this record."
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one."
     },
     {
       "name": "Spirit Boost",
@@ -4496,14 +4496,14 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 20 reward.",
-      "source_quest_or_shop": "Parallel Quest 45",
+      "unlock_method": "Parallel Quest 45 — \"Take Back the Dragon Balls!\" reward.",
+      "source_quest_or_shop": "Parallel Quest 45 — Take Back the Dragon Balls!",
       "ultimate_finish_required": false,
       "skill_description": "Taunt is a Super Power Up skill associated with Hercule.",
       "mechanics_notes": "Confirmed as Hercule's 0-Ki Power Up Super from PQ45. The user performs a taunting pose that can draw opponent attention; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Taunt"
@@ -4511,7 +4511,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 45,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 20 as the acquisition route."
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Taunt with PQ45, \"Take Back the Dragon Balls!\". The prior unlock text naming PQ20 was stale and has been replaced; the available condition remains reward-documented without an established exact drop tier or Ultimate Finish-only gate."
     },
     {
       "name": "Blazing Attack",
