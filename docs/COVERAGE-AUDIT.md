@@ -3756,3 +3756,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: canonical and index remain **283 records**, exact record-order parity is preserved, UF count remains **60**, and no PQ-formatted string remains in `source_quest`.
 - Commits: `21b70af1677724e81cfe3dbad49cf38cc469c513` (canonical) and `1c5ce0a27a4a538a76ece00484381e9eecae9d31` (index).
 - Exact next task: **continue provenance cleanup for remaining quest-or-mission skills whose acquisition text is still vague, conflicting, or missing a concrete maintained quest/reward tier; do not alter non-PQ source fields merely for schema uniformity.**
+
+
+## 2026-09-20 — generic PQ reward-tier refinement
+- Refined **16 generic quest-or-mission skill records** whose maintained PQ reward batches explicitly place the skill in `Basic Reward`: Double Death Slicer, Kamehameha, Super Ghost Buu Attack, Charged Ki Wave, Phantom Fist, Time Control, Divinity Unleashed, Gigantic Charge, Petrifying Spit, Meditation, Indomitable, Final Kamehameha, Final Flash (SS3 DAIMA), Super Kamehameha (SS4 DAIMA), Solar Flare, and Taunt.
+- Final Kamehameha retains its additional TP Medal Shop/Double Crystal Raids routes; the refinement only makes the PQ91 tier explicit. No UF-only gate was inferred.
+- Validation: canonical/index remain **283 records**, exact record-order parity, UF count **60**. PQ source fields remain normalized as numeric IDs.
+- Commits: `d0918167ed467edf45f4758293b4f5634ec76af8` (canonical), `2e4b62206bc2f2e4e23569f8026d8004bdcf01fb` (index).
+- Exact next task: **continue auditing the remaining vague PQ acquisition records and investigate the unresolved Thunder Flash/PQ146 relationship and the documented Emperor's Cannon PQ183/PQ184 conflict before making further changes.**
