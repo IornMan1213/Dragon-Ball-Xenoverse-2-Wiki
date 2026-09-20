@@ -2137,10 +2137,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Random reward from Parallel Quest 151 — \"The Ultimate Battle of the Universe\"",
+      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (50% bonus roll)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Stone Bullet",
@@ -2258,10 +2259,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Random reward from Parallel Quest 153 — \"A Power-Bearing Fusion!\"",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Ultimate Finish reward (45% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Afterimage",
@@ -3084,10 +3086,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Random reward from Parallel Quest 160 — \"Pan in Peril\"",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish reward (40% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Demonic Destruction",
@@ -3101,10 +3104,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Random reward from Parallel Quest 159 — \"The Fiendish Super Saiyan\"",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 159 — \"Lights! Camera! Super Heroes!\" Ultimate Finish reward (40% bonus roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Destruction's Conductor",
@@ -3327,10 +3331,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Random reward from Parallel Quest 156 — \"Hunting Down Dr. Hedo\"",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\" Ultimate Finish reward (40% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Justice Blade",
