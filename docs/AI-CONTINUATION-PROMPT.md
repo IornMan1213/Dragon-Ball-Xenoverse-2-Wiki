@@ -2779,3 +2779,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `bc8d3e65b2f8a1be0b2293b25231071dc691ae65`, `30a238294dadcca7e9c97ab1f71601e01789fd24`, `6acb5254b8e5a6c0b065748cbd7bad0388cad767`.
 - Exact next task: continue the current-scope audit for stale CaC boundaries and acquisition semantics, then resolve remaining reward-gate conflicts without inventing probabilities.
+
+
+### 2026-09-20 cycle update — Wild Stinger CaC boundary correction
+- Corrected **Wild Stinger** from stale character-only semantics to **CaC-accessible**, retaining PQ172 Basic Reward provenance and preserving the unresolved exact Ki-cost value rather than asserting unsupported precision.
+- Recomputed live census: **283 total / 78 verified_current_scope / 0 usable_by_cac=false + quest_or_mission anomalies**.
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `e6cf43c75731a6c53f4fa6af03bde4bbf9e59ba3`, `4c20ab2d793447f6ac539a565b1ebac1524eab4b`, `1ac10ef8bb010484ef673f0fbfd7d42a14b3301c`.
+- Exact next task: audit remaining acquisition-type and reward-gate inconsistencies, especially multi-source PQ/TP Medal Shop records and `ultimate_finish_required` values, while preserving unresolved evidence conflicts.
