@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 try:
-    from jsonschema import Draft202012Validator
+    from jsonschema import Draft202012Validator, FormatChecker
 except ImportError:
     Draft202012Validator = None
 ROOT=Path(__file__).resolve().parents[1]
@@ -23,7 +23,8 @@ def main():
   errors.append('jsonschema dependency is required for JSON Schema validation')
  else:
   try:
-   validator=Draft202012Validator(schema)
+   Draft202012Validator.check_schema(schema)
+   validator=Draft202012Validator(schema, format_checker=FormatChecker())
    for i,r in enumerate(rs):
     for e in validator.iter_errors(r):
      errors.append(f"schema error at records[{i}] {e.json_path}: {e.message}")
