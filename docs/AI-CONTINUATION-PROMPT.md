@@ -3300,3 +3300,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index remain 283/283 with exact parity and UF count 60.
 - Commits: `7ebfb7ac500d8646abc63ceab8ab494863827c8b`, `82f2ca25bd81a9694999c8bce27be53f1f3d3795`.
 - Exact next task: **continue the non-PQ provenance audit, focusing on Awoken/Time Rift records and unresolved source_quest nulls; reconcile any conflicts between `skills.json` and the dedicated awoken research without silently choosing one source.**
+
+
+### 2026-09-20 cycle update — non-PQ Awoken acquisition provenance refinement
+- Audited and refined **7 Awoken acquisition records**: Super Saiyan, Super Saiyan God, Super Vegeta, Beast, Potential Unleashed, Super Saiyan 2, and Ultra Instinct.
+- Added concrete source provenance and specific unlock routes from the repository's Awoken/Advancement research, including Capsule Corporation Vegeta/Saiyan Awakening, Shenron + Beerus, Cell Max training, final Super Class Advancement Test, and Jiren (Full Power)'s “In Pursuit of Mastery” challenge.
+- No UF flags or unsupported rates/prerequisites were changed. Canonical/index remain **283**, exact parity preserved, UF count **60**.
+- Commits: **7689098e1e7778bdadf5e92dec72942f73470ef1** (canonical) and **931da3fe02cf407ff12d2678737a787d890b5375** (index).
+- Exact next task: **continue the non-PQ provenance audit with terse mentor/test/mission records, prioritizing Galick Gun, Dancing Parapara, Rise to Action, Deadly Dance, and any remaining source-null records; inspect dedicated research files for exact lesson/test/mission identifiers before making edits, and preserve unresolved conflicts.**
