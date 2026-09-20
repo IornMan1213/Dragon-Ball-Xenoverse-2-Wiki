@@ -2734,3 +2734,10 @@ Skills commit: `23054aac366122bac2652477489ad305e6bf7a98`.
 Promoted 5 unambiguous non-PQ acquisition routes into `source_quest`: **Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Death Ball, and Super Guard**. These are explicitly identified by the existing acquisition metadata as Hit mentor training, Frieza's named mentor lesson, or the documented starting fighting-style route.
 
 Skills commit: `cfe25d97601b0278b6d339c4c53ecbf933950d0f`.
+
+
+## 2026-09-19 — named quest provenance batch 18
+
+Promoted **Time Bullet** to `source_quest: "Decisive Battle with Majin Buu"` because its existing acquisition metadata names that concrete quest as the unlock prerequisite, rather than merely identifying a generic shop.
+
+Skills commit: `1ea33fade528c115194be98fb50859069f18e5f6`.
