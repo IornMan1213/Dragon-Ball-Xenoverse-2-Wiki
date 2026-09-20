@@ -2843,3 +2843,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Completed 19 explicit single-PQ provenance records. Skills commit: `59cdc9ae66a60ff9ce1dab0c92c9b10bde167cb3`; coverage audit commit: `65c45a9102bb4500c994ee79d201e525a3b26f4c`.
 - Live census: 283 records; `source_quest` null on 152 records.
 - Next candidates include **Mach Punch (PQ19), Meteor Blow (PQ09), Meteor Strike (PQ06), Neo Wolf Fang Fist (PQ86), Power Impact (PQ120), Powered Shell (PQ128)** and other records with a single explicit quest number. Continue skipping multi-PQ/shop ambiguity and character-only reward-context records.
+
+
+### 2026-09-19 continuation — source quest provenance batch 10
+- Completed 18 explicit single-PQ provenance records. Skills commit: `b8179d8c3cc19297ddd97e296e53cae53baef531`; coverage audit commit: `609e6cb942f2ca4743496797b74f88c897aae8d6`.
+- Live census: 283 records; `source_quest` null on 134 records.
+- Next task: continue the bounded explicit single-PQ census, starting with remaining clear records such as **Justice Kick (PQ152)** and then the next unambiguous quest identifiers discovered in live data. Leave character-only, multi-PQ, shop-combination, and exact-drop-gating research records unchanged.
