@@ -1122,8 +1122,8 @@
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "source_quest": 5,
-      "acquisition_type": "quest_or_mission",
+      "source_quest": null,
+      "acquisition_type": "skill_shop",
       "notes": ""
     },
     {
@@ -1430,8 +1430,8 @@
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "source_quest": 74,
-      "acquisition_type": "quest_or_mission",
+      "source_quest": null,
+      "acquisition_type": "skill_shop",
       "notes": ""
     },
     {
