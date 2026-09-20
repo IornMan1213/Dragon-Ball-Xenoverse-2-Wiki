@@ -2924,3 +2924,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Re-synchronized `docs/data/skills-index.json`; 283 records remain.
 - Commits: `027f76052e57f652aafe5b05c81dac7b00b7481b` (canonical), `5e80ad002414f9cc1b15e229cd6a3f2b6d017c99` (index), `23646da0a052c12e17be06e2a393b6e2246f0ad3` (coverage audit).
 - Exact next task: continue unresolved/random PQ records, beginning with Justice Drive, Justice Kick, Mach Punch, Burning Blast, and Teleporting Vanishing Ball.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 8
+- Refined **Justice Drive** (PQ168 Basic), **Justice Kick** (PQ152 Basic), **Mach Punch** (PQ19 Basic), and **Burning Blast** (PQ180 Basic).
+- Refined **Teleporting Vanishing Ball** to the current PQ62 Basic Reward classification while preserving a historical GameFAQs Ultimate Finish report as a source conflict.
+- Re-synchronized `docs/data/skills-index.json`; 283 records remain.
+- Commits: `0551e9eb3fc82a1e08dc558715fa6cdeaf21f96f` (canonical), `871cd8f62809ca53658ec29b19374618bc7b5a26` (index), `c0a1ae9c45ece38c1892ba5dc4cfea07452c6494` (coverage audit).
+- Exact next task: continue the remaining generic/random PQ records after these tier-confirmed entries; preserve explicit random provenance and unresolved source conflicts.
