@@ -1598,7 +1598,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 87 — \"Saiyan Battle\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 87",
       "ultimate_finish_required": false,
       "skill_description": "Atomic Blast is a Super Ki Blast skill associated with Vegeta (Super Saiyan 4).",
@@ -1614,7 +1614,7 @@
       "source_quest": 87,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 evidence refinement: dedicated skill documentation confirms PQ87 acquisition. Exact reward tier is not asserted here without a sufficiently direct reward-table citation.",
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Atomic Blast in PQ87 Basic Reward.",
       "method": "Parallel Quest 87 — \"Saiyan Battle\" Reward"
     },
     {
@@ -1704,7 +1704,7 @@
       "ki_cost": "100-500",
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 125 — \"Proof's in the Potara\" reward",
+      "unlock_method": "Parallel Quest 125 — \"Proof's in the Potara\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 125",
       "ultimate_finish_required": false,
       "skill_description": "Blaster Ball is a Super Ki Blast skill associated with Kefla.",
@@ -1722,7 +1722,7 @@
       "source_quest": 125,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation confirms PQ125 acquisition. The inspected current sources establish the quest but do not provide a sufficiently direct reward-tier citation, so the record remains generic rather than asserting Basic or Ultimate Finish."
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Blaster Ball in PQ125 Basic Reward alongside Ray Blast."
     },
     {
       "name": "Bluff Kamehameha",
@@ -2075,7 +2075,7 @@
       "ki_cost": "100-200",
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 104 — \"Vados the Talent Scout\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 104",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Comet is a Super Ki Blast skill associated with Vados.",
@@ -2091,7 +2091,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 104 — Vados the Talent Scout",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Destruction's Concerto: Comet in PQ104 Basic Reward alongside Starfall."
     },
     {
       "name": "Destruction's Concerto: Starfall",
@@ -2682,7 +2682,7 @@
       "ki_cost": 400,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 132 — \"The Ultimate Legendary Super Saiyan\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 132",
       "ultimate_finish_required": false,
       "skill_description": "God Punisher is a Ki Blast Ultimate skill associated with Gogeta (Super Saiyan Blue).",
@@ -2700,7 +2700,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 132,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 evidence refinement: dedicated skill documentation confirms PQ132 acquisition; the record retains generic reward wording because the inspected sources establish the quest but not a sufficiently reliable specific reward tier.",
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists God Punisher in PQ132 Basic Reward alongside Gigantic Roar.",
       "method": "Parallel Quest 132 — \"The Ultimate Legendary Super Saiyan\" Reward"
     },
     {
@@ -5332,7 +5332,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 6 — \"Saibamen's Revenge\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 06",
       "ultimate_finish_required": false,
       "skill_description": "Meteor Strike is a Super Strike skill associated with Goku / Gohan (Kid).",
@@ -5348,7 +5348,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 6,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Meteor Strike in PQ6 Basic Reward."
     },
     {
       "name": "Namek Finger",
