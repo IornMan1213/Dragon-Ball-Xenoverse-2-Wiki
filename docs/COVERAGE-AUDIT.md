@@ -3764,3 +3764,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: canonical/index remain **283 records**, exact record-order parity, UF count **60**. PQ source fields remain normalized as numeric IDs.
 - Commits: `d0918167ed467edf45f4758293b4f5634ec76af8` (canonical), `2e4b62206bc2f2e4e23569f8026d8004bdcf01fb` (index).
 - Exact next task: **continue auditing the remaining vague PQ acquisition records and investigate the unresolved Thunder Flash/PQ146 relationship and the documented Emperor's Cannon PQ183/PQ184 conflict before making further changes.**
+
+
+## 2026-09-20 — Thunder Flash PQ146 reward-tier refinement
+- Refined **Thunder Flash** from generic PQ146 acquisition wording to **PQ146 "Zen-Ohs' Earthly Excursion" Basic Reward**, based on the maintained PQ reward evidence already recorded in the canonical research notes.
+- `ultimate_finish_required` remains `false`; no additional prerequisite was inferred.
+- Emperor's Cannon remains intentionally unresolved as a PQ183/PQ184 provenance conflict: the dedicated skill evidence supports PQ184 while the maintained reward guide lists it under PQ183 Basic Reward. No unsupported resolution was made.
+- Validation: canonical/index **283 records**, exact name/order parity, UF count **60**.
+- Commits: `491fa4f268ad7b4b00ffc0ed26e64317b5befaa1` (canonical), `716009bc1c79e1e6ae207cfe99e86644d15870c2` (index).
+- Exact next task: **continue the remaining vague PQ acquisition census, prioritizing records with a concrete maintained Basic Reward relationship still not reflected in `unlock_method`, while preserving all documented source conflicts.**
