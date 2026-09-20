@@ -4539,7 +4539,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Current evidence explicitly identifies Blazing Attack as the random skill reward after completing PQ136 with an Ultimate Finish; community reports also distinguish it from the two opponent-drop skills."
+      "notes": "2026-09-19 verification: Current evidence explicitly identifies Blazing Attack as the random skill reward after completing PQ136 with an Ultimate Finish; community reports also distinguish it from the two opponent-drop skills. 2026-09-19 source reconciliation: Steam's current all-PQ guide lists Blazing Attack among PQ136 rewards. GameFAQs/community reports confirm it is a random drop from PQ136, while the PQ's Ultimate Finish condition is clearing in under 7 minutes. The evidence does not prove that the skill itself requires the UF, so retain the repository's explicit conflict/research status rather than overclaiming."
     },
     {
       "name": "Brave Sword Slash",
@@ -4625,7 +4625,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Current acquisition reference identifies Burning Swan as a PQ167 reward; no exclusive Ultimate Finish condition is established by the cited evidence."
+      "notes": "2026-09-19 verification: Current acquisition reference identifies Burning Swan as a PQ167 reward; no exclusive Ultimate Finish condition is established by the cited evidence. 2026-09-19 source reconciliation: Steam's current all-PQ guide lists Burning Swan as a Basic Reward for PQ167 (Fighting for Family), while a dedicated skill page describes it as a random drop from that PQ. This confirms the PQ source but does not establish an Ultimate Finish-only gate."
     },
     {
       "name": "Burst Blitz",
@@ -5252,7 +5252,7 @@
       "ultimate_finish_required": true,
       "skill_description": "Lovely Cyclone is a Super Strike skill associated with Ribrianne.",
       "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -5264,7 +5264,7 @@
       "source_quest": 135,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 source reconciliation: Steam's current all-PQ guide lists Lovely Cyclone as a Basic Reward for PQ135 (Ribrianne, Defender of Love and Justice). Community reports describe it as a difficult RNG drop, but do not establish an additional Ultimate Finish-only condition; keep the UF flag false."
     },
     {
       "name": "Mach Punch",
