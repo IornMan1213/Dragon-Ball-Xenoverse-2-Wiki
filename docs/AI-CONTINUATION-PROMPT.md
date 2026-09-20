@@ -3590,3 +3590,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **164 verified / 40 partially verified** across 283 records.
 - Next task: continue the remaining 40 partial records, checking explicit acquisition pages first and preserving documented UF/drop requirements exactly where current evidence establishes them.
+
+
+### 2026-09-20 continuation — Gigantic Explosion verification; Chaotic Time Impact conflict retained
+- Promoted **Gigantic Explosion (PQ164)** to verified. The current PQ guide explicitly lists Gigantic Explosion in PQ164's Basic Reward list, while the skill record's acquisition source is PQ164. citeturn4view0
+- **Chaotic Time Impact (PQ184)** remains partial. The current PQ guide lists it as a PQ184 Basic Reward, while the canonical record currently carries an Ultimate Finish requirement. This is a genuine reward-condition conflict and was not silently normalized. citeturn4view1
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **165 verified / 39 partially verified** across 283 records.
+- Next task: continue the remaining 39 partial records, prioritizing explicit current acquisition evidence and isolating conflicts like PQ184 for dedicated reconciliation.
