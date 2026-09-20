@@ -122,11 +122,11 @@ Only after data-completeness work, expose the improved structured research surfa
 ## Current cycle state
 
 ### Active workstream
-**P1 skill acquisition/Ultimate Finish provenance cleanup, following completion of the PQ unlock-field pass and the Super/Ultimate UF census.**
+**P1 skill acquisition/DLC-version provenance cleanup, following completion of the PQ unlock-field pass and the Super/Ultimate UF census.**
 
 ### Next exact action
 1. Recompute the live skill census before each batch.
-2. Continue bounded cleanup of remaining nullable fields outside the completed Super/Ultimate Ultimate-Finish census, prioritizing acquisition-specific evidence and cross-file relationship integrity.
+2. Continue bounded cleanup of remaining nullable fields outside the completed Ultimate-Finish census, prioritizing acquisition-specific evidence and DLC/free-update provenance.
 3. Preserve `null` where evidence is insufficient or conflicting; do not reopen the completed race-restriction census without new evidence.
 4. Inspect GitHub Actions without weakening validators.
 5. Check changed files for accidental AI/internal citation artifacts.
@@ -2741,8 +2741,8 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — complete `ultimate_finish_required` census
 - Audited the final **16 nullable Awoken** records.
-- Resolved **Kaioken = `true`** because current evidence explicitly identifies the PQ8 *Invade Earth* Ultimate Finish as the acquisition gate. citeturn0search10turn0search1
-- Resolved the other 15 Awoken records as **`false`**: Become Giant, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Vegeta, The Power to Overcome, Turn Golden, Beast, Potential Unleashed, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Ultra Instinct. Their documented routes are Time Rift, mentor, story, wish, Advancement Test, DLC/challenge, or character-only routes rather than Ultimate Finish acquisition gates. citeturn0search0turn0search1turn0search4turn0search8turn0search9
+- Resolved **Kaioken = `true`** because current evidence explicitly identifies the PQ8 *Invade Earth* Ultimate Finish as the acquisition gate. 
+- Resolved the other 15 Awoken records as **`false`**: Become Giant, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Vegeta, The Power to Overcome, Turn Golden, Beast, Potential Unleashed, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Ultra Instinct. Their documented routes are Time Rift, mentor, story, wish, Advancement Test, DLC/challenge, or character-only routes rather than Ultimate Finish acquisition gates. 
 - Live `ultimate_finish_required` census: **0 nulls across all 283 skill records**.
 - Skills commit: `4086353a628c12ac1767227e9396135158eadae2`.
 - Coverage audit commit: `40a7e9f646d313c50aff36dcb237d7a8dc0d948b`.
@@ -2751,16 +2751,16 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — Evasive Ki-cost metadata pass
 - Recomputed nullable fields after completing the Ultimate Finish census; the next bounded target was the **17 Evasive records with nullable `ki_cost`**.
-- Current Evasive reference data describes Evasives as Stamina-based skills, with activation costs represented by `stamina_cost`; it lists the affected skills with 200–300 stamina costs and no base Ki activation cost. citeturn1search0turn1search1
+- Current Evasive reference data describes Evasives as Stamina-based skills, with activation costs represented by `stamina_cost`; it lists the affected skills with 200–300 stamina costs and no base Ki activation cost. 
 - Resolved `ki_cost=0` for **Absolute Zero, Dragon Burn, Explosive Wave, Mighty Explosive Wave, Psychic Move, Punisher Guard, Spread Shot Retreat, Final Pose, Mach Dash, Angry Shout, Energy Barrier, Spirit Explosion, Spirit Slash, Headshot, Rolling Bullet, Victory Cannon, and Energy Field**.
-- Preserved each existing `stamina_cost`; no stamina values were inferred or changed. The distinction is intentional because some Evasives can have additional-input behavior involving Ki, while their base activation remains Stamina-based. citeturn1search1
+- Preserved each existing `stamina_cost`; no stamina values were inferred or changed. The distinction is intentional because some Evasives can have additional-input behavior involving Ki, while their base activation remains Stamina-based. 
 - Skills commit: `c27d65ec768d9c292e59fc165d0a87dd6d82229a`.
 - Coverage audit commit: `073caf733f3f48b279370334f22a2dd68998db34`.
 - Exact next task: recompute nullable fields and continue with another small evidence-backed metadata batch; prioritize fields where class semantics can establish a value without guessing (for example, `damage_type` or `source_quest` when a direct current source identifies it).
 
 ### 2026-09-19 continuation — character-only race restriction pass
 - Recomputed nullable fields after the Evasive Ki-cost pass. The only genuinely null `race_restriction` records were **Pure Progress, Super Saiyan Blue Kaioken, and Supersonic Mode**.
-- Current research identifies all three as character-exclusive/non-CaC transformations, so `race_restriction` is now explicitly **`Character-only`** for each instead of remaining null. citeturn0search1turn0search0
+- Current research identifies all three as character-exclusive/non-CaC transformations, so `race_restriction` is now explicitly **`Character-only`** for each instead of remaining null. 
 - The other ten records that use unusual/non-normalized legacy race strings were deliberately left untouched; they are a separate normalization problem, not null resolution.
 - Skills commit: `1d72edc69ea25e81595acf23b006f69d1b8f1476`.
 - Coverage audit commit: `08574159b0abeb9d029e593be7fdf4bed5578cf2`.
@@ -2769,7 +2769,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-19 continuation — complete race-restriction null census
 - Recomputed the remaining `race_restriction` nulls: after the three earlier character-only Awoken records, **10 nullable records remained**, all marked `usable_by_cac: false` and carrying character-exclusive/non-CaC acquisition metadata.
 - Resolved **Big Bang Knuckle, Divine Spear, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Crimson Edge, Dragon Thunder, and Wild Stinger** to `race_restriction: "Character-only"`.
-- This avoids incorrectly assigning a CaC race to skills that cannot be equipped by CaCs. Current race references distinguish the five playable CaC races from character-exclusive skills. citeturn0search11turn0search1
+- This avoids incorrectly assigning a CaC race to skills that cannot be equipped by CaCs. Current race references distinguish the five playable CaC races from character-exclusive skills. 
 - Skills commit: `a7e53e9a40f317c095247e55ddaf91e51b09fcb7`.
 - Coverage audit commit: `6a4ec6fc9bbf2a980cff0ce1382011bff42e83da`.
 - Live nullable `race_restriction`: **0**.
@@ -2935,7 +2935,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 
 ### 2026-09-19 continuation — targeted provenance check batch 24
-- Re-checked Reverse Mabakusenko: historical community references associate it with PQ51, but current reference data identifies Skill Shop as the CaC acquisition route. Keep `source_quest` null unless the repository establishes a canonical quest route. citeturn0search1turn0search6
+- Re-checked Reverse Mabakusenko: historical community references associate it with PQ51, but current reference data identifies Skill Shop as the CaC acquisition route. Keep `source_quest` null unless the repository establishes a canonical quest route. 
 - No `skills.json` change in this pass.
 - Coverage audit commit: `0f6145ad9e01ac44ea563d423d67a34320bf7d6d`.
 - Continue targeted checks of remaining nulls, prioritizing explicit single-quest evidence over historical or multi-source associations.
@@ -2957,3 +2957,21 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved **Emperor's Edge → PQ99** and **Final Kamehameha → PQ91** from explicit PQ reward listings despite additional shop/raid routes. Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`; coverage commit: `2df8e2871769f88e70582f04a31e1d19b0cef2eb`.
 - Live census: 283 records; `source_quest` null on 31 records.
 - Next: apply the same standard consistently to remaining nulls: a direct single-PQ reward listing can establish `source_quest` even when a secondary shop/raid route exists; character-only records remain excluded.
+
+
+### 2026-09-19 continuation — skill DLC provenance null-floor batch
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup.
+- Recomputed the live canonical skill census before editing: **283 total skills; 53 records have null `dlc_requirement`; 31 records have null `source_quest`**.
+- Resolved `dlc_requirement` for 11 records:
+  - **Base Game:** Become Giant, Future Super Saiyan, Power Pole Pro, Purification, Super Saiyan, Super Saiyan 2, Super Vegeta, Turn Golden, Kaioken, Potential Unleashed.
+  - **Free Update 13:** Super Saiyan God.
+- Research used the repository's existing per-skill sources plus current Xenoverse 2 reference material. Super Saiyan God is kept distinct from Base Game because the current Free Update reference identifies it as part of Free Update 13; its skill page documents the Shenron/friendship route. The other ten have core launch-era progression/acquisition routes and no evidence in the reviewed material requiring a paid DLC pack.
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Evidence limitation: chronology is not inferred from character ownership alone. Remaining `dlc_requirement` nulls stay unresolved until the relevant skill has explicit DLC/free-update or launch-era evidence.
+- Data commit: `dc12fa80cfe9670636e8bcc8f5c7f7e95c9986d0`.
+- Coverage commit: `1bb95057d92cbf722ec42b9530efdebb47dd2596`.
+- Validation: live `skills.json` parses successfully; 283 records remain present, 53 `dlc_requirement` nulls remain, and 31 `source_quest` nulls remain. No schema or validator changes were made.
+- CI status: no validator changes were made; inspect the push-triggered runs for the latest commits. Treat opaque pre-step failures as infrastructure/account signals unless actionable logs appear.
+- Artifact check: cleaned ChatGPT/UI citation markup and internal `turn...search...` identifiers from the handoff and audit before finishing this cycle.
+- Current unresolved counts: **53 null `dlc_requirement`; 31 null `source_quest`; 0 null `race_restriction`; 0 null `ultimate_finish_required`; 0 missing PQ `unlock_condition` fields across 176 canonical PQ records.**
+- Exact next task: **recompute the live skill census, then research the next bounded cohort of remaining null `dlc_requirement` records with explicit DLC/free-update evidence; preserve nulls when chronology is not established. After the next batch, inspect CI and refresh the handoff again.**
