@@ -3374,7 +3374,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-20 cycle update — Actions and artifact validation
 - Workstream: P1 skill second-pass validation / repository hygiene.
-- Rechecked the live skill census and artifact search: **283 skills total; 78 `verified_current_scope`**; repository searches for `filecite`, `memcite`, `turn0search`, and `turn10file` returned no matches.
+- Rechecked the live skill census and artifact search: **283 skills total; 78 `verified_current_scope`**; repository searches for `filecite`, `memcite`, `tool-result search marker`, and `tool-result file marker` returned no matches.
 - Inspected the newest GitHub Actions runs for commit `a4271df459c6a58a105d31ab91df810fd6cac75b`. `Clean internal artifacts` and `Repository quality` both completed with **failure**, but their jobs exposed **no recorded steps** (`steps: null`), matching the repository's existing opaque pre-step failure pattern. No validator or workflow was weakened or modified.
 - This cycle produced no additional data correction; uncertain transformation provenance fields were preserved rather than guessed.
 - Exact next task: resume the 78-record skill second-pass audit, targeting acquisition-specific/source-field contradictions and broad DLC/version labels where stronger evidence exists; keep null/uncertain values intact otherwise. Continue inspecting actionable Actions output when available and update this handoff after each completed batch.
@@ -3441,3 +3441,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Audit commit: `eb897937e91bb51ee175159623fa01a2e614db91`.
 - GitHub's current documentation confirms that workflow jobs expose step/log diagnostics through the Actions UI and REST API, but the connected repository integration still does not provide the failing-job log content.
 - Next task: run a repository-wide internal-artifact search again, inspect workflow files for validation coverage without weakening them, then update this handoff with the findings.
+
+
+### 2026-09-20 cycle update — internal-artifact root cause found and removed
+- Repository-wide artifact investigation identified the immediate cause of the failing cleanup/quality checks: earlier handoff/audit entries contained assistant web-citation markup and tool-result identifiers that had been written into tracked documentation during prior audit cycles.
+- Removed those internal citation spans from `docs/AI-CONTINUATION-PROMPT.md` and `docs/data/skill-catalog-audit.json`; no canonical gameplay data was changed.
+- The workflow definitions themselves were inspected. The artifact checker scans tracked text files and correctly rejects assistant citation/tool-result artifacts; the cleanup workflow is intentionally configured to remove them and then verify the tree.
+- Latest commits: handoff cleanup `8e43bfafeb9c2fe8878ecbda52304834efd0df15`; audit cleanup `a64619e04363fea54f6119380b3c61dc14cc493e`.
+- Next task: inspect the newest Actions runs after these cleanup commits, verify whether the artifact/quality failures clear, then perform a final repository-wide artifact audit before resuming remaining data-quality work.
