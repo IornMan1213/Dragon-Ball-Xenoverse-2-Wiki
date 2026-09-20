@@ -3551,3 +3551,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **147 verified / 57 partially verified** across 283 records.
 - Next task: continue through the remaining 57 partial records, prioritizing current pages with explicit acquisition statements and correcting stale classification metadata only when current evidence is explicit.
+
+
+### 2026-09-20 continuation — four explicit unlock verifications and one retained conflict
+- Promoted **Scissors Paper Rock (PQ65)**, **Shining Slash (PQ38)**, **Soaring Rush (PQ177)**, and **Shooting Strike (PQ156)** to verified. Current skill pages explicitly provide their acquisition quests; current pages also confirm their classifications. Shooting Strike was corrected from stale **Strike** metadata to **Ki Blast**. citeturn1search0turn1search1turn1search2turn1search4
+- **Sonic Bomb** remains partial. Its current page confirms PQ105 acquisition and Strike classification, but archived GameFAQs material lists Sonic Bomb among PQ105 Ultimate Finish rewards, so the existing non-UF flag cannot yet be treated as fully reconciled. citeturn1search3turn1search13
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **151 verified / 53 partially verified** across 283 records.
+- Next task: continue the remaining 53 partial records, prioritizing explicit current acquisition statements while preserving unresolved reward-condition conflicts rather than silently normalizing them.
