@@ -3308,7 +3308,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 ## 2026-09-20 — Skill classification correction: Dimension Cannon
 
 - **Dimension Cannon** was identified as a higher-priority canonical data error during the current-scope audit. The prior record incorrectly classified it as a 300-Ki Ki Blast Super.
-- Current dedicated evidence identifies it as a **300-Stamina Ki Blast Evasive Skill** from **PQ59 — Potara Warrior**; the maintained PQ reward listing places it in the **Basic Reward** section. Its documented behavior is a short-range mouth-fired Ki wave with six hits, knockback, and guard break against a blocking opponent. citeturn1search0turn1search3
+- Current dedicated evidence identifies it as a **300-Stamina Ki Blast Evasive Skill** from **PQ59 — Potara Warrior**; the maintained PQ reward listing places it in the **Basic Reward** section. Its documented behavior is a short-range mouth-fired Ki wave with six hits, knockback, and guard break against a blocking opponent. 
 - The canonical `skills.json` record was corrected accordingly, including `class`, `ki_cost`, `stamina_cost`, `damage_type`, unlock wording, and skill description.
 - **Heat Wave** was also cleaned up so its canonical description now correctly identifies it as a Strike Super and its PQ179 source, while leaving exact drop gating unresolved.
 - Canonical data commit: `0790faf56ac700ff7d1b3c8d28a705531d5472db4`.
@@ -3318,16 +3318,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 ## 2026-09-20 — Current-scope acquisition refinement: God of Destruction's Plaything
 
 - **God of Destruction's Plaything** was refined from generic `PQ175 reward context` to the concrete **Parallel Quest 175 — "Who's the Next Leader?!" Basic Reward** classification.
-- The maintained current PQ guide explicitly lists the skill in PQ175's Basic Reward section alongside the quest's other rewards. citeturn0search0
+- The maintained current PQ guide explicitly lists the skill in PQ175's Basic Reward section alongside the quest's other rewards. 
 - The record remains a **100-Ki Ki Blast Super**. No individual drop probability, Ultimate Finish-only gate, or unsupported numerical mechanics were added.
 - Canonical data commit: `dd32ad55d46d3751b5552459400ddc05d528a29f`.
-- Heat Wave remains sourced to PQ179; the current evidence confirms its Basic Reward placement alongside Supreme Fury, but this cycle did not establish a narrower drop condition. citeturn0search0
+- Heat Wave remains sourced to PQ179; the current evidence confirms its Basic Reward placement alongside Supreme Fury, but this cycle did not establish a narrower drop condition. 
 
 
 ## 2026-09-20 — Reward-gate reconciliation: PQ96 / PQ151
 
-- **Absolute Zero** was refined from generic/random PQ96 acquisition to the concrete **PQ96 Basic Reward** classification based on the maintained all-PQ reward listing. A separate older video guide labels it an Ultimate Finish reward, so the record explicitly preserves that source conflict rather than asserting an exclusive gate. citeturn0search0turn0search2turn0youtube23
-- **Ultrasonic Blitz** and **Celestial Wave** were similarly reconciled against the maintained PQ151 reward listing, which explicitly places both in **Basic Reward**. A separate video guide labels both as PQ151 Ultimate Finish rewards. The canonical records now preserve this conflict and do not claim an exclusive UF gate. citeturn0search2turn0youtube24
+- **Absolute Zero** was refined from generic/random PQ96 acquisition to the concrete **PQ96 Basic Reward** classification based on the maintained all-PQ reward listing. A separate older video guide labels it an Ultimate Finish reward, so the record explicitly preserves that source conflict rather than asserting an exclusive gate. 
+- **Ultrasonic Blitz** and **Celestial Wave** were similarly reconciled against the maintained PQ151 reward listing, which explicitly places both in **Basic Reward**. A separate video guide labels both as PQ151 Ultimate Finish rewards. The canonical records now preserve this conflict and do not claim an exclusive UF gate. 
 - Their mechanics were also enriched from current dedicated skill documentation without inventing unsupported values.
 - Canonical data commit: `02dc1d7cec09d2816e20b9d657d87b7f0d274964c`.
 - No drop probability was added and no source-conflicted reward gate was silently collapsed.
@@ -3335,17 +3335,17 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 ## 2026-09-20 — Concrete Basic Reward provenance: PQ51 / PQ75 / PQ82 / PQ153
 
-- Refined four current-scope records to use the exact quest title and **Basic Reward** classification where the maintained all-PQ reward guide explicitly lists the skill: **Burst Rush** (PQ51), **Counter Burst** (PQ75), **Dragon Burn** (PQ82), and **Counter Impact** (PQ153). citeturn0search0turn0search2
-- These changes improve acquisition provenance without asserting drop probability or an Ultimate Finish requirement. The PQ guide explicitly places each skill in Basic Reward. citeturn0search0turn0search2
+- Refined four current-scope records to use the exact quest title and **Basic Reward** classification where the maintained all-PQ reward guide explicitly lists the skill: **Burst Rush** (PQ51), **Counter Burst** (PQ75), **Dragon Burn** (PQ82), and **Counter Impact** (PQ153). 
+- These changes improve acquisition provenance without asserting drop probability or an Ultimate Finish requirement. The PQ guide explicitly places each skill in Basic Reward. 
 - Canonical data commit: `b33b116342510d130e74bf07dbade46c293944b3`.
 
 
 ## 2026-09-20 — Canonical classification/cost corrections: four base-game skills
 
-- **Ki Explosion** was corrected from an erroneous Evasive/200-Stamina record to a **100-Ki Ki Blast Super**. Dedicated skill evidence identifies it as a Super and describes its hold-to-spend-Ki behavior; the maintained PQ77 listing places it in Basic Reward. citeturn1search7turn3view3
-- **Instant Rise** was corrected from **200** to **300 Stamina**. Dedicated skill evidence lists 300 Stamina and classifies it as an Other Evasive; PQ37's maintained reward listing places it in Basic Reward. citeturn1search4turn3view0
-- **Force Shield** was retained as a 200-Stamina Ki Blast Evasive and its exact source was corrected to PQ59 — "Potara Warrior" Basic Reward. citeturn1search1turn3view2
-- **Change The Future** was refined to the exact PQ43 title/Basic Reward provenance while retaining its confirmed 100-Ki Ki Blast Super counter classification. citeturn1search0turn3view1
+- **Ki Explosion** was corrected from an erroneous Evasive/200-Stamina record to a **100-Ki Ki Blast Super**. Dedicated skill evidence identifies it as a Super and describes its hold-to-spend-Ki behavior; the maintained PQ77 listing places it in Basic Reward. 
+- **Instant Rise** was corrected from **200** to **300 Stamina**. Dedicated skill evidence lists 300 Stamina and classifies it as an Other Evasive; PQ37's maintained reward listing places it in Basic Reward. 
+- **Force Shield** was retained as a 200-Stamina Ki Blast Evasive and its exact source was corrected to PQ59 — "Potara Warrior" Basic Reward. 
+- **Change The Future** was refined to the exact PQ43 title/Basic Reward provenance while retaining its confirmed 100-Ki Ki Blast Super counter classification. 
 - This pass demonstrates why canonical type/cost mismatches are being prioritized over adding weak descriptive detail. No unsupported drop probabilities were added.
 - Canonical data commit: `50100a6f782d6042716cffa66298cfa00f0a95bc`.
 
@@ -3353,7 +3353,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 ## 2026-09-20 — Maiden Burst evidence refinement
 
 - Refined **Maiden Burst** to the exact **PQ92 — "Revenge of the Tuffle" Basic Reward** provenance.
-- Dedicated documentation confirms it as a **300-Stamina Ki Blast Evasive**, with a short-range forward explosive attack, knockback, and approximately 5% documented damage. The maintained PQ guide independently lists Maiden Burst in PQ92 Basic Reward. citeturn1search0turn1search2
+- Dedicated documentation confirms it as a **300-Stamina Ki Blast Evasive**, with a short-range forward explosive attack, knockback, and approximately 5% documented damage. The maintained PQ guide independently lists Maiden Burst in PQ92 Basic Reward. 
 - No Ultimate Finish-only gate or unsupported CaC restriction was added.
 - Canonical data commit: `8aacc3faa0a40ecaed0c8521bd411410adaa2ffa`.
 
@@ -3368,10 +3368,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 ## 2026-09-20 — Exact PQ provenance: Headshot / Rolling Bullet / Victory Cannon / Energy Field
 
-- Refined **Headshot** to PQ69 — "God of Destruction and His Master" Basic Reward; dedicated evidence confirms 300-Stamina Strike Evasive. citeturn2search5turn2youtube29
-- Refined **Rolling Bullet** to PQ42 — "Artificial Warriors" Basic Reward; dedicated evidence confirms 200-Stamina Ki Blast Evasive. citeturn2search2turn2search10
-- Refined **Victory Cannon** to PQ54 — "Majin Revival" Basic Reward; dedicated evidence confirms 300-Stamina Ki Blast Evasive and ~10% documented damage. citeturn2search0turn2youtube26
-- Refined **Energy Field** to PQ29 — "The Androids Attack" Basic Reward; dedicated evidence confirms 200-Stamina Ki Blast Evasive. citeturn2search1turn2search7
+- Refined **Headshot** to PQ69 — "God of Destruction and His Master" Basic Reward; dedicated evidence confirms 300-Stamina Strike Evasive. 
+- Refined **Rolling Bullet** to PQ42 — "Artificial Warriors" Basic Reward; dedicated evidence confirms 200-Stamina Ki Blast Evasive. 
+- Refined **Victory Cannon** to PQ54 — "Majin Revival" Basic Reward; dedicated evidence confirms 300-Stamina Ki Blast Evasive and ~10% documented damage. 
+- Refined **Energy Field** to PQ29 — "The Androids Attack" Basic Reward; dedicated evidence confirms 200-Stamina Ki Blast Evasive. 
 - No drop probabilities or Ultimate Finish-only gates were invented.
 - Canonical data commit: `e540e613f4f2bea20ef9cfda1d9c11e741aa85be`.
 
@@ -3384,7 +3384,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined **Angry Shout** → PQ68 — "Old Rivals and Dragon Balls" Basic Reward.
 - Refined **Spirit Explosion** → PQ25 — "The Emperor’s Brother" Basic Reward.
 - Kept **Explosive Wave** as Skill Shop provenance; no quest-gate inference was added.
-- Steam's maintained PQ guide lists the five quest skills in their respective Basic Reward sections. citeturn1search0turn1search1
+- Steam's maintained PQ guide lists the five quest skills in their respective Basic Reward sections. 
 - Canonical data commit: `36191badce56ea7fe3d89c1966b902b996fa979c`.
 
 
@@ -3420,7 +3420,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 ## 2026-09-20 — Future Saga PQ CaC-availability correction
 
 - Corrected **Big Bang Knuckle**, **Divine Spear**, and **Crimson Edge** from stale `usable_by_cac=false` records to CaC-accessible PQ skills.
-- Current dedicated skill pages list each as a normal Super Skill with a PQ unlock and do not place them in the cast-exclusive/unavailable-for-CaC category. The PQ guide lists them as Basic Rewards: PQ171 contains Crimson Edge and Divine Spear; PQ172 contains Big Bang Knuckle. citeturn0search0turn0search1turn0search2turn0search5
+- Current dedicated skill pages list each as a normal Super Skill with a PQ unlock and do not place them in the cast-exclusive/unavailable-for-CaC category. The PQ guide lists them as Basic Rewards: PQ171 contains Crimson Edge and Divine Spear; PQ172 contains Big Bang Knuckle. 
 - Character association (Goku Black or Vegeta) was not treated as proof of character exclusivity; the repository now records CaC availability while retaining the character/source attribution.
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `bc8d3e65b2f8a1be0b2293b25231071dc691ae65` (skills), `30a238294dadcca7e9c97ab1f71601e01789fd24` (index).
@@ -3446,15 +3446,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 ## 2026-09-20 — Super Dragon Flight reward-gate correction
 
 - Corrected **Super Dragon Flight** `ultimate_finish_required` from `true` to `false` and refined provenance to **PQ31 — "Let's Train!" Basic Reward**.
-- Current Xenoverse 2 evidence lists Super Dragon Flight directly under PQ31's Basic Reward section. The quest's third win condition is defeating revived Gohan, not a separate Ultimate Finish-only skill gate. citeturn1search0turn1search1turn1search6
+- Current Xenoverse 2 evidence lists Super Dragon Flight directly under PQ31's Basic Reward section. The quest's third win condition is defeating revived Gohan, not a separate Ultimate Finish-only skill gate. 
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `954da8c6fa6959679d5d19aa4cf46e337953b334`, `8a5e9de234e05e6a0a055e1f6edcf0fb882b99ad`.
 
 
 ## 2026-09-20 — Two additional Ultimate Finish gate corrections
 
-- **Chaotic Time Impact:** corrected `ultimate_finish_required` from `true` to `false`; PQ184 current reward evidence lists it under Basic Reward, while the separate UF bonus contains other rewards. citeturn0search0turn0search3
-- **Core Breaker:** corrected `ultimate_finish_required` from `true` to `false`; current PQ158 reward evidence lists Core Breaker under Basic Reward. citeturn0search2turn0search8
+- **Chaotic Time Impact:** corrected `ultimate_finish_required` from `true` to `false`; PQ184 current reward evidence lists it under Basic Reward, while the separate UF bonus contains other rewards. 
+- **Core Breaker:** corrected `ultimate_finish_required` from `true` to `false`; current PQ158 reward evidence lists Core Breaker under Basic Reward. 
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `cc2375f58469809f700a2fbe346fb446c750f1e`, `7fbd5f1ca241b6a27af13ace1978854f95405e67`.
 
@@ -3462,24 +3462,24 @@ The underlying skill acquisition routes were already present; this pass only rep
 ## 2026-09-20 — Blazing Attack reward-gate correction
 
 - Corrected **Blazing Attack** `ultimate_finish_required` from `true` to `false`.
-- Current maintained PQ136 reward tables explicitly place Blazing Attack in **Basic Reward**, alongside Burst Stinger and Raid Blast. citeturn0search0turn0youtube12turn0search5
-- A GameFAQs post reports Blazing Attack as an Ultimate Finish drop, so the repository preserves that conflicting evidence in mechanics notes rather than silently treating it as authoritative; the explicit maintained reward-tier listing controls the canonical field. citeturn0search3
+- Current maintained PQ136 reward tables explicitly place Blazing Attack in **Basic Reward**, alongside Burst Stinger and Raid Blast. 
+- A GameFAQs post reports Blazing Attack as an Ultimate Finish drop, so the repository preserves that conflicting evidence in mechanics notes rather than silently treating it as authoritative; the explicit maintained reward-tier listing controls the canonical field. 
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `2a82e01e7e3fda477469683cb692bb7b971b6006`, `1cf8e2cd98615f8d2e4101827b3a79b47039e561`.
 
 
 ## 2026-09-20 — Three additional Ultimate Finish gate corrections
 
-- **Rough Ranger:** corrected `ultimate_finish_required` from `true` to `false`; PQ119 reward tables list it under Basic Reward. citeturn2search0turn4search4
-- **Earth Splitting Galick Gun:** corrected `ultimate_finish_required` from `true` to `false`; the long-maintained PQ guide lists it under PQ11 Basic Reward. A newer datamined reconstruction conflicts, so the canonical field follows the explicit reward-tier table while preserving source provenance. citeturn4search1turn1search0
-- **Raid Blast:** corrected `ultimate_finish_required` from `true` to `false`; PQ136 reward tables explicitly list it under Basic Reward. citeturn2search4turn2search10
+- **Rough Ranger:** corrected `ultimate_finish_required` from `true` to `false`; PQ119 reward tables list it under Basic Reward. 
+- **Earth Splitting Galick Gun:** corrected `ultimate_finish_required` from `true` to `false`; the long-maintained PQ guide lists it under PQ11 Basic Reward. A newer datamined reconstruction conflicts, so the canonical field follows the explicit reward-tier table while preserving source provenance. 
+- **Raid Blast:** corrected `ultimate_finish_required` from `true` to `false`; PQ136 reward tables explicitly list it under Basic Reward. 
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `15f4426e56268d41e3deb456619dd7ef47314007`, `c5fc07873e090b03d01c1d99c30abfb299c9eb5a`.
 
 
 ## 2026-09-20 — Final Ultimate Finish gate validation
 
-- Revalidated the remaining two `ultimate_finish_required=true` records: **Kaioken** is explicitly documented as requiring PQ8's Ultimate Finish, and **Power Rush** is explicitly documented as the PQ122 Ultimate Finish skill. citeturn0search3turn0search1turn0search5
+- Revalidated the remaining two `ultimate_finish_required=true` records: **Kaioken** is explicitly documented as requiring PQ8's Ultimate Finish, and **Power Rush** is explicitly documented as the PQ122 Ultimate Finish skill. 
 - No canonical field changes were made because the current records already match the evidence.
 - Canonical census remains **283 records / 78 `verified_current_scope` / 2 Ultimate Finish-gated**.
 - The next audit category is now **generic `quest_or_mission` acquisition wording** among verified current-scope records, beginning with records such as Mighty Explosive Wave, Side Bridge, Steel Mirage, Demon Ray, and other PQ acquisitions whose unlock text is still only `Parallel Quest reward` / `Random Parallel Quest reward`.
@@ -3492,9 +3492,9 @@ The underlying skill acquisition routes were already present; this pass only rep
   - **Side Bridge** → PQ39 Random Reward.
   - **Steel Mirage** → PQ165 Random Reward.
   - **Demon Ray** → PQ160 Ultimate Finish Bonus.
-- The Demon Ray correction is especially important: current PQ160 data explicitly places it in the UF bonus pool. citeturn0search5turn0search10
-- Mighty Explosive Wave is independently documented as a PQ79 acquisition. citeturn0search3turn0search2
-- Side Bridge is documented as a random PQ39 reward, while Steel Mirage is tied to PQ165. citeturn0search6turn0search7
+- The Demon Ray correction is especially important: current PQ160 data explicitly places it in the UF bonus pool. 
+- Mighty Explosive Wave is independently documented as a PQ79 acquisition. 
+- Side Bridge is documented as a random PQ39 reward, while Steel Mirage is tied to PQ165. 
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `4eaa298f9b3f700e19474bd...`, `3fc1aaebcb265bd42fba833de5442a9765a08766`.
 
@@ -3507,35 +3507,35 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 
 ## 2026-09-20 — Emperor skill acquisition audit
-- **Emperor's Blast:** retained PQ70 as the concrete acquisition source; current reward tables explicitly list it in PQ70 Basic Reward, while dedicated skill documentation confirms it is a 100-Ki Ki Blast Super. TP Medal Shop availability remains an alternate route. Corrected source metadata to Golden Frieza and refreshed verification date. citeturn1search5turn1search6turn1search4
-- **Emperor's Cannon:** investigated the PQ source discrepancy. The dedicated current skill page says **PQ184 — The Invincible Duo**, while the maintained 186-PQ reward guide explicitly lists **Emperor's Cannon under PQ183 — Broly vs. Broly**. The canonical record retains the dedicated-page PQ184 value but now records the PQ183 conflict instead of presenting an unresolved generic `Parallel Quest reward` string as settled fact. citeturn2search0turn2search1
+- **Emperor's Blast:** retained PQ70 as the concrete acquisition source; current reward tables explicitly list it in PQ70 Basic Reward, while dedicated skill documentation confirms it is a 100-Ki Ki Blast Super. TP Medal Shop availability remains an alternate route. Corrected source metadata to Golden Frieza and refreshed verification date. 
+- **Emperor's Cannon:** investigated the PQ source discrepancy. The dedicated current skill page says **PQ184 — The Invincible Duo**, while the maintained 186-PQ reward guide explicitly lists **Emperor's Cannon under PQ183 — Broly vs. Broly**. The canonical record retains the dedicated-page PQ184 value but now records the PQ183 conflict instead of presenting an unresolved generic `Parallel Quest reward` string as settled fact. 
 - Rebuilt `docs/data/skills-index.json` from the canonical `skills.json` after detecting and repairing a malformed index entry introduced during the previous synchronization pass. Both datasets now contain 283 records and the index is valid JSON again.
 - Exact next task: continue the generic acquisition audit, using concrete PQ reward tables to resolve remaining `Parallel Quest reward` / `Random Parallel Quest reward` entries while preserving source conflicts when current references disagree.
 
 
 ## 2026-09-20 — PQ reward-tier refinement batch
-- **Demon Flash Strike:** refined to **PQ160 — Pan in Peril, Ultimate Finish bonus**. Current PQ160 reward data lists the skill in UF bonus slots, and dedicated skill documentation confirms PQ160. citeturn1search0turn1search1
-- **Atomic Blast:** refined to concrete **PQ87 — Saiyan Battle** acquisition. Dedicated skill documentation confirms the quest; exact reward tier remains unasserted. citeturn1search7
-- **Burning Attack:** refined to **PQ41 — Warriors' Annihilation - Future Chapters, Basic Reward**. Both dedicated skill documentation and an independent PQ41 reward listing support the quest/reward tier. citeturn1search6turn1youtube30
-- **God Punisher:** refined to concrete **PQ132 — The Ultimate Legendary Super Saiyan** acquisition; reward tier remains generic because the inspected sources establish the quest but not a sufficiently reliable specific slot. citeturn1search2turn1search8
+- **Demon Flash Strike:** refined to **PQ160 — Pan in Peril, Ultimate Finish bonus**. Current PQ160 reward data lists the skill in UF bonus slots, and dedicated skill documentation confirms PQ160. 
+- **Atomic Blast:** refined to concrete **PQ87 — Saiyan Battle** acquisition. Dedicated skill documentation confirms the quest; exact reward tier remains unasserted. 
+- **Burning Attack:** refined to **PQ41 — Warriors' Annihilation - Future Chapters, Basic Reward**. Both dedicated skill documentation and an independent PQ41 reward listing support the quest/reward tier. 
+- **God Punisher:** refined to concrete **PQ132 — The Ultimate Legendary Super Saiyan** acquisition; reward tier remains generic because the inspected sources establish the quest but not a sufficiently reliable specific slot. 
 - Re-synchronized `docs/data/skills-index.json` from canonical `skills.json`; dataset remains at 283 records.
 - Exact next task: continue the remaining generic PQ acquisition records, prioritizing entries with a known quest number and unresolved reward tier before tackling records with explicit source conflicts.
 
 
 ## 2026-09-20 — PQ reward-tier refinement batch 2
-- **Dimensional Hole:** refined to **PQ80 — The Return of the Giant Ape-Fest, Basic Reward**. citeturn1search0turn1search1
-- **God Breaker:** refined to **random reward from PQ44 — Dragon Balls of the Future**. The dedicated skill source explicitly says random reward; the maintained PQ44 reward table does not list it as a Basic Reward, so no Basic tier was inferred. citeturn0search1turn0search6
-- **Heroic Counter:** refined to **PQ155 — I Need a Hero... Pose!, Basic Reward**. citeturn0search0turn0youtube31
-- **Punisher Shield:** refined to **PQ129 — Frieza Force on the Hunt, Basic Reward**. citeturn0search2turn0search8
+- **Dimensional Hole:** refined to **PQ80 — The Return of the Giant Ape-Fest, Basic Reward**. 
+- **God Breaker:** refined to **random reward from PQ44 — Dragon Balls of the Future**. The dedicated skill source explicitly says random reward; the maintained PQ44 reward table does not list it as a Basic Reward, so no Basic tier was inferred. 
+- **Heroic Counter:** refined to **PQ155 — I Need a Hero... Pose!, Basic Reward**. 
+- **Punisher Shield:** refined to **PQ129 — Frieza Force on the Hunt, Basic Reward**. 
 - Re-synchronized `docs/data/skills-index.json` from canonical `skills.json`; record count remains 283.
 - Exact next task: continue remaining generic PQ records, especially the older base-game entries where maintained reward tables can establish Basic Reward versus random/UF provenance.
 
 
 ## 2026-09-20 — PQ reward-tier refinement batch 3
-- **Blaster Ball:** concrete PQ125 acquisition retained, but reward tier remains generic because inspected sources did not directly establish Basic vs. Ultimate Finish. citeturn0search3turn0search14
-- **Bluff Kamehameha:** refined to **random reward from PQ94 — Ultimate Power, Ultimate Saiyan**. citeturn0search2turn0search4
-- **Breaker Energy Wave:** refined to **PQ101 — Seeking Fighters for Tournament, Basic Reward**. citeturn0search1turn0search7
-- **Burst Kamehameha:** refined to **PQ72 — First Training, Basic Reward**. citeturn0search0turn0youtube34
+- **Blaster Ball:** concrete PQ125 acquisition retained, but reward tier remains generic because inspected sources did not directly establish Basic vs. Ultimate Finish. 
+- **Bluff Kamehameha:** refined to **random reward from PQ94 — Ultimate Power, Ultimate Saiyan**. 
+- **Breaker Energy Wave:** refined to **PQ101 — Seeking Fighters for Tournament, Basic Reward**. 
+- **Burst Kamehameha:** refined to **PQ72 — First Training, Basic Reward**. 
 - Re-synchronized `docs/data/skills-index.json`; record count remains 283.
 - Exact next task: continue the remaining generic PQ records, preserving random-reward wording where dedicated sources explicitly describe RNG acquisition.
 
@@ -3586,3 +3586,21 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined **Atomic Blast** → PQ87 Basic Reward; **Blaster Ball** → PQ125 Basic Reward; **Destruction's Concerto: Comet** → PQ104 Basic Reward; **God Punisher** → PQ132 Basic Reward; **Meteor Strike** → PQ6 Basic Reward.
 - Re-synchronized `docs/data/skills-index.json`; record count remains 283.
 - Next pass: continue remaining generic/random PQ records, prioritizing entries whose current notes still lack concrete reward-tier evidence.
+
+
+## 2026-09-20 — PQ reward-gate refinement batch 10
+- Refined eight current-scope skill acquisition records from the live canonical PQ reward tables:
+  - **Apocalyptic Burst** → PQ161 Ultimate Finish bonus slot (45%).
+  - **Special Beam Cannon (Beast)** → PQ162 Ultimate Finish bonus slot (45%).
+  - **Divine Ray Bomb** → PQ173 Ultimate Finish bonus slot (45%).
+  - **God of Destruction's Poise** → PQ175 Ultimate Finish reward (50%).
+  - **Shooting Strike** → PQ156 Ultimate Finish bonus slot (50%).
+  - **Super Gamma Blast** → PQ158 Ultimate Finish bonus slot (50%).
+  - **Soaring Rush** → PQ177 Ultimate Finish reward (50%).
+  - **Seagull Combination** → PQ167 normal-clear reward (40%).
+- These changes replace generic `Parallel Quest reward` / `Random Parallel Quest reward` wording only where the current maintained batch data supplies a concrete reward gate.
+- Re-synchronized `docs/data/skills-index.json`; canonical and index datasets remain at 283 records.
+- Live census after the batch: **283 total / 78 `verified_current_scope` / 10 `ultimate_finish_required=true` / 46 still-generic PQ acquisition strings** under the exact generic wording census.
+- Evidence limitation: the recorded percentages are the current maintained PQ reward-slot values; they are not presented as independently measured empirical probabilities. No unsupported prerequisite was added.
+- Artifact cleanup: removed legacy ChatGPT/internal citation markup from this audit file; repository files must contain ordinary source URLs/prose only.
+- Next: continue the remaining generic PQ acquisition records in quest order, prioritizing known PQs whose live reward tables can distinguish Basic, random, and Ultimate Finish provenance.
