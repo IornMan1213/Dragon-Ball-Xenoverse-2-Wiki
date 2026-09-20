@@ -2167,7 +2167,8 @@
         "https://dbxv2.fandom.com/wiki/Eraser_Bomb",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 163
     },
     {
       "name": "Evil Blast",
@@ -2396,7 +2397,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route."
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route.",
+      "source_quest": 128
     },
     {
       "name": "God of Destruction's Plaything",
@@ -2447,7 +2449,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/God_Punisher"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 132
     },
     {
       "name": "Handy Canon",
@@ -2474,7 +2477,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route."
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route.",
+      "source_quest": 115
     },
     {
       "name": "Headshot",
@@ -2553,7 +2557,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "Majin"
+      "race_restriction": "Majin",
+      "source_quest": 90
     },
     {
       "name": "Ill Rain",
@@ -2694,7 +2699,8 @@
         "https://dbxv2.fandom.com/wiki/Pendulum_Bullet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 166
     },
     {
       "name": "Perfect Shot",
@@ -2824,7 +2830,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 125
     },
     {
       "name": "Reverse Shot",
@@ -2850,7 +2857,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 123
     },
     {
       "name": "Rolling Bullet",
@@ -2902,7 +2910,8 @@
         "https://dbxv2.fandom.com/wiki/Shine_Shot",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 7
     },
     {
       "name": "Spirit Blaster",
@@ -2928,7 +2937,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 129
     },
     {
       "name": "Spirit Bomb",
