@@ -3975,7 +3975,7 @@
       "name": "Super Dragon Flight",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -3983,7 +3983,10 @@
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md"
       ],
-      "last_verified": "2026-09-20"
+      "last_verified": "2026-09-20",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 31 — \"Let's Train!\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 31"
     },
     {
       "name": "Supreme Fury",
