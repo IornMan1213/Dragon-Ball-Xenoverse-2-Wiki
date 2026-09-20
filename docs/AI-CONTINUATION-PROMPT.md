@@ -3543,3 +3543,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Commit: `807b44c4c44abea31e4aa845b3819437bf2d36ef`.
 - Important: do not place ChatGPT citation markup or internal tool identifiers into repository files.
 - Next task: continue the 78-record audit, focusing on records whose `class`/`subcategory` conflicts with dedicated skill references (Dust Attack is an open candidate), and only change fields when evidence is sufficiently specific. Then refresh the persistent handoff and recheck artifact hygiene.
+
+
+### 2026-09-20 cycle update — class/damage reconciliation
+- Reviewed the 78 current-scope records for class/subcategory/damage inconsistencies and checked the strongest obvious candidate against current references.
+- **Mighty Explosive Wave:** normalized the canonical record to the equipable **Ki Blast Super** from PQ79: 100 Ki, with the separate Jiren (Full Power) Evasive variation explicitly documented rather than conflated into the primary class. PQ79 evidence lists Mighty Explosive Wave under Basic Reward, so `ultimate_finish_required` remains false. cite marker omitted from repository data.
+- **Force Shield:** corrected `damage_type` from `Other` to `Ki Blast` and tightened its skill description/mechanics note; its Evasive class and PQ59 acquisition remain unchanged.
+- Commit: `c73d88d28e36c8cc3f1468b358329931b25a59c5`.
+- Next task: continue the same 78-record class/damage audit, looking for similarly conflated variant records and only changing fields with direct evidence. Do not add citation markup/tool identifiers to repository files.
