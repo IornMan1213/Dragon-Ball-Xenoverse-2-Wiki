@@ -3306,3 +3306,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - GitHub currently reports no workflow runs or commit statuses for the latest handoff commit; CI remains unverified.
 - Local execution could not be completed because the execution environment could not resolve GitHub for cloning.
 - Next task: continue repository-level static validation/enrichment without claiming an unobserved CI pass.
+
+
+### 2026-09-19 continuation — Burst Rush reward classification
+- Corrected `Burst Rush` to `ultimate_finish_required=false`.
+- PQ51's maintained reward listing places Burst Rush in Basic Reward, not Ultimate Finish.
+- Preserved `source_quest=51` and normalized the unlock wording to the PQ51 Basic Reward route.
+- Next task: continue the partially verified skill cohort, prioritizing records whose maintained PQ evidence can deterministically resolve acquisition or Ultimate Finish fields.
