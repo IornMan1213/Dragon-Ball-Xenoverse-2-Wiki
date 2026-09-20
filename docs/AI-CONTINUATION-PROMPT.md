@@ -3285,3 +3285,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation remains 283/283, exact parity, UF 60.
 - Commits: 2c47b6dbba28cc00e1ec4565c91def9ac28be09b, c39b2fc99b137c751079706f1b651fa5ef89723e.
 - Exact next task: recompute the generic PQ census and inspect any remaining vague acquisition records; then audit non-generic quest/mission records for the same Basic Reward evidence pattern, without changing unresolved source conflicts.
+
+
+### 2026-09-20 cycle update — generic PQ census completion checkpoint
+- Recomputed the generic PQ census and refined the final vague PQ acquisition record, X 100 Big Bang Kamehameha, to explicit PQ100 Basic Reward provenance.
+- Result: **0** remaining vague PQ acquisition records under the current audit definition. Emperor's Cannon remains an explicit PQ183/PQ184 source conflict.
+- Validation: 283/283, exact parity, UF 60.
+- Commits: `b00b0f51d81b2d1c0855a2fa651695345c68e9e8`, `5e83374750e5823de7bb963ef063e4610ca43144`.
+- Exact next task: **audit the 38 non-PQ quest/mission acquisition records for provenance quality and specificity, prioritizing records whose source_quest is null or whose unlock_method is merely a mentor/test/mission label without a lesson, test tier, or explicit completion condition.**
