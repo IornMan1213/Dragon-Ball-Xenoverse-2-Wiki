@@ -2893,3 +2893,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Re-synchronized `docs/data/skills-index.json`; 283 records remain.
 - Commits: `637dc5c2a89876a03007ce119b5e60b3faedfe0a` (canonical refinements), `0d8400b54a2e2e6c05d3d41576a50806649a023c` (index sync), `e24fd20f7a411c75ab5113874110b7e9416d324a` (coverage audit).
 - Exact next task: continue remaining generic PQ records; preserve explicit random-reward provenance and avoid asserting reward tiers without direct evidence.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 4
+- Refined **Buu Buu Ball** (PQ88 Basic), **Candy Beam** (PQ66 Basic), **Candy Beam (Super)** (PQ113 Basic), **Crazy Finger Shot** (PQ26 Basic), **Death Psycho Bomb** (PQ33 Basic), **Destruction's Concerto: Starfall** (PQ104 Basic), and **Flash Chaser** (PQ138 Basic).
+- Refined **Gamma Blaster** to random reward from PQ155 without asserting an unsupported reward tier.
+- Re-synchronized `docs/data/skills-index.json`; 283 records remain.
+- Commits: `230d4495b14663b579522ecc719f8aacf824e0ac` (canonical), `cf68fac07171b8dafed55389b227a319f8ba3215` (index), `0748fa292305c85ddc3b74fde52cd3b3953442ad` (coverage audit).
+- Exact next task: continue remaining generic/random PQ records in quest order, preserving explicit RNG provenance.
