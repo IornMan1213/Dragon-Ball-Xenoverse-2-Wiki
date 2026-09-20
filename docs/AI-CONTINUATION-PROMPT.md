@@ -2849,3 +2849,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Completed 18 explicit single-PQ provenance records. Skills commit: `b8179d8c3cc19297ddd97e296e53cae53baef531`; coverage audit commit: `609e6cb942f2ca4743496797b74f88c897aae8d6`.
 - Live census: 283 records; `source_quest` null on 134 records.
 - Next task: continue the bounded explicit single-PQ census, starting with remaining clear records such as **Justice Kick (PQ152)** and then the next unambiguous quest identifiers discovered in live data. Leave character-only, multi-PQ, shop-combination, and exact-drop-gating research records unchanged.
+
+
+### 2026-09-19 continuation — source quest provenance batch 11
+- Completed 20 explicit single-PQ provenance records. Skills commit: `5a79afc1b2a8cd96f1346365d8ff219387e74a0b`; coverage audit commit: `2855e2f48fa5ee16d155967c1ce7191c15153279`.
+- Live census: 283 records; `source_quest` null on 114 records.
+- Next clear candidates discovered in live data: **Majin Kamehameha (PQ60), Mystic Flash (PQ20), Prominence Flash (PQ137), Requiem of Destruction (PQ106), Revenge Death Ball (PQ127), Revenge Final Flash (PQ124), Ribrianne's Eternal Love (PQ137), S.S. Deadly Bomber (PQ115)**. Continue excluding multi-source/shop records and unresolved exact-drop-gating research records.
