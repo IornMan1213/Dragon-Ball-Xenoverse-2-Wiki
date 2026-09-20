@@ -3534,3 +3534,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validation: canonical/index/audit were parsed and synchronized; no validator was weakened and no internal tool/citation markup was written into repository data.
 - Evidence note: **Power Impact** was deliberately not promoted in this batch because its current skill page classifies it as a Ki Blast Super while the canonical record currently carries a Strike classification; acquisition is clear, but the classification discrepancy should be reconciled separately rather than silently bundled into a verification promotion.
 - Next task: continue deterministic acquisition verification through the remaining 62 partial records, prioritizing current skill pages with explicit unlock statements and preserving classification/drop-condition conflicts for separate reconciliation.
+
+
+### 2026-09-20 continuation — Power Impact classification reconciliation
+- Resolved the previously flagged **Power Impact** discrepancy instead of leaving the record partial.
+- Current Xenoverse 2 skill documentation identifies Power Impact as a **Ki Blast Super**, with **Parallel Quest 120 — "Whis's Special Training"** as the unlock. citeturn0search0
+- Corrected canonical/index classification from Strike to Ki Blast and promoted the record to verified. No unsupported Ultimate Finish requirement was added.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **143 verified / 61 partially verified** across 283 records.
+- Next task: continue deterministic verification of the remaining 61 partial records, prioritizing explicit skill-page unlock statements and separating genuine acquisition uncertainty from stale classification metadata.
