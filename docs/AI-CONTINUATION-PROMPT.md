@@ -3158,3 +3158,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - GitHub still reports no workflow run for that commit through the available workflow-run endpoint, so CI execution remains unverified rather than being treated as successful.
 - Audit commit: `6435dedda7cdaa60b726bb118e845d43202b9ea5`.
 - Next exact task: inspect the validator's complete semantic checks for gaps now that schema validation and CI wiring are in place, then address the highest-value deterministic validation gap without changing factual skill data unnecessarily.
+
+
+### 2026-09-19 continuation — validator format enforcement
+- Identified a deterministic validation gap: the schema's `date` and `uri` formats were declared but not enforced because the validator had no `FormatChecker`.
+- Updated `scripts/validate_skills.py` to instantiate `FormatChecker()` and to call `Draft202012Validator.check_schema(schema)` before record validation.
+- No factual skill data was changed.
+- Validator commit: `cd193c13fd4b701bb7bbbaf7caaad1748156d88c`.
+- Audit commit: `a7a845f41d2d4f58d615d721763ea30a7f1cf21d`.
+- Next exact task: inspect the remaining semantic invariants in `validate_skills.py` against the canonical dataset for another deterministic integrity gap; prioritize cross-file metadata consistency or malformed provenance rather than speculative factual enrichment.
