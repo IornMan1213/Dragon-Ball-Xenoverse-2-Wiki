@@ -150,7 +150,7 @@
       "unlock_method": "Complete the Saiyan Awakening progression at Capsule Corporation and train with Vegeta; the resulting Awoken Skill provides Super Saiyan stages 1–3.",
       "research_status": "enriched",
       "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression",
-      "source_quest": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression",
+      "source_quest": null,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission"
     },
@@ -176,7 +176,7 @@
       "unlock_method": "Use the Shenron wish for Super Saiyan God after maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan; Beerus then provides the skill.",
       "research_status": "enriched",
       "source_quest_or_shop": "Shenron wish for Super Saiyan God; Beerus awards the skill",
-      "source_quest": "Shenron wish for Super Saiyan God; Beerus awards the skill",
+      "source_quest": null,
       "dlc_requirement": "Free Update 13",
       "acquisition_type": "quest_or_mission"
     },
@@ -255,7 +255,7 @@
       "unlock_method": "Complete the Vegeta training progression at the Capsule Corporation Time Rift as a Saiyan CaC.",
       "research_status": "enriched",
       "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift",
-      "source_quest": "Vegeta training — Capsule Corporation Time Rift",
+      "source_quest": null,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission"
     },
@@ -337,7 +337,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken.",
-      "source_quest": "Beast unlock chain",
+      "source_quest": null,
       "acquisition_type": "quest_or_mission"
     },
     {
@@ -392,7 +392,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction.",
-      "source_quest": "Final Advancement Test",
+      "source_quest": null,
       "acquisition_type": "quest_or_mission"
     },
     {
@@ -439,7 +439,7 @@
       "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "research_status": "enriched",
       "source_quest_or_shop": "Super Saiyan Awoken Skill — second transformation stage",
-      "source_quest": "Super Saiyan Awoken Skill — second transformation stage",
+      "source_quest": null,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission"
     },
@@ -515,7 +515,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior.",
-      "source_quest": "Ultra Instinct unlock route",
+      "source_quest": null,
       "acquisition_type": "quest_or_mission"
     },
     {
