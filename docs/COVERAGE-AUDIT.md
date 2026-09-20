@@ -3466,3 +3466,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - A GameFAQs post reports Blazing Attack as an Ultimate Finish drop, so the repository preserves that conflicting evidence in mechanics notes rather than silently treating it as authoritative; the explicit maintained reward-tier listing controls the canonical field. citeturn0search3
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `2a82e01e7e3fda477469683cb692bb7b971b6006`, `1cf8e2cd98615f8d2e4101827b3a79b47039e561`.
+
+
+## 2026-09-20 — Three additional Ultimate Finish gate corrections
+
+- **Rough Ranger:** corrected `ultimate_finish_required` from `true` to `false`; PQ119 reward tables list it under Basic Reward. citeturn2search0turn4search4
+- **Earth Splitting Galick Gun:** corrected `ultimate_finish_required` from `true` to `false`; the long-maintained PQ guide lists it under PQ11 Basic Reward. A newer datamined reconstruction conflicts, so the canonical field follows the explicit reward-tier table while preserving source provenance. citeturn4search1turn1search0
+- **Raid Blast:** corrected `ultimate_finish_required` from `true` to `false`; PQ136 reward tables explicitly list it under Basic Reward. citeturn2search4turn2search10
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Commits: `15f4426e56268d41e3deb456619dd7ef47314007`, `c5fc07873e090b03d01c1d99c30abfb299c9eb5a`.
