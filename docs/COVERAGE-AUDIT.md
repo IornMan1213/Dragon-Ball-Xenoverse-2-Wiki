@@ -3238,3 +3238,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Schema permits the intended classes (`Super`, `Ultimate`, `Evasive`, `Awoken`, `Counter`, `Mixed`), subcategories including `Transformation`, and all six acquisition types.
 - Static invariant result: 0 class/subcategory violations, 0 character-only CaC contradictions, 0 quest/non-quest `source_quest` contradictions.
 - GitHub still exposes no workflow runs/statuses for the latest handoff, so no CI pass is claimed.
+
+
+## 2026-09-19 — Shenron wish acquisition correction
+
+- Corrected `Flash Fist Crush` and `Burst Reflection`: both are Shenron-wish acquisitions, not quest/mission acquisitions.
+- Set both to `other_nonquest` with null `source_quest` and preserved the Shenron wish route.
+- `Flash Fist Crush` is obtained from the first use of the "I want a new Super Attack!" wish; `Burst Reflection` is part of the subsequent Super Attack wish reward set. 
