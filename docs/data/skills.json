@@ -1832,17 +1832,17 @@
       "class": "Super",
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
-      "character_source": "Goku (Ultra Instinct) / Vegeta (Super Saiyan God)",
+      "character_source": "Vegeta (Super Saiyan God)",
       "dlc_requirement": "DLC PQ",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 136 — \"Breaking Down The Barrier\" Ultimate Finish character drop",
+      "unlock_method": "Parallel Quest 136 — \"Breaking Down the Barrier\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 136",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Burst Stinger is a Super Ki Blast skill associated with Goku (Ultra Instinct).",
       "mechanics_notes": "Current evidence confirms Burst Stinger as a 100-Ki Ki Blast Super from PQ136, with Ultimate Finish required in the dataset's acquisition record. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "conflict",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -1854,27 +1854,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "The repository preserves an unresolved character-source conflict: GameFAQs describes a PQ136 Ultimate Finish character drop from Goku (Ultra Instinct), while the skill-specific Xenoverse 2 Fandom page and Dragon Ball Wiki technique list associate Burst Stinger with Vegeta (Super Saiyan God). Acquisition/provenance evidence remains PQ136; exact reward-slot/character attribution is not silently collapsed.",
-      "source_conflicts": [
-        {
-          "field": "character_source",
-          "claims": [
-            {
-              "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-              "value": "Goku (Ultra Instinct) character drop during PQ136 Ultimate Finish"
-            },
-            {
-              "source": "https://dbxv2.fandom.com/wiki/Burst_Stinger",
-              "value": "Vegeta (Super Saiyan God) is a notable user"
-            },
-            {
-              "source": "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-              "value": "Burst Stinger is listed among Super Saiyan God Vegeta's Super Skills"
-            }
-          ],
-          "status": "unresolved"
-        }
-      ]
+      "notes": "PQ136 reward evidence lists Burst Stinger under Basic Reward, not as an Ultimate Finish-only reward. Character-source evidence identifies Burst Stinger as a signature Super Attack of Vegeta (Super Saiyan God); the earlier Goku (Ultra Instinct) attribution was tied to an unsupported character-drop interpretation and is not retained."
     },
     {
       "name": "Buu Buu Ball",
