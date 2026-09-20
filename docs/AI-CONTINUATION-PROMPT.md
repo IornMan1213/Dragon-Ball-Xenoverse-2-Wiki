@@ -2911,3 +2911,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: `d7cbb897e0ef2c4f364ec74935ea6d18731befd3`; coverage audit commit: `908230ae336312a221a32eaa55f6c7a80890a8ee`.
 - Live census: 283 records; `source_quest` null on 37 records.
 - Next task: review the remaining null PQ records for similarly explicit reward evidence. Do not retain a null solely because earlier metadata called it “unresolved” if current evidence directly lists the skill in that PQ's rewards; continue excluding genuine multi-source and character-only cases.
+
+
+### 2026-09-19 continuation — explicit late PQ reward batch 21
+- Resolved **Divine Ray Bomb → PQ173** and **Final Rampage → PQ174** from explicit public reward listings. Skills commit: `1886f89930480d65b2bd47db6c2f87ca1f8d5dd3`; coverage audit commit: `0960849e181fcce06414e49dd9ac7e1cca99c0c1`.
+- Live census: 283 records; `source_quest` null on 35 records.
+- Next task: re-check the remaining nulls for explicit PQ reward listings. Keep multi-source/shop combinations and character-only records null unless a single canonical quest source is established.
