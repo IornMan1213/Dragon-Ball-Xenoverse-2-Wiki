@@ -3589,3 +3589,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Corrected **Spread Shot Retreat** `skill_description` from “Evasive Other” to “Ki Blast Evasive” and normalized `damage_type` from `Other` to `Ki Blast`.
 - Commit: `53dfc4c9ac3c1a2f0e392176ce426fa2c3809ef6`.
 - Next task: continue the remaining current-scope metadata audit, especially records whose description/damage fields still disagree with their verified subcategory.
+
+
+### 2026-09-20 cycle update — damage metadata reconciliation
+- Current Super Attack reference explicitly categorizes **Side Bridge** and **Steel Mirage** as Ki Blast Supers; the current character data also places Side Bridge on Android 17 and Steel Mirage on Android 18 (DB Super). cite marker omitted from repository data.
+- Corrected both records' explicit `damage_type` from `Other` to `Ki Blast`, matching their verified `subcategory: Ki Blast` and descriptions.
+- Commit: `6365d60edaf6a583f105266c0b9ba2881de89a51`.
+- Next task: continue auditing explicit non-null damage fields for conflicts with verified subcategories, while leaving intentionally null/unverified values untouched.
