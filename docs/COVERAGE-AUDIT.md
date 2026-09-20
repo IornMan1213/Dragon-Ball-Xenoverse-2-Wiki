@@ -3386,3 +3386,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Kept **Explosive Wave** as Skill Shop provenance; no quest-gate inference was added.
 - Steam's maintained PQ guide lists the five quest skills in their respective Basic Reward sections. citeturn1search0turn1search1
 - Canonical data commit: `36191badce56ea7fe3d89c1966b902b996fa979c`.
+
+
+## 2026-09-20 — canonical classification correction: Paralysis
+
+- Corrected **Paralysis** after rechecking current dedicated skill evidence and the Future Warrior technique corpus.
+- The canonical record had incorrectly classified Paralysis as a 100-Ki Ki Blast Super. Current evidence identifies it as a **300-Ki Strike Ultimate** used by Guldo and obtainable by the Future Warrior/CaC from **PQ34 — "Return of the Ginyu Force!"**.
+- The maintained PQ evidence places the skill in the **Basic Reward** section, so `ultimate_finish_required` remains `false`.
+- Updated `docs/data/skills.json` and synchronized `docs/data/skills-index.json`. No unsupported drop probability was added.
+- Evidence also distinguishes this skill from **Paralyze Beam**, the separate 100-Ki Ki Blast Super from PQ4.
+- Canonical data commit: `1e2084b303b385b10db3418d429b110a2d99a369`; index sync commit: `98f2462dc8a3b8fde224d9bcdec7569720e45b7c`.
