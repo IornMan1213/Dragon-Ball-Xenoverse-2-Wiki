@@ -761,10 +761,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (40% bonus roll)",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate."
     },
     {
       "name": "Dragon Burn",
