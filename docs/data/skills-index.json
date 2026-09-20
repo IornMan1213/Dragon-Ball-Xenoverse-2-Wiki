@@ -447,13 +447,16 @@
       "name": "Rough Ranger",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rough_Ranger",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Rough_Ranger",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437?page=2"
       ]
     },
     {
