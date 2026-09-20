@@ -3566,3 +3566,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined **Demon Flurry** → PQ160 random reward; **Demonic Destruction** → PQ159 random reward; **Destruction's Conductor** → PQ106 Basic Reward; **Freedom Kick** → PQ29 Basic Reward.
 - Re-synchronized `docs/data/skills-index.json`; record count remains 283.
 - Exact next task: investigate the remaining higher-DLC PQ records with unresolved drop gating (Dragon Spark, Dragon Spiral, Force Edge, Heroic Assault, and adjacent entries), preserving conflicts where sources disagree.
+
+
+## 2026-09-20 — Higher-DLC PQ refinement batch 7
+- Refined **Dragon Spark** → PQ177 Basic Reward; **Dragon Spiral** → PQ185 Basic Reward; **Force Edge** → PQ180 Basic Reward; **Heroic Assault** → PQ156 random reward.
+- Preserved the older PQ186 association for Dragon Spiral as a source conflict in notes rather than inventing a second acquisition route.
+- Re-synchronized `docs/data/skills-index.json`; record count remains 283.
+- Next pass: remaining unresolved/random PQ records, beginning with Justice Drive, Justice Kick, Mach Punch, Burning Blast, and Teleporting Vanishing Ball.
