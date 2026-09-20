@@ -3224,3 +3224,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Static inspection confirms the validator uses JSON Schema Draft 2020-12, `FormatChecker()`, `check_schema`, and cross-file checks.
 - GitHub reports no workflow runs and no commit statuses for the latest handoff commit, so CI execution remains unverified.
 - Local execution was attempted but the environment could not resolve GitHub for a repository clone; no local-pass claim is made.
+
+
+## 2026-09-19 — Burst Rush reward classification correction
+
+- Corrected `Burst Rush`: PQ51 remains the source, but `ultimate_finish_required` changed from `true` to `false`.
+- The maintained all-PQ guide lists Burst Rush in PQ51's Basic Reward section, so an Ultimate Finish is not required for the canonical acquisition route. 
