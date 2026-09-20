@@ -722,7 +722,7 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Random reward from Parallel Quest 44 — \"Dragon Balls of the Future\"",
+      "unlock_method": "Parallel Quest 44 — \"Dragon Balls of the Future\" Basic Reward",
       "source_quest": 44,
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -732,7 +732,7 @@
       "last_verified": "2026-09-20",
       "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ44 and explicitly describes the Future Warrior acquisition as a random reward. The maintained PQ44 reward table does not list God Breaker among Basic Rewards, so no Basic Reward tier is inferred. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ44 reward evidence explicitly lists God Breaker in the Basic Reward set. Dedicated skill documentation describes PQ44 acquisition but does not establish an Ultimate Finish-only gate. Older community reports describe the acquisition as RNG, so exact individual reward-slot probability remains unresolved; the canonical record now uses the explicit Basic Reward classification without inferring a probability."
     },
     {
       "name": "Heroic Counter",
