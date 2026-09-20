@@ -3207,3 +3207,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - `Lovely Cyclone` remains UF=false from the preceding cycle's separate evidence reconciliation; do not overwrite it merely because older batch text contains a conflicting UF condition.
 - Commits: `648aebb70d7af88521ef1b8a237a357b56423776` (canonical), `c6637240a11ff0433b26ef656b0e8398b0635c28` (index), `7b3b0d5e8d2e6385bdbffe503168eac76bb55fa0` (audit).
 - Exact next task: rerun the full canonical/index census and identify any remaining `skill_drop_conditions` versus canonical mismatches, then clean stale contradictory provenance notes only where the newer explicit condition already controls the canonical state. Preserve genuine source conflicts.
+
+
+### 2026-09-20 cycle update — final explicit-condition census
+- Re-ran the full comparison between canonical `ultimate_finish_required` values and all available maintained `skill_drop_conditions` entries.
+- The only remaining textual mismatches are **Kaioken**, **Evil Blast**, **Power Rush**, and **Lovely Cyclone**. Kaioken/Evil Blast/Power Rush have UF=true but their available batch condition text is explicitly unresolved/non-specific rather than evidence that the gate is false. Lovely Cyclone is the known separately reconciled source conflict and remains UF=false pending stronger evidence.
+- No further gate changes were made from generic wording. The canonical and index records were updated with census notes documenting these residual cases.
+- Commits: `9154bf060553c04f09ff6c8d451f9fc3252fb590` (canonical), `f000bfc3961f6a90b80b1af482df475187878be2` (index).
+- Exact next task: inspect stale contradictory provenance/mechanics notes for the 14 newly corrected UF records and remove only statements that directly contradict their now-explicit maintained drop conditions; preserve historical/source-conflict notes when they remain informative.
