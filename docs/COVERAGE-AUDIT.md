@@ -3185,3 +3185,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Corrected `X 100 Big Bang Kamehameha`: `ultimate_finish_required` changed from `true` to `false`.
 - The maintained all-186-PQ guide lists X 100 Big Bang Kamehameha in PQ100's **Basic Reward** section, and independent references document TP Medal Shop availability.
 - Exact drop probability remains unspecified; no probability was inferred.
+
+
+## 2026-09-19 — Mixed-route PQ provenance audit
+
+- Reconciled four canonical mixed-route skills against PQ reward evidence and TP Medal Shop evidence: `Emperor's Blast` → PQ70 / TP Medal Shop; `Emperor's Edge` → PQ99 / TP Medal Shop; `Final Kamehameha` → PQ91 / TP Medal Shop / Double Crystal Raids; `X 100 Big Bang Kamehameha` → PQ100 / TP Medal Shop.
+- Verified PQ70, PQ91, PQ99, and PQ100 list the corresponding skills as Basic Rewards, so none requires an Ultimate Finish. 
+- Final Kamehameha and X 100 Big Bang Kamehameha TP Medal Shop availability is independently documented. 
