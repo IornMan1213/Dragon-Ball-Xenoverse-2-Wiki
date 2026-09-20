@@ -2678,3 +2678,10 @@ Skills commit: `0635e4cd59d30339df6a2d398d0f7ba107314afa`.
 Promoted 19 explicit single-PQ identifiers from live skill acquisition metadata: **Fighting Pose E (PQ19), Fighting Pose H (PQ61), Justice Pose (PQ53), Taunt (PQ45), Brave Sword Slash (PQ116), Burning Swan (PQ167), Burst Blitz (PQ178), Death Slash (PQ23), Demon Flurry (PQ160), Demonic Destruction (PQ159), Destruction's Conductor (PQ106), Evil Whirlwind (PQ36), Fierce Fist (PQ159), Force Edge (PQ180), Freedom Kick (PQ29), Gamma Impact (PQ155), Heroic Assault (PQ156), Justice Blade (PQ152), Justice Drive (PQ168)**. Multi-PQ/shop combinations and character-only reward-context records were intentionally left unchanged.
 
 Skills commit: `59cdc9ae66a60ff9ce1dab0c92c9b10bde167cb3`.
+
+
+## 2026-09-19 — source-quest provenance batch 10
+
+Promoted 18 explicit single-PQ identifiers from existing skill acquisition metadata: **Mach Punch (PQ19), Meteor Blow (PQ09), Meteor Strike (PQ06), Neo Wolf Fang Fist (PQ86), Power Impact (PQ120), Powered Shell (PQ128), Recoome Kick (PQ61), Sauzer Blade (PQ27), Savory Slicer (PQ140), Scissors Paper Rock (PQ65), Seagull Combination (PQ167), Shooting Strike (PQ156), Sonic Bomb (PQ105), Super God Fist (PQ67), Variant Drive (PQ123), Zigzag Express (PQ85), Apocalyptic Burst (PQ161), Blaster Stream (PQ148)**. Ambiguous reward-context, multi-PQ, and shop-combination records remain unchanged.
+
+Skills commit: `b8179d8c3cc19297ddd97e296e53cae53baef531`.
