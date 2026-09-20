@@ -3139,3 +3139,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - GitHub currently reports no workflow run for that commit yet; do not claim runtime CI success until a run is available.
 - Audit commit: `fdaff759238cf2a160f2d169228a29480c8c4caa`.
 - Next exact task: inspect the new workflow's trigger behavior and existing CI conventions, then verify whether GitHub Actions executes it on the next repository change; if it remains unrun, continue improving repository validation without inventing a pass result.
+
+
+### 2026-09-19 continuation — validation workflow trigger review
+- Reviewed `.github/workflows/skills-validation.yml` against the repository's existing CI conventions.
+- Push and pull-request path filters cover the canonical skills data, schema, validator, and workflow itself; permissions are read-only.
+- Confirmed the pinned `jsonschema==4.25.1` release exists and supports Draft 2020-12 validation.
+- No GitHub Actions run is currently exposed for workflow commit `aad4828815d41cae2314aac293ed9cb52ae82b96`; runtime success remains unverified.
+- Audit commit: `21420a831c5582f8b6085e3d2efe1a055674c7b8`.
+- Next exact task: inspect repository-wide internal-artifact scanning and test whether the new workflow introduces any artifact-check issues; then continue with the next highest-priority handoff item.
