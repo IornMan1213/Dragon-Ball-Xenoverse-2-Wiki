@@ -3404,3 +3404,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Current evidence identifies Dust Attack as one of Piccolo's Super Skills, and the maintained Future Warrior/partner references support Piccolo as the source character; the PQ78 acquisition route remains unchanged.
 - Preserved the existing **Other Super / 100 Ki / CaC-available** classification and did not infer any narrower race/gender/form restriction.
 - Canonical data commit: `27272f6c2e8afc63c739e66340ebc89193bf93d8`.
+
+
+## 2026-09-20 — canonical mismatch pass: Time Bullet / Dragon Thunder / Surging Spirit
+
+- **Time Bullet:** corrected the stale character-exclusive interpretation. Current evidence identifies it as a **100-Ki Other Super** available to CaCs from the **Skill Shop after the Decisive Battle with Majin Buu**.
+- **Dragon Thunder:** corrected the stale universal-CaC interpretation. Current evidence identifies it as **Omega Shenron's 100-Ki Strike Super** and explicitly unavailable to CaCs.
+- **Surging Spirit:** clarified that the technique is an **Ultra Instinct built-in CaC action**, not a separately acquired equipable skill; the N/A unlock route is therefore retained.
+- Revalidated **Destruction's Concerto: Comet** as a variable **100–200 Ki** Super rather than forcing a single unsupported cost. **Wild Stinger** remains cost-unresolved and was not treated as numerically verified.
+- Updated `docs/data/skills.json` and synchronized `docs/data/skills-index.json`.
+- Commits: `1b3e8da7e5154800da971b95068e8388d0575fb8` (skills), `354106948a7cb49855eeafc24caa261471f42b9b` (index).
+- Exact next task: continue the remaining current-scope canonical audit, especially stale `usable_by_cac`, acquisition type, and reward-gate fields; preserve uncertainty where evidence conflicts.
