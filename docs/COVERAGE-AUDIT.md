@@ -3425,3 +3425,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `bc8d3e65b2f8a1be0b2293b25231071dc691ae65` (skills), `30a238294dadcca7e9c97ab1f71601e01789fd24` (index).
 - Next: continue the canonical audit for remaining stale CaC boundaries and acquisition semantics, then move into unresolved reward-gate conflicts.
+
+
+## 2026-09-20 — Wild Stinger CaC boundary correction
+
+- Corrected **Wild Stinger** from stale `usable_by_cac=false` / `Character-only` to CaC-accessible while retaining its PQ172 Basic Reward acquisition and unresolved exact Ki-cost uncertainty.
+- This completes the remaining currently identified `usable_by_cac=false` + `quest_or_mission` anomaly in the canonical dataset: after the correction, no record combines those fields.
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Commits: `e6cf43c75731a6c53f4fa6af03bde4bbf9e59ba3`, `4c20ab2d793447f6ac539a565b1ebac1524eab4b`.
