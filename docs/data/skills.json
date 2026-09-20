@@ -2586,7 +2586,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 155",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ155 and describes Gamma Blaster as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ155 and describes Gamma Blaster as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred. 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Blaster in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained."
     },
     {
       "name": "Giant Cluster",
@@ -5086,16 +5086,17 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Gamma_Impact"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 155 — I Need a Hero... Pose!. No Ultimate Finish-only requirement is established."
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 155 — I Need a Hero... Pose!. No Ultimate Finish-only requirement is established. 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained."
     },
     {
       "name": "God of Destruction's Poise",
