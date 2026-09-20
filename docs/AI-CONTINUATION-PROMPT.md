@@ -3502,3 +3502,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - GitHub documents that workflow-job responses normally expose step information and that job logs are the normal diagnostic path; this integration is currently returning empty step arrays, so no root cause can be responsibly inferred.
 - No workflow was weakened or modified. Continue repository work while treating the Actions failure as an infrastructure/diagnostic limitation unless useful job/log data becomes available.
 - Next task: continue source-field audit and maintain artifact-clean repository state.
+
+### 2026-09-20 cycle update — workflow definition inspection
+- Inspected `.github/workflows/cleanup-internal-artifacts.yml`, `repo-quality.yml`, and `skills-validation.yml`, plus the artifact checker/cleaner scripts.
+- The workflows retain their intended checkout, artifact scan/cleanup, and skills-schema validation steps; **no workflow weakening or bypass was made**.
+- Known internal artifact searches remain empty. Latest cleanup and repository-quality runs on `546d631ee04224db9212f9012d5349988ea7165a` still fail immediately, while the connected job API reports empty step data. GitHub's documented APIs normally expose job steps/logs, so the present integration remains insufficient to identify the failing condition.
+- The substantive source audit also rechecked Future Saga provenance: `The Power to Overcome` remains Future Saga Chapter 4; `Steel Mirage`, `Big Bang Knuckle`, `Wild Stinger`, and related Chapter 1 records remain correctly labeled; `Dark Inscription` remains Future Saga Chapter 3. External references corroborate these DLC associations. No canonical data correction was needed.
+- Audit commit: `84abb0d04439b7497ce2c88deb85a33f5e45288f`.
+- Next task: continue the remaining current-scope source-field audit and maintain the artifact-clean tree while periodically checking Actions diagnostics.
