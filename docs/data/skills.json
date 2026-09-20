@@ -2328,7 +2328,7 @@
       "ki_cost": 100,
       "research_status": "enriched",
       "ultimate_finish_required": false,
-      "unlock_method": "Parallel Quest 70 - \"Things Are Getting Serious!\"; also available through TP Medal Shop rotation",
+      "unlock_method": "Parallel Quest 70 — \"Things Are Getting Serious!\" Basic Reward; also available through the TP Medal Shop",
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 70 / TP Medal Shop",
       "mechanics_notes": "Current evidence confirms Emperor's Blast as a 100-Ki Ki Blast Super associated with Hercule; the existing PQ70/TP Medal Shop acquisition record is retained. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
@@ -2337,7 +2337,7 @@
       "source_quest": 70,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ70 Basic Reward evidence independently confirms the quest acquisition, while current dedicated skill documentation identifies the move as a 100-Ki Ki Blast Super used by Frieza/Golden Frieza. TP Medal Shop availability is retained as an alternate acquisition route; no UF-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ70 Basic Reward evidence independently confirms the quest acquisition, while current dedicated skill documentation identifies the move as a 100-Ki Ki Blast Super used by Frieza/Golden Frieza. TP Medal Shop availability is retained as an alternate acquisition route; no UF-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "character_source": "Golden Frieza"
     },
     {
@@ -3396,14 +3396,14 @@
       "dlc_requirement": "Base Game",
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 58 — \"Majin Banquet\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 58 — \"Majin Banquet\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 58",
       "ultimate_finish_required": false,
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "race_restriction": "Majin (Pure Majin form)",
       "source_quest": 58,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 58 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 58 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Variable Snipe Shot",
@@ -3523,7 +3523,7 @@
         "https://dragonball.fandom.com/wiki/Afterimage_Strike"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 81 — \"Wake UP!\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 81 — \"Wake UP!\" Basic Reward",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 81",
@@ -3534,7 +3534,7 @@
       "source_quest": 81,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record."
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Assault Vanish",
@@ -3810,7 +3810,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 63 — \"Appetite for Destruction\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 63 — \"Appetite for Destruction\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 63",
       "ultimate_finish_required": false,
       "skill_description": "Kai Kai is a Super Other skill associated with Whis.",
@@ -3825,7 +3825,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 63,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record."
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Maximum Charge",
@@ -4173,7 +4173,7 @@
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
       ],
       "ki_cost": 0,
-      "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" Basic Reward",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -4184,7 +4184,7 @@
       "source_quest": 10,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record."
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Charge",
@@ -4196,7 +4196,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 83 — \"Dangerous Duo! Warriors Never Rest\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 83 — \"Dangerous Duo! Warriors Never Rest\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 83",
       "ultimate_finish_required": false,
       "skill_description": "Charge is a Super Power Up skill associated with Goku.",
@@ -4212,7 +4212,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 83,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 83 as the acquisition route."
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 83 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Data Input",
@@ -4274,7 +4274,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 49 — \"Namek Berserker\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 49 — \"Namek Berserker\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 49",
       "ultimate_finish_required": false,
       "skill_description": "Do or Die is a Super Power Up skill associated with Super Saiyan 3 Gotenks.",
@@ -4289,7 +4289,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 49,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence."
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Fighting Pose E",
@@ -4301,7 +4301,7 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 19",
       "ultimate_finish_required": false,
       "skill_description": "Fighting Pose E is a Super Power Up skill associated with Captain Ginyu.",
@@ -4317,7 +4317,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence."
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Fighting Pose H",
@@ -4329,7 +4329,7 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 61 — \"The Cell Games Continued\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 61 — \"The Cell Games Continued\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 61",
       "ultimate_finish_required": false,
       "skill_description": "Fighting Pose H is a Super Power Up skill associated with Recoome.",
@@ -4344,7 +4344,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 61 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence."
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 61 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Fighting Pose K",
@@ -4441,7 +4441,7 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 53 — \"The Fist of Justice!\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 53 — \"The Fist of Justice!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 53",
       "ultimate_finish_required": false,
       "skill_description": "Justice Pose is a Super Power Up skill associated with Great Saiyaman.",
@@ -4459,7 +4459,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 53,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route."
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Meditation",
@@ -4589,7 +4589,7 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": false,
-      "unlock_method": "Parallel Quest 44 — \"Dragon Balls of the Future\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 44 — \"Dragon Balls of the Future\" Basic Reward",
       "source_quest": 44,
       "last_verified": "2026-09-20",
       "research_status": "enriched",
@@ -4597,7 +4597,7 @@
       "source_quest_or_shop": "Parallel Quest 44",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Parallel Quest 44 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate."
+      "notes": "2026-09-19 verification: Parallel Quest 44 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Burning Swan",
@@ -4907,7 +4907,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 99 - \"Frieza Race Revivified\"; also available through TP Medal Shop rotation",
+      "unlock_method": "Parallel Quest 99 — \"Frieza Race Revivified\" Basic Reward; also available through the TP Medal Shop",
       "source_quest_or_shop": "Parallel Quest 99 / TP Medal Shop",
       "ultimate_finish_required": false,
       "skill_description": "Emperor's Edge is a Super Strike skill associated with Frieza.",
@@ -4925,7 +4925,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 99,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Evil Flight Strike",
@@ -4947,7 +4947,7 @@
       "ki_cost": 100,
       "stamina_cost": 300,
       "ultimate_finish_required": false,
-      "unlock_method": "Parallel Quest 21 — \"Tri-Race Coop\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 21 — \"Tri-Race Coop\" Basic Reward",
       "source_quest": 21,
       "last_verified": "2026-09-20",
       "research_status": "enriched",
@@ -4955,7 +4955,7 @@
       "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Evil Whirlwind",
@@ -4967,7 +4967,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 36 — \"The Cell Games Begin\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 36 — \"The Cell Games Begin\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 36",
       "ultimate_finish_required": false,
       "skill_description": "Evil Whirlwind is a Super Strike skill associated with Cell.",
@@ -4983,7 +4983,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 36,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 36 as the unlock source."
+      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 36 as the unlock source. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Fierce Fist",
@@ -5306,14 +5306,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style",
+      "unlock_method": "Parallel Quest 9 — \"The Saiyan King is...Who?\" Basic Reward; also available as a starting skill when choosing the close-up fighting style",
       "source_quest_or_shop": "Parallel Quest 09",
       "ultimate_finish_required": false,
       "skill_description": "Meteor Blow is a Super Strike skill associated with Goku / Gohan.",
       "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Blow",
@@ -5322,7 +5322,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 9,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established."
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Meteor Strike",
@@ -5647,7 +5647,7 @@
       "usable_by_cac": true,
       "ki_cost": 100,
       "ultimate_finish_required": false,
-      "unlock_method": "Parallel Quest 38 — \"Power Teams\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 38 — \"Power Teams\" Basic Reward",
       "source_quest": 38,
       "last_verified": "2026-09-20",
       "research_status": "verified",
@@ -5655,7 +5655,7 @@
       "mechanics_notes": "100 Ki Strike Super from PQ38; sword-based strike technique associated with Trunks and restricted to the documented Human/Earthling and Saiyan CaC scope. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current skill page explicitly identifies PQ38 as the acquisition source, Strike classification, and Human/Saiyan CaC restriction.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Shooting Strike",
@@ -6651,7 +6651,7 @@
       "character_source": "Nail",
       "dlc_requirement": "Base Game",
       "ki_cost": 300,
-      "unlock_method": "Parallel Quest 20 — \"Frieza! Show Yourself\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 20 — \"Frieza! Show Yourself\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 20",
       "ultimate_finish_required": false,
       "mechanics_notes": "Dedicated current-version evidence confirms Mystic Flash as a 300-Ki Ki Blast Ultimate from PQ20, used by Nail and customizable Piccolo. The page does not explicitly establish CaC race/gender/form scope. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Mystic Flash in the Basic Reward section of Parallel Quest 20, establishing the acquisition route without an Ultimate Finish requirement.",
@@ -6661,7 +6661,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 20,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred."
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Prominence Flash",
@@ -7295,7 +7295,7 @@
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 112 — \"Advent of the Mighty God Zamasu!\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 112 — \"Advent of the Mighty God Zamasu!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 112",
       "ultimate_finish_required": false,
       "skill_description": "Divine Wrath: Purification is a Ki Blast Ultimate associated with Fused Zamasu and obtainable by the Future Warrior.",
@@ -7312,7 +7312,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 112,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Dragon Fist",
@@ -7348,7 +7348,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 50 — \"Majin Chaos\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 50 — \"Majin Chaos\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 50",
       "ultimate_finish_required": false,
       "skill_description": "Explosive Buu Buu Punch is a Strike Super usable by Majin CaCs.",
@@ -7363,7 +7363,7 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "Majin",
-      "notes": "Current public skill evidence confirms Majin-only CaC access. The current source does not establish a separate gender restriction, so none is inferred.",
+      "notes": "Current public skill evidence confirms Majin-only CaC access. The current source does not establish a separate gender restriction, so none is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "source_quest": 50,
       "acquisition_type": "quest_or_mission"
     },
@@ -7404,7 +7404,7 @@
       "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 130",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Rage is a 200-Ki Strike Super obtainable by the Future Warrior.",
@@ -7421,7 +7421,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 130,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred."
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Godly Display",
@@ -7626,7 +7626,7 @@
       ],
       "ki_cost": 300,
       "research_status": "enriched",
-      "unlock_method": "Parallel Quest 89 — \"Super-Super Ultimate Series of Battles!\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 89 — \"Super-Super Ultimate Series of Battles!\" Basic Reward",
       "last_verified": "2026-09-20",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -7636,7 +7636,7 @@
       "source_quest": 89,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred."
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     }
   ],
   "record_count": 283
