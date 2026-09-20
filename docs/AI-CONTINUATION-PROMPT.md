@@ -3197,3 +3197,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Confirmed the recent Lovely Cyclone correction remains the appropriate handling: PQ135 confirms the skill-reward relationship, but no explicit UF-only condition is exposed by the normalized map.
 - GitHub commit status/workflow queries for the recent canonical/index commits did not expose usable status/run data; this is recorded as unavailable rather than treated as CI success or failure.
 - Exact next task: inspect the repository's explicit PQ drop-condition datasets for the remaining UF-flagged records and reconcile only records where those conditions directly support a gate. Then rerun the 283-record canonical/index census and handoff-integrity checks.
+
+
+### 2026-09-20 cycle update — explicit PQ drop-condition reconciliation
+- Scanned all available `skill_drop_conditions` in the maintained PQ research batches and compared them directly against canonical `ultimate_finish_required` values.
+- Corrected 14 stale non-UF classifications: **Counter Impact (PQ153, 35%)**, **Heroic Counter (PQ155, 40%)**, **Ultrasonic Blitz (PQ151, 50%)**, **Flash Chaser (PQ138, 34%)**, **Gamma Blaster (PQ155, 40%)**, **Photon Swipe (PQ139, 37%)**, **Spirit Pulse (PQ151, 50%)**, **Assault Vanish (PQ131, 25%)**, **Shield Barrier (PQ153, 40%)**, **Formation! (PQ133, 25%)**, **Fierce Fist (PQ159, 40%)**, **Gamma Impact (PQ155, 50%)**, **Justice Blade (PQ152, 40%)**, and **Justice Kick (PQ152, 40%)**. Canonical and index now record the explicit Ultimate Finish conditions.
+- These changes use the repository's explicit maintained `skill_drop_conditions` as the controlling evidence; no additional prerequisites were inferred.
+- `Kaioken` and `Power Rush` remain UF=true with exact percentage unresolved. `Evil Blast` remains UF=true because its acquisition wording explicitly names the Ultimate Finish, while its exact percentage remains unresolved.
+- `Lovely Cyclone` remains UF=false from the preceding cycle's separate evidence reconciliation; do not overwrite it merely because older batch text contains a conflicting UF condition.
+- Commits: `648aebb70d7af88521ef1b8a237a357b56423776` (canonical), `c6637240a11ff0433b26ef656b0e8398b0635c28` (index), `7b3b0d5e8d2e6385bdbffe503168eac76bb55fa0` (audit).
+- Exact next task: rerun the full canonical/index census and identify any remaining `skill_drop_conditions` versus canonical mismatches, then clean stale contradictory provenance notes only where the newer explicit condition already controls the canonical state. Preserve genuine source conflicts.
