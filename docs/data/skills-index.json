@@ -1363,7 +1363,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish Bonus",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races"
     },
@@ -3785,7 +3785,7 @@
         "https://dbxv2.fandom.com/wiki/Blaster_Stream",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": null
@@ -4203,7 +4203,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_Impact"
       ],
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 142 — \"Timespace Tussle\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races"
