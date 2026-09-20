@@ -2584,11 +2584,11 @@
         "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
         "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
       ],
-      "unlock_method": "Parallel Quest 134 reward.",
+      "unlock_method": "Parallel Quest 134 — \"Universe 7's Next God of Destruction\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Burst Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing.",
       "mechanics_notes": "Confirmed as Other Super from PQ134 and usable by all CaC races. It starts charging extremely quickly and slows over time, making short bursts its intended use."
     },
     {
@@ -3023,11 +3023,11 @@
         "https://gamefaqs.gamespot.com/xboxone/212182-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
         "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
       ],
-      "unlock_method": "Parallel Quest 134 reward.",
+      "unlock_method": "Parallel Quest 134 — \"Universe 7's Next God of Destruction\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Ultimate Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing.",
       "mechanics_notes": "Confirmed as the 0-Ki Other Super from PQ134's Ultimate Finish, usable by all CaC races. Its charge rate improves the longer the charge is maintained."
     },
     {
@@ -4032,11 +4032,11 @@
         "https://dbxv2.fandom.com/wiki/Seagull_Combination",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 167 — \"Fighting for Family\" normal-clear reward (40%)",
+      "unlock_method": "Parallel Quest 167 — \"Fighting for Family\" reward; current maintained datamined record reports a 40% normal-clear slot",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated.",
+      "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: PQ167 is explicitly listed as the acquisition source; the maintained PQ guide lists Seagull Combination in PQ167 Basic Reward and independent documentation notes its random drop from that PQ. 2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated."
     },
     {
@@ -4769,11 +4769,11 @@
         "https://dbxv2.fandom.com/wiki/Prominence_Flash",
         "https://dragonball.fandom.com/wiki/Prominence_Flash"
       ],
-      "unlock_method": "Parallel Quest 137 - \"Tournament of Power Round 2\"",
+      "unlock_method": "Parallel Quest 137 — \"Tournament of Power Round 2\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted. 2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
+      "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted. 2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Prominence Flash in PQ137's Basic Reward section. A maintained datamined record separately reports a 20% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing.",
       "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum. UF audit 2026-09-19: maintained PQ guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Prominence Flash in the Basic Reward section of Parallel Quest 137, establishing the acquisition route without an Ultimate Finish requirement."
     },
     {
