@@ -4720,7 +4720,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Death Slash is a Super Strike skill associated with Frieza.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4731,7 +4731,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 23,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence."
     },
     {
       "name": "Demon Flurry",
@@ -4748,7 +4748,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Demon Flurry is a Super Strike skill used by Gohan (Beast).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4759,7 +4759,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 160,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence."
     },
     {
       "name": "Demonic Destruction",
@@ -4776,7 +4776,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Demonic Destruction is a Super Strike skill used by Orange Piccolo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4787,7 +4787,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence."
     },
     {
       "name": "Destruction's Conductor",
@@ -5055,7 +5055,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Freedom Kick is a Super Strike skill associated with Android 17.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -5066,7 +5066,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence."
     },
     {
       "name": "Gamma Impact",
