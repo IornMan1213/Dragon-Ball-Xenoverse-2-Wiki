@@ -1320,13 +1320,16 @@
       "name": "Galick Gun",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Galick_Gun",
         "https://dragonball.fandom.com/wiki/Galick_Gun"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Vegeta mentor training",
+      "ultimate_finish_required": false
     },
     {
       "name": "Gamma Blaster",
@@ -1880,14 +1883,17 @@
       "name": "Dancing Parapara",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dragonball.fandom.com/wiki/Para_Para_Boogie",
         "https://dbxv2.fandom.com/wiki/Pan",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Pan initiation/mentor",
+      "ultimate_finish_required": false
     },
     {
       "name": "Energy Charge",
@@ -2005,13 +2011,16 @@
       "name": "Petrifying Spit",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 114",
+      "ultimate_finish_required": false
     },
     {
       "name": "Phantom Fist",
@@ -2024,7 +2033,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Phantom_Fist"
       ],
-      "unlock_method": "Parallel Quest 97 reward.",
+      "unlock_method": "Parallel Quest 97",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19"
     },
@@ -2048,13 +2057,16 @@
       "name": "Rise to Action",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dragonball.fandom.com/wiki/Rise_to_Action",
         "https://dbxv2.fandom.com/wiki/Rise_to_Action"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Krillin initiation/mentor",
+      "ultimate_finish_required": false
     },
     {
       "name": "Rising Rage",
