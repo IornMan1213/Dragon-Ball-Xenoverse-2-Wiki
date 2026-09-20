@@ -3773,3 +3773,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: canonical/index **283 records**, exact name/order parity, UF count **60**.
 - Commits: `491fa4f268ad7b4b00ffc0ed26e64317b5befaa1` (canonical), `716009bc1c79e1e6ae207cfe99e86644d15870c2` (index).
 - Exact next task: **continue the remaining vague PQ acquisition census, prioritizing records with a concrete maintained Basic Reward relationship still not reflected in `unlock_method`, while preserving all documented source conflicts.**
+
+
+## 2026-09-20 — remaining generic PQ reward-tier refinement
+- Refined 21 remaining vague quest acquisition records where maintained PQ research explicitly lists the skill in basic/skill reward data: Emperor's Blast (PQ70), Vanishing Ball (PQ58), Afterimage Strike (PQ81), Kai Kai (PQ63), Wall of Defense (PQ10), Charge (PQ83), Do or Die (PQ49), Fighting Pose E (PQ19), Fighting Pose H (PQ61), Justice Pose (PQ53), Burning Slash (PQ44), Emperor's Edge (PQ99), Evil Flight Strike (PQ21), Evil Whirlwind (PQ36), Meteor Blow (PQ9), Shining Slash (PQ38), Mystic Flash (PQ20), Divine Wrath: Purification (PQ112), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), and Victory Rush (PQ89).
+- Acquisition text now identifies these as Basic Reward routes. Alternate acquisition routes already documented for Emperor's Blast, Emperor's Edge, and Meteor Blow were preserved.
+- Emperor's Cannon remains deliberately unchanged because PQ183 maintained reward data conflicts with dedicated PQ184 evidence.
+- Validation: canonical/index 283 records, exact name/order parity, UF count 60.
+- Commits: 2c47b6dbba28cc00e1ec4565c91def9ac28be09b; c39b2fc99b137c751079706f1b651fa5ef89723e.
