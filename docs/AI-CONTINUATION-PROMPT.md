@@ -2904,3 +2904,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Current null composition: 13 character-only/non-CaC, 18 shop-only, 1 starting-choice, 15 unresolved PQ reward/drop records.
 - Coverage audit commit: `540565d61fb833a1632aa4c42aadedf640cbb845`.
 - The current 47-null set is a provisional evidence floor. Future reduction requires new concrete quest/test/lesson evidence, especially for unresolved PQ records.
+
+
+### 2026-09-19 continuation — late PQ provenance batch 20
+- Resolved 10 late-DLC PQ records from explicit quest reward listings: God of Destruction's Plaything (175), God of Destruction's Poise (175), Dragon Spark (177), Soaring Rush (177), Indomitable (185), Dragon Spiral (185), Venus Fist (186), Heat Wave (179), Supreme Fury (179), Burning Blast (180).
+- Skills commit: `d7cbb897e0ef2c4f364ec74935ea6d18731befd3`; coverage audit commit: `908230ae336312a221a32eaa55f6c7a80890a8ee`.
+- Live census: 283 records; `source_quest` null on 37 records.
+- Next task: review the remaining null PQ records for similarly explicit reward evidence. Do not retain a null solely because earlier metadata called it “unresolved” if current evidence directly lists the skill in that PQ's rewards; continue excluding genuine multi-source and character-only cases.
