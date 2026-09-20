@@ -3174,3 +3174,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Dedicated skill documentation describes PQ155 acquisition but does not establish an Ultimate Finish-only gate. Exact individual reward probability remains unresolved, so no numerical rate or stronger gate was inferred.
 - Commits: `c1460c802e9f788ba3b5f0997275873e11644e74` (canonical), `2fab1c200e8ef2591c3492a725c454a26ba3ab22` (index), `7e79d9f46975e40a51b0c871bd9404fd9fb1bedf` (audit).
 - Exact next task: inspect the live repository's remaining acquisition/provenance anomalies after this cleanup, then check current GitHub Actions/status exposure and re-run the canonical/index census. Do not manufacture missing PQ141–PQ150 records.
+
+
+### 2026-09-20 cycle update — remaining generic PQ provenance census
+- Cross-checked remaining generic PQ acquisition records against the repository's normalized PQ reward maps.
+- Maintained reward normalization confirms the PQ-to-skill relationships for **Kamehameha (PQ5)**, **Mystic Flash (PQ20)**, **Charged Ki Wave (PQ97)**, **Emperor's Edge (PQ99)**, **Victory Rush (PQ89)**, **Prominence Flash (PQ137)**, **Gigantic Rage (PQ130)**, **Gamma Impact (PQ155)**, and **Final Rampage (PQ174)**.
+- The normalized maps identify these as skill rewards but do not expose an explicit Basic/Ultimate-Finish tier for these individual entries. Existing acquisition wording and UF flags were therefore preserved rather than inferred or upgraded.
+- Commits: `d0c32432e15dbba16b09c2add007e2e67e1d9b4f` (canonical), `aa87195377cd757e0387beb8f3835a6f7b22c854` (index), `b7677898062a41940be53da2e53102dcb36dea7f` (audit).
+- Exact next task: inspect the remaining generic acquisition records and any explicit drop-condition datasets for discrepancies, then inspect exposed GitHub Actions/status data and rerun the canonical census. Preserve unresolved reward-tier uncertainty.
