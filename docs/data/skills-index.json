@@ -455,7 +455,7 @@
       "name": "Rough Ranger",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -465,7 +465,10 @@
         "https://dragonball.fandom.com/wiki/Rough_Ranger",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437?page=2"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 119 — \"A Ranger's Duty\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 119"
     },
     {
       "name": "Shadow Crusher",
@@ -1208,7 +1211,10 @@
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 11 — \"Burst Open and Mix!\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 11"
     },
     {
       "name": "Emperor's Blast",
@@ -1606,7 +1612,10 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Niagara_Pummel"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 136 — \"Breaking Down The Barrier\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 136"
     },
     {
       "name": "Ray Blast",
