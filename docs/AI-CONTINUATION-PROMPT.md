@@ -2831,3 +2831,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/COVERAGE-AUDIT.md` with the validation and the next research frontier: generic `quest_or_mission` unlock wording among current-scope PQ skills.
 - Coverage audit commit: `0139b924a4128189212412b30bdab036232efd44`.
 - Exact next task: start reconciling generic PQ unlock wording for current-scope records, prioritizing **Mighty Explosive Wave, Side Bridge, Steel Mirage, and Demon Ray**. Do not invent reward tiers when sources do not establish them.
+
+
+### 2026-09-20 cycle update — generic PQ acquisition wording pass
+- Refined four generic unlock records: **Mighty Explosive Wave** → PQ79 Basic Reward; **Side Bridge** → PQ39 Random Reward; **Steel Mirage** → PQ165 Random Reward; **Demon Ray** → PQ160 Ultimate Finish Bonus. Current PQ160 data explicitly puts Demon Ray in the UF bonus pool. citeturn0search5turn0search10turn0search6turn0search7
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `4eaa298f9b3f700e19474bd`, `3fc1aaebcb265bd42fba833de5442a9765a08766`, `ec67f853ddcc7efbc413360b4d0166d6ba513829`.
+- Exact next task: continue the generic `quest_or_mission` pass, prioritizing other records with `Random Parallel Quest reward` or `Parallel Quest reward`, and preserve uncertainty when a reward tier is not directly established.
