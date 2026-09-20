@@ -2713,3 +2713,10 @@ Skills commit: `8d9342ddc48c74f75d5c2b36d309998e611f3af7`.
 Promoted 10 previously-null records whose existing acquisition metadata identifies a canonical quest/training/wish route rather than an ambiguous PQ reward pool: **Become Giant (Guru's House Namekian Awakening quest), Future Super Saiyan (Vegeta/Capsule Corporation Time Rift), Power Pole Pro (Great Saiyaman/Hercule's House Time Rift), Purification (Majin Buu's House Time Rift), Super Saiyan (Vegeta/Capsule Corporation Saiyan Awakening progression), Super Saiyan God (Shenron wish/Beerus award), Super Saiyan God Super Saiyan (Whis training), Super Saiyan God Super Saiyan (Evolved) (Whis/Vegeta training requirements), Super Vegeta (Vegeta/Capsule Corporation Time Rift), The Power to Overcome (Future Saga Chapter 4 Quest 31)**. These values preserve the existing metadata wording rather than inventing PQ numbers.
 
 Skills commit: `2f70435b4f186dda23eae12d3a4c9149ea18dc07`.
+
+
+## 2026-09-19 — canonical quest provenance batch 15
+
+Promoted 10 clearly documented non-PQ acquisition routes into `source_quest`: **Turn Golden, Beast, Potential Unleashed, Super Saiyan 2, Ultra Instinct, Burst Reflection, Flash Fist Crush, Shadow Crusher, Destructo-Disc, Galick Gun**. Existing route text was preserved verbatim where possible; generic shops and character-only skills remain excluded.
+
+Skills commit: `cb87d6ef475dd615fd8fecfc8ad4cff78196f64d`.
