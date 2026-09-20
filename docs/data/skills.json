@@ -48,7 +48,8 @@
       "unlock_method": "Complete the Namekian Awakening quest at Guru's House as a Namekian CaC.",
       "research_status": "enriched",
       "source_quest_or_shop": "Namekian Awakening quest — Guru's House",
-      "source_quest": "Namekian Awakening quest — Guru's House"
+      "source_quest": "Namekian Awakening quest — Guru's House",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Future Super Saiyan",
@@ -73,7 +74,8 @@
       "research_status": "enriched",
       "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift",
       "ki_cost": 300,
-      "source_quest": "Vegeta training — Capsule Corporation Time Rift"
+      "source_quest": "Vegeta training — Capsule Corporation Time Rift",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Power Pole Pro",
@@ -96,7 +98,8 @@
       "unlock_method": "At level 35 or higher, complete the Great Saiyaman questline at Hercule's House Time Rift and clear the final unlock mission.",
       "research_status": "enriched",
       "source_quest_or_shop": "Great Saiyaman questline — Hercule's House Time Rift",
-      "source_quest": "Great Saiyaman questline — Hercule's House Time Rift"
+      "source_quest": "Great Saiyaman questline — Hercule's House Time Rift",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Purification",
@@ -119,7 +122,8 @@
       "unlock_method": "Progress the Majin Buu's House Time Rift until Buu has the required family members, then complete the associated Purification unlock fight as a Majin CaC.",
       "research_status": "enriched",
       "source_quest_or_shop": "Majin Buu's House Time Rift — Purification unlock fight",
-      "source_quest": "Majin Buu's House Time Rift — Purification unlock fight"
+      "source_quest": "Majin Buu's House Time Rift — Purification unlock fight",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Super Saiyan",
@@ -142,7 +146,8 @@
       "unlock_method": "Complete the Saiyan Awakening progression at Capsule Corporation and train with Vegeta; the resulting Awoken Skill provides Super Saiyan stages 1–3.",
       "research_status": "enriched",
       "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression",
-      "source_quest": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression"
+      "source_quest": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Super Saiyan God",
@@ -155,7 +160,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God"
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God",
+        "https://dbxv2.fandom.com/wiki/Free_Update"
       ],
       "ultimate_finish_required": false,
       "ki_cost": 300,
@@ -165,7 +171,8 @@
       "unlock_method": "Use the Shenron wish for Super Saiyan God after maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan; Beerus then provides the skill.",
       "research_status": "enriched",
       "source_quest_or_shop": "Shenron wish for Super Saiyan God; Beerus awards the skill",
-      "source_quest": "Shenron wish for Super Saiyan God; Beerus awards the skill"
+      "source_quest": "Shenron wish for Super Saiyan God; Beerus awards the skill",
+      "dlc_requirement": "Free Update 13"
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -238,7 +245,8 @@
       "unlock_method": "Complete the Vegeta training progression at the Capsule Corporation Time Rift as a Saiyan CaC.",
       "research_status": "enriched",
       "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift",
-      "source_quest": "Vegeta training — Capsule Corporation Time Rift"
+      "source_quest": "Vegeta training — Capsule Corporation Time Rift",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "The Power to Overcome",
@@ -290,7 +298,8 @@
       "unlock_method": "Complete the Frieza's Spaceship Time Rift progression and its Frieza/Meta-Cooler recruitment battles as a Frieza Race CaC.",
       "research_status": "enriched",
       "source_quest_or_shop": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression",
-      "source_quest": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression"
+      "source_quest": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Beast",
@@ -326,7 +335,7 @@
       "race_restriction": "All CaC races",
       "usable_by_cac": true,
       "character_source": "CaC / Universal",
-      "dlc_requirement": null,
+      "dlc_requirement": "Base Game",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Awoken",
@@ -354,7 +363,7 @@
       "race_restriction": "All CaC races",
       "usable_by_cac": true,
       "character_source": "CaC / Universal",
-      "dlc_requirement": null,
+      "dlc_requirement": "Base Game",
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Awoken",
@@ -415,7 +424,8 @@
       "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "research_status": "enriched",
       "source_quest_or_shop": "Super Saiyan Awoken Skill — second transformation stage",
-      "source_quest": "Super Saiyan Awoken Skill — second transformation stage"
+      "source_quest": "Super Saiyan Awoken Skill — second transformation stage",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Super Saiyan Blue Kaioken",
