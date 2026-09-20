@@ -943,7 +943,7 @@
       "name": "Burst Stinger",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1152,7 +1152,7 @@
       "name": "Earth Splitting Galick Gun",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1526,7 +1526,7 @@
       "name": "Raid Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
