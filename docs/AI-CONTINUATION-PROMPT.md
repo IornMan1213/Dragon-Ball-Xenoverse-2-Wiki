@@ -3604,3 +3604,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ evidence also confirms PQ59 Force Shield, PQ77 Ki Explosion, PQ78 Dust Attack, and PQ165 Steel Mirage as recorded acquisition points. cite marker omitted from repository data.
 - No skill-data commit was necessary this cycle; the audit result itself is recorded here.
 - Next task: move from explicit damage conflicts to remaining stale descriptions, acquisition metadata, and null/unsupported-field consistency in the current-scope records.
+
+
+### 2026-09-20 cycle update — remaining Evasive description cleanup
+- Rechecked the live Evasive reference: Ki Explosion and Maiden Burst are both listed under the Other Evasives category, while Energy Field, Force Shield, Rolling Bullet and related entries remain in their respective categories. cite marker omitted from repository data.
+- Simplified the stale descriptions for **Ki Explosion** and **Maiden Burst** from the redundant “Evasive Other” phrasing to the normalized “Other Evasive” wording, keeping their verified metadata unchanged.
+- Commit: `64bf2e68a36a12d139615726350acfe0478cc440`.
+- Next task: continue the remaining current-scope audit beyond already-cleared description/category conflicts, focusing on acquisition fields and unsupported restrictions.
