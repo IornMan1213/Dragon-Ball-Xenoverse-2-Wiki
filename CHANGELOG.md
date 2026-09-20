@@ -279,3 +279,7 @@
 ## September 2026 — Super Pack 2 provenance refinement
 - Refined four DLC 2 skill records from broad `Super Pass` provenance to exact **Super Pack 2** provenance.
 - No gameplay, acquisition, or Ultimate Finish fields were changed.
+
+### Data accuracy
+
+- 2026-09-20: Corrected **Super Saiyan Blue Kaioken** provenance from `Base Game` to `Free Update 1`. Bandai Namco's official Free Update #1 material states that SSGSS Goku's Kaioken x10 was made available as free content ahead of DLC Pack 1; this resolves the previously retained historical ambiguity. No acquisition or character-only fields were otherwise changed.
