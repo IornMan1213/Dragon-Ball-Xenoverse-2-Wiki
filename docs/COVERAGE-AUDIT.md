@@ -3053,3 +3053,10 @@ The workflow was created successfully at commit `aad4828815d41cae2314aac293ed9cb
 Reviewed the new skills-validation workflow against the existing `skills-sync.yml` and `data-audit.yml` conventions. The workflow has appropriate push/pull-request path filters for the canonical skills data, schema, validator, and itself, uses read-only repository permissions, and installs a pinned jsonschema release before validation. The pinned 4.25.1 release is a real PyPI release and supports Draft 2020-12 validation. 
 
 No workflow run is currently exposed for commit `aad4828815d41cae2314aac293ed9cb52ae82b96`; runtime CI success therefore remains unverified.
+
+
+## 2026-09-19 — internal-artifact scan and workflow trigger probe
+
+Inspected `scripts/check_repo_artifacts.py`, `scripts/strip_internal_artifacts.py`, and the repository-quality/cleanup workflows. The new skills-validation workflow does not introduce the forbidden internal citation markers targeted by the repository scanner. Repository search returned no `filecite`, `memcite`, or `turn*search/file` artifacts.
+
+Made a no-op functional comment change to `.github/workflows/skills-validation.yml` to force a workflow-triggering commit: `c21a1b4716384a01332e06a95c81d4e41afd11dc`. GitHub's workflow-run endpoint still reports no run for that commit, so trigger execution remains unverified through the available connector.
