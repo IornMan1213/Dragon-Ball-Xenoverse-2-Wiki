@@ -3101,3 +3101,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validator commit: `4195b2585583bd7cd1b01c6b67cd1219515884c1`.
 - Audit commit: `a75d80df9f563b6433a2ffc7fdfa6d084599c071`.
 - Next exact task: validate the modified dataset with the repository validator and inspect generated/index consistency before making further data changes.
+
+
+### 2026-09-19 continuation — validator/index integrity pass
+- Verified live `skills.json`: **283 records**, all with recognized `acquisition_type`.
+- Confirmed no `source_quest: null` record is incorrectly classified as `quest_or_mission`; the 28 remaining nulls are classified as non-quest routes.
+- No further data corrections were needed.
+- GitHub reports no combined status checks and no workflow runs for validator commit `4195b2585583bd7cd1b01c6b67cd1219515884c1`; do not claim CI passed.
+- Audit commit: `9f605aa16ce5409ae6b51ed05670637e0bc02a92`.
+- Next exact task: inspect `skills-index.json` against the newly added schema field and update the index/build pipeline if necessary so the normalized acquisition classification is consistently available to downstream consumers.
