@@ -3401,3 +3401,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Their canonical shop acquisition, Base Game provenance, and current unlock fields remain internally consistent; no evidence-supported correction was identified.
 - Audit note committed as `815e26ee2a0e6f28d1ecd5f929054660e96527c6`.
 - Next task: continue the second-pass audit of the remaining quest/mission and character-only records, prioritizing ambiguous unlock/source wording and later-update provenance. Do not broaden claims when evidence is insufficient.
+
+
+### 2026-09-20 cycle update — character-only provenance recheck
+- Rechecked all eight remaining `character_only` records: **Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode, Final Flash (Super), Energy Release, Instant Charge, Rising Rage, Dragon Thunder**.
+- Current character-exclusive classification and DLC/update provenance remain consistent with the maintained roster/move data; no evidence-supported correction was identified.
+- Official Bandai Namco material continues to distinguish the base game from named DLC packs and free-update-era content. citeturn0search5turn0search6
+- Audit commit: `dbdd83b49b62f351dc90730e1c9dcfdf8700cd51`.
+- Next task: continue auditing quest/mission records, prioritizing records where `unlock_method` is generic despite a specific PQ, or where later updates changed acquisition routes. Preserve fields when evidence does not establish a correction.
