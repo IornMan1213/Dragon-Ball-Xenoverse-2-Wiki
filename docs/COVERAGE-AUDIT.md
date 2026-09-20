@@ -2958,3 +2958,28 @@ No data values were changed in this pass. This is intentional: assigning a quest
 
 **Current target: 283 skills; 0 null dlc_requirement; 28 null source_quest.**
 Next priority: review whether the schema should gain a separate normalized acquisition-type field (for example acquisition_type) rather than overloading source_quest for shop/character-only records. Any schema change must first be checked against validators and documentation.
+
+
+## 2026-09-19 — normalized acquisition-type schema
+
+Inspected the canonical skill schema, builder, and validator. The schema previously omitted the existing canonical `source_quest` property despite `skills.json` using it, and there was no normalized field for the legitimate non-quest acquisition routes.
+
+Implemented a conservative `acquisition_type` enum and populated all 283 records:
+
+- `quest_or_mission`: 255
+- `character_only`: 8
+- `skill_shop`: 8
+- `tp_medal_shop`: 9
+- `starting_move`: 1
+- `other_nonquest`: 2
+
+Also added `source_quest` to the JSON Schema and made the validator require a recognized `acquisition_type` on every record.
+
+No quest provenance was invented: the 28 records that remain null in `source_quest` now have an explicit non-quest acquisition classification.
+
+Commits:
+- Data: `7446c748d125f9a9d92bf70813cbf2cb34796488`
+- Schema: `75a61208194875feb6e4a742f7b314a06b2a3d49`
+- Validator: `4195b2585583bd7cd1b01c6b67cd1219515884c1`
+
+JSON Schema supports additional application-defined structure through declared schema properties; the repository now declares this field explicitly rather than relying on undeclared properties. citeturn0search1turn0search2
