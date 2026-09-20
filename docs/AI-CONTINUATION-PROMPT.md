@@ -3187,3 +3187,15 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validator commit: `7e35b13efb5dc3f747d5ba66c18239c760540a7f`.
 - Audit commit: `0bc624e7343bc3de6a0112b3ab719da11841a324`.
 - Next exact task: continue auditing deterministic semantic invariants, focusing on category/subcategory coherence and CaC eligibility consistency before any further factual enrichment.
+
+
+### 2026-09-19 cycle update — PQ unlock census reconciliation and return to skills
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup, following the completed PQ unlock-field pass.
+- Recomputed all 18 canonical PQ research batches directly from the live repository: **176 records, 0 missing `unlock_condition` fields, 0 duplicate PQ numbers**.
+- The final special cases are already represented in the live batch data: PQ36 has an explicit PQ35 prerequisite with its numbering/existence conflict preserved; PQ53 has its Great Saiyaman NPC-board trigger; PQ54 records the PQ52 route while preserving conflicting community evidence; PQ55 records PQ54 as its prerequisite.
+- Cross-checked the special-case evidence against independent public references; no new unlock values were invented because all four records already contain explicit metadata.
+- Validation: all 18 batch JSON files fetched and parsed successfully; 176 records, no duplicate numbers, no missing unlock fields. No repository validator was weakened.
+- CI: the latest handoff commit `f3d3e8052c0afaa53b7bd90785da46987cf7b5d2` has no workflow runs exposed by the connector and no combined status checks. This remains an execution/connector visibility issue, not evidence of validator success or failure.
+- Artifact scan: no internal AI/tool citation markers were added to repository files.
+- Current unresolved PQ unlock count: **0**. PQ36 remains the documented numbering/existence anomaly; PQ54 retains its route conflict as uncertainty.
+- Exact next task: **continue the P1 skill acquisition/DLC-version provenance cleanup**. Recompute the live 283-skill census first, then take the next bounded evidence-backed cohort; preserve nulls for genuinely non-quest or unresolved acquisition routes and inspect CI after the resulting commit.
