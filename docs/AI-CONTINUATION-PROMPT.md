@@ -3293,3 +3293,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: 283/283, exact parity, UF 60.
 - Commits: `b00b0f51d81b2d1c0855a2fa651695345c68e9e8`, `5e83374750e5823de7bb963ef063e4610ca43144`.
 - Exact next task: **audit the 38 non-PQ quest/mission acquisition records for provenance quality and specificity, prioritizing records whose source_quest is null or whose unlock_method is merely a mentor/test/mission label without a lesson, test tier, or explicit completion condition.**
+
+
+### 2026-09-20 cycle update — non-PQ provenance normalization
+- Normalized 18 deterministic mentor/test/Expert Mission acquisition records to more specific route wording without inventing unresolved conditions.
+- Canonical/index remain 283/283 with exact parity and UF count 60.
+- Commits: `7ebfb7ac500d8646abc63ceab8ab494863827c8b`, `82f2ca25bd81a9694999c8bce27be53f1f3d3795`.
+- Exact next task: **continue the non-PQ provenance audit, focusing on Awoken/Time Rift records and unresolved source_quest nulls; reconcile any conflicts between `skills.json` and the dedicated awoken research without silently choosing one source.**
