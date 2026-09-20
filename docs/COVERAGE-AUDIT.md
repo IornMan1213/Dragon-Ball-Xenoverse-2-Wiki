@@ -3253,3 +3253,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - `Burst Rush` is explicitly listed as a PQ51 Basic Reward; its verification status was upgraded to `verified_current_scope`.
 - `Energy Barrier` is explicitly listed as a PQ32 Basic Reward; `ultimate_finish_required` was corrected from `true` to `false`, and the unlock text was corrected accordingly.
 - The index was synchronized with the canonical verification metadata.
+
+
+## 2026-09-19 — PQ Ultimate Finish verification cohort
+
+- Verified three previously partial records from explicit PQ reward evidence: `Earth Splitting Galick Gun` (PQ11), `Burst Stinger` (PQ136), and `Raid Blast` (PQ136).
+- All three are documented as Ultimate Finish-dependent rewards; `ultimate_finish_required` remains `true`.
+- Synchronized their verification metadata into `skills-index.json`.
+- Evidence: maintained PQ data and community reward documentation. 
