@@ -2469,14 +2469,18 @@
       "name": "Burst Blitz",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 178 — The Tireless Pursuit of Strength",
+      "ultimate_finish_required": false,
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 178 — The Tireless Pursuit of Strength. No Ultimate Finish-only requirement is established."
     },
     {
       "name": "Crimson Edge",
@@ -2708,14 +2712,18 @@
       "name": "Gamma Impact",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 155 — I Need a Hero... Pose!",
+      "ultimate_finish_required": false,
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 155 — I Need a Hero... Pose!. No Ultimate Finish-only requirement is established."
     },
     {
       "name": "God of Destruction's Poise",
@@ -2830,14 +2838,18 @@
       "name": "Meteor Blow",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Blow",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style",
+      "ultimate_finish_required": false,
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established."
     },
     {
       "name": "Meteor Strike",
