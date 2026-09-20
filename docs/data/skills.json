@@ -1119,8 +1119,8 @@
         "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 300,
-      "unlock_method": "Skill Shop for 15,000 Zeni after completing the main story (normal ending)",
-      "last_verified": "2026-09-19",
+      "unlock_method": "Skill Shop — 15,000 Zeni after completing the main story (normal ending)",
+      "last_verified": "2026-09-20",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -1133,7 +1133,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": null,
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Explosive Wave in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Force Shield",
@@ -1286,14 +1286,14 @@
       "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 73 - \"Frieza’s Siege Against Earth!\" reward",
-      "source_quest_or_shop": "Parallel Quest 73",
+      "unlock_method": "Parallel Quest 73 — \"Frieza’s Siege Against Earth!\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 73 — \"Frieza’s Siege Against Earth!\"",
       "ultimate_finish_required": false,
       "skill_description": "Psychic Move is a Strike Evasive skill associated with Guldo.",
       "mechanics_notes": "Dedicated current-version evidence identifies Psychic Move as a 300-Stamina Strike Evasive from PQ73. It teleports behind the opponent and creates a short-range shockwave. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Psychic_Move",
@@ -1303,7 +1303,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Psychic Move in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Punisher Guard",
@@ -1369,14 +1369,14 @@
       "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 28",
+      "unlock_method": "Parallel Quest 28 — \"Legendary Super Saiyan\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 28 — \"Legendary Super Saiyan\"",
       "ultimate_finish_required": false,
       "skill_description": "Spread Shot Retreat is a Ki Blast Evasive skill associated with Frieza.",
       "mechanics_notes": "Dedicated current-version evidence confirms Spread Shot Retreat as a 300-Stamina Ki Blast Evasive from PQ28. It retreats while firing a tracking barrage that can stun. The current Evasive classification places it with Ki Blast/Energy Barrage-type Evasives. No unsupported CaC race/gender/form restriction was inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat",
@@ -1386,7 +1386,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Parallel Quest 28",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Spread Shot Retreat in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Steel Mirage",
@@ -1457,11 +1457,11 @@
         "https://dragonball.fandom.com/wiki/Mach_Dash"
       ],
       "stamina_cost": 200,
-      "unlock_method": "Parallel Quest 18 - \"Force Entrance Exam\" (first-clear/random reward)",
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 18 — \"Force Entrance Exam\" Basic Reward",
+      "last_verified": "2026-09-20",
       "research_status": "enriched",
       "source_quest": 18,
-      "source_quest_or_shop": "Parallel Quest 18",
+      "source_quest_or_shop": "Parallel Quest 18 — \"Force Entrance Exam\"",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "mechanics_notes": "Dedicated current-version evidence confirms Mach Dash as a 200-Stamina Power Up Evasive from PQ18. It creates distance and temporarily increases movement speed. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
@@ -1471,7 +1471,7 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Mach Dash in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
       "skill_description": "Mach Dash is a Power Up Evasive skill."
     },
     {
@@ -1485,11 +1485,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "stamina_cost": 300,
-      "unlock_method": "Parallel Quest 68 - \"Old Rivals and Dragon Balls\" (random reward)",
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 68 — \"Old Rivals and Dragon Balls\" Basic Reward",
+      "last_verified": "2026-09-20",
       "research_status": "enriched",
       "source_quest": 68,
-      "source_quest_or_shop": "Parallel Quest 68",
+      "source_quest_or_shop": "Parallel Quest 68 — \"Old Rivals and Dragon Balls\"",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "mechanics_notes": "Dedicated current-version evidence confirms Angry Shout as a 300-Stamina Strike Evasive from PQ68 that pushes opponents back and restores Ki. The existing explicit Pure Majin-form restriction is retained. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
@@ -1499,7 +1499,7 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Angry Shout in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Energy Barrier",
@@ -1539,14 +1539,14 @@
       "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 25 - reward",
-      "source_quest_or_shop": "Parallel Quest 25",
+      "unlock_method": "Parallel Quest 25 — \"The Emperor’s Brother\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 25 — \"The Emperor’s Brother\"",
       "ultimate_finish_required": false,
       "skill_description": "Spirit Explosion is a Strike Evasive skill.",
       "mechanics_notes": "Dedicated current-version evidence confirms Spirit Explosion as a 200-Stamina Strike Evasive from PQ25 and explicitly states it is obtainable for CaCs. It creates a close-range blue explosion that knocks opponents away. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Explosion",
@@ -1556,7 +1556,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Spirit Explosion in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Spirit Slash",
