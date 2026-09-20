@@ -3245,3 +3245,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Corrected `Flash Fist Crush` and `Burst Reflection`: both are Shenron-wish acquisitions, not quest/mission acquisitions.
 - Set both to `other_nonquest` with null `source_quest` and preserved the Shenron wish route.
 - `Flash Fist Crush` is obtained from the first use of the "I want a new Super Attack!" wish; `Burst Reflection` is part of the subsequent Super Attack wish reward set. 
+
+
+## 2026-09-19 — PQ Basic Reward finish audit
+
+- Evidence review of PQ51 and PQ32 found two stale Ultimate Finish assertions.
+- `Burst Rush` is explicitly listed as a PQ51 Basic Reward; its verification status was upgraded to `verified_current_scope`.
+- `Energy Barrier` is explicitly listed as a PQ32 Basic Reward; `ultimate_finish_required` was corrected from `true` to `false`, and the unlock text was corrected accordingly.
+- The index was synchronized with the canonical verification metadata.
