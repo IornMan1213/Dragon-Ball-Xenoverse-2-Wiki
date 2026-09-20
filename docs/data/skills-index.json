@@ -3565,46 +3565,49 @@
       "name": "Revenge Death Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Revenge_Death_Ball"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Revenge Final Flash",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Revenge_Final_Flash"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Ribrianne's Eternal Love",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "S.S. Deadly Bomber",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -3612,39 +3615,42 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dbxv2.fandom.com/wiki/S.S._Deadly_Bomber",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Sign of Awakening",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/Sign_of_Awakening"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Special Beam Cannon (Beast)",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)",
         "https://dragonball.fandom.com/wiki/Special_Beam_Cannon_%28Beast%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Super Black Kamehameha Rosé",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -3652,20 +3658,22 @@
         "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
         "https://dragonball.fandom.com/wiki/Super_Black_Kamehameha",
         "https://dbxenoverse.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Super Gamma Blast",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/Super_Gamma_Blast"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
@@ -3722,45 +3730,48 @@
       "name": "Thunder Flash",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Thunder_Flash",
         "https://dragonball.fandom.com/wiki/Thunder_Flash"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Total Detonation Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Total_Detonation_Ball"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Warp Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
         "https://dragonball.fandom.com/wiki/Instant_Kamehameha"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "X 100 Big Bang Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -3768,7 +3779,8 @@
         "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=432754991",
         "https://dragonball.fandom.com/wiki/Big_Bang_Kamehameha"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Blades of Judgment",
