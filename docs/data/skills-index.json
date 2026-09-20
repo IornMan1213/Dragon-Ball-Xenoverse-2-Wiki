@@ -3383,13 +3383,14 @@
       "name": "Gigantic Explosion",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Gigantic Roar",
