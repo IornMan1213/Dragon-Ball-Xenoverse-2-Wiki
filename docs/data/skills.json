@@ -7506,11 +7506,11 @@
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 31 — \"Let's Train!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 31",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Super Dragon Flight is an Ultimate Strike skill associated with Gohan (Adult); it is a 35% Ultimate Finish reward from Parallel Quest 31.",
-      "mechanics_notes": "300 Ki Strike Ultimate. PQ31 is the documented Ultimate Finish reward; the current repository records the quest's transformation/kill-order Ultimate Finish requirement. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Super Dragon Flight.",
+      "mechanics_notes": "300 Ki Strike Ultimate. PQ31 is the documented Ultimate Finish reward; the current repository records the quest's transformation/kill-order Ultimate Finish requirement. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Super Dragon Flight. Current Xenoverse 2 PQ31 evidence lists Super Dragon Flight as a Basic Reward; the third win condition is defeating revived Gohan, not a separate Ultimate Finish-only acquisition gate.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -7522,7 +7522,7 @@
       "source_quest": 31,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: Xenoverse 2 PQ31 lists Super Dragon Flight in the Basic Reward pool; the Ultimate Finish flag was stale."
     },
     {
       "name": "Supreme Fury",
