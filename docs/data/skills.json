@@ -2246,12 +2246,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 24 reward.",
       "source_quest_or_shop": "Parallel Quest 24",
       "ultimate_finish_required": false,
       "skill_description": "Double Death Slicer is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -2262,7 +2262,7 @@
       "source_quest": 24,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
     },
     {
       "name": "Dust Attack",
@@ -2631,12 +2631,12 @@
       "ki_cost": 200,
       "stamina_cost": 300,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 128 reward.",
       "source_quest_or_shop": "Parallel Quest 128",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Charge is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
       "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -2646,7 +2646,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
       "source_quest": 128,
       "acquisition_type": "quest_or_mission"
     },
@@ -2964,12 +2964,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 166 reward.",
       "source_quest_or_shop": "PQ166",
       "ultimate_finish_required": false,
       "skill_description": "Pendulum Bullet is a Super Ki Blast skill associated with Android 17.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -2980,7 +2980,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 166,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 166 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
     },
     {
       "name": "Perfect Shot",
@@ -3359,12 +3359,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 113 reward.",
       "source_quest_or_shop": "Parallel Quest 113",
       "ultimate_finish_required": false,
       "skill_description": "Super Ghost Buu Attack is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ113. Five ghosts remain in place until launched by another input or after the automatic delay. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -3374,7 +3374,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
       "source_quest": 113,
       "acquisition_type": "quest_or_mission"
     },
@@ -3382,7 +3382,7 @@
       "name": "Vanishing Ball",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Vanishing_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3397,14 +3397,14 @@
       "dlc_requirement": "Base Game",
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 58 reward.",
       "source_quest_or_shop": "Parallel Quest 58",
       "ultimate_finish_required": false,
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "race_restriction": "Majin (Pure Majin form)",
       "source_quest": 58,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 58 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
     },
     {
       "name": "Variable Snipe Shot",
@@ -3416,12 +3416,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 165 reward.",
       "source_quest_or_shop": "PQ165",
       "ultimate_finish_required": false,
       "skill_description": "Variable Snipe Shot is a Super Ki Blast skill associated with Android 18.",
       "mechanics_notes": "Confirmed as Android 18 (DB Super)'s 100-Ki Ki Blast Super from Future Saga Chapter 1/PQ165. It has multiple input variations, including a charged overhead blast and a back-jump shot. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -3432,7 +3432,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 165,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 165 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
     },
     {
       "name": "Victory Cannon",
@@ -4350,7 +4350,7 @@
       "name": "Fighting Pose K",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_K"
@@ -4361,7 +4361,7 @@
       "research_status": "enriched",
       "duration_seconds": 8,
       "ultimate_finish_required": false,
-      "unlock_method": "Skill Shop after The Ginyu Force Strikes",
+      "unlock_method": "Skill Shop reward.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
@@ -4369,7 +4369,7 @@
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Skill Shop is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
     },
     {
       "name": "Formation!",
@@ -4381,12 +4381,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 133 reward.",
       "source_quest_or_shop": "Parallel Quest 133",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Formation! is a Super Power Up skill associated with Ribrianne.",
       "mechanics_notes": "Confirmed as Ribrianne's 100-Ki PQ133 Ultimate Finish Power Up Super. Holding/charging changes the duration, documented at about 30, 31.5, and 33 seconds for the three charge levels. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4399,7 +4399,7 @@
       "source_quest": 133,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 133 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
     },
     {
       "name": "Indomitable",
@@ -4411,12 +4411,12 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Power Up",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 185 reward.",
       "source_quest_or_shop": "PQ185 (also reported in PQ186 reward pool)",
       "ultimate_finish_required": false,
       "skill_description": "Chapter 4 power-management Super associated with Goku (Ultra Supervillain Quelled).",
       "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4429,7 +4429,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 185,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
     },
     {
       "name": "Justice Pose",
