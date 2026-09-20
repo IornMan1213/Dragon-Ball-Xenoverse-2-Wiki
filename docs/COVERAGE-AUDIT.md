@@ -2720,3 +2720,10 @@ Skills commit: `2f70435b4f186dda23eae12d3a4c9149ea18dc07`.
 Promoted 10 clearly documented non-PQ acquisition routes into `source_quest`: **Turn Golden, Beast, Potential Unleashed, Super Saiyan 2, Ultra Instinct, Burst Reflection, Flash Fist Crush, Shadow Crusher, Destructo-Disc, Galick Gun**. Existing route text was preserved verbatim where possible; generic shops and character-only skills remain excluded.
 
 Skills commit: `cb87d6ef475dd615fd8fecfc8ad4cff78196f64d`.
+
+
+## 2026-09-19 — canonical quest provenance batch 16
+
+Promoted 16 documented mentor, Advancement Test, Expert Mission, and School Quest routes into `source_quest`: Masenko, Perfect Shot, Spirit Bomb, Dancing Parapara, Energy Charge, Full Power Charge, Instant Transmission, Maximum Charge, Rise to Action, Data Input, Fighting Pose K, Deadly Dance, Super Spirit Bomb, Supernova, Darkness Rush (Melee), and Darkness Rush (Ranged).
+
+Skills commit: `23054aac366122bac2652477489ad305e6bf7a98`.
