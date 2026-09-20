@@ -1,10 +1,28 @@
 {
-  "schema_version":"1.0",
-  "game":"Dragon Ball Xenoverse 2",
-  "status":"open_reconciliation_queue",
-  "items":[
-    {"domain":"Ki Blast Supers","issue":"Current source category reports 183 items and includes Burst Stinger, while the repository's captured 183-record batch does not visibly contain Burst Stinger.","action":"Perform complete source-vs-repository set diff before changing the declared count.","priority":"critical","status":"open"},
-    {"domain":"Frieza Race Skills","issue":"Current source research indicates 2 records while earlier repository notes expected 4.","action":"Recheck the current category and reconcile historical/source drift.","priority":"high","status":"open"},
-    {"domain":"Lovely Showtime","issue":"Published source pages disagree on Ki cost.","action":"Preserve both claims and resolve using higher-priority or independent evidence.","priority":"medium","status":"open"}
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "open_reconciliation_queue",
+  "items": [
+    {
+      "domain": "Ki Blast Supers",
+      "issue": "The repository canonical catalog already contains Burst Stinger, but the Ki Blast Super batch omitted it. The live source category visibly lists Burst Stinger while reporting 'All items (183)'; after promotion the observed repository/source-name set is 184, so a complete set diff is still required. The skill also has conflicting character-attribution evidence (Goku UI vs Vegeta SSG).",
+      "action": "Complete the full source-vs-repository set diff, reconcile any source-only/repository-only names, and separately resolve or preserve the Burst Stinger character-attribution conflict using higher-priority or independent evidence.",
+      "priority": "critical",
+      "status": "open"
+    },
+    {
+      "domain": "Frieza Race Skills",
+      "issue": "Current source research indicates 2 records while earlier repository notes expected 4.",
+      "action": "Recheck the current category and reconcile historical/source drift.",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "domain": "Lovely Showtime",
+      "issue": "Published source pages disagree on Ki cost.",
+      "action": "Preserve both claims and resolve using higher-priority or independent evidence.",
+      "priority": "medium",
+      "status": "open"
+    }
   ]
 }
