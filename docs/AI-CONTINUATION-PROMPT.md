@@ -3462,3 +3462,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No Ultimate Finish-only condition was established, so those flags remain false.
 - Canonical/index/audit synchronized.
 - Next: continue remaining partial records; keep conflicting or insufficiently explicit drop-gating evidence unresolved rather than guessing.
+
+
+### 2026-09-19 continuation — six-record PQ verification
+- Verified **Brave Sword Slash, Destruction's Conductor, Dragon Spiral, Heroic Assault, Justice Drive, and Justice Kick** from current skill-page/reference acquisition evidence.
+- No exclusive Ultimate Finish condition was established; existing false flags remain.
+- Canonical/index/audit synchronized.
+- Next: continue remaining partial records and reserve unresolved status for records with conflicting or non-explicit drop gating.
