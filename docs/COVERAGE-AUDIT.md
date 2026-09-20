@@ -2706,3 +2706,10 @@ Skills commit: `c8b984edea0440ce06c5e1b4d6b266006eef5126`.
 Promoted 4 unambiguous single-PQ identifiers from existing acquisition metadata: **Gigantic Rage (PQ130), Saiyan Spirit (PQ84), Unrelenting Barrage (PQ10), Victory Rush (PQ89)**. Records whose metadata explicitly retains unresolved exact-drop gating, multi-PQ pools, character-only context, or shop/multiple acquisition routes remain unchanged.
 
 Skills commit: `8d9342ddc48c74f75d5c2b36d309998e611f3af7`.
+
+
+## 2026-09-19 — canonical quest provenance batch 14
+
+Promoted 10 previously-null records whose existing acquisition metadata identifies a canonical quest/training/wish route rather than an ambiguous PQ reward pool: **Become Giant (Guru's House Namekian Awakening quest), Future Super Saiyan (Vegeta/Capsule Corporation Time Rift), Power Pole Pro (Great Saiyaman/Hercule's House Time Rift), Purification (Majin Buu's House Time Rift), Super Saiyan (Vegeta/Capsule Corporation Saiyan Awakening progression), Super Saiyan God (Shenron wish/Beerus award), Super Saiyan God Super Saiyan (Whis training), Super Saiyan God Super Saiyan (Evolved) (Whis/Vegeta training requirements), Super Vegeta (Vegeta/Capsule Corporation Time Rift), The Power to Overcome (Future Saga Chapter 4 Quest 31)**. These values preserve the existing metadata wording rather than inventing PQ numbers.
+
+Skills commit: `2f70435b4f186dda23eae12d3a4c9149ea18dc07`.
