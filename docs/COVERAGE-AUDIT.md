@@ -3504,3 +3504,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Final Cannon corrected to Strike Super and Trunks (Kid), with PQ52 random-reward provenance.
 - Evil Flame, Eraser Bomb, and Dust Attack refined to concrete PQ reward listings.
 - Next: continue generic PQ acquisition/type audit, prioritizing Emperor's Blast and Emperor's Cannon.
+
+
+## 2026-09-20 — Emperor skill acquisition audit
+- **Emperor's Blast:** retained PQ70 as the concrete acquisition source; current reward tables explicitly list it in PQ70 Basic Reward, while dedicated skill documentation confirms it is a 100-Ki Ki Blast Super. TP Medal Shop availability remains an alternate route. Corrected source metadata to Golden Frieza and refreshed verification date. citeturn1search5turn1search6turn1search4
+- **Emperor's Cannon:** investigated the PQ source discrepancy. The dedicated current skill page says **PQ184 — The Invincible Duo**, while the maintained 186-PQ reward guide explicitly lists **Emperor's Cannon under PQ183 — Broly vs. Broly**. The canonical record retains the dedicated-page PQ184 value but now records the PQ183 conflict instead of presenting an unresolved generic `Parallel Quest reward` string as settled fact. citeturn2search0turn2search1
+- Rebuilt `docs/data/skills-index.json` from the canonical `skills.json` after detecting and repairing a malformed index entry introduced during the previous synchronization pass. Both datasets now contain 283 records and the index is valid JSON again.
+- Exact next task: continue the generic acquisition audit, using concrete PQ reward tables to resolve remaining `Parallel Quest reward` / `Random Parallel Quest reward` entries while preserving source conflicts when current references disagree.
