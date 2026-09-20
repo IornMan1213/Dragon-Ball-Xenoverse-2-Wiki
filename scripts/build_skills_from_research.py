@@ -14,6 +14,14 @@ def classify_acquisition(d):
  if 'starting move' in text: return 'starting_move'
  if 'character-exclusive' in text or 'character exclusive' in text or 'character-only' in text or 'character only' in text or 'character skill' in text: return 'character_only'
  return 'other_nonquest'
+def classify_acquisition(d):
+ text=' '.join(str(d.get(k,'')) for k in ('source_quest','source_quest_or_shop','unlock_method','source')).casefold()
+ if d.get('source_quest') not in (None,''): return 'quest_or_mission'
+ if 'tp medal' in text or 'stp medal' in text: return 'tp_medal_shop'
+ if 'skill shop' in text: return 'skill_shop'
+ if 'starting move' in text: return 'starting_move'
+ if 'character-exclusive' in text or 'character exclusive' in text or 'character-only' in text or 'character only' in text or 'character skill' in text: return 'character_only'
+ return 'other_nonquest'
 def normalize_sources(values):
  out=[]
  for value in values or []:
@@ -91,6 +99,7 @@ def build_record(d,p):
  if isinstance(d.get('properties'),list) and d['properties']:r['mechanics_notes']=r['skill_description']='; '.join(map(str,d['properties']))
  if d.get('summary'):r.setdefault('skill_description',str(d['summary']))
  if d.get('lastVerified'):r['last_verified']=str(d['lastVerified'])
+ r['acquisition_type']=classify_acquisition(d)
  r['acquisition_type']=classify_acquisition(d)
  if d.get('confidence'):r['research_status']='enriched'
  return r
