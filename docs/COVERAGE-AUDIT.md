@@ -3475,3 +3475,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Raid Blast:** corrected `ultimate_finish_required` from `true` to `false`; PQ136 reward tables explicitly list it under Basic Reward. citeturn2search4turn2search10
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `15f4426e56268d41e3deb456619dd7ef47314007`, `c5fc07873e090b03d01c1d99c30abfb299c9eb5a`.
+
+
+## 2026-09-20 — Final Ultimate Finish gate validation
+
+- Revalidated the remaining two `ultimate_finish_required=true` records: **Kaioken** is explicitly documented as requiring PQ8's Ultimate Finish, and **Power Rush** is explicitly documented as the PQ122 Ultimate Finish skill. citeturn0search3turn0search1turn0search5
+- No canonical field changes were made because the current records already match the evidence.
+- Canonical census remains **283 records / 78 `verified_current_scope` / 2 Ultimate Finish-gated**.
+- The next audit category is now **generic `quest_or_mission` acquisition wording** among verified current-scope records, beginning with records such as Mighty Explosive Wave, Side Bridge, Steel Mirage, Demon Ray, and other PQ acquisitions whose unlock text is still only `Parallel Quest reward` / `Random Parallel Quest reward`.
