@@ -3224,3 +3224,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Genuine evidence uncertainty was preserved where applicable; no unsupported prerequisite or probability inference was added.
 - Commits: `2c5cea26292c44cb380ad88970aba8c607b0e44c` (canonical), `2d1792118724dddf6b4c2c3879198dc46306abd7` (index).
 - Exact next task: run a broad stale-provenance phrase census across all 283 skill records (especially `Basic Reward`, `no Ultimate Finish`, `gate unresolved`, and `random reward` language) and compare each hit with explicit PQ drop-condition data before changing anything.
+
+
+### 2026-09-20 cycle update — broad stale-UF phrase census
+- Ran a broad census across all 283 canonical skill records for stale `Basic Reward`, `no Ultimate Finish`, `Ultimate Finish-only`, random/generic PQ, and unresolved-gate wording, then cross-checked all available maintained `skill_drop_conditions` (90 condition entries across batches 10-18).
+- Confirmed the explicit-condition comparison now has only the known Lovely Cyclone source conflict: its maintained PQ135 condition says a 25% Ultimate Finish bonus slot while the canonical record deliberately remains UF=false because of the previously documented source conflict.
+- Cleaned the remaining direct contradictory UF prose on corrected records, including Circle Flash, Ribrianne's Eternal Love, Sign of Awakening, Special Beam Cannon (Beast), Super Gamma Blast, and other previously corrected records. No unsupported gates were added.
+- Validation remains: canonical 283, index 283, parity 0, duplicates 0, UF count 43.
+- Commits: `fac0cbced42f4b675503c974f0e9f82307123b2c` (canonical), `66060b2e6b2a3e46c77c146c9dde4893873966d3` (index).
+- Exact next task: inspect the remaining non-UF generic/random PQ acquisition records against maintained reward normalization and source-backed relationship files for opportunities to replace vague acquisition wording with explicitly supported reward-tier wording, without inferring a gate where none is documented.
