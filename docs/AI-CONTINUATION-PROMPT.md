@@ -2901,3 +2901,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Reward semantics rule preserved: Basic Reward establishes tier/provenance but is not treated as a measured drop probability.
 - Validation: canonical and index datasets remain 283 records; recompute the generic acquisition census from the live canonical file before the next batch.
 - Exact next task: continue the remaining generic PQ acquisition records after the PQ46 frontier, in quest order, using maintained PQ reward tables to resolve Basic vs random vs Ultimate Finish where directly supported.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 12
+- Refined eight canonical skill acquisition records from maintained PQ reward data: **Burning Attack (PQ41), Majin Kamehameha (PQ60), Recoome Kick (PQ61), Scissors Paper Rock (PQ65), Super God Fist (PQ67), Last Emperor (PQ71), Warp Kamehameha (PQ76), Saiyan Spirit (PQ84)**.
+- All eight are now explicitly represented as **Basic Reward** routes with `ultimate_finish_required=false`; no unsupported probability claim was introduced.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `9a0d6e0d3014a568e890036886cca4b57a426b2d` (canonical), `d5647ddf6e50c2966c133400983f02b76628992` (index), `c363952a63d79919b8b5ab5ecc3300285279e163` (coverage audit).
+- Live census: **283 records**, **34** exact generic PQ acquisition records remain.
+- Exact next task: continue quest-order PQ reward audit at **PQ85/PQ86**, then PQ98 and PQ105+, resolving Basic/random/Ultimate Finish provenance only where maintained evidence supports it.
