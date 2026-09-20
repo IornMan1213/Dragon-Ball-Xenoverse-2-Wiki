@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "purpose": "Exhaustive Dragon Ball Xenoverse 2 skill catalog coverage tracker",
   "source": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "status": "verification_complete_with_conflict",
+  "status": "verification_complete",
   "rule": "A category is not considered complete until every indexed source record is represented and every record has been checked for duplicates, variants, CaC restrictions, unlock method, costs, and mechanics. Indexed records must not be presented as fully verified mechanics.",
   "batch_categories": {
     "Ki Blast Supers": 183,
@@ -44,7 +44,7 @@
   "latest_research_batch": 315,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": false,
-  "current_research_focus": "Full-catalog consistency and unresolved provenance conflicts",
+  "current_research_focus": "Full-catalog stale-source, metadata, and validation checks",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "reconciliation_notes": [
@@ -89,14 +89,15 @@
     "2026-09-20: Verified twelve remaining Ki Blast Ultimate records: Revenge Death Ball (PQ127), Revenge Final Flash (PQ124), Ribrianne's Eternal Love (PQ137), S.S. Deadly Bomber (PQ115), Sign of Awakening (PQ154), Special Beam Cannon (Beast) (PQ162), Super Black Kamehameha Rosé (PQ109), Super Gamma Blast (PQ158), Thunder Flash (PQ146), Total Detonation Ball (PQ139), Warp Kamehameha (PQ76), and X 100 Big Bang Kamehameha (PQ100 / TP Medal Shop). Acquisition routes are explicitly documented; no UF requirement is recorded for these routes.",
     "2026-09-20: Verified the final seven partial records: Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Saiyan Spirit (PQ84), Super Dragon Flight (PQ31), Unrelenting Barrage (PQ10), Venus Fist (PQ186), and Victory Rush (PQ89). The skill census now has no partially verified records.",
     "2026-09-20: Full 283-record consistency pass completed. skills.json and skills-index.json both contain 283 unique records; all names are unique and every indexed record has a matching canonical record. Verification statuses reconcile as 204 verified, 78 verified_current_scope, and 1 conflict, with 0 partially_verified. The index intentionally omits last_verified, so those canonical-only timestamps are not treated as synchronization mismatches.",
-    "2026-09-20: Burst Stinger remains the sole conflict. Acquisition provenance is PQ136, but available sources disagree on character attribution (Goku (Ultra Instinct) versus Vegeta (Super Saiyan God)); no unsupported attribution was selected."
+    "2026-09-20: Burst Stinger remains the sole conflict. Acquisition provenance is PQ136, but available sources disagree on character attribution (Goku (Ultra Instinct) versus Vegeta (Super Saiyan God)); no unsupported attribution was selected.",
+    "2026-09-20: Resolved Burst Stinger. Current maintained PQ136 reward evidence lists Burst Stinger as a Basic Reward, so the Ultimate Finish requirement is false. Current skill/character references identify Burst Stinger as a signature Super Attack of Vegeta (Super Saiyan God). The prior Goku (Ultra Instinct) character-drop attribution was not corroborated and has been removed from canonical provenance."
   ],
   "partially_verified_count": 0,
-  "verified_count": 204,
+  "verified_count": 205,
   "verification_state_counts": {
-    "verified": 204,
+    "verified": 205,
     "verified_current_scope": 78,
-    "conflict": 1,
+    "conflict": 0,
     "partially_verified": 0,
     "total": 283
   }
