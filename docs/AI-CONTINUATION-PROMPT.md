@@ -3409,3 +3409,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Official Bandai Namco material continues to distinguish the base game from named DLC packs and free-update-era content. citeturn0search5turn0search6
 - Audit commit: `dbdd83b49b62f351dc90730e1c9dcfdf8700cd51`.
 - Next task: continue auditing quest/mission records, prioritizing records where `unlock_method` is generic despite a specific PQ, or where later updates changed acquisition routes. Preserve fields when evidence does not establish a correction.
+
+
+### 2026-09-20 cycle update — generic PQ unlock wording recheck
+- Rechecked the `verified_current_scope` quest/mission records whose `source_quest_or_shop` names a specific PQ while `unlock_method` remains generic (`Parallel Quest reward` / `Random Parallel Quest reward`).
+- No unsupported reward-gating claims were introduced. The generic wording is retained where the current evidence does not establish Basic-vs-Ultimate-Finish-vs-random gating, while the specific PQ remains preserved in `source_quest_or_shop`.
+- Audit commit: `58701110606b96d18834f4b908ba0036401fb9e2`.
+- External reference confirms PQ skills can come through different reward mechanisms, including opponent-linked random drops and Ultimate-Finish rewards. citeturn0search1
+- Next task: continue the remaining quest/mission records with explicit reward conditions and inspect the newest GitHub Actions state; do not infer gating from a PQ number alone.
