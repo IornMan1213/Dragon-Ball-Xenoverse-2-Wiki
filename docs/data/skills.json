@@ -674,17 +674,17 @@
       ],
       "research_status": "enriched",
       "ki_cost": 0,
-      "unlock_method": "Parallel Quest reward (PQ80)",
+      "unlock_method": "Parallel Quest 80 — \"The Return of the Giant Ape-Fest\" Basic Reward",
       "source_quest": 80,
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 80",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "mechanics_notes": "Current dataset evidence identifies Dimensional Hole as a Ki Blast Super from PQ80 with 0 Ki recorded. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ80 reward tables explicitly list Dimensional Hole as a Basic Reward. Dedicated skill documentation independently confirms PQ80 acquisition; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Flash Fist Crush",
@@ -722,17 +722,17 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward (PQ44)",
+      "unlock_method": "Random reward from Parallel Quest 44 — \"Dragon Balls of the Future\"",
       "source_quest": 44,
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 44",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ44 and explicitly describes the Future Warrior acquisition as a random reward. The maintained PQ44 reward table does not list God Breaker among Basic Rewards, so no Basic Reward tier is inferred."
     },
     {
       "name": "Heroic Counter",
@@ -746,17 +746,17 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward (PQ155)",
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Basic Reward",
       "source_quest": 155,
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 155",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Hero of Justice Pack 1",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ155 reward listings explicitly include Heroic Counter in the Basic Reward pool; dedicated skill documentation confirms PQ155 acquisition."
     },
     {
       "name": "Punisher Shield",
@@ -770,17 +770,17 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward (PQ129)",
+      "unlock_method": "Parallel Quest 129 — \"Frieza Force on the Hunt\" Basic Reward",
       "source_quest": 129,
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 129",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 4",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "mechanics_notes": "Current dedicated evidence confirms Punisher Shield as a 100-Ki Ki Blast Super, universal counter, from PQ129. SSGSS Gogeta is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ129 reward listings explicitly include Punisher Shield in the Basic Reward pool; dedicated skill documentation confirms PQ129 acquisition."
     },
     {
       "name": "Reverse Mabakusenko",
