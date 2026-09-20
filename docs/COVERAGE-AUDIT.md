@@ -2929,3 +2929,16 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 - Data commits: `f3e5dfe211ae4a4fa3bfd0e6bc0bc6477c528ac9`, `ecac80ef9989375ecbebf0b227af059489656d68`.
 - Live target after this batch: **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
 - The remaining 28 source-quest nulls include legitimate non-quest acquisition routes (skill shops, TP Medal Shop, character-only skills, and starting moves). Do not force a quest value into those records merely to eliminate nulls.
+
+
+## 2026-09-19 — source-quest null audit, pass 2
+
+Reviewed the remaining 28 `source_quest` nulls against their current acquisition fields and available unlock evidence.
+
+- **No additional data values were forced in this pass.**
+- Several records are explicitly shop/distribution routes rather than quest rewards:
+  - Reverse Mabakusenko, Pressure Sign, Quick Sleep, Punisher Guard, Big Bang Kamehameha, Emperor's Death Beam, and Final Explosion are documented as Skill Shop/TP Medal Shop acquisitions. Punisher Guard also has historical PQ87 provenance, but the current acquisition route is story progression followed by the Skill Shop, so a bare quest assignment would misrepresent the current route. citeturn1search0turn1search1turn1search2turn1search3turn1search4turn1search5turn1search6
+- Contemporary launch-era discussion independently confirms Big Bang Kamehameha as a TP Medal Shop skill rather than a PQ reward. citeturn1search9turn1search13
+- The remaining nulls include character-only skills and other non-PQ acquisition routes; these should remain null unless the schema is explicitly expanded to represent a different source type.
+- Current live target remains **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
+- Next priority: audit the remaining character-only and update-distribution records for any *explicitly named* quest/mission route, without converting shop availability or historical provenance into false quest fields.
