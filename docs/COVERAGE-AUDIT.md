@@ -2770,3 +2770,10 @@ Re-checked the remaining unresolved skill records against current public skill/c
 ## 2026-09-19 — targeted null review batch 23
 
 Targeted the remaining records whose metadata references PQ171/PQ172, PQ99, or PQ91. No safe promotion was made: **Divine Spear, Crimson Edge, and Wild Stinger** are explicitly characterized as character skills despite PQ reward context; **Emperor's Edge** and **Final Kamehameha** have multiple acquisition routes. The remaining nulls are predominantly shop-only, character-only, or starting-choice records. No repository data was changed in this pass.
+
+
+## 2026-09-19 — targeted shop/PQ provenance check batch 24
+
+Re-checked **Reverse Mabakusenko** because older community material associates it with PQ51, while current reference data explicitly identifies its CaC acquisition as the Skill Shop. The repository's current metadata likewise says Skill Shop, so no `source_quest` value was assigned. This is a deliberate provenance-preservation decision: an historical PQ association is not enough to overwrite the current canonical acquisition route. citeturn0search1turn0search6
+
+No `skills.json` data change was made in this pass.
