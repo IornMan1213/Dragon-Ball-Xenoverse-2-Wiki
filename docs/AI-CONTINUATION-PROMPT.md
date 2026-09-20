@@ -3642,3 +3642,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Cleared `source_quest` for those seven records while preserving their detailed `unlock_method` acquisition instructions. Quest/Time Rift-backed records and actual Parallel Quest mappings were left unchanged.
 - Skill-data commit: `76b1ccc06d09a067e8e7910bfd0d35b8767ff8eb`.
 - Next task: audit the remaining populated `source_quest` values for numeric/string normalization and verify that each quest number agrees with its unlock text; then run artifact-hygiene checks.
+
+
+### 2026-09-20 cycle update — quest ID/unlock-text alignment
+- Cross-checked numeric `source_quest` values against their `unlock_method` wording.
+- Found 8 records whose unlock text only said “Parallel Quest reward” and therefore failed to expose the recorded quest ID: **Celestial Wave (151), Force Shield (59), Instant Rise (37), Maiden Burst (92), Psychic Move (73), Spirit Explosion (25), Victory Cannon (54), Energy Field (29)**.
+- Normalized those unlock strings to explicitly include the corresponding PQ number. Celestial Wave and the already-known PQ151 reward were aligned to PQ151; no source IDs were changed.
+- Steam's PQ guide independently confirms PQ151's reward list includes Celestial Wave and PQ73's reward list includes Psychic Move. citeturn0search0
+- Skill-data commit: `174a1601b91a3aecbd277bd1115b58115c615389`.
+- Next task: run a full artifact-hygiene search and re-census the 78 current-scope records, checking for any remaining source/unlock mismatches.
