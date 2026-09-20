@@ -3122,3 +3122,20 @@ Validator commit: `7e35b13efb5dc3f747d5ba66c18239c760540a7f`.
 - Both live `skills.json` and `skills-index.json` declare schema version `1.1`, while the builder was still emitting `1.2` for both outputs.
 - Corrected the builder to emit the live canonical schema version `1.1`, preventing a future rebuild from creating a deterministic cross-file metadata mismatch.
 - No skill records or factual provenance were changed.
+
+
+## 2026-09-19 — bounded skill DLC provenance reconciliation
+
+Reconciled seven previously unresolved DLC-era skill records using independent PQ/DLC references:
+
+| Skill | Existing acquisition route | Reconciled DLC provenance |
+|---|---|---|
+| Counter Impact | PQ 153 | Conton City Vote Pack |
+| Demon Flash Strike | PQ 160 | Hero of Justice Pack 2 |
+| Heroic Counter | PQ 155 | Hero of Justice Pack 1 |
+| Punisher Shield | PQ 129 | Extra Pack 4 |
+| Rough Ranger | PQ 119 Ultimate Finish | Extra Pack 2 |
+| Ultrasonic Blitz | PQ 151 Ultimate Finish | Conton City Vote Pack |
+| Meditation | PQ 122 | Extra Pack 2 |
+
+The underlying skill acquisition routes were already present; this pass only replaced bounded unresolved DLC labels with pack provenance supported by independent references. No unsupported exact drop-rate or Ultimate Finish claim was added. Repository data contains no external citation markup.
