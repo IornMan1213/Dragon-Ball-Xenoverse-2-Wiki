@@ -3748,3 +3748,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: canonical skills.json and skills-index.json remain at **283 records**, exact record-order parity is preserved, UF count remains **60**, and no internal citation artifacts were detected.
 - Commits: 6fedf7406a146addf1e1a09aa01b2af163aa2337 (canonical provenance corrections), a7b4dc4346fd6033eb12fa4f6212c7c83fe62a11 (index synchronization), 4c8ce69cdd8a864ab239c31ea11df11f1f5f6033 (generic PQ wording normalization), 297f9ad4eb1b8e3d8aaffeda7cccd460647a1d31 (index synchronization).
 - Exact next task: **continue the generic PQ census for the remaining quest-or-mission skill records, prioritizing stale quest-number/title mismatches and then records where independent maintained sources can establish an exact reward tier. Preserve documented source conflicts and unresolved probabilities instead of inferring them.**
+
+
+## 2026-09-20 — PQ source-field schema normalization
+- Normalized all remaining `source_quest` values in canonical `docs/data/skills.json` that were encoded as strings such as `Parallel Quest 24` into numeric quest IDs. **29 records** were normalized; non-PQ sources (mentors, time rifts, advancement tests, expert missions, etc.) remain textual because they are not PQ IDs.
+- Synchronized the same numeric PQ IDs into `docs/data/skills-index.json`.
+- Validation: canonical and index remain **283 records**, exact record-order parity is preserved, UF count remains **60**, and no PQ-formatted string remains in `source_quest`.
+- Commits: `21b70af1677724e81cfe3dbad49cf38cc469c513` (canonical) and `1c5ce0a27a4a538a76ece00484381e9eecae9d31` (index).
+- Exact next task: **continue provenance cleanup for remaining quest-or-mission skills whose acquisition text is still vague, conflicting, or missing a concrete maintained quest/reward tier; do not alter non-PQ source fields merely for schema uniformity.**
