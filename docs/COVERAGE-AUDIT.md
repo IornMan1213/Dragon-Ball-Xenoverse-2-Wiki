@@ -2902,3 +2902,16 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 - Live null `dlc_requirement` count after this batch: **12**.
 - Remaining nulls: Energy Release, Instant Charge, Rising Rage, Spirit Boost, Time Bullet, Fighting Pose K, Dragon Thunder, Namek Finger, Final Kamehameha, Divine Lasso, Dragon Fist, Godly Display.
 - Next priority: distinguish original/base-game skills from later DLC/update-only cast or shop skills using dated introduction evidence.
+
+
+## 2026-09-19 — launch/free-update provenance batch 6
+
+- Resolved 11 additional `dlc_requirement` values:
+  - **Base Game:** Namek Finger, Dragon Fist, Final Kamehameha, Spirit Boost, Time Bullet, Fighting Pose K, Energy Release, Instant Charge, Rising Rage, Dragon Thunder.
+  - **Free Update 12:** Godly Display.
+- Launch-era TP Medal Shop records from October 2016 explicitly list Namek Finger, Dragon Fist, and Final Kamehameha, establishing Base Game provenance. citeturn2search7turn2search8
+- Bandai Namco's documented 2020 free-update period and the maintained free-update chronology place Godly Display among the TP Medal Shop skills introduced in the Free Update 12 era. citeturn1search0turn2search18
+- The remaining shop/skill records are being treated conservatively; current shop availability alone is not used to infer DLC.
+- Data commit: `9df672ae92f5367ae8d1ba409eccdef6598aeabd`.
+- Live null `dlc_requirement` count after this batch: **1**.
+- Sole remaining null: **Divine Lasso**. Bandai Namco's May 10, 2017 content-update announcement explicitly lists Divine Lasso in the TP Medal Shop, but the current evidence does not establish a canonical numbered free-update/DLC label strongly enough to assign one without inference. citeturn1search2
