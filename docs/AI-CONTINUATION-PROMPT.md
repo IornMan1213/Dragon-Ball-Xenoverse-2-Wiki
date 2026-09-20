@@ -3533,3 +3533,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - The handoff commit `36ef8d37e0c95b5633d46607e634d10ca31ed4f7` has no pull-request-triggered workflow runs exposed by the connected Actions API. No CI pass is claimed from that absence.
 - No validator/workflow was weakened.
 - Exact next task: continue the remaining 78-record current-scope source-field audit, prioritizing evidence-backed historical acquisition/provenance contradictions; periodically recheck Actions diagnostics and artifact hygiene.
+
+
+### 2026-09-20 cycle update — targeted current-scope evidence cleanup
+- Audited the remaining 78 `verified_current_scope` skill records for source/unlock contradictions.
+- Used current external evidence to reconcile two records without changing unsupported acquisition facts:
+  - **Energy Field:** tightened the mechanics note to match the dedicated reference: Ki Blast Evasive, PQ29, 200 Stamina, barrier maintenance consumes Ki; retained the existing All CaC races scope. cite marker omitted from repository data; external evidence was reviewed separately.
+  - **Dust Attack:** tightened the note to distinguish confirmed PQ78 acquisition/usability from unresolved classification reconciliation; no silent class normalization was made.
+- Commit: `807b44c4c44abea31e4aa845b3819437bf2d36ef`.
+- Important: do not place ChatGPT citation markup or internal tool identifiers into repository files.
+- Next task: continue the 78-record audit, focusing on records whose `class`/`subcategory` conflicts with dedicated skill references (Dust Attack is an open candidate), and only change fields when evidence is sufficiently specific. Then refresh the persistent handoff and recheck artifact hygiene.
