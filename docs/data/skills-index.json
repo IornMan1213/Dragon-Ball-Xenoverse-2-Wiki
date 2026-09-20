@@ -3348,19 +3348,20 @@
       "name": "Full Power Destruction",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Full_Power_Destruction",
         "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/81043121"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Gigantic Breaker",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -3368,19 +3369,21 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dbxv2.fandom.com/wiki/Gigantic_Breaker",
         "https://dragonball.fandom.com/wiki/Gigantic_Breaker"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Gigantic Burst",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Burst",
         "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Gigantic Explosion",
@@ -3399,38 +3402,41 @@
       "name": "Gigantic Roar",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Roar",
         "https://dragonball.fandom.com/wiki/Gigantic_Roar"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "God of Destruction's Menace",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Menace"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "God of Destruction's Roar",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Roar",
         "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Roar"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Heat Dome Attack",
@@ -3448,13 +3454,14 @@
       "name": "Holy Wrath",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Holy_Wrath",
         "https://dragonball.fandom.com/wiki/Holy_Wrath"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Last Emperor",
