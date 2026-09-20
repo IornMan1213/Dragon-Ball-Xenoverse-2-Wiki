@@ -8,6 +8,7 @@ DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCH
 ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
 ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter'}
 ALLOWED_RESEARCH={'indexed','partially_enriched','enriched','page_unavailable'}
+ALLOWED_ACQUISITION={'quest_or_mission','skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'}
 
 def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
 
@@ -23,6 +24,7 @@ def main():
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
+  if r.get('acquisition_type') not in ALLOWED_ACQUISITION:errors.append(f"{r.get('name')}: invalid acquisition_type {r.get('acquisition_type')}")
   uf=r.get('ultimate_finish_required')
   if uf is False and not r.get('ultimate_finish_evidence'):
    errors.append(f"{r.get('name')}: ultimate_finish_required=false lacks explicit evidence")
