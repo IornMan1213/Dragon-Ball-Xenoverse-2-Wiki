@@ -3520,3 +3520,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **God Punisher:** refined to concrete **PQ132 — The Ultimate Legendary Super Saiyan** acquisition; reward tier remains generic because the inspected sources establish the quest but not a sufficiently reliable specific slot. citeturn1search2turn1search8
 - Re-synchronized `docs/data/skills-index.json` from canonical `skills.json`; dataset remains at 283 records.
 - Exact next task: continue the remaining generic PQ acquisition records, prioritizing entries with a known quest number and unresolved reward tier before tackling records with explicit source conflicts.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 2
+- **Dimensional Hole:** refined to **PQ80 — The Return of the Giant Ape-Fest, Basic Reward**. citeturn1search0turn1search1
+- **God Breaker:** refined to **random reward from PQ44 — Dragon Balls of the Future**. The dedicated skill source explicitly says random reward; the maintained PQ44 reward table does not list it as a Basic Reward, so no Basic tier was inferred. citeturn0search1turn0search6
+- **Heroic Counter:** refined to **PQ155 — I Need a Hero... Pose!, Basic Reward**. citeturn0search0turn0youtube31
+- **Punisher Shield:** refined to **PQ129 — Frieza Force on the Hunt, Basic Reward**. citeturn0search2turn0search8
+- Re-synchronized `docs/data/skills-index.json` from canonical `skills.json`; record count remains 283.
+- Exact next task: continue remaining generic PQ records, especially the older base-game entries where maintained reward tables can establish Basic Reward versus random/UF provenance.
