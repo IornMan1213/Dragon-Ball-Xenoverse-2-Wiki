@@ -3611,3 +3611,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Simplified the stale descriptions for **Ki Explosion** and **Maiden Burst** from the redundant “Evasive Other” phrasing to the normalized “Other Evasive” wording, keeping their verified metadata unchanged.
 - Commit: `64bf2e68a36a12d139615726350acfe0478cc440`.
 - Next task: continue the remaining current-scope audit beyond already-cleared description/category conflicts, focusing on acquisition fields and unsupported restrictions.
+
+
+### 2026-09-20 cycle update — acquisition/null-field audit
+- Audited all 78 `verified_current_scope` skill records for acquisition and cost-field consistency.
+- `source_quest` is null only where the recorded acquisition is explicitly character-only, Skill Shop/story progression, or an N/A/built-in route; no unsupported quest assignment was introduced.
+- All current-scope Evasive records have a populated stamina cost, and every one is either 200 or 300; no stamina-cost anomaly remains.
+- `ki_cost`, `ultimate_finish_required`, `usable_by_cac`, and `race_restriction` are populated across the current-scope census. `dlc_required` remains intentionally null across this scope because DLC provenance is represented through the existing acquisition/source fields rather than an unsupported DLC requirement field.
+- No skill-data commit was necessary in this cycle; only this handoff was updated.
+- Next task: inspect acquisition wording and individual unlock routes for stale/overbroad claims, prioritizing Skill Shop/story entries and character-exclusive boundaries.
