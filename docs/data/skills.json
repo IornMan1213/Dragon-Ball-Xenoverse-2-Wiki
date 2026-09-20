@@ -197,7 +197,8 @@
       "mechanics_notes": "500 Ki; +25% Strike/+25% Blast, +5% Strike/+5% Blast Defense; drains 10 Ki/sec while active.",
       "research_status": "enriched",
       "source_quest_or_shop": "Whis training — max friendship and level 90",
-      "source_quest": "Whis training — max friendship and level 90"
+      "source_quest": "Whis training — max friendship and level 90",
+      "dlc_requirement": "Free Update 5"
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -222,7 +223,8 @@
       "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active.",
       "research_status": "enriched",
       "source_quest_or_shop": "Whis training — max friendship with Vegeta, level 95, SSGSS required",
-      "source_quest": "Whis training — max friendship with Vegeta, level 95, SSGSS required"
+      "source_quest": "Whis training — max friendship with Vegeta, level 95, SSGSS required",
+      "dlc_requirement": "Free Update 9"
     },
     {
       "name": "Super Vegeta",
@@ -308,7 +310,7 @@
       "race_restriction": "All CaC races",
       "usable_by_cac": true,
       "character_source": "CaC / Universal",
-      "dlc_requirement": null,
+      "dlc_requirement": "Free Update 16",
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Awoken",
@@ -402,7 +404,8 @@
       "mechanics_notes": "500 Ki is required and consumed for each transformation stage; Stage 1 and Stage 2 use the character-only Pure Progress transformation. Current reference documents 500 Ki consumed on transformation. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
-      "ki_cost": 500
+      "ki_cost": 500,
+      "dlc_requirement": "Free Update 1"
     },
     {
       "name": "Super Saiyan 2",
@@ -476,7 +479,7 @@
       "race_restriction": "All CaC races",
       "usable_by_cac": true,
       "character_source": "CaC / Universal",
-      "dlc_requirement": null,
+      "dlc_requirement": "Free Update 17",
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Awoken",
@@ -1980,7 +1983,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
-      "source_quest": "Krillin mentor training"
+      "source_quest": "Krillin mentor training",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Dimension Cannon",
@@ -2354,7 +2358,8 @@
       "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
-      "source_quest": "Vegeta mentor training"
+      "source_quest": "Vegeta mentor training",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Gamma Blaster",
@@ -2643,7 +2648,8 @@
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ05 and usable by all CaC races. It has three charge levels.",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
-      "source_quest": "Parallel Quest 05"
+      "source_quest": "Parallel Quest 05",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Masenko",
@@ -2663,7 +2669,8 @@
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing.",
       "race_restriction": "All CaC races",
-      "source_quest": "Gohan (Kid) mentor training — School Quest Lesson 2"
+      "source_quest": "Gohan (Kid) mentor training — School Quest Lesson 2",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Paralysis",
@@ -3343,7 +3350,8 @@
       "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "source_quest": "Pan's Initiation Test / mentor training"
+      "source_quest": "Pan's Initiation Test / mentor training",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Energy Charge",
@@ -3362,7 +3370,8 @@
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill.",
       "race_restriction": "All CaC races",
-      "source_quest": "Advancement Test — Easy Class"
+      "source_quest": "Advancement Test — Easy Class",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Energy Release",
@@ -3625,7 +3634,8 @@
       "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina.",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "source_quest": "Krillin's Initiation Test / mentor training"
+      "source_quest": "Krillin's Initiation Test / mentor training",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Rising Rage",
@@ -3682,7 +3692,8 @@
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ01, usable by all CaC races. It blinds/stuns opponents in front of the user; positioning matters because it is ineffective from behind. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "source_quest": 1
+      "source_quest": 1,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Spirit Boost",
@@ -3838,7 +3849,8 @@
       "mechanics_notes": "Confirmed as a 0-Ki Other Super from PQ10, usable by all CaC races. The user teleports in front of an ally and absorbs incoming attacks while held; without an ally it targets the nearest opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "source_quest": 10
+      "source_quest": 10,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Charge",
@@ -7030,7 +7042,8 @@
       "race_restriction": "All CaC races",
       "mechanics_notes": "300 Ki Strike Ultimate. Parallel Quest 89 is the documented acquisition quest. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest_or_shop": "Parallel Quest 89",
-      "source_quest": 89
+      "source_quest": 89,
+      "dlc_requirement": "Base Game"
     }
   ],
   "record_count": 283
