@@ -3220,3 +3220,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Found a deterministic generator drift: live `skills.json`/`skills-index.json` use schema version `1.1`, while the builder emitted `1.2`.
 - Corrected both builder output literals to `1.1`; no canonical skill data changed.
 - Exact next task: continue bounded acquisition/DLC-version provenance review, prioritizing records whose DLC provenance is explicitly unresolved rather than inventing exact pack assignments.
+
+
+### 2026-09-19 continuation — bounded skill DLC provenance reconciliation
+- Reconciled seven unresolved DLC-era skill records: Counter Impact → Conton City Vote Pack; Demon Flash Strike → Hero of Justice Pack 2; Heroic Counter → Hero of Justice Pack 1; Punisher Shield → Extra Pack 4; Rough Ranger → Extra Pack 2; Ultrasonic Blitz → Conton City Vote Pack; Meditation → Extra Pack 2.
+- Verified the associated PQ/DLC relationships against independent public references before changing the canonical DLC fields.
+- No drop-rate or unsupported Ultimate Finish details were invented.
+- An accidental citation-marker insertion during the first data update was immediately removed; the corrected canonical file contains no external citation markup from this work.
+- Exact next task: continue the remaining unresolved DLC provenance cohort and reconcile only records with independently supportable pack assignments.
