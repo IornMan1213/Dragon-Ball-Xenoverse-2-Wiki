@@ -3582,3 +3582,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Current PQ evidence independently confirms Psychic Move in PQ73, Final Pose in PQ74, and Side Bridge as a basic reward; Steel Mirage is listed as a PQ165 basic reward. cite marker omitted from repository data.
 - Commit: `bcf302643beed3d891805ca3e247c8fd2683f87d`.
 - Next task: continue the remaining current-scope description/metadata audit, prioritizing records where `skill_description` disagrees with verified class/subcategory/damage fields.
+
+
+### 2026-09-20 cycle update — Evasive metadata consistency
+- Cross-checked the remaining stale-description candidates against the current Evasive reference. The current Evasive index identifies **Spread Shot Retreat** as an Evasive, and the repository's dedicated evidence already established its 300-Stamina Ki Blast classification from PQ28. cite marker omitted from repository data.
+- Corrected **Spread Shot Retreat** `skill_description` from “Evasive Other” to “Ki Blast Evasive” and normalized `damage_type` from `Other` to `Ki Blast`.
+- Commit: `53dfc4c9ac3c1a2f0e392176ce426fa2c3809ef6`.
+- Next task: continue the remaining current-scope metadata audit, especially records whose description/damage fields still disagree with their verified subcategory.
