@@ -2672,3 +2672,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: no unsupported drop probability or false-precision mechanics were introduced. Existing schema/provenance structure preserved.
 - CI status: no new CI result was claimed; repository workflow/status APIs previously exposed no runs/status for the skill-data commit.
 - Exact next task: continue the remaining current-scope evidence-gap audit, moving to the next records where current sources can materially improve acquisition/drop semantics or mechanics. Preserve conflicts and unknowns rather than forcing exact values.
+
+
+### 2026-09-20 cycle update — Dimension Cannon classification correction
+- During the next evidence-gap pass, **Dimension Cannon** was found to contain a canonical classification error: it had been recorded as a 300-Ki Ki Blast Super. Current dedicated evidence identifies it as a **300-Stamina Ki Blast Evasive Skill** from **PQ59 — Potara Warrior**, listed in the Basic Reward section. Its documented behavior is a short-range six-hit mouth-fired Ki wave with knockback and guard break against a blocking opponent.
+- Corrected `docs/data/skills.json`: `class=Evasive`, `ki_cost=null`, `stamina_cost=300`, `damage_type=Ki Blast`, corrected unlock/source wording, and corrected skill description/mechanics notes.
+- Also corrected **Heat Wave**'s canonical skill description to Strike Super and its source to PQ179, without asserting an exact drop gate.
+- Commits: `0790faf56ac700ff7d1b3c8d28a705531d5472db4` (skill data), `dca5224c16f19b6bed1c6d8c00f2f9dff978a35a` (coverage audit).
+- Evidence basis for Dimension Cannon: dedicated skill documentation plus maintained PQ reward listing. Do not revert the Evasive classification based on the older erroneous repository value.
+- Exact next task: continue the current-scope audit from the next unresolved records, prioritizing **God of Destruction's Plaything**, **Heat Wave drop semantics**, and other records where current evidence can correct canonical facts rather than merely add weak detail.
