@@ -62,8 +62,9 @@
     "2026-09-19: Verified Galick Gun, Petrifying Spit, Phantom Fist, Rise to Action, and Dancing Parapara from deterministic mentor/initiation/PQ acquisition references; canonical/index synchronized.",
     "2026-09-19: Verified additional deterministic acquisition records for Fighting Pose E, Fighting Pose H, Do or Die, and Divinity Unleashed; Fighting Pose K and Shield Barrier were already verified and left unchanged.",
     "2026-09-19: Verified Reverse Mabakusenko (Skill Shop), Instant Transmission (Goku Lesson 1), Deadly Dance (Android 18 training), and Burning Slash (PQ44). Ultimate Finish flags were not changed where cited evidence did not establish exclusivity.",
-    "2026-09-19: Verified Charge (PQ83), Justice Pose (PQ53), Meditation (PQ122), and Taunt (PQ20) from current PQ/skill documentation; canonical/index synchronized."
+    "2026-09-19: Verified Charge (PQ83), Justice Pose (PQ53), Meditation (PQ122), and Taunt (PQ20) from current PQ/skill documentation; canonical/index synchronized.",
+    "2026-09-19: Verified Justice Blade (PQ152), Evil Whirlwind (PQ36), and Fierce Fist (PQ159) from explicit current skill-page unlock fields; Ultimate Finish set false because the cited pages specify PQ unlocks without an UF-only condition."
   ],
-  "partially_verified_count": 87,
-  "verified_count": 117
+  "partially_verified_count": 84,
+  "verified_count": 120
 }
