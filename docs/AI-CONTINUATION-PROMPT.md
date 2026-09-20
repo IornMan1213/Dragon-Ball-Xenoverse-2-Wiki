@@ -2727,3 +2727,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Refined **Spirit Slash** to exact **PQ02 — "A Deal?! The Saiyan Brothers" Basic Reward** provenance and retained the standard 200-Stamina Strike Evasive classification, distinguishing the DBS Super Hero variant's separate 300-Stamina behavior.
 - Commits: `e9137154c07aae27cc84381339c75c21a5566aed` (skills), `ac1aa3c0ef15187758ded91c21b69d79dc65c3da` (coverage audit).
 - Exact next task: continue the pre-2026-09-20 canonical audit, prioritizing conflicting reward gates and remaining type/cost discrepancies rather than adding low-confidence detail.
+
+
+### 2026-09-20 cycle update — exact PQ provenance for four evasives
+- Refined **Headshot** → PQ69 — "God of Destruction and His Master" Basic Reward.
+- Refined **Rolling Bullet** → PQ42 — "Artificial Warriors" Basic Reward.
+- Refined **Victory Cannon** → PQ54 — "Majin Revival" Basic Reward.
+- Refined **Energy Field** → PQ29 — "The Androids Attack" Basic Reward.
+- Dedicated skill evidence also confirms their existing canonical stamina/type classifications; no unsupported drop probabilities or Ultimate Finish-only gates were added.
+- Commits: `e540e613f4f2bea20ef9cfda1d9c11e741aa85be` (skills), `622a662765d150c90c402aee3ad83fc78fec71ef` (coverage audit).
+- Exact next task: continue the pre-2026-09-20 audit for remaining unresolved acquisition semantics and canonical type/cost discrepancies.
