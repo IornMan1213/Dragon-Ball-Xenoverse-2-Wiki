@@ -3394,3 +3394,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - External publisher/store listings corroborate the repository's DLC taxonomy: Extra Pack 2 is a distinct paid pack with 8 skills; Ultra Pack 2 is a distinct pack with 8 skills; Conton City Vote Pack is separately identified with 10 additional moves. citeturn0search0turn0search2turn0search9
 - No canonical skill record required modification in this sweep. Audit note committed as `adba139162d7969901a14e36cbd1033a0800d81b`.
 - Exact next task: continue the 78-record second pass on acquisition/source-field contradictions and non-DLC provenance (shops, character-only routes, wishes, mentors, raids/events), then inspect the newest Actions state and update this handoff.
+
+
+### 2026-09-20 cycle update — skill-shop provenance recheck
+- Rechecked the remaining four `verified_current_scope` records with `acquisition_type: skill_shop`: **Explosive Wave, Punisher Guard, Final Pose, Time Bullet**.
+- Their canonical shop acquisition, Base Game provenance, and current unlock fields remain internally consistent; no evidence-supported correction was identified.
+- Audit note committed as `815e26ee2a0e6f28d1ecd5f929054660e96527c6`.
+- Next task: continue the second-pass audit of the remaining quest/mission and character-only records, prioritizing ambiguous unlock/source wording and later-update provenance. Do not broaden claims when evidence is insufficient.
