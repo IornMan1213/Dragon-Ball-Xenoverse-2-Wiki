@@ -3273,7 +3273,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random reward from Parallel Quest 151 — \"The Ultimate Battle of the Universe\"",
+      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (50% bonus roll)",
       "source_quest_or_shop": "PQ151",
       "ultimate_finish_required": false,
       "skill_description": "Spirit Pulse is a Super Ki Blast skill used by Goku (Ultra Instinct -Sign-).",
@@ -3289,7 +3289,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ151 and describes Spirit Pulse as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ151 and describes Spirit Pulse as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Stone Bullet",
@@ -3472,9 +3472,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random reward from Parallel Quest 153 — \"A Power-Bearing Fusion!\"",
+      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Ultimate Finish reward (45% roll)",
       "source_quest_or_shop": "PQ153",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Wild Buster is a Super Ki Blast skill used by Vegeta (GT).",
       "mechanics_notes": "Confirmed as Vegeta (GT)'s 100-Ki Ki Blast Super from PQ153. Exact drop gating and some numerical mechanics remain bounded. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
@@ -3488,7 +3488,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 153,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Afterimage",
@@ -4743,9 +4743,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random reward from Parallel Quest 160 — \"Pan in Peril\"",
+      "unlock_method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish reward (40% roll)",
       "source_quest_or_shop": "PQ160",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Demon Flurry is a Super Strike skill used by Gohan (Beast).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
@@ -4759,7 +4759,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 160,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ160 and describes Demon Flurry as a random Parallel Quest reward; no specific reward tier is inferred."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ160 and describes Demon Flurry as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Demonic Destruction",
@@ -4771,9 +4771,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random reward from Parallel Quest 159 — \"The Fiendish Super Saiyan\"",
+      "unlock_method": "Parallel Quest 159 — \"Lights! Camera! Super Heroes!\" Ultimate Finish reward (40% bonus roll)",
       "source_quest_or_shop": "PQ159",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Demonic Destruction is a Super Strike skill used by Orange Piccolo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
@@ -4787,7 +4787,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Destruction's Conductor",
@@ -5137,9 +5137,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random reward from Parallel Quest 156 — \"Hunting Down Dr. Hedo\"",
+      "unlock_method": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\" Ultimate Finish reward (40% roll)",
       "source_quest_or_shop": "PQ156",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Heroic Assault is a Super Strike skill used by Gamma 1.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
@@ -5153,7 +5153,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation explicitly describes Heroic Assault as randomly obtainable from PQ156; no specific reward tier is inferred."
+      "notes": "2026-09-20 audit: dedicated skill documentation explicitly describes Heroic Assault as randomly obtainable from PQ156; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
     },
     {
       "name": "Justice Blade",
