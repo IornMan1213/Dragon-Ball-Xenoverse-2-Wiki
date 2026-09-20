@@ -5763,7 +5763,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races",
+      "race_restriction": null,
       "source_quest": 67,
       "acquisition_type": "quest_or_mission"
     },
@@ -5792,7 +5792,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races",
+      "race_restriction": null,
       "source_quest": 123,
       "acquisition_type": "quest_or_mission"
     },
@@ -5900,7 +5900,7 @@
       "research_status": "verified",
       "last_verified": "2026-09-20",
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races",
+      "race_restriction": null,
       "source_quest": 148,
       "acquisition_type": "quest_or_mission"
     },
@@ -5957,7 +5957,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races",
+      "race_restriction": null,
       "source_quest": 46,
       "acquisition_type": "quest_or_mission"
     },
@@ -5987,7 +5987,7 @@
       ],
       "source_quest": 184,
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 source reconciliation: current PQ reward evidence explicitly places this skill in the Basic Reward pool; the Ultimate Finish flag is stale.",
-      "race_restriction": "All CaC races",
+      "race_restriction": null,
       "acquisition_type": "quest_or_mission"
     },
     {
@@ -6014,7 +6014,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races",
+      "race_restriction": null,
       "source_quest": 154,
       "acquisition_type": "quest_or_mission"
     },
