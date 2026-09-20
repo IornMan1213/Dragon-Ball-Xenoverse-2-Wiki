@@ -416,7 +416,8 @@
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 500,
       "dlc_requirement": "Free Update 1",
-      "acquisition_type": "character_only"
+      "acquisition_type": "character_only",
+      "notes": ""
     },
     {
       "name": "Super Saiyan 2",
@@ -463,7 +464,8 @@
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 500,
       "dlc_requirement": "Base Game",
-      "acquisition_type": "character_only"
+      "acquisition_type": "character_only",
+      "notes": ""
     },
     {
       "name": "Supersonic Mode",
@@ -486,7 +488,8 @@
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
       "ki_cost": 0,
       "dlc_requirement": "Conton City Vote Pack",
-      "acquisition_type": "character_only"
+      "acquisition_type": "character_only",
+      "notes": ""
     },
     {
       "name": "Ultra Instinct",
@@ -535,7 +538,8 @@
       "mechanics": "Ki Blast Super: brief barrier grants protection while active, then fires a single-hit Ki wave.",
       "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
       "source_quest": "Shenron wish",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Burst Rush",
@@ -558,7 +562,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Change The Future",
@@ -581,7 +586,8 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest": "Parallel Quest 43 — Change the Future",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Counter Burst",
@@ -604,7 +610,8 @@
       "dlc_requirement": "Base Game",
       "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": "Parallel Quest 75 — Room to Spare",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Counter Impact",
@@ -627,7 +634,8 @@
       "dlc_requirement": "Conton City Vote Pack",
       "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": "Parallel Quest 153 — Seeing Double",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Demon Flash Strike",
@@ -650,7 +658,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Hero of Justice Pack 2",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dimensional Hole",
@@ -672,7 +681,8 @@
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current dataset evidence identifies Dimensional Hole as a Ki Blast Super from PQ80 with 0 Ki recorded. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Flash Fist Crush",
@@ -695,7 +705,8 @@
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": "Shenron wish",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "God Breaker",
@@ -718,7 +729,8 @@
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Heroic Counter",
@@ -741,7 +753,8 @@
       "dlc_requirement": "Hero of Justice Pack 1",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Punisher Shield",
@@ -764,7 +777,8 @@
       "dlc_requirement": "Extra Pack 4",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current dedicated evidence confirms Punisher Shield as a 100-Ki Ki Blast Super, universal counter, from PQ129. SSGSS Gogeta is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Reverse Mabakusenko",
@@ -786,7 +800,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "skill_shop"
+      "acquisition_type": "skill_shop",
+      "notes": ""
     },
     {
       "name": "Rough Ranger",
@@ -809,7 +824,8 @@
       "dlc_requirement": "Extra Pack 2",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current dedicated evidence confirms Rough Ranger as a 100-Ki Strike Super, universal counter, from PQ119. Android 17 (DB Super) is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Shadow Crusher",
@@ -832,7 +848,8 @@
       "dlc_requirement": "Base Game",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "source_quest": "Cooler (Final Form) mentor training",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Sudden Death Beam",
@@ -854,7 +871,8 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game + later STP/raid distribution",
       "mechanics_notes": "Current dataset acquisition evidence remains TP Medal Shop / STP Medal Shop / Double Crystal Raid with 100 Ki. Dedicated current-version page access was unavailable in this pass, so the existing acquisition record is retained without inventing additional scope. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Super Afterimage",
@@ -877,7 +895,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
-      "acquisition_type": "skill_shop"
+      "acquisition_type": "skill_shop",
+      "notes": ""
     },
     {
       "name": "Super God Shock Flash",
@@ -899,7 +918,8 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super and melee counter obtained from the Skill Shop. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
-      "acquisition_type": "skill_shop"
+      "acquisition_type": "skill_shop",
+      "notes": ""
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -922,7 +942,8 @@
       "dlc_requirement": "Base Game",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -945,7 +966,8 @@
       "dlc_requirement": "Base Game",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -968,7 +990,8 @@
       "dlc_requirement": "Base Game",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Ultrasonic Blitz",
@@ -991,7 +1014,8 @@
       "dlc_requirement": "Conton City Vote Pack",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super counter obtained from Parallel Quest 151. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Parallel Quest 151 — Even Further Beyond",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Absolute Zero",
@@ -1017,7 +1041,8 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Celestial Wave",
@@ -1044,7 +1069,8 @@
       "source_quest": 151,
       "mechanics": "Ki Blast Evasive; launches a 7-hit wave and costs 300 Stamina.",
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dragon Burn",
@@ -1070,7 +1096,8 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Explosive Wave",
@@ -1096,7 +1123,8 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 5,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Force Shield",
@@ -1123,7 +1151,8 @@
       ],
       "source_quest": 59,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Instant Rise",
@@ -1150,7 +1179,8 @@
       ],
       "source_quest": 37,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Ki Explosion",
@@ -1177,7 +1207,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 77",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Maiden Burst",
@@ -1204,7 +1235,8 @@
       ],
       "source_quest": 92,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Mighty Explosive Wave",
@@ -1232,7 +1264,8 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Parallel Quest 79",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Psychic Move",
@@ -1260,7 +1293,8 @@
       "source_quest": 73,
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Punisher Guard",
@@ -1285,7 +1319,8 @@
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "acquisition_type": "skill_shop"
+      "acquisition_type": "skill_shop",
+      "notes": ""
     },
     {
       "name": "Side Bridge",
@@ -1312,7 +1347,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 39",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Spread Shot Retreat",
@@ -1340,7 +1376,8 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Parallel Quest 28",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Steel Mirage",
@@ -1367,7 +1404,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 165",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Final Pose",
@@ -1393,7 +1431,8 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 74,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Mach Dash",
@@ -1421,7 +1460,8 @@
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Angry Shout",
@@ -1447,7 +1487,8 @@
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Energy Barrier",
@@ -1474,7 +1515,8 @@
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Spirit Explosion",
@@ -1502,7 +1544,8 @@
       "source_quest": 25,
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Spirit Slash",
@@ -1530,7 +1573,8 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Parallel Quest 02 — A Deal?! The Saiyan Brothers",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Atomic Blast",
@@ -1557,7 +1601,8 @@
       ],
       "source_quest": 87,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Bending Kamehameha",
@@ -1578,7 +1623,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "skill_shop"
+      "acquisition_type": "skill_shop",
+      "notes": ""
     },
     {
       "name": "Big Bang Kamehameha",
@@ -1599,7 +1645,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Big Bang Knuckle",
@@ -1657,7 +1704,8 @@
       ],
       "source_quest": 125,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Bluff Kamehameha",
@@ -1684,7 +1732,8 @@
       ],
       "source_quest": 94,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Breaker Energy Wave",
@@ -1711,7 +1760,8 @@
       ],
       "source_quest": 101,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Burning Attack",
@@ -1738,7 +1788,8 @@
       ],
       "source_quest": 41,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Burst Kamehameha",
@@ -1765,7 +1816,8 @@
       ],
       "source_quest": 72,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Burst Stinger",
@@ -1793,7 +1845,8 @@
       ],
       "source_quest": 136,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Buu Buu Ball",
@@ -1821,7 +1874,8 @@
       ],
       "source_quest": 88,
       "race_restriction": "Majin (Pure Majin form)",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Candy Beam",
@@ -1848,7 +1902,8 @@
       ],
       "source_quest": 66,
       "race_restriction": "Majin",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Candy Beam (Super)",
@@ -1874,7 +1929,8 @@
       ],
       "source_quest": 113,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Crazy Finger Shot",
@@ -1903,7 +1959,8 @@
       "ultimate_finish_required": false,
       "source_quest": 26,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dark Inscription",
@@ -1930,7 +1987,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 182 — Frieza's Fervent Wish",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Death Psycho Bomb",
@@ -1958,7 +2016,8 @@
       ],
       "source_quest": 33,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Demon Ray",
@@ -1985,7 +2044,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 160 — Pan in Peril",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Destruction's Concerto: Comet",
@@ -2012,7 +2072,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 104 — Vados the Talent Scout",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Destruction's Concerto: Starfall",
@@ -2039,7 +2100,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 104 — Vados the Talent Scout",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Destructo-Disc",
@@ -2061,7 +2123,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dimension Cannon",
@@ -2088,7 +2151,8 @@
       ],
       "source_quest": 59,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Divine Kamehameha",
@@ -2111,7 +2175,8 @@
       "mechanics": "Moving Kamehameha Super with directional movement during charge; additional input can fire early; 15-hit beam.",
       "research_status": "enriched",
       "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super sold through the TP Medal Shop and usable by all CaC races. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input.",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Divine Spear",
@@ -2137,7 +2202,8 @@
       ],
       "race_restriction": "Character-only",
       "source_quest": "PQ171 / PQ172",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Double Death Slicer",
@@ -2164,7 +2230,8 @@
       ],
       "source_quest": 24,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dust Attack",
@@ -2191,7 +2258,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 78",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Earth Splitting Galick Gun",
@@ -2219,7 +2287,8 @@
       ],
       "source_quest": 11,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Emperor's Blast",
@@ -2242,7 +2311,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 70",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Emperor's Cannon",
@@ -2269,7 +2339,8 @@
       ],
       "source_quest": 184,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Eraser Bomb",
@@ -2296,7 +2367,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 163,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Evil Blast",
@@ -2324,7 +2396,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 114",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Evil Flame",
@@ -2353,7 +2426,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 117",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Final Cannon",
@@ -2381,7 +2455,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 52",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Final Flash (Super)",
@@ -2402,7 +2477,8 @@
       "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "race_restriction": "Character-only",
       "dlc_requirement": "Ultra Pack 1",
-      "acquisition_type": "character_only"
+      "acquisition_type": "character_only",
+      "notes": ""
     },
     {
       "name": "Flash Chaser",
@@ -2431,7 +2507,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 138",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Galick Gun",
@@ -2453,7 +2530,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Gamma Blaster",
@@ -2481,7 +2559,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 155",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Giant Cluster",
@@ -2564,7 +2643,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 175,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "God Punisher",
@@ -2593,7 +2673,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 132,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Handy Canon",
@@ -2651,7 +2732,8 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Parallel Quest 69",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Heat Wave",
@@ -2678,7 +2760,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 179,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Ill Bomber",
@@ -2706,7 +2789,8 @@
       ],
       "race_restriction": "Majin",
       "source_quest": 90,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Ill Rain",
@@ -2733,7 +2817,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 64",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Kamehameha",
@@ -2754,7 +2839,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 05",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Masenko",
@@ -2776,7 +2862,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Kid) mentor training — School Quest Lesson 2",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Paralysis",
@@ -2803,7 +2890,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 34",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Paralyze Beam",
@@ -2830,7 +2918,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 04",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Pendulum Bullet",
@@ -2857,7 +2946,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 166,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Perfect Shot",
@@ -2880,7 +2970,8 @@
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot.",
       "source_quest": "Cell (Perfect) mentor training",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Photon Swipe",
@@ -2909,7 +3000,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 139",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Pretty Cannon",
@@ -2937,7 +3029,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 133",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Raid Blast",
@@ -2966,7 +3059,8 @@
       ],
       "source_quest": 136,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Ray Blast",
@@ -2994,7 +3088,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 125,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Reverse Shot",
@@ -3022,7 +3117,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 123,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Rolling Bullet",
@@ -3050,7 +3146,8 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Parallel Quest 42",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Shine Shot",
@@ -3077,7 +3174,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 7,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Spirit Blaster",
@@ -3105,7 +3203,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 129,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Spirit Bomb",
@@ -3128,7 +3227,8 @@
       "research_status": "enriched",
       "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile.",
       "source_quest": "Goku mentor training",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Spirit Pulse",
@@ -3155,7 +3255,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 151,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Stone Bullet",
@@ -3183,7 +3284,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 56,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Super Donut Volley",
@@ -3210,7 +3312,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 55,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Super Ghost Buu Attack",
@@ -3266,7 +3369,8 @@
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "race_restriction": "Majin (Pure Majin form)",
       "source_quest": 58,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Variable Snipe Shot",
@@ -3293,7 +3397,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 165,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Victory Cannon",
@@ -3321,7 +3426,8 @@
       "source_quest": 54,
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Wild Buster",
@@ -3348,7 +3454,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 153,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Afterimage",
@@ -3370,7 +3477,8 @@
       "mechanics": "Teleport/evasion movement: user leaves an afterimage and can redirect during the move.",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained.",
-      "acquisition_type": "starting_move"
+      "acquisition_type": "starting_move",
+      "notes": ""
     },
     {
       "name": "Afterimage Strike",
@@ -3392,7 +3500,8 @@
       "race_restriction": "All CaC races",
       "source_quest": 81,
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Assault Vanish",
@@ -3415,7 +3524,8 @@
       "stamina_cost": 100,
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "source_quest": 131,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Burst Charge",
@@ -3440,7 +3550,8 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack-era DLC",
       "mechanics_notes": "Confirmed as Other Super from PQ134 and usable by all CaC races. It starts charging extremely quickly and slows over time, making short bursts its intended use.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Charged Ki Wave",
@@ -3462,7 +3573,8 @@
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki.",
       "source_quest": 97,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dancing Parapara",
@@ -3485,7 +3597,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Pan's Initiation Test / mentor training",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Energy Charge",
@@ -3506,7 +3619,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Advancement Test — Easy Class",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Energy Release",
@@ -3527,7 +3641,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "character_only"
+      "acquisition_type": "character_only",
+      "notes": ""
     },
     {
       "name": "Final Charge",
@@ -3551,7 +3666,8 @@
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "race_restriction": "Character-only",
-      "acquisition_type": "other_nonquest"
+      "acquisition_type": "other_nonquest",
+      "notes": ""
     },
     {
       "name": "Full Power Charge",
@@ -3573,7 +3689,8 @@
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge.",
       "source_quest": "Advancement Test — Advanced Class",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Hero's Flute",
@@ -3601,7 +3718,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "source_quest": 116,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Instant Charge",
@@ -3622,7 +3740,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "character_only"
+      "acquisition_type": "character_only",
+      "notes": ""
     },
     {
       "name": "Instant Transmission",
@@ -3645,7 +3764,8 @@
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost.",
       "source_quest": "Goku mentor training — Lesson 1",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Kai Kai",
@@ -3671,7 +3791,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 63,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Maximum Charge",
@@ -3693,7 +3814,8 @@
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills.",
       "source_quest": "Advancement Test — God Class",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Petrifying Spit",
@@ -3719,7 +3841,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 114,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Phantom Fist",
@@ -3741,7 +3864,8 @@
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 97,
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Quick Sleep",
@@ -3763,7 +3887,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super sold in the Skill Shop after defeating Mira (Final Form). It puts the user to sleep to recover stamina/health while vulnerable; restricted to Majin CaCs.",
-      "acquisition_type": "skill_shop"
+      "acquisition_type": "skill_shop",
+      "notes": ""
     },
     {
       "name": "Rise to Action",
@@ -3785,7 +3910,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Krillin's Initiation Test / mentor training",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Rising Rage",
@@ -3805,7 +3931,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "character_only"
+      "acquisition_type": "character_only",
+      "notes": ""
     },
     {
       "name": "Shield Barrier",
@@ -3827,7 +3954,8 @@
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 153,
       "dlc_requirement": "Conton City Vote Pack",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Solar Flare",
@@ -3848,7 +3976,8 @@
       "race_restriction": "All CaC races",
       "source_quest": 1,
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Spirit Boost",
@@ -3870,7 +3999,8 @@
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "skill_shop"
+      "acquisition_type": "skill_shop",
+      "notes": ""
     },
     {
       "name": "Super Guard",
@@ -3894,7 +4024,8 @@
       "last_verified": "2026-09-19",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki.",
       "source_quest": "Starting fighting-style choice — \"I want to fight up close\"",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Surging Spirit",
@@ -3919,7 +4050,8 @@
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Charge/action associated with Ultra Instinct Goku variants; current versions allow CaCs to access the technique through Ultra Instinct's built-in action. Current evidence documents N/A unlock and access only as an Ultra Instinct built-in CaC action; it is not an Ultimate Finish reward.",
-      "acquisition_type": "other_nonquest"
+      "acquisition_type": "other_nonquest",
+      "notes": ""
     },
     {
       "name": "Time Bullet",
@@ -3941,7 +4073,8 @@
       "race_restriction": "All CaC races",
       "source_quest": "Decisive Battle with Majin Buu",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Time Control",
@@ -3969,7 +4102,8 @@
       ],
       "source_quest": 18,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Ultimate Charge",
@@ -3993,7 +4127,8 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack-era DLC",
       "mechanics_notes": "Confirmed as the 0-Ki Other Super from PQ134's Ultimate Finish, usable by all CaC races. Its charge rate improves the longer the charge is maintained.",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Wall of Defense",
@@ -4014,7 +4149,8 @@
       "race_restriction": "All CaC races",
       "source_quest": 10,
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Charge",
@@ -4041,7 +4177,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 83,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Data Input",
@@ -4063,7 +4200,8 @@
       "dlc_requirement": "Extra Pack 1",
       "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom",
       "source_quest": "Expert Mission 20 — Harbinger of Doom",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Divinity Unleashed",
@@ -4089,7 +4227,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 110,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Do or Die",
@@ -4115,7 +4254,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 49,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Fighting Pose E",
@@ -4142,7 +4282,8 @@
       "duration_seconds": 20,
       "race_restriction": "All CaC races",
       "source_quest": 19,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Fighting Pose H",
@@ -4168,7 +4309,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 61,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Fighting Pose K",
@@ -4192,7 +4334,8 @@
       "character_source": "Recoome",
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Formation!",
@@ -4221,7 +4364,8 @@
       ],
       "source_quest": 133,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Indomitable",
@@ -4250,7 +4394,8 @@
       "mechanics": "Charges Ki and Stamina simultaneously. Recent community testing reports a slow baseline Ki charge that becomes substantially faster below 50% health; exact timing and whether the threshold applies identically across all contexts remain partially verified.",
       "race_restriction": "All CaC races",
       "source_quest": 185,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Justice Pose",
@@ -4279,7 +4424,8 @@
       "duration_seconds": 20,
       "race_restriction": "All CaC races",
       "source_quest": 53,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Meditation",
@@ -4303,7 +4449,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Taunt",
@@ -4329,7 +4476,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 45,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Blazing Attack",
@@ -4356,7 +4504,8 @@
       ],
       "source_quest": 136,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Brave Sword Slash",
@@ -4384,7 +4533,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 116,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Burning Slash",
@@ -4412,7 +4562,8 @@
       "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest_or_shop": "Parallel Quest 44",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Burning Swan",
@@ -4439,7 +4590,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 167,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Burst Blitz",
@@ -4466,7 +4618,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 178,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Crimson Edge",
@@ -4492,7 +4645,8 @@
       ],
       "race_restriction": "Character-only",
       "source_quest": "PQ171 / PQ172",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Deadly Dance",
@@ -4514,7 +4668,8 @@
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension.",
       "source_quest": "Android 18 mentor training",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Death Slash",
@@ -4541,7 +4696,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 23,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Demon Flurry",
@@ -4568,7 +4724,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 160,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Demonic Destruction",
@@ -4595,7 +4752,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 159,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Destruction's Conductor",
@@ -4622,7 +4780,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 106,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dragon Spark",
@@ -4649,7 +4808,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 177,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dragon Spiral",
@@ -4677,7 +4837,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 185,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dragon Thunder",
@@ -4698,7 +4859,8 @@
       "source_quest_or_shop": "Character skill",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "character_only"
+      "acquisition_type": "character_only",
+      "notes": ""
     },
     {
       "name": "Emperor's Edge",
@@ -4727,7 +4889,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 99,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Evil Flight Strike",
@@ -4756,7 +4919,8 @@
       "source_quest_or_shop": "Parallel Quest 21",
       "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent.",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Evil Whirlwind",
@@ -4783,7 +4947,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 36,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Fierce Fist",
@@ -4810,7 +4975,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 159,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Force Edge",
@@ -4837,7 +5003,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 180,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Freedom Kick",
@@ -4864,7 +5031,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 29,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Gamma Impact",
@@ -4891,7 +5059,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 155,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "God of Destruction's Poise",
@@ -4919,7 +5088,8 @@
       "ki_cost_note": "Variable: 100 base, up to 300 when extended.",
       "race_restriction": "All CaC races",
       "source_quest": 175,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Heroic Assault",
@@ -4946,7 +5116,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 156,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Justice Blade",
@@ -4973,7 +5144,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 152,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Justice Drive",
@@ -5000,7 +5172,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 168,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Justice Kick",
@@ -5027,7 +5200,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 152,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Lovely Cyclone",
@@ -5055,7 +5229,8 @@
       ],
       "source_quest": 135,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Mach Punch",
@@ -5082,7 +5257,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 19,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Meteor Blow",
@@ -5109,7 +5285,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 9,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Meteor Strike",
@@ -5136,7 +5313,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 6,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Namek Finger",
@@ -5162,7 +5340,8 @@
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill.",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -5189,7 +5368,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 86,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Power Impact",
@@ -5217,7 +5397,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 120,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Powered Shell",
@@ -5245,7 +5426,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 128,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Pressure Sign",
@@ -5265,7 +5447,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "mechanics_notes": "100 Ki Strike Super from the Conton City Skill Shop; short-range strike technique used to pressure the opponent.",
-      "acquisition_type": "skill_shop"
+      "acquisition_type": "skill_shop",
+      "notes": ""
     },
     {
       "name": "Recoome Kick",
@@ -5292,7 +5475,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 61,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Sauzer Blade",
@@ -5319,7 +5503,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 27,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Savory Slicer",
@@ -5347,7 +5532,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 140,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Scissors Paper Rock",
@@ -5374,7 +5560,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 65,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Seagull Combination",
@@ -5401,7 +5588,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 167,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Shining Slash",
@@ -5429,7 +5617,8 @@
       "source_quest_or_shop": "Parallel Quest 38",
       "mechanics_notes": "100 Ki Strike Super from PQ38; sword-based strike technique associated with Trunks and restricted to the documented Human/Earthling and Saiyan CaC scope. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Shooting Strike",
@@ -5456,7 +5645,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 156,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Soaring Rush",
@@ -5483,7 +5673,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 177,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Sonic Bomb",
@@ -5510,7 +5701,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 105,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Super God Fist",
@@ -5593,7 +5785,8 @@
       ],
       "race_restriction": "Character-only",
       "source_quest": "PQ171 / PQ172",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Zigzag Express",
@@ -5621,7 +5814,8 @@
       ],
       "race_restriction": "Majin male",
       "source_quest": 85,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Apocalyptic Burst",
@@ -5815,7 +6009,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 158,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Death Ball",
@@ -5839,7 +6034,8 @@
       "source_quest_or_shop": "Frieza mentor — Intergalactic Emperor of Evil 3",
       "source_quest": "Frieza mentor — Intergalactic Emperor of Evil 3",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -5867,7 +6063,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 106,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dimension Ray",
@@ -5895,7 +6092,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 98,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Divine Ray Bomb",
@@ -5921,7 +6119,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 173,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Emperor's Death Beam",
@@ -5944,7 +6143,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Energy Field",
@@ -5971,7 +6171,8 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 29,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Final Explosion",
@@ -5994,7 +6195,8 @@
       "source_quest_or_shop": "TP Medal Shop",
       "research_status": "enriched",
       "mechanics_notes": "500 Ki Ki Blast Ultimate; user detonates a large area explosion around themselves, consuming health during the technique.",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
@@ -6097,7 +6299,8 @@
       "description": "Focus your Ki into your fist and charge forward with a powerful strike. Missing leaves you vulnerable.",
       "race_restriction": "All CaC races",
       "source_quest": 126,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Gigantic Burst",
@@ -6121,7 +6324,8 @@
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races",
       "source_quest": 127,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Gigantic Explosion",
@@ -6148,7 +6352,8 @@
       "mechanics": "Requires an Awoken Skill for CaCs; releases a large area explosion. Costs 600 Ki and can spend 400 Stamina to continue while taking damage.",
       "race_restriction": "All CaC races",
       "source_quest": 164,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Gigantic Roar",
@@ -6174,7 +6379,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 132,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "God of Destruction's Menace",
@@ -6201,7 +6407,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 105,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "God of Destruction's Roar",
@@ -6227,7 +6434,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 105,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Heat Dome Attack",
@@ -6253,7 +6461,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 40,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Holy Wrath",
@@ -6279,7 +6488,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 111,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Last Emperor",
@@ -6305,7 +6515,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 71,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Lightning Impact",
@@ -6327,7 +6538,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "source_quest": 142,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Lightning of Absolution",
@@ -6353,7 +6565,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 111,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Majin Kamehameha",
@@ -6382,7 +6595,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 60,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Mystic Flash",
@@ -6406,7 +6620,8 @@
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races",
       "source_quest": 20,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Prominence Flash",
@@ -6454,7 +6669,8 @@
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races",
       "source_quest": 106,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Revenge Death Ball",
@@ -6481,7 +6697,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 127,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Revenge Final Flash",
@@ -6508,7 +6725,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 124,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Ribrianne's Eternal Love",
@@ -6535,7 +6753,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 137,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "S.S. Deadly Bomber",
@@ -6564,7 +6783,8 @@
       "mechanics": "400 Ki; tracking Ki-ball projectile that follows the opponent and deals damage across multiple hits.",
       "race_restriction": "All CaC races",
       "source_quest": 115,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Sign of Awakening",
@@ -6591,7 +6811,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 154,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Special Beam Cannon (Beast)",
@@ -6618,7 +6839,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 162,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Super Black Kamehameha Rosé",
@@ -6646,7 +6868,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 109,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Super Gamma Blast",
@@ -6673,7 +6896,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 158,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
@@ -6697,7 +6921,8 @@
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Super Spirit Bomb",
@@ -6720,7 +6945,8 @@
       "research_status": "enriched",
       "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile.",
       "source_quest": "Expert Mission 16 — In the Realm of the Gods: Vegeta",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Supernova",
@@ -6742,7 +6968,8 @@
       "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere.",
       "source_quest": "Expert Mission 6 — The Depths of Despair",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -6770,7 +6997,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 62,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Thunder Flash",
@@ -6822,7 +7050,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 139,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Warp Kamehameha",
@@ -6849,7 +7078,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 76,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "X 100 Big Bang Kamehameha",
@@ -6877,7 +7107,8 @@
       ],
       "source_quest": 100,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Blades of Judgment",
@@ -6904,7 +7135,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 112,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Brave Sword Attack",
@@ -6933,7 +7165,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 117,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Darkness Rush (Melee)",
@@ -6957,7 +7190,8 @@
       "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -7008,7 +7242,8 @@
       "research_status": "enriched",
       "mechanics_notes": "300 Ki Ultimate. TP Medal Shop/STP Medal Shop availability is rotation-dependent; the official 2017 update explicitly scheduled Divine Lasso in the TP Medal Shop.",
       "dlc_requirement": "Free Update 3",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Divine Wrath: Purification",
@@ -7036,7 +7271,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 112,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Dragon Fist",
@@ -7059,7 +7295,8 @@
       "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price.",
       "source_quest_or_shop": "TP Medal Shop",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -7114,7 +7351,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 174,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Gigantic Rage",
@@ -7142,7 +7380,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 130,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Godly Display",
@@ -7165,7 +7404,8 @@
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent.",
       "dlc_requirement": "Free Update 12",
-      "acquisition_type": "tp_medal_shop"
+      "acquisition_type": "tp_medal_shop",
+      "notes": ""
     },
     {
       "name": "Power Rush",
@@ -7194,7 +7434,8 @@
       ],
       "source_quest": 122,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Saiyan Spirit",
@@ -7222,7 +7463,8 @@
       ],
       "race_restriction": "Saiyan",
       "source_quest": 84,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Super Dragon Flight",
@@ -7249,7 +7491,8 @@
       ],
       "source_quest": 31,
       "race_restriction": "All CaC races",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Supreme Fury",
@@ -7275,7 +7518,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 179,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Unrelenting Barrage",
@@ -7301,7 +7545,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 10,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Venus Fist",
@@ -7327,7 +7572,8 @@
       ],
       "race_restriction": "All CaC races",
       "source_quest": 186,
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     },
     {
       "name": "Victory Rush",
@@ -7349,7 +7595,8 @@
       "source_quest_or_shop": "Parallel Quest 89",
       "source_quest": 89,
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission"
+      "acquisition_type": "quest_or_mission",
+      "notes": ""
     }
   ],
   "record_count": 283
