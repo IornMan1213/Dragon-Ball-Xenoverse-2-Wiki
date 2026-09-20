@@ -2645,22 +2645,23 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
-      "source_quest_or_shop": "PQ175 reward context",
+      "unlock_method": "Parallel Quest 175 — \"Who's the Next Leader?!\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 175 — \"Who's the Next Leader?!\"",
       "ultimate_finish_required": false,
       "skill_description": "God of Destruction's Plaything is a Super Ki Blast skill associated with God of Destruction Belmod.",
-      "mechanics_notes": "Current evidence confirms God of Destruction's Plaything as a Belmod Super from PQ175. The existing 100-Ki record and CaC usability are retained pending stronger dedicated numeric evidence. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super associated with God of Destruction Belmod. Current maintained PQ reward evidence places it in PQ175's Basic Reward list. Exact individual drop probability and additional numerical hit/damage details remain unverified; no unsupported probability or Ultimate Finish-only condition is assigned.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 175,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 acquisition refinement: PQ175's maintained reward listing explicitly places God of Destruction's Plaything in the Basic Reward section, so the canonical record now uses the concrete quest and reward classification rather than generic 'PQ175 reward context'."
     },
     {
       "name": "God Punisher",
