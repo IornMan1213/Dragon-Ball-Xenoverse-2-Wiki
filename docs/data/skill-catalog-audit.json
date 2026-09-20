@@ -80,8 +80,9 @@
     "2026-09-20: Promoted Variant Drive (PQ123), Zigzag Express (PQ85), and Blaster Stream (PQ148) after current skill-page acquisition evidence and independent PQ reward listings. No new Ultimate Finish requirement was inferred.",
     "2026-09-20: Promoted Seagull Combination (PQ167), Apocalyptic Burst (PQ161), Chain Destructo-Disc Barrage (PQ46), and Circle Flash (PQ154) after explicit current acquisition pages and independent PQ reward corroboration.",
     "2026-09-20: Promoted Core Breaker (PQ158, Ultimate Finish), Death Ball (Frieza mentor training), Destruction's Concerto: Meteor (PQ106), and Dimension Ray (PQ98) after explicit current acquisition evidence.",
-    "2026-09-20: Promoted Gigantic Explosion (PQ164) to verified. Current PQ guide explicitly lists it as a Basic Reward; Chaotic Time Impact (PQ184) remains partial because current canonical data says Ultimate Finish while the current PQ guide lists it as Basic Reward, requiring separate reconciliation."
+    "2026-09-20: Promoted Gigantic Explosion (PQ164) to verified. Current PQ guide explicitly lists it as a Basic Reward; Chaotic Time Impact (PQ184) remains partial because current canonical data says Ultimate Finish while the current PQ guide lists it as Basic Reward, requiring separate reconciliation.",
+    "2026-09-20: Promoted Divine Ray Bomb (PQ173 Basic Reward), Emperor's Death Beam (TP Medal Shop), and Final Explosion (TP Medal Shop) to verified. Gigantic Breaker remains partial because its canonical class/description fields contain a Super-versus-Ultimate inconsistency; Sonic Bomb remains partial due conflicting Basic/Ultimate-Finish reward evidence."
   ],
-  "partially_verified_count": 39,
-  "verified_count": 165
+  "partially_verified_count": 36,
+  "verified_count": 168
 }
