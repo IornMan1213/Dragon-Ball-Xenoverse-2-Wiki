@@ -2932,3 +2932,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Re-synchronized `docs/data/skills-index.json`; 283 records remain.
 - Commits: `0551e9eb3fc82a1e08dc558715fa6cdeaf21f96f` (canonical), `871cd8f62809ca53658ec29b19374618bc7b5a26` (index), `c0a1ae9c45ece38c1892ba5dc4cfea07452c6494` (coverage audit).
 - Exact next task: continue the remaining generic/random PQ records after these tier-confirmed entries; preserve explicit random provenance and unresolved source conflicts.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 9
+- Refined **Atomic Blast** (PQ87 Basic), **Blaster Ball** (PQ125 Basic), **Destruction's Concerto: Comet** (PQ104 Basic), **God Punisher** (PQ132 Basic), and **Meteor Strike** (PQ6 Basic).
+- Re-synchronized `docs/data/skills-index.json`; 283 records remain.
+- Commits: `1f809f7e0370f93131fcc915ea67bd0f181fbaf5` (canonical), `16d7f842701d7c1c9cbe7b39610bbb7c4d19352d` (index), `c0fb1bd894d02e27a5fa4d010cedf0213081138a` (coverage audit).
+- Exact next task: continue remaining generic/random PQ records, prioritizing entries whose notes still lack concrete reward-tier evidence.
