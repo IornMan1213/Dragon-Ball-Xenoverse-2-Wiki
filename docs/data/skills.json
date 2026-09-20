@@ -654,13 +654,14 @@
       "source_quest_or_shop": "Parallel Quest 160",
       "ultimate_finish_required": false,
       "mechanics_notes": "Current dataset evidence identifies Demon Flash Strike as a 100-Ki Strike Super from PQ160 and a melee counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "source_quest": 160,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Hero of Justice Pack 2",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 evidence refinement: current PQ160 reward data places Demon Flash Strike in the Ultimate Finish bonus slots; dedicated skill documentation confirms PQ160.",
+      "method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish"
     },
     {
       "name": "Dimensional Hole",
@@ -1604,7 +1605,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Atomic Blast as a 100-Ki Ki Blast Super from PQ87. It is a chargeable Ki wave whose optimal damage depends on charge timing and whether the user is grounded. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Atomic_Blast",
@@ -1613,7 +1614,8 @@
       "source_quest": 87,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 evidence refinement: dedicated skill documentation confirms PQ87 acquisition. Exact reward tier is not asserted here without a sufficiently direct reward-table citation.",
+      "method": "Parallel Quest 87 — \"Saiyan Battle\" Reward"
     },
     {
       "name": "Bending Kamehameha",
@@ -1795,7 +1797,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Burning Attack as a 100-Ki Ki Blast Super from PQ41. The projectile explodes on impact and launches the opponent upward; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burning_Attack",
@@ -1804,7 +1806,8 @@
       "source_quest": 41,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 evidence refinement: PQ41 reward listings explicitly place Burning Attack in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "method": "Parallel Quest 41 — \"Warriors’ Annihilation - Future Chapters\" Basic Reward"
     },
     {
       "name": "Burst Kamehameha",
@@ -2686,7 +2689,7 @@
       "mechanics_notes": "Dedicated current-version evidence corrects God Punisher to a **400-Ki Ki Blast Ultimate**, not a 100-Ki Super. It is obtained from PQ132 and includes the rush/barrage mechanic; Festival variant behavior is documented separately. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/God_Punisher",
@@ -2697,7 +2700,8 @@
       "race_restriction": "All CaC races",
       "source_quest": 132,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 evidence refinement: dedicated skill documentation confirms PQ132 acquisition; the record retains generic reward wording because the inspected sources establish the quest but not a sufficiently reliable specific reward tier.",
+      "method": "Parallel Quest 132 — \"The Ultimate Legendary Super Saiyan\" Reward"
     },
     {
       "name": "Handy Canon",
