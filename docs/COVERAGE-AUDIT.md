@@ -3364,3 +3364,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Spirit Slash** was refined to the exact **PQ02 — "A Deal?! The Saiyan Brothers" Basic Reward** provenance while retaining the standard skill's documented 200-Stamina Strike Evasive classification. The separate DBS Super Hero Gohan variant's 300-Stamina behavior remains distinguished.
 - No unsupported drop probability or exclusive Ultimate Finish requirement was added.
 - Canonical data commit: `e9137154c07aae27cc84381339c75c21a5566aed`.
+
+
+## 2026-09-20 — Exact PQ provenance: Headshot / Rolling Bullet / Victory Cannon / Energy Field
+
+- Refined **Headshot** to PQ69 — "God of Destruction and His Master" Basic Reward; dedicated evidence confirms 300-Stamina Strike Evasive. citeturn2search5turn2youtube29
+- Refined **Rolling Bullet** to PQ42 — "Artificial Warriors" Basic Reward; dedicated evidence confirms 200-Stamina Ki Blast Evasive. citeturn2search2turn2search10
+- Refined **Victory Cannon** to PQ54 — "Majin Revival" Basic Reward; dedicated evidence confirms 300-Stamina Ki Blast Evasive and ~10% documented damage. citeturn2search0turn2youtube26
+- Refined **Energy Field** to PQ29 — "The Androids Attack" Basic Reward; dedicated evidence confirms 200-Stamina Ki Blast Evasive. citeturn2search1turn2search7
+- No drop probabilities or Ultimate Finish-only gates were invented.
+- Canonical data commit: `e540e613f4f2bea20ef9cfda1d9c11e741aa85be`.
