@@ -5,8 +5,8 @@
   "items": [
     {
       "domain": "Ki Blast Supers",
-      "issue": "The repository canonical catalog already contains Burst Stinger, but the Ki Blast Super batch omitted it. The live source category visibly lists Burst Stinger while reporting 'All items (183)'; after promotion the observed repository/source-name set is 184, so a complete set diff is still required. The skill also has conflicting character-attribution evidence (Goku UI vs Vegeta SSG).",
-      "action": "Complete the full source-vs-repository set diff, reconcile any source-only/repository-only names, and separately resolve or preserve the Burst Stinger character-attribution conflict using higher-priority or independent evidence.",
+      "issue": "Burst Stinger was missing from the repository's Ki Blast Super batch; after promotion the batch now contains 183 names and matches the source category's declared count. However, the pre-change batch actually contained only 182 names despite declaring 183, so at least one other source-vs-repository set-diff gap remains. Burst Stinger also has conflicting character-attribution evidence (Goku UI vs Vegeta SSG).",
+      "action": "Complete the full source-vs-repository set diff to identify the remaining source-only/repository-only name(s), then separately resolve or preserve the Burst Stinger character-attribution conflict using higher-priority or independent evidence.",
       "priority": "critical",
       "status": "open"
     },
