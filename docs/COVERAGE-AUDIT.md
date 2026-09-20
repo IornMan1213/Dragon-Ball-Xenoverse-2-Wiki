@@ -2878,3 +2878,12 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 - Data commit: `89078341d8b95d17d257ea9042073cf80a333d83`.
 - Live null `dlc_requirement` count after this batch: **19**.
 - Next priority: establish chronology for the remaining shop/mentor/character-only records without inferring DLC from the character who uses a skill.
+
+
+## 2026-09-19 — verification correction
+
+- A tentative shop-skill provenance edit for Shield Barrier, Divine Lasso, Dragon Fist, and Godly Display was **reverted immediately** because the available evidence did not establish their exact update/DLC provenance strongly enough.
+- No unsupported DLC values are retained for those four records.
+- Reversion commit: `f85b1553d829658503c978f03ed01936053c1b65`.
+- The `dlc_requirement` census therefore remains **19 nulls**.
+- Next work should continue from evidence-backed chronology only; do not infer a DLC/update from TP Medal Shop availability or character association.
