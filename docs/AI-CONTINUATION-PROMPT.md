@@ -3122,3 +3122,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - No canonical/index data change was necessary in this pass; only the audit trail was updated.
 - Audit commit: `ce7837930a16b9c36970d26858941c164c00551e`.
 - Exact next task: continue the CaC scope audit against the remaining race-restricted skills, prioritizing **Majin/Namekian-exclusive PQ skills and mixed-race restrictions**, and only change canonical data where a higher-priority or independently corroborated source establishes a discrepancy.
+
+
+### 2026-09-20 cycle update — detailed CaC race-restriction audit
+- Audited all **26 explicitly race-restricted canonical skills**.
+- Every restricted record is currently `usable_by_cac=true` with a concrete restriction; mixed restrictions and qualified restrictions are preserved rather than generalized.
+- Representative external references corroborate Namekian-exclusive, Majin-exclusive, Saiyan-exclusive, and Earthling/Saiyan restrictions. citeturn0search1turn0search2turn0search6turn0search8turn0search11
+- No canonical correction was justified in this pass.
+- Canonical/index parity check: **PASS** (283 canonical / 283 index records).
+- Audit commit: `8de19fa9c1585600e53bd73269b1fb8b16df6848`.
+- Exact next task: inspect the race-restricted records' **acquisition provenance and wording**, prioritizing the older PQ-derived restrictions (Angry Shout, Buu Buu Ball, Candy Beam, Ill Bomber, Vanishing Ball, Evil Flight Strike, Namek Finger, Zigzag Express, Darkness Rush (Ranged), Explosive Buu Buu Punch, Saiyan Spirit) for source/gate consistency.
