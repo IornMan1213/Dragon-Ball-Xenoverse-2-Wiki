@@ -6376,10 +6376,10 @@
       "source_quest_or_shop": "PQ164",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Explosion is a Ultimate Ki Blast skill associated with Broly.",
-      "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current skill page identifies PQ164 as the unlock; the current PQ guide explicitly lists Gigantic Explosion in PQ164 Basic Reward, separate from Ultimate Finish conditions.",
+      "verification_status": "verified",
+      "research_status": "verified",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
