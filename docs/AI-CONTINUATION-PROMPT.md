@@ -2886,3 +2886,18 @@ Only after data-completeness work, expose the improved structured research surfa
 - Artifact cleanup: removed legacy ChatGPT/internal citation markup from `docs/COVERAGE-AUDIT.md` and this handoff. Repository files must not contain internal UI citation markers.
 - CI: the latest push-triggered Repository quality and Clean internal artifacts runs for `433f66b2cc7a4e2d2170a0ccc82f501fe0116873` were queued at inspection time; Pages was pending. The immediately preceding five quality/data/cleanup runs for `7a231c02271bf7457ead59bb212e924d29f02e14` failed with **zero recorded workflow steps**. This remains the repository's recurring opaque pre-step infrastructure/account failure pattern; validators were not weakened or bypassed.
 - Exact next task: continue the remaining generic PQ acquisition audit in quest order, starting with **Unrelenting Barrage (PQ10), Sauzer Blade (PQ27), Heat Dome Attack (PQ40), and Chain Destructo-Disc Barrage (PQ46)**. Use the live PQ batch reward tables to distinguish Basic, random, and Ultimate Finish provenance; preserve generic wording when the evidence does not establish a reward tier.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 11
+- Continued P1 skill acquisition/type cleanup from the recorded PQ10/PQ27/PQ40/PQ46 frontier.
+- Refined four canonical records from maintained PQ batch data:
+  - **Unrelenting Barrage** → PQ10 — *Saiyan Survivors*, Basic Reward.
+  - **Sauzer Blade** → PQ27 — *Metal Cooler Riot*, Basic Reward.
+  - **Heat Dome Attack** → PQ40 — *The Future Warriors!*, Basic Reward.
+  - **Chain Destructo-Disc Barrage** → PQ46 — *16 of the Official History*, Basic Reward.
+- Set/retained `ultimate_finish_required=false` for all four because the maintained PQ records place each skill in Basic Reward, not the Ultimate Finish reward section.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `705224b9ea0db37761986464b3761c4f3772d2a5` (canonical), `69a343a6a42b7b740a306d0db7f3524984e884b3` (index), `a8d5a0c68d910cb35de7cc618c3582997605efb2` (coverage audit).
+- Reward semantics rule preserved: Basic Reward establishes tier/provenance but is not treated as a measured drop probability.
+- Validation: canonical and index datasets remain 283 records; recompute the generic acquisition census from the live canonical file before the next batch.
+- Exact next task: continue the remaining generic PQ acquisition records after the PQ46 frontier, in quest order, using maintained PQ reward tables to resolve Basic vs random vs Ultimate Finish where directly supported.
