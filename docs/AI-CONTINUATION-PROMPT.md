@@ -2885,3 +2885,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Completed 16 documented mentor, Advancement Test, Expert Mission, and School Quest routes. Skills commit: `23054aac366122bac2652477489ad305e6bf7a98`; coverage audit commit: `ecf9e035c94a88dff2d962d397cf41fb55a43538`.
 - Live census: 283 records; `source_quest` null on 53 records.
 - Next task: inspect remaining nulls for other explicitly named quest/test routes. Prioritize named Story/Expert/School/Advancement routes and mentor lessons where the acquisition is unambiguous; leave generic shop-only, character-exclusive, multi-source, and unresolved PQ-drop records null.
+
+
+### 2026-09-19 continuation — mentor provenance batch 17
+- Completed 5 unambiguous mentor/starting-route records. Skills commit: `cfe25d97601b0278b6d339c4c53ecbf933950d0f`; coverage audit commit: `34e6c7d706ccd4765cce95377b68ab1768fb3296`.
+- Live census: 283 records; `source_quest` null on 48 records.
+- Next task: review the remaining nulls. Likely candidates are only records whose existing metadata names a concrete quest/test/mentor lesson or other canonical progression route. Preserve null for generic shops, character-only skills, multi-source acquisitions, and unresolved PQ reward/drop records.
