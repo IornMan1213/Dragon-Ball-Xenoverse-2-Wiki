@@ -2639,3 +2639,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - The 12 apparent subcategory exceptions are all Awoken skills using the repository's intentional `Race` subcategory, so they are not data errors.
 - External PQ151 evidence continues to list Celestial Wave among its rewards, supporting the normalized source/unlock mapping. citeturn0search0turn0youtube3
 - No additional skill-data edit was necessary in this sweep. Next task: continue with deeper record-level evidence gaps rather than structural cleanup, prioritizing any `research`/uncertain mechanics notes still present in the current scope.
+
+
+### 2026-09-20 cycle update — researched PQ reward wording resolved
+- Used current searchable PQ reward evidence to resolve four previously bounded acquisition records: **Dark Inscription → PQ182 Basic Reward; Ill Rain → PQ64 Basic Reward; Paralysis → PQ34 Basic Reward; Paralyze Beam → PQ04 Basic Reward**. The maintained PQ guide explicitly lists each skill in the corresponding Basic Reward section. citeturn0search0turn1search0
+- Updated `unlock_method` for all four and removed the obsolete “exact drop gating remains bounded/research” wording where the evidence established Basic Reward placement.
+- Skill-data commit: `c382023c0136b4aaf2902e29d4f4599e1c1f5932`.
+- **The Power to Overcome** retains its unresolved Stage 2 speed/cooldown disagreement because current sources still conflict; **Wild Stinger** retains unverified exact numeric costs/damage because no sufficiently strong evidence was found in this cycle.
+- Next task: continue the evidence-gap audit on remaining unresolved mechanics, without converting conflicting or weakly supported values into false precision.
