@@ -3512,13 +3512,13 @@
       "name": "Afterimage Strike",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
         "https://dragonball.fandom.com/wiki/Afterimage_Strike"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 81 - \"Wake Up!\"",
+      "unlock_method": "Parallel Quest 81 reward.",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 81",
@@ -3529,19 +3529,19 @@
       "source_quest": 81,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Assault Vanish",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Assault_Vanish"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 131 - \"Fight of the Fusions! Vegito vs Gogeta\"",
+      "unlock_method": "Parallel Quest 131 reward.",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3553,13 +3553,13 @@
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "source_quest": 131,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ131; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Burst Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Burst_Charge",
@@ -3568,18 +3568,18 @@
         "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
       ],
       "ki_cost": 0,
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 134 reward.",
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "source_quest": 134,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack-era DLC",
       "mechanics_notes": "Confirmed as Other Super from PQ134 and usable by all CaC races. It starts charging extremely quickly and slows over time, making short bursts its intended use.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Charged Ki Wave",
@@ -3805,12 +3805,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 63 reward.",
       "source_quest_or_shop": "Parallel Quest 63",
       "ultimate_finish_required": false,
       "skill_description": "Kai Kai is a Super Other skill associated with Whis.",
       "mechanics_notes": "Confirmed as Whis's 100-Ki Other Super from PQ63 and usable by all CaC races. It teleports the user to a selected ally/partner rather than the opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -3820,7 +3820,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 63,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Maximum Charge",
@@ -3876,13 +3876,13 @@
       "name": "Phantom Fist",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Phantom_Fist"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 97 - \"Insidious Plot\"",
+      "unlock_method": "Parallel Quest 97 reward.",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3893,7 +3893,7 @@
       "source_quest": 97,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Quick Sleep",
@@ -3966,13 +3966,13 @@
       "name": "Shield Barrier",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Shield_Barrier"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 153 reward.",
       "source_quest_or_shop": "PQ153",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
@@ -3983,18 +3983,18 @@
       "source_quest": 153,
       "dlc_requirement": "Conton City Vote Pack",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ153; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Solar Flare",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dragonball.fandom.com/wiki/Solar_Flare"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 01 reward",
+      "unlock_method": "Parallel Quest 1 reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -4005,7 +4005,7 @@
       "source_quest": 1,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ1; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Spirit Boost",
@@ -4114,12 +4114,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 18 reward.",
       "source_quest_or_shop": "Parallel Quest 18",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Time Control is a Super Skill that freezes an opponent in place; it is a 40% Ultimate Finish reward from Parallel Quest 18.",
       "mechanics_notes": "Confirmed as Guldo's 100-Ki Other Super from PQ18, requiring the Ultimate Finish reward. It temporarily freezes the opponent in place.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4131,13 +4131,13 @@
       "source_quest": 18,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ18; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Ultimate Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Ultimate_Charge",
@@ -4145,29 +4145,29 @@
         "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
       ],
       "ki_cost": 0,
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 134 reward.",
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "source_quest": 134,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack-era DLC",
       "mechanics_notes": "Confirmed as the 0-Ki Other Super from PQ134's Ultimate Finish, usable by all CaC races. Its charge rate improves the longer the charge is maintained.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Wall of Defense",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
       ],
       "ki_cost": 0,
-      "unlock_method": "Parallel Quest 10 - \"Saiyan Survivors\"",
+      "unlock_method": "Parallel Quest 10 reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -4178,7 +4178,7 @@
       "source_quest": 10,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record."
     },
     {
       "name": "Charge",
