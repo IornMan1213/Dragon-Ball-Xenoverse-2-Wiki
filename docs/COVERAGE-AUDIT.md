@@ -3139,3 +3139,11 @@ Reconciled seven previously unresolved DLC-era skill records using independent P
 | Meditation | PQ 122 | Extra Pack 2 |
 
 The underlying skill acquisition routes were already present; this pass only replaced bounded unresolved DLC labels with pack provenance supported by independent references. No unsupported exact drop-rate or Ultimate Finish claim was added. Repository data contains no external citation markup.
+
+
+## 2026-09-19 — skill provenance schema compatibility correction
+
+- Audited the 283 canonical skill records for acquisition/provenance consistency.
+- Found that `source_quest` is represented legitimately as either a numeric Parallel Quest ID or descriptive text in the canonical dataset, while the schema allowed only string/null.
+- Updated the schema to permit non-negative integers alongside strings/null for `source_quest`. This preserves the existing canonical representation instead of coercing established PQ IDs into potentially less useful text.
+- No factual acquisition records were changed.
