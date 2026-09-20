@@ -3156,3 +3156,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Both now use `acquisition_type: skill_shop`, `source_quest: null`, `source_quest_or_shop: Skill Shop`, and `ultimate_finish_required: false`.
 - Public evidence independently confirms Explosive Wave is purchased from the Skill Shop after the normal-ending story; Final Pose is documented as a Skill Shop acquisition.
 - No quest IDs were removed from genuinely quest-acquired records.
+
+
+## 2026-09-19 — numeric PQ provenance validation
+
+- Added a deterministic validator invariant requiring numeric `source_quest` values to be canonical Parallel Quest IDs in the current 1–186 range.
+- The live 283-record dataset currently contains 177 numeric quest provenance records, with IDs ranging from PQ1 to PQ186 and no out-of-range values.
+- Existing descriptive string provenance remains supported for records whose research stores the full quest/mission description rather than a numeric ID.
