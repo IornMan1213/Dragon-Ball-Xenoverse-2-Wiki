@@ -2656,3 +2656,11 @@ Skills commit: `bbda596171ff50016bb723e7086721cd402d052b`.
 Live source_quest null count after this batch: **191 / 283**. Remaining nulls are intentionally retained where the current record does not establish a single canonical quest provenance, including shop/mentor/story routes and multi-PQ reward-pool cases.
 
 No schema or validator changes were made.
+
+
+## 2026-09-19 — source-quest provenance batch 7
+
+Promoted ten explicit quest identifiers already present in the live skill records: **Spirit Pulse (PQ151), Stone Bullet (PQ56), Super Donut Volley (PQ55), Super Ghost Buu Attack (PQ113), Vanishing Ball (PQ58), Variable Snipe Shot (PQ165), Wild Buster (PQ153), Afterimage Strike (PQ81), Assault Vanish (PQ131), and Charged Ki Wave (PQ97)**. The existing `source_quest_or_shop`, `unlock_method`, and source lists establish the specific quest numbers; no generic PQ reward was converted without a specific identifier.
+
+Skills commit: `a1bd01ea42ca66a7937406383fa3cd5eaf600331`.
+
