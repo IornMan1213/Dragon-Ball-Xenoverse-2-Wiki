@@ -2741,3 +2741,8 @@ Skills commit: `cfe25d97601b0278b6d339c4c53ecbf933950d0f`.
 Promoted **Time Bullet** to `source_quest: "Decisive Battle with Majin Buu"` because its existing acquisition metadata names that concrete quest as the unlock prerequisite, rather than merely identifying a generic shop.
 
 Skills commit: `1ea33fade528c115194be98fb50859069f18e5f6`.
+
+
+## 2026-09-19 — null-floor review batch 19
+
+Reviewed all **47** remaining `source_quest` nulls against the live acquisition metadata. No additional value was promoted without a concrete canonical quest/test/lesson route. Current null set consists of **13 character-only/non-CaC records, 18 shop-only records, 1 starting-choice record, and 15 unresolved PQ reward/drop records**. This preserves the provenance field from being used as a generic acquisition-method field or from asserting uncertain PQ attribution.
