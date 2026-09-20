@@ -3290,3 +3290,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No `quest_or_mission` record lacks `source_quest`; no non-quest acquisition record retains `source_quest`.
 - No further deterministic acquisition-type correction was found in this pass.
 - Next task: inspect canonical/index/schema consistency and then select the next evidence-backed enrichment cohort.
+
+
+### 2026-09-19 continuation — canonical/index synchronization
+- Corrected four stale `skills-index.json` acquisition types to match canonical `skills.json`: Explosive Wave, Final Pose, Super Guard, and Time Bullet.
+- Post-sync canonical/index comparison: 283/283 records aligned for class, subcategory, verification status, research status, and acquisition type.
+- Artifact scan: 0 forbidden citation/tool markers.
+- Next task: run the repository's schema/validator locally or through available GitHub validation paths, then continue evidence-backed enrichment.
