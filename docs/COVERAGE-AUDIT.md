@@ -3529,3 +3529,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Punisher Shield:** refined to **PQ129 — Frieza Force on the Hunt, Basic Reward**. citeturn0search2turn0search8
 - Re-synchronized `docs/data/skills-index.json` from canonical `skills.json`; record count remains 283.
 - Exact next task: continue remaining generic PQ records, especially the older base-game entries where maintained reward tables can establish Basic Reward versus random/UF provenance.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 3
+- **Blaster Ball:** concrete PQ125 acquisition retained, but reward tier remains generic because inspected sources did not directly establish Basic vs. Ultimate Finish. citeturn0search3turn0search14
+- **Bluff Kamehameha:** refined to **random reward from PQ94 — Ultimate Power, Ultimate Saiyan**. citeturn0search2turn0search4
+- **Breaker Energy Wave:** refined to **PQ101 — Seeking Fighters for Tournament, Basic Reward**. citeturn0search1turn0search7
+- **Burst Kamehameha:** refined to **PQ72 — First Training, Basic Reward**. citeturn0search0turn0youtube34
+- Re-synchronized `docs/data/skills-index.json`; record count remains 283.
+- Exact next task: continue the remaining generic PQ records, preserving random-reward wording where dedicated sources explicitly describe RNG acquisition.
