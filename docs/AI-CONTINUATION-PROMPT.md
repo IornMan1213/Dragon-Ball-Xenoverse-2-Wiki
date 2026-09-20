@@ -3254,3 +3254,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Corrected `Time Bullet` from `quest_or_mission` to `skill_shop`, with null `source_quest` and explicit Skill Shop provenance after defeating Kid Buu.
 - Evidence supports both corrections; no Ultimate Finish requirement was added.
 - Next task: continue deterministic acquisition/DLC provenance checks, prioritizing mixed-route records and avoiding unsupported route normalization.
+
+
+### 2026-09-19 continuation — Future Saga PQ provenance normalization
+- Normalized four Future Saga Chapter 1 character-only skills to exact PQ provenance: Crimson Edge and Divine Spear → PQ171; Big Bang Knuckle and Wild Stinger → PQ172.
+- Replaced ambiguous `PQ171 / PQ172` source strings with numeric canonical PQ IDs.
+- Corrected Big Bang Knuckle's stale description label to Strike Super.
+- Evidence: the maintained all-PQ reward guide lists these four skills in the Basic Reward sections of PQ171/PQ172; official Dragon Ball material identifies the four character moves.
+- Next task: continue mixed-route provenance auditing, then validate the affected canonical/index/schema surfaces.
