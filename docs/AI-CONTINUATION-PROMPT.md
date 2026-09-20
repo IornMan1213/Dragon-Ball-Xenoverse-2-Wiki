@@ -2951,3 +2951,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved **Explosive Wave → PQ05** from explicit PQ reward evidence. Skills commit: `53ca434c6573151b3e5b2bf8f9a061f21d2db072`; coverage commit: `d58bda9afda56c0a413d56e3017f0506ebf64187`.
 - Live census: 283 records; `source_quest` null on 33 records.
 - Next: continue targeted searches for remaining null skills that have a concrete PQ reward listing, without replacing multi-source or character-only provenance.
+
+
+### 2026-09-19 continuation — explicit multi-source PQ reward batch 27
+- Resolved **Emperor's Edge → PQ99** and **Final Kamehameha → PQ91** from explicit PQ reward listings despite additional shop/raid routes. Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`; coverage commit: `2df8e2871769f88e70582f04a31e1d19b0cef2eb`.
+- Live census: 283 records; `source_quest` null on 31 records.
+- Next: apply the same standard consistently to remaining nulls: a direct single-PQ reward listing can establish `source_quest` even when a secondary shop/raid route exists; character-only records remain excluded.
