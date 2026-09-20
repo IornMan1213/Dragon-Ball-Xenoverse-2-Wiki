@@ -274,17 +274,18 @@
       "source_quest_or_shop": "Future Saga Chapter 4 — Quest 31, Ultimate All-Out Showdown",
       "ultimate_finish_required": false,
       "skill_description": "Universal CaC Awoken Skill with an initial state and a stronger unleashed second stage.",
-      "mechanics_notes": "Two-stage Awoken. Stage 1 has a documented +20% all-damage defense effect and +5% movement speed in current community testing, plus automatic HP recovery while below 50% HP and an unblockable sword-strike replacement for grabs. Re-inputting the Awoken command activates Unleashed Stage 2: approximately 12 seconds of effectively/infinite Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, and increased movement speed; HP drains during Stage 2 and a cooldown follows before reactivation. Sources disagree on some exact Stage 2 speed/cooldown values (reports include +10% vs +15% speed and ~24 vs ~30 sec cooldown), so those fields remain unresolved. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "Two-stage Awoken. Current evidence supports Stage 1 at +20% all-damage defense and +5% movement speed, with automatic HP recovery below 50% and an unblockable sword-strike replacement for grabs. Re-inputting the Awoken command activates Unleashed Stage 2 for about 12 seconds of effectively/infinite Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, increased movement speed, and HP drain. Exact values remain intentionally unresolved where current sources conflict: Stage 1 defense has a 20% report and a 25% self-test report; Stage 2 speed has +10% and +15% reports; cooldown has about 24 and about 30 second reports; HP regeneration is reported around 1 bar/60 seconds and about 1 bar/65 seconds. Do not collapse these into false precision.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819",
-        "https://www.reddit.com/r/dbxv/comments/1ut3fc0/the_power_to_overcome_stats/"
+        "https://www.reddit.com/r/dbxv/comments/1ut3fc0/the_power_to_overcome_stats/",
+        "https://gamefaqs.gamespot.com/boards/19045759-xenoverse-2/74497359?page=16"
       ],
-      "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Current testing supports Stage 1 +20% defense/+5% speed and Stage 2 +30% Strike/Ki Super/+15% basic attack, but conflicting reports on Stage 2 speed/cooldown and exact HP regeneration rate remain intentionally unresolved.",
+      "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Current evidence consistently supports +20% Stage 1 defense, +5% Stage 1 speed, +15% Stage 2 basic attack, and +30% Stage 2 Strike/Ki Super damage, while conflicting measurements remain for exact Stage 1 defense, Stage 2 speed/cooldown, and HP regeneration.",
       "source_quest": "Future Saga Chapter 4 — Quest 31, Ultimate All-Out Showdown",
       "acquisition_type": "quest_or_mission"
     },
@@ -862,20 +863,21 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sudden_Death_Beam",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop / STP Medal Shop / Double Crystal Raid Battle",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "TP Medal Shop / STP Medal Shop / Double Crystal Raid",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game + later STP/raid distribution",
-      "mechanics_notes": "Current dataset acquisition evidence remains TP Medal Shop / STP Medal Shop / Double Crystal Raid with 100 Ki. Dedicated current-version page access was unavailable in this pass, so the existing acquisition record is retained without inventing additional scope. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "mechanics_notes": "100 Ki Ki Blast Super counter/teleport technique. If the user is attacked before moving, Instant Transmission places the user behind the opponent and fires a Ki Wave; otherwise the move can function as evasive repositioning. Current acquisition evidence confirms TP Medal Shop / STP Medal Shop / Double Crystal Raid availability; no narrower CaC race/gender/form restriction is established.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.",
+      "notes": "Current acquisition evidence confirms TP Medal Shop availability; official Bandai Namco's 2017 content-update schedule lists Sudden Death Beam in the TP Medal Shop rotation. Current skill documentation also lists STP Medal Shop and Double Crystal Raid Battle as acquisition routes. No Ultimate Finish is involved.",
       "source_quest": null
     },
     {
