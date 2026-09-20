@@ -1612,9 +1612,11 @@
       "name": "Bending Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
+        "https://xvguide.neocities.org/Skill",
+        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
       ],
       "ki_cost": 100,
       "unlock_method": "Skill Shop purchase",
@@ -1628,15 +1630,17 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "2026-09-19 acquisition verification: Skill Shop purchase (Zeni). Current reference material lists Bending Kamehameha under Skill Shop acquisitions; repository record already has the same route."
     },
     {
       "name": "Big Bang Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
+        "https://xvguide.neocities.org/Skill",
+        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
       ],
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop purchase",
@@ -1650,7 +1654,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "tp_medal_shop",
-      "notes": ""
+      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Big Bang Kamehameha in the TP Medal Shop rotation."
     },
     {
       "name": "Big Bang Knuckle",
@@ -2183,10 +2187,12 @@
       "name": "Divine Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Kamehameha",
-        "https://dragonball.fandom.com/wiki/Perfected_Ultra_Instinct"
+        "https://dragonball.fandom.com/wiki/Perfected_Ultra_Instinct",
+        "https://xvguide.neocities.org/Skill",
+        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
       ],
       "ki_cost": 200,
       "last_verified": "2026-09-19",
@@ -2201,7 +2207,7 @@
       "research_status": "enriched",
       "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super sold through the TP Medal Shop and usable by all CaC races. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input.",
       "acquisition_type": "tp_medal_shop",
-      "notes": ""
+      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation."
     },
     {
       "name": "Divine Spear",
