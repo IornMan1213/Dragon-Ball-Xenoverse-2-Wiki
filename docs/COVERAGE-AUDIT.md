@@ -3433,3 +3433,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - This completes the remaining currently identified `usable_by_cac=false` + `quest_or_mission` anomaly in the canonical dataset: after the correction, no record combines those fields.
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `e6cf43c75731a6c53f4fa6af03bde4bbf9e59ba3`, `4c20ab2d793447f6ac539a565b1ebac1524eab4b`.
+
+
+## 2026-09-20 — Lovely Cyclone reward-gate correction
+
+- Corrected **Lovely Cyclone** `ultimate_finish_required` from `true` to `false`.
+- Existing repository evidence explicitly reconciles PQ135 placement as a **Basic Reward** and notes that difficult RNG/community reports do not establish an Ultimate Finish-only condition. The canonical flag now matches that evidence.
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Commits: `5d3777ff2729d42c86bf2aa5436b86a127fcef12`, `2ad9ac722d9071209c51d09274a1f4ae969e9e64`.
