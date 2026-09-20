@@ -3178,3 +3178,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Index commit: `ce35a57af9ca30d1ab82e1441c9d36ce13c96d7f`.
 - Audit commit: `1a2fb9f8f666a66b79a1decfceedcb46ee328e90`.
 - Next exact task: inspect remaining validator/data invariants, especially provenance type consistency and the distinction between quest, shop, and character-only acquisition routes; add only deterministic checks supported by the existing dataset model.
+
+
+### 2026-09-19 continuation — acquisition provenance invariants
+- Audited acquisition provenance across all 283 records: 255 quest/mission records have `source_quest`; the 28 non-quest records have `source_quest=null`; every record has `source_quest_or_shop`.
+- Added deterministic validator checks tying `acquisition_type` to `source_quest` presence and requiring `source_quest_or_shop` for all non-quest acquisition types.
+- No factual data changes were needed.
+- Validator commit: `7e35b13efb5dc3f747d5ba66c18239c760540a7f`.
+- Audit commit: `0bc624e7343bc3de6a0112b3ab719da11841a324`.
+- Next exact task: continue auditing deterministic semantic invariants, focusing on category/subcategory coherence and CaC eligibility consistency before any further factual enrichment.
