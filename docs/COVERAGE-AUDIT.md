@@ -3338,3 +3338,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined four current-scope records to use the exact quest title and **Basic Reward** classification where the maintained all-PQ reward guide explicitly lists the skill: **Burst Rush** (PQ51), **Counter Burst** (PQ75), **Dragon Burn** (PQ82), and **Counter Impact** (PQ153). citeturn0search0turn0search2
 - These changes improve acquisition provenance without asserting drop probability or an Ultimate Finish requirement. The PQ guide explicitly places each skill in Basic Reward. citeturn0search0turn0search2
 - Canonical data commit: `b33b116342510d130e74bf07dbade46c293944b3`.
+
+
+## 2026-09-20 — Canonical classification/cost corrections: four base-game skills
+
+- **Ki Explosion** was corrected from an erroneous Evasive/200-Stamina record to a **100-Ki Ki Blast Super**. Dedicated skill evidence identifies it as a Super and describes its hold-to-spend-Ki behavior; the maintained PQ77 listing places it in Basic Reward. citeturn1search7turn3view3
+- **Instant Rise** was corrected from **200** to **300 Stamina**. Dedicated skill evidence lists 300 Stamina and classifies it as an Other Evasive; PQ37's maintained reward listing places it in Basic Reward. citeturn1search4turn3view0
+- **Force Shield** was retained as a 200-Stamina Ki Blast Evasive and its exact source was corrected to PQ59 — "Potara Warrior" Basic Reward. citeturn1search1turn3view2
+- **Change The Future** was refined to the exact PQ43 title/Basic Reward provenance while retaining its confirmed 100-Ki Ki Blast Super counter classification. citeturn1search0turn3view1
+- This pass demonstrates why canonical type/cost mismatches are being prioritized over adding weak descriptive detail. No unsupported drop probabilities were added.
+- Canonical data commit: `50100a6f782d6042716cffa66298cfa00f0a95bc`.
