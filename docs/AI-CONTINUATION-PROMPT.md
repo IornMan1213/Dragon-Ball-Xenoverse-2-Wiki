@@ -3575,3 +3575,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **156 verified / 48 partially verified** across 283 records.
 - Next task: continue the remaining 48 partial records, prioritizing current skill pages plus independent PQ/shop reward corroboration.
+
+
+### 2026-09-20 continuation — four explicit acquisition verifications
+- Promoted **Seagull Combination (PQ167)**, **Apocalyptic Burst (PQ161)**, **Chain Destructo-Disc Barrage (PQ46)**, and **Circle Flash (PQ154)** to verified. Current skill documentation and independent PQ reward references corroborate the acquisition quests. citeturn1search16turn1search13turn1search1turn1search6turn1search0turn1search8turn1search2turn1youtube42
+- Chain Destructo-Disc Barrage remains represented as a normal PQ acquisition without adding an unsupported Ultimate Finish requirement; the PQ guide lists it in Basic Reward.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **160 verified / 44 partially verified** across 283 records.
+- Next task: continue the remaining 44 partial records, with Sonic Bomb still explicitly retained as a drop-condition conflict requiring separate reconciliation.
