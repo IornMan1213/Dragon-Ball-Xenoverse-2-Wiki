@@ -3786,20 +3786,21 @@
       "name": "Blades of Judgment",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Blades_of_Judgment",
         "https://dragonball.fandom.com/wiki/Blades_of_Judgment"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Brave Sword Attack",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -3808,7 +3809,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Brave_Sword_Attack"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Darkness Rush (Melee)",
@@ -3953,7 +3955,7 @@
       "name": "Saiyan Spirit",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -3961,20 +3963,22 @@
         "https://dbxv2.fandom.com/wiki/Saiyan_Spirit",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Super Dragon Flight",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Supreme Fury",
@@ -3992,37 +3996,40 @@
       "name": "Unrelenting Barrage",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Venus Fist",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Victory Rush",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     }
   ]
 }
