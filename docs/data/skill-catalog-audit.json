@@ -75,8 +75,9 @@
     "2026-09-20: Promoted God of Destruction's Poise (PQ175), Meteor Strike (PQ06), and Neo Wolf Fang Fist (PQ86) to verified after current skill pages explicitly stated their PQ unlocks; no unsupported UF-only requirement was added.",
     "2026-09-20: Resolved Power Impact classification discrepancy. Current Xenoverse 2 skill page classifies it as a Ki Blast Super, unlocked from PQ120; canonical Strike classification was stale. Promoted to verified and synchronized index.",
     "2026-09-20: Promoted Powered Shell (PQ128), Recoome Kick (PQ61), Sauzer Blade (PQ27), and Savory Slicer (PQ140) after explicit current skill-page acquisition evidence. Powered Shell was also corrected from stale Strike classification to Ki Blast.",
-    "2026-09-20: Promoted Scissors Paper Rock (PQ65), Shining Slash (PQ38), Soaring Rush (PQ177), and Shooting Strike (PQ156) using explicit current skill-page acquisition evidence. Corrected Shooting Strike from stale Strike to Ki Blast. Sonic Bomb remains partial because current acquisition evidence conflicts with archived Ultimate Finish reward documentation."
+    "2026-09-20: Promoted Scissors Paper Rock (PQ65), Shining Slash (PQ38), Soaring Rush (PQ177), and Shooting Strike (PQ156) using explicit current skill-page acquisition evidence. Corrected Shooting Strike from stale Strike to Ki Blast. Sonic Bomb remains partial because current acquisition evidence conflicts with archived Ultimate Finish reward documentation.",
+    "2026-09-20: Promoted Namek Finger (TP Medal Shop) and Super God Fist (PQ67) to verified after independent acquisition evidence. Sonic Bomb and other partial records remain unresolved where drop-condition conflicts persist."
   ],
-  "partially_verified_count": 53,
-  "verified_count": 151
+  "partially_verified_count": 51,
+  "verified_count": 153
 }
