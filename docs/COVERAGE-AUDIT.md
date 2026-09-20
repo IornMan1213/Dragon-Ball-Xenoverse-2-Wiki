@@ -2887,3 +2887,18 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 - Reversion commit: `f85b1553d829658503c978f03ed01936053c1b65`.
 - The `dlc_requirement` census therefore remains **19 nulls**.
 - Next work should continue from evidence-backed chronology only; do not infer a DLC/update from TP Medal Shop availability or character association.
+
+
+## 2026-09-19 — cast-exclusive/DLC provenance batch 5
+
+- Resolved 7 additional `dlc_requirement` values:
+  - **Base Game:** Super Saiyan Blue Kaioken, Death Ball, Darkness Rush (Melee), Darkness Rush (Ranged).
+  - **Ultra Pack 1:** Final Flash (Super).
+  - **Conton City Vote Pack:** Supersonic Mode, Shield Barrier.
+- Supersonic Mode and Shield Barrier are explicitly listed in the Conton City Vote Pack/DLC 13 content list; the official Dragon Ball site also identifies Supersonic Mode as Dyspo's DLC Awoken Skill. 
+- Final Flash (Super) is the exclusive Super Skill of SSGSS (Evolved) Vegeta, and the Final Flash documentation explicitly places that variant in Ultra Pack 1. 
+- Death Ball and both Darkness Rush variants are documented as original mentor-training rewards; Super Saiyan Blue Kaioken is a cast-exclusive Goku transformation rather than a CaC acquisition route. 
+- Data commit: `2154a72e22e6eb8ad6f57b0b8e3889a6acc2b1d8`.
+- Live null `dlc_requirement` count after this batch: **12**.
+- Remaining nulls: Energy Release, Instant Charge, Rising Rage, Spirit Boost, Time Bullet, Fighting Pose K, Dragon Thunder, Namek Finger, Final Kamehameha, Divine Lasso, Dragon Fist, Godly Display.
+- Next priority: distinguish original/base-game skills from later DLC/update-only cast or shop skills using dated introduction evidence.
