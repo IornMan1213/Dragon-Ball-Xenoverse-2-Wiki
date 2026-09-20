@@ -9,7 +9,8 @@
     "class",
     "subcategory",
     "verification_status",
-    "sources"
+    "sources",
+    "acquisition_type"
   ],
   "properties": {
     "name": {
