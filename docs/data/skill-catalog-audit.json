@@ -60,8 +60,9 @@
     "2026-09-19: Verified Bending Kamehameha (Skill Shop), Big Bang Kamehameha (TP Medal Shop), and Divine Kamehameha (TP Medal Shop) using current acquisition references; canonical/index synchronized.",
     "2026-09-19: Verified additional deterministic acquisition records: Double Death Slicer, Gigantic Charge, Pendulum Bullet, Super Ghost Buu Attack, Vanishing Ball, Variable Snipe Shot, Fighting Pose K, Formation!, and Indomitable; canonical/index synchronized.",
     "2026-09-19: Verified Galick Gun, Petrifying Spit, Phantom Fist, Rise to Action, and Dancing Parapara from deterministic mentor/initiation/PQ acquisition references; canonical/index synchronized.",
-    "2026-09-19: Verified additional deterministic acquisition records for Fighting Pose E, Fighting Pose H, Do or Die, and Divinity Unleashed; Fighting Pose K and Shield Barrier were already verified and left unchanged."
+    "2026-09-19: Verified additional deterministic acquisition records for Fighting Pose E, Fighting Pose H, Do or Die, and Divinity Unleashed; Fighting Pose K and Shield Barrier were already verified and left unchanged.",
+    "2026-09-19: Verified Reverse Mabakusenko (Skill Shop), Instant Transmission (Goku Lesson 1), Deadly Dance (Android 18 training), and Burning Slash (PQ44). Ultimate Finish flags were not changed where cited evidence did not establish exclusivity."
   ],
-  "partially_verified_count": 95,
-  "verified_count": 109
+  "partially_verified_count": 91,
+  "verified_count": 113
 }
