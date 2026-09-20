@@ -2925,3 +2925,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Previous resolved late-DLC entries (including PQ173 Divine Ray Bomb and PQ174 Final Rampage) remain in place.
 - Coverage audit commit: `aa1b3cbc4b89c103e12ad398a2144696dd88049f`.
 - Next task: continue targeted research of the remaining 35 nulls, prioritizing any record whose acquisition metadata names a specific PQ or quest rather than generic shop/character routes.
+
+
+### 2026-09-19 continuation — targeted null review batch 23
+- Reviewed remaining PQ-linked nulls: Divine Spear, Crimson Edge, Wild Stinger, Emperor's Edge, and Final Kamehameha.
+- No additional `source_quest` promotion was justified because the first three are character-only despite PQ context, while the latter two have multiple acquisition routes.
+- Coverage audit commit: `97f12c210ebd66ef22642ef26c4761b4f71b87b7`.
+- Next pass should focus on finding any explicit single-PQ reward evidence for the remaining nulls; otherwise preserve the null rather than inventing provenance.
