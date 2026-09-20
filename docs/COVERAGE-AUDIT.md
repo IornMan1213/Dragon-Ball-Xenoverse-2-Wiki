@@ -2942,3 +2942,19 @@ Reviewed the remaining 28 `source_quest` nulls against their current acquisition
 - The remaining nulls include character-only skills and other non-PQ acquisition routes; these should remain null unless the schema is explicitly expanded to represent a different source type.
 - Current live target remains **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
 - Next priority: audit the remaining character-only and update-distribution records for any *explicitly named* quest/mission route, without converting shop availability or historical provenance into false quest fields.
+
+
+## 2026-09-19 — source-quest null classification pass 3
+
+Classified all 28 remaining source_quest nulls by their explicit current acquisition route:
+
+- **Character-only / starting move (11):** Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode, Final Flash (Super), Afterimage, Energy Release, Final Charge, Instant Charge, Rising Rage, Surging Spirit, Dragon Thunder.
+- **Skill Shop (8):** Reverse Mabakusenko, Super Afterimage, Super God Shock Flash, Punisher Guard, Bending Kamehameha, Quick Sleep, Spirit Boost, Pressure Sign.
+- **TP Medal Shop / equivalent distribution (9):** Sudden Death Beam, Big Bang Kamehameha, Divine Kamehameha, Namek Finger, Emperor's Death Beam, Final Explosion, Divine Lasso, Dragon Fist, Godly Display.
+
+This classification confirms that the remaining nulls are overwhelmingly representing non-quest acquisition routes, not missing PQ identifiers. Quick Sleep is explicitly listed as Skill Shop-only, and Final Flash (Super) is explicitly unavailable to CaCs with no unlock quest.
+
+No data values were changed in this pass. This is intentional: assigning a quest to these records would reduce data accuracy.
+
+**Current target: 283 skills; 0 null dlc_requirement; 28 null source_quest.**
+Next priority: review whether the schema should gain a separate normalized acquisition-type field (for example acquisition_type) rather than overloading source_quest for shop/character-only records. Any schema change must first be checked against validators and documentation.
