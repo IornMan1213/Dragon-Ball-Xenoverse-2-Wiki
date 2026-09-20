@@ -3032,3 +3032,17 @@ Commits:
 - Schema: `27e8d73e6c442fdb98a7808f35b61e1310e141df`
 - Validator: `996df0cf516d71b5ba091d788b7edbe28b70f672`
 - Validator wiring correction: `1cf129e85f8adf459d9a82efe6f7b7eef91a1e26`
+
+
+## 2026-09-19 — CI-backed schema validation
+
+Inspected the existing GitHub Actions configuration. The repository already has data-audit and repository-quality workflows, but no workflow previously installed the Python `jsonschema` dependency or invoked `scripts/validate_skills.py`.
+
+Added `.github/workflows/skills-validation.yml`:
+
+- Runs on relevant skill-data/schema/validator changes to `main` and pull requests.
+- Uses Python 3.12.
+- Installs pinned `jsonschema==4.25.1`.
+- Executes `python scripts/validate_skills.py`.
+
+The workflow was created successfully at commit `aad4828815d41cae2314aac293ed9cb52ae82b96`. GitHub currently reports no workflow run for that commit yet, so runtime success remains pending GitHub Actions execution.
