@@ -5,10 +5,12 @@
   "items": [
     {
       "domain": "Ki Blast Supers",
-      "issue": "Burst Stinger was missing from the repository's Ki Blast Super batch; after promotion the batch now contains 183 names and matches the source category's declared count. However, the pre-change batch actually contained only 182 names despite declaring 183, so at least one other source-vs-repository set-diff gap remains. Burst Stinger also has conflicting character-attribution evidence (Goku UI vs Vegeta SSG).",
-      "action": "Complete the full source-vs-repository set diff to identify the remaining source-only/repository-only name(s), then separately resolve or preserve the Burst Stinger character-attribution conflict using higher-priority or independent evidence.",
-      "priority": "critical",
-      "status": "open"
+      "issue": "Completed live source-vs-repository set diff: the current Fandom Ki Blast Supers category exposes 183 names, and the repository batch contains the same 183 names with no source-only or repository-only names.",
+      "action": "Keep the Ki Blast Super set synchronized with the live category; future changes should be treated as new deltas. Burst Stinger's separate character-attribution conflict remains documented in the canonical skill record.",
+      "priority": "normal",
+      "status": "resolved",
+      "resolved_at": "2026-09-19",
+      "resolution": "Full 183-name list comparison completed on 2026-09-19; exact set equality confirmed."
     },
     {
       "domain": "Frieza Race Skills",
