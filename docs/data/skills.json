@@ -7521,14 +7521,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
-      "source_quest_or_shop": "PQ179 reward context",
+      "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" Basic Reward; exact drop conditions remain unresolved.",
+      "source_quest_or_shop": "Parallel Quest 179 — \"24/7 Time Patrol\"",
       "ultimate_finish_required": false,
       "skill_description": "Supreme Fury is a Strike Super Attack associated with SS4 Goku (DAIMA).",
-      "mechanics_notes": "100 Ki Strike Super. PQ179 reward context is retained; exact drop conditions and numerical mechanics remain under research.",
+      "mechanics_notes": "100 Ki Strike Super. Current reward evidence places Supreme Fury in PQ179 Basic Reward; exact drop conditions and additional numerical mechanics remain under research.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
