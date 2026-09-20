@@ -3457,3 +3457,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Core Breaker:** corrected `ultimate_finish_required` from `true` to `false`; current PQ158 reward evidence lists Core Breaker under Basic Reward. citeturn0search2turn0search8
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `cc2375f58469809f700a2fbe346fb446c750f1e`, `7fbd5f1ca241b6a27af13ace1978854f95405e67`.
+
+
+## 2026-09-20 — Blazing Attack reward-gate correction
+
+- Corrected **Blazing Attack** `ultimate_finish_required` from `true` to `false`.
+- Current maintained PQ136 reward tables explicitly place Blazing Attack in **Basic Reward**, alongside Burst Stinger and Raid Blast. citeturn0search0turn0youtube12turn0search5
+- A GameFAQs post reports Blazing Attack as an Ultimate Finish drop, so the repository preserves that conflicting evidence in mechanics notes rather than silently treating it as authoritative; the explicit maintained reward-tier listing controls the canonical field. citeturn0search3
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Commits: `2a82e01e7e3fda477469683cb692bb7b971b6006`, `1cf8e2cd98615f8d2e4101827b3a79b47039e561`.
