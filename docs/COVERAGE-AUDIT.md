@@ -2727,3 +2727,10 @@ Skills commit: `cb87d6ef475dd615fd8fecfc8ad4cff78196f64d`.
 Promoted 16 documented mentor, Advancement Test, Expert Mission, and School Quest routes into `source_quest`: Masenko, Perfect Shot, Spirit Bomb, Dancing Parapara, Energy Charge, Full Power Charge, Instant Transmission, Maximum Charge, Rise to Action, Data Input, Fighting Pose K, Deadly Dance, Super Spirit Bomb, Supernova, Darkness Rush (Melee), and Darkness Rush (Ranged).
 
 Skills commit: `23054aac366122bac2652477489ad305e6bf7a98`.
+
+
+## 2026-09-19 — canonical mentor provenance batch 17
+
+Promoted 5 unambiguous non-PQ acquisition routes into `source_quest`: **Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Death Ball, and Super Guard**. These are explicitly identified by the existing acquisition metadata as Hit mentor training, Frieza's named mentor lesson, or the documented starting fighting-style route.
+
+Skills commit: `cfe25d97601b0278b6d339c4c53ecbf933950d0f`.
