@@ -3396,3 +3396,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Updated `docs/data/skills.json` and synchronized `docs/data/skills-index.json`. No unsupported drop probability was added.
 - Evidence also distinguishes this skill from **Paralyze Beam**, the separate 100-Ki Ki Blast Super from PQ4.
 - Canonical data commit: `1e2084b303b385b10db3418d429b110a2d99a369`; index sync commit: `98f2462dc8a3b8fde224d9bcdec7569720e45b7c`.
+
+
+## 2026-09-20 — character-source correction: Dust Attack
+
+- Corrected **Dust Attack**'s stale `character_source` from **Hercule** to **Piccolo**.
+- Current evidence identifies Dust Attack as one of Piccolo's Super Skills, and the maintained Future Warrior/partner references support Piccolo as the source character; the PQ78 acquisition route remains unchanged.
+- Preserved the existing **Other Super / 100 Ki / CaC-available** classification and did not infer any narrower race/gender/form restriction.
+- Canonical data commit: `27272f6c2e8afc63c739e66340ebc89193bf93d8`.
