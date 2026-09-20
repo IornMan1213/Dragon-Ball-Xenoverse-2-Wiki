@@ -3199,3 +3199,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Artifact scan: no internal AI/tool citation markers were added to repository files.
 - Current unresolved PQ unlock count: **0**. PQ36 remains the documented numbering/existence anomaly; PQ54 retains its route conflict as uncertainty.
 - Exact next task: **continue the P1 skill acquisition/DLC-version provenance cleanup**. Recompute the live 283-skill census first, then take the next bounded evidence-backed cohort; preserve nulls for genuinely non-quest or unresolved acquisition routes and inspect CI after the resulting commit.
+
+
+### 2026-09-19 continuation — skill subcategory schema/invariant correction
+- Recomputed the live 283-skill dataset and inspected class/subcategory combinations.
+- Found four intentional `Awoken / Transformation` records: Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, and Supersonic Mode.
+- The JSON Schema and validator incorrectly omitted `Transformation` from their allowed subcategory values even though the canonical dataset already uses it. Corrected the schema enum and validator allow-list; no factual skill records were changed.
+- Exact next task: continue the deterministic category/subcategory and CaC-eligibility audit, especially checking that character-only Awoken transformations are not accidentally counted as the 15 canonical CaC Transformation parent records.
