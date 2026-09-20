@@ -1702,11 +1702,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Gamma_Blaster"
       ],
-      "unlock_method": "Random reward from Parallel Quest 155 — \"I Need a Hero... Pose!\"",
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Blaster in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ155 reward evidence explicitly lists Gamma Blaster in the Basic Reward set; exact individual reward probability remains unresolved."
     },
     {
       "name": "Giant Cluster",
