@@ -3631,3 +3631,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined six generic PQ acquisition records from maintained reward tables: **Zigzag Express (PQ85), Neo Wolf Fang Fist (PQ86), Dimension Ray (PQ98), Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105)**.
 - All six are explicitly recorded as **Basic Reward** routes with `ultimate_finish_required=false`; the Sonic Bomb historical conflict is resolved in favor of the maintained current reward table, without asserting a probability.
 - Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 14
+- Refined six generic PQ acquisition records: **Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Super Black Kamehameha Rosé (PQ109), Holy Wrath (PQ111), Lightning of Absolution (PQ111), Blades of Judgment (PQ112)**.
+- All six are explicitly recorded as **Basic Reward** routes with `ultimate_finish_required=false`; no reward probability was inferred.
+- Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
