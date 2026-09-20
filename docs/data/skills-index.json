@@ -3269,26 +3269,28 @@
       "name": "Divine Ray Bomb",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Emperor's Death Beam",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam",
         "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam",
         "https://dragonball.fandom.com/wiki/Death_Beam"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Energy Field",
@@ -3306,14 +3308,15 @@
       "name": "Final Explosion",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Explosion",
         "https://dragonball.fandom.com/wiki/Final_God_Explosion",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Final Flash (SS3 DAIMA)",
