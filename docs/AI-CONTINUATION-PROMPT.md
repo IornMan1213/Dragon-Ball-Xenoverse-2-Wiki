@@ -3269,3 +3269,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index remain **283**, exact parity preserved, UF count **60**.
 - Commits: `d0918167ed467edf45f4758293b4f5634ec76af8` and `2e4b62206bc2f2e4e23569f8026d8004bdcf01fb`.
 - Exact next task: **audit remaining vague PQ records, especially Thunder Flash/PQ146, and resolve/document the Emperor's Cannon PQ183/PQ184 provenance conflict using maintained evidence.**
+
+
+### 2026-09-20 cycle update — Thunder Flash PQ146 reward-tier refinement
+- Refined Thunder Flash to explicit **PQ146 Basic Reward** wording; UF flag remains false.
+- Investigated Emperor's Cannon: maintained evidence still conflicts between dedicated PQ184 and reward-guide PQ183, so the canonical PQ184 value and conflict note remain unchanged.
+- Canonical/index remain **283**, exact parity preserved, UF count **60**.
+- Commits: `491fa4f268ad7b4b00ffc0ed26e64317b5befaa1` and `716009bc1c79e1e6ae207cfe99e86644d15870c2`.
+- Exact next task: **continue the remaining vague PQ acquisition census, prioritizing concrete maintained Basic Reward relationships not yet reflected in acquisition text and preserving conflicts.**
