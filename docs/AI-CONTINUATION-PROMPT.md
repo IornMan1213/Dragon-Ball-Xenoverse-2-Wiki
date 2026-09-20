@@ -3113,3 +3113,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - **God Breaker**, **Bluff Kamehameha**, **Final Cannon**, **Side Bridge**, and **Steel Mirage** retain random-PQ wording because the current evidence did not establish a stronger explicit gate. Dedicated documentation confirms PQ44/PQ94 acquisition for the first two. citeturn0search0turn0search1turn0search2turn0search3
 - Commits: `e93fb2d21616d2b946b182618a498f6d633394eb` (canonical), `c8a0bb483fc9970fdb695f9887f7278c2a12f90f` (index), `11ddf008782788a4da06c90041df5e5e136d65d5` (audit).
 - Exact next task: inspect the remaining generic/random records and reconcile them against their PQ batch `skill_drop_conditions`; if none remain with explicit gates, move to the separate CaC scope consistency audit (`usable_by_cac` versus `race_restriction`).
+
+
+### 2026-09-20 cycle update — CaC scope consistency pass
+- Checked all **283 canonical skill records** for the high-risk contradiction pattern `usable_by_cac=false` paired with a CaC/race restriction.
+- No contradiction remains. The eight `Character-only` records consistently use `usable_by_cac=false`; racial CaC restrictions remain represented as usable-by-CaC plus an explicit race restriction.
+- External reference material independently confirms the Human/Saiyan restriction for Burning Slash and Shining Slash. citeturn1search0turn1search2
+- No canonical/index data change was necessary in this pass; only the audit trail was updated.
+- Audit commit: `ce7837930a16b9c36970d26858941c164c00551e`.
+- Exact next task: continue the CaC scope audit against the remaining race-restricted skills, prioritizing **Majin/Namekian-exclusive PQ skills and mixed-race restrictions**, and only change canonical data where a higher-priority or independently corroborated source establishes a discrepancy.
