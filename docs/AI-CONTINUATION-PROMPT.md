@@ -2910,3 +2910,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `9a0d6e0d3014a568e890036886cca4b57a426b2d` (canonical), `d5647ddf6e50c2966c133400983f02b76628992` (index), `c363952a63d79919b8b5ab5ecc3300285279e163` (coverage audit).
 - Live census: **283 records**, **34** exact generic PQ acquisition records remain.
 - Exact next task: continue quest-order PQ reward audit at **PQ85/PQ86**, then PQ98 and PQ105+, resolving Basic/random/Ultimate Finish provenance only where maintained evidence supports it.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 13
+- Refined six canonical skill acquisition records: **Zigzag Express (PQ85), Neo Wolf Fang Fist (PQ86), Dimension Ray (PQ98), Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105)**.
+- All six are now explicitly represented as **Basic Reward** routes with `ultimate_finish_required=false`. For Sonic Bomb, maintained current PQ105 reward data was used to resolve the earlier conflicting historical listing; no probability was inferred.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `ca1e3d2` (canonical), `9a499ed` (index), `b7d671b` (coverage audit).
+- Live census: **283 records**, **28** exact generic PQ acquisition records remain.
+- Exact next task: continue at **PQ106**, starting with **Destruction's Concerto: Meteor** and **Requiem of Destruction**, then PQ109/PQ111/PQ112 and onward, preserving generic wording whenever maintained evidence does not establish the reward tier.
