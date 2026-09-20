@@ -3370,3 +3370,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Burst Stinger is therefore reconciled at the catalog-set level. Its separate character/reward-slot attribution conflict remains preserved in `docs/data/skills.json` and is not treated as a set-diff issue.
 - Queue status: Ki Blast Supers set-diff item closed/resolved.
 - Exact next task: **continue deterministic acquisition/Ultimate Finish verification on the remaining partially verified skill cohort**, starting with records where the reward condition can be established without relying on ambiguous community-only claims.
+
+
+### 2026-09-19 continuation — Basic Reward acquisition verification cohort
+- Promoted **Handy Canon (PQ115), Ill Bomber (PQ90), Stone Bullet (PQ56), and Super Donut Volley (PQ55)** from partially verified to verified.
+- Evidence: the maintained all-PQ reward guide explicitly lists each skill in the corresponding **Basic Reward** set; current skill pages independently identify the same PQ acquisition source for Handy Canon, Ill Bomber, and Stone Bullet, while the PQ guide provides the direct reward-list evidence for Super Donut Volley.
+- For all four, `ultimate_finish_required=false` is retained because the documented acquisition is in the Basic Reward set rather than an Ultimate Finish-only reward set.
+- Canonical and index records were synchronized.
+- Exact next task: continue deterministic acquisition verification through the remaining partially verified cohort, prioritizing explicit Basic Reward / mentor / shop evidence.
