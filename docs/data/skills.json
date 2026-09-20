@@ -5648,7 +5648,8 @@
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 173
     },
     {
       "name": "Emperor's Death Beam",
@@ -6787,7 +6788,8 @@
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 174
     },
     {
       "name": "Gigantic Rage",
