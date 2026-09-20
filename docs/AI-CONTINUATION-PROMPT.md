@@ -2647,3 +2647,17 @@ Only after data-completeness work, expose the improved structured research surfa
 - Skill-data commit: `c382023c0136b4aaf2902e29d4f4599e1c1f5932`.
 - **The Power to Overcome** retains its unresolved Stage 2 speed/cooldown disagreement because current sources still conflict; **Wild Stinger** retains unverified exact numeric costs/damage because no sufficiently strong evidence was found in this cycle.
 - Next task: continue the evidence-gap audit on remaining unresolved mechanics, without converting conflicting or weakly supported values into false precision.
+
+
+### 2026-09-20 cycle update — Supreme Fury acquisition evidence refinement
+- Workstream: P1 skill second-pass acquisition/mechanics evidence cleanup.
+- Rechecked the remaining evidence-gap candidates after the current-scope consistency sweep.
+- Resolved the acquisition wording for **Supreme Fury**: current maintained PQ evidence explicitly lists it under **PQ179 — 24/7 Time Patrol — Basic Reward**. The canonical record now uses that exact quest/reward provenance instead of the generic "PQ179 reward context" wording.
+- Preserved the existing 100 Ki Strike Super cost and `ultimate_finish_required: false`. No unsupported drop probability or additional numerical mechanics were promoted.
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `3d59895e88f0a0b15705b7fefcb5aa523beb8c91` (skill data), `2c7fb63299025d1282c7b9b8049928b4a780dbb9` (coverage audit), plus this handoff commit.
+- Validation: live repository artifact searches returned 0 matches for `filecite`, `memcite`, and internal `turn*/tool-result` markers. The updated skill record retains its existing schema shape and provenance fields.
+- CI: the connected GitHub Actions API exposes no workflow runs and no combined status checks for the new skill-data commit; no CI pass is claimed. Validators were not weakened.
+- Evidence limitation: current evidence establishes PQ179 Basic Reward placement, but does not establish an exact drop probability; that remains unresolved.
+- Current skill census remains **283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified** based on the preceding live census; this cycle changed one record's acquisition provenance wording only.
+- Exact next task: continue the remaining 78-record current-scope evidence-gap audit, prioritizing acquisition/drop semantics and mechanics notes that can be resolved by specific current sources; preserve null/uncertain values where evidence remains insufficient.
