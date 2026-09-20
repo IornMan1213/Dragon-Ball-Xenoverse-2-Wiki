@@ -2784,3 +2784,10 @@ No `skills.json` data change was made in this pass.
 Promoted **Final Pose → PQ74**. The maintained Steam Community PQ guide explicitly lists Final Pose as a Basic Reward for **PQ74 — Galactic Patrol, Away!**, providing a direct quest identifier even though the skill can also be obtained through the Skill Shop. citeturn1search0turn1search1
 
 Skills commit: `62d434b84aecf89d5f408b0c024243aff6714e24`.
+
+
+## 2026-09-19 — explicit Explosive Wave PQ reward batch 26
+
+Promoted **Explosive Wave → PQ05**. The quest reward listing explicitly includes Explosive Wave as a basic reward for PQ05, establishing a concrete quest identifier even though the skill is also sold in the Skill Shop. citeturn1search9turn1search0
+
+Skills commit: `53ca434c6573151b3e5b2bf8f9a061f21d2db072`.
