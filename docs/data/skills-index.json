@@ -1699,7 +1699,8 @@
       "unlock_method": "Random reward from Parallel Quest 155 — \"I Need a Hero... Pose!\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Blaster in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained."
     },
     {
       "name": "Giant Cluster",
@@ -3287,12 +3288,14 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Gamma_Impact"
       ],
       "unlock_method": "Parallel Quest 155 — I Need a Hero... Pose!",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained."
     },
     {
       "name": "God of Destruction's Poise",
