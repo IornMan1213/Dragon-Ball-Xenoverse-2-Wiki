@@ -3492,3 +3492,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No unsupported Ultimate Finish-only requirements were added.
 - Current counts: 135 verified, 69 partial.
 - Next: continue the remaining partial records using explicit PQ/skill-page evidence and preserve unresolved gating conflicts.
+
+
+### 2026-09-19 continuation — early PQ reward verification
+- Verified **Death Slash** — PQ23.
+- Verified **Double Death Slicer** — PQ24.
+- Verified **Freedom Kick** — PQ29.
+- These are explicit PQ reward listings; no unsupported Ultimate Finish-only requirements were added.
+- Current counts: 135 verified, 69 partial.
+- Next: continue the remaining partial records, favoring explicit PQ reward listings and skill-page acquisition statements.
