@@ -710,7 +710,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 79 — \"Great Ape Festival\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 79"
     },
     {
       "name": "Psychic Move",
@@ -749,7 +751,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Side_Bridge",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward",
+      "source_quest_or_shop": "Parallel Quest 39"
     },
     {
       "name": "Spread Shot Retreat",
@@ -775,7 +779,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Random Reward",
+      "source_quest_or_shop": "Parallel Quest 165"
     },
     {
       "name": "Final Pose",
@@ -1086,7 +1092,9 @@
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish Bonus",
+      "source_quest_or_shop": "PQ160"
     },
     {
       "name": "Destruction's Concerto: Comet",
