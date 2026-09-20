@@ -2886,3 +2886,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `917fae74777ee426d6ff7c52f6a06dad2070e803` (canonical refinements), `6e74e2fe0f0e2165e12d8b198c4fdd3519ac79f5` (index sync), `e3ffc9da0810afe43f4b37d62394c3f30ac1e7fa` (coverage audit).
 - Evidence rule: reward tiers are only asserted where current/maintained reward listings support them; God Breaker remains explicitly random because its dedicated source says random and the inspected PQ44 Basic Reward table does not list it.
 - Exact next task: continue remaining generic PQ records, prioritizing base-game entries where maintained reward tables can distinguish Basic Reward from random/Ultimate Finish provenance.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 3
+- Refined **Blaster Ball** to concrete PQ125 acquisition while retaining a generic reward tier due to insufficient direct tier evidence; refined **Bluff Kamehameha** to random reward from PQ94; refined **Breaker Energy Wave** to PQ101 Basic Reward; refined **Burst Kamehameha** to PQ72 Basic Reward.
+- Re-synchronized `docs/data/skills-index.json`; 283 records remain.
+- Commits: `637dc5c2a89876a03007ce119b5e60b3faedfe0a` (canonical refinements), `0d8400b54a2e2e6c05d3d41576a50806649a023c` (index sync), `e24fd20f7a411c75ab5113874110b7e9416d324a` (coverage audit).
+- Exact next task: continue remaining generic PQ records; preserve explicit random-reward provenance and avoid asserting reward tiers without direct evidence.
