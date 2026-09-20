@@ -3432,3 +3432,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Latest Actions runs on handoff commit `7cb4ed6e2630fe84b557273ad6e65c23d03b81f4` remain failing for **Clean internal artifacts** and **Repository quality**; the Pages deployment run is cancelled. The connected GitHub API still does not expose useful step-level diagnostics for the failing jobs, so the workflow configuration is not weakened or altered. GitHub documents that failed workflow jobs should be diagnosed through their job logs/steps, and that job APIs can expose those details when accessible. citeturn0search1turn0search4
 - Audit commit: `69637a8efc96947584c04644b468ee538f0c6b6c`.
 - Next task: continue the remaining `verified_current_scope` records outside the already-audited UF/basic/shop/character-only subsets, then perform another internal-artifact sweep and refresh the Actions state.
+
+
+### 2026-09-20 cycle update — non-quest subset completed
+- Completed the remaining acquisition-type sweep outside quest/mission, skill-shop, and character-only records.
+- Only **Final Charge** and **Surging Spirit** are `other_nonquest`; both were previously provenance-checked and remain unchanged.
+- Canonical census remains **283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified**.
+- Audit commit: `eb897937e91bb51ee175159623fa01a2e614db91`.
+- GitHub's current documentation confirms that workflow jobs expose step/log diagnostics through the Actions UI and REST API, but the connected repository integration still does not provide the failing-job log content. citeturn0search0turn0search1
+- Next task: run a repository-wide internal-artifact search again, inspect workflow files for validation coverage without weakening them, then update this handoff with the findings.
