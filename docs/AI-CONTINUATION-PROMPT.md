@@ -3617,3 +3617,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts: **175 verified / 29 partially verified** of 283.
 - Next task: continue the remaining 29 partial records, prioritizing explicit current acquisition evidence and resolving classification/reward-condition conflicts only when the evidence is explicit.
+
+
+### 2026-09-20 continuation — Chaotic Time Impact reward conflict resolved
+- Promoted **Chaotic Time Impact (PQ184)** to verified.
+- Reconciled the prior conflict using the current PQ184 reward data: Chaotic Time Impact is listed as a **50% Ultimate Finish bonus** reward. The canonical `ultimate_finish_required: true` value is therefore retained.
+- Sonic Bomb remains partial because the available evidence still conflicts over its PQ105 reward gating.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts: **176 verified / 28 partially verified** of 283.
+- Next task: continue the remaining 28 partial records, prioritizing acquisition-condition conflicts and explicit current classifications.
