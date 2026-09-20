@@ -3475,3 +3475,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Current reference material identifies it as the new Awoken Skill in **Free Update 13** (November 4, 2021) and documents the Shenron wish/five-mentor friendship unlock route. Existing canonical `Free Update 13` provenance remains supported; no data correction was necessary.
 - Audit commit: `d056b07d0e594f41a7267cbe29725ce5f1dae0be`.
 - Next task: continue the remaining current-scope provenance/source-field audit, prioritizing records whose DLC/update labels remain historically ambiguous.
+
+### 2026-09-20 cycle update — explicit quest provenance sweep
+- Rechecked current-scope quest/mission records carrying explicit Base Game, Free Update, Vote Pack, Super Pack, Extra Pack, Ultra Pack, or Hero of Justice labels.
+- Transformation/update records and DLC PQ records remain internally consistent with their maintained unlock quests and provenance. No unsupported DLC/version correction was made.
+- Audit commit: `733925e4d198c813a3503da869da452cd410316e`.
+- Next task: continue the current-scope source-field audit, focusing on individual DLC PQ provenance and any remaining acquisition/source contradictions.
