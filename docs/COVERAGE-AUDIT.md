@@ -3809,3 +3809,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Commits: canonical **7689098e1e7778bdadf5e92dec72942f73470ef1**; index **931da3fe02cf407ff12d2678737a787d890b5375**.
 - Evidence limitation: external current guides were used only to corroborate routes already represented by the repository's Awoken/Advancement research; contested or version-sensitive details remain qualified in the canonical notes.
 - Exact next task: **continue the non-PQ provenance audit with the remaining mentor/test/mission records that still have terse or ambiguous acquisition wording (especially Galick Gun, Dancing Parapara, Rise to Action, Deadly Dance, and any remaining source-null records), then inspect dedicated research files for concrete lesson/test/mission identifiers before editing.**
+
+## 2026-09-20 — mentor lesson-level provenance refinement continuation
+- Refined **11** non-PQ mentor acquisition records whose prior source labels were too broad: **Galick Gun**, **Dancing Parapara**, **Rise to Action**, **Deadly Dance**, **Shadow Crusher**, **Time Skip/Flash Skewer**, **Time Skip/Back Breaker**, **Time Skip/Jump Spike**, **Death Ball**, **Darkness Rush (Melee)**, and **Darkness Rush (Ranged)**.
+- Current maintained instructor evidence identifies the exact training checkpoint for each: Vegeta's Initiation Test; Pan's Initiation Test; Krillin's Initiation Test; Android 18 Lesson 2; Cooler Lesson 1; Hit Initiation Test/Lessons 1–2; Frieza Lesson 3; and Lord Slug Lesson 3.
+- Reward wording now explicitly identifies these as mentor Basic Rewards. For Lord Slug Lesson 3, the evidence records both Darkness Rush variants in the same reward set.
+- No Ultimate Finish gate, drop rate, or unsupported prerequisite was inferred.
+- External corroboration: maintained instructor reward data and current/accessible mentor guides agree on the initiation/lesson mapping for the refined records. citeturn2search0turn2search3turn0search0turn1search3
+- Validation after the change: canonical/index **283 records**, exact name/order parity, UF count **60**; the targeted terse mentor/test census now returns **0** records under the current audit pattern.
+- Commits: canonical **77617ca0ad0ed0edaf0aec8251fcb371c7fffcf6**; index **21cc5cc53ea465cdda3330ff751656565f175d2d**.
+- Next: audit the remaining non-PQ quest/mission records for **source-quality and specificity rather than simple terseness**, especially time-rift, story, shop, and Expert Mission routes; preserve unresolved conditions and source conflicts.
