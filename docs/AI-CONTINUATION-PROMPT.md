@@ -3313,3 +3313,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ51's maintained reward listing places Burst Rush in Basic Reward, not Ultimate Finish.
 - Preserved `source_quest=51` and normalized the unlock wording to the PQ51 Basic Reward route.
 - Next task: continue the partially verified skill cohort, prioritizing records whose maintained PQ evidence can deterministically resolve acquisition or Ultimate Finish fields.
+
+
+### 2026-09-19 continuation — static schema/invariant validation
+- Re-ran the key schema-aligned invariants across all 283 canonical skills: 0 violations.
+- Verified intended class/subcategory enums and acquisition-type enums remain represented in the schema.
+- No character-only CaC contradictions or quest/non-quest provenance contradictions remain.
+- CI remains unverified because GitHub exposes no workflow runs/statuses for the current handoff.
+- Next task: continue evidence-backed enrichment rather than making unsupported normalization changes.
