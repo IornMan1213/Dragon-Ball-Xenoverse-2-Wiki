@@ -2748,3 +2748,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Kept **Explosive Wave** as Skill Shop acquisition after normal-ending story progression.
 - Commits: `36191badce56ea7fe3d89c1966b902b996fa979c` (skills), `5f3bccbf58e4b298bf167747dd861f3821f975f3` (coverage audit).
 - Exact next task: continue scanning the remaining current-scope records for acquisition conflicts and canonical type/cost discrepancies; preserve conflicting reward-gate evidence instead of collapsing it into a false definitive gate.
+
+
+### 2026-09-20 cycle update — canonical skill correction pass: Paralysis / Dust Attack
+- Workstream: P1 skill second-pass canonical classification and provenance cleanup.
+- Live skill census remains **283 total / 78 verified_current_scope / 0 conflict / 0 partially_verified**; this cycle corrected two record-level issues without changing the census size.
+- **Paralysis:** corrected from Super/Ki Blast/100 Ki to **Ultimate/Strike/300 Ki**. Current evidence identifies it as Guldo's technique, obtainable by the Future Warrior/CaC from **PQ34 — Return of the Ginyu Force!**; the maintained PQ evidence places it in Basic Reward, so `ultimate_finish_required` remains false. Distinguishing evidence also confirms **Paralyze Beam** is the separate 100-Ki Ki Blast Super from PQ4.
+- **Dust Attack:** corrected stale `character_source` from Hercule to **Piccolo**. Current evidence identifies Dust Attack as Piccolo's Other Super Skill and preserves the existing PQ78 acquisition, 100-Ki cost, and CaC availability.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `1e2084b303b385b10db3418d429b110a2d99a369` (Paralysis canonical data), `98f2462dc8a3b8fde224d9bcdec7569720e45b7c` (skill index), `035ce0853b4360204fa588105290c33266eb1027` (audit), `27272f6c2e8afc63c739e66340ebc89193bf93d8` (Dust Attack), `2004a935a67a9ed81638dc019b625472cb687d92` (audit).
+- Evidence limitations: no unsupported drop percentages were added. Paralysis's Basic Reward placement is retained; exact individual RNG/drop probability remains unresolved.
+- Artifact scan: GitHub code searches returned no matches for `filecite`, `memcite`, or `turn0search` in the indexed repository search.
+- CI: the latest push-triggered Repository quality and Clean internal artifacts runs for `2004a935a67a9ed81638dc019b625472cb687d92` were **queued** at inspection. The immediately preceding Repository quality run for `035ce0853b4360204fa588105290c33266eb1027` failed before actionable steps/logs were exposed; no validator was weakened.
+- Exact next task: continue the pre-2026-09-20 current-scope skill audit, prioritizing remaining canonical type/cost/source mismatches before lower-confidence descriptive enrichment. Recompute the live census first, then inspect the next unresolved records and update both `skills.json` and `skills-index.json` whenever canonical/index fields diverge.
