@@ -2937,3 +2937,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `da62ee7e666d043e96821ffc9e83ccdf8e8059fc` (canonical), `ee616d02964aedfb4a105dee600edac498ba96a8` (index), `8fa0b7c403fc0b78228ef998263368ae2a517245` (coverage audit).
 - Live census: **283 records**, **16** exact generic PQ acquisition records remain.
 - Exact next task: continue at **PQ127 — Gigantic Burst / Revenge Death Ball**, then PQ128, PQ132, PQ135, and onward.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 16
+- Refined eight canonical skill acquisition records: **Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), Gigantic Roar (PQ132), Lovely Cyclone (PQ135), Ribrianne's Eternal Love (PQ137), Total Detonation Ball (PQ139), Savory Slicer (PQ140)**.
+- Resolved maintained reward semantics rather than flattening them: Gigantic Burst/Revenge Death Ball/Powered Shell are Basic Reward routes; Gigantic Roar and Total Detonation Ball are first-clear routes; Lovely Cyclone, Ribrianne's Eternal Love, and Savory Slicer are Ultimate Finish bonus-slot routes. `ultimate_finish_required=true` only for those three UF-gated records.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `98f90c9a8a8efb219df02de9e82048fa97684789` (canonical), `a4ac594288abcb90fa634e0404f6742e41f3de3c` (index), `f5fe45a7ff1ef0d30f22928e5c8d7614c1830516` (coverage audit).
+- Live census: **283 records**, **8** exact generic PQ acquisition records remain.
+- Exact next task: continue at **PQ142 — Lightning Impact**, then PQ148 — Blaster Stream, PQ154, PQ160, PQ164, PQ177, and PQ185/186, carefully preserving unresolved/random routes where evidence does not establish a stronger tier.
