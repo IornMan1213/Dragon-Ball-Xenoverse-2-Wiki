@@ -1068,11 +1068,11 @@
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" 45% Ultimate Finish reward bonus reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly assigns this skill to the 45% Ultimate Finish bonus slot route. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred."
     },
     {
@@ -1262,12 +1262,12 @@
         "https://dbxv2.fandom.com/wiki/Big_Bang_Knuckle",
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
       ],
-      "unlock_method": "Parallel Quest 172 basic reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 172 — \"Little Big Brother\" 40% Ultimate Finish reward bonus reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged. Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Basic Reward acquisition is retained."
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged. Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Ultimate Finish reward acquisition is retained."
     },
     {
       "name": "Blaster Ball",
@@ -1630,12 +1630,12 @@
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 171 basic reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 171 — \"Fighters with Finesse\" 50% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive.",
-      "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Basic Reward acquisition is retained."
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained. UF audit 2026-09-19: the maintained PQ guide explicitly assigns this skill to the 50% Ultimate Finish route, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Ultimate Finish reward acquisition is retained."
     },
     {
       "name": "Double Death Slicer",
@@ -1747,11 +1747,11 @@
         "https://dbxv2.fandom.com/wiki/Eraser_Bomb",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" 40% Ultimate Finish reward bonus reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Eraser Bomb in PQ163 Basic Reward; exact individual RNG/drop probability remains unresolved.",
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Eraser Bomb in PQ163 Ultimate Finish reward; exact individual RNG/drop probability remains unresolved. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred."
     },
     {
@@ -1943,12 +1943,12 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 175 — \"Who's the Next Leader?!\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 175 — \"Who's the Next Leader?!\" 50% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 acquisition refinement: PQ175's maintained reward listing explicitly places God of Destruction's Plaything in the Basic Reward section, so the canonical record now uses the concrete quest and reward classification rather than generic 'PQ175 reward context'.",
-      "mechanics_notes": "100-Ki Ki Blast Super associated with God of Destruction Belmod. Current maintained PQ reward evidence places it in PQ175's Basic Reward list. Exact individual drop probability and additional numerical hit/damage details remain unverified; no unsupported probability or Ultimate Finish-only condition is assigned."
+      "notes": "2026-09-20 acquisition refinement: PQ175's maintained reward listing explicitly places God of Destruction's Plaything in the Ultimate Finish reward section, so the canonical record now uses the concrete quest and reward classification rather than generic 'PQ175 reward context'. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "100-Ki Ki Blast Super associated with God of Destruction Belmod. Current maintained PQ reward evidence places it in PQ175's Ultimate Finish reward list. Exact individual drop probability and additional numerical hit/damage details remain unverified; no unsupported probability or Ultimate Finish-only condition is assigned."
     },
     {
       "name": "God Punisher",
@@ -2023,11 +2023,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" 50% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 correction: canonical description now matches the verified Strike classification and PQ179 source; exact drop gating remains unresolved.",
+      "notes": "2026-09-20 correction: canonical description now matches the verified Strike classification and PQ179 source; exact drop gating remains unresolved. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "Dedicated current-version evidence corrects Heat Wave to a **200-Ki Strike Super** from PQ179. It charges, repels Ki Blasts during its rush, and can break guard when fully charged. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred."
     },
     {
@@ -2158,12 +2158,12 @@
         "https://dbxv2.fandom.com/wiki/Pendulum_Bullet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 166 reward.",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 166 — \"Escape from West City\" 50% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 166 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 166 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ166. It fires a pendulum-like projectile; exact drop gating remains bounded. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Ultimate Finish reward-condition listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
     },
     {
       "name": "Perfect Shot",
@@ -2471,12 +2471,12 @@
         "https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 165 reward.",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" 45% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 165 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
-      "mechanics_notes": "Confirmed as Android 18 (DB Super)'s 100-Ki Ki Blast Super from Future Saga Chapter 1/PQ165. It has multiple input variations, including a charged overhead blast and a back-jump shot. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 165 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "Confirmed as Android 18 (DB Super)'s 100-Ki Ki Blast Super from Future Saga Chapter 1/PQ165. It has multiple input variations, including a charged overhead blast and a back-jump shot. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Ultimate Finish reward-condition listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
     },
     {
       "name": "Victory Cannon",
@@ -3361,12 +3361,12 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 178 — The Tireless Pursuit of Strength",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 178 — \"The Tireless Pursuit of Strength\" 50% Ultimate Finish reward bonus reward.",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 178 — The Tireless Pursuit of Strength. No Ultimate Finish-only requirement is established.",
-      "mechanics_notes": "Confirmed as Goku (Mini)'s 300-Ki Strike Super from Future Saga Chapter 2 PQ178. It is a close-range rush strike; current Future Warrior evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 178 — The Tireless Pursuit of Strength. No Ultimate Finish-only requirement is established. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "Confirmed as Goku (Mini)'s 300-Ki Strike Super from Future Saga Chapter 2 PQ178. It is a close-range rush strike; current Future Warrior evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Ultimate Finish reward-condition listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
     },
     {
       "name": "Crimson Edge",
@@ -3379,12 +3379,12 @@
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 171 basic reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 171 — \"Fighters with Finesse\" 45% Ultimate Finish reward bonus reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive.",
-      "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Basic Reward acquisition is retained."
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior. UF audit 2026-09-19: the maintained PQ guide explicitly assigns this skill to the 45% Ultimate Finish bonus slot route, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Ultimate Finish reward acquisition is retained."
     },
     {
       "name": "Deadly Dance",
@@ -3492,12 +3492,12 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 177 — \"Warped Sense of Justice\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 177 — \"Warped Sense of Justice\" 50% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: current PQ177 reward listing explicitly includes Dragon Spark in the Basic Reward pool; the dedicated skill page confirms PQ177 as its unlock quest. No Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "notes": "2026-09-20 audit: current PQ177 reward listing explicitly includes Dragon Spark in the Ultimate Finish reward pool; the dedicated skill page confirms PQ177 as its unlock quest. the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Ultimate Finish reward-condition listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
     },
     {
       "name": "Dragon Spiral",
@@ -3628,11 +3628,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\" 50% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: current PQ180 reward listing explicitly includes Force Edge in the Basic Reward pool; dedicated skill documentation independently confirms PQ180.",
+      "notes": "2026-09-20 audit: current PQ180 reward listing explicitly includes Force Edge in the Ultimate Finish reward pool; dedicated skill documentation independently confirms PQ180. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred."
     },
     {
@@ -3743,12 +3743,12 @@
         "https://dbxv2.fandom.com/wiki/Justice_Drive",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 168 — \"Videl: Super Mom\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 168 — \"Videl: Super Mom\" 40% Ultimate Finish reward bonus reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Drive in PQ168's Basic Reward pool; the quest is \"Videl: Super Mom.\"",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Drive in PQ168's Ultimate Finish reward pool; the quest is \"Videl: Super Mom.\" 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Ultimate Finish reward-condition listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
     },
     {
       "name": "Justice Kick",
@@ -4168,11 +4168,11 @@
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 172 basic reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 172 — \"Little Big Brother\" 45% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Corrected 2026-09-20: PQ172 Basic Reward is treated as CaC-accessible; character association does not by itself establish character exclusivity.",
+      "notes": "Corrected 2026-09-20: PQ172 Ultimate Finish reward is treated as CaC-accessible; character association does not by itself establish character exclusivity. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "Official DLC material confirms the core move behavior; exact numeric cost remains unverified, so the current 100-Ki record should not be treated as authoritative without stronger evidence. The PQ172 acquisition path is retained; exact Ki cost remains unresolved."
     },
     {
@@ -4244,11 +4244,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\" 50% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Basic Reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred.",
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Ultimate Finish reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association."
     },
     {
@@ -5270,11 +5270,11 @@
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 174 - Hyper Special Training reward; exact drop gating requires further reconciliation.",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 174 — \"Hyper Special Training\" 60% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 60% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "500 Ki; multi-stage rush/ground-impact sequence. Exact CaC acquisition/drop semantics remain under reconciliation because current public skill-page evidence emphasizes the character user."
     },
     {
@@ -5388,12 +5388,12 @@
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" Basic Reward; exact drop conditions remain unresolved.",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" 50% Ultimate Finish reward.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
-      "mechanics_notes": "100 Ki Strike Super. Current reward evidence places Supreme Fury in PQ179 Basic Reward; exact drop conditions and additional numerical mechanics remain under research."
+      "notes": "2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "mechanics_notes": "100 Ki Strike Super. Current reward evidence places Supreme Fury in PQ179 Ultimate Finish reward; exact drop conditions and additional numerical mechanics remain under research."
     },
     {
       "name": "Unrelenting Barrage",
