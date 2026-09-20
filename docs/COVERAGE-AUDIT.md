@@ -3669,3 +3669,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Corrected six records whose own audit notes explicitly said CaC race/gender/form scope was unresolved while `race_restriction` still incorrectly read `All CaC races`: **Super God Fist, Variant Drive, Blaster Stream, Chain Destructo-Disc Barrage, Circle Flash, and Chaotic Time Impact**.
 - Their `race_restriction` fields are now `null`; no new race restriction or universal-race claim is inferred.
 - This is a consistency correction only and does not alter acquisition provenance or reward gating.
+
+
+## 2026-09-20 — stale reward-tier note cleanup
+- Corrected **Chaotic Time Impact** to match its reconciled PQ184 evidence: **50% Ultimate Finish bonus reward**, with `ultimate_finish_required=true`.
+- Updated **Circle Flash** notes to reflect the already-established PQ154 40% Ultimate Finish bonus roll instead of saying its gating remained unresolved.
+- Updated **Sonic Bomb** notes so the unresolved portion is limited to exact probability/mechanics; its Basic Reward classification is now treated as resolved.
