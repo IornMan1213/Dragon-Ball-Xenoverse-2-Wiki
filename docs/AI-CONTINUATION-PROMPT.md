@@ -3417,3 +3417,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Audit commit: `58701110606b96d18834f4b908ba0036401fb9e2`.
 - External reference confirms PQ skills can come through different reward mechanisms, including opponent-linked random drops and Ultimate-Finish rewards. citeturn0search1
 - Next task: continue the remaining quest/mission records with explicit reward conditions and inspect the newest GitHub Actions state; do not infer gating from a PQ number alone.
+
+
+### 2026-09-20 cycle update — explicit Ultimate Finish subset
+- Rechecked the three remaining `verified_current_scope` quest/mission records with `ultimate_finish_required: true`: **Kaioken (PQ8), Earth Splitting Galick Gun (PQ11), and Raid Blast (PQ136)**.
+- Their UF flags and explicit unlock wording remain consistent with the maintained PQ provenance; no canonical field change was warranted.
+- Current PQ references distinguish ordinary skill drops from Ultimate-Finish reward slots. citeturn0search1turn0search6
+- Audit commit: `b610c22a5b6e7d1a28cb888ab3938662ac9d71d3`.
+- Next task: continue the remaining non-UF quest records and check for contradictions between `ultimate_finish_required`, reward wording, and `source_quest_or_shop`; then inspect latest Actions without weakening workflows.
