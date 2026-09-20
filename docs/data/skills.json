@@ -5725,10 +5725,10 @@
       "source_quest_or_shop": "Parallel Quest 105",
       "ultimate_finish_required": false,
       "skill_description": "Sonic Bomb is a Super Strike skill associated with Champa.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 conflict retained: current skill page confirms PQ105 acquisition and Strike classification, but archived GameFAQs material lists Sonic Bomb under PQ105 Ultimate Finish rewards; Ultimate Finish gating remains unresolved, so the record stays partial.",
-      "verification_status": "partially_verified",
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 conflict retained: current skill page confirms PQ105 acquisition and Strike classification, but archived GameFAQs material lists Sonic Bomb under PQ105 Ultimate Finish rewards; Ultimate Finish gating remains unresolved, so the record stays partial. 2026-09-20 reconciliation: current maintained PQ105 reward data explicitly places Sonic Bomb in the Basic Reward list. An archived player discussion reports players commonly believed an Ultimate Finish was needed, but that anecdotal report is superseded for canonical reward classification by the maintained reward table; UF gating is therefore not recorded.",
+      "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
