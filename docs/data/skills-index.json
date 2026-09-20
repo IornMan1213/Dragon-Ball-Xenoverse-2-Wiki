@@ -1358,7 +1358,7 @@
       "name": "Handy Canon",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1366,7 +1366,10 @@
         "https://dbxv2.fandom.com/wiki/Handy_Canon",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Basic Reward in Parallel Quest 115.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Headshot",
@@ -1399,7 +1402,7 @@
       "name": "Ill Bomber",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1407,7 +1410,10 @@
         "https://dbxv2.fandom.com/wiki/Ill_Bomber",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Basic Reward in Parallel Quest 90.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Ill Rain",
@@ -1637,7 +1643,7 @@
       "name": "Stone Bullet",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1645,20 +1651,26 @@
         "https://dbxv2.fandom.com/wiki/Stone_Bullet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Basic Reward in Parallel Quest 56.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super Donut Volley",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Donut_Volley",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Basic Reward in Parallel Quest 55.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super Ghost Buu Attack",
