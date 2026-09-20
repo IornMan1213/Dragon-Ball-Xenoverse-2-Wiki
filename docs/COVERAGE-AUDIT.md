@@ -3154,5 +3154,5 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Audited numeric `source_quest` values against the actual acquisition fields.
 - Corrected two records whose canonical acquisition was Skill Shop rather than a quest: `Explosive Wave` and `Final Pose`.
 - Both now use `acquisition_type: skill_shop`, `source_quest: null`, `source_quest_or_shop: Skill Shop`, and `ultimate_finish_required: false`.
-- Public evidence independently confirms Explosive Wave is purchased from the Skill Shop after the normal-ending story; Final Pose is documented as a Skill Shop acquisition. citeturn0search0
+- Public evidence independently confirms Explosive Wave is purchased from the Skill Shop after the normal-ending story; Final Pose is documented as a Skill Shop acquisition.
 - No quest IDs were removed from genuinely quest-acquired records.
