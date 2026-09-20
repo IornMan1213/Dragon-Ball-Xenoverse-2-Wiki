@@ -3063,3 +3063,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Live census: **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
 - Important: the remaining 28 source-quest nulls include legitimate shop, TP Medal Shop, character-only, and starting-move routes. Do not fabricate quest values just to reach zero nulls.
 - Next exact task: audit the remaining 28 `source_quest` nulls and classify them as legitimately non-quest or identify explicit quest routes where the record already contains enough evidence.
+
+
+### 2026-09-19 continuation — source-quest null audit pass 2
+- Audited the remaining 28 `source_quest` nulls against current acquisition fields and external unlock evidence.
+- No additional `source_quest` values were forced. Shop/distribution routes such as Reverse Mabakusenko, Pressure Sign, Quick Sleep, Punisher Guard, Big Bang Kamehameha, Emperor's Death Beam, and Final Explosion are not PQ rewards in their current acquisition routes; Punisher Guard's historical PQ87 provenance does not justify representing PQ87 as its current source quest.
+- Audit commit: `76b70ceb876c9210ffb5108a7fdb6135b6dbd031`.
+- Live census remains **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
+- Next exact task: audit the remaining character-only/update-distribution records for explicitly named quest or mission routes. Preserve null when the actual acquisition is a shop, roster-only, starting move, or other non-quest route.
