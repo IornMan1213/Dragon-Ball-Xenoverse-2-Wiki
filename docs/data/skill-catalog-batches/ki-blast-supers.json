@@ -190,23 +190,19 @@
   ],
   "source_conflicts": [
     {
-      "field": "category_count",
+      "field": "catalog_set",
       "claims": [
         {
           "source": "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
-          "value": "All items (183)"
-        },
-        {
-          "source": "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
-          "value": "Burst Stinger is visibly listed in the category"
+          "value": "All items (183), including Burst Stinger"
         },
         {
           "source": "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki",
-          "value": "The repository batch previously contained 183 names but omitted Burst Stinger"
+          "value": "Pre-change batch declared 183 but contained 182 names and omitted Burst Stinger"
         }
       ],
       "status": "unresolved"
     }
   ],
-  "notes": "2026-09-19: Burst Stinger was promoted into the repository batch after a live source/category check. The source category visibly lists Burst Stinger but simultaneously reports 'All items (183)'; the repository now records 184 observed names. A complete source-vs-repository set diff is still required before changing the source's declared count or closing this reconciliation item."
+  "notes": "2026-09-19: Burst Stinger was promoted into the repository batch after a live source/category check. The source category reports 'All items (183)' and the batch now contains 183 observed names including Burst Stinger. Before promotion the batch declared 183 but actually contained 182 names, so at least one additional source-vs-repository set-diff gap remains. A complete diff is required before treating the category as reconciled."
 }
