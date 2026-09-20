@@ -3052,3 +3052,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Live census: **283 skills; 1 null `dlc_requirement`; 31 null `source_quest`**.
 - Sole remaining DLC null: **Divine Lasso**. It is documented in Bandai Namco's May 10, 2017 TP Medal Shop content update, but no sufficiently authoritative source currently establishes the canonical numbered free-update/DLC label. Preserve the null unless that exact chronology is verified.
 - Next exact task: verify Divine Lasso's canonical update/DLC provenance; if unavailable, retain null and move to improving the 31 `source_quest` nulls.
+
+
+### 2026-09-19 continuation — final DLC provenance + source-quest integrity
+- Resolved the final `dlc_requirement` null: **Divine Lasso → Free Update 3**.
+- Evidence: Bandai Namco's May 10, 2017 content-update notice lists Divine Lasso in the TP Medal Shop schedule; contemporary records identify the release as the DLC 3 / Free Update 3 era and distinguish these TP-shop skills as free-update content rather than paid DLC.
+- Also filled explicit `source_quest` values for **Divine Spear, Crimson Edge, and Wild Stinger → PQ171 / PQ172**.
+- Data commits: `f3e5dfe211ae4a4fa3bfd0e6bc0bc6477c528ac9`, `ecac80ef9989375ecbebf0b227af059489656d68`.
+- Audit commit: `dba345c0845fc51bbe24cb5e00018a9cf4eb811a`.
+- Live census: **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
+- Important: the remaining 28 source-quest nulls include legitimate shop, TP Medal Shop, character-only, and starting-move routes. Do not fabricate quest values just to reach zero nulls.
+- Next exact task: audit the remaining 28 `source_quest` nulls and classify them as legitimately non-quest or identify explicit quest routes where the record already contains enough evidence.
