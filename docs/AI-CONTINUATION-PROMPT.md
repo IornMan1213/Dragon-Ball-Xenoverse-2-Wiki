@@ -3071,3 +3071,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Audit commit: `76b70ceb876c9210ffb5108a7fdb6135b6dbd031`.
 - Live census remains **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
 - Next exact task: audit the remaining character-only/update-distribution records for explicitly named quest or mission routes. Preserve null when the actual acquisition is a shop, roster-only, starting move, or other non-quest route.
+
+
+### 2026-09-19 continuation — source-quest classification pass 3
+- Classified all 28 remaining source_quest nulls:
+  - 11 character-only / starting-move records.
+  - 8 Skill Shop records.
+  - 9 TP Medal Shop / equivalent distribution records.
+- No data values were changed because these are non-quest acquisition routes.
+- Audit commit: cbaf3c9c2fdb4ad4b14f6297736b104ae6591b7d.
+- Live census remains **283 skills; 0 null dlc_requirement; 28 null source_quest**.
+- Next exact task: inspect the schema and validators to determine whether a normalized acquisition_type field would accurately represent these non-quest routes without corrupting source_quest semantics. Do not change schema until validator/documentation impact is understood.
