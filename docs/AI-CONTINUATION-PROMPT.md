@@ -3360,3 +3360,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No Ultimate Finish flags were changed. The current repository's explicit PQ reward audit was retained rather than replacing it with weaker community inference.
 - Skill-data commit: `03ffd90bf1c306b5cb1d2eda98e703150a5cae2d`; skill-audit commit: `693bb67f061ebe995ef1d4cc2a412adb56f481bb`; coverage-audit commit: `7e78445726b31f58d71c0756d425b07c769572ff`.
 - Exact next task: continue the 78-record skill second-pass audit, prioritizing source-field contradictions and exact DLC/version provenance, then inspect validation/Actions and update this handoff.
+
+
+### 2026-09-20 cycle update — skill transformation provenance spot-check
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup.
+- Recomputed the live canonical skill census: **283 records total; 78 `verified_current_scope`**.
+- Audited the transformation/current-version subset including **Super Saiyan Blue Kaioken, Pure Progress, Supersonic Mode, Surging Spirit, Ultra Instinct, and Super Saiyan God** against the repository's source corpus plus current external references.
+- No unsupported DLC correction was made in this pass. External evidence confirms **Pure Progress** as part of the first free update, **Surging Spirit** as Extra Pack 2 content also used by Goku (Ultra Instinct -Sign-) in the Conton City Vote Pack, and **Ultra Instinct** as a universal-avatar Awoken Skill introduced in the 17th free update. citeturn1search9turn1search0turn1search2
+- The current repository values for **Super Saiyan Blue Kaioken = Base Game**, **Pure Progress = Free Update 1**, **Supersonic Mode = Conton City Vote Pack**, **Surging Spirit = Extra Pack 2; Conton City Vote Pack**, **Ultra Instinct = Free Update 17**, and **Super Saiyan God = Free Update 13** were therefore preserved pending stronger primary provenance for the first and last historical labels.
+- No data files required modification in this spot-check; this handoff update records the completed evidence review rather than fabricating a change.
+- Exact next task: continue the remaining 78-record second-pass audit, prioritizing acquisition-specific fields and DLC/version provenance where the repository still uses broad labels or where source-field contradictions remain. Then inspect GitHub Actions and accidental internal-artifact searches.
