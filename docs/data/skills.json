@@ -2262,7 +2262,7 @@
       "source_quest": 24,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source."
     },
     {
       "name": "Dust Attack",
@@ -4731,7 +4731,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 23,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence."
+      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence. 2026-09-19 verification: The live all-PQ reward guide lists Death Slash as a Basic Reward for PQ23. This is an explicit concrete PQ source."
     },
     {
       "name": "Demon Flurry",
@@ -5066,7 +5066,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence."
+      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence. 2026-09-19 verification: The live all-PQ reward guide lists Freedom Kick as a Basic Reward for PQ29. This is an explicit concrete PQ source."
     },
     {
       "name": "Gamma Impact",
