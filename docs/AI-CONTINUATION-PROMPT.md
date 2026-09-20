@@ -3166,3 +3166,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - External cross-checks: maintained PQ94 evidence lists Bluff Kamehameha as Basic Reward; maintained PQ52 evidence lists Final Cannon as Basic Reward; maintained PQ39 evidence lists Side Bridge as Basic Reward; maintained PQ165 evidence lists Steel Mirage as Basic Reward. 
 - Commits: `84eeacf1f43c7850a7d2c584c2ce844d81b67353` (canonical), `993edc0aeb41f5ab34b0ef72ea7f28309a747ed3` (index), `85c84ce82f99e77152da88cdddfcbf22b3a7e540` (audit).
 - Exact next task: inspect the remaining `random reward` acquisition records against maintained PQ reward tables and explicit drop-condition data. Do not manufacture missing gates; preserve uncertainty where reward-table and dedicated-skill wording conflict.
+
+
+### 2026-09-20 cycle update — Gamma Blaster PQ155 provenance refinement
+- Reconciled **Gamma Blaster** against maintained PQ155 reward evidence.
+- Current maintained PQ155 transcription explicitly lists Gamma Blaster under **Basic Reward**. Canonical and index acquisition wording now records Basic Reward; `ultimate_finish_required` remains false.
+- Dedicated skill documentation describes PQ155 acquisition but does not establish an Ultimate Finish-only gate. Exact individual reward probability remains unresolved, so no numerical rate or stronger gate was inferred.
+- Commits: `c1460c802e9f788ba3b5f0997275873e11644e74` (canonical), `2fab1c200e8ef2591c3492a725c454a26ba3ab22` (index), `7e79d9f46975e40a51b0c871bd9404fd9fb1bedf` (audit).
+- Exact next task: inspect the live repository's remaining acquisition/provenance anomalies after this cleanup, then check current GitHub Actions/status exposure and re-run the canonical/index census. Do not manufacture missing PQ141–PQ150 records.
