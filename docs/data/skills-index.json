@@ -445,10 +445,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Ultimate Finish bonus reward (35% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 153 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Demon Flash Strike",
@@ -531,11 +532,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Heroic_Counter"
       ],
-      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Ultimate Finish bonus reward (40% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 provenance audit: maintained PQ155 reward transcription lists Heroic Counter in the Basic Reward pool, while Dragon Ball Wiki describes it as a random Future Warrior acquisition from PQ155. The exact slot/gate remains unresolved; canonical Basic Reward classification is retained without asserting an Ultimate Finish-only requirement."
+      "notes": " 2026-09-20 provenance audit: maintained PQ155 reward transcription lists Heroic Counter in the Basic Reward pool, while Dragon Ball Wiki describes it as a random Future Warrior acquisition from PQ155. The exact slot/gate remains unresolved; canonical Basic Reward classification is retained without asserting an Ultimate Finish-only requirement. 2026-09-20 explicit drop-condition correction: maintained PQ research batch 155 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Punisher Shield",
@@ -725,10 +726,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\"",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (50% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 151 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Absolute Zero",
@@ -1668,10 +1670,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Lightning_Arrow"
       ],
-      "unlock_method": "Parallel Quest 138 — \"Tournament of Destroyers\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 138 — \"Tournament of Destroyers\" Ultimate Finish bonus reward (34% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 138 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Galick Gun",
@@ -1702,11 +1705,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Gamma_Blaster"
       ],
-      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Ultimate Finish reward (40% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance reconciliation: current maintained PQ155 reward evidence explicitly lists Gamma Blaster in the Basic Reward set; exact individual reward probability remains unresolved."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ155 reward evidence explicitly lists Gamma Blaster in the Basic Reward set; exact individual reward probability remains unresolved. 2026-09-20 explicit drop-condition correction: maintained PQ research batch 155 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Giant Cluster",
@@ -1985,10 +1988,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Photon_Swipe"
       ],
-      "unlock_method": "Parallel Quest 139 — \"Goku and Vegeta's Training\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 139 — \"Goku and Vegeta's Training\" Ultimate Finish bonus reward (37% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 139 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Pretty Cannon",
@@ -2144,11 +2148,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (50% bonus roll)",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish bonus reward (50% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
+      "notes": " 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 explicit drop-condition correction: maintained PQ research batch 151 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Stone Bullet",
@@ -2315,10 +2319,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Assault_Vanish"
       ],
-      "unlock_method": "Parallel Quest 131 reward.",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "unlock_method": "Parallel Quest 131 Ultimate Finish reward (25% roll)",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 131 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Burst Charge",
@@ -2609,10 +2614,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Shield_Barrier"
       ],
-      "unlock_method": "Parallel Quest 153 reward.",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Ultimate Finish bonus reward (40% roll)",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 153 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Solar Flare",
@@ -2873,10 +2879,11 @@
         "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2-extra-pack-3/answers/642221-what-do-i-have-to-complete-to-get-the-formation-skill-in-xeno-verse-2",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 133 reward.",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "unlock_method": "Parallel Quest 133 Ultimate Finish reward (25% roll)",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 133 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Indomitable",
@@ -3254,10 +3261,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 159 reward.",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "unlock_method": "Parallel Quest 159 — \"Lights! Camera! Super Heroes!\" Ultimate Finish bonus reward (40% roll)",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 159 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Force Edge",
@@ -3306,11 +3314,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Gamma_Impact"
       ],
-      "unlock_method": "Parallel Quest 155 — I Need a Hero... Pose!",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Ultimate Finish bonus reward (50% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained. 2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
+      "notes": " 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained. 2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved. 2026-09-20 explicit drop-condition correction: maintained PQ research batch 155 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "God of Destruction's Poise",
@@ -3359,10 +3367,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 152 reward.",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Ultimate Finish bonus reward (40% roll)",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 152 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Justice Drive",
@@ -3393,10 +3402,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Basic Reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Ultimate Finish bonus reward (40% roll)",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 explicit drop-condition correction: maintained PQ research batch 152 records an Ultimate Finish bonus/roll condition for this skill; canonical/index UF state now follows that explicit condition."
     },
     {
       "name": "Lovely Cyclone",
