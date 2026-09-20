@@ -5966,9 +5966,9 @@
       "ki_cost": 600,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "unlock_method": "Parallel Quest 184 — \"The Invincible Duo\" Basic Reward",
       "source_quest_or_shop": "PQ184",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Chaotic Time Impact is a Ki Blast Ultimate Attack used by Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest and its reward data marks the skill as an Ultimate Finish reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-20 reconciliation: PQ184 reward evidence identifies Chaotic Time Impact as a 50% Ultimate Finish bonus reward, resolving the earlier Basic-vs-UF conflict in favor of UF gating.",
       "verification_status": "verified",
@@ -5981,7 +5981,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 184,
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 source reconciliation: current PQ reward evidence explicitly places this skill in the Basic Reward pool; the Ultimate Finish flag is stale.",
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission"
     },
@@ -6023,9 +6023,9 @@
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 158 — \"Beat Bulma's Minions!\" Basic Reward",
       "source_quest_or_shop": "PQ158",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Core Breaker is a Ultimate Ki Blast skill used by Gamma 2.",
       "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can randomly obtain it from PQ158; the PQ Ultimate Finish conditions are documented. CaC race/gender scope is not explicitly stated, so race_restriction remains null. 2026-09-20 verification: current skill page explicitly identifies PQ158 as the unlock and Ultimate Finish as required; it classifies Core Breaker as a Strike Ultimate.",
       "verification_status": "verified",
@@ -6040,7 +6040,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": " 2026-09-20 source reconciliation: current PQ reward evidence explicitly places this skill in the Basic Reward pool; the Ultimate Finish flag is stale."
     },
     {
       "name": "Death Ball",
