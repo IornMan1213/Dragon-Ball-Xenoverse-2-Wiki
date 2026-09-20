@@ -3241,3 +3241,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Found two stale provenance mismatches during numeric `source_quest` auditing: Explosive Wave and Final Pose were marked `quest_or_mission` despite their Skill Shop acquisition fields.
 - Corrected both records to `skill_shop`, null `source_quest`, and explicit `Skill Shop` provenance; Ultimate Finish remains false.
 - Next task: continue deterministic acquisition/provenance auditing, especially `source_quest`/`source_quest_or_shop` consistency, before expanding factual enrichment.
+
+
+### 2026-09-19 continuation — numeric PQ provenance validation
+- Added validator coverage for numeric `source_quest`: integer IDs must be within the canonical current PQ range 1–186.
+- Current dataset check: 177 numeric quest provenance records; no out-of-range IDs.
+- Next task: continue deterministic acquisition/provenance checks and then address the next evidence-backed cohort.
