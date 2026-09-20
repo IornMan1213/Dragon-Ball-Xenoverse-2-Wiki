@@ -5273,11 +5273,11 @@
         "https://dbxv2.fandom.com/wiki/Thunder_Flash",
         "https://dragonball.fandom.com/wiki/Thunder_Flash"
       ],
-      "unlock_method": "Parallel Quest 146 - \"Zen-Ohs' Earthly Excursion\"",
+      "unlock_method": "Parallel Quest 146 — \"Zen-Ohs' Earthly Excursion\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record.",
+      "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly places Thunder Flash in the PQ146 Basic Reward pool; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Chargeable Ki wave that can consume additional Ki while held to extend the attack and increase damage. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Thunder Flash; no Ultimate Finish requirement is recorded for this route.",
       "source_quest": 146
     },
