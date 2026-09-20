@@ -3374,3 +3374,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined **Energy Field** to PQ29 — "The Androids Attack" Basic Reward; dedicated evidence confirms 200-Stamina Ki Blast Evasive. citeturn2search1turn2search7
 - No drop probabilities or Ultimate Finish-only gates were invented.
 - Canonical data commit: `e540e613f4f2bea20ef9cfda1d9c11e741aa85be`.
+
+
+## 2026-09-20 — Exact PQ provenance: six additional evasives
+
+- Refined **Psychic Move** → PQ73 — "Frieza’s Siege Against Earth!" Basic Reward.
+- Refined **Spread Shot Retreat** → PQ28 — "Legendary Super Saiyan" Basic Reward.
+- Refined **Mach Dash** → PQ18 — "Force Entrance Exam" Basic Reward.
+- Refined **Angry Shout** → PQ68 — "Old Rivals and Dragon Balls" Basic Reward.
+- Refined **Spirit Explosion** → PQ25 — "The Emperor’s Brother" Basic Reward.
+- Kept **Explosive Wave** as Skill Shop provenance; no quest-gate inference was added.
+- Steam's maintained PQ guide lists the five quest skills in their respective Basic Reward sections. citeturn1search0turn1search1
+- Canonical data commit: `36191badce56ea7fe3d89c1966b902b996fa979c`.
