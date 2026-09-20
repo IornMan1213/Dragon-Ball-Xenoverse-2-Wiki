@@ -3060,3 +3060,10 @@ No workflow run is currently exposed for commit `aad4828815d41cae2314aac293ed9cb
 Inspected `scripts/check_repo_artifacts.py`, `scripts/strip_internal_artifacts.py`, and the repository-quality/cleanup workflows. The new skills-validation workflow does not introduce the forbidden internal citation markers targeted by the repository scanner. Repository search returned no `filecite`, `memcite`, or `turn*search/file` artifacts.
 
 Made a no-op functional comment change to `.github/workflows/skills-validation.yml` to force a workflow-triggering commit: `c21a1b4716384a01332e06a95c81d4e41afd11dc`. GitHub's workflow-run endpoint still reports no run for that commit, so trigger execution remains unverified through the available connector.
+
+
+## 2026-09-19 — validator format enforcement
+
+Inspected the complete semantic validation path after JSON Schema validation was added. The schema declares `date` and `uri` formats, but jsonschema does not enforce format assertions unless a format checker is supplied. Updated `scripts/validate_skills.py` to use `FormatChecker()` and to call `Draft202012Validator.check_schema(schema)` before validating records. This makes the declared date/URI constraints executable and also rejects an invalid validator schema early. No skill data was changed.
+
+Validator commit: `cd193c13fd4b701bb7bbbaf7caaad1748156d88c`.
