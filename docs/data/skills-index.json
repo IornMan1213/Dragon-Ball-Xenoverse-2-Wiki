@@ -5334,11 +5334,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=432754991",
         "https://dragonball.fandom.com/wiki/Big_Bang_Kamehameha"
       ],
-      "unlock_method": "Parallel Quest 100 - \"The Ultimate Rivalry\"; also available through TP Medal Shop rotation",
+      "unlock_method": "Parallel Quest 100 — \"The Ultimate Rivalry\" Basic Reward; also available through the TP Medal Shop",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "PQ100 Basic Reward and TP Medal Shop routes are established; Ultimate Finish is not required for the canonical acquisition route.",
+      "notes": "PQ100 Basic Reward and TP Medal Shop routes are established; Ultimate Finish is not required for the canonical acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for X 100 Big Bang Kamehameha; no Ultimate Finish requirement is recorded for this route.",
       "source_quest": 100
     },
