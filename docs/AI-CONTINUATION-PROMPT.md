@@ -3034,3 +3034,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Current unresolved counts: canonical skill census **283**; exact-generic PQ acquisition strings **0**; race-scope uncertainty remains intentionally represented by null fields where evidence is insufficient; DLC provenance null-count is **0** in the current canonical skill dataset.
 - Exact next task: continue bounded evidence-driven acquisition/provenance auditing, next prioritizing remaining source-conflicted reward semantics and any unresolved CaC scope or DLC/free-update provenance. Do not manufacture missing PQ141–PQ150 records.
 
+
+
+### 2026-09-20 cycle update — CaC race-scope evidence reconciliation
+- Resolved three previously unresolved race fields using explicit Future Warrior evidence from Dragon Ball Wiki: **Super God Fist (PQ67)**, **Variant Drive (PQ123)**, and **Chain Destructo-Disc Barrage (PQ46)** now use `race_restriction: All CaC races`.
+- Evidence basis: the Future Warrior is explicitly listed as a Xenoverse 2 user/obtainable recipient for all three techniques. No narrower race/gender/form restriction is documented, so no narrower scope was inferred.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Validation: canonical and index JSON parse successfully; **283 records** remain; name order and edited race fields are synchronized; remaining verified_current_scope null-race records: **1**.
+- Commits: `561a6c07fac14e727957a2b967518711787b4e37` (canonical), `94102b361283a3f8aca801e5d618f59c81edf71a` (index), `0d8164dc0acf7466104b6117f0b3c5f5af307297` (coverage audit).
+- Index/data parity: passed.
+- Web corroboration: Dragon Ball Wiki explicitly identifies Future Warrior acquisition/user status for Super God Fist, Variant Drive, and Chain Destructo Disc. citeturn1search10turn1search0turn2search0
+- Exact next task: continue the bounded P1 provenance audit, prioritizing the remaining explicit reward/source conflicts (**Absolute Zero, Energy Barrier, Emperor's Cannon, Teleporting Vanishing Ball**) and preserve conflicts unless a higher-priority or independently corroborated source resolves them.
