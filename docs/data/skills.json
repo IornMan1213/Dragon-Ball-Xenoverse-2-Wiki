@@ -874,7 +874,8 @@
       "source_quest_or_shop": "Hit mentor training",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "source_quest": "Hit mentor training"
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -895,7 +896,8 @@
       "source_quest_or_shop": "Hit mentor training",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "source_quest": "Hit mentor training"
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -916,7 +918,8 @@
       "source_quest_or_shop": "Hit mentor training",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "source_quest": "Hit mentor training"
     },
     {
       "name": "Ultrasonic Blitz",
@@ -3704,7 +3707,8 @@
       "source_quest_or_shop": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
       "mechanics": "Ki-draining barrier that grants immunity to damage while held.",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki."
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki.",
+      "source_quest": "Starting fighting-style choice — \"I want to fight up close\""
     },
     {
       "name": "Surging Spirit",
@@ -5556,7 +5560,8 @@
       "race_restriction": "All CaC races",
       "research_status": "enriched",
       "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile.",
-      "source_quest_or_shop": "Frieza mentor — Intergalactic Emperor of Evil 3"
+      "source_quest_or_shop": "Frieza mentor — Intergalactic Emperor of Evil 3",
+      "source_quest": "Frieza mentor — Intergalactic Emperor of Evil 3"
     },
     {
       "name": "Destruction's Concerto: Meteor",
