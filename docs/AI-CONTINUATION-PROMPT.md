@@ -3574,3 +3574,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - **Steel Mirage:** description corrected to Ki Blast Super, matching its verified Super/Ki Blast classification and existing mechanics note.
 - Commit: `2a322ef065aa83223087c2893cc78e415f8b84a7`.
 - Next task: continue the same stale-description and metadata-consistency audit across the remaining current-scope records; do not change classifications without sufficiently specific evidence.
+
+
+### 2026-09-20 cycle update — description alignment pass
+- Continued the current-scope audit and aligned stale descriptions with already-verified metadata.
+- Corrected **Psychic Move** to Strike Evasive, **Final Pose** to Power Up Evasive, and **Mach Dash** to Power Up Evasive. Side Bridge and Steel Mirage were rechecked against the live character/PQ evidence and retained as Ki Blast Supers.
+- Current PQ evidence independently confirms Psychic Move in PQ73, Final Pose in PQ74, and Side Bridge as a basic reward; Steel Mirage is listed as a PQ165 basic reward. cite marker omitted from repository data.
+- Commit: `bcf302643beed3d891805ca3e247c8fd2683f87d`.
+- Next task: continue the remaining current-scope description/metadata audit, prioritizing records where `skill_description` disagrees with verified class/subcategory/damage fields.
