@@ -3441,3 +3441,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Existing repository evidence explicitly reconciles PQ135 placement as a **Basic Reward** and notes that difficult RNG/community reports do not establish an Ultimate Finish-only condition. The canonical flag now matches that evidence.
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `5d3777ff2729d42c86bf2aa5436b86a127fcef12`, `2ad9ac722d9071209c51d09274a1f4ae969e9e64`.
+
+
+## 2026-09-20 — Super Dragon Flight reward-gate correction
+
+- Corrected **Super Dragon Flight** `ultimate_finish_required` from `true` to `false` and refined provenance to **PQ31 — "Let's Train!" Basic Reward**.
+- Current Xenoverse 2 evidence lists Super Dragon Flight directly under PQ31's Basic Reward section. The quest's third win condition is defeating revived Gohan, not a separate Ultimate Finish-only skill gate. citeturn1search0turn1search1turn1search6
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Commits: `954da8c6fa6959679d5d19aa4cf46e337953b334`, `8a5e9de234e05e6a0a055e1f6edcf0fb882b99ad`.
