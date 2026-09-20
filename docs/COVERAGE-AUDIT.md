@@ -2671,3 +2671,10 @@ Skills commit: `a1bd01ea42ca66a7937406383fa3cd5eaf600331`.
 Promoted ten additional explicit single-quest identifiers from the live acquisition metadata: **Hero's Flute (PQ116), Kai Kai (PQ63), Petrifying Spit (PQ114), Phantom Fist (PQ97), Shield Barrier (PQ153), Solar Flare (PQ01), Wall of Defense (PQ10), Charge (PQ83), Divinity Unleashed (PQ110), and Do or Die (PQ49)**. Records with multi-PQ or otherwise ambiguous reward-pool language remain unchanged.
 
 Skills commit: `0635e4cd59d30339df6a2d398d0f7ba107314afa`.
+
+
+## 2026-09-19 — source-quest provenance batch 9
+
+Promoted 19 explicit single-PQ identifiers from live skill acquisition metadata: **Fighting Pose E (PQ19), Fighting Pose H (PQ61), Justice Pose (PQ53), Taunt (PQ45), Brave Sword Slash (PQ116), Burning Swan (PQ167), Burst Blitz (PQ178), Death Slash (PQ23), Demon Flurry (PQ160), Demonic Destruction (PQ159), Destruction's Conductor (PQ106), Evil Whirlwind (PQ36), Fierce Fist (PQ159), Force Edge (PQ180), Freedom Kick (PQ29), Gamma Impact (PQ155), Heroic Assault (PQ156), Justice Blade (PQ152), Justice Drive (PQ168)**. Multi-PQ/shop combinations and character-only reward-context records were intentionally left unchanged.
+
+Skills commit: `59cdc9ae66a60ff9ce1dab0c92c9b10bde167cb3`.
