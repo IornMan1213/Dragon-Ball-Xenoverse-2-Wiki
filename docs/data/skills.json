@@ -6740,7 +6740,7 @@
       "source_quest_or_shop": "TP Medal Shop",
       "research_status": "enriched",
       "mechanics_notes": "300 Ki Ultimate. TP Medal Shop/STP Medal Shop availability is rotation-dependent; the official 2017 update explicitly scheduled Divine Lasso in the TP Medal Shop.",
-      "dlc_requirement": null
+      "dlc_requirement": "Free Update 3"
     },
     {
       "name": "Divine Wrath: Purification",
