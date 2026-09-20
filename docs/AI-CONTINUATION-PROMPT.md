@@ -3214,3 +3214,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Verified zero malformed source URLs and zero duplicate source entries.
 - No factual skill data changed.
 - Exact next task: continue deterministic provenance/CaC checks, then begin the next bounded acquisition/DLC-version evidence cohort.
+
+
+### 2026-09-19 continuation — skill schema-version generator consistency
+- Found a deterministic generator drift: live `skills.json`/`skills-index.json` use schema version `1.1`, while the builder emitted `1.2`.
+- Corrected both builder output literals to `1.1`; no canonical skill data changed.
+- Exact next task: continue bounded acquisition/DLC-version provenance review, prioritizing records whose DLC provenance is explicitly unresolved rather than inventing exact pack assignments.
