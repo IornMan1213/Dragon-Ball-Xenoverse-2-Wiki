@@ -3073,3 +3073,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `b51c2f1d67cf943c4b0e78c4982d0e82188060e3` (canonical), `82251a753256b90f31033e76230761ce7e3c8a88` (index), `667967c6ab68fd2ac338336a81d5405d4ebe2ea6` (audit).
 - Evidence: maintained PQ155 reward transcription and dedicated Dragon Ball Wiki skill documentation. citeturn0search2turn0search0
 - Exact next task: continue the bounded P1 provenance audit for the next unresolved reward/acquisition discrepancy, with special attention to skills whose canonical record says random acquisition while the maintained PQ corpus explicitly places them in Basic Reward.
+
+
+### 2026-09-20 cycle update — Giant Cluster gate correction
+- Resolved **Giant Cluster (PQ163)** using the maintained PQ research record's explicit drop-condition field: **40% Ultimate Finish roll**.
+- The same PQ record also lists Giant Cluster in its Basic Reward array. Rather than treating that array label as an exclusive gate, the canonical record now follows the explicit drop-condition evidence and sets `ultimate_finish_required: true`.
+- No additional slot semantics or probabilities beyond the documented 40% UF roll were inferred.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Commits: `07f4f8105a5dfb2ab31e7224fe63112ca7b734fb` (canonical), `7af9d426f0f9065f48b2c81f4fec3e5706a98a9a` (index), `9ebc0b5d59d400f09db95050a1e0919f41e731ff` (audit).
+- Evidence: PQ163 maintained datamined drop-condition data plus the maintained reward transcription. citeturn0search0turn0search1
+- Exact next task: continue auditing the remaining random-acquisition records against explicit `skill_drop_conditions` in PQ batches, prioritizing PQ151/PQ153/PQ155/PQ159/PQ160/PQ163/PQ167.
