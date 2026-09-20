@@ -2994,3 +2994,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: both JSON datasets parse successfully; exact-generic PQ acquisition census is now **0**. A reward-gate scan found no remaining true-flag record without Ultimate Finish evidence. Historical/source conflicts remain preserved.
 - CI: latest Repository quality and Clean internal artifacts runs for commit `4ab14c06054cabc29f851f0db0c89ac1f91e5ead` each failed with one job and no recorded steps/logs; treat as the established infrastructure/account failure pattern. Validators were not weakened.
 - Exact next task: recompute the live skill census, then continue evidence-driven P1 consistency/provenance cleanup outside generic PQ acquisition wording, prioritizing stale acquisition notes, DLC/free-update provenance, CaC scope, and unresolved source contradictions.
+
+
+### 2026-09-20 cycle update — stale reward-gate note cleanup
+- Re-audited the 283-record canonical skill dataset for explicit stale/incorrect reward-gate language after the generic PQ acquisition pass.
+- Corrected **Chaotic Time Impact** to PQ184 **Basic Reward** semantics: `ultimate_finish_required=false`; removed the stale note claiming an Ultimate Finish route. Race scope remains unresolved (`race_restriction=null`).
+- Re-synchronized `docs/data/skills-index.json` and `docs/COVERAGE-AUDIT.md`.
+- Commits: `a9b241647ce398a48f6bb1ea06c087038865ed15` (canonical), `18d895eab9792a2efa65316b9493622ffe7b7763` (index), `b53dd0d9618d72946fba34ee708ccb3677fdc9e9` (coverage audit).
+- Exact-generic PQ acquisition census remains **0**; canonical census remains **283**.
+- Next task: continue explicit stale/incorrect-note scanning, prioritizing remaining acquisition-source conflicts, unresolved race scope, and DLC/free-update provenance without inventing unsupported data.
