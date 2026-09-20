@@ -305,7 +305,7 @@
       "name": "Burst Rush",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
