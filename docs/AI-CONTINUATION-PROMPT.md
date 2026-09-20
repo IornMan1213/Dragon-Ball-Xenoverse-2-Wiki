@@ -2818,3 +2818,6 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Skills commit: bbda596171ff50016bb723e7086721cd402d052b.
 - Coverage audit commit: 34e8715842f4e7e9ea9bba4d62a90372ade3a1ec.
 - Next task: continue the bounded source_quest provenance census.
+
+- Live skills census at handoff: 283 records; `source_quest` is null on 191 records.
+- Exact next bounded batch: Spirit Pulse (PQ151), Stone Bullet (PQ56), Super Donut Volley (PQ55), Super Ghost Buu Attack (PQ113), Vanishing Ball (PQ58), Variable Snipe Shot (PQ165), Wild Buster (PQ153), Afterimage Strike (PQ81), Assault Vanish (PQ131), and Charged Ki Wave (PQ97). Skip ambiguous multi-PQ/character-only reward-context records unless new evidence establishes one canonical quest.
