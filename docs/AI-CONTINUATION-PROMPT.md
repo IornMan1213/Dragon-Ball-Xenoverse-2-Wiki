@@ -3378,3 +3378,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Inspected the newest GitHub Actions runs for commit `a4271df459c6a58a105d31ab91df810fd6cac75b`. `Clean internal artifacts` and `Repository quality` both completed with **failure**, but their jobs exposed **no recorded steps** (`steps: null`), matching the repository's existing opaque pre-step failure pattern. No validator or workflow was weakened or modified.
 - This cycle produced no additional data correction; uncertain transformation provenance fields were preserved rather than guessed.
 - Exact next task: resume the 78-record skill second-pass audit, targeting acquisition-specific/source-field contradictions and broad DLC/version labels where stronger evidence exists; keep null/uncertain values intact otherwise. Continue inspecting actionable Actions output when available and update this handoff after each completed batch.
+
+
+### 2026-09-20 cycle update — Surging Spirit acquisition/provenance recheck
+- Rechecked the `verified_current_scope` acquisition-specific subset, with focus on character-only/non-quest provenance.
+- **Surging Spirit** was specifically reconciled: official Steam announcements identify it with Goku (Ultra Instinct) in Extra Pack 2; current reference material documents its later use by Goku (Ultra Instinct -Sign-) in the Conton City Vote Pack and the Ultra Instinct Future Warrior built-in action. The canonical `Extra Pack 2; Conton City Vote Pack` provenance and current CaC-access fields were preserved. citeturn0search2turn0search3
+- No gameplay/acquisition field required a correction in this batch. The canonical census remains **283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified**.
+- Updated `docs/data/skill-catalog-audit.json` with the reconciliation note; commit: `d4cb7b4d7da405eb516087c9fcb9cecfe3467a82`.
+- Exact next task: continue the 78-record second-pass audit, prioritizing remaining character-only and shop/non-quest records plus any broad DLC/version labels. Preserve uncertain values when evidence is not decisive, then inspect the latest Actions state and update this handoff.
