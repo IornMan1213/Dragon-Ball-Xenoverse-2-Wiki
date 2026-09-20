@@ -3331,3 +3331,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Their mechanics were also enriched from current dedicated skill documentation without inventing unsupported values.
 - Canonical data commit: `02dc1d7cec09d2816e20b9d657d87b7f0d274964c`.
 - No drop probability was added and no source-conflicted reward gate was silently collapsed.
+
+
+## 2026-09-20 — Concrete Basic Reward provenance: PQ51 / PQ75 / PQ82 / PQ153
+
+- Refined four current-scope records to use the exact quest title and **Basic Reward** classification where the maintained all-PQ reward guide explicitly lists the skill: **Burst Rush** (PQ51), **Counter Burst** (PQ75), **Dragon Burn** (PQ82), and **Counter Impact** (PQ153). citeturn0search0turn0search2
+- These changes improve acquisition provenance without asserting drop probability or an Ultimate Finish requirement. The PQ guide explicitly places each skill in Basic Reward. citeturn0search0turn0search2
+- Canonical data commit: `b33b116342510d130e74bf07dbade46c293944b3`.
