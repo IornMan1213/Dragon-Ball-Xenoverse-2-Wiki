@@ -3670,3 +3670,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Verification-state distribution is now **205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified = 283 total**.
 - Updated canonical data, synchronized index, and audit metadata.
 - Next task: continue the broader stale-source/metadata consistency pass across all 283 records, then inspect repository validation/workflow failures without guessing unavailable CI diagnostics.
+
+
+### 2026-09-20 continuation — metadata consistency pass
+- Checked all 283 canonical skill records for source provenance completeness, quest-number consistency, and canonical/index shared-field parity.
+- All 283 records have non-empty `sources`; no record is missing provenance URLs.
+- All records that expose both `source_quest_or_shop` and `source_quest` have matching PQ numbers after normalizing formatting (no true quest-number mismatches found).
+- Canonical/index parity is clean across shared fields: `class`, `subcategory`, `verification_status`, `research_status`, and `acquisition_type` have **0 mismatches** across all 283 records.
+- `last_verified` is currently split between 218 records dated 2026-09-19 and 65 dated 2026-09-20; this is expected from the staged verification batches and is not by itself evidence of stale data.
+- No mass edits were made for `race_restriction="All CaC races"` records merely because explanatory notes do not repeat that phrase; those entries require evidence-based review rather than mechanical normalization.
+- Next task: inspect the remaining 78 `verified_current_scope` records for stale classifications/restrictions and review repository workflow/validation configuration for actionable failures.
