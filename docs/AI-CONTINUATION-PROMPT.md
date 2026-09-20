@@ -3029,3 +3029,15 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Audit correction: `aa1cab46f7dc799b002a1501a5c1cacb8379a929`.
 - Live target remains **19 null `dlc_requirement` records**.
 - Next exact task: continue only with evidence-backed chronology. TP Medal Shop availability and character association alone are insufficient to assign DLC/update provenance.
+
+
+### 2026-09-19 continuation — cast-exclusive/DLC provenance batch 5
+- Resolved 7 `dlc_requirement` values:
+  - **Base Game:** Super Saiyan Blue Kaioken, Death Ball, Darkness Rush (Melee), Darkness Rush (Ranged).
+  - **Ultra Pack 1:** Final Flash (Super).
+  - **Conton City Vote Pack:** Supersonic Mode, Shield Barrier.
+- Data commit: `2154a72e22e6eb8ad6f57b0b8e3889a6acc2b1d8`.
+- Audit commit: `30a62c915598c0210afb5a3abc063b1a296efd09`.
+- Live census: **283 skills; 12 null `dlc_requirement`; 31 null `source_quest`**.
+- Remaining nulls: Energy Release, Instant Charge, Rising Rage, Spirit Boost, Time Bullet, Fighting Pose K, Dragon Thunder, Namek Finger, Final Kamehameha, Divine Lasso, Dragon Fist, Godly Display.
+- Next exact task: verify dated introduction/update evidence for those 12; preserve nulls where only current shop availability or character association is known.
