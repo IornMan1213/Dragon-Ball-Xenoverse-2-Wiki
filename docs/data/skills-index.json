@@ -1080,13 +1080,16 @@
       "name": "Destructo-Disc",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructo-Disc",
         "https://dbxv2.fandom.com/wiki/Krillin"
-      ]
+      ],
+      "unlock_method": "Krillin mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Dimension Cannon",
@@ -1443,13 +1446,16 @@
       "name": "Masenko",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Masenko",
         "https://dragonball.fandom.com/wiki/Masenko"
-      ]
+      ],
+      "unlock_method": "Kid Gohan mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Paralysis",
@@ -1494,13 +1500,16 @@
       "name": "Perfect Shot",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Perfect_Shot"
-      ]
+      ],
+      "unlock_method": "Cell (Perfect) mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Photon Swipe",
@@ -1618,13 +1627,16 @@
       "name": "Spirit Bomb",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Spirit_Bomb"
-      ]
+      ],
+      "unlock_method": "Goku mentor training — Initiation Test.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Spirit Pulse",
