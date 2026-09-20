@@ -3394,3 +3394,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - These routes do not depend on Parallel Quest Ultimate Finish rewards, so `ultimate_finish_required=false` is retained.
 - Canonical and index records were synchronized.
 - Exact next task: continue deterministic verification through the remaining partially verified skill cohort, prioritizing explicit shop/quest reward documentation.
+
+
+### 2026-09-19 continuation — Shop acquisition verification cohort
+- Verified **Sudden Death Beam, Super Afterimage, Super God Shock Flash, Spirit Boost, Quick Sleep, and Super Guard** from explicit shop/acquisition documentation.
+- Sudden Death Beam is documented through the TP Medal Shop, STP Medal Shop, or Double Crystal Raid; Super Afterimage and Super God Shock Flash are Skill Shop acquisitions; Spirit Boost is a Skill Shop acquisition; Quick Sleep is a Skill Shop acquisition after the required story progression; Super Guard is available through the starting fighting-style choice or Skill Shop.
+- These acquisition routes do not require a Parallel Quest Ultimate Finish.
+- Canonical and index records were synchronized.
+- Exact next task: continue deterministic shop/quest acquisition verification across the remaining partially verified cohort.
