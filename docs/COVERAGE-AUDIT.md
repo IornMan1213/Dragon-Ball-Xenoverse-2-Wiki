@@ -2860,10 +2860,21 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
   - **Legendary Pack 1:** Thunder Flash (PQ146).
   - **Super Pack 2:** Requiem of Destruction (PQ106).
   - **Dragon Ball DAIMA Pack:** Super Kamehameha (SS4 DAIMA) (PQ181).
-- Bandai Namco identifies Future Saga Chapter 2 as DLC containing new Parallel Quests and additional moves; the PQ documentation explicitly places PQ177 in Chapter 2. citeturn0search1turn0search12
-- Bandai Namco's DLC catalog and the PQ documentation identify Legendary Pack 1 as the source of PQ146/Thunder Flash. citeturn0search2turn0search3
-- Bandai Namco's February 2017 announcement lists Requiem of Destruction among Super Pack 2's new attacks, and PQ106 is the associated quest. citeturn0search8turn0youtube40
-- The current Bandai Namco DLC catalog identifies the Dragon Ball DAIMA Pack as a dedicated DLC pack with new moves; the skill's PQ181 route is retained as the acquisition evidence. citeturn0search6
+- Bandai Namco identifies Future Saga Chapter 2 as DLC containing new Parallel Quests and additional moves; the PQ documentation explicitly places PQ177 in Chapter 2. 
+- Bandai Namco's DLC catalog and the PQ documentation identify Legendary Pack 1 as the source of PQ146/Thunder Flash. 
+- Bandai Namco's February 2017 announcement lists Requiem of Destruction among Super Pack 2's new attacks, and PQ106 is the associated quest. 
+- The current Bandai Namco DLC catalog identifies the Dragon Ball DAIMA Pack as a dedicated DLC pack with new moves; the skill's PQ181 route is retained as the acquisition evidence. 
 - Data commit: `3ef6047398485f88619719c59435dd70f4629075`.
 - Live null `dlc_requirement` count after this batch: **26**.
 - Exact next task: inspect the remaining 26 nulls for explicit named DLC/update/shop provenance, with special attention to Shield Barrier, Supernova, Divine Lasso, Dragon Fist, Godly Display, and the character-only records.
+
+
+## 2026-09-19 — base-game PQ/Expert Mission provenance batch 4
+
+- Resolved 7 additional `dlc_requirement` nulls:
+  - **Base Game:** Afterimage Strike (PQ81), Phantom Fist (PQ97), Burning Slash (PQ44), Evil Flight Strike (PQ21), Shining Slash (PQ38), Mystic Flash (PQ20), Supernova (Expert Mission 6).
+- These are low-numbered original progression routes and do not have a named DLC acquisition source in the maintained skill records.
+- The TP Medal Shop remains a separate provenance category: shop availability alone does not prove a paid DLC requirement, so unresolved shop-only skills remain null until their introduction/update chronology is documented.
+- Data commit: `89078341d8b95d17d257ea9042073cf80a333d83`.
+- Live null `dlc_requirement` count after this batch: **19**.
+- Next priority: establish chronology for the remaining shop/mentor/character-only records without inferring DLC from the character who uses a skill.
