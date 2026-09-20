@@ -3207,3 +3207,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - `quest_or_mission` records: 0 missing `source_quest`.
 - Non-`quest_or_mission` records: 0 carrying a non-null `source_quest`.
 - Acquisition-type counts were recomputed from the canonical data; no additional deterministic route mismatch was found in this pass.
+
+
+## 2026-09-19 — Canonical/index synchronization audit
+
+- Compared all 283 canonical skill records with all 283 index records.
+- Found and corrected four stale `acquisition_type` values in `skills-index.json`: Explosive Wave, Final Pose, Super Guard, and Time Bullet.
+- Post-sync comparison reports 0 mismatches across class, subcategory, verification status, research status, and acquisition type.
+- Artifact scan across canonical data, index, audit, and handoff: 0 forbidden citation/tool markers.
