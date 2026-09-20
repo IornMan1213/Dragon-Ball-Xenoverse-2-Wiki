@@ -3178,3 +3178,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Reconciled four character-only Future Saga Chapter 1 skills to their exact basic-reward PQs using the maintained all-PQ reward guide: Crimson Edge and Divine Spear → PQ171; Big Bang Knuckle and Wild Stinger → PQ172.
 - Replaced ambiguous `PQ171 / PQ172` provenance strings with numeric canonical `source_quest` IDs and exact PQ route labels.
 - Corrected Big Bang Knuckle's stale skill-description label from Ki Blast to Strike, matching its canonical class and official move description.
+
+
+## 2026-09-19 — Ultimate Finish provenance correction: X100 Big Bang Kamehameha
+
+- Corrected `X 100 Big Bang Kamehameha`: `ultimate_finish_required` changed from `true` to `false`.
+- The maintained all-186-PQ guide lists X 100 Big Bang Kamehameha in PQ100's **Basic Reward** section, and independent references document TP Medal Shop availability.
+- Exact drop probability remains unspecified; no probability was inferred.
