@@ -2735,14 +2735,14 @@
       "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 69",
+      "unlock_method": "Parallel Quest 69 — \"God of Destruction and His Master\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 69 — \"God of Destruction and His Master\"",
       "ultimate_finish_required": false,
       "skill_description": "Headshot is a Strike Evasive skill associated with Beerus.",
       "mechanics_notes": "Dedicated current-version evidence confirms Headshot as Beerus's Strike Evasive, using 300 Stamina, obtained from PQ69. The previous Frieza (Final Form) association and Ki Blast Super classification were incorrect. Reviewed in the current null-race census; maintained Future Warrior/CaC evidence establishes availability, and no narrower CaC race/gender/form restriction is established. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Headshot",
@@ -2753,7 +2753,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Parallel Quest 69",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Headshot in Basic Reward. No Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Heat Wave",
@@ -3152,14 +3152,14 @@
       "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 42",
+      "unlock_method": "Parallel Quest 42 — \"Artificial Warriors\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 42 — \"Artificial Warriors\"",
       "ultimate_finish_required": false,
       "skill_description": "Rolling Bullet is a Ki Blast Evasive associated with Android 18, Android 18 (DB Super), and Great Saiyaman 2.",
       "mechanics_notes": "Corrected to a Ki Blast Evasive, not a Super. It scatters Ki Blasts while ascending and is used to escape attacks. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Rolling_Bullet",
@@ -3169,7 +3169,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": "Parallel Quest 42",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Rolling Bullet in Basic Reward. No Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Shine Shot",
@@ -3433,14 +3433,14 @@
       "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 54 - reward",
-      "source_quest_or_shop": "Parallel Quest 54",
+      "unlock_method": "Parallel Quest 54 — \"Majin Revival\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 54 — \"Majin Revival\"",
       "ultimate_finish_required": false,
       "skill_description": "Victory Cannon is a Ki Blast Evasive associated with Gotenks.",
       "mechanics_notes": "Corrected to a **Ki Blast Evasive**, 300 Stamina, PQ54. Fires a mouth Ki Wave while recoil propels the user backward. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Victory_Cannon",
@@ -3450,7 +3450,7 @@
       "race_restriction": "All CaC races",
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Victory Cannon in Basic Reward. No Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Wild Buster",
@@ -6180,14 +6180,14 @@
       "ki_cost": 0,
       "stamina_cost": 200,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 29 - reward",
-      "source_quest_or_shop": "Parallel Quest 29",
+      "unlock_method": "Parallel Quest 29 — \"The Androids Attack\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 29 — \"The Androids Attack\"",
       "ultimate_finish_required": false,
       "skill_description": "Energy Field is a Ki Blast Evasive skill associated with Android 17.",
       "mechanics_notes": "Dedicated current-version evidence identifies Energy Field as a Ki Blast Evasive skill and lists Android 17, Android 16, Mira, and Android 17 (DB Super) as users. The dedicated reference lists Parallel Quest 29 and 200 Stamina, with the barrier maintained by consuming Ki. The record's existing All CaC races scope is retained; no narrower CaC race/gender/form restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Energy_Field"
@@ -6196,7 +6196,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Energy Field in Basic Reward. No Ultimate Finish-only gate is asserted."
     },
     {
       "name": "Final Explosion",
