@@ -3483,3 +3483,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Reviewed **Blazing Attack** again: PQ136 and RNG-drop evidence are solid, but the evidence does not prove the skill itself is UF-only. Its UF gating remains unresolved rather than being asserted as fact.
 - Canonical/index/audit synchronized. Current counts: 133 verified, 71 partial.
 - Next: continue the remaining partial PQ/drop records and only promote when the exact acquisition condition is established.
+
+
+### 2026-09-19 continuation — explicit PQ source verification
+- Verified **Mach Punch** — PQ19.
+- Verified **Dragon Spark** — PQ177.
+- Verified **Justice Drive** — PQ168.
+- No unsupported Ultimate Finish-only requirements were added.
+- Current counts: 135 verified, 69 partial.
+- Next: continue the remaining partial records using explicit PQ/skill-page evidence and preserve unresolved gating conflicts.
