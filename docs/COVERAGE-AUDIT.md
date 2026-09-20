@@ -2746,3 +2746,10 @@ Skills commit: `1ea33fade528c115194be98fb50859069f18e5f6`.
 ## 2026-09-19 — null-floor review batch 19
 
 Reviewed all **47** remaining `source_quest` nulls against the live acquisition metadata. No additional value was promoted without a concrete canonical quest/test/lesson route. Current null set consists of **13 character-only/non-CaC records, 18 shop-only records, 1 starting-choice record, and 15 unresolved PQ reward/drop records**. This preserves the provenance field from being used as a generic acquisition-method field or from asserting uncertain PQ attribution.
+
+
+## 2026-09-19 — late PQ provenance resolution batch 20
+
+Resolved 10 previously-null late-DLC PQ records using a public quest-reward guide that explicitly lists the skills in the corresponding PQ reward sets: **God of Destruction's Plaything (PQ175), God of Destruction's Poise (PQ175), Dragon Spark (PQ177), Soaring Rush (PQ177), Indomitable (PQ185), Dragon Spiral (PQ185), Venus Fist (PQ186), Heat Wave (PQ179), Supreme Fury (PQ179), Burning Blast (PQ180)**. This replaces the earlier unresolved-PQ status where the quest number was known but reward provenance had not been corroborated strongly enough.
+
+Skills commit: `d7cbb897e0ef2c4f364ec74935ea6d18731befd3`.
