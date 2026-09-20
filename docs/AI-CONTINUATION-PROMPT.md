@@ -3105,3 +3105,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `7776eebe709e0758c25dd3630c8a7458db348d4c` (canonical), `b52869c465dd7766640c6fbbba7b877535a4fe4f` (index), `4c237559b9d67d20880c67c8c58bbbe1b99b1c69` (audit).
 - External verification: maintained Steam PQ guide independently lists Burning Swan under PQ167 Basic Reward. citeturn0search0
 - Exact next task: continue the bounded provenance audit for remaining generic/random records, prioritizing **God Breaker, Bluff Kamehameha, Giant Cluster follow-up conflicts, Celestial Wave, Side Bridge, Final Cannon, and Steel Mirage**, without overriding explicit maintained drop-condition data.
+
+
+### 2026-09-20 cycle update — remaining generic PQ provenance audit
+- Rechecked **God Breaker (PQ44)**, **Bluff Kamehameha (PQ94)**, **Celestial Wave (PQ151)**, **Final Cannon (PQ52)**, **Side Bridge (PQ39)**, and **Steel Mirage (PQ165)**.
+- **Celestial Wave** has explicit maintained data assigning it a **40% Ultimate Finish bonus roll**; canonical `ultimate_finish_required` is now true and its acquisition wording records that gate. This is consistent with the maintained PQ151 record, despite its Basic Reward-array presentation.
+- **God Breaker**, **Bluff Kamehameha**, **Final Cannon**, **Side Bridge**, and **Steel Mirage** retain random-PQ wording because the current evidence did not establish a stronger explicit gate. Dedicated documentation confirms PQ44/PQ94 acquisition for the first two. citeturn0search0turn0search1turn0search2turn0search3
+- Commits: `e93fb2d21616d2b946b182618a498f6d633394eb` (canonical), `c8a0bb483fc9970fdb695f9887f7278c2a12f90f` (index), `11ddf008782788a4da06c90041df5e5e136d65d5` (audit).
+- Exact next task: inspect the remaining generic/random records and reconcile them against their PQ batch `skill_drop_conditions`; if none remain with explicit gates, move to the separate CaC scope consistency audit (`usable_by_cac` versus `race_restriction`).
