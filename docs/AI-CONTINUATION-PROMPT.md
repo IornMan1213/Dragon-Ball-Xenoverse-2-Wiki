@@ -2661,3 +2661,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Evidence limitation: current evidence establishes PQ179 Basic Reward placement, but does not establish an exact drop probability; that remains unresolved.
 - Current skill census remains **283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified** based on the preceding live census; this cycle changed one record's acquisition provenance wording only.
 - Exact next task: continue the remaining 78-record current-scope evidence-gap audit, prioritizing acquisition/drop semantics and mechanics notes that can be resolved by specific current sources; preserve null/uncertain values where evidence remains insufficient.
+
+
+### 2026-09-20 cycle update — current-scope evidence refinement
+- Refined two evidence-gap records: **The Power to Overcome** and **Sudden Death Beam**.
+- Power to Overcome: current evidence supports Stage 1 +20% defense/+5% speed and Stage 2 +15% basic/+30% Strike-Ki Super with ~12-second Unleashed duration. Exact Stage 1 defense, Stage 2 speed, cooldown, and HP regeneration remain unresolved because current sources report 20% vs 25%, +10% vs +15%, ~24 vs ~30 seconds, and ~60 vs ~65 seconds per health bar respectively. These conflicts are now explicit in the canonical record.
+- Sudden Death Beam: official Bandai Namco 2017 content-update evidence explicitly confirms TP Medal Shop availability; current skill documentation also lists STP Medal Shop and Double Crystal Raid Battle. The canonical mechanics note now records its 100-Ki counter/Instant Transmission behavior and avoids inferring race restrictions from character users.
+- Files changed: docs/data/skills.json and docs/COVERAGE-AUDIT.md.
+- Commits: f30d937292044d748d5213d6f84de5a1cbdf1334 (skill data), ccbc6c01a4e47e5351d6a3cd26166311c1ac0279 (coverage audit).
+- Validation: no unsupported drop probability or false-precision mechanics were introduced. Existing schema/provenance structure preserved.
+- CI status: no new CI result was claimed; repository workflow/status APIs previously exposed no runs/status for the skill-data commit.
+- Exact next task: continue the remaining current-scope evidence-gap audit, moving to the next records where current sources can materially improve acquisition/drop semantics or mechanics. Preserve conflicts and unknowns rather than forcing exact values.
