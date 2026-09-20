@@ -3559,3 +3559,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Spirit Pulse:** refined to random reward from PQ151.
 - Re-synchronized `docs/data/skills-index.json`; record count remains 283.
 - Exact next task: continue the remaining generic/random PQ records in quest order.
+
+
+## 2026-09-20 — PQ acquisition refinement batch 6
+- Refined **Wild Buster** → PQ153 random reward; **Hero's Flute** → PQ116 Basic Reward; **Brave Sword Slash** → PQ116 Basic Reward; **Death Slash** → PQ23 Basic Reward.
+- Refined **Demon Flurry** → PQ160 random reward; **Demonic Destruction** → PQ159 random reward; **Destruction's Conductor** → PQ106 Basic Reward; **Freedom Kick** → PQ29 Basic Reward.
+- Re-synchronized `docs/data/skills-index.json`; record count remains 283.
+- Exact next task: investigate the remaining higher-DLC PQ records with unresolved drop gating (Dragon Spark, Dragon Spiral, Force Edge, Heroic Assault, and adjacent entries), preserving conflicts where sources disagree.
