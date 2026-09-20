@@ -3076,3 +3076,10 @@ The validator review found an invalid semantic assertion: it required `ultimate_
 Also strengthened cross-file metadata checks for `schema_version`, `generated`, and `source_index`, and normalized duplicate source URLs in five records (The Power to Overcome, Beast, Kaioken, Potential Unleashed, Ultra Instinct) in both canonical and index data. No source URLs were removed unless they were exact duplicates.
 
 Commits: validator `cb80679f33c9d0869982da11d6609ba8b43b2822`; canonical data `ca4daff88a8411deb2a93f22755cf3842e507087`; index `ce35a57af9ca30d1ab82e1441c9d36ce13c96d7f`.
+
+
+## 2026-09-19 — acquisition provenance invariants
+
+Audited the 283-record acquisition model. All 255 `quest_or_mission` records have a non-empty `source_quest`; all 28 non-quest records have `source_quest=null`. Every record has a non-empty `source_quest_or_shop`. Added validator invariants enforcing that relationship and requiring a provenance description for every non-quest acquisition type. No data changes were necessary.
+
+Validator commit: `7e35b13efb5dc3f747d5ba66c18239c760540a7f`.
