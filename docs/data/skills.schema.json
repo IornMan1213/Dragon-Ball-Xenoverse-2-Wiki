@@ -34,7 +34,8 @@
         "Other",
         "Race",
         "Special",
-        "Counter"
+        "Counter",
+        "Transformation"
       ]
     },
     "race_restriction": {
