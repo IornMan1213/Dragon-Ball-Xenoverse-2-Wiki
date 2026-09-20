@@ -48,7 +48,7 @@
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "reconciliation_notes": [
-    "2026-09-19: Burst Stinger was present in canonical skills.json but absent from the Ki Blast Super catalog batch. It is now present in the batch. The live source category still reports 'All items (183)' while visibly listing Burst Stinger, leaving the category count unresolved.",
-    "2026-09-19: Burst Stinger character attribution remains unresolved: GameFAQs attributes a PQ136 Ultimate Finish character drop to Goku (Ultra Instinct), while Xenoverse 2 Fandom and Dragon Ball Wiki associate the skill with Vegeta (Super Saiyan God). Canonical data now preserves the conflict instead of silently choosing one."
+    "2026-09-19: Burst Stinger was present in canonical skills.json but absent from the Ki Blast Super catalog batch. It is now present; the batch declares and contains 183 names. The source category also reports 183, but the pre-change batch contained only 182 actual names, so at least one additional source-vs-repository set-diff gap remains.",
+    "2026-09-19: Burst Stinger character attribution remains unresolved: GameFAQs attributes a PQ136 Ultimate Finish character drop to Goku (Ultra Instinct), while Xenoverse 2 Fandom and Dragon Ball Wiki associate the skill with Vegeta (Super Saiyan God). Canonical data preserves the conflict."
   ]
 }
