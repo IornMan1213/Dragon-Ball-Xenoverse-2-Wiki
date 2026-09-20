@@ -2919,3 +2919,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `ca1e3d2` (canonical), `9a499ed` (index), `b7d671b` (coverage audit).
 - Live census: **283 records**, **28** exact generic PQ acquisition records remain.
 - Exact next task: continue at **PQ106**, starting with **Destruction's Concerto: Meteor** and **Requiem of Destruction**, then PQ109/PQ111/PQ112 and onward, preserving generic wording whenever maintained evidence does not establish the reward tier.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 14
+- Refined six canonical skill acquisition records: **Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Super Black Kamehameha Rosé (PQ109), Holy Wrath (PQ111), Lightning of Absolution (PQ111), Blades of Judgment (PQ112)**.
+- All six are now explicitly represented as **Basic Reward** routes with `ultimate_finish_required=false`; no unsupported drop probability was added.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `45b7d76e6c15c5947c234ed68fd919d71c68f034` (canonical), `56785b64661a945a7b344b3c45900681ded6ba02` (index), `84af151ed6b9c9ee987fee5cb01c70f0c7f95b3e` (coverage audit).
+- Live census: **283 records**, **22** exact generic PQ acquisition records remain.
+- Exact next task: continue at **PQ115 — S.S. Deadly Bomber**, then PQ117, PQ120, PQ123/PQ124, and onward, using maintained PQ reward tables and preserving generic wording where tier evidence is insufficient.
