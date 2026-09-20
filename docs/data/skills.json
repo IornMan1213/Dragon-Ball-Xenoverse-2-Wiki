@@ -4800,7 +4800,8 @@
         "https://dbxv2.fandom.com/wiki/Mach_Punch",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 19
     },
     {
       "name": "Meteor Blow",
@@ -4825,7 +4826,8 @@
         "https://dbxv2.fandom.com/wiki/Meteor_Blow",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 9
     },
     {
       "name": "Meteor Strike",
@@ -4850,7 +4852,8 @@
         "https://dbxv2.fandom.com/wiki/Meteor_Strike",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 6
     },
     {
       "name": "Namek Finger",
@@ -4899,7 +4902,8 @@
         "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 86
     },
     {
       "name": "Power Impact",
@@ -4925,7 +4929,8 @@
         "https://dbxv2.fandom.com/wiki/Power_Impact",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 120
     },
     {
       "name": "Powered Shell",
@@ -4951,7 +4956,8 @@
         "https://dbxv2.fandom.com/wiki/Powered_Shell",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 128
     },
     {
       "name": "Pressure Sign",
@@ -4995,7 +5001,8 @@
         "https://dbxv2.fandom.com/wiki/Recoome_Kick",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 61
     },
     {
       "name": "Sauzer Blade",
@@ -5020,7 +5027,8 @@
         "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 27
     },
     {
       "name": "Savory Slicer",
@@ -5046,7 +5054,8 @@
         "https://dbxv2.fandom.com/wiki/Savory_Slicer",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 140
     },
     {
       "name": "Scissors Paper Rock",
@@ -5071,7 +5080,8 @@
         "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 65
     },
     {
       "name": "Seagull Combination",
@@ -5096,7 +5106,8 @@
         "https://dbxv2.fandom.com/wiki/Seagull_Combination",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 167
     },
     {
       "name": "Shining Slash",
@@ -5147,7 +5158,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 156
     },
     {
       "name": "Soaring Rush",
@@ -5197,7 +5209,8 @@
         "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 105
     },
     {
       "name": "Super God Fist",
@@ -5223,7 +5236,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 67
     },
     {
       "name": "Variant Drive",
@@ -5250,7 +5264,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 123
     },
     {
       "name": "Wild Stinger",
@@ -5300,7 +5315,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "Majin male"
+      "race_restriction": "Majin male",
+      "source_quest": 85
     },
     {
       "name": "Apocalyptic Burst",
@@ -5326,7 +5342,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 161
     },
     {
       "name": "Blaster Stream",
@@ -5348,7 +5365,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 148
     },
     {
       "name": "Burning Blast",
