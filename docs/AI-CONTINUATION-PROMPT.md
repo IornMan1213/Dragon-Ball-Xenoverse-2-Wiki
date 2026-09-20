@@ -3167,3 +3167,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validator commit: `cd193c13fd4b701bb7bbbaf7caaad1748156d88c`.
 - Audit commit: `a7a845f41d2d4f58d615d721763ea30a7f1cf21d`.
 - Next exact task: inspect the remaining semantic invariants in `validate_skills.py` against the canonical dataset for another deterministic integrity gap; prioritize cross-file metadata consistency or malformed provenance rather than speculative factual enrichment.
+
+
+### 2026-09-19 continuation — validator invariant correction and source normalization
+- Found and removed an unsupported validator assertion requiring a nonexistent `ultimate_finish_evidence` field for records with `ultimate_finish_required=false`. The canonical schema does not declare that field.
+- Added deterministic cross-file checks for `schema_version`, `generated`, and `source_index` metadata.
+- Normalized exact duplicate source URLs in five canonical records and their mirrored index entries without removing unique sources.
+- Validator commit: `cb80679f33c9d0869982da11d6609ba8b43b2822`.
+- Data commit: `ca4daff88a8411deb2a93f22755cf3842e507087`.
+- Index commit: `ce35a57af9ca30d1ab82e1441c9d36ce13c96d7f`.
+- Audit commit: `1a2fb9f8f666a66b79a1decfceedcb46ee328e90`.
+- Next exact task: inspect remaining validator/data invariants, especially provenance type consistency and the distinction between quest, shop, and character-only acquisition routes; add only deterministic checks supported by the existing dataset model.
