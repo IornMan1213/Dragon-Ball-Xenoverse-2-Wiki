@@ -2630,3 +2630,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - External evidence continues to confirm PQ151's Celestial Wave reward, supporting the earlier unlock-text normalization. citeturn0search0turn0search2
 - No further skill-data edit was made during this cycle after the prior quest alignment; artifact cleanup was the repository change.
 - Next task: review the cleaned audit/handoff content for accidental loss from marker removal, then perform the final current-scope consistency sweep.
+
+
+### 2026-09-20 cycle update — final consistency sweep
+- Re-read the cleaned audit and handoff files; their JSON/Markdown structure remains intact after artifact-marker removal. The audit still reports its intended verification-complete schema and the handoff remains the canonical continuation document.
+- Fresh current-scope census: **78** records; required `ki_cost`, `ultimate_finish_required`, `usable_by_cac`, and `race_restriction` fields are populated for all 78.
+- All numeric `source_quest` values now agree with an explicitly numbered Parallel Quest in `unlock_method` where the unlock text names a PQ; **0 explicit quest-number mismatches** remain.
+- The 12 apparent subcategory exceptions are all Awoken skills using the repository's intentional `Race` subcategory, so they are not data errors.
+- External PQ151 evidence continues to list Celestial Wave among its rewards, supporting the normalized source/unlock mapping. citeturn0search0turn0youtube3
+- No additional skill-data edit was necessary in this sweep. Next task: continue with deeper record-level evidence gaps rather than structural cleanup, prioritizing any `research`/uncertain mechanics notes still present in the current scope.
