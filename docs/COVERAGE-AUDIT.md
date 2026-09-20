@@ -2983,3 +2983,15 @@ Commits:
 - Validator: `4195b2585583bd7cd1b01c6b67cd1219515884c1`
 
 JSON Schema supports additional application-defined structure through declared schema properties; the repository now declares this field explicitly rather than relying on undeclared properties. citeturn0search1turn0search2
+
+
+## 2026-09-19 — validator and index integrity pass
+
+Verified the post-schema-change canonical dataset directly:
+
+- `skills.json` contains **283 records**.
+- Every record has a recognized `acquisition_type`.
+- No record has `source_quest: null` while being classified as `quest_or_mission`.
+- `source_quest` null count remains **28**, all represented by non-quest acquisition classifications.
+- No additional data corrections were made.
+- GitHub reported no combined status checks and no workflow runs for validator commit `4195b2585583bd7cd1b01c6b67cd1219515884c1`; therefore this pass does **not** claim CI execution.
