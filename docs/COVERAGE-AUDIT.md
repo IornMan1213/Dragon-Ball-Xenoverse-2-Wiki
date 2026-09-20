@@ -2692,3 +2692,10 @@ Skills commit: `b8179d8c3cc19297ddd97e296e53cae53baef531`.
 Promoted 20 explicit single-PQ identifiers from existing skill acquisition metadata: **Justice Kick (PQ152), Chain Destructo-Disc Barrage (PQ46), Circle Flash (PQ154), Core Breaker (PQ158), Destruction's Concerto: Meteor (PQ106), Dimension Ray (PQ98), Energy Field (PQ29), Final Flash (SS3 DAIMA) (PQ181), Full Power Destruction (PQ177), Gigantic Breaker (PQ126), Gigantic Burst (PQ127), Gigantic Explosion (PQ164), Gigantic Roar (PQ132), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Heat Dome Attack (PQ40), Holy Wrath (PQ111), Last Emperor (PQ71), Lightning Impact (PQ142), Lightning of Absolution (PQ111)**. Records with multi-source/shop routes or unresolved exact-drop gating remain unchanged.
 
 Skills commit: `5a79afc1b2a8cd96f1346365d8ff219387e74a0b`.
+
+
+## 2026-09-19 — source-quest provenance batch 12
+
+Promoted 21 explicit single-PQ identifiers from existing skill acquisition metadata: **Majin Kamehameha (PQ60), Mystic Flash (PQ20), Prominence Flash (PQ137), Requiem of Destruction (PQ106), Revenge Death Ball (PQ127), Revenge Final Flash (PQ124), Ribrianne's Eternal Love (PQ137), S.S. Deadly Bomber (PQ115), Sign of Awakening (PQ154), Special Beam Cannon (Beast) (PQ162), Super Black Kamehameha Rosé (PQ109), Super Gamma Blast (PQ158), Super Kamehameha (SS4 DAIMA) (PQ181), Teleporting Vanishing Ball (PQ62), Thunder Flash (PQ146), Total Detonation Ball (PQ139), Warp Kamehameha (PQ76), Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Divine Wrath: Purification (PQ112), Explosive Buu Buu Punch (PQ50)**. Ambiguous multi-source/shop routes and unresolved exact-drop-gating records remain unchanged.
+
+Skills commit: `c8b984edea0440ce06c5e1b4d6b266006eef5126`.
