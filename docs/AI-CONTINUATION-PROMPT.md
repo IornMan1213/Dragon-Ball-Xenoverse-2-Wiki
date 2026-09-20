@@ -2891,3 +2891,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Completed 5 unambiguous mentor/starting-route records. Skills commit: `cfe25d97601b0278b6d339c4c53ecbf933950d0f`; coverage audit commit: `34e6c7d706ccd4765cce95377b68ab1768fb3296`.
 - Live census: 283 records; `source_quest` null on 48 records.
 - Next task: review the remaining nulls. Likely candidates are only records whose existing metadata names a concrete quest/test/mentor lesson or other canonical progression route. Preserve null for generic shops, character-only skills, multi-source acquisitions, and unresolved PQ reward/drop records.
+
+
+### 2026-09-19 continuation — named quest provenance batch 18
+- Completed **Time Bullet**, using its explicitly named `Decisive Battle with Majin Buu` prerequisite rather than the generic Skill Shop label. Skills commit: `1ea33fade528c115194be98fb50859069f18e5f6`; coverage audit commit: `60e1ff08ea9dfad7928531dc485f014ff98b5119`.
+- Live census: 283 records; `source_quest` null on 47 records.
+- Remaining nulls are now predominantly generic shop-only, character-exclusive, multi-source, starting-choice, or unresolved PQ reward/drop records. Continue only when a concrete canonical quest/test/lesson is named by existing evidence.
