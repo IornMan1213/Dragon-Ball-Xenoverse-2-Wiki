@@ -2833,3 +2833,21 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 - Data commit: `1c0df8c2f7be2f01103d886e732372c9ca74ac21`.
 - Validation target after this batch: 283 unique skill records; remaining null `dlc_requirement` count should be 45.
 - Exact next task: continue with remaining null `dlc_requirement` records whose source explicitly names a numbered PQ, Expert Mission, mentor/training route, or named DLC/update feature; preserve null when chronology cannot be established.
+
+
+## 2026-09-19 — free-update/base-game provenance batch 3
+
+- Resolved 15 additional `dlc_requirement` nulls using explicit update chronology or launch-era mentor/PQ evidence:
+  - **Free Update 5:** Super Saiyan God Super Saiyan.
+  - **Free Update 9:** Super Saiyan God Super Saiyan (Evolved).
+  - **Free Update 16:** Beast.
+  - **Free Update 17:** Ultra Instinct.
+  - **Free Update 1:** Pure Progress.
+  - **Base Game:** Destructo-Disc, Galick Gun, Kamehameha, Masenko, Dancing Parapara, Energy Charge, Rise to Action, Solar Flare, Wall of Defense, Victory Rush.
+- Bandai Namco explicitly identifies SSGSS as a free update feature; the maintained free-update chronology identifies it as Free Update 5. The same chronology identifies SSGSS (Evolved) as Free Update 9, Super Saiyan God as Free Update 13, Beast as Free Update 16, and Ultra Instinct as Free Update 17. 
+- Bandai Namco's December 2016 DLC preview explicitly places Pure Progress in the free update for all players, establishing its Free Update 1 provenance. 
+- The base-game mentor/PQ cohort is supported by the 2016-era mentor guide and the current skill records: Krillin/Vegeta/Kid Gohan/Pan training and the low-numbered PQ/tutorial routes are part of the original progression rather than a named paid DLC acquisition route. 
+- Remaining nulls were deliberately preserved where the existing acquisition text did not establish a sufficiently specific chronology.
+- Data commit: `de797b3b9e8750b20f4fd65891f2b0a715f18ad7`.
+- Expected live null `dlc_requirement` count after this batch: **30**.
+- Exact next task: recompute the null-DLC census, then target explicit DLC-era PQ/EM/mentor/shop records among the remaining 30; do not infer chronology from character association alone.
