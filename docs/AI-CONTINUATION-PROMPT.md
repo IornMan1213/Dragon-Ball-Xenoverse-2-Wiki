@@ -3247,3 +3247,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Added validator coverage for numeric `source_quest`: integer IDs must be within the canonical current PQ range 1–186.
 - Current dataset check: 177 numeric quest provenance records; no out-of-range IDs.
 - Next task: continue deterministic acquisition/provenance checks and then address the next evidence-backed cohort.
+
+
+### 2026-09-19 continuation — acquisition-route reconciliation
+- Corrected `Super Guard` from `quest_or_mission` to `starting_move`, with null `source_quest` and preserved starting/Skill Shop provenance.
+- Corrected `Time Bullet` from `quest_or_mission` to `skill_shop`, with null `source_quest` and explicit Skill Shop provenance after defeating Kid Buu.
+- Evidence supports both corrections; no Ultimate Finish requirement was added.
+- Next task: continue deterministic acquisition/DLC provenance checks, prioritizing mixed-route records and avoiding unsupported route normalization.
