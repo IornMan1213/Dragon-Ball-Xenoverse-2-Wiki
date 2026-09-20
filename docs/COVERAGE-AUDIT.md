@@ -3313,3 +3313,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Heat Wave** was also cleaned up so its canonical description now correctly identifies it as a Strike Super and its PQ179 source, while leaving exact drop gating unresolved.
 - Canonical data commit: `0790faf56ac700ff7d1b3c8d28a705531d5472db4`.
 - No unsupported drop probability or Ultimate Finish condition was added.
+
+
+## 2026-09-20 — Current-scope acquisition refinement: God of Destruction's Plaything
+
+- **God of Destruction's Plaything** was refined from generic `PQ175 reward context` to the concrete **Parallel Quest 175 — "Who's the Next Leader?!" Basic Reward** classification.
+- The maintained current PQ guide explicitly lists the skill in PQ175's Basic Reward section alongside the quest's other rewards. citeturn0search0
+- The record remains a **100-Ki Ki Blast Super**. No individual drop probability, Ultimate Finish-only gate, or unsupported numerical mechanics were added.
+- Canonical data commit: `dd32ad55d46d3751b5552459400ddc05d528a29f`.
+- Heat Wave remains sourced to PQ179; the current evidence confirms its Basic Reward placement alongside Supreme Fury, but this cycle did not establish a narrower drop condition. citeturn0search0
