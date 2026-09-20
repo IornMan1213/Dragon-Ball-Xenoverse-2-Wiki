@@ -2810,7 +2810,7 @@
       "name": "Lovely Cyclone",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -2820,7 +2820,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "last_verified": "2026-09-19",
-      "notes": "2026-09-19 source reconciliation: Steam's current all-PQ guide lists Lovely Cyclone as a Basic Reward for PQ135 (Ribrianne, Defender of Love and Justice). Community reports describe it as a difficult RNG drop, but do not establish an additional Ultimate Finish-only condition; keep the UF flag false."
+      "notes": "2026-09-19 source reconciliation: Steam's current all-PQ guide lists Lovely Cyclone as a Basic Reward for PQ135 (Ribrianne, Defender of Love and Justice). Community reports describe it as a difficult RNG drop, but do not establish an additional Ultimate Finish-only condition; keep the UF flag false.",
+      "ultimate_finish_required": false
     },
     {
       "name": "Mach Punch",
