@@ -3297,3 +3297,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Post-sync canonical/index comparison: 283/283 records aligned for class, subcategory, verification status, research status, and acquisition type.
 - Artifact scan: 0 forbidden citation/tool markers.
 - Next task: run the repository's schema/validator locally or through available GitHub validation paths, then continue evidence-backed enrichment.
+
+
+### 2026-09-19 continuation — validator/CI verification
+- Inspected the dedicated skills validation workflow, schema, and validator.
+- Workflow is configured for Python 3.12 with pinned `jsonschema==4.25.1` and runs `scripts/validate_skills.py` on canonical data/schema changes.
+- Static validator inspection confirms Draft 2020-12, `FormatChecker()`, `check_schema`, and cross-file checks are present.
+- GitHub currently reports no workflow runs or commit statuses for the latest handoff commit; CI remains unverified.
+- Local execution could not be completed because the execution environment could not resolve GitHub for cloning.
+- Next task: continue repository-level static validation/enrichment without claiming an unobserved CI pass.
