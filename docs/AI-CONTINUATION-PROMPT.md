@@ -3596,3 +3596,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Corrected both records' explicit `damage_type` from `Other` to `Ki Blast`, matching their verified `subcategory: Ki Blast` and descriptions.
 - Commit: `6365d60edaf6a583f105266c0b9ba2881de89a51`.
 - Next task: continue auditing explicit non-null damage fields for conflicts with verified subcategories, while leaving intentionally null/unverified values untouched.
+
+
+### 2026-09-20 cycle update — explicit damage conflict check
+- Performed a fresh web cross-check of the canonical Super Attack categories and PQ evidence. The current Ki Blast Super category includes Side Bridge, Steel Mirage, Mighty Explosive Wave, Change The Future, Counter Burst, Counter Impact, and related records. cite marker omitted from repository data.
+- Re-ran the live 78-record current-scope census for non-null `damage_type` values conflicting with `subcategory: Ki Blast`; **no remaining conflicts were found** after the Side Bridge/Steel Mirage reconciliation.
+- PQ evidence also confirms PQ59 Force Shield, PQ77 Ki Explosion, PQ78 Dust Attack, and PQ165 Steel Mirage as recorded acquisition points. cite marker omitted from repository data.
+- No skill-data commit was necessary this cycle; the audit result itself is recorded here.
+- Next task: move from explicit damage conflicts to remaining stale descriptions, acquisition metadata, and null/unsupported-field consistency in the current-scope records.
