@@ -3269,3 +3269,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ100's maintained Basic Reward list includes the skill, while independent references document TP Medal Shop availability; therefore an Ultimate Finish is not required for the canonical acquisition route.
 - Exact drop probability remains unknown and was not invented.
 - Next task: continue mixed-route Ultimate Finish audits, prioritizing records where PQ guides explicitly distinguish Basic Rewards from Ultimate Finish rewards.
+
+
+### 2026-09-19 continuation — mixed-route PQ provenance audit
+- Reconciled Emperor's Blast, Emperor's Edge, Final Kamehameha, and X 100 Big Bang Kamehameha to their documented PQ and TP Medal Shop acquisition routes.
+- Confirmed all four corresponding PQ entries list the skills as Basic Rewards; no Ultimate Finish requirement was added.
+- Final Kamehameha retains Double Crystal Raids as an additional route; TP Medal Shop availability is retained.
+- Next task: continue auditing remaining mixed-route records, especially Sudden Death Beam and any PQ/TP Medal Shop combinations not yet evidence-reconciled.
