@@ -3627,3 +3627,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated `Punisher Guard.unlock_method` to `Skill Shop after completing the relevant story progression.` and removed the stale “originally associated with PQ87” wording. Other fields remain unchanged.
 - Skill-data commit: `ce483dfff35ed7f194b6054ce60e9319068f964d`.
 - Next task: continue checking current-scope acquisition wording for similar historical/obsolete route references, especially records whose `source_quest` is null.
+
+
+### 2026-09-20 cycle update — null-quest acquisition wording review
+- Re-audited all current-scope records with null `source_quest` and acquisition wording indicating Skill Shop, story progression, character-only, N/A, or built-in access.
+- `Punisher Guard` remains normalized to its current Skill Shop/story route after the previous stale-PQ cleanup. `Explosive Wave`, `Final Pose`, and `Time Bullet` retain explicit Skill Shop/story routes; character-exclusive and built-in entries retain their non-quest boundaries.
+- An external web search for the specific acquisition terms returned no usable results in this cycle, so no new external evidence was treated as authoritative and no additional skill-data edits were made.
+- Next task: inspect individual quest-backed `source_quest` mappings for stale or mismatched unlock wording, then re-run artifact-hygiene checks before the next handoff.
