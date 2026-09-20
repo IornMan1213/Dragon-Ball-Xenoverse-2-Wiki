@@ -2569,7 +2569,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random reward from Parallel Quest 155 — \"I Need a Hero... Pose!\"",
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Basic Reward",
       "source_quest_or_shop": "PQ155",
       "ultimate_finish_required": false,
       "skill_description": "Gamma Blaster is a Super Ki Blast skill used by Gamma 2.",
@@ -2586,7 +2586,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 155",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ155 and describes Gamma Blaster as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred. 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Blaster in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ155 reward evidence explicitly lists Gamma Blaster in the Basic Reward set, while dedicated skill documentation describes PQ155 acquisition without establishing an Ultimate Finish-only gate. Exact individual reward probability remains unresolved."
     },
     {
       "name": "Giant Cluster",
