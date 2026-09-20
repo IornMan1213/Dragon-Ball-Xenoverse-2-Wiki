@@ -3262,3 +3262,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Corrected Big Bang Knuckle's stale description label to Strike Super.
 - Evidence: the maintained all-PQ reward guide lists these four skills in the Basic Reward sections of PQ171/PQ172; official Dragon Ball material identifies the four character moves.
 - Next task: continue mixed-route provenance auditing, then validate the affected canonical/index/schema surfaces.
+
+
+### 2026-09-19 continuation — X100 Big Bang Kamehameha Ultimate Finish correction
+- Corrected `X 100 Big Bang Kamehameha` from `ultimate_finish_required=true` to `false`.
+- PQ100's maintained Basic Reward list includes the skill, while independent references document TP Medal Shop availability; therefore an Ultimate Finish is not required for the canonical acquisition route.
+- Exact drop probability remains unknown and was not invented.
+- Next task: continue mixed-route Ultimate Finish audits, prioritizing records where PQ guides explicitly distinguish Basic Rewards from Ultimate Finish rewards.
