@@ -3661,3 +3661,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Updated `skill-catalog-audit.json` to mark the partial-verification workstream complete and the canonical/index synchronization complete.
 - Files changed this pass: `docs/data/skill-catalog-audit.json` and this handoff.
 - Next task: investigate the remaining Burst Stinger provenance conflict, then perform broader stale-source/metadata and validation checks across the 283-record catalog.
+
+
+### 2026-09-20 continuation — Burst Stinger conflict resolved
+- Resolved the final `conflict` state in the 283-record skill census.
+- **Burst Stinger** is now verified: current PQ136 reward evidence lists it under **Basic Reward**, so `ultimate_finish_required=false` and the unlock method is recorded as the PQ136 Basic Reward.
+- Character provenance is now recorded as **Vegeta (Super Saiyan God)**. Current character/skill references consistently place Burst Stinger in Vegeta (Super Saiyan God)'s moveset; the earlier Goku (Ultra Instinct) character-drop attribution was not corroborated and has been removed from canonical conflict metadata. citeturn1search0turn2search0turn2search8
+- Verification-state distribution is now **205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified = 283 total**.
+- Updated canonical data, synchronized index, and audit metadata.
+- Next task: continue the broader stale-source/metadata consistency pass across all 283 records, then inspect repository validation/workflow failures without guessing unavailable CI diagnostics.
