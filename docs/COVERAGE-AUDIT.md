@@ -3147,3 +3147,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Found that `source_quest` is represented legitimately as either a numeric Parallel Quest ID or descriptive text in the canonical dataset, while the schema allowed only string/null.
 - Updated the schema to permit non-negative integers alongside strings/null for `source_quest`. This preserves the existing canonical representation instead of coercing established PQ IDs into potentially less useful text.
 - No factual acquisition records were changed.
+
+
+## 2026-09-19 — acquisition provenance correction
+
+- Audited numeric `source_quest` values against the actual acquisition fields.
+- Corrected two records whose canonical acquisition was Skill Shop rather than a quest: `Explosive Wave` and `Final Pose`.
+- Both now use `acquisition_type: skill_shop`, `source_quest: null`, `source_quest_or_shop: Skill Shop`, and `ultimate_finish_required: false`.
+- Public evidence independently confirms Explosive Wave is purchased from the Skill Shop after the normal-ending story; Final Pose is documented as a Skill Shop acquisition. citeturn0search0
+- No quest IDs were removed from genuinely quest-acquired records.
