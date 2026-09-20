@@ -3469,3 +3469,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No further canonical correction was supported. Skill census remains 283 / 205 / 78 / 0 / 0.
 - Audit commit: `0ec4111e5d5ade441ca9976d9543e889dd689b7d`.
 - Next task: continue the remaining current-scope source-field audit, especially historically ambiguous non-character records, while preserving unsupported/uncertain values.
+
+### 2026-09-20 cycle update — Super Saiyan God provenance recheck
+- Rechecked **Super Saiyan God** because its historical update provenance was previously flagged as potentially ambiguous.
+- Current reference material identifies it as the new Awoken Skill in **Free Update 13** (November 4, 2021) and documents the Shenron wish/five-mentor friendship unlock route. Existing canonical `Free Update 13` provenance remains supported; no data correction was necessary.
+- Audit commit: `d056b07d0e594f41a7267cbe29725ce5f1dae0be`.
+- Next task: continue the remaining current-scope provenance/source-field audit, prioritizing records whose DLC/update labels remain historically ambiguous.
