@@ -3206,3 +3206,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Found four intentional `Awoken / Transformation` records: Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, and Supersonic Mode.
 - The JSON Schema and validator incorrectly omitted `Transformation` from their allowed subcategory values even though the canonical dataset already uses it. Corrected the schema enum and validator allow-list; no factual skill records were changed.
 - Exact next task: continue the deterministic category/subcategory and CaC-eligibility audit, especially checking that character-only Awoken transformations are not accidentally counted as the 15 canonical CaC Transformation parent records.
+
+
+### 2026-09-19 continuation — skill class/subcategory semantic invariants
+- Audited all 283 skill records against the declared class model.
+- Added validator invariants for class/subcategory coherence, `Character-only` vs `usable_by_cac=false`, and the 15 canonical Awoken/Race records requiring CaC eligibility plus an explicit race restriction.
+- Verified zero malformed source URLs and zero duplicate source entries.
+- No factual skill data changed.
+- Exact next task: continue deterministic provenance/CaC checks, then begin the next bounded acquisition/DLC-version evidence cohort.
