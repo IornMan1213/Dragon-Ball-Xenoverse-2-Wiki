@@ -3328,3 +3328,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Removed their `source_quest` values and preserved `Shenron wish` as the acquisition route.
 - Flash Fist Crush is the first Super Attack wish reward; Burst Reflection is from the subsequent Super Attack wish reward set.
 - Next task: continue the partially verified cohort, prioritizing deterministic acquisition/Ultimate Finish corrections.
+
+
+### 2026-09-19 continuation — PQ Basic Reward finish audit
+- Upgraded `Burst Rush` to `verified_current_scope` based on explicit PQ51 Basic Reward evidence.
+- Corrected `Energy Barrier` to `ultimate_finish_required=false` based on explicit PQ32 Basic Reward evidence.
+- Synchronized the index verification metadata.
+- Next task: continue deterministic Ultimate Finish audits across partially verified PQ skills.
