@@ -2681,3 +2681,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `0790faf56ac700ff7d1b3c8d28a705531d5472db4` (skill data), `dca5224c16f19b6bed1c6d8c00f2f9dff978a35a` (coverage audit).
 - Evidence basis for Dimension Cannon: dedicated skill documentation plus maintained PQ reward listing. Do not revert the Evasive classification based on the older erroneous repository value.
 - Exact next task: continue the current-scope audit from the next unresolved records, prioritizing **God of Destruction's Plaything**, **Heat Wave drop semantics**, and other records where current evidence can correct canonical facts rather than merely add weak detail.
+
+
+### 2026-09-20 cycle update — God of Destruction's Plaything acquisition refinement
+- Refined **God of Destruction's Plaything** from generic `PQ175 reward context` to **Parallel Quest 175 — "Who's the Next Leader?!" Basic Reward**, based on the maintained current PQ reward listing.
+- Preserved its 100-Ki Ki Blast Super classification and CaC availability. Exact individual drop probability and additional numerical mechanics remain unresolved.
+- Heat Wave remains concretely tied to PQ179 and its Basic Reward listing, but no narrower drop condition was established this cycle.
+- Commits: `dd32ad55d46d3751b5552459400ddc05d528a29f` (skill data), `0c20e33f3854de7d17d4602d29d938705a0bce38` (coverage audit).
+- Exact next task: continue the remaining current-scope evidence-gap audit, prioritizing records where current sources can establish concrete Basic Reward/Ultimate Finish semantics or correct canonical type/cost/mechanics data.
