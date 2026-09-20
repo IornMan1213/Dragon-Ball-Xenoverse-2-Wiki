@@ -13,6 +13,7 @@ ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
 ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter','Transformation'}
 ALLOWED_RESEARCH={'indexed','partially_enriched','enriched','page_unavailable'}
 ALLOWED_ACQUISITION={'quest_or_mission','skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'}
+CLASS_SUBCATEGORIES={'Super':{'Ki Blast','Strike','Other','Power Up'},'Ultimate':{'Ki Blast','Strike','Other','Power Up'},'Evasive':{'Ki Blast','Strike','Other','Power Up'},'Awoken':{'Race','Transformation'},'Counter':{'Counter'},'Mixed':{'Special'}}
 
 def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
 
@@ -41,6 +42,9 @@ def main():
  for r in rs:
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
+  if r.get('class') in CLASS_SUBCATEGORIES and r.get('subcategory') not in CLASS_SUBCATEGORIES[r.get('class')]:errors.append(f"{r.get('name')}: subcategory {r.get('subcategory')} is invalid for class {r.get('class')}")
+  if r.get('race_restriction')=='Character-only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: Character-only restriction requires usable_by_cac=false")
+  if r.get('class')=='Awoken' and r.get('subcategory')=='Race' and (r.get('usable_by_cac') is not True or not r.get('race_restriction')):errors.append(f"{r.get('name')}: canonical Awoken Race record requires CaC eligibility and race restriction")
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
   if r.get('acquisition_type') not in ALLOWED_ACQUISITION:errors.append(f"{r.get('name')}: invalid acquisition_type {r.get('acquisition_type')}")
   acquisition=r.get('acquisition_type'); has_quest=r.get('source_quest') not in (None,'')
