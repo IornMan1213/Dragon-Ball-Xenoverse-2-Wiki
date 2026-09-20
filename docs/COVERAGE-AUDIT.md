@@ -3663,3 +3663,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Corrected **Circle Flash** and **Sign of Awakening** from generic Random Parallel Quest labels to the maintained **PQ154 Ultimate Finish bonus slot (40%)** route.
 - Evidence: `docs/data/parallel-quest-research-batches/pq-batch-15.json` explicitly lists both skills under PQ154 `skill_rewards` with 40% Ultimate Finish bonus-roll conditions.
 - This removes an ambiguity rather than inventing a probability; both records now set `ultimate_finish_required=true`.
+
+
+## 2026-09-20 — unresolved race-scope consistency audit
+- Corrected six records whose own audit notes explicitly said CaC race/gender/form scope was unresolved while `race_restriction` still incorrectly read `All CaC races`: **Super God Fist, Variant Drive, Blaster Stream, Chain Destructo-Disc Barrage, Circle Flash, and Chaotic Time Impact**.
+- Their `race_restriction` fields are now `null`; no new race restriction or universal-race claim is inferred.
+- This is a consistency correction only and does not alter acquisition provenance or reward gating.
