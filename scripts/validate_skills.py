@@ -3,6 +3,10 @@
 from __future__ import annotations
 import json
 from pathlib import Path
+try:
+    from jsonschema import Draft202012Validator
+except ImportError:
+    Draft202012Validator = None
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCHEMA=ROOT/'docs/data/skills.schema.json'
 ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
