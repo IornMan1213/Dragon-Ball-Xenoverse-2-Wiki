@@ -3361,3 +3361,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Canonical/index synchronization: updated verification status, unlock wording, mechanics notes, and source list in `docs/data/skills.json` and `docs/data/skills-index.json`.
 - No drop probability was invented and no additional reward condition was inferred beyond the documented Ultimate Finish gate.
 - Exact next task: **complete the live Ki Blast Super source-vs-repository set diff**, then continue deterministic acquisition/Ultimate Finish verification on the remaining partially verified cohort.
+
+
+### 2026-09-19 continuation — Ki Blast Super full set-diff closure
+- Completed the previously open live source-vs-repository set diff for **Ki Blast Supers**.
+- Source: current Fandom `Category:Ki Blast Supers` reports **183 items** and exposes the full 183-name list. Repository: `docs/data/skill-catalog-batches/ki-blast-supers.json` contains **183 names**.
+- Result: **exact set equality** — 183/183 names matched; no source-only or repository-only Ki Blast Super names remain. No speculative catalog additions were made.
+- Burst Stinger is therefore reconciled at the catalog-set level. Its separate character/reward-slot attribution conflict remains preserved in `docs/data/skills.json` and is not treated as a set-diff issue.
+- Queue status: Ki Blast Supers set-diff item closed/resolved.
+- Exact next task: **continue deterministic acquisition/Ultimate Finish verification on the remaining partially verified skill cohort**, starting with records where the reward condition can be established without relying on ambiguous community-only claims.
