@@ -10,7 +10,7 @@ except ImportError:
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCHEMA=ROOT/'docs/data/skills.schema.json'
 ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
-ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter'}
+ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter','Transformation'}
 ALLOWED_RESEARCH={'indexed','partially_enriched','enriched','page_unavailable'}
 ALLOWED_ACQUISITION={'quest_or_mission','skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'}
 
