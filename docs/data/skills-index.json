@@ -1793,31 +1793,37 @@
       "name": "Afterimage Strike",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
         "https://dragonball.fandom.com/wiki/Afterimage_Strike"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 81 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Assault Vanish",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Assault_Vanish"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 131 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Burst Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1826,7 +1832,10 @@
         "https://gamefaqs.gamespot.com/xboxone/212182-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
         "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
         "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 134 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Charged Ki Wave",
@@ -1942,13 +1951,16 @@
       "name": "Kai Kai",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 63 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Maximum Charge",
@@ -1978,13 +1990,16 @@
       "name": "Phantom Fist",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Phantom_Fist"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 97 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Quick Sleep",
@@ -2029,24 +2044,30 @@
       "name": "Shield Barrier",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Shield_Barrier"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 153 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Solar Flare",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dragonball.fandom.com/wiki/Solar_Flare"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 1 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Spirit Boost",
@@ -2108,7 +2129,7 @@
       "name": "Time Control",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -2116,13 +2137,16 @@
         "https://dbxv2.fandom.com/wiki/Time_Control",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-18.md",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 18 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Ultimate Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -2130,18 +2154,24 @@
         "https://dbxv2.fandom.com/wiki/Ultimate_Charge",
         "https://gamefaqs.gamespot.com/xboxone/212182-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
         "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 134 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Wall of Defense",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 10 reward.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Charge",
