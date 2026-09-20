@@ -4556,7 +4556,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Brave Sword Slash is a Super Strike skill associated with Tapion.",
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Strike Super from PQ116, usable by CaCs. Tapion draws the Brave Sword and performs a long-range sword slash; it is one of Tapion's Future Warrior-compatible sword skills. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4568,7 +4568,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 116,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
     },
     {
       "name": "Burning Slash",
@@ -4804,7 +4804,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Conductor is a Super Strike skill associated with Champa.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4815,7 +4815,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
     },
     {
       "name": "Dragon Spark",
@@ -4860,7 +4860,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Strike Super associated with Goku (Ultra Supervillain Quelled).",
       "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4872,7 +4872,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 185,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
     },
     {
       "name": "Dragon Thunder",
@@ -5140,7 +5140,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Heroic Assault is a Super Strike skill used by Gamma 1.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -5151,7 +5151,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
     },
     {
       "name": "Justice Blade",
@@ -5196,7 +5196,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Justice Drive is a Super Strike skill associated with Videl.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -5207,7 +5207,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 168,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
     },
     {
       "name": "Justice Kick",
@@ -5224,7 +5224,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Justice Kick is a Super Strike skill used by Dyspo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -5235,7 +5235,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 152,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
     },
     {
       "name": "Lovely Cyclone",
