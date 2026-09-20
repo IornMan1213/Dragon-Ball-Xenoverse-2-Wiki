@@ -3580,3 +3580,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined **Teleporting Vanishing Ball** → PQ62 Basic Reward while preserving a historical GameFAQs report that treated it as an Ultimate Finish drop; no UF-only gate is asserted in canonical data.
 - Re-synchronized `docs/data/skills-index.json`; record count remains 283.
 - Next pass: continue the remaining generic/random PQ records after these tier-confirmed entries.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 9
+- Refined **Atomic Blast** → PQ87 Basic Reward; **Blaster Ball** → PQ125 Basic Reward; **Destruction's Concerto: Comet** → PQ104 Basic Reward; **God Punisher** → PQ132 Basic Reward; **Meteor Strike** → PQ6 Basic Reward.
+- Re-synchronized `docs/data/skills-index.json`; record count remains 283.
+- Next pass: continue remaining generic/random PQ records, prioritizing entries whose current notes still lack concrete reward-tier evidence.
