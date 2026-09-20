@@ -732,7 +732,7 @@
       "last_verified": "2026-09-20",
       "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ44 and explicitly describes the Future Warrior acquisition as a random reward. The maintained PQ44 reward table does not list God Breaker among Basic Rewards, so no Basic Reward tier is inferred."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ44 and explicitly describes the Future Warrior acquisition as a random reward. The maintained PQ44 reward table does not list God Breaker among Basic Rewards, so no Basic Reward tier is inferred. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Heroic Counter",
@@ -1064,9 +1064,9 @@
       "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\" (random reward)",
+      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (40% bonus roll)",
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "300-Stamina Ki Blast Evasive. Launches a wave of energy upward; dedicated documentation describes a 7-hit wave that can lift a nearby opponent. Current maintained PQ151 reward evidence lists Celestial Wave in Basic Reward. A separate video guide describes it as an Ultimate Finish reward, so the exact reward gate remains source-conflicted.",
       "verification_status": "verified_current_scope",
@@ -1081,7 +1081,7 @@
       "mechanics": "Ki Blast Evasive; launches a 7-hit wave and costs 300 Stamina.",
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate."
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Dragon Burn",
@@ -1359,7 +1359,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 39",
       "acquisition_type": "quest_or_mission",
-      "notes": "Reconciled 2026-09-20: Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward based on current reward evidence."
+      "notes": "Reconciled 2026-09-20: Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward based on current reward evidence. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Spread Shot Retreat",
@@ -1416,7 +1416,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 165",
       "acquisition_type": "quest_or_mission",
-      "notes": "Reconciled 2026-09-20: Parallel Quest 165 — \"Anniversary Antics\" Random Reward based on current reward evidence."
+      "notes": "Reconciled 2026-09-20: Parallel Quest 165 — \"Anniversary Antics\" Random Reward based on current reward evidence. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Final Pose",
@@ -1751,7 +1751,7 @@
       "source_quest": 94,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation and Dragon Ball technique documentation explicitly describe Bluff Kamehameha as randomly obtained from PQ94; no specific Basic/Ultimate Finish tier is inferred."
+      "notes": "2026-09-20 audit: dedicated skill documentation and Dragon Ball technique documentation explicitly describe Bluff Kamehameha as randomly obtained from PQ94; no specific Basic/Ultimate Finish tier is inferred. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Breaker Energy Wave",
@@ -2482,7 +2482,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 52",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Final Flash (Super)",
