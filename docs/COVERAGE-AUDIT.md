@@ -3322,3 +3322,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - The record remains a **100-Ki Ki Blast Super**. No individual drop probability, Ultimate Finish-only gate, or unsupported numerical mechanics were added.
 - Canonical data commit: `dd32ad55d46d3751b5552459400ddc05d528a29f`.
 - Heat Wave remains sourced to PQ179; the current evidence confirms its Basic Reward placement alongside Supreme Fury, but this cycle did not establish a narrower drop condition. citeturn0search0
+
+
+## 2026-09-20 — Reward-gate reconciliation: PQ96 / PQ151
+
+- **Absolute Zero** was refined from generic/random PQ96 acquisition to the concrete **PQ96 Basic Reward** classification based on the maintained all-PQ reward listing. A separate older video guide labels it an Ultimate Finish reward, so the record explicitly preserves that source conflict rather than asserting an exclusive gate. citeturn0search0turn0search2turn0youtube23
+- **Ultrasonic Blitz** and **Celestial Wave** were similarly reconciled against the maintained PQ151 reward listing, which explicitly places both in **Basic Reward**. A separate video guide labels both as PQ151 Ultimate Finish rewards. The canonical records now preserve this conflict and do not claim an exclusive UF gate. citeturn0search2turn0youtube24
+- Their mechanics were also enriched from current dedicated skill documentation without inventing unsupported values.
+- Canonical data commit: `02dc1d7cec09d2816e20b9d657d87b7f0d274964c`.
+- No drop probability was added and no source-conflicted reward gate was silently collapsed.
