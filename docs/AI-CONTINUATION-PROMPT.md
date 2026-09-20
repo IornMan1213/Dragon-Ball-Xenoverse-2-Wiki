@@ -3255,3 +3255,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Files changed: docs/data/skills.json, docs/data/skills-index.json, docs/COVERAGE-AUDIT.md, and this handoff.
 - Commits: 6fedf7406a146addf1e1a09aa01b2af163aa2337, a7b4dc4346fd6033eb12fa4f6212c7c83fe62a11, 4c8ce69cdd8a864ab239c31ea11df11f1f5f6033, 297f9ad4eb1b8e3d8aaffeda7cccd460647a1d31, plus this audit/handoff update.
 - Exact next task: **continue the generic PQ census for remaining quest-or-mission skill records, prioritizing stale quest-number/title mismatches and then records where independent maintained sources establish an exact reward tier. Preserve documented source conflicts and unresolved probabilities.**
+
+
+### 2026-09-20 cycle update — PQ source-field schema normalization
+- Normalized all remaining PQ-formatted string `source_quest` values in `skills.json` to numeric quest IDs (**29 records**), and synchronized the index. Non-PQ sources remain textual.
+- Canonical/index: **283 records**, exact parity preserved, UF count **60**, zero remaining PQ-formatted strings in `source_quest`.
+- Commits: `21b70af1677724e81cfe3dbad49cf38cc469c513` and `1c5ce0a27a4a538a76ece00484381e9eecae9d31`.
+- Exact next task: **continue provenance cleanup for remaining quest-or-mission skills with vague, conflicting, or incomplete concrete reward-source wording; preserve uncertainty and source conflicts.**
