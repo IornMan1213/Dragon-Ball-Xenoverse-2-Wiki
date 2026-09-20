@@ -2813,3 +2813,23 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 - Validation: `skills.json` re-fetched and parsed successfully; 283 records remain unique by skill name, 53 `dlc_requirement` nulls remain, and 31 `source_quest` nulls remain. No schema or validator changes were made.
 - Artifact cleanup: removed ChatGPT/UI citation markup and internal `turn...search...` identifiers from this audit file before committing.
 - Exact next task: continue the acquisition-specific nullable-field audit from the live dataset, prioritizing the remaining `dlc_requirement` nulls that have explicit DLC/free-update evidence, while preserving nulls where chronology or ownership evidence is insufficient.
+
+
+## 2026-09-19 — explicit DLC provenance batch 2
+
+- Recomputed the live skill census and resolved eight remaining `dlc_requirement` nulls where the acquisition route directly identifies a PQ whose DLC ownership is established:
+  - **Absolute Zero** — Base Game, PQ96.
+  - **Dragon Burn** — Base Game, PQ82.
+  - **Emperor's Blast** — Base Game, PQ70.
+  - **Blaster Stream** — Legendary Pack 2, PQ148.
+  - **Gigantic Burst** — Extra Pack 3, PQ127.
+  - **Lightning Impact** — Ultra Pack 2, PQ142.
+  - **Prominence Flash** — Ultra Pack 1, PQ137.
+  - **Final Flash (SS3 DAIMA)** — Dragon Ball DAIMA Pack, PQ181.
+- The PQ-to-pack mapping for the numbered DLC-era quests is supported by the maintained PQ guide and DLC listings; Bandai Namco's current DLC catalog confirms the Dragon Ball DAIMA Pack as downloadable content, and current official material identifies the game's DLC pack structure. citeturn0search0turn0search4turn0search2turn0search1
+- For the three low-numbered PQs, the maintained all-PQ guide places the relevant rewards in the original quest set, and Dragon Burn's 2016 release-era evidence confirms PQ82; these are retained as Base Game rather than assigning a later DLC pack. citeturn0search0turn0search3
+- For PQ137, community reports independently identify Prominence Flash as the PQ137 reward; this corroborates the existing repository acquisition record, while the pack mapping is Ultra Pack 1. citeturn0search6turn0search4
+- No character-only or generic shop-only record was promoted in this batch.
+- Data commit: `1c0df8c2f7be2f01103d886e732372c9ca74ac21`.
+- Validation target after this batch: 283 unique skill records; remaining null `dlc_requirement` count should be 45.
+- Exact next task: continue with remaining null `dlc_requirement` records whose source explicitly names a numbered PQ, Expert Mission, mentor/training route, or named DLC/update feature; preserve null when chronology cannot be established.
