@@ -863,7 +863,7 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
+      "unlock_method": "TP Medal Shop / STP Medal Shop / Double Crystal Raid Battle",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -872,7 +872,8 @@
       "dlc_requirement": "Base Game + later STP/raid distribution",
       "mechanics_notes": "Current dataset acquisition evidence remains TP Medal Shop / STP Medal Shop / Double Crystal Raid with 100 Ki. Dedicated current-version page access was unavailable in this pass, so the existing acquisition record is retained without inventing additional scope. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "tp_medal_shop",
-      "notes": ""
+      "notes": "",
+      "source_quest": null
     },
     {
       "name": "Super Afterimage",
