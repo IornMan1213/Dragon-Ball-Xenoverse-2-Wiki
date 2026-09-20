@@ -624,7 +624,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 153 - Seeing Double",
       "race_restriction": "All CaC races",
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "dlc_requirement": "Conton City Vote Pack",
       "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": "Parallel Quest 153 — Seeing Double",
       "acquisition_type": "quest_or_mission"
@@ -649,7 +649,7 @@
       "source_quest": 160,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "dlc_requirement": "Hero of Justice Pack 2",
       "acquisition_type": "quest_or_mission"
     },
     {
@@ -738,7 +738,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 155",
       "race_restriction": "All CaC races",
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "dlc_requirement": "Hero of Justice Pack 1",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission"
@@ -761,7 +761,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 129",
       "race_restriction": "All CaC races",
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "dlc_requirement": "Extra Pack 4",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current dedicated evidence confirms Punisher Shield as a 100-Ki Ki Blast Super, universal counter, from PQ129. SSGSS Gogeta is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission"
@@ -806,7 +806,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 119 - Ultimate Finish",
       "race_restriction": "All CaC races",
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "dlc_requirement": "Extra Pack 2",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Current dedicated evidence confirms Rough Ranger as a 100-Ki Strike Super, universal counter, from PQ119. Android 17 (DB Super) is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission"
@@ -988,7 +988,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "race_restriction": "All CaC races",
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance requires version-source reconciliation",
+      "dlc_requirement": "Conton City Vote Pack",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super counter obtained from Parallel Quest 151. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Parallel Quest 151 — Even Further Beyond",
       "acquisition_type": "quest_or_mission"
@@ -4302,7 +4302,7 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "DLC-era Parallel Quest; exact pack provenance retained for research",
+      "dlc_requirement": "Extra Pack 2",
       "acquisition_type": "quest_or_mission"
     },
     {
