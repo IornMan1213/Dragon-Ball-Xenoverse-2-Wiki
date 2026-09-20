@@ -3559,3 +3559,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **151 verified / 53 partially verified** across 283 records.
 - Next task: continue the remaining 53 partial records, prioritizing explicit current acquisition statements while preserving unresolved reward-condition conflicts rather than silently normalizing them.
+
+
+### 2026-09-20 continuation — two acquisition verifications
+- Promoted **Namek Finger** to verified as a **TP Medal Shop** skill. Independent GameFAQs and shop-list references identify it in the TP Medal Shop. citeturn1search0turn1search1turn1search2
+- Promoted **Super God Fist** to verified as a **PQ67** reward. The maintained PQ reward guide lists it under PQ67, with independent GameFAQs reports also identifying PQ67 as its source. citeturn1search15turn1search4turn1search5
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **153 verified / 51 partially verified** across 283 records.
+- Next task: continue the remaining 51 partial records; prioritize records where acquisition is independently corroborated, but retain partial status when reward-condition conflicts remain.
