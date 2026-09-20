@@ -3462,3 +3462,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Canonical census remains 283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified.
 - Skill-data commit: `d3d9d6222ff8af005886b206c631ecc39c164c35`.
 - Next task: continue the remaining source-field audit, prioritizing any record with historical version ambiguity or contradictory acquisition metadata, then refresh Actions/artifact status.
+
+### 2026-09-20 cycle update — remaining character-only provenance recheck
+- Rechecked the remaining character-only `verified_current_scope` records after correcting Super Saiyan Blue Kaioken.
+- **Pure Progress** and **Supersonic Mode** retain `Free Update 1` and `Conton City Vote Pack`; **Energy Release**, **Instant Charge**, **Rising Rage**, and **Dragon Thunder** retain `Base Game` because their maintained character-skill sources do not establish a later DLC/update origin.
+- No further canonical correction was supported. Skill census remains 283 / 205 / 78 / 0 / 0.
+- Audit commit: `0ec4111e5d5ade441ca9976d9543e889dd689b7d`.
+- Next task: continue the remaining current-scope source-field audit, especially historically ambiguous non-character records, while preserving unsupported/uncertain values.
