@@ -2801,3 +2801,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `954da8c6fa6959679d5d19aa4cf46e337953b334`, `8a5e9de234e05e6a0a055e1f6edcf0fb882b99ad`, `054f3ba27eab2a93a97993e309193ed51b332b76`.
 - Exact next task: continue the remaining `ultimate_finish_required=true` audit, prioritizing generic unlock text and records where current evidence explicitly separates Basic Rewards from Ultimate Finish rewards.
+
+
+### 2026-09-20 cycle update — Chaotic Time Impact / Core Breaker reward-gate corrections
+- Corrected **Chaotic Time Impact** and **Core Breaker** from `ultimate_finish_required=true` to `false`. Current PQ evidence places both skills in their respective **Basic Reward** pools: PQ184 and PQ158. citeturn0search0turn0search2turn0search3turn0search8
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `cc2375f58469809f700a2fbe346fb446c750f1e`, `7fbd5f1ca241b6a27af13ace1978854f95405e67`, `0075a4bb656b2238602bd7e4456f327bc3c693b3`.
+- Exact next task: inspect the remaining `ultimate_finish_required=true` records, especially **Blazing Attack**, where existing notes explicitly say current evidence does not prove the skill itself requires the UF despite being associated with PQ136. Do not flip without a source establishing the reward tier.
