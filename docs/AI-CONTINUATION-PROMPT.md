@@ -3428,3 +3428,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Verified **Galick Gun, Petrifying Spit, Phantom Fist, Rise to Action, and Dancing Parapara** from deterministic acquisition references.
 - Canonical/index synchronized; no Ultimate Finish-only requirement assigned without explicit condition evidence.
 - Next: continue deterministic acquisition verification through the remaining partial cohort.
+
+
+### 2026-09-19 continuation — PQ reinforcement cohort
+- Verified **Fighting Pose E (PQ19), Fighting Pose H (PQ61), Do or Die (PQ49), and Divinity Unleashed (PQ110)** from current acquisition references.
+- Fighting Pose K and Shield Barrier were already verified in earlier cycles and were not modified.
+- Canonical/index synchronized; no Ultimate Finish-only requirement assigned without explicit evidence.
+- Next: continue deterministic acquisition verification through the remaining partial cohort.
