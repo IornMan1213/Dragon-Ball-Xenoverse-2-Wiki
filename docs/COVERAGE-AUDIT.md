@@ -3303,3 +3303,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Sudden Death Beam:** upgraded acquisition provenance with Bandai Namco's official content-update schedule, which explicitly lists the skill in the TP Medal Shop rotation. Current skill documentation also retains STP Medal Shop and Double Crystal Raid Battle as routes. The mechanics note now records the documented Instant Transmission counter/evasive behavior without relying on character-specific users as race restrictions.
 - Canonical data commit: f30d937292044d748d5213d6f84de5a1cbdf1334.
 - No unsupported drop probability or false-precision mechanics were added.
+
+
+## 2026-09-20 — Skill classification correction: Dimension Cannon
+
+- **Dimension Cannon** was identified as a higher-priority canonical data error during the current-scope audit. The prior record incorrectly classified it as a 300-Ki Ki Blast Super.
+- Current dedicated evidence identifies it as a **300-Stamina Ki Blast Evasive Skill** from **PQ59 — Potara Warrior**; the maintained PQ reward listing places it in the **Basic Reward** section. Its documented behavior is a short-range mouth-fired Ki wave with six hits, knockback, and guard break against a blocking opponent. citeturn1search0turn1search3
+- The canonical `skills.json` record was corrected accordingly, including `class`, `ki_cost`, `stamina_cost`, `damage_type`, unlock wording, and skill description.
+- **Heat Wave** was also cleaned up so its canonical description now correctly identifies it as a Strike Super and its PQ179 source, while leaving exact drop gating unresolved.
+- Canonical data commit: `0790faf56ac700ff7d1b3c8d28a705531d5472db4`.
+- No unsupported drop probability or Ultimate Finish condition was added.
