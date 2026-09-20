@@ -3501,3 +3501,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - These are explicit PQ reward listings; no unsupported Ultimate Finish-only requirements were added.
 - Current counts: 135 verified, 69 partial.
 - Next: continue the remaining partial records, favoring explicit PQ reward listings and skill-page acquisition statements.
+
+
+### 2026-09-19 continuation — explicit acquisition verification
+- Verified **Burst Blitz** — PQ178.
+- Verified **Gamma Impact** — PQ155.
+- Verified **Meteor Blow** — PQ9, with the additional starting close-up fighting-style acquisition noted.
+- No unsupported Ultimate Finish-only requirements were added.
+- Current counts: 138 verified, 66 partial.
+- Next: continue remaining partial records with explicit acquisition evidence.
