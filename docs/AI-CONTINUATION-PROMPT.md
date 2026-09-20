@@ -3598,3 +3598,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **165 verified / 39 partially verified** across 283 records.
 - Next task: continue the remaining 39 partial records, prioritizing explicit current acquisition evidence and isolating conflicts like PQ184 for dedicated reconciliation.
+
+
+### 2026-09-20 continuation — three acquisition records verified
+- Promoted **Divine Ray Bomb** (PQ173), **Emperor's Death Beam** (TP Medal Shop), and **Final Explosion** (TP Medal Shop) to verified. Their current canonical source sets explicitly identify the acquisition routes, with no remaining acquisition-condition conflict in these records.
+- **Gigantic Breaker** remains partial because its canonical fields contain a Super-versus-Ultimate classification inconsistency that should be reconciled before promotion.
+- **Sonic Bomb** remains partial because current Basic Reward evidence conflicts with archived Ultimate Finish reward evidence.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts: **168 verified / 36 partially verified** of 283.
+- Next task: continue the remaining 36 partial records, prioritizing clean acquisition records while isolating classification and reward-condition conflicts.
