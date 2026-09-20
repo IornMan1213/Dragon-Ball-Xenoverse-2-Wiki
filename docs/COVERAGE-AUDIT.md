@@ -2757,14 +2757,14 @@ Skills commit: `d7cbb897e0ef2c4f364ec74935ea6d18731befd3`.
 
 ## 2026-09-19 — explicit late PQ reward batch 21
 
-Promoted **Divine Ray Bomb → PQ173** and **Final Rampage → PQ174**. A current public PQ reward listing explicitly identifies Divine Ray Bomb under PQ173 (Decoding Dinner) and Final Rampage under PQ174 (Hyper Special Training). citeturn1search0turn1search1
+Promoted **Divine Ray Bomb → PQ173** and **Final Rampage → PQ174**. A current public PQ reward listing explicitly identifies Divine Ray Bomb under PQ173 (Decoding Dinner) and Final Rampage under PQ174 (Hyper Special Training). 
 
 Skills commit: `1886f89930480d65b2bd47db6c2f87ca1f8d5dd3`.
 
 
 ## 2026-09-19 — null-floor verification batch 22
 
-Re-checked the remaining unresolved skill records against current public skill/character references. No additional `source_quest` values were promoted: **Emperor's Edge** remains multi-source (PQ99 and TP Medal Shop), while **Pressure Sign**, **Namek Finger**, **Final Pose**, and related records are documented as character/shop routes rather than a single canonical quest. The late-DLC PQ evidence continues to support the previously resolved PQ173/PQ174 entries. This preserves provenance rather than assigning a misleading quest to a multi-source or character-only record. citeturn0search0turn1search3turn1search4
+Re-checked the remaining unresolved skill records against current public skill/character references. No additional `source_quest` values were promoted: **Emperor's Edge** remains multi-source (PQ99 and TP Medal Shop), while **Pressure Sign**, **Namek Finger**, **Final Pose**, and related records are documented as character/shop routes rather than a single canonical quest. The late-DLC PQ evidence continues to support the previously resolved PQ173/PQ174 entries. This preserves provenance rather than assigning a misleading quest to a multi-source or character-only record. 
 
 
 ## 2026-09-19 — targeted null review batch 23
@@ -2774,27 +2774,42 @@ Targeted the remaining records whose metadata references PQ171/PQ172, PQ99, or P
 
 ## 2026-09-19 — targeted shop/PQ provenance check batch 24
 
-Re-checked **Reverse Mabakusenko** because older community material associates it with PQ51, while current reference data explicitly identifies its CaC acquisition as the Skill Shop. The repository's current metadata likewise says Skill Shop, so no `source_quest` value was assigned. This is a deliberate provenance-preservation decision: an historical PQ association is not enough to overwrite the current canonical acquisition route. citeturn0search1turn0search6
+Re-checked **Reverse Mabakusenko** because older community material associates it with PQ51, while current reference data explicitly identifies its CaC acquisition as the Skill Shop. The repository's current metadata likewise says Skill Shop, so no `source_quest` value was assigned. This is a deliberate provenance-preservation decision: an historical PQ association is not enough to overwrite the current canonical acquisition route. 
 
 No `skills.json` data change was made in this pass.
 
 
 ## 2026-09-19 — explicit Final Pose PQ reward batch 25
 
-Promoted **Final Pose → PQ74**. The maintained Steam Community PQ guide explicitly lists Final Pose as a Basic Reward for **PQ74 — Galactic Patrol, Away!**, providing a direct quest identifier even though the skill can also be obtained through the Skill Shop. citeturn1search0turn1search1
+Promoted **Final Pose → PQ74**. The maintained Steam Community PQ guide explicitly lists Final Pose as a Basic Reward for **PQ74 — Galactic Patrol, Away!**, providing a direct quest identifier even though the skill can also be obtained through the Skill Shop. 
 
 Skills commit: `62d434b84aecf89d5f408b0c024243aff6714e24`.
 
 
 ## 2026-09-19 — explicit Explosive Wave PQ reward batch 26
 
-Promoted **Explosive Wave → PQ05**. The quest reward listing explicitly includes Explosive Wave as a basic reward for PQ05, establishing a concrete quest identifier even though the skill is also sold in the Skill Shop. citeturn1search9turn1search0
+Promoted **Explosive Wave → PQ05**. The quest reward listing explicitly includes Explosive Wave as a basic reward for PQ05, establishing a concrete quest identifier even though the skill is also sold in the Skill Shop. 
 
 Skills commit: `53ca434c6573151b3e5b2bf8f9a061f21d2db072`.
 
 
 ## 2026-09-19 — explicit multi-source PQ reward batch 27
 
-Promoted **Emperor's Edge → PQ99** and **Final Kamehameha → PQ91**. Both have documented non-PQ acquisition routes as well, but the maintained PQ reward guide explicitly lists each as a basic reward for a single named quest, making the quest provenance concrete. citeturn2search6turn3search0turn3search1
+Promoted **Emperor's Edge → PQ99** and **Final Kamehameha → PQ91**. Both have documented non-PQ acquisition routes as well, but the maintained PQ reward guide explicitly lists each as a basic reward for a single named quest, making the quest provenance concrete. 
 
 Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
+
+
+## 2026-09-19 — skill DLC provenance null-floor batch
+
+- Recomputed the live canonical skill census before editing: **283 total skills; 53 records still have null `dlc_requirement`; 31 records still have null `source_quest`**.
+- Resolved `dlc_requirement` for 11 records whose existing acquisition/evidence context supports a specific non-DLC-era provenance:
+  - **Base Game:** Become Giant, Future Super Saiyan, Power Pole Pro, Purification, Super Saiyan, Super Saiyan 2, Super Vegeta, Turn Golden, Kaioken, Potential Unleashed.
+  - **Free Update 13:** Super Saiyan God.
+- The Super Saiyan God classification is specifically separated from `Base Game`: the repository's current Free Update reference identifies Super Saiyan God as part of Free Update 13, while the skill page documents its Shenron/friendship acquisition route. 
+- The other ten records retain `Base Game` because their current evidence identifies their launch-era/core progression routes rather than a DLC-exclusive acquisition path; no DLC pack was inferred merely from a character appearing in a skill's user list. 
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Data commit: `dc12fa80cfe9670636e8bcc8f5c7f7e95c9986d0`.
+- Validation: `skills.json` re-fetched and parsed successfully; 283 records remain unique by skill name, 53 `dlc_requirement` nulls remain, and 31 `source_quest` nulls remain. No schema or validator changes were made.
+- Artifact cleanup: removed ChatGPT/UI citation markup and internal `turn...search...` identifiers from this audit file before committing.
+- Exact next task: continue the acquisition-specific nullable-field audit from the live dataset, prioritizing the remaining `dlc_requirement` nulls that have explicit DLC/free-update evidence, while preserving nulls where chronology or ownership evidence is insufficient.
