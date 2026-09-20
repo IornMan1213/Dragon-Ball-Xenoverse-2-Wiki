@@ -1007,21 +1007,22 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultrasonic_Blitz",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\"",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Conton City Vote Pack",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super counter obtained from Parallel Quest 151. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "100-Ki Strike Super counter. The user enters a counter stance for up to about 2 seconds; when struck, the user vanishes behind the opponent and performs the follow-up strike. Current maintained PQ151 reward evidence lists Ultrasonic Blitz in Basic Reward. A separate video guide describes it as an Ultimate Finish reward, so the exact reward gate remains source-conflicted.",
       "source_quest": "Parallel Quest 151 — Even Further Beyond",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Ultrasonic Blitz under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate."
     },
     {
       "name": "Absolute Zero",
@@ -1031,24 +1032,25 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Absolute_Zero",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "stamina_cost": 300,
-      "unlock_method": "Parallel Quest 96 - \"The Shadow Dragons\" (random reward)",
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 96 — \"The Shadow Dragons\" Basic Reward",
+      "last_verified": "2026-09-20",
       "research_status": "enriched",
       "source_quest": 96,
-      "source_quest_or_shop": "Parallel Quest 96",
+      "source_quest_or_shop": "Parallel Quest 96 — \"The Shadow Dragons\"",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
-      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ96. It freezes attackers who strike the stance; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive. The user takes a stance and freezes attackers who strike them; current dedicated evidence describes the freeze lasting about 3 seconds. The maintained PQ96 reward listing explicitly places Absolute Zero in Basic Reward, so no Ultimate Finish-only gate is established. No narrower CaC race/gender/form restriction is established.",
       "race_restriction": "All CaC races",
       "damage_type": "Ki Blast",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 acquisition refinement: current PQ reward listings explicitly place Absolute Zero in PQ96 Basic Reward. A separate older video guide describes the skill as a PQ96 Ultimate Finish reward; this source conflict is retained rather than collapsing it into a false certainty."
     },
     {
       "name": "Celestial Wave",
@@ -1064,19 +1066,20 @@
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "ultimate_finish_required": false,
       "skill_description": "Celestial Wave is a Ki Blast Evasive skill used by Goku (Ultra Instinct -Sign-).",
-      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive from PQ151, associated with Goku (Ultra Instinct -Sign-) and available to CaCs. The reviewed evidence does not explicitly establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive. Launches a wave of energy upward; dedicated documentation describes a 7-hit wave that can lift a nearby opponent. Current maintained PQ151 reward evidence lists Celestial Wave in Basic Reward. A separate video guide describes it as an Ultimate Finish reward, so the exact reward gate remains source-conflicted.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "source_quest": 151,
       "mechanics": "Ki Blast Evasive; launches a 7-hit wave and costs 300 Stamina.",
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate."
     },
     {
       "name": "Dragon Burn",
