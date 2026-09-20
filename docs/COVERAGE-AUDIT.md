@@ -3274,3 +3274,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Replaced generic `DLC PQ` labels with exact DLC provenance for **Flash Chaser (PQ138) → Ultra Pack 2**, **Photon Swipe (PQ139) → Ultra Pack 2**, **Pretty Cannon (PQ133) → Ultra Pack 1**, and **Raid Blast (PQ136) → Ultra Pack 1**.
 - The maintained PQ records and independent PQ/DLC references explicitly map these quest numbers to those packs.
 - No acquisition, Ultimate Finish, CaC, race, cost, or mechanics fields were changed.
+
+
+## Skill DLC provenance refinement — Super Pack 2 — 2026-09-20
+
+- Refined **Destruction's Concerto: Comet**, **Destruction's Concerto: Starfall**, **Destruction's Concerto: Meteor**, and **Destruction's Conductor** from the broad `Super Pass` label to **Super Pack 2**.
+- The maintained DLC reference identifies DLC 2 / Super Pack 2 as containing PQ104–106 and these skills.
+- No Ultimate Finish flags were changed in this pass; the repository's current PQ reward audit was preserved.
