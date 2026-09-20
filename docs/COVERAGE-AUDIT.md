@@ -3261,3 +3261,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - All three are documented as Ultimate Finish-dependent rewards; `ultimate_finish_required` remains `true`.
 - Synchronized their verification metadata into `skills-index.json`.
 - Evidence: maintained PQ data and community reward documentation. 
+
+
+## Skill DLC provenance correction — 2026-09-20
+
+- Corrected `docs/data/skills.json` for **Evil Blast (PQ114)** and **Evil Flame (PQ117)** so both identify **Extra Pack 1**.
+- The maintained PQ transcription and DLC reference place PQ114 and PQ117 in Extra Pack 1. No other skill fields were changed.
