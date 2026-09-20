@@ -2808,3 +2808,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `cc2375f58469809f700a2fbe346fb446c750f1e`, `7fbd5f1ca241b6a27af13ace1978854f95405e67`, `0075a4bb656b2238602bd7e4456f327bc3c693b3`.
 - Exact next task: inspect the remaining `ultimate_finish_required=true` records, especially **Blazing Attack**, where existing notes explicitly say current evidence does not prove the skill itself requires the UF despite being associated with PQ136. Do not flip without a source establishing the reward tier.
+
+
+### 2026-09-20 cycle update — Blazing Attack reward-gate correction
+- Corrected **Blazing Attack** `ultimate_finish_required` from `true` to `false`. Current maintained PQ136 tables explicitly list it under **Basic Reward**. A conflicting GameFAQs report calls it an Ultimate Finish drop, so that conflict is preserved in mechanics notes rather than allowing an unsupported UF-only gate. citeturn0search0turn0search3
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `2a82e01e7e3fda477469683cb692bb7b971b6006`, `1cf8e2cd98615f8d2e4101827b3a79b47039e561`, `cc8ca995a88bb399711a3ea6f9db28a4014e16ab`.
+- Exact next task: inspect the remaining Ultimate Finish-gated records (currently expected to be the strongly evidenced PQ8/PQ11/PQ119/PQ122 cases and any remaining PQ136 ambiguity), then recompute the canonical census and audit for stale generic reward-gate metadata.
