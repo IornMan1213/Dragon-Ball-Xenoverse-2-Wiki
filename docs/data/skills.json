@@ -4523,12 +4523,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 136 — Ultimate Finish reward",
       "source_quest_or_shop": "Parallel Quest 136",
       "ultimate_finish_required": true,
       "skill_description": "Blazing Attack is a Super Strike skill associated with Goku (Ultra Instinct).",
       "mechanics_notes": "Confirmed as Goku (Ultra Instinct)'s 100-Ki Strike Super from PQ136 Ultimate Finish. It is a close-range martial-arts strike that can be extended with additional input. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4539,7 +4539,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: Current evidence explicitly identifies Blazing Attack as the random skill reward after completing PQ136 with an Ultimate Finish; community reports also distinguish it from the two opponent-drop skills."
     },
     {
       "name": "Brave Sword Slash",
@@ -4609,12 +4609,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 167 reward",
       "source_quest_or_shop": "PQ167",
       "ultimate_finish_required": false,
       "skill_description": "Burning Swan is a Super Strike skill associated with Videl.",
       "mechanics_notes": "Confirmed as Videl's 100-Ki Strike Super from Future Saga Chapter 1 PQ167. It performs a rapid series of acrobatic strikes; current evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4625,7 +4625,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: Current acquisition reference identifies Burning Swan as a PQ167 reward; no exclusive Ultimate Finish condition is established by the cited evidence."
     },
     {
       "name": "Burst Blitz",
