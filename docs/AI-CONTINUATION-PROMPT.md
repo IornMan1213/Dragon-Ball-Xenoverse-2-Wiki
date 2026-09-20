@@ -3157,3 +3157,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `90d7773f9357e945ac1867c7ed58d508a892777b` (canonical), `5769a063184ba6e5489cd74bcbddd9098feb7889` (index), `c9c4c3592d581a72ca7e683903345515c21cf6d9` (audit).
 - Web cross-check: current PQ44 documentation lists God Breaker in Basic Reward; dedicated skill documentation identifies PQ44 as its acquisition route. 
 - Exact next task: continue the bounded P1 provenance audit on the remaining generic/random records, prioritizing **Bluff Kamehameha, Final Cannon, Side Bridge, and Steel Mirage**, and only promote a gate when explicit maintained drop-condition evidence supports it.
+
+
+### 2026-09-20 cycle update — four remaining generic PQ provenance refinements
+- Reconciled **Bluff Kamehameha (PQ94)**, **Final Cannon (PQ52)**, **Side Bridge (PQ39)**, and **Steel Mirage (PQ165)** against maintained PQ reward transcriptions.
+- All four are explicitly listed under their respective **Basic Reward** sections. Canonical and index acquisition wording now records Basic Reward; `ultimate_finish_required` remains false.
+- Exact individual reward probability remains unresolved. No Ultimate Finish-only gate was inferred from the Basic Reward listings.
+- External cross-checks: maintained PQ94 evidence lists Bluff Kamehameha as Basic Reward; maintained PQ52 evidence lists Final Cannon as Basic Reward; maintained PQ39 evidence lists Side Bridge as Basic Reward; maintained PQ165 evidence lists Steel Mirage as Basic Reward. citeturn1search1turn0youtube35turn0search0turn1search13
+- Commits: `84eeacf1f43c7850a7d2c584c2ce844d81b67353` (canonical), `993edc0aeb41f5ab34b0ef72ea7f28309a747ed3` (index), `85c84ce82f99e77152da88cdddfcbf22b3a7e540` (audit).
+- Exact next task: inspect the remaining `random reward` acquisition records against maintained PQ reward tables and explicit drop-condition data. Do not manufacture missing gates; preserve uncertainty where reward-table and dedicated-skill wording conflict.
