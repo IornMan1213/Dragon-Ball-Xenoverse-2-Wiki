@@ -2928,3 +2928,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `45b7d76e6c15c5947c234ed68fd919d71c68f034` (canonical), `56785b64661a945a7b344b3c45900681ded6ba02` (index), `84af151ed6b9c9ee987fee5cb01c70f0c7f95b3e` (coverage audit).
 - Live census: **283 records**, **22** exact generic PQ acquisition records remain.
 - Exact next task: continue at **PQ115 — S.S. Deadly Bomber**, then PQ117, PQ120, PQ123/PQ124, and onward, using maintained PQ reward tables and preserving generic wording where tier evidence is insufficient.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 15
+- Refined six canonical skill acquisition records: **S.S. Deadly Bomber (PQ115), Brave Sword Attack (PQ117), Power Impact (PQ120), Variant Drive (PQ123), Revenge Final Flash (PQ124), Gigantic Breaker (PQ126)**.
+- All six are now explicitly represented as **Basic Reward** routes with `ultimate_finish_required=false`; no unsupported drop probability was added.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `da62ee7e666d043e96821ffc9e83ccdf8e8059fc` (canonical), `ee616d02964aedfb4a105dee600edac498ba96a8` (index), `8fa0b7c403fc0b78228ef998263368ae2a517245` (coverage audit).
+- Live census: **283 records**, **16** exact generic PQ acquisition records remain.
+- Exact next task: continue at **PQ127 — Gigantic Burst / Revenge Death Ball**, then PQ128, PQ132, PQ135, and onward.
