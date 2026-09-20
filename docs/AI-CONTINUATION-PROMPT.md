@@ -3045,3 +3045,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Index/data parity: passed.
 - Web corroboration: Dragon Ball Wiki explicitly identifies Future Warrior acquisition/user status for Super God Fist, Variant Drive, and Chain Destructo Disc. citeturn1search10turn1search0turn2search0
 - Exact next task: continue the bounded P1 provenance audit, prioritizing the remaining explicit reward/source conflicts (**Absolute Zero, Energy Barrier, Emperor's Cannon, Teleporting Vanishing Ball**) and preserve conflicts unless a higher-priority or independently corroborated source resolves them.
+
+
+### 2026-09-20 cycle update — four explicit reward/source conflict recheck
+- Rechecked **Absolute Zero (PQ96), Energy Barrier (PQ32), Teleporting Vanishing Ball (PQ62), and Emperor's Cannon (PQ183/PQ184)** against the maintained 186-PQ transcription and dedicated/community evidence.
+- Absolute Zero, Energy Barrier, and Teleporting Vanishing Ball are currently listed in the maintained reward transcription as Basic Rewards, while older/dedicated evidence describes random or Ultimate-Finish-associated acquisition. The evidence does not establish a sufficiently reliable exclusive gate, so no `ultimate_finish_required` change was made.
+- Emperor's Cannon remains a quest-number conflict: dedicated skill documentation identifies PQ184, while the maintained 186-PQ transcription lists it under PQ183. The canonical skill record retains the dedicated PQ184 provenance while explicitly preserving the PQ183 conflict.
+- Files changed: `docs/data/skill-catalog-audit.json` and this handoff.
+- Audit commit: `96bc6ef1e7a068ef6a464a0b990db474c1163a4a`.
+- Validation: audit JSON updated successfully; no canonical gameplay field was changed during this conflict-preservation pass.
+- Evidence used: maintained Steam 186-PQ reward transcription, Dragon Ball Wiki pages, and historical GameFAQs/Steam community reports. citeturn0search6turn0search1turn0search0turn0search7turn0search9
+- Exact next task: continue the P1 provenance pass beyond these four conflicts, looking for another unresolved canonical source/acquisition discrepancy; preserve uncertainty where evidence does not meet the repository's source-priority policy.
