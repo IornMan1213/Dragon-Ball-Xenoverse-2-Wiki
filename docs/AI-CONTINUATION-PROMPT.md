@@ -3056,3 +3056,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: audit JSON updated successfully; no canonical gameplay field was changed during this conflict-preservation pass.
 - Evidence used: maintained Steam 186-PQ reward transcription, Dragon Ball Wiki pages, and historical GameFAQs/Steam community reports. citeturn0search6turn0search1turn0search0turn0search7turn0search9
 - Exact next task: continue the P1 provenance pass beyond these four conflicts, looking for another unresolved canonical source/acquisition discrepancy; preserve uncertainty where evidence does not meet the repository's source-priority policy.
+
+
+### 2026-09-20 cycle update — Heroic Counter provenance audit
+- Rechecked **Heroic Counter (PQ155)** as the next explicit reward-semantics discrepancy.
+- The maintained PQ155 transcription lists Heroic Counter under **Basic Reward**, while Dragon Ball Wiki states that the Future Warrior can obtain it **randomly** from PQ155. The evidence does not establish the exact reward slot or an Ultimate Finish-only gate.
+- Updated the canonical and index records only to preserve the additional provenance source and contradiction; the canonical Basic Reward classification remains unchanged.
+- Commits: `597448724b3daaae3c4c3d225c590d6c2b05031f` (canonical), `deaa6409d24eec8e4963bb4d98bbb556540d30bc` (index), `a77234c3e471efde037b9cb7d916c017919ee981` (audit).
+- Web evidence: maintained PQ155 reward transcription and Dragon Ball Wiki's random-acquisition description. citeturn1search6turn2search1
+- Exact next task: continue the bounded P1 provenance audit for the next unresolved reward/acquisition discrepancy; do not promote a disputed drop slot to verified without stronger evidence.
