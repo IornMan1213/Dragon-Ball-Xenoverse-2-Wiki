@@ -3497,3 +3497,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Side Bridge is documented as a random PQ39 reward, while Steel Mirage is tied to PQ165. citeturn0search6turn0search7
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `4eaa298f9b3f700e19474bd...`, `3fc1aaebcb265bd42fba833de5442a9765a08766`.
+
+
+## 2026-09-20 — Evil Blast / Final Cannon / PQ provenance cleanup
+- Evil Blast corrected to 300-Ki Ki Blast Ultimate with PQ114 Ultimate Finish acquisition evidence.
+- Final Cannon corrected to Strike Super and Trunks (Kid), with PQ52 random-reward provenance.
+- Evil Flame, Eraser Bomb, and Dust Attack refined to concrete PQ reward listings.
+- Next: continue generic PQ acquisition/type audit, prioritizing Emperor's Blast and Emperor's Cannon.
