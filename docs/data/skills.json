@@ -2445,7 +2445,8 @@
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 175
     },
     {
       "name": "God Punisher",
@@ -2554,7 +2555,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 179
     },
     {
       "name": "Ill Bomber",
@@ -4046,7 +4048,8 @@
       ],
       "description": "Power Up Super Skill from Future Saga Chapter 4 that charges both Ki and Stamina; its behavior changes as the user's health falls.",
       "mechanics": "Charges Ki and Stamina simultaneously. Recent community testing reports a slow baseline Ki charge that becomes substantially faster below 50% health; exact timing and whether the threshold applies identically across all contexts remain partially verified.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 185
     },
     {
       "name": "Justice Pose",
@@ -4427,7 +4430,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 177
     },
     {
       "name": "Dragon Spiral",
@@ -4453,7 +4457,8 @@
         "https://dbxv2.fandom.com/wiki/Dragon_Spiral",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 185
     },
     {
       "name": "Dragon Thunder",
@@ -4682,7 +4687,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost_note": "Variable: 100 base, up to 300 when extended.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 175
     },
     {
       "name": "Heroic Assault",
@@ -5222,7 +5228,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 177
     },
     {
       "name": "Sonic Bomb",
@@ -5431,7 +5438,8 @@
       ],
       "mechanics": "200 Ki; optional 300 Stamina consumption enables use while under pressure and grants temporary Super Armor.",
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 180
     },
     {
       "name": "Chain Destructo-Disc Barrage",
@@ -6932,7 +6940,8 @@
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 179
     },
     {
       "name": "Unrelenting Barrage",
@@ -6981,7 +6990,8 @@
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 186
     },
     {
       "name": "Victory Rush",
