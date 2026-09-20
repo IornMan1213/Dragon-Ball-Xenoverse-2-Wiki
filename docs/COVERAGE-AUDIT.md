@@ -2765,3 +2765,8 @@ Skills commit: `1886f89930480d65b2bd47db6c2f87ca1f8d5dd3`.
 ## 2026-09-19 — null-floor verification batch 22
 
 Re-checked the remaining unresolved skill records against current public skill/character references. No additional `source_quest` values were promoted: **Emperor's Edge** remains multi-source (PQ99 and TP Medal Shop), while **Pressure Sign**, **Namek Finger**, **Final Pose**, and related records are documented as character/shop routes rather than a single canonical quest. The late-DLC PQ evidence continues to support the previously resolved PQ173/PQ174 entries. This preserves provenance rather than assigning a misleading quest to a multi-source or character-only record. citeturn0search0turn1search3turn1search4
+
+
+## 2026-09-19 — targeted null review batch 23
+
+Targeted the remaining records whose metadata references PQ171/PQ172, PQ99, or PQ91. No safe promotion was made: **Divine Spear, Crimson Edge, and Wild Stinger** are explicitly characterized as character skills despite PQ reward context; **Emperor's Edge** and **Final Kamehameha** have multiple acquisition routes. The remaining nulls are predominantly shop-only, character-only, or starting-choice records. No repository data was changed in this pass.
