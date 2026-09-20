@@ -3155,5 +3155,5 @@ Only after data-completeness work, expose the improved structured research surfa
 - Current maintained PQ44 evidence explicitly lists God Breaker under **Basic Reward**; dedicated skill documentation confirms PQ44 acquisition. The canonical and index records now use the explicit Basic Reward classification rather than generic random-PQ wording.
 - Exact individual reward probability remains unresolved, and no Ultimate Finish-only requirement was inferred.
 - Commits: `90d7773f9357e945ac1867c7ed58d508a892777b` (canonical), `5769a063184ba6e5489cd74bcbddd9098feb7889` (index), `c9c4c3592d581a72ca7e683903345515c21cf6d9` (audit).
-- Web cross-check: current PQ44 documentation lists God Breaker in Basic Reward; dedicated skill documentation identifies PQ44 as its acquisition route. citeturn0search0turn0search13
+- Web cross-check: current PQ44 documentation lists God Breaker in Basic Reward; dedicated skill documentation identifies PQ44 as its acquisition route. 
 - Exact next task: continue the bounded P1 provenance audit on the remaining generic/random records, prioritizing **Bluff Kamehameha, Final Cannon, Side Bridge, and Steel Mirage**, and only promote a gate when explicit maintained drop-condition evidence supports it.
