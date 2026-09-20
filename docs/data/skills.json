@@ -1343,7 +1343,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward",
+      "unlock_method": "Parallel Quest 39 — \"17 and 18 of the Official History\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 39",
       "ultimate_finish_required": false,
       "skill_description": "Side Bridge is a Ki Blast Super Skill associated with Android 17.",
@@ -1359,7 +1359,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 39",
       "acquisition_type": "quest_or_mission",
-      "notes": "Reconciled 2026-09-20: Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward based on current reward evidence. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Spread Shot Retreat",
@@ -1400,7 +1400,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Random Reward",
+      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Basic Reward",
       "source_quest_or_shop": "PQ165",
       "ultimate_finish_required": false,
       "skill_description": "Steel Mirage is a Ki Blast Super Skill associated with Android 18.",
@@ -1416,7 +1416,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 165",
       "acquisition_type": "quest_or_mission",
-      "notes": "Reconciled 2026-09-20: Parallel Quest 165 — \"Anniversary Antics\" Random Reward based on current reward evidence. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Final Pose",
@@ -1735,7 +1735,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random reward from Parallel Quest 94 — \"Ultimate Power, Ultimate Saiyan\"",
+      "unlock_method": "Parallel Quest 94 — \"Ultimate Power, Ultimate Saiyan\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 94",
       "ultimate_finish_required": false,
       "skill_description": "Bluff Kamehameha is a Super Ki Blast skill associated with Hercule.",
@@ -1751,7 +1751,7 @@
       "source_quest": 94,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation and Dragon Ball technique documentation explicitly describe Bluff Kamehameha as randomly obtained from PQ94; no specific Basic/Ultimate Finish tier is inferred. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Breaker Energy Wave",
@@ -2465,7 +2465,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 52 — \"Super Saiyan Bargain Sale\" Random Reward",
+      "unlock_method": "Parallel Quest 52 — \"Super Saiyan Bargain Sale\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 52",
       "ultimate_finish_required": false,
       "skill_description": "Final Cannon is a Super Ki Blast skill associated with Android 16.",
@@ -2482,7 +2482,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 52",
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Final Flash (Super)",
