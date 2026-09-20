@@ -3524,3 +3524,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Evidence limitation: this pass verifies acquisition provenance, not the full reward/drop mechanics of the remaining partial cohort.
 - Current unresolved skill verification: **65 partially verified** records remain; broader catalog reconciliation items for Frieza Race Skills and Lovely Showtime remain open.
 - Exact next task: **continue deterministic acquisition/Ultimate Finish verification through the remaining partially verified cohort**, starting with explicit PQ Basic Reward or Skill Shop/mentor evidence; recompute the live census before the next batch and preserve unresolved/conflicting evidence.
+
+
+### 2026-09-20 continuation — explicit PQ unlock verification
+- Promoted **God of Destruction's Poise** (PQ175), **Meteor Strike** (PQ06), and **Neo Wolf Fang Fist** (PQ86) from partial to verified.
+- Evidence: current Xenoverse 2 skill pages explicitly identify each Parallel Quest as its unlock source. The maintained audit already had these skills outside an Ultimate Finish-only condition; no unsupported UF requirement was added. cite references were not copied into repository artifacts.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **142 verified / 62 partially verified** across the 283-record census.
+- Validation: canonical/index/audit were parsed and synchronized; no validator was weakened and no internal tool/citation markup was written into repository data.
+- Evidence note: **Power Impact** was deliberately not promoted in this batch because its current skill page classifies it as a Ki Blast Super while the canonical record currently carries a Strike classification; acquisition is clear, but the classification discrepancy should be reconciled separately rather than silently bundled into a verification promotion.
+- Next task: continue deterministic acquisition verification through the remaining 62 partial records, prioritizing current skill pages with explicit unlock statements and preserving classification/drop-condition conflicts for separate reconciliation.
