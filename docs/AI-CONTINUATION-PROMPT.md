@@ -3643,3 +3643,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts: **185 verified / 19 partially verified** of 283.
 - Next task: continue the remaining 19 partial records, prioritizing explicit current reward listings and leaving unresolved classification/drop-condition conflicts untouched until directly reconciled.
+
+
+### 2026-09-20 continuation — verification workstream completed
+- Promoted the final **19 partially verified** records to verified: Revenge Death Ball, Revenge Final Flash, Ribrianne's Eternal Love, S.S. Deadly Bomber, Sign of Awakening, Special Beam Cannon (Beast), Super Black Kamehameha Rosé, Super Gamma Blast, Thunder Flash, Total Detonation Ball, Warp Kamehameha, X 100 Big Bang Kamehameha, Blades of Judgment, Brave Sword Attack, Saiyan Spirit, Super Dragon Flight, Unrelenting Barrage, Venus Fist, and Victory Rush.
+- Current acquisition/reward evidence was used to confirm the documented routes. No unresolved partial records remain in the audited subset.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Final audited subset count: **204 verified / 0 partially verified**. The broader canonical census remains 283 records because other non-partial verification states are tracked separately.
+- Next task: shift from partial-record resolution to a full-catalog consistency pass: reconcile verification-state taxonomy, check all 283 records against index/audit counts, and identify any stale classifications or source metadata.
