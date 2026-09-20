@@ -3341,3 +3341,15 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Verified `Earth Splitting Galick Gun` (PQ11), `Burst Stinger` (PQ136), and `Raid Blast` (PQ136) from explicit Ultimate Finish reward evidence.
 - Synchronized canonical/index verification metadata.
 - Next task: continue the partially verified PQ cohort, prioritizing records with explicit reward-condition evidence while avoiding ambiguous RNG/character-drop claims.
+
+
+### 2026-09-19 cycle update — Ki Blast Super live reconciliation: Burst Stinger
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup and canonical catalog reconciliation.
+- Files/records changed: `docs/data/skills.json`, `docs/data/skill-catalog-batches/ki-blast-supers.json`, `docs/data/skill-catalog-audit.json`, `docs/data/skill-reconciliation-queue.json`, and this handoff.
+- Research performed: verified against the live Fandom Ki Blast Super category that Burst Stinger is explicitly listed despite the category header reporting only 183 items. The dedicated Burst Stinger page records it as a 100-Ki Ki Blast Super from PQ136; the maintained Steam PQ guide lists it among PQ136 Basic Rewards; a GameFAQs DLC9 post describes a Goku (Ultra Instinct) Ultimate Finish character-drop route. The Dragon Ball Wiki technique list and the skill-specific Fandom page associate Burst Stinger with Vegeta (Super Saiyan God). These differing character/reward-slot claims are now preserved as an explicit unresolved conflict in the canonical record.
+- Changes: added Burst Stinger to the Ki Blast Super batch, raising the repository's observed batch count from 183 to 184; updated the audit's live batch total from 561 to 562; kept the source-count discrepancy open; updated the reconciliation queue.
+- Evidence limitations: the source category's **183-item count conflicts with its visible item list**, so no authoritative count correction was claimed. The character attribution/reward-slot evidence for Burst Stinger is also conflicting and was not silently resolved.
+- Validation: modified JSON files were parsed successfully before writes; no validator was weakened or changed. The canonical Burst Stinger record now uses the permitted `conflict` verification status and records source-level claims.
+- CI status: inspect the push-triggered validation workflows for the resulting commit. Prior opaque pre-step failures remain infrastructure/account signals unless actionable logs appear.
+- Current unresolved skill reconciliation: Ki Blast Super source-count/set-diff and Burst Stinger attribution remain open; Frieza Race Skills and Lovely Showtime remain open.
+- Exact next task: **complete the live Ki Blast Super source-vs-repository set diff**, then continue the next bounded acquisition/provenance cohort and recompute the canonical skill census before editing.
