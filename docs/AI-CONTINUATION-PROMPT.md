@@ -3189,3 +3189,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical and index now use `Parallel Quest 135 — "The Ultimate Hero" Basic Reward` with `ultimate_finish_required=false`. Exact reward slot/probability remains unresolved; no unsupported gate was inferred.
 - Commits: `ee9334ef7b267506b68727d25e1ffb5fea943cf0` (canonical), `7c46af76a315790fbc2c3be24a44091178e6af25` (index), plus the audit update above.
 - Exact next task: continue scanning remaining `ultimate_finish_required=true` records whose normalized PQ evidence lacks an explicit Ultimate Finish condition, and correct only where the evidence supports it. Then rerun the canonical/index census and inspect exposed workflow/status data.
+
+
+### 2026-09-20 cycle update — Ultimate-Finish gate contradiction scan
+- Scanned the live canonical records currently marked `ultimate_finish_required=true` and compared their acquisition/notes against the maintained PQ reward normalization.
+- The scan surfaced several historical source conflicts (including Celestial Wave, Ribrianne's Eternal Love, God of Destruction's Poise, Full Power Destruction, and others), but the current records already preserve the conflicting evidence rather than silently collapsing it. No additional correction was made where the repository lacks a stronger explicit drop-condition field.
+- Confirmed the recent Lovely Cyclone correction remains the appropriate handling: PQ135 confirms the skill-reward relationship, but no explicit UF-only condition is exposed by the normalized map.
+- GitHub commit status/workflow queries for the recent canonical/index commits did not expose usable status/run data; this is recorded as unavailable rather than treated as CI success or failure.
+- Exact next task: inspect the repository's explicit PQ drop-condition datasets for the remaining UF-flagged records and reconcile only records where those conditions directly support a gate. Then rerun the 283-record canonical/index census and handoff-integrity checks.
