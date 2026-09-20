@@ -2141,31 +2141,32 @@
     },
     {
       "name": "Dimension Cannon",
-      "class": "Super",
+      "class": "Evasive",
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Super Buu",
       "dlc_requirement": "Base Game",
-      "ki_cost": 300,
-      "stamina_cost": null,
+      "ki_cost": null,
+      "stamina_cost": 300,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 59",
+      "unlock_method": "Parallel Quest 59 — \"Potara Warrior\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 59 — \"Potara Warrior\"",
       "ultimate_finish_required": false,
-      "skill_description": "Dimension Cannon is a Super Ki Blast skill associated with Super Buu.",
-      "mechanics_notes": "Current indexed evidence confirms Dimension Cannon as a 300-Ki Ki Blast Super from PQ59. Exact drop gating and detailed numerical mechanics remain under research; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "skill_description": "Dimension Cannon is a Ki Blast Evasive Skill associated with Super Buu.",
+      "mechanics_notes": "300 Stamina Ki Blast Evasive. Fires a short-range Ki wave from the user's mouth; the current dedicated page documents six hits, knockback, and guard break when it connects against a blocking opponent. PQ59's maintained reward listing places Dimension Cannon in the Basic Reward section, so no Ultimate Finish-only gate is established. No narrower CaC race/gender/form restriction is established.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dimension_Cannon",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "source_quest": 59,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive."
     },
     {
       "name": "Divine Kamehameha",
@@ -2760,14 +2761,14 @@
       "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
-      "source_quest_or_shop": "PQ179 reward context",
+      "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" reward",
+      "source_quest_or_shop": "Parallel Quest 179 — \"24/7 Time Patrol\"",
       "ultimate_finish_required": false,
-      "skill_description": "Heat Wave is a Super Ki Blast skill associated with SS4 Goku (DAIMA).",
+      "skill_description": "Heat Wave is a Strike Super Attack associated with SS4 Goku (DAIMA).",
       "mechanics_notes": "Dedicated current-version evidence corrects Heat Wave to a **200-Ki Strike Super** from PQ179. It charges, repels Ki Blasts during its rush, and can break guard when fully charged. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2776,7 +2777,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 179,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 correction: canonical description now matches the verified Strike classification and PQ179 source; exact drop gating remains unresolved."
     },
     {
       "name": "Ill Bomber",
