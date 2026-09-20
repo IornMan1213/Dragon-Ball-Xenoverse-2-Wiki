@@ -3698,12 +3698,13 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_God_Fist",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Super_God_Fist"
       ],
       "unlock_method": "Parallel Quest 67 — Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Variant Drive",
@@ -3716,12 +3717,13 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dbxv2.fandom.com/wiki/Variant_Drive",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Variant_Drive"
       ],
       "unlock_method": "Parallel Quest 123 — Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Wild Stinger",
@@ -3817,12 +3819,13 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Chain_Destructo_Disc"
       ],
       "unlock_method": "Parallel Quest 46 — \"16 of the Official History\" Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": null
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Chaotic Time Impact",
