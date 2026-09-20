@@ -3262,7 +3262,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
-      "source_quest": 81
+      "source_quest": 81,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Assault Vanish",
@@ -3593,7 +3594,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
-      "source_quest": 97
+      "source_quest": 97,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Quick Sleep",
@@ -4231,7 +4233,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "source_quest_or_shop": "Parallel Quest 44"
+      "source_quest_or_shop": "Parallel Quest 44",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Burning Swan",
@@ -4559,7 +4562,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "source_quest_or_shop": "Parallel Quest 21",
-      "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent."
+      "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent.",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Evil Whirlwind",
@@ -5205,7 +5209,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "source_quest_or_shop": "Parallel Quest 38",
-      "mechanics_notes": "100 Ki Strike Super from PQ38; sword-based strike technique associated with Trunks and restricted to the documented Human/Earthling and Saiyan CaC scope. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions."
+      "mechanics_notes": "100 Ki Strike Super from PQ38; sword-based strike technique associated with Trunks and restricted to the documented Human/Earthling and Saiyan CaC scope. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Shooting Strike",
@@ -6132,7 +6137,7 @@
       ],
       "usable_by_cac": true,
       "character_source": "Nail",
-      "dlc_requirement": null,
+      "dlc_requirement": "Base Game",
       "ki_cost": 300,
       "unlock_method": "Parallel Quest 20 - \"Frieza! Show Yourself!\"",
       "source_quest_or_shop": "Parallel Quest 20",
@@ -6464,7 +6469,8 @@
       "research_status": "enriched",
       "source_quest_or_shop": "Expert Mission 6",
       "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere.",
-      "source_quest": "Expert Mission 6 — The Depths of Despair"
+      "source_quest": "Expert Mission 6 — The Depths of Despair",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Teleporting Vanishing Ball",
