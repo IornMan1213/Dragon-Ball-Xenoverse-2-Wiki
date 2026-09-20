@@ -2697,3 +2697,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Enriched the three records' mechanics from dedicated skill documentation and retained unknowns where evidence conflicts.
 - Commit: `02dc1d7cec09d2816e20b9d657d87b7f0d274964c` (skills), `6b818a406c0ab8ba64713fef53cc0fce0b0d791b` (coverage audit).
 - Exact next task: continue the remaining current-scope audit, especially records with unresolved acquisition semantics or possible canonical type/cost mismatches; preserve conflicting evidence explicitly.
+
+
+### 2026-09-20 cycle update — concrete Basic Reward provenance
+- Refined **Burst Rush (PQ51)**, **Counter Burst (PQ75)**, **Dragon Burn (PQ82)**, and **Counter Impact (PQ153)** to use exact quest titles and explicit Basic Reward acquisition wording supported by the maintained all-PQ reward guide.
+- No drop probabilities or Ultimate Finish-only requirements were invented.
+- Commits: `b33b116342510d130e74bf07dbade46c293944b3` (skills), `92b99915cd42efd9514800fb5e53caad16223cb8` (coverage audit).
+- Exact next task: continue the current-scope audit, prioritizing records where concrete reward listings or stronger mechanics evidence can improve canonical data; preserve unresolved conflicts.
