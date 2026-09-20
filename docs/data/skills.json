@@ -1667,7 +1667,7 @@
       "name": "Big Bang Knuckle",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": false,
+      "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan God) Ultra Supervillain",
       "dlc_requirement": "Future Saga Chapter 1",
       "ki_cost": 100,
@@ -1677,10 +1677,10 @@
       "source_quest_or_shop": "Parallel Quest 172",
       "ultimate_finish_required": false,
       "skill_description": "Big Bang Knuckle is a 100-Ki Strike Super associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Basic Reward acquisition is retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1688,8 +1688,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
       ],
       "source_quest": 172,
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged.",
-      "race_restriction": "Character-only",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged. Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive.",
+      "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission"
     },
     {
@@ -2201,7 +2201,7 @@
       "name": "Divine Spear",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "usable_by_cac": false,
+      "usable_by_cac": true,
       "character_source": "Goku Black (Super Saiyan Rosé) Ultra Supervillain",
       "dlc_requirement": "Future Saga Chapter 1",
       "ki_cost": 200,
@@ -2211,18 +2211,18 @@
       "source_quest_or_shop": "Parallel Quest 171",
       "ultimate_finish_required": false,
       "skill_description": "Divine Spear is a Super Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
-      "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Basic Reward acquisition is retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "Character-only",
+      "race_restriction": "All CaC races",
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive."
     },
     {
       "name": "Double Death Slicer",
@@ -4653,7 +4653,7 @@
       "name": "Crimson Edge",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": false,
+      "usable_by_cac": true,
       "character_source": "Goku Black (Super Saiyan Rosé) Ultra Supervillain",
       "dlc_requirement": "Future Saga Chapter 1",
       "ki_cost": 100,
@@ -4663,18 +4663,18 @@
       "source_quest_or_shop": "Parallel Quest 171",
       "ultimate_finish_required": false,
       "skill_description": "Crimson Edge is a Super Strike skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
-      "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Basic Reward acquisition is retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "Character-only",
+      "race_restriction": "All CaC races",
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive."
     },
     {
       "name": "Deadly Dance",
