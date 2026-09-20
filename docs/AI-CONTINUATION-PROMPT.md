@@ -3566,3 +3566,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - PQ78 acquisition remains unchanged.
 - Commit: `06dfd39bfe6a661d31d85921f5f2b14acc0ae6fd`.
 - Next task: continue auditing the remaining current-scope records for stale category/damage metadata and description mismatches. Only normalize fields when the evidence is explicit enough to support the change. Do not add citation markup/tool identifiers to repository files.
+
+
+### 2026-09-20 cycle update — stale description cleanup
+- Continued the current-scope audit and found two records whose descriptions still contradicted already-reconciled class metadata.
+- **Side Bridge:** description corrected to Ki Blast Super, matching its verified Super/Ki Blast classification and existing mechanics note.
+- **Steel Mirage:** description corrected to Ki Blast Super, matching its verified Super/Ki Blast classification and existing mechanics note.
+- Commit: `2a322ef065aa83223087c2893cc78e415f8b84a7`.
+- Next task: continue the same stale-description and metadata-consistency audit across the remaining current-scope records; do not change classifications without sufficiently specific evidence.
