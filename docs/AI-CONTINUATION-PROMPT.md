@@ -3551,3 +3551,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - **Force Shield:** corrected `damage_type` from `Other` to `Ki Blast` and tightened its skill description/mechanics note; its Evasive class and PQ59 acquisition remain unchanged.
 - Commit: `c73d88d28e36c8cc3f1468b358329931b25a59c5`.
 - Next task: continue the same 78-record class/damage audit, looking for similarly conflated variant records and only changing fields with direct evidence. Do not add citation markup/tool identifiers to repository files.
+
+
+### 2026-09-20 cycle update — Evasive description consistency
+- Rechecked the remaining class/subcategory candidates against current skill-reference evidence. The Evasive Skill index explicitly lists Energy Field and Force Shield as Ki Blast Evasives, while Mighty Explosive Wave is separately listed as a cast-exclusive Evasive variation for Jiren (Full Power); the Future Warrior technique index likewise identifies Mighty Explosive Wave as a Super Skill. cite marker omitted from repository data.
+- **Energy Field:** corrected the stale skill description from “Ultimate Ki Blast skill” to “Ki Blast Evasive skill,” matching the record's Evasive class and current reference evidence.
+- Commit: `6ebae0f5a990917c1395728980d2ccb3c2c6754e`.
+- Next task: continue the current-scope audit, prioritizing stale descriptions where class/subcategory is already verified, then investigate Dust Attack only if a sufficiently specific class source is found. Do not add citation markup/tool identifiers to repository files.
