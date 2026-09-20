@@ -2917,3 +2917,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved **Divine Ray Bomb → PQ173** and **Final Rampage → PQ174** from explicit public reward listings. Skills commit: `1886f89930480d65b2bd47db6c2f87ca1f8d5dd3`; coverage audit commit: `0960849e181fcce06414e49dd9ac7e1cca99c0c1`.
 - Live census: 283 records; `source_quest` null on 35 records.
 - Next task: re-check the remaining nulls for explicit PQ reward listings. Keep multi-source/shop combinations and character-only records null unless a single canonical quest source is established.
+
+
+### 2026-09-19 continuation — null-floor verification batch 22
+- Re-checked remaining nulls against current public skill/character references; no additional `source_quest` values were safely promotable in this pass.
+- Keep multi-source entries such as Emperor's Edge null, and keep character-only/shop-only routes null unless a single canonical quest/test/lesson is established.
+- Previous resolved late-DLC entries (including PQ173 Divine Ray Bomb and PQ174 Final Rampage) remain in place.
+- Coverage audit commit: `aa1b3cbc4b89c103e12ad398a2144696dd88049f`.
+- Next task: continue targeted research of the remaining 35 nulls, prioritizing any record whose acquisition metadata names a specific PQ or quest rather than generic shop/character routes.
