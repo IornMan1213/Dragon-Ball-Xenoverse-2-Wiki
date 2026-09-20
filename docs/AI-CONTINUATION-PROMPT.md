@@ -3651,3 +3651,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Final audited subset count: **204 verified / 0 partially verified**. The broader canonical census remains 283 records because other non-partial verification states are tracked separately.
 - Next task: shift from partial-record resolution to a full-catalog consistency pass: reconcile verification-state taxonomy, check all 283 records against index/audit counts, and identify any stale classifications or source metadata.
+
+
+### 2026-09-20 continuation — full 283-record consistency pass
+- Audited the complete `skills.json` census against `skills-index.json`.
+- Both files contain **283 unique skill records** with no duplicate names and no missing canonical/index records. All shared synchronization fields (`verification_status`) reconcile. The index intentionally does not carry canonical `last_verified` timestamps, so those canonical-only fields are not treated as mismatches.
+- Final verification-state distribution: **204 verified**, **78 verified_current_scope**, **1 conflict**, **0 partially_verified**.
+- The sole unresolved conflict is **Burst Stinger**: PQ136 acquisition is established, but available evidence disagrees on character attribution (Goku (Ultra Instinct) versus Vegeta (Super Saiyan God)). The canonical record preserves both claims rather than inventing a resolution.
+- Updated `skill-catalog-audit.json` to mark the partial-verification workstream complete and the canonical/index synchronization complete.
+- Files changed this pass: `docs/data/skill-catalog-audit.json` and this handoff.
+- Next task: investigate the remaining Burst Stinger provenance conflict, then perform broader stale-source/metadata and validation checks across the 283-record catalog.
