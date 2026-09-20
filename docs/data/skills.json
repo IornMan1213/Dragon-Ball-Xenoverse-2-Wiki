@@ -3471,14 +3471,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Random reward from Parallel Quest 153 — \"A Power-Bearing Fusion!\"",
       "source_quest_or_shop": "PQ153",
       "ultimate_finish_required": false,
       "skill_description": "Wild Buster is a Super Ki Blast skill used by Vegeta (GT).",
       "mechanics_notes": "Confirmed as Vegeta (GT)'s 100-Ki Ki Blast Super from PQ153. Exact drop gating and some numerical mechanics remain bounded. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wild_Buster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3487,7 +3487,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 153,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred."
     },
     {
       "name": "Afterimage",
@@ -3741,17 +3741,17 @@
       "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 116 — \"A Dance of Swords\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 116",
       "ultimate_finish_required": false,
       "skill_description": "Hero's Flute is a Super Other skill that creates a protective barrier around the user while playing Tapion's flute.",
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "source_quest": 116,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Hero's Flute in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Instant Charge",
@@ -4550,14 +4550,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 116 — \"A Dance of Swords\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 116",
       "ultimate_finish_required": false,
       "skill_description": "Brave Sword Slash is a Super Strike skill associated with Tapion.",
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Strike Super from PQ116, usable by CaCs. Tapion draws the Brave Sword and performs a long-range sword slash; it is one of Tapion's Future Warrior-compatible sword skills. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -4567,7 +4567,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 116,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
+      "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Brave Sword Slash in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Burning Slash",
@@ -4714,14 +4714,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 23 — \"Dueling Makes the Heart Grow Fonder\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 23",
       "ultimate_finish_required": false,
       "skill_description": "Death Slash is a Super Strike skill associated with Frieza.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Slash",
@@ -4730,7 +4730,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 23,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence. 2026-09-19 verification: The live all-PQ reward guide lists Death Slash as a Basic Reward for PQ23. This is an explicit concrete PQ source."
+      "notes": "2026-09-20 audit: PQ23 reward listings explicitly place Death Slash in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Demon Flurry",
@@ -4742,14 +4742,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Random reward from Parallel Quest 160 — \"Pan in Peril\"",
       "source_quest_or_shop": "PQ160",
       "ultimate_finish_required": false,
       "skill_description": "Demon Flurry is a Super Strike skill used by Gohan (Beast).",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flurry",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4758,7 +4758,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 160,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ160 and describes Demon Flurry as a random Parallel Quest reward; no specific reward tier is inferred."
     },
     {
       "name": "Demonic Destruction",
@@ -4770,14 +4770,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Random reward from Parallel Quest 159 — \"The Fiendish Super Saiyan\"",
       "source_quest_or_shop": "PQ159",
       "ultimate_finish_required": false,
       "skill_description": "Demonic Destruction is a Super Strike skill used by Orange Piccolo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4786,7 +4786,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred."
     },
     {
       "name": "Destruction's Conductor",
@@ -4798,14 +4798,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 106 — \"A Destructive Showdown\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 106",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Conductor is a Super Strike skill associated with Champa.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Conductor",
@@ -4814,7 +4814,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
+      "notes": "2026-09-20 audit: PQ106 reward listings explicitly place Destruction's Conductor in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Dragon Spark",
@@ -5050,14 +5050,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 29 — \"The Dangerous Duo! Warriors Never Rest\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 29",
       "ultimate_finish_required": false,
       "skill_description": "Freedom Kick is a Super Strike skill associated with Android 17.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Freedom_Kick",
@@ -5066,7 +5066,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: existing skill-page and reference corpus corroborate the recorded PQ acquisition route. Ultimate Finish requirement remains false because no UF-only condition is established by the cited evidence. 2026-09-19 verification: The live all-PQ reward guide lists Freedom Kick as a Basic Reward for PQ29. This is an explicit concrete PQ source."
+      "notes": "2026-09-20 audit: PQ29 reward listings explicitly place Freedom Kick in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Gamma Impact",
