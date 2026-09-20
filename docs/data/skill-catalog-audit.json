@@ -51,6 +51,9 @@
     "2026-09-19: Burst Stinger was present in canonical skills.json but absent from the Ki Blast Super catalog batch. It is now present; the batch declares and contains 183 names. The source category also reports 183, but the pre-change batch contained only 182 actual names, so at least one additional source-vs-repository set-diff gap remains.",
     "2026-09-19: Burst Stinger character attribution remains unresolved: GameFAQs attributes a PQ136 Ultimate Finish character drop to Goku (Ultra Instinct), while Xenoverse 2 Fandom and Dragon Ball Wiki associate the skill with Vegeta (Super Saiyan God). Canonical data preserves the conflict.",
     "2026-09-19: Rough Ranger promoted to verified after cross-source confirmation of its PQ119 Ultimate Finish acquisition. Dragon Ball Wiki states it is a random Future Warrior reward in PQ119 after Ultimate Finish; GameFAQs PQ119 notes place Rough Ranger in the quest reward set.",
-    "2026-09-19: Closed the Ki Blast Super catalog set-diff. The live Fandom category currently exposes exactly 183 names, and the repository batch contains exactly the same 183 names; no source-only or repository-only names remain. Burst Stinger remains in the set and its separate character-attribution conflict remains unresolved."
-  ]
+    "2026-09-19: Closed the Ki Blast Super catalog set-diff. The live Fandom category currently exposes exactly 183 names, and the repository batch contains exactly the same 183 names; no source-only or repository-only names remain. Burst Stinger remains in the set and its separate character-attribution conflict remains unresolved.",
+    "2026-09-19: Verified Handy Canon (PQ115), Ill Bomber (PQ90), Stone Bullet (PQ56), and Super Donut Volley (PQ55) from explicit Basic Reward evidence; canonical/index records synchronized and Ultimate Finish requirement remains false."
+  ],
+  "partially_verified_count": 141,
+  "verified_count": 63
 }
