@@ -2791,3 +2791,10 @@ Skills commit: `62d434b84aecf89d5f408b0c024243aff6714e24`.
 Promoted **Explosive Wave → PQ05**. The quest reward listing explicitly includes Explosive Wave as a basic reward for PQ05, establishing a concrete quest identifier even though the skill is also sold in the Skill Shop. citeturn1search9turn1search0
 
 Skills commit: `53ca434c6573151b3e5b2bf8f9a061f21d2db072`.
+
+
+## 2026-09-19 — explicit multi-source PQ reward batch 27
+
+Promoted **Emperor's Edge → PQ99** and **Final Kamehameha → PQ91**. Both have documented non-PQ acquisition routes as well, but the maintained PQ reward guide explicitly lists each as a basic reward for a single named quest, making the quest provenance concrete. citeturn2search6turn3search0turn3search1
+
+Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
