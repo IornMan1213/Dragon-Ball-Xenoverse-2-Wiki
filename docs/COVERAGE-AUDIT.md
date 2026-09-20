@@ -3790,3 +3790,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Post-change generic PQ census: **0** vague PQ acquisition records under the audit definition; all remaining PQ acquisition text has an explicit reward tier, UF condition, first/normal-clear qualifier, or documented provenance conflict.
 - Validation: canonical/index **283 records**, exact name/order parity, UF count **60**.
 - Commits: canonical `b00b0f51d81b2d1c0855a2fa651695345c68e9e8`; index `5e83374750e5823de7bb963ef063e4610ca43144`.
+
+
+## 2026-09-20 — non-PQ quest/mission provenance normalization
+- Normalized **18** non-PQ acquisition records whose maintained source was already deterministic but whose `unlock_method` was overly terse: mentor routes now identify the available lesson/test where established, Advancement Test rewards are labeled by class, and Expert Mission routes include mission titles while preserving unresolved reward-generation conditions.
+- Updated: Shadow Crusher; Time Skip/Back Breaker; Time Skip/Flash Skewer; Time Skip/Jump Spike; Rise to Action; Dancing Parapara; Instant Transmission; Energy Charge; Full Power Charge; Maximum Charge; Data Input; Death Ball; Super Spirit Bomb; Supernova; Darkness Rush (Melee); Darkness Rush (Ranged); Galick Gun.
+- No Ultimate Finish-only gates were inferred for these non-PQ routes.
+- Validation: canonical/index 283 records, exact name/order parity, UF count 60.
+- Commits: canonical `7ebfb7ac500d8646abc63ceab8ab494863827c8b`; index `82f2ca25bd81a9694999c8bce27be53f1f3d3795`.
