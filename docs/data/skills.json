@@ -281,7 +281,6 @@
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
-        "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=2832908819",
         "https://www.reddit.com/r/dbxv/comments/1ut3fc0/the_power_to_overcome_stats/"
       ],
@@ -335,8 +334,7 @@
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Beast",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Beast"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken.",
       "source_quest": "Beast unlock chain",
@@ -364,8 +362,7 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kaioken",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Kaioken"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain.",
       "source_quest": "Parallel Quest 8 — Invade Earth",
@@ -392,8 +389,7 @@
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Potential_Unleashed"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction.",
       "source_quest": "Final Advancement Test",
@@ -513,8 +509,7 @@
       "last_verified": "2026-09-19",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Ultra_Instinct"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior.",
       "source_quest": "Ultra Instinct unlock route",
