@@ -1,4 +1,5 @@
 name: Skills schema validation
+# Dedicated CI gate for the canonical skills schema and validator.
 
 on:
   push:
