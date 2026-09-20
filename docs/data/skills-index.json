@@ -262,7 +262,8 @@
       "unlock_method": "Complete Parallel Quest 8, 'Invade Earth', with an Ultimate Finish.",
       "ultimate_finish_required": true,
       "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict."
     },
     {
       "name": "Potential Unleashed",
@@ -1600,7 +1601,8 @@
       "unlock_method": "Parallel Quest 114 — \"The Majin Revival Plan\" Ultimate Finish",
       "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict."
     },
     {
       "name": "Evil Flame",
@@ -3425,7 +3427,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance correction: maintained PQ135 normalization explicitly includes Lovely Cyclone; no explicit Ultimate Finish-only condition is exposed, so the canonical UF flag is false and exact reward slot/probability remains unresolved."
+      "notes": "2026-09-20 provenance correction: maintained PQ135 normalization explicitly includes Lovely Cyclone; no explicit Ultimate Finish-only condition is exposed, so the canonical UF flag is false and exact reward slot/probability remains unresolved. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict."
     },
     {
       "name": "Mach Punch",
@@ -4816,7 +4818,8 @@
       "unlock_method": "Parallel Quest 122 Ultimate Finish reward",
       "ultimate_finish_required": true,
       "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict."
     },
     {
       "name": "Saiyan Spirit",
