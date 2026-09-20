@@ -3295,3 +3295,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Canonical skill data commit: `3d59895e88f0a0b15705b7fefcb5aa523beb8c91`.
 - External evidence: the maintained 186-PQ guide lists Supreme Fury under PQ179 Basic Reward; a separate current discussion describes it as a 100-Ki counter, but that discussion is not used to infer any drop probability. 
 - Next: continue the remaining record-level evidence-gap audit, prioritizing acquisition/drop semantics and mechanics where current sources are specific enough to resolve them.
+
+
+## 2026-09-20 — Current-scope evidence refinement: Power to Overcome / Sudden Death Beam
+
+- **The Power to Overcome:** rechecked current 2026 sources. The core modifiers are consistently supported at Stage 1 +20% defense/+5% speed and Stage 2 +15% basic/+30% Strike-Ki Super, with ~12-second Unleashed duration. Conflicting current measurements remain for exact Stage 1 defense (20% vs 25%), Stage 2 speed (+10% vs +15%), cooldown (~24 vs ~30 seconds), and HP regeneration (~1 bar/60 vs ~1 bar/65 seconds). The record now states those conflicts explicitly rather than implying a single exact value.
+- **Sudden Death Beam:** upgraded acquisition provenance with Bandai Namco's official content-update schedule, which explicitly lists the skill in the TP Medal Shop rotation. Current skill documentation also retains STP Medal Shop and Double Crystal Raid Battle as routes. The mechanics note now records the documented Instant Transmission counter/evasive behavior without relying on character-specific users as race restrictions.
+- Canonical data commit: f30d937292044d748d5213d6f84de5a1cbdf1334.
+- No unsupported drop probability or false-precision mechanics were added.
