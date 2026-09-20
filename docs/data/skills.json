@@ -807,15 +807,18 @@
       "name": "Rough Ranger",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rough_Ranger",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Rough_Ranger",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437?page=2"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest reward (PQ119 Ultimate Finish)",
+      "unlock_method": "Random reward in Parallel Quest 119 — \"A Ranger's Duty\" after achieving the Ultimate Finish.",
       "source_quest": 119,
       "ultimate_finish_required": true,
       "usable_by_cac": true,
@@ -823,7 +826,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current dedicated evidence confirms Rough Ranger as a 100-Ki Strike Super, universal counter, from PQ119. Android 17 (DB Super) is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "mechanics_notes": "100 Ki Strike Super counter. The user braces for an incoming attack; Strike attacks trigger a kick, while Ki Blast attacks trigger an energy barrier. Current source evidence confirms the PQ119 Ultimate Finish acquisition route.",
       "acquisition_type": "quest_or_mission",
       "notes": ""
     },
