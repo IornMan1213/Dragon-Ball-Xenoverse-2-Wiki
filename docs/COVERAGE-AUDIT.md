@@ -3199,3 +3199,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Corrected `Sudden Death Beam` from a quest-based acquisition classification to `tp_medal_shop`.
 - Canonical provenance is now `TP Medal Shop / STP Medal Shop / Double Crystal Raid`, with no `source_quest`.
 - Current external evidence explicitly lists all three acquisition routes; no PQ provenance was inferred. 
+
+
+## 2026-09-19 — Acquisition-type consistency audit
+
+- Rechecked the canonical 283-skill dataset after the Sudden Death Beam correction.
+- `quest_or_mission` records: 0 missing `source_quest`.
+- Non-`quest_or_mission` records: 0 carrying a non-null `source_quest`.
+- Acquisition-type counts were recomputed from the canonical data; no additional deterministic route mismatch was found in this pass.
