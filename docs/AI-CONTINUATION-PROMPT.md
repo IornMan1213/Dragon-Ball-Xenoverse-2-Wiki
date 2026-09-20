@@ -2870,3 +2870,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: `skills.json` parses successfully; regenerated `skills-index.json` parses successfully and contains 283 records. No unsupported Ultimate Finish gate or drop probability was introduced.
 - Evidence conflict: Emperor's Cannon has a current dedicated-page PQ184 claim versus a maintained PQ reward-table PQ183 listing; preserve this conflict until stronger primary/in-game evidence resolves it.
 - Exact next task: continue the generic acquisition audit for remaining `Parallel Quest reward` / `Random Parallel Quest reward` records, prioritizing cases where maintained PQ reward tables can establish a concrete quest and reward tier.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch
+- Refined **Demon Flash Strike** to PQ160 Ultimate Finish bonus using current PQ160 reward data; refined **Atomic Blast** to PQ87; refined **Burning Attack** to PQ41 Basic Reward; refined **God Punisher** to PQ132 while intentionally leaving reward tier generic where evidence was insufficient.
+- Re-synchronized `docs/data/skills-index.json` from canonical `skills.json`; 283 records remain.
+- Commits: `24c8f78e26e2db4868d6b342a1c42b7eea54a16d` (canonical refinements), `843456d5433122cd234e4514a67d24321ff9f387` (index sync), `7c74419c8613f3510cc19cd1cd42f968d82c82b6` (coverage audit).
+- Evidence rule followed: no unsupported reward tier or drop probability was inferred; where sources only established the quest number, the record stays explicitly generic.
+- Exact next task: continue remaining generic PQ acquisition records, prioritizing known quest numbers with unresolved reward tiers, then records with explicit source conflicts.
