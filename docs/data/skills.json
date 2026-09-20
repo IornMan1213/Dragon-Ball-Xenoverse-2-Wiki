@@ -2597,21 +2597,21 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Random reward from Parallel Quest 163 — \"Broly the Invader\"",
       "source_quest_or_shop": "PQ163",
       "ultimate_finish_required": false,
       "skill_description": "Giant Cluster is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Giant_Cluster",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Giant Cluster as a random Parallel Quest reward; no specific reward tier is inferred.",
       "source_quest": "Parallel Quest 163",
       "acquisition_type": "quest_or_mission"
     },
@@ -3014,14 +3014,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 139 — \"Goku and Vegeta's Training\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 139",
       "ultimate_finish_required": false,
       "skill_description": "Photon Swipe is a Super Ki Blast skill associated with Toppo.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ139. It is Toppo's Photon Swipe; exact drop/Ultimate Finish gating remains bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Photon_Swipe",
@@ -3032,7 +3032,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 139",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ139 reward listings explicitly place Photon Swipe in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Pretty Cannon",
@@ -3044,14 +3044,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 133 — \"The Ultimate Legendary Super Saiyan\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 133",
       "ultimate_finish_required": false,
       "skill_description": "Pretty Cannon is a Super Ki Blast skill associated with Ribrianne.",
       "mechanics_notes": "Confirmed as Ribrianne's 100-Ki Ki Blast Super from PQ133. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Pretty_Cannon",
@@ -3061,7 +3061,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 133",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ133 reward listings explicitly place Pretty Cannon in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Raid Blast",
@@ -3103,14 +3103,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 125 — \"Proof's in the Potara\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 125",
       "ultimate_finish_required": false,
       "skill_description": "Ray Blast is a Super Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Confirmed as Kefla's 100-Ki Ki Blast Super from PQ125. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ray_Blast",
@@ -3120,7 +3120,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 125,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ125 reward listings explicitly place Ray Blast in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Reverse Shot",
@@ -3132,14 +3132,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 123 — \"The Ultimate Battle of the Universe\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 123",
       "ultimate_finish_required": false,
       "skill_description": "Reverse Shot is a Super Ki Blast skill associated with Super Baby 2.",
       "mechanics_notes": "Confirmed as Super Baby 2's 100-Ki Ki Blast Super from PQ123. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Reverse_Shot",
@@ -3149,7 +3149,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 123,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ123 reward listings explicitly place Reverse Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Rolling Bullet",
@@ -3190,14 +3190,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 7 — \"Raditz's Attack Continues\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 07",
       "ultimate_finish_required": false,
       "skill_description": "Shine Shot is a Super Ki Blast skill associated with Vegeta.",
       "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Shine_Shot",
@@ -3206,7 +3206,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 7,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ7 reward listings explicitly place Shine Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Spirit Blaster",
@@ -3218,14 +3218,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 129 — \"Frieza Force on the Hunt\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 129",
       "ultimate_finish_required": false,
       "skill_description": "Spirit Blaster is a Super Ki Blast skill associated with SSGSS Gogeta.",
       "mechanics_notes": "Confirmed as SSGSS Gogeta's 100-Ki Ki Blast Super from PQ129. It fires tracking Ki Blasts followed by a cancellable barrage. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Blaster",
@@ -3235,7 +3235,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 129,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ129 reward listings explicitly place Spirit Blaster in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Spirit Bomb",
@@ -3272,14 +3272,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Random reward from Parallel Quest 151 — \"The Ultimate Battle of the Universe\"",
       "source_quest_or_shop": "PQ151",
       "ultimate_finish_required": false,
       "skill_description": "Spirit Pulse is a Super Ki Blast skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Confirmed as Goku (Ultra Instinct -Sign-)'s 100-Ki Ki Blast Super from PQ151. It is a slower single-shot variation of Soaring Fist; Ultra Instinct also uses Spirit Pulse as its fully charged Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3288,7 +3288,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ151 and describes Spirit Pulse as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred."
     },
     {
       "name": "Stone Bullet",
