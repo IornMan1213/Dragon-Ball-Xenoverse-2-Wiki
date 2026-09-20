@@ -2861,7 +2861,7 @@
       "unlock_method": "Parallel Quest 05 - \"Saiyan Blood\"",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Parallel Quest 05",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "usable_by_cac": true,
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ05 and usable by all CaC races. It has three charge levels.",
       "research_status": "enriched",
@@ -2869,7 +2869,7 @@
       "source_quest": "Parallel Quest 05",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
     },
     {
       "name": "Masenko",
@@ -3602,12 +3602,12 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki.",
       "source_quest": 97,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
     },
     {
       "name": "Dancing Parapara",
@@ -4914,7 +4914,7 @@
       "mechanics_notes": "PQ99 Basic Reward placement is explicitly documented in the maintained all-PQ guide; current Fandom data also lists TP Medal Shop. Neither source establishes Ultimate Finish as an acquisition requirement, so ultimate_finish_required=false.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Emperor's_Edge",
@@ -4925,7 +4925,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 99,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
     },
     {
       "name": "Evil Flight Strike",
@@ -5096,7 +5096,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 155 — I Need a Hero... Pose!. No Ultimate Finish-only requirement is established. 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained."
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 155 — I Need a Hero... Pose!. No Ultimate Finish-only requirement is established. 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained. 2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
     },
     {
       "name": "God of Destruction's Poise",
@@ -6661,7 +6661,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 20,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
     },
     {
       "name": "Prominence Flash",
@@ -6682,7 +6682,7 @@
       "mechanics_notes": "Chargeable Ki wave whose damage increases through repeated activations, up to a stated maximum. UF audit 2026-09-19: maintained PQ guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Prominence Flash in the Basic Reward section of Parallel Quest 137, establishing the acquisition route without an Ultimate Finish requirement.",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
-      "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted.",
+      "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted. 2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
       "race_restriction": "All CaC races",
       "source_quest": 137,
       "acquisition_type": "quest_or_mission"
@@ -7384,7 +7384,7 @@
       "mechanics_notes": "500 Ki; multi-stage rush/ground-impact sequence. Exact CaC acquisition/drop semantics remain under reconciliation because current public skill-page evidence emphasizes the character user.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -7392,7 +7392,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 174,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
     },
     {
       "name": "Gigantic Rage",
@@ -7411,7 +7411,7 @@
       "mechanics_notes": "200 Ki; close-range grab sequence with five hits and hard knockdown. Super Armor is documented for Broly's own use; it should not be generalized to CaC use without direct evidence. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -7421,7 +7421,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 130,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
     },
     {
       "name": "Godly Display",
@@ -7636,7 +7636,7 @@
       "source_quest": 89,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
     }
   ],
   "record_count": 283
