@@ -3065,3 +3065,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `597448724b3daaae3c4c3d225c590d6c2b05031f` (canonical), `deaa6409d24eec8e4963bb4d98bbb556540d30bc` (index), `a77234c3e471efde037b9cb7d916c017919ee981` (audit).
 - Web evidence: maintained PQ155 reward transcription and Dragon Ball Wiki's random-acquisition description. citeturn1search6turn2search1
 - Exact next task: continue the bounded P1 provenance audit for the next unresolved reward/acquisition discrepancy; do not promote a disputed drop slot to verified without stronger evidence.
+
+
+### 2026-09-20 cycle update — PQ155 Gamma skill provenance audit
+- Rechecked **Gamma Blaster** and **Gamma Impact** after Heroic Counter. The maintained PQ155 transcription explicitly lists both in the **Basic Reward** section; dedicated skill evidence confirms PQ155 acquisition but does not establish an Ultimate Finish-only gate.
+- Canonical/index metadata was refined with the additional provenance source and an explicit note that exact individual drop slots/probabilities remain unresolved.
+- Commits: `b51c2f1d67cf943c4b0e78c4982d0e82188060e3` (canonical), `82251a753256b90f31033e76230761ce7e3c8a88` (index), `667967c6ab68fd2ac338336a81d5405d4ebe2ea6` (audit).
+- Evidence: maintained PQ155 reward transcription and dedicated Dragon Ball Wiki skill documentation. citeturn0search2turn0search0
+- Exact next task: continue the bounded P1 provenance audit for the next unresolved reward/acquisition discrepancy, with special attention to skills whose canonical record says random acquisition while the maintained PQ corpus explicitly places them in Basic Reward.
