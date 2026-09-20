@@ -2867,3 +2867,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Completed 4 unambiguous single-PQ provenance records. Skills commit: `8d9342ddc48c74f75d5c2b36d309998e611f3af7`; coverage audit commit: `363ae0cdb2c17981215d68957ccea22717ef1ea4`.
 - Live census: 283 records; `source_quest` null on 89 records.
 - Next task: inspect the remaining null records for newly established single-PQ evidence. Current PQ-bearing nulls are mostly ambiguous/research cases (e.g. exact-drop gating, multi-PQ pools, character-only context, or shop combinations); do not promote those without stronger evidence. Also inspect null records whose acquisition metadata may identify a canonical quest without using a PQ number.
+
+
+### 2026-09-19 continuation — canonical quest provenance batch 14
+- Completed 10 canonical quest/training/wish provenance records beyond the PQ-only census. Skills commit: `2f70435b4f186dda23eae12d3a4c9149ea18dc07`; coverage audit commit: `d4b8dbe0bd9fee0ed9c94f0af0493a43f97725f8`.
+- Live census: 283 records; `source_quest` null on 79 records.
+- Next task: continue reviewing null records for canonical quest/training/story routes. Do not overwrite the provenance field with generic shop/mentor labels unless the schema evidence supports treating that route as a quest; keep character-only and unresolved acquisition records null.
