@@ -83,8 +83,9 @@
     "2026-09-20: Promoted Gigantic Explosion (PQ164) to verified. Current PQ guide explicitly lists it as a Basic Reward; Chaotic Time Impact (PQ184) remains partial because current canonical data says Ultimate Finish while the current PQ guide lists it as Basic Reward, requiring separate reconciliation.",
     "2026-09-20: Promoted Divine Ray Bomb (PQ173 Basic Reward), Emperor's Death Beam (TP Medal Shop), and Final Explosion (TP Medal Shop) to verified. Gigantic Breaker remains partial because its canonical class/description fields contain a Super-versus-Ultimate inconsistency; Sonic Bomb remains partial due conflicting Basic/Ultimate-Finish reward evidence.",
     "2026-09-20: Verified seven PQ acquisition records from current reward listings: Full Power Destruction (PQ177), Gigantic Breaker (PQ126), Gigantic Burst (PQ127), Gigantic Roar (PQ132), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), and Holy Wrath (PQ111). These are listed as Basic Rewards, so no Ultimate Finish requirement was retained for these acquisition routes.",
-    "2026-09-20: Resolved Chaotic Time Impact (PQ184) reward gating. Current PQ184 data identifies the skill as a 50% Ultimate Finish bonus reward, so the canonical UF requirement is retained and the record is now verified."
+    "2026-09-20: Resolved Chaotic Time Impact (PQ184) reward gating. Current PQ184 data identifies the skill as a 50% Ultimate Finish bonus reward, so the canonical UF requirement is retained and the record is now verified.",
+    "2026-09-20: Resolved Sonic Bomb (PQ105) reward gating. The maintained PQ105 reward table explicitly lists Sonic Bomb under Basic Reward; archived player discussion reported an Ultimate Finish belief but does not establish canonical reward gating. Canonical UF requirement remains false."
   ],
-  "partially_verified_count": 28,
-  "verified_count": 176
+  "partially_verified_count": 27,
+  "verified_count": 177
 }
