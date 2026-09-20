@@ -3415,7 +3415,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance correction: the maintained PQ135 reward normalization explicitly includes Lovely Cyclone in the quest skill-reward set, while the repository's prior Ultimate Finish flag lacked an explicit drop-condition source. The UF-only flag is removed; exact reward slot/probability remains unresolved."
+      "notes": "2026-09-20 provenance correction: maintained PQ135 normalization explicitly includes Lovely Cyclone; no explicit Ultimate Finish-only condition is exposed, so the canonical UF flag is false and exact reward slot/probability remains unresolved."
     },
     {
       "name": "Mach Punch",
