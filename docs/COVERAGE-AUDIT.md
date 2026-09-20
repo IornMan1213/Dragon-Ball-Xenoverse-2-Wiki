@@ -3348,3 +3348,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Change The Future** was refined to the exact PQ43 title/Basic Reward provenance while retaining its confirmed 100-Ki Ki Blast Super counter classification. citeturn1search0turn3view1
 - This pass demonstrates why canonical type/cost mismatches are being prioritized over adding weak descriptive detail. No unsupported drop probabilities were added.
 - Canonical data commit: `50100a6f782d6042716cffa66298cfa00f0a95bc`.
+
+
+## 2026-09-20 — Maiden Burst evidence refinement
+
+- Refined **Maiden Burst** to the exact **PQ92 — "Revenge of the Tuffle" Basic Reward** provenance.
+- Dedicated documentation confirms it as a **300-Stamina Ki Blast Evasive**, with a short-range forward explosive attack, knockback, and approximately 5% documented damage. The maintained PQ guide independently lists Maiden Burst in PQ92 Basic Reward. citeturn1search0turn1search2
+- No Ultimate Finish-only gate or unsupported CaC restriction was added.
+- Canonical data commit: `8aacc3faa0a40ecaed0c8521bd411410adaa2ffa`.
