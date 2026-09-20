@@ -274,3 +274,8 @@
 ## September 2026 — Skill DLC provenance refinement
 - Tightened four skill records from generic DLC wording to exact PQ-era provenance: **Flash Chaser → Ultra Pack 2**, **Photon Swipe → Ultra Pack 2**, **Pretty Cannon → Ultra Pack 1**, **Raid Blast → Ultra Pack 1**.
 - No gameplay or acquisition-condition fields were changed.
+
+
+## September 2026 — Super Pack 2 provenance refinement
+- Refined four DLC 2 skill records from broad `Super Pass` provenance to exact **Super Pack 2** provenance.
+- No gameplay, acquisition, or Ultimate Finish fields were changed.
