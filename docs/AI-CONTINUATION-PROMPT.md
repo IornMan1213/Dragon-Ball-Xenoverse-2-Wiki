@@ -3182,3 +3182,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - The normalized maps identify these as skill rewards but do not expose an explicit Basic/Ultimate-Finish tier for these individual entries. Existing acquisition wording and UF flags were therefore preserved rather than inferred or upgraded.
 - Commits: `d0c32432e15dbba16b09c2add007e2e67e1d9b4f` (canonical), `aa87195377cd757e0387beb8f3835a6f7b22c854` (index), `b7677898062a41940be53da2e53102dcb36dea7f` (audit).
 - Exact next task: inspect the remaining generic acquisition records and any explicit drop-condition datasets for discrepancies, then inspect exposed GitHub Actions/status data and rerun the canonical census. Preserve unresolved reward-tier uncertainty.
+
+
+### 2026-09-20 cycle update — Lovely Cyclone PQ135 gate correction
+- Reconciled **Lovely Cyclone** against the maintained PQ135 reward normalization. PQ135 explicitly includes Lovely Cyclone in its skill-reward set, but the repository's prior `ultimate_finish_required=true` state lacked an explicit maintained drop-condition basis.
+- Canonical and index now use `Parallel Quest 135 — "The Ultimate Hero" Basic Reward` with `ultimate_finish_required=false`. Exact reward slot/probability remains unresolved; no unsupported gate was inferred.
+- Commits: `ee9334ef7b267506b68727d25e1ffb5fea943cf0` (canonical), `7c46af76a315790fbc2c3be24a44091178e6af25` (index), plus the audit update above.
+- Exact next task: continue scanning remaining `ultimate_finish_required=true` records whose normalized PQ evidence lacks an explicit Ultimate Finish condition, and correct only where the evidence supports it. Then rerun the canonical/index census and inspect exposed workflow/status data.
