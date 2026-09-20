@@ -1785,11 +1785,11 @@
         "https://dragonball.fandom.com/wiki/Emperor%27s_Blast",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 70 - \"Things Are Getting Serious!\"; also available through TP Medal Shop rotation",
+      "unlock_method": "Parallel Quest 70 — \"Things Are Getting Serious!\" Basic Reward; also available through the TP Medal Shop",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ70 Basic Reward evidence independently confirms the quest acquisition, while current dedicated skill documentation identifies the move as a 100-Ki Ki Blast Super used by Frieza/Golden Frieza. TP Medal Shop availability is retained as an alternate acquisition route; no UF-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ70 Basic Reward evidence independently confirms the quest acquisition, while current dedicated skill documentation identifies the move as a 100-Ki Ki Blast Super used by Frieza/Golden Frieza. TP Medal Shop availability is retained as an alternate acquisition route; no UF-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Current evidence confirms Emperor's Blast as a 100-Ki Ki Blast Super associated with Hercule; the existing PQ70/TP Medal Shop acquisition record is retained. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 70
     },
@@ -2565,11 +2565,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 58 — \"Majin Banquet\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 58 — \"Majin Banquet\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "Majin (Pure Majin form)",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 58 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 58 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 58
     },
@@ -2662,11 +2662,11 @@
         "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
         "https://dragonball.fandom.com/wiki/Afterimage_Strike"
       ],
-      "unlock_method": "Parallel Quest 81 — \"Wake UP!\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 81 — \"Wake UP!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Other Super from PQ81 and usable by all CaC races. It creates an afterimage while moving and can transition into follow-up attacks. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "source_quest": 81
     },
@@ -2892,11 +2892,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai"
       ],
-      "unlock_method": "Parallel Quest 63 — \"Appetite for Destruction\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 63 — \"Appetite for Destruction\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Whis's 100-Ki Other Super from PQ63 and usable by all CaC races. It teleports the user to a selected ally/partner rather than the opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "source_quest": 63
     },
@@ -3178,11 +3178,11 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
       ],
-      "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super from PQ10, usable by all CaC races. The user teleports in front of an ally and absorbs incoming attacks while held; without an ally it targets the nearest opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "source_quest": 10
     },
@@ -3198,11 +3198,11 @@
         "https://dbxv2.fandom.com/wiki/Charge",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 83 — \"Dangerous Duo! Warriors Never Rest\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 83 — \"Dangerous Duo! Warriors Never Rest\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 83 as the acquisition route.",
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 83 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Goku's 100-Ki Power Up Super from PQ83. It is an early/intermediate Ki charging skill; detailed reward-roll conditions remain less certain than the PQ identity. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 83
     },
@@ -3255,11 +3255,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Do_or_Die"
       ],
-      "unlock_method": "Parallel Quest 49 — \"Namek Berserker\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 49 — \"Namek Berserker\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as 100-Ki PQ49 Power Up Super. It knocks back nearby enemies on activation and grants 10% damage reduction for 20 seconds. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 49
     },
@@ -3274,11 +3274,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E"
       ],
-      "unlock_method": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "source_quest": 19
     },
@@ -3293,11 +3293,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_H"
       ],
-      "unlock_method": "Parallel Quest 61 — \"The Cell Games Continued\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 61 — \"The Cell Games Continued\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 61 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 61 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Corrected user attribution to Guldo. Confirmed as 0-Ki PQ61 Power Up Super that reduces damage taken for 20 seconds; usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 61
     },
@@ -3375,11 +3375,11 @@
         "https://dragonball.fandom.com/wiki/Justice_Finishing_Pose",
         "https://dragonball.fandom.com/wiki/Justice_Pose"
       ],
-      "unlock_method": "Parallel Quest 53 — \"The Fist of Justice!\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 53 — \"The Fist of Justice!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route.",
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Great Saiyaman's 0-Ki PQ53 Power Up Super, usable by all CaC races. It boosts all stats for 20 seconds. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 53
     },
@@ -3477,11 +3477,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 44 — \"Dragon Balls of the Future\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 44 — \"Dragon Balls of the Future\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "Earthling or Saiyan",
-      "notes": "2026-09-19 verification: Parallel Quest 44 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate.",
+      "notes": "2026-09-19 verification: Parallel Quest 44 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ44, restricted to Human/Earthling and Saiyan CaCs. It is Trunks's teleporting sword slash and can follow a knockback. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 44
     },
@@ -3716,11 +3716,11 @@
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 99 - \"Frieza Race Revivified\"; also available through TP Medal Shop rotation",
+      "unlock_method": "Parallel Quest 99 — \"Frieza Race Revivified\" Basic Reward; also available through the TP Medal Shop",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "PQ99 Basic Reward placement is explicitly documented in the maintained all-PQ guide; current Fandom data also lists TP Medal Shop. Neither source establishes Ultimate Finish as an acquisition requirement, so ultimate_finish_required=false.",
       "source_quest": 99
     },
@@ -3737,11 +3737,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 21 — \"Tri-Race Coop\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 21 — \"Tri-Race Coop\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "Namekian or Majin",
-      "notes": "",
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "100 Ki Strike Super from PQ21; launches a forward aerial strike against the opponent.",
       "source_quest": 21
     },
@@ -3757,11 +3757,11 @@
         "https://dbxv2.fandom.com/wiki/Evil_Whirlwind",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 36 — \"The Cell Games Begin\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 36 — \"The Cell Games Begin\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 36 as the unlock source.",
+      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 36 as the unlock source. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 36
     },
@@ -3999,11 +3999,11 @@
         "https://dbxv2.fandom.com/wiki/Meteor_Blow",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style",
+      "unlock_method": "Parallel Quest 9 — \"The Saiyan King is...Who?\" Basic Reward; also available as a starting skill when choosing the close-up fighting style",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established.",
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 9
     },
@@ -4241,11 +4241,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 38 — \"Power Teams\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 38 — \"Power Teams\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "Earthling or Saiyan",
-      "notes": "",
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "100 Ki Strike Super from PQ38; sword-based strike technique associated with Trunks and restricted to the documented Human/Earthling and Saiyan CaC scope. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current skill page explicitly identifies PQ38 as the acquisition source, Strike classification, and Human/Saiyan CaC restriction.",
       "source_quest": 38
     },
@@ -4975,11 +4975,11 @@
         "https://dbxv2.fandom.com/wiki/Mystic_Flash",
         "https://dragonball.fandom.com/wiki/Mystic_Flash"
       ],
-      "unlock_method": "Parallel Quest 20 — \"Frieza! Show Yourself\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 20 — \"Frieza! Show Yourself\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms Mystic Flash as a 300-Ki Ki Blast Ultimate from PQ20, used by Nail and customizable Piccolo. The page does not explicitly establish CaC race/gender/form scope. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Mystic Flash in the Basic Reward section of Parallel Quest 20, establishing the acquisition route without an Ultimate Finish requirement.",
       "source_quest": 20
     },
@@ -5459,11 +5459,11 @@
         "https://dragonball.fandom.com/wiki/Divine_Wrath%3A_Purification",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 112 — \"Advent of the Mighty God Zamasu!\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 112 — \"Advent of the Mighty God Zamasu!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "300 Ki; large stationary energy sphere that remains in place until it vanishes/explodes. Exact drop probability remains unresolved.",
       "source_quest": 112
     },
@@ -5500,11 +5500,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 50 — \"Majin Chaos\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 50 — \"Majin Chaos\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "Majin",
-      "notes": "Current public skill evidence confirms Majin-only CaC access. The current source does not establish a separate gender restriction, so none is inferred.",
+      "notes": "Current public skill evidence confirms Majin-only CaC access. The current source does not establish a separate gender restriction, so none is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "100 Ki; nine-hit close-range punch barrage with super armor. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 50
     },
@@ -5540,11 +5540,11 @@
         "https://dragonball.fandom.com/wiki/Gigantic_Fury",
         "https://dbxv2.fandom.com/wiki/Gigantic_Rage"
       ],
-      "unlock_method": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "200 Ki; close-range grab sequence with five hits and hard knockdown. Super Armor is documented for Broly's own use; it should not be generalized to CaC use without direct evidence. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 130
     },
@@ -5699,11 +5699,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 89 — \"Super-Super Ultimate Series of Battles!\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
+      "unlock_method": "Parallel Quest 89 — \"Super-Super Ultimate Series of Battles!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "300 Ki Strike Ultimate. Parallel Quest 89 is the documented acquisition quest. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Victory Rush.",
       "source_quest": 89
     }
