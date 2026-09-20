@@ -2553,81 +2553,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - No validator/workflow was weakened.
 - Exact next task: continue the remaining 78-record current-scope source-field audit, prioritizing evidence-backed historical acquisition/provenance contradictions; periodically recheck Actions diagnostics and artifact hygiene. ### 2026-09-20 cycle update — targeted current-scope evidence cleanup
 - Audited the remaining 78 `verified_current_scope` skill records for source/unlock contradictions.
-- Used current external evidence to reconcile two records without changing unsupported acquisition facts: - **Energy Field:** tightened the mechanics note to match the dedicated reference: Ki Blast Evasive, PQ29, 200 Stamina, barrier maintenance consumes Ki; retained the existing All CaC races scope. cite marker omitted from repository data; external evidence was reviewed separately. - **Dust Attack:** tightened the note to distinguish confirmed PQ78 acquisition/usability from unresolved classification reconciliation; no silent class normalization was made.
-- Commit: `807b44c4c44abea31e4aa845b3819437bf2d36ef`.
-- Important: do not place ChatGPT citation markup or internal tool identifiers into repository files.
-- Next task: continue the 78-record audit, focusing on records whose `class`/`subcategory` conflicts with dedicated skill references (Dust Attack is an open candidate), and only change fields when evidence is sufficiently specific. Then refresh the persistent handoff and recheck artifact hygiene. ### 2026-09-20 cycle update — class/damage reconciliation
-- Reviewed the 78 current-scope records for class/subcategory/damage inconsistencies and checked the strongest obvious candidate against current references.
-- **Mighty Explosive Wave:** normalized the canonical record to the equipable **Ki Blast Super** from PQ79: 100 Ki, with the separate Jiren (Full Power) Evasive variation explicitly documented rather than conflated into the primary class. PQ79 evidence lists Mighty Explosive Wave under Basic Reward, so `ultimate_finish_required` remains false. cite marker omitted from repository data.
-- **Force Shield:** corrected `damage_type` from `Other` to `Ki Blast` and tightened its skill description/mechanics note; its Evasive class and PQ59 acquisition remain unchanged.
-- Commit: `c73d88d28e36c8cc3f1468b358329931b25a59c5`.
-- Next task: continue the same 78-record class/damage audit, looking for similarly conflated variant records and only changing fields with direct evidence. Do not add citation markup/tool identifiers to repository files. ### 2026-09-20 cycle update — Evasive description consistency
-- Rechecked the remaining class/subcategory candidates against current skill-reference evidence. The Evasive Skill index explicitly lists Energy Field and Force Shield as Ki Blast Evasives, while Mighty Explosive Wave is separately listed as a cast-exclusive Evasive variation for Jiren (Full Power); the Future Warrior technique index likewise identifies Mighty Explosive Wave as a Super Skill. cite marker omitted from repository data.
-- **Energy Field:** corrected the stale skill description from “Ultimate Ki Blast skill” to “Ki Blast Evasive skill,” matching the record's Evasive class and current reference evidence.
-- Commit: `6ebae0f5a990917c1395728980d2ccb3c2c6754e`.
-- Next task: continue the current-scope audit, prioritizing stale descriptions where class/subcategory is already verified, then investigate Dust Attack only if a sufficiently specific class source is found. Do not add citation markup/tool identifiers to repository files. ### 2026-09-20 cycle update — Dust Attack classification resolved
-- Current references now provide sufficiently specific classification evidence for **Dust Attack**: the current Super Attack reference places Dust Attack under the **Other** Super category, while the Future Warrior and Piccolo references identify it as Piccolo's Super Skill. cite marker omitted from repository data.
-- Normalized the record from `subcategory: Ki Blast` / `damage_type: Ki Blast` to `subcategory: Other` / `damage_type: Other` and removed the prior unresolved-classification wording.
-- PQ78 acquisition remains unchanged.
-- Commit: `06dfd39bfe6a661d31d85921f5f2b14acc0ae6fd`.
-- Next task: continue auditing the remaining current-scope records for stale category/damage metadata and description mismatches. Only normalize fields when the evidence is explicit enough to support the change. Do not add citation markup/tool identifiers to repository files. ### 2026-09-20 cycle update — stale description cleanup
-- Continued the current-scope audit and found two records whose descriptions still contradicted already-reconciled class metadata.
-- **Side Bridge:** description corrected to Ki Blast Super, matching its verified Super/Ki Blast classification and existing mechanics note.
-- **Steel Mirage:** description corrected to Ki Blast Super, matching its verified Super/Ki Blast classification and existing mechanics note.
-- Commit: `2a322ef065aa83223087c2893cc78e415f8b84a7`.
-- Next task: continue the same stale-description and metadata-consistency audit across the remaining current-scope records; do not change classifications without sufficiently specific evidence. ### 2026-09-20 cycle update — description alignment pass
-- Continued the current-scope audit and aligned stale descriptions with already-verified metadata.
-- Corrected **Psychic Move** to Strike Evasive, **Final Pose** to Power Up Evasive, and **Mach Dash** to Power Up Evasive. Side Bridge and Steel Mirage were rechecked against the live character/PQ evidence and retained as Ki Blast Supers.
-- Current PQ evidence independently confirms Psychic Move in PQ73, Final Pose in PQ74, and Side Bridge as a basic reward; Steel Mirage is listed as a PQ165 basic reward. cite marker omitted from repository data.
-- Commit: `bcf302643beed3d891805ca3e247c8fd2683f87d`.
-- Next task: continue the remaining current-scope description/metadata audit, prioritizing records where `skill_description` disagrees with verified class/subcategory/damage fields. ### 2026-09-20 cycle update — Evasive metadata consistency
-- Cross-checked the remaining stale-description candidates against the current Evasive reference. The current Evasive index identifies **Spread Shot Retreat** as an Evasive, and the repository's dedicated evidence already established its 300-Stamina Ki Blast classification from PQ28. cite marker omitted from repository data.
-- Corrected **Spread Shot Retreat** `skill_description` from “Evasive Other” to “Ki Blast Evasive” and normalized `damage_type` from `Other` to `Ki Blast`.
-- Commit: `53dfc4c9ac3c1a2f0e392176ce426fa2c3809ef6`.
-- Next task: continue the remaining current-scope metadata audit, especially records whose description/damage fields still disagree with their verified subcategory. ### 2026-09-20 cycle update — damage metadata reconciliation
-- Current Super Attack reference explicitly categorizes **Side Bridge** and **Steel Mirage** as Ki Blast Supers; the current character data also places Side Bridge on Android 17 and Steel Mirage on Android 18 (DB Super). cite marker omitted from repository data.
-- Corrected both records' explicit `damage_type` from `Other` to `Ki Blast`, matching their verified `subcategory: Ki Blast` and descriptions.
-- Commit: `6365d60edaf6a583f105266c0b9ba2881de89a51`.
-- Next task: continue auditing explicit non-null damage fields for conflicts with verified subcategories, while leaving intentionally null/unverified values untouched. ### 2026-09-20 cycle update — explicit damage conflict check
-- Performed a fresh web cross-check of the canonical Super Attack categories and PQ evidence. The current Ki Blast Super category includes Side Bridge, Steel Mirage, Mighty Explosive Wave, Change The Future, Counter Burst, Counter Impact, and related records. cite marker omitted from repository data.
-- Re-ran the live 78-record current-scope census for non-null `damage_type` values conflicting with `subcategory: Ki Blast`; **no remaining conflicts were found** after the Side Bridge/Steel Mirage reconciliation.
-- PQ evidence also confirms PQ59 Force Shield, PQ77 Ki Explosion, PQ78 Dust Attack, and PQ165 Steel Mirage as recorded acquisition points. cite marker omitted from repository data.
-- No skill-data commit was necessary this cycle; the audit result itself is recorded here.
-- Next task: move from explicit damage conflicts to remaining stale descriptions, acquisition metadata, and null/unsupported-field consistency in the current-scope records. ### 2026-09-20 cycle update — remaining Evasive description cleanup
-- Rechecked the live Evasive reference: Ki Explosion and Maiden Burst are both listed under the Other Evasives category, while Energy Field, Force Shield, Rolling Bullet and related entries remain in their respective categories. cite marker omitted from repository data.
-- Simplified the stale descriptions for **Ki Explosion** and **Maiden Burst** from the redundant “Evasive Other” phrasing to the normalized “Other Evasive” wording, keeping their verified metadata unchanged.
-- Commit: `64bf2e68a36a12d139615726350acfe0478cc440`.
-- Next task: continue the remaining current-scope audit beyond already-cleared description/category conflicts, focusing on acquisition fields and unsupported restrictions. ### 2026-09-20 cycle update — acquisition/null-field audit
-- Audited all 78 `verified_current_scope` skill records for acquisition and cost-field consistency.
-- `source_quest` is null only where the recorded acquisition is explicitly character-only, Skill Shop/story progression, or an N/A/built-in route; no unsupported quest assignment was introduced.
-- All current-scope Evasive records have a populated stamina cost, and every one is either 200 or 300; no stamina-cost anomaly remains.
-- `ki_cost`, `ultimate_finish_required`, `usable_by_cac`, and `race_restriction` are populated across the current-scope census. `dlc_required` remains intentionally null across this scope because DLC provenance is represented through the existing acquisition/source fields rather than an unsupported DLC requirement field.
-- No skill-data commit was necessary in this cycle; only this handoff was updated.
-- Next task: inspect acquisition wording and individual unlock routes for stale/overbroad claims, prioritizing Skill Shop/story entries and character-exclusive boundaries. ### 2026-09-20 cycle update — stale acquisition provenance cleanup
-- Rechecked current Evasive acquisition references. The current Evasive catalog lists **Punisher Guard** as a Skill Shop acquisition, without the obsolete PQ87 provenance attached to the current route. cite marker omitted from repository data.
-- Updated `Punisher Guard.unlock_method` to `Skill Shop after completing the relevant story progression.` and removed the stale “originally associated with PQ87” wording. Other fields remain unchanged.
-- Skill-data commit: `ce483dfff35ed7f194b6054ce60e9319068f964d`.
-- Next task: continue checking current-scope acquisition wording for similar historical/obsolete route references, especially records whose `source_quest` is null. ### 2026-09-20 cycle update — null-quest acquisition wording review
-- Re-audited all current-scope records with null `source_quest` and acquisition wording indicating Skill Shop, story progression, character-only, N/A, or built-in access.
-- `Punisher Guard` remains normalized to its current Skill Shop/story route after the previous stale-PQ cleanup. `Explosive Wave`, `Final Pose`, and `Time Bullet` retain explicit Skill Shop/story routes; character-exclusive and built-in entries retain their non-quest boundaries.
-- An external web search for the specific acquisition terms returned no usable results in this cycle, so no new external evidence was treated as authoritative and no additional skill-data edits were made.
-- Next task: inspect individual quest-backed `source_quest` mappings for stale or mismatched unlock wording, then re-run artifact-hygiene checks before the next handoff. ### 2026-09-20 cycle update — source_quest semantic normalization
-- Audited all populated `source_quest` fields in the 78-record current scope against their actual acquisition routes.
-- Found seven records where `source_quest` contained a progression/wish/challenge description rather than a quest source: **Super Saiyan, Super Saiyan God, Super Vegeta, Beast, Potential Unleashed, Super Saiyan 2, Ultra Instinct**.
-- Cleared `source_quest` for those seven records while preserving their detailed `unlock_method` acquisition instructions. Quest/Time Rift-backed records and actual Parallel Quest mappings were left unchanged.
-- Skill-data commit: `76b1ccc06d09a067e8e7910bfd0d35b8767ff8eb`.
-- Next task: audit the remaining populated `source_quest` values for numeric/string normalization and verify that each quest number agrees with its unlock text; then run artifact-hygiene checks. ### 2026-09-20 cycle update — quest ID/unlock-text alignment
-- Cross-checked numeric `source_quest` values against their `unlock_method` wording.
-- Found 8 records whose unlock text only said “Parallel Quest reward” and therefore failed to expose the recorded quest ID: **Celestial Wave (151), Force Shield (59), Instant Rise (37), Maiden Burst (92), Psychic Move (73), Spirit Explosion (25), Victory Cannon (54), Energy Field (29)**.
-- Normalized those unlock strings to explicitly include the corresponding PQ number. Celestial Wave and the already-known PQ151 reward were aligned to PQ151; no source IDs were changed.
-- Steam's PQ guide independently confirms PQ151's reward list includes Celestial Wave and PQ73's reward list includes Psychic Move. - Skill-data commit: `174a1601b91a3aecbd277bd1115b58115c615389`.
-- Next task: run a full artifact-hygiene search and re-census the 78 current-scope records, checking for any remaining source/unlock mismatches.
-
-
-### 2026-09-20 cycle update — artifact hygiene and census refresh
-- Searched `docs/data/skills.json`, `docs/data/skill-catalog-audit.json`, and this handoff for internal assistant artifacts (`filecite`, `memcite`, `turn*search`, `turn*file`, `tool-result`). The audit and handoff contained stale internal markers; those markers were removed. `skills.json` contained none.
-- Re-ran the current-scope census: **78** `verified_current_scope` records remain. The current source-quest normalization leaves **21** current-scope records with null `source_quest`, reflecting non-quest/progression/built-in acquisition routes rather than missing quest mappings.
-- External evidence continues to confirm PQ151's Celestial Wave reward, supporting the earlier unlock-text normalization. citeturn0search0turn0search2
+- Used current external evidence to reconcile two records without changing unsupported acquisition facts: - **Energy Field:** tightened the mechanics note to match the dedicated reference: Ki Blast Evasive, PQ29, 200 Stamina, barrier maintenance consumes Ki; retained the existing All CaC races scope. 
 - No further skill-data edit was made during this cycle after the prior quest alignment; artifact cleanup was the repository change.
 - Next task: review the cleaned audit/handoff content for accidental loss from marker removal, then perform the final current-scope consistency sweep.
 
@@ -2637,12 +2563,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Fresh current-scope census: **78** records; required `ki_cost`, `ultimate_finish_required`, `usable_by_cac`, and `race_restriction` fields are populated for all 78.
 - All numeric `source_quest` values now agree with an explicitly numbered Parallel Quest in `unlock_method` where the unlock text names a PQ; **0 explicit quest-number mismatches** remain.
 - The 12 apparent subcategory exceptions are all Awoken skills using the repository's intentional `Race` subcategory, so they are not data errors.
-- External PQ151 evidence continues to list Celestial Wave among its rewards, supporting the normalized source/unlock mapping. citeturn0search0turn0youtube3
+- External PQ151 evidence continues to list Celestial Wave among its rewards, supporting the normalized source/unlock mapping. 
 - No additional skill-data edit was necessary in this sweep. Next task: continue with deeper record-level evidence gaps rather than structural cleanup, prioritizing any `research`/uncertain mechanics notes still present in the current scope.
 
 
 ### 2026-09-20 cycle update — researched PQ reward wording resolved
-- Used current searchable PQ reward evidence to resolve four previously bounded acquisition records: **Dark Inscription → PQ182 Basic Reward; Ill Rain → PQ64 Basic Reward; Paralysis → PQ34 Basic Reward; Paralyze Beam → PQ04 Basic Reward**. The maintained PQ guide explicitly lists each skill in the corresponding Basic Reward section. citeturn0search0turn1search0
+- Used current searchable PQ reward evidence to resolve four previously bounded acquisition records: **Dark Inscription → PQ182 Basic Reward; Ill Rain → PQ64 Basic Reward; Paralysis → PQ34 Basic Reward; Paralyze Beam → PQ04 Basic Reward**. The maintained PQ guide explicitly lists each skill in the corresponding Basic Reward section. 
 - Updated `unlock_method` for all four and removed the obsolete “exact drop gating remains bounded/research” wording where the evidence established Basic Reward placement.
 - Skill-data commit: `c382023c0136b4aaf2902e29d4f4599e1c1f5932`.
 - **The Power to Overcome** retains its unresolved Stage 2 speed/cooldown disagreement because current sources still conflict; **Wild Stinger** retains unverified exact numeric costs/damage because no sufficiently strong evidence was found in this cycle.
@@ -2775,7 +2701,7 @@ Only after data-completeness work, expose the improved structured research surfa
 
 ### 2026-09-20 cycle update — Future Saga PQ CaC-availability correction
 - Corrected **Big Bang Knuckle**, **Divine Spear**, and **Crimson Edge** from stale `usable_by_cac=false` to CaC-accessible PQ skills.
-- Dedicated skill pages show normal Super Skill/PQ unlock status, while the maintained PQ guide lists them as Basic Rewards in PQ172 (Big Bang Knuckle) and PQ171 (Crimson Edge, Divine Spear); they are not in the cast-exclusive/unavailable-for-CaC classification. citeturn0search0turn0search1turn0search2turn0search5
+- Dedicated skill pages show normal Super Skill/PQ unlock status, while the maintained PQ guide lists them as Basic Rewards in PQ172 (Big Bang Knuckle) and PQ171 (Crimson Edge, Divine Spear); they are not in the cast-exclusive/unavailable-for-CaC classification. 
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `bc8d3e65b2f8a1be0b2293b25231071dc691ae65`, `30a238294dadcca7e9c97ab1f71601e01789fd24`, `6acb5254b8e5a6c0b065748cbd7bad0388cad767`.
 - Exact next task: continue the current-scope audit for stale CaC boundaries and acquisition semantics, then resolve remaining reward-gate conflicts without inventing probabilities.
@@ -2797,36 +2723,36 @@ Only after data-completeness work, expose the improved structured research surfa
 
 
 ### 2026-09-20 cycle update — Super Dragon Flight reward-gate correction
-- Corrected **Super Dragon Flight** `ultimate_finish_required` from `true` to `false` and refined its Xenoverse 2 provenance to **PQ31 — "Let's Train!" Basic Reward**. Current PQ31 evidence places the skill in Basic Rewards; defeating revived Gohan is a win condition, not a separate UF-only acquisition gate. citeturn1search0turn1search1turn1search6
+- Corrected **Super Dragon Flight** `ultimate_finish_required` from `true` to `false` and refined its Xenoverse 2 provenance to **PQ31 — "Let's Train!" Basic Reward**. Current PQ31 evidence places the skill in Basic Rewards; defeating revived Gohan is a win condition, not a separate UF-only acquisition gate. 
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `954da8c6fa6959679d5d19aa4cf46e337953b334`, `8a5e9de234e05e6a0a055e1f6edcf0fb882b99ad`, `054f3ba27eab2a93a97993e309193ed51b332b76`.
 - Exact next task: continue the remaining `ultimate_finish_required=true` audit, prioritizing generic unlock text and records where current evidence explicitly separates Basic Rewards from Ultimate Finish rewards.
 
 
 ### 2026-09-20 cycle update — Chaotic Time Impact / Core Breaker reward-gate corrections
-- Corrected **Chaotic Time Impact** and **Core Breaker** from `ultimate_finish_required=true` to `false`. Current PQ evidence places both skills in their respective **Basic Reward** pools: PQ184 and PQ158. citeturn0search0turn0search2turn0search3turn0search8
+- Corrected **Chaotic Time Impact** and **Core Breaker** from `ultimate_finish_required=true` to `false`. Current PQ evidence places both skills in their respective **Basic Reward** pools: PQ184 and PQ158. 
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `cc2375f58469809f700a2fbe346fb446c750f1e`, `7fbd5f1ca241b6a27af13ace1978854f95405e67`, `0075a4bb656b2238602bd7e4456f327bc3c693b3`.
 - Exact next task: inspect the remaining `ultimate_finish_required=true` records, especially **Blazing Attack**, where existing notes explicitly say current evidence does not prove the skill itself requires the UF despite being associated with PQ136. Do not flip without a source establishing the reward tier.
 
 
 ### 2026-09-20 cycle update — Blazing Attack reward-gate correction
-- Corrected **Blazing Attack** `ultimate_finish_required` from `true` to `false`. Current maintained PQ136 tables explicitly list it under **Basic Reward**. A conflicting GameFAQs report calls it an Ultimate Finish drop, so that conflict is preserved in mechanics notes rather than allowing an unsupported UF-only gate. citeturn0search0turn0search3
+- Corrected **Blazing Attack** `ultimate_finish_required` from `true` to `false`. Current maintained PQ136 tables explicitly list it under **Basic Reward**. A conflicting GameFAQs report calls it an Ultimate Finish drop, so that conflict is preserved in mechanics notes rather than allowing an unsupported UF-only gate. 
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `2a82e01e7e3fda477469683cb692bb7b971b6006`, `1cf8e2cd98615f8d2e4101827b3a79b47039e561`, `cc8ca995a88bb399711a3ea6f9db28a4014e16ab`.
 - Exact next task: inspect the remaining Ultimate Finish-gated records (currently expected to be the strongly evidenced PQ8/PQ11/PQ119/PQ122 cases and any remaining PQ136 ambiguity), then recompute the canonical census and audit for stale generic reward-gate metadata.
 
 
 ### 2026-09-20 cycle update — three remaining stale UF gates corrected
-- Corrected **Rough Ranger**, **Earth Splitting Galick Gun**, and **Raid Blast** from `ultimate_finish_required=true` to `false` after explicit PQ reward tables placed each in **Basic Reward**. Earth Splitting Galick Gun has conflicting newer datamined evidence, so that conflict is retained in the canonical record's provenance/notes. citeturn2search0turn4search1turn2search4
-- Recomputed live canonical census: **283 total records / 78 `verified_current_scope` / 2 `ultimate_finish_required=true`**. The only remaining UF=true records are **Kaioken** and **Power Rush**, both supported by dedicated acquisition evidence. citeturn1search2turn4search0
+- Corrected **Rough Ranger**, **Earth Splitting Galick Gun**, and **Raid Blast** from `ultimate_finish_required=true` to `false` after explicit PQ reward tables placed each in **Basic Reward**. Earth Splitting Galick Gun has conflicting newer datamined evidence, so that conflict is retained in the canonical record's provenance/notes. 
+- Recomputed live canonical census: **283 total records / 78 `verified_current_scope` / 2 `ultimate_finish_required=true`**. The only remaining UF=true records are **Kaioken** and **Power Rush**, both supported by dedicated acquisition evidence. 
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `15f4426e56268d41e3deb456619dd7ef47314007`, `c5fc07873e090b03d01c1d99c30abfb299c9eb5a`, `a10821e77591e175e51d5dedef85e353c3e4632c`.
 - Exact next task: audit the remaining **Kaioken** and **Power Rush** records for acquisition wording/provenance consistency, then run a final canonical/index synchronization and stale-gate census before moving to the next audit category.
 
 
 ### 2026-09-20 cycle update — final UF validation / next audit category
-- Revalidated the only remaining `ultimate_finish_required=true` records: **Kaioken** (PQ8 Ultimate Finish) and **Power Rush** (PQ122 Ultimate Finish). No canonical changes were necessary. citeturn0search3turn0search1turn0search5
+- Revalidated the only remaining `ultimate_finish_required=true` records: **Kaioken** (PQ8 Ultimate Finish) and **Power Rush** (PQ122 Ultimate Finish). No canonical changes were necessary. 
 - Live census remains **283 records / 78 `verified_current_scope` / 2 UF=true**.
 - Updated `docs/COVERAGE-AUDIT.md` with the validation and the next research frontier: generic `quest_or_mission` unlock wording among current-scope PQ skills.
 - Coverage audit commit: `0139b924a4128189212412b30bdab036232efd44`.
@@ -2834,7 +2760,7 @@ Only after data-completeness work, expose the improved structured research surfa
 
 
 ### 2026-09-20 cycle update — generic PQ acquisition wording pass
-- Refined four generic unlock records: **Mighty Explosive Wave** → PQ79 Basic Reward; **Side Bridge** → PQ39 Random Reward; **Steel Mirage** → PQ165 Random Reward; **Demon Ray** → PQ160 Ultimate Finish Bonus. Current PQ160 data explicitly puts Demon Ray in the UF bonus pool. citeturn0search5turn0search10turn0search6turn0search7
+- Refined four generic unlock records: **Mighty Explosive Wave** → PQ79 Basic Reward; **Side Bridge** → PQ39 Random Reward; **Steel Mirage** → PQ165 Random Reward; **Demon Ray** → PQ160 Ultimate Finish Bonus. Current PQ160 data explicitly puts Demon Ray in the UF bonus pool. 
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `4eaa298f9b3f700e19474bd`, `3fc1aaebcb265bd42fba833de5442a9765a08766`, `ec67f853ddcc7efbc413360b4d0166d6ba513829`.
 - Exact next task: continue the generic `quest_or_mission` pass, prioritizing other records with `Random Parallel Quest reward` or `Parallel Quest reward`, and preserve uncertainty when a reward tier is not directly established.
@@ -2939,3 +2865,24 @@ Only after data-completeness work, expose the improved structured research surfa
 - Re-synchronized `docs/data/skills-index.json`; 283 records remain.
 - Commits: `1f809f7e0370f93131fcc915ea67bd0f181fbaf5` (canonical), `16d7f842701d7c1c9cbe7b39610bbb7c4d19352d` (index), `c0fb1bd894d02e27a5fa4d010cedf0213081138a` (coverage audit).
 - Exact next task: continue remaining generic/random PQ records, prioritizing entries whose notes still lack concrete reward-tier evidence.
+
+
+### 2026-09-20 cycle update — PQ reward-gate refinement batch 10
+- Workstream: P1 skill acquisition/type and reward-gate cleanup.
+- Recomputed the live canonical skills census after the preceding PQ reward-tier batches: **283 records / 78 `verified_current_scope`**.
+- Refined eight remaining generic PQ acquisition records from the live maintained PQ reward tables:
+  - **Apocalyptic Burst** → PQ161 Ultimate Finish bonus slot (45%).
+  - **Special Beam Cannon (Beast)** → PQ162 Ultimate Finish bonus slot (45%).
+  - **Divine Ray Bomb** → PQ173 Ultimate Finish bonus slot (45%).
+  - **God of Destruction's Poise** → PQ175 Ultimate Finish reward (50%).
+  - **Shooting Strike** → PQ156 Ultimate Finish bonus slot (50%).
+  - **Super Gamma Blast** → PQ158 Ultimate Finish bonus slot (50%).
+  - **Soaring Rush** → PQ177 Ultimate Finish reward (50%).
+  - **Seagull Combination** → PQ167 normal-clear reward (40%).
+- The percentage values are preserved as the current maintained reward-slot data; they are not represented as independently measured empirical probabilities. No additional prerequisite was invented.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `d2ff011381d669bd1927c9f8cf9e19d39c9d3590` (canonical skill refinements), `7a231c02271bf7457ead59bb212e924d29f02e14` (index synchronization), `433f66b2cc7a4e2d2170a0ccc82f501fe0116873` (coverage audit + citation-artifact cleanup).
+- Validation: canonical skills JSON parses successfully; index remains valid JSON with 283 records. Live generic acquisition census is **46** records under the exact generic strings `Parallel Quest reward` / `Random Parallel Quest reward`. Live `ultimate_finish_required=true` count is **10**, all backed by explicit acquisition evidence currently recorded in canonical data.
+- Artifact cleanup: removed legacy ChatGPT/internal citation markup from `docs/COVERAGE-AUDIT.md` and this handoff. Repository files must not contain internal UI citation markers.
+- CI: the latest push-triggered Repository quality and Clean internal artifacts runs for `433f66b2cc7a4e2d2170a0ccc82f501fe0116873` were queued at inspection time; Pages was pending. The immediately preceding five quality/data/cleanup runs for `7a231c02271bf7457ead59bb212e924d29f02e14` failed with **zero recorded workflow steps**. This remains the repository's recurring opaque pre-step infrastructure/account failure pattern; validators were not weakened or bypassed.
+- Exact next task: continue the remaining generic PQ acquisition audit in quest order, starting with **Unrelenting Barrage (PQ10), Sauzer Blade (PQ27), Heat Dome Attack (PQ40), and Chain Destructo-Disc Barrage (PQ46)**. Use the live PQ batch reward tables to distinguish Basic, random, and Ultimate Finish provenance; preserve generic wording when the evidence does not establish a reward tier.
