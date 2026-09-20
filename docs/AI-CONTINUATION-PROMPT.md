@@ -3510,3 +3510,17 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No unsupported Ultimate Finish-only requirements were added.
 - Current counts: 138 verified, 66 partial.
 - Next: continue remaining partial records with explicit acquisition evidence.
+
+
+### 2026-09-19 continuation — Pressure Sign acquisition verification
+- Workstream: P1 skill acquisition/Ultimate Finish verification.
+- Live canonical skill census remains **283 records**. This bounded pass promoted **Pressure Sign** from `partially_verified` to `verified` after resolving its acquisition route.
+- Research performed: current Xenoverse 2 Fandom skill page explicitly lists **Skill Shop** as the unlock and identifies Pressure Sign as a 100-Ki Strike Super. Dragon Ball Wiki independently documents the Xenoverse 2 Skill Shop route; a current GameFAQs acquisition reference also identifies the Skill Shop route. No Ultimate Finish requirement applies.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Commits: `968b51922bf3999ea7822b7c37390181ed117fcc` (canonical Pressure Sign verification), `ff021aff95ecbdb4de776540b9aef0dbd54f7ae6` (index sync), `39f8d7221a85080d429e4ce66cffeee80f6714c5` (audit refresh), plus this handoff commit.
+- Validation: canonical/index/audit JSON was parsed and updated through the repository connector; canonical/index Pressure Sign verification metadata is synchronized. The audit counts are now **139 verified / 65 partially verified**. No validator was weakened.
+- Artifact check: the modified data and handoff contain no ChatGPT/internal citation markup or tool-result IDs.
+- CI status: GitHub has now queued the **Skills schema validation** run for commit `ff021aff95ecbdb4de776540b9aef0dbd54f7ae6` and the **Wiki data audit** run for the same commit; the Pages deployment is queued for audit commit `39f8d7221a85080d429e4ce66cffeee80f6714c5`. These runs are queued at inspection time, so no CI pass is claimed yet. Continue treating any opaque pre-step failure as infrastructure/account evidence unless actionable logs appear.
+- Evidence limitation: this pass verifies acquisition provenance, not the full reward/drop mechanics of the remaining partial cohort.
+- Current unresolved skill verification: **65 partially verified** records remain; broader catalog reconciliation items for Frieza Race Skills and Lovely Showtime remain open.
+- Exact next task: **continue deterministic acquisition/Ultimate Finish verification through the remaining partially verified cohort**, starting with explicit PQ Basic Reward or Skill Shop/mentor evidence; recompute the live census before the next batch and preserve unresolved/conflicting evidence.
