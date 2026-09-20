@@ -440,14 +440,16 @@
       "name": "Reverse Mabakusenko",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Reverse_Mabakusenko",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Skill Shop"
     },
     {
       "name": "Rough Ranger",
@@ -1972,13 +1974,15 @@
       "name": "Instant Transmission",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Instant_Transmission"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Goku — Lesson 1"
     },
     {
       "name": "Kai Kai",
@@ -2416,7 +2420,7 @@
       "name": "Burning Slash",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -2424,7 +2428,9 @@
         "https://dbxv2.fandom.com/wiki/Burning_Slash",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 44"
     },
     {
       "name": "Burning Swan",
@@ -2468,13 +2474,15 @@
       "name": "Deadly Dance",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers",
         "https://dbxv2.fandom.com/wiki/Deadly_Dance"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "unlock_method": "Training with Android 18"
     },
     {
       "name": "Death Slash",
