@@ -2955,3 +2955,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
 - Commits: `4c6edaf321f8556418ab39b8ab6ee2c183efe6e9` (canonical), `3cfe47699fa8ff14e09c346165485a946e854e00` (index), `3a4b0291c78dbda31131e97aaee043444ac4898a` (coverage audit).
 - Live census: **283 records**; remaining generic/random PQ acquisition records should now be reviewed with special attention to unresolved random-vs-basic semantics rather than assuming the next quest number exists.
+
+
+### 2026-09-20 cycle update — PQ154 gating reconciliation
+- Corrected **Circle Flash** and **Sign of Awakening** to **Parallel Quest 154 — Ultimate Finish bonus slot (40%)**, based directly on maintained `pq-batch-15.json` skill-drop conditions. Both now have `ultimate_finish_required=true`.
+- This resolves two of the four remaining generic/random PQ records. **Lightning Impact (PQ142)** and **Blaster Stream (PQ148)** remain documented Basic Reward routes; their quest numbers fall inside the repository's explicit PQ141-PQ150 numbering gap, so no synthetic quest records are being created.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `277092ff23ec402bff2f98de31e79e15c6df8bc0` (canonical), `745ca043282a66e6566279b05bfd66d4b96db570` (index), `d1f9962763c74b0d0c32be63b4a86bcf5addb650` (coverage audit).
+- Live census: **283 records**; **2** generic PQ acquisition records remain: Lightning Impact and Blaster Stream.
+- Next task: resolve the remaining PQ142/PQ148 records only if maintained evidence can strengthen their provenance; otherwise preserve their current Basic Reward semantics and audit the broader canonical dataset for other acquisition-quality gaps.
