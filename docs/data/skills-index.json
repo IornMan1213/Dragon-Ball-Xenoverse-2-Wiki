@@ -1168,14 +1168,17 @@
       "name": "Double Death Slicer",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Double_Death_Slicer",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 24 reward."
     },
     {
       "name": "Dust Attack",
@@ -1356,7 +1359,7 @@
       "name": "Gigantic Charge",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1364,7 +1367,10 @@
         "https://dbxv2.fandom.com/wiki/Gigantic_Charge",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 128 reward."
     },
     {
       "name": "God of Destruction's Plaything",
@@ -1523,14 +1529,17 @@
       "name": "Pendulum Bullet",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Pendulum_Bullet",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 166 reward."
     },
     {
       "name": "Perfect Shot",
@@ -1724,7 +1733,7 @@
       "name": "Super Ghost Buu Attack",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -1732,33 +1741,42 @@
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Buu_Attack",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 113 reward."
     },
     {
       "name": "Vanishing Ball",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Vanishing_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 58 reward."
     },
     {
       "name": "Variable Snipe Shot",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 165 reward."
     },
     {
       "name": "Victory Cannon",
@@ -2259,19 +2277,22 @@
       "name": "Fighting Pose K",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_K"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Skill Shop reward."
     },
     {
       "name": "Formation!",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -2280,20 +2301,26 @@
         "https://dbxv2.fandom.com/wiki/Formation%21",
         "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2-extra-pack-3/answers/642221-what-do-i-have-to-complete-to-get-the-formation-skill-in-xeno-verse-2",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 133 reward."
     },
     {
       "name": "Indomitable",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 185 reward."
     },
     {
       "name": "Justice Pose",
