@@ -124,13 +124,13 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dbxv2.fandom.com/wiki/Super_Saiyan"
       ],
-      "unlock_method": "Complete the Saiyan Awakening progression at Capsule Corporation and train with Vegeta; the resulting Awoken Skill provides Super Saiyan stages 1–3.",
+      "unlock_method": "As a Saiyan CaC, complete the Capsule Corporation Time Rift's Vegeta training/Saiyan Awakening progression; the final training reward grants the Super Saiyan Awoken Skill with stages 1–3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3.",
+      "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3. 2026-09-20 provenance refinement: maintained Awoken research and current transformation guides place the Super Saiyan acquisition in the Capsule Corporation Time Rift Vegeta/Saiyan Awakening route; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Stages use 300/400/500 Ki. Current consolidated table reports SS1 +10% Strike/+5% Blast, SS2 +15%/+7.5%, SS3 +20%/+10%; defense bonuses rise by stage while Ki regeneration becomes increasingly restricted. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": null
+      "source_quest": "Capsule Corporation Time Rift — Vegeta Saiyan Awakening progression"
     },
     {
       "name": "Super Saiyan God",
@@ -146,13 +146,13 @@
         "https://dbxv2.fandom.com/wiki/Super_Saiyan_God",
         "https://dbxv2.fandom.com/wiki/Free_Update"
       ],
-      "unlock_method": "Use the Shenron wish for Super Saiyan God after maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan; Beerus then provides the skill.",
+      "unlock_method": "After maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan, use Shenron's Super Saiyan God wish and then speak with Beerus to receive the skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus.",
+      "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus. 2026-09-20 provenance refinement: current guide/research evidence explicitly identifies the five friendship requirements, Shenron wish, and Beerus handoff; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "300 Ki; current consolidated table reports no direct Strike/Blast skill modifier but +60% Basic Attack, +50% Ki recovery, and +12.5% movement speed. This distinction is important: the major attack boost is Basic Attack rather than Super/Ultimate damage. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": null
+      "source_quest": "Shenron wish + Beerus — Super Saiyan God unlock route"
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -213,13 +213,13 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dbxv2.fandom.com/wiki/Super_Vegeta"
       ],
-      "unlock_method": "Complete the Vegeta training progression at the Capsule Corporation Time Rift as a Saiyan CaC.",
+      "unlock_method": "As a Saiyan CaC, complete the Vegeta training progression at Capsule Corporation; after obtaining Super Saiyan and reaching the later training gate, clear Vegeta's Super Vegeta training mission to receive the Super Vegeta 1/2 Awoken Skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2.",
+      "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2. 2026-09-20 provenance refinement: maintained transformation research and current unlock guides place Super Vegeta in Vegeta's Capsule Corporation Time Rift training route; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Stages use 300/400 Ki. Current consolidated table reports SV1 +5% Strike/+10% Blast and SV2 +7.5%/+17.5%, with increasing Blast-defense bonuses. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": null
+      "source_quest": "Capsule Corporation Time Rift — Vegeta Super Vegeta training"
     },
     {
       "name": "The Power to Overcome",
@@ -275,13 +275,13 @@
         "https://dbxv2.fandom.com/wiki/Beast",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "unlock_method": "Max friendship with Gohan (Adult), Videl, and Piccolo; talk to Piccolo and choose the additional training/spar mission, then clear the Cell Max mission.",
+      "unlock_method": "Max friendship with Gohan (Adult) & Videl and Piccolo, then speak with Piccolo to start the additional training/spar mission and clear the Cell Max battle to receive Beast.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken. 2026-09-20 provenance refinement: current Beast unlock evidence identifies max friendship with Piccolo and Gohan/Videl, followed by Piccolo's special training and Cell Max battle; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "500 Ki consumed on transformation; +30% Strike and Blast, -20% Strike and Blast Defense, +20% Ki restoration. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": null
+      "source_quest": "Piccolo special training — Cell Max unlock mission"
     },
     {
       "name": "Kaioken",
@@ -314,13 +314,13 @@
         "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "unlock_method": "Z-rank all prior Advancement Tests, then complete the unlocked final Patroller Academy Advancement Test.",
+      "unlock_method": "Earn Z-Ranks on every prior Advancement Test from Easy through God, unlock the Super Class test at the Patroller Academy, and clear the Super Class Advancement Test to receive Potential Unleashed.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction. 2026-09-20 provenance refinement: repository Advancement Tests research explicitly identifies the final Super Class test as the Potential Unleashed reward and the prior Easy-through-God Z-Rank requirement.",
       "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": null
+      "source_quest": "Patroller Academy — Super Class Advancement Test"
     },
     {
       "name": "Pure Progress",
@@ -354,13 +354,13 @@
         "https://dbxv2.fandom.com/wiki/Super_Saiyan",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74469364"
       ],
-      "unlock_method": "Obtained as the second stage of the Super Saiyan Awoken Skill after completing Saiyan Awakening at Capsule Corporation.",
+      "unlock_method": "Super Saiyan 2 is the second stage of the Super Saiyan Awoken Skill; complete the Capsule Corporation Saiyan Awakening/Vegeta route to obtain the Super Saiyan skill, then activate its second stage at 400 Ki.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "Saiyan",
-      "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped.",
+      "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped. 2026-09-20 provenance refinement: SS2 is a stage of the Super Saiyan skill rather than a separate reward; its provenance therefore follows the Capsule Corporation Saiyan Awakening route.",
       "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": null
+      "source_quest": "Capsule Corporation Time Rift — Super Saiyan Awoken Skill"
     },
     {
       "name": "Super Saiyan Blue Kaioken",
@@ -413,13 +413,13 @@
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
       ],
-      "unlock_method": "Defeat Jiren (Full Power) in the 'In Pursuit of Mastery' challenge after the relevant unlock route.",
+      "unlock_method": "After the relevant story/unlock route makes Full Power Jiren available, clear the 'In Pursuit of Mastery' challenge against Jiren (Full Power) to receive Ultra Instinct.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior. 2026-09-20 provenance refinement: current unlock evidence identifies Full Power Jiren's 'In Pursuit of Mastery' challenge as the acquisition encounter; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "500 Ki required but not consumed after Update 1.22.00; no attack/defense/speed modifiers. Auto-dodge consumes 100 Stamina, successful dodge can be followed by a 100 Ki counter; guarding + Heavy Attack provides a built-in charge action; normal/charged Ki Blasts are replaced. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": null
+      "source_quest": "Jiren (Full Power) — In Pursuit of Mastery"
     },
     {
       "name": "Burst Reflection",
