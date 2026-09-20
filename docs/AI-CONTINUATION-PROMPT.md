@@ -2815,3 +2815,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `2a82e01e7e3fda477469683cb692bb7b971b6006`, `1cf8e2cd98615f8d2e4101827b3a79b47039e561`, `cc8ca995a88bb399711a3ea6f9db28a4014e16ab`.
 - Exact next task: inspect the remaining Ultimate Finish-gated records (currently expected to be the strongly evidenced PQ8/PQ11/PQ119/PQ122 cases and any remaining PQ136 ambiguity), then recompute the canonical census and audit for stale generic reward-gate metadata.
+
+
+### 2026-09-20 cycle update — three remaining stale UF gates corrected
+- Corrected **Rough Ranger**, **Earth Splitting Galick Gun**, and **Raid Blast** from `ultimate_finish_required=true` to `false` after explicit PQ reward tables placed each in **Basic Reward**. Earth Splitting Galick Gun has conflicting newer datamined evidence, so that conflict is retained in the canonical record's provenance/notes. citeturn2search0turn4search1turn2search4
+- Recomputed live canonical census: **283 total records / 78 `verified_current_scope` / 2 `ultimate_finish_required=true`**. The only remaining UF=true records are **Kaioken** and **Power Rush**, both supported by dedicated acquisition evidence. citeturn1search2turn4search0
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `15f4426e56268d41e3deb456619dd7ef47314007`, `c5fc07873e090b03d01c1d99c30abfb299c9eb5a`, `a10821e77591e175e51d5dedef85e353c3e4632c`.
+- Exact next task: audit the remaining **Kaioken** and **Power Rush** records for acquisition wording/provenance consistency, then run a final canonical/index synchronization and stale-gate census before moving to the next audit category.
