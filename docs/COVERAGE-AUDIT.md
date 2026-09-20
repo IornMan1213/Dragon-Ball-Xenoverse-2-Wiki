@@ -3781,3 +3781,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Emperor's Cannon remains deliberately unchanged because PQ183 maintained reward data conflicts with dedicated PQ184 evidence.
 - Validation: canonical/index 283 records, exact name/order parity, UF count 60.
 - Commits: 2c47b6dbba28cc00e1ec4565c91def9ac28be09b; c39b2fc99b137c751079706f1b651fa5ef89723e.
+
+
+## 2026-09-20 — generic PQ census completion checkpoint
+- Recomputed the generic quest-or-mission PQ census after the preceding 21-record refinement. Only **X 100 Big Bang Kamehameha** remained vague; maintained PQ100 research explicitly lists it in `basic_rewards`/`skill_rewards`.
+- Refined X 100 Big Bang Kamehameha to **PQ100 "The Ultimate Rivalry" Basic Reward**, preserving its TP Medal Shop route.
+- The remaining Emperor's Cannon PQ183/PQ184 discrepancy is retained as a documented provenance conflict rather than silently resolved.
+- Post-change generic PQ census: **0** vague PQ acquisition records under the audit definition; all remaining PQ acquisition text has an explicit reward tier, UF condition, first/normal-clear qualifier, or documented provenance conflict.
+- Validation: canonical/index **283 records**, exact name/order parity, UF count **60**.
+- Commits: canonical `b00b0f51d81b2d1c0855a2fa651695345c68e9e8`; index `5e83374750e5823de7bb963ef063e4610ca43144`.
