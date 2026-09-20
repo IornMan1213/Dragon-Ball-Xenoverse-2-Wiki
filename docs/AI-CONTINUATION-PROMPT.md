@@ -3276,3 +3276,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Confirmed all four corresponding PQ entries list the skills as Basic Rewards; no Ultimate Finish requirement was added.
 - Final Kamehameha retains Double Crystal Raids as an additional route; TP Medal Shop availability is retained.
 - Next task: continue auditing remaining mixed-route records, especially Sudden Death Beam and any PQ/TP Medal Shop combinations not yet evidence-reconciled.
+
+
+### 2026-09-19 continuation — Sudden Death Beam route normalization
+- Corrected `Sudden Death Beam` to `tp_medal_shop` with null `source_quest`.
+- Preserved all three documented acquisition routes: TP Medal Shop, STP Medal Shop, and Double Crystal Raid Battle.
+- No PQ provenance or Ultimate Finish requirement was inferred.
+- Next task: audit the remaining acquisition-type anomalies and verify canonical/index consistency.
