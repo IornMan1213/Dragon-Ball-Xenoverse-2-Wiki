@@ -2851,3 +2851,19 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 - Data commit: `de797b3b9e8750b20f4fd65891f2b0a715f18ad7`.
 - Expected live null `dlc_requirement` count after this batch: **30**.
 - Exact next task: recompute the null-DLC census, then target explicit DLC-era PQ/EM/mentor/shop records among the remaining 30; do not infer chronology from character association alone.
+
+
+## 2026-09-19 — explicit DLC PQ provenance batch 3
+
+- Resolved 4 additional `dlc_requirement` nulls from explicit DLC/PQ evidence:
+  - **Future Saga Chapter 2:** Full Power Destruction (PQ177).
+  - **Legendary Pack 1:** Thunder Flash (PQ146).
+  - **Super Pack 2:** Requiem of Destruction (PQ106).
+  - **Dragon Ball DAIMA Pack:** Super Kamehameha (SS4 DAIMA) (PQ181).
+- Bandai Namco identifies Future Saga Chapter 2 as DLC containing new Parallel Quests and additional moves; the PQ documentation explicitly places PQ177 in Chapter 2. citeturn0search1turn0search12
+- Bandai Namco's DLC catalog and the PQ documentation identify Legendary Pack 1 as the source of PQ146/Thunder Flash. citeturn0search2turn0search3
+- Bandai Namco's February 2017 announcement lists Requiem of Destruction among Super Pack 2's new attacks, and PQ106 is the associated quest. citeturn0search8turn0youtube40
+- The current Bandai Namco DLC catalog identifies the Dragon Ball DAIMA Pack as a dedicated DLC pack with new moves; the skill's PQ181 route is retained as the acquisition evidence. citeturn0search6
+- Data commit: `3ef6047398485f88619719c59435dd70f4629075`.
+- Live null `dlc_requirement` count after this batch: **26**.
+- Exact next task: inspect the remaining 26 nulls for explicit named DLC/update/shop provenance, with special attention to Shield Barrier, Supernova, Divine Lasso, Dragon Fist, Godly Display, and the character-only records.
