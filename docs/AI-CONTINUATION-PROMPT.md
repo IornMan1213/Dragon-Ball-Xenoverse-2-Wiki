@@ -2720,3 +2720,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Confirmed 300-Stamina Ki Blast Evasive classification and documented short-range explosive knockback mechanics from dedicated evidence; maintained PQ listing independently places it in Basic Reward.
 - Commits: `8aacc3faa0a40ecaed0c8521bd411410adaa2ffa` (skills), `650f3aedffd08426cbe5b35e988e75c9f9d56db8` (coverage audit).
 - Exact next task: continue the canonical type/cost and acquisition-provenance audit, prioritizing records still dated before 2026-09-20 and preserving conflicts where sources disagree.
+
+
+### 2026-09-20 cycle update — Energy Barrier / Spirit Slash
+- Re-audited **Energy Barrier** and preserved its conflicting acquisition evidence: maintained PQ32 listing says Basic Reward, while dedicated evidence ties the CaC drop to defeating Cell during the Ultimate Finish. No exclusive gate is asserted.
+- Refined **Spirit Slash** to exact **PQ02 — "A Deal?! The Saiyan Brothers" Basic Reward** provenance and retained the standard 200-Stamina Strike Evasive classification, distinguishing the DBS Super Hero variant's separate 300-Stamina behavior.
+- Commits: `e9137154c07aae27cc84381339c75c21a5566aed` (skills), `ac1aa3c0ef15187758ded91c21b69d79dc65c3da` (coverage audit).
+- Exact next task: continue the pre-2026-09-20 canonical audit, prioritizing conflicting reward gates and remaining type/cost discrepancies rather than adding low-confidence detail.
