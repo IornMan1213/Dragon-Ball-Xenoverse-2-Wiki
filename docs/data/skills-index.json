@@ -981,7 +981,7 @@
       "name": "Burst Stinger",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
