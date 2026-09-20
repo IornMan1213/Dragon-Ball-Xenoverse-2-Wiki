@@ -784,7 +784,7 @@
       "name": "Reverse Mabakusenko",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Reverse_Mabakusenko",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -801,7 +801,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "2026-09-19 verification: Skill Shop is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate."
     },
     {
       "name": "Rough Ranger",
@@ -3781,13 +3781,13 @@
       "name": "Instant Transmission",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Instant_Transmission"
       ],
       "ki_cost": 0,
-      "unlock_method": "Goku mentor training, Lesson 1",
+      "unlock_method": "Goku — Lesson 1",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3799,7 +3799,7 @@
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost.",
       "source_quest": "Goku mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate."
     },
     {
       "name": "Kai Kai",
@@ -4575,7 +4575,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "race_restriction": "Earthling or Saiyan",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dbxv2.fandom.com/wiki/Burning_Slash",
@@ -4589,7 +4589,7 @@
       ],
       "ki_cost": 100,
       "ultimate_finish_required": false,
-      "unlock_method": "Parallel Quest 44 reward",
+      "unlock_method": "Parallel Quest 44",
       "source_quest": 44,
       "last_verified": "2026-09-19",
       "research_status": "enriched",
@@ -4597,7 +4597,7 @@
       "source_quest_or_shop": "Parallel Quest 44",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: Parallel Quest 44 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate."
     },
     {
       "name": "Burning Swan",
@@ -4686,7 +4686,7 @@
       "name": "Deadly Dance",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers",
         "https://dbxv2.fandom.com/wiki/Deadly_Dance"
@@ -4703,7 +4703,7 @@
       "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension.",
       "source_quest": "Android 18 mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate."
     },
     {
       "name": "Death Slash",
