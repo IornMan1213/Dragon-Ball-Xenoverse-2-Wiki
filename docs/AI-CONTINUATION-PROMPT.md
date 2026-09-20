@@ -3228,3 +3228,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No drop-rate or unsupported Ultimate Finish details were invented.
 - An accidental citation-marker insertion during the first data update was immediately removed; the corrected canonical file contains no external citation markup from this work.
 - Exact next task: continue the remaining unresolved DLC provenance cohort and reconcile only records with independently supportable pack assignments.
+
+
+### 2026-09-19 continuation — skill provenance schema compatibility correction
+- Found and corrected a schema/data mismatch: `source_quest` legitimately contains numeric PQ IDs in the 283-record dataset, but the schema only permitted string/null.
+- Schema now permits non-negative integer PQ IDs as well as descriptive strings/null.
+- No factual data was rewritten.
+- Exact next task: continue deterministic schema/data compatibility checks, then resume the bounded mechanics/acquisition evidence cohort.
