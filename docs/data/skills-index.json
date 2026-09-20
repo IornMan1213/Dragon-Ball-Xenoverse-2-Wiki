@@ -1242,7 +1242,7 @@
       ],
       "unlock_method": "Parallel Quest 136 — \"Breaking Down the Barrier\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races"
     },
     {
@@ -1520,7 +1520,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Parallel Quest 11 — \"Burst Open and Mix!\" Basic Reward",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races"
     },
@@ -2012,7 +2012,7 @@
         "https://dragonball.fandom.com/wiki/Niagara_Pummel"
       ],
       "unlock_method": "Parallel Quest 136 — \"Breaking Down The Barrier\" Basic Reward",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races"
     },
@@ -2696,7 +2696,7 @@
       ],
       "unlock_method": "Parallel Quest 18 reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races"
     },
     {
@@ -2945,7 +2945,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Parallel Quest 136 — \"Breaking Down the Barrier\" Basic Reward",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races"
     },
@@ -3838,7 +3838,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Parallel Quest 184 — Basic Reward",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": null
     },
@@ -3873,7 +3873,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Parallel Quest 158 — \"Beat Bulma's Minions!\" Basic Reward",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races"
     },
