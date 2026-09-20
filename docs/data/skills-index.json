@@ -485,20 +485,23 @@
       "name": "Sudden Death Beam",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sudden_Death_Beam",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "TP Medal Shop / STP Medal Shop / Double Crystal Raid Battle",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super Afterimage",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
@@ -506,20 +509,26 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/Super_Afterimage",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Skill Shop (Conton City)",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super God Shock Flash",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_God_Shock_Flash",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -1981,14 +1990,17 @@
       "name": "Quick Sleep",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonball.fandom.com/wiki/Sleep",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Skill Shop (Conton City), after defeating Mira (Final Form) in the main story",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Rise to Action",
@@ -2040,26 +2052,32 @@
       "name": "Spirit Boost",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Boost",
         "https://dragonball.fandom.com/wiki/Spirit_Boost",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Super Guard",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "starting_move",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Super_Guard"
-      ]
+      ],
+      "unlock_method": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19"
     },
     {
       "name": "Surging Spirit",
