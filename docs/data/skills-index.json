@@ -515,7 +515,8 @@
       "unlock_method": "Random reward from Parallel Quest 44 — \"Dragon Balls of the Future\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Heroic Counter",
@@ -759,10 +760,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\" (random reward)",
+      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (40% bonus roll)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Dragon Burn",
@@ -932,7 +934,8 @@
       "unlock_method": "Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Spread Shot Retreat",
@@ -966,7 +969,8 @@
       "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Random Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Final Pose",
@@ -1176,7 +1180,8 @@
       "unlock_method": "Random reward from Parallel Quest 94 — \"Ultimate Power, Ultimate Saiyan\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Breaker Energy Wave",
@@ -1630,7 +1635,8 @@
       "unlock_method": "Parallel Quest 52 — \"Super Saiyan Bargain Sale\" Random Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
     },
     {
       "name": "Final Flash (Super)",
