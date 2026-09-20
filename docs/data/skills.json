@@ -1257,14 +1257,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 79 — \"Great Ape Festival\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 79",
       "ultimate_finish_required": false,
       "skill_description": "Mighty Explosive Wave is a Ki Blast Super Skill obtained from Parallel Quest 79; a separate Evasive variation is used by Jiren (Full Power).",
       "mechanics_notes": "Dedicated current-version evidence identifies Mighty Explosive Wave as a Ki Blast Super Skill from PQ79, costing 100 Ki; a separate Jiren (Full Power) Evasive variation exists. It creates a close-range explosion. The repository record is normalized to the equipable Super Skill rather than conflating that variant with the Evasive class. Current PQ evidence places it in the Basic Reward section, so no Ultimate Finish-only acquisition gate is recorded. No unsupported CaC race/gender/form restriction was inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
@@ -1274,7 +1274,7 @@
       "ki_cost_note": "The primary CaC/equipable Super Skill costs 100 Ki. A separate Evasive variation uses Stamina.",
       "source_quest": "Parallel Quest 79",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Reconciled 2026-09-20: Parallel Quest 79 — \"Great Ape Festival\" Basic Reward based on current reward evidence."
     },
     {
       "name": "Psychic Move",
@@ -1341,14 +1341,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward",
       "source_quest_or_shop": "Parallel Quest 39",
       "ultimate_finish_required": false,
       "skill_description": "Side Bridge is a Ki Blast Super Skill associated with Android 17.",
       "mechanics_notes": "Dedicated current-version evidence corrects Side Bridge to a 100-Ki Ki Blast Super from PQ39. It throws a disc that returns like a boomerang. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Side_Bridge",
@@ -1357,7 +1357,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 39",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Reconciled 2026-09-20: Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward based on current reward evidence."
     },
     {
       "name": "Spread Shot Retreat",
@@ -1398,14 +1398,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Random Reward",
       "source_quest_or_shop": "PQ165",
       "ultimate_finish_required": false,
       "skill_description": "Steel Mirage is a Ki Blast Super Skill associated with Android 18.",
       "mechanics_notes": "Dedicated current-version evidence corrects Steel Mirage to a 100-Ki Ki Blast Super from PQ165. It rushes past the opponent and attacks from behind with a Destructo-Disc. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
@@ -1414,7 +1414,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 165",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Reconciled 2026-09-20: Parallel Quest 165 — \"Anniversary Antics\" Random Reward based on current reward evidence."
     },
     {
       "name": "Final Pose",
@@ -2044,14 +2044,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish Bonus",
       "source_quest_or_shop": "PQ160",
       "ultimate_finish_required": false,
       "skill_description": "Demon Ray is a Super Ki Blast skill used by Gohan (Beast).",
       "mechanics_notes": "Dedicated current-version evidence confirms Demon Ray as a 100-Ki Ki Blast Super from PQ160, with a 300-Stamina follow-up/use-while-hit mechanic. Existing acquisition record is retained. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2060,7 +2060,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 160 — Pan in Peril",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Reconciled 2026-09-20: Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish Bonus based on current reward evidence."
     },
     {
       "name": "Destruction's Concerto: Comet",
