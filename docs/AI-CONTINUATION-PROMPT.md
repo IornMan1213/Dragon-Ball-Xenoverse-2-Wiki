@@ -3410,3 +3410,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Canonical and index records were synchronized.
 - Reference context: the current PQ documentation describes PQs as a major source of skills and distinguishes Basic/regular completion rewards from Ultimate Finish rewards. citeturn0search0turn0search8
 - Exact next task: continue deterministic PQ/shop/mentor verification through the remaining partially verified cohort, with Ultimate Finish flags changed only when explicit reward-condition evidence supports them.
+
+
+### 2026-09-19 continuation — shop acquisition cohort
+- Verified **Bending Kamehameha** (Skill Shop), **Big Bang Kamehameha** (TP Medal Shop), and **Divine Kamehameha** (TP Medal Shop).
+- Canonical/index synchronized; no Ultimate Finish requirement was assigned.
+- Next: continue deterministic shop/PQ/mentor verification through remaining partial records.
