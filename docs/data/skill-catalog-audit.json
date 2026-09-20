@@ -44,11 +44,12 @@
   "latest_research_batch": 315,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": true,
-  "current_research_focus": "Ki Blast Super source/repository reconciliation and deterministic acquisition/Ultimate Finish verification",
+  "current_research_focus": "Deterministic acquisition/Ultimate Finish verification across partially verified PQ skills",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "reconciliation_notes": [
     "2026-09-19: Burst Stinger was present in canonical skills.json but absent from the Ki Blast Super catalog batch. It is now present; the batch declares and contains 183 names. The source category also reports 183, but the pre-change batch contained only 182 actual names, so at least one additional source-vs-repository set-diff gap remains.",
-    "2026-09-19: Burst Stinger character attribution remains unresolved: GameFAQs attributes a PQ136 Ultimate Finish character drop to Goku (Ultra Instinct), while Xenoverse 2 Fandom and Dragon Ball Wiki associate the skill with Vegeta (Super Saiyan God). Canonical data preserves the conflict."
+    "2026-09-19: Burst Stinger character attribution remains unresolved: GameFAQs attributes a PQ136 Ultimate Finish character drop to Goku (Ultra Instinct), while Xenoverse 2 Fandom and Dragon Ball Wiki associate the skill with Vegeta (Super Saiyan God). Canonical data preserves the conflict.",
+    "2026-09-19: Rough Ranger promoted to verified after cross-source confirmation of its PQ119 Ultimate Finish acquisition. Dragon Ball Wiki states it is a random Future Warrior reward in PQ119 after Ultimate Finish; GameFAQs PQ119 notes place Rough Ranger in the quest reward set."
   ]
 }
