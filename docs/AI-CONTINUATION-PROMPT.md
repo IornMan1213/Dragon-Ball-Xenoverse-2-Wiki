@@ -2829,3 +2829,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `e7d53222fb51009b6fae91e5bf06e9d3391f31df`.
 - Live census after batch: 283 records; `source_quest` null on 181 records.
 - Next task: inspect the remaining null records for explicit single-quest identifiers in `source_quest_or_shop` / `unlock_method`, prioritizing records with a concrete `Parallel Quest <number>` string and skipping generic/random or multi-PQ-only metadata.
+
+
+### 2026-09-19 continuation — source quest provenance batch 8
+- Completed the next ten explicit single-quest records: Hero's Flute (PQ116), Kai Kai (PQ63), Petrifying Spit (PQ114), Phantom Fist (PQ97), Shield Barrier (PQ153), Solar Flare (PQ01), Wall of Defense (PQ10), Charge (PQ83), Divinity Unleashed (PQ110), and Do or Die (PQ49).
+- Skills commit: `0635e4cd59d30339df6a2d398d0f7ba107314afa`.
+- Coverage audit commit: `9e5471d3b2fe0d74dcf9542c07ec4be4820c0642`.
+- Live census: 283 records; `source_quest` null on 171 records.
+- Next task: continue explicit single-PQ provenance, beginning with **Fighting Pose E (PQ19), Fighting Pose H (PQ61), Justice Pose (PQ53), Taunt (PQ45), Brave Sword Slash (PQ116), Burning Swan (PQ167)**, while leaving multi-PQ/ambiguous reward-pool records unchanged.
