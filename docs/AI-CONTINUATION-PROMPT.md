@@ -3082,3 +3082,22 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Audit commit: cbaf3c9c2fdb4ad4b14f6297736b104ae6591b7d.
 - Live census remains **283 skills; 0 null dlc_requirement; 28 null source_quest**.
 - Next exact task: inspect the schema and validators to determine whether a normalized acquisition_type field would accurately represent these non-quest routes without corrupting source_quest semantics. Do not change schema until validator/documentation impact is understood.
+
+
+### 2026-09-19 continuation — normalized acquisition-type schema
+- Inspected the canonical schema, research builder, and validator.
+- Added normalized `acquisition_type` to all 283 skill records:
+  - quest_or_mission: 255
+  - character_only: 8
+  - skill_shop: 8
+  - tp_medal_shop: 9
+  - starting_move: 1
+  - other_nonquest: 2
+- Added the previously omitted canonical `source_quest` property to `docs/data/skills.schema.json`.
+- Updated `scripts/validate_skills.py` to validate the acquisition enum.
+- No previously-null quest was fabricated; the 28 null source_quest records now have explicit non-quest classification.
+- Data commit: `7446c748d125f9a9d92bf70813cbf2cb34796488`.
+- Schema commit: `75a61208194875feb6e4a742f7b314a06b2a3d49`.
+- Validator commit: `4195b2585583bd7cd1b01c6b67cd1219515884c1`.
+- Audit commit: `a75d80df9f563b6433a2ffc7fdfa6d084599c071`.
+- Next exact task: validate the modified dataset with the repository validator and inspect generated/index consistency before making further data changes.
