@@ -2571,14 +2571,16 @@
       "name": "Dragon Spark",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "notes": "2026-09-19 verification: The current skill page explicitly states Dragon Spark is unlocked from Parallel Quest 177, \"Warped Sense of Justice.\" This establishes the concrete PQ source without asserting an Ultimate Finish-only gate."
     },
     {
       "name": "Dragon Spiral",
@@ -2771,7 +2773,8 @@
       ],
       "last_verified": "2026-09-19",
       "unlock_method": "Random Parallel Quest reward",
-      "ultimate_finish_required": false
+      "ultimate_finish_required": false,
+      "notes": "2026-09-19 verification: Steam's live all-PQ guide lists Justice Drive as a Basic Reward for PQ168 (Videl: Super Mom), matching the repository's PQ reward attribution."
     },
     {
       "name": "Justice Kick",
@@ -2809,14 +2812,16 @@
       "name": "Mach Punch",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mach_Punch",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "notes": "2026-09-19 verification: Steam's live all-PQ guide lists Mach Punch as a Basic Reward for PQ19 (Fierce Battle! Ginyu Force), matching the existing repository acquisition record."
     },
     {
       "name": "Meteor Blow",
