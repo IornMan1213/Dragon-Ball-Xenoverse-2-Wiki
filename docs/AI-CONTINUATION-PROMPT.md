@@ -574,128 +574,128 @@ A new AI chat must be able to continue from this file without depending on the p
 
 ### 2026-09-19 cycle update — Future Warrior ultimate-skill reconciliation
 - Continued the missing-`usable_by_cac` audit with Future Warrior-specific evidence rather than inferring CaC eligibility from a character's use of a skill.
-- Reconciled **Big Bang Kamehameha, Super Spirit Bomb, Emperor's Death Beam, and Final Explosion**. Big Bang Kamehameha is obtainable through the TP Medal Shop; Super Spirit Bomb through Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion through the TP Medal Shop. 
+- Reconciled **Big Bang Kamehameha, Super Spirit Bomb, Emperor's Death Beam, and Final Explosion**. Big Bang Kamehameha is obtainable through the TP Medal Shop; Super Spirit Bomb through Expert Mission 16; Emperor's Death Beam is obtainable by the Future Warrior; Final Explosion through the TP Medal Shop.
 - Skills commit: `ed425d388377902aed738ba03ae49b85342d3c41`; coverage commit: `71c9479de17e21b3a0eac16f5b18ddd6b8614e32`.
 - The external Fandom search endpoint remains intermittently robots-blocked; accessible search results and repository source URLs were used where available. No unsupported claims were promoted to `verified`.
 - Exact next task: continue the remaining missing-CaC cohort, focusing on DAIMA/Future Saga skills and explicit racial/character boundaries, then perform a census of remaining null core fields before moving beyond the skills workstream.
 
 ### 2026-09-19 cycle update — DAIMA/Future Saga boundary investigation
 - Read the live handoff and continued the P1 missing-`usable_by_cac` audit.
-- Investigated **Burning Blast, Force Edge, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** plus the broader Future Saga Chapter 2 cohort. Current sources confirm their DAIMA character/PQ provenance, but do not explicitly establish Future Warrior eligibility for the individual moves. The repository therefore leaves `usable_by_cac` null rather than incorrectly marking them false or true. 
-- This follows the repository's evidence rule: character-equipped skill lists are not sufficient proof of CaC availability, because Xenoverse 2 has race/gender/transform-specific restrictions. 
+- Investigated **Burning Blast, Force Edge, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** plus the broader Future Saga Chapter 2 cohort. Current sources confirm their DAIMA character/PQ provenance, but do not explicitly establish Future Warrior eligibility for the individual moves. The repository therefore leaves `usable_by_cac` null rather than incorrectly marking them false or true.
+- This follows the repository's evidence rule: character-equipped skill lists are not sufficient proof of CaC availability, because Xenoverse 2 has race/gender/transform-specific restrictions.
 - Coverage investigation commit: `79e5e23a659df0b4eb73fb73bb505f0f6d4ea953`.
 - Exact next task: continue the unresolved Future Saga/DAIMA cohort using explicit Future Warrior/CaC evidence, then audit remaining null `usable_by_cac`, `race_restriction`, and DLC/version fields as a complete census. Do not promote records to `verified` without resolving acquisition/reward semantics as well.
 
 ### 2026-09-19 cycle update — additional Future Warrior skill evidence
-- Reconciled **Phantom Fist, Shield Barrier, Assault Vanish, Fighting Pose K, Death Ball, Supernova, Divine Lasso, Lightning Impact, and Prominence Flash** with explicit Future Warrior evidence. 
+- Reconciled **Phantom Fist, Shield Barrier, Assault Vanish, Fighting Pose K, Death Ball, Supernova, Divine Lasso, Lightning Impact, and Prominence Flash** with explicit Future Warrior evidence.
 - Skills commit: `550556f9385263b468fd2153ca38bdc0b98dda4e`.
 - Coverage commit: `7ec129d63d11c6353e3d82995d614ffe44e9b193`.
 - Live null-`usable_by_cac` census before this batch contained 35 records; this batch removes nine explicit-evidence gaps while preserving the `partially_verified` evidence standard.
 - Exact next task: continue the remaining 26 null-CaC records, prioritizing Future Saga/DAIMA and other recent DLC skills, then audit the 190 CaC records still lacking explicit `race_restriction` values. Do not infer race scope from generic CaC availability.
 
 ### 2026-09-19 cycle update — Future Warrior/form-exclusive reconciliation
-- Continued the null-`usable_by_cac` audit using the current Future Warrior technique corpus. The source explicitly documents that Future Warrior techniques can be race/gender/transform restricted, so form-specific access is represented rather than flattened into universal availability. 
+- Continued the null-`usable_by_cac` audit using the current Future Warrior technique corpus. The source explicitly documents that Future Warrior techniques can be race/gender/transform restricted, so form-specific access is represented rather than flattened into universal availability.
 - Reconciled **Surging Spirit, Dragon Fist, Divine Ray Bomb, Dragon Thunder, Final Rampage, Godly Display, Supreme Fury, and Victory Rush**. `Surging Spirit` is specifically recorded as usable through Ultra Instinct Future Warrior access.
 - Skills commit: `6f1a988f2eee96c59e137999f6842cd628b49c73`; coverage commit: `96ff82019d1d8be3abf05805e6346cd8e6e89f81`.
 - Exact next task: recalculate the remaining null-CaC cohort and continue explicit-evidence research. Then begin the 190-record race-restriction census, prioritizing known race/gender/form-specific techniques instead of assigning `All CaC races` by default.
 
 ### 2026-09-19 cycle update — explicit race restriction audit
 - Shifted from null CaC eligibility into the next mandated race-restriction workstream.
-- Reconciled **Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Ill Bomber, Candy Beam, Buu Buu Ball, Shining Slash, Burning Slash, Evil Flight Strike, Darkness Rush (Melee), and Darkness Rush (Ranged)** using the Future Warrior technique corpus. 
+- Reconciled **Saiyan Spirit, Explosive Buu Buu Punch, Zigzag Express, Ill Bomber, Candy Beam, Buu Buu Ball, Shining Slash, Burning Slash, Evil Flight Strike, Darkness Rush (Melee), and Darkness Rush (Ranged)** using the Future Warrior technique corpus.
 - Skills commit: `e6c352c9423aa2a42a6fa271644b3d68f5306902`.
 - Coverage commit: `dbe618bb14ab12938df39f32edf3e526baa51780`.
 - Exact next task: continue the race-restriction census, prioritizing records whose source text explicitly names a race or gender, then revisit the remaining null-CaC cohort. Do not replace an explicit multi-race restriction with `All CaC races`.
 
 ### 2026-09-19 cycle update — unresolved recent DLC evidence
 - Recalculated the live census: **18 null-CaC skills** and **184 CaC-eligible skills with null race restriction**.
-- Reviewed recent DLC candidates without over-promoting ambiguous records. Dark Inscription, Emperor's Cannon, and Chaotic Time Impact are documented on Golden Frieza (Ultra Supervillain); Burst Blitz, Dragon Spark, and Soaring Rush are documented on Goku (Mini). Current evidence does not establish CaC access for these records, so they remain null. 
+- Reviewed recent DLC candidates without over-promoting ambiguous records. Dark Inscription, Emperor's Cannon, and Chaotic Time Impact are documented on Golden Frieza (Ultra Supervillain); Burst Blitz, Dragon Spark, and Soaring Rush are documented on Goku (Mini). Current evidence does not establish CaC access for these records, so they remain null.
 - Skills commit: `b9a8e3ae8baa7c8acbe11c150266a01b1f0c747b`.
 - Coverage commit: `865fb30619def2d79296b5cb767dbe2576c069e6`.
 - Next: continue the 18-record null-CaC cohort, then resume the 184-record race-restriction census using explicit race/gender/form evidence only.
 
 ### 2026-09-19 cycle update — explicit Future Warrior corrections
-- Recalculated and re-audited the null-CaC cohort. **Mystic Flash** and **Thunder Flash** are explicitly included in the Future Warrior technique corpus and were corrected to `usable_by_cac: true`; race scope remains unresolved rather than being guessed. 
+- Recalculated and re-audited the null-CaC cohort. **Mystic Flash** and **Thunder Flash** are explicitly included in the Future Warrior technique corpus and were corrected to `usable_by_cac: true`; race scope remains unresolved rather than being guessed.
 - Skills commit: `cbb114e5cef2b499450dc937367d3b95e7a1e202`.
 - Coverage commit: `4db0b54773c7bdf8964ec74d47356436fdc28250`.
 - Next: continue the remaining null-CaC cohort, then resume the explicit race-restriction census.
 
 ### 2026-09-19 cycle update — Requiem of Destruction
-- Confirmed **Requiem of Destruction** as an explicit Future Warrior/CaC technique. Its technique page identifies Future Warrior as a user and gives New Parallel Quest 104 as the acquisition route. 
+- Confirmed **Requiem of Destruction** as an explicit Future Warrior/CaC technique. Its technique page identifies Future Warrior as a user and gives New Parallel Quest 104 as the acquisition route.
 - Skills commit: `6cc97745e9856af45e52d148aa3d40f6f14f7184`.
 - Coverage commit: `2a6a05a09584ebfcd7ef0936015969123ae25d74`.
 - The null-CaC cohort is now **15 records**. Continue explicit-evidence review; do not infer CaC eligibility from a character's equipped moves alone.
 
 ### 2026-09-19 cycle update — DLC evidence boundary re-audit
-- Re-audited the remaining unresolved DLC cohort. Character movesets and PQ reward tables were verified, but those sources do not by themselves establish CaC eligibility. God of Destruction's Plaything/Poise remain tied to Belmod; Force Edge/Burning Blast remain tied to SS3 Vegeta (DAIMA) in the current evidence. 
+- Re-audited the remaining unresolved DLC cohort. Character movesets and PQ reward tables were verified, but those sources do not by themselves establish CaC eligibility. God of Destruction's Plaything/Poise remain tied to Belmod; Force Edge/Burning Blast remain tied to SS3 Vegeta (DAIMA) in the current evidence.
 - Skills commit: `dd675147e02a668b79a8b94b2293a8d55d27fbf9`.
 - Coverage commit: `f38f3e3544682ab7d107c2ba1de5e10b8dbb6b87`.
 - Next: seek explicit Future Warrior/CaC references for the remaining 15 records; if unavailable, keep them unresolved and move to the race-restriction census rather than guessing.
 
 ### 2026-09-19 cycle update — DAIMA CaC evidence
-- Reconciled **Force Edge, Burning Blast, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** to `usable_by_cac: true` based on explicit CaC-focused coverage and CaC build/combo evidence. 
+- Reconciled **Force Edge, Burning Blast, Final Flash (SS3 DAIMA), and Super Kamehameha (SS4 DAIMA)** to `usable_by_cac: true` based on explicit CaC-focused coverage and CaC build/combo evidence.
 - Skills commit: `9db1be415b06fbfde8288f0eb8e47548477b30f6`.
 - Coverage commit: `9ef664e50f208c1a3e8b955ee10f199e3ef40806`.
 - Remaining null-CaC cohort is now **11 records**. Continue explicit evidence research before moving to the race-restriction census.
 
 ### 2026-09-19 cycle update — CaC build evidence correction
-- Corrected **God of Destruction's Plaything** to `usable_by_cac: true` after finding explicit custom-character build evidence. 
+- Corrected **God of Destruction's Plaything** to `usable_by_cac: true` after finding explicit custom-character build evidence.
 - Skills commit: `c4c98ee41354038d4e0701c8d82a0f18c52b0df3`.
 - Coverage commit: `a18eed0e500cf2c18818743a5a80d02daab5b3fa`.
 - Remaining null-CaC cohort is now **10 records**. Continue explicit evidence research; do not infer eligibility from PQ rewards alone.
 
 ### 2026-09-19 cycle update — second-pass DLC CaC reconciliation
-- Reconciled **Blaster Stream, God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark** to `usable_by_cac: true` using explicit Future Warrior/CaC evidence. 
+- Reconciled **Blaster Stream, God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, and Dragon Spark** to `usable_by_cac: true` using explicit Future Warrior/CaC evidence.
 - Skills commit: `6bb28b3140b30047c04a22436593cfc4feb55157`.
 - Coverage commit: `e876a3a75fd039bdac4a381e621043f771290060`.
 - Remaining null-CaC cohort is now **4 records**: Dark Inscription, Emperor's Cannon, Heat Wave, and Chaotic Time Impact. Continue those four with the same evidence standard before beginning the race-restriction census.
 
 ### 2026-09-19 cycle update — Heat Wave CaC evidence
-- Confirmed **Heat Wave** as CaC-usable from a documented player custom-character build. 
+- Confirmed **Heat Wave** as CaC-usable from a documented player custom-character build.
 - Skills commit: `7e4650b290fdf48c6b1c237286b1a7772ff6cd25`.
 - Coverage commit: `b029dc646ccacea77c579212bddff201ed1e204b`.
 - Remaining null-CaC cohort is now **3 records**: Dark Inscription, Emperor's Cannon, and Chaotic Time Impact.
 - Next: exhaust those three with explicit evidence, then begin the race-restriction census in earnest.
 
 ### 2026-09-19 cycle update — final null-CaC cohort closed
-- Closed **Dark Inscription, Emperor's Cannon, and Chaotic Time Impact** as `usable_by_cac: true` based on explicit DLC 20 CaC-focused evidence. 
+- Closed **Dark Inscription, Emperor's Cannon, and Chaotic Time Impact** as `usable_by_cac: true` based on explicit DLC 20 CaC-focused evidence.
 - Skills commit: `256d88f05c339da6bfcab7a7c7b3f1d18bd68a1e`.
 - Coverage commit: `dbf067c9586b4c654c59821edba06fe36a09b342`.
 - The explicit null-CaC census is now complete. Next priority is the **race-restriction census**: recompute the live cohort, identify every CaC-usable skill with `race_restriction: null`, and reconcile restrictions in evidence-backed batches without inferring from character ownership alone.
 
 ### 2026-09-19 cycle update — race restriction census kickoff
 - Live census: **283 skills / 270 CaC-usable / 202 CaC-usable with race restriction still null**.
-- Reconciled **Majin Kamehameha → Majin-only** using explicit Future Warrior technique documentation rather than merely its Majin character association. 
+- Reconciled **Majin Kamehameha → Majin-only** using explicit Future Warrior technique documentation rather than merely its Majin character association.
 - Skills commit: `574e87cde26b8e8ed1bdaa410e7b59786e3e4305`.
 - Coverage commit: `e636115236dad51830fbfcf96f9759bbf0176d7c`.
 - Next priority: systematically identify additional explicit race/gender restrictions, beginning with skills whose Future Warrior documentation directly names a race restriction; do not blanket-mark character-origin skills.
 
 ### 2026-09-19 cycle update — universal CaC race batch
-- Reconciled nine unrestricted CaC skills: **Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, Galick Gun** → `All CaC races`, based on explicit Future Warrior technique documentation. 
+- Reconciled nine unrestricted CaC skills: **Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, Galick Gun** → `All CaC races`, based on explicit Future Warrior technique documentation.
 - Skills commit: `d248c4be6598c338181efd83a9c5edbe1472e496`.
 - Coverage commit: `648330db2fbe3bb5c6502b0fc2c54a26034b8647`.
 - Continue the race census with explicit race-specific entries; avoid treating a skill's character_source as proof of a CaC race lock.
 
 ### 2026-09-19 cycle update — universal race batch 2
-- Reconciled **Candy Beam (Super), Petrifying Spit, and Kai Kai** → `All CaC races` using explicit Future Warrior/CaC evidence. 
+- Reconciled **Candy Beam (Super), Petrifying Spit, and Kai Kai** → `All CaC races` using explicit Future Warrior/CaC evidence.
 - Skills commit: `dc4fc4234876c747429e81a73cf8be8be4c946e6`.
 - Coverage commit: `2f3f95939e96e990b1da81ea76b91988e3aaaf79`.
 - Continue the census with explicit race/gender/form-exclusive evidence; unresolved records remain untouched until evidence clears the threshold.
 
 ### 2026-09-19 cycle update — explicit restriction batch
-- Reconciled **Zigzag Express → Majin male** and **Namek Finger → Namekian** using explicit Future Warrior restrictions. 
+- Reconciled **Zigzag Express → Majin male** and **Namek Finger → Namekian** using explicit Future Warrior restrictions.
 - Skills commit: `8425c7ed5804608fdbd38df7668d9495e94642a8`.
 - Coverage commit: `f594df1729fe0bbc4e95f7b8ecb46e552939720d`.
 - Continue the race census with the same strict evidence threshold, prioritizing explicit Future Warrior race/gender wording.
 
 ### 2026-09-19 cycle update — race provenance hardening
 - Live race backlog: **189** CaC-usable records with `race_restriction` still unset.
-- Hardened provenance for the existing explicit race-restriction cohort by adding the dedicated Future Warrior technique reference to ten records; no new restrictions were inferred without explicit evidence. 
+- Hardened provenance for the existing explicit race-restriction cohort by adding the dedicated Future Warrior technique reference to ten records; no new restrictions were inferred without explicit evidence.
 - Skills commit: `7dad27d834189474438cae340de541b1ad1ca168`.
 - Coverage commit: `1f8b558bc012640a4517507251886894ff62f3c4`.
 - Next priority: continue mining the Future Warrior reference for any explicit race/gender/transform restrictions that map to the remaining 189 records; otherwise preserve null rather than guessing.
 
 ### 2026-09-19 cycle update — Pure Majin form batch
-- Reconciled **Angry Shout, Vanishing Ball, Super Vanishing Ball, Teleporting Vanishing Ball, Pearl Flash, and Buu Buu Ball** as `Majin (Pure Majin form)` using explicit form-exclusive Future Warrior documentation. 
+- Reconciled **Angry Shout, Vanishing Ball, Super Vanishing Ball, Teleporting Vanishing Ball, Pearl Flash, and Buu Buu Ball** as `Majin (Pure Majin form)` using explicit form-exclusive Future Warrior documentation.
 - Skills commit: `156e8fce946ffd4085ebb86e0accb41e943b0706`.
 - Coverage commit: `21015527a5f032c42b9ad02768bedbd8717160e6`.
 - Continue prioritizing explicit form/race/gender entries, with ordinary character-origin techniques remaining null until the evidence actually establishes a CaC restriction.
@@ -738,7 +738,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - No race values were changed in this cycle. The source explicitly supports the existing restrictions, so this is provenance hardening rather than speculative classification.
 - Skills commit: `5fe12abd56347b2d4e34974d5653a72a2cff308d`.
 - Coverage commit: `a976239d0e48357a68b44b0603d26ac7a3913fc5`.
-- Evidence source: accessible Future Warrior reference, which explicitly states race/gender restrictions for these techniques. 
+- Evidence source: accessible Future Warrior reference, which explicitly states race/gender restrictions for these techniques.
 - Exact next task: continue mining explicit race/gender/form restrictions among the remaining 186 null-race CaC records; if the accessible source only identifies a character association, leave the record unresolved.
 
 ### 2026-09-19 cycle update — Future Warrior provenance expansion
@@ -747,7 +747,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - These are provenance improvements only. The accessible evidence identifies the moves as part of the Future Warrior's Xenoverse 2 technique set, but does not explicitly establish an unrestricted all-race scope for each one; their race restrictions therefore remain null rather than being inferred.
 - Skills commit: `9f371e8ab6b63f23f6133db785bceb349f8ad474`.
 - Coverage commit: `f5b4b180bc21eb1a49431252b90c10e450816c18`.
-- Evidence: accessible Future Warrior technique reference plus individual technique pages for the clearest acquisition/user confirmations. 
+- Evidence: accessible Future Warrior technique reference plus individual technique pages for the clearest acquisition/user confirmations.
 - Exact next task: continue the 186-record race-restriction backlog, prioritizing explicit race/gender/form wording. Do not turn generic Future Warrior technique membership into `All CaC races` without an explicit universal-race statement.
 
 ### 2026-09-19 cycle update — Future Warrior provenance expansion batch 2
@@ -756,7 +756,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - These are provenance-only updates. The source explicitly identifies the techniques within the Future Warrior's Xenoverse 2 technique set, while also warning that some techniques are race/gender/transformation exclusive; therefore these records remain race-null unless a separate explicit restriction is established.
 - Skills commit: `02bdd16007073f4e838e6242279f7b65c21571f9`.
 - Coverage commit: `04768530cb211172ed514d3e619f76a43f23b9d2`.
-- Evidence source: Future Warrior technique reference. 
+- Evidence source: Future Warrior technique reference.
 - Exact next task: continue the remaining **186** null-race CaC records, separating explicit restriction evidence from mere Future Warrior usage/provenance and preserving null where race scope remains unproven.
 
 ### 2026-09-19 cycle update — Future Warrior provenance expansion batch 3
@@ -786,7 +786,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - This corroborates provenance only; race restrictions were not inferred where the source merely lists the technique.
 - Skills commit: `cb8e9944eb6136186f0149b2cac586291eb5a78f`.
 - Coverage commit: `4dc14d75b8d53539e2c07c557b89366be9682274`.
-- Research source: The Codex Future Warrior (Xenoverse 2), which explicitly documents several race/gender restrictions and distinguishes those from general technique listings. 
+- Research source: The Codex Future Warrior (Xenoverse 2), which explicitly documents several race/gender restrictions and distinguishes those from general technique listings.
 - Exact next task: continue the null-race census and prioritize records where the source provides explicit race/gender/form wording.
 
 ### 2026-09-19 cycle update — explicit form-restriction audit
@@ -804,7 +804,7 @@ A new AI chat must be able to continue from this file without depending on the p
 
 ### 2026-09-19 cycle update — Death Psycho Bomb explicit unrestricted evidence
 - Classified **Death Psycho Bomb** as `All CaC races`.
-- Evidence: the dedicated technique source explicitly states that in Xenoverse 2 the Future Warrior obtains it from PQ33 and can use it **regardless of race**. 
+- Evidence: the dedicated technique source explicitly states that in Xenoverse 2 the Future Warrior obtains it from PQ33 and can use it **regardless of race**.
 - This was a canonical null-race record, so the live unresolved cohort decreases by one.
 - Skills commit: `d510d9aadf33fda593ed2cef2695af1d58aa16f2`.
 - Coverage commit: `d79eeed38912d6f37269233554aa24a3a29cd9e1`.
@@ -846,7 +846,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - Continue the null-race explicit-evidence sweep.
 
 ### 2026-09-19 cycle update — Super Spirit Bomb corroboration and missing-record audit
-- Added The Codex Future Warrior source to `Super Spirit Bomb`; it independently corroborates unrestricted race access already recorded as `All CaC races`. 
+- Added The Codex Future Warrior source to `Super Spirit Bomb`; it independently corroborates unrestricted race access already recorded as `All CaC races`.
 - Confirmed `Brave Heat`, `Power Pole`, and `Power Pole Combo` are referenced by external Future Warrior material but do not exist as canonical records in the current `skills.json`; do not fabricate records during the race census.
 - Skills commit: `2533919cfe27a9ecd1ea663e47d85a4d4293bf89`.
 - Coverage commit: `45c92022cec71b8b08b1673ec04941d2e4725ff2`.
@@ -1528,7 +1528,7 @@ A new AI chat must be able to continue from this file without depending on the p
 - Reconciled the next live cohort: **Power Rush, Saiyan Spirit, Super Dragon Flight, Supreme Fury, Unrelenting Barrage, Venus Fist, Victory Rush**.
 - Updated docs/data/skills.json and docs/COVERAGE-AUDIT.md.
 - Data commit: 50f848fa53c1c615d1b64ab3d02378e487b43444.
-- Web evidence specifically corroborated Power Rush's 1000 Ki / Strike Ultimate / 14-hit behavior and PQ122 acquisition; the maintained PQ guide corroborates PQ122 and PQ84 reward identities. 
+- Web evidence specifically corroborated Power Rush's 1000 Ki / Strike Ultimate / 14-hit behavior and PQ122 acquisition; the maintained PQ guide corroborates PQ122 and PQ84 reward identities.
 - Validation after write: reparse skills.json, recount CaC fields, and re-read the seven target records.
 - Exact next task: continue with the next eight records after Victory Rush. Preserve null race restrictions when explicit evidence is insufficient.
 
@@ -1834,7 +1834,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-19 continuation — unlock-method coverage completion
 - Recomputed the live canonical skill metadata after the source-field pass.
 - Found exactly two null unlock_method fields: **Dragon Thunder** and **Death Ball**.
-- Updated Dragon Thunder to explicit `N/A — character-only skill; unavailable for CaC`, supported by current skill evidence; updated Death Ball to `Frieza mentor — Intergalactic Emperor of Evil 3`, matching the mentor reward evidence. 
+- Updated Dragon Thunder to explicit `N/A — character-only skill; unavailable for CaC`, supported by current skill evidence; updated Death Ball to `Frieza mentor — Intergalactic Emperor of Evil 3`, matching the mentor reward evidence.
 - Data commit: `6f9817c1d7117b43e6b0e9c742d9567f2bce8a25`.
 - Current skill metadata census: **283 total / 269 CaC-usable / 0 missing research_status / 0 missing mechanics_notes / 0 missing source_quest_or_shop / 0 missing unlock_method**. The remaining null `ki_cost`, `stamina_cost`, and `damage_type` values are largely legitimate/non-applicable fields and must be classified before filling; do not invent values.
 - Next exact task: recompute the field census and classify the 21 null Ki-cost records and other nullable fields by applicability/evidence, then continue into P1 Parallel Quest reward/acquisition/version provenance.
@@ -1850,7 +1850,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-19 continuation — PQ reward provenance tranche: PQ 18-20
 - Started the P1 Parallel Quest reward/acquisition/version provenance workstream.
 - Canonical `docs/data/pq-record-batches/pq-015-020.json` now records verified skill rewards for PQ 18-20: **18 = Time Control + Mach Dash; 19 = Mach Punch + Fighting Pose E; 20 = Mystic Flash**.
-- Evidence was checked against the current Steam all-186 PQ guide and dedicated skill pages; PQ 19 is independently listed with Mach Punch/Fighting Pose E, and Mystic Flash is explicitly unlocked by PQ 20. 
+- Evidence was checked against the current Steam all-186 PQ guide and dedicated skill pages; PQ 19 is independently listed with Mach Punch/Fighting Pose E, and Mystic Flash is explicitly unlocked by PQ 20.
 - Data commit: `909c71bd5082761f9848b937bcb8aa4d65f35f5d`.
 - Do not use the older partial reward-map empties as negative evidence. They mean unresolved in that normalization layer, not “no reward.”
 - Exact next task: reconcile PQ 21-40 skill rewards against direct current-reference evidence, updating only evidence-backed relationships and then update this handoff again.
@@ -1870,7 +1870,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — PQ 61-80 reward pass
 - Canonical `pq-061-080.json` now carries source-backed `skill_rewards` for PQ 61-80.
-- PQ 66 was corrected to **Candy Beam** after independent corroboration; the partial normalization map's `Warp Kamehameha` entry was not used as authoritative evidence. 
+- PQ 66 was corrected to **Candy Beam** after independent corroboration; the partial normalization map's `Warp Kamehameha` entry was not used as authoritative evidence.
 - Added the current all-186 Steam source to the range.
 - Latest data correction commit: `3bbce3ccc4e7ec3d9ff311fa38263d649382d107`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 81-100**, then update the audit and this handoff.
@@ -1889,13 +1889,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — PQ 121-142 reward pass
 - Canonical `pq-121-142.json` now carries source-backed skill relationships for PQ 122-142 and consistent all-186 provenance.
-- PQ 121 remains empty for `skill_rewards`; its source-backed reward list currently establishes Tuxedo, Wedding Dress, and the Fu Super Soul, not a skill. 
+- PQ 121 remains empty for `skill_rewards`; its source-backed reward list currently establishes Tuxedo, Wedding Dress, and the Fu Super Soul, not a skill.
 - Data commit: `ab2907fbaefa5500747d58fdec8e861cbe615f`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 143-162**, then update the audit and this handoff.
 
 ### 2026-09-19 continuation — PQ 143-162 reward pass
 - Canonical `pq-143-162.json` now carries source-backed skill relationships for PQ 143, 145-156, and 158-162, with consistent all-186 provenance.
-- PQ 144 and PQ 157 remain empty for `skill_rewards` because the current normalized reward layer does not establish skills for them. 
+- PQ 144 and PQ 157 remain empty for `skill_rewards` because the current normalized reward layer does not establish skills for them.
 - Data commit: `c80087a1225f25c300f6d81778f6f398f4ae0bc8`.
 - Next exact task: continue the source-backed skill-reward audit through **PQ 163-186**, then update the audit and this handoff.
 
@@ -1907,7 +1907,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — PQ skill-edge population complete
 - The PQ 1-186 canonical skill reward relationships are now populated as **229 source-backed edges**.
-- Corrected a stale seed relationship that incorrectly linked Death Slash to PQ 1; PQ 1's current reward listing has no skill, while Death Slash is listed at PQ 23. 
+- Corrected a stale seed relationship that incorrectly linked Death Slash to PQ 1; PQ 1's current reward listing has no skill, while Death Slash is listed at PQ 23.
 - Crosslink report now records 229 resolved skill relationships with zero unresolved links.
 - Next exact task: populate and reconcile **Super Soul reward edges for PQ 1-186**, preserving empty arrays as unresolved/non-negative and recording source conflicts rather than guessing.
 - Latest commits: `4e1b628045bdcbf35c4d0f221111cd24b8a9a6a4`, `01bed910511947d5b614eed0f2d7de597ca7f2c3`, `a483755f96a02a1a6f06c013aa98aeb90c925e79`.
@@ -2097,7 +2097,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-19 continuation — Super acquisition metadata batch
 - Resolved `ultimate_finish_required: false` for 15 Super skills with explicit non-UF acquisition routes: Shenron wishes, mentor training, Skill Shop, or documented ordinary PQ reward routes.
 - No PQ skill was marked false merely because it is associated with a PQ; only explicit acquisition-route evidence was used.
-- Web cross-checks confirmed mentor skills are awarded through mentor training and that skill acquisition has multiple routes rather than universally requiring Ultimate Finish. 
+- Web cross-checks confirmed mentor skills are awarded through mentor training and that skill acquisition has multiple routes rather than universally requiring Ultimate Finish.
 - Next exact task: **recompute Super/Ultimate nullable acquisition metadata and target another small batch with explicit non-PQ or UF-specific evidence.**
 
 ### 2026-09-19 continuation — Super/Ultimate non-UF acquisition batch
@@ -2110,13 +2110,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved `ultimate_finish_required: false` for 10 additional Super skills with explicit shop, starter, or mentor-training acquisition routes: Sudden Death Beam, Emperor's Blast, Namek Finger, Pressure Sign, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance.
 - TP/STP Medal Shop and Skill Shop acquisition routes were treated as non-UF routes; mentor training and starter acquisition were likewise treated as non-UF.
 - Preserved remaining nullable fields where the repository only has ambiguous or PQ-gating evidence.
-- External cross-check: current reference material confirms TP/STP shops and mentor training are distinct skill acquisition channels. 
+- External cross-check: current reference material confirms TP/STP shops and mentor training are distinct skill acquisition channels.
 - Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and target another evidence-backed batch, prioritizing explicit Ultimate Finish requirements or unambiguous shop/mentor routes.**
 
 ### 2026-09-19 continuation — additional explicit non-UF acquisition batch
 - Resolved `ultimate_finish_required: false` for 10 additional skills with explicit non-UF routes: Sudden Death Beam, Quick Sleep, Rise to Action, Spirit Boost, Super Guard, Fighting Pose K, Deadly Dance, Namek Finger, Pressure Sign, and Emperor's Blast.
 - Preserved nullable values where the repository only has ambiguous or PQ-only acquisition wording without enough evidence to establish UF requirements.
-- Web cross-check: TP Medal Shop and mentor training are documented independent skill acquisition channels. 
+- Web cross-check: TP Medal Shop and mentor training are documented independent skill acquisition channels.
 - Next exact task: **recompute remaining Super/Ultimate nullable acquisition metadata and continue with evidence-driven batches; do not convert generic PQ reward entries to `false` without explicit non-UF evidence.**
 
 ### 2026-09-19 continuation — Super non-UF acquisition batch 2
@@ -2163,7 +2163,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — Final Rampage non-UF classification
 - Resolved `ultimate_finish_required=false` for Final Rampage.
-- Evidence: PQ174 documentation lists Final Rampage in the basic reward set; the Ultimate Finish section is distinct and does not list Final Rampage as an UF-only reward. 
+- Evidence: PQ174 documentation lists Final Rampage in the basic reward set; the Ultimate Finish section is distinct and does not list Final Rampage as an UF-only reward.
 - Skills commit: f0f949bc5a4a3e8fc1017d1e0602cc6f57e41022.
 - Live nullable Super/Ultimate census after the edit: 171 total (132 Super, 39 Ultimate).
 - Next task: continue item-level audit of remaining nullable PQ records, prioritizing explicit basic-reward/non-UF evidence and avoiding inference from generic quest association.
@@ -2205,21 +2205,21 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — basic-reward PQ batch 6
 - Resolved `ultimate_finish_required=false` for Candy Beam (PQ66), Buu Buu Ball (PQ88), Bluff Kamehameha (PQ94), and Breaker Energy Wave (PQ101).
-- Evidence: the live PQ guide explicitly lists each in its corresponding Basic Reward section, distinct from UF conditions. 
+- Evidence: the live PQ guide explicitly lists each in its corresponding Basic Reward section, distinct from UF conditions.
 - Skills commit: 256bca15434275129a3166e62b6a8fe72a296afd.
 - Live nullable Super/Ultimate census: 152 total (113 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; leave null where the acquisition gate remains unestablished.
 
 ### 2026-09-19 continuation — basic-reward PQ batch 7
 - Resolved `ultimate_finish_required=false` for **Steel Mirage** (PQ165).
-- Evidence: the live PQ guide lists Steel Mirage under PQ165's **Basic Reward** section, separate from the quest's Ultimate Finish conditions. 
+- Evidence: the live PQ guide lists Steel Mirage under PQ165's **Basic Reward** section, separate from the quest's Ultimate Finish conditions.
 - Skills commit: 4f2f31c90e06e46afd2c6896106afc9cd82b43ba.
 - Live nullable Super/Ultimate census: 151 total (112 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates; keep nullable records unchanged where the acquisition gate is not established.
 
 ### 2026-09-19 continuation — basic-reward PQ batch 8
 - Resolved `ultimate_finish_required=false` for Crazy Finger Shot (PQ26), Death Psycho Bomb (PQ33), and Dimension Cannon (PQ59).
-- Evidence: current PQ documentation explicitly lists each under its quest's Basic Reward section, separate from Ultimate Finish conditions. 
+- Evidence: current PQ documentation explicitly lists each under its quest's Basic Reward section, separate from Ultimate Finish conditions.
 - Skills commit: e12a057fd694aae9f8bd3a4a8483505891082359.
 - Live nullable Super/Ultimate census: 148 total (109 Super, 39 Ultimate).
 - Next task: continue with explicit Basic Reward candidates and keep null when acquisition gating is not established.
@@ -2247,7 +2247,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — basic-reward PQ batch 12
 - Resolved `ultimate_finish_required=false`: Demon Ray (PQ160), Gamma Blaster (PQ155), God of Destruction's Plaything (PQ175), Spirit Pulse (PQ151), Wild Buster (PQ153), Charged Ki Wave (PQ97).
-- Evidence: current PQ guide lists each in its corresponding Basic Reward section. 
+- Evidence: current PQ guide lists each in its corresponding Basic Reward section.
 - Skills commit: 10883938c2c5cb52a33de4a576251902965ae670.
 - Live nullable Super/Ultimate census: 129 total (94 Super, 35 Ultimate).
 - Next task: continue explicit Basic Reward candidates; preserve null where the acquisition gate is not established.
@@ -2261,8 +2261,8 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — PQ reward batch 14
 - Resolved `ultimate_finish_required=false`: Hero's Flute (PQ116) and Pretty Cannon (PQ133).
-- Evidence: both are explicitly listed as Basic Rewards in the PQ guide; independent skill references also identify their PQ unlocks. 
-- Handy Canon (PQ115) was deliberately left nullable because community evidence conflicts on whether its acquisition requires the Ultimate Finish. 
+- Evidence: both are explicitly listed as Basic Rewards in the PQ guide; independent skill references also identify their PQ unlocks.
+- Handy Canon (PQ115) was deliberately left nullable because community evidence conflicts on whether its acquisition requires the Ultimate Finish.
 - Skills commit: ac760d67bdf44ef7fa53b98ac401dbe1be8f9ce6.
 - Live nullable Super/Ultimate census: 119 total (84 Super, 35 Ultimate).
 - Next task: continue remaining candidates, prioritizing unambiguous independent acquisition evidence and preserving null on conflicts.
@@ -2298,7 +2298,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 17
 - Continued the active Super/Ultimate `ultimate_finish_required` evidence queue.
-- Web-verified the maintained all-PQ Steam reward guide: it explicitly lists **Solar Flare (PQ03), Wall of Defense (PQ10), Kai Kai (PQ63), Afterimage Strike (PQ81), Assault Vanish (PQ131), Saiyan Spirit (PQ84), Zigzag Express (PQ85), and Neo Wolf Fang Fist (PQ86)** in Basic Reward sections, separate from Ultimate Finish conditions. 
+- Web-verified the maintained all-PQ Steam reward guide: it explicitly lists **Solar Flare (PQ03), Wall of Defense (PQ10), Kai Kai (PQ63), Afterimage Strike (PQ81), Assault Vanish (PQ131), Saiyan Spirit (PQ84), Zigzag Express (PQ85), and Neo Wolf Fang Fist (PQ86)** in Basic Reward sections, separate from Ultimate Finish conditions.
 - Set `ultimate_finish_required=false` for all eight records and refreshed `last_verified` to 2026-09-19.
 - Live nullable Super/Ultimate census: **103 total — 69 Super and 34 Ultimate**.
 - Skills commit: `86634b42a5eb23307c213bd6a9da140ff6ccf3bd`.
@@ -2307,7 +2307,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the same bounded Basic Reward/non-UF evidence pass, prioritizing remaining PQ-only nullable records with explicit Basic Reward listings. Recompute the nullable census after every batch and record the new frontier here.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 18
-- Web evidence confirmed explicit Basic Reward placement for **Paralysis (PQ34), Ill Rain (PQ64), Ill Bomber (PQ90), Super Donut Volley (PQ55), Stone Bullet (PQ56), Petrifying Spit (PQ114), Handy Canon (PQ115), and Brave Sword Slash (PQ116)**. 
+- Web evidence confirmed explicit Basic Reward placement for **Paralysis (PQ34), Ill Rain (PQ64), Ill Bomber (PQ90), Super Donut Volley (PQ55), Stone Bullet (PQ56), Petrifying Spit (PQ114), Handy Canon (PQ115), and Brave Sword Slash (PQ116)**.
 - Set `ultimate_finish_required=false` for all eight and refreshed `last_verified=2026-09-19`.
 - Live nullable Super/Ultimate census after batch: **95 total — 61 Super and 34 Ultimate**.
 - Skills commit: `f849d0c85810ed96d87916d454eee0b0d2a8a361`.
@@ -2315,7 +2315,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the same evidence-backed Basic Reward pass. Recompute the nullable census first and do not alter records whose actual UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 19
-- Verified explicit Basic Reward placement for **Lightning Impact (PQ142), Heroic Assault (PQ156), Shooting Strike (PQ156), Gamma Impact (PQ155), Shield Barrier (PQ153), Sign of Awakening (PQ154), Circle Flash (PQ154), and Thunder Flash (PQ146)**. 
+- Verified explicit Basic Reward placement for **Lightning Impact (PQ142), Heroic Assault (PQ156), Shooting Strike (PQ156), Gamma Impact (PQ155), Shield Barrier (PQ153), Sign of Awakening (PQ154), Circle Flash (PQ154), and Thunder Flash (PQ146)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
 - Live nullable Super/Ultimate census: **88 total — 58 Super / 30 Ultimate**.
 - Skills commit: `83ba610a2469bccbe2ab4da1ce24f6a899661ccd`.
@@ -2323,7 +2323,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue bounded evidence-backed Basic Reward auditing; recompute the live nullable census first and preserve `null` where actual UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 20
-- Verified explicit Basic Reward placement for **Revenge Final Flash (PQ124), Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), and Last Emperor (PQ71)**. 
+- Verified explicit Basic Reward placement for **Revenge Final Flash (PQ124), Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), and Last Emperor (PQ71)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all five.
 - Live nullable Super/Ultimate census: **83 total — 53 Super / 30 Ultimate**.
 - Skills commit: `0679447a033ae7968d516a3a8aa1d1d3931db272`.
@@ -2331,7 +2331,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass, prioritizing remaining nullable records with explicit Basic Reward listings; preserve `null` where UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 21
-- Verified explicit Basic Reward placement for **Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Victory Rush (PQ89), Unrelenting Barrage (PQ10), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), Pendulum Bullet (PQ166), and Variable Snipe Shot (PQ165)**. 
+- Verified explicit Basic Reward placement for **Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Victory Rush (PQ89), Unrelenting Barrage (PQ10), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), Pendulum Bullet (PQ166), and Variable Snipe Shot (PQ165)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
 - Live nullable Super/Ultimate census: **75 total — 51 Super / 24 Ultimate**.
 - Skills commit: `a3ae1c29327a7336df40716a2486a213a79753ab`.
@@ -2339,7 +2339,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 22
-- Verified explicit Basic Reward placement for **Blaster Stream (PQ148), Chain Destructo-Disc Barrage (PQ46), Dimension Ray (PQ58), Divine Ray Bomb (PQ173), and Heat Dome Attack (PQ40)**. 
+- Verified explicit Basic Reward placement for **Blaster Stream (PQ148), Chain Destructo-Disc Barrage (PQ46), Dimension Ray (PQ58), Divine Ray Bomb (PQ173), and Heat Dome Attack (PQ40)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all five.
 - Live nullable Super/Ultimate census: **70 total — 53 Super / 17 Ultimate**.
 - Skills commit: `76ce68d41eb94d6952142c9cc8abd0f9f8a75846`.
@@ -2347,7 +2347,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 23
-- Verified explicit Basic Reward placement for **Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Conductor (PQ106), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Lightning of Absolution (PQ111), and Holy Wrath (PQ111)**. 
+- Verified explicit Basic Reward placement for **Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Conductor (PQ106), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Lightning of Absolution (PQ111), and Holy Wrath (PQ111)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all eight.
 - Live nullable Super/Ultimate census: **62 total — 47 Super / 15 Ultimate**.
 - Skills commit: `0776a86849a98f20d077ecf6106a42e68c9208c9`.
@@ -2355,7 +2355,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 24
-- Verified explicit Basic Reward placement for **Fierce Fist (PQ159), Demonic Destruction (PQ159), Demon Flurry (PQ160), Apocalyptic Burst (PQ161), Special Beam Cannon (Beast) (PQ162), Seagull Combination (PQ167), and Burning Swan (PQ167)**. 
+- Verified explicit Basic Reward placement for **Fierce Fist (PQ159), Demonic Destruction (PQ159), Demon Flurry (PQ160), Apocalyptic Burst (PQ161), Special Beam Cannon (Beast) (PQ162), Seagull Combination (PQ167), and Burning Swan (PQ167)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all seven.
 - Live nullable Super/Ultimate census: **55 total — 42 Super / 13 Ultimate**.
 - Skills commit: `12c9aec4b079dcc82d0f878585885403f051b62f`.
@@ -2363,7 +2363,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 25
-- Verified explicit Basic Reward placement for **Justice Drive (PQ168), God of Destruction's Poise (PQ175), Full Power Destruction (PQ177), Dragon Spark (PQ177), Soaring Rush (PQ177), and Burst Blitz (PQ178)**. 
+- Verified explicit Basic Reward placement for **Justice Drive (PQ168), God of Destruction's Poise (PQ175), Full Power Destruction (PQ177), Dragon Spark (PQ177), Soaring Rush (PQ177), and Burst Blitz (PQ178)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all six.
 - Live nullable Super/Ultimate census: **49 total — 36 Super / 13 Ultimate**.
 - Skills commit: `6cc6563bc592c585a18344f3bf6a45f5ba60c282`.
@@ -2371,7 +2371,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass; prioritize remaining nullable records with explicit Basic Reward listings and preserve `null` where actual UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 26
-- Verified explicit Basic Reward placement for **Dragon Spiral (PQ185), Indomitable (PQ185), and Venus Fist (PQ186)**. 
+- Verified explicit Basic Reward placement for **Dragon Spiral (PQ185), Indomitable (PQ185), and Venus Fist (PQ186)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all three.
 - Live nullable Super/Ultimate census: **46 total — 35 Super / 11 Ultimate**.
 - Skills commit: `90b811333a9acc9247f71ec0782a35b8ceb9803a`.
@@ -2379,7 +2379,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass, but distinguish explicit Basic Reward placement from separate Ultimate Finish-only rewards; preserve `null` where the acquisition gate itself is not established.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 27
-- Verified explicit Basic Reward placement for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**. 
+- Verified explicit Basic Reward placement for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**.
 - Set `ultimate_finish_required=false` and refreshed `last_verified=2026-09-19` for all seven.
 - Live nullable Super/Ultimate census: **39 total — 28 Super / 11 Ultimate**.
 - Skills commit: `bc0bffe7ec4bfa1d1cf284c3141b513b53d0dd4d`.
@@ -2387,7 +2387,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass; remaining nullable Ultimate records are few, so verify their reward sections carefully and preserve `null` where UF gating remains unresolved.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 28
-- Resolved **S.S. Deadly Bomber (PQ115)** and **Total Detonation Ball (PQ139)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. 
+- Resolved **S.S. Deadly Bomber (PQ115)** and **Total Detonation Ball (PQ139)** as `ultimate_finish_required=false` from explicit Basic Reward evidence.
 - Gigantic Explosion and Gigantic Roar remain nullable because this pass did not establish exact reward-section placement strongly enough.
 - Live nullable Super/Ultimate census: **35 total — 28 Super / 7 Ultimate**.
 - Skills commit: `c9cb6945ea3f02fb1112c290c1506169a60e973b`.
@@ -2395,59 +2395,59 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Exact next task: continue the bounded Basic Reward evidence pass on the remaining nullable records, prioritizing explicit quest-guide reward sections and preserving null when evidence is insufficient.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 29
-- Resolved **Do or Die (PQ49), Charge (PQ83), Divinity Unleashed (PQ110), Fighting Pose H (PQ61), Majin Kamehameha (PQ60), Mystic Flash (PQ20), Warp Kamehameha (PQ76), and Super Black Kamehameha Rosé (PQ109)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. 
+- Resolved **Do or Die (PQ49), Charge (PQ83), Divinity Unleashed (PQ110), Fighting Pose H (PQ61), Majin Kamehameha (PQ60), Mystic Flash (PQ20), Warp Kamehameha (PQ76), and Super Black Kamehameha Rosé (PQ109)** as `ultimate_finish_required=false` from explicit Basic Reward evidence.
 - Live nullable Super/Ultimate census: **27 total — 24 Super / 3 Ultimate**.
 - Skills commit: `5bab0a70c05064b9044ab7d25f93e20255058eb7`.
 - Coverage audit commit: `0a473b4bf4d9fab0845bb2dd6f60b05096751354`.
 - Exact next task: continue the bounded Basic Reward evidence pass across the remaining nullable records; preserve `null` when a reward-section gate is not established.
 
 ### 2026-09-19 continuation — basic-reward non-UF batch 30
-- Resolved **Prominence Flash (PQ137)** and **Ribrianne's Eternal Love (PQ137)** as `ultimate_finish_required=false` from explicit Basic Reward evidence. 
+- Resolved **Prominence Flash (PQ137)** and **Ribrianne's Eternal Love (PQ137)** as `ultimate_finish_required=false` from explicit Basic Reward evidence.
 - Live nullable Super/Ultimate census: **25 total — 24 Super / 1 Ultimate**.
 - Skills commit: `ea9f5e9d0386a40baa0b4447d62e542b0cb464e9`.
 - Coverage audit commit: `462206e7d9666566542594a00ee6788257898573`.
 - Exact next task: finish the bounded evidence pass on the remaining nullable Ultimate records; do not infer UF gating from RNG or general PQ association.
 
 ### 2026-09-19 continuation — final nullable Ultimate resolution
-- Resolved **Super Gamma Blast (PQ158)** as `ultimate_finish_required=false` from explicit Basic Reward placement in the maintained PQ guide. 
-- Community reports indicate RNG farming but do not establish UF-only gating. 
+- Resolved **Super Gamma Blast (PQ158)** as `ultimate_finish_required=false` from explicit Basic Reward placement in the maintained PQ guide.
+- Community reports indicate RNG farming but do not establish UF-only gating.
 - Live nullable Super/Ultimate census: **24 total — 24 Super / 0 Ultimate**.
 - Skills commit: `85b4e9a63a2de387e28076220df437a94489b1b9`.
 - Coverage audit commit: `5bfc59288dafbcee0e3119ea8c8ef693582604b6`.
 - Exact next task: with the UF nullable census at zero, begin the next bounded data-quality pass rather than making unsupported UF inferences. Prioritize remaining nulls in other skill fields and cross-file relationship integrity.
 
 ### 2026-09-19 continuation — basic-reward Super batch 31
-- Resolved **Vanishing Ball (PQ58), Evil Whirlwind (PQ36), Justice Pose (PQ53), Taunt (PQ45), and Super God Fist (PQ67)** as `ultimate_finish_required=false` from explicit Basic Reward placement. 
+- Resolved **Vanishing Ball (PQ58), Evil Whirlwind (PQ36), Justice Pose (PQ53), Taunt (PQ45), and Super God Fist (PQ67)** as `ultimate_finish_required=false` from explicit Basic Reward placement.
 - Live nullable Super/Ultimate census: **19 total — 19 Super / 0 Ultimate**.
 - Skills commit: `dbb35d0fa1e57db2fa51998c53ee72057abdd179`.
 - Coverage audit commit: `189f69a90de6f40ef66d2114422b535fbb4cc5b4`.
 - Exact next task: continue the remaining nullable Super records using explicit reward-section evidence; do not infer UF gating from RNG or generic PQ association.
 
 ### 2026-09-19 continuation — basic-reward Super batch 32
-- Resolved **Crimson Edge (PQ171), Divine Spear (PQ171), and Wild Stinger (PQ172)** as `ultimate_finish_required=false` from explicit Basic Reward placement. 
+- Resolved **Crimson Edge (PQ171), Divine Spear (PQ171), and Wild Stinger (PQ172)** as `ultimate_finish_required=false` from explicit Basic Reward placement.
 - Live nullable Super/Ultimate census: **16 total — 16 Super / 0 Ultimate**.
 - Skills commit: `2a01d58e3d927acbd8cfcc84546db36a5fe148de`.
 - Coverage audit commit: `5270f25038db7234db56dae0b4fe177b39780a3f`.
 - Exact next task: continue the remaining nullable Super records with explicit reward-section evidence; preserve `null` for character-exclusive or otherwise unresolved acquisition gates.
 
 ### 2026-09-19 continuation — basic-reward Super batch 33
-- Resolved **Scissors Paper Rock (PQ65)** and **Variant Drive (PQ123)** as `ultimate_finish_required=false` from explicit Basic Reward placement. 
-- **Meditation** remains nullable because the maintained guide's Basic Reward placement conflicts with multiple community reports claiming UF is required; preserve null until stronger evidence resolves the discrepancy. 
+- Resolved **Scissors Paper Rock (PQ65)** and **Variant Drive (PQ123)** as `ultimate_finish_required=false` from explicit Basic Reward placement.
+- **Meditation** remains nullable because the maintained guide's Basic Reward placement conflicts with multiple community reports claiming UF is required; preserve null until stronger evidence resolves the discrepancy.
 - Live nullable Super/Ultimate census: **14 total — 14 Super / 0 Ultimate**.
 - Skills commit: `f9c36077153b37c5a9bb7dc9e5f2a28b07a10ee7`.
 - Coverage audit commit: `e38205959b95981f5d7e6500bba8595982b19630`.
 - Exact next task: continue the remaining nullable Super records, prioritizing explicit reward-section evidence and resolving source conflicts rather than forcing a boolean.
 
 ### 2026-09-19 continuation — Meditation UF conflict resolution
-- Resolved **Meditation (PQ122)** as `ultimate_finish_required=false` after reviewing conflicting acquisition reports. GameFAQs identifies Meditation as a Jiren drop while Power Rush is the UF reward; later community evidence reports Meditation without requiring UF. 
-- Earlier claims that UF is required remain documented as conflicting evidence. 
+- Resolved **Meditation (PQ122)** as `ultimate_finish_required=false` after reviewing conflicting acquisition reports. GameFAQs identifies Meditation as a Jiren drop while Power Rush is the UF reward; later community evidence reports Meditation without requiring UF.
+- Earlier claims that UF is required remain documented as conflicting evidence.
 - Live nullable Super/Ultimate census: **13 total — 13 Super / 0 Ultimate**.
 - Skills commit: `fcc6418520e35a775a2dc41e090b7ecb82b04b78`.
 - Coverage audit commit: `07fd174b02af8ebc75f4f8a190d3cd410b2d8f8a`.
 - Exact next task: continue the remaining nullable Super records; prioritize acquisition-specific evidence and preserve null for character-exclusive or genuinely unresolved gates.
 
 ### 2026-09-19 continuation — basic-reward Super batch 34
-- Resolved **Phantom Fist (PQ97), Savory Slicer (PQ140), Shining Slash (PQ38), and Gigantic Breaker (PQ126)** as `ultimate_finish_required=false` from explicit Basic Reward placement. 
+- Resolved **Phantom Fist (PQ97), Savory Slicer (PQ140), Shining Slash (PQ38), and Gigantic Breaker (PQ126)** as `ultimate_finish_required=false` from explicit Basic Reward placement.
 - Live nullable Super/Ultimate census: **9 total — 9 Super / 0 Ultimate**.
 - Skills commit: `c50e7e751117b42407481c1a8cf66b38b2195e88`.
 - Coverage audit commit: `3cbe2c37dad37718368d97b2e3d613cc6736ce4b`.
@@ -2480,8 +2480,8 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — complete `ultimate_finish_required` census
 - Audited the final **16 nullable Awoken** records.
-- Resolved **Kaioken = `true`** because current evidence explicitly identifies the PQ8 *Invade Earth* Ultimate Finish as the acquisition gate. 
-- Resolved the other 15 Awoken records as **`false`**: Become Giant, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Vegeta, The Power to Overcome, Turn Golden, Beast, Potential Unleashed, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Ultra Instinct. Their documented routes are Time Rift, mentor, story, wish, Advancement Test, DLC/challenge, or character-only routes rather than Ultimate Finish acquisition gates. 
+- Resolved **Kaioken = `true`** because current evidence explicitly identifies the PQ8 *Invade Earth* Ultimate Finish as the acquisition gate.
+- Resolved the other 15 Awoken records as **`false`**: Become Giant, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Vegeta, The Power to Overcome, Turn Golden, Beast, Potential Unleashed, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Ultra Instinct. Their documented routes are Time Rift, mentor, story, wish, Advancement Test, DLC/challenge, or character-only routes rather than Ultimate Finish acquisition gates.
 - Live `ultimate_finish_required` census: **0 nulls across all 283 skill records**.
 - Skills commit: `4086353a628c12ac1767227e9396135158eadae2`.
 - Coverage audit commit: `40a7e9f646d313c50aff36dcb237d7a8dc0d948b`.
@@ -2490,16 +2490,16 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — Evasive Ki-cost metadata pass
 - Recomputed nullable fields after completing the Ultimate Finish census; the next bounded target was the **17 Evasive records with nullable `ki_cost`**.
-- Current Evasive reference data describes Evasives as Stamina-based skills, with activation costs represented by `stamina_cost`; it lists the affected skills with 200–300 stamina costs and no base Ki activation cost. 
+- Current Evasive reference data describes Evasives as Stamina-based skills, with activation costs represented by `stamina_cost`; it lists the affected skills with 200–300 stamina costs and no base Ki activation cost.
 - Resolved `ki_cost=0` for **Absolute Zero, Dragon Burn, Explosive Wave, Mighty Explosive Wave, Psychic Move, Punisher Guard, Spread Shot Retreat, Final Pose, Mach Dash, Angry Shout, Energy Barrier, Spirit Explosion, Spirit Slash, Headshot, Rolling Bullet, Victory Cannon, and Energy Field**.
-- Preserved each existing `stamina_cost`; no stamina values were inferred or changed. The distinction is intentional because some Evasives can have additional-input behavior involving Ki, while their base activation remains Stamina-based. 
+- Preserved each existing `stamina_cost`; no stamina values were inferred or changed. The distinction is intentional because some Evasives can have additional-input behavior involving Ki, while their base activation remains Stamina-based.
 - Skills commit: `c27d65ec768d9c292e59fc165d0a87dd6d82229a`.
 - Coverage audit commit: `073caf733f3f48b279370334f22a2dd68998db34`.
 - Exact next task: recompute nullable fields and continue with another small evidence-backed metadata batch; prioritize fields where class semantics can establish a value without guessing (for example, `damage_type` or `source_quest` when a direct current source identifies it).
 
 ### 2026-09-19 continuation — character-only race restriction pass
 - Recomputed nullable fields after the Evasive Ki-cost pass. The only genuinely null `race_restriction` records were **Pure Progress, Super Saiyan Blue Kaioken, and Supersonic Mode**.
-- Current research identifies all three as character-exclusive/non-CaC transformations, so `race_restriction` is now explicitly **`Character-only`** for each instead of remaining null. 
+- Current research identifies all three as character-exclusive/non-CaC transformations, so `race_restriction` is now explicitly **`Character-only`** for each instead of remaining null.
 - The other ten records that use unusual/non-normalized legacy race strings were deliberately left untouched; they are a separate normalization problem, not null resolution.
 - Skills commit: `1d72edc69ea25e81595acf23b006f69d1b8f1476`.
 - Coverage audit commit: `08574159b0abeb9d029e593be7fdf4bed5578cf2`.
@@ -2508,7 +2508,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-19 continuation — complete race-restriction null census
 - Recomputed the remaining `race_restriction` nulls: after the three earlier character-only Awoken records, **10 nullable records remained**, all marked `usable_by_cac: false` and carrying character-exclusive/non-CaC acquisition metadata.
 - Resolved **Big Bang Knuckle, Divine Spear, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Crimson Edge, Dragon Thunder, and Wild Stinger** to `race_restriction: "Character-only"`.
-- This avoids incorrectly assigning a CaC race to skills that cannot be equipped by CaCs. Current race references distinguish the five playable CaC races from character-exclusive skills. 
+- This avoids incorrectly assigning a CaC race to skills that cannot be equipped by CaCs. Current race references distinguish the five playable CaC races from character-exclusive skills.
 - Skills commit: `a7e53e9a40f317c095247e55ddaf91e51b09fcb7`.
 - Coverage audit commit: `6a4ec6fc9bbf2a980cff0ce1382011bff42e83da`.
 - Live nullable `race_restriction`: **0**.
@@ -2654,7 +2654,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Next pass should focus on finding any explicit single-PQ reward evidence for the remaining nulls; otherwise preserve the null rather than inventing provenance.
 
 ### 2026-09-19 continuation — targeted provenance check batch 24
-- Re-checked Reverse Mabakusenko: historical community references associate it with PQ51, but current reference data identifies Skill Shop as the CaC acquisition route. Keep `source_quest` null unless the repository establishes a canonical quest route. 
+- Re-checked Reverse Mabakusenko: historical community references associate it with PQ51, but current reference data identifies Skill Shop as the CaC acquisition route. Keep `source_quest` null unless the repository establishes a canonical quest route.
 - No `skills.json` change in this pass.
 - Coverage audit commit: `0f6145ad9e01ac44ea563d423d67a34320bf7d6d`.
 - Continue targeted checks of remaining nulls, prioritizing explicit single-quest evidence over historical or multi-source associations.
@@ -2693,7 +2693,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — explicit DLC provenance batch 2
 - Resolved eight `dlc_requirement` nulls from explicit PQ/DLC relationships: **Absolute Zero → Base Game (PQ96); Dragon Burn → Base Game (PQ82); Emperor's Blast → Base Game (PQ70); Blaster Stream → Legendary Pack 2 (PQ148); Gigantic Burst → Extra Pack 3 (PQ127); Lightning Impact → Ultra Pack 2 (PQ142); Prominence Flash → Ultra Pack 1 (PQ137); Final Flash (SS3 DAIMA) → Dragon Ball DAIMA Pack (PQ181)**.
-- The low-numbered PQ records are launch-era/base-game content; PQ127/137/142/148 map to Extra Pack 3, Ultra Pack 1, Ultra Pack 2, and Legendary Pack 2 respectively; PQ181 belongs to the Dragon Ball DAIMA Pack. 
+- The low-numbered PQ records are launch-era/base-game content; PQ127/137/142/148 map to Extra Pack 3, Ultra Pack 1, Ultra Pack 2, and Legendary Pack 2 respectively; PQ181 belongs to the Dragon Ball DAIMA Pack.
 - Data commit: `1c0df8c2f7be2f01103d886e732372c9ca74ac21`.
 - Coverage audit commit: `486376e49fdb5b673c01bc4443d4095f36a78514`.
 - Expected live census after the batch: **283 skills; 45 null `dlc_requirement` records**. Preserve remaining nulls until explicit chronology is established.
@@ -2709,7 +2709,7 @@ Live inspection of the validation contract exposed two repository integrity issu
   - **Free Update 1:** Pure Progress.
   - **Base Game:** Destructo-Disc, Galick Gun, Kamehameha, Masenko, Dancing Parapara, Energy Charge, Rise to Action, Solar Flare, Wall of Defense, Victory Rush.
 - Important correction retained from the previous cycle: **Super Saiyan God remains Free Update 13**, not Base Game; the current free-update chronology explicitly places it in Free Update 13.
-- Evidence: Bandai Namco's 2018 announcement identifies SSGSS as free-update content; the maintained update chronology places SSGSS in Free Update 5, SSGSS (Evolved) in Free Update 9, Super Saiyan God in Free Update 13, Beast in Free Update 16, and Ultra Instinct in Free Update 17. Bandai Namco's December 2016 DLC preview places Pure Progress in the free update. 
+- Evidence: Bandai Namco's 2018 announcement identifies SSGSS as free-update content; the maintained update chronology places SSGSS in Free Update 5, SSGSS (Evolved) in Free Update 9, Super Saiyan God in Free Update 13, Beast in Free Update 16, and Ultra Instinct in Free Update 17. Bandai Namco's December 2016 DLC preview places Pure Progress in the free update.
 - Data commit: `de797b3b9e8750b20f4fd65891f2b0a715f18ad7`.
 - Coverage audit commit: `da07110c79ca88ce8eeb9679bffbb2af9f34d8fb`.
 - Expected live census: **283 skills; 30 null `dlc_requirement` records; 31 null `source_quest` records**.
@@ -3074,7 +3074,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Verified **Afterimage Strike (PQ81), Assault Vanish (PQ131), Burst Charge (PQ134), Kai Kai (PQ63), Phantom Fist (PQ97), Shield Barrier (PQ153), Solar Flare (PQ1), Time Control (PQ18), Ultimate Charge (PQ134), and Wall of Defense (PQ10)** from explicit PQ reward documentation.
 - The records are now treated as deterministic PQ acquisition entries for catalog purposes; no Ultimate Finish-only requirement was added without explicit reward-condition evidence.
 - Canonical and index records were synchronized.
-- Reference context: the current PQ documentation describes PQs as a major source of skills and distinguishes Basic/regular completion rewards from Ultimate Finish rewards. 
+- Reference context: the current PQ documentation describes PQs as a major source of skills and distinguishes Basic/regular completion rewards from Ultimate Finish rewards.
 - Exact next task: continue deterministic PQ/shop/mentor verification through the remaining partially verified cohort, with Ultimate Finish flags changed only when explicit reward-condition evidence supports them.
 
 ### 2026-09-19 continuation — shop acquisition cohort
@@ -3187,56 +3187,56 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-20 continuation — Power Impact classification reconciliation
 - Resolved the previously flagged **Power Impact** discrepancy instead of leaving the record partial.
-- Current Xenoverse 2 skill documentation identifies Power Impact as a **Ki Blast Super**, with **Parallel Quest 120 — "Whis's Special Training"** as the unlock. 
+- Current Xenoverse 2 skill documentation identifies Power Impact as a **Ki Blast Super**, with **Parallel Quest 120 — "Whis's Special Training"** as the unlock.
 - Corrected canonical/index classification from Strike to Ki Blast and promoted the record to verified. No unsupported Ultimate Finish requirement was added.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **143 verified / 61 partially verified** across 283 records.
 - Next task: continue deterministic verification of the remaining 61 partial records, prioritizing explicit skill-page unlock statements and separating genuine acquisition uncertainty from stale classification metadata.
 
 ### 2026-09-20 continuation — four explicit PQ verifications
-- Verified **Powered Shell (PQ128)**, **Recoome Kick (PQ61)**, **Sauzer Blade (PQ27)**, and **Savory Slicer (PQ140)** from current skill-page acquisition statements. Recoome Kick's PQ guide also explicitly lists it as a Basic Reward; Savory Slicer is likewise listed among PQ140 rewards. 
+- Verified **Powered Shell (PQ128)**, **Recoome Kick (PQ61)**, **Sauzer Blade (PQ27)**, and **Savory Slicer (PQ140)** from current skill-page acquisition statements. Recoome Kick's PQ guide also explicitly lists it as a Basic Reward; Savory Slicer is likewise listed among PQ140 rewards.
 - Reconciled **Powered Shell** from stale Strike metadata to **Ki Blast**, matching the current skill-page classification.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **147 verified / 57 partially verified** across 283 records.
 - Next task: continue through the remaining 57 partial records, prioritizing current pages with explicit acquisition statements and correcting stale classification metadata only when current evidence is explicit.
 
 ### 2026-09-20 continuation — four explicit unlock verifications and one retained conflict
-- Promoted **Scissors Paper Rock (PQ65)**, **Shining Slash (PQ38)**, **Soaring Rush (PQ177)**, and **Shooting Strike (PQ156)** to verified. Current skill pages explicitly provide their acquisition quests; current pages also confirm their classifications. Shooting Strike was corrected from stale **Strike** metadata to **Ki Blast**. 
-- **Sonic Bomb** remains partial. Its current page confirms PQ105 acquisition and Strike classification, but archived GameFAQs material lists Sonic Bomb among PQ105 Ultimate Finish rewards, so the existing non-UF flag cannot yet be treated as fully reconciled. 
+- Promoted **Scissors Paper Rock (PQ65)**, **Shining Slash (PQ38)**, **Soaring Rush (PQ177)**, and **Shooting Strike (PQ156)** to verified. Current skill pages explicitly provide their acquisition quests; current pages also confirm their classifications. Shooting Strike was corrected from stale **Strike** metadata to **Ki Blast**.
+- **Sonic Bomb** remains partial. Its current page confirms PQ105 acquisition and Strike classification, but archived GameFAQs material lists Sonic Bomb among PQ105 Ultimate Finish rewards, so the existing non-UF flag cannot yet be treated as fully reconciled.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **151 verified / 53 partially verified** across 283 records.
 - Next task: continue the remaining 53 partial records, prioritizing explicit current acquisition statements while preserving unresolved reward-condition conflicts rather than silently normalizing them.
 
 ### 2026-09-20 continuation — two acquisition verifications
-- Promoted **Namek Finger** to verified as a **TP Medal Shop** skill. Independent GameFAQs and shop-list references identify it in the TP Medal Shop. 
-- Promoted **Super God Fist** to verified as a **PQ67** reward. The maintained PQ reward guide lists it under PQ67, with independent GameFAQs reports also identifying PQ67 as its source. 
+- Promoted **Namek Finger** to verified as a **TP Medal Shop** skill. Independent GameFAQs and shop-list references identify it in the TP Medal Shop.
+- Promoted **Super God Fist** to verified as a **PQ67** reward. The maintained PQ reward guide lists it under PQ67, with independent GameFAQs reports also identifying PQ67 as its source.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **153 verified / 51 partially verified** across 283 records.
 - Next task: continue the remaining 51 partial records; prioritize records where acquisition is independently corroborated, but retain partial status when reward-condition conflicts remain.
 
 ### 2026-09-20 continuation — three PQ acquisition verifications
-- Promoted **Variant Drive (PQ123)**, **Zigzag Express (PQ85)**, and **Blaster Stream (PQ148)** to verified. Current skill documentation explicitly identifies each acquisition source; the maintained PQ guide independently lists each as a Basic Reward. 
+- Promoted **Variant Drive (PQ123)**, **Zigzag Express (PQ85)**, and **Blaster Stream (PQ148)** to verified. Current skill documentation explicitly identifies each acquisition source; the maintained PQ guide independently lists each as a Basic Reward.
 - No new Ultimate Finish requirement was inferred. Zigzag Express's documented Male Majin restriction remains represented in the canonical record.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **156 verified / 48 partially verified** across 283 records.
 - Next task: continue the remaining 48 partial records, prioritizing current skill pages plus independent PQ/shop reward corroboration.
 
 ### 2026-09-20 continuation — four explicit acquisition verifications
-- Promoted **Seagull Combination (PQ167)**, **Apocalyptic Burst (PQ161)**, **Chain Destructo-Disc Barrage (PQ46)**, and **Circle Flash (PQ154)** to verified. Current skill documentation and independent PQ reward references corroborate the acquisition quests. 
+- Promoted **Seagull Combination (PQ167)**, **Apocalyptic Burst (PQ161)**, **Chain Destructo-Disc Barrage (PQ46)**, and **Circle Flash (PQ154)** to verified. Current skill documentation and independent PQ reward references corroborate the acquisition quests.
 - Chain Destructo-Disc Barrage remains represented as a normal PQ acquisition without adding an unsupported Ultimate Finish requirement; the PQ guide lists it in Basic Reward.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **160 verified / 44 partially verified** across 283 records.
 - Next task: continue the remaining 44 partial records, with Sonic Bomb still explicitly retained as a drop-condition conflict requiring separate reconciliation.
 
 ### 2026-09-20 continuation — four acquisition verifications
-- Promoted **Core Breaker (PQ158)**, **Death Ball (Frieza mentor training)**, **Destruction's Concerto: Meteor (PQ106)**, and **Dimension Ray (PQ98)** to verified. Current skill pages explicitly document the acquisition sources and classifications. Core Breaker explicitly requires the PQ158 Ultimate Finish; this requirement is now retained as documented rather than inferred. 
+- Promoted **Core Breaker (PQ158)**, **Death Ball (Frieza mentor training)**, **Destruction's Concerto: Meteor (PQ106)**, and **Dimension Ray (PQ98)** to verified. Current skill pages explicitly document the acquisition sources and classifications. Core Breaker explicitly requires the PQ158 Ultimate Finish; this requirement is now retained as documented rather than inferred.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **164 verified / 40 partially verified** across 283 records.
 - Next task: continue the remaining 40 partial records, checking explicit acquisition pages first and preserving documented UF/drop requirements exactly where current evidence establishes them.
 
 ### 2026-09-20 continuation — Gigantic Explosion verification; Chaotic Time Impact conflict retained
-- Promoted **Gigantic Explosion (PQ164)** to verified. The current PQ guide explicitly lists Gigantic Explosion in PQ164's Basic Reward list, while the skill record's acquisition source is PQ164. 
-- **Chaotic Time Impact (PQ184)** remains partial. The current PQ guide lists it as a PQ184 Basic Reward, while the canonical record currently carries an Ultimate Finish requirement. This is a genuine reward-condition conflict and was not silently normalized. 
+- Promoted **Gigantic Explosion (PQ164)** to verified. The current PQ guide explicitly lists Gigantic Explosion in PQ164's Basic Reward list, while the skill record's acquisition source is PQ164.
+- **Chaotic Time Impact (PQ184)** remains partial. The current PQ guide lists it as a PQ184 Basic Reward, while the canonical record currently carries an Ultimate Finish requirement. This is a genuine reward-condition conflict and was not silently normalized.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **165 verified / 39 partially verified** across 283 records.
 - Next task: continue the remaining 39 partial records, prioritizing explicit current acquisition evidence and isolating conflicts like PQ184 for dedicated reconciliation.
@@ -3300,7 +3300,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-20 continuation — Burst Stinger conflict resolved
 - Resolved the final `conflict` state in the 283-record skill census.
 - **Burst Stinger** is now verified: current PQ136 reward evidence lists it under **Basic Reward**, so `ultimate_finish_required=false` and the unlock method is recorded as the PQ136 Basic Reward.
-- Character provenance is now recorded as **Vegeta (Super Saiyan God)**. Current character/skill references consistently place Burst Stinger in Vegeta (Super Saiyan God)'s moveset; the earlier Goku (Ultra Instinct) character-drop attribution was not corroborated and has been removed from canonical conflict metadata. 
+- Character provenance is now recorded as **Vegeta (Super Saiyan God)**. Current character/skill references consistently place Burst Stinger in Vegeta (Super Saiyan God)'s moveset; the earlier Goku (Ultra Instinct) character-drop attribution was not corroborated and has been removed from canonical conflict metadata.
 - Verification-state distribution is now **205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified = 283 total**.
 - Updated canonical data, synchronized index, and audit metadata.
 - Next task: continue the broader stale-source/metadata consistency pass across all 283 records, then inspect repository validation/workflow failures without guessing unavailable CI diagnostics.
@@ -3366,7 +3366,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Workstream: P1 skill acquisition/DLC-version provenance cleanup.
 - Recomputed the live canonical skill census: **283 records total; 78 `verified_current_scope`**.
 - Audited the transformation/current-version subset including **Super Saiyan Blue Kaioken, Pure Progress, Supersonic Mode, Surging Spirit, Ultra Instinct, and Super Saiyan God** against the repository's source corpus plus current external references.
-- No unsupported DLC correction was made in this pass. External evidence confirms **Pure Progress** as part of the first free update, **Surging Spirit** as Extra Pack 2 content also used by Goku (Ultra Instinct -Sign-) in the Conton City Vote Pack, and **Ultra Instinct** as a universal-avatar Awoken Skill introduced in the 17th free update. citeturn1search9turn1search0turn1search2
+- No unsupported DLC correction was made in this pass. External evidence confirms **Pure Progress** as part of the first free update, **Surging Spirit** as Extra Pack 2 content also used by Goku (Ultra Instinct -Sign-) in the Conton City Vote Pack, and **Ultra Instinct** as a universal-avatar Awoken Skill introduced in the 17th free update.
 - The current repository values for **Super Saiyan Blue Kaioken = Base Game**, **Pure Progress = Free Update 1**, **Supersonic Mode = Conton City Vote Pack**, **Surging Spirit = Extra Pack 2; Conton City Vote Pack**, **Ultra Instinct = Free Update 17**, and **Super Saiyan God = Free Update 13** were therefore preserved pending stronger primary provenance for the first and last historical labels.
 - No data files required modification in this spot-check; this handoff update records the completed evidence review rather than fabricating a change.
 - Exact next task: continue the remaining 78-record second-pass audit, prioritizing acquisition-specific fields and DLC/version provenance where the repository still uses broad labels or where source-field contradictions remain. Then inspect GitHub Actions and accidental internal-artifact searches.
@@ -3382,7 +3382,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-20 cycle update — Surging Spirit acquisition/provenance recheck
 - Rechecked the `verified_current_scope` acquisition-specific subset, with focus on character-only/non-quest provenance.
-- **Surging Spirit** was specifically reconciled: official Steam announcements identify it with Goku (Ultra Instinct) in Extra Pack 2; current reference material documents its later use by Goku (Ultra Instinct -Sign-) in the Conton City Vote Pack and the Ultra Instinct Future Warrior built-in action. The canonical `Extra Pack 2; Conton City Vote Pack` provenance and current CaC-access fields were preserved. citeturn0search2turn0search3
+- **Surging Spirit** was specifically reconciled: official Steam announcements identify it with Goku (Ultra Instinct) in Extra Pack 2; current reference material documents its later use by Goku (Ultra Instinct -Sign-) in the Conton City Vote Pack and the Ultra Instinct Future Warrior built-in action. The canonical `Extra Pack 2; Conton City Vote Pack` provenance and current CaC-access fields were preserved.
 - No gameplay/acquisition field required a correction in this batch. The canonical census remains **283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified**.
 - Updated `docs/data/skill-catalog-audit.json` with the reconciliation note; commit: `d4cb7b4d7da405eb516087c9fcb9cecfe3467a82`.
 - Exact next task: continue the 78-record second-pass audit, prioritizing remaining character-only and shop/non-quest records plus any broad DLC/version labels. Preserve uncertain values when evidence is not decisive, then inspect the latest Actions state and update this handoff.
@@ -3391,7 +3391,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-20 cycle update — broad DLC label sweep
 - Rechecked all **78 `verified_current_scope`** skill records specifically for broad `dlc_requirement` labels such as `Pass`, generic `DLC PQ`, or generic `DLC`.
 - **No such broad labels remain** in the current scope. Exact pack/update provenance is retained across the audited records.
-- External publisher/store listings corroborate the repository's DLC taxonomy: Extra Pack 2 is a distinct paid pack with 8 skills; Ultra Pack 2 is a distinct pack with 8 skills; Conton City Vote Pack is separately identified with 10 additional moves. citeturn0search0turn0search2turn0search9
+- External publisher/store listings corroborate the repository's DLC taxonomy: Extra Pack 2 is a distinct paid pack with 8 skills; Ultra Pack 2 is a distinct pack with 8 skills; Conton City Vote Pack is separately identified with 10 additional moves.
 - No canonical skill record required modification in this sweep. Audit note committed as `adba139162d7969901a14e36cbd1033a0800d81b`.
 - Exact next task: continue the 78-record second pass on acquisition/source-field contradictions and non-DLC provenance (shops, character-only routes, wishes, mentors, raids/events), then inspect the newest Actions state and update this handoff.
 
@@ -3406,7 +3406,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ### 2026-09-20 cycle update — character-only provenance recheck
 - Rechecked all eight remaining `character_only` records: **Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode, Final Flash (Super), Energy Release, Instant Charge, Rising Rage, Dragon Thunder**.
 - Current character-exclusive classification and DLC/update provenance remain consistent with the maintained roster/move data; no evidence-supported correction was identified.
-- Official Bandai Namco material continues to distinguish the base game from named DLC packs and free-update-era content. citeturn0search5turn0search6
+- Official Bandai Namco material continues to distinguish the base game from named DLC packs and free-update-era content.
 - Audit commit: `dbdd83b49b62f351dc90730e1c9dcfdf8700cd51`.
 - Next task: continue auditing quest/mission records, prioritizing records where `unlock_method` is generic despite a specific PQ, or where later updates changed acquisition routes. Preserve fields when evidence does not establish a correction.
 
@@ -3415,21 +3415,21 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Rechecked the `verified_current_scope` quest/mission records whose `source_quest_or_shop` names a specific PQ while `unlock_method` remains generic (`Parallel Quest reward` / `Random Parallel Quest reward`).
 - No unsupported reward-gating claims were introduced. The generic wording is retained where the current evidence does not establish Basic-vs-Ultimate-Finish-vs-random gating, while the specific PQ remains preserved in `source_quest_or_shop`.
 - Audit commit: `58701110606b96d18834f4b908ba0036401fb9e2`.
-- External reference confirms PQ skills can come through different reward mechanisms, including opponent-linked random drops and Ultimate-Finish rewards. citeturn0search1
+- External reference confirms PQ skills can come through different reward mechanisms, including opponent-linked random drops and Ultimate-Finish rewards.
 - Next task: continue the remaining quest/mission records with explicit reward conditions and inspect the newest GitHub Actions state; do not infer gating from a PQ number alone.
 
 
 ### 2026-09-20 cycle update — explicit Ultimate Finish subset
 - Rechecked the three remaining `verified_current_scope` quest/mission records with `ultimate_finish_required: true`: **Kaioken (PQ8), Earth Splitting Galick Gun (PQ11), and Raid Blast (PQ136)**.
 - Their UF flags and explicit unlock wording remain consistent with the maintained PQ provenance; no canonical field change was warranted.
-- Current PQ references distinguish ordinary skill drops from Ultimate-Finish reward slots. citeturn0search1turn0search6
+- Current PQ references distinguish ordinary skill drops from Ultimate-Finish reward slots.
 - Audit commit: `b610c22a5b6e7d1a28cb888ab3938662ac9d71d3`.
 - Next task: continue the remaining non-UF quest records and check for contradictions between `ultimate_finish_required`, reward wording, and `source_quest_or_shop`; then inspect latest Actions without weakening workflows.
 
 
 ### 2026-09-20 cycle update — non-UF quest reward consistency + Actions check
 - Rechecked the remaining non-UF quest/mission records for contradictions between `ultimate_finish_required` and their reward wording. No canonical flag change was supported; explicit Basic Reward records remain `false`.
-- Latest Actions runs on handoff commit `7cb4ed6e2630fe84b557273ad6e65c23d03b81f4` remain failing for **Clean internal artifacts** and **Repository quality**; the Pages deployment run is cancelled. The connected GitHub API still does not expose useful step-level diagnostics for the failing jobs, so the workflow configuration is not weakened or altered. GitHub documents that failed workflow jobs should be diagnosed through their job logs/steps, and that job APIs can expose those details when accessible. citeturn0search1turn0search4
+- Latest Actions runs on handoff commit `7cb4ed6e2630fe84b557273ad6e65c23d03b81f4` remain failing for **Clean internal artifacts** and **Repository quality**; the Pages deployment run is cancelled. The connected GitHub API still does not expose useful step-level diagnostics for the failing jobs, so the workflow configuration is not weakened or altered. GitHub documents that failed workflow jobs should be diagnosed through their job logs/steps, and that job APIs can expose those details when accessible.
 - Audit commit: `69637a8efc96947584c04644b468ee538f0c6b6c`.
 - Next task: continue the remaining `verified_current_scope` records outside the already-audited UF/basic/shop/character-only subsets, then perform another internal-artifact sweep and refresh the Actions state.
 
@@ -3439,5 +3439,5 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Only **Final Charge** and **Surging Spirit** are `other_nonquest`; both were previously provenance-checked and remain unchanged.
 - Canonical census remains **283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified**.
 - Audit commit: `eb897937e91bb51ee175159623fa01a2e614db91`.
-- GitHub's current documentation confirms that workflow jobs expose step/log diagnostics through the Actions UI and REST API, but the connected repository integration still does not provide the failing-job log content. citeturn0search0turn0search1
+- GitHub's current documentation confirms that workflow jobs expose step/log diagnostics through the Actions UI and REST API, but the connected repository integration still does not provide the failing-job log content.
 - Next task: run a repository-wide internal-artifact search again, inspect workflow files for validation coverage without weakening them, then update this handoff with the findings.
