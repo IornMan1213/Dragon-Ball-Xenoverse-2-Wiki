@@ -5244,12 +5244,12 @@
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 135",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Lovely Cyclone is a Super Strike skill associated with Ribrianne.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. Current maintained PQ evidence lists Lovely Cyclone as a Basic Reward, so ultimate_finish_required=false; difficult RNG does not imply an Ultimate Finish gate.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -5259,7 +5259,7 @@
       "source_quest": 135,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source reconciliation: Steam's current all-PQ guide lists Lovely Cyclone as a Basic Reward for PQ135 (Ribrianne, Defender of Love and Justice). Community reports describe it as a difficult RNG drop, but do not establish an additional Ultimate Finish-only condition; keep the UF flag false."
+      "notes": "Corrected 2026-09-20: PQ135 evidence places Lovely Cyclone in the Basic Reward pool; an Ultimate Finish-only gate is not established."
     },
     {
       "name": "Mach Punch",
