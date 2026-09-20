@@ -1039,7 +1039,8 @@
       "damage_type": "Ki Blast",
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
-      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
+      "source_quest": 5
     },
     {
       "name": "Force Shield",
