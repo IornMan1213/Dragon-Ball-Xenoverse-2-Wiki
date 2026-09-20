@@ -3798,3 +3798,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No Ultimate Finish-only gates were inferred for these non-PQ routes.
 - Validation: canonical/index 283 records, exact name/order parity, UF count 60.
 - Commits: canonical `7ebfb7ac500d8646abc63ceab8ab494863827c8b`; index `82f2ca25bd81a9694999c8bce27be53f1f3d3795`.
+
+
+## 2026-09-20 — non-PQ Awoken acquisition provenance refinement
+- Audited the remaining null-source/non-specific Awoken acquisition records against the repository's dedicated Awoken research and current unlock references.
+- Refined **7 records**: **Super Saiyan**, **Super Saiyan God**, **Super Vegeta**, **Beast**, **Potential Unleashed**, **Super Saiyan 2**, and **Ultra Instinct**.
+- Added concrete non-PQ source provenance and more specific unlock wording. In particular: Super Saiyan/SS2/Super Vegeta now point to the Capsule Corporation Vegeta/Saiyan Awakening route; Super Saiyan God records the required five friendships, Shenron wish, and Beerus handoff; Beast records the Gohan/Videl + Piccolo friendship gate and Cell Max unlock mission; Potential Unleashed identifies the final Super Class Advancement Test after Z-ranking Easy through God; Ultra Instinct identifies Jiren (Full Power)'s “In Pursuit of Mastery” challenge.
+- No Ultimate Finish flags were changed. No unsupported level, drop rate, or additional prerequisite was inferred.
+- Validation: canonical/index remain **283 records**, exact record-order parity preserved, UF count remains **60**. The previously targeted null source_quest set now has concrete provenance for these seven records; remaining non-PQ null-source records should be audited separately rather than treated as resolved by inference.
+- Commits: canonical **7689098e1e7778bdadf5e92dec72942f73470ef1**; index **931da3fe02cf407ff12d2678737a787d890b5375**.
+- Evidence limitation: external current guides were used only to corroborate routes already represented by the repository's Awoken/Advancement research; contested or version-sensitive details remain qualified in the canonical notes.
+- Exact next task: **continue the non-PQ provenance audit with the remaining mentor/test/mission records that still have terse or ambiguous acquisition wording (especially Galick Gun, Dancing Parapara, Rise to Action, Deadly Dance, and any remaining source-null records), then inspect dedicated research files for concrete lesson/test/mission identifiers before editing.**
