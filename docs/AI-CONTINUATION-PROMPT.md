@@ -2837,3 +2837,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `9e5471d3b2fe0d74dcf9542c07ec4be4820c0642`.
 - Live census: 283 records; `source_quest` null on 171 records.
 - Next task: continue explicit single-PQ provenance, beginning with **Fighting Pose E (PQ19), Fighting Pose H (PQ61), Justice Pose (PQ53), Taunt (PQ45), Brave Sword Slash (PQ116), Burning Swan (PQ167)**, while leaving multi-PQ/ambiguous reward-pool records unchanged.
+
+
+### 2026-09-19 continuation — source quest provenance batch 9
+- Completed 19 explicit single-PQ provenance records. Skills commit: `59cdc9ae66a60ff9ce1dab0c92c9b10bde167cb3`; coverage audit commit: `65c45a9102bb4500c994ee79d201e525a3b26f4c`.
+- Live census: 283 records; `source_quest` null on 152 records.
+- Next candidates include **Mach Punch (PQ19), Meteor Blow (PQ09), Meteor Strike (PQ06), Neo Wolf Fang Fist (PQ86), Power Impact (PQ120), Powered Shell (PQ128)** and other records with a single explicit quest number. Continue skipping multi-PQ/shop ambiguity and character-only reward-context records.
