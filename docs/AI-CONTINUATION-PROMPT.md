@@ -2794,3 +2794,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `5d3777ff2729d42c86bf2aa5436b86a127fcef12`, `2ad9ac722d9071209c51d09274a1f4ae969e9e64`, `771e887531da3d4a50dfb1545a00f0703b123f73`.
 - Exact next task: continue auditing the remaining `ultimate_finish_required=true` records whose unlock text is generic or whose evidence is internally inconsistent; only flip gates when repository/source evidence establishes the correct reward tier.
+
+
+### 2026-09-20 cycle update — Super Dragon Flight reward-gate correction
+- Corrected **Super Dragon Flight** `ultimate_finish_required` from `true` to `false` and refined its Xenoverse 2 provenance to **PQ31 — "Let's Train!" Basic Reward**. Current PQ31 evidence places the skill in Basic Rewards; defeating revived Gohan is a win condition, not a separate UF-only acquisition gate. citeturn1search0turn1search1turn1search6
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `954da8c6fa6959679d5d19aa4cf46e337953b334`, `8a5e9de234e05e6a0a055e1f6edcf0fb882b99ad`, `054f3ba27eab2a93a97993e309193ed51b332b76`.
+- Exact next task: continue the remaining `ultimate_finish_required=true` audit, prioritizing generic unlock text and records where current evidence explicitly separates Basic Rewards from Ultimate Finish rewards.
