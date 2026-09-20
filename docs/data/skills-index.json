@@ -294,12 +294,15 @@
       "name": "Burst Reflection",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "other_nonquest",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19",
+      "unlock_method": "Second use of Shenron wish \"I want a new Super Attack!\""
     },
     {
       "name": "Burst Rush",
@@ -382,14 +385,17 @@
       "name": "Flash Fist Crush",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "other_nonquest",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Flash_Fist_Crush",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19",
+      "unlock_method": "Shenron wish \"I want a new Super Attack!\""
     },
     {
       "name": "God Breaker",
@@ -463,14 +469,17 @@
       "name": "Shadow Crusher",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shadow_Crusher",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19",
+      "unlock_method": "Cooler (Final Form) mentor training"
     },
     {
       "name": "Sudden Death Beam",
@@ -516,40 +525,49 @@
       "name": "Time Skip/Back Breaker",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Back_Breaker",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19",
+      "unlock_method": "Hit mentor training"
     },
     {
       "name": "Time Skip/Flash Skewer",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Flash_Skewer",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19",
+      "unlock_method": "Hit mentor training"
     },
     {
       "name": "Time Skip/Jump Spike",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Jump_Spike",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19",
+      "unlock_method": "Hit mentor training"
     },
     {
       "name": "Ultrasonic Blitz",
