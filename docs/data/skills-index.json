@@ -693,11 +693,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Cooler (Final Form) mentor training",
+      "unlock_method": "Cooler (Final Form) mentor training.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "source_quest": "Cooler (Final Form) mentor training"
     },
@@ -773,11 +773,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Hit mentor training",
+      "unlock_method": "Hit mentor training.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training"
     },
@@ -793,11 +793,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Hit mentor training",
+      "unlock_method": "Hit mentor training.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training"
     },
@@ -813,11 +813,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Hit mentor training",
+      "unlock_method": "Hit mentor training.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training"
     },
@@ -1948,11 +1948,11 @@
         "https://dbxv2.fandom.com/wiki/Galick_Gun",
         "https://dragonball.fandom.com/wiki/Galick_Gun"
       ],
-      "unlock_method": "Vegeta mentor training",
+      "unlock_method": "Vegeta mentor training.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training.",
+      "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
       "source_quest": "Vegeta mentor training"
     },
@@ -2742,11 +2742,11 @@
         "https://dbxv2.fandom.com/wiki/Pan",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Pan initiation/mentor",
+      "unlock_method": "Pan's Initiation Test / mentor training.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor.",
+      "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "source_quest": "Pan's Initiation Test / mentor training"
     },
@@ -2760,11 +2760,11 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Charge"
       ],
-      "unlock_method": "First Advancement Test - Easy Class / CaC playstyle reward",
+      "unlock_method": "First Advancement Test — Easy Class reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill.",
       "source_quest": "Advancement Test — Easy Class"
     },
@@ -2815,11 +2815,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Full_Power_Charge"
       ],
-      "unlock_method": "Advancement Test - Advanced Class",
+      "unlock_method": "Advancement Test — Advanced Class reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge.",
       "source_quest": "Advancement Test — Advanced Class"
     },
@@ -2873,11 +2873,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Instant_Transmission"
       ],
-      "unlock_method": "Goku — Lesson 1",
+      "unlock_method": "Goku mentor training — Lesson 1.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate.",
+      "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost.",
       "source_quest": "Goku mentor training — Lesson 1"
     },
@@ -2911,11 +2911,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Maximum_Charge"
       ],
-      "unlock_method": "Advancement Test - God Class",
+      "unlock_method": "Advancement Test — God Class reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills.",
       "source_quest": "Advancement Test — God Class"
     },
@@ -2987,11 +2987,11 @@
         "https://dragonball.fandom.com/wiki/Rise_to_Action",
         "https://dbxv2.fandom.com/wiki/Rise_to_Action"
       ],
-      "unlock_method": "Krillin initiation/mentor",
+      "unlock_method": "Krillin's Initiation Test / mentor training.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor.",
+      "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina.",
       "source_quest": "Krillin's Initiation Test / mentor training"
     },
@@ -3217,11 +3217,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Data_Input"
       ],
-      "unlock_method": "Expert Mission 20 — Harbinger of Doom",
+      "unlock_method": "Expert Mission 20 — \"Harbinger of Doom\" reward; exact reward-generation/drop condition remains unresolved.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks.",
       "source_quest": "Expert Mission 20 — Harbinger of Doom"
     },
@@ -4546,11 +4546,11 @@
         "https://dbxv2.fandom.com/wiki/Death_Ball",
         "https://gamefaqs.gamespot.com/boards/466298-dragon-ball-xenoverse-2-future-saga-chapter-1/74429476"
       ],
-      "unlock_method": "Frieza mentor — Intergalactic Emperor of Evil 3",
+      "unlock_method": "Frieza mentor training — Intergalactic Emperor of Evil 3.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile. 2026-09-20 verification: current skill page and mentor documentation identify Training with Frieza (1st Form), specifically Intergalactic Emperor of Evil 3, as the acquisition source; it is a Ki Blast Ultimate.",
       "source_quest": "Frieza mentor — Intergalactic Emperor of Evil 3"
     },
@@ -5214,11 +5214,11 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb"
       ],
-      "unlock_method": "Expert Mission 16",
+      "unlock_method": "Expert Mission 16 — \"In the Realm of the Gods: Vegeta\" reward; exact reward-generation/drop condition remains unresolved.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile.",
       "source_quest": "Expert Mission 16 — In the Realm of the Gods: Vegeta"
     },
@@ -5233,11 +5233,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://dragonball.fandom.com/wiki/Supernova"
       ],
-      "unlock_method": "Expert Mission 6 - \"The Depths of Despair\"",
+      "unlock_method": "Expert Mission 6 — \"The Depths of Despair\" reward; exact reward-generation/drop condition remains unresolved.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere.",
       "source_quest": "Expert Mission 6 — The Depths of Despair"
     },
@@ -5397,11 +5397,11 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "unlock_method": "Training with Lord Slug, Lesson 3",
+      "unlock_method": "Lord Slug mentor training — Lesson 3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack.",
       "source_quest": "Lord Slug mentor training — Lesson 3"
     },
@@ -5419,11 +5419,11 @@
         "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "unlock_method": "Training with Lord Slug, Lesson 3",
+      "unlock_method": "Lord Slug mentor training — Lesson 3.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "Namekian",
-      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors.",
+      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
       "source_quest": "Lord Slug mentor training — Lesson 3"
     },
