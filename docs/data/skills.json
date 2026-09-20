@@ -3751,7 +3751,8 @@
       "source_quest_or_shop": "Skill Shop",
       "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
       "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Decisive Battle with Majin Buu"
     },
     {
       "name": "Time Control",
