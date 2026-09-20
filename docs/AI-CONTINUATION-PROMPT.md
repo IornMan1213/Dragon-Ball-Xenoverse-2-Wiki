@@ -3130,3 +3130,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Runtime validation was not executed in this session because direct GitHub network access from the container is unavailable and the repository has no reported workflow run/status check for these commits.
 - Commits: schema `27e8d73e6c442fdb98a7808f35b61e1310e141df`; validator `996df0cf516d71b5ba091d788b7edbe28b70f672`; correction `1cf129e85f8adf459d9a82efe6f7b7eef91a1e26`.
 - Next exact task: inspect repository dependency/workflow configuration for `jsonschema`; if absent, add a minimal pinned development dependency and CI validation workflow so the new schema validation actually runs on GitHub.
+
+
+### 2026-09-19 continuation — CI-backed schema validation
+- Inspected existing GitHub Actions workflows.
+- Added `.github/workflows/skills-validation.yml` to install pinned `jsonschema==4.25.1` under Python 3.12 and execute `python scripts/validate_skills.py` on relevant skill/schema/validator changes.
+- Workflow commit: `aad4828815d41cae2314aac293ed9cb52ae82b96`.
+- GitHub currently reports no workflow run for that commit yet; do not claim runtime CI success until a run is available.
+- Audit commit: `fdaff759238cf2a160f2d169228a29480c8c4caa`.
+- Next exact task: inspect the new workflow's trigger behavior and existing CI conventions, then verify whether GitHub Actions executes it on the next repository change; if it remains unrun, continue improving repository validation without inventing a pass result.
