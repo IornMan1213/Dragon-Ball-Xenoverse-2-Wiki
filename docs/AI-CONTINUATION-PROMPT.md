@@ -2901,3 +2901,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Re-synchronized `docs/data/skills-index.json`; 283 records remain.
 - Commits: `230d4495b14663b579522ecc719f8aacf824e0ac` (canonical), `cf68fac07171b8dafed55389b227a319f8ba3215` (index), `0748fa292305c85ddc3b74fde52cd3b3953442ad` (coverage audit).
 - Exact next task: continue remaining generic/random PQ records in quest order, preserving explicit RNG provenance.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 5
+- Refined **Giant Cluster** and **Spirit Pulse** to explicit random-reward provenance (PQ163 and PQ151 respectively).
+- Refined **Photon Swipe** (PQ139 Basic), **Pretty Cannon** (PQ133 Basic), **Ray Blast** (PQ125 Basic), **Reverse Shot** (PQ123 Basic), **Shine Shot** (PQ7 Basic), and **Spirit Blaster** (PQ129 Basic).
+- Re-synchronized `docs/data/skills-index.json`; 283 records remain.
+- Commits: `e3da5ad7e4fc819fbbdb856bc1bef951cb3a6165` (canonical), `fd7bef44e49a4cad5877a86122895fb223b85d4a` (index), `4b1783f41d3a5cd9c61296adfce44eef8ec5cefc` (coverage audit).
+- Exact next task: continue remaining generic/random PQ records in quest order.
