@@ -3277,3 +3277,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index remain **283**, exact parity preserved, UF count **60**.
 - Commits: `491fa4f268ad7b4b00ffc0ed26e64317b5befaa1` and `716009bc1c79e1e6ae207cfe99e86644d15870c2`.
 - Exact next task: **continue the remaining vague PQ acquisition census, prioritizing concrete maintained Basic Reward relationships not yet reflected in acquisition text and preserving conflicts.**
+
+
+### 2026-09-20 cycle update — remaining generic PQ reward-tier refinement
+- Converted 21 previously vague PQ acquisition records to explicit Basic Reward wording using maintained PQ research evidence, while preserving documented alternate routes.
+- Emperor's Cannon remains the sole identified generic PQ provenance conflict requiring separate resolution/documentation rather than inference.
+- Validation remains 283/283, exact parity, UF 60.
+- Commits: 2c47b6dbba28cc00e1ec4565c91def9ac28be09b, c39b2fc99b137c751079706f1b651fa5ef89723e.
+- Exact next task: recompute the generic PQ census and inspect any remaining vague acquisition records; then audit non-generic quest/mission records for the same Basic Reward evidence pattern, without changing unresolved source conflicts.
