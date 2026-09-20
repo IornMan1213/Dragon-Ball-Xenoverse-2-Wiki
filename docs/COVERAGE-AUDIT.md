@@ -2909,9 +2909,23 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 - Resolved 11 additional `dlc_requirement` values:
   - **Base Game:** Namek Finger, Dragon Fist, Final Kamehameha, Spirit Boost, Time Bullet, Fighting Pose K, Energy Release, Instant Charge, Rising Rage, Dragon Thunder.
   - **Free Update 12:** Godly Display.
-- Launch-era TP Medal Shop records from October 2016 explicitly list Namek Finger, Dragon Fist, and Final Kamehameha, establishing Base Game provenance. citeturn2search7turn2search8
-- Bandai Namco's documented 2020 free-update period and the maintained free-update chronology place Godly Display among the TP Medal Shop skills introduced in the Free Update 12 era. citeturn1search0turn2search18
+- Launch-era TP Medal Shop records from October 2016 explicitly list Namek Finger, Dragon Fist, and Final Kamehameha, establishing Base Game provenance. 
+- Bandai Namco's documented 2020 free-update period and the maintained free-update chronology place Godly Display among the TP Medal Shop skills introduced in the Free Update 12 era. 
 - The remaining shop/skill records are being treated conservatively; current shop availability alone is not used to infer DLC.
 - Data commit: `9df672ae92f5367ae8d1ba409eccdef6598aeabd`.
 - Live null `dlc_requirement` count after this batch: **1**.
-- Sole remaining null: **Divine Lasso**. Bandai Namco's May 10, 2017 content-update announcement explicitly lists Divine Lasso in the TP Medal Shop, but the current evidence does not establish a canonical numbered free-update/DLC label strongly enough to assign one without inference. citeturn1search2
+- Sole remaining null: **Divine Lasso**. Bandai Namco's May 10, 2017 content-update announcement explicitly lists Divine Lasso in the TP Medal Shop, but the current evidence does not establish a canonical numbered free-update/DLC label strongly enough to assign one without inference. 
+
+
+## 2026-09-19 — Divine Lasso + source-quest integrity batch
+
+- Resolved the final `dlc_requirement` null:
+  - **Divine Lasso → Free Update 3**.
+- Bandai Namco's May 10, 2017 content-update notice lists Divine Lasso in the TP Medal Shop schedule. Contemporary documentation identifies the same release as the DLC 3 / Free Update 3 era, while distinguishing the TP-shop skills as free-update content rather than paid DLC. citeturn0search0turn2search3turn2search5
+- Also filled 3 previously-null `source_quest` fields where the records already explicitly named their quest route:
+  - Divine Spear → PQ171 / PQ172
+  - Crimson Edge → PQ171 / PQ172
+  - Wild Stinger → PQ171 / PQ172
+- Data commits: `f3e5dfe211ae4a4fa3bfd0e6bc0bc6477c528ac9`, `ecac80ef9989375ecbebf0b227af059489656d68`.
+- Live target after this batch: **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
+- The remaining 28 source-quest nulls include legitimate non-quest acquisition routes (skill shops, TP Medal Shop, character-only skills, and starting moves). Do not force a quest value into those records merely to eliminate nulls.
