@@ -3425,3 +3425,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Current PQ references distinguish ordinary skill drops from Ultimate-Finish reward slots. citeturn0search1turn0search6
 - Audit commit: `b610c22a5b6e7d1a28cb888ab3938662ac9d71d3`.
 - Next task: continue the remaining non-UF quest records and check for contradictions between `ultimate_finish_required`, reward wording, and `source_quest_or_shop`; then inspect latest Actions without weakening workflows.
+
+
+### 2026-09-20 cycle update — non-UF quest reward consistency + Actions check
+- Rechecked the remaining non-UF quest/mission records for contradictions between `ultimate_finish_required` and their reward wording. No canonical flag change was supported; explicit Basic Reward records remain `false`.
+- Latest Actions runs on handoff commit `7cb4ed6e2630fe84b557273ad6e65c23d03b81f4` remain failing for **Clean internal artifacts** and **Repository quality**; the Pages deployment run is cancelled. The connected GitHub API still does not expose useful step-level diagnostics for the failing jobs, so the workflow configuration is not weakened or altered. GitHub documents that failed workflow jobs should be diagnosed through their job logs/steps, and that job APIs can expose those details when accessible. citeturn0search1turn0search4
+- Audit commit: `69637a8efc96947584c04644b468ee538f0c6b6c`.
+- Next task: continue the remaining `verified_current_scope` records outside the already-audited UF/basic/shop/character-only subsets, then perform another internal-artifact sweep and refresh the Actions state.
