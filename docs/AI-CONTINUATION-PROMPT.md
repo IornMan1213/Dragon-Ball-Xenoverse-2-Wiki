@@ -3476,3 +3476,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Verified **Burning Swan** as a **PQ167** reward; no UF-only condition was established, so it remains false.
 - Canonical/index/audit synchronized.
 - Next: continue remaining partial records; prioritize exact PQ/drop conditions and resolve UF conflicts with explicit evidence.
+
+
+### 2026-09-19 continuation — PQ reward reconciliation
+- Reconciled **Lovely Cyclone** to PQ135 and **Burning Swan** to PQ167 using the live all-PQ reward guide plus dedicated/community evidence.
+- Reviewed **Blazing Attack** again: PQ136 and RNG-drop evidence are solid, but the evidence does not prove the skill itself is UF-only. Its UF gating remains unresolved rather than being asserted as fact.
+- Canonical/index/audit synchronized. Current counts: 133 verified, 71 partial.
+- Next: continue the remaining partial PQ/drop records and only promote when the exact acquisition condition is established.
