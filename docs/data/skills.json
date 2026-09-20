@@ -289,7 +289,8 @@
       "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki.",
       "unlock_method": "Complete the Frieza's Spaceship Time Rift progression and its Frieza/Meta-Cooler recruitment battles as a Frieza Race CaC.",
       "research_status": "enriched",
-      "source_quest_or_shop": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression"
+      "source_quest_or_shop": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression",
+      "source_quest": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression"
     },
     {
       "name": "Beast",
@@ -315,7 +316,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dbxv2.fandom.com/wiki/Beast"
       ],
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken."
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken.",
+      "source_quest": "Beast unlock chain"
     },
     {
       "name": "Kaioken",
@@ -369,7 +371,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dbxv2.fandom.com/wiki/Potential_Unleashed"
       ],
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction."
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction.",
+      "source_quest": "Final Advancement Test"
     },
     {
       "name": "Pure Progress",
@@ -411,7 +414,8 @@
       "last_verified": "2026-09-19",
       "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "research_status": "enriched",
-      "source_quest_or_shop": "Super Saiyan Awoken Skill — second transformation stage"
+      "source_quest_or_shop": "Super Saiyan Awoken Skill — second transformation stage",
+      "source_quest": "Super Saiyan Awoken Skill — second transformation stage"
     },
     {
       "name": "Super Saiyan Blue Kaioken",
@@ -479,7 +483,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct"
       ],
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior."
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior.",
+      "source_quest": "Ultra Instinct unlock route"
     },
     {
       "name": "Burst Reflection",
@@ -499,7 +504,8 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "mechanics": "Ki Blast Super: brief barrier grants protection while active, then fires a single-hit Ki wave.",
-      "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification."
+      "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
+      "source_quest": "Shenron wish"
     },
     {
       "name": "Burst Rush",
@@ -651,7 +657,8 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
+      "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "source_quest": "Shenron wish"
     },
     {
       "name": "God Breaker",
@@ -781,7 +788,8 @@
       "source_quest_or_shop": "Cooler (Final Form) mentor training",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "source_quest": "Cooler (Final Form) mentor training"
     },
     {
       "name": "Sudden Death Beam",
@@ -1954,7 +1962,8 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained.",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Krillin mentor training"
     },
     {
       "name": "Dimension Cannon",
@@ -2326,7 +2335,8 @@
       "usable_by_cac": true,
       "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
       "research_status": "enriched",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": "Vegeta mentor training"
     },
     {
       "name": "Gamma Blaster",
