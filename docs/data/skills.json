@@ -2598,9 +2598,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random reward from Parallel Quest 163 — \"Broly the Invader\"",
+      "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" Ultimate Finish reward (40% roll)",
       "source_quest_or_shop": "PQ163",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Giant Cluster is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
@@ -2612,7 +2612,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Giant Cluster as a random Parallel Quest reward; no specific reward tier is inferred.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Giant Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Giant Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics.",
       "source_quest": "Parallel Quest 163",
       "acquisition_type": "quest_or_mission"
     },
