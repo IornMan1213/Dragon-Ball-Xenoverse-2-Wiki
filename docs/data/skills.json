@@ -2545,13 +2545,13 @@
       "name": "Galick Gun",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Galick_Gun",
         "https://dragonball.fandom.com/wiki/Galick_Gun"
       ],
       "ki_cost": 100,
-      "unlock_method": "Training with Vegeta",
+      "unlock_method": "Vegeta mentor training",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Vegeta mentor training",
       "last_verified": "2026-09-19",
@@ -2562,7 +2562,7 @@
       "source_quest": "Vegeta mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training."
     },
     {
       "name": "Gamma Blaster",
@@ -3614,14 +3614,14 @@
       "name": "Dancing Parapara",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dragonball.fandom.com/wiki/Para_Para_Boogie",
         "https://dbxv2.fandom.com/wiki/Pan",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
-      "unlock_method": "Complete Pan's Initiation Test / train under Pan",
+      "unlock_method": "Pan initiation/mentor",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -3632,7 +3632,7 @@
       "source_quest": "Pan's Initiation Test / mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor."
     },
     {
       "name": "Energy Charge",
@@ -3861,12 +3861,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 114",
       "source_quest_or_shop": "Parallel Quest 114",
       "ultimate_finish_required": false,
       "skill_description": "Petrifying Spit is a Super Other skill associated with Dabura.",
       "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -3876,7 +3876,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114."
     },
     {
       "name": "Phantom Fist",
@@ -3888,7 +3888,7 @@
         "https://dbxv2.fandom.com/wiki/Phantom_Fist"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 97 reward.",
+      "unlock_method": "Parallel Quest 97",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3899,7 +3899,7 @@
       "source_quest": 97,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record."
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97."
     },
     {
       "name": "Quick Sleep",
@@ -3928,13 +3928,13 @@
       "name": "Rise to Action",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dragonball.fandom.com/wiki/Rise_to_Action",
         "https://dbxv2.fandom.com/wiki/Rise_to_Action"
       ],
       "ki_cost": 100,
-      "unlock_method": "Krillin's initiation test / mentor training",
+      "unlock_method": "Krillin initiation/mentor",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -3945,7 +3945,7 @@
       "source_quest": "Krillin's Initiation Test / mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor."
     },
     {
       "name": "Rising Rage",
