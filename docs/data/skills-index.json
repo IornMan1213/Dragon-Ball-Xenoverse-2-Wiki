@@ -1254,8 +1254,8 @@
     },
     {
       "name": "Buu Buu Ball",
-      "class": "Super",
-      "subcategory": "Ki Blast",
+      "class": "Evasive",
+      "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
@@ -1265,7 +1265,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 88 — \"A Destructive Duo! Majin Buu & Janemba!\" Basic Reward",
+      "unlock_method": "Parallel Quest 88 — \"Evil Seeks Dragon Balls Yet Again!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "Majin (Pure Majin form)"
@@ -4803,7 +4803,7 @@
     {
       "name": "Saiyan Spirit",
       "class": "Ultimate",
-      "subcategory": "Strike",
+      "subcategory": "Ki Blast",
       "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
@@ -4813,7 +4813,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 84 — Basic Reward.",
+      "unlock_method": "Parallel Quest 84 — \"Saiyan Warriors\" Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "Saiyan"
