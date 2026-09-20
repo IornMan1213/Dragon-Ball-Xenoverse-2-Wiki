@@ -742,7 +742,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Counter",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Heroic_Counter"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
@@ -756,7 +757,7 @@
       "last_verified": "2026-09-20",
       "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ155 reward listings explicitly include Heroic Counter in the Basic Reward pool; dedicated skill documentation confirms PQ155 acquisition."
+      "notes": "2026-09-20 audit: PQ155 reward listings explicitly include Heroic Counter in the Basic Reward pool; dedicated skill documentation confirms PQ155 acquisition. 2026-09-20 provenance audit: maintained PQ155 reward transcription lists Heroic Counter in the Basic Reward pool, while Dragon Ball Wiki describes it as a random Future Warrior acquisition from PQ155. The exact slot/gate remains unresolved; canonical Basic Reward classification is retained without asserting an Ultimate Finish-only requirement."
     },
     {
       "name": "Punisher Shield",
