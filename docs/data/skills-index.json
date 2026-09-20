@@ -3446,13 +3446,14 @@
       "name": "Heat Dome Attack",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Dome_Attack",
         "https://dragonball.fandom.com/wiki/Heat_Dome_Attack"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Holy Wrath",
@@ -3471,42 +3472,45 @@
       "name": "Last Emperor",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Last_Emperor",
         "https://dragonball.fandom.com/wiki/Last_Emperor"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Lightning Impact",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_Impact"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Lightning of Absolution",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution",
         "https://dragonball.fandom.com/wiki/Lightning_of_Absolution"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Majin Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -3515,43 +3519,47 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Majin_Kamehameha"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Mystic Flash",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mystic_Flash",
         "https://dragonball.fandom.com/wiki/Mystic_Flash"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Prominence Flash",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Prominence_Flash",
         "https://dragonball.fandom.com/wiki/Prominence_Flash"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Requiem of Destruction",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction",
         "https://dragonball.fandom.com/wiki/Requiem_of_Destruction"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Revenge Death Ball",
