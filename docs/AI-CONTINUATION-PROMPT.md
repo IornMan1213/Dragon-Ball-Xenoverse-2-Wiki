@@ -2761,3 +2761,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Artifact scan: GitHub code searches returned no matches for `filecite`, `memcite`, or `turn0search` in the indexed repository search.
 - CI: the latest push-triggered Repository quality and Clean internal artifacts runs for `2004a935a67a9ed81638dc019b625472cb687d92` were **queued** at inspection. The immediately preceding Repository quality run for `035ce0853b4360204fa588105290c33266eb1027` failed before actionable steps/logs were exposed; no validator was weakened.
 - Exact next task: continue the pre-2026-09-20 current-scope skill audit, prioritizing remaining canonical type/cost/source mismatches before lower-confidence descriptive enrichment. Recompute the live census first, then inspect the next unresolved records and update both `skills.json` and `skills-index.json` whenever canonical/index fields diverge.
+
+
+### 2026-09-20 cycle update — canonical mismatch pass: Time Bullet / Dragon Thunder / Surging Spirit
+- Corrected **Time Bullet** from stale character-exclusive semantics to **100-Ki Other Super, CaC-accessible via Skill Shop after the Decisive Battle with Majin Buu**.
+- Corrected **Dragon Thunder** from stale universal-CaC semantics to **Omega Shenron's 100-Ki Strike Super, unavailable to CaCs**.
+- Clarified **Surging Spirit** as an **Ultra Instinct built-in CaC action**, not a separately acquired equipable skill; N/A unlock route retained.
+- Revalidated **Destruction's Concerto: Comet** as a variable 100–200 Ki Super and kept **Wild Stinger**'s exact cost unresolved rather than overstating verification.
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `1b3e8da7e5154800da971b95068e8388d0575fb8`, `354106948a7cb49855eeafc24caa261471f42b9b`, `36416e6debf2b66f4fd60f7f251c1e09ff88e95f`.
+- Exact next task: continue the remaining current-scope canonical audit, prioritizing stale `usable_by_cac`, acquisition type, and reward-gate fields while preserving uncertainty where evidence conflicts.
