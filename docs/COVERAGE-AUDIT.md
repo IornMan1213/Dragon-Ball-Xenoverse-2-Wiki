@@ -3483,3 +3483,17 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No canonical field changes were made because the current records already match the evidence.
 - Canonical census remains **283 records / 78 `verified_current_scope` / 2 Ultimate Finish-gated**.
 - The next audit category is now **generic `quest_or_mission` acquisition wording** among verified current-scope records, beginning with records such as Mighty Explosive Wave, Side Bridge, Steel Mirage, Demon Ray, and other PQ acquisitions whose unlock text is still only `Parallel Quest reward` / `Random Parallel Quest reward`.
+
+
+## 2026-09-20 — Generic PQ acquisition wording pass
+
+- Refined four current-scope records whose unlock text was too generic:
+  - **Mighty Explosive Wave** → PQ79 Basic Reward.
+  - **Side Bridge** → PQ39 Random Reward.
+  - **Steel Mirage** → PQ165 Random Reward.
+  - **Demon Ray** → PQ160 Ultimate Finish Bonus.
+- The Demon Ray correction is especially important: current PQ160 data explicitly places it in the UF bonus pool. citeturn0search5turn0search10
+- Mighty Explosive Wave is independently documented as a PQ79 acquisition. citeturn0search3turn0search2
+- Side Bridge is documented as a random PQ39 reward, while Steel Mirage is tied to PQ165. citeturn0search6turn0search7
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Commits: `4eaa298f9b3f700e19474bd...`, `3fc1aaebcb265bd42fba833de5442a9765a08766`.
