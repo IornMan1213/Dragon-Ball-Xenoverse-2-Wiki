@@ -2713,3 +2713,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Refined **Change The Future** to exact PQ43 — "Change the Future" Basic Reward provenance and retained its 100-Ki Ki Blast Super counter classification.
 - Commits: `50100a6f782d6042716cffa66298cfa00f0a95bc` (skills), `1e7aa0c8b7755624eaa408b9b865ce52fc0f9736` (coverage audit).
 - Exact next task: continue the current-scope audit for additional canonical type/cost mismatches before adding lower-confidence descriptive detail; preserve source conflicts.
+
+
+### 2026-09-20 cycle update — Maiden Burst evidence refinement
+- Refined **Maiden Burst** to exact **Parallel Quest 92 — "Revenge of the Tuffle" Basic Reward** provenance.
+- Confirmed 300-Stamina Ki Blast Evasive classification and documented short-range explosive knockback mechanics from dedicated evidence; maintained PQ listing independently places it in Basic Reward.
+- Commits: `8aacc3faa0a40ecaed0c8521bd411410adaa2ffa` (skills), `650f3aedffd08426cbe5b35e988e75c9f9d56db8` (coverage audit).
+- Exact next task: continue the canonical type/cost and acquisition-provenance audit, prioritizing records still dated before 2026-09-20 and preserving conflicts where sources disagree.
