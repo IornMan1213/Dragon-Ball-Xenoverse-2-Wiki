@@ -3067,3 +3067,12 @@ Made a no-op functional comment change to `.github/workflows/skills-validation.y
 Inspected the complete semantic validation path after JSON Schema validation was added. The schema declares `date` and `uri` formats, but jsonschema does not enforce format assertions unless a format checker is supplied. Updated `scripts/validate_skills.py` to use `FormatChecker()` and to call `Draft202012Validator.check_schema(schema)` before validating records. This makes the declared date/URI constraints executable and also rejects an invalid validator schema early. No skill data was changed.
 
 Validator commit: `cd193c13fd4b701bb7bbbaf7caaad1748156d88c`.
+
+
+## 2026-09-19 — validator invariant correction and source normalization
+
+The validator review found an invalid semantic assertion: it required `ultimate_finish_evidence` whenever `ultimate_finish_required` was false, but that field is not part of the canonical schema/data. That check would reject the current 283-record dataset despite the records being schema-conformant. Removed the unsupported assertion and retained the boolean/schema validation.
+
+Also strengthened cross-file metadata checks for `schema_version`, `generated`, and `source_index`, and normalized duplicate source URLs in five records (The Power to Overcome, Beast, Kaioken, Potential Unleashed, Ultra Instinct) in both canonical and index data. No source URLs were removed unless they were exact duplicates.
+
+Commits: validator `cb80679f33c9d0869982da11d6609ba8b43b2822`; canonical data `ca4daff88a8411deb2a93f22755cf3842e507087`; index `ce35a57af9ca30d1ab82e1441c9d36ce13c96d7f`.
