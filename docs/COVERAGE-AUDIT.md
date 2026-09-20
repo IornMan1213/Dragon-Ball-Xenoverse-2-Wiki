@@ -3573,3 +3573,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Preserved the older PQ186 association for Dragon Spiral as a source conflict in notes rather than inventing a second acquisition route.
 - Re-synchronized `docs/data/skills-index.json`; record count remains 283.
 - Next pass: remaining unresolved/random PQ records, beginning with Justice Drive, Justice Kick, Mach Punch, Burning Blast, and Teleporting Vanishing Ball.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 8
+- Refined **Justice Drive** → PQ168 Basic Reward; **Justice Kick** → PQ152 Basic Reward; **Mach Punch** → PQ19 Basic Reward; **Burning Blast** → PQ180 Basic Reward.
+- Refined **Teleporting Vanishing Ball** → PQ62 Basic Reward while preserving a historical GameFAQs report that treated it as an Ultimate Finish drop; no UF-only gate is asserted in canonical data.
+- Re-synchronized `docs/data/skills-index.json`; record count remains 283.
+- Next pass: continue the remaining generic/random PQ records after these tier-confirmed entries.
