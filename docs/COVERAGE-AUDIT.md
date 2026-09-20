@@ -3637,3 +3637,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined six generic PQ acquisition records: **Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Super Black Kamehameha Rosé (PQ109), Holy Wrath (PQ111), Lightning of Absolution (PQ111), Blades of Judgment (PQ112)**.
 - All six are explicitly recorded as **Basic Reward** routes with `ultimate_finish_required=false`; no reward probability was inferred.
 - Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 15
+- Refined six generic PQ acquisition records: **S.S. Deadly Bomber (PQ115), Brave Sword Attack (PQ117), Power Impact (PQ120), Variant Drive (PQ123), Revenge Final Flash (PQ124), Gigantic Breaker (PQ126)**.
+- All six are explicitly recorded as **Basic Reward** routes with `ultimate_finish_required=false`; no reward probability was inferred.
+- Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
