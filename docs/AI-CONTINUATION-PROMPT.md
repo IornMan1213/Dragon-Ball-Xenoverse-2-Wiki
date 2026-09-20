@@ -3215,3 +3215,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - No further gate changes were made from generic wording. The canonical and index records were updated with census notes documenting these residual cases.
 - Commits: `9154bf060553c04f09ff6c8d451f9fc3252fb590` (canonical), `f000bfc3961f6a90b80b1af482df475187878be2` (index).
 - Exact next task: inspect stale contradictory provenance/mechanics notes for the 14 newly corrected UF records and remove only statements that directly contradict their now-explicit maintained drop conditions; preserve historical/source-conflict notes when they remain informative.
+
+
+### 2026-09-20 cycle update — stale PQ contradiction cleanup
+- Cleaned stale provenance/mechanics statements for the 14 records corrected in the explicit drop-condition cycle. Removed or replaced direct claims that those skills were outside Ultimate Finish requirements when the maintained `skill_drop_conditions` now explicitly assign them to Ultimate Finish rolls/bonus slots.
+- The cleanup also removed the malformed `batch undefined` wording introduced by the earlier automated reconciliation notes and replaced it with repository-level maintained PQ drop-condition wording.
+- Canonical/index acquisition, UF flags, notes, and mechanics provenance are synchronized for the affected records.
+- Genuine evidence uncertainty was preserved where applicable; no unsupported prerequisite or probability inference was added.
+- Commits: `2c5cea26292c44cb380ad88970aba8c607b0e44c` (canonical), `2d1792118724dddf6b4c2c3879198dc46306abd7` (index).
+- Exact next task: run a broad stale-provenance phrase census across all 283 skill records (especially `Basic Reward`, `no Ultimate Finish`, `gate unresolved`, and `random reward` language) and compare each hit with explicit PQ drop-condition data before changing anything.
