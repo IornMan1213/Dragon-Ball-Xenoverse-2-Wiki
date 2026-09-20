@@ -3281,3 +3281,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined **Destruction's Concerto: Comet**, **Destruction's Concerto: Starfall**, **Destruction's Concerto: Meteor**, and **Destruction's Conductor** from the broad `Super Pass` label to **Super Pack 2**.
 - The maintained DLC reference identifies DLC 2 / Super Pack 2 as containing PQ104–106 and these skills.
 - No Ultimate Finish flags were changed in this pass; the repository's current PQ reward audit was preserved.
+
+### 2026-09-20 — Super Saiyan Blue Kaioken provenance correction
+
+- 2026-09-20: Corrected **Super Saiyan Blue Kaioken** provenance from `Base Game` to `Free Update 1`. Bandai Namco's official Free Update #1 material states that SSGSS Goku's Kaioken x10 was made available as free content ahead of DLC Pack 1; this resolves the previously retained historical ambiguity. No acquisition or character-only fields were otherwise changed.
