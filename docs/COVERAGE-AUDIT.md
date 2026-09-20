@@ -3650,3 +3650,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Reward-tier semantics were resolved from maintained current PQ data: PQ127/PQ128 skills are Basic Reward; Gigantic Roar and Total Detonation Ball are first-clear routes; Lovely Cyclone, Ribrianne's Eternal Love, and Savory Slicer are Ultimate Finish bonus-slot routes.
 - Accordingly, `ultimate_finish_required` is true only for **Lovely Cyclone, Ribrianne's Eternal Love, and Savory Slicer** in this batch. No probability was inferred beyond existing maintained evidence.
 - Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 17
+- Refined **Demon Flash Strike (PQ160)** as a 45% Ultimate Finish bonus-slot route; **Gigantic Explosion (PQ164)** as a 40% Ultimate Finish route; **Full Power Destruction (PQ177)** as a 50% Ultimate Finish bonus-slot route; and **Venus Fist (PQ186)** as a Basic Reward route with no Ultimate Finish requirement.
+- Preserved the maintained corpus' explicit percentages for PQ160/PQ164/PQ177; no probability was inferred for Venus Fist.
+- Numbering-gap policy remains unchanged: PQ141-PQ150 are not manufactured as records because the maintained reconciliation marks that range as a numbering gap.
+- Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
