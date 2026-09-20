@@ -5253,7 +5253,7 @@
       "source_quest_or_shop": "Parallel Quest 135",
       "ultimate_finish_required": false,
       "skill_description": "Lovely Cyclone is a Super Strike skill associated with Ribrianne.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. Current maintained PQ evidence lists Lovely Cyclone as a Basic Reward, so ultimate_finish_required=false; difficult RNG does not imply an Ultimate Finish gate. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Ultimate Finish bonus slot route; the documented route requires an Ultimate Finish bonus roll.",
+      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. Current maintained PQ evidence lists Lovely Cyclone as a Basic Reward, so ultimate_finish_required=false; difficult RNG does not imply an Ultimate Finish gate. 2026-09-20 provenance correction: the maintained PQ135 normalization does not expose an explicit Ultimate Finish-only condition for this skill; the canonical record therefore does not assert one.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
