@@ -3716,3 +3716,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Resolved three previously null CaC race fields from explicit Future Warrior evidence: **Super God Fist**, **Variant Drive**, and **Chain Destructo-Disc Barrage** → `All CaC races`.
 - The evidence establishes Future Warrior acquisition in Xenoverse 2, while no narrower race/gender/form restriction is documented. No race-specific inference was made.
 - Canonical/index parity remains exact at 283 records.
+
+
+## 2026-09-20 CaC race-restriction provenance and taxonomy pass
+
+- Re-audited the handoff-prioritized older race-restricted skills against current dedicated skill documentation and maintained PQ/shop evidence.
+- Corrected two canonical taxonomy errors: **Buu Buu Ball** is a 300-Stamina Strike Evasive from PQ88, and **Saiyan Spirit** is a 300-Ki Ki Blast Ultimate from PQ84.
+- Re-synchronized **Celestial Wave** index metadata with the canonical Ultimate-Finish flag while preserving the conflicting Basic Reward vs Ultimate Finish source evidence.
+- Namek Finger remains a Namekian-restricted TP Medal Shop skill; Darkness Rush (Ranged) remains Namekian-only and learned through Lord Slug training; Evil Flight Strike remains Namekian/Majin; Zigzag Express remains Male Majin; Explosive Buu Buu Punch remains Majin; Angry Shout remains the PQ68 Evasive route.
+- Validation: canonical and index datasets both contain **283 records**; corrected record identities are synchronized; no validators were changed.
+- Evidence limitation: several reward records still expose source disagreement about exact reward-slot semantics. Those conflicts remain explicit rather than being normalized away.
