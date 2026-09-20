@@ -4,7 +4,7 @@
   "generated": "2026-09-20",
   "category_counts": {
     "Ki Blast Supers": 182,
-    "Strike Supers": 130,
+    "Strike Supers": 131,
     "Ki Blast Ultimates": 111,
     "Strike Ultimates": 30,
     "Other Supers": 32,
@@ -1298,7 +1298,7 @@
     {
       "name": "Final Cannon",
       "class": "Super",
-      "subcategory": "Ki Blast",
+      "subcategory": "Strike",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
