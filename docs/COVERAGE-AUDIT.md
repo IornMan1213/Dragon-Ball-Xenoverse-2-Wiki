@@ -3546,3 +3546,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined **Gamma Blaster** → random reward from PQ155; no unsupported reward tier was inferred.
 - Re-synchronized `docs/data/skills-index.json`; record count remains 283.
 - Exact next task: continue the remaining generic/random PQ records, moving through the list in quest order and preserving explicit RNG provenance.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 5
+- **Giant Cluster:** refined to random reward from PQ163.
+- **Photon Swipe:** PQ139 Basic Reward.
+- **Pretty Cannon:** PQ133 Basic Reward.
+- **Ray Blast:** PQ125 Basic Reward.
+- **Reverse Shot:** PQ123 Basic Reward.
+- **Shine Shot:** PQ7 Basic Reward.
+- **Spirit Blaster:** PQ129 Basic Reward.
+- **Spirit Pulse:** refined to random reward from PQ151.
+- Re-synchronized `docs/data/skills-index.json`; record count remains 283.
+- Exact next task: continue the remaining generic/random PQ records in quest order.
