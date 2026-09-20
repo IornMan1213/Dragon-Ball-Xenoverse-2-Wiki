@@ -3235,3 +3235,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Schema now permits non-negative integer PQ IDs as well as descriptive strings/null.
 - No factual data was rewritten.
 - Exact next task: continue deterministic schema/data compatibility checks, then resume the bounded mechanics/acquisition evidence cohort.
+
+
+### 2026-09-19 continuation — acquisition provenance correction
+- Found two stale provenance mismatches during numeric `source_quest` auditing: Explosive Wave and Final Pose were marked `quest_or_mission` despite their Skill Shop acquisition fields.
+- Corrected both records to `skill_shop`, null `source_quest`, and explicit `Skill Shop` provenance; Ultimate Finish remains false.
+- Next task: continue deterministic acquisition/provenance auditing, especially `source_quest`/`source_quest_or_shop` consistency, before expanding factual enrichment.
