@@ -3449,3 +3449,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Current Xenoverse 2 evidence lists Super Dragon Flight directly under PQ31's Basic Reward section. The quest's third win condition is defeating revived Gohan, not a separate Ultimate Finish-only skill gate. citeturn1search0turn1search1turn1search6
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Commits: `954da8c6fa6959679d5d19aa4cf46e337953b334`, `8a5e9de234e05e6a0a055e1f6edcf0fb882b99ad`.
+
+
+## 2026-09-20 — Two additional Ultimate Finish gate corrections
+
+- **Chaotic Time Impact:** corrected `ultimate_finish_required` from `true` to `false`; PQ184 current reward evidence lists it under Basic Reward, while the separate UF bonus contains other rewards. citeturn0search0turn0search3
+- **Core Breaker:** corrected `ultimate_finish_required` from `true` to `false`; current PQ158 reward evidence lists Core Breaker under Basic Reward. citeturn0search2turn0search8
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Commits: `cc2375f58469809f700a2fbe346fb446c750f1e`, `7fbd5f1ca241b6a27af13ace1978854f95405e67`.
