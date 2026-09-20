@@ -3634,3 +3634,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - `Punisher Guard` remains normalized to its current Skill Shop/story route after the previous stale-PQ cleanup. `Explosive Wave`, `Final Pose`, and `Time Bullet` retain explicit Skill Shop/story routes; character-exclusive and built-in entries retain their non-quest boundaries.
 - An external web search for the specific acquisition terms returned no usable results in this cycle, so no new external evidence was treated as authoritative and no additional skill-data edits were made.
 - Next task: inspect individual quest-backed `source_quest` mappings for stale or mismatched unlock wording, then re-run artifact-hygiene checks before the next handoff.
+
+
+### 2026-09-20 cycle update — source_quest semantic normalization
+- Audited all populated `source_quest` fields in the 78-record current scope against their actual acquisition routes.
+- Found seven records where `source_quest` contained a progression/wish/challenge description rather than a quest source: **Super Saiyan, Super Saiyan God, Super Vegeta, Beast, Potential Unleashed, Super Saiyan 2, Ultra Instinct**.
+- Cleared `source_quest` for those seven records while preserving their detailed `unlock_method` acquisition instructions. Quest/Time Rift-backed records and actual Parallel Quest mappings were left unchanged.
+- Skill-data commit: `76b1ccc06d09a067e8e7910bfd0d35b8767ff8eb`.
+- Next task: audit the remaining populated `source_quest` values for numeric/string normalization and verify that each quest number agrees with its unlock text; then run artifact-hygiene checks.
