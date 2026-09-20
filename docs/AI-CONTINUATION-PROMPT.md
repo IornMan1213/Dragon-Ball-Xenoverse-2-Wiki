@@ -3510,3 +3510,18 @@ Live inspection of the validation contract exposed two repository integrity issu
 - The substantive source audit also rechecked Future Saga provenance: `The Power to Overcome` remains Future Saga Chapter 4; `Steel Mirage`, `Big Bang Knuckle`, `Wild Stinger`, and related Chapter 1 records remain correctly labeled; `Dark Inscription` remains Future Saga Chapter 3. External references corroborate these DLC associations. No canonical data correction was needed.
 - Audit commit: `84abb0d04439b7497ce2c88deb85a33f5e45288f`.
 - Next task: continue the remaining current-scope source-field audit and maintain the artifact-clean tree while periodically checking Actions diagnostics.
+
+
+### 2026-09-20 cycle update — remaining broad skill DLC-label sweep
+- Workstream: P1 skill second-pass acquisition/DLC-version provenance cleanup.
+- Recomputed the live canonical skill census: 283 records total; 78 verified_current_scope.
+- Found 29 skill records still using broad DLC provenance labels (DLC PQ or Super Pass) while carrying specific canonical PQ provenance.
+- Reconciled all 29 to the repository's established PQ/DLC mapping and replaced the broad labels in docs/data/skills.json: Super Packs 1–4, Extra Packs 3–4, and Ultra Packs 1–2 as applicable.
+- No acquisition route, Ultimate Finish flag, CaC/race restriction, cost, or mechanics field was changed.
+- Updated docs/data/skill-catalog-audit.json with the evidence/mapping note.
+- Commits: 97f6590894337cc1664c3a0cae909f013123ed66 (skill data), fafee1c199c3e07db9da5da11241ba3a4ff806e3 (audit note).
+- Validation before handoff: the pre-edit broad-label census was 29; the deterministic mapping covered all 29. A post-edit repository fetch/census is still required before claiming the broad-label count is zero.
+- CI: no validator was weakened. Inspect the Actions runs for the newest commit(s); preserve the existing infrastructure/diagnostic limitation if jobs again expose no steps/logs.
+- Artifact hygiene: keep the repository free of assistant citation markup and internal tool/result identifiers.
+- Current skill census remains 283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified.
+- Exact next task: fetch the live skills.json again, verify zero broad DLC labels remain and run the repository-wide internal-artifact search; then inspect the newest Actions state. If clean, continue the remaining 78-record source-field audit, prioritizing any newly discovered historical provenance contradictions rather than broad labels.
