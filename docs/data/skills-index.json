@@ -805,7 +805,7 @@
       "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Ultrasonic Blitz under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
+      "notes": "2026-09-20 source reconciliation: the maintained PQ151 reward listing also displays this skill in its Basic Reward array, while the explicit maintained drop-condition assigns it to a 50% Ultimate Finish roll. The canonical gate follows the explicit drop condition; the conflicting reward-array presentation is preserved as source metadata. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
       "mechanics_notes": "100-Ki Strike Super counter. The user enters a counter stance for up to about 2 seconds; when struck, the user vanishes behind the opponent and performs the follow-up strike. The maintained PQ151 drop-condition data assigns Ultrasonic Blitz to an explicit Ultimate Finish roll; this is the controlling current condition."
     },
     {
@@ -2567,7 +2567,7 @@
       "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ131; no Ultimate Finish-only condition is established for this record. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ131 drop-condition data explicitly assigns this skill to a 25% Ultimate Finish roll; the earlier generic acquisition wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position. The maintained PQ131 drop-condition data assigns this skill to an explicit Ultimate Finish roll."
     },
     {
@@ -2896,7 +2896,7 @@
       "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ153; no Ultimate Finish-only condition is established for this record. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ153 drop-condition data explicitly assigns this skill to a 40% Ultimate Finish bonus roll; the earlier reward-list wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll."
     },
     {
@@ -3440,7 +3440,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ160 and describes Demon Flurry as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred."
     },
     {
       "name": "Demonic Destruction",
@@ -3459,7 +3459,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence confirms Future Warrior/CaC availability, but does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred."
     },
     {
       "name": "Destruction's Conductor",
@@ -3691,7 +3691,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier.",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. Acquisition verification 2026-09-20: Verified by current skill page: unlock is explicitly PQ175. No Ultimate Finish requirement is stated; existing audit already records it as outside the UF reward condition. 2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier."
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. 2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier."
     },
     {
       "name": "Heroic Assault",
@@ -3710,7 +3710,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: dedicated skill documentation explicitly describes Heroic Assault as randomly obtainable from PQ156; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
     },
     {
       "name": "Justice Blade",
@@ -3999,7 +3999,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current skill page explicitly states Obtained from PQ140 and classifies it as a Strike Super; PQ reward page also lists Savory Slicer. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Ultimate Finish bonus slot route; the documented route requires an Ultimate Finish bonus roll."
+      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. 2026-09-20 verification: current skill page explicitly states Obtained from PQ140 and classifies it as a Strike Super; PQ reward page also lists Savory Slicer. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Ultimate Finish bonus slot route; the documented route requires an Ultimate Finish bonus roll."
     },
     {
       "name": "Scissors Paper Rock",
@@ -4076,7 +4076,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 reconciliation: current skill page explicitly identifies PQ156 as the unlock and classifies Shooting Strike as a Ki Blast Super; corrected stale canonical Strike classification. 2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate."
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-20 reconciliation: current skill page explicitly identifies PQ156 as the unlock and classifies Shooting Strike as a Ki Blast Super; corrected stale canonical Strike classification. 2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate."
     },
     {
       "name": "Soaring Rush",
@@ -4095,7 +4095,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite.",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current skill page explicitly identifies PQ177 as the unlock and Strike classification. 2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite."
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. 2026-09-20 verification: current skill page explicitly identifies PQ177 as the unlock and Strike classification. 2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite."
     },
     {
       "name": "Sonic Bomb",
@@ -4212,7 +4212,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current skill page explicitly states PQ161 unlock; the maintained PQ guide lists Apocalyptic Burst as a Basic Reward. 2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate."
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-20 verification: current skill page explicitly states PQ161 unlock; the maintained PQ guide lists Apocalyptic Burst as a Basic Reward. 2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate."
     },
     {
       "name": "Blaster Stream",
@@ -4284,7 +4284,7 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 184 — Basic Reward",
+      "unlock_method": "Parallel Quest 184 — Ultimate Finish bonus reward (50% bonus slot)",
       "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": null,
@@ -4323,7 +4323,7 @@
         "https://dragonball.fandom.com/wiki/Core_Breaker",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 158 — \"Beat Bulma's Minions!\" Basic Reward",
+      "unlock_method": "Parallel Quest 158 — \"Beat Bulma's Minions!\" Ultimate Finish bonus reward (40% bonus slot)",
       "ultimate_finish_required": true,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
@@ -4405,7 +4405,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording.",
-      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records. 2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording."
+      "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records. 2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording."
     },
     {
       "name": "Emperor's Death Beam",
@@ -4517,7 +4517,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "Dedicated current-version evidence confirms PQ177 acquisition, 500 Ki, Ki Blast Ultimate classification, and Jiren users. The reviewed page does not explicitly establish CaC race/gender/form scope. Keep race_restriction null rather than inferring from Jiren or partner customization.",
-      "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists Full Power Destruction in the Basic Reward section of Parallel Quest 177 — Warped Sense of Justice, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish bonus slot (50%) route; the recorded condition is preserved without inference beyond the maintained corpus."
+      "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects. 2026-09-20 verification: current PQ guide reward data is retained as source metadata, while the maintained drop-condition data documents the Ultimate Finish bonus route. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish bonus slot (50%) route; the recorded condition is preserved without inference beyond the maintained corpus."
     },
     {
       "name": "Gigantic Breaker",
@@ -4573,7 +4573,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current skill page identifies PQ164 as the unlock; the current PQ guide explicitly lists Gigantic Explosion in PQ164 Basic Reward, separate from Ultimate Finish conditions. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish (40%) route; the recorded condition is preserved without inference beyond the maintained corpus."
+      "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest. 2026-09-20 verification: current skill page identifies PQ164 as the unlock; maintained drop-condition data documents the Ultimate Finish route. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish (40%) route; the recorded condition is preserved without inference beyond the maintained corpus."
     },
     {
       "name": "Gigantic Roar",
@@ -4849,7 +4849,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Ribrianne's Eternal Love; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Ultimate Finish bonus slot route; the documented route requires an Ultimate Finish bonus roll."
+      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Ribrianne's Eternal Love; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Ultimate Finish bonus slot route; the documented route requires an Ultimate Finish bonus roll."
     },
     {
       "name": "S.S. Deadly Bomber",
@@ -4888,7 +4888,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Sign of Awakening; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ154 reconciliation: maintained PQ batch 15 explicitly documents a 40% Ultimate Finish bonus roll for this skill; the prior generic Random Parallel Quest label was too broad and has been replaced with the documented PQ154 UF route."
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Sign of Awakening; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ154 reconciliation: maintained PQ batch 15 explicitly documents a 40% Ultimate Finish bonus roll for this skill; the prior generic Random Parallel Quest label was too broad and has been replaced with the documented PQ154 UF route."
     },
     {
       "name": "Special Beam Cannon (Beast)",
@@ -4907,7 +4907,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Special Beam Cannon (Beast); no Ultimate Finish requirement is recorded for this route. 2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred."
+      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Special Beam Cannon (Beast); no Ultimate Finish requirement is recorded for this route. 2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred."
     },
     {
       "name": "Super Black Kamehameha Rosé",
@@ -4946,7 +4946,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
-      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. UF audit 2026-09-19: PQ158's maintained reward guide explicitly lists Super Gamma Blast under Basic Reward, separate from the quest's listed win conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Super Gamma Blast; no Ultimate Finish requirement is recorded for this route. 2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate."
+      "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Super Gamma Blast; no Ultimate Finish requirement is recorded for this route. 2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate."
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
