@@ -3163,3 +3163,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Added a deterministic validator invariant requiring numeric `source_quest` values to be canonical Parallel Quest IDs in the current 1–186 range.
 - The live 283-record dataset currently contains 177 numeric quest provenance records, with IDs ranging from PQ1 to PQ186 and no out-of-range values.
 - Existing descriptive string provenance remains supported for records whose research stores the full quest/mission description rather than a numeric ID.
+
+
+## 2026-09-19 — acquisition-route reconciliation: starting/skill-shop skills
+
+- Reconciled two deterministic acquisition mismatches in the 283-skill dataset.
+- `Super Guard`: classified as `starting_move` with no quest ID; its provenance retains both the starting fighting-style route and Skill Shop availability.
+- `Time Bullet`: classified as `skill_shop` with no quest ID; its unlock route is the Skill Shop after defeating Kid Buu in the main story.
+- Independent public references support these routes; no quest reward or Ultimate Finish requirement was invented.
