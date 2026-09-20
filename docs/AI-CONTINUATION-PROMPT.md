@@ -2689,3 +2689,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Heat Wave remains concretely tied to PQ179 and its Basic Reward listing, but no narrower drop condition was established this cycle.
 - Commits: `dd32ad55d46d3751b5552459400ddc05d528a29f` (skill data), `0c20e33f3854de7d17d4602d29d938705a0bce38` (coverage audit).
 - Exact next task: continue the remaining current-scope evidence-gap audit, prioritizing records where current sources can establish concrete Basic Reward/Ultimate Finish semantics or correct canonical type/cost/mechanics data.
+
+
+### 2026-09-20 cycle update — PQ96 / PQ151 reward-gate reconciliation
+- Reconciled **Absolute Zero**, **Ultrasonic Blitz**, and **Celestial Wave** against current reward evidence.
+- Maintained PQ reward listings explicitly place Absolute Zero in PQ96 Basic Reward and Ultrasonic Blitz/Celestial Wave in PQ151 Basic Reward. Separate older video evidence labels these skills as Ultimate Finish rewards, so the canonical records now preserve the conflict instead of asserting an exclusive gate.
+- Enriched the three records' mechanics from dedicated skill documentation and retained unknowns where evidence conflicts.
+- Commit: `02dc1d7cec09d2816e20b9d657d87b7f0d274964c` (skills), `6b818a406c0ab8ba64713fef53cc0fce0b0d791b` (coverage audit).
+- Exact next task: continue the remaining current-scope audit, especially records with unresolved acquisition semantics or possible canonical type/cost mismatches; preserve conflicting evidence explicitly.
