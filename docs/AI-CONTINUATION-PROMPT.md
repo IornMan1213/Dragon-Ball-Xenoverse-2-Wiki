@@ -3353,3 +3353,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - CI status: inspect the push-triggered validation workflows for the resulting commit. Prior opaque pre-step failures remain infrastructure/account signals unless actionable logs appear.
 - Current unresolved skill reconciliation: Ki Blast Super full set-diff and Burst Stinger attribution remain open; Frieza Race Skills and Lovely Showtime remain open.
 - Exact next task: **complete the live Ki Blast Super source-vs-repository set diff**, then continue the next bounded acquisition/provenance cohort and recompute the canonical skill census before editing.
+
+
+### 2026-09-19 continuation — Rough Ranger acquisition verification
+- Promoted `Rough Ranger` from partially verified to verified.
+- Evidence: Dragon Ball Wiki explicitly states the Future Warrior obtains Rough Ranger as a random reward in PQ119 after achieving the Ultimate Finish; the maintained GameFAQs Extra Pack 2 notes list Rough Ranger under PQ119 and identify the quest as the relevant reward source. The live Xenoverse 2 skill page confirms PQ119 as its unlock source and records 100 Ki / Strike Super counter behavior.
+- Canonical/index synchronization: updated verification status, unlock wording, mechanics notes, and source list in `docs/data/skills.json` and `docs/data/skills-index.json`.
+- No drop probability was invented and no additional reward condition was inferred beyond the documented Ultimate Finish gate.
+- Exact next task: **complete the live Ki Blast Super source-vs-repository set diff**, then continue deterministic acquisition/Ultimate Finish verification on the remaining partially verified cohort.
