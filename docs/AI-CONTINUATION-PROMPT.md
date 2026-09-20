@@ -3352,3 +3352,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validation: canonical skill JSON parsed successfully; live census remains 283 records with 205 verified, 78 verified_current_scope, 0 conflict, and 0 partially_verified.
 - CI: existing GitHub Actions failures remain unresolved/diagnostically opaque; no validator changes were made.
 - Exact next task: continue the remaining 78-record stale-metadata audit, focusing on explicit DLC/version provenance and other source-field contradictions; preserve null or existing values when evidence is insufficient.
+
+
+### 2026-09-20 continuation — Super Pack 2 provenance refinement
+- Refined four `verified_current_scope` skill records: **Destruction's Concerto: Comet**, **Destruction's Concerto: Starfall**, **Destruction's Concerto: Meteor**, and **Destruction's Conductor** now use `dlc_requirement: Super Pack 2` instead of the broader `Super Pass` label.
+- Evidence: the maintained DLC reference identifies DLC 2 / Super Pack 2 as containing these skills and PQ104–106.
+- No Ultimate Finish flags were changed. The current repository's explicit PQ reward audit was retained rather than replacing it with weaker community inference.
+- Skill-data commit: `03ffd90bf1c306b5cb1d2eda98e703150a5cae2d`; skill-audit commit: `693bb67f061ebe995ef1d4cc2a412adb56f481bb`; coverage-audit commit: `7e78445726b31f58d71c0756d425b07c769572ff`.
+- Exact next task: continue the 78-record skill second-pass audit, prioritizing source-field contradictions and exact DLC/version provenance, then inspect validation/Actions and update this handoff.
