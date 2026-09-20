@@ -2985,3 +2985,19 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Expected live census after the batch: **283 skills; 45 null `dlc_requirement` records**. Preserve remaining nulls until explicit chronology is established.
 - CI/status inspection remains required after each batch; no validator changes were made.
 - Exact next task: recompute the live null-DLC census and continue with records whose source explicitly names a numbered PQ, Expert Mission, mentor/training route, or named DLC/update feature.
+
+
+### 2026-09-19 continuation — free-update/base-game provenance batch 3
+- Resolved 15 `dlc_requirement` nulls:
+  - **Free Update 5:** Super Saiyan God Super Saiyan.
+  - **Free Update 9:** Super Saiyan God Super Saiyan (Evolved).
+  - **Free Update 16:** Beast.
+  - **Free Update 17:** Ultra Instinct.
+  - **Free Update 1:** Pure Progress.
+  - **Base Game:** Destructo-Disc, Galick Gun, Kamehameha, Masenko, Dancing Parapara, Energy Charge, Rise to Action, Solar Flare, Wall of Defense, Victory Rush.
+- Important correction retained from the previous cycle: **Super Saiyan God remains Free Update 13**, not Base Game; the current free-update chronology explicitly places it in Free Update 13.
+- Evidence: Bandai Namco's 2018 announcement identifies SSGSS as free-update content; the maintained update chronology places SSGSS in Free Update 5, SSGSS (Evolved) in Free Update 9, Super Saiyan God in Free Update 13, Beast in Free Update 16, and Ultra Instinct in Free Update 17. Bandai Namco's December 2016 DLC preview places Pure Progress in the free update. 
+- Data commit: `de797b3b9e8750b20f4fd65891f2b0a715f18ad7`.
+- Coverage audit commit: `da07110c79ca88ce8eeb9679bffbb2af9f34d8fb`.
+- Expected live census: **283 skills; 30 null `dlc_requirement` records; 31 null `source_quest` records**.
+- Exact next task: recompute the null-DLC census, then target explicit DLC-era PQ/EM/mentor/shop records among the remaining 30. Preserve null where chronology remains unproven.
