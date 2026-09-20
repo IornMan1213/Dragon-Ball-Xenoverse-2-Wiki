@@ -545,7 +545,7 @@
       "name": "Burst Rush",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Rush",
         "https://dragonball.fandom.com/wiki/Burst_Rush",
@@ -1503,12 +1503,12 @@
         "https://dragonball.fandom.com/wiki/Perfect_Barrier"
       ],
       "stamina_cost": 300,
-      "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" (random reward; Ultimate Finish associated with the drop)",
+      "unlock_method": "Parallel Quest 32 - \"Multiple Cell Jr. Hunt\" Basic Reward",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "source_quest": 32,
       "source_quest_or_shop": "Parallel Quest 32",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
       "mechanics_notes": "Current evidence confirms Energy Barrier as a 300-Stamina Evasive barrier from PQ32. It cancels Ki waves, knocks opponents back, and can be extended by holding the input while consuming Ki. The record remains Strike pending a stronger direct attack-type source. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current evidence explicitly ties the CaC drop to defeating Cell during the Ultimate Finish of PQ32.",
       "race_restriction": "All CaC races",
@@ -1517,7 +1517,7 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "PQ32's maintained reward listing places Energy Barrier in the Basic Reward section; an Ultimate Finish is not required."
     },
     {
       "name": "Spirit Explosion",
