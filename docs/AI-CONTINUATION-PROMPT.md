@@ -3607,3 +3607,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts: **168 verified / 36 partially verified** of 283.
 - Next task: continue the remaining 36 partial records, prioritizing clean acquisition records while isolating classification and reward-condition conflicts.
+
+
+### 2026-09-20 continuation — seven PQ acquisition records verified
+- Promoted **Full Power Destruction (PQ177)**, **Gigantic Breaker (PQ126)**, **Gigantic Burst (PQ127)**, **Gigantic Roar (PQ132)**, **God of Destruction's Menace (PQ105)**, **God of Destruction's Roar (PQ105)**, and **Holy Wrath (PQ111)** to verified.
+- The maintained current PQ guide explicitly lists each of these skills in its corresponding Basic Reward section. This establishes the documented acquisition route and means no Ultimate Finish requirement is recorded for these routes.
+- Gigantic Breaker's earlier Super/Ultimate ambiguity was resolved against the current dedicated skill page: it is a Ki Blast Super, matching the canonical class after correction; its PQ126 acquisition is a Basic Reward.
+- Sonic Bomb and Chaotic Time Impact remain unresolved because their reward-condition evidence conflicts with other maintained evidence.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts: **175 verified / 29 partially verified** of 283.
+- Next task: continue the remaining 29 partial records, prioritizing explicit current acquisition evidence and resolving classification/reward-condition conflicts only when the evidence is explicit.
