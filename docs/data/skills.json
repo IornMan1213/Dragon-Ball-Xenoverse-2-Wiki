@@ -4517,14 +4517,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 136 — Ultimate Finish reward",
+      "unlock_method": "Parallel Quest 136 — \"Breaking Down the Barrier\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 136",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Blazing Attack is a Super Strike skill associated with Goku (Ultra Instinct).",
-      "mechanics_notes": "Confirmed as Goku (Ultra Instinct)'s 100-Ki Strike Super from PQ136 Ultimate Finish. It is a close-range martial-arts strike that can be extended with additional input. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
+      "mechanics_notes": "Confirmed as Goku (Ultra Instinct)'s 100-Ki Strike Super from PQ136 Ultimate Finish. It is a close-range martial-arts strike that can be extended with additional input. Current evidence supports CaC usability without a narrower race/gender/form restriction. PQ136 current reward evidence lists Burst Stinger, Raid Blast, and Blazing Attack under Basic Reward. Community reports describing Blazing Attack as an Ultimate Finish drop conflict with the maintained reward table; the canonical record follows the explicit reward-tier listing.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -4533,7 +4533,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Current evidence explicitly identifies Blazing Attack as the random skill reward after completing PQ136 with an Ultimate Finish; community reports also distinguish it from the two opponent-drop skills. 2026-09-19 source reconciliation: Steam's current all-PQ guide lists Blazing Attack among PQ136 rewards. GameFAQs/community reports confirm it is a random drop from PQ136, while the PQ's Ultimate Finish condition is clearing in under 7 minutes. The evidence does not prove that the skill itself requires the UF, so retain the repository's explicit conflict/research status rather than overclaiming."
+      "notes": "Corrected 2026-09-20: current maintained PQ136 reward tables place Blazing Attack in the Basic Reward pool; the separate Ultimate Finish requirement is not an acquisition gate for this skill."
     },
     {
       "name": "Brave Sword Slash",
