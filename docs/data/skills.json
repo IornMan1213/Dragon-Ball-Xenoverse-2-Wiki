@@ -2262,7 +2262,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 78 — \"Heated, Furious, Ultimate Battle\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 78",
       "ultimate_finish_required": false,
       "skill_description": "Dust Attack is an Other Super Skill associated with Piccolo.",
@@ -2280,7 +2280,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 78",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Dust Attack in PQ78 Basic Reward."
     },
     {
       "name": "Earth Splitting Galick Gun",
@@ -2373,14 +2373,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
-      "source_quest_or_shop": "PQ163",
+      "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 163",
       "ultimate_finish_required": false,
       "skill_description": "Eraser Bomb is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Eraser Bomb as a 100-Ki Ki Blast Super from PQ163. The existing random-PQ acquisition is retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Eraser_Bomb",
@@ -2389,7 +2389,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 163,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Eraser Bomb in PQ163 Basic Reward; exact individual RNG/drop probability remains unresolved."
     },
     {
       "name": "Evil Blast",
@@ -2430,14 +2430,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 117 — \"A Dance of Swords\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 117",
       "ultimate_finish_required": false,
       "skill_description": "Evil Flame is a Super Ki Blast skill associated with Dabura.",
       "mechanics_notes": "Current evidence confirms Evil Flame as a 100-Ki Ki Blast Super from PQ117. Its dedicated documentation is retained as the primary mechanics source; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Flame",
@@ -2448,7 +2448,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 117",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Evil Flame in PQ117 Basic Reward; separate technique documentation describes it as a random drop from Dabura, so no exclusive deterministic condition is inferred."
     },
     {
       "name": "Final Cannon",
