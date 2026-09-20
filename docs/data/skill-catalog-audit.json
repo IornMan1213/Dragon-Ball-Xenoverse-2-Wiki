@@ -65,8 +65,9 @@
     "2026-09-19: Verified Charge (PQ83), Justice Pose (PQ53), Meditation (PQ122), and Taunt (PQ20) from current PQ/skill documentation; canonical/index synchronized.",
     "2026-09-19: Verified Justice Blade (PQ152), Evil Whirlwind (PQ36), and Fierce Fist (PQ159) from explicit current skill-page unlock fields; Ultimate Finish set false because the cited pages specify PQ unlocks without an UF-only condition.",
     "2026-09-19: Verified Death Slash, Demon Flurry, Demonic Destruction, and Freedom Kick using the existing explicit skill-page/reference corpus; no UF-only condition was established, so Ultimate Finish flags were retained as false.",
-    "2026-09-19: Verified Brave Sword Slash, Destruction's Conductor, Dragon Spiral, Heroic Assault, Justice Drive, and Justice Kick from current skill-page/reference acquisition evidence; no exclusive Ultimate Finish condition established."
+    "2026-09-19: Verified Brave Sword Slash, Destruction's Conductor, Dragon Spiral, Heroic Assault, Justice Drive, and Justice Kick from current skill-page/reference acquisition evidence; no exclusive Ultimate Finish condition established.",
+    "2026-09-19: Verified Blazing Attack as the PQ136 Ultimate Finish reward and Burning Swan as a PQ167 reward. Blazing Attack's UF requirement is supported by multiple independent reports; Burning Swan has no UF-only condition established."
   ],
-  "partially_verified_count": 74,
-  "verified_count": 130
+  "partially_verified_count": 72,
+  "verified_count": 132
 }
