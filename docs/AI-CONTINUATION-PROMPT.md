@@ -2811,3 +2811,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `58098a246c1a9c8008adea26d3ca8148d99db48b`.
 - Exact next task: continue the `source_quest` census with explicit quest identifiers; leave records whose metadata only says generic/random PQ reward without a specific quest unchanged.
 
+
+
+### 2026-09-19 continuation — source quest provenance batch 6
+- Skills source-quest provenance batch 6 completed; see the coverage audit for the detailed record list.
+- Skills commit: bbda596171ff50016bb723e7086721cd402d052b.
+- Coverage audit commit: 34e8715842f4e7e9ea9bba4d62a90372ade3a1ec.
+- Next task: continue the bounded source_quest provenance census.
