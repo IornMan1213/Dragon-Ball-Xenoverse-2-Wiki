@@ -626,9 +626,9 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Basic Reward",
+      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Ultimate Finish bonus reward (35% roll)",
       "last_verified": "2026-09-20",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 153 — \"Seeing Double\"",
       "race_restriction": "All CaC races",
@@ -636,7 +636,7 @@
       "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": "Parallel Quest 153 — Seeing Double",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned."
+      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Demon Flash Strike",
@@ -747,9 +747,9 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Basic Reward",
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Ultimate Finish bonus reward (40% roll)",
       "source_quest": 155,
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 155",
       "race_restriction": "All CaC races",
@@ -757,7 +757,7 @@
       "last_verified": "2026-09-20",
       "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ155 reward listings explicitly include Heroic Counter in the Basic Reward pool; dedicated skill documentation confirms PQ155 acquisition. 2026-09-20 provenance audit: maintained PQ155 reward transcription lists Heroic Counter in the Basic Reward pool, while Dragon Ball Wiki describes it as a random Future Warrior acquisition from PQ155. The exact slot/gate remains unresolved; canonical Basic Reward classification is retained without asserting an Ultimate Finish-only requirement."
+      "notes": "2026-09-20 audit: PQ155 reward listings explicitly include Heroic Counter in the Basic Reward pool; dedicated skill documentation confirms PQ155 acquisition. 2026-09-20 provenance audit: maintained PQ155 reward transcription lists Heroic Counter in the Basic Reward pool, while Dragon Ball Wiki describes it as a random Future Warrior acquisition from PQ155. The exact slot/gate remains unresolved; canonical Basic Reward classification is retained without asserting an Ultimate Finish-only requirement. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Punisher Shield",
@@ -1014,9 +1014,9 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 151 - \"Even Further Beyond\"",
+      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (50% roll)",
       "last_verified": "2026-09-20",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "race_restriction": "All CaC races",
@@ -1024,7 +1024,7 @@
       "mechanics_notes": "100-Ki Strike Super counter. The user enters a counter stance for up to about 2 seconds; when struck, the user vanishes behind the opponent and performs the follow-up strike. Current maintained PQ151 reward evidence lists Ultrasonic Blitz in Basic Reward. A separate video guide describes it as an Ultimate Finish reward, so the exact reward gate remains source-conflicted.",
       "source_quest": "Parallel Quest 151 — Even Further Beyond",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Ultrasonic Blitz under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate."
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Ultrasonic Blitz under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Absolute Zero",
@@ -2516,9 +2516,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 138 — \"Tournament of Destroyers\" Basic Reward",
+      "unlock_method": "Parallel Quest 138 — \"Tournament of Destroyers\" Ultimate Finish bonus reward (34% roll)",
       "source_quest_or_shop": "Parallel Quest 138",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Flash Chaser is a Super Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
@@ -2534,7 +2534,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 138",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ138 reward listings explicitly place Flash Chaser in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
+      "notes": "2026-09-20 audit: PQ138 reward listings explicitly place Flash Chaser in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Galick Gun",
@@ -2569,9 +2569,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Basic Reward",
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Ultimate Finish reward (40% roll)",
       "source_quest_or_shop": "PQ155",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Gamma Blaster is a Super Ki Blast skill used by Gamma 2.",
       "mechanics_notes": "Current evidence confirms Gamma Blaster as a 100-Ki Ki Blast Super from PQ155. The existing random-PQ acquisition record is retained; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
@@ -2586,7 +2586,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 155",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance reconciliation: current maintained PQ155 reward evidence explicitly lists Gamma Blaster in the Basic Reward set, while dedicated skill documentation describes PQ155 acquisition without establishing an Ultimate Finish-only gate. Exact individual reward probability remains unresolved."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ155 reward evidence explicitly lists Gamma Blaster in the Basic Reward set, while dedicated skill documentation describes PQ155 acquisition without establishing an Ultimate Finish-only gate. Exact individual reward probability remains unresolved. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Giant Cluster",
@@ -3015,9 +3015,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 139 — \"Goku and Vegeta's Training\" Basic Reward",
+      "unlock_method": "Parallel Quest 139 — \"Goku and Vegeta's Training\" Ultimate Finish bonus reward (37% roll)",
       "source_quest_or_shop": "Parallel Quest 139",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Photon Swipe is a Super Ki Blast skill associated with Toppo.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ139. It is Toppo's Photon Swipe; exact drop/Ultimate Finish gating remains bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
       "verification_status": "verified_current_scope",
@@ -3033,7 +3033,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 139",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ139 reward listings explicitly place Photon Swipe in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
+      "notes": "2026-09-20 audit: PQ139 reward listings explicitly place Photon Swipe in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Pretty Cannon",
@@ -3273,9 +3273,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (50% bonus roll)",
+      "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish bonus reward (50% roll)",
       "source_quest_or_shop": "PQ151",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Spirit Pulse is a Super Ki Blast skill used by Goku (Ultra Instinct -Sign-).",
       "mechanics_notes": "Confirmed as Goku (Ultra Instinct -Sign-)'s 100-Ki Ki Blast Super from PQ151. It is a slower single-shot variation of Soaring Fist; Ultra Instinct also uses Spirit Pulse as its fully charged Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
@@ -3289,7 +3289,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ151 and describes Spirit Pulse as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate."
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ151 and describes Spirit Pulse as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Stone Bullet",
@@ -3546,19 +3546,19 @@
         "https://dbxv2.fandom.com/wiki/Assault_Vanish"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 131 reward.",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 131 Ultimate Finish reward (25% roll)",
+      "ultimate_finish_required": true,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "PQ131 — Legendary Finish",
       "dlc_requirement": "Extra Pack 4",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "stamina_cost": 100,
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "source_quest": 131,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ131; no Ultimate Finish-only condition is established for this record."
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ131; no Ultimate Finish-only condition is established for this record. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Burst Charge",
@@ -3977,18 +3977,18 @@
         "https://dbxv2.fandom.com/wiki/Shield_Barrier"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 153 reward.",
+      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Ultimate Finish bonus reward (40% roll)",
       "source_quest_or_shop": "PQ153",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
-      "ultimate_finish_required": false,
+      "last_verified": "2026-09-20",
+      "ultimate_finish_required": true,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 153,
       "dlc_requirement": "Conton City Vote Pack",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ153; no Ultimate Finish-only condition is established for this record."
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ153; no Ultimate Finish-only condition is established for this record. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Solar Flare",
@@ -4381,14 +4381,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 133 reward.",
+      "unlock_method": "Parallel Quest 133 Ultimate Finish reward (25% roll)",
       "source_quest_or_shop": "Parallel Quest 133",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Formation! is a Super Power Up skill associated with Ribrianne.",
       "mechanics_notes": "Confirmed as Ribrianne's 100-Ki PQ133 Ultimate Finish Power Up Super. Holding/charging changes the duration, documented at about 30, 31.5, and 33 seconds for the three charge levels. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -4399,7 +4399,7 @@
       "source_quest": 133,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 133 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 133 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Indomitable",
@@ -4995,14 +4995,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 159 reward.",
+      "unlock_method": "Parallel Quest 159 — \"Lights! Camera! Super Heroes!\" Ultimate Finish bonus reward (40% roll)",
       "source_quest_or_shop": "PQ159",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Fierce Fist is a Super Strike skill used by Orange Piccolo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fierce_Fist",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5011,7 +5011,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 159 as the unlock source."
+      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 159 as the unlock source. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Force Edge",
@@ -5079,9 +5079,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 155 — I Need a Hero... Pose!",
+      "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Ultimate Finish bonus reward (50% roll)",
       "source_quest_or_shop": "PQ155",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Gamma Impact is a Super Strike skill used by Gamma 2.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
@@ -5096,7 +5096,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 155 — I Need a Hero... Pose!. No Ultimate Finish-only requirement is established. 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained. 2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 155 — I Need a Hero... Pose!. No Ultimate Finish-only requirement is established. 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained. 2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "God of Destruction's Poise",
@@ -5165,14 +5165,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 152 reward.",
+      "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Ultimate Finish bonus reward (40% roll)",
       "source_quest_or_shop": "PQ152",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Justice Blade is a Super Strike skill used by Dyspo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Blade",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5181,7 +5181,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 152,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source."
+      "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Justice Drive",
@@ -5221,9 +5221,9 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Basic Reward",
+      "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Ultimate Finish bonus reward (40% roll)",
       "source_quest_or_shop": "PQ152",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Justice Kick is a Super Strike skill used by Dyspo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
@@ -5237,7 +5237,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 152,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Kick in PQ152's Basic Reward pool; the quest is \"Dyspo's Wanted Man.\" A dedicated acquisition video independently associates the skill with PQ152. No separate Ultimate Finish-only gate is inferred."
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Kick in PQ152's Basic Reward pool; the quest is \"Dyspo's Wanted Man.\" A dedicated acquisition video independently associates the skill with PQ152. No separate Ultimate Finish-only gate is inferred. 2026-09-20 explicit drop-condition correction: maintained PQ research batch undefined records an Ultimate Finish bonus/roll condition for this skill; the canonical UF flag and acquisition wording now follow that explicit condition rather than the stale Basic Reward wording. Exact roll percentage is recorded as documented, without inferring additional prerequisites."
     },
     {
       "name": "Lovely Cyclone",
