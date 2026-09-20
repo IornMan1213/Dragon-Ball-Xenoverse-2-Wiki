@@ -3321,3 +3321,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No character-only CaC contradictions or quest/non-quest provenance contradictions remain.
 - CI remains unverified because GitHub exposes no workflow runs/statuses for the current handoff.
 - Next task: continue evidence-backed enrichment rather than making unsupported normalization changes.
+
+
+### 2026-09-19 continuation — Shenron wish acquisition correction
+- Corrected `Flash Fist Crush` and `Burst Reflection` from `quest_or_mission` to `other_nonquest`.
+- Removed their `source_quest` values and preserved `Shenron wish` as the acquisition route.
+- Flash Fist Crush is the first Super Attack wish reward; Burst Reflection is from the subsequent Super Attack wish reward set.
+- Next task: continue the partially verified cohort, prioritizing deterministic acquisition/Ultimate Finish corrections.
