@@ -1284,7 +1284,7 @@
       "unlock_method": "Parallel Quest reward",
       "source_quest_or_shop": "Parallel Quest 73",
       "ultimate_finish_required": false,
-      "skill_description": "Psychic Move is a Evasive Other skill associated with Guldo.",
+      "skill_description": "Psychic Move is a Strike Evasive skill associated with Guldo.",
       "mechanics_notes": "Dedicated current-version evidence identifies Psychic Move as a 300-Stamina Strike Evasive from PQ73. It teleports behind the opponent and creates a short-range shockwave. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
@@ -1436,7 +1436,8 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": null,
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "",
+      "skill_description": "Final Pose is a Power Up Evasive skill."
     },
     {
       "name": "Mach Dash",
@@ -1465,7 +1466,8 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "",
+      "skill_description": "Mach Dash is a Power Up Evasive skill."
     },
     {
       "name": "Angry Shout",
