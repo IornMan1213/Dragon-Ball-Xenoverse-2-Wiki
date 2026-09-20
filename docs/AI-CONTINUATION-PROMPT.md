@@ -2704,3 +2704,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - No drop probabilities or Ultimate Finish-only requirements were invented.
 - Commits: `b33b116342510d130e74bf07dbade46c293944b3` (skills), `92b99915cd42efd9514800fb5e53caad16223cb8` (coverage audit).
 - Exact next task: continue the current-scope audit, prioritizing records where concrete reward listings or stronger mechanics evidence can improve canonical data; preserve unresolved conflicts.
+
+
+### 2026-09-20 cycle update — canonical type/cost corrections
+- Corrected **Ki Explosion** from Evasive/200 Stamina to **100-Ki Ki Blast Super** using dedicated skill evidence; PQ77 Basic Reward provenance retained.
+- Corrected **Instant Rise** from 200 to **300 Stamina** using dedicated skill evidence; PQ37 Basic Reward provenance refined.
+- Refined **Force Shield** to exact PQ59 — "Potara Warrior" Basic Reward provenance and retained its documented 200-Stamina Evasive classification.
+- Refined **Change The Future** to exact PQ43 — "Change the Future" Basic Reward provenance and retained its 100-Ki Ki Blast Super counter classification.
+- Commits: `50100a6f782d6042716cffa66298cfa00f0a95bc` (skills), `1e7aa0c8b7755624eaa408b9b865ce52fc0f9736` (coverage audit).
+- Exact next task: continue the current-scope audit for additional canonical type/cost mismatches before adding lower-confidence descriptive detail; preserve source conflicts.
