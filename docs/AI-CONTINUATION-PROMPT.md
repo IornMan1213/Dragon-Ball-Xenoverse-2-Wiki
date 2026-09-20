@@ -2916,3 +2916,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Re-synchronized `docs/data/skills-index.json`; 283 records remain.
 - Commits: `a6ca154a93b54175c553bf8ae86ce415b8b4f3b1` (canonical), `a5e7f86ead6d98415a66eee4fb9db1b4f547d984` (index), `46ccd56d0ba0d596498b2f525dc4a180a40bc29f` (coverage audit).
 - Exact next task: investigate higher-DLC PQ records with unresolved drop gating, beginning with Dragon Spark, Dragon Spiral, Force Edge, and Heroic Assault; preserve source conflicts rather than forcing a single value.
+
+
+### 2026-09-20 cycle update — Higher-DLC PQ refinement batch 7
+- Refined **Dragon Spark** (PQ177 Basic), **Dragon Spiral** (PQ185 Basic), **Force Edge** (PQ180 Basic), and **Heroic Assault** (PQ156 random reward).
+- Dragon Spiral retains an explicit note about the older PQ186 association; no unsupported second route was added.
+- Re-synchronized `docs/data/skills-index.json`; 283 records remain.
+- Commits: `027f76052e57f652aafe5b05c81dac7b00b7481b` (canonical), `5e80ad002414f9cc1b15e229cd6a3f2b6d017c99` (index), `23646da0a052c12e17be06e2a393b6e2246f0ad3` (coverage audit).
+- Exact next task: continue unresolved/random PQ records, beginning with Justice Drive, Justice Kick, Mach Punch, Burning Blast, and Teleporting Vanishing Ball.
