@@ -3322,3 +3322,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Wiki data audit has failed repeatedly since before the latest catalog changes, including the skill-catalog audit commits. No unverified CI diagnosis is being asserted.
 - The metadata audit itself remains clean: 283 canonical/index records, 205 verified, 78 verified_current_scope, 0 conflict, 0 partial; no source-quest number mismatches; no missing sources.
 - Next task: use repository-local/static inspection to identify committed internal-artifact markers and audit-workflow assumptions that can be proven from tracked files, then make only evidence-backed fixes and rerun/inspect resulting workflow state.
+
+
+### 2026-09-20 continuation — internal-artifact failure diagnosis
+- The repository-quality failure was traced to the persistent handoff itself: historical continuation notes contained assistant-internal citation markup and literal names of internal citation mechanisms. Those are forbidden by `scripts/check_repo_artifacts.py`.
+- Removed the remaining internal citation markup and forbidden mechanism names from `docs/AI-CONTINUATION-PROMPT.md`. Canonical data files were separately checked and contain no matching internal-artifact patterns.
+- A new Repository quality and Clean internal artifacts run was queued on commit `2f06949b6da54d214ed7448f3b70c35e6c8cb44c`; its result should be checked before making further cleanup changes.
+- This was a repository-hygiene fix only; no skill facts were changed.
