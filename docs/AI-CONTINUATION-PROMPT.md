@@ -2979,7 +2979,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — explicit DLC provenance batch 2
 - Resolved eight `dlc_requirement` nulls from explicit PQ/DLC relationships: **Absolute Zero → Base Game (PQ96); Dragon Burn → Base Game (PQ82); Emperor's Blast → Base Game (PQ70); Blaster Stream → Legendary Pack 2 (PQ148); Gigantic Burst → Extra Pack 3 (PQ127); Lightning Impact → Ultra Pack 2 (PQ142); Prominence Flash → Ultra Pack 1 (PQ137); Final Flash (SS3 DAIMA) → Dragon Ball DAIMA Pack (PQ181)**.
-- The low-numbered PQ records are launch-era/base-game content; PQ127/137/142/148 map to Extra Pack 3, Ultra Pack 1, Ultra Pack 2, and Legendary Pack 2 respectively; PQ181 belongs to the Dragon Ball DAIMA Pack. citeturn0search0turn0search4turn0search2turn0search1
+- The low-numbered PQ records are launch-era/base-game content; PQ127/137/142/148 map to Extra Pack 3, Ultra Pack 1, Ultra Pack 2, and Legendary Pack 2 respectively; PQ181 belongs to the Dragon Ball DAIMA Pack. 
 - Data commit: `1c0df8c2f7be2f01103d886e732372c9ca74ac21`.
 - Coverage audit commit: `486376e49fdb5b673c01bc4443d4095f36a78514`.
 - Expected live census after the batch: **283 skills; 45 null `dlc_requirement` records**. Preserve remaining nulls until explicit chronology is established.
