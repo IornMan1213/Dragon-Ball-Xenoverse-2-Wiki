@@ -3402,3 +3402,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - These acquisition routes do not require a Parallel Quest Ultimate Finish.
 - Canonical and index records were synchronized.
 - Exact next task: continue deterministic shop/quest acquisition verification across the remaining partially verified cohort.
+
+
+### 2026-09-19 continuation — PQ acquisition verification cohort
+- Verified **Afterimage Strike (PQ81), Assault Vanish (PQ131), Burst Charge (PQ134), Kai Kai (PQ63), Phantom Fist (PQ97), Shield Barrier (PQ153), Solar Flare (PQ1), Time Control (PQ18), Ultimate Charge (PQ134), and Wall of Defense (PQ10)** from explicit PQ reward documentation.
+- The records are now treated as deterministic PQ acquisition entries for catalog purposes; no Ultimate Finish-only requirement was added without explicit reward-condition evidence.
+- Canonical and index records were synchronized.
+- Reference context: the current PQ documentation describes PQs as a major source of skills and distinguishes Basic/regular completion rewards from Ultimate Finish rewards. citeturn0search0turn0search8
+- Exact next task: continue deterministic PQ/shop/mentor verification through the remaining partially verified cohort, with Ultimate Finish flags changed only when explicit reward-condition evidence supports them.
