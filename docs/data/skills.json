@@ -554,17 +554,17 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 51 - \"Great Saiyaman is Here\" Basic Reward",
-      "source_quest_or_shop": "Parallel Quest 51",
+      "unlock_method": "Parallel Quest 51 — \"Great Saiyaman is Here\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 51 — \"Great Saiyaman is Here\"",
       "ultimate_finish_required": false,
       "mechanics_notes": "Current evidence confirms Burst Rush as a 100-Ki Strike Super and melee counter from PQ51. The dedicated page identifies Gohan (Adult) and customizable variants; no CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "source_quest": 51,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "PQ51's maintained reward listing places Burst Rush in the Basic Reward section; an Ultimate Finish is not required."
+      "notes": "PQ51's maintained reward listing places Burst Rush in the Basic Reward section; an Ultimate Finish is not required. 2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned."
     },
     {
       "name": "Change The Future",
@@ -602,17 +602,17 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 75 - \"Room to Spare\"",
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 75 — \"Room to Spare\" Basic Reward",
+      "last_verified": "2026-09-20",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
-      "source_quest_or_shop": "Parallel Quest 75 - Room to Spare",
+      "source_quest_or_shop": "Parallel Quest 75 — \"Room to Spare\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "mechanics_notes": "Current dataset evidence identifies Counter Burst as a 100-Ki Ki Blast Super from PQ75 and a Ki counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": "Parallel Quest 75 — Room to Spare",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned."
     },
     {
       "name": "Counter Impact",
@@ -626,17 +626,17 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 153 - \"Seeing Double\"",
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Basic Reward",
+      "last_verified": "2026-09-20",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
-      "source_quest_or_shop": "Parallel Quest 153 - Seeing Double",
+      "source_quest_or_shop": "Parallel Quest 153 — \"Seeing Double\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Conton City Vote Pack",
       "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": "Parallel Quest 153 — Seeing Double",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned."
     },
     {
       "name": "Demon Flash Strike",
@@ -1092,11 +1092,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "stamina_cost": 200,
-      "unlock_method": "Parallel Quest 82 - \"Ultimate Brotherly Battle\" (random reward)",
-      "last_verified": "2026-09-19",
+      "unlock_method": "Parallel Quest 82 — \"Ultimate Brotherly Battle\" Basic Reward",
+      "last_verified": "2026-09-20",
       "research_status": "enriched",
       "source_quest": 82,
-      "source_quest_or_shop": "Parallel Quest 82",
+      "source_quest_or_shop": "Parallel Quest 82 — \"Ultimate Brotherly Battle\"",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "mechanics_notes": "Current dedicated evidence confirms a 200-Stamina Ki Blast Evasive from PQ82. The stance can inflict paralysis/burn on an attacker; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
@@ -1106,7 +1106,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned."
     },
     {
       "name": "Explosive Wave",
