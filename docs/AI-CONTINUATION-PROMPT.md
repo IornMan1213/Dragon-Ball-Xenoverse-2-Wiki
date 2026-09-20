@@ -3558,3 +3558,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - **Energy Field:** corrected the stale skill description from “Ultimate Ki Blast skill” to “Ki Blast Evasive skill,” matching the record's Evasive class and current reference evidence.
 - Commit: `6ebae0f5a990917c1395728980d2ccb3c2c6754e`.
 - Next task: continue the current-scope audit, prioritizing stale descriptions where class/subcategory is already verified, then investigate Dust Attack only if a sufficiently specific class source is found. Do not add citation markup/tool identifiers to repository files.
+
+
+### 2026-09-20 cycle update — Dust Attack classification resolved
+- Current references now provide sufficiently specific classification evidence for **Dust Attack**: the current Super Attack reference places Dust Attack under the **Other** Super category, while the Future Warrior and Piccolo references identify it as Piccolo's Super Skill. cite marker omitted from repository data.
+- Normalized the record from `subcategory: Ki Blast` / `damage_type: Ki Blast` to `subcategory: Other` / `damage_type: Other` and removed the prior unresolved-classification wording.
+- PQ78 acquisition remains unchanged.
+- Commit: `06dfd39bfe6a661d31d85921f5f2b14acc0ae6fd`.
+- Next task: continue auditing the remaining current-scope records for stale category/damage metadata and description mismatches. Only normalize fields when the evidence is explicit enough to support the change. Do not add citation markup/tool identifiers to repository files.
