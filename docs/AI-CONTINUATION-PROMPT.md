@@ -2909,3 +2909,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Re-synchronized `docs/data/skills-index.json`; 283 records remain.
 - Commits: `e3da5ad7e4fc819fbbdb856bc1bef951cb3a6165` (canonical), `fd7bef44e49a4cad5877a86122895fb223b85d4a` (index), `4b1783f41d3a5cd9c61296adfce44eef8ec5cefc` (coverage audit).
 - Exact next task: continue remaining generic/random PQ records in quest order.
+
+
+### 2026-09-20 cycle update — PQ acquisition refinement batch 6
+- Refined **Wild Buster** (PQ153 random), **Hero's Flute** (PQ116 Basic), **Brave Sword Slash** (PQ116 Basic), **Death Slash** (PQ23 Basic), **Demon Flurry** (PQ160 random), **Demonic Destruction** (PQ159 random), **Destruction's Conductor** (PQ106 Basic), and **Freedom Kick** (PQ29 Basic).
+- Re-synchronized `docs/data/skills-index.json`; 283 records remain.
+- Commits: `a6ca154a93b54175c553bf8ae86ce415b8b4f3b1` (canonical), `a5e7f86ead6d98415a66eee4fb9db1b4f547d984` (index), `46ccd56d0ba0d596498b2f525dc4a180a40bc29f` (coverage audit).
+- Exact next task: investigate higher-DLC PQ records with unresolved drop gating, beginning with Dragon Spark, Dragon Spiral, Force Edge, and Heroic Assault; preserve source conflicts rather than forcing a single value.
