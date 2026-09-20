@@ -3415,3 +3415,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Updated `docs/data/skills.json` and synchronized `docs/data/skills-index.json`.
 - Commits: `1b3e8da7e5154800da971b95068e8388d0575fb8` (skills), `354106948a7cb49855eeafc24caa261471f42b9b` (index).
 - Exact next task: continue the remaining current-scope canonical audit, especially stale `usable_by_cac`, acquisition type, and reward-gate fields; preserve uncertainty where evidence conflicts.
+
+
+## 2026-09-20 — Future Saga PQ CaC-availability correction
+
+- Corrected **Big Bang Knuckle**, **Divine Spear**, and **Crimson Edge** from stale `usable_by_cac=false` records to CaC-accessible PQ skills.
+- Current dedicated skill pages list each as a normal Super Skill with a PQ unlock and do not place them in the cast-exclusive/unavailable-for-CaC category. The PQ guide lists them as Basic Rewards: PQ171 contains Crimson Edge and Divine Spear; PQ172 contains Big Bang Knuckle. citeturn0search0turn0search1turn0search2turn0search5
+- Character association (Goku Black or Vegeta) was not treated as proof of character exclusivity; the repository now records CaC availability while retaining the character/source attribution.
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Commits: `bc8d3e65b2f8a1be0b2293b25231071dc691ae65` (skills), `30a238294dadcca7e9c97ab1f71601e01789fd24` (index).
+- Next: continue the canonical audit for remaining stale CaC boundaries and acquisition semantics, then move into unresolved reward-gate conflicts.
