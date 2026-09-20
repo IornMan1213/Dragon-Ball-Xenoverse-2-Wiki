@@ -2777,3 +2777,10 @@ Targeted the remaining records whose metadata references PQ171/PQ172, PQ99, or P
 Re-checked **Reverse Mabakusenko** because older community material associates it with PQ51, while current reference data explicitly identifies its CaC acquisition as the Skill Shop. The repository's current metadata likewise says Skill Shop, so no `source_quest` value was assigned. This is a deliberate provenance-preservation decision: an historical PQ association is not enough to overwrite the current canonical acquisition route. citeturn0search1turn0search6
 
 No `skills.json` data change was made in this pass.
+
+
+## 2026-09-19 — explicit Final Pose PQ reward batch 25
+
+Promoted **Final Pose → PQ74**. The maintained Steam Community PQ guide explicitly lists Final Pose as a Basic Reward for **PQ74 — Galactic Patrol, Away!**, providing a direct quest identifier even though the skill can also be obtained through the Skill Shop. citeturn1search0turn1search1
+
+Skills commit: `62d434b84aecf89d5f408b0c024243aff6714e24`.
