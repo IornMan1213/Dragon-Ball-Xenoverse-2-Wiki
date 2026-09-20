@@ -1,11 +1,11 @@
 {
   "schema_version": "1.1",
   "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "generated": "2026-09-19",
+  "generated": "2026-09-20",
   "category_counts": {
-    "Ki Blast Supers": 183,
+    "Ki Blast Supers": 182,
     "Strike Supers": 130,
-    "Ki Blast Ultimates": 110,
+    "Ki Blast Ultimates": 111,
     "Strike Ultimates": 30,
     "Other Supers": 32,
     "Power Up Supers": 20,
@@ -1265,7 +1265,7 @@
     },
     {
       "name": "Evil Blast",
-      "class": "Super",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
@@ -1275,7 +1275,10 @@
         "https://dbxv2.fandom.com/wiki/Evil_Blast",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "unlock_method": "Parallel Quest 114 — \"The Majin Revival Plan\" Ultimate Finish",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Evil Flame",
