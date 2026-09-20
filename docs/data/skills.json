@@ -2328,12 +2328,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 70 / TP Medal Shop",
       "mechanics_notes": "Current evidence confirms Emperor's Blast as a 100-Ki Ki Blast Super associated with Hercule; the existing PQ70/TP Medal Shop acquisition record is retained. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "source_quest": 70,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ70 Basic Reward evidence independently confirms the quest acquisition, while current dedicated skill documentation identifies the move as a 100-Ki Ki Blast Super used by Frieza/Golden Frieza. TP Medal Shop availability is retained as an alternate acquisition route; no UF-only gate is inferred.",
+      "character_source": "Golden Frieza"
     },
     {
       "name": "Emperor's Cannon",
@@ -2345,14 +2346,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
-      "source_quest_or_shop": "PQ184",
+      "unlock_method": "Parallel Quest 183/184 provenance conflict — dedicated skill page says PQ184 \"The Invincible Duo\"; maintained PQ reward guide lists Emperor's Cannon under PQ183 \"Broly vs. Broly\"",
+      "source_quest_or_shop": "PQ183/PQ184 — unresolved source conflict",
       "ultimate_finish_required": false,
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Current dedicated evidence confirms Emperor's Cannon as a 100-Ki Ki Blast Super from PQ184, 'The Invincible Duo', correcting the prior PQ183 record. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2361,7 +2362,7 @@
       "source_quest": 184,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: current dedicated skill documentation says PQ184, while the maintained 186-PQ reward guide explicitly lists Emperor's Cannon as a Basic Reward in PQ183. The repository retains the dedicated-page PQ184 value as the canonical current value but records the conflicting PQ183 reward-table evidence rather than silently discarding it. No Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Eraser Bomb",
