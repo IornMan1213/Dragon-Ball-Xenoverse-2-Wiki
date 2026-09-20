@@ -3620,3 +3620,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - `ki_cost`, `ultimate_finish_required`, `usable_by_cac`, and `race_restriction` are populated across the current-scope census. `dlc_required` remains intentionally null across this scope because DLC provenance is represented through the existing acquisition/source fields rather than an unsupported DLC requirement field.
 - No skill-data commit was necessary in this cycle; only this handoff was updated.
 - Next task: inspect acquisition wording and individual unlock routes for stale/overbroad claims, prioritizing Skill Shop/story entries and character-exclusive boundaries.
+
+
+### 2026-09-20 cycle update — stale acquisition provenance cleanup
+- Rechecked current Evasive acquisition references. The current Evasive catalog lists **Punisher Guard** as a Skill Shop acquisition, without the obsolete PQ87 provenance attached to the current route. cite marker omitted from repository data.
+- Updated `Punisher Guard.unlock_method` to `Skill Shop after completing the relevant story progression.` and removed the stale “originally associated with PQ87” wording. Other fields remain unchanged.
+- Skill-data commit: `ce483dfff35ed7f194b6054ce60e9319068f964d`.
+- Next task: continue checking current-scope acquisition wording for similar historical/obsolete route references, especially records whose `source_quest` is null.
