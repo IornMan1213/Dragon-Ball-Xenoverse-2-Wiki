@@ -3083,3 +3083,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `07f4f8105a5dfb2ab31e7224fe63112ca7b734fb` (canonical), `7af9d426f0f9065f48b2c81f4fec3e5706a98a9a` (index), `9ebc0b5d59d400f09db95050a1e0919f41e731ff` (audit).
 - Evidence: PQ163 maintained datamined drop-condition data plus the maintained reward transcription. citeturn0search0turn0search1
 - Exact next task: continue auditing the remaining random-acquisition records against explicit `skill_drop_conditions` in PQ batches, prioritizing PQ151/PQ153/PQ155/PQ159/PQ160/PQ163/PQ167.
+
+
+### 2026-09-20 cycle update — five PQ gate refinements
+- Refined **Spirit Pulse (PQ151)** to the documented **50% Ultimate Finish bonus roll**.
+- Refined **Wild Buster (PQ153)** to the documented **45% Ultimate Finish roll**.
+- Refined **Heroic Assault (PQ156)** to the documented **40% Ultimate Finish roll**.
+- Refined **Demonic Destruction (PQ159)** to the documented **40% Ultimate Finish bonus roll**.
+- Refined **Demon Flurry (PQ160)** to the documented **40% Ultimate Finish roll**.
+- These records previously used generic random-PQ wording. The maintained PQ data explicitly identifies their gates, so the canonical records now preserve those gates rather than leaving them unresolved.
+- No additional slot semantics were inferred from the generic Basic Reward arrays.
+- Commits: `fec6d217c2201307cbf0351f7eae85987a81c709` (canonical), `84ba0a7e0f5a5395da894a4205790a3d588fe9c4` (index), `2d6d69014b9d92e725ebbe9b83e899256665647f` (audit).
+- External cross-check: the maintained public PQ guide lists PQ163 rewards as Basic Rewards, illustrating why the explicit drop-condition fields must be preserved separately from reward-table labels. citeturn0search1
+- Exact next task: audit the remaining unresolved acquisition records, especially **Burning Swan (PQ167)** where maintained data says 45% normal-clear reward, and compare that against its current canonical wording.
