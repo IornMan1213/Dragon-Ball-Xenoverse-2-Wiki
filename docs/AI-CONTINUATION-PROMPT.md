@@ -3543,3 +3543,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **143 verified / 61 partially verified** across 283 records.
 - Next task: continue deterministic verification of the remaining 61 partial records, prioritizing explicit skill-page unlock statements and separating genuine acquisition uncertainty from stale classification metadata.
+
+
+### 2026-09-20 continuation — four explicit PQ verifications
+- Verified **Powered Shell (PQ128)**, **Recoome Kick (PQ61)**, **Sauzer Blade (PQ27)**, and **Savory Slicer (PQ140)** from current skill-page acquisition statements. Recoome Kick's PQ guide also explicitly lists it as a Basic Reward; Savory Slicer is likewise listed among PQ140 rewards. citeturn1search0turn1search1turn1search3turn1search4turn1search6turn1search10
+- Reconciled **Powered Shell** from stale Strike metadata to **Ki Blast**, matching the current skill-page classification.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **147 verified / 57 partially verified** across 283 records.
+- Next task: continue through the remaining 57 partial records, prioritizing current pages with explicit acquisition statements and correcting stale classification metadata only when current evidence is explicit.
