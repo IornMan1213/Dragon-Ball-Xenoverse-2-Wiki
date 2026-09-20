@@ -3308,3 +3308,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - No UF flags or unsupported rates/prerequisites were changed. Canonical/index remain **283**, exact parity preserved, UF count **60**.
 - Commits: **7689098e1e7778bdadf5e92dec72942f73470ef1** (canonical) and **931da3fe02cf407ff12d2678737a787d890b5375** (index).
 - Exact next task: **continue the non-PQ provenance audit with terse mentor/test/mission records, prioritizing Galick Gun, Dancing Parapara, Rise to Action, Deadly Dance, and any remaining source-null records; inspect dedicated research files for exact lesson/test/mission identifiers before making edits, and preserve unresolved conflicts.**
+
+### 2026-09-20 cycle update — mentor lesson-level provenance refinement continuation
+- Refined **11** terse mentor acquisition records: Galick Gun, Dancing Parapara, Rise to Action, Deadly Dance, Shadow Crusher, Time Skip/Flash Skewer, Time Skip/Back Breaker, Time Skip/Jump Spike, Death Ball, Darkness Rush (Melee), and Darkness Rush (Ranged).
+- Promoted exact initiation/lesson identifiers from maintained instructor reward evidence: Vegeta Initiation Test; Pan Initiation Test; Krillin Initiation Test; Android 18 Lesson 2; Cooler Lesson 1; Hit Initiation Test/Lessons 1–2; Frieza Lesson 3; Lord Slug Lesson 3.
+- Acquisition wording now names the mentor checkpoint and Basic Reward status. No UF gate, rate, or unsupported prerequisite was inferred.
+- Validation: canonical/index **283**, exact parity, UF **60**; targeted terse mentor/test census **0**.
+- Commits: **77617ca0ad0ed0edaf0aec8251fcb371c7fffcf6** (canonical), **21cc5cc53ea465cdda3330ff751656565f175d2d** (index), audit update follows.
+- Exact next task: **audit the remaining non-PQ quest/mission records for source-quality and specificity beyond simple terseness, prioritizing time-rift, story, shop, and Expert Mission provenance; preserve unresolved conditions and genuine source conflicts.**
