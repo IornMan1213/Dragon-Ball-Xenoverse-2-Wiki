@@ -2973,3 +2973,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `1d01e62bdcbcbe13ec807336cf68c48ff5b10aff` (canonical), `39b42ac5d4138a617136c433b2a2203d4933cf51` (index), `127f44a40ba1c1725038f7fbd2df6685868cbf47` (coverage audit).
 - Live census remains **283 records**. The two remaining generic PQ acquisition records are **Lightning Impact (PQ142)** and **Blaster Stream (PQ148)**; Blaster Stream now has its race scope explicitly unresolved rather than incorrectly universal.
 - Next pass should continue evidence-driven consistency auditing rather than inventing PQ141-PQ150 quest records or unsupported skill restrictions.
+
+
+### 2026-09-20 cycle update — reward-tier consistency cleanup
+- Corrected **Chaotic Time Impact** to its reconciled PQ184 provenance: **50% Ultimate Finish bonus reward**, with `ultimate_finish_required=true`.
+- Cleaned stale wording for **Circle Flash** (PQ154 40% UF gate now treated as resolved) and **Sonic Bomb** (Basic Reward tier resolved; only exact probability/mechanics remain unresolved).
+- Updated `skills-index.json` and `COVERAGE-AUDIT.md`.
+- Commits: `bbf39b8fc2730566fc04e6565901fce6829500bb` (canonical), `f07dbe1b976ede7f76a311557528a85190e0d222` (index), `c35d1c1b7d351f32ded08228ce6eed719a534cd7` (coverage audit).
+- Live census remains **283 records**. Remaining generic acquisition records are still **Lightning Impact (PQ142)** and **Blaster Stream (PQ148)**; no unsupported PQ141-PQ150 quest records should be created.
+- Next pass: continue canonical consistency auditing for stale reward-tier flags/notes, then re-check index/data parity.
