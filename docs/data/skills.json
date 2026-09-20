@@ -4826,14 +4826,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward; exact drop conditions require further reconciliation",
+      "unlock_method": "Parallel Quest 177 — \"Warped Sense of Justice\" Basic Reward",
       "source_quest_or_shop": "PQ177 reward context",
       "ultimate_finish_required": false,
       "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4842,7 +4842,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: The current skill page explicitly states Dragon Spark is unlocked from Parallel Quest 177, \"Warped Sense of Justice.\" This establishes the concrete PQ source without asserting an Ultimate Finish-only gate."
+      "notes": "2026-09-20 audit: current PQ177 reward listing explicitly includes Dragon Spark in the Basic Reward pool; the dedicated skill page confirms PQ177 as its unlock quest. No Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Dragon Spiral",
@@ -4854,14 +4854,14 @@
       "ki_cost": 100,
       "stamina_cost": 0,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 185 — \"A God's Amusement\" Basic Reward",
       "source_quest_or_shop": "PQ185 (also reported in PQ186 reward pool)",
       "ultimate_finish_required": false,
       "skill_description": "Strike Super associated with Goku (Ultra Supervillain Quelled).",
       "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4871,7 +4871,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 185,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
+      "notes": "2026-09-20 audit: current PQ185 reward listing explicitly includes Dragon Spiral in the Basic Reward pool. An earlier/alternate report associated it with PQ186, but the current dedicated PQ185 listing is treated as the canonical acquisition; no separate PQ186 route is inferred."
     },
     {
       "name": "Dragon Thunder",
@@ -5022,14 +5022,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "unlock_method": "Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\" Basic Reward",
       "source_quest_or_shop": "PQ180",
       "ultimate_finish_required": false,
       "skill_description": "Force Edge is a Super Strike skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5038,7 +5038,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: current PQ180 reward listing explicitly includes Force Edge in the Basic Reward pool; dedicated skill documentation independently confirms PQ180."
     },
     {
       "name": "Freedom Kick",
@@ -5135,14 +5135,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Random reward from Parallel Quest 156 — \"Hunting Down Dr. Hedo\"",
       "source_quest_or_shop": "PQ156",
       "ultimate_finish_required": false,
       "skill_description": "Heroic Assault is a Super Strike skill used by Gamma 1.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Assault",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5151,7 +5151,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
+      "notes": "2026-09-20 audit: dedicated skill documentation explicitly describes Heroic Assault as randomly obtainable from PQ156; no specific reward tier is inferred."
     },
     {
       "name": "Justice Blade",
