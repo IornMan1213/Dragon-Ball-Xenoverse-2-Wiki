@@ -858,7 +858,7 @@
       "name": "Sudden Death Beam",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sudden_Death_Beam",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -875,14 +875,14 @@
       "dlc_requirement": "Base Game + later STP/raid distribution",
       "mechanics_notes": "Current dataset acquisition evidence remains TP Medal Shop / STP Medal Shop / Double Crystal Raid with 100 Ki. Dedicated current-version page access was unavailable in this pass, so the existing acquisition record is retained without inventing additional scope. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "",
+      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.",
       "source_quest": null
     },
     {
       "name": "Super Afterimage",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Afterimage",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -900,13 +900,13 @@
       "research_status": "enriched",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved."
     },
     {
       "name": "Super God Shock Flash",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_God_Shock_Flash",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -923,7 +923,7 @@
       "dlc_requirement": "Base Game",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super and melee counter obtained from the Skill Shop. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved."
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -3899,7 +3899,7 @@
       "name": "Quick Sleep",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonball.fandom.com/wiki/Sleep",
@@ -3916,7 +3916,7 @@
       "research_status": "enriched",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super sold in the Skill Shop after defeating Mira (Final Form). It puts the user to sleep to recover stamina/health while vulnerable; restricted to Majin CaCs.",
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved."
     },
     {
       "name": "Rise to Action",
@@ -4011,7 +4011,7 @@
       "name": "Spirit Boost",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Boost",
         "https://dragonball.fandom.com/wiki/Spirit_Boost",
@@ -4028,13 +4028,13 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved."
     },
     {
       "name": "Super Guard",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Super_Guard"
@@ -4053,7 +4053,7 @@
       "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki.",
       "source_quest": null,
       "acquisition_type": "starting_move",
-      "notes": ""
+      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved."
     },
     {
       "name": "Surging Spirit",
