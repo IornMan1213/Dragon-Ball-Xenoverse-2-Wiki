@@ -449,7 +449,8 @@
       "mechanics_notes": "500 Ki is required for the normal Super Saiyan Blue Kaioken stage and 500 Ki for the x10 stage; the transformation is character-only and remains unavailable to CaCs. Current reference documents the 500 Ki requirement and both stages. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
-      "ki_cost": 500
+      "ki_cost": 500,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Supersonic Mode",
@@ -470,7 +471,8 @@
       "mechanics_notes": "No Ki is required to activate Supersonic Mode; the character-only transformation instead has an automatic Stamina drain while active. Current reference lists Ki Required: None. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "Character-only Awoken Skill / roster use",
-      "ki_cost": 0
+      "ki_cost": 0,
+      "dlc_requirement": "Conton City Vote Pack"
     },
     {
       "name": "Ultra Instinct",
@@ -2310,7 +2312,8 @@
       "last_verified": "2026-09-19",
       "usable_by_cac": false,
       "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
-      "race_restriction": "Character-only"
+      "race_restriction": "Character-only",
+      "dlc_requirement": "Ultra Pack 1"
     },
     {
       "name": "Flash Chaser",
@@ -3676,7 +3679,7 @@
       "race_restriction": "All CaC races",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 153,
-      "dlc_requirement": null
+      "dlc_requirement": "Conton City Vote Pack"
     },
     {
       "name": "Solar Flare",
@@ -5604,7 +5607,8 @@
       "research_status": "enriched",
       "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile.",
       "source_quest_or_shop": "Frieza mentor — Intergalactic Emperor of Evil 3",
-      "source_quest": "Frieza mentor — Intergalactic Emperor of Evil 3"
+      "source_quest": "Frieza mentor — Intergalactic Emperor of Evil 3",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -6677,7 +6681,8 @@
       "research_status": "enriched",
       "source_quest_or_shop": "Training with Lord Slug, Lesson 3",
       "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack.",
-      "source_quest": "Lord Slug mentor training — Lesson 3"
+      "source_quest": "Lord Slug mentor training — Lesson 3",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -6704,7 +6709,8 @@
       "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
       "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors.",
       "source_quest_or_shop": "Training with Lord Slug, Lesson 3",
-      "source_quest": "Lord Slug mentor training — Lesson 3"
+      "source_quest": "Lord Slug mentor training — Lesson 3",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Divine Lasso",
