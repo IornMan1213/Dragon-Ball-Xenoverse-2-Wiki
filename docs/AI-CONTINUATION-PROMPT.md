@@ -3178,7 +3178,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-20 continuation — explicit PQ unlock verification
 - Promoted **God of Destruction's Poise** (PQ175), **Meteor Strike** (PQ06), and **Neo Wolf Fang Fist** (PQ86) from partial to verified.
-- Evidence: current Xenoverse 2 skill pages explicitly identify each Parallel Quest as its unlock source. The maintained audit already had these skills outside an Ultimate Finish-only condition; no unsupported UF requirement was added. cite references were not copied into repository artifacts.
+- Evidence: current Xenoverse 2 skill pages explicitly identify each Parallel Quest as its unlock source. The maintained audit already had these skills outside an Ultimate Finish-only condition; no unsupported UF requirement was added. cite references were not copied into repository artifacts.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **142 verified / 62 partially verified** across the 283-record census.
 - Validation: canonical/index/audit were parsed and synchronized; no validator was weakened and no internal tool/citation markup was written into repository data.
