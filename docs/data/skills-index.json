@@ -2411,7 +2411,8 @@
       ],
       "last_verified": "2026-09-19",
       "unlock_method": "Parallel Quest 136 — Ultimate Finish reward",
-      "ultimate_finish_required": true
+      "ultimate_finish_required": true,
+      "notes": "2026-09-19 source reconciliation: Steam's current all-PQ guide lists Blazing Attack among PQ136 rewards. GameFAQs/community reports confirm it is a random drop from PQ136, while the PQ's Ultimate Finish condition is clearing in under 7 minutes. The evidence does not prove that the skill itself requires the UF, so retain the repository's explicit conflict/research status rather than overclaiming."
     },
     {
       "name": "Brave Sword Slash",
@@ -2460,7 +2461,8 @@
       ],
       "last_verified": "2026-09-19",
       "unlock_method": "Parallel Quest 167 reward",
-      "ultimate_finish_required": false
+      "ultimate_finish_required": false,
+      "notes": "2026-09-19 source reconciliation: Steam's current all-PQ guide lists Burning Swan as a Basic Reward for PQ167 (Fighting for Family), while a dedicated skill page describes it as a random drop from that PQ. This confirms the PQ source but does not establish an Ultimate Finish-only gate."
     },
     {
       "name": "Burst Blitz",
@@ -2791,7 +2793,7 @@
       "name": "Lovely Cyclone",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
@@ -2799,7 +2801,9 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dbxv2.fandom.com/wiki/Lovely_Cyclone",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "notes": "2026-09-19 source reconciliation: Steam's current all-PQ guide lists Lovely Cyclone as a Basic Reward for PQ135 (Ribrianne, Defender of Love and Justice). Community reports describe it as a difficult RNG drop, but do not establish an additional Ultimate Finish-only condition; keep the UF flag false."
     },
     {
       "name": "Mach Punch",
