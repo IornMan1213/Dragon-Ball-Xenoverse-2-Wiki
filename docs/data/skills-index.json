@@ -2923,11 +2923,13 @@
       "name": "Pressure Sign",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "skill_shop",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Pressure_Sign"
+        "https://dbxv2.fandom.com/wiki/Pressure_Sign",
+        "https://dragonball.fandom.com/wiki/Pressure_Sign",
+        "https://gamefaqs.gamespot.com/ps4/190459-dragon-ball-xenoverse-2/answers/630629-what-abilities-should-i-get-for-my-female-majin-strike-build"
       ]
     },
     {
