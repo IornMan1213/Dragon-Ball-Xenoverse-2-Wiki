@@ -3626,3 +3626,12 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts: **176 verified / 28 partially verified** of 283.
 - Next task: continue the remaining 28 partial records, prioritizing acquisition-condition conflicts and explicit current classifications.
+
+
+### 2026-09-20 continuation — Sonic Bomb reward gating reconciled
+- Promoted **Sonic Bomb (PQ105)** to verified.
+- Current maintained PQ105 reward data explicitly lists Sonic Bomb in the **Basic Reward** list. An archived player discussion reports a belief that Ultimate Finish was needed, but that discussion is anecdotal and does not override the maintained reward table for canonical reward classification.
+- Canonical `ultimate_finish_required` remains **false**.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts: **177 verified / 27 partially verified** of 283.
+- Next task: continue the remaining 27 partial records, prioritizing explicit current acquisition/reward evidence.
