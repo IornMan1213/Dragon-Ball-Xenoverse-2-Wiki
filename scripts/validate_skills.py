@@ -19,6 +19,16 @@ def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('su
 def main():
  d=json.loads(DATA.read_text(encoding='utf-8')); idx=json.loads(INDEX.read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
  rs=d.get('records',[]); ir=idx.get('records',[]); errors=[]
+ if Draft202012Validator is None:
+  errors.append('jsonschema dependency is required for JSON Schema validation')
+ else:
+  try:
+   validator=Draft202012Validator(schema)
+   for i,r in enumerate(rs):
+    for e in validator.iter_errors(r):
+     errors.append(f"schema error at records[{i}] {e.json_path}: {e.message}")
+  except Exception as e:
+   errors.append(f'JSON Schema validation error: {e}')
  if d.get('record_count')!=len(rs):errors.append('skills.json record_count mismatch')
  if idx.get('record_count')!=len(ir):errors.append('skills-index.json record_count mismatch')
  if len(rs)!=len(ir):errors.append('skills/index record lengths differ')
