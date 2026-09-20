@@ -605,7 +605,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Explosive_Wave",
         "https://dragonball.fandom.com/wiki/Explosive_Wave",
@@ -748,7 +748,7 @@
       "subcategory": "Power Up",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Pose",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -2010,7 +2010,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "starting_move",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Super_Guard"
@@ -2035,7 +2035,7 @@
       "subcategory": "Other",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Bullet",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
