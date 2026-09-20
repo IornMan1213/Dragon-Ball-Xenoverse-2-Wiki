@@ -3675,7 +3675,8 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "source_quest": 153
+      "source_quest": 153,
+      "dlc_requirement": "Legendary Pack 3"
     },
     {
       "name": "Solar Flare",
@@ -6723,7 +6724,8 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "TP Medal Shop",
       "research_status": "enriched",
-      "mechanics_notes": "300 Ki Ultimate. TP Medal Shop/STP Medal Shop availability is rotation-dependent; the official 2017 update explicitly scheduled Divine Lasso in the TP Medal Shop."
+      "mechanics_notes": "300 Ki Ultimate. TP Medal Shop/STP Medal Shop availability is rotation-dependent; the official 2017 update explicitly scheduled Divine Lasso in the TP Medal Shop.",
+      "dlc_requirement": "Free Update 8"
     },
     {
       "name": "Divine Wrath: Purification",
@@ -6771,7 +6773,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price.",
-      "source_quest_or_shop": "TP Medal Shop"
+      "source_quest_or_shop": "TP Medal Shop",
+      "dlc_requirement": "Free Update 1"
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -6872,7 +6875,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "TP Medal Shop",
-      "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent."
+      "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent.",
+      "dlc_requirement": "Free Update 8"
     },
     {
       "name": "Power Rush",
