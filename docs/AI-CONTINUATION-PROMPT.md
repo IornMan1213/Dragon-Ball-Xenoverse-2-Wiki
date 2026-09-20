@@ -3635,3 +3635,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts: **177 verified / 27 partially verified** of 283.
 - Next task: continue the remaining 27 partial records, prioritizing explicit current acquisition/reward evidence.
+
+
+### 2026-09-20 continuation — eight PQ acquisition records verified
+- Promoted **Heat Dome Attack (PQ40)**, **Last Emperor (PQ71)**, **Lightning Impact (PQ142)**, **Lightning of Absolution (PQ111)**, **Majin Kamehameha (PQ60)**, **Mystic Flash (PQ20)**, **Prominence Flash (PQ137)**, and **Requiem of Destruction (PQ106)** to verified.
+- Current maintained PQ reward data lists all eight in their respective **Basic Reward** sections, establishing the documented acquisition routes without an Ultimate Finish requirement.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts: **185 verified / 19 partially verified** of 283.
+- Next task: continue the remaining 19 partial records, prioritizing explicit current reward listings and leaving unresolved classification/drop-condition conflicts untouched until directly reconciled.
