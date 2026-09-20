@@ -2964,3 +2964,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `277092ff23ec402bff2f98de31e79e15c6df8bc0` (canonical), `745ca043282a66e6566279b05bfd66d4b96db570` (index), `d1f9962763c74b0d0c32be63b4a86bcf5addb650` (coverage audit).
 - Live census: **283 records**; **2** generic PQ acquisition records remain: Lightning Impact and Blaster Stream.
 - Next task: resolve the remaining PQ142/PQ148 records only if maintained evidence can strengthen their provenance; otherwise preserve their current Basic Reward semantics and audit the broader canonical dataset for other acquisition-quality gaps.
+
+
+### 2026-09-20 cycle update — race-scope consistency audit
+- Audited canonical skill records for contradictions between explicit "race_restriction remains unresolved" notes and populated race fields.
+- Corrected six records to `race_restriction: null`: **Super God Fist, Variant Drive, Blaster Stream, Chain Destructo-Disc Barrage, Circle Flash, Chaotic Time Impact**. No race scope was inferred.
+- Updated `docs/data/skills-index.json` and `docs/COVERAGE-AUDIT.md` accordingly.
+- Commits: `1d01e62bdcbcbe13ec807336cf68c48ff5b10aff` (canonical), `39b42ac5d4138a617136c433b2a2203d4933cf51` (index), `127f44a40ba1c1725038f7fbd2df6685868cbf47` (coverage audit).
+- Live census remains **283 records**. The two remaining generic PQ acquisition records are **Lightning Impact (PQ142)** and **Blaster Stream (PQ148)**; Blaster Stream now has its race scope explicitly unresolved rather than incorrectly universal.
+- Next pass should continue evidence-driven consistency auditing rather than inventing PQ141-PQ150 quest records or unsupported skill restrictions.
