@@ -931,11 +931,11 @@
         "https://dbxv2.fandom.com/wiki/Side_Bridge",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 39 — \"17 and 18 of the Official History\" Random Reward",
+      "unlock_method": "Parallel Quest 39 — \"17 and 18 of the Official History\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set; exact individual reward probability remains unresolved."
     },
     {
       "name": "Spread Shot Retreat",
@@ -966,11 +966,11 @@
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Random Reward",
+      "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set; exact individual reward probability remains unresolved."
     },
     {
       "name": "Final Pose",
@@ -1177,11 +1177,11 @@
         "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Random reward from Parallel Quest 94 — \"Ultimate Power, Ultimate Saiyan\"",
+      "unlock_method": "Parallel Quest 94 — \"Ultimate Power, Ultimate Saiyan\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set; exact individual reward probability remains unresolved."
     },
     {
       "name": "Breaker Energy Wave",
@@ -1632,11 +1632,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Final_Cannon"
       ],
-      "unlock_method": "Parallel Quest 52 — \"Super Saiyan Bargain Sale\" Random Reward",
+      "unlock_method": "Parallel Quest 52 — \"Super Saiyan Bargain Sale\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set; exact individual reward probability remains unresolved."
     },
     {
       "name": "Final Flash (Super)",
