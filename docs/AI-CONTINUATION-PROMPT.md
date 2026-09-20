@@ -2946,3 +2946,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `98f90c9a8a8efb219df02de9e82048fa97684789` (canonical), `a4ac594288abcb90fa634e0404f6742e41f3de3c` (index), `f5fe45a7ff1ef0d30f22928e5c8d7614c1830516` (coverage audit).
 - Live census: **283 records**, **8** exact generic PQ acquisition records remain.
 - Exact next task: continue at **PQ142 — Lightning Impact**, then PQ148 — Blaster Stream, PQ154, PQ160, PQ164, PQ177, and PQ185/186, carefully preserving unresolved/random routes where evidence does not establish a stronger tier.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 17
+- Refined four canonical skill acquisition records: **Demon Flash Strike (PQ160)** → 45% Ultimate Finish bonus slot; **Gigantic Explosion (PQ164)** → 40% Ultimate Finish; **Full Power Destruction (PQ177)** → 50% Ultimate Finish bonus slot; **Venus Fist (PQ186)** → Basic Reward, no Ultimate Finish requirement.
+- Maintained explicit corpus percentages where documented; did not invent a rate for Venus Fist.
+- PQ141-PQ150 remains an explicit numbering gap per `pq-batch-19-numbering-reconciliation.json`; no quest records were invented. PQ154's Circle Flash/Sign of Awakening remain Random Parallel Quest reward records despite their maintained Basic Reward listing because the canonical random-route semantics are not resolved by the gap data.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `4c6edaf321f8556418ab39b8ab6ee2c183efe6e9` (canonical), `3cfe47699fa8ff14e09c346165485a946e854e00` (index), `3a4b0291c78dbda31131e97aaee043444ac4898a` (coverage audit).
+- Live census: **283 records**; remaining generic/random PQ acquisition records should now be reviewed with special attention to unresolved random-vs-basic semantics rather than assuming the next quest number exists.
