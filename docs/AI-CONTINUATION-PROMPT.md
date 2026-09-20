@@ -3335,3 +3335,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Corrected `Energy Barrier` to `ultimate_finish_required=false` based on explicit PQ32 Basic Reward evidence.
 - Synchronized the index verification metadata.
 - Next task: continue deterministic Ultimate Finish audits across partially verified PQ skills.
+
+
+### 2026-09-19 continuation — PQ Ultimate Finish verification cohort
+- Verified `Earth Splitting Galick Gun` (PQ11), `Burst Stinger` (PQ136), and `Raid Blast` (PQ136) from explicit Ultimate Finish reward evidence.
+- Synchronized canonical/index verification metadata.
+- Next task: continue the partially verified PQ cohort, prioritizing records with explicit reward-condition evidence while avoiding ambiguous RNG/character-drop claims.
