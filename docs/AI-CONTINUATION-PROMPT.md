@@ -3013,3 +3013,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Audit commit: `916a144fdb52729ec5d1b3ee07ccd3e391d4eba7`.
 - Live census: **283 skills; 26 null `dlc_requirement`; 31 null `source_quest`**.
 - Remaining null-DLC names are now explicitly listed in the audit. Next priority: inspect explicit named DLC/update/shop evidence, especially Shield Barrier, Supernova, Divine Lasso, Dragon Fist, Godly Display, and character-only records. Preserve null where chronology is not established.
+
+
+### 2026-09-19 continuation — base-game PQ/Expert Mission provenance batch 4
+- Resolved 7 `dlc_requirement` nulls as **Base Game**: Afterimage Strike (PQ81), Phantom Fist (PQ97), Burning Slash (PQ44), Evil Flight Strike (PQ21), Shining Slash (PQ38), Mystic Flash (PQ20), Supernova (Expert Mission 6).
+- Data commit: `89078341d8b95d17d257ea9042073cf80a333d83`.
+- Audit commit: `b43c5d61064669900bd8021ddb8fc61dae748596`.
+- Live census: **283 skills; 19 null `dlc_requirement`; 31 null `source_quest`**.
+- Next exact task: investigate the remaining shop/mentor/character-only skills for documented update chronology; do not assign DLC based solely on character association.
