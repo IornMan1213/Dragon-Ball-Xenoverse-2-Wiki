@@ -2897,16 +2897,18 @@
     {
       "name": "Power Impact",
       "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dbxv2.fandom.com/wiki/Power_Impact",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "damage_type": "Ki Blast",
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Powered Shell",
