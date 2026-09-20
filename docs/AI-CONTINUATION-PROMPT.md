@@ -2859,3 +2859,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - The immediately preceding Wiki data audit run for `b3f92d45c4487381b44216a0388366649582b3f5` **failed** without actionable workflow steps/logs, matching the repository's recurring opaque pre-step failure pattern. No validator was weakened or bypassed.
 - GitHub code searches for `filecite`, `memcite`, `turn0search`, and `turn1search` returned no indexed matches.
 - Exact next task remains the generic skill acquisition/type audit, beginning with Emperor's Blast and Emperor's Cannon.
+
+
+### 2026-09-20 cycle update — Emperor skill audit + index repair
+- **Emperor's Blast:** retained PQ70 as the concrete source; PQ70 reward tables explicitly list it as a Basic Reward. Dedicated skill evidence confirms 100-Ki Ki Blast Super; TP Medal Shop remains an alternate route. Source metadata corrected to Golden Frieza.
+- **Emperor's Cannon:** resolved the generic acquisition wording into an explicit **PQ183/PQ184 provenance conflict**. Current dedicated skill documentation says PQ184; the maintained 186-PQ reward guide lists Emperor's Cannon in PQ183 Basic Reward. Canonical current value remains PQ184, with the conflict recorded rather than silently discarded.
+- Detected malformed `docs/data/skills-index.json` from the prior synchronization pass. Rebuilt the entire index directly from valid canonical `docs/data/skills.json`; index restored to valid JSON with 283 records.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `3be0bf3f860a71a5a8311665968b191b368a504f` (index repair), `5c4f3b4c54e01e307b9520343cf0299b0dcde65a` (Emperor canonical audit), `9dedac06252cea2aa24a5be0fb137394d1d700d5` (index sync), `f424d528a1fd717706d6b563a9161398fce92643` (coverage audit).
+- Validation: `skills.json` parses successfully; regenerated `skills-index.json` parses successfully and contains 283 records. No unsupported Ultimate Finish gate or drop probability was introduced.
+- Evidence conflict: Emperor's Cannon has a current dedicated-page PQ184 claim versus a maintained PQ reward-table PQ183 listing; preserve this conflict until stronger primary/in-game evidence resolves it.
+- Exact next task: continue the generic acquisition audit for remaining `Parallel Quest reward` / `Random Parallel Quest reward` records, prioritizing cases where maintained PQ reward tables can establish a concrete quest and reward tier.
