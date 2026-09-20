@@ -3283,3 +3283,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Preserved all three documented acquisition routes: TP Medal Shop, STP Medal Shop, and Double Crystal Raid Battle.
 - No PQ provenance or Ultimate Finish requirement was inferred.
 - Next task: audit the remaining acquisition-type anomalies and verify canonical/index consistency.
+
+
+### 2026-09-19 continuation — acquisition-type consistency audit
+- Rechecked all 283 canonical skills for acquisition-type/source-quest consistency.
+- No `quest_or_mission` record lacks `source_quest`; no non-quest acquisition record retains `source_quest`.
+- No further deterministic acquisition-type correction was found in this pass.
+- Next task: inspect canonical/index/schema consistency and then select the next evidence-backed enrichment cohort.
