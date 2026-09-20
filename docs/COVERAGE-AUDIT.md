@@ -3689,3 +3689,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: canonical skills JSON and skills index JSON parsed successfully after the edits. A live reward-gate consistency scan found no remaining true-flag records lacking Ultimate Finish evidence; known historical conflicts remain explicitly documented rather than flattened.
 - CI: latest push-triggered **Repository quality** and **Clean internal artifacts** runs for commit `4ab14c06054cabc29f851f0db0c89ac1f91e5ead` failed with a single job each and **no recorded steps/logs**. This matches the established opaque pre-step infrastructure/account failure pattern; validators were not weakened or bypassed.
 - Exact next task: recompute the live skill census and continue P1 skill provenance/consistency cleanup outside the now-closed generic PQ acquisition strings, prioritizing stale acquisition notes, DLC/free-update provenance, CaC scope, and any remaining evidence contradictions.
+
+## 2026-09-20 — stale reward-gate note cleanup (Chaotic Time Impact)
+- Re-audited canonical skill notes for explicit stale/incorrect reward-gate language after closing generic PQ acquisition strings.
+- Corrected **Chaotic Time Impact**: current PQ184 evidence places it in the **Basic Reward** pool, so `ultimate_finish_required` is now **false** and the stale note claiming an Ultimate Finish route was removed.
+- Preserved the separate race-scope uncertainty: `race_restriction` remains `null` rather than inferring a universal CaC scope.
+- Re-synchronized `docs/data/skills-index.json`.
+- Live canonical census remains **283 records**; exact-generic PQ acquisition census remains **0**.
+- Validation target for next pass: continue scanning explicit stale/incorrect notes and source conflicts, with priority on acquisition semantics and provenance rather than inventing unsupported quest or race data.
