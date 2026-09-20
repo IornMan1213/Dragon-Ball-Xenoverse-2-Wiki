@@ -29,8 +29,9 @@
       "name": "Become Giant",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
@@ -44,6 +45,7 @@
       "subcategory": "Race",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
@@ -57,8 +59,9 @@
       "name": "Power Pole Pro",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
@@ -70,8 +73,9 @@
       "name": "Purification",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Majin_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
@@ -83,8 +87,9 @@
       "name": "Super Saiyan",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
@@ -96,13 +101,15 @@
       "name": "Super Saiyan God",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God"
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God",
+        "https://dbxv2.fandom.com/wiki/Free_Update"
       ]
     },
     {
@@ -111,6 +118,7 @@
       "subcategory": "Race",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
@@ -126,6 +134,7 @@
       "subcategory": "Race",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
@@ -139,8 +148,9 @@
       "name": "Super Vegeta",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
@@ -152,8 +162,9 @@
       "name": "The Power to Overcome",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
@@ -166,8 +177,9 @@
       "name": "Turn Golden",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
@@ -179,8 +191,9 @@
       "name": "Beast",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
-      "research_status": "partially_enriched",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Beast",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
@@ -191,8 +204,9 @@
       "name": "Kaioken",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
-      "research_status": "partially_enriched",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kaioken",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
@@ -204,8 +218,9 @@
       "name": "Potential Unleashed",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
-      "research_status": "partially_enriched",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
@@ -216,20 +231,23 @@
       "name": "Pure Progress",
       "class": "Awoken",
       "subcategory": "Transformation",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Pure_Progress"
       ]
     },
     {
       "name": "Super Saiyan 2",
       "class": "Awoken",
       "subcategory": "Transformation",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://dbxv2.fandom.com/wiki/Super_Saiyan",
@@ -240,32 +258,37 @@
       "name": "Super Saiyan Blue Kaioken",
       "class": "Awoken",
       "subcategory": "Transformation",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_Blue_Kaioken"
       ]
     },
     {
       "name": "Supersonic Mode",
       "class": "Awoken",
       "subcategory": "Transformation",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Awoken_Skill"
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Supersonic_Mode"
       ]
     },
     {
       "name": "Ultra Instinct",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
-      "research_status": "partially_enriched",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
@@ -278,6 +301,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ]
@@ -288,6 +312,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Rush",
         "https://dragonball.fandom.com/wiki/Burst_Rush",
@@ -298,8 +323,9 @@
       "name": "Change The Future",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Change_the_Future_%28Parallel_Quest%29",
         "https://dragonball.fandom.com/wiki/Change_the_Future",
@@ -310,8 +336,9 @@
       "name": "Counter Burst",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -322,8 +349,9 @@
       "name": "Counter Impact",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Counter_Impact",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -334,8 +362,9 @@
       "name": "Demon Flash Strike",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flash_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -346,8 +375,9 @@
       "name": "Dimensional Hole",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dimensional_Hole",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
@@ -359,6 +389,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Flash_Fist_Crush",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -369,8 +400,9 @@
       "name": "God Breaker",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_Breaker",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -381,8 +413,9 @@
       "name": "Heroic Counter",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Counter",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -393,8 +426,9 @@
       "name": "Punisher Shield",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Punisher_Shield",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -407,6 +441,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Reverse_Mabakusenko",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -419,6 +454,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rough_Ranger",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -431,6 +467,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shadow_Crusher",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -443,6 +480,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sudden_Death_Beam",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -455,6 +493,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Afterimage",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -468,6 +507,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_God_Shock_Flash",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -480,6 +520,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Back_Breaker",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -492,6 +533,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Flash_Skewer",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -504,6 +546,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Jump_Spike",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -514,8 +557,9 @@
       "name": "Ultrasonic Blitz",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultrasonic_Blitz",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -526,8 +570,9 @@
       "name": "Absolute Zero",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Absolute_Zero",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -538,8 +583,9 @@
       "name": "Celestial Wave",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Celestial_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -549,8 +595,9 @@
       "name": "Dragon Burn",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Burn",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -561,8 +608,9 @@
       "name": "Explosive Wave",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Explosive_Wave",
         "https://dragonball.fandom.com/wiki/Explosive_Wave",
@@ -573,8 +621,9 @@
       "name": "Force Shield",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Force_Shield",
@@ -585,8 +634,9 @@
       "name": "Instant Rise",
       "class": "Evasive",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Instant_Rise",
@@ -597,8 +647,9 @@
       "name": "Ki Explosion",
       "class": "Evasive",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ki_Explosion",
@@ -609,8 +660,9 @@
       "name": "Maiden Burst",
       "class": "Evasive",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Maiden_Burst",
@@ -621,8 +673,9 @@
       "name": "Mighty Explosive Wave",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mighty_Explosive_Wave",
@@ -633,8 +686,9 @@
       "name": "Psychic Move",
       "class": "Evasive",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Psychic_Move",
@@ -645,8 +699,9 @@
       "name": "Punisher Guard",
       "class": "Evasive",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Punisher_Guard",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -657,8 +712,9 @@
       "name": "Side Bridge",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Side_Bridge",
@@ -669,8 +725,9 @@
       "name": "Spread Shot Retreat",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spread_Shot_Retreat",
@@ -681,8 +738,9 @@
       "name": "Steel Mirage",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Steel_Mirage",
@@ -693,8 +751,9 @@
       "name": "Final Pose",
       "class": "Evasive",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Pose",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -705,8 +764,9 @@
       "name": "Mach Dash",
       "class": "Evasive",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mach_Dash",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -719,8 +779,9 @@
       "name": "Angry Shout",
       "class": "Evasive",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Angry_Shout",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -731,8 +792,9 @@
       "name": "Energy Barrier",
       "class": "Evasive",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Barrier",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
@@ -744,8 +806,9 @@
       "name": "Spirit Explosion",
       "class": "Evasive",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Explosion",
@@ -756,8 +819,9 @@
       "name": "Spirit Slash",
       "class": "Evasive",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Spirit_Slash",
@@ -768,8 +832,9 @@
       "name": "Atomic Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Atomic_Blast",
@@ -782,6 +847,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ]
@@ -792,6 +858,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
       ]
@@ -800,8 +867,9 @@
       "name": "Big Bang Knuckle",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -813,8 +881,9 @@
       "name": "Blaster Ball",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -827,8 +896,9 @@
       "name": "Bluff Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
@@ -839,8 +909,9 @@
       "name": "Breaker Energy Wave",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Breaker_Energy_Wave",
@@ -851,8 +922,9 @@
       "name": "Burning Attack",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burning_Attack",
@@ -863,8 +935,9 @@
       "name": "Burst Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
@@ -877,6 +950,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Stinger",
@@ -888,8 +962,9 @@
       "name": "Buu Buu Ball",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball",
@@ -901,8 +976,9 @@
       "name": "Candy Beam",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Candy_Beam",
@@ -913,8 +989,9 @@
       "name": "Candy Beam (Super)",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
@@ -924,8 +1001,9 @@
       "name": "Crazy Finger Shot",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot",
@@ -938,8 +1016,9 @@
       "name": "Dark Inscription",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -950,8 +1029,9 @@
       "name": "Death Psycho Bomb",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Psycho_Bomb",
@@ -963,8 +1043,9 @@
       "name": "Demon Ray",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Ray",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -975,8 +1056,9 @@
       "name": "Destruction's Concerto: Comet",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Comet",
@@ -987,8 +1069,9 @@
       "name": "Destruction's Concerto: Starfall",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Starfall",
@@ -1001,6 +1084,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructo-Disc",
         "https://dbxv2.fandom.com/wiki/Krillin"
@@ -1010,8 +1094,9 @@
       "name": "Dimension Cannon",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dimension_Cannon",
@@ -1024,6 +1109,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Kamehameha",
         "https://dragonball.fandom.com/wiki/Perfected_Ultra_Instinct"
@@ -1033,8 +1119,9 @@
       "name": "Divine Spear",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -1046,6 +1133,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Double_Death_Slicer",
@@ -1056,8 +1144,9 @@
       "name": "Dust Attack",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Dust_Attack",
@@ -1070,6 +1159,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
@@ -1081,8 +1171,9 @@
       "name": "Emperor's Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Blast",
         "https://dragonball.fandom.com/wiki/Emperor%27s_Blast",
@@ -1093,8 +1184,9 @@
       "name": "Emperor's Cannon",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1105,8 +1197,9 @@
       "name": "Eraser Bomb",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Eraser_Bomb",
@@ -1117,8 +1210,9 @@
       "name": "Evil Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Blast",
@@ -1130,8 +1224,9 @@
       "name": "Evil Flame",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Flame",
@@ -1144,8 +1239,9 @@
       "name": "Final Cannon",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Final_Cannon",
@@ -1157,8 +1253,9 @@
       "name": "Final Flash (Super)",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash_(Super)",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -1168,8 +1265,9 @@
       "name": "Flash Chaser",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Flash_Chaser",
@@ -1184,6 +1282,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Galick_Gun",
         "https://dragonball.fandom.com/wiki/Galick_Gun"
@@ -1193,8 +1292,9 @@
       "name": "Gamma Blaster",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1206,8 +1306,9 @@
       "name": "Giant Cluster",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Giant_Cluster",
@@ -1220,6 +1321,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Charge",
@@ -1231,8 +1333,9 @@
       "name": "God of Destruction's Plaything",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Plaything",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -1242,8 +1345,9 @@
       "name": "God Punisher",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/God_Punisher",
@@ -1258,6 +1362,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Handy_Canon",
@@ -1269,8 +1374,9 @@
       "name": "Headshot",
       "class": "Evasive",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Headshot",
@@ -1282,8 +1388,9 @@
       "name": "Heat Wave",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1296,6 +1403,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Ill_Bomber",
@@ -1307,8 +1415,9 @@
       "name": "Ill Rain",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ill_Rain",
@@ -1319,8 +1428,9 @@
       "name": "Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kamehameha"
       ]
@@ -1331,6 +1441,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Masenko",
         "https://dragonball.fandom.com/wiki/Masenko"
@@ -1340,8 +1451,9 @@
       "name": "Paralysis",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Paralysis",
@@ -1352,8 +1464,9 @@
       "name": "Paralyze Beam",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Paralyze_Beam",
@@ -1366,6 +1479,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Pendulum_Bullet",
@@ -1378,6 +1492,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Perfect_Shot"
@@ -1387,8 +1502,9 @@
       "name": "Photon Swipe",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Photon_Swipe",
@@ -1401,8 +1517,9 @@
       "name": "Pretty Cannon",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Pretty_Cannon",
@@ -1416,6 +1533,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Raid_Blast",
@@ -1428,8 +1546,9 @@
       "name": "Ray Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Ray_Blast",
@@ -1441,8 +1560,9 @@
       "name": "Reverse Shot",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Reverse_Shot",
@@ -1454,8 +1574,9 @@
       "name": "Rolling Bullet",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Rolling_Bullet",
@@ -1466,8 +1587,9 @@
       "name": "Shine Shot",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Shine_Shot",
@@ -1478,8 +1600,9 @@
       "name": "Spirit Blaster",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Spirit_Blaster",
@@ -1493,6 +1616,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Spirit_Bomb"
@@ -1502,8 +1626,9 @@
       "name": "Spirit Pulse",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Pulse",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1516,6 +1641,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Stone_Bullet",
@@ -1529,6 +1655,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Donut_Volley",
@@ -1541,6 +1668,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Buu_Attack",
@@ -1554,6 +1682,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Vanishing_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1566,6 +1695,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Variable_Snipe_Shot",
@@ -1576,8 +1706,9 @@
       "name": "Victory Cannon",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Victory_Cannon",
@@ -1588,8 +1719,9 @@
       "name": "Wild Buster",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wild_Buster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1600,8 +1732,9 @@
       "name": "Afterimage",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "starting_move",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Afterimage"
@@ -1613,6 +1746,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
         "https://dragonball.fandom.com/wiki/Afterimage_Strike"
@@ -1624,6 +1758,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Assault_Vanish"
@@ -1635,6 +1770,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Burst_Charge",
@@ -1647,8 +1783,9 @@
       "name": "Charged Ki Wave",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave"
@@ -1660,6 +1797,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dragonball.fandom.com/wiki/Para_Para_Boogie",
         "https://dbxv2.fandom.com/wiki/Pan",
@@ -1670,8 +1808,9 @@
       "name": "Energy Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Charge"
       ]
@@ -1680,8 +1819,9 @@
       "name": "Energy Release",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Release",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -1691,8 +1831,9 @@
       "name": "Final Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "other_nonquest",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Charge",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge"
@@ -1702,8 +1843,9 @@
       "name": "Full Power Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Full_Power_Charge"
@@ -1713,8 +1855,9 @@
       "name": "Hero's Flute",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Hero%27s_Flute",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76050181",
@@ -1726,10 +1869,12 @@
       "name": "Instant Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "character_only",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Instant_Charge"
+        "https://dbxv2.fandom.com/wiki/Instant_Charge",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     },
     {
@@ -1738,6 +1883,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Instant_Transmission"
@@ -1749,6 +1895,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai"
@@ -1758,8 +1905,9 @@
       "name": "Maximum Charge",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Maximum_Charge"
@@ -1771,6 +1919,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
@@ -1782,6 +1931,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Phantom_Fist"
@@ -1793,6 +1943,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dragonball.fandom.com/wiki/Sleep",
@@ -1805,6 +1956,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dragonball.fandom.com/wiki/Rise_to_Action",
         "https://dbxv2.fandom.com/wiki/Rise_to_Action"
@@ -1814,8 +1966,9 @@
       "name": "Rising Rage",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Rising_Rage"
       ]
@@ -1826,6 +1979,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Shield_Barrier"
@@ -1837,6 +1991,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dragonball.fandom.com/wiki/Solar_Flare"
       ]
@@ -1847,6 +2002,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Spirit_Boost",
         "https://dragonball.fandom.com/wiki/Spirit_Boost",
@@ -1859,6 +2015,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Super_Guard"
@@ -1868,19 +2025,22 @@
       "name": "Surging Spirit",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "other_nonquest",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Surging_Spirit",
-        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ]
     },
     {
       "name": "Time Bullet",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Bullet",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -1892,6 +2052,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Time_Control",
@@ -1905,6 +2066,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Ultimate_Charge",
@@ -1918,6 +2080,7 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
       ]
@@ -1928,6 +2091,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Charge",
@@ -1938,8 +2102,9 @@
       "name": "Data Input",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Data_Input"
@@ -1951,6 +2116,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed"
@@ -1962,6 +2128,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Do_or_Die"
@@ -1973,6 +2140,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E"
@@ -1984,6 +2152,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_H"
@@ -1995,6 +2164,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_K"
@@ -2006,6 +2176,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -2020,6 +2191,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2032,6 +2204,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Pose",
@@ -2045,6 +2218,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Meditation",
@@ -2057,6 +2231,7 @@
       "subcategory": "Power Up",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Taunt"
@@ -2068,6 +2243,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -2080,6 +2256,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -2093,6 +2270,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dbxv2.fandom.com/wiki/Burning_Slash",
@@ -2106,6 +2284,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burning_Swan",
@@ -2118,6 +2297,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Blitz",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2128,8 +2308,9 @@
       "name": "Crimson Edge",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -2141,6 +2322,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers",
         "https://dbxv2.fandom.com/wiki/Deadly_Dance"
@@ -2152,6 +2334,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Slash",
@@ -2164,6 +2347,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demon_Flurry",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2176,6 +2360,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Demonic_Destruction",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2188,6 +2373,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Conductor",
@@ -2200,6 +2386,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Spark",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2212,6 +2399,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2225,6 +2413,7 @@
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -2234,20 +2423,24 @@
       "name": "Emperor's Edge",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Emperor's_Edge",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Emperor%27s_Edge",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
       "name": "Evil Flight Strike",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike",
@@ -2261,6 +2454,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Evil_Whirlwind",
@@ -2273,6 +2467,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fierce_Fist",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2283,8 +2478,9 @@
       "name": "Force Edge",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2297,6 +2493,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Freedom_Kick",
@@ -2309,6 +2506,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2321,6 +2519,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction's_Poise",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2333,6 +2532,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Assault",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2345,6 +2545,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Blade",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2357,6 +2558,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Drive",
@@ -2369,6 +2571,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Kick",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2381,6 +2584,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -2394,6 +2598,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mach_Punch",
@@ -2406,6 +2611,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Blow",
@@ -2418,6 +2624,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Meteor_Strike",
@@ -2430,6 +2637,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://dragonball.fandom.com/wiki/Demon_Hand",
@@ -2443,6 +2651,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
@@ -2455,6 +2664,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -2468,6 +2678,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -2481,6 +2692,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Pressure_Sign"
       ]
@@ -2491,6 +2703,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Recoome_Kick",
@@ -2503,6 +2716,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
@@ -2515,6 +2729,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -2528,6 +2743,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock",
@@ -2540,6 +2756,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Seagull_Combination",
@@ -2552,6 +2769,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dragonball.fandom.com/wiki/High_Strike",
@@ -2565,6 +2783,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shooting_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2577,6 +2796,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2589,6 +2809,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sonic_Bomb",
@@ -2601,6 +2822,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_God_Fist",
@@ -2613,6 +2835,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -2624,8 +2847,9 @@
       "name": "Wild Stinger",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -2637,6 +2861,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Zigzag_Express",
@@ -2650,6 +2875,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Apocalyptic_Burst",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2662,6 +2888,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Stream",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
@@ -2671,8 +2898,9 @@
       "name": "Burning Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2685,6 +2913,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage",
@@ -2697,6 +2926,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2710,6 +2940,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Circle_Flash",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2722,6 +2953,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2735,6 +2967,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://dbxv2.fandom.com/wiki/Death_Ball",
@@ -2747,6 +2980,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor",
@@ -2760,6 +2994,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Dimension_Ray",
@@ -2773,6 +3008,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -2784,6 +3020,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam",
         "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam",
@@ -2794,8 +3031,9 @@
       "name": "Energy Field",
       "class": "Evasive",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Energy_Field"
@@ -2807,6 +3045,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Explosion",
         "https://dragonball.fandom.com/wiki/Final_God_Explosion",
@@ -2817,8 +3056,9 @@
       "name": "Final Flash (SS3 DAIMA)",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Flash_%28SS3_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -2829,8 +3069,9 @@
       "name": "Final Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
         "https://dragonball.fandom.com/wiki/Final_Kamehameha",
@@ -2843,6 +3084,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Full_Power_Destruction",
         "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/81043121"
@@ -2854,6 +3096,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -2867,6 +3110,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Burst",
         "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
@@ -2878,6 +3122,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
@@ -2889,6 +3134,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Roar",
         "https://dragonball.fandom.com/wiki/Gigantic_Roar"
@@ -2900,6 +3146,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Menace",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -2912,6 +3159,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Roar",
         "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Roar"
@@ -2923,6 +3171,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Dome_Attack",
         "https://dragonball.fandom.com/wiki/Heat_Dome_Attack"
@@ -2934,6 +3183,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Holy_Wrath",
         "https://dragonball.fandom.com/wiki/Holy_Wrath"
@@ -2945,6 +3195,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Last_Emperor",
         "https://dragonball.fandom.com/wiki/Last_Emperor"
@@ -2956,6 +3207,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_Impact"
       ]
@@ -2966,6 +3218,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution",
         "https://dragonball.fandom.com/wiki/Lightning_of_Absolution"
@@ -2977,6 +3230,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Majin_Kamehameha",
@@ -2991,6 +3245,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mystic_Flash",
         "https://dragonball.fandom.com/wiki/Mystic_Flash"
@@ -3002,6 +3257,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Prominence_Flash",
         "https://dragonball.fandom.com/wiki/Prominence_Flash"
@@ -3013,6 +3269,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction",
         "https://dragonball.fandom.com/wiki/Requiem_of_Destruction"
@@ -3024,6 +3281,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -3036,6 +3294,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -3048,6 +3307,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -3060,6 +3320,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -3073,6 +3334,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Sign_of_Awakening",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3085,6 +3347,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)",
@@ -3097,6 +3360,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9",
@@ -3110,6 +3374,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3120,8 +3385,9 @@
       "name": "Super Kamehameha (SS4 DAIMA)",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
@@ -3131,8 +3397,9 @@
       "name": "Super Spirit Bomb",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
@@ -3143,8 +3410,9 @@
       "name": "Supernova",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://dragonball.fandom.com/wiki/Supernova"
@@ -3154,8 +3422,9 @@
       "name": "Teleporting Vanishing Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball",
@@ -3169,6 +3438,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Thunder_Flash",
         "https://dragonball.fandom.com/wiki/Thunder_Flash"
@@ -3180,6 +3450,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -3192,6 +3463,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
@@ -3204,6 +3476,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/X_100_Big_Bang_Kamehameha",
@@ -3217,6 +3490,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Blades_of_Judgment",
@@ -3229,6 +3503,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -3241,12 +3516,14 @@
       "name": "Darkness Rush (Melee)",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Melee%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
@@ -3255,11 +3532,13 @@
       "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Namekian_Skills",
         "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Ranged%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29"
+        "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
@@ -3268,6 +3547,7 @@
       "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Lasso",
         "https://dragonball.fandom.com/wiki/Divine_Lasso",
@@ -3280,6 +3560,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification",
@@ -3293,10 +3574,12 @@
       "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
         "https://dbxv2.fandom.com/wiki/Dragon_Fist",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
@@ -3305,6 +3588,7 @@
       "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Explosive_Buu_Buu_Punch",
@@ -3316,8 +3600,9 @@
       "name": "Final Rampage",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -3329,6 +3614,7 @@
       "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -3342,10 +3628,12 @@
       "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Godly_Display",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
@@ -3354,6 +3642,7 @@
       "subcategory": "Strike",
       "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -3368,6 +3657,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Saiyan_Spirit",
@@ -3381,6 +3671,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
@@ -3391,8 +3682,9 @@
       "name": "Supreme Fury",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -3404,6 +3696,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage"
@@ -3415,6 +3708,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -3426,6 +3720,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
