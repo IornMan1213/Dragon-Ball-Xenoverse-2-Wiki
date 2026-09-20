@@ -1881,8 +1881,9 @@
       ],
       "unlock_method": "Parallel Quest 05 - \"Saiyan Blood\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     },
     {
       "name": "Masenko",
@@ -2351,8 +2352,9 @@
       ],
       "unlock_method": "Parallel Quest 97 - \"Insidious Plot\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     },
     {
       "name": "Dancing Parapara",
@@ -3201,8 +3203,9 @@
       ],
       "unlock_method": "Parallel Quest 99 - \"Frieza Race Revivified\"; also available through TP Medal Shop rotation",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     },
     {
       "name": "Evil Flight Strike",
@@ -3307,7 +3310,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained."
+      "notes": " 2026-09-20 provenance audit: maintained PQ155 transcription lists Gamma Impact in Basic Reward, while dedicated evidence describes PQ155 acquisition without establishing an exclusive Ultimate Finish gate. Exact drop slot remains unresolved; canonical Basic Reward classification is retained. 2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     },
     {
       "name": "God of Destruction's Poise",
@@ -4278,7 +4281,8 @@
       "unlock_method": "Parallel Quest 20 - \"Frieza! Show Yourself!\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     },
     {
       "name": "Prominence Flash",
@@ -4294,7 +4298,8 @@
       "unlock_method": "Parallel Quest 137 - \"Tournament of Power Round 2\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     },
     {
       "name": "Requiem of Destruction",
@@ -4742,8 +4747,9 @@
       ],
       "unlock_method": "Parallel Quest 174 - Hyper Special Training reward; exact drop gating requires further reconciliation.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     },
     {
       "name": "Gigantic Rage",
@@ -4760,8 +4766,9 @@
       ],
       "unlock_method": "Parallel Quest 130 - Legendary Starving Saiyan Broly reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     },
     {
       "name": "Godly Display",
@@ -4897,7 +4904,8 @@
       "unlock_method": "Parallel Quest 89 - \"Super-Super Ultimate Series of Battles!\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization confirms the listed PQ as a skill-reward relationship; exact reward tier remains unresolved."
     }
   ]
 }
