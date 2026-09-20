@@ -3110,3 +3110,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - GitHub reports no combined status checks and no workflow runs for validator commit `4195b2585583bd7cd1b01c6b67cd1219515884c1`; do not claim CI passed.
 - Audit commit: `9f605aa16ce5409ae6b51ed05670637e0bc02a92`.
 - Next exact task: inspect `skills-index.json` against the newly added schema field and update the index/build pipeline if necessary so the normalized acquisition classification is consistently available to downstream consumers.
+
+
+### 2026-09-19 continuation — acquisition type propagated to index
+- Updated `scripts/build_skills_from_research.py` to classify and propagate `acquisition_type` into generated index records.
+- Updated `docs/data/skills-index.json` so all 283 records expose `acquisition_type`.
+- Made `acquisition_type` required in `docs/data/skills.schema.json`.
+- Updated `scripts/validate_skills.py` to compare `acquisition_type` between canonical and index records.
+- Live consistency check: **283/283 records**, **0 identity/order mismatches**, **0 mirrored-field mismatches**.
+- Commits: builder `60d588c0e3f0a5560c585eb516120f5ad6ebdc8e`; index `499859a528380b074b76d244f303c4c893f4e18e`; schema `7334a77f8fbf8108fe981f5c2a5c009486ba05cb`; validator `5b2920e176c132e9a38a86523a4742cf94dc1f3a`.
+- Next exact task: inspect the canonical schema versus the actual 283-record field set and upgrade `scripts/validate_skills.py` to perform real JSON Schema validation rather than only loading the schema and checking selected semantic fields.
