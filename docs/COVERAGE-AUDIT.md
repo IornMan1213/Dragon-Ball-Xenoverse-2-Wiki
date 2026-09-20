@@ -3192,3 +3192,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Reconciled four canonical mixed-route skills against PQ reward evidence and TP Medal Shop evidence: `Emperor's Blast` → PQ70 / TP Medal Shop; `Emperor's Edge` → PQ99 / TP Medal Shop; `Final Kamehameha` → PQ91 / TP Medal Shop / Double Crystal Raids; `X 100 Big Bang Kamehameha` → PQ100 / TP Medal Shop.
 - Verified PQ70, PQ91, PQ99, and PQ100 list the corresponding skills as Basic Rewards, so none requires an Ultimate Finish. 
 - Final Kamehameha and X 100 Big Bang Kamehameha TP Medal Shop availability is independently documented. 
+
+
+## 2026-09-19 — Sudden Death Beam acquisition-route normalization
+
+- Corrected `Sudden Death Beam` from a quest-based acquisition classification to `tp_medal_shop`.
+- Canonical provenance is now `TP Medal Shop / STP Medal Shop / Double Crystal Raid`, with no `source_quest`.
+- Current external evidence explicitly lists all three acquisition routes; no PQ provenance was inferred. 
