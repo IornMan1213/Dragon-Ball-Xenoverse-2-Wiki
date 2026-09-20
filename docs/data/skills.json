@@ -2238,14 +2238,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 24 reward.",
+      "unlock_method": "Parallel Quest 24 — Basic Reward",
       "source_quest_or_shop": "Parallel Quest 24",
       "ultimate_finish_required": false,
       "skill_description": "Double Death Slicer is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Double_Death_Slicer",
@@ -2254,7 +2254,7 @@
       "source_quest": 24,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source."
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Dust Attack",
@@ -2626,14 +2626,14 @@
       "ki_cost": 200,
       "stamina_cost": 300,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest 128 reward.",
+      "unlock_method": "Parallel Quest 128 — Basic Reward",
       "source_quest_or_shop": "Parallel Quest 128",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Charge is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
       "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Charge",
@@ -2641,7 +2641,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "source_quest": 128,
       "acquisition_type": "quest_or_mission"
     },
@@ -2858,7 +2858,7 @@
         "https://dbxv2.fandom.com/wiki/Kamehameha"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 05 - \"Saiyan Blood\"",
+      "unlock_method": "Parallel Quest 5 — \"Saiyan Blood\" Basic Reward",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Parallel Quest 05",
       "last_verified": "2026-09-20",
@@ -2869,7 +2869,7 @@
       "source_quest": 5,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Masenko",
@@ -3358,14 +3358,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 113 reward.",
+      "unlock_method": "Parallel Quest 113 — Basic Reward",
       "source_quest_or_shop": "Parallel Quest 113",
       "ultimate_finish_required": false,
       "skill_description": "Super Ghost Buu Attack is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ113. Five ghosts remain in place until launched by another input or after the automatic delay. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Buu_Attack",
@@ -3373,7 +3373,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "source_quest": 113,
       "acquisition_type": "quest_or_mission"
     },
@@ -3596,7 +3596,7 @@
         "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave"
       ],
       "ki_cost": 0,
-      "unlock_method": "Parallel Quest 97 - \"Insidious Plot\"",
+      "unlock_method": "Parallel Quest 97 — \"Insidious Plot\" Basic Reward",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3607,7 +3607,7 @@
       "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki.",
       "source_quest": 97,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate."
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Dancing Parapara",
@@ -3860,14 +3860,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 114",
+      "unlock_method": "Parallel Quest 114 — Basic Reward",
       "source_quest_or_shop": "Parallel Quest 114",
       "ultimate_finish_required": false,
       "skill_description": "Petrifying Spit is a Super Other skill associated with Dabura.",
       "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
@@ -3875,7 +3875,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114."
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Phantom Fist",
@@ -3887,18 +3887,18 @@
         "https://dbxv2.fandom.com/wiki/Phantom_Fist"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 97",
+      "unlock_method": "Parallel Quest 97 — \"Insidious Plot\" Basic Reward",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "PQ97",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 97,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97."
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Quick Sleep",
@@ -3999,7 +3999,7 @@
         "https://dragonball.fandom.com/wiki/Solar_Flare"
       ],
       "ki_cost": 100,
-      "unlock_method": "Parallel Quest 3 — \"World Tournament Tag Team\" reward.",
+      "unlock_method": "Parallel Quest 3 — \"World Tournament Tag Team\" Basic Reward",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -4010,7 +4010,7 @@
       "source_quest": 3,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one."
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Spirit Boost",
@@ -4120,7 +4120,7 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 18 reward.",
+      "unlock_method": "Parallel Quest 18 — Basic Reward",
       "source_quest_or_shop": "Parallel Quest 18",
       "ultimate_finish_required": false,
       "skill_description": "Time Control is a Super Skill that freezes an opponent in place; it is a 40% Ultimate Finish reward from Parallel Quest 18.",
@@ -4137,7 +4137,7 @@
       "source_quest": 18,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted."
+      "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Ultimate Charge",
@@ -4247,14 +4247,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 110 acquisition",
+      "unlock_method": "Parallel Quest 110 — Basic Reward",
       "source_quest_or_shop": "Parallel Quest 110",
       "ultimate_finish_required": false,
       "skill_description": "Divinity Unleashed is a Super Power Up skill associated with Zamasu.",
       "mechanics_notes": "Confirmed as Zamasu's 100-Ki Power Up Super from PQ110. Charging at least one full Ki bar activates a temporary effect that substantially increases Ki gained from attacks/charging; it is a CaC-usable charge skill. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed"
@@ -4262,7 +4262,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 110,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence."
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Do or Die",
@@ -4411,14 +4411,14 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Power Up",
-      "unlock_method": "Parallel Quest 185 reward.",
+      "unlock_method": "Parallel Quest 185 — \"A God's Amusement\" Basic Reward",
       "source_quest_or_shop": "PQ185 (also reported in PQ186 reward pool)",
       "ultimate_finish_required": false,
       "skill_description": "Chapter 4 power-management Super associated with Goku (Ultra Supervillain Quelled).",
       "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4429,7 +4429,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 185,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence."
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Justice Pose",
@@ -4473,10 +4473,10 @@
       ],
       "ki_cost": 0,
       "mechanics_notes": "Confirmed as a 0-Ki PQ122 Power Up Super usable by all CaC races. After activation it raises maximum Ki and provides automatic Ki recovery for about 20 seconds in current versions; its interactions with other reinforcement buffs are version-sensitive. UF audit 2026-09-19: acquisition evidence identifies Meditation as a random skill drop from Jiren in PQ122 rather than an Ultimate Finish-only reward; community reports conflict, but direct opponent-drop reports support non-UF gating.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "research_status": "enriched",
       "duration_seconds": 20,
-      "unlock_method": "Parallel Quest 122 reward.",
+      "unlock_method": "Parallel Quest 122 — Basic Reward",
       "source_quest": 122,
       "source_quest_or_shop": "Parallel Quest reward",
       "ultimate_finish_required": false,
@@ -4484,7 +4484,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route."
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Taunt",
@@ -4496,7 +4496,7 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 45 — \"Take Back the Dragon Balls!\" reward.",
+      "unlock_method": "Parallel Quest 45 — \"Take Back the Dragon Balls!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 45 — Take Back the Dragon Balls!",
       "ultimate_finish_required": false,
       "skill_description": "Taunt is a Super Power Up skill associated with Hercule.",
@@ -4511,7 +4511,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 45,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Taunt with PQ45, \"Take Back the Dragon Balls!\". The prior unlock text naming PQ20 was stale and has been replaced; the available condition remains reward-documented without an established exact drop tier or Ultimate Finish-only gate."
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Taunt with PQ45, \"Take Back the Dragon Balls!\". The prior unlock text naming PQ20 was stale and has been replaced; the available condition remains reward-documented without an established exact drop tier or Ultimate Finish-only gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Blazing Attack",
@@ -6252,14 +6252,14 @@
       "character_source": "SS3 Vegeta (DAIMA)",
       "dlc_requirement": "Dragon Ball DAIMA Pack",
       "ki_cost": "400+",
-      "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
+      "unlock_method": "Parallel Quest 181 — \"The Greatest Training Ever\" Basic Reward",
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": false,
       "mechanics_notes": "Base activation uses 400 Ki; holding the input while the attack lands spends additional available Ki for a power boost.",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "mechanics": "400 Ki base cost; while the attack lands, holding input can consume all additional available Ki for a major power boost.",
-      "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence.",
+      "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission"
@@ -6275,14 +6275,14 @@
         "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
       ],
       "ki_cost": 500,
-      "unlock_method": "TP Medal Shop / Parallel Quest 91 - \"Saiyan Revolt\" / Double Crystal Raids",
+      "unlock_method": "Parallel Quest 91 — \"Saiyan Revolt\" Basic Reward; also available through the TP Medal Shop and Double Crystal Raids",
       "source_quest_or_shop": "TP Medal Shop / Parallel Quest 91 / Double Crystal Raids",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "usable_by_cac": true,
       "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha.",
       "research_status": "enriched",
-      "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users.",
+      "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "race_restriction": "All CaC races",
       "source_quest": 91,
       "dlc_requirement": "Base Game",
@@ -6952,17 +6952,17 @@
       "character_source": "SS4 Goku (DAIMA)",
       "dlc_requirement": "Dragon Ball DAIMA Pack",
       "ki_cost": "400-500",
-      "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
+      "unlock_method": "Parallel Quest 181 — \"The Greatest Training Ever\" Basic Reward",
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\"",
       "ultimate_finish_required": false,
       "mechanics_notes": "Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for a 500 Ki total.",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Super Spirit Bomb",
