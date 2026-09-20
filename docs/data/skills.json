@@ -1851,10 +1851,10 @@
       "source_quest_or_shop": "Parallel Quest 136",
       "ultimate_finish_required": false,
       "skill_description": "Burst Stinger is a Super Ki Blast skill associated with Goku (Ultra Instinct).",
-      "mechanics_notes": "Current evidence confirms Burst Stinger as a 100-Ki Ki Blast Super from PQ136, with Ultimate Finish required in the dataset's acquisition record. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Burst Stinger as a 100-Ki Ki Blast Super from PQ136. Maintained PQ136 data documents a 25% first-clear reward slot; no Ultimate Finish-only gate is established.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Stinger",
@@ -1864,7 +1864,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "PQ136 reward evidence lists Burst Stinger under Basic Reward, not as an Ultimate Finish-only reward. Character-source evidence identifies Burst Stinger as a signature Super Attack of Vegeta (Super Saiyan God); the earlier Goku (Ultra Instinct) attribution was tied to an unsupported character-drop interpretation and is not retained."
+      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents Burst Stinger in a 25% first-clear slot, not an Ultimate Finish-only slot."
     },
     {
       "name": "Buu Buu Ball",
@@ -2297,9 +2297,9 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 11 — \"Burst Open and Mix!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 11",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
-      "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11, with Ultimate Finish required in the existing acquisition record. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current reward-table evidence explicitly lists Earth Splitting Galick Gun under Basic Reward rather than an Ultimate Finish-only slot.",
+      "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11. Maintained PQ11 data documents a 50% Ultimate Finish roll for the skill; the separate Basic Reward listing is preserved as source evidence rather than treated as an exclusive gate. No narrower CaC race/gender/form restriction is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -2312,7 +2312,7 @@
       "source_quest": 11,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: current reward-table evidence places Earth Splitting Galick Gun in the Basic Reward pool; the prior Ultimate Finish flag was stale."
+      "notes": "2026-09-20 source reconciliation: maintained PQ11 data documents a 50% Ultimate Finish roll for Earth Splitting Galick Gun; the Basic Reward-list placement is retained as source metadata, so the canonical gate follows the explicit drop condition."
     },
     {
       "name": "Emperor's Blast",
@@ -3075,9 +3075,9 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 136 — \"Breaking Down The Barrier\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 136",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Raid Blast is a Super Ki Blast skill used by Super Saiyan God Vegeta.",
-      "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. The dataset's existing Ultimate Finish requirement is retained. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence. Current reward-table evidence explicitly lists Raid Blast under Basic Reward rather than an Ultimate Finish-only slot.",
+      "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. Maintained PQ136 data documents a 25% Ultimate Finish slot. Future Warrior technique-list evidence establishes CaC usability; no narrower CaC race/gender/form restriction is identified.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -3091,7 +3091,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: current reward-table evidence places Raid Blast in the Basic Reward pool; the prior Ultimate Finish flag was stale."
+      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish slot for Raid Blast; the prior Basic Reward classification was stale."
     },
     {
       "name": "Ray Blast",
@@ -4123,10 +4123,10 @@
       "source_quest_or_shop": "Parallel Quest 18",
       "ultimate_finish_required": false,
       "skill_description": "Time Control is a Super Skill that freezes an opponent in place; it is a 40% Ultimate Finish reward from Parallel Quest 18.",
-      "mechanics_notes": "Confirmed as Guldo's 100-Ki Other Super from PQ18, requiring the Ultimate Finish reward. It temporarily freezes the opponent in place.",
+      "mechanics_notes": "Confirmed as Guldo's 100-Ki Other Super from PQ18. Current maintained PQ18 data lists Time Control in the Basic Reward section, while exact reward-slot probability remains unresolved; no Ultimate Finish-only gate is established.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Time_Control",
@@ -4136,7 +4136,7 @@
       "source_quest": 18,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ18; no Ultimate Finish-only condition is established for this record."
+      "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted."
     },
     {
       "name": "Ultimate Charge",
@@ -4524,9 +4524,9 @@
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest 136 — \"Breaking Down the Barrier\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 136",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Blazing Attack is a Super Strike skill associated with Goku (Ultra Instinct).",
-      "mechanics_notes": "Confirmed as Goku (Ultra Instinct)'s 100-Ki Strike Super from PQ136 Ultimate Finish. It is a close-range martial-arts strike that can be extended with additional input. Current evidence supports CaC usability without a narrower race/gender/form restriction. PQ136 current reward evidence lists Burst Stinger, Raid Blast, and Blazing Attack under Basic Reward. Community reports describing Blazing Attack as an Ultimate Finish drop conflict with the maintained reward table; the canonical record follows the explicit reward-tier listing.",
+      "mechanics_notes": "Confirmed as a 100-Ki Strike Super from PQ136. Maintained PQ136 data documents a 25% Ultimate Finish bonus slot. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -4538,7 +4538,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: current maintained PQ136 reward tables place Blazing Attack in the Basic Reward pool; the separate Ultimate Finish requirement is not an acquisition gate for this skill."
+      "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish bonus slot for Blazing Attack; the prior Basic Reward classification was stale."
     },
     {
       "name": "Brave Sword Slash",
@@ -5973,9 +5973,9 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 184 — Basic Reward",
       "source_quest_or_shop": "PQ184",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Chaotic Time Impact is a Ki Blast Ultimate Attack used by Golden Frieza (Ultra Supervillain).",
-      "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest; maintained reward data records a 50% Ultimate Finish bonus reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-20 reconciliation: PQ184 reward evidence identifies Chaotic Time Impact as a 50% Ultimate Finish bonus reward, resolving the earlier Basic-vs-UF conflict in favor of UF gating.",
+      "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest; maintained reward data records a 50% Ultimate Finish bonus reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -5986,7 +5986,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 184,
-      "notes": "2026-09-20 source reconciliation: current PQ reward evidence explicitly places this skill in the Basic Reward pool. The prior note claiming an Ultimate Finish route was stale; the canonical acquisition is now treated as Basic Reward, with no Ultimate Finish-only gate asserted. Race scope remains unresolved.",
+      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved.",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission"
     },
@@ -6030,9 +6030,9 @@
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest 158 — \"Beat Bulma's Minions!\" Basic Reward",
       "source_quest_or_shop": "PQ158",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Core Breaker is a Ultimate Ki Blast skill used by Gamma 2.",
-      "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can randomly obtain it from PQ158; the PQ Ultimate Finish conditions are documented. CaC race/gender scope is not explicitly stated, so race_restriction remains null. 2026-09-20 verification: current skill page explicitly identifies PQ158 as the unlock and Ultimate Finish as required; it classifies Core Breaker as a Strike Ultimate.",
+      "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can obtain it from PQ158; maintained PQ158 data documents a 40% Ultimate Finish bonus roll. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "verified",
       "research_status": "verified",
       "last_verified": "2026-09-20",
@@ -6045,7 +6045,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 source reconciliation: current PQ reward evidence explicitly places this skill in the Basic Reward pool; the Ultimate Finish flag is stale."
+      "notes": "2026-09-20 source reconciliation: current PQ158 reward data documents a 40% Ultimate Finish bonus slot; the prior Basic Reward classification was stale."
     },
     {
       "name": "Death Ball",
@@ -7515,7 +7515,7 @@
       "source_quest_or_shop": "Parallel Quest 31",
       "ultimate_finish_required": false,
       "skill_description": "Super Dragon Flight is an Ultimate Strike skill associated with Gohan (Adult); it is a 35% Ultimate Finish reward from Parallel Quest 31.",
-      "mechanics_notes": "300 Ki Strike Ultimate. PQ31 is the documented Ultimate Finish reward; the current repository records the quest's transformation/kill-order Ultimate Finish requirement. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Super Dragon Flight. Current Xenoverse 2 PQ31 evidence lists Super Dragon Flight as a Basic Reward; the third win condition is defeating revived Gohan, not a separate Ultimate Finish-only acquisition gate.",
+      "mechanics_notes": "300 Ki Strike Ultimate. PQ31 is the documented acquisition quest. Maintained PQ31 data lists Super Dragon Flight in the Basic Reward section, so no separate Ultimate Finish-only acquisition gate is established.",
       "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -7527,7 +7527,7 @@
       "source_quest": 31,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: Xenoverse 2 PQ31 lists Super Dragon Flight in the Basic Reward pool; the Ultimate Finish flag was stale."
+      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale."
     },
     {
       "name": "Supreme Fury",
