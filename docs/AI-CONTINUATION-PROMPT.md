@@ -2879,3 +2879,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Completed 10 clearly documented non-PQ acquisition routes. Skills commit: `cb87d6ef475dd615fd8fecfc8ad4cff78196f64d`; coverage audit commit: `c8783d44eb8c2ca937de16551c83fe7c9f1da2d0`.
 - Live census: 283 records; `source_quest` null on 69 records.
 - Next task: continue the canonical-route census with **Masenko (Gohan (Kid) mentor training, School Quest Lesson 2), Perfect Shot (Cell mentor training), Spirit Bomb (Goku mentor training), Dancing Parapara (Pan mentor training), Energy Charge (first Advancement Test), Full Power Charge (Advanced Class Advancement Test), Instant Transmission (Goku mentor Lesson 1), Maximum Charge (God Class Advancement Test), Rise to Action (Krillin mentor training), and Time Bullet (story-gated Skill Shop route)**. Keep generic shop-only and character-exclusive records null unless a quest/test route is explicitly documented.
+
+
+### 2026-09-19 continuation — canonical quest provenance batch 16
+- Completed 16 documented mentor, Advancement Test, Expert Mission, and School Quest routes. Skills commit: `23054aac366122bac2652477489ad305e6bf7a98`; coverage audit commit: `ecf9e035c94a88dff2d962d397cf41fb55a43538`.
+- Live census: 283 records; `source_quest` null on 53 records.
+- Next task: inspect remaining nulls for other explicitly named quest/test routes. Prioritize named Story/Expert/School/Advancement routes and mentor lessons where the acquisition is unambiguous; leave generic shop-only, character-exclusive, multi-source, and unresolved PQ-drop records null.
