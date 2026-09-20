@@ -2945,3 +2945,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Resolved **Final Pose → PQ74** from the maintained PQ reward guide, which explicitly lists it as a PQ74 reward. Skills commit: `62d434b84aecf89d5f408b0c024243aff6714e24`; coverage commit: `7f0bf99403128b13c9f0c3d7860104d28fc6669d`.
 - Live census: 283 records; `source_quest` null on 34 records.
 - Next: continue searching remaining nulls for direct quest reward listings, while retaining nulls for genuinely multi-source or character-only records.
+
+
+### 2026-09-19 continuation — explicit Explosive Wave PQ reward batch 26
+- Resolved **Explosive Wave → PQ05** from explicit PQ reward evidence. Skills commit: `53ca434c6573151b3e5b2bf8f9a061f21d2db072`; coverage commit: `d58bda9afda56c0a413d56e3017f0506ebf64187`.
+- Live census: 283 records; `source_quest` null on 33 records.
+- Next: continue targeted searches for remaining null skills that have a concrete PQ reward listing, without replacing multi-source or character-only provenance.
