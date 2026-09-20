@@ -2913,16 +2913,18 @@
     {
       "name": "Powered Shell",
       "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dbxv2.fandom.com/wiki/Powered_Shell",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20",
+      "damage_type": "Ki Blast"
     },
     {
       "name": "Pressure Sign",
@@ -2941,41 +2943,44 @@
       "name": "Recoome Kick",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Recoome_Kick",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Sauzer Blade",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Savory Slicer",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dbxv2.fandom.com/wiki/Savory_Slicer",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Scissors Paper Rock",
