@@ -70,8 +70,9 @@
     "2026-09-19: Reconciled PQ135/PQ136/PQ167 reward evidence. Lovely Cyclone and Burning Swan remain verified on concrete PQ sources; Blazing Attack retains unresolved UF gating because the evidence confirms PQ136/RNG but does not establish that the skill specifically requires the Ultimate Finish.",
     "2026-09-19: Verified Mach Punch (PQ19), Dragon Spark (PQ177), and Justice Drive (PQ168) from explicit current PQ/skill-page acquisition evidence. No unsupported Ultimate Finish-only requirements were added.",
     "2026-09-19: Verified Death Slash (PQ23), Double Death Slicer (PQ24), and Freedom Kick (PQ29) from explicit live PQ reward listings; no unsupported Ultimate Finish-only requirements added.",
-    "2026-09-19: Verified Burst Blitz (PQ178), Gamma Impact (PQ155), and Meteor Blow (PQ9; also starting close-up fighting-style choice) from explicit current acquisition evidence. No unsupported Ultimate Finish-only requirements added."
+    "2026-09-19: Verified Burst Blitz (PQ178), Gamma Impact (PQ155), and Meteor Blow (PQ9; also starting close-up fighting-style choice) from explicit current acquisition evidence. No unsupported Ultimate Finish-only requirements added.",
+    "2026-09-19: Verified Pressure Sign as a Skill Shop acquisition. Current Fandom skill page lists Skill Shop as the unlock; Dragon Ball Wiki independently documents the Xenoverse 2 Skill Shop route, and a current GameFAQs reference also identifies the Skill Shop route. No Ultimate Finish requirement applies."
   ],
-  "partially_verified_count": 66,
-  "verified_count": 138
+  "partially_verified_count": 65,
+  "verified_count": 139
 }
