@@ -3617,3 +3617,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Canonical generic-PQ census should now be recomputed from the live file rather than assumed from the previous 46-record count.
 - No reward probability was inferred: Basic Reward identifies the reward tier, not an empirical drop percentage.
 - Next: continue the generic PQ acquisition audit in quest order, moving to the next unresolved records after PQ46 and preserving explicit random/UF/source-conflict evidence.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 12
+- Refined eight generic skill acquisition records from maintained PQ reward data: **Burning Attack (PQ41), Majin Kamehameha (PQ60), Recoome Kick (PQ61), Scissors Paper Rock (PQ65), Super God Fist (PQ67), Last Emperor (PQ71), Warp Kamehameha (PQ76), Saiyan Spirit (PQ84)**.
+- Each is recorded as a **Basic Reward** route and remains `ultimate_finish_required=false`; no drop percentage was inferred from reward-tier placement.
+- Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
+- Live generic PQ acquisition census after this batch: **34** exact generic `Parallel Quest reward` / `Random Parallel Quest reward` records.
+- Next quest-order frontier: **Zigzag Express (PQ85), Neo Wolf Fang Fist (PQ86), Dimension Ray (PQ98), Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Super Black Kamehameha Rosé (PQ109), Holy Wrath (PQ111)**.
