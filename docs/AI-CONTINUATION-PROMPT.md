@@ -3262,3 +3262,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index: **283 records**, exact parity preserved, UF count **60**, zero remaining PQ-formatted strings in `source_quest`.
 - Commits: `21b70af1677724e81cfe3dbad49cf38cc469c513` and `1c5ce0a27a4a538a76ece00484381e9eecae9d31`.
 - Exact next task: **continue provenance cleanup for remaining quest-or-mission skills with vague, conflicting, or incomplete concrete reward-source wording; preserve uncertainty and source conflicts.**
+
+
+### 2026-09-20 cycle update — generic PQ reward-tier refinement
+- Refined 16 generic PQ acquisition records to explicit `Basic Reward` wording where maintained PQ reward batches directly support that tier; no Ultimate Finish gates were inferred.
+- Canonical/index remain **283**, exact parity preserved, UF count **60**.
+- Commits: `d0918167ed467edf45f4758293b4f5634ec76af8` and `2e4b62206bc2f2e4e23569f8026d8004bdcf01fb`.
+- Exact next task: **audit remaining vague PQ records, especially Thunder Flash/PQ146, and resolve/document the Emperor's Cannon PQ183/PQ184 provenance conflict using maintained evidence.**
