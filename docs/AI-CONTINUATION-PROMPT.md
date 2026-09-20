@@ -2823,3 +2823,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `15f4426e56268d41e3deb456619dd7ef47314007`, `c5fc07873e090b03d01c1d99c30abfb299c9eb5a`, `a10821e77591e175e51d5dedef85e353c3e4632c`.
 - Exact next task: audit the remaining **Kaioken** and **Power Rush** records for acquisition wording/provenance consistency, then run a final canonical/index synchronization and stale-gate census before moving to the next audit category.
+
+
+### 2026-09-20 cycle update — final UF validation / next audit category
+- Revalidated the only remaining `ultimate_finish_required=true` records: **Kaioken** (PQ8 Ultimate Finish) and **Power Rush** (PQ122 Ultimate Finish). No canonical changes were necessary. citeturn0search3turn0search1turn0search5
+- Live census remains **283 records / 78 `verified_current_scope` / 2 UF=true**.
+- Updated `docs/COVERAGE-AUDIT.md` with the validation and the next research frontier: generic `quest_or_mission` unlock wording among current-scope PQ skills.
+- Coverage audit commit: `0139b924a4128189212412b30bdab036232efd44`.
+- Exact next task: start reconciling generic PQ unlock wording for current-scope records, prioritizing **Mighty Explosive Wave, Side Bridge, Steel Mirage, and Demon Ray**. Do not invent reward tiers when sources do not establish them.
