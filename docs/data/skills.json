@@ -2076,10 +2076,10 @@
       "source_quest_or_shop": "Parallel Quest 104",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Comet is a Super Ki Blast skill associated with Vados.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Destruction's Concerto: Comet as a 100–200 Ki Ki Blast Super from PQ104. It creates a slow-moving tracking sphere; Destruction's Conductor can accelerate it and enable the multi-hit behavior. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current dedicated evidence confirms the 100–200 Ki Ki Blast Super classification and PQ104 provenance; the variable cost reflects the move's charge/input behavior and is retained rather than normalized to a single unsupported value.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Comet",
@@ -4074,11 +4074,11 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races while using Ultra Instinct",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "source_quest_or_shop": "Character-exclusive",
-      "mechanics_notes": "Charge/action associated with Ultra Instinct Goku variants; current versions allow CaCs to access the technique through Ultra Instinct's built-in action. Current evidence documents N/A unlock and access only as an Ultra Instinct built-in CaC action; it is not an Ultimate Finish reward.",
+      "mechanics_notes": "Current evidence documents Surging Spirit as an Ultra Instinct built-in CaC action rather than a separately acquired equipable skill; its N/A unlock route is therefore retained.",
       "acquisition_type": "other_nonquest",
-      "notes": ""
+      "notes": "Built-in Ultra Instinct action; not a separately acquired equipable skill."
     },
     {
       "name": "Time Bullet",
@@ -4095,13 +4095,14 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Skill Shop",
-      "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
-      "last_verified": "2026-09-19",
+      "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after the Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "source_quest": null,
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: CaC-accessible Skill Shop Super; not character-exclusive.",
+      "character_source": null
     },
     {
       "name": "Time Control",
@@ -4881,13 +4882,14 @@
       "unlock_method": "N/A — character-only skill; unavailable for CaC",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
-      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "last_verified": "2026-09-20",
+      "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; the prior all-CaC-races classification was incorrect.",
       "source_quest_or_shop": "Character skill",
-      "race_restriction": "Character-only",
+      "race_restriction": null,
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: character-exclusive Omega Shenron skill; unavailable to CaCs.",
+      "character_source": "Omega Shenron"
     },
     {
       "name": "Emperor's Edge",
@@ -5803,10 +5805,10 @@
       "source_quest_or_shop": "Parallel Quest 172",
       "ultimate_finish_required": false,
       "skill_description": "Wild Stinger is a Super Strike skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
-      "mechanics_notes": "Official DLC description confirms the core move behavior; exact numeric costs/damage remain unverified. UF audit 2026-09-19: the maintained PQ guide explicitly lists this skill in the quest's Basic Reward section, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
+      "mechanics_notes": "Official DLC material confirms the core move behavior; exact numeric cost remains unverified, so the current 100-Ki record should not be treated as authoritative without stronger evidence.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
