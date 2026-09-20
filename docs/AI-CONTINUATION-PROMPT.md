@@ -3246,3 +3246,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: the pre-cycle aa70adb6dd3d0b8c9b850f8d22fb43e926a6bb8e push triggered Repository quality and cleanup runs that failed with no recorded job steps; this remains the documented infrastructure/account failure pattern. Validators were not weakened.
 - Commits: canonical skill data fe2350af85edee8087d91a143cfb4fac8c888a27, 90838348eda25ce0efae55c52167a9099bcdcd1d, 1fd53d0f57802ebfd73d23bca5c888386e86f350, a9e19c0ccbd9b2c95017edf938915700e2c34975; synchronized index 48902d9b6d0083748ae1260f4ae7d85c300e71ed, 7503dccb29f9ce04dfb4cc0cf0fc3f1820f7f981, cdaa3bfa40a99170a694be44069414d56342223d, f31331041eb63fd179a6200a92c10f3d0e996564; audit 83838f22d153a9fa13e90d0065688170387d9d72.
 - Exact next task: **recompute the live generic PQ census and continue quest-order provenance cleanup for the remaining generic records, prioritizing cases where current maintained reward tables or independent sources can distinguish Basic Reward, first-clear, normal-clear, Ultimate Finish, or a documented source conflict.**
+
+
+### 2026-09-20 cycle update — generic PQ provenance normalization continuation
+- Corrected stale quest relationships: **Solar Flare → PQ3 "World Tournament Tag Team"** and **Taunt → PQ45 "Take Back the Dragon Balls!"** based on maintained PQ reward-batch relationships.
+- Normalized exact quest-title wording for 15 additional generic non-UF records: Vanishing Ball, Afterimage Strike, Kai Kai, Charge, Do or Die, Fighting Pose H, Justice Pose, Burning Slash, Evil Flight Strike, Evil Whirlwind, Shining Slash, Divine Wrath: Purification, Explosive Buu Buu Punch, Gigantic Rage, and Victory Rush. Their exact reward tiers remain unresolved; no UF gate was inferred.
+- Canonical/index remain **283 records**, exact parity preserved, UF count **60**, and no internal citation artifacts detected.
+- Files changed: docs/data/skills.json, docs/data/skills-index.json, docs/COVERAGE-AUDIT.md, and this handoff.
+- Commits: 6fedf7406a146addf1e1a09aa01b2af163aa2337, a7b4dc4346fd6033eb12fa4f6212c7c83fe62a11, 4c8ce69cdd8a864ab239c31ea11df11f1f5f6033, 297f9ad4eb1b8e3d8aaffeda7cccd460647a1d31, plus this audit/handoff update.
+- Exact next task: **continue the generic PQ census for remaining quest-or-mission skill records, prioritizing stale quest-number/title mismatches and then records where independent maintained sources establish an exact reward tier. Preserve documented source conflicts and unresolved probabilities.**
