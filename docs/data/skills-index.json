@@ -1180,7 +1180,8 @@
       ],
       "last_verified": "2026-09-19",
       "ultimate_finish_required": false,
-      "unlock_method": "Parallel Quest 24 reward."
+      "unlock_method": "Parallel Quest 24 reward.",
+      "notes": "2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source."
     },
     {
       "name": "Dust Attack",
@@ -2517,7 +2518,8 @@
       ],
       "last_verified": "2026-09-19",
       "unlock_method": "Parallel Quest reward",
-      "ultimate_finish_required": false
+      "ultimate_finish_required": false,
+      "notes": "2026-09-19 verification: The live all-PQ reward guide lists Death Slash as a Basic Reward for PQ23. This is an explicit concrete PQ source."
     },
     {
       "name": "Demon Flurry",
@@ -2699,7 +2701,8 @@
       ],
       "last_verified": "2026-09-19",
       "unlock_method": "Parallel Quest reward",
-      "ultimate_finish_required": false
+      "ultimate_finish_required": false,
+      "notes": "2026-09-19 verification: The live all-PQ reward guide lists Freedom Kick as a Basic Reward for PQ29. This is an explicit concrete PQ source."
     },
     {
       "name": "Gamma Impact",
