@@ -1704,14 +1704,14 @@
       "ki_cost": "100-500",
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 125 — \"Proof's in the Potara\" reward",
       "source_quest_or_shop": "Parallel Quest 125",
       "ultimate_finish_required": false,
       "skill_description": "Blaster Ball is a Super Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Dedicated current-version evidence confirms Blaster Ball as a 100–500 Ki Ki Blast Super from PQ125. Repeated input extends the barrage up to 13 total hits. No unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability and no narrower CaC race/gender/form restriction is established; no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1722,7 +1722,7 @@
       "source_quest": 125,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: dedicated skill documentation confirms PQ125 acquisition. The inspected current sources establish the quest but do not provide a sufficiently direct reward-tier citation, so the record remains generic rather than asserting Basic or Ultimate Finish."
     },
     {
       "name": "Bluff Kamehameha",
@@ -1734,14 +1734,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Random reward from Parallel Quest 94 — \"Ultimate Power, Ultimate Saiyan\"",
       "source_quest_or_shop": "Parallel Quest 94",
       "ultimate_finish_required": false,
       "skill_description": "Bluff Kamehameha is a Super Ki Blast skill associated with Hercule.",
       "mechanics_notes": "Current evidence confirms Bluff Kamehameha as a 100-Ki Ki Blast Super from PQ94. It is a deceptive Kamehameha-style projectile; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
@@ -1750,7 +1750,7 @@
       "source_quest": 94,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: dedicated skill documentation and Dragon Ball technique documentation explicitly describe Bluff Kamehameha as randomly obtained from PQ94; no specific Basic/Ultimate Finish tier is inferred."
     },
     {
       "name": "Breaker Energy Wave",
@@ -1762,14 +1762,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 101 — \"Seeking Fighters for Tournament\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 101",
       "ultimate_finish_required": false,
       "skill_description": "Breaker Energy Wave is a Super Ki Blast skill associated with Hit.",
       "mechanics_notes": "Current evidence confirms Breaker Energy Wave as a 100-Ki Ki Blast Super from PQ101. It is a close/medium-range energy-wave attack associated with Hit; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Breaker_Energy_Wave",
@@ -1778,7 +1778,7 @@
       "source_quest": 101,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: the maintained PQ101 reward guide explicitly lists Breaker Energy Wave as a Basic Reward, matching the dedicated skill page's PQ101 acquisition."
     },
     {
       "name": "Burning Attack",
@@ -1819,14 +1819,14 @@
       "ki_cost": "100-200",
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 72 — \"First Training\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 72",
       "ultimate_finish_required": false,
       "skill_description": "Burst Kamehameha is a Super Ki Blast skill associated with Goku.",
       "mechanics_notes": "Dedicated current-version evidence confirms Burst Kamehameha as a 100–200 Ki Ki Blast Super from PQ72. A second input spends additional Ki to prolong the beam and increase damage; no unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Burst_Kamehameha",
@@ -1835,7 +1835,7 @@
       "source_quest": 72,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: the maintained PQ72 reward listing explicitly includes Burst Kamehameha as a Basic Reward; dedicated skill documentation confirms PQ72."
     },
     {
       "name": "Burst Stinger",
