@@ -3675,3 +3675,17 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Corrected **Chaotic Time Impact** to match its reconciled PQ184 evidence: **50% Ultimate Finish bonus reward**, with `ultimate_finish_required=true`.
 - Updated **Circle Flash** notes to reflect the already-established PQ154 40% Ultimate Finish bonus roll instead of saying its gating remained unresolved.
 - Updated **Sonic Bomb** notes so the unresolved portion is limited to exact probability/mechanics; its Basic Reward classification is now treated as resolved.
+
+
+## 2026-09-20 — generic PQ acquisition closure and reward-gate consistency audit
+- Refined the final two exact-generic PQ acquisition records from the live canonical skill census:
+  - **Lightning Impact** → PQ142 — *Timespace Tussle*, Basic Reward.
+  - **Blaster Stream** → PQ148 — *Finding Out About Fusion*, Basic Reward.
+- Evidence: the maintained Steam all-PQ guide explicitly lists Lightning Impact under PQ142 Basic Reward and Blaster Stream under PQ148 Basic Reward. No Ultimate Finish requirement was inferred.
+- Corrected a separate reward-gate inconsistency found during the same live-file audit: **Demon Ray** is a PQ160 Ultimate Finish bonus route, so `ultimate_finish_required` is now `true`; the maintained PQ160 data records a 50% Ultimate Finish bonus roll.
+- Re-synchronized `docs/data/skills-index.json`; canonical dataset remains **283 records**.
+- Live exact-generic acquisition census after this pass: **0** records using the exact strings `Parallel Quest reward` or `Random Parallel Quest reward`.
+- The repository still preserves historical/source conflicts where they exist; no PQ141–150 quest records were fabricated.
+- Validation: canonical skills JSON and skills index JSON parsed successfully after the edits. A live reward-gate consistency scan found no remaining true-flag records lacking Ultimate Finish evidence; known historical conflicts remain explicitly documented rather than flattened.
+- CI: latest push-triggered **Repository quality** and **Clean internal artifacts** runs for commit `4ab14c06054cabc29f851f0db0c89ac1f91e5ead` failed with a single job each and **no recorded steps/logs**. This matches the established opaque pre-step infrastructure/account failure pattern; validators were not weakened or bypassed.
+- Exact next task: recompute the live skill census and continue P1 skill provenance/consistency cleanup outside the now-closed generic PQ acquisition strings, prioritizing stale acquisition notes, DLC/free-update provenance, CaC scope, and any remaining evidence contradictions.
