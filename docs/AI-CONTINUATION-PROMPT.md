@@ -3448,3 +3448,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Verified **Charge (PQ83), Justice Pose (PQ53), Meditation (PQ122), and Taunt (PQ20)** from current PQ/skill documentation.
 - Canonical/index/audit synchronized.
 - Next: continue deterministic acquisition verification through the remaining partial cohort.
+
+
+### 2026-09-19 continuation — explicit PQ-page verification
+- Verified **Justice Blade (PQ152), Evil Whirlwind (PQ36), and Fierce Fist (PQ159)** from explicit current skill-page unlock fields.
+- Ultimate Finish was set false because those pages specify PQ unlocks without an UF-only condition.
+- Canonical/index/audit synchronized.
+- Next: continue the remaining partial cohort, prioritizing explicit unlock fields and resolving conflicting Ultimate Finish evidence separately.
