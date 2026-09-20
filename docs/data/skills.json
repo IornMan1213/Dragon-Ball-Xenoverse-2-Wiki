@@ -4832,7 +4832,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Dragon Spark is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4843,7 +4843,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: The current skill page explicitly states Dragon Spark is unlocked from Parallel Quest 177, \"Warped Sense of Justice.\" This establishes the concrete PQ source without asserting an Ultimate Finish-only gate."
     },
     {
       "name": "Dragon Spiral",
@@ -5207,7 +5207,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 168,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
+      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established. 2026-09-19 verification: Steam's live all-PQ guide lists Justice Drive as a Basic Reward for PQ168 (Videl: Super Mom), matching the repository's PQ reward attribution."
     },
     {
       "name": "Justice Kick",
@@ -5281,7 +5281,7 @@
       "ultimate_finish_required": false,
       "skill_description": "Mach Punch is a Super Strike skill associated with Burter.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -5292,7 +5292,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: Steam's live all-PQ guide lists Mach Punch as a Basic Reward for PQ19 (Fierce Battle! Ginyu Force), matching the existing repository acquisition record."
     },
     {
       "name": "Meteor Blow",
