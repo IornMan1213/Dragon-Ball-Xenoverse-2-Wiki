@@ -43,6 +43,10 @@ def main():
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
   if r.get('acquisition_type') not in ALLOWED_ACQUISITION:errors.append(f"{r.get('name')}: invalid acquisition_type {r.get('acquisition_type')}")
+  acquisition=r.get('acquisition_type'); has_quest=r.get('source_quest') not in (None,'')
+  if acquisition=='quest_or_mission' and not has_quest:errors.append(f"{r.get('name')}: quest_or_mission acquisition requires source_quest")
+  if acquisition!='quest_or_mission' and has_quest:errors.append(f"{r.get('name')}: non-quest acquisition cannot have source_quest")
+  if acquisition in {'skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'} and not r.get('source_quest_or_shop'):errors.append(f"{r.get('name')}: {acquisition} acquisition requires source_quest_or_shop")
   uf=r.get('ultimate_finish_required')
   if uf not in (None,True,False):
    errors.append(f"{r.get('name')}: invalid ultimate_finish_required value")
