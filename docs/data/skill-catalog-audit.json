@@ -67,8 +67,9 @@
     "2026-09-19: Verified Death Slash, Demon Flurry, Demonic Destruction, and Freedom Kick using the existing explicit skill-page/reference corpus; no UF-only condition was established, so Ultimate Finish flags were retained as false.",
     "2026-09-19: Verified Brave Sword Slash, Destruction's Conductor, Dragon Spiral, Heroic Assault, Justice Drive, and Justice Kick from current skill-page/reference acquisition evidence; no exclusive Ultimate Finish condition established.",
     "2026-09-19: Verified Blazing Attack as the PQ136 Ultimate Finish reward and Burning Swan as a PQ167 reward. Blazing Attack's UF requirement is supported by multiple independent reports; Burning Swan has no UF-only condition established.",
-    "2026-09-19: Reconciled PQ135/PQ136/PQ167 reward evidence. Lovely Cyclone and Burning Swan remain verified on concrete PQ sources; Blazing Attack retains unresolved UF gating because the evidence confirms PQ136/RNG but does not establish that the skill specifically requires the Ultimate Finish."
+    "2026-09-19: Reconciled PQ135/PQ136/PQ167 reward evidence. Lovely Cyclone and Burning Swan remain verified on concrete PQ sources; Blazing Attack retains unresolved UF gating because the evidence confirms PQ136/RNG but does not establish that the skill specifically requires the Ultimate Finish.",
+    "2026-09-19: Verified Mach Punch (PQ19), Dragon Spark (PQ177), and Justice Drive (PQ168) from explicit current PQ/skill-page acquisition evidence. No unsupported Ultimate Finish-only requirements were added."
   ],
-  "partially_verified_count": 71,
-  "verified_count": 133
+  "partially_verified_count": 69,
+  "verified_count": 135
 }
