@@ -296,7 +296,7 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "other_nonquest",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ]
@@ -384,7 +384,7 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "other_nonquest",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Flash_Fist_Crush",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
