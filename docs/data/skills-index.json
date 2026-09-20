@@ -527,12 +527,14 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Counter",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Heroic_Counter"
       ],
       "unlock_method": "Parallel Quest 155 — \"I Need a Hero... Pose!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance audit: maintained PQ155 reward transcription lists Heroic Counter in the Basic Reward pool, while Dragon Ball Wiki describes it as a random Future Warrior acquisition from PQ155. The exact slot/gate remains unresolved; canonical Basic Reward classification is retained without asserting an Ultimate Finish-only requirement."
     },
     {
       "name": "Punisher Shield",
