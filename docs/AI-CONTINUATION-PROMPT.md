@@ -2622,3 +2622,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Normalized those unlock strings to explicitly include the corresponding PQ number. Celestial Wave and the already-known PQ151 reward were aligned to PQ151; no source IDs were changed.
 - Steam's PQ guide independently confirms PQ151's reward list includes Celestial Wave and PQ73's reward list includes Psychic Move. - Skill-data commit: `174a1601b91a3aecbd277bd1115b58115c615389`.
 - Next task: run a full artifact-hygiene search and re-census the 78 current-scope records, checking for any remaining source/unlock mismatches.
+
+
+### 2026-09-20 cycle update — artifact hygiene and census refresh
+- Searched `docs/data/skills.json`, `docs/data/skill-catalog-audit.json`, and this handoff for internal assistant artifacts (`filecite`, `memcite`, `turn*search`, `turn*file`, `tool-result`). The audit and handoff contained stale internal markers; those markers were removed. `skills.json` contained none.
+- Re-ran the current-scope census: **78** `verified_current_scope` records remain. The current source-quest normalization leaves **21** current-scope records with null `source_quest`, reflecting non-quest/progression/built-in acquisition routes rather than missing quest mappings.
+- External evidence continues to confirm PQ151's Celestial Wave reward, supporting the earlier unlock-text normalization. citeturn0search0turn0search2
+- No further skill-data edit was made during this cycle after the prior quest alignment; artifact cleanup was the repository change.
+- Next task: review the cleaned audit/handoff content for accidental loss from marker removal, then perform the final current-scope consistency sweep.
