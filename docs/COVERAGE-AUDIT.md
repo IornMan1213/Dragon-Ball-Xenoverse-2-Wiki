@@ -3604,3 +3604,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Evidence limitation: the recorded percentages are the current maintained PQ reward-slot values; they are not presented as independently measured empirical probabilities. No unsupported prerequisite was added.
 - Artifact cleanup: removed legacy ChatGPT/internal citation markup from this audit file; repository files must contain ordinary source URLs/prose only.
 - Next: continue the remaining generic PQ acquisition records in quest order, prioritizing known PQs whose live reward tables can distinguish Basic, random, and Ultimate Finish provenance.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 11
+- Refined four base-game generic acquisition records using the maintained PQ batch reward sections:
+  - **Unrelenting Barrage** → PQ10 — *Saiyan Survivors*, Basic Reward.
+  - **Sauzer Blade** → PQ27 — *Metal Cooler Riot*, Basic Reward.
+  - **Heat Dome Attack** → PQ40 — *The Future Warriors!*, Basic Reward.
+  - **Chain Destructo-Disc Barrage** → PQ46 — *16 of the Official History*, Basic Reward.
+- All four remain explicitly **not Ultimate Finish-gated** in canonical skill data because the maintained reward tables place them in Basic Reward sections.
+- Re-synchronized `docs/data/skills-index.json`; dataset remains **283 records**.
+- Canonical generic-PQ census should now be recomputed from the live file rather than assumed from the previous 46-record count.
+- No reward probability was inferred: Basic Reward identifies the reward tier, not an empirical drop percentage.
+- Next: continue the generic PQ acquisition audit in quest order, moving to the next unresolved records after PQ46 and preserving explicit random/UF/source-conflict evidence.
