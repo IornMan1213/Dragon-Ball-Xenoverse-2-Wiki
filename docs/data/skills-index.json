@@ -3003,10 +3003,11 @@
         "https://dbxv2.fandom.com/wiki/Burning_Swan",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 167 reward",
+      "unlock_method": "Parallel Quest 167 — \"Fighting for Family\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": " 2026-09-20 provenance refinement: maintained PQ167 data explicitly lists Burning Swan as a Basic Reward and separately records a 45% normal-clear reward condition; dedicated skill documentation describes it as a random PQ167 drop. The evidence supports a non-Ultimate-Finish acquisition, while exact random-slot semantics remain unresolved."
     },
     {
       "name": "Burst Blitz",
