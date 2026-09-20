@@ -264,3 +264,8 @@
 - Re-verified **Skill Research Batch 17** and found five proven corrections: **Heat Dome Attack** now points to PQ40; **Freedom Kick** to PQ29; **Rolling Bullet** is a Ki Blast Evasive from PQ42 rather than a Strike Super; **Super Drain** is a Skill Shop skill after *A Desperate Future* and transfers two stamina bars; and **Justice Pose** is from PQ53 with a documented 20-second all-stat boost.
 - Added correction batch `docs/data/skill-research-batches/skill-batch-35.json` so the historical Batch 17 remains auditable while the canonical builder can apply the corrected fields.
 - Preserved the pre-existing **Skill Research Batch 18** unchanged after detecting that an attempted continuation used the already-assigned batch number; the new five-record research was moved to **Batch 19** instead of overwriting historical research.
+
+
+## September 2026 — Skill DLC provenance correction
+- Corrected **Evil Blast (PQ114)** and **Evil Flame (PQ117)** to **Extra Pack 1** provenance.
+- The prior combined DLC label was broader than the maintained PQ/DLC mapping; no other skill metadata was changed.
