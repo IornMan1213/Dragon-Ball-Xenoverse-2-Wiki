@@ -3455,3 +3455,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Ultimate Finish was set false because those pages specify PQ unlocks without an UF-only condition.
 - Canonical/index/audit synchronized.
 - Next: continue the remaining partial cohort, prioritizing explicit unlock fields and resolving conflicting Ultimate Finish evidence separately.
+
+
+### 2026-09-19 continuation — PQ skill verification
+- Verified **Death Slash, Demon Flurry, Demonic Destruction, and Freedom Kick** from the existing explicit skill-page/reference corpus.
+- No Ultimate Finish-only condition was established, so those flags remain false.
+- Canonical/index/audit synchronized.
+- Next: continue remaining partial records; keep conflicting or insufficiently explicit drop-gating evidence unresolved rather than guessing.
