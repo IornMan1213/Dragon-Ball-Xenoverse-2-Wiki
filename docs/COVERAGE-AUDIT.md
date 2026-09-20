@@ -3171,3 +3171,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - `Super Guard`: classified as `starting_move` with no quest ID; its provenance retains both the starting fighting-style route and Skill Shop availability.
 - `Time Bullet`: classified as `skill_shop` with no quest ID; its unlock route is the Skill Shop after defeating Kid Buu in the main story.
 - Independent public references support these routes; no quest reward or Ultimate Finish requirement was invented.
+
+
+## 2026-09-19 — Future Saga Chapter 1 PQ provenance normalization
+
+- Reconciled four character-only Future Saga Chapter 1 skills to their exact basic-reward PQs using the maintained all-PQ reward guide: Crimson Edge and Divine Spear → PQ171; Big Bang Knuckle and Wild Stinger → PQ172.
+- Replaced ambiguous `PQ171 / PQ172` provenance strings with numeric canonical `source_quest` IDs and exact PQ route labels.
+- Corrected Big Bang Knuckle's stale skill-description label from Ki Blast to Strike, matching its canonical class and official move description.
