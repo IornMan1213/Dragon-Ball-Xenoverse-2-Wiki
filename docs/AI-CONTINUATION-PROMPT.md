@@ -3435,3 +3435,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Fighting Pose K and Shield Barrier were already verified in earlier cycles and were not modified.
 - Canonical/index synchronized; no Ultimate Finish-only requirement assigned without explicit evidence.
 - Next: continue deterministic acquisition verification through the remaining partial cohort.
+
+
+### 2026-09-19 continuation — four-record acquisition verification
+- Verified **Reverse Mabakusenko** (Skill Shop), **Instant Transmission** (Goku Lesson 1), **Deadly Dance** (Android 18 training), and **Burning Slash** (PQ44).
+- Ultimate Finish flags were deliberately left unchanged where the cited evidence did not prove an exclusive UF requirement.
+- Canonical/index/audit synchronized.
+- Next: continue deterministic acquisition verification through the remaining partial cohort.
