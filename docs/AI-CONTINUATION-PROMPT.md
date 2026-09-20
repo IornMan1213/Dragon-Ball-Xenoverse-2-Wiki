@@ -2878,3 +2878,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `24c8f78e26e2db4868d6b342a1c42b7eea54a16d` (canonical refinements), `843456d5433122cd234e4514a67d24321ff9f387` (index sync), `7c74419c8613f3510cc19cd1cd42f968d82c82b6` (coverage audit).
 - Evidence rule followed: no unsupported reward tier or drop probability was inferred; where sources only established the quest number, the record stays explicitly generic.
 - Exact next task: continue remaining generic PQ acquisition records, prioritizing known quest numbers with unresolved reward tiers, then records with explicit source conflicts.
+
+
+### 2026-09-20 cycle update — PQ reward-tier refinement batch 2
+- Refined **Dimensional Hole** to PQ80 Basic Reward, **God Breaker** to random reward from PQ44, **Heroic Counter** to PQ155 Basic Reward, and **Punisher Shield** to PQ129 Basic Reward.
+- Re-synchronized `docs/data/skills-index.json` from canonical `skills.json`; 283 records remain.
+- Commits: `917fae74777ee426d6ff7c52f6a06dad2070e803` (canonical refinements), `6e74e2fe0f0e2165e12d8b198c4fdd3519ac79f5` (index sync), `e3ffc9da0810afe43f4b37d62394c3f30ac1e7fa` (coverage audit).
+- Evidence rule: reward tiers are only asserted where current/maintained reward listings support them; God Breaker remains explicitly random because its dedicated source says random and the inspected PQ44 Basic Reward table does not list it.
+- Exact next task: continue remaining generic PQ records, prioritizing base-game entries where maintained reward tables can distinguish Basic Reward from random/Ultimate Finish provenance.
