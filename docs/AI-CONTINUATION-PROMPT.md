@@ -2787,3 +2787,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `e6cf43c75731a6c53f4fa6af03bde4bbf9e59ba3`, `4c20ab2d793447f6ac539a565b1ebac1524eab4b`, `1ac10ef8bb010484ef673f0fbfd7d42a14b3301c`.
 - Exact next task: audit remaining acquisition-type and reward-gate inconsistencies, especially multi-source PQ/TP Medal Shop records and `ultimate_finish_required` values, while preserving unresolved evidence conflicts.
+
+
+### 2026-09-20 cycle update — Lovely Cyclone reward-gate correction
+- Corrected **Lovely Cyclone** `ultimate_finish_required` from `true` to `false`; the repository's reconciled PQ135 evidence places it in the Basic Reward pool and does not establish an Ultimate Finish-only gate.
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `5d3777ff2729d42c86bf2aa5436b86a127fcef12`, `2ad9ac722d9071209c51d09274a1f4ae969e9e64`, `771e887531da3d4a50dfb1545a00f0703b123f73`.
+- Exact next task: continue auditing the remaining `ultimate_finish_required=true` records whose unlock text is generic or whose evidence is internally inconsistent; only flip gates when repository/source evidence establishes the correct reward tier.
