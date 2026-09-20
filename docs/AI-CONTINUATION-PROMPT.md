@@ -3120,3 +3120,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Live consistency check: **283/283 records**, **0 identity/order mismatches**, **0 mirrored-field mismatches**.
 - Commits: builder `60d588c0e3f0a5560c585eb516120f5ad6ebdc8e`; index `499859a528380b074b76d244f303c4c893f4e18e`; schema `7334a77f8fbf8108fe981f5c2a5c009486ba05cb`; validator `5b2920e176c132e9a38a86523a4742cf94dc1f3a`.
 - Next exact task: inspect the canonical schema versus the actual 283-record field set and upgrade `scripts/validate_skills.py` to perform real JSON Schema validation rather than only loading the schema and checking selected semantic fields.
+
+
+### 2026-09-19 continuation — real JSON Schema validation
+- Confirmed the schema declares every field currently present in the 283 canonical records.
+- Added the six previously undeclared-but-used fields: `description`, `duration_seconds`, `ki_cost_note`, `mechanics`, `notes`, and `race_restrictions`.
+- Updated `scripts/validate_skills.py` to validate every record with `jsonschema.Draft202012Validator`.
+- The validator now fails explicitly when the `jsonschema` dependency is unavailable.
+- Runtime validation was not executed in this session because direct GitHub network access from the container is unavailable and the repository has no reported workflow run/status check for these commits.
+- Commits: schema `27e8d73e6c442fdb98a7808f35b61e1310e141df`; validator `996df0cf516d71b5ba091d788b7edbe28b70f672`; correction `1cf129e85f8adf459d9a82efe6f7b7eef91a1e26`.
+- Next exact task: inspect repository dependency/workflow configuration for `jsonschema`; if absent, add a minimal pinned development dependency and CI validation workflow so the new schema validation actually runs on GitHub.
