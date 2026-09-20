@@ -3583,3 +3583,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **160 verified / 44 partially verified** across 283 records.
 - Next task: continue the remaining 44 partial records, with Sonic Bomb still explicitly retained as a drop-condition conflict requiring separate reconciliation.
+
+
+### 2026-09-20 continuation — four acquisition verifications
+- Promoted **Core Breaker (PQ158)**, **Death Ball (Frieza mentor training)**, **Destruction's Concerto: Meteor (PQ106)**, and **Dimension Ray (PQ98)** to verified. Current skill pages explicitly document the acquisition sources and classifications. Core Breaker explicitly requires the PQ158 Ultimate Finish; this requirement is now retained as documented rather than inferred. citeturn1search0turn1search2turn1search10turn1search1turn1search7
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **164 verified / 40 partially verified** across 283 records.
+- Next task: continue the remaining 40 partial records, checking explicit acquisition pages first and preserving documented UF/drop requirements exactly where current evidence establishes them.
