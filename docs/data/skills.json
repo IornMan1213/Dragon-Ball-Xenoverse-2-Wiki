@@ -1876,14 +1876,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 88 — \"A Destructive Duo! Majin Buu & Janemba!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 88",
       "ultimate_finish_required": false,
       "skill_description": "Buu Buu Ball is a Super Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "Current evidence confirms Buu Buu Ball as a 100-Ki Ki Blast Super from PQ88. The existing explicit Pure Majin-form restriction is retained.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball",
@@ -1893,7 +1893,7 @@
       "source_quest": 88,
       "race_restriction": "Majin (Pure Majin form)",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ88 reward listings explicitly place Buu Buu Ball in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Candy Beam",
@@ -1905,14 +1905,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 66 — \"Majin Revival\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 66",
       "ultimate_finish_required": false,
       "skill_description": "Candy Beam is a Super Ki Blast skill associated with Majin Buu.",
       "mechanics_notes": "Current evidence confirms the base Candy Beam record as a 100-Ki Ki Blast Super from PQ66. The current record's explicit Majin CaC restriction is retained; the 200-Ki Candy Beam (Super) variant is a separate skill entry.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Candy_Beam",
@@ -1921,7 +1921,7 @@
       "source_quest": 66,
       "race_restriction": "Majin",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ66 reward listings explicitly place Candy Beam in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Candy Beam (Super)",
@@ -1933,14 +1933,14 @@
       "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 113 — \"The Majin Revival Plan\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 113",
       "ultimate_finish_required": false,
       "skill_description": "Candy Beam (Super) is a Super Ki Blast skill associated with Majin Buu (Gohan Absorbed).",
       "mechanics_notes": "Dedicated current-version evidence confirms Candy Beam (Super) as a 200-Ki Ki Blast Super from PQ113. It transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage; the existing all-CaC-races restriction is retained.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
@@ -1948,7 +1948,7 @@
       "source_quest": 113,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ113 reward listings explicitly place Candy Beam (Super) in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Crazy Finger Shot",
@@ -1960,13 +1960,13 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 26 — \"The New Dragon Balls!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 26",
       "skill_description": "Crazy Finger Shot is a Super Ki Blast skill associated with Frieza.",
       "mechanics_notes": "Dedicated current-version evidence confirms Crazy Finger Shot as a 100-Ki Ki Blast Super from PQ26. Holding the input extends the attack to up to 14 blasts, consuming up to 800 Ki total; existing all-CaC-races restriction retained.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot",
@@ -1978,7 +1978,7 @@
       "source_quest": 26,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ26 reward listings explicitly place Crazy Finger Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Dark Inscription",
@@ -2018,14 +2018,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 33 — \"Dangerous Duo! Warriors Never Rest\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 33",
       "ultimate_finish_required": false,
       "skill_description": "Death Psycho Bomb is a Super Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "Dedicated current-version evidence confirms Death Psycho Bomb as a 100-Ki Ki Blast Super from PQ33. It is a psychic grab/trap that catches the opponent and causes an explosion; existing all-CaC-races restriction retained.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Death_Psycho_Bomb",
@@ -2035,7 +2035,7 @@
       "source_quest": 33,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ33 reward listings explicitly place Death Psycho Bomb in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Demon Ray",
@@ -2103,14 +2103,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 104 — \"Vados the Talent Scout\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 104",
       "ultimate_finish_required": false,
       "skill_description": "Destruction's Concerto: Starfall is a Super Ki Blast skill associated with Vados.",
       "mechanics_notes": "Current evidence confirms Destruction's Concerto: Starfall as a Vados Super Skill obtainable from PQ104; it creates two energy spheres and can interact with Destruction's Conductor. No unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Starfall",
@@ -2119,7 +2119,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 104 — Vados the Talent Scout",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ104 reward listings explicitly place Destruction's Concerto: Starfall in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Destructo-Disc",
@@ -2515,14 +2515,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 138 — \"Tournament of Destroyers\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 138",
       "ultimate_finish_required": false,
       "skill_description": "Flash Chaser is a Super Ki Blast skill associated with Kefla.",
       "mechanics_notes": "Current evidence confirms Flash Chaser as a 100-Ki Ki Blast Super from PQ138. It is associated with Kefla; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Flash_Chaser",
@@ -2533,7 +2533,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 138",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: PQ138 reward listings explicitly place Flash Chaser in the Basic Reward pool; no Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Galick Gun",
@@ -2568,14 +2568,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Random reward from Parallel Quest 155 — \"I Need a Hero... Pose!\"",
       "source_quest_or_shop": "PQ155",
       "ultimate_finish_required": false,
       "skill_description": "Gamma Blaster is a Super Ki Blast skill used by Gamma 2.",
       "mechanics_notes": "Current evidence confirms Gamma Blaster as a 100-Ki Ki Blast Super from PQ155. The existing random-PQ acquisition record is retained; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2585,7 +2585,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 155",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ155 and describes Gamma Blaster as a random Parallel Quest reward; no specific Basic/Ultimate Finish tier is inferred."
     },
     {
       "name": "Giant Cluster",
