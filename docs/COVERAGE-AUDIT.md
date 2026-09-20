@@ -3657,3 +3657,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Preserved the maintained corpus' explicit percentages for PQ160/PQ164/PQ177; no probability was inferred for Venus Fist.
 - Numbering-gap policy remains unchanged: PQ141-PQ150 are not manufactured as records because the maintained reconciliation marks that range as a numbering gap.
 - Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
+
+
+## 2026-09-20 — PQ154 gating reconciliation
+- Corrected **Circle Flash** and **Sign of Awakening** from generic Random Parallel Quest labels to the maintained **PQ154 Ultimate Finish bonus slot (40%)** route.
+- Evidence: `docs/data/parallel-quest-research-batches/pq-batch-15.json` explicitly lists both skills under PQ154 `skill_rewards` with 40% Ultimate Finish bonus-roll conditions.
+- This removes an ambiguity rather than inventing a probability; both records now set `ultimate_finish_required=true`.
