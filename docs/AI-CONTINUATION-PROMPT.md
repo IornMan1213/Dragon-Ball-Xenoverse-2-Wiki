@@ -2821,3 +2821,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 - Live skills census at handoff: 283 records; `source_quest` is null on 191 records.
 - Exact next bounded batch: Spirit Pulse (PQ151), Stone Bullet (PQ56), Super Donut Volley (PQ55), Super Ghost Buu Attack (PQ113), Vanishing Ball (PQ58), Variable Snipe Shot (PQ165), Wild Buster (PQ153), Afterimage Strike (PQ81), Assault Vanish (PQ131), and Charged Ki Wave (PQ97). Skip ambiguous multi-PQ/character-only reward-context records unless new evidence establishes one canonical quest.
+
+
+### 2026-09-19 continuation — source quest provenance batch 7
+- Completed the ten-item bounded batch from the previous handoff: Spirit Pulse (PQ151), Stone Bullet (PQ56), Super Donut Volley (PQ55), Super Ghost Buu Attack (PQ113), Vanishing Ball (PQ58), Variable Snipe Shot (PQ165), Wild Buster (PQ153), Afterimage Strike (PQ81), Assault Vanish (PQ131), and Charged Ki Wave (PQ97).
+- Skills commit: `a1bd01ea42ca66a7937406383fa3cd5eaf600331`.
+- Coverage audit commit: `e7d53222fb51009b6fae91e5bf06e9d3391f31df`.
+- Live census after batch: 283 records; `source_quest` null on 181 records.
+- Next task: inspect the remaining null records for explicit single-quest identifiers in `source_quest_or_shop` / `unlock_method`, prioritizing records with a concrete `Parallel Quest <number>` string and skipping generic/random or multi-PQ-only metadata.
