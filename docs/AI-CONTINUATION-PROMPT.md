@@ -3449,3 +3449,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - The workflow definitions themselves were inspected. The artifact checker scans tracked text files and correctly rejects assistant citation/tool-result artifacts; the cleanup workflow is intentionally configured to remove them and then verify the tree.
 - Latest commits: handoff cleanup `8e43bfafeb9c2fe8878ecbda52304834efd0df15`; audit cleanup `a64619e04363fea54f6119380b3c61dc14cc493e`.
 - Next task: inspect the newest Actions runs after these cleanup commits, verify whether the artifact/quality failures clear, then perform a final repository-wide artifact audit before resuming remaining data-quality work.
+
+
+### 2026-09-20 cycle update — post-cleanup Actions verification
+- The tracked assistant citation markup was removed from the two files where this continuation workflow had introduced it. Direct content checks now show no citation UI spans or tool-result identifiers in the handoff or skill audit.
+- The next `Clean internal artifacts` run (`35487157005`) and `Wiki data audit` run (`35487157049`) still ended in failure, but the connected GitHub job API returns `steps: null` and `logs_url: null` for both jobs. This means the available integration cannot establish that the repository content is the cause; GitHub's documented job/log endpoints normally expose step diagnostics when accessible. 
+- Workflow definitions were inspected and left unchanged. No validation gate was weakened.
+- Next task: continue with substantive repository data-quality priorities rather than repeatedly editing workflows without diagnostics; revisit Actions when step/log access becomes available.
