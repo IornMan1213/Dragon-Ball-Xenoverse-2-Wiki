@@ -4196,12 +4196,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 83 reward.",
       "source_quest_or_shop": "Parallel Quest 83",
       "ultimate_finish_required": false,
       "skill_description": "Charge is a Super Power Up skill associated with Goku.",
       "mechanics_notes": "Confirmed as Goku's 100-Ki Power Up Super from PQ83. It is an early/intermediate Ki charging skill; detailed reward-roll conditions remain less certain than the PQ identity. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4212,7 +4212,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 83,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 83 as the acquisition route."
     },
     {
       "name": "Data Input",
@@ -4441,12 +4441,12 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 53 reward.",
       "source_quest_or_shop": "Parallel Quest 53",
       "ultimate_finish_required": false,
       "skill_description": "Justice Pose is a Super Power Up skill associated with Great Saiyaman.",
       "mechanics_notes": "Confirmed as Great Saiyaman's 0-Ki PQ53 Power Up Super, usable by all CaC races. It boosts all stats for 20 seconds. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4459,13 +4459,13 @@
       "race_restriction": "All CaC races",
       "source_quest": 53,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route."
     },
     {
       "name": "Meditation",
       "class": "Super",
       "subcategory": "Power Up",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Meditation",
@@ -4476,7 +4476,7 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "duration_seconds": 20,
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 122 reward.",
       "source_quest": 122,
       "source_quest_or_shop": "Parallel Quest reward",
       "ultimate_finish_required": false,
@@ -4484,7 +4484,7 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route."
     },
     {
       "name": "Taunt",
@@ -4496,12 +4496,12 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 20 reward.",
       "source_quest_or_shop": "Parallel Quest 45",
       "ultimate_finish_required": false,
       "skill_description": "Taunt is a Super Power Up skill associated with Hercule.",
       "mechanics_notes": "Confirmed as Hercule's 0-Ki Power Up Super from PQ45. The user performs a taunting pose that can draw opponent attention; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4511,7 +4511,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 45,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 20 as the acquisition route."
     },
     {
       "name": "Blazing Attack",
