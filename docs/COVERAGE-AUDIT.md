@@ -3104,3 +3104,13 @@ Validator commit: `7e35b13efb5dc3f747d5ba66c18239c760540a7f`.
 - Added `Transformation` to the schema enum and validator allow-list so the declared canonical model matches the live dataset.
 - No factual skill values were changed.
 - Next deterministic check: audit category/subcategory relationships and CaC eligibility for impossible combinations, while preserving legitimate Awoken transformation records separately from the 15 canonical parent Transformation count.
+
+
+## 2026-09-19 — skill class/subcategory semantic invariants
+
+- Recomputed the live 283-record skill census and checked every class/subcategory combination.
+- All records conform to the intended class model: Super/Ultimate/Evasive use only combat-element subcategories; Awoken uses Race or Transformation; Counter uses Counter; Mixed uses Special.
+- All 15 canonical Awoken/Race records are CaC-usable and have explicit race restrictions.
+- Every `Character-only` restriction is paired with `usable_by_cac=false`; no contradiction was found.
+- Added these deterministic invariants to `scripts/validate_skills.py`. No factual skill records were changed.
+- Source provenance scan also found zero malformed source URLs and zero duplicate source entries in the 283 records.
