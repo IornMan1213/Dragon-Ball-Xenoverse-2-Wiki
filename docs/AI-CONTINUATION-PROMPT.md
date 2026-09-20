@@ -3041,3 +3041,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Live census: **283 skills; 12 null `dlc_requirement`; 31 null `source_quest`**.
 - Remaining nulls: Energy Release, Instant Charge, Rising Rage, Spirit Boost, Time Bullet, Fighting Pose K, Dragon Thunder, Namek Finger, Final Kamehameha, Divine Lasso, Dragon Fist, Godly Display.
 - Next exact task: verify dated introduction/update evidence for those 12; preserve nulls where only current shop availability or character association is known.
+
+
+### 2026-09-19 continuation — launch/free-update provenance batch 6
+- Resolved 11 `dlc_requirement` values:
+  - **Base Game:** Namek Finger, Dragon Fist, Final Kamehameha, Spirit Boost, Time Bullet, Fighting Pose K, Energy Release, Instant Charge, Rising Rage, Dragon Thunder.
+  - **Free Update 12:** Godly Display.
+- Data commit: `9df672ae92f5367ae8d1ba409eccdef6598aeabd`.
+- Audit commit: `aee1b368f59cbb5544cb1132f344e511dc8aac60`.
+- Live census: **283 skills; 1 null `dlc_requirement`; 31 null `source_quest`**.
+- Sole remaining DLC null: **Divine Lasso**. It is documented in Bandai Namco's May 10, 2017 TP Medal Shop content update, but no sufficiently authoritative source currently establishes the canonical numbered free-update/DLC label. Preserve the null unless that exact chronology is verified.
+- Next exact task: verify Divine Lasso's canonical update/DLC provenance; if unavailable, retain null and move to improving the 31 `source_quest` nulls.
