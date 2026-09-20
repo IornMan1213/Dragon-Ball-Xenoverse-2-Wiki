@@ -3285,3 +3285,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 ### 2026-09-20 — Super Saiyan Blue Kaioken provenance correction
 
 - 2026-09-20: Corrected **Super Saiyan Blue Kaioken** provenance from `Base Game` to `Free Update 1`. Bandai Namco's official Free Update #1 material states that SSGSS Goku's Kaioken x10 was made available as free content ahead of DLC Pack 1; this resolves the previously retained historical ambiguity. No acquisition or character-only fields were otherwise changed.
+
+
+## 2026-09-20 — Supreme Fury acquisition evidence refinement
+
+- Rechecked the remaining current-scope acquisition/mechanics evidence gap for **Supreme Fury**.
+- Current maintained PQ evidence explicitly lists Supreme Fury in **PQ179 — 24/7 Time Patrol — Basic Reward**, so the canonical acquisition route no longer needs the generic "PQ reward context" wording.
+- Kept the existing **100 Ki Strike Super** cost and **no Ultimate Finish requirement**; no unsupported drop probability or additional numerical mechanics were added.
+- Canonical skill data commit: `3d59895e88f0a0b15705b7fefcb5aa523beb8c91`.
+- External evidence: the maintained 186-PQ guide lists Supreme Fury under PQ179 Basic Reward; a separate current discussion describes it as a 100-Ki counter, but that discussion is not used to infer any drop probability. 
+- Next: continue the remaining record-level evidence-gap audit, prioritizing acquisition/drop semantics and mechanics where current sources are specific enough to resolve them.
