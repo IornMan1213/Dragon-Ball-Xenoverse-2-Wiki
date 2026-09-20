@@ -2152,7 +2152,7 @@
       "subcategory": "Other",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "acquisition_type": "other_nonquest",
+      "acquisition_type": "built_in_action",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Surging_Spirit",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge",
@@ -2165,7 +2165,7 @@
       "subcategory": "Other",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "acquisition_type": "skill_shop",
+      "acquisition_type": "shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Bullet",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -2613,7 +2613,7 @@
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "acquisition_type": "character_only",
+      "acquisition_type": "character_exclusive",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
