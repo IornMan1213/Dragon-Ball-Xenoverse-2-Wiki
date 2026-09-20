@@ -6042,7 +6042,8 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Majin_Kamehameha"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 60
     },
     {
       "name": "Mystic Flash",
@@ -6064,7 +6065,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "damage_type": "Ki Blast",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 20
     },
     {
       "name": "Prominence Flash",
@@ -6086,7 +6088,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "notes": " Ultimate Finish requirement retained as unknown; available community reports conflict/are anecdotal, so no affirmative UF flag is asserted.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 137
     },
     {
       "name": "Requiem of Destruction",
@@ -6108,7 +6111,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "damage_type": "Ki Blast",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 106
     },
     {
       "name": "Revenge Death Ball",
@@ -6133,7 +6137,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Revenge_Death_Ball"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 127
     },
     {
       "name": "Revenge Final Flash",
@@ -6158,7 +6163,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Revenge_Final_Flash"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 124
     },
     {
       "name": "Ribrianne's Eternal Love",
@@ -6183,7 +6189,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 137
     },
     {
       "name": "S.S. Deadly Bomber",
@@ -6210,7 +6217,8 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "mechanics": "400 Ki; tracking Ki-ball projectile that follows the opponent and deals damage across multiple hits.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 115
     },
     {
       "name": "Sign of Awakening",
@@ -6235,7 +6243,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/Sign_of_Awakening"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 154
     },
     {
       "name": "Special Beam Cannon (Beast)",
@@ -6260,7 +6269,8 @@
         "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)",
         "https://dragonball.fandom.com/wiki/Special_Beam_Cannon_%28Beast%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 162
     },
     {
       "name": "Super Black Kamehameha Rosé",
@@ -6286,7 +6296,8 @@
         "https://dragonball.fandom.com/wiki/Super_Black_Kamehameha",
         "https://dbxenoverse.fandom.com/wiki/Super_Black_Kamehameha_Ros%C3%A9"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 109
     },
     {
       "name": "Super Gamma Blast",
@@ -6311,7 +6322,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/Super_Gamma_Blast"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 158
     },
     {
       "name": "Super Kamehameha (SS4 DAIMA)",
@@ -6333,7 +6345,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 181
     },
     {
       "name": "Super Spirit Bomb",
@@ -6399,7 +6412,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Teleporting_Vanishing_Ball"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 62
     },
     {
       "name": "Thunder Flash",
@@ -6422,7 +6436,8 @@
       "last_verified": "2026-09-19",
       "mechanics": "Base 300 Ki with up to three additional Ki bars when held; community spreadsheet records 300–600 Ki total.",
       "notes": " Ki cost normalized to 300 based on Madreag Xenoverse 2 skill corpus; previous range was unsupported by the cited skill record.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 146
     },
     {
       "name": "Total Detonation Ball",
@@ -6447,7 +6462,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Total_Detonation_Ball"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 139
     },
     {
       "name": "Warp Kamehameha",
@@ -6472,7 +6488,8 @@
         "https://dbxv2.fandom.com/wiki/Warp_Kamehameha",
         "https://dragonball.fandom.com/wiki/Instant_Kamehameha"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 76
     },
     {
       "name": "X 100 Big Bang Kamehameha",
@@ -6524,7 +6541,8 @@
         "https://dbxv2.fandom.com/wiki/Blades_of_Judgment",
         "https://dragonball.fandom.com/wiki/Blades_of_Judgment"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 112
     },
     {
       "name": "Brave Sword Attack",
@@ -6551,7 +6569,8 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Brave_Sword_Attack"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 117
     },
     {
       "name": "Darkness Rush (Melee)",
@@ -6644,7 +6663,8 @@
         "https://dragonball.fandom.com/wiki/Divine_Wrath%3A_Purification",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 112
     },
     {
       "name": "Dragon Fist",
@@ -6692,7 +6712,8 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "Majin",
-      "notes": "Current public skill evidence confirms Majin-only CaC access. The current source does not establish a separate gender restriction, so none is inferred."
+      "notes": "Current public skill evidence confirms Majin-only CaC access. The current source does not establish a separate gender restriction, so none is inferred.",
+      "source_quest": 50
     },
     {
       "name": "Final Rampage",
