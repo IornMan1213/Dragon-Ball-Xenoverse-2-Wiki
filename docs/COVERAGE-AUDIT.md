@@ -3643,3 +3643,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Refined six generic PQ acquisition records: **S.S. Deadly Bomber (PQ115), Brave Sword Attack (PQ117), Power Impact (PQ120), Variant Drive (PQ123), Revenge Final Flash (PQ124), Gigantic Breaker (PQ126)**.
 - All six are explicitly recorded as **Basic Reward** routes with `ultimate_finish_required=false`; no reward probability was inferred.
 - Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 16
+- Refined eight generic PQ acquisition records: **Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), Gigantic Roar (PQ132), Lovely Cyclone (PQ135), Ribrianne's Eternal Love (PQ137), Total Detonation Ball (PQ139), Savory Slicer (PQ140)**.
+- Reward-tier semantics were resolved from maintained current PQ data: PQ127/PQ128 skills are Basic Reward; Gigantic Roar and Total Detonation Ball are first-clear routes; Lovely Cyclone, Ribrianne's Eternal Love, and Savory Slicer are Ultimate Finish bonus-slot routes.
+- Accordingly, `ultimate_finish_required` is true only for **Lovely Cyclone, Ribrianne's Eternal Love, and Savory Slicer** in this batch. No probability was inferred beyond existing maintained evidence.
+- Re-synchronized `docs/data/skills-index.json`; canonical dataset remains 283 records.
