@@ -172,8 +172,10 @@
     "source_quest": {
       "type": [
         "string",
+        "integer",
         "null"
-      ]
+      ],
+      "minimum": 0
     },
     "acquisition_type": {
       "enum": [
