@@ -2826,9 +2826,9 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
   - **Lightning Impact** — Ultra Pack 2, PQ142.
   - **Prominence Flash** — Ultra Pack 1, PQ137.
   - **Final Flash (SS3 DAIMA)** — Dragon Ball DAIMA Pack, PQ181.
-- The PQ-to-pack mapping for the numbered DLC-era quests is supported by the maintained PQ guide and DLC listings; Bandai Namco's current DLC catalog confirms the Dragon Ball DAIMA Pack as downloadable content, and current official material identifies the game's DLC pack structure. citeturn0search0turn0search4turn0search2turn0search1
-- For the three low-numbered PQs, the maintained all-PQ guide places the relevant rewards in the original quest set, and Dragon Burn's 2016 release-era evidence confirms PQ82; these are retained as Base Game rather than assigning a later DLC pack. citeturn0search0turn0search3
-- For PQ137, community reports independently identify Prominence Flash as the PQ137 reward; this corroborates the existing repository acquisition record, while the pack mapping is Ultra Pack 1. citeturn0search6turn0search4
+- The PQ-to-pack mapping for the numbered DLC-era quests is supported by the maintained PQ guide and DLC listings; Bandai Namco's current DLC catalog confirms the Dragon Ball DAIMA Pack as downloadable content, and current official material identifies the game's DLC pack structure. 
+- For the three low-numbered PQs, the maintained all-PQ guide places the relevant rewards in the original quest set, and Dragon Burn's 2016 release-era evidence confirms PQ82; these are retained as Base Game rather than assigning a later DLC pack. 
+- For PQ137, community reports independently identify Prominence Flash as the PQ137 reward; this corroborates the existing repository acquisition record, while the pack mapping is Ultra Pack 1. 
 - No character-only or generic shop-only record was promoted in this batch.
 - Data commit: `1c0df8c2f7be2f01103d886e732372c9ca74ac21`.
 - Validation target after this batch: 283 unique skill records; remaining null `dlc_requirement` count should be 45.
