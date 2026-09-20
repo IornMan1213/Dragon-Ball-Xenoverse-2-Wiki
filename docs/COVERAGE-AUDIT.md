@@ -2664,3 +2664,10 @@ Promoted ten explicit quest identifiers already present in the live skill record
 
 Skills commit: `a1bd01ea42ca66a7937406383fa3cd5eaf600331`.
 
+
+
+## 2026-09-19 — source-quest provenance batch 8
+
+Promoted ten additional explicit single-quest identifiers from the live acquisition metadata: **Hero's Flute (PQ116), Kai Kai (PQ63), Petrifying Spit (PQ114), Phantom Fist (PQ97), Shield Barrier (PQ153), Solar Flare (PQ01), Wall of Defense (PQ10), Charge (PQ83), Divinity Unleashed (PQ110), and Do or Die (PQ49)**. Records with multi-PQ or otherwise ambiguous reward-pool language remain unchanged.
+
+Skills commit: `0635e4cd59d30339df6a2d398d0f7ba107314afa`.
