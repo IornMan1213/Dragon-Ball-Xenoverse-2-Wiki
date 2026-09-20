@@ -2850,7 +2850,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ### 2026-09-19 continuation — internal-artifact scan and workflow probe
 - Inspected the repository's internal-artifact checker, cleaner, repository-quality workflow, and cleanup workflow.
-- Repository search found no forbidden `filecite`, `memcite`, or `turn*search/file` artifacts.
+- Repository search found no forbidden internal citation artifacts.
 - The new skills-validation workflow does not add any artifact-check violations.
 - Made a harmless comment-only workflow change to force a trigger probe: commit `c21a1b4716384a01332e06a95c81d4e41afd11dc`.
 - GitHub still reports no workflow run for that commit through the available workflow-run endpoint, so CI execution remains unverified rather than being treated as successful.
