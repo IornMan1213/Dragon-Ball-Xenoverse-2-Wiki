@@ -1229,14 +1229,14 @@
       "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest 92 - reward",
-      "source_quest_or_shop": "Parallel Quest 92",
+      "unlock_method": "Parallel Quest 92 — \"Revenge of the Tuffle\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 92 — \"Revenge of the Tuffle\"",
       "ultimate_finish_required": false,
       "skill_description": "Maiden Burst is an Other Evasive skill associated with Pan.",
-      "mechanics_notes": "Current dedicated evidence confirms Maiden Burst as a 300-Stamina Evasive from PQ92, associated with Pan/Videl (Customize Partner)/Ribrianne. No unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive. The user propels forward with a Ki explosion, dealing a short-range single-hit blast that knocks nearby opponents away; dedicated documentation lists about 5% damage. Current PQ92 reward evidence places Maiden Burst in Basic Reward. No Ultimate Finish-only gate or narrower CaC race/gender/form restriction is established.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Maiden_Burst",
@@ -1245,7 +1245,7 @@
       "source_quest": 92,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 reward/mechanics refinement: dedicated documentation gives the exact PQ92 title, 300-Stamina Ki Blast Evasive classification, and short-range explosive knockback behavior; maintained PQ reward evidence places it in Basic Reward."
     },
     {
       "name": "Mighty Explosive Wave",
