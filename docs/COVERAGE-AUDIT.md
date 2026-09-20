@@ -2921,7 +2921,7 @@ Skills commit: `29c7065b7a25389b1f2c90f1aa9cf66bff93f1d6`.
 
 - Resolved the final `dlc_requirement` null:
   - **Divine Lasso → Free Update 3**.
-- Bandai Namco's May 10, 2017 content-update notice lists Divine Lasso in the TP Medal Shop schedule. Contemporary documentation identifies the same release as the DLC 3 / Free Update 3 era, while distinguishing the TP-shop skills as free-update content rather than paid DLC. citeturn0search0turn2search3turn2search5
+- Bandai Namco's May 10, 2017 content-update notice lists Divine Lasso in the TP Medal Shop schedule. Contemporary documentation identifies the same release as the DLC 3 / Free Update 3 era, while distinguishing the TP-shop skills as free-update content rather than paid DLC. 
 - Also filled 3 previously-null `source_quest` fields where the records already explicitly named their quest route:
   - Divine Spear → PQ171 / PQ172
   - Crimson Edge → PQ171 / PQ172
@@ -2937,8 +2937,8 @@ Reviewed the remaining 28 `source_quest` nulls against their current acquisition
 
 - **No additional data values were forced in this pass.**
 - Several records are explicitly shop/distribution routes rather than quest rewards:
-  - Reverse Mabakusenko, Pressure Sign, Quick Sleep, Punisher Guard, Big Bang Kamehameha, Emperor's Death Beam, and Final Explosion are documented as Skill Shop/TP Medal Shop acquisitions. Punisher Guard also has historical PQ87 provenance, but the current acquisition route is story progression followed by the Skill Shop, so a bare quest assignment would misrepresent the current route. citeturn1search0turn1search1turn1search2turn1search3turn1search4turn1search5turn1search6
-- Contemporary launch-era discussion independently confirms Big Bang Kamehameha as a TP Medal Shop skill rather than a PQ reward. citeturn1search9turn1search13
+  - Reverse Mabakusenko, Pressure Sign, Quick Sleep, Punisher Guard, Big Bang Kamehameha, Emperor's Death Beam, and Final Explosion are documented as Skill Shop/TP Medal Shop acquisitions. Punisher Guard also has historical PQ87 provenance, but the current acquisition route is story progression followed by the Skill Shop, so a bare quest assignment would misrepresent the current route. 
+- Contemporary launch-era discussion independently confirms Big Bang Kamehameha as a TP Medal Shop skill rather than a PQ reward. 
 - The remaining nulls include character-only skills and other non-PQ acquisition routes; these should remain null unless the schema is explicitly expanded to represent a different source type.
 - Current live target remains **283 skills; 0 null `dlc_requirement`; 28 null `source_quest`**.
 - Next priority: audit the remaining character-only and update-distribution records for any *explicitly named* quest/mission route, without converting shop availability or historical provenance into false quest fields.
@@ -2982,7 +2982,7 @@ Commits:
 - Schema: `75a61208194875feb6e4a742f7b314a06b2a3d49`
 - Validator: `4195b2585583bd7cd1b01c6b67cd1219515884c1`
 
-JSON Schema supports additional application-defined structure through declared schema properties; the repository now declares this field explicitly rather than relying on undeclared properties. citeturn0search1turn0search2
+JSON Schema supports additional application-defined structure through declared schema properties; the repository now declares this field explicitly rather than relying on undeclared properties. 
 
 
 ## 2026-09-19 — validator and index integrity pass
@@ -2995,3 +2995,24 @@ Verified the post-schema-change canonical dataset directly:
 - `source_quest` null count remains **28**, all represented by non-quest acquisition classifications.
 - No additional data corrections were made.
 - GitHub reported no combined status checks and no workflow runs for validator commit `4195b2585583bd7cd1b01c6b67cd1219515884c1`; therefore this pass does **not** claim CI execution.
+
+
+## 2026-09-19 — acquisition type propagated to generated index
+
+Updated the build pipeline so generated skill indexes expose the canonical `acquisition_type` field. The deterministic index now mirrors this field alongside the existing identity, verification, research, and source fields.
+
+The schema now requires `acquisition_type`, and the validator compares it between `skills.json` and `skills-index.json`.
+
+Live consistency check:
+
+- Canonical records: **283**
+- Index records: **283**
+- Identity/order mismatches: **0**
+- Mirrored-field mismatches: **0**
+- Acquisition distribution: 255 quest/mission, 8 character-only, 8 skill-shop, 9 TP/STP Medal Shop, 1 starting move, 2 other non-quest.
+
+Implementation commits:
+- Builder: `60d588c0e3f0a5560c585eb516120f5ad6ebdc8e`
+- Index: `499859a528380b074b76d244f303c4c893f4e18e`
+- Schema: `7334a77f8fbf8108fe981f5c2a5c009486ba05cb`
+- Validator: `5b2920e176c132e9a38a86523a4742cf94dc1f3a`
