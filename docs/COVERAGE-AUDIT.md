@@ -2021,7 +2021,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 - Recomputed canonical skill metadata after the acquisition-source pass.
 - Found exactly **2** null `unlock_method` fields: **Dragon Thunder** and **Death Ball**.
-- Verified Dragon Thunder is explicitly unavailable for CaC and has no unlock route (`N/A`), while Death Ball is a Frieza mentor reward from **Intergalactic Emperor of Evil 3**. citeturn1search0turn1search4
+- Verified Dragon Thunder is explicitly unavailable for CaC and has no unlock route (`N/A`), while Death Ball is a Frieza mentor reward from **Intergalactic Emperor of Evil 3**. 
 - Updated both records without inventing a quest/drop route.
 - Result: **0/283 skill records missing unlock_method**.
 - Next task: recompute the complete structured-field census and move to the next nonempty/high-value gap, prioritizing Parallel Quest reward/acquisition/version provenance if the skill layer is otherwise complete.
@@ -2040,7 +2040,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ## 2026-09-19 — Parallel Quest reward provenance tranche: PQ 18-20
 
 - Began the P1 PQ reward/acquisition audit after the skill-layer nullable-field classification.
-- Reconciled the canonical PQ 18-20 `skill_rewards` fields against independent current-reference evidence: **PQ 18 → Time Control, Mach Dash; PQ 19 → Mach Punch, Fighting Pose E; PQ 20 → Mystic Flash**. citeturn1search1turn1search0turn1search5
+- Reconciled the canonical PQ 18-20 `skill_rewards` fields against independent current-reference evidence: **PQ 18 → Time Control, Mach Dash; PQ 19 → Mach Punch, Fighting Pose E; PQ 20 → Mystic Flash**. 
 - These are skill relationships only; Zeni, capsules and other generic reward types were intentionally not inferred into the skill field.
 - The older `pq-001-040-reward-map.json` still contains an incomplete/stale representation for these rows; it is explicitly marked partial/finalized as a normalization layer, so it was not allowed to overwrite the canonical batch. The canonical batch now carries the independently verified skill relationships.
 - Data commit: **909c71bd5082761f9848b937bcb8aa4d65f35f5d**.
@@ -2050,7 +2050,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ## 2026-09-19 — PQ 21-40 provenance reconciliation
 
 - Audited the canonical PQ 21-40 skill-reward relationships against the current all-186 PQ reference and the existing dedicated reward references.
-- Confirmed the canonical skill sets already represented in the batch: PQ 21 Evil Flight Strike; 22 Energy Shot; 23 Death Slash; 24 Double Death Slicer; 25 Spirit Explosion; 26 Crazy Finger Shot; 27 Sauzer Blade; 28 Spread Shot Retreat; 29 Freedom Kick + Energy Field; 31 Super Dragon Flight; 32 Energy Barrier; 33 Death Psycho Bomb; 34 Crusher Ball + Paralysis; 36 Evil Whirlwind; 37 Instant Rise; 38 Shining Slash; 39 Side Bridge; 40 Heat Dome Attack. PQ 30 and PQ 35 have no skill reward in the referenced basic reward tables, so their empty skill arrays were retained. citeturn0search1turn0search7turn0search10
+- Confirmed the canonical skill sets already represented in the batch: PQ 21 Evil Flight Strike; 22 Energy Shot; 23 Death Slash; 24 Double Death Slicer; 25 Spirit Explosion; 26 Crazy Finger Shot; 27 Sauzer Blade; 28 Spread Shot Retreat; 29 Freedom Kick + Energy Field; 31 Super Dragon Flight; 32 Energy Barrier; 33 Death Psycho Bomb; 34 Crusher Ball + Paralysis; 36 Evil Whirlwind; 37 Instant Rise; 38 Shining Slash; 39 Side Bridge; 40 Heat Dome Attack. PQ 30 and PQ 35 have no skill reward in the referenced basic reward tables, so their empty skill arrays were retained. 
 - Added the current all-186 Steam reference to every PQ 21-40 record's source list without changing established skill data.
 - Data commit: **2a16f0fdb1f871713fa5b61234362853b95b042c**.
 - Note: reward normalization remains partial by design; empty fields elsewhere are not negative evidence.
@@ -2059,7 +2059,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 ## 2026-09-19 — PQ 41-60 skill-reward provenance pass
 
 - Reconciled additional canonical skill rewards in `pq-041-060.json` against the current all-PQ reward reference and dedicated skill pages.
-- Added/confirmed: PQ 46 **Chain Destructo-disc Barrage**; PQ 48 **Kamehameha**; PQ 50 **Explosive Buu Buu Punch**; PQ 51 **Burst Rush**; PQ 52 **Final Cannon**; PQ 53 **Justice Pose**; PQ 54 **Victory Cannon**; PQ 55 **Super Donut Volley**; PQ 56 **Stone Bullet**; PQ 58 **Vanishing Ball**. citeturn1search0turn2search0turn2search4turn2search1turn2search8turn3search1
+- Added/confirmed: PQ 46 **Chain Destructo-disc Barrage**; PQ 48 **Kamehameha**; PQ 50 **Explosive Buu Buu Punch**; PQ 51 **Burst Rush**; PQ 52 **Final Cannon**; PQ 53 **Justice Pose**; PQ 54 **Victory Cannon**; PQ 55 **Super Donut Volley**; PQ 56 **Stone Bullet**; PQ 58 **Vanishing Ball**. 
 - PQ 47 and PQ 57 remain without a skill in the referenced basic reward table; no skill was invented for them. PQ 59-60 were already populated and retained.
 - Added the current all-186 Steam reference to all PQ 41-60 source arrays.
 - Data commit: **cdb07c22c96b28d4acaa355a7a29a3d77cf42edf**.
@@ -2067,16 +2067,16 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ## 2026-09-19 — PQ 61-80 skill-reward provenance pass
 
-- Reconciled PQ 61-80 canonical skill rewards against the current all-186 Steam reward listing and supporting references. citeturn0search1turn1search2turn1search4
+- Reconciled PQ 61-80 canonical skill rewards against the current all-186 Steam reward listing and supporting references. 
 - Added skill-reward fields for the full PQ 61-80 range and added the current all-186 source to each record.
-- PQ 66 was specifically cross-checked against independent GameFAQs/Steam evidence and recorded as **Candy Beam**, not the conflicting `Warp Kamehameha` value present in the partial normalization map. citeturn1search0turn1search1
+- PQ 66 was specifically cross-checked against independent GameFAQs/Steam evidence and recorded as **Candy Beam**, not the conflicting `Warp Kamehameha` value present in the partial normalization map. 
 - The normalization map remains partial; its empty arrays are not treated as negative evidence.
 - Data commits: `482dd3e44fefbbde853e62163c2fd7630e0ce90b` and correction `3bbce3ccc4e7ec3d9ff311fa38263d649382d107`.
 
 
 ## 2026-09-19 — PQ 81-100 skill-reward provenance pass
 
-- Reconciled the canonical PQ 81-100 skill-reward fields against the current all-186 reward listing and the repository's partial normalization layer. citeturn0search0turn0search6
+- Reconciled the canonical PQ 81-100 skill-reward fields against the current all-186 reward listing and the repository's partial normalization layer. 
 - Added the source-backed skills present in the normalized reward layer: PQ 81-85, 88-92, 94-100; PQ 86, 87, and 93 remain without a normalized skill entry.
 - Added the current all-186 Steam reference to every PQ 81-100 record.
 - Data commit: `f724f2e9f98f64043628a361cdd86d0717581b2d`.
@@ -2084,7 +2084,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ## 2026-09-19 — PQ 101-120 skill-reward provenance pass
 
-- Reconciled canonical PQ 101-120 skill relationships against the repository's source-normalized reward layer and the all-186 PQ reward reference. citeturn0search0turn0search1
+- Reconciled canonical PQ 101-120 skill relationships against the repository's source-normalized reward layer and the all-186 PQ reward reference. 
 - Added/confirmed skills for PQ 101, 104-105, 109-117, 119-120; retained empty skill arrays where the normalized source layer does not establish a skill (PQ 102-103, 106-108, 118).
 - Added the current all-186 Steam reference to every PQ 101-120 record.
 - Data commit: `c6da4d9c37dd8436491d7ba226c2930ee69f048e`.
@@ -2092,7 +2092,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ## 2026-09-19 — PQ 121-142 skill-reward provenance pass
 
-- Reconciled canonical PQ 121-142 skill relationships against the repository's partially verified reward-normalization layer and the current all-186 PQ reference. citeturn0search3turn0search2
+- Reconciled canonical PQ 121-142 skill relationships against the repository's partially verified reward-normalization layer and the current all-186 PQ reference. 
 - Added/confirmed skill rewards for PQ 122-142; PQ 121 remains without a normalized skill reward because its current reward list contains clothing and a Super Soul only. The normalization layer explicitly preserves unresolved attribution rather than inventing drops.
 - Added the all-186 Steam source to every PQ 121-142 record.
 - Data commit: `ab2907fbaefa5500747dba58fdec8e861cbe615f`.
@@ -2100,7 +2100,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ## 2026-09-19 — PQ 143-162 skill-reward provenance pass
 
-- Reconciled canonical PQ 143-162 skill relationships against the repository's source-normalized reward layer and current all-186 reward reference. citeturn0search1turn0search0
+- Reconciled canonical PQ 143-162 skill relationships against the repository's source-normalized reward layer and current all-186 reward reference. 
 - Added/confirmed skills for PQ 143, 145-156, and 158-162.
 - PQ 144 and PQ 157 remain without `skill_rewards` because the repository's normalized layer does not establish a skill for those quests; no inference was made.
 - Added the all-186 Steam reference to every PQ 143-162 record.
@@ -2109,7 +2109,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 ## 2026-09-19 — PQ 163-186 skill-reward provenance pass
 
-- Completed the final canonical PQ skill-reward provenance range, 163-186, using the repository's source-normalized reward layer and the current all-186 Steam guide. citeturn0search0turn0search2
+- Completed the final canonical PQ skill-reward provenance range, 163-186, using the repository's source-normalized reward layer and the current all-186 Steam guide. 
 - Added/confirmed skills for PQ 163-168, 171-186; PQ 169 and PQ 170 remain without normalized skill rewards because their current source-backed reward lists establish clothing/artwork/Super Soul rewards but no skill.
 - Added the all-186 Steam reference to every PQ 163-186 record.
 - Data commit: `3432f50877c550189d6f25f6d2026bf294f61f35`.
@@ -2119,7 +2119,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 - Reconciled the canonical PQ 1-186 skill reward fields into `docs/data/pq-reward-relationships.json`.
 - Populated **229 source-backed `pq_rewards_skill` edges** across PQ 1-186, including the early PQ 1-14 research layer.
-- Removed the stale `pq-001 -> Death Slash` relationship; current source-backed PQ 1 establishes no skill reward, while Death Slash is documented at PQ 23. citeturn0search0
+- Removed the stale `pq-001 -> Death Slash` relationship; current source-backed PQ 1 establishes no skill reward, while Death Slash is documented at PQ 23. 
 - Regenerated `docs/data/pq-skill-crosslink-report.json`: 229 linked skill rewards, 0 unresolved.
 - Updated `docs/data/pq-cross-domain-status.json` to reflect skill-edge completion.
 - Commits: relationship `4e1b628045bdcbf35c4d0f221111cd24b8a9a6a4`, report `01bed910511947d5b614eed0f2d7de597ca7f2c3`, status `a483755f96a02a1a6f06c013aa98aeb90c925e79`.
@@ -2130,7 +2130,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Populated the canonical PQ 1-186 Super Soul reward relationships from the repository's normalized reward maps.
 - Added **125 source-backed `pq_rewards_super_soul` edges** to `docs/data/pq-reward-relationships.json`.
 - Updated `docs/data/pq-cross-domain-status.json` to record 229 skill edges and 125 Super Soul edges.
-- The current all-186 guide explicitly presents Super Souls alongside PQ rewards, supporting this reward-layer normalization. citeturn0search0
+- The current all-186 guide explicitly presents Super Souls alongside PQ rewards, supporting this reward-layer normalization. 
 - Commits: relationship `ce11b853b6e0325dfa4f19a9e6140a39985a140c`; status `efd12568a533b42a5aea3265c8a4d95d917c8001`.
 
 
@@ -2138,7 +2138,7 @@ Live inspection of the validation contract exposed two repository integrity issu
 
 - Populated **39 source-backed `pq_rewards_equipment` edges** from the typed clothing/accessory reward fields across PQ 1-186.
 - Updated the canonical relationship index and cross-domain status counts: 229 skills, 125 Super Souls, 39 equipment.
-- The current all-186 reward guide explicitly lists clothing and accessory rewards alongside skills and Super Souls, providing provenance for this reward layer. citeturn0search0
+- The current all-186 reward guide explicitly lists clothing and accessory rewards alongside skills and Super Souls, providing provenance for this reward layer. 
 - Commits: relationship `8c62e65f1f2364937f4c4405e64eabc92db671a2`; status `95d15c95846d2e15822d487a5dda0dba3088ffd4`.
 
 
@@ -2255,70 +2255,70 @@ Live nullable Super/Ultimate census after reconciliation: **173 records** — 13
 
 ## 2026-09-19 — Data Input Expert Mission batch
 
-Resolved `ultimate_finish_required: false` for **Data Input**. The skill is obtained from **Expert Mission 20 — Harbinger of Doom**, an acquisition channel distinct from Parallel Quest Ultimate Finishes. Current sources explicitly identify Expert Mission 20 as the unlock/acquisition route. citeturn0search0turn0search2turn0search11
+Resolved `ultimate_finish_required: false` for **Data Input**. The skill is obtained from **Expert Mission 20 — Harbinger of Doom**, an acquisition channel distinct from Parallel Quest Ultimate Finishes. Current sources explicitly identify Expert Mission 20 as the unlock/acquisition route. 
 
 Live nullable Super/Ultimate census after this batch: **172 records** — 132 Super and 40 Ultimate. No schema or validator changes were made.
 
 
 ## 2026-09-19 — Final Rampage non-UF reward classification
 
-Resolved `ultimate_finish_required: false` for **Final Rampage**. Current quest documentation lists Final Rampage among the **basic rewards** of PQ174, while the quest's Ultimate Finish section is separate and does not identify Final Rampage as an Ultimate Finish-only reward. This supports classifying the skill as non-UF-gated. citeturn1search0turn1search2turn1search1
+Resolved `ultimate_finish_required: false` for **Final Rampage**. Current quest documentation lists Final Rampage among the **basic rewards** of PQ174, while the quest's Ultimate Finish section is separate and does not identify Final Rampage as an Ultimate Finish-only reward. This supports classifying the skill as non-UF-gated. 
 
 Live nullable Super/Ultimate census after this batch: **171 records** — 132 Super and 39 Ultimate.
 
 
 ## 2026-09-19 — basic-reward PQ non-UF batch
 
-Resolved `ultimate_finish_required: false` for **Change The Future**, **Counter Burst**, and **God Breaker**. Current reward documentation places each skill in the PQ's **Basic Reward** list: PQ43 for Change The Future, PQ75 for Counter Burst, and PQ44 for God Breaker. The documented Ultimate Finish conditions are separate, so these skills are not treated as UF-only. citeturn1search4turn1search0turn1search1
+Resolved `ultimate_finish_required: false` for **Change The Future**, **Counter Burst**, and **God Breaker**. Current reward documentation places each skill in the PQ's **Basic Reward** list: PQ43 for Change The Future, PQ75 for Counter Burst, and PQ44 for God Breaker. The documented Ultimate Finish conditions are separate, so these skills are not treated as UF-only. 
 
 Live nullable Super/Ultimate census after this batch: **168 records** — 129 Super and 39 Ultimate.
 
 
 ## 2026-09-19 — basic-reward PQ batch 2
 
-Resolved `ultimate_finish_required: false` for **Side Bridge** (PQ39) and **Burning Attack** (PQ41). Current PQ reward documentation places both skills in the Basic Reward lists, separate from each quest's Ultimate Finish conditions. citeturn1search1turn1search3
+Resolved `ultimate_finish_required: false` for **Side Bridge** (PQ39) and **Burning Attack** (PQ41). Current PQ reward documentation places both skills in the Basic Reward lists, separate from each quest's Ultimate Finish conditions. 
 
 Live nullable Super/Ultimate census after this batch: **166 records** — 127 Super and 39 Ultimate.
 
 
 ## 2026-09-19 — basic-reward PQ batch 3
 
-Resolved `ultimate_finish_required: false` for Counter Impact (PQ153), Demon Flash Strike (PQ160), Heroic Counter (PQ155), and Ultrasonic Blitz (PQ151). The live PQ reward guide explicitly places each in its corresponding Basic Reward list, distinct from Ultimate Finish conditions. citeturn0search3turn0search0turn0search4
+Resolved `ultimate_finish_required: false` for Counter Impact (PQ153), Demon Flash Strike (PQ160), Heroic Counter (PQ155), and Ultrasonic Blitz (PQ151). The live PQ reward guide explicitly places each in its corresponding Basic Reward list, distinct from Ultimate Finish conditions. 
 
 Live nullable Super/Ultimate census: **162** total — 123 Super and 39 Ultimate.
 
 
 ## 2026-09-19 — basic-reward PQ batch 4
 
-Resolved `ultimate_finish_required: false` for **Dimensional Hole** (PQ80), **Atomic Blast** (PQ87), **Blaster Ball** (PQ125), and **Punisher Shield** (PQ129). The live PQ reward guide lists each under its corresponding **Basic Reward** section, which is distinct from the quest's Ultimate Finish conditions. citeturn1search0turn1search1
+Resolved `ultimate_finish_required: false` for **Dimensional Hole** (PQ80), **Atomic Blast** (PQ87), **Blaster Ball** (PQ125), and **Punisher Shield** (PQ129). The live PQ reward guide lists each under its corresponding **Basic Reward** section, which is distinct from the quest's Ultimate Finish conditions. 
 
 Live nullable Super/Ultimate census: **158** total — 119 Super and 39 Ultimate.
 
 
 ## 2026-09-19 — basic-reward PQ batch 5
 
-Resolved `ultimate_finish_required: false` for **Burst Kamehameha** (PQ72) and **Big Bang Knuckle** (PQ172). Current PQ documentation explicitly places Burst Kamehameha and Big Bang Knuckle in their respective Basic Reward lists, so these acquisitions are not contingent on the Ultimate Finish reward section. citeturn1search13turn1search4
+Resolved `ultimate_finish_required: false` for **Burst Kamehameha** (PQ72) and **Big Bang Knuckle** (PQ172). Current PQ documentation explicitly places Burst Kamehameha and Big Bang Knuckle in their respective Basic Reward lists, so these acquisitions are not contingent on the Ultimate Finish reward section. 
 
 Live nullable Super/Ultimate census: **156** total — 117 Super and 39 Ultimate.
 
 
 ## 2026-09-19 — basic-reward PQ batch 10
 
-Resolved `ultimate_finish_required: false` for **Heat Wave** (PQ174), **God Punisher** (PQ132), **Emperor's Cannon** (PQ183), **Photon Swipe** (PQ139), **Final Flash (SS3 DAIMA)** (PQ181), and **Super Kamehameha (SS4 DAIMA)** (PQ181). The current PQ guide explicitly places these skills in Basic Reward lists, separate from Ultimate Finish conditions. citeturn0search0turn0search1
+Resolved `ultimate_finish_required: false` for **Heat Wave** (PQ174), **God Punisher** (PQ132), **Emperor's Cannon** (PQ183), **Photon Swipe** (PQ139), **Final Flash (SS3 DAIMA)** (PQ181), and **Super Kamehameha (SS4 DAIMA)** (PQ181). The current PQ guide explicitly places these skills in Basic Reward lists, separate from Ultimate Finish conditions. 
 
 Live nullable Super/Ultimate census: **139** total — 104 Super and 35 Ultimate.
 
 
 ## 2026-09-19 — basic-reward DAIMA PQ batch 11
 
-Resolved `ultimate_finish_required: false` for **Dark Inscription** (PQ182), **Supreme Fury** (PQ179), **Force Edge** (PQ180), and **Burning Blast** (PQ180). The Steam PQ guide lists each in the corresponding Basic Reward section. citeturn0search0turn0search3 Chaotic Time Impact (PQ184) was not changed because separate datamined evidence reports it as a UF bonus drop, despite the guide's simplified Basic Reward presentation. citeturn0search4
+Resolved `ultimate_finish_required: false` for **Dark Inscription** (PQ182), **Supreme Fury** (PQ179), **Force Edge** (PQ180), and **Burning Blast** (PQ180). The Steam PQ guide lists each in the corresponding Basic Reward section.  Chaotic Time Impact (PQ184) was not changed because separate datamined evidence reports it as a UF bonus drop, despite the guide's simplified Basic Reward presentation. 
 
 Live nullable Super/Ultimate census: **135** total — 100 Super and 35 Ultimate.
 
 
 ## 2026-09-19 — PQ reward batch 15
 
-Resolved `ultimate_finish_required: false` for **Ray Blast** (PQ125), **Reverse Shot** (PQ123), **Shine Shot** (PQ07), and **Spirit Blaster** (PQ129). The PQ guide explicitly lists each under Basic Reward. citeturn0search0turn0search1 **Handy Canon** (PQ115) remains nullable because acquisition-gating evidence is conflicting and the conservative rule requires preserving null until resolved.
+Resolved `ultimate_finish_required: false` for **Ray Blast** (PQ125), **Reverse Shot** (PQ123), **Shine Shot** (PQ07), and **Spirit Blaster** (PQ129). The PQ guide explicitly lists each under Basic Reward.  **Handy Canon** (PQ115) remains nullable because acquisition-gating evidence is conflicting and the conservative rule requires preserving null until resolved.
 
 Live nullable Super/Ultimate census: **115** total — 80 Super and 35 Ultimate.
 
@@ -2341,7 +2341,7 @@ Resolved `ultimate_finish_required: false` for **Giant Cluster** (PQ163), **Giga
 
 ## 2026-09-19 — basic-reward Super/Ultimate non-UF batch 17
 
-Resolved `ultimate_finish_required: false` for **Solar Flare** (PQ03), **Wall of Defense** (PQ10), **Kai Kai** (PQ63), **Afterimage Strike** (PQ81), **Assault Vanish** (PQ131), **Saiyan Spirit** (PQ84), **Zigzag Express** (PQ85), and **Neo Wolf Fang Fist** (PQ86). The maintained all-PQ reward guide explicitly places these skills in their respective **Basic Reward** sections, separate from the Ultimate Finish conditions. citeturn2search0turn2search1turn2search4
+Resolved `ultimate_finish_required: false` for **Solar Flare** (PQ03), **Wall of Defense** (PQ10), **Kai Kai** (PQ63), **Afterimage Strike** (PQ81), **Assault Vanish** (PQ131), **Saiyan Spirit** (PQ84), **Zigzag Express** (PQ85), and **Neo Wolf Fang Fist** (PQ86). The maintained all-PQ reward guide explicitly places these skills in their respective **Basic Reward** sections, separate from the Ultimate Finish conditions. 
 
 - This is negative UF evidence based on explicit reward-section placement, not inference from the fact that the skills are PQ rewards.
 - Live nullable Super/Ultimate census after this batch: **103 records — 69 Super and 34 Ultimate**.
@@ -2352,7 +2352,7 @@ Resolved `ultimate_finish_required: false` for **Solar Flare** (PQ03), **Wall of
 
 ## 2026-09-19 — basic-reward non-UF batch 18
 
-Resolved `ultimate_finish_required: false` for **Paralysis** (PQ34), **Ill Rain** (PQ64), **Ill Bomber** (PQ90), **Super Donut Volley** (PQ55), **Stone Bullet** (PQ56), **Petrifying Spit** (PQ114), **Handy Canon** (PQ115), and **Brave Sword Slash** (PQ116). The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from the quest Ultimate Finish conditions. citeturn0search0turn0search1
+Resolved `ultimate_finish_required: false` for **Paralysis** (PQ34), **Ill Rain** (PQ64), **Ill Bomber** (PQ90), **Super Donut Volley** (PQ55), **Stone Bullet** (PQ56), **Petrifying Spit** (PQ114), **Handy Canon** (PQ115), and **Brave Sword Slash** (PQ116). The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from the quest Ultimate Finish conditions. 
 
 - Evidence was treated as explicit reward-row evidence; no UF status was inferred merely from PQ association.
 - Live nullable Super/Ultimate census after this batch should be recomputed before the next batch.
@@ -2363,7 +2363,7 @@ Resolved `ultimate_finish_required: false` for **Paralysis** (PQ34), **Ill Rain*
 
 ## 2026-09-19 — basic-reward non-UF batch 19
 
-Resolved `ultimate_finish_required: false` for **Lightning Impact (PQ142), Heroic Assault (PQ156), Shooting Strike (PQ156), Gamma Impact (PQ155), Shield Barrier (PQ153), Sign of Awakening (PQ154), Circle Flash (PQ154), and Thunder Flash (PQ146)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search2
+Resolved `ultimate_finish_required: false` for **Lightning Impact (PQ142), Heroic Assault (PQ156), Shooting Strike (PQ156), Gamma Impact (PQ155), Shield Barrier (PQ153), Sign of Awakening (PQ154), Circle Flash (PQ154), and Thunder Flash (PQ146)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
 - Live nullable Super/Ultimate census after this batch: **88 total — 58 Super / 30 Ultimate**.
@@ -2373,7 +2373,7 @@ Resolved `ultimate_finish_required: false` for **Lightning Impact (PQ142), Heroi
 
 ## 2026-09-19 — basic-reward non-UF batch 20
 
-Resolved `ultimate_finish_required: false` for **Revenge Final Flash (PQ124), Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), and Last Emperor (PQ71)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn1search0turn1search6
+Resolved `ultimate_finish_required: false` for **Revenge Final Flash (PQ124), Gigantic Burst (PQ127), Revenge Death Ball (PQ127), Powered Shell (PQ128), and Last Emperor (PQ71)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
 - Live nullable Super/Ultimate census after this batch: **83 total — 53 Super / 30 Ultimate**.
@@ -2383,7 +2383,7 @@ Resolved `ultimate_finish_required: false` for **Revenge Final Flash (PQ124), Gi
 
 ## 2026-09-19 — basic-reward non-UF batch 21
 
-Resolved `ultimate_finish_required: false` for **Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Victory Rush (PQ89), Unrelenting Barrage (PQ10), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), Pendulum Bullet (PQ166), and Variable Snipe Shot (PQ165)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn3view0turn3view2turn3view3turn4view0turn4view1turn4view2turn4view3
+Resolved `ultimate_finish_required: false` for **Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Victory Rush (PQ89), Unrelenting Barrage (PQ10), Explosive Buu Buu Punch (PQ50), Gigantic Rage (PQ130), Pendulum Bullet (PQ166), and Variable Snipe Shot (PQ165)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
 - Live nullable Super/Ultimate census after this batch: **75 total — 51 Super / 24 Ultimate**.
@@ -2393,7 +2393,7 @@ Resolved `ultimate_finish_required: false` for **Blades of Judgment (PQ112), Bra
 
 ## 2026-09-19 — basic-reward non-UF batch 22
 
-Resolved `ultimate_finish_required: false` for **Blaster Stream (PQ148), Chain Destructo-Disc Barrage (PQ46), Dimension Ray (PQ58), Divine Ray Bomb (PQ173), and Heat Dome Attack (PQ40)**. The maintained PQ guide and corroborating PQ documentation explicitly list these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1turn0search2
+Resolved `ultimate_finish_required: false` for **Blaster Stream (PQ148), Chain Destructo-Disc Barrage (PQ46), Dimension Ray (PQ58), Divine Ray Bomb (PQ173), and Heat Dome Attack (PQ40)**. The maintained PQ guide and corroborating PQ documentation explicitly list these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
 - Live nullable Super/Ultimate census after this batch: **70 total — 53 Super / 17 Ultimate**.
@@ -2403,7 +2403,7 @@ Resolved `ultimate_finish_required: false` for **Blaster Stream (PQ148), Chain D
 
 ## 2026-09-19 — basic-reward non-UF batch 23
 
-Resolved `ultimate_finish_required: false` for **Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Conductor (PQ106), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Lightning of Absolution (PQ111), and Holy Wrath (PQ111)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1
+Resolved `ultimate_finish_required: false` for **Sonic Bomb (PQ105), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Destruction's Conductor (PQ106), Destruction's Concerto: Meteor (PQ106), Requiem of Destruction (PQ106), Lightning of Absolution (PQ111), and Holy Wrath (PQ111)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
 - Live nullable Super/Ultimate census after this batch: **62 total — 47 Super / 15 Ultimate**.
@@ -2413,7 +2413,7 @@ Resolved `ultimate_finish_required: false` for **Sonic Bomb (PQ105), God of Dest
 
 ## 2026-09-19 — basic-reward non-UF batch 24
 
-Resolved `ultimate_finish_required: false` for **Fierce Fist (PQ159), Demonic Destruction (PQ159), Demon Flurry (PQ160), Apocalyptic Burst (PQ161), Special Beam Cannon (Beast) (PQ162), and Seagull Combination (PQ167), Burning Swan (PQ167)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search4
+Resolved `ultimate_finish_required: false` for **Fierce Fist (PQ159), Demonic Destruction (PQ159), Demon Flurry (PQ160), Apocalyptic Burst (PQ161), Special Beam Cannon (Beast) (PQ162), and Seagull Combination (PQ167), Burning Swan (PQ167)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
 - Live nullable Super/Ultimate census after this batch: **55 total — 42 Super / 13 Ultimate**.
@@ -2423,7 +2423,7 @@ Resolved `ultimate_finish_required: false` for **Fierce Fist (PQ159), Demonic De
 
 ## 2026-09-19 — basic-reward non-UF batch 25
 
-Resolved `ultimate_finish_required: false` for **Justice Drive (PQ168), God of Destruction's Poise (PQ175), Full Power Destruction (PQ177), Dragon Spark (PQ177), Soaring Rush (PQ177), and Burst Blitz (PQ178)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search2
+Resolved `ultimate_finish_required: false` for **Justice Drive (PQ168), God of Destruction's Poise (PQ175), Full Power Destruction (PQ177), Dragon Spark (PQ177), Soaring Rush (PQ177), and Burst Blitz (PQ178)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
 - Live nullable Super/Ultimate census after this batch: **49 total — 36 Super / 13 Ultimate**.
@@ -2433,9 +2433,9 @@ Resolved `ultimate_finish_required: false` for **Justice Drive (PQ168), God of D
 
 ## 2026-09-19 — basic-reward non-UF batch 26
 
-Resolved `ultimate_finish_required: false` for **Dragon Spiral (PQ185), Indomitable (PQ185), and Venus Fist (PQ186)**. The maintained all-186-PQ guide explicitly places these skills in the respective **Basic Reward** lists, separate from the quest Ultimate Finish conditions. citeturn0search0turn0search2
+Resolved `ultimate_finish_required: false` for **Dragon Spiral (PQ185), Indomitable (PQ185), and Venus Fist (PQ186)**. The maintained all-186-PQ guide explicitly places these skills in the respective **Basic Reward** lists, separate from the quest Ultimate Finish conditions. 
 
-- Evidence is explicit reward-section evidence; community discussion about the skills' RNG/drop behavior does not override the documented reward-section placement. citeturn0search1turn0search3
+- Evidence is explicit reward-section evidence; community discussion about the skills' RNG/drop behavior does not override the documented reward-section placement. 
 - Live nullable Super/Ultimate census after this batch: **46 total — 35 Super / 11 Ultimate**.
 - Skills commit: `90b811333a9acc9247f71ec0782a35b8ceb9803a`.
 - No schema or validator changes.
@@ -2443,7 +2443,7 @@ Resolved `ultimate_finish_required: false` for **Dragon Spiral (PQ185), Indomita
 
 ## 2026-09-19 — basic-reward non-UF batch 27
 
-Resolved `ultimate_finish_required: false` for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1
+Resolved `ultimate_finish_required: false` for **Burning Slash (PQ44), Justice Blade (PQ152), Justice Kick (PQ152), Meteor Blow (PQ09), Meteor Strike (PQ06), Power Impact (PQ120), and Recoome Kick (PQ61)**. The maintained PQ guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Evidence is explicit reward-section evidence; no UF requirement was inferred from generic PQ association.
 - Live nullable Super/Ultimate census after this batch: **39 total — 28 Super / 11 Ultimate**.
@@ -2453,7 +2453,7 @@ Resolved `ultimate_finish_required: false` for **Burning Slash (PQ44), Justice B
 
 ## 2026-09-19 — basic-reward non-UF batch 28
 
-Resolved `ultimate_finish_required: false` for **S.S. Deadly Bomber (PQ115)** and **Total Detonation Ball (PQ139)**. The maintained PQ guide explicitly places both in Basic Reward. Community discussion also identifies S.S. Deadly Bomber as an Android 13 drop without establishing UF-only gating. citeturn0search0turn0search13
+Resolved `ultimate_finish_required: false` for **S.S. Deadly Bomber (PQ115)** and **Total Detonation Ball (PQ139)**. The maintained PQ guide explicitly places both in Basic Reward. Community discussion also identifies S.S. Deadly Bomber as an Android 13 drop without establishing UF-only gating. 
 
 - **Gigantic Explosion** and **Gigantic Roar** were checked against the live skill records but were not changed because the fetched evidence did not establish their exact reward-section placement with sufficient confidence.
 - Live nullable Super/Ultimate census after this batch: **35 total — 28 Super / 7 Ultimate**.
@@ -2463,7 +2463,7 @@ Resolved `ultimate_finish_required: false` for **S.S. Deadly Bomber (PQ115)** an
 
 ## 2026-09-19 — basic-reward non-UF batch 29
 
-Resolved `ultimate_finish_required: false` for **Do or Die (PQ49), Charge (PQ83), Divinity Unleashed (PQ110), Fighting Pose H (PQ61), Majin Kamehameha (PQ60), Mystic Flash (PQ20), Warp Kamehameha (PQ76), and Super Black Kamehameha Rosé (PQ109)**. The maintained PQ reward guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. citeturn0search0turn0search1turn0search4
+Resolved `ultimate_finish_required: false` for **Do or Die (PQ49), Charge (PQ83), Divinity Unleashed (PQ110), Fighting Pose H (PQ61), Majin Kamehameha (PQ60), Mystic Flash (PQ20), Warp Kamehameha (PQ76), and Super Black Kamehameha Rosé (PQ109)**. The maintained PQ reward guide explicitly lists these skills in Basic Reward sections, separate from Ultimate Finish conditions. 
 
 - Live nullable Super/Ultimate census after this batch: **27 total — 24 Super / 3 Ultimate**.
 - Skills commit: `5bab0a70c05064b9044ab7d25f93e20255058eb7`.
@@ -2472,9 +2472,9 @@ Resolved `ultimate_finish_required: false` for **Do or Die (PQ49), Charge (PQ83)
 
 ## 2026-09-19 — basic-reward non-UF batch 30
 
-Resolved `ultimate_finish_required: false` for **Prominence Flash (PQ137)** and **Ribrianne's Eternal Love (PQ137)**. The maintained PQ guide explicitly lists both skills under PQ137's Basic Reward, while the Ultimate Finish condition is separately listed as defeating Jiren and the other final opponents. citeturn0search0turn0search1
+Resolved `ultimate_finish_required: false` for **Prominence Flash (PQ137)** and **Ribrianne's Eternal Love (PQ137)**. The maintained PQ guide explicitly lists both skills under PQ137's Basic Reward, while the Ultimate Finish condition is separately listed as defeating Jiren and the other final opponents. 
 
-- Community discussion confirms RNG can affect whether a drop appears, but does not establish UF-only gating for these two skills; the maintained guide's reward-section placement is the evidence used here. citeturn0search2
+- Community discussion confirms RNG can affect whether a drop appears, but does not establish UF-only gating for these two skills; the maintained guide's reward-section placement is the evidence used here. 
 - Live nullable Super/Ultimate census after this batch: **25 total — 24 Super / 1 Ultimate**.
 - Skills commit: `ea9f5e9d0386a40baa0b4447d62e542b0cb464e9`.
 - No schema or validator changes.
@@ -2482,7 +2482,7 @@ Resolved `ultimate_finish_required: false` for **Prominence Flash (PQ137)** and 
 
 ## 2026-09-19 — final nullable Ultimate resolution
 
-Resolved `ultimate_finish_required: false` for **Super Gamma Blast (PQ158)**. The maintained PQ guide explicitly lists Super Gamma Blast in PQ158's **Basic Reward** list; the quest's win conditions are listed separately. Community reports describe repeated RNG farming but do not establish Ultimate Finish as a required acquisition gate. citeturn1search0turn1reddit13
+Resolved `ultimate_finish_required: false` for **Super Gamma Blast (PQ158)**. The maintained PQ guide explicitly lists Super Gamma Blast in PQ158's **Basic Reward** list; the quest's win conditions are listed separately. Community reports describe repeated RNG farming but do not establish Ultimate Finish as a required acquisition gate. 
 
 - Live nullable Super/Ultimate census after this resolution: **24 total — 24 Super / 0 Ultimate**.
 - Skills commit: `85b4e9a63a2de387e28076220df437a94489b1b9`.
@@ -2491,9 +2491,9 @@ Resolved `ultimate_finish_required: false` for **Super Gamma Blast (PQ158)**. Th
 
 ## 2026-09-19 — basic-reward Super batch 31
 
-Resolved `ultimate_finish_required: false` for **Vanishing Ball (PQ58), Evil Whirlwind (PQ36), Justice Pose (PQ53), Taunt (PQ45), and Super God Fist (PQ67)**. The maintained PQ reward guide explicitly places each skill in its quest's Basic Reward list. citeturn0search0turn0search1
+Resolved `ultimate_finish_required: false` for **Vanishing Ball (PQ58), Evil Whirlwind (PQ36), Justice Pose (PQ53), Taunt (PQ45), and Super God Fist (PQ67)**. The maintained PQ reward guide explicitly places each skill in its quest's Basic Reward list. 
 
-- Community discussion around Super God Fist reports RNG/drop difficulty but does not establish UF-only gating; the explicit reward-section placement is the basis for this audit. citeturn0search2turn0search3
+- Community discussion around Super God Fist reports RNG/drop difficulty but does not establish UF-only gating; the explicit reward-section placement is the basis for this audit. 
 - Live nullable Super/Ultimate census after this batch: **19 total — 19 Super / 0 Ultimate**.
 - Skills commit: `dbb35d0fa1e57db2fa51998c53ee72057abdd179`.
 - No schema or validator changes.
@@ -2501,7 +2501,7 @@ Resolved `ultimate_finish_required: false` for **Vanishing Ball (PQ58), Evil Whi
 
 ## 2026-09-19 — basic-reward Super batch 32
 
-Resolved `ultimate_finish_required: false` for **Crimson Edge (PQ171), Divine Spear (PQ171), and Wild Stinger (PQ172)**. The maintained PQ guide explicitly lists these skills under the respective quests' Basic Reward sections, while each quest's win conditions are separately stated. citeturn0search0turn0search1
+Resolved `ultimate_finish_required: false` for **Crimson Edge (PQ171), Divine Spear (PQ171), and Wild Stinger (PQ172)**. The maintained PQ guide explicitly lists these skills under the respective quests' Basic Reward sections, while each quest's win conditions are separately stated. 
 
 - This is explicit reward-section evidence; no UF requirement is inferred from the fact that these are PQ rewards.
 - Live nullable Super/Ultimate census after this batch: **16 total — 16 Super / 0 Ultimate**.
@@ -2511,9 +2511,9 @@ Resolved `ultimate_finish_required: false` for **Crimson Edge (PQ171), Divine Sp
 
 ## 2026-09-19 — basic-reward Super batch 33
 
-Resolved `ultimate_finish_required: false` for **Scissors Paper Rock (PQ65)** and **Variant Drive (PQ123)**. The maintained PQ guide explicitly lists both in Basic Reward sections, separate from each quest's win conditions. citeturn0search0
+Resolved `ultimate_finish_required: false` for **Scissors Paper Rock (PQ65)** and **Variant Drive (PQ123)**. The maintained PQ guide explicitly lists both in Basic Reward sections, separate from each quest's win conditions. 
 
-- **Meditation (PQ122)** remains `null`: although the guide lists it under Basic Reward, multiple community reports specifically associate obtaining it with the Ultimate Finish and do not provide enough evidence to resolve the conflict. citeturn0search1turn0search7
+- **Meditation (PQ122)** remains `null`: although the guide lists it under Basic Reward, multiple community reports specifically associate obtaining it with the Ultimate Finish and do not provide enough evidence to resolve the conflict. 
 - Live nullable Super/Ultimate census after this batch: **14 total — 14 Super / 0 Ultimate**.
 - Skills commit: `f9c36077153b37c5a9bb7dc9e5f2a28b07a10ee7`.
 - No schema or validator changes.
@@ -2521,9 +2521,9 @@ Resolved `ultimate_finish_required: false` for **Scissors Paper Rock (PQ65)** an
 
 ## 2026-09-19 — Meditation UF conflict resolution
 
-Resolved `ultimate_finish_required: false` for **Meditation (PQ122)**. Current evidence identifies Meditation as a random drop from Jiren rather than an Ultimate Finish-only reward: a GameFAQs PQ122 discussion explicitly distinguishes Meditation as dropping from Jiren while identifying Power Rush as the Ultimate Finish reward, and a later community report states Meditation can drop without Ultimate Finish. citeturn0search4turn0reddit13
+Resolved `ultimate_finish_required: false` for **Meditation (PQ122)**. Current evidence identifies Meditation as a random drop from Jiren rather than an Ultimate Finish-only reward: a GameFAQs PQ122 discussion explicitly distinguishes Meditation as dropping from Jiren while identifying Power Rush as the Ultimate Finish reward, and a later community report states Meditation can drop without Ultimate Finish. 
 
-- Earlier reports claiming UF was required are retained as conflicting evidence rather than ignored; the stronger acquisition-specific evidence supports non-UF gating. citeturn0search0turn0search10
+- Earlier reports claiming UF was required are retained as conflicting evidence rather than ignored; the stronger acquisition-specific evidence supports non-UF gating. 
 - Live nullable Super/Ultimate census after this resolution: **13 total — 13 Super / 0 Ultimate**.
 - Skills commit: `fcc6418520e35a775a2dc41e090b7ecb82b04b78`.
 - No schema or validator changes.
@@ -2531,7 +2531,7 @@ Resolved `ultimate_finish_required: false` for **Meditation (PQ122)**. Current e
 
 ## 2026-09-19 — basic-reward Super batch 34
 
-Resolved `ultimate_finish_required: false` for **Phantom Fist (PQ97), Savory Slicer (PQ140), Shining Slash (PQ38), and Gigantic Breaker (PQ126)**. The maintained PQ guide explicitly lists each in its quest's Basic Reward section, separate from the listed Ultimate Finish conditions. citeturn0search0turn0search2
+Resolved `ultimate_finish_required: false` for **Phantom Fist (PQ97), Savory Slicer (PQ140), Shining Slash (PQ38), and Gigantic Breaker (PQ126)**. The maintained PQ guide explicitly lists each in its quest's Basic Reward section, separate from the listed Ultimate Finish conditions. 
 
 - Live nullable Super/Ultimate census after this batch: **9 total — 9 Super / 0 Ultimate**.
 - Skills commit: `c50e7e751117b42407481c1a8cf66b38b2195e88`.
@@ -2571,10 +2571,10 @@ Key evidence includes the maintained 186-PQ reward guide, which explicitly place
 
 Completed the remaining nullable `ultimate_finish_required` census for all **16 Awoken** records.
 
-- **true:** Kaioken. Current evidence explicitly states it is obtained by completing the Ultimate Finish of Parallel Quest 8, *Invade Earth*. citeturn0search10turn0search1
-- **false:** Become Giant, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Vegeta, The Power to Overcome, Turn Golden, Beast, Potential Unleashed, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Ultra Instinct. Their acquisition evidence points to Time Rift/mentor/story/wish/Advancement Test/DLC/challenge or character-only routes rather than an Ultimate Finish requirement. citeturn0search0turn0search1turn0search4turn0search8turn0search9
-- Potential Unleashed is specifically documented as requiring Z-ranks on the Advancement Tests, not a PQ Ultimate Finish. citeturn0search9
-- The broader Awoken reference confirms the CaC/character-only split and identifies Kaioken, Potential Unleashed, Beast and Ultra Instinct as shared CaC transformations while Pure Progress and Supersonic Mode are character-exclusive. citeturn0search8turn0search4
+- **true:** Kaioken. Current evidence explicitly states it is obtained by completing the Ultimate Finish of Parallel Quest 8, *Invade Earth*. 
+- **false:** Become Giant, Power Pole Pro, Purification, Super Saiyan, Super Saiyan God, Super Vegeta, The Power to Overcome, Turn Golden, Beast, Potential Unleashed, Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, Supersonic Mode, and Ultra Instinct. Their acquisition evidence points to Time Rift/mentor/story/wish/Advancement Test/DLC/challenge or character-only routes rather than an Ultimate Finish requirement. 
+- Potential Unleashed is specifically documented as requiring Z-ranks on the Advancement Tests, not a PQ Ultimate Finish. 
+- The broader Awoken reference confirms the CaC/character-only split and identifies Kaioken, Potential Unleashed, Beast and Ultra Instinct as shared CaC transformations while Pure Progress and Supersonic Mode are character-exclusive. 
 
 Live nullable `ultimate_finish_required` census after this pass: **0 across all 283 skill records**.
 
@@ -2582,18 +2582,18 @@ No schema or validator changes were made. The field is now fully populated for t
 
 ## 2026-09-19 — Evasive Ki-cost metadata pass
 
-Audited the 17 Evasive records whose `ki_cost` was still nullable. Current Evasive reference data describes Evasives as Stamina-based skills, with activation costs represented by `stamina_cost`; the maintained Evasive reference lists the affected skills with stamina costs rather than a Ki activation cost. citeturn1search0turn1search1
+Audited the 17 Evasive records whose `ki_cost` was still nullable. Current Evasive reference data describes Evasives as Stamina-based skills, with activation costs represented by `stamina_cost`; the maintained Evasive reference lists the affected skills with stamina costs rather than a Ki activation cost. 
 
 Resolved `ki_cost` to **0** for: Absolute Zero, Dragon Burn, Explosive Wave, Mighty Explosive Wave, Psychic Move, Punisher Guard, Spread Shot Retreat, Final Pose, Mach Dash, Angry Shout, Energy Barrier, Spirit Explosion, Spirit Slash, Headshot, Rolling Bullet, Victory Cannon, and Energy Field.
 
-This pass does not alter `stamina_cost`; the existing per-skill stamina values remain authoritative. The distinction matters because some Evasives can have additional-input behavior involving Ki, but the base Evasive activation is Stamina-based. citeturn1search1
+This pass does not alter `stamina_cost`; the existing per-skill stamina values remain authoritative. The distinction matters because some Evasives can have additional-input behavior involving Ki, but the base Evasive activation is Stamina-based. 
 
 Skills commit: `c27d65ec768d9c292e59fc165d0a87dd6d82229a`.
 No schema or validator changes were made.
 
 ## 2026-09-19 — character-only race restriction pass
 
-The 13 nullable `race_restriction` records were inspected. Ten records have populated legacy values that are outside the current normalized CaC race vocabulary; the **three genuinely null records** are Pure Progress, Super Saiyan Blue Kaioken, and Supersonic Mode. Current research explicitly identifies these as character-exclusive/non-CaC transformations, so their restriction is represented as `Character-only` rather than leaving the field null. citeturn0search1turn0search0
+The 13 nullable `race_restriction` records were inspected. Ten records have populated legacy values that are outside the current normalized CaC race vocabulary; the **three genuinely null records** are Pure Progress, Super Saiyan Blue Kaioken, and Supersonic Mode. Current research explicitly identifies these as character-exclusive/non-CaC transformations, so their restriction is represented as `Character-only` rather than leaving the field null. 
 
 Updated: **Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode → `race_restriction: "Character-only"`**.
 
@@ -2604,7 +2604,7 @@ No schema or validator changes were made.
 
 ## 2026-09-19 — remaining race restriction nulls resolved
 
-The remaining **10 nullable `race_restriction` records** were audited after the three Awoken character-only records were normalized. All ten are explicitly marked `usable_by_cac: false` and have current acquisition/source metadata identifying them as character-exclusive/non-CaC skills: Big Bang Knuckle, Divine Spear, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Crimson Edge, Dragon Thunder, and Wild Stinger. Current race/skill references distinguish CaC-race restrictions from character-exclusive skills; character-only transformations/skills are not tied to one of the five CaC races. citeturn0search11turn0search1
+The remaining **10 nullable `race_restriction` records** were audited after the three Awoken character-only records were normalized. All ten are explicitly marked `usable_by_cac: false` and have current acquisition/source metadata identifying them as character-exclusive/non-CaC skills: Big Bang Knuckle, Divine Spear, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, Crimson Edge, Dragon Thunder, and Wild Stinger. Current race/skill references distinguish CaC-race restrictions from character-exclusive skills; character-only transformations/skills are not tied to one of the five CaC races. 
 
 Resolved all ten to **`race_restriction: "Character-only"`**. No race-specific restriction was invented for them.
 
@@ -2646,3 +2646,13 @@ Populated eight explicit `source_quest` identifiers already present in the recor
 
 Skills commit: `c8c42075dd243931c5b752fbe06d6e4af68be361`.
 
+
+
+## 2026-09-19 — source-quest provenance batch 6
+
+Populated ten explicit Parallel Quest provenance identifiers from existing source_quest_or_shop / acquisition metadata and the record-level sources: **Eraser Bomb (PQ163), Gigantic Charge (PQ128), God Punisher (PQ132), Handy Canon (PQ115), Ill Bomber (PQ90), Pendulum Bullet (PQ166), Ray Blast (PQ125), Reverse Shot (PQ123), Shine Shot (PQ07), and Spirit Blaster (PQ129)**. No quest number was inferred from generic PQ association; each value was already explicitly present in the live skill record.
+
+Skills commit: `bbda596171ff50016bb723e7086721cd402d052b`.
+Live source_quest null count after this batch: **191 / 283**. Remaining nulls are intentionally retained where the current record does not establish a single canonical quest provenance, including shop/mentor/story routes and multi-PQ reward-pool cases.
+
+No schema or validator changes were made.
