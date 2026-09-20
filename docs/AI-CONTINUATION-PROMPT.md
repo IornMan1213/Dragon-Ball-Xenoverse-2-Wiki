@@ -2932,3 +2932,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No additional `source_quest` promotion was justified because the first three are character-only despite PQ context, while the latter two have multiple acquisition routes.
 - Coverage audit commit: `97f12c210ebd66ef22642ef26c4761b4f71b87b7`.
 - Next pass should focus on finding any explicit single-PQ reward evidence for the remaining nulls; otherwise preserve the null rather than inventing provenance.
+
+
+### 2026-09-19 continuation — targeted provenance check batch 24
+- Re-checked Reverse Mabakusenko: historical community references associate it with PQ51, but current reference data identifies Skill Shop as the CaC acquisition route. Keep `source_quest` null unless the repository establishes a canonical quest route. citeturn0search1turn0search6
+- No `skills.json` change in this pass.
+- Coverage audit commit: `0f6145ad9e01ac44ea563d423d67a34320bf7d6d`.
+- Continue targeted checks of remaining nulls, prioritizing explicit single-quest evidence over historical or multi-source associations.
