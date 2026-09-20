@@ -2861,3 +2861,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Completed 21 explicit single-PQ provenance records. Skills commit: `c8b984edea0440ce06c5e1b4d6b266006eef5126`; coverage audit commit: `28d1f61196b779920c492a2141eed2529c847ee9`.
 - Live census: 283 records; `source_quest` null on 93 records.
 - Next task: continue the explicit single-PQ census. The remaining clear candidates include **Burning Blast (PQ180)**, **Super Black Kamehameha Rosé already completed**, then continue with the next unambiguous records found live. Do not promote character-only, multi-PQ/shop, or unresolved exact-drop-gating records without new evidence.
+
+
+### 2026-09-19 continuation — source quest provenance batch 13
+- Completed 4 unambiguous single-PQ provenance records. Skills commit: `8d9342ddc48c74f75d5c2b36d309998e611f3af7`; coverage audit commit: `363ae0cdb2c17981215d68957ccea22717ef1ea4`.
+- Live census: 283 records; `source_quest` null on 89 records.
+- Next task: inspect the remaining null records for newly established single-PQ evidence. Current PQ-bearing nulls are mostly ambiguous/research cases (e.g. exact-drop gating, multi-PQ pools, character-only context, or shop combinations); do not promote those without stronger evidence. Also inspect null records whose acquisition metadata may identify a canonical quest without using a PQ number.
