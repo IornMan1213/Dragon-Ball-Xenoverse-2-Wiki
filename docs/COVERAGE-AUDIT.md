@@ -3267,3 +3267,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 - Corrected `docs/data/skills.json` for **Evil Blast (PQ114)** and **Evil Flame (PQ117)** so both identify **Extra Pack 1**.
 - The maintained PQ transcription and DLC reference place PQ114 and PQ117 in Extra Pack 1. No other skill fields were changed.
+
+
+## Skill DLC provenance refinement — 2026-09-20
+
+- Replaced generic `DLC PQ` labels with exact DLC provenance for **Flash Chaser (PQ138) → Ultra Pack 2**, **Photon Swipe (PQ139) → Ultra Pack 2**, **Pretty Cannon (PQ133) → Ultra Pack 1**, and **Raid Blast (PQ136) → Ultra Pack 1**.
+- The maintained PQ records and independent PQ/DLC references explicitly map these quest numbers to those packs.
+- No acquisition, Ultimate Finish, CaC, race, cost, or mechanics fields were changed.
