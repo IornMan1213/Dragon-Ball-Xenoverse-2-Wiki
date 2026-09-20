@@ -2771,3 +2771,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `1b3e8da7e5154800da971b95068e8388d0575fb8`, `354106948a7cb49855eeafc24caa261471f42b9b`, `36416e6debf2b66f4fd60f7f251c1e09ff88e95f`.
 - Exact next task: continue the remaining current-scope canonical audit, prioritizing stale `usable_by_cac`, acquisition type, and reward-gate fields while preserving uncertainty where evidence conflicts.
+
+
+### 2026-09-20 cycle update — Future Saga PQ CaC-availability correction
+- Corrected **Big Bang Knuckle**, **Divine Spear**, and **Crimson Edge** from stale `usable_by_cac=false` to CaC-accessible PQ skills.
+- Dedicated skill pages show normal Super Skill/PQ unlock status, while the maintained PQ guide lists them as Basic Rewards in PQ172 (Big Bang Knuckle) and PQ171 (Crimson Edge, Divine Spear); they are not in the cast-exclusive/unavailable-for-CaC classification. citeturn0search0turn0search1turn0search2turn0search5
+- Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
+- Commits: `bc8d3e65b2f8a1be0b2293b25231071dc691ae65`, `30a238294dadcca7e9c97ab1f71601e01789fd24`, `6acb5254b8e5a6c0b065748cbd7bad0388cad767`.
+- Exact next task: continue the current-scope audit for stale CaC boundaries and acquisition semantics, then resolve remaining reward-gate conflicts without inventing probabilities.
