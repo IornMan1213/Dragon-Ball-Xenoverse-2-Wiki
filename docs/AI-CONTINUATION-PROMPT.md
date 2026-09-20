@@ -3386,3 +3386,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No gameplay/acquisition field required a correction in this batch. The canonical census remains **283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified**.
 - Updated `docs/data/skill-catalog-audit.json` with the reconciliation note; commit: `d4cb7b4d7da405eb516087c9fcb9cecfe3467a82`.
 - Exact next task: continue the 78-record second-pass audit, prioritizing remaining character-only and shop/non-quest records plus any broad DLC/version labels. Preserve uncertain values when evidence is not decisive, then inspect the latest Actions state and update this handoff.
+
+
+### 2026-09-20 cycle update — broad DLC label sweep
+- Rechecked all **78 `verified_current_scope`** skill records specifically for broad `dlc_requirement` labels such as `Pass`, generic `DLC PQ`, or generic `DLC`.
+- **No such broad labels remain** in the current scope. Exact pack/update provenance is retained across the audited records.
+- External publisher/store listings corroborate the repository's DLC taxonomy: Extra Pack 2 is a distinct paid pack with 8 skills; Ultra Pack 2 is a distinct pack with 8 skills; Conton City Vote Pack is separately identified with 10 additional moves. citeturn0search0turn0search2turn0search9
+- No canonical skill record required modification in this sweep. Audit note committed as `adba139162d7969901a14e36cbd1033a0800d81b`.
+- Exact next task: continue the 78-record second pass on acquisition/source-field contradictions and non-DLC provenance (shops, character-only routes, wishes, mentors, raids/events), then inspect the newest Actions state and update this handoff.
