@@ -2939,3 +2939,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No `skills.json` change in this pass.
 - Coverage audit commit: `0f6145ad9e01ac44ea563d423d67a34320bf7d6d`.
 - Continue targeted checks of remaining nulls, prioritizing explicit single-quest evidence over historical or multi-source associations.
+
+
+### 2026-09-19 continuation — explicit Final Pose PQ reward batch 25
+- Resolved **Final Pose → PQ74** from the maintained PQ reward guide, which explicitly lists it as a PQ74 reward. Skills commit: `62d434b84aecf89d5f408b0c024243aff6714e24`; coverage commit: `7f0bf99403128b13c9f0c3d7860104d28fc6669d`.
+- Live census: 283 records; `source_quest` null on 34 records.
+- Next: continue searching remaining nulls for direct quest reward listings, while retaining nulls for genuinely multi-source or character-only records.
