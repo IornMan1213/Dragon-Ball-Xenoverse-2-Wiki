@@ -870,23 +870,29 @@
       "name": "Bending Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "Skill Shop purchase"
     },
     {
       "name": "Big Bang Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "TP Medal Shop purchase"
     },
     {
       "name": "Big Bang Knuckle",
@@ -1135,13 +1141,16 @@
       "name": "Divine Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "tp_medal_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Kamehameha",
         "https://dragonball.fandom.com/wiki/Perfected_Ultra_Instinct"
-      ]
+      ],
+      "last_verified": "2026-09-19",
+      "ultimate_finish_required": false,
+      "unlock_method": "TP Medal Shop"
     },
     {
       "name": "Divine Spear",
