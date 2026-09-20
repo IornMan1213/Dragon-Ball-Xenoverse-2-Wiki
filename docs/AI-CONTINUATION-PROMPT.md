@@ -3567,3 +3567,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Counts after this batch: **153 verified / 51 partially verified** across 283 records.
 - Next task: continue the remaining 51 partial records; prioritize records where acquisition is independently corroborated, but retain partial status when reward-condition conflicts remain.
+
+
+### 2026-09-20 continuation — three PQ acquisition verifications
+- Promoted **Variant Drive (PQ123)**, **Zigzag Express (PQ85)**, and **Blaster Stream (PQ148)** to verified. Current skill documentation explicitly identifies each acquisition source; the maintained PQ guide independently lists each as a Basic Reward. citeturn0search0turn2search0turn1search4turn1search2
+- No new Ultimate Finish requirement was inferred. Zigzag Express's documented Male Majin restriction remains represented in the canonical record.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
+- Counts after this batch: **156 verified / 48 partially verified** across 283 records.
+- Next task: continue the remaining 48 partial records, prioritizing current skill pages plus independent PQ/shop reward corroboration.
