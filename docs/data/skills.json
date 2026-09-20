@@ -3394,7 +3394,8 @@
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "last_verified": "2026-09-19",
-      "race_restriction": "Character-only"
+      "race_restriction": "Character-only",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Final Charge",
@@ -3484,7 +3485,8 @@
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "last_verified": "2026-09-19",
-      "race_restriction": "Character-only"
+      "race_restriction": "Character-only",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Instant Transmission",
@@ -3658,7 +3660,8 @@
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "last_verified": "2026-09-19",
-      "race_restriction": "Character-only"
+      "race_restriction": "Character-only",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Shield Barrier",
@@ -3719,7 +3722,8 @@
       "mechanics_notes": "Confirmed as a 0-Ki Skill Shop defensive Other Super. It projects a wide defensive barrier that can cancel incoming Ki attacks for a short window and can protect nearby allies. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
       "last_verified": "2026-09-19",
       "research_status": "enriched",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Super Guard",
@@ -3786,7 +3790,8 @@
       "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "source_quest": "Decisive Battle with Majin Buu"
+      "source_quest": "Decisive Battle with Majin Buu",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Time Control",
@@ -4026,7 +4031,8 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
       "character_source": "Recoome",
-      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
+      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Formation!",
@@ -4511,7 +4517,8 @@
       "last_verified": "2026-09-19",
       "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; prior all-CaC-races classification was incorrect. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "source_quest_or_shop": "Character skill",
-      "race_restriction": "Character-only"
+      "race_restriction": "Character-only",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Emperor's Edge",
@@ -4957,7 +4964,8 @@
       "last_verified": "2026-09-19",
       "research_status": "enriched",
       "source_quest_or_shop": "TP Medal Shop",
-      "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill."
+      "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill.",
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Neo Wolf Fang Fist",
@@ -5804,7 +5812,8 @@
       "research_status": "enriched",
       "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users.",
       "race_restriction": "All CaC races",
-      "source_quest": 91
+      "source_quest": 91,
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Full Power Destruction",
@@ -6780,7 +6789,7 @@
       "last_verified": "2026-09-19",
       "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price.",
       "source_quest_or_shop": "TP Medal Shop",
-      "dlc_requirement": null
+      "dlc_requirement": "Base Game"
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -6882,7 +6891,7 @@
       "last_verified": "2026-09-19",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent.",
-      "dlc_requirement": null
+      "dlc_requirement": "Free Update 12"
     },
     {
       "name": "Power Rush",
