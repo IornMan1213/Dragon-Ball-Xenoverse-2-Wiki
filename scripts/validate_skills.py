@@ -39,7 +39,7 @@ def main():
  ikeys=[key(r) for r in ir]
  if keys!=ikeys:errors.append('skills-index.json is not in the same deterministic record order/content key sequence as skills.json')
  for a,b in zip(rs,ir):
-  for f in ('name','class','subcategory','verification_status','research_status','sources'):
+  for f in ('name','class','subcategory','verification_status','research_status','acquisition_type','sources'):
    if a.get(f)!=b.get(f):errors.append(f"index mismatch for {a.get('name')}: {f}")
  awoken=[r for r in rs if r.get('class')=='Awoken' and r.get('subcategory')=='Race']
  if len(awoken)!=15:errors.append(f'expected 15 canonical Awoken parent records, found {len(awoken)}')
