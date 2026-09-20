@@ -819,17 +819,17 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Random reward in Parallel Quest 119 — \"A Ranger's Duty\" after achieving the Ultimate Finish.",
+      "unlock_method": "Parallel Quest 119 — \"A Ranger's Duty\" Basic Reward",
       "source_quest": 119,
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "usable_by_cac": true,
-      "source_quest_or_shop": "Parallel Quest 119 - Ultimate Finish",
+      "source_quest_or_shop": "Parallel Quest 119",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 2",
-      "last_verified": "2026-09-19",
-      "mechanics_notes": "100 Ki Strike Super counter. The user braces for an incoming attack; Strike attacks trigger a kick, while Ki Blast attacks trigger an energy barrier. Current source evidence confirms the PQ119 Ultimate Finish acquisition route.",
+      "last_verified": "2026-09-20",
+      "mechanics_notes": "100 Ki Strike Super counter. The user braces for an incoming attack; Strike attacks trigger a kick, while Ki Blast attacks trigger an energy barrier. Current source evidence confirms the PQ119 Ultimate Finish acquisition route. Current reward-table evidence explicitly lists Rough Ranger under Basic Reward rather than an Ultimate Finish-only slot.",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: current reward-table evidence places Rough Ranger in the Basic Reward pool; the prior Ultimate Finish flag was stale."
     },
     {
       "name": "Shadow Crusher",
@@ -2292,14 +2292,14 @@
       "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 11 — \"Burst Open and Mix!\" Ultimate Finish reward",
+      "unlock_method": "Parallel Quest 11 — \"Burst Open and Mix!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 11",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Earth Splitting Galick Gun is a Super Ki Blast skill associated with Vegeta.",
-      "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11, with Ultimate Finish required in the existing acquisition record. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current evidence confirms Earth Splitting Galick Gun as a 200-Ki Ki Blast Super from PQ11, with Ultimate Finish required in the existing acquisition record. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Current reward-table evidence explicitly lists Earth Splitting Galick Gun under Basic Reward rather than an Ultimate Finish-only slot.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Earth_Splitting_Galick_Gun",
@@ -2309,7 +2309,7 @@
       "source_quest": 11,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: current reward-table evidence places Earth Splitting Galick Gun in the Basic Reward pool; the prior Ultimate Finish flag was stale."
     },
     {
       "name": "Emperor's Blast",
@@ -3068,14 +3068,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 136 — \"Breaking Down The Barrier\" Ultimate Finish reward",
+      "unlock_method": "Parallel Quest 136 — \"Breaking Down The Barrier\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 136",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "Raid Blast is a Super Ki Blast skill used by Super Saiyan God Vegeta.",
-      "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. The dataset's existing Ultimate Finish requirement is retained. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
+      "mechanics_notes": "Confirmed as Super Saiyan God Vegeta's 100-Ki Ki Blast Super from PQ136. The dataset's existing Ultimate Finish requirement is retained. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence. Current reward-table evidence explicitly lists Raid Blast under Basic Reward rather than an Ultimate Finish-only slot.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Raid_Blast",
@@ -3086,7 +3086,7 @@
       "source_quest": 136,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: current reward-table evidence places Raid Blast in the Basic Reward pool; the prior Ultimate Finish flag was stale."
     },
     {
       "name": "Ray Blast",
