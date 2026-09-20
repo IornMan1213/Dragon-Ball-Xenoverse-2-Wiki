@@ -51,6 +51,7 @@ def main():
   if acquisition=='quest_or_mission' and not has_quest:errors.append(f"{r.get('name')}: quest_or_mission acquisition requires source_quest")
   if acquisition!='quest_or_mission' and has_quest:errors.append(f"{r.get('name')}: non-quest acquisition cannot have source_quest")
   if acquisition in {'skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'} and not r.get('source_quest_or_shop'):errors.append(f"{r.get('name')}: {acquisition} acquisition requires source_quest_or_shop")
+  if isinstance(r.get('source_quest'),int) and (r.get('source_quest') < 1 or r.get('source_quest') > 186):errors.append(f"{r.get('name')}: numeric source_quest must be a canonical PQ ID from 1 through 186")
   uf=r.get('ultimate_finish_required')
   if uf not in (None,True,False):
    errors.append(f"{r.get('name')}: invalid ultimate_finish_required value")
