@@ -3680,3 +3680,13 @@ Live inspection of the validation contract exposed two repository integrity issu
 - `last_verified` is currently split between 218 records dated 2026-09-19 and 65 dated 2026-09-20; this is expected from the staged verification batches and is not by itself evidence of stale data.
 - No mass edits were made for `race_restriction="All CaC races"` records merely because explanatory notes do not repeat that phrase; those entries require evidence-based review rather than mechanical normalization.
 - Next task: inspect the remaining 78 `verified_current_scope` records for stale classifications/restrictions and review repository workflow/validation configuration for actionable failures.
+
+
+### 2026-09-20 continuation — verified_current_scope and CI diagnostics
+- Reviewed all **78 `verified_current_scope`** records for obvious structural contradictions. None are marked `usable_by_cac=false` while simultaneously claiming `race_restriction="All CaC races"`; no mechanical mass-normalization was warranted.
+- GitHub Actions inspection now confirms the current repository's **Pages build succeeds**, while Repository quality and Clean internal artifacts continue to fail on the latest metadata-pass commit. Wiki data audit also continues to fail across the recent skill-data commits.
+- The latest Repository quality run has a single failed job, `Check for internal artifacts`. GitHub's job-step endpoint returns no step details and the job-log endpoint returns 404, so the exact failure line cannot be recovered through the connected API. The workflow's diagnostic artifact list is empty for that run. This is recorded as an evidence limitation, not guessed around.
+- The Clean internal artifacts workflow also fails on the same commit. Its current definition runs `scripts/strip_internal_artifacts.py`, then `scripts/check_repo_artifacts.py`; the exact failing step is unavailable through the connected API.
+- Wiki data audit has failed repeatedly since before the latest catalog changes, including the skill-catalog audit commits. No unverified CI diagnosis is being asserted.
+- The metadata audit itself remains clean: 283 canonical/index records, 205 verified, 78 verified_current_scope, 0 conflict, 0 partial; no source-quest number mismatches; no missing sources.
+- Next task: use repository-local/static inspection to identify committed internal-artifact markers and audit-workflow assumptions that can be proven from tracked files, then make only evidence-backed fixes and rerun/inspect resulting workflow state.
