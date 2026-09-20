@@ -7093,7 +7093,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "TP Medal Shop purchase or Parallel Quest reward",
       "source_quest_or_shop": "TP Medal Shop; Parallel Quest 100",
-      "ultimate_finish_required": true,
+      "ultimate_finish_required": false,
       "skill_description": "X 100 Big Bang Kamehameha is a Ultimate Ki Blast skill associated with Vegeta (Super Saiyan Blue).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research.",
       "verification_status": "partially_verified",
@@ -7108,7 +7108,7 @@
       "source_quest": 100,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "PQ100 Basic Reward and TP Medal Shop routes are established; Ultimate Finish is not required for the canonical acquisition route."
     },
     {
       "name": "Blades of Judgment",
