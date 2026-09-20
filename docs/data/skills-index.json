@@ -3195,8 +3195,8 @@
         "https://dbxv2.fandom.com/wiki/Lovely_Cyclone",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 135 — Ultimate Finish bonus slot.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20"
     },
     {
@@ -3309,7 +3309,7 @@
         "https://dbxv2.fandom.com/wiki/Powered_Shell",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 128 — Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20"
     },
@@ -3374,8 +3374,8 @@
         "https://dbxv2.fandom.com/wiki/Savory_Slicer",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 140 — Ultimate Finish bonus slot.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20"
     },
     {
@@ -3840,7 +3840,7 @@
         "https://dbxv2.fandom.com/wiki/Gigantic_Burst",
         "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
       ],
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 127 — Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20"
     },
@@ -3870,7 +3870,7 @@
         "https://dbxv2.fandom.com/wiki/Gigantic_Roar",
         "https://dragonball.fandom.com/wiki/Gigantic_Roar"
       ],
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 132 — First-Clear Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20"
     },
@@ -4054,7 +4054,7 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Revenge_Death_Ball"
       ],
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 127 — Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20"
     },
@@ -4086,8 +4086,8 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Ribrianne%27s_Eternal_Love"
       ],
-      "unlock_method": "Parallel Quest reward",
-      "ultimate_finish_required": false,
+      "unlock_method": "Parallel Quest 137 — Ultimate Finish bonus slot.",
+      "ultimate_finish_required": true,
       "last_verified": "2026-09-20"
     },
     {
@@ -4262,7 +4262,7 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Total_Detonation_Ball"
       ],
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 139 — First-Clear Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20"
     },
