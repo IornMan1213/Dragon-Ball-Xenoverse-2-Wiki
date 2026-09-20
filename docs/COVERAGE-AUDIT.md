@@ -3710,3 +3710,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Re-synchronized `docs/data/skills-index.json`; canonical/index parity is restored at **283 records**.
 - Evidence limitation: some PQ batch records contain both Basic Reward listings and explicit drop-condition slots. Where an explicit current drop condition exists, the canonical gate follows that condition while preserving the underlying source metadata; no unsupported probability was invented.
 
+
+
+## 2026-09-20 — CaC race-scope evidence reconciliation
+- Resolved three previously null CaC race fields from explicit Future Warrior evidence: **Super God Fist**, **Variant Drive**, and **Chain Destructo-Disc Barrage** → `All CaC races`.
+- The evidence establishes Future Warrior acquisition in Xenoverse 2, while no narrower race/gender/form restriction is documented. No race-specific inference was made.
+- Canonical/index parity remains exact at 283 records.
