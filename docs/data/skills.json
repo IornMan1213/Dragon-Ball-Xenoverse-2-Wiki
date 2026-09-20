@@ -522,7 +522,7 @@
       "name": "Burst Reflection",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
       ],
@@ -539,7 +539,7 @@
       "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
       "source_quest": null,
       "acquisition_type": "other_nonquest",
-      "notes": ""
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward."
     },
     {
       "name": "Burst Rush",
@@ -688,7 +688,7 @@
       "name": "Flash Fist Crush",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Flash_Fist_Crush",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -706,7 +706,7 @@
       "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": null,
       "acquisition_type": "other_nonquest",
-      "notes": ""
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward."
     },
     {
       "name": "God Breaker",
@@ -834,7 +834,7 @@
       "name": "Shadow Crusher",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shadow_Crusher",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -842,7 +842,7 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Training with Cooler (Final Form)",
+      "unlock_method": "Cooler (Final Form) mentor training",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -852,7 +852,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "source_quest": "Cooler (Final Form) mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward."
     },
     {
       "name": "Sudden Death Beam",
@@ -929,7 +929,7 @@
       "name": "Time Skip/Back Breaker",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Back_Breaker",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -937,7 +937,7 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Training with Hit",
+      "unlock_method": "Hit mentor training",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -947,13 +947,13 @@
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward."
     },
     {
       "name": "Time Skip/Flash Skewer",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Flash_Skewer",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -961,7 +961,7 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Training with Hit",
+      "unlock_method": "Hit mentor training",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -971,13 +971,13 @@
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward."
     },
     {
       "name": "Time Skip/Jump Spike",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Jump_Spike",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -985,7 +985,7 @@
       ],
       "research_status": "enriched",
       "ki_cost": 100,
-      "unlock_method": "Training with Hit",
+      "unlock_method": "Hit mentor training",
       "last_verified": "2026-09-19",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
@@ -995,7 +995,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward."
     },
     {
       "name": "Ultrasonic Blitz",
