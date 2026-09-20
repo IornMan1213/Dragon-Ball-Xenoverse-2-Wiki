@@ -2058,7 +2058,8 @@
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "Character-only"
+      "race_restriction": "Character-only",
+      "source_quest": "PQ171 / PQ172"
     },
     {
       "name": "Double Death Slicer",
@@ -4320,7 +4321,8 @@
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "Character-only"
+      "race_restriction": "Character-only",
+      "source_quest": "PQ171 / PQ172"
     },
     {
       "name": "Deadly Dance",
@@ -5379,7 +5381,8 @@
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "Character-only"
+      "race_restriction": "Character-only",
+      "source_quest": "PQ171 / PQ172"
     },
     {
       "name": "Zigzag Express",
