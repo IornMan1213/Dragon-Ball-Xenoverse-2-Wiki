@@ -4506,7 +4506,8 @@
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 99
     },
     {
       "name": "Evil Flight Strike",
@@ -5767,7 +5768,8 @@
       "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha.",
       "research_status": "enriched",
       "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 91
     },
     {
       "name": "Full Power Destruction",
