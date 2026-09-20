@@ -3021,3 +3021,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Audit commit: `b43c5d61064669900bd8021ddb8fc61dae748596`.
 - Live census: **283 skills; 19 null `dlc_requirement`; 31 null `source_quest`**.
 - Next exact task: investigate the remaining shop/mentor/character-only skills for documented update chronology; do not assign DLC based solely on character association.
+
+
+### 2026-09-19 continuation — provenance verification correction
+- A tentative edit assigning DLC/update values to Shield Barrier, Divine Lasso, Dragon Fist, and Godly Display was verified as insufficiently supported and reverted immediately.
+- Reversion commit: `f85b1553d829658503c978f03ed01936053c1b65`.
+- Audit correction: `aa1cab46f7dc799b002a1501a5c1cacb8379a929`.
+- Live target remains **19 null `dlc_requirement` records**.
+- Next exact task: continue only with evidence-backed chronology. TP Medal Shop availability and character association alone are insufficient to assign DLC/update provenance.
