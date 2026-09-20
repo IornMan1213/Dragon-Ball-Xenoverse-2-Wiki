@@ -3230,3 +3230,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 - Corrected `Burst Rush`: PQ51 remains the source, but `ultimate_finish_required` changed from `true` to `false`.
 - The maintained all-PQ guide lists Burst Rush in PQ51's Basic Reward section, so an Ultimate Finish is not required for the canonical acquisition route. 
+
+
+## 2026-09-19 — Static schema/invariant validation
+
+- Inspected all schema enums and re-ran the repository's key cross-field invariants against all 283 canonical skill records.
+- Schema permits the intended classes (`Super`, `Ultimate`, `Evasive`, `Awoken`, `Counter`, `Mixed`), subcategories including `Transformation`, and all six acquisition types.
+- Static invariant result: 0 class/subcategory violations, 0 character-only CaC contradictions, 0 quest/non-quest `source_quest` contradictions.
+- GitHub still exposes no workflow runs/statuses for the latest handoff, so no CI pass is claimed.
