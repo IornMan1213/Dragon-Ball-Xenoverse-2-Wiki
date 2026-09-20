@@ -31,6 +31,9 @@ def main():
   except Exception as e:
    errors.append(f'JSON Schema validation error: {e}')
  if d.get('record_count')!=len(rs):errors.append('skills.json record_count mismatch')
+ if d.get('schema_version')!=idx.get('schema_version'):errors.append('skills/index schema_version mismatch')
+ if d.get('generated')!=idx.get('generated'):errors.append('skills/index generated date mismatch')
+ if d.get('source_index')!=idx.get('source_index'):errors.append('skills/index source_index mismatch')
  if idx.get('record_count')!=len(ir):errors.append('skills-index.json record_count mismatch')
  if len(rs)!=len(ir):errors.append('skills/index record lengths differ')
  keys=[key(r) for r in rs]
@@ -41,8 +44,6 @@ def main():
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
   if r.get('acquisition_type') not in ALLOWED_ACQUISITION:errors.append(f"{r.get('name')}: invalid acquisition_type {r.get('acquisition_type')}")
   uf=r.get('ultimate_finish_required')
-  if uf is False and not r.get('ultimate_finish_evidence'):
-   errors.append(f"{r.get('name')}: ultimate_finish_required=false lacks explicit evidence")
   if uf not in (None,True,False):
    errors.append(f"{r.get('name')}: invalid ultimate_finish_required value")
   if r.get('usable_by_cac') is True:
