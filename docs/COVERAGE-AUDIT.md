@@ -3016,3 +3016,19 @@ Implementation commits:
 - Index: `499859a528380b074b76d244f303c4c893f4e18e`
 - Schema: `7334a77f8fbf8108fe981f5c2a5c009486ba05cb`
 - Validator: `5b2920e176c132e9a38a86523a4742cf94dc1f3a`
+
+
+## 2026-09-19 — real JSON Schema validation wired into validator
+
+Inspected the canonical 283-record field set against `docs/data/skills.schema.json`. The schema now declares every field actually present in the canonical records; the remaining schema-only fields are optional documented placeholders.
+
+Updated `scripts/validate_skills.py` to use `jsonschema.Draft202012Validator` and validate every canonical skill record against the Draft 2020-12 schema, while retaining the repository's deterministic semantic/index checks.
+
+The validator now explicitly reports a missing `jsonschema` dependency rather than silently skipping schema validation.
+
+The environment available to this session could not execute the repository validator against a checkout: direct GitHub network access from the container is unavailable, and GitHub reports no workflow runs/status checks for the repository commits. Therefore this pass verifies the validator implementation and live field/schema coverage, but does **not** claim a successful runtime validation.
+
+Commits:
+- Schema: `27e8d73e6c442fdb98a7808f35b61e1310e141df`
+- Validator: `996df0cf516d71b5ba091d788b7edbe28b70f672`
+- Validator wiring correction: `1cf129e85f8adf459d9a82efe6f7b7eef91a1e26`
