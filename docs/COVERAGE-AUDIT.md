@@ -2685,3 +2685,10 @@ Skills commit: `59cdc9ae66a60ff9ce1dab0c92c9b10bde167cb3`.
 Promoted 18 explicit single-PQ identifiers from existing skill acquisition metadata: **Mach Punch (PQ19), Meteor Blow (PQ09), Meteor Strike (PQ06), Neo Wolf Fang Fist (PQ86), Power Impact (PQ120), Powered Shell (PQ128), Recoome Kick (PQ61), Sauzer Blade (PQ27), Savory Slicer (PQ140), Scissors Paper Rock (PQ65), Seagull Combination (PQ167), Shooting Strike (PQ156), Sonic Bomb (PQ105), Super God Fist (PQ67), Variant Drive (PQ123), Zigzag Express (PQ85), Apocalyptic Burst (PQ161), Blaster Stream (PQ148)**. Ambiguous reward-context, multi-PQ, and shop-combination records remain unchanged.
 
 Skills commit: `b8179d8c3cc19297ddd97e296e53cae53baef531`.
+
+
+## 2026-09-19 — source-quest provenance batch 11
+
+Promoted 20 explicit single-PQ identifiers from existing skill acquisition metadata: **Justice Kick (PQ152), Chain Destructo-Disc Barrage (PQ46), Circle Flash (PQ154), Core Breaker (PQ158), Destruction's Concerto: Meteor (PQ106), Dimension Ray (PQ98), Energy Field (PQ29), Final Flash (SS3 DAIMA) (PQ181), Full Power Destruction (PQ177), Gigantic Breaker (PQ126), Gigantic Burst (PQ127), Gigantic Explosion (PQ164), Gigantic Roar (PQ132), God of Destruction's Menace (PQ105), God of Destruction's Roar (PQ105), Heat Dome Attack (PQ40), Holy Wrath (PQ111), Last Emperor (PQ71), Lightning Impact (PQ142), Lightning of Absolution (PQ111)**. Records with multi-source/shop routes or unresolved exact-drop gating remain unchanged.
+
+Skills commit: `5a79afc1b2a8cd96f1346365d8ff219387e74a0b`.
