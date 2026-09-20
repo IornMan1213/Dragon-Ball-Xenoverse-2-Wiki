@@ -3469,3 +3469,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - No exclusive Ultimate Finish condition was established; existing false flags remain.
 - Canonical/index/audit synchronized.
 - Next: continue remaining partial records and reserve unresolved status for records with conflicting or non-explicit drop gating.
+
+
+### 2026-09-19 continuation — targeted drop verification
+- Verified **Blazing Attack** as the **PQ136 Ultimate Finish** skill reward. Current evidence explicitly distinguishes it from the opponent-dropped skills and supports the existing UF requirement.
+- Verified **Burning Swan** as a **PQ167** reward; no UF-only condition was established, so it remains false.
+- Canonical/index/audit synchronized.
+- Next: continue remaining partial records; prioritize exact PQ/drop conditions and resolve UF conflicts with explicit evidence.
