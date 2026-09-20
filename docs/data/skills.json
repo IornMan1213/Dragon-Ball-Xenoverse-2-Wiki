@@ -5795,7 +5795,7 @@
       "name": "Wild Stinger",
       "class": "Super",
       "subcategory": "Strike",
-      "usable_by_cac": false,
+      "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan God) Ultra Supervillain",
       "dlc_requirement": "Future Saga Chapter 1",
       "ki_cost": 100,
@@ -5805,7 +5805,7 @@
       "source_quest_or_shop": "Parallel Quest 172",
       "ultimate_finish_required": false,
       "skill_description": "Wild Stinger is a Super Strike skill associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
-      "mechanics_notes": "Official DLC material confirms the core move behavior; exact numeric cost remains unverified, so the current 100-Ki record should not be treated as authoritative without stronger evidence.",
+      "mechanics_notes": "Official DLC material confirms the core move behavior; exact numeric cost remains unverified, so the current 100-Ki record should not be treated as authoritative without stronger evidence. The PQ172 acquisition path is retained; exact Ki cost remains unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
@@ -5813,10 +5813,10 @@
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "race_restriction": "Character-only",
+      "race_restriction": "All CaC races",
       "source_quest": 172,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "Corrected 2026-09-20: PQ172 Basic Reward is treated as CaC-accessible; character association does not by itself establish character exclusivity."
     },
     {
       "name": "Zigzag Express",
