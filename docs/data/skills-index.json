@@ -43,7 +43,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Namekian",
       "notes": "Namekian CaC-only Awoken Skill. Requires 300 Ki; has a continuous Stamina drain and no Ultimate/Evasive slot while active.",
-      "mechanics_notes": "300 Ki; replaces the moveset, grants hyper armor, continuously drains about 20 Stamina/sec, and prevents Ultimate/Evasive use while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "300 Ki; replaces the moveset, grants hyper armor, continuously drains about 20 Stamina/sec, and prevents Ultimate/Evasive use while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": "Namekian Awakening quest — Guru's House"
     },
     {
       "name": "Future Super Saiyan",
@@ -65,7 +66,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Saiyan",
       "notes": "Saiyan CaC-only Awoken Skill. Current references identify it as the Saiyan transformation route; it is not a cast-exclusive form.",
-      "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation."
+      "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation.",
+      "source_quest": "Vegeta training — Capsule Corporation Time Rift"
     },
     {
       "name": "Power Pole Pro",
@@ -85,7 +87,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Earthling",
       "notes": "Earthling CaC-only Awoken Skill. Requires 0 Ki; summons Nimbus/Power Pole, changes the basic moveset, and ends when hitstun or a grab connects.",
-      "mechanics_notes": "0 Ki; Nimbus/Power Pole moveset with super armor; transformation ends on hitstun or grab. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "0 Ki; Nimbus/Power Pole moveset with super armor; transformation ends on hitstun or grab. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": "Great Saiyaman questline — Hercule's House Time Rift"
     },
     {
       "name": "Purification",
@@ -105,7 +108,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Majin",
       "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.",
-      "mechanics_notes": "300 Ki; +20% Strike/+15% Blast, -20% Strike Defense, halts Stamina recovery and replaces the user's moveset. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "300 Ki; +20% Strike/+15% Blast, -20% Strike Defense, halts Stamina recovery and replaces the user's moveset. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": "Majin Buu's House Time Rift — Purification unlock fight"
     },
     {
       "name": "Super Saiyan",
@@ -125,7 +129,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Saiyan",
       "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3.",
-      "mechanics_notes": "Stages use 300/400/500 Ki. Current consolidated table reports SS1 +10% Strike/+5% Blast, SS2 +15%/+7.5%, SS3 +20%/+10%; defense bonuses rise by stage while Ki regeneration becomes increasingly restricted. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "Stages use 300/400/500 Ki. Current consolidated table reports SS1 +10% Strike/+5% Blast, SS2 +15%/+7.5%, SS3 +20%/+10%; defense bonuses rise by stage while Ki regeneration becomes increasingly restricted. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": null
     },
     {
       "name": "Super Saiyan God",
@@ -146,7 +151,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Saiyan",
       "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus.",
-      "mechanics_notes": "300 Ki; current consolidated table reports no direct Strike/Blast skill modifier but +60% Basic Attack, +50% Ki recovery, and +12.5% movement speed. This distinction is important: the major attack boost is Basic Attack rather than Super/Ultimate damage. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "300 Ki; current consolidated table reports no direct Strike/Blast skill modifier but +60% Basic Attack, +50% Ki recovery, and +12.5% movement speed. This distinction is important: the major attack boost is Basic Attack rather than Super/Ultimate damage. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": null
     },
     {
       "name": "Super Saiyan God Super Saiyan",
@@ -168,7 +174,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Saiyan",
       "notes": "Saiyan CaC-only Awoken Skill. Whis can award it to any race that meets the friendship/level requirement, but only Saiyan CaCs can equip/use it.",
-      "mechanics_notes": "500 Ki; +25% Strike/+25% Blast, +5% Strike/+5% Blast Defense; drains 10 Ki/sec while active."
+      "mechanics_notes": "500 Ki; +25% Strike/+25% Blast, +5% Strike/+5% Blast Defense; drains 10 Ki/sec while active.",
+      "source_quest": "Whis training — max friendship and level 90"
     },
     {
       "name": "Super Saiyan God Super Saiyan (Evolved)",
@@ -190,7 +197,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Saiyan",
       "notes": "Saiyan CaC-only Awoken Skill. The form is gated behind SSGSS; Whis can award it to any race that meets the requirement, but only Saiyan CaCs can equip/use it.",
-      "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active."
+      "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active.",
+      "source_quest": "Whis training — max friendship with Vegeta, level 95, SSGSS required"
     },
     {
       "name": "Super Vegeta",
@@ -210,7 +218,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Saiyan",
       "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2.",
-      "mechanics_notes": "Stages use 300/400 Ki. Current consolidated table reports SV1 +5% Strike/+10% Blast and SV2 +7.5%/+17.5%, with increasing Blast-defense bonuses. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "Stages use 300/400 Ki. Current consolidated table reports SV1 +5% Strike/+10% Blast and SV2 +7.5%/+17.5%, with increasing Blast-defense bonuses. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": null
     },
     {
       "name": "The Power to Overcome",
@@ -231,7 +240,8 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Current evidence consistently supports +20% Stage 1 defense, +5% Stage 1 speed, +15% Stage 2 basic attack, and +30% Stage 2 Strike/Ki Super damage, while conflicting measurements remain for exact Stage 1 defense, Stage 2 speed/cooldown, and HP regeneration.",
-      "mechanics_notes": "Two-stage Awoken. Current evidence supports Stage 1 at +20% all-damage defense and +5% movement speed, with automatic HP recovery below 50% and an unblockable sword-strike replacement for grabs. Re-inputting the Awoken command activates Unleashed Stage 2 for about 12 seconds of effectively/infinite Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, increased movement speed, and HP drain. Exact values remain intentionally unresolved where current sources conflict: Stage 1 defense has a 20% report and a 25% self-test report; Stage 2 speed has +10% and +15% reports; cooldown has about 24 and about 30 second reports; HP regeneration is reported around 1 bar/60 seconds and about 1 bar/65 seconds. Do not collapse these into false precision."
+      "mechanics_notes": "Two-stage Awoken. Current evidence supports Stage 1 at +20% all-damage defense and +5% movement speed, with automatic HP recovery below 50% and an unblockable sword-strike replacement for grabs. Re-inputting the Awoken command activates Unleashed Stage 2 for about 12 seconds of effectively/infinite Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, increased movement speed, and HP drain. Exact values remain intentionally unresolved where current sources conflict: Stage 1 defense has a 20% report and a 25% self-test report; Stage 2 speed has +10% and +15% reports; cooldown has about 24 and about 30 second reports; HP regeneration is reported around 1 bar/60 seconds and about 1 bar/65 seconds. Do not collapse these into false precision.",
+      "source_quest": "Future Saga Chapter 4 — Quest 31, Ultimate All-Out Showdown"
     },
     {
       "name": "Turn Golden",
@@ -251,7 +261,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Frieza Race",
       "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki.",
-      "mechanics_notes": "300 Ki; +30% Blast, -5% Blast Defense, +20% movement speed; Stamina drains while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "300 Ki; +30% Blast, -5% Blast Defense, +20% movement speed; Stamina drains while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression"
     },
     {
       "name": "Beast",
@@ -269,7 +280,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken.",
-      "mechanics_notes": "500 Ki consumed on transformation; +30% Strike and Blast, -20% Strike and Blast Defense, +20% Ki restoration. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "500 Ki consumed on transformation; +30% Strike and Blast, -20% Strike and Blast Defense, +20% Ki restoration. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": null
     },
     {
       "name": "Kaioken",
@@ -307,7 +319,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction.",
-      "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": null
     },
     {
       "name": "Pure Progress",
@@ -346,7 +359,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Saiyan",
       "notes": "Super Saiyan 2 is a stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation record. It activates at 400 Ki when the Super Saiyan Awoken Skill is equipped.",
-      "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "400 Ki stage of Super Saiyan; +15% Strike/+7.5% Blast and +10% Strike/+5% Blast Defense in the consolidated current table. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": null
     },
     {
       "name": "Super Saiyan Blue Kaioken",
@@ -404,7 +418,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior.",
-      "mechanics_notes": "500 Ki required but not consumed after Update 1.22.00; no attack/defense/speed modifiers. Auto-dodge consumes 100 Stamina, successful dodge can be followed by a 100 Ki counter; guarding + Heavy Attack provides a built-in charge action; normal/charged Ki Blasts are replaced. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate."
+      "mechanics_notes": "500 Ki required but not consumed after Update 1.22.00; no attack/defense/speed modifiers. Auto-dodge consumes 100 Stamina, successful dodge can be followed by a 100 Ki counter; guarding + Heavy Attack provides a built-in charge action; normal/charged Ki Blasts are replaced. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": null
     },
     {
       "name": "Burst Reflection",
@@ -421,7 +436,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
-      "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification."
+      "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
+      "source_quest": null
     },
     {
       "name": "Burst Rush",
@@ -559,7 +575,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
-      "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races."
+      "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "source_quest": null
     },
     {
       "name": "God Breaker",
@@ -681,7 +698,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "source_quest": "Cooler (Final Form) mentor training"
     },
     {
       "name": "Sudden Death Beam",
@@ -701,7 +719,8 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "Current acquisition evidence confirms TP Medal Shop availability; official Bandai Namco's 2017 content-update schedule lists Sudden Death Beam in the TP Medal Shop rotation. Current skill documentation also lists STP Medal Shop and Double Crystal Raid Battle as acquisition routes. No Ultimate Finish is involved.",
-      "mechanics_notes": "100 Ki Ki Blast Super counter/teleport technique. If the user is attacked before moving, Instant Transmission places the user behind the opponent and fires a Ki Wave; otherwise the move can function as evasive repositioning. Current acquisition evidence confirms TP Medal Shop / STP Medal Shop / Double Crystal Raid availability; no narrower CaC race/gender/form restriction is established."
+      "mechanics_notes": "100 Ki Ki Blast Super counter/teleport technique. If the user is attacked before moving, Instant Transmission places the user behind the opponent and fires a Ki Wave; otherwise the move can function as evasive repositioning. Current acquisition evidence confirms TP Medal Shop / STP Medal Shop / Double Crystal Raid availability; no narrower CaC race/gender/form restriction is established.",
+      "source_quest": null
     },
     {
       "name": "Super Afterimage",
@@ -759,7 +778,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "source_quest": "Hit mentor training"
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -778,7 +798,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "source_quest": "Hit mentor training"
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -797,7 +818,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "source_quest": "Hit mentor training"
     },
     {
       "name": "Ultrasonic Blitz",
@@ -898,7 +920,8 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Explosive Wave in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
-      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction."
+      "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "source_quest": null
     },
     {
       "name": "Force Shield",
@@ -1116,7 +1139,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive from the Skill Shop. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred."
+      "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive from the Skill Shop. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "source_quest": null
     },
     {
       "name": "Mach Dash",
@@ -1623,7 +1647,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained."
+      "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained.",
+      "source_quest": "Krillin mentor training"
     },
     {
       "name": "Dimension Cannon",
@@ -1697,11 +1722,11 @@
         "https://dbxv2.fandom.com/wiki/Double_Death_Slicer",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 24 reward.",
+      "unlock_method": "Parallel Quest 24 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 24
     },
@@ -1928,7 +1953,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training.",
-      "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha."
+      "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
+      "source_quest": "Vegeta mentor training"
     },
     {
       "name": "Gamma Blaster",
@@ -1984,11 +2010,11 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 128 reward.",
+      "unlock_method": "Parallel Quest 128 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 128
     },
@@ -2148,11 +2174,11 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kamehameha"
       ],
-      "unlock_method": "Parallel Quest 05 - \"Saiyan Blood\"",
+      "unlock_method": "Parallel Quest 5 — \"Saiyan Blood\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ05 and usable by all CaC races. It has three charge levels.",
       "source_quest": 5
     },
@@ -2173,7 +2199,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing."
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing.",
+      "source_quest": "Gohan (Kid) mentor training — School Quest Lesson 2"
     },
     {
       "name": "Paralysis",
@@ -2253,7 +2280,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot."
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot.",
+      "source_quest": "Cell (Perfect) mentor training"
     },
     {
       "name": "Photon Swipe",
@@ -2440,7 +2468,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile."
+      "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile.",
+      "source_quest": "Goku mentor training"
     },
     {
       "name": "Spirit Pulse",
@@ -2516,11 +2545,11 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 113 reward.",
+      "unlock_method": "Parallel Quest 113 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ113. Five ghosts remain in place until launched by another input or after the automatic delay. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "source_quest": 113
     },
@@ -2693,11 +2722,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave"
       ],
-      "unlock_method": "Parallel Quest 97 - \"Insidious Plot\"",
+      "unlock_method": "Parallel Quest 97 — \"Insidious Plot\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki.",
       "source_quest": 97
     },
@@ -2718,7 +2747,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor.",
-      "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred."
+      "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
+      "source_quest": "Pan's Initiation Test / mentor training"
     },
     {
       "name": "Energy Charge",
@@ -2735,7 +2765,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill."
+      "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill.",
+      "source_quest": "Advancement Test — Easy Class"
     },
     {
       "name": "Energy Release",
@@ -2789,7 +2820,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge."
+      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge.",
+      "source_quest": "Advancement Test — Advanced Class"
     },
     {
       "name": "Hero's Flute",
@@ -2846,7 +2878,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate.",
-      "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost."
+      "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost.",
+      "source_quest": "Goku mentor training — Lesson 1"
     },
     {
       "name": "Kai Kai",
@@ -2883,7 +2916,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills."
+      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills.",
+      "source_quest": "Advancement Test — God Class"
     },
     {
       "name": "Petrifying Spit",
@@ -2896,11 +2930,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
       ],
-      "unlock_method": "Parallel Quest 114",
+      "unlock_method": "Parallel Quest 114 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 114
     },
@@ -2915,11 +2949,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Phantom_Fist"
       ],
-      "unlock_method": "Parallel Quest 97",
+      "unlock_method": "Parallel Quest 97 — \"Insidious Plot\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 97
     },
@@ -2958,7 +2992,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor.",
-      "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina."
+      "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina.",
+      "source_quest": "Krillin's Initiation Test / mentor training"
     },
     {
       "name": "Rising Rage",
@@ -3006,11 +3041,11 @@
       "sources": [
         "https://dragonball.fandom.com/wiki/Solar_Flare"
       ],
-      "unlock_method": "Parallel Quest 3 — \"World Tournament Tag Team\" reward.",
+      "unlock_method": "Parallel Quest 3 — \"World Tournament Tag Team\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one.",
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ01, usable by all CaC races. It blinds/stuns opponents in front of the user; positioning matters because it is ineffective from behind. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "source_quest": 3,
       "source_quest_or_shop": "Parallel Quest 03"
@@ -3050,7 +3085,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.",
-      "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki."
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki.",
+      "source_quest": null
     },
     {
       "name": "Surging Spirit",
@@ -3087,7 +3123,8 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "Corrected 2026-09-20: CaC-accessible Skill Shop Super; not character-exclusive.",
-      "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after the Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification."
+      "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after the Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
+      "source_quest": null
     },
     {
       "name": "Time Control",
@@ -3102,11 +3139,11 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-18.md",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Parallel Quest 18 reward.",
+      "unlock_method": "Parallel Quest 18 — Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted.",
+      "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Guldo's 100-Ki Other Super from PQ18. Current maintained PQ18 data lists Time Control in the Basic Reward section, while exact reward-slot probability remains unresolved; no Ultimate Finish-only gate is established.",
       "source_quest": 18
     },
@@ -3141,9 +3178,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
       ],
-      "unlock_method": "Parallel Quest 10 reward.",
+      "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record.",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super from PQ10, usable by all CaC races. The user teleports in front of an ally and absorbs incoming attacks while held; without an ally it targets the nearest opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
@@ -3185,7 +3222,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks."
+      "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks.",
+      "source_quest": "Expert Mission 20 — Harbinger of Doom"
     },
     {
       "name": "Divinity Unleashed",
@@ -3198,11 +3236,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed"
       ],
-      "unlock_method": "Parallel Quest 110 acquisition",
+      "unlock_method": "Parallel Quest 110 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Zamasu's 100-Ki Power Up Super from PQ110. Charging at least one full Ki bar activates a temporary effect that substantially increases Ki gained from attacks/charging; it is a CaC-usable charge skill. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 110
     },
@@ -3236,9 +3274,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_E"
       ],
-      "unlock_method": "Parallel Quest 19 acquisition",
+      "unlock_method": "Parallel Quest 19 — \"Fierce Battle! Ginyu Force\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence.",
       "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
@@ -3279,7 +3317,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic acquisition verification: Skill Shop is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
-      "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races."
+      "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races.",
+      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
     },
     {
       "name": "Formation!",
@@ -3315,11 +3354,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/"
       ],
-      "unlock_method": "Parallel Quest 185 reward.",
+      "unlock_method": "Parallel Quest 185 — \"A God's Amusement\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
       "source_quest": 185
     },
@@ -3356,11 +3395,11 @@
         "https://dbxv2.fandom.com/wiki/Meditation",
         "https://steamcommunity.com/app/454650/discussions/0/2564160288807893705/"
       ],
-      "unlock_method": "Parallel Quest 122 reward.",
+      "unlock_method": "Parallel Quest 122 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route.",
+      "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 0-Ki PQ122 Power Up Super usable by all CaC races. After activation it raises maximum Ki and provides automatic Ki recovery for about 20 seconds in current versions; its interactions with other reinforcement buffs are version-sensitive. UF audit 2026-09-19: acquisition evidence identifies Meditation as a random skill drop from Jiren in PQ122 rather than an Ultimate Finish-only reward; community reports conflict, but direct opponent-drop reports support non-UF gating.",
       "source_quest": 122
     },
@@ -3375,11 +3414,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Taunt"
       ],
-      "unlock_method": "Parallel Quest 45 — \"Take Back the Dragon Balls!\" reward.",
+      "unlock_method": "Parallel Quest 45 — \"Take Back the Dragon Balls!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Taunt with PQ45, \"Take Back the Dragon Balls!\". The prior unlock text naming PQ20 was stale and has been replaced; the available condition remains reward-documented without an established exact drop tier or Ultimate Finish-only gate.",
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Taunt with PQ45, \"Take Back the Dragon Balls!\". The prior unlock text naming PQ20 was stale and has been replaced; the available condition remains reward-documented without an established exact drop tier or Ultimate Finish-only gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Hercule's 0-Ki Power Up Super from PQ45. The user performs a taunting pose that can draw opponent attention; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 45,
       "source_quest_or_shop": "Parallel Quest 45 — Take Back the Dragon Balls!"
@@ -3521,7 +3560,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate.",
-      "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension."
+      "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension.",
+      "source_quest": "Android 18 mentor training"
     },
     {
       "name": "Death Slash",
@@ -4511,7 +4551,8 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile. 2026-09-20 verification: current skill page and mentor documentation identify Training with Frieza (1st Form), specifically Intergalactic Emperor of Evil 3, as the acquisition source; it is a Ki Blast Ultimate."
+      "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile. 2026-09-20 verification: current skill page and mentor documentation identify Training with Frieza (1st Form), specifically Intergalactic Emperor of Evil 3, as the acquisition source; it is a Ki Blast Ultimate.",
+      "source_quest": "Frieza mentor — Intergalactic Emperor of Evil 3"
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -4643,11 +4684,11 @@
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=14"
       ],
-      "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
+      "unlock_method": "Parallel Quest 181 — \"The Greatest Training Ever\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence.",
+      "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Base activation uses 400 Ki; holding the input while the attack lands spends additional available Ki for a power boost.",
       "source_quest": 181
     },
@@ -4663,11 +4704,11 @@
         "https://dragonball.fandom.com/wiki/Final_Kamehameha",
         "https://gamefaqs.gamespot.com/boards/233580-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/80482771"
       ],
-      "unlock_method": "TP Medal Shop / Parallel Quest 91 - \"Saiyan Revolt\" / Double Crystal Raids",
+      "unlock_method": "Parallel Quest 91 — \"Saiyan Revolt\" Basic Reward; also available through the TP Medal Shop and Double Crystal Raids",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users.",
+      "notes": "Dedicated current-version evidence confirms TP Medal Shop, PQ91 and Double Crystal Raid availability and Ki Blast Ultimate classification. The reviewed page does not explicitly state race/gender/form restrictions or an unrestricted CaC scope. Keep race_restriction null rather than inferring from Vegito/SSGSS Vegito users. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "22-hit Ki Blast Ultimate; charges a Final Flash-like shot before switching to Super Kamehameha.",
       "source_quest": 91
     },
@@ -4934,11 +4975,11 @@
         "https://dbxv2.fandom.com/wiki/Mystic_Flash",
         "https://dragonball.fandom.com/wiki/Mystic_Flash"
       ],
-      "unlock_method": "Parallel Quest 20 - \"Frieza! Show Yourself!\"",
+      "unlock_method": "Parallel Quest 20 — \"Frieza! Show Yourself\" reward; exact drop tier remains unresolved in the maintained PQ batch.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms Mystic Flash as a 300-Ki Ki Blast Ultimate from PQ20, used by Nail and customizable Piccolo. The page does not explicitly establish CaC race/gender/form scope. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Mystic Flash in the Basic Reward section of Parallel Quest 20, establishing the acquisition route without an Ultimate Finish requirement.",
       "source_quest": 20
     },
@@ -5153,11 +5194,11 @@
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "unlock_method": "Parallel Quest 181 - \"The Greatest Training Ever\"",
+      "unlock_method": "Parallel Quest 181 — \"The Greatest Training Ever\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for a 500 Ki total.",
       "source_quest": 181
     },
@@ -5178,7 +5219,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile."
+      "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile.",
+      "source_quest": "Expert Mission 16 — In the Realm of the Gods: Vegeta"
     },
     {
       "name": "Supernova",
@@ -5196,7 +5238,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere."
+      "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere.",
+      "source_quest": "Expert Mission 6 — The Depths of Despair"
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -5359,7 +5402,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack."
+      "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack.",
+      "source_quest": "Lord Slug mentor training — Lesson 3"
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -5380,7 +5424,8 @@
       "last_verified": "2026-09-19",
       "race_restriction": "Namekian",
       "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors.",
-      "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast."
+      "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
+      "source_quest": "Lord Slug mentor training — Lesson 3"
     },
     {
       "name": "Divine Lasso",
@@ -5499,7 +5544,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "200 Ki; close-range grab sequence with five hits and hard knockdown. Super Armor is documented for Broly's own use; it should not be generalized to CaC use without direct evidence. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 130
     },
@@ -5658,7 +5703,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "300 Ki Strike Ultimate. Parallel Quest 89 is the documented acquisition quest. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Victory Rush.",
       "source_quest": 89
     }
