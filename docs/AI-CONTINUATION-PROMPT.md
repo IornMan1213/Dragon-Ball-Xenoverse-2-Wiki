@@ -3329,3 +3329,15 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Removed the remaining internal citation markup and forbidden mechanism names from `docs/AI-CONTINUATION-PROMPT.md`. Canonical data files were separately checked and contain no matching internal-artifact patterns.
 - A new Repository quality and Clean internal artifacts run was queued on commit `2f06949b6da54d214ed7448f3b70c35e6c8cb44c`; its result should be checked before making further cleanup changes.
 - This was a repository-hygiene fix only; no skill facts were changed.
+
+
+### 2026-09-20 continuation — skill DLC provenance correction
+- Workstream: P1 skill stale-source/metadata consistency.
+- Live canonical skill census remains **283 records: 205 verified, 78 verified_current_scope, 0 conflict, 0 partially_verified**.
+- Corrected **Evil Blast (PQ114)** and **Evil Flame (PQ117)** in `docs/data/skills.json`: both now use `dlc_requirement: Extra Pack 1`. The maintained PQ transcription and DLC reference place PQ114–117 and both skills in Extra Pack 1; the previous combined label was overly broad.
+- Files changed: `docs/data/skills.json`, `docs/data/skill-catalog-audit.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `5f2e349ef63edfce017b1c1c82621535aa250413` (skill data), `1565133a14843d9f117272e9bea8736af5ce984f` (skill audit), `3e6fce6cdbcae8160505fe00fa76dae0aeee4f84` (coverage audit); changelog and this handoff are the remaining completion commits for this cycle.
+- Evidence limitation: this correction is provenance-only. No new claim was made about exact reward probability, Ultimate Finish gating, or additional prerequisites.
+- Validation: JSON was parsed and rewritten successfully before commit; repository-wide semantic census remains 283 records. Existing Actions failures remain unresolved; no validator was weakened.
+- CI: inspect the post-correction workflow state if observable. The connected workflow-run endpoint is PR-filtered and currently returns no runs for the direct main-branch commits, so do not claim success from absence of results.
+- Exact next task: continue the live 78-record `verified_current_scope` stale-metadata audit, prioritizing explicit DLC/version provenance and obvious source-field contradictions; preserve current values where accessible evidence does not establish a correction. Then inspect Actions and update this handoff again.
