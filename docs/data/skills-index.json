@@ -3111,7 +3111,9 @@
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races"
     },
     {
       "name": "Zigzag Express",
