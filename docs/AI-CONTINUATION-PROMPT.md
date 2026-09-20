@@ -1,6 +1,6 @@
 # Dragon Ball Xenoverse 2 Wiki — Persistent AI Continuation Prompt > Canonical handoff for autonomous AI continuation of this repository.
 >
-> **Last updated:** 2026-09-19
+> **Last updated:** 2026-09-20
 > **Repository:** `IornMan1213/Dragon-Ball-Xenoverse-2-Wiki`
 > **Branch:** `main` ## Mission Continue the repository's development, research, data-quality, documentation, and validation work **directly on GitHub**. Do not merely provide suggestions or a plan. The goal is a polished, comprehensive, evidence-backed Xenoverse 2 wiki whose structured data is genuinely exhaustive rather than merely populated. At the start of every cycle:
 1. Read this file.
@@ -2982,3 +2982,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `bbf39b8fc2730566fc04e6565901fce6829500bb` (canonical), `f07dbe1b976ede7f76a311557528a85190e0d222` (index), `c35d1c1b7d351f32ded08228ce6eed719a534cd7` (coverage audit).
 - Live census remains **283 records**. Remaining generic acquisition records are still **Lightning Impact (PQ142)** and **Blaster Stream (PQ148)**; no unsupported PQ141-PQ150 quest records should be created.
 - Next pass: continue canonical consistency auditing for stale reward-tier flags/notes, then re-check index/data parity.
+
+
+### 2026-09-20 cycle update — generic PQ acquisition closure + reward-gate consistency
+- Workstream: P1 skill acquisition/type and reward-gate consistency cleanup.
+- Live canonical skill census: **283 records**.
+- Closed the final two exact-generic PQ acquisition strings: **Lightning Impact** → PQ142 *Timespace Tussle*, Basic Reward; **Blaster Stream** → PQ148 *Finding Out About Fusion*, Basic Reward.
+- Evidence: maintained Steam all-PQ guide explicitly places both skills in their respective Basic Reward sections. No Ultimate Finish requirement was added.
+- Separate consistency correction: **Demon Ray** now has `ultimate_finish_required=true`, matching PQ160's maintained 50% Ultimate Finish bonus-roll evidence.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Validation: both JSON datasets parse successfully; exact-generic PQ acquisition census is now **0**. A reward-gate scan found no remaining true-flag record without Ultimate Finish evidence. Historical/source conflicts remain preserved.
+- CI: latest Repository quality and Clean internal artifacts runs for commit `4ab14c06054cabc29f851f0db0c89ac1f91e5ead` each failed with one job and no recorded steps/logs; treat as the established infrastructure/account failure pattern. Validators were not weakened.
+- Exact next task: recompute the live skill census, then continue evidence-driven P1 consistency/provenance cleanup outside generic PQ acquisition wording, prioritizing stale acquisition notes, DLC/free-update provenance, CaC scope, and unresolved source contradictions.
