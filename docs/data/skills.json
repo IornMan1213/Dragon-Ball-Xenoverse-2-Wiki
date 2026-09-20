@@ -3405,7 +3405,8 @@
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 116
     },
     {
       "name": "Instant Charge",
@@ -3469,7 +3470,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 63
     },
     {
       "name": "Maximum Charge",
@@ -3513,7 +3515,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 114
     },
     {
       "name": "Phantom Fist",
@@ -3532,7 +3535,8 @@
       "source_quest_or_shop": "PQ97",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
-      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions."
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
+      "source_quest": 97
     },
     {
       "name": "Quick Sleep",
@@ -3609,7 +3613,8 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition."
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
+      "source_quest": 153
     },
     {
       "name": "Solar Flare",
@@ -3627,7 +3632,8 @@
       "source_quest_or_shop": "Parallel Quest 01",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ01, usable by all CaC races. It blinds/stuns opponents in front of the user; positioning matters because it is ineffective from behind. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 1
     },
     {
       "name": "Spirit Boost",
@@ -3780,7 +3786,8 @@
       "source_quest_or_shop": "Parallel Quest 10",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super from PQ10, usable by all CaC races. The user teleports in front of an ally and absorbs incoming attacks while held; without an ally it targets the nearest opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 10
     },
     {
       "name": "Charge",
@@ -3805,7 +3812,8 @@
         "https://dbxv2.fandom.com/wiki/Charge",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 83
     },
     {
       "name": "Data Input",
@@ -3849,7 +3857,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Divinity_Unleashed"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 110
     },
     {
       "name": "Do or Die",
@@ -3873,7 +3882,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Do_or_Die"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 49
     },
     {
       "name": "Fighting Pose E",
