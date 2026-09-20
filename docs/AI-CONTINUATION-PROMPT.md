@@ -3043,7 +3043,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: canonical and index JSON parse successfully; **283 records** remain; name order and edited race fields are synchronized; remaining verified_current_scope null-race records: **1**.
 - Commits: `561a6c07fac14e727957a2b967518711787b4e37` (canonical), `94102b361283a3f8aca801e5d618f59c81edf71a` (index), `0d8164dc0acf7466104b6117f0b3c5f5af307297` (coverage audit).
 - Index/data parity: passed.
-- Web corroboration: Dragon Ball Wiki explicitly identifies Future Warrior acquisition/user status for Super God Fist, Variant Drive, and Chain Destructo Disc. citeturn1search10turn1search0turn2search0
+- Web corroboration: Dragon Ball Wiki explicitly identifies Future Warrior acquisition/user status for Super God Fist, Variant Drive, and Chain Destructo Disc. 
 - Exact next task: continue the bounded P1 provenance audit, prioritizing the remaining explicit reward/source conflicts (**Absolute Zero, Energy Barrier, Emperor's Cannon, Teleporting Vanishing Ball**) and preserve conflicts unless a higher-priority or independently corroborated source resolves them.
 
 
@@ -3054,7 +3054,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Files changed: `docs/data/skill-catalog-audit.json` and this handoff.
 - Audit commit: `96bc6ef1e7a068ef6a464a0b990db474c1163a4a`.
 - Validation: audit JSON updated successfully; no canonical gameplay field was changed during this conflict-preservation pass.
-- Evidence used: maintained Steam 186-PQ reward transcription, Dragon Ball Wiki pages, and historical GameFAQs/Steam community reports. citeturn0search6turn0search1turn0search0turn0search7turn0search9
+- Evidence used: maintained Steam 186-PQ reward transcription, Dragon Ball Wiki pages, and historical GameFAQs/Steam community reports. 
 - Exact next task: continue the P1 provenance pass beyond these four conflicts, looking for another unresolved canonical source/acquisition discrepancy; preserve uncertainty where evidence does not meet the repository's source-priority policy.
 
 
@@ -3063,7 +3063,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - The maintained PQ155 transcription lists Heroic Counter under **Basic Reward**, while Dragon Ball Wiki states that the Future Warrior can obtain it **randomly** from PQ155. The evidence does not establish the exact reward slot or an Ultimate Finish-only gate.
 - Updated the canonical and index records only to preserve the additional provenance source and contradiction; the canonical Basic Reward classification remains unchanged.
 - Commits: `597448724b3daaae3c4c3d225c590d6c2b05031f` (canonical), `deaa6409d24eec8e4963bb4d98bbb556540d30bc` (index), `a77234c3e471efde037b9cb7d916c017919ee981` (audit).
-- Web evidence: maintained PQ155 reward transcription and Dragon Ball Wiki's random-acquisition description. citeturn1search6turn2search1
+- Web evidence: maintained PQ155 reward transcription and Dragon Ball Wiki's random-acquisition description. 
 - Exact next task: continue the bounded P1 provenance audit for the next unresolved reward/acquisition discrepancy; do not promote a disputed drop slot to verified without stronger evidence.
 
 
@@ -3071,7 +3071,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Rechecked **Gamma Blaster** and **Gamma Impact** after Heroic Counter. The maintained PQ155 transcription explicitly lists both in the **Basic Reward** section; dedicated skill evidence confirms PQ155 acquisition but does not establish an Ultimate Finish-only gate.
 - Canonical/index metadata was refined with the additional provenance source and an explicit note that exact individual drop slots/probabilities remain unresolved.
 - Commits: `b51c2f1d67cf943c4b0e78c4982d0e82188060e3` (canonical), `82251a753256b90f31033e76230761ce7e3c8a88` (index), `667967c6ab68fd2ac338336a81d5405d4ebe2ea6` (audit).
-- Evidence: maintained PQ155 reward transcription and dedicated Dragon Ball Wiki skill documentation. citeturn0search2turn0search0
+- Evidence: maintained PQ155 reward transcription and dedicated Dragon Ball Wiki skill documentation. 
 - Exact next task: continue the bounded P1 provenance audit for the next unresolved reward/acquisition discrepancy, with special attention to skills whose canonical record says random acquisition while the maintained PQ corpus explicitly places them in Basic Reward.
 
 
@@ -3081,7 +3081,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - No additional slot semantics or probabilities beyond the documented 40% UF roll were inferred.
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/skill-catalog-audit.json`, and this handoff.
 - Commits: `07f4f8105a5dfb2ab31e7224fe63112ca7b734fb` (canonical), `7af9d426f0f9065f48b2c81f4fec3e5706a98a9a` (index), `9ebc0b5d59d400f09db95050a1e0919f41e731ff` (audit).
-- Evidence: PQ163 maintained datamined drop-condition data plus the maintained reward transcription. citeturn0search0turn0search1
+- Evidence: PQ163 maintained datamined drop-condition data plus the maintained reward transcription. 
 - Exact next task: continue auditing the remaining random-acquisition records against explicit `skill_drop_conditions` in PQ batches, prioritizing PQ151/PQ153/PQ155/PQ159/PQ160/PQ163/PQ167.
 
 
@@ -3094,7 +3094,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - These records previously used generic random-PQ wording. The maintained PQ data explicitly identifies their gates, so the canonical records now preserve those gates rather than leaving them unresolved.
 - No additional slot semantics were inferred from the generic Basic Reward arrays.
 - Commits: `fec6d217c2201307cbf0351f7eae85987a81c709` (canonical), `84ba0a7e0f5a5395da894a4205790a3d588fe9c4` (index), `2d6d69014b9d92e725ebbe9b83e899256665647f` (audit).
-- External cross-check: the maintained public PQ guide lists PQ163 rewards as Basic Rewards, illustrating why the explicit drop-condition fields must be preserved separately from reward-table labels. citeturn0search1
+- External cross-check: the maintained public PQ guide lists PQ163 rewards as Basic Rewards, illustrating why the explicit drop-condition fields must be preserved separately from reward-table labels. 
 - Exact next task: audit the remaining unresolved acquisition records, especially **Burning Swan (PQ167)** where maintained data says 45% normal-clear reward, and compare that against its current canonical wording.
 
 
@@ -3103,14 +3103,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Maintained PQ167 data places Burning Swan in the **Basic Reward** list and gives it a **45% normal-clear** reward condition; therefore `ultimate_finish_required` remains `false`.
 - Dedicated skill documentation describes the acquisition as a random PQ167 drop, so the canonical record now explicitly preserves the Basic Reward/non-Ultimate-Finish classification while noting that exact random-slot semantics remain unresolved.
 - Commits: `7776eebe709e0758c25dd3630c8a7458db348d4c` (canonical), `b52869c465dd7766640c6fbbba7b877535a4fe4f` (index), `4c237559b9d67d20880c67c8c58bbbe1b99b1c69` (audit).
-- External verification: maintained Steam PQ guide independently lists Burning Swan under PQ167 Basic Reward. citeturn0search0
+- External verification: maintained Steam PQ guide independently lists Burning Swan under PQ167 Basic Reward. 
 - Exact next task: continue the bounded provenance audit for remaining generic/random records, prioritizing **God Breaker, Bluff Kamehameha, Giant Cluster follow-up conflicts, Celestial Wave, Side Bridge, Final Cannon, and Steel Mirage**, without overriding explicit maintained drop-condition data.
 
 
 ### 2026-09-20 cycle update — remaining generic PQ provenance audit
 - Rechecked **God Breaker (PQ44)**, **Bluff Kamehameha (PQ94)**, **Celestial Wave (PQ151)**, **Final Cannon (PQ52)**, **Side Bridge (PQ39)**, and **Steel Mirage (PQ165)**.
 - **Celestial Wave** has explicit maintained data assigning it a **40% Ultimate Finish bonus roll**; canonical `ultimate_finish_required` is now true and its acquisition wording records that gate. This is consistent with the maintained PQ151 record, despite its Basic Reward-array presentation.
-- **God Breaker**, **Bluff Kamehameha**, **Final Cannon**, **Side Bridge**, and **Steel Mirage** retain random-PQ wording because the current evidence did not establish a stronger explicit gate. Dedicated documentation confirms PQ44/PQ94 acquisition for the first two. citeturn0search0turn0search1turn0search2turn0search3
+- **God Breaker**, **Bluff Kamehameha**, **Final Cannon**, **Side Bridge**, and **Steel Mirage** retain random-PQ wording because the current evidence did not establish a stronger explicit gate. Dedicated documentation confirms PQ44/PQ94 acquisition for the first two. 
 - Commits: `e93fb2d21616d2b946b182618a498f6d633394eb` (canonical), `c8a0bb483fc9970fdb695f9887f7278c2a12f90f` (index), `11ddf008782788a4da06c90041df5e5e136d65d5` (audit).
 - Exact next task: inspect the remaining generic/random records and reconcile them against their PQ batch `skill_drop_conditions`; if none remain with explicit gates, move to the separate CaC scope consistency audit (`usable_by_cac` versus `race_restriction`).
 
@@ -3118,7 +3118,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-20 cycle update — CaC scope consistency pass
 - Checked all **283 canonical skill records** for the high-risk contradiction pattern `usable_by_cac=false` paired with a CaC/race restriction.
 - No contradiction remains. The eight `Character-only` records consistently use `usable_by_cac=false`; racial CaC restrictions remain represented as usable-by-CaC plus an explicit race restriction.
-- External reference material independently confirms the Human/Saiyan restriction for Burning Slash and Shining Slash. citeturn1search0turn1search2
+- External reference material independently confirms the Human/Saiyan restriction for Burning Slash and Shining Slash. 
 - No canonical/index data change was necessary in this pass; only the audit trail was updated.
 - Audit commit: `ce7837930a16b9c36970d26858941c164c00551e`.
 - Exact next task: continue the CaC scope audit against the remaining race-restricted skills, prioritizing **Majin/Namekian-exclusive PQ skills and mixed-race restrictions**, and only change canonical data where a higher-priority or independently corroborated source establishes a discrepancy.
@@ -3127,8 +3127,24 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-20 cycle update — detailed CaC race-restriction audit
 - Audited all **26 explicitly race-restricted canonical skills**.
 - Every restricted record is currently `usable_by_cac=true` with a concrete restriction; mixed restrictions and qualified restrictions are preserved rather than generalized.
-- Representative external references corroborate Namekian-exclusive, Majin-exclusive, Saiyan-exclusive, and Earthling/Saiyan restrictions. citeturn0search1turn0search2turn0search6turn0search8turn0search11
+- Representative external references corroborate Namekian-exclusive, Majin-exclusive, Saiyan-exclusive, and Earthling/Saiyan restrictions. 
 - No canonical correction was justified in this pass.
 - Canonical/index parity check: **PASS** (283 canonical / 283 index records).
 - Audit commit: `8de19fa9c1585600e53bd73269b1fb8b16df6848`.
 - Exact next task: inspect the race-restricted records' **acquisition provenance and wording**, prioritizing the older PQ-derived restrictions (Angry Shout, Buu Buu Ball, Candy Beam, Ill Bomber, Vanishing Ball, Evil Flight Strike, Namek Finger, Zigzag Express, Darkness Rush (Ranged), Explosive Buu Buu Punch, Saiyan Spirit) for source/gate consistency.
+
+
+### 2026-09-20 cycle update — CaC race-restriction provenance and taxonomy correction
+- Workstream: P1 skill CaC/race-restriction acquisition provenance and canonical taxonomy consistency.
+- Re-audited the handoff-prioritized older race-restricted skills: Angry Shout, Buu Buu Ball, Candy Beam, Ill Bomber, Vanishing Ball, Evil Flight Strike, Namek Finger, Zigzag Express, Darkness Rush (Melee/Ranged), Explosive Buu Buu Punch, and Saiyan Spirit.
+- Evidence corroborated the documented routes/scopes for the reviewed records. Namek Finger remains a Namekian-only TP Medal Shop skill; Darkness Rush (Ranged) remains Namekian-only from Lord Slug training; Evil Flight Strike remains Namekian/Majin; Zigzag Express remains Male Majin; Explosive Buu Buu Punch remains Majin; Angry Shout remains the PQ68 Evasive route.
+- Corrected two canonical taxonomy errors found during the pass: Buu Buu Ball is a Strike Evasive, 300 Stamina, from PQ88; Saiyan Spirit is a Ki Blast Ultimate, 300 Ki, from PQ84. The previous Super/Ki Blast/100-Ki Buu Buu Ball classification and Strike Ultimate Saiyan Spirit classification were incorrect.
+- Resynchronized Celestial Wave index metadata to the canonical ultimate_finish_required=true value while preserving the documented Basic Reward vs Ultimate Finish source conflict.
+- Files changed: docs/data/skills.json, docs/data/skills-index.json, docs/data/skill-catalog-audit.json, docs/COVERAGE-AUDIT.md, and this handoff.
+- Commits: 335843af35716a2a5524e266b3c8235aec9b09bb (canonical), d25b791b2510e7cf8d800aa2af944e1c8403ab83 (index corrections), cc1d9f9b511efbfe2d3da180ccc8b3ba09dbe798 (Celestial Wave index sync), 054c4fbfe6e5e8065a4ffcee1850a003d73b8991 (skill audit), 540429ab9daff86a6281b3a71172eebe6cdc73ea (coverage audit).
+- Validation: canonical and index JSON parse successfully; both contain 283 records; name/class/subcategory/Ultimate-Finish parity check passes; no validators were changed.
+- Internal-artifact cleanup: removed all 10 pre-existing ChatGPT/UI citation-markup occurrences from this handoff file; no internal citation markup is present in the new cycle section.
+- CI status: inspect the latest push-associated Actions state before changing any validator or workflow. The repository's established opaque zero-step failures remain infrastructure/account signals unless actionable logs appear.
+- Evidence limitation: reward-slot semantics remain source-conflicted for some skills, including Celestial Wave. Preserve uncertainty rather than selecting a convenient source.
+- Current unresolved counts: 283 canonical skills; 0 partially_verified; 0 conflict; 78 verified_current_scope; race-scope nulls remain only where evidence is insufficient; DLC provenance null-count remains 0.
+- Exact next task: continue the P1 acquisition/provenance audit on the next unresolved source discrepancy, then inspect current GitHub Actions status and re-run the live canonical census before the next batch. Do not manufacture missing PQ141–PQ150 records.
