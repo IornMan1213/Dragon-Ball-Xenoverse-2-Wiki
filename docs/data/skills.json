@@ -5191,14 +5191,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 168 — \"Videl: Super Mom\" Basic Reward",
       "source_quest_or_shop": "PQ168",
       "ultimate_finish_required": false,
       "skill_description": "Justice Drive is a Super Strike skill associated with Videl.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Justice_Drive",
@@ -5207,7 +5207,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 168,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established. 2026-09-19 verification: Steam's live all-PQ guide lists Justice Drive as a Basic Reward for PQ168 (Videl: Super Mom), matching the repository's PQ reward attribution."
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Drive in PQ168's Basic Reward pool; the quest is \"Videl: Super Mom.\""
     },
     {
       "name": "Justice Kick",
@@ -5219,14 +5219,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 152 — \"Dyspo's Wanted Man\" Basic Reward",
       "source_quest_or_shop": "PQ152",
       "ultimate_finish_required": false,
       "skill_description": "Justice Kick is a Super Strike skill used by Dyspo.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Justice_Kick",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -5235,7 +5235,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 152,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill-page/reference corpus corroborates the recorded PQ acquisition route; no exclusive Ultimate Finish condition established."
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Kick in PQ152's Basic Reward pool; the quest is \"Dyspo's Wanted Man.\" A dedicated acquisition video independently associates the skill with PQ152. No separate Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Lovely Cyclone",
@@ -5276,14 +5276,14 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 19 — Basic Reward",
       "source_quest_or_shop": "Parallel Quest 19",
       "ultimate_finish_required": false,
       "skill_description": "Mach Punch is a Super Strike skill associated with Burter.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mach_Punch",
@@ -5292,7 +5292,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Steam's live all-PQ guide lists Mach Punch as a Basic Reward for PQ19 (Fierce Battle! Ginyu Force), matching the existing repository acquisition record."
+      "notes": "2026-09-20 audit: Steam's live all-PQ guide explicitly lists Mach Punch in PQ19's Basic Reward pool. This replaces the prior generic PQ attribution with a concrete tier."
     },
     {
       "name": "Meteor Blow",
@@ -5914,21 +5914,21 @@
       "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "unlock_method": "Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\" Basic Reward",
       "source_quest_or_shop": "PQ180",
       "ultimate_finish_required": false,
       "skill_description": "Burning Blast is a Super Ki Blast skill associated with SS3 Vegeta (DAIMA).",
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "mechanics": "200 Ki; optional 300 Stamina consumption enables use while under pressure and grants temporary Super Armor.",
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Basic Reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred.",
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission"
@@ -7016,14 +7016,14 @@
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 62 — Basic Reward; historical source conflict over Ultimate Finish gating",
       "source_quest_or_shop": "Parallel Quest 62",
       "ultimate_finish_required": false,
       "skill_description": "Teleporting Vanishing Ball is a Ultimate Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball",
@@ -7033,7 +7033,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 62,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide lists Teleporting Vanishing Ball in PQ62's Basic Reward pool. Historical GameFAQs discussion reports players treating it as an Ultimate Finish drop, creating a provenance conflict; canonical data records the current reward-table classification without asserting an UF-only gate."
     },
     {
       "name": "Thunder Flash",
