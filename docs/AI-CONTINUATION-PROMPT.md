@@ -3341,3 +3341,14 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Validation: JSON was parsed and rewritten successfully before commit; repository-wide semantic census remains 283 records. Existing Actions failures remain unresolved; no validator was weakened.
 - CI: inspect the post-correction workflow state if observable. The connected workflow-run endpoint is PR-filtered and currently returns no runs for the direct main-branch commits, so do not claim success from absence of results.
 - Exact next task: continue the live 78-record `verified_current_scope` stale-metadata audit, prioritizing explicit DLC/version provenance and obvious source-field contradictions; preserve current values where accessible evidence does not establish a correction. Then inspect Actions and update this handoff again.
+
+
+### 2026-09-20 continuation — exact DLC provenance refinement
+- Workstream: P1 skill stale-source/metadata consistency.
+- Tightened four `verified_current_scope` skill records whose DLC field was only `DLC PQ`: **Flash Chaser (PQ138) → Ultra Pack 2**, **Photon Swipe (PQ139) → Ultra Pack 2**, **Pretty Cannon (PQ133) → Ultra Pack 1**, and **Raid Blast (PQ136) → Ultra Pack 1**.
+- Evidence: the maintained PQ records and independent PQ/DLC references map PQ133 and PQ136 to Ultra Pack 1 and PQ138 and PQ139 to Ultra Pack 2. This is provenance refinement, not a new acquisition claim.
+- Files changed: `docs/data/skills.json`, `docs/data/skill-catalog-audit.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `cbb8bdcdb5aaf818a82ed13ee20c1e4cb5b53998` (skill data), `44862ac79d74bf1fd5f6d092777445619158016a` (skill audit), `b363a7ca9d052baa0395526530b69c7afea66059` (coverage audit); changelog and this handoff are the completion commits for this cycle.
+- Validation: canonical skill JSON parsed successfully; live census remains 283 records with 205 verified, 78 verified_current_scope, 0 conflict, and 0 partially_verified.
+- CI: existing GitHub Actions failures remain unresolved/diagnostically opaque; no validator changes were made.
+- Exact next task: continue the remaining 78-record stale-metadata audit, focusing on explicit DLC/version provenance and other source-field contradictions; preserve null or existing values when evidence is insufficient.
