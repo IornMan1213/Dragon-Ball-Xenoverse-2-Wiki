@@ -3083,3 +3083,14 @@ Commits: validator `cb80679f33c9d0869982da11d6609ba8b43b2822`; canonical data `c
 Audited the 283-record acquisition model. All 255 `quest_or_mission` records have a non-empty `source_quest`; all 28 non-quest records have `source_quest=null`. Every record has a non-empty `source_quest_or_shop`. Added validator invariants enforcing that relationship and requiring a provenance description for every non-quest acquisition type. No data changes were necessary.
 
 Validator commit: `7e35b13efb5dc3f747d5ba66c18239c760540a7f`.
+
+
+## 2026-09-19 — PQ unlock census reconciliation
+
+- Recomputed all 18 checked-in Parallel Quest research batches directly from the live repository.
+- Result: **176 canonical records, 0 missing `unlock_condition` fields, 0 duplicate PQ numbers**.
+- The final special cases are already represented in the live data: PQ36 has an explicit PQ35 prerequisite while preserving its numbering/existence conflict; PQ53 has the Great Saiyaman NPC-board trigger; PQ54 records completion of PQ52 while preserving conflicting community evidence; PQ55 records completion of PQ54.
+- No unlock values were added in this pass because the live records already contain explicit metadata. The pass therefore serves as a repository-wide consistency verification rather than a forced data-fill operation.
+- The maintained Steam 186-PQ transcription independently documents PQ36 and PQ53–55; a Japanese reference reports PQ54 after PQ53 and PQ55 after PQ54. The repository preserves the conflicting PQ54 community report rather than collapsing the evidence.
+- CI remains unverified for the latest handoff commit: the GitHub connector exposed no workflow runs and no combined status checks. Validators were not weakened.
+- Current PQ unlock-field gap: **0**. Remaining PQ research should focus on reward-slot semantics, acquisition provenance, DLC/version history, and cross-links.
