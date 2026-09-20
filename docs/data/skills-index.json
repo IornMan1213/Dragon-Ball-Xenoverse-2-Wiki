@@ -2986,14 +2986,15 @@
       "name": "Scissors Paper Rock",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Scissors_Paper_Rock",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Seagull Combination",
@@ -3012,41 +3013,45 @@
       "name": "Shining Slash",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dragonball.fandom.com/wiki/High_Strike",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Shooting Strike",
       "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shooting_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20",
+      "damage_type": "Ki Blast"
     },
     {
       "name": "Soaring Rush",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Soaring_Rush",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Sonic Bomb",
