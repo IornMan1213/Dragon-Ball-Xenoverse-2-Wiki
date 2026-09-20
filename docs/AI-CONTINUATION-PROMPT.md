@@ -3096,3 +3096,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `fec6d217c2201307cbf0351f7eae85987a81c709` (canonical), `84ba0a7e0f5a5395da894a4205790a3d588fe9c4` (index), `2d6d69014b9d92e725ebbe9b83e899256665647f` (audit).
 - External cross-check: the maintained public PQ guide lists PQ163 rewards as Basic Rewards, illustrating why the explicit drop-condition fields must be preserved separately from reward-table labels. citeturn0search1
 - Exact next task: audit the remaining unresolved acquisition records, especially **Burning Swan (PQ167)** where maintained data says 45% normal-clear reward, and compare that against its current canonical wording.
+
+
+### 2026-09-20 cycle update — Burning Swan provenance refinement
+- **Burning Swan (PQ167)** was rechecked against the maintained PQ167 data and external evidence.
+- Maintained PQ167 data places Burning Swan in the **Basic Reward** list and gives it a **45% normal-clear** reward condition; therefore `ultimate_finish_required` remains `false`.
+- Dedicated skill documentation describes the acquisition as a random PQ167 drop, so the canonical record now explicitly preserves the Basic Reward/non-Ultimate-Finish classification while noting that exact random-slot semantics remain unresolved.
+- Commits: `7776eebe709e0758c25dd3630c8a7458db348d4c` (canonical), `b52869c465dd7766640c6fbbba7b877535a4fe4f` (index), `4c237559b9d67d20880c67c8c58bbbe1b99b1c69` (audit).
+- External verification: maintained Steam PQ guide independently lists Burning Swan under PQ167 Basic Reward. citeturn0search0
+- Exact next task: continue the bounded provenance audit for remaining generic/random records, prioritizing **God Breaker, Bluff Kamehameha, Giant Cluster follow-up conflicts, Celestial Wave, Side Bridge, Final Cannon, and Steel Mirage**, without overriding explicit maintained drop-condition data.
