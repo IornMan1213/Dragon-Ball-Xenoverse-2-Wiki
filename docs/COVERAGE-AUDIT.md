@@ -3697,3 +3697,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Re-synchronized `docs/data/skills-index.json`.
 - Live canonical census remains **283 records**; exact-generic PQ acquisition census remains **0**.
 - Validation target for next pass: continue scanning explicit stale/incorrect notes and source conflicts, with priority on acquisition semantics and provenance rather than inventing unsupported quest or race data.
+
+## 2026-09-20 — skill reward-gate contradiction reconciliation
+- Rechecked canonical skill reward-gate flags against the maintained PQ batch drop-condition records instead of relying on stale milestone notes.
+- Corrected **Chaotic Time Impact (PQ184)** to `ultimate_finish_required=true` with the documented 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale.
+- Corrected **Core Breaker (PQ158)** to `true` with the documented 40% Ultimate Finish bonus slot.
+- Corrected **Earth Splitting Galick Gun (PQ11)** to `true` because the maintained PQ11 record documents a 50% Ultimate Finish roll; the separate Basic Reward listing is preserved as source evidence rather than treated as an exclusive gate.
+- Corrected **Raid Blast (PQ136)** and **Blazing Attack (PQ136)** to `true`, matching their documented 25% Ultimate Finish / Ultimate Finish bonus slots.
+- Corrected **Burst Stinger (PQ136)** to `false`, matching its documented 25% first-clear slot.
+- Corrected **Time Control (PQ18)** to `false`; current maintained PQ18 data lists it in Basic Reward and does not establish an Ultimate Finish-only gate.
+- Cleaned **Super Dragon Flight (PQ31)** to `false`, matching its maintained Basic Reward listing and removing stale Ultimate Finish wording from its mechanics note.
+- Re-synchronized `docs/data/skills-index.json`; canonical/index parity is restored at **283 records**.
+- Evidence limitation: some PQ batch records contain both Basic Reward listings and explicit drop-condition slots. Where an explicit current drop condition exists, the canonical gate follows that condition while preserving the underlying source metadata; no unsupported probability was invented.
+
