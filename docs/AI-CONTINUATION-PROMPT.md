@@ -2897,3 +2897,10 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Completed **Time Bullet**, using its explicitly named `Decisive Battle with Majin Buu` prerequisite rather than the generic Skill Shop label. Skills commit: `1ea33fade528c115194be98fb50859069f18e5f6`; coverage audit commit: `60e1ff08ea9dfad7928531dc485f014ff98b5119`.
 - Live census: 283 records; `source_quest` null on 47 records.
 - Remaining nulls are now predominantly generic shop-only, character-exclusive, multi-source, starting-choice, or unresolved PQ reward/drop records. Continue only when a concrete canonical quest/test/lesson is named by existing evidence.
+
+
+### 2026-09-19 continuation — null-floor review batch 19
+- Reviewed all 47 remaining nulls against live acquisition metadata; no speculative promotions made.
+- Current null composition: 13 character-only/non-CaC, 18 shop-only, 1 starting-choice, 15 unresolved PQ reward/drop records.
+- Coverage audit commit: `540565d61fb833a1632aa4c42aadedf640cbb845`.
+- The current 47-null set is a provisional evidence floor. Future reduction requires new concrete quest/test/lesson evidence, especially for unresolved PQ records.
