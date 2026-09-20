@@ -3001,3 +3001,15 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Coverage audit commit: `da07110c79ca88ce8eeb9679bffbb2af9f34d8fb`.
 - Expected live census: **283 skills; 30 null `dlc_requirement` records; 31 null `source_quest` records**.
 - Exact next task: recompute the null-DLC census, then target explicit DLC-era PQ/EM/mentor/shop records among the remaining 30. Preserve null where chronology remains unproven.
+
+
+### 2026-09-19 continuation — explicit DLC PQ provenance batch 3
+- Resolved 4 `dlc_requirement` nulls:
+  - **Future Saga Chapter 2:** Full Power Destruction (PQ177).
+  - **Legendary Pack 1:** Thunder Flash (PQ146).
+  - **Super Pack 2:** Requiem of Destruction (PQ106).
+  - **Dragon Ball DAIMA Pack:** Super Kamehameha (SS4 DAIMA) (PQ181).
+- Data commit: `3ef6047398485f88619719c59435dd70f4629075`.
+- Audit commit: `916a144fdb52729ec5d1b3ee07ccd3e391d4eba7`.
+- Live census: **283 skills; 26 null `dlc_requirement`; 31 null `source_quest`**.
+- Remaining null-DLC names are now explicitly listed in the audit. Next priority: inspect explicit named DLC/update/shop evidence, especially Shield Barrier, Supernova, Divine Lasso, Dragon Fist, Godly Display, and character-only records. Preserve null where chronology is not established.
