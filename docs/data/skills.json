@@ -4023,8 +4023,8 @@
       "mechanics": "Ki-draining barrier that grants immunity to damage while held.",
       "last_verified": "2026-09-19",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki.",
-      "source_quest": "Starting fighting-style choice — \"I want to fight up close\"",
-      "acquisition_type": "quest_or_mission",
+      "source_quest": null,
+      "acquisition_type": "starting_move",
       "notes": ""
     },
     {
@@ -4063,7 +4063,7 @@
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
       "ki_cost": 100,
-      "unlock_method": "Skill Shop after \"Decisive Battle with Majin Buu\"",
+      "unlock_method": "Skill Shop after defeating Kid Buu in the main story.",
       "usable_by_cac": true,
       "research_status": "enriched",
       "ultimate_finish_required": false,
@@ -4071,9 +4071,9 @@
       "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "source_quest": "Decisive Battle with Majin Buu",
+      "source_quest": null,
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "skill_shop",
       "notes": ""
     },
     {
