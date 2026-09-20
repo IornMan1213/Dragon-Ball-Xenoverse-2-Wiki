@@ -3386,3 +3386,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - These are deterministic instructor-training routes, so `ultimate_finish_required=false` remains appropriate.
 - Canonical and index records were synchronized.
 - Exact next task: continue deterministic acquisition verification through remaining partially verified records, prioritizing explicit mentor/shop/reward evidence.
+
+
+### 2026-09-19 continuation — Wish/mentor deterministic verification cohort
+- Verified **Burst Reflection, Flash Fist Crush, Shadow Crusher, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike** from deterministic Shenron-wish or mentor-training acquisition routes.
+- Burst Reflection/Flash Fist Crush use Shenron's Super Attack wish; Shadow Crusher is learned through Cooler (Final Form) mentor training; the three Time Skip skills are learned through Hit mentor training.
+- These routes do not depend on Parallel Quest Ultimate Finish rewards, so `ultimate_finish_required=false` is retained.
+- Canonical and index records were synchronized.
+- Exact next task: continue deterministic verification through the remaining partially verified skill cohort, prioritizing explicit shop/quest reward documentation.
