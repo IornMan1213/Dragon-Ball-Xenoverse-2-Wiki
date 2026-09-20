@@ -4748,7 +4748,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 152
     },
     {
       "name": "Lovely Cyclone",
@@ -5419,7 +5420,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 46
     },
     {
       "name": "Chaotic Time Impact",
@@ -5473,7 +5475,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 154
     },
     {
       "name": "Core Breaker",
@@ -5499,7 +5502,8 @@
         "https://dragonball.fandom.com/wiki/Core_Breaker",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 158
     },
     {
       "name": "Death Ball",
@@ -5546,7 +5550,8 @@
         "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Meteor",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 106
     },
     {
       "name": "Dimension Ray",
@@ -5572,7 +5577,8 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 98
     },
     {
       "name": "Divine Ray Bomb",
@@ -5643,7 +5649,8 @@
         "https://dbxv2.fandom.com/wiki/Energy_Field"
       ],
       "race_restriction": "All CaC races",
-      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill."
+      "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
+      "source_quest": 29
     },
     {
       "name": "Final Explosion",
@@ -5689,7 +5696,8 @@
       "last_verified": "2026-09-19",
       "mechanics": "400 Ki base cost; while the attack lands, holding input can consume all additional available Ki for a major power boost.",
       "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 181
     },
     {
       "name": "Final Kamehameha",
@@ -5732,7 +5740,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "notes": "Dedicated current-version evidence confirms PQ177 acquisition, 500 Ki, Ki Blast Ultimate classification, and Jiren users. The reviewed page does not explicitly establish CaC race/gender/form scope. Keep race_restriction null rather than inferring from Jiren or partner customization.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 177
     },
     {
       "name": "Gigantic Breaker",
@@ -5759,7 +5768,8 @@
         "https://dragonball.fandom.com/wiki/Gigantic_Breaker"
       ],
       "description": "Focus your Ki into your fist and charge forward with a powerful strike. Missing leaves you vulnerable.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 126
     },
     {
       "name": "Gigantic Burst",
@@ -5781,7 +5791,8 @@
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "damage_type": "Ki Blast",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 127
     },
     {
       "name": "Gigantic Explosion",
@@ -5806,7 +5817,8 @@
         "https://dbxv2.fandom.com/wiki/Gigantic_Explosion"
       ],
       "mechanics": "Requires an Awoken Skill for CaCs; releases a large area explosion. Costs 600 Ki and can spend 400 Stamina to continue while taking damage.",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 164
     },
     {
       "name": "Gigantic Roar",
@@ -5830,7 +5842,8 @@
         "https://dbxv2.fandom.com/wiki/Gigantic_Roar",
         "https://dragonball.fandom.com/wiki/Gigantic_Roar"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 132
     },
     {
       "name": "God of Destruction's Menace",
@@ -5855,7 +5868,8 @@
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Menace"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 105
     },
     {
       "name": "God of Destruction's Roar",
@@ -5879,7 +5893,8 @@
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Roar",
         "https://dragonball.fandom.com/wiki/God_of_Destruction%27s_Roar"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 105
     },
     {
       "name": "Heat Dome Attack",
@@ -5903,7 +5918,8 @@
         "https://dbxv2.fandom.com/wiki/Heat_Dome_Attack",
         "https://dragonball.fandom.com/wiki/Heat_Dome_Attack"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 40
     },
     {
       "name": "Holy Wrath",
@@ -5927,7 +5943,8 @@
         "https://dbxv2.fandom.com/wiki/Holy_Wrath",
         "https://dragonball.fandom.com/wiki/Holy_Wrath"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 111
     },
     {
       "name": "Last Emperor",
@@ -5951,7 +5968,8 @@
         "https://dbxv2.fandom.com/wiki/Last_Emperor",
         "https://dragonball.fandom.com/wiki/Last_Emperor"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 71
     },
     {
       "name": "Lightning Impact",
@@ -5971,7 +5989,8 @@
       "mechanics_notes": "Channels Ki into a Ki Wave; rapid input increases charge and damage; opponent is paralyzed if they touch the user while charging. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 142
     },
     {
       "name": "Lightning of Absolution",
@@ -5995,7 +6014,8 @@
         "https://dbxv2.fandom.com/wiki/Lightning_of_Absolution",
         "https://dragonball.fandom.com/wiki/Lightning_of_Absolution"
       ],
-      "race_restriction": "All CaC races"
+      "race_restriction": "All CaC races",
+      "source_quest": 111
     },
     {
       "name": "Majin Kamehameha",
