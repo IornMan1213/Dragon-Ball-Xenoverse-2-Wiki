@@ -3094,3 +3094,13 @@ Validator commit: `7e35b13efb5dc3f747d5ba66c18239c760540a7f`.
 - The maintained Steam 186-PQ transcription independently documents PQ36 and PQ53–55; a Japanese reference reports PQ54 after PQ53 and PQ55 after PQ54. The repository preserves the conflicting PQ54 community report rather than collapsing the evidence.
 - CI remains unverified for the latest handoff commit: the GitHub connector exposed no workflow runs and no combined status checks. Validators were not weakened.
 - Current PQ unlock-field gap: **0**. Remaining PQ research should focus on reward-slot semantics, acquisition provenance, DLC/version history, and cross-links.
+
+
+## 2026-09-19 — skill subcategory schema/invariant correction
+
+- Recomputed the live 283-record canonical skill census before continuing the P1 validation pass.
+- Found a deterministic schema/validator mismatch: four existing canonical records — **Pure Progress, Super Saiyan 2, Super Saiyan Blue Kaioken, and Supersonic Mode** — intentionally use `class: Awoken` + `subcategory: Transformation`, but `Transformation` was missing from both the JSON Schema subcategory enum and the validator's allowed-subcategory set.
+- This was a validation-model defect, not a reason to rewrite the four records. Their existing sources, character/CaC availability, and acquisition classifications were preserved.
+- Added `Transformation` to the schema enum and validator allow-list so the declared canonical model matches the live dataset.
+- No factual skill values were changed.
+- Next deterministic check: audit category/subcategory relationships and CaC eligibility for impossible combinations, while preserving legitimate Awoken transformation records separately from the 15 canonical parent Transformation count.
