@@ -4247,12 +4247,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 110 acquisition",
       "source_quest_or_shop": "Parallel Quest 110",
       "ultimate_finish_required": false,
       "skill_description": "Divinity Unleashed is a Super Power Up skill associated with Zamasu.",
       "mechanics_notes": "Confirmed as Zamasu's 100-Ki Power Up Super from PQ110. Charging at least one full Ki bar activates a temporary effect that substantially increases Ki gained from attacks/charging; it is a CaC-usable charge skill. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4262,7 +4262,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 110,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence."
     },
     {
       "name": "Do or Die",
@@ -4274,12 +4274,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 49 acquisition",
       "source_quest_or_shop": "Parallel Quest 49",
       "ultimate_finish_required": false,
       "skill_description": "Do or Die is a Super Power Up skill associated with Super Saiyan 3 Gotenks.",
       "mechanics_notes": "Confirmed as 100-Ki PQ49 Power Up Super. It knocks back nearby enemies on activation and grants 10% damage reduction for 20 seconds. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4289,7 +4289,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 49,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence."
     },
     {
       "name": "Fighting Pose E",
@@ -4301,12 +4301,12 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 19 acquisition",
       "source_quest_or_shop": "Parallel Quest 19",
       "ultimate_finish_required": false,
       "skill_description": "Fighting Pose E is a Super Power Up skill associated with Captain Ginyu.",
       "mechanics_notes": "Confirmed as 0-Ki PQ19 Power Up Super. The pose temporarily increases Basic Attack for 20 seconds; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4317,7 +4317,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence."
     },
     {
       "name": "Fighting Pose H",
@@ -4329,12 +4329,12 @@
       "ki_cost": 0,
       "stamina_cost": null,
       "damage_type": "Other",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 61 acquisition",
       "source_quest_or_shop": "Parallel Quest 61",
       "ultimate_finish_required": false,
       "skill_description": "Fighting Pose H is a Super Power Up skill associated with Recoome.",
       "mechanics_notes": "Corrected user attribution to Guldo. Confirmed as 0-Ki PQ61 Power Up Super that reduces damage taken for 20 seconds; usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4344,7 +4344,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 61 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence."
     },
     {
       "name": "Fighting Pose K",
