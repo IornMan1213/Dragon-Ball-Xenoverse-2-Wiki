@@ -3003,3 +3003,19 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `a9b241647ce398a48f6bb1ea06c087038865ed15` (canonical), `18d895eab9792a2efa65316b9493622ffe7b7763` (index), `b53dd0d9618d72946fba34ee708ccb3677fdc9e9` (coverage audit).
 - Exact-generic PQ acquisition census remains **0**; canonical census remains **283**.
 - Next task: continue explicit stale/incorrect-note scanning, prioritizing remaining acquisition-source conflicts, unresolved race scope, and DLC/free-update provenance without inventing unsupported data.
+
+
+### 2026-09-20 cycle update — random-vs-basic skill reward contradiction recheck
+- Workstream: P1 skill acquisition/type and reward-gate consistency cleanup.
+- Recomputed the live canonical skill census: **283 records; 205 verified; 78 verified_current_scope; 0 partially_verified; 0 conflict**.
+- Rechecked the six remaining `verified_current_scope` records whose canonical unlock wording uses Random Reward: **Side Bridge (PQ39), Final Cannon (PQ52), Celestial Wave (PQ151), Gamma Blaster (PQ155), Giant Cluster (PQ163), and Steel Mirage (PQ165)**.
+- The maintained 186-PQ Steam reward corpus places all six in their quests' **Basic Reward** sections. Existing dedicated skill/community references retained in the canonical records still describe random acquisition for several of them.
+- Evidence conflict was preserved: **no canonical reward-tier or `ultimate_finish_required` fields were changed**. The repository continues to distinguish the maintained reward transcription from unresolved dedicated-source wording instead of silently selecting one.
+- Files changed: `docs/data/skill-catalog-audit.json` and this handoff.
+- Research source: maintained Steam 186-PQ reward transcription, plus the dedicated skill/community sources already recorded on the affected skill records.
+- Audit commit: `a71d241eeff501243ba7464b8c71c7d698bbf854`.
+- Validation: updated audit JSON parses successfully; no canonical gameplay dataset was changed.
+- CI status: the latest canonical commit before this audit (`8cf7495655b2888f52cb29052acc25d4d833ca8a`) has no pull-request workflow runs exposed by the connected GitHub Actions integration. Existing opaque zero-step failures remain unresolved; no validators/workflows were weakened.
+- Internal-artifact status: no repository changes in this cycle introduced ChatGPT/UI citation markup or internal tool IDs.
+- Evidence limitation: the maintained Steam corpus is a reward transcription, while the conflicting dedicated/community references do not consistently expose exact in-game reward-slot semantics. Do not change these six canonical tiers until stronger quest-record or empirical evidence resolves the contradiction.
+- Exact next task: continue the P1 skill second-pass audit by targeting the next unresolved acquisition/source contradiction outside these six records, while preserving null/uncertain fields and checking the live Actions state before the next handoff update.
