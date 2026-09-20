@@ -3114,3 +3114,11 @@ Validator commit: `7e35b13efb5dc3f747d5ba66c18239c760540a7f`.
 - Every `Character-only` restriction is paired with `usable_by_cac=false`; no contradiction was found.
 - Added these deterministic invariants to `scripts/validate_skills.py`. No factual skill records were changed.
 - Source provenance scan also found zero malformed source URLs and zero duplicate source entries in the 283 records.
+
+
+## 2026-09-19 — skill schema-version generator consistency
+
+- Compared the live canonical skill files with `scripts/build_skills_from_research.py`.
+- Both live `skills.json` and `skills-index.json` declare schema version `1.1`, while the builder was still emitting `1.2` for both outputs.
+- Corrected the builder to emit the live canonical schema version `1.1`, preventing a future rebuild from creating a deterministic cross-file metadata mismatch.
+- No skill records or factual provenance were changed.
