@@ -3356,3 +3356,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Dedicated documentation confirms it as a **300-Stamina Ki Blast Evasive**, with a short-range forward explosive attack, knockback, and approximately 5% documented damage. The maintained PQ guide independently lists Maiden Burst in PQ92 Basic Reward. citeturn1search0turn1search2
 - No Ultimate Finish-only gate or unsupported CaC restriction was added.
 - Canonical data commit: `8aacc3faa0a40ecaed0c8521bd411410adaa2ffa`.
+
+
+## 2026-09-20 — Energy Barrier conflict preservation / Spirit Slash provenance
+
+- **Energy Barrier** was re-audited because its record contained contradictory reward semantics: the maintained PQ32 listing places it in Basic Reward, while dedicated evidence describes the CaC acquisition as tied to defeating Cell during the Ultimate Finish. The canonical record now explicitly preserves this conflict instead of asserting either gate as exclusive.
+- **Spirit Slash** was refined to the exact **PQ02 — "A Deal?! The Saiyan Brothers" Basic Reward** provenance while retaining the standard skill's documented 200-Stamina Strike Evasive classification. The separate DBS Super Hero Gohan variant's 300-Stamina behavior remains distinguished.
+- No unsupported drop probability or exclusive Ultimate Finish requirement was added.
+- Canonical data commit: `e9137154c07aae27cc84381339c75c21a5566aed`.
