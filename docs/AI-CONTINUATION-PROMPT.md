@@ -3422,3 +3422,9 @@ Live inspection of the validation contract exposed two repository integrity issu
 - Verified **Double Death Slicer, Gigantic Charge, Pendulum Bullet, Super Ghost Buu Attack, Vanishing Ball, Variable Snipe Shot, Fighting Pose K, Formation!, and Indomitable** from documented PQ/shop acquisition routes.
 - Canonical/index synchronized; no Ultimate Finish-only requirement assigned without explicit evidence.
 - Next: continue deterministic acquisition verification through the remaining partially verified cohort.
+
+
+### 2026-09-19 continuation — mentor/PQ cohort
+- Verified **Galick Gun, Petrifying Spit, Phantom Fist, Rise to Action, and Dancing Parapara** from deterministic acquisition references.
+- Canonical/index synchronized; no Ultimate Finish-only requirement assigned without explicit condition evidence.
+- Next: continue deterministic acquisition verification through the remaining partial cohort.
