@@ -3215,3 +3215,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Found and corrected four stale `acquisition_type` values in `skills-index.json`: Explosive Wave, Final Pose, Super Guard, and Time Bullet.
 - Post-sync comparison reports 0 mismatches across class, subcategory, verification status, research status, and acquisition type.
 - Artifact scan across canonical data, index, audit, and handoff: 0 forbidden citation/tool markers.
+
+
+## 2026-09-19 — Validator/CI verification pass
+
+- Inspected the dedicated `skills-validation.yml` workflow and current validator/schema sources.
+- The workflow installs pinned `jsonschema==4.25.1`, uses Python 3.12, and runs `scripts/validate_skills.py` on canonical skill-data/schema changes.
+- Static inspection confirms the validator uses JSON Schema Draft 2020-12, `FormatChecker()`, `check_schema`, and cross-file checks.
+- GitHub reports no workflow runs and no commit statuses for the latest handoff commit, so CI execution remains unverified.
+- Local execution was attempted but the environment could not resolve GitHub for a repository clone; no local-pass claim is made.
