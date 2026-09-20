@@ -2049,7 +2049,7 @@
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish Bonus",
       "source_quest_or_shop": "PQ160",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": true,
       "skill_description": "Demon Ray is a Super Ki Blast skill used by Gohan (Beast).",
       "mechanics_notes": "Dedicated current-version evidence confirms Demon Ray as a 100-Ki Ki Blast Super from PQ160, with a 300-Stamina follow-up/use-while-hit mechanic. Existing acquisition record is retained. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
@@ -2063,7 +2063,7 @@
       "race_restriction": "All CaC races",
       "source_quest": "Parallel Quest 160 — Pan in Peril",
       "acquisition_type": "quest_or_mission",
-      "notes": "Reconciled 2026-09-20: Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish Bonus based on current reward evidence."
+      "notes": "Reconciled 2026-09-20: Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish bonus. The maintained PQ160 drop data records a 50% Ultimate Finish bonus roll."
     },
     {
       "name": "Destruction's Concerto: Comet",
@@ -5893,13 +5893,13 @@
       "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan)",
       "dlc_requirement": "Legendary Pack 2",
       "ki_cost": 300,
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 148 — Finding Out About Fusion",
       "ultimate_finish_required": false,
-      "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current skill page explicitly states PQ148 unlock and Ki Blast Ultimate classification; the PQ148 reward guide independently lists Blaster Stream as a Basic Reward.",
+      "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. 2026-09-20 verification: current skill page explicitly states PQ148 unlock and Ki Blast Ultimate classification; the PQ148 reward guide independently lists Blaster Stream as a Basic Reward.",
       "research_status": "verified",
       "last_verified": "2026-09-20",
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred.",
+      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Blaster Stream in PQ148 Basic Reward. No Ultimate Finish requirement is asserted.",
       "race_restriction": null,
       "source_quest": 148,
       "acquisition_type": "quest_or_mission"
@@ -6565,16 +6565,16 @@
       "character_source": "Majuub; Goku (GT)",
       "dlc_requirement": "Ultra Pack 2",
       "ki_cost": 300,
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 142 — \"Timespace Tussle\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 142 — Timespace Tussle",
       "ultimate_finish_required": false,
-      "mechanics_notes": "Channels Ki into a Ki Wave; rapid input increases charge and damage; opponent is paralyzed if they touch the user while charging. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists Lightning Impact in the Basic Reward section of Parallel Quest 142 — Timespace Tussle, establishing the acquisition route without an Ultimate Finish requirement.",
+      "mechanics_notes": "Channels Ki into a Ki Wave; rapid input increases charge and damage; opponent is paralyzed if they touch the user while charging. 2026-09-20 verification: current PQ guide explicitly lists Lightning Impact in the Basic Reward section of Parallel Quest 142 — Timespace Tussle, establishing the acquisition route without an Ultimate Finish requirement.",
       "research_status": "enriched",
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "source_quest": 142,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Lightning Impact in PQ142 Basic Reward. No Ultimate Finish requirement is asserted."
     },
     {
       "name": "Lightning of Absolution",
