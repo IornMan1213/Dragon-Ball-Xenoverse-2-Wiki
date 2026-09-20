@@ -3210,56 +3210,60 @@
       "name": "Core Breaker",
       "class": "Ultimate",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/Core_Breaker",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Death Ball",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://dbxv2.fandom.com/wiki/Death_Ball",
         "https://gamefaqs.gamespot.com/boards/466298-dragon-ball-xenoverse-2-future-saga-chapter-1/74429476"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Destruction's Concerto: Meteor",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Destruction's_Concerto%3A_Meteor",
         "https://dragonball.fandom.com/wiki/Destruction%27s_Concerto%3A_Meteor",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Dimension Ray",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "enriched",
+      "verification_status": "verified",
+      "research_status": "verified",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Dimension_Ray",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "last_verified": "2026-09-20"
     },
     {
       "name": "Divine Ray Bomb",
