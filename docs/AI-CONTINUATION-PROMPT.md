@@ -2838,3 +2838,17 @@ Only after data-completeness work, expose the improved structured research surfa
 - Updated `docs/data/skills.json`, `docs/data/skills-index.json`, and `docs/COVERAGE-AUDIT.md`.
 - Commits: `4eaa298f9b3f700e19474bd`, `3fc1aaebcb265bd42fba833de5442a9765a08766`, `ec67f853ddcc7efbc413360b4d0166d6ba513829`.
 - Exact next task: continue the generic `quest_or_mission` pass, prioritizing other records with `Random Parallel Quest reward` or `Parallel Quest reward`, and preserve uncertainty when a reward tier is not directly established.
+
+
+### 2026-09-20 cycle update — canonical skill acquisition/type cleanup
+- Workstream: P1 skill second-pass canonical classification and acquisition-provenance cleanup.
+- Researched and corrected five current-scope records: **Evil Blast**, **Final Cannon**, **Evil Flame**, **Eraser Bomb**, and **Dust Attack**.
+- Evil Blast was corrected from Super/Ki Blast/100 Ki to **Ultimate/Ki Blast/300 Ki** with PQ114 Ultimate Finish acquisition evidence.
+- Final Cannon was corrected from Ki Blast Super to **Strike Super**, with **Trunks (Kid)** as the source character and PQ52 random-reward provenance.
+- Evil Flame was refined to PQ117 Basic Reward while preserving separate random-drop wording; Eraser Bomb to PQ163 Basic Reward; Dust Attack to PQ78 Basic Reward.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
+- Commits: `ee1612ed8080024a7d7ca2117eea98b4d72cf9d3` (Evil Blast), `e42926e0275d3cd3de93d0749a6f00be5c483301` (Final Cannon), `d1f458f251355943e9c11ea2ff395d6f17f596b3` (three provenance refinements), `3346edcb15b2873ee895f70cfa03b655f0fad55e` / `a609fb2c7278e767029dcf76cbde579c2caebc38` / `b3f92d45c4487381b44216a0388366649582b3f5` (index synchronization), `95143ca55326fffde706e0367baea9349312f104` (coverage audit).
+- Validation: skills dataset and index remain at **283 records**; category counts were adjusted for the Evil Blast and Final Cannon classification moves. Selected canonical/index fields were synchronized.
+- Evidence limitations: no unsupported drop probabilities were added. Evil Flame retains the distinction between the maintained Basic Reward listing and separate random-drop wording. Evil Blast's UF acquisition is supported by dedicated evidence.
+- CI: inspect push-triggered Repository quality / cleanup / Pages runs; do not weaken validators for opaque pre-step failures.
+- Exact next task: continue the generic acquisition/type audit, prioritizing **Emperor's Blast**, **Emperor's Cannon**, and remaining generic Parallel Quest reward records where current evidence can establish a concrete quest/reward tier.
