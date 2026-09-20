@@ -3538,3 +3538,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Burst Kamehameha:** refined to **PQ72 — First Training, Basic Reward**. citeturn0search0turn0youtube34
 - Re-synchronized `docs/data/skills-index.json`; record count remains 283.
 - Exact next task: continue the remaining generic PQ records, preserving random-reward wording where dedicated sources explicitly describe RNG acquisition.
+
+
+## 2026-09-20 — PQ reward-tier refinement batch 4
+- Refined **Buu Buu Ball** → PQ88 Basic Reward; **Candy Beam** → PQ66 Basic Reward; **Candy Beam (Super)** → PQ113 Basic Reward; **Crazy Finger Shot** → PQ26 Basic Reward; **Death Psycho Bomb** → PQ33 Basic Reward.
+- Refined **Destruction's Concerto: Starfall** → PQ104 Basic Reward and **Flash Chaser** → PQ138 Basic Reward.
+- Refined **Gamma Blaster** → random reward from PQ155; no unsupported reward tier was inferred.
+- Re-synchronized `docs/data/skills-index.json`; record count remains 283.
+- Exact next task: continue the remaining generic/random PQ records, moving through the list in quest order and preserving explicit RNG provenance.
