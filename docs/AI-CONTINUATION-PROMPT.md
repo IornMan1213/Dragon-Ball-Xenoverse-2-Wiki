@@ -2737,3 +2737,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Dedicated skill evidence also confirms their existing canonical stamina/type classifications; no unsupported drop probabilities or Ultimate Finish-only gates were added.
 - Commits: `e540e613f4f2bea20ef9cfda1d9c11e741aa85be` (skills), `622a662765d150c90c402aee3ad83fc78fec71ef` (coverage audit).
 - Exact next task: continue the pre-2026-09-20 audit for remaining unresolved acquisition semantics and canonical type/cost discrepancies.
+
+
+### 2026-09-20 cycle update — six additional evasive provenance refinements
+- Refined **Psychic Move** → PQ73 — "Frieza’s Siege Against Earth!" Basic Reward.
+- Refined **Spread Shot Retreat** → PQ28 — "Legendary Super Saiyan" Basic Reward.
+- Refined **Mach Dash** → PQ18 — "Force Entrance Exam" Basic Reward.
+- Refined **Angry Shout** → PQ68 — "Old Rivals and Dragon Balls" Basic Reward.
+- Refined **Spirit Explosion** → PQ25 — "The Emperor’s Brother" Basic Reward.
+- Kept **Explosive Wave** as Skill Shop acquisition after normal-ending story progression.
+- Commits: `36191badce56ea7fe3d89c1966b902b996fa979c` (skills), `5f3bccbf58e4b298bf167747dd861f3821f975f3` (coverage audit).
+- Exact next task: continue scanning the remaining current-scope records for acquisition conflicts and canonical type/cost discrepancies; preserve conflicting reward-gate evidence instead of collapsing it into a false definitive gate.
