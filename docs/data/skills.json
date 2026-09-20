@@ -4637,12 +4637,12 @@
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward; exact drop gating retained as research",
+      "unlock_method": "Parallel Quest 178 — The Tireless Pursuit of Strength",
       "source_quest_or_shop": "PQ178",
       "ultimate_finish_required": false,
       "skill_description": "Burst Blitz is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Confirmed as Goku (Mini)'s 300-Ki Strike Super from Future Saga Chapter 2 PQ178. It is a close-range rush strike; current Future Warrior evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -4653,7 +4653,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 178,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 178 — The Tireless Pursuit of Strength. No Ultimate Finish-only requirement is established."
     },
     {
       "name": "Crimson Edge",
@@ -5078,12 +5078,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Random Parallel Quest reward",
+      "unlock_method": "Parallel Quest 155 — I Need a Hero... Pose!",
       "source_quest_or_shop": "PQ155",
       "ultimate_finish_required": false,
       "skill_description": "Gamma Impact is a Super Strike skill used by Gamma 2.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -5094,7 +5094,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 155 — I Need a Hero... Pose!. No Ultimate Finish-only requirement is established."
     },
     {
       "name": "God of Destruction's Poise",
@@ -5304,12 +5304,12 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
-      "unlock_method": "Parallel Quest reward",
+      "unlock_method": "Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style",
       "source_quest_or_shop": "Parallel Quest 09",
       "ultimate_finish_required": false,
       "skill_description": "Meteor Blow is a Super Strike skill associated with Goku / Gohan.",
       "mechanics_notes": "Identity, classification, cost and PQ acquisition are corroborated; exact drop gating remains under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified",
       "research_status": "enriched",
       "last_verified": "2026-09-19",
       "sources": [
@@ -5320,7 +5320,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 9,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established."
     },
     {
       "name": "Meteor Strike",
