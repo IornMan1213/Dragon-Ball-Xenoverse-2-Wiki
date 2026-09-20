@@ -3378,3 +3378,11 @@ Live inspection of the validation contract exposed two repository integrity issu
 - For all four, `ultimate_finish_required=false` is retained because the documented acquisition is in the Basic Reward set rather than an Ultimate Finish-only reward set.
 - Canonical and index records were synchronized.
 - Exact next task: continue deterministic acquisition verification through the remaining partially verified cohort, prioritizing explicit Basic Reward / mentor / shop evidence.
+
+
+### 2026-09-19 continuation — Mentor acquisition verification cohort
+- Verified **Destructo-Disc, Masenko, Perfect Shot, and Spirit Bomb** from explicit mentor-training evidence.
+- Destructo-Disc is awarded by Krillin's Lesson 2; Masenko by Kid Gohan's Lesson 2; Perfect Shot by Cell (Perfect)'s Lesson 2; Spirit Bomb by Goku's Initiation Test.
+- These are deterministic instructor-training routes, so `ultimate_finish_required=false` remains appropriate.
+- Canonical and index records were synchronized.
+- Exact next task: continue deterministic acquisition verification through remaining partially verified records, prioritizing explicit mentor/shop/reward evidence.
