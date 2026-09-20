@@ -2699,3 +2699,10 @@ Skills commit: `5a79afc1b2a8cd96f1346365d8ff219387e74a0b`.
 Promoted 21 explicit single-PQ identifiers from existing skill acquisition metadata: **Majin Kamehameha (PQ60), Mystic Flash (PQ20), Prominence Flash (PQ137), Requiem of Destruction (PQ106), Revenge Death Ball (PQ127), Revenge Final Flash (PQ124), Ribrianne's Eternal Love (PQ137), S.S. Deadly Bomber (PQ115), Sign of Awakening (PQ154), Special Beam Cannon (Beast) (PQ162), Super Black Kamehameha Rosé (PQ109), Super Gamma Blast (PQ158), Super Kamehameha (SS4 DAIMA) (PQ181), Teleporting Vanishing Ball (PQ62), Thunder Flash (PQ146), Total Detonation Ball (PQ139), Warp Kamehameha (PQ76), Blades of Judgment (PQ112), Brave Sword Attack (PQ117), Divine Wrath: Purification (PQ112), Explosive Buu Buu Punch (PQ50)**. Ambiguous multi-source/shop routes and unresolved exact-drop-gating records remain unchanged.
 
 Skills commit: `c8b984edea0440ce06c5e1b4d6b266006eef5126`.
+
+
+## 2026-09-19 — source-quest provenance batch 13
+
+Promoted 4 unambiguous single-PQ identifiers from existing acquisition metadata: **Gigantic Rage (PQ130), Saiyan Spirit (PQ84), Unrelenting Barrage (PQ10), Victory Rush (PQ89)**. Records whose metadata explicitly retains unresolved exact-drop gating, multi-PQ pools, character-only context, or shop/multiple acquisition routes remain unchanged.
+
+Skills commit: `8d9342ddc48c74f75d5c2b36d309998e611f3af7`.
