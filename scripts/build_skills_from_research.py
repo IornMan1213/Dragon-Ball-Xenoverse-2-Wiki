@@ -6,6 +6,14 @@ from datetime import date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
 TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
+def classify_acquisition(d):
+ text=' '.join(str(d.get(k,'')) for k in ('source_quest','source_quest_or_shop','unlock_method','source')).casefold()
+ if d.get('source_quest') not in (None,''): return 'quest_or_mission'
+ if 'tp medal' in text or 'stp medal' in text: return 'tp_medal_shop'
+ if 'skill shop' in text: return 'skill_shop'
+ if 'starting move' in text: return 'starting_move'
+ if 'character-exclusive' in text or 'character exclusive' in text or 'character-only' in text or 'character only' in text or 'character skill' in text: return 'character_only'
+ return 'other_nonquest'
 def normalize_sources(values):
  out=[]
  for value in values or []:
@@ -83,6 +91,7 @@ def build_record(d,p):
  if isinstance(d.get('properties'),list) and d['properties']:r['mechanics_notes']=r['skill_description']='; '.join(map(str,d['properties']))
  if d.get('summary'):r.setdefault('skill_description',str(d['summary']))
  if d.get('lastVerified'):r['last_verified']=str(d['lastVerified'])
+ r['acquisition_type']=classify_acquisition(d)
  if d.get('confidence'):r['research_status']='enriched'
  return r
 def main():
@@ -99,6 +108,6 @@ def main():
  targets=dict(TARGET_COUNTS); targets['Transformations']=15
  payload={'schema_version':'1.2','game':'Dragon Ball Xenoverse 2','source_index':'https://dbxv2.fandom.com/wiki/Category:Skills','generated':date.today().isoformat(),'status':'structured_research_catalog','category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':rows,'notes':'Transformation category counts canonical parent records (15); five additional named forms are documented as stages in the Awoken parent records. Unresolved fields remain blank rather than inferred.'}
  OUT.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
- INDEX.write_text(json.dumps({'schema_version':'1.2','source_index':payload['source_index'],'generated':payload['generated'],'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':[{k:r[k] for k in ('name','class','subcategory','verification_status','research_status','sources') if k in r} for r in rows]},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+ INDEX.write_text(json.dumps({'schema_version':'1.2','source_index':payload['source_index'],'generated':payload['generated'],'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':[{k:r[k] for k in ('name','class','subcategory','verification_status','research_status','acquisition_type','sources') if k in r} for r in rows]},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
  print(f'Imported {imported}; total records={len(rows)}; Awoken parent records={awoken}')
 if __name__=='__main__':raise SystemExit(main())
