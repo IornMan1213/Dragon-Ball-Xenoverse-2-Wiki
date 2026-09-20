@@ -3148,3 +3148,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Evidence limitation: reward-slot semantics remain source-conflicted for some skills, including Celestial Wave. Preserve uncertainty rather than selecting a convenient source.
 - Current unresolved counts: 283 canonical skills; 0 partially_verified; 0 conflict; 78 verified_current_scope; race-scope nulls remain only where evidence is insufficient; DLC provenance null-count remains 0.
 - Exact next task: continue the P1 acquisition/provenance audit on the next unresolved source discrepancy, then inspect current GitHub Actions status and re-run the live canonical census before the next batch. Do not manufacture missing PQ141–PQ150 records.
+
+
+### 2026-09-20 cycle update — God Breaker PQ44 provenance refinement
+- Reconciled **God Breaker** against current PQ44 reward evidence.
+- Current maintained PQ44 evidence explicitly lists God Breaker under **Basic Reward**; dedicated skill documentation confirms PQ44 acquisition. The canonical and index records now use the explicit Basic Reward classification rather than generic random-PQ wording.
+- Exact individual reward probability remains unresolved, and no Ultimate Finish-only requirement was inferred.
+- Commits: `90d7773f9357e945ac1867c7ed58d508a892777b` (canonical), `5769a063184ba6e5489cd74bcbddd9098feb7889` (index), `c9c4c3592d581a72ca7e683903345515c21cf6d9` (audit).
+- Web cross-check: current PQ44 documentation lists God Breaker in Basic Reward; dedicated skill documentation identifies PQ44 as its acquisition route. citeturn0search0turn0search13
+- Exact next task: continue the bounded P1 provenance audit on the remaining generic/random records, prioritizing **Bluff Kamehameha, Final Cannon, Side Bridge, and Steel Mirage**, and only promote a gate when explicit maintained drop-condition evidence supports it.
