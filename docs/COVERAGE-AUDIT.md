@@ -2753,3 +2753,10 @@ Reviewed all **47** remaining `source_quest` nulls against the live acquisition 
 Resolved 10 previously-null late-DLC PQ records using a public quest-reward guide that explicitly lists the skills in the corresponding PQ reward sets: **God of Destruction's Plaything (PQ175), God of Destruction's Poise (PQ175), Dragon Spark (PQ177), Soaring Rush (PQ177), Indomitable (PQ185), Dragon Spiral (PQ185), Venus Fist (PQ186), Heat Wave (PQ179), Supreme Fury (PQ179), Burning Blast (PQ180)**. This replaces the earlier unresolved-PQ status where the quest number was known but reward provenance had not been corroborated strongly enough.
 
 Skills commit: `d7cbb897e0ef2c4f364ec74935ea6d18731befd3`.
+
+
+## 2026-09-19 — explicit late PQ reward batch 21
+
+Promoted **Divine Ray Bomb → PQ173** and **Final Rampage → PQ174**. A current public PQ reward listing explicitly identifies Divine Ray Bomb under PQ173 (Decoding Dinner) and Final Rampage under PQ174 (Hyper Special Training). citeturn1search0turn1search1
+
+Skills commit: `1886f89930480d65b2bd47db6c2f87ca1f8d5dd3`.
