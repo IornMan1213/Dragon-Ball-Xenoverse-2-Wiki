@@ -813,13 +813,14 @@
         {
           "lesson": "lesson-3",
           "skill_name": "Super Ghost Kamikaze Attack",
-          "skill_id": "skill-super-ghost-kamikaze-attack"
+          "skill_id": "skill-super-ghost-kamikaze-attack-ultimate-ki-blast"
         }
       ],
       "skills": [
         "skill-super-ghost-kamikaze-attack",
         "skill-galactic-donuts",
-        "skill-die-die-missile-barrage"
+        "skill-die-die-missile-barrage",
+        "skill-super-ghost-kamikaze-attack-ultimate-ki-blast"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
