@@ -5936,3 +5936,16 @@ The repository owner has clarified the continuation contract:
 - CI: commit `10c26541dbdeb24e034bf007163598841221c841` must be checked for workflow runs; do not claim CI success without an exposed run. Validators remain untouched.
 - Commits: `10c26541dbdeb24e034bf007163598841221c841` (canonical skill provenance); `057f97932b85136aa59f606e5e8827fa397ec761` (TODO ledger).
 - Exact next task: **recompute the live DLC-label/source-relationship census and continue with the next deterministic provenance cluster**, prioritizing source acquisition endpoints that can be independently matched to their originating DLC; preserve intentional composite/platform-dependent values.
+
+
+### 2026-09-21 cycle update — free-update provenance correction
+- Workstream: P1 skill DLC/version provenance cleanup.
+- Live census before editing: **428 canonical skill records; 0 duplicate IDs; 0 nullable `ki_cost` records**.
+- Research found a deterministic chronology mismatch in two free-update labels. The current Free Update reference lists **Divine Kamehameha** and **Godly Display** among the nine skills introduced in **Free Update 11**; the canonical registry previously labeled them `Free Update 1.14` and `Free Update 12`, respectively.
+- Changes: `docs/data/skills.json` only — corrected Divine Kamehameha → `Free Update 11` and Godly Display → `Free Update 11`, refreshed `last_verified=2026-09-21`, and appended bounded correction notes. No unrelated acquisition/cost/restriction/mechanics fields changed.
+- Evidence limitation: the chronology source establishes the free-update introduction number; it does not justify changing the existing TP/STP shop acquisition routes.
+- Deterministic exception review: Candy Beam remains `Base Game` despite `source_parallel_quests=[66,113]`; PQ66 is the primary base-game acquisition and the record already explicitly treats PQ113 as later Extra Pack 1 reward context.
+- Validation target: re-read the two corrected records and scan the edited canonical file for internal citation artifacts. Census should remain 428/428, 0 duplicate IDs, 0 nullable `ki_cost`.
+- CI target: inspect workflow runs for canonical commit `d9b28c8a4679034d94a855ff4dd9999318751c7a`; do not claim CI success without an exposed run. Validators remain untouched.
+- Commits: `d9b28c8a4679034d94a855ff4dd9999318751c7a` (canonical data); `fe71f9f47954a389790af3fbabf2dc0c46b8e26c` (TODO ledger).
+- Exact next task: **recompute the live DLC/update census and continue with the next independently resolvable provenance mismatch**, preserving intentional historical/composite classifications.
