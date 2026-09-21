@@ -1,7 +1,7 @@
 ## 2026-09-20 Emperor's Cannon conflict recheck
 
 - Rechecked the unresolved **Emperor's Cannon** PQ183/PQ184 discrepancy against current web evidence.
-- The dedicated skill page identifies **PQ184 — "The Invincible Duo"**, while the maintained 186-PQ reward guide and an independent PQ183 page list **Emperor's Cannon** under **PQ183 — "Broly vs. Broly"**. citeturn1search0turn1search3turn1search4
+- The dedicated skill page identifies **PQ184 — "The Invincible Duo"**, while the maintained 186-PQ reward guide and an independent PQ183 page list **Emperor's Cannon** under **PQ183 — "Broly vs. Broly"**.
 - Because the evidence remains directly contradictory, the canonical record continues to preserve **PQ184** as the dedicated-page value while explicitly documenting the PQ183 reward-table conflict. No forced resolution or Ultimate Finish requirement was introduced.
 
 
