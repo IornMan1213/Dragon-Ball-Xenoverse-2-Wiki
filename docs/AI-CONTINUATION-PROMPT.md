@@ -4151,4 +4151,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `baffd5b6c02d163a4030070400c079b04dcfb5c4` — Fail loudly on invalid canonical catalog state.
 - No canonical generated data was manually changed. CI remains unverified because the GitHub connector exposes no workflow/status entries for the maintenance commits.
 - Next task: continue auditing duplicate non-correction merge precedence and correction-field preservation; inspect actual batch conventions before changing semantics.
+## 2026-09-21 continuation — preserve research status
+- Inspected actual checked-in skill research batches and found records explicitly marked `research_status: enriched` (for example skill-batch-01 and skill-batch-03).
+- `load_local_batches()` was unconditionally replacing every imported record's status with `partially_enriched`, silently downgrading researched records before merge. This was a concrete field-preservation defect, not merely a precedence preference.
+- Changed import behavior to preserve a record's explicit `research_status`, falling back to the batch-level status and then `partially_enriched` only when neither is supplied.
+- Commit: `5aa74a31e62466152884ff556e032ce0f651462e` — Preserve enriched research status during skill import.
+- No canonical generated data was manually changed. CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
+- Next task: continue auditing correction-field semantics and duplicate/source precedence, making only fixes demonstrated by the checked-in research conventions.
 
