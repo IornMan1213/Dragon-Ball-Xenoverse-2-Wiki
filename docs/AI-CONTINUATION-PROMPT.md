@@ -3572,3 +3572,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Existing reward tiers and Ultimate Finish semantics were preserved; this pass changed provenance specificity only.
 - Commits: canonical `8dd9f7a39cfa3d87cd6d8067cbb3642d4f8fdb60`; index `4832e8933855ceb7846c2ff9a9dc9024b713ace4`; audit `66b51573e9e52725cfa077d1103d7d7d44afac8a`.
 - Exact next task: continue scanning the remaining generic/pooled source fields, prioritizing records for which the maintained PQ reward corpus provides an explicit quest name or a clearly documented alternative acquisition route. Preserve unresolved reward-tier conflicts.
+
+
+### 2026-09-20 cycle update — explicit PQ provenance-label normalization
+- Audited generic `source_quest_or_shop` labels outside PQ161–180.
+- Normalized 73 generic labels where the existing `unlock_method` explicitly supplied the corresponding quest title; no acquisition semantics, reward tiers, UF flags, or probabilities were altered.
+- Commits: canonical `03d9813feda3269d318378389333c80a1b60a6a9`; index `52c1fcc481c452d0f3abf080a1dbdda4613ae2f5`; audit `ea2252779a712fbe9de58776e9e2af50d4e48486`.
+- Exact next task: re-scan remaining generic `source_quest_or_shop` values and then audit contradictory route records where `source_quest_or_shop`, `unlock_method`, and reward-tier evidence disagree. Only resolve conflicts when the maintained corpus provides deterministic support.
