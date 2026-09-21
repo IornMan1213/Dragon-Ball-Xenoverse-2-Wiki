@@ -663,3 +663,13 @@
 - Validation: **138 canonical Super Souls / 186 canonical PQ records / 52 forward / 52 reverse edges / 42 unique PQ endpoints / 52 unique Super Soul endpoints / 86 unresolved routes / 0 broken endpoints**; changed JSON parsed and contained 0 internal citation artifacts.
 - Commits: `cf87e747e95d7285fc81ed23e2492b467b5e6fd8`; `c4c5a4e053c34dda4fbd950371cced69997e94d2`; `13d89bcf536af250de8ff44330032dcabea94830`.
 - Exact next batch: **Super Soul 144–151**, after live-corpus reconciliation, beginning after `So, Hakai.`.
+
+
+### 2026-09-21 — Super Soul 144–151 frontier + PQ reverse-link reconciliation
+- Live census before editing: **138 canonical Super Souls / 186 canonical PQs**; live IDs reached 143, so identity reconciliation was performed before assigning the next IDs.
+- Added **8 unique** canonical records: super-soul-144 through super-soul-151. Damn it all! was already super-soul-062 and was not duplicated.
+- Synchronized **PQ179, PQ182, PQ183, and PQ184** with their explicit Super Soul reward IDs.
+- Rebuilt the PQ↔Super Soul report: **56 forward / 56 reverse edges / 46 unique PQ endpoints / 56 unique Super Soul endpoints / 90 unresolved routes / 0 broken endpoints**.
+- Evidence limits preserved: no unsupported PQ links for Festival/TP Medal Shop acquisitions; community-measured magnitudes/durations remain bounded; the Poltarat damage-direction conflict remains explicit.
+- Validation: changed JSON parsed successfully and the crosslink report was regenerated from the canonical registry. CI status was unavailable; no CI success is claimed.
+- Exact next batch: **the next eight unique source-corpus Super Souls after Send me back to the planet I came from!, after live duplicate reconciliation.**
