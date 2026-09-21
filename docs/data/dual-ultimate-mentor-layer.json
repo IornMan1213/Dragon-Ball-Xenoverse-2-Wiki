@@ -240,7 +240,7 @@
       "id": "dual-dual-dead-end-rain",
       "name": "DUAL Dead End Rain",
       "mentor_id": "mentor-android-18",
-      "base_skill_id": null,
+      "base_skill_id": "skill-dead-end-rain",
       "base_skill_name": "Dead End Rain",
       "attack_type": "Ki Blast",
       "skill_type": "Dual Ultimate",
@@ -599,26 +599,7 @@
   ],
   "summary": {
     "mentor_records": 33,
-    "linked_base_skills": 32,
-    "unresolved_base_skills": [
-      {
-        "id": "dual-dual-dead-end-rain",
-        "name": "DUAL Dead End Rain",
-        "mentor_id": "mentor-android-18",
-        "base_skill_id": null,
-        "base_skill_name": "Dead End Rain",
-        "attack_type": "Ki Blast",
-        "skill_type": "Dual Ultimate",
-        "unlock_method": "Max Friendship with mentor",
-        "ki_cost": 300,
-        "verification_status": "verified_current_scope",
-        "sources": [
-          "https://dbxv2.fandom.com/wiki/Mentors",
-          "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-        ],
-        "last_verified": "2026-09-21",
-        "notes": "Mentor Dual Ultimate relationship layer; base-skill link is populated only when the canonical base skill exists in the current skill database."
-      }
-    ]
+    "linked_base_skills": 33,
+    "unresolved_base_skills": []
   }
 }
