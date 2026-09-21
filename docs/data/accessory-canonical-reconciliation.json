@@ -1359,6 +1359,64 @@
       },
       "status": "partially_verified",
       "identity_note": "PQ76 Basic Reward is explicitly listed in the maintained PQ guide; an archived acquisition report independently identifies PQ76."
+    },
+    {
+      "id": "accr-097",
+      "canonical_name": "Yamcha's Baseball Hat",
+      "aliases": [
+        "Yamcha Baseball Hat"
+      ],
+      "routes": [
+        "PQ97"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "PQ97 Basic Reward is explicitly listed by the maintained 186-PQ guide and an independent all-100-PQ guide."
+    },
+    {
+      "id": "accr-098",
+      "canonical_name": "SSGSS Vegeta Wig",
+      "aliases": [
+        "Super Saiyan Blue Vegeta Wig"
+      ],
+      "routes": [
+        "PQ100"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "PQ100 Basic Reward is explicitly listed by the maintained 186-PQ guide and the current equipment guide."
+    },
+    {
+      "id": "accr-099",
+      "canonical_name": "Bulma (Kid) Wig",
+      "aliases": [
+        "Bulma's (Kid) Wig"
+      ],
+      "routes": [
+        "PQ149"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "PQ149/DLC provenance is explicit in the repository's DLC reference and independent equipment ID material."
+    },
+    {
+      "id": "accr-100",
+      "canonical_name": "Great Saiyaman Helmet",
+      "aliases": [],
+      "routes": [
+        "PQ51"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "PQ51 route is documented by the current equipment reference and multiple GameFAQs reports; acquisition involves the Great Saiyaman NPC appearing during the quest."
     }
   ],
   "unresolved_alias_groups": [
