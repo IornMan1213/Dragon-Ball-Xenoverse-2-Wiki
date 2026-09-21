@@ -3700,9 +3700,10 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: current PQ185 reward listing explicitly includes Dragon Spiral in the Basic Reward pool. An earlier/alternate report associated it with PQ186, but the current dedicated PQ185 listing is treated as the canonical acquisition; no separate PQ186 route is inferred.",
+      "notes": "2026-09-20 audit: current PQ185 reward listing explicitly includes Dragon Spiral in the Basic Reward pool. An earlier/alternate report associated it with PQ186, but the current dedicated PQ185 listing is treated as the canonical acquisition; no separate PQ186 route is inferred. 2026-09-20 provenance cleanup: the maintained PQ reward map explicitly places this skill in PQ185's skill reward inventory. Older/alternate references have also associated it with PQ186; the canonical route follows the explicit PQ185 mapping without inferring an additional PQ186 route or drop probability.",
       "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
-      "source_quest": 185
+      "source_quest": 185,
+      "source_quest_or_shop": "Parallel Quest 185 — Basic Reward"
     },
     {
       "name": "Dragon Thunder",
