@@ -62,7 +62,7 @@ def main():
   uf=r.get('ultimate_finish_required')
   if uf not in (None,True,False):
    errors.append(f"{r.get('name')}: invalid ultimate_finish_required value")
-  if uf is True and not any(re.search(r'\\bultimate finish\\b|\\bUF\\b', str(r.get(f,'')), re.I) for f in ('unlock_method','source_quest_or_shop')):
+  if uf is True and not any(re.search(r'\bultimate finish\b|\bUF\b', str(r.get(f,'')), re.I) for f in ('unlock_method','source_quest_or_shop')):
    errors.append(f"{r.get('name')}: ultimate_finish_required=true lacks explicit Ultimate Finish provenance")
   if r.get('usable_by_cac') is True:
    if not any(r.get(f) not in (None,'',[]) for f in ('race_restriction','character_source','unlock_method')):
