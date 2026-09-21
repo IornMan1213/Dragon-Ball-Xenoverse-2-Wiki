@@ -10,51 +10,61 @@
       "time_rift_name": "Capsule Corporation Time Rift",
       "skill_ids": [
         "skill-super-saiyan",
-        "skill-super-vegeta"
+        "skill-super-vegeta",
+        "skill-future-super-saiyan"
       ],
       "skill_names": [
         "Super Saiyan",
-        "Super Vegeta"
+        "Super Vegeta",
+        "Future Super Saiyan"
       ]
     },
     {
       "time_rift_id": "time-rift-gurus-house",
       "time_rift_name": "Guru's House Time Rift",
       "skill_ids": [
-        "skill-become-giant"
+        "skill-become-giant",
+        "skill-future-super-saiyan"
       ],
       "skill_names": [
-        "Become Giant"
+        "Become Giant",
+        "Future Super Saiyan"
       ]
     },
     {
       "time_rift_id": "time-rift-frieza-spaceship",
       "time_rift_name": "Frieza's Spaceship Time Rift",
       "skill_ids": [
-        "skill-turn-golden"
+        "skill-turn-golden",
+        "skill-future-super-saiyan"
       ],
       "skill_names": [
-        "Turn Golden"
+        "Turn Golden",
+        "Future Super Saiyan"
       ]
     },
     {
       "time_rift_id": "time-rift-majin-buus-house",
       "time_rift_name": "Majin Buu's House Time Rift",
       "skill_ids": [
-        "skill-purification"
+        "skill-purification",
+        "skill-future-super-saiyan"
       ],
       "skill_names": [
-        "Purification"
+        "Purification",
+        "Future Super Saiyan"
       ]
     },
     {
       "time_rift_id": "time-rift-hercules-house",
       "time_rift_name": "Hercule's House Time Rift",
       "skill_ids": [
-        "skill-power-pole-pro"
+        "skill-power-pole-pro",
+        "skill-future-super-saiyan"
       ],
       "skill_names": [
-        "Power Pole Pro"
+        "Power Pole Pro",
+        "Future Super Saiyan"
       ]
     }
   ],
@@ -153,7 +163,7 @@
   "summary": {
     "time_rifts": 5,
     "skills_with_time_rift_links": 6,
-    "forward_skill_edges": 6,
+    "forward_skill_edges": 11,
     "story_missions": 1
   }
 }
