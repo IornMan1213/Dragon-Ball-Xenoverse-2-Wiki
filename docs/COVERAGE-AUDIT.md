@@ -5086,3 +5086,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 - Corrected audit count to **11 canonical records** carrying the DLC label: 10 additional moves plus character-specific Supersonic Mode.
 - No provenance mismatch was found.
+
+
+## 2026-09-21 Hero of Justice Pack 1 skill provenance census
+
+- Audited all **7** canonical Hero of Justice Pack 1 additional moves.
+- All seven map to PQ155–158 with matching `Hero of Justice Pack 1` provenance.
+- **0 deterministic DLC mismatches** found.
+- Existing acquisition/drop-tier semantics were preserved; this was a provenance-only pass.
