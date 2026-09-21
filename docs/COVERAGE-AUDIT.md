@@ -1,3 +1,10 @@
+## 2026-09-20 Emperor's Cannon provenance resolution
+
+- Resolved the remaining **Emperor's Cannon** PQ183/PQ184 conflict using the repository's maintained `pq-163-186-reward-map.json`.
+- That current reward-normalization map explicitly assigns Emperor's Cannon to **PQ183 — "Broly vs. Broly"**. Canonical and index skill records now use PQ183 Basic Reward.
+- The earlier dedicated-page PQ184 claim is preserved in the audit record as conflicting historical evidence; no Ultimate Finish-only requirement is inferred.
+
+
 ## 2026-09-20 Dragon Spiral / Indomitable PQ185 provenance cleanup
 
 - The maintained late-PQ reward map explicitly places **Dragon Spiral** and **Indomitable** in PQ185's skill reward inventory.
