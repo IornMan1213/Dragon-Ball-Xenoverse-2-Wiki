@@ -163,5 +163,13 @@
     "Only directly verified lesson→skill routes were linked. Mentor identity records without verified skill mappings remain populated but unlinked.",
     "This layer is intended to support mentor → lesson → skill → skill-detail navigation and later bidirectional reverse lookup.",
     "2026-09-21 reconciliation: Krillin, Tien, Yamcha, and Piccolo lesson routes were already explicit in the canonical mentor layer and corresponding skills-index source_mentor fields; this cycle promoted those 14 deterministic edges into the crosslink report without altering acquisition semantics."
-  ]
+  ],
+  "validation": {
+    "canonical_mentor_records": 33,
+    "mentors_with_skill_links": 14,
+    "mentor_to_skill_edge_count": 30,
+    "unique_skill_endpoints": 30,
+    "unresolved_edge_count": 0,
+    "broken_skill_endpoints": 0
+  }
 }
