@@ -5167,3 +5167,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Extra Pack 3:** official documentation lists **8 Additional Skills** and the canonical registry has exactly 8; no correction indicated.
 - Result: **no canonical rewrite required in this census batch**. The apparent 13-vs-10 and 11-vs-10 differences are documented composite/character-only label semantics, not demonstrated missing or duplicate package endpoints.
 - Exact next task: continue the DLC/free-update census into remaining free-update/composite labels and identify a concrete missing endpoint or provenance mismatch before modifying canonical data.
+
+### 2026-09-21 — Free Update 2 skill completeness correction
+- Live census before editing: 443 canonical / 443 index / 0 duplicate IDs / 0 nullable ki_cost values.
+- Official Bandai Namco/Steam update documentation identifies five new attacks in the February 27, 2017 free update: Jumping Energy Wave, Menacing Flare, Focus Flash, Wild Hunt, and Tail Slicer.
+- Repository search found none of those five canonical endpoints, and no existing Free Update 2 DLC label was present in the skill registry.
+- Added all five to docs/data/skills.json and projected them into docs/data/skills-index.json.
+- Bounded evidence: current dedicated skill evidence supports 100 Ki Super classification and acquisition endpoints. Focus Flash is tied to Expert Mission 18 and Tail Slicer to Expert Mission 19; Jumping Energy Wave, Menacing Flare, and Wild Hunt are shop-acquired.
+- No unsupported reward probability, Ultimate Finish requirement, or narrower CaC race/gender restriction was inferred.
+- Validation: 448 canonical / 448 index / 0 duplicate IDs / 0 nullable ki_cost values / 5 Free Update 2 records.
+- Canonical commit: 523b69e207c72f3acc01b57292d650c2a8170a02; index commit: 854fc1e4e7fe44b3572fd9099bef26db2dd9447d.
+- Exact next task: continue the remaining free-update census, starting with Free Update 1's documented launch-update skill/attack scope, and only add endpoints after exact names and acquisition evidence are established.
