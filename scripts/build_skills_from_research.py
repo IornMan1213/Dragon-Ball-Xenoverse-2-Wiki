@@ -215,7 +215,10 @@ def main():
  imported=load_local_batches(m,protected,blocked)
  rows=sorted(m.values(),key=lambda r:(r['name'].casefold(),r['class'],r['subcategory']))
  awoken=sum(1 for r in rows if r.get('class')=='Awoken' and r.get('subcategory')=='Race')
- counts=dict(TARGET_COUNTS); counts['Transformations']=awoken
+ counts={}
+ for r in rows:
+  label='Transformations' if r.get('class')=='Awoken' and r.get('subcategory')=='Race' else r.get('subcategory')
+  counts[label]=counts.get(label,0)+1
  targets=dict(TARGET_COUNTS); targets['Transformations']=15
  payload={'schema_version':existing.get('schema_version',CATALOG_SCHEMA_VERSION),'game':existing.get('game',CATALOG_GAME),'source_index':existing.get('source_index',CATALOG_SOURCE_INDEX),'generated':date.today().isoformat(),'status':existing.get('status',DEFAULT_CATALOG_STATUS),'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':rows,'notes':existing.get('notes',DEFAULT_CATALOG_NOTES)}
  OUT.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
