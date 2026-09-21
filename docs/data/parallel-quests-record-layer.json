@@ -3738,11 +3738,13 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Super Ghost Buu Attack",
-        "Candy Beam (Super)"
+        "Candy Beam (Super)",
+        "Candy Beam"
       ],
       "skill_ids": [
         "skill-super-ghost-buu-attack",
-        "skill-candy-beam-super"
+        "skill-candy-beam-super",
+        "skill-candy-beam"
       ]
     },
     {
