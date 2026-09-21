@@ -1,128 +1,431 @@
 {
-  "schema_version": "1.0.0",
-  "domain": "pq_super_soul_relationships",
-  "purpose": "Deterministic bidirectional navigation between canonical Parallel Quest records and canonical Super Soul records where the Super Soul layer has an exact PQ acquisition source.",
-  "source_policy": "Only exact canonical acquisition_source mappings are linked. No relationship is inferred from character appearance, quest theme, or generic reward lists without an exact named Super Soul match.",
-  "verification_status": "partially_verified",
+  "schema_version": "1.0",
+  "domain": "pq_super_soul",
+  "canonical_pq_records": 186,
+  "canonical_target_records": 50,
   "forward_edges": [
-    [
-      "pq-002",
-      "super-soul-002"
-    ],
-    [
-      "pq-005",
-      "super-soul-004"
-    ],
-    [
-      "pq-007",
-      "super-soul-007"
-    ],
-    [
-      "pq-006",
-      "super-soul-009"
-    ],
-    [
-      "pq-022",
-      "super-soul-010"
-    ],
-    [
-      "pq-012",
-      "super-soul-011"
-    ],
-    [
-      "pq-028",
-      "super-soul-031"
-    ],
-    [
-      "pq-185",
-      "super-soul-032"
-    ],
-    [
-      "pq-185",
-      "super-soul-033"
-    ],
-    [
-      "pq-186",
-      "super-soul-034"
-    ],
-    [
-      "pq-186",
-      "super-soul-035"
-    ],
-    [
-      "pq-058",
-      "super-soul-049"
-    ],
-    [
-      "pq-131",
-      "super-soul-055"
-    ]
+    {
+      "pq_id": "pq-002",
+      "pq_number": 2,
+      "target_id": "super-soul-002",
+      "target_name": "Flying Nimbus!!",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
+    },
+    {
+      "pq_id": "pq-005",
+      "pq_number": 5,
+      "target_id": "super-soul-004",
+      "target_name": "Your death is imminent!",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
+    },
+    {
+      "pq_id": "pq-007",
+      "pq_number": 7,
+      "target_id": "super-soul-007",
+      "target_name": "Gyau!!!!",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
+    },
+    {
+      "pq_id": "pq-006",
+      "pq_number": 6,
+      "target_id": "super-soul-009",
+      "target_name": "You cocky little...!",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
+    },
+    {
+      "pq_id": "pq-022",
+      "pq_number": 22,
+      "target_id": "super-soul-010",
+      "target_name": "I'll kill all of you!!",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
+    },
+    {
+      "pq_id": "pq-012",
+      "pq_number": 12,
+      "target_id": "super-soul-011",
+      "target_name": "H-How could he?!",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
+    },
+    {
+      "pq_id": "pq-028",
+      "pq_number": 28,
+      "target_id": "super-soul-031",
+      "target_name": "Drop dead!!!",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
+    },
+    {
+      "pq_id": "pq-185",
+      "pq_number": 185,
+      "target_id": "super-soul-032",
+      "target_name": "This power... It's different from any I've ever had.",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-185",
+      "pq_number": 185,
+      "target_id": "super-soul-033",
+      "target_name": "Malice... Existence... Cruelty...",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "super-soul-034",
+      "target_name": "The final battle begins now.",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "super-soul-035",
+      "target_name": "I'll use this power to protect everyone!",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-058",
+      "pq_number": 58,
+      "target_id": "super-soul-049",
+      "target_name": "Killed all Earthlings!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/killed-all-earthlings.md"
+    },
+    {
+      "pq_id": "pq-131",
+      "pq_number": 131,
+      "target_id": "super-soul-055",
+      "target_name": "Leave the rest to me!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/leave-the-rest-to-me.md"
+    }
   ],
   "reverse_edges": [
-    [
-      "super-soul-002",
-      "pq-002"
-    ],
-    [
-      "super-soul-004",
-      "pq-005"
-    ],
-    [
-      "super-soul-007",
-      "pq-007"
-    ],
-    [
-      "super-soul-009",
-      "pq-006"
-    ],
-    [
-      "super-soul-010",
-      "pq-022"
-    ],
-    [
-      "super-soul-011",
-      "pq-012"
-    ],
-    [
-      "super-soul-031",
-      "pq-028"
-    ],
-    [
-      "super-soul-032",
-      "pq-185"
-    ],
-    [
-      "super-soul-033",
-      "pq-185"
-    ],
-    [
-      "super-soul-034",
-      "pq-186"
-    ],
-    [
-      "super-soul-035",
-      "pq-186"
-    ],
-    [
-      "super-soul-049",
-      "pq-058"
-    ],
-    [
-      "super-soul-055",
-      "pq-131"
-    ]
+    {
+      "target_id": "super-soul-002",
+      "target_name": "Flying Nimbus!!",
+      "pq_ids": [
+        "pq-002"
+      ],
+      "pq_numbers": [
+        2
+      ]
+    },
+    {
+      "target_id": "super-soul-004",
+      "target_name": "Your death is imminent!",
+      "pq_ids": [
+        "pq-005"
+      ],
+      "pq_numbers": [
+        5
+      ]
+    },
+    {
+      "target_id": "super-soul-007",
+      "target_name": "Gyau!!!!",
+      "pq_ids": [
+        "pq-007"
+      ],
+      "pq_numbers": [
+        7
+      ]
+    },
+    {
+      "target_id": "super-soul-009",
+      "target_name": "You cocky little...!",
+      "pq_ids": [
+        "pq-006"
+      ],
+      "pq_numbers": [
+        6
+      ]
+    },
+    {
+      "target_id": "super-soul-010",
+      "target_name": "I'll kill all of you!!",
+      "pq_ids": [
+        "pq-022"
+      ],
+      "pq_numbers": [
+        22
+      ]
+    },
+    {
+      "target_id": "super-soul-011",
+      "target_name": "H-How could he?!",
+      "pq_ids": [
+        "pq-012"
+      ],
+      "pq_numbers": [
+        12
+      ]
+    },
+    {
+      "target_id": "super-soul-031",
+      "target_name": "Drop dead!!!",
+      "pq_ids": [
+        "pq-028"
+      ],
+      "pq_numbers": [
+        28
+      ]
+    },
+    {
+      "target_id": "super-soul-032",
+      "target_name": "This power... It's different from any I've ever had.",
+      "pq_ids": [
+        "pq-185"
+      ],
+      "pq_numbers": [
+        185
+      ]
+    },
+    {
+      "target_id": "super-soul-033",
+      "target_name": "Malice... Existence... Cruelty...",
+      "pq_ids": [
+        "pq-185"
+      ],
+      "pq_numbers": [
+        185
+      ]
+    },
+    {
+      "target_id": "super-soul-034",
+      "target_name": "The final battle begins now.",
+      "pq_ids": [
+        "pq-186"
+      ],
+      "pq_numbers": [
+        186
+      ]
+    },
+    {
+      "target_id": "super-soul-035",
+      "target_name": "I'll use this power to protect everyone!",
+      "pq_ids": [
+        "pq-186"
+      ],
+      "pq_numbers": [
+        186
+      ]
+    },
+    {
+      "target_id": "super-soul-049",
+      "target_name": "Killed all Earthlings!",
+      "pq_ids": [
+        "pq-058"
+      ],
+      "pq_numbers": [
+        58
+      ]
+    },
+    {
+      "target_id": "super-soul-055",
+      "target_name": "Leave the rest to me!",
+      "pq_ids": [
+        "pq-131"
+      ],
+      "pq_numbers": [
+        131
+      ]
+    }
   ],
-  "counts": {
-    "forward_edges": 13,
-    "reverse_edges": 13,
-    "unique_pq_endpoints": 11,
-    "unique_super_soul_endpoints": 13,
-    "unresolved": 0,
-    "orphaned": 0
-  },
-  "notes": [
-    "The 13 linked Super Souls are exactly the records whose canonical acquisition_type is Parallel Quest in the current 50-record Super Soul layer.",
-    "PQ58 and PQ131 were synchronized with explicit super_soul_ids and super_soul_rewards in the canonical PQ layer during this cycle.",
-    "The relationship layer does not claim exact drop percentages beyond the source-backed 50% rolls recorded on Super Soul 049 and 055."
+  "unresolved_target_routes": [
+    {
+      "target_id": "super-soul-001",
+      "target_name": "Hee Hee Sunglasses",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-003",
+      "target_name": "Haaaaaaaaaaaah!!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-005",
+      "target_name": "Your power is 5? ...Scum.",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-006",
+      "target_name": "Get lost before I send you flying.",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-008",
+      "target_name": "Tien, please don't die",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-012",
+      "target_name": "Saiyans are a warrior race!!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-013",
+      "target_name": "Kieeeee!!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-014",
+      "target_name": "Your life is mine! Toh!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-015",
+      "target_name": "I must tell Lord Frieza...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-016",
+      "target_name": "Tch... Guess I have no choice.",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-017",
+      "target_name": "Unleash your power!!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-018",
+      "target_name": "Stop trampling on Namek's peace!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-024",
+      "target_name": "I'm the fastest in the universe",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-025",
+      "target_name": "We're the one and only Ginyu Force!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-026",
+      "target_name": "Let me show you how it's done.",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-027",
+      "target_name": "I must protect Grand Elder Guru!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-028",
+      "target_name": "Popporunga pupirittparo",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-029",
+      "target_name": "The ultimate power is mine!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-030",
+      "target_name": "I'll never forgive you, scum!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-036",
+      "target_name": "Buu's reached full power!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-037",
+      "target_name": "I'm over 1,000 years old.",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-038",
+      "target_name": "My Ki is building... Overflowing...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-039",
+      "target_name": "I am going to bathe in your blood!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-040",
+      "target_name": "You fool! Why are you laughing?",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-041",
+      "target_name": "Not on my watch!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-042",
+      "target_name": "Over here, you idiot...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-043",
+      "target_name": "Bye-bye, universe!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-044",
+      "target_name": "Let's see you handle THIS kind of power!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-045",
+      "target_name": "Your time in this fight ends now!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-046",
+      "target_name": "Kind of human-like, don't you think?",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-047",
+      "target_name": "Kicking a Shadow Dragon in the head is not a wise thing to do!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-048",
+      "target_name": "40 ton weights!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-050",
+      "target_name": "That's one down!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-051",
+      "target_name": "That offer's expired...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-052",
+      "target_name": "Why are you dodging?!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-053",
+      "target_name": "Guess you CAN fight...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-054",
+      "target_name": "Leave my daddy alone!",
+      "reason": "no_explicit_pq_endpoint"
+    }
   ]
 }
