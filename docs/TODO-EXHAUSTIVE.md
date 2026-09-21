@@ -1543,3 +1543,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserve the existing Shenron-wish acquisition semantics.
 - [x] Canonical commit: `0b16ab3b7a40930c37f9fb1732cf1f1a08b21706`.
 - [ ] Next: continue single-source acquisition/provenance audit.
+
+
+### 2026-09-21 — Solar Flare PQ-reference correction
+- [x] Correct stale PQ01 reference in Solar Flare mechanics notes to PQ03.
+- [x] Strengthen direct/current Solar Flare provenance.
+- [x] Canonical commit: `2e0ee2fa63afa6dd8ee5e6bf5878a9fa42b14ae4`.
+- [ ] Next: continue single-source/internal cross-field consistency audit.
