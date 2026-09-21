@@ -123,6 +123,10 @@ def merge_record(m,r,protected=None,blocked=None):
    raise ValueError(f"invalid correction metadata for {n}: correction_fields must be a non-empty list of unique field names")
   if 'sources' in declared_fields:
    raise ValueError(f"invalid correction metadata for {n}: sources is provenance and cannot be replaced or cleared by correction_fields")
+  canonical_fields={'name','class','subcategory','race_restriction','usable_by_cac','character_source','dlc_requirement','level_requirement','ki_cost','stamina_cost','damage_type','unlock_method','source_quest_or_shop','ultimate_finish_required','skill_description','mechanics_notes','combo_notes','pve_notes','pvp_notes','research_status','verification_status','last_verified','sources','source_quest','acquisition_type','description','duration_seconds','ki_cost_note','mechanics','notes','race_restrictions'}
+  unsupported=[field for field in declared_fields if field not in canonical_fields]
+  if unsupported:
+   raise ValueError(f"invalid correction metadata for {n}: unsupported correction fields: {', '.join(unsupported)}")
   if oldkey not in m:
    raise ValueError(f"correction target not found for {n}: {oldname}/{oldclass}/{oldsub}")
   if oldkey in blocked:
