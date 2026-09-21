@@ -3854,3 +3854,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Repository validation: **283/283** records; zero duplicate names; **60** Ultimate Finish flags. Canonical/index acquisition-critical fields (name, acquisition_type, unlock_method, ultimate_finish_required, source_quest, race_restriction) remain exactly synchronized.
 - Evidence used includes the maintained repository source set plus current public skill/wish references. Historical shop prices are explicitly labeled as documented listings rather than asserted as current rotation prices.
 - Next target: **continue auditing remaining non-PQ records with terse shop/wish/character-only provenance, especially records whose unlock text is generic while dedicated sources can establish a concrete route. Preserve genuine uncertainty.**
+
+
+## 2026-09-20 — remaining shop provenance normalization
+- Continued the non-PQ shop acquisition audit.
+- Normalized **8** terse shop records: **Reverse Mabakusenko, Super Afterimage, Super God Shock Flash, Final Pose, Spirit Boost, Pressure Sign, Dragon Fist, and Godly Display**.
+- Shop routes are now explicitly scoped to Conton City where applicable; Dragon Fist and Godly Display retain documented historical TP Medal prices of 200 and 500 TP Medals respectively.
+- No quest route, Ultimate Finish gate, race restriction, or unsupported current shop-rotation claim was introduced.
+- Validation: canonical/index **283/283**, name ordering identical, **0 duplicate names**, **60** Ultimate Finish flags. Acquisition-critical fields remain synchronized.
+- Commits: canonical **8cc6d9fb8741a4746877e916faf19a5b8acf1fe7**; index **9d31f6708325c2e8ac6277611dcc764965407682**.
+- Exact next target: **continue the remaining character-only/starting-move non-PQ records, separating genuinely non-acquirable roster skills from CaC-accessible skills whose acquisition route is merely under-specified.**
