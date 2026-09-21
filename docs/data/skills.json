@@ -355,7 +355,7 @@
       "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Ultimate Finish reward acquisition is retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -363,7 +363,7 @@
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers"
       ],
       "source_quest": 172,
-      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged. Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged. Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Big Bang Knuckle is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved.",
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "id": "skill-big-bang-knuckle",
@@ -1549,7 +1549,7 @@
       "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior. UF audit 2026-09-19: the maintained PQ guide explicitly assigns this skill to the 45% Ultimate Finish bonus slot route, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Ultimate Finish reward acquisition is retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -1557,7 +1557,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Crimson Edge is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved.",
       "id": "skill-crimson-edge",
       "source_parallel_quests": [
         171
@@ -2490,7 +2490,7 @@
       "mechanics_notes": "Current evidence identifies Divine Spear as a 200-Ki Ki Blast Super for Goku Black (Super Saiyan Rosé) Ultra Supervillain. Current evidence does not establish it as a CaC skill, so usable_by_cac=false is retained. UF audit 2026-09-19: the maintained PQ guide explicitly assigns this skill to the 50% Ultimate Finish route, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Ultimate Finish reward acquisition is retained.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -2498,7 +2498,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Divine Spear is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved.",
       "id": "skill-divine-spear",
       "source_parallel_quests": [
         171
@@ -9252,7 +9252,7 @@
       "mechanics_notes": "Official DLC material confirms the core move behavior; exact numeric cost remains unverified, so the current 100-Ki record should not be treated as authoritative without stronger evidence. The PQ172 acquisition path is retained; exact Ki cost remains unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -9260,7 +9260,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 172,
       "acquisition_type": "quest_or_mission",
-      "notes": "Corrected 2026-09-20: PQ172 Ultimate Finish reward is treated as CaC-accessible; character association does not by itself establish character exclusivity. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "notes": "Corrected 2026-09-20: PQ172 Ultimate Finish reward is treated as CaC-accessible; character association does not by itself establish character exclusivity. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Wild Stinger is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved.",
       "id": "skill-wild-stinger",
       "source_parallel_quests": [
         172
