@@ -11342,7 +11342,8 @@
       "id": "skill-god-of-destruction-s-anger",
       "source_mentor": [
         "mentor-beerus"
-      ]
+      ],
+      "ki_cost": 200
     },
     {
       "name": "God of Destruction's Rampage",
@@ -11369,7 +11370,8 @@
       "id": "skill-god-of-destruction-s-rampage",
       "source_mentor": [
         "mentor-beerus"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "God of Destruction's Wrath",
@@ -11396,7 +11398,8 @@
       "id": "skill-god-of-destruction-s-wrath",
       "source_mentor": [
         "mentor-beerus"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Sphere of Destruction",
@@ -11423,7 +11426,8 @@
       "id": "skill-sphere-of-destruction",
       "source_mentor": [
         "mentor-beerus"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Finishing Blow",
