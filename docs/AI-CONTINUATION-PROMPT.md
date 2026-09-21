@@ -6369,3 +6369,15 @@ The repository owner has clarified the continuation contract:
 - CI: no actionable workflow/status result was exposed for the resulting commits; no CI success is claimed.
 - Commits: canonical null; index null; coverage null; TODO null; changelog null.
 - Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition cluster, prioritizing concrete PQ/reward evidence and cross-field contradictions before provenance-only strengthening.
+
+### 2026-09-21 continuation — Legendary Pack 1 low-source provenance strengthening
+- Live census before editing: 452 canonical / 452 index; 79 records had exactly two sources.
+- Bounded batch: Burning Shot, Destructive Fission, Destructive Flare, Hyper Tornado.
+- Existing PQ research establishes Burning Shot → PQ143, Destructive Flare → PQ145, Destructive Fission → PQ146; Hyper Tornado is also documented in PQ143. Official Bandai Namco DLC documentation independently establishes the Legendary Pack 1 package scope; the maintained PQ layer remains the exact individual skill/PQ evidence.
+- Changes: added the official DLC source to the four canonical records and synchronized the index projection; refreshed verification dates. No acquisition, reward-tier, drop-rate, Ultimate Finish, cost, restriction, or mechanics fields were changed.
+- Evidence limit: package-level official documentation does not establish individual skill drop slots/probabilities. Existing exact PQ evidence remains controlling.
+- Validation target: preserve 452/452 ordering and canonical/index source parity; no internal citation artifacts; recompute low-source count after write.
+- CI: no success claimed unless an actual workflow/check is exposed.
+- Exact next batch: recompute the live two-source census and inspect the next deterministic low-source cluster, prioritizing concrete PQ/reward cross-field consistency.
+- Canonical commit: 940f4fe100df4f56dcfee71c3503222a589dad97.
+- Index/coverage/TODO/changelog commits are recorded by their resulting GitHub updates.
