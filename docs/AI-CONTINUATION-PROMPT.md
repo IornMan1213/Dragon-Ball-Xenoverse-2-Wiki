@@ -4320,3 +4320,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Hardened both merge paths to retain only fields declared by the canonical schema. `correction_of` and `correction_fields` remain control metadata and are removed from canonical output; `sources` remains separately normalized and merged as provenance.
 - Commit: 1d67e0f9bd3431bfc55dab94e8acd4d4c0f9853d — Strip research-only metadata from canonical records.
 - Next task: audit whether schema filtering can accidentally discard legitimate builder-only metadata needed by downstream generated artifacts, and compare canonical `skills.json` consumers against the schema projection before making further changes.
+
+
+## 2026-09-21 continuation — downstream projection audit
+- Audited the canonical schema filtering against downstream `skills-index.json` generation and `scripts/validate_skills.py` consumers.
+- Confirmed the builder's projection fields are intended canonical fields and that filtering incoming records to schema properties does not remove data used by the index; the index is deliberately a subset projection of canonical records.
+- Added a validator guard requiring every `INDEX_PROJECTION_FIELDS` entry to exist in the canonical schema. This prevents future projection/schema drift from silently generating an index with non-canonical fields.
+- Commit: d4f87a9aa7c95fb278aea41cbb4ea655527c2100 — Validate index projection against canonical schema.
+- Next task: audit deterministic generated metadata (`generated`, category counts, record counts, and schema version) for drift between the builder output and checked-in validation expectations, especially the date-dependent generated field.
