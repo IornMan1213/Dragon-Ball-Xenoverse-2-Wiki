@@ -4171,4 +4171,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - No new code commit was necessary in this pass. The previous correction metadata hardening remains in `9a1da40526f8688c3a5470f124841731385f422b`.
 - CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
 - Next task: audit source normalization and field-shape handling for silent drops (especially malformed source objects and values) against the schema and checked-in data, then make only evidence-backed fixes.
+## 2026-09-21 continuation — reject malformed source entries
+- Audited `normalize_sources()` against `skills.schema.json` and checked-in research batches. The schema requires a non-empty URI string array, but the builder silently discarded malformed source values (including source objects without a usable `url`) and could therefore produce a catalog with silently reduced provenance.
+- Hardened source normalization to require a list when sources are present and to reject invalid entries instead of dropping them. Valid strings and objects with non-empty `url` remain supported; duplicates are still de-duplicated.
+- Commit: `cdf911ecd40693b654c199c94fa8b74ccf08a707` — Reject malformed skill source entries during normalization.
+- No generated catalog was manually modified. CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
+- Next task: audit frontmatter parsing and structured-corpus field coercion for values that are silently ignored or mis-typed before they reach canonical merge.
 
