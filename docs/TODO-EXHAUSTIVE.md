@@ -1487,3 +1487,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation: 448 canonical / 448 index / 0 duplicate IDs / 0 nullable ki_cost values / 5 Free Update 2 records.
 - [x] Canonical commit: 523b69e207c72f3acc01b57292d650c2a8170a02; index commit: 854fc1e4e7fe44b3572fd9099bef26db2dd9447d.
 - [ ] Next task: continue the remaining free-update census, starting with Free Update 1's documented launch-update skill/attack scope, and only add endpoints after exact names and acquisition evidence are established.
+
+### 2026-09-21 — Free Update 1 launch-update audit
+- [x] Recomputed the live skill registry after Free Update 2: **448 canonical / 448 index / 0 duplicate IDs / 0 nullable `ki_cost`**.
+- [x] Repaired stale canonical `record_count` metadata: **443 → 448**.
+- [x] Confirmed the documented Free Update 1 scope includes SSGSS Goku's Super Saiyan Blue Kaioken, Hit's Pure Progress, and four additional attacks.
+- [ ] Identify the exact four additional Free Update 1 attack names and acquisition endpoints from reliable evidence before adding them to the canonical registry.
+- [ ] Preserve the existing Free Update 1 Awoken records and do not conflate the launch update's four unnamed attacks with the separate five-teacher/VIP Corner content.
