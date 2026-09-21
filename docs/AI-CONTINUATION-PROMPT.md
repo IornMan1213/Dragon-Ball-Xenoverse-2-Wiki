@@ -3829,3 +3829,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Earlier handoff notes reporting 270 CaC-usable records are stale and must not be reused as the current census.
 - No canonical/index data was changed in this cycle.
 - Exact next task: trace the four-record discrepancy from the stale 270 count through recent repository history and audit those records' evidence.
+
+
+## 2026-09-21 continuation — stale 270 count traced
+- Traced the old **270 CaC-usable** figure through canonical snapshots. `docs/data/skills.json` at commits `281677f38172cca7ca3b9fdb84b19cb8b856b656` and `8de19fa9c1585600e53bd73269b1fb8b16df6848` already report **274 CaC-usable records**, with the same three null-race records: Blaster Stream, Chaotic Time Impact, and Circle Flash.
+- The 270 figure was therefore a stale handoff/documentation error, not a four-record change in canonical data. There are no four affected records to reconstruct.
+- No canonical/index changes were made.
+- Exact next task: continue from the actual live three-record null-race set or find another concrete, evidence-backed data-quality issue.
