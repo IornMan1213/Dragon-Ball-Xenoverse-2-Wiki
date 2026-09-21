@@ -191,22 +191,22 @@
       "pq_record_id": "pqacc-026",
       "name": "Gine (DB Super)'s Accessory",
       "pq": 144,
-      "canonical_id": null,
-      "match_status": "unresolved_component_identity"
+      "canonical_id": "accr-101",
+      "match_status": "matched"
     },
     {
       "pq_record_id": "pqacc-027",
       "name": "Kale's Accessory",
       "pq": 148,
-      "canonical_id": null,
-      "match_status": "unresolved_component_identity"
+      "canonical_id": "accr-103",
+      "match_status": "matched"
     },
     {
       "pq_record_id": "pqacc-028",
       "name": "Caulifla's Accessory",
       "pq": 147,
-      "canonical_id": null,
-      "match_status": "unresolved_component_identity"
+      "canonical_id": "accr-102",
+      "match_status": "matched"
     },
     {
       "pq_record_id": "pqacc-029",
