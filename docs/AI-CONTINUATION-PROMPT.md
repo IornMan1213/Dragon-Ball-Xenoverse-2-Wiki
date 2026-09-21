@@ -3940,3 +3940,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Checked numeric `source_quest` route labels. The only apparent formatting mismatch was Spirit Slash's zero-padded `Parallel Quest 02` label for numeric quest 2; this is semantically equivalent and not a drift.
 - No canonical data/index changes were necessary in this pass.
 - Exact next task: inspect builder field-generation/preservation for `ki_cost`, `damage_type`, `character_source`, `skill_description`, `mechanics_notes`, `last_verified`, and DLC/source metadata, looking for concrete cases where regeneration could overwrite or erase intentional canonical evidence.
+
+
+## 2026-09-21 continuation — field-preservation and metadata audit
+- Audited all 283 canonical records for builder-sensitive fields: `ki_cost`, `damage_type`, `character_source`, `skill_description`, `mechanics_notes`, `last_verified`, `dlc_requirement`, `source_quest_or_shop`, and `unlock_method`.
+- All 283 records retain populated `mechanics_notes`, `last_verified`, `dlc_requirement`, `source_quest_or_shop`, and `unlock_method`; no regeneration-erasure pattern was found in these fields.
+- 282 records have `ki_cost`. The sole missing value is Dimension Cannon, an Evasive record whose maintained mechanics evidence specifies a Stamina cost rather than a Ki cost; no unsupported Ki value was inferred.
+- No damage-type/subcategory contradictions were found. 183 records have explicit `damage_type`; 100 remain unset because the available canonical evidence does not require an inferred damage type.
+- 190 records have `character_source`; 93 do not. This is consistent with records whose evidence does not establish a specific originating character, so no blanket inference was added.
+- 176 records have `skill_description`; the remaining 107 intentionally rely on mechanics/provenance fields instead of synthesized descriptions. No builder change was justified.
+- Non-quest acquisition routes commonly have deliberately distinct `source_quest_or_shop` and `unlock_method` wording; this is expected preservation behavior, not drift.
+- No canonical data/index changes were necessary in this pass.
+- Exact next task: audit deterministic category counts/index generation and identify whether the builder's `TARGET_COUNTS` can silently diverge from the canonical catalog, then strengthen validation if a concrete invariant is missing.
