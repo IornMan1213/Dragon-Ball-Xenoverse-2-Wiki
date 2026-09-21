@@ -158,12 +158,21 @@
         "time-rift-majin-buus-house",
         "time-rift-hercules-house"
       ]
+    },
+    {
+      "story_mission_id": "story-future-saga-chapter-4-quest-31",
+      "story_mission_name": "Ultimate All-Out Showdown",
+      "skill_ids": [
+        "skill-the-power-to-overcome"
+      ],
+      "time_rift_ids": []
     }
   ],
   "summary": {
     "time_rifts": 5,
     "skills_with_time_rift_links": 6,
     "forward_skill_edges": 11,
-    "story_missions": 1
+    "story_missions": 2,
+    "story_skill_edges": 2
   }
 }
