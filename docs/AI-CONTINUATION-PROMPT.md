@@ -5117,3 +5117,8 @@ Only after data-completeness work, expose the improved structured research surfa
 - Rebuilt `docs/data/mentor-skill-crosslink-report.json` to **33 canonical mentors / 20 linked mentors / 59 edges / 59 unique skill endpoints / 0 unresolved / 0 broken skill endpoints**.
 - No skill acquisition semantics were changed; this was a relationship-layer reconciliation only.
 - Exact next batch: **Android 18, Android 17, Cell, and Hercule**, using the same lesson↔skill-ID↔source_mentor parity check.
+
+### 2026-09-21 validation correction — mentor-linked census
+- The live crosslink report verifies **33 canonical mentors / 19 linked mentors / 59 edges / 59 unique skill endpoints / 0 unresolved / 0 broken endpoints**. The preceding cycle note's “20 linked mentors” figure was an arithmetic overstatement and is corrected here.
+- The 15 newly promoted edges remain unchanged; no data semantics were altered.
+- Exact next batch remains **Android 18, Android 17, Cell, and Hercule**.
