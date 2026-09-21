@@ -4227,3 +4227,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `7e35949c99860e29d3c039086ddb9063908d2d96` — Validate correction metadata before merge.
 - Repository search found no currently indexed `correction_fields`, `correction_of`, or `research_batch` records, so no concrete local correction dataset was available to audit beyond the merge implementation itself.
 - Next task: audit correction destination/key handling and malformed/edge-case correction metadata (missing target, duplicate destination, blocked target, and field-list validation) against the intended local-batch workflow; preserve strict failure behavior.
+
+## 2026-09-21 continuation — correction key/field validation
+- Hardened local correction metadata validation in `merge_record()`.
+- A supplied but empty `correction_of: {}` is now rejected instead of silently behaving like a normal non-correction record.
+- `correction_fields` must now contain unique, non-empty string field names; duplicate entries are rejected rather than silently collapsed by `set()`.
+- Existing strict checks for missing targets, superseded/blocked targets, and occupied correction destinations remain intact.
+- Commit: `c31c2881ec2df98ac8c653da5a6d536489465528` — Harden correction key and field validation.
+- Next task: inspect whether correction target keys can be ambiguous because class/subcategory defaults differ between canonical records and correction metadata; verify the key normalization rules without weakening curated-data protections.
