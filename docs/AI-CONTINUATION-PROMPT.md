@@ -5543,3 +5543,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - The preceding handoff entry accidentally contained internal tool citation tokens. They have been replaced with plain source URLs; no canonical data was changed by this correction.
 - Correct canonical commit remains `45a8dc2645242955eabd5997aa0a408704b76733` and live skill census remains **428 records / 45 nullable `ki_cost`**.
 
+### 2026-09-21 — Beerus mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 45 nullable `ki_cost` records**.
+- Bounded batch: **God of Destruction's Anger (200), God of Destruction's Rampage (100), God of Destruction's Wrath (100), Sphere of Destruction (300)** from God of Destruction Beerus mentor training.
+- Research/evidence: current Xenoverse 2 skill references explicitly document **200 Ki** for God of Destruction's Anger, **100 Ki** for God of Destruction's Rampage, **100 Ki** for God of Destruction's Wrath, and **300 Ki** for Sphere of Destruction. The current dedicated Xenoverse 2 Anger page was preferred over an older Xenoverse 1-era reference that lists 100 Ki.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **41**. Targeted records were re-read after the write and contain the expected costs. No skill-index Ki-cost projection was introduced. Edited repository text was checked for internal AI/UI/search citation artifacts; none were found in the changed data/audit/changelog content.
+- CI: canonical commit `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3` exposed **no workflow runs** through the repository connector; **no CI success claimed**. Validators were not weakened.
+- Commits: `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3` (canonical), `eb385b4d6c891dfb0f94367d1f1737e14a5302d1` (audit), `0626a88e6fc89de47615a98db25f4500cb443547` (changelog), plus this handoff commit.
+- Exact next task: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded evidence-backed skill family; prioritize explicit current `Ki Used` values and preserve variable-cost forms.**
