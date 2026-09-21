@@ -338,3 +338,8 @@
 ## 2026-09-21 — Accessory PQ identity batch 3
 - Added canonical identities for Gine (DB Super) Set, Caulifla Wig, and Kale Wig.
 - Synchronized accessory PQ relationship data; unresolved research identities reduced without collapsing component/set records into unsupported identities.
+
+## 2026-09-21 — Yamcha's Sword accessory reconciliation
+- Added canonical `Yamcha's Sword` identity and linked its documented PQ36 route plus Accessory Shop route.
+- Resolved the prior PQ29/PQ36 route conflict without duplicating the inventory identity.
+- Refreshed accessory bridge census and cross-link projections.
