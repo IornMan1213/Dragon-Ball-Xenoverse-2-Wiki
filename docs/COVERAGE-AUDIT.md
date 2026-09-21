@@ -1,3 +1,10 @@
+## 2026-09-20 Pressure Sign timing-conflict preservation
+
+- Rechecked the remaining generic Skill Shop candidates against dedicated skill pages and community acquisition reports.
+- **Pressure Sign** remains classified as a Conton City Skill Shop acquisition. A GameFAQs answer reports that it appeared after completing the Distorted Time Egg sidequest, while the dedicated skill pages only establish the Skill Shop route and do not establish that prerequisite. The conflicting timing claim is therefore documented rather than promoted to a deterministic gate.
+- No PQ source, Ultimate Finish requirement, or exact story/Time Rift threshold was inferred.
+
+
 ## 2026-09-20 deterministic shop prerequisite field cleanup
 
 - Continued the non-PQ acquisition audit by finding two Skill Shop records whose `unlock_method` contained a concrete prerequisite while `source_quest` was null.
