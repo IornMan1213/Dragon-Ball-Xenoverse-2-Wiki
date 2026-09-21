@@ -1,3 +1,12 @@
+## 2026-09-20 Skill Shop provenance refinement
+
+- Refined **Bending Kamehameha** after checking the live canonical/index records against current skill references.
+- The record now states the concrete route: complete the main story, then purchase Bending Kamehameha from the Skill Shop in Conton City. The source fields now distinguish the main-story gate from the shop source.
+- Added direct record-level provenance for the current Bending Kamehameha skill page and the GameFAQs acquisition report. No Ultimate Finish requirement, drop rate, or historical rotation claim was inferred.
+- Canonical/index remain **283/283** with identical record ordering and **60** Ultimate Finish flags.
+- External evidence reviewed: current Xenoverse 2 skill reference lists Bending Kamehameha as a Skill Shop unlock; an independent Xenoverse 2 Q&A reports the Skill Shop route after completing the campaign. 
+
+
 ---
 layout: wiki
 title: Exhaustive Coverage Audit
