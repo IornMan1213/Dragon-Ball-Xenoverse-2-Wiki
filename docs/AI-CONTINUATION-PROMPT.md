@@ -3316,3 +3316,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: canonical/index **283**, exact parity, UF **60**; targeted terse mentor/test census **0**.
 - Commits: **77617ca0ad0ed0edaf0aec8251fcb371c7fffcf6** (canonical), **21cc5cc53ea465cdda3330ff751656565f175d2d** (index), audit update follows.
 - Exact next task: **audit the remaining non-PQ quest/mission records for source-quality and specificity beyond simple terseness, prioritizing time-rift, story, shop, and Expert Mission provenance; preserve unresolved conditions and genuine source conflicts.**
+
+
+### 2026-09-20 cycle update — non-PQ source-quality refinement continuation
+- Refined **5** records: **Future Super Saiyan**, **Data Input**, **Super Spirit Bomb**, **Supernova**, and **Fighting Pose K**.
+- **Future Super Saiyan** was corrected to the **Unknown History secret story mission** route after current walkthrough evidence explicitly tied the transformation to completion of Unknown History; the prior Capsule Corporation/Vegeta provenance was replaced because it conflicted with that evidence. citeturn1search0turn1search3
+- **Data Input**, **Super Spirit Bomb**, and **Supernova** now explicitly identify their respective Expert Mission **Basic Reward** pools: EM20, EM16, and EM6. citeturn3youtube41turn3search1turn3search2
+- **Fighting Pose K** now explicitly records the story-to-Skill-Shop dependency following "The Ginyu Force Strikes". citeturn3reddit42
+- Commits: canonical **8466316b9b41199c8524e3821a2d03d6863e54b1**; index **d6fc033d206cc2dc5ffcc4f6f729b3a46723c50d**.
+- Exact next task: **continue the non-PQ provenance audit, prioritizing time-rift/story records and any dedicated-research provenance conflicts; then refine only where concrete evidence supports the change.**
