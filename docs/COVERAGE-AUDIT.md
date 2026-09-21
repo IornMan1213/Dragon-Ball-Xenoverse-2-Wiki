@@ -4223,3 +4223,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Reconciled **Android 17 (DB Super)'s Ranger Accessory** to the already-canonical **Android 17 (DB Super) Wig** (`accr-029`) as a component/research alias. PQ152 reward evidence explicitly names the canonical wig. citeturn1search4turn1search1
 - Did not force-map **Android 14's Hat** or **Bardock (DB Super)'s Scouter**: PQ104 documents Android 14's Clothes, while PQ146 documents Bardock (DB Super)'s Clothes, not those accessory identities. citeturn1search0turn1search7
 - Cross-link report regenerated with component aliases represented without creating duplicate inventory identities.
+
+### 2026-09-21 accessory PQ identity batch 6 — final two researched
+- Exhaustively rechecked the two remaining unresolved accessory labels against current equipment/reward references.
+- **Android 14's Hat (PQ104): unresolved.** PQ104 directly documents **Android 14's Clothes**, not a separately named hat/accessory. The equipment catalog likewise lists Android 14's Clothes as the PQ104 item. No exact canonical accessory identity was established, so no false merge was made. citeturn0search1turn0search4
+- **Bardock (DB Super)'s Scouter (PQ146): unresolved.** PQ146 directly documents **Bardock (DB Super)'s Clothes**; the maintained reward guide does not list a scouter. No exact canonical accessory identity was established. citeturn0search2turn0search6
+- The bridge now records both as `researched_unresolved` with explicit evidence notes. The cross-link report was regenerated without inventing identities.
