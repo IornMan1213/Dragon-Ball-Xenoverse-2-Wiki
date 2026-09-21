@@ -4295,3 +4295,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - The generated index is intentionally only a projection, so fields absent from that projection remain valid correction targets when they are valid canonical schema properties.
 - Commit: a18bc5bea1f50534ea7bcf14bdf797ef5f601a6b — Derive correction fields from canonical schema.
 - Next task: inspect the new schema-loading path for failure modes and verify the correction validator still rejects malformed schemas/unsupported fields without weakening the final schema validation workflow.
+
+
+## 2026-09-21 continuation — correction schema-loading hardening
+- Audited the schema-derived correction validator and the skills-sync validation order.
+- Found a concrete failure mode: a syntactically valid JSON schema with a non-object `properties` value could reach `set(properties)` and raise an incidental `TypeError` rather than the builder's explicit validation error.
+- Hardened the loader to require `properties` to be a non-empty object before deriving correction fields. This keeps malformed-schema failures explicit while leaving the final jsonschema validation authoritative.
+- Commit: cb41b4902a082212d021838e13011b756deda4f0 — Harden correction schema property validation.
+- Next task: audit correction metadata semantics against the schema's conditional requirements, especially corrections that change acquisition_type, class/subcategory, or race_restriction and could leave inherited fields inconsistent until final validation.
