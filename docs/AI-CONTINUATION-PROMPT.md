@@ -5505,3 +5505,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Final Android 18 mentor family values: **Power Blitz 100, Endless Shoot 100, Deadly Dance 100, Dual Destructo-Disc 300**. `Dead End Rain` is a separate non-mentor record and was not changed.
 - Skill completion commit: `9714e160171d71a35d66d3d92e25a29424194a01`.
 - The earlier audit/handoff entry remains as historical context; this correction is authoritative for the final census.
+
+### 2026-09-21 — Cell (Perfect) mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 55 nullable `ki_cost` records**.
+- Bounded batch: **All Clear, Gravity Impact, Perfect Kamehameha** from Cell (Perfect) mentor training.
+- Research/evidence: current Xenoverse 2 skill references explicitly document **100 Ki** for All Clear, **100 Ki** for Gravity Impact, and **400 Ki** for Perfect Kamehameha. The repository already contained the Cell mentor acquisition endpoints and provenance for all three. Perfect Kamehameha's current reference explicitly lists 400 Ki; older Xenoverse 1-era discussion citing 300 Ki was not used for the canonical value.
+- Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. No mechanics, acquisition, restriction, or alternate-version semantics were changed.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **52**. Targeted records contain the expected costs. The skill-index projection was not given a Ki-cost field because that field remains outside its established projection contract. Changed canonical text contains no internal AI/UI/search citation artifacts.
+- CI: commit `9e9182dd6cc7ae038bd086f0cf52e48a33f04d1a` exposed **no workflow runs and no status checks** through the repository connector; **no CI success claimed**. Validators were not weakened.
+- Commit: `9e9182dd6cc7ae038bd086f0cf52e48a33f04d1a`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing the remaining four-record families (Lord Slug, Turles, Broly, Beerus) and explicit current `Ki Used` evidence; preserve variable-cost forms rather than flattening them.**
+
