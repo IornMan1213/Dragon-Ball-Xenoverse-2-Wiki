@@ -917,3 +917,10 @@
 - Updated only canonical `ki_cost` and `last_verified` fields; no mechanics, acquisition, restriction, or variable-cost semantics were changed.
 - Live canonical skill census after the bounded pass: **428 records, 0 duplicate IDs, 41 nullable `ki_cost` records**.
 - Commit: `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3`.
+
+## 2026-09-21 — Lord Slug mentor skill Ki-cost verification
+
+- Verified **Evil Eyes (100)**, **Darkness Eye Beam (100)**, and **Darkness Twin Star (100)** from current Xenoverse 2 skill references.
+- Updated only canonical `ki_cost` and `last_verified`; unresolved mechanics remain untouched.
+- Live canonical skill census: **428 records, 0 duplicate IDs, 38 nullable `ki_cost` records**.
+- Commit: `e0a1e5ebb5131c037e0d62e96996029d4803305e`.
