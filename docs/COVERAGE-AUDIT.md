@@ -4178,3 +4178,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Final Pose remains the only parallel_quest record. No other canonical record has PQ-number provenance without a source_quest value, so the producer guard does not create a new cohort.
 - No TP Medal Shop record carries quest provenance, and no starting-choice/Skill Shop conflict remains in the live canonical fields.
 - No canonical data changed. Next audit target: character_only/CaC eligibility and ultimate_finish_required consistency.
+
+
+## 2026-09-21 — character-only and Ultimate Finish invariant audit
+- All 8 character-only canonical records are consistently CaC-ineligible with explicit Character-only race scope.
+- 60 canonical records require an Ultimate Finish; all 60 have explicit numbered PQ provenance. No non-PQ record is UF-required, and no false UF flag was found with explicit UF wording in its unlock method.
+- No canonical data changed. Next audit target: compare quest-derived UF flags against maintained detailed reward/provenance evidence.
