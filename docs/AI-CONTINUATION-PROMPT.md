@@ -6589,3 +6589,16 @@ The repository owner has clarified the continuation contract:
 - [x] Preserved the existing **Unlock: N/A / Character skill** semantics. Because the skill is explicitly character-only, no PQ/source-quest or reward-tier relationship was invented.
 - [x] Post-write target: **51** exactly-two-source records; canonical/index source and verification parity remains required.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic low-source record after Dragon Thunder, checking acquisition/reward semantics before provenance-only strengthening.
+
+
+### 2026-09-21 continuation — Energy Field low-source provenance
+- Workstream: **P1 skill acquisition/source provenance cleanup**.
+- Live pre-batch census: **452 canonical / 452 index / 51 exactly-two-source records**.
+- Bounded batch completed: **Energy Field (skill-energy-field)**.
+- Evidence: the maintained GameFAQs Xenoverse 2 guide independently lists Energy Field in **PQ29 — The Androids Attack**'s reward pool; existing dedicated skill and maintained Steam PQ evidence already establish the PQ29 acquisition endpoint and Basic Reward classification.
+- Changes: added the GameFAQs guide as a third provenance source to `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**.
+- Evidence limits: the added source corroborates acquisition/reward identity only; no exact drop probability or new mechanics were inferred.
+- Validation: data/index writes completed; final repository-wide parity/census and internal-artifact scan remain to be run before declaring the cycle fully validated.
+- CI: inspect exposed workflow/status results; do not claim success when no actionable run is exposed; validators must not be weakened.
+- Commits: `5a36578001b65faa89d57bd29f7572d63be9a628` (canonical), `f10d8b18f74696119ff12c37325751b85c9c351a` (index), `c66e3d9f7d6e73ed729ed8facb4bc2edbb554608` (changelog), `0b56d1da767a6ea78495374fe1a198c5eb986c11` (TODO), plus this handoff commit.
+- Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record after Energy Field, checking acquisition/reward semantics before provenance-only strengthening.**
