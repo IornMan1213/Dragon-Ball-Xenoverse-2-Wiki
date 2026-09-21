@@ -5631,3 +5631,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: canonical commit `6d465aa0664846960006b2359b0885b9ca1184d2` exposed no workflow runs or status checks through the repository connector; **no CI success claimed**.
 - Commits: `6d465aa0664846960006b2359b0885b9ca1184d2` (canonical), `b2a5b9670a2599c6e259a0a92326c5063a3e0b05` (audit), `81fcdd2e999b2e19a95ca188832d1286719c0f96` (changelog), plus this handoff update.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next bounded mentor family; prioritize explicit current `Ki Used` evidence and preserve variable-cost forms.**
+
+### 2026-09-21 — Brutal Buster Ki-cost verification
+- Live canonical skill census before editing: **428 records; 19 nullable `ki_cost` records**; duplicate IDs **0**.
+- Bounded batch: **Brutal Buster — 0 Ki**.
+- Evidence: current Xenoverse 2 references classify Brutal Buster as a Strike Evasive and document **300 Stamina Used**; the Evasive Skill reference independently lists the same stamina cost. No Ki expenditure is documented, so the canonical stamina-only Evasive convention supports `ki_cost=0`.
+- Changes: updated only Brutal Buster's canonical `ki_cost=0` and `last_verified=2026-09-21`. No unrelated fields or index projections were changed.
+- Validation: canonical dataset remains **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **18**; targeted record re-read successfully.
+- CI: canonical commit `b6a8da1d28798a8f027a87bd470917205348b8c6` exposed no actionable workflow/status result; **no CI success claimed**.
+- Commits: `b6a8da1d28798a8f027a87bd470917205348b8c6` (canonical), `fc32f7c4467f7ce2e8ba4eef71925b55051516d0` (coverage audit), `a279554e50e276cfba5ca050effc1b2edb731e16` (changelog), plus this handoff update.
+- Evidence limits: this batch establishes only the resource cost; no broader gameplay or acquisition conclusions were added.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded unresolved skill/family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
