@@ -3655,3 +3655,18 @@ Only after data-completeness work, expose the improved structured research surfa
 - Evidence limitation: Final Pose's PQ74 route is supported by the maintained 186-PQ reward guide and independent player documentation; this pass does not claim an official current shop inventory or an exact RNG probability.
 - Current unresolved scope: PQ unlock-field census remains **176 canonical records with 0 missing `unlock_condition` fields**. Skill acquisition work still has genuine source conflicts/under-specified non-PQ routes that require evidence rather than inference.
 - Exact next task: **continue the remaining skill acquisition/provenance conflict census, prioritizing records whose structured route conflicts with dedicated skill pages or maintained reward tables; separately continue auditing producer scripts for stale duplicated taxonomy assumptions. Recheck CI after the runner exposes actionable steps.**
+
+
+## 2026-09-20 continuation — prerequisite-quest vs acquisition-route audit
+- Continued the remaining acquisition taxonomy audit rather than making speculative source changes.
+- Found a real producer/validator semantic mismatch affecting six canonical records:
+  - `Explosive Wave`, `Punisher Guard`, `Bending Kamehameha`, `Time Bullet`, and `Fighting Pose K` are `skill_shop` records whose `source_quest` fields describe prerequisite story/mission completion before the shop listing becomes available.
+  - `Final Pose` is the single `parallel_quest` record and legitimately carries PQ74 in `source_quest`.
+- The previous builder classifier checked `source_quest` before shop/PQ route evidence. That could silently misclassify a future shop record with a prerequisite quest as `quest_or_mission`.
+- Fixed `scripts/build_skills_from_research.py` so TP/STP Medal Shop and Skill Shop route evidence take precedence over prerequisite `source_quest` text; explicit PQ evidence is then recognized; only remaining `source_quest` records fall back to `quest_or_mission`.
+- Fixed `scripts/validate_skills.py` so prerequisite `source_quest` is permitted for `skill_shop` records, while remaining prohibited for TP Medal Shop, character-only, starting-move, and other-nonquest routes. Added a deterministic requirement that `parallel_quest` records expose explicit PQ provenance in `source_quest`, `source_quest_or_shop`, or `unlock_method`.
+- No canonical acquisition facts were changed in this cycle; the correction aligns producer and validator semantics with the existing researched records.
+- Live census immediately before this change: **283** canonical records; acquisition counts were quest_or_mission 248, skill_shop 11, tp_medal_shop 9, character_only 8, other_nonquest 4, starting_move 2, parallel_quest 1. Five skill-shop records had prerequisite `source_quest` values; Final Pose had the one PQ `source_quest`.
+- Commits: `3081e710f926fcfad9f5a949abe7087e088c686` (builder precedence), `0337bb36bb62c33dc13105636179dbece6a0c495` (validator semantics).
+- Local execution is unavailable in the current environment because outbound DNS/network access is disabled; repository validation therefore remains dependent on GitHub Actions. Do not infer CI success from the code edit alone.
+- Exact next task: continue the acquisition/provenance census for records where `source_quest_or_shop` contains multiple routes, especially mixed Skill Shop/TP Medal/PQ wording, and inspect the remaining producer scripts for route precedence or field-semantics drift.
