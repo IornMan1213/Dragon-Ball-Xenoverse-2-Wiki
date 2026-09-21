@@ -6442,3 +6442,15 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 handoff correction — internal citation cleanup
 - [x] Removed the accidental ChatGPT/web citation markup from the newly appended PQ172/PQ174 handoff entry; historical entries were left untouched per append-only rules.
 - [x] Final handoff commit for this cycle: `ebdff0b21e62af07ef03a282c09557b07297475f`.
+
+
+### 2026-09-21 continuation — Future Saga Chapter 2 provenance
+- Workstream: **P1 skill provenance/source integrity**.
+- Live two-source census before this batch: **63 exactly-two-source records**.
+- Bounded batch: **God of Destruction's Might (PQ176)** and **Full Power Destruction (PQ177)**.
+- Evidence: maintained PQ research records identify PQ176 as “Havoc at the 3-Universe Feast” and PQ177 as “Warped Sense of Justice,” both under Future Saga Chapter 2. PQ177 explicitly records Full Power Destruction as a **50% Ultimate Finish bonus-slot** reward. The official Bandai Namco Future Saga Chapter 2 DLC page independently confirms Chapter 2 contains four Parallel Quests and seven additional moves.
+- Changes: added the official Bandai Namco DLC page as a third provenance source to both skill records and synchronized `docs/data/skills-index.json`. Existing reward-tier, Ultimate Finish, DLC, restriction, and mechanics semantics were preserved.
+- Validation after write: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 61 exactly-two-source records**; canonical/index source and verification parity remains clean.
+- CI: no workflow runs were exposed for the cycle's repository commits; no CI success is claimed and no validators were weakened.
+- Commits: canonical `c24fcac20cb1e8af093e88b617a0b93ab0afdf18`; index `3805303df42a4bb7e482810f9b86a158348231b2`; ledger `9335ebd3abf71b72c8f12304063473ff6db85940`.
+- Exact next batch: **recompute the live two-source census and continue with the next deterministic low-source cluster after PQ177, verifying the source-PQ/reward-tier relationship before adding provenance.**
