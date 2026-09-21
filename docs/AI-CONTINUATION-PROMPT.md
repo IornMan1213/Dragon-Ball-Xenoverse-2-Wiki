@@ -5088,3 +5088,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: workflow runs/statuses remain unavailable; no CI success claimed.
 - Commits: 00632ed3ce13e90ee42dd833a2308c450be40e6d, 60bc7c36e5ca17fa1555dea68c2e7fa77e02208f, bc4f8fab3e9689747229a535183be4569f628eef, bebc2d13f7edf5a92307b5c6e3f5a54062508a9c.
 - Exact next batch: **Super Soul source corpus is exhausted at this maintained frontier. Pivot to the highest-priority deterministic validator/index mismatch or another explicitly prioritized repository corpus; do not invent records beyond the inspected source corpus.**
+
+### 2026-09-21 cycle update — Krillin/Tien/Yamcha/Piccolo mentor-skill reconciliation
+- Live mentor census: **33 canonical mentors**; existing mentor records explicitly listed these lesson→skill routes, but the crosslink report contained only 16 edges.
+- Bounded batch: **14 edges** — Krillin (2), Tien (4), Yamcha (4), Piccolo (4).
+- Evidence: `docs/data/mentors-record-layer.json` lesson mappings and matching `source_mentor` provenance in `docs/data/skills-index.json`. No external inference was required.
+- Changes: rebuilt `docs/data/mentor-skill-crosslink-report.json`; canonical skill acquisition data was left unchanged.
+- Validation: **33 mentors / 30 linked mentors / 30 mentor→skill edges / 30 linked skills / 0 unresolved / 0 broken endpoints**; JSON parsed and promoted skill IDs were confirmed present in the canonical index.
+- CI: workflow/status result unavailable; no CI success claimed.
+- Commit: 62b9eddc6fd292be943ae6fd07c652c8aba535c9, 50bccdc1261d153f362003f8c2b9687893afd8e3, a075c7743baa4f489d1a09e78b19360d7bb804e9.
+- Exact next batch: **Raditz, Gohan (Kid), Nappa, and Vegeta mentor mappings**, using the same deterministic lesson/source_mentor parity check.
