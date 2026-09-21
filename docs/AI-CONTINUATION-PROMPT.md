@@ -6623,3 +6623,12 @@ The repository owner has clarified the continuation contract:
 - Validation target: **49 exactly-two-source records**, canonical/index parity, valid JSON, and no internal citation artifacts.
 - CI: inspect exposed workflow/status results; do not claim success when no actionable run is exposed; validators must not be weakened.
 - Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record after Energy Release, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 continuation — Energy Release validation correction
+- Bounded batch: **Energy Release (`skill-energy-release`)** completed.
+- Added the maintained GameFAQs move guide as a third provenance source; canonical/index now agree and `last_verified` is **2026-09-21**.
+- Final live census after correction: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 49 exactly-two-source records**.
+- JSON parsing passed for both skill datasets after repairing the temporary apostrophe escaping introduced during the write; no validator or workflow was changed.
+- Final data commits: canonical `d718fe17eb4ed13ad60566385929c4699c00183c`; index `6c51c26e2a1073f88ad0b73b3d374dab70edb36d`.
+- Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record, Energy Shot, checking acquisition/reward semantics before provenance-only strengthening.**
