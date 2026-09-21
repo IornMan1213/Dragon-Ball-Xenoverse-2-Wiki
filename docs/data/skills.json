@@ -8500,11 +8500,11 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races while using Ultra Instinct",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Current evidence documents Surging Spirit as an Ultra Instinct built-in CaC action rather than a separately acquired equipable skill; its N/A unlock route is therefore retained.",
       "acquisition_type": "other_nonquest",
-      "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route.",
+      "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route. 2026-09-21 DLC provenance audit: composite requirement intentionally preserved because Surging Spirit is documented in both Extra Pack 2 (Ultra Instinct Goku) and Conton City Vote Pack (Ultra Instinct -Sign- Goku); collapsing to either single pack would lose meaningful character/DLC context.",
       "id": "skill-surging-spirit"
     },
     {
