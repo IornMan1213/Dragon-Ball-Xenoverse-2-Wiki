@@ -742,3 +742,8 @@
 - Preserved existing Pan Dancing Parapara and Goku Spirit Bomb / Instant Transmission edges without duplication.
 - Updated `docs/data/mentor-skill-crosslink-report.json`; canonical skill acquisition records were not rewritten.
 - Live relationship census after the bounded batch: 33 mentors, 29 linked mentor identities, 116 edges, 116 unique skill endpoints, 0 unresolved, 0 broken endpoints.
+
+## 2026-09-21 — Remaining mentor relationship reconciliation
+- Promoted 15 deterministic mentor→skill edges for Gohan (Future) (4), Bardock (4), Bojack (4), and Zamasu (3).
+- Zamasu's initiation lesson has no canonical skill ID and remains intentionally unlinked.
+- Mentor crosslink report now validates 33 canonical mentors, 33 linked mentors, 131 edges, 131 unique endpoints, 0 unresolved, and 0 broken endpoints.
