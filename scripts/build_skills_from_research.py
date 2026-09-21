@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
 TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
 def classify_acquisition(d):
- text=' '.join(str(d.get(k,'')) for k in ('source_quest','source_quest_or_shop','unlock_method','source')).casefold()
+ text=' '.join(str(d.get(k,'')) for k in ('source_quest','source_quest_or_shop','unlock_method')).casefold()
  if 'starting move' in text or 'starting fighting-style choice' in text: return 'starting_move'
  if 'skill shop' in text: return 'skill_shop'
  if 'tp medal' in text or 'stp medal' in text:
