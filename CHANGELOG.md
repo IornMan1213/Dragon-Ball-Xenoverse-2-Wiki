@@ -825,3 +825,15 @@
 - Validation: 429 canonical skills / 429 index records; all 10 targeted values match; **5** broader `mechanics_notes` mismatches remain; no internal citation artifacts were introduced.
 - CI status unavailable; no CI success claimed.
 - Commit: `5a9f4bf24d6efeafed6da3543e817ad0734f3a32`.
+
+
+### 2026-09-21 — skills-index mechanics projection parity batch 4
+- Live census: **429 canonical skills / 429 skill-index records**.
+- Bounded deterministic batch: **5 mechanics_notes projections** — Super Spirit Bomb, Supernova, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike.
+- Evidence: canonical `docs/data/skills.json` is the producer for the index projection. No new gameplay, acquisition, restriction, DLC, or mechanics claim was introduced.
+- Changes: copied only the canonical `mechanics_notes` values into the matching `docs/data/skills-index.json` records.
+- Evidence limits: deterministic cross-layer parity correction, not a new verification event; the inspected `mechanics_notes` family now has **0 mismatches**.
+- Validation: both JSON layers parse; **429/429** records remain; full live `mechanics_notes` comparison is clean; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: workflow/status inspection was not exposed by the repository connector for this cycle; **no CI success claimed**. Validators were not weakened.
+- Commit: `971ae7a1bdf30adbdfe1417c2e6ff3d26dc599b1`.
+- Exact next batch: **recompute the live skill-index projection census and select the next highest-impact deterministic mismatch family**, without regenerating unrelated fields or reopening clean `mechanics_notes` parity.
