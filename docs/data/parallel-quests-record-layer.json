@@ -6133,6 +6133,12 @@
       "skill_ids": [
         "skill-heat-wave",
         "skill-supreme-fury"
+      ],
+      "super_soul_rewards": [
+        "Here I go!"
+      ],
+      "super_soul_ids": [
+        "super-soul-145"
       ]
     },
     {
@@ -6237,6 +6243,12 @@
       ],
       "skill_ids": [
         "skill-dark-inscription"
+      ],
+      "super_soul_rewards": [
+        "Rejoice! A new ruler is born!"
+      ],
+      "super_soul_ids": [
+        "super-soul-150"
       ]
     },
     {
@@ -6268,6 +6280,12 @@
       ],
       "skill_ids": [
         "skill-emperor-s-cannon"
+      ],
+      "super_soul_rewards": [
+        "AAAAAAAAAGH!"
+      ],
+      "super_soul_ids": [
+        "super-soul-149"
       ]
     },
     {
@@ -6299,6 +6317,12 @@
       ],
       "skill_ids": [
         "skill-chaotic-time-impact"
+      ],
+      "super_soul_rewards": [
+        "Send me back to the planet I came from!"
+      ],
+      "super_soul_ids": [
+        "super-soul-151"
       ]
     },
     {
