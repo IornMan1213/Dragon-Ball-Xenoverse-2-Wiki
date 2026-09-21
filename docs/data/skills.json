@@ -8,12 +8,12 @@
   "category_counts": {
     "Ki Blast Evasives": 13,
     "Other Supers": 36,
-    "Strike Evasives": 8,
-    "Ki Blast Ultimates": 71,
-    "Ki Blast Supers": 125,
+    "Strike Evasives": 9,
+    "Ki Blast Ultimates": 73,
+    "Ki Blast Supers": 128,
     "Transformations": 15,
-    "Strike Supers": 97,
-    "Strike Ultimates": 18,
+    "Strike Supers": 100,
+    "Strike Ultimates": 19,
     "Power Up Supers": 14,
     "Power Up Evasives": 2,
     "Other Evasives": 3,
@@ -12120,6 +12120,276 @@
       "id": "skill-grand-smasher",
       "source_mentor": [
         "mentor-bojack"
+      ]
+    },
+    {
+      "name": "God Splitter",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/God_Splitter",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Zamasu mentor training — lesson-1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Zamasu mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Zamasu mentor training — lesson-1.",
+      "dlc_requirement": "DLC",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-god-splitter",
+      "source_mentor": [
+        "mentor-zamasu"
+      ]
+    },
+    {
+      "name": "Heavenly Arrow",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Heavenly_Arrow",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Zamasu mentor training — lesson-2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Zamasu mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Zamasu mentor training — lesson-2.",
+      "dlc_requirement": "DLC",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-heavenly-arrow",
+      "source_mentor": [
+        "mentor-zamasu"
+      ]
+    },
+    {
+      "name": "Instant Severance",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Instant_Severance",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Zamasu mentor training — lesson-3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Zamasu mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Zamasu mentor training — lesson-3.",
+      "dlc_requirement": "DLC",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-instant-severance",
+      "source_mentor": [
+        "mentor-zamasu"
+      ]
+    },
+    {
+      "name": "Evil Ray Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Evil_Ray_Strike",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Gohan (Kid) mentor training — initiation.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gohan (Kid) mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gohan (Kid) mentor training — initiation.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-evil-ray-strike",
+      "source_mentor": [
+        "mentor-gohan-kid"
+      ]
+    },
+    {
+      "name": "Evil Rise Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Evil_Rise_Strike",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Gohan (Kid) mentor training — lesson-1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gohan (Kid) mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gohan (Kid) mentor training — lesson-1.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-evil-rise-strike",
+      "source_mentor": [
+        "mentor-gohan-kid"
+      ]
+    },
+    {
+      "name": "Explosive Assault",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Explosive_Assault",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Gohan (Kid) mentor training — lesson-3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gohan (Kid) mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gohan (Kid) mentor training — lesson-3.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-explosive-assault",
+      "source_mentor": [
+        "mentor-gohan-kid"
+      ]
+    },
+    {
+      "name": "Finish Breaker",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Finish_Breaker",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Vegeta mentor training — lesson-1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Vegeta mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Vegeta mentor training — lesson-1.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-finish-breaker",
+      "source_mentor": [
+        "mentor-vegeta"
+      ]
+    },
+    {
+      "name": "Flash Strike",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Flash_Strike",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Vegeta mentor training — lesson-2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Vegeta mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Vegeta mentor training — lesson-2.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-flash-strike",
+      "source_mentor": [
+        "mentor-vegeta"
+      ]
+    },
+    {
+      "name": "Final Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Flash",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Vegeta mentor training — lesson-3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Vegeta mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Vegeta mentor training — lesson-3.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-final-flash",
+      "source_mentor": [
+        "mentor-vegeta"
+      ]
+    },
+    {
+      "name": "Time Skip/Tremor Pulse",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Time_Skip/Tremor_Pulse",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Hit mentor training — lesson-3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Hit mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Hit mentor training — lesson-3.",
+      "dlc_requirement": "DLC",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "id": "skill-time-skip-tremor-pulse",
+      "source_mentor": [
+        "mentor-hit"
       ]
     }
   ],
