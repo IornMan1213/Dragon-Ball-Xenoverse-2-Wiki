@@ -108,6 +108,22 @@
         "sources",
         "verification_status"
       ]
+    },
+    {
+      "domain": "story_missions",
+      "required": [
+        "canonical_name",
+        "type",
+        "skill_unlocks",
+        "sources",
+        "verification_status"
+      ],
+      "optional_cross_domain_fields": [
+        "source_time_rifts",
+        "chapter",
+        "quest_number",
+        "dlc_requirement"
+      ]
     }
   ],
   "null_policy": "Unknown values must be represented as unresolved/null with provenance rather than guessed."
