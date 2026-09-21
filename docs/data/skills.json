@@ -3649,9 +3649,9 @@
       ],
       "ki_cost": 500,
       "unlock_method": "TP Medal Shop; documented listing price 200 TP Medals",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "ultimate_finish_required": false,
-      "dlc_requirement": "Legendary Pack 1",
+      "dlc_requirement": "Base Game",
       "character_source": "SSGSS Vegeta (Evolved)",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -3659,7 +3659,7 @@
       "research_status": "enriched",
       "mechanics_notes": "500 Ki Ki Blast Ultimate; user detonates a large area explosion around themselves, consuming health during the technique. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms TP Medal Shop acquisition and documents a 200 TP Medal purchase price. No quest or Ultimate Finish route is inferred.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms TP Medal Shop acquisition and documents a 200 TP Medal purchase price. No quest or Ultimate Finish route is inferred.\n2026-09-21 provenance correction: Final Explosion is acquired from the TP Medal Shop and was documented there in the game's original 2016-era shop listings, so its acquisition/update provenance predates Legendary Pack 1. Its later use by SSGSS Vegeta (Evolved) does not establish Legendary Pack 1 provenance; character association is preserved separately.",
       "id": "skill-final-explosion"
     },
     {
