@@ -9,7 +9,7 @@ TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":11
 def classify_acquisition(d):
  text=' '.join(str(d.get(k,'')) for k in ('source_quest','source_quest_or_shop','unlock_method','source')).casefold()
  if d.get('source_quest') not in (None,''): return 'quest_or_mission'
- if re.search(r'\\bparallel quest\\s*#?\\s*\\d+\\b|\\bpq\\s*#?\\s*\\d+\\b', text) and 'skill shop' not in text and 'tp medal' not in text: return 'parallel_quest'
+ if re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text) and 'skill shop' not in text and 'tp medal' not in text: return 'parallel_quest'
  if 'tp medal' in text or 'stp medal' in text: return 'tp_medal_shop'
  if 'skill shop' in text: return 'skill_shop'
  if 'starting move' in text: return 'starting_move'
