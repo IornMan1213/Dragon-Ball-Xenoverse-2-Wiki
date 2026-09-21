@@ -5056,3 +5056,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - All eight map to PQ138–142 and retain `dlc_requirement=Ultra Pack 2`.
 - **0 deterministic DLC mismatches** were found.
 - Only verification dates/provenance notes were refreshed; reward-tier and other mechanics/acquisition semantics were left unchanged.
+
+
+## 2026-09-21 Legendary Pack 1 skill provenance census
+
+- Audited all **6** canonical Legendary Pack 1 skills.
+- All six map to PQ143–146 with matching `Legendary Pack 1` provenance.
+- **0 deterministic DLC mismatches** found.
+- Only verification dates/provenance notes were refreshed; reward-tier and other semantics remain unchanged.
