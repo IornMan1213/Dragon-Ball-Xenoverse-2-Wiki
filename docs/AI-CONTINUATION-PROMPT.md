@@ -4887,3 +4887,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: **420 skills / 420 index records / 420 taxonomy total / 133 lessons / 132 resolved edges / 1 unresolved endpoint / 32 fully linked mentors / 1 partially linked mentor / 0 duplicate canonical IDs**.
 - Remaining unresolved frontier: **Zamasu → I'm thinking of becoming a GodTuber**, explicitly a Super Soul/non-skill reward. No fake skill record should be created for it.
 - Exact next work: audit the broader mentor records for any other non-skill reward typing gaps, then continue the next substantive data workstream while preserving the cross-database graph architecture.
+
+
+### 2026-09-21 cycle update — Complete mentor Dual Ultimate relationship layer
+- Added `docs/data/dual-ultimate-mentor-layer.json`, containing **all 33 mentor Dual Ultimate rewards** and their mentor relationships.
+- Every Dual Ultimate record now resolves to an underlying canonical base skill (**33/33 linked**). Added missing canonical base skills required by this relationship layer: **Giant Storm**, **Angry Explosion**, and **Dead End Rain**.
+- Mentor records now expose their Dual Ultimate relationship directly through `dual_ultimate` objects rather than leaving this major reward path implicit.
+- Important graph distinction preserved: Dual Ultimates are team-attack variants and are not flattened into the ordinary skill taxonomy. The underlying base skill remains the canonical skill node, while the Dual layer represents the distinct reward/relationship node.
+- Validation: **423 canonical skills / 423 index records / 423 taxonomy total / 133 mentor lessons / 132 resolved lesson edges / 1 non-skill unresolved mentor endpoint / 33 Dual Ultimate records / 33 resolved Dual Ultimate base links / 0 unresolved Dual base links / 32 fully linked mentors / 1 partially linked mentor**.
+- The remaining lesson-layer unresolved endpoint is Zamasu's `I'm thinking of becoming a GodTuber`, explicitly typed by external evidence as a Super Soul; it must not be fabricated as a skill.
+- Exact next work: continue expanding the cross-database graph beyond mentors, prioritizing **skill ↔ PQ / Expert Mission / shop / Super Soul / mentor relationships**, so users can traverse from an acquisition source to a skill and onward to its complete details and related rewards without dead ends.
