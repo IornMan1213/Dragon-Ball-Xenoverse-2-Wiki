@@ -3517,3 +3517,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index now use the concrete PQ186 Basic Reward route and preserve `ultimate_finish_required: false`; no drop probability was inferred.
 - Commits: `2f7aed647b76225be22adb3e00fcb310f5ae8ca8` (canonical), `2f2330cd629590756aa4e9f508462680540cf12e` (index), `b0b0adde14f9dc3c605af1ff5b973585a41a42a4` (audit).
 - Exact next task: **continue the remaining provenance conflict census, especially newer DLC/Future Saga PQ records with generic or pooled source wording; use maintained reward evidence to make only deterministic corrections.**
+
+
+### 2026-09-20 cycle update — Dragon Spiral / Indomitable PQ185 provenance cleanup
+- Continued the late Future Saga PQ provenance census using the maintained reward-normalization map.
+- **Dragon Spiral** and **Indomitable** were normalized to **PQ185 Basic Reward**; prior pooled `PQ185/PQ186` wording was removed from the canonical source field.
+- Commits: `44cdb3d2c6c94ed2a2edfdcb709fe871da9572be` / `6acf61c3077c4d47117c93b98f2f9032a38b440f` (canonical), `d88512eab0ee921af53c47a164f37fbfdc8488ca` / `0d0eb97f11c755fd9b734d42b47b3b6be3ff75d2` (index), and the audit update below.
+- Audit commit: `cb91031c49a7c879669078eca4aa0337c182bdfc`.
+- Exact next task: continue the remaining late-PQ provenance census, prioritizing records whose current maintained reward map gives a more specific quest than the canonical pooled/generic source wording.
