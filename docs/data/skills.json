@@ -8993,7 +8993,9 @@
       "last_verified": "2026-09-21",
       "race_restriction": "Character-exclusive",
       "dlc_requirement": "Ultra Pack 1",
-      "notes": "2026-09-21 completeness correction: Pretty Charge was missing from the canonical skill registry despite independent documentation identifying it as Ribrianne's Ultra Pack 1 character-exclusive charging skill. Added as a bounded character-only record; no unsupported numeric Ki cost or acquisition gate is inferred."
+      "notes": "2026-09-21 completeness correction: Pretty Charge was missing from the canonical skill registry despite independent documentation identifying it as Ribrianne's Ultra Pack 1 character-exclusive charging skill. Added as a bounded character-only record; no unsupported numeric Ki cost or acquisition gate is inferred. 0 Ki cost is recorded as activation cost, not as a claim about the amount of Ki restored.",
+      "ki_cost": 0,
+      "ki_cost_note": "Charging skill activation does not spend Ki; it restores/charges Ki while active."
     },
     {
       "name": "Prominence Flash",
