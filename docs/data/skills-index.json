@@ -3903,13 +3903,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Rampage",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
       ],
       "unlock_method": "Parallel Quest 174 — \"Hyper Special Training\" Ultimate Finish reward (60%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 60% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 60% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 low-source provenance strengthening: current maintained Parallel Quests documentation independently corroborates the PQ relationship; existing Ultimate Finish/drop-condition semantics are preserved, including the reward-table presentation conflict where applicable.",
       "mechanics_notes": "500 Ki; multi-stage rush/ground-impact sequence. Exact CaC acquisition/drop semantics remain under reconciliation because current public skill-page evidence emphasizes the character user.",
       "source_quest": 174,
       "source_quest_or_shop": "Parallel Quest 174 — \"Hyper Special Training\""
@@ -9911,13 +9912,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
       ],
       "unlock_method": "Parallel Quest 172 — \"Little Big Brother\" Ultimate Finish reward (45%).",
       "ultimate_finish_required": true,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "Corrected 2026-09-20: PQ172 Ultimate Finish reward is treated as CaC-accessible; character association does not by itself establish character exclusivity. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Wild Stinger is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved.",
+      "notes": "Corrected 2026-09-20: PQ172 Ultimate Finish reward is treated as CaC-accessible; character association does not by itself establish character exclusivity. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance audit: Wild Stinger is tied to Future Saga Chapter 1 through its documented PQ 171/172 reward context and the official DLC move documentation; the existing DLC classification is preserved. 2026-09-21 low-source provenance strengthening: current maintained Parallel Quests documentation independently corroborates the PQ relationship; existing Ultimate Finish/drop-condition semantics are preserved, including the reward-table presentation conflict where applicable.",
       "mechanics_notes": "Official DLC material confirms the core move behavior; exact numeric cost remains unverified, so the current 100-Ki record should not be treated as authoritative without stronger evidence. The PQ172 acquisition path is retained; exact Ki cost remains unresolved.",
       "source_quest": 172,
       "source_quest_or_shop": "Parallel Quest 172 — \"Little Big Brother\""
