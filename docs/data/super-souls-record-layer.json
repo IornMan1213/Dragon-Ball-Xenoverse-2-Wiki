@@ -2564,6 +2564,237 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ive-got-something-extra-special-for-you.md",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
+    },
+    {
+      "id": "super-soul-096",
+      "name": "It must be some kind of trick...",
+      "character_source": "Hercule",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Raid Quest Event",
+      "acquisition_source": "Hercule Online Raid",
+      "trigger_condition": "Occasionally when hit by a Ki Blast attack",
+      "effect_text": "Temporarily nullifies damage from all attacks.",
+      "effect_magnitude": "5% chance; 3 seconds",
+      "limit_burst": "Auto Just Guard",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Just Guard",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/it-must-be-some-kind-of-trick.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-097",
+      "name": "It all comes down to this!",
+      "character_source": "Kid Goku",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Raid Quest Event",
+      "acquisition_source": "Transforming Goku (GT) Online Raid",
+      "trigger_condition": "Once only when health is below 10%",
+      "effect_text": "Restores all Ki. Temporarily boosts Strike Skills and Ki Blast Skills.",
+      "effect_magnitude": "+50% Strike and +50% Ki Blast for 30 seconds",
+      "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/it-all-comes-down-to-this.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-098",
+      "name": "I'll keep adding a bit of power to my attacks!",
+      "character_source": "Raditz",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 151 — Even Further Beyond",
+      "trigger_condition": "When throwing the opponent",
+      "effect_text": "Boosts the strength of all attacks.",
+      "effect_magnitude": "+5%; stacks up to 10 times",
+      "limit_burst": "Auto Just Guard",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Just Guard",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-keep-adding-a-bit-of-power-to-my-attacks.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-151"
+      ]
+    },
+    {
+      "id": "super-soul-099",
+      "name": "You're not much of a fun fight!",
+      "character_source": "Recoome",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 153 — Seeing Double",
+      "trigger_condition": "When the battle begins / once only when health is below 50%",
+      "effect_text": "Boosts all attacks and maximum Ki; at low health, cancels the attack boost and decreases maximum Ki restored.",
+      "effect_magnitude": "+10% all attacks; +100% maximum Ki; then -10% attack boost and -100% maximum Ki restored",
+      "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/youre-not-much-of-a-fun-fight.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-153"
+      ]
+    },
+    {
+      "id": "super-soul-100",
+      "name": "I think I'm getting the hang of this.",
+      "character_source": "Goku (Ultra Instinct -Sign-)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 151 — Even Further Beyond",
+      "trigger_condition": "Always / when health is below 50%",
+      "effect_text": "Boosts amount of Ki restored; at low health boosts stamina recovery speed.",
+      "effect_magnitude": "+10% Ki restored; +15% stamina recovery speed below 50% HP",
+      "limit_burst": "Auto Health and Stamina Recovery! DEF Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-think-im-getting-the-hang-of-this.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-151"
+      ]
+    },
+    {
+      "id": "super-soul-101",
+      "name": "I will put a stop to you, fiend!",
+      "character_source": "Dyspo",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 152 — Dyspo's Wanted Man",
+      "trigger_condition": "Always",
+      "effect_text": "Boosts movement speed and amount of Ki restored.",
+      "effect_magnitude": "+10% movement speed; +10% Ki restored",
+      "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-put-a-stop-to-you-fiend.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-152"
+      ]
+    },
+    {
+      "id": "super-soul-102",
+      "name": "There's more where that came from!",
+      "character_source": "Vegeta (GT)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 153 — Seeing Double",
+      "trigger_condition": "Always / occasionally when using a Super or Ultimate Attack",
+      "effect_text": "Boosts all attacks; occasionally restores the Ki spent by the activating Skill.",
+      "effect_magnitude": "+10% all attacks; 20% chance to restore the activating Skill's initial Ki cost",
+      "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-more-where-that-came-from.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-153"
+      ]
+    },
+    {
+      "id": "super-soul-103",
+      "name": "Emoc htorf! Peas and Carrots!",
+      "character_source": "Whis",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Raid Quest Event",
+      "acquisition_source": "Dyspo Online Raid",
+      "trigger_condition": "Always / once only when using Flash Revive",
+      "effect_text": "Boosts Capsule recovery speed; once only, revives an ally without consuming health.",
+      "effect_magnitude": "+110% Capsule recovery speed",
+      "limit_burst": "Revive Gauge Auto-Recovery!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Revive Gauge Auto-Recovery!",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/emoc-htorf-peas-and-carrots.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
     }
   ],
   "research_notes": [
@@ -2579,7 +2810,8 @@
     "2026-09-19: promoted raid/event Super Soul batch 04 (036–039) with secondary acquisition/effect reconciliation; exact recurrence schedules and drop rates remain unresolved.",
     "2026-09-19: expanded raid/event coverage with records 040–043, including Cell, Hercule, Gohan (Adult), and Fused Zamasu raid reward families.",
     "2026-09-19: identified additional raid-exclusive Super Soul candidates 044–047 from raid reward catalog and community raid-exclusive index; mechanics remain partially verified pending item-level reconciliation.",
-    "2026-09-19: reconciled raid candidates 044–047 against item-level/community Super Soul catalogue evidence. 044, 045 and 046 now have verified core effects; 047 remains partially verified because the stamina-damage reduction magnitude and exact historical raid mapping remain unresolved."
+    "2026-09-19: reconciled raid candidates 044–047 against item-level/community Super Soul catalogue evidence. 044, 045 and 046 now have verified core effects; 047 remains partially verified because the stamina-damage reduction magnitude and exact historical raid mapping remain unresolved.",
+    "2026-09-21: promoted Super Soul research batch 096–103 after live-corpus reconciliation. The prior handoff candidate names were already represented by earlier canonical IDs; the actual next eight unique source-corpus entries were used instead. PQ-sourced records 098–102 were cross-linked only to explicitly named PQ151–153 endpoints."
   ],
   "sources": [
     {
