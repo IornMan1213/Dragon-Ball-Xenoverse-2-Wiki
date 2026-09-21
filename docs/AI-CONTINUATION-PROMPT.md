@@ -5071,3 +5071,9 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow/status result exposed; no CI success claimed.
 - Commits: bb05160d73d81411f506c4e3d05bc512d45b7432, cddb1eae26bb966d1a88560b6f9ce5a160c8952e, 213c8ceb1e0d1b5a8b57e605df51d54f32c88298, d1234bb3f573b9c5559435884534eb9225493ff7, 5b4b8eb1e6e8a242358b45e1852f454c01a5bf37.
 - Exact next batch: **the next eight unique records after Send me back to the planet I came from!, beginning with live source-corpus reconciliation and duplicate identity checks.**
+
+### 2026-09-21 handoff correction — Super Soul 147–148 source slugs + terminal source-corpus frontier
+- Post-write validation corrected the exact Madreag source URLs for super-soul-147 and super-soul-148; no data semantics changed.
+- Live canonical census remains **146 Super Souls / 186 PQs / 56 forward / 56 reverse / 46 unique PQ endpoints / 56 unique Super Soul endpoints / 90 unresolved routes / 0 broken endpoints**.
+- The maintained Madreag source corpus has only **two records after Send me back to the planet I came from!**: **So fast! Are they learning how to use their power?!** and **Enough food for one person...**. Therefore the exact next bounded source-corpus batch is **those two records**, after duplicate identity reconciliation; do not assume an eight-record batch beyond the end of the current corpus.
+- CI: workflow runs and combined statuses remain unavailable/empty for all commits in this cycle; no CI success is claimed.
