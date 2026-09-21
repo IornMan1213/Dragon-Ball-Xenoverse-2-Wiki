@@ -3774,3 +3774,17 @@ Only after data-completeness work, expose the improved structured research surfa
 - GitHub combined status and workflow-run queries for the catalog-alignment commit returned no statuses and no workflow runs. This is an absence of reported CI data, not evidence of success or failure.
 - Attempted to locate a separate `docs/data/skills-index.schema.json`; the path does not exist, so index validation remains part of the canonical validator rather than a separate schema file.
 - No further speculative data changes made. Next task: continue with the canonical validator's remaining cross-field/data checks and repository evidence rather than changing metadata again.
+
+
+## 2026-09-21 continuation — PQ provenance validator alignment
+- Continued the P1 skill acquisition/provenance audit by comparing the live producer classification logic with the validator's parallel_quest invariant.
+- Found a producer/validator mismatch in the checked-in research corpus: skill research batches such as skill-batch-107.json and skill-batch-108.json record PQ provenance in source_quest_or_shop (PQ148 / PQ149) without a separate source_quest field, while build_skills_from_research.py intentionally classifies explicit PQ-number provenance as parallel_quest even when the PQ appears only in source_quest_or_shop.
+- The validator had been stricter than the producer, requiring source_quest itself to be textual and contain the PQ number. That could reject a valid future catalog generated from the maintained research batches even though the producer and research record both provide explicit PQ-number evidence.
+- Corrected scripts/validate_skills.py so parallel_quest requires an explicit numbered PQ/Parallel Quest reference in one of the producer's provenance fields (source_quest, source_quest_or_shop, or unlock_method), matching the actual classification semantics without weakening the evidence requirement.
+- No canonical skill facts or acquisition types were changed.
+- Files changed: scripts/validate_skills.py and this handoff.
+- Commit: b6e9988beed08c0310e713a6975311aa62ee7209 — Align PQ acquisition validator with producer provenance semantics.
+- Validation limitation: local execution is unavailable in the current environment; GitHub status/workflow queries for the preceding validator commits returned 0 reported statuses and 0 workflow runs. Do not infer CI success or failure from absence of records.
+- Repository-wide acquisition census remains 283 records with taxonomy 248 quest_or_mission, 1 parallel_quest, 11 skill_shop, 9 tp_medal_shop, 8 character_only, 2 starting_move, 4 other_nonquest; the canonical lone parallel_quest remains Final Pose.
+- Evidence limitation: repository code search returned no indexed matches for source_quest_or_shop, so the mismatch was established by directly inspecting the live producer, validator, schema, canonical catalog, and checked-in skill research batches rather than by inventing acquisition facts.
+- Exact next task: recheck the live validator and producer semantics after this correction, inspect GitHub Actions for an actionable result, then continue the evidence-backed acquisition/provenance census for canonical records whose route conflicts with maintained research evidence. Preserve unresolved routes rather than forcing taxonomy changes.
