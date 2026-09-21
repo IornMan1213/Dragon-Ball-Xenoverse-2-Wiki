@@ -10330,11 +10330,12 @@
       "source_quest": "Cooler (Final Form) mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-feint-crash",
       "source_mentor": [
         "mentor-cooler"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Fake Blast",
@@ -10357,11 +10358,12 @@
       "source_quest": "Cooler (Final Form) mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-fake-blast",
       "source_mentor": [
         "mentor-cooler"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Supernova Cooler",
@@ -10384,11 +10386,12 @@
       "source_quest": "Cooler (Final Form) mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 500 Ki used.",
       "id": "skill-supernova-cooler",
       "source_mentor": [
         "mentor-cooler"
-      ]
+      ],
+      "ki_cost": 500
     },
     {
       "name": "Innocence Bullet",
