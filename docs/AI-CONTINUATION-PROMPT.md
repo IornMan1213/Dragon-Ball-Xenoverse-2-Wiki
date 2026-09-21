@@ -6154,3 +6154,17 @@ The repository owner has clarified the continuation contract:
 - Commits: `f6a8702f5ab3a108db66d02bc85de6416e84d950` (skill-catalog audit), `25e95607057d4f924f2d1ce842144d7c40826cef` (coverage audit), `9ad156bcab776ca318166a4faaad87d05ca5e5a7` (TODO ledger), plus the handoff commit created by this update.
 - Exact next task: **recompute the live DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness cluster with a concrete mismatch or missing endpoint.** Do not reopen the reconciled Future Saga Chapter 2 cluster unless contradictory evidence appears; preserve intentional composite/platform-dependent labels and reward conflicts.
 
+
+
+### 2026-09-21 cycle update — Future Saga Chapter 3 skill completeness correction
+- Workstream: **P1 skill DLC/version provenance and character-only/completeness cleanup**.
+- Live census before editing: **429 canonical skill records / 429 index records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Future Saga Chapter 3 six-skill package** — Gigantic Cross, Gigantic Nova, Saiyan Blaster, Emperor's Cannon, Dark Inscription, and Chaotic Time Impact.
+- Research/evidence: official Bandai Namco DLC scope states Chapter 3 contains **3 Parallel Quests and 6 additional moves**. Current dedicated skill evidence and the maintained Cheelai & Broly Conton City Patrol mission listing establish Gigantic Cross at Patrol 04, Saiyan Blaster at Patrol 10, and Gigantic Nova at Patrol 17. The live canonical records already contained Emperor's Cannon, Dark Inscription, and Chaotic Time Impact.
+- Changes: added missing canonical endpoints **Gigantic Cross**, **Gigantic Nova**, and **Saiyan Blaster** to `docs/data/skills.json`; projected all three into `docs/data/skills-index.json`; synchronized category counts and record counts.
+- Evidence boundaries: recorded only directly supported costs/classifications and patrol acquisition endpoints. No unsupported PQ reward route, reward probability, Ultimate-Finish requirement, or narrower CaC race/gender restriction was inferred for the three new records.
+- Validation: **432 canonical / 432 index / 0 duplicate IDs / 0 nullable `ki_cost` values / 6 Future Saga Chapter 3 records**, matching the official six-move package scope. Changed JSON parsed successfully. No internal ChatGPT/tool citation markup was added to repository data.
+- CI: inspected workflow runs for the canonical, index, coverage, and TODO commits; GitHub exposed **no workflow runs** for these commits. No CI success is claimed; validators were not weakened.
+- Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, `docs/TODO-EXHAUSTIVE.md`, and this handoff.
+- Commits: `90c38fc82cba07d0dc557aca1f92d539c0c4dbf5` (canonical), `8ea4b572b601ad9b94652ff888203751d0ee812a` (index), `4b2775a9f954b2db43c68c4534895d7b44d61b62` (coverage), `02270822052759c7ad7740ed637a94c1a5880ae8` (TODO).
+- Exact next task: **recompute the live DLC-label/source-relationship census after this Chapter 3 completeness correction and select the next deterministic character-only/DLC cluster with a concrete missing endpoint or provenance mismatch. Do not reopen Chapter 3 unless new contradictory evidence appears.**
