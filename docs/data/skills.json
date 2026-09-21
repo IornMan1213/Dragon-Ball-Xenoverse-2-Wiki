@@ -7,14 +7,17 @@
   "notes": "Indexed records establish category membership. Mechanics, costs and unlock methods must be verified before promotion to verified status.",
   "category_counts": {
     "Ki Blast Evasives": 11,
-    "Super": 44,
+    "Other Supers": 32,
     "Strike Evasives": 8,
     "Ki Blast Ultimates": 55,
     "Ki Blast Supers": 93,
-    "Awoken": 19,
+    "Transformations": 15,
     "Strike Supers": 75,
     "Strike Ultimates": 15,
-    "Evasive": 5
+    "Power Up Supers": 12,
+    "Power Up Evasives": 2,
+    "Other Evasives": 3,
+    "Transformation": 4
   },
   "records": [
     {
