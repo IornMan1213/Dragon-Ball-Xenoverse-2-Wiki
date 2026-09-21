@@ -3873,3 +3873,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: canonical/index remain **283/283**, **0 duplicate names**, **60** Ultimate Finish flags; record-name ordering remains identical.
 - Commits: canonical **ed02f4441b8eb3080b9f8bedcd97dd0ad0c5b650**; index **b38e008f2dc54f8339e47dc1ef3bb5c181272e02**.
 - Exact next target: **audit the remaining non-PQ starting-move and other_nonquest records, especially Afterimage, Super Guard, and any skill whose CaC availability is implied by the current unlock text but lacks a concrete acquisition explanation.**
+
+
+## 2026-09-20 — starting-move provenance refinement
+- Refined **Afterimage** and **Super Guard**.
+- Afterimage is explicitly documented as a CaC starting Super from the initial fighting-style selection, with no PQ/Ultimate Finish route asserted.
+- Super Guard is explicitly documented as a CaC starting Super associated with the initial close-range fighting-style choice; the maintained record also preserves its Skill Shop route.
+- No new quest source or unsupported unlock condition was introduced.
+- Exact next target: continue auditing remaining non-PQ other_nonquest or starting-move records for concrete CaC acquisition wording.
