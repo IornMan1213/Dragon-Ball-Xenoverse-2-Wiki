@@ -3936,3 +3936,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Updated both canonical and synchronized index records; no quest or Ultimate Finish provenance was introduced.
 - Validation: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, **0** acquisition-critical mismatches.
 - Exact next target: **continue auditing under-specified non-PQ records for explicit built-in, character-only, starting-move, wish, or other deterministic acquisition-status evidence before touching generic quest records again.**
+
+
+## 2026-09-20 — Final Pose acquisition provenance correction
+- Re-audited generic shop records against dedicated skill evidence and found a direct contradiction for **Final Pose**.
+- Canonical data previously classified Final Pose as a **Skill Shop** acquisition. Dedicated Xenoverse 2 skill evidence lists **Final Pose → PQ74** in the Evasive Skill table, and independent player documentation identifies PQ74, **"Galactic Patrol Away,"** as the source.
+- Corrected both canonical and index skill records to `acquisition_type: parallel_quest`, `source_quest: PQ74 — "Galactic Patrol Away"`, and matching unlock wording. The stale Skill Shop provenance was removed rather than preserved.
+- No Ultimate Finish requirement, drop rate, or current shop claim was inferred.
+- Validation target after the correction: canonical/index remain 283 records with identical ordering; acquisition-critical fields remain synchronized.
+- Exact next task: **continue checking generic shop records for direct contradictions against dedicated unlock tables, prioritizing cases where a shop label may actually be a PQ/mentor/story source.**
