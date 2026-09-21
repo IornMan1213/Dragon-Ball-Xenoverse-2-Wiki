@@ -9802,11 +9802,12 @@
       "source_quest": "Raditz mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-double-sunday",
       "source_mentor": [
         "mentor-raditz"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Saturday Crash",
@@ -9829,11 +9830,12 @@
       "source_quest": "Raditz mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-saturday-crash",
       "source_mentor": [
         "mentor-raditz"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Shining Friday",
@@ -9856,11 +9858,12 @@
       "source_quest": "Raditz mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-shining-friday",
       "source_mentor": [
         "mentor-raditz"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Weekend",
@@ -9883,11 +9886,12 @@
       "source_quest": "Raditz mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
       "id": "skill-weekend",
       "source_mentor": [
         "mentor-raditz"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Audacious Laugh",
