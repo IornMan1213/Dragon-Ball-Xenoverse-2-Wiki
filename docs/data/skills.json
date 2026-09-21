@@ -47,7 +47,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 acquisition refinement: current PQ reward listings explicitly place Absolute Zero in PQ96 Basic Reward. A separate older video guide describes the skill as a PQ96 Ultimate Finish reward; this source conflict is retained rather than collapsing it into a false certainty.",
-      "id": "skill-absolute-zero"
+      "id": "skill-absolute-zero",
+      "source_parallel_quests": [
+        96
+      ]
     },
     {
       "name": "Afterimage",
@@ -95,7 +98,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-afterimage-strike"
+      "id": "skill-afterimage-strike",
+      "source_parallel_quests": [
+        81
+      ]
     },
     {
       "name": "Angry Shout",
@@ -123,7 +129,10 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Angry Shout in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
-      "id": "skill-angry-shout"
+      "id": "skill-angry-shout",
+      "source_parallel_quests": [
+        68
+      ]
     },
     {
       "name": "Apocalyptic Burst",
@@ -152,7 +161,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 161,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-apocalyptic-burst"
+      "id": "skill-apocalyptic-burst",
+      "source_parallel_quests": [
+        161
+      ]
     },
     {
       "name": "Assault Vanish",
@@ -177,7 +189,10 @@
       "source_quest": 131,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: the maintained PQ131 drop-condition data explicitly assigns this skill to a 25% Ultimate Finish roll; the earlier generic acquisition wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-assault-vanish"
+      "id": "skill-assault-vanish",
+      "source_parallel_quests": [
+        131
+      ]
     },
     {
       "name": "Atomic Blast",
@@ -207,7 +222,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Atomic Blast in PQ87 Basic Reward.",
       "method": "Parallel Quest 87 — \"Saiyan Battle\" Reward",
-      "id": "skill-atomic-blast"
+      "id": "skill-atomic-blast",
+      "source_parallel_quests": [
+        87
+      ]
     },
     {
       "name": "Beast",
@@ -347,7 +365,10 @@
       "notes": "Duplicate canonical entries reconciled 2026-09-19; richer record retained and source provenance merged. Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-big-bang-knuckle"
+      "id": "skill-big-bang-knuckle",
+      "source_parallel_quests": [
+        172
+      ]
     },
     {
       "name": "Blades of Judgment",
@@ -376,7 +397,10 @@
       "source_quest": 112,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-blades-of-judgment"
+      "id": "skill-blades-of-judgment",
+      "source_parallel_quests": [
+        112
+      ]
     },
     {
       "name": "Blaster Ball",
@@ -407,7 +431,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Blaster Ball in PQ125 Basic Reward alongside Ray Blast.",
-      "id": "skill-blaster-ball"
+      "id": "skill-blaster-ball",
+      "source_parallel_quests": [
+        125
+      ]
     },
     {
       "id": "skill-blaster-bomb",
@@ -435,7 +462,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        148
+      ]
     },
     {
       "id": "skill-blaster-cannon",
@@ -463,7 +493,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        148
+      ]
     },
     {
       "name": "Blaster Stream",
@@ -488,7 +521,10 @@
       "race_restriction": null,
       "source_quest": 148,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-blaster-stream"
+      "id": "skill-blaster-stream",
+      "source_parallel_quests": [
+        148
+      ]
     },
     {
       "name": "Blazing Attack",
@@ -517,7 +553,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish bonus slot for Blazing Attack; the prior Basic Reward classification was stale.",
-      "id": "skill-blazing-attack"
+      "id": "skill-blazing-attack",
+      "source_parallel_quests": [
+        136
+      ]
     },
     {
       "name": "Bluff Kamehameha",
@@ -546,7 +585,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred.",
-      "id": "skill-bluff-kamehameha"
+      "id": "skill-bluff-kamehameha",
+      "source_parallel_quests": [
+        94
+      ]
     },
     {
       "name": "Brave Sword Attack",
@@ -577,7 +619,10 @@
       "source_quest": 117,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-brave-sword-attack"
+      "id": "skill-brave-sword-attack",
+      "source_parallel_quests": [
+        117
+      ]
     },
     {
       "name": "Brave Sword Slash",
@@ -607,7 +652,10 @@
       "source_quest": 116,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Brave Sword Slash in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-brave-sword-slash"
+      "id": "skill-brave-sword-slash",
+      "source_parallel_quests": [
+        116
+      ]
     },
     {
       "name": "Breaker Energy Wave",
@@ -636,7 +684,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: the maintained PQ101 reward guide explicitly lists Breaker Energy Wave as a Basic Reward, matching the dedicated skill page's PQ101 acquisition.",
-      "id": "skill-breaker-energy-wave"
+      "id": "skill-breaker-energy-wave",
+      "source_parallel_quests": [
+        101
+      ]
     },
     {
       "id": "skill-brutal-buster",
@@ -664,7 +715,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        141
+      ]
     },
     {
       "name": "Burning Attack",
@@ -694,7 +748,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 evidence refinement: PQ41 reward listings explicitly place Burning Attack in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
       "method": "Parallel Quest 41 — \"Warriors’ Annihilation - Future Chapters\" Basic Reward",
-      "id": "skill-burning-attack"
+      "id": "skill-burning-attack",
+      "source_parallel_quests": [
+        41
+      ]
     },
     {
       "name": "Burning Blast",
@@ -724,7 +781,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-burning-blast"
+      "id": "skill-burning-blast",
+      "source_parallel_quests": [
+        180
+      ]
     },
     {
       "id": "skill-burning-shot",
@@ -752,7 +812,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        143
+      ]
     },
     {
       "name": "Burning Slash",
@@ -782,7 +845,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: Parallel Quest 44 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-burning-slash"
+      "id": "skill-burning-slash",
+      "source_parallel_quests": [
+        44
+      ]
     },
     {
       "name": "Burning Swan",
@@ -811,7 +877,10 @@
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: Current acquisition reference identifies Burning Swan as a PQ167 reward; no exclusive Ultimate Finish condition is established by the cited evidence. 2026-09-19 source reconciliation: Steam's current all-PQ guide lists Burning Swan as a Basic Reward for PQ167 (Fighting for Family), while a dedicated skill page describes it as a random drop from that PQ. This confirms the PQ source but does not establish an Ultimate Finish-only gate. 2026-09-20 provenance refinement: maintained PQ167 data explicitly lists Burning Swan as a Basic Reward and separately records a 45% normal-clear reward condition; dedicated skill documentation describes it as a random PQ167 drop. The evidence supports a non-Ultimate-Finish acquisition, while exact random-slot semantics remain unresolved.",
-      "id": "skill-burning-swan"
+      "id": "skill-burning-swan",
+      "source_parallel_quests": [
+        167
+      ]
     },
     {
       "name": "Burst Blitz",
@@ -840,7 +909,10 @@
       "source_quest": 178,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 178 — The Tireless Pursuit of Strength. the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-burst-blitz"
+      "id": "skill-burst-blitz",
+      "source_parallel_quests": [
+        178
+      ]
     },
     {
       "name": "Burst Charge",
@@ -868,7 +940,10 @@
       "mechanics_notes": "Confirmed as Other Super from PQ134 and usable by all CaC races. It starts charging extremely quickly and slows over time, making short bursts its intended use.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Burst Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing.",
-      "id": "skill-burst-charge"
+      "id": "skill-burst-charge",
+      "source_parallel_quests": [
+        134
+      ]
     },
     {
       "name": "Burst Kamehameha",
@@ -897,7 +972,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: the maintained PQ72 reward listing explicitly includes Burst Kamehameha as a Basic Reward; dedicated skill documentation confirms PQ72.",
-      "id": "skill-burst-kamehameha"
+      "id": "skill-burst-kamehameha",
+      "source_parallel_quests": [
+        72
+      ]
     },
     {
       "name": "Burst Reflection",
@@ -946,7 +1024,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "PQ51's maintained reward listing places Burst Rush in the Basic Reward section; an Ultimate Finish is not required. 2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned.",
-      "id": "skill-burst-rush"
+      "id": "skill-burst-rush",
+      "source_parallel_quests": [
+        51
+      ]
     },
     {
       "name": "Burst Stinger",
@@ -976,7 +1057,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents Burst Stinger in a 25% first-clear slot, not an Ultimate Finish-only slot.",
-      "id": "skill-burst-stinger"
+      "id": "skill-burst-stinger",
+      "source_parallel_quests": [
+        136
+      ]
     },
     {
       "name": "Buu Buu Ball",
@@ -1006,7 +1090,10 @@
       "race_restriction": "Majin (Pure Majin form)",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 CaC provenance correction: current Dragon Ball Xenoverse 2 documentation identifies Buu Buu Ball as a Strike Evasive with a 300-Stamina cost from PQ88; it is usable by Majin CaCs. The prior Super/Ki Blast/100-Ki classification was inconsistent with the dedicated skill record.",
-      "id": "skill-buu-buu-ball"
+      "id": "skill-buu-buu-ball",
+      "source_parallel_quests": [
+        88
+      ]
     },
     {
       "name": "Candy Beam",
@@ -1035,7 +1122,10 @@
       "race_restriction": "Majin",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ66 reward listings explicitly place Candy Beam in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-candy-beam"
+      "id": "skill-candy-beam",
+      "source_parallel_quests": [
+        66
+      ]
     },
     {
       "name": "Candy Beam (Super)",
@@ -1063,7 +1153,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ113 reward listings explicitly place Candy Beam (Super) in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-candy-beam-super"
+      "id": "skill-candy-beam-super",
+      "source_parallel_quests": [
+        113
+      ]
     },
     {
       "name": "Celestial Wave",
@@ -1093,7 +1186,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 acquisition reconciliation: current maintained PQ151 reward listing explicitly includes Celestial Wave under Basic Reward, while an older video guide labels it a PQ151 Ultimate Finish reward. The repository preserves the conflict rather than asserting an unsupported exclusive gate. 2026-09-20 bounded provenance audit: current maintained evidence was rechecked; no stronger explicit drop-condition gate was established for this record beyond the wording preserved here.",
-      "id": "skill-celestial-wave"
+      "id": "skill-celestial-wave",
+      "source_parallel_quests": [
+        151
+      ]
     },
     {
       "name": "Chain Destructo-Disc Barrage",
@@ -1123,7 +1219,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 46,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-chain-destructo-disc-barrage"
+      "id": "skill-chain-destructo-disc-barrage",
+      "source_parallel_quests": [
+        46
+      ]
     },
     {
       "name": "Change The Future",
@@ -1148,7 +1247,10 @@
       "source_quest": 43,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 canonical refinement: corrected acquisition wording to the exact PQ43 title and Basic Reward section. Dedicated skill evidence confirms the 100-Ki Ki Blast Super classification and Ki-Blast counter behavior.",
-      "id": "skill-change-the-future"
+      "id": "skill-change-the-future",
+      "source_parallel_quests": [
+        43
+      ]
     },
     {
       "name": "Chaotic Time Impact",
@@ -1178,7 +1280,10 @@
       "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record.",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-chaotic-time-impact"
+      "id": "skill-chaotic-time-impact",
+      "source_parallel_quests": [
+        184
+      ]
     },
     {
       "name": "Charge",
@@ -1207,7 +1312,10 @@
       "source_quest": 83,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 83 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-charge"
+      "id": "skill-charge",
+      "source_parallel_quests": [
+        83
+      ]
     },
     {
       "name": "Charged Ki Wave",
@@ -1231,7 +1339,10 @@
       "source_quest": 97,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-charged-ki-wave"
+      "id": "skill-charged-ki-wave",
+      "source_parallel_quests": [
+        97
+      ]
     },
     {
       "name": "Circle Flash",
@@ -1260,7 +1371,10 @@
       "race_restriction": null,
       "source_quest": 154,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-circle-flash"
+      "id": "skill-circle-flash",
+      "source_parallel_quests": [
+        154
+      ]
     },
     {
       "id": "skill-comet-strike",
@@ -1288,7 +1402,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        149
+      ]
     },
     {
       "name": "Core Breaker",
@@ -1318,7 +1435,10 @@
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 source reconciliation: current PQ158 reward data documents a 40% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record.",
-      "id": "skill-core-breaker"
+      "id": "skill-core-breaker",
+      "source_parallel_quests": [
+        158
+      ]
     },
     {
       "name": "Counter Burst",
@@ -1343,7 +1463,10 @@
       "source_quest": 75,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned.",
-      "id": "skill-counter-burst"
+      "id": "skill-counter-burst",
+      "source_parallel_quests": [
+        75
+      ]
     },
     {
       "name": "Counter Impact",
@@ -1368,7 +1491,10 @@
       "source_quest": 153,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-counter-impact"
+      "id": "skill-counter-impact",
+      "source_parallel_quests": [
+        153
+      ]
     },
     {
       "name": "Crazy Finger Shot",
@@ -1399,7 +1525,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ26 reward listings explicitly place Crazy Finger Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-crazy-finger-shot"
+      "id": "skill-crazy-finger-shot",
+      "source_parallel_quests": [
+        26
+      ]
     },
     {
       "name": "Crimson Edge",
@@ -1427,7 +1556,10 @@
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
       "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-crimson-edge"
+      "id": "skill-crimson-edge",
+      "source_parallel_quests": [
+        171
+      ]
     },
     {
       "id": "skill-crush-cannon",
@@ -1455,7 +1587,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        147
+      ]
     },
     {
       "id": "skill-crush-stream",
@@ -1483,7 +1618,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        147
+      ]
     },
     {
       "id": "skill-crusher-ball",
@@ -1511,7 +1649,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        34
+      ]
     },
     {
       "name": "Dancing Parapara",
@@ -1566,7 +1707,10 @@
       "source_quest": 182,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — \"Frieza's Fervent Wish\" explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred.",
-      "id": "skill-dark-inscription"
+      "id": "skill-dark-inscription",
+      "source_parallel_quests": [
+        182
+      ]
     },
     {
       "name": "Darkness Rush (Melee)",
@@ -1730,7 +1874,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ33 reward listings explicitly place Death Psycho Bomb in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-death-psycho-bomb"
+      "id": "skill-death-psycho-bomb",
+      "source_parallel_quests": [
+        33
+      ]
     },
     {
       "name": "Death Slash",
@@ -1759,7 +1906,10 @@
       "source_quest": 23,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ23 reward listings explicitly place Death Slash in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-death-slash"
+      "id": "skill-death-slash",
+      "source_parallel_quests": [
+        23
+      ]
     },
     {
       "name": "Demon Flash Strike",
@@ -1785,7 +1935,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 evidence refinement: current PQ160 reward data places Demon Flash Strike in the Ultimate Finish bonus slots; dedicated skill documentation confirms PQ160. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record.",
       "method": "Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish",
-      "id": "skill-demon-flash-strike"
+      "id": "skill-demon-flash-strike",
+      "source_parallel_quests": [
+        160
+      ]
     },
     {
       "name": "Demon Flurry",
@@ -1814,7 +1967,10 @@
       "source_quest": 160,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ160 and describes Demon Flurry as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record.",
-      "id": "skill-demon-flurry"
+      "id": "skill-demon-flurry",
+      "source_parallel_quests": [
+        160
+      ]
     },
     {
       "name": "Demon Ray",
@@ -1843,7 +1999,10 @@
       "source_quest": 160,
       "acquisition_type": "quest_or_mission",
       "notes": "Reconciled 2026-09-20: Parallel Quest 160 — \"Pan in Peril\" Ultimate Finish bonus. The maintained PQ160 drop data records a 50% Ultimate Finish bonus roll. 2026-09-20 provenance census: normalized source field to Parallel Quest 160 — \"Pan in Peril\", matching the maintained PQ research record.",
-      "id": "skill-demon-ray"
+      "id": "skill-demon-ray",
+      "source_parallel_quests": [
+        160
+      ]
     },
     {
       "name": "Demonic Destruction",
@@ -1872,7 +2031,10 @@
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ159 and describes Demonic Destruction as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 159 — \"Lights! Camera! Super Heroes!\", matching the maintained PQ research record.",
-      "id": "skill-demonic-destruction"
+      "id": "skill-demonic-destruction",
+      "source_parallel_quests": [
+        159
+      ]
     },
     {
       "name": "Destruction's Concerto: Comet",
@@ -1901,7 +2063,10 @@
       "source_quest": 104,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Destruction's Concerto: Comet in PQ104 Basic Reward alongside Starfall.",
-      "id": "skill-destruction-s-concerto-comet"
+      "id": "skill-destruction-s-concerto-comet",
+      "source_parallel_quests": [
+        104
+      ]
     },
     {
       "name": "Destruction's Concerto: Meteor",
@@ -1931,7 +2096,10 @@
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-destruction-s-concerto-meteor"
+      "id": "skill-destruction-s-concerto-meteor",
+      "source_parallel_quests": [
+        106
+      ]
     },
     {
       "name": "Destruction's Concerto: Starfall",
@@ -1960,7 +2128,10 @@
       "source_quest": 104,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ104 reward listings explicitly place Destruction's Concerto: Starfall in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-destruction-s-concerto-starfall"
+      "id": "skill-destruction-s-concerto-starfall",
+      "source_parallel_quests": [
+        104
+      ]
     },
     {
       "name": "Destruction's Conductor",
@@ -1989,7 +2160,10 @@
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ106 reward listings explicitly place Destruction's Conductor in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-destruction-s-conductor"
+      "id": "skill-destruction-s-conductor",
+      "source_parallel_quests": [
+        106
+      ]
     },
     {
       "id": "skill-destructive-fission",
@@ -2017,7 +2191,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        146
+      ]
     },
     {
       "id": "skill-destructive-flare",
@@ -2045,7 +2222,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        145
+      ]
     },
     {
       "id": "skill-destructive-fracture",
@@ -2073,7 +2253,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        145
+      ]
     },
     {
       "name": "Destructo-Disc",
@@ -2129,7 +2312,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive.",
-      "id": "skill-dimension-cannon"
+      "id": "skill-dimension-cannon",
+      "source_parallel_quests": [
+        59
+      ]
     },
     {
       "name": "Dimension Ray",
@@ -2159,7 +2345,10 @@
       "source_quest": 98,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-dimension-ray"
+      "id": "skill-dimension-ray",
+      "source_parallel_quests": [
+        98
+      ]
     },
     {
       "name": "Dimensional Hole",
@@ -2183,7 +2372,10 @@
       "mechanics_notes": "Current dataset evidence identifies Dimensional Hole as a Ki Blast Super from PQ80 with 0 Ki recorded. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ80 reward tables explicitly list Dimensional Hole as a Basic Reward. Dedicated skill documentation independently confirms PQ80 acquisition; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-dimensional-hole"
+      "id": "skill-dimensional-hole",
+      "source_parallel_quests": [
+        80
+      ]
     },
     {
       "name": "Divine Kamehameha",
@@ -2262,7 +2454,10 @@
       "source_quest": 173,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
-      "id": "skill-divine-ray-bomb"
+      "id": "skill-divine-ray-bomb",
+      "source_parallel_quests": [
+        173
+      ]
     },
     {
       "name": "Divine Spear",
@@ -2290,7 +2485,10 @@
       "source_quest": 171,
       "acquisition_type": "quest_or_mission",
       "notes": "Corrected 2026-09-20: PQ acquisition is player/CaC-accessible; character association does not make the skill character-exclusive. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-divine-spear"
+      "id": "skill-divine-spear",
+      "source_parallel_quests": [
+        171
+      ]
     },
     {
       "name": "Divine Wrath: Purification",
@@ -2320,7 +2518,10 @@
       "source_quest": 112,
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-divine-wrath-purification"
+      "id": "skill-divine-wrath-purification",
+      "source_parallel_quests": [
+        112
+      ]
     },
     {
       "name": "Divinity Unleashed",
@@ -2348,7 +2549,10 @@
       "source_quest": 110,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: current skill references identify Parallel Quest 110 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-divinity-unleashed"
+      "id": "skill-divinity-unleashed",
+      "source_parallel_quests": [
+        110
+      ]
     },
     {
       "name": "Do or Die",
@@ -2376,7 +2580,10 @@
       "source_quest": 49,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-do-or-die"
+      "id": "skill-do-or-die",
+      "source_parallel_quests": [
+        49
+      ]
     },
     {
       "id": "skill-double-crush",
@@ -2404,7 +2611,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        147
+      ]
     },
     {
       "name": "Double Death Slicer",
@@ -2433,7 +2643,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 24 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-19 verification: The live all-PQ reward guide lists Double Death Slicer as a Basic Reward for PQ24. This is an explicit concrete PQ source. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-double-death-slicer"
+      "id": "skill-double-death-slicer",
+      "source_parallel_quests": [
+        24
+      ]
     },
     {
       "id": "skill-dragon-blitz",
@@ -2461,7 +2674,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        141
+      ]
     },
     {
       "name": "Dragon Burn",
@@ -2489,7 +2705,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 reward-list refinement: the maintained all-PQ guide explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is assigned.",
-      "id": "skill-dragon-burn"
+      "id": "skill-dragon-burn",
+      "source_parallel_quests": [
+        82
+      ]
     },
     {
       "name": "Dragon Fist",
@@ -2543,7 +2762,10 @@
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: current PQ177 reward listing explicitly includes Dragon Spark in the Ultimate Finish reward pool; the dedicated skill page confirms PQ177 as its unlock quest. the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-dragon-spark"
+      "id": "skill-dragon-spark",
+      "source_parallel_quests": [
+        177
+      ]
     },
     {
       "name": "Dragon Spiral",
@@ -2630,7 +2852,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "Added during cross-database orphan-skill audit. Preserve the acquisition-route conflict rather than collapsing it into a false drop-slot claim.",
       "id": "skill-drain-field",
-      "source_quest": 95
+      "source_quest": 95,
+      "source_parallel_quests": [
+        95
+      ]
     },
     {
       "name": "Dust Attack",
@@ -2661,7 +2886,10 @@
       "source_quest": 78,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Dust Attack in PQ78 Basic Reward.",
-      "id": "skill-dust-attack"
+      "id": "skill-dust-attack",
+      "source_parallel_quests": [
+        78
+      ]
     },
     {
       "name": "Earth Splitting Galick Gun",
@@ -2691,7 +2919,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 source reconciliation: maintained PQ11 data documents a 50% Ultimate Finish roll for Earth Splitting Galick Gun; the Basic Reward-list placement is retained as source metadata, so the canonical gate follows the explicit drop condition.",
-      "id": "skill-earth-splitting-galick-gun"
+      "id": "skill-earth-splitting-galick-gun",
+      "source_parallel_quests": [
+        11
+      ]
     },
     {
       "name": "Emperor's Blast",
@@ -2717,7 +2948,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ70 Basic Reward evidence independently confirms the quest acquisition, while current dedicated skill documentation identifies the move as a 100-Ki Ki Blast Super used by Frieza/Golden Frieza. TP Medal Shop availability is retained as an alternate acquisition route; no UF-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "character_source": "Golden Frieza",
-      "id": "skill-emperor-s-blast"
+      "id": "skill-emperor-s-blast",
+      "source_parallel_quests": [
+        70
+      ]
     },
     {
       "name": "Emperor's Cannon",
@@ -2746,7 +2980,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance resolution: the maintained PQ reward-normalization map explicitly assigns Emperor's Cannon to PQ183's skill reward inventory. A dedicated skill reference had previously reported PQ184, creating a source conflict; the current maintained reward map is now used as the canonical acquisition route. No Ultimate Finish-only gate is inferred.",
-      "id": "skill-emperor-s-cannon"
+      "id": "skill-emperor-s-cannon",
+      "source_parallel_quests": [
+        183
+      ]
     },
     {
       "name": "Emperor's Death Beam",
@@ -2802,7 +3039,10 @@
       "source_quest": 99,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-emperor-s-edge"
+      "id": "skill-emperor-s-edge",
+      "source_parallel_quests": [
+        99
+      ]
     },
     {
       "name": "Energy Barrier",
@@ -2831,7 +3071,10 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 acquisition reconciliation: the maintained PQ32 reward listing places Energy Barrier in Basic Reward, while dedicated evidence describes the CaC drop as tied to defeating Cell during the Ultimate Finish. The source conflict is preserved; no exclusive gate is asserted.",
-      "id": "skill-energy-barrier"
+      "id": "skill-energy-barrier",
+      "source_parallel_quests": [
+        32
+      ]
     },
     {
       "name": "Energy Charge",
@@ -2884,7 +3127,10 @@
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Energy Field in Basic Reward. No Ultimate Finish-only gate is asserted.",
-      "id": "skill-energy-field"
+      "id": "skill-energy-field",
+      "source_parallel_quests": [
+        29
+      ]
     },
     {
       "name": "Energy Release",
@@ -2935,7 +3181,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        22
+      ]
     },
     {
       "name": "Eraser Bomb",
@@ -2964,7 +3213,10 @@
       "source_quest": 163,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Eraser Bomb in PQ163 Ultimate Finish reward; exact individual RNG/drop probability remains unresolved. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-eraser-bomb"
+      "id": "skill-eraser-bomb",
+      "source_parallel_quests": [
+        163
+      ]
     },
     {
       "name": "Evil Blast",
@@ -2994,7 +3246,10 @@
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 canonical correction: prior Super/100-Ki classification was incorrect. Current dedicated evidence identifies Evil Blast as a 300-Ki Ki Blast Ultimate/Counter Skill, with Ultimate Finish acquisition evidence. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.",
-      "id": "skill-evil-blast"
+      "id": "skill-evil-blast",
+      "source_parallel_quests": [
+        114
+      ]
     },
     {
       "name": "Evil Flame",
@@ -3025,7 +3280,10 @@
       "source_quest": 117,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence places Evil Flame in PQ117 Basic Reward; separate technique documentation describes it as a random drop from Dabura, so no exclusive deterministic condition is inferred.",
-      "id": "skill-evil-flame"
+      "id": "skill-evil-flame",
+      "source_parallel_quests": [
+        117
+      ]
     },
     {
       "name": "Evil Flight Strike",
@@ -3056,7 +3314,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-evil-flight-strike"
+      "id": "skill-evil-flight-strike",
+      "source_parallel_quests": [
+        21
+      ]
     },
     {
       "name": "Evil Whirlwind",
@@ -3085,7 +3346,10 @@
       "source_quest": 36,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 36 as the unlock source. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-evil-whirlwind"
+      "id": "skill-evil-whirlwind",
+      "source_parallel_quests": [
+        36
+      ]
     },
     {
       "id": "skill-excellent-full-course",
@@ -3113,7 +3377,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        142
+      ]
     },
     {
       "name": "Explosive Buu Buu Punch",
@@ -3143,7 +3410,10 @@
       "notes": "Current public skill evidence confirms Majin-only CaC access. The current source does not establish a separate gender restriction, so none is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "source_quest": 50,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-explosive-buu-buu-punch"
+      "id": "skill-explosive-buu-buu-punch",
+      "source_parallel_quests": [
+        50
+      ]
     },
     {
       "name": "Explosive Wave",
@@ -3200,7 +3470,10 @@
       "source_quest": 159,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 159 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 159 — \"Lights! Camera! Super Heroes!\", matching the maintained PQ research record.",
-      "id": "skill-fierce-fist"
+      "id": "skill-fierce-fist",
+      "source_parallel_quests": [
+        159
+      ]
     },
     {
       "name": "Fighting Pose E",
@@ -3229,7 +3502,10 @@
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: current skill references identify Parallel Quest 19 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-fighting-pose-e"
+      "id": "skill-fighting-pose-e",
+      "source_parallel_quests": [
+        19
+      ]
     },
     {
       "name": "Fighting Pose H",
@@ -3257,7 +3533,10 @@
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: current skill references identify Parallel Quest 61 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-fighting-pose-h"
+      "id": "skill-fighting-pose-h",
+      "source_parallel_quests": [
+        61
+      ]
     },
     {
       "name": "Fighting Pose K",
@@ -3313,7 +3592,10 @@
       "source_quest": 52,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred.",
-      "id": "skill-final-cannon"
+      "id": "skill-final-cannon",
+      "source_parallel_quests": [
+        52
+      ]
     },
     {
       "name": "Final Charge",
@@ -3391,7 +3673,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-final-flash-ss3-daima"
+      "id": "skill-final-flash-ss3-daima",
+      "source_parallel_quests": [
+        181
+      ]
     },
     {
       "name": "Final Flash (Super)",
@@ -3439,7 +3724,10 @@
       "source_quest": 91,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-final-kamehameha"
+      "id": "skill-final-kamehameha",
+      "source_parallel_quests": [
+        91
+      ]
     },
     {
       "name": "Final Pose",
@@ -3470,7 +3758,10 @@
       "acquisition_type": "parallel_quest",
       "notes": "2026-09-20 provenance refinement: maintained Parallel Quest reward evidence places Final Pose in PQ74 — \"Galactic Patrol, Away!\" Basic Rewards. Independent player documentation also identifies PQ74 as the acquisition route. No Skill Shop route or Ultimate Finish requirement is inferred.",
       "skill_description": "Final Pose is a Power Up Evasive skill.",
-      "id": "skill-final-pose"
+      "id": "skill-final-pose",
+      "source_parallel_quests": [
+        74
+      ]
     },
     {
       "name": "Final Rampage",
@@ -3498,7 +3789,10 @@
       "source_quest": 174,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 60% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-final-rampage"
+      "id": "skill-final-rampage",
+      "source_parallel_quests": [
+        174
+      ]
     },
     {
       "name": "Flash Bomber",
@@ -3527,7 +3821,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "Added during cross-database orphan-skill audit. UF requirement is supported by current/retrieved acquisition evidence; exact probability remains unresolved.",
       "id": "skill-flash-bomber",
-      "source_quest": 95
+      "source_quest": 95,
+      "source_parallel_quests": [
+        95
+      ]
     },
     {
       "name": "Flash Chaser",
@@ -3558,7 +3855,10 @@
       "source_quest": 138,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-flash-chaser"
+      "id": "skill-flash-chaser",
+      "source_parallel_quests": [
+        138
+      ]
     },
     {
       "name": "Flash Fist Crush",
@@ -3612,7 +3912,10 @@
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: current PQ180 reward listing explicitly includes Force Edge in the Ultimate Finish reward pool; dedicated skill documentation independently confirms PQ180. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-force-edge"
+      "id": "skill-force-edge",
+      "source_parallel_quests": [
+        180
+      ]
     },
     {
       "name": "Force Shield",
@@ -3641,7 +3944,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 canonical refinement: corrected exact quest title and Basic Reward provenance. Dedicated skill evidence confirms 200 Stamina for the Evasive; no Ultimate Finish-only gate is established.",
-      "id": "skill-force-shield"
+      "id": "skill-force-shield",
+      "source_parallel_quests": [
+        59
+      ]
     },
     {
       "name": "Formation!",
@@ -3672,7 +3978,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-formation"
+      "id": "skill-formation",
+      "source_parallel_quests": [
+        133
+      ]
     },
     {
       "name": "Freedom Kick",
@@ -3701,7 +4010,10 @@
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ29 reward listings explicitly place Freedom Kick in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-freedom-kick"
+      "id": "skill-freedom-kick",
+      "source_parallel_quests": [
+        29
+      ]
     },
     {
       "name": "Full Power Charge",
@@ -3751,7 +4063,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-full-power-destruction"
+      "id": "skill-full-power-destruction",
+      "source_parallel_quests": [
+        177
+      ]
     },
     {
       "name": "Future Super Saiyan",
@@ -3843,7 +4158,10 @@
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record.",
-      "id": "skill-gamma-blaster"
+      "id": "skill-gamma-blaster",
+      "source_parallel_quests": [
+        155
+      ]
     },
     {
       "name": "Gamma Impact",
@@ -3873,7 +4191,10 @@
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: maintained PQ155 drop-condition data explicitly assigns Gamma Impact to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record.",
-      "id": "skill-gamma-impact"
+      "id": "skill-gamma-impact",
+      "source_parallel_quests": [
+        155
+      ]
     },
     {
       "name": "Giant Cluster",
@@ -3902,7 +4223,10 @@
       "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Giant Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Giant Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
       "source_quest": 163,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-giant-cluster"
+      "id": "skill-giant-cluster",
+      "source_parallel_quests": [
+        163
+      ]
     },
     {
       "name": "Gigantic Breaker",
@@ -3933,7 +4257,10 @@
       "source_quest": 126,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-gigantic-breaker"
+      "id": "skill-gigantic-breaker",
+      "source_parallel_quests": [
+        126
+      ]
     },
     {
       "name": "Gigantic Burst",
@@ -3959,7 +4286,10 @@
       "source_quest": 127,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-gigantic-burst"
+      "id": "skill-gigantic-burst",
+      "source_parallel_quests": [
+        127
+      ]
     },
     {
       "name": "Gigantic Charge",
@@ -3989,7 +4319,10 @@
       "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "source_quest": 128,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-gigantic-charge"
+      "id": "skill-gigantic-charge",
+      "source_parallel_quests": [
+        128
+      ]
     },
     {
       "name": "Gigantic Explosion",
@@ -4018,7 +4351,10 @@
       "source_quest": 164,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
-      "id": "skill-gigantic-explosion"
+      "id": "skill-gigantic-explosion",
+      "source_parallel_quests": [
+        164
+      ]
     },
     {
       "name": "Gigantic Rage",
@@ -4048,7 +4384,10 @@
       "source_quest": 130,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-gigantic-rage"
+      "id": "skill-gigantic-rage",
+      "source_parallel_quests": [
+        130
+      ]
     },
     {
       "name": "Gigantic Roar",
@@ -4076,7 +4415,10 @@
       "source_quest": 132,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-gigantic-roar"
+      "id": "skill-gigantic-roar",
+      "source_parallel_quests": [
+        132
+      ]
     },
     {
       "name": "God Breaker",
@@ -4101,7 +4443,10 @@
       "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance reconciliation: current maintained PQ44 reward evidence explicitly lists God Breaker in the Basic Reward set. Dedicated skill documentation describes PQ44 acquisition but does not establish an Ultimate Finish-only gate. Older community reports describe the acquisition as RNG, so exact individual reward-slot probability remains unresolved; the canonical record now uses the explicit Basic Reward classification without inferring a probability.",
-      "id": "skill-god-breaker"
+      "id": "skill-god-breaker",
+      "source_parallel_quests": [
+        44
+      ]
     },
     {
       "name": "God of Destruction's Menace",
@@ -4130,7 +4475,10 @@
       "source_quest": 105,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-god-of-destruction-s-menace"
+      "id": "skill-god-of-destruction-s-menace",
+      "source_parallel_quests": [
+        105
+      ]
     },
     {
       "name": "God of Destruction's Plaything",
@@ -4159,7 +4507,10 @@
       "source_quest": 175,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 acquisition refinement: PQ175's maintained reward listing explicitly places God of Destruction's Plaything in the Ultimate Finish reward section, so the canonical record now uses the concrete quest and reward classification rather than generic 'PQ175 reward context'. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-god-of-destruction-s-plaything"
+      "id": "skill-god-of-destruction-s-plaything",
+      "source_parallel_quests": [
+        175
+      ]
     },
     {
       "name": "God of Destruction's Poise",
@@ -4189,7 +4540,10 @@
       "source_quest": 175,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
-      "id": "skill-god-of-destruction-s-poise"
+      "id": "skill-god-of-destruction-s-poise",
+      "source_parallel_quests": [
+        175
+      ]
     },
     {
       "name": "God of Destruction's Roar",
@@ -4217,7 +4571,10 @@
       "source_quest": 105,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-god-of-destruction-s-roar"
+      "id": "skill-god-of-destruction-s-roar",
+      "source_parallel_quests": [
+        105
+      ]
     },
     {
       "name": "God Punisher",
@@ -4249,7 +4606,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists God Punisher in PQ132 Basic Reward alongside Gigantic Roar.",
       "method": "Parallel Quest 132 — \"The Ultimate Legendary Super Saiyan\" Reward",
-      "id": "skill-god-punisher"
+      "id": "skill-god-punisher",
+      "source_parallel_quests": [
+        132
+      ]
     },
     {
       "name": "Godly Display",
@@ -4304,7 +4664,10 @@
       "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route.",
       "source_quest": 115,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-handy-canon"
+      "id": "skill-handy-canon",
+      "source_parallel_quests": [
+        115
+      ]
     },
     {
       "name": "Headshot",
@@ -4335,7 +4698,10 @@
       "source_quest": 69,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Headshot in Basic Reward. No Ultimate Finish-only gate is asserted.",
-      "id": "skill-headshot"
+      "id": "skill-headshot",
+      "source_parallel_quests": [
+        69
+      ]
     },
     {
       "name": "Heat Dome Attack",
@@ -4363,7 +4729,10 @@
       "source_quest": 40,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-heat-dome-attack"
+      "id": "skill-heat-dome-attack",
+      "source_parallel_quests": [
+        40
+      ]
     },
     {
       "name": "Heat Wave",
@@ -4392,7 +4761,10 @@
       "source_quest": 179,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 correction: canonical description now matches the verified Strike classification and PQ179 source; exact drop gating remains unresolved. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-heat-wave"
+      "id": "skill-heat-wave",
+      "source_parallel_quests": [
+        179
+      ]
     },
     {
       "name": "Hero's Flute",
@@ -4422,7 +4794,10 @@
       "source_quest": 116,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Hero's Flute in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-hero-s-flute"
+      "id": "skill-hero-s-flute",
+      "source_parallel_quests": [
+        116
+      ]
     },
     {
       "name": "Heroic Assault",
@@ -4451,7 +4826,10 @@
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: dedicated skill documentation explicitly describes Heroic Assault as randomly obtainable from PQ156; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate.",
-      "id": "skill-heroic-assault"
+      "id": "skill-heroic-assault",
+      "source_parallel_quests": [
+        156
+      ]
     },
     {
       "name": "Heroic Counter",
@@ -4477,7 +4855,10 @@
       "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record.",
-      "id": "skill-heroic-counter"
+      "id": "skill-heroic-counter",
+      "source_parallel_quests": [
+        155
+      ]
     },
     {
       "name": "Holy Wrath",
@@ -4505,7 +4886,10 @@
       "source_quest": 111,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-holy-wrath"
+      "id": "skill-holy-wrath",
+      "source_parallel_quests": [
+        111
+      ]
     },
     {
       "id": "skill-hyper-tornado",
@@ -4533,7 +4917,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        143
+      ]
     },
     {
       "name": "Ill Bomber",
@@ -4564,7 +4951,10 @@
       "source_quest": 90,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-ill-bomber"
+      "id": "skill-ill-bomber",
+      "source_parallel_quests": [
+        90
+      ]
     },
     {
       "name": "Ill Rain",
@@ -4593,7 +4983,10 @@
       "source_quest": 64,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-ill-rain"
+      "id": "skill-ill-rain",
+      "source_parallel_quests": [
+        64
+      ]
     },
     {
       "id": "skill-impact-flare",
@@ -4621,7 +5014,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        150
+      ]
     },
     {
       "name": "Indomitable",
@@ -4708,7 +5104,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 canonical correction: dedicated skill evidence lists 300 Stamina, correcting the previous 200-Stamina value. Exact PQ title and Basic Reward provenance also refined.",
-      "id": "skill-instant-rise"
+      "id": "skill-instant-rise",
+      "source_parallel_quests": [
+        37
+      ]
     },
     {
       "name": "Instant Transmission",
@@ -4763,7 +5162,10 @@
       "source_quest": 152,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-justice-blade"
+      "id": "skill-justice-blade",
+      "source_parallel_quests": [
+        152
+      ]
     },
     {
       "name": "Justice Drive",
@@ -4792,7 +5194,10 @@
       "source_quest": 168,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Justice Drive in PQ168's Ultimate Finish reward pool; the quest is \"Videl: Super Mom.\" 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 40% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-justice-drive"
+      "id": "skill-justice-drive",
+      "source_parallel_quests": [
+        168
+      ]
     },
     {
       "name": "Justice Kick",
@@ -4821,7 +5226,10 @@
       "source_quest": 152,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: the maintained PQ152 drop-condition data explicitly assigns Justice Kick to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-justice-kick"
+      "id": "skill-justice-kick",
+      "source_parallel_quests": [
+        152
+      ]
     },
     {
       "name": "Justice Pose",
@@ -4852,7 +5260,10 @@
       "source_quest": 53,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 53 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-justice-pose"
+      "id": "skill-justice-pose",
+      "source_parallel_quests": [
+        53
+      ]
     },
     {
       "name": "Kai Kai",
@@ -4880,7 +5291,10 @@
       "source_quest": 63,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ63; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-kai-kai"
+      "id": "skill-kai-kai",
+      "source_parallel_quests": [
+        63
+      ]
     },
     {
       "name": "Kaioken",
@@ -4909,7 +5323,10 @@
       "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.",
       "source_quest": 8,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-kaioken"
+      "id": "skill-kaioken",
+      "source_parallel_quests": [
+        8
+      ]
     },
     {
       "name": "Kamehameha",
@@ -4932,7 +5349,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-kamehameha"
+      "id": "skill-kamehameha",
+      "source_parallel_quests": [
+        5
+      ]
     },
     {
       "name": "Ki Explosion",
@@ -4961,7 +5381,10 @@
       "source_quest": 77,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 canonical correction: dedicated skill evidence identifies Ki Explosion as a 100-Ki Ki Blast Super, correcting the previous Evasive/200-Stamina classification. Exact PQ title and Basic Reward provenance also refined.",
-      "id": "skill-ki-explosion"
+      "id": "skill-ki-explosion",
+      "source_parallel_quests": [
+        77
+      ]
     },
     {
       "name": "Last Emperor",
@@ -4989,7 +5412,10 @@
       "source_quest": 71,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-last-emperor"
+      "id": "skill-last-emperor",
+      "source_parallel_quests": [
+        71
+      ]
     },
     {
       "name": "Lightning Impact",
@@ -5013,7 +5439,10 @@
       "source_quest": 142,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Lightning Impact in PQ142 Basic Reward. No Ultimate Finish requirement is asserted.",
-      "id": "skill-lightning-impact"
+      "id": "skill-lightning-impact",
+      "source_parallel_quests": [
+        142
+      ]
     },
     {
       "name": "Lightning of Absolution",
@@ -5041,7 +5470,10 @@
       "source_quest": 111,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-lightning-of-absolution"
+      "id": "skill-lightning-of-absolution",
+      "source_parallel_quests": [
+        111
+      ]
     },
     {
       "name": "Lovely Cyclone",
@@ -5071,7 +5503,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "Corrected 2026-09-20: PQ135 evidence places Lovely Cyclone in the Basic Reward pool; an Ultimate Finish-only gate is not established. 2026-09-20 provenance correction: the maintained PQ135 reward normalization explicitly includes Lovely Cyclone in the quest skill-reward set, while the repository's prior Ultimate Finish flag lacked an explicit drop-condition source. The UF-only flag is removed; exact reward slot/probability remains unresolved. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.",
-      "id": "skill-lovely-cyclone"
+      "id": "skill-lovely-cyclone",
+      "source_parallel_quests": [
+        135
+      ]
     },
     {
       "name": "Mach Dash",
@@ -5102,7 +5537,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Mach Dash in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
       "skill_description": "Mach Dash is a Power Up Evasive skill.",
-      "id": "skill-mach-dash"
+      "id": "skill-mach-dash",
+      "source_parallel_quests": [
+        18
+      ]
     },
     {
       "name": "Mach Punch",
@@ -5131,7 +5569,10 @@
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: Steam's live all-PQ guide explicitly lists Mach Punch in PQ19's Basic Reward pool. This replaces the prior generic PQ attribution with a concrete tier.",
-      "id": "skill-mach-punch"
+      "id": "skill-mach-punch",
+      "source_parallel_quests": [
+        19
+      ]
     },
     {
       "name": "Maiden Burst",
@@ -5160,7 +5601,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 reward/mechanics refinement: dedicated documentation gives the exact PQ92 title, 300-Stamina Ki Blast Evasive classification, and short-range explosive knockback behavior; maintained PQ reward evidence places it in Basic Reward.",
-      "id": "skill-maiden-burst"
+      "id": "skill-maiden-burst",
+      "source_parallel_quests": [
+        92
+      ]
     },
     {
       "name": "Majin Kamehameha",
@@ -5191,7 +5635,10 @@
       "source_quest": 60,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-majin-kamehameha"
+      "id": "skill-majin-kamehameha",
+      "source_parallel_quests": [
+        60
+      ]
     },
     {
       "name": "Masenko",
@@ -5268,7 +5715,10 @@
       "dlc_requirement": "Extra Pack 2",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-meditation"
+      "id": "skill-meditation",
+      "source_parallel_quests": [
+        122
+      ]
     },
     {
       "name": "Meteor Blow",
@@ -5297,7 +5747,10 @@
       "source_quest": 9,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: explicit current skill/PQ evidence establishes Parallel Quest 9 — The Saiyan King Is...Who?; also available as a starting skill when choosing the close-up fighting style. No Ultimate Finish-only requirement is established. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-meteor-blow"
+      "id": "skill-meteor-blow",
+      "source_parallel_quests": [
+        9
+      ]
     },
     {
       "id": "skill-meteor-explosion",
@@ -5325,7 +5778,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        149
+      ]
     },
     {
       "name": "Meteor Strike",
@@ -5354,7 +5810,10 @@
       "source_quest": 6,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: maintained all-PQ reward guide explicitly lists Meteor Strike in PQ6 Basic Reward.",
-      "id": "skill-meteor-strike"
+      "id": "skill-meteor-strike",
+      "source_parallel_quests": [
+        6
+      ]
     },
     {
       "name": "Mighty Explosive Wave",
@@ -5384,7 +5843,10 @@
       "source_quest": 79,
       "acquisition_type": "quest_or_mission",
       "notes": "Reconciled 2026-09-20: Parallel Quest 79 — \"Great Ape Festival\" Basic Reward based on current reward evidence.",
-      "id": "skill-mighty-explosive-wave"
+      "id": "skill-mighty-explosive-wave",
+      "source_parallel_quests": [
+        79
+      ]
     },
     {
       "name": "Mystic Flash",
@@ -5410,7 +5872,10 @@
       "source_quest": 20,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-mystic-flash"
+      "id": "skill-mystic-flash",
+      "source_parallel_quests": [
+        20
+      ]
     },
     {
       "name": "Namek Finger",
@@ -5467,7 +5932,10 @@
       "source_quest": 86,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-neo-wolf-fang-fist"
+      "id": "skill-neo-wolf-fang-fist",
+      "source_parallel_quests": [
+        86
+      ]
     },
     {
       "name": "Paralysis",
@@ -5498,7 +5966,10 @@
       "source_quest": 34,
       "acquisition_type": "quest_or_mission",
       "notes": "Canonical classification corrected from Super/Ki Blast to Ultimate/Strike; PQ34 Basic Reward acquisition retained.",
-      "id": "skill-paralysis"
+      "id": "skill-paralysis",
+      "source_parallel_quests": [
+        34
+      ]
     },
     {
       "name": "Paralyze Beam",
@@ -5527,7 +5998,10 @@
       "source_quest": 4,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-paralyze-beam"
+      "id": "skill-paralyze-beam",
+      "source_parallel_quests": [
+        4
+      ]
     },
     {
       "name": "Pendulum Bullet",
@@ -5556,7 +6030,10 @@
       "source_quest": 166,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 166 is documented as an acquisition route; the explicit drop-condition record now documents an Ultimate Finish requirement. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-pendulum-bullet"
+      "id": "skill-pendulum-bullet",
+      "source_parallel_quests": [
+        166
+      ]
     },
     {
       "name": "Perfect Shot",
@@ -5610,7 +6087,10 @@
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-petrifying-spit"
+      "id": "skill-petrifying-spit",
+      "source_parallel_quests": [
+        114
+      ]
     },
     {
       "name": "Phantom Fist",
@@ -5634,7 +6114,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-phantom-fist"
+      "id": "skill-phantom-fist",
+      "source_parallel_quests": [
+        97
+      ]
     },
     {
       "name": "Photon Swipe",
@@ -5665,7 +6148,10 @@
       "source_quest": 139,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-photon-swipe"
+      "id": "skill-photon-swipe",
+      "source_parallel_quests": [
+        139
+      ]
     },
     {
       "name": "Potential Unleashed",
@@ -5723,7 +6209,10 @@
       "source_quest": 120,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-power-impact"
+      "id": "skill-power-impact",
+      "source_parallel_quests": [
+        120
+      ]
     },
     {
       "name": "Power Pole Pro",
@@ -5783,7 +6272,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.",
-      "id": "skill-power-rush"
+      "id": "skill-power-rush",
+      "source_parallel_quests": [
+        122
+      ]
     },
     {
       "id": "skill-power-wall",
@@ -5811,7 +6303,10 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred."
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "source_parallel_quests": [
+        150
+      ]
     },
     {
       "name": "Powered Shell",
@@ -5841,7 +6336,10 @@
       "source_quest": 128,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-powered-shell"
+      "id": "skill-powered-shell",
+      "source_parallel_quests": [
+        128
+      ]
     },
     {
       "name": "Pressure Sign",
@@ -5895,7 +6393,10 @@
       "source_quest": 133,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ133 reward listings explicitly place Pretty Cannon in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-pretty-cannon"
+      "id": "skill-pretty-cannon",
+      "source_parallel_quests": [
+        133
+      ]
     },
     {
       "name": "Prominence Flash",
@@ -5920,7 +6421,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 137,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-prominence-flash"
+      "id": "skill-prominence-flash",
+      "source_parallel_quests": [
+        137
+      ]
     },
     {
       "name": "Psychic Move",
@@ -5950,7 +6454,10 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Psychic Move in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
-      "id": "skill-psychic-move"
+      "id": "skill-psychic-move",
+      "source_parallel_quests": [
+        73
+      ]
     },
     {
       "name": "Punisher Guard",
@@ -6003,7 +6510,10 @@
       "mechanics_notes": "Current dedicated evidence confirms Punisher Shield as a 100-Ki Ki Blast Super, universal counter, from PQ129. SSGSS Gogeta is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ129 reward listings explicitly include Punisher Shield in the Basic Reward pool; dedicated skill documentation confirms PQ129 acquisition.",
-      "id": "skill-punisher-shield"
+      "id": "skill-punisher-shield",
+      "source_parallel_quests": [
+        129
+      ]
     },
     {
       "name": "Pure Progress",
@@ -6112,7 +6622,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 source reconciliation: maintained PQ136 data documents a 25% Ultimate Finish slot for Raid Blast; the prior Basic Reward classification was stale.",
-      "id": "skill-raid-blast"
+      "id": "skill-raid-blast",
+      "source_parallel_quests": [
+        136
+      ]
     },
     {
       "name": "Rakshasa's Claw",
@@ -6141,7 +6654,10 @@
       "acquisition_type": "quest_or_mission",
       "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.",
       "id": "skill-rakshasa-s-claw",
-      "source_quest": 57
+      "source_quest": 57,
+      "source_parallel_quests": [
+        57
+      ]
     },
     {
       "name": "Ray Blast",
@@ -6171,7 +6687,10 @@
       "source_quest": 125,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ125 reward listings explicitly place Ray Blast in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-ray-blast"
+      "id": "skill-ray-blast",
+      "source_parallel_quests": [
+        125
+      ]
     },
     {
       "name": "Recoome Kick",
@@ -6200,7 +6719,10 @@
       "source_quest": 61,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-recoome-kick"
+      "id": "skill-recoome-kick",
+      "source_parallel_quests": [
+        61
+      ]
     },
     {
       "name": "Requiem of Destruction",
@@ -6226,7 +6748,10 @@
       "source_quest": 106,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-requiem-of-destruction"
+      "id": "skill-requiem-of-destruction",
+      "source_parallel_quests": [
+        106
+      ]
     },
     {
       "name": "Revenge Death Ball",
@@ -6255,7 +6780,10 @@
       "source_quest": 127,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-revenge-death-ball"
+      "id": "skill-revenge-death-ball",
+      "source_parallel_quests": [
+        127
+      ]
     },
     {
       "name": "Revenge Final Flash",
@@ -6284,7 +6812,10 @@
       "source_quest": 124,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-revenge-final-flash"
+      "id": "skill-revenge-final-flash",
+      "source_parallel_quests": [
+        124
+      ]
     },
     {
       "name": "Reverse Mabakusenko",
@@ -6338,7 +6869,10 @@
       "source_quest": 123,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ123 reward listings explicitly place Reverse Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-reverse-shot"
+      "id": "skill-reverse-shot",
+      "source_parallel_quests": [
+        123
+      ]
     },
     {
       "name": "Ribrianne's Eternal Love",
@@ -6367,7 +6901,10 @@
       "source_quest": 137,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-ribrianne-s-eternal-love"
+      "id": "skill-ribrianne-s-eternal-love",
+      "source_parallel_quests": [
+        137
+      ]
     },
     {
       "name": "Rise to Action",
@@ -6444,7 +6981,10 @@
       "source_quest": 42,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Rolling Bullet in Basic Reward. No Ultimate Finish-only gate is asserted.",
-      "id": "skill-rolling-bullet"
+      "id": "skill-rolling-bullet",
+      "source_parallel_quests": [
+        42
+      ]
     },
     {
       "name": "Rough Ranger",
@@ -6472,7 +7012,10 @@
       "mechanics_notes": "100 Ki Strike Super counter. The user braces for an incoming attack; Strike attacks trigger a kick, while Ki Blast attacks trigger an energy barrier. Current source evidence confirms the PQ119 Ultimate Finish acquisition route. Current reward-table evidence explicitly lists Rough Ranger under Basic Reward rather than an Ultimate Finish-only slot.",
       "acquisition_type": "quest_or_mission",
       "notes": "Corrected 2026-09-20: current reward-table evidence places Rough Ranger in the Basic Reward pool; the prior Ultimate Finish flag was stale.",
-      "id": "skill-rough-ranger"
+      "id": "skill-rough-ranger",
+      "source_parallel_quests": [
+        119
+      ]
     },
     {
       "name": "S.S. Deadly Bomber",
@@ -6503,7 +7046,10 @@
       "source_quest": 115,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-s-s-deadly-bomber"
+      "id": "skill-s-s-deadly-bomber",
+      "source_parallel_quests": [
+        115
+      ]
     },
     {
       "name": "Saiyan Spirit",
@@ -6533,7 +7079,10 @@
       "source_quest": 84,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 CaC provenance correction: dedicated skill documentation classifies Saiyan Spirit as a Ki Blast Ultimate, not a Strike Ultimate. It is usable by Saiyan CaCs and is acquired from PQ84.",
-      "id": "skill-saiyan-spirit"
+      "id": "skill-saiyan-spirit",
+      "source_parallel_quests": [
+        84
+      ]
     },
     {
       "name": "Sauzer Blade",
@@ -6562,7 +7111,10 @@
       "source_quest": 27,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-sauzer-blade"
+      "id": "skill-sauzer-blade",
+      "source_parallel_quests": [
+        27
+      ]
     },
     {
       "name": "Savory Slicer",
@@ -6592,7 +7144,10 @@
       "source_quest": 140,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-savory-slicer"
+      "id": "skill-savory-slicer",
+      "source_parallel_quests": [
+        140
+      ]
     },
     {
       "name": "Scissors Paper Rock",
@@ -6621,7 +7176,10 @@
       "source_quest": 65,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-scissors-paper-rock"
+      "id": "skill-scissors-paper-rock",
+      "source_parallel_quests": [
+        65
+      ]
     },
     {
       "name": "Seagull Combination",
@@ -6650,7 +7208,10 @@
       "source_quest": 167,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy.",
-      "id": "skill-seagull-combination"
+      "id": "skill-seagull-combination",
+      "source_parallel_quests": [
+        167
+      ]
     },
     {
       "name": "Shadow Crusher",
@@ -6700,7 +7261,10 @@
       "dlc_requirement": "Conton City Vote Pack",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: the maintained PQ153 drop-condition data explicitly assigns this skill to a 40% Ultimate Finish bonus roll; the earlier reward-list wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-shield-barrier"
+      "id": "skill-shield-barrier",
+      "source_parallel_quests": [
+        153
+      ]
     },
     {
       "name": "Shine Shot",
@@ -6729,7 +7293,10 @@
       "source_quest": 7,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ7 reward listings explicitly place Shine Shot in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-shine-shot"
+      "id": "skill-shine-shot",
+      "source_parallel_quests": [
+        7
+      ]
     },
     {
       "name": "Shining Slash",
@@ -6759,7 +7326,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-shining-slash"
+      "id": "skill-shining-slash",
+      "source_parallel_quests": [
+        38
+      ]
     },
     {
       "name": "Shooting Strike",
@@ -6788,7 +7358,10 @@
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
-      "id": "skill-shooting-strike"
+      "id": "skill-shooting-strike",
+      "source_parallel_quests": [
+        156
+      ]
     },
     {
       "name": "Side Bridge",
@@ -6817,7 +7390,10 @@
       "source_quest": 39,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly lists this skill in the Basic Reward set. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and no Ultimate Finish-only gate is inferred.",
-      "id": "skill-side-bridge"
+      "id": "skill-side-bridge",
+      "source_parallel_quests": [
+        39
+      ]
     },
     {
       "name": "Sign of Awakening",
@@ -6846,7 +7422,10 @@
       "source_quest": 154,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record.",
-      "id": "skill-sign-of-awakening"
+      "id": "skill-sign-of-awakening",
+      "source_parallel_quests": [
+        154
+      ]
     },
     {
       "name": "Soaring Rush",
@@ -6875,7 +7454,10 @@
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
-      "id": "skill-soaring-rush"
+      "id": "skill-soaring-rush",
+      "source_parallel_quests": [
+        177
+      ]
     },
     {
       "name": "Solar Flare",
@@ -6898,7 +7480,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-solar-flare"
+      "id": "skill-solar-flare",
+      "source_parallel_quests": [
+        3
+      ]
     },
     {
       "name": "Sonic Bomb",
@@ -6927,7 +7512,10 @@
       "source_quest": 105,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-sonic-bomb"
+      "id": "skill-sonic-bomb",
+      "source_parallel_quests": [
+        105
+      ]
     },
     {
       "name": "Special Beam Cannon (Beast)",
@@ -6956,7 +7544,10 @@
       "source_quest": 162,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
-      "id": "skill-special-beam-cannon-beast"
+      "id": "skill-special-beam-cannon-beast",
+      "source_parallel_quests": [
+        162
+      ]
     },
     {
       "name": "Spirit Blaster",
@@ -6986,7 +7577,10 @@
       "source_quest": 129,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ129 reward listings explicitly place Spirit Blaster in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-spirit-blaster"
+      "id": "skill-spirit-blaster",
+      "source_parallel_quests": [
+        129
+      ]
     },
     {
       "name": "Spirit Bomb",
@@ -7067,7 +7661,10 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Spirit Explosion in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
-      "id": "skill-spirit-explosion"
+      "id": "skill-spirit-explosion",
+      "source_parallel_quests": [
+        25
+      ]
     },
     {
       "name": "Spirit Pulse",
@@ -7096,7 +7693,10 @@
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: maintained PQ data explicitly assigns this skill to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-spirit-pulse"
+      "id": "skill-spirit-pulse",
+      "source_parallel_quests": [
+        151
+      ]
     },
     {
       "name": "Spirit Slash",
@@ -7126,7 +7726,10 @@
       "source_quest": 2,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 reward provenance refinement: maintained PQ02 evidence places Spirit Slash in Basic Reward. Dedicated skill evidence confirms the 200-Stamina Strike Evasive classification for the standard equipable skill; the DBS Super Hero Gohan variant has separate 300-Stamina behavior.",
-      "id": "skill-spirit-slash"
+      "id": "skill-spirit-slash",
+      "source_parallel_quests": [
+        2
+      ]
     },
     {
       "name": "Spread Shot Retreat",
@@ -7156,7 +7759,10 @@
       "source_quest": 28,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Spread Shot Retreat in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
-      "id": "skill-spread-shot-retreat"
+      "id": "skill-spread-shot-retreat",
+      "source_parallel_quests": [
+        28
+      ]
     },
     {
       "name": "Steel Mirage",
@@ -7185,7 +7791,10 @@
       "source_quest": 165,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly assigns this skill to the 45% Ultimate Finish bonus slot route. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: the maintained PQ drop-condition data explicitly assigns this skill to a 45% Ultimate Finish bonus-slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing, so that presentation conflict remains documented rather than silently discarded.",
-      "id": "skill-steel-mirage"
+      "id": "skill-steel-mirage",
+      "source_parallel_quests": [
+        165
+      ]
     },
     {
       "name": "Stone Bullet",
@@ -7215,7 +7824,10 @@
       "source_quest": 56,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-stone-bullet"
+      "id": "skill-stone-bullet",
+      "source_parallel_quests": [
+        56
+      ]
     },
     {
       "name": "Sudden Death Beam",
@@ -7296,7 +7908,10 @@
       "source_quest": 109,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-super-black-kamehameha-rose"
+      "id": "skill-super-black-kamehameha-rose",
+      "source_parallel_quests": [
+        109
+      ]
     },
     {
       "name": "Super Donut Volley",
@@ -7325,7 +7940,10 @@
       "source_quest": 55,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-super-donut-volley"
+      "id": "skill-super-donut-volley",
+      "source_parallel_quests": [
+        55
+      ]
     },
     {
       "name": "Super Dragon Flight",
@@ -7354,7 +7972,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale.",
-      "id": "skill-super-dragon-flight"
+      "id": "skill-super-dragon-flight",
+      "source_parallel_quests": [
+        31
+      ]
     },
     {
       "name": "Super Gamma Blast",
@@ -7383,7 +8004,10 @@
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record.",
-      "id": "skill-super-gamma-blast"
+      "id": "skill-super-gamma-blast",
+      "source_parallel_quests": [
+        158
+      ]
     },
     {
       "name": "Super Ghost Buu Attack",
@@ -7413,7 +8037,10 @@
       "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "source_quest": 113,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-super-ghost-buu-attack"
+      "id": "skill-super-ghost-buu-attack",
+      "source_parallel_quests": [
+        113
+      ]
     },
     {
       "name": "Super God Fist",
@@ -7443,7 +8070,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 67,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-super-god-fist"
+      "id": "skill-super-god-fist",
+      "source_parallel_quests": [
+        67
+      ]
     },
     {
       "name": "Super God Shock Flash",
@@ -7519,7 +8149,10 @@
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-super-kamehameha-ss4-daima"
+      "id": "skill-super-kamehameha-ss4-daima",
+      "source_parallel_quests": [
+        181
+      ]
     },
     {
       "name": "Super Saiyan",
@@ -7812,7 +8445,10 @@
       "source_quest": 179,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-supreme-fury"
+      "id": "skill-supreme-fury",
+      "source_parallel_quests": [
+        179
+      ]
     },
     {
       "name": "Surging Spirit",
@@ -7867,7 +8503,10 @@
       "source_quest": 45,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Taunt with PQ45, \"Take Back the Dragon Balls!\". The prior unlock text naming PQ20 was stale and has been replaced; the available condition remains reward-documented without an established exact drop tier or Ultimate Finish-only gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-taunt"
+      "id": "skill-taunt",
+      "source_parallel_quests": [
+        45
+      ]
     },
     {
       "name": "Teleporting Vanishing Ball",
@@ -7897,7 +8536,10 @@
       "source_quest": 62,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 acquisition reconciliation: current maintained PQ reward data lists Teleporting Vanishing Ball in PQ62's Basic Reward pool, while dedicated skill documentation confirms PQ62 as the unlock quest. Historical community discussion questioned whether an Ultimate Finish was required, but current reward-table evidence does not establish an UF-only gate; exact reward-slot probability remains unresolved.",
-      "id": "skill-teleporting-vanishing-ball"
+      "id": "skill-teleporting-vanishing-ball",
+      "source_parallel_quests": [
+        62
+      ]
     },
     {
       "name": "The Power to Overcome",
@@ -7955,7 +8597,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 146,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-thunder-flash"
+      "id": "skill-thunder-flash",
+      "source_parallel_quests": [
+        146
+      ]
     },
     {
       "name": "Time Bullet",
@@ -8010,7 +8655,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-time-control"
+      "id": "skill-time-control",
+      "source_parallel_quests": [
+        18
+      ]
     },
     {
       "name": "Time Skip/Back Breaker",
@@ -8117,7 +8765,10 @@
       "source_quest": 139,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-total-detonation-ball"
+      "id": "skill-total-detonation-ball",
+      "source_parallel_quests": [
+        139
+      ]
     },
     {
       "name": "Turn Golden",
@@ -8173,7 +8824,10 @@
       "mechanics_notes": "Confirmed as the 0-Ki Other Super from PQ134's Ultimate Finish, usable by all CaC races. Its charge rate improves the longer the charge is maintained.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Ultimate Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing.",
-      "id": "skill-ultimate-charge"
+      "id": "skill-ultimate-charge",
+      "source_parallel_quests": [
+        134
+      ]
     },
     {
       "name": "Ultra Instinct",
@@ -8227,7 +8881,10 @@
       "source_quest": 151,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 source reconciliation: the maintained PQ151 reward listing also displays this skill in its Basic Reward array, while the explicit maintained drop-condition assigns it to a 50% Ultimate Finish roll. The canonical gate follows the explicit drop condition; the conflicting reward-array presentation is preserved as source metadata. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
-      "id": "skill-ultrasonic-blitz"
+      "id": "skill-ultrasonic-blitz",
+      "source_parallel_quests": [
+        151
+      ]
     },
     {
       "name": "Unrelenting Barrage",
@@ -8255,7 +8912,10 @@
       "source_quest": 10,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-unrelenting-barrage"
+      "id": "skill-unrelenting-barrage",
+      "source_parallel_quests": [
+        10
+      ]
     },
     {
       "name": "Vanishing Ball",
@@ -8284,7 +8944,10 @@
       "source_quest": 58,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 58 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-vanishing-ball"
+      "id": "skill-vanishing-ball",
+      "source_parallel_quests": [
+        58
+      ]
     },
     {
       "name": "Variable Snipe Shot",
@@ -8313,7 +8976,10 @@
       "source_quest": 165,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 165 is documented as an acquisition route; the explicit drop-condition record now documents an Ultimate Finish requirement. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-variable-snipe-shot"
+      "id": "skill-variable-snipe-shot",
+      "source_parallel_quests": [
+        165
+      ]
     },
     {
       "name": "Variant Drive",
@@ -8344,7 +9010,10 @@
       "race_restriction": "All CaC races",
       "source_quest": 123,
       "acquisition_type": "quest_or_mission",
-      "id": "skill-variant-drive"
+      "id": "skill-variant-drive",
+      "source_parallel_quests": [
+        123
+      ]
     },
     {
       "name": "Venus Fist",
@@ -8406,7 +9075,10 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Victory Cannon in Basic Reward. No Ultimate Finish-only gate is asserted.",
-      "id": "skill-victory-cannon"
+      "id": "skill-victory-cannon",
+      "source_parallel_quests": [
+        54
+      ]
     },
     {
       "name": "Victory Rush",
@@ -8430,7 +9102,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-victory-rush"
+      "id": "skill-victory-rush",
+      "source_parallel_quests": [
+        89
+      ]
     },
     {
       "name": "Wall of Defense",
@@ -8453,7 +9128,10 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-wall-of-defense"
+      "id": "skill-wall-of-defense",
+      "source_parallel_quests": [
+        10
+      ]
     },
     {
       "name": "Warp Kamehameha",
@@ -8482,7 +9160,10 @@
       "source_quest": 76,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-warp-kamehameha"
+      "id": "skill-warp-kamehameha",
+      "source_parallel_quests": [
+        76
+      ]
     },
     {
       "name": "Wild Buster",
@@ -8511,7 +9192,10 @@
       "source_quest": 153,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate.",
-      "id": "skill-wild-buster"
+      "id": "skill-wild-buster",
+      "source_parallel_quests": [
+        153
+      ]
     },
     {
       "name": "Wild Stinger",
@@ -8539,7 +9223,10 @@
       "source_quest": 172,
       "acquisition_type": "quest_or_mission",
       "notes": "Corrected 2026-09-20: PQ172 Ultimate Finish reward is treated as CaC-accessible; character association does not by itself establish character exclusivity. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "id": "skill-wild-stinger"
+      "id": "skill-wild-stinger",
+      "source_parallel_quests": [
+        172
+      ]
     },
     {
       "name": "X 100 Big Bang Kamehameha",
@@ -8569,7 +9256,10 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "PQ100 Basic Reward and TP Medal Shop routes are established; Ultimate Finish is not required for the canonical acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-x-100-big-bang-kamehameha"
+      "id": "skill-x-100-big-bang-kamehameha",
+      "source_parallel_quests": [
+        100
+      ]
     },
     {
       "name": "Zigzag Express",
@@ -8599,7 +9289,10 @@
       "source_quest": 85,
       "acquisition_type": "quest_or_mission",
       "notes": "",
-      "id": "skill-zigzag-express"
+      "id": "skill-zigzag-express",
+      "source_parallel_quests": [
+        85
+      ]
     }
   ],
   "record_count": 305,
