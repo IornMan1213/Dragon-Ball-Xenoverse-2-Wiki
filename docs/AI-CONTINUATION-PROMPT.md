@@ -4270,3 +4270,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Repository search found no indexed `skill-batch-`, `skills-batch-`, or `batch_id` records, so no concrete batch corpus was available to validate beyond the loader contract.
 - Commit: `2434881a9a628b2c6c67a65c665d5431a4a4737e` — Validate local research batch metadata.
 - Next task: audit the special `research_batch` field itself: it is injected into records but is not present in the canonical schema and may be emitted unless stripped by merge/output logic. Determine whether this is intentional internal metadata or a schema violation, and fix the lifecycle accordingly.
+
+
+## 2026-09-21 continuation — research batch metadata lifecycle
+- Fixed the audited research_batch lifecycle in scripts/build_skills_from_research.py.
+- Local batches still validate and retain batch_id in loader scope, but imported records no longer receive the non-schema research_batch property. research_status continues to be propagated as before.
+- This keeps internal batch identity out of canonical docs/data/skills.json records and leaves the final schema validator authoritative for canonical output.
+- Commit: 88e70b4fd8bf25f48c517d4d51ba21b7d27c562b — Keep research batch IDs out of canonical skill output.
+- Next task: audit whether local-batch record-level metadata can overwrite protected/curated fields during merge_record(), particularly research_status, sources, and correction-related metadata; preserve curated protections and provenance semantics.
