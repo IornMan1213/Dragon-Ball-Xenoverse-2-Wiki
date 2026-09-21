@@ -1672,3 +1672,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Refreshed `last_verified` to **2026-09-21** and preserved all existing acquisition/reward semantics.
 - [x] Do not infer a drop percentage or additional Ultimate Finish requirement from this evidence.
 - [x] Exact next task: recompute the live two-source census and continue with **Do or Die**, verifying its PQ49 source and Basic Reward tier before adding provenance.
+
+
+### 2026-09-21 — Completed low-source provenance batch: Do or Die
+- [x] Live pre-batch census: **53** exactly-two-source records.
+- [x] Independently corroborated Do or Die as a **PQ49 Basic Reward** using a second maintained Steam PQ reward transcription.
+- [x] Added the source to canonical and index records; refreshed `last_verified` to **2026-09-21**.
+- [x] Preserved acquisition/reward semantics and did not infer a drop probability.
+- [x] Exact next task: recompute the live two-source census and continue with **Dragon Thunder**, verifying its source quest and reward tier before adding provenance.
