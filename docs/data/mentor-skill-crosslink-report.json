@@ -3,8 +3,8 @@
   "game": "Dragon Ball Xenoverse 2",
   "generated_by": "manual_canonical_sync_2026-09-21",
   "canonical_mentor_records": 33,
-  "mentors_with_skill_links": 21,
-  "mentor_to_skill_edge_count": 73,
+  "mentors_with_skill_links": 23,
+  "mentor_to_skill_edge_count": 87,
   "forward_edges": [
     {
       "mentor_id": "mentor-android-16",
@@ -69,7 +69,22 @@
     {
       "mentor_id": "mentor-cooler",
       "mentor_name": "Cooler (Final Form)",
+      "skill_id": "skill-fake-blast"
+    },
+    {
+      "mentor_id": "mentor-cooler",
+      "mentor_name": "Cooler (Final Form)",
+      "skill_id": "skill-feint-crash"
+    },
+    {
+      "mentor_id": "mentor-cooler",
+      "mentor_name": "Cooler (Final Form)",
       "skill_id": "skill-shadow-crusher"
+    },
+    {
+      "mentor_id": "mentor-cooler",
+      "mentor_name": "Cooler (Final Form)",
+      "skill_id": "skill-supernova-cooler"
     },
     {
       "mentor_id": "mentor-dodoria",
@@ -152,6 +167,26 @@
       "skill_id": "skill-masenko"
     },
     {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "skill_id": "skill-eagle-kick"
+    },
+    {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "skill_id": "skill-hawk-charge"
+    },
+    {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "skill_id": "skill-justice-combination"
+    },
+    {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "skill_id": "skill-justice-rush"
+    },
+    {
       "mentor_id": "mentor-goku",
       "mentor_name": "Goku",
       "skill_id": "skill-instant-transmission"
@@ -215,6 +250,26 @@
       "mentor_id": "mentor-krillin",
       "mentor_name": "Krillin",
       "skill_id": "skill-scatter-kamehameha"
+    },
+    {
+      "mentor_id": "mentor-majin-buu",
+      "mentor_name": "Majin Buu",
+      "skill_id": "skill-angry-hit"
+    },
+    {
+      "mentor_id": "mentor-majin-buu",
+      "mentor_name": "Majin Buu",
+      "skill_id": "skill-innocence-breath"
+    },
+    {
+      "mentor_id": "mentor-majin-buu",
+      "mentor_name": "Majin Buu",
+      "skill_id": "skill-innocence-bullet"
+    },
+    {
+      "mentor_id": "mentor-majin-buu",
+      "mentor_name": "Majin Buu",
+      "skill_id": "skill-innocence-cannon"
     },
     {
       "mentor_id": "mentor-nappa",
@@ -284,12 +339,27 @@
     {
       "mentor_id": "mentor-slug",
       "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-eye-beam"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
       "skill_id": "skill-darkness-rush-melee"
     },
     {
       "mentor_id": "mentor-slug",
       "mentor_name": "Lord Slug",
       "skill_id": "skill-darkness-rush-ranged"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-twin-star"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-evil-eyes"
     },
     {
       "mentor_id": "mentor-tien",
@@ -380,13 +450,14 @@
     "2026-09-21 reconciliation: Krillin, Tien, Yamcha, and Piccolo lesson routes were already explicit in the canonical mentor layer and corresponding skills-index source_mentor fields; this cycle promoted those 14 deterministic edges into the crosslink report without altering acquisition semantics.",
     "2026-09-21 reconciliation: Raditz, Gohan (Kid), Nappa, and Vegeta lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Masenko and Galick Gun were already represented in the report and were not duplicated.",
     "2026-09-21 reconciliation: Zarbon, Dodoria, Captain Ginyu, and Frieza (1st Form) lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Frieza's Death Ball edge was already present and was not duplicated.",
-    "2026-09-21 reconciliation: Android 18, Android 16, Cell (Perfect), and Hercule lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The requested Android 17 mentor is not present in the canonical 33-mentor layer, so no unsupported Android 17 relationship was invented."
+    "2026-09-21 reconciliation: Android 18, Android 16, Cell (Perfect), and Hercule lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The requested Android 17 mentor is not present in the canonical 33-mentor layer, so no unsupported Android 17 relationship was invented.",
+    "2026-09-21 reconciliation: Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Existing Cooler Shadow Crusher and Lord Slug Darkness Rush edges were preserved without duplication."
   ],
   "validation": {
     "canonical_mentor_records": 33,
-    "mentors_with_skill_links": 21,
-    "mentor_to_skill_edge_count": 73,
-    "unique_skill_endpoints": 73,
+    "mentors_with_skill_links": 23,
+    "mentor_to_skill_edge_count": 87,
+    "unique_skill_endpoints": 87,
     "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0
   }
