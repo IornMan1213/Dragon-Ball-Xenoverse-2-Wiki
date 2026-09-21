@@ -388,3 +388,14 @@
 - Commits: `a646663` (skills), `596b0d8` (skills index), `a0370c9` (Future Saga endpoint), `7968132` (story contract), `4c4f7b7` (cross-link report).
 - Live census after editing: **305 skills / 305 skill-index records / 5 Time Rift endpoints / 1 Unknown History endpoint / 1 Future Saga story endpoint / 6 Time Rift-linked skills / 11 Time Rift→skill edges / 2 story-skill edges / 0 broken endpoints**.
 - Exact next batch: **expand the Future Saga story endpoint into its chapter/quest relationship layer for the remaining newly introduced skills and rewards, starting with the other Chapter 4 skills already present in canonical data; then reconcile any existing skill-to-PQ links that can be deterministically reverse-indexed without changing unresolved acquisition conditions.**
+
+
+### 2026-09-21 cycle update — Future Saga Chapter 4 PQ ↔ skill graph completion
+- Researched the remaining Chapter 4 skills already present in canonical data: **Dragon Spiral, Indomitable, and Venus Fist**. Current repository PQ records place Dragon Spiral + Indomitable in PQ185 (A God's Amusement) and Venus Fist in PQ186 (Frieza's Right-Hand Man); current Chapter 4 documentation confirms the DLC contains two Parallel Quests and four new moves including one Awoken Skill. citeturn0search0turn0search1turn0search2
+- Added deterministic `skill_ids` to PQ185/PQ186, `source_parallel_quests` to the three skill records and skill index, and explicit Chapter 4 `skill_relationships`/PQ references in `future-saga-story-record-layer.json`.
+- Expanded `record-expansion-contract.json` with PQ `skill_ids` and skill `source_parallel_quests` cross-domain fields.
+- Expanded `time-rift-skill-crosslink-report.json` with **2 PQ endpoints / 3 PQ→skill edges**.
+- Validation: **305 skills / 305 index records / 186 PQ records / 4 Chapter 4 story-linked skills / 0 broken endpoints / 3 edited skill/index parity checks passed / 0 citation artifacts in canonical JSON**.
+- Exact relationship graph now lets a user traverse **Future Saga Chapter 4 → Quest 31 → The Power to Overcome**, and **Future Saga Chapter 4 → PQ185/PQ186 → individual skills**, while each skill resolves back to its source PQ and Chapter 4 story endpoint.
+- Evidence boundary: the canonical PQ records already distinguish Basic Reward from Ultimate Finish conditions. No new Ultimate Finish requirement or drop probability was inferred here. Current official DLC material confirms Chapter 4's content scope, while the maintained repository reward records supply the exact skill-to-PQ mapping. citeturn0search0turn0search1
+- Exact next batch: **audit the broader PQ ↔ skill graph for orphaned `source_quest` skills and PQ `skill_rewards`, starting with the newest DLC/PQ records, and repair deterministic reverse links in larger batches without changing acquisition facts.**
