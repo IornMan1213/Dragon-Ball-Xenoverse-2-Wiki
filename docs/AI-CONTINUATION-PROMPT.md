@@ -5823,3 +5823,13 @@ The repository owner has clarified the continuation contract:
 - CI: Actions lookup for commits `2bde139dd5b8bd5ab41d03ffa66d198250ce3eb8` and `e956fba7eba2a72f052fb93451b4241daf3f6423` returned no workflow runs; CI status remains unavailable.
 - Commits: `2bde139dd5b8bd5ab41d03ffa66d198250ce3eb8` and `e956fba7eba2a72f052fb93451b4241daf3f6423`.
 - Exact next task: **fresh live census of remaining non-canonical DLC labels and source-to-DLC relationships**, prioritizing deterministic source ranges before researching any free-update/platform-dependent composites.
+
+
+### 2026-09-21 cycle update — Sudden Death Beam DLC provenance correction
+- Live census before editing: **428 canonical skills**. The remaining non-canonical/composite DLC census contained four notable legacy values: a now-corrected Base Game + later STP/raid label, Resurrection 'F' Pack / DLC Pack 3, Free Update 1.14-era distribution / TP Medal Shop, and a platform-dependent Masters Pack label.
+- Bounded batch: **Sudden Death Beam** only.
+- Evidence: current Xenoverse 2 skill documentation identifies Sudden Death Beam as part of **Super Pack 3**; its TP Medal Shop/STP Medal Shop/Double Crystal Raid entries are acquisition routes. Official Bandai Namco's 2017 content-update notice independently records Sudden Death Beam in the TP Medal Shop rotation. citeturn0search1turn0search4
+- Change: `docs/data/skills.json` — `dlc_requirement` changed from `Base Game + later STP/raid distribution` to `Super Pack 3`; acquisition fields were preserved.
+- Validation after write: **428 records; 0 duplicate IDs; 0 records remain under the former Base Game + later STP/raid label.**
+- CI: workflow lookup for commit `eefa06170c5d4c3f55f0a678d97977bf44292dfb` has not yet exposed a run; CI success is not claimed.
+- Exact next task: audit the remaining three composite/context-rich DLC labels, beginning with **Resurrection 'F' Pack / DLC Pack 3**, and normalize only where the distinction is genuinely redundant rather than historically/platform meaningful.
