@@ -5194,3 +5194,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Rebuilt `docs/data/skills-index.json` from the live canonical 15-field projection.
 - Validation: 448 canonical / 448 index / identical deterministic ordering / 0 duplicate IDs.
 - Index repair commit: `8acf642edf7e76de7c798d0b505fc6d4672b1d69`.
+
+### 2026-09-21 — Free Update 1 evidence pass: unnamed four-attack scope preserved
+- Re-ran the Free Update 1 launch-update investigation against the live repository and contemporary release documentation.
+- Contemporary release documentation consistently confirms the Free Update 1 attack quantity (**4**) but does not name those four attacks individually in the accessible announcement material.
+- The canonical registry currently contains exactly the two explicitly named Free Update 1 Awoken endpoints: Pure Progress and Super Saiyan Blue Kaioken.
+- Result: **no speculative skill endpoints added**. This pass strengthens the evidence boundary rather than inventing names from later skill lists or character-moveset data.
+- Exact next task: obtain a stronger primary/current source that identifies those four December 2016 attack names and their acquisition endpoints, then add only those exact records.
