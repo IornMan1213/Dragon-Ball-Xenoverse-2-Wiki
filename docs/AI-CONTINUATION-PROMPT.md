@@ -6413,3 +6413,9 @@ The repository owner has clarified the continuation contract:
 - Canonical commit: `71cc9abed3f68068af82416b788380fb982cb538`; index sync: `35a3fcb2b8d5bb4a9fefb13a6affaad2f840762a`.
 - Post-correction target state: Candy Beam (Super) 3 sources; Crusher Ball 3 sources; Destructive Fracture 3 sources.
 - Next task: recompute the 70-record two-source census and continue the deterministic low-source acquisition audit.
+
+### 2026-09-21 continuation — PQ97/PQ110 provenance batch
+- Added independent PQ evidence for **Charged Ki Wave** (PQ97) and **Divinity Unleashed** (PQ110).
+- Canonical commit: `ad74973a48e80c3358f2c33e76953e6f7d7f7e27`; index sync: `1dae9ce373542babde192d4e192f2a6127b305ed`.
+- Web verification confirms PQ97 lists Charged Ki Wave as a Basic Reward and PQ110 lists Divinity Unleashed as a skill reward. citeturn0search14turn0search1
+- Next task: recompute the two-source census, validate canonical/index parity, and continue the next deterministic low-source cluster.
