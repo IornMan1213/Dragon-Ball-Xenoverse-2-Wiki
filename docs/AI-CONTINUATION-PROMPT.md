@@ -4164,4 +4164,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `9a1da40526f8688c3a5470f124841731385f422b` — Validate correction metadata during skill merge.
 - No canonical generated data was manually changed. CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
 - Next task: inspect whether the merge should reject correction fields that are not actually present in the correction record, and whether duplicate non-correction records are intentionally additive or should fail explicitly.
+## 2026-09-21 continuation — duplicate precedence review
+- Reviewed the checked-in skill batch conventions and current merge order for duplicate non-correction records.
+- The checked-in skill batches currently contain no `correction_of` records, so there is no live convention from which to safely infer stricter `correction_fields` semantics. I did not impose a speculative rule that every supplied field must appear in `correction_fields`.
+- Duplicate non-correction keys across research batches are already rejected by `validate_research_batches.py`; within the builder, protected records are intentionally enriched only when later records provide previously missing fields, while non-empty existing values remain authoritative. This matches the repository's additive research-batch model, so no change was made here.
+- No new code commit was necessary in this pass. The previous correction metadata hardening remains in `9a1da40526f8688c3a5470f124841731385f422b`.
+- CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
+- Next task: audit source normalization and field-shape handling for silent drops (especially malformed source objects and values) against the schema and checked-in data, then make only evidence-backed fixes.
 
