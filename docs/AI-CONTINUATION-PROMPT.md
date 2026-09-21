@@ -4808,3 +4808,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow status was exposed for this cycle; no CI success is claimed.
 - Commits: `a66aeaf`, `33507f6`, `d9dd5a4`, coverage refresh below.
 - Exact next batch: **Android 18, Cell (Perfect), Lord Slug, and the next unresolved mentor group after those three**; reuse existing canonical skills where present and add only missing skill records, preserving bidirectional links.
+
+
+### 2026-09-21 cycle correction — Gotenks skill-ID collision
+- Corrected the duplicate name-derived ID for the Super Ghost Kamikaze Attack Ultimate using `skill-super-ghost-kamikaze-attack-ultimate-ki-blast`, added the missing index record, and synchronized the Gotenks Lesson 3 endpoint.
+- Final integrity state: 359 skills, 359 index records, 70 linked mentor edges, 59 unresolved endpoints, taxonomy total 359.
+- No mechanics were inferred.
+- Correction commits: 90cf2d7b02b5b105bc28690a5405bca81cfff84a, c5872c828a6cd0e594bb426c1510a88ff4c1da06, 331217aad85c27921f494fa478e41dfafd9254c9, 68e87c50ecb660e0506a52fc008c1779abac39ff
