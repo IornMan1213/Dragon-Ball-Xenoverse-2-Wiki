@@ -759,3 +759,10 @@
 - Canonical file: `docs/data/skills.json`; no skill-index projection change was required.
 - Validation: 429 skills; 0 missing DLC provenance; 0 generic `DLC` values remaining. CI status unavailable; no CI success claimed.
 - Commit: `9ca5147646a60ceb411dfca5dfdfb924e8a566d2`.
+
+### 2026-09-21 — Skill-index source/restriction projection correction
+- Reconciled five deterministic projection values in `docs/data/skills-index.json` with canonical `docs/data/skills.json`: Data Input (EM-20), Final Pose (PQ74), Super Spirit Bomb (EM-16), Supernova (EM-6), and Ill Bomber's race restriction (Majin).
+- No acquisition semantics or unresolved evidence were changed; this was a bounded generated-index synchronization pass.
+- Validation: 429 canonical skills / 429 index records; the targeted values match at the validated commit. CI status unavailable; no CI success claimed.
+- Commits: `ad2bd70044d982245819621ea63c66116ffc1490`, `53959c1bfcf0bbb0c67d6625bdb7c429cd643c0e`, `1edc204ca3a085a19747ea79337833696102c39c`.
+
