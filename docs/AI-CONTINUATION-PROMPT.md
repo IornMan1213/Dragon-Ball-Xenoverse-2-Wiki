@@ -3724,3 +3724,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `a6cf5544afff36cc70ca1a8190f8320def070820`.
 - CI check for this commit returned **0 statuses and 0 workflow runs**; no success/failure is inferred.
 - Exact next task: continue the evidence-backed acquisition conflict census against maintained reward/shop evidence, then inspect producer/validator assumptions around `source_quest_or_shop` and unlock-route semantics. Avoid treating `character_source` as an automatic character-only signal.
+
+## 2026-09-21 continuation — explicit PQ-number provenance guard
+- Continued the acquisition validator audit. The canonical `Final Pose` record uses textual `source_quest` provenance `PQ74 — "Galactic Patrol Away"`, so the new guard is compatible with current canonical data.
+- Tightened `scripts/validate_skills.py` again: `parallel_quest` now requires `source_quest` to contain an explicit Parallel Quest/PQ number, not merely arbitrary text that happens to contain `pq` elsewhere in another field.
+- Repository-wide code search for maintained reward/shop evidence returned no indexed matches in the GitHub search connector, so no unsupported acquisition facts were introduced from that search failure.
+- Commit: `44bb214ac51bd5385ac1fb28d12f36c745273142`.
+- Exact next task: continue inspecting available repository evidence files and producer/validator semantics; if maintained reward/shop evidence remains unavailable through repository search, document that limitation rather than inventing route corrections. Recheck CI after the validator change.
