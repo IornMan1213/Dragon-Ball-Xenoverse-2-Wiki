@@ -1699,3 +1699,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved the existing **Unlock: N/A / Character skill** semantics. Because the skill is explicitly character-only, no PQ/source-quest or reward-tier relationship was invented.
 - [x] Post-write target: **51** exactly-two-source records; canonical/index source and verification parity remains required.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic low-source record after Dragon Thunder, checking acquisition/reward semantics before provenance-only strengthening.
+
+
+### 2026-09-21 — Completed low-source provenance batch: Energy Field
+- [x] Recomputed the live two-source census before editing: **51**.
+- [x] Verified **Energy Field** remains a PQ29 acquisition; the maintained GameFAQs guide independently lists it in PQ29's reward pool.
+- [x] Added the independent GameFAQs source to canonical and index records; refreshed `last_verified` to **2026-09-21**.
+- [x] Preserved existing acquisition/reward-tier and mechanics semantics; no unsupported drop probability was inferred.
+- [x] Post-write target: **50** exactly-two-source records.
+- [ ] Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance record after Energy Field, checking acquisition/reward semantics before provenance-only strengthening.
