@@ -3615,3 +3615,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Added `parallel_quest` to the schema enum; no skill acquisition semantics were altered.
 - Commits: schema `1f80924b5532a58c4f4cf18cfe9c2cf0006e3347`; audit `bcc241169ba917d7cb56acb2f8cbb54ea0d8adb9`.
 - Exact next task: continue auditing repository validators/documentation for taxonomy mismatches introduced by the provenance cleanup, then resume deterministic acquisition contradictions.
+
+
+### 2026-09-20 cycle update — taxonomy and synchronization audit
+- Re-checked the acquisition taxonomy after adding `parallel_quest` to the schema.
+- Canonical `skills.json` and `skills-index.json` both contain exactly 283 records, identical ordering, 0 duplicate names, and 0 mismatches across acquisition-critical fields (`name`, `acquisition_type`, `unlock_method`, `ultimate_finish_required`, `source_quest`, `race_restriction`, `source_quest_or_shop`).
+- All seven acquisition types currently present in data are represented by the schema enum; no unsupported or unused enum values remain.
+- Reviewed non-PQ records for obvious route/type contradictions (shop, TP Medal Shop, Shenron, character-only, starting-move, mentor/time-rift routes); no deterministic correction was supported by the current taxonomy/evidence, so no speculative reclassification was made.
+- Exact next task: continue source-evidence auditing for the remaining pooled/multi-source records and inspect repository documentation/validators for any other stale taxonomy assumptions.
