@@ -4968,3 +4968,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow/status results were exposed for this cycle's data commits; no CI success is claimed. Validators were not weakened.
 - Commits: `2279c153847fcf160b475f502ed91e44f234d750` (Super Soul 072-079); `ec03b6b145242035af5cce8d42f103832f7fde03` (PQ135 endpoint); `f8ac4190ca52cea2155ec6ab0cbd70998291eb18` (crosslink report); `d306782b5f7430deb6e61d782cb977e2aa64ac59` (changelog).
 - Exact next batch: **Super Soul 080-087** after live-corpus reconciliation. Continue the canonical frontier, establishing acquisition identity before adding deterministic cross-domain endpoints and regenerating the reverse report.
+
+
+### 2026-09-21 cycle update — Super Soul 080-087 + PQ reverse-link reconciliation
+- Live census before editing: **74 canonical Super Souls / 186 canonical PQ records**; prior graph: **22 forward / 22 reverse / 52 unresolved**.
+- Bounded batch: **Super Soul 080-087** — You've awakened my true power..., I am going to bathe in your blood!, Let's get round two started!, I can finally get my hands dirty again., Can I attack now?, I won't forgive those who best my comrades!, There's no way you can hit me!, and I will prevail, no matter the cost!.
+- Research/evidence: reconciled the exact next eight entries after `Leave my daddy alone!` in the maintained Madreag `scripts/data/super-souls.json` corpus, then inspected each corresponding source record. Explicit PQ sources were accepted for PQ144, PQ146, and PQ150 only.
+- Changes: added `super-soul-080` through `super-soul-087`; synchronized PQ144, PQ146, and PQ150; rebuilt `docs/data/pq-super-soul-crosslink-report.json`; updated `CHANGELOG.md`.
+- Validation: **82 canonical Super Souls / 186 canonical PQs / 26 forward / 26 reverse PQ↔Super Soul edges / 22 unique PQ endpoints / 26 unique Super Soul endpoints / 56 unresolved Super Soul routes / 0 broken endpoints**. Changed JSON parsed successfully.
+- Evidence limits: community-measured percentages/durations were not promoted to exact canonical values. The Zarbon stamina-vs-Ki recovery discrepancy remains flagged rather than resolved by inference. Raid-source records without explicit PQ identity remain unresolved for PQ linkage.
+- CI: no workflow/status results were exposed for this cycle's data commits; no CI success is claimed.
+- Commits: `61aca45c56a54f7eb76f2a25a34036c900bc63b5` (Super Soul 080-087); `1d664bf491df1cf42531582c3e984fef80ca117f` (PQ endpoints); `005e8361e22203ece37f4b326ea220e8261b662d` (crosslink report); `f5b3444326715954f9272af20848898076c3983a` (changelog).
+- Exact next batch: **Super Soul 088-095** after live-corpus reconciliation. Continue the canonical frontier, establishing acquisition identity before deterministic cross-domain endpoints and regenerating the reverse report.
