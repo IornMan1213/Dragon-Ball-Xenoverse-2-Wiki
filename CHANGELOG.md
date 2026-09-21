@@ -329,3 +329,8 @@
 - Synchronized the accessory PQ canonical bridge and bidirectional cross-link report so each of the eight research records resolves to a deterministic canonical accessory ID.
 - Cross-link coverage is now **33 matched accessory PQ endpoints / 12 unresolved research identities / 96 canonical accessory identities**.
 - No drop rates, Ultimate Finish requirements, or unsupported acquisition semantics were fabricated.
+
+## 2026-09-21 — Accessory PQ identity batch 2
+- Added four canonical accessory identities: Yamcha's Baseball Hat, SSGSS Vegeta Wig, Bulma (Kid) Wig, and Great Saiyaman Helmet.
+- Synchronized the PQ accessory bridge and cross-link report; coverage now reflects 37 matched accessory PQ endpoints and 100 canonical accessory identities.
+- Preserved unresolved/conflicted routes and did not infer unsupported acquisition mechanics.
