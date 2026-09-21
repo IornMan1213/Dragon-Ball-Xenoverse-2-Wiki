@@ -6566,4 +6566,16 @@ The repository owner has clarified the continuation contract:
 - **Validation target:** 52 exactly-two-source records, 452/452 parity, no duplicate IDs/null Ki, and clean artifact scan.
 - **CI:** inspect exposed status/workflow results; do not claim success without an actual check/run.
 - **Exact next task:** recompute the census and continue with **Dragon Thunder (`skill-dragon-thunder`)**, verifying source quest and reward tier before provenance addition.
-\n\n### 2026-09-21 — Persistent handoff: Dragon Thunder completed\n- Workstream: P1 skill acquisition/source provenance cleanup.\n- Live pre-batch census: **452 canonical / 452 index / 52 exactly-two-source records**.\n- Completed **Dragon Thunder (`skill-dragon-thunder`)**.\n- Evidence: dedicated Dragon Thunder documentation states **Unlock: N/A**, identifies Omega Shenron as the user, and marks the skill unavailable for CaCs; an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron. citeturn1search0turn1search1\n- Added the independent ID-list source to both canonical and index records; refreshed `last_verified` to **2026-09-21**.\n- No PQ/source-quest or reward-tier route was asserted because the current canonical acquisition endpoint is character-only / Unlock N/A.\n- Commits: canonical `a90c9adc1174e733ff17a4cc09cdcb4a230099c9`; index `8e57b6957592712baa21bb04c346d653b2281445`.\n- Validation target after this batch: **51 exactly-two-source records**, with canonical/index parity preserved.\n- CI rule: inspect exposed status/workflow results; do not claim CI success without an actual check/run.\n- Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster, verifying source/acquisition semantics before adding provenance.\n
+
+
+### 2026-09-21 — Persistent handoff: Dragon Thunder completed
+- Workstream: P1 skill acquisition/source provenance cleanup.
+- Live pre-batch census: **452 canonical / 452 index / 52 exactly-two-source records**.
+- Completed **Dragon Thunder (`skill-dragon-thunder`)**.
+- Evidence: dedicated Dragon Thunder documentation states **Unlock: N/A**, identifies Omega Shenron as the user, and marks the skill unavailable to CaCs; an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron.
+- Added the independent ID-list source to both canonical and index records; refreshed `last_verified` to **2026-09-21**.
+- No PQ/source-quest or reward-tier route was asserted because the current canonical acquisition endpoint is character-only / Unlock N/A.
+- Commits: canonical `a90c9adc1174e733ff17a4cc09cdcb4a230099c9`; index `8e57b6957592712baa21bb04c346d653b2281445`.
+- Validation target after this batch: **51 exactly-two-source records**, with canonical/index parity preserved.
+- CI rule: inspect exposed status/workflow results; do not claim CI success without an actual check/run.
+- Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster, verifying source/acquisition semantics before adding provenance.
