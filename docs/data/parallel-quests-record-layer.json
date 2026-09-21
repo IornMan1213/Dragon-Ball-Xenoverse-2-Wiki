@@ -5497,6 +5497,12 @@
       ],
       "skill_ids": [
         "skill-apocalyptic-burst"
+      ],
+      "super_soul_ids": [
+        "super-soul-118"
+      ],
+      "super_soul_rewards": [
+        "I'm a whole new me."
       ]
     },
     {
@@ -5531,6 +5537,12 @@
       ],
       "skill_ids": [
         "skill-special-beam-cannon-beast"
+      ],
+      "super_soul_ids": [
+        "super-soul-119"
+      ],
+      "super_soul_rewards": [
+        "Shenron really went the extra mile."
       ]
     },
     {
