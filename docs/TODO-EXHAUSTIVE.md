@@ -1160,7 +1160,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 
 
 ### 2026-09-21 — Master ledger status update: God of Destruction's Might DLC provenance
-- [x] **God of Destruction's Might DLC provenance correction completed.** The skill is obtained from PQ176, "Havoc at the 3-Universe Feast"; current DLC references identify PQ175–178 as Future Saga Chapter 2 content. citeturn1search2turn1search4
+- [x] **God of Destruction's Might DLC provenance correction completed.** The skill is obtained from PQ176, "Havoc at the 3-Universe Feast"; current DLC references identify PQ175–178 as Future Saga Chapter 2 content. 
 - [x] Corrected canonical/index `dlc_requirement` from **Base Game** to **Future Saga Chapter 2**.
 - [x] Preserved all existing acquisition, Ki-cost, class, restriction, and source data; only the incorrect DLC provenance plus verification note/timestamp was changed.
 - [x] Validation requirement: canonical/index parity must be rechecked after the write; the next cycle must inspect Actions for the two data commits before claiming CI status.
@@ -1175,13 +1175,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Actions inspection performed for data commits; no workflow runs were exposed, so CI success is **unavailable**, not claimed.
 - [ ] Next provenance batch: perform a fresh live census for other non-canonical DLC labels and source-to-DLC relationships, prioritizing values that can be deterministically resolved from source PQ/mission ranges; preserve intentionally composite/platform-dependent values unless direct evidence supports a split.
 
-> Evidence basis for the PQ mapping: the repository's source PQ numbers were cross-checked against the maintained Xenoverse 2 PQ/DLC mapping, which places Super/Extra/Ultra/Legendary content in distinct numbered PQ ranges; official Bandai Namco documentation confirms these DLC packs contain their respective Parallel Quest content. citeturn0search5turn0search1
+> Evidence basis for the PQ mapping: the repository's source PQ numbers were cross-checked against the maintained Xenoverse 2 PQ/DLC mapping, which places Super/Extra/Ultra/Legendary content in distinct numbered PQ ranges; official Bandai Namco documentation confirms these DLC packs contain their respective Parallel Quest content. 
 
 
 ### 2026-09-21 — Master ledger completion marking: Sudden Death Beam DLC provenance
 - [x] **Sudden Death Beam DLC classification corrected.** The previous composite `Base Game + later STP/raid distribution` label conflated later acquisition routes with the skill's originating DLC.
 - [x] Corrected canonical `dlc_requirement` from **Base Game + later STP/raid distribution** to **Super Pack 3**.
-- [x] Evidence: current skill documentation explicitly identifies Sudden Death Beam as part of Super Pack 3, while its TP Medal Shop/STP Medal Shop/Double Crystal Raid entries describe acquisition availability rather than the originating DLC. Official Bandai Namco documentation independently confirms the TP Medal Shop distribution schedule. citeturn0search1turn0search4
+- [x] Evidence: current skill documentation explicitly identifies Sudden Death Beam as part of Super Pack 3, while its TP Medal Shop/STP Medal Shop/Double Crystal Raid entries describe acquisition availability rather than the originating DLC. Official Bandai Namco documentation independently confirms the TP Medal Shop distribution schedule. 
 - [x] Evidence limits: acquisition routes were preserved unchanged; no claim was made that current shop/raid availability is exclusive to the original DLC.
 - [x] Validation: **428 records; 0 duplicate IDs; Sudden Death Beam now Super Pack 3; the former composite label has 0 records.**
 - [x] CI: Actions status must remain unclaimed unless an actual workflow run is exposed for commit `eefa06170c5d4c3f55f0a678d97977bf44292dfb`.
@@ -1286,7 +1286,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 
 ### 2026-09-21 — Master ledger completion marking: Data Input provenance correction
 - [x] **Data Input provenance corrected:** `Extra Pack 1` → `Free Update 5`.
-- [x] Evidence: official Extra Pack 1 store listings state the pack contains **13 new skills**; the contemporaneous skill list identifies those 13 and does not include Data Input. Contemporary documentation instead identifies Data Input as the Expert Mission 20 reward from the free update, while Android 13's preset includes Data Input. citeturn0search0turn1search1turn2search0
+- [x] Evidence: official Extra Pack 1 store listings state the pack contains **13 new skills**; the contemporaneous skill list identifies those 13 and does not include Data Input. Contemporary documentation instead identifies Data Input as the Expert Mission 20 reward from the free update, while Android 13's preset includes Data Input. 
 - [x] Canonical change limited to `dlc_requirement`, `last_verified`, and a bounded provenance note. Acquisition route remains Expert Mission 20; no mechanics/cost/restriction changes.
 - [x] Important distinction preserved: Data Input being used by Android 13 does not make it an Extra Pack 1-exclusive skill.
 - [x] Next provenance batch: recompute the live DLC census and continue auditing skills whose `dlc_requirement` is inferred from character association rather than direct acquisition/package evidence.
@@ -1294,7 +1294,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 
 ### 2026-09-21 — Master ledger completion marking: character-association DLC census
 - [x] Audited skills associated with major Extra Pack 2/3/4 characters against their acquisition/source records.
-- [x] Extra Pack 2: Power Impact, Power Rush, Meditation, and Rough Ranger are directly sourced to PQ119/120/122 and retain `Extra Pack 2`; the official package contains 8 new skills, so character association alone was not used to relabel records. citeturn0search0turn0search3
+- [x] Extra Pack 2: Power Impact, Power Rush, Meditation, and Rough Ranger are directly sourced to PQ119/120/122 and retain `Extra Pack 2`; the official package contains 8 new skills, so character association alone was not used to relabel records. 
 - [x] Extra Pack 3: all eight canonical records are sourced to PQ123–127 and retain `Extra Pack 3`.
 - [x] Extra Pack 4: all eight canonical records are sourced to PQ128–132 and retain `Extra Pack 4`.
 - [x] Character-association exceptions were explicitly reviewed: Blazing Attack is associated with Goku (Ultra Instinct) but is sourced to PQ136 and remains `Ultra Pack 1`; Surging Spirit intentionally carries the composite `Extra Pack 2; Conton City Vote Pack` provenance; these are not safe to collapse based on character association.
