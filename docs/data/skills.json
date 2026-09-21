@@ -2403,10 +2403,10 @@
         "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
       ],
       "ki_cost": 200,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": false,
-      "dlc_requirement": "Free Update 1.14-era distribution / TP Medal Shop",
+      "dlc_requirement": "Free Update 1.14",
       "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -2415,7 +2415,7 @@
       "research_status": "enriched",
       "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super sold through the TP Medal Shop and usable by all CaC races. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation.",
+      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation. 2026-09-21 DLC provenance verification: current reference material identifies Divine Kamehameha as part of the free 1.14.00 update and distributed through the TP Medal Shop; the shop/rotation acquisition context is preserved separately rather than treated as a paid DLC requirement.",
       "id": "skill-divine-kamehameha"
     },
     {
