@@ -12559,6 +12559,7 @@
     },
     {
       "name": "Giant Storm",
+      "ki_cost": 300,
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
