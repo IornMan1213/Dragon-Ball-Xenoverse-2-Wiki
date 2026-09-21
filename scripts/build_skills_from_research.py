@@ -105,8 +105,10 @@ def main():
  if not RESEARCH.exists():raise SystemExit('Structured research corpus is missing.')
  m=load_existing(); protected=set(); blocked=set()
  for p in sorted(RESEARCH.glob('*.md')):
-  try:r=build_record(parse_frontmatter(p),p)
-  except Exception:r=None
+  try:
+   r=build_record(parse_frontmatter(p),p)
+  except Exception as exc:
+   raise RuntimeError(f'Failed to build structured skill record from {p.name}: {exc}') from exc
   if r:merge_record(m,r,protected,blocked)
  imported=load_local_batches(m,protected,blocked)
  rows=sorted(m.values(),key=lambda r:(r['name'].casefold(),r['class'],r['subcategory']))
