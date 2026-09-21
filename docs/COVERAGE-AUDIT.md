@@ -3928,3 +3928,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation remains: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, **0** acquisition-critical mismatches.
 - Sources reviewed: dedicated Xenoverse 2 skill pages for Bending Kamehameha, Big Bang Kamehameha, Divine Kamehameha; Dragon Ball Wiki Future Warrior technique list; historical TP Medal Shop listing evidence.
 - Exact next target: **continue the remaining under-specified acquisition records, prioritizing any record whose existing route conflicts with a dedicated skill page or whose source list mixes character-only and CaC acquisition evidence.**
+
+
+## 2026-09-20 — built-in / character-only acquisition-status refinement
+- Refined **Surging Spirit** to explicitly describe its current CaC behavior: it is a **built-in Ultra Instinct action**, not a separately acquired/equipped skill. Current Ultra Instinct documentation states that the Future Warrior can use Surging Spirit while Ultra Instinct is active. citeturn1search7turn1search15
+- Refined **Dragon Thunder** to use the explicit **Character-only** race restriction. Dedicated Xenoverse 2 skill evidence identifies it as Omega Shenron's Strike Super and states it is unavailable to CaCs. citeturn1search2turn1search5
+- Updated both canonical and synchronized index records; no quest or Ultimate Finish provenance was introduced.
+- Validation: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, **0** acquisition-critical mismatches.
+- Exact next target: **continue auditing under-specified non-PQ records for explicit built-in, character-only, starting-move, wish, or other deterministic acquisition-status evidence before touching generic quest records again.**
