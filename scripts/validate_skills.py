@@ -80,8 +80,10 @@ def main():
  ikeys=[key(r) for r in ir]
  if keys!=ikeys:errors.append('skills-index.json is not in the same deterministic record order/content key sequence as skills.json')
  for a,b in zip(rs,ir):
-  for f in ('name','class','subcategory','verification_status','research_status','acquisition_type','sources'):
-   if a.get(f)!=b.get(f):errors.append(f"index mismatch for {a.get('name')}: {f}")
+  index_projection_fields=('name','class','subcategory','verification_status','research_status','acquisition_type','sources','unlock_method','ultimate_finish_required','last_verified','race_restriction','notes','mechanics_notes','source_quest','source_quest_or_shop')
+ for a,b in zip(rs,ir):
+  expected={f:a[f] for f in index_projection_fields if f in a}
+  if b != expected: errors.append(f"index projection mismatch for {a.get('name')}")
  awoken=[r for r in rs if r.get('class')=='Awoken' and r.get('subcategory')=='Race']
  if len(awoken)!=15:errors.append(f'expected 15 canonical Awoken parent records, found {len(awoken)}')
  counts=d.get('category_counts',{}); targets=d.get('target_category_counts',{})
