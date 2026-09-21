@@ -12130,7 +12130,8 @@
       "id": "skill-reverse-launcher",
       "source_mentor": [
         "mentor-bojack"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Trap Shooter",
@@ -12157,7 +12158,8 @@
       "id": "skill-trap-shooter",
       "source_mentor": [
         "mentor-bojack"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Psycho Barrier",
@@ -12184,7 +12186,8 @@
       "id": "skill-psycho-barrier",
       "source_mentor": [
         "mentor-bojack"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Grand Smasher",
@@ -12211,7 +12214,9 @@
       "id": "skill-grand-smasher",
       "source_mentor": [
         "mentor-bojack"
-      ]
+      ],
+      "ki_cost": "300-400",
+      "ki_cost_note": "Variable: 300 base, up to 400 when the additional input detonates the projectile."
     },
     {
       "name": "God Splitter",
