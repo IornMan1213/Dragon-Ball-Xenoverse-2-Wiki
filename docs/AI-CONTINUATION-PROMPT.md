@@ -5553,3 +5553,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: canonical commit `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3` exposed **no workflow runs** through the repository connector; **no CI success claimed**. Validators were not weakened.
 - Commits: `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3` (canonical), `eb385b4d6c891dfb0f94367d1f1737e14a5302d1` (audit), `0626a88e6fc89de47615a98db25f4500cb443547` (changelog), plus this handoff commit.
 - Exact next task: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded evidence-backed skill family; prioritize explicit current `Ki Used` values and preserve variable-cost forms.**
+
+### 2026-09-21 — Lord Slug mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 41 nullable `ki_cost` records**.
+- Bounded batch: **Evil Eyes (100), Darkness Eye Beam (100), Darkness Twin Star (100)** from Lord Slug mentor training.
+- Research/evidence: current Xenoverse 2 skill references explicitly document **100 Ki** for all three skills and identify Lord Slug training as the acquisition route. No variable-cost behavior was asserted.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **38**. No skill-index Ki-cost projection introduced.
+- CI: canonical commit `e0a1e5ebb5131c037e0d62e96996029d4803305e` had no actionable workflow/status result exposed; **no CI success claimed**. A repository audit entry briefly contained an internal citation-token fragment; an append-only correction was added.
+- Commits: `e0a1e5ebb5131c037e0d62e96996029d4803305e` (canonical), `eb245010c438c5acce537ecc8589339e83543c61` (audit), `02dcb4103a528ae4eb5350052f0dd9158db6121f` (changelog), plus this handoff update.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
