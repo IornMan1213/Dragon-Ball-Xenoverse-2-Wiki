@@ -892,3 +892,6 @@
 ## 2026-09-21 — Zarbon mentor skill Ki-cost verification
 - Verified Audacious Laugh (100), Gorgeous Shot (100), Bloody Counter (0 base/held-cost mechanic preserved), and Elegant Blaster (300) Ki costs.
 - Updated only canonical Ki-cost and verification-date fields; held/variable behavior was not flattened into a fabricated fixed cost.
+
+## 2026-09-21 — Dodoria mentor skill Ki-cost verification
+- Verified Dodoria Beam (100), Critical Upper (100), Dodoria Headbutt (100), and Dodoria Launcher (300) Ki costs from current skill references.
