@@ -6357,3 +6357,15 @@ The repository owner has clarified the continuation contract:
 - Strengthened both records from **2 → 4 sources**, preserving their existing PQ141 and Ultra Pack 2 semantics.
 - Canonical commit: **`5d643879eebb9ecee27306719516e5945abd38ec`**.
 - Exact next batch: **recompute the low-source census and continue the next deterministic acquisition cluster, checking reward-tier/source-PQ consistency first.**
+
+### 2026-09-21 continuation — PQ149-150 low-source provenance strengthening
+- Live census before editing: 452 canonical skills / 452 skill-index records / 0 duplicate IDs / 0 nullable ki_cost values. Exactly 83 skill records had two source URLs.
+- Bounded batch: Comet Strike, Meteor Explosion, Impact Flare, Power Wall.
+- Existing repository evidence establishes the exact acquisition relationships: Comet Strike + Meteor Explosion → PQ149 — "Clash of the Clones"; Impact Flare + Power Wall → PQ150 — "Battle of the Mind". The maintained PQ research batch lists all four in the corresponding skill-reward sets.
+- Added the official Bandai Namco Xenoverse 2 DLC page as a third source for each record; it confirms Legendary Pack 2 contains 4 Parallel Quests and 10 additional moves. This strengthens package provenance without replacing the exact skill/PQ evidence.
+- Changes: updated docs/data/skills.json and docs/data/skills-index.json source arrays for the four records; refreshed their verification dates. No acquisition, reward-tier, Ultimate Finish, cost, restriction, or mechanics fields were changed.
+- Evidence limits: the official DLC page establishes package scope, not individual skill drop slots or probabilities. Existing maintained reward evidence remains the controlling source for exact PQ relationships; unresolved reward/drop semantics remain untouched.
+- Validation: 452/452 canonical/index records, 0 duplicate IDs, 0 nullable ki_cost; all four targets now have 3 sources; canonical/index source+verification parity remains synchronized; no internal AI/UI/search citation artifacts were introduced.
+- CI: no actionable workflow/status result was exposed for the resulting commits; no CI success is claimed.
+- Commits: canonical null; index null; coverage null; TODO null; changelog null.
+- Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition cluster, prioritizing concrete PQ/reward evidence and cross-field contradictions before provenance-only strengthening.
