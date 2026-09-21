@@ -931,3 +931,10 @@
 - Updated only canonical `ki_cost` and `last_verified`; unresolved mechanics remain untouched.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 34 nullable `ki_cost` records**.
 - Commit: `84aecf7a0f768f278f2aabaa45aa703e8a4bb281`.
+
+## 2026-09-21 — Broly mentor skill Ki-cost verification
+
+- Verified **Blaster Meteor — 0 Ki**. It is an Evasive Skill whose documented resource cost is **300 Stamina**, not Ki. citeturn1search0turn1search1
+- Updated only canonical `ki_cost` and `last_verified`.
+- Live canonical skill census: **428 records, 0 duplicate IDs, 33 nullable `ki_cost` records**.
+- Commit: `0931c19993553d4e8e875a2955a7479a26922c29`.
