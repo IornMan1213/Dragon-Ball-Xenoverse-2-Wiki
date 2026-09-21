@@ -850,3 +850,9 @@
 - Removed the duplicate III Bomber placeholder that shared skill-ill-bomber with the richer Ill Bomber record.
 - Canonical and index skill counts are now 428/428 with zero duplicate IDs.
 - Full inspected canonical-to-index projection parity is clean; no gameplay or acquisition semantics were changed.
+
+## 2026-09-21 — Nullable CaC race-scope audit
+
+- Audited Blaster Stream, Chaotic Time Impact, and Circle Flash, the three remaining nullable `race_restriction` skill records.
+- Existing evidence establishes CaC usability for all three but does not establish a narrower race/gender/form restriction. Preserved `null` rather than inferring universal race availability.
+- Added explicit evidence-boundary notes to canonical and index records; canonical/index parity remains clean.
