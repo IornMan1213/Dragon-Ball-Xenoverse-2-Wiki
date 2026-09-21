@@ -4290,3 +4290,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Commit: `9b9cdfb0746bbe10db6ec64ac220ed4d5e406023`.
 - Live census after editing: **305 skills / 16 mentor links**.
 - Exact next batch: audit the remaining non-mentor descriptive acquisition routes for canonical IDs, beginning with Advancement Tests and Time Rift/Future Saga routes, while keeping shop/story prerequisites distinct from actual acquisition endpoints.
+
+
+### 2026-09-21 cycle update — Advancement Test canonical endpoints and skill links
+- Live census before editing: **305 canonical skills**; no dedicated Advancement Test canonical file existed.
+- Bounded batch: **4 source-backed Advancement Test endpoints** tied to existing skill acquisition evidence: Easy, Advanced, God, and Super Class tests.
+- Research/evidence: existing canonical skill records explicitly establish Energy Charge → Easy Class, Full Power Charge → Advanced Class, Maximum Charge → God Class, and Potential Unleashed → Super Class. Existing source URLs were reused; no new reward claims were inferred.
+- Changes: created `docs/data/advancement-tests.json` with stable IDs `advancement-test-easy`, `advancement-test-advanced`, `advancement-test-god`, `advancement-test-super`; added matching `source_advancement_test` fields to the four skills; formalized the optional skill cross-domain fields in `record-expansion-contract.json` and added the Advancement Test domain contract.
+- Evidence limits: these are indexed relationship endpoints, not complete Advancement Test records. Objectives, rank thresholds, progression details and complete reward tables remain explicitly unresolved.
+- Validation: **305 skills / 4 Advancement Test records / 4 skill→Advancement Test links / 0 broken endpoints / 0 internal UI citation artifacts** in canonical skills JSON. New Advancement Test JSON parses successfully.
+- CI: not exposed for the direct commits; no CI success is claimed.
+- Commits: `46a4577a9d7c401046754d72ff027317f182ff22` (Advancement Test endpoints), `60ca17d680174b933590fce01d405cd09c08bb70` (skill links), `d3a62cf6b1486fb3b225cf135cf4a03eff2ebbdf` (contract).
+- Live census after editing: **305 skills / 16 mentor links / 3 Expert Mission links / 4 Advancement Test links / 4 Advancement Test endpoints**.
+- Exact next batch: build the next source-backed canonical relationship layer for Time Rift/Future Saga acquisition routes, beginning with the existing Super Saiyan, Super Vegeta, Turn Golden, Power Pole Pro, Purification, and Future Super Saiyan records. Do not invent mission numbering where the repository does not establish it.
