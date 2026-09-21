@@ -3377,9 +3377,10 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-20 provenance cleanup: the maintained PQ reward map explicitly places this skill in PQ185's skill reward inventory. Older/alternate references have also associated it with PQ186; the canonical route follows the explicit PQ185 mapping without inferring an additional PQ186 route or drop probability.",
       "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
-      "source_quest": 185
+      "source_quest": 185,
+      "source_quest_or_shop": "Parallel Quest 185 — Basic Reward"
     },
     {
       "name": "Justice Pose",
