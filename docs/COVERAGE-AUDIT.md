@@ -4161,3 +4161,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **No canonical race correction is justified.** The three remain `usable_by_cac: true` with `race_restriction: null` pending explicit race-scope evidence.
 - This leaves the live unresolved race-scope set at exactly **3 records**.
 - Exact next task: continue from these three only if new explicit race-scope evidence appears; otherwise move to another concrete data-quality invariant.
+
+
+## 2026-09-21 — acquisition producer/canonical PQ classification alignment
+- Found a concrete producer drift during the cross-field audit: **211 current canonical records** have explicit PQ-number wording in `source_quest_or_shop`/`unlock_method` but retain `acquisition_type: quest_or_mission` because their canonical `source_quest` is a numeric PQ ID.
+- The builder's numbered-PQ rule previously promoted those records to `parallel_quest` during a fresh build, while the canonical catalog deliberately uses `parallel_quest` only for records whose `source_quest` itself carries textual PQ provenance (currently Final Pose / PQ74).
+- Corrected `scripts/build_skills_from_research.py` so numbered PQ text yields `parallel_quest` only when `source_quest` is absent; numeric `source_quest` records continue through `quest_or_mission` classification. TP Medal/Skill Shop precedence remains unchanged.
+- This preserves the existing 248/1/11/9/8/2/4 acquisition census semantics and prevents a fresh producer run from reclassifying the 211-record numeric-PQ cohort.
+- No canonical data was changed.
+- Commit: `26492c947f35359f6f41cfc17ebd062ba6a6635c`.
+- Exact next task: re-audit producer/validator classification against the canonical 283 records and inspect for any remaining fresh-build drift in acquisition type.
