@@ -4551,7 +4551,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — PQ accessory identity reconciliation batch 3
 - Live census before editing: **100 canonical accessory identities; 45 PQ accessory research records; 37 matched PQ accessory endpoints; 8 unresolved research identities**.
 - Bounded batch: **Gine (DB Super)'s Accessory (PQ144), Caulifla's Accessory (PQ147), Kale's Accessory (PQ148)**.
-- Research/evidence: PQ reward guide explicitly lists **Gine (DB Super) Set**, **Caulifla Wig**, and **Kale Wig** for PQ144/PQ147/PQ148 respectively. Independent references identify Gine (DB Super) Set as an accessory and Caulifla/Kale Wigs as DLC accessories. cite markers were intentionally not copied into repository data.
+- Research/evidence: PQ reward guide explicitly lists **Gine (DB Super) Set**, **Caulifla Wig**, and **Kale Wig** for PQ144/PQ147/PQ148 respectively. Independent references identify Gine (DB Super) Set as an accessory and Caulifla/Kale Wigs as DLC accessories. 
 - Changes: added canonical IDs `accr-101` through `accr-103`; synchronized `docs/data/accessory-pq-canonical-bridge.json` and `docs/data/pq-accessory-crosslink-report.json`; updated coverage audit and changelog.
 - Evidence limits/conflicts preserved: **Android 14's Hat, Android 15's Sunglasses, Bardock (DB Super)'s Scouter, and Android 17 (DB Super)'s Ranger Accessory** were not forced into canonical identities because current evidence does not establish those exact distinct inventory labels. **Yamcha's Sword** remains a separate conflicted route. This is intentional uncertainty preservation, not an omission.
 - Validation: all three JSON layers re-fetched and parsed successfully. Live counts after editing: **103 canonical accessory identities / 40 matched PQ accessory endpoints / 5 unresolved research identities**.
@@ -4563,7 +4563,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — PQ accessory identity reconciliation batch 4
 - Live census before editing: **103 canonical accessory identities; 45 PQ accessory research records; 40 matched PQ accessory endpoints; 5 unresolved research identities**.
 - Bounded batch: **Yamcha's Sword (previously conflicted PQ29/PQ36 route)**.
-- Research/evidence: the maintained PQ reward guide directly lists **Yamcha's Sword under PQ36**; an independent Xenoverse equipment reference lists the same exact inventory item as an **Accessory Shop** item. This supports one canonical identity with multiple acquisition routes rather than separate identities. cite markers were intentionally not copied into repository data.
+- Research/evidence: the maintained PQ reward guide directly lists **Yamcha's Sword under PQ36**; an independent Xenoverse equipment reference lists the same exact inventory item as an **Accessory Shop** item. This supports one canonical identity with multiple acquisition routes rather than separate identities. 
 - Changes: added canonical `accr-104`; linked `pqacc-008` to it with the corrected PQ36 route; corrected the bridge summary census; regenerated the forward/reverse cross-link report; updated coverage audit and changelog.
 - Evidence limits/conflicts preserved: the old PQ29 value remains represented only as historical/conflicting research context; it is not treated as a second inventory identity. The four remaining unresolved identities are **Android 14's Hat (PQ104), Android 15's Sunglasses (PQ unresolved), Bardock (DB Super)'s Scouter (PQ146), and Android 17 (DB Super)'s Ranger Accessory (PQ152)**. Current evidence continues to distinguish these from clothing/set records.
 - Validation: canonical accessory JSON, bridge, and cross-link report were re-fetched and parsed successfully. Live counts after editing: **104 canonical accessory identities / 41 matched PQ accessory endpoints / 4 unresolved research identities**. Bridge summary now matches computed counts.
@@ -5750,7 +5750,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Angry Explosion Ki-cost verification
 - Live census before editing: 428 canonical skills; 0 duplicate IDs; 8 nullable ki_cost records.
 - Bounded batch: **Angry Explosion — 300 Ki**.
-- Research/evidence: current Xenoverse 2 skill-reference evidence explicitly lists **Ki Used: 300** for Angry Explosion. The reference also notes the move can be prolonged using additional Ki; the canonical field therefore records the listed/base 300 Ki cost without inventing a variable-cost formula. citeturn0search0turn0search5
+- Research/evidence: current Xenoverse 2 skill-reference evidence explicitly lists **Ki Used: 300** for Angry Explosion. The reference also notes the move can be prolonged using additional Ki; the canonical field therefore records the listed/base 300 Ki cost without inventing a variable-cost formula. 
 - Changes: docs/data/skills.json — Angry Explosion ki_cost=300. Existing classification, acquisition, provenance, and other fields were preserved.
 - Evidence limits: variable extension cost was not normalized because no exact bounded formula was required by this pass.
 - Validation after write: **428 records; 0 duplicate IDs; 7 nullable ki_cost records**.
@@ -5762,7 +5762,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Dead End Rain Ki-cost verification
 - Live census before editing: 428 canonical skills; 0 duplicate IDs; 7 nullable ki_cost records.
 - Bounded batch: **Dead End Rain — 300 Ki**.
-- Research/evidence: the current dedicated Dead End Rain reference explicitly lists **Ki Used: 300**; the Ultimate Attack reference independently lists Dead End Rain at 300 Ki. citeturn0search0turn0search2
+- Research/evidence: the current dedicated Dead End Rain reference explicitly lists **Ki Used: 300**; the Ultimate Attack reference independently lists Dead End Rain at 300 Ki. 
 - Changes: docs/data/skills.json — Dead End Rain ki_cost=300. Existing classification, acquisition, provenance, and other fields were preserved.
 - Evidence limits: only the directly evidenced resource-cost field was changed; no unsupported damage/mechanics values were added.
 - Validation after write: **428 records; 0 duplicate IDs; 6 nullable ki_cost records**.
@@ -5774,7 +5774,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — God of Destruction's Might Ki-cost verification
 - Live census before editing: 428 canonical skills; 0 duplicate IDs; 6 nullable ki_cost records.
 - Bounded batch: **God of Destruction's Might — 400 Ki**.
-- Research/evidence: the current dedicated skill reference explicitly lists **Ki Used: 400**; the broader Ultimate Attack reference independently lists God of Destruction's Might at 400 Ki. citeturn0search0turn0search1
+- Research/evidence: the current dedicated skill reference explicitly lists **Ki Used: 400**; the broader Ultimate Attack reference independently lists God of Destruction's Might at 400 Ki. 
 - Changes: docs/data/skills.json — God of Destruction's Might ki_cost=400. Existing classification, acquisition, provenance, and other fields were preserved.
 - Evidence limits: only the directly evidenced resource-cost field was changed; no unsupported damage/mechanics values were added.
 - Validation after write: **428 records; 0 duplicate IDs; 5 nullable ki_cost records**.
@@ -5807,7 +5807,7 @@ The repository owner has clarified the continuation contract:
 
 ### 2026-09-21 cycle update — DLC provenance correction for God of Destruction's Might
 - Live census before editing: **428 canonical skills**. Acquisition fields were populated across the catalog, but a targeted consistency check found one high-confidence DLC mismatch: **God of Destruction's Might** was marked Base Game while its source PQ176 belongs to Future Saga Chapter 2.
-- Evidence: the current skill reference identifies PQ176 as the unlock quest; current DLC documentation lists PQ175–178 under **DLC 17 / FUTURE SAGA: Chapter 2**. The maintained Steam PQ guide independently labels PQ176 as Future Saga Chapter 2 and lists God of Destruction's Might as a basic reward. citeturn1search0turn1search2turn1search4
+- Evidence: the current skill reference identifies PQ176 as the unlock quest; current DLC documentation lists PQ175–178 under **DLC 17 / FUTURE SAGA: Chapter 2**. The maintained Steam PQ guide independently labels PQ176 as Future Saga Chapter 2 and lists God of Destruction's Might as a basic reward. 
 - Changes: `docs/data/skills.json` and `docs/data/skills-index.json` — `dlc_requirement` corrected from `Base Game` to `Future Saga Chapter 2`; `last_verified` and a provenance correction note updated.
 - Evidence limits: no acquisition route, Ki cost, mechanics, or restriction fields were changed because they were already supported.
 - Commits: `c58185848b12f01687b38282640f03c498247334` (canonical); `35a45e9088084c952b683fd2518ead97239cc390` (index).
@@ -5816,7 +5816,7 @@ The repository owner has clarified the continuation contract:
 
 ### 2026-09-21 cycle update — Extra Pack DLC provenance normalization
 - Live census before editing: **428 canonical skills**. A targeted DLC census found 10 skills still using the ambiguous composite label `Extra Pack 1 / Extra Pack 2`, despite their source PQs falling entirely within a single pack's deterministic range.
-- Evidence: maintained PQ mapping assigns **PQ113–117 to Extra Pack 1** and **PQ118–122 to Extra Pack 2**; official Bandai Namco documentation confirms Extra Pack content includes the added Parallel Quests. citeturn0search5turn0search8
+- Evidence: maintained PQ mapping assigns **PQ113–117 to Extra Pack 1** and **PQ118–122 to Extra Pack 2**; official Bandai Namco documentation confirms Extra Pack content includes the added Parallel Quests. 
 - Changes in `docs/data/skills.json`: 8 affected skills normalized to Extra Pack 1 and 2 affected skills to Extra Pack 2. The generated/index projection did not contain the `dlc_requirement` field, so no artificial index field was introduced.
 - Additional bounded normalization: `FUTURE SAGA Chapter 3` → `Future Saga Chapter 3` for Chaotic Time Impact, Dark Inscription, and Emperor's Cannon, aligning the value with the repository's canonical chapter naming.
 - Validation after write: **428 records; 0 duplicate IDs; 1 nullable ki_cost (Dimension Cannon); 428/428 canonical IDs represented in skills-index.json; 0 legacy composite/case-variant labels; 0 internal citation artifacts in changed data/index files.**
@@ -5828,7 +5828,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Sudden Death Beam DLC provenance correction
 - Live census before editing: **428 canonical skills**. The remaining non-canonical/composite DLC census contained four notable legacy values: a now-corrected Base Game + later STP/raid label, Resurrection 'F' Pack / DLC Pack 3, Free Update 1.14-era distribution / TP Medal Shop, and a platform-dependent Masters Pack label.
 - Bounded batch: **Sudden Death Beam** only.
-- Evidence: current Xenoverse 2 skill documentation identifies Sudden Death Beam as part of **Super Pack 3**; its TP Medal Shop/STP Medal Shop/Double Crystal Raid entries are acquisition routes. Official Bandai Namco's 2017 content-update notice independently records Sudden Death Beam in the TP Medal Shop rotation. citeturn0search1turn0search4
+- Evidence: current Xenoverse 2 skill documentation identifies Sudden Death Beam as part of **Super Pack 3**; its TP Medal Shop/STP Medal Shop/Double Crystal Raid entries are acquisition routes. Official Bandai Namco's 2017 content-update notice independently records Sudden Death Beam in the TP Medal Shop rotation. 
 - Change: `docs/data/skills.json` — `dlc_requirement` changed from `Base Game + later STP/raid distribution` to `Super Pack 3`; acquisition fields were preserved.
 - Validation after write: **428 records; 0 duplicate IDs; 0 records remain under the former Base Game + later STP/raid label.**
 - CI: workflow lookup for commit `eefa06170c5d4c3f55f0a678d97977bf44292dfb` has not yet exposed a run; CI success is not claimed.
@@ -5851,7 +5851,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Divine Kamehameha update provenance normalization
 - Workstream: P1 skill acquisition/DLC-version provenance cleanup, continuing the bounded normalization of deterministic originating-update labels.
 - Live census before editing: **428 canonical skills; 0 duplicate IDs; 1 nullable `ki_cost` record (Dimension Cannon by design)**. The remaining context-rich labels included Divine Kamehameha (`Free Update 1.14-era distribution / TP Medal Shop`) and four platform-dependent Masters Pack records.
-- Researched **Divine Kamehameha** specifically. Current references identify it as part of the **1.14.00 update/free-update era** and state that the Future Warrior obtains it through the TP Medal Shop. The dedicated Xenoverse 2 skill reference independently confirms TP Medal Shop unlock and 200 Ki. citeturn1search0turn0search1
+- Researched **Divine Kamehameha** specifically. Current references identify it as part of the **1.14.00 update/free-update era** and state that the Future Warrior obtains it through the TP Medal Shop. The dedicated Xenoverse 2 skill reference independently confirms TP Medal Shop unlock and 200 Ki. 
 - Changes: `docs/data/skills.json` — changed `dlc_requirement` from `Free Update 1.14-era distribution / TP Medal Shop` to `Free Update 1.14`; updated `last_verified` to 2026-09-21 and appended a bounded provenance note. Existing TP Medal Shop acquisition fields were preserved.
 - Evidence limits: this pass distinguishes the originating free update from the acquisition channel. It does not claim that TP Medal Shop availability is permanent or that the move belongs to a paid DLC pack. A secondary Xenoverse 2 chronology source describes the same skill under a later-numbered free-update entry, so the canonical label follows the directly cited 1.14.00-specific skill evidence already aligned with the repository's prior classification rather than silently changing historical version numbering.
 - Validation after write: **428 records; 0 duplicate IDs; 1 nullable `ki_cost`; former Divine Kamehameha composite label has 0 records.** No generated/index field was invented because `dlc_requirement` is absent from the index projection.
@@ -5962,7 +5962,7 @@ The repository owner has clarified the continuation contract:
 
 ### 2026-09-21 cycle update — Data Input provenance correction
 - Workstream: P1 skill DLC/version provenance cleanup.
-- Deterministic finding: `Data Input` was incorrectly labeled `Extra Pack 1`. Official Extra Pack 1 listings state **13 new skills**; the documented Extra Pack 1 skill roster contains those 13 but not Data Input. Contemporary evidence identifies Data Input as an Expert Mission 20 reward from the free update. citeturn0search0turn1search1turn2search0
+- Deterministic finding: `Data Input` was incorrectly labeled `Extra Pack 1`. Official Extra Pack 1 listings state **13 new skills**; the documented Extra Pack 1 skill roster contains those 13 but not Data Input. Contemporary evidence identifies Data Input as an Expert Mission 20 reward from the free update. 
 - Canonical change in `docs/data/skills.json`: `Data Input.dlc_requirement` → `Free Update 5`; refreshed `last_verified=2026-09-21`; appended bounded provenance note. Existing acquisition route (`Expert Mission 20`) and all mechanics/cost/restriction fields were preserved.
 - Important distinction: Android 13 has Data Input in its preset, but character association does not establish DLC acquisition provenance; the repository now separates the free-update skill acquisition from the Extra Pack 1 character.
 - Commits: `b6ce3fc487e275c8eefa503921`; `106add48d70278c8685bbabb59ba110811615492` (TODO ledger).
@@ -5975,7 +5975,7 @@ The repository owner has clarified the continuation contract:
 
 ### 2026-09-21 cycle update — character-association DLC census
 - Audited Extra Pack 2/3/4 character-associated skill records against direct acquisition/source data and official package descriptions.
-- Extra Pack 2 records Power Impact, Power Rush, Meditation, and Rough Ranger are directly tied to PQ119/120/122 and retain `Extra Pack 2`; official package documentation confirms Extra Pack 2 introduced 8 skills. citeturn0search0turn0search3
+- Extra Pack 2 records Power Impact, Power Rush, Meditation, and Rough Ranger are directly tied to PQ119/120/122 and retain `Extra Pack 2`; official package documentation confirms Extra Pack 2 introduced 8 skills. 
 - Extra Pack 3's eight records are tied to PQ123–127 and retain `Extra Pack 3`; Extra Pack 4's eight records are tied to PQ128–132 and retain `Extra Pack 4`.
 - Character association was deliberately not treated as sufficient provenance: Blazing Attack is associated with Goku (Ultra Instinct) but its acquisition is PQ136 and its label remains `Ultra Pack 1`; Surging Spirit intentionally retains composite `Extra Pack 2; Conton City Vote Pack` provenance.
 - No canonical data changes were made in this pass.
@@ -6056,7 +6056,7 @@ The repository owner has clarified the continuation contract:
 - Workstream: P1 skill DLC/version provenance cleanup.
 - Live census before editing: **428 canonical skill records; 0 duplicate IDs; 0 nullable `ki_cost` records**. The live DLC census showed **7** records labeled `Legendary Pack 1`, including Final Explosion.
 - Bounded batch: **Final Explosion** only.
-- Research/evidence: current skill documentation identifies Final Explosion as a TP Medal Shop acquisition; historical 2016-era TP Medal Shop listings independently document the skill in the original game's shop rotation. The later use of Final Explosion by SSGSS Vegeta (Evolved) does not establish Legendary Pack 1 acquisition provenance. Official Bandai Namco DLC documentation states Legendary Pack 1 introduced 6 additional moves, consistent with removing this base-game shop skill from that DLC provenance cluster. cite markers are intentionally not persisted in repository prose; canonical source URLs remain in the skill record.
+- Research/evidence: current skill documentation identifies Final Explosion as a TP Medal Shop acquisition; historical 2016-era TP Medal Shop listings independently document the skill in the original game's shop rotation. The later use of Final Explosion by SSGSS Vegeta (Evolved) does not establish Legendary Pack 1 acquisition provenance. Official Bandai Namco DLC documentation states Legendary Pack 1 introduced 6 additional moves, consistent with removing this base-game shop skill from that DLC provenance cluster. 
 - Changes: `docs/data/skills.json` — `Final Explosion.dlc_requirement` changed from `Legendary Pack 1` to `Base Game`; `last_verified` refreshed to `2026-09-21`; bounded provenance note appended. No mechanics, cost, acquisition route, restriction, or character-association field was changed.
 - Validation after write: **428 records / 0 duplicate IDs / 0 nullable `ki_cost` / 6 Legendary Pack 1 records**. Final Explosion was re-read from the live canonical file.
 - Evidence limits: this was a provenance-only correction. The existing canonical record still contains its pre-existing mechanics/cost fields; those were intentionally left outside this batch's scope.
@@ -6261,7 +6261,7 @@ The repository owner has clarified the continuation contract:
 - Deterministic mismatch: **Emperor's Death Beam** was labeled `Resurrection 'F' Pack`, but Xenoverse 2 launch-era TP Medal Shop evidence places it in the base game's TP Medal Shop pool; the cited Resurrection 'F' Pack is from the original Xenoverse context and is not the correct Xenoverse 2 DLC classification.
 - Changes: corrected only `dlc_requirement` from `Resurrection 'F' Pack` to `Base Game`, refreshed verification metadata, and added launch-era TP Medal Shop evidence. No cost, mechanics, acquisition, or CaC fields were changed.
 - Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values**. The index was not changed because `dlc_requirement` is outside its projection.
-- Evidence: current dedicated skill reference identifies TP Medal Shop acquisition; contemporaneous Xenoverse 2 TP Medal Shop listings and location discussion place Emperor's Death Beam in the base game's shop pool. citeturn3search0turn3search1turn3search3
+- Evidence: current dedicated skill reference identifies TP Medal Shop acquisition; contemporaneous Xenoverse 2 TP Medal Shop listings and location discussion place Emperor's Death Beam in the base game's shop pool. 
 - Canonical commit: `d61bb7e59769b02ea755f720fd58f1539cbabd8a`.
 - CI: no workflow success is claimed unless GitHub exposes an actual run/check.
 - Exact next batch: **recompute the DLC/free-update provenance census and select the next concrete mismatch; prioritize labels whose content model conflicts with Xenoverse 2's actual acquisition/package structure, while preserving intentional character-only/composite labels.**
@@ -6269,14 +6269,14 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 continuation — Lightning Impact provenance strengthening
 - Workstream: **P1 skill provenance/source-strengthening after DLC census**.
 - Live target: **Lightning Impact** (Ultra Pack 2, PQ142).
-- Existing facts were internally consistent; this was a source-strengthening correction rather than a semantic/DLC relabel. Added independent current skill, contemporaneous PQ reward, and maintained all-PQ guide sources documenting **Parallel Quest 142 — Timespace Tussle, Basic Reward**. citeturn1search1turn1search4turn1search6
+- Existing facts were internally consistent; this was a source-strengthening correction rather than a semantic/DLC relabel. Added independent current skill, contemporaneous PQ reward, and maintained all-PQ guide sources documenting **Parallel Quest 142 — Timespace Tussle, Basic Reward**. 
 - No gameplay values, DLC classification, Ultimate Finish flag, or acquisition semantics were changed.
 - Canonical commit: `d6013a3c9c4656fe95196fdd93e2e32703567a17`.
 - Exact next batch: **continue the live skill provenance census by checking the remaining low-source-count or semantically fragile DLC records; prioritize a concrete source gap or provenance conflict, and do not rewrite already-consistent records merely for stylistic reasons.**
 
 ### 2026-09-21 continuation — Kamehameha source-PQ reconciliation
 - Workstream: **P1 skill provenance/source-PQ integrity**.
-- Concrete mismatch found in live canonical data: **Kamehameha** incorrectly listed PQ48 in `source_parallel_quests`. PQ48 actually rewards **Kamekameha**, a distinct skill; PQ05 explicitly lists **Kamehameha** as a Basic Reward. citeturn2search1turn2search2turn2search0
+- Concrete mismatch found in live canonical data: **Kamehameha** incorrectly listed PQ48 in `source_parallel_quests`. PQ48 actually rewards **Kamekameha**, a distinct skill; PQ05 explicitly lists **Kamehameha** as a Basic Reward. 
 - Corrected `source_parallel_quests` from `[5,48]` to `[5]`, strengthened sources, and preserved the existing Base Game / PQ05 / non-UF acquisition semantics.
 - Canonical commit: `48d0d0b7bd17e4f858c565d189feb12e189fba88`.
 - Exact next batch: continue the remaining low-source-count records, checking source-PQ relationships for similarly conflated skill names before making broader enrichment changes.
@@ -6315,7 +6315,7 @@ The repository owner has clarified the continuation contract:
 - Workstream: **P1 skill provenance/source integrity**.
 - Live census after the prior batch: **452 canonical skill records / 452 index records**; no single-source records remained. The next deterministic target was the two-source acquisition cluster.
 - Concrete bounded target: **Angry Explosion**. Its existing Expert Mission 12 acquisition was internally consistent, but provenance was only two sources.
-- Strengthened to **three sources**: direct skill documentation, a launch-era all-Expert-Missions guide listing **EM12 — Attack of the Lone Supersoldier → Angry Explosion** as a Basic Reward, and a contemporaneous EM12 gameplay walkthrough documenting the unlock route. citeturn1search0turn1search7turn1youtube37
+- Strengthened to **three sources**: direct skill documentation, a launch-era all-Expert-Missions guide listing **EM12 — Attack of the Lone Supersoldier → Angry Explosion** as a Basic Reward, and a contemporaneous EM12 gameplay walkthrough documenting the unlock route. 
 - No acquisition, gameplay, DLC, reward-tier, or character semantics were changed.
 - Canonical commit: **`2cf689d7308f87acb711a28d20eb7fbf6ef6d2ce`**.
 - Exact next batch: **continue the two-source cluster, prioritizing concrete acquisition records where independent quest/reward evidence can strengthen provenance without semantic rewriting.**
@@ -6325,7 +6325,7 @@ The repository owner has clarified the continuation contract:
 - Workstream: **P1 skill provenance/source integrity**.
 - Live two-source cluster: **90 records** after the Angry Explosion batch.
 - Concrete target: **Afterimage Strike**, whose canonical acquisition is **PQ81 / Wake Up!**.
-- Strengthened provenance with two independent PQ reward guides. Both identify **PQ81** and list **Afterimage Strike** among its Basic Rewards. citeturn1search3turn1search6
+- Strengthened provenance with two independent PQ reward guides. Both identify **PQ81** and list **Afterimage Strike** among its Basic Rewards. 
 - Existing acquisition semantics were preserved; no drop-rate, Ultimate Finish, DLC, or gameplay semantics were invented.
 - Canonical commit: **`7b33e464fba3c887b8cce2e3ac23d287e83930ca`**.
 - Exact next batch: **continue the remaining two-source cluster, prioritizing quest/PQ acquisition records with directly checkable independent reward evidence.**
@@ -6335,7 +6335,7 @@ The repository owner has clarified the continuation contract:
 - Workstream: **P1 skill provenance/source integrity** with a concrete acquisition-field integrity correction.
 - Target: **Assault Vanish** / **PQ131 — Fight of the Fusions! Vegito vs Gogeta**.
 - Independent PQ documentation lists Assault Vanish in **PQ131's Basic Reward**, while the prior canonical record claimed a **25% Ultimate Finish roll**.
-- Corrected `unlock_method` to **Parallel Quest 131 Basic Reward**, `ultimate_finish_required` to **false**, and the quest label to the actual PQ name. Added independent PQ reward sources. citeturn1search0turn1search1turn0search8
+- Corrected `unlock_method` to **Parallel Quest 131 Basic Reward**, `ultimate_finish_required` to **false**, and the quest label to the actual PQ name. Added independent PQ reward sources. 
 - No new drop percentage or unsupported prerequisite was retained.
 - Canonical commit: **`2eb625b3cbf1e72b76fd54b8cb84ba1d72319a05`**.
 - Exact next batch: **recompute the two-source census and continue checking low-source acquisition records for concrete source-PQ / reward-tier contradictions before merely adding provenance.**
@@ -6344,7 +6344,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 continuation — PQ148 Legendary Pack 2 provenance cluster
 - Workstream: **P1 skill provenance/source integrity**.
 - Audited the related two-source PQ148 cluster: **Blaster Bomb, Blaster Cannon, Blaster Stream**.
-- Independent PQ documentation identifies **PQ148 — Finding Out About Fusion** and lists all three skills in its Basic Reward set; the official Dragon Ball site independently documents the three skills as Legendary Pack 2 content. citeturn0search3turn0search7turn0search11
+- Independent PQ documentation identifies **PQ148 — Finding Out About Fusion** and lists all three skills in its Basic Reward set; the official Dragon Ball site independently documents the three skills as Legendary Pack 2 content. 
 - Strengthened each record from **2 → 4 sources** without changing acquisition, reward-tier, CaC, or DLC semantics.
 - Canonical commit: **`d57e5de80896db12c7e11f438c89dede057acee7`**.
 - Exact next batch: **recompute the low-source census and continue with the next deterministic acquisition cluster, prioritizing concrete PQ/reward evidence and cross-field contradictions.**
@@ -6353,7 +6353,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 continuation — PQ141 provenance strengthening
 - Workstream: **P1 skill provenance/source integrity**.
 - Targeted the related Ultra Pack 2 PQ141 pair: **Dragon Blitz** and **Brutal Buster**.
-- Independent PQ reward documentation lists both as **Basic Rewards** of **PQ141 — Uub's Ultimate Challenge**; a contemporaneous gameplay walkthrough documents obtaining both skills from PQ141. citeturn0search3turn0youtube12
+- Independent PQ reward documentation lists both as **Basic Rewards** of **PQ141 — Uub's Ultimate Challenge**; a contemporaneous gameplay walkthrough documents obtaining both skills from PQ141. 
 - Strengthened both records from **2 → 4 sources**, preserving their existing PQ141 and Ultra Pack 2 semantics.
 - Canonical commit: **`5d643879eebb9ecee27306719516e5945abd38ec`**.
 - Exact next batch: **recompute the low-source census and continue the next deterministic acquisition cluster, checking reward-tier/source-PQ consistency first.**
@@ -6385,7 +6385,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 continuation — PQ147 Legendary Pack 2 provenance strengthening
 - Live pre-write census: 452 canonical / 452 index; 75 records had exactly two sources.
 - Bounded cluster: Crush Cannon, Double Crush, Crush Stream.
-- Independent PQ147 reward documentation lists all three as Basic Rewards of PQ147 — “Caulifla's Saiyan Search”; official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. citeturn0search1turn0search3
+- Independent PQ147 reward documentation lists all three as Basic Rewards of PQ147 — “Caulifla's Saiyan Search”; official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. 
 - Added the official DLC source to each canonical record and synchronized the index. No acquisition, reward-tier, Ultimate Finish, cost, restriction, or mechanics semantics were changed.
 - Evidence boundary: the official source confirms package-level Legendary Pack 2 provenance, not individual drop slots or probabilities; direct PQ reward evidence remains controlling.
 - Exact next batch: continue the remaining two-source acquisition cluster, prioritizing records with directly checkable PQ/reward evidence and cross-field contradictions.
@@ -6402,7 +6402,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 continuation — low-source PQ provenance strengthening
 - Live pre-write census: **452 canonical / 452 index / 72 two-source records**.
 - Bounded targets: **Candy Beam (Super)** (PQ113), **Crusher Ball** (PQ34), and **Destructive Fracture** (PQ145).
-- Added independent direct skill/PQ evidence for Candy Beam (Super) and Crusher Ball; added contemporaneous official Bandai Namco Legendary Pack 1 provenance for Destructive Fracture. The PQ reward evidence remains controlling for the exact individual skill relationships. citeturn3search0turn3search2turn1search2
+- Added independent direct skill/PQ evidence for Candy Beam (Super) and Crusher Ball; added contemporaneous official Bandai Namco Legendary Pack 1 provenance for Destructive Fracture. The PQ reward evidence remains controlling for the exact individual skill relationships. 
 - No reward tier, drop probability, Ultimate Finish, acquisition, or mechanics semantics were changed.
 - Canonical commit: `8ce9d9570d3a4fafffad67d77453823a370d8158`.
 - Exact next task: recompute the two-source census, synchronize canonical/index parity if needed, and continue the next deterministic low-source acquisition cluster.
@@ -6417,7 +6417,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 continuation — PQ97/PQ110 provenance batch
 - Added independent PQ evidence for **Charged Ki Wave** (PQ97) and **Divinity Unleashed** (PQ110).
 - Canonical commit: `ad74973a48e80c3358f2c33e76953e6f7d7f7e27`; index sync: `1dae9ce373542babde192d4e192f2a6127b305ed`.
-- Web verification confirms PQ97 lists Charged Ki Wave as a Basic Reward and PQ110 lists Divinity Unleashed as a skill reward. citeturn0search14turn0search1
+- Web verification confirms PQ97 lists Charged Ki Wave as a Basic Reward and PQ110 lists Divinity Unleashed as a skill reward. 
 - Next task: recompute the two-source census, validate canonical/index parity, and continue the next deterministic low-source cluster.
 
 ### 2026-09-21 continuation — PQ171 provenance batch
