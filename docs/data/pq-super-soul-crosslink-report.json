@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 114,
+  "canonical_target_records": 122,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -275,6 +275,22 @@
       "target_name": "See? It's a good thing I was here, right?",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/see-its-a-good-thing-i-was-here-right.md"
+    },
+    {
+      "pq_id": "pq-159",
+      "pq_number": 159,
+      "target_id": "super-soul-120",
+      "target_name": "Enter the hero!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/enter-the-hero.md"
+    },
+    {
+      "pq_id": "pq-159",
+      "pq_number": 159,
+      "target_id": "super-soul-121",
+      "target_name": "The Red Ribbon Army is back in business!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/the-red-ribbon-army-is-back-in-business.md"
     },
     {
       "pq_id": "pq-160",
@@ -761,6 +777,26 @@
       "pq_numbers": [
         162
       ]
+    },
+    {
+      "target_id": "super-soul-120",
+      "target_name": "Enter the hero!",
+      "pq_ids": [
+        "pq-159"
+      ],
+      "pq_numbers": [
+        159
+      ]
+    },
+    {
+      "target_id": "super-soul-121",
+      "target_name": "The Red Ribbon Army is back in business!",
+      "pq_ids": [
+        "pq-159"
+      ],
+      "pq_numbers": [
+        159
+      ]
     }
   ],
   "unresolved_target_routes": [
@@ -1123,16 +1159,46 @@
       "target_id": "super-soul-117",
       "target_name": "Not a single word!",
       "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-122",
+      "target_name": "Something deadly's about to happen...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-123",
+      "target_name": "I never could've gotten here on my own!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-124",
+      "target_name": "I have an unlimited energy supply...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-125",
+      "target_name": "Die!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-126",
+      "target_name": "I'd rather fight alone and die!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-127",
+      "target_name": "That's a dead ball now, right?",
+      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 114,
-    "forward_edge_count": 42,
-    "reverse_edge_count": 42,
-    "unique_pq_endpoints": 33,
-    "unique_target_endpoints": 42,
-    "unresolved_target_route_count": 72,
+    "canonical_target_records": 122,
+    "forward_edge_count": 44,
+    "reverse_edge_count": 44,
+    "unique_pq_endpoints": 34,
+    "unique_target_endpoints": 44,
+    "unresolved_target_route_count": 78,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0
   }
