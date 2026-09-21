@@ -436,3 +436,12 @@
 - External mentor references corroborate that mentors teach signature skills through initiation/lesson progression; official Bandai Namco documentation confirms the mentor system teaches character moves. citeturn0search4turn0search3
 - The previous coverage audit's mentor count is now refined from 17 directly verified routes to **16**, because only 16 canonical skill records currently contain an exact mentor-training route that could be deterministically linked without guessing.
 - Exact next batch: **finish the remaining mentor acquisition mappings by auditing the existing 33 mentor identities against all skill records, then create the Expert Mission record layer for the 3 EM-linked skills (Data Input, Super Spirit Bomb, Supernova).**
+
+
+## 2026-09-21 — Pan/Jaco/Goku/Bardock mentor skill expansion
+- Added 13 missing canonical mentor-taught skills across Pan, Jaco, Goku, and Bardock; existing Dancing Parapara, Spirit Bomb, and Instant Transmission records were reused rather than duplicated.
+- Synchronized `skills.json`, `skills-index.json`, and `mentors-record-layer.json` so all 16 lesson endpoints for the four mentors now resolve to deterministic canonical skill IDs.
+- Added evidence-bounded acquisition/classification/mechanics fields for Prepare to be Punished, Feint Shot, Maiden Blast, Hero's Pose, Elite Beam, Elite Shooting, Super Elite Combo, x10 Kamehameha, Super Kamehameha, Tyrant Lancer, Rebellion Spear, Riot Javelin, and Brave Heat.
+- Preserved mentor provenance bidirectionally through `source_mentor` and mentor lesson `skill_id` fields. No unsupported drop rates, Ultimate Finish gates, or narrower CaC restrictions were inferred.
+- Live skill census after expansion: **397 canonical skills / 397 skill-index records**; taxonomy totals remain synchronized.
+- Mentor coverage after expansion: **108 linked lesson→skill edges / 21 fully linked mentors / 8 partially linked mentors / 34 unresolved lesson endpoints**.
