@@ -4278,3 +4278,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - This keeps internal batch identity out of canonical docs/data/skills.json records and leaves the final schema validator authoritative for canonical output.
 - Commit: 88e70b4fd8bf25f48c517d4d51ba21b7d27c562b — Keep research batch IDs out of canonical skill output.
 - Next task: audit whether local-batch record-level metadata can overwrite protected/curated fields during merge_record(), particularly research_status, sources, and correction-related metadata; preserve curated protections and provenance semantics.
+
+
+## 2026-09-21 continuation — local-batch overwrite audit
+- Audited merge_record() after removing research_batch propagation.
+- Protected canonical records are only filled from incoming non-empty values when the existing field is absent/blank, so ordinary local-batch records cannot overwrite curated non-empty fields. Provenance sources are intentionally merged rather than replaced.
+- Correction records remain the explicit override path: declared correction_fields authorize replacement/clearing, while correction destinations become protected afterward. research_status can therefore change only through an explicit correction, consistent with the correction model.
+- No additional code change was warranted by this audit.
+- Next task: inspect the canonical field allowlist used for correction_fields against the actual schema and generated projection, looking for fields accepted by the correction layer but impossible to represent canonically or fields missing from the allowlist that legitimate corrections need.
