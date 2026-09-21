@@ -11262,7 +11262,8 @@
       "id": "skill-blaster-meteor",
       "source_mentor": [
         "mentor-broly"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Gigantic Omega",
