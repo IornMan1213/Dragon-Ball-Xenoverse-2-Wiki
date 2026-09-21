@@ -1085,3 +1085,8 @@
 - Audited PQ21-PQ30 against the maintained research batch.
 - Confirmed the canonical reward and cross-domain reward fields already match the researched basic-reward inventories; no canonical PQ data rewrite was required.
 - Preserved unresolved reward-slot/drop semantics and did not infer Ultimate Finish-only gates.
+
+## 2026-09-21 — Future Saga Chapter 1 skill provenance correction
+- Corrected Divine Ray Bomb's DLC provenance from Future Saga Chapter 2 to Future Saga Chapter 1.
+- Corrected the authoritative skill display name from Giant Cluster to Gigantic Cluster while preserving the stable repository ID.
+- Synchronized the skill index record count to 429.
