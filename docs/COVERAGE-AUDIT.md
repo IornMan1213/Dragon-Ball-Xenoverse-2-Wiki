@@ -4622,3 +4622,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: not yet inspected for the new commit; do not claim CI success.
 - Commit: `0865f3d3f7a7281c81effdd0b27e6d7cb2cdd76a`.
 - Exact next batch: **recompute the live skill-index projection census and select the next bounded deterministic mismatch family; do not invent new values where canonical evidence is absent.**
+
+
+### 2026-09-21 — Skill-index source_parallel_quests projection parity
+- Live census: **429 canonical skills / 429 skill-index records**.
+- Bounded deterministic batch: **5 source_parallel_quests projections** — Candy Beam → [66, 113]; Kamehameha → [5, 48]; Mach Dash → [11, 18]; Time Control → [11, 18]; Warp Kamehameha → [66, 76].
+- Evidence: canonical `docs/data/skills.json` is the producer; the index values were corrected to the existing canonical quest arrays. No new acquisition claim was introduced.
+- Validation: both JSON layers parsed; targeted canonical→index comparison reports **0 source_parallel_quests mismatches**; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: not yet exposed for this commit; no CI success claimed.
+- Commit: `69404599e87914ea5dafe993a154d1e86b0312c9`.
+- Exact next batch: **recompute the projection census and take the next small deterministic field family, prioritizing any remaining canonical/index drift over speculative research.**
