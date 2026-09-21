@@ -1,3 +1,10 @@
+## September 2026 — PQ ↔ skill relationship reconciliation
+
+- Reconciled the canonical Parallel Quest skill endpoints against the current 429-record skill registry.
+- Added missing `skill_ids` / `skill_rewards` edges for PQ11–14, PQ46, PQ49, PQ57, PQ66, PQ86–87, PQ106, PQ113, and PQ176 where the canonical skill registry already carried verified `source_parallel_quests` or the PQ record already carried the corresponding skill reward.
+- Rebuilt `docs/data/pq-skill-crosslink-report.json` from the canonical PQ and skill registries: **244 forward / 244 reverse / 0 unresolved / 0 orphaned**.
+- Preserved deterministic skill IDs and did not infer any new reward relationship from enemy appearance alone.
+
 ## September 2026 — deterministic skill IDs and cross-database linkage
 
 - Added deterministic IDs to all 283 canonical skill records and synchronized the skill index.
