@@ -4897,3 +4897,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: **423 canonical skills / 423 index records / 423 taxonomy total / 133 mentor lessons / 132 resolved lesson edges / 1 non-skill unresolved mentor endpoint / 33 Dual Ultimate records / 33 resolved Dual Ultimate base links / 0 unresolved Dual base links / 32 fully linked mentors / 1 partially linked mentor**.
 - The remaining lesson-layer unresolved endpoint is Zamasu's `I'm thinking of becoming a GodTuber`, explicitly typed by external evidence as a Super Soul; it must not be fabricated as a skill.
 - Exact next work: continue expanding the cross-database graph beyond mentors, prioritizing **skill ↔ PQ / Expert Mission / shop / Super Soul / mentor relationships**, so users can traverse from an acquisition source to a skill and onward to its complete details and related rewards without dead ends.
+
+
+### 2026-09-21 cycle update — PQ → skill reverse-link reconciliation
+- Audited `pq-reward-relationships.json` against the current 429-record canonical skill registry rather than trusting the older 305-record crosslink snapshot.
+- Resolved all seven previously unmatched PQ skill relationship targets: **III Bomber, Starfall → Destruction's Concerto: Starfall, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**.
+- Added missing canonical skill endpoints where exact identity was verified and synchronized `source_parallel_quests` for all 236 verified PQ→skill edges.
+- `pq-skill-crosslink-report.json` is now synchronized at **236 forward / 236 reverse / 0 unresolved / 0 orphaned**.
+- Current canonical census: **429 skills / 429 index records / 429 taxonomy total**.
+- Important finding: the repository's PQ relationship architecture was already substantially built; the immediate high-value gap was endpoint drift caused by later skill expansion. Continue auditing existing relationship layers against the current canonical registries before creating redundant new systems.
+- Exact next work: audit the remaining PQ reverse domains (Super Souls, equipment/accessories, characters, DLC) against their current canonical registries, then expand PQ records where the existing relationship layer has verified evidence but missing canonical endpoints. Preserve source-backed aliases and never infer reward relationships from mere enemy appearance.
