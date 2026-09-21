@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 129,
-  "linked_skill_edges": 70,
-  "unresolved_skill_endpoints": 59,
-  "fully_linked_mentors": 14,
-  "partially_linked_mentors": 18,
+  "linked_skill_edges": 79,
+  "unresolved_skill_endpoints": 50,
+  "fully_linked_mentors": 17,
+  "partially_linked_mentors": 15,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -245,13 +245,12 @@
         "Dual Destructo-Disc"
       ],
       "linked_skill_ids": [
-        "skill-deadly-dance"
+        "skill-power-blitz",
+        "skill-endless-shoot",
+        "skill-deadly-dance",
+        "skill-dual-destructo-disc"
       ],
-      "unresolved_skill_names": [
-        "Power Blitz",
-        "Endless Shoot",
-        "Dual Destructo-Disc"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-android-16",
@@ -280,13 +279,12 @@
         "Perfect Kamehameha"
       ],
       "linked_skill_ids": [
-        "skill-perfect-shot"
+        "skill-all-clear",
+        "skill-gravity-impact",
+        "skill-perfect-shot",
+        "skill-perfect-kamehameha"
       ],
-      "unresolved_skill_names": [
-        "All Clear",
-        "Gravity Impact",
-        "Perfect Kamehameha"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-slug",
@@ -299,14 +297,13 @@
         "Darkness Rush (Melee)"
       ],
       "linked_skill_ids": [
+        "skill-evil-eyes",
+        "skill-darkness-eye-beam",
+        "skill-darkness-twin-star",
         "skill-darkness-rush-ranged",
         "skill-darkness-rush-melee"
       ],
-      "unresolved_skill_names": [
-        "Evil Eyes",
-        "Darkness Eye Beam",
-        "Darkness Twin Star"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-majin-buu",
@@ -583,5 +580,5 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
   ],
-  "canonical_skill_records": 359
+  "canonical_skill_records": 368
 }
