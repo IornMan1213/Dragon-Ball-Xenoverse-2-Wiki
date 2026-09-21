@@ -10642,11 +10642,12 @@
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-eagle-kick",
       "source_mentor": [
         "mentor-gohan-videl"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Justice Rush",
@@ -10669,11 +10670,12 @@
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-justice-rush",
       "source_mentor": [
         "mentor-gohan-videl"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Hawk Charge",
@@ -10696,11 +10698,12 @@
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-hawk-charge",
       "source_mentor": [
         "mentor-gohan-videl"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Justice Combination",
@@ -10723,11 +10726,12 @@
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.",
       "id": "skill-justice-combination",
       "source_mentor": [
         "mentor-gohan-videl"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Super Ghost Kamikaze Attack",
