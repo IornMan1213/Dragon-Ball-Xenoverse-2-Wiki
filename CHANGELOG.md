@@ -322,3 +322,10 @@
 - Resolved Dimension Ray to 400 Ki and Majin Kamehameha to 100 Ki using current dedicated skill documentation and aggregate skill references.
 - Corrected Neo Wolf Fang Fist from a misleading fixed scalar to a variable-cost representation, documenting its 100–700 Ki range.
 - Synchronized canonical and index projections; both remain at 305 records.
+
+## 2026-09-21 — Reconcile eight PQ accessory identities
+
+- Added canonical accessory identities for **Four-Star Dragon Ball Hat, Chiaotzu's Hat (With Collar), Dore's Scouter, Great Saiyaman Bandana 1, Great Saiyaman Bandana 2, Jaco's State-of-the-Art Radio, Tagoma's Scouter, and SSGSS Goku Wig**.
+- Synchronized the accessory PQ canonical bridge and bidirectional cross-link report so each of the eight research records resolves to a deterministic canonical accessory ID.
+- Cross-link coverage is now **33 matched accessory PQ endpoints / 12 unresolved research identities / 96 canonical accessory identities**.
+- No drop rates, Ultimate Finish requirements, or unsupported acquisition semantics were fabricated.
