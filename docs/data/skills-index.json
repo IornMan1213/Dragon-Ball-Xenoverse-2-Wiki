@@ -3104,13 +3104,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Energy_Field"
+        "https://dbxv2.fandom.com/wiki/Energy_Field",
+        "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/faqs/74285?page=1"
       ],
       "unlock_method": "Parallel Quest 29 — \"The Androids Attack\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Energy Field in Basic Reward. No Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Energy Field in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-21 low-source provenance strengthening: GameFAQs independently lists Energy Field in PQ29\'s reward pool, corroborating the existing PQ29 acquisition endpoint and reward-tier classification.",
       "mechanics_notes": "Dedicated current-version evidence identifies Energy Field as a Ki Blast Evasive skill and lists Android 17, Android 16, Mira, and Android 17 (DB Super) as users. The dedicated reference lists Parallel Quest 29 and 200 Stamina, with the barrier maintained by consuming Ki. The record's existing All CaC races scope is retained; no narrower CaC race/gender/form restriction is inferred.",
       "source_quest": 29,
       "source_quest_or_shop": "Parallel Quest 29 — \"The Androids Attack\""
