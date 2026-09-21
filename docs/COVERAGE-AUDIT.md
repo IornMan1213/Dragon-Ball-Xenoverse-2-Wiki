@@ -4732,3 +4732,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no actionable workflow/status result exposed; **no CI success claimed**.
 - Commit: `28a2e0838aac4eb5b6a0a1e176c622c98687d374`.
 - Exact next batch: **PQ21-PQ30 reward reconciliation**, comparing canonical empty/partial reward inventories against `pq-batch-03.json`; update only explicitly documented reward fields and preserve unresolved drop semantics.
+
+### 2026-09-21 — PQ21-PQ30 reward reconciliation
+
+- Live research census: **186/186 PQ records**, 0 missing and 0 duplicate quest numbers.
+- Bounded comparison of canonical PQ21-PQ30 against `pq-batch-03.json` found the basic reward inventories already aligned. One actionable metadata mismatch was found: PQ22 canonical data listed **Energy Shot** as a skill reward while the research batch omitted it from `skill_rewards`.
+- Repaired `pq-batch-03.json` PQ22 by adding `Energy Shot` and its evidence-boundary drop condition. No probability, slot, or Ultimate Finish-only claim was invented.
+- Validation: PQ21-PQ30 basic reward sets remain aligned; PQ22 skill reward now matches canonical; research coverage remains 186/186 with 0 gaps/duplicates. No validators changed.
+- CI: no actionable workflow/status result exposed; **no CI success claimed**.
+- Commit: `9c39f41ec2a55f12a4bd33f8492d4313f052965e`.
+- Exact next batch: **recompute the live PQ reward mismatch census, then audit the next bounded reward/skill-drop mismatch family rather than assuming every categorized reward omission is an error.**
