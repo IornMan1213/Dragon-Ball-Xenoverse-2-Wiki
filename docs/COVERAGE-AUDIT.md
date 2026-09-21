@@ -3905,3 +3905,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No additional dataset changes were necessary in this pass.
 - Validation: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, and **0** acquisition-critical mismatches.
 - Exact next target: **continue source-quality auditing of the remaining generic shop records, prioritizing records with multiple acquisition routes or historical shop references that may conceal a more precise current route.**
+
+
+## 2026-09-20 — multi-route shop source audit
+- Audited the remaining multi-route / shop-sensitive records, prioritizing **Sudden Death Beam** and **Divine Lasso**.
+- **Sudden Death Beam** is consistently documented as TP Medal Shop acquisition; current repository evidence also records STP Medal Shop and Double Crystal Raid Battle. Bandai Namco's historical 2017 schedule explicitly placed it in the TP Medal Shop rotation. This supports the existing multi-route wording, but does **not** justify a current rotation/timing claim. citeturn0search3turn0search7
+- **Divine Lasso** likewise has documented TP Medal Shop acquisition, with current repository evidence retaining STP Medal Shop and Double Crystal Raid Battle as additional routes. Bandai Namco's historical schedule explicitly listed Divine Lasso in the TP Medal Shop rotation. No additional prerequisite is established. citeturn0search3turn0search5
+- **Quick Sleep** was rechecked: dedicated skill evidence confirms Skill Shop acquisition and that it is restricted to Majin CaCs. This restriction is already represented by the repository's race field, so no dataset edit was necessary. citeturn1search0turn1search12
+- **Bending Kamehameha**, **Big Bang Kamehameha**, and **Divine Kamehameha** were also rechecked. The available evidence confirms their respective Skill Shop / TP Medal Shop routes but does not provide a sufficiently authoritative concrete prerequisite that should replace the current conservative wording. citeturn1search2turn1search8turn0search0
+- No dataset changes were necessary in this cycle.
+- Validation remains: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, **0** acquisition-critical mismatches.
+- Exact next target: **continue source-quality auditing generic shop records, then move to any remaining under-specified non-PQ records only when a concrete, independently supported acquisition condition is available.**
