@@ -12502,6 +12502,7 @@
     },
     {
       "name": "Orin Combo",
+      "ki_cost": 100,
       "class": "Super",
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
@@ -12529,6 +12530,7 @@
     },
     {
       "name": "Scatter Kamehameha",
+      "ki_cost": 300,
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
