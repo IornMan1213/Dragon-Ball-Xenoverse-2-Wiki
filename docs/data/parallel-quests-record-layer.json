@@ -675,7 +675,12 @@
         "Guldo",
         "Captain Ginyu"
       ],
-      "rewards": [],
+      "rewards": [
+        "660 Zeni",
+        "Small Mix Capsule",
+        "Time Control",
+        "Mach Dash"
+      ],
       "skill_rewards": [
         "Time Control",
         "Mach Dash"
@@ -684,16 +689,21 @@
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "unlock_method": "Progress through the base Parallel Quest chain.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "notes": "Guldo's health-preservation condition is critical to the Ultimate Finish path. Exact drop tables remain to be reconciled.",
+      "notes": "2026-09-21 reward reconciliation: maintained PQ research batch explicitly documents the basic reward set. Time Control and Mach Dash are established as rewards; exact individual slot/probability semantics remain unresolved.",
       "skill_ids": [
         "skill-time-control",
         "skill-mach-dash"
-      ]
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-019",
@@ -717,7 +727,11 @@
         "Guldo",
         "Frieza"
       ],
-      "rewards": [],
+      "rewards": [
+        "770 Zeni",
+        "Mach Punch",
+        "Fighting Pose E"
+      ],
       "skill_rewards": [
         "Mach Punch",
         "Fighting Pose E"
@@ -726,16 +740,21 @@
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "unlock_method": "Progress through the base Parallel Quest chain.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "notes": "The five-minute hidden condition is explicitly sourced. Exact reward and drop records remain unresolved.",
+      "notes": "2026-09-21 reward reconciliation: maintained PQ research batch explicitly documents the basic reward set. Mach Punch and Fighting Pose E are established as rewards; exact individual slot/probability semantics remain unresolved.",
       "skill_ids": [
         "skill-mach-punch",
         "skill-fighting-pose-e"
-      ]
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-020",
@@ -755,7 +774,12 @@
         "Frieza Force soldiers",
         "Frieza"
       ],
-      "rewards": [],
+      "rewards": [
+        "780 Zeni",
+        "Energy Shard",
+        "Small Mix Capsule",
+        "Mystic Flash"
+      ],
       "skill_rewards": [
         "Mystic Flash"
       ],
@@ -763,15 +787,20 @@
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "unlock_method": "Progress through the base Parallel Quest chain.",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "notes": "The 20-soldier and 10-minute conditions are source-backed. Exact reward/drop data remains to be reconciled.",
+      "notes": "2026-09-21 reward reconciliation: maintained PQ research batch explicitly documents the basic reward set. Mystic Flash is established as a reward; exact individual slot/probability semantics remain unresolved.",
       "skill_ids": [
         "skill-mystic-flash"
-      ]
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-021",
