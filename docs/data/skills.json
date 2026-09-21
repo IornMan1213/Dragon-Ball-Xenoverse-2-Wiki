@@ -5187,15 +5187,16 @@
       "unlock_method": "Kid Gohan mentor training — Lesson 2.",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "usable_by_cac": true,
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-gohan-kid added for the documented mentor-training acquisition route.",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Kid) mentor training — School Quest Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "id": "skill-masenko"
+      "id": "skill-masenko",
+      "source_mentor": "mentor-gohan-kid"
     },
     {
       "name": "Maximum Charge",
@@ -5552,13 +5553,14 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Cell (Perfect)",
       "mechanics": "Slow, tracking Ki Blast Super; charged finger shot.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-cell added for the documented mentor-training acquisition route.",
       "source_quest": "Cell (Perfect) mentor training",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "id": "skill-perfect-shot"
+      "id": "skill-perfect-shot",
+      "source_mentor": "mentor-cell"
     },
     {
       "name": "Petrifying Spit",
@@ -6353,14 +6355,15 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training — Initiation Test",
-      "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina.",
-      "last_verified": "2026-09-20",
+      "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-krillin added for the documented mentor-training acquisition route.",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-rise-to-action"
+      "id": "skill-rise-to-action",
+      "source_mentor": "mentor-krillin"
     },
     {
       "name": "Rising Rage",
@@ -6633,17 +6636,18 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Cooler's Lesson 1 — complete the instructor lesson to receive Shadow Crusher as the Basic Reward.",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 1",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-cooler added for the documented mentor-training acquisition route.",
       "source_quest": "Cooler (Final Form) mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-shadow-crusher"
+      "id": "skill-shadow-crusher",
+      "source_mentor": "mentor-cooler"
     },
     {
       "name": "Shield Barrier",
@@ -6973,13 +6977,14 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Goku",
       "mechanics": "Ki Blast Super learned from Goku mentor training; charge/release projectile.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
-      "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile.",
+      "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-goku added for the documented mentor-training acquisition route.",
       "source_quest": "Goku mentor training",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "id": "skill-spirit-bomb"
+      "id": "skill-spirit-bomb",
+      "source_mentor": "mentor-goku"
     },
     {
       "name": "Spirit Boost",
@@ -7984,17 +7989,18 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Lesson 1 — complete the instructor lesson to receive Time Skip/Back Breaker as the Basic Reward.",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Lesson 1",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-time-skip-back-breaker"
+      "id": "skill-time-skip-back-breaker",
+      "source_mentor": "mentor-hit"
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -8009,17 +8015,18 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Initiation Test — complete the instructor lesson to receive Time Skip/Flash Skewer as the Basic Reward.",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Initiation Test",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Initiation Test",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-time-skip-flash-skewer"
+      "id": "skill-time-skip-flash-skewer",
+      "source_mentor": "mentor-hit"
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -8034,17 +8041,18 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Lesson 2 — complete the instructor lesson to receive Time Skip/Jump Spike as the Basic Reward.",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Lesson 2",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Lesson 2",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-time-skip-jump-spike"
+      "id": "skill-time-skip-jump-spike",
+      "source_mentor": "mentor-hit"
     },
     {
       "name": "Total Detonation Ball",
