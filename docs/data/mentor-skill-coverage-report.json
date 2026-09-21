@@ -1,0 +1,587 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "generated_by": "manual_canonical_sync_2026-09-21",
+  "scope": "All 33 mentor lesson-to-skill coverage audit",
+  "canonical_mentor_records": 33,
+  "mentors_audited": 33,
+  "lesson_records_audited": 129,
+  "linked_skill_edges": 17,
+  "unresolved_skill_endpoints": 112,
+  "fully_linked_mentors": 2,
+  "partially_linked_mentors": 31,
+  "records": [
+    {
+      "mentor_id": "mentor-krillin",
+      "mentor_name": "Krillin",
+      "lesson_skill_names": [
+        "Rise to Action",
+        "Orin Combo",
+        "Destructo-Disc",
+        "Scatter Kamehameha"
+      ],
+      "linked_skill_ids": [
+        "skill-rise-to-action",
+        "skill-destructo-disc"
+      ],
+      "unresolved_skill_names": [
+        "Orin Combo",
+        "Scatter Kamehameha"
+      ]
+    },
+    {
+      "mentor_id": "mentor-tien",
+      "mentor_name": "Tien",
+      "lesson_skill_names": [
+        "Dodon Ray",
+        "Volleyball Fist",
+        "Tri-Beam",
+        "Neo Tri-Beam"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Dodon Ray",
+        "Volleyball Fist",
+        "Tri-Beam",
+        "Neo Tri-Beam"
+      ]
+    },
+    {
+      "mentor_id": "mentor-yamcha",
+      "mentor_name": "Yamcha",
+      "lesson_skill_names": [
+        "Fake Death",
+        "Wolf Fang Fist",
+        "Ki Blast Thrust",
+        "Spirit Ball"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Fake Death",
+        "Wolf Fang Fist",
+        "Ki Blast Thrust",
+        "Spirit Ball"
+      ]
+    },
+    {
+      "mentor_id": "mentor-piccolo",
+      "mentor_name": "Piccolo",
+      "lesson_skill_names": [
+        "Evil Explosion",
+        "Super Explosive Wave",
+        "Light Grenade",
+        "Special Beam Cannon"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Evil Explosion",
+        "Super Explosive Wave",
+        "Light Grenade",
+        "Special Beam Cannon"
+      ]
+    },
+    {
+      "mentor_id": "mentor-raditz",
+      "mentor_name": "Raditz",
+      "lesson_skill_names": [
+        "Double Sunday",
+        "Saturday Crash",
+        "Shining Friday",
+        "Weekend"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Double Sunday",
+        "Saturday Crash",
+        "Shining Friday",
+        "Weekend"
+      ]
+    },
+    {
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "lesson_skill_names": [
+        "Evil Ray Strike",
+        "Evil Rise Strike",
+        "Masenko",
+        "Explosive Assault"
+      ],
+      "linked_skill_ids": [
+        "skill-masenko"
+      ],
+      "unresolved_skill_names": [
+        "Evil Ray Strike",
+        "Evil Rise Strike",
+        "Explosive Assault"
+      ]
+    },
+    {
+      "mentor_id": "mentor-nappa",
+      "mentor_name": "Nappa",
+      "lesson_skill_names": [
+        "Bomber DX",
+        "Arm Crash",
+        "Genocide Shell",
+        "Break Cannon"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Bomber DX",
+        "Arm Crash",
+        "Genocide Shell",
+        "Break Cannon"
+      ]
+    },
+    {
+      "mentor_id": "mentor-vegeta",
+      "mentor_name": "Vegeta",
+      "lesson_skill_names": [
+        "Galick Gun",
+        "Finish Breaker",
+        "Flash Strike",
+        "Final Flash"
+      ],
+      "linked_skill_ids": [
+        "skill-galick-gun"
+      ],
+      "unresolved_skill_names": [
+        "Finish Breaker",
+        "Flash Strike",
+        "Final Flash"
+      ]
+    },
+    {
+      "mentor_id": "mentor-zarbon",
+      "mentor_name": "Zarbon",
+      "lesson_skill_names": [
+        "Audacious Laugh",
+        "Gorgeous Shot",
+        "Bloody Counter",
+        "Elegant Blaster"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Audacious Laugh",
+        "Gorgeous Shot",
+        "Bloody Counter",
+        "Elegant Blaster"
+      ]
+    },
+    {
+      "mentor_id": "mentor-dodoria",
+      "mentor_name": "Dodoria",
+      "lesson_skill_names": [
+        "Dodoria Beam",
+        "Critical Upper",
+        "Dodoria Headbutt",
+        "Dodoria Launcher"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Dodoria Beam",
+        "Critical Upper",
+        "Dodoria Headbutt",
+        "Dodoria Launcher"
+      ]
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "lesson_skill_names": [
+        "Fighting Pose F",
+        "Fighting Pose A",
+        "Milky Cannon",
+        "Body Change"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Fighting Pose F",
+        "Fighting Pose A",
+        "Milky Cannon",
+        "Body Change"
+      ]
+    },
+    {
+      "mentor_id": "mentor-frieza",
+      "mentor_name": "Frieza (1st Form)",
+      "lesson_skill_names": [
+        "Death Beam",
+        "Death Crasher",
+        "Death Slicer",
+        "Death Ball"
+      ],
+      "linked_skill_ids": [
+        "skill-death-ball"
+      ],
+      "unresolved_skill_names": [
+        "Death Beam",
+        "Death Crasher",
+        "Death Slicer"
+      ]
+    },
+    {
+      "mentor_id": "mentor-cooler",
+      "mentor_name": "Cooler (Final Form)",
+      "lesson_skill_names": [
+        "Feint Crash",
+        "Shadow Crusher",
+        "Fake Blast",
+        "Supernova Cooler"
+      ],
+      "linked_skill_ids": [
+        "skill-shadow-crusher"
+      ],
+      "unresolved_skill_names": [
+        "Feint Crash",
+        "Fake Blast",
+        "Supernova Cooler"
+      ]
+    },
+    {
+      "mentor_id": "mentor-android-18",
+      "mentor_name": "Android 18",
+      "lesson_skill_names": [
+        "Power Blitz",
+        "Endless Shoot",
+        "Deadly Dance",
+        "Dual Destructo-Disc"
+      ],
+      "linked_skill_ids": [
+        "skill-deadly-dance"
+      ],
+      "unresolved_skill_names": [
+        "Power Blitz",
+        "Endless Shoot",
+        "Dual Destructo-Disc"
+      ]
+    },
+    {
+      "mentor_id": "mentor-android-16",
+      "mentor_name": "Android 16",
+      "lesson_skill_names": [
+        "Eye Beam",
+        "Rocket Tackle",
+        "Android Rush",
+        "Hell Flash"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Eye Beam",
+        "Rocket Tackle",
+        "Android Rush",
+        "Hell Flash"
+      ]
+    },
+    {
+      "mentor_id": "mentor-cell",
+      "mentor_name": "Cell (Perfect)",
+      "lesson_skill_names": [
+        "All Clear",
+        "Gravity Impact",
+        "Perfect Shot",
+        "Perfect Kamehameha"
+      ],
+      "linked_skill_ids": [
+        "skill-perfect-shot"
+      ],
+      "unresolved_skill_names": [
+        "All Clear",
+        "Gravity Impact",
+        "Perfect Kamehameha"
+      ]
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "lesson_skill_names": [
+        "Evil Eyes",
+        "Darkness Eye Beam",
+        "Darkness Twin Star",
+        "Darkness Rush (Ranged)",
+        "Darkness Rush (Melee)"
+      ],
+      "linked_skill_ids": [
+        "skill-darkness-rush-ranged",
+        "skill-darkness-rush-melee"
+      ],
+      "unresolved_skill_names": [
+        "Evil Eyes",
+        "Darkness Eye Beam",
+        "Darkness Twin Star"
+      ]
+    },
+    {
+      "mentor_id": "mentor-majin-buu",
+      "mentor_name": "Majin Buu",
+      "lesson_skill_names": [
+        "Innocence Bullet",
+        "Angry Hit",
+        "Innocence Cannon",
+        "Innocence Breath"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Innocence Bullet",
+        "Angry Hit",
+        "Innocence Cannon",
+        "Innocence Breath"
+      ]
+    },
+    {
+      "mentor_id": "mentor-hercule",
+      "mentor_name": "Hercule",
+      "lesson_skill_names": [
+        "Dynamite Kick",
+        "Present For You",
+        "Rolling Hercule Punch",
+        "The Savior Has Come"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Dynamite Kick",
+        "Present For You",
+        "Rolling Hercule Punch",
+        "The Savior Has Come"
+      ]
+    },
+    {
+      "mentor_id": "mentor-gohan-videl",
+      "mentor_name": "Gohan (Adult) and Videl",
+      "lesson_skill_names": [
+        "Eagle Kick",
+        "Justice Rush",
+        "Hawk Charge",
+        "Justice Combination"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Eagle Kick",
+        "Justice Rush",
+        "Hawk Charge",
+        "Justice Combination"
+      ]
+    },
+    {
+      "mentor_id": "mentor-gotenks",
+      "mentor_name": "Gotenks",
+      "lesson_skill_names": [
+        "Super Ghost Kamikaze Attack",
+        "Galactic Donuts",
+        "DIE DIE Missile Barrage",
+        "Super Ghost Kamikaze Attack"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Super Ghost Kamikaze Attack",
+        "Galactic Donuts",
+        "DIE DIE Missile Barrage",
+        "Super Ghost Kamikaze Attack"
+      ]
+    },
+    {
+      "mentor_id": "mentor-turles",
+      "mentor_name": "Turles",
+      "lesson_skill_names": [
+        "Sudden Storm",
+        "Kill Driver",
+        "Fruit of the Tree of Might",
+        "Meteor Burst"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Sudden Storm",
+        "Kill Driver",
+        "Fruit of the Tree of Might",
+        "Meteor Burst"
+      ]
+    },
+    {
+      "mentor_id": "mentor-broly",
+      "mentor_name": "Broly",
+      "lesson_skill_names": [
+        "Blaster Shell",
+        "Blaster Meteor",
+        "Gigantic Omega",
+        "Gigantic Meteor"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Blaster Shell",
+        "Blaster Meteor",
+        "Gigantic Omega",
+        "Gigantic Meteor"
+      ]
+    },
+    {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "lesson_skill_names": [
+        "God of Destruction's Anger",
+        "God of Destruction's Rampage",
+        "God of Destruction's Wrath",
+        "Sphere of Destruction"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "God of Destruction's Anger",
+        "God of Destruction's Rampage",
+        "God of Destruction's Wrath",
+        "Sphere of Destruction"
+      ]
+    },
+    {
+      "mentor_id": "mentor-whis",
+      "mentor_name": "Whis",
+      "lesson_skill_names": [
+        "Finishing Blow",
+        "Prelude to Destruction",
+        "Strike of Revelation",
+        "Symphonic Destruction"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Finishing Blow",
+        "Prelude to Destruction",
+        "Strike of Revelation",
+        "Symphonic Destruction"
+      ]
+    },
+    {
+      "mentor_id": "mentor-pan",
+      "mentor_name": "Pan",
+      "lesson_skill_names": [
+        "Dancing Parapara",
+        "Prepare to be Punished",
+        "Feint Shot",
+        "Maiden Blast"
+      ],
+      "linked_skill_ids": [
+        "skill-dancing-parapara"
+      ],
+      "unresolved_skill_names": [
+        "Prepare to be Punished",
+        "Feint Shot",
+        "Maiden Blast"
+      ]
+    },
+    {
+      "mentor_id": "mentor-jaco",
+      "mentor_name": "Jaco",
+      "lesson_skill_names": [
+        "Hero's Pose",
+        "Elite Beam",
+        "Elite Shooting",
+        "Super Elite Combo"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Hero's Pose",
+        "Elite Beam",
+        "Elite Shooting",
+        "Super Elite Combo"
+      ]
+    },
+    {
+      "mentor_id": "mentor-goku",
+      "mentor_name": "Goku",
+      "lesson_skill_names": [
+        "Spirit Bomb",
+        "Instant Transmission",
+        "x10 Kamehameha",
+        "Super Kamehameha"
+      ],
+      "linked_skill_ids": [
+        "skill-spirit-bomb",
+        "skill-instant-transmission"
+      ],
+      "unresolved_skill_names": [
+        "x10 Kamehameha",
+        "Super Kamehameha"
+      ]
+    },
+    {
+      "mentor_id": "mentor-future-gohan",
+      "mentor_name": "Gohan (Future)",
+      "lesson_skill_names": [],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": []
+    },
+    {
+      "mentor_id": "mentor-bardock",
+      "mentor_name": "Bardock",
+      "lesson_skill_names": [
+        "Tyrant Lancer",
+        "Rebellion Spear",
+        "Riot Javelin",
+        "Brave Heat"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Tyrant Lancer",
+        "Rebellion Spear",
+        "Riot Javelin",
+        "Brave Heat"
+      ]
+    },
+    {
+      "mentor_id": "mentor-hit",
+      "mentor_name": "Hit",
+      "lesson_skill_names": [
+        "Time Skip/Flash Skewer",
+        "Time Skip/Back Breaker",
+        "Time Skip/Jump Spike",
+        "Time Skip/Tremor Pulse"
+      ],
+      "linked_skill_ids": [
+        "skill-time-skip-flash-skewer",
+        "skill-time-skip-back-breaker",
+        "skill-time-skip-jump-spike",
+        "skill-time-skip-tremor-pulse"
+      ],
+      "unresolved_skill_names": []
+    },
+    {
+      "mentor_id": "mentor-bojack",
+      "mentor_name": "Bojack",
+      "lesson_skill_names": [
+        "Reverse Launcher",
+        "Trap Shooter",
+        "Psycho Barrier",
+        "Grand Smasher"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "Reverse Launcher",
+        "Trap Shooter",
+        "Psycho Barrier",
+        "Grand Smasher"
+      ]
+    },
+    {
+      "mentor_id": "mentor-zamasu",
+      "mentor_name": "Zamasu",
+      "lesson_skill_names": [
+        "I'm thinking of becoming a GodTuber",
+        "God Splitter",
+        "Heavenly Arrow",
+        "Instant Severance"
+      ],
+      "linked_skill_ids": [],
+      "unresolved_skill_names": [
+        "I'm thinking of becoming a GodTuber",
+        "God Splitter",
+        "Heavenly Arrow",
+        "Instant Severance"
+      ]
+    }
+  ],
+  "notes": [
+    "Canonical skill IDs are assigned only when an exact canonical skill record already exists. Missing endpoints remain explicit rather than invented.",
+    "The maintained all-instructor guide supplies the complete lesson reward names; this audit is the bridge for future canonical skill-record expansion and bidirectional mentor navigation.",
+    "Gotenks' duplicated Super Ghost Kamikaze Attack entry is preserved exactly as the consulted guide presents it."
+  ],
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+    "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
+  ]
+}
