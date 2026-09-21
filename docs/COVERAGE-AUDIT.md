@@ -4241,3 +4241,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: canonical skill JSON re-fetched and parsed successfully; record count remains **305**. No missing ki_cost remains among non-Evasive records; the remaining null stamina_cost values are outside this bounded resource-cost scope and are not automatically treated as gaps.
 - CI: no workflow runs or combined status checks were exposed for commit 5884f75e6f409fcf5c2b94a747c8ac45f4766eb0; no CI success is claimed. Validators were not weakened.
 - Next: continue the live skill second-pass audit with the next smallest high-impact acquisition/restriction/mechanics gap batch, while preserving the cross-database linking model and avoiding broad speculative rewrites.
+
+
+### 2026-09-21 cycle update — skill PQ cross-link identifier normalization
+- Live census before editing: **305 canonical skill records**.
+- Bounded batch: **Drain Field (PQ95), Flash Bomber (PQ95), Rakshasa's Claw (PQ57), Final Pose (PQ74)**.
+- Repository evidence: all four records already had explicit Parallel Quest acquisition text in `unlock_method`/`source_quest_or_shop`, but three `quest_or_mission` records lacked the canonical numeric `source_quest` join key, and Final Pose was classified as `parallel_quest` without one. This was a deterministic metadata gap directly affecting PQ↔skill joins.
+- Changes: set `source_quest` to **95, 95, 57, 74** respectively; preserved all existing acquisition text and evidence; added a dated cross-link normalization note to each record. No mechanics, reward conditions, or source claims were changed.
+- Validation: re-fetched and parsed `docs/data/skills.json`; record count remains **305**. `quest_or_mission` records missing `source_quest` dropped from **3 to 0**. **234** skill records now have numeric `source_quest` identifiers. Repository data contains **0** internal UI citation artifacts.
+- CI: not exposed for this direct commit; no CI success is claimed.
+- Commit: `e758b40ee4f23876cf05a5fd9872cfa1e7e97008`.
+- Live census after editing: **305 skills / 234 numeric PQ-linked skill records / 0 quest_or_mission records missing source_quest**.
+- Exact next batch: inspect the remaining non-numeric `source_quest` values and classify them into true non-PQ acquisition routes versus records whose PQ/story/mentor identifier can be safely normalized. Prioritize deterministic joins first and preserve strings where the source is genuinely not a PQ.
