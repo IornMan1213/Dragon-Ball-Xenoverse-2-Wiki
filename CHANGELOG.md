@@ -774,3 +774,10 @@
 - Scope: Become Giant, Dancing Parapara, Darkness Rush (Melee), Darkness Rush (Ranged), Data Input, Deadly Dance, Death Ball, Destructo-Disc, Dimension Cannon, Dragon Spiral.
 - No new gameplay, acquisition, restriction, or DLC claims were introduced.
 - Commit: a14d8a7025124ca12a54e55c4b4ba9ffa701cf15.
+
+
+### 2026-09-21 — skills-index last_verified projection parity batch 2
+- Corrected 10 deterministic `last_verified` values in `docs/data/skills-index.json` to match canonical `docs/data/skills.json`: Energy Charge, Final Pose, Full Power Charge, Galick Gun, Indomitable, Instant Transmission, Masenko, Maximum Charge, Perfect Shot, and Potential Unleashed.
+- No new gameplay, acquisition, restriction, or DLC claims were introduced.
+- Validation: 429 canonical skills / 429 index records; 10 targeted values match; 10 broader `last_verified` mismatches remain for the next bounded pass. CI status unavailable; no CI success claimed.
+- Commit: `124138ef8edeba905223caa0cb4b6de2082f69f5`.
