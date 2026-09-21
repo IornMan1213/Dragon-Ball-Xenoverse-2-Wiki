@@ -6579,3 +6579,13 @@ The repository owner has clarified the continuation contract:
 - Validation target after this batch: **51 exactly-two-source records**, with canonical/index parity preserved.
 - CI rule: inspect exposed status/workflow results; do not claim CI success without an actual check/run.
 - Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster, verifying source/acquisition semantics before adding provenance.
+
+
+### 2026-09-21 — Dragon Thunder low-source provenance strengthening
+- [x] Recomputed the live low-source census before editing: **52** exactly-two-source records.
+- [x] Reviewed **Dragon Thunder (`skill-dragon-thunder`)** as the next deterministic record.
+- [x] Independent Xenoverse 2 character/skill ID evidence identifies Dragon Thunder as a **non-CaC** skill associated with **Omega Shenron**, corroborating the repository's character-only scope.
+- [x] Added that independent source to canonical and index records and refreshed `last_verified` to **2026-09-21**.
+- [x] Preserved the existing **Unlock: N/A / Character skill** semantics. Because the skill is explicitly character-only, no PQ/source-quest or reward-tier relationship was invented.
+- [x] Post-write target: **51** exactly-two-source records; canonical/index source and verification parity remains required.
+- [ ] Next task: recompute the live two-source census and continue the next deterministic low-source record after Dragon Thunder, checking acquisition/reward semantics before provenance-only strengthening.
