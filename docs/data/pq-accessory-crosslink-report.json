@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 103,
+  "canonical_identity_records": 104,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
@@ -58,6 +58,14 @@
       "pq_number": 22,
       "target_id": "accr-006",
       "target_name": "Tapion's Sword",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-029",
+      "pq_number": 29,
+      "target_id": "accr-104",
+      "target_name": "Yamcha's Sword",
       "status": "identity_matched",
       "source_backed": true
     },
@@ -726,15 +734,19 @@
       "pq_numbers": [
         97
       ]
+    },
+    {
+      "target_id": "accr-104",
+      "target_name": "Yamcha's Sword",
+      "pq_ids": [
+        "pq-029"
+      ],
+      "pq_numbers": [
+        29
+      ]
     }
   ],
   "unmatched_research_records": [
-    {
-      "pq_record_id": "pqacc-008",
-      "name": "Yamcha's Sword",
-      "pq_number": 29,
-      "match_status": "conflicted_identity_route"
-    },
     {
       "pq_record_id": "pqacc-023",
       "name": "Android 14's Hat",
