@@ -787,3 +787,9 @@
 - Corrected 10 deterministic `last_verified` values in `docs/data/skills-index.json` to match canonical `docs/data/skills.json`: Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, The Power to Overcome, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Venus Fist.
 - Validation: 429 canonical skills / 429 index records; the live targeted field comparison now has **0 `last_verified` mismatches**; no internal citation artifacts were introduced.
 - Commit: `0865f3d3f7a7281c81effdd0b27e6d7cb2cdd76a`.
+
+
+### 2026-09-21 — skills-index source_parallel_quests projection parity
+- Corrected 5 deterministic `source_parallel_quests` values in `docs/data/skills-index.json` to match canonical `docs/data/skills.json`: Candy Beam, Kamehameha, Mach Dash, Time Control, and Warp Kamehameha.
+- Validation: 429 canonical skills / 429 index records; the targeted projection family now has **0 mismatches** and no internal citation artifacts.
+- Commit: `69404599e87914ea5dafe993a154d1e86b0312c9`.
