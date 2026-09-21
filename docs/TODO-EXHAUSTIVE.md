@@ -1262,3 +1262,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation requirement: re-read all four canonical records and scan the changed canonical file for internal citation artifacts before the next cycle. The skill registry remains **428 records / 0 duplicate IDs / 0 nullable `ki_cost` records**.
 - [x] CI inspection target: commit `10c26541dbdeb24e034bf007163598841221c841`; do not claim CI success unless an actual workflow run is exposed.
 - [ ] Next provenance batch: recompute the live DLC-label/source-relationship census and select the next deterministic cluster; prioritize records whose source acquisition endpoint and DLC label can be independently matched, while preserving intentional composite/platform-dependent values.
+
+
+### 2026-09-21 — Master ledger completion marking: free-update provenance correction
+- [x] **Divine Kamehameha provenance corrected:** `Free Update 1.14` → `Free Update 11`.
+- [x] **Godly Display provenance corrected:** `Free Update 12` → `Free Update 11`.
+- [x] Evidence: the current Free Update reference lists both skills in the nine skills introduced in Free Update 11; this is a direct update chronology conflict with the previous labels.
+- [x] Canonical `docs/data/skills.json` changes were limited to the two `dlc_requirement` values, `last_verified=2026-09-21`, and bounded correction notes. Costs, acquisition routes, restrictions, and mechanics were preserved.
+- [x] Live skill census remains **428 records / 0 duplicate IDs / 0 nullable `ki_cost` records**.
+- [x] Deterministic exception review: the only Base Game skill whose source quest list includes a PQ above 100 is Candy Beam (`PQ66` + later `PQ113` context); its canonical Base Game provenance is intentionally retained because PQ66 is its primary acquisition endpoint and the record already documents PQ113 as later Extra Pack 1 reward context.
+- [x] Evidence source reviewed: current Free Update chronology: https://dbxv2.fandom.com/wiki/Free_Update
+- [ ] Next provenance batch: recompute the live DLC/update census and continue with the next independently resolvable provenance mismatch; preserve intentional historical/composite classifications.
