@@ -1,3 +1,10 @@
+## 2026-09-20 Steel Mirage provenance-note cleanup
+
+- Cleaned a duplicated/confusing provenance note for **Steel Mirage**.
+- Canonical/index acquisition remains PQ165 Ultimate Finish bonus-slot (45%), while the maintained Steam all-PQ guide's Basic Reward presentation remains explicitly documented as a source conflict.
+- No acquisition semantics were changed; this pass only made the uncertainty statement internally consistent.
+
+
 ## 2026-09-20 Emperor's Cannon provenance resolution
 
 - Resolved the remaining **Emperor's Cannon** PQ183/PQ184 conflict using the repository's maintained `pq-163-186-reward-map.json`.
