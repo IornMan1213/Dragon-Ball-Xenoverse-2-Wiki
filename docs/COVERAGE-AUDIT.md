@@ -4444,3 +4444,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no workflow status was exposed for the data commits; no CI success is claimed.
 - Commits: `790c12d76d6c56e8152ccdabf5ae7829c1fdb2db` (canonical records); `feff2a5afc4faf0127e16aedf45c0b0a08a1bee3` (PQ links); `e40cc212e37b51dd69ae5d169a772d56284778d9` (crosslink rebuild).
 - Exact next batch: **Super Soul 136–143**, after live-corpus reconciliation. Continue immediately after `I learned a lot from how you fight.` and establish acquisition identity before adding records or cross-domain edges.
+
+
+### 2026-09-21 cycle update — Super Soul 128–135 + PQ reverse-link reconciliation
+- Live census before editing: **122 canonical Super Souls / 186 canonical PQ records**.
+- Bounded batch: **Super Soul 128–135** — Nothing beats flying!; There was actually five of me!; Hope you're ready for a trip!; I'm not about to let Pan see me lose!; This place will be your grave!; I'll surpass you as I am, with my OWN power!; You will know the power of the gods!; I learned a lot from how you fight.
+- Evidence: reconciled the maintained Madreag Super Soul source corpus. Explicit PQ routes: 130→PQ166, 131→PQ168, 132→PQ164, 133→PQ174, 134→PQ173. Raid and Limited Time Event acquisitions were not assigned unsupported PQ routes.
+- Changes: added super-soul-128 through super-soul-135; synchronized PQ164/166/168/173/174 reward/link fields; rebuilt docs/data/pq-super-soul-crosslink-report.json; updated coverage and changelog records.
+- Validation: **130 canonical Super Souls / 186 canonical PQ records / 49 forward / 49 reverse edges / 39 unique PQ endpoints / 49 unique Super Soul endpoints / 81 unresolved Super Soul routes / 0 broken endpoints**. All three JSON files parsed successfully and contain **0 internal UI/search citation artifacts**.
+- CI: no workflow status was exposed for the data commits; no CI success is claimed.
+- Commits: `790c12d76d6c56e8152ccdabf5ae7829c1fdb2db` (canonical records); `feff2a5afc4faf0127e16aedf45c0b0a08a1bee3` (PQ links); `e40cc212e37b51dd69ae5d169a772d56284778d9` (crosslink rebuild).
+- Exact next batch: **Super Soul 136–143**, after live-corpus reconciliation. Continue immediately after `I learned a lot from how you fight.` and establish acquisition identity before adding records or cross-domain edges.
