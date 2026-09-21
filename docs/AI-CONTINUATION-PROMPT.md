@@ -5159,3 +5159,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `79e1e0d70ec143b58eca760b3b9d33b78ce6a663` (crosslink report), `b86819fb020599095a6ff350da62d36adee1ba40` (coverage audit), `971738131bc10c51a0cff18c680754c800cb1920` (changelog).
 - Current unresolved mentor relationship frontier: **4 unlinked canonical mentors** — Gohan (Future), Bardock, Bojack, Zamasu. This is an unlinked relationship frontier, not evidence that their lesson mappings are absent from the mentor layer.
 - Exact next batch: **Gohan (Future), Bardock, Bojack, and Zamasu**, using the same deterministic lesson→skill-ID→`source_mentor` parity check; promote only exact matches and preserve null/unlinked status when the skill index lacks matching provenance.
+
+### 2026-09-21 cycle update — Remaining mentor relationship reconciliation
+- Bounded batch completed: **15 deterministic mentor→skill edges** — Gohan (Future) (4), Bardock (4), Bojack (4), Zamasu (3).
+- Evidence gate: canonical mentor lesson `skill_id` ↔ canonical skill record ↔ matching `source_mentor`. Zamasu's initiation lesson (“I'm thinking of becoming a GodTuber”) has no canonical skill ID and remains intentionally unlinked.
+- Final mentor relationship census: **33 canonical mentors / 33 linked mentors / 131 mentor→skill edges / 131 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
+- Changes: rebuilt `docs/data/mentor-skill-crosslink-report.json`; updated `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`. No canonical skill acquisition semantics were changed.
+- Validation: changed JSON parsed successfully and all promoted endpoints resolve to canonical skill IDs. No unsupported relationship was invented.
+- CI status was not claimed; repository status/workflow lookup has not exposed runnable checks for these commits.
+- Commits: `3fb3bf08f7a05674aeccf3e4ceb0b5815b4538e4` (crosslink report), `b301c84b68867281e27cc5331ee9447757862894` (coverage audit), `bee93a314617661997822d8842281c347c3b1f23` (changelog).
+- Mentor-to-skill direct relationship coverage is now exhausted at the canonical 33-mentor layer. **Do not manufacture additional mentor edges.**
+- Exact next batch: inspect the continuation/addendum priorities and the repository's remaining coverage gaps, then take the highest explicitly supported bounded task. Prefer an existing canonical layer that can be reconciled deterministically over broad speculative expansion.
