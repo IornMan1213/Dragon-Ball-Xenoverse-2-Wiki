@@ -155,7 +155,8 @@ def merge_record(m,r,protected=None,blocked=None):
   if k in m and k != oldkey:
    raise ValueError(f"correction destination already exists for {n}: {r.get('class','')}/{r.get('subcategory','')}")
   m.pop(oldkey,None); blocked.add(oldkey); protected.add(k)
- old=m.get(k,{}) ; out={field:value for field,value in r.items() if field in canonical_fields}; fields=set(r.get('correction_fields',[]))
+ old=m.get(k,{}) ; out={field:value for field,value in r.items() if field in canonical_fields};
+ out['id']=skill_id(n,target_class,target_subcategory); fields=set(r.get('correction_fields',[]))
  for x,v in old.items():
   if x not in fields and v not in (None,'',[],'—'):out[x]=v
  out['sources']=normalize_sources(old.get('sources',[])+r.get('sources',[])); out.pop('correction_fields',None); out.pop('correction_of',None); m[k]=out; return True
