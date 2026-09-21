@@ -3108,11 +3108,11 @@
         "https://dragonball.fandom.com/wiki/Full_Power_Charge",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
-      "unlock_method": "Character-exclusive to Ultra Instinct Goku variants; CaCs can access the technique through Ultra Instinct's built-in action in current versions",
+      "unlock_method": "Built-in Ultra Instinct action; not separately acquirable",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races while using Ultra Instinct",
-      "notes": "2026-09-20 roster-status refinement: this is a built-in Ultra Instinct action rather than a separately acquired equipable skill; its character-specific implementation should not be treated as a standalone CaC skill acquisition route.",
+      "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route.",
       "mechanics_notes": "Current evidence documents Surging Spirit as an Ultra Instinct built-in CaC action rather than a separately acquired equipable skill; its N/A unlock route is therefore retained."
     },
     {
@@ -3707,8 +3707,8 @@
       "unlock_method": "N/A — character-only skill; unavailable for CaC",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
-      "race_restriction": null,
-      "notes": "Corrected 2026-09-20: character-exclusive Omega Shenron skill; unavailable to CaCs.",
+      "race_restriction": "Character-only",
+      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs.",
       "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; the prior all-CaC-races classification was incorrect."
     },
     {
