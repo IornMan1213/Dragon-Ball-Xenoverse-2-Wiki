@@ -5859,3 +5859,16 @@ The repository owner has clarified the continuation contract:
 - CI: workflow status for the new data/TODO commits has not yet been inspected in this cycle; next cycle must inspect Actions before claiming success. CI must remain unclaimed if no run is exposed.
 - Commits: `779a37cad8b42c2770ddea2fe56e42c7c044ee59` (canonical data), `4c75fcfbccc629e5fe0c30e5fbfa53ce06410306` (TODO ledger).
 - Exact next task: **fresh live census of remaining non-canonical/context-rich DLC labels**, beginning with the four **Masters Pack (platform-dependent; included in base game on Switch)** records. Do not normalize them merely to a shorter label; first verify whether the platform distinction is still materially correct and preserve it if so.
+
+
+### 2026-09-21 cycle update — Masters Pack platform-dependent provenance audit
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup; bounded audit of the four remaining Masters Pack skills.
+- Live census before editing: **428 canonical skills; 0 duplicate IDs; 1 nullable `ki_cost` record (Dimension Cannon by design)**. Four records carried the platform-dependent Masters Pack label: Tyrant Lancer, Rebellion Spear, Riot Javelin, and Brave Heat.
+- Research/evidence: the current Xbox Masters Pack listing identifies the Masters Pack as free and includes Bardock; the maintained Xenoverse 2 reference identifies the Masters Pack content as included in the Nintendo Switch base game. Bandai Namco's current Switch page distinguishes the Switch base game from its paid DLC packs. The repository-linked instructor guide confirms the four target skills are Bardock mentor rewards. 
+- Decision: **preserve** `Masters Pack (platform-dependent; included in base game on Switch)`. The platform distinction is materially useful and evidence-backed; shortening it to `Masters Pack` would discard the documented Switch packaging difference.
+- Changes: `docs/data/skills.json` and `docs/data/skills-index.json` — updated `last_verified=2026-09-21` and appended a bounded provenance-audit note to all four records. No DLC classification was normalized.
+- Evidence limits: the audit establishes the platform distinction, not a universal current storefront entitlement for every platform/edition. Existing wording is therefore retained rather than expanded into unsupported platform-by-platform purchasing rules.
+- Validation after write: **428 records; 0 duplicate IDs; 1 nullable `ki_cost`**. Canonical/index projections remain structurally complete for the four audited IDs. TODO ledger was synchronized with a permanent dated [x] entry, and internal citation markup was removed from that new ledger entry.
+- CI: workflow lookup for canonical commit `eaaa02287ee52f3f53dcf6a0f3e702c0ee741363`, index commit `635945b87f48f1ad2e52e9398dd3ea3c9f32d65a`, and TODO commit `3a69de0259cf79ef9332ded44edca0ae9e19d9fc` must be checked before any CI success claim.
+- Commits: `eaaa02287ee52f3f53dcf6a0f3e702c0ee741363` (canonical), `635945b87f48f1ad2e52e9398dd3ea3c9f32d65a` (index), `3a69de0259cf79ef9332ded44edca0ae9e19d9fc` (TODO).
+- Exact next task: **fresh live census of remaining non-canonical/context-rich DLC labels** after this audit. Do not reopen the four Masters Pack records unless contradictory platform evidence appears; prioritize another deterministic provenance mismatch if one remains.
