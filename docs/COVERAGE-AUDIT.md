@@ -5140,7 +5140,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Added Holy Inscription, Kairos Cannon, Temporal Holy Ray, Chaos Wall, Timespace Impact, Godly Chronos Cannon, and Soaring Fist with bounded tournament/shop acquisition and directly evidenced resource costs. No unsupported reward probability or event-gating details were inferred beyond the documented match/shop endpoints.
 - Projected all seven into `docs/data/skills-index.json` and synchronized category/record counts.
 - Validation: **439 canonical / 439 index / 0 duplicate IDs / 0 nullable `ki_cost` values / 9 Free Update 11 records**, matching the documented nine-skill update scope.
-- Evidence: current Free Update 11 documentation plus current dedicated skill references. citeturn2search0turn3search0turn3search1turn3search2turn3search3turn3search15turn4search0turn4search1
+- Evidence: current Free Update 11 documentation plus current dedicated skill references.
 - CI: inspect the new commits for exposed workflow runs/checks; no CI success is claimed unless GitHub exposes an actual run/status.
 - Commits: canonical `8d7e79997949c60dcdd950803363adc54c5df4dd`; index `5a8f644a1efdff441bc736612a039fa2df06760`.
 - Exact next batch: recompute the live DLC/free-update source census and select the next deterministic completeness/provenance cluster; prioritize concrete missing endpoints over low-confidence prose enrichment.
