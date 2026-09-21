@@ -1130,3 +1130,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Evidence scope preserved: the source also documents that the move can consume additional Ki while being prolonged, but the canonical bounded field records the base listed cost only; no unsupported variable-cost formula was added.
 - [x] Post-write canonical validation: **428 records / 0 duplicate IDs / 7 nullable ki_cost records**.
 - [ ] Next unresolved Ki-cost queue: **Dead End Rain, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**, with Dimension Cannon retained as the documented Stamina-only exception.
+
+
+### 2026-09-21 — Master ledger completion marking: Dead End Rain
+
+- [x] **Dead End Rain Ki-cost verification completed: 300 Ki.** Current Xenoverse 2 skill-reference evidence explicitly lists Ki Used: 300.
+- [x] Evidence scope preserved: canonical update was limited to the unresolved ki_cost field; no unsupported combat data was imported.
+- [x] Post-write canonical validation: **428 records / 0 duplicate IDs / 6 nullable ki_cost records**.
+- [ ] Next unresolved Ki-cost queue: **God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**, with Dimension Cannon retained as the documented Stamina-only exception.
