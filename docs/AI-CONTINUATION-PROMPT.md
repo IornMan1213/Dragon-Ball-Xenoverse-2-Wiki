@@ -6638,7 +6638,7 @@ The repository owner has clarified the continuation contract:
 - Workstream: **P1 skill acquisition/source provenance cleanup**.
 - Live pre-batch census: **49 exactly-two-source records**.
 - Bounded batch completed: **Energy Shot (`skill-energy-shot`)**.
-- Evidence: Yhan Game's Xenoverse 2 Parallel Quest guide independently lists Energy Shot as a **Basic Reward for PQ22 — Dragon Ball Brawl**. citeturn1search2
+- Evidence: Yhan Game's Xenoverse 2 Parallel Quest guide independently lists Energy Shot as a **Basic Reward for PQ22 — Dragon Ball Brawl**.
 - Changes: added the Yhan Game source to `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Evidence limits: the added source corroborates acquisition/reward identity only; no exact drop probability or new mechanics were inferred.
 - Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record after Energy Shot, Excellent Full Course, checking acquisition/reward semantics before provenance-only strengthening.**
