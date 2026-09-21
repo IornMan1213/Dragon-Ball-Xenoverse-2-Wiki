@@ -3369,3 +3369,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: canonical/index **283/283**, zero duplicate names, **60** UF flags, identical record-name ordering.
 - Commits: canonical **ed02f4441b8eb3080b9f8bedcd97dd0ad0c5b650**; index **b38e008f2dc54f8339e47dc1ef3bb5c181272e02**; coverage audit **54daf0ed471bf7eb4f325f8757237c81472339d5**.
 - Exact next task: **audit remaining non-PQ starting-move and other_nonquest records, especially Afterimage, Super Guard, and any skill whose CaC availability is implied but lacks a concrete acquisition explanation.**
+
+
+### 2026-09-20 cycle update — starting-move provenance refinement
+- Refined **Afterimage** and **Super Guard** with concrete CaC starting-move wording.
+- Afterimage is documented as an initial fighting-style selection skill; Super Guard is documented as the close-range starting choice while retaining the maintained Skill Shop route.
+- No unsupported PQ or Ultimate Finish route was added.
+- Audit commit: **03fd38795b8259d72d5cfb2c9c3ce6206a26fde7**.
+- Exact next task: continue auditing remaining non-PQ other_nonquest or starting-move records for concrete CaC acquisition wording.
