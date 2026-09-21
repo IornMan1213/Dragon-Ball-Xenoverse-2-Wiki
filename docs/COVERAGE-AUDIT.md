@@ -4941,3 +4941,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 ### 2026-09-21 — Citation-token correction for Broly audit entry
 - The immediately preceding Broly audit entry contains internal citation-token text that should not be persisted in repository prose. This append-only correction supersedes those token fragments; the underlying evidence statement remains the same: current Xenoverse 2 references document Blaster Meteor as a 300-Stamina Evasive Skill with no Ki expenditure.
+
+### 2026-09-21 — Android 16 mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 33 nullable `ki_cost` records**.
+- Bounded batch: **Eye Beam (100), Rocket Tackle (100), Android Rush (100), Hell Flash (300)** from Android 16 mentor training.
+- Evidence: current Xenoverse 2 skill pages explicitly document **100 Ki** for Eye Beam, Rocket Tackle, and Android Rush, and **300 Ki** for Hell Flash; the Android 16 mentor page confirms all four are taught by Android 16. citeturn0search3turn0search6turn0search7turn0search10turn0search4
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **29**. No skill-index Ki-cost projection introduced.
+- CI: canonical commit `3dddf371190a0cd8a3cb29940ec922b64ea2b711` had no actionable workflow/status result exposed; **no CI success claimed**.
+- Commit: `3dddf371190a0cd8a3cb29940ec922b64ea2b711`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
