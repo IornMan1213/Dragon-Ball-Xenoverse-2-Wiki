@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 104,
+  "canonical_identity_records": 105,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
@@ -182,6 +182,14 @@
       "source_backed": true
     },
     {
+      "pq_id": "pq-null",
+      "pq_number": null,
+      "target_id": "accr-105",
+      "target_name": "Android 15's Shades & Hat",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
       "pq_id": "pq-144",
       "pq_number": 144,
       "target_id": "accr-101",
@@ -203,6 +211,14 @@
       "target_id": "accr-102",
       "target_name": "Caulifla Wig",
       "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-152",
+      "pq_number": 152,
+      "target_id": "accr-029",
+      "target_name": "Android 17 (DB Super) Wig",
+      "status": "component_alias_matched",
       "source_backed": true
     },
     {
@@ -343,6 +359,16 @@
       ],
       "pq_numbers": [
         105
+      ]
+    },
+    {
+      "target_id": "accr-105",
+      "target_name": "Android 15's Shades & Hat",
+      "pq_ids": [
+        "pq-null"
+      ],
+      "pq_numbers": [
+        null
       ]
     },
     {
@@ -754,22 +780,10 @@
       "match_status": "unmatched_identity"
     },
     {
-      "pq_record_id": "pqacc-024",
-      "name": "Android 15's Sunglasses",
-      "pq_number": null,
-      "match_status": "unmatched_identity"
-    },
-    {
       "pq_record_id": "pqacc-025",
       "name": "Bardock (DB Super)'s Scouter",
       "pq_number": 146,
       "match_status": "unmatched_identity"
-    },
-    {
-      "pq_record_id": "pqacc-029",
-      "name": "Android 17 (DB Super)'s Ranger Accessory",
-      "pq_number": 152,
-      "match_status": "unresolved_component_identity"
     }
   ]
 }
