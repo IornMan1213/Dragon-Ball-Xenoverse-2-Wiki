@@ -1369,3 +1369,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation target: **428 canonical skill records / 0 duplicate IDs / 7 Hero of Justice Pack 1 PQ-linked move records / 0 DLC mismatches**.
 - [x] CI success remains unclaimed unless GitHub exposes an actual workflow run/check.
 - [ ] Next provenance batch: fresh live DLC-label/source-relationship census beyond Hero of Justice Pack 1.
+
+
+### 2026-09-21 — Master ledger completion marking: Final Explosion DLC provenance correction
+- [x] **Final Explosion provenance corrected:** `Legendary Pack 1` → `Base Game`.
+- [x] Evidence: current skill documentation identifies TP Medal Shop acquisition; historical 2016-era TP Medal Shop listings independently document Final Explosion as a purchasable base-game-era skill. The later association with SSGSS Vegeta (Evolved) does not establish Legendary Pack 1 acquisition provenance. url citations are intentionally not stored in repository prose; canonical source URLs remain in the skill record.
+- [x] Canonical change limited to `dlc_requirement`, `last_verified`, and a bounded provenance note. No acquisition route, mechanics, cost, restriction, or character-association field was changed.
+- [x] Live post-write census: **428 canonical skill records / 0 duplicate IDs / 6 Legendary Pack 1 records**; Final Explosion is no longer counted in the Legendary Pack 1 provenance cluster.
+- [x] Evidence boundary preserved: character association and DLC acquisition provenance remain separate concepts; no broader character-associated relabeling was performed in this bounded pass.
+- [x] CI: canonical commit exposed **no workflow runs and no status checks** through the repository connector; no CI success claimed.
+- [x] Canonical commit: `9b7021675c6f210be8bece1558dc55904bce97c6`.
+- [ ] Next provenance batch: recompute the live DLC-label/source-relationship census and continue with the next independently resolvable provenance mismatch, preserving intentional historical/composite classifications.
