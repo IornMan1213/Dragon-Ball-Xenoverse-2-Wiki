@@ -1204,8 +1204,7 @@
       "skills": [
         "skill-time-skip-flash-skewer",
         "skill-time-skip-back-breaker",
-        "skill-time-skip-jump-spike",
-        "skill-time-skip-tremor-pulse"
+        "skill-time-skip-jump-spike"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -1214,7 +1213,8 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
-      "verification_status": "skill_route_verified"
+      "verification_status": "lesson_skill_names_and_skill_endpoints_verified",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "mentor-bojack",
