@@ -3473,6 +3473,237 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/thats-a-dead-ball-now-right.md",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
+    },
+    {
+      "id": "super-soul-128",
+      "name": "Nothing beats flying!",
+      "character_source": "Trunks (GT)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Raid Quest Event",
+      "acquisition_source": "Transforming Gogeta (DB Super) Online Raid",
+      "trigger_condition": "Always",
+      "effect_text": "Boosts movement speed and prevents Stamina consumption during Boost Dash.",
+      "effect_magnitude": "+30% movement speed",
+      "limit_burst": "Auto Just Guard",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Just Guard",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/nothing-beats-flying.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-129",
+      "name": "There was actually five of me!",
+      "character_source": "Ninja Murasaki",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Raid Quest Event",
+      "acquisition_source": "Ginyu Force Online Raid",
+      "trigger_condition": "When guard is broken",
+      "effect_text": "Blocks all attacks, up to 4 hits.",
+      "effect_magnitude": "Up to 4 hits",
+      "limit_burst": "Auto Guard",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Guard",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/there-was-actually-five-of-me.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-130",
+      "name": "Hope you're ready for a trip!",
+      "character_source": "Android 18 (DB Super)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 166 — Escape from West City",
+      "trigger_condition": "When the battle begins",
+      "effect_text": "Temporarily boosts all attacks, Ki restored, and damage taken.",
+      "effect_magnitude": "+20% attacks; +100% Ki restored; +10% damage taken",
+      "limit_burst": "ATK Up! Ki Recovery Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Recovery Up!",
+      "source_parallel_quests": [
+        "pq-166"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/hope-youre-ready-for-a-trip.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-131",
+      "name": "I'm not about to let Pan see me lose!",
+      "character_source": "Videl (DB Super)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 168 — Videl: Super Mom",
+      "trigger_condition": "When health is below 50% / below 25%",
+      "effect_text": "Boosts Strike Skills and Ki restored; stronger second stage below 25%.",
+      "effect_magnitude": "+10% / +20% Strike; +10% / +20% Ki restored",
+      "limit_burst": "ATK Up! Ki Recovery Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Recovery Up!",
+      "source_parallel_quests": [
+        "pq-168"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/im-not-about-to-let-pan-see-me-lose.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-132",
+      "name": "This place will be your grave!",
+      "character_source": "Broly (Restrained)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 164 — Where Is Goku?!",
+      "trigger_condition": "Always / when using an Awoken Skill",
+      "effect_text": "Lowers Ki restored, then boosts all attacks and Ki restored.",
+      "effect_magnitude": "-30% Ki restored; +20% attacks; +50% Ki restored",
+      "limit_burst": "ATK Up! Ki Recovery Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Recovery Up!",
+      "source_parallel_quests": [
+        "pq-164"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/this-place-will-be-your-grave.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-133",
+      "name": "I'll surpass you as I am, with my OWN power!",
+      "character_source": "Vegeta (Super Saiyan God, Ultra Supervillain)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 174 — Hyper Special Training",
+      "trigger_condition": "Always / when guard is broken",
+      "effect_text": "Shortens guard-break time; boosts all attacks and stamina recovery speed, stackable up to five times.",
+      "effect_magnitude": "-20% guard-break time; +10% attacks; +10% stamina recovery",
+      "limit_burst": "ATK Up! Stamina Rec. SPD Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Stamina Rec. SPD Up!",
+      "source_parallel_quests": [
+        "pq-174"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-surpass-you-as-i-am-with-my-own-power.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-134",
+      "name": "You will know the power of the gods!",
+      "character_source": "Goku Black (Super Saiyan Rosé, Ultra Supervillain)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 173 — Decoding Dinner",
+      "trigger_condition": "When battle begins / when Ki is maxed out",
+      "effect_text": "Completely restores Ki; temporarily boosts all attacks.",
+      "effect_magnitude": "+100% Ki; +10% attacks for 10 seconds",
+      "limit_burst": "ATK Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!",
+      "source_parallel_quests": [
+        "pq-173"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-will-know-the-power-of-the-gods.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-135",
+      "name": "I learned a lot from how you fight.",
+      "character_source": "Android 17 (DB Super)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Limited Time Event",
+      "acquisition_source": "Limited Time Event Reward",
+      "trigger_condition": "When opponent uses a Super Attack / Ultimate Attack",
+      "effect_text": "Boosts all attacks; each trigger can stack within its stated limit.",
+      "effect_magnitude": "+2% per Super Attack, up to 10 stacks; +10% per Ultimate Attack, up to 3 stacks",
+      "limit_burst": "ATK Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-learned-a-lot-from-how-you-fight.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
     }
   ],
   "research_notes": [
@@ -3492,7 +3723,8 @@
     "2026-09-21: promoted Super Soul research batch 096–103 after live-corpus reconciliation. The prior handoff candidate names were already represented by earlier canonical IDs; the actual next eight unique source-corpus entries were used instead. PQ-sourced records 098–102 were cross-linked only to explicitly named PQ151–153 endpoints.",
     "2026-09-21: promoted Super Soul 104–111 after live-corpus reconciliation. Exact PQ endpoints were accepted for 105/107 (PQ157), 106/108 (PQ156), and 109/110 (PQ158); 104 and 111 remain raid-event acquisition records without inferred PQ routes.",
     "2026-09-21: promoted Super Soul 112–119 after live-corpus reconciliation. Explicit PQ endpoints: 118→PQ161 and 119→PQ162; shop and raid acquisitions were not assigned invented quest routes.",
-    "2026-09-21: promoted Super Soul 120–127 after live-corpus reconciliation. Explicit PQ route: 120/121 → PQ159; shop, festival, and raid acquisitions were not assigned unsupported PQ routes."
+    "2026-09-21: promoted Super Soul 120–127 after live-corpus reconciliation. Explicit PQ route: 120/121 → PQ159; shop, festival, and raid acquisitions were not assigned unsupported PQ routes.",
+    "2026-09-21: promoted Super Soul 128–135 after live-corpus reconciliation. Explicit PQ routes: 130→PQ166, 131→PQ168, 132→PQ164, 133→PQ174, 134→PQ173. Raid and Limited Time Event acquisitions were not assigned unsupported PQ routes."
   ],
   "sources": [
     {
