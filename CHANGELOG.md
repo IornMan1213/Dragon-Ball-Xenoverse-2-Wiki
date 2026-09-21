@@ -781,3 +781,9 @@
 - No new gameplay, acquisition, restriction, or DLC claims were introduced.
 - Validation: 429 canonical skills / 429 index records; 10 targeted values match; 10 broader `last_verified` mismatches remain for the next bounded pass. CI status unavailable; no CI success claimed.
 - Commit: `124138ef8edeba905223caa0cb4b6de2082f69f5`.
+
+
+### 2026-09-21 — skills-index projection parity batch 3
+- Corrected 10 deterministic `last_verified` values in `docs/data/skills-index.json` to match canonical `docs/data/skills.json`: Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, The Power to Overcome, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Venus Fist.
+- Validation: 429 canonical skills / 429 index records; the live targeted field comparison now has **0 `last_verified` mismatches**; no internal citation artifacts were introduced.
+- Commit: `0865f3d3f7a7281c81effdd0b27e6d7cb2cdd76a`.
