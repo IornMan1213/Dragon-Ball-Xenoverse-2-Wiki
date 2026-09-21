@@ -5064,3 +5064,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - All six map to PQ143–146 with matching `Legendary Pack 1` provenance.
 - **0 deterministic DLC mismatches** found.
 - Only verification dates/provenance notes were refreshed; reward-tier and other semantics remain unchanged.
+
+
+## 2026-09-21 Legendary Pack 2 skill provenance census
+
+- Audited all **10** canonical Legendary Pack 2 skills.
+- All ten map to PQ147–150 with matching `Legendary Pack 2` provenance.
+- **0 deterministic DLC mismatches** found.
+- Only verification dates/provenance notes were refreshed; other skill semantics remain unchanged.
