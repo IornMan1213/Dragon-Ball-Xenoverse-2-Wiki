@@ -3546,3 +3546,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index remain aligned: maintained drop-condition evidence says 45% Ultimate Finish bonus slot, while the maintained all-PQ guide presents it as a Basic Reward; the source conflict is retained without inventing a resolution.
 - Commits: canonical `a pending prior commit`; index `28111f9cab220f4e23cfe50cf1bc261b199a9170`; audit `73e75a094039911f3e806aec4e0c1c57d4d0168b`.
 - Exact next task: continue the late-PQ provenance census, making deterministic corrections only where maintained reward data clearly resolves the canonical source.
+
+
+### 2026-09-20 cycle update — Dark Inscription
+- Reconciled Dark Inscription with PQ182 research. PQ182 explicitly lists it in Basic Rewards; no explicit skill drop-condition or probability is present.
+- Updated canonical and index provenance to PQ182 Basic Reward wording. Commits: 09598834475315c6d42af16d15c1927dbba67f30 and ea10e464d9ad76cc49d94fd48f78747d9cdf0ba3.
+- Coverage audit updated in 6705259ce9d7b4aa4a0c65fa10b2217e12e811fe.
+- Validation: 283/283 records, identical ordering, 0 duplicates, 60 Ultimate Finish flags, 0 acquisition-critical mismatches, 0 internal citation artifacts.
+- CI: canonical report-build-status and index deploy were cancelled immediately; the audit build was in progress at inspection. Validators were not weakened.
+- Evidence limitation: no exact RNG probability or UF-only gate was inferred.
+- Exact next task: continue the late-PQ provenance census across PQ169–180, correcting only deterministic source mappings and preserving reward-tier conflicts and unresolved probabilities.
