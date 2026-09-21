@@ -5603,3 +5603,17 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: canonical commit `2b4ee7bb780d6591197b7e79863e75ef9799e053` had no actionable workflow/status result exposed; **no CI success claimed**.
 - Commits: `2b4ee7bb780d6591197b7e79863e75ef9799e053` (canonical), `b6697c76012643011b8f0bfe2c08334944b96ad0` (audit), `fe4717d6fcf972ff4cfd759da42b00442fbf5486` (changelog), plus this handoff update.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+
+### 2026-09-21 — Bojack mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 26 nullable `ki_cost` records**.
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup, continuing the bounded canonical Ki-cost pass.
+- Bounded batch: **Reverse Launcher, Trap Shooter, Psycho Barrier, Grand Smasher** from Bojack mentor training.
+- Research/evidence: current Xenoverse 2 references document **100 Ki** for Reverse Launcher, Trap Shooter, and Psycho Barrier, and **300-400 Ki** for Grand Smasher. Grand Smasher's additional input consumes an extra 100 Ki, so the variable cost was stored as `300-400` rather than flattened.
+- Sources consulted: current dedicated Xenoverse 2 skill pages, the mentor reference, and the maintained mentor guide. No unrelated mechanics or acquisition semantics were changed.
+- Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Validation: canonical skills remain **428/428**; duplicate IDs **0**; nullable `ki_cost` count is now **22**. Targeted records were re-read after the canonical write. No skill-index Ki-cost projection was introduced. Changed canonical/audit/changelog text was checked for internal AI/UI/search citation artifacts; none were persisted.
+- CI: canonical commit `56ee3eb6610131a85cf1c9a5ff253a10d57b44bf` exposed **no workflow runs and no status checks** through the repository connector; **no CI success claimed**. Validators were not weakened.
+- Commits: `56ee3eb6610131a85cf1c9a5ff253a10d57b44bf` (canonical), `b37c0f17e613c16b29365c850650221836f23b57` (coverage audit), `2f0f8f61d072320ac237ca014acbe53381b769b7` (changelog), plus this handoff update.
+- Evidence limits: the batch establishes current resource costs; it does not broaden into unrelated mechanics. Grand Smasher's variable cost is preserved.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and verify the three Zamasu mentor skills — God Splitter, Heavenly Arrow, Instant Severance — using explicit current `Ki Used` evidence; preserve variable-cost forms if encountered.**
