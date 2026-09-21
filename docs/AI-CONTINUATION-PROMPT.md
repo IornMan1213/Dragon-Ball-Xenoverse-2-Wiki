@@ -4425,3 +4425,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Current unresolved skill race-scope set remains 3 records: Blaster Stream, Chaotic Time Impact, and Circle Flash.
 - Exact next task: add deterministic PQ IDs to the canonical PQ record layer, then upgrade the PQ↔skill validator/report to emit forward and reverse ID-based edges plus explicit unresolved/orphaned relationships. Batch related records and preserve evidence uncertainty.
 
+### 2026-09-21 cycle update — UF skill provenance title correction
+- Workstream: P1 skill acquisition / Ultimate Finish provenance consistency.
+- Live census before editing: 283 canonical skills; 60 ultimate_finish_required=true records. Cross-database audit mapped all 60 UF skills to a canonical PQ research record; all 60 had a documented UF trigger and the corresponding skill in skill_rewards.
+- Concrete provenance defects found: Flash Chaser pointed to PQ138 — "Tournament of Destroyers" while the canonical PQ research record is PQ138 — "The Battle for Earth"; Photon Swipe pointed to PQ139 — "Goku and Vegeta's Training" while the canonical PQ research record is PQ139 — "War and Pieces".
+- Evidence: maintained PQ research batches establish the canonical titles/reward associations; current Steam all-PQ documentation independently lists PQ138 as The Battle for Earth with Flash Chaser and PQ139 as War and Pieces with Photon Swipe. No UF flags, percentages, or acquisition semantics were changed.
+- Files changed: docs/data/skills.json, docs/data/skills-index.json, CHANGELOG.md, and this handoff.
+- Validation performed before write: 60/60 UF skills map to a PQ with an explicit ultimate_finish_trigger; 60/60 map to a PQ whose skill_rewards contains the canonical skill. The two corrected title labels now match the PQ research layer. No internal citation/tool markup was added.
+- CI: inspect the push-triggered validation runs for the resulting commits; do not interpret an opaque pre-step failure as a validator failure and do not weaken validators.
+- Exact next task: continue the cross-database skill/PQ provenance audit beyond title labels, prioritizing remaining mismatches in reward slot semantics, drop percentages, acquisition type, DLC/version provenance, and reverse-link completeness. Recompute the live skill census before the next batch.
