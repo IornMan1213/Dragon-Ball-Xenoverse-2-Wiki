@@ -399,3 +399,17 @@
 - Exact relationship graph now lets a user traverse **Future Saga Chapter 4 → Quest 31 → The Power to Overcome**, and **Future Saga Chapter 4 → PQ185/PQ186 → individual skills**, while each skill resolves back to its source PQ and Chapter 4 story endpoint.
 - Evidence boundary: the canonical PQ records already distinguish Basic Reward from Ultimate Finish conditions. No new Ultimate Finish requirement or drop probability was inferred here. Current official DLC material confirms Chapter 4's content scope, while the maintained repository reward records supply the exact skill-to-PQ mapping. citeturn0search0turn0search1
 - Exact next batch: **audit the broader PQ ↔ skill graph for orphaned `source_quest` skills and PQ `skill_rewards`, starting with the newest DLC/PQ records, and repair deterministic reverse links in larger batches without changing acquisition facts.**
+
+
+### 2026-09-21 cycle update — comprehensive PQ ↔ skill reverse-index reconciliation
+- Live census before editing: **305 skills / 305 skill-index records / 186 PQ records**.
+- Bounded batch: audit every numeric `source_quest` in canonical skills against PQ endpoints, then reconcile every PQ `skill_rewards` name into deterministic `skill_ids` and reverse `source_parallel_quests`.
+- Result: **234 skills** now have deterministic reverse PQ endpoints; **164 PQ records** contain `skill_ids`; **235 unique PQ→skill ID edges** are represented in the canonical layer.
+- Reconciled three source-name aliases without changing acquisition facts: `Chain Destructo-disc Barrage` → `Chain Destructo-Disc Barrage`; `Kamekameha` → `Kamehameha`; `III Bomber` → `Ill Bomber`.
+- Created/synchronized `docs/data/pq-skill-crosslink-report.json` as the persisted bidirectional audit. It now records **235 forward edges / 234 reverse skill endpoints / 0 unresolved forward edges / 0 orphaned reverse sources** and preserves alias spelling where the PQ source uses it.
+- Updated `parallel-quests-record-layer.json`, `skills.json`, and `skills-index.json` together so navigation works in both directions: PQ → skill ID → skill details/source, and skill → PQ ID → PQ details/rewards.
+- Validation: **305/305 skills-index parity; 186 PQ endpoints valid; 0 broken relationship endpoints; 0 unresolved reward names; 0 canonical citation artifacts in changed JSON**.
+- CI: commit-associated combined status and workflow-run lookup exposed **no statuses/runs** for the direct data commit; no CI success is claimed.
+- Commits: `fd8410b` (PQ skill IDs), `155f0e8` (skill reverse links), `e746d3c` (skill index), `11015fa` (cross-link report).
+- External/current repository research supports treating PQ reward tables as the primary relationship evidence and confirms PQs are the game's main skill-farming relationship layer. citeturn0search3turn0search5turn0search6
+- Exact next batch: **audit the remaining 71 skills without `source_parallel_quests` by acquisition type, separating non-PQ sources (mentor, shop, Time Rift, story, Advancement Test) from genuinely missing PQ reverse links; then repair only evidence-backed missing routes.**
