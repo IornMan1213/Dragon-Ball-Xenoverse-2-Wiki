@@ -4913,3 +4913,8 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: commit `e0a1e5ebb5131c037e0d62e96996029d4803305e` had no actionable workflow/status result exposed; **no CI success claimed**.
 - Commit: `e0a1e5ebb5131c037e0d62e96996029d4803305e`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+### 2026-09-21 correction — Lord Slug audit citation-artifact removal
+- The preceding Lord Slug audit entry accidentally contained an internal citation-token fragment in repository prose. This correction records the issue without rewriting historical content, per append-only protection.
+- No canonical skill data was changed by this correction; the authoritative Lord Slug canonical commit remains `e0a1e5ebb5131c037e0d62e96996029d4803305e`.
+- Current live skill census remains **428 records / 0 duplicate IDs / 38 nullable `ki_cost` records**.
