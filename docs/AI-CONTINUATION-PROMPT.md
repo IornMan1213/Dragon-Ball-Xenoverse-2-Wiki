@@ -5757,3 +5757,15 @@ The repository owner has clarified the continuation contract:
 - TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry.
 - CI: next cycle must inspect Actions for commits 5481a44f36aedcd8341254082f75ce46e796ce50 and the TODO commit; do not claim CI success without an actual result.
 - Exact next task: **Dead End Rain**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
+
+
+### 2026-09-21 cycle update — Dead End Rain Ki-cost verification
+- Live census before editing: 428 canonical skills; 0 duplicate IDs; 7 nullable ki_cost records.
+- Bounded batch: **Dead End Rain — 300 Ki**.
+- Research/evidence: the current dedicated Dead End Rain reference explicitly lists **Ki Used: 300**; the Ultimate Attack reference independently lists Dead End Rain at 300 Ki. citeturn0search0turn0search2
+- Changes: docs/data/skills.json — Dead End Rain ki_cost=300. Existing classification, acquisition, provenance, and other fields were preserved.
+- Evidence limits: only the directly evidenced resource-cost field was changed; no unsupported damage/mechanics values were added.
+- Validation after write: **428 records; 0 duplicate IDs; 6 nullable ki_cost records**.
+- TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry.
+- CI: next cycle must inspect Actions for commits e931a9c273130dc6f5aceddeb1018b33e289450b and the TODO commit; do not claim CI success without an actual result.
+- Exact next task: **God of Destruction's Might**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
