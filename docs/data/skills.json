@@ -1136,7 +1136,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": null,
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Explosive Wave in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted."
+      "notes": "2026-09-20 source-quality cleanup: the current canonical acquisition route is Skill Shop after completing the main story (normal ending). A broad PQ reward census found no maintained Parallel Quest record for Explosive Wave, so the prior PQ-reward note was stale and has been removed. No Ultimate Finish gate or unsupported drop probability is asserted."
     },
     {
       "name": "Force Shield",
