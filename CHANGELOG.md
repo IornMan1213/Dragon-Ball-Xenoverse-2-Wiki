@@ -747,3 +747,8 @@
 - Promoted 15 deterministic mentor→skill edges for Gohan (Future) (4), Bardock (4), Bojack (4), and Zamasu (3).
 - Zamasu's initiation lesson has no canonical skill ID and remains intentionally unlinked.
 - Mentor crosslink report now validates 33 canonical mentors, 33 linked mentors, 131 edges, 131 unique endpoints, 0 unresolved, and 0 broken endpoints.
+
+## 2026-09-21 — Skill acquisition projection normalization
+- Reconciled three deterministic `source_quest` projection gaps in `docs/data/skills-index.json`: Drain Field → PQ95, Flash Bomber → PQ95, and Rakshasa's Claw → PQ57.
+- The values already existed in canonical `docs/data/skills.json`; no acquisition semantics or evidence state were changed.
+- Cross-layer validation now finds zero `skills.json` source-quest values missing from the skill index.
