@@ -1123,3 +1123,6 @@
 ### 2026-09-21 — Low-source PQ provenance strengthening
 - Strengthened Candy Beam (Super), Crusher Ball, and Destructive Fracture provenance.
 - Preserved existing acquisition semantics.
+
+### 2026-09-21 — PQ97/PQ110 provenance
+- Strengthened Charged Ki Wave and Divinity Unleashed provenance while preserving existing acquisition semantics.
