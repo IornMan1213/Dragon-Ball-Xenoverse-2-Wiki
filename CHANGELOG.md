@@ -924,3 +924,10 @@
 - Updated only canonical `ki_cost` and `last_verified`; unresolved mechanics remain untouched.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 38 nullable `ki_cost` records**.
 - Commit: `e0a1e5ebb5131c037e0d62e96996029d4803305e`.
+
+## 2026-09-21 — Whis mentor skill Ki-cost verification
+
+- Verified **Finishing Blow (100)**, **Prelude to Destruction (100)**, **Strike of Revelation (100)**, and **Symphonic Destruction (300)** from current Xenoverse 2 skill references.
+- Updated only canonical `ki_cost` and `last_verified`; unresolved mechanics remain untouched.
+- Live canonical skill census: **428 records, 0 duplicate IDs, 34 nullable `ki_cost` records**.
+- Commit: `84aecf7a0f768f278f2aabaa45aa703e8a4bb281`.
