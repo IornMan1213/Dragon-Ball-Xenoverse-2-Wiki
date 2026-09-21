@@ -5988,6 +5988,12 @@
       "skill_ids": [
         "skill-god-of-destruction-s-plaything",
         "skill-god-of-destruction-s-poise"
+      ],
+      "super_soul_ids": [
+        "super-soul-140"
+      ],
+      "super_soul_rewards": [
+        "It's about time..."
       ]
     },
     {
@@ -6053,6 +6059,12 @@
         "skill-full-power-destruction",
         "skill-dragon-spark",
         "skill-soaring-rush"
+      ],
+      "super_soul_ids": [
+        "super-soul-141"
+      ],
+      "super_soul_rewards": [
+        "Strength is justice! Strength is absolute!"
       ]
     },
     {
@@ -6082,6 +6094,12 @@
       ],
       "skill_ids": [
         "skill-burst-blitz"
+      ],
+      "super_soul_ids": [
+        "super-soul-142"
+      ],
+      "super_soul_rewards": [
+        "I'll take you all on at once!"
       ]
     },
     {
