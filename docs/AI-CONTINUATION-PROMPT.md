@@ -4345,3 +4345,17 @@ Only after data-completeness work, expose the improved structured research surfa
 - Added validation that `target_category_counts` exists as an object and exactly matches the builder's target metadata, with the fixed `Transformations` target of 15. This catches silent drift between checked-in metadata and the build source while preserving targets as independent benchmarks.
 - Commit: 0593a39d8d08de7cce390b1212b13a218f650872 — Validate skill target metadata against builder constants.
 - Next task: audit top-level schema/version metadata and builder output fields (`status`, `schema_version`, `game`, `notes`) for mismatches that can survive record-level validation or cause rebuilt output to differ structurally from checked-in canonical data.
+
+
+## 2026-09-21 continuation — top-level skill metadata/rebuild contract
+- Workstream: P1 skill acquisition/data-quality producer and validator audit.
+- Audited the live top-level metadata in `docs/data/skills.json` / `skills-index.json` against `scripts/build_skills_from_research.py` and `scripts/validate_skills.py`.
+- Found a concrete rebuild-loss risk: the builder hard-coded `status` and `notes` values that differ from the curated canonical catalog (`researched_canonical` plus the current canonical notes). A rebuild could therefore silently replace curated top-level metadata even when record-level data was preserved.
+- Hardened `scripts/build_skills_from_research.py`: canonical `schema_version`, `game`, and `source_index` are now explicit builder constants and are checked against an existing catalog before rebuild; existing non-empty `status` and `notes` are preserved rather than overwritten, with defaults only for a genuinely new catalog.
+- Hardened `scripts/validate_skills.py`: validates canonical/index schema version and source index against builder constants and requires canonical status/notes to be non-empty strings. Existing record-level JSON Schema validation remains authoritative.
+- Files changed: `scripts/build_skills_from_research.py`, `scripts/validate_skills.py`.
+- Commits: PR #40 head `a848ac7f8e21e260549c0d7d0661ff61fecbfc22`; merged to main as `24b9a14e5d44f0313af51a9faf97a11a41267d55`.
+- Validation: live files were re-inspected after the change; GitHub combined status and PR-triggered workflow lookup returned no statuses/runs for the merge commit, so no actionable CI execution result was available through the connector. No validator was weakened.
+- Evidence limitation: the repository connector did not expose a local execution environment for running the Python validator directly; validation was therefore limited to source/diff inspection and live repository metadata checks.
+- Current skill census remains 283 canonical records; the previously documented unresolved race-scope set remains 3 CaC-usable records with null `race_restriction`: Blaster Stream, Chaotic Time Impact, and Circle Flash.
+- Exact next task: audit the remaining builder/validator top-level metadata and generated-artifact assumptions for another concrete drift path, then inspect actionable CI logs if they become available. Do not fabricate a passing CI result and do not weaken validators.
