@@ -13,10 +13,11 @@ def classify_acquisition(d):
  if 'tp medal' in text or 'stp medal' in text:
   if re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text) or d.get('source_quest') not in (None,''): return 'quest_or_mission'
   return 'tp_medal_shop'
- if re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text) and d.get('source_quest') in (None,''):
+ if re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text) and (d.get('source_quest') in (None,'') or re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', str(d.get('source_quest','')).casefold())):
   return 'parallel_quest'
  if d.get('source_quest') not in (None,''):
   return 'quest_or_mission'
+ if ('built-in' in text or 'not separately acquirable' in text) and ('character-exclusive' in text or 'character exclusive' in text or 'character-only' in text or 'character only' in text): return 'other_nonquest'
  if 'character-exclusive' in text or 'character exclusive' in text or 'character-only' in text or 'character only' in text or 'character skill' in text: return 'character_only'
  return 'other_nonquest'
 def normalize_sources(values):
