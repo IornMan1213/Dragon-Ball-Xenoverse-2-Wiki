@@ -1094,3 +1094,13 @@
 ## 2026-09-21 — Pretty Charge index parity correction
 - Added the existing canonical Pretty Charge record to skills-index.json and synchronized its record count to 429.
 - No new canonical skill data was created; this was projection/index parity repair.
+
+### 2026-09-21 — Free Update 1 launch-update scope audit / catalog metadata repair
+- Live canonical skill census after the preceding Free Update 2 additions: **448 canonical records / 448 index records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Corrected stale top-level `record_count` metadata in `docs/data/skills.json` from **443** to **448**. No canonical record fields, category counts, or index records were changed.
+- Rechecked the documented December 2016 Free Update 1 scope: contemporary launch-update reporting confirms **Super Saiyan Blue Kaioken** for SSGSS Goku, **Pure Progress** for Hit, and **four additional attacks**, but the accessible launch documentation does not name those four attacks individually.
+- The two named Awoken endpoints are already present in the canonical registry as **Free Update 1** records. No speculative four attack names were promoted into canonical data.
+- Evidence boundary: the four unnamed attacks remain an open completeness item until exact names and acquisition endpoints can be established from stronger launch-era or current in-game evidence.
+- Validation target/result: canonical/index remain **448/448** and the canonical top-level record count now matches the records array.
+- Canonical metadata commit: `2599209e753aacddbc3856156e5f83e8430d74a2`.
+- Exact next task: **continue the Free Update 1 audit by identifying the four additional attack names from reliable launch-era/current evidence, then add only exact, bounded endpoints; do not infer names from unrelated mentor/DLC content.**
