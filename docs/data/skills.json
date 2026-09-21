@@ -2839,15 +2839,16 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Advancement Test",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "usable_by_cac": true,
-      "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill.",
+      "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-easy added from the existing acquisition record.",
       "race_restriction": "All CaC races",
       "source_quest": "Advancement Test — Easy Class",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-energy-charge"
+      "id": "skill-energy-charge",
+      "source_advancement_test": "advancement-test-easy"
     },
     {
       "name": "Energy Field",
@@ -3711,13 +3712,14 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - Advanced Class",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
-      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge.",
+      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-advanced added from the existing acquisition record.",
       "source_quest": "Advancement Test — Advanced Class",
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-full-power-charge"
+      "id": "skill-full-power-charge",
+      "source_advancement_test": "advancement-test-advanced"
     },
     {
       "name": "Full Power Destruction",
@@ -5214,13 +5216,14 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Advancement Test - God Class",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
-      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills.",
+      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-god added from the existing acquisition record.",
       "source_quest": "Advancement Test — God Class",
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-maximum-charge"
+      "id": "skill-maximum-charge",
+      "source_advancement_test": "advancement-test-god"
     },
     {
       "name": "Meditation",
@@ -5660,10 +5663,10 @@
       "source_quest_or_shop": "Final Advancement Test",
       "ultimate_finish_required": false,
       "skill_description": "Universal balanced CaC Awoken Skill with broad offensive and defensive benefits.",
-      "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-super added from the existing acquisition record.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Potential_Unleashed",
         "https://dbxv2.fandom.com/wiki/Category:Transformations"
@@ -5671,7 +5674,8 @@
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction. 2026-09-20 provenance refinement: repository Advancement Tests research explicitly identifies the final Super Class test as the Potential Unleashed reward and the prior Easy-through-God Z-Rank requirement.",
       "source_quest": "Patroller Academy — Super Class Advancement Test",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-potential-unleashed"
+      "id": "skill-potential-unleashed",
+      "source_advancement_test": "advancement-test-super"
     },
     {
       "name": "Power Impact",
