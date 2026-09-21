@@ -5006,3 +5006,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: canonical commit `b6a8da1d28798a8f027a87bd470917205348b8c6` had no actionable workflow/status result exposed through the repository connector; **no CI success claimed**.
 - Commit: `b6a8da1d28798a8f027a87bd470917205348b8c6`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded unresolved skill/family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+
+### 2026-09-21 — Evil Ray Strike Ki-cost verification
+- Live canonical skill census before editing: **428 records; 18 nullable `ki_cost` records**.
+- Bounded batch: **Evil Ray Strike — 100 Ki**.
+- Evidence: a current Xenoverse 2 skill reference explicitly lists **Ki Used: 100** for Evil Ray Strike and identifies it as a Gohan (Kid) mentor-training skill. The maintained source also cross-links the dedicated skill reference.
+- Changes: populated only canonical `ki_cost=100` and refreshed `last_verified=2026-09-21`.
+- Validation target: canonical skills remain **428/428**, duplicate IDs **0**, and nullable `ki_cost` decreases to **17** after the write. Variable-cost records remain untouched.
+- CI: inspect the canonical commit status/runs; do not claim success if none are exposed.
+- Exact next batch: recompute the live nullable `ki_cost` census, then continue with the next bounded unresolved record/family.
