@@ -351,9 +351,9 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Maximum stack behavior recorded from current catalogue; exact practical interaction remains subject to testing.",
+      "version_notes": "Maximum stack behavior recorded from current catalogue; exact practical interaction remains subject to testing. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md"
@@ -378,9 +378,9 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
+      "version_notes": "Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -405,9 +405,9 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
+      "version_notes": "Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -432,9 +432,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Passive-effect details require deeper reconciliation.",
+      "version_notes": "Passive-effect details require deeper reconciliation. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -459,9 +459,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Passive-effect details require deeper reconciliation.",
+      "version_notes": "Passive-effect details require deeper reconciliation. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -486,9 +486,9 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
+      "version_notes": "Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -513,9 +513,9 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": "Effect scales with same-race allies",
-      "version_notes": "NPC acquisition and ally-scaling behavior require deeper current-version reconciliation.",
+      "version_notes": "NPC acquisition and ally-scaling behavior require deeper current-version reconciliation. Audited against the complete canonical 186-PQ reward layer on 2026-09-21; no exact-name PQ reward match was found, so no PQ relationship was inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md"
