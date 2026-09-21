@@ -4944,3 +4944,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow/status results were exposed for this cycle's data commits; no CI success is claimed. Validators were not weakened.
 - Commits: `e4c4c05863f3c9e0f11ed5fe7f5035b83d438f1d` (Super Soul 056-063); `98c5599dad885ed348df377415ce738c9d937bdc` (PQ endpoints); `32f5d975106ca9512b93158d420a70d3c72bab43` (crosslink report); `c76f4f3a0e3d07bf40875d00b17dc9a31fd4f910` (changelog).
 - Exact next batch: **Super Soul 064-071** after live-corpus reconciliation. Start with the next eight source-backed records after `super-soul-063`; establish acquisition identity first, then add only deterministic cross-domain endpoints and regenerate the reverse report. Keep unresolved routes explicit.
+
+
+### 2026-09-21 cycle update — Super Soul 064-071 + PQ reverse-link reconciliation
+- Live census before editing: **58 canonical Super Soul records / 186 canonical PQ records**; prior graph: **16 forward / 16 reverse / 42 unresolved**.
+- Bounded batch: **Super Soul 064-071** — You can't win..., Thanks, Dende!, Flying Nimbus!!, Here it comes!, Now we're even., Just win, okay?, As if I'd lose!, and Buu Don't Wanna!.
+- Research/evidence: reconciled the next eight source-backed records from the maintained Madreag final-DLC-era corpus. Acquisition identities were accepted directly from the source records; PQ relationships were created only where an exact quest number was named.
+- Changes: added `super-soul-064` through `super-soul-071`; synchronized PQ2, PQ105, PQ107, PQ118, and PQ133 with explicit `super_soul_ids` / `super_soul_rewards`; rebuilt `docs/data/pq-super-soul-crosslink-report.json`.
+- Validation: **66 canonical Super Souls / 186 canonical PQs / 21 forward / 21 reverse PQ↔Super Soul edges / 14 unique PQ endpoints / 21 unique Super Soul endpoints / 45 unresolved Super Soul routes / 0 broken endpoints**. Changed JSON parsed successfully.
+- Evidence limits: community-measured percentages/durations were not promoted to exact canonical values. No relationship was inferred from enemy appearance, character association, or quest theme. `Thanks, Dende!`, `Just win, okay?`, and `As if I'd lose!` remain unresolved for PQ linkage because their source records identify non-PQ acquisition routes.
+- CI: no workflow/status results were exposed for this cycle's data commits; no CI success is claimed. Validators were not weakened.
+- Commits: `6cbb6e3ddb69ee97ddd7309506495d42c1bfa904` (Super Soul 064-071); `d6e525ff1c5a3f83e1806b694412960435742460` (PQ endpoints); `9829b7623af1752031b8bfb43f98b4b762d2a16b` (crosslink report); `ff2e409da9dc2e7f2c7f75e0ea0bd18436c78b46` (changelog).
+- Exact next batch: **Super Soul 072-079** after live-corpus reconciliation. Continue the canonical frontier, establishing acquisition identity before adding deterministic cross-domain endpoints and regenerating the reverse report.
