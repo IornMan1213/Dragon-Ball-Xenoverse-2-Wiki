@@ -6406,3 +6406,10 @@ The repository owner has clarified the continuation contract:
 - No reward tier, drop probability, Ultimate Finish, acquisition, or mechanics semantics were changed.
 - Canonical commit: `8ce9d9570d3a4fafffad67d77453823a370d8158`.
 - Exact next task: recompute the two-source census, synchronize canonical/index parity if needed, and continue the next deterministic low-source acquisition cluster.
+
+### 2026-09-21 continuation — Crusher Ball validation correction
+- Final validation caught that the initially selected Crusher Ball third-source URL duplicated an existing source, so the target remained at two sources.
+- Added an independent PQ34 gameplay walkthrough documenting Crusher Ball as a Basic Reward.
+- Canonical commit: `71cc9abed3f68068af82416b788380fb982cb538`; index sync: `35a3fcb2b8d5bb4a9fefb13a6affaad2f840762a`.
+- Post-correction target state: Candy Beam (Super) 3 sources; Crusher Ball 3 sources; Destructive Fracture 3 sources.
+- Next task: recompute the 70-record two-source census and continue the deterministic low-source acquisition audit.
