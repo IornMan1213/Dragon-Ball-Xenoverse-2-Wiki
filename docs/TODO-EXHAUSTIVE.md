@@ -1435,3 +1435,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Added the existing Pretty Charge canonical record to docs/data/skills-index.json and synchronized index record_count to 429.
 - [x] Final parity: **429 canonical / 429 index / 0 duplicate IDs**.
 - [ ] Next task: recompute the live DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness mismatch.
+
+### 2026-09-21 — Future Saga Chapter 2 skill provenance audit
+- [x] Recomputed the live canonical skill census: **429 records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- [x] Audited the complete seven-skill Future Saga Chapter 2 cluster: God of Destruction's Poise, God of Destruction's Plaything, God of Destruction's Might, Full Power Destruction, Soaring Rush, Dragon Spark, and Burst Blitz.
+- [x] Official Bandai Namco DLC scope confirms Chapter 2 contains **4 Parallel Quests and 7 additional moves**; maintained PQ evidence maps the seven canonical skill endpoints to PQ175-PQ178.
+- [x] Confirmed all seven canonical records already carry `dlc_requirement=Future Saga Chapter 2` with primary source PQs inside the Chapter 2 quest set. No canonical provenance correction was necessary.
+- [x] Preserved existing reward-tier conditions/conflicts; this bounded pass did not rewrite acquisition, Ultimate Finish, mechanics, cost, or CaC fields.
+- [x] Updated `docs/data/skill-catalog-audit.json` and `docs/COVERAGE-AUDIT.md` with the audit result.
+- [x] Evidence sources: Bandai Namco Future Saga DLC reference and the maintained 186-PQ Steam reward guide.
+- [x] Next: continue the live DLC-label/source-relationship census with the next deterministic cluster; prioritize a concrete mismatch or completeness gap rather than re-auditing already reconciled Chapter 2 records.
+
