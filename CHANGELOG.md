@@ -343,3 +343,8 @@
 - Added canonical `Yamcha's Sword` identity and linked its documented PQ36 route plus Accessory Shop route.
 - Resolved the prior PQ29/PQ36 route conflict without duplicating the inventory identity.
 - Refreshed accessory bridge census and cross-link projections.
+
+## 2026-09-21 — Accessory identity batch 5
+- Reconciled Android 15's Sunglasses → Android 15's Shades & Hat (TP Medal Shop).
+- Reconciled Android 17 (DB Super)'s Ranger Accessory → existing Android 17 (DB Super) Wig identity for PQ152, preserving the research label as a component alias.
+- Kept Android 14's Hat and Bardock (DB Super)'s Scouter unresolved because their PQ evidence documents clothing rewards instead.
