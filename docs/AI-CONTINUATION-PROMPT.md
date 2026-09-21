@@ -4840,3 +4840,18 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow status was exposed; no CI success is claimed.
 - Commits: `71e00091`, `fc5a1e49`, `c4a15895`, coverage `c09249cecb71673fa7d2f24d2d9faff59eee7a92`.
 - Exact next batch: **Pan, Jaco, Goku, and Bardock**; reuse existing canonical records where present and add only missing ones.
+
+
+### 2026-09-21 cycle update — Pan/Jaco/Goku/Bardock canonical skill expansion
+- Workstream: mentor acquisition → canonical skill expansion and bidirectional relationship completion.
+- Live census before editing: **384 canonical skills / 384 skill-index records / 33 mentors / 129 lesson entries / 95 linked mentor→skill edges / 34 unresolved lesson endpoints**.
+- Bounded batch: Pan, Jaco, Goku, and Bardock. Reused 3 existing canonical skills (Dancing Parapara, Spirit Bomb, Instant Transmission) and added **13 missing canonical skill records**: Prepare to be Punished, Feint Shot, Maiden Blast, Hero's Pose, Elite Beam, Elite Shooting, Super Elite Combo, x10 Kamehameha, Super Kamehameha, Tyrant Lancer, Rebellion Spear, Riot Javelin, and Brave Heat.
+- Research/evidence: current dedicated skill references establish classifications, acquisition identity, and available cost/mechanics details; the maintained all-instructor guide independently establishes the four lesson rewards for each mentor. Mentor availability documentation confirms Pan/Jaco/Goku progression and Bardock's Unknown History/Masters Pack route, with platform-dependent Masters Pack treatment preserved rather than flattened.
+- Changes: docs/data/skills.json, docs/data/skills-index.json, docs/data/mentors-record-layer.json, docs/data/mentor-skill-coverage-report.json, and CHANGELOG.md.
+- Evidence limits preserved: no unsupported drop rates, Ultimate Finish gates, or narrower CaC restrictions were invented. Combat details are recorded only where directly evidenced; remaining mechanics stay deferred.
+- Validation: **397 canonical skills / 397 skill-index records; taxonomy total 397; 13 new skill records have exact canonical/index parity; 33 mentors / 129 lesson entries; 108 resolved mentor→skill edges / 21 unresolved lesson endpoints / 25 fully linked mentors / 4 partially linked mentors; 0 broken mentor endpoints; 0 reverse mentor-source mismatches; 0 internal citation artifacts.**
+- Validation correction: the pre-existing Hit → Time Skip/Tremor Pulse endpoint was removed from the resolved mentor index because the canonical skill record is absent; the lesson remains explicitly unresolved.
+- CI: commit-associated workflow lookup exposed **no pull-request workflow runs** for the cycle's latest repository commits; no CI success is claimed and validators were not weakened.
+- Commits: 3cccb3a0d5a3dc5f617a6c51be5e8be718d0f7f6 (skills), 819610d5a76494d4ccc18aeb7493a89ebcb65b1b (skill index), 01a928a7331ae7f0c9bf0148fcd927fc2d2b133c (mentor layer), 9175d84080d5fb60ed75a6aca0d1218b1ae87d32 (coverage report), 02ba8bc4e30352cf34b6b924b127e12acc9606de (changelog), d311f81be998ae0e58559e47134c8c2bfc1a66af / fafe64f2db0406906e37f5411aa8e8f9f02b2a89 (validation correction), plus this handoff update.
+- Live census after editing: **397 skills / 397 skill-index records / 33 mentors / 129 lessons / 108 resolved edges / 21 unresolved endpoints / 25 fully linked mentors / 4 partially linked mentors**.
+- Exact next batch: **Android 16, Future Gohan, and Bojack** — audit their 12 lesson endpoints against canonical skills, add only missing records, then synchronize both directions and re-run the mentor census. Preserve unresolved endpoints when exact canonical identity is not established.
