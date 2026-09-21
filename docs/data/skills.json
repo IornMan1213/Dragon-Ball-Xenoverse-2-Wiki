@@ -9,14 +9,14 @@
     "Ki Blast Evasives": 13,
     "Other Supers": 36,
     "Strike Evasives": 9,
-    "Ki Blast Ultimates": 77,
-    "Ki Blast Supers": 128,
+    "Ki Blast Ultimates": 78,
+    "Ki Blast Supers": 130,
     "Transformations": 15,
-    "Strike Supers": 101,
+    "Strike Supers": 102,
     "Strike Ultimates": 19,
-    "Power Up Supers": 14,
+    "Power Up Supers": 15,
     "Power Up Evasives": 2,
-    "Other Evasives": 3,
+    "Other Evasives": 4,
     "Transformation": 4,
     "Other Ultimates": 2
   },
@@ -1125,7 +1125,8 @@
       "notes": "2026-09-20 audit: PQ66 reward listings explicitly place Candy Beam in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
       "id": "skill-candy-beam",
       "source_parallel_quests": [
-        66
+        66,
+        113
       ]
     },
     {
@@ -5368,7 +5369,8 @@
       "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "id": "skill-kamehameha",
       "source_parallel_quests": [
-        5
+        5,
+        48
       ]
     },
     {
@@ -5556,6 +5558,7 @@
       "skill_description": "Mach Dash is a Power Up Evasive skill.",
       "id": "skill-mach-dash",
       "source_parallel_quests": [
+        11,
         18
       ]
     },
@@ -8684,6 +8687,7 @@
       "notes": "2026-09-20 reward-tier reconciliation: maintained PQ18 data lists Time Control in the Basic Reward section; exact drop slot/probability remains unresolved, so no Ultimate Finish requirement is asserted. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "id": "skill-time-control",
       "source_parallel_quests": [
+        11,
         18
       ]
     },
@@ -9195,6 +9199,7 @@
       "notes": "",
       "id": "skill-warp-kamehameha",
       "source_parallel_quests": [
+        66,
         76
       ]
     },
@@ -12525,9 +12530,165 @@
       "source_mentor": [
         "mentor-android-18"
       ]
+    },
+    {
+      "name": "III Bomber",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ill_Bomber",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "unlock_method": "Parallel Quest 90 reward.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 90",
+      "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "Majin CaCs",
+      "source_quest": 90,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "id": "skill-ill-bomber",
+      "source_parallel_quests": [
+        90
+      ]
+    },
+    {
+      "name": "God of Destruction's Might",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Might",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "unlock_method": "Parallel Quest 176 reward.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 176",
+      "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": 176,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "id": "skill-god-of-destruction-s-might",
+      "source_parallel_quests": [
+        176
+      ]
+    },
+    {
+      "name": "Meteor Crash",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Meteor_Crash",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "unlock_method": "Parallel Quest 12 reward.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 12",
+      "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": 12,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "id": "skill-meteor-crash",
+      "source_parallel_quests": [
+        12
+      ]
+    },
+    {
+      "name": "Fighting Pose C",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_C",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "unlock_method": "Parallel Quest 13 reward.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 13",
+      "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": 13,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "id": "skill-fighting-pose-c",
+      "source_parallel_quests": [
+        13
+      ]
+    },
+    {
+      "name": "Psycho Escape",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Psycho_Escape",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "unlock_method": "Parallel Quest 13 reward.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 13",
+      "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": 13,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "id": "skill-psycho-escape",
+      "source_parallel_quests": [
+        13
+      ]
+    },
+    {
+      "name": "Kaioken Kamehameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kaioken_Kamehameha",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "unlock_method": "Parallel Quest 14 reward.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 14",
+      "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": 14,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "id": "skill-kaioken-kamehameha",
+      "source_parallel_quests": [
+        14
+      ]
     }
   ],
-  "record_count": 423,
+  "record_count": 429,
   "skill_id_policy": {
     "format": "skill-{slug}",
     "slug_source": "name",
