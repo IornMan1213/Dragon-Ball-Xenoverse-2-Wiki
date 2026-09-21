@@ -9914,11 +9914,12 @@
       "source_quest": "Zarbon mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-audacious-laugh",
       "source_mentor": [
         "mentor-zarbon"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Gorgeous Shot",
@@ -9941,11 +9942,12 @@
       "source_quest": "Zarbon mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-gorgeous-shot",
       "source_mentor": [
         "mentor-zarbon"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Bloody Counter",
@@ -9968,11 +9970,12 @@
       "source_quest": "Zarbon mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used.",
       "id": "skill-bloody-counter",
       "source_mentor": [
         "mentor-zarbon"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Elegant Blaster",
@@ -9995,11 +9998,12 @@
       "source_quest": "Zarbon mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
       "id": "skill-elegant-blaster",
       "source_mentor": [
         "mentor-zarbon"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Dodoria Beam",
