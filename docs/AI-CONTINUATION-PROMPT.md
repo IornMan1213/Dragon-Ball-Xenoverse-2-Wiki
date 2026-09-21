@@ -6478,3 +6478,15 @@ The repository owner has clarified the continuation contract:
 - CI: no workflow success was claimed where repository workflow results were unavailable.
 - Commits: canonical `4d2f6b7d62dc59491e25209510cb407c45d7a0bb`; index `d2a54a602a17a7044a101cbe0e51c3ced2661528`; ledger `d8012b962c3a3dc3c13b0532e06ac740be6e10cb`.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source cluster after PQ186, verifying source-PQ/reward-tier consistency before adding provenance.**
+
+
+### 2026-09-21 continuation — Hero of Justice Pack 2 provenance
+- Workstream: **P1 skill provenance/source integrity**.
+- Live two-source census before this batch: **58 exactly-two-source records**.
+- Bounded batch: **Beast**.
+- Evidence: maintained skill sources establish the Beast mission/unlock relationship; Bandai Namco's official Hero of Justice Pack 2 announcement independently confirms Gohan (Beast), new Parallel Quests/missions, and new skills in that DLC.
+- Changes: added the official Bandai Namco announcement as a third source; existing acquisition semantics were preserved.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 57 exactly-two-source records**; canonical/index parity remains clean.
+- CI: no workflow success was claimed where repository workflow results were unavailable.
+- Commits: canonical `5769bc69a9184ed452bfdc3ea3e69655a0c7d398`; index `1a39687f0087d8b3e7f0f90743bc750312eff02c`.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source cluster after Beast, verifying source/acquisition consistency before adding provenance.**
