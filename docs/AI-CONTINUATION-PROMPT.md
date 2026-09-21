@@ -6339,3 +6339,12 @@ The repository owner has clarified the continuation contract:
 - No new drop percentage or unsupported prerequisite was retained.
 - Canonical commit: **`2eb625b3cbf1e72b76fd54b8cb84ba1d72319a05`**.
 - Exact next batch: **recompute the two-source census and continue checking low-source acquisition records for concrete source-PQ / reward-tier contradictions before merely adding provenance.**
+
+
+### 2026-09-21 continuation — PQ148 Legendary Pack 2 provenance cluster
+- Workstream: **P1 skill provenance/source integrity**.
+- Audited the related two-source PQ148 cluster: **Blaster Bomb, Blaster Cannon, Blaster Stream**.
+- Independent PQ documentation identifies **PQ148 — Finding Out About Fusion** and lists all three skills in its Basic Reward set; the official Dragon Ball site independently documents the three skills as Legendary Pack 2 content. citeturn0search3turn0search7turn0search11
+- Strengthened each record from **2 → 4 sources** without changing acquisition, reward-tier, CaC, or DLC semantics.
+- Canonical commit: **`d57e5de80896db12c7e11f438c89dede057acee7`**.
+- Exact next batch: **recompute the low-source census and continue with the next deterministic acquisition cluster, prioritizing concrete PQ/reward evidence and cross-field contradictions.**
