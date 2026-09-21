@@ -553,3 +553,12 @@
 - Rebuilt `docs/data/pq-super-soul-crosslink-report.json` from the live Super Soul registry: 16 forward / 16 reverse edges.
 - Preserved evidence boundaries: Mix Shop, TP Medal Shop, and limited-time Raid routes remain provenance-labeled; the source corpus's community measurements are not promoted to exact canonical percentages where the effect text only specifies L/M/XL/XXL.
 - Validation target for this bounded batch: canonical Super Soul count 58; no relationship endpoint should be orphaned.
+
+
+## 2026-09-21 — Super Soul 064-071 + PQ reverse-link reconciliation
+
+- Added canonical Super Soul records `super-soul-064` through `super-soul-071`: You can't win..., Thanks, Dende!, Flying Nimbus!!, Here it comes!, Now we're even., Just win, okay?, As if I'd lose!, and Buu Don't Wanna!.
+- Synchronized PQ2, PQ105, PQ107, PQ118, and PQ133 with explicit Super Soul endpoints for the PQ-sourced records in this batch.
+- Rebuilt `docs/data/pq-super-soul-crosslink-report.json` from the live Super Soul registry: **21 forward / 21 reverse edges**.
+- Validation: **66 canonical Super Souls / 186 canonical PQs / 14 unique PQ endpoints / 21 unique Super Soul endpoints / 45 unresolved Super Soul routes / 0 broken relationship endpoints**. Changed JSON parsed successfully.
+- Evidence limits preserved: source-backed acquisition types and quest identities were recorded without promoting community-measured percentages/durations to exact canonical values. No PQ relationship was inferred from character appearance or quest theme.
