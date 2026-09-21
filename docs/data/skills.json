@@ -6077,7 +6077,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
       "id": "skill-perfect-shot",
-      "source_mentor": "mentor-cell"
+      "source_mentor": [
+        "mentor-cell"
+      ]
     },
     {
       "name": "Petrifying Spit",
@@ -7629,7 +7631,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
       "id": "skill-spirit-bomb",
-      "source_mentor": "mentor-goku"
+      "source_mentor": [
+        "mentor-goku"
+      ]
     },
     {
       "name": "Spirit Boost",
