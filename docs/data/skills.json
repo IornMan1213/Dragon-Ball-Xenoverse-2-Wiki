@@ -2365,7 +2365,8 @@
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dead_End_Rain",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
       ],
       "unlock_method": "Expert Mission 13 - A History of Mixed Battles!",
       "ultimate_finish_required": false,
@@ -2378,7 +2379,7 @@
       "source_quest": "Expert Mission 13",
       "dlc_requirement": "Base Game",
       "acquisition_type": "expert_mission",
-      "notes": "Added during Dual Ultimate relationship audit because DUAL Dead End Rain uses this canonical base technique.",
+      "notes": "Added during Dual Ultimate relationship audit because DUAL Dead End Rain uses this canonical base technique. 2026-09-21 provenance strengthening: the maintained Expert Mission guide independently lists Dead End Rain as the EM13 Basic Reward, corroborating the existing dedicated skill/Ultimate Attack references. Existing EM13 acquisition and reward-tier semantics are preserved.",
       "id": "skill-dead-end-rain",
       "source_mentor": [
         "mentor-android-18"
