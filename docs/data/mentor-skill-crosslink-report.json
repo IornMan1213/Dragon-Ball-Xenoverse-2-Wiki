@@ -3,13 +3,63 @@
   "game": "Dragon Ball Xenoverse 2",
   "generated_by": "manual_canonical_sync_2026-09-21",
   "canonical_mentor_records": 33,
-  "mentors_with_skill_links": 19,
-  "mentor_to_skill_edge_count": 59,
+  "mentors_with_skill_links": 21,
+  "mentor_to_skill_edge_count": 73,
   "forward_edges": [
+    {
+      "mentor_id": "mentor-android-16",
+      "mentor_name": "Android 16",
+      "skill_id": "skill-android-rush"
+    },
+    {
+      "mentor_id": "mentor-android-16",
+      "mentor_name": "Android 16",
+      "skill_id": "skill-eye-beam"
+    },
+    {
+      "mentor_id": "mentor-android-16",
+      "mentor_name": "Android 16",
+      "skill_id": "skill-hell-flash"
+    },
+    {
+      "mentor_id": "mentor-android-16",
+      "mentor_name": "Android 16",
+      "skill_id": "skill-rocket-tackle"
+    },
     {
       "mentor_id": "mentor-android-18",
       "mentor_name": "Android 18",
       "skill_id": "skill-deadly-dance"
+    },
+    {
+      "mentor_id": "mentor-android-18",
+      "mentor_name": "Android 18",
+      "skill_id": "skill-dual-destructo-disc"
+    },
+    {
+      "mentor_id": "mentor-android-18",
+      "mentor_name": "Android 18",
+      "skill_id": "skill-endless-shoot"
+    },
+    {
+      "mentor_id": "mentor-android-18",
+      "mentor_name": "Android 18",
+      "skill_id": "skill-power-blitz"
+    },
+    {
+      "mentor_id": "mentor-cell",
+      "mentor_name": "Cell (Perfect)",
+      "skill_id": "skill-all-clear"
+    },
+    {
+      "mentor_id": "mentor-cell",
+      "mentor_name": "Cell (Perfect)",
+      "skill_id": "skill-gravity-impact"
+    },
+    {
+      "mentor_id": "mentor-cell",
+      "mentor_name": "Cell (Perfect)",
+      "skill_id": "skill-perfect-kamehameha"
     },
     {
       "mentor_id": "mentor-cell",
@@ -110,6 +160,26 @@
       "mentor_id": "mentor-goku",
       "mentor_name": "Goku",
       "skill_id": "skill-spirit-bomb"
+    },
+    {
+      "mentor_id": "mentor-hercule",
+      "mentor_name": "Hercule",
+      "skill_id": "skill-dynamite-kick"
+    },
+    {
+      "mentor_id": "mentor-hercule",
+      "mentor_name": "Hercule",
+      "skill_id": "skill-present-for-you"
+    },
+    {
+      "mentor_id": "mentor-hercule",
+      "mentor_name": "Hercule",
+      "skill_id": "skill-rolling-hercule-punch"
+    },
+    {
+      "mentor_id": "mentor-hercule",
+      "mentor_name": "Hercule",
+      "skill_id": "skill-the-savior-has-come"
     },
     {
       "mentor_id": "mentor-hit",
@@ -309,13 +379,14 @@
     "This layer is intended to support mentor → lesson → skill → skill-detail navigation and later bidirectional reverse lookup.",
     "2026-09-21 reconciliation: Krillin, Tien, Yamcha, and Piccolo lesson routes were already explicit in the canonical mentor layer and corresponding skills-index source_mentor fields; this cycle promoted those 14 deterministic edges into the crosslink report without altering acquisition semantics.",
     "2026-09-21 reconciliation: Raditz, Gohan (Kid), Nappa, and Vegeta lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Masenko and Galick Gun were already represented in the report and were not duplicated.",
-    "2026-09-21 reconciliation: Zarbon, Dodoria, Captain Ginyu, and Frieza (1st Form) lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Frieza's Death Ball edge was already present and was not duplicated."
+    "2026-09-21 reconciliation: Zarbon, Dodoria, Captain Ginyu, and Frieza (1st Form) lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Frieza's Death Ball edge was already present and was not duplicated.",
+    "2026-09-21 reconciliation: Android 18, Android 16, Cell (Perfect), and Hercule lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The requested Android 17 mentor is not present in the canonical 33-mentor layer, so no unsupported Android 17 relationship was invented."
   ],
   "validation": {
     "canonical_mentor_records": 33,
-    "mentors_with_skill_links": 19,
-    "mentor_to_skill_edge_count": 59,
-    "unique_skill_endpoints": 59,
+    "mentors_with_skill_links": 21,
+    "mentor_to_skill_edge_count": 73,
+    "unique_skill_endpoints": 73,
     "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0
   }
