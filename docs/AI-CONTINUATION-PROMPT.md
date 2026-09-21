@@ -4079,3 +4079,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Checked GitHub workflow runs and combined status for the current handoff commit: no workflow runs and no status entries were exposed, so CI success is not claimed.
 - No canonical records, generated index data, or scripts changed in this cycle.
 - Next task: inspect the repository's research/build scripts and handoff for any remaining duplicated schema contracts or stale assumptions, then make only evidence-backed maintenance changes.
+
+
+## 2026-09-21 continuation — research/build contract audit
+- Inspected `scripts/build_skills_from_research.py` against the current schema and validator.
+- The builder's index projection is the same complete 15-field contract already shared with the validator; no stale projection fields were found.
+- Builder acquisition classification intentionally contains the same provenance-sensitive textual heuristics that the validator audits. These are generation heuristics, not schema contracts, so they were not moved into JSON Schema.
+- Builder metadata defaults (`schema_version`, source index, category targets, transformation-parent policy) are catalog/build policy rather than record-shape constraints and remain outside the schema.
+- Confirmed the schema uses `additionalProperties: false`, and the builder's emitted record fields are represented by the schema's property set; no missing builder field contract was identified.
+- No repository data or scripts required a safe evidence-backed change in this cycle.
+- Next task: inspect repository documentation/tests and any CI/build invocation references for stale validator or index assumptions, then update only if a concrete mismatch is found.
