@@ -1104,3 +1104,10 @@
 - Validation target/result: canonical/index remain **448/448** and the canonical top-level record count now matches the records array.
 - Canonical metadata commit: `2599209e753aacddbc3856156e5f83e8430d74a2`.
 - Exact next task: **continue the Free Update 1 audit by identifying the four additional attack names from reliable launch-era/current evidence, then add only exact, bounded endpoints; do not infer names from unrelated mentor/DLC content.**
+
+### 2026-09-21 — PQ149-150 Legendary Pack 2 provenance strengthening
+- Strengthened Comet Strike, Meteor Explosion, Impact Flare, and Power Wall from two to three sources each.
+- Preserved their existing PQ149/PQ150 acquisition semantics and reward uncertainty.
+- Added the official Bandai Namco Legendary Pack 2 DLC page as package-level provenance; the maintained PQ reward source and dedicated skill references remain the exact skill/PQ evidence.
+- No gameplay, cost, restriction, Ultimate Finish, or drop-rate semantics were changed.
+- CI success is not claimed without an exposed workflow/check.
