@@ -2019,7 +2019,11 @@
       "notes": "2026-09-20 audit: current PQ185 reward listing explicitly includes Dragon Spiral in the Basic Reward pool. An earlier/alternate report associated it with PQ186, but the current dedicated PQ185 listing is treated as the canonical acquisition; no separate PQ186 route is inferred. 2026-09-20 provenance cleanup: the maintained PQ reward map explicitly places this skill in PQ185's skill reward inventory. Older/alternate references have also associated it with PQ186; the canonical route follows the explicit PQ185 mapping without inferring an additional PQ186 route or drop probability.",
       "mechanics_notes": "Community testing reports a Ki-blast-blocking opening with an additional follow-up; exact resource thresholds remain under research. Current dedicated evidence does not explicitly establish a CaC race/gender/form restriction; race_restriction remains null. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
       "source_quest": 185,
-      "source_quest_or_shop": "Parallel Quest 185 — Basic Reward"
+      "source_quest_or_shop": "Parallel Quest 185 — Basic Reward",
+      "source_parallel_quests": [
+        185
+      ],
+      "source_story_mission": "story-future-saga-chapter-4-quest-31"
     },
     {
       "id": "skill-dragon-thunder",
@@ -3636,7 +3640,11 @@
       "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 185 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-20 provenance cleanup: the maintained PQ reward map explicitly places this skill in PQ185's skill reward inventory. Older/alternate references have also associated it with PQ186; the canonical route follows the explicit PQ185 mapping without inferring an additional PQ186 route or drop probability.",
       "mechanics_notes": "Confirmed as a 0-Ki Future Saga Chapter 4 Power Up Super from the PQ185/PQ186 reward pool. It charges Ki and Stamina together; current testing reports substantially faster Ki recovery when health falls below about 50%, while exact thresholds/timing remain partially verified. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions.",
       "source_quest": 185,
-      "source_quest_or_shop": "Parallel Quest 185 — Basic Reward"
+      "source_quest_or_shop": "Parallel Quest 185 — Basic Reward",
+      "source_parallel_quests": [
+        185
+      ],
+      "source_story_mission": "story-future-saga-chapter-4-quest-31"
     },
     {
       "id": "skill-instant-charge",
@@ -6589,7 +6597,11 @@
       "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim.",
       "mechanics_notes": "500 Ki Strike Ultimate from the Future Saga Chapter 4 PQ reward pool. Exact drop/follow-up behavior remains under research. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Venus Fist. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Basic Reward route; the recorded condition is preserved without inference beyond the maintained corpus.",
       "source_quest": 186,
-      "source_quest_or_shop": "Parallel Quest 186 — Basic Reward"
+      "source_quest_or_shop": "Parallel Quest 186 — Basic Reward",
+      "source_parallel_quests": [
+        186
+      ],
+      "source_story_mission": "story-future-saga-chapter-4-quest-31"
     },
     {
       "id": "skill-victory-cannon",
