@@ -72,11 +72,13 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
-        "https://dragonball.fandom.com/wiki/Afterimage_Strike"
+        "https://dragonball.fandom.com/wiki/Afterimage_Strike",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://yhangame.blogspot.com/2016/12/dragon-ball-xenoverse-2-all-100-parallel.html"
       ],
       "unlock_method": "Parallel Quest 81 — \"Wake UP!\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ81; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Other Super from PQ81 and usable by all CaC races. It creates an afterimage while moving and can transition into follow-up attacks. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
@@ -137,7 +139,9 @@
       "acquisition_type": "skill_shop_or_expert_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Angry_Explosion",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "https://www.youtube.com/watch?v=Oo3rsM_hzC4"
       ],
       "unlock_method": "Expert Mission 12 - Attack of the Lone Super Soldier",
       "ultimate_finish_required": false,
@@ -246,11 +250,13 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Assault_Vanish"
+        "https://dbxv2.fandom.com/wiki/Assault_Vanish",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://videogaming.fandom.com/wiki/Fight_of_the_Fusions%21_Vegito_vs_Gogeta"
       ],
       "unlock_method": "Parallel Quest 131 Ultimate Finish reward (25% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance refinement: the maintained PQ131 drop-condition data explicitly assigns this skill to a 25% Ultimate Finish roll; the earlier generic acquisition wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
       "mechanics_notes": "Confirmed as Other Super from PQ131 and usable by all CaC races. Costs 100 Ki and 100 Stamina, warping behind the target; holding the input prolongs invisibility/reappearance position. The maintained PQ131 drop-condition data assigns this skill to an explicit Ultimate Finish roll.",
@@ -469,7 +475,9 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Bomb",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.dragon-ball-official.com/news/01_628.html",
+        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion"
       ],
       "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\"",
       "ultimate_finish_required": false,
@@ -490,7 +498,9 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Cannon",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.dragon-ball-official.com/news/01_628.html",
+        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion"
       ],
       "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\"",
       "ultimate_finish_required": false,
@@ -555,7 +565,9 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Stream",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://en.dragon-ball-official.com/news/01_628.html",
+        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion"
       ],
       "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\" Basic Reward",
       "ultimate_finish_required": false,
@@ -799,7 +811,9 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Brutal_Buster",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/207563-dragon-ball-xenoverse-2-db-super-pack-3/78246033",
+        "https://www.youtube.com/watch?v=taxZZIS3Nto"
       ],
       "unlock_method": "Parallel Quest 141 — \"Uub's Ultimate Challenge\"",
       "ultimate_finish_required": false,
@@ -999,11 +1013,13 @@
       "research_status": "enriched",
       "acquisition_type": "other_nonquest",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+        "https://dbxv2.fandom.com/wiki/Burst_Reflection",
+        "https://dragonball.fandom.com/wiki/Burst_Reflection"
       ],
       "unlock_method": "Second use of Shenron wish \"I want a new Super Attack!\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Burst Reflection as the second-result route of the repeatable “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward.",
       "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
@@ -2560,7 +2576,9 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Blitz",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/207563-dragon-ball-xenoverse-2-db-super-pack-3/78246033",
+        "https://www.youtube.com/watch?v=taxZZIS3Nto"
       ],
       "unlock_method": "Parallel Quest 141 — \"Uub's Ultimate Challenge\"",
       "ultimate_finish_required": false,
@@ -2936,7 +2954,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam",
         "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam",
-        "https://dragonball.fandom.com/wiki/Death_Beam"
+        "https://dragonball.fandom.com/wiki/Death_Beam",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74518730"
       ],
       "unlock_method": "TP Medal Shop; documented listing price 25 TP Medals",
       "ultimate_finish_required": false,
@@ -3024,7 +3044,9 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Energy_Charge"
+        "https://dbxv2.fandom.com/wiki/Energy_Charge",
+        "https://videogaming.fandom.com/wiki/First_Advancement_Test_-_Easy_Class",
+        "https://www.playstationtrophies.org/game/dragon-ball-xenoverse-2/guide/"
       ],
       "unlock_method": "First Advancement Test — Easy Class reward.",
       "ultimate_finish_required": false,
@@ -5792,11 +5814,13 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Kamehameha"
+        "https://dbxv2.fandom.com/wiki/Kamehameha",
+        "https://dbxv2.fandom.com/wiki/Saiyan_Blood",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 5 — \"Saiyan Blood\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ05 and usable by all CaC races. It has three charge levels.",
@@ -5921,7 +5945,10 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Lightning_Impact"
+        "https://dbxv2.fandom.com/wiki/Lightning_Impact",
+        "https://dragonball.fandom.com/wiki/Lightning_Impact",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78246033",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 142 — \"Timespace Tussle\" Basic Reward",
       "ultimate_finish_required": false,
@@ -7463,11 +7490,13 @@
       "research_status": "enriched",
       "acquisition_type": "character_only",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Rising_Rage"
+        "https://dbxv2.fandom.com/wiki/Rising_Rage",
+        "https://dbxv2.fandom.com/wiki/Broly_%28Restrained%29",
+        "https://www.youtube.com/watch?v=EhqqYZbt3mo"
       ],
       "unlock_method": "Character-exclusive: Broly (Restrained)",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "race_restriction": "Character-only",
       "notes": "2026-09-20 roster-status refinement: maintained skill references classify Rising Rage as Broly (Restrained)'s character-exclusive skill; no normal CaC acquisition route is established.",
       "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
@@ -8034,11 +8063,13 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dragonball.fandom.com/wiki/Solar_Flare"
+        "https://dragonball.fandom.com/wiki/Solar_Flare",
+        "https://dbxv2.fandom.com/wiki/Solar_Flare",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 3 — \"World Tournament Tag Team\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ01, usable by all CaC races. It blinds/stuns opponents in front of the user; positioning matters because it is ineffective from behind. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
@@ -9760,11 +9791,13 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
+        "https://dbxv2.fandom.com/wiki/Wall_of_Defense",
+        "https://xvguide.neocities.org/Skill",
+        "https://yhangame.blogspot.com/2016/12/dragon-ball-xenoverse-2-all-100-parallel-quests-rank-z-guide.html"
       ],
       "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super from PQ10, usable by all CaC races. The user teleports in front of an ally and absorbs incoming attacks while held; without an ally it targets the nearest opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
