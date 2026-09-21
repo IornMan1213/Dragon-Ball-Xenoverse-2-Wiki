@@ -3864,3 +3864,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: canonical/index **283/283**, name ordering identical, **0 duplicate names**, **60** Ultimate Finish flags. Acquisition-critical fields remain synchronized.
 - Commits: canonical **8cc6d9fb8741a4746877e916faf19a5b8acf1fe7**; index **9d31f6708325c2e8ac6277611dcc764965407682**.
 - Exact next target: **continue the remaining character-only/starting-move non-PQ records, separating genuinely non-acquirable roster skills from CaC-accessible skills whose acquisition route is merely under-specified.**
+
+
+## 2026-09-20 — character-only / built-in skill status refinement
+- Refined **9** non-PQ records whose status was character-only or built-in rather than a conventional acquisition route: Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, and Surging Spirit.
+- The records now explicitly distinguish roster-exclusive transformations/skills and built-in Ultra Instinct functionality from normal CaC-acquirable skills.
+- No CaC acquisition route was invented where maintained evidence did not establish one.
+- Validation: canonical/index remain **283/283**, **0 duplicate names**, **60** Ultimate Finish flags; record-name ordering remains identical.
+- Commits: canonical **ed02f4441b8eb3080b9f8bedcd97dd0ad0c5b650**; index **b38e008f2dc54f8339e47dc1ef3bb5c181272e02**.
+- Exact next target: **audit the remaining non-PQ starting-move and other_nonquest records, especially Afterimage, Super Guard, and any skill whose CaC availability is implied by the current unlock text but lacks a concrete acquisition explanation.**
