@@ -5695,3 +5695,14 @@ The repository owner has clarified the continuation contract:
 - Research source descriptions: current Xenoverse 2 skill-reference pages for Evil Rise Strike, Explosive Assault, and Finish Breaker; each page exposes the explicit Ki Used value.
 - Canonical commit: 76057f81bf7da7aa477081f8c300d0472b1b498a.
 - Exact next task: recompute the live nullable census and research the next bounded unresolved record/family; current queue begins with **Dimension Cannon, Flash Strike, Final Flash**.
+
+
+### 2026-09-21 — Bounded Ki-cost batch: Flash Strike / Final Flash
+- Live census before editing: **428 canonical skills; 0 duplicate IDs; 14 nullable ki_cost records**.
+- Completed **Flash Strike — 100 Ki** from current Xenoverse 2 skill-reference evidence explicitly listing Ki Used: 100.
+- Completed **Final Flash — 300 Ki** from current Xenoverse 2 skill-reference evidence explicitly listing Ki Used: 300.
+- Canonical changes were limited to ki_cost and last_verified=2026-09-21.
+- **Dimension Cannon was inspected but not changed**; the retrieved search set did not provide sufficiently direct current Ki Used evidence for that exact skill, so its null remains preserved.
+- Post-write validation: **428 records; 0 duplicate IDs; 12 nullable ki_cost records**.
+- Canonical commit: `6c77534d1f513e331e180a77aa9a3ad701f84997`.
+- Exact next task: recompute the live nullable census and continue with **Dimension Cannon**, using exact-skill evidence before changing its cost.
