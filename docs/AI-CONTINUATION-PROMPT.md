@@ -3394,3 +3394,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Remaining generic Skill Shop / TP Medal Shop records were reviewed conservatively; no unsupported prerequisites were added.
 - Audit commit: **c8bc61a21c33aac846025ad70a25f16ea89dd9ec**.
 - Exact next task: continue checking generic TP Medal Shop and Skill Shop records for concrete prerequisites while preserving historical rotation/price uncertainty.
+
+
+### 2026-09-20 cycle update — generic shop audit continuation
+- Rechecked remaining generic Skill Shop and TP Medal Shop records.
+- Most do not have enough maintained evidence for an additional prerequisite/timing condition without false precision. Historical TP Medal Shop rotations were not treated as current availability.
+- Punisher Guard remains the concrete prerequisite refinement: Skill Shop after **A Momentous Galactic Battle**, 5,000 Zeni; current references independently support it. citeturn0search0turn0search1
+- No additional dataset changes were necessary.
+- Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
+- Audit commit: **4ec408c28d1a51f7b7fc40ce8b8a7c88c0557c50**.
+- Exact next task: **continue source-quality auditing remaining generic shop records, prioritizing multi-route skills and historical shop references that may conceal a more precise current route.**
