@@ -10026,11 +10026,12 @@
       "source_quest": "Dodoria mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-dodoria-beam",
       "source_mentor": [
         "mentor-dodoria"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Critical Upper",
@@ -10053,11 +10054,12 @@
       "source_quest": "Dodoria mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-critical-upper",
       "source_mentor": [
         "mentor-dodoria"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Dodoria Headbutt",
@@ -10080,11 +10082,12 @@
       "source_quest": "Dodoria mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-dodoria-headbutt",
       "source_mentor": [
         "mentor-dodoria"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Dodoria Launcher",
@@ -10107,11 +10110,12 @@
       "source_quest": "Dodoria mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
       "id": "skill-dodoria-launcher",
       "source_mentor": [
         "mentor-dodoria"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Fighting Pose F",
