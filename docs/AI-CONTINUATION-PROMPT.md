@@ -6653,3 +6653,15 @@ The repository owner has clarified the continuation contract:
 - Evidence limits: no exact drop probability was inferred and no conflicting source was discarded.
 - Validation: 452 canonical / 452 index; 0 duplicate IDs; canonical `ki_cost` null count 0; 47 exactly-two-source canonical records; changed record has 3 sources and `last_verified=2026-09-21`.
 - Exact next task: **recompute the live two-source census and continue with Fighting Pose C, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 continuation — Fighting Pose C low-source provenance
+- Workstream: **P1 skill acquisition/source provenance cleanup**.
+- Live pre-batch census: **47 exactly-two-source records**.
+- Bounded batch completed: **Fighting Pose C (`skill-fighting-pose-c`)**.
+- Evidence: Yhan Game independently lists Fighting Pose C as a **Basic Reward for PQ13 — Namekian Dragon Balls**.
+- Changes: added the Yhan Game source to canonical and index records; preserved existing PQ13 acquisition, classification, and 0-Ki semantics.
+- Evidence limits: no exact drop probability or Ultimate Finish requirement was inferred.
+- Validation: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 46 exactly-two-source records**, and canonical/index source parity for the changed record.
+- CI: no actionable workflow/status result was checked in this bounded cycle; do not claim CI success.
+- Exact next task: **recompute the live two-source census and continue with Fighting Pose E, checking acquisition/reward semantics before provenance-only strengthening.**
