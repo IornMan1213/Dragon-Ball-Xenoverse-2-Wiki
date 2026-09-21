@@ -3470,3 +3470,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Evidence limitation: the main-story availability wording is preserved as a bounded acquisition gate; the repository does not assert a specific saga/chapter threshold because the consulted current sources did not establish one strongly enough for this pass.
 - Current unresolved scope: genuine provenance conflicts remain documented, including Emperor's Cannon's PQ183/PQ184 conflict and other reward-table versus explicit-drop-condition discrepancies.
 - Exact next task: **continue the generic shop/source contradiction audit, prioritizing Skill Shop and TP Medal Shop records whose dedicated skill pages or acquisition tables can establish a more specific prerequisite or reveal a misclassified source. Start with Time Bullet, Super God Shock Flash, and Pressure Sign; preserve uncertainty where evidence is only community-level or conflicting.**
+
+
+### 2026-09-20 cycle update — Time Bullet provenance refinement
+- Continued the under-specified non-PQ acquisition audit.
+- Refined **Time Bullet** in both canonical and index data: `source_quest` now records the main-story gate (defeat Kid Buu in the decisive battle with Majin Buu), while `source_quest_or_shop` records the Conton City Skill Shop source. This avoids conflating the prerequisite with the shop itself.
+- No specific saga/chapter threshold, shop rotation, price, or Ultimate Finish requirement was inferred.
+- Commits: `a07862ef91cfa2df46087abf99bc23b088df6a29` (canonical), `da55f44aef0935d0e9fc27f0d7b5ba778b4d2c8b` (index), `74932aa350726a1f9879eeac6aea1e6012609fbb` (coverage audit).
+- Exact next task: **continue the under-specified non-PQ acquisition audit, prioritizing records where `unlock_method` contains a concrete prerequisite but `source_quest`/`source_quest_or_shop` does not yet preserve it. Then recheck route conflicts against dedicated unlock tables; preserve uncertainty rather than inventing precision.**
