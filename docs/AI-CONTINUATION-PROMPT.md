@@ -4414,3 +4414,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Current unresolved skill race-scope set remains 3 records: Blaster Stream, Chaotic Time Impact, and Circle Flash. No unsupported race restriction was added.
 - Exact next task: add deterministic PQ IDs to the canonical PQ record layer, then upgrade `validate_pq_skill_links.py` into a bidirectional PQ ↔ skill relationship report using endpoint IDs, with unresolved/orphaned edges explicitly reported. Batch related records together and preserve evidence uncertainty.
 
+## 2026-09-21 continuation — deterministic skill IDs and cross-link contract
+- Workstream: P1 skill data-model integrity / cross-database linkage.
+- Added deterministic `id` values to all 283 canonical skill records and synchronized `docs/data/skills-index.json`.
+- Updated `docs/data/skills.schema.json` to require deterministic skill IDs; updated `scripts/build_skills_from_research.py` so IDs are produced and recomputed through correction/merge paths; updated `scripts/validate_skills.py` to validate syntax, uniqueness, and deterministic derivation.
+- Added `docs/data/CROSS-LINK-CONTRACT.md` defining stable identifiers, bidirectional relationship requirements, provenance rules, unresolved-link handling, and the planned connected-database traversal model.
+- Existing `scripts/validate_pq_skill_links.py` remains the PQ→skill audit baseline; the next implementation stage is a bidirectional ID-based PQ↔skill relationship report.
+- Validation: live inspection confirms 283 canonical records and 283 unique skill IDs. Latest workflow runs for the current commit were queued at handoff. Preceding workflow failures exposed jobs with zero steps, so they remain opaque infrastructure/runner/account signals; no validator was weakened.
+- Limitation: no local Python runtime is exposed through the GitHub connector, so no local execution claim is made.
+- Current unresolved skill race-scope set remains 3 records: Blaster Stream, Chaotic Time Impact, and Circle Flash.
+- Exact next task: add deterministic PQ IDs to the canonical PQ record layer, then upgrade the PQ↔skill validator/report to emit forward and reverse ID-based edges plus explicit unresolved/orphaned relationships. Batch related records and preserve evidence uncertainty.
+
