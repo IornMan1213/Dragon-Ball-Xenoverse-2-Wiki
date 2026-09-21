@@ -856,3 +856,9 @@
 - Audited Blaster Stream, Chaotic Time Impact, and Circle Flash, the three remaining nullable `race_restriction` skill records.
 - Existing evidence establishes CaC usability for all three but does not establish a narrower race/gender/form restriction. Preserved `null` rather than inferring universal race availability.
 - Added explicit evidence-boundary notes to canonical and index records; canonical/index parity remains clean.
+
+## 2026-09-21 — PQ141-PQ150 research-batch coverage repair
+
+- Added the missing PQ141-PQ150 research batch with ten individually sourced records, DLC provenance, objectives, documented rewards, and conservative DLC-era unlock metadata.
+- Reconciled PQ144's incomplete canonical reward inventory against the maintained Steam all-PQ guide and synchronized the new research batch.
+- Canonical PQ coverage remains 186/186; the previously missing research range is now represented.
