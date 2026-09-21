@@ -9353,11 +9353,12 @@
       "source_quest": "Piccolo mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-evil-explosion",
       "source_mentor": [
         "mentor-piccolo"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Super Explosive Wave",
@@ -9380,12 +9381,13 @@
       "source_quest": "Piccolo mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21: Future Gohan's Initiation Test also independently teaches this existing canonical skill; multi-mentor provenance is preserved rather than duplicated.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21: Future Gohan's Initiation Test also independently teaches this existing canonical skill; multi-mentor provenance is preserved rather than duplicated. 2026-09-21 Ki-cost verification: current skill reference records 200 Ki used.",
       "id": "skill-super-explosive-wave",
       "source_mentor": [
         "mentor-piccolo",
         "mentor-future-gohan"
-      ]
+      ],
+      "ki_cost": 200
     },
     {
       "name": "Light Grenade",
@@ -9408,11 +9410,12 @@
       "source_quest": "Piccolo mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-light-grenade",
       "source_mentor": [
         "mentor-piccolo"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Special Beam Cannon",
@@ -9435,11 +9438,12 @@
       "source_quest": "Piccolo mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
       "id": "skill-special-beam-cannon",
       "source_mentor": [
         "mentor-piccolo"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Dodon Ray",
@@ -9462,11 +9466,12 @@
       "source_quest": "Tien mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used.",
       "id": "skill-dodon-ray",
       "source_mentor": [
         "mentor-tien"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Volleyball Fist",
@@ -9489,11 +9494,12 @@
       "source_quest": "Tien mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-volleyball-fist",
       "source_mentor": [
         "mentor-tien"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Tri-Beam",
@@ -9516,11 +9522,12 @@
       "source_quest": "Tien mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-tri-beam",
       "source_mentor": [
         "mentor-tien"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Neo Tri-Beam",
@@ -9543,11 +9550,12 @@
       "source_quest": "Tien mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
       "id": "skill-neo-tri-beam",
       "source_mentor": [
         "mentor-tien"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Fake Death",
