@@ -4211,3 +4211,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Evidence: PQ reward listings plus independent Dragon Ball/Xenoverse references. The evidence explicitly identifies these as accessories/rewards and establishes their PQ routes.
 - Added canonical IDs `accr-101` through `accr-103`; synchronized the accessory PQ bridge and cross-link report.
 - Deliberately did not force Android 14's Hat, Android 15's Sunglasses, Bardock (DB Super)'s Scouter, or Android 17 (DB Super)'s Ranger Accessory because current evidence found does not establish a distinct canonical inventory identity for those exact research labels.
+
+### 2026-09-21 accessory PQ identity batch 4
+- Resolved **Yamcha's Sword** as a canonical accessory identity (`accr-104`) and linked the PQ route to **PQ36**.
+- Evidence: the maintained PQ reward guide directly lists Yamcha's Sword under PQ36, while an independent equipment reference lists the same exact inventory item as an Accessory Shop item. This reconciles the prior PQ29/PQ36 research conflict rather than creating a duplicate identity. cite refs are kept outside repository files.
+- Corrected the accessory bridge's stale summary counts and regenerated the forward/reverse cross-link report.
+- Remaining unresolved accessory research identities: Android 14's Hat, Android 15's Sunglasses, Bardock (DB Super)'s Scouter, and Android 17 (DB Super)'s Ranger Accessory. Current evidence continues to indicate these labels should not be force-mapped to clothing or similarly named components.
