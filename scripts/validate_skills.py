@@ -16,6 +16,8 @@ def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('su
 def main():
  d=json.loads(DATA.read_text(encoding='utf-8')); idx=json.loads(INDEX.read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
  ALLOWED_CLASS=set(schema['properties']['class']['enum']); ALLOWED_SUB=set(schema['properties']['subcategory']['enum']); ALLOWED_RESEARCH=set(schema['properties']['research_status']['enum']); ALLOWED_ACQUISITION=set(schema['properties']['acquisition_type']['enum'])
+ projection=set(INDEX_PROJECTION_FIELDS); schema_fields=set(schema.get('properties',{}))
+ if not projection.issubset(schema_fields):errors.append(f"index projection contains non-canonical fields: {', '.join(sorted(projection-schema_fields))}")
  rs=d.get('records',[]); ir=idx.get('records',[]); errors=[]
  if Draft202012Validator is None:
   errors.append('jsonschema dependency is required for JSON Schema validation')
