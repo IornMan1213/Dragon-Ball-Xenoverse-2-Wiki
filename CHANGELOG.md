@@ -977,3 +977,10 @@
 ### 2026-09-21 correction — pre-existing citation-token artifact status
 - The live file still contains some **older historical internal citation-token text** in entries written by earlier cycles. The current Bojack entry introduced no such tokens.
 - Because the continuation protocol is append-only and forbids deleting or rewriting historical entries, those older artifacts were not removed in this cycle. Future entries must continue using plain source URLs or source descriptions only.
+
+## 2026-09-21 — Zamasu mentor skill Ki-cost verification
+
+- Verified **God Splitter (100)**, **Heavenly Arrow (100)**, and **Instant Severance (300)** from current Xenoverse 2 skill references. citeturn0search0turn0search1turn0search2
+- Updated only canonical `ki_cost` and `last_verified`.
+- Live canonical skill census: **428 records, 0 duplicate IDs, 19 nullable `ki_cost` records**.
+- Commit: `6d465aa0664846960006b2359b0885b9ca1184d2`.
