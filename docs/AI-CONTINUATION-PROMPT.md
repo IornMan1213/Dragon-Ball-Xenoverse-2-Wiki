@@ -5593,3 +5593,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: canonical commit `3dddf371190a0cd8a3cb29940ec922b64ea2b711` had no actionable workflow/status result exposed; **no CI success claimed**.
 - Commits: `3dddf371190a0cd8a3cb29940ec922b64ea2b711` (canonical), `d5a8fbbd3e7e10abe65e08f055e70f35c13f3e77` (audit), `060eb92ff3f52d41597efdf90060b03f3a32e199` (changelog), plus this handoff update.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+### 2026-09-21 — Future Gohan mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 29 nullable `ki_cost` records**.
+- Bounded batch: **Sonic Rush (100), Energy Dome (up to 320), One-Handed Kamehameha mk.II (400–600)** from Future Gohan mentor training.
+- Evidence: current Xenoverse 2 skill references document the fixed Sonic Rush cost and the variable Ki ranges for Energy Dome and One-Handed Kamehameha mk.II. Variable-cost behavior was preserved.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no unrelated fields changed.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **26**. No skill-index Ki-cost projection introduced.
+- CI: canonical commit `2b4ee7bb780d6591197b7e79863e75ef9799e053` had no actionable workflow/status result exposed; **no CI success claimed**.
+- Commits: `2b4ee7bb780d6591197b7e79863e75ef9799e053` (canonical), `b6697c76012643011b8f0bfe2c08334944b96ad0` (audit), `fe4717d6fcf972ff4cfd759da42b00442fbf5486` (changelog), plus this handoff update.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
