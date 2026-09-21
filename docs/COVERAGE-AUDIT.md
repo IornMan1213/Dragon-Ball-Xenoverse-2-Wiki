@@ -5230,3 +5230,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Added current skill-reference, contemporaneous PQ reward, and maintained all-PQ guide evidence for PQ142 Basic Reward. citeturn1search1turn1search4turn1search6
 - No semantic fields were changed.
 - Commit: `d6013a3c9c4656fe95196fdd93e2e32703567a17`.
+
+
+### 2026-09-21 — Kamehameha source-PQ reconciliation
+- Concrete data-integrity mismatch: Kamehameha had PQ48 in `source_parallel_quests`; PQ48 documents Kamekameha instead.
+- Corrected to PQ05 only and added independent PQ/skill evidence. citeturn2search0turn2search1turn2search2
+- Commit: `48d0d0b7bd17e4f858c565d189feb12e189fba88`.
