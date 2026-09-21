@@ -4108,3 +4108,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `9efe94501478c53e14f2ea94822db14a41ad8161`.
 - No canonical data files were changed.
 - Next task: continue auditing the remaining workflow/script contracts for similar duplicated assumptions, then check workflow status for the maintenance commits where available.
+
+
+## 2026-09-21 continuation — validator runtime defect
+- Continued auditing the scripts invoked by `skills-sync.yml`.
+- Found a concrete runtime defect in `scripts/validate_skills.py`: the Ultimate Finish check referenced `uf` before assigning it inside the per-record loop. A validation run reaching that statement would raise `NameError` instead of reporting validation results.
+- Fixed the validator to assign `uf = r.get('ultimate_finish_required')` immediately before the Ultimate Finish provenance check.
+- Commit: `adc6530d87246a18ced6bbae4be1789497673582`.
+- No data files changed.
+- Next task: continue auditing invoked scripts for executable/runtime defects and duplicated contracts, then inspect workflow status where available.
