@@ -1475,6 +1475,25 @@
       },
       "status": "partially_verified",
       "identity_note": "The same exact inventory name is independently documented as an Accessory Shop item and as the PQ36 reward. The previous PQ29/PQ36 conflict was caused by the research record carrying the wrong PQ number; PQ36 is directly listed in the maintained reward guide."
+    },
+    {
+      "id": "accr-105",
+      "canonical_name": "Android 15's Shades & Hat",
+      "aliases": [
+        "Android 15's Sunglasses",
+        "Android 15's Hat",
+        "Android 15's Shades and Hat"
+      ],
+      "routes": [
+        "TP Medal Shop"
+      ],
+      "route_refs": {
+        "shop": [
+          "TP Medal Shop — 7 TP; DLC Pack 2"
+        ]
+      },
+      "status": "verified_identity",
+      "identity_note": "Current equipment references identify Android 15's Shades & Hat as a single accessory and document its TP Medal Shop availability. The research label 'Android 15's Sunglasses' is therefore treated as a component/description alias, not a separate inventory item."
     }
   ],
   "unresolved_alias_groups": [
