@@ -52,25 +52,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Dodon Ray",
-          "skill_id": null
+          "skill_id": "skill-dodon-ray"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Volleyball Fist",
-          "skill_id": null
+          "skill_id": "skill-volleyball-fist"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Tri-Beam",
-          "skill_id": null
+          "skill_id": "skill-tri-beam"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Neo Tri-Beam",
-          "skill_id": null
+          "skill_id": "skill-neo-tri-beam"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-dodon-ray",
+        "skill-volleyball-fist",
+        "skill-tri-beam",
+        "skill-neo-tri-beam"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -87,25 +92,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Fake Death",
-          "skill_id": null
+          "skill_id": "skill-fake-death"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Wolf Fang Fist",
-          "skill_id": null
+          "skill_id": "skill-wolf-fang-fist"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Ki Blast Thrust",
-          "skill_id": null
+          "skill_id": "skill-ki-blast-thrust"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Spirit Ball",
-          "skill_id": null
+          "skill_id": "skill-spirit-ball"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-fake-death",
+        "skill-wolf-fang-fist",
+        "skill-ki-blast-thrust",
+        "skill-spirit-ball"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -122,25 +132,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Evil Explosion",
-          "skill_id": null
+          "skill_id": "skill-evil-explosion"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Super Explosive Wave",
-          "skill_id": null
+          "skill_id": "skill-super-explosive-wave"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Light Grenade",
-          "skill_id": null
+          "skill_id": "skill-light-grenade"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Special Beam Cannon",
-          "skill_id": null
+          "skill_id": "skill-special-beam-cannon"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-evil-explosion",
+        "skill-super-explosive-wave",
+        "skill-light-grenade",
+        "skill-special-beam-cannon"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -157,25 +172,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Double Sunday",
-          "skill_id": null
+          "skill_id": "skill-double-sunday"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Saturday Crash",
-          "skill_id": null
+          "skill_id": "skill-saturday-crash"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Shining Friday",
-          "skill_id": null
+          "skill_id": "skill-shining-friday"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Weekend",
-          "skill_id": null
+          "skill_id": "skill-weekend"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-double-sunday",
+        "skill-saturday-crash",
+        "skill-shining-friday",
+        "skill-weekend"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -229,25 +249,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Bomber DX",
-          "skill_id": null
+          "skill_id": "skill-bomber-dx"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Arm Crash",
-          "skill_id": null
+          "skill_id": "skill-arm-crash"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Genocide Shell",
-          "skill_id": null
+          "skill_id": "skill-genocide-shell"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Break Cannon",
-          "skill_id": null
+          "skill_id": "skill-break-cannon"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-bomber-dx",
+        "skill-arm-crash",
+        "skill-genocide-shell",
+        "skill-break-cannon"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
