@@ -1300,3 +1300,15 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Character-association exceptions were explicitly reviewed: Blazing Attack is associated with Goku (Ultra Instinct) but is sourced to PQ136 and remains `Ultra Pack 1`; Surging Spirit intentionally carries the composite `Extra Pack 2; Conton City Vote Pack` provenance; these are not safe to collapse based on character association.
 - [x] No canonical data changes were required in this pass.
 - [ ] Next provenance batch: continue with another character-associated cluster where direct package/source evidence can establish or falsify the current label.
+
+
+### 2026-09-21 — Master ledger completion marking: Ultra Pack 1 skill provenance census
+- [x] Audited the live **Ultra Pack 1** skill-provenance cluster: **12 canonical records** currently carry `dlc_requirement=Ultra Pack 1`.
+- [x] The ten Future Warrior-acquirable skills named by the DLC reference are all represented with matching PQ133–137 endpoints: Burst Stinger, Blazing Attack, Prominence Flash, Formation!, Pretty Cannon, Burst Charge, Lovely Cyclone, Ultimate Charge, Raid Blast, and Ribrianne's Eternal Love.
+- [x] The two additional Ultra Pack 1 records, Final Charge and Final Flash (Super), are character-exclusive SSGSS Vegeta (Evolved) skills and are intentionally retained as Ultra Pack 1 provenance rather than being confused with the ten player-acquirable skills.
+- [x] Evidence: official Bandai Namco Ultra Pack 1 documentation; current DLC reference; maintained 186-PQ Steam guide; individual technique documentation for Formation!, Prominence Flash, Pretty Cannon, Lovely Cyclone, and the character-exclusive charge skills.
+- [x] No DLC mismatch was found for the live PQ133–137 skill endpoints. Conflicting Basic Reward vs Ultimate Finish presentations for individual rewards were preserved and not normalized in this provenance-only pass.
+- [x] Canonical data changed only by refreshing `last_verified=2026-09-21` and appending a bounded provenance-audit note to the 12 affected skill records; no acquisition, mechanics, cost, restriction, or reward-slot field was changed.
+- [x] Post-write validation: **428 canonical skill records / 0 duplicate IDs / 12 Ultra Pack 1 records / 0 PQ133–137 DLC mismatches**; `skills-index.json` was not modified because it does not represent `dlc_requirement`.
+- [x] CI status: workflow inspection remains required; no success is claimed unless GitHub exposes an actual run/check.
+- [ ] Next provenance batch: recompute the live DLC-label/source-relationship census and select the next deterministic cluster outside Ultra Pack 1, preserving intentional composite/platform-dependent values and source conflicts.
