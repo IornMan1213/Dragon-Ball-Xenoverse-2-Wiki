@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 129,
-  "linked_skill_edges": 36,
-  "unresolved_skill_endpoints": 93,
-  "fully_linked_mentors": 6,
-  "partially_linked_mentors": 27,
+  "linked_skill_edges": 54,
+  "unresolved_skill_endpoints": 75,
+  "fully_linked_mentors": 11,
+  "partially_linked_mentors": 22,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -159,13 +159,13 @@
         "Bloody Counter",
         "Elegant Blaster"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Audacious Laugh",
-        "Gorgeous Shot",
-        "Bloody Counter",
-        "Elegant Blaster"
-      ]
+      "linked_skill_ids": [
+        "skill-audacious-laugh",
+        "skill-gorgeous-shot",
+        "skill-bloody-counter",
+        "skill-elegant-blaster"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-dodoria",
@@ -176,13 +176,13 @@
         "Dodoria Headbutt",
         "Dodoria Launcher"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Dodoria Beam",
-        "Critical Upper",
-        "Dodoria Headbutt",
-        "Dodoria Launcher"
-      ]
+      "linked_skill_ids": [
+        "skill-dodoria-beam",
+        "skill-critical-upper",
+        "skill-dodoria-headbutt",
+        "skill-dodoria-launcher"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-ginyu",
@@ -193,13 +193,13 @@
         "Milky Cannon",
         "Body Change"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Fighting Pose F",
-        "Fighting Pose A",
-        "Milky Cannon",
-        "Body Change"
-      ]
+      "linked_skill_ids": [
+        "skill-fighting-pose-f",
+        "skill-fighting-pose-a",
+        "skill-milky-cannon",
+        "skill-body-change"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-frieza",
@@ -211,13 +211,12 @@
         "Death Ball"
       ],
       "linked_skill_ids": [
+        "skill-death-beam",
+        "skill-death-crasher",
+        "skill-death-slicer",
         "skill-death-ball"
       ],
-      "unresolved_skill_names": [
-        "Death Beam",
-        "Death Crasher",
-        "Death Slicer"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-cooler",
@@ -229,13 +228,12 @@
         "Supernova Cooler"
       ],
       "linked_skill_ids": [
-        "skill-shadow-crusher"
+        "skill-feint-crash",
+        "skill-shadow-crusher",
+        "skill-fake-blast",
+        "skill-supernova-cooler"
       ],
-      "unresolved_skill_names": [
-        "Feint Crash",
-        "Fake Blast",
-        "Supernova Cooler"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-android-18",
@@ -585,5 +583,5 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
   ],
-  "canonical_skill_records": 325
+  "canonical_skill_records": 343
 }
