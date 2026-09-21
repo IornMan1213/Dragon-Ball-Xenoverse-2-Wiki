@@ -1204,3 +1204,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Post-write canonical validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; the former composite Divine Kamehameha label has 0 records.
 - [x] No generated/index field was invented because `dlc_requirement` is not represented in `docs/data/skills-index.json`.
 - [ ] Next provenance batch: fresh live census of remaining non-canonical/context-rich DLC labels, with the four platform-dependent Masters Pack records preserved unless direct evidence establishes a safe normalization.
+
+
+### 2026-09-21 — Master ledger completion marking: Masters Pack platform-dependent provenance audit
+- [x] **Tyrant Lancer, Rebellion Spear, Riot Javelin, and Brave Heat provenance audited.** Their existing `dlc_requirement` value, `Masters Pack (platform-dependent; included in base game on Switch)`, is intentionally preserved rather than normalized away.
+- [x] Evidence: the current Xbox Masters Pack listing identifies the pack as free and includes Bardock; the maintained Xenoverse 2 reference identifies the Masters Pack as included in the Nintendo Switch base game. The current Bandai Namco Switch page separately distinguishes the Switch base game from paid DLC packs. citeturn0search0turn1search0turn0search1
+- [x] Repository skill evidence independently ties all four skills to Bardock mentor training: Initiation Test → Tyrant Lancer, Lesson 1 → Rebellion Spear, Lesson 2 → Riot Javelin, Lesson 3 → Brave Heat. citeturn0search6
+- [x] Changes: canonical and index records received `last_verified=2026-09-21` plus a bounded provenance-audit note; the platform-dependent DLC classification itself was preserved.
+- [x] Post-write validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; canonical/index records remain aligned for the four audited skills.
+- [ ] Next provenance batch: fresh live census of any remaining non-canonical/context-rich DLC labels, with no further Masters Pack normalization unless contradictory platform evidence appears.
