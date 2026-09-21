@@ -6227,6 +6227,22 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Reward is explicitly present in the canonical PQ-006 reward list and the maintained all-PQ source; this adds the previously missing typed Super Soul relationship."
+    },
+    {
+      "pq": "pq-002",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Flying Nimbus!!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Exact-name reward match in the canonical PQ record; synchronized into the cross-domain relationship layer."
+    },
+    {
+      "pq": "pq-007",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Gyau!!!!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Exact-name reward match in the canonical PQ record; synchronized into the cross-domain relationship layer."
     }
   ],
   "normalization_rules": [
