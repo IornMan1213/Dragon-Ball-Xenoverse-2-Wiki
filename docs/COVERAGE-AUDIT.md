@@ -4278,3 +4278,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: not exposed for the direct commit; no CI success is claimed.
 - Commit: `f5b642db98845c682c91e446a56112d52c93247d`.
 - Exact next batch: continue the deterministic mentor-link population for the remaining mentor-derived skills (starting with Masenko, Maximum/Full Power Charge where applicable, Perfect Shot, Rise to Action, Shadow Crusher, Spirit Bomb, and Hit's three Time Skip skills), then audit whether the canonical relationship contract should expose `source_mentor` as a formal indexed relationship field.
+
+
+### 2026-09-21 cycle update — complete deterministic mentor-to-skill links
+- Live census before editing: **305 canonical skills / 33 indexed mentors**.
+- Bounded batch: **8 additional mentor-derived skills**: Masenko → `mentor-gohan-kid`; Perfect Shot → `mentor-cell`; Rise to Action → `mentor-krillin`; Shadow Crusher → `mentor-cooler`; Spirit Bomb → `mentor-goku`; Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike → `mentor-hit`.
+- Changes: added canonical `source_mentor` endpoints while retaining existing acquisition prose.
+- Validation: **16 total source_mentor links** across the 305-skill dataset; all endpoints match canonical `mentor-*` IDs; **0** internal UI citation artifacts.
+- Evidence limits: no broader mentor verification state or unverified reward conditions were promoted.
+- CI: not exposed for direct commit; no CI success claimed.
+- Commit: `9b9cdfb0746bbe10db6ec64ac220ed4d5e406023`.
+- Live census after editing: **305 skills / 16 mentor links**.
+- Exact next batch: audit the remaining non-mentor descriptive acquisition routes for canonical IDs, beginning with Advancement Tests and Time Rift/Future Saga routes, while keeping shop/story prerequisites distinct from actual acquisition endpoints.
