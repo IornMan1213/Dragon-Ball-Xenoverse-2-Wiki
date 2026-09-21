@@ -1282,3 +1282,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] External evidence reconfirms the important semantic distinction for the Ultra Instinct-era skills: the Free Update 11 reference explicitly lists Divine Kamehameha and Godly Display among that update's nine new skills, while individual technique documentation can separately describe their original Extra Pack 2 character association. The repository therefore keeps the acquisition/update provenance label at Free Update 11 without rewriting character/DLC context.
 - [x] No canonical data changes were needed in this census-only pass.
 - [ ] Next provenance batch: move beyond explicit `Free Update*` labels to another deterministic DLC cluster; prioritize a cluster with a single authoritative package/source relationship and preserve unresolved or historical distinctions.
+
+
+### 2026-09-21 — Master ledger completion marking: Data Input provenance correction
+- [x] **Data Input provenance corrected:** `Extra Pack 1` → `Free Update 5`.
+- [x] Evidence: official Extra Pack 1 store listings state the pack contains **13 new skills**; the contemporaneous skill list identifies those 13 and does not include Data Input. Contemporary documentation instead identifies Data Input as the Expert Mission 20 reward from the free update, while Android 13's preset includes Data Input. citeturn0search0turn1search1turn2search0
+- [x] Canonical change limited to `dlc_requirement`, `last_verified`, and a bounded provenance note. Acquisition route remains Expert Mission 20; no mechanics/cost/restriction changes.
+- [x] Important distinction preserved: Data Input being used by Android 13 does not make it an Extra Pack 1-exclusive skill.
+- [x] Next provenance batch: recompute the live DLC census and continue auditing skills whose `dlc_requirement` is inferred from character association rather than direct acquisition/package evidence.
