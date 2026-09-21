@@ -4815,3 +4815,5 @@ Only after data-completeness work, expose the improved structured research surfa
 - Final integrity state: 359 skills, 359 index records, 70 linked mentor edges, 59 unresolved endpoints, taxonomy total 359.
 - No mechanics were inferred.
 - Correction commits: 90cf2d7b02b5b105bc28690a5405bca81cfff84a, c5872c828a6cd0e594bb426c1510a88ff4c1da06, 331217aad85c27921f494fa478e41dfafd9254c9, 68e87c50ecb660e0506a52fc008c1779abac39ff
+
+- Correction follow-up: restored the existing `Other Ultimates` taxonomy count; category totals now equal all 359 canonical skills. Commits: 96c83497129b04879c4c1bd7242bd7bc75c42e18, 1047a194ad3d5cadae748cb4ca549131f790d506.
