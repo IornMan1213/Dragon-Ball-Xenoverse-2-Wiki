@@ -698,7 +698,7 @@
       "usable_by_cac": true,
       "character_source": "Majuub",
       "dlc_requirement": "Ultra Pack 2",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest 141 — \"Uub's Ultimate Challenge\"",
