@@ -5213,3 +5213,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI/status remains unavailable; no CI success claimed.
 - Exact next batch remains the bounded **4–12 record projection audit**, beginning with a coherent `last_verified` field family.
 
+
+
+### 2026-09-21 cycle update — skill-index last_verified projection batch
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, bounded deterministic skill-index reconciliation.
+- Live census before/after: **429 canonical skills / 429 skill-index records**.
+- Bounded batch: **10 exact last_verified projection values** — Become Giant, Dancing Parapara, Darkness Rush (Melee), Darkness Rush (Ranged), Data Input, Deadly Dance, Death Ball, Destructo-Disc, Dimension Cannon, Dragon Spiral.
+- Research/evidence: canonical docs/data/skills.json is the producer of the index projection. This cycle required no external inference and introduced no new acquisition/mechanics claim.
+- Changes: updated only those 10 last_verified values in docs/data/skills-index.json.
+- Evidence limits: remaining projected-field drift is intentionally preserved for bounded follow-up work; this pass does not imply that other canonical fields are stale.
+- Validation: both skill JSON layers parse; 429 records remain in each; the 10 targeted values now match canonical; **20 last_verified mismatches remain**; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: no workflow/status result was exposed; **no CI success claimed**. Validators were not weakened.
+- Commit: a14d8a7025124ca12a54e55c4b4ba9ffa701cf15.
+- Exact next batch: **Energy Charge, Final Pose, Full Power Charge, Galick Gun, Indomitable, Instant Transmission, Masenko, Maximum Charge, Perfect Shot, and Potential Unleashed**, using the same deterministic canonical→index last_verified parity check.
