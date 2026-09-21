@@ -1081,3 +1081,7 @@
 - CI success is not claimed unless GitHub exposes an actual workflow run/check.
 - Next: recompute the live DLC/source census and continue the next deterministic character-only/DLC completeness cluster.
 
+## 2026-09-21 — PQ21-PQ30 reward reconciliation
+- Audited PQ21-PQ30 against the maintained research batch.
+- Confirmed the canonical reward and cross-domain reward fields already match the researched basic-reward inventories; no canonical PQ data rewrite was required.
+- Preserved unresolved reward-slot/drop semantics and did not infer Ultimate Finish-only gates.
