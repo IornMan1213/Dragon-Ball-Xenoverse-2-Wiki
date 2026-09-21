@@ -53,6 +53,7 @@ def main():
   if acquisition=='tp_medal_shop' and not re.search(r'\b(?:tp|stp) medal\b', provenance):errors.append(f"{r.get('name')}: tp_medal_shop acquisition requires explicit TP Medal Shop provenance")
   if acquisition=='starting_move' and not re.search(r'starting (?:move|fighting-style choice)', provenance):errors.append(f"{r.get('name')}: starting_move acquisition requires explicit starting-choice provenance")
   if acquisition=='character_only' and not re.search(r'character(?:[- ]only|[- ]exclusive)|character skill', provenance):errors.append(f"{r.get('name')}: character_only acquisition requires explicit character-only provenance")
+  uf=r.get('ultimate_finish_required')
   if acquisition=='tp_medal_shop' and r.get('source_quest') not in (None,'') and re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', str(r.get('source_quest_or_shop','')).casefold()):errors.append(f"{r.get('name')}: mixed PQ + TP Medal route must preserve quest_or_mission acquisition_type")
   if uf is True and not any(re.search(r'\bultimate finish\b|\bUF\b', str(r.get(f,'')), re.I) for f in ('unlock_method','source_quest_or_shop')):
    errors.append(f"{r.get('name')}: ultimate_finish_required=true lacks explicit Ultimate Finish provenance")
