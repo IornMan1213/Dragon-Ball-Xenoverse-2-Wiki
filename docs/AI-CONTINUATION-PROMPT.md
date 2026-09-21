@@ -4579,3 +4579,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Android 14's Hat and Bardock (DB Super)'s Scouter remain unresolved. PQ104 evidence lists Android 14's Clothes; PQ146 evidence lists Bardock (DB Super)'s Clothes, so neither PQ route proves the requested accessory identity. citeturn1search0turn1search7
 - Validation: all three accessory JSON layers re-fetched and parsed successfully. Live counts: **105 canonical accessory identities / 43 matched PQ accessory research records / 2 unresolved identities**. Bridge summary matches computed counts.
 - Exact next batch: investigate **Android 14's Hat (PQ104)** and **Bardock (DB Super)'s Scouter (PQ146)** with exact inventory-name and shop/PQ evidence. If no direct evidence exists, preserve them unresolved rather than mapping them to clothes.
+
+
+### 2026-09-21 cycle update — accessory identity final unresolved pass
+- Researched the final two unresolved accessory labels: **Android 14's Hat (PQ104)** and **Bardock (DB Super)'s Scouter (PQ146)**.
+- Evidence confirms PQ104's documented reward is **Android 14's Clothes**, and PQ146's documented reward is **Bardock (DB Super)'s Clothes**. Current equipment references do not establish separate exact canonical accessory identities for the two research labels. citeturn0search1turn0search2
+- Both records are now explicitly marked `researched_unresolved` with evidence notes. No clothing-to-accessory merge was performed.
+- Validation: accessory canonical reconciliation remains **105 records**; bridge remains **45 PQ records / 43 matched / 2 researched-unresolved**; cross-link report regenerated successfully.
+- This closes the current accessory PQ identity reconciliation queue without fabricating unsupported canonical identities.
+- Next work should move to the next domain/relationship queue identified by the handoff rather than repeatedly re-researching these two labels, unless new direct evidence appears.
