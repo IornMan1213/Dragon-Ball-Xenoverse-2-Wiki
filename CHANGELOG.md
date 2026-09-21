@@ -353,3 +353,20 @@
 - Researched Android 14's Hat (PQ104) and Bardock (DB Super)'s Scouter (PQ146) against current equipment catalogs and PQ reward evidence.
 - Both remain explicitly unresolved because the documented PQ rewards are the corresponding character Clothes, not exact accessory identities.
 - Preserved the unresolved records rather than incorrectly linking them to clothing records.
+
+
+### 2026-09-21 cycle update — Time Rift and Unknown History canonical skill endpoints
+- Live census before editing: **305 canonical skills / 305 skill-index records**.
+- Bounded batch: **Super Saiyan, Super Vegeta, Turn Golden, Power Pole Pro, Purification, Future Super Saiyan**.
+- Added canonical Time Rift endpoints for the five race-focused rifts: Capsule Corporation, Guru's House, Frieza's Spaceship, Majin Buu's House, and Hercule's House.
+- Added a canonical **Unknown History** story endpoint for the hidden post-game route used by Future Super Saiyan.
+- Added deterministic skill relationship fields source_time_rifts and source_story_mission; synchronized the canonical skills layer and skills-index.json.
+- Added time-rift-skill-crosslink-report.json with forward Time Rift → skill edges and reverse skill → Time Rift edges, plus the Unknown History relationship.
+- Formalized the two new cross-domain fields in docs/data/record-expansion-contract.json.
+- Evidence: current repository skill records were reconciled against dedicated skill references and independent/current walkthrough evidence. Future Super Saiyan is explicitly linked to all five rifts plus Unknown History because its acquisition requires the five Distorted Time Eggs and the hidden story route. No mission-number or unsupported prerequisite was invented.
+- Evidence limits: the Time Rift endpoints describe relationship identity and acquisition context, not exhaustive NPC schedules, quest timing, or every reward in each rift. Those remain separate research domains.
+- Validation: canonical skills and index both remain **305 records**; all six target skills have valid Time Rift endpoints; the reverse report has **6 skills / 7 forward skill edges**; **0 broken relationship endpoints**; no internal citation markup was copied into repository data.
+- CI: combined status and commit-associated workflow lookup exposed **no statuses/runs** for the direct data commits; no CI success is claimed and validators were not weakened.
+- Commits: bbcdc5b (Time Rift endpoints), abcffda (Unknown History endpoint), bb298f5 (contract), a552902 (skills), dfe723c (skills index), e7c721d (bidirectional cross-link report).
+- Live census after editing: **5 canonical Time Rift endpoints / 1 canonical story endpoint / 305 skills / 305 skill-index records / 6 skills linked to Time Rift endpoints / 7 forward Time Rift→skill edges / 0 broken endpoints**.
+- Exact next batch: **extend the same deterministic relationship pattern to the remaining race/time-rift acquisition skills (including Become Giant as a reverse-link completion check), then move into Future Saga acquisition endpoints for later Awoken skills.**
