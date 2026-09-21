@@ -1145,3 +1145,13 @@
 - Preserved the existing Lesson 2 acquisition semantics and all other skill fields; no unsupported mechanics or reward probabilities were added.
 - Synchronized `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Validation target: canonical/index source parity, JSON parsing, live two-source census, and internal citation-artifact scan after the write.
+
+
+## 2026-09-21 — Dimensional Hole low-source provenance strengthening
+
+- Recomputed the live skill source census before editing: **452 canonical records / 452 index records / 54 exactly-two-source records**.
+- Strengthened **Dimensional Hole** from two to three sources using the maintained all-PQ guide.
+- The added source independently lists Dimensional Hole in **PQ80 — The Return of the Giant Ape-Fest's Basic Reward** list.
+- Preserved the existing PQ80 acquisition, Basic Reward, 0-Ki, CaC scope, and no-Ultimate-Finish-only semantics; no drop probability or additional mechanic was inferred.
+- Synchronized `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Post-write target: **53 exactly-two-source records**, with canonical/index source parity preserved.
