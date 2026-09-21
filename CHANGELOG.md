@@ -811,3 +811,10 @@
 - CI: not yet inspected for this commit; do not claim CI success.
 - Commit: `467a1148188343c36df72043bd959482d10f866f`.
 - Exact next batch: **recompute the live projection census and continue with the next bounded `mechanics_notes` mismatch family; preserve canonical values and do not regenerate unrelated fields.**
+
+
+### 2026-09-21 — skills-index mechanics projection parity batch 2
+- Corrected 10 deterministic `mechanics_notes` projections in `docs/data/skills-index.json` to match canonical `docs/data/skills.json`: Destructo-Disc, Dimension Cannon, Double Crush, Drain Field, Energy Charge, Final Pose, Flash Bomber, Full Power Charge, Galick Gun, and Ill Bomber.
+- Validation: 429 canonical skills / 429 index records; all 10 targeted values match; 15 broader `mechanics_notes` mismatches remain; no internal citation artifacts were introduced.
+- CI status unavailable; no CI success claimed.
+- Commit: `84d44bd4441d9d178eea9c6208803cd80dce7aca`.
