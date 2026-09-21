@@ -5377,3 +5377,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow runs were exposed for the canonical or latest documentation commits; **no CI success claimed**. Validators were not weakened.
 - Commits: `cf2a6ce19ee570c142e36dd0bde183c1294f239a` (canonical skills), `b6ad513ef14af07d0546171a07d253003a304c46` (index projection correction), `37d82b69f2d6bef5c0635773e059da84175da534` (coverage audit), `914b2db63442e249e9f4915a37b6e3772e92c4ce` (changelog).
 - Exact next task: **recompute the live nullable-`ki_cost` census and continue with the next evidence-backed mentor or other tightly bounded family, prioritizing records with explicit current `Ki Used` values and preserving variable-cost forms rather than inferring fixed values.**
+
+### 2026-09-21 cycle update — mentor skill Ki-cost verification batch 3
+- Live canonical skill census before editing: **428 records; 96 nullable `ki_cost` records**.
+- Bounded batch: **Double Sunday, Saturday Crash, Shining Friday, Weekend** from Raditz mentor training.
+- Research/evidence: current Xenoverse 2 skill references explicitly document **100, 100, 100, and 300 Ki** respectively, and the repository already has their Raditz mentor provenance. cite refs recorded externally; repository source URLs retained in the canonical records.
+- Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, or restriction semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **92**. The index was not given a new Ki-cost projection because its established projection contract does not include that field. No internal AI/UI/search citation artifacts were introduced.
+- CI: no actionable workflow run was exposed for the canonical commit; **no CI success claimed**.
+- Commit: `9f569f62cc896737ee03bd4ff25e21007a85e547e` (canonical), `4f7deebaa879c83f5f3e4c6f54c6b9c336b730f6` (coverage audit), `d8a64d922bc53daa3528c8d8d286aa28beb9e745` (changelog).
+- Exact next batch: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, starting with Zarbon's four null-cost skills — Audacious Laugh, Gorgeous Shot, Bloody Counter, Elegant Blaster — if current explicit `Ki Used` evidence remains available.**
