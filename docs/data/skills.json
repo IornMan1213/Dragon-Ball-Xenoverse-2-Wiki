@@ -4218,7 +4218,7 @@
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "source_quest": 29,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Energy Field in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-21 low-source provenance strengthening: GameFAQs independently lists Energy Field in PQ29's reward pool, corroborating the existing PQ29 acquisition endpoint and reward-tier classification. 2026-09-21 low-source provenance strengthening: GameFAQs independently lists Energy Field in PQ29\'s reward pool, corroborating the existing PQ29 acquisition endpoint and reward-tier classification.",
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Energy Field in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-21 low-source provenance strengthening: GameFAQs independently lists Energy Field in PQ29's reward pool, corroborating the existing PQ29 acquisition endpoint and reward-tier classification.",
       "id": "skill-energy-field",
       "source_parallel_quests": [
         29
