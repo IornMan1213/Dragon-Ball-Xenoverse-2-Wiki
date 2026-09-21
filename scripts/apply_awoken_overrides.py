@@ -68,7 +68,6 @@ def main() -> int:
         "missing_records": missing,
         "note": "Missing targets are reported for audit; staged forms may be represented only through parent transformation records in the generated catalog."
     }
-    data["generated"] = "2026-09-17"
     data["status"] = "research-enriched"
     rebuild_index(data)
     SKILLS.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
