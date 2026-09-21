@@ -4570,3 +4570,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: not rerun after documentation commit; no successful CI result is claimed.
 - Commits: `1fcf2b7` canonical identity, `6ba2398` bridge, `b7b96f2` cross-link report, `a624c72` coverage audit, `f56e706` changelog.
 - Exact next batch: investigate the remaining **4** identities using exact-name/current inventory research: **Android 14's Hat, Android 15's Sunglasses, Bardock (DB Super)'s Scouter, Android 17 (DB Super)'s Ranger Accessory**. If exact canonical inventory identities cannot be established, preserve them as unresolved rather than mapping them to clothes or unrelated accessories.
+
+
+### 2026-09-21 cycle update — PQ accessory identity reconciliation batch 5
+- Bounded batch completed: **Android 15's Sunglasses** and **Android 17 (DB Super)'s Ranger Accessory**.
+- Android 15: added canonical `accr-105` = **Android 15's Shades & Hat**. Current equipment references explicitly identify this as a single accessory available from the TP Medal Shop; the research label 'Sunglasses' is preserved as an alias/component description. citeturn2search0turn2search1
+- Android 17: linked `pqacc-029` to existing `accr-029` = **Android 17 (DB Super) Wig** as a component/research alias. PQ152 reward evidence explicitly lists the wig. No duplicate inventory record was created. citeturn1search4turn1search1
+- Android 14's Hat and Bardock (DB Super)'s Scouter remain unresolved. PQ104 evidence lists Android 14's Clothes; PQ146 evidence lists Bardock (DB Super)'s Clothes, so neither PQ route proves the requested accessory identity. citeturn1search0turn1search7
+- Validation: all three accessory JSON layers re-fetched and parsed successfully. Live counts: **105 canonical accessory identities / 43 matched PQ accessory research records / 2 unresolved identities**. Bridge summary matches computed counts.
+- Exact next batch: investigate **Android 14's Hat (PQ104)** and **Bardock (DB Super)'s Scouter (PQ146)** with exact inventory-name and shop/PQ evidence. If no direct evidence exists, preserve them unresolved rather than mapping them to clothes.
