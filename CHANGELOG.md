@@ -874,3 +874,8 @@
 - Compared canonical PQ21-PQ30 rewards with research batch 03.
 - Repaired the one actionable cross-layer omission: PQ22 `Energy Shot` in the research batch's `skill_rewards`.
 - Preserved unresolved reward-slot/drop-probability semantics.
+
+## 2026-09-21 — Mentor skill Ki-cost verification
+
+- Added verified Ki costs for eight mentor-training skills: Evil Explosion, Super Explosive Wave, Light Grenade, Special Beam Cannon, Dodon Ray, Volleyball Fist, Tri-Beam, and Neo Tri-Beam.
+- Preserved variable-cost mechanics and unresolved records rather than filling values by inference.
