@@ -4286,3 +4286,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Correction records remain the explicit override path: declared correction_fields authorize replacement/clearing, while correction destinations become protected afterward. research_status can therefore change only through an explicit correction, consistent with the correction model.
 - No additional code change was warranted by this audit.
 - Next task: inspect the canonical field allowlist used for correction_fields against the actual schema and generated projection, looking for fields accepted by the correction layer but impossible to represent canonically or fields missing from the allowlist that legitimate corrections need.
+
+
+## 2026-09-21 continuation — correction field/schema alignment
+- Compared the correction_fields allowlist with docs/data/skills.schema.json and the generated skills-index projection.
+- The previous hard-coded correction allowlist matched the schema properties, but it duplicated schema knowledge and could silently drift if the schema gained or removed fields.
+- Replaced the hard-coded allowlist with a runtime read of the canonical schema's properties. Provenance handling remains explicit: sources is still rejected from correction_fields because it is merged separately.
+- The generated index is intentionally only a projection, so fields absent from that projection remain valid correction targets when they are valid canonical schema properties.
+- Commit: a18bc5bea1f50534ea7bcf14bdf797ef5f601a6b — Derive correction fields from canonical schema.
+- Next task: inspect the new schema-loading path for failure modes and verify the correction validator still rejects malformed schemas/unsupported fields without weakening the final schema validation workflow.
