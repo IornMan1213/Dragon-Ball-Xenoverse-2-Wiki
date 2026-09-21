@@ -2616,7 +2616,7 @@
       "notes": "2026-09-20 provenance refinement: maintained PQ data explicitly assigns this skill to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
       "mechanics_notes": "Confirmed as Goku (Ultra Instinct -Sign-)'s 100-Ki Ki Blast Super from PQ151. It is a slower single-shot variation of Soaring Fist; Ultra Instinct also uses Spirit Pulse as its fully charged Ki Blast. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "source_quest": 151,
-      "source_quest_or_shop": "PQ151"
+      "source_quest_or_shop": "Parallel Quest 151 — \"Even Further Beyond\""
     },
     {
       "name": "Stone Bullet",
@@ -2765,7 +2765,7 @@
       "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ153 and describes Wild Buster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate.",
       "mechanics_notes": "Confirmed as Vegeta (GT)'s 100-Ki Ki Blast Super from PQ153. Exact drop gating and some numerical mechanics remain bounded. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "source_quest": 153,
-      "source_quest_or_shop": "PQ153"
+      "source_quest_or_shop": "Parallel Quest 153 — \"Seeing Double\""
     },
     {
       "name": "Afterimage",
@@ -3106,7 +3106,7 @@
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 97,
-      "source_quest_or_shop": "PQ97"
+      "source_quest_or_shop": "Parallel Quest 97 — \"Insidious Plot\""
     },
     {
       "name": "Quick Sleep",
@@ -3184,7 +3184,7 @@
       "notes": "2026-09-20 provenance refinement: the maintained PQ153 drop-condition data explicitly assigns this skill to a 40% Ultimate Finish bonus roll; the earlier reward-list wording did not establish the gate. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ153, usable by all CaC races. It creates a temporary energy barrier around the user that blocks incoming attacks. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
       "source_quest": 153,
-      "source_quest_or_shop": "PQ153"
+      "source_quest_or_shop": "Parallel Quest 153 — \"Seeing Double\""
     },
     {
       "name": "Solar Flare",
@@ -3680,7 +3680,7 @@
       "notes": "2026-09-19 verification: Current acquisition reference identifies Burning Swan as a PQ167 reward; no exclusive Ultimate Finish condition is established by the cited evidence. 2026-09-19 source reconciliation: Steam's current all-PQ guide lists Burning Swan as a Basic Reward for PQ167 (Fighting for Family), while a dedicated skill page describes it as a random drop from that PQ. This confirms the PQ source but does not establish an Ultimate Finish-only gate. 2026-09-20 provenance refinement: maintained PQ167 data explicitly lists Burning Swan as a Basic Reward and separately records a 45% normal-clear reward condition; dedicated skill documentation describes it as a random PQ167 drop. The evidence supports a non-Ultimate-Finish acquisition, while exact random-slot semantics remain unresolved.",
       "mechanics_notes": "Confirmed as Videl's 100-Ki Strike Super from Future Saga Chapter 1 PQ167. It performs a rapid series of acrobatic strikes; current evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 167,
-      "source_quest_or_shop": "PQ167"
+      "source_quest_or_shop": "Parallel Quest 167 — \"Fighting for Family\""
     },
     {
       "name": "Burst Blitz",
@@ -4080,7 +4080,7 @@
       "notes": "2026-09-20 audit: dedicated skill documentation explicitly describes Heroic Assault as randomly obtainable from PQ156; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": 156,
-      "source_quest_or_shop": "PQ156"
+      "source_quest_or_shop": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\""
     },
     {
       "name": "Justice Blade",
@@ -4101,7 +4101,7 @@
       "notes": "2026-09-19 verification: current skill page explicitly identifies Parallel Quest 152 as the unlock source. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
       "source_quest": 152,
-      "source_quest_or_shop": "PQ152"
+      "source_quest_or_shop": "Parallel Quest 152 — \"Dyspo's Wanted Man\""
     },
     {
       "name": "Justice Drive",
@@ -4143,7 +4143,7 @@
       "notes": "2026-09-20 provenance refinement: the maintained PQ152 drop-condition data explicitly assigns Justice Kick to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
       "source_quest": 152,
-      "source_quest_or_shop": "PQ152"
+      "source_quest_or_shop": "Parallel Quest 152 — \"Dyspo's Wanted Man\""
     },
     {
       "name": "Lovely Cyclone",
@@ -4439,7 +4439,7 @@
       "notes": "2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated. 2026-09-20 provenance refinement: PQ167 is the documented source. The maintained datamined record reports a 40% normal-clear slot, while the maintained Steam all-PQ guide lists Seagull Combination in the Basic Reward section; both are preserved as source context rather than collapsing the discrepancy.",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: PQ167 is explicitly listed as the acquisition source; the maintained PQ guide lists Seagull Combination in PQ167 Basic Reward and independent documentation notes its random drop from that PQ. 2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated.",
       "source_quest": 167,
-      "source_quest_or_shop": "PQ167"
+      "source_quest_or_shop": "Parallel Quest 167 — \"Fighting for Family\""
     },
     {
       "name": "Shining Slash",
@@ -4482,7 +4482,7 @@
       "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-20 reconciliation: current skill page explicitly identifies PQ156 as the unlock and classifies Shooting Strike as a Ki Blast Super; corrected stale canonical Strike classification. 2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
       "source_quest": 156,
-      "source_quest_or_shop": "PQ156"
+      "source_quest_or_shop": "Parallel Quest 156 — \"Hunting Down Dr. Hedo\""
     },
     {
       "name": "Soaring Rush",
@@ -4632,7 +4632,7 @@
       "notes": "2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate.",
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-20 verification: current skill page explicitly states PQ161 unlock; the maintained PQ guide lists Apocalyptic Burst as a Basic Reward. 2026-09-20 audit: PQ161's current maintained reward data lists Apocalyptic Burst in a 45% Ultimate Finish bonus slot; the prior generic/random PQ wording is refined to the explicit gate.",
       "source_quest": 161,
-      "source_quest_or_shop": "PQ161"
+      "source_quest_or_shop": "Parallel Quest 161 — \"Scream Team vs. Dream Team\""
     },
     {
       "name": "Blaster Stream",
