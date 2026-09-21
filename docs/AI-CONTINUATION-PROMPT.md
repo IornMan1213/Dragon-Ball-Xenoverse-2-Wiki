@@ -5098,3 +5098,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: workflow/status result unavailable; no CI success claimed.
 - Commit: 62b9eddc6fd292be943ae6fd07c652c8aba535c9, 50bccdc1261d153f362003f8c2b9687893afd8e3, a075c7743baa4f489d1a09e78b19360d7bb804e9.
 - Exact next batch: **Raditz, Gohan (Kid), Nappa, and Vegeta mentor mappings**, using the same deterministic lesson/source_mentor parity check.
+
+### 2026-09-21 validation correction — mentor-skill census
+- The immediately preceding mentor reconciliation entry overstated the number of linked mentor identities. The verified live count is **33 canonical mentors / 14 mentors with linked skills / 30 mentor→skill edges / 30 unique skill endpoints / 0 unresolved edges / 0 broken skill endpoints**.
+- This is a documentation/count correction only; the 30 deterministic edges written to `docs/data/mentor-skill-crosslink-report.json` are unchanged.
+- Exact next batch remains **Raditz, Gohan (Kid), Nappa, and Vegeta**, using lesson mapping ↔ `source_mentor` parity.
+- Latest report validation was persisted in `docs/data/mentor-skill-crosslink-report.json`.
+- Correction commit: e7b3aa9b8041b6529d376b2bfcb31bd348ce8e96
