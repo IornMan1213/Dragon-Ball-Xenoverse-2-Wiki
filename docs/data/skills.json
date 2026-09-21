@@ -8709,11 +8709,11 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Lesson 1",
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Base Game",
+      "dlc_requirement": "Super Pack 1",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed.",
       "id": "skill-time-skip-back-breaker",
       "source_mentor": [
         "mentor-hit"
@@ -8737,11 +8737,11 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Initiation Test",
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Base Game",
+      "dlc_requirement": "Super Pack 1",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Initiation Test",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed.",
       "id": "skill-time-skip-flash-skewer",
       "source_mentor": [
         "mentor-hit"
@@ -8765,11 +8765,11 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Lesson 2",
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Base Game",
+      "dlc_requirement": "Super Pack 1",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Lesson 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed.",
       "id": "skill-time-skip-jump-spike",
       "source_mentor": [
         "mentor-hit"
@@ -12495,7 +12495,7 @@
       "source_quest": "Hit mentor training — lesson-3.",
       "dlc_requirement": "Super Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed.",
       "id": "skill-time-skip-tremor-pulse",
       "source_mentor": [
         "mentor-hit"
