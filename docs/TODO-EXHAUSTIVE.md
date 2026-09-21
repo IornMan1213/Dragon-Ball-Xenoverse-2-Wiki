@@ -1176,3 +1176,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [ ] Next provenance batch: perform a fresh live census for other non-canonical DLC labels and source-to-DLC relationships, prioritizing values that can be deterministically resolved from source PQ/mission ranges; preserve intentionally composite/platform-dependent values unless direct evidence supports a split.
 
 > Evidence basis for the PQ mapping: the repository's source PQ numbers were cross-checked against the maintained Xenoverse 2 PQ/DLC mapping, which places Super/Extra/Ultra/Legendary content in distinct numbered PQ ranges; official Bandai Namco documentation confirms these DLC packs contain their respective Parallel Quest content. citeturn0search5turn0search1
+
+
+### 2026-09-21 — Master ledger completion marking: Sudden Death Beam DLC provenance
+- [x] **Sudden Death Beam DLC classification corrected.** The previous composite `Base Game + later STP/raid distribution` label conflated later acquisition routes with the skill's originating DLC.
+- [x] Corrected canonical `dlc_requirement` from **Base Game + later STP/raid distribution** to **Super Pack 3**.
+- [x] Evidence: current skill documentation explicitly identifies Sudden Death Beam as part of Super Pack 3, while its TP Medal Shop/STP Medal Shop/Double Crystal Raid entries describe acquisition availability rather than the originating DLC. Official Bandai Namco documentation independently confirms the TP Medal Shop distribution schedule. citeturn0search1turn0search4
+- [x] Evidence limits: acquisition routes were preserved unchanged; no claim was made that current shop/raid availability is exclusive to the original DLC.
+- [x] Validation: **428 records; 0 duplicate IDs; Sudden Death Beam now Super Pack 3; the former composite label has 0 records.**
+- [x] CI: Actions status must remain unclaimed unless an actual workflow run is exposed for commit `eefa06170c5d4c3f55f0a678d97977bf44292dfb`.
+- [ ] Next provenance batch: audit the remaining non-canonical/composite DLC labels (`Resurrection 'F' Pack / DLC Pack 3`, `Free Update 1.14-era distribution / TP Medal Shop`, and platform-dependent Masters Pack) without forcing a normalization where the label carries meaningful historical/platform context.
