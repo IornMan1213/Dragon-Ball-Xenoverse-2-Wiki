@@ -694,3 +694,9 @@
 - This is a documentation/count correction only; the 30 deterministic edges written to `docs/data/mentor-skill-crosslink-report.json` are unchanged.
 - Exact next batch remains **Raditz, Gohan (Kid), Nappa, and Vegeta**, using lesson mapping ↔ `source_mentor` parity.
 - Latest report validation was persisted in `docs/data/mentor-skill-crosslink-report.json`.
+
+### 2026-09-21 cycle update — Raditz/Gohan (Kid)/Nappa/Vegeta mentor-skill reconciliation
+- Promoted **14 deterministic mentor→skill edges** supported by canonical mentor lesson mappings and matching `source_mentor` provenance: Raditz (4), Gohan (Kid) (3 new), Nappa (4), Vegeta (3 new). Existing Masenko and Galick Gun edges were preserved without duplication.
+- Rebuilt `docs/data/mentor-skill-crosslink-report.json` to **33 canonical mentors / 18 linked mentors / 44 edges / 44 unique skill endpoints / 0 unresolved / 0 broken skill endpoints**.
+- No skill acquisition semantics were changed; this was a relationship-layer reconciliation only.
+- Exact next batch: **Zarbon, Dodoria, Captain Ginyu, and Frieza (1st Form)**, using the same lesson↔skill-ID↔source_mentor parity check.
