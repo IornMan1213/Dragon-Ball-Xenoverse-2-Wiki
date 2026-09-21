@@ -4479,3 +4479,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Added **super-soul-152** and **super-soul-153**. Both are 5th Festival of Universes Total Glory Point rewards with TP Medal Shop rotation; neither has an explicit PQ endpoint, so no PQ relationship was inferred.
 - Deterministic crosslink report remains endpoint-clean: **56 forward / 56 reverse edges / 46 unique PQ endpoints / 56 unique Super Soul endpoints / 92 unresolved routes / 0 broken endpoints**.
 - The source corpus is now exhausted at this frontier: no further source-backed Super Soul records remain after super-soul-153 in the maintained corpus inspected for this cycle. Future work should pivot to the next highest-priority validator/audit or another repository corpus rather than inventing additional Super Souls.
+
+### 2026-09-21 cycle update — Krillin/Tien/Yamcha/Piccolo mentor-skill reconciliation
+- Live mentor census: **33 canonical mentors**. The existing mentor layer already contained explicit lesson→skill mappings for these four mentors, while the crosslink report had only 16 edges.
+- Bounded batch: **14 deterministic mentor→skill edges** — Krillin (2 missing), Tien (4), Yamcha (4), Piccolo (4).
+- Evidence: canonical `docs/data/mentors-record-layer.json` lesson arrays plus matching `source_mentor` fields in `docs/data/skills-index.json`. No external inference or acquisition rewrite was needed.
+- Changes: rebuilt `docs/data/mentor-skill-crosslink-report.json`; no canonical skill acquisition facts required modification because the source_mentor provenance was already present.
+- Validation: **33 mentors / 30 mentor-linked identities / 30 mentor→skill edges / 30 linked skill endpoints / 0 unresolved edges / 0 broken mentor endpoints**. Report and skills-index JSON parsed successfully; all promoted skill IDs exist in the canonical index.
+- CI: no workflow/status result was exposed; no CI success is claimed.
+- Exact next batch: **audit the next four mentors after Piccolo (Raditz, Gohan (Kid), Nappa, Vegeta), promoting only lesson mappings whose corresponding skill IDs exist and whose source_mentor provenance agrees.**
