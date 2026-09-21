@@ -3478,3 +3478,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - No specific saga/chapter threshold, shop rotation, price, or Ultimate Finish requirement was inferred.
 - Commits: `a07862ef91cfa2df46087abf99bc23b088df6a29` (canonical), `da55f44aef0935d0e9fc27f0d7b5ba778b4d2c8b` (index), `74932aa350726a1f9879eeac6aea1e6012609fbb` (coverage audit).
 - Exact next task: **continue the under-specified non-PQ acquisition audit, prioritizing records where `unlock_method` contains a concrete prerequisite but `source_quest`/`source_quest_or_shop` does not yet preserve it. Then recheck route conflicts against dedicated unlock tables; preserve uncertainty rather than inventing precision.**
+
+
+### 2026-09-20 cycle update — deterministic shop prerequisite field cleanup
+- Continued the under-specified non-PQ acquisition audit.
+- Found two concrete Skill Shop prerequisites that were present only in `unlock_method`: **Explosive Wave** (main-story normal ending) and **Punisher Guard** (completion of A Momentous Galactic Battle).
+- Added those prerequisites to `source_quest` and clarified `source_quest_or_shop` in both canonical and index datasets. No new acquisition claims were introduced.
+- Commits: `8d77e346cff7746bdd05e117ee8d00dcee0b1ace` (canonical), `0ca0ad7078420adf06bc3d5b6eeb66c4340ec49a` (index), `356ef6c6a1f906a6ffb0655bfe3f5cc676c80f14` (audit).
+- Exact next task: **continue scanning all non-PQ records for concrete prerequisite text that is missing from structured provenance, then inspect route conflicts only where dedicated evidence can support a deterministic correction.**
