@@ -2604,7 +2604,7 @@
       "source_quest_or_shop": "Parallel Quest 95 — \"Super 17, the Ultimate Android\"",
       "ultimate_finish_required": false,
       "skill_description": "Drain Field absorbs incoming Ki-based attacks and converts the energy for the user.",
-      "mechanics_notes": "100 Ki. Current evidence identifies Drain Field as a Super 17 skill and a PQ95 reward. Community acquisition reports conflict on whether the reward is tied specifically to the Ultimate Finish; the canonical UF flag remains false because direct acquisition discussion states the skill is not an Ultimate Finish reward. Exact drop slot/percentage remains unresolved.",
+      "mechanics_notes": "100 Ki. Current evidence identifies Drain Field as a Super 17 skill and a PQ95 reward. Community acquisition reports conflict on whether the reward is tied specifically to the Ultimate Finish; the canonical UF flag remains false because direct acquisition discussion states the skill is not an Ultimate Finish reward. Exact drop slot/percentage remains unresolved. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 95, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-21",
@@ -2616,7 +2616,8 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "Added during cross-database orphan-skill audit. Preserve the acquisition-route conflict rather than collapsing it into a false drop-slot claim.",
-      "id": "skill-drain-field"
+      "id": "skill-drain-field",
+      "source_quest": 95
     },
     {
       "name": "Dust Attack",
@@ -3440,18 +3441,18 @@
       ],
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 74 — \"Galactic Patrol Away\"",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 74 — \"Galactic Patrol Away\"",
-      "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 74, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "race_restriction": "All CaC races",
       "damage_type": "Other",
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "source_quest": "PQ74 — \"Galactic Patrol Away\"",
+      "source_quest": 74,
       "acquisition_type": "parallel_quest",
       "notes": "2026-09-20 provenance refinement: maintained Parallel Quest reward evidence places Final Pose in PQ74 — \"Galactic Patrol, Away!\" Basic Rewards. Independent player documentation also identifies PQ74 as the acquisition route. No Skill Shop route or Ultimate Finish requirement is inferred.",
       "skill_description": "Final Pose is a Power Up Evasive skill.",
@@ -3499,7 +3500,7 @@
       "source_quest_or_shop": "Parallel Quest 95 — \"Super 17, the Ultimate Android\"",
       "ultimate_finish_required": true,
       "skill_description": "Flash Bomber fires a sustained barrage of Ki blasts that can be extended with additional Ki.",
-      "mechanics_notes": "100 Ki base cost; holding the input continues the barrage and can extend the hit count by spending additional Ki. Current evidence identifies Flash Bomber as a PQ95 Ultimate Finish reward; exact drop percentage remains unresolved.",
+      "mechanics_notes": "100 Ki base cost; holding the input continues the barrage and can extend the hit count by spending additional Ki. Current evidence identifies Flash Bomber as a PQ95 Ultimate Finish reward; exact drop percentage remains unresolved. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 95, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-21",
@@ -3511,7 +3512,8 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "Added during cross-database orphan-skill audit. UF requirement is supported by current/retrieved acquisition evidence; exact probability remains unresolved.",
-      "id": "skill-flash-bomber"
+      "id": "skill-flash-bomber",
+      "source_quest": 95
     },
     {
       "name": "Flash Chaser",
@@ -6087,7 +6089,7 @@
       "source_quest_or_shop": "Parallel Quest 57 — \"Hell Is a Picture?\"",
       "ultimate_finish_required": false,
       "skill_description": "Rakshasa's Claw launches directional sword-like energy slashes before teleporting to the opponent for a finishing slash.",
-      "mechanics_notes": "100 Ki. Up to five directional energy slashes can be followed by a teleporting overhead slash. Current evidence identifies the move as a Strike Super and PQ57 reward; the maintained PQ record does not establish an Ultimate Finish-only requirement, so none is inferred.",
+      "mechanics_notes": "100 Ki. Up to five directional energy slashes can be followed by a teleporting overhead slash. Current evidence identifies the move as a Strike Super and PQ57 reward; the maintained PQ record does not establish an Ultimate Finish-only requirement, so none is inferred. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 57, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "last_verified": "2026-09-21",
@@ -6099,7 +6101,8 @@
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
       "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.",
-      "id": "skill-rakshasa-s-claw"
+      "id": "skill-rakshasa-s-claw",
+      "source_quest": 57
     },
     {
       "name": "Ray Blast",
