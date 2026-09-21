@@ -459,3 +459,12 @@
 - Evidence: maintained instructor guide plus independent mentor/skill references establish the exact lesson sequence and classifications. No unsupported numerical costs or drop rates were fabricated; combat mechanics remain intentionally deferred where not directly verified.
 - Validation after expansion: **408 canonical skills / 408 skill-index records / taxonomy total 408 / 133 mentor lessons / 120 resolved mentor→skill edges / 13 unresolved lesson endpoints / 28 fully linked mentors / 4 partially linked mentors / 0 duplicate canonical skill IDs / 0 citation artifacts**.
 - Next unresolved mentor frontier is now concentrated in existing incomplete endpoints rather than the completed Android 16/Future Gohan/Bojack batch.
+
+## 2026-09-21 — Zamasu / Hit / Vegeta / Kid Gohan mentor graph expansion
+- Completed the next mentor frontier for **Zamasu, Hit, Vegeta, and Gohan (Kid)**.
+- Added **10 canonical skill records**: God Splitter, Heavenly Arrow, Instant Severance, Evil Ray Strike, Evil Rise Strike, Explosive Assault, Finish Breaker, Flash Strike, Final Flash, and Time Skip/Tremor Pulse.
+- Correctly treated Zamasu's Initiation reward **I'm thinking of becoming a GodTuber** as a Super Soul rather than inventing a skill record for it.
+- Restored Hit's previously unresolved **Time Skip/Tremor Pulse** endpoint after direct skill evidence verified that it is a Strike Evasive learned through Hit's Lesson 3.
+- Synchronized canonical skills, skill index, mentor records, and coverage report.
+- Validation: **418 canonical skills / 418 index records / 418 taxonomy total / 133 mentor lessons / 130 resolved mentor→skill edges / 3 unresolved endpoints / 31 fully linked mentors / 2 partially linked mentors / 0 duplicate canonical IDs**.
+- Remaining unresolved endpoints are now: Krillin → Orin Combo, Krillin → Scatter Kamehameha, and Zamasu → I'm thinking of becoming a GodTuber (non-skill Super Soul).
