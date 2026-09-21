@@ -1575,3 +1575,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved exact PQ113/PQ34/PQ145 acquisition semantics.
 - [x] Synchronized the index projection.
 - [ ] Next: recompute the two-source census and continue the next deterministic acquisition/provenance cluster.
+
+### 2026-09-21 — PQ97/PQ110 provenance
+- [x] Strengthen Charged Ki Wave and Divinity Unleashed with independent PQ evidence.
+- [ ] Continue the deterministic two-source audit.
