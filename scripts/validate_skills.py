@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate the canonical XV2 skills JSON and its deterministic index."""
 from __future__ import annotations
-import json
+import json,re
 from pathlib import Path
 try:
     from jsonschema import Draft202012Validator, FormatChecker
