@@ -70,6 +70,12 @@ def merge_record(m,r,protected=None,blocked=None):
   m[k]=old
   return True
  if c:
+  if oldkey not in m:
+   raise ValueError(f"correction target not found for {n}: {oldname}/{oldclass}/{oldsub}")
+  if oldkey in blocked:
+   raise ValueError(f"correction target already superseded for {n}: {oldname}/{oldclass}/{oldsub}")
+  if k in m and k != oldkey:
+   raise ValueError(f"correction destination already exists for {n}: {r.get('class','')}/{r.get('subcategory','')}")
   m.pop(oldkey,None); blocked.add(oldkey); protected.add(k)
  old=m.get(k,{}) ; out=dict(r); fields=set(r.get('correction_fields',[]))
  for x,v in old.items():
