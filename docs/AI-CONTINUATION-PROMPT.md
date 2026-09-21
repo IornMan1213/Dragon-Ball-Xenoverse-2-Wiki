@@ -6390,3 +6390,11 @@ The repository owner has clarified the continuation contract:
 - Evidence boundary: the official source confirms package-level Legendary Pack 2 provenance, not individual drop slots or probabilities; direct PQ reward evidence remains controlling.
 - Exact next batch: continue the remaining two-source acquisition cluster, prioritizing records with directly checkable PQ/reward evidence and cross-field contradictions.
 - Canonical commit: `6e54ef109816f3e508bc20c4959116db49ae55d0`.
+
+### 2026-09-21 continuation — canonical/index provenance parity repair
+- During validation of the PQ147 batch, the live canonical and index projections were found to have **16 stale provenance projections** from earlier completed batches.
+- Repaired the index by synchronizing each affected record's `sources` and `last_verified` fields from canonical data; no acquisition or gameplay semantics were altered.
+- The PQ147 batch remains: Crush Cannon, Double Crush, Crush Stream → 3 sources each.
+- Post-repair validation: **452 canonical / 452 index / 0 duplicate IDs / 0 canonical-index source+verification mismatches**; exactly **72** records remain at two sources.
+- Canonical commit: `6e54ef109816f3e508bc20c4959116db49ae55d0`; index parity repair: `718a060c8c49fdf915649413de369ca4bf22bf90`.
+- Exact next task: recompute the two-source census and continue the next deterministic acquisition/provenance cluster, while treating canonical→index parity as a required post-write invariant.
