@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 146,
+  "canonical_target_records": 148,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -1465,16 +1465,26 @@
       "target_id": "super-soul-148",
       "target_name": "What good is a new power if I don't try it out?",
       "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-152",
+      "target_name": "So fast! Are they learning how to use their power?!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-153",
+      "target_name": "Enough food for one person...",
+      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 146,
+    "canonical_target_records": 148,
     "forward_edge_count": 56,
     "reverse_edge_count": 56,
     "unique_pq_endpoints": 46,
     "unique_target_endpoints": 56,
-    "unresolved_target_route_count": 90,
+    "unresolved_target_route_count": 92,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0
   }
