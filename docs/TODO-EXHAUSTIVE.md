@@ -1604,3 +1604,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Synchronized canonical/index source projections and verification dates.
 - [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 61 exactly-two-source records remaining**.
 - [ ] Next task: recompute the live two-source census and continue with the next deterministic low-source cluster after PQ177, verifying the source-PQ/reward-tier relationship before adding provenance.
+
+
+### 2026-09-21 — Dragon Ball DAIMA Pack skill provenance strengthening
+- [x] Continued the live two-source census after the PQ176/PQ177 batch.
+- [x] Strengthened **Supreme Fury (PQ179)** and **Super Kamehameha (SS4 DAIMA) (PQ181)** with Bandai Namco's official Dragon Ball DAIMA Pack announcement as a third provenance source.
+- [x] Preserved existing specific acquisition relationships: Supreme Fury remains tied to PQ179 and Super Kamehameha (SS4 DAIMA) to PQ181; no reward-tier or Ultimate Finish semantics were changed.
+- [x] Synchronized canonical/index source projections and verification dates.
+- [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 59 exactly-two-source records remaining**.
+- [ ] Next task: recompute the live two-source census and continue the next deterministic low-source cluster after PQ181, verifying source-PQ/reward-tier consistency before adding provenance.
