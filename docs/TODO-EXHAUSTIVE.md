@@ -1087,3 +1087,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [ ] Next unresolved Ki-cost batch: Dimension Cannon / Flash Strike / Final Flash, after a fresh live census.
 
 > Earlier unchecked entries remain permanently preserved. These dated [x] entries are the authoritative completion markings under the append-only ledger contract.
+
+
+### 2026-09-21 — Master ledger completion marking: Flash Strike / Final Flash
+- [x] Flash Strike Ki-cost verification completed: 100 Ki.
+- [x] Final Flash Ki-cost verification completed: 300 Ki.
+- [x] Post-write canonical validation completed: 428 records / 0 duplicate IDs / 12 nullable ki_cost records.
+- [~] Dimension Cannon exact-cost research inspected but not completed; null preserved pending direct exact-skill evidence.
+- [ ] Next unresolved Ki-cost task: Dimension Cannon exact-cost verification.
