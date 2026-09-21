@@ -10530,11 +10530,12 @@
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-dynamite-kick",
       "source_mentor": [
         "mentor-hercule"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Present For You",
@@ -10557,11 +10558,12 @@
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-present-for-you",
       "source_mentor": [
         "mentor-hercule"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Rolling Hercule Punch",
@@ -10584,11 +10586,12 @@
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-rolling-hercule-punch",
       "source_mentor": [
         "mentor-hercule"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "The Savior Has Come",
@@ -10611,11 +10614,12 @@
       "source_quest": "Hercule mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.",
       "id": "skill-the-savior-has-come",
       "source_mentor": [
         "mentor-hercule"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Eagle Kick",
