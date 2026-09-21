@@ -1771,13 +1771,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers",
-        "https://dbxv2.fandom.com/wiki/Deadly_Dance"
+        "https://dbxv2.fandom.com/wiki/Deadly_Dance",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
       "unlock_method": "Android 18's Lesson 2 — complete the instructor lesson to receive Deadly Dance as the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 low-source provenance strengthening: the maintained Instructor Quests guide independently lists Deadly Dance as Android 18 Lesson 2's Basic Reward. Existing mentor Lesson 2 acquisition semantics are preserved.",
       "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-android-18 added for the documented mentor-training acquisition route.",
       "source_quest": "Android 18 mentor training — Lesson 2",
       "source_quest_or_shop": "Android 18 mentor training — Lesson 2"
