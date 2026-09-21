@@ -4652,3 +4652,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: inspected after the index commit; no actionable workflow/status result is exposed, so **no CI success is claimed**. Validators were not weakened.
 - Commit: `84d44bd4441d9d178eea9c6208803cd80dce7aca`.
 - Exact next batch: **Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, and Spirit Bomb**, using the same canonical→index `mechanics_notes` parity check and recomputing the live mismatch census first.
+
+
+### 2026-09-21 — skills-index mechanics projection parity batch 3
+- Live census before/after: **429 canonical skills / 429 skill-index records**.
+- Bounded deterministic batch: **10 `mechanics_notes` projections** — Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, and Spirit Bomb.
+- Evidence: canonical `docs/data/skills.json` is the producer for the generated/index projection. This pass copied only the canonical `mechanics_notes` values; no new gameplay, acquisition, restriction, DLC, or mechanics claim was introduced.
+- Validation: both JSON layers parse; 429/429 records remain; all 10 targeted `mechanics_notes` values now match canonical; **5** broader `mechanics_notes` mismatches remain. The separately tracked `notes` drift remains **4**; inspected `last_verified`, `source_parallel_quests`, and `sources` families are clean. Changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: commit workflow-run lookup and combined status for commit `5a9f4bf24d6efeafed6da3543e817ad0734f3a32` returned **no workflow runs and no statuses**; no CI success claimed and validators were not weakened.
+- Commit: `5a9f4bf24d6efeafed6da3543e817ad0734f3a32`.
+- Exact next batch: **the remaining 5 `mechanics_notes` mismatches** — Super Spirit Bomb, Supernova, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike — using the same canonical→index parity check, then re-run the live projection census and artifact scan.
