@@ -340,7 +340,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "",
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Pure Progress as a Hit-only character transformation, not a CaC Awoken Skill.",
       "mechanics_notes": "500 Ki is required and consumed for each transformation stage; Stage 1 and Stage 2 use the character-only Pure Progress transformation. Current reference documents 500 Ki consumed on transformation. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation."
     },
     {
@@ -380,7 +380,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "",
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Super Saiyan Blue Kaioken as Goku-only; it is not an independently unlockable CaC Awoken Skill.",
       "mechanics_notes": "500 Ki is required for the normal Super Saiyan Blue Kaioken stage and 500 Ki for the x10 stage; the transformation is character-only and remains unavailable to CaCs. Current reference documents the 500 Ki requirement and both stages. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation."
     },
     {
@@ -400,7 +400,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "",
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Supersonic Mode as Dyspo-only; it is not an independently unlockable CaC Awoken Skill.",
       "mechanics_notes": "No Ki is required to activate Supersonic Mode; the character-only transformation instead has an automatic Stamina drain while active. Current reference lists Ki Required: None. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation."
     },
     {
@@ -1917,7 +1917,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "",
+      "notes": "2026-09-20 roster-status refinement: dedicated skill references and current community evidence identify this as Super Saiyan Blue Evolved Vegeta's character-specific Final Flash variant; it is not a normal CaC-acquirable Super.",
       "mechanics_notes": "Current evidence confirms Final Flash (Super) as a 200-Ki character-exclusive Ki Blast Super and not a CaC-equippable skill; the existing usable_by_cac=false boundary is retained. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable."
     },
     {
@@ -2790,7 +2790,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Energy Release as a character-exclusive/non-CaC skill rather than a separately acquirable avatar skill.",
       "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable."
     },
     {
@@ -2808,7 +2808,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Final Charge as a Super Saiyan Blue Evolved Vegeta character-exclusive skill; it is not a separately acquirable CaC skill.",
       "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable."
     },
     {
@@ -2866,7 +2866,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Instant Charge as a Mira (Final Form) character-exclusive skill; raid/boss usage does not establish a CaC acquisition route.",
       "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable."
     },
     {
@@ -3017,7 +3017,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Rising Rage as Broly (Restrained)'s character-exclusive skill; no normal CaC acquisition route is established.",
       "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable."
     },
     {
@@ -3112,7 +3112,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races while using Ultra Instinct",
-      "notes": "Built-in Ultra Instinct action; not a separately acquired equipable skill.",
+      "notes": "2026-09-20 roster-status refinement: this is a built-in Ultra Instinct action rather than a separately acquired equipable skill; its character-specific implementation should not be treated as a standalone CaC skill acquisition route.",
       "mechanics_notes": "Current evidence documents Surging Spirit as an Ultra Instinct built-in CaC action rather than a separately acquired equipable skill; its N/A unlock route is therefore retained."
     },
     {
