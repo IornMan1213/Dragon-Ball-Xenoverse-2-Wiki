@@ -4783,3 +4783,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no actionable workflow run was exposed for the canonical commit; **no CI success claimed**.
 - Commit: `a261ba83cc1814ce9427a4769af5abe0ad387a78`.
 - Exact next batch: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, beginning with Dodoria's four null-cost skills if explicit current Ki Used evidence is available.**
+
+### 2026-09-21 — Dodoria mentor skill Ki-cost verification batch
+- Live canonical skill census before editing: **428 records; 88 nullable `ki_cost` records**.
+- Bounded batch: **Dodoria Beam, Critical Upper, Dodoria Headbutt, Dodoria Launcher**.
+- Current skill references explicitly document **100 Ki** for each of the three Super Skills and **300 Ki** for Dodoria Launcher.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`.
+- Validation target: canonical count remains **428**, duplicate IDs remain **0**; nullable `ki_cost` count is expected to fall to **84**. No index Ki-cost projection introduced.
+- CI: no actionable workflow success claimed.
+- Commit: `f5513cf5e5f8b58e046b1a131bc243d145793ad9`.
+- Exact next batch: recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, beginning with **Frieza's four null-cost skills** if explicit current Ki Used evidence is available.
