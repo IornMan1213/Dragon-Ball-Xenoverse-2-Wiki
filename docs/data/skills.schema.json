@@ -101,7 +101,8 @@
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "minLength": 1
     },
     "ultimate_finish_required": {
       "type": [
