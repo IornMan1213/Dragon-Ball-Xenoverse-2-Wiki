@@ -1726,13 +1726,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
-        "https://dbxv2.fandom.com/wiki/Data_Input"
+        "https://dbxv2.fandom.com/wiki/Data_Input",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
       ],
       "unlock_method": "Expert Mission 20 — \"Harbinger of Doom\" Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Data Input in the EM20 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-21 provenance correction: Extra Pack 1 officially contains 13 new skills, while Data Input is documented as a free-update Expert Mission 20 reward rather than one of those 13 paid-pack skills; its acquisition provenance is therefore separated from Extra Pack 1 despite Android 13 having Data Input in its preset.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Data Input in the EM20 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-21 provenance correction: Extra Pack 1 officially contains 13 new skills, while Data Input is documented as a free-update Expert Mission 20 reward rather than one of those 13 paid-pack skills; its acquisition provenance is therefore separated from Extra Pack 1 despite Android 13 having Data Input in its preset. 2026-09-21 provenance strengthening: Bandai Namco's official Xenoverse 2 DLC catalog independently confirms the game's DLC structure includes character moves/skills and that content may be obtained through specified in-game conditions; it is retained as contextual provenance alongside the maintained EM-20-specific acquisition evidence. No acquisition or reward semantics changed.",
       "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks. 2026-09-21 cross-domain normalization: source_quest uses the canonical Expert Mission identifier EM-20, matching the repository's Expert Mission evidence record ID; source_quest_or_shop retains the human-readable mission title.",
       "source_quest": "EM-20",
       "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom"
