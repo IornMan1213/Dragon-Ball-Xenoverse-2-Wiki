@@ -9325,9 +9325,549 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "name": "Evil Explosion",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Piccolo's Initiation Test — complete the instructor lesson to receive Evil Explosion as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Piccolo mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Piccolo mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-evil-explosion",
+      "source_mentor": [
+        "mentor-piccolo"
+      ]
+    },
+    {
+      "name": "Super Explosive Wave",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Piccolo's Lesson 1 — complete the instructor lesson to receive Super Explosive Wave as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Piccolo mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Piccolo mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-super-explosive-wave",
+      "source_mentor": [
+        "mentor-piccolo"
+      ]
+    },
+    {
+      "name": "Light Grenade",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Piccolo's Lesson 2 — complete the instructor lesson to receive Light Grenade as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Piccolo mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Piccolo mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-light-grenade",
+      "source_mentor": [
+        "mentor-piccolo"
+      ]
+    },
+    {
+      "name": "Special Beam Cannon",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Piccolo's Lesson 3 — complete the instructor lesson to receive Special Beam Cannon as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Piccolo mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Piccolo mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-special-beam-cannon",
+      "source_mentor": [
+        "mentor-piccolo"
+      ]
+    },
+    {
+      "name": "Dodon Ray",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Tien's Initiation Test — complete the instructor lesson to receive Dodon Ray as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Tien mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Tien mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-dodon-ray",
+      "source_mentor": [
+        "mentor-tien"
+      ]
+    },
+    {
+      "name": "Volleyball Fist",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Tien's Lesson 1 — complete the instructor lesson to receive Volleyball Fist as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Tien mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Tien mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-volleyball-fist",
+      "source_mentor": [
+        "mentor-tien"
+      ]
+    },
+    {
+      "name": "Tri-Beam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Tien's Lesson 2 — complete the instructor lesson to receive Tri-Beam as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Tien mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Tien mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-tri-beam",
+      "source_mentor": [
+        "mentor-tien"
+      ]
+    },
+    {
+      "name": "Neo Tri-Beam",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Tien's Lesson 3 — complete the instructor lesson to receive Neo Tri-Beam as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Tien mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Tien mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-neo-tri-beam",
+      "source_mentor": [
+        "mentor-tien"
+      ]
+    },
+    {
+      "name": "Fake Death",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Yamcha's Initiation Test — complete the instructor lesson to receive Fake Death as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Yamcha mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Yamcha mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-fake-death",
+      "source_mentor": [
+        "mentor-yamcha"
+      ]
+    },
+    {
+      "name": "Wolf Fang Fist",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Yamcha's Lesson 1 — complete the instructor lesson to receive Wolf Fang Fist as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Yamcha mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Yamcha mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-wolf-fang-fist",
+      "source_mentor": [
+        "mentor-yamcha"
+      ]
+    },
+    {
+      "name": "Ki Blast Thrust",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Yamcha's Lesson 2 — complete the instructor lesson to receive Ki Blast Thrust as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Yamcha mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Yamcha mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-ki-blast-thrust",
+      "source_mentor": [
+        "mentor-yamcha"
+      ]
+    },
+    {
+      "name": "Spirit Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Yamcha's Lesson 3 — complete the instructor lesson to receive Spirit Ball as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Yamcha mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Yamcha mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-spirit-ball",
+      "source_mentor": [
+        "mentor-yamcha"
+      ]
+    },
+    {
+      "name": "Bomber DX",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Nappa's Initiation Test — complete the instructor lesson to receive Bomber DX as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Nappa mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Nappa mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-bomber-dx",
+      "source_mentor": [
+        "mentor-nappa"
+      ]
+    },
+    {
+      "name": "Arm Crash",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Nappa's Lesson 1 — complete the instructor lesson to receive Arm Crash as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Nappa mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Nappa mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-arm-crash",
+      "source_mentor": [
+        "mentor-nappa"
+      ]
+    },
+    {
+      "name": "Genocide Shell",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Nappa's Lesson 2 — complete the instructor lesson to receive Genocide Shell as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Nappa mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Nappa mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-genocide-shell",
+      "source_mentor": [
+        "mentor-nappa"
+      ]
+    },
+    {
+      "name": "Break Cannon",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Nappa's Lesson 3 — complete the instructor lesson to receive Break Cannon as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Nappa mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Nappa mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-break-cannon",
+      "source_mentor": [
+        "mentor-nappa"
+      ]
+    },
+    {
+      "name": "Double Sunday",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Raditz's Initiation Test — complete the instructor lesson to receive Double Sunday as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Raditz mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Raditz mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-double-sunday",
+      "source_mentor": [
+        "mentor-raditz"
+      ]
+    },
+    {
+      "name": "Saturday Crash",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Raditz's Lesson 1 — complete the instructor lesson to receive Saturday Crash as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Raditz mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Raditz mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-saturday-crash",
+      "source_mentor": [
+        "mentor-raditz"
+      ]
+    },
+    {
+      "name": "Shining Friday",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Raditz's Lesson 2 — complete the instructor lesson to receive Shining Friday as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Raditz mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Raditz mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-shining-friday",
+      "source_mentor": [
+        "mentor-raditz"
+      ]
+    },
+    {
+      "name": "Weekend",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Raditz's Lesson 3 — complete the instructor lesson to receive Weekend as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Raditz mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Raditz mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-weekend",
+      "source_mentor": [
+        "mentor-raditz"
+      ]
     }
   ],
-  "record_count": 305,
+  "record_count": 325,
   "skill_id_policy": {
     "format": "skill-{slug}",
     "slug_source": "name",
