@@ -5080,3 +5080,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - PQ-linked records map to PQ151–154; Supersonic Mode remains character-specific.
 - **0 deterministic DLC mismatches** found.
 - Existing acquisition/drop-tier conflicts were preserved; this pass only refreshed verification/provenance metadata.
+
+
+## 2026-09-21 Conton City Vote Pack count correction
+
+- Corrected audit count to **11 canonical records** carrying the DLC label: 10 additional moves plus character-specific Supersonic Mode.
+- No provenance mismatch was found.
