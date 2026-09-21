@@ -1550,3 +1550,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Strengthen direct/current Solar Flare provenance.
 - [x] Canonical commit: `2e0ee2fa63afa6dd8ee5e6bf5878a9fa42b14ae4`.
 - [ ] Next: continue single-source/internal cross-field consistency audit.
+
+### 2026-09-21 — Master ledger completion marking: PQ149-150 low-source provenance batch
+- [x] Recomputed the live low-source census: 452 canonical skills; 83 records had exactly two sources before this batch.
+- [x] Strengthened Comet Strike, Meteor Explosion, Impact Flare, and Power Wall from 2 to 3 sources using official Legendary Pack 2 package documentation plus the existing exact PQ/skill sources.
+- [x] Preserved existing PQ149/PQ150 acquisition and reward uncertainty; no unsupported Ultimate Finish/drop-rate claim was added.
+- [x] Validation: 452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost; all four target records now have 3 sources and canonical/index parity is preserved.
+- [ ] Next task: recompute the live two-source census and continue the next deterministic low-source acquisition cluster, checking reward-tier/source-PQ consistency before provenance-only enrichment.
