@@ -5017,3 +5017,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow/status results were exposed for these data commits; no CI success is claimed. Validators were not weakened.
 - Commits: `861176b38b926d2210aad941bb16b6218a667dee` (canonical records); `8f974ecd7d6bae76f13a8e2a4a1f01f2bb2b4687` (PQ156–158); `9c0537a3e7f3b960a72c8aa9a630738b7ee658e6` (crosslink rebuild); `4c2255dc9a5d657c15d9dc980b25daf1fbb079ae` (coverage); `4d49ad4732e619597017d45e876f8bd60a319d5f` (changelog).
 - Exact next batch: **Super Soul 112–119**, after another live-corpus reconciliation. Start immediately after `I can tell you're an amateur by the way you pose!`; establish acquisition identity first, then add only explicit cross-domain endpoints and regenerate the reverse report.
+
+
+### 2026-09-21 cycle update — Super Soul 112–119 + PQ reverse-link reconciliation
+- Live census before editing: **106 canonical Super Souls / 186 canonical PQ records**.
+- Bounded batch: **Super Soul 112–119** — That's minus ten points!; I'm a super hero!; Just figured out who the real villain is!; Help me, Daddy! I'm scared!; Damn... Gonna have to go all out!; Not a single word!; I'm a whole new me.; Shenron really went the extra mile.
+- Evidence: reconciled the maintained Madreag Super Soul source corpus and exact next unique source frontier. Explicit PQ endpoints: 118 → PQ161 and 119 → PQ162. TP/STP shop and Raid Quest Event acquisitions were not assigned unsupported PQ routes.
+- Changes: added super-soul-112 through super-soul-119; synchronized PQ161–162 reward/link fields; rebuilt docs/data/pq-super-soul-crosslink-report.json; updated coverage and changelog records.
+- Validation: **114 canonical Super Souls / 186 canonical PQ records / 42 forward / 42 reverse edges / 33 unique PQ endpoints / 42 unique Super Soul endpoints / 72 unresolved Super Soul routes / 0 broken endpoints**. All three JSON files parsed successfully and contain **0 internal UI/search citation artifacts**.
+- CI: no workflow status was exposed for the data commits; no CI success is claimed.
+- Commits: `9fad082326acec7c671bb66d8aebe8bcdde12049` (canonical records); `3b1762a394d934c4020425e7623d059ad6950128` (PQ161–162); `68d41e5c11b70b13e3aacdabc2c641fdada6499d` (crosslink rebuild).
+- Exact next batch: **Super Soul 120–127**, after live-corpus reconciliation. Continue immediately after `Shenron really went the extra mile.` and establish acquisition identity before adding records or cross-domain edges.
