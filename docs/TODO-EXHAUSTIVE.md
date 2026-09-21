@@ -1657,3 +1657,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved the existing Expert Mission 13 acquisition and reward-tier semantics; no unsupported probability, restriction, or mechanics data was added.
 - [x] Synchronized canonical/index source projections and verification dates; source parity is clean.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster after Dead End Rain, checking source-PQ/mission and reward-tier consistency before enrichment.
+
+### 2026-09-21 — Deadly Dance low-source provenance strengthening
+- [x] Strengthened **Deadly Dance** from 2 to 3 sources with the maintained Instructor Quests guide; it independently lists Deadly Dance as Android 18 Lesson 2's Basic Reward.
+- [x] Preserved the existing Android 18 Lesson 2 acquisition semantics and did not infer unsupported mechanics or reward probabilities.
+- [x] Synchronized canonical/index source projections.
+- [ ] Next task: recompute the live two-source census and continue with **Dimensional Hole (PQ80)**, verifying the source-PQ/reward-tier relationship before adding provenance.
