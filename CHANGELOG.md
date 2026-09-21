@@ -535,3 +535,12 @@
 - Confirmed PQ28 `Drop dead!!!` and the PQ185/PQ186 Super Soul reward mappings already represented in the canonical crosslink report; no additional PQ routes were inferred for the remaining records.
 - Normalized Super Souls 032–035 to their exact-name PQ185/PQ186 reward provenance and refreshed verification dates.
 - Preserved unresolved/non-PQ acquisition boundaries for Super Souls 024–030 and 036–047.
+
+## 2026-09-21 — Super Soul 048-055 + PQ reverse-link reconciliation
+
+- Added 8 canonical Super Soul records (super-soul-048 through super-soul-055): 40 ton weights!, Killed all Earthlings!, That's one down!, That offer's expired..., Why are you dodging?!, Guess you CAN fight..., Leave my daddy alone!, and Leave the rest to me!.
+- Extended the Super Soul record layer with deterministic source_parallel_quests endpoints for all 13 currently PQ-sourced Super Soul records.
+- Synchronized PQ58 and PQ131 with explicit super_soul_ids and super_soul_rewards endpoints.
+- Updated docs/data/record-expansion-contract.json and docs/data/pq-super-soul-crosslink-report.json to formalize and audit the bidirectional relationship layer.
+- Validation: 50 canonical Super Soul records; 13 forward / 13 reverse PQ↔Super Soul edges; 37 Super Souls remain without an explicit PQ endpoint; 0 broken relationship endpoints; 186 canonical PQ records; all changed JSON parsed successfully.
+- Evidence limits: exact drop percentages were retained only where directly source-backed (including the documented 50% rolls for the two new PQ rewards); raid/shop/story acquisition details remain provenance-labeled rather than inferred.
