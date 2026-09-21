@@ -5994,3 +5994,14 @@ The repository owner has clarified the continuation contract:
 - Commits: canonical skill update plus this handoff/TODO/audit/changelog cycle.
 - Live census after editing: **428 records; 0 duplicate IDs; 12 Ultra Pack 1 records; 0 PQ133–137 DLC mismatches**.
 - Exact next batch: **fresh live DLC-label/source-relationship census outside Ultra Pack 1**, prioritizing a deterministic source-PQ/package relationship and preserving composite/platform-dependent labels.
+
+
+### 2026-09-21 cycle update — Ultra Pack 2 skill DLC provenance census
+- Live canonical census: **428 records / 0 duplicate IDs**.
+- Bounded batch: Dragon Blitz, Flash Chaser, Brutal Buster, Lightning Impact, Savory Slicer, Total Detonation Ball, Photon Swipe, Excellent Full Course.
+- Evidence: official Bandai Namco Ultra Pack 2 documentation confirms five PQs and eight techniques; maintained 186-PQ guide maps the eight skills to PQ138–142; live canonical data independently records the same source-PQ endpoints.
+- Changes: refreshed `last_verified=2026-09-21` and appended bounded provenance notes to the eight affected records only.
+- Validation after write: **428 records / 0 duplicate IDs / 8 Ultra Pack 2 skills / 0 PQ138–142 DLC mismatches**. No index change was needed because `skills-index.json` does not contain `dlc_requirement`.
+- Reward-tier ambiguity was deliberately preserved; this was a provenance-only pass.
+- CI: no workflow run/check is exposed, so no CI success is claimed.
+- Exact next task: fresh live DLC-label/source-relationship census outside Ultra Pack 2.
