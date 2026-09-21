@@ -4142,9 +4142,9 @@
       ],
       "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the Conton City Skill Shop route. A GameFAQs community answer reports the skill appearing after completing the Distorted Time Egg sidequest, but the dedicated skill pages do not establish that prerequisite; the repository therefore preserves the Skill Shop source without promoting the community timing claim to a deterministic gate.",
       "mechanics_notes": "100 Ki Strike Super from the Conton City Skill Shop; short-range strike technique used to pressure the opponent."
     },
     {
