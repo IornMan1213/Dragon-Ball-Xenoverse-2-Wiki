@@ -5265,3 +5265,17 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: workflow-run lookup and combined commit status for `8329016fed7edd1b9be86b489389e750c67b6627` returned **no runs and no statuses**; no CI success claimed and validators were not weakened.
 - Commits: `467a1148188343c36df72043bd959482d10f866f` (index parity), `8329016fed7edd1b9be86b489389e750c67b6627` (changelog).
 - Exact next batch: **Destructo-Disc, Dimension Cannon, Double Crush, Drain Field, Energy Charge, Final Pose, Flash Bomber, Full Power Charge, Galick Gun, and Ill Bomber**, using the same canonical→index `mechanics_notes` parity check. Recompute the live census immediately before editing and preserve the separate Ill Bomber non-mechanics projection mismatches for their own bounded pass.
+
+
+### 2026-09-21 cycle update — skills-index mechanics projection parity batch 2
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, deterministic canonical→index reconciliation.
+- Live census before/after: **429 canonical skills / 429 skill-index records**.
+- Bounded batch: **10 `mechanics_notes` projections** — Destructo-Disc, Dimension Cannon, Double Crush, Drain Field, Energy Charge, Final Pose, Flash Bomber, Full Power Charge, Galick Gun, and Ill Bomber.
+- Research/evidence: canonical `docs/data/skills.json` is the producer for the index projection. This cycle introduced no new gameplay, acquisition, restriction, DLC, or mechanics claim; it copied only already-canonical values.
+- Changes: reconciled the matching `mechanics_notes` values in `docs/data/skills-index.json`. Ill Bomber was already in parity and required no effective content change, but remained in the bounded census.
+- Evidence limits: deterministic cross-layer parity correction, not a new verification event. **15** `mechanics_notes` mismatches remain after the batch.
+- Validation: both skill JSON layers parse; 429/429 records remain; all 10 targeted records match canonical for `mechanics_notes`; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: combined status and commit workflow-run lookup for the cycle commits returned **no statuses and no workflow runs**; **no CI success claimed**. Validators were not weakened.
+- Commits: `84d44bd4441d9d178eea9c6208803cd80dce7aca` (index), `8b3c6ed374e73aedbc5240041aa75dd858d557c9` (coverage audit), `f3291671894007b5e568b6c64567a21006e35b98` (changelog).
+- Current remaining `mechanics_notes` mismatches: **15** — Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike.
+- Exact next batch: **Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, and Spirit Bomb**, using the same live canonical→index `mechanics_notes` parity check. Recompute the live census immediately before editing and preserve unrelated projection families for separate bounded passes.
