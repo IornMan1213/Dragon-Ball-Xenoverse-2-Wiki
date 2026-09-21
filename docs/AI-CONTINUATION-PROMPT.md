@@ -6466,3 +6466,15 @@ The repository owner has clarified the continuation contract:
 - CI: no workflow runs were exposed for the cycle's repository commits; no CI success is claimed and no validators were weakened.
 - Commits: canonical `f4aadae541e6134153d0c7713fa20163f105759c`; index `3ef648ab86a9d775481e759a6152fbf5e245d9a3`; ledger `97a6c1718af470dc7c3bdd00b789d0cac632e5be`.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source cluster after PQ181, verifying source-PQ/reward-tier consistency before adding provenance.**
+
+
+### 2026-09-21 continuation — Future Saga Chapter 4 provenance
+- Workstream: **P1 skill provenance/source integrity**.
+- Live two-source census before this batch: **59 exactly-two-source records**.
+- Bounded batch: **Venus Fist (PQ186)**.
+- Evidence: existing maintained sources establish the PQ186/Venus Fist relationship; Bandai Namco's official July 8, 2026 Future Saga Chapter 4 launch announcement independently confirms that Chapter 4 includes Parallel Quests and additional moves.
+- Changes: added the official Chapter 4 launch announcement as a third source and synchronized `docs/data/skills-index.json`. Existing Basic Reward/acquisition semantics were preserved.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 58 exactly-two-source records**; source/verification parity remains clean.
+- CI: no workflow success was claimed where repository workflow results were unavailable.
+- Commits: canonical `4d2f6b7d62dc59491e25209510cb407c45d7a0bb`; index `d2a54a602a17a7044a101cbe0e51c3ced2661528`; ledger `d8012b962c3a3dc3c13b0532e06ac740be6e10cb`.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source cluster after PQ186, verifying source-PQ/reward-tier consistency before adding provenance.**
