@@ -4255,3 +4255,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - `sources` remains separately rejected because provenance is merged rather than replaced/cleared.
 - Commit: `d30b459ded874751dfc5870e261a0d38fa9e5c92` — Validate correction fields against canonical schema.
 - Next task: audit whether correction records themselves can introduce invalid canonical key fields or schema-invalid values before the final validator, and identify any safe early validations that belong in the builder without duplicating the full schema validator.
+
+## 2026-09-21 continuation — merge key validation
+- Audited correction-record destination keys and normal records entering `merge_record()`.
+- Added early validation that every merge record has a non-empty string `name`, `class`, and `subcategory` (with the existing non-string/blank correction-target validation retained). This prevents `.casefold()`/tuple-key failures and avoids malformed records entering the merge map.
+- Deliberately did not duplicate the full canonical schema's enum/value validation; the workflow's existing final JSON Schema validator remains authoritative for field values and conditional constraints.
+- Commit: `3a4be166c51edcf7e9e5c1fb52a1ec3b9c851e80` — Validate skill merge key fields.
+- Next task: audit local research-batch loading and metadata propagation, especially `batch_id` / `research_status` types and whether batch metadata can accidentally overwrite protected record fields.
