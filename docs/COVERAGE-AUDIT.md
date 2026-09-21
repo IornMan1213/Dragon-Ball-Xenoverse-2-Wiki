@@ -4563,3 +4563,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no workflow/status result was exposed for the commit; no CI success is claimed and validators were not weakened.
 - Commit: `3d54e9ad713eb7e29dc469911468a658d3c3fb34`.
 - Exact next batch: **continue the live P1 skill census by auditing nullable DLC/version provenance and acquisition-specific fields for a bounded 4–12 record group; prefer deterministic cross-layer mismatches before external research.**
+
+
+### 2026-09-21 cycle update — mentor skill DLC provenance cleanup
+- Live skill census before editing: **429 canonical skills**; all 429 had a non-null `dlc_requirement`, but **4 mentor-training records used the non-specific value `DLC`**.
+- Bounded batch: **God Splitter, Heavenly Arrow, Instant Severance, and Time Skip/Tremor Pulse**.
+- Research/evidence: Zamasu's mentor relationship is documented as **Extra Pack 1**, while Hit's mentor training and Time Skip/Tremor Pulse are documented as **Super Pack 1**. citeturn1search6turn1search2
+- Changes: refined the four canonical `dlc_requirement` values in `docs/data/skills.json` and appended explicit 2026-09-21 provenance notes/source coverage. No acquisition route, skill mechanics, or mentor relationship semantics were changed.
+- Evidence limits/conflicts preserved: mentor availability can appear in shared play-data even without ownership; the field records the DLC pack that introduced the mentor training relationship, not merely whether the underlying character exists in another pack. citeturn1search11turn1search6
+- Validation: **429 canonical skills; 0 missing `dlc_requirement`; 0 generic `DLC` values remain**. Canonical JSON parsed successfully; no skill-index projection change was required because `dlc_requirement` is intentionally outside its current projection field set. Internal citation-artifact scan remains required after the write.
+- CI: no actionable workflow result exposed during this cycle; **no CI success claimed**. Validators were not weakened.
+- Commit: `9ca5147646a60ceb411dfca5dfdfb924e8a566d2`.
+- Exact next batch: **recompute the live skill census, then inspect the remaining 4 records with nullable `source_quest` and the 3 records with nullable `race_restriction`; prioritize only deterministic cross-layer fixes supported by existing repository evidence, without inventing acquisition routes.**
