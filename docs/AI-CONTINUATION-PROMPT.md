@@ -4588,3 +4588,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: accessory canonical reconciliation remains **105 records**; bridge remains **45 PQ records / 43 matched / 2 researched-unresolved**; cross-link report regenerated successfully.
 - This closes the current accessory PQ identity reconciliation queue without fabricating unsupported canonical identities.
 - Next work should move to the next domain/relationship queue identified by the handoff rather than repeatedly re-researching these two labels, unless new direct evidence appears.
+
+
+### 2026-09-21 cycle update — skill resource-cost gap batch
+- Live census before editing: **305 canonical skill records**; this supersedes older 294/298-record historical milestone text while preserving that history.
+- Bounded batch: **Brutal Buster, Dimension Cannon, Neo Wolf Fang Fist**.
+- Research/evidence: dedicated Xenoverse 2 skill references establish Brutal Buster at **300 Stamina**, Dimension Cannon at **300 Stamina**, and Neo Wolf Fang Fist at **100–700 Ki** with continued input. Independent community testing corroborates the variable Ki-drain behavior of Neo Wolf Fang Fist.
+- Changes: `docs/data/skills.json` updated with the missing resource values, direct source provenance, and 2026-09-21 verification notes. `docs/COVERAGE-AUDIT.md` updated with the batch record and evidence limits.
+- Evidence limits: Evasives retain Stamina as their activation resource; no fabricated Ki cost was added. Neo Wolf Fang Fist remains variable rather than being forced into a fixed cost. No unrelated fields were rewritten.
+- Validation: skills.json re-fetched and parsed successfully; live record count remains **305**. Cost audit confirms no missing Ki cost among non-Evasive records; remaining null stamina fields are outside this bounded applicability check. No internal citation markup was copied into repository data.
+- CI: combined status and commit-associated workflow lookup for `5884f75e6f409fcf5c2b94a747c8ac45f4766eb0` returned no exposed statuses/runs. No CI success is claimed; validators were not weakened.
+- Commits: `5884f75e6f409fcf5c2b94a747c8ac45f4766eb0` (skill costs), `1c84fd12029bed798b5c8b4a272baaaf65833f05` (coverage audit).
+- Current live skill census: **305 records**. The active skill second-pass remains the highest-priority research workstream after the completed PQ unlock-field and accessory identity queues.
+- Exact next task: recompute the live skill metadata census and take the next bounded **4–12 record acquisition/restriction/mechanics batch**, prioritizing fields that can improve PQ↔skill and other database cross-links. Preserve nulls where evidence is insufficient and do not reopen completed frontiers without new evidence.
