@@ -31,6 +31,9 @@
         "super_souls",
         "sources",
         "verification_status"
+      ],
+      "optional_cross_domain_fields": [
+        "skill_ids"
       ]
     },
     {
@@ -63,7 +66,8 @@
         "source_mentor",
         "source_advancement_test",
         "source_time_rifts",
-        "source_story_mission"
+        "source_story_mission",
+        "source_parallel_quests"
       ]
     },
     {
