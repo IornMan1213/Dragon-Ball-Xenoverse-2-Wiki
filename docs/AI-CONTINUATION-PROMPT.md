@@ -3425,3 +3425,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
 - Audit commit: **bf15e82a5408b0a10911967aeab5d9b3fdc03ea7**.
 - Exact next task: **continue under-specified acquisition records, prioritizing route conflicts and mixed character-only/CaC evidence.**
+
+
+### 2026-09-20 cycle update — built-in / character-only acquisition-status refinement
+- Refined **Surging Spirit** to explicitly state that it is a built-in Ultra Instinct action for CaCs, not a separately acquired/equipped skill. citeturn1search7turn1search15
+- Refined **Dragon Thunder** with the explicit **Character-only** restriction; dedicated evidence states it is unavailable to CaCs. citeturn1search2turn1search5
+- Updated canonical and index together.
+- Validation: **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
+- Canonical commit: **957b3fb1fa817a7f81c56a9ff1c0fff07d8d3ddd**.
+- Index commit: **b29207243c0ca1a04ad15f103910b46a96443162**.
+- Audit commit: **80471f6be87018346a2fca5885ebb647a3194e91**.
+- Exact next task: **continue under-specified non-PQ records for deterministic acquisition-status evidence.**
