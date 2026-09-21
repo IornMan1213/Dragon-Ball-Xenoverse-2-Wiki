@@ -6217,3 +6217,12 @@ The repository owner has clarified the continuation contract:
 - Validation: 448 canonical / 448 index / 0 duplicate IDs / 0 nullable ki_cost values / 5 Free Update 2 records.
 - Canonical commit: 523b69e207c72f3acc01b57292d650c2a8170a02; index commit: 854fc1e4e7fe44b3572fd9099bef26db2dd9447d.
 - Exact next task: continue the remaining free-update census, starting with Free Update 1's documented launch-update skill/attack scope, and only add endpoints after exact names and acquisition evidence are established.
+
+## 2026-09-21 continuation — Free Update 1 launch-update scope audit
+- Continued directly from the live 448-record catalog after the Free Update 2 completeness correction.
+- Found and repaired stale canonical `record_count` metadata: `skills.json` reported 443 while its records array and synchronized index contained 448. The canonical metadata now reports 448.
+- Audited the December 2016 launch-update scope. Contemporary reporting confirms the two named Free Update 1 Awoken endpoints (Super Saiyan Blue Kaioken and Pure Progress) plus four additional attacks, but the accessible sources reviewed here do not identify those four attack names individually.
+- No speculative endpoint was added. The four unnamed attacks remain the next evidence-bounded completeness target.
+- Validation: canonical/index record counts are **448/448**, with 0 duplicate IDs and 0 nullable `ki_cost` values. No gameplay record fields were altered in the metadata repair.
+- CI: no CI success is claimed unless an actual workflow run/check is exposed by GitHub.
+- Exact next task: **identify the four additional Free Update 1 attack names and their acquisition endpoints from reliable launch-era/current evidence, then add only exact bounded records. Do not substitute the separate VIP Corner teacher attacks or paid DLC Pack 1 attacks.**
