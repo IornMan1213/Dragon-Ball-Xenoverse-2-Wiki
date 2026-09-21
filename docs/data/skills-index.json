@@ -3168,13 +3168,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Shot",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "unlock_method": "Parallel Quest 22 — \"Dragon Ball Brawl\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 low-source provenance strengthening: Yhan Game independently lists Energy Shot as a Basic Reward for PQ22 — Dragon Ball Brawl, corroborating the existing acquisition endpoint and reward-tier classification.",
       "mechanics_notes": "Fire chargeable Ki Blasts; charged shots are more powerful. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "source_quest": 22,
       "source_quest_or_shop": "Parallel Quest 22 — \"Dragon Ball Brawl\""
