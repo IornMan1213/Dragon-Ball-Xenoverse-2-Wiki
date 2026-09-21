@@ -4183,4 +4183,9 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `8843d1c99cc76900e466d2cfff609967b984cd34` — Reject malformed structured skill frontmatter.
 - No generated catalog was manually modified. CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
 - Next task: inspect the workflow's actual research-corpus checkout and build invocation for parser compatibility, then audit remaining coercions (notably numeric fields) before making further changes.
+## 2026-09-21 continuation — parser compatibility correction
+- During workflow compatibility auditing, I caught an escaping regression in the previous frontmatter hardening: the generated Python regex literals had been over-escaped, which would have treated the digit/whitespace patterns literally instead of matching them. This would have broken normal structured-corpus parsing.
+- Corrected the regex literals in commit `0be4ba7587f780fb7493f63d05a2b901e7d20926` — Fix frontmatter parser regex escaping.
+- The guessed workflow filenames were not present, and repository search returned no direct workflow reference for `build_skills_from_research`; therefore CI execution remains unverified.
+- Next task: locate the actual workflow/build invocation and verify the hardened parser against its expected frontmatter format before further changes.
 
