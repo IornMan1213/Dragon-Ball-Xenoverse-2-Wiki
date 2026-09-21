@@ -673,3 +673,11 @@
 - Evidence limits preserved: no unsupported PQ links for Festival/TP Medal Shop acquisitions; community-measured magnitudes/durations remain bounded; the Poltarat damage-direction conflict remains explicit.
 - Validation: changed JSON parsed successfully and the crosslink report was regenerated from the canonical registry. CI status was unavailable; no CI success is claimed.
 - Exact next batch: **the next eight unique source-corpus Super Souls after Send me back to the planet I came from!, after live duplicate reconciliation.**
+
+### 2026-09-21 — Super Soul 152–153 terminal source-corpus batch
+- Added **super-soul-152** — So fast! Are they learning how to use their power?! — and **super-soul-153** — Enough food for one person... — from the final two unique records remaining after the prior source-corpus frontier.
+- Both are 5th Festival of Universes Total Glory Point rewards with TP Medal Shop rotation; neither has an explicit PQ endpoint.
+- Rebuilt the PQ↔Super Soul report: **56 forward / 56 reverse edges / 46 unique PQ endpoints / 56 unique Super Soul endpoints / 92 unresolved routes / 0 broken endpoints**.
+- Evidence limits preserved: official/datamined trigger/effect classes are distinguished from community-measured magnitudes and durations; no unsupported PQ links were added.
+- Validation: changed JSON parsed successfully; canonical/index parity and endpoint checks passed; internal UI/search citation artifact scan returned **0**. CI status remained unavailable; no CI success is claimed.
+- Exact next work: **do not continue inventing Super Soul records from the exhausted maintained source corpus; pivot to the highest-priority deterministic validator/index mismatch or another explicitly prioritized repository corpus.**
