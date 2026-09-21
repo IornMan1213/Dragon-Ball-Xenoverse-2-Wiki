@@ -9,7 +9,7 @@
   "unlinked_skill_count": 71,
   "categories": {
     "time_rift": {
-      "count": 7,
+      "count": 8,
       "skill_ids": [
         "skill-become-giant",
         "skill-future-super-saiyan",
@@ -17,18 +17,20 @@
         "skill-purification",
         "skill-super-saiyan",
         "skill-super-vegeta",
-        "skill-turn-golden"
+        "skill-turn-golden",
+        "skill-super-saiyan-2"
       ]
     },
     "story": {
-      "count": 6,
+      "count": 7,
       "skill_ids": [
         "skill-bending-kamehameha",
         "skill-explosive-wave",
         "skill-fighting-pose-k",
         "skill-quick-sleep",
         "skill-the-power-to-overcome",
-        "skill-time-bullet"
+        "skill-time-bullet",
+        "skill-beast"
       ]
     },
     "mentor": {
@@ -120,10 +122,12 @@
       ]
     },
     "other": {
-      "count": 5,
+      "count": 0,
+      "skill_ids": []
+    },
+    "mentor_like": {
+      "count": 3,
       "skill_ids": [
-        "skill-beast",
-        "skill-super-saiyan-2",
         "skill-super-saiyan-god-super-saiyan",
         "skill-super-saiyan-god-super-saiyan-evolved",
         "skill-ultra-instinct"
@@ -140,7 +144,8 @@
     "character_only": "Character/roster acquisition, not a CaC PQ source.",
     "starting": "Starting/fighting-style acquisition, not a PQ source.",
     "wish": "Shenron wish acquisition, not a PQ source.",
-    "other": "Requires targeted evidence before any cross-domain ID is created."
+    "other": "Requires targeted evidence before any cross-domain ID is created.",
+    "mentor_like": "Known training/instructor-style acquisition route, but the repository has no canonical mentor record layer yet; retain the skill acquisition fact without inventing a mentor ID."
   },
   "missing_canonical_layers": [
     "mentors",
@@ -150,5 +155,7 @@
     "The 71 skills are not automatically missing PQ links. The audit separates legitimate non-PQ acquisition routes from unresolved cases.",
     "The repository's null policy requires unknown values to remain unresolved rather than guessed.",
     "No acquisition facts were changed in this classification cycle."
-  ]
+  ],
+  "total_classified": 71,
+  "unresolved_nonpq_skills": 0
 }
