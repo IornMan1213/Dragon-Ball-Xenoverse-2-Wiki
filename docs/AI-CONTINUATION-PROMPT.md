@@ -3593,3 +3593,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: canonical `fb6115fbae8286c9a6141923336556708169a703`; index `37e6c4f377dbb0b13ec4ba64e4ea68e057b32a01`; audit `de94502620c6b28ecff9eccd47e050e9e9fd9714`.
 - Validation: 283 canonical/index records, identical ordering, 0 duplicates, 60 UF flags, 0 acquisition-critical mismatches.
 - Exact next task: inspect the remaining generic/pooled acquisition labels and contradictory route records; do not infer a quest title where the maintained corpus lacks deterministic support.
+
+
+### 2026-09-20 cycle update — deterministic pooled-route cleanup
+- Resolved two pooled PQ provenance labels (`Kaioken`, `Meditation`) from explicit unlock-method evidence.
+- Corrected `Fighting Pose K` acquisition type to `skill_shop` because the documented route is story unlock -> Skill Shop purchase.
+- Commits: canonical `3dc2c0200bc23ee1bbf2d159722653f15d9afdad`; index `c7461142afa2ddc9d7918e3e4f7db3e31713c158`; audit `a4625a07e2024980480872b85687dec292bb9094`.
+- Validation: 283 canonical/index records, identical ordering, 0 duplicate names, 60 UF flags, 0 acquisition-critical mismatches.
+- Exact next task: continue auditing remaining contradictory or pooled source labels, especially multi-source shop/raid routes and non-PQ acquisition classifications; change only when the repository evidence is deterministic.
