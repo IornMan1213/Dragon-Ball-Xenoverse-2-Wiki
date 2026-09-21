@@ -3716,3 +3716,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `8ed50e113458739b71629e8bb059c37541cff1af`.
 - CI status should be checked on the next cycle; current repository Actions have historically returned empty/pre-step failures for these edits.
 - Exact next task: audit the remaining validator cross-field rules against the producer's actual output semantics, especially `character_source`, `usable_by_cac`, and `source_quest_or_shop`, then continue the evidence-backed acquisition conflict census.
+## 2026-09-21 continuation — validator cross-field census and provenance correction
+- Audited all **283** canonical records against the validator's acquisition cross-field rules rather than adding speculative `character_source` constraints.
+- Confirmed the 8 `character_only` records all have `usable_by_cac=false`; seven intentionally have no `character_source` because their evidence is expressed as character-only/non-CaC route text, while Dragon Thunder carries an explicit character source. Therefore `character_only => character_source` would be an incorrect invariant and was not added.
+- Confirmed `character_source` is not equivalent to CaC ineligibility: many normal CaC-usable skills legitimately retain a mentor/character source field. No validator rule was added for `character_source + usable_by_cac`.
+- Found that the previous handoff's claimed textual-PQ validator change had not actually been present in the live file. Corrected this directly: `parallel_quest` now additionally requires `source_quest` to be a string, matching the producer's distinction between textual explicit PQ provenance and numeric PQ IDs classified as quest_or_mission.
+- Commit: `a6cf5544afff36cc70ca1a8190f8320def070820`.
+- CI check for this commit returned **0 statuses and 0 workflow runs**; no success/failure is inferred.
+- Exact next task: continue the evidence-backed acquisition conflict census against maintained reward/shop evidence, then inspect producer/validator assumptions around `source_quest_or_shop` and unlock-route semantics. Avoid treating `character_source` as an automatic character-only signal.
