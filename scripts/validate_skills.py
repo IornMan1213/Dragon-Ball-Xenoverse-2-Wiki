@@ -44,7 +44,9 @@ def main():
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
   if r.get('class') in CLASS_SUBCATEGORIES and r.get('subcategory') not in CLASS_SUBCATEGORIES[r.get('class')]:errors.append(f"{r.get('name')}: subcategory {r.get('subcategory')} is invalid for class {r.get('class')}")
   if r.get('race_restriction')=='Character-only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: Character-only restriction requires usable_by_cac=false")
-  if r.get('class')=='Awoken' and r.get('subcategory')=='Race' and (r.get('usable_by_cac') is not True or not r.get('race_restriction')):errors.append(f"{r.get('name')}: canonical Awoken Race record requires CaC eligibility and race restriction")
+
+  if r.get('acquisition_type')=='character_only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: character_only acquisition requires usable_by_cac=false")
+  if r.get('acquisition_type')=='starting_move' and r.get('usable_by_cac') is not True:errors.append(f"{r.get('name')}: starting_move acquisition requires usable_by_cac=true")  if r.get('class')=='Awoken' and r.get('subcategory')=='Race' and (r.get('usable_by_cac') is not True or not r.get('race_restriction')):errors.append(f"{r.get('name')}: canonical Awoken Race record requires CaC eligibility and race restriction")
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
   if r.get('acquisition_type') not in ALLOWED_ACQUISITION:errors.append(f"{r.get('name')}: invalid acquisition_type {r.get('acquisition_type')}")
   acquisition=r.get('acquisition_type'); has_quest=r.get('source_quest') not in (None,'')
