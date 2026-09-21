@@ -948,3 +948,6 @@
 - Updated only canonical `ki_cost` and `last_verified`.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 29 nullable `ki_cost` records**.
 - Commit: `3dddf371190a0cd8a3cb29940ec922b64ea2b711`.
+
+### 2026-09-21 — Citation-token correction for Android 16 changelog entry
+- The preceding Android 16 changelog entry contains internal citation-token text that must not persist in repository prose. This append-only correction preserves the historical entry while clarifying that the underlying evidence supports Eye Beam, Rocket Tackle, and Android Rush at 100 Ki and Hell Flash at 300 Ki.
