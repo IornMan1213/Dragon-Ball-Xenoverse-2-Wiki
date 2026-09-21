@@ -3579,3 +3579,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Normalized 73 generic labels where the existing `unlock_method` explicitly supplied the corresponding quest title; no acquisition semantics, reward tiers, UF flags, or probabilities were altered.
 - Commits: canonical `03d9813feda3269d318378389333c80a1b60a6a9`; index `52c1fcc481c452d0f3abf080a1dbdda4613ae2f5`; audit `ea2252779a712fbe9de58776e9e2af50d4e48486`.
 - Exact next task: re-scan remaining generic `source_quest_or_shop` values and then audit contradictory route records where `source_quest_or_shop`, `unlock_method`, and reward-tier evidence disagree. Only resolve conflicts when the maintained corpus provides deterministic support.
+
+
+### 2026-09-20 cycle update — remaining titled PQ shorthand cleanup
+- Normalized 11 remaining PQ### source labels where the existing unlock method explicitly supplied the quest title.
+- Commits: canonical 0a99b958785299078c70eb64dbd3c530842c803d; index 955277b6b470e92b3898bfd6e15a7dfb609cf8fc; audit bf51aa91e422a9dbf3623a01a529641a6cd2f886.
+- Validation: canonical/index remain 283 records, identical ordering, 0 duplicates, 60 UF flags, and 0 acquisition-critical mismatches.
+- Exact next task: continue with the still-generic Parallel Quest N labels whose unlock method lacks a title, using maintained PQ research batches to resolve only when the quest number/title mapping is explicit; then inspect contradictory route records.
