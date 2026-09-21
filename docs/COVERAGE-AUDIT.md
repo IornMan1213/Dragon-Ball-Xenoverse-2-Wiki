@@ -1,3 +1,12 @@
+## 2026-09-20 Time Bullet provenance refinement
+
+- Refined **Time Bullet** after rechecking its dedicated skill evidence and the live canonical/index records.
+- The record now separates the deterministic main-story gate (**defeat Kid Buu in the decisive battle with Majin Buu**) from the acquisition source (**Conton City Skill Shop**).
+- No specific saga/chapter threshold, shop rotation, price, or Ultimate Finish requirement was inferred beyond the evidence.
+- Canonical and index records were updated together.
+- Validation target: 283 records, identical ordering, zero duplicates, 60 Ultimate Finish flags, and synchronized acquisition-critical fields.
+
+
 ## 2026-09-20 Skill Shop provenance refinement
 
 - Refined **Bending Kamehameha** after checking the live canonical/index records against current skill references.
