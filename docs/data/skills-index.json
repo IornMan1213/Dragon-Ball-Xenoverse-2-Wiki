@@ -1825,7 +1825,7 @@
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance resolution: the maintained PQ reward-normalization map explicitly assigns Emperor's Cannon to PQ183's skill reward inventory. A dedicated skill reference had previously reported PQ184, creating a source conflict; the current maintained reward map is now used as the canonical acquisition route. No Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Current dedicated evidence confirms Emperor's Cannon as a 100-Ki Ki Blast Super from PQ184, 'The Invincible Duo', correcting the prior PQ183 record. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "Current dedicated evidence has conflicted with the maintained reward map: the dedicated skill page reports PQ184, while the maintained reward-normalization map assigns the skill to PQ183. The canonical acquisition follows the maintained reward map pending further reconciliation. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 183,
       "source_quest_or_shop": "Parallel Quest 183 — \"Broly vs. Broly\" Basic Reward"
     },
