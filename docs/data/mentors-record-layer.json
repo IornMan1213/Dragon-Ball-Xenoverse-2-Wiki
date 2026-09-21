@@ -326,25 +326,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Audacious Laugh",
-          "skill_id": null
+          "skill_id": "skill-audacious-laugh"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Gorgeous Shot",
-          "skill_id": null
+          "skill_id": "skill-gorgeous-shot"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Bloody Counter",
-          "skill_id": null
+          "skill_id": "skill-bloody-counter"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Elegant Blaster",
-          "skill_id": null
+          "skill_id": "skill-elegant-blaster"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-audacious-laugh",
+        "skill-gorgeous-shot",
+        "skill-bloody-counter",
+        "skill-elegant-blaster"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -361,25 +366,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Dodoria Beam",
-          "skill_id": null
+          "skill_id": "skill-dodoria-beam"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Critical Upper",
-          "skill_id": null
+          "skill_id": "skill-critical-upper"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Dodoria Headbutt",
-          "skill_id": null
+          "skill_id": "skill-dodoria-headbutt"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Dodoria Launcher",
-          "skill_id": null
+          "skill_id": "skill-dodoria-launcher"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-dodoria-beam",
+        "skill-critical-upper",
+        "skill-dodoria-headbutt",
+        "skill-dodoria-launcher"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -396,25 +406,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Fighting Pose F",
-          "skill_id": null
+          "skill_id": "skill-fighting-pose-f"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Fighting Pose A",
-          "skill_id": null
+          "skill_id": "skill-fighting-pose-a"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Milky Cannon",
-          "skill_id": null
+          "skill_id": "skill-milky-cannon"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Body Change",
-          "skill_id": null
+          "skill_id": "skill-body-change"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-fighting-pose-f",
+        "skill-fighting-pose-a",
+        "skill-milky-cannon",
+        "skill-body-change"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -431,17 +446,17 @@
         {
           "lesson": "initiation",
           "skill_name": "Death Beam",
-          "skill_id": null
+          "skill_id": "skill-death-beam"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Death Crasher",
-          "skill_id": null
+          "skill_id": "skill-death-crasher"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Death Slicer",
-          "skill_id": null
+          "skill_id": "skill-death-slicer"
         },
         {
           "lesson": "lesson-3",
@@ -450,7 +465,10 @@
         }
       ],
       "skills": [
-        "skill-death-ball"
+        "skill-death-ball",
+        "skill-death-beam",
+        "skill-death-crasher",
+        "skill-death-slicer"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -468,7 +486,7 @@
         {
           "lesson": "initiation",
           "skill_name": "Feint Crash",
-          "skill_id": null
+          "skill_id": "skill-feint-crash"
         },
         {
           "lesson": "lesson-1",
@@ -478,16 +496,19 @@
         {
           "lesson": "lesson-2",
           "skill_name": "Fake Blast",
-          "skill_id": null
+          "skill_id": "skill-fake-blast"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Supernova Cooler",
-          "skill_id": null
+          "skill_id": "skill-supernova-cooler"
         }
       ],
       "skills": [
-        "skill-shadow-crusher"
+        "skill-shadow-crusher",
+        "skill-feint-crash",
+        "skill-fake-blast",
+        "skill-supernova-cooler"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
