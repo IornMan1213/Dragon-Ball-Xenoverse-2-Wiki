@@ -1426,7 +1426,7 @@
       "mechanics_notes": "Dedicated current-version evidence identifies this as Gamma 2's Strike Ultimate and states that the Future Warrior can obtain it from PQ158; maintained PQ158 data documents a 40% Ultimate Finish bonus roll. CaC race/gender scope is not explicitly stated, so race_restriction remains null.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Core_Breaker",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1436,7 +1436,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: current PQ158 reward data documents a 40% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 source reconciliation: current PQ158 reward data documents a 40% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance.",
       "id": "skill-core-breaker",
       "source_parallel_quests": [
         158
@@ -4163,7 +4163,7 @@
       "mechanics_notes": "Current evidence confirms Gamma Blaster as a 100-Ki Ki Blast Super from PQ155. The existing random-PQ acquisition record is retained; no unsupported CaC restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4173,7 +4173,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance.",
       "id": "skill-gamma-blaster",
       "source_parallel_quests": [
         155
@@ -4196,7 +4196,7 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. The maintained PQ153 drop-condition data assigns this skill to an explicit Ultimate Finish bonus roll.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4206,7 +4206,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: maintained PQ155 drop-condition data explicitly assigns Gamma Impact to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 provenance refinement: maintained PQ155 drop-condition data explicitly assigns Gamma Impact to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance.",
       "id": "skill-gamma-impact",
       "source_parallel_quests": [
         155
@@ -4832,7 +4832,7 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Assault",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -4841,7 +4841,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: dedicated skill documentation explicitly describes Heroic Assault as randomly obtainable from PQ156; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate.",
+      "notes": "2026-09-20 audit: dedicated skill documentation explicitly describes Heroic Assault as randomly obtainable from PQ156; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the generic random-PQ wording has been refined to the documented gate. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance.",
       "id": "skill-heroic-assault",
       "source_parallel_quests": [
         156
@@ -4867,10 +4867,10 @@
       "source_quest_or_shop": "Parallel Quest 155 — \"I Need a Hero... Pose!\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Hero of Justice Pack 1",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance.",
       "id": "skill-heroic-counter",
       "source_parallel_quests": [
         155
@@ -7376,7 +7376,7 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. Future Warrior evidence establishes CaC availability; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-20 reconciliation: current skill page explicitly identifies PQ156 as the unlock and classifies Shooting Strike as a Ki Blast Super; corrected stale canonical Strike classification. 2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shooting_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -7385,7 +7385,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 156,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
+      "notes": "2026-09-20 audit: PQ156's current maintained reward data lists Shooting Strike in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance.",
       "id": "skill-shooting-strike",
       "source_parallel_quests": [
         156
@@ -8024,7 +8024,7 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the PQ158 acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -8033,7 +8033,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 158,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 audit: PQ158's current maintained reward data lists Super Gamma Blast in a 50% Ultimate Finish bonus slot; generic random-PQ wording is refined to the explicit gate. 2026-09-20 provenance census: normalized source field to Parallel Quest 158 — \"Beat Bulma's Minions!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance.",
       "id": "skill-super-gamma-blast",
       "source_parallel_quests": [
         158
