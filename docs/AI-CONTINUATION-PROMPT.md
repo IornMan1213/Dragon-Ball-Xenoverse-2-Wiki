@@ -6502,3 +6502,15 @@ The repository owner has clarified the continuation contract:
 - CI: no workflow success was claimed where repository workflow results were unavailable.
 - Commits: canonical `3de0e4320733d15eeab595ad68daf8cb3357a485`; index `9edb0078adbfac4fedc4131d4674713bad44bada`.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source cluster after Data Input, verifying source/acquisition consistency before adding provenance.**
+
+
+### 2026-09-21 continuation — Afterimage provenance
+- Workstream: **P1 skill provenance/source integrity**.
+- Live two-source census before this batch: **56 exactly-two-source records**.
+- Bounded batch: **Afterimage**.
+- Evidence: maintained skill-specific sources establish Afterimage as a CaC starting move; Bandai Namco's official launch announcement independently establishes the base game's Time Patroller/avatar customization context.
+- Changes: added the official launch announcement as a third provenance source and synchronized `docs/data/skills-index.json`. Existing acquisition and mechanics semantics were preserved.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 55 exactly-two-source records**; canonical/index parity remains clean.
+- CI: no workflow success was claimed where repository workflow results were unavailable.
+- Commits: canonical `2cf2a4ec33f82b17d645bc6e3ee378b50beaf7fa`; index `25dfb0fe8945e63c9977c9970634580c65e2ec57`.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source cluster after Afterimage, verifying source/acquisition consistency before adding provenance.**
