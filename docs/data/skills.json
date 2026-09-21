@@ -6606,7 +6606,7 @@
       "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "SS4 Goku (DAIMA)",
-      "dlc_requirement": "Future Saga Chapter 2",
+      "dlc_requirement": "Dragon Ball DAIMA Pack",
       "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Strike",
@@ -6617,7 +6617,7 @@
       "mechanics_notes": "Dedicated current-version evidence corrects Heat Wave to a **200-Ki Strike Super** from PQ179. It charges, repels Ki Blasts during its rush, and can break guard when fully charged. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heat_Wave",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6630,7 +6630,8 @@
       "id": "skill-heat-wave",
       "source_parallel_quests": [
         179
-      ]
+      ],
+      "provenance_notes": "DAIMA Pack character-only skills used by SS4 Goku (DAIMA); the maintained PQ corpus places both skills in PQ179, a DAIMA Pack quest."
     },
     {
       "name": "Heavenly Arrow",
@@ -11652,7 +11653,7 @@
       "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "SS4 Goku (DAIMA)",
-      "dlc_requirement": "Future Saga Chapter 2",
+      "dlc_requirement": "Dragon Ball DAIMA Pack",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
@@ -11663,7 +11664,7 @@
       "mechanics_notes": "100 Ki Strike Super. Current reward evidence places Supreme Fury in PQ179 Ultimate Finish reward; exact drop conditions and additional numerical mechanics remain under research.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -11675,7 +11676,8 @@
       "id": "skill-supreme-fury",
       "source_parallel_quests": [
         179
-      ]
+      ],
+      "provenance_notes": "DAIMA Pack character-only skills used by SS4 Goku (DAIMA); the maintained PQ corpus places both skills in PQ179, a DAIMA Pack quest."
     },
     {
       "name": "Surging Spirit",
