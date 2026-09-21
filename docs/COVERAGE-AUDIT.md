@@ -4134,3 +4134,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No canonical/index data changes were justified by this sweep.
 - Evidence limitation: community/player sources are useful corroboration of CaC use but are not treated as authoritative race-scope proof; the repository continues to preserve null where exact restriction evidence is absent.
 - Exact next task: audit the remaining `usable_by_cac=true` records for weaker-than-explicit race-scope evidence and determine whether any other null/ambiguous restrictions remain hidden outside the current three-record census.
+
+
+## 2026-09-21 — complete CaC race-field census correction
+- Recomputed the live `skills.json` census directly rather than relying on the earlier handoff snapshot.
+- Current canonical totals are **283 records / 274 `usable_by_cac=true` / 3 CaC-usable records with `race_restriction: null`**.
+- The three null records remain **Blaster Stream**, **Chaotic Time Impact**, and **Circle Flash**. The previous 270 CaC-usable figure in earlier handoff notes was stale and is superseded by this direct live-file census.
+- The CaC-usable race field has no placeholder/weak sentinel values such as `Unknown` or `Unspecified`; all non-null values are explicit race/form scopes, including `All CaC races` and specific race combinations.
+- No canonical data change was required: the census correction is documentation-only.
+- Exact next task: trace the four-record difference from the stale 270 figure through recent repository history, then audit the affected records' race evidence before making any further scope changes.
