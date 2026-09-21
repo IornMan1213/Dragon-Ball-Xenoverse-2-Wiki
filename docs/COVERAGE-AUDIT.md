@@ -4068,3 +4068,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Normalized **43** remaining generic `Parallel Quest N` provenance labels using explicit quest-number/title mappings from the maintained PQ research batches.
 - No acquisition semantics, reward tiers, Ultimate Finish flags, or probabilities were changed.
 - Canonical: `fb6115fbae8286c9a6141923336556708169a703`; index: `37e6c4f377dbb0b13ec4ba64e4ea68e057b32a01`.
+
+
+## 2026-09-20 — Deterministic pooled-route cleanup
+- Normalized `Kaioken` and `Meditation` to their explicit Parallel Quest sources already stated by their unlock methods.
+- Corrected `Fighting Pose K` from `quest_or_mission` to `skill_shop`: its recorded route explicitly says the story unlocks the listing and the skill is purchased from the Skill Shop.
+- No unsupported probabilities, UF gates, or reward semantics were introduced.
+- Canonical: `3dc2c0200bc23ee1bbf2d159722653f15d9afdad`; index: `c7461142afa2ddc9d7918e3e4f7db3e31713c158`.
