@@ -5419,6 +5419,14 @@
       "skill_ids": [
         "skill-fierce-fist",
         "skill-demonic-destruction"
+      ],
+      "super_soul_ids": [
+        "super-soul-120",
+        "super-soul-121"
+      ],
+      "super_soul_rewards": [
+        "Enter the hero!",
+        "The Red Ribbon Army is back in business!"
       ]
     },
     {
