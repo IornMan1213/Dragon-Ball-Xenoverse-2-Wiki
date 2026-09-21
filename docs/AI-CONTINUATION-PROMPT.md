@@ -4262,3 +4262,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Deliberately did not duplicate the full canonical schema's enum/value validation; the workflow's existing final JSON Schema validator remains authoritative for field values and conditional constraints.
 - Commit: `3a4be166c51edcf7e9e5c1fb52a1ec3b9c851e80` — Validate skill merge key fields.
 - Next task: audit local research-batch loading and metadata propagation, especially `batch_id` / `research_status` types and whether batch metadata can accidentally overwrite protected record fields.
+
+## 2026-09-21 continuation — research batch metadata validation
+- Audited local research-batch loading in `load_local_batches()`.
+- Added validation requiring `batch_id` to be a non-empty string and `research_status` to be one of the canonical status values before records are imported.
+- Batch metadata is captured in local variables before record processing; record-level `research_status` remains authoritative when explicitly supplied, while batch metadata only supplies the default.
+- Repository search found no indexed `skill-batch-`, `skills-batch-`, or `batch_id` records, so no concrete batch corpus was available to validate beyond the loader contract.
+- Commit: `2434881a9a628b2c6c67a65c665d5431a4a4737e` — Validate local research batch metadata.
+- Next task: audit the special `research_batch` field itself: it is injected into records but is not present in the canonical schema and may be emitted unless stripped by merge/output logic. Determine whether this is intentional internal metadata or a schema violation, and fix the lifecycle accordingly.
