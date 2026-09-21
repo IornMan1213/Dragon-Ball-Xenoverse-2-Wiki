@@ -4674,3 +4674,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: workflow/status inspection was not exposed by the repository connector for this cycle; **no CI success claimed**. Validators were not weakened.
 - Commit: `971ae7a1bdf30adbdfe1417c2e6ff3d26dc599b1`.
 - Exact next batch: **recompute the live skill-index projection census and select the next highest-impact deterministic mismatch family**, without regenerating unrelated fields or reopening clean `mechanics_notes` parity.
+
+### 2026-09-21 — Skill-index notes projection parity
+
+- Live census before editing: **429 canonical skills / 429 skill-index records**.
+- Bounded deterministic batch: **4 notes projections** — God Splitter, Heavenly Arrow, Instant Severance, and Time Skip/Tremor Pulse.
+- Evidence: canonical docs/data/skills.json is the producer for these projected notes; each canonical record already contains the 2026-09-21 mentor/DLC provenance refinement.
+- Changes: synchronized only the four matching notes values in docs/data/skills-index.json. No acquisition route, mechanics, restriction, DLC value, or mentor relationship semantics were changed.
+- Validation: both skill JSON layers parse; **429/429** records remain; targeted notes parity is now **0 mismatches**; changed index contains **0 internal AI/UI/search citation artifacts**.
+- Evidence limits: this is deterministic cross-layer projection correction, not a new external verification event. The next live projection census must identify the next bounded mismatch family rather than reopening clean families.
+- CI: no actionable workflow/status result exposed; **no CI success claimed**. Validators were not weakened.
+- Commit: 98c45349ef019a3af1374ae08c03ade06730d0f3.
+- Exact next batch: **recompute the full skill-index projection census and select the next highest-impact deterministic mismatch family; preserve clean last_verified, source_parallel_quests, sources, notes, and mechanics_notes parity.**
+
