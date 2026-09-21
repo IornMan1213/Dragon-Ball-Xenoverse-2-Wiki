@@ -155,8 +155,9 @@ def build_record(d,p):
  if d.get('mechanics'):r['mechanics']=str(d['mechanics'])
  if d.get('summary'):r.setdefault('skill_description',str(d['summary']))
  if d.get('lastVerified'):r['last_verified']=str(d['lastVerified'])
+ elif re.fullmatch(r'\\d{4}-\\d{2}-\\d{2}',str(d.get('asOfDate',''))):r['last_verified']=str(d['asOfDate'])
  r['acquisition_type']=classify_acquisition(d)
- if d.get('confidence'):r['research_status']='enriched'
+ if d.get('confidence') in ('confirmed','datamined','community'):r['research_status']='enriched'
  return r
 def main():
  if not RESEARCH.exists():raise SystemExit('Structured research corpus is missing.')
