@@ -1322,3 +1322,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Post-write target validation: **428 canonical skill records / 0 duplicate IDs / 8 Ultra Pack 2 skill records / 0 PQ138–142 DLC mismatches**.
 - [x] CI remains unclaimed unless GitHub exposes an actual workflow run/check.
 - [ ] Next provenance batch: fresh live DLC-label/source-relationship census outside Ultra Pack 2, selecting the next deterministic cluster and preserving intentional composite/platform-dependent values.
+
+
+### 2026-09-21 — Master ledger completion marking: Legendary Pack 1 skill provenance census
+- [x] Audited all **6 canonical Legendary Pack 1 skills**: Burning Shot, Destructive Fission, Destructive Flare, Destructive Fracture, Hyper Tornado, and Thunder Flash.
+- [x] Official Bandai Namco documentation confirms Legendary Pack 1 contains 4 Parallel Quests and 6 additional moves; the live canonical source-PQ relationships map the six skills to PQ143–146.
+- [x] Live census found **0 DLC mismatches**: all six records carry `dlc_requirement=Legendary Pack 1` and source PQ143–146.
+- [x] Canonical changes were limited to `last_verified=2026-09-21` and bounded provenance notes; no acquisition, mechanics, cost, restriction, or reward-tier field was changed.
+- [x] Post-write validation target: **428 canonical skill records / 0 duplicate IDs / 6 Legendary Pack 1 skill records in PQ143–146 / 0 DLC mismatches**.
+- [x] CI success remains unclaimed unless GitHub exposes an actual workflow run/check.
+- [ ] Next provenance batch: fresh live DLC-label/source-relationship census beyond Legendary Pack 1.
