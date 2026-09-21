@@ -620,3 +620,82 @@ The wiki is **not** complete until all of these are true:
 - [ ] No broken navigation remains.
 - [ ] Coverage dashboards show no unexplained gaps.
 - [ ] “Verified” means actually verified—not merely indexed.
+
+
+---
+
+# 28. Live continuation synchronization — 2026-09-21
+
+> **Authoritative handoff linkage:** This section is the live TODO state that must be kept synchronized with `docs/AI-CONTINUATION-PROMPT.md`. Historical checklist sections above are preserved; when they contain stale counts or broad campaign labels, this live section takes precedence for current-cycle execution.
+
+## 28.1 Current canonical skill state
+
+- [~] Canonical skill manifest: **428 records**.
+- [x] Duplicate skill IDs: **0**.
+- [~] Nullable canonical `ki_cost`: **18 records**.
+- [~] Current bounded Ki-cost verification campaign is active and has reduced the nullable count from the earlier live baseline of 74 to 18 through evidence-backed batches.
+- [x] Variable-cost values encountered in this campaign are preserved rather than flattened (for example, Energy Dome `up to 320`, One-Handed Kamehameha mk.II `400-600`, Grand Smasher `300-400`, and Break Cannon `300+`).
+- [~] Remaining nullable `ki_cost` records are an explicit research queue, not assumed errors.
+
+## 28.2 Completed Ki-cost verification frontier
+
+The following bounded mentor/resource-cost batches are recorded in the continuation handoff and coverage audit:
+
+- [x] Evil Explosion / Super Explosive Wave / Light Grenade / Special Beam Cannon / Dodon Ray / Volleyball Fist / Tri-Beam / Neo Tri-Beam.
+- [x] Fake Death / Wolf Fang Fist / Ki Blast Thrust / Spirit Ball / Bomber DX / Arm Crash / Genocide Shell / Break Cannon.
+- [x] Raditz mentor batch.
+- [x] Zarbon mentor batch.
+- [x] Dodoria mentor batch.
+- [x] Frieza mentor batch.
+- [x] Cooler mentor batch.
+- [x] Majin Buu mentor batch.
+- [x] Beerus mentor batch.
+- [x] Lord Slug mentor batch.
+- [x] Whis mentor batch.
+- [x] Broly mentor batch.
+- [x] Android 16 mentor batch.
+- [x] Future Gohan mentor batch.
+- [x] Bojack mentor batch.
+- [x] Zamasu mentor batch.
+- [x] Brutal Buster resource-cost verification.
+
+## 28.3 Immediate live research queue
+
+- [ ] Recompute the nullable `ki_cost` census before every bounded batch.
+- [ ] Research the next unresolved skill/family using explicit current `Ki Used` evidence where available.
+- [ ] Preserve `null` when evidence is insufficient or conflicting.
+- [ ] Preserve fixed, zero, and variable/range costs distinctly.
+- [ ] Refresh `last_verified` only for records actually verified in the batch.
+- [ ] Validate 428 canonical records and 0 duplicate IDs after every canonical write.
+- [ ] Inspect CI/status without claiming success when GitHub exposes no run/check.
+- [ ] Keep `docs/AI-CONTINUATION-PROMPT.md`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this live TODO state synchronized at the end of each cycle.
+
+## 28.4 Current unresolved `ki_cost` records
+
+As of the 2026-09-21 live census, the remaining nullable records are:
+
+- [ ] Brutal Buster — resolved in the current cycle; remove from future unresolved census.
+- [ ] Dimension Cannon
+- [ ] Evil Ray Strike
+- [ ] Evil Rise Strike
+- [ ] Explosive Assault
+- [ ] Finish Breaker
+- [ ] Flash Strike
+- [ ] Final Flash
+- [ ] Time Skip/Tremor Pulse
+- [ ] Orin Combo
+- [ ] Scatter Kamehameha
+- [ ] Giant Storm
+- [ ] Angry Explosion
+- [ ] Dead End Rain
+- [ ] God of Destruction's Might
+- [ ] Meteor Crash
+- [ ] Fighting Pose C
+- [ ] Psycho Escape
+- [ ] Kaioken Kamehameha
+
+**Correction:** Brutal Buster is **not** part of the remaining nullable census; its checkbox above is retained only as a completed-cycle trace. The authoritative unresolved count is **18**, matching `docs/data/skills.json`.
+
+## 28.5 Synchronization rule
+
+When the continuation handoff advances a research frontier, update this live TODO section in the same cycle. Do not rely on historical checklist labels or old category totals to determine the next action. The next chat should begin from the live canonical census and this section, then reconcile any discrepancy before editing data.
