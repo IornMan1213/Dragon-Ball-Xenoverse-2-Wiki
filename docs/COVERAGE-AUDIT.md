@@ -4697,3 +4697,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no actionable workflow/status result exposed; no CI success claimed. Validators were not weakened.
 - Commits: 3d9dad9d3547851ebb5f7ee0348e5772f49d72e4 (canonical), 2ae7157f5b9f09681b91d2b33c15643b61a2ad68 (index).
 - Exact next batch: recompute the live canonical skill census and audit the three remaining nullable race_restriction records: Blaster Stream, Chaotic Time Impact, and Circle Flash. Preserve null when evidence does not establish CaC scope.
+
+### 2026-09-21 — Nullable CaC race-scope audit
+
+- Live census before editing: **428 canonical skills / 428 skill-index records; 0 duplicate IDs**.
+- Bounded batch: **Blaster Stream, Chaotic Time Impact, Circle Flash** — the three remaining nullable `race_restriction` skill records.
+- Repository-first research: inspected each canonical record and its existing skill/PQ source set. All three explicitly establish `usable_by_cac: true`, while their existing evidence does not establish a narrower CaC race/gender/form restriction.
+- Changes: no `race_restriction` value was invented or broadened. Added an explicit 2026-09-21 evidence-boundary note to the three canonical records and synchronized the generated/index projection notes.
+- Validation: **428/428** records; **0 duplicate IDs**; full audited canonical-to-index projection parity **0 mismatches**; nullable race scope remains exactly these three records; no internal AI/UI/search citation artifacts were introduced.
+- Evidence limits: CaC usability is established, but absence of a narrower restriction in the inspected evidence is not proof of universal all-race availability. `null` is intentionally preserved.
+- CI: no actionable workflow/status result exposed; **no CI success claimed**.
+- Commits: `df3923a6062e3fdaea5ab7cfa56469628f6ca0c0` (canonical), `8795de7ec345236c4b9afc3d0145f612d55c097e` (index).
+- Live census after editing: **428/428**, with **3 nullable `race_restriction` records** unchanged in value.
+- Exact next batch: **recompute the live unresolved-field census and select the next highest-impact bounded family, prioritizing deterministic canonical/index or validator mismatches before speculative enrichment.**
