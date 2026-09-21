@@ -1199,7 +1199,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 
 ### 2026-09-21 — Master ledger completion marking: Divine Kamehameha DLC/update provenance
 - [x] **Divine Kamehameha provenance normalized.** Canonical `dlc_requirement` changed from `Free Update 1.14-era distribution / TP Medal Shop` to **Free Update 1.14**, separating the originating free update from the acquisition channel.
-- [x] Evidence: current Divine Kamehameha references identify the move as part of the **1.14.00 Update DLC/free-update era** and state that the Future Warrior obtains it from the TP Medal Shop. The dedicated Xenoverse 2 skill page independently confirms TP Medal Shop unlock and the 200 Ki cost. citeturn1search0turn0search1
+- [x] Evidence: current Divine Kamehameha references identify the move as part of the **1.14.00 Update DLC/free-update era** and state that the Future Warrior obtains it from the TP Medal Shop. The dedicated Xenoverse 2 skill page independently confirms TP Medal Shop unlock and the 200 Ki cost. Sources consulted: Dragon Ball Wiki's Divine Kamehameha reference and the maintained Xenoverse 2 skill reference.
 - [x] Preserved `unlock_method=TP Medal Shop`, `source_quest_or_shop=TP Medal Shop`, acquisition type, Ki cost, mechanics, restrictions, and existing source URLs. The shop/rotation detail remains acquisition context rather than a paid-DLC requirement.
 - [x] Post-write canonical validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; the former composite Divine Kamehameha label has 0 records.
 - [x] No generated/index field was invented because `dlc_requirement` is not represented in `docs/data/skills-index.json`.
