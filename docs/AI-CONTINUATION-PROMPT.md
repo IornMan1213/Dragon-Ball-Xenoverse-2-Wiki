@@ -4384,7 +4384,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Returned to the active P1 skill acquisition/DLC-version provenance cleanup after the generated-artifact audit found no further concrete projection contradiction.
 - Audited the canonical DLC labels against the actual acquisition provenance for charge skills. Found a concrete metadata error: `Burst Charge` and `Ultimate Charge` are obtained from Parallel Quest 134, which belongs to Ultra Pack 1 (DLC 9), but both canonical records were labeled `Extra Pack-era DLC`.
 - Corrected `docs/data/skills.json` and the deterministic `docs/data/skills-index.json` projection to `Ultra Pack 1`, and added the maintained DLC-category source to both records' provenance.
-- External verification: the official Bandai Namco DLC catalog distinguishes the Ultra Pack Set, while current DLC documentation identifies Ultra Pack 1 as DLC 9 and lists PQ 134 plus Burst Charge and Ultimate Charge. citeturn0search3turn2search1
+- External verification: the official Bandai Namco DLC catalog distinguishes the Ultra Pack Set, while current DLC documentation identifies Ultra Pack 1 as DLC 9 and lists PQ 134 plus Burst Charge and Ultimate Charge.
 - Commit: `ca500d373b4b56a2cead41199c439171c54a05cc` (PR #43, merged to `main`).
 - Validation limitation: the GitHub connector still exposes no actionable CI workflow/status result, and it does not provide a local Python runtime. The canonical/index records were structurally synchronized by inspection; no passing CI result is claimed.
 - Exact next task: continue auditing remaining non-standard `dlc_requirement` values in the 283-skill catalog for provenance mistakes rather than normalization-only differences. Prioritize values that combine multiple DLCs, describe distribution/update-era routes instead of content origin, or conflict with the skill's documented source quest and external DLC identity. Preserve unresolved distinctions rather than inferring them.
@@ -4574,16 +4574,16 @@ Only after data-completeness work, expose the improved structured research surfa
 
 ### 2026-09-21 cycle update — PQ accessory identity reconciliation batch 5
 - Bounded batch completed: **Android 15's Sunglasses** and **Android 17 (DB Super)'s Ranger Accessory**.
-- Android 15: added canonical `accr-105` = **Android 15's Shades & Hat**. Current equipment references explicitly identify this as a single accessory available from the TP Medal Shop; the research label 'Sunglasses' is preserved as an alias/component description. citeturn2search0turn2search1
-- Android 17: linked `pqacc-029` to existing `accr-029` = **Android 17 (DB Super) Wig** as a component/research alias. PQ152 reward evidence explicitly lists the wig. No duplicate inventory record was created. citeturn1search4turn1search1
-- Android 14's Hat and Bardock (DB Super)'s Scouter remain unresolved. PQ104 evidence lists Android 14's Clothes; PQ146 evidence lists Bardock (DB Super)'s Clothes, so neither PQ route proves the requested accessory identity. citeturn1search0turn1search7
+- Android 15: added canonical `accr-105` = **Android 15's Shades & Hat**. Current equipment references explicitly identify this as a single accessory available from the TP Medal Shop; the research label 'Sunglasses' is preserved as an alias/component description.
+- Android 17: linked `pqacc-029` to existing `accr-029` = **Android 17 (DB Super) Wig** as a component/research alias. PQ152 reward evidence explicitly lists the wig. No duplicate inventory record was created.
+- Android 14's Hat and Bardock (DB Super)'s Scouter remain unresolved. PQ104 evidence lists Android 14's Clothes; PQ146 evidence lists Bardock (DB Super)'s Clothes, so neither PQ route proves the requested accessory identity.
 - Validation: all three accessory JSON layers re-fetched and parsed successfully. Live counts: **105 canonical accessory identities / 43 matched PQ accessory research records / 2 unresolved identities**. Bridge summary matches computed counts.
 - Exact next batch: investigate **Android 14's Hat (PQ104)** and **Bardock (DB Super)'s Scouter (PQ146)** with exact inventory-name and shop/PQ evidence. If no direct evidence exists, preserve them unresolved rather than mapping them to clothes.
 
 
 ### 2026-09-21 cycle update — accessory identity final unresolved pass
 - Researched the final two unresolved accessory labels: **Android 14's Hat (PQ104)** and **Bardock (DB Super)'s Scouter (PQ146)**.
-- Evidence confirms PQ104's documented reward is **Android 14's Clothes**, and PQ146's documented reward is **Bardock (DB Super)'s Clothes**. Current equipment references do not establish separate exact canonical accessory identities for the two research labels. citeturn0search1turn0search2
+- Evidence confirms PQ104's documented reward is **Android 14's Clothes**, and PQ146's documented reward is **Bardock (DB Super)'s Clothes**. Current equipment references do not establish separate exact canonical accessory identities for the two research labels.
 - Both records are now explicitly marked `researched_unresolved` with evidence notes. No clothing-to-accessory merge was performed.
 - Validation: accessory canonical reconciliation remains **105 records**; bridge remains **45 PQ records / 43 matched / 2 researched-unresolved**; cross-link report regenerated successfully.
 - This closes the current accessory PQ identity reconciliation queue without fabricating unsupported canonical identities.
@@ -4699,7 +4699,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — Namekian and Future Saga acquisition endpoints
 - Live census before editing: **305 skills / 305 skill-index records / 5 Time Rift endpoints / 1 Unknown History endpoint**.
 - Bounded batch: **Become Giant** and **The Power to Overcome**.
-- Research/evidence: Become Giant's current external references identify Guru's House / Namekian Awakening as its acquisition endpoint and distinguish the required Namekian progression from the transformation itself. citeturn0search0turn0search11turn0search3 The Power to Overcome is tied to Future Saga Chapter 4 and Quest 31, Ultimate All-Out Showdown; current 2026 guide evidence identifies the final mission as the unlock point and the Chapter 4 DLC as required. citeturn0search8turn0youtube18
+- Research/evidence: Become Giant's current external references identify Guru's House / Namekian Awakening as its acquisition endpoint and distinguish the required Namekian progression from the transformation itself. The Power to Overcome is tied to Future Saga Chapter 4 and Quest 31, Ultimate All-Out Showdown; current 2026 guide evidence identifies the final mission as the unlock point and the Chapter 4 DLC as required.
 - Changes: added `source_time_rifts` to Become Giant; created `future-saga-story-record-layer.json`; linked The Power to Overcome to `story-future-saga-chapter-4-quest-31`; formalized the story-mission domain in the expansion contract; updated the bidirectional cross-link report.
 - Evidence limits/conflicts preserved: no unverified mission-number claims were added for older Time Rift routes; The Power to Overcome's mechanics already contain conflicting measured values in the canonical skill record, and those conflicts remain unresolved rather than being flattened.
 - Validation: **305/305 canonical/index parity preserved; 0 broken relationship endpoints; 2 target skill relationship projections match; 0 citation artifacts in changed canonical JSON; 5 Time Rifts + 2 story-mission endpoints; cross-link report now has 11 Time Rift→skill edges and 2 story-skill edges**.
@@ -4710,13 +4710,13 @@ Only after data-completeness work, expose the improved structured research surfa
 
 
 ### 2026-09-21 cycle update — Future Saga Chapter 4 PQ ↔ skill graph completion
-- Researched the remaining Chapter 4 skills already present in canonical data: **Dragon Spiral, Indomitable, and Venus Fist**. Current repository PQ records place Dragon Spiral + Indomitable in PQ185 (A God's Amusement) and Venus Fist in PQ186 (Frieza's Right-Hand Man); current Chapter 4 documentation confirms the DLC contains two Parallel Quests and four new moves including one Awoken Skill. citeturn0search0turn0search1turn0search2
+- Researched the remaining Chapter 4 skills already present in canonical data: **Dragon Spiral, Indomitable, and Venus Fist**. Current repository PQ records place Dragon Spiral + Indomitable in PQ185 (A God's Amusement) and Venus Fist in PQ186 (Frieza's Right-Hand Man); current Chapter 4 documentation confirms the DLC contains two Parallel Quests and four new moves including one Awoken Skill.
 - Added deterministic `skill_ids` to PQ185/PQ186, `source_parallel_quests` to the three skill records and skill index, and explicit Chapter 4 `skill_relationships`/PQ references in `future-saga-story-record-layer.json`.
 - Expanded `record-expansion-contract.json` with PQ `skill_ids` and skill `source_parallel_quests` cross-domain fields.
 - Expanded `time-rift-skill-crosslink-report.json` with **2 PQ endpoints / 3 PQ→skill edges**.
 - Validation: **305 skills / 305 index records / 186 PQ records / 4 Chapter 4 story-linked skills / 0 broken endpoints / 3 edited skill/index parity checks passed / 0 citation artifacts in canonical JSON**.
 - Exact relationship graph now lets a user traverse **Future Saga Chapter 4 → Quest 31 → The Power to Overcome**, and **Future Saga Chapter 4 → PQ185/PQ186 → individual skills**, while each skill resolves back to its source PQ and Chapter 4 story endpoint.
-- Evidence boundary: the canonical PQ records already distinguish Basic Reward from Ultimate Finish conditions. No new Ultimate Finish requirement or drop probability was inferred here. Current official DLC material confirms Chapter 4's content scope, while the maintained repository reward records supply the exact skill-to-PQ mapping. citeturn0search0turn0search1
+- Evidence boundary: the canonical PQ records already distinguish Basic Reward from Ultimate Finish conditions. No new Ultimate Finish requirement or drop probability was inferred here. Current official DLC material confirms Chapter 4's content scope, while the maintained repository reward records supply the exact skill-to-PQ mapping.
 - Exact next batch: **audit the broader PQ ↔ skill graph for orphaned `source_quest` skills and PQ `skill_rewards`, starting with the newest DLC/PQ records, and repair deterministic reverse links in larger batches without changing acquisition facts.**
 
 
@@ -4730,7 +4730,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: **305/305 skills-index parity; 186 PQ endpoints valid; 0 broken relationship endpoints; 0 unresolved reward names; 0 canonical citation artifacts in changed JSON**.
 - CI: commit-associated combined status and workflow-run lookup exposed **no statuses/runs** for the direct data commit; no CI success is claimed.
 - Commits: `fd8410b` (PQ skill IDs), `155f0e8` (skill reverse links), `e746d3c` (skill index), `11015fa` (cross-link report).
-- External/current repository research supports treating PQ reward tables as the primary relationship evidence and confirms PQs are the game's main skill-farming relationship layer. citeturn0search3turn0search5turn0search6
+- External/current repository research supports treating PQ reward tables as the primary relationship evidence and confirms PQs are the game's main skill-farming relationship layer.
 - Exact next batch: **audit the remaining 71 skills without `source_parallel_quests` by acquisition type, separating non-PQ sources (mentor, shop, Time Rift, story, Advancement Test) from genuinely missing PQ reverse links; then repair only evidence-backed missing routes.**
 
 
@@ -4740,7 +4740,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Created `docs/data/skill-acquisition-coverage-report.json` to persist this classification and explicitly prevent non-PQ acquisition sources from being forced into the PQ graph.
 - Important architecture finding: the repository currently has **no canonical mentor or Expert Mission record layer** discoverable in the live data tree. Therefore mentor/expert skills retain their textual acquisition facts instead of receiving guessed IDs. This follows the repository null/provenance policy.
 - No canonical acquisition facts were changed in this cycle; the output is a coverage/audit layer identifying the next schema expansion targets.
-- External corroboration: PQs are a major skill source, but rewards can also come from other acquisition systems, so the audit deliberately keeps those systems separate. citeturn0search0turn0search3
+- External corroboration: PQs are a major skill source, but rewards can also come from other acquisition systems, so the audit deliberately keeps those systems separate.
 - Validation target for next cycle: build the missing **mentor record layer** first, because 17 direct mentor-training skills plus 3 mentor-like Awoken routes are currently blocked from deterministic bidirectional mentor ↔ skill navigation; then build Expert Mission endpoints for the 3 EM-sourced skills.
 - Exact next batch: **create the canonical mentor record layer and connect the 17 direct mentor-training skills in larger deterministic batches, starting with mentors whose skills are already fully named in canonical skill data; then add Expert Mission records.**
 
@@ -4752,7 +4752,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Extended `docs/data/record-expansion-contract.json` so `source_mentor` is an explicit skill cross-domain field.
 - Created `docs/data/mentor-skill-crosslink-report.json` with the 16 deterministic forward edges and unresolved-edge tracking.
 - Validation: **33 mentors, 11 mentors with linked skills, 16 mentor→skill edges, 16 skills with mentor reverse sources, 0 broken mentor endpoints, skill-index mentor parity = true**.
-- External mentor references corroborate that mentors teach signature skills through initiation/lesson progression; official Bandai Namco documentation confirms the mentor system teaches character moves. citeturn0search4turn0search3
+- External mentor references corroborate that mentors teach signature skills through initiation/lesson progression; official Bandai Namco documentation confirms the mentor system teaches character moves.
 - The previous coverage audit's mentor count is now refined from 17 directly verified routes to **16**, because only 16 canonical skill records currently contain an exact mentor-training route that could be deterministically linked without guessing.
 - Exact next batch: **finish the remaining mentor acquisition mappings by auditing the existing 33 mentor identities against all skill records, then create the Expert Mission record layer for the 3 EM-linked skills (Data Input, Super Spirit Bomb, Supernova).**
 
@@ -4772,7 +4772,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — five-mentor canonical skill expansion
 - Bounded batch completed: **Piccolo, Tien, Yamcha, Nappa, and Raditz**. Added all 20 named mentor lesson rewards to the canonical skill database with explicit mentor provenance and acquisition routes, then wired the mentor records to the new skill IDs.
 - Live result: **325 canonical skills / 325 skill-index records / 36 verified mentor lesson→skill edges / 93 unresolved mentor lesson endpoints**. The five targeted mentors are now fully linked across all 20 lessons.
-- Evidence: current mentor references document the exact four rewards for Piccolo, Tien, Yamcha, Nappa, and Raditz; the GameFAQs mentor list independently corroborates the same lesson sequences. citeturn0search1turn0search3turn0search8
+- Evidence: current mentor references document the exact four rewards for Piccolo, Tien, Yamcha, Nappa, and Raditz; the GameFAQs mentor list independently corroborates the same lesson sequences.
 - Changes: `skills.json` +20 canonical records; `skills-index.json` +20 index records; `mentors-record-layer.json` +20 deterministic skill IDs; refreshed `mentor-skill-coverage-report.json`.
 - Mechanics boundary: the new records establish acquisition identity/provenance and deliberately defer detailed combat mechanics until separately evidenced. No damage, stamina, ki-cost, drop-rate, or Ultimate-Finish facts were invented.
 - Validation target: next cycle should recompute category counts/index parity and then expand the next bounded mentor group (Zarbon, Dodoria, Captain Ginyu, Frieza 1st Form, and Cooler Final Form), while preserving bidirectional mentor↔skill navigation.
@@ -4801,7 +4801,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — Buu/Hercule/Gohan-Videl/Gotenks expansion
 - Live census before editing: **343 canonical skills / 343 index records / 33 mentors / 129 lesson entries / 54 linked mentor edges**.
 - Bounded batch: **16 lesson endpoints across Majin Buu, Hercule, Gohan (Adult) and Videl, and Gotenks**.
-- Research/evidence: current mentor documentation and independent mentor guides corroborate the exact reward identities and classifications: Majin Buu (Innocence Bullet, Angry Hit, Innocence Cannon, Innocence Breath), Hercule (Dynamite Kick, Present For You, Rolling Hercule Punch, The Savior Has Come), Gohan/Videl (Eagle Kick, Justice Rush, Hawk Charge, Justice Combination), and Gotenks (Super Ghost Kamikaze Attack, Galactic Donuts, DIE DIE Missile Barrage, Super Ghost Kamikaze Attack Ultimate). citeturn1search1turn1search6turn1search13
+- Research/evidence: current mentor documentation and independent mentor guides corroborate the exact reward identities and classifications: Majin Buu (Innocence Bullet, Angry Hit, Innocence Cannon, Innocence Breath), Hercule (Dynamite Kick, Present For You, Rolling Hercule Punch, The Savior Has Come), Gohan/Videl (Eagle Kick, Justice Rush, Hawk Charge, Justice Combination), and Gotenks (Super Ghost Kamikaze Attack, Galactic Donuts, DIE DIE Missile Barrage, Super Ghost Kamikaze Attack Ultimate).
 - Changes: **16 new canonical skills** added to `skills.json`, mirrored to `skills-index.json`, and all 16 mentor lesson endpoints linked in `mentors-record-layer.json`; coverage report refreshed.
 - Evidence limits preserved: acquisition/classification is documented; detailed damage, costs, drop rates, and mechanics remain deferred rather than inferred.
 - Validation: **359 skills / 359 index records / 70 linked mentor edges / 59 unresolved endpoints**; **0 broken mentor→skill endpoints, 0 missing index records, 0 reverse mentor-source mismatches**, and category counts sum to 359.
@@ -4822,7 +4822,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — Android 18/Cell/Lord Slug expansion
 - Live census before editing: **359 canonical skills / 359 index records / 33 mentors / 129 lesson entries / 70 linked mentor edges**.
 - Bounded batch: **12 lesson endpoints across Android 18, Cell (Perfect), and Lord Slug**. Added **9 new canonical skills** and reused **3 existing canonical skills** (Deadly Dance, Perfect Shot, Darkness Rush (Ranged)).
-- Research/evidence: current mentor documentation and independent mentor lists establish the exact lesson rewards and classifications. Android 18: Power Blitz, Endless Shoot, Deadly Dance, Dual Destructo-Disc; Cell (Perfect): All Clear, Gravity Impact, Perfect Shot, Perfect Kamehameha; Lord Slug: Evil Eyes, Darkness Eye Beam, Darkness Twin Star, Darkness Rush (Ranged/Melee). citeturn0search0turn0search1turn0search5
+- Research/evidence: current mentor documentation and independent mentor lists establish the exact lesson rewards and classifications. Android 18: Power Blitz, Endless Shoot, Deadly Dance, Dual Destructo-Disc; Cell (Perfect): All Clear, Gravity Impact, Perfect Shot, Perfect Kamehameha; Lord Slug: Evil Eyes, Darkness Eye Beam, Darkness Twin Star, Darkness Rush (Ranged/Melee).
 - Changes: canonical skills/index and mentor relationships updated; coverage report refreshed.
 - Evidence limits preserved: acquisition/classification only; detailed mechanics, costs, damage, drop rates, and Ultimate-Finish conditions remain deferred unless directly evidenced.
 - Validation: **368 skills / 368 index records / 79 linked mentor edges / 50 unresolved endpoints**; **0 broken endpoints, 0 missing index records, 0 reverse-source mismatches**; category total **368**.
@@ -4834,7 +4834,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — Turles/Broly/Beerus/Whis expansion
 - Bounded batch: **16 lesson endpoints across Turles, Broly, God of Destruction Beerus, and Whis**.
 - Added **16 new canonical skill records** and mirrored all 16 into the skill index; all 16 mentor lesson endpoints now have stable skill IDs.
-- Evidence: mentor reward lists corroborate exact lesson order and classifications, including Turles (Sudden Storm, Kill Driver, Fruit of the Tree of Might, Meteor Burst), Broly (Blaster Shell, Blaster Meteor, Gigantic Omega, Gigantic Meteor), Beerus (God of Destruction's Anger, Rampage, Wrath, Sphere of Destruction), and Whis (Finishing Blow, Prelude to Destruction, Strike of Revelation, Symphonic Destruction). citeturn0search2turn0search5turn0search8turn0search13
+- Evidence: mentor reward lists corroborate exact lesson order and classifications, including Turles (Sudden Storm, Kill Driver, Fruit of the Tree of Might, Meteor Burst), Broly (Blaster Shell, Blaster Meteor, Gigantic Omega, Gigantic Meteor), Beerus (God of Destruction's Anger, Rampage, Wrath, Sphere of Destruction), and Whis (Finishing Blow, Prelude to Destruction, Strike of Revelation, Symphonic Destruction).
 - Validation: **384 skills / 384 index records / 95 linked mentor edges / 34 unresolved endpoints**; **0 broken endpoints, 0 missing index records, 0 reverse-source mismatches**, taxonomy total **384**.
 - Evidence limits preserved: acquisition/classification only; detailed mechanics and conditional requirements remain deferred unless directly evidenced.
 - CI: no workflow status was exposed; no CI success is claimed.
@@ -5444,7 +5444,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — Captain Ginyu mentor skill Ki-cost verification
 - Live canonical skill census before editing: **428 records; 74 nullable `ki_cost` records**.
 - Bounded batch completed: **Fighting Pose F (0), Fighting Pose A (0), Milky Cannon (100), Body Change (300)**.
-- Evidence: current Xenoverse 2 skill references explicitly expose those Ki-used values. citeturn1search1turn1search2turn1search4turn1search0
+- Evidence: current Xenoverse 2 skill references explicitly expose those Ki-used values.
 - Changes were limited to canonical `ki_cost` plus `last_verified=2026-09-21`; no mechanics or acquisition semantics were inferred.
 - Expected post-edit census: **428/428 records, 0 duplicate IDs, 70 nullable `ki_cost` records**. No index Ki-cost projection was introduced.
 - CI: no success claimed without an actionable exposed run.
@@ -5455,7 +5455,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — Hercule mentor skill Ki-cost verification
 - Live canonical skill census before editing: **428 records; 70 nullable `ki_cost` records**.
 - Bounded batch completed: **Dynamite Kick (100), Present For You (100), Rolling Hercule Punch (100), The Savior Has Come (300)**.
-- Evidence: current Xenoverse 2 skill references explicitly expose those Ki-used values. citeturn1search0turn1search4turn1search1turn1search3
+- Evidence: current Xenoverse 2 skill references explicitly expose those Ki-used values.
 - Changes were limited to canonical `ki_cost` plus `last_verified=2026-09-21`; no mechanics or acquisition semantics were inferred.
 - Expected post-edit census: **428/428 records, 0 duplicate IDs, 66 nullable `ki_cost` records**. No index Ki-cost projection was introduced.
 - CI: no success claimed without an actionable exposed run.
@@ -5472,4 +5472,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Expected post-edit census: **428/428 records, 0 duplicate IDs, 62 nullable `ki_cost` records**. No index Ki-cost projection introduced.
 - CI: no success claimed without an actionable exposed run.
 - Commit: `00b02fc53fc13586ecbfcd730c1321c24dafad50`.
+- Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+
+### 2026-09-21 — Gotenks mentor skill Ki-cost verification
+
+- Live canonical skill census before editing: **428 records; 62 nullable `ki_cost` records**.
+- Bounded batch: **Super Ghost Kamikaze Attack (Super) (100), Galactic Donuts (100), DIE DIE Missile Barrage (100), Super Ghost Kamikaze Attack (Ultimate) (300)**.
+- Current Xenoverse 2 skill references explicitly document these Ki-used values. citeturn1search0turn1search4turn1search1turn1search2
+- Changes were limited to canonical `ki_cost` plus `last_verified=2026-09-21`; the Super and Ultimate variants were kept as separate canonical records.
+- Expected post-edit census: **428/428 records, 0 duplicate IDs, 58 nullable `ki_cost` records**. No index Ki-cost projection introduced.
+- CI: no success claimed without an actionable exposed run.
+- Commit: `eba3d203462ffbd6798745738e422c690ca282cd`.
 - Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
