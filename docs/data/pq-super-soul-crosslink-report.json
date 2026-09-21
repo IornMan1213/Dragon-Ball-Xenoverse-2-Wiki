@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 82,
+  "canonical_target_records": 90,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -211,6 +211,30 @@
       "target_name": "I will prevail, no matter the cost!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-prevail-no-matter-the-cost.md"
+    },
+    {
+      "pq_id": "pq-149",
+      "pq_number": 149,
+      "target_id": "super-soul-088",
+      "target_name": "Our two strengths aren't just added together.",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/our-two-strengths-arent-just-added-together.md"
+    },
+    {
+      "pq_id": "pq-147",
+      "pq_number": 147,
+      "target_id": "super-soul-089",
+      "target_name": "It's just me and you now!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/its-just-me-and-you-now.md"
+    },
+    {
+      "pq_id": "pq-148",
+      "pq_number": 148,
+      "target_id": "super-soul-090",
+      "target_name": "My back's getting tingly...!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/my-backs-getting-tingly.md"
     }
   ],
   "reverse_edges": [
@@ -472,6 +496,36 @@
       ],
       "pq_numbers": [
         150
+      ]
+    },
+    {
+      "target_id": "super-soul-088",
+      "target_name": "Our two strengths aren't just added together.",
+      "pq_ids": [
+        "pq-149"
+      ],
+      "pq_numbers": [
+        149
+      ]
+    },
+    {
+      "target_id": "super-soul-089",
+      "target_name": "It's just me and you now!",
+      "pq_ids": [
+        "pq-147"
+      ],
+      "pq_numbers": [
+        147
+      ]
+    },
+    {
+      "target_id": "super-soul-090",
+      "target_name": "My back's getting tingly...!",
+      "pq_ids": [
+        "pq-148"
+      ],
+      "pq_numbers": [
+        148
       ]
     }
   ],
@@ -754,6 +808,31 @@
     {
       "target_id": "super-soul-084",
       "target_name": "Can I attack now?",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-091",
+      "target_name": "Any taller and it would be unnatural!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-092",
+      "target_name": "I think I'm finally warmed up now!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-093",
+      "target_name": "I'm gonna do what I wanna do.",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-094",
+      "target_name": "Your energy is now mine to wield.",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-095",
+      "target_name": "I've got something extra special for you!",
       "reason": "no_explicit_pq_endpoint"
     }
   ]
