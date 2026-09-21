@@ -1359,3 +1359,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Corrected the ledger count: the canonical repository has **11 records** labeled `Conton City Vote Pack`, consisting of **10 additional moves/skills** plus **1 character-specific Supersonic Mode awoken skill**. Official store documentation's “10 Additional Moves” count therefore should not be interpreted as ten total canonical records under the DLC label.
 - [x] The ten additional move records are the PQ151–154 skill set; Supersonic Mode is retained separately as the character-specific transformation record.
 - [x] No canonical provenance field was changed by this correction.
+
+
+### 2026-09-21 — Master ledger completion marking: Hero of Justice Pack 1 provenance census
+- [x] Audited all **7 canonical Hero of Justice Pack 1 additional-move records**: Core Breaker, Gamma Blaster, Gamma Impact, Heroic Assault, Heroic Counter, Shooting Strike, and Super Gamma Blast.
+- [x] Official Bandai Namco/Nintendo documentation confirms **4 new Parallel Quests and 7 additional moves**; maintained PQ evidence identifies PQ155–158 and lists all seven moves.
+- [x] Live canonical census found **0 DLC mismatches**: all seven records carry `dlc_requirement=Hero of Justice Pack 1` and map to PQ155–158.
+- [x] Canonical changes were limited to `last_verified=2026-09-21` and bounded provenance notes; no drop-tier, cost, restriction, or acquisition fields were normalized.
+- [x] Validation target: **428 canonical skill records / 0 duplicate IDs / 7 Hero of Justice Pack 1 PQ-linked move records / 0 DLC mismatches**.
+- [x] CI success remains unclaimed unless GitHub exposes an actual workflow run/check.
+- [ ] Next provenance batch: fresh live DLC-label/source-relationship census beyond Hero of Justice Pack 1.
