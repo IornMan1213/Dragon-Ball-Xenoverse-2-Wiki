@@ -4011,3 +4011,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - No canonical skill records or generated index data were changed.
 - CI still has no workflow run exposed for the validator commits; no CI success is claimed.
 - Next task: inspect remaining hard-coded cross-field taxonomy (`CLASS_SUBCATEGORIES`) against the schema/model and identify whether it should remain validator-only semantic policy or be represented as an explicit schema constraint/documented contract.
+
+
+## 2026-09-21 continuation — class/subcategory schema contract
+- Continued the cross-file taxonomy audit from the prior handoff.
+- Found `CLASS_SUBCATEGORIES` was semantic policy duplicated only in the validator; the JSON Schema separately declared the individual enum values but did not enforce class/subcategory compatibility.
+- Added JSON Schema `allOf` conditional constraints for all six canonical classes: Super, Ultimate, Evasive, Awoken, Counter, and Mixed.
+- Removed the duplicated `CLASS_SUBCATEGORIES` validator constant and its manual compatibility check; schema validation is now the canonical enforcement point while the validator retains higher-level acquisition/provenance semantics.
+- Schema commit: `f94fca2efaa4bc19b75f0c80745fc210667db611`.
+- Validator commit: `c8ee93b8ef9a74a664343325fbeb75ef481ddd8b`.
+- No canonical records or generated index data were changed.
+- Combined GitHub status for the validator commit currently reports no status entries; no CI success is claimed.
+- The persistent handoff was updated in the preceding schema-enum audit and still needs this latest entry appended before the next cycle if the connector permits.
+- Next task: audit the remaining validator-only semantic invariants against the schema for another safe centralization opportunity, while avoiding moving provenance/business rules into JSON Schema where they require cross-field textual interpretation.
