@@ -1529,3 +1529,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved its existing Ultra Pack 2 classification and acquisition semantics.
 - [x] Canonical commit: `d6013a3c9c4656fe95196fdd93e2e32703567a17`.
 - [ ] Next: continue low-source-count / semantically fragile DLC skill provenance census.
+
+
+### 2026-09-21 — Kamehameha source-PQ reconciliation
+- [x] Corrected false PQ48 relationship; PQ48 belongs to Kamekameha, not Kamehameha.
+- [x] Preserved PQ05 Basic Reward acquisition and Base Game provenance.
+- [x] Canonical commit: `48d0d0b7bd17e4f858c565d189feb12e189fba88`.
+- [ ] Next: audit remaining low-source-count records for source-PQ/name conflation.
