@@ -4837,3 +4837,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: inspect workflow status for the latest commit; do not claim CI success unless an actionable successful run is exposed. Validators were not weakened.
 - Commit: `be038934e4bbc9e17995e1712f48ec6f15174b2e`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+
+### 2026-09-21 — Hercule mentor skill Ki-cost verification
+
+- Live canonical skill census before editing: **428 records; 70 nullable `ki_cost` records**.
+- Bounded batch: **Dynamite Kick, Present For You, Rolling Hercule Punch, The Savior Has Come** from Hercule mentor training.
+- Evidence: current Xenoverse 2 skill references explicitly document **100 Ki** for Dynamite Kick, **100 Ki** for Present For You, **100 Ki** for Rolling Hercule Punch, and **300 Ki** for The Savior Has Come. citeturn1search0turn1search4turn1search1turn1search3
+- Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. No mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation target: canonical skills remain **428/428**, duplicate IDs remain **0**, and nullable `ki_cost` count falls to **66**. No skill-index Ki-cost projection introduced.
+- CI: inspect workflow status for the latest commits; do not claim CI success unless an actionable successful run is exposed. Validators were not weakened.
+- Commit: `2fecabd76bd0dbab8ec1017ada0b3587a3e9e194`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
