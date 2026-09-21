@@ -503,3 +503,10 @@
 - Promoted the already source-backed PQ006 relationship into the canonical `super-soul-009` acquisition fields: `Parallel Quest` / `Parallel Quest 06` / `PQ 06 reward`.
 - Preserved uncertainty: no drop percentage or special-drop condition was invented.
 - Refreshed `last_verified` to 2026-09-21 and retained the existing sources while adding the maintained all-PQ reward guide.
+
+
+## 2026-09-21 — Early Super Soul crosslink batch
+- Reconciled canonical Super Souls 002, 004, and 007 against PQ002, PQ005, and PQ007 respectively using exact-name reward matches.
+- Synchronized `parallel-quests-record-layer.json`, `pq-reward-relationships.json`, and `pq-super-soul-crosslink-report.json` in both directions.
+- Normalized the three canonical Super Soul acquisition records to their PQ sources and explicitly preserved uncertainty about exact drop conditions/percentages.
+- No Item Shop records (Super Souls 001, 003, 005, 006, 008) were forced into PQ relationships.
