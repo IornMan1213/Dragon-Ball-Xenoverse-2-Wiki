@@ -4687,3 +4687,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Commit: 98c45349ef019a3af1374ae08c03ade06730d0f3.
 - Exact next batch: **recompute the full skill-index projection census and select the next highest-impact deterministic mismatch family; preserve clean last_verified, source_parallel_quests, sources, notes, and mechanics_notes parity.**
 
+### 2026-09-21 — Skill identity and projection integrity cleanup
+
+- Live census before editing: 429 canonical skills / 429 skill-index records, with duplicate skill-ill-bomber identity shared by Ill Bomber and a later III Bomber placeholder.
+- Removed only the duplicate III Bomber placeholder from docs/data/skills.json and docs/data/skills-index.json; the richer Ill Bomber record and PQ90 provenance were preserved.
+- Live census after editing: 428 canonical skills / 428 skill-index records; 0 duplicate IDs in either layer.
+- Full inspected projection parity is now 0 mismatches across the audited projection fields.
+- This was a deterministic identity/data-integrity correction, not a new gameplay or acquisition claim. No unrelated canonical fields were normalized.
+- CI: no actionable workflow/status result exposed; no CI success claimed. Validators were not weakened.
+- Commits: 3d9dad9d3547851ebb5f7ee0348e5772f49d72e4 (canonical), 2ae7157f5b9f09681b91d2b33c15643b61a2ad68 (index).
+- Exact next batch: recompute the live canonical skill census and audit the three remaining nullable race_restriction records: Blaster Stream, Chaotic Time Impact, and Circle Flash. Preserve null when evidence does not establish CaC scope.
