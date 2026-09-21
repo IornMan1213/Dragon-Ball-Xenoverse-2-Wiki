@@ -6280,3 +6280,10 @@ The repository owner has clarified the continuation contract:
 - Corrected `source_parallel_quests` from `[5,48]` to `[5]`, strengthened sources, and preserved the existing Base Game / PQ05 / non-UF acquisition semantics.
 - Canonical commit: `48d0d0b7bd17e4f858c565d189feb12e189fba88`.
 - Exact next batch: continue the remaining low-source-count records, checking source-PQ relationships for similarly conflated skill names before making broader enrichment changes.
+
+### 2026-09-21 continuation — Burst Reflection provenance strengthening
+- Workstream: **P1 skill provenance/source integrity**.
+- Concrete weak-source issue: **Burst Reflection** relied on a category-only Counter Skills source despite having a specific acquisition claim.
+- Replaced the category-only dependency with direct skill references and retained the existing Shenron-wish acquisition without inventing a PQ relationship.
+- Canonical commit: `0b16ab3b7a40930c37f9fb1732cf1f1a08b21706`.
+- Exact next batch: continue auditing the remaining single-source records, prioritizing acquisition claims that lack a direct source or have a plausible naming/PQ conflation risk.
