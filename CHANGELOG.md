@@ -984,3 +984,6 @@
 - Updated only canonical `ki_cost` and `last_verified`.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 19 nullable `ki_cost` records**.
 - Commit: `6d465aa0664846960006b2359b0885b9ca1184d2`.
+
+### 2026-09-21 correction — Zamasu changelog citation-token artifact
+- The immediately preceding Zamasu changelog entry contains internal web citation markup from the research session. The underlying facts remain supported by the cited research, but repository prose must not persist internal tool citation tokens. Future entries will use plain source descriptions/URLs only.
