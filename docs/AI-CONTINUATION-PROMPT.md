@@ -4000,3 +4000,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validator commit: `0d850ec22e001fd540093b4d7b3fe180e4e29a97`.
 - The current checked-in index already matches the complete projection, so no data regeneration was necessary.
 - Next task: inspect whether the index projection field list is duplicated between builder and validator and, if so, centralize/document the contract so future additions cannot drift silently again.
+
+
+## 2026-09-21 continuation — schema enum contract audit
+- Audited validator taxonomy constants against `docs/data/skills.schema.json`.
+- Found duplicated enum sets for `class`, `subcategory`, `research_status`, and `acquisition_type` in `scripts/validate_skills.py` even though the schema is already the canonical declaration.
+- Fixed the validator to derive those four allowed-value sets directly from the loaded JSON Schema, preventing future schema/validator enum drift.
+- Also corrected a validator loop defect introduced while centralizing the index projection contract: the index comparison now uses `INDEX_PROJECTION_FIELDS` directly and no longer references the removed local field-list variable.
+- Commit: `3a33d3d2ee33c52bcc8ef12c362c077cf8af8857`.
+- No canonical skill records or generated index data were changed.
+- CI still has no workflow run exposed for the validator commits; no CI success is claimed.
+- Next task: inspect remaining hard-coded cross-field taxonomy (`CLASS_SUBCATEGORIES`) against the schema/model and identify whether it should remain validator-only semantic policy or be represented as an explicit schema constraint/documented contract.
