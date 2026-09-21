@@ -5366,3 +5366,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: all 8 targeted records now have explicit Ki costs and `last_verified=2026-09-21`; no validators changed. CI status was not actionable, so no CI success is claimed.
 - Commits: `40eb41729ac5ceee63d63e958d4c46516a44cc6a` (skills), `caf933e6c4890c7d02dd5167412af7b40b03e749` (coverage audit), `0f9012e0ad7acc9c058cc4417b4da410b08eff75` (changelog).
 - Exact next task: **continue the bounded skill Ki-cost census with another evidence-backed family, prioritizing records where current sources expose an explicit `Ki Used` value and avoiding inference for variable-cost skills.**
+
+### 2026-09-21 cycle update — mentor skill Ki-cost verification batch 2
+- Workstream: **P1 skill acquisition/mechanics data-quality cleanup, bounded to explicit Ki-cost evidence**.
+- Live canonical skill census before editing: **428 records; 104 nullable `ki_cost` records**.
+- Bounded batch: **Fake Death, Wolf Fang Fist, Ki Blast Thrust, Spirit Ball, Bomber DX, Arm Crash, Genocide Shell, Break Cannon**.
+- Research/evidence: current Xenoverse 2 skill references explicitly document **0, 100, 100, 300, 100, 100, 100, and 300+ Ki** respectively. Existing repository provenance already establishes their Yamcha/Nappa mentor-training endpoints.
+- Changes: populated only the canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. Break Cannon remains **300+** to preserve its variable-cost semantics; no stamina scaling or alternate mechanics were inferred.
+- Validation: canonical skills remain **428/428** with **0 duplicate IDs**; nullable `ki_cost` count is now **96**. The skill index was kept scoped to its established projection contract; only matching `last_verified` values were synchronized and no new `ki_cost` projection was introduced. Changed repository text was checked for internal AI/UI/search citation artifacts: none found.
+- CI: no workflow runs were exposed for the canonical or latest documentation commits; **no CI success claimed**. Validators were not weakened.
+- Commits: `cf2a6ce19ee570c142e36dd0bde183c1294f239a` (canonical skills), `b6ad513ef14af07d0546171a07d253003a304c46` (index projection correction), `37d82b69f2d6bef5c0635773e059da84175da534` (coverage audit), `914b2db63442e249e9f4915a37b6e3772e92c4ce` (changelog).
+- Exact next task: **recompute the live nullable-`ki_cost` census and continue with the next evidence-backed mentor or other tightly bounded family, prioritizing records with explicit current `Ki Used` values and preserving variable-cost forms rather than inferring fixed values.**
