@@ -598,3 +598,16 @@
 - Synchronized PQ151, PQ152, and PQ153 with the five deterministic PQ-sourced records in this batch and rebuilt the bidirectional PQ↔Super Soul report.
 - Validation: 98 canonical Super Souls; 34 forward / 34 reverse PQ↔Super Soul edges; 28 unique PQ endpoints; 64 unresolved Super Soul routes; 0 broken endpoints; changed JSON parsed successfully.
 - Evidence limits preserved: raid/event records remain provenance-labeled; no unsupported recurrence schedule or drop percentage was promoted to canonical data.
+
+
+## 2026-09-21 — Super Soul 104–111 frontier + PQ reverse-link reconciliation
+
+- Live census before editing: **98 canonical Super Souls / 186 canonical PQ records**.
+- Bounded batch: **Super Soul 104–111** — Looks like I mixed up the capsules..., I'll be the one to fight you!, This is your true power?, You need to be more careful., Still haven't figured out you're gonna lose?, Heh heh! I'm not as rusty as I look!, See? It's a good thing I was here, right?, and I can tell you're an amateur by the way you pose!.
+- Evidence: exact next eight unique entries from the maintained Madreag final-DLC-era Super Soul corpus; source-page searches confirmed slugs and acquisition identities. Deterministic PQ endpoints: 105/107 → PQ157, 106/108 → PQ156, 109/110 → PQ158. Raid records 104 and 111 remain without inferred PQ routes.
+- Changes: added canonical Super Souls 104–111; synchronized PQ156–158 reward/link fields; rebuilt docs/data/pq-super-soul-crosslink-report.json from the canonical registry.
+- Evidence limits: no unsupported raid recurrence, drop-rate, or inferred quest relationships were added. Community-measured values remain bounded by the record's verification notes.
+- Validation: **106 canonical Super Souls / 186 canonical PQs / 40 forward / 40 reverse edges / 31 unique PQ endpoints / 40 unique Super Soul endpoints / 66 unresolved Super Soul routes / 0 broken endpoints**. All three changed JSON files parsed successfully; **0 internal UI/search citation artifacts** detected.
+- CI: no workflow status was exposed for these data commits; no CI success is claimed.
+- Commits: `861176b38b926d2210aad941bb16b6218a667dee` (canonical records); `8f974ecd7d6bae76f13a8e2a4a1f01f2bb2b4687` (PQ156–158); `9c0537a3e7f3b960a72c8aa9a630738b7ee658e6` (crosslink rebuild).
+- Exact next batch: **Super Soul 112–119**, after live-corpus reconciliation. Start immediately after `I can tell you're an amateur by the way you pose!`; establish acquisition identity, then add only explicit cross-domain endpoints.
