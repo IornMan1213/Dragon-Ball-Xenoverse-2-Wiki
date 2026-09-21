@@ -11457,7 +11457,8 @@
       "id": "skill-finishing-blow",
       "source_mentor": [
         "mentor-whis"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Prelude to Destruction",
@@ -11484,7 +11485,8 @@
       "id": "skill-prelude-to-destruction",
       "source_mentor": [
         "mentor-whis"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Strike of Revelation",
@@ -11511,7 +11513,8 @@
       "id": "skill-strike-of-revelation",
       "source_mentor": [
         "mentor-whis"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Symphonic Destruction",
@@ -11538,7 +11541,8 @@
       "id": "skill-symphonic-destruction",
       "source_mentor": [
         "mentor-whis"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Prepare to be Punished",
