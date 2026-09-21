@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 74,
+  "canonical_target_records": 82,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -179,6 +179,38 @@
       "target_name": "That won't work on me!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/that-wont-work-on-me.md"
+    },
+    {
+      "pq_id": "pq-144",
+      "pq_number": 144,
+      "target_id": "super-soul-080",
+      "target_name": "You've awakened my true power...",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/youve-awakened-my-true-power.md"
+    },
+    {
+      "pq_id": "pq-144",
+      "pq_number": 144,
+      "target_id": "super-soul-085",
+      "target_name": "I won't forgive those who best my comrades!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-wont-forgive-those-who-best-my-comrades.md"
+    },
+    {
+      "pq_id": "pq-146",
+      "pq_number": 146,
+      "target_id": "super-soul-086",
+      "target_name": "There's no way you can hit me!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-no-way-you-can-hit-me.md"
+    },
+    {
+      "pq_id": "pq-150",
+      "pq_number": 150,
+      "target_id": "super-soul-087",
+      "target_name": "I will prevail, no matter the cost!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-prevail-no-matter-the-cost.md"
     }
   ],
   "reverse_edges": [
@@ -400,6 +432,46 @@
       ],
       "pq_numbers": [
         135
+      ]
+    },
+    {
+      "target_id": "super-soul-080",
+      "target_name": "You've awakened my true power...",
+      "pq_ids": [
+        "pq-144"
+      ],
+      "pq_numbers": [
+        144
+      ]
+    },
+    {
+      "target_id": "super-soul-085",
+      "target_name": "I won't forgive those who best my comrades!",
+      "pq_ids": [
+        "pq-144"
+      ],
+      "pq_numbers": [
+        144
+      ]
+    },
+    {
+      "target_id": "super-soul-086",
+      "target_name": "There's no way you can hit me!",
+      "pq_ids": [
+        "pq-146"
+      ],
+      "pq_numbers": [
+        146
+      ]
+    },
+    {
+      "target_id": "super-soul-087",
+      "target_name": "I will prevail, no matter the cost!",
+      "pq_ids": [
+        "pq-150"
+      ],
+      "pq_numbers": [
+        150
       ]
     }
   ],
@@ -662,6 +734,26 @@
     {
       "target_id": "super-soul-079",
       "target_name": "Leave my daddy alone!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-081",
+      "target_name": "I am going to bathe in your blood!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-082",
+      "target_name": "Let's get round two started!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-083",
+      "target_name": "I can finally get my hands dirty again.",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-084",
+      "target_name": "Can I attack now?",
       "reason": "no_explicit_pq_endpoint"
     }
   ]
