@@ -1522,3 +1522,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
 - [x] Canonical commit: `d61bb7e59769b02ea755f720fd58f1539cbabd8a`.
 - [ ] Next task: recompute the DLC/free-update provenance census and select the next concrete mismatch, prioritizing content-model conflicts over speculative enrichment.
+
+
+### 2026-09-21 — Lightning Impact source-strengthening
+- [x] Strengthened Lightning Impact's provenance with three independent acquisition sources for PQ142 Basic Reward.
+- [x] Preserved its existing Ultra Pack 2 classification and acquisition semantics.
+- [x] Canonical commit: `d6013a3c9c4656fe95196fdd93e2e32703567a17`.
+- [ ] Next: continue low-source-count / semantically fragile DLC skill provenance census.
