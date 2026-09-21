@@ -1077,3 +1077,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - Research source descriptions: current Xenoverse 2 skill-reference pages for Evil Rise Strike, Explosive Assault, and Finish Breaker; each page exposes the explicit Ki Used value.
 - Canonical commit: 76057f81bf7da7aa477081f8c300d0472b1b498a.
 - Exact next task: recompute the live nullable census and research the next bounded unresolved record/family; current queue begins with **Dimension Cannon, Flash Strike, Final Flash**.
+
+
+### 2026-09-21 — Master ledger completion marking: bounded Ki-cost batch
+- [x] Evil Rise Strike Ki-cost verification completed: 100 Ki.
+- [x] Explosive Assault Ki-cost verification completed: 300 Ki.
+- [x] Finish Breaker Ki-cost verification completed: 100 Ki.
+- [x] Post-write canonical validation completed: 428 records / 0 duplicate IDs / 14 nullable ki_cost records.
+- [ ] Next unresolved Ki-cost batch: Dimension Cannon / Flash Strike / Final Flash, after a fresh live census.
+
+> Earlier unchecked entries remain permanently preserved. These dated [x] entries are the authoritative completion markings under the append-only ledger contract.
