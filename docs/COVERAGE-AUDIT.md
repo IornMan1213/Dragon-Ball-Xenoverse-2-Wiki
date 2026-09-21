@@ -4152,3 +4152,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - The historical race-audit commits confirm that recent race work was focused on explicit restrictions and character-only normalization; none of the inspected canonical snapshots support a 270-record live state.
 - No canonical data change was required.
 - Exact next task: continue evidence auditing from the actual live unresolved set (Blaster Stream, Chaotic Time Impact, Circle Flash), or identify another concrete data-quality invariant rather than pursuing the nonexistent four-record discrepancy.
+
+
+## 2026-09-21 — final three null-race evidence sweep (continued)
+- Rechecked **Blaster Stream**, **Chaotic Time Impact**, and **Circle Flash** against current/recent external evidence after tracing the stale 270 census.
+- Current evidence corroborates these as CaC-usable skills: community CaC build records explicitly use Blaster Stream and Circle Flash, while current DLC coverage identifies Chaotic Time Impact as a Golden Frieza (Ultra Supervillain) skill and separate current gameplay material documents it being added to CaC move sets.
+- None of the reviewed evidence establishes an explicit race, gender, or form restriction for these three. Character association was not treated as race scope.
+- **No canonical race correction is justified.** The three remain `usable_by_cac: true` with `race_restriction: null` pending explicit race-scope evidence.
+- This leaves the live unresolved race-scope set at exactly **3 records**.
+- Exact next task: continue from these three only if new explicit race-scope evidence appears; otherwise move to another concrete data-quality invariant.
