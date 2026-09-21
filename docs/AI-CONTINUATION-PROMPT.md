@@ -5885,3 +5885,15 @@ The repository owner has clarified the continuation contract:
 - CI: no workflow run is claimable until Actions exposes one for commit `0b9c2196aa34776f3af49dfb1459db053624b4bb` or the subsequent ledger commit.
 - Commits: `0b9c2196aa34776f3af49dfb1459db053624b4bb` (canonical), `23ab105e4979165f8d06a00ed7ded532d45a3a02` (TODO).
 - Exact next task: **fresh live census of remaining DLC labels against source relationships**, prioritizing deterministic mismatches and leaving intentionally multi-DLC/platform-dependent values intact unless contradictory evidence appears.
+
+
+### 2026-09-21 cycle update — Candy Beam Base Game provenance audit
+- Workstream: P1 skill acquisition/DLC provenance cleanup; bounded audit of the only apparent Base Game/DLC-PQ mismatch from the live census.
+- Live census before editing: **428 canonical skills; 0 duplicate IDs; 1 nullable `ki_cost` (Dimension Cannon by design)**. The only Base Game record with a source relationship referencing a PQ above 100 was **Candy Beam** (`source_parallel_quests=[66,113]`).
+- Research/evidence: current PQ references identify **PQ66** as the canonical/base-game Candy Beam reward. PQ113, an Extra Pack 1 quest, also lists Candy Beam, while the repository separately models **Candy Beam (Super)** as the Extra Pack 1 skill acquired from PQ113. This distinction prevents the later duplicate/contextual reward from being mistaken for the originating DLC of the base Candy Beam record.
+- Decision: **preserve `dlc_requirement=Base Game`** for Candy Beam. The additional PQ113 relationship does not justify changing the originating DLC field.
+- Change: `docs/data/skills.json` only — updated `last_verified=2026-09-21` and appended a bounded provenance-audit note. No DLC label or unrelated field changed.
+- Validation: **428 records; 0 duplicate IDs; 1 nullable `ki_cost`**. The live false-positive Base Game/PQ>100 mismatch is now documented and resolved as a duplicate/context relationship rather than a provenance error. TODO ledger synchronized.
+- CI: workflow lookup must remain unclaimed unless an actual Actions run is exposed.
+- Commit: `a843a560a6dfefcf7b766cd1e5cfa3df548362a3` (canonical), `1bcdaa15014cb50e150ecd35475bc4010ab29686` (TODO).
+- Exact next task: **fresh live census of source-to-DLC relationships**, prioritizing records whose primary acquisition endpoint and `dlc_requirement` disagree; preserve later duplicate/contextual reward relationships when they do not establish originating DLC.
