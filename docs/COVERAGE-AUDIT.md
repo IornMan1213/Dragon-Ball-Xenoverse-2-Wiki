@@ -5266,3 +5266,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Existing EM12 acquisition was retained; provenance was strengthened with direct skill documentation, an all-Expert-Missions reward guide, and a contemporaneous gameplay walkthrough. citeturn1search0turn1search7turn1youtube37
 - Canonical commit: `2cf689d7308f87acb711a28d20eb7fbf6ef6d2ce`.
 - Next: continue the remaining two-source acquisition/provenance cluster.
+
+
+### 2026-09-21 — Afterimage Strike provenance strengthening
+- Strengthened **Afterimage Strike** from two to four sources.
+- Existing **PQ81 / Wake Up!** acquisition retained; independent PQ guides corroborate it as a Basic Reward. citeturn1search3turn1search6
+- Canonical commit: `7b33e464fba3c887b8cce2e3ac23d287e83930ca`.
+- Next: continue the remaining two-source acquisition/provenance cluster.
