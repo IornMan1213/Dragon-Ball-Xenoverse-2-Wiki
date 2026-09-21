@@ -7,17 +7,17 @@
     "Other Supers": 36,
     "Strike Evasives": 9,
     "Ki Blast Ultimates": 82,
-    "Ki Blast Supers": 134,
+    "Ki Blast Supers": 136,
     "Transformations": 15,
     "Strike Supers": 106,
-    "Strike Ultimates": 19,
+    "Strike Ultimates": 21,
     "Power Up Supers": 15,
     "Power Up Evasives": 2,
     "Other Evasives": 4,
     "Transformation": 4,
     "Other Ultimates": 2
   },
-  "record_count": 448,
+  "record_count": 452,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -1188,6 +1188,48 @@
       "source_quest_or_shop": "Parallel Quest 43 — \"Change the Future\""
     },
     {
+      "id": "skill-chaos-shot",
+      "name": "Chaos Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Chaos_Shot",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74746307",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 1 provenance identification: the official launch-update announcement confirms four unnamed attacks; contemporaneous December 2016 player reports identify the four TP Medal Shop additions as Chaos Shot, Galick Cannon, Impulse Slash, and Secret Poison. Current skill references confirm the TP Medal Shop acquisition route. The official announcement does not name the four attacks individually, so the name-to-update mapping remains historically source-supported rather than directly enumerated by Bandai Namco.",
+      "mechanics_notes": "Ki Blast Super used by Frost; current reference describes a chargeable projectile/barrage that can fire in multiple directions or concentrate forward.",
+      "source_quest_or_shop": "TP Medal Shop"
+    },
+    {
+      "id": "skill-chaos-wall",
+      "name": "Chaos Wall",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Chaos_Wall",
+        "https://dragonball.fandom.com/wiki/Chaos_Wall",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+      ],
+      "unlock_method": "Conton City Tournament Match 4 — \"Semifinal Showdown\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "mechanics_notes": "Current skill evidence lists 300 Stamina. The wall can be charged to increase size, damage, and speed.",
+      "source_quest_or_shop": "Conton City Tournament Match 4"
+    },
+    {
       "id": "skill-chaotic-time-impact",
       "name": "Chaotic Time Impact",
       "class": "Ultimate",
@@ -1295,6 +1337,27 @@
       "mechanics_notes": "Charge and rush with three strikes; landing the third enables an immediate Ultimate follow-up. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "source_quest": 149,
       "source_quest_or_shop": "Parallel Quest 149 — \"Clash of the Clones\""
+    },
+    {
+      "id": "skill-confusion-blade",
+      "name": "Confusion Blade",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
+        "https://dbxv2.fandom.com/wiki/Confusion_Blade",
+        "https://gamefaqs.gamespot.com/xboxone/233579-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/answers/614880"
+      ],
+      "unlock_method": "Tokipedia 20% completion",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Confusion Blade was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint.",
+      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
+      "source_quest_or_shop": "Tokipedia — 20% completion"
     },
     {
       "id": "skill-core-breaker",
@@ -3009,6 +3072,27 @@
       "source_quest_or_shop": "Parallel Quest 29 — \"The Androids Attack\""
     },
     {
+      "id": "skill-energy-minefield",
+      "name": "Energy Minefield",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
+        "https://dbxv2.fandom.com/wiki/Energy_Minefield",
+        "https://gamefaqs.gamespot.com/xboxone/233579-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/answers/614880"
+      ],
+      "unlock_method": "Tokipedia 60% completion",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Energy Minefield was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint.",
+      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
+      "source_quest_or_shop": "Tokipedia — 60% completion"
+    },
+    {
       "id": "skill-energy-release",
       "name": "Energy Release",
       "class": "Super",
@@ -3929,6 +4013,30 @@
       "source_quest_or_shop": "Vegeta mentor training"
     },
     {
+      "id": "skill-focus-flash",
+      "name": "Focus Flash",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "Expert Mission 18",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super; dedicated evidence identifies Expert Mission 18 — The Ultimate Evil: Broly!.",
+      "source_quest_or_shop": "Expert Mission 18"
+    },
+    {
       "id": "skill-force-edge",
       "name": "Force Edge",
       "class": "Super",
@@ -4131,6 +4239,27 @@
       "source_quest_or_shop": "Gotenks mentor training"
     },
     {
+      "id": "skill-galick-cannon",
+      "name": "Galick Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Galick_Cannon",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74746307",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 1 provenance identification: the official launch-update announcement confirms four unnamed attacks; contemporaneous December 2016 player reports identify the four TP Medal Shop additions as Chaos Shot, Galick Cannon, Impulse Slash, and Secret Poison. Current skill references confirm the TP Medal Shop acquisition route. The official announcement does not name the four attacks individually, so the name-to-update mapping remains historically source-supported rather than directly enumerated by Bandai Namco.",
+      "mechanics_notes": "Ki Blast Super used by Cabba; current reference describes a chargeable Galick Gun-like beam whose power increases by repeated button taps.",
+      "source_quest_or_shop": "TP Medal Shop"
+    },
+    {
       "id": "skill-galick-gun",
       "name": "Galick Gun",
       "class": "Super",
@@ -4218,28 +4347,6 @@
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
       "source_quest": "Nappa mentor training — Lesson 2",
       "source_quest_or_shop": "Nappa mentor training — Lesson 2"
-    },
-    {
-      "id": "skill-giant-cluster",
-      "name": "Gigantic Cluster",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Gigantic_Cluster",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ],
-      "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" Ultimate Finish reward (40% roll)",
-      "ultimate_finish_required": true,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Gigantic Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Gigantic Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 naming correction: authoritative current technique documentation and maintained PQ reward evidence identify the skill as “Gigantic Cluster.” The stable repository ID remains `skill-giant-cluster` to avoid breaking existing references.",
-      "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "source_quest": 163,
-      "source_quest_or_shop": "Parallel Quest 163 — \"Broly the Invader\""
     },
     {
       "id": "skill-giant-storm",
@@ -4330,6 +4437,50 @@
       "source_quest_or_shop": "Parallel Quest 128 — \"Legendary Super Saiyan Smackdown\""
     },
     {
+      "id": "skill-giant-cluster",
+      "name": "Gigantic Cluster",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Gigantic_Cluster",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" Ultimate Finish reward (40% roll)",
+      "ultimate_finish_required": true,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Gigantic Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Gigantic Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 naming correction: authoritative current technique documentation and maintained PQ reward evidence identify the skill as “Gigantic Cluster.” The stable repository ID remains `skill-giant-cluster` to avoid breaking existing references.",
+      "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "source_quest": 163,
+      "source_quest_or_shop": "Parallel Quest 163 — \"Broly the Invader\""
+    },
+    {
+      "id": "skill-gigantic-cross",
+      "name": "Gigantic Cross",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Cross",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+      ],
+      "unlock_method": "Conton City Patrol 04 — Teach Me, Broly! (Part 1).",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": null,
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Cross as a Chapter 3 skill unlocked through Conton City Patrol 04. No unsupported reward/PQ gate was inferred.",
+      "mechanics_notes": "Fires a chargeable green mouth-generated Ki Blast that arcs forward and ends in an explosion; current skill evidence lists 100 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
+      "source_quest": "Conton City Patrol 04",
+      "source_quest_or_shop": "Conton City Patrol 04 — Teach Me, Broly! (Part 1)"
+    },
+    {
       "id": "skill-gigantic-explosion",
       "name": "Gigantic Explosion",
       "class": "Ultimate",
@@ -4371,6 +4522,28 @@
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
       "source_quest": "Broly mentor training",
       "source_quest_or_shop": "Broly mentor training"
+    },
+    {
+      "id": "skill-gigantic-nova",
+      "name": "Gigantic Nova",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Nova",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+      ],
+      "unlock_method": "Conton City Patrol 17 — Teach Me, Broly! (Part 3).",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": null,
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Nova as a Chapter 3 skill unlocked through Conton City Patrol 17. No unsupported reward/PQ gate was inferred.",
+      "mechanics_notes": "Creates and launches a massive green Ki sphere that ends in a large explosion; current skill evidence lists 300 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
+      "source_quest": "Conton City Patrol 17",
+      "source_quest_or_shop": "Conton City Patrol 17 — Teach Me, Broly! (Part 3)"
     },
     {
       "id": "skill-gigantic-omega",
@@ -4682,6 +4855,26 @@
       "source_quest_or_shop": "Zamasu mentor training"
     },
     {
+      "id": "skill-godly-chronos-cannon",
+      "name": "Godly Chronos Cannon",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Godly_Chronos_Cannon",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+      ],
+      "unlock_method": "Conton City Tournament Match 5 — \"The Fated Finale\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Godly Chronos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "mechanics_notes": "Current skill evidence lists 300 Ki and four initial Ki Blasts; Holy Inscription can increase their power.",
+      "source_quest_or_shop": "Conton City Tournament Match 5"
+    },
+    {
       "id": "skill-godly-display",
       "name": "Godly Display",
       "class": "Ultimate",
@@ -4873,7 +5066,7 @@
       ],
       "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" Ultimate Finish reward (50%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 correction: canonical description now matches the verified Strike classification and PQ179 source; exact drop gating remains unresolved. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "Dedicated current-version evidence corrects Heat Wave to a **200-Ki Strike Super** from PQ179. It charges, repels Ki Blasts during its rush, and can break guard when fully charged. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
@@ -5016,6 +5209,27 @@
       "source_quest_or_shop": "Parallel Quest 155 — \"I Need a Hero... Pose!\""
     },
     {
+      "id": "skill-holy-inscription",
+      "name": "Holy Inscription",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Holy_Inscription",
+        "https://dragonball.fandom.com/wiki/Holy_Inscription",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+      ],
+      "unlock_method": "Conton City Tournament Match 1 — \"The 1st Conton City Tournament\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Holy Inscription as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "mechanics_notes": "Current skill evidence lists 100 Ki for the base input, with additional inputs raising total expenditure to 300 Ki; each successful hit builds Power of Time for related techniques.",
+      "source_quest_or_shop": "Conton City Tournament Match 1"
+    },
+    {
       "id": "skill-holy-wrath",
       "name": "Holy Wrath",
       "class": "Super",
@@ -5123,6 +5337,27 @@
       "mechanics_notes": "Fire three Ki waves; additional input consumes Ki to teleport behind the opponent for another attack. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "source_quest": 150,
       "source_quest_or_shop": "Parallel Quest 150 — \"Battle of the Mind\""
+    },
+    {
+      "id": "skill-impulse-slash",
+      "name": "Impulse Slash",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Impulse_Slash",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74746307",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 1 provenance identification: the official launch-update announcement confirms four unnamed attacks; contemporaneous December 2016 player reports identify the four TP Medal Shop additions as Chaos Shot, Galick Cannon, Impulse Slash, and Secret Poison. Current skill references confirm the TP Medal Shop acquisition route. The official announcement does not name the four attacks individually, so the name-to-update mapping remains historically source-supported rather than directly enumerated by Bandai Namco.",
+      "mechanics_notes": "Strike Ultimate used by Cabba; current reference describes a long rush combo ending in a ki-blast barrage and notes that it can deplete more guarded stamina while an Awoken Skill is active.",
+      "source_quest_or_shop": "TP Medal Shop"
     },
     {
       "id": "skill-indomitable",
@@ -5297,6 +5532,30 @@
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-goku added for the documented mentor-training acquisition route.",
       "source_quest": "Goku mentor training — Lesson 1",
       "source_quest_or_shop": "Goku mentor training, Lesson 1"
+    },
+    {
+      "id": "skill-jumping-energy-wave",
+      "name": "Jumping Energy Wave",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super; current dedicated evidence lists Skill Shop acquisition.",
+      "source_quest_or_shop": "TP Medal Shop"
     },
     {
       "id": "skill-justice-blade",
@@ -5494,6 +5753,26 @@
       "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
       "source_quest": 14,
       "source_quest_or_shop": "Parallel Quest 14"
+    },
+    {
+      "id": "skill-kairos-cannon",
+      "name": "Kairos Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kairos_Cannon",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+      ],
+      "unlock_method": "Conton City Tournament Match 2 — \"Thinning the Herd\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "mechanics_notes": "Current skill evidence lists 100 Ki and four initial projectiles, with Holy Inscription enabling additional projectiles.",
+      "source_quest_or_shop": "Conton City Tournament Match 2"
     },
     {
       "id": "skill-kamehameha",
@@ -5866,6 +6145,30 @@
       "mechanics_notes": "Confirmed as a 0-Ki PQ122 Power Up Super usable by all CaC races. After activation it raises maximum Ki and provides automatic Ki recovery for about 20 seconds in current versions; its interactions with other reinforcement buffs are version-sensitive. UF audit 2026-09-19: acquisition evidence identifies Meditation as a random skill drop from Jiren in PQ122 rather than an Ultimate Finish-only reward; community reports conflict, but direct opponent-drop reports support non-UF gating.",
       "source_quest": 122,
       "source_quest_or_shop": "Parallel Quest 122 — \"The Final Battle Before the Final Battle?!\""
+    },
+    {
+      "id": "skill-menacing-flare",
+      "name": "Menacing Flare",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super; current maintained evidence identifies TP Medal Shop acquisition.",
+      "source_quest_or_shop": "TP Medal Shop"
     },
     {
       "id": "skill-meteor-blow",
@@ -6924,6 +7227,27 @@
       "source_quest_or_shop": "Parallel Quest 61 — \"The Cell Games Continued\""
     },
     {
+      "id": "skill-remote-serious-bomb",
+      "name": "Remote Serious Bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
+        "https://dbxv2.fandom.com/wiki/Remote_Serious_Bomb",
+        "https://gamefaqs.gamespot.com/xboxone/233579-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/answers/614880"
+      ],
+      "unlock_method": "Tokipedia 80% completion",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Remote Serious Bomb was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint and 300 Ki as the current activation cost; no obsolete second-stage Ki cost is asserted.",
+      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
+      "source_quest_or_shop": "Tokipedia — 80% completion"
+    },
+    {
       "id": "skill-requiem-of-destruction",
       "name": "Requiem of Destruction",
       "class": "Ultimate",
@@ -7253,6 +7577,28 @@
       "source_quest_or_shop": "Parallel Quest 115 — \"Extreme Battle with Android 13!\""
     },
     {
+      "id": "skill-saiyan-blaster",
+      "name": "Saiyan Blaster",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Saiyan_Blaster",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+      ],
+      "unlock_method": "Conton City Patrol 10 — Teach Me, Broly! (Part 2).",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": null,
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Saiyan Blaster as a Chapter 3 skill unlocked through Conton City Patrol 10. The 400 Stamina cost is directly documented; no unsupported PQ/reward gate was inferred.",
+      "mechanics_notes": "Creates a giant green pillar/barrier and permits immediate Awoken Skill activation; current skill evidence lists a 400 Stamina cost. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
+      "source_quest": "Conton City Patrol 10",
+      "source_quest_or_shop": "Conton City Patrol 10 — Teach Me, Broly! (Part 2)"
+    },
+    {
       "id": "skill-saiyan-spirit",
       "name": "Saiyan Spirit",
       "class": "Ultimate",
@@ -7407,6 +7753,27 @@
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: PQ167 is explicitly listed as the acquisition source; the maintained PQ guide lists Seagull Combination in PQ167 Basic Reward and independent documentation notes its random drop from that PQ. 2026-09-20 audit: PQ167's current maintained reward data lists Seagull Combination as a 40% normal-clear reward; it is not recorded as Ultimate Finish-gated.",
       "source_quest": 167,
       "source_quest_or_shop": "Parallel Quest 167 — \"Fighting for Family\""
+    },
+    {
+      "id": "skill-secret-poison",
+      "name": "Secret Poison",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Secret_Poison",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74723041",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 1 provenance identification: the official launch-update announcement confirms four unnamed attacks; contemporaneous December 2016 player reports identify the four TP Medal Shop additions as Chaos Shot, Galick Cannon, Impulse Slash, and Secret Poison. Current skill references confirm the TP Medal Shop acquisition route. The official announcement does not name the four attacks individually, so the name-to-update mapping remains historically source-supported rather than directly enumerated by Bandai Namco.",
+      "mechanics_notes": "Strike Ultimate used by Frost; current reference describes a rush attack that poisons the opponent and then kicks them away.",
+      "source_quest_or_shop": "TP Medal Shop"
     },
     {
       "id": "skill-shadow-crusher",
@@ -7583,6 +7950,47 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; exact drop gating and some numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the documented acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 PQ154 reconciliation: maintained PQ batch 15 explicitly documents a 40% Ultimate Finish bonus roll for this skill; the prior generic Random Parallel Quest label was too broad and has been replaced with the documented PQ154 UF route.",
       "source_quest": 154,
       "source_quest_or_shop": "Parallel Quest 154 — \"Dabura the Loyal? Servant\""
+    },
+    {
+      "id": "skill-sneaky-strike",
+      "name": "Sneaky Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
+        "https://dbxv2.fandom.com/wiki/Sneaky_Strike",
+        "https://gamefaqs.gamespot.com/xboxone/233579-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/answers/614880"
+      ],
+      "unlock_method": "Tokipedia 40% completion",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Sneaky Strike was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint.",
+      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
+      "source_quest_or_shop": "Tokipedia — 40% completion"
+    },
+    {
+      "id": "skill-soaring-fist",
+      "name": "Soaring Fist",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Soaring_Fist",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+      ],
+      "unlock_method": "TP Medal Shop / STP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "mechanics_notes": "Current skill evidence lists 100 Ki. It was initially character-limited but is usable by CaCs after the Supreme Kai of Time content became available.",
+      "source_quest_or_shop": "TP Medal Shop / STP Medal Shop"
     },
     {
       "id": "skill-soaring-rush",
@@ -8621,7 +9029,7 @@
       ],
       "unlock_method": "Parallel Quest 179 — \"24/7 Time Patrol\" Ultimate Finish reward (50%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
       "mechanics_notes": "100 Ki Strike Super. Current reward evidence places Supreme Fury in PQ179 Ultimate Finish reward; exact drop conditions and additional numerical mechanics remain under research.",
@@ -8672,6 +9080,30 @@
       "source_quest_or_shop": "Whis mentor training"
     },
     {
+      "id": "skill-tail-slicer",
+      "name": "Tail Slicer",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "Expert Mission 19",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super; dedicated evidence identifies Expert Mission 19 — A Truly Hellish Transformation.",
+      "source_quest_or_shop": "Expert Mission 19"
+    },
+    {
       "id": "skill-taunt",
       "name": "Taunt",
       "class": "Super",
@@ -8714,6 +9146,26 @@
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
       "source_quest": 62,
       "source_quest_or_shop": "Parallel Quest 62 — \"Frieza's Nightmare Returns!\""
+    },
+    {
+      "id": "skill-temporal-holy-ray",
+      "name": "Temporal Holy Ray",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Temporal_Holy_Ray",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+      ],
+      "unlock_method": "Conton City Tournament Match 3 — \"Time for the Quarterfinals!\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Temporal Holy Ray as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "mechanics_notes": "Current skill evidence lists 100 Ki; additional Power of Time can create up to three clock sigils and allows manual release.",
+      "source_quest_or_shop": "Conton City Tournament Match 3"
     },
     {
       "id": "skill-the-power-to-overcome",
@@ -8913,6 +9365,26 @@
       "mechanics_notes": "Mentor acquisition endpoint and skill classification directly corroborated; unsupported numerical combat mechanics remain deferred.",
       "source_quest": "Hit mentor training — lesson-3.",
       "source_quest_or_shop": "Hit mentor training"
+    },
+    {
+      "id": "skill-timespace-impact",
+      "name": "Timespace Impact",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Timespace_Impact",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+      ],
+      "unlock_method": "Conton City Tournament Match 5 — \"The Fated Finale\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Timespace Impact as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "mechanics_notes": "Current skill evidence lists 500 Ki; the opening restraint prevents the target from flying away, enabling follow-up attacks.",
+      "source_quest_or_shop": "Conton City Tournament Match 5"
     },
     {
       "id": "skill-total-detonation-ball",
@@ -9355,6 +9827,30 @@
       "source_quest_or_shop": "Parallel Quest 153 — \"Seeing Double\""
     },
     {
+      "id": "skill-wild-hunt",
+      "name": "Wild Hunt",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Strike Super; current dedicated evidence lists TP Medal Shop acquisition.",
+      "source_quest_or_shop": "TP Medal Shop"
+    },
+    {
       "id": "skill-wild-stinger",
       "name": "Wild Stinger",
       "class": "Super",
@@ -9464,418 +9960,6 @@
       "mechanics_notes": "PQ reward identity is corroborated; exact drop conditions and detailed numerical mechanics remain under research. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route. 2026-09-20 verification: current Dragon Ball Xenoverse 2 documentation identifies PQ85 as the acquisition source and Male Majin as the usable Future Warrior restriction; PQ85 guide lists it as a Basic Reward. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "source_quest": 85,
       "source_quest_or_shop": "Parallel Quest 85 — \"Power Berserkers\""
-    },
-    {
-      "id": "skill-gigantic-cross",
-      "name": "Gigantic Cross",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Cross",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
-        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
-      ],
-      "unlock_method": "Conton City Patrol 04 — Teach Me, Broly! (Part 1).",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": null,
-      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Cross as a Chapter 3 skill unlocked through Conton City Patrol 04. No unsupported reward/PQ gate was inferred.",
-      "mechanics_notes": "Fires a chargeable green mouth-generated Ki Blast that arcs forward and ends in an explosion; current skill evidence lists 100 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
-      "source_quest": "Conton City Patrol 04",
-      "source_quest_or_shop": "Conton City Patrol 04 — Teach Me, Broly! (Part 1)"
-    },
-    {
-      "id": "skill-gigantic-nova",
-      "name": "Gigantic Nova",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Gigantic_Nova",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
-        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
-      ],
-      "unlock_method": "Conton City Patrol 17 — Teach Me, Broly! (Part 3).",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": null,
-      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Nova as a Chapter 3 skill unlocked through Conton City Patrol 17. No unsupported reward/PQ gate was inferred.",
-      "mechanics_notes": "Creates and launches a massive green Ki sphere that ends in a large explosion; current skill evidence lists 300 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
-      "source_quest": "Conton City Patrol 17",
-      "source_quest_or_shop": "Conton City Patrol 17 — Teach Me, Broly! (Part 3)"
-    },
-    {
-      "id": "skill-saiyan-blaster",
-      "name": "Saiyan Blaster",
-      "class": "Evasive",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Saiyan_Blaster",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
-        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
-      ],
-      "unlock_method": "Conton City Patrol 10 — Teach Me, Broly! (Part 2).",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": null,
-      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Saiyan Blaster as a Chapter 3 skill unlocked through Conton City Patrol 10. The 400 Stamina cost is directly documented; no unsupported PQ/reward gate was inferred.",
-      "mechanics_notes": "Creates a giant green pillar/barrier and permits immediate Awoken Skill activation; current skill evidence lists a 400 Stamina cost. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
-      "source_quest": "Conton City Patrol 10",
-      "source_quest_or_shop": "Conton City Patrol 10 — Teach Me, Broly! (Part 2)"
-    },
-    {
-      "id": "skill-holy-inscription",
-      "name": "Holy Inscription",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Holy_Inscription",
-        "https://dragonball.fandom.com/wiki/Holy_Inscription",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
-      ],
-      "unlock_method": "Conton City Tournament Match 1 — \"The 1st Conton City Tournament\"",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Holy Inscription as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
-      "mechanics_notes": "Current skill evidence lists 100 Ki for the base input, with additional inputs raising total expenditure to 300 Ki; each successful hit builds Power of Time for related techniques.",
-      "source_quest_or_shop": "Conton City Tournament Match 1"
-    },
-    {
-      "id": "skill-kairos-cannon",
-      "name": "Kairos Cannon",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Kairos_Cannon",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
-      ],
-      "unlock_method": "Conton City Tournament Match 2 — \"Thinning the Herd\"",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Kairos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
-      "mechanics_notes": "Current skill evidence lists 100 Ki and four initial projectiles, with Holy Inscription enabling additional projectiles.",
-      "source_quest_or_shop": "Conton City Tournament Match 2"
-    },
-    {
-      "id": "skill-temporal-holy-ray",
-      "name": "Temporal Holy Ray",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Temporal_Holy_Ray",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
-      ],
-      "unlock_method": "Conton City Tournament Match 3 — \"Time for the Quarterfinals!\"",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Temporal Holy Ray as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
-      "mechanics_notes": "Current skill evidence lists 100 Ki; additional Power of Time can create up to three clock sigils and allows manual release.",
-      "source_quest_or_shop": "Conton City Tournament Match 3"
-    },
-    {
-      "id": "skill-chaos-wall",
-      "name": "Chaos Wall",
-      "class": "Evasive",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Chaos_Wall",
-        "https://dragonball.fandom.com/wiki/Chaos_Wall",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
-      ],
-      "unlock_method": "Conton City Tournament Match 4 — \"Semifinal Showdown\"",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Chaos Wall as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
-      "mechanics_notes": "Current skill evidence lists 300 Stamina. The wall can be charged to increase size, damage, and speed.",
-      "source_quest_or_shop": "Conton City Tournament Match 4"
-    },
-    {
-      "id": "skill-timespace-impact",
-      "name": "Timespace Impact",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Timespace_Impact",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
-      ],
-      "unlock_method": "Conton City Tournament Match 5 — \"The Fated Finale\"",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Timespace Impact as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
-      "mechanics_notes": "Current skill evidence lists 500 Ki; the opening restraint prevents the target from flying away, enabling follow-up attacks.",
-      "source_quest_or_shop": "Conton City Tournament Match 5"
-    },
-    {
-      "id": "skill-godly-chronos-cannon",
-      "name": "Godly Chronos Cannon",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Godly_Chronos_Cannon",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
-      ],
-      "unlock_method": "Conton City Tournament Match 5 — \"The Fated Finale\"",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Godly Chronos Cannon as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
-      "mechanics_notes": "Current skill evidence lists 300 Ki and four initial Ki Blasts; Holy Inscription can increase their power.",
-      "source_quest_or_shop": "Conton City Tournament Match 5"
-    },
-    {
-      "id": "skill-soaring-fist",
-      "name": "Soaring Fist",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "tp_medal_shop",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Soaring_Fist",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
-      ],
-      "unlock_method": "TP Medal Shop / STP Medal Shop",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Soaring Fist as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
-      "mechanics_notes": "Current skill evidence lists 100 Ki. It was initially character-limited but is usable by CaCs after the Supreme Kai of Time content became available.",
-      "source_quest_or_shop": "TP Medal Shop / STP Medal Shop"
-    },
-    {
-      "id": "skill-confusion-blade",
-      "name": "Confusion Blade",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
-        "https://dbxv2.fandom.com/wiki/Confusion_Blade",
-        "https://gamefaqs.gamespot.com/xboxone/233579-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/answers/614880"
-      ],
-      "unlock_method": "Tokipedia 20% completion",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Confusion Blade was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint.",
-      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
-      "source_quest_or_shop": "Tokipedia — 20% completion"
-    },
-    {
-      "id": "skill-sneaky-strike",
-      "name": "Sneaky Strike",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
-        "https://dbxv2.fandom.com/wiki/Sneaky_Strike",
-        "https://gamefaqs.gamespot.com/xboxone/233579-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/answers/614880"
-      ],
-      "unlock_method": "Tokipedia 40% completion",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Sneaky Strike was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint.",
-      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
-      "source_quest_or_shop": "Tokipedia — 40% completion"
-    },
-    {
-      "id": "skill-energy-minefield",
-      "name": "Energy Minefield",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
-        "https://dbxv2.fandom.com/wiki/Energy_Minefield",
-        "https://gamefaqs.gamespot.com/xboxone/233579-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/answers/614880"
-      ],
-      "unlock_method": "Tokipedia 60% completion",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Energy Minefield was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint.",
-      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
-      "source_quest_or_shop": "Tokipedia — 60% completion"
-    },
-    {
-      "id": "skill-remote-serious-bomb",
-      "name": "Remote Serious Bomb",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-grows-larger-with-the-release-of-extra-pack-2-infinite-history",
-        "https://dbxv2.fandom.com/wiki/Remote_Serious_Bomb",
-        "https://gamefaqs.gamespot.com/xboxone/233579-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/answers/614880"
-      ],
-      "unlock_method": "Tokipedia 80% completion",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Remote Serious Bomb was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint and 300 Ki as the current activation cost; no obsolete second-stage Ki cost is asserted.",
-      "mechanics_notes": "Current evidence establishes the skill identity and documented acquisition endpoint; unsupported detailed mechanics remain intentionally limited.",
-      "source_quest_or_shop": "Tokipedia — 80% completion"
-    },
-    {
-      "id": "skill-jumping-energy-wave",
-      "name": "Jumping Energy Wave",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "shop",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
-        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
-        "https://dbxv2.fandom.com/wiki/Focus_Flash",
-        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
-        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
-      ],
-      "unlock_method": "TP Medal Shop",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
-      "mechanics_notes": "100-Ki Ki Blast Super; current dedicated evidence lists Skill Shop acquisition.",
-      "source_quest_or_shop": "TP Medal Shop"
-    },
-    {
-      "id": "skill-menacing-flare",
-      "name": "Menacing Flare",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "shop",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
-        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
-        "https://dbxv2.fandom.com/wiki/Focus_Flash",
-        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
-        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
-      ],
-      "unlock_method": "TP Medal Shop",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
-      "mechanics_notes": "100-Ki Ki Blast Super; current maintained evidence identifies TP Medal Shop acquisition.",
-      "source_quest_or_shop": "TP Medal Shop"
-    },
-    {
-      "id": "skill-focus-flash",
-      "name": "Focus Flash",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
-        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
-        "https://dbxv2.fandom.com/wiki/Focus_Flash",
-        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
-        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
-      ],
-      "unlock_method": "Expert Mission 18",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
-      "mechanics_notes": "100-Ki Ki Blast Super; dedicated evidence identifies Expert Mission 18 — The Ultimate Evil: Broly!.",
-      "source_quest_or_shop": "Expert Mission 18"
-    },
-    {
-      "id": "skill-wild-hunt",
-      "name": "Wild Hunt",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "shop",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
-        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
-        "https://dbxv2.fandom.com/wiki/Focus_Flash",
-        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
-        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
-      ],
-      "unlock_method": "TP Medal Shop",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
-      "mechanics_notes": "100-Ki Strike Super; current dedicated evidence lists TP Medal Shop acquisition.",
-      "source_quest_or_shop": "TP Medal Shop"
-    },
-    {
-      "id": "skill-tail-slicer",
-      "name": "Tail Slicer",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
-        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
-        "https://dbxv2.fandom.com/wiki/Focus_Flash",
-        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
-        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
-        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
-      ],
-      "unlock_method": "Expert Mission 19",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
-      "mechanics_notes": "100-Ki Ki Blast Super; dedicated evidence identifies Expert Mission 19 — A Truly Hellish Transformation.",
-      "source_quest_or_shop": "Expert Mission 19"
     }
   ]
 }
