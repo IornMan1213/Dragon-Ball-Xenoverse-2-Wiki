@@ -10,7 +10,8 @@
     "subcategory",
     "verification_status",
     "sources",
-    "acquisition_type"
+    "acquisition_type",
+    "usable_by_cac"
   ],
   "properties": {
     "name": {
