@@ -793,3 +793,9 @@
 - Corrected 5 deterministic `source_parallel_quests` values in `docs/data/skills-index.json` to match canonical `docs/data/skills.json`: Candy Beam, Kamehameha, Mach Dash, Time Control, and Warp Kamehameha.
 - Validation: 429 canonical skills / 429 index records; the targeted projection family now has **0 mismatches** and no internal citation artifacts.
 - Commit: `69404599e87914ea5dafe993a154d1e86b0312c9`.
+
+
+### 2026-09-21 — skills-index source provenance projection parity
+- Corrected 3 deterministic `sources` projections in `docs/data/skills-index.json` for God Splitter, Heavenly Arrow, and Instant Severance to match canonical provenance, including the existing Zamasu source.
+- Validation: 429 canonical skills / 429 index records; targeted source parity is clean and no internal citation artifacts were introduced.
+- Commit: `20b6a147dae05e99a4b6aa218586709a23f55115`.
