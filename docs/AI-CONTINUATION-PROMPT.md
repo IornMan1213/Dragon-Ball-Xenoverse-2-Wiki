@@ -5427,3 +5427,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow success claimed.
 - Commit: `6fafe9a8eaecc079b94f59884789cf33f49c2474`.
 - Exact next batch: recompute the nullable-`ki_cost` census and continue with **Majin Buu's four null-cost mentor skills: Innocence Bullet, Angry Hit, Innocence Cannon, Innocence Breath**, if explicit current Ki Used evidence is available.
+
+
+### 2026-09-21 cycle update — Majin Buu mentor skill Ki-cost verification
+- Workstream: **P1 skill acquisition/mechanics data-quality cleanup, bounded to explicit Ki-cost evidence**.
+- Live canonical skill census before editing: **428 records; 78 nullable `ki_cost` records**.
+- Bounded batch: **Innocence Bullet, Angry Hit, Innocence Cannon, Innocence Breath** from Majin Buu mentor training.
+- Research/evidence: current Xenoverse 2 skill references explicitly document **100 Ki, 100 Ki, 100 Ki, and 300 Ki** respectively. Existing repository provenance already establishes their Majin Buu mentor-training endpoints.
+- Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. No mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **74**. The skill index was not given a new Ki-cost projection because its established projection contract does not include that field. Changed repository text was checked for internal AI/UI/search citation artifacts after correcting an audit-file citation artifact; none remain in the edited files.
+- CI: no actionable workflow/status result exposed yet; **no CI success claimed**. Validators were not weakened.
+- Commits: `cc61629f11788b994cbddc8ba246ba552f6b97b1` (canonical), `e5b9cf8d6de24c9d4c143c8e2b0f25eb9737e672` (audit correction), `92f8eb368eff41c0882776abef12c02d33be2b44` (changelog).
+- Exact next task: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor or other evidence-backed family, prioritizing explicit current `Ki Used` values and preserving variable-cost forms.**
