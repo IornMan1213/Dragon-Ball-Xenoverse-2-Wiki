@@ -4879,3 +4879,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Remaining unresolved endpoints: **Krillin → Orin Combo; Krillin → Scatter Kamehameha; Zamasu → I'm thinking of becoming a GodTuber (Super Soul)**.
 - Commits: `4380439d25cf7acfbf80b20d8a7b1647f42a4965` (skills), `3d20cb815e885bc9bb204674ba4938e6d93e096d` (skill index), `9a4392d4d7214e35440355d3f6aaa3919dab1900` (mentor layer), `e2858d62af80ed44bde84f3049b461d822d4933a` (coverage), plus changelog and this handoff update.
 - Exact next batch: **Krillin plus the remaining unresolved mentor frontier**. First audit Orin Combo and Scatter Kamehameha against canonical records; then sweep the remaining mentor layer for unresolved endpoints that are actual skills versus Super Souls/non-skill rewards. Do not create fake skill records for non-skill rewards. Continue into the next mentor group in the same cycle if the unresolved frontier is exhausted quickly.
+
+
+### 2026-09-21 cycle update — Krillin mentor graph completion
+- Added **Orin Combo** and **Scatter Kamehameha** as the two missing Krillin canonical skill records and linked both mentor lesson endpoints.
+- Research confirmed Krillin's Xenoverse 2 mentor sequence is Rise to Action → Orin Combo → Destructo-Disc → Scatter Kamehameha. `Spread Shot Retreat` is a separate Evasive in Krillin's moveset and was not incorrectly modeled as a mentor lesson reward. cite⁠​⁠⁠
+- Validation: **420 skills / 420 index records / 420 taxonomy total / 133 lessons / 132 resolved edges / 1 unresolved endpoint / 32 fully linked mentors / 1 partially linked mentor / 0 duplicate canonical IDs**.
+- Remaining unresolved frontier: **Zamasu → I'm thinking of becoming a GodTuber**, explicitly a Super Soul/non-skill reward. No fake skill record should be created for it.
+- Exact next work: audit the broader mentor records for any other non-skill reward typing gaps, then continue the next substantive data workstream while preserving the cross-database graph architecture.
