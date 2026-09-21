@@ -1062,3 +1062,9 @@
 
 ### 2026-09-21 — Conton City Vote Pack count correction
 - Corrected the provenance audit count from 10 to 11 canonical DLC-labeled records, distinguishing the ten additional moves from character-specific Supersonic Mode.
+
+
+### 2026-09-21 — Hero of Justice Pack 1 provenance audit
+- Audited all seven canonical Hero of Justice Pack 1 additional moves against official publisher documentation and maintained PQ evidence.
+- Confirmed all seven map to PQ155–158 with matching provenance.
+- No DLC provenance mismatch found; unrelated acquisition and reward semantics were not normalized.
