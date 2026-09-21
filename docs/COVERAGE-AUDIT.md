@@ -4088,3 +4088,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Added `parallel_quest` to the schema enum so the schema matches the documented acquisition taxonomy.
 - No skill record values were changed in this pass.
 - Schema commit: `1f80924b5532a58c4f4cf18cfe9c2cf0006e3347`.
+
+
+### 2026-09-20 cycle update — taxonomy and synchronization audit
+- Re-checked the acquisition taxonomy after adding `parallel_quest` to the schema.
+- Canonical `skills.json` and `skills-index.json` both contain exactly 283 records, identical ordering, 0 duplicate names, and 0 mismatches across acquisition-critical fields (`name`, `acquisition_type`, `unlock_method`, `ultimate_finish_required`, `source_quest`, `race_restriction`, `source_quest_or_shop`).
+- All seven acquisition types currently present in data are represented by the schema enum; no unsupported or unused enum values remain.
+- Reviewed non-PQ records for obvious route/type contradictions (shop, TP Medal Shop, Shenron, character-only, starting-move, mentor/time-rift routes); no deterministic correction was supported by the current taxonomy/evidence, so no speculative reclassification was made.
+- Exact next task: continue source-evidence auditing for the remaining pooled/multi-source records and inspect repository documentation/validators for any other stale taxonomy assumptions.
