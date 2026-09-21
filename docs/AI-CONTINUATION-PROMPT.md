@@ -3377,3 +3377,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - No unsupported PQ or Ultimate Finish route was added.
 - Audit commit: **03fd38795b8259d72d5cfb2c9c3ce6206a26fde7**.
 - Exact next task: continue auditing remaining non-PQ other_nonquest or starting-move records for concrete CaC acquisition wording.
+
+
+### 2026-09-20 cycle update — non-PQ acquisition-route pass completed
+- Rechecked the remaining `other_nonquest`, `starting_move`, and `character_only` records.
+- Afterimage and Super Guard now have concrete CaC starting-choice wording; the previously refined character-only/built-in records retain explicit roster-status notes.
+- No further safe route correction met the evidence threshold, so no unsupported acquisition detail was added.
+- Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, and zero acquisition-critical mismatches.
+- Audit commit: **48a63aab1ec7a7d654c6ca42847f5714c37e07aa**.
+- Exact next task: **audit remaining generic Skill Shop / TP Medal Shop records for concrete prerequisite/timing wording, without treating historical shop prices or rotations as current facts.**
