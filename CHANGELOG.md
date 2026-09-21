@@ -490,3 +490,10 @@
 - Synchronized `source_parallel_quests` so skill → PQ reverse navigation now retains the verified PQ IDs rather than relying only on prose acquisition fields.
 - Updated `pq-skill-crosslink-report.json`: **236 forward skill edges / 236 reverse skill endpoints / 0 unresolved forward edges / 0 orphaned reverse sources**.
 - Validation: **429 canonical skills / 429 index records / 429 taxonomy total**.
+
+
+## 2026-09-21 — PQ to Super Soul relationship reconciliation
+- Linked PQ006 (Saibamen's Revenge) to canonical Super Soul super-soul-009 (You cocky little...!).
+- Updated pq-reward-relationships.json, parallel-quests-record-layer.json, and pq-super-soul-crosslink-report.json.
+- Validation: 138 master PQ-to-Super Soul relationships; 11 canonical forward edges; 11 reverse edges; 31 unresolved canonical Super Soul endpoints; 0 bidirectional mismatches; 0 citation artifacts.
+- CI: latest data-audit and cleanup runs failed with zero recorded steps. Validators were not weakened.
