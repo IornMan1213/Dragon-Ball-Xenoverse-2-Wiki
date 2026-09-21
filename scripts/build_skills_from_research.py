@@ -150,6 +150,7 @@ def build_record(d,p):
  if d.get('element'):r['damage_type']=str(d['element']).title()
  if d.get('source'):r['source_quest_or_shop']=d['source']; r['unlock_method']='See source record'
  if d.get('mentor'):r['character_source']=d['mentor']
+ if d.get('dlc') is not None:r['dlc_requirement']=d['dlc']
  if isinstance(d.get('properties'),list) and d['properties']:r['mechanics_notes']=r['skill_description']='; '.join(map(str,d['properties']))
  if d.get('mechanics'):r['mechanics']=str(d['mechanics'])
  if d.get('summary'):r.setdefault('skill_description',str(d['summary']))
