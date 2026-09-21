@@ -5,6 +5,11 @@ import json,re
 from datetime import date
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCHEMA=ROOT/'docs/data/skills.schema.json'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
+CATALOG_SCHEMA_VERSION='1.2'
+CATALOG_GAME='Dragon Ball Xenoverse 2'
+CATALOG_SOURCE_INDEX='https://dbxv2.fandom.com/wiki/Category:Skills'
+DEFAULT_CATALOG_STATUS='structured_research_catalog'
+DEFAULT_CATALOG_NOTES='Transformation category counts canonical parent records (15); five additional named forms are documented as stages in the Awoken parent records. Unresolved fields remain blank rather than inferred.'
 TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
 INDEX_PROJECTION_FIELDS=('name','class','subcategory','verification_status','research_status','acquisition_type','sources','unlock_method','ultimate_finish_required','last_verified','race_restriction','notes','mechanics_notes','source_quest','source_quest_or_shop')
 def classify_acquisition(d):
@@ -90,7 +95,7 @@ def load_existing():
   if k in m:
    raise ValueError(f'{OUT}: duplicate canonical skill key {k}')
   m[k]=r
- return m
+ return m,d
 def merge_record(m,r,protected=None,blocked=None):
  protected=protected if protected is not None else set(); blocked=blocked if blocked is not None else set()
  try:
@@ -193,7 +198,14 @@ def build_record(d,p):
  return r
 def main():
  if not RESEARCH.exists():raise SystemExit('Structured research corpus is missing.')
- m=load_existing(); protected=set(); blocked=set()
+ m,existing=load_existing(); protected=set(); blocked=set()
+ if existing:
+  for field,expected in (('schema_version',CATALOG_SCHEMA_VERSION),('game',CATALOG_GAME),('source_index',CATALOG_SOURCE_INDEX)):
+   if existing.get(field) != expected:
+    raise ValueError(f'{OUT}: {field} must be {expected!r} when rebuilding the canonical catalog')
+  for field in ('status','notes'):
+   if not isinstance(existing.get(field),str) or not existing[field].strip():
+    raise ValueError(f'{OUT}: {field} must be a non-empty string when rebuilding the canonical catalog')
  for p in sorted(RESEARCH.glob('*.md')):
   try:
    r=build_record(parse_frontmatter(p),p)
@@ -205,7 +217,7 @@ def main():
  awoken=sum(1 for r in rows if r.get('class')=='Awoken' and r.get('subcategory')=='Race')
  counts=dict(TARGET_COUNTS); counts['Transformations']=awoken
  targets=dict(TARGET_COUNTS); targets['Transformations']=15
- payload={'schema_version':'1.2','game':'Dragon Ball Xenoverse 2','source_index':'https://dbxv2.fandom.com/wiki/Category:Skills','generated':date.today().isoformat(),'status':'structured_research_catalog','category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':rows,'notes':'Transformation category counts canonical parent records (15); five additional named forms are documented as stages in the Awoken parent records. Unresolved fields remain blank rather than inferred.'}
+ payload={'schema_version':existing.get('schema_version',CATALOG_SCHEMA_VERSION),'game':existing.get('game',CATALOG_GAME),'source_index':existing.get('source_index',CATALOG_SOURCE_INDEX),'generated':date.today().isoformat(),'status':existing.get('status',DEFAULT_CATALOG_STATUS),'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':rows,'notes':existing.get('notes',DEFAULT_CATALOG_NOTES)}
  OUT.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
  INDEX.write_text(json.dumps({'schema_version':'1.2','source_index':payload['source_index'],'generated':payload['generated'],'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':[{k:r[k] for k in INDEX_PROJECTION_FIELDS if k in r} for r in rows]},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
  print(f'Imported {imported}; total records={len(rows)}; Awoken parent records={awoken}')
