@@ -2446,7 +2446,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - No data files required modification in this spot-check; this handoff update records the completed evidence review rather than fabricating a change.
 - Exact next task: continue the remaining 78-record second-pass audit, prioritizing acquisition-specific fields and DLC/version provenance where the repository still uses broad labels or where source-field contradictions remain. Then inspect GitHub Actions and accidental internal-artifact searches. ### 2026-09-20 cycle update — Actions and artifact validation
 - Workstream: P1 skill second-pass validation / repository hygiene.
-- Rechecked the live skill census and artifact search: **283 skills total; 78 `verified_current_scope`**; repository searches for `filecite`, `memcite`, ` search marker`, and ` file marker` returned no matches.
+- Rechecked the live skill census and artifact search: **283 skills total; 78 `verified_current_scope`**; repository searches for `internal file-citation markup`, `internal memory-citation markup`, ` search marker`, and ` file marker` returned no matches.
 - Inspected the newest GitHub Actions runs for commit `a4271df459c6a58a105d31ab91df810fd6cac75b`. `Clean internal artifacts` and `Repository quality` both completed with **failure**, but their jobs exposed **no recorded steps** (`steps: null`), matching the repository's existing opaque pre-step failure pattern. No validator or workflow was weakened or modified.
 - This cycle produced no additional data correction; uncertain transformation provenance fields were preserved rather than guessed.
 - Exact next task: resume the 78-record skill second-pass audit, targeting acquisition-specific/source-field contradictions and broad DLC/version labels where stronger evidence exists; keep null/uncertain values intact otherwise. Continue inspecting actionable Actions output when available and update this handoff after each completed batch. ### 2026-09-20 cycle update — Surging Spirit acquisition/provenance recheck
@@ -2519,7 +2519,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Audit commit: `82df75784e0080f6a1bde86ed94ec7ae2f4362a4`.
 - Next task: continue source-field contradiction checks and inspect repository-wide validation/quality state without weakening workflows. ### 2026-09-20 cycle update — acquisition contradiction and artifact validation
 - Ran an all-78-record check comparing `ultimate_finish_required` against unlock/source wording; **no contradictions found**.
-- Searched the repository for internal tool/citation artifacts (`filecite`, `memcite`, `internal search-reference ID`, `internal search-reference ID`); **no matches found**.
+- Searched the repository for internal tool/citation artifacts (`internal file-citation markup`, `internal memory-citation markup`, `internal search-reference ID`, `internal search-reference ID`); **no matches found**.
 - No workflow changes were made.
 - Audit commit: `337008a70ecaa8f88d1243c1258fc20a1d1c494b`.
 - Next task: inspect repository validation/quality state and continue any remaining source-field audit without weakening workflows. ### 2026-09-20 cycle update — Actions diagnostics
@@ -2548,7 +2548,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Current skill census remains 283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified.
 - Exact next task: fetch the live skills.json again, verify zero broad DLC labels remain and run the repository-wide internal-artifact search; then inspect the newest Actions state. If clean, continue the remaining 78-record source-field audit, prioritizing any newly discovered historical provenance contradictions rather than broad labels. ### 2026-09-20 cycle update — post-edit validation
 - Post-edit live census confirmed **0** records retain the broad DLC labels `DLC PQ` or `Super Pass`; all 283 skill records remain present.
-- Repository-wide searches for internal assistant artifacts (`filecite`, `memcite`, `internal search-reference ID`, `internal search-reference ID`, ``) returned **0 matches**.
+- Repository-wide searches for internal assistant artifacts (`internal file-citation markup`, `internal memory-citation markup`, `internal search-reference ID`, `internal search-reference ID`, ``) returned **0 matches**.
 - The handoff commit `36ef8d37e0c95b5633d46607e634d10ca31ed4f7` has no pull-request-triggered workflow runs exposed by the connected Actions API. No CI pass is claimed from that absence.
 - No validator/workflow was weakened.
 - Exact next task: continue the remaining 78-record current-scope source-field audit, prioritizing evidence-backed historical acquisition/provenance contradictions; periodically recheck Actions diagnostics and artifact hygiene. ### 2026-09-20 cycle update — targeted current-scope evidence cleanup
@@ -2582,7 +2582,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Preserved the existing 100 Ki Strike Super cost and `ultimate_finish_required: false`. No unsupported drop probability or additional numerical mechanics were promoted.
 - Files changed: `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
 - Commits: `3d59895e88f0a0b15705b7fefcb5aa523beb8c91` (skill data), `2c7fb63299025d1282c7b9b8049928b4a780dbb9` (coverage audit), plus this handoff commit.
-- Validation: live repository artifact searches returned 0 matches for `filecite`, `memcite`, and internal `turn*/tool-result` markers. The updated skill record retains its existing schema shape and provenance fields.
+- Validation: live repository artifact searches returned 0 matches for `internal file-citation markup`, `internal memory-citation markup`, and internal `turn*/tool-result` markers. The updated skill record retains its existing schema shape and provenance fields.
 - CI: the connected GitHub Actions API exposes no workflow runs and no combined status checks for the new skill-data commit; no CI pass is claimed. Validators were not weakened.
 - Evidence limitation: current evidence establishes PQ179 Basic Reward placement, but does not establish an exact drop probability; that remains unresolved.
 - Current skill census remains **283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified** based on the preceding live census; this cycle changed one record's acquisition provenance wording only.
@@ -2684,7 +2684,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
 - Commits: `1e2084b303b385b10db3418d429b110a2d99a369` (Paralysis canonical data), `98f2462dc8a3b8fde224d9bcdec7569720e45b7c` (skill index), `035ce0853b4360204fa588105290c33266eb1027` (audit), `27272f6c2e8afc63c739e66340ebc89193bf93d8` (Dust Attack), `2004a935a67a9ed81638dc019b625472cb687d92` (audit).
 - Evidence limitations: no unsupported drop percentages were added. Paralysis's Basic Reward placement is retained; exact individual RNG/drop probability remains unresolved.
-- Artifact scan: GitHub code searches returned no matches for `filecite`, `memcite`, or `internal search-reference ID` in the indexed repository search.
+- Artifact scan: GitHub code searches returned no matches for `internal file-citation markup`, `internal memory-citation markup`, or `internal search-reference ID` in the indexed repository search.
 - CI: the latest push-triggered Repository quality and Clean internal artifacts runs for `2004a935a67a9ed81638dc019b625472cb687d92` were **queued** at inspection. The immediately preceding Repository quality run for `035ce0853b4360204fa588105290c33266eb1027` failed before actionable steps/logs were exposed; no validator was weakened.
 - Exact next task: continue the pre-2026-09-20 current-scope skill audit, prioritizing remaining canonical type/cost/source mismatches before lower-confidence descriptive enrichment. Recompute the live census first, then inspect the next unresolved records and update both `skills.json` and `skills-index.json` whenever canonical/index fields diverge.
 
@@ -2783,7 +2783,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-20 cycle closeout — CI/artifact inspection
 - Latest handoff commit `d44d1af46b3a76a182dec5be62d843f80d1776e9` has Repository quality and Clean internal artifacts runs **queued** at inspection time.
 - The immediately preceding Wiki data audit run for `b3f92d45c4487381b44216a0388366649582b3f5` **failed** without actionable workflow steps/logs, matching the repository's recurring opaque pre-step failure pattern. No validator was weakened or bypassed.
-- GitHub code searches for `filecite`, `memcite`, `internal search-reference ID`, and `internal search-reference ID` returned no indexed matches.
+- GitHub code searches for `internal file-citation markup`, `internal memory-citation markup`, `internal search-reference ID`, and `internal search-reference ID` returned no indexed matches.
 - Exact next task remains the generic skill acquisition/type audit, beginning with Emperor's Blast and Emperor's Cannon.
 
 
