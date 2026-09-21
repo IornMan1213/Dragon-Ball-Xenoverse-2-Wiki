@@ -777,13 +777,15 @@
       "pq_record_id": "pqacc-023",
       "name": "Android 14's Hat",
       "pq_number": 104,
-      "match_status": "unmatched_identity"
+      "match_status": "researched_unresolved",
+      "note": "PQ104 source evidence identifies Android 14's Clothes, not a separately named Android 14's Hat accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
     },
     {
       "pq_record_id": "pqacc-025",
       "name": "Bardock (DB Super)'s Scouter",
       "pq_number": 146,
-      "match_status": "unmatched_identity"
+      "match_status": "researched_unresolved",
+      "note": "PQ146 source evidence identifies Bardock (DB Super)'s Clothes, not a separately named Bardock (DB Super)'s Scouter accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
     }
   ]
 }
