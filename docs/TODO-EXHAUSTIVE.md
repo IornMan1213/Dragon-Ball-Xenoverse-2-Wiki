@@ -1415,3 +1415,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Canonical commit: `c6c5c7a0695044d293e6382f0d39e5d120f9fdb5`.
 - [ ] Next task: recompute the live DLC-label/source relationship census and continue the exhaustive character-only/DLC completeness audit with the next deterministic cluster, prioritizing official package scope versus canonical character/source endpoints and preserving reward-tier conflicts.
 
+### 2026-09-21 — Master ledger completion marking: PQ21-PQ30 reward reconciliation
+- [x] **PQ21-PQ30 reward reconciliation completed.** Compared all ten canonical PQ records against `docs/data/parallel-quest-research-batches/pq-batch-03.json`.
+- [x] Canonical reward, skill-reward, equipment-reward, and Super Soul relationship fields already matched the maintained research batch; **no canonical data rewrite was necessary**.
+- [x] Live research coverage remains **186/186 canonical PQs / 186/186 research-batch records / 0 missing / 0 duplicate**.
+- [x] Exact reward-slot/drop percentages remain unresolved where the research batch does not establish them; no unsupported Ultimate Finish-only gate was inferred.
+- [ ] Next PQ reward task: recompute the live reward-completeness census and select the next bounded PQ range with deterministic research-backed reward gaps.
