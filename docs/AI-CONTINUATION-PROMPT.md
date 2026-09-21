@@ -6168,3 +6168,16 @@ The repository owner has clarified the continuation contract:
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, `docs/TODO-EXHAUSTIVE.md`, and this handoff.
 - Commits: `90c38fc82cba07d0dc557aca1f92d539c0c4dbf5` (canonical), `8ea4b572b601ad9b94652ff888203751d0ee812a` (index), `4b2775a9f954b2db43c68c4534895d7b44d61b62` (coverage), `02270822052759c7ad7740ed637a94c1a5880ae8` (TODO).
 - Exact next task: **recompute the live DLC-label/source-relationship census after this Chapter 3 completeness correction and select the next deterministic character-only/DLC cluster with a concrete missing endpoint or provenance mismatch. Do not reopen Chapter 3 unless new contradictory evidence appears.**
+
+
+### 2026-09-21 cycle update — Free Update 11 skill completeness correction
+- Workstream: **P1 skill DLC/free-update provenance and completeness cleanup**.
+- Live census before editing: **432 canonical skill records / 432 index records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded cluster: **Free Update 11's 9 documented skills** — Holy Inscription, Kairos Cannon, Temporal Holy Ray, Chaos Wall, Timespace Impact, Godly Chronos Cannon, Soaring Fist, Divine Kamehameha, and Godly Display.
+- Current update documentation explicitly lists all nine. The canonical registry already contained Divine Kamehameha and Godly Display but was missing the other seven endpoints.
+- Changes: added **Holy Inscription, Kairos Cannon, Temporal Holy Ray, Chaos Wall, Timespace Impact, Godly Chronos Cannon, and Soaring Fist** to `docs/data/skills.json`; projected them into `docs/data/skills-index.json`; synchronized category and record counts.
+- Evidence boundaries: directly documented tournament match/shop endpoints and current resource costs were recorded. No unsupported drop percentages or additional event prerequisites were inferred.
+- Validation: **439 canonical / 439 index / 0 duplicate IDs / 0 nullable `ki_cost` values / 9 Free Update 11 records**, matching the documented nine-skill update scope. No internal ChatGPT/tool citation markup was added to repository data.
+- CI: inspect the latest canonical/index/documentation commits for workflow runs; no CI success is claimed unless GitHub exposes an actual run/status.
+- Commits: `8d7e79997949c60dcdd950803363adc54c5df4dd` (canonical), `5a8f644a1efdff441bc736612a039fa2df06760` (index), `7f8623f70fa7c6c7559175ed2397afad65acbe80` (coverage before citation-markup cleanup), `85def00857f796eba2a03fd47c2d6a420f44814a` (coverage cleanup), `9d16b6de8354a4742aaf9aa020d769bd0b1a8dbb` (TODO).
+- Exact next task: **recompute the live DLC/free-update source census and select the next deterministic completeness/provenance cluster with a concrete missing endpoint or mismatch; prioritize missing canonical endpoints over low-confidence prose enrichment.**
