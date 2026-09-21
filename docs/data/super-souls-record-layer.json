@@ -4157,6 +4157,60 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/send-me-back-to-the-planet-i-came-from.md",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
+    },
+    {
+      "id": "super-soul-152",
+      "name": "So fast! Are they learning how to use their power?!",
+      "character_source": "Vegeta",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "When succeeding at a Just Guard; can trigger up to 3 times",
+      "effect_text": "Restores Stamina (L); boosts the strength of all attacks (M), stacking up to 3 times; also boosts the opponent's attacks (S), stacking up to 3 times.",
+      "effect_magnitude": "~+100 Stamina and ~+10% own attack strength per successful Just Guard, max ~+30%; opponent ~+5% per stack (community-measured)",
+      "duration": null,
+      "stacking_behavior": "Own and opponent attack buffs stack up to 3 times; trigger can be used up to 3 times.",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Official/datamined effect establishes the Just Guard trigger, stamina restoration, M/S attack boosts, and 3-stack limits. Magnitudes are community-measured. Acquisition is the 5th Festival of Universes Total Glory Point Reward with TP Medal Shop rotation.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Festival of Universes",
+      "acquisition_source": "Total Glory Point Reward in the 5th Festival of Universes; TP Medal Shop rotation (20 TP Medals)",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/so-fast-are-they-learning-how-to-use-their-power.md",
+        "https://dbxv2.fandom.com/wiki/Festival_of_Universes"
+      ]
+    },
+    {
+      "id": "super-soul-153",
+      "name": "Enough food for one person...",
+      "character_source": "Paragus",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "Once only when an ally gets KO'ed (heal); when an ally gets KO'ed (regen window)",
+      "effect_text": "Restores Health (L) once; when an ally gets KO'ed, temporarily activates Health Auto-Recovery Mode.",
+      "effect_magnitude": "~+20% instant heal once, plus ~10 seconds of health regeneration per ally KO (community-measured)",
+      "duration": null,
+      "stacking_behavior": "The instant Health restoration is once only; the Health Auto-Recovery trigger can activate on each ally KO.",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Official/datamined effect establishes the once-only Health restoration and ally-KO Health Auto-Recovery trigger. Magnitudes/duration are community-measured. Acquisition is the 5th Festival of Universes Total Glory Point Reward with TP Medal Shop rotation.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Festival of Universes",
+      "acquisition_source": "Total Glory Point Reward in the 5th Festival of Universes; TP Medal Shop rotation (20 TP Medals)",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/enough-food-for-one-person.md",
+        "https://dbxv2.fandom.com/wiki/Festival_of_Universes"
+      ]
     }
   ],
   "research_notes": [
