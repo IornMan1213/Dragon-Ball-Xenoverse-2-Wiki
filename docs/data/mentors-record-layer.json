@@ -212,12 +212,12 @@
         {
           "lesson": "initiation",
           "skill_name": "Evil Ray Strike",
-          "skill_id": null
+          "skill_id": "skill-evil-ray-strike"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Evil Rise Strike",
-          "skill_id": null
+          "skill_id": "skill-evil-rise-strike"
         },
         {
           "lesson": "lesson-2",
@@ -227,11 +227,14 @@
         {
           "lesson": "lesson-3",
           "skill_name": "Explosive Assault",
-          "skill_id": null
+          "skill_id": "skill-explosive-assault"
         }
       ],
       "skills": [
-        "skill-masenko"
+        "skill-masenko",
+        "skill-evil-ray-strike",
+        "skill-evil-rise-strike",
+        "skill-explosive-assault"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -294,21 +297,24 @@
         {
           "lesson": "lesson-1",
           "skill_name": "Finish Breaker",
-          "skill_id": null
+          "skill_id": "skill-finish-breaker"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Flash Strike",
-          "skill_id": null
+          "skill_id": "skill-flash-strike"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Final Flash",
-          "skill_id": null
+          "skill_id": "skill-final-flash"
         }
       ],
       "skills": [
-        "skill-galick-gun"
+        "skill-galick-gun",
+        "skill-finish-breaker",
+        "skill-flash-strike",
+        "skill-final-flash"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -1231,13 +1237,14 @@
         {
           "lesson": "lesson-3",
           "skill_name": "Time Skip/Tremor Pulse",
-          "skill_id": null
+          "skill_id": "skill-time-skip-tremor-pulse"
         }
       ],
       "skills": [
         "skill-time-skip-flash-skewer",
         "skill-time-skip-back-breaker",
-        "skill-time-skip-jump-spike"
+        "skill-time-skip-jump-spike",
+        "skill-time-skip-tremor-pulse"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -1301,20 +1308,24 @@
         {
           "lesson": "lesson-1",
           "skill_name": "God Splitter",
-          "skill_id": null
+          "skill_id": "skill-god-splitter"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Heavenly Arrow",
-          "skill_id": null
+          "skill_id": "skill-heavenly-arrow"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Instant Severance",
-          "skill_id": null
+          "skill_id": "skill-instant-severance"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-god-splitter",
+        "skill-heavenly-arrow",
+        "skill-instant-severance"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
