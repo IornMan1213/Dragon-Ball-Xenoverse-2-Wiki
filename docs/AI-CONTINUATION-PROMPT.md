@@ -4688,3 +4688,9 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 correction — Time Rift relationship edge count
 - Correction to the immediately preceding Time Rift cycle entry: the canonical report contains **6 forward Time Rift → skill edges**, not 7. Capsule Corporation has two linked skills and each of the other four race-focused rifts has one; Future Super Saiyan's five-rift fan-out is represented in the reverse skill relationship and does not add a second forward edge per rift beyond the canonical rift→skill mapping.
 - Live relationship validation remains **6 Time Rift-linked skills / 6 forward canonical rift→skill edges / 0 broken endpoints**. No data model or relationship endpoint is changed by this clarification.
+
+
+### 2026-09-21 correction — complete Future Super Saiyan Time Rift fan-out
+- The previous edge-count correction is superseded by a data-model completion: each of the five canonical Time Rift endpoints now explicitly lists Future Super Saiyan as a dependent unlock relationship, because all five Distorted Time Eggs are required for Unknown History.
+- Regenerated time-rift-skill-crosslink-report.json. Live relationship count is now **6 skills linked to Time Rifts / 11 forward Time Rift → skill edges / 0 broken endpoints**.
+- This preserves deterministic navigation in both directions: each rift can expose its race-specific Awoken skill plus its contribution to Future Super Saiyan, while Future Super Saiyan resolves back to all five rifts and Unknown History.
