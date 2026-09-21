@@ -904,7 +904,8 @@
       "source_quest": 66,
       "source_quest_or_shop": "Parallel Quest 66 — \"Majin Revival\"",
       "source_parallel_quests": [
-        66
+        66,
+        113
       ]
     },
     {
@@ -4305,7 +4306,8 @@
       "source_quest": 5,
       "source_quest_or_shop": "Parallel Quest 5 — \"Saiyan Blood\"",
       "source_parallel_quests": [
-        5
+        5,
+        48
       ]
     },
     {
@@ -4454,6 +4456,7 @@
       "source_quest": 18,
       "source_quest_or_shop": "Parallel Quest 18 — \"Force Entrance Exam\"",
       "source_parallel_quests": [
+        11,
         18
       ]
     },
@@ -6995,6 +6998,7 @@
       "source_quest": 18,
       "source_quest_or_shop": "Parallel Quest 18 — \"Force Entrance Exam\"",
       "source_parallel_quests": [
+        11,
         18
       ]
     },
@@ -7418,6 +7422,7 @@
       "source_quest": 76,
       "source_quest_or_shop": "Parallel Quest 76 — \"Eternal Rival\"",
       "source_parallel_quests": [
+        66,
         76
       ]
     },
