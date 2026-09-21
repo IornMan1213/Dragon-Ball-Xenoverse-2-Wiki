@@ -6454,3 +6454,15 @@ The repository owner has clarified the continuation contract:
 - CI: no workflow runs were exposed for the cycle's repository commits; no CI success is claimed and no validators were weakened.
 - Commits: canonical `c24fcac20cb1e8af093e88b617a0b93ab0afdf18`; index `3805303df42a4bb7e482810f9b86a158348231b2`; ledger `9335ebd3abf71b72c8f12304063473ff6db85940`.
 - Exact next batch: **recompute the live two-source census and continue with the next deterministic low-source cluster after PQ177, verifying the source-PQ/reward-tier relationship before adding provenance.**
+
+
+### 2026-09-21 continuation — Dragon Ball DAIMA Pack provenance
+- Workstream: **P1 skill provenance/source integrity**.
+- Live two-source census before this batch: **61 exactly-two-source records**.
+- Bounded batch: **Supreme Fury (PQ179)** and **Super Kamehameha (SS4 DAIMA) (PQ181)**.
+- Evidence: the maintained PQ/skill corpus identifies Supreme Fury with PQ179 and Super Kamehameha (SS4 DAIMA) with PQ181. Bandai Namco's official Dragon Ball DAIMA Pack announcement independently confirms that the DLC includes Parallel Quests and player skills; the maintained DLC reference identifies PQ179, PQ180, and PQ181 as the pack's three Parallel Quests.
+- Changes: added the official Bandai Namco DAIMA Pack announcement as a third provenance source to both skill records and synchronized `docs/data/skills-index.json`. No reward-tier, Ultimate Finish, DLC, restriction, or mechanics semantics were rewritten.
+- Validation after write: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 59 exactly-two-source records**; canonical/index source and verification parity remains clean.
+- CI: no workflow runs were exposed for the cycle's repository commits; no CI success is claimed and no validators were weakened.
+- Commits: canonical `f4aadae541e6134153d0c7713fa20163f105759c`; index `3ef648ab86a9d775481e759a6152fbf5e245d9a3`; ledger `97a6c1718af470dc7c3bdd00b789d0cac632e5be`.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source cluster after PQ181, verifying source-PQ/reward-tier consistency before adding provenance.**
