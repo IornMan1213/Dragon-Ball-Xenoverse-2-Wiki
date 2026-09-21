@@ -5193,3 +5193,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow result exposed during this cycle; **no CI success claimed**. Validators were not weakened.
 - Commit: `9ca5147646a60ceb411dfca5dfdfb924e8a566d2`.
 - Exact next batch: **recompute the live skill census, then inspect the remaining 4 records with nullable `source_quest` and the 3 records with nullable `race_restriction`; prioritize only deterministic cross-layer fixes supported by existing repository evidence, without inventing acquisition routes.**
+
+### 2026-09-21 cycle update — skill-index source/restriction projection correction
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, bounded deterministic skill-index reconciliation.
+- Live census before/after: **429 canonical skills / 429 skill-index records**.
+- Bounded batch: five exact projection values where `docs/data/skills-index.json` had drifted from canonical `docs/data/skills.json`: Data Input `source_quest` → `EM-20`; Final Pose `source_quest` → `74`; Super Spirit Bomb `source_quest` → `EM-16`; Supernova `source_quest` → `EM-6`; Ill Bomber `race_restriction` → `Majin`.
+- Research/evidence: repository-local canonical data and `scripts/build_skills_from_research.py` establish that these fields are projected from the canonical skill records. No external claim was added.
+- Changes: corrected only those five index fields. No acquisition route, Ultimate Finish status, mechanics, DLC provenance, or unresolved race evidence was altered.
+- Evidence limits: the live canonical/index comparison still contains **91 broader projected-field drifts** from later canonical enrichment, including newer `last_verified` and mechanics-note text and other projected fields. This cycle deliberately stayed bounded and did not regenerate the whole projection.
+- Validation: both skill JSON layers parse; 429 records exist in each; the five targeted source/restriction values match canonical when validated at the latest commit. The edited index contains **0 internal AI/UI/search citation artifacts**. Canonical `source_quest` nulls are confined to non-quest/character/shop/starting acquisitions in the current 429-record layer; no missing quest acquisition was fabricated. The three canonical null `race_restriction` records remain intentionally unresolved because current evidence does not establish narrower CaC scope.
+- CI: combined status and commit workflow-run lookup for the skill-index commits returned **no exposed statuses or workflow runs**; no CI success claimed and validators were not weakened.
+- Commits: `ad2bd70044d982245819621ea63c66116ffc1490`, `53959c1bfcf0bbb0c67d6625bdb7c429cd643c0e`, `1edc204ca3a085a19747ea79337833696102c39c`, `6d42478b0b83eabc137d48304613f911e7c9031d`.
+- Exact next batch: **audit 4–12 remaining deterministic skill-index drifts from the recent canonical enrichment, prioritizing one coherent projected field family (first `last_verified` updates) and validating each change against the canonical producer before writing.**
+
