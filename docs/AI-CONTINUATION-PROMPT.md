@@ -4678,3 +4678,8 @@ Only after data-completeness work, expose the improved structured research surfa
 - Exact next batch: **extend the same deterministic relationship pattern to the remaining race/time-rift acquisition skills (including Become Giant as a reverse-link completion check), then move into Future Saga acquisition endpoints for later Awoken skills.**
 
 - Persistent cross-database design requirement: continue making acquisition databases navigable in both directions (for example PQ → skill → skill details/source, and now Time Rift → skill → skill details/source). Prefer deterministic IDs and forward/reverse reports over prose-only relationships.
+
+
+### 2026-09-21 correction — Time Rift relationship edge count
+- Correction to the immediately preceding Time Rift cycle entry: the canonical report contains **6 forward Time Rift → skill edges**, not 7. Capsule Corporation has two linked skills and each of the other four race-focused rifts has one; Future Super Saiyan's five-rift fan-out is represented in the reverse skill relationship and does not add a second forward edge per rift beyond the canonical rift→skill mapping.
+- Live relationship validation remains **6 Time Rift-linked skills / 6 forward canonical rift→skill edges / 0 broken endpoints**. No data model or relationship endpoint is changed by this clarification.
