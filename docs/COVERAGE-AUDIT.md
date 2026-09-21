@@ -4867,9 +4867,21 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 - Live canonical skill census before editing: **428 records; 62 nullable `ki_cost` records**.
 - Bounded batch: **Super Ghost Kamikaze Attack (Super) (100), Galactic Donuts (100), DIE DIE Missile Barrage (100), Super Ghost Kamikaze Attack (Ultimate) (300)**.
-- Current Xenoverse 2 skill references explicitly document these Ki-used values. citeturn1search0turn1search4turn1search1turn1search2
+- Current Xenoverse 2 skill references explicitly document these Ki-used values.
 - Changes were limited to canonical `ki_cost` plus `last_verified=2026-09-21`; the Super and Ultimate variants were kept as separate canonical records.
 - Expected post-edit census: **428/428 records, 0 duplicate IDs, 58 nullable `ki_cost` records**. No index Ki-cost projection introduced.
 - CI: no success claimed without an actionable exposed run.
 - Commit: `eba3d203462ffbd6798745738e422c690ca282cd`.
+- Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+
+### 2026-09-21 — Android 18 mentor skill Ki-cost verification
+
+- Live canonical skill census before editing: **428 records; 58 nullable `ki_cost` records**.
+- Bounded batch completed: **Power Blitz (100), Endless Shoot (100), Deadly Dance (100), Dual Destructo-Disc (300)**. Three values were already canonical; this cycle verified the family and filled the remaining nullable Power Blitz record.
+- Current Xenoverse 2 skill references explicitly document these Ki-used values. citeturn1search2turn1search0turn1search1turn2search0
+- Changes were limited to canonical `ki_cost` plus `last_verified=2026-09-21`; Endless Shoot's variable continuation cost was preserved rather than flattened.
+- Expected post-edit census: **428/428 records, 0 duplicate IDs, 57 nullable `ki_cost` records**. No index Ki-cost projection introduced.
+- CI: no success claimed without an actionable exposed run.
+- Commit: `908d988a1090165c6d08eeba2c272ff6b138f942`.
 - Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
