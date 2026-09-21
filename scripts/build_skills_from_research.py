@@ -4,7 +4,7 @@ from __future__ import annotations
 import json,re
 from datetime import date
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
+ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCHEMA=ROOT/'docs/data/skills.schema.json'; RESEARCH=Path('/tmp/xv2-research/content/skills'); LOCAL_BATCHES=ROOT/'docs/data/skill-research-batches'
 TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
 INDEX_PROJECTION_FIELDS=('name','class','subcategory','verification_status','research_status','acquisition_type','sources','unlock_method','ultimate_finish_required','last_verified','race_restriction','notes','mechanics_notes','source_quest','source_quest_or_shop')
 def classify_acquisition(d):
@@ -126,7 +126,14 @@ def merge_record(m,r,protected=None,blocked=None):
    raise ValueError(f"invalid correction metadata for {n}: correction_fields must be a non-empty list of unique field names")
   if 'sources' in declared_fields:
    raise ValueError(f"invalid correction metadata for {n}: sources is provenance and cannot be replaced or cleared by correction_fields")
-  canonical_fields={'name','class','subcategory','race_restriction','usable_by_cac','character_source','dlc_requirement','level_requirement','ki_cost','stamina_cost','damage_type','unlock_method','source_quest_or_shop','ultimate_finish_required','skill_description','mechanics_notes','combo_notes','pve_notes','pvp_notes','research_status','verification_status','last_verified','sources','source_quest','acquisition_type','description','duration_seconds','ki_cost_note','mechanics','notes','race_restrictions'}
+  try:
+   schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
+  except (OSError,json.JSONDecodeError) as exc:
+   raise RuntimeError(f'Failed to load canonical skill schema {SCHEMA}: {exc}') from exc
+  canonical_fields=set(schema.get('properties',{}))
+  if not canonical_fields:
+   raise ValueError(f'{SCHEMA}: schema properties must be a non-empty object')
+  canonical_fields.discard('sources')
   unsupported=[field for field in declared_fields if field not in canonical_fields]
   if unsupported:
    raise ValueError(f"invalid correction metadata for {n}: unsupported correction fields: {', '.join(unsupported)}")
