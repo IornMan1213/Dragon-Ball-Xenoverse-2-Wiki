@@ -4599,3 +4599,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: workflow/status results remain unavailable; **no CI success claimed** and validators were not weakened.
 - Commit: a14d8a7025124ca12a54e55c4b4ba9ffa701cf15.
 - Exact next batch: **Energy Charge, Final Pose, Full Power Charge, Galick Gun, Indomitable, Instant Transmission, Masenko, Maximum Charge, Perfect Shot, and Potential Unleashed** — repeat the same canonical→index last_verified parity check and bounded update.
+
+
+### 2026-09-21 cycle update — skill-index last_verified projection batch 2
+
+- Live census before editing: **429 canonical skills / 429 skill-index records**.
+- Bounded batch: **10 deterministic last_verified projection corrections** — Energy Charge, Final Pose, Full Power Charge, Galick Gun, Indomitable, Instant Transmission, Masenko, Maximum Charge, Perfect Shot, and Potential Unleashed.
+- Evidence: canonical `docs/data/skills.json` is the producer for the index projection; no new external acquisition/mechanics claim was introduced.
+- Changes: updated only the corresponding `last_verified` values in `docs/data/skills-index.json` to match canonical values.
+- Evidence limits: deterministic cross-layer parity correction, not a new verification event; the remaining 10 `last_verified` mismatches are intentionally left for the next bounded batch.
+- Validation: both JSON layers parse; 429/429 record counts remain unchanged; all 10 targeted values now match canonical; **10** `last_verified` mismatches remain; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: commit workflow-run lookup and combined status for `124138ef8edeba905223caa0cb4b6de2082f69f5` returned **no runs and no statuses**; no CI success claimed and validators were not weakened.
+- Commit: `124138ef8edeba905223caa0cb4b6de2082f69f5`.
+- Exact next batch: **Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, The Power to Overcome, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Venus Fist**, using the same canonical→index `last_verified` parity check.
