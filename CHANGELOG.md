@@ -544,3 +544,12 @@
 - Updated docs/data/record-expansion-contract.json and docs/data/pq-super-soul-crosslink-report.json to formalize and audit the bidirectional relationship layer.
 - Validation: 50 canonical Super Soul records; 13 forward / 13 reverse PQ↔Super Soul edges; 37 Super Souls remain without an explicit PQ endpoint; 0 broken relationship endpoints; 186 canonical PQ records; all changed JSON parsed successfully.
 - Evidence limits: exact drop percentages were retained only where directly source-backed (including the documented 50% rolls for the two new PQ rewards); raid/shop/story acquisition details remain provenance-labeled rather than inferred.
+
+
+## 2026-09-21 — Super Soul 056-063 + PQ reverse-link reconciliation
+
+- Added 8 canonical Super Soul records (`super-soul-056` through `super-soul-063`).
+- Synchronized PQ93, PQ160, and PQ180 with explicit Super Soul reward/ID endpoints.
+- Rebuilt `docs/data/pq-super-soul-crosslink-report.json` from the live Super Soul registry: 16 forward / 16 reverse edges.
+- Preserved evidence boundaries: Mix Shop, TP Medal Shop, and limited-time Raid routes remain provenance-labeled; the source corpus's community measurements are not promoted to exact canonical percentages where the effect text only specifies L/M/XL/XXL.
+- Validation target for this bounded batch: canonical Super Soul count 58; no relationship endpoint should be orphaned.
