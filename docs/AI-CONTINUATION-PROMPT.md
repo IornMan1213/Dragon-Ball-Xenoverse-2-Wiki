@@ -5683,3 +5683,15 @@ The repository owner has clarified the continuation contract:
 - CI: canonical commit `dde2188588fdaff5c81c799f06a0bbadcfcc165b` must be checked for exposed status/workflow results; no success is claimed without an actual result.
 - Commits: canonical `dde2188588fdaff5c81c799f06a0bbadcfcc165b`; coverage audit `950141440e4c4c7686e70f29ee9be57269bb1dae`; changelog `7e04c6d0b2655c9fd878f7c6aec7e572fd79dfc0`; TODO completion `0d760b850ad0ed882102974ab5bd1646f2c405a1`.
 - Exact next task: **recompute the live nullable `ki_cost` census and continue with the next tightly bounded unresolved skill/family, prioritizing explicit current `Ki Used` evidence and preserving fixed, zero, and variable costs distinctly.**
+
+
+### 2026-09-21 — Bounded Ki-cost batch: Evil Rise Strike / Explosive Assault / Finish Breaker
+- Live census before batch: **428 canonical skills; 0 duplicate IDs; 17 nullable ki_cost records**.
+- Completed **Evil Rise Strike — 100 Ki**. Current skill reference explicitly lists Ki Used: 100 and Gohan (Kid) training acquisition.
+- Completed **Explosive Assault — 300 Ki**. Current skill reference explicitly lists Ki Used: 300 and Gohan (Kid) training acquisition.
+- Completed **Finish Breaker — 100 Ki**. Current skill reference explicitly lists Ki Used: 100 and Vegeta training acquisition.
+- Canonical changes were limited to ki_cost and last_verified=2026-09-21 for these three records.
+- Post-write validation: **428 records; 0 duplicate IDs; 14 nullable ki_cost records**. The three target values were re-read successfully; variable-cost records were untouched.
+- Research source descriptions: current Xenoverse 2 skill-reference pages for Evil Rise Strike, Explosive Assault, and Finish Breaker; each page exposes the explicit Ki Used value.
+- Canonical commit: 76057f81bf7da7aa477081f8c300d0472b1b498a.
+- Exact next task: recompute the live nullable census and research the next bounded unresolved record/family; current queue begins with **Dimension Cannon, Flash Strike, Final Flash**.
