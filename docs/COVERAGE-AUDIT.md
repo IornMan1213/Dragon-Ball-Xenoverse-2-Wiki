@@ -4171,3 +4171,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No canonical data was changed.
 - Commit: `26492c947f35359f6f41cfc17ebd062ba6a6635c`.
 - Exact next task: re-audit producer/validator classification against the canonical 283 records and inspect for any remaining fresh-build drift in acquisition type.
+
+
+## 2026-09-21 — post-fix acquisition drift recheck
+- Re-audited the live 283-record catalog after the PQ producer fix. Acquisition totals remain 248 quest_or_mission, 1 parallel_quest, 11 skill_shop, 9 tp_medal_shop, 8 character_only, 2 starting_move, and 4 other_nonquest.
+- Final Pose remains the only parallel_quest record. No other canonical record has PQ-number provenance without a source_quest value, so the producer guard does not create a new cohort.
+- No TP Medal Shop record carries quest provenance, and no starting-choice/Skill Shop conflict remains in the live canonical fields.
+- No canonical data changed. Next audit target: character_only/CaC eligibility and ultimate_finish_required consistency.
