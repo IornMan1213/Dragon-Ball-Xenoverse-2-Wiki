@@ -3670,20 +3670,21 @@
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
       ],
       "ki_cost": 100,
       "ultimate_finish_required": false,
       "unlock_method": "N/A — character-only skill; unavailable for CaC",
       "usable_by_cac": false,
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "mechanics_notes": "Dedicated current Xenoverse 2 evidence identifies Dragon Thunder as Omega Shenron's 100-Ki Strike Super and explicitly marks it unavailable for CaCs; the prior all-CaC-races classification was incorrect.",
       "source_quest_or_shop": "Character skill",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs.",
+      "notes": "2026-09-20 acquisition-status refinement: dedicated skill evidence classifies Dragon Thunder as Omega Shenron's character-only Strike Super and explicitly states it is unavailable to CaCs. 2026-09-21 provenance strengthening: an independent Xenoverse 2 character/skill ID list identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron, corroborating the character-only scope. No PQ/source-quest or reward-tier route is asserted because the canonical evidence explicitly gives Unlock: N/A.",
       "character_source": "Omega Shenron",
       "id": "skill-dragon-thunder"
     },
