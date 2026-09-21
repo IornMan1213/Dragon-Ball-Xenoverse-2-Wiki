@@ -3836,3 +3836,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - The 270 figure was therefore a stale handoff/documentation error, not a four-record change in canonical data. There are no four affected records to reconstruct.
 - No canonical/index changes were made.
 - Exact next task: continue from the actual live three-record null-race set or find another concrete, evidence-backed data-quality issue.
+
+
+## 2026-09-21 continuation — final three null-race evidence sweep
+- Rechecked Blaster Stream, Chaotic Time Impact, and Circle Flash against current/recent external evidence.
+- External/community evidence corroborates CaC use for these skills, but the reviewed material does not establish an explicit race/gender/form restriction. Character users were not used to infer race scope.
+- Keep all three at `race_restriction: null`; no canonical data change is warranted.
+- Live unresolved set remains exactly 3 records.
+- Next: move to another concrete data-quality invariant unless explicit race-scope evidence appears.
