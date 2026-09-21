@@ -17,7 +17,7 @@
 - Distinguish directly verified facts, incomplete source-supported facts, general/inferred progression, and unresolved information.
 - Preserve conflicting evidence instead of silently choosing a convenient answer.
 - Keep source/provenance information in repository data where the schema supports it.
-- Never put ChatGPT UI citation markup, internal tool reference IDs, or search-result IDs into repository files.
+- Never put ChatGPT UI citation markup, internal tool reference IDs, or internal search-reference IDs into repository files.
 - Never weaken, disable, bypass, or rewrite validators merely to make CI pass.
 - If CI fails before workflow steps execute, treat that as an infrastructure/runner/account issue until evidence shows otherwise.
 - Preserve canonical numbering anomalies such as the known missing/cut PQ36. ## Priority order ### P0 — Validation/infrastructure
@@ -2519,7 +2519,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Audit commit: `82df75784e0080f6a1bde86ed94ec7ae2f4362a4`.
 - Next task: continue source-field contradiction checks and inspect repository-wide validation/quality state without weakening workflows. ### 2026-09-20 cycle update — acquisition contradiction and artifact validation
 - Ran an all-78-record check comparing `ultimate_finish_required` against unlock/source wording; **no contradictions found**.
-- Searched the repository for internal tool/citation artifacts (`filecite`, `memcite`, `turn0search`, `turn10file`); **no matches found**.
+- Searched the repository for internal tool/citation artifacts (`filecite`, `memcite`, `internal search-reference ID`, `internal search-reference ID`); **no matches found**.
 - No workflow changes were made.
 - Audit commit: `337008a70ecaa8f88d1243c1258fc20a1d1c494b`.
 - Next task: inspect repository validation/quality state and continue any remaining source-field audit without weakening workflows. ### 2026-09-20 cycle update — Actions diagnostics
@@ -2548,7 +2548,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Current skill census remains 283 total / 205 verified / 78 verified_current_scope / 0 conflict / 0 partially_verified.
 - Exact next task: fetch the live skills.json again, verify zero broad DLC labels remain and run the repository-wide internal-artifact search; then inspect the newest Actions state. If clean, continue the remaining 78-record source-field audit, prioritizing any newly discovered historical provenance contradictions rather than broad labels. ### 2026-09-20 cycle update — post-edit validation
 - Post-edit live census confirmed **0** records retain the broad DLC labels `DLC PQ` or `Super Pass`; all 283 skill records remain present.
-- Repository-wide searches for internal assistant artifacts (`filecite`, `memcite`, `turn0search`, `turn10file`, ``) returned **0 matches**.
+- Repository-wide searches for internal assistant artifacts (`filecite`, `memcite`, `internal search-reference ID`, `internal search-reference ID`, ``) returned **0 matches**.
 - The handoff commit `36ef8d37e0c95b5633d46607e634d10ca31ed4f7` has no pull-request-triggered workflow runs exposed by the connected Actions API. No CI pass is claimed from that absence.
 - No validator/workflow was weakened.
 - Exact next task: continue the remaining 78-record current-scope source-field audit, prioritizing evidence-backed historical acquisition/provenance contradictions; periodically recheck Actions diagnostics and artifact hygiene. ### 2026-09-20 cycle update — targeted current-scope evidence cleanup
@@ -2684,7 +2684,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - Files changed: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, and this handoff.
 - Commits: `1e2084b303b385b10db3418d429b110a2d99a369` (Paralysis canonical data), `98f2462dc8a3b8fde224d9bcdec7569720e45b7c` (skill index), `035ce0853b4360204fa588105290c33266eb1027` (audit), `27272f6c2e8afc63c739e66340ebc89193bf93d8` (Dust Attack), `2004a935a67a9ed81638dc019b625472cb687d92` (audit).
 - Evidence limitations: no unsupported drop percentages were added. Paralysis's Basic Reward placement is retained; exact individual RNG/drop probability remains unresolved.
-- Artifact scan: GitHub code searches returned no matches for `filecite`, `memcite`, or `turn0search` in the indexed repository search.
+- Artifact scan: GitHub code searches returned no matches for `filecite`, `memcite`, or `internal search-reference ID` in the indexed repository search.
 - CI: the latest push-triggered Repository quality and Clean internal artifacts runs for `2004a935a67a9ed81638dc019b625472cb687d92` were **queued** at inspection. The immediately preceding Repository quality run for `035ce0853b4360204fa588105290c33266eb1027` failed before actionable steps/logs were exposed; no validator was weakened.
 - Exact next task: continue the pre-2026-09-20 current-scope skill audit, prioritizing remaining canonical type/cost/source mismatches before lower-confidence descriptive enrichment. Recompute the live census first, then inspect the next unresolved records and update both `skills.json` and `skills-index.json` whenever canonical/index fields diverge.
 
@@ -2783,7 +2783,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-20 cycle closeout — CI/artifact inspection
 - Latest handoff commit `d44d1af46b3a76a182dec5be62d843f80d1776e9` has Repository quality and Clean internal artifacts runs **queued** at inspection time.
 - The immediately preceding Wiki data audit run for `b3f92d45c4487381b44216a0388366649582b3f5` **failed** without actionable workflow steps/logs, matching the repository's recurring opaque pre-step failure pattern. No validator was weakened or bypassed.
-- GitHub code searches for `filecite`, `memcite`, `turn0search`, and `turn1search` returned no indexed matches.
+- GitHub code searches for `filecite`, `memcite`, `internal search-reference ID`, and `internal search-reference ID` returned no indexed matches.
 - Exact next task remains the generic skill acquisition/type audit, beginning with Emperor's Blast and Emperor's Cannon.
 
 
@@ -3456,3 +3456,17 @@ Only after data-completeness work, expose the improved structured research surfa
 - No Ultimate Finish requirement, drop rate, or current shop claim was inferred.
 - Validation target after the correction: canonical/index remain 283 records with identical ordering; acquisition-critical fields remain synchronized.
 - Exact next task: **continue checking generic shop records for direct contradictions against dedicated unlock tables, prioritizing cases where a shop label may actually be a PQ/mentor/story source.**
+
+
+### 2026-09-20 cycle update — Bending Kamehameha Skill Shop provenance refinement
+- Workstream: P1 skill acquisition/source provenance cleanup, continuing the generic shop-record contradiction audit.
+- Re-audited the live canonical/index skill records and refined **Bending Kamehameha**: the acquisition route now explicitly records main-story completion before the Conton City Skill Shop purchase.
+- Added source_quest and source_quest_or_shop provenance so the story gate and shop source are no longer conflated.
+- Evidence: current Xenoverse 2 skill documentation lists Bending Kamehameha as a Skill Shop unlock; an independent GameFAQs acquisition report says it becomes available in the Skill Shop after the campaign. No Ultimate Finish requirement, drop rate, or historical rotation claim was inferred.
+- Files changed: docs/data/skills.json, docs/data/skills-index.json, docs/COVERAGE-AUDIT.md, and this handoff.
+- Commits: e8a1c8c0a6e30ed6b373d228fc2ca7b4770de127 (canonical), b3555fceec50a9d41a4c02e237d356c4ac9ede1f (index), 339e0ce5aa1fe5d0e8939a73ff05926bf99594d3 (coverage audit).
+- Validation: canonical/index both parse as JSON; both contain **283** records; record-name ordering is identical; duplicate-name count is **0**; Ultimate Finish count remains **60**. Acquisition-critical fields remain synchronized. No accidental internal citation artifacts were found in the canonical/index/audit files; historical handoff mentions were normalized to generic wording.
+- CI: the latest coverage-audit commit was checked for associated workflow runs; the GitHub connector returned no pull-request-triggered workflow runs. No validator was weakened.
+- Evidence limitation: the main-story availability wording is preserved as a bounded acquisition gate; the repository does not assert a specific saga/chapter threshold because the consulted current sources did not establish one strongly enough for this pass.
+- Current unresolved scope: genuine provenance conflicts remain documented, including Emperor's Cannon's PQ183/PQ184 conflict and other reward-table versus explicit-drop-condition discrepancies.
+- Exact next task: **continue the generic shop/source contradiction audit, prioritizing Skill Shop and TP Medal Shop records whose dedicated skill pages or acquisition tables can establish a more specific prerequisite or reveal a misclassified source. Start with Time Bullet, Super God Shock Flash, and Pressure Sign; preserve uncertainty where evidence is only community-level or conflicting.**
