@@ -121,6 +121,8 @@ def merge_record(m,r,protected=None,blocked=None):
   declared_fields=r.get('correction_fields')
   if not isinstance(declared_fields,list) or not declared_fields or not all(isinstance(field,str) and field for field in declared_fields) or len(set(declared_fields)) != len(declared_fields):
    raise ValueError(f"invalid correction metadata for {n}: correction_fields must be a non-empty list of unique field names")
+  if 'sources' in declared_fields:
+   raise ValueError(f"invalid correction metadata for {n}: sources is provenance and cannot be replaced or cleared by correction_fields")
   if oldkey not in m:
    raise ValueError(f"correction target not found for {n}: {oldname}/{oldclass}/{oldsub}")
   if oldkey in blocked:
