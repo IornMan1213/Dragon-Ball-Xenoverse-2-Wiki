@@ -3980,3 +3980,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - The merge behavior is intentional for repeated evidence about the same canonical skill: nonempty incoming fields fill missing fields, sources are deduplicated, and an explicit correction is required to replace a prior key/class/subcategory.
 - No concrete validator invariant was justified from the current corpus without falsely rejecting legitimate repeated enrichment records. No code/data changes were made in this pass.
 - Next task: audit the validator's remaining cross-file invariants and schema-vs-canonical field requirements, looking specifically for fields the builder can emit or preserve that the validator/schema does not constrain.
+
+
+## 2026-09-21 continuation — schema/builder field coverage audit
+- Compared the live builder's emitted fields against `docs/data/skills.schema.json` and the validator's field-specific rules.
+- The schema uses `additionalProperties: false`, and every field currently emitted by `build_record()` or preserved/merged by the builder is represented in the schema. This means newly introduced builder fields cannot silently enter canonical data without a schema failure.
+- The schema already constrains required identity fields, acquisition type, sources, costs, statuses, dates, and optional mechanics/metadata types. Validator rules additionally enforce class/subcategory compatibility and acquisition semantics that JSON Schema alone does not encode.
+- No concrete schema or validator gap was identified that could be strengthened safely without changing the documented data model. No code/data changes were made in this pass.
+- Next task: inspect the generated index projection itself—verify every indexed field is intentionally sourced from canonical records and identify whether omitted canonical fields could cause stale index metadata after enrichment/correction.
