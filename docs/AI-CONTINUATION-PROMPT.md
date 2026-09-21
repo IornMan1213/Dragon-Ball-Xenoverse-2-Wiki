@@ -5909,3 +5909,17 @@ The repository owner has clarified the continuation contract:
 - CI: Actions lookup remains unavailable for the new commits; no CI success claimed.
 - Commits: `ea755ef4f290f874fcca403879c2e0abd5bf4683` (canonical), `634de150df83b22ca9581430fca24c42326645e1` (TODO).
 - Exact next task: **fresh live census and another bounded source-to-DLC verification cluster**, selecting a cluster with directly verifiable acquisition endpoints rather than re-auditing already confirmed Future Saga Chapter 1 records.
+
+
+### 2026-09-21 cycle update — Dimension Cannon Ki-cost completion
+- Workstream: P1 skill resource-cost cleanup, completing the final nullable `ki_cost` record before returning to DLC/version provenance.
+- Live census before editing: **428 canonical skill records; 0 duplicate IDs; 1 nullable `ki_cost` record — Dimension Cannon**.
+- Bounded batch: **Dimension Cannon — `ki_cost=0`**, with the move explicitly documented as a Ki Blast Evasive using 300 Stamina.
+- Research/evidence: current Dimension Cannon reference, https://dbxv2.fandom.com/wiki/Dimension_Cannon, lists **Stamina Used: 300** and does not list Ki expenditure. This supports the repository's established convention that stamina-only Evasives receive `ki_cost=0`; no unsupported Ki value was inferred.
+- Changes: `docs/data/skills.json` only for canonical data — set `ki_cost=0`, refreshed `last_verified=2026-09-21`, and appended a bounded verification note. No unrelated fields were changed.
+- Validation: **428/428 records present; 0 duplicate IDs; 0 nullable `ki_cost` records**. Dimension Cannon was re-read after the write with `ki_cost=0`. Internal citation-artifact scan of the edited canonical file found **0** tool citation tokens.
+- TODO ledger: appended the completion marking and preserved the historical nullable-cost entries under the append-only rule.
+- CI: commit `a1ced5427c492ebbb260c096e7bf1133154fbae9` exposed **no workflow runs** through the repository connector; CI success is unavailable and was not claimed. Validators were not weakened.
+- Commit: `a1ced5427c492ebbb260c096e7bf1133154fbae9` (canonical skill data); `0de6caccd2ed4003b5bcb8b45abe072dd92cd12a` (TODO ledger).
+- Live provenance census after cost completion: **428 records; 32 distinct DLC/update labels; only one Base Game record has a PQ>100 source relationship (Candy Beam, whose PQ113 relationship is already documented as later duplicate/contextual evidence)**. Existing composite/platform-dependent labels remain intentionally preserved.
+- Exact next task: **fresh DLC-label/source-relationship provenance batch**, beginning with the remaining free-update/context-rich labels and deterministic source relationships. Recompute the live census first; preserve composite/platform-dependent values unless direct evidence supports normalization. Inspect Actions for the provenance commit before claiming CI status, and keep repository prose free of internal citation markup.
