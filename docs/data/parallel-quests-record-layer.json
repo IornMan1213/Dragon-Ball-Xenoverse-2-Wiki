@@ -77,6 +77,9 @@
       "last_verified": "2026-09-19",
       "skill_ids": [
         "skill-spirit-slash"
+      ],
+      "super_soul_ids": [
+        "super-soul-066"
       ]
     },
     {
@@ -3524,6 +3527,12 @@
         "skill-sonic-bomb",
         "skill-god-of-destruction-s-menace",
         "skill-god-of-destruction-s-roar"
+      ],
+      "super_soul_ids": [
+        "super-soul-071"
+      ],
+      "super_soul_rewards": [
+        "Buu Don't Wanna!"
       ]
     },
     {
@@ -3581,7 +3590,13 @@
         "You can't win..."
       ],
       "verification_status": "partially_verified",
-      "skill_rewards": []
+      "skill_rewards": [],
+      "super_soul_ids": [
+        "super-soul-064"
+      ],
+      "super_soul_rewards": [
+        "You can't win..."
+      ]
     },
     {
       "id": "pq-108",
@@ -3904,7 +3919,13 @@
         "I hate what I've become!"
       ],
       "verification_status": "partially_verified",
-      "skill_rewards": []
+      "skill_rewards": [],
+      "super_soul_ids": [
+        "super-soul-068"
+      ],
+      "super_soul_rewards": [
+        "Now we're even."
+      ]
     },
     {
       "id": "pq-119",
@@ -4385,6 +4406,12 @@
       "skill_ids": [
         "skill-pretty-cannon",
         "skill-formation"
+      ],
+      "super_soul_ids": [
+        "super-soul-067"
+      ],
+      "super_soul_rewards": [
+        "Here it comes!"
       ]
     },
     {
