@@ -6040,3 +6040,13 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 correction — Conton City Vote Pack count
 - Corrected prior cycle wording: live canonical data contains **11 records** with `dlc_requirement=Conton City Vote Pack`: 10 additional move/skill records plus character-specific Supersonic Mode.
 - Official documentation's 10 additional moves count refers to the move set, not the total number of canonical records carrying the DLC label.
+
+
+### 2026-09-21 cycle update — Hero of Justice Pack 1 skill provenance census
+- Live canonical census: **428 records / 0 duplicate IDs**.
+- Bounded batch: seven Hero of Justice Pack 1 additional moves mapped to PQ155–158.
+- Official Bandai Namco/Nintendo documentation confirms 4 new PQs and 7 additional moves; maintained PQ evidence lists the seven canonical moves and their PQs.
+- Changes: refreshed `last_verified=2026-09-21` and appended bounded provenance notes to seven affected skill records.
+- Validation target: **428 records / 0 duplicate IDs / 7 Hero of Justice Pack 1 PQ-linked moves / 0 DLC mismatches**.
+- Acquisition/drop-tier semantics were preserved. CI success is not claimed without exposed workflow/check data.
+- Exact next task: fresh live DLC-label/source-relationship census beyond Hero of Justice Pack 1.
