@@ -5279,3 +5279,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `84d44bd4441d9d178eea9c6208803cd80dce7aca` (index), `8b3c6ed374e73aedbc5240041aa75dd858d557c9` (coverage audit), `f3291671894007b5e568b6c64567a21006e35b98` (changelog).
 - Current remaining `mechanics_notes` mismatches: **15** — Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike.
 - Exact next batch: **Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, and Spirit Bomb**, using the same live canonical→index `mechanics_notes` parity check. Recompute the live census immediately before editing and preserve unrelated projection families for separate bounded passes.
+
+
+### 2026-09-21 cycle update — skills-index mechanics projection parity batch 3
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, deterministic canonical→index reconciliation.
+- Live census before/after: **429 canonical skills / 429 skill-index records**.
+- Bounded batch: **10 `mechanics_notes` projections** — Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, and Spirit Bomb.
+- Research/evidence: canonical `docs/data/skills.json` is the producer for the index projection. This cycle introduced no new gameplay, acquisition, restriction, DLC, or mechanics claim; it copied only already-canonical `mechanics_notes` values. The canonical additions include already-documented 2026-09-21 mentor/cross-domain normalization notes, so no external inference was made here.
+- Changes: updated only the matching `mechanics_notes` values in `docs/data/skills-index.json`; then recorded the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
+- Evidence limits: deterministic cross-layer parity correction, not a new verification event. **5** `mechanics_notes` mismatches remain; the separately tracked `notes` family still has **4** mismatches. Other inspected projection families remain clean.
+- Validation: both JSON layers parse; 429/429 records remain; all 10 targeted `mechanics_notes` values match canonical; changed index contains **0 internal AI/UI/search citation artifacts**. Workflow-run lookup and combined status for the index commit returned **no workflow runs and no statuses**; no CI success claimed and validators were not weakened.
+- Commits: `5a9f4bf24d6efeafed6da3543e817ad0734f3a32` (index), `98da8c09f02f2d0c427c2a7475d9127bd99201f7` (coverage audit), `0361a0ce8e6da4b0b83b5a9c8725dfaf5d9ef428` (changelog).
+- Exact next batch: **Super Spirit Bomb, Supernova, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike**, using the same live canonical→index `mechanics_notes` parity check; recompute the live census immediately before editing and preserve unrelated projection families.
