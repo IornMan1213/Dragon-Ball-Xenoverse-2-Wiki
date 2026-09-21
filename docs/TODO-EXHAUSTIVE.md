@@ -1563,3 +1563,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved exact PQ acquisition semantics and all unresolved reward/drop uncertainty.
 - [x] Canonical/index projection synchronized for the four targets.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic low-source acquisition cluster.
+
+### 2026-09-21 — Master ledger completion marking: PQ147 provenance batch
+- [x] Strengthened Crush Cannon, Double Crush, and Crush Stream with official Legendary Pack 2 package provenance.
+- [x] Preserved exact PQ147 Basic Reward acquisition semantics.
+- [x] Synchronized canonical/index source projection.
+- [ ] Next: recompute the two-source census and continue the next deterministic acquisition/provenance cluster.
