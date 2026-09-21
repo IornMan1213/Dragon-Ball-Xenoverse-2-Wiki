@@ -3509,3 +3509,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index now use the concrete PQ62 Basic Reward wording and retain `ultimate_finish_required: false`.
 - Commits: `3a43a00bf46e6e8243ad4d1959ae99a31f52a621` (canonical), `90bcf51c4e8b81aa5a6c95dab04a99718be584ae` (index), `bc56bae675238ed22b261cb7257b944ce14c0121` (audit).
 - Exact next task: **continue the remaining acquisition/provenance conflict census, prioritizing records where current reward data can replace older generic or contradictory wording without inventing drop probabilities.**
+
+
+### 2026-09-20 cycle update — Venus Fist PQ186 provenance cleanup
+- Continued the acquisition/provenance conflict census.
+- **Venus Fist** had an ambiguous `PQ185–186` reward-pool source string despite maintained PQ reward evidence explicitly placing it in **PQ186 Basic Rewards**.
+- Canonical/index now use the concrete PQ186 Basic Reward route and preserve `ultimate_finish_required: false`; no drop probability was inferred.
+- Commits: `2f7aed647b76225be22adb3e00fcb310f5ae8ca8` (canonical), `2f2330cd629590756aa4e9f508462680540cf12e` (index), `b0b0adde14f9dc3c605af1ff5b973585a41a42a4` (audit).
+- Exact next task: **continue the remaining provenance conflict census, especially newer DLC/Future Saga PQ records with generic or pooled source wording; use maintained reward evidence to make only deterministic corrections.**
