@@ -1560,7 +1560,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — Frieza's Fervent Wish explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred.",
       "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 182
     },
