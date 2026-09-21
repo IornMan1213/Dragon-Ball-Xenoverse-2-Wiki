@@ -5733,3 +5733,15 @@ The repository owner has clarified the continuation contract:
 - TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry and retained the remaining unresolved queue.
 - CI: next cycle must inspect workflow runs for commits 79d78d1bae67526f7c390f1364578f85860d6612 and f86422fbd6feea969909977a565ee9b3cd6a278a; no CI success should be claimed without an actual run result.
 - Exact next task: **Giant Storm**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
+
+
+### 2026-09-21 cycle update — Giant Storm Ki-cost verification
+- Live census before editing: 428 canonical skills; 0 duplicate IDs; 9 nullable ki_cost records.
+- Bounded batch: **Giant Storm — 300 Ki**.
+- Research/evidence: current skill-reference evidence documents Giant Storm as an Ultimate with **kiCost: 300**, backed by DBXV2 game-data provenance and the dedicated Giant Storm reference.
+- Changes: docs/data/skills.json — Giant Storm ki_cost=300. Existing classification, acquisition, provenance, and other fields were preserved.
+- Evidence limits: only the directly evidenced resource-cost field was changed; no unpublished damage total was imported.
+- Validation after write: 428 records; 0 duplicate IDs; **8 nullable ki_cost records**. Dimension Cannon remains null as the documented Stamina-only exception.
+- TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry.
+- CI: next cycle must inspect Actions for commits ed9e0bfdfbf714fe22bb89a3905bc6246e2ec6e4 and 5bd2b3bbceb4e90c117ddcc1a30660ebd34d3839; do not claim CI success without an actual result.
+- Exact next task: **Angry Explosion**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
