@@ -3,21 +3,21 @@
   "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
   "generated": "2026-09-21",
   "category_counts": {
-    "Ki Blast Evasives": 11,
+    "Ki Blast Evasives": 12,
     "Other Supers": 36,
     "Strike Evasives": 8,
-    "Ki Blast Ultimates": 62,
-    "Ki Blast Supers": 110,
+    "Ki Blast Ultimates": 65,
+    "Ki Blast Supers": 115,
     "Transformations": 15,
-    "Strike Supers": 87,
-    "Strike Ultimates": 16,
+    "Strike Supers": 93,
+    "Strike Ultimates": 17,
     "Power Up Supers": 12,
     "Power Up Evasives": 2,
     "Other Evasives": 3,
     "Transformation": 4,
     "Other Ultimates": 2
   },
-  "record_count": 368,
+  "record_count": 384,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -9218,6 +9218,438 @@
       "id": "skill-darkness-twin-star",
       "source_mentor": [
         "mentor-slug"
+      ]
+    },
+    {
+      "name": "Sudden Storm",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Sudden Storm as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Turles mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Turles mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-sudden-storm",
+      "source_mentor": [
+        "mentor-turles"
+      ]
+    },
+    {
+      "name": "Kill Driver",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Kill Driver as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Turles mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Turles mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-kill-driver",
+      "source_mentor": [
+        "mentor-turles"
+      ]
+    },
+    {
+      "name": "Fruit of the Tree of Might",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Fruit of the Tree of Might as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Turles mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Turles mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-fruit-of-the-tree-of-might",
+      "source_mentor": [
+        "mentor-turles"
+      ]
+    },
+    {
+      "name": "Meteor Burst",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Turles's mentor training — complete the corresponding lesson to receive Meteor Burst as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Turles mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Turles mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-meteor-burst",
+      "source_mentor": [
+        "mentor-turles"
+      ]
+    },
+    {
+      "name": "Blaster Shell",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Blaster Shell as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Broly mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Broly mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-blaster-shell",
+      "source_mentor": [
+        "mentor-broly"
+      ]
+    },
+    {
+      "name": "Blaster Meteor",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Blaster Meteor as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Broly mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Broly mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-blaster-meteor",
+      "source_mentor": [
+        "mentor-broly"
+      ]
+    },
+    {
+      "name": "Gigantic Omega",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Gigantic Omega as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Broly mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Broly mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-gigantic-omega",
+      "source_mentor": [
+        "mentor-broly"
+      ]
+    },
+    {
+      "name": "Gigantic Meteor",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Gigantic Meteor as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Broly mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Broly mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-gigantic-meteor",
+      "source_mentor": [
+        "mentor-broly"
+      ]
+    },
+    {
+      "name": "God of Destruction's Anger",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive God of Destruction's Anger as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "God of Destruction Beerus mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "God of Destruction Beerus mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-god-of-destruction-s-anger",
+      "source_mentor": [
+        "mentor-beerus"
+      ]
+    },
+    {
+      "name": "God of Destruction's Rampage",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive God of Destruction's Rampage as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "God of Destruction Beerus mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "God of Destruction Beerus mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-god-of-destruction-s-rampage",
+      "source_mentor": [
+        "mentor-beerus"
+      ]
+    },
+    {
+      "name": "God of Destruction's Wrath",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive God of Destruction's Wrath as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "God of Destruction Beerus mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "God of Destruction Beerus mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-god-of-destruction-s-wrath",
+      "source_mentor": [
+        "mentor-beerus"
+      ]
+    },
+    {
+      "name": "Sphere of Destruction",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "God of Destruction Beerus's mentor training — complete the corresponding lesson to receive Sphere of Destruction as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "God of Destruction Beerus mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "God of Destruction Beerus mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-sphere-of-destruction",
+      "source_mentor": [
+        "mentor-beerus"
+      ]
+    },
+    {
+      "name": "Finishing Blow",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Finishing Blow as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Whis mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Whis mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-finishing-blow",
+      "source_mentor": [
+        "mentor-whis"
+      ]
+    },
+    {
+      "name": "Prelude to Destruction",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Prelude to Destruction as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Whis mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Whis mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-prelude-to-destruction",
+      "source_mentor": [
+        "mentor-whis"
+      ]
+    },
+    {
+      "name": "Strike of Revelation",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Strike of Revelation as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Whis mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Whis mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-strike-of-revelation",
+      "source_mentor": [
+        "mentor-whis"
+      ]
+    },
+    {
+      "name": "Symphonic Destruction",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Whis's mentor training — complete the corresponding lesson to receive Symphonic Destruction as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Whis mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Whis mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-symphonic-destruction",
+      "source_mentor": [
+        "mentor-whis"
       ]
     }
   ],
