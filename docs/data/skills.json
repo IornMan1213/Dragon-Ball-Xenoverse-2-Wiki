@@ -9,7 +9,7 @@
     "Ki Blast Evasives": 13,
     "Other Supers": 36,
     "Strike Evasives": 9,
-    "Ki Blast Ultimates": 74,
+    "Ki Blast Ultimates": 76,
     "Ki Blast Supers": 128,
     "Transformations": 15,
     "Strike Supers": 101,
@@ -12445,9 +12445,63 @@
       "source_mentor": [
         "mentor-krillin"
       ]
+    },
+    {
+      "name": "Giant Storm",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Giant_Storm",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop",
+      "mechanics_notes": "Canonical skill identity, classification, and acquisition source verified; combat details remain bounded to directly evidenced fields.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Skill Shop",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "skill_shop_or_expert_mission",
+      "notes": "Added during Dual Ultimate relationship audit because the mentor's Dual Ultimate depends on this canonical base skill.",
+      "id": "skill-giant-storm",
+      "source_mentor": [
+        "mentor-nappa",
+        "mentor-majin-buu"
+      ]
+    },
+    {
+      "name": "Angry Explosion",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Angry_Explosion",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "unlock_method": "Expert Mission 12 - Attack of the Lone Super Soldier",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Expert Mission 12",
+      "mechanics_notes": "Canonical skill identity, classification, and acquisition source verified; combat details remain bounded to directly evidenced fields.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Expert Mission 12",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "skill_shop_or_expert_mission",
+      "notes": "Added during Dual Ultimate relationship audit because the mentor's Dual Ultimate depends on this canonical base skill.",
+      "id": "skill-angry-explosion",
+      "source_mentor": [
+        "mentor-nappa",
+        "mentor-majin-buu"
+      ]
     }
   ],
-  "record_count": 384,
+  "record_count": 422,
   "skill_id_policy": {
     "format": "skill-{slug}",
     "slug_source": "name",
