@@ -1213,3 +1213,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Changes: canonical and index records received `last_verified=2026-09-21` plus a bounded provenance-audit note; the platform-dependent DLC classification itself was preserved.
 - [x] Post-write validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; canonical/index records remain aligned for the four audited skills.
 - [ ] Next provenance batch: fresh live census of any remaining non-canonical/context-rich DLC labels, with no further Masters Pack normalization unless contradictory platform evidence appears.
+
+
+### 2026-09-21 — Master ledger completion marking: Surging Spirit multi-DLC provenance audit
+- [x] **Surging Spirit composite DLC provenance audited.** Live census found one intentionally multi-DLC value: `Extra Pack 2; Conton City Vote Pack`.
+- [x] Evidence: current Dragon Ball Wiki documentation identifies Surging Spirit with Extra Pack 2 for Ultra Instinct Goku and also with Conton City Vote Pack for Ultra Instinct -Sign- Goku; official Bandai Namco/Nintendo/Steam listings establish Conton City Vote Pack as separate DLC content.
+- [x] Decision: preserve the composite value. This is materially different from the earlier ambiguous labels that conflated an originating DLC with an acquisition route; here the same named skill/function is documented in two distinct DLC character contexts, so collapsing to one pack would lose information.
+- [x] Change: `docs/data/skills.json` only — updated `last_verified=2026-09-21` and appended a provenance-audit note. No acquisition/mechanics fields were changed.
+- [x] Validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; composite label remains exactly one record by design.
+- [x] CI: workflow lookup remains required; no success is claimable unless an actual run is exposed.
+- [ ] Next provenance batch: fresh live census of remaining DLC labels against source relationships, prioritizing deterministic mismatches rather than intentionally multi-DLC or platform-dependent values.
