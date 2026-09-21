@@ -1138,3 +1138,10 @@
 - Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 55 exactly-two-source records**; canonical/index source parity is clean.
 - No gameplay, reward probability, or restriction fields were inferred or rewritten.
 - Next: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster.
+
+## 2026-09-21 — Deadly Dance low-source provenance strengthening
+- Strengthened **Deadly Dance** from 2 to 3 sources using the maintained Instructor Quests guide.
+- The added source independently lists Deadly Dance as **Android 18 Lesson 2's Basic Reward**, corroborating the existing mentor-training acquisition endpoint.
+- Preserved the existing Lesson 2 acquisition semantics and all other skill fields; no unsupported mechanics or reward probabilities were added.
+- Synchronized `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Validation target: canonical/index source parity, JSON parsing, live two-source census, and internal citation-artifact scan after the write.
