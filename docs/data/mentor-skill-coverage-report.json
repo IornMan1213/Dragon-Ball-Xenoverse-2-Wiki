@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 129,
-  "linked_skill_edges": 17,
-  "unresolved_skill_endpoints": 112,
-  "fully_linked_mentors": 2,
-  "partially_linked_mentors": 31,
+  "linked_skill_edges": 16,
+  "unresolved_skill_endpoints": 113,
+  "fully_linked_mentors": 1,
+  "partially_linked_mentors": 32,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -535,10 +535,11 @@
       "linked_skill_ids": [
         "skill-time-skip-flash-skewer",
         "skill-time-skip-back-breaker",
-        "skill-time-skip-jump-spike",
-        "skill-time-skip-tremor-pulse"
+        "skill-time-skip-jump-spike"
       ],
-      "unresolved_skill_names": []
+      "unresolved_skill_names": [
+        "Time Skip/Tremor Pulse"
+      ]
     },
     {
       "mentor_id": "mentor-bojack",
@@ -576,8 +577,8 @@
     }
   ],
   "notes": [
-    "Canonical skill IDs are assigned only when an exact canonical skill record already exists. Missing endpoints remain explicit rather than invented.",
-    "The maintained all-instructor guide supplies the complete lesson reward names; this audit is the bridge for future canonical skill-record expansion and bidirectional mentor navigation.",
+    "Canonical skill IDs are assigned only when an exact canonical skill record already exists; invalid guessed IDs are never retained.",
+    "The maintained all-instructor guide supplies the lesson reward names. Missing canonical endpoints remain explicit for future skill-record expansion.",
     "Gotenks' duplicated Super Ghost Kamikaze Attack entry is preserved exactly as the consulted guide presents it."
   ],
   "sources": [
