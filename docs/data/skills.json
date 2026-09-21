@@ -1998,7 +1998,7 @@
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 182 - \"Frieza's Fervent Wish\" Basic Reward",
-      "source_quest_or_shop": "PQ182",
+      "source_quest_or_shop": "Parallel Quest 182 — \"Frieza's Fervent Wish\" Basic Reward",
       "ultimate_finish_required": false,
       "skill_description": "Dark Inscription is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
@@ -2013,7 +2013,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 182,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — \"Frieza's Fervent Wish\" explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred."
     },
     {
       "name": "Death Psycho Bomb",
