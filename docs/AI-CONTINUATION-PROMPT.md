@@ -5028,3 +5028,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow status was exposed for the data commits; no CI success is claimed.
 - Commits: `9fad082326acec7c671bb66d8aebe8bcdde12049` (canonical records); `3b1762a394d934c4020425e7623d059ad6950128` (PQ161–162); `68d41e5c11b70b13e3aacdabc2c641fdada6499d` (crosslink rebuild).
 - Exact next batch: **Super Soul 120–127**, after live-corpus reconciliation. Continue immediately after `Shenron really went the extra mile.` and establish acquisition identity before adding records or cross-domain edges.
+
+
+### 2026-09-21 cycle update — Super Soul 120–127 + PQ159 reconciliation
+- Live census before editing: **114 canonical Super Souls / 186 canonical PQ records**.
+- Bounded batch: **Super Soul 120–127** — Enter the hero!; The Red Ribbon Army is back in business!; Something deadly's about to happen...; I never could've gotten here on my own!; I have an unlimited energy supply...; Die!; I'd rather fight alone and die!; That's a dead ball now, right?.
+- Evidence: reconciled the maintained Madreag Super Soul source corpus. Explicit PQ route: 120/121 → PQ159. TP/STP shop, Festival of Universes, and Raid Quest Event acquisitions were not assigned unsupported PQ routes.
+- Changes: added super-soul-120 through super-soul-127; synchronized PQ159 reward/link fields; rebuilt docs/data/pq-super-soul-crosslink-report.json; updated coverage and changelog records.
+- Validation: **122 canonical Super Souls / 186 canonical PQ records / 44 forward / 44 reverse edges / 34 unique PQ endpoints / 44 unique Super Soul endpoints / 78 unresolved Super Soul routes / 0 broken endpoints**. All three JSON files parsed successfully and contain **0 internal UI/search citation artifacts**.
+- CI: no workflow status was exposed for the data commits; no CI success is claimed.
+- Commits: `746bba9ccdaabd3c9de5eb360974adf37a67ec7a` (canonical records); `6221a87dddd369e33b52159ff487ee0777452093` (PQ159); `322359286f1a4fd05ca585bec36a2085acf4e6a6` (crosslink rebuild).
+- Exact next batch: **Super Soul 128–135**, after live-corpus reconciliation. Continue immediately after `That's a dead ball now, right?` and establish acquisition identity before adding records or cross-domain edges.
