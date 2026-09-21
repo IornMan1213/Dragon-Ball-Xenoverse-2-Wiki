@@ -6273,3 +6273,10 @@ The repository owner has clarified the continuation contract:
 - No gameplay values, DLC classification, Ultimate Finish flag, or acquisition semantics were changed.
 - Canonical commit: `d6013a3c9c4656fe95196fdd93e2e32703567a17`.
 - Exact next batch: **continue the live skill provenance census by checking the remaining low-source-count or semantically fragile DLC records; prioritize a concrete source gap or provenance conflict, and do not rewrite already-consistent records merely for stylistic reasons.**
+
+### 2026-09-21 continuation — Kamehameha source-PQ reconciliation
+- Workstream: **P1 skill provenance/source-PQ integrity**.
+- Concrete mismatch found in live canonical data: **Kamehameha** incorrectly listed PQ48 in `source_parallel_quests`. PQ48 actually rewards **Kamekameha**, a distinct skill; PQ05 explicitly lists **Kamehameha** as a Basic Reward. citeturn2search1turn2search2turn2search0
+- Corrected `source_parallel_quests` from `[5,48]` to `[5]`, strengthened sources, and preserved the existing Base Game / PQ05 / non-UF acquisition semantics.
+- Canonical commit: `48d0d0b7bd17e4f858c565d189feb12e189fba88`.
+- Exact next batch: continue the remaining low-source-count records, checking source-PQ relationships for similarly conflated skill names before making broader enrichment changes.
