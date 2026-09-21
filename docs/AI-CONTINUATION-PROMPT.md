@@ -4776,3 +4776,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Changes: `skills.json` +20 canonical records; `skills-index.json` +20 index records; `mentors-record-layer.json` +20 deterministic skill IDs; refreshed `mentor-skill-coverage-report.json`.
 - Mechanics boundary: the new records establish acquisition identity/provenance and deliberately defer detailed combat mechanics until separately evidenced. No damage, stamina, ki-cost, drop-rate, or Ultimate-Finish facts were invented.
 - Validation target: next cycle should recompute category counts/index parity and then expand the next bounded mentor group (Zarbon, Dodoria, Captain Ginyu, Frieza 1st Form, and Cooler Final Form), while preserving bidirectional mentor↔skill navigation.
+
+
+### 2026-09-21 cycle validation — five-mentor expansion finalized
+- Canonical skill census is now **325 skills / 325 skill-index records**; taxonomy counts total exactly 325.
+- Mentor layer remains **33 mentors / 129 lesson entries / 36 linked lesson→skill edges / 93 unresolved endpoints**. Piccolo, Tien, Yamcha, Nappa, and Raditz are fully linked (20/20 new lesson endpoints).
+- Bidirectional validation: **0 broken mentor→skill endpoints, 0 missing skill-index records, 0 mentor reverse-source mismatches, 325/325 skill-index parity**.
+- Category-count synchronization was corrected after the expansion and now preserves the repository's existing taxonomy (`Ki Blast`, `Strike`, `Other`, `Power Up`, and Awoken subcategories) rather than collapsing categories.
+- No mechanics or acquisition conditions beyond the documented mentor lesson routes were inferred.
+- Next exact batch remains: **Zarbon, Dodoria, Captain Ginyu, Frieza (1st Form), and Cooler (Final Form)**; create their missing canonical skill records in the same evidence-bounded manner and wire both directions.
