@@ -1526,14 +1526,15 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Pan's mentor training — Initiation Test",
-      "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
-      "last_verified": "2026-09-20",
+      "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-pan added for the documented mentor-training acquisition route.",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "source_quest": "Pan's mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-dancing-parapara"
+      "id": "skill-dancing-parapara",
+      "source_mentor": "mentor-pan"
     },
     {
       "name": "Dark Inscription",
@@ -1580,15 +1581,16 @@
       "ki_cost": 300,
       "ultimate_finish_required": false,
       "unlock_method": "Lord Slug's Lesson 3 — complete the instructor lesson; the Basic Reward includes Darkness Rush (Melee) and Darkness Rush (Ranged).",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
       "source_quest_or_shop": "Lord Slug mentor training — Lesson 3",
-      "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack.",
+      "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-lord-slug added for the documented mentor-training acquisition route.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-darkness-rush-melee"
+      "id": "skill-darkness-rush-melee",
+      "source_mentor": "mentor-lord-slug"
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -1610,15 +1612,16 @@
       "ki_cost": 300,
       "ultimate_finish_required": false,
       "unlock_method": "Lord Slug's Lesson 3 — complete the instructor lesson; the Basic Reward includes Darkness Rush (Ranged) and Darkness Rush (Melee).",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
-      "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
+      "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-lord-slug added for the documented mentor-training acquisition route.",
       "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "source_quest_or_shop": "Lord Slug mentor training — Lesson 3",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-darkness-rush-ranged"
+      "id": "skill-darkness-rush-ranged",
+      "source_mentor": "mentor-lord-slug"
     },
     {
       "name": "Data Input",
@@ -1660,13 +1663,14 @@
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Android 18 mentor training — Lesson 2",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
-      "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension.",
+      "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-android-18 added for the documented mentor-training acquisition route.",
       "source_quest": "Android 18 mentor training — Lesson 2",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-deadly-dance"
+      "id": "skill-deadly-dance",
+      "source_mentor": "mentor-android-18"
     },
     {
       "name": "Death Ball",
@@ -1679,20 +1683,21 @@
         "https://gamefaqs.gamespot.com/boards/466298-dragon-ball-xenoverse-2-future-saga-chapter-1/74429476"
       ],
       "ki_cost": 400,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "mechanics": "400 Ki base cost; documented as a 400-Ki Ki Blast Ultimate. Cost is version-sensitive historically, so retain provenance rather than infer from Ultimate class.",
       "ultimate_finish_required": false,
       "unlock_method": "Frieza's Lesson 3 — complete the instructor lesson to receive Death Ball as the Basic Reward.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "verified",
-      "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile. 2026-09-20 verification: current skill page and mentor documentation identify Training with Frieza (1st Form), specifically Intergalactic Emperor of Evil 3, as the acquisition source; it is a Ki Blast Ultimate.",
+      "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile. 2026-09-20 verification: current skill page and mentor documentation identify Training with Frieza (1st Form), specifically Intergalactic Emperor of Evil 3, as the acquisition source; it is a Ki Blast Ultimate. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-frieza added for the documented mentor-training acquisition route.",
       "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 3",
       "source_quest": "Frieza (1st Form) mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-death-ball"
+      "id": "skill-death-ball",
+      "source_mentor": "mentor-frieza"
     },
     {
       "name": "Death Psycho Bomb",
@@ -2082,15 +2087,16 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
-      "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained.",
-      "last_verified": "2026-09-19",
+      "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-krillin added for the documented mentor-training acquisition route.",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "id": "skill-destructo-disc"
+      "id": "skill-destructo-disc",
+      "source_mentor": "mentor-krillin"
     },
     {
       "name": "Dimension Cannon",
@@ -3780,16 +3786,17 @@
       "unlock_method": "Vegeta's Initiation Test — complete the mentor battle using Galick Gun as required; Galick Gun is the Basic Reward.",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Vegeta mentor training — Initiation Test",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "usable_by_cac": true,
-      "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
+      "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-vegeta added for the documented mentor-training acquisition route.",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "id": "skill-galick-gun"
+      "id": "skill-galick-gun",
+      "source_mentor": "mentor-vegeta"
     },
     {
       "name": "Gamma Blaster",
@@ -4699,13 +4706,14 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Goku mentor training, Lesson 1",
       "mechanics": "Teleports the user to the opponent; uses no Ki or Stamina.",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "research_status": "enriched",
-      "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost.",
+      "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-goku added for the documented mentor-training acquisition route.",
       "source_quest": "Goku mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
-      "id": "skill-instant-transmission"
+      "id": "skill-instant-transmission",
+      "source_mentor": "mentor-goku"
     },
     {
       "name": "Justice Blade",
