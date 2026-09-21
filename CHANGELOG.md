@@ -938,3 +938,6 @@
 - Updated only canonical `ki_cost` and `last_verified`.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 33 nullable `ki_cost` records**.
 - Commit: `0931c19993553d4e8e875a2955a7479a26922c29`.
+
+### 2026-09-21 — Citation-token correction for Broly changelog entry
+- The immediately preceding Broly changelog entry contains internal citation-token text that should not be persisted in repository prose. This append-only correction removes no history; it clarifies that the underlying evidence supports Blaster Meteor as a stamina-only Evasive Skill and therefore canonical `ki_cost=0`.
