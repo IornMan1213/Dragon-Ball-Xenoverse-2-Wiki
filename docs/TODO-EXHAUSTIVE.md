@@ -1708,3 +1708,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved existing acquisition/reward-tier and mechanics semantics; no unsupported drop probability was inferred.
 - [x] Post-write target: **50** exactly-two-source records.
 - [ ] Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance record after Energy Field, checking acquisition/reward semantics before provenance-only strengthening.
+
+
+### 2026-09-21 — Completed low-source provenance batch: Energy Release
+- [x] Recomputed the live two-source census before editing: **50**.
+- [x] Verified **Energy Release** is a Towa character skill; the maintained GameFAQs move guide independently lists it in Towa's Super Attack slot.
+- [x] Added the independent GameFAQs source to canonical and index records; refreshed `last_verified` to **2026-09-21**.
+- [x] Preserved the character-only acquisition boundary; no unsupported PQ/shop route was inferred.
+- [x] Post-write target: **49** exactly-two-source records.
+- [ ] Exact next task: recompute the live two-source census and continue with the next deterministic low-source record after Energy Release, checking acquisition/reward semantics before provenance-only strengthening.
