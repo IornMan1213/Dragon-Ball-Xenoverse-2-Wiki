@@ -3853,3 +3853,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `26492c947f35359f6f41cfc17ebd062ba6a6635c`.
 - No canonical data changed.
 - Next: re-audit producer/validator classification for any remaining fresh-build acquisition drift.
+
+
+## 2026-09-21 continuation — post-fix acquisition drift recheck
+- Re-audited the live 283-record canonical catalog against the corrected producer/validator semantics.
+- Current acquisition census remains **248 quest_or_mission / 1 parallel_quest / 11 skill_shop / 9 tp_medal_shop / 8 character_only / 2 starting_move / 4 other_nonquest**.
+- The only canonical `parallel_quest` record is **Final Pose**, and it has textual PQ74 provenance. No other canonical record has PQ-number wording without a `source_quest` value; therefore the producer's new guard does not introduce a new classification cohort.
+- No `parallel_quest` record has a numeric/textual `source_quest` conflict, no TP Medal Shop record has a quest source, and no remaining starting-choice/Skill Shop conflict was found in the live canonical fields.
+- The corrected builder guard is present, and the validator still checks PQ provenance across `source_quest`, `source_quest_or_shop`, and `unlock_method`.
+- No canonical data change was warranted. Web research confirms PQs are a major skill-reward source, but no external fact was used to alter the repository in this pass. citeturn0search2
+- Exact next task: inspect the remaining acquisition cross-field invariants, especially `character_only`/CaC eligibility and `ultimate_finish_required` consistency, before making further catalog changes.
