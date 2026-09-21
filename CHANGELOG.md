@@ -799,3 +799,15 @@
 - Corrected 3 deterministic `sources` projections in `docs/data/skills-index.json` for God Splitter, Heavenly Arrow, and Instant Severance to match canonical provenance, including the existing Zamasu source.
 - Validation: 429 canonical skills / 429 index records; targeted source parity is clean and no internal citation artifacts were introduced.
 - Commit: `20b6a147dae05e99a4b6aa218586709a23f55115`.
+
+
+### 2026-09-21 — skills-index mechanics projection parity batch 1
+- Live census: **429 canonical skills / 429 skill-index records**.
+- Bounded deterministic batch: **10 `mechanics_notes` projections** — Brutal Buster, Crush Cannon, Crush Stream, Dancing Parapara, Darkness Rush (Melee), Darkness Rush (Ranged), Data Input, Deadly Dance, Death Ball, and Destructive Fission.
+- Evidence: canonical `docs/data/skills.json` is the producer for the index projection; no new gameplay or acquisition claim was introduced.
+- Changes: copied only the canonical `mechanics_notes` values into the corresponding `docs/data/skills-index.json` records.
+- Evidence limits: deterministic cross-layer parity correction, not a new verification event; remaining projection drift is intentionally left for later bounded batches.
+- Validation: both JSON layers parse; record counts remain **429/429**; all 10 targeted `mechanics_notes` values now match canonical; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: not yet inspected for this commit; do not claim CI success.
+- Commit: `467a1148188343c36df72043bd959482d10f866f`.
+- Exact next batch: **recompute the live projection census and continue with the next bounded `mechanics_notes` mismatch family; preserve canonical values and do not regenerate unrelated fields.**
