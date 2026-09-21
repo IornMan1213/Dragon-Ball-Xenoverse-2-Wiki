@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 133,
-  "linked_skill_edges": 120,
-  "unresolved_skill_endpoints": 13,
-  "fully_linked_mentors": 28,
-  "partially_linked_mentors": 4,
+  "linked_skill_edges": 130,
+  "unresolved_skill_endpoints": 3,
+  "fully_linked_mentors": 31,
+  "partially_linked_mentors": 2,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -107,13 +107,12 @@
         "Explosive Assault"
       ],
       "linked_skill_ids": [
-        "skill-masenko"
+        "skill-masenko",
+        "skill-evil-ray-strike",
+        "skill-evil-rise-strike",
+        "skill-explosive-assault"
       ],
-      "unresolved_skill_names": [
-        "Evil Ray Strike",
-        "Evil Rise Strike",
-        "Explosive Assault"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-nappa",
@@ -142,13 +141,12 @@
         "Final Flash"
       ],
       "linked_skill_ids": [
-        "skill-galick-gun"
+        "skill-galick-gun",
+        "skill-finish-breaker",
+        "skill-flash-strike",
+        "skill-final-flash"
       ],
-      "unresolved_skill_names": [
-        "Finish Breaker",
-        "Flash Strike",
-        "Final Flash"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-zarbon",
@@ -538,11 +536,10 @@
       "linked_skill_ids": [
         "skill-time-skip-flash-skewer",
         "skill-time-skip-back-breaker",
-        "skill-time-skip-jump-spike"
+        "skill-time-skip-jump-spike",
+        "skill-time-skip-tremor-pulse"
       ],
-      "unresolved_skill_names": [
-        "Time Skip/Tremor Pulse"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-bojack",
@@ -570,12 +567,13 @@
         "Heavenly Arrow",
         "Instant Severance"
       ],
-      "linked_skill_ids": [],
+      "linked_skill_ids": [
+        "skill-god-splitter",
+        "skill-heavenly-arrow",
+        "skill-instant-severance"
+      ],
       "unresolved_skill_names": [
-        "I'm thinking of becoming a GodTuber",
-        "God Splitter",
-        "Heavenly Arrow",
-        "Instant Severance"
+        "I'm thinking of becoming a GodTuber"
       ]
     }
   ],
@@ -590,5 +588,5 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
   ],
-  "canonical_skill_records": 408
+  "canonical_skill_records": 418
 }
