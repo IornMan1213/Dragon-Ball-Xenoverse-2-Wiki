@@ -420,12 +420,13 @@
       "mechanics_notes": "500 Ki consumed on transformation; +30% Strike and Blast, -20% Strike and Blast Defense, +20% Ki restoration. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Beast",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-hero-of-justice-pack-2-dlc-release"
       ],
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken. 2026-09-20 provenance refinement: current Beast unlock evidence identifies max friendship with Piccolo and Gohan/Videl, followed by Piccolo's special training and Cell Max battle; no Ultimate Finish gate is inferred.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +30% all attacks, +20% Ki restoration, and +20% damage taken. 2026-09-20 provenance refinement: current Beast unlock evidence identifies max friendship with Piccolo and Gohan/Videl, followed by Piccolo's special training and Cell Max battle; no Ultimate Finish gate is inferred. 2026-09-21 provenance strengthening: Bandai Namco's official Hero of Justice Pack 2 announcement confirms the DLC adds Gohan (Beast), new Parallel Quests/missions, and new skills; existing Beast unlock/mission semantics remain unchanged.",
       "source_quest": "Piccolo special training — Cell Max unlock mission",
       "acquisition_type": "quest_or_mission",
       "id": "skill-beast"
