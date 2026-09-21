@@ -1290,3 +1290,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Canonical change limited to `dlc_requirement`, `last_verified`, and a bounded provenance note. Acquisition route remains Expert Mission 20; no mechanics/cost/restriction changes.
 - [x] Important distinction preserved: Data Input being used by Android 13 does not make it an Extra Pack 1-exclusive skill.
 - [x] Next provenance batch: recompute the live DLC census and continue auditing skills whose `dlc_requirement` is inferred from character association rather than direct acquisition/package evidence.
+
+
+### 2026-09-21 — Master ledger completion marking: character-association DLC census
+- [x] Audited skills associated with major Extra Pack 2/3/4 characters against their acquisition/source records.
+- [x] Extra Pack 2: Power Impact, Power Rush, Meditation, and Rough Ranger are directly sourced to PQ119/120/122 and retain `Extra Pack 2`; the official package contains 8 new skills, so character association alone was not used to relabel records. citeturn0search0turn0search3
+- [x] Extra Pack 3: all eight canonical records are sourced to PQ123–127 and retain `Extra Pack 3`.
+- [x] Extra Pack 4: all eight canonical records are sourced to PQ128–132 and retain `Extra Pack 4`.
+- [x] Character-association exceptions were explicitly reviewed: Blazing Attack is associated with Goku (Ultra Instinct) but is sourced to PQ136 and remains `Ultra Pack 1`; Surging Spirit intentionally carries the composite `Extra Pack 2; Conton City Vote Pack` provenance; these are not safe to collapse based on character association.
+- [x] No canonical data changes were required in this pass.
+- [ ] Next provenance batch: continue with another character-associated cluster where direct package/source evidence can establish or falsify the current label.
