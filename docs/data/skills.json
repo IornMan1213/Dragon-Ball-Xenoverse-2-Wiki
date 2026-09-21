@@ -1113,7 +1113,7 @@
       "mechanics_notes": "Current evidence confirms the base Candy Beam record as a 100-Ki Ki Blast Super from PQ66. The current record's explicit Majin CaC restriction is retained; the 200-Ki Candy Beam (Super) variant is a separate skill entry.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Candy_Beam",
@@ -1122,7 +1122,7 @@
       "source_quest": 66,
       "race_restriction": "Majin",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ66 reward listings explicitly place Candy Beam in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ66 reward listings explicitly place Candy Beam in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance audit: the record remains Base Game because its primary Future Warrior acquisition is PQ66; the additional PQ113 reference reflects the later Extra Pack 1 Candy Beam reward context and does not change the canonical base skill's originating acquisition.",
       "id": "skill-candy-beam",
       "source_parallel_quests": [
         66,
