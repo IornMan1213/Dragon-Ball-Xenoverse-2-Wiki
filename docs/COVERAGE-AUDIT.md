@@ -4954,3 +4954,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 ### 2026-09-21 — Citation-token correction for Android 16 audit entry
 - The preceding Android 16 audit entry contains internal citation-token text that must not persist in repository prose. This append-only correction preserves the historical entry while clarifying that the underlying evidence supports Eye Beam, Rocket Tackle, and Android Rush at 100 Ki and Hell Flash at 300 Ki.
+
+### 2026-09-21 — Future Gohan mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 29 nullable `ki_cost` records**.
+- Bounded batch: **Sonic Rush (100), Energy Dome (up to 320), One-Handed Kamehameha mk.II (400–600)** from Future Gohan mentor training.
+- Evidence: current Xenoverse 2 skill references explicitly document Sonic Rush at **100 Ki**, Energy Dome at **up to 320 Ki** with sustained/expanded input consuming Ki, and One-Handed Kamehameha mk.II at **400–600 Ki**. Variable-cost behavior was preserved rather than flattened. citeturn0search2turn0search0turn0search1
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred beyond the documented cost ranges.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **26**. No skill-index Ki-cost projection introduced.
+- CI: canonical commit `2b4ee7bb780d6591197b7e79863e75ef9799e053` had no actionable workflow/status result exposed; **no CI success claimed**.
+- Commit: `2b4ee7bb780d6591197b7e79863e75ef9799e053`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
