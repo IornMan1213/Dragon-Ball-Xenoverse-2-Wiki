@@ -4785,3 +4785,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Category-count synchronization was corrected after the expansion and now preserves the repository's existing taxonomy (`Ki Blast`, `Strike`, `Other`, `Power Up`, and Awoken subcategories) rather than collapsing categories.
 - No mechanics or acquisition conditions beyond the documented mentor lesson routes were inferred.
 - Next exact batch remains: **Zarbon, Dodoria, Captain Ginyu, Frieza (1st Form), and Cooler (Final Form)**; create their missing canonical skill records in the same evidence-bounded manner and wire both directions.
+
+
+### 2026-09-21 cycle update — Zarbon/Dodoria/Ginyu/Frieza/Cooler expansion
+- Live census before editing: **325 canonical skills / 325 index records / 33 mentors / 129 lesson entries / 36 linked mentor edges**.
+- Bounded batch: **20 lesson endpoints across 5 mentors** (Zarbon, Dodoria, Captain Ginyu, Frieza (1st Form), Cooler (Final Form)). 18 new canonical skills were required; Death Ball and Shadow Crusher already existed and were reused rather than duplicated.
+- Changes: added 18 canonical records to `skills.json`, mirrored them into `skills-index.json`, connected all 20 lesson endpoints in `mentors-record-layer.json`, and refreshed `mentor-skill-coverage-report.json`.
+- Evidence/evidence boundary: mentor lesson reward identities and routes were already represented by the repository's maintained mentor evidence; existing Death Ball/Shadow Crusher records supplied their canonical IDs and provenance. New records intentionally establish acquisition identity/provenance only; detailed mechanics remain deferred until separately evidenced.
+- Validation: **343 skills / 343 index records; 54 linked mentor edges; 75 unresolved endpoints**. Bidirectional validation: **0 broken mentor→skill endpoints, 0 missing index records, 0 reverse mentor mismatches**. No duplicate canonical records were created for the two existing skills.
+- CI: no workflow status was exposed for this cycle; no CI success is claimed.
+- Commits: `5a1befb`, `d22c121`, `92ab530`, plus coverage refresh pending this entry.
+- Exact next batch: **Majin Buu, Hercule, Gohan (Adult) and Videl, and Gotenks**; expand/reuse canonical skills for those 16 lesson endpoints, then validate bidirectional links and skill/index parity.
