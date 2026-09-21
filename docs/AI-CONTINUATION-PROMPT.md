@@ -3952,3 +3952,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Non-quest acquisition routes commonly have deliberately distinct `source_quest_or_shop` and `unlock_method` wording; this is expected preservation behavior, not drift.
 - No canonical data/index changes were necessary in this pass.
 - Exact next task: audit deterministic category counts/index generation and identify whether the builder's `TARGET_COUNTS` can silently diverge from the canonical catalog, then strengthen validation if a concrete invariant is missing.
+
+
+## 2026-09-21 continuation — category-count/index generation audit
+- Compared the canonical `category_counts` and `target_category_counts` with the builder's `TARGET_COUNTS` and index output.
+- The canonical category counts intentionally do not equal simple class/subcategory counts: the published category census is overlapping (race-specific, CaC availability, and other taxonomy categories), while each record has only one class/subcategory pair. A naive recomputation from those fields therefore produces false drift and must not be used to rewrite the census.
+- `skills-index.json` exactly matches the canonical `category_counts`; transformation count remains exactly 15.
+- Builder target counts are research targets rather than a claim that every overlapping category can be reconstructed from the canonical class/subcategory fields. No unsupported count changes were made.
+- No canonical data/index or validator changes were necessary in this pass.
+- Exact next task: inspect the builder's deterministic ordering/key construction and compare it against the canonical/index sequence, including correction handling and duplicate-key protection, to find any remaining regeneration drift.
