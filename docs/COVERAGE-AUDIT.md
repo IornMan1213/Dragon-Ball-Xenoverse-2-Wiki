@@ -5273,3 +5273,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Existing **PQ81 / Wake Up!** acquisition retained; independent PQ guides corroborate it as a Basic Reward. citeturn1search3turn1search6
 - Canonical commit: `7b33e464fba3c887b8cce2e3ac23d287e83930ca`.
 - Next: continue the remaining two-source acquisition/provenance cluster.
+
+
+### 2026-09-21 — Assault Vanish cross-field correction
+- Corrected **Assault Vanish** from an unsupported **PQ131 Ultimate Finish / 25% roll** classification to **PQ131 Basic Reward**, based on independent PQ reward documentation.
+- Added independent reward sources and preserved the existing PQ131 acquisition.
+- Canonical commit: `2eb625b3cbf1e72b76fd54b8cb84ba1d72319a05`.
+- Next: continue low-source acquisition records, checking cross-field contradictions before provenance-only enrichment.
