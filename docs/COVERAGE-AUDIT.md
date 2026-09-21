@@ -5123,3 +5123,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation found a pre-existing canonical/index projection gap: Pretty Charge existed in the 429-record canonical skills layer but was absent from the 428-record skills index.
 - Added the existing canonical Pretty Charge projection to the index and synchronized index record_count to 429.
 - Final skill-layer parity: 429 canonical records / 429 index records / 0 duplicate IDs.
+
+### 2026-09-21 — Future Saga Chapter 2 skill provenance audit
+- Live canonical skill census: 429 records / 0 duplicate IDs / 0 nullable `ki_cost` values.
+- Bounded cluster: God of Destruction's Poise, God of Destruction's Plaything, God of Destruction's Might, Full Power Destruction, Soaring Rush, Dragon Spark, and Burst Blitz.
+- Official Bandai Namco documentation states Future Saga Chapter 2 contains 4 Parallel Quests and 7 additional moves. The maintained 186-PQ reward guide maps the seven skills across PQ175-PQ178.
+- Result: all seven canonical records already carry `dlc_requirement=Future Saga Chapter 2` and their primary `source_quest` values are PQ175-PQ178 as expected. No provenance correction was justified.
+- Existing reward-tier conflicts/conditions were preserved; this audit did not normalize acquisition or Ultimate Finish semantics.
+- Audit source: https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc and https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+
