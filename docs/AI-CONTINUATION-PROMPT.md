@@ -4527,3 +4527,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: ddf4cf2 (canonical accessory identities), 6cf903e (bridge), 1e3415f (cross-link report), 14d6cf5 (coverage audit), 4c33d29 (changelog). Handoff update follows this entry.
 - Live census after editing: **96 canonical accessory identities; 33 matched accessory PQ endpoints; 12 unresolved research identities**.
 - Exact next batch: reconcile the next eight unresolved accessory identities in docs/data/accessory-pq-canonical-bridge.json: **pqacc-016 Yamcha Baseball Hat, pqacc-017 SSGSS Vegeta Wig, pqacc-019 Bulma (Kid) Wig, pqacc-020 Great Saiyaman Helmet, pqacc-023 Android 14's Hat, pqacc-024 Android 15's Sunglasses, pqacc-025 Bardock (DB Super)'s Scouter, pqacc-026 Gine (DB Super)'s Accessory**. Research identity first; do not merge component records without direct evidence.
+
+
+### 2026-09-21 CI follow-up — accessory reconciliation
+- Checked GitHub Actions for the final handoff commit 5cf33d377677b2caa2707d1a0ef7eca30c9a78ea.
+- The GitHub connector exposed **no pull-request workflow runs** for this commit, so CI is **unavailable/not exposed**, not successful. No validator was changed or weakened.
+- Repository validation remains locally consistent for the bounded batch: 96 canonical accessory identities, 33 matched PQ accessory endpoints, 12 unresolved research identities, and no newly introduced internal citation artifacts in the edited JSON/report files.
+- Exact next batch remains the eight accessory identities listed in the preceding cycle entry.
