@@ -5417,3 +5417,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow success claimed.
 - Commit: `e40ac514e21b893fa54b88e4642dfcf88deb53b7`.
 - Exact next batch: recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, **Cooler's three null-cost skills: Feint Crash, Fake Blast, Supernova Cooler**, if explicit current Ki Used evidence is available.
+
+### 2026-09-21 — Cooler mentor skill Ki-cost verification batch
+- Live canonical skill census before editing: **428 records; 81 nullable `ki_cost` records**.
+- Bounded batch: **Feint Crash, Fake Blast, Supernova Cooler**.
+- Current references document **100 Ki** for Feint Crash and **500 Ki** for Supernova Cooler; Fake Blast is recorded at **100 Ki** from the current skill-cost dataset/reference family, with no variable-cost behavior flattened.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`.
+- Validation: canonical count remains **428**, duplicate IDs remain **0**; nullable `ki_cost` count is now **78**. No index Ki-cost projection introduced.
+- CI: no actionable workflow success claimed.
+- Commit: `6fafe9a8eaecc079b94f59884789cf33f49c2474`.
+- Exact next batch: recompute the nullable-`ki_cost` census and continue with **Majin Buu's four null-cost mentor skills: Innocence Bullet, Angry Hit, Innocence Cannon, Innocence Breath**, if explicit current Ki Used evidence is available.
