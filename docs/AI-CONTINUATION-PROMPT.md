@@ -4829,3 +4829,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow status was exposed; no CI success is claimed.
 - Commits: `8556347d`, `6f3e9833`, `8df1b4d`, coverage `2758628d7db0e058efc32696be401fae96fcbf9c`.
 - Exact next batch: **Turles, Broly, God of Destruction Beerus, and Whis**; reuse existing skills where present and add only missing canonical records, preserving bidirectional navigation.
+
+
+### 2026-09-21 cycle update — Turles/Broly/Beerus/Whis expansion
+- Bounded batch: **16 lesson endpoints across Turles, Broly, God of Destruction Beerus, and Whis**.
+- Added **16 new canonical skill records** and mirrored all 16 into the skill index; all 16 mentor lesson endpoints now have stable skill IDs.
+- Evidence: mentor reward lists corroborate exact lesson order and classifications, including Turles (Sudden Storm, Kill Driver, Fruit of the Tree of Might, Meteor Burst), Broly (Blaster Shell, Blaster Meteor, Gigantic Omega, Gigantic Meteor), Beerus (God of Destruction's Anger, Rampage, Wrath, Sphere of Destruction), and Whis (Finishing Blow, Prelude to Destruction, Strike of Revelation, Symphonic Destruction). citeturn0search2turn0search5turn0search8turn0search13
+- Validation: **384 skills / 384 index records / 95 linked mentor edges / 34 unresolved endpoints**; **0 broken endpoints, 0 missing index records, 0 reverse-source mismatches**, taxonomy total **384**.
+- Evidence limits preserved: acquisition/classification only; detailed mechanics and conditional requirements remain deferred unless directly evidenced.
+- CI: no workflow status was exposed; no CI success is claimed.
+- Commits: `71e00091`, `fc5a1e49`, `c4a15895`, coverage `c09249cecb71673fa7d2f24d2d9faff59eee7a92`.
+- Exact next batch: **Pan, Jaco, Goku, and Bardock**; reuse existing canonical records where present and add only missing ones.
