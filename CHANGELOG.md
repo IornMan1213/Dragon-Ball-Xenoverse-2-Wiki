@@ -766,3 +766,11 @@
 - Validation: 429 canonical skills / 429 index records; the targeted values match at the validated commit. CI status unavailable; no CI success claimed.
 - Commits: `ad2bd70044d982245819621ea63c66116ffc1490`, `53959c1bfcf0bbb0c67d6625bdb7c429cd643c0e`, `1edc204ca3a085a19747ea79337833696102c39c`.
 
+
+
+### 2026-09-21 — skills-index projection parity
+
+- Corrected 10 deterministic last_verified values in docs/data/skills-index.json to match canonical docs/data/skills.json.
+- Scope: Become Giant, Dancing Parapara, Darkness Rush (Melee), Darkness Rush (Ranged), Data Input, Deadly Dance, Death Ball, Destructo-Disc, Dimension Cannon, Dragon Spiral.
+- No new gameplay, acquisition, restriction, or DLC claims were introduced.
+- Commit: a14d8a7025124ca12a54e55c4b4ba9ffa701cf15.
