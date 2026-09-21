@@ -4613,3 +4613,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI was not exposed for the direct commit; no CI success is claimed.
 - Commits: `e758b40ee4f23876cf05a5fd9872cfa1e7e97008` (canonical skill data), `b8bb306a490e4305fbe6d8100c092f0885b13deb` (coverage audit).
 - Exact next batch: inspect remaining non-numeric `source_quest` values and classify them into genuine non-PQ acquisition routes versus safely normalizable PQ/story/mentor identifiers, prioritizing deterministic cross-database joins and preserving strings where they are semantically correct.
+
+
+### 2026-09-21 cycle update — skill Expert Mission cross-link normalization
+- Live census: **305 canonical skill records**.
+- Bounded batch: **Data Input (EM-20), Super Spirit Bomb (EM-16), Supernova (EM-6)**.
+- Repository evidence already established each skill's Expert Mission source, while the dedicated Expert Mission evidence layers use canonical IDs `EM-20`, `EM-16`, and `EM-6`. `source_quest` was normalized to those IDs for direct cross-database joins; human-readable mission context remains in `source_quest_or_shop`.
+- No unresolved reward conditions, drop rates, Z-Rank requirements, or mechanics were promoted.
+- Validation: **305 records / 3 explicit EM-ID joins / 39 remaining non-numeric source_quest values / 0 internal UI citation artifacts** in canonical skills JSON.
+- Coverage audit updated in `docs/COVERAGE-AUDIT.md`.
+- CI was not exposed for the direct commit; no CI success is claimed.
+- Commit: `e63d045ddeed4d2834d24511ddf1e07e885a5671` (canonical skill data), `dc601f01b9c6a950dd54a252e9198de1441dbf4c` (coverage audit).
+- Exact next batch: inspect the remaining 39 non-numeric sources for already-established canonical relationship IDs for mentor lessons, Advancement Tests, Time Rifts, story/Future Saga missions, and Shenron wishes. Normalize only when an existing repository identifier makes the join deterministic.
