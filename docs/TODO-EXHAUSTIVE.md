@@ -1095,3 +1095,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Post-write canonical validation completed: 428 records / 0 duplicate IDs / 12 nullable ki_cost records.
 - [~] Dimension Cannon exact-cost research inspected but not completed; null preserved pending direct exact-skill evidence.
 - [ ] Next unresolved Ki-cost task: Dimension Cannon exact-cost verification.
+
+
+### 2026-09-21 — Master ledger completion marking: Dimension Cannon / Orin Combo / Scatter Kamehameha
+
+- [x] **Dimension Cannon Ki-cost verification completed as an Evasive exception.** Canonical ki_cost remains null because the move consumes Stamina rather than Ki; canonical stamina_cost=300; last_verified=2026-09-21. Dedicated current skill evidence explicitly lists 300 Stamina. No unsupported Ki value was inserted.
+- [x] **Orin Combo Ki-cost verification completed: 100 Ki.** Current skill evidence explicitly lists 100 Ki; canonical record updated with ki_cost=100 and last_verified=2026-09-21.
+- [x] **Scatter Kamehameha Ki-cost verification completed: 300 Ki.** Current skill evidence explicitly lists 300 Ki; canonical record updated with ki_cost=300 and last_verified=2026-09-21.
+- [x] Post-write canonical validation completed: **428 records / 0 duplicate IDs / 10 nullable ki_cost records**.
+- [ ] Next unresolved Ki-cost queue after this batch: **Time Skip/Tremor Pulse, Giant Storm, Angry Explosion, Dead End Rain, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**.
+
+> Earlier unchecked/partial entries remain permanently preserved. These dated entries are the authoritative completion markings under the append-only ledger contract.
