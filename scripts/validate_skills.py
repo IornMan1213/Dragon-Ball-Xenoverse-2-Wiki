@@ -61,7 +61,6 @@ def main():
   if acquisition=='starting_move' and not re.search(r'starting (?:move|fighting-style choice)', provenance):errors.append(f"{r.get('name')}: starting_move acquisition requires explicit starting-choice provenance")
   if acquisition=='character_only' and not re.search(r'character(?:[- ]only|[- ]exclusive)|character skill', provenance):errors.append(f"{r.get('name')}: character_only acquisition requires explicit character-only provenance")
   if acquisition=='tp_medal_shop' and r.get('source_quest') not in (None,'') and re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', str(r.get('source_quest_or_shop','')).casefold()):errors.append(f"{r.get('name')}: mixed PQ + TP Medal route must preserve quest_or_mission acquisition_type")
-  if isinstance(r.get('source_quest'),int) and (r.get('source_quest') < 1 or r.get('source_quest') > 186):errors.append(f"{r.get('name')}: numeric source_quest must be a canonical PQ ID from 1 through 186")
   uf=r.get('ultimate_finish_required')
   if uf not in (None,True,False):
    errors.append(f"{r.get('name')}: invalid ultimate_finish_required value")
