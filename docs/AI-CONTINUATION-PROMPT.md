@@ -5450,3 +5450,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no success claimed without an actionable exposed run.
 - Commit: `be038934e4bbc9e17995e1712f48ec6f15174b2e`; audit commit: `99a1c79d8eae056162959457c50cc9611808d2d4`.
 - Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+
+### 2026-09-21 cycle update — Hercule mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 70 nullable `ki_cost` records**.
+- Bounded batch completed: **Dynamite Kick (100), Present For You (100), Rolling Hercule Punch (100), The Savior Has Come (300)**.
+- Evidence: current Xenoverse 2 skill references explicitly expose those Ki-used values. citeturn1search0turn1search4turn1search1turn1search3
+- Changes were limited to canonical `ki_cost` plus `last_verified=2026-09-21`; no mechanics or acquisition semantics were inferred.
+- Expected post-edit census: **428/428 records, 0 duplicate IDs, 66 nullable `ki_cost` records**. No index Ki-cost projection was introduced.
+- CI: no success claimed without an actionable exposed run.
+- Commit: `2fecabd76bd0dbab8ec1017ada0b3587a3e9e194`; audit/handoff update follows.
+- Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
