@@ -6015,3 +6015,13 @@ The repository owner has clarified the continuation contract:
 - Validation: **428 records / 0 duplicate IDs / 6 Legendary Pack 1 skills / 0 PQ143–146 DLC mismatches**.
 - Reward-tier semantics were preserved; this was a provenance-only pass. No workflow run/check is exposed, so CI success is not claimed.
 - Exact next task: fresh live DLC-label/source-relationship census beyond Legendary Pack 1.
+
+
+### 2026-09-21 cycle update — Legendary Pack 2 skill DLC provenance census
+- Live canonical census: **428 records / 0 duplicate IDs**.
+- Bounded batch: ten Legendary Pack 2 skills mapped to PQ147–150.
+- Official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as 4 new PQs and 10 additional moves; live canonical records independently map all ten skills to PQ147–150.
+- Changes: refreshed `last_verified=2026-09-21` and appended bounded provenance notes to ten affected skill records.
+- Validation target: **428 records / 0 duplicate IDs / 10 Legendary Pack 2 skills / 0 PQ147–150 DLC mismatches**.
+- Reward-tier semantics and free-update/character-only distinctions were preserved; this was a provenance-only pass. CI success is not claimed unless GitHub exposes a run/check.
+- Exact next task: fresh live DLC-label/source-relationship census beyond Legendary Pack 2.
