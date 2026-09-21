@@ -3320,8 +3320,22 @@ Only after data-completeness work, expose the improved structured research surfa
 
 ### 2026-09-20 cycle update — non-PQ source-quality refinement continuation
 - Refined **5** records: **Future Super Saiyan**, **Data Input**, **Super Spirit Bomb**, **Supernova**, and **Fighting Pose K**.
-- **Future Super Saiyan** was corrected to the **Unknown History secret story mission** route after current walkthrough evidence explicitly tied the transformation to completion of Unknown History; the prior Capsule Corporation/Vegeta provenance was replaced because it conflicted with that evidence. citeturn1search0turn1search3
-- **Data Input**, **Super Spirit Bomb**, and **Supernova** now explicitly identify their respective Expert Mission **Basic Reward** pools: EM20, EM16, and EM6. citeturn3youtube41turn3search1turn3search2
-- **Fighting Pose K** now explicitly records the story-to-Skill-Shop dependency following "The Ginyu Force Strikes". citeturn3reddit42
+- **Future Super Saiyan** was corrected to the **Unknown History secret story mission** route after current walkthrough evidence explicitly tied the transformation to completion of Unknown History; the prior Capsule Corporation/Vegeta provenance was replaced because it conflicted with that evidence. 
+- **Data Input**, **Super Spirit Bomb**, and **Supernova** now explicitly identify their respective Expert Mission **Basic Reward** pools: EM20, EM16, and EM6. 
+- **Fighting Pose K** now explicitly records the story-to-Skill-Shop dependency following "The Ginyu Force Strikes". 
 - Commits: canonical **8466316b9b41199c8524e3821a2d03d6863e54b1**; index **d6fc033d206cc2dc5ffcc4f6f729b3a46723c50d**.
 - Exact next task: **continue the non-PQ provenance audit, prioritizing time-rift/story records and any dedicated-research provenance conflicts; then refine only where concrete evidence supports the change.**
+
+
+### 2026-09-20 cycle update — non-PQ source-quality cleanup
+- Workstream: P1 skill acquisition/source provenance cleanup after completing the generic PQ reward-tier census and the non-PQ mentor/Awoken provenance passes.
+- Re-audited the remaining non-PQ acquisition records for stale PQ references and source/canonical contradictions.
+- Found one direct stale-provenance note on **Explosive Wave**: the canonical route is Skill Shop after completing the main story's normal ending, but the note incorrectly claimed maintained PQ evidence placed the skill in a Basic Reward. A repository-wide PQ reward census found no Explosive Wave record in the maintained PQ research batches.
+- Removed that stale note from `docs/data/skills.json` and `docs/data/skills-index.json`. No acquisition route, Ultimate Finish flag, cost, restriction, or drop-rate claim was changed.
+- Also removed accidental internal/tool citation markup from `docs/AI-CONTINUATION-PROMPT.md` and `docs/COVERAGE-AUDIT.md`; repository files must not contain ChatGPT/internal citation artifacts.
+- Validation: canonical **283** records, index **283**, exact record-order parity, **0 duplicates**, **60** Ultimate Finish flags; both JSON files parse successfully.
+- Commits: canonical **94382a7e91dbe4122101d895d58630aa8d683d67**; index **0e1fc6198874facb13d494e016d323f64ef7d95**; coverage audit **e54ebc53493aa1acaa860a76ea4413d868ddbf93**; this handoff update follows.
+- CI: no validator was weakened. The documented opaque pre-step GitHub Actions failure pattern remains an infrastructure/account signal; inspect the latest workflow state before changing any validation code.
+- Evidence limitation: the cleanup was deliberately limited to a provenance contradiction that could be falsified directly from the maintained repository PQ corpus. No missing acquisition condition was inferred.
+- Current unresolved scope: genuine source conflicts remain documented, including Emperor's Cannon's PQ183/PQ184 provenance conflict and other reward-table vs explicit-drop-condition discrepancies.
+- Exact next task: **continue the non-PQ source-quality audit, prioritizing time-rift/story/shop records whose provenance notes may contradict their canonical acquisition fields; preserve genuine source conflicts and do not infer missing conditions.**
