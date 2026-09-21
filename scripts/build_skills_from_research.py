@@ -100,7 +100,11 @@ def merge_record(m,r,protected=None,blocked=None):
   raise ValueError(f"invalid correction metadata for {n}: correction_of must be an object")
  if isinstance(c,dict) and not c:
   raise ValueError(f"invalid correction metadata for {n}: correction_of must not be empty")
- c=c or {}; oldname=c.get('name',n); oldclass=c.get('previous_class',c.get('class',r.get('class',''))); oldsub=c.get('previous_subcategory',c.get('subcategory',r.get('subcategory',r.get('class','')))); oldkey=(oldname.casefold(),oldclass,oldsub)
+ c=c or {}
+ oldname=c.get('name',n); oldclass=c.get('previous_class',c.get('class',r.get('class',''))); oldsub=c.get('previous_subcategory',c.get('subcategory',r.get('subcategory',r.get('class',''))))
+ if not isinstance(oldname,str) or not oldname.strip() or not isinstance(oldclass,str) or not oldclass.strip() or not isinstance(oldsub,str) or not oldsub.strip():
+  raise ValueError(f"invalid correction metadata for {n}: correction target name/class/subcategory must be non-empty strings")
+ oldkey=(oldname.casefold(),oldclass,oldsub)
  k=(n.casefold(),r.get('class',''),r.get('subcategory',''))
  if not c and k in blocked:return False
  if not c and k in protected:
