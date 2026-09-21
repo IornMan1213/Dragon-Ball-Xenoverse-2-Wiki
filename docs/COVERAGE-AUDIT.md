@@ -5107,3 +5107,8 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Canonical commit: `c6c5c7a0695044d293e6382f0d39e5d120f9fdb5`.
 - Exact next batch: fresh DLC/source census outside Hero of Justice Pack 2, then the next deterministic character-only/DLC completeness cluster.
 
+### 2026-09-21 — PQ21-PQ30 reward reconciliation
+- Reconciled canonical PQ21-PQ30 reward inventories against `docs/data/parallel-quest-research-batches/pq-batch-03.json`.
+- All ten canonical records already contained the documented basic rewards and corresponding skill/equipment/Super Soul relationship fields. No canonical reward data change was required.
+- Research coverage remains 186/186 PQs with 0 missing and 0 duplicate quest numbers.
+- Exact reward-slot probabilities remain unresolved where the maintained research does not establish them; no unsupported Ultimate Finish-only semantics were introduced.
