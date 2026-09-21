@@ -1649,3 +1649,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Synchronized canonical/index records and verification dates.
 - [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 55 exactly-two-source records**.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic low-source cluster after Afterimage, verifying source/acquisition consistency before adding provenance.
+
+
+### 2026-09-21 — Dead End Rain low-source provenance strengthening
+- [x] Recomputed the live skill census: 452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost values / 55 exactly-two-source records remaining after this batch.
+- [x] Strengthened Dead End Rain (EM13) from 2 to 3 sources with the maintained Expert Mission guide, which independently lists Dead End Rain as an EM13 Basic Reward.
+- [x] Preserved the existing Expert Mission 13 acquisition and reward-tier semantics; no unsupported probability, restriction, or mechanics data was added.
+- [x] Synchronized canonical/index source projections and verification dates; source parity is clean.
+- [ ] Next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster after Dead End Rain, checking source-PQ/mission and reward-tier consistency before enrichment.
