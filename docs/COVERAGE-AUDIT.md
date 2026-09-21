@@ -5178,3 +5178,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: 448 canonical / 448 index / 0 duplicate IDs / 0 nullable ki_cost values / 5 Free Update 2 records.
 - Canonical commit: 523b69e207c72f3acc01b57292d650c2a8170a02; index commit: 854fc1e4e7fe44b3572fd9099bef26db2dd9447d.
 - Exact next task: continue the remaining free-update census, starting with Free Update 1's documented launch-update skill/attack scope, and only add endpoints after exact names and acquisition evidence are established.
+
+### 2026-09-21 — Free Update 1 launch-update scope audit / catalog metadata repair
+- Live canonical skill census after the preceding Free Update 2 additions: **448 canonical records / 448 index records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Corrected stale top-level `record_count` metadata in `docs/data/skills.json` from **443** to **448**. No canonical record fields, category counts, or index records were changed.
+- Rechecked the documented December 2016 Free Update 1 scope: contemporary launch-update reporting confirms **Super Saiyan Blue Kaioken** for SSGSS Goku, **Pure Progress** for Hit, and **four additional attacks**, but the accessible launch documentation does not name those four attacks individually.
+- The two named Awoken endpoints are already present in the canonical registry as **Free Update 1** records. No speculative four attack names were promoted into canonical data.
+- Evidence boundary: the four unnamed attacks remain an open completeness item until exact names and acquisition endpoints can be established from stronger launch-era or current in-game evidence.
+- Validation target/result: canonical/index remain **448/448** and the canonical top-level record count now matches the records array.
+- Canonical metadata commit: `2599209e753aacddbc3856156e5f83e8430d74a2`.
+- Exact next task: **continue the Free Update 1 audit by identifying the four additional attack names from reliable launch-era/current evidence, then add only exact, bounded endpoints; do not infer names from unrelated mentor/DLC content.**
