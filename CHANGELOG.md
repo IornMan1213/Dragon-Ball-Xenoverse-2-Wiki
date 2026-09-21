@@ -1058,3 +1058,7 @@
 - Audited all ten canonical Conton City Vote Pack skill/move records against official publisher/store documentation and maintained PQ evidence.
 - Confirmed the PQ-linked records fall within PQ151–154 and retain matching DLC provenance.
 - Preserved character-only Supersonic Mode semantics and existing drop-condition evidence rather than normalizing unrelated fields.
+
+
+### 2026-09-21 — Conton City Vote Pack count correction
+- Corrected the provenance audit count from 10 to 11 canonical DLC-labeled records, distinguishing the ten additional moves from character-specific Supersonic Mode.
