@@ -818,3 +818,10 @@
 - Validation: 429 canonical skills / 429 index records; all 10 targeted values match; 15 broader `mechanics_notes` mismatches remain; no internal citation artifacts were introduced.
 - CI status unavailable; no CI success claimed.
 - Commit: `84d44bd4441d9d178eea9c6208803cd80dce7aca`.
+
+
+### 2026-09-21 — skills-index mechanics projection parity batch 3
+- Corrected 10 deterministic `mechanics_notes` projections in `docs/data/skills-index.json` to match canonical `docs/data/skills.json`: Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, and Spirit Bomb.
+- Validation: 429 canonical skills / 429 index records; all 10 targeted values match; **5** broader `mechanics_notes` mismatches remain; no internal citation artifacts were introduced.
+- CI status unavailable; no CI success claimed.
+- Commit: `5a9f4bf24d6efeafed6da3543e817ad0734f3a32`.
