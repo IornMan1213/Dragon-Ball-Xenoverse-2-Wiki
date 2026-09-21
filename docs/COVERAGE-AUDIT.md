@@ -4632,3 +4632,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: not yet exposed for this commit; no CI success claimed.
 - Commit: `69404599e87914ea5dafe993a154d1e86b0312c9`.
 - Exact next batch: **recompute the projection census and take the next small deterministic field family, prioritizing any remaining canonical/index drift over speculative research.**
+
+
+### 2026-09-21 — Skill-index source provenance projection parity
+- Live census: **429 canonical skills / 429 skill-index records**.
+- Bounded deterministic batch: **3 source arrays** — God Splitter, Heavenly Arrow, and Instant Severance. Each index source list now includes the canonical Zamasu source already present in `docs/data/skills.json`.
+- Evidence: canonical skill records are the producer; no new external claim was introduced.
+- Validation: both JSON layers parsed; targeted canonical→index source comparison reports **0 mismatches**; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: not exposed for this commit; no CI success claimed.
+- Commit: `20b6a147dae05e99a4b6aa218586709a23f55115`.
+- Exact next batch: **recompute the live projection census and inspect the remaining deterministic drift families, beginning with the 4 canonical/index `notes` mismatches only if the producer relationship is still clearly bounded; otherwise choose the next 4–12-record deterministic family.**
