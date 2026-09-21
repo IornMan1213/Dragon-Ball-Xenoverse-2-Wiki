@@ -5722,3 +5722,14 @@ The repository owner has clarified the continuation contract:
 - Dimension Cannon is now an evidence-complete exception and should not be revisited unless new contradictory evidence appears.
 - Exact next task: **Time Skip/Tremor Pulse**. Recompute the live nullable census first, research its exact current Ki cost from direct skill evidence, update only the bounded record/required ledger state, validate, inspect Actions, and append the next handoff entry.
 - TODO synchronization: docs/TODO-EXHAUSTIVE.md now contains dated authoritative completion markings for Dimension Cannon, Orin Combo, and Scatter Kamehameha while preserving all earlier historical checklist entries unchanged.
+
+
+### 2026-09-21 cycle update — Time Skip/Tremor Pulse Ki-cost verification
+- Live census before editing: 428 canonical skills; 0 duplicate IDs; 10 nullable ki_cost records.
+- Bounded batch: **Time Skip/Tremor Pulse — 0 Ki / 200 Stamina**.
+- Research/evidence: the current skill reference documents Time Skip/Tremor Pulse as an Evasive with **kiCost: 0** and **staminaCost: 200**, with game-data provenance plus the dedicated skill and Evasive references. This directly resolves the previously nullable Ki-cost field.
+- Changes: docs/data/skills.json — Time Skip/Tremor Pulse ki_cost=0; existing stamina cost and mentor/DLC provenance preserved. No unsupported mechanics or damage values were imported into canonical data.
+- Validation: canonical JSON re-read successfully; 428 records; 0 duplicate IDs; nullable ki_cost count reduced to **9**. The target record was re-read after writing.
+- TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry and retained the remaining unresolved queue.
+- CI: next cycle must inspect workflow runs for commits 79d78d1bae67526f7c390f1364578f85860d6612 and f86422fbd6feea969909977a565ee9b3cd6a278a; no CI success should be claimed without an actual run result.
+- Exact next task: **Giant Storm**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
