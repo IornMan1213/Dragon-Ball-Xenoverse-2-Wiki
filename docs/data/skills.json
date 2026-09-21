@@ -13089,13 +13089,13 @@
       "research_status": "enriched",
       "last_verified": "2026-09-21",
       "sources": [
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 186,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim.",
+      "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim. 2026-09-21 provenance strengthening: Bandai Namco's July 8, 2026 official Future Saga Chapter 4 launch announcement independently confirms Chapter 4 includes Parallel Quests and additional moves; existing PQ186/Venus Fist acquisition semantics are unchanged.",
       "id": "skill-venus-fist",
       "source_parallel_quests": [
         186
