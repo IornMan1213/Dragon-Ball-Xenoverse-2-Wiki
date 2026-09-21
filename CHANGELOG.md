@@ -307,3 +307,8 @@
 - Current explicit relationship coverage: 15 equipment endpoints, 25 identity-matched accessory endpoints, and 10 Super Soul endpoints.
 - Added `scripts/validate_pq_reward_crosslinks.py` for reproducible cross-domain auditing and registered the new reports in `pq-cross-domain-index.json`.
 - Unresolved routes remain explicit: 15 equipment records, 20 accessory research records, and 32 Super Soul records currently lack a sufficiently explicit PQ endpoint. No speculative links were introduced.
+
+## 2026-09-21 — Refine four canonical skill mechanics records
+- Refined mechanics notes for Crush Cannon, Double Crush, Crush Stream, and Destructive Fission using current official/independent evidence and explicit uncertainty boundaries.
+- Synchronized skills-index.json; live canonical/index count remains 305.
+- Preserved version-sensitive behavior and did not add unsupported numerical damage, frame, or drop-rate claims.
