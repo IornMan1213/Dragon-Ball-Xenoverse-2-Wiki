@@ -35,7 +35,7 @@ def scalar(v):
  v=v.strip().strip('"\''); return int(v) if re.fullmatch(r'\d+',v) else v
 def parse_frontmatter(p):
  t=p.read_text(encoding='utf-8',errors='replace'); parts=t.split('---',2)
- if len(parts)<3:return {}
+ if len(parts)<3: raise ValueError('missing YAML frontmatter delimiters')
  o={}
  for line in parts[1].splitlines():
   m=re.match(r'^([A-Za-z][A-Za-z0-9_]*)\s*:\s*(.*)$',line)
@@ -79,11 +79,16 @@ def load_local_batches(m,protected=None,blocked=None):
  imported=0
  if not LOCAL_BATCHES.exists():return 0
  for p in sorted(LOCAL_BATCHES.glob('skill-batch-*.json'))+sorted(LOCAL_BATCHES.glob('skills-batch-*.json')):
-  try:payload=json.loads(p.read_text(encoding='utf-8'))
-  except (OSError,json.JSONDecodeError):continue
+  try:
+   payload=json.loads(p.read_text(encoding='utf-8'))
+  except (OSError,json.JSONDecodeError) as exc:
+   raise RuntimeError(f'Failed to load local research batch {p.name}: {exc}') from exc
+  if not isinstance(payload,dict): raise ValueError(f'{p.name}: batch payload must be an object')
   rs=payload.get('corrections',[]) if payload.get('corrections') else payload.get('records',[])
+  if not isinstance(rs,list): raise ValueError(f'{p.name}: corrections/records must be a list')
   for r in rs:
-   if not isinstance(r,dict) or not r.get('name'):continue
+   if not isinstance(r,dict) or not r.get('name'):
+    raise ValueError(f'{p.name}: research record must be an object with a name')
    r=dict(r); r['research_batch']=payload.get('batch_id'); r['research_status']='partially_enriched'; imported+=1; merge_record(m,r,protected,blocked)
  return imported
 def build_record(d,p):
