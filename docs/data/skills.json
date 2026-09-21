@@ -9865,9 +9865,495 @@
       "source_mentor": [
         "mentor-raditz"
       ]
+    },
+    {
+      "name": "Audacious Laugh",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Zarbon's Initiation Test — complete the instructor lesson to receive Audacious Laugh as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Zarbon mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Zarbon mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-audacious-laugh",
+      "source_mentor": [
+        "mentor-zarbon"
+      ]
+    },
+    {
+      "name": "Gorgeous Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Zarbon's Lesson 1 — complete the instructor lesson to receive Gorgeous Shot as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Zarbon mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Zarbon mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-gorgeous-shot",
+      "source_mentor": [
+        "mentor-zarbon"
+      ]
+    },
+    {
+      "name": "Bloody Counter",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Zarbon's Lesson 2 — complete the instructor lesson to receive Bloody Counter as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Zarbon mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Zarbon mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-bloody-counter",
+      "source_mentor": [
+        "mentor-zarbon"
+      ]
+    },
+    {
+      "name": "Elegant Blaster",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Zarbon's Lesson 3 — complete the instructor lesson to receive Elegant Blaster as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Zarbon mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Zarbon mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-elegant-blaster",
+      "source_mentor": [
+        "mentor-zarbon"
+      ]
+    },
+    {
+      "name": "Dodoria Beam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Dodoria's Initiation Test — complete the instructor lesson to receive Dodoria Beam as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Dodoria mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Dodoria mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-dodoria-beam",
+      "source_mentor": [
+        "mentor-dodoria"
+      ]
+    },
+    {
+      "name": "Critical Upper",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Dodoria's Lesson 1 — complete the instructor lesson to receive Critical Upper as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Dodoria mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Dodoria mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-critical-upper",
+      "source_mentor": [
+        "mentor-dodoria"
+      ]
+    },
+    {
+      "name": "Dodoria Headbutt",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Dodoria's Lesson 2 — complete the instructor lesson to receive Dodoria Headbutt as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Dodoria mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Dodoria mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-dodoria-headbutt",
+      "source_mentor": [
+        "mentor-dodoria"
+      ]
+    },
+    {
+      "name": "Dodoria Launcher",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Dodoria's Lesson 3 — complete the instructor lesson to receive Dodoria Launcher as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Dodoria mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Dodoria mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-dodoria-launcher",
+      "source_mentor": [
+        "mentor-dodoria"
+      ]
+    },
+    {
+      "name": "Fighting Pose F",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Captain Ginyu's Initiation Test — complete the instructor lesson to receive Fighting Pose F as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Captain Ginyu mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Captain Ginyu mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-fighting-pose-f",
+      "source_mentor": [
+        "mentor-ginyu"
+      ]
+    },
+    {
+      "name": "Fighting Pose A",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Captain Ginyu's Lesson 1 — complete the instructor lesson to receive Fighting Pose A as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Captain Ginyu mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-fighting-pose-a",
+      "source_mentor": [
+        "mentor-ginyu"
+      ]
+    },
+    {
+      "name": "Milky Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Captain Ginyu's Lesson 2 — complete the instructor lesson to receive Milky Cannon as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Captain Ginyu mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-milky-cannon",
+      "source_mentor": [
+        "mentor-ginyu"
+      ]
+    },
+    {
+      "name": "Body Change",
+      "class": "Ultimate",
+      "subcategory": "Other",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Captain Ginyu's Lesson 3 — complete the instructor lesson to receive Body Change as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Captain Ginyu mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Captain Ginyu mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-body-change",
+      "source_mentor": [
+        "mentor-ginyu"
+      ]
+    },
+    {
+      "name": "Death Beam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Frieza (1st Form)'s Initiation Test — complete the instructor lesson to receive Death Beam as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Frieza (1st Form) mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Frieza (1st Form) mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-death-beam",
+      "source_mentor": [
+        "mentor-frieza"
+      ]
+    },
+    {
+      "name": "Death Crasher",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Frieza (1st Form)'s Lesson 1 — complete the instructor lesson to receive Death Crasher as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 1",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Frieza (1st Form) mentor training — Lesson 1",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-death-crasher",
+      "source_mentor": [
+        "mentor-frieza"
+      ]
+    },
+    {
+      "name": "Death Slicer",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Frieza (1st Form)'s Lesson 2 — complete the instructor lesson to receive Death Slicer as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Frieza (1st Form) mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-death-slicer",
+      "source_mentor": [
+        "mentor-frieza"
+      ]
+    },
+    {
+      "name": "Feint Crash",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Cooler (Final Form)'s Initiation Test — complete the instructor lesson to receive Feint Crash as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Cooler (Final Form) mentor training — Initiation Test",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Cooler (Final Form) mentor training — Initiation Test",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-feint-crash",
+      "source_mentor": [
+        "mentor-cooler"
+      ]
+    },
+    {
+      "name": "Fake Blast",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Cooler (Final Form)'s Lesson 2 — complete the instructor lesson to receive Fake Blast as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 2",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Cooler (Final Form) mentor training — Lesson 2",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-fake-blast",
+      "source_mentor": [
+        "mentor-cooler"
+      ]
+    },
+    {
+      "name": "Supernova Cooler",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Cooler (Final Form)'s Lesson 3 — complete the instructor lesson to receive Supernova Cooler as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 3",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Cooler (Final Form) mentor training — Lesson 3",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-supernova-cooler",
+      "source_mentor": [
+        "mentor-cooler"
+      ]
     }
   ],
-  "record_count": 325,
+  "record_count": 343,
   "skill_id_policy": {
     "format": "skill-{slug}",
     "slug_source": "name",
