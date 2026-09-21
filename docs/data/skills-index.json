@@ -16,7 +16,7 @@
     "Other Evasives": 3,
     "Transformation": 4
   },
-  "record_count": 286,
+  "record_count": 305,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -42,6 +42,26 @@
       "source_quest_or_shop": "Parallel Quest 96 — \"The Shadow Dragons\""
     },
     {
+      "id": "skill-afterimage",
+      "name": "Afterimage",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "acquisition_type": "starting_move",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Afterimage"
+      ],
+      "unlock_method": "Starting move / initial \"Mixed\" choice",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-19",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 starting-move refinement: Afterimage is a CaC starting Super offered through the initial fighting-style selection; it is not a PQ/UF reward. The repository retains its all-race CaC availability.",
+      "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained.",
+      "source_quest_or_shop": "Starting move / initial 'Mixed' choice"
+    },
+    {
       "id": "skill-afterimage-strike",
       "name": "Afterimage Strike",
       "class": "Super",
@@ -61,26 +81,6 @@
       "mechanics_notes": "Confirmed as Other Super from PQ81 and usable by all CaC races. It creates an afterimage while moving and can transition into follow-up attacks. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
       "source_quest": 81,
       "source_quest_or_shop": "Parallel Quest 81 — \"Wake UP!\""
-    },
-    {
-      "id": "skill-afterimage",
-      "name": "Afterimage",
-      "class": "Super",
-      "subcategory": "Other",
-      "verification_status": "verified",
-      "research_status": "enriched",
-      "acquisition_type": "starting_move",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Afterimage"
-      ],
-      "unlock_method": "Starting move / initial \"Mixed\" choice",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-20 starting-move refinement: Afterimage is a CaC starting Super offered through the initial fighting-style selection; it is not a PQ/UF reward. The repository retains its all-race CaC availability.",
-      "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained.",
-      "source_quest_or_shop": "Starting move / initial 'Mixed' choice"
     },
     {
       "id": "skill-angry-shout",
@@ -328,6 +328,48 @@
       "source_quest_or_shop": "Parallel Quest 125 — \"Proof's in the Potara\""
     },
     {
+      "id": "skill-blaster-bomb",
+      "name": "Blaster Bomb",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Bomb",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Launch a projectile that splits into additional blasts on contact or after time passes. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 148,
+      "source_quest_or_shop": "Parallel Quest 148 — \"Finding Out About Fusion\""
+    },
+    {
+      "id": "skill-blaster-cannon",
+      "name": "Blaster Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Cannon",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 148 — \"Finding Out About Fusion\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Scatter a barrage of Ki blasts; closer-range hits deal more damage. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 148,
+      "source_quest_or_shop": "Parallel Quest 148 — \"Finding Out About Fusion\""
+    },
+    {
       "id": "skill-blaster-stream",
       "name": "Blaster Stream",
       "class": "Ultimate",
@@ -462,6 +504,27 @@
       "source_quest_or_shop": "Parallel Quest 101 — \"Seeking Fighters for Tournament\""
     },
     {
+      "id": "skill-brutal-buster",
+      "name": "Brutal Buster",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Brutal_Buster",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 141 — \"Uub's Ultimate Challenge\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Create a shockwave around yourself; repeated input charges it and a full charge can break guard. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 141,
+      "source_quest_or_shop": "Parallel Quest 141 — \"Uub's Ultimate Challenge\""
+    },
+    {
       "id": "skill-burning-attack",
       "name": "Burning Attack",
       "class": "Super",
@@ -504,6 +567,27 @@
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "source_quest": 180,
       "source_quest_or_shop": "Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\""
+    },
+    {
+      "id": "skill-burning-shot",
+      "name": "Burning Shot",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burning_Shot",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 143 — \"Other World Offensive\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Fiery kick followed by a chasing chop after the initial hit. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 143,
+      "source_quest_or_shop": "Parallel Quest 143 — \"Other World Offensive\""
     },
     {
       "id": "skill-burning-slash",
@@ -708,27 +792,6 @@
       "source_quest_or_shop": "Parallel Quest 88 — \"Evil Seeks Dragon Balls Yet Again!\""
     },
     {
-      "id": "skill-candy-beam-super",
-      "name": "Candy Beam (Super)",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
-      ],
-      "unlock_method": "Parallel Quest 113 — \"The Majin Revival Plan\" Basic Reward",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ113 reward listings explicitly place Candy Beam (Super) in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Candy Beam (Super) as a 200-Ki Ki Blast Super from PQ113. It transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage; the existing all-CaC-races restriction is retained.",
-      "source_quest": 113,
-      "source_quest_or_shop": "Parallel Quest 113 — \"The Majin Revival Plan\""
-    },
-    {
       "id": "skill-candy-beam",
       "name": "Candy Beam",
       "class": "Super",
@@ -749,6 +812,27 @@
       "mechanics_notes": "Current evidence confirms the base Candy Beam record as a 100-Ki Ki Blast Super from PQ66. The current record's explicit Majin CaC restriction is retained; the 200-Ki Candy Beam (Super) variant is a separate skill entry.",
       "source_quest": 66,
       "source_quest_or_shop": "Parallel Quest 66 — \"Majin Revival\""
+    },
+    {
+      "id": "skill-candy-beam-super",
+      "name": "Candy Beam (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
+      ],
+      "unlock_method": "Parallel Quest 113 — \"The Majin Revival Plan\" Basic Reward",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 audit: PQ113 reward listings explicitly place Candy Beam (Super) in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Candy Beam (Super) as a 200-Ki Ki Blast Super from PQ113. It transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage; the existing all-CaC-races restriction is retained.",
+      "source_quest": 113,
+      "source_quest_or_shop": "Parallel Quest 113 — \"The Majin Revival Plan\""
     },
     {
       "id": "skill-celestial-wave",
@@ -841,27 +925,6 @@
       "source_quest_or_shop": "Parallel Quest 184 — \"The Invincible Duo\""
     },
     {
-      "id": "skill-charged-ki-wave",
-      "name": "Charged Ki Wave",
-      "class": "Super",
-      "subcategory": "Other",
-      "verification_status": "verified",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave"
-      ],
-      "unlock_method": "Parallel Quest 97 — \"Insidious Plot\" Basic Reward",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
-      "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki.",
-      "source_quest": 97,
-      "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot"
-    },
-    {
       "id": "skill-charge",
       "name": "Charge",
       "class": "Super",
@@ -884,6 +947,27 @@
       "source_quest_or_shop": "Parallel Quest 83 — \"Dangerous Duo! Warriors Never Rest\""
     },
     {
+      "id": "skill-charged-ki-wave",
+      "name": "Charged Ki Wave",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
+        "https://dbxv2.fandom.com/wiki/Charged_Ki_Wave"
+      ],
+      "unlock_method": "Parallel Quest 97 — \"Insidious Plot\" Basic Reward",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-20",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-20 provenance census: maintained PQ reward normalization independently confirms the listed PQ as a skill-reward relationship; the normalized map does not expose a Basic/Ultimate-Finish tier for this record, so the existing acquisition wording and UF flag are preserved rather than inferring a gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "mechanics_notes": "Confirmed as Other Super from PQ97 and usable by all CaC races. It charges Stamina rather than Ki.",
+      "source_quest": 97,
+      "source_quest_or_shop": "Parallel Quest 97 - Insidious Plot"
+    },
+    {
       "id": "skill-circle-flash",
       "name": "Circle Flash",
       "class": "Ultimate",
@@ -904,6 +988,27 @@
       "mechanics_notes": "Identity, class and PQ acquisition are corroborated; maintained PQ154 data records a 40% Ultimate Finish bonus roll, while some numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-20 verification: current skill page explicitly states PQ154 unlock and Ki Blast Ultimate classification; independent PQ154 acquisition material corroborates the source. 2026-09-20 PQ154 reconciliation: maintained PQ batch 15 explicitly documents a 40% Ultimate Finish bonus roll for this skill; the prior generic Random Parallel Quest label was too broad and has been replaced with the documented PQ154 UF route.",
       "source_quest": 154,
       "source_quest_or_shop": "Parallel Quest 154 — \"Dabura the Loyal? Servant\""
+    },
+    {
+      "id": "skill-comet-strike",
+      "name": "Comet Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Comet_Strike",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 149 — \"Clash of the Clones\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Charge and rush with three strikes; landing the third enables an immediate Ultimate follow-up. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 149,
+      "source_quest_or_shop": "Parallel Quest 149 — \"Clash of the Clones\""
     },
     {
       "id": "skill-core-breaker",
@@ -1016,6 +1121,69 @@
       "mechanics_notes": "Retained as Goku Black (Super Saiyan Rosé) Ultra Supervillain's 100-Ki Strike Super and non-CaC. It uses a scythe-like energy blade for a two-stage strike; official DLC material confirms its core behavior. UF audit 2026-09-19: the maintained PQ guide explicitly assigns this skill to the 45% Ultimate Finish bonus slot route, separate from the listed Ultimate Finish conditions. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Ultimate Finish reward acquisition is retained.",
       "source_quest": 171,
       "source_quest_or_shop": "Parallel Quest 171 — \"Fighters with Finesse\""
+    },
+    {
+      "id": "skill-crush-cannon",
+      "name": "Crush Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Crush_Cannon",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 147 — \"Caulifla's Saiyan Search\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Launch a chargeable Ki blast; guarding while charging preserves charge level. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 147,
+      "source_quest_or_shop": "Parallel Quest 147 — \"Caulifla's Saiyan Search\""
+    },
+    {
+      "id": "skill-crush-stream",
+      "name": "Crush Stream",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Crush_Stream",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 147 — \"Caulifla's Saiyan Search\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Fire two Ki blasts; if both connect, follow with a Ki wave; directional input can reverse the initial throw. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 147,
+      "source_quest_or_shop": "Parallel Quest 147 — \"Caulifla's Saiyan Search\""
+    },
+    {
+      "id": "skill-crusher-ball",
+      "name": "Crusher Ball",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Crusher_Ball",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 34 — \"Return of the Ginyu Force\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Launch a wobbling, partially tracking Ki ball that can hit repeatedly. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 34,
+      "source_quest_or_shop": "Parallel Quest 34 — \"Return of the Ginyu Force\""
     },
     {
       "id": "skill-dancing-parapara",
@@ -1395,6 +1563,69 @@
       "source_quest_or_shop": "Parallel Quest 106 — \"A Destructive Showdown\""
     },
     {
+      "id": "skill-destructive-fission",
+      "name": "Destructive Fission",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Destructive_Fission",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 146 — \"Zen-Ohs' Earthly Excursion\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Launch a tracking Hakai Ki ball; additional input creates an unblockable explosion. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 146,
+      "source_quest_or_shop": "Parallel Quest 146 — \"Zen-Ohs' Earthly Excursion\""
+    },
+    {
+      "id": "skill-destructive-flare",
+      "name": "Destructive Flare",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Destructive_Flare",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 145 — \"Other World Challenger\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Fire a Ki blast barrage; holding the button increases projectile size and damage. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 145,
+      "source_quest_or_shop": "Parallel Quest 145 — \"Other World Challenger\""
+    },
+    {
+      "id": "skill-destructive-fracture",
+      "name": "Destructive Fracture",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Destructive_Fracture",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 145 — \"Other World Challenger\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Strike the opponent, bind them with Hakai energy, then kick them away; can be followed by an Ultimate or movement. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 145,
+      "source_quest_or_shop": "Parallel Quest 145 — \"Other World Challenger\""
+    },
+    {
       "id": "skill-destructo-disc",
       "name": "Destructo-Disc",
       "class": "Super",
@@ -1634,6 +1865,27 @@
       "source_quest_or_shop": "Parallel Quest 49 — \"Namek Berserker\""
     },
     {
+      "id": "skill-double-crush",
+      "name": "Double Crush",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Double_Crush",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 147 — \"Caulifla's Saiyan Search\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Set up eight Ki blasts and detonate/home them with additional input. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 147,
+      "source_quest_or_shop": "Parallel Quest 147 — \"Caulifla's Saiyan Search\""
+    },
+    {
       "id": "skill-double-death-slicer",
       "name": "Double Death Slicer",
       "class": "Super",
@@ -1654,6 +1906,27 @@
       "mechanics_notes": "Current evidence confirms Double Death Slicer as a 100-Ki Ki Blast Super from PQ24. No unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 24,
       "source_quest_or_shop": "Parallel Quest 24 — \"Super Saiyan Legend\""
+    },
+    {
+      "id": "skill-dragon-blitz",
+      "name": "Dragon Blitz",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dragon_Blitz",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 141 — \"Uub's Ultimate Challenge\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Charge with a knee and kick; additional input and directional input add follow-ups/teleport positioning. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 141,
+      "source_quest_or_shop": "Parallel Quest 141 — \"Uub's Ultimate Challenge\""
     },
     {
       "id": "skill-dragon-burn",
@@ -2006,6 +2279,27 @@
       "source_quest_or_shop": "Character skill"
     },
     {
+      "id": "skill-energy-shot",
+      "name": "Energy Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Shot",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 22 — \"Dragon Ball Brawl\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Fire chargeable Ki Blasts; charged shots are more powerful. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 22,
+      "source_quest_or_shop": "Parallel Quest 22 — \"Dragon Ball Brawl\""
+    },
+    {
       "id": "skill-eraser-bomb",
       "name": "Eraser Bomb",
       "class": "Super",
@@ -2118,6 +2412,27 @@
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 36,
       "source_quest_or_shop": "Parallel Quest 36 — \"The Cell Games Begin\""
+    },
+    {
+      "id": "skill-excellent-full-course",
+      "name": "Excellent Full Course",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Excellent_Full_Course",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 142 — \"Timespace Tussle\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Rush the opponent repeatedly; landing all charges enables the finishing Ki Blast. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 142,
+      "source_quest_or_shop": "Parallel Quest 142 — \"Timespace Tussle\""
     },
     {
       "id": "skill-explosive-buu-buu-punch",
@@ -3202,6 +3517,27 @@
       "source_quest_or_shop": "Parallel Quest 111 — \"The Zero Mortal Plan\""
     },
     {
+      "id": "skill-hyper-tornado",
+      "name": "Hyper Tornado",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hyper_Tornado",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 143 — \"Other World Offensive\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Rush forward in a tornado; holding the input extends the dash and increases hits/damage. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 143,
+      "source_quest_or_shop": "Parallel Quest 143 — \"Other World Offensive\""
+    },
+    {
       "id": "skill-ill-bomber",
       "name": "Ill Bomber",
       "class": "Super",
@@ -3246,6 +3582,27 @@
       "mechanics_notes": "Confirmed as Janemba's 100-Ki Ki Blast Super from PQ64. The projectile/orb can produce separate hits; Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 64,
       "source_quest_or_shop": "Parallel Quest 64 — \"Beerus the Impulsive\""
+    },
+    {
+      "id": "skill-impact-flare",
+      "name": "Impact Flare",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Impact_Flare",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 150 — \"Battle of the Mind\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Fire three Ki waves; additional input consumes Ki to teleport behind the opponent for another attack. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 150,
+      "source_quest_or_shop": "Parallel Quest 150 — \"Battle of the Mind\""
     },
     {
       "id": "skill-indomitable",
@@ -3771,6 +4128,27 @@
       "source_quest_or_shop": "Parallel Quest 9 — \"The Saiyan King is...Who?\""
     },
     {
+      "id": "skill-meteor-explosion",
+      "name": "Meteor Explosion",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Meteor_Explosion",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 149 — \"Clash of the Clones\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Flip-kick into a Ki pillar; Comet Strike can directly set up the attack. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 149,
+      "source_quest_or_shop": "Parallel Quest 149 — \"Clash of the Clones\""
+    },
+    {
       "id": "skill-meteor-strike",
       "name": "Meteor Strike",
       "class": "Super",
@@ -4123,6 +4501,27 @@
       "mechanics_notes": "1000 Ki Strike Ultimate; 14-hit rushdown. It can only be activated with 1000 Ki. PQ122 is the documented acquisition quest and Power Rush is an Ultimate Finish reward.",
       "source_quest": 122,
       "source_quest_or_shop": "Parallel Quest 122 — \"The Final Battle Before the Final Battle?!\""
+    },
+    {
+      "id": "skill-power-wall",
+      "name": "Power Wall",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Power_Wall",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "unlock_method": "Parallel Quest 150 — \"Battle of the Mind\"",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "mechanics_notes": "Generate a large advancing wall of flame; directional input controls its distance. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "source_quest": 150,
+      "source_quest_or_shop": "Parallel Quest 150 — \"Battle of the Mind\""
     },
     {
       "id": "skill-powered-shell",
@@ -5470,6 +5869,29 @@
       "source_quest_or_shop": "PQ181 - \"The Greatest Training Ever\""
     },
     {
+      "id": "skill-super-saiyan",
+      "name": "Super Saiyan",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan"
+      ],
+      "unlock_method": "As a Saiyan CaC, complete the Capsule Corporation Time Rift's Vegeta training/Saiyan Awakening progression; the final training reward grants the Super Saiyan Awoken Skill with stages 1–3.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-20",
+      "race_restriction": "Saiyan",
+      "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3. 2026-09-20 provenance refinement: maintained Awoken research and current transformation guides place the Super Saiyan acquisition in the Capsule Corporation Time Rift Vegeta/Saiyan Awakening route; no Ultimate Finish gate is inferred.",
+      "mechanics_notes": "Stages use 300/400/500 Ki. Current consolidated table reports SS1 +10% Strike/+5% Blast, SS2 +15%/+7.5%, SS3 +20%/+10%; defense bonuses rise by stage while Ki regeneration becomes increasingly restricted. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": "Capsule Corporation Time Rift — Vegeta Saiyan Awakening progression",
+      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression"
+    },
+    {
       "id": "skill-super-saiyan-2",
       "name": "Super Saiyan 2",
       "class": "Awoken",
@@ -5514,29 +5936,28 @@
       "source_quest_or_shop": "Character-only Awoken Skill / roster use"
     },
     {
-      "id": "skill-super-saiyan-god-super-saiyan-evolved",
-      "name": "Super Saiyan God Super Saiyan (Evolved)",
+      "id": "skill-super-saiyan-god",
+      "name": "Super Saiyan God",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
-        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
-        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_(Evolved)",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God",
+        "https://dbxv2.fandom.com/wiki/Free_Update"
       ],
-      "unlock_method": "Reach level 95, max friendship with Vegeta, and already possess Super Saiyan God Super Saiyan; Whis awards the skill.",
+      "unlock_method": "After maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan, use Shenron's Super Saiyan God wish and then speak with Beerus to receive the skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only Awoken Skill. The form is gated behind SSGSS; Whis can award it to any race that meets the requirement, but only Saiyan CaCs can equip/use it.",
-      "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active.",
-      "source_quest": "Whis training — max friendship with Vegeta, level 95, SSGSS required",
-      "source_quest_or_shop": "Whis training — max friendship with Vegeta, level 95, SSGSS required"
+      "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus. 2026-09-20 provenance refinement: current guide/research evidence explicitly identifies the five friendship requirements, Shenron wish, and Beerus handoff; no Ultimate Finish gate is inferred.",
+      "mechanics_notes": "300 Ki; current consolidated table reports no direct Strike/Blast skill modifier but +60% Basic Attack, +50% Ki recovery, and +12.5% movement speed. This distinction is important: the major attack boost is Basic Attack rather than Super/Ultimate damage. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "source_quest": "Shenron wish + Beerus — Super Saiyan God unlock route",
+      "source_quest_or_shop": "Shenron wish for Super Saiyan God; Beerus awards the skill"
     },
     {
       "id": "skill-super-saiyan-god-super-saiyan",
@@ -5564,51 +5985,29 @@
       "source_quest_or_shop": "Whis training — max friendship and level 90"
     },
     {
-      "id": "skill-super-saiyan-god",
-      "name": "Super Saiyan God",
+      "id": "skill-super-saiyan-god-super-saiyan-evolved",
+      "name": "Super Saiyan God Super Saiyan (Evolved)",
       "class": "Awoken",
       "subcategory": "Race",
-      "verification_status": "verified_current_scope",
+      "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
         "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God",
-        "https://dbxv2.fandom.com/wiki/Free_Update"
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_(Evolved)",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
       ],
-      "unlock_method": "After maxing friendship with Goku, Vegeta, Gohan & Videl, Gotenks, and Pan, use Shenron's Super Saiyan God wish and then speak with Beerus to receive the skill.",
+      "unlock_method": "Reach level 95, max friendship with Vegeta, and already possess Super Saiyan God Super Saiyan; Whis awards the skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-19",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only Awoken Skill despite Beerus awarding it to a character of any race. Requires 300 Ki; normal attacks are the primary damage focus. 2026-09-20 provenance refinement: current guide/research evidence explicitly identifies the five friendship requirements, Shenron wish, and Beerus handoff; no Ultimate Finish gate is inferred.",
-      "mechanics_notes": "300 Ki; current consolidated table reports no direct Strike/Blast skill modifier but +60% Basic Attack, +50% Ki recovery, and +12.5% movement speed. This distinction is important: the major attack boost is Basic Attack rather than Super/Ultimate damage. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": "Shenron wish + Beerus — Super Saiyan God unlock route",
-      "source_quest_or_shop": "Shenron wish for Super Saiyan God; Beerus awards the skill"
-    },
-    {
-      "id": "skill-super-saiyan",
-      "name": "Super Saiyan",
-      "class": "Awoken",
-      "subcategory": "Race",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Saiyan_Skills",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations",
-        "https://dbxv2.fandom.com/wiki/Super_Saiyan"
-      ],
-      "unlock_method": "As a Saiyan CaC, complete the Capsule Corporation Time Rift's Vegeta training/Saiyan Awakening progression; the final training reward grants the Super Saiyan Awoken Skill with stages 1–3.",
-      "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
-      "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3. 2026-09-20 provenance refinement: maintained Awoken research and current transformation guides place the Super Saiyan acquisition in the Capsule Corporation Time Rift Vegeta/Saiyan Awakening route; no Ultimate Finish gate is inferred.",
-      "mechanics_notes": "Stages use 300/400/500 Ki. Current consolidated table reports SS1 +10% Strike/+5% Blast, SS2 +15%/+7.5%, SS3 +20%/+10%; defense bonuses rise by stage while Ki regeneration becomes increasingly restricted. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "source_quest": "Capsule Corporation Time Rift — Vegeta Saiyan Awakening progression",
-      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression"
+      "notes": "Saiyan CaC-only Awoken Skill. The form is gated behind SSGSS; Whis can award it to any race that meets the requirement, but only Saiyan CaCs can equip/use it.",
+      "mechanics_notes": "500 Ki; +35% Strike/+35% Blast, +10% Strike/+10% Blast Defense; drains 18 Ki/sec while active.",
+      "source_quest": "Whis training — max friendship with Vegeta, level 95, SSGSS required",
+      "source_quest_or_shop": "Whis training — max friendship with Vegeta, level 95, SSGSS required"
     },
     {
       "id": "skill-super-spirit-bomb",
