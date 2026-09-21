@@ -5248,3 +5248,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Solar Flare's canonical acquisition fields identified PQ03, but its mechanics note retained stale PQ01 wording.
 - Corrected the internal reference and strengthened sources without changing acquisition semantics.
 - Commit: `2e0ee2fa63afa6dd8ee5e6bf5878a9fa42b14ae4`.
+
+
+### 2026-09-21 — Single-source skill provenance batch
+- Live census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values / deterministic canonical-index ordering parity**.
+- Bounded records: **Energy Charge, Rising Rage, Wall of Defense**, the final three records with only one source URL.
+- Strengthened each record to three independent/current source URLs and refreshed `last_verified=2026-09-21`.
+- Preserved existing acquisition and classification semantics; Rising Rage remains character-only, and no unsupported CaC route or reward condition was added.
+- Validation: all three targets now have three sources; canonical/index counts remain **452/452** with no duplicate IDs or nullable `ki_cost` values.
+- Commit: `5633e857cbefea3c935282d0e5b63ea752daad6f`.
+- CI: no workflow runs exposed for the commit; no CI success claimed.
+- Exact next batch: recompute the live provenance census and continue with deterministic cross-field/source-PQ integrity checks.
