@@ -1,3 +1,10 @@
+## 2026-09-20 Dragon Spiral / Indomitable PQ185 provenance cleanup
+
+- The maintained late-PQ reward map explicitly places **Dragon Spiral** and **Indomitable** in PQ185's skill reward inventory.
+- Canonical and index records now use the concrete **PQ185 Basic Reward** route instead of retaining the broader `PQ185/PQ186` pooled wording.
+- The alternate PQ186 association is preserved as historical/secondary context; no additional route or drop probability is inferred.
+
+
 ## 2026-09-20 Venus Fist PQ186 provenance cleanup
 
 - **Venus Fist** previously preserved an ambiguous `PQ185–186` reward-pool note even though the maintained PQ reward guide explicitly places it in **PQ186 Basic Rewards**.
