@@ -6532,3 +6532,14 @@ The repository owner has clarified the continuation contract:
 - Cleanup commits: handoff `f11b4807fbb08c16b5abbf20ec0bc1af001527d9`; TODO `c5ad5572b5751a3bdaf5823934cf8bf54d9d6a09`; changelog `5ea985e52026d6d0d0ce757302882bdc36f431af`.
 - Final data state remains **452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost / 55 exactly-two-source records**, with Dead End Rain now at three sources and canonical/index source parity clean.
 - Exact next task remains: **recompute the live two-source census and continue with Deadly Dance, then proceed deterministically through the remaining low-source acquisition/provenance queue, checking source-PQ/mission and reward-tier consistency before enrichment.**
+
+### 2026-09-21 continuation — Deadly Dance provenance
+- Workstream: **P1 skill provenance/source integrity**.
+- Live two-source census before this batch: **55 exactly-two-source records**.
+- Bounded batch: **Deadly Dance**.
+- Evidence: the maintained Instructor Quests guide independently lists Deadly Dance as **Android 18 Lesson 2's Basic Reward**, corroborating the existing mentor-training acquisition endpoint.
+- Changes: added the maintained Instructor Quests guide as a third provenance source to the canonical and index skill records. Existing Lesson 2 acquisition semantics and all other fields were preserved.
+- Validation: recompute canonical/index parity, live two-source census, JSON parsing, and internal citation-artifact scan after the documentation writes.
+- CI: inspect exposed workflow/status results; do not claim success if none are available.
+- Commits: canonical `b6b186c62b4b621226a4c605293f7580754d2ae2`; index `e9d476d6e09d929a0b45c4f861701cb4efc37c1e`; changelog `eedbfe62871a5e98949d0882f62b32e03d8cf57d`; TODO `6785b47d8555b209958a8f69e6ced40e3cfa46e1`.
+- Exact next batch: **recompute the live two-source census and continue with Dimensional Hole (PQ80), verifying source-PQ/reward-tier consistency before adding provenance.**
