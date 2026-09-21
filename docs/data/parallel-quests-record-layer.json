@@ -4762,14 +4762,19 @@
         "Defeat Android 17 (Super) and the remaining enemies while preserving Super 17."
       ],
       "rewards": [
+        "8220 Zeni",
         "You've awakened my true power...",
-        "I won't forgive those who best my comrades!"
+        "I won't forgive those who best my comrades!",
+        "Gine (DB Super)'s Clothes",
+        "Gine (DB Super) Set",
+        "Artwork 90"
       ],
       "verification_status": "partially_verified",
-      "notes": "Baseline reward inventory is incomplete; the two Super Souls are source-backed.",
+      "notes": "2026-09-21 reward reconciliation: maintained Steam all-PQ guide documents the full basic reward list, including Gine (DB Super)'s Clothes, Gine (DB Super) Set, and Artwork 90; the prior two-Super-Soul inventory was explicitly incomplete.",
       "skill_rewards": [],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
       ],
       "super_soul_ids": [
         "super-soul-080",
