@@ -10138,11 +10138,12 @@
       "source_quest": "Captain Ginyu mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 0 Ki used.",
       "id": "skill-fighting-pose-f",
       "source_mentor": [
         "mentor-ginyu"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Fighting Pose A",
@@ -10165,11 +10166,12 @@
       "source_quest": "Captain Ginyu mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 0 Ki used.",
       "id": "skill-fighting-pose-a",
       "source_mentor": [
         "mentor-ginyu"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Milky Cannon",
@@ -10192,11 +10194,12 @@
       "source_quest": "Captain Ginyu mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-milky-cannon",
       "source_mentor": [
         "mentor-ginyu"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Body Change",
@@ -10219,11 +10222,12 @@
       "source_quest": "Captain Ginyu mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.",
       "id": "skill-body-change",
       "source_mentor": [
         "mentor-ginyu"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Death Beam",
