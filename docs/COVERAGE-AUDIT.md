@@ -4938,3 +4938,6 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: canonical commit `0931c19993553d4e8e875a2955a7479a26922c29` had no actionable workflow/status result exposed; **no CI success claimed**.
 - Commit: `0931c19993553d4e8e875a2955a7479a26922c29`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+### 2026-09-21 — Citation-token correction for Broly audit entry
+- The immediately preceding Broly audit entry contains internal citation-token text that should not be persisted in repository prose. This append-only correction supersedes those token fragments; the underlying evidence statement remains the same: current Xenoverse 2 references document Blaster Meteor as a 300-Stamina Evasive Skill with no Ki expenditure.
