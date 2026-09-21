@@ -3360,3 +3360,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: canonical/index **283/283**, identical record-name ordering, zero duplicate names, **60** UF flags. Acquisition-critical fields remain synchronized.
 - Commits: canonical **8cc6d9fb8741a4746877e916faf19a5b8acf1fe7**; index **9d31f6708325c2e8ac6277611dcc764965407682**; coverage audit **ae9f5ae478e66fc5903d18d36827a238642c6484**.
 - Exact next task: **continue the remaining character-only/starting-move non-PQ records, separating genuinely non-acquirable roster skills from CaC-accessible skills whose acquisition route is merely under-specified.**
+
+
+### 2026-09-20 cycle update — character-only / built-in status refinement
+- Refined **9** non-PQ character-only/built-in records: Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage, and Surging Spirit.
+- Explicitly separated roster-exclusive transformations/skills and built-in Ultra Instinct functionality from normal CaC acquisition routes.
+- No unsupported CaC route was introduced.
+- Validation: canonical/index **283/283**, zero duplicate names, **60** UF flags, identical record-name ordering.
+- Commits: canonical **ed02f4441b8eb3080b9f8bedcd97dd0ad0c5b650**; index **b38e008f2dc54f8339e47dc1ef3bb5c181272e02**; coverage audit **54daf0ed471bf7eb4f325f8757237c81472339d5**.
+- Exact next task: **audit remaining non-PQ starting-move and other_nonquest records, especially Afterimage, Super Guard, and any skill whose CaC availability is implied but lacks a concrete acquisition explanation.**
