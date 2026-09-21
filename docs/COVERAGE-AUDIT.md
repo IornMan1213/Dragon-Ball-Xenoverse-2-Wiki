@@ -4199,3 +4199,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Evidence used: maintained 186-PQ reward guide; current equipment/accessory guide; Dragon Ball reference material for Jaco's Galactic Receiver and scouter identity; archived acquisition reports for Tagoma's Scouter and SSGSS Goku Wig.
 - Preserved uncertainty: these records remain `partially_verified`; no drop probability, Ultimate Finish gate, or shop/rotation behavior was inferred beyond the cited route evidence.
 - Live accessory cross-link coverage moved from **25 matched / 20 unmatched research records / 88 canonical identities** to **33 matched / 12 unmatched research records / 96 canonical identities**.
+
+### 2026-09-21 accessory PQ identity batch 2
+- Reconciled four previously unmatched accessory research identities: **Yamcha's Baseball Hat (PQ97), SSGSS Vegeta Wig (PQ100), Bulma (Kid) Wig (PQ149), Great Saiyaman Helmet (PQ51)**.
+- Added canonical IDs `accr-097` through `accr-100`; synchronized the accessory PQ bridge and bidirectional report.
+- Evidence: maintained 186-PQ Steam guide; current equipment/accessory guide; DLC reference; independent PQ guide and GameFAQs acquisition reports. No unsupported drop rates or additional gates were inferred.
+- Remaining unresolved research identities: 8, excluding the separately conflicted Yamcha's Sword route.
