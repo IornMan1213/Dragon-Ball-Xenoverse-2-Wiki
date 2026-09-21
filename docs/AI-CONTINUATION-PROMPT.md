@@ -6194,3 +6194,15 @@ The repository owner has clarified the continuation contract:
 - CI: workflow endpoint exposed no runs for the commits checked so far; no CI success is claimed.
 - Commits: canonical cb7cae9327cdf4b6881d6238e69bae1204ba5b9c; index ae196b957734334a964b59f6206815a48385d167; coverage de1a5ea858fa591906455f0a6432ab067740137d; TODO 36f25dec995b4771c9d7f4fa24aca4cf7fc8f260.
 - Exact next task: recompute the live DLC/free-update source census again and select the next deterministic cluster with a concrete missing endpoint or provenance mismatch; preserve intentional composite/platform-dependent labels.
+
+
+### 2026-09-21 cycle update — DLC package-count semantics reconciliation
+- Workstream: **P1 skill DLC/free-update provenance and completeness cleanup**.
+- After the Extra Pack 2 correction, audited the live DLC-labeled registry against official package Additional Skills/Moves counts.
+- Ultra Pack 1: official scope is 10 Additional Skills, while the canonical registry has 13 labeled records. The three surplus labels are documented character-exclusive Ultra Pack 1 skills — Final Charge, Final Flash (Super), and Pretty Charge — so the 13-record label is intentionally retained.
+- Conton City Vote Pack: official scope is 10 Additional Moves, while the canonical registry has 11 labeled records. The additional record is character-only Supersonic Mode; the ten player-facing move endpoints remain represented. The composite label is intentionally retained.
+- Extra Pack 3 and Extra Pack 4 both have exactly 8 canonical records matching official package counts.
+- Result: no canonical data rewrite was justified in this census batch; the apparent count mismatches are documented composite/character-only semantics rather than demonstrated missing endpoints.
+- Validation remains **443 canonical / 443 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Documentation commits: coverage `b76b6b4c2300e000bfad6a4de9071d8ea0b4e6da`; TODO `5500daf1b7544d4e326d68925aadac8f261a49ce`.
+- Exact next task: **continue the DLC/free-update census into remaining free-update/composite labels and identify a concrete missing endpoint or provenance mismatch before modifying canonical data.**
