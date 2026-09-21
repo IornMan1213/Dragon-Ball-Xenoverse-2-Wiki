@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 100,
+  "canonical_identity_records": 103,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
@@ -170,6 +170,30 @@
       "pq_number": 105,
       "target_id": "accr-027",
       "target_name": "Android 13's Hat",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-144",
+      "pq_number": 144,
+      "target_id": "accr-101",
+      "target_name": "Gine (DB Super) Set",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-148",
+      "pq_number": 148,
+      "target_id": "accr-103",
+      "target_name": "Kale Wig",
+      "status": "identity_matched",
+      "source_backed": true
+    },
+    {
+      "pq_id": "pq-147",
+      "pq_number": 147,
+      "target_id": "accr-102",
+      "target_name": "Caulifla Wig",
       "status": "identity_matched",
       "source_backed": true
     },
@@ -354,6 +378,16 @@
       ]
     },
     {
+      "target_id": "accr-102",
+      "target_name": "Caulifla Wig",
+      "pq_ids": [
+        "pq-147"
+      ],
+      "pq_numbers": [
+        147
+      ]
+    },
+    {
       "target_id": "accr-090",
       "target_name": "Chiaotzu's Hat (With Collar)",
       "pq_ids": [
@@ -421,6 +455,16 @@
       ],
       "pq_numbers": [
         155
+      ]
+    },
+    {
+      "target_id": "accr-101",
+      "target_name": "Gine (DB Super) Set",
+      "pq_ids": [
+        "pq-144"
+      ],
+      "pq_numbers": [
+        144
       ]
     },
     {
@@ -521,6 +565,16 @@
       ],
       "pq_numbers": [
         72
+      ]
+    },
+    {
+      "target_id": "accr-103",
+      "target_name": "Kale Wig",
+      "pq_ids": [
+        "pq-148"
+      ],
+      "pq_numbers": [
+        148
       ]
     },
     {
@@ -698,24 +752,6 @@
       "name": "Bardock (DB Super)'s Scouter",
       "pq_number": 146,
       "match_status": "unmatched_identity"
-    },
-    {
-      "pq_record_id": "pqacc-026",
-      "name": "Gine (DB Super)'s Accessory",
-      "pq_number": 144,
-      "match_status": "unresolved_component_identity"
-    },
-    {
-      "pq_record_id": "pqacc-027",
-      "name": "Kale's Accessory",
-      "pq_number": 148,
-      "match_status": "unresolved_component_identity"
-    },
-    {
-      "pq_record_id": "pqacc-028",
-      "name": "Caulifla's Accessory",
-      "pq_number": 147,
-      "match_status": "unresolved_component_identity"
     },
     {
       "pq_record_id": "pqacc-029",
