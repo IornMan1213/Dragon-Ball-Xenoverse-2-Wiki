@@ -4266,3 +4266,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Commit: `e63d045ddeed4d2834d24511ddf1e07e885a5671`.
 - Live census after editing: **305 skills / 3 explicit EM-ID joins / 39 non-numeric source_quest values**.
 - Exact next batch: inspect the remaining 39 non-numeric sources for other already-existing canonical relationship IDs (mentor lessons, Advancement Tests, Time Rifts, story/Future Saga missions, Shenron wishes). Only normalize when a matching repository identifier is already established; do not invent IDs or convert descriptive progression routes into false PQ/EM numbers.
+
+
+### 2026-09-21 cycle update — mentor-to-skill cross-link batch
+- Live census before editing: **305 canonical skills** and **33 indexed mentors**.
+- Bounded batch: **8 mentor-acquired skills** with explicit mentor-training routes: Dancing Parapara → `mentor-pan`; Darkness Rush (Melee/Ranged) → `mentor-lord-slug`; Deadly Dance → `mentor-android-18`; Death Ball → `mentor-frieza`; Destructo-Disc → `mentor-krillin`; Galick Gun → `mentor-vegeta`; Instant Transmission → `mentor-goku`.
+- Evidence: each skill's existing `source_quest`/unlock text explicitly names the mentor and lesson/training route; the canonical mentor index supplies matching IDs. This establishes deterministic `mentor_teaches_skill` endpoints without changing acquisition semantics.
+- Changes: added `source_mentor` canonical IDs. Human-readable acquisition fields were retained unchanged.
+- Evidence limits: Lord Slug and Pan mentor records are indexed; this cycle did not promote their broader lesson/reward verification state. No unsupported lesson numbers or reward conditions were added beyond existing skill text.
+- Validation: **305 skills**, **8 source_mentor links**, all link values match the repository's `mentor-*` ID convention, **0 internal UI citation artifacts** in canonical skills JSON.
+- CI: not exposed for the direct commit; no CI success is claimed.
+- Commit: `f5b642db98845c682c91e446a56112d52c93247d`.
+- Exact next batch: continue the deterministic mentor-link population for the remaining mentor-derived skills (starting with Masenko, Maximum/Full Power Charge where applicable, Perfect Shot, Rise to Action, Shadow Crusher, Spirit Bomb, and Hit's three Time Skip skills), then audit whether the canonical relationship contract should expose `source_mentor` as a formal indexed relationship field.
