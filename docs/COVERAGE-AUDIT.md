@@ -3815,7 +3815,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Current maintained instructor evidence identifies the exact training checkpoint for each: Vegeta's Initiation Test; Pan's Initiation Test; Krillin's Initiation Test; Android 18 Lesson 2; Cooler Lesson 1; Hit Initiation Test/Lessons 1–2; Frieza Lesson 3; and Lord Slug Lesson 3.
 - Reward wording now explicitly identifies these as mentor Basic Rewards. For Lord Slug Lesson 3, the evidence records both Darkness Rush variants in the same reward set.
 - No Ultimate Finish gate, drop rate, or unsupported prerequisite was inferred.
-- External corroboration: maintained instructor reward data and current/accessible mentor guides agree on the initiation/lesson mapping for the refined records. citeturn2search0turn2search3turn0search0turn1search3
+- External corroboration: maintained instructor reward data and current/accessible mentor guides agree on the initiation/lesson mapping for the refined records. 
 - Validation after the change: canonical/index **283 records**, exact name/order parity, UF count **60**; the targeted terse mentor/test census now returns **0** records under the current audit pattern.
 - Commits: canonical **77617ca0ad0ed0edaf0aec8251fcb371c7fffcf6**; index **21cc5cc53ea465cdda3330ff751656565f175d2d**.
 - Next: audit the remaining non-PQ quest/mission records for **source-quality and specificity rather than simple terseness**, especially time-rift, story, shop, and Expert Mission routes; preserve unresolved conditions and source conflicts.
@@ -3823,9 +3823,19 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 ## 2026-09-20 — non-PQ source-quality refinement continuation
 - Refined **5** remaining quest/mission acquisition records where source evidence supported a more concrete provenance or reward tier: **Future Super Saiyan**, **Data Input**, **Super Spirit Bomb**, **Supernova**, and **Fighting Pose K**.
-- Corrected **Future Super Saiyan** from the prior Capsule Corporation/Vegeta route to the **Unknown History secret story mission** route. Current external walkthrough evidence explicitly ties the transformation to completion of Unknown History after the five Distorted Time Eggs; the prior repository wording conflicted with this evidence and was replaced rather than silently retained. citeturn1search0turn1search3
-- Refined **Data Input → Expert Mission 20 "Harbinger of Doom" Basic Reward**, **Super Spirit Bomb → Expert Mission 16 "In the Realm of the Gods: Vegeta" Basic Reward**, and **Supernova → Expert Mission 6 "The Depths of Despair" Basic Reward**. Maintained/independent Expert Mission reward evidence explicitly lists each skill in the corresponding Basic Reward pool. citeturn3youtube41turn3search1turn3search2
-- Refined **Fighting Pose K** to the story/Skill Shop relationship: completing **"The Ginyu Force Strikes"** unlocks the Skill Shop route, where Fighting Pose K is purchased. No Ultimate Finish-only condition was inferred. citeturn3reddit42
+- Corrected **Future Super Saiyan** from the prior Capsule Corporation/Vegeta route to the **Unknown History secret story mission** route. Current external walkthrough evidence explicitly ties the transformation to completion of Unknown History after the five Distorted Time Eggs; the prior repository wording conflicted with this evidence and was replaced rather than silently retained. 
+- Refined **Data Input → Expert Mission 20 "Harbinger of Doom" Basic Reward**, **Super Spirit Bomb → Expert Mission 16 "In the Realm of the Gods: Vegeta" Basic Reward**, and **Supernova → Expert Mission 6 "The Depths of Despair" Basic Reward**. Maintained/independent Expert Mission reward evidence explicitly lists each skill in the corresponding Basic Reward pool. 
+- Refined **Fighting Pose K** to the story/Skill Shop relationship: completing **"The Ginyu Force Strikes"** unlocks the Skill Shop route, where Fighting Pose K is purchased. No Ultimate Finish-only condition was inferred. 
 - Validation target remains canonical/index **283 records**, exact record-order parity, and UF count **60**; no reward gate was changed by this cycle.
 - Commits: canonical **8466316b9b41199c8524e3821a2d03d6863e54b1**; index **d6fc033d206cc2dc5ffcc4f6f729b3a46723c50d**.
 - Exact next task: **continue auditing the remaining non-PQ acquisition records for source-quality conflicts and missing concrete conditions, prioritizing time-rift/story routes and any records whose dedicated research disagrees with canonical provenance. Preserve documented conflicts rather than inferring a winner when evidence remains mixed.**
+
+
+## 2026-09-20 — non-PQ source-quality cleanup: Explosive Wave
+- Re-audited the remaining non-PQ skill acquisition records for stale references to Parallel Quest reward evidence.
+- Found one direct contradiction: **Explosive Wave** was canonically acquired from the Skill Shop after normal-ending story progression, but its notes incorrectly claimed that maintained PQ evidence placed it in a Basic Reward. A repository-wide PQ reward census found no Parallel Quest record for Explosive Wave; the stale note was removed.
+- No acquisition route, Ultimate Finish flag, drop rate, or restriction was changed beyond correcting the provenance note.
+- Validation: canonical/index **283 records**, exact record-order parity, **0 duplicates**, 60 records with `ultimate_finish_required=true`; both JSON files parse successfully.
+- Internal/AI citation-artifact scan was also performed on the handoff/audit files; tool citation markup is being removed from repository documentation rather than retained.
+- Commits: canonical **94382a7e91dbe4122101d895d58630aa8d683d67**; index **0e1fc6198874facb13b494e016d323f64ef7d95**.
+- Exact next task: **continue the non-PQ source-quality audit, prioritizing time-rift/story/shop records whose provenance notes may contradict their canonical acquisition fields; preserve genuine source conflicts and do not infer missing conditions.**
