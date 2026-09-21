@@ -10866,11 +10866,12 @@
       "source_quest": "Android 18 mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-power-blitz",
       "source_mentor": [
         "mentor-android-18"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Endless Shoot",
