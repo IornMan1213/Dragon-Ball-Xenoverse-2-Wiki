@@ -1189,3 +1189,10 @@
 - Strengthened **Energy Field** from two to three provenance sources with the maintained GameFAQs Xenoverse 2 guide, independently listing Energy Field in **PQ29 — The Androids Attack**'s reward pool.
 - Preserved the existing acquisition, reward-tier, classification, mechanics, and CaC semantics; no unsupported drop probability was inferred.
 - Post-write live target: **50 exactly-two-source records**.
+
+## 2026-09-21 — Energy Release low-source provenance strengthening
+- Recomputed the live low-source census before editing: **50 exactly-two-source records**.
+- Strengthened **Energy Release** from two to three provenance sources with the maintained GameFAQs Xenoverse move guide, which lists Energy Release in Towa's Super Attack slot.
+- Preserved the existing character-exclusive / non-CaC boundary and Base Game semantics; no quest, shop, or unsupported acquisition route was inferred.
+- Synchronized canonical and index skill data; refreshed `last_verified` to **2026-09-21**.
+- Post-write target: **49 exactly-two-source records**.
