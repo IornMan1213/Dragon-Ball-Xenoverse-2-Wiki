@@ -3608,3 +3608,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Preserved `parallel_quest` acquisition type and existing semantics.
 - Commits: canonical `1f5fac03fe0fb4787b62c296bc5374c1463e9ea9`; index `4bdf986f5aa3aa7e6b7bcad909b30c2d9fdcf472`; audit `eb9825ef166bbf3779b2c95899b229d6b6e1eb98`.
 - Next: continue searching for missing fields and deterministic contradictions in acquisition records.
+
+
+### 2026-09-20 cycle update — acquisition schema synchronization
+- Found a schema/data mismatch: `Final Pose` legitimately uses the dedicated `parallel_quest` acquisition type, but `docs/data/skills.schema.json` omitted that enum value.
+- Added `parallel_quest` to the schema enum; no skill acquisition semantics were altered.
+- Commits: schema `1f80924b5532a58c4f4cf18cfe9c2cf0006e3347`; audit `bcc241169ba917d7cb56acb2f8cbb54ea0d8adb9`.
+- Exact next task: continue auditing repository validators/documentation for taxonomy mismatches introduced by the provenance cleanup, then resume deterministic acquisition contradictions.
