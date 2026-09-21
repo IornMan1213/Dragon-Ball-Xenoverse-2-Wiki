@@ -4117,3 +4117,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `adc6530d87246a18ced6bbae4be1789497673582`.
 - No data files changed.
 - Next task: continue auditing invoked scripts for executable/runtime defects and duplicated contracts, then inspect workflow status where available.
+
+## 2026-09-21 continuation — structured skill builder failure visibility
+- Workstream: P1 skill catalog build/validation contract audit.
+- Inspected the live `skills-sync.yml` invocation chain and the scripts it runs: research-batch validation, structured skill build, Awoken normalization/overrides, canonical validation, PQ skill cross-links, and Awoken integrity/model checks.
+- Found a concrete reliability defect in `scripts/build_skills_from_research.py`: the per-source-file build loop caught every `Exception` from `parse_frontmatter()` / `build_record()` and silently treated the source as absent. A malformed or unexpected structured skill file could therefore disappear from the canonical catalog while the build still reported success.
+- Fixed the builder to fail loudly with the affected source filename and underlying exception instead of silently dropping the record. This preserves the repository's rule that missing structured data is an audit/build failure rather than something to hide.
+- Files changed: `scripts/build_skills_from_research.py`.
+- Commit: `1feb047268ec7bf8e74ea3f0f0fc5af678a4fc7d` — Fail loudly on structured skill build errors.
+- Validation: reviewed the live workflow invocation and surrounding builder/validator contracts; no canonical data or generated index changes were made. The GitHub connector exposes no workflow runs or status entries for the recent maintenance commits, so no CI success is claimed.
+- CI status: no actionable workflow run/status was exposed for the latest maintenance commit; validators were not weakened.
+- Current known research frontier: PQ unlock-field census remains 176/176 explicit; current active workstream remains skill acquisition/DLC-version provenance cleanup and build/validation integrity.
+- Exact next task: inspect the remaining `skills-sync.yml` execution path and builder merge/correction semantics for other silent data-loss or non-deterministic failure paths, then make only concrete evidence-backed fixes; inspect CI status again afterward and update this handoff.
+
