@@ -375,3 +375,16 @@
 ### 2026-09-21 correction — complete Future Super Saiyan Time Rift fan-out
 - Each of the five canonical Time Rift endpoints now explicitly lists Future Super Saiyan as a dependent unlock relationship because all five Distorted Time Eggs are required for Unknown History.
 - Regenerated the Time Rift/skill cross-link report: **6 skills / 11 forward Time Rift → skill edges / 0 broken endpoints**.
+
+
+### 2026-09-21 cycle update — Namekian and Future Saga acquisition endpoints
+- Live census before editing: **305 skills / 305 skill-index records / 5 Time Rift endpoints / 1 Unknown History endpoint**.
+- Bounded batch: **Become Giant** and **The Power to Overcome**.
+- Research/evidence: Become Giant's current external references identify Guru's House / Namekian Awakening as its acquisition endpoint and distinguish the required Namekian progression from the transformation itself. citeturn0search0turn0search11turn0search3 The Power to Overcome is tied to Future Saga Chapter 4 and Quest 31, Ultimate All-Out Showdown; current 2026 guide evidence identifies the final mission as the unlock point and the Chapter 4 DLC as required. citeturn0search8turn0youtube18
+- Changes: added `source_time_rifts` to Become Giant; created `future-saga-story-record-layer.json`; linked The Power to Overcome to `story-future-saga-chapter-4-quest-31`; formalized the story-mission domain in the expansion contract; updated the bidirectional cross-link report.
+- Evidence limits/conflicts preserved: no unverified mission-number claims were added for older Time Rift routes; The Power to Overcome's mechanics already contain conflicting measured values in the canonical skill record, and those conflicts remain unresolved rather than being flattened.
+- Validation: **305/305 canonical/index parity preserved; 0 broken relationship endpoints; 2 target skill relationship projections match; 0 citation artifacts in changed canonical JSON; 5 Time Rifts + 2 story-mission endpoints; cross-link report now has 11 Time Rift→skill edges and 2 story-skill edges**.
+- CI: combined status exposed no statuses for the contract commit; no CI success is claimed.
+- Commits: `a646663` (skills), `596b0d8` (skills index), `a0370c9` (Future Saga endpoint), `7968132` (story contract), `4c4f7b7` (cross-link report).
+- Live census after editing: **305 skills / 305 skill-index records / 5 Time Rift endpoints / 1 Unknown History endpoint / 1 Future Saga story endpoint / 6 Time Rift-linked skills / 11 Time Rift→skill edges / 2 story-skill edges / 0 broken endpoints**.
+- Exact next batch: **expand the Future Saga story endpoint into its chapter/quest relationship layer for the remaining newly introduced skills and rewards, starting with the other Chapter 4 skills already present in canonical data; then reconcile any existing skill-to-PQ links that can be deterministically reverse-indexed without changing unresolved acquisition conditions.**
