@@ -5897,3 +5897,15 @@ The repository owner has clarified the continuation contract:
 - CI: workflow lookup must remain unclaimed unless an actual Actions run is exposed.
 - Commit: `a843a560a6dfefcf7b766cd1e5cfa3df548362a3` (canonical), `1bcdaa15014cb50e150ecd35475bc4010ab29686` (TODO).
 - Exact next task: **fresh live census of source-to-DLC relationships**, prioritizing records whose primary acquisition endpoint and `dlc_requirement` disagree; preserve later duplicate/contextual reward relationships when they do not establish originating DLC.
+
+
+### 2026-09-21 cycle update — Future Saga Chapter 1 move provenance audit
+- Workstream: P1 skill acquisition/DLC provenance cleanup; bounded four-record verification of Future Saga Chapter 1 move relationships.
+- Live census: **428 canonical skills; 0 duplicate IDs; 1 nullable `ki_cost` (Dimension Cannon by design)**. The selected cluster was Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger.
+- Evidence: official Dragon Ball documentation identifies Crimson Edge/Divine Spear as Goku Black (Super Saiyan Rosé) Ultra Supervillain moves and Big Bang Knuckle/Wild Stinger as Vegeta (Super Saiyan God) Ultra Supervillain moves. Official Nintendo/Steam listings identify Future Saga Chapter 1 as the DLC containing those characters and additional moves. The repository-linked PQ guide places the relevant rewards in PQ171/PQ172 and explicitly labels those quests Future Saga Chapter 1.
+- Decision: preserve all four existing `dlc_requirement=Future Saga Chapter 1` values; no normalization required.
+- Change: `docs/data/skills.json` only — `last_verified=2026-09-21` plus bounded provenance notes on the four records.
+- Validation: **428 / 0 duplicate IDs / 1 nullable Ki-cost**; TODO ledger synchronized. No unrelated fields changed.
+- CI: Actions lookup remains unavailable for the new commits; no CI success claimed.
+- Commits: `ea755ef4f290f874fcca403879c2e0abd5bf4683` (canonical), `634de150df83b22ca9581430fca24c42326645e1` (TODO).
+- Exact next task: **fresh live census and another bounded source-to-DLC verification cluster**, selecting a cluster with directly verifiable acquisition endpoints rather than re-auditing already confirmed Future Saga Chapter 1 records.
