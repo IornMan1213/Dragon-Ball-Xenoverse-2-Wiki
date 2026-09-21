@@ -482,3 +482,11 @@
 - Added the three previously missing ordinary base skills discovered during this audit: **Giant Storm**, **Angry Explosion**, and **Dead End Rain**. These are now canonical skill records and are linked from their corresponding Dual Ultimate records.
 - This preserves an important distinction: a mentor's taught Ultimate does not necessarily equal its Dual Ultimate. Examples include Krillin → DUAL Chain Destructo-Disc Barrage, Android 18 → DUAL Dead End Rain, Majin Buu → DUAL Angry Explosion, and Ginyu → DUAL Milky Cannon.
 - Validation: **423 canonical skills / 423 index records / 423 taxonomy total / 33 mentor Dual Ultimate records / 33 resolved Dual Ultimate → base-skill edges / 0 unresolved Dual Ultimate base links**.
+
+## 2026-09-21 — PQ → canonical skill endpoint reconciliation
+- Audited the existing PQ cross-domain relationship layer against the now-expanded canonical skill registry.
+- Found **7 PQ reward targets** that existed as verified relationship edges but had no canonical skill endpoint: **III Bomber, Starfall, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, and Kaioken Kamehameha**.
+- Added six missing canonical skill records and resolved `Starfall` as the existing canonical **Destruction's Concerto: Starfall** alias.
+- Synchronized `source_parallel_quests` so skill → PQ reverse navigation now retains the verified PQ IDs rather than relying only on prose acquisition fields.
+- Updated `pq-skill-crosslink-report.json`: **236 forward skill edges / 236 reverse skill endpoints / 0 unresolved forward edges / 0 orphaned reverse sources**.
+- Validation: **429 canonical skills / 429 index records / 429 taxonomy total**.
