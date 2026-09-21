@@ -3351,3 +3351,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Coverage audit commit: **5bb2b2bf12b51ced89d80cf64410cc56e1d03bb5**. Canonical/index commits: **d218e94418ecf5b42acb971fdce2b3b31fde83d1** and **163629ac6a3837ef5fdca518a10436d23965653e**.
 - Evidence limitation: historical shop prices are preserved as historical documentation; current rotation timing/price is not inferred from old listings.
 - Exact next task: **continue auditing remaining non-PQ records with terse shop/wish/character-only provenance, especially records whose unlock text is generic while dedicated sources can establish a concrete route. Preserve genuine uncertainty.**
+
+
+### 2026-09-20 cycle update — remaining shop provenance normalization
+- Normalized **8** terse shop records: Reverse Mabakusenko, Super Afterimage, Super God Shock Flash, Final Pose, Spirit Boost, Pressure Sign, Dragon Fist, and Godly Display.
+- Shop routes are now explicitly scoped to Conton City where supported. Dragon Fist and Godly Display retain documented historical prices of 200 and 500 TP Medals; these are not asserted as current rotation prices.
+- No quest relationship, Ultimate Finish requirement, race restriction, or unsupported prerequisite was introduced.
+- Validation: canonical/index **283/283**, identical record-name ordering, zero duplicate names, **60** UF flags. Acquisition-critical fields remain synchronized.
+- Commits: canonical **8cc6d9fb8741a4746877e916faf19a5b8acf1fe7**; index **9d31f6708325c2e8ac6277611dcc764965407682**; coverage audit **ae9f5ae478e66fc5903d18d36827a238642c6484**.
+- Exact next task: **continue the remaining character-only/starting-move non-PQ records, separating genuinely non-acquirable roster skills from CaC-accessible skills whose acquisition route is merely under-specified.**
