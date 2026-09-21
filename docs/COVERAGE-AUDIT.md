@@ -3916,3 +3916,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No dataset changes were necessary in this cycle.
 - Validation remains: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, **0** acquisition-critical mismatches.
 - Exact next target: **continue source-quality auditing generic shop records, then move to any remaining under-specified non-PQ records only when a concrete, independently supported acquisition condition is available.**
+
+
+## 2026-09-20 — shop-route evidence recheck
+- Rechecked the remaining conservative shop records against dedicated skill pages and maintained Future Warrior acquisition references.
+- **Bending Kamehameha** remains correctly scoped to Skill Shop; dedicated skill evidence gives no additional prerequisite to encode.
+- **Big Bang Kamehameha** remains correctly scoped to TP Medal Shop; dedicated skill evidence confirms that route without establishing a narrower prerequisite.
+- **Divine Kamehameha** remains correctly scoped to TP Medal Shop; current skill documentation also identifies it as a Future Warrior-usable skill, while no concrete story prerequisite is established.
+- The older TP Medal Shop price/rotation material for Namek Finger, Emperor's Death Beam, Final Explosion, and Dragon Fist remains historical evidence only; no current rotation claim was added. Historical listings document Namek Finger at 30 TP, Emperor's Death Beam at 25 TP, Final Explosion at 200 TP, and Dragon Fist at 200 TP. These figures are retained only where already explicitly marked historical/documented.
+- No dataset changes were necessary in this pass.
+- Validation remains: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, **0** acquisition-critical mismatches.
+- Sources reviewed: dedicated Xenoverse 2 skill pages for Bending Kamehameha, Big Bang Kamehameha, Divine Kamehameha; Dragon Ball Wiki Future Warrior technique list; historical TP Medal Shop listing evidence.
+- Exact next target: **continue the remaining under-specified acquisition records, prioritizing any record whose existing route conflicts with a dedicated skill page or whose source list mixes character-only and CaC acquisition evidence.**
