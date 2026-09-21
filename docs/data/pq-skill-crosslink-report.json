@@ -3,18 +3,17 @@
   "generated_by": "manual_canonical_sync_2026-09-21",
   "generated_at": "2026-09-21",
   "canonical_pq_records": 186,
-  "canonical_skill_records": 305,
+  "canonical_skill_records": 429,
   "forward_edge_count": 236,
-  "reverse_skill_endpoint_count": 234,
+  "reverse_skill_endpoint_count": 236,
   "unresolved_forward_edges": [],
   "orphaned_reverse_sources": [],
   "status": "resolved",
-  "interpretation": "Persisted bidirectional audit summary derived from canonical PQ skill_rewards and canonical skill source_parallel_quests. Alias matches preserve source reward spelling while resolving to the deterministic canonical skill ID.",
+  "interpretation": "Bidirectional PQ skill relationship audit synchronized to the current canonical skill registry. Reward spelling aliases resolve to deterministic canonical skill IDs.",
   "forward_edges": [
     {
       "pq_id": "pq-002",
       "pq_number": 2,
-      "pq_name": "A Deal?! The Saiyan Brothers",
       "skill_id": "skill-spirit-slash",
       "skill": "Spirit Slash",
       "canonical_skill": "Spirit Slash",
@@ -23,7 +22,6 @@
     {
       "pq_id": "pq-003",
       "pq_number": 3,
-      "pq_name": "World Tournament Tag Team",
       "skill_id": "skill-solar-flare",
       "skill": "Solar Flare",
       "canonical_skill": "Solar Flare",
@@ -32,7 +30,6 @@
     {
       "pq_id": "pq-004",
       "pq_number": 4,
-      "pq_name": "Prepare for the Attack of Saiyans!",
       "skill_id": "skill-paralyze-beam",
       "skill": "Paralyze Beam",
       "canonical_skill": "Paralyze Beam",
@@ -41,7 +38,6 @@
     {
       "pq_id": "pq-005",
       "pq_number": 5,
-      "pq_name": "Saiyan Blood",
       "skill_id": "skill-kamehameha",
       "skill": "Kamehameha",
       "canonical_skill": "Kamehameha",
@@ -50,7 +46,6 @@
     {
       "pq_id": "pq-006",
       "pq_number": 6,
-      "pq_name": "Saibamen's Revenge",
       "skill_id": "skill-meteor-strike",
       "skill": "Meteor Strike",
       "canonical_skill": "Meteor Strike",
@@ -59,7 +54,6 @@
     {
       "pq_id": "pq-007",
       "pq_number": 7,
-      "pq_name": "Attack of the Saiyans",
       "skill_id": "skill-shine-shot",
       "skill": "Shine Shot",
       "canonical_skill": "Shine Shot",
@@ -68,7 +62,6 @@
     {
       "pq_id": "pq-008",
       "pq_number": 8,
-      "pq_name": "Invade Earth",
       "skill_id": "skill-kaioken",
       "skill": "Kaioken",
       "canonical_skill": "Kaioken",
@@ -77,7 +70,6 @@
     {
       "pq_id": "pq-009",
       "pq_number": 9,
-      "pq_name": "The Saiyan King is...Who?",
       "skill_id": "skill-meteor-blow",
       "skill": "Meteor Blow",
       "canonical_skill": "Meteor Blow",
@@ -86,7 +78,6 @@
     {
       "pq_id": "pq-010",
       "pq_number": 10,
-      "pq_name": "Saiyan Survivors",
       "skill_id": "skill-wall-of-defense",
       "skill": "Wall of Defense",
       "canonical_skill": "Wall of Defense",
@@ -95,7 +86,6 @@
     {
       "pq_id": "pq-010",
       "pq_number": 10,
-      "pq_name": "Saiyan Survivors",
       "skill_id": "skill-unrelenting-barrage",
       "skill": "Unrelenting Barrage",
       "canonical_skill": "Unrelenting Barrage",
@@ -104,7 +94,6 @@
     {
       "pq_id": "pq-011",
       "pq_number": 11,
-      "pq_name": "Burst Open and Mix!",
       "skill_id": "skill-earth-splitting-galick-gun",
       "skill": "Earth Splitting Galick Gun",
       "canonical_skill": "Earth Splitting Galick Gun",
@@ -113,7 +102,6 @@
     {
       "pq_id": "pq-018",
       "pq_number": 18,
-      "pq_name": "Force Entrance Exam",
       "skill_id": "skill-time-control",
       "skill": "Time Control",
       "canonical_skill": "Time Control",
@@ -122,7 +110,6 @@
     {
       "pq_id": "pq-018",
       "pq_number": 18,
-      "pq_name": "Force Entrance Exam",
       "skill_id": "skill-mach-dash",
       "skill": "Mach Dash",
       "canonical_skill": "Mach Dash",
@@ -131,7 +118,6 @@
     {
       "pq_id": "pq-019",
       "pq_number": 19,
-      "pq_name": "Fierce Battle! Ginyu Force",
       "skill_id": "skill-mach-punch",
       "skill": "Mach Punch",
       "canonical_skill": "Mach Punch",
@@ -140,7 +126,6 @@
     {
       "pq_id": "pq-019",
       "pq_number": 19,
-      "pq_name": "Fierce Battle! Ginyu Force",
       "skill_id": "skill-fighting-pose-e",
       "skill": "Fighting Pose E",
       "canonical_skill": "Fighting Pose E",
@@ -149,7 +134,6 @@
     {
       "pq_id": "pq-020",
       "pq_number": 20,
-      "pq_name": "Frieza! Show Yourself",
       "skill_id": "skill-mystic-flash",
       "skill": "Mystic Flash",
       "canonical_skill": "Mystic Flash",
@@ -158,7 +142,6 @@
     {
       "pq_id": "pq-021",
       "pq_number": 21,
-      "pq_name": "Tri-Race Coop",
       "skill_id": "skill-evil-flight-strike",
       "skill": "Evil Flight Strike",
       "canonical_skill": "Evil Flight Strike",
@@ -167,7 +150,6 @@
     {
       "pq_id": "pq-022",
       "pq_number": 22,
-      "pq_name": "Dragon Ball Brawl!",
       "skill_id": "skill-energy-shot",
       "skill": "Energy Shot",
       "canonical_skill": "Energy Shot",
@@ -176,7 +158,6 @@
     {
       "pq_id": "pq-023",
       "pq_number": 23,
-      "pq_name": "The Explosion of Namek",
       "skill_id": "skill-death-slash",
       "skill": "Death Slash",
       "canonical_skill": "Death Slash",
@@ -185,7 +166,6 @@
     {
       "pq_id": "pq-024",
       "pq_number": 24,
-      "pq_name": "Super Saiyan Legend",
       "skill_id": "skill-double-death-slicer",
       "skill": "Double Death Slicer",
       "canonical_skill": "Double Death Slicer",
@@ -194,7 +174,6 @@
     {
       "pq_id": "pq-025",
       "pq_number": 25,
-      "pq_name": "The Emperor's Brother",
       "skill_id": "skill-spirit-explosion",
       "skill": "Spirit Explosion",
       "canonical_skill": "Spirit Explosion",
@@ -203,7 +182,6 @@
     {
       "pq_id": "pq-026",
       "pq_number": 26,
-      "pq_name": "Clash of Kin!",
       "skill_id": "skill-crazy-finger-shot",
       "skill": "Crazy Finger Shot",
       "canonical_skill": "Crazy Finger Shot",
@@ -212,7 +190,6 @@
     {
       "pq_id": "pq-027",
       "pq_number": 27,
-      "pq_name": "Metal Cooler Riot",
       "skill_id": "skill-sauzer-blade",
       "skill": "Sauzer Blade",
       "canonical_skill": "Sauzer Blade",
@@ -221,7 +198,6 @@
     {
       "pq_id": "pq-028",
       "pq_number": 28,
-      "pq_name": "Legendary Super Saiyan",
       "skill_id": "skill-spread-shot-retreat",
       "skill": "Spread Shot Retreat",
       "canonical_skill": "Spread Shot Retreat",
@@ -230,7 +206,6 @@
     {
       "pq_id": "pq-029",
       "pq_number": 29,
-      "pq_name": "The Androids Attack",
       "skill_id": "skill-freedom-kick",
       "skill": "Freedom Kick",
       "canonical_skill": "Freedom Kick",
@@ -239,7 +214,6 @@
     {
       "pq_id": "pq-029",
       "pq_number": 29,
-      "pq_name": "The Androids Attack",
       "skill_id": "skill-energy-field",
       "skill": "Energy Field",
       "canonical_skill": "Energy Field",
@@ -248,7 +222,6 @@
     {
       "pq_id": "pq-031",
       "pq_number": 31,
-      "pq_name": "Let's Train",
       "skill_id": "skill-super-dragon-flight",
       "skill": "Super Dragon Flight",
       "canonical_skill": "Super Dragon Flight",
@@ -257,7 +230,6 @@
     {
       "pq_id": "pq-032",
       "pq_number": 32,
-      "pq_name": "Multiple Cell Jr. Hunt",
       "skill_id": "skill-energy-barrier",
       "skill": "Energy Barrier",
       "canonical_skill": "Energy Barrier",
@@ -266,7 +238,6 @@
     {
       "pq_id": "pq-033",
       "pq_number": 33,
-      "pq_name": "Earth in Danger!",
       "skill_id": "skill-death-psycho-bomb",
       "skill": "Death Psycho Bomb",
       "canonical_skill": "Death Psycho Bomb",
@@ -275,7 +246,6 @@
     {
       "pq_id": "pq-034",
       "pq_number": 34,
-      "pq_name": "Return of Ginyu Force!",
       "skill_id": "skill-crusher-ball",
       "skill": "Crusher Ball",
       "canonical_skill": "Crusher Ball",
@@ -284,7 +254,6 @@
     {
       "pq_id": "pq-034",
       "pq_number": 34,
-      "pq_name": "Return of Ginyu Force!",
       "skill_id": "skill-paralysis",
       "skill": "Paralysis",
       "canonical_skill": "Paralysis",
@@ -293,7 +262,6 @@
     {
       "pq_id": "pq-036",
       "pq_number": 36,
-      "pq_name": "The Cell Games Begin",
       "skill_id": "skill-evil-whirlwind",
       "skill": "Evil Whirlwind",
       "canonical_skill": "Evil Whirlwind",
@@ -302,7 +270,6 @@
     {
       "pq_id": "pq-037",
       "pq_number": 37,
-      "pq_name": "Clash! Perfect Cell",
       "skill_id": "skill-instant-rise",
       "skill": "Instant Rise",
       "canonical_skill": "Instant Rise",
@@ -311,7 +278,6 @@
     {
       "pq_id": "pq-038",
       "pq_number": 38,
-      "pq_name": "Power Teams",
       "skill_id": "skill-shining-slash",
       "skill": "Shining Slash",
       "canonical_skill": "Shining Slash",
@@ -320,7 +286,6 @@
     {
       "pq_id": "pq-039",
       "pq_number": 39,
-      "pq_name": "17 and 18 of the Official History",
       "skill_id": "skill-side-bridge",
       "skill": "Side Bridge",
       "canonical_skill": "Side Bridge",
@@ -329,7 +294,6 @@
     {
       "pq_id": "pq-040",
       "pq_number": 40,
-      "pq_name": "The Future Warriors!",
       "skill_id": "skill-heat-dome-attack",
       "skill": "Heat Dome Attack",
       "canonical_skill": "Heat Dome Attack",
@@ -338,7 +302,6 @@
     {
       "pq_id": "pq-041",
       "pq_number": 41,
-      "pq_name": "Warriors' Annihilation - Future Chapters",
       "skill_id": "skill-burning-attack",
       "skill": "Burning Attack",
       "canonical_skill": "Burning Attack",
@@ -347,7 +310,6 @@
     {
       "pq_id": "pq-042",
       "pq_number": 42,
-      "pq_name": "Artificial Warriors",
       "skill_id": "skill-rolling-bullet",
       "skill": "Rolling Bullet",
       "canonical_skill": "Rolling Bullet",
@@ -356,7 +318,6 @@
     {
       "pq_id": "pq-043",
       "pq_number": 43,
-      "pq_name": "Change the Future",
       "skill_id": "skill-change-the-future",
       "skill": "Change The Future",
       "canonical_skill": "Change The Future",
@@ -365,7 +326,6 @@
     {
       "pq_id": "pq-044",
       "pq_number": 44,
-      "pq_name": "Dragon Balls of the Future",
       "skill_id": "skill-god-breaker",
       "skill": "God Breaker",
       "canonical_skill": "God Breaker",
@@ -374,7 +334,6 @@
     {
       "pq_id": "pq-044",
       "pq_number": 44,
-      "pq_name": "Dragon Balls of the Future",
       "skill_id": "skill-burning-slash",
       "skill": "Burning Slash",
       "canonical_skill": "Burning Slash",
@@ -383,7 +342,6 @@
     {
       "pq_id": "pq-045",
       "pq_number": 45,
-      "pq_name": "Take Back the Dragon Balls!",
       "skill_id": "skill-taunt",
       "skill": "Taunt",
       "canonical_skill": "Taunt",
@@ -392,43 +350,22 @@
     {
       "pq_id": "pq-046",
       "pq_number": 46,
-      "pq_name": "16 of the Official History",
-      "skill_id": "skill-chain-destructo-disc-barrage",
+      "skill_id": null,
       "skill": "Chain Destructo-disc Barrage",
-      "canonical_skill": "Chain Destructo-Disc Barrage",
+      "canonical_skill": null,
       "match": "alias"
     },
     {
       "pq_id": "pq-048",
       "pq_number": 48,
-      "pq_name": "2nd World Tournament Tag Team",
       "skill_id": "skill-kamehameha",
       "skill": "Kamehameha",
       "canonical_skill": "Kamehameha",
       "match": "exact"
     },
     {
-      "pq_id": "pq-048",
-      "pq_number": 48,
-      "pq_name": "2nd World Tournament Tag Team",
-      "skill_id": "skill-kamehameha",
-      "skill": "Kamekameha",
-      "canonical_skill": "Kamehameha",
-      "match": "alias"
-    },
-    {
-      "pq_id": "pq-049",
-      "pq_number": 49,
-      "pq_name": "Namek Berserker",
-      "skill_id": "skill-do-or-die",
-      "skill": "Do or Die",
-      "canonical_skill": "Do or Die",
-      "match": "exact"
-    },
-    {
       "pq_id": "pq-050",
       "pq_number": 50,
-      "pq_name": "Majin Chaos",
       "skill_id": "skill-explosive-buu-buu-punch",
       "skill": "Explosive Buu Buu Punch",
       "canonical_skill": "Explosive Buu Buu Punch",
@@ -437,7 +374,6 @@
     {
       "pq_id": "pq-051",
       "pq_number": 51,
-      "pq_name": "Great Saiyaman is Here",
       "skill_id": "skill-burst-rush",
       "skill": "Burst Rush",
       "canonical_skill": "Burst Rush",
@@ -446,7 +382,6 @@
     {
       "pq_id": "pq-052",
       "pq_number": 52,
-      "pq_name": "Super Saiyan Bargain Sale",
       "skill_id": "skill-final-cannon",
       "skill": "Final Cannon",
       "canonical_skill": "Final Cannon",
@@ -455,7 +390,6 @@
     {
       "pq_id": "pq-053",
       "pq_number": 53,
-      "pq_name": "The Fist of Justice!",
       "skill_id": "skill-justice-pose",
       "skill": "Justice Pose",
       "canonical_skill": "Justice Pose",
@@ -464,7 +398,6 @@
     {
       "pq_id": "pq-054",
       "pq_number": 54,
-      "pq_name": "Majin Revival",
       "skill_id": "skill-victory-cannon",
       "skill": "Victory Cannon",
       "canonical_skill": "Victory Cannon",
@@ -473,7 +406,6 @@
     {
       "pq_id": "pq-055",
       "pq_number": 55,
-      "pq_name": "Tag with Gotenks",
       "skill_id": "skill-super-donut-volley",
       "skill": "Super Donut Volley",
       "canonical_skill": "Super Donut Volley",
@@ -482,25 +414,14 @@
     {
       "pq_id": "pq-056",
       "pq_number": 56,
-      "pq_name": "Hercule is Number One",
       "skill_id": "skill-stone-bullet",
       "skill": "Stone Bullet",
       "canonical_skill": "Stone Bullet",
       "match": "exact"
     },
     {
-      "pq_id": "pq-057",
-      "pq_number": 57,
-      "pq_name": "Hell is Picture?",
-      "skill_id": "skill-rakshasa-s-claw",
-      "skill": "Rakshasa's Claw",
-      "canonical_skill": "Rakshasa's Claw",
-      "match": "exact"
-    },
-    {
       "pq_id": "pq-058",
       "pq_number": 58,
-      "pq_name": "Majin Banquet",
       "skill_id": "skill-vanishing-ball",
       "skill": "Vanishing Ball",
       "canonical_skill": "Vanishing Ball",
@@ -509,7 +430,6 @@
     {
       "pq_id": "pq-059",
       "pq_number": 59,
-      "pq_name": "Potara Warrior",
       "skill_id": "skill-force-shield",
       "skill": "Force Shield",
       "canonical_skill": "Force Shield",
@@ -518,7 +438,6 @@
     {
       "pq_id": "pq-059",
       "pq_number": 59,
-      "pq_name": "Potara Warrior",
       "skill_id": "skill-dimension-cannon",
       "skill": "Dimension Cannon",
       "canonical_skill": "Dimension Cannon",
@@ -527,7 +446,6 @@
     {
       "pq_id": "pq-060",
       "pq_number": 60,
-      "pq_name": "Blast the Super Spirit Bomb!",
       "skill_id": "skill-majin-kamehameha",
       "skill": "Majin Kamehameha",
       "canonical_skill": "Majin Kamehameha",
@@ -536,7 +454,6 @@
     {
       "pq_id": "pq-061",
       "pq_number": 61,
-      "pq_name": "The Cell Games Continued",
       "skill_id": "skill-recoome-kick",
       "skill": "Recoome Kick",
       "canonical_skill": "Recoome Kick",
@@ -545,7 +462,6 @@
     {
       "pq_id": "pq-061",
       "pq_number": 61,
-      "pq_name": "The Cell Games Continued",
       "skill_id": "skill-fighting-pose-h",
       "skill": "Fighting Pose H",
       "canonical_skill": "Fighting Pose H",
@@ -554,7 +470,6 @@
     {
       "pq_id": "pq-062",
       "pq_number": 62,
-      "pq_name": "Frieza’s Nightmare Returns!",
       "skill_id": "skill-teleporting-vanishing-ball",
       "skill": "Teleporting Vanishing Ball",
       "canonical_skill": "Teleporting Vanishing Ball",
@@ -563,7 +478,6 @@
     {
       "pq_id": "pq-063",
       "pq_number": 63,
-      "pq_name": "Appetite for Destruction",
       "skill_id": "skill-kai-kai",
       "skill": "Kai Kai",
       "canonical_skill": "Kai Kai",
@@ -572,7 +486,6 @@
     {
       "pq_id": "pq-064",
       "pq_number": 64,
-      "pq_name": "Beerus the Impulsive",
       "skill_id": "skill-ill-rain",
       "skill": "Ill Rain",
       "canonical_skill": "Ill Rain",
@@ -581,7 +494,6 @@
     {
       "pq_id": "pq-065",
       "pq_number": 65,
-      "pq_name": "The New Warriors",
       "skill_id": "skill-scissors-paper-rock",
       "skill": "Scissors Paper Rock",
       "canonical_skill": "Scissors Paper Rock",
@@ -590,7 +502,6 @@
     {
       "pq_id": "pq-066",
       "pq_number": 66,
-      "pq_name": "Stop Beerus’ Destruction",
       "skill_id": "skill-candy-beam",
       "skill": "Candy Beam",
       "canonical_skill": "Candy Beam",
@@ -599,7 +510,6 @@
     {
       "pq_id": "pq-067",
       "pq_number": 67,
-      "pq_name": "Power of a Super Saiyan God",
       "skill_id": "skill-super-god-fist",
       "skill": "Super God Fist",
       "canonical_skill": "Super God Fist",
@@ -608,7 +518,6 @@
     {
       "pq_id": "pq-068",
       "pq_number": 68,
-      "pq_name": "Old Rivals and Dragon Balls",
       "skill_id": "skill-angry-shout",
       "skill": "Angry Shout",
       "canonical_skill": "Angry Shout",
@@ -617,7 +526,6 @@
     {
       "pq_id": "pq-069",
       "pq_number": 69,
-      "pq_name": "God of Destruction and His Master",
       "skill_id": "skill-headshot",
       "skill": "Headshot",
       "canonical_skill": "Headshot",
@@ -626,7 +534,6 @@
     {
       "pq_id": "pq-070",
       "pq_number": 70,
-      "pq_name": "Things are Getting Serious!",
       "skill_id": "skill-emperor-s-blast",
       "skill": "Emperor's Blast",
       "canonical_skill": "Emperor's Blast",
@@ -635,7 +542,6 @@
     {
       "pq_id": "pq-071",
       "pq_number": 71,
-      "pq_name": "Abominable Saiyans",
       "skill_id": "skill-last-emperor",
       "skill": "Last Emperor",
       "canonical_skill": "Last Emperor",
@@ -644,7 +550,6 @@
     {
       "pq_id": "pq-072",
       "pq_number": 72,
-      "pq_name": "First Training",
       "skill_id": "skill-burst-kamehameha",
       "skill": "Burst Kamehameha",
       "canonical_skill": "Burst Kamehameha",
@@ -653,7 +558,6 @@
     {
       "pq_id": "pq-073",
       "pq_number": 73,
-      "pq_name": "Frieza’s Siege Against Earth!",
       "skill_id": "skill-psychic-move",
       "skill": "Psychic Move",
       "canonical_skill": "Psychic Move",
@@ -662,7 +566,6 @@
     {
       "pq_id": "pq-074",
       "pq_number": 74,
-      "pq_name": "Galactic Patrol, Away!",
       "skill_id": "skill-final-pose",
       "skill": "Final Pose",
       "canonical_skill": "Final Pose",
@@ -671,7 +574,6 @@
     {
       "pq_id": "pq-075",
       "pq_number": 75,
-      "pq_name": "Room to Spare",
       "skill_id": "skill-counter-burst",
       "skill": "Counter Burst",
       "canonical_skill": "Counter Burst",
@@ -680,7 +582,6 @@
     {
       "pq_id": "pq-076",
       "pq_number": 76,
-      "pq_name": "Eternal Rival",
       "skill_id": "skill-warp-kamehameha",
       "skill": "Warp Kamehameha",
       "canonical_skill": "Warp Kamehameha",
@@ -689,7 +590,6 @@
     {
       "pq_id": "pq-077",
       "pq_number": 77,
-      "pq_name": "Parent and Child",
       "skill_id": "skill-ki-explosion",
       "skill": "Ki Explosion",
       "canonical_skill": "Ki Explosion",
@@ -698,7 +598,6 @@
     {
       "pq_id": "pq-078",
       "pq_number": 78,
-      "pq_name": "Heated, Furious, Ultimate Battle",
       "skill_id": "skill-dust-attack",
       "skill": "Dust Attack",
       "canonical_skill": "Dust Attack",
@@ -707,7 +606,6 @@
     {
       "pq_id": "pq-079",
       "pq_number": 79,
-      "pq_name": "Great Ape Festival",
       "skill_id": "skill-mighty-explosive-wave",
       "skill": "Mighty Explosive Wave",
       "canonical_skill": "Mighty Explosive Wave",
@@ -716,7 +614,6 @@
     {
       "pq_id": "pq-080",
       "pq_number": 80,
-      "pq_name": "The Return of the Giant Ape-Fest!",
       "skill_id": "skill-dimensional-hole",
       "skill": "Dimensional Hole",
       "canonical_skill": "Dimensional Hole",
@@ -725,7 +622,6 @@
     {
       "pq_id": "pq-081",
       "pq_number": 81,
-      "pq_name": "Wake Up!",
       "skill_id": "skill-afterimage-strike",
       "skill": "Afterimage Strike",
       "canonical_skill": "Afterimage Strike",
@@ -734,7 +630,6 @@
     {
       "pq_id": "pq-082",
       "pq_number": 82,
-      "pq_name": "Ultimate Brotherly Battle",
       "skill_id": "skill-dragon-burn",
       "skill": "Dragon Burn",
       "canonical_skill": "Dragon Burn",
@@ -743,7 +638,6 @@
     {
       "pq_id": "pq-083",
       "pq_number": 83,
-      "pq_name": "Dangerous Duo! Warriors Never Rest",
       "skill_id": "skill-charge",
       "skill": "Charge",
       "canonical_skill": "Charge",
@@ -752,7 +646,6 @@
     {
       "pq_id": "pq-084",
       "pq_number": 84,
-      "pq_name": "Saiyan Warriors",
       "skill_id": "skill-saiyan-spirit",
       "skill": "Saiyan Spirit",
       "canonical_skill": "Saiyan Spirit",
@@ -761,34 +654,14 @@
     {
       "pq_id": "pq-085",
       "pq_number": 85,
-      "pq_name": "Power Berserkers",
       "skill_id": "skill-zigzag-express",
       "skill": "Zigzag Express",
       "canonical_skill": "Zigzag Express",
       "match": "exact"
     },
     {
-      "pq_id": "pq-086",
-      "pq_number": 86,
-      "pq_name": "Yamcha is Number One",
-      "skill_id": "skill-neo-wolf-fang-fist",
-      "skill": "Neo Wolf Fang Fist",
-      "canonical_skill": "Neo Wolf Fang Fist",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-087",
-      "pq_number": 87,
-      "pq_name": "Saiyan Battle",
-      "skill_id": "skill-atomic-blast",
-      "skill": "Atomic Blast",
-      "canonical_skill": "Atomic Blast",
-      "match": "exact"
-    },
-    {
       "pq_id": "pq-088",
       "pq_number": 88,
-      "pq_name": "Evil Seeks Dragon Balls Yet Again!",
       "skill_id": "skill-buu-buu-ball",
       "skill": "Buu Buu Ball",
       "canonical_skill": "Buu Buu Ball",
@@ -797,7 +670,6 @@
     {
       "pq_id": "pq-089",
       "pq_number": 89,
-      "pq_name": "Super-Super Ultimate Series of Battles!",
       "skill_id": "skill-victory-rush",
       "skill": "Victory Rush",
       "canonical_skill": "Victory Rush",
@@ -806,16 +678,14 @@
     {
       "pq_id": "pq-090",
       "pq_number": 90,
-      "pq_name": "Gathering of the Great Evil Alliance",
       "skill_id": "skill-ill-bomber",
       "skill": "III Bomber",
-      "canonical_skill": "Ill Bomber",
-      "match": "alias"
+      "canonical_skill": "III Bomber",
+      "match": "exact"
     },
     {
       "pq_id": "pq-091",
       "pq_number": 91,
-      "pq_name": "Saiyan Revolt",
       "skill_id": "skill-final-kamehameha",
       "skill": "Final Kamehameha",
       "canonical_skill": "Final Kamehameha",
@@ -824,7 +694,6 @@
     {
       "pq_id": "pq-092",
       "pq_number": 92,
-      "pq_name": "Revenge of the Tuffle",
       "skill_id": "skill-maiden-burst",
       "skill": "Maiden Burst",
       "canonical_skill": "Maiden Burst",
@@ -833,7 +702,6 @@
     {
       "pq_id": "pq-094",
       "pq_number": 94,
-      "pq_name": "Ultimate Power, Ultimate Saiyan",
       "skill_id": "skill-bluff-kamehameha",
       "skill": "Bluff Kamehameha",
       "canonical_skill": "Bluff Kamehameha",
@@ -842,7 +710,6 @@
     {
       "pq_id": "pq-095",
       "pq_number": 95,
-      "pq_name": "Super 17, the Ultimate Android",
       "skill_id": "skill-flash-bomber",
       "skill": "Flash Bomber",
       "canonical_skill": "Flash Bomber",
@@ -851,7 +718,6 @@
     {
       "pq_id": "pq-095",
       "pq_number": 95,
-      "pq_name": "Super 17, the Ultimate Android",
       "skill_id": "skill-drain-field",
       "skill": "Drain Field",
       "canonical_skill": "Drain Field",
@@ -860,7 +726,6 @@
     {
       "pq_id": "pq-096",
       "pq_number": 96,
-      "pq_name": "The Shadow Dragons",
       "skill_id": "skill-absolute-zero",
       "skill": "Absolute Zero",
       "canonical_skill": "Absolute Zero",
@@ -869,7 +734,6 @@
     {
       "pq_id": "pq-097",
       "pq_number": 97,
-      "pq_name": "Insidious Plot",
       "skill_id": "skill-charged-ki-wave",
       "skill": "Charged Ki Wave",
       "canonical_skill": "Charged Ki Wave",
@@ -878,7 +742,6 @@
     {
       "pq_id": "pq-097",
       "pq_number": 97,
-      "pq_name": "Insidious Plot",
       "skill_id": "skill-phantom-fist",
       "skill": "Phantom Fist",
       "canonical_skill": "Phantom Fist",
@@ -887,7 +750,6 @@
     {
       "pq_id": "pq-098",
       "pq_number": 98,
-      "pq_name": "Villains Regroup!",
       "skill_id": "skill-dimension-ray",
       "skill": "Dimension Ray",
       "canonical_skill": "Dimension Ray",
@@ -896,7 +758,6 @@
     {
       "pq_id": "pq-099",
       "pq_number": 99,
-      "pq_name": "Frieza Race Revivified",
       "skill_id": "skill-emperor-s-edge",
       "skill": "Emperor's Edge",
       "canonical_skill": "Emperor's Edge",
@@ -905,7 +766,6 @@
     {
       "pq_id": "pq-100",
       "pq_number": 100,
-      "pq_name": "The Ultimate Rivalry",
       "skill_id": "skill-x-100-big-bang-kamehameha",
       "skill": "X 100 Big Bang Kamehameha",
       "canonical_skill": "X 100 Big Bang Kamehameha",
@@ -914,7 +774,6 @@
     {
       "pq_id": "pq-101",
       "pq_number": 101,
-      "pq_name": "Seeking Fighters for Tournament!",
       "skill_id": "skill-breaker-energy-wave",
       "skill": "Breaker Energy Wave",
       "canonical_skill": "Breaker Energy Wave",
@@ -923,7 +782,6 @@
     {
       "pq_id": "pq-104",
       "pq_number": 104,
-      "pq_name": "Vados the Talent Scout",
       "skill_id": "skill-destruction-s-concerto-comet",
       "skill": "Destruction's Concerto: Comet",
       "canonical_skill": "Destruction's Concerto: Comet",
@@ -932,16 +790,14 @@
     {
       "pq_id": "pq-104",
       "pq_number": 104,
-      "pq_name": "Vados the Talent Scout",
       "skill_id": "skill-destruction-s-concerto-starfall",
-      "skill": "Destruction's Concerto: Starfall",
+      "skill": "Starfall",
       "canonical_skill": "Destruction's Concerto: Starfall",
-      "match": "exact"
+      "match": "alias"
     },
     {
       "pq_id": "pq-105",
       "pq_number": 105,
-      "pq_name": "Champa's Hellish Holiday",
       "skill_id": "skill-sonic-bomb",
       "skill": "Sonic Bomb",
       "canonical_skill": "Sonic Bomb",
@@ -950,7 +806,6 @@
     {
       "pq_id": "pq-105",
       "pq_number": 105,
-      "pq_name": "Champa's Hellish Holiday",
       "skill_id": "skill-god-of-destruction-s-menace",
       "skill": "God of Destruction's Menace",
       "canonical_skill": "God of Destruction's Menace",
@@ -959,43 +814,14 @@
     {
       "pq_id": "pq-105",
       "pq_number": 105,
-      "pq_name": "Champa's Hellish Holiday",
       "skill_id": "skill-god-of-destruction-s-roar",
       "skill": "God of Destruction's Roar",
       "canonical_skill": "God of Destruction's Roar",
       "match": "exact"
     },
     {
-      "pq_id": "pq-106",
-      "pq_number": 106,
-      "pq_name": "A Destructive Showdown!",
-      "skill_id": "skill-destruction-s-concerto-meteor",
-      "skill": "Destruction's Concerto: Meteor",
-      "canonical_skill": "Destruction's Concerto: Meteor",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-106",
-      "pq_number": 106,
-      "pq_name": "A Destructive Showdown!",
-      "skill_id": "skill-requiem-of-destruction",
-      "skill": "Requiem of Destruction",
-      "canonical_skill": "Requiem of Destruction",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-106",
-      "pq_number": 106,
-      "pq_name": "A Destructive Showdown!",
-      "skill_id": "skill-destruction-s-conductor",
-      "skill": "Destruction's Conductor",
-      "canonical_skill": "Destruction's Conductor",
-      "match": "exact"
-    },
-    {
       "pq_id": "pq-109",
       "pq_number": 109,
-      "pq_name": "A Fateful Fight With Deity!",
       "skill_id": "skill-super-black-kamehameha-rose",
       "skill": "Super Black Kamehameha Rosé",
       "canonical_skill": "Super Black Kamehameha Rosé",
@@ -1004,7 +830,6 @@
     {
       "pq_id": "pq-110",
       "pq_number": 110,
-      "pq_name": "Heretics from a Dark World",
       "skill_id": "skill-divinity-unleashed",
       "skill": "Divinity Unleashed",
       "canonical_skill": "Divinity Unleashed",
@@ -1013,7 +838,6 @@
     {
       "pq_id": "pq-111",
       "pq_number": 111,
-      "pq_name": "The Zero Mortal Plan",
       "skill_id": "skill-lightning-of-absolution",
       "skill": "Lightning of Absolution",
       "canonical_skill": "Lightning of Absolution",
@@ -1022,7 +846,6 @@
     {
       "pq_id": "pq-111",
       "pq_number": 111,
-      "pq_name": "The Zero Mortal Plan",
       "skill_id": "skill-holy-wrath",
       "skill": "Holy Wrath",
       "canonical_skill": "Holy Wrath",
@@ -1031,7 +854,6 @@
     {
       "pq_id": "pq-112",
       "pq_number": 112,
-      "pq_name": "Advent of the Mighty God Zamasu!",
       "skill_id": "skill-blades-of-judgment",
       "skill": "Blades of Judgment",
       "canonical_skill": "Blades of Judgment",
@@ -1040,7 +862,6 @@
     {
       "pq_id": "pq-112",
       "pq_number": 112,
-      "pq_name": "Advent of the Mighty God Zamasu!",
       "skill_id": "skill-divine-wrath-purification",
       "skill": "Divine Wrath: Purification",
       "canonical_skill": "Divine Wrath: Purification",
@@ -1049,7 +870,6 @@
     {
       "pq_id": "pq-113",
       "pq_number": 113,
-      "pq_name": "Birth of the Ultimate Majin!",
       "skill_id": "skill-super-ghost-buu-attack",
       "skill": "Super Ghost Buu Attack",
       "canonical_skill": "Super Ghost Buu Attack",
@@ -1058,16 +878,14 @@
     {
       "pq_id": "pq-113",
       "pq_number": 113,
-      "pq_name": "Birth of the Ultimate Majin!",
-      "skill_id": "skill-candy-beam-super",
-      "skill": "Candy Beam (Super)",
-      "canonical_skill": "Candy Beam (Super)",
+      "skill_id": "skill-candy-beam",
+      "skill": "Candy Beam",
+      "canonical_skill": "Candy Beam",
       "match": "exact"
     },
     {
       "pq_id": "pq-114",
       "pq_number": 114,
-      "pq_name": "The Majin Revival Plan",
       "skill_id": "skill-petrifying-spit",
       "skill": "Petrifying Spit",
       "canonical_skill": "Petrifying Spit",
@@ -1076,7 +894,6 @@
     {
       "pq_id": "pq-114",
       "pq_number": 114,
-      "pq_name": "The Majin Revival Plan",
       "skill_id": "skill-evil-blast",
       "skill": "Evil Blast",
       "canonical_skill": "Evil Blast",
@@ -1085,7 +902,6 @@
     {
       "pq_id": "pq-115",
       "pq_number": 115,
-      "pq_name": "Extreme Battle with Android 13!",
       "skill_id": "skill-handy-canon",
       "skill": "Handy Canon",
       "canonical_skill": "Handy Canon",
@@ -1094,7 +910,6 @@
     {
       "pq_id": "pq-115",
       "pq_number": 115,
-      "pq_name": "Extreme Battle with Android 13!",
       "skill_id": "skill-s-s-deadly-bomber",
       "skill": "S.S. Deadly Bomber",
       "canonical_skill": "S.S. Deadly Bomber",
@@ -1103,7 +918,6 @@
     {
       "pq_id": "pq-116",
       "pq_number": 116,
-      "pq_name": "A Hero's Duty",
       "skill_id": "skill-brave-sword-slash",
       "skill": "Brave Sword Slash",
       "canonical_skill": "Brave Sword Slash",
@@ -1112,7 +926,6 @@
     {
       "pq_id": "pq-116",
       "pq_number": 116,
-      "pq_name": "A Hero's Duty",
       "skill_id": "skill-hero-s-flute",
       "skill": "Hero's Flute",
       "canonical_skill": "Hero's Flute",
@@ -1121,7 +934,6 @@
     {
       "pq_id": "pq-117",
       "pq_number": 117,
-      "pq_name": "A Dance of Swords",
       "skill_id": "skill-evil-flame",
       "skill": "Evil Flame",
       "canonical_skill": "Evil Flame",
@@ -1130,7 +942,6 @@
     {
       "pq_id": "pq-117",
       "pq_number": 117,
-      "pq_name": "A Dance of Swords",
       "skill_id": "skill-brave-sword-attack",
       "skill": "Brave Sword Attack",
       "canonical_skill": "Brave Sword Attack",
@@ -1139,7 +950,6 @@
     {
       "pq_id": "pq-119",
       "pq_number": 119,
-      "pq_name": "A Ranger's Duty",
       "skill_id": "skill-rough-ranger",
       "skill": "Rough Ranger",
       "canonical_skill": "Rough Ranger",
@@ -1148,7 +958,6 @@
     {
       "pq_id": "pq-120",
       "pq_number": 120,
-      "pq_name": "Whis's Special Training",
       "skill_id": "skill-power-impact",
       "skill": "Power Impact",
       "canonical_skill": "Power Impact",
@@ -1157,7 +966,6 @@
     {
       "pq_id": "pq-122",
       "pq_number": 122,
-      "pq_name": "The Final Battle Before the Final Battle?!",
       "skill_id": "skill-meditation",
       "skill": "Meditation",
       "canonical_skill": "Meditation",
@@ -1166,7 +974,6 @@
     {
       "pq_id": "pq-122",
       "pq_number": 122,
-      "pq_name": "The Final Battle Before the Final Battle?!",
       "skill_id": "skill-power-rush",
       "skill": "Power Rush",
       "canonical_skill": "Power Rush",
@@ -1175,7 +982,6 @@
     {
       "pq_id": "pq-123",
       "pq_number": 123,
-      "pq_name": "Planetary Possession",
       "skill_id": "skill-reverse-shot",
       "skill": "Reverse Shot",
       "canonical_skill": "Reverse Shot",
@@ -1184,7 +990,6 @@
     {
       "pq_id": "pq-123",
       "pq_number": 123,
-      "pq_name": "Planetary Possession",
       "skill_id": "skill-variant-drive",
       "skill": "Variant Drive",
       "canonical_skill": "Variant Drive",
@@ -1193,7 +998,6 @@
     {
       "pq_id": "pq-124",
       "pq_number": 124,
-      "pq_name": "Downfall of the Ultimate Saiyan",
       "skill_id": "skill-revenge-final-flash",
       "skill": "Revenge Final Flash",
       "canonical_skill": "Revenge Final Flash",
@@ -1202,7 +1006,6 @@
     {
       "pq_id": "pq-125",
       "pq_number": 125,
-      "pq_name": "Proof's in the Potara",
       "skill_id": "skill-blaster-ball",
       "skill": "Blaster Ball",
       "canonical_skill": "Blaster Ball",
@@ -1211,7 +1014,6 @@
     {
       "pq_id": "pq-125",
       "pq_number": 125,
-      "pq_name": "Proof's in the Potara",
       "skill_id": "skill-ray-blast",
       "skill": "Ray Blast",
       "canonical_skill": "Ray Blast",
@@ -1220,7 +1022,6 @@
     {
       "pq_id": "pq-126",
       "pq_number": 126,
-      "pq_name": "Catch Kefla If You Can!",
       "skill_id": "skill-gigantic-breaker",
       "skill": "Gigantic Breaker",
       "canonical_skill": "Gigantic Breaker",
@@ -1229,7 +1030,6 @@
     {
       "pq_id": "pq-127",
       "pq_number": 127,
-      "pq_name": "Multiverse Match of the Century",
       "skill_id": "skill-gigantic-burst",
       "skill": "Gigantic Burst",
       "canonical_skill": "Gigantic Burst",
@@ -1238,7 +1038,6 @@
     {
       "pq_id": "pq-127",
       "pq_number": 127,
-      "pq_name": "Multiverse Match of the Century",
       "skill_id": "skill-revenge-death-ball",
       "skill": "Revenge Death Ball",
       "canonical_skill": "Revenge Death Ball",
@@ -1247,7 +1046,6 @@
     {
       "pq_id": "pq-128",
       "pq_number": 128,
-      "pq_name": "Legendary Super Saiyan Smackdown",
       "skill_id": "skill-powered-shell",
       "skill": "Powered Shell",
       "canonical_skill": "Powered Shell",
@@ -1256,7 +1054,6 @@
     {
       "pq_id": "pq-128",
       "pq_number": 128,
-      "pq_name": "Legendary Super Saiyan Smackdown",
       "skill_id": "skill-gigantic-charge",
       "skill": "Gigantic Charge",
       "canonical_skill": "Gigantic Charge",
@@ -1265,7 +1062,6 @@
     {
       "pq_id": "pq-129",
       "pq_number": 129,
-      "pq_name": "Frieza Force on the Hunt",
       "skill_id": "skill-spirit-blaster",
       "skill": "Spirit Blaster",
       "canonical_skill": "Spirit Blaster",
@@ -1274,7 +1070,6 @@
     {
       "pq_id": "pq-129",
       "pq_number": 129,
-      "pq_name": "Frieza Force on the Hunt",
       "skill_id": "skill-punisher-shield",
       "skill": "Punisher Shield",
       "canonical_skill": "Punisher Shield",
@@ -1283,7 +1078,6 @@
     {
       "pq_id": "pq-130",
       "pq_number": 130,
-      "pq_name": "Legendary Starving Saiyan Broly",
       "skill_id": "skill-gigantic-rage",
       "skill": "Gigantic Rage",
       "canonical_skill": "Gigantic Rage",
@@ -1292,7 +1086,6 @@
     {
       "pq_id": "pq-131",
       "pq_number": 131,
-      "pq_name": "Fight of the Fusions! Vegito vs Gogeta",
       "skill_id": "skill-assault-vanish",
       "skill": "Assault Vanish",
       "canonical_skill": "Assault Vanish",
@@ -1301,7 +1094,6 @@
     {
       "pq_id": "pq-132",
       "pq_number": 132,
-      "pq_name": "The Ultimate Legendary Super Saiyan",
       "skill_id": "skill-god-punisher",
       "skill": "God Punisher",
       "canonical_skill": "God Punisher",
@@ -1310,7 +1102,6 @@
     {
       "pq_id": "pq-132",
       "pq_number": 132,
-      "pq_name": "The Ultimate Legendary Super Saiyan",
       "skill_id": "skill-gigantic-roar",
       "skill": "Gigantic Roar",
       "canonical_skill": "Gigantic Roar",
@@ -1319,7 +1110,6 @@
     {
       "pq_id": "pq-133",
       "pq_number": 133,
-      "pq_name": "Ribrianne's Beauty Lesson",
       "skill_id": "skill-pretty-cannon",
       "skill": "Pretty Cannon",
       "canonical_skill": "Pretty Cannon",
@@ -1328,7 +1118,6 @@
     {
       "pq_id": "pq-133",
       "pq_number": 133,
-      "pq_name": "Ribrianne's Beauty Lesson",
       "skill_id": "skill-formation",
       "skill": "Formation!",
       "canonical_skill": "Formation!",
@@ -1337,7 +1126,6 @@
     {
       "pq_id": "pq-134",
       "pq_number": 134,
-      "pq_name": "Universe 7's Next God of Destruction",
       "skill_id": "skill-ultimate-charge",
       "skill": "Ultimate Charge",
       "canonical_skill": "Ultimate Charge",
@@ -1346,7 +1134,6 @@
     {
       "pq_id": "pq-134",
       "pq_number": 134,
-      "pq_name": "Universe 7's Next God of Destruction",
       "skill_id": "skill-burst-charge",
       "skill": "Burst Charge",
       "canonical_skill": "Burst Charge",
@@ -1355,7 +1142,6 @@
     {
       "pq_id": "pq-135",
       "pq_number": 135,
-      "pq_name": "Ribrianne, Defender of Love and Justice",
       "skill_id": "skill-lovely-cyclone",
       "skill": "Lovely Cyclone",
       "canonical_skill": "Lovely Cyclone",
@@ -1364,7 +1150,6 @@
     {
       "pq_id": "pq-136",
       "pq_number": 136,
-      "pq_name": "Breaking Down the Barrier",
       "skill_id": "skill-burst-stinger",
       "skill": "Burst Stinger",
       "canonical_skill": "Burst Stinger",
@@ -1373,7 +1158,6 @@
     {
       "pq_id": "pq-136",
       "pq_number": 136,
-      "pq_name": "Breaking Down the Barrier",
       "skill_id": "skill-raid-blast",
       "skill": "Raid Blast",
       "canonical_skill": "Raid Blast",
@@ -1382,7 +1166,6 @@
     {
       "pq_id": "pq-136",
       "pq_number": 136,
-      "pq_name": "Breaking Down the Barrier",
       "skill_id": "skill-blazing-attack",
       "skill": "Blazing Attack",
       "canonical_skill": "Blazing Attack",
@@ -1391,7 +1174,6 @@
     {
       "pq_id": "pq-137",
       "pq_number": 137,
-      "pq_name": "Tournament of Power Round 2",
       "skill_id": "skill-ribrianne-s-eternal-love",
       "skill": "Ribrianne's Eternal Love",
       "canonical_skill": "Ribrianne's Eternal Love",
@@ -1400,7 +1182,6 @@
     {
       "pq_id": "pq-137",
       "pq_number": 137,
-      "pq_name": "Tournament of Power Round 2",
       "skill_id": "skill-prominence-flash",
       "skill": "Prominence Flash",
       "canonical_skill": "Prominence Flash",
@@ -1409,7 +1190,6 @@
     {
       "pq_id": "pq-138",
       "pq_number": 138,
-      "pq_name": "The Battle of Earth",
       "skill_id": "skill-flash-chaser",
       "skill": "Flash Chaser",
       "canonical_skill": "Flash Chaser",
@@ -1418,7 +1198,6 @@
     {
       "pq_id": "pq-139",
       "pq_number": 139,
-      "pq_name": "War and Pieces",
       "skill_id": "skill-total-detonation-ball",
       "skill": "Total Detonation Ball",
       "canonical_skill": "Total Detonation Ball",
@@ -1427,7 +1206,6 @@
     {
       "pq_id": "pq-139",
       "pq_number": 139,
-      "pq_name": "War and Pieces",
       "skill_id": "skill-photon-swipe",
       "skill": "Photon Swipe",
       "canonical_skill": "Photon Swipe",
@@ -1436,7 +1214,6 @@
     {
       "pq_id": "pq-140",
       "pq_number": 140,
-      "pq_name": "Spirit Bomb Away!",
       "skill_id": "skill-savory-slicer",
       "skill": "Savory Slicer",
       "canonical_skill": "Savory Slicer",
@@ -1445,7 +1222,6 @@
     {
       "pq_id": "pq-141",
       "pq_number": 141,
-      "pq_name": "Uub's Ultimate Challenge",
       "skill_id": "skill-dragon-blitz",
       "skill": "Dragon Blitz",
       "canonical_skill": "Dragon Blitz",
@@ -1454,7 +1230,6 @@
     {
       "pq_id": "pq-141",
       "pq_number": 141,
-      "pq_name": "Uub's Ultimate Challenge",
       "skill_id": "skill-brutal-buster",
       "skill": "Brutal Buster",
       "canonical_skill": "Brutal Buster",
@@ -1463,7 +1238,6 @@
     {
       "pq_id": "pq-142",
       "pq_number": 142,
-      "pq_name": "Timespace Tussle",
       "skill_id": "skill-lightning-impact",
       "skill": "Lightning Impact",
       "canonical_skill": "Lightning Impact",
@@ -1472,7 +1246,6 @@
     {
       "pq_id": "pq-142",
       "pq_number": 142,
-      "pq_name": "Timespace Tussle",
       "skill_id": "skill-excellent-full-course",
       "skill": "Excellent Full Course",
       "canonical_skill": "Excellent Full Course",
@@ -1481,7 +1254,6 @@
     {
       "pq_id": "pq-143",
       "pq_number": 143,
-      "pq_name": "Other World Offensive",
       "skill_id": "skill-hyper-tornado",
       "skill": "Hyper Tornado",
       "canonical_skill": "Hyper Tornado",
@@ -1490,7 +1262,6 @@
     {
       "pq_id": "pq-143",
       "pq_number": 143,
-      "pq_name": "Other World Offensive",
       "skill_id": "skill-burning-shot",
       "skill": "Burning Shot",
       "canonical_skill": "Burning Shot",
@@ -1499,7 +1270,6 @@
     {
       "pq_id": "pq-145",
       "pq_number": 145,
-      "pq_name": "Other World Challenger",
       "skill_id": "skill-destructive-fracture",
       "skill": "Destructive Fracture",
       "canonical_skill": "Destructive Fracture",
@@ -1508,7 +1278,6 @@
     {
       "pq_id": "pq-145",
       "pq_number": 145,
-      "pq_name": "Other World Challenger",
       "skill_id": "skill-destructive-flare",
       "skill": "Destructive Flare",
       "canonical_skill": "Destructive Flare",
@@ -1517,7 +1286,6 @@
     {
       "pq_id": "pq-146",
       "pq_number": 146,
-      "pq_name": "Zen-Ohs' Earthly Excursion",
       "skill_id": "skill-thunder-flash",
       "skill": "Thunder Flash",
       "canonical_skill": "Thunder Flash",
@@ -1526,7 +1294,6 @@
     {
       "pq_id": "pq-146",
       "pq_number": 146,
-      "pq_name": "Zen-Ohs' Earthly Excursion",
       "skill_id": "skill-destructive-fission",
       "skill": "Destructive Fission",
       "canonical_skill": "Destructive Fission",
@@ -1535,7 +1302,6 @@
     {
       "pq_id": "pq-147",
       "pq_number": 147,
-      "pq_name": "Caulifla's Saiyan Search",
       "skill_id": "skill-crush-cannon",
       "skill": "Crush Cannon",
       "canonical_skill": "Crush Cannon",
@@ -1544,7 +1310,6 @@
     {
       "pq_id": "pq-147",
       "pq_number": 147,
-      "pq_name": "Caulifla's Saiyan Search",
       "skill_id": "skill-double-crush",
       "skill": "Double Crush",
       "canonical_skill": "Double Crush",
@@ -1553,7 +1318,6 @@
     {
       "pq_id": "pq-147",
       "pq_number": 147,
-      "pq_name": "Caulifla's Saiyan Search",
       "skill_id": "skill-crush-stream",
       "skill": "Crush Stream",
       "canonical_skill": "Crush Stream",
@@ -1562,7 +1326,6 @@
     {
       "pq_id": "pq-148",
       "pq_number": 148,
-      "pq_name": "Finding Out About Fusion",
       "skill_id": "skill-blaster-cannon",
       "skill": "Blaster Cannon",
       "canonical_skill": "Blaster Cannon",
@@ -1571,7 +1334,6 @@
     {
       "pq_id": "pq-148",
       "pq_number": 148,
-      "pq_name": "Finding Out About Fusion",
       "skill_id": "skill-blaster-bomb",
       "skill": "Blaster Bomb",
       "canonical_skill": "Blaster Bomb",
@@ -1580,7 +1342,6 @@
     {
       "pq_id": "pq-148",
       "pq_number": 148,
-      "pq_name": "Finding Out About Fusion",
       "skill_id": "skill-blaster-stream",
       "skill": "Blaster Stream",
       "canonical_skill": "Blaster Stream",
@@ -1589,7 +1350,6 @@
     {
       "pq_id": "pq-149",
       "pq_number": 149,
-      "pq_name": "Clash of the Clones",
       "skill_id": "skill-comet-strike",
       "skill": "Comet Strike",
       "canonical_skill": "Comet Strike",
@@ -1598,7 +1358,6 @@
     {
       "pq_id": "pq-149",
       "pq_number": 149,
-      "pq_name": "Clash of the Clones",
       "skill_id": "skill-meteor-explosion",
       "skill": "Meteor Explosion",
       "canonical_skill": "Meteor Explosion",
@@ -1607,7 +1366,6 @@
     {
       "pq_id": "pq-150",
       "pq_number": 150,
-      "pq_name": "Battle of the Mind",
       "skill_id": "skill-impact-flare",
       "skill": "Impact Flare",
       "canonical_skill": "Impact Flare",
@@ -1616,7 +1374,6 @@
     {
       "pq_id": "pq-150",
       "pq_number": 150,
-      "pq_name": "Battle of the Mind",
       "skill_id": "skill-power-wall",
       "skill": "Power Wall",
       "canonical_skill": "Power Wall",
@@ -1625,7 +1382,6 @@
     {
       "pq_id": "pq-151",
       "pq_number": 151,
-      "pq_name": "Even Further Beyond",
       "skill_id": "skill-ultrasonic-blitz",
       "skill": "Ultrasonic Blitz",
       "canonical_skill": "Ultrasonic Blitz",
@@ -1634,7 +1390,6 @@
     {
       "pq_id": "pq-151",
       "pq_number": 151,
-      "pq_name": "Even Further Beyond",
       "skill_id": "skill-spirit-pulse",
       "skill": "Spirit Pulse",
       "canonical_skill": "Spirit Pulse",
@@ -1643,7 +1398,6 @@
     {
       "pq_id": "pq-151",
       "pq_number": 151,
-      "pq_name": "Even Further Beyond",
       "skill_id": "skill-celestial-wave",
       "skill": "Celestial Wave",
       "canonical_skill": "Celestial Wave",
@@ -1652,7 +1406,6 @@
     {
       "pq_id": "pq-152",
       "pq_number": 152,
-      "pq_name": "Dyspo's Wanted Man",
       "skill_id": "skill-justice-kick",
       "skill": "Justice Kick",
       "canonical_skill": "Justice Kick",
@@ -1661,7 +1414,6 @@
     {
       "pq_id": "pq-152",
       "pq_number": 152,
-      "pq_name": "Dyspo's Wanted Man",
       "skill_id": "skill-justice-blade",
       "skill": "Justice Blade",
       "canonical_skill": "Justice Blade",
@@ -1670,7 +1422,6 @@
     {
       "pq_id": "pq-153",
       "pq_number": 153,
-      "pq_name": "Seeing Double",
       "skill_id": "skill-wild-buster",
       "skill": "Wild Buster",
       "canonical_skill": "Wild Buster",
@@ -1679,7 +1430,6 @@
     {
       "pq_id": "pq-153",
       "pq_number": 153,
-      "pq_name": "Seeing Double",
       "skill_id": "skill-shield-barrier",
       "skill": "Shield Barrier",
       "canonical_skill": "Shield Barrier",
@@ -1688,7 +1438,6 @@
     {
       "pq_id": "pq-153",
       "pq_number": 153,
-      "pq_name": "Seeing Double",
       "skill_id": "skill-counter-impact",
       "skill": "Counter Impact",
       "canonical_skill": "Counter Impact",
@@ -1697,7 +1446,6 @@
     {
       "pq_id": "pq-154",
       "pq_number": 154,
-      "pq_name": "Dabura the Loyal? Servant",
       "skill_id": "skill-sign-of-awakening",
       "skill": "Sign of Awakening",
       "canonical_skill": "Sign of Awakening",
@@ -1706,7 +1454,6 @@
     {
       "pq_id": "pq-154",
       "pq_number": 154,
-      "pq_name": "Dabura the Loyal? Servant",
       "skill_id": "skill-circle-flash",
       "skill": "Circle Flash",
       "canonical_skill": "Circle Flash",
@@ -1715,7 +1462,6 @@
     {
       "pq_id": "pq-155",
       "pq_number": 155,
-      "pq_name": "I Need a Hero... Pose!",
       "skill_id": "skill-heroic-counter",
       "skill": "Heroic Counter",
       "canonical_skill": "Heroic Counter",
@@ -1724,7 +1470,6 @@
     {
       "pq_id": "pq-155",
       "pq_number": 155,
-      "pq_name": "I Need a Hero... Pose!",
       "skill_id": "skill-gamma-blaster",
       "skill": "Gamma Blaster",
       "canonical_skill": "Gamma Blaster",
@@ -1733,7 +1478,6 @@
     {
       "pq_id": "pq-155",
       "pq_number": 155,
-      "pq_name": "I Need a Hero... Pose!",
       "skill_id": "skill-gamma-impact",
       "skill": "Gamma Impact",
       "canonical_skill": "Gamma Impact",
@@ -1742,7 +1486,6 @@
     {
       "pq_id": "pq-156",
       "pq_number": 156,
-      "pq_name": "Hunting Down Dr. Hedo",
       "skill_id": "skill-heroic-assault",
       "skill": "Heroic Assault",
       "canonical_skill": "Heroic Assault",
@@ -1751,7 +1494,6 @@
     {
       "pq_id": "pq-156",
       "pq_number": 156,
-      "pq_name": "Hunting Down Dr. Hedo",
       "skill_id": "skill-shooting-strike",
       "skill": "Shooting Strike",
       "canonical_skill": "Shooting Strike",
@@ -1760,7 +1502,6 @@
     {
       "pq_id": "pq-158",
       "pq_number": 158,
-      "pq_name": "Beat Bulma's Minions!",
       "skill_id": "skill-super-gamma-blast",
       "skill": "Super Gamma Blast",
       "canonical_skill": "Super Gamma Blast",
@@ -1769,7 +1510,6 @@
     {
       "pq_id": "pq-158",
       "pq_number": 158,
-      "pq_name": "Beat Bulma's Minions!",
       "skill_id": "skill-core-breaker",
       "skill": "Core Breaker",
       "canonical_skill": "Core Breaker",
@@ -1778,7 +1518,6 @@
     {
       "pq_id": "pq-159",
       "pq_number": 159,
-      "pq_name": "Lights! Camera! Super Heroes!",
       "skill_id": "skill-fierce-fist",
       "skill": "Fierce Fist",
       "canonical_skill": "Fierce Fist",
@@ -1787,7 +1526,6 @@
     {
       "pq_id": "pq-159",
       "pq_number": 159,
-      "pq_name": "Lights! Camera! Super Heroes!",
       "skill_id": "skill-demonic-destruction",
       "skill": "Demonic Destruction",
       "canonical_skill": "Demonic Destruction",
@@ -1796,7 +1534,6 @@
     {
       "pq_id": "pq-160",
       "pq_number": 160,
-      "pq_name": "Pan in Peril",
       "skill_id": "skill-demon-ray",
       "skill": "Demon Ray",
       "canonical_skill": "Demon Ray",
@@ -1805,7 +1542,6 @@
     {
       "pq_id": "pq-160",
       "pq_number": 160,
-      "pq_name": "Pan in Peril",
       "skill_id": "skill-demon-flash-strike",
       "skill": "Demon Flash Strike",
       "canonical_skill": "Demon Flash Strike",
@@ -1814,7 +1550,6 @@
     {
       "pq_id": "pq-160",
       "pq_number": 160,
-      "pq_name": "Pan in Peril",
       "skill_id": "skill-demon-flurry",
       "skill": "Demon Flurry",
       "canonical_skill": "Demon Flurry",
@@ -1823,7 +1558,6 @@
     {
       "pq_id": "pq-161",
       "pq_number": 161,
-      "pq_name": "Scream Team vs. Dream Team",
       "skill_id": "skill-apocalyptic-burst",
       "skill": "Apocalyptic Burst",
       "canonical_skill": "Apocalyptic Burst",
@@ -1832,7 +1566,6 @@
     {
       "pq_id": "pq-162",
       "pq_number": 162,
-      "pq_name": "The Man, the Myth, the Yamcha",
       "skill_id": "skill-special-beam-cannon-beast",
       "skill": "Special Beam Cannon (Beast)",
       "canonical_skill": "Special Beam Cannon (Beast)",
@@ -1841,7 +1574,6 @@
     {
       "pq_id": "pq-163",
       "pq_number": 163,
-      "pq_name": "Broly the Invader",
       "skill_id": "skill-giant-cluster",
       "skill": "Giant Cluster",
       "canonical_skill": "Giant Cluster",
@@ -1850,7 +1582,6 @@
     {
       "pq_id": "pq-163",
       "pq_number": 163,
-      "pq_name": "Broly the Invader",
       "skill_id": "skill-eraser-bomb",
       "skill": "Eraser Bomb",
       "canonical_skill": "Eraser Bomb",
@@ -1859,7 +1590,6 @@
     {
       "pq_id": "pq-164",
       "pq_number": 164,
-      "pq_name": "Where is Goku?!",
       "skill_id": "skill-gigantic-explosion",
       "skill": "Gigantic Explosion",
       "canonical_skill": "Gigantic Explosion",
@@ -1868,7 +1598,6 @@
     {
       "pq_id": "pq-165",
       "pq_number": 165,
-      "pq_name": "Anniversary Antics",
       "skill_id": "skill-variable-snipe-shot",
       "skill": "Variable Snipe Shot",
       "canonical_skill": "Variable Snipe Shot",
@@ -1877,7 +1606,6 @@
     {
       "pq_id": "pq-165",
       "pq_number": 165,
-      "pq_name": "Anniversary Antics",
       "skill_id": "skill-steel-mirage",
       "skill": "Steel Mirage",
       "canonical_skill": "Steel Mirage",
@@ -1886,7 +1614,6 @@
     {
       "pq_id": "pq-166",
       "pq_number": 166,
-      "pq_name": "Escape from West City",
       "skill_id": "skill-pendulum-bullet",
       "skill": "Pendulum Bullet",
       "canonical_skill": "Pendulum Bullet",
@@ -1895,7 +1622,6 @@
     {
       "pq_id": "pq-167",
       "pq_number": 167,
-      "pq_name": "Fighting for Family",
       "skill_id": "skill-seagull-combination",
       "skill": "Seagull Combination",
       "canonical_skill": "Seagull Combination",
@@ -1904,7 +1630,6 @@
     {
       "pq_id": "pq-167",
       "pq_number": 167,
-      "pq_name": "Fighting for Family",
       "skill_id": "skill-burning-swan",
       "skill": "Burning Swan",
       "canonical_skill": "Burning Swan",
@@ -1913,7 +1638,6 @@
     {
       "pq_id": "pq-168",
       "pq_number": 168,
-      "pq_name": "Videl: Super Mom",
       "skill_id": "skill-justice-drive",
       "skill": "Justice Drive",
       "canonical_skill": "Justice Drive",
@@ -1922,7 +1646,6 @@
     {
       "pq_id": "pq-171",
       "pq_number": 171,
-      "pq_name": "Fighters with Finesse",
       "skill_id": "skill-crimson-edge",
       "skill": "Crimson Edge",
       "canonical_skill": "Crimson Edge",
@@ -1931,7 +1654,6 @@
     {
       "pq_id": "pq-171",
       "pq_number": 171,
-      "pq_name": "Fighters with Finesse",
       "skill_id": "skill-divine-spear",
       "skill": "Divine Spear",
       "canonical_skill": "Divine Spear",
@@ -1940,7 +1662,6 @@
     {
       "pq_id": "pq-172",
       "pq_number": 172,
-      "pq_name": "Little Big Brother",
       "skill_id": "skill-big-bang-knuckle",
       "skill": "Big Bang Knuckle",
       "canonical_skill": "Big Bang Knuckle",
@@ -1949,7 +1670,6 @@
     {
       "pq_id": "pq-172",
       "pq_number": 172,
-      "pq_name": "Little Big Brother",
       "skill_id": "skill-wild-stinger",
       "skill": "Wild Stinger",
       "canonical_skill": "Wild Stinger",
@@ -1958,7 +1678,6 @@
     {
       "pq_id": "pq-173",
       "pq_number": 173,
-      "pq_name": "Decoding Dinner",
       "skill_id": "skill-divine-ray-bomb",
       "skill": "Divine Ray Bomb",
       "canonical_skill": "Divine Ray Bomb",
@@ -1967,7 +1686,6 @@
     {
       "pq_id": "pq-174",
       "pq_number": 174,
-      "pq_name": "Hyper Special Training",
       "skill_id": "skill-final-rampage",
       "skill": "Final Rampage",
       "canonical_skill": "Final Rampage",
@@ -1976,7 +1694,6 @@
     {
       "pq_id": "pq-175",
       "pq_number": 175,
-      "pq_name": "Who's the Next Leader?!",
       "skill_id": "skill-god-of-destruction-s-plaything",
       "skill": "God of Destruction's Plaything",
       "canonical_skill": "God of Destruction's Plaything",
@@ -1985,16 +1702,22 @@
     {
       "pq_id": "pq-175",
       "pq_number": 175,
-      "pq_name": "Who's the Next Leader?!",
       "skill_id": "skill-god-of-destruction-s-poise",
       "skill": "God of Destruction's Poise",
       "canonical_skill": "God of Destruction's Poise",
       "match": "exact"
     },
     {
+      "pq_id": "pq-176",
+      "pq_number": 176,
+      "skill_id": "skill-god-of-destruction-s-might",
+      "skill": "God of Destruction's Might",
+      "canonical_skill": "God of Destruction's Might",
+      "match": "exact"
+    },
+    {
       "pq_id": "pq-177",
       "pq_number": 177,
-      "pq_name": "Warped Sense of Justice",
       "skill_id": "skill-full-power-destruction",
       "skill": "Full Power Destruction",
       "canonical_skill": "Full Power Destruction",
@@ -2003,7 +1726,6 @@
     {
       "pq_id": "pq-177",
       "pq_number": 177,
-      "pq_name": "Warped Sense of Justice",
       "skill_id": "skill-dragon-spark",
       "skill": "Dragon Spark",
       "canonical_skill": "Dragon Spark",
@@ -2012,7 +1734,6 @@
     {
       "pq_id": "pq-177",
       "pq_number": 177,
-      "pq_name": "Warped Sense of Justice",
       "skill_id": "skill-soaring-rush",
       "skill": "Soaring Rush",
       "canonical_skill": "Soaring Rush",
@@ -2021,7 +1742,6 @@
     {
       "pq_id": "pq-178",
       "pq_number": 178,
-      "pq_name": "The Tireless Pursuit of Strength",
       "skill_id": "skill-burst-blitz",
       "skill": "Burst Blitz",
       "canonical_skill": "Burst Blitz",
@@ -2030,7 +1750,6 @@
     {
       "pq_id": "pq-179",
       "pq_number": 179,
-      "pq_name": "24/7 Time Patrol",
       "skill_id": "skill-heat-wave",
       "skill": "Heat Wave",
       "canonical_skill": "Heat Wave",
@@ -2039,7 +1758,6 @@
     {
       "pq_id": "pq-179",
       "pq_number": 179,
-      "pq_name": "24/7 Time Patrol",
       "skill_id": "skill-supreme-fury",
       "skill": "Supreme Fury",
       "canonical_skill": "Supreme Fury",
@@ -2048,7 +1766,6 @@
     {
       "pq_id": "pq-180",
       "pq_number": 180,
-      "pq_name": "Battle of Resolve: VS Goku Black",
       "skill_id": "skill-force-edge",
       "skill": "Force Edge",
       "canonical_skill": "Force Edge",
@@ -2057,7 +1774,6 @@
     {
       "pq_id": "pq-180",
       "pq_number": 180,
-      "pq_name": "Battle of Resolve: VS Goku Black",
       "skill_id": "skill-burning-blast",
       "skill": "Burning Blast",
       "canonical_skill": "Burning Blast",
@@ -2066,7 +1782,6 @@
     {
       "pq_id": "pq-181",
       "pq_number": 181,
-      "pq_name": "The Greatest Training Ever",
       "skill_id": "skill-super-kamehameha-ss4-daima",
       "skill": "Super Kamehameha (SS4 DAIMA)",
       "canonical_skill": "Super Kamehameha (SS4 DAIMA)",
@@ -2075,7 +1790,6 @@
     {
       "pq_id": "pq-181",
       "pq_number": 181,
-      "pq_name": "The Greatest Training Ever",
       "skill_id": "skill-final-flash-ss3-daima",
       "skill": "Final Flash (SS3 DAIMA)",
       "canonical_skill": "Final Flash (SS3 DAIMA)",
@@ -2084,7 +1798,6 @@
     {
       "pq_id": "pq-182",
       "pq_number": 182,
-      "pq_name": "Frieza's Fervent Wish",
       "skill_id": "skill-dark-inscription",
       "skill": "Dark Inscription",
       "canonical_skill": "Dark Inscription",
@@ -2093,7 +1806,6 @@
     {
       "pq_id": "pq-183",
       "pq_number": 183,
-      "pq_name": "Broly vs. Broly",
       "skill_id": "skill-emperor-s-cannon",
       "skill": "Emperor's Cannon",
       "canonical_skill": "Emperor's Cannon",
@@ -2102,7 +1814,6 @@
     {
       "pq_id": "pq-184",
       "pq_number": 184,
-      "pq_name": "The Invincible Duo",
       "skill_id": "skill-chaotic-time-impact",
       "skill": "Chaotic Time Impact",
       "canonical_skill": "Chaotic Time Impact",
@@ -2111,7 +1822,6 @@
     {
       "pq_id": "pq-185",
       "pq_number": 185,
-      "pq_name": "A God's Amusement",
       "skill_id": "skill-dragon-spiral",
       "skill": "Dragon Spiral",
       "canonical_skill": "Dragon Spiral",
@@ -2120,7 +1830,6 @@
     {
       "pq_id": "pq-185",
       "pq_number": 185,
-      "pq_name": "A God's Amusement",
       "skill_id": "skill-indomitable",
       "skill": "Indomitable",
       "canonical_skill": "Indomitable",
@@ -2129,4698 +1838,66 @@
     {
       "pq_id": "pq-186",
       "pq_number": 186,
-      "pq_name": "Frieza's Right-Hand Man",
       "skill_id": "skill-venus-fist",
       "skill": "Venus Fist",
       "canonical_skill": "Venus Fist",
       "match": "exact"
-    }
-  ],
-  "reverse_edges": [
-    {
-      "skill_id": "skill-absolute-zero",
-      "skill": "Absolute Zero",
-      "pq_ids": [
-        "pq-096"
-      ],
-      "pq_numbers": [
-        96
-      ]
-    },
-    {
-      "skill_id": "skill-afterimage-strike",
-      "skill": "Afterimage Strike",
-      "pq_ids": [
-        "pq-081"
-      ],
-      "pq_numbers": [
-        81
-      ]
-    },
-    {
-      "skill_id": "skill-angry-shout",
-      "skill": "Angry Shout",
-      "pq_ids": [
-        "pq-068"
-      ],
-      "pq_numbers": [
-        68
-      ]
-    },
-    {
-      "skill_id": "skill-apocalyptic-burst",
-      "skill": "Apocalyptic Burst",
-      "pq_ids": [
-        "pq-161"
-      ],
-      "pq_numbers": [
-        161
-      ]
-    },
-    {
-      "skill_id": "skill-assault-vanish",
-      "skill": "Assault Vanish",
-      "pq_ids": [
-        "pq-131"
-      ],
-      "pq_numbers": [
-        131
-      ]
-    },
-    {
-      "skill_id": "skill-atomic-blast",
-      "skill": "Atomic Blast",
-      "pq_ids": [
-        "pq-087"
-      ],
-      "pq_numbers": [
-        87
-      ]
-    },
-    {
-      "skill_id": "skill-big-bang-knuckle",
-      "skill": "Big Bang Knuckle",
-      "pq_ids": [
-        "pq-172"
-      ],
-      "pq_numbers": [
-        172
-      ]
-    },
-    {
-      "skill_id": "skill-blades-of-judgment",
-      "skill": "Blades of Judgment",
-      "pq_ids": [
-        "pq-112"
-      ],
-      "pq_numbers": [
-        112
-      ]
-    },
-    {
-      "skill_id": "skill-blaster-ball",
-      "skill": "Blaster Ball",
-      "pq_ids": [
-        "pq-125"
-      ],
-      "pq_numbers": [
-        125
-      ]
-    },
-    {
-      "skill_id": "skill-blaster-bomb",
-      "skill": "Blaster Bomb",
-      "pq_ids": [
-        "pq-148"
-      ],
-      "pq_numbers": [
-        148
-      ]
-    },
-    {
-      "skill_id": "skill-blaster-cannon",
-      "skill": "Blaster Cannon",
-      "pq_ids": [
-        "pq-148"
-      ],
-      "pq_numbers": [
-        148
-      ]
-    },
-    {
-      "skill_id": "skill-blaster-stream",
-      "skill": "Blaster Stream",
-      "pq_ids": [
-        "pq-148"
-      ],
-      "pq_numbers": [
-        148
-      ]
-    },
-    {
-      "skill_id": "skill-blazing-attack",
-      "skill": "Blazing Attack",
-      "pq_ids": [
-        "pq-136"
-      ],
-      "pq_numbers": [
-        136
-      ]
-    },
-    {
-      "skill_id": "skill-bluff-kamehameha",
-      "skill": "Bluff Kamehameha",
-      "pq_ids": [
-        "pq-094"
-      ],
-      "pq_numbers": [
-        94
-      ]
-    },
-    {
-      "skill_id": "skill-brave-sword-attack",
-      "skill": "Brave Sword Attack",
-      "pq_ids": [
-        "pq-117"
-      ],
-      "pq_numbers": [
-        117
-      ]
-    },
-    {
-      "skill_id": "skill-brave-sword-slash",
-      "skill": "Brave Sword Slash",
-      "pq_ids": [
-        "pq-116"
-      ],
-      "pq_numbers": [
-        116
-      ]
-    },
-    {
-      "skill_id": "skill-breaker-energy-wave",
-      "skill": "Breaker Energy Wave",
-      "pq_ids": [
-        "pq-101"
-      ],
-      "pq_numbers": [
-        101
-      ]
-    },
-    {
-      "skill_id": "skill-brutal-buster",
-      "skill": "Brutal Buster",
-      "pq_ids": [
-        "pq-141"
-      ],
-      "pq_numbers": [
-        141
-      ]
-    },
-    {
-      "skill_id": "skill-burning-attack",
-      "skill": "Burning Attack",
-      "pq_ids": [
-        "pq-041"
-      ],
-      "pq_numbers": [
-        41
-      ]
-    },
-    {
-      "skill_id": "skill-burning-blast",
-      "skill": "Burning Blast",
-      "pq_ids": [
-        "pq-180"
-      ],
-      "pq_numbers": [
-        180
-      ]
-    },
-    {
-      "skill_id": "skill-burning-shot",
-      "skill": "Burning Shot",
-      "pq_ids": [
-        "pq-143"
-      ],
-      "pq_numbers": [
-        143
-      ]
-    },
-    {
-      "skill_id": "skill-burning-slash",
-      "skill": "Burning Slash",
-      "pq_ids": [
-        "pq-044"
-      ],
-      "pq_numbers": [
-        44
-      ]
-    },
-    {
-      "skill_id": "skill-burning-swan",
-      "skill": "Burning Swan",
-      "pq_ids": [
-        "pq-167"
-      ],
-      "pq_numbers": [
-        167
-      ]
-    },
-    {
-      "skill_id": "skill-burst-blitz",
-      "skill": "Burst Blitz",
-      "pq_ids": [
-        "pq-178"
-      ],
-      "pq_numbers": [
-        178
-      ]
-    },
-    {
-      "skill_id": "skill-burst-charge",
-      "skill": "Burst Charge",
-      "pq_ids": [
-        "pq-134"
-      ],
-      "pq_numbers": [
-        134
-      ]
-    },
-    {
-      "skill_id": "skill-burst-kamehameha",
-      "skill": "Burst Kamehameha",
-      "pq_ids": [
-        "pq-072"
-      ],
-      "pq_numbers": [
-        72
-      ]
-    },
-    {
-      "skill_id": "skill-burst-rush",
-      "skill": "Burst Rush",
-      "pq_ids": [
-        "pq-051"
-      ],
-      "pq_numbers": [
-        51
-      ]
-    },
-    {
-      "skill_id": "skill-burst-stinger",
-      "skill": "Burst Stinger",
-      "pq_ids": [
-        "pq-136"
-      ],
-      "pq_numbers": [
-        136
-      ]
-    },
-    {
-      "skill_id": "skill-buu-buu-ball",
-      "skill": "Buu Buu Ball",
-      "pq_ids": [
-        "pq-088"
-      ],
-      "pq_numbers": [
-        88
-      ]
-    },
-    {
-      "skill_id": "skill-candy-beam",
-      "skill": "Candy Beam",
-      "pq_ids": [
-        "pq-066"
-      ],
-      "pq_numbers": [
-        66
-      ]
-    },
-    {
-      "skill_id": "skill-candy-beam-super",
-      "skill": "Candy Beam (Super)",
-      "pq_ids": [
-        "pq-113"
-      ],
-      "pq_numbers": [
-        113
-      ]
-    },
-    {
-      "skill_id": "skill-celestial-wave",
-      "skill": "Celestial Wave",
-      "pq_ids": [
-        "pq-151"
-      ],
-      "pq_numbers": [
-        151
-      ]
-    },
-    {
-      "skill_id": "skill-chain-destructo-disc-barrage",
-      "skill": "Chain Destructo-Disc Barrage",
-      "pq_ids": [
-        "pq-046"
-      ],
-      "pq_numbers": [
-        46
-      ]
-    },
-    {
-      "skill_id": "skill-change-the-future",
-      "skill": "Change The Future",
-      "pq_ids": [
-        "pq-043"
-      ],
-      "pq_numbers": [
-        43
-      ]
-    },
-    {
-      "skill_id": "skill-chaotic-time-impact",
-      "skill": "Chaotic Time Impact",
-      "pq_ids": [
-        "pq-184"
-      ],
-      "pq_numbers": [
-        184
-      ]
-    },
-    {
-      "skill_id": "skill-charge",
-      "skill": "Charge",
-      "pq_ids": [
-        "pq-083"
-      ],
-      "pq_numbers": [
-        83
-      ]
-    },
-    {
-      "skill_id": "skill-charged-ki-wave",
-      "skill": "Charged Ki Wave",
-      "pq_ids": [
-        "pq-097"
-      ],
-      "pq_numbers": [
-        97
-      ]
-    },
-    {
-      "skill_id": "skill-circle-flash",
-      "skill": "Circle Flash",
-      "pq_ids": [
-        "pq-154"
-      ],
-      "pq_numbers": [
-        154
-      ]
-    },
-    {
-      "skill_id": "skill-comet-strike",
-      "skill": "Comet Strike",
-      "pq_ids": [
-        "pq-149"
-      ],
-      "pq_numbers": [
-        149
-      ]
-    },
-    {
-      "skill_id": "skill-core-breaker",
-      "skill": "Core Breaker",
-      "pq_ids": [
-        "pq-158"
-      ],
-      "pq_numbers": [
-        158
-      ]
-    },
-    {
-      "skill_id": "skill-counter-burst",
-      "skill": "Counter Burst",
-      "pq_ids": [
-        "pq-075"
-      ],
-      "pq_numbers": [
-        75
-      ]
-    },
-    {
-      "skill_id": "skill-counter-impact",
-      "skill": "Counter Impact",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
-    },
-    {
-      "skill_id": "skill-crazy-finger-shot",
-      "skill": "Crazy Finger Shot",
-      "pq_ids": [
-        "pq-026"
-      ],
-      "pq_numbers": [
-        26
-      ]
-    },
-    {
-      "skill_id": "skill-crimson-edge",
-      "skill": "Crimson Edge",
-      "pq_ids": [
-        "pq-171"
-      ],
-      "pq_numbers": [
-        171
-      ]
-    },
-    {
-      "skill_id": "skill-crush-cannon",
-      "skill": "Crush Cannon",
-      "pq_ids": [
-        "pq-147"
-      ],
-      "pq_numbers": [
-        147
-      ]
-    },
-    {
-      "skill_id": "skill-crush-stream",
-      "skill": "Crush Stream",
-      "pq_ids": [
-        "pq-147"
-      ],
-      "pq_numbers": [
-        147
-      ]
-    },
-    {
-      "skill_id": "skill-crusher-ball",
-      "skill": "Crusher Ball",
-      "pq_ids": [
-        "pq-034"
-      ],
-      "pq_numbers": [
-        34
-      ]
-    },
-    {
-      "skill_id": "skill-dark-inscription",
-      "skill": "Dark Inscription",
-      "pq_ids": [
-        "pq-182"
-      ],
-      "pq_numbers": [
-        182
-      ]
-    },
-    {
-      "skill_id": "skill-death-psycho-bomb",
-      "skill": "Death Psycho Bomb",
-      "pq_ids": [
-        "pq-033"
-      ],
-      "pq_numbers": [
-        33
-      ]
-    },
-    {
-      "skill_id": "skill-death-slash",
-      "skill": "Death Slash",
-      "pq_ids": [
-        "pq-023"
-      ],
-      "pq_numbers": [
-        23
-      ]
-    },
-    {
-      "skill_id": "skill-demon-flash-strike",
-      "skill": "Demon Flash Strike",
-      "pq_ids": [
-        "pq-160"
-      ],
-      "pq_numbers": [
-        160
-      ]
-    },
-    {
-      "skill_id": "skill-demon-flurry",
-      "skill": "Demon Flurry",
-      "pq_ids": [
-        "pq-160"
-      ],
-      "pq_numbers": [
-        160
-      ]
-    },
-    {
-      "skill_id": "skill-demon-ray",
-      "skill": "Demon Ray",
-      "pq_ids": [
-        "pq-160"
-      ],
-      "pq_numbers": [
-        160
-      ]
-    },
-    {
-      "skill_id": "skill-demonic-destruction",
-      "skill": "Demonic Destruction",
-      "pq_ids": [
-        "pq-159"
-      ],
-      "pq_numbers": [
-        159
-      ]
-    },
-    {
-      "skill_id": "skill-destruction-s-concerto-comet",
-      "skill": "Destruction's Concerto: Comet",
-      "pq_ids": [
-        "pq-104"
-      ],
-      "pq_numbers": [
-        104
-      ]
-    },
-    {
-      "skill_id": "skill-destruction-s-concerto-meteor",
-      "skill": "Destruction's Concerto: Meteor",
-      "pq_ids": [
-        "pq-106"
-      ],
-      "pq_numbers": [
-        106
-      ]
-    },
-    {
-      "skill_id": "skill-destruction-s-concerto-starfall",
-      "skill": "Destruction's Concerto: Starfall",
-      "pq_ids": [
-        "pq-104"
-      ],
-      "pq_numbers": [
-        104
-      ]
-    },
-    {
-      "skill_id": "skill-destruction-s-conductor",
-      "skill": "Destruction's Conductor",
-      "pq_ids": [
-        "pq-106"
-      ],
-      "pq_numbers": [
-        106
-      ]
-    },
-    {
-      "skill_id": "skill-destructive-fission",
-      "skill": "Destructive Fission",
-      "pq_ids": [
-        "pq-146"
-      ],
-      "pq_numbers": [
-        146
-      ]
-    },
-    {
-      "skill_id": "skill-destructive-flare",
-      "skill": "Destructive Flare",
-      "pq_ids": [
-        "pq-145"
-      ],
-      "pq_numbers": [
-        145
-      ]
-    },
-    {
-      "skill_id": "skill-destructive-fracture",
-      "skill": "Destructive Fracture",
-      "pq_ids": [
-        "pq-145"
-      ],
-      "pq_numbers": [
-        145
-      ]
-    },
-    {
-      "skill_id": "skill-dimension-cannon",
-      "skill": "Dimension Cannon",
-      "pq_ids": [
-        "pq-059"
-      ],
-      "pq_numbers": [
-        59
-      ]
-    },
-    {
-      "skill_id": "skill-dimension-ray",
-      "skill": "Dimension Ray",
-      "pq_ids": [
-        "pq-098"
-      ],
-      "pq_numbers": [
-        98
-      ]
-    },
-    {
-      "skill_id": "skill-dimensional-hole",
-      "skill": "Dimensional Hole",
-      "pq_ids": [
-        "pq-080"
-      ],
-      "pq_numbers": [
-        80
-      ]
-    },
-    {
-      "skill_id": "skill-divine-ray-bomb",
-      "skill": "Divine Ray Bomb",
-      "pq_ids": [
-        "pq-173"
-      ],
-      "pq_numbers": [
-        173
-      ]
-    },
-    {
-      "skill_id": "skill-divine-spear",
-      "skill": "Divine Spear",
-      "pq_ids": [
-        "pq-171"
-      ],
-      "pq_numbers": [
-        171
-      ]
-    },
-    {
-      "skill_id": "skill-divine-wrath-purification",
-      "skill": "Divine Wrath: Purification",
-      "pq_ids": [
-        "pq-112"
-      ],
-      "pq_numbers": [
-        112
-      ]
-    },
-    {
-      "skill_id": "skill-divinity-unleashed",
-      "skill": "Divinity Unleashed",
-      "pq_ids": [
-        "pq-110"
-      ],
-      "pq_numbers": [
-        110
-      ]
-    },
-    {
-      "skill_id": "skill-do-or-die",
-      "skill": "Do or Die",
-      "pq_ids": [
-        "pq-049"
-      ],
-      "pq_numbers": [
-        49
-      ]
-    },
-    {
-      "skill_id": "skill-double-crush",
-      "skill": "Double Crush",
-      "pq_ids": [
-        "pq-147"
-      ],
-      "pq_numbers": [
-        147
-      ]
-    },
-    {
-      "skill_id": "skill-double-death-slicer",
-      "skill": "Double Death Slicer",
-      "pq_ids": [
-        "pq-024"
-      ],
-      "pq_numbers": [
-        24
-      ]
-    },
-    {
-      "skill_id": "skill-dragon-blitz",
-      "skill": "Dragon Blitz",
-      "pq_ids": [
-        "pq-141"
-      ],
-      "pq_numbers": [
-        141
-      ]
-    },
-    {
-      "skill_id": "skill-dragon-burn",
-      "skill": "Dragon Burn",
-      "pq_ids": [
-        "pq-082"
-      ],
-      "pq_numbers": [
-        82
-      ]
-    },
-    {
-      "skill_id": "skill-dragon-spark",
-      "skill": "Dragon Spark",
-      "pq_ids": [
-        "pq-177"
-      ],
-      "pq_numbers": [
-        177
-      ]
-    },
-    {
-      "skill_id": "skill-dragon-spiral",
-      "skill": "Dragon Spiral",
-      "pq_ids": [
-        "pq-185"
-      ],
-      "pq_numbers": [
-        185
-      ]
-    },
-    {
-      "skill_id": "skill-drain-field",
-      "skill": "Drain Field",
-      "pq_ids": [
-        "pq-095"
-      ],
-      "pq_numbers": [
-        95
-      ]
-    },
-    {
-      "skill_id": "skill-dust-attack",
-      "skill": "Dust Attack",
-      "pq_ids": [
-        "pq-078"
-      ],
-      "pq_numbers": [
-        78
-      ]
-    },
-    {
-      "skill_id": "skill-earth-splitting-galick-gun",
-      "skill": "Earth Splitting Galick Gun",
-      "pq_ids": [
-        "pq-011"
-      ],
-      "pq_numbers": [
-        11
-      ]
-    },
-    {
-      "skill_id": "skill-emperor-s-blast",
-      "skill": "Emperor's Blast",
-      "pq_ids": [
-        "pq-070"
-      ],
-      "pq_numbers": [
-        70
-      ]
-    },
-    {
-      "skill_id": "skill-emperor-s-cannon",
-      "skill": "Emperor's Cannon",
-      "pq_ids": [
-        "pq-183"
-      ],
-      "pq_numbers": [
-        183
-      ]
-    },
-    {
-      "skill_id": "skill-emperor-s-edge",
-      "skill": "Emperor's Edge",
-      "pq_ids": [
-        "pq-099"
-      ],
-      "pq_numbers": [
-        99
-      ]
-    },
-    {
-      "skill_id": "skill-energy-barrier",
-      "skill": "Energy Barrier",
-      "pq_ids": [
-        "pq-032"
-      ],
-      "pq_numbers": [
-        32
-      ]
-    },
-    {
-      "skill_id": "skill-energy-field",
-      "skill": "Energy Field",
-      "pq_ids": [
-        "pq-029"
-      ],
-      "pq_numbers": [
-        29
-      ]
-    },
-    {
-      "skill_id": "skill-energy-shot",
-      "skill": "Energy Shot",
-      "pq_ids": [
-        "pq-022"
-      ],
-      "pq_numbers": [
-        22
-      ]
-    },
-    {
-      "skill_id": "skill-eraser-bomb",
-      "skill": "Eraser Bomb",
-      "pq_ids": [
-        "pq-163"
-      ],
-      "pq_numbers": [
-        163
-      ]
-    },
-    {
-      "skill_id": "skill-evil-blast",
-      "skill": "Evil Blast",
-      "pq_ids": [
-        "pq-114"
-      ],
-      "pq_numbers": [
-        114
-      ]
-    },
-    {
-      "skill_id": "skill-evil-flame",
-      "skill": "Evil Flame",
-      "pq_ids": [
-        "pq-117"
-      ],
-      "pq_numbers": [
-        117
-      ]
-    },
-    {
-      "skill_id": "skill-evil-flight-strike",
-      "skill": "Evil Flight Strike",
-      "pq_ids": [
-        "pq-021"
-      ],
-      "pq_numbers": [
-        21
-      ]
-    },
-    {
-      "skill_id": "skill-evil-whirlwind",
-      "skill": "Evil Whirlwind",
-      "pq_ids": [
-        "pq-036"
-      ],
-      "pq_numbers": [
-        36
-      ]
-    },
-    {
-      "skill_id": "skill-excellent-full-course",
-      "skill": "Excellent Full Course",
-      "pq_ids": [
-        "pq-142"
-      ],
-      "pq_numbers": [
-        142
-      ]
-    },
-    {
-      "skill_id": "skill-explosive-buu-buu-punch",
-      "skill": "Explosive Buu Buu Punch",
-      "pq_ids": [
-        "pq-050"
-      ],
-      "pq_numbers": [
-        50
-      ]
-    },
-    {
-      "skill_id": "skill-fierce-fist",
-      "skill": "Fierce Fist",
-      "pq_ids": [
-        "pq-159"
-      ],
-      "pq_numbers": [
-        159
-      ]
-    },
-    {
-      "skill_id": "skill-fighting-pose-e",
-      "skill": "Fighting Pose E",
-      "pq_ids": [
-        "pq-019"
-      ],
-      "pq_numbers": [
-        19
-      ]
-    },
-    {
-      "skill_id": "skill-fighting-pose-h",
-      "skill": "Fighting Pose H",
-      "pq_ids": [
-        "pq-061"
-      ],
-      "pq_numbers": [
-        61
-      ]
-    },
-    {
-      "skill_id": "skill-final-cannon",
-      "skill": "Final Cannon",
-      "pq_ids": [
-        "pq-052"
-      ],
-      "pq_numbers": [
-        52
-      ]
-    },
-    {
-      "skill_id": "skill-final-flash-ss3-daima",
-      "skill": "Final Flash (SS3 DAIMA)",
-      "pq_ids": [
-        "pq-181"
-      ],
-      "pq_numbers": [
-        181
-      ]
-    },
-    {
-      "skill_id": "skill-final-kamehameha",
-      "skill": "Final Kamehameha",
-      "pq_ids": [
-        "pq-091"
-      ],
-      "pq_numbers": [
-        91
-      ]
-    },
-    {
-      "skill_id": "skill-final-pose",
-      "skill": "Final Pose",
-      "pq_ids": [
-        "pq-074"
-      ],
-      "pq_numbers": [
-        74
-      ]
-    },
-    {
-      "skill_id": "skill-final-rampage",
-      "skill": "Final Rampage",
-      "pq_ids": [
-        "pq-174"
-      ],
-      "pq_numbers": [
-        174
-      ]
-    },
-    {
-      "skill_id": "skill-flash-bomber",
-      "skill": "Flash Bomber",
-      "pq_ids": [
-        "pq-095"
-      ],
-      "pq_numbers": [
-        95
-      ]
-    },
-    {
-      "skill_id": "skill-flash-chaser",
-      "skill": "Flash Chaser",
-      "pq_ids": [
-        "pq-138"
-      ],
-      "pq_numbers": [
-        138
-      ]
-    },
-    {
-      "skill_id": "skill-force-edge",
-      "skill": "Force Edge",
-      "pq_ids": [
-        "pq-180"
-      ],
-      "pq_numbers": [
-        180
-      ]
-    },
-    {
-      "skill_id": "skill-force-shield",
-      "skill": "Force Shield",
-      "pq_ids": [
-        "pq-059"
-      ],
-      "pq_numbers": [
-        59
-      ]
-    },
-    {
-      "skill_id": "skill-formation",
-      "skill": "Formation!",
-      "pq_ids": [
-        "pq-133"
-      ],
-      "pq_numbers": [
-        133
-      ]
-    },
-    {
-      "skill_id": "skill-freedom-kick",
-      "skill": "Freedom Kick",
-      "pq_ids": [
-        "pq-029"
-      ],
-      "pq_numbers": [
-        29
-      ]
-    },
-    {
-      "skill_id": "skill-full-power-destruction",
-      "skill": "Full Power Destruction",
-      "pq_ids": [
-        "pq-177"
-      ],
-      "pq_numbers": [
-        177
-      ]
-    },
-    {
-      "skill_id": "skill-gamma-blaster",
-      "skill": "Gamma Blaster",
-      "pq_ids": [
-        "pq-155"
-      ],
-      "pq_numbers": [
-        155
-      ]
-    },
-    {
-      "skill_id": "skill-gamma-impact",
-      "skill": "Gamma Impact",
-      "pq_ids": [
-        "pq-155"
-      ],
-      "pq_numbers": [
-        155
-      ]
-    },
-    {
-      "skill_id": "skill-giant-cluster",
-      "skill": "Giant Cluster",
-      "pq_ids": [
-        "pq-163"
-      ],
-      "pq_numbers": [
-        163
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-breaker",
-      "skill": "Gigantic Breaker",
-      "pq_ids": [
-        "pq-126"
-      ],
-      "pq_numbers": [
-        126
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-burst",
-      "skill": "Gigantic Burst",
-      "pq_ids": [
-        "pq-127"
-      ],
-      "pq_numbers": [
-        127
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-charge",
-      "skill": "Gigantic Charge",
-      "pq_ids": [
-        "pq-128"
-      ],
-      "pq_numbers": [
-        128
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-explosion",
-      "skill": "Gigantic Explosion",
-      "pq_ids": [
-        "pq-164"
-      ],
-      "pq_numbers": [
-        164
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-rage",
-      "skill": "Gigantic Rage",
-      "pq_ids": [
-        "pq-130"
-      ],
-      "pq_numbers": [
-        130
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-roar",
-      "skill": "Gigantic Roar",
-      "pq_ids": [
-        "pq-132"
-      ],
-      "pq_numbers": [
-        132
-      ]
-    },
-    {
-      "skill_id": "skill-god-breaker",
-      "skill": "God Breaker",
-      "pq_ids": [
-        "pq-044"
-      ],
-      "pq_numbers": [
-        44
-      ]
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-menace",
-      "skill": "God of Destruction's Menace",
-      "pq_ids": [
-        "pq-105"
-      ],
-      "pq_numbers": [
-        105
-      ]
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-plaything",
-      "skill": "God of Destruction's Plaything",
-      "pq_ids": [
-        "pq-175"
-      ],
-      "pq_numbers": [
-        175
-      ]
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-poise",
-      "skill": "God of Destruction's Poise",
-      "pq_ids": [
-        "pq-175"
-      ],
-      "pq_numbers": [
-        175
-      ]
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-roar",
-      "skill": "God of Destruction's Roar",
-      "pq_ids": [
-        "pq-105"
-      ],
-      "pq_numbers": [
-        105
-      ]
-    },
-    {
-      "skill_id": "skill-god-punisher",
-      "skill": "God Punisher",
-      "pq_ids": [
-        "pq-132"
-      ],
-      "pq_numbers": [
-        132
-      ]
-    },
-    {
-      "skill_id": "skill-handy-canon",
-      "skill": "Handy Canon",
-      "pq_ids": [
-        "pq-115"
-      ],
-      "pq_numbers": [
-        115
-      ]
-    },
-    {
-      "skill_id": "skill-headshot",
-      "skill": "Headshot",
-      "pq_ids": [
-        "pq-069"
-      ],
-      "pq_numbers": [
-        69
-      ]
-    },
-    {
-      "skill_id": "skill-heat-dome-attack",
-      "skill": "Heat Dome Attack",
-      "pq_ids": [
-        "pq-040"
-      ],
-      "pq_numbers": [
-        40
-      ]
-    },
-    {
-      "skill_id": "skill-heat-wave",
-      "skill": "Heat Wave",
-      "pq_ids": [
-        "pq-179"
-      ],
-      "pq_numbers": [
-        179
-      ]
-    },
-    {
-      "skill_id": "skill-hero-s-flute",
-      "skill": "Hero's Flute",
-      "pq_ids": [
-        "pq-116"
-      ],
-      "pq_numbers": [
-        116
-      ]
-    },
-    {
-      "skill_id": "skill-heroic-assault",
-      "skill": "Heroic Assault",
-      "pq_ids": [
-        "pq-156"
-      ],
-      "pq_numbers": [
-        156
-      ]
-    },
-    {
-      "skill_id": "skill-heroic-counter",
-      "skill": "Heroic Counter",
-      "pq_ids": [
-        "pq-155"
-      ],
-      "pq_numbers": [
-        155
-      ]
-    },
-    {
-      "skill_id": "skill-holy-wrath",
-      "skill": "Holy Wrath",
-      "pq_ids": [
-        "pq-111"
-      ],
-      "pq_numbers": [
-        111
-      ]
-    },
-    {
-      "skill_id": "skill-hyper-tornado",
-      "skill": "Hyper Tornado",
-      "pq_ids": [
-        "pq-143"
-      ],
-      "pq_numbers": [
-        143
-      ]
-    },
-    {
-      "skill_id": "skill-ill-bomber",
-      "skill": "Ill Bomber",
-      "pq_ids": [
-        "pq-090"
-      ],
-      "pq_numbers": [
-        90
-      ]
-    },
-    {
-      "skill_id": "skill-ill-rain",
-      "skill": "Ill Rain",
-      "pq_ids": [
-        "pq-064"
-      ],
-      "pq_numbers": [
-        64
-      ]
-    },
-    {
-      "skill_id": "skill-impact-flare",
-      "skill": "Impact Flare",
-      "pq_ids": [
-        "pq-150"
-      ],
-      "pq_numbers": [
-        150
-      ]
-    },
-    {
-      "skill_id": "skill-indomitable",
-      "skill": "Indomitable",
-      "pq_ids": [
-        "pq-185"
-      ],
-      "pq_numbers": [
-        185
-      ]
-    },
-    {
-      "skill_id": "skill-instant-rise",
-      "skill": "Instant Rise",
-      "pq_ids": [
-        "pq-037"
-      ],
-      "pq_numbers": [
-        37
-      ]
-    },
-    {
-      "skill_id": "skill-justice-blade",
-      "skill": "Justice Blade",
-      "pq_ids": [
-        "pq-152"
-      ],
-      "pq_numbers": [
-        152
-      ]
-    },
-    {
-      "skill_id": "skill-justice-drive",
-      "skill": "Justice Drive",
-      "pq_ids": [
-        "pq-168"
-      ],
-      "pq_numbers": [
-        168
-      ]
-    },
-    {
-      "skill_id": "skill-justice-kick",
-      "skill": "Justice Kick",
-      "pq_ids": [
-        "pq-152"
-      ],
-      "pq_numbers": [
-        152
-      ]
-    },
-    {
-      "skill_id": "skill-justice-pose",
-      "skill": "Justice Pose",
-      "pq_ids": [
-        "pq-053"
-      ],
-      "pq_numbers": [
-        53
-      ]
-    },
-    {
-      "skill_id": "skill-kai-kai",
-      "skill": "Kai Kai",
-      "pq_ids": [
-        "pq-063"
-      ],
-      "pq_numbers": [
-        63
-      ]
-    },
-    {
-      "skill_id": "skill-kaioken",
-      "skill": "Kaioken",
-      "pq_ids": [
-        "pq-008"
-      ],
-      "pq_numbers": [
-        8
-      ]
-    },
-    {
-      "skill_id": "skill-kamehameha",
-      "skill": "Kamehameha",
-      "pq_ids": [
-        "pq-005",
-        "pq-048"
-      ],
-      "pq_numbers": [
-        5,
-        48
-      ]
-    },
-    {
-      "skill_id": "skill-ki-explosion",
-      "skill": "Ki Explosion",
-      "pq_ids": [
-        "pq-077"
-      ],
-      "pq_numbers": [
-        77
-      ]
-    },
-    {
-      "skill_id": "skill-last-emperor",
-      "skill": "Last Emperor",
-      "pq_ids": [
-        "pq-071"
-      ],
-      "pq_numbers": [
-        71
-      ]
-    },
-    {
-      "skill_id": "skill-lightning-impact",
-      "skill": "Lightning Impact",
-      "pq_ids": [
-        "pq-142"
-      ],
-      "pq_numbers": [
-        142
-      ]
-    },
-    {
-      "skill_id": "skill-lightning-of-absolution",
-      "skill": "Lightning of Absolution",
-      "pq_ids": [
-        "pq-111"
-      ],
-      "pq_numbers": [
-        111
-      ]
-    },
-    {
-      "skill_id": "skill-lovely-cyclone",
-      "skill": "Lovely Cyclone",
-      "pq_ids": [
-        "pq-135"
-      ],
-      "pq_numbers": [
-        135
-      ]
-    },
-    {
-      "skill_id": "skill-mach-dash",
-      "skill": "Mach Dash",
-      "pq_ids": [
-        "pq-018"
-      ],
-      "pq_numbers": [
-        18
-      ]
-    },
-    {
-      "skill_id": "skill-mach-punch",
-      "skill": "Mach Punch",
-      "pq_ids": [
-        "pq-019"
-      ],
-      "pq_numbers": [
-        19
-      ]
-    },
-    {
-      "skill_id": "skill-maiden-burst",
-      "skill": "Maiden Burst",
-      "pq_ids": [
-        "pq-092"
-      ],
-      "pq_numbers": [
-        92
-      ]
-    },
-    {
-      "skill_id": "skill-majin-kamehameha",
-      "skill": "Majin Kamehameha",
-      "pq_ids": [
-        "pq-060"
-      ],
-      "pq_numbers": [
-        60
-      ]
-    },
-    {
-      "skill_id": "skill-meditation",
-      "skill": "Meditation",
-      "pq_ids": [
-        "pq-122"
-      ],
-      "pq_numbers": [
-        122
-      ]
-    },
-    {
-      "skill_id": "skill-meteor-blow",
-      "skill": "Meteor Blow",
-      "pq_ids": [
-        "pq-009"
-      ],
-      "pq_numbers": [
-        9
-      ]
-    },
-    {
-      "skill_id": "skill-meteor-explosion",
-      "skill": "Meteor Explosion",
-      "pq_ids": [
-        "pq-149"
-      ],
-      "pq_numbers": [
-        149
-      ]
-    },
-    {
-      "skill_id": "skill-meteor-strike",
-      "skill": "Meteor Strike",
-      "pq_ids": [
-        "pq-006"
-      ],
-      "pq_numbers": [
-        6
-      ]
-    },
-    {
-      "skill_id": "skill-mighty-explosive-wave",
-      "skill": "Mighty Explosive Wave",
-      "pq_ids": [
-        "pq-079"
-      ],
-      "pq_numbers": [
-        79
-      ]
-    },
-    {
-      "skill_id": "skill-mystic-flash",
-      "skill": "Mystic Flash",
-      "pq_ids": [
-        "pq-020"
-      ],
-      "pq_numbers": [
-        20
-      ]
-    },
-    {
-      "skill_id": "skill-neo-wolf-fang-fist",
-      "skill": "Neo Wolf Fang Fist",
-      "pq_ids": [
-        "pq-086"
-      ],
-      "pq_numbers": [
-        86
-      ]
-    },
-    {
-      "skill_id": "skill-paralysis",
-      "skill": "Paralysis",
-      "pq_ids": [
-        "pq-034"
-      ],
-      "pq_numbers": [
-        34
-      ]
-    },
-    {
-      "skill_id": "skill-paralyze-beam",
-      "skill": "Paralyze Beam",
-      "pq_ids": [
-        "pq-004"
-      ],
-      "pq_numbers": [
-        4
-      ]
-    },
-    {
-      "skill_id": "skill-pendulum-bullet",
-      "skill": "Pendulum Bullet",
-      "pq_ids": [
-        "pq-166"
-      ],
-      "pq_numbers": [
-        166
-      ]
-    },
-    {
-      "skill_id": "skill-petrifying-spit",
-      "skill": "Petrifying Spit",
-      "pq_ids": [
-        "pq-114"
-      ],
-      "pq_numbers": [
-        114
-      ]
-    },
-    {
-      "skill_id": "skill-phantom-fist",
-      "skill": "Phantom Fist",
-      "pq_ids": [
-        "pq-097"
-      ],
-      "pq_numbers": [
-        97
-      ]
-    },
-    {
-      "skill_id": "skill-photon-swipe",
-      "skill": "Photon Swipe",
-      "pq_ids": [
-        "pq-139"
-      ],
-      "pq_numbers": [
-        139
-      ]
-    },
-    {
-      "skill_id": "skill-power-impact",
-      "skill": "Power Impact",
-      "pq_ids": [
-        "pq-120"
-      ],
-      "pq_numbers": [
-        120
-      ]
-    },
-    {
-      "skill_id": "skill-power-rush",
-      "skill": "Power Rush",
-      "pq_ids": [
-        "pq-122"
-      ],
-      "pq_numbers": [
-        122
-      ]
-    },
-    {
-      "skill_id": "skill-power-wall",
-      "skill": "Power Wall",
-      "pq_ids": [
-        "pq-150"
-      ],
-      "pq_numbers": [
-        150
-      ]
-    },
-    {
-      "skill_id": "skill-powered-shell",
-      "skill": "Powered Shell",
-      "pq_ids": [
-        "pq-128"
-      ],
-      "pq_numbers": [
-        128
-      ]
-    },
-    {
-      "skill_id": "skill-pretty-cannon",
-      "skill": "Pretty Cannon",
-      "pq_ids": [
-        "pq-133"
-      ],
-      "pq_numbers": [
-        133
-      ]
-    },
-    {
-      "skill_id": "skill-prominence-flash",
-      "skill": "Prominence Flash",
-      "pq_ids": [
-        "pq-137"
-      ],
-      "pq_numbers": [
-        137
-      ]
-    },
-    {
-      "skill_id": "skill-psychic-move",
-      "skill": "Psychic Move",
-      "pq_ids": [
-        "pq-073"
-      ],
-      "pq_numbers": [
-        73
-      ]
-    },
-    {
-      "skill_id": "skill-punisher-shield",
-      "skill": "Punisher Shield",
-      "pq_ids": [
-        "pq-129"
-      ],
-      "pq_numbers": [
-        129
-      ]
-    },
-    {
-      "skill_id": "skill-raid-blast",
-      "skill": "Raid Blast",
-      "pq_ids": [
-        "pq-136"
-      ],
-      "pq_numbers": [
-        136
-      ]
-    },
-    {
-      "skill_id": "skill-rakshasa-s-claw",
-      "skill": "Rakshasa's Claw",
-      "pq_ids": [
-        "pq-057"
-      ],
-      "pq_numbers": [
-        57
-      ]
-    },
-    {
-      "skill_id": "skill-ray-blast",
-      "skill": "Ray Blast",
-      "pq_ids": [
-        "pq-125"
-      ],
-      "pq_numbers": [
-        125
-      ]
-    },
-    {
-      "skill_id": "skill-recoome-kick",
-      "skill": "Recoome Kick",
-      "pq_ids": [
-        "pq-061"
-      ],
-      "pq_numbers": [
-        61
-      ]
-    },
-    {
-      "skill_id": "skill-requiem-of-destruction",
-      "skill": "Requiem of Destruction",
-      "pq_ids": [
-        "pq-106"
-      ],
-      "pq_numbers": [
-        106
-      ]
-    },
-    {
-      "skill_id": "skill-revenge-death-ball",
-      "skill": "Revenge Death Ball",
-      "pq_ids": [
-        "pq-127"
-      ],
-      "pq_numbers": [
-        127
-      ]
-    },
-    {
-      "skill_id": "skill-revenge-final-flash",
-      "skill": "Revenge Final Flash",
-      "pq_ids": [
-        "pq-124"
-      ],
-      "pq_numbers": [
-        124
-      ]
-    },
-    {
-      "skill_id": "skill-reverse-shot",
-      "skill": "Reverse Shot",
-      "pq_ids": [
-        "pq-123"
-      ],
-      "pq_numbers": [
-        123
-      ]
-    },
-    {
-      "skill_id": "skill-ribrianne-s-eternal-love",
-      "skill": "Ribrianne's Eternal Love",
-      "pq_ids": [
-        "pq-137"
-      ],
-      "pq_numbers": [
-        137
-      ]
-    },
-    {
-      "skill_id": "skill-rolling-bullet",
-      "skill": "Rolling Bullet",
-      "pq_ids": [
-        "pq-042"
-      ],
-      "pq_numbers": [
-        42
-      ]
-    },
-    {
-      "skill_id": "skill-rough-ranger",
-      "skill": "Rough Ranger",
-      "pq_ids": [
-        "pq-119"
-      ],
-      "pq_numbers": [
-        119
-      ]
-    },
-    {
-      "skill_id": "skill-s-s-deadly-bomber",
-      "skill": "S.S. Deadly Bomber",
-      "pq_ids": [
-        "pq-115"
-      ],
-      "pq_numbers": [
-        115
-      ]
-    },
-    {
-      "skill_id": "skill-saiyan-spirit",
-      "skill": "Saiyan Spirit",
-      "pq_ids": [
-        "pq-084"
-      ],
-      "pq_numbers": [
-        84
-      ]
-    },
-    {
-      "skill_id": "skill-sauzer-blade",
-      "skill": "Sauzer Blade",
-      "pq_ids": [
-        "pq-027"
-      ],
-      "pq_numbers": [
-        27
-      ]
-    },
-    {
-      "skill_id": "skill-savory-slicer",
-      "skill": "Savory Slicer",
-      "pq_ids": [
-        "pq-140"
-      ],
-      "pq_numbers": [
-        140
-      ]
-    },
-    {
-      "skill_id": "skill-scissors-paper-rock",
-      "skill": "Scissors Paper Rock",
-      "pq_ids": [
-        "pq-065"
-      ],
-      "pq_numbers": [
-        65
-      ]
-    },
-    {
-      "skill_id": "skill-seagull-combination",
-      "skill": "Seagull Combination",
-      "pq_ids": [
-        "pq-167"
-      ],
-      "pq_numbers": [
-        167
-      ]
-    },
-    {
-      "skill_id": "skill-shield-barrier",
-      "skill": "Shield Barrier",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
-    },
-    {
-      "skill_id": "skill-shine-shot",
-      "skill": "Shine Shot",
-      "pq_ids": [
-        "pq-007"
-      ],
-      "pq_numbers": [
-        7
-      ]
-    },
-    {
-      "skill_id": "skill-shining-slash",
-      "skill": "Shining Slash",
-      "pq_ids": [
-        "pq-038"
-      ],
-      "pq_numbers": [
-        38
-      ]
-    },
-    {
-      "skill_id": "skill-shooting-strike",
-      "skill": "Shooting Strike",
-      "pq_ids": [
-        "pq-156"
-      ],
-      "pq_numbers": [
-        156
-      ]
-    },
-    {
-      "skill_id": "skill-side-bridge",
-      "skill": "Side Bridge",
-      "pq_ids": [
-        "pq-039"
-      ],
-      "pq_numbers": [
-        39
-      ]
-    },
-    {
-      "skill_id": "skill-sign-of-awakening",
-      "skill": "Sign of Awakening",
-      "pq_ids": [
-        "pq-154"
-      ],
-      "pq_numbers": [
-        154
-      ]
-    },
-    {
-      "skill_id": "skill-soaring-rush",
-      "skill": "Soaring Rush",
-      "pq_ids": [
-        "pq-177"
-      ],
-      "pq_numbers": [
-        177
-      ]
-    },
-    {
-      "skill_id": "skill-solar-flare",
-      "skill": "Solar Flare",
-      "pq_ids": [
-        "pq-003"
-      ],
-      "pq_numbers": [
-        3
-      ]
-    },
-    {
-      "skill_id": "skill-sonic-bomb",
-      "skill": "Sonic Bomb",
-      "pq_ids": [
-        "pq-105"
-      ],
-      "pq_numbers": [
-        105
-      ]
-    },
-    {
-      "skill_id": "skill-special-beam-cannon-beast",
-      "skill": "Special Beam Cannon (Beast)",
-      "pq_ids": [
-        "pq-162"
-      ],
-      "pq_numbers": [
-        162
-      ]
-    },
-    {
-      "skill_id": "skill-spirit-blaster",
-      "skill": "Spirit Blaster",
-      "pq_ids": [
-        "pq-129"
-      ],
-      "pq_numbers": [
-        129
-      ]
-    },
-    {
-      "skill_id": "skill-spirit-explosion",
-      "skill": "Spirit Explosion",
-      "pq_ids": [
-        "pq-025"
-      ],
-      "pq_numbers": [
-        25
-      ]
-    },
-    {
-      "skill_id": "skill-spirit-pulse",
-      "skill": "Spirit Pulse",
-      "pq_ids": [
-        "pq-151"
-      ],
-      "pq_numbers": [
-        151
-      ]
-    },
-    {
-      "skill_id": "skill-spirit-slash",
-      "skill": "Spirit Slash",
-      "pq_ids": [
-        "pq-002"
-      ],
-      "pq_numbers": [
-        2
-      ]
-    },
-    {
-      "skill_id": "skill-spread-shot-retreat",
-      "skill": "Spread Shot Retreat",
-      "pq_ids": [
-        "pq-028"
-      ],
-      "pq_numbers": [
-        28
-      ]
-    },
-    {
-      "skill_id": "skill-steel-mirage",
-      "skill": "Steel Mirage",
-      "pq_ids": [
-        "pq-165"
-      ],
-      "pq_numbers": [
-        165
-      ]
-    },
-    {
-      "skill_id": "skill-stone-bullet",
-      "skill": "Stone Bullet",
-      "pq_ids": [
-        "pq-056"
-      ],
-      "pq_numbers": [
-        56
-      ]
-    },
-    {
-      "skill_id": "skill-super-black-kamehameha-rose",
-      "skill": "Super Black Kamehameha Rosé",
-      "pq_ids": [
-        "pq-109"
-      ],
-      "pq_numbers": [
-        109
-      ]
-    },
-    {
-      "skill_id": "skill-super-donut-volley",
-      "skill": "Super Donut Volley",
-      "pq_ids": [
-        "pq-055"
-      ],
-      "pq_numbers": [
-        55
-      ]
-    },
-    {
-      "skill_id": "skill-super-dragon-flight",
-      "skill": "Super Dragon Flight",
-      "pq_ids": [
-        "pq-031"
-      ],
-      "pq_numbers": [
-        31
-      ]
-    },
-    {
-      "skill_id": "skill-super-gamma-blast",
-      "skill": "Super Gamma Blast",
-      "pq_ids": [
-        "pq-158"
-      ],
-      "pq_numbers": [
-        158
-      ]
-    },
-    {
-      "skill_id": "skill-super-ghost-buu-attack",
-      "skill": "Super Ghost Buu Attack",
-      "pq_ids": [
-        "pq-113"
-      ],
-      "pq_numbers": [
-        113
-      ]
-    },
-    {
-      "skill_id": "skill-super-god-fist",
-      "skill": "Super God Fist",
-      "pq_ids": [
-        "pq-067"
-      ],
-      "pq_numbers": [
-        67
-      ]
-    },
-    {
-      "skill_id": "skill-super-kamehameha-ss4-daima",
-      "skill": "Super Kamehameha (SS4 DAIMA)",
-      "pq_ids": [
-        "pq-181"
-      ],
-      "pq_numbers": [
-        181
-      ]
-    },
-    {
-      "skill_id": "skill-supreme-fury",
-      "skill": "Supreme Fury",
-      "pq_ids": [
-        "pq-179"
-      ],
-      "pq_numbers": [
-        179
-      ]
-    },
-    {
-      "skill_id": "skill-taunt",
-      "skill": "Taunt",
-      "pq_ids": [
-        "pq-045"
-      ],
-      "pq_numbers": [
-        45
-      ]
-    },
-    {
-      "skill_id": "skill-teleporting-vanishing-ball",
-      "skill": "Teleporting Vanishing Ball",
-      "pq_ids": [
-        "pq-062"
-      ],
-      "pq_numbers": [
-        62
-      ]
-    },
-    {
-      "skill_id": "skill-thunder-flash",
-      "skill": "Thunder Flash",
-      "pq_ids": [
-        "pq-146"
-      ],
-      "pq_numbers": [
-        146
-      ]
     },
     {
+      "pq_id": "pq-011",
+      "pq_number": 11,
       "skill_id": "skill-time-control",
       "skill": "Time Control",
-      "pq_ids": [
-        "pq-018"
-      ],
-      "pq_numbers": [
-        18
-      ]
+      "canonical_skill": "Time Control",
+      "match": "exact"
     },
     {
-      "skill_id": "skill-total-detonation-ball",
-      "skill": "Total Detonation Ball",
-      "pq_ids": [
-        "pq-139"
-      ],
-      "pq_numbers": [
-        139
-      ]
-    },
-    {
-      "skill_id": "skill-ultimate-charge",
-      "skill": "Ultimate Charge",
-      "pq_ids": [
-        "pq-134"
-      ],
-      "pq_numbers": [
-        134
-      ]
-    },
-    {
-      "skill_id": "skill-ultrasonic-blitz",
-      "skill": "Ultrasonic Blitz",
-      "pq_ids": [
-        "pq-151"
-      ],
-      "pq_numbers": [
-        151
-      ]
-    },
-    {
-      "skill_id": "skill-unrelenting-barrage",
-      "skill": "Unrelenting Barrage",
-      "pq_ids": [
-        "pq-010"
-      ],
-      "pq_numbers": [
-        10
-      ]
-    },
-    {
-      "skill_id": "skill-vanishing-ball",
-      "skill": "Vanishing Ball",
-      "pq_ids": [
-        "pq-058"
-      ],
-      "pq_numbers": [
-        58
-      ]
-    },
-    {
-      "skill_id": "skill-variable-snipe-shot",
-      "skill": "Variable Snipe Shot",
-      "pq_ids": [
-        "pq-165"
-      ],
-      "pq_numbers": [
-        165
-      ]
-    },
-    {
-      "skill_id": "skill-variant-drive",
-      "skill": "Variant Drive",
-      "pq_ids": [
-        "pq-123"
-      ],
-      "pq_numbers": [
-        123
-      ]
-    },
-    {
-      "skill_id": "skill-venus-fist",
-      "skill": "Venus Fist",
-      "pq_ids": [
-        "pq-186"
-      ],
-      "pq_numbers": [
-        186
-      ]
-    },
-    {
-      "skill_id": "skill-victory-cannon",
-      "skill": "Victory Cannon",
-      "pq_ids": [
-        "pq-054"
-      ],
-      "pq_numbers": [
-        54
-      ]
-    },
-    {
-      "skill_id": "skill-victory-rush",
-      "skill": "Victory Rush",
-      "pq_ids": [
-        "pq-089"
-      ],
-      "pq_numbers": [
-        89
-      ]
-    },
-    {
-      "skill_id": "skill-wall-of-defense",
-      "skill": "Wall of Defense",
-      "pq_ids": [
-        "pq-010"
-      ],
-      "pq_numbers": [
-        10
-      ]
-    },
-    {
-      "skill_id": "skill-warp-kamehameha",
-      "skill": "Warp Kamehameha",
-      "pq_ids": [
-        "pq-076"
-      ],
-      "pq_numbers": [
-        76
-      ]
-    },
-    {
-      "skill_id": "skill-wild-buster",
-      "skill": "Wild Buster",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
-    },
-    {
-      "skill_id": "skill-wild-stinger",
-      "skill": "Wild Stinger",
-      "pq_ids": [
-        "pq-172"
-      ],
-      "pq_numbers": [
-        172
-      ]
-    },
-    {
-      "skill_id": "skill-x-100-big-bang-kamehameha",
-      "skill": "X 100 Big Bang Kamehameha",
-      "pq_ids": [
-        "pq-100"
-      ],
-      "pq_numbers": [
-        100
-      ]
-    },
-    {
-      "skill_id": "skill-zigzag-express",
-      "skill": "Zigzag Express",
-      "pq_ids": [
-        "pq-085"
-      ],
-      "pq_numbers": [
-        85
-      ]
-    }
-  ],
-  "source_route_audit": [],
-  "reverse_endpoints": [
-    {
-      "skill_id": "skill-absolute-zero",
-      "skill": "Absolute Zero",
-      "pq_ids": [
-        "pq-096"
-      ],
-      "pq_numbers": [
-        96
-      ]
-    },
-    {
-      "skill_id": "skill-afterimage-strike",
-      "skill": "Afterimage Strike",
-      "pq_ids": [
-        "pq-081"
-      ],
-      "pq_numbers": [
-        81
-      ]
-    },
-    {
-      "skill_id": "skill-angry-shout",
-      "skill": "Angry Shout",
-      "pq_ids": [
-        "pq-068"
-      ],
-      "pq_numbers": [
-        68
-      ]
-    },
-    {
-      "skill_id": "skill-apocalyptic-burst",
-      "skill": "Apocalyptic Burst",
-      "pq_ids": [
-        "pq-161"
-      ],
-      "pq_numbers": [
-        161
-      ]
-    },
-    {
-      "skill_id": "skill-assault-vanish",
-      "skill": "Assault Vanish",
-      "pq_ids": [
-        "pq-131"
-      ],
-      "pq_numbers": [
-        131
-      ]
-    },
-    {
-      "skill_id": "skill-atomic-blast",
-      "skill": "Atomic Blast",
-      "pq_ids": [
-        "pq-087"
-      ],
-      "pq_numbers": [
-        87
-      ]
-    },
-    {
-      "skill_id": "skill-big-bang-knuckle",
-      "skill": "Big Bang Knuckle",
-      "pq_ids": [
-        "pq-172"
-      ],
-      "pq_numbers": [
-        172
-      ]
-    },
-    {
-      "skill_id": "skill-blades-of-judgment",
-      "skill": "Blades of Judgment",
-      "pq_ids": [
-        "pq-112"
-      ],
-      "pq_numbers": [
-        112
-      ]
-    },
-    {
-      "skill_id": "skill-blaster-ball",
-      "skill": "Blaster Ball",
-      "pq_ids": [
-        "pq-125"
-      ],
-      "pq_numbers": [
-        125
-      ]
-    },
-    {
-      "skill_id": "skill-blaster-bomb",
-      "skill": "Blaster Bomb",
-      "pq_ids": [
-        "pq-148"
-      ],
-      "pq_numbers": [
-        148
-      ]
-    },
-    {
-      "skill_id": "skill-blaster-cannon",
-      "skill": "Blaster Cannon",
-      "pq_ids": [
-        "pq-148"
-      ],
-      "pq_numbers": [
-        148
-      ]
-    },
-    {
-      "skill_id": "skill-blaster-stream",
-      "skill": "Blaster Stream",
-      "pq_ids": [
-        "pq-148"
-      ],
-      "pq_numbers": [
-        148
-      ]
-    },
-    {
-      "skill_id": "skill-blazing-attack",
-      "skill": "Blazing Attack",
-      "pq_ids": [
-        "pq-136"
-      ],
-      "pq_numbers": [
-        136
-      ]
-    },
-    {
-      "skill_id": "skill-bluff-kamehameha",
-      "skill": "Bluff Kamehameha",
-      "pq_ids": [
-        "pq-094"
-      ],
-      "pq_numbers": [
-        94
-      ]
-    },
-    {
-      "skill_id": "skill-brave-sword-attack",
-      "skill": "Brave Sword Attack",
-      "pq_ids": [
-        "pq-117"
-      ],
-      "pq_numbers": [
-        117
-      ]
-    },
-    {
-      "skill_id": "skill-brave-sword-slash",
-      "skill": "Brave Sword Slash",
-      "pq_ids": [
-        "pq-116"
-      ],
-      "pq_numbers": [
-        116
-      ]
-    },
-    {
-      "skill_id": "skill-breaker-energy-wave",
-      "skill": "Breaker Energy Wave",
-      "pq_ids": [
-        "pq-101"
-      ],
-      "pq_numbers": [
-        101
-      ]
-    },
-    {
-      "skill_id": "skill-brutal-buster",
-      "skill": "Brutal Buster",
-      "pq_ids": [
-        "pq-141"
-      ],
-      "pq_numbers": [
-        141
-      ]
-    },
-    {
-      "skill_id": "skill-burning-attack",
-      "skill": "Burning Attack",
-      "pq_ids": [
-        "pq-041"
-      ],
-      "pq_numbers": [
-        41
-      ]
-    },
-    {
-      "skill_id": "skill-burning-blast",
-      "skill": "Burning Blast",
-      "pq_ids": [
-        "pq-180"
-      ],
-      "pq_numbers": [
-        180
-      ]
-    },
-    {
-      "skill_id": "skill-burning-shot",
-      "skill": "Burning Shot",
-      "pq_ids": [
-        "pq-143"
-      ],
-      "pq_numbers": [
-        143
-      ]
-    },
-    {
-      "skill_id": "skill-burning-slash",
-      "skill": "Burning Slash",
-      "pq_ids": [
-        "pq-044"
-      ],
-      "pq_numbers": [
-        44
-      ]
-    },
-    {
-      "skill_id": "skill-burning-swan",
-      "skill": "Burning Swan",
-      "pq_ids": [
-        "pq-167"
-      ],
-      "pq_numbers": [
-        167
-      ]
-    },
-    {
-      "skill_id": "skill-burst-blitz",
-      "skill": "Burst Blitz",
-      "pq_ids": [
-        "pq-178"
-      ],
-      "pq_numbers": [
-        178
-      ]
-    },
-    {
-      "skill_id": "skill-burst-charge",
-      "skill": "Burst Charge",
-      "pq_ids": [
-        "pq-134"
-      ],
-      "pq_numbers": [
-        134
-      ]
-    },
-    {
-      "skill_id": "skill-burst-kamehameha",
-      "skill": "Burst Kamehameha",
-      "pq_ids": [
-        "pq-072"
-      ],
-      "pq_numbers": [
-        72
-      ]
-    },
-    {
-      "skill_id": "skill-burst-rush",
-      "skill": "Burst Rush",
-      "pq_ids": [
-        "pq-051"
-      ],
-      "pq_numbers": [
-        51
-      ]
-    },
-    {
-      "skill_id": "skill-burst-stinger",
-      "skill": "Burst Stinger",
-      "pq_ids": [
-        "pq-136"
-      ],
-      "pq_numbers": [
-        136
-      ]
-    },
-    {
-      "skill_id": "skill-buu-buu-ball",
-      "skill": "Buu Buu Ball",
-      "pq_ids": [
-        "pq-088"
-      ],
-      "pq_numbers": [
-        88
-      ]
-    },
-    {
-      "skill_id": "skill-candy-beam",
-      "skill": "Candy Beam",
-      "pq_ids": [
-        "pq-066"
-      ],
-      "pq_numbers": [
-        66
-      ]
-    },
-    {
-      "skill_id": "skill-candy-beam-super",
-      "skill": "Candy Beam (Super)",
-      "pq_ids": [
-        "pq-113"
-      ],
-      "pq_numbers": [
-        113
-      ]
-    },
-    {
-      "skill_id": "skill-celestial-wave",
-      "skill": "Celestial Wave",
-      "pq_ids": [
-        "pq-151"
-      ],
-      "pq_numbers": [
-        151
-      ]
-    },
-    {
-      "skill_id": "skill-chain-destructo-disc-barrage",
-      "skill": "Chain Destructo-Disc Barrage",
-      "pq_ids": [
-        "pq-046"
-      ],
-      "pq_numbers": [
-        46
-      ]
-    },
-    {
-      "skill_id": "skill-change-the-future",
-      "skill": "Change The Future",
-      "pq_ids": [
-        "pq-043"
-      ],
-      "pq_numbers": [
-        43
-      ]
-    },
-    {
-      "skill_id": "skill-chaotic-time-impact",
-      "skill": "Chaotic Time Impact",
-      "pq_ids": [
-        "pq-184"
-      ],
-      "pq_numbers": [
-        184
-      ]
-    },
-    {
-      "skill_id": "skill-charge",
-      "skill": "Charge",
-      "pq_ids": [
-        "pq-083"
-      ],
-      "pq_numbers": [
-        83
-      ]
-    },
-    {
-      "skill_id": "skill-charged-ki-wave",
-      "skill": "Charged Ki Wave",
-      "pq_ids": [
-        "pq-097"
-      ],
-      "pq_numbers": [
-        97
-      ]
-    },
-    {
-      "skill_id": "skill-circle-flash",
-      "skill": "Circle Flash",
-      "pq_ids": [
-        "pq-154"
-      ],
-      "pq_numbers": [
-        154
-      ]
-    },
-    {
-      "skill_id": "skill-comet-strike",
-      "skill": "Comet Strike",
-      "pq_ids": [
-        "pq-149"
-      ],
-      "pq_numbers": [
-        149
-      ]
-    },
-    {
-      "skill_id": "skill-core-breaker",
-      "skill": "Core Breaker",
-      "pq_ids": [
-        "pq-158"
-      ],
-      "pq_numbers": [
-        158
-      ]
-    },
-    {
-      "skill_id": "skill-counter-burst",
-      "skill": "Counter Burst",
-      "pq_ids": [
-        "pq-075"
-      ],
-      "pq_numbers": [
-        75
-      ]
-    },
-    {
-      "skill_id": "skill-counter-impact",
-      "skill": "Counter Impact",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
-    },
-    {
-      "skill_id": "skill-crazy-finger-shot",
-      "skill": "Crazy Finger Shot",
-      "pq_ids": [
-        "pq-026"
-      ],
-      "pq_numbers": [
-        26
-      ]
-    },
-    {
-      "skill_id": "skill-crimson-edge",
-      "skill": "Crimson Edge",
-      "pq_ids": [
-        "pq-171"
-      ],
-      "pq_numbers": [
-        171
-      ]
-    },
-    {
-      "skill_id": "skill-crush-cannon",
-      "skill": "Crush Cannon",
-      "pq_ids": [
-        "pq-147"
-      ],
-      "pq_numbers": [
-        147
-      ]
-    },
-    {
-      "skill_id": "skill-crush-stream",
-      "skill": "Crush Stream",
-      "pq_ids": [
-        "pq-147"
-      ],
-      "pq_numbers": [
-        147
-      ]
-    },
-    {
-      "skill_id": "skill-crusher-ball",
-      "skill": "Crusher Ball",
-      "pq_ids": [
-        "pq-034"
-      ],
-      "pq_numbers": [
-        34
-      ]
-    },
-    {
-      "skill_id": "skill-dark-inscription",
-      "skill": "Dark Inscription",
-      "pq_ids": [
-        "pq-182"
-      ],
-      "pq_numbers": [
-        182
-      ]
-    },
-    {
-      "skill_id": "skill-death-psycho-bomb",
-      "skill": "Death Psycho Bomb",
-      "pq_ids": [
-        "pq-033"
-      ],
-      "pq_numbers": [
-        33
-      ]
-    },
-    {
-      "skill_id": "skill-death-slash",
-      "skill": "Death Slash",
-      "pq_ids": [
-        "pq-023"
-      ],
-      "pq_numbers": [
-        23
-      ]
-    },
-    {
-      "skill_id": "skill-demon-flash-strike",
-      "skill": "Demon Flash Strike",
-      "pq_ids": [
-        "pq-160"
-      ],
-      "pq_numbers": [
-        160
-      ]
-    },
-    {
-      "skill_id": "skill-demon-flurry",
-      "skill": "Demon Flurry",
-      "pq_ids": [
-        "pq-160"
-      ],
-      "pq_numbers": [
-        160
-      ]
-    },
-    {
-      "skill_id": "skill-demon-ray",
-      "skill": "Demon Ray",
-      "pq_ids": [
-        "pq-160"
-      ],
-      "pq_numbers": [
-        160
-      ]
-    },
-    {
-      "skill_id": "skill-demonic-destruction",
-      "skill": "Demonic Destruction",
-      "pq_ids": [
-        "pq-159"
-      ],
-      "pq_numbers": [
-        159
-      ]
-    },
-    {
-      "skill_id": "skill-destruction-s-concerto-comet",
-      "skill": "Destruction's Concerto: Comet",
-      "pq_ids": [
-        "pq-104"
-      ],
-      "pq_numbers": [
-        104
-      ]
-    },
-    {
-      "skill_id": "skill-destruction-s-concerto-meteor",
-      "skill": "Destruction's Concerto: Meteor",
-      "pq_ids": [
-        "pq-106"
-      ],
-      "pq_numbers": [
-        106
-      ]
-    },
-    {
-      "skill_id": "skill-destruction-s-concerto-starfall",
-      "skill": "Destruction's Concerto: Starfall",
-      "pq_ids": [
-        "pq-104"
-      ],
-      "pq_numbers": [
-        104
-      ]
-    },
-    {
-      "skill_id": "skill-destruction-s-conductor",
-      "skill": "Destruction's Conductor",
-      "pq_ids": [
-        "pq-106"
-      ],
-      "pq_numbers": [
-        106
-      ]
-    },
-    {
-      "skill_id": "skill-destructive-fission",
-      "skill": "Destructive Fission",
-      "pq_ids": [
-        "pq-146"
-      ],
-      "pq_numbers": [
-        146
-      ]
-    },
-    {
-      "skill_id": "skill-destructive-flare",
-      "skill": "Destructive Flare",
-      "pq_ids": [
-        "pq-145"
-      ],
-      "pq_numbers": [
-        145
-      ]
-    },
-    {
-      "skill_id": "skill-destructive-fracture",
-      "skill": "Destructive Fracture",
-      "pq_ids": [
-        "pq-145"
-      ],
-      "pq_numbers": [
-        145
-      ]
-    },
-    {
-      "skill_id": "skill-dimension-cannon",
-      "skill": "Dimension Cannon",
-      "pq_ids": [
-        "pq-059"
-      ],
-      "pq_numbers": [
-        59
-      ]
-    },
-    {
-      "skill_id": "skill-dimension-ray",
-      "skill": "Dimension Ray",
-      "pq_ids": [
-        "pq-098"
-      ],
-      "pq_numbers": [
-        98
-      ]
-    },
-    {
-      "skill_id": "skill-dimensional-hole",
-      "skill": "Dimensional Hole",
-      "pq_ids": [
-        "pq-080"
-      ],
-      "pq_numbers": [
-        80
-      ]
-    },
-    {
-      "skill_id": "skill-divine-ray-bomb",
-      "skill": "Divine Ray Bomb",
-      "pq_ids": [
-        "pq-173"
-      ],
-      "pq_numbers": [
-        173
-      ]
-    },
-    {
-      "skill_id": "skill-divine-spear",
-      "skill": "Divine Spear",
-      "pq_ids": [
-        "pq-171"
-      ],
-      "pq_numbers": [
-        171
-      ]
-    },
-    {
-      "skill_id": "skill-divine-wrath-purification",
-      "skill": "Divine Wrath: Purification",
-      "pq_ids": [
-        "pq-112"
-      ],
-      "pq_numbers": [
-        112
-      ]
-    },
-    {
-      "skill_id": "skill-divinity-unleashed",
-      "skill": "Divinity Unleashed",
-      "pq_ids": [
-        "pq-110"
-      ],
-      "pq_numbers": [
-        110
-      ]
-    },
-    {
-      "skill_id": "skill-do-or-die",
-      "skill": "Do or Die",
-      "pq_ids": [
-        "pq-049"
-      ],
-      "pq_numbers": [
-        49
-      ]
-    },
-    {
-      "skill_id": "skill-double-crush",
-      "skill": "Double Crush",
-      "pq_ids": [
-        "pq-147"
-      ],
-      "pq_numbers": [
-        147
-      ]
-    },
-    {
-      "skill_id": "skill-double-death-slicer",
-      "skill": "Double Death Slicer",
-      "pq_ids": [
-        "pq-024"
-      ],
-      "pq_numbers": [
-        24
-      ]
-    },
-    {
-      "skill_id": "skill-dragon-blitz",
-      "skill": "Dragon Blitz",
-      "pq_ids": [
-        "pq-141"
-      ],
-      "pq_numbers": [
-        141
-      ]
-    },
-    {
-      "skill_id": "skill-dragon-burn",
-      "skill": "Dragon Burn",
-      "pq_ids": [
-        "pq-082"
-      ],
-      "pq_numbers": [
-        82
-      ]
-    },
-    {
-      "skill_id": "skill-dragon-spark",
-      "skill": "Dragon Spark",
-      "pq_ids": [
-        "pq-177"
-      ],
-      "pq_numbers": [
-        177
-      ]
-    },
-    {
-      "skill_id": "skill-dragon-spiral",
-      "skill": "Dragon Spiral",
-      "pq_ids": [
-        "pq-185"
-      ],
-      "pq_numbers": [
-        185
-      ]
-    },
-    {
-      "skill_id": "skill-drain-field",
-      "skill": "Drain Field",
-      "pq_ids": [
-        "pq-095"
-      ],
-      "pq_numbers": [
-        95
-      ]
-    },
-    {
-      "skill_id": "skill-dust-attack",
-      "skill": "Dust Attack",
-      "pq_ids": [
-        "pq-078"
-      ],
-      "pq_numbers": [
-        78
-      ]
-    },
-    {
-      "skill_id": "skill-earth-splitting-galick-gun",
-      "skill": "Earth Splitting Galick Gun",
-      "pq_ids": [
-        "pq-011"
-      ],
-      "pq_numbers": [
-        11
-      ]
-    },
-    {
-      "skill_id": "skill-emperor-s-blast",
-      "skill": "Emperor's Blast",
-      "pq_ids": [
-        "pq-070"
-      ],
-      "pq_numbers": [
-        70
-      ]
-    },
-    {
-      "skill_id": "skill-emperor-s-cannon",
-      "skill": "Emperor's Cannon",
-      "pq_ids": [
-        "pq-183"
-      ],
-      "pq_numbers": [
-        183
-      ]
-    },
-    {
-      "skill_id": "skill-emperor-s-edge",
-      "skill": "Emperor's Edge",
-      "pq_ids": [
-        "pq-099"
-      ],
-      "pq_numbers": [
-        99
-      ]
-    },
-    {
-      "skill_id": "skill-energy-barrier",
-      "skill": "Energy Barrier",
-      "pq_ids": [
-        "pq-032"
-      ],
-      "pq_numbers": [
-        32
-      ]
-    },
-    {
-      "skill_id": "skill-energy-field",
-      "skill": "Energy Field",
-      "pq_ids": [
-        "pq-029"
-      ],
-      "pq_numbers": [
-        29
-      ]
-    },
-    {
-      "skill_id": "skill-energy-shot",
-      "skill": "Energy Shot",
-      "pq_ids": [
-        "pq-022"
-      ],
-      "pq_numbers": [
-        22
-      ]
-    },
-    {
-      "skill_id": "skill-eraser-bomb",
-      "skill": "Eraser Bomb",
-      "pq_ids": [
-        "pq-163"
-      ],
-      "pq_numbers": [
-        163
-      ]
-    },
-    {
-      "skill_id": "skill-evil-blast",
-      "skill": "Evil Blast",
-      "pq_ids": [
-        "pq-114"
-      ],
-      "pq_numbers": [
-        114
-      ]
-    },
-    {
-      "skill_id": "skill-evil-flame",
-      "skill": "Evil Flame",
-      "pq_ids": [
-        "pq-117"
-      ],
-      "pq_numbers": [
-        117
-      ]
-    },
-    {
-      "skill_id": "skill-evil-flight-strike",
-      "skill": "Evil Flight Strike",
-      "pq_ids": [
-        "pq-021"
-      ],
-      "pq_numbers": [
-        21
-      ]
-    },
-    {
-      "skill_id": "skill-evil-whirlwind",
-      "skill": "Evil Whirlwind",
-      "pq_ids": [
-        "pq-036"
-      ],
-      "pq_numbers": [
-        36
-      ]
-    },
-    {
-      "skill_id": "skill-excellent-full-course",
-      "skill": "Excellent Full Course",
-      "pq_ids": [
-        "pq-142"
-      ],
-      "pq_numbers": [
-        142
-      ]
-    },
-    {
-      "skill_id": "skill-explosive-buu-buu-punch",
-      "skill": "Explosive Buu Buu Punch",
-      "pq_ids": [
-        "pq-050"
-      ],
-      "pq_numbers": [
-        50
-      ]
-    },
-    {
-      "skill_id": "skill-fierce-fist",
-      "skill": "Fierce Fist",
-      "pq_ids": [
-        "pq-159"
-      ],
-      "pq_numbers": [
-        159
-      ]
-    },
-    {
-      "skill_id": "skill-fighting-pose-e",
-      "skill": "Fighting Pose E",
-      "pq_ids": [
-        "pq-019"
-      ],
-      "pq_numbers": [
-        19
-      ]
-    },
-    {
-      "skill_id": "skill-fighting-pose-h",
-      "skill": "Fighting Pose H",
-      "pq_ids": [
-        "pq-061"
-      ],
-      "pq_numbers": [
-        61
-      ]
-    },
-    {
-      "skill_id": "skill-final-cannon",
-      "skill": "Final Cannon",
-      "pq_ids": [
-        "pq-052"
-      ],
-      "pq_numbers": [
-        52
-      ]
-    },
-    {
-      "skill_id": "skill-final-flash-ss3-daima",
-      "skill": "Final Flash (SS3 DAIMA)",
-      "pq_ids": [
-        "pq-181"
-      ],
-      "pq_numbers": [
-        181
-      ]
-    },
-    {
-      "skill_id": "skill-final-kamehameha",
-      "skill": "Final Kamehameha",
-      "pq_ids": [
-        "pq-091"
-      ],
-      "pq_numbers": [
-        91
-      ]
-    },
-    {
-      "skill_id": "skill-final-pose",
-      "skill": "Final Pose",
-      "pq_ids": [
-        "pq-074"
-      ],
-      "pq_numbers": [
-        74
-      ]
-    },
-    {
-      "skill_id": "skill-final-rampage",
-      "skill": "Final Rampage",
-      "pq_ids": [
-        "pq-174"
-      ],
-      "pq_numbers": [
-        174
-      ]
-    },
-    {
-      "skill_id": "skill-flash-bomber",
-      "skill": "Flash Bomber",
-      "pq_ids": [
-        "pq-095"
-      ],
-      "pq_numbers": [
-        95
-      ]
-    },
-    {
-      "skill_id": "skill-flash-chaser",
-      "skill": "Flash Chaser",
-      "pq_ids": [
-        "pq-138"
-      ],
-      "pq_numbers": [
-        138
-      ]
-    },
-    {
-      "skill_id": "skill-force-edge",
-      "skill": "Force Edge",
-      "pq_ids": [
-        "pq-180"
-      ],
-      "pq_numbers": [
-        180
-      ]
-    },
-    {
-      "skill_id": "skill-force-shield",
-      "skill": "Force Shield",
-      "pq_ids": [
-        "pq-059"
-      ],
-      "pq_numbers": [
-        59
-      ]
-    },
-    {
-      "skill_id": "skill-formation",
-      "skill": "Formation!",
-      "pq_ids": [
-        "pq-133"
-      ],
-      "pq_numbers": [
-        133
-      ]
-    },
-    {
-      "skill_id": "skill-freedom-kick",
-      "skill": "Freedom Kick",
-      "pq_ids": [
-        "pq-029"
-      ],
-      "pq_numbers": [
-        29
-      ]
-    },
-    {
-      "skill_id": "skill-full-power-destruction",
-      "skill": "Full Power Destruction",
-      "pq_ids": [
-        "pq-177"
-      ],
-      "pq_numbers": [
-        177
-      ]
-    },
-    {
-      "skill_id": "skill-gamma-blaster",
-      "skill": "Gamma Blaster",
-      "pq_ids": [
-        "pq-155"
-      ],
-      "pq_numbers": [
-        155
-      ]
-    },
-    {
-      "skill_id": "skill-gamma-impact",
-      "skill": "Gamma Impact",
-      "pq_ids": [
-        "pq-155"
-      ],
-      "pq_numbers": [
-        155
-      ]
-    },
-    {
-      "skill_id": "skill-giant-cluster",
-      "skill": "Giant Cluster",
-      "pq_ids": [
-        "pq-163"
-      ],
-      "pq_numbers": [
-        163
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-breaker",
-      "skill": "Gigantic Breaker",
-      "pq_ids": [
-        "pq-126"
-      ],
-      "pq_numbers": [
-        126
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-burst",
-      "skill": "Gigantic Burst",
-      "pq_ids": [
-        "pq-127"
-      ],
-      "pq_numbers": [
-        127
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-charge",
-      "skill": "Gigantic Charge",
-      "pq_ids": [
-        "pq-128"
-      ],
-      "pq_numbers": [
-        128
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-explosion",
-      "skill": "Gigantic Explosion",
-      "pq_ids": [
-        "pq-164"
-      ],
-      "pq_numbers": [
-        164
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-rage",
-      "skill": "Gigantic Rage",
-      "pq_ids": [
-        "pq-130"
-      ],
-      "pq_numbers": [
-        130
-      ]
-    },
-    {
-      "skill_id": "skill-gigantic-roar",
-      "skill": "Gigantic Roar",
-      "pq_ids": [
-        "pq-132"
-      ],
-      "pq_numbers": [
-        132
-      ]
-    },
-    {
-      "skill_id": "skill-god-breaker",
-      "skill": "God Breaker",
-      "pq_ids": [
-        "pq-044"
-      ],
-      "pq_numbers": [
-        44
-      ]
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-menace",
-      "skill": "God of Destruction's Menace",
-      "pq_ids": [
-        "pq-105"
-      ],
-      "pq_numbers": [
-        105
-      ]
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-plaything",
-      "skill": "God of Destruction's Plaything",
-      "pq_ids": [
-        "pq-175"
-      ],
-      "pq_numbers": [
-        175
-      ]
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-poise",
-      "skill": "God of Destruction's Poise",
-      "pq_ids": [
-        "pq-175"
-      ],
-      "pq_numbers": [
-        175
-      ]
-    },
-    {
-      "skill_id": "skill-god-of-destruction-s-roar",
-      "skill": "God of Destruction's Roar",
-      "pq_ids": [
-        "pq-105"
-      ],
-      "pq_numbers": [
-        105
-      ]
-    },
-    {
-      "skill_id": "skill-god-punisher",
-      "skill": "God Punisher",
-      "pq_ids": [
-        "pq-132"
-      ],
-      "pq_numbers": [
-        132
-      ]
-    },
-    {
-      "skill_id": "skill-handy-canon",
-      "skill": "Handy Canon",
-      "pq_ids": [
-        "pq-115"
-      ],
-      "pq_numbers": [
-        115
-      ]
-    },
-    {
-      "skill_id": "skill-headshot",
-      "skill": "Headshot",
-      "pq_ids": [
-        "pq-069"
-      ],
-      "pq_numbers": [
-        69
-      ]
-    },
-    {
-      "skill_id": "skill-heat-dome-attack",
-      "skill": "Heat Dome Attack",
-      "pq_ids": [
-        "pq-040"
-      ],
-      "pq_numbers": [
-        40
-      ]
-    },
-    {
-      "skill_id": "skill-heat-wave",
-      "skill": "Heat Wave",
-      "pq_ids": [
-        "pq-179"
-      ],
-      "pq_numbers": [
-        179
-      ]
-    },
-    {
-      "skill_id": "skill-hero-s-flute",
-      "skill": "Hero's Flute",
-      "pq_ids": [
-        "pq-116"
-      ],
-      "pq_numbers": [
-        116
-      ]
-    },
-    {
-      "skill_id": "skill-heroic-assault",
-      "skill": "Heroic Assault",
-      "pq_ids": [
-        "pq-156"
-      ],
-      "pq_numbers": [
-        156
-      ]
-    },
-    {
-      "skill_id": "skill-heroic-counter",
-      "skill": "Heroic Counter",
-      "pq_ids": [
-        "pq-155"
-      ],
-      "pq_numbers": [
-        155
-      ]
-    },
-    {
-      "skill_id": "skill-holy-wrath",
-      "skill": "Holy Wrath",
-      "pq_ids": [
-        "pq-111"
-      ],
-      "pq_numbers": [
-        111
-      ]
-    },
-    {
-      "skill_id": "skill-hyper-tornado",
-      "skill": "Hyper Tornado",
-      "pq_ids": [
-        "pq-143"
-      ],
-      "pq_numbers": [
-        143
-      ]
-    },
-    {
-      "skill_id": "skill-ill-bomber",
-      "skill": "Ill Bomber",
-      "pq_ids": [
-        "pq-090"
-      ],
-      "pq_numbers": [
-        90
-      ]
-    },
-    {
-      "skill_id": "skill-ill-rain",
-      "skill": "Ill Rain",
-      "pq_ids": [
-        "pq-064"
-      ],
-      "pq_numbers": [
-        64
-      ]
-    },
-    {
-      "skill_id": "skill-impact-flare",
-      "skill": "Impact Flare",
-      "pq_ids": [
-        "pq-150"
-      ],
-      "pq_numbers": [
-        150
-      ]
-    },
-    {
-      "skill_id": "skill-indomitable",
-      "skill": "Indomitable",
-      "pq_ids": [
-        "pq-185"
-      ],
-      "pq_numbers": [
-        185
-      ]
-    },
-    {
-      "skill_id": "skill-instant-rise",
-      "skill": "Instant Rise",
-      "pq_ids": [
-        "pq-037"
-      ],
-      "pq_numbers": [
-        37
-      ]
-    },
-    {
-      "skill_id": "skill-justice-blade",
-      "skill": "Justice Blade",
-      "pq_ids": [
-        "pq-152"
-      ],
-      "pq_numbers": [
-        152
-      ]
-    },
-    {
-      "skill_id": "skill-justice-drive",
-      "skill": "Justice Drive",
-      "pq_ids": [
-        "pq-168"
-      ],
-      "pq_numbers": [
-        168
-      ]
-    },
-    {
-      "skill_id": "skill-justice-kick",
-      "skill": "Justice Kick",
-      "pq_ids": [
-        "pq-152"
-      ],
-      "pq_numbers": [
-        152
-      ]
-    },
-    {
-      "skill_id": "skill-justice-pose",
-      "skill": "Justice Pose",
-      "pq_ids": [
-        "pq-053"
-      ],
-      "pq_numbers": [
-        53
-      ]
-    },
-    {
-      "skill_id": "skill-kai-kai",
-      "skill": "Kai Kai",
-      "pq_ids": [
-        "pq-063"
-      ],
-      "pq_numbers": [
-        63
-      ]
-    },
-    {
-      "skill_id": "skill-kaioken",
-      "skill": "Kaioken",
-      "pq_ids": [
-        "pq-008"
-      ],
-      "pq_numbers": [
-        8
-      ]
-    },
-    {
-      "skill_id": "skill-kamehameha",
-      "skill": "Kamehameha",
-      "pq_ids": [
-        "pq-005"
-      ],
-      "pq_numbers": [
-        5
-      ]
-    },
-    {
-      "skill_id": "skill-ki-explosion",
-      "skill": "Ki Explosion",
-      "pq_ids": [
-        "pq-077"
-      ],
-      "pq_numbers": [
-        77
-      ]
-    },
-    {
-      "skill_id": "skill-last-emperor",
-      "skill": "Last Emperor",
-      "pq_ids": [
-        "pq-071"
-      ],
-      "pq_numbers": [
-        71
-      ]
-    },
-    {
-      "skill_id": "skill-lightning-impact",
-      "skill": "Lightning Impact",
-      "pq_ids": [
-        "pq-142"
-      ],
-      "pq_numbers": [
-        142
-      ]
-    },
-    {
-      "skill_id": "skill-lightning-of-absolution",
-      "skill": "Lightning of Absolution",
-      "pq_ids": [
-        "pq-111"
-      ],
-      "pq_numbers": [
-        111
-      ]
-    },
-    {
-      "skill_id": "skill-lovely-cyclone",
-      "skill": "Lovely Cyclone",
-      "pq_ids": [
-        "pq-135"
-      ],
-      "pq_numbers": [
-        135
-      ]
-    },
-    {
+      "pq_id": "pq-011",
+      "pq_number": 11,
       "skill_id": "skill-mach-dash",
       "skill": "Mach Dash",
-      "pq_ids": [
-        "pq-018"
-      ],
-      "pq_numbers": [
-        18
-      ]
+      "canonical_skill": "Mach Dash",
+      "match": "exact"
     },
     {
-      "skill_id": "skill-mach-punch",
-      "skill": "Mach Punch",
-      "pq_ids": [
-        "pq-019"
-      ],
-      "pq_numbers": [
-        19
-      ]
-    },
-    {
-      "skill_id": "skill-maiden-burst",
-      "skill": "Maiden Burst",
-      "pq_ids": [
-        "pq-092"
-      ],
-      "pq_numbers": [
-        92
-      ]
-    },
-    {
-      "skill_id": "skill-majin-kamehameha",
-      "skill": "Majin Kamehameha",
-      "pq_ids": [
-        "pq-060"
-      ],
-      "pq_numbers": [
-        60
-      ]
-    },
-    {
-      "skill_id": "skill-meditation",
-      "skill": "Meditation",
-      "pq_ids": [
-        "pq-122"
-      ],
-      "pq_numbers": [
-        122
-      ]
-    },
-    {
-      "skill_id": "skill-meteor-blow",
-      "skill": "Meteor Blow",
-      "pq_ids": [
-        "pq-009"
-      ],
-      "pq_numbers": [
-        9
-      ]
-    },
-    {
-      "skill_id": "skill-meteor-explosion",
-      "skill": "Meteor Explosion",
-      "pq_ids": [
-        "pq-149"
-      ],
-      "pq_numbers": [
-        149
-      ]
-    },
-    {
-      "skill_id": "skill-meteor-strike",
-      "skill": "Meteor Strike",
-      "pq_ids": [
-        "pq-006"
-      ],
-      "pq_numbers": [
-        6
-      ]
-    },
-    {
-      "skill_id": "skill-mighty-explosive-wave",
-      "skill": "Mighty Explosive Wave",
-      "pq_ids": [
-        "pq-079"
-      ],
-      "pq_numbers": [
-        79
-      ]
-    },
-    {
-      "skill_id": "skill-mystic-flash",
-      "skill": "Mystic Flash",
-      "pq_ids": [
-        "pq-020"
-      ],
-      "pq_numbers": [
-        20
-      ]
-    },
-    {
-      "skill_id": "skill-neo-wolf-fang-fist",
-      "skill": "Neo Wolf Fang Fist",
-      "pq_ids": [
-        "pq-086"
-      ],
-      "pq_numbers": [
-        86
-      ]
-    },
-    {
-      "skill_id": "skill-paralysis",
-      "skill": "Paralysis",
-      "pq_ids": [
-        "pq-034"
-      ],
-      "pq_numbers": [
-        34
-      ]
-    },
-    {
-      "skill_id": "skill-paralyze-beam",
-      "skill": "Paralyze Beam",
-      "pq_ids": [
-        "pq-004"
-      ],
-      "pq_numbers": [
-        4
-      ]
-    },
-    {
-      "skill_id": "skill-pendulum-bullet",
-      "skill": "Pendulum Bullet",
-      "pq_ids": [
-        "pq-166"
-      ],
-      "pq_numbers": [
-        166
-      ]
-    },
-    {
-      "skill_id": "skill-petrifying-spit",
-      "skill": "Petrifying Spit",
-      "pq_ids": [
-        "pq-114"
-      ],
-      "pq_numbers": [
-        114
-      ]
-    },
-    {
-      "skill_id": "skill-phantom-fist",
-      "skill": "Phantom Fist",
-      "pq_ids": [
-        "pq-097"
-      ],
-      "pq_numbers": [
-        97
-      ]
-    },
-    {
-      "skill_id": "skill-photon-swipe",
-      "skill": "Photon Swipe",
-      "pq_ids": [
-        "pq-139"
-      ],
-      "pq_numbers": [
-        139
-      ]
-    },
-    {
-      "skill_id": "skill-power-impact",
-      "skill": "Power Impact",
-      "pq_ids": [
-        "pq-120"
-      ],
-      "pq_numbers": [
-        120
-      ]
-    },
-    {
-      "skill_id": "skill-power-rush",
-      "skill": "Power Rush",
-      "pq_ids": [
-        "pq-122"
-      ],
-      "pq_numbers": [
-        122
-      ]
-    },
-    {
-      "skill_id": "skill-power-wall",
-      "skill": "Power Wall",
-      "pq_ids": [
-        "pq-150"
-      ],
-      "pq_numbers": [
-        150
-      ]
-    },
-    {
-      "skill_id": "skill-powered-shell",
-      "skill": "Powered Shell",
-      "pq_ids": [
-        "pq-128"
-      ],
-      "pq_numbers": [
-        128
-      ]
-    },
-    {
-      "skill_id": "skill-pretty-cannon",
-      "skill": "Pretty Cannon",
-      "pq_ids": [
-        "pq-133"
-      ],
-      "pq_numbers": [
-        133
-      ]
-    },
-    {
-      "skill_id": "skill-prominence-flash",
-      "skill": "Prominence Flash",
-      "pq_ids": [
-        "pq-137"
-      ],
-      "pq_numbers": [
-        137
-      ]
-    },
-    {
-      "skill_id": "skill-psychic-move",
-      "skill": "Psychic Move",
-      "pq_ids": [
-        "pq-073"
-      ],
-      "pq_numbers": [
-        73
-      ]
-    },
-    {
-      "skill_id": "skill-punisher-shield",
-      "skill": "Punisher Shield",
-      "pq_ids": [
-        "pq-129"
-      ],
-      "pq_numbers": [
-        129
-      ]
-    },
-    {
-      "skill_id": "skill-raid-blast",
-      "skill": "Raid Blast",
-      "pq_ids": [
-        "pq-136"
-      ],
-      "pq_numbers": [
-        136
-      ]
-    },
-    {
-      "skill_id": "skill-rakshasa-s-claw",
-      "skill": "Rakshasa's Claw",
-      "pq_ids": [
-        "pq-057"
-      ],
-      "pq_numbers": [
-        57
-      ]
-    },
-    {
-      "skill_id": "skill-ray-blast",
-      "skill": "Ray Blast",
-      "pq_ids": [
-        "pq-125"
-      ],
-      "pq_numbers": [
-        125
-      ]
-    },
-    {
-      "skill_id": "skill-recoome-kick",
-      "skill": "Recoome Kick",
-      "pq_ids": [
-        "pq-061"
-      ],
-      "pq_numbers": [
-        61
-      ]
-    },
-    {
-      "skill_id": "skill-requiem-of-destruction",
-      "skill": "Requiem of Destruction",
-      "pq_ids": [
-        "pq-106"
-      ],
-      "pq_numbers": [
-        106
-      ]
-    },
-    {
-      "skill_id": "skill-revenge-death-ball",
-      "skill": "Revenge Death Ball",
-      "pq_ids": [
-        "pq-127"
-      ],
-      "pq_numbers": [
-        127
-      ]
-    },
-    {
-      "skill_id": "skill-revenge-final-flash",
-      "skill": "Revenge Final Flash",
-      "pq_ids": [
-        "pq-124"
-      ],
-      "pq_numbers": [
-        124
-      ]
-    },
-    {
-      "skill_id": "skill-reverse-shot",
-      "skill": "Reverse Shot",
-      "pq_ids": [
-        "pq-123"
-      ],
-      "pq_numbers": [
-        123
-      ]
-    },
-    {
-      "skill_id": "skill-ribrianne-s-eternal-love",
-      "skill": "Ribrianne's Eternal Love",
-      "pq_ids": [
-        "pq-137"
-      ],
-      "pq_numbers": [
-        137
-      ]
-    },
-    {
-      "skill_id": "skill-rolling-bullet",
-      "skill": "Rolling Bullet",
-      "pq_ids": [
-        "pq-042"
-      ],
-      "pq_numbers": [
-        42
-      ]
-    },
-    {
-      "skill_id": "skill-rough-ranger",
-      "skill": "Rough Ranger",
-      "pq_ids": [
-        "pq-119"
-      ],
-      "pq_numbers": [
-        119
-      ]
-    },
-    {
-      "skill_id": "skill-s-s-deadly-bomber",
-      "skill": "S.S. Deadly Bomber",
-      "pq_ids": [
-        "pq-115"
-      ],
-      "pq_numbers": [
-        115
-      ]
-    },
-    {
-      "skill_id": "skill-saiyan-spirit",
-      "skill": "Saiyan Spirit",
-      "pq_ids": [
-        "pq-084"
-      ],
-      "pq_numbers": [
-        84
-      ]
-    },
-    {
-      "skill_id": "skill-sauzer-blade",
-      "skill": "Sauzer Blade",
-      "pq_ids": [
-        "pq-027"
-      ],
-      "pq_numbers": [
-        27
-      ]
-    },
-    {
-      "skill_id": "skill-savory-slicer",
-      "skill": "Savory Slicer",
-      "pq_ids": [
-        "pq-140"
-      ],
-      "pq_numbers": [
-        140
-      ]
-    },
-    {
-      "skill_id": "skill-scissors-paper-rock",
-      "skill": "Scissors Paper Rock",
-      "pq_ids": [
-        "pq-065"
-      ],
-      "pq_numbers": [
-        65
-      ]
-    },
-    {
-      "skill_id": "skill-seagull-combination",
-      "skill": "Seagull Combination",
-      "pq_ids": [
-        "pq-167"
-      ],
-      "pq_numbers": [
-        167
-      ]
-    },
-    {
-      "skill_id": "skill-shield-barrier",
-      "skill": "Shield Barrier",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
-    },
-    {
-      "skill_id": "skill-shine-shot",
-      "skill": "Shine Shot",
-      "pq_ids": [
-        "pq-007"
-      ],
-      "pq_numbers": [
-        7
-      ]
-    },
-    {
-      "skill_id": "skill-shining-slash",
-      "skill": "Shining Slash",
-      "pq_ids": [
-        "pq-038"
-      ],
-      "pq_numbers": [
-        38
-      ]
-    },
-    {
-      "skill_id": "skill-shooting-strike",
-      "skill": "Shooting Strike",
-      "pq_ids": [
-        "pq-156"
-      ],
-      "pq_numbers": [
-        156
-      ]
-    },
-    {
-      "skill_id": "skill-side-bridge",
-      "skill": "Side Bridge",
-      "pq_ids": [
-        "pq-039"
-      ],
-      "pq_numbers": [
-        39
-      ]
-    },
-    {
-      "skill_id": "skill-sign-of-awakening",
-      "skill": "Sign of Awakening",
-      "pq_ids": [
-        "pq-154"
-      ],
-      "pq_numbers": [
-        154
-      ]
-    },
-    {
-      "skill_id": "skill-soaring-rush",
-      "skill": "Soaring Rush",
-      "pq_ids": [
-        "pq-177"
-      ],
-      "pq_numbers": [
-        177
-      ]
-    },
-    {
-      "skill_id": "skill-solar-flare",
-      "skill": "Solar Flare",
-      "pq_ids": [
-        "pq-003"
-      ],
-      "pq_numbers": [
-        3
-      ]
-    },
-    {
-      "skill_id": "skill-sonic-bomb",
-      "skill": "Sonic Bomb",
-      "pq_ids": [
-        "pq-105"
-      ],
-      "pq_numbers": [
-        105
-      ]
-    },
-    {
-      "skill_id": "skill-special-beam-cannon-beast",
-      "skill": "Special Beam Cannon (Beast)",
-      "pq_ids": [
-        "pq-162"
-      ],
-      "pq_numbers": [
-        162
-      ]
-    },
-    {
-      "skill_id": "skill-spirit-blaster",
-      "skill": "Spirit Blaster",
-      "pq_ids": [
-        "pq-129"
-      ],
-      "pq_numbers": [
-        129
-      ]
-    },
-    {
-      "skill_id": "skill-spirit-explosion",
-      "skill": "Spirit Explosion",
-      "pq_ids": [
-        "pq-025"
-      ],
-      "pq_numbers": [
-        25
-      ]
-    },
-    {
-      "skill_id": "skill-spirit-pulse",
-      "skill": "Spirit Pulse",
-      "pq_ids": [
-        "pq-151"
-      ],
-      "pq_numbers": [
-        151
-      ]
-    },
-    {
-      "skill_id": "skill-spirit-slash",
-      "skill": "Spirit Slash",
-      "pq_ids": [
-        "pq-002"
-      ],
-      "pq_numbers": [
-        2
-      ]
-    },
-    {
-      "skill_id": "skill-spread-shot-retreat",
-      "skill": "Spread Shot Retreat",
-      "pq_ids": [
-        "pq-028"
-      ],
-      "pq_numbers": [
-        28
-      ]
-    },
-    {
-      "skill_id": "skill-steel-mirage",
-      "skill": "Steel Mirage",
-      "pq_ids": [
-        "pq-165"
-      ],
-      "pq_numbers": [
-        165
-      ]
-    },
-    {
-      "skill_id": "skill-stone-bullet",
-      "skill": "Stone Bullet",
-      "pq_ids": [
-        "pq-056"
-      ],
-      "pq_numbers": [
-        56
-      ]
-    },
-    {
-      "skill_id": "skill-super-black-kamehameha-rose",
-      "skill": "Super Black Kamehameha Rosé",
-      "pq_ids": [
-        "pq-109"
-      ],
-      "pq_numbers": [
-        109
-      ]
-    },
-    {
-      "skill_id": "skill-super-donut-volley",
-      "skill": "Super Donut Volley",
-      "pq_ids": [
-        "pq-055"
-      ],
-      "pq_numbers": [
-        55
-      ]
-    },
-    {
-      "skill_id": "skill-super-dragon-flight",
-      "skill": "Super Dragon Flight",
-      "pq_ids": [
-        "pq-031"
-      ],
-      "pq_numbers": [
-        31
-      ]
-    },
-    {
-      "skill_id": "skill-super-gamma-blast",
-      "skill": "Super Gamma Blast",
-      "pq_ids": [
-        "pq-158"
-      ],
-      "pq_numbers": [
-        158
-      ]
-    },
-    {
-      "skill_id": "skill-super-ghost-buu-attack",
-      "skill": "Super Ghost Buu Attack",
-      "pq_ids": [
-        "pq-113"
-      ],
-      "pq_numbers": [
-        113
-      ]
-    },
-    {
-      "skill_id": "skill-super-god-fist",
-      "skill": "Super God Fist",
-      "pq_ids": [
-        "pq-067"
-      ],
-      "pq_numbers": [
-        67
-      ]
-    },
-    {
-      "skill_id": "skill-super-kamehameha-ss4-daima",
-      "skill": "Super Kamehameha (SS4 DAIMA)",
-      "pq_ids": [
-        "pq-181"
-      ],
-      "pq_numbers": [
-        181
-      ]
-    },
-    {
-      "skill_id": "skill-supreme-fury",
-      "skill": "Supreme Fury",
-      "pq_ids": [
-        "pq-179"
-      ],
-      "pq_numbers": [
-        179
-      ]
-    },
-    {
-      "skill_id": "skill-taunt",
-      "skill": "Taunt",
-      "pq_ids": [
-        "pq-045"
-      ],
-      "pq_numbers": [
-        45
-      ]
-    },
-    {
-      "skill_id": "skill-teleporting-vanishing-ball",
-      "skill": "Teleporting Vanishing Ball",
-      "pq_ids": [
-        "pq-062"
-      ],
-      "pq_numbers": [
-        62
-      ]
-    },
-    {
-      "skill_id": "skill-thunder-flash",
-      "skill": "Thunder Flash",
-      "pq_ids": [
-        "pq-146"
-      ],
-      "pq_numbers": [
-        146
-      ]
-    },
-    {
-      "skill_id": "skill-time-control",
-      "skill": "Time Control",
-      "pq_ids": [
-        "pq-018"
-      ],
-      "pq_numbers": [
-        18
-      ]
-    },
-    {
-      "skill_id": "skill-total-detonation-ball",
-      "skill": "Total Detonation Ball",
-      "pq_ids": [
-        "pq-139"
-      ],
-      "pq_numbers": [
-        139
-      ]
-    },
-    {
-      "skill_id": "skill-ultimate-charge",
-      "skill": "Ultimate Charge",
-      "pq_ids": [
-        "pq-134"
-      ],
-      "pq_numbers": [
-        134
-      ]
-    },
-    {
-      "skill_id": "skill-ultrasonic-blitz",
-      "skill": "Ultrasonic Blitz",
-      "pq_ids": [
-        "pq-151"
-      ],
-      "pq_numbers": [
-        151
-      ]
-    },
-    {
-      "skill_id": "skill-unrelenting-barrage",
-      "skill": "Unrelenting Barrage",
-      "pq_ids": [
-        "pq-010"
-      ],
-      "pq_numbers": [
-        10
-      ]
-    },
-    {
-      "skill_id": "skill-vanishing-ball",
-      "skill": "Vanishing Ball",
-      "pq_ids": [
-        "pq-058"
-      ],
-      "pq_numbers": [
-        58
-      ]
-    },
-    {
-      "skill_id": "skill-variable-snipe-shot",
-      "skill": "Variable Snipe Shot",
-      "pq_ids": [
-        "pq-165"
-      ],
-      "pq_numbers": [
-        165
-      ]
-    },
-    {
-      "skill_id": "skill-variant-drive",
-      "skill": "Variant Drive",
-      "pq_ids": [
-        "pq-123"
-      ],
-      "pq_numbers": [
-        123
-      ]
-    },
-    {
-      "skill_id": "skill-venus-fist",
-      "skill": "Venus Fist",
-      "pq_ids": [
-        "pq-186"
-      ],
-      "pq_numbers": [
-        186
-      ]
-    },
-    {
-      "skill_id": "skill-victory-cannon",
-      "skill": "Victory Cannon",
-      "pq_ids": [
-        "pq-054"
-      ],
-      "pq_numbers": [
-        54
-      ]
-    },
-    {
-      "skill_id": "skill-victory-rush",
-      "skill": "Victory Rush",
-      "pq_ids": [
-        "pq-089"
-      ],
-      "pq_numbers": [
-        89
-      ]
-    },
-    {
-      "skill_id": "skill-wall-of-defense",
-      "skill": "Wall of Defense",
-      "pq_ids": [
-        "pq-010"
-      ],
-      "pq_numbers": [
-        10
-      ]
-    },
-    {
+      "pq_id": "pq-066",
+      "pq_number": 66,
       "skill_id": "skill-warp-kamehameha",
       "skill": "Warp Kamehameha",
-      "pq_ids": [
-        "pq-076"
-      ],
-      "pq_numbers": [
-        76
-      ]
+      "canonical_skill": "Warp Kamehameha",
+      "match": "exact"
     },
     {
-      "skill_id": "skill-wild-buster",
-      "skill": "Wild Buster",
-      "pq_ids": [
-        "pq-153"
-      ],
-      "pq_numbers": [
-        153
-      ]
+      "pq_id": "pq-012",
+      "pq_number": 12,
+      "skill_id": "skill-meteor-crash",
+      "skill": "Meteor Crash",
+      "canonical_skill": "Meteor Crash",
+      "match": "exact"
     },
     {
-      "skill_id": "skill-wild-stinger",
-      "skill": "Wild Stinger",
-      "pq_ids": [
-        "pq-172"
-      ],
-      "pq_numbers": [
-        172
-      ]
+      "pq_id": "pq-013",
+      "pq_number": 13,
+      "skill_id": "skill-fighting-pose-c",
+      "skill": "Fighting Pose C",
+      "canonical_skill": "Fighting Pose C",
+      "match": "exact"
     },
     {
-      "skill_id": "skill-x-100-big-bang-kamehameha",
-      "skill": "X 100 Big Bang Kamehameha",
-      "pq_ids": [
-        "pq-100"
-      ],
-      "pq_numbers": [
-        100
-      ]
+      "pq_id": "pq-013",
+      "pq_number": 13,
+      "skill_id": "skill-psycho-escape",
+      "skill": "Psycho Escape",
+      "canonical_skill": "Psycho Escape",
+      "match": "exact"
     },
     {
-      "skill_id": "skill-zigzag-express",
-      "skill": "Zigzag Express",
-      "pq_ids": [
-        "pq-085"
-      ],
-      "pq_numbers": [
-        85
-      ]
+      "pq_id": "pq-014",
+      "pq_number": 14,
+      "skill_id": "skill-kaioken-kamehameha",
+      "skill": "Kaioken Kamehameha",
+      "canonical_skill": "Kaioken Kamehameha",
+      "match": "exact"
     }
   ]
 }
