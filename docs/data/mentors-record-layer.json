@@ -38,7 +38,10 @@
         "skill-orin-combo",
         "skill-scatter-kamehameha"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Chain Destructo-Disc Barrage",
+        "skill_id": "dual-dual-chain-destructo-disc-barrage"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -78,7 +81,10 @@
         "skill-tri-beam",
         "skill-neo-tri-beam"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Neo Tri-Beam",
+        "skill_id": "dual-dual-neo-tri-beam"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -118,7 +124,10 @@
         "skill-ki-blast-thrust",
         "skill-spirit-ball"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Spirit Ball",
+        "skill_id": "dual-dual-spirit-ball"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -158,7 +167,10 @@
         "skill-light-grenade",
         "skill-special-beam-cannon"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Special Beam Cannon",
+        "skill_id": "dual-dual-special-beam-cannon"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -198,7 +210,10 @@
         "skill-shining-friday",
         "skill-weekend"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Weekend",
+        "skill_id": "dual-dual-weekend"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -238,7 +253,10 @@
         "skill-evil-rise-strike",
         "skill-explosive-assault"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Explosive Assault",
+        "skill_id": "dual-dual-explosive-assault"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -278,7 +296,10 @@
         "skill-genocide-shell",
         "skill-break-cannon"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Giant Storm",
+        "skill_id": "dual-dual-giant-storm"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -318,7 +339,10 @@
         "skill-flash-strike",
         "skill-final-flash"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Final Flash",
+        "skill_id": "dual-dual-final-flash"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -358,7 +382,10 @@
         "skill-bloody-counter",
         "skill-elegant-blaster"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Elegant Blaster",
+        "skill_id": "dual-dual-elegant-blaster"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -398,7 +425,10 @@
         "skill-dodoria-headbutt",
         "skill-dodoria-launcher"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Dodoria Launcher",
+        "skill_id": "dual-dual-dodoria-launcher"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -438,7 +468,10 @@
         "skill-milky-cannon",
         "skill-body-change"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Milky Cannon",
+        "skill_id": "dual-dual-milky-cannon"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -478,7 +511,10 @@
         "skill-death-crasher",
         "skill-death-slicer"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Supernova",
+        "skill_id": "dual-dual-supernova"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -518,7 +554,10 @@
         "skill-fake-blast",
         "skill-supernova-cooler"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Supernova Cooler",
+        "skill_id": "dual-dual-supernova-cooler"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -558,7 +597,10 @@
         "skill-endless-shoot",
         "skill-dual-destructo-disc"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Dead End Rain",
+        "skill_id": "dual-dual-dead-end-rain"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -598,7 +640,10 @@
         "skill-android-rush",
         "skill-hell-flash"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Hell Flash",
+        "skill_id": "dual-dual-hell-flash"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -638,7 +683,10 @@
         "skill-gravity-impact",
         "skill-perfect-kamehameha"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Perfect Kamehameha",
+        "skill_id": "dual-dual-perfect-kamehameha"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -684,7 +732,10 @@
         "skill-darkness-eye-beam",
         "skill-darkness-twin-star"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Darkness Rush",
+        "skill_id": "dual-dual-darkness-rush"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -724,7 +775,10 @@
         "skill-innocence-cannon",
         "skill-innocence-breath"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Angry Explosion",
+        "skill_id": "dual-dual-angry-explosion"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -764,7 +818,10 @@
         "skill-rolling-hercule-punch",
         "skill-the-savior-has-come"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL The Savior Has Come",
+        "skill_id": "dual-dual-the-savior-has-come"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -804,7 +861,10 @@
         "skill-hawk-charge",
         "skill-justice-combination"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Super Kamehameha: Gohan (Adult)",
+        "skill_id": "dual-dual-super-kamehameha-gohan-adult"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -844,7 +904,10 @@
         "skill-die-die-missile-barrage",
         "skill-super-ghost-kamikaze-attack-ultimate-ki-blast"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Super Ghost Kamikaze Attack",
+        "skill_id": "dual-dual-super-ghost-kamikaze-attack"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -884,7 +947,10 @@
         "skill-fruit-of-the-tree-of-might",
         "skill-meteor-burst"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Meteor Burst",
+        "skill_id": "dual-dual-meteor-burst"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -924,7 +990,10 @@
         "skill-gigantic-omega",
         "skill-gigantic-meteor"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Gigantic Meteor",
+        "skill_id": "dual-dual-gigantic-meteor"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -964,7 +1033,10 @@
         "skill-god-of-destruction-s-wrath",
         "skill-sphere-of-destruction"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Sphere of Destruction",
+        "skill_id": "dual-dual-sphere-of-destruction"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1004,7 +1076,10 @@
         "skill-strike-of-revelation",
         "skill-symphonic-destruction"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Symphonic Destruction",
+        "skill_id": "dual-dual-symphonic-destruction"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1044,7 +1119,10 @@
         "skill-feint-shot",
         "skill-maiden-blast"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Maiden Blast",
+        "skill_id": "dual-dual-maiden-blast"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1085,7 +1163,10 @@
         "skill-elite-shooting",
         "skill-super-elite-combo"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Super Elite Combo",
+        "skill_id": "dual-dual-super-elite-combo"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1126,7 +1207,10 @@
         "skill-x10-kamehameha",
         "skill-super-kamehameha"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Super Kamehameha",
+        "skill_id": "dual-dual-super-kamehameha"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1167,7 +1251,10 @@
         "skill-energy-dome",
         "skill-one-handed-kamehameha-mk-ii"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL One-Handed Kamehameha mk.II",
+        "skill_id": "dual-dual-one-handed-kamehameha-mk-ii"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1207,7 +1294,10 @@
         "skill-riot-javelin",
         "skill-brave-heat"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Brave Heat",
+        "skill_id": "dual-dual-brave-heat"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1248,7 +1338,10 @@
         "skill-time-skip-jump-spike",
         "skill-time-skip-tremor-pulse"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Time Skip/Molotov",
+        "skill_id": "dual-dual-time-skip-molotov"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1289,7 +1382,10 @@
         "skill-psycho-barrier",
         "skill-grand-smasher"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Grand Smasher",
+        "skill_id": "dual-dual-grand-smasher"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
@@ -1328,7 +1424,10 @@
         "skill-heavenly-arrow",
         "skill-instant-severance"
       ],
-      "dual_ultimate": null,
+      "dual_ultimate": {
+        "name": "DUAL Instant Severance",
+        "skill_id": "dual-dual-instant-severance"
+      },
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
