@@ -5745,3 +5745,15 @@ The repository owner has clarified the continuation contract:
 - TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry.
 - CI: next cycle must inspect Actions for commits ed9e0bfdfbf714fe22bb89a3905bc6246e2ec6e4 and 5bd2b3bbceb4e90c117ddcc1a30660ebd34d3839; do not claim CI success without an actual result.
 - Exact next task: **Angry Explosion**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
+
+
+### 2026-09-21 cycle update — Angry Explosion Ki-cost verification
+- Live census before editing: 428 canonical skills; 0 duplicate IDs; 8 nullable ki_cost records.
+- Bounded batch: **Angry Explosion — 300 Ki**.
+- Research/evidence: current Xenoverse 2 skill-reference evidence explicitly lists **Ki Used: 300** for Angry Explosion. The reference also notes the move can be prolonged using additional Ki; the canonical field therefore records the listed/base 300 Ki cost without inventing a variable-cost formula. citeturn0search0turn0search5
+- Changes: docs/data/skills.json — Angry Explosion ki_cost=300. Existing classification, acquisition, provenance, and other fields were preserved.
+- Evidence limits: variable extension cost was not normalized because no exact bounded formula was required by this pass.
+- Validation after write: **428 records; 0 duplicate IDs; 7 nullable ki_cost records**.
+- TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry.
+- CI: next cycle must inspect Actions for commits 5481a44f36aedcd8341254082f75ce46e796ce50 and the TODO commit; do not claim CI success without an actual result.
+- Exact next task: **Dead End Rain**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
