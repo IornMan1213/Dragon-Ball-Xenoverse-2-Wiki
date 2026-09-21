@@ -3961,3 +3961,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Builder target counts are research targets rather than a claim that every overlapping category can be reconstructed from the canonical class/subcategory fields. No unsupported count changes were made.
 - No canonical data/index or validator changes were necessary in this pass.
 - Exact next task: inspect the builder's deterministic ordering/key construction and compare it against the canonical/index sequence, including correction handling and duplicate-key protection, to find any remaining regeneration drift.
+
+
+## 2026-09-21 continuation — deterministic ordering audit
+- Inspected the live builder's merge/key logic and final serialization.
+- Builder keys are `(name.casefold(), class, subcategory)`; final records are explicitly sorted by that same tuple before writing both `skills.json` and `skills-index.json`.
+- Builder correction handling can replace an old key and blocks the old key; ordinary duplicate keys merge rather than create duplicate output records. The canonical validator already rejects duplicate final keys.
+- Identified one concrete missing invariant: the validator checked uniqueness and index parity but did not require canonical `skills.json` itself to remain in the builder's deterministic order.
+- Strengthened `scripts/validate_skills.py` to reject any canonical record sequence that is not sorted by `(name.casefold(), class, subcategory)`.
+- Validator change commit: `8fcdd96f529b707e5a7667c7eaa0bd3174dcf637`.
+- No canonical data changes were required.
+- Next task: inspect correction/key collision semantics and acquisition/category invariants for cases where two distinct source records can collapse into one canonical key without an explicit correction, and strengthen validation if a concrete invariant is found.
