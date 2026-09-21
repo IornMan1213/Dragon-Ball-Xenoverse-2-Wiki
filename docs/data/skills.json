@@ -1678,7 +1678,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-dancing-parapara",
-      "source_mentor": "mentor-pan"
+      "source_mentor": [
+        "mentor-pan"
+      ]
     },
     {
       "name": "Dark Inscription",
@@ -1737,7 +1739,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-darkness-rush-melee",
-      "source_mentor": "mentor-lord-slug"
+      "source_mentor": [
+        "mentor-slug"
+      ]
     },
     {
       "name": "Darkness Rush (Ranged)",
@@ -1768,7 +1772,9 @@
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
       "id": "skill-darkness-rush-ranged",
-      "source_mentor": "mentor-lord-slug"
+      "source_mentor": [
+        "mentor-slug"
+      ]
     },
     {
       "name": "Data Input",
@@ -1817,7 +1823,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-deadly-dance",
-      "source_mentor": "mentor-android-18"
+      "source_mentor": [
+        "mentor-android-18"
+      ]
     },
     {
       "name": "Death Ball",
@@ -1844,7 +1852,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-death-ball",
-      "source_mentor": "mentor-frieza"
+      "source_mentor": [
+        "mentor-frieza"
+      ]
     },
     {
       "name": "Death Psycho Bomb",
@@ -2282,7 +2292,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
       "id": "skill-destructo-disc",
-      "source_mentor": "mentor-krillin"
+      "source_mentor": [
+        "mentor-krillin"
+      ]
     },
     {
       "name": "Dimension Cannon",
@@ -4128,7 +4140,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-galick-gun",
-      "source_mentor": "mentor-vegeta"
+      "source_mentor": [
+        "mentor-vegeta"
+      ]
     },
     {
       "name": "Gamma Blaster",
@@ -5133,7 +5147,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "id": "skill-instant-transmission",
-      "source_mentor": "mentor-goku"
+      "source_mentor": [
+        "mentor-goku"
+      ]
     },
     {
       "name": "Justice Blade",
@@ -5664,7 +5680,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
       "id": "skill-masenko",
-      "source_mentor": "mentor-gohan-kid"
+      "source_mentor": [
+        "mentor-gohan-kid"
+      ]
     },
     {
       "name": "Maximum Charge",
@@ -6929,7 +6947,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-rise-to-action",
-      "source_mentor": "mentor-krillin"
+      "source_mentor": [
+        "mentor-krillin"
+      ]
     },
     {
       "name": "Rising Rage",
@@ -7237,7 +7257,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-shadow-crusher",
-      "source_mentor": "mentor-cooler"
+      "source_mentor": [
+        "mentor-cooler"
+      ]
     },
     {
       "name": "Shield Barrier",
@@ -8684,7 +8706,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-time-skip-back-breaker",
-      "source_mentor": "mentor-hit"
+      "source_mentor": [
+        "mentor-hit"
+      ]
     },
     {
       "name": "Time Skip/Flash Skewer",
@@ -8710,7 +8734,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-time-skip-flash-skewer",
-      "source_mentor": "mentor-hit"
+      "source_mentor": [
+        "mentor-hit"
+      ]
     },
     {
       "name": "Time Skip/Jump Spike",
@@ -8736,7 +8762,9 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "id": "skill-time-skip-jump-spike",
-      "source_mentor": "mentor-hit"
+      "source_mentor": [
+        "mentor-hit"
+      ]
     },
     {
       "name": "Total Detonation Ball",
