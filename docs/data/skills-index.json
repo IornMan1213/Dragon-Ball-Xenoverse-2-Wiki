@@ -6,10 +6,10 @@
     "Ki Blast Evasives": 12,
     "Other Supers": 36,
     "Strike Evasives": 8,
-    "Ki Blast Ultimates": 68,
-    "Ki Blast Supers": 121,
+    "Ki Blast Ultimates": 70,
+    "Ki Blast Supers": 128,
     "Transformations": 15,
-    "Strike Supers": 94,
+    "Strike Supers": 97,
     "Strike Ultimates": 18,
     "Power Up Supers": 14,
     "Power Up Evasives": 2,
@@ -17,7 +17,7 @@
     "Transformation": 4,
     "Other Ultimates": 2
   },
-  "record_count": 397,
+  "record_count": 408,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -7567,10 +7567,11 @@
       "source_quest": "Piccolo mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21: Future Gohan's Initiation Test also independently teaches this existing canonical skill; multi-mentor provenance is preserved rather than duplicated.",
       "id": "skill-super-explosive-wave",
       "source_mentor": [
-        "mentor-piccolo"
+        "mentor-piccolo",
+        "mentor-future-gohan"
       ]
     },
     {
@@ -10014,6 +10015,303 @@
       "id": "skill-brave-heat",
       "source_mentor": [
         "mentor-bardock"
+      ]
+    },
+    {
+      "name": "Eye Beam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Eye_Beam",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Android 16 mentor training — Initiation Test.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Android 16 mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Android 16 mentor training — Initiation Test.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-eye-beam",
+      "source_mentor": [
+        "mentor-android-16"
+      ]
+    },
+    {
+      "name": "Rocket Tackle",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Rocket_Tackle",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Android 16 mentor training — Lesson 1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Android 16 mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Android 16 mentor training — Lesson 1.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-rocket-tackle",
+      "source_mentor": [
+        "mentor-android-16"
+      ]
+    },
+    {
+      "name": "Android Rush",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Android_Rush",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Android 16 mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Android 16 mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Android 16 mentor training — Lesson 2.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-android-rush",
+      "source_mentor": [
+        "mentor-android-16"
+      ]
+    },
+    {
+      "name": "Hell Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hell_Flash",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Android 16 mentor training — Lesson 3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Android 16 mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Android 16 mentor training — Lesson 3.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-hell-flash",
+      "source_mentor": [
+        "mentor-android-16"
+      ]
+    },
+    {
+      "name": "Sonic Rush",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sonic_Rush",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Future Gohan mentor training — Lesson 1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Future Gohan mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Future Gohan mentor training — Lesson 1.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-sonic-rush",
+      "source_mentor": [
+        "mentor-future-gohan"
+      ]
+    },
+    {
+      "name": "Energy Dome",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Dome",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Future Gohan mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Future Gohan mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Future Gohan mentor training — Lesson 2.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-energy-dome",
+      "source_mentor": [
+        "mentor-future-gohan"
+      ]
+    },
+    {
+      "name": "One-Handed Kamehameha mk.II",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/One-Handed_Kamehameha_mk.II",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Future Gohan mentor training — Lesson 3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Future Gohan mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Future Gohan mentor training — Lesson 3.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-one-handed-kamehameha-mk-ii",
+      "source_mentor": [
+        "mentor-future-gohan"
+      ]
+    },
+    {
+      "name": "Reverse Launcher",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Reverse_Launcher",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Bojack mentor training — Initiation Test.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Bojack mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Bojack mentor training — Initiation Test.",
+      "dlc_requirement": "Super Pack 3",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-reverse-launcher",
+      "source_mentor": [
+        "mentor-bojack"
+      ]
+    },
+    {
+      "name": "Trap Shooter",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Trap_Shooter",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Bojack mentor training — Lesson 1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Bojack mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Bojack mentor training — Lesson 1.",
+      "dlc_requirement": "Super Pack 3",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-trap-shooter",
+      "source_mentor": [
+        "mentor-bojack"
+      ]
+    },
+    {
+      "name": "Psycho Barrier",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Psycho_Barrier",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Bojack mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Bojack mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Bojack mentor training — Lesson 2.",
+      "dlc_requirement": "Super Pack 3",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-psycho-barrier",
+      "source_mentor": [
+        "mentor-bojack"
+      ]
+    },
+    {
+      "name": "Grand Smasher",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Grand_Smasher",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Bojack mentor training — Lesson 3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Bojack mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Bojack mentor training — Lesson 3.",
+      "dlc_requirement": "Super Pack 3",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
+      "id": "skill-grand-smasher",
+      "source_mentor": [
+        "mentor-bojack"
       ]
     }
   ],
