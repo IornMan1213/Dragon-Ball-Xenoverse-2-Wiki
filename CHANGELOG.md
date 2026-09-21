@@ -888,3 +888,7 @@
 ## 2026-09-21 — Raditz mentor skill Ki-cost verification
 - Verified Double Sunday (100), Saturday Crash (100), Shining Friday (100), and Weekend (300) Ki costs from current skill references.
 - Updated only canonical Ki-cost and verification-date fields; unresolved mechanics remain untouched.
+
+## 2026-09-21 — Zarbon mentor skill Ki-cost verification
+- Verified Audacious Laugh (100), Gorgeous Shot (100), Bloody Counter (0 base/held-cost mechanic preserved), and Elegant Blaster (300) Ki costs.
+- Updated only canonical Ki-cost and verification-date fields; held/variable behavior was not flattened into a fabricated fixed cost.
