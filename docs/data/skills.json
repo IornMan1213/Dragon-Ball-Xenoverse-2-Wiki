@@ -2605,7 +2605,7 @@
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" Ultimate Finish reward (40% roll)",
-      "source_quest_or_shop": "PQ163",
+      "source_quest_or_shop": "Parallel Quest 163 — \"Broly the Invader\"",
       "ultimate_finish_required": true,
       "skill_description": "Giant Cluster is a Super Ki Blast skill associated with Broly.",
       "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
@@ -2618,7 +2618,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Giant Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Giant Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Giant Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Giant Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
       "source_quest": 163,
       "acquisition_type": "quest_or_mission"
     },
@@ -5115,7 +5115,7 @@
       "stamina_cost": null,
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest 175 — \"Who's the Next Leader?!\" Ultimate Finish reward (50%)",
-      "source_quest_or_shop": "PQ175",
+      "source_quest_or_shop": "Parallel Quest 175 — \"Who's the Next Leader?!\"",
       "ultimate_finish_required": true,
       "skill_description": "God of Destruction's Poise is a Super Strike skill associated with God of Destruction Belmod.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. 2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier.",
@@ -5131,7 +5131,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 175,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier."
+      "notes": "2026-09-20 audit: PQ175's current maintained reward data lists God of Destruction's Poise at a 50% Ultimate Finish gate; generic PQ reward wording is replaced with the evidenced reward tier. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred."
     },
     {
       "name": "Heroic Assault",
@@ -5702,7 +5702,7 @@
       "stamina_cost": null,
       "damage_type": "Strike",
       "unlock_method": "Parallel Quest 177 — \"Warped Sense of Justice\" Ultimate Finish reward (50%)",
-      "source_quest_or_shop": "PQ177",
+      "source_quest_or_shop": "Parallel Quest 177 — \"Warped Sense of Justice\"",
       "ultimate_finish_required": true,
       "skill_description": "Soaring Rush is a Super Strike skill associated with Goku (Mini).",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. 2026-09-20 verification: current skill page explicitly identifies PQ177 as the unlock and Strike classification. 2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite.",
@@ -5717,7 +5717,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite."
+      "notes": "2026-09-20 audit: PQ177's current maintained reward data lists Soaring Rush at a 50% Ultimate Finish gate; the generic PQ reward field is refined without inventing an additional prerequisite. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred."
     },
     {
       "name": "Sonic Bomb",
@@ -6152,7 +6152,7 @@
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 173 — \"Decoding Dinner\" Ultimate Finish bonus reward (45% bonus slot)",
-      "source_quest_or_shop": "PQ173",
+      "source_quest_or_shop": "Parallel Quest 173 — \"Decoding Dinner\"",
       "ultimate_finish_required": true,
       "skill_description": "Divine Ray Bomb is a Ultimate Ki Blast skill associated with Goku Black (Super Saiyan Rosé) Ultra Supervillain.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records. 2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording.",
@@ -6166,7 +6166,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 173,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording."
+      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred."
     },
     {
       "name": "Emperor's Death Beam",
@@ -6384,7 +6384,7 @@
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 164 — Ultimate Finish (40%).",
-      "source_quest_or_shop": "PQ164",
+      "source_quest_or_shop": "Parallel Quest 164 — \"Where is Goku?!\"",
       "ultimate_finish_required": true,
       "skill_description": "Gigantic Explosion is a Ultimate Ki Blast skill associated with Broly.",
       "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest. 2026-09-20 verification: current skill page identifies PQ164 as the unlock; maintained drop-condition data documents the Ultimate Finish route. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish (40%) route; the recorded condition is preserved without inference beyond the maintained corpus.",
@@ -6399,7 +6399,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 164,
       "acquisition_type": "quest_or_mission",
-      "notes": ""
+      "notes": "2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred."
     },
     {
       "name": "Gigantic Roar",
@@ -6871,7 +6871,7 @@
       "stamina_cost": null,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 162 — \"The Man, the Myth, the Yamcha\" Ultimate Finish bonus reward (45% bonus slot)",
-      "source_quest_or_shop": "PQ162",
+      "source_quest_or_shop": "Parallel Quest 162 — \"The Man, the Myth, the Yamcha\"",
       "ultimate_finish_required": true,
       "skill_description": "Special Beam Cannon (Beast) is a Ultimate Ki Blast skill associated with Gohan (Beast).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the documented acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred.",
@@ -6886,7 +6886,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 162,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred."
+      "notes": "2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred."
     },
     {
       "name": "Super Black Kamehameha Rosé",
