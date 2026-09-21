@@ -4369,3 +4369,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `3646e8a40a01e3a8c5c4cd7c738d6bc01d83cfba` (PR #41, merged to `main`).
 - CI limitation remains: GitHub connector exposed no actionable workflow/status results for the merge commit, so no passing CI result is claimed.
 - Exact next task: audit remaining generated index metadata and deterministic projection behavior for producer/validator contradictions, especially the hard-coded index `schema_version` versus the canonical payload and whether projected records can silently omit newly canonical fields needed by downstream consumers.
+
+## 2026-09-21 continuation — generated index schema-version drift
+- Workstream: P1 skill acquisition/data-quality generated-artifact audit.
+- Audited deterministic `skills-index.json` generation against the canonical `skills.json` payload and validator contract.
+- Found a concrete producer drift path: `build_skills_from_research.py` generated the index with a hard-coded `'1.2'` schema version while `skills.json` already derives its version from `CATALOG_SCHEMA_VERSION` and the validator requires the index to match that canonical version. A future schema-version bump could therefore make the builder emit mismatched artifacts until validation caught it.
+- Fixed the builder so the index writes `payload['schema_version']`, using the same producer value as the canonical catalog. No validator behavior was weakened.
+- Commit: `129caf29ff80b2b67301f2ccbbcc06c86e0a0949` (PR #42, merged to `main`).
+- Validation: live builder/validator/schema files and the checked-in index were re-inspected. The connector exposed no actionable CI workflow/status result for the merge, so no passing CI result is claimed. No local Python execution environment is exposed through the GitHub connector.
+- Projection audit result: `INDEX_PROJECTION_FIELDS` is intentionally a subset of canonical schema properties, and the validator now checks that every projection field remains canonical. No evidence was found that omitted canonical fields are currently required by an in-repository index consumer, so no projection expansion was made speculatively.
+- Exact next task: continue the generated-artifact audit from the live repository, prioritizing deterministic index metadata/count/record projection equality checks and any remaining producer/validator drift. If no concrete contradiction remains, return to the active P1 skill acquisition/DLC-version provenance cleanup rather than making cosmetic changes.
