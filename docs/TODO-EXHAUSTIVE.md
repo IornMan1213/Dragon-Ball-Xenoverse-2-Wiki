@@ -1391,3 +1391,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] `skills-index.json` was not modified because it does not represent `dlc_requirement`.
 - [x] CI success remains unclaimed because no workflow run/check is exposed by the GitHub connector.
 - [ ] Next provenance batch: fresh live DLC-label/source-relationship census outside Dragon Ball DAIMA Pack; prioritize another deterministic DLC/PQ cluster and preserve intentional mentor, character-only, free-update, and platform-dependent classifications.
+
+
+### 2026-09-21 — Master ledger completion marking: Ultra Pack 1 character-skill completeness correction
+- [x] Live Ultra Pack 1 provenance census completed against official DLC scope: Bandai Namco documents 5 PQs and 10 additional skills; current canonical records already contained the ten PQ-acquirable skills plus character-exclusive Final Charge and Final Flash (Super).
+- [x] Newly discovered canonical completeness gap: **Pretty Charge** was documented as Ribrianne's Ultra Pack 1 character-exclusive charging skill but was absent from `docs/data/skills.json`.
+- [x] Added `skill-pretty-charge` as a bounded character-only record with `dlc_requirement=Ultra Pack 1`, `usable_by_cac=false`, and no unsupported numeric Ki cost or reward gate.
+- [x] Evidence: current technique documentation identifies Pretty Charge as Ribrianne's unique Ki-charging skill in Xenoverse 2 and associates it with Ultra Pack 1; the official Ultra Pack 1 announcement confirms the DLC's characters/skills/PQs. Citation/UI markers are not stored in repository prose.
+- [x] Post-write validation: **429 canonical skill records / 0 duplicate IDs / 0 nullable `ki_cost` values**. Ultra Pack 1 now contains **13 records**: 10 PQ-acquirable skills + 3 documented character-only skills (Final Charge, Final Flash (Super), Pretty Charge).
+- [x] Existing intentional character-only classifications were preserved; no DLC labels were reassigned in this pass.
+- [x] Canonical commit: `f0ece84b7f1168dc7dc0a919c58e5c1fea246556`.
+- [ ] Next task: continue the exhaustive character-only/DLC completeness audit for the remaining DLC clusters, starting with the next deterministic cluster and adding missing canonical endpoints only when independently supported.
