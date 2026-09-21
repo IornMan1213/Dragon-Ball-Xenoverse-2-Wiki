@@ -1243,3 +1243,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; four-record batch remains structurally intact.
 - [x] Evidence sources: official Dragon Ball site, Nintendo Future Saga Chapter 1 listing, Steam Future Saga Chapter 1 listing, and repository-linked Steam PQ guide.
 - [ ] Next provenance batch: fresh live census of source-to-DLC relationships, prioritizing a new bounded cluster where the canonical acquisition endpoint can be directly verified.
+
+
+### 2026-09-21 — Master ledger completion marking: Dimension Cannon Ki-cost
+- [x] **Dimension Cannon Ki-cost verification completed: 0 Ki / 300 Stamina.** Current Dimension Cannon evidence explicitly classifies it as a Ki Blast Evasive and lists **Stamina Used: 300**; no Ki expenditure is listed.
+- [x] Canonical `docs/data/skills.json` updated only in scope: `ki_cost=0`, `last_verified=2026-09-21`, plus a bounded verification note. No unsupported mechanics, acquisition, restriction, or DLC fields were changed.
+- [x] Post-write validation: **428 canonical skill records / 0 duplicate IDs / 0 nullable `ki_cost` records**. Dimension Cannon was re-read with `ki_cost=0`.
+- [x] Internal citation-artifact scan of the edited canonical file: **0 internal tool citation tokens**.
+- [x] CI inspection: commit `a1ced5427c492ebbb260c096e7bf1133154fbae9` exposed **no workflow runs** through the repository connector; CI success is unavailable and was not claimed. Validators were not weakened.
+- [x] Evidence source: https://dbxv2.fandom.com/wiki/Dimension_Cannon
+- [ ] Next skill provenance batch: **fresh DLC-label/source-relationship census**, beginning with the remaining context-rich/free-update labels and deterministic source relationships; preserve composite/platform-dependent classifications unless direct evidence supports normalization.
