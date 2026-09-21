@@ -3532,3 +3532,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index now identify **PQ183 — "Broly vs. Broly" Basic Reward**; the prior PQ184 dedicated-page claim is retained as conflicting historical evidence.
 - Commits: `cbf82e1d5175076a801a99d8a408d4742064ebfe` (canonical), `cf62d99daef7e3e9f41e401a4b010c0d7dfd853e` (index), audit `793a620e074b9da5bab84674e178fc6f1644d864`.
 - Exact next task: continue the remaining late-PQ conflict census, prioritizing records where the maintained reward-normalization map explicitly identifies a more specific quest/reward relationship than the skill record currently states.
+
+
+### 2026-09-20 cycle update — Steel Mirage provenance-note cleanup
+- Continued the late-PQ conflict census and cleaned a duplicated/confusing **Steel Mirage** provenance note.
+- Canonical/index acquisition semantics remain unchanged: PQ165 Ultimate Finish bonus-slot route (45%); the conflicting Basic Reward presentation remains documented.
+- Commits: `7caa8ed1fb1e19b6b3c551b4c81531c7783f0b2d` (canonical), `f9580c55e434c31e7812d19dd856d9ff1957871c` (index), audit `f47a953c4524a866a326eb4f4c7cbf6920bcd374`.
+- Exact next task: continue deterministic late-PQ provenance corrections; avoid changing records where current sources still disagree on reward tier or Ultimate Finish conditions.
