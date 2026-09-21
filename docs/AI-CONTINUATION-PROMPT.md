@@ -3501,3 +3501,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - No Ultimate Finish requirement or forced resolution was introduced.
 - Audit commit: `10fe88d8a3846296d88d235100d8387367769d0c`.
 - Exact next task: **continue the remaining acquisition/provenance audit, prioritizing records where route evidence is contradictory or structured provenance is still incomplete; do not resolve direct source conflicts without stronger independent evidence.**
+
+
+### 2026-09-20 cycle update — Teleporting Vanishing Ball provenance clarification
+- Reconciled **Teleporting Vanishing Ball** against current PQ62 reward evidence and dedicated skill documentation.
+- PQ62's maintained reward guide places the skill in Basic Rewards, while dedicated documentation confirms PQ62 as the unlock quest. Historical community discussion questioned UF gating, but current evidence does not establish an Ultimate Finish-only requirement.
+- Canonical/index now use the concrete PQ62 Basic Reward wording and retain `ultimate_finish_required: false`.
+- Commits: `3a43a00bf46e6e8243ad4d1959ae99a31f52a621` (canonical), `90bcf51c4e8b81aa5a6c95dab04a99718be584ae` (index), `bc56bae675238ed22b261cb7257b944ce14c0121` (audit).
+- Exact next task: **continue the remaining acquisition/provenance conflict census, prioritizing records where current reward data can replace older generic or contradictory wording without inventing drop probabilities.**
