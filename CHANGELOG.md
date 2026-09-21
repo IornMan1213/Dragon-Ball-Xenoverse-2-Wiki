@@ -752,3 +752,10 @@
 - Reconciled three deterministic `source_quest` projection gaps in `docs/data/skills-index.json`: Drain Field → PQ95, Flash Bomber → PQ95, and Rakshasa's Claw → PQ57.
 - The values already existed in canonical `docs/data/skills.json`; no acquisition semantics or evidence state were changed.
 - Cross-layer validation now finds zero `skills.json` source-quest values missing from the skill index.
+
+
+## 2026-09-21 — Mentor skill DLC provenance cleanup
+- Refined the four previously generic `DLC` skill provenance values: God Splitter, Heavenly Arrow, and Instant Severance → Extra Pack 1; Time Skip/Tremor Pulse → Super Pack 1.
+- Canonical file: `docs/data/skills.json`; no skill-index projection change was required.
+- Validation: 429 skills; 0 missing DLC provenance; 0 generic `DLC` values remaining. CI status unavailable; no CI success claimed.
+- Commit: `9ca5147646a60ceb411dfca5dfdfb924e8a566d2`.
