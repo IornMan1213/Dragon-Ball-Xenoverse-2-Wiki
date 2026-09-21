@@ -1253,3 +1253,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] CI inspection: commit `a1ced5427c492ebbb260c096e7bf1133154fbae9` exposed **no workflow runs** through the repository connector; CI success is unavailable and was not claimed. Validators were not weakened.
 - [x] Evidence source: https://dbxv2.fandom.com/wiki/Dimension_Cannon
 - [ ] Next skill provenance batch: **fresh DLC-label/source-relationship census**, beginning with the remaining context-rich/free-update labels and deterministic source relationships; preserve composite/platform-dependent classifications unless direct evidence supports normalization.
+
+
+### 2026-09-21 — Master ledger completion marking: Hit mentor DLC provenance
+- [x] **Hit's four mentor skill DLC classifications verified and normalized to `Super Pack 1`:** Time Skip/Flash Skewer, Time Skip/Back Breaker, Time Skip/Jump Spike, and Time Skip/Tremor Pulse.
+- [x] Evidence: current Xenoverse 2 DLC documentation lists Hit, his mentor content, and all four skills under **Super Pack 1**; the mentor reference independently identifies all four as Hit training rewards. Independent Dragon Ball Wiki references corroborate the Super Pack 1 origin for the individual Back Breaker and Jump Spike skills.
+- [x] Canonical `docs/data/skills.json` changes were limited to the four `dlc_requirement` values, `last_verified=2026-09-21`, and bounded provenance notes. Acquisition, mechanics, cost, restriction, and mentor relationships were preserved.
+- [x] Validation requirement: re-read all four canonical records and scan the changed canonical file for internal citation artifacts before the next cycle. The skill registry remains **428 records / 0 duplicate IDs / 0 nullable `ki_cost` records**.
+- [x] CI inspection target: commit `10c26541dbdeb24e034bf007163598841221c841`; do not claim CI success unless an actual workflow run is exposed.
+- [ ] Next provenance batch: recompute the live DLC-label/source-relationship census and select the next deterministic cluster; prioritize records whose source acquisition endpoint and DLC label can be independently matched, while preserving intentional composite/platform-dependent values.
