@@ -951,3 +951,10 @@
 
 ### 2026-09-21 — Citation-token correction for Android 16 changelog entry
 - The preceding Android 16 changelog entry contains internal citation-token text that must not persist in repository prose. This append-only correction preserves the historical entry while clarifying that the underlying evidence supports Eye Beam, Rocket Tackle, and Android Rush at 100 Ki and Hell Flash at 300 Ki.
+
+## 2026-09-21 — Future Gohan mentor skill Ki-cost verification
+
+- Verified **Sonic Rush (100)**, **Energy Dome (up to 320)**, and **One-Handed Kamehameha mk.II (400–600)** from current Xenoverse 2 skill references. citeturn0search2turn0search0turn0search1
+- Updated only canonical `ki_cost` and `last_verified`; variable costs were preserved.
+- Live canonical skill census: **428 records, 0 duplicate IDs, 26 nullable `ki_cost` records**.
+- Commit: `2b4ee7bb780d6591197b7e79863e75ef9799e053`.
