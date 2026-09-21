@@ -5118,3 +5118,8 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Corrected the display-name mismatch **Giant Cluster → Gigantic Cluster** while retaining skill-giant-cluster as the stable ID.
 - Synchronized the skill index's stale record count from 428 to **429**.
 - Validation: 429 canonical records, 429 index records, 0 duplicate IDs, and 15 Chapter 1 DLC-labeled skill records.
+
+### 2026-09-21 — Pretty Charge index parity correction
+- Validation found a pre-existing canonical/index projection gap: Pretty Charge existed in the 429-record canonical skills layer but was absent from the 428-record skills index.
+- Added the existing canonical Pretty Charge projection to the index and synchronized index record_count to 429.
+- Final skill-layer parity: 429 canonical records / 429 index records / 0 duplicate IDs.
