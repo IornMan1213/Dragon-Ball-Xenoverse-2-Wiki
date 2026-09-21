@@ -1115,3 +1115,7 @@
 ### 2026-09-21 — Legendary Pack 1 low-source provenance strengthening
 - Added official Legendary Pack 1 package provenance to Burning Shot, Destructive Fission, Destructive Flare, and Hyper Tornado.
 - Preserved all acquisition and reward semantics.
+
+### 2026-09-21 — PQ147 Legendary Pack 2 provenance strengthening
+- Added official DLC provenance to Crush Cannon, Double Crush, and Crush Stream.
+- Preserved existing PQ147 acquisition and reward semantics.
