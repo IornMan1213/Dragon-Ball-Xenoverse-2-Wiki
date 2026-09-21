@@ -3289,15 +3289,16 @@
       "mechanics_notes": "Confirmed as 100-Ki PQ49 Power Up Super. It knocks back nearby enemies on activation and grants 10% damage reduction for 20 seconds. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Do_or_Die"
+        "https://dbxv2.fandom.com/wiki/Do_or_Die",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 49,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 verification: current skill references identify Parallel Quest 49 as the acquisition route; no Ultimate Finish-only requirement assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 low-source provenance strengthening: a second maintained Steam PQ reward transcription independently lists Do or Die under PQ49. The existing PQ49 Basic Reward semantics are preserved; no additional drop condition or probability is inferred.",
       "id": "skill-do-or-die",
       "source_parallel_quests": [
         49
