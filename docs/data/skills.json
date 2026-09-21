@@ -1795,11 +1795,11 @@
       "unlock_method": "Expert Mission 20 — \"Harbinger of Doom\" Basic Reward.",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Extra Pack 1",
+      "dlc_requirement": "Free Update 5",
       "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom",
       "source_quest": "EM-20",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Data Input in the EM20 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Data Input in the EM20 Basic Reward pool; no Ultimate Finish-only condition is inferred. 2026-09-21 provenance correction: Extra Pack 1 officially contains 13 new skills, while Data Input is documented as a free-update Expert Mission 20 reward rather than one of those 13 paid-pack skills; its acquisition provenance is therefore separated from Extra Pack 1 despite Android 13 having Data Input in its preset.",
       "id": "skill-data-input"
     },
     {
