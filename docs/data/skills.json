@@ -3577,7 +3577,8 @@
         "https://dbxv2.fandom.com/wiki/Burst_Charge",
         "https://gamefaqs.gamespot.com/xboxone/212182-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
         "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
-        "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
+        "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest 134 — \"Universe 7's Next God of Destruction\" Basic Reward",
@@ -3588,7 +3589,7 @@
       "source_quest": 134,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Extra Pack-era DLC",
+      "dlc_requirement": "Ultra Pack 1",
       "mechanics_notes": "Confirmed as Other Super from PQ134 and usable by all CaC races. It starts charging extremely quickly and slows over time, making short bursts its intended use.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Burst Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing."
@@ -4155,7 +4156,8 @@
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Ultimate_Charge",
         "https://gamefaqs.gamespot.com/xboxone/212182-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
-        "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
+        "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest 134 — \"Universe 7's Next God of Destruction\" Basic Reward",
@@ -4166,7 +4168,7 @@
       "source_quest": 134,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Extra Pack-era DLC",
+      "dlc_requirement": "Ultra Pack 1",
       "mechanics_notes": "Confirmed as the 0-Ki Other Super from PQ134's Ultimate Finish, usable by all CaC races. Its charge rate improves the longer the charge is maintained.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Ultimate Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing."
