@@ -4544,3 +4544,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No canonical skill acquisition semantics were changed; this cycle reconciled only the relationship layer in `docs/data/mentor-skill-crosslink-report.json`.
 - Validation target after promotion: **33 canonical mentors / 29 linked mentors / 116 edges / 116 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
 - Exact next batch: **remaining unlinked mentor identities**, beginning with a live audit of the canonical 33-mentor layer against `skills-index.json`; promote only exact lesson→skill-ID→`source_mentor` matches and document any mentor with no deterministic endpoints.
+
+
+### 2026-09-21 cycle update — Gohan (Future)/Bardock/Bojack/Zamasu mentor-skill reconciliation
+- Promoted **15 deterministic mentor→skill edges**: Gohan (Future) (4), Bardock (4), Bojack (4), and Zamasu (3).
+- Evidence gate: each promoted endpoint matched the canonical mentor lesson `skill_id` and the corresponding `source_mentor` field in `docs/data/skills-index.json`.
+- Zamasu's Initiation lesson, **“I'm thinking of becoming a GodTuber,”** has no canonical skill ID in the skill index and was intentionally left unlinked; no unsupported endpoint was invented.
+- Live report totals after promotion: **33 canonical mentors / 33 linked mentors / 131 mentor→skill edges / 131 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
+- No canonical skill acquisition semantics were changed.
+- Exact next batch: **audit whether any additional bidirectional/reverse-navigation layer is required by the continuation/addendum rules; if not, move to the next explicitly prioritized coverage gap rather than inventing more mentor relationships.**
