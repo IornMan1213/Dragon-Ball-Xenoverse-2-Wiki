@@ -5077,3 +5077,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Live canonical census remains **146 Super Souls / 186 PQs / 56 forward / 56 reverse / 46 unique PQ endpoints / 56 unique Super Soul endpoints / 90 unresolved routes / 0 broken endpoints**.
 - The maintained Madreag source corpus has only **two records after Send me back to the planet I came from!**: **So fast! Are they learning how to use their power?!** and **Enough food for one person...**. Therefore the exact next bounded source-corpus batch is **those two records**, after duplicate identity reconciliation; do not assume an eight-record batch beyond the end of the current corpus.
 - CI: workflow runs and combined statuses remain unavailable/empty for all commits in this cycle; no CI success is claimed.
+
+### 2026-09-21 cycle update — Super Soul 152–153 terminal source-corpus batch
+- Live census before editing: **146 canonical Super Souls / 186 canonical PQ records**.
+- Bounded batch: **Super Soul 152–153** — So fast! Are they learning how to use their power?!; Enough food for one person.... These were the exact two unique records remaining after Send me back to the planet I came from! in the maintained Madreag source corpus.
+- Research/evidence: exact item pages from the maintained Madreag corpus. Both are 5th Festival of Universes Total Glory Point rewards with TP Medal Shop rotation. Neither has an explicit PQ endpoint; no cross-domain route was inferred.
+- Changes: added super-soul-152 and super-soul-153; rebuilt docs/data/pq-super-soul-crosslink-report.json; updated docs/COVERAGE-AUDIT.md and CHANGELOG.md. No PQ record changes were required.
+- Evidence limits/conflicts preserved: datamined effect classes and acquisition are separated from community-measured magnitudes/durations.
+- Validation: **148 canonical Super Souls / 186 canonical PQs / 56 forward / 56 reverse edges / 46 unique PQ endpoints / 56 unique Super Soul endpoints / 92 unresolved routes / 0 broken endpoints**. Changed JSON parsed; endpoint parity passed; internal UI/search citation artifact scan returned 0.
+- CI: workflow runs/statuses remain unavailable; no CI success claimed.
+- Commits: 00632ed3ce13e90ee42dd833a2308c450be40e6d, 60bc7c36e5ca17fa1555dea68c2e7fa77e02208f, bc4f8fab3e9689747229a535183be4569f628eef, bebc2d13f7edf5a92307b5c6e3f5a54062508a9c.
+- Exact next batch: **Super Soul source corpus is exhausted at this maintained frontier. Pivot to the highest-priority deterministic validator/index mismatch or another explicitly prioritized repository corpus; do not invent records beyond the inspected source corpus.**
