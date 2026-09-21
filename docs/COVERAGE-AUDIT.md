@@ -5156,3 +5156,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: workflow status must be checked separately; no CI success is claimed without an exposed run/check.
 - Commits: canonical `cb7cae9327cdf4b6881d6238e69bae1204ba5b9c`; index `ae196b957734334a964b59f6206815a48385d167`.
 - Exact next task: recompute the live DLC/free-update census again and select the next deterministic cluster with a concrete missing endpoint or provenance mismatch; preserve intentional composite/platform-dependent labels.
+
+
+### 2026-09-21 — DLC package-count census: intentional character-only surplus reconciliation
+- Live canonical skill census: **443 records / 443 index records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Audited package labels against official documented **Additional Skills/Moves** counts rather than treating every record carrying a DLC label as a package reward endpoint.
+- **Ultra Pack 1:** official Bandai Namco documentation lists **10 Additional Skills**. The canonical registry has **13 Ultra Pack 1-labeled records**: 10 Future Warrior-acquirable PQ skills plus character-exclusive **Final Charge, Final Flash (Super), and Pretty Charge**. Current technique documentation explicitly identifies those three as character-exclusive Ultra Pack 1 skills, so the 13-record canonical label is retained rather than deleting or relabeling them.
+- **Conton City Vote Pack:** official publisher/store documentation lists **10 Additional Moves**. The canonical registry has **11 labeled records**: eight PQ-linked moves plus character-only **Supersonic Mode**, with the ten additional-move scope represented separately from the character-only roster skill. The existing composite label is retained.
+- **Extra Pack 4:** official documentation lists **8 Additional Skills** and the canonical registry has exactly 8; no correction indicated.
+- **Extra Pack 3:** official documentation lists **8 Additional Skills** and the canonical registry has exactly 8; no correction indicated.
+- Result: **no canonical rewrite required in this census batch**. The apparent 13-vs-10 and 11-vs-10 differences are documented composite/character-only label semantics, not demonstrated missing or duplicate package endpoints.
+- Exact next task: continue the DLC/free-update census into remaining free-update/composite labels and identify a concrete missing endpoint or provenance mismatch before modifying canonical data.
