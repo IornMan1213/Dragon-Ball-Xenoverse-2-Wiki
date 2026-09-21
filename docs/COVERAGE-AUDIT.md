@@ -5236,3 +5236,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Concrete data-integrity mismatch: Kamehameha had PQ48 in `source_parallel_quests`; PQ48 documents Kamekameha instead.
 - Corrected to PQ05 only and added independent PQ/skill evidence. citeturn2search0turn2search1turn2search2
 - Commit: `48d0d0b7bd17e4f858c565d189feb12e189fba88`.
+
+
+### 2026-09-21 — Burst Reflection provenance strengthening
+- Burst Reflection had only a category-level Counter Skills source while its canonical record asserted a specific Shenron-wish acquisition.
+- Direct skill sources were added; no PQ or gameplay semantics were invented or changed.
+- Commit: `0b16ab3b7a40930c37f9fb1732cf1f1a08b21706`.
