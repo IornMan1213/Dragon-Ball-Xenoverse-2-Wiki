@@ -121,15 +121,15 @@
       "pq_record_id": "pqacc-016",
       "name": "Yamcha Baseball Hat",
       "pq": 97,
-      "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "canonical_id": "accr-097",
+      "match_status": "matched"
     },
     {
       "pq_record_id": "pqacc-017",
       "name": "SSGSS Vegeta Wig",
       "pq": 100,
-      "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "canonical_id": "accr-098",
+      "match_status": "matched"
     },
     {
       "pq_record_id": "pqacc-018",
@@ -142,15 +142,15 @@
       "pq_record_id": "pqacc-019",
       "name": "Bulma (Kid) Wig",
       "pq": 149,
-      "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "canonical_id": "accr-099",
+      "match_status": "matched"
     },
     {
       "pq_record_id": "pqacc-020",
       "name": "Great Saiyaman Helmet",
       "pq": 51,
-      "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "canonical_id": "accr-100",
+      "match_status": "matched"
     },
     {
       "pq_record_id": "pqacc-021",
