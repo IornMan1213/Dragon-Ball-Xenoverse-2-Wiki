@@ -5563,3 +5563,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: canonical commit `e0a1e5ebb5131c037e0d62e96996029d4803305e` had no actionable workflow/status result exposed; **no CI success claimed**. A repository audit entry briefly contained an internal citation-token fragment; an append-only correction was added.
 - Commits: `e0a1e5ebb5131c037e0d62e96996029d4803305e` (canonical), `eb245010c438c5acce537ecc8589339e83543c61` (audit), `02dcb4103a528ae4eb5350052f0dd9158db6121f` (changelog), plus this handoff update.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+### 2026-09-21 — Whis mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 38 nullable `ki_cost` records**.
+- Bounded batch: **Finishing Blow (100), Prelude to Destruction (100), Strike of Revelation (100), Symphonic Destruction (300)** from Whis mentor training.
+- Research/evidence: current Xenoverse 2 references identify all four as Whis skills; current skill-cost evidence supports **100 Ki** for the three Super skills and **300 Ki** for Symphonic Destruction. The canonical classifications remain unchanged.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **34**. No skill-index Ki-cost projection introduced.
+- CI: canonical commit `84aecf7a0f768f278f2aabaa45aa703e8a4bb281` had no actionable workflow/status result exposed; **no CI success claimed**.
+- Commits: `84aecf7a0f768f278f2aabaa45aa703e8a4bb281` (canonical), `b36ad2f5b71e00c4396aad725d17390b1ca9a3ff` (audit), `49aa412fbc55078f64de727af3b4da9dcdec478e` (changelog), plus this handoff update.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
