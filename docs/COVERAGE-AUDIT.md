@@ -4536,3 +4536,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Live report totals: **33 canonical mentors / 27 linked mentors / 103 edges / 103 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
 - No skill acquisition semantics were changed.
 - Exact next batch: **Whis, Pan, Jaco, and Goku**, using the same lesson↔skill-ID↔source_mentor parity check.
+
+### 2026-09-21 cycle update — Whis/Pan/Jaco/Goku mentor-skill reconciliation
+- Live mentor census before editing: **33 canonical mentors / 27 mentors with linked skills / 103 mentor→skill edges / 103 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
+- Promoted **13 deterministic mentor→skill edges** supported by canonical mentor lesson mappings plus matching `source_mentor` provenance: Whis (4), Pan (3 new), Jaco (4), Goku (2 new).
+- Existing Pan `Dancing Parapara` and Goku `Spirit Bomb` / `Instant Transmission` edges were preserved without duplication.
+- No canonical skill acquisition semantics were changed; this cycle reconciled only the relationship layer in `docs/data/mentor-skill-crosslink-report.json`.
+- Validation target after promotion: **33 canonical mentors / 29 linked mentors / 116 edges / 116 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
+- Exact next batch: **remaining unlinked mentor identities**, beginning with a live audit of the canonical 33-mentor layer against `skills-index.json`; promote only exact lesson→skill-ID→`source_mentor` matches and document any mentor with no deterministic endpoints.
