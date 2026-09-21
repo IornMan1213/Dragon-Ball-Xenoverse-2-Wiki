@@ -4871,7 +4871,9 @@
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot.",
       "source_quest": "Cell (Perfect) mentor training",
       "source_quest_or_shop": "Training with Cell (Perfect)",
-      "source_mentor": "mentor-cell"
+      "source_mentor": [
+        "mentor-cell"
+      ]
     },
     {
       "id": "skill-petrifying-spit",
@@ -6126,7 +6128,9 @@
       "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile.",
       "source_quest": "Goku mentor training",
       "source_quest_or_shop": "Training with Goku",
-      "source_mentor": "mentor-goku"
+      "source_mentor": [
+        "mentor-goku"
+      ]
     },
     {
       "id": "skill-spirit-boost",
