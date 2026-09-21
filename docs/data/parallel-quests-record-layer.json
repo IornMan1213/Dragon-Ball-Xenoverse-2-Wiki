@@ -2243,7 +2243,9 @@
         "Vanishing Ball"
       ],
       "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "super_soul_rewards": [
+        "Killed all Earthlings!"
+      ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
@@ -2252,6 +2254,9 @@
       ],
       "skill_ids": [
         "skill-vanishing-ball"
+      ],
+      "super_soul_ids": [
+        "super-soul-049"
       ]
     },
     {
@@ -4295,6 +4300,12 @@
       ],
       "skill_ids": [
         "skill-assault-vanish"
+      ],
+      "super_soul_rewards": [
+        "Leave the rest to me!"
+      ],
+      "super_soul_ids": [
+        "super-soul-055"
       ]
     },
     {
