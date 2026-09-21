@@ -1126,3 +1126,6 @@
 
 ### 2026-09-21 — PQ97/PQ110 provenance
 - Strengthened Charged Ki Wave and Divinity Unleashed provenance while preserving existing acquisition semantics.
+
+### 2026-09-21 — PQ171 provenance
+- Strengthened Crimson Edge and Divine Spear provenance while preserving existing acquisition semantics.
