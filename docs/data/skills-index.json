@@ -59,15 +59,16 @@
         "https://dbxv2.fandom.com/wiki/Awoken_Skill",
         "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan",
         "https://dbxv2.fandom.com/wiki/Super_Saiyan_God_Super_Saiyan_(Evolved)",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497359?page=14",
+        "https://www.powerpyx.com/dragon-ball-xenoverse-2-how-to-unlock-secret-game-ending-unknown-history/"
       ],
-      "unlock_method": "Vegeta's Capsule Corporation Time Rift; complete the required Super Saiyan/Super Vegeta progression and obtain the skill from Vegeta.",
+      "unlock_method": "Complete the five Conton City Time Rift questlines to obtain the five Distorted Time Eggs, unlock the Unknown History secret story mission, and complete it to receive Future Super Saiyan.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "Saiyan",
-      "notes": "Saiyan CaC-only Awoken Skill. Current references identify it as the Saiyan transformation route; it is not a cast-exclusive form.",
+      "notes": "Saiyan CaC-only Awoken Skill. Current references identify it as the Saiyan transformation route; it is not a cast-exclusive form. 2026-09-20 provenance correction: current external walkthrough evidence places Future Super Saiyan in the Unknown History secret story route; the prior Capsule Corporation/Vegeta source wording conflicted with that evidence and was replaced rather than retained as current provenance.",
       "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation.",
-      "source_quest": "Vegeta training — Capsule Corporation Time Rift"
+      "source_quest": "Unknown History — secret story mission"
     },
     {
       "name": "Power Pole Pro",
@@ -3224,11 +3225,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Data_Input"
       ],
-      "unlock_method": "Expert Mission 20 — \"Harbinger of Doom\" reward; exact reward-generation/drop condition remains unresolved.",
+      "unlock_method": "Expert Mission 20 — \"Harbinger of Doom\" Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Data Input in the EM20 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
       "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks.",
       "source_quest": "Expert Mission 20 — Harbinger of Doom"
     },
@@ -3319,11 +3320,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_K"
       ],
-      "unlock_method": "Skill Shop reward.",
+      "unlock_method": "Story — \"The Ginyu Force Strikes\" unlocks the Skill Shop listing; purchase Fighting Pose K from the Skill Shop.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Skill Shop is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence.",
+      "notes": "2026-09-20 source-quality refinement: the acquisition route is tied to the story mission \"The Ginyu Force Strikes\" and the subsequent Skill Shop listing; no Ultimate Finish-only condition is inferred.",
       "mechanics_notes": "Confirmed as 0-Ki Skill Shop Power Up Super after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; usable by all CaC races.",
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
     },
@@ -5223,11 +5224,11 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb"
       ],
-      "unlock_method": "Expert Mission 16 — \"In the Realm of the Gods: Vegeta\" reward; exact reward-generation/drop condition remains unresolved.",
+      "unlock_method": "Expert Mission 16 — \"In the Realm of the Gods: Vegeta\" Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Super Spirit Bomb in the EM16 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
       "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile.",
       "source_quest": "Expert Mission 16 — In the Realm of the Gods: Vegeta"
     },
@@ -5242,11 +5243,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Ultimates",
         "https://dragonball.fandom.com/wiki/Supernova"
       ],
-      "unlock_method": "Expert Mission 6 — \"The Depths of Despair\" reward; exact reward-generation/drop condition remains unresolved.",
+      "unlock_method": "Expert Mission 6 — \"The Depths of Despair\" Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
       "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere.",
       "source_quest": "Expert Mission 6 — The Depths of Despair"
     },
