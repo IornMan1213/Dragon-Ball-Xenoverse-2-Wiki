@@ -5812,3 +5812,14 @@ The repository owner has clarified the continuation contract:
 - Evidence limits: no acquisition route, Ki cost, mechanics, or restriction fields were changed because they were already supported.
 - Commits: `c58185848b12f01687b38282640f03c498247334` (canonical); `35a45e9088084c952b683fd2518ead97239cc390` (index).
 - Exact next task: recompute the live DLC mismatch census, validate canonical/index parity and artifact cleanliness, inspect Actions, then take the next bounded high-confidence provenance correction.
+
+
+### 2026-09-21 cycle update — Extra Pack DLC provenance normalization
+- Live census before editing: **428 canonical skills**. A targeted DLC census found 10 skills still using the ambiguous composite label `Extra Pack 1 / Extra Pack 2`, despite their source PQs falling entirely within a single pack's deterministic range.
+- Evidence: maintained PQ mapping assigns **PQ113–117 to Extra Pack 1** and **PQ118–122 to Extra Pack 2**; official Bandai Namco documentation confirms Extra Pack content includes the added Parallel Quests. citeturn0search5turn0search8
+- Changes in `docs/data/skills.json`: 8 affected skills normalized to Extra Pack 1 and 2 affected skills to Extra Pack 2. The generated/index projection did not contain the `dlc_requirement` field, so no artificial index field was introduced.
+- Additional bounded normalization: `FUTURE SAGA Chapter 3` → `Future Saga Chapter 3` for Chaotic Time Impact, Dark Inscription, and Emperor's Cannon, aligning the value with the repository's canonical chapter naming.
+- Validation after write: **428 records; 0 duplicate IDs; 1 nullable ki_cost (Dimension Cannon); 428/428 canonical IDs represented in skills-index.json; 0 legacy composite/case-variant labels; 0 internal citation artifacts in changed data/index files.**
+- CI: Actions lookup for commits `2bde139dd5b8bd5ab41d03ffa66d198250ce3eb8` and `e956fba7eba2a72f052fb93451b4241daf3f6423` returned no workflow runs; CI status remains unavailable.
+- Commits: `2bde139dd5b8bd5ab41d03ffa66d198250ce3eb8` and `e956fba7eba2a72f052fb93451b4241daf3f6423`.
+- Exact next task: **fresh live census of remaining non-canonical DLC labels and source-to-DLC relationships**, prioritizing deterministic source ranges before researching any free-update/platform-dependent composites.
