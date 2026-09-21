@@ -49,8 +49,9 @@ def main():
   if r.get('acquisition_type') not in ALLOWED_ACQUISITION:errors.append(f"{r.get('name')}: invalid acquisition_type {r.get('acquisition_type')}")
   acquisition=r.get('acquisition_type'); has_quest=r.get('source_quest') not in (None,'')
   if acquisition=='quest_or_mission' and not has_quest:errors.append(f"{r.get('name')}: quest_or_mission acquisition requires source_quest")
-  if acquisition!='quest_or_mission' and has_quest:errors.append(f"{r.get('name')}: non-quest acquisition cannot have source_quest")
+  if acquisition in {'tp_medal_shop','character_only','starting_move','other_nonquest'} and has_quest:errors.append(f"{r.get('name')}: {acquisition} acquisition cannot have source_quest")
   if acquisition in {'skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'} and not r.get('source_quest_or_shop'):errors.append(f"{r.get('name')}: {acquisition} acquisition requires source_quest_or_shop")
+  if acquisition=='parallel_quest' and not any(str(r.get(f,'' )).casefold().find('parallel quest') >= 0 or str(r.get(f,'' )).casefold().find('pq') >= 0 for f in ('source_quest','source_quest_or_shop','unlock_method')):errors.append(f"{r.get('name')}: parallel_quest acquisition requires explicit PQ provenance")
   if isinstance(r.get('source_quest'),int) and (r.get('source_quest') < 1 or r.get('source_quest') > 186):errors.append(f"{r.get('name')}: numeric source_quest must be a canonical PQ ID from 1 through 186")
   uf=r.get('ultimate_finish_required')
   if uf not in (None,True,False):
