@@ -4913,7 +4913,8 @@
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_C",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "unlock_method": "Parallel Quest 13 reward.",
       "ultimate_finish_required": false,
@@ -4926,7 +4927,7 @@
       "source_quest": 13,
       "dlc_requirement": "Base Game",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 low-source provenance strengthening: Yhan Game independently lists Fighting Pose C as a Basic Reward for PQ13 — Namekian Dragon Balls, corroborating the existing acquisition endpoint.",
       "id": "skill-fighting-pose-c",
       "source_parallel_quests": [
         13
