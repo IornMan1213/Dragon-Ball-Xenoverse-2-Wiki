@@ -93,8 +93,11 @@ def load_existing():
  return m
 def merge_record(m,r,protected=None,blocked=None):
  protected=protected if protected is not None else set(); blocked=blocked if blocked is not None else set()
- n=r.get('name');
- if not n:return False
+ n=r.get('name')
+ if not isinstance(n,str) or not n.strip():return False
+ target_class=r.get('class',''); target_subcategory=r.get('subcategory','')
+ if not isinstance(target_class,str) or not target_class.strip() or not isinstance(target_subcategory,str) or not target_subcategory.strip():
+  raise ValueError(f"invalid skill key for {n}: class and subcategory must be non-empty strings")
  c=r.get('correction_of')
  if c is not None and not isinstance(c,dict):
   raise ValueError(f"invalid correction metadata for {n}: correction_of must be an object")
