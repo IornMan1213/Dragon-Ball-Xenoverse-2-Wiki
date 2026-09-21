@@ -4625,3 +4625,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI was not exposed for the direct commit; no CI success is claimed.
 - Commit: `e63d045ddeed4d2834d24511ddf1e07e885a5671` (canonical skill data), `dc601f01b9c6a950dd54a252e9198de1441dbf4c` (coverage audit).
 - Exact next batch: inspect the remaining 39 non-numeric sources for already-established canonical relationship IDs for mentor lessons, Advancement Tests, Time Rifts, story/Future Saga missions, and Shenron wishes. Normalize only when an existing repository identifier makes the join deterministic.
+
+
+### 2026-09-21 cycle update — mentor-to-skill cross-link batch
+- Live census: **305 skills / 33 indexed mentors**.
+- Added deterministic `source_mentor` endpoints for 8 mentor-derived skills: Dancing Parapara, Darkness Rush (Melee), Darkness Rush (Ranged), Deadly Dance, Death Ball, Destructo-Disc, Galick Gun, and Instant Transmission.
+- Canonical mentor IDs were taken directly from `docs/data/mentors.json`; existing acquisition prose remains intact.
+- Validation: **8 source_mentor links**, all conform to canonical `mentor-*` IDs, **0 internal UI citation artifacts** in canonical skills JSON.
+- Coverage audit updated.
+- CI was not exposed for the direct commit; no CI success is claimed.
+- Commit: `f5b642db98845c682c91e446a56112d52c93247d` (skill data), `7355344eb3a51ec10a6eba9d00db04ac0ef35c0d` (coverage audit).
+- Exact next batch: populate the remaining deterministic mentor-derived skill links, then formalize/audit the relationship representation so PQ → skill → mentor/other source navigation remains machine-linkable rather than prose-only.
