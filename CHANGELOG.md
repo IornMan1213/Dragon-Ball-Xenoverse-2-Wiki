@@ -1052,3 +1052,9 @@
 - Audited all ten canonical Legendary Pack 2 skills against official DLC documentation and live source-PQ relationships.
 - Confirmed all ten map to PQ147–150 with matching provenance.
 - No DLC provenance mismatch found; reward-tier and other semantics were not normalized.
+
+
+### 2026-09-21 — Conton City Vote Pack provenance audit
+- Audited all ten canonical Conton City Vote Pack skill/move records against official publisher/store documentation and maintained PQ evidence.
+- Confirmed the PQ-linked records fall within PQ151–154 and retain matching DLC provenance.
+- Preserved character-only Supersonic Mode semantics and existing drop-condition evidence rather than normalizing unrelated fields.
