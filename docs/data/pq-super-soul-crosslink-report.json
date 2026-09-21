@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 98,
+  "canonical_target_records": 106,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -227,6 +227,54 @@
       "target_name": "There's more where that came from!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-more-where-that-came-from.md"
+    },
+    {
+      "pq_id": "pq-156",
+      "pq_number": 156,
+      "target_id": "super-soul-106",
+      "target_name": "This is your true power?",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/this-is-your-true-power.md"
+    },
+    {
+      "pq_id": "pq-156",
+      "pq_number": 156,
+      "target_id": "super-soul-108",
+      "target_name": "Still haven't figured out you're gonna lose?",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/still-havent-figured-out-youre-gonna-lose.md"
+    },
+    {
+      "pq_id": "pq-157",
+      "pq_number": 157,
+      "target_id": "super-soul-105",
+      "target_name": "I'll be the one to fight you!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-be-the-one-to-fight-you.md"
+    },
+    {
+      "pq_id": "pq-157",
+      "pq_number": 157,
+      "target_id": "super-soul-107",
+      "target_name": "You need to be more careful.",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-need-to-be-more-careful.md"
+    },
+    {
+      "pq_id": "pq-158",
+      "pq_number": 158,
+      "target_id": "super-soul-109",
+      "target_name": "Heh heh! I'm not as rusty as I look!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/heh-heh-im-not-as-rusty-as-i-look.md"
+    },
+    {
+      "pq_id": "pq-158",
+      "pq_number": 158,
+      "target_id": "super-soul-110",
+      "target_name": "See? It's a good thing I was here, right?",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/see-its-a-good-thing-i-was-here-right.md"
     },
     {
       "pq_id": "pq-160",
@@ -617,6 +665,66 @@
       "pq_numbers": [
         153
       ]
+    },
+    {
+      "target_id": "super-soul-105",
+      "target_name": "I'll be the one to fight you!",
+      "pq_ids": [
+        "pq-157"
+      ],
+      "pq_numbers": [
+        157
+      ]
+    },
+    {
+      "target_id": "super-soul-106",
+      "target_name": "This is your true power?",
+      "pq_ids": [
+        "pq-156"
+      ],
+      "pq_numbers": [
+        156
+      ]
+    },
+    {
+      "target_id": "super-soul-107",
+      "target_name": "You need to be more careful.",
+      "pq_ids": [
+        "pq-157"
+      ],
+      "pq_numbers": [
+        157
+      ]
+    },
+    {
+      "target_id": "super-soul-108",
+      "target_name": "Still haven't figured out you're gonna lose?",
+      "pq_ids": [
+        "pq-156"
+      ],
+      "pq_numbers": [
+        156
+      ]
+    },
+    {
+      "target_id": "super-soul-109",
+      "target_name": "Heh heh! I'm not as rusty as I look!",
+      "pq_ids": [
+        "pq-158"
+      ],
+      "pq_numbers": [
+        158
+      ]
+    },
+    {
+      "target_id": "super-soul-110",
+      "target_name": "See? It's a good thing I was here, right?",
+      "pq_ids": [
+        "pq-158"
+      ],
+      "pq_numbers": [
+        158
+      ]
     }
   ],
   "unresolved_target_routes": [
@@ -939,16 +1047,26 @@
       "target_id": "super-soul-103",
       "target_name": "Emoc htorf! Peas and Carrots!",
       "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-104",
+      "target_name": "Looks like I mixed up the capsules...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-111",
+      "target_name": "I can tell you're an amateur by the way you pose!",
+      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 98,
-    "forward_edge_count": 34,
-    "reverse_edge_count": 34,
-    "unique_pq_endpoints": 28,
-    "unique_target_endpoints": 34,
-    "unresolved_target_route_count": 64,
+    "canonical_target_records": 106,
+    "forward_edge_count": 40,
+    "reverse_edge_count": 40,
+    "unique_pq_endpoints": 31,
+    "unique_target_endpoints": 40,
+    "unresolved_target_route_count": 66,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0
   }
