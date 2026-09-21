@@ -6437,3 +6437,8 @@ The repository owner has clarified the continuation contract:
 - CI: no new actionable workflow result was exposed during this cycle; no CI success is claimed and validators were not weakened.
 - Commits: canonical `10c9c4f5868e4fbe9d093db7f21242ffff397b09`; index `a6a11d5c8b19bbbd210d61e76909b2aa7d81e420`; ledger `9fe8f4869e9d7ac7a7a55ae3db636cbc9ee749c7`.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic acquisition/provenance cluster after PQ174, checking reward-tier/source-PQ consistency before provenance-only strengthening.**
+
+
+### 2026-09-21 handoff correction — internal citation cleanup
+- [x] Removed the accidental ChatGPT/web citation markup from the newly appended PQ172/PQ174 handoff entry; historical entries were left untouched per append-only rules.
+- [x] Final handoff commit for this cycle: `ebdff0b21e62af07ef03a282c09557b07297475f`.
