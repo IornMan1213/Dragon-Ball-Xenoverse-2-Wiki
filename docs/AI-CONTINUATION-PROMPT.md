@@ -6122,3 +6122,14 @@ The repository owner has clarified the continuation contract:
 - CI: no actionable workflow/status result is exposed for this documentation cycle; **no CI success is claimed**. Validators were not weakened.
 - Files changed: `docs/AI-CONTINUATION-PROMPT.md`, `docs/TODO-EXHAUSTIVE.md`, `docs/COVERAGE-AUDIT.md`, and `CHANGELOG.md`.
 - Exact next task: **recompute the full PQ reward-completeness census and select the next bounded 4–12 PQ range with empty/partial canonical rewards versus explicit research-batch rewards; prioritize deterministic reward inventory reconciliation and preserve unresolved slot/drop semantics.**
+
+### 2026-09-21 cycle update — Future Saga Chapter 1 skill provenance correction
+- Live census before editing: **429 canonical skill records / 428 index records before synchronization / 0 duplicate IDs**.
+- Bounded batch: the **15-skill Future Saga Chapter 1 cluster**.
+- Research/evidence: official Bandai Namco documentation states Future Saga Chapter 1 contains **15 skills/additional moves** and 12 PQs. Maintained DLC/PQ evidence identifies the 15-skill set as Gigantic Cluster, Eraser Bomb, Gigantic Explosion, Variable Snipe Shot, Steel Mirage, Pendulum Bullet, Seagull Combination, Burning Swan, Justice Drive, Crimson Edge, Divine Spear, Divine Ray Bomb, Big Bang Knuckle, Wild Stinger, and Final Rampage. PQ173 “Decoding Dinner” is explicitly a Chapter 1 quest and lists Divine Ray Bomb.
+- Changes: corrected **Divine Ray Bomb** DLC provenance from Future Saga Chapter 2 to Future Saga Chapter 1; refreshed its verification date and added bounded official DLC provenance. Corrected the canonical/index display name **Giant Cluster → Gigantic Cluster** while retaining the stable skill-giant-cluster ID for reference compatibility. Updated the index record count from stale 428 to **429**.
+- Evidence limits preserved: no acquisition route, Ultimate Finish flag, Ki cost, mechanics, or reward percentage was changed for Divine Ray Bomb. The naming correction does not change the stable ID.
+- Validation: **429 canonical records / 429 index records / 0 duplicate IDs / 15 Future Saga Chapter 1 DLC-labeled skill records**.
+- CI: no actionable workflow/status result is exposed; **no CI success is claimed**.
+- Commits: canonical e228c5b148f98ef4bcd9106598ea7b2ec0f3c29e; index 574f08f299739a183f90286a0cf632fd2255bb0b.
+- Exact next task: **recompute the remaining DLC-label/source-relationship census after this correction and select the next deterministic cluster with a documented provenance/count mismatch; prioritize character-only and DLC completeness gaps before low-confidence prose enrichment.**
