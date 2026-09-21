@@ -4477,3 +4477,8 @@ Only after data-completeness work, expose the improved structured research surfa
 - Registered the new reverse reports in `docs/data/pq-cross-domain-index.json` and added `scripts/validate_pq_reward_crosslinks.py` so these relationship sets can be reproducibly audited instead of maintained manually.
 - No speculative name-only links were created. Accessory edges require an existing canonical identity match; equipment/Super Soul edges require an explicit PQ endpoint in the canonical record.
 - Exact next task: extend the same deterministic relationship model from PQ reward sources into the **Super Soul ↔ skill/character/DLC** and **equipment/accessory ↔ shop/character-gift/raid/wish** routes, then promote relationship edges into first-class fields or a unified relationship graph consumed by search/detail pages. Preserve all unresolved/conflicted routes.
+
+### 2026-09-21 cycle update — CI inspection after reward cross-link batch
+- Latest handoff commit `ea2e85b15a58cba92aafdc1c46082195fd706d06` has Pages deployment queued.
+- The immediately preceding Repository quality and Clean internal artifacts runs for `6f1caae9a6b9287b9e8f96e8ff5e3ad89a5a5b4f` failed; the preceding commit's same checks also failed. Continue treating these as the repository's opaque runner/pre-step failure pattern unless actionable job steps/logs become available. No workflow or validator was weakened.
+- The Pages deployment associated with the previous commit was still in progress when inspected; no deployment success is claimed.
