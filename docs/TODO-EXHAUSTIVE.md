@@ -1138,3 +1138,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Evidence scope preserved: canonical update was limited to the unresolved ki_cost field; no unsupported combat data was imported.
 - [x] Post-write canonical validation: **428 records / 0 duplicate IDs / 6 nullable ki_cost records**.
 - [ ] Next unresolved Ki-cost queue: **God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**, with Dimension Cannon retained as the documented Stamina-only exception.
+
+
+### 2026-09-21 — Master ledger completion marking: God of Destruction's Might
+
+- [x] **God of Destruction's Might Ki-cost verification completed: 400 Ki.** Current dedicated skill evidence and the Ultimate Attack reference explicitly list Ki Used: 400.
+- [x] Evidence scope preserved: canonical update was limited to the unresolved ki_cost field; no unsupported combat mechanics were imported.
+- [x] Post-write canonical validation: **428 records / 0 duplicate IDs / 5 nullable ki_cost records**.
+- [ ] Next unresolved Ki-cost queue: **Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**, with Dimension Cannon retained as the documented Stamina-only exception.
