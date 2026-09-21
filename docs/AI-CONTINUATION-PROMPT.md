@@ -5971,3 +5971,13 @@ The repository owner has clarified the continuation contract:
 
 ### 2026-09-21 handoff correction
 - [x] Correction to the immediately preceding cycle entry: the canonical `docs/data/skills.json` commit is **`b6ce3fc487e275c8eefa50375afccdc35ee2d90f`**. The earlier abbreviated hash recorded above was incorrect; no repository data is affected by this documentation correction.
+
+
+### 2026-09-21 cycle update — character-association DLC census
+- Audited Extra Pack 2/3/4 character-associated skill records against direct acquisition/source data and official package descriptions.
+- Extra Pack 2 records Power Impact, Power Rush, Meditation, and Rough Ranger are directly tied to PQ119/120/122 and retain `Extra Pack 2`; official package documentation confirms Extra Pack 2 introduced 8 skills. citeturn0search0turn0search3
+- Extra Pack 3's eight records are tied to PQ123–127 and retain `Extra Pack 3`; Extra Pack 4's eight records are tied to PQ128–132 and retain `Extra Pack 4`.
+- Character association was deliberately not treated as sufficient provenance: Blazing Attack is associated with Goku (Ultra Instinct) but its acquisition is PQ136 and its label remains `Ultra Pack 1`; Surging Spirit intentionally retains composite `Extra Pack 2; Conton City Vote Pack` provenance.
+- No canonical data changes were made in this pass.
+- TODO ledger updated in commit `5703fff78aba5714c22e1b6c10cfc1aedac3e808`.
+- Exact next task: continue with another character-associated DLC cluster where direct package/source evidence can establish or falsify the current label.
