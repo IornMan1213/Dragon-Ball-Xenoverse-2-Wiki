@@ -39,6 +39,7 @@ def main():
  if len(rs)!=len(ir):errors.append('skills/index record lengths differ')
  keys=[key(r) for r in rs]
  if len(keys)!=len(set(keys)):errors.append('duplicate canonical skill keys')
+ if keys!=sorted(keys):errors.append('skills.json records are not in deterministic (casefolded name, class, subcategory) order')
  for r in rs:
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
