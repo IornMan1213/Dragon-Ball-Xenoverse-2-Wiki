@@ -4817,3 +4817,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Correction commits: 90cf2d7b02b5b105bc28690a5405bca81cfff84a, c5872c828a6cd0e594bb426c1510a88ff4c1da06, 331217aad85c27921f494fa478e41dfafd9254c9, 68e87c50ecb660e0506a52fc008c1779abac39ff
 
 - Correction follow-up: restored the existing `Other Ultimates` taxonomy count; category totals now equal all 359 canonical skills. Commits: 96c83497129b04879c4c1bd7242bd7bc75c42e18, 1047a194ad3d5cadae748cb4ca549131f790d506.
+
+
+### 2026-09-21 cycle update — Android 18/Cell/Lord Slug expansion
+- Live census before editing: **359 canonical skills / 359 index records / 33 mentors / 129 lesson entries / 70 linked mentor edges**.
+- Bounded batch: **12 lesson endpoints across Android 18, Cell (Perfect), and Lord Slug**. Added **9 new canonical skills** and reused **3 existing canonical skills** (Deadly Dance, Perfect Shot, Darkness Rush (Ranged)).
+- Research/evidence: current mentor documentation and independent mentor lists establish the exact lesson rewards and classifications. Android 18: Power Blitz, Endless Shoot, Deadly Dance, Dual Destructo-Disc; Cell (Perfect): All Clear, Gravity Impact, Perfect Shot, Perfect Kamehameha; Lord Slug: Evil Eyes, Darkness Eye Beam, Darkness Twin Star, Darkness Rush (Ranged/Melee). citeturn0search0turn0search1turn0search5
+- Changes: canonical skills/index and mentor relationships updated; coverage report refreshed.
+- Evidence limits preserved: acquisition/classification only; detailed mechanics, costs, damage, drop rates, and Ultimate-Finish conditions remain deferred unless directly evidenced.
+- Validation: **368 skills / 368 index records / 79 linked mentor edges / 50 unresolved endpoints**; **0 broken endpoints, 0 missing index records, 0 reverse-source mismatches**; category total **368**.
+- CI: no workflow status was exposed; no CI success is claimed.
+- Commits: `8556347d`, `6f3e9833`, `8df1b4d`, coverage `2758628d7db0e058efc32696be401fae96fcbf9c`.
+- Exact next batch: **Turles, Broly, God of Destruction Beerus, and Whis**; reuse existing skills where present and add only missing canonical records, preserving bidirectional navigation.
