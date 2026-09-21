@@ -3670,3 +3670,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `3081e710f926fcfad9f5a949abe7087e088c686` (builder precedence), `0337bb36bb62c33dc13105636179dbece6a0c495` (validator semantics).
 - Local execution is unavailable in the current environment because outbound DNS/network access is disabled; repository validation therefore remains dependent on GitHub Actions. Do not infer CI success from the code edit alone.
 - Exact next task: continue the acquisition/provenance census for records where `source_quest_or_shop` contains multiple routes, especially mixed Skill Shop/TP Medal/PQ wording, and inspect the remaining producer scripts for route precedence or field-semantics drift.
+
+
+## 2026-09-20 continuation — mixed acquisition-route census
+- Continued the mixed-route audit. Identified a second producer ambiguity: records containing both PQ and TP Medal Shop routes were vulnerable to being classified as `tp_medal_shop` solely because the medal-shop phrase appeared first.
+- Current canonical examples include `Emperor's Blast` (PQ70 + TP Medal Shop), `Emperor's Edge` (PQ99 + TP Medal Shop), `Final Kamehameha` (PQ91 + TP Medal Shop + Double Crystal Raids), and `X 100 Big Bang Kamehameha` (PQ100 + TP Medal Shop). These remain `quest_or_mission` because a documented PQ route is present in `source_quest`.
+- `Sudden Death Beam` is correctly `tp_medal_shop`: its mixed route text names TP/STP Medal Shops and Double Crystal Raid, but it has no PQ provenance.
+- `Super Guard` remains `starting_move` despite also being listed in the Skill Shop; its acquisition field explicitly describes the starting-choice route.
+- Updated `scripts/build_skills_from_research.py` so Skill Shop text does not override a starting-move route, and TP Medal Shop text yields `quest_or_mission` when a documented PQ/source quest is also present; pure TP/STP routes remain `tp_medal_shop`.
+- Updated `scripts/validate_skills.py` with a deterministic guard against classifying a record with both a PQ source and TP Medal Shop route as pure `tp_medal_shop`.
+- No canonical record values were changed in this cycle; this is a producer/validator semantics correction.
+- Commits: `82b3b23f5c3804661af34c7713dccf00de4c7cdb` (builder mixed-route precedence), `eaa28b53206a1934fd7f368505f5b32ba6d27e51` (validator mixed-route guard).
+- Exact next task: inspect all non-`quest_or_mission` mixed-route records for similar precedence hazards, especially starting-choice + Skill Shop and character-only + acquisition wording, then re-audit the canonical/index census and CI.
