@@ -1628,21 +1628,24 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://xvguide.neocities.org/Skill",
-        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
+        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/",
+        "https://dbxv2.fandom.com/wiki/Bending_Kamehameha",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/519411-how-do-i-get-bending-kamehameha"
       ],
       "ki_cost": 100,
-      "unlock_method": "Skill Shop purchase",
-      "source_quest_or_shop": "Skill Shop",
+      "unlock_method": "Complete the main story, then purchase Bending Kamehameha from the Skill Shop in Conton City.",
+      "source_quest_or_shop": "Skill Shop (Conton City) after main-story completion",
       "skill_description": "Ki Blast Super Skill that bends its follow-up projectile toward the target.",
       "mechanics_notes": "Dedicated current-version evidence confirms Bending Kamehameha as a 100-Ki Ki Blast Super from the Skill Shop. A second input makes the beam track the target. Existing all-CaC-races restriction is retained.",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-20",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-19 acquisition verification: Skill Shop purchase (Zeni). Current reference material lists Bending Kamehameha under Skill Shop acquisitions; repository record already has the same route."
+      "notes": "2026-09-19 acquisition verification: Skill Shop purchase (Zeni). Current reference material lists Bending Kamehameha under Skill Shop acquisitions; repository record already has the same route.",
+      "source_quest": "Main story — completion unlocks the Skill Shop listing"
     },
     {
       "name": "Big Bang Kamehameha",
