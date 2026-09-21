@@ -8013,7 +8013,10 @@
       "subcategory": "Ki Blast",
       "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Lightning_Impact"
+        "https://dbxv2.fandom.com/wiki/Lightning_Impact",
+        "https://dragonball.fandom.com/wiki/Lightning_Impact",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78246033",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "usable_by_cac": true,
       "character_source": "Majuub; Goku (GT)",
@@ -8028,7 +8031,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 142,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Lightning Impact in PQ142 Basic Reward. No Ultimate Finish requirement is asserted. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Lightning Impact in PQ142 Basic Reward. No Ultimate Finish requirement is asserted. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 source-strengthening pass: acquisition is independently corroborated by the current Xenoverse 2 skill reference, the contemporaneous PQ reward discussion, and the maintained all-PQ guide; all three identify PQ142 — Timespace Tussle and its Basic Reward placement.",
       "id": "skill-lightning-impact",
       "source_parallel_quests": [
         142
