@@ -312,3 +312,8 @@
 - Refined mechanics notes for Crush Cannon, Double Crush, Crush Stream, and Destructive Fission using current official/independent evidence and explicit uncertainty boundaries.
 - Synchronized skills-index.json; live canonical/index count remains 305.
 - Preserved version-sensitive behavior and did not add unsupported numerical damage, frame, or drop-rate claims.
+
+## 2026-09-21 — Enrich twelve canonical skill mechanics records
+- Replaced generic mechanics placeholders with evidence-backed mechanics/evidence boundaries for 12 skills spanning base-game and DLC PQ rewards.
+- Synchronized canonical and index projections; both remain at 305 records.
+- Preserved three surfaced cost conflicts for dedicated reconciliation rather than silently changing canonical values.
