@@ -4752,3 +4752,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: all 8 targeted records now have explicit Ki costs and `last_verified=2026-09-21`; no validators changed. No CI success claimed.
 - Commit: `40eb41729ac5ceee63d63e958d4c46516a44cc6a`.
 - Exact next task: **continue the bounded skill Ki-cost census with another evidence-backed family, prioritizing records where current sources expose an explicit `Ki Used` value and avoiding inference for variable-cost skills.**
+
+### 2026-09-21 — Mentor skill Ki-cost verification batch 2
+
+- Live canonical skill census before editing: **428 records**; **104** had nullable `ki_cost` values.
+- Bounded batch: **Fake Death, Wolf Fang Fist, Ki Blast Thrust, Spirit Ball, Bomber DX, Arm Crash, Genocide Shell, and Break Cannon** from Yamcha/Nappa mentor training.
+- Evidence: current Xenoverse 2 skill references explicitly list Fake Death at 0 Ki, Wolf Fang Fist at 100, Ki Blast Thrust at 100, Spirit Ball at 300, Bomber DX at 100, Arm Crash at 100, Genocide Shell at 100, and Break Cannon at 300+ Ki. The repository already contained the mentor acquisition endpoints and provenance for all eight.
+- Changes: populated only the canonical `ki_cost` values and refreshed `last_verified=2026-09-21`; Break Cannon retains the documented variable **300+** form rather than being flattened to a fixed value. No stamina scaling or other mechanics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count decreased to **96**. Targeted records all contain the expected explicit cost. The skill-index projection was updated only for its supported `last_verified` field; `ki_cost` was not forced into the index because that field is not part of its established projection contract. No internal AI/UI/search citation artifacts were introduced.
+- CI: workflow status must be inspected for the latest commit; do not claim CI success unless an actionable successful run is exposed.
+- Commits: `cf2a6ce19ee570c142e36dd0bde183c1294f239a` (canonical skills), `904149c72aac8fa2d2d37cd983536690ae2ab746` / `b6ad513ef14af07d0546171a07d253003a304c46` (index projection correction/scoping).
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next evidence-backed mentor or other tightly bounded family, prioritizing explicit current `Ki Used` values and preserving variable-cost forms.**
