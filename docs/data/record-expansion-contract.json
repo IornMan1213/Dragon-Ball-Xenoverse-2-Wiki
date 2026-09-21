@@ -33,7 +33,8 @@
         "verification_status"
       ],
       "optional_cross_domain_fields": [
-        "skill_ids"
+        "skill_ids",
+        "super_soul_ids"
       ]
     },
     {
@@ -79,6 +80,9 @@
         "acquisition",
         "sources",
         "verification_status"
+      ],
+      "optional_cross_domain_fields": [
+        "source_parallel_quests"
       ]
     },
     {
