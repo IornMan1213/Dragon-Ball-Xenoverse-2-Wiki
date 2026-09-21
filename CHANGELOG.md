@@ -1183,3 +1183,9 @@
 - [x] Preserved the existing **Unlock: N/A / Character skill** semantics. Because the skill is explicitly character-only, no PQ/source-quest or reward-tier relationship was invented.
 - [x] Post-write target: **51** exactly-two-source records; canonical/index source and verification parity remains required.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic low-source record after Dragon Thunder, checking acquisition/reward semantics before provenance-only strengthening.
+
+
+## 2026-09-21 — Energy Field low-source provenance strengthening
+- Strengthened **Energy Field** from two to three provenance sources with the maintained GameFAQs Xenoverse 2 guide, independently listing Energy Field in **PQ29 — The Androids Attack**'s reward pool.
+- Preserved the existing acquisition, reward-tier, classification, mechanics, and CaC semantics; no unsupported drop probability was inferred.
+- Post-write live target: **50 exactly-two-source records**.
