@@ -130,9 +130,10 @@ def merge_record(m,r,protected=None,blocked=None):
    schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
   except (OSError,json.JSONDecodeError) as exc:
    raise RuntimeError(f'Failed to load canonical skill schema {SCHEMA}: {exc}') from exc
-  canonical_fields=set(schema.get('properties',{}))
-  if not canonical_fields:
+  properties=schema.get('properties')
+  if not isinstance(properties,dict) or not properties:
    raise ValueError(f'{SCHEMA}: schema properties must be a non-empty object')
+  canonical_fields=set(properties)
   canonical_fields.discard('sources')
   unsupported=[field for field in declared_fields if field not in canonical_fields]
   if unsupported:
