@@ -3863,3 +3863,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - The corrected builder guard is present, and the validator still checks PQ provenance across `source_quest`, `source_quest_or_shop`, and `unlock_method`.
 - No canonical data change was warranted. Web research confirms PQs are a major skill-reward source, but no external fact was used to alter the repository in this pass. citeturn0search2
 - Exact next task: inspect the remaining acquisition cross-field invariants, especially `character_only`/CaC eligibility and `ultimate_finish_required` consistency, before making further catalog changes.
+
+
+## 2026-09-21 continuation — character-only and Ultimate Finish invariant audit
+- Re-audited the live canonical catalog's acquisition cross-field invariants.
+- All **8** `character_only` records are consistently `usable_by_cac: false` and use the explicit `race_restriction: Character-only` value; no character-only/CaC contradiction was found.
+- The current catalog has **60** records with `ultimate_finish_required: true`. Every one has explicit numbered Parallel Quest provenance, and no non-PQ record is marked Ultimate-Finish-required.
+- Conversely, no record with `ultimate_finish_required: false` has an `unlock_method` that claims an Ultimate Finish requirement under the maintained wording check.
+- These checks agree with the maintained PQ model: skills can be random rewards tied to Ultimate Finish completion, and current research records such as PQ160 and PQ184 explicitly identify UF bonus skill drops. citeturn0search0turn0search1turn0search2
+- No canonical data change was warranted.
+- Exact next task: continue auditing remaining cross-field invariants, especially whether quest-derived `ultimate_finish_required` values agree with the detailed reward/provenance evidence in the maintained research corpus.
