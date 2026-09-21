@@ -5615,6 +5615,12 @@
       ],
       "skill_ids": [
         "skill-gigantic-explosion"
+      ],
+      "super_soul_ids": [
+        "super-soul-132"
+      ],
+      "super_soul_rewards": [
+        "This place will be your grave!"
       ]
     },
     {
@@ -5681,6 +5687,12 @@
       ],
       "skill_ids": [
         "skill-pendulum-bullet"
+      ],
+      "super_soul_ids": [
+        "super-soul-130"
+      ],
+      "super_soul_rewards": [
+        "Hope you're ready for a trip!"
       ]
     },
     {
@@ -5746,6 +5758,12 @@
       ],
       "skill_ids": [
         "skill-justice-drive"
+      ],
+      "super_soul_ids": [
+        "super-soul-131"
+      ],
+      "super_soul_rewards": [
+        "I'm not about to let Pan see me lose!"
       ]
     },
     {
@@ -5893,6 +5911,12 @@
       ],
       "skill_ids": [
         "skill-divine-ray-bomb"
+      ],
+      "super_soul_ids": [
+        "super-soul-134"
+      ],
+      "super_soul_rewards": [
+        "You will know the power of the gods!"
       ]
     },
     {
@@ -5924,6 +5948,12 @@
       ],
       "skill_ids": [
         "skill-final-rampage"
+      ],
+      "super_soul_ids": [
+        "super-soul-133"
+      ],
+      "super_soul_rewards": [
+        "I'll surpass you as I am, with my OWN power!"
       ]
     },
     {
