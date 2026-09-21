@@ -5094,3 +5094,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - All seven map to PQ155–158 with matching `Hero of Justice Pack 1` provenance.
 - **0 deterministic DLC mismatches** found.
 - Existing acquisition/drop-tier semantics were preserved; this was a provenance-only pass.
+
+### 2026-09-21 — Hero of Justice Pack 2 skill provenance correction
+- Live canonical skill census: **429 records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded cluster: **Hero of Justice Pack 2**. Official DLC documentation identifies seven skills; the live canonical cluster now contains all seven: Apocalyptic Burst, Demon Flash Strike, Demon Flurry, Demon Ray, Demonic Destruction, Fierce Fist, and Special Beam Cannon (Beast).
+- Corrected **Special Beam Cannon (Beast)** provenance from `Future Saga Chapter 1` to `Hero of Justice Pack 2`; PQ162 remains the source quest.
+- Preserved the repository's maintained **45% Ultimate Finish bonus-slot** condition while documenting the independent Steam guide's Basic Reward presentation as a conflict rather than silently choosing one.
+- Refreshed `last_verified=2026-09-21` and added official DLC sources to the record. No unrelated mechanics, cost, restriction, or acquisition fields were changed.
+- Corrected stale top-level `record_count` metadata from 428 to **429**.
+- Validation passed: JSON parse, duplicate-ID census, nullable-cost census, Hero of Justice Pack 2 count, and internal citation-artifact scan.
+- CI: inspect the canonical commit's exposed workflow/status data; no CI success is claimed unless an actual run/check is available.
+- Canonical commit: `c6c5c7a0695044d293e6382f0d39e5d120f9fdb5`.
+- Exact next batch: fresh DLC/source census outside Hero of Justice Pack 2, then the next deterministic character-only/DLC completeness cluster.
+
