@@ -1157,3 +1157,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [ ] Next skill workstream: recompute the live acquisition/DLC-version provenance census and select the next bounded evidence-backed canonical batch; do not reopen completed cost records unless new contradictory evidence appears.
 
 > Earlier unchecked skill-cost queue entries remain permanently preserved under the append-only ledger rule. This dated entry is the authoritative completion marking for the four records above.
+
+
+### 2026-09-21 — Master ledger status update: God of Destruction's Might DLC provenance
+- [x] **God of Destruction's Might DLC provenance correction completed.** The skill is obtained from PQ176, "Havoc at the 3-Universe Feast"; current DLC references identify PQ175–178 as Future Saga Chapter 2 content. citeturn1search2turn1search4
+- [x] Corrected canonical/index `dlc_requirement` from **Base Game** to **Future Saga Chapter 2**.
+- [x] Preserved all existing acquisition, Ki-cost, class, restriction, and source data; only the incorrect DLC provenance plus verification note/timestamp was changed.
+- [x] Validation requirement: canonical/index parity must be rechecked after the write; the next cycle must inspect Actions for the two data commits before claiming CI status.
+- [ ] Next provenance task: recompute the live DLC mismatch census after this correction and select the next bounded evidence-backed mismatch; do not assume other Base Game values are wrong without a direct relationship to a DLC-gated source.
