@@ -1111,3 +1111,7 @@
 - Added the official Bandai Namco Legendary Pack 2 DLC page as package-level provenance; the maintained PQ reward source and dedicated skill references remain the exact skill/PQ evidence.
 - No gameplay, cost, restriction, Ultimate Finish, or drop-rate semantics were changed.
 - CI success is not claimed without an exposed workflow/check.
+
+### 2026-09-21 — Legendary Pack 1 low-source provenance strengthening
+- Added official Legendary Pack 1 package provenance to Burning Shot, Destructive Fission, Destructive Flare, and Hyper Tornado.
+- Preserved all acquisition and reward semantics.
