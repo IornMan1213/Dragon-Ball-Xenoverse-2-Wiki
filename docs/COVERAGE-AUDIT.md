@@ -4575,3 +4575,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no actionable workflow result exposed during this cycle; **no CI success claimed**. Validators were not weakened.
 - Commit: `9ca5147646a60ceb411dfca5dfdfb924e8a566d2`.
 - Exact next batch: **recompute the live skill census, then inspect the remaining 4 records with nullable `source_quest` and the 3 records with nullable `race_restriction`; prioritize only deterministic cross-layer fixes supported by existing repository evidence, without inventing acquisition routes.**
+
+### 2026-09-21 cycle update — skill-index source/restriction projection correction
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, bounded deterministic projection reconciliation.
+- Live census: **429 canonical skills** and **429 skill-index records**. The canonical/index comparison identified five stale projection values in the two in-scope fields: Data Input `source_quest` (EM-20), Final Pose (PQ74), Super Spirit Bomb (EM-16), Supernova (EM-6), and Ill Bomber `race_restriction` (Majin).
+- Changes: corrected those five exact values in `docs/data/skills-index.json` to match canonical `docs/data/skills.json`. No acquisition wording, mechanics, Ultimate Finish status, DLC provenance, or unresolved race evidence was changed.
+- Evidence: canonical skill records are the authoritative producer for the index projection; `scripts/build_skills_from_research.py` explicitly projects these fields into `skills-index.json`.
+- Evidence limits: the broader canonical/index projection still contains unrelated drift from later canonical enrichment (including newer `last_verified`/mechanics notes and other projected fields). This bounded cycle intentionally corrected only the five stale source/restriction values identified at the live census boundary; no broad regeneration was performed.
+- Validation: both JSON documents parse; **429/429 records**; the five targeted source/restriction values match canonical at commit `53959c1bfcf0bbb0c67d6625bdb7c429cd643c0e`. The edited index contains **0 internal AI/UI citation artifacts**. CI status and workflow-run lookup returned no exposed checks/runs; no CI success claimed.
+- Commits: `ad2bd70044d982245819621ea63c66116ffc1490`, `53959c1bfcf0bbb0c67d6625bdb7c429cd643c0e`.
+- Exact next batch: **audit the next 4–12 deterministic skill-index projection drifts from recent canonical enrichment, prioritizing a single coherent field family (for example `last_verified`/mechanics-note updates) and preserving the generated projection contract.**
+
