@@ -5304,3 +5304,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: workflow/status inspection was not exposed for this cycle; **no CI success claimed**. Validators were not weakened.
 - Commits: `971ae7a1bdf30adbdfe1417c2e6ff3d26dc599b1` (index), `bc687d3b4eb7c57a7bdafdaa8085e0bd0bb33ea2` (coverage audit), `5d0344ba7be54d0bc01e968141df03d3f8544280` (changelog).
 - Exact next batch: **recompute the live skill-index projection census and select the next highest-impact deterministic mismatch family**, without regenerating unrelated fields or reopening clean `mechanics_notes` parity.
+
+### 2026-09-21 cycle update — skill-index notes and identity integrity
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, deterministic canonical-to-index reconciliation and identity integrity.
+- Live census before the identity correction: **429 canonical skills / 429 skill-index records**. The full inspected projection families had been reduced to four notes mismatches; those four notes were synchronized for God Splitter, Heavenly Arrow, Instant Severance, and Time Skip/Tremor Pulse.
+- Deterministic identity audit then found one duplicate skill ID, `skill-ill-bomber`, shared by the richer **Ill Bomber** record and a later **III Bomber** placeholder in both layers. The placeholder was removed from canonical and index data; the richer Ill Bomber/PQ90 record was preserved.
+- Live census after the correction: **428 canonical skills / 428 skill-index records; 0 duplicate IDs**. Full inspected canonical-to-index projection parity is now **0 mismatches** across the audited fields.
+- Files changed: `docs/data/skills-index.json`, `docs/data/skills.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Evidence limits: the notes changes were deterministic projections from canonical data; the duplicate removal was an identity/data-integrity correction. No new gameplay, acquisition, restriction, or DLC claim was invented. The live canonical layer currently has **29 nullable `source_quest` values** and **3 nullable `race_restriction` values**; many source-quest nulls are intentional non-quest/shop/starting acquisitions, and the three race nulls remain unresolved until evidence establishes narrower CaC scope.
+- Validation: canonical/index JSON parsed; **428/428** records; **0 duplicate IDs**; full inspected projection parity **0 mismatches**; changed files contain no internal AI/UI/search citation artifacts. No validators were weakened.
+- CI: no actionable workflow/status result exposed; **no CI success claimed**.
+- Commits: `98c45349ef019a3af1374ae08c03ade06730d0f3` (notes index), `1328ac4a99724c18b94b7fbff39cc1271c70cf2d` (coverage audit), `1c57e4acce7bb39124677a929b9ab144c5f8bfdf` (changelog), `3d9dad9d3547851ebb5f7ee0348e5772f49d72e4` (canonical identity cleanup), `2ae7157f5b9f09681b91d2b33c15643b61a2ad68` (index identity cleanup).
+- Exact next batch: **recompute the live canonical skill census, then audit Blaster Stream, Chaotic Time Impact, and Circle Flash for `race_restriction` using existing source evidence; preserve `null` where evidence does not establish CaC scope.**
