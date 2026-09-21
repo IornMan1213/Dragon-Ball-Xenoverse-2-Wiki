@@ -973,3 +973,7 @@
 
 ### 2026-09-21 — Citation-token correction for Bojack changelog entry
 - No internal AI/UI/search citation tokens were persisted in the Bojack entry; sources are described without tool-reference markup.
+
+### 2026-09-21 correction — pre-existing citation-token artifact status
+- The live file still contains some **older historical internal citation-token text** in entries written by earlier cycles. The current Bojack entry introduced no such tokens.
+- Because the continuation protocol is append-only and forbids deleting or rewriting historical entries, those older artifacts were not removed in this cycle. Future entries must continue using plain source URLs or source descriptions only.
