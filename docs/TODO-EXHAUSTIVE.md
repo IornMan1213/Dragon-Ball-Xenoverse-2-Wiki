@@ -1536,3 +1536,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved PQ05 Basic Reward acquisition and Base Game provenance.
 - [x] Canonical commit: `48d0d0b7bd17e4f858c565d189feb12e189fba88`.
 - [ ] Next: audit remaining low-source-count records for source-PQ/name conflation.
+
+
+### 2026-09-21 — Burst Reflection provenance strengthening
+- [x] Replace category-only provenance with direct Burst Reflection skill sources.
+- [x] Preserve the existing Shenron-wish acquisition semantics.
+- [x] Canonical commit: `0b16ab3b7a40930c37f9fb1732cf1f1a08b21706`.
+- [ ] Next: continue single-source acquisition/provenance audit.
