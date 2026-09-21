@@ -2961,7 +2961,15 @@
       "notes": "Saiyan CaC-only Awoken Skill. Current references identify it as the Saiyan transformation route; it is not a cast-exclusive form. 2026-09-20 provenance correction: current external walkthrough evidence places Future Super Saiyan in the Unknown History secret story route; the prior Capsule Corporation/Vegeta source wording conflicted with that evidence and was replaced rather than retained as current provenance.",
       "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation.",
       "source_quest": "Unknown History — secret story mission",
-      "source_quest_or_shop": "Unknown History — secret story mission"
+      "source_quest_or_shop": "Unknown History — secret story mission",
+      "source_time_rifts": [
+        "time-rift-capsule-corporation",
+        "time-rift-gurus-house",
+        "time-rift-frieza-spaceship",
+        "time-rift-majin-buus-house",
+        "time-rift-hercules-house"
+      ],
+      "source_story_mission": "story-unknown-history"
     },
     {
       "id": "skill-galick-gun",
@@ -4479,7 +4487,10 @@
       "notes": "Earthling CaC-only Awoken Skill. Requires 0 Ki; summons Nimbus/Power Pole, changes the basic moveset, and ends when hitstun or a grab connects.",
       "mechanics_notes": "0 Ki; Nimbus/Power Pole moveset with super armor; transformation ends on hitstun or grab. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "source_quest": "Great Saiyaman questline — Hercule's House Time Rift",
-      "source_quest_or_shop": "Great Saiyaman questline — Hercule's House Time Rift"
+      "source_quest_or_shop": "Great Saiyaman questline — Hercule's House Time Rift",
+      "source_time_rifts": [
+        "time-rift-hercules-house"
+      ]
     },
     {
       "id": "skill-power-rush",
@@ -4723,7 +4734,10 @@
       "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.",
       "mechanics_notes": "300 Ki; +20% Strike/+15% Blast, -20% Strike Defense, halts Stamina recovery and replaces the user's moveset. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "source_quest": "Majin Buu's House Time Rift — Purification unlock fight",
-      "source_quest_or_shop": "Majin Buu's House Time Rift — Purification unlock fight"
+      "source_quest_or_shop": "Majin Buu's House Time Rift — Purification unlock fight",
+      "source_time_rifts": [
+        "time-rift-majin-buus-house"
+      ]
     },
     {
       "id": "skill-quick-sleep",
@@ -5892,7 +5906,10 @@
       "notes": "Saiyan CaC-only multi-stage Awoken Skill. Activation thresholds are 300/400/500 Ki for Super Saiyan 1/2/3. 2026-09-20 provenance refinement: maintained Awoken research and current transformation guides place the Super Saiyan acquisition in the Capsule Corporation Time Rift Vegeta/Saiyan Awakening route; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Stages use 300/400/500 Ki. Current consolidated table reports SS1 +10% Strike/+5% Blast, SS2 +15%/+7.5%, SS3 +20%/+10%; defense bonuses rise by stage while Ki regeneration becomes increasingly restricted. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "source_quest": "Capsule Corporation Time Rift — Vegeta Saiyan Awakening progression",
-      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression"
+      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift / Saiyan Awakening progression",
+      "source_time_rifts": [
+        "time-rift-capsule-corporation"
+      ]
     },
     {
       "id": "skill-super-saiyan-2",
@@ -6055,7 +6072,10 @@
       "notes": "Saiyan CaC-only two-stage Awoken Skill. Activation thresholds are 300/400 Ki for Super Vegeta 1/2. 2026-09-20 provenance refinement: maintained transformation research and current unlock guides place Super Vegeta in Vegeta's Capsule Corporation Time Rift training route; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Stages use 300/400 Ki. Current consolidated table reports SV1 +5% Strike/+10% Blast and SV2 +7.5%/+17.5%, with increasing Blast-defense bonuses. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "source_quest": "Capsule Corporation Time Rift — Vegeta Super Vegeta training",
-      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift"
+      "source_quest_or_shop": "Vegeta training — Capsule Corporation Time Rift",
+      "source_time_rifts": [
+        "time-rift-capsule-corporation"
+      ]
     },
     {
       "id": "skill-supernova",
@@ -6384,7 +6404,10 @@
       "notes": "Frieza Race CaC-only Awoken Skill. Requires 300 Ki.",
       "mechanics_notes": "300 Ki; +30% Blast, -5% Blast Defense, +20% movement speed; Stamina drains while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "source_quest": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression",
-      "source_quest_or_shop": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression"
+      "source_quest_or_shop": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression",
+      "source_time_rifts": [
+        "time-rift-frieza-spaceship"
+      ]
     },
     {
       "id": "skill-ultimate-charge",
