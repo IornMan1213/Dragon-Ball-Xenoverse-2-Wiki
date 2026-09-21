@@ -6348,3 +6348,12 @@ The repository owner has clarified the continuation contract:
 - Strengthened each record from **2 → 4 sources** without changing acquisition, reward-tier, CaC, or DLC semantics.
 - Canonical commit: **`d57e5de80896db12c7e11f438c89dede057acee7`**.
 - Exact next batch: **recompute the low-source census and continue with the next deterministic acquisition cluster, prioritizing concrete PQ/reward evidence and cross-field contradictions.**
+
+
+### 2026-09-21 continuation — PQ141 provenance strengthening
+- Workstream: **P1 skill provenance/source integrity**.
+- Targeted the related Ultra Pack 2 PQ141 pair: **Dragon Blitz** and **Brutal Buster**.
+- Independent PQ reward documentation lists both as **Basic Rewards** of **PQ141 — Uub's Ultimate Challenge**; a contemporaneous gameplay walkthrough documents obtaining both skills from PQ141. citeturn0search3turn0youtube12
+- Strengthened both records from **2 → 4 sources**, preserving their existing PQ141 and Ultra Pack 2 semantics.
+- Canonical commit: **`5d643879eebb9ecee27306719516e5945abd38ec`**.
+- Exact next batch: **recompute the low-source census and continue the next deterministic acquisition cluster, checking reward-tier/source-PQ consistency first.**
