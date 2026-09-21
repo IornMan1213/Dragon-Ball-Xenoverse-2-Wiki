@@ -83,6 +83,14 @@
       "target_name": "I'll use this power to protect everyone!",
       "status": "source_backed",
       "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-006",
+      "pq_number": 6,
+      "target_id": "super-soul-009",
+      "target_name": "You cocky little...!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "reverse_edges": [
@@ -185,6 +193,16 @@
       "pq_numbers": [
         5
       ]
+    },
+    {
+      "target_id": "super-soul-009",
+      "target_name": "You cocky little...!",
+      "pq_ids": [
+        "pq-006"
+      ],
+      "pq_numbers": [
+        6
+      ]
     }
   ],
   "unresolved_target_routes": [
@@ -211,11 +229,6 @@
     {
       "target_id": "super-soul-008",
       "target_name": "Tien, please don't die",
-      "reason": "no_explicit_pq_endpoint"
-    },
-    {
-      "target_id": "super-soul-009",
-      "target_name": "You cocky little...!",
       "reason": "no_explicit_pq_endpoint"
     },
     {
