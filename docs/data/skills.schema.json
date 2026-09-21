@@ -228,5 +228,121 @@
         "type": "string"
       }
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "class": {
+            "const": "Super"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "subcategory": {
+            "enum": [
+              "Ki Blast",
+              "Strike",
+              "Power Up",
+              "Other"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "class": {
+            "const": "Ultimate"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "subcategory": {
+            "enum": [
+              "Ki Blast",
+              "Strike",
+              "Power Up",
+              "Other"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "class": {
+            "const": "Evasive"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "subcategory": {
+            "enum": [
+              "Ki Blast",
+              "Strike",
+              "Power Up",
+              "Other"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "class": {
+            "const": "Awoken"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "subcategory": {
+            "enum": [
+              "Race",
+              "Transformation"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "class": {
+            "const": "Counter"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "subcategory": {
+            "const": "Counter"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "class": {
+            "const": "Mixed"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "subcategory": {
+            "const": "Special"
+          }
+        }
+      }
+    }
+  ]
 }
