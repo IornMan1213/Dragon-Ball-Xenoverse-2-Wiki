@@ -6642,3 +6642,14 @@ The repository owner has clarified the continuation contract:
 - Changes: added the Yhan Game source to `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Evidence limits: the added source corroborates acquisition/reward identity only; no exact drop probability or new mechanics were inferred.
 - Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record after Energy Shot, Excellent Full Course, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 continuation — Excellent Full Course low-source provenance
+- Workstream: **P1 skill acquisition/source provenance cleanup**.
+- Live pre-batch census: **48 exactly-two-source records**.
+- Bounded batch completed: **Excellent Full Course (`skill-excellent-full-course`)**.
+- Evidence: Dragon Ball Wiki independently confirms the PQ142 acquisition endpoint, but describes an Ultimate Finish-based acquisition condition; the maintained Steam PQ guide lists Excellent Full Course as a Basic Reward.
+- Changes: added the Dragon Ball Wiki source to canonical and index records; preserved `ultimate_finish_required=false`; documented the conflict in the record notes.
+- Evidence limits: no exact drop probability was inferred and no conflicting source was discarded.
+- Validation: 452 canonical / 452 index; 0 duplicate IDs; canonical `ki_cost` null count 0; 47 exactly-two-source canonical records; changed record has 3 sources and `last_verified=2026-09-21`.
+- Exact next task: **recompute the live two-source census and continue with Fighting Pose C, checking acquisition/reward semantics before provenance-only strengthening.**
