@@ -1640,3 +1640,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Synchronized canonical/index records and verification dates.
 - [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 56 exactly-two-source records**.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic low-source cluster after Data Input, verifying source/acquisition consistency before adding provenance.
+
+
+### 2026-09-21 — Afterimage provenance strengthening
+- [x] Continued the deterministic low-source sequence after Data Input.
+- [x] Strengthened **Afterimage** from 2 to 3 provenance sources using Bandai Namco's official Xenoverse 2 launch announcement for independent base-game/avatar provenance.
+- [x] Preserved the existing starting-move / initial "Mixed" choice semantics; the maintained skill-specific evidence remains authoritative for that exact acquisition route.
+- [x] Synchronized canonical/index records and verification dates.
+- [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 55 exactly-two-source records**.
+- [ ] Next task: recompute the live two-source census and continue the next deterministic low-source cluster after Afterimage, verifying source/acquisition consistency before adding provenance.
