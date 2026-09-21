@@ -987,3 +987,13 @@
 
 ### 2026-09-21 correction — Zamasu changelog citation-token artifact
 - The immediately preceding Zamasu changelog entry contains internal web citation markup from the research session. The underlying facts remain supported by the cited research, but repository prose must not persist internal tool citation tokens. Future entries will use plain source descriptions/URLs only.
+
+### 2026-09-21 correction — Zamasu changelog citation-token artifact
+- The preceding Zamasu changelog entry contains internal web citation markup from the research session. The underlying facts remain supported, but repository prose must not persist internal tool citation tokens. This append-only correction preserves the historical entry; future entries use plain source descriptions or URLs only.
+
+## 2026-09-21 — Brutal Buster mentor/PQ Ki-cost verification
+- Verified **Brutal Buster — 0 Ki**. Current Xenoverse 2 references classify it as a Strike Evasive and document **300 Stamina Used**, with no Ki expenditure documented.
+- Updated only canonical `ki_cost` and `last_verified`; stamina/mechanics and acquisition fields were unchanged.
+- Live canonical skill census: **428 records, 0 duplicate IDs, 18 nullable `ki_cost` records**.
+- Sources consulted: current Brutal Buster skill reference and Evasive Skill reference.
+- Commit: `b6a8da1d28798a8f027a87bd470917205348b8c6`.
