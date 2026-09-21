@@ -4742,3 +4742,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no actionable workflow/status result exposed; **no CI success claimed**.
 - Commit: `9c39f41ec2a55f12a4bd33f8492d4313f052965e`.
 - Exact next batch: **recompute the live PQ reward mismatch census, then audit the next bounded reward/skill-drop mismatch family rather than assuming every categorized reward omission is an error.**
+
+### 2026-09-21 — Mentor skill Ki-cost verification
+
+- Recomputed the live canonical skill census: **428 records**.
+- The remaining `ki_cost` null census is broad and includes many quest/missions; this cycle took a bounded, high-confidence mentor-training family rather than inferring costs from skill class.
+- Verified and populated `ki_cost` for 8 canonical mentor skills: Evil Explosion **100**, Super Explosive Wave **200**, Light Grenade **100**, Special Beam Cannon **300**, Dodon Ray **0**, Volleyball Fist **100**, Tri-Beam **100**, Neo Tri-Beam **300**.
+- Evidence came from current Xenoverse 2 skill references; mentor acquisition endpoints were already verified in the repository. No stamina/ki scaling beyond the documented base cost was inferred.
+- Validation: all 8 targeted records now have explicit Ki costs and `last_verified=2026-09-21`; no validators changed. No CI success claimed.
+- Commit: `40eb41729ac5ceee63d63e958d4c46516a44cc6a`.
+- Exact next task: **continue the bounded skill Ki-cost census with another evidence-backed family, prioritizing records where current sources expose an explicit `Ki Used` value and avoiding inference for variable-cost skills.**
