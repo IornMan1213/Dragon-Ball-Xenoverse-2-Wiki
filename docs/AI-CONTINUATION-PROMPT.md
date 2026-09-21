@@ -5769,3 +5769,15 @@ The repository owner has clarified the continuation contract:
 - TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry.
 - CI: next cycle must inspect Actions for commits e931a9c273130dc6f5aceddeb1018b33e289450b and the TODO commit; do not claim CI success without an actual result.
 - Exact next task: **God of Destruction's Might**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
+
+
+### 2026-09-21 cycle update — God of Destruction's Might Ki-cost verification
+- Live census before editing: 428 canonical skills; 0 duplicate IDs; 6 nullable ki_cost records.
+- Bounded batch: **God of Destruction's Might — 400 Ki**.
+- Research/evidence: the current dedicated skill reference explicitly lists **Ki Used: 400**; the broader Ultimate Attack reference independently lists God of Destruction's Might at 400 Ki. citeturn0search0turn0search1
+- Changes: docs/data/skills.json — God of Destruction's Might ki_cost=400. Existing classification, acquisition, provenance, and other fields were preserved.
+- Evidence limits: only the directly evidenced resource-cost field was changed; no unsupported damage/mechanics values were added.
+- Validation after write: **428 records; 0 duplicate IDs; 5 nullable ki_cost records**.
+- TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry.
+- CI: next cycle must inspect Actions for commits 39718f8177bf15363db688643d5d00215caec74e and the TODO commit; do not claim CI success without an actual result.
+- Exact next task: **Meteor Crash**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
