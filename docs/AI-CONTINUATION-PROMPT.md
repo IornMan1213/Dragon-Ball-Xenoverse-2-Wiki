@@ -3447,3 +3447,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: the latest provenance-fix commit returned **no workflow runs** from the GitHub connector. No validator was weakened.
 - Evidence limitation: this was a consistency correction, not a new acquisition claim; the existing Unknown History evidence and prior provenance correction were preserved.
 - Exact next task: **continue the under-specified non-PQ acquisition audit, prioritizing concrete deterministic provenance conflicts between `unlock_method`, `source_quest`, `source_quest_or_shop`, and dedicated research; preserve genuine uncertainty and source conflicts.**
+
+
+## 2026-09-20 — Final Pose acquisition provenance correction
+- Re-audited generic shop records against dedicated skill evidence and found a direct contradiction for **Final Pose**.
+- Canonical data previously classified Final Pose as a **Skill Shop** acquisition. Dedicated Xenoverse 2 skill evidence lists **Final Pose → PQ74** in the Evasive Skill table, and independent player documentation identifies PQ74, **"Galactic Patrol Away,"** as the source.
+- Corrected both canonical and index skill records to `acquisition_type: parallel_quest`, `source_quest: PQ74 — "Galactic Patrol Away"`, and matching unlock wording. The stale Skill Shop provenance was removed rather than preserved.
+- No Ultimate Finish requirement, drop rate, or current shop claim was inferred.
+- Validation target after the correction: canonical/index remain 283 records with identical ordering; acquisition-critical fields remain synchronized.
+- Exact next task: **continue checking generic shop records for direct contradictions against dedicated unlock tables, prioritizing cases where a shop label may actually be a PQ/mentor/story source.**
