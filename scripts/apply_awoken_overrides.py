@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "docs/data/skills.json"
 INDEX = ROOT / "docs/data/skills-index.json"
 OVERRIDES = ROOT / "docs/data/awoken-canonical-overrides.json"
-INDEX_FIELDS = ("name", "class", "subcategory", "verification_status", "research_status", "sources")
+from build_skills_from_research import INDEX_PROJECTION_FIELDS
 
 
 def key(record: dict) -> tuple[str, str, str]:
@@ -31,7 +31,7 @@ def rebuild_index(data: dict) -> None:
                 "category_counts": data.get("category_counts", {}),
                 "target_category_counts": data.get("target_category_counts", {}),
                 "record_count": len(records),
-                "records": [{field: r[field] for field in INDEX_FIELDS if field in r} for r in records],
+                "records": [{field: r[field] for field in INDEX_PROJECTION_FIELDS if field in r} for r in records],
             },
             ensure_ascii=False,
             indent=2,
