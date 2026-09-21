@@ -4337,3 +4337,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - The `generated` date remains intentionally compared between `skills.json` and `skills-index.json`; it is build metadata rather than a semantic record field, so the validator does not require it to equal the validator's current wall-clock date.
 - Commit: c670a78dd561b04cc4a3a1577d68a1780beec0d1 — Harden generated skill metadata validation.
 - Next task: audit `target_category_counts` and the builder's target-count assumptions against the current canonical records, ensuring target metadata cannot silently contradict the catalog without an explicit validation finding.
+
+
+## 2026-09-21 continuation — target category metadata audit
+- Audited `target_category_counts` against the builder's `TARGET_COUNTS` assumptions and current canonical records.
+- Confirmed targets are intentionally benchmark metadata rather than required equality with current record counts; several current categories differ from their targets, so enforcing equality would incorrectly reject the catalog.
+- Added validation that `target_category_counts` exists as an object and exactly matches the builder's target metadata, with the fixed `Transformations` target of 15. This catches silent drift between checked-in metadata and the build source while preserving targets as independent benchmarks.
+- Commit: 0593a39d8d08de7cce390b1212b13a218f650872 — Validate skill target metadata against builder constants.
+- Next task: audit top-level schema/version metadata and builder output fields (`status`, `schema_version`, `game`, `notes`) for mismatches that can survive record-level validation or cause rebuilt output to differ structurally from checked-in canonical data.
