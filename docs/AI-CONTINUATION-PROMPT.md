@@ -6632,3 +6632,13 @@ The repository owner has clarified the continuation contract:
 - JSON parsing passed for both skill datasets after repairing the temporary apostrophe escaping introduced during the write; no validator or workflow was changed.
 - Final data commits: canonical `d718fe17eb4ed13ad60566385929c4699c00183c`; index `6c51c26e2a1073f88ad0b73b3d374dab70edb36d`.
 - Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record, Energy Shot, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 continuation — Energy Shot low-source provenance
+- Workstream: **P1 skill acquisition/source provenance cleanup**.
+- Live pre-batch census: **49 exactly-two-source records**.
+- Bounded batch completed: **Energy Shot (`skill-energy-shot`)**.
+- Evidence: Yhan Game's Xenoverse 2 Parallel Quest guide independently lists Energy Shot as a **Basic Reward for PQ22 — Dragon Ball Brawl**. citeturn1search2
+- Changes: added the Yhan Game source to `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Evidence limits: the added source corroborates acquisition/reward identity only; no exact drop probability or new mechanics were inferred.
+- Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record after Energy Shot, Excellent Full Course, checking acquisition/reward semantics before provenance-only strengthening.**
