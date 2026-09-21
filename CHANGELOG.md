@@ -334,3 +334,7 @@
 - Added four canonical accessory identities: Yamcha's Baseball Hat, SSGSS Vegeta Wig, Bulma (Kid) Wig, and Great Saiyaman Helmet.
 - Synchronized the PQ accessory bridge and cross-link report; coverage now reflects 37 matched accessory PQ endpoints and 100 canonical accessory identities.
 - Preserved unresolved/conflicted routes and did not infer unsupported acquisition mechanics.
+
+## 2026-09-21 — Accessory PQ identity batch 3
+- Added canonical identities for Gine (DB Super) Set, Caulifla Wig, and Kale Wig.
+- Synchronized accessory PQ relationship data; unresolved research identities reduced without collapsing component/set records into unsupported identities.
