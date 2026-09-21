@@ -1418,7 +1418,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 165,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly assigns this skill to the 45% Ultimate Finish bonus slot route. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish bonus slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context."
+      "notes": "2026-09-20 provenance reconciliation: current maintained PQ reward evidence explicitly assigns this skill to the 45% Ultimate Finish bonus slot route. Dedicated/current skill evidence confirms the corresponding PQ acquisition; exact individual reward probability remains unresolved, and the Ultimate Finish requirement follows the maintained explicit drop-condition record. 2026-09-20 reward-condition reconciliation: the maintained PQ drop-condition data explicitly assigns this skill to a 45% Ultimate Finish bonus-slot route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward listing, so that presentation conflict remains documented rather than silently discarded."
     },
     {
       "name": "Final Pose",
