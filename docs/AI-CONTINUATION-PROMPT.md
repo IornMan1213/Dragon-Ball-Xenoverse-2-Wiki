@@ -3861,7 +3861,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - The only canonical `parallel_quest` record is **Final Pose**, and it has textual PQ74 provenance. No other canonical record has PQ-number wording without a `source_quest` value; therefore the producer's new guard does not introduce a new classification cohort.
 - No `parallel_quest` record has a numeric/textual `source_quest` conflict, no TP Medal Shop record has a quest source, and no remaining starting-choice/Skill Shop conflict was found in the live canonical fields.
 - The corrected builder guard is present, and the validator still checks PQ provenance across `source_quest`, `source_quest_or_shop`, and `unlock_method`.
-- No canonical data change was warranted. Web research confirms PQs are a major skill-reward source, but no external fact was used to alter the repository in this pass. citeturn0search2
+- No canonical data change was warranted. Web research confirms PQs are a major skill-reward source, but no external fact was used to alter the repository in this pass. 
 - Exact next task: inspect the remaining acquisition cross-field invariants, especially `character_only`/CaC eligibility and `ultimate_finish_required` consistency, before making further catalog changes.
 
 
@@ -3870,7 +3870,7 @@ Only after data-completeness work, expose the improved structured research surfa
 - All **8** `character_only` records are consistently `usable_by_cac: false` and use the explicit `race_restriction: Character-only` value; no character-only/CaC contradiction was found.
 - The current catalog has **60** records with `ultimate_finish_required: true`. Every one has explicit numbered Parallel Quest provenance, and no non-PQ record is marked Ultimate-Finish-required.
 - Conversely, no record with `ultimate_finish_required: false` has an `unlock_method` that claims an Ultimate Finish requirement under the maintained wording check.
-- These checks agree with the maintained PQ model: skills can be random rewards tied to Ultimate Finish completion, and current research records such as PQ160 and PQ184 explicitly identify UF bonus skill drops. citeturn0search0turn0search1turn0search2
+- These checks agree with the maintained PQ model: skills can be random rewards tied to Ultimate Finish completion, and current research records such as PQ160 and PQ184 explicitly identify UF bonus skill drops. 
 - No canonical data change was warranted.
 - Exact next task: continue auditing remaining cross-field invariants, especially whether quest-derived `ultimate_finish_required` values agree with the detailed reward/provenance evidence in the maintained research corpus.
 
@@ -3882,3 +3882,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Added a validator invariant requiring every `ultimate_finish_required: true` record to expose explicit Ultimate Finish provenance in `unlock_method` or `source_quest_or_shop`.
 - Rechecked canonical/index parity: **283/283** records remain synchronized and no true-UF record lacks explicit UF provenance.
 - Next task: continue cross-field reward-tier auditing for unresolved/contradictory PQ reward classifications without inferring gates from generic quest provenance.
+
+
+## 2026-09-21 continuation — Ultimate Finish validator regex correction
+- Workstream: P1 skill acquisition/provenance cross-field validation.
+- Re-inspected the live canonical skill validator after the prior Ultimate Finish provenance normalization.
+- Found a validator implementation bug: the Ultimate Finish provenance regex used doubled backslashes inside a raw Python string, so the intended word-boundary expression was matching literal backslash sequences rather than the words `ultimate finish` / `UF`.
+- Corrected `scripts/validate_skills.py` to use the actual regex word boundaries. This restores the intended invariant without weakening validation: every record with `ultimate_finish_required: true` must still expose explicit Ultimate Finish provenance in `unlock_method` or `source_quest_or_shop`.
+- Files changed: `scripts/validate_skills.py` and this handoff.
+- Commit: `e54af5794738177a7d29296d3d24c6b80d4dbcc7` — Fix Ultimate Finish provenance regex in skill validator.
+- Validation: the corrected validator file was re-fetched and the intended regex is present. Local execution is unavailable in the current environment. GitHub combined status and commit workflow-run queries for this commit returned 0 reported statuses and 0 workflow runs; do not infer CI success from that absence.
+- Canonical data was not changed. The live catalog remains 283 records, with 60 `ultimate_finish_required: true` records already carrying explicit UF provenance after the preceding normalization cycle.
+- Internal AI/tool citation artifacts were removed from this handoff while updating it; repository files must not contain ChatGPT/internal citation markup.
+- Exact next task: continue the remaining cross-field reward/provenance audit, prioritizing concrete inconsistencies in maintained research records over speculative canonical edits, and inspect any newly exposed CI result before changing validators again.
