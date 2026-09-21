@@ -3486,3 +3486,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Added those prerequisites to `source_quest` and clarified `source_quest_or_shop` in both canonical and index datasets. No new acquisition claims were introduced.
 - Commits: `8d77e346cff7746bdd05e117ee8d00dcee0b1ace` (canonical), `0ca0ad7078420adf06bc3d5b6eeb66c4340ec49a` (index), `356ef6c6a1f906a6ffb0655bfe3f5cc676c80f14` (audit).
 - Exact next task: **continue scanning all non-PQ records for concrete prerequisite text that is missing from structured provenance, then inspect route conflicts only where dedicated evidence can support a deterministic correction.**
+
+
+### 2026-09-20 cycle update — Pressure Sign timing conflict preserved
+- Rechecked the remaining generic Skill Shop candidates against dedicated skill pages and community acquisition reports.
+- **Pressure Sign** remains a Skill Shop acquisition. A GameFAQs report claims availability after the Distorted Time Egg sidequest, but dedicated skill pages do not establish that prerequisite, so the repository now records the conflict in notes rather than asserting it as fact.
+- Commits: `8969dc1c006614475b3f4dc64b0b80eac6e17057` (canonical), `d0eaf3339a5b095bb94fdb07867489ca97abdcac` (index), `97b1c265d84bfccf10e7911a04bbc0b1ea9553dc` (audit).
+- Exact next task: **continue the acquisition audit by comparing remaining generic shop records and non-PQ sources against dedicated unlock tables; only convert a conflicting timing/prerequisite claim into structured provenance when independently supported.**
