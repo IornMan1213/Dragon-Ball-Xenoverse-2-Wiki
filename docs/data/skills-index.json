@@ -10344,7 +10344,7 @@
       "source_quest": "Zamasu mentor training — lesson-1.",
       "dlc_requirement": "DLC",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
       "id": "skill-god-splitter",
       "source_mentor": [
         "mentor-zamasu"
@@ -10372,7 +10372,7 @@
       "source_quest": "Zamasu mentor training — lesson-2.",
       "dlc_requirement": "DLC",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
       "id": "skill-heavenly-arrow",
       "source_mentor": [
         "mentor-zamasu"
@@ -10400,7 +10400,7 @@
       "source_quest": "Zamasu mentor training — lesson-3.",
       "dlc_requirement": "DLC",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
       "id": "skill-instant-severance",
       "source_mentor": [
         "mentor-zamasu"
@@ -10589,7 +10589,7 @@
       "source_quest": "Hit mentor training — lesson-3.",
       "dlc_requirement": "DLC",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
       "id": "skill-time-skip-tremor-pulse",
       "source_mentor": [
         "mentor-hit"
