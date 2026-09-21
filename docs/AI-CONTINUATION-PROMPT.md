@@ -5791,7 +5791,7 @@ The repository owner has clarified the continuation contract:
   - Fighting Pose C — **0 Ki**.
   - Psycho Escape — **0 Ki / 200 Stamina**; Evasive activation uses Stamina rather than Ki.
   - Kaioken Kamehameha — **200 Ki**.
-- Evidence: current Xenoverse 2 skill-reference pages for each target, with PQ/reward corroboration for the acquisition context. citeturn1search0turn2search0turn1search6turn1search1
+- Evidence: current Xenoverse 2 skill-reference pages for each target, with PQ/reward corroboration for the acquisition context. Sources consulted: current Xenoverse 2 skill-reference pages for Meteor Crash, Fighting Pose C, Psycho Escape, and Kaioken Kamehameha (dbxv2.fandom.com).
 - Files changed: `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Canonical changes were limited to the resource-cost fields, the variable-cost note for Meteor Crash, and `last_verified=2026-09-21`.
 - Post-write validation: **428 records; 0 duplicate IDs; 1 nullable `ki_cost` record**. The remaining nullable record is Dimension Cannon, whose current canonical state is intentionally `ki_cost=null` with `stamina_cost=300` because it is a Stamina-only Evasive.
