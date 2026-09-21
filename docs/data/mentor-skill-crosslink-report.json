@@ -3,39 +3,9 @@
   "game": "Dragon Ball Xenoverse 2",
   "generated_by": "manual_canonical_sync_2026-09-21",
   "canonical_mentor_records": 33,
-  "mentors_with_skill_links": 11,
-  "mentor_to_skill_edge_count": 16,
+  "mentors_with_skill_links": 14,
+  "mentor_to_skill_edge_count": 30,
   "forward_edges": [
-    {
-      "mentor_id": "mentor-krillin",
-      "mentor_name": "Krillin",
-      "skill_id": "skill-destructo-disc"
-    },
-    {
-      "mentor_id": "mentor-krillin",
-      "mentor_name": "Krillin",
-      "skill_id": "skill-rise-to-action"
-    },
-    {
-      "mentor_id": "mentor-gohan-kid",
-      "mentor_name": "Gohan (Kid)",
-      "skill_id": "skill-masenko"
-    },
-    {
-      "mentor_id": "mentor-vegeta",
-      "mentor_name": "Vegeta",
-      "skill_id": "skill-galick-gun"
-    },
-    {
-      "mentor_id": "mentor-frieza",
-      "mentor_name": "Frieza (1st Form)",
-      "skill_id": "skill-death-ball"
-    },
-    {
-      "mentor_id": "mentor-cooler",
-      "mentor_name": "Cooler (Final Form)",
-      "skill_id": "skill-shadow-crusher"
-    },
     {
       "mentor_id": "mentor-android-18",
       "mentor_name": "Android 18",
@@ -47,19 +17,19 @@
       "skill_id": "skill-perfect-shot"
     },
     {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-rush-melee"
+      "mentor_id": "mentor-cooler",
+      "mentor_name": "Cooler (Final Form)",
+      "skill_id": "skill-shadow-crusher"
     },
     {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-rush-ranged"
+      "mentor_id": "mentor-frieza",
+      "mentor_name": "Frieza (1st Form)",
+      "skill_id": "skill-death-ball"
     },
     {
-      "mentor_id": "mentor-pan",
-      "mentor_name": "Pan",
-      "skill_id": "skill-dancing-parapara"
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "skill_id": "skill-masenko"
     },
     {
       "mentor_id": "mentor-goku",
@@ -85,12 +55,113 @@
       "mentor_id": "mentor-hit",
       "mentor_name": "Hit",
       "skill_id": "skill-time-skip-jump-spike"
+    },
+    {
+      "mentor_id": "mentor-krillin",
+      "mentor_name": "Krillin",
+      "skill_id": "skill-destructo-disc"
+    },
+    {
+      "mentor_id": "mentor-krillin",
+      "mentor_name": "Krillin",
+      "skill_id": "skill-orin-combo"
+    },
+    {
+      "mentor_id": "mentor-krillin",
+      "mentor_name": "Krillin",
+      "skill_id": "skill-rise-to-action"
+    },
+    {
+      "mentor_id": "mentor-krillin",
+      "mentor_name": "Krillin",
+      "skill_id": "skill-scatter-kamehameha"
+    },
+    {
+      "mentor_id": "mentor-pan",
+      "mentor_name": "Pan",
+      "skill_id": "skill-dancing-parapara"
+    },
+    {
+      "mentor_id": "mentor-piccolo",
+      "mentor_name": "Piccolo",
+      "skill_id": "skill-evil-explosion"
+    },
+    {
+      "mentor_id": "mentor-piccolo",
+      "mentor_name": "Piccolo",
+      "skill_id": "skill-light-grenade"
+    },
+    {
+      "mentor_id": "mentor-piccolo",
+      "mentor_name": "Piccolo",
+      "skill_id": "skill-special-beam-cannon"
+    },
+    {
+      "mentor_id": "mentor-piccolo",
+      "mentor_name": "Piccolo",
+      "skill_id": "skill-super-explosive-wave"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-rush-melee"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-rush-ranged"
+    },
+    {
+      "mentor_id": "mentor-tien",
+      "mentor_name": "Tien",
+      "skill_id": "skill-dodon-ray"
+    },
+    {
+      "mentor_id": "mentor-tien",
+      "mentor_name": "Tien",
+      "skill_id": "skill-neo-tri-beam"
+    },
+    {
+      "mentor_id": "mentor-tien",
+      "mentor_name": "Tien",
+      "skill_id": "skill-tri-beam"
+    },
+    {
+      "mentor_id": "mentor-tien",
+      "mentor_name": "Tien",
+      "skill_id": "skill-volleyball-fist"
+    },
+    {
+      "mentor_id": "mentor-vegeta",
+      "mentor_name": "Vegeta",
+      "skill_id": "skill-galick-gun"
+    },
+    {
+      "mentor_id": "mentor-yamcha",
+      "mentor_name": "Yamcha",
+      "skill_id": "skill-fake-death"
+    },
+    {
+      "mentor_id": "mentor-yamcha",
+      "mentor_name": "Yamcha",
+      "skill_id": "skill-ki-blast-thrust"
+    },
+    {
+      "mentor_id": "mentor-yamcha",
+      "mentor_name": "Yamcha",
+      "skill_id": "skill-spirit-ball"
+    },
+    {
+      "mentor_id": "mentor-yamcha",
+      "mentor_name": "Yamcha",
+      "skill_id": "skill-wolf-fang-fist"
     }
   ],
   "unresolved_edges": [],
   "status": "resolved",
   "notes": [
-    "Only directly verified skill routes were linked. Mentor identity records without verified skill mappings remain populated but unlinked.",
-    "This layer is intended to support mentor → lesson → skill → skill-detail navigation and later bidirectional reverse lookup."
+    "Only directly verified lesson→skill routes were linked. Mentor identity records without verified skill mappings remain populated but unlinked.",
+    "This layer is intended to support mentor → lesson → skill → skill-detail navigation and later bidirectional reverse lookup.",
+    "2026-09-21 reconciliation: Krillin, Tien, Yamcha, and Piccolo lesson routes were already explicit in the canonical mentor layer and corresponding skills-index source_mentor fields; this cycle promoted those 14 deterministic edges into the crosslink report without altering acquisition semantics."
   ]
 }
