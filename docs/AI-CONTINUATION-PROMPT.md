@@ -3525,3 +3525,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `44cdb3d2c6c94ed2a2edfdcb709fe871da9572be` / `6acf61c3077c4d47117c93b98f2f9032a38b440f` (canonical), `d88512eab0ee921af53c47a164f37fbfdc8488ca` / `0d0eb97f11c755fd9b734d42b47b3b6be3ff75d2` (index), and the audit update below.
 - Audit commit: `cb91031c49a7c879669078eca4aa0337c182bdfc`.
 - Exact next task: continue the remaining late-PQ provenance census, prioritizing records whose current maintained reward map gives a more specific quest than the canonical pooled/generic source wording.
+
+
+### 2026-09-20 cycle update — Emperor's Cannon provenance resolution
+- Continued the late-PQ conflict census and resolved **Emperor's Cannon** using the maintained PQ reward-normalization map.
+- Canonical/index now identify **PQ183 — "Broly vs. Broly" Basic Reward**; the prior PQ184 dedicated-page claim is retained as conflicting historical evidence.
+- Commits: `cbf82e1d5175076a801a99d8a408d4742064ebfe` (canonical), `cf62d99daef7e3e9f41e401a4b010c0d7dfd853e` (index), audit `793a620e074b9da5bab84674e178fc6f1644d864`.
+- Exact next task: continue the remaining late-PQ conflict census, prioritizing records where the maintained reward-normalization map explicitly identifies a more specific quest/reward relationship than the skill record currently states.
