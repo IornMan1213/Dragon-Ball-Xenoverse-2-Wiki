@@ -5583,3 +5583,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: canonical commit `0931c19993553d4e8e875a2955a7479a26922c29` had no actionable workflow/status result exposed; **no CI success claimed**.
 - Commits: `0931c19993553d4e8e875a2955a7479a26922c29` (canonical), `c5dab824b9fe5e88d2d7a06aa2f2ea0bfc25f629` (audit), `ec683e18da3467f6709e629869e2725a50965c68` (changelog), plus this handoff update.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+### 2026-09-21 — Android 16 mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 33 nullable `ki_cost` records**.
+- Bounded batch: **Eye Beam (100), Rocket Tackle (100), Android Rush (100), Hell Flash (300)** from Android 16 mentor training.
+- Evidence: current Xenoverse 2 skill pages explicitly document **100 Ki** for the three Super Skills and **300 Ki** for Hell Flash; the Android 16 mentor page confirms the four mentor rewards.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **29**. No skill-index Ki-cost projection introduced.
+- CI: canonical commit `3dddf371190a0cd8a3cb29940ec922b64ea2b711` had no actionable workflow/status result exposed; **no CI success claimed**.
+- Commits: `3dddf371190a0cd8a3cb29940ec922b64ea2b711` (canonical), `d5a8fbbd3e7e10abe65e08f055e70f35c13f3e77` (audit), `060eb92ff3f52d41597efdf90060b03f3a32e199` (changelog), plus this handoff update.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
