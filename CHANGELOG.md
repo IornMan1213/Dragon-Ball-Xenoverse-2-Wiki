@@ -729,3 +729,10 @@
 - Live report totals: **33 canonical mentors / 25 linked mentors / 87 edges / 87 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
 - No skill acquisition semantics were changed.
 - Exact next batch: **Gotenks, Turles, Broly, and God of Destruction Beerus**, using the same lesson↔skill-ID↔source_mentor parity check.
+
+### 2026-09-21 cycle update — Gotenks/Turles/Broly/Beerus mentor-skill reconciliation
+- Promoted **16 deterministic mentor→skill edges**: Gotenks (4), Turles (4), Broly (4), and God of Destruction Beerus (4), using canonical lesson mappings plus matching `source_mentor` provenance.
+- The Gotenks ultimate route retains its distinct canonical skill ID despite sharing the displayed skill name with another Gotenks route.
+- Live report totals: **33 canonical mentors / 27 linked mentors / 103 edges / 103 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
+- No skill acquisition semantics were changed.
+- Exact next batch: **Whis, Pan, Jaco, and Goku**, using the same lesson↔skill-ID↔source_mentor parity check.
