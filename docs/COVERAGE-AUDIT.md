@@ -4217,3 +4217,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Evidence: the maintained PQ reward guide directly lists Yamcha's Sword under PQ36, while an independent equipment reference lists the same exact inventory item as an Accessory Shop item. This reconciles the prior PQ29/PQ36 research conflict rather than creating a duplicate identity. cite refs are kept outside repository files.
 - Corrected the accessory bridge's stale summary counts and regenerated the forward/reverse cross-link report.
 - Remaining unresolved accessory research identities: Android 14's Hat, Android 15's Sunglasses, Bardock (DB Super)'s Scouter, and Android 17 (DB Super)'s Ranger Accessory. Current evidence continues to indicate these labels should not be force-mapped to clothing or similarly named components.
+
+### 2026-09-21 accessory PQ identity batch 5
+- Reconciled **Android 15's Sunglasses** to canonical **Android 15's Shades & Hat** (`accr-105`). Current equipment references document this as one accessory sold in the TP Medal Shop; the research label is preserved as a component alias rather than a duplicate item. citeturn2search0turn2search1
+- Reconciled **Android 17 (DB Super)'s Ranger Accessory** to the already-canonical **Android 17 (DB Super) Wig** (`accr-029`) as a component/research alias. PQ152 reward evidence explicitly names the canonical wig. citeturn1search4turn1search1
+- Did not force-map **Android 14's Hat** or **Bardock (DB Super)'s Scouter**: PQ104 documents Android 14's Clothes, while PQ146 documents Bardock (DB Super)'s Clothes, not those accessory identities. citeturn1search0turn1search7
+- Cross-link report regenerated with component aliases represented without creating duplicate inventory identities.
