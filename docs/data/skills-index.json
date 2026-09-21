@@ -652,11 +652,11 @@
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Skill Shop",
+      "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: Skill Shop is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "Current dedicated evidence confirms Reverse Mabakusenko as a 300-Ki Ki Blast Ultimate from the Skill Shop and a universal counter. Current users include Piccolo, Pikkon, Gohan (Beast), and customizable partners; this does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
@@ -741,7 +741,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Other Super/evasive skill. It creates afterimages for evasion/vanishing and is broadly associated with mentors; no explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
@@ -756,11 +756,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Skill Shop",
+      "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super and melee counter obtained from the Skill Shop. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions."
     },
     {
@@ -1139,11 +1139,11 @@
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Skill Shop",
+      "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive from the Skill Shop. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": null
     },
@@ -3070,11 +3070,11 @@
         "https://dragonball.fandom.com/wiki/Spirit_Boost",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Skill Shop",
+      "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "Confirmed as a 0-Ki Skill Shop defensive Other Super. It projects a wide defensive barrier that can cancel incoming Ki attacks for a short window and can protect nearby allies. Current evidence supports CaC usability without a narrower race/gender/form restriction."
     },
     {
@@ -4129,11 +4129,11 @@
         "https://dragonball.fandom.com/wiki/Pressure_Sign",
         "https://gamefaqs.gamespot.com/ps4/190459-dragon-ball-xenoverse-2/answers/630629-what-abilities-should-i-get-for-my-female-majin-strike-build"
       ],
-      "unlock_method": "Skill Shop in Conton City",
+      "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "Verified current acquisition route: Skill Shop in Conton City. The current skill page explicitly lists Skill Shop as the unlock; independent references also document the Skill Shop route.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "100 Ki Strike Super from the Conton City Skill Shop; short-range strike technique used to pressure the opponent."
     },
     {
@@ -5492,11 +5492,11 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "unlock_method": "TP Medal Shop; 200 TP Medals in the documented shop listing.",
+      "unlock_method": "TP Medal Shop; documented historical listing price 200 TP Medals",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 200 tp medals acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "500 Ki; 14-hit strike ultimate with a Shenron-finisher animation. TP Medal Shop listing documents a 200-TP-Medal purchase price."
     },
     {
@@ -5573,11 +5573,11 @@
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "unlock_method": "TP Medal Shop; current documented price is 500 TP Medals.",
+      "unlock_method": "TP Medal Shop; documented historical listing price 500 TP Medals",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 500 tp medals acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent."
     },
     {
