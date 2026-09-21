@@ -6133,3 +6133,10 @@ The repository owner has clarified the continuation contract:
 - CI: no actionable workflow/status result is exposed; **no CI success is claimed**.
 - Commits: canonical e228c5b148f98ef4bcd9106598ea7b2ec0f3c29e; index 574f08f299739a183f90286a0cf632fd2255bb0b.
 - Exact next task: **recompute the remaining DLC-label/source-relationship census after this correction and select the next deterministic cluster with a documented provenance/count mismatch; prioritize character-only and DLC completeness gaps before low-confidence prose enrichment.**
+
+### 2026-09-21 correction — Pretty Charge index parity discovered during validation
+- Post-write validation exposed a pre-existing projection gap: canonical skills had **429** records, while skills-index still had **428** because the earlier Pretty Charge canonical addition had never been projected into the index.
+- Corrective change: added the existing canonical Pretty Charge record to docs/data/skills-index.json and set index record_count to **429**. No new canonical skill was created and no canonical fields were changed.
+- Final validation: **429 canonical / 429 index / 0 duplicate IDs / 15 Future Saga Chapter 1 records / Divine Ray Bomb = Future Saga Chapter 1 / Gigantic Cluster display name synchronized**. No internal citation/UI artifacts detected in the changed canonical/index records.
+- Corrective commit: 44199a6cb5e392665708cf37346a2bf5fde23f63.
+- Exact next task remains: recompute the remaining DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness mismatch.
