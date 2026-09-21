@@ -5072,3 +5072,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - All ten map to PQ147–150 with matching `Legendary Pack 2` provenance.
 - **0 deterministic DLC mismatches** found.
 - Only verification dates/provenance notes were refreshed; other skill semantics remain unchanged.
+
+
+## 2026-09-21 Conton City Vote Pack skill provenance census
+
+- Audited all **10** canonical records labeled Conton City Vote Pack.
+- PQ-linked records map to PQ151–154; Supersonic Mode remains character-specific.
+- **0 deterministic DLC mismatches** found.
+- Existing acquisition/drop-tier conflicts were preserved; this pass only refreshed verification/provenance metadata.
