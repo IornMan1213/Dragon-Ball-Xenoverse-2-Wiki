@@ -3844,3 +3844,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Keep all three at `race_restriction: null`; no canonical data change is warranted.
 - Live unresolved set remains exactly 3 records.
 - Next: move to another concrete data-quality invariant unless explicit race-scope evidence appears.
+
+
+## 2026-09-21 continuation — PQ producer drift fixed
+- Cross-field audit found **211 canonical records** with numeric `source_quest` PQ IDs plus explicit PQ wording in other provenance fields. Their canonical `acquisition_type` is intentionally `quest_or_mission`.
+- The builder previously classified any explicit PQ wording as `parallel_quest`, which would have reclassified those 211 records on a fresh build before the existing canonical merge preserved their old values.
+- Updated `scripts/build_skills_from_research.py` so `parallel_quest` requires numbered PQ wording **and no `source_quest` value**. Numeric `source_quest` records retain `quest_or_mission`; Final Pose remains the canonical explicit `parallel_quest` case.
+- Commit: `26492c947f35359f6f41cfc17ebd062ba6a6635c`.
+- No canonical data changed.
+- Next: re-audit producer/validator classification for any remaining fresh-build acquisition drift.
