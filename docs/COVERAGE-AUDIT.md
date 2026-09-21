@@ -4511,3 +4511,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - The live crosslink report verifies **33 canonical mentors / 19 linked mentors / 59 edges / 59 unique skill endpoints / 0 unresolved / 0 broken endpoints**. The preceding cycle note's “20 linked mentors” figure was an arithmetic overstatement and is corrected here.
 - The 15 newly promoted edges remain unchanged; no data semantics were altered.
 - Exact next batch remains **Android 18, Android 17, Cell, and Hercule**.
+
+### 2026-09-21 cycle update — Android 18/Android 16/Cell/Hercule mentor-skill reconciliation
+- Promoted **14 deterministic mentor→skill edges**: Android 18 (3), Android 16 (4), Cell (Perfect) (3), Hercule (4), using canonical lesson mappings plus matching `source_mentor` provenance.
+- The requested “Android 17” mentor is **not present** in the canonical 33-mentor layer, so no unsupported relationship was created.
+- Live report totals: **33 canonical mentors / 23 linked mentors / 73 edges / 73 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
+- No skill acquisition semantics were changed.
+- Exact next batch: **Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl**, using the same lesson↔skill-ID↔source_mentor parity check.
