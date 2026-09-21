@@ -4399,3 +4399,18 @@ Only after data-completeness work, expose the improved structured research surfa
 - **Throughput requirement:** continuation cycles should batch related, independently verifiable work instead of stopping after a single small correction. Recompute live censuses, group records by the same failure/provenance pattern, audit multiple affected records/entities per cycle, make all justified synchronized changes, validate them together, and update the handoff once per completed batch.
 - Batch size must not override evidence discipline: leave individual fields/links null or explicitly unresolved when evidence is insufficient, and do not mass-fill relationships from naming similarity alone.
 - Next architectural audit should identify the existing canonical identifiers and relationship-bearing fields across the PQ, skill, mentor, character, equipment, Super Soul, DLC, shop, raid/event, and transformation datasets, then define the minimum deterministic cross-link contract and begin filling/auditing those links in batches.
+
+## 2026-09-21 continuation — deterministic skill IDs and cross-link contract
+- Workstream: P1 skill data-model integrity / cross-database linkage.
+- Completed the next architectural step from the persistent user requirement: the canonical skill catalog now has deterministic `id` values derived from the skill name, with an explicit collision policy for future duplicate names.
+- Updated `docs/data/skills.json` (283 records) and `docs/data/skills-index.json` so every current canonical skill has the same stable ID in both layers.
+- Updated `docs/data/skills.schema.json` to require the skill ID and enforce its format.
+- Updated `scripts/build_skills_from_research.py` so IDs are produced during normal record construction and recomputed during merge output, including correction paths; this prevents renamed/corrected skills from inheriting a superseded ID.
+- Updated `scripts/validate_skills.py` to validate ID syntax, uniqueness, and deterministic derivation from the canonical skill name.
+- Added `docs/data/CROSS-LINK-CONTRACT.md` defining the minimum relationship/identifier contract for PQs, skills, equipment/accessories, Super Souls, mentors, characters, DLC, shops, raids/events, and transformations. It explicitly requires bidirectional edges where evidence permits and forbids name-only mass linking.
+- Existing PQ → skill cross-link validation remains available through `scripts/validate_pq_skill_links.py`; the new contract makes the reverse edge and stable endpoint-ID work an explicit next implementation stage.
+- Validation: live catalog inspection confirms 283 canonical records and 283 unique skill IDs. Source-level schema/builder/validator inspection completed. The latest Skills schema validation, Repository quality, Sync Skills Catalog, and cleanup runs were queued on commit `4ab16b21cf1ed29164fee563578122c56e1a74c8` at handoff time. Prior runs for the preceding commits failed with a job exposing zero steps; this remains an opaque infrastructure/runner/account signal rather than actionable validator evidence. No validators were weakened.
+- Important limitation: the GitHub connector does not expose a local Python runtime, so no local execution claim is made.
+- Current unresolved skill race-scope set remains 3 records: Blaster Stream, Chaotic Time Impact, and Circle Flash. No unsupported race restriction was added.
+- Exact next task: add deterministic PQ IDs to the canonical PQ record layer, then upgrade `validate_pq_skill_links.py` into a bidirectional PQ ↔ skill relationship report using endpoint IDs, with unresolved/orphaned edges explicitly reported. Batch related records together and preserve evidence uncertainty.
+
