@@ -837,3 +837,11 @@
 - CI: workflow/status inspection was not exposed by the repository connector for this cycle; **no CI success claimed**. Validators were not weakened.
 - Commit: `971ae7a1bdf30adbdfe1417c2e6ff3d26dc599b1`.
 - Exact next batch: **recompute the live skill-index projection census and select the next highest-impact deterministic mismatch family**, without regenerating unrelated fields or reopening clean `mechanics_notes` parity.
+
+## 2026-09-21 — Skill-index notes projection parity
+
+- Synchronized the four remaining canonical-to-index notes projections for God Splitter, Heavenly Arrow, Instant Severance, and Time Skip/Tremor Pulse.
+- The change is deterministic: index notes now match canonical docs/data/skills.json, including the already-recorded mentor DLC provenance refinement.
+- No new gameplay, acquisition, restriction, or DLC claim was introduced.
+- Validation: 429/429 skill records parse successfully; targeted notes parity is 0 mismatches; no internal AI/UI/search citation artifacts were found in the edited index.
+
