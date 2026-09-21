@@ -17,7 +17,7 @@
     "Transformation": 4,
     "Other Ultimates": 2
   },
-  "record_count": 443,
+  "record_count": 448,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -11240,6 +11240,126 @@
       "id": "skill-remote-serious-bomb",
       "ki_cost": 300,
       "stamina_cost": null
+    },
+    {
+      "id": "skill-jumping-energy-wave",
+      "name": "Jumping Energy Wave",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super; current dedicated evidence lists Skill Shop acquisition.",
+      "source_quest_or_shop": "TP Medal Shop"
+    },
+    {
+      "id": "skill-menacing-flare",
+      "name": "Menacing Flare",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super; current maintained evidence identifies TP Medal Shop acquisition.",
+      "source_quest_or_shop": "TP Medal Shop"
+    },
+    {
+      "id": "skill-focus-flash",
+      "name": "Focus Flash",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "Expert Mission 18",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super; dedicated evidence identifies Expert Mission 18 — The Ultimate Evil: Broly!.",
+      "source_quest_or_shop": "Expert Mission 18"
+    },
+    {
+      "id": "skill-wild-hunt",
+      "name": "Wild Hunt",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Strike Super; current dedicated evidence lists TP Medal Shop acquisition.",
+      "source_quest_or_shop": "TP Medal Shop"
+    },
+    {
+      "id": "skill-tail-slicer",
+      "name": "Tail Slicer",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+        "https://dbxv2.fandom.com/wiki/Menacing_Flare",
+        "https://dbxv2.fandom.com/wiki/Focus_Flash",
+        "https://dbxv2.fandom.com/wiki/Wild_Hunt",
+        "https://dbxv2.fandom.com/wiki/Tail_Slicer",
+        "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+      ],
+      "unlock_method": "Expert Mission 19",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-21 Free Update 2 completeness correction: official Bandai Namco/Steam update documentation lists this skill among the five new attacks added in the February 27, 2017 free update. Current dedicated skill evidence supports the listed class, 100 Ki cost, CaC availability, and acquisition endpoint; no unsupported reward probability or additional gate is inferred.",
+      "mechanics_notes": "100-Ki Ki Blast Super; dedicated evidence identifies Expert Mission 19 — A Truly Hellish Transformation.",
+      "source_quest_or_shop": "Expert Mission 19"
     }
   ],
   "skill_id_policy": {
