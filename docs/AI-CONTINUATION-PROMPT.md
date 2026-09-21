@@ -4098,3 +4098,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `d97163f5dbe57cf8bc16e983ff16898a16a481bf`.
 - No canonical data or generated index files changed.
 - Next task: continue checking CI/build invocations for dependency or path assumptions, then verify workflow status for the maintenance commit where available.
+
+
+## 2026-09-21 continuation — Awoken index projection drift
+- Audited the remaining skills-sync workflow scripts and found a second concrete CI/catalog mismatch.
+- `scripts/apply_awoken_overrides.py` maintained its own six-field `INDEX_FIELDS` tuple and regenerated `docs/data/skills-index.json` with only six fields, while the canonical builder/validator contract is the shared 15-field `INDEX_PROJECTION_FIELDS`.
+- This step runs in `skills-sync.yml` after normalization and immediately before `validate_skills.py`, so the stale projection could cause the generated index to fail validation on a sync run.
+- Fixed `apply_awoken_overrides.py` to import `INDEX_PROJECTION_FIELDS` from `build_skills_from_research.py` and use that shared contract when rebuilding the index.
+- Commit: `9efe94501478c53e14f2ea94822db14a41ad8161`.
+- No canonical data files were changed.
+- Next task: continue auditing the remaining workflow/script contracts for similar duplicated assumptions, then check workflow status for the maintenance commits where available.
