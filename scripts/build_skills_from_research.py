@@ -112,7 +112,7 @@ def load_local_batches(m,protected=None,blocked=None):
   for r in rs:
    if not isinstance(r,dict) or not r.get('name'):
     raise ValueError(f'{p.name}: research record must be an object with a name')
-   r=dict(r); r['research_batch']=payload.get('batch_id'); r['research_status']='partially_enriched'; imported+=1; merge_record(m,r,protected,blocked)
+   r=dict(r); r['research_batch']=payload.get('batch_id'); r.setdefault('research_status',payload.get('research_status','partially_enriched')); imported+=1; merge_record(m,r,protected,blocked)
  return imported
 def build_record(d,p):
  n=d.get('name');
