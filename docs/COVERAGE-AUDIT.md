@@ -5287,3 +5287,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Independent PQ documentation and official Dragon Ball documentation corroborate PQ148 acquisition and Legendary Pack 2 provenance.
 - Canonical commit: `d57e5de80896db12c7e11f438c89dede057acee7`.
 - Next: continue the remaining low-source acquisition/provenance cluster.
+
+
+### 2026-09-21 — PQ141 provenance strengthening
+- Strengthened **Dragon Blitz** and **Brutal Buster** from two to four sources each.
+- Independent PQ reward documentation corroborates both as PQ141 Basic Rewards; a contemporaneous walkthrough documents obtaining them. 
+- Canonical commit: `5d643879eebb9ecee27306719516e5945abd38ec`.
+- Next: continue low-source acquisition/provenance auditing.
