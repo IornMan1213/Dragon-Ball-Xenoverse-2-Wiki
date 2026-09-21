@@ -475,3 +475,10 @@
 - Verified against the Krillin mentor/skill references; `Spread Shot Retreat` remains a separate Evasive used by Krillin and is not incorrectly inserted as a fourth mentor lesson reward.
 - Validation: **420 canonical skills / 420 index records / 420 taxonomy total / 133 mentor lessons / 132 resolved mentor→skill edges / 1 unresolved endpoint / 32 fully linked mentors / 1 partially linked mentor / 0 duplicate canonical IDs**.
 - The remaining unresolved endpoint is Zamasu's **I'm thinking of becoming a GodTuber**, which is a Super Soul rather than a skill and is intentionally retained as a typed unresolved non-skill reward.
+
+## 2026-09-21 — Mentor Dual Ultimate relationship layer
+- Expanded the mentor graph beyond ordinary lesson rewards by creating `docs/data/dual-ultimate-mentor-layer.json` with **33 mentor → Dual Ultimate relationships**, covering every current mentor.
+- Each Dual Ultimate now links to its mentor and to the underlying canonical base skill where applicable; **33/33 base-skill links resolve**.
+- Added the three previously missing ordinary base skills discovered during this audit: **Giant Storm**, **Angry Explosion**, and **Dead End Rain**. These are now canonical skill records and are linked from their corresponding Dual Ultimate records.
+- This preserves an important distinction: a mentor's taught Ultimate does not necessarily equal its Dual Ultimate. Examples include Krillin → DUAL Chain Destructo-Disc Barrage, Android 18 → DUAL Dead End Rain, Majin Buu → DUAL Angry Explosion, and Ginyu → DUAL Milky Cannon.
+- Validation: **423 canonical skills / 423 index records / 423 taxonomy total / 33 mentor Dual Ultimate records / 33 resolved Dual Ultimate → base-skill edges / 0 unresolved Dual Ultimate base links**.
