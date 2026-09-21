@@ -4586,3 +4586,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Commits: `ad2bd70044d982245819621ea63c66116ffc1490`, `53959c1bfcf0bbb0c67d6625bdb7c429cd643c0e`.
 - Exact next batch: **audit the next 4–12 deterministic skill-index projection drifts from recent canonical enrichment, prioritizing a single coherent field family (for example `last_verified`/mechanics-note updates) and preserving the generated projection contract.**
 
+
+
+### 2026-09-21 skill-index last_verified projection batch
+
+- Live census before editing: **429 canonical skills / 429 skill-index records**.
+- Bounded batch: **10 deterministic last_verified projection corrections** — Become Giant, Dancing Parapara, Darkness Rush (Melee), Darkness Rush (Ranged), Data Input, Deadly Dance, Death Ball, Destructo-Disc, Dimension Cannon, and Dragon Spiral.
+- Evidence: canonical docs/data/skills.json is the producer of the index projection; no new external acquisition/mechanics claim was introduced.
+- Changes: updated only the corresponding last_verified values in docs/data/skills-index.json to match canonical values. No unrelated fields were regenerated.
+- Evidence limits: this is a deterministic cross-layer parity correction, not a new verification event; remaining projected-field drift is intentionally left for later bounded batches.
+- Validation: both JSON layers parse; 429/429 record counts remain unchanged; the 10 targeted last_verified values now match canonical; **20** broader last_verified mismatches remain; no internal AI/UI/search citation artifacts were found in the changed index.
+- CI: workflow/status results remain unavailable; **no CI success claimed** and validators were not weakened.
+- Commit: a14d8a7025124ca12a54e55c4b4ba9ffa701cf15.
+- Exact next batch: **Energy Charge, Final Pose, Full Power Charge, Galick Gun, Indomitable, Instant Transmission, Masenko, Maximum Charge, Perfect Shot, and Potential Unleashed** — repeat the same canonical→index last_verified parity check and bounded update.
