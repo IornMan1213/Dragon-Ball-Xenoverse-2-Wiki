@@ -1127,14 +1127,14 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
-      "source_quest_or_shop": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop (Conton City) after main-story completion",
       "mechanics_notes": "Current dedicated evidence confirms a 300-Stamina Ki Blast Evasive sold in the Skill Shop after the normal-ending story progression. It creates an area explosion that staggers nearby opponents; no unsupported CaC race/gender/form restriction was added. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "race_restriction": "All CaC races",
       "damage_type": "Ki Blast",
       "dlc_requirement": "Base Game",
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
-      "source_quest": null,
+      "source_quest": "Main story — normal ending completion",
       "acquisition_type": "skill_shop",
       "notes": "2026-09-20 source-quality cleanup: the current canonical acquisition route is Skill Shop after completing the main story (normal ending). A broad PQ reward census found no maintained Parallel Quest record for Explosive Wave, so the prior PQ-reward note was stale and has been removed. No Ultimate Finish gate or unsupported drop probability is asserted."
     },
@@ -1324,7 +1324,7 @@
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
-      "source_quest_or_shop": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop after completing A Momentous Galactic Battle",
       "mechanics_notes": "Dedicated current-version evidence confirms Punisher Guard as a 300-Stamina Other Evasive from the Skill Shop after story progression. It provides universal invulnerability/super armor for about 3 seconds. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
       "race_restriction": "All CaC races",
       "damage_type": "Other",
@@ -1332,7 +1332,8 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-20 prerequisite refinement: dedicated skill evidence identifies Punisher Guard as a Skill Shop purchase after completing \"A Momentous Galactic Battle\"; the documented purchase price is 5,000 Zeni. No current shop-rotation claim is inferred."
+      "notes": "2026-09-20 prerequisite refinement: dedicated skill evidence identifies Punisher Guard as a Skill Shop purchase after completing \"A Momentous Galactic Battle\"; the documented purchase price is 5,000 Zeni. No current shop-rotation claim is inferred.",
+      "source_quest": "A Momentous Galactic Battle — completion"
     },
     {
       "name": "Side Bridge",
