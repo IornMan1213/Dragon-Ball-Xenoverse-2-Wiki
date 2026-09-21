@@ -1,3 +1,9 @@
+## September 2026 — deterministic skill IDs and cross-database linkage
+
+- Added deterministic IDs to all 283 canonical skill records and synchronized the skill index.
+- Added schema, builder, and validator enforcement so skill IDs survive research merges and corrections deterministically.
+- Added `docs/data/CROSS-LINK-CONTRACT.md` defining stable identifiers, bidirectional relationship edges, provenance, unresolved links, and the connected-database roadmap.
+
 ## September 2026 — Awoken mechanics batch 44
 - Synchronized current stage/resource mechanics across the canonical Awoken records from the consolidated research table and individual references.
 - Added explicit resource, attack/defense, stamina/Ki drain, moveset, and transformation-specific mechanics without turning community build opinions into factual claims.
