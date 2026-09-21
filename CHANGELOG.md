@@ -718,3 +718,8 @@
 - Live report totals: **33 canonical mentors / 23 linked mentors / 73 edges / 73 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
 - No skill acquisition semantics were changed.
 - Exact next batch: **Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl**, using the same lesson↔skill-ID↔source_mentor parity check.
+
+### 2026-09-21 validation correction — mentor-linked census
+- Final live validation shows **33 canonical mentors / 21 linked mentors / 73 edges / 73 unique skill endpoints / 0 unresolved / 0 broken endpoints**. The immediately preceding “23 linked mentors” figure was an arithmetic overstatement and is corrected here.
+- The 14 promoted edges are unchanged, and Android 17 remains absent from the canonical mentor layer.
+- Exact next batch remains **Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl**.
