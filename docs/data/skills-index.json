@@ -4129,7 +4129,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost.",
+      "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-goku added for the documented mentor-training acquisition route.",
       "source_quest": "Goku mentor training — Lesson 1",
       "source_quest_or_shop": "Goku mentor training, Lesson 1",
       "source_mentor": [
@@ -4556,7 +4556,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-gohan-kid added for the documented mentor-training acquisition route.",
       "source_quest": "Gohan (Kid) mentor training — School Quest Lesson 2",
       "source_quest_or_shop": "Gohan (Kid) mentor training",
       "source_mentor": [
@@ -4580,7 +4580,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills.",
+      "mechanics_notes": "Confirmed as the God Class Advancement Test charge skill, usable by all CaC races. It is the highest standard CaC Ki-charge rate among the three normal charge skills. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-god added from the existing acquisition record.",
       "source_quest": "Advancement Test — God Class",
       "source_quest_or_shop": "Advancement Test - God Class"
     },
@@ -4772,7 +4772,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "A continuable rushdown Strike Super: the user spin-kicks into a clawing barrage and continues attacking while the input is held, ending by knocking the opponent away. Current documentation lists a variable 100–700 Ki cost and 9–33 hits; community testing independently observes increased damage as more Ki is held. The canonical fixed 100-Ki value has been removed rather than falsely retaining a single cost; the game mechanic is variable by held Ki. PQ86 remains the acquisition route.",
+      "mechanics_notes": "A continuable rushdown Strike Super: the user spin-kicks into a clawing barrage and continues attacking while the input is held, ending by knocking the opponent away. Current documentation lists a variable 100–700 Ki cost and 9–33 hits; community testing independently observes increased damage as more Ki is held. The canonical fixed 100-Ki value has been removed rather than falsely retaining a single cost; the game mechanic is variable by held Ki. PQ86 remains the acquisition route. 2026-09-21 cost verification: dedicated Xenoverse 2 skill documentation lists 100–700 Ki depending on continued input/charge; the variable cost is preserved rather than normalized to a fixed value.",
       "source_quest": 86,
       "source_quest_or_shop": "Parallel Quest 86 — \"Yamcha is Number One\"",
       "ki_cost": null,
@@ -4874,7 +4874,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot.",
+      "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-cell added for the documented mentor-training acquisition route.",
       "source_quest": "Cell (Perfect) mentor training",
       "source_quest_or_shop": "Training with Cell (Perfect)",
       "source_mentor": [
@@ -4973,7 +4973,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Universal CaC Awoken Skill. Requires 500 Ki; current reference lists +15% all attacks and +5% damage reduction. 2026-09-20 provenance refinement: repository Advancement Tests research explicitly identifies the final Super Class test as the Potential Unleashed reward and the prior Easy-through-God Z-Rank requirement.",
-      "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "500 Ki; +15% Strike and Blast, +5% Strike and Blast Defense. The current research corpus notes the in-game Ki-recovery text is misleading; do not treat it as a damage or recovery bonus beyond the documented values. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-super added from the existing acquisition record.",
       "source_quest": "Patroller Academy — Super Class Advancement Test",
       "source_quest_or_shop": "Final Advancement Test"
     },
@@ -5362,7 +5362,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Added during cross-database orphan-skill audit. The current Future Warrior technique reference supports CaC use without a narrower race restriction.",
-      "mechanics_notes": "100 Ki. Up to five directional energy slashes can be followed by a teleporting overhead slash. Current evidence identifies the move as a Strike Super and PQ57 reward; the maintained PQ record does not establish an Ultimate Finish-only requirement, so none is inferred.",
+      "mechanics_notes": "100 Ki. Up to five directional energy slashes can be followed by a teleporting overhead slash. Current evidence identifies the move as a Strike Super and PQ57 reward; the maintained PQ record does not establish an Ultimate Finish-only requirement, so none is inferred. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 57, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "source_quest_or_shop": "Parallel Quest 57 — \"Hell Is a Picture?\"",
       "source_parallel_quests": [
         57
@@ -5583,7 +5583,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina.",
+      "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-krillin added for the documented mentor-training acquisition route.",
       "source_quest": "Krillin mentor training — Initiation Test",
       "source_quest_or_shop": "Krillin mentor training — Initiation Test",
       "source_mentor": [
@@ -5833,7 +5833,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-cooler added for the documented mentor-training acquisition route.",
       "source_quest": "Cooler (Final Form) mentor training — Lesson 1",
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 1",
       "source_mentor": [
@@ -6132,7 +6132,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile.",
+      "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-goku added for the documented mentor-training acquisition route.",
       "source_quest": "Goku mentor training",
       "source_quest_or_shop": "Training with Goku",
       "source_mentor": [
