@@ -1223,3 +1223,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; composite label remains exactly one record by design.
 - [x] CI: workflow lookup remains required; no success is claimable unless an actual run is exposed.
 - [ ] Next provenance batch: fresh live census of remaining DLC labels against source relationships, prioritizing deterministic mismatches rather than intentionally multi-DLC or platform-dependent values.
+
+
+### 2026-09-21 — Master ledger completion marking: Candy Beam Base Game provenance audit
+- [x] **Candy Beam was audited as the only live Base Game skill whose relationship data also referenced a DLC-era PQ number.** Its canonical `dlc_requirement=Base Game` remains correct.
+- [x] Evidence: current PQ references place the canonical Candy Beam reward in **PQ66**, a base-game quest; PQ113 later lists Candy Beam among Extra Pack 1 rewards. The repository distinguishes `Candy Beam (Super)` as a separate Extra Pack 1 skill with its own PQ113 endpoint.
+- [x] Decision: preserve the Base Game classification for canonical Candy Beam. The additional PQ113 relationship is a later duplicate/contextual reward reference and does not establish the base skill's originating DLC.
+- [x] Change: `docs/data/skills.json` only — updated `last_verified=2026-09-21` and appended a bounded provenance-audit note. No DLC label, acquisition, mechanics, cost, or restriction field was changed.
+- [x] Validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; no Base Game skill remains with an unresolved PQ>100 provenance mismatch after accounting for Candy Beam's duplicate reward context.
+- [x] CI: workflow status remains unavailable unless Actions exposes an actual run.
+- [ ] Next provenance batch: fresh live census of source-to-DLC relationships, focusing on any remaining records where the primary acquisition endpoint and `dlc_requirement` disagree.
