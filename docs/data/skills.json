@@ -2406,7 +2406,7 @@
       "last_verified": "2026-09-21",
       "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": false,
-      "dlc_requirement": "Free Update 1.14",
+      "dlc_requirement": "Free Update 11",
       "character_source": "Goku (Ultra Instinct), Goku (Ultra Instinct -Sign-)",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -2415,7 +2415,7 @@
       "research_status": "enriched",
       "mechanics_notes": "Current evidence confirms Divine Kamehameha as a 200-Ki Ki Blast Super sold through the TP Medal Shop and usable by all CaC races. It is a moving Kamehameha-style beam with directional movement during charge and an early-fire input.",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation. 2026-09-21 DLC provenance verification: current reference material identifies Divine Kamehameha as part of the free 1.14.00 update and distributed through the TP Medal Shop; the shop/rotation acquisition context is preserved separately rather than treated as a paid DLC requirement.",
+      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Divine Kamehameha in the TP Medal Shop rotation. 2026-09-21 DLC provenance verification: current reference material identifies Divine Kamehameha as part of the free 1.14.00 update and distributed through the TP Medal Shop; the shop/rotation acquisition context is preserved separately rather than treated as a paid DLC requirement. 2026-09-21 provenance correction: current Free Update documentation places Divine Kamehameha among the 9 new skills introduced in Free Update 11 (alongside Soaring Fist and Godly Display); the prior `Free Update 1.14` label was inconsistent with that documented update chronology.",
       "id": "skill-divine-kamehameha"
     },
     {
@@ -4644,12 +4644,12 @@
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "source_quest_or_shop": "TP Medal Shop",
       "mechanics_notes": "500+ Ki Strike Ultimate. Rushes the opponent, then spends remaining Ki on the final energy sphere; the final blast scales with leftover Ki. Shop availability is rotation-dependent.",
-      "dlc_requirement": "Free Update 12",
+      "dlc_requirement": "Free Update 11",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 500 tp medals acquisition route. No quest or Ultimate Finish route is inferred.",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the tp medal shop; documented historical listing price 500 tp medals acquisition route. No quest or Ultimate Finish route is inferred. 2026-09-21 provenance correction: current Free Update documentation places Godly Display among the 9 new skills introduced in Free Update 11; the prior `Free Update 12` label was inconsistent with that documented update chronology.",
       "id": "skill-godly-display"
     },
     {
