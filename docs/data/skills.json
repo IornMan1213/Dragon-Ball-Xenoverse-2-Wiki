@@ -633,11 +633,13 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Bomb",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.dragon-ball-official.com/news/01_628.html",
+        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved.",
       "source_parallel_quests": [
         148
       ]
@@ -664,11 +666,13 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Cannon",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.dragon-ball-official.com/news/01_628.html",
+        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved.",
       "source_parallel_quests": [
         148
       ]
@@ -736,7 +740,9 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blaster_Stream",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://en.dragon-ball-official.com/news/01_628.html",
+        "https://videogaming.fandom.com/wiki/Finding_Out_About_Fusion"
       ],
       "usable_by_cac": true,
       "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan)",
@@ -748,7 +754,7 @@
       "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. 2026-09-20 verification: current skill page explicitly states PQ148 unlock and Ki Blast Ultimate classification; the PQ148 reward guide independently lists Blaster Stream as a Basic Reward.",
       "research_status": "verified",
       "last_verified": "2026-09-21",
-      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Blaster Stream in PQ148 Basic Reward. No Ultimate Finish requirement is asserted. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.",
+      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Blaster Stream in PQ148 Basic Reward. No Ultimate Finish requirement is asserted. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ documentation identifies PQ148 — Finding Out About Fusion, its reward list includes this skill, and the official Dragon Ball site documents the three Legendary Pack 2 skills. Existing PQ148 acquisition and DLC semantics are preserved.",
       "race_restriction": null,
       "source_quest": 148,
       "acquisition_type": "quest_or_mission",
