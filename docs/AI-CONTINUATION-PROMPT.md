@@ -6543,3 +6543,15 @@ The repository owner has clarified the continuation contract:
 - CI: inspect exposed workflow/status results; do not claim success if none are available.
 - Commits: canonical `b6b186c62b4b621226a4c605293f7580754d2ae2`; index `e9d476d6e09d929a0b45c4f861701cb4efc37c1e`; changelog `eedbfe62871a5e98949d0882f62b32e03d8cf57d`; TODO `6785b47d8555b209958a8f69e6ced40e3cfa46e1`.
 - Exact next batch: **recompute the live two-source census and continue with Dimensional Hole (PQ80), verifying source-PQ/reward-tier consistency before adding provenance.**
+
+### 2026-09-21 cycle update — Dimensional Hole low-source provenance
+- **Workstream:** P1 skill acquisition/source provenance cleanup.
+- **Live pre-batch census:** 452 canonical skills, 452 index records, 54 exactly-two-source records.
+- **Bounded batch completed:** Dimensional Hole (`skill-dimensional-hole`).
+- **Research performed:** maintained Steam all-PQ guide independently lists Dimensional Hole under PQ80 — The Return of the Giant Ape-Fest's Basic Reward list; dedicated skill evidence already established PQ80 acquisition.
+- **Files/records changed:** `docs/data/skills.json`, `docs/data/skills-index.json`, `CHANGELOG.md`, `docs/TODO-EXHAUSTIVE.md`, and this handoff.
+- **Evidence limitation:** the new source strengthens PQ80/Basic Reward provenance only; no exact drop probability or additional mechanics were inferred.
+- **Commits:** canonical `47bbe3bba2f005d317639c8b6b9c0119db2c57cf`; index `e31963dab4b46835fbfe9698fd94146ad857c597`; documentation commits follow this update.
+- **Validation target:** 452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, source/verification parity, internal citation-artifact scan, and 53 exactly-two-source records after successful strengthening.
+- **CI:** inspect exposed status/workflow results; do not claim CI success without an actual check/run.
+- **Exact next task:** recompute the live two-source census and continue with **Do or Die (skill-do-or-die)**, verifying PQ49 source and Basic Reward tier before adding provenance.
