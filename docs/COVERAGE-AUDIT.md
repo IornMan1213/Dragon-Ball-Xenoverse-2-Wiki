@@ -1123,3 +1123,7 @@
 ### 2026-09-21 — Low-source PQ provenance strengthening
 - Added direct/independent provenance to Candy Beam (Super), Crusher Ball, and Destructive Fracture.
 - No unsupported drop probabilities or Ultimate Finish requirements were introduced.
+
+### 2026-09-21 — PQ97/PQ110 provenance strengthening
+- Added independent PQ evidence for Charged Ki Wave (PQ97) and Divinity Unleashed (PQ110).
+- No acquisition semantics or unsupported reward conditions were changed.
