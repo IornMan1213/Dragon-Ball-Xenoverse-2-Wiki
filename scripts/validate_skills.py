@@ -10,16 +10,13 @@ except ImportError:
     Draft202012Validator = None
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCHEMA=ROOT/'docs/data/skills.schema.json'
-ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
-ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter','Transformation'}
-ALLOWED_RESEARCH={'indexed','partially_enriched','enriched','page_unavailable'}
-ALLOWED_ACQUISITION={'quest_or_mission','parallel_quest','skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'}
 CLASS_SUBCATEGORIES={'Super':{'Ki Blast','Strike','Other','Power Up'},'Ultimate':{'Ki Blast','Strike','Other','Power Up'},'Evasive':{'Ki Blast','Strike','Other','Power Up'},'Awoken':{'Race','Transformation'},'Counter':{'Counter'},'Mixed':{'Special'}}
 
 def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
 
 def main():
  d=json.loads(DATA.read_text(encoding='utf-8')); idx=json.loads(INDEX.read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
+ ALLOWED_CLASS=set(schema['properties']['class']['enum']); ALLOWED_SUB=set(schema['properties']['subcategory']['enum']); ALLOWED_RESEARCH=set(schema['properties']['research_status']['enum']); ALLOWED_ACQUISITION=set(schema['properties']['acquisition_type']['enum'])
  rs=d.get('records',[]); ir=idx.get('records',[]); errors=[]
  if Draft202012Validator is None:
   errors.append('jsonschema dependency is required for JSON Schema validation')
