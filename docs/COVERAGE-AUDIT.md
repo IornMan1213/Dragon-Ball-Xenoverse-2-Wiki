@@ -4978,3 +4978,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: commit `56ee3eb6610131a85cf1c9a5ff253a10d57b44bf` exposed **no workflow runs and no status checks**; **no CI success claimed**. Validators were not weakened.
 - Commit: `56ee3eb6610131a85cf1c9a5ff253a10d57b44bf`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and verify the three Zamasu mentor skills — God Splitter, Heavenly Arrow, Instant Severance — using explicit current `Ki Used` evidence; preserve variable-cost forms if encountered.**
+
+### 2026-09-21 correction — pre-existing citation-token artifact status
+- The live file still contains some **older historical internal citation-token text** in entries written by earlier cycles. The current Bojack entry introduced no such tokens.
+- Because the continuation protocol is append-only and forbids deleting or rewriting historical entries, those older artifacts were not removed in this cycle. Future entries must continue using plain source URLs or source descriptions only.
