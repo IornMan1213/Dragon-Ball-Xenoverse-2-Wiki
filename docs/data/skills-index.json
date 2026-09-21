@@ -2308,7 +2308,8 @@
       "source_quest_or_shop": "Parallel Quest 95 — \"Super 17, the Ultimate Android\"",
       "source_parallel_quests": [
         95
-      ]
+      ],
+      "source_quest": 95
     },
     {
       "id": "skill-dust-attack",
@@ -3080,7 +3081,8 @@
       "source_quest_or_shop": "Parallel Quest 95 — \"Super 17, the Ultimate Android\"",
       "source_parallel_quests": [
         95
-      ]
+      ],
+      "source_quest": 95
     },
     {
       "id": "skill-flash-chaser",
@@ -5361,7 +5363,8 @@
       "source_quest_or_shop": "Parallel Quest 57 — \"Hell Is a Picture?\"",
       "source_parallel_quests": [
         57
-      ]
+      ],
+      "source_quest": 57
     },
     {
       "id": "skill-ray-blast",
