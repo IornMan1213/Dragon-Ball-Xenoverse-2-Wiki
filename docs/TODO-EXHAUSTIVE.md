@@ -1494,3 +1494,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Confirmed the documented Free Update 1 scope includes SSGSS Goku's Super Saiyan Blue Kaioken, Hit's Pure Progress, and four additional attacks.
 - [ ] Identify the exact four additional Free Update 1 attack names and acquisition endpoints from reliable evidence before adding them to the canonical registry.
 - [ ] Preserve the existing Free Update 1 Awoken records and do not conflate the launch update's four unnamed attacks with the separate five-teacher/VIP Corner content.
+
+### 2026-09-21 — Free Update 1 evidence pass: unnamed four-attack scope preserved
+- Re-ran the Free Update 1 launch-update investigation against the live repository and contemporary release documentation.
+- Contemporary release documentation consistently confirms the Free Update 1 attack quantity (**4**) but does not name those four attacks individually in the accessible announcement material.
+- The canonical registry currently contains exactly the two explicitly named Free Update 1 Awoken endpoints: Pure Progress and Super Saiyan Blue Kaioken.
+- Result: **no speculative skill endpoints added**. This pass strengthens the evidence boundary rather than inventing names from later skill lists or character-moveset data.
+- Exact next task: obtain a stronger primary/current source that identifies those four December 2016 attack names and their acquisition endpoints, then add only those exact records.
