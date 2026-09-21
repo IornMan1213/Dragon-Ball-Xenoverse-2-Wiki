@@ -3493,3 +3493,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - **Pressure Sign** remains a Skill Shop acquisition. A GameFAQs report claims availability after the Distorted Time Egg sidequest, but dedicated skill pages do not establish that prerequisite, so the repository now records the conflict in notes rather than asserting it as fact.
 - Commits: `8969dc1c006614475b3f4dc64b0b80eac6e17057` (canonical), `d0eaf3339a5b095bb94fdb07867489ca97abdcac` (index), `97b1c265d84bfccf10e7911a04bbc0b1ea9553dc` (audit).
 - Exact next task: **continue the acquisition audit by comparing remaining generic shop records and non-PQ sources against dedicated unlock tables; only convert a conflicting timing/prerequisite claim into structured provenance when independently supported.**
+
+
+### 2026-09-20 cycle update — Emperor's Cannon conflict recheck
+- Rechecked the unresolved **Emperor's Cannon** PQ183/PQ184 discrepancy against current web evidence.
+- The dedicated skill page identifies PQ184, while the maintained 186-PQ reward guide and an independent PQ183 page list Emperor's Cannon under PQ183. The conflict remains unresolved, so the canonical record continues to preserve the dedicated-page PQ184 value while explicitly documenting the PQ183 evidence.
+- No Ultimate Finish requirement or forced resolution was introduced.
+- Audit commit: `10fe88d8a3846296d88d235100d8387367769d0c`.
+- Exact next task: **continue the remaining acquisition/provenance audit, prioritizing records where route evidence is contradictory or structured provenance is still incomplete; do not resolve direct source conflicts without stronger independent evidence.**
