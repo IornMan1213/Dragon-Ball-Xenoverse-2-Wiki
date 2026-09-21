@@ -6005,3 +6005,13 @@ The repository owner has clarified the continuation contract:
 - Reward-tier ambiguity was deliberately preserved; this was a provenance-only pass.
 - CI: no workflow run/check is exposed, so no CI success is claimed.
 - Exact next task: fresh live DLC-label/source-relationship census outside Ultra Pack 2.
+
+
+### 2026-09-21 cycle update — Legendary Pack 1 skill DLC provenance census
+- Live canonical census: **428 records / 0 duplicate IDs**.
+- Bounded batch: Burning Shot, Destructive Fission, Destructive Flare, Destructive Fracture, Hyper Tornado, Thunder Flash.
+- Official Bandai Namco documentation identifies Legendary Pack 1 as 4 characters, 4 PQs, and 6 additional moves; live canonical records independently map the six skills to PQ143–146.
+- Changes: refreshed `last_verified=2026-09-21` and appended bounded provenance notes to six affected skill records.
+- Validation: **428 records / 0 duplicate IDs / 6 Legendary Pack 1 skills / 0 PQ143–146 DLC mismatches**.
+- Reward-tier semantics were preserved; this was a provenance-only pass. No workflow run/check is exposed, so CI success is not claimed.
+- Exact next task: fresh live DLC-label/source-relationship census beyond Legendary Pack 1.
