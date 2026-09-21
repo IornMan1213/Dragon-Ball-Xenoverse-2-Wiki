@@ -171,7 +171,8 @@
       "name": "Android 14's Hat",
       "pq": 104,
       "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "match_status": "researched_unresolved",
+      "note": "PQ104 source evidence identifies Android 14's Clothes, not a separately named Android 14's Hat accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
     },
     {
       "pq_record_id": "pqacc-024",
@@ -186,7 +187,8 @@
       "name": "Bardock (DB Super)'s Scouter",
       "pq": 146,
       "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "match_status": "researched_unresolved",
+      "note": "PQ146 source evidence identifies Bardock (DB Super)'s Clothes, not a separately named Bardock (DB Super)'s Scouter accessory. Current equipment catalog does not establish an exact canonical inventory item matching this research label."
     },
     {
       "pq_record_id": "pqacc-026",
@@ -334,7 +336,7 @@
     "pq_records": 45,
     "matched": 43,
     "unmatched_or_unresolved": 2,
-    "note": "Matched records establish canonical identity only. Component aliases are not promoted to duplicate inventory items."
+    "note": "Unresolved records have been actively researched; absence of an exact canonical identity is preserved rather than inferred from clothing or character-set records."
   },
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
