@@ -580,3 +580,12 @@
 - Rebuilt `docs/data/pq-super-soul-crosslink-report.json`: **26 forward / 26 reverse edges**.
 - Validation: **82 canonical Super Souls / 186 canonical PQs / 22 unique PQ endpoints / 26 unique Super Soul endpoints / 56 unresolved routes / 0 broken endpoints**. Changed JSON parsed successfully.
 - Evidence limits preserved: community measurements and the Zarbon recovery text-vs-behavior dispute remain explicitly non-canonical; no unsupported PQ relationships were inferred.
+
+
+## 2026-09-21 — Super Soul 088-095 + PQ reverse-link reconciliation
+
+- Added canonical Super Soul records `super-soul-088` through `super-soul-095` from the maintained Madreag corpus.
+- Synchronized PQ147 with `super-soul-089`, PQ148 with `super-soul-090`, and PQ149 with `super-soul-088`.
+- Rebuilt `docs/data/pq-super-soul-crosslink-report.json`: **29 forward / 29 reverse edges**.
+- Validation: **90 canonical Super Souls / 186 canonical PQs / 25 unique PQ endpoints / 29 unique Super Soul endpoints / 61 unresolved routes / 0 broken endpoints**. Changed JSON parsed successfully.
+- Evidence limits preserved: community measurements and source-text behavior disputes were not promoted to exact canonical values; raid/shop records without explicit PQ identity remain unresolved for PQ linkage.
