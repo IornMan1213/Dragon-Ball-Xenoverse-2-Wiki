@@ -5144,3 +5144,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: inspect the new commits for exposed workflow runs/checks; no CI success is claimed unless GitHub exposes an actual run/status.
 - Commits: canonical `8d7e79997949c60dcdd950803363adc54c5df4dd`; index `5a8f644a1efdff441bc736612a039fa2df06760`.
 - Exact next batch: recompute the live DLC/free-update source census and select the next deterministic completeness/provenance cluster; prioritize concrete missing endpoints over low-confidence prose enrichment.
+
+### 2026-09-21 — Extra Pack 2 skill completeness correction
+- Live census before editing: **439 canonical / 439 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Official Bandai Namco/Nintendo/PlayStation/Steam package documentation states Extra Pack 2 contains **8 new skills**.
+- The canonical registry contained only four of the eight package skills: Rough Ranger, Power Impact, Meditation, and Power Rush. Current maintained evidence identifies the missing four as Fu's Tokipedia rewards: Confusion Blade, Sneaky Strike, Energy Minefield, and Remote Serious Bomb.
+- Added the four missing canonical endpoints with bounded Tokipedia completion acquisition and directly evidenced costs. Remote Serious Bomb is recorded at 300 Ki for the current activation; no obsolete second-stage Ki cost was asserted.
+- Projected all four into `docs/data/skills-index.json` and synchronized counts.
+- Validation target/result: **443 canonical / 443 index / 0 duplicate IDs / 0 nullable `ki_cost` values / 8 Extra Pack 2 records**.
+- Evidence limits: no unsupported drop percentages, Ultimate Finish requirements, or additional acquisition gates were inferred for the Tokipedia endpoints.
+- CI: workflow status must be checked separately; no CI success is claimed without an exposed run/check.
+- Commits: canonical `cb7cae9327cdf4b6881d6238e69bae1204ba5b9c`; index `ae196b957734334a964b59f6206815a48385d167`.
+- Exact next task: recompute the live DLC/free-update census again and select the next deterministic cluster with a concrete missing endpoint or provenance mismatch; preserve intentional composite/platform-dependent labels.
