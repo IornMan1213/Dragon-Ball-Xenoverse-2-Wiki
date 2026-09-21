@@ -8,8 +8,10 @@ ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'docs/data/skills.json'; INDE
 TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
 def classify_acquisition(d):
  text=' '.join(str(d.get(k,'')) for k in ('source_quest','source_quest_or_shop','unlock_method','source')).casefold()
- if 'tp medal' in text or 'stp medal' in text: return 'tp_medal_shop'
- if 'skill shop' in text: return 'skill_shop'
+ if 'skill shop' in text and ('starting move' not in text or 'or skill shop' not in text): return 'skill_shop'
+ if 'tp medal' in text or 'stp medal' in text:
+  if re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text) or d.get('source_quest') not in (None,''): return 'quest_or_mission'
+  return 'tp_medal_shop'
  if re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text): return 'parallel_quest'
  if d.get('source_quest') not in (None,''): return 'quest_or_mission'
  if 'starting move' in text: return 'starting_move'
