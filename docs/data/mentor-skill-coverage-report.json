@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 129,
-  "linked_skill_edges": 16,
-  "unresolved_skill_endpoints": 113,
-  "fully_linked_mentors": 1,
-  "partially_linked_mentors": 32,
+  "linked_skill_edges": 36,
+  "unresolved_skill_endpoints": 93,
+  "fully_linked_mentors": 6,
+  "partially_linked_mentors": 27,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -38,13 +38,13 @@
         "Tri-Beam",
         "Neo Tri-Beam"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Dodon Ray",
-        "Volleyball Fist",
-        "Tri-Beam",
-        "Neo Tri-Beam"
-      ]
+      "linked_skill_ids": [
+        "skill-dodon-ray",
+        "skill-volleyball-fist",
+        "skill-tri-beam",
+        "skill-neo-tri-beam"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-yamcha",
@@ -55,13 +55,13 @@
         "Ki Blast Thrust",
         "Spirit Ball"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Fake Death",
-        "Wolf Fang Fist",
-        "Ki Blast Thrust",
-        "Spirit Ball"
-      ]
+      "linked_skill_ids": [
+        "skill-fake-death",
+        "skill-wolf-fang-fist",
+        "skill-ki-blast-thrust",
+        "skill-spirit-ball"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-piccolo",
@@ -72,13 +72,13 @@
         "Light Grenade",
         "Special Beam Cannon"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Evil Explosion",
-        "Super Explosive Wave",
-        "Light Grenade",
-        "Special Beam Cannon"
-      ]
+      "linked_skill_ids": [
+        "skill-evil-explosion",
+        "skill-super-explosive-wave",
+        "skill-light-grenade",
+        "skill-special-beam-cannon"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-raditz",
@@ -89,13 +89,13 @@
         "Shining Friday",
         "Weekend"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Double Sunday",
-        "Saturday Crash",
-        "Shining Friday",
-        "Weekend"
-      ]
+      "linked_skill_ids": [
+        "skill-double-sunday",
+        "skill-saturday-crash",
+        "skill-shining-friday",
+        "skill-weekend"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-gohan-kid",
@@ -124,13 +124,13 @@
         "Genocide Shell",
         "Break Cannon"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Bomber DX",
-        "Arm Crash",
-        "Genocide Shell",
-        "Break Cannon"
-      ]
+      "linked_skill_ids": [
+        "skill-bomber-dx",
+        "skill-arm-crash",
+        "skill-genocide-shell",
+        "skill-break-cannon"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-vegeta",
@@ -584,5 +584,6 @@
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
-  ]
+  ],
+  "canonical_skill_records": 325
 }
