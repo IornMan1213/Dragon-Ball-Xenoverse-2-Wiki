@@ -72,7 +72,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-spirit-slash"
+      ]
     },
     {
       "id": "pq-003",
@@ -108,7 +111,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-solar-flare"
+      ]
     },
     {
       "id": "pq-004",
@@ -144,7 +150,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-paralyze-beam"
+      ]
     },
     {
       "id": "pq-005",
@@ -181,7 +190,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-kamehameha"
+      ]
     },
     {
       "id": "pq-006",
@@ -216,7 +228,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-meteor-strike"
+      ]
     },
     {
       "id": "pq-007",
@@ -251,7 +266,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-shine-shot"
+      ]
     },
     {
       "id": "pq-008",
@@ -287,7 +305,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-kaioken"
+      ]
     },
     {
       "id": "pq-009",
@@ -322,7 +343,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-meteor-blow"
+      ]
     },
     {
       "id": "pq-010",
@@ -358,7 +382,11 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-wall-of-defense",
+        "skill-unrelenting-barrage"
+      ]
     },
     {
       "id": "pq-011",
@@ -395,7 +423,10 @@
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-earth-splitting-galick-gun"
+      ]
     },
     {
       "id": "pq-012",
@@ -624,7 +655,11 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Parallel_Quests"
       ],
-      "notes": "Guldo's health-preservation condition is critical to the Ultimate Finish path. Exact drop tables remain to be reconciled."
+      "notes": "Guldo's health-preservation condition is critical to the Ultimate Finish path. Exact drop tables remain to be reconciled.",
+      "skill_ids": [
+        "skill-time-control",
+        "skill-mach-dash"
+      ]
     },
     {
       "id": "pq-019",
@@ -662,7 +697,11 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Parallel_Quests"
       ],
-      "notes": "The five-minute hidden condition is explicitly sourced. Exact reward and drop records remain unresolved."
+      "notes": "The five-minute hidden condition is explicitly sourced. Exact reward and drop records remain unresolved.",
+      "skill_ids": [
+        "skill-mach-punch",
+        "skill-fighting-pose-e"
+      ]
     },
     {
       "id": "pq-020",
@@ -695,7 +734,10 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Parallel_Quests"
       ],
-      "notes": "The 20-soldier and 10-minute conditions are source-backed. Exact reward/drop data remains to be reconciled."
+      "notes": "The 20-soldier and 10-minute conditions are source-backed. Exact reward/drop data remains to be reconciled.",
+      "skill_ids": [
+        "skill-mystic-flash"
+      ]
     },
     {
       "id": "pq-021",
@@ -737,6 +779,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-evil-flight-strike"
       ]
     },
     {
@@ -778,6 +823,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-energy-shot"
       ]
     },
     {
@@ -813,6 +861,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-death-slash"
       ]
     },
     {
@@ -847,6 +898,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-double-death-slicer"
       ]
     },
     {
@@ -884,6 +938,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-spirit-explosion"
       ]
     },
     {
@@ -923,6 +980,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-crazy-finger-shot"
       ]
     },
     {
@@ -960,6 +1020,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-sauzer-blade"
       ]
     },
     {
@@ -1003,6 +1066,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-spread-shot-retreat"
       ]
     },
     {
@@ -1049,6 +1115,10 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-freedom-kick",
+        "skill-energy-field"
       ]
     },
     {
@@ -1128,6 +1198,9 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-super-dragon-flight"
       ]
     },
     {
@@ -1163,6 +1236,9 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-energy-barrier"
       ]
     },
     {
@@ -1199,6 +1275,9 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-death-psycho-bomb"
       ]
     },
     {
@@ -1236,6 +1315,10 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-crusher-ball",
+        "skill-paralysis"
       ]
     },
     {
@@ -1317,6 +1400,9 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-evil-whirlwind"
       ]
     },
     {
@@ -1356,6 +1442,9 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-instant-rise"
       ]
     },
     {
@@ -1394,6 +1483,9 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-shining-slash"
       ]
     },
     {
@@ -1432,6 +1524,9 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-side-bridge"
       ]
     },
     {
@@ -1472,6 +1567,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/5/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-heat-dome-attack"
       ]
     },
     {
@@ -1511,6 +1609,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-burning-attack"
       ]
     },
     {
@@ -1551,6 +1652,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-rolling-bullet"
       ]
     },
     {
@@ -1590,6 +1694,9 @@
         "https://dbxv2.fandom.com/wiki/Change_the_Future_(Parallel_Quest)",
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-change-the-future"
       ]
     },
     {
@@ -1629,6 +1736,10 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-god-breaker",
+        "skill-burning-slash"
       ]
     },
     {
@@ -1666,6 +1777,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-taunt"
       ]
     },
     {
@@ -1698,6 +1812,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-chain-destructo-disc-barrage"
       ]
     },
     {
@@ -1761,6 +1878,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-kamehameha"
       ]
     },
     {
@@ -1795,6 +1915,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-do-or-die"
       ]
     },
     {
@@ -1826,6 +1949,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-explosive-buu-buu-punch"
       ]
     },
     {
@@ -1857,6 +1983,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-burst-rush"
       ]
     },
     {
@@ -1888,6 +2017,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-final-cannon"
       ]
     },
     {
@@ -1918,6 +2050,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-justice-pose"
       ]
     },
     {
@@ -1948,6 +2083,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-victory-cannon"
       ]
     },
     {
@@ -1978,6 +2116,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-super-donut-volley"
       ]
     },
     {
@@ -2007,6 +2148,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-stone-bullet"
       ]
     },
     {
@@ -2041,6 +2185,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-rakshasa-s-claw"
       ]
     },
     {
@@ -2071,6 +2218,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-vanishing-ball"
       ]
     },
     {
@@ -2110,6 +2260,10 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-force-shield",
+        "skill-dimension-cannon"
       ]
     },
     {
@@ -2148,6 +2302,9 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Parallel_Quests",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-majin-kamehameha"
       ]
     },
     {
@@ -2176,6 +2333,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-recoome-kick",
+        "skill-fighting-pose-h"
       ]
     },
     {
@@ -2202,6 +2363,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-teleporting-vanishing-ball"
       ]
     },
     {
@@ -2230,6 +2394,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-kai-kai"
       ]
     },
     {
@@ -2257,6 +2424,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-ill-rain"
       ]
     },
     {
@@ -2285,6 +2455,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-scissors-paper-rock"
       ]
     },
     {
@@ -2311,6 +2484,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-candy-beam"
       ]
     },
     {
@@ -2332,6 +2508,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-super-god-fist"
       ]
     },
     {
@@ -2354,6 +2533,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-angry-shout"
       ]
     },
     {
@@ -2375,6 +2557,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-headshot"
       ]
     },
     {
@@ -2396,6 +2581,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-emperor-s-blast"
       ]
     },
     {
@@ -2417,6 +2605,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-last-emperor"
       ]
     },
     {
@@ -2438,6 +2629,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-burst-kamehameha"
       ]
     },
     {
@@ -2459,6 +2653,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-psychic-move"
       ]
     },
     {
@@ -2480,6 +2677,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-final-pose"
       ]
     },
     {
@@ -2501,6 +2701,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-counter-burst"
       ]
     },
     {
@@ -2522,6 +2725,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-warp-kamehameha"
       ]
     },
     {
@@ -2547,6 +2753,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-ki-explosion"
       ]
     },
     {
@@ -2572,6 +2781,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-dust-attack"
       ]
     },
     {
@@ -2598,6 +2810,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-mighty-explosive-wave"
       ]
     },
     {
@@ -2623,6 +2838,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-dimensional-hole"
       ]
     },
     {
@@ -2648,6 +2866,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-afterimage-strike"
       ]
     },
     {
@@ -2673,6 +2894,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-dragon-burn"
       ]
     },
     {
@@ -2699,6 +2923,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-charge"
       ]
     },
     {
@@ -2723,6 +2950,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-saiyan-spirit"
       ]
     },
     {
@@ -2747,6 +2977,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-zigzag-express"
       ]
     },
     {
@@ -2769,6 +3002,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-neo-wolf-fang-fist"
       ]
     },
     {
@@ -2791,6 +3027,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-atomic-blast"
       ]
     },
     {
@@ -2812,6 +3051,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-buu-buu-ball"
       ]
     },
     {
@@ -2832,6 +3074,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-victory-rush"
       ]
     },
     {
@@ -2852,6 +3097,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-ill-bomber"
       ]
     },
     {
@@ -2872,6 +3120,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-final-kamehameha"
       ]
     },
     {
@@ -2892,6 +3143,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-maiden-burst"
       ]
     },
     {
@@ -2930,6 +3184,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-bluff-kamehameha"
       ]
     },
     {
@@ -2951,6 +3208,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-flash-bomber",
+        "skill-drain-field"
       ]
     },
     {
@@ -2971,6 +3232,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-absolute-zero"
       ]
     },
     {
@@ -2992,6 +3256,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-charged-ki-wave",
+        "skill-phantom-fist"
       ]
     },
     {
@@ -3012,6 +3280,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-dimension-ray"
       ]
     },
     {
@@ -3036,6 +3307,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-emperor-s-edge"
       ]
     },
     {
@@ -3061,6 +3335,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-x-100-big-bang-kamehameha"
       ]
     },
     {
@@ -3085,6 +3362,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Breaker Energy Wave"
+      ],
+      "skill_ids": [
+        "skill-breaker-energy-wave"
       ]
     },
     {
@@ -3159,6 +3439,10 @@
       "skill_rewards": [
         "Destruction's Concerto: Comet",
         "Destruction's Concerto: Starfall"
+      ],
+      "skill_ids": [
+        "skill-destruction-s-concerto-comet",
+        "skill-destruction-s-concerto-starfall"
       ]
     },
     {
@@ -3189,6 +3473,11 @@
         "Sonic Bomb",
         "God of Destruction's Menace",
         "God of Destruction's Roar"
+      ],
+      "skill_ids": [
+        "skill-sonic-bomb",
+        "skill-god-of-destruction-s-menace",
+        "skill-god-of-destruction-s-roar"
       ]
     },
     {
@@ -3219,6 +3508,11 @@
         "Destruction's Concerto: Meteor",
         "Requiem of Destruction",
         "Destruction's Conductor"
+      ],
+      "skill_ids": [
+        "skill-destruction-s-concerto-meteor",
+        "skill-requiem-of-destruction",
+        "skill-destruction-s-conductor"
       ]
     },
     {
@@ -3289,6 +3583,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Super Black Kamehameha Rosé"
+      ],
+      "skill_ids": [
+        "skill-super-black-kamehameha-rose"
       ]
     },
     {
@@ -3315,6 +3612,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Divinity Unleashed"
+      ],
+      "skill_ids": [
+        "skill-divinity-unleashed"
       ]
     },
     {
@@ -3343,6 +3643,10 @@
       "skill_rewards": [
         "Lightning of Absolution",
         "Holy Wrath"
+      ],
+      "skill_ids": [
+        "skill-lightning-of-absolution",
+        "skill-holy-wrath"
       ]
     },
     {
@@ -3370,6 +3674,10 @@
       "skill_rewards": [
         "Blades of Judgment",
         "Divine Wrath: Purification"
+      ],
+      "skill_ids": [
+        "skill-blades-of-judgment",
+        "skill-divine-wrath-purification"
       ]
     },
     {
@@ -3398,6 +3706,10 @@
       "skill_rewards": [
         "Super Ghost Buu Attack",
         "Candy Beam (Super)"
+      ],
+      "skill_ids": [
+        "skill-super-ghost-buu-attack",
+        "skill-candy-beam-super"
       ]
     },
     {
@@ -3425,6 +3737,10 @@
       "skill_rewards": [
         "Petrifying Spit",
         "Evil Blast"
+      ],
+      "skill_ids": [
+        "skill-petrifying-spit",
+        "skill-evil-blast"
       ]
     },
     {
@@ -3454,6 +3770,10 @@
       "skill_rewards": [
         "Handy Canon",
         "S.S. Deadly Bomber"
+      ],
+      "skill_ids": [
+        "skill-handy-canon",
+        "skill-s-s-deadly-bomber"
       ]
     },
     {
@@ -3480,6 +3800,10 @@
       "skill_rewards": [
         "Brave Sword Slash",
         "Hero's Flute"
+      ],
+      "skill_ids": [
+        "skill-brave-sword-slash",
+        "skill-hero-s-flute"
       ]
     },
     {
@@ -3506,6 +3830,10 @@
       "skill_rewards": [
         "Evil Flame",
         "Brave Sword Attack"
+      ],
+      "skill_ids": [
+        "skill-evil-flame",
+        "skill-brave-sword-attack"
       ]
     },
     {
@@ -3552,6 +3880,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Rough Ranger"
+      ],
+      "skill_ids": [
+        "skill-rough-ranger"
       ]
     },
     {
@@ -3577,6 +3908,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Power Impact"
+      ],
+      "skill_ids": [
+        "skill-power-impact"
       ]
     },
     {
@@ -3635,6 +3969,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-meditation",
+        "skill-power-rush"
       ]
     },
     {
@@ -3663,6 +4001,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-reverse-shot",
+        "skill-variant-drive"
       ]
     },
     {
@@ -3689,6 +4031,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-revenge-final-flash"
       ]
     },
     {
@@ -3717,6 +4062,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-blaster-ball",
+        "skill-ray-blast"
       ]
     },
     {
@@ -3743,6 +4092,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-gigantic-breaker"
       ]
     },
     {
@@ -3772,6 +4124,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-gigantic-burst",
+        "skill-revenge-death-ball"
       ]
     },
     {
@@ -3802,6 +4158,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-powered-shell",
+        "skill-gigantic-charge"
       ]
     },
     {
@@ -3832,6 +4192,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-spirit-blaster",
+        "skill-punisher-shield"
       ]
     },
     {
@@ -3861,6 +4225,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-gigantic-rage"
       ]
     },
     {
@@ -3890,6 +4257,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-assault-vanish"
       ]
     },
     {
@@ -3921,6 +4291,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-god-punisher",
+        "skill-gigantic-roar"
       ]
     },
     {
@@ -3953,6 +4327,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-pretty-cannon",
+        "skill-formation"
       ]
     },
     {
@@ -3981,6 +4359,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-ultimate-charge",
+        "skill-burst-charge"
       ]
     },
     {
@@ -4009,6 +4391,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-lovely-cyclone"
       ]
     },
     {
@@ -4040,6 +4425,11 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-burst-stinger",
+        "skill-raid-blast",
+        "skill-blazing-attack"
       ]
     },
     {
@@ -4069,6 +4459,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-ribrianne-s-eternal-love",
+        "skill-prominence-flash"
       ]
     },
     {
@@ -4096,6 +4490,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-flash-chaser"
       ]
     },
     {
@@ -4126,6 +4523,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-total-detonation-ball",
+        "skill-photon-swipe"
       ]
     },
     {
@@ -4153,6 +4554,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-savory-slicer"
       ]
     },
     {
@@ -4182,6 +4586,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-dragon-blitz",
+        "skill-brutal-buster"
       ]
     },
     {
@@ -4211,6 +4619,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-lightning-impact",
+        "skill-excellent-full-course"
       ]
     },
     {
@@ -4243,6 +4655,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-hyper-tornado",
+        "skill-burning-shot"
       ]
     },
     {
@@ -4303,6 +4719,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-destructive-fracture",
+        "skill-destructive-flare"
       ]
     },
     {
@@ -4337,6 +4757,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-thunder-flash",
+        "skill-destructive-fission"
       ]
     },
     {
@@ -4372,6 +4796,11 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-crush-cannon",
+        "skill-double-crush",
+        "skill-crush-stream"
       ]
     },
     {
@@ -4407,6 +4836,11 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-blaster-cannon",
+        "skill-blaster-bomb",
+        "skill-blaster-stream"
       ]
     },
     {
@@ -4440,6 +4874,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-comet-strike",
+        "skill-meteor-explosion"
       ]
     },
     {
@@ -4471,6 +4909,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-impact-flare",
+        "skill-power-wall"
       ]
     },
     {
@@ -4505,6 +4947,11 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-ultrasonic-blitz",
+        "skill-spirit-pulse",
+        "skill-celestial-wave"
       ]
     },
     {
@@ -4538,6 +4985,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-justice-kick",
+        "skill-justice-blade"
       ]
     },
     {
@@ -4572,6 +5023,11 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-wild-buster",
+        "skill-shield-barrier",
+        "skill-counter-impact"
       ]
     },
     {
@@ -4604,6 +5060,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-sign-of-awakening",
+        "skill-circle-flash"
       ]
     },
     {
@@ -4637,6 +5097,11 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-heroic-counter",
+        "skill-gamma-blaster",
+        "skill-gamma-impact"
       ]
     },
     {
@@ -4671,6 +5136,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-heroic-assault",
+        "skill-shooting-strike"
       ]
     },
     {
@@ -4732,6 +5201,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-super-gamma-blast",
+        "skill-core-breaker"
       ]
     },
     {
@@ -4765,6 +5238,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-fierce-fist",
+        "skill-demonic-destruction"
       ]
     },
     {
@@ -4799,6 +5276,11 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-demon-ray",
+        "skill-demon-flash-strike",
+        "skill-demon-flurry"
       ]
     },
     {
@@ -4829,6 +5311,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-apocalyptic-burst"
       ]
     },
     {
@@ -4860,6 +5345,9 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "skill_ids": [
+        "skill-special-beam-cannon-beast"
       ]
     },
     {
@@ -4889,6 +5377,10 @@
       "skill_rewards": [
         "Giant Cluster",
         "Eraser Bomb"
+      ],
+      "skill_ids": [
+        "skill-giant-cluster",
+        "skill-eraser-bomb"
       ]
     },
     {
@@ -4917,6 +5409,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Gigantic Explosion"
+      ],
+      "skill_ids": [
+        "skill-gigantic-explosion"
       ]
     },
     {
@@ -4947,6 +5442,10 @@
       "skill_rewards": [
         "Variable Snipe Shot",
         "Steel Mirage"
+      ],
+      "skill_ids": [
+        "skill-variable-snipe-shot",
+        "skill-steel-mirage"
       ]
     },
     {
@@ -4976,6 +5475,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Pendulum Bullet"
+      ],
+      "skill_ids": [
+        "skill-pendulum-bullet"
       ]
     },
     {
@@ -5005,6 +5507,10 @@
       "skill_rewards": [
         "Seagull Combination",
         "Burning Swan"
+      ],
+      "skill_ids": [
+        "skill-seagull-combination",
+        "skill-burning-swan"
       ]
     },
     {
@@ -5034,6 +5540,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Justice Drive"
+      ],
+      "skill_ids": [
+        "skill-justice-drive"
       ]
     },
     {
@@ -5111,6 +5620,10 @@
       "skill_rewards": [
         "Crimson Edge",
         "Divine Spear"
+      ],
+      "skill_ids": [
+        "skill-crimson-edge",
+        "skill-divine-spear"
       ]
     },
     {
@@ -5141,6 +5654,10 @@
       "skill_rewards": [
         "Big Bang Knuckle",
         "Wild Stinger"
+      ],
+      "skill_ids": [
+        "skill-big-bang-knuckle",
+        "skill-wild-stinger"
       ]
     },
     {
@@ -5170,6 +5687,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Divine Ray Bomb"
+      ],
+      "skill_ids": [
+        "skill-divine-ray-bomb"
       ]
     },
     {
@@ -5198,6 +5718,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Final Rampage"
+      ],
+      "skill_ids": [
+        "skill-final-rampage"
       ]
     },
     {
@@ -5228,6 +5751,10 @@
       "skill_rewards": [
         "God of Destruction's Plaything",
         "God of Destruction's Poise"
+      ],
+      "skill_ids": [
+        "skill-god-of-destruction-s-plaything",
+        "skill-god-of-destruction-s-poise"
       ]
     },
     {
@@ -5283,6 +5810,11 @@
         "Full Power Destruction",
         "Dragon Spark",
         "Soaring Rush"
+      ],
+      "skill_ids": [
+        "skill-full-power-destruction",
+        "skill-dragon-spark",
+        "skill-soaring-rush"
       ]
     },
     {
@@ -5309,6 +5841,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Burst Blitz"
+      ],
+      "skill_ids": [
+        "skill-burst-blitz"
       ]
     },
     {
@@ -5338,6 +5873,10 @@
       "skill_rewards": [
         "Heat Wave",
         "Supreme Fury"
+      ],
+      "skill_ids": [
+        "skill-heat-wave",
+        "skill-supreme-fury"
       ]
     },
     {
@@ -5368,6 +5907,10 @@
       "skill_rewards": [
         "Force Edge",
         "Burning Blast"
+      ],
+      "skill_ids": [
+        "skill-force-edge",
+        "skill-burning-blast"
       ]
     },
     {
@@ -5398,6 +5941,10 @@
       "skill_rewards": [
         "Super Kamehameha (SS4 DAIMA)",
         "Final Flash (SS3 DAIMA)"
+      ],
+      "skill_ids": [
+        "skill-super-kamehameha-ss4-daima",
+        "skill-final-flash-ss3-daima"
       ]
     },
     {
@@ -5425,6 +5972,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Dark Inscription"
+      ],
+      "skill_ids": [
+        "skill-dark-inscription"
       ]
     },
     {
@@ -5453,6 +6003,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Emperor's Cannon"
+      ],
+      "skill_ids": [
+        "skill-emperor-s-cannon"
       ]
     },
     {
@@ -5481,6 +6034,9 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Chaotic Time Impact"
+      ],
+      "skill_ids": [
+        "skill-chaotic-time-impact"
       ]
     },
     {
