@@ -924,6 +924,21 @@
       "target_id": "super-soul-095",
       "target_name": "I've got something extra special for you!",
       "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-096",
+      "target_name": "It must be some kind of trick...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-097",
+      "target_name": "It all comes down to this!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-103",
+      "target_name": "Emoc htorf! Peas and Carrots!",
+      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
@@ -933,7 +948,7 @@
     "reverse_edge_count": 34,
     "unique_pq_endpoints": 28,
     "unique_target_endpoints": 34,
-    "unresolved_target_route_count": 61,
+    "unresolved_target_route_count": 64,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0
   }
