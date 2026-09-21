@@ -3839,3 +3839,18 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Internal/AI citation-artifact scan was also performed on the handoff/audit files; tool citation markup is being removed from repository documentation rather than retained.
 - Commits: canonical **94382a7e91dbe4122101d895d58630aa8d683d67**; index **0e1fc6198874facb13b494e016d323f64ef7d95**.
 - Exact next task: **continue the non-PQ source-quality audit, prioritizing time-rift/story/shop records whose provenance notes may contradict their canonical acquisition fields; preserve genuine source conflicts and do not infer missing conditions.**
+
+
+## 2026-09-20 — wish and TP Medal Shop provenance refinement
+- Continued the non-PQ source-quality audit after the Explosive Wave cleanup.
+- Refined six acquisition records where maintained dedicated evidence could make the non-quest route more explicit without inferring unsupported conditions:
+  - **Flash Fist Crush** → first use/result of Shenron's “I want a new Super Attack!” wish.
+  - **Burst Reflection** → second use/result of the same wish.
+  - **Namek Finger** → TP Medal Shop; documented historical listing price 30 TP Medals.
+  - **Emperor's Death Beam** → TP Medal Shop; documented historical listing price 25 TP Medals.
+  - **Final Explosion** → TP Medal Shop; documented historical listing price 200 TP Medals.
+  - **Divine Lasso** → TP Medal Shop, with STP Medal Shop and Double Crystal Raid routes retained.
+- No PQ relationship, Ultimate Finish flag, race restriction, or unsupported prerequisite was introduced.
+- Repository validation: **283/283** records; zero duplicate names; **60** Ultimate Finish flags. Canonical/index acquisition-critical fields (name, acquisition_type, unlock_method, ultimate_finish_required, source_quest, race_restriction) remain exactly synchronized.
+- Evidence used includes the maintained repository source set plus current public skill/wish references. Historical shop prices are explicitly labeled as documented listings rather than asserted as current rotation prices.
+- Next target: **continue auditing remaining non-PQ records with terse shop/wish/character-only provenance, especially records whose unlock text is generic while dedicated sources can establish a concrete route. Preserve genuine uncertainty.**
