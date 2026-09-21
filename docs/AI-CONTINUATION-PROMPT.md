@@ -4683,3 +4683,8 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 correction — Time Rift relationship edge count
 - Correction to the immediately preceding Time Rift cycle entry: the canonical report contains **6 forward Time Rift → skill edges**, not 7. Capsule Corporation has two linked skills and each of the other four race-focused rifts has one; Future Super Saiyan's five-rift fan-out is represented in the reverse skill relationship and does not add a second forward edge per rift beyond the canonical rift→skill mapping.
 - Live relationship validation remains **6 Time Rift-linked skills / 6 forward canonical rift→skill edges / 0 broken endpoints**. No data model or relationship endpoint is changed by this clarification.
+
+
+### 2026-09-21 correction — Time Rift relationship edge count
+- Correction to the immediately preceding Time Rift cycle entry: the canonical report contains **6 forward Time Rift → skill edges**, not 7. Capsule Corporation has two linked skills and each of the other four race-focused rifts has one; Future Super Saiyan's five-rift fan-out is represented in the reverse skill relationship and does not add a second forward edge per rift beyond the canonical rift→skill mapping.
+- Live relationship validation remains **6 Time Rift-linked skills / 6 forward canonical rift→skill edges / 0 broken endpoints**. No data model or relationship endpoint is changed by this clarification.
