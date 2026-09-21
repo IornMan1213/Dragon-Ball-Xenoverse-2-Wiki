@@ -19,7 +19,7 @@
         {
           "lesson": "lesson-1",
           "skill_name": "Orin Combo",
-          "skill_id": null
+          "skill_id": "skill-orin-combo"
         },
         {
           "lesson": "lesson-2",
@@ -29,12 +29,14 @@
         {
           "lesson": "lesson-3",
           "skill_name": "Scatter Kamehameha",
-          "skill_id": null
+          "skill_id": "skill-scatter-kamehameha"
         }
       ],
       "skills": [
         "skill-rise-to-action",
-        "skill-destructo-disc"
+        "skill-destructo-disc",
+        "skill-orin-combo",
+        "skill-scatter-kamehameha"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
