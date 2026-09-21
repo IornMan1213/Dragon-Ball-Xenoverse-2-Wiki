@@ -845,3 +845,8 @@
 - No new gameplay, acquisition, restriction, or DLC claim was introduced.
 - Validation: 429/429 skill records parse successfully; targeted notes parity is 0 mismatches; no internal AI/UI/search citation artifacts were found in the edited index.
 
+## 2026-09-21 — Skill identity and projection integrity cleanup
+
+- Removed the duplicate III Bomber placeholder that shared skill-ill-bomber with the richer Ill Bomber record.
+- Canonical and index skill counts are now 428/428 with zero duplicate IDs.
+- Full inspected canonical-to-index projection parity is clean; no gameplay or acquisition semantics were changed.
