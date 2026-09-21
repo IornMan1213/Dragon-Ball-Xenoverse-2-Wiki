@@ -1689,9 +1689,10 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "Creates shards of timespace and launches a wide-range barrage of Ki projectiles. Current mechanics documentation describes 19 hits and approximately 40% listed damage across the sequence; the canonical record retains the 300-Ki Ultimate cost and PQ98 Basic Reward route. Because the repository's current cost conflicts with the dedicated skill page's 400-Ki listing, the existing canonical 300-Ki value is not silently changed in this mechanics-only pass; cost reconciliation remains open.",
+      "mechanics_notes": "Creates shards of timespace and launches a wide-range barrage of Ki projectiles. Current documentation identifies 19 hits and approximately 40% listed total damage across the sequence. The current dedicated skill page and the aggregate Ki Blast Ultimate table both list 400 Ki, resolving the prior repository 300-Ki conflict. The canonical PQ98 acquisition route remains unchanged.",
       "source_quest": 98,
-      "source_quest_or_shop": "Parallel Quest 98 — \"Villains Regroup!\""
+      "source_quest_or_shop": "Parallel Quest 98 — \"Villains Regroup!\"",
+      "ki_cost": 400
     },
     {
       "id": "skill-dimensional-hole",
@@ -4036,9 +4037,10 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "A pink Kamehameha that can be charged through three stages. Current mechanics documentation describes 5 hits at base charge and up to 15 hits at maximum charge, with listed damage increasing from 10% to 15%; the move is restricted to Majin CaCs. The canonical record retains the PQ60 Basic Reward route and 300-Ki value currently stored in the repository, while noting that the dedicated page currently reports 100 Ki; this cost discrepancy remains unresolved.",
+      "mechanics_notes": "A pink Kamehameha that can be charged through three stages. Current documentation describes 5 hits at base charge and up to 15 hits at maximum charge, with listed damage increasing from 10% to 15%. It is restricted to Majin CaCs. The dedicated skill page lists 100 Ki, resolving the prior repository 300-Ki conflict; the canonical PQ60 acquisition route remains unchanged.",
       "source_quest": 60,
-      "source_quest_or_shop": "Parallel Quest 60 — \"Blast the Super Spirit Bomb!\""
+      "source_quest_or_shop": "Parallel Quest 60 — \"Blast the Super Spirit Bomb!\"",
+      "ki_cost": 100
     },
     {
       "id": "skill-masenko",
@@ -4253,9 +4255,10 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "",
-      "mechanics_notes": "A continuable rushdown Strike Super: the user spin-kicks into a clawing barrage and continues attacking while the input is held, ending by knocking the opponent away. Current mechanics documentation lists a 100–700 Ki range and up to 33 hits, with maximum listed damage of 40%. The canonical record retains the PQ86 route; the stored fixed 100-Ki value is not silently converted to the documented variable cost in this mechanics-only pass.",
+      "mechanics_notes": "A continuable rushdown Strike Super: the user spin-kicks into a clawing barrage and continues attacking while the input is held, ending by knocking the opponent away. Current documentation lists a variable 100–700 Ki cost and 9–33 hits; community testing independently observes increased damage as more Ki is held. The canonical fixed 100-Ki value has been removed rather than falsely retaining a single cost; the game mechanic is variable by held Ki. PQ86 remains the acquisition route.",
       "source_quest": 86,
-      "source_quest_or_shop": "Parallel Quest 86 — \"Yamcha is Number One\""
+      "source_quest_or_shop": "Parallel Quest 86 — \"Yamcha is Number One\"",
+      "ki_cost": null
     },
     {
       "id": "skill-paralysis",
