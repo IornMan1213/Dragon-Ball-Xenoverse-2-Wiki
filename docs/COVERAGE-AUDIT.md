@@ -4903,3 +4903,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: commit `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3` exposed **no workflow runs** through the repository connector; **no CI success claimed**. Validators were not weakened.
 - Commit: `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded evidence-backed family; prioritize explicit current `Ki Used` values and preserve variable-cost forms.**
+
+### 2026-09-21 — Lord Slug mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 41 nullable `ki_cost` records**.
+- Bounded batch: **Evil Eyes (100), Darkness Eye Beam (100), Darkness Twin Star (100)** from Lord Slug mentor training.
+- Evidence: current Xenoverse 2 skill references explicitly document **100 Ki** for all three skills and identify Lord Slug training as the acquisition route. cite references intentionally omitted from repository text; source URLs retained in canonical provenance where applicable.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **38**. No skill-index Ki-cost projection introduced.
+- CI: commit `e0a1e5ebb5131c037e0d62e96996029d4803305e` had no actionable workflow/status result exposed; **no CI success claimed**.
+- Commit: `e0a1e5ebb5131c037e0d62e96996029d4803305e`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
