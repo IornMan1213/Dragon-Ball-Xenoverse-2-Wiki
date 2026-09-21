@@ -4980,3 +4980,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow/status results were exposed for this cycle's data commits; no CI success is claimed.
 - Commits: `61aca45c56a54f7eb76f2a25a34036c900bc63b5` (Super Soul 080-087); `1d664bf491df1cf42531582c3e984fef80ca117f` (PQ endpoints); `005e8361e22203ece37f4b326ea220e8261b662d` (crosslink report); `f5b3444326715954f9272af20848898076c3983a` (changelog).
 - Exact next batch: **Super Soul 088-095** after live-corpus reconciliation. Continue the canonical frontier, establishing acquisition identity before deterministic cross-domain endpoints and regenerating the reverse report.
+
+
+### 2026-09-21 cycle update — Super Soul 088-095 + PQ reverse-link reconciliation
+- Live census before editing: **82 canonical Super Souls / 186 canonical PQ records**; prior graph: **26 forward / 26 reverse / 56 unresolved**.
+- Bounded batch: **Super Soul 088-095** — Our two strengths aren't just added together., It's just me and you now!, My back's getting tingly...!, Any taller and it would be unnatural!, I think I'm finally warmed up now!, I'm gonna do what I wanna do., Your energy is now mine to wield., and I've got something extra special for you!.
+- Research/evidence: reconciled the exact next eight entries after `I will prevail, no matter the cost!` in the maintained Madreag `scripts/data/super-souls.json` corpus, then inspected each corresponding source record. Explicit PQ sources were accepted for PQ149, PQ147, and PQ148 only.
+- Changes: added `super-soul-088` through `super-soul-095`; synchronized PQ147, PQ148, and PQ149; rebuilt `docs/data/pq-super-soul-crosslink-report.json`; updated `CHANGELOG.md`.
+- Evidence limits: community-measured percentages/durations and source-text behavior disputes were not promoted to exact canonical values. TP Medal Shop and Raid Quest Event records without explicit PQ identity remain unresolved for PQ linkage.
+- Validation: **90 canonical Super Souls / 186 canonical PQs / 29 forward / 29 reverse PQ↔Super Soul edges / 25 unique PQ endpoints / 29 unique Super Soul endpoints / 61 unresolved Super Soul routes / 0 broken endpoints**. Changed JSON parsed successfully.
+- CI: no workflow/status results were exposed for this cycle's data commits; no CI success is claimed.
+- Commits: `c91d5b5f1b11bab89c1cc49ab1d6f8b998eca89f` (Super Soul 088-095); `cf4cf2c49109906e1500054eb34412aa469a6689` (PQ endpoints); `0a798ecfa6119a70b343e5bf94f58501c9e288af` (crosslink report); `b4040c6d3b67334cf53918644a66d7975378068e` (changelog).
+- Exact next batch: **Super Soul 096-103** after live-corpus reconciliation. Continue the canonical frontier, establishing acquisition identity before deterministic cross-domain endpoints and regenerating the reverse report.
