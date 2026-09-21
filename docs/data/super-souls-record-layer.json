@@ -26,7 +26,8 @@
     "version_notes",
     "verification_status",
     "last_verified",
-    "sources"
+    "sources",
+    "source_parallel_quests"
   ],
   "records": [
     {
@@ -82,6 +83,9 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-002"
       ]
     },
     {
@@ -137,6 +141,9 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-005"
       ]
     },
     {
@@ -219,6 +226,9 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-007"
       ]
     },
     {
@@ -274,6 +284,9 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-006"
       ]
     },
     {
@@ -302,6 +315,9 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-022"
       ]
     },
     {
@@ -330,6 +346,9 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "source_parallel_quests": [
+        "pq-012"
       ]
     },
     {
@@ -740,6 +759,9 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://gamefaqs.gamespot.com/ps5/437193-dragon-ball-xenoverse-2/faqs/74285"
+      ],
+      "source_parallel_quests": [
+        "pq-028"
       ]
     },
     {
@@ -766,7 +788,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
       ],
-      "first_clear_or_repeat": "PQ 185 reward"
+      "first_clear_or_repeat": "PQ 185 reward",
+      "source_parallel_quests": [
+        "pq-185"
+      ]
     },
     {
       "id": "super-soul-033",
@@ -792,7 +817,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/"
       ],
-      "first_clear_or_repeat": "PQ 185 reward"
+      "first_clear_or_repeat": "PQ 185 reward",
+      "source_parallel_quests": [
+        "pq-185"
+      ]
     },
     {
       "id": "super-soul-034",
@@ -817,7 +845,10 @@
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "first_clear_or_repeat": "PQ 186 reward"
+      "first_clear_or_repeat": "PQ 186 reward",
+      "source_parallel_quests": [
+        "pq-186"
+      ]
     },
     {
       "id": "super-soul-035",
@@ -843,7 +874,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
       ],
-      "first_clear_or_repeat": "PQ 186 reward"
+      "first_clear_or_repeat": "PQ 186 reward",
+      "source_parallel_quests": [
+        "pq-186"
+      ]
     },
     {
       "id": "super-soul-036",
@@ -1233,6 +1267,9 @@
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/killed-all-earthlings.md",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-058"
       ]
     },
     {
@@ -1395,6 +1432,9 @@
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/leave-the-rest-to-me.md",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-131"
       ]
     }
   ],
