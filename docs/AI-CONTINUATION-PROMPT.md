@@ -4177,4 +4177,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `cdf911ecd40693b654c199c94fa8b74ccf08a707` — Reject malformed skill source entries during normalization.
 - No generated catalog was manually modified. CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
 - Next task: audit frontmatter parsing and structured-corpus field coercion for values that are silently ignored or mis-typed before they reach canonical merge.
+## 2026-09-21 continuation — reject malformed structured frontmatter
+- Audited the builder's lightweight frontmatter parser and found multiple silent/coercion paths: non-empty frontmatter lines without a recognized `key: value` shape were ignored; empty values were accepted ambiguously; unsupported structured values could fall through as strings; and a missing/blank `name` returned `None`, allowing the caller to silently skip a research file.
+- Hardened parsing so malformed non-empty lines, unsupported structured scalar values, malformed quoted lists, and missing/blank record names now fail loudly. Existing simple scalar and quoted-list formats remain supported.
+- Commit: `8843d1c99cc76900e466d2cfff609967b984cd34` — Reject malformed structured skill frontmatter.
+- No generated catalog was manually modified. CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
+- Next task: inspect the workflow's actual research-corpus checkout and build invocation for parser compatibility, then audit remaining coercions (notably numeric fields) before making further changes.
 
