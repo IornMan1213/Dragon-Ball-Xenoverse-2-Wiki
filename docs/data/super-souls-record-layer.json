@@ -283,7 +283,7 @@
       "dlc_requirement": "None identified",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 22",
-      "first_clear_or_repeat": null,
+      "first_clear_or_repeat": "PQ 22 reward",
       "shop_rotation": null,
       "trigger_condition": "User Ki equals 100%",
       "effect_text": "Increases Stamina Recovery rate.",
@@ -295,12 +295,13 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
+      "version_notes": "Acquisition normalized from an exact-name canonical PQ reward match; exact drop condition/percentage is not asserted.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
@@ -310,7 +311,7 @@
       "dlc_requirement": "None identified",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 12",
-      "first_clear_or_repeat": null,
+      "first_clear_or_repeat": "PQ 12 reward",
       "shop_rotation": null,
       "trigger_condition": "Always",
       "effect_text": "Increases Stamina Recovery rate.",
@@ -322,12 +323,13 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
+      "version_notes": "Acquisition normalized from an exact-name canonical PQ reward match; exact drop condition/percentage is not asserted.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
