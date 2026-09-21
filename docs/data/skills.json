@@ -3512,7 +3512,7 @@
       "last_verified": "2026-09-19",
       "mechanics_notes": "Confirmed as Other Super; repository's 100-Ki cost and all-CaC-race availability retained.",
       "acquisition_type": "starting_move",
-      "notes": ""
+      "notes": "2026-09-20 starting-move refinement: Afterimage is a CaC starting Super offered through the initial fighting-style selection; it is not a PQ/UF reward. The repository retains its all-race CaC availability."
     },
     {
       "name": "Afterimage Strike",
@@ -4059,7 +4059,7 @@
       "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki.",
       "source_quest": null,
       "acquisition_type": "starting_move",
-      "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved."
+      "notes": "2026-09-20 starting-move refinement: Super Guard is a CaC starting Super associated with the initial close-range fighting-style choice; maintained references also list it in the Skill Shop. It is not a PQ/UF reward."
     },
     {
       "name": "Surging Spirit",
