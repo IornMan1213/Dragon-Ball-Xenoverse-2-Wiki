@@ -2392,7 +2392,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Supers",
-        "https://dbxv2.fandom.com/wiki/Deadly_Dance"
+        "https://dbxv2.fandom.com/wiki/Deadly_Dance",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
       "ki_cost": 100,
       "ultimate_finish_required": false,
@@ -2406,7 +2407,7 @@
       "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-android-18 added for the documented mentor-training acquisition route.",
       "source_quest": "Android 18 mentor training — Lesson 2",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 low-source provenance strengthening: the maintained Instructor Quests guide independently lists Deadly Dance as Android 18 Lesson 2's Basic Reward. Existing mentor Lesson 2 acquisition semantics are preserved.",
       "id": "skill-deadly-dance",
       "source_mentor": [
         "mentor-android-18"
