@@ -4137,4 +4137,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Prior builder hardening remains in commit `1feb047268ec7bf8e74ea3f0f0fc5af678a4fc7d`.
 - No canonical generated data was manually changed. CI/status remains unverified because the GitHub connector exposes no workflow runs/status entries for these maintenance commits.
 - Next task: audit `merge_record()` and deterministic source precedence for silent overwrites/loss of researched fields, especially correction handling and duplicate keys; make concrete fixes only where behavior can be demonstrated from the live code.
+## 2026-09-21 continuation — correction merge integrity
+- Audited `merge_record()` for silent overwrite/data-loss behavior.
+- Found that a correction could silently create a new canonical record when its `correction_of` target did not exist. A second correction could also silently operate against an already-superseded target, and a correction destination could collide with an existing canonical key.
+- Hardened correction handling so these cases now fail explicitly instead of silently changing catalog identity: missing target, already-superseded target, or occupied destination key.
+- Commit: `c8855cd66591779511c70c20332fe6bd6f668515` — Reject unresolved skill corrections during merge.
+- No generated canonical data was manually altered. CI remains unverified because no workflow/status entries are exposed by the GitHub connector for the maintenance commits.
+- Next task: continue auditing merge precedence for duplicate non-correction records and source/field preservation, then update this handoff after the next concrete fix.
 
