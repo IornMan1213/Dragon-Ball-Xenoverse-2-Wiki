@@ -681,3 +681,10 @@
 - Evidence limits preserved: official/datamined trigger/effect classes are distinguished from community-measured magnitudes and durations; no unsupported PQ links were added.
 - Validation: changed JSON parsed successfully; canonical/index parity and endpoint checks passed; internal UI/search citation artifact scan returned **0**. CI status remained unavailable; no CI success is claimed.
 - Exact next work: **do not continue inventing Super Soul records from the exhausted maintained source corpus; pivot to the highest-priority deterministic validator/index mismatch or another explicitly prioritized repository corpus.**
+
+### 2026-09-21 — Krillin/Tien/Yamcha/Piccolo mentor-skill reconciliation
+- Promoted **14 deterministic mentor→skill edges** already represented by the canonical mentor lesson layer and skill-index source_mentor provenance: Krillin (2), Tien (4), Yamcha (4), Piccolo (4).
+- Rebuilt `docs/data/mentor-skill-crosslink-report.json`: **33 mentors / 30 linked mentors / 30 edges / 30 linked skills / 0 unresolved / 0 broken endpoints**.
+- No acquisition semantics were changed; this was a reverse-link/report reconciliation pass.
+- Validation passed with JSON parsing and canonical skill-ID endpoint checks. CI status unavailable; no CI success claimed.
+- Exact next batch: **Raditz, Gohan (Kid), Nappa, and Vegeta mentor mappings.**
