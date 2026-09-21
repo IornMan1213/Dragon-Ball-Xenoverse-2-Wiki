@@ -1131,16 +1131,42 @@
     {
       "id": "mentor-future-gohan",
       "name": "Gohan (Future)",
-      "lessons": [],
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_name": "Super Explosive Wave",
+          "skill_id": "skill-super-explosive-wave"
+        },
+        {
+          "lesson": "lesson-1",
+          "skill_name": "Sonic Rush",
+          "skill_id": "skill-sonic-rush"
+        },
+        {
+          "lesson": "lesson-2",
+          "skill_name": "Energy Dome",
+          "skill_id": "skill-energy-dome"
+        },
+        {
+          "lesson": "lesson-3",
+          "skill_name": "One-Handed Kamehameha mk.II",
+          "skill_id": "skill-one-handed-kamehameha-mk-ii"
+        }
+      ],
       "skills": [
-        "skill-super-explosive-wave"
+        "skill-super-explosive-wave",
+        "skill-sonic-rush",
+        "skill-energy-dome",
+        "skill-one-handed-kamehameha-mk-ii"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors"
-      ]
+      ],
+      "verification_status": "lesson_skill_names_and_skill_endpoints_verified",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "mentor-bardock",
