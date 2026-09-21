@@ -1579,3 +1579,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 ### 2026-09-21 — PQ97/PQ110 provenance
 - [x] Strengthen Charged Ki Wave and Divinity Unleashed with independent PQ evidence.
 - [ ] Continue the deterministic two-source audit.
+
+### 2026-09-21 — PQ171 provenance
+- [x] Strengthen Crimson Edge and Divine Spear with direct PQ171 evidence.
+- [ ] Continue the deterministic two-source audit.
