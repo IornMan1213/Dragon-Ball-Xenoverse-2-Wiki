@@ -6514,3 +6514,15 @@ The repository owner has clarified the continuation contract:
 - CI: no workflow success was claimed where repository workflow results were unavailable.
 - Commits: canonical `2cf2a4ec33f82b17d645bc6e3ee378b50beaf7fa`; index `25dfb0fe8945e63c9977c9970634580c65e2ec57`.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source cluster after Afterimage, verifying source/acquisition consistency before adding provenance.**
+
+
+### 2026-09-21 continuation — Dead End Rain provenance
+- Workstream: **P1 skill provenance/source integrity**.
+- Live two-source census before this batch: **56 exactly-two-source records**.
+- Bounded batch: **Dead End Rain (EM13)**.
+- Evidence: the maintained Expert Mission guide independently lists Dead End Rain as the **Basic Reward** for Expert Mission 13, corroborating the existing dedicated skill and Ultimate Attack references.
+- Changes: added the maintained Expert Mission guide as a third provenance source in `docs/data/skills.json` and synchronized `docs/data/skills-index.json`. Existing EM13 acquisition/reward-tier semantics were preserved.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 55 exactly-two-source records**; canonical/index source parity is clean.
+- CI: inspect the push-triggered runs for the latest commit before making any validator changes; do not weaken validators or claim success without an exposed successful run.
+- Commits: canonical `a35979fc1889e73a94e250d7e0ab1f7992ba835f`; index `a2031059a711669060ca3f60e5904bb4e7a47214`; changelog `aae4b53d176d4084fcca898457302a15de77ad55`; TODO `5586e37e4522f9632305df06d6b73c5ae4d087be`.
+- Exact next task: **recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster after Dead End Rain, checking source-PQ/mission and reward-tier consistency before enrichment.**
