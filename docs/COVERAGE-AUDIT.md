@@ -3881,3 +3881,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Super Guard is explicitly documented as a CaC starting Super associated with the initial close-range fighting-style choice; the maintained record also preserves its Skill Shop route.
 - No new quest source or unsupported unlock condition was introduced.
 - Exact next target: continue auditing remaining non-PQ other_nonquest or starting-move records for concrete CaC acquisition wording.
+
+
+## 2026-09-20 — non-PQ acquisition-route pass completed
+- Rechecked the remaining `other_nonquest`, `starting_move`, and `character_only` records against the current canonical dataset.
+- The targeted non-PQ starting-move records (**Afterimage**, **Super Guard**) now have concrete CaC starting-choice wording; character-only/built-in records have explicit roster-status notes from the prior pass.
+- No additional record met the evidence threshold for a safe route correction in this pass, so no unsupported acquisition details were added.
+- Validation: canonical/index **283/283**; identical record-name ordering; **0 duplicate names**; **60** Ultimate Finish flags; **0** mismatches across acquisition-critical fields (`name`, `acquisition_type`, `unlock_method`, `ultimate_finish_required`, `source_quest`, `race_restriction`).
+- Exact next target: **move the audit to the remaining generic Skill Shop / TP Medal Shop records whose route is known but whose prerequisite/timing wording may still be under-specified, while preserving historical-price uncertainty.**
