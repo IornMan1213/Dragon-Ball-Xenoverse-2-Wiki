@@ -4312,3 +4312,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - A correction that promotes an Awoken record to the Race subcategory must have race_restriction present; if inheritance leaves it absent/null, the schema rejects the record. Character-only race restrictions likewise trigger the schema's usable_by_cac/acquisition constraints.
 - No additional correction-layer rule was added: duplicating these conditionals in merge_record() would create a second semantic validator and risk drift from the authoritative schema.
 - Next task: audit whether correction records can introduce non-canonical metadata fields that survive merge into skills.json, with particular attention to correction_of/correction_fields, research-only evidence fields, and any additionalProperties=false boundary.
+
+
+## 2026-09-21 continuation — canonical metadata boundary audit
+- Audited correction and ordinary protected-record merge paths for research-only metadata leakage.
+- Found a concrete `additionalProperties=false` boundary issue: `merge_record()` previously copied the entire incoming research record into `out`, and the protected-record enrichment loop could also copy unknown fields. Fields such as correction/evidence metadata could therefore survive into the in-memory canonical record until schema validation.
+- Hardened both merge paths to retain only fields declared by the canonical schema. `correction_of` and `correction_fields` remain control metadata and are removed from canonical output; `sources` remains separately normalized and merged as provenance.
+- Commit: 1d67e0f9bd3431bfc55dab94e8acd4d4c0f9853d — Strip research-only metadata from canonical records.
+- Next task: audit whether schema filtering can accidentally discard legitimate builder-only metadata needed by downstream generated artifacts, and compare canonical `skills.json` consumers against the schema projection before making further changes.
