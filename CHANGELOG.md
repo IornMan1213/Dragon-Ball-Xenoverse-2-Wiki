@@ -1173,3 +1173,13 @@
 - Preserved the existing Strike Super, 100-Ki, Omega Shenron, CaC-unavailable, Base Game, and character-only semantics. No unsupported drop rate or quest reward was inferred.
 - Synchronized canonical/index source and verification metadata.
 - Post-write target: **51 exactly-two-source records**.
+
+
+### 2026-09-21 — Dragon Thunder low-source provenance strengthening
+- [x] Recomputed the live low-source census before editing: **52** exactly-two-source records.
+- [x] Reviewed **Dragon Thunder (`skill-dragon-thunder`)** as the next deterministic record.
+- [x] Independent Xenoverse 2 character/skill ID evidence identifies Dragon Thunder as a **non-CaC** skill associated with **Omega Shenron**, corroborating the repository's character-only scope.
+- [x] Added that independent source to canonical and index records and refreshed `last_verified` to **2026-09-21**.
+- [x] Preserved the existing **Unlock: N/A / Character skill** semantics. Because the skill is explicitly character-only, no PQ/source-quest or reward-tier relationship was invented.
+- [x] Post-write target: **51** exactly-two-source records; canonical/index source and verification parity remains required.
+- [ ] Next task: recompute the live two-source census and continue the next deterministic low-source record after Dragon Thunder, checking acquisition/reward semantics before provenance-only strengthening.
