@@ -3539,3 +3539,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical/index acquisition semantics remain unchanged: PQ165 Ultimate Finish bonus-slot route (45%); the conflicting Basic Reward presentation remains documented.
 - Commits: `7caa8ed1fb1e19b6b3c551b4c81531c7783f0b2d` (canonical), `f9580c55e434c31e7812d19dd856d9ff1957871c` (index), audit `f47a953c4524a866a326eb4f4c7cbf6920bcd374`.
 - Exact next task: continue deterministic late-PQ provenance corrections; avoid changing records where current sources still disagree on reward tier or Ultimate Finish conditions.
+
+
+### 2026-09-20 cycle update — Steel Mirage provenance-note cleanup
+- Cleaned and synchronized the duplicated **Steel Mirage** reward-condition note.
+- Canonical/index remain aligned: maintained drop-condition evidence says 45% Ultimate Finish bonus slot, while the maintained all-PQ guide presents it as a Basic Reward; the source conflict is retained without inventing a resolution.
+- Commits: canonical `a pending prior commit`; index `28111f9cab220f4e23cfe50cf1bc261b199a9170`; audit `73e75a094039911f3e806aec4e0c1c57d4d0168b`.
+- Exact next task: continue the late-PQ provenance census, making deterministic corrections only where maintained reward data clearly resolves the canonical source.
