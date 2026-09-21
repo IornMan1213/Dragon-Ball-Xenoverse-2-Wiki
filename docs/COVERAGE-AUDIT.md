@@ -1,3 +1,10 @@
+## 2026-09-20 Venus Fist PQ186 provenance cleanup
+
+- **Venus Fist** previously preserved an ambiguous `PQ185–186` reward-pool note even though the maintained PQ reward guide explicitly places it in **PQ186 Basic Rewards**.
+- Canonical and index data now use the concrete PQ186 Basic Reward route and retain `ultimate_finish_required: false`.
+- The older broader-pool wording is documented as secondary/older evidence rather than silently treated as an equivalent current route. No drop probability was inferred.
+
+
 ## 2026-09-20 Teleporting Vanishing Ball provenance clarification
 
 - Reconciled **Teleporting Vanishing Ball** against the current PQ62 reward listing and dedicated skill documentation.
