@@ -3586,3 +3586,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: canonical 0a99b958785299078c70eb64dbd3c530842c803d; index 955277b6b470e92b3898bfd6e15a7dfb609cf8fc; audit bf51aa91e422a9dbf3623a01a529641a6cd2f886.
 - Validation: canonical/index remain 283 records, identical ordering, 0 duplicates, 60 UF flags, and 0 acquisition-critical mismatches.
 - Exact next task: continue with the still-generic Parallel Quest N labels whose unlock method lacks a title, using maintained PQ research batches to resolve only when the quest number/title mapping is explicit; then inspect contradictory route records.
+
+
+### 2026-09-20 cycle update — maintained PQ title mapping normalization
+- Normalized 43 remaining generic `Parallel Quest N` source labels using explicit quest-number/title mappings from maintained PQ research batches.
+- Commits: canonical `fb6115fbae8286c9a6141923336556708169a703`; index `37e6c4f377dbb0b13ec4ba64e4ea68e057b32a01`; audit `de94502620c6b28ecff9eccd47e050e9e9fd9714`.
+- Validation: 283 canonical/index records, identical ordering, 0 duplicates, 60 UF flags, 0 acquisition-critical mismatches.
+- Exact next task: inspect the remaining generic/pooled acquisition labels and contradictory route records; do not infer a quest title where the maintained corpus lacks deterministic support.
