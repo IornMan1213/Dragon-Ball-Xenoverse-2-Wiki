@@ -1373,7 +1373,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 
 ### 2026-09-21 — Master ledger completion marking: Final Explosion DLC provenance correction
 - [x] **Final Explosion provenance corrected:** `Legendary Pack 1` → `Base Game`.
-- [x] Evidence: current skill documentation identifies TP Medal Shop acquisition; historical 2016-era TP Medal Shop listings independently document Final Explosion as a purchasable base-game-era skill. The later association with SSGSS Vegeta (Evolved) does not establish Legendary Pack 1 acquisition provenance. url citations are intentionally not stored in repository prose; canonical source URLs remain in the skill record.
+- [x] Evidence: current skill documentation identifies TP Medal Shop acquisition; historical 2016-era TP Medal Shop listings independently document Final Explosion as a purchasable base-game-era skill. The later association with SSGSS Vegeta (Evolved) does not establish Legendary Pack 1 acquisition provenance. Canonical source URLs remain in the skill record; no UI or internal citation markup is stored in repository prose.
 - [x] Canonical change limited to `dlc_requirement`, `last_verified`, and a bounded provenance note. No acquisition route, mechanics, cost, restriction, or character-association field was changed.
 - [x] Live post-write census: **428 canonical skill records / 0 duplicate IDs / 6 Legendary Pack 1 records**; Final Explosion is no longer counted in the Legendary Pack 1 provenance cluster.
 - [x] Evidence boundary preserved: character association and DLC acquisition provenance remain separate concepts; no broader character-associated relabeling was performed in this bounded pass.
