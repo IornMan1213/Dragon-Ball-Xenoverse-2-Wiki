@@ -1680,4 +1680,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Added the source to canonical and index records; refreshed `last_verified` to **2026-09-21**.
 - [x] Preserved acquisition/reward semantics and did not infer a drop probability.
 - [x] Exact next task: recompute the live two-source census and continue with **Dragon Thunder**, verifying its source quest and reward tier before adding provenance.
-\n### 2026-09-21 — Completed low-source provenance batch: Dragon Thunder\n- [x] Recomputed the live two-source census before editing: **52**.\n- [x] Verified **Dragon Thunder** is a character-only Omega Shenron skill; current dedicated evidence gives **Unlock: N/A** and explicitly marks it unavailable to CaCs.\n- [x] Added an independent Xenoverse 2 character/skill ID list as a third provenance source; it identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron.\n- [x] Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.\n- [x] Preserved the character-only acquisition boundary; no PQ/source-quest or reward-tier semantics were invented.\n- [x] Post-write target: **51 exactly-two-source records**.\n- [ ] Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster, verifying source/acquisition semantics before adding provenance.\n
+
+### 2026-09-21 — Completed low-source provenance batch: Dragon Thunder
+- [x] Recomputed the live two-source census before editing: **52**.
+- [x] Verified **Dragon Thunder** is a character-only Omega Shenron skill; current dedicated evidence gives **Unlock: N/A** and explicitly marks it unavailable to CaCs.
+- [x] Added an independent Xenoverse 2 character/skill ID list as a third provenance source; it identifies Dragon Thunder as a non-CaC skill associated with Omega Shenron.
+- [x] Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
+- [x] Preserved the character-only acquisition boundary; no PQ/source-quest or reward-tier semantics were invented.
+- [x] Post-write target: **51 exactly-two-source records**.
+- [ ] Exact next task: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster, verifying source/acquisition semantics before adding provenance.
