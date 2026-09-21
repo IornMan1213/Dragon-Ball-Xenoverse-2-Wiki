@@ -5170,3 +5170,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `3fb3bf08f7a05674aeccf3e4ceb0b5815b4538e4` (crosslink report), `b301c84b68867281e27cc5331ee9447757862894` (coverage audit), `bee93a314617661997822d8842281c347c3b1f23` (changelog).
 - Mentor-to-skill direct relationship coverage is now exhausted at the canonical 33-mentor layer. **Do not manufacture additional mentor edges.**
 - Exact next batch: inspect the continuation/addendum priorities and the repository's remaining coverage gaps, then take the highest explicitly supported bounded task. Prefer an existing canonical layer that can be reconciled deterministically over broad speculative expansion.
+
+### 2026-09-21 cycle update — skill acquisition projection normalization
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, pivoted to a deterministic cross-layer mismatch after the canonical Super Soul source frontier and mentor relationship layer were exhausted.
+- Live census: **429 canonical skills**. Comparison of `docs/data/skills.json` against `docs/data/skills-index.json` found exactly **3 source_quest projection gaps**: Drain Field → 95, Flash Bomber → 95, Rakshasa's Claw → 57.
+- Changes: populated those three exact `source_quest` IDs in `docs/data/skills-index.json`; updated `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`. No acquisition wording, Ultimate Finish status, costs, restrictions, DLC provenance, or unresolved drop semantics were changed.
+- Evidence limits: this cycle used existing canonical cross-layer evidence only; it did not promote any new external claim.
+- Validation: both skill JSON layers parsed successfully; deterministic comparison now reports **0 source_quest mismatches of this type**. Changed JSON contained **0 internal UI/search citation artifacts**.
+- CI: no workflow/status result was exposed for the data commit; no CI success is claimed. Validators were not weakened.
+- Commits: `3d54e9ad713eb7e29dc469911468a658d3c3fb34` (skill index), `934a21d2712f33c453258bd67efbcd6d704be301` (coverage audit), `db848f5f5bbf307442d8cd9cacf3397416f40648` (changelog).
+- Current unresolved acquisition-specific census: **3 canonical skill records still lack source_quest**, but these are non-PQ/non-quest acquisitions or character-only/other routes; no blanket source_quest value should be invented for them. The broader DLC provenance field remains nullable on many records and requires evidence-based batching.
+- Exact next batch: **audit the next bounded 4–12 skills with nullable DLC/version provenance, using existing acquisition/source fields and canonical PQ/character mappings first; only fill DLC provenance where repository evidence deterministically supports it.**
