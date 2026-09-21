@@ -4466,3 +4466,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Do not treat the zero-unresolved PQ→skill audit as proof that all skill data is exhaustive: remaining work is field-level completeness, acquisition semantics/drop-slot verification, DLC/version provenance, and expansion of cross-entity links.
 - Files changed this cycle: `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/pq-skill-crosslink-report.json`, `CHANGELOG.md`, and this handoff.
 - Exact next task: audit the cross-link contract against the **equipment/accessories and Super Soul datasets first**, identify their canonical IDs and relationship-bearing fields, then implement deterministic PQ↔equipment and PQ↔Super Soul bidirectional edges in a bounded batch. Recompute live entity counts before editing and preserve unresolved links rather than name-matching speculative targets.
+
+### 2026-09-21 cycle update — PQ↔equipment/accessory/Super Soul relationship layer
+- Workstream: P1 connected-database architecture after completing PQ↔skill endpoint coverage.
+- Live source census: 186 canonical PQ records; 30 canonical equipment records; 88 canonical accessory identities with a 45-record PQ accessory research bridge; 42 canonical Super Soul records.
+- Added deterministic bidirectional relationship reports: `docs/data/pq-equipment-crosslink-report.json`, `docs/data/pq-accessory-crosslink-report.json`, and `docs/data/pq-super-soul-crosslink-report.json`.
+- Equipment: 15 explicit PQ→equipment edges and 15 reverse equipment endpoints. The remaining 15 canonical equipment records have no explicit PQ endpoint in their current source route and remain unresolved rather than inferred.
+- Accessories: 25 identity-matched PQ→accessory edges and 25 reverse accessory endpoints from the existing 45-record PQ accessory bridge. 20 research records remain unmatched/unresolved; the bridge's existing conflict/component policies are preserved.
+- Super Souls: 10 explicit PQ→Super Soul edges and 10 reverse Super Soul endpoints. The remaining 32 canonical Super Soul records currently have no explicit PQ acquisition source and remain unresolved.
+- Registered the new reverse reports in `docs/data/pq-cross-domain-index.json` and added `scripts/validate_pq_reward_crosslinks.py` so these relationship sets can be reproducibly audited instead of maintained manually.
+- No speculative name-only links were created. Accessory edges require an existing canonical identity match; equipment/Super Soul edges require an explicit PQ endpoint in the canonical record.
+- Exact next task: extend the same deterministic relationship model from PQ reward sources into the **Super Soul ↔ skill/character/DLC** and **equipment/accessory ↔ shop/character-gift/raid/wish** routes, then promote relationship edges into first-class fields or a unified relationship graph consumed by search/detail pages. Preserve all unresolved/conflicted routes.
