@@ -6070,3 +6070,15 @@ The repository owner has clarified the continuation contract:
 - The Final Explosion TODO entry initially contained an accidental placeholder sentence referring to citation markup. That current-cycle artifact was corrected in-place without changing any historical research content.
 - Corrective commit: `9509c747ad8b1851c69cea34cf825e87ae7ba239`.
 - The TODO entry now uses plain source/provenance wording only; no UI/internal citation markup was intentionally retained.
+
+
+### 2026-09-21 cycle update — Dragon Ball DAIMA Pack skill DLC provenance census
+- Live canonical census: **428 records / 0 duplicate IDs**.
+- Bounded batch: **Burning Blast, Final Flash (SS3 DAIMA), Force Edge, Super Kamehameha (SS4 DAIMA)**.
+- Evidence: official Bandai Namco documentation confirms the Dragon Ball DAIMA Pack contains Parallel Quests and player-character skills; the live canonical records map these four skills to PQ180–181 and already label them `Dragon Ball DAIMA Pack`.
+- Changes: refreshed `last_verified=2026-09-21` and appended bounded provenance notes to the four affected records only.
+- Validation after write: **428 records / 0 duplicate IDs / 4 Dragon Ball DAIMA Pack records / 0 source-PQ mismatches**. `skills-index.json` was not modified because it does not contain `dlc_requirement`.
+- Provenance semantics preserved: no reward-tier, acquisition, mechanics, cost, restriction, mentor, or character-only field was normalized.
+- CI: no workflow run/check is exposed, so no CI success is claimed.
+- Canonical commit: `8b43038e8d6a65e72250a102ef45e566a4b00ced`; TODO ledger commit: `1ac054437e3496ac5546e9f957d3ed71f7da74ba`.
+- Exact next batch: **fresh live DLC-label/source-relationship census outside Dragon Ball DAIMA Pack**, prioritizing another deterministic DLC/PQ cluster while preserving intentional mentor, character-only, free-update, and platform-dependent classifications.
