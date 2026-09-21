@@ -4056,3 +4056,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Where `unlock_method` itself explicitly contained the quest title, normalized **73** generic provenance labels (for example `Parallel Quest 80` → `Parallel Quest 80 — "The Return of the Giant Ape-Fest"`).
 - This was a provenance-only normalization: no acquisition type, reward tier, Ultimate Finish flag, probability, or route semantics were changed.
 - Canonical: `03d9813feda3269d318378389333c80a1b60a6a9`; index: `52c1fcc481c452d0f3abf080a1dbdda4613ae2f5`.
+
+
+## 2026-09-20 — Remaining titled PQ provenance cleanup
+- Normalized 11 remaining shorthand provenance labels (PQ###) where the existing unlock method explicitly supplied the quest title: Spirit Pulse, Wild Buster, Phantom Fist, Shield Barrier, Burning Swan, Heroic Assault, Justice Blade, Justice Kick, Seagull Combination, Shooting Strike, and Apocalyptic Burst.
+- No acquisition semantics, reward tiers, Ultimate Finish flags, or probabilities changed.
+- Canonical: 0a99b958785299078c70eb64dbd3c530842c803d; index: 955277b6b470e92b3898bfd6e15a7dfb609cf8fc.
