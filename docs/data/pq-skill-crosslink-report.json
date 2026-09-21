@@ -4,12 +4,10 @@
   "generated_at": "2026-09-21",
   "canonical_pq_records": 186,
   "canonical_skill_records": 429,
-  "forward_edge_count": 243,
+  "forward_edge_count": 244,
   "reverse_skill_endpoint_count": 244,
   "unresolved_forward_edges": [],
-  "orphaned_reverse_sources": [
-    "113|skill-candy-beam"
-  ],
+  "orphaned_reverse_sources": [],
   "status": "resolved",
   "interpretation": "Bidirectional PQ skill relationship audit synchronized to the current canonical PQ and skill registries. Reward spelling aliases resolve to deterministic canonical skill IDs.",
   "forward_edges": [
@@ -995,6 +993,14 @@
       "skill_id": "skill-candy-beam-super",
       "skill": "Candy Beam (Super)",
       "canonical_skill": "Candy Beam (Super)",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-113",
+      "pq_number": 113,
+      "skill_id": "skill-candy-beam",
+      "skill": "Candy Beam",
+      "canonical_skill": "Candy Beam",
       "match": "exact"
     },
     {
