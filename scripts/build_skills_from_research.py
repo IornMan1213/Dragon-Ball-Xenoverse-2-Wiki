@@ -12,8 +12,10 @@ def classify_acquisition(d):
  if 'tp medal' in text or 'stp medal' in text:
   if re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text) or d.get('source_quest') not in (None,''): return 'quest_or_mission'
   return 'tp_medal_shop'
+ if d.get('source_quest') not in (None,''):
+  if isinstance(d.get('source_quest'),str) and re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text): return 'parallel_quest'
+  return 'quest_or_mission'
  if re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', text): return 'parallel_quest'
- if d.get('source_quest') not in (None,''): return 'quest_or_mission'
  if 'starting move' in text: return 'starting_move'
  if 'character-exclusive' in text or 'character exclusive' in text or 'character-only' in text or 'character only' in text or 'character skill' in text: return 'character_only'
  return 'other_nonquest'
