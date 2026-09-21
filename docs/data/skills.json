@@ -3706,7 +3706,7 @@
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "race_restriction": "Character-only",
-      "acquisition_type": "other_nonquest",
+      "acquisition_type": "character_only",
       "notes": "2026-09-20 roster-status refinement: maintained skill references classify Final Charge as a Super Saiyan Blue Evolved Vegeta character-exclusive skill; it is not a separately acquirable CaC skill."
     },
     {
