@@ -1034,3 +1034,9 @@
 - Audited all 12 canonical skills currently labeled Ultra Pack 1 against official DLC documentation, the maintained 186-PQ guide, and individual technique references.
 - Confirmed the ten Future Warrior-acquirable Ultra Pack 1 skills map to PQ133–137; preserved the two character-exclusive Ultra Pack 1 skill records separately.
 - No DLC provenance mismatch was found; conflicting reward-tier evidence remains preserved.
+
+
+### 2026-09-21 — Ultra Pack 2 skill provenance audit
+- Audited all eight canonical Ultra Pack 2 skills against official DLC documentation, the maintained 186-PQ guide, and the live canonical source-PQ relationships.
+- Confirmed all eight skills map to PQ138–142 with matching Ultra Pack 2 provenance.
+- No DLC provenance mismatch found; reward-tier semantics were not normalized.
