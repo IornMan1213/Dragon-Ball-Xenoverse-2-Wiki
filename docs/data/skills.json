@@ -12244,7 +12244,8 @@
       "id": "skill-god-splitter",
       "source_mentor": [
         "mentor-zamasu"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Heavenly Arrow",
@@ -12272,7 +12273,8 @@
       "id": "skill-heavenly-arrow",
       "source_mentor": [
         "mentor-zamasu"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Instant Severance",
@@ -12300,7 +12302,8 @@
       "id": "skill-instant-severance",
       "source_mentor": [
         "mentor-zamasu"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Evil Ray Strike",
