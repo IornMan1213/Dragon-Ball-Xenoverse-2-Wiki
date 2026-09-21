@@ -1012,21 +1012,24 @@
         {
           "lesson": "lesson-1",
           "skill_name": "Prepare to be Punished",
-          "skill_id": null
+          "skill_id": "skill-prepare-to-be-punished"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Feint Shot",
-          "skill_id": null
+          "skill_id": "skill-feint-shot"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Maiden Blast",
-          "skill_id": null
+          "skill_id": "skill-maiden-blast"
         }
       ],
       "skills": [
-        "skill-dancing-parapara"
+        "skill-dancing-parapara",
+        "skill-prepare-to-be-punished",
+        "skill-feint-shot",
+        "skill-maiden-blast"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -1035,7 +1038,8 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
-      "verification_status": "lesson_skill_names_verified"
+      "verification_status": "lesson_skill_names_and_skill_endpoints_verified",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "mentor-jaco",
@@ -1044,25 +1048,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Hero's Pose",
-          "skill_id": null
+          "skill_id": "skill-hero-s-pose"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Elite Beam",
-          "skill_id": null
+          "skill_id": "skill-elite-beam"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Elite Shooting",
-          "skill_id": null
+          "skill_id": "skill-elite-shooting"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Super Elite Combo",
-          "skill_id": null
+          "skill_id": "skill-super-elite-combo"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-hero-s-pose",
+        "skill-elite-beam",
+        "skill-elite-shooting",
+        "skill-super-elite-combo"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -1070,7 +1079,8 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
-      "verification_status": "lesson_skill_names_verified"
+      "verification_status": "lesson_skill_names_and_skill_endpoints_verified",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "mentor-goku",
@@ -1089,17 +1099,19 @@
         {
           "lesson": "lesson-2",
           "skill_name": "x10 Kamehameha",
-          "skill_id": null
+          "skill_id": "skill-x10-kamehameha"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Super Kamehameha",
-          "skill_id": null
+          "skill_id": "skill-super-kamehameha"
         }
       ],
       "skills": [
         "skill-spirit-bomb",
-        "skill-instant-transmission"
+        "skill-instant-transmission",
+        "skill-x10-kamehameha",
+        "skill-super-kamehameha"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -1108,7 +1120,8 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
-      "verification_status": "lesson_skill_names_verified"
+      "verification_status": "lesson_skill_names_and_skill_endpoints_verified",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "mentor-future-gohan",
@@ -1129,25 +1142,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Tyrant Lancer",
-          "skill_id": null
+          "skill_id": "skill-tyrant-lancer"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Rebellion Spear",
-          "skill_id": null
+          "skill_id": "skill-rebellion-spear"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Riot Javelin",
-          "skill_id": null
+          "skill_id": "skill-riot-javelin"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Brave Heat",
-          "skill_id": null
+          "skill_id": "skill-brave-heat"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-tyrant-lancer",
+        "skill-rebellion-spear",
+        "skill-riot-javelin",
+        "skill-brave-heat"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -1155,7 +1173,8 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
       ],
-      "verification_status": "lesson_skill_names_verified"
+      "verification_status": "lesson_skill_names_and_skill_endpoints_verified",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "mentor-hit",
@@ -1269,5 +1288,6 @@
     }
   ],
   "last_verified": "2026-09-21",
-  "cross_domain_policy": "Mentor skills are linked by stable mentor and skill IDs; unresolved mentor fields remain null until directly verified."
+  "cross_domain_policy": "Mentor skills are linked by stable mentor and skill IDs; unresolved mentor fields remain null until directly verified.",
+  "generated": "2026-09-21"
 }
