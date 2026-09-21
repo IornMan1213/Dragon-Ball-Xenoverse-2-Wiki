@@ -12475,6 +12475,7 @@
     },
     {
       "name": "Time Skip/Tremor Pulse",
+      "ki_cost": 0,
       "class": "Evasive",
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
