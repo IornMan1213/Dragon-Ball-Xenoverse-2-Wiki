@@ -1106,3 +1106,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [ ] Next unresolved Ki-cost queue after this batch: **Time Skip/Tremor Pulse, Giant Storm, Angry Explosion, Dead End Rain, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**.
 
 > Earlier unchecked/partial entries remain permanently preserved. These dated entries are the authoritative completion markings under the append-only ledger contract.
+
+
+### 2026-09-21 — Master ledger completion marking: Time Skip/Tremor Pulse
+
+- [x] **Time Skip/Tremor Pulse Ki-cost verification completed: 0 Ki.** Current skill evidence explicitly documents 0 Ki and 200 Stamina for the Evasive; the canonical record now records ki_cost=0 and preserves stamina_cost=200.
+- [x] Evidence scope preserved: this cycle changed only the unresolved resource-cost field and verification state; no unsupported damage/mechanics claims were imported into canonical data.
+- [x] Post-write canonical validation: 428 records; 0 duplicate IDs; nullable ki_cost count reduced from 10 to 9.
+- [ ] Next unresolved Ki-cost queue: Giant Storm, Angry Explosion, Dead End Rain, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha, plus the documented Dimension Cannon Stamina-only exception.
