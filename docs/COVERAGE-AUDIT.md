@@ -4982,3 +4982,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 ### 2026-09-21 correction — pre-existing citation-token artifact status
 - The live file still contains some **older historical internal citation-token text** in entries written by earlier cycles. The current Bojack entry introduced no such tokens.
 - Because the continuation protocol is append-only and forbids deleting or rewriting historical entries, those older artifacts were not removed in this cycle. Future entries must continue using plain source URLs or source descriptions only.
+
+### 2026-09-21 — Zamasu mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 22 nullable `ki_cost` records**.
+- Bounded batch: **God Splitter (100), Heavenly Arrow (100), Instant Severance (300)** from Zamasu mentor training.
+- Research/evidence: current Xenoverse 2 skill references explicitly list **100 Ki** for God Splitter, **100 Ki** for Heavenly Arrow, and **300 Ki** for Instant Severance. The mentor reference independently confirms all three as Zamasu rewards. citeturn0search0turn0search1turn0search2turn0search5
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **19**. Targeted records were re-read after the write. No skill-index Ki-cost projection was introduced.
+- CI: canonical commit `6d465aa0664846960006b2359b0885b9ca1184d2` exposed no workflow runs or status checks through the repository connector; **no CI success claimed**.
+- Commit: `6d465aa0664846960006b2359b0885b9ca1184d2`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next bounded mentor family; prioritize explicit current `Ki Used` evidence and preserve variable-cost forms.**
