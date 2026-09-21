@@ -1726,3 +1726,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved existing acquisition/reward-tier and mechanics semantics; no unsupported drop probability was inferred.
 - [x] Post-write target: **48** exactly-two-source records.
 - [ ] Exact next task: recompute the live two-source census and continue with the next deterministic low-source record after Energy Shot, checking acquisition/reward semantics before provenance-only strengthening.
+
+
+### 2026-09-21 — Completed low-source provenance batch: Excellent Full Course
+- [x] Recomputed the live two-source census before editing: **48**.
+- [x] Added an independent Dragon Ball Wiki source confirming the PQ142 acquisition endpoint.
+- [x] Preserved the existing `ultimate_finish_required: false` despite a source conflict: Dragon Ball Wiki describes Ultimate Finish acquisition, while the maintained Steam PQ guide lists the skill as a Basic Reward.
+- [x] Recorded the conflict in the skill notes instead of silently selecting one interpretation.
+- [x] Post-write target: **47** exactly-two-source records.
+- [ ] Exact next task: recompute the live two-source census and continue with the next deterministic low-source record after Excellent Full Course, **Fighting Pose C**, checking acquisition/reward semantics before provenance-only strengthening.
