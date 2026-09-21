@@ -6319,3 +6319,13 @@ The repository owner has clarified the continuation contract:
 - No acquisition, gameplay, DLC, reward-tier, or character semantics were changed.
 - Canonical commit: **`2cf689d7308f87acb711a28d20eb7fbf6ef6d2ce`**.
 - Exact next batch: **continue the two-source cluster, prioritizing concrete acquisition records where independent quest/reward evidence can strengthen provenance without semantic rewriting.**
+
+
+### 2026-09-21 continuation — Afterimage Strike provenance strengthening
+- Workstream: **P1 skill provenance/source integrity**.
+- Live two-source cluster: **90 records** after the Angry Explosion batch.
+- Concrete target: **Afterimage Strike**, whose canonical acquisition is **PQ81 / Wake Up!**.
+- Strengthened provenance with two independent PQ reward guides. Both identify **PQ81** and list **Afterimage Strike** among its Basic Rewards. citeturn1search3turn1search6
+- Existing acquisition semantics were preserved; no drop-rate, Ultimate Finish, DLC, or gameplay semantics were invented.
+- Canonical commit: **`7b33e464fba3c887b8cce2e3ac23d287e83930ca`**.
+- Exact next batch: **continue the remaining two-source cluster, prioritizing quest/PQ acquisition records with directly checkable independent reward evidence.**
