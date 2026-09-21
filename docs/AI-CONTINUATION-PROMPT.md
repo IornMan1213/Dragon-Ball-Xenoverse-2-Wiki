@@ -6140,3 +6140,17 @@ The repository owner has clarified the continuation contract:
 - Final validation: **429 canonical / 429 index / 0 duplicate IDs / 15 Future Saga Chapter 1 records / Divine Ray Bomb = Future Saga Chapter 1 / Gigantic Cluster display name synchronized**. No internal citation/UI artifacts detected in the changed canonical/index records.
 - Corrective commit: 44199a6cb5e392665708cf37346a2bf5fde23f63.
 - Exact next task remains: recompute the remaining DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness mismatch.
+
+### 2026-09-21 cycle update — Future Saga Chapter 2 skill provenance audit
+- Workstream: **P1 skill DLC/version provenance and character-only completeness cleanup**.
+- Live census before editing: **429 canonical skill records / 0 duplicate IDs / 0 nullable `ki_cost` values**; canonical/index parity remains 429/429 from the preceding cycle.
+- Bounded batch: **God of Destruction's Poise, God of Destruction's Plaything, God of Destruction's Might, Full Power Destruction, Soaring Rush, Dragon Spark, and Burst Blitz**.
+- Research/evidence: official Bandai Namco DLC documentation states Future Saga Chapter 2 contains **4 Parallel Quests and 7 additional moves**. The maintained 186-PQ Steam reward corpus maps the seven skill endpoints across PQ175-PQ178: Poise/Plaything (PQ175), Might (PQ176), Full Power Destruction/Soaring Rush/Dragon Spark (PQ177), and Burst Blitz (PQ178).
+- Result: all seven live canonical records already carry `dlc_requirement=Future Saga Chapter 2`, and their primary source PQs are inside the Chapter 2 quest set. **No canonical provenance correction was justified.**
+- Changes: updated `docs/data/skill-catalog-audit.json`, `docs/COVERAGE-AUDIT.md`, `docs/TODO-EXHAUSTIVE.md`, and this handoff. No canonical gameplay skill record required rewriting.
+- Evidence limits: this pass verifies DLC/package-to-PQ provenance only. Existing reward-tier/Ultimate-Finish conditions and any source conflicts remain preserved; no mechanics, cost, restriction, acquisition, or reward probability was inferred.
+- Validation: live census remains **429 / 0 duplicate IDs / 0 nullable `ki_cost`**. The audit, coverage, and TODO files were updated append-only. No internal ChatGPT/tool citation markers were intentionally added to the new repository entries.
+- CI: the latest pre-cycle repository commit `b6222e0f6c657ae3b18c2040bce3e870c62419f1` exposed **no workflow runs** through the connected GitHub workflow endpoint; after this cycle, inspect the new documentation commit as well. No CI success is claimed.
+- Commits: `f6a8702f5ab3a108db66d02bc85de6416e84d950` (skill-catalog audit), `25e95607057d4f924f2d1ce842144d7c40826cef` (coverage audit), `9ad156bcab776ca318166a4faaad87d05ca5e5a7` (TODO ledger), plus the handoff commit created by this update.
+- Exact next task: **recompute the live DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness cluster with a concrete mismatch or missing endpoint.** Do not reopen the reconciled Future Saga Chapter 2 cluster unless contradictory evidence appears; preserve intentional composite/platform-dependent labels and reward conflicts.
+
