@@ -5439,3 +5439,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow/status result exposed yet; **no CI success claimed**. Validators were not weakened.
 - Commits: `cc61629f11788b994cbddc8ba246ba552f6b97b1` (canonical), `e5b9cf8d6de24c9d4c143c8e2b0f25eb9737e672` (audit correction), `92f8eb368eff41c0882776abef12c02d33be2b44` (changelog).
 - Exact next task: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor or other evidence-backed family, prioritizing explicit current `Ki Used` values and preserving variable-cost forms.**
+
+
+### 2026-09-21 cycle update — Captain Ginyu mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 74 nullable `ki_cost` records**.
+- Bounded batch completed: **Fighting Pose F (0), Fighting Pose A (0), Milky Cannon (100), Body Change (300)**.
+- Evidence: current Xenoverse 2 skill references explicitly expose those Ki-used values. citeturn1search1turn1search2turn1search4turn1search0
+- Changes were limited to canonical `ki_cost` plus `last_verified=2026-09-21`; no mechanics or acquisition semantics were inferred.
+- Expected post-edit census: **428/428 records, 0 duplicate IDs, 70 nullable `ki_cost` records**. No index Ki-cost projection was introduced.
+- CI: no success claimed without an actionable exposed run.
+- Commit: `be038934e4bbc9e17995e1712f48ec6f15174b2e`; audit commit: `99a1c79d8eae056162959457c50cc9611808d2d4`.
+- Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
