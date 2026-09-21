@@ -4220,3 +4220,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Current checked-in canonical cost/source field type distribution remains compatible with the schema; no generated catalog was manually rewritten.
 - Next task: inspect merge/protection behavior for stale canonical numeric values and verify whether local corrections are intentionally authoritative when upstream structured values are more complete; do not overwrite curated corrections automatically.
 
+## 2026-09-21 continuation — correction metadata validation
+- Audited `merge_record()` and the local correction mechanism. The merge semantics intentionally preserve curated fields unless an explicit `correction_fields` entry authorizes replacement; a correction can also explicitly clear a field by declaring it in `correction_fields` with a null/blank value.
+- Found a concrete robustness bug: malformed truthy `correction_of` metadata (for example a string) was dereferenced with `.get()` before the existing type-validation branch, producing an incidental attribute error instead of the intended validation error.
+- Fixed the merge path to validate `correction_of` is an object before reading its fields.
+- Commit: `7e35949c99860e29d3c039086ddb9063908d2d96` — Validate correction metadata before merge.
+- Repository search found no currently indexed `correction_fields`, `correction_of`, or `research_batch` records, so no concrete local correction dataset was available to audit beyond the merge implementation itself.
+- Next task: audit correction destination/key handling and malformed/edge-case correction metadata (missing target, duplicate destination, blocked target, and field-list validation) against the intended local-batch workflow; preserve strict failure behavior.
