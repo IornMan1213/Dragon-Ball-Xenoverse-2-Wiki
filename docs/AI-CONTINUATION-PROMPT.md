@@ -5226,3 +5226,17 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow/status result was exposed; **no CI success claimed**. Validators were not weakened.
 - Commit: a14d8a7025124ca12a54e55c4b4ba9ffa701cf15.
 - Exact next batch: **Energy Charge, Final Pose, Full Power Charge, Galick Gun, Indomitable, Instant Transmission, Masenko, Maximum Charge, Perfect Shot, and Potential Unleashed**, using the same deterministic canonical→index last_verified parity check.
+
+
+### 2026-09-21 cycle update — skill-index last_verified projection batch 2
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, bounded deterministic skill-index reconciliation.
+- Live census before/after: **429 canonical skills / 429 skill-index records**.
+- Bounded batch: **10 exact `last_verified` projection values** — Energy Charge, Final Pose, Full Power Charge, Galick Gun, Indomitable, Instant Transmission, Masenko, Maximum Charge, Perfect Shot, and Potential Unleashed.
+- Research/evidence: canonical `docs/data/skills.json` is the producer of the index projection. No external inference or new acquisition/mechanics claim was introduced.
+- Changes: updated only those 10 `last_verified` values in `docs/data/skills-index.json`.
+- Evidence limits: deterministic cross-layer parity correction, not a new verification event; **10** remaining `last_verified` mismatches are intentionally preserved for the next bounded pass.
+- Validation: both skill JSON layers parse; 429 records remain in each; all 10 targeted values now match canonical; remaining mismatches are **Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, The Power to Overcome, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Venus Fist**; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: commit workflow-run lookup and combined status for `124138ef8edeba905223caa0cb4b6de2082f69f5` returned **no workflow runs and no statuses**; no CI success claimed and validators were not weakened.
+- Files changed: `docs/data/skills-index.json`, `docs/COVERAGE-AUDIT.md`, `CHANGELOG.md`, and this handoff.
+- Commits: `124138ef8edeba905223caa0cb4b6de2082f69f5` (skill index), `8d1d357dd47f6d77efd9b6a1c94590e98c5637dc` (coverage audit), `4ee5d04789c6b0bca239fa5d63677f3fd936ceef` (changelog), plus this handoff commit.
+- Exact next batch: **Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, The Power to Overcome, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Venus Fist**, using the same canonical→index `last_verified` parity check and then re-running the live mismatch census.
