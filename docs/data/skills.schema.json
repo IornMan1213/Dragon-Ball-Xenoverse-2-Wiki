@@ -180,6 +180,7 @@
     "acquisition_type": {
       "enum": [
         "quest_or_mission",
+        "parallel_quest",
         "skill_shop",
         "tp_medal_shop",
         "character_only",
