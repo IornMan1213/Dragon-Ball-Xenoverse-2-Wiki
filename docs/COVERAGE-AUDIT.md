@@ -4825,3 +4825,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: not yet actionable at this point; inspect the push-triggered runs for the latest commits and do not claim CI success without an exposed successful run. Validators were not weakened.
 - Commit: `cc61629f11788b994cbddc8ba246ba552f6b97b1`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor or other evidence-backed family, prioritizing explicit current `Ki Used` values and preserving variable-cost forms.**
+
+
+### 2026-09-21 — Captain Ginyu mentor skill Ki-cost verification
+
+- Live canonical skill census before editing: **428 records; 74 nullable `ki_cost` records**.
+- Bounded batch: **Fighting Pose F, Fighting Pose A, Milky Cannon, Body Change** from Captain Ginyu mentor training.
+- Evidence: current Xenoverse 2 skill references explicitly document **0 Ki** for Fighting Pose F, **0 Ki** for Fighting Pose A, **100 Ki** for Milky Cannon, and **300 Ki** for Body Change. citeturn1search1turn1search2turn1search4turn1search0
+- Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. No mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation target: canonical skills remain **428/428**, duplicate IDs remain **0**, and nullable `ki_cost` count falls to **70**. No skill-index Ki-cost projection introduced.
+- CI: inspect workflow status for the latest commit; do not claim CI success unless an actionable successful run is exposed. Validators were not weakened.
+- Commit: `be038934e4bbc9e17995e1712f48ec6f15174b2e`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
