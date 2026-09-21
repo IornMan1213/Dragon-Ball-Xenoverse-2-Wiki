@@ -1,3 +1,12 @@
+## 2026-09-20 deterministic shop prerequisite field cleanup
+
+- Continued the non-PQ acquisition audit by finding two Skill Shop records whose `unlock_method` contained a concrete prerequisite while `source_quest` was null.
+- **Explosive Wave** now records the main-story normal-ending completion gate separately from its Conton City Skill Shop source.
+- **Punisher Guard** now records completion of **A Momentous Galactic Battle** separately from its Skill Shop source.
+- No new prerequisite was invented; the existing unlock wording was normalized into the structured provenance fields.
+- Canonical/index were updated together.
+
+
 ## 2026-09-20 Time Bullet provenance refinement
 
 - Refined **Time Bullet** after rechecking its dedicated skill evidence and the live canonical/index records.
