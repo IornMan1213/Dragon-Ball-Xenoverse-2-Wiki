@@ -4553,3 +4553,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Live report totals after promotion: **33 canonical mentors / 33 linked mentors / 131 mentor→skill edges / 131 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
 - No canonical skill acquisition semantics were changed.
 - Exact next batch: **audit whether any additional bidirectional/reverse-navigation layer is required by the continuation/addendum rules; if not, move to the next explicitly prioritized coverage gap rather than inventing more mentor relationships.**
+
+### 2026-09-21 cycle update — skill acquisition projection normalization
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**; deterministic producer/index mismatch audit after completing the mentor and Super Soul frontiers.
+- Live census: **429 canonical skill-index records**. The canonical `docs/data/skills.json` layer contained `source_quest` values for three PQ-acquired skills whose corresponding `docs/data/skills-index.json` projection had the field absent: Drain Field → PQ95, Flash Bomber → PQ95, and Rakshasa's Claw → PQ57.
+- Bounded change: populated those three exact `source_quest` IDs in `docs/data/skills-index.json` only. No acquisition wording, UF status, cost, restriction, DLC provenance, or unresolved drop semantics were changed.
+- Evidence: existing canonical `skills.json` records already normalize these exact quest IDs and retain the corresponding `source_parallel_quests`; this is a deterministic cross-layer reconciliation, not new external inference.
+- Validation: both skill JSON layers parsed successfully; cross-layer comparison now reports **0 records where skills.json has source_quest but skills-index.json lacks it**. Changed JSON contains no internal UI/search citation artifacts.
+- CI: no workflow/status result was exposed for the commit; no CI success is claimed and validators were not weakened.
+- Commit: `3d54e9ad713eb7e29dc469911468a658d3c3fb34`.
+- Exact next batch: **continue the live P1 skill census by auditing nullable DLC/version provenance and acquisition-specific fields for a bounded 4–12 record group; prefer deterministic cross-layer mismatches before external research.**
