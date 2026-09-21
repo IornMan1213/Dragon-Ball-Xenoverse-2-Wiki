@@ -6737,7 +6737,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Super Spirit Bomb in the EM16 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
-      "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile.",
+      "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile. 2026-09-21 cross-domain normalization: source_quest uses the canonical Expert Mission identifier EM-16, matching the repository's Expert Mission evidence record ID; source_quest_or_shop retains the human-readable mission title.",
       "source_quest": "EM-16",
       "source_quest_or_shop": "Expert Mission 16 - In the Realm of the Gods: Vegeta"
     },
@@ -6784,7 +6784,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
-      "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere.",
+      "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere. 2026-09-21 cross-domain normalization: source_quest uses the canonical Expert Mission identifier EM-6, matching the repository's Expert Mission evidence record ID; source_quest_or_shop retains the human-readable mission title.",
       "source_quest": "EM-6",
       "source_quest_or_shop": "Expert Mission 6"
     },
@@ -7020,7 +7020,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Lesson 1",
       "source_quest_or_shop": "Hit mentor training — Lesson 1",
       "source_mentor": [
@@ -7045,7 +7045,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Initiation Test",
       "source_quest_or_shop": "Hit mentor training — Initiation Test",
       "source_mentor": [
@@ -7070,7 +7070,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
+      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
       "source_quest": "Hit mentor training — Lesson 2",
       "source_quest_or_shop": "Hit mentor training — Lesson 2",
       "source_mentor": [
