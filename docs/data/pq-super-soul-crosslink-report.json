@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 130,
+  "canonical_target_records": 138,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -355,6 +355,30 @@
       "target_name": "I'll surpass you as I am, with my OWN power!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-surpass-you-as-i-am-with-my-own-power.md"
+    },
+    {
+      "pq_id": "pq-175",
+      "pq_number": 175,
+      "target_id": "super-soul-140",
+      "target_name": "It's about time...",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/its-about-time.md"
+    },
+    {
+      "pq_id": "pq-177",
+      "pq_number": 177,
+      "target_id": "super-soul-141",
+      "target_name": "Strength is justice! Strength is absolute!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/strength-is-justice-strength-is-absolute.md"
+    },
+    {
+      "pq_id": "pq-178",
+      "pq_number": 178,
+      "target_id": "super-soul-142",
+      "target_name": "I'll take you all on at once!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-take-you-all-on-at-once.md"
     },
     {
       "pq_id": "pq-180",
@@ -887,6 +911,36 @@
       "pq_numbers": [
         173
       ]
+    },
+    {
+      "target_id": "super-soul-140",
+      "target_name": "It's about time...",
+      "pq_ids": [
+        "pq-175"
+      ],
+      "pq_numbers": [
+        175
+      ]
+    },
+    {
+      "target_id": "super-soul-141",
+      "target_name": "Strength is justice! Strength is absolute!",
+      "pq_ids": [
+        "pq-177"
+      ],
+      "pq_numbers": [
+        177
+      ]
+    },
+    {
+      "target_id": "super-soul-142",
+      "target_name": "I'll take you all on at once!",
+      "pq_ids": [
+        "pq-178"
+      ],
+      "pq_numbers": [
+        178
+      ]
     }
   ],
   "unresolved_target_routes": [
@@ -1294,16 +1348,41 @@
       "target_id": "super-soul-135",
       "target_name": "I learned a lot from how you fight.",
       "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-136",
+      "target_name": "You intend to defy me?!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-137",
+      "target_name": "I will NOT give up! EVER!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-138",
+      "target_name": "We're tougher than we look!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-139",
+      "target_name": "You're not taking this away from us!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-143",
+      "target_name": "So, Hakai.",
+      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 130,
-    "forward_edge_count": 49,
-    "reverse_edge_count": 49,
-    "unique_pq_endpoints": 39,
-    "unique_target_endpoints": 49,
-    "unresolved_target_route_count": 81,
+    "canonical_target_records": 138,
+    "forward_edge_count": 52,
+    "reverse_edge_count": 52,
+    "unique_pq_endpoints": 42,
+    "unique_target_endpoints": 52,
+    "unresolved_target_route_count": 86,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0
   }
