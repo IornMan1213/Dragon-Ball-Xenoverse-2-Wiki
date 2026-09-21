@@ -518,7 +518,7 @@
       "mechanics_notes": "Chargeable beam; charge increases damage and hit count; follow-up stronger Ki Wave on hit. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. 2026-09-20 verification: current skill page explicitly states PQ148 unlock and Ki Blast Ultimate classification; the PQ148 reward guide independently lists Blaster Stream as a Basic Reward.",
       "research_status": "verified",
       "last_verified": "2026-09-20",
-      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Blaster Stream in PQ148 Basic Reward. No Ultimate Finish requirement is asserted.",
+      "notes": "2026-09-20 acquisition refinement: the maintained Steam all-PQ guide lists Blaster Stream in PQ148 Basic Reward. No Ultimate Finish requirement is asserted. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "race_restriction": null,
       "source_quest": 148,
       "acquisition_type": "quest_or_mission",
@@ -1279,7 +1279,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 184,
-      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record.",
+      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission",
       "id": "skill-chaotic-time-impact",
@@ -1369,7 +1369,7 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record.",
+      "notes": "2026-09-19 race-scope review: current dedicated Xenoverse 2 evidence confirms skill identity, users, and/or acquisition but does not explicitly establish CaC race/gender/form scope; race_restriction remains unresolved rather than inferred. 2026-09-20 provenance census: normalized source field to Parallel Quest 154 — \"Dabura the Loyal? Servant\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "race_restriction": null,
       "source_quest": 154,
       "acquisition_type": "quest_or_mission",
