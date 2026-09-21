@@ -419,7 +419,9 @@
         "Earth Splitting Galick Gun"
       ],
       "skill_rewards": [
-        "Earth Splitting Galick Gun"
+        "Earth Splitting Galick Gun",
+        "Time Control",
+        "Mach Dash"
       ],
       "equipment_rewards": [],
       "super_soul_rewards": [],
@@ -433,7 +435,9 @@
       ],
       "last_verified": "2026-09-19",
       "skill_ids": [
-        "skill-earth-splitting-galick-gun"
+        "skill-earth-splitting-galick-gun",
+        "skill-time-control",
+        "skill-mach-dash"
       ]
     },
     {
@@ -457,7 +461,9 @@
         "Zeni",
         "Item/capsule rewards"
       ],
-      "skill_rewards": [],
+      "skill_rewards": [
+        "Meteor Crash"
+      ],
       "equipment_rewards": [],
       "super_soul_rewards": [
         "H-How could he?!"
@@ -470,7 +476,10 @@
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-meteor-crash"
+      ]
     },
     {
       "id": "pq-013",
@@ -491,7 +500,10 @@
         "Zeni",
         "Capsule/item rewards"
       ],
-      "skill_rewards": [],
+      "skill_rewards": [
+        "Fighting Pose C",
+        "Psycho Escape"
+      ],
       "equipment_rewards": [],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
@@ -502,7 +514,11 @@
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-fighting-pose-c",
+        "skill-psycho-escape"
+      ]
     },
     {
       "id": "pq-014",
@@ -524,7 +540,9 @@
         "Zeni",
         "Capsule/item rewards"
       ],
-      "skill_rewards": [],
+      "skill_rewards": [
+        "Kaioken Kamehameha"
+      ],
       "equipment_rewards": [],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
@@ -535,7 +553,10 @@
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "last_verified": "2026-09-19"
+      "last_verified": "2026-09-19",
+      "skill_ids": [
+        "skill-kaioken-kamehameha"
+      ]
     },
     {
       "id": "pq-015",
@@ -2490,13 +2511,15 @@
       ],
       "verification_status": "partially_verified",
       "skill_rewards": [
-        "Candy Beam"
+        "Candy Beam",
+        "Warp Kamehameha"
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "skill_ids": [
-        "skill-candy-beam"
+        "skill-candy-beam",
+        "skill-warp-kamehameha"
       ]
     },
     {
@@ -5789,7 +5812,12 @@
         "God of Destruction's Might"
       ],
       "verification_status": "partially_verified",
-      "skill_rewards": []
+      "skill_rewards": [
+        "God of Destruction's Might"
+      ],
+      "skill_ids": [
+        "skill-god-of-destruction-s-might"
+      ]
     },
     {
       "id": "pq-177",
