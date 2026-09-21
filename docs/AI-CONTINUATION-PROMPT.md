@@ -3564,3 +3564,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Acquisition semantics, UF flags, and probabilities were not changed; no unsupported reward condition was inferred.
 - Commits: canonical 6ffd74c3b7c82883eb537424d29611e9d936a7a5; index 5f9d1a13d5d972533b3d3977c144c13b2cd473ed; audit 8db328a9df1c697de01c62a1d129c0323c3b06e1.
 - Exact next task: continue the acquisition/provenance census outside PQ161–180, prioritizing remaining generic `source_quest_or_shop` values and contradictory route records; only make deterministic corrections supported by maintained reward evidence.
+
+
+### 2026-09-20 cycle update — PQ154–160 / PQ184 provenance normalization
+- Continued the acquisition/provenance census outside PQ161–180.
+- Normalized generic source fields to explicit maintained quest names for Demon Ray, Demon Flash Strike, Demon Flurry (PQ160); Sign of Awakening, Circle Flash (PQ154); Heroic Counter, Gamma Blaster, Gamma Impact (PQ155); Super Gamma Blast, Core Breaker (PQ158); Fierce Fist, Demonic Destruction (PQ159); and Chaotic Time Impact (PQ184).
+- Existing reward tiers and Ultimate Finish semantics were preserved; this pass changed provenance specificity only.
+- Commits: canonical `8dd9f7a39cfa3d87cd6d8067cbb3642d4f8fdb60`; index `4832e8933855ceb7846c2ff9a9dc9024b713ace4`; audit `66b51573e9e52725cfa077d1103d7d7d44afac8a`.
+- Exact next task: continue scanning the remaining generic/pooled source fields, prioritizing records for which the maintained PQ reward corpus provides an explicit quest name or a clearly documented alternative acquisition route. Preserve unresolved reward-tier conflicts.
