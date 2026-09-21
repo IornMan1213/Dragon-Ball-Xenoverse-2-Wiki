@@ -10754,11 +10754,12 @@
       "source_quest": "Gotenks mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-super-ghost-kamikaze-attack",
       "source_mentor": [
         "mentor-gotenks"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Galactic Donuts",
@@ -10781,11 +10782,12 @@
       "source_quest": "Gotenks mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-galactic-donuts",
       "source_mentor": [
         "mentor-gotenks"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "DIE DIE Missile Barrage",
@@ -10808,11 +10810,12 @@
       "source_quest": "Gotenks mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used.",
       "id": "skill-die-die-missile-barrage",
       "source_mentor": [
         "mentor-gotenks"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Super Ghost Kamikaze Attack",
@@ -10835,11 +10838,12 @@
       "source_quest": "Gotenks mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 300 Ki used.",
       "id": "skill-super-ghost-kamikaze-attack-ultimate-ki-blast",
       "source_mentor": [
         "mentor-gotenks"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Power Blitz",
