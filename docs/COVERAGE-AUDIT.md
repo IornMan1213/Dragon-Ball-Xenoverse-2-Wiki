@@ -4612,3 +4612,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: commit workflow-run lookup and combined status for `124138ef8edeba905223caa0cb4b6de2082f69f5` returned **no runs and no statuses**; no CI success claimed and validators were not weakened.
 - Commit: `124138ef8edeba905223caa0cb4b6de2082f69f5`.
 - Exact next batch: **Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, The Power to Overcome, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Venus Fist**, using the same canonical→index `last_verified` parity check.
+
+
+### 2026-09-21 — Skill-index last_verified projection parity batch 3
+- Live census: **429 canonical skills / 429 skill-index records**.
+- Bounded deterministic batch: **10 last_verified projection values** — Rise to Action, Shadow Crusher, Spirit Bomb, Super Spirit Bomb, Supernova, The Power to Overcome, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, and Venus Fist.
+- Evidence: canonical `docs/data/skills.json` is the producer; this pass copied only the canonical `last_verified` value into the generated/index layer. No new gameplay, acquisition, restriction, DLC, or mechanics claim was introduced.
+- Validation: both JSON layers parsed; record counts remain 429/429; live canonical→index `last_verified` comparison now reports **0 mismatches**; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: not yet inspected for the new commit; do not claim CI success.
+- Commit: `0865f3d3f7a7281c81effdd0b27e6d7cb2cdd76a`.
+- Exact next batch: **recompute the live skill-index projection census and select the next bounded deterministic mismatch family; do not invent new values where canonical evidence is absent.**
