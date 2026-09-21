@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 106,
+  "canonical_target_records": 114,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -283,6 +283,22 @@
       "target_name": "Is that all?",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/is-that-all.md"
+    },
+    {
+      "pq_id": "pq-161",
+      "pq_number": 161,
+      "target_id": "super-soul-118",
+      "target_name": "I'm a whole new me.",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/im-a-whole-new-me.md"
+    },
+    {
+      "pq_id": "pq-162",
+      "pq_number": 162,
+      "target_id": "super-soul-119",
+      "target_name": "Shenron really went the extra mile.",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/shenron-really-went-the-extra-mile.md"
     },
     {
       "pq_id": "pq-180",
@@ -725,6 +741,26 @@
       "pq_numbers": [
         158
       ]
+    },
+    {
+      "target_id": "super-soul-118",
+      "target_name": "I'm a whole new me.",
+      "pq_ids": [
+        "pq-161"
+      ],
+      "pq_numbers": [
+        161
+      ]
+    },
+    {
+      "target_id": "super-soul-119",
+      "target_name": "Shenron really went the extra mile.",
+      "pq_ids": [
+        "pq-162"
+      ],
+      "pq_numbers": [
+        162
+      ]
     }
   ],
   "unresolved_target_routes": [
@@ -1057,16 +1093,46 @@
       "target_id": "super-soul-111",
       "target_name": "I can tell you're an amateur by the way you pose!",
       "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-112",
+      "target_name": "That's minus ten points!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-113",
+      "target_name": "I'm a super hero!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-114",
+      "target_name": "Just figured out who the real villain is!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-115",
+      "target_name": "Help me, Daddy! I'm scared!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-116",
+      "target_name": "Damn... Gonna have to go all out!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-117",
+      "target_name": "Not a single word!",
+      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 106,
-    "forward_edge_count": 40,
-    "reverse_edge_count": 40,
-    "unique_pq_endpoints": 31,
-    "unique_target_endpoints": 40,
-    "unresolved_target_route_count": 66,
+    "canonical_target_records": 114,
+    "forward_edge_count": 42,
+    "reverse_edge_count": 42,
+    "unique_pq_endpoints": 33,
+    "unique_target_endpoints": 42,
+    "unresolved_target_route_count": 72,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0
   }
