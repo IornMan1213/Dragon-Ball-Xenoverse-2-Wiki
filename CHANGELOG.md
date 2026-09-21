@@ -1090,3 +1090,7 @@
 - Corrected Divine Ray Bomb's DLC provenance from Future Saga Chapter 2 to Future Saga Chapter 1.
 - Corrected the authoritative skill display name from Giant Cluster to Gigantic Cluster while preserving the stable repository ID.
 - Synchronized the skill index record count to 429.
+
+## 2026-09-21 — Pretty Charge index parity correction
+- Added the existing canonical Pretty Charge record to skills-index.json and synchronized its record count to 429.
+- No new canonical skill data was created; this was projection/index parity repair.
