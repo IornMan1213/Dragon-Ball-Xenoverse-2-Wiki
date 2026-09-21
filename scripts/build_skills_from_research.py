@@ -87,6 +87,11 @@ def merge_record(m,r,protected=None,blocked=None):
   m[k]=old
   return True
  if c:
+  if not isinstance(correction_of := r.get('correction_of'), dict):
+   raise ValueError(f"invalid correction metadata for {n}: correction_of must be an object")
+  declared_fields=r.get('correction_fields')
+  if not isinstance(declared_fields,list) or not declared_fields or not all(isinstance(field,str) and field for field in declared_fields):
+   raise ValueError(f"invalid correction metadata for {n}: correction_fields must be a non-empty list")
   if oldkey not in m:
    raise ValueError(f"correction target not found for {n}: {oldname}/{oldclass}/{oldsub}")
   if oldkey in blocked:
