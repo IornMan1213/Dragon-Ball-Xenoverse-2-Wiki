@@ -6064,3 +6064,9 @@ The repository owner has clarified the continuation contract:
 - Commits: `9b7021675c6f210be8bece1558dc55904bce97c6` (canonical data); `d5619cd560c92321c6509548c4a9eaf910faabbf` (TODO ledger).
 - Handoff correction required: the TODO entry appended in this cycle contains a literal placeholder sentence referring to citation markup. It is historical append-only text only; future repository entries must contain plain source descriptions/URLs and no citation/UI markup.
 - Exact next task: **recompute the live DLC-label/source-relationship census and continue with the next independently resolvable provenance mismatch**, preserving intentional historical/composite classifications.
+
+
+### 2026-09-21 correction — TODO citation-placeholder cleanup
+- The Final Explosion TODO entry initially contained an accidental placeholder sentence referring to citation markup. That current-cycle artifact was corrected in-place without changing any historical research content.
+- Corrective commit: `9509c747ad8b1851c69cea34cf825e87ae7ba239`.
+- The TODO entry now uses plain source/provenance wording only; no UI/internal citation markup was intentionally retained.
