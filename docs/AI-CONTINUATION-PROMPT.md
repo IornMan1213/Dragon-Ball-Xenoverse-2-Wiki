@@ -4212,3 +4212,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `9aaa48e19950435fc171c2664465328ed27910b2` — Preserve verified dates and confidence semantics.
 - Upstream fields `damage`, `hits`, `asOfVersion`, and raw `confidence` have no direct canonical schema destinations; no invented fields or lossy semantic mappings were added for them.
 - Next task: continue auditing numeric coercion and canonical merge behavior, especially whether upstream numeric fields can violate schema constraints or be silently preserved with the wrong type.
+
+## 2026-09-21 continuation — numeric/coercion audit
+- Audited the numeric/frontmatter path in `scripts/build_skills_from_research.py`. Upstream numeric scalar values are converted by the frontmatter parser to integers for digit-only values, while the canonical schema permits integer/string/null for ki and stamina costs; no direct schema type violation was found in the current path.
+- Found and fixed a concrete implementation bug in the prior `asOfDate` fallback: the regex had been double-escaped and therefore could not match a normal ISO date. It now correctly validates `YYYY-MM-DD` before assigning `last_verified`.
+- Commit: `cd59be002c5f255a13ad25e086a91fbcaf3f0565` — Fix ISO date fallback validation.
+- Current checked-in canonical cost/source field type distribution remains compatible with the schema; no generated catalog was manually rewritten.
+- Next task: inspect merge/protection behavior for stale canonical numeric values and verify whether local corrections are intentionally authoritative when upstream structured values are more complete; do not overwrite curated corrections automatically.
+
