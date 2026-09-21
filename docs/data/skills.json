@@ -7027,8 +7027,8 @@
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 62 — Basic Reward; historical source conflict over Ultimate Finish gating",
-      "source_quest_or_shop": "Parallel Quest 62",
+      "unlock_method": "Parallel Quest 62 — \"Frieza's Nightmare Returns!\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 62 — \"Frieza's Nightmare Returns!\"",
       "ultimate_finish_required": false,
       "skill_description": "Teleporting Vanishing Ball is a Ultimate Ki Blast skill associated with Frieza (Final Form).",
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research.",
@@ -7044,7 +7044,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 62,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide lists Teleporting Vanishing Ball in PQ62's Basic Reward pool. Historical GameFAQs discussion reports players treating it as an Ultimate Finish drop, creating a provenance conflict; canonical data records the current reward-table classification without asserting an UF-only gate."
+      "notes": "2026-09-20 acquisition reconciliation: current maintained PQ reward data lists Teleporting Vanishing Ball in PQ62's Basic Reward pool, while dedicated skill documentation confirms PQ62 as the unlock quest. Historical community discussion questioned whether an Ultimate Finish was required, but current reward-table evidence does not establish an UF-only gate; exact reward-slot probability remains unresolved."
     },
     {
       "name": "Thunder Flash",
