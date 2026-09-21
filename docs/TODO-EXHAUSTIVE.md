@@ -1165,3 +1165,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved all existing acquisition, Ki-cost, class, restriction, and source data; only the incorrect DLC provenance plus verification note/timestamp was changed.
 - [x] Validation requirement: canonical/index parity must be rechecked after the write; the next cycle must inspect Actions for the two data commits before claiming CI status.
 - [ ] Next provenance task: recompute the live DLC mismatch census after this correction and select the next bounded evidence-backed mismatch; do not assume other Base Game values are wrong without a direct relationship to a DLC-gated source.
+
+
+### 2026-09-21 — Master ledger completion marking: Extra Pack DLC provenance normalization
+- [x] **Extra Pack 1 / Extra Pack 2 ambiguous DLC labels resolved for 10 skill records.** Source PQ ranges establish PQ113–117 as Extra Pack 1 and PQ118–122 as Extra Pack 2; the affected records were assigned to the exact pack indicated by their source PQ.
+- [x] Corrected: Brave Sword Attack → Extra Pack 1; Brave Sword Slash → Extra Pack 1; Candy Beam (Super) → Extra Pack 1; Handy Canon → Extra Pack 1; Hero's Flute → Extra Pack 1; Petrifying Spit → Extra Pack 1; S.S. Deadly Bomber → Extra Pack 1; Super Ghost Buu Attack → Extra Pack 1; Power Impact → Extra Pack 2; Power Rush → Extra Pack 2.
+- [x] **Future Saga Chapter 3 label normalized** for Chaotic Time Impact, Dark Inscription, and Emperor's Cannon: `FUTURE SAGA Chapter 3` → `Future Saga Chapter 3`, matching the repository's canonical naming used for adjacent Future Saga chapters.
+- [x] Post-write validation: **428 records; 0 duplicate IDs; 1 nullable ki_cost (Dimension Cannon by design); all 428 canonical IDs present in skills-index.json; 0 legacy ambiguous/case-variant labels remaining; 0 internal citation artifacts in changed canonical/index files.**
+- [x] Actions inspection performed for data commits; no workflow runs were exposed, so CI success is **unavailable**, not claimed.
+- [ ] Next provenance batch: perform a fresh live census for other non-canonical DLC labels and source-to-DLC relationships, prioritizing values that can be deterministically resolved from source PQ/mission ranges; preserve intentionally composite/platform-dependent values unless direct evidence supports a split.
+
+> Evidence basis for the PQ mapping: the repository's source PQ numbers were cross-checked against the maintained Xenoverse 2 PQ/DLC mapping, which places Super/Extra/Ultra/Legendary content in distinct numbered PQ ranges; official Bandai Namco documentation confirms these DLC packs contain their respective Parallel Quest content. citeturn0search5turn0search1
