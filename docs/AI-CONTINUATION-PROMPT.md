@@ -3760,3 +3760,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - This confirms the producer's schema_version `1.2` is operationally significant: a scheduled/manual sync would generate `1.2` artifacts, while the currently checked-in catalog/index are `1.1`. However, the workflow's later normalization/override steps can affect the final generated files, so the producer alone is not sufficient evidence for the exact expected checked-in version.
 - The workflow also requires at least 500 structured skill files before building, which explains why a local/partial research corpus should not be used to regenerate the canonical 283-record catalog.
 - No workflow or data files were changed in this cycle. The handoff now points to the next concrete task: inspect the normalization/override scripts and determine whether they deliberately rewrite schema/version metadata before considering any migration.
+
+## 2026-09-21 continuation — schema-version drift resolved
+- Inspected the active skills-sync workflow and the producer/normalization/override chain.
+- Repository history contains the explicit commit `57e00b359a7114b9ef7539a7fcfd772c8884e12b` titled `Align skill builder schema version`, establishing that the producer's `schema_version: 1.2` is intentional rather than an unexplained stale value.
+- The active workflow generates the catalog with that producer and validates it afterward; the canonical checked-in `skills.json` and `skills-index.json` were still `1.1`, creating metadata drift.
+- Updated both checked-in catalog artifacts from schema version `1.1` to `1.2`. No record content, counts, sources, acquisition classifications, or generated date were changed.
+- Next task: re-run/inspect the canonical validator and CI state for the metadata-only alignment, then continue evidence-backed catalog work.
