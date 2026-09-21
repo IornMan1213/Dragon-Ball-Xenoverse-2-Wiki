@@ -5259,3 +5259,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Commit: `5633e857cbefea3c935282d0e5b63ea752daad6f`.
 - CI: no workflow runs exposed for the commit; no CI success claimed.
 - Exact next batch: recompute the live provenance census and continue with deterministic cross-field/source-PQ integrity checks.
+
+
+### 2026-09-21 — Angry Explosion provenance strengthening
+- **Angry Explosion** was the first deterministic two-source acquisition target after the single-source cluster was exhausted.
+- Existing EM12 acquisition was retained; provenance was strengthened with direct skill documentation, an all-Expert-Missions reward guide, and a contemporaneous gameplay walkthrough. citeturn1search0turn1search7turn1youtube37
+- Canonical commit: `2cf689d7308f87acb711a28d20eb7fbf6ef6d2ce`.
+- Next: continue the remaining two-source acquisition/provenance cluster.
