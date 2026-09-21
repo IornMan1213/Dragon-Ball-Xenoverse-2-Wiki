@@ -4455,3 +4455,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no workflow status was exposed for the data commits; no CI success is claimed.
 - Commits: `790c12d76d6c56e8152ccdabf5ae7829c1fdb2db` (canonical records); `feff2a5afc4faf0127e16aedf45c0b0a08a1bee3` (PQ links); `e40cc212e37b51dd69ae5d169a772d56284778d9` (crosslink rebuild).
 - Exact next batch: **Super Soul 136–143**, after live-corpus reconciliation. Continue immediately after `I learned a lot from how you fight.` and establish acquisition identity before adding records or cross-domain edges.
+
+
+### 2026-09-21 cycle update — Super Soul 136–143 + PQ reverse-link reconciliation
+- Bounded batch: **Super Soul 136–143** — You intend to defy me?!; I will NOT give up! EVER!; We're tougher than we look!; You're not taking this away from us!; It's about time...; Strength is justice! Strength is absolute!; I'll take you all on at once!; So, Hakai.
+- Explicit PQ routes: 140→PQ175, 141→PQ177, 142→PQ178. Raid and TP/STP Medal Shop acquisitions were not assigned unsupported PQ routes.
+- Validation: **138 canonical Super Souls / 186 canonical PQ records / 52 forward / 52 reverse edges / 42 unique PQ endpoints / 52 unique Super Soul endpoints / 86 unresolved routes / 0 broken endpoints**; changed JSON parsed and contained 0 internal citation artifacts.
+- Commits: `cf87e747e95d7285fc81ed23e2492b467b5e6fd8`; `c4c5a4e053c34dda4fbd950371cced69997e94d2`; `13d89bcf536af250de8ff44330032dcabea94830`.
+- Exact next batch: **Super Soul 144–151**, after live-corpus reconciliation, beginning after `So, Hakai.`.
