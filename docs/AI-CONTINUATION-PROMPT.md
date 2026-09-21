@@ -6526,3 +6526,9 @@ The repository owner has clarified the continuation contract:
 - CI: inspect the push-triggered runs for the latest commit before making any validator changes; do not weaken validators or claim success without an exposed successful run.
 - Commits: canonical `a35979fc1889e73a94e250d7e0ab1f7992ba835f`; index `a2031059a711669060ca3f60e5904bb4e7a47214`; changelog `aae4b53d176d4084fcca898457302a15de77ad55`; TODO `5586e37e4522f9632305df06d6b73c5ae4d087be`.
 - Exact next task: **recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster after Dead End Rain, checking source-PQ/mission and reward-tier consistency before enrichment.**
+
+### 2026-09-21 final cycle correction — internal citation artifact cleanup
+- Removed pre-existing ChatGPT/UI citation markup and internal search-reference IDs from the continuation handoff, exhaustive ledger, and changelog while preserving the substantive repository history.
+- Cleanup commits: handoff `f11b4807fbb08c16b5abbf20ec0bc1af001527d9`; TODO `c5ad5572b5751a3bdaf5823934cf8bf54d9d6a09`; changelog `5ea985e52026d6d0d0ce757302882bdc36f431af`.
+- Final data state remains **452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost / 55 exactly-two-source records**, with Dead End Rain now at three sources and canonical/index source parity clean.
+- Exact next task remains: **recompute the live two-source census and continue with Deadly Dance, then proceed deterministically through the remaining low-source acquisition/provenance queue, checking source-PQ/mission and reward-tier consistency before enrichment.**
