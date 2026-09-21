@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 129,
-  "linked_skill_edges": 95,
-  "unresolved_skill_endpoints": 34,
-  "fully_linked_mentors": 21,
-  "partially_linked_mentors": 11,
+  "linked_skill_edges": 108,
+  "unresolved_skill_endpoints": 21,
+  "fully_linked_mentors": 25,
+  "partially_linked_mentors": 4,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -451,13 +451,12 @@
         "Maiden Blast"
       ],
       "linked_skill_ids": [
-        "skill-dancing-parapara"
+        "skill-dancing-parapara",
+        "skill-prepare-to-be-punished",
+        "skill-feint-shot",
+        "skill-maiden-blast"
       ],
-      "unresolved_skill_names": [
-        "Prepare to be Punished",
-        "Feint Shot",
-        "Maiden Blast"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-jaco",
@@ -468,13 +467,13 @@
         "Elite Shooting",
         "Super Elite Combo"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Hero's Pose",
-        "Elite Beam",
-        "Elite Shooting",
-        "Super Elite Combo"
-      ]
+      "linked_skill_ids": [
+        "skill-hero-s-pose",
+        "skill-elite-beam",
+        "skill-elite-shooting",
+        "skill-super-elite-combo"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-goku",
@@ -487,12 +486,11 @@
       ],
       "linked_skill_ids": [
         "skill-spirit-bomb",
-        "skill-instant-transmission"
+        "skill-instant-transmission",
+        "skill-x10-kamehameha",
+        "skill-super-kamehameha"
       ],
-      "unresolved_skill_names": [
-        "x10 Kamehameha",
-        "Super Kamehameha"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-future-gohan",
@@ -510,13 +508,13 @@
         "Riot Javelin",
         "Brave Heat"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Tyrant Lancer",
-        "Rebellion Spear",
-        "Riot Javelin",
-        "Brave Heat"
-      ]
+      "linked_skill_ids": [
+        "skill-tyrant-lancer",
+        "skill-rebellion-spear",
+        "skill-riot-javelin",
+        "skill-brave-heat"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-hit",
@@ -574,11 +572,12 @@
   "notes": [
     "Canonical skill IDs are assigned only when an exact canonical skill record already exists; invalid guessed IDs are never retained.",
     "The maintained all-instructor guide supplies the lesson reward names. Missing canonical endpoints remain explicit for future skill-record expansion.",
-    "Gotenks' duplicated Super Ghost Kamikaze Attack entry is preserved exactly as the consulted guide presents it."
+    "Gotenks' duplicated Super Ghost Kamikaze Attack entry is preserved exactly as the consulted guide presents it.",
+    "2026-09-21 mentor expansion linked Pan, Jaco, Goku, and Bardock lesson endpoints to canonical skill IDs; exact skill identity was required before linking."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
   ],
-  "canonical_skill_records": 384
+  "canonical_skill_records": 397
 }
