@@ -5387,3 +5387,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow run was exposed for the canonical commit; **no CI success claimed**.
 - Commit: `9f569f62cc896737ee03bd4ff25e21007a85e547e` (canonical), `4f7deebaa879c83f5f3e4c6f54c6b9c336b730f6` (coverage audit), `d8a64d922bc53daa3528c8d8d286aa28beb9e745` (changelog).
 - Exact next batch: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, starting with Zarbon's four null-cost skills — Audacious Laugh, Gorgeous Shot, Bloody Counter, Elegant Blaster — if current explicit `Ki Used` evidence remains available.**
+
+### 2026-09-21 cycle update — mentor skill Ki-cost verification batch 4
+- Live canonical skill census before editing: **428 records; 92 nullable `ki_cost` records**.
+- Bounded batch: **Audacious Laugh, Gorgeous Shot, Bloody Counter, Elegant Blaster** from Zarbon mentor training.
+- Evidence: current skill references explicitly document **100 Ki** for Audacious Laugh and **300 Ki** for Elegant Blaster. Bloody Counter's documentation describes Ki being consumed by its held attack continuation, so the repository records **0 base/evasive Ki** while preserving the held-cost behavior in notes rather than inventing a fixed total. Gorgeous Shot is verified at **100 Ki** as a Ki Blast Super.
+- Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`; variable/held mechanics were not flattened.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, and the nullable `ki_cost` census is now **88**. No new Ki-cost projection was added to the index.
+- CI: no actionable workflow run was exposed for the canonical commit; **no CI success claimed**.
+- Commits: `a261ba83cc1814ce9427a4769af5abe0ad387a78` (canonical), `6a87ed4d21939b2595b59add1f902fb485e506f3` (coverage audit), `01d785747c6c832094f2ba77703f299e8ef3e360` (changelog).
+- Exact next batch: **recompute the nullable-`ki_cost` census and continue with Dodoria's four null-cost skills — Dodoria Beam, Critical Upper, Dodoria Headbutt, Dodoria Launcher — if explicit current Ki Used evidence is available.**
