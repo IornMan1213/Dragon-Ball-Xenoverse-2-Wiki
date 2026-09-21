@@ -5242,3 +5242,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Burst Reflection had only a category-level Counter Skills source while its canonical record asserted a specific Shenron-wish acquisition.
 - Direct skill sources were added; no PQ or gameplay semantics were invented or changed.
 - Commit: `0b16ab3b7a40930c37f9fb1732cf1f1a08b21706`.
+
+
+### 2026-09-21 — Solar Flare PQ-reference correction
+- Solar Flare's canonical acquisition fields identified PQ03, but its mechanics note retained stale PQ01 wording.
+- Corrected the internal reference and strengthened sources without changing acquisition semantics.
+- Commit: `2e0ee2fa63afa6dd8ee5e6bf5878a9fa42b14ae4`.
