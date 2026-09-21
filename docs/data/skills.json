@@ -12330,7 +12330,8 @@
       "id": "skill-evil-ray-strike",
       "source_mentor": [
         "mentor-gohan-kid"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Evil Rise Strike",
