@@ -4042,3 +4042,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Normalized remaining generic `source_quest_or_shop` labels to explicit maintained quest names for **Giant Cluster (PQ163)**, **Gigantic Explosion (PQ164)**, **Special Beam Cannon (Beast) (PQ162)**, **Divine Ray Bomb (PQ173)**, **God of Destruction's Poise (PQ175)**, and **Soaring Rush (PQ177)**.
 - Acquisition semantics were not changed; no new Ultimate Finish gates or probabilities were inferred.
 - Canonical commit: `6ffd74c3b7c82883eb537424d29611e9d936a7a5`; index commit: `5f9d1a13d5d972533b3d3977c144c13b2cd473ed`.
+
+
+## 2026-09-20 — PQ154–160 and PQ184 provenance normalization
+- Continued the acquisition/provenance census outside the already-reconciled PQ161–180 block.
+- Normalized generic source fields to explicit maintained quest names for **Demon Ray, Demon Flash Strike, Demon Flurry (PQ160)**; **Sign of Awakening, Circle Flash (PQ154)**; **Heroic Counter, Gamma Blaster, Gamma Impact (PQ155)**; **Super Gamma Blast, Core Breaker (PQ158)**; **Fierce Fist, Demonic Destruction (PQ159)**; and **Chaotic Time Impact (PQ184)**.
+- Existing reward tiers/Ultimate Finish semantics were preserved; this pass changed provenance specificity only.
+- Canonical: `8dd9f7a39cfa3d87cd6d8067cbb3642d4f8fdb60`; index: `4832e8933855ceb7846c2ff9a9dc9024b713ace4`.
