@@ -573,7 +573,8 @@
     "Canonical skill IDs are assigned only when an exact canonical skill record already exists; invalid guessed IDs are never retained.",
     "The maintained all-instructor guide supplies the lesson reward names. Missing canonical endpoints remain explicit for future skill-record expansion.",
     "Gotenks' duplicated Super Ghost Kamikaze Attack entry is preserved exactly as the consulted guide presents it.",
-    "2026-09-21 mentor expansion linked Pan, Jaco, Goku, and Bardock lesson endpoints to canonical skill IDs; exact skill identity was required before linking."
+    "2026-09-21 mentor expansion linked Pan, Jaco, Goku, and Bardock lesson endpoints to canonical skill IDs; exact skill identity was required before linking.",
+    "2026-09-21 validation correction: removed the pre-existing Hit → Time Skip/Tremor Pulse endpoint from the resolved index because no canonical skill record exists yet; preserved the lesson as an explicit unresolved endpoint rather than inventing an ID."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
