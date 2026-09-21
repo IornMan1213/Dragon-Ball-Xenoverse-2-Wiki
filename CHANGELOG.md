@@ -497,3 +497,9 @@
 - Updated pq-reward-relationships.json, parallel-quests-record-layer.json, and pq-super-soul-crosslink-report.json.
 - Validation: 138 master PQ-to-Super Soul relationships; 11 canonical forward edges; 11 reverse edges; 31 unresolved canonical Super Soul endpoints; 0 bidirectional mismatches; 0 citation artifacts.
 - CI: latest data-audit and cleanup runs failed with zero recorded steps. Validators were not weakened.
+
+
+## 2026-09-21 — Super Soul 009 acquisition normalization
+- Promoted the already source-backed PQ006 relationship into the canonical `super-soul-009` acquisition fields: `Parallel Quest` / `Parallel Quest 06` / `PQ 06 reward`.
+- Preserved uncertainty: no drop percentage or special-drop condition was invented.
+- Refreshed `last_verified` to 2026-09-21 and retained the existing sources while adding the maintained all-PQ reward guide.
