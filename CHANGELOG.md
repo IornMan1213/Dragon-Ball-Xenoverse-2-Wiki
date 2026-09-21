@@ -1068,3 +1068,16 @@
 - Audited all seven canonical Hero of Justice Pack 1 additional moves against official publisher documentation and maintained PQ evidence.
 - Confirmed all seven map to PQ155–158 with matching provenance.
 - No DLC provenance mismatch found; unrelated acquisition and reward semantics were not normalized.
+
+## 2026-09-21 — Hero of Justice Pack 2 skill provenance correction
+
+- Recomputed the live skill registry: **429 records, 0 duplicate IDs, 0 nullable `ki_cost` values**.
+- Audited the complete Hero of Justice Pack 2 skill cluster against official DLC documentation and the maintained PQ research layer.
+- Corrected **Special Beam Cannon (Beast)** provenance from `Future Saga Chapter 1` to `Hero of Justice Pack 2`; the canonical source remains PQ162.
+- Preserved the maintained PQ162 **45% Ultimate Finish bonus-slot** condition and explicitly retained the conflict with the Steam guide's Basic Reward presentation rather than normalizing it without evidence.
+- Refreshed `last_verified=2026-09-21` and added official DLC source URLs to the canonical record.
+- Corrected stale top-level `record_count` metadata from 428 to 429.
+- Canonical commit: `c6c5c7a0695044d293e6382f0d39e5d120f9fdb5`.
+- CI success is not claimed unless GitHub exposes an actual workflow run/check.
+- Next: recompute the live DLC/source census and continue the next deterministic character-only/DLC completeness cluster.
+
