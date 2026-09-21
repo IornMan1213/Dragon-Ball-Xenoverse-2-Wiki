@@ -771,14 +771,14 @@
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "mechanics": "200 Ki; optional 300 Stamina consumption enables use while under pressure and grants temporary Super Armor.",
-      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Ultimate Finish reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Ultimate Finish reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills.",
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
@@ -3681,9 +3681,9 @@
       "ultimate_finish_required": false,
       "mechanics_notes": "Base activation uses 400 Ki; holding the input while the attack lands spends additional available Ki for a power boost.",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "mechanics": "400 Ki base cost; while the attack lands, holding input can consume all additional available Ki for a major power boost.",
-      "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "Dedicated current-version evidence confirms PQ181 acquisition and Ki Blast Ultimate classification. The reviewed skill page does not explicitly state that the skill is learnable by CaCs; character/preset ownership alone is insufficient to infer CaC availability. Keep usable_by_cac as the existing dataset value pending explicit acquisition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to PQ181 - \"The Greatest Training Ever\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
@@ -3916,7 +3916,7 @@
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Force_Edge",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -3925,7 +3925,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: current PQ180 reward listing explicitly includes Force Edge in the Ultimate Finish reward pool; dedicated skill documentation independently confirms PQ180. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "notes": "2026-09-20 audit: current PQ180 reward listing explicitly includes Force Edge in the Ultimate Finish reward pool; dedicated skill documentation independently confirms PQ180. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills.",
       "id": "skill-force-edge",
       "source_parallel_quests": [
         180
@@ -8173,12 +8173,12 @@
       "ultimate_finish_required": false,
       "mechanics_notes": "Base activation uses 400 Ki; an additional 100 Ki input can extend/power the attack, for a 500 Ki total.",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "mechanics": "400 Ki base cost; holding input on hit spends an additional 100 Ki for the boosted version, giving a 400–500 Ki range.",
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to PQ181 - \"The Greatest Training Ever\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills.",
       "id": "skill-super-kamehameha-ss4-daima",
       "source_parallel_quests": [
         181
