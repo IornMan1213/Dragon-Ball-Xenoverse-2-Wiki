@@ -4770,7 +4770,16 @@
       "skill_rewards": [],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "super_soul_ids": [
+        "super-soul-080",
+        "super-soul-085"
+      ],
+      "super_soul_rewards": [
+        "You've awakened my true power...",
+        "I won't forgive those who best my comrades!"
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-145",
@@ -4848,7 +4857,14 @@
       "skill_ids": [
         "skill-thunder-flash",
         "skill-destructive-fission"
-      ]
+      ],
+      "super_soul_ids": [
+        "super-soul-086"
+      ],
+      "super_soul_rewards": [
+        "There's no way you can hit me!"
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-147",
@@ -5000,7 +5016,14 @@
       "skill_ids": [
         "skill-impact-flare",
         "skill-power-wall"
-      ]
+      ],
+      "super_soul_ids": [
+        "super-soul-087"
+      ],
+      "super_soul_rewards": [
+        "I will prevail, no matter the cost!"
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-151",
