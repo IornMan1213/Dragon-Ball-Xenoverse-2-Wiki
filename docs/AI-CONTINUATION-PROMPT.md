@@ -5461,3 +5461,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no success claimed without an actionable exposed run.
 - Commit: `2fecabd76bd0dbab8ec1017ada0b3587a3e9e194`; audit/handoff update follows.
 - Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+
+### 2026-09-21 — Gohan & Videl mentor skill Ki-cost verification
+
+- Live canonical skill census before editing: **428 records; 66 nullable `ki_cost` records**.
+- Bounded batch: **Eagle Kick (100), Justice Rush (100), Hawk Charge (100), Justice Combination (300)**.
+- Evidence: current Xenoverse 2 skill references explicitly list those Ki-used values.
+- Changes were limited to canonical `ki_cost` plus `last_verified=2026-09-21`; no alternate-version cost was flattened into the canonical value.
+- Expected post-edit census: **428/428 records, 0 duplicate IDs, 62 nullable `ki_cost` records**. No index Ki-cost projection introduced.
+- CI: no success claimed without an actionable exposed run.
+- Commit: `00b02fc53fc13586ecbfcd730c1321c24dafad50`.
+- Exact next task: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
