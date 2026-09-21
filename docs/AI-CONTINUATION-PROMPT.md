@@ -3399,7 +3399,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-20 cycle update — generic shop audit continuation
 - Rechecked remaining generic Skill Shop and TP Medal Shop records.
 - Most do not have enough maintained evidence for an additional prerequisite/timing condition without false precision. Historical TP Medal Shop rotations were not treated as current availability.
-- Punisher Guard remains the concrete prerequisite refinement: Skill Shop after **A Momentous Galactic Battle**, 5,000 Zeni; current references independently support it. citeturn0search0turn0search1
+- Punisher Guard remains the concrete prerequisite refinement: Skill Shop after **A Momentous Galactic Battle**, 5,000 Zeni; current references independently support it. 
 - No additional dataset changes were necessary.
 - Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
 - Audit commit: **4ec408c28d1a51f7b7fc40ce8b8a7c88c0557c50**.
@@ -3428,11 +3428,22 @@ Only after data-completeness work, expose the improved structured research surfa
 
 
 ### 2026-09-20 cycle update — built-in / character-only acquisition-status refinement
-- Refined **Surging Spirit** to explicitly state that it is a built-in Ultra Instinct action for CaCs, not a separately acquired/equipped skill. citeturn1search7turn1search15
-- Refined **Dragon Thunder** with the explicit **Character-only** restriction; dedicated evidence states it is unavailable to CaCs. citeturn1search2turn1search5
+- Refined **Surging Spirit** to explicitly state that it is a built-in Ultra Instinct action for CaCs, not a separately acquired/equipped skill. 
+- Refined **Dragon Thunder** with the explicit **Character-only** restriction; dedicated evidence states it is unavailable to CaCs. 
 - Updated canonical and index together.
 - Validation: **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
 - Canonical commit: **957b3fb1fa817a7f81c56a9ff1c0fff07d8d3ddd**.
 - Index commit: **b29207243c0ca1a04ad15f103910b46a96443162**.
 - Audit commit: **80471f6be87018346a2fca5885ebb647a3194e91**.
 - Exact next task: **continue under-specified non-PQ records for deterministic acquisition-status evidence.**
+
+
+### 2026-09-20 cycle update — Future Super Saiyan provenance consistency cleanup
+- Workstream: P1 skill acquisition/source provenance cleanup.
+- Audited the recently corrected **Future Super Saiyan** record for cross-field consistency after the Unknown History route correction.
+- Found a stale `source_quest_or_shop` value still pointing to **Vegeta training — Capsule Corporation Time Rift** while `unlock_method` and `source_quest` correctly identified **Unknown History — secret story mission**.
+- Updated both `docs/data/skills.json` and `docs/data/skills-index.json` so `source_quest_or_shop` and `source_quest` consistently identify the Unknown History secret story mission.
+- Validation: both JSON files parse successfully; both contain **283** records; canonical/index Future Super Saiyan provenance now matches across `unlock_method`, `source_quest`, and `source_quest_or_shop`; no UF flag or restriction changed.
+- CI: the latest provenance-fix commit returned **no workflow runs** from the GitHub connector. No validator was weakened.
+- Evidence limitation: this was a consistency correction, not a new acquisition claim; the existing Unknown History evidence and prior provenance correction were preserved.
+- Exact next task: **continue the under-specified non-PQ acquisition audit, prioritizing concrete deterministic provenance conflicts between `unlock_method`, `source_quest`, `source_quest_or_shop`, and dedicated research; preserve genuine uncertainty and source conflicts.**
