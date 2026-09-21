@@ -2,7 +2,7 @@
   "schema_version": "1.2",
   "game": "Dragon Ball Xenoverse 2",
   "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "generated": "2026-09-20",
+  "generated": "2026-09-21",
   "status": "researched_canonical",
   "notes": "Indexed records establish category membership. Mechanics, costs and unlock methods must be verified before promotion to verified status.",
   "category_counts": {
@@ -3773,7 +3773,15 @@
       "source_quest": "Unknown History — secret story mission",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-future-super-saiyan"
+      "id": "skill-future-super-saiyan",
+      "source_time_rifts": [
+        "time-rift-capsule-corporation",
+        "time-rift-gurus-house",
+        "time-rift-frieza-spaceship",
+        "time-rift-majin-buus-house",
+        "time-rift-hercules-house"
+      ],
+      "source_story_mission": "story-unknown-history"
     },
     {
       "name": "Galick Gun",
@@ -5730,7 +5738,10 @@
       "source_quest": "Great Saiyaman questline — Hercule's House Time Rift",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-power-pole-pro"
+      "id": "skill-power-pole-pro",
+      "source_time_rifts": [
+        "time-rift-hercules-house"
+      ]
     },
     {
       "name": "Power Rush",
@@ -6032,7 +6043,10 @@
       "source_quest": "Majin Buu's House Time Rift — Purification unlock fight",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-purification"
+      "id": "skill-purification",
+      "source_time_rifts": [
+        "time-rift-majin-buus-house"
+      ]
     },
     {
       "name": "Quick Sleep",
@@ -7520,7 +7534,10 @@
       "source_quest": "Capsule Corporation Time Rift — Vegeta Saiyan Awakening progression",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-super-saiyan"
+      "id": "skill-super-saiyan",
+      "source_time_rifts": [
+        "time-rift-capsule-corporation"
+      ]
     },
     {
       "name": "Super Saiyan 2",
@@ -7704,7 +7721,10 @@
       "source_quest": "Capsule Corporation Time Rift — Vegeta Super Vegeta training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-super-vegeta"
+      "id": "skill-super-vegeta",
+      "source_time_rifts": [
+        "time-rift-capsule-corporation"
+      ]
     },
     {
       "name": "Supernova",
@@ -8111,7 +8131,10 @@
       "source_quest": "Frieza's Spaceship Time Rift — Frieza/Meta-Cooler progression",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-turn-golden"
+      "id": "skill-turn-golden",
+      "source_time_rifts": [
+        "time-rift-frieza-spaceship"
+      ]
     },
     {
       "name": "Ultimate Charge",
