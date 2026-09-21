@@ -5967,3 +5967,7 @@ The repository owner has clarified the continuation contract:
 - Important distinction: Android 13 has Data Input in its preset, but character association does not establish DLC acquisition provenance; the repository now separates the free-update skill acquisition from the Extra Pack 1 character.
 - Commits: `b6ce3fc487e275c8eefa503921`; `106add48d70278c8685bbabb59ba110811615492` (TODO ledger).
 - Validation/next: recompute the live DLC census, validate 428 records / 0 duplicate IDs / 0 nullable `ki_cost`, scan for internal citation artifacts, inspect workflow runs for the canonical commit, and continue with skills whose DLC label is based primarily on character association rather than direct package/acquisition evidence.
+
+
+### 2026-09-21 handoff correction
+- [x] Correction to the immediately preceding cycle entry: the canonical `docs/data/skills.json` commit is **`b6ce3fc487e275c8eefa50375afccdc35ee2d90f`**. The earlier abbreviated hash recorded above was incorrect; no repository data is affected by this documentation correction.
