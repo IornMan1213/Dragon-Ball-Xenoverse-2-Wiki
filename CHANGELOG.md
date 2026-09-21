@@ -879,3 +879,8 @@
 
 - Added verified Ki costs for eight mentor-training skills: Evil Explosion, Super Explosive Wave, Light Grenade, Special Beam Cannon, Dodon Ray, Volleyball Fist, Tri-Beam, and Neo Tri-Beam.
 - Preserved variable-cost mechanics and unresolved records rather than filling values by inference.
+
+## 2026-09-21 — Mentor skill Ki-cost verification batch 2
+- Verified Ki costs for Fake Death (0), Wolf Fang Fist (100), Ki Blast Thrust (100), Spirit Ball (300), Bomber DX (100), Arm Crash (100), Genocide Shell (100), and Break Cannon (300+).
+- Refreshed canonical verification dates; preserved Break Cannon's variable-cost form.
+- Kept the generated skill index scoped to its established projection fields rather than introducing a new Ki-cost projection.
