@@ -413,3 +413,14 @@
 - Commits: `fd8410b` (PQ skill IDs), `155f0e8` (skill reverse links), `e746d3c` (skill index), `11015fa` (cross-link report).
 - External/current repository research supports treating PQ reward tables as the primary relationship evidence and confirms PQs are the game's main skill-farming relationship layer. citeturn0search3turn0search5turn0search6
 - Exact next batch: **audit the remaining 71 skills without `source_parallel_quests` by acquisition type, separating non-PQ sources (mentor, shop, Time Rift, story, Advancement Test) from genuinely missing PQ reverse links; then repair only evidence-backed missing routes.**
+
+
+### 2026-09-21 cycle update — 71-skill non-PQ acquisition audit
+- Audited every canonical skill lacking `source_parallel_quests` after the PQ reconciliation. **71 skills** were classified without inventing PQ relationships.
+- Classification: **7 Time Rift, 6 story/story-Shop, 17 mentor/training, 4 Advancement Test, 15 Skill/TP/STP Shop, 3 Expert Mission, 10 character/roster-only, 1 starting move, 3 Shenron wish, 5 mentor-like routes requiring a future mentor layer, 0 genuinely unresolved acquisition cases** after refining Beast, Super Saiyan 2 (stage), SSGSS, SSGSS Evolved, and Ultra Instinct.
+- Created `docs/data/skill-acquisition-coverage-report.json` to persist this classification and explicitly prevent non-PQ acquisition sources from being forced into the PQ graph.
+- Important architecture finding: the repository currently has **no canonical mentor or Expert Mission record layer** discoverable in the live data tree. Therefore mentor/expert skills retain their textual acquisition facts instead of receiving guessed IDs. This follows the repository null/provenance policy.
+- No canonical acquisition facts were changed in this cycle; the output is a coverage/audit layer identifying the next schema expansion targets.
+- External corroboration: PQs are a major skill source, but rewards can also come from other acquisition systems, so the audit deliberately keeps those systems separate. citeturn0search0turn0search3
+- Validation target for next cycle: build the missing **mentor record layer** first, because 17 direct mentor-training skills plus 3 mentor-like Awoken routes are currently blocked from deterministic bidirectional mentor ↔ skill navigation; then build Expert Mission endpoints for the 3 EM-sourced skills.
+- Exact next batch: **create the canonical mentor record layer and connect the 17 direct mentor-training skills in larger deterministic batches, starting with mentors whose skills are already fully named in canonical skill data; then add Expert Mission records.**
