@@ -678,25 +678,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Innocence Bullet",
-          "skill_id": null
+          "skill_id": "skill-innocence-bullet"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Angry Hit",
-          "skill_id": null
+          "skill_id": "skill-angry-hit"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Innocence Cannon",
-          "skill_id": null
+          "skill_id": "skill-innocence-cannon"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Innocence Breath",
-          "skill_id": null
+          "skill_id": "skill-innocence-breath"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-innocence-bullet",
+        "skill-angry-hit",
+        "skill-innocence-cannon",
+        "skill-innocence-breath"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -713,25 +718,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Dynamite Kick",
-          "skill_id": null
+          "skill_id": "skill-dynamite-kick"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Present For You",
-          "skill_id": null
+          "skill_id": "skill-present-for-you"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Rolling Hercule Punch",
-          "skill_id": null
+          "skill_id": "skill-rolling-hercule-punch"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "The Savior Has Come",
-          "skill_id": null
+          "skill_id": "skill-the-savior-has-come"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-dynamite-kick",
+        "skill-present-for-you",
+        "skill-rolling-hercule-punch",
+        "skill-the-savior-has-come"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -748,25 +758,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Eagle Kick",
-          "skill_id": null
+          "skill_id": "skill-eagle-kick"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Justice Rush",
-          "skill_id": null
+          "skill_id": "skill-justice-rush"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Hawk Charge",
-          "skill_id": null
+          "skill_id": "skill-hawk-charge"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Justice Combination",
-          "skill_id": null
+          "skill_id": "skill-justice-combination"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-eagle-kick",
+        "skill-justice-rush",
+        "skill-hawk-charge",
+        "skill-justice-combination"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -783,25 +798,29 @@
         {
           "lesson": "initiation",
           "skill_name": "Super Ghost Kamikaze Attack",
-          "skill_id": null
+          "skill_id": "skill-super-ghost-kamikaze-attack"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Galactic Donuts",
-          "skill_id": null
+          "skill_id": "skill-galactic-donuts"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "DIE DIE Missile Barrage",
-          "skill_id": null
+          "skill_id": "skill-die-die-missile-barrage"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Super Ghost Kamikaze Attack",
-          "skill_id": null
+          "skill_id": "skill-super-ghost-kamikaze-attack"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-super-ghost-kamikaze-attack",
+        "skill-galactic-donuts",
+        "skill-die-die-missile-barrage"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
