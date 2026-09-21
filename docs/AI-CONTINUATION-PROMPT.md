@@ -6082,3 +6082,13 @@ The repository owner has clarified the continuation contract:
 - CI: no workflow run/check is exposed, so no CI success is claimed.
 - Canonical commit: `8b43038e8d6a65e72250a102ef45e566a4b00ced`; TODO ledger commit: `1ac054437e3496ac5546e9f957d3ed71f7da74ba`.
 - Exact next batch: **fresh live DLC-label/source-relationship census outside Dragon Ball DAIMA Pack**, prioritizing another deterministic DLC/PQ cluster while preserving intentional mentor, character-only, free-update, and platform-dependent classifications.
+
+
+### 2026-09-21 cycle update — Ultra Pack 1 character-skill completeness correction
+- Fresh live DLC census found Ultra Pack 1 had 12 canonical skill records: 10 PQ-acquirable records plus character-only Final Charge and Final Flash (Super). Official Bandai Namco documentation states the pack contains 5 PQs and 10 additional skills; independent technique documentation also identifies Ribrianne's Pretty Charge as an Ultra Pack 1 character-exclusive skill.
+- Bounded correction: added missing **Pretty Charge** as `skill-pretty-charge` in `docs/data/skills.json` with `class=Super`, `subcategory=Power Up`, `acquisition_type=character_only`, `usable_by_cac=false`, `dlc_requirement=Ultra Pack 1`, and a bounded Ribrianne character-exclusive acquisition description.
+- No unsupported numeric Ki cost, reward percentage, or CaC acquisition route was inferred.
+- Post-write validation: **429 records / 0 duplicate IDs / 0 nullable `ki_cost` values**. Ultra Pack 1 now has **13 records**: 10 PQ-acquirable + 3 character-only (Final Charge, Final Flash (Super), Pretty Charge).
+- TODO ledger commit: `d4d6e94144127cd5c57fe22e1da18d3b65944dda`; canonical data commit: `f0ece84b7f1168dc7dc0a919c58e5c1fea246556`.
+- Evidence boundary: this is a completeness correction, not a claim that the official “10 additional skills” figure counts character-exclusive moves separately. The distinction is explicitly preserved in the canonical notes.
+- Exact next task: continue the exhaustive character-only/DLC completeness audit for the remaining DLC clusters, starting with the next deterministic cluster and adding missing canonical endpoints only when independently supported.
