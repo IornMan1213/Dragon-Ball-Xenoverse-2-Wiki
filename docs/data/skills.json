@@ -4273,7 +4273,7 @@
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Energy Release as a character-exclusive/non-CaC skill rather than a separately acquirable avatar skill. 2026-09-21 low-source provenance strengthening: the maintained GameFAQs Xenoverse move guide independently lists Energy Release in Towa\'s Super Attack slot, corroborating the character-only acquisition boundary.",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Energy Release as a character-exclusive/non-CaC skill rather than a separately acquirable avatar skill. 2026-09-21 low-source provenance strengthening: the maintained GameFAQs Xenoverse move guide independently lists Energy Release in Towa's Super Attack slot, corroborating the character-only acquisition boundary.",
       "id": "skill-energy-release"
     },
     {
