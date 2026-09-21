@@ -5308,3 +5308,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Strengthened four low-source Legendary Pack 1 skill records with official package documentation.
 - Individual PQ relationships remain sourced by the maintained PQ research layer; no drop-rate or reward-tier claims were inferred.
 - Post-write live validation: 452 canonical records; recompute source-count census before next batch.
+
+### 2026-09-21 — PQ147 provenance strengthening
+- Strengthened the three PQ147 Legendary Pack 2 skill records with official package provenance.
+- Direct PQ reward evidence remains the individual acquisition source; no unsupported probability was introduced.
