@@ -42,7 +42,7 @@ def scalar(v):
  v=v.strip().strip('"\\'')
  if not v:
   return ''
- if re.fullmatch(r'\\d+',v): return int(v)
+ if re.fullmatch(r'\d+',v): return int(v)
  if v.startswith('[') or v.startswith('{'):
   raise ValueError(f'unsupported structured frontmatter scalar: {v}')
  return v
@@ -52,7 +52,7 @@ def parse_frontmatter(p):
  o={}
  for line_number,line in enumerate(parts[1].splitlines(),1):
   if not line.strip(): continue
-  m=re.match(r'^([A-Za-z][A-Za-z0-9_]*)\\s*:\\s*(.*)$',line)
+  m=re.match(r'^([A-Za-z][A-Za-z0-9_]*)\s*:\s*(.*)$',line)
   if not m: raise ValueError(f'invalid frontmatter line {line_number}: {line!r}')
   k,v=m.groups()
   if v.strip().startswith('[') and v.strip().endswith(']'):
