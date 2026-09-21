@@ -1569,3 +1569,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved exact PQ147 Basic Reward acquisition semantics.
 - [x] Synchronized canonical/index source projection.
 - [ ] Next: recompute the two-source census and continue the next deterministic acquisition/provenance cluster.
+
+### 2026-09-21 — Master ledger completion marking: low-source PQ provenance batch
+- [x] Strengthened Candy Beam (Super), Crusher Ball, and Destructive Fracture with additional independent provenance.
+- [x] Preserved exact PQ113/PQ34/PQ145 acquisition semantics.
+- [x] Synchronized the index projection.
+- [ ] Next: recompute the two-source census and continue the next deterministic acquisition/provenance cluster.
