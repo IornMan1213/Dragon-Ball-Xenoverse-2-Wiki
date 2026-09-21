@@ -1119,3 +1119,7 @@
 ### 2026-09-21 — PQ147 Legendary Pack 2 provenance strengthening
 - Added official DLC provenance to Crush Cannon, Double Crush, and Crush Stream.
 - Preserved existing PQ147 acquisition and reward semantics.
+
+### 2026-09-21 — Low-source PQ provenance strengthening
+- Strengthened Candy Beam (Super), Crusher Ball, and Destructive Fracture provenance.
+- Preserved existing acquisition semantics.
