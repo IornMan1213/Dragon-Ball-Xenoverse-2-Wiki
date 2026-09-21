@@ -910,3 +910,10 @@
 - Updated only canonical `ki_cost` and `last_verified` fields; mentor acquisition provenance and unresolved mechanics were preserved.
 - Live canonical skill census remains **428 records** with **74 nullable `ki_cost` records** after the bounded pass.
 - Commit: `cc61629f11788b994cbddc8ba246ba552f6b97b1`.
+
+## 2026-09-21 — Beerus mentor skill Ki-cost verification
+
+- Verified Ki costs for **God of Destruction's Anger (200)**, **God of Destruction's Rampage (100)**, **God of Destruction's Wrath (100)**, and **Sphere of Destruction (300)** from current Xenoverse 2 skill references.
+- Updated only canonical `ki_cost` and `last_verified` fields; no mechanics, acquisition, restriction, or variable-cost semantics were changed.
+- Live canonical skill census after the bounded pass: **428 records, 0 duplicate IDs, 41 nullable `ki_cost` records**.
+- Commit: `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3`.
