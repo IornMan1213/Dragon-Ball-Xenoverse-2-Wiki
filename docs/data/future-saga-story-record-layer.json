@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "canonical_record_layer",
+  "source_index": "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
+  "record_count": 1,
+  "records": [
+    {
+      "id": "story-future-saga-chapter-4-quest-31",
+      "name": "Ultimate All-Out Showdown",
+      "type": "future_saga_story_mission",
+      "chapter": "Future Saga Chapter 4",
+      "quest_number": 31,
+      "description": "Final Future Saga Chapter 4 story mission. Completing the mission unlocks The Power to Overcome Awoken Skill for CaCs.",
+      "skill_unlocks": [
+        "skill-the-power-to-overcome"
+      ],
+      "dlc_requirement": "Future Saga Chapter 4",
+      "sources": [
+        "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
+        "https://www.youtube.com/watch?v=cT-7m5kdq1o"
+      ],
+      "verification_status": "verified_current_scope",
+      "last_verified": "2026-09-21"
+    }
+  ]
+}
