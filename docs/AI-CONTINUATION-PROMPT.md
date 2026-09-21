@@ -6098,3 +6098,16 @@ The repository owner has clarified the continuation contract:
 - The newly added Pretty Charge record initially lacked `ki_cost`, temporarily creating one nullable value. The record was immediately normalized to `ki_cost=0` with an explicit note that this is the activation cost and does not quantify Ki restored.
 - Corrective canonical commit: `9f2682c5d9a843f8f107747f890b78c6c9c456e4`.
 - Current validation target remains **429 records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+
+### 2026-09-21 cycle update — Hero of Justice Pack 2 skill provenance correction
+- Workstream: P1 skill DLC/version provenance and character/DLC completeness cleanup.
+- Live census before editing: **429 canonical records / 0 duplicate IDs / 0 nullable `ki_cost` values**; the canonical `record_count` metadata was stale at 428 even though the records array contained 429 records.
+- Bounded batch: complete Hero of Justice Pack 2 skill cluster, with a targeted provenance correction for **Special Beam Cannon (Beast)**.
+- Research/evidence: official Dragon Ball/Bandai Namco Hero of Justice Pack 2 documentation lists seven skills, including Special Beam Cannon (Beast); current PQ162 evidence places the skill in Hero of Justice Pack 2. The maintained repository PQ audit records a 45% Ultimate Finish bonus slot, while a Steam player-facing guide presents the skill in its Basic Reward list. The reward-tier conflict is preserved rather than silently normalized.
+- Changes: `docs/data/skills.json` changed only for Special Beam Cannon (Beast)'s `dlc_requirement`, `last_verified`, source URLs, bounded provenance note, and the stale top-level `record_count` metadata. No mechanics, cost, restriction, acquisition, or reward-tier field was rewritten.
+- Validation: **429 records / 0 duplicate IDs / 0 nullable `ki_cost` / 7 Hero of Justice Pack 2 records**; canonical JSON parsed successfully; changed canonical records contain no internal AI/search citation-reference artifacts.
+- CI: inspect commit `c6c5c7a0695044d293e6382f0d39e5d120f9fdb5`; do not claim CI success without an exposed workflow run/check.
+- Commits: `c6c5c7a0695044d293e6382f0d39e5d120f9fdb5` (canonical skill data), followed by this handoff/TODO/audit/changelog documentation cycle.
+- Current unresolved work: broader DLC/source provenance and character-only completeness remain; the Hero of Justice Pack 2 provenance mismatch is resolved, with its reward-tier conflict intentionally preserved.
+- Exact next task: **recompute the live DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness cluster**, prioritizing official package scope versus canonical character/source endpoints and preserving intentional composite/platform-dependent labels and reward conflicts.
+
