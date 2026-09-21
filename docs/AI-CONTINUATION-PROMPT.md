@@ -5147,3 +5147,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Live report totals: **33 canonical mentors / 27 linked mentors / 103 edges / 103 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
 - No skill acquisition semantics were changed.
 - Exact next batch: **Whis, Pan, Jaco, and Goku**, using the same lesson↔skill-ID↔source_mentor parity check.
+
+### 2026-09-21 cycle update — Whis/Pan/Jaco/Goku mentor-skill reconciliation
+- Live census before editing: **33 canonical mentors / 27 mentors with linked skills / 103 mentor→skill edges / 103 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
+- Bounded batch: **13 new deterministic mentor→skill edges** — Whis (4), Pan (3 new), Jaco (4), Goku (2 new). Existing Pan Dancing Parapara and Goku Spirit Bomb / Instant Transmission edges were preserved without duplication.
+- Research/evidence: canonical `docs/data/mentors-record-layer.json` lesson mappings were reconciled against `docs/data/skills-index.json` skill IDs and exact `source_mentor` provenance. No external inference and no skill acquisition semantic rewrites were required.
+- Changes: rebuilt `docs/data/mentor-skill-crosslink-report.json`; appended matching coverage/changelog entries. No canonical skill records were changed.
+- Evidence limits/conflicts preserved: only exact lesson→skill-ID→`source_mentor` matches were promoted; no mentor relationship was inferred from displayed skill names alone.
+- Validation: **33 canonical mentors / 29 linked mentors / 116 mentor→skill edges / 116 unique skill endpoints / 0 unresolved / 0 broken endpoints**. Changed JSON parsed successfully; relationship endpoints resolve to canonical skill IDs. Newly appended text introduced no internal UI/search citation artifacts.
+- CI: combined statuses and PR workflow-run lookup returned empty for the three cycle commits; **no CI success claimed**. Validators were not weakened.
+- Commits: `79e1e0d70ec143b58eca760b3b9d33b78ce6a663` (crosslink report), `b86819fb020599095a6ff350da62d36adee1ba40` (coverage audit), `971738131bc10c51a0cff18c680754c800cb1920` (changelog).
+- Current unresolved mentor relationship frontier: **4 unlinked canonical mentors** — Gohan (Future), Bardock, Bojack, Zamasu. This is an unlinked relationship frontier, not evidence that their lesson mappings are absent from the mentor layer.
+- Exact next batch: **Gohan (Future), Bardock, Bojack, and Zamasu**, using the same deterministic lesson→skill-ID→`source_mentor` parity check; promote only exact matches and preserve null/unlinked status when the skill index lacks matching provenance.
