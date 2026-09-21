@@ -1349,7 +1349,10 @@
       "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "source_quest": "Pan's mentor training — Initiation Test",
-      "source_quest_or_shop": "Pan's mentor training — Initiation Test"
+      "source_quest_or_shop": "Pan's mentor training — Initiation Test",
+      "source_mentor": [
+        "mentor-pan"
+      ]
     },
     {
       "id": "skill-dark-inscription",
@@ -1397,7 +1400,10 @@
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
-      "source_quest_or_shop": "Lord Slug mentor training — Lesson 3"
+      "source_quest_or_shop": "Lord Slug mentor training — Lesson 3",
+      "source_mentor": [
+        "mentor-slug"
+      ]
     },
     {
       "id": "skill-darkness-rush-ranged",
@@ -1421,7 +1427,10 @@
       "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
-      "source_quest_or_shop": "Lord Slug mentor training — Lesson 3"
+      "source_quest_or_shop": "Lord Slug mentor training — Lesson 3",
+      "source_mentor": [
+        "mentor-slug"
+      ]
     },
     {
       "id": "skill-data-input",
@@ -1463,7 +1472,10 @@
       "notes": "2026-09-19 verification: Training with Android 18 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Confirmed as Android 18's 100-Ki Strike Super from mentor training, usable by all CaC races. It is a multi-hit series of kicks and can be used as a close-range combo extension.",
       "source_quest": "Android 18 mentor training — Lesson 2",
-      "source_quest_or_shop": "Android 18 mentor training — Lesson 2"
+      "source_quest_or_shop": "Android 18 mentor training — Lesson 2",
+      "source_mentor": [
+        "mentor-android-18"
+      ]
     },
     {
       "id": "skill-death-ball",
@@ -1485,7 +1497,10 @@
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "400 Ki Ki Blast Ultimate associated with Frieza; launches a large concentrated Death Ball projectile. 2026-09-20 verification: current skill page and mentor documentation identify Training with Frieza (1st Form), specifically Intergalactic Emperor of Evil 3, as the acquisition source; it is a Ki Blast Ultimate.",
       "source_quest": "Frieza (1st Form) mentor training — Lesson 3",
-      "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 3"
+      "source_quest_or_shop": "Frieza (1st Form) mentor training — Lesson 3",
+      "source_mentor": [
+        "mentor-frieza"
+      ]
     },
     {
       "id": "skill-death-psycho-bomb",
@@ -1831,7 +1846,10 @@
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
       "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained.",
       "source_quest": "Krillin mentor training",
-      "source_quest_or_shop": "Krillin mentor training"
+      "source_quest_or_shop": "Krillin mentor training",
+      "source_mentor": [
+        "mentor-krillin"
+      ]
     },
     {
       "id": "skill-dimension-cannon",
@@ -3312,7 +3330,10 @@
       "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
       "source_quest": "Vegeta mentor training — Initiation Test",
-      "source_quest_or_shop": "Vegeta mentor training — Initiation Test"
+      "source_quest_or_shop": "Vegeta mentor training — Initiation Test",
+      "source_mentor": [
+        "mentor-vegeta"
+      ]
     },
     {
       "id": "skill-gamma-blaster",
@@ -4106,7 +4127,10 @@
       "notes": "2026-09-19 verification: Goku — Lesson 1 is explicitly documented by current skill/mentor/PQ references. Ultimate Finish requirement left unchanged because the cited evidence does not establish an exclusive UF gate. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as Goku Lesson 1, 0 Ki/0 Stamina teleport skill usable by all CaC races. It teleports to the targeted opponent and can be used without a resource cost.",
       "source_quest": "Goku mentor training — Lesson 1",
-      "source_quest_or_shop": "Goku mentor training, Lesson 1"
+      "source_quest_or_shop": "Goku mentor training, Lesson 1",
+      "source_mentor": [
+        "mentor-goku"
+      ]
     },
     {
       "id": "skill-justice-blade",
@@ -4528,7 +4552,10 @@
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Gohan (Kid) mentor training and usable by all CaC races. Opposite directional input performs a back-jump before firing.",
       "source_quest": "Gohan (Kid) mentor training — School Quest Lesson 2",
-      "source_quest_or_shop": "Gohan (Kid) mentor training"
+      "source_quest_or_shop": "Gohan (Kid) mentor training",
+      "source_mentor": [
+        "mentor-gohan-kid"
+      ]
     },
     {
       "id": "skill-maximum-charge",
@@ -4843,7 +4870,8 @@
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot.",
       "source_quest": "Cell (Perfect) mentor training",
-      "source_quest_or_shop": "Training with Cell (Perfect)"
+      "source_quest_or_shop": "Training with Cell (Perfect)",
+      "source_mentor": "mentor-cell"
     },
     {
       "id": "skill-petrifying-spit",
@@ -5548,7 +5576,10 @@
       "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina.",
       "source_quest": "Krillin mentor training — Initiation Test",
-      "source_quest_or_shop": "Krillin mentor training — Initiation Test"
+      "source_quest_or_shop": "Krillin mentor training — Initiation Test",
+      "source_mentor": [
+        "mentor-krillin"
+      ]
     },
     {
       "id": "skill-rising-rage",
@@ -5795,7 +5826,10 @@
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super that counters Ki Blast attacks; it is obtained through Cooler (Final Form) training. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
       "source_quest": "Cooler (Final Form) mentor training — Lesson 1",
-      "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 1"
+      "source_quest_or_shop": "Cooler (Final Form) mentor training — Lesson 1",
+      "source_mentor": [
+        "mentor-cooler"
+      ]
     },
     {
       "id": "skill-shield-barrier",
@@ -6091,7 +6125,8 @@
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
       "mechanics_notes": "100 Ki Ki Blast Super learned from Goku mentor training; creates a large Spirit Bomb projectile.",
       "source_quest": "Goku mentor training",
-      "source_quest_or_shop": "Training with Goku"
+      "source_quest_or_shop": "Training with Goku",
+      "source_mentor": "mentor-goku"
     },
     {
       "id": "skill-spirit-boost",
@@ -6975,7 +7010,10 @@
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training — Lesson 1",
-      "source_quest_or_shop": "Hit mentor training — Lesson 1"
+      "source_quest_or_shop": "Hit mentor training — Lesson 1",
+      "source_mentor": [
+        "mentor-hit"
+      ]
     },
     {
       "id": "skill-time-skip-flash-skewer",
@@ -6997,7 +7035,10 @@
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training — Initiation Test",
-      "source_quest_or_shop": "Hit mentor training — Initiation Test"
+      "source_quest_or_shop": "Hit mentor training — Initiation Test",
+      "source_mentor": [
+        "mentor-hit"
+      ]
     },
     {
       "id": "skill-time-skip-jump-spike",
@@ -7019,7 +7060,10 @@
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction.",
       "source_quest": "Hit mentor training — Lesson 2",
-      "source_quest_or_shop": "Hit mentor training — Lesson 2"
+      "source_quest_or_shop": "Hit mentor training — Lesson 2",
+      "source_mentor": [
+        "mentor-hit"
+      ]
     },
     {
       "id": "skill-total-detonation-ball",
