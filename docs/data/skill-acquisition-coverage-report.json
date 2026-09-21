@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "canonical_skill_acquisition_coverage_audit",
+  "last_verified": "2026-09-21",
+  "purpose": "Classify canonical skills that do not have source_parallel_quests, preventing non-PQ acquisition routes from being incorrectly forced into the PQ graph.",
+  "source_skill_count": 305,
+  "pq_linked_skill_count": 234,
+  "unlinked_skill_count": 71,
+  "categories": {
+    "time_rift": {
+      "count": 7,
+      "skill_ids": [
+        "skill-become-giant",
+        "skill-future-super-saiyan",
+        "skill-power-pole-pro",
+        "skill-purification",
+        "skill-super-saiyan",
+        "skill-super-vegeta",
+        "skill-turn-golden"
+      ]
+    },
+    "story": {
+      "count": 6,
+      "skill_ids": [
+        "skill-bending-kamehameha",
+        "skill-explosive-wave",
+        "skill-fighting-pose-k",
+        "skill-quick-sleep",
+        "skill-the-power-to-overcome",
+        "skill-time-bullet"
+      ]
+    },
+    "mentor": {
+      "count": 17,
+      "skill_ids": [
+        "skill-dancing-parapara",
+        "skill-darkness-rush-melee",
+        "skill-darkness-rush-ranged",
+        "skill-deadly-dance",
+        "skill-death-ball",
+        "skill-destructo-disc",
+        "skill-galick-gun",
+        "skill-instant-transmission",
+        "skill-masenko",
+        "skill-perfect-shot",
+        "skill-rise-to-action",
+        "skill-shadow-crusher",
+        "skill-spirit-bomb",
+        "skill-super-afterimage",
+        "skill-time-skip-back-breaker",
+        "skill-time-skip-flash-skewer",
+        "skill-time-skip-jump-spike"
+      ]
+    },
+    "advancement_test": {
+      "count": 4,
+      "skill_ids": [
+        "skill-energy-charge",
+        "skill-full-power-charge",
+        "skill-maximum-charge",
+        "skill-potential-unleashed"
+      ]
+    },
+    "shop": {
+      "count": 15,
+      "skill_ids": [
+        "skill-big-bang-kamehameha",
+        "skill-divine-kamehameha",
+        "skill-divine-lasso",
+        "skill-dragon-fist",
+        "skill-emperor-s-death-beam",
+        "skill-final-explosion",
+        "skill-godly-display",
+        "skill-namek-finger",
+        "skill-pressure-sign",
+        "skill-punisher-guard",
+        "skill-reverse-mabakusenko",
+        "skill-spirit-boost",
+        "skill-sudden-death-beam",
+        "skill-super-god-shock-flash",
+        "skill-super-guard"
+      ]
+    },
+    "expert_mission": {
+      "count": 3,
+      "skill_ids": [
+        "skill-data-input",
+        "skill-super-spirit-bomb",
+        "skill-supernova"
+      ]
+    },
+    "character_only": {
+      "count": 10,
+      "skill_ids": [
+        "skill-dragon-thunder",
+        "skill-energy-release",
+        "skill-final-charge",
+        "skill-final-flash-super",
+        "skill-instant-charge",
+        "skill-pure-progress",
+        "skill-rising-rage",
+        "skill-super-saiyan-blue-kaioken",
+        "skill-supersonic-mode",
+        "skill-surging-spirit"
+      ]
+    },
+    "starting": {
+      "count": 1,
+      "skill_ids": [
+        "skill-afterimage"
+      ]
+    },
+    "wish": {
+      "count": 3,
+      "skill_ids": [
+        "skill-burst-reflection",
+        "skill-flash-fist-crush",
+        "skill-super-saiyan-god"
+      ]
+    },
+    "other": {
+      "count": 5,
+      "skill_ids": [
+        "skill-beast",
+        "skill-super-saiyan-2",
+        "skill-super-saiyan-god-super-saiyan",
+        "skill-super-saiyan-god-super-saiyan-evolved",
+        "skill-ultra-instinct"
+      ]
+    }
+  },
+  "interpretation": {
+    "time_rift": "Already represented through Time Rift endpoints; no PQ edge should be inferred.",
+    "story": "Already represented or explicitly story/Skill Shop acquisition; no PQ edge should be inferred.",
+    "mentor": "Mentor-training acquisition; repository currently has no canonical mentor record layer to attach stable IDs to.",
+    "advancement_test": "Already represented through advancement-test IDs where present.",
+    "shop": "Skill Shop/TP Medal/STP Medal acquisition; no PQ edge should be inferred.",
+    "expert_mission": "Expert Mission acquisition; repository currently has no canonical Expert Mission record layer to attach stable IDs to.",
+    "character_only": "Character/roster acquisition, not a CaC PQ source.",
+    "starting": "Starting/fighting-style acquisition, not a PQ source.",
+    "wish": "Shenron wish acquisition, not a PQ source.",
+    "other": "Requires targeted evidence before any cross-domain ID is created."
+  },
+  "missing_canonical_layers": [
+    "mentors",
+    "expert_missions"
+  ],
+  "notes": [
+    "The 71 skills are not automatically missing PQ links. The audit separates legitimate non-PQ acquisition routes from unresolved cases.",
+    "The repository's null policy requires unknown values to remain unresolved rather than guessed.",
+    "No acquisition facts were changed in this classification cycle."
+  ]
+}
