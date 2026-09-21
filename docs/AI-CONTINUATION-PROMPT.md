@@ -5923,3 +5923,16 @@ The repository owner has clarified the continuation contract:
 - Commit: `a1ced5427c492ebbb260c096e7bf1133154fbae9` (canonical skill data); `0de6caccd2ed4003b5bcb8b45abe072dd92cd12a` (TODO ledger).
 - Live provenance census after cost completion: **428 records; 32 distinct DLC/update labels; only one Base Game record has a PQ>100 source relationship (Candy Beam, whose PQ113 relationship is already documented as later duplicate/contextual evidence)**. Existing composite/platform-dependent labels remain intentionally preserved.
 - Exact next task: **fresh DLC-label/source-relationship provenance batch**, beginning with the remaining free-update/context-rich labels and deterministic source relationships. Recompute the live census first; preserve composite/platform-dependent values unless direct evidence supports normalization. Inspect Actions for the provenance commit before claiming CI status, and keep repository prose free of internal citation markup.
+
+
+### 2026-09-21 cycle update — Hit mentor DLC provenance
+- Workstream: P1 skill DLC/version provenance cleanup after completion of the canonical Ki-cost nullable-field frontier.
+- Live census before editing: **428 canonical skill records; 0 duplicate IDs; 0 nullable `ki_cost` records**.
+- Bounded batch: **Time Skip/Flash Skewer, Time Skip/Back Breaker, Time Skip/Jump Spike, Time Skip/Tremor Pulse**.
+- Research/evidence: current Xenoverse 2 DLC documentation identifies Hit and all four mentor skills as **Super Pack 1** content; the mentor reference independently lists all four as Hit training rewards. Individual Dragon Ball Wiki references additionally corroborate Super Pack 1 provenance for Back Breaker and Jump Spike.
+- Changes: canonical `docs/data/skills.json` only — normalized the four `dlc_requirement` values to `Super Pack 1`, refreshed `last_verified=2026-09-21`, and appended bounded provenance notes. No acquisition, mechanics, cost, restriction, or mentor relationship data was altered.
+- Validation: target records were re-read after the write. Canonical census remains **428/428; 0 duplicate IDs; 0 nullable `ki_cost`**. The next validation pass must scan the changed file for internal citation artifacts before any further write.
+- Evidence limitations: the research establishes the originating DLC/mentor relationship; it does not justify changing the existing mentor unlock prerequisites or other unrelated fields.
+- CI: commit `10c26541dbdeb24e034bf007163598841221c841` must be checked for workflow runs; do not claim CI success without an exposed run. Validators remain untouched.
+- Commits: `10c26541dbdeb24e034bf007163598841221c841` (canonical skill provenance); `057f97932b85136aa59f606e5e8827fa397ec761` (TODO ledger).
+- Exact next task: **recompute the live DLC-label/source-relationship census and continue with the next deterministic provenance cluster**, prioritizing source acquisition endpoints that can be independently matched to their originating DLC; preserve intentional composite/platform-dependent values.
