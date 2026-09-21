@@ -5516,3 +5516,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `9e9182dd6cc7ae038bd086f0cf52e48a33f04d1a`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing the remaining four-record families (Lord Slug, Turles, Broly, Beerus) and explicit current `Ki Used` evidence; preserve variable-cost forms rather than flattening them.**
 
+### 2026-09-21 — Turles mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 52 nullable `ki_cost` records**.
+- Bounded batch: **Sudden Storm, Kill Driver, Fruit of the Tree of Might, Meteor Burst** from Turles mentor training.
+- Research/evidence: current Xenoverse 2 skill references explicitly document **200 Ki** for Sudden Storm, **100 Ki** for Kill Driver, **100 Ki** for Fruit of the Tree of Might, and **300 Ki** for Meteor Burst. The repository already contained the Turles mentor endpoints and provenance. citeturn6search7turn6search1turn6search0turn6search3
+- Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. No mechanics, acquisition, restriction, or variable-cost semantics were changed.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **48**. Targeted records contain the expected costs. No index Ki-cost projection was introduced. Changed canonical text contains no internal AI/UI/search citation artifacts.
+- CI: commit `5d3fd20e96c71a0dddb228b086ea813a0fe33fd2` had no actionable workflow/status result exposed through the repository connector; **no CI success claimed**.
+- Commit: `5d3fd20e96c71a0dddb228b086ea813a0fe33fd2`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing Broly's four null-cost skills and explicit current `Ki Used` evidence; preserve variable-cost forms rather than flattening them.**
+
