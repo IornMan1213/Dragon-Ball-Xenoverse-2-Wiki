@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 138,
+  "canonical_target_records": 146,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -381,12 +381,44 @@
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-take-you-all-on-at-once.md"
     },
     {
+      "pq_id": "pq-179",
+      "pq_number": 179,
+      "target_id": "super-soul-145",
+      "target_name": "Here I go!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/here-i-go.md"
+    },
+    {
       "pq_id": "pq-180",
       "pq_number": 180,
       "target_id": "super-soul-062",
       "target_name": "Damn it all!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/damn-it-all.md"
+    },
+    {
+      "pq_id": "pq-182",
+      "pq_number": 182,
+      "target_id": "super-soul-150",
+      "target_name": "Rejoice! A new ruler is born!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/rejoice-a-new-ruler-is-born.md"
+    },
+    {
+      "pq_id": "pq-183",
+      "pq_number": 183,
+      "target_id": "super-soul-149",
+      "target_name": "AAAAAAAAAGH!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/aaaaaaaaagh.md"
+    },
+    {
+      "pq_id": "pq-184",
+      "pq_number": 184,
+      "target_id": "super-soul-151",
+      "target_name": "Send me back to the planet I came from!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/send-me-back-to-the-planet-i-came-from.md"
     },
     {
       "pq_id": "pq-185",
@@ -941,6 +973,46 @@
       "pq_numbers": [
         178
       ]
+    },
+    {
+      "target_id": "super-soul-145",
+      "target_name": "Here I go!",
+      "pq_ids": [
+        "pq-179"
+      ],
+      "pq_numbers": [
+        179
+      ]
+    },
+    {
+      "target_id": "super-soul-149",
+      "target_name": "AAAAAAAAAGH!",
+      "pq_ids": [
+        "pq-183"
+      ],
+      "pq_numbers": [
+        183
+      ]
+    },
+    {
+      "target_id": "super-soul-150",
+      "target_name": "Rejoice! A new ruler is born!",
+      "pq_ids": [
+        "pq-182"
+      ],
+      "pq_numbers": [
+        182
+      ]
+    },
+    {
+      "target_id": "super-soul-151",
+      "target_name": "Send me back to the planet I came from!",
+      "pq_ids": [
+        "pq-184"
+      ],
+      "pq_numbers": [
+        184
+      ]
     }
   ],
   "unresolved_target_routes": [
@@ -1373,16 +1445,36 @@
       "target_id": "super-soul-143",
       "target_name": "So, Hakai.",
       "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-144",
+      "target_name": "Destroying this planet is our only option!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-146",
+      "target_name": "Poltarat Doddorsi Pupiritt Paro...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-147",
+      "target_name": "Now you're upping the ante!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-148",
+      "target_name": "What good is a new power if I don't try it out?",
+      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 138,
-    "forward_edge_count": 52,
-    "reverse_edge_count": 52,
-    "unique_pq_endpoints": 42,
-    "unique_target_endpoints": 52,
-    "unresolved_target_route_count": 86,
+    "canonical_target_records": 146,
+    "forward_edge_count": 56,
+    "reverse_edge_count": 56,
+    "unique_pq_endpoints": 46,
+    "unique_target_endpoints": 56,
+    "unresolved_target_route_count": 90,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0
   }
