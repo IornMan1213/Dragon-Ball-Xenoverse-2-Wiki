@@ -1155,3 +1155,13 @@
 - Preserved the existing PQ80 acquisition, Basic Reward, 0-Ki, CaC scope, and no-Ultimate-Finish-only semantics; no drop probability or additional mechanic was inferred.
 - Synchronized `docs/data/skills.json` and `docs/data/skills-index.json`.
 - Post-write target: **53 exactly-two-source records**, with canonical/index source parity preserved.
+
+
+## 2026-09-21 — Do or Die low-source provenance strengthening
+
+- Live pre-batch census: **452 / 452 records; 53 exactly-two-source records**.
+- Strengthened **Do or Die** from two to three sources with a second maintained Steam PQ reward transcription.
+- The added source independently lists Do or Die under **PQ49 — Namek Berserker**; existing Basic Reward semantics are preserved.
+- No additional drop condition or probability was inferred.
+- Synchronized canonical and index skill data.
+- Post-write target: **52 exactly-two-source records**.
