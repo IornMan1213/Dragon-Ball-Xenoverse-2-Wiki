@@ -1040,3 +1040,9 @@
 - Audited all eight canonical Ultra Pack 2 skills against official DLC documentation, the maintained 186-PQ guide, and the live canonical source-PQ relationships.
 - Confirmed all eight skills map to PQ138–142 with matching Ultra Pack 2 provenance.
 - No DLC provenance mismatch found; reward-tier semantics were not normalized.
+
+
+### 2026-09-21 — Legendary Pack 1 skill provenance audit
+- Audited all six canonical Legendary Pack 1 skills against official DLC documentation and live source-PQ relationships.
+- Confirmed all six map to PQ143–146 with matching provenance.
+- No DLC provenance mismatch found; reward-tier semantics were not normalized.
