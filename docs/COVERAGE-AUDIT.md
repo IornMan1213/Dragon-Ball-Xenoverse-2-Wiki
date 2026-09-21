@@ -5223,3 +5223,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Evidence: current skill reference plus contemporaneous Xenoverse 2 TP Medal Shop listings/location discussion. citeturn3search0turn3search1turn3search3
 - Canonical commit: `d61bb7e59769b02ea755f720fd58f1539cbabd8a`.
 - Exact next batch: recompute the live DLC/free-update provenance census and identify the next concrete mismatch; preserve intentional composite and character-only labels.
+
+
+### 2026-09-21 — Lightning Impact source-strengthening
+- Lightning Impact already had the correct Ultra Pack 2/PQ142 classification; the concrete issue was weak single-source provenance.
+- Added current skill-reference, contemporaneous PQ reward, and maintained all-PQ guide evidence for PQ142 Basic Reward. citeturn1search1turn1search4turn1search6
+- No semantic fields were changed.
+- Commit: `d6013a3c9c4656fe95196fdd93e2e32703567a17`.
