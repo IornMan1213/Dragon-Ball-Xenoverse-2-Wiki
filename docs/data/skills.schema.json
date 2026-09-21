@@ -344,6 +344,113 @@
           }
         }
       }
+    },
+    {
+      "if": {
+        "properties": {
+          "acquisition_type": {
+            "const": "character_only"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "usable_by_cac": {
+            "const": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "acquisition_type": {
+            "const": "starting_move"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "usable_by_cac": {
+            "const": true
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "race_restriction": {
+            "const": "Character-only"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "usable_by_cac": {
+            "const": false
+          },
+          "acquisition_type": {
+            "const": "character_only"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "acquisition_type": {
+            "const": "quest_or_mission"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_quest"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "acquisition_type": {
+            "enum": [
+              "skill_shop",
+              "tp_medal_shop",
+              "character_only",
+              "starting_move",
+              "other_nonquest"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_quest_or_shop"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "class": {
+            "const": "Awoken"
+          },
+          "subcategory": {
+            "const": "Race"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "race_restriction"
+        ],
+        "properties": {
+          "usable_by_cac": {
+            "const": true
+          }
+        }
+      }
     }
   ]
 }
