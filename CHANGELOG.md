@@ -468,3 +468,10 @@
 - Synchronized canonical skills, skill index, mentor records, and coverage report.
 - Validation: **418 canonical skills / 418 index records / 418 taxonomy total / 133 mentor lessons / 130 resolved mentor→skill edges / 3 unresolved endpoints / 31 fully linked mentors / 2 partially linked mentors / 0 duplicate canonical IDs**.
 - Remaining unresolved endpoints are now: Krillin → Orin Combo, Krillin → Scatter Kamehameha, and Zamasu → I'm thinking of becoming a GodTuber (non-skill Super Soul).
+
+## 2026-09-21 — Krillin mentor graph completion
+- Added the two remaining missing Krillin mentor skill records: **Orin Combo** (Strike Super) and **Scatter Kamehameha** (Ki Blast Ultimate).
+- Linked both lesson endpoints into the canonical skill graph and synchronized the skill index, mentor layer, and coverage report.
+- Verified against the Krillin mentor/skill references; `Spread Shot Retreat` remains a separate Evasive used by Krillin and is not incorrectly inserted as a fourth mentor lesson reward.
+- Validation: **420 canonical skills / 420 index records / 420 taxonomy total / 133 mentor lessons / 132 resolved mentor→skill edges / 1 unresolved endpoint / 32 fully linked mentors / 1 partially linked mentor / 0 duplicate canonical IDs**.
+- The remaining unresolved endpoint is Zamasu's **I'm thinking of becoming a GodTuber**, which is a Super Soul rather than a skill and is intentionally retained as a typed unresolved non-skill reward.
