@@ -997,3 +997,11 @@
 - Live canonical skill census: **428 records, 0 duplicate IDs, 18 nullable `ki_cost` records**.
 - Sources consulted: current Brutal Buster skill reference and Evasive Skill reference.
 - Commit: `b6a8da1d28798a8f027a87bd470917205348b8c6`.
+
+
+## 2026-09-21 — Evil Ray Strike Ki-cost verification
+- Verified **Evil Ray Strike — 100 Ki** from current Xenoverse 2 skill-cost evidence; the source also identifies Gohan (Kid) mentor training as the acquisition route.
+- Updated only canonical `ki_cost=100` and `last_verified=2026-09-21`.
+- Live canonical skill census after the write: **428 records, 0 duplicate IDs, 17 nullable `ki_cost` records**.
+- Preserved all other fields and variable-cost semantics.
+- Canonical commit: `dde2188588fdaff5c81c799f06a0bbadcfcc165b`.
