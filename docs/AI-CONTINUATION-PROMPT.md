@@ -3895,3 +3895,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Canonical data was not changed. The live catalog remains 283 records, with 60 `ultimate_finish_required: true` records already carrying explicit UF provenance after the preceding normalization cycle.
 - Internal AI/tool citation artifacts were removed from this handoff while updating it; repository files must not contain ChatGPT/internal citation markup.
 - Exact next task: continue the remaining cross-field reward/provenance audit, prioritizing concrete inconsistencies in maintained research records over speculative canonical edits, and inspect any newly exposed CI result before changing validators again.
+
+
+## 2026-09-21 continuation — character-only acquisition taxonomy correction
+- Continued the cross-field reward/provenance audit after the Ultimate Finish checks.
+- Found a concrete canonical inconsistency: **Final Charge** had `race_restriction: Character-only`, `usable_by_cac: false`, and explicit character-exclusive/unavailable-to-CaC provenance, but `acquisition_type: other_nonquest`. The maintained builder semantics classify this provenance as `character_only`, so the canonical record had drifted from its own evidence and fresh-build classification.
+- Corrected **Final Charge** to `acquisition_type: character_only` in `docs/data/skills.json` and synchronized `docs/data/skills-index.json`.
+- Added a validator invariant in `scripts/validate_skills.py`: any record with `race_restriction: Character-only` must use `acquisition_type: character_only`. This complements the existing invariant that character_only acquisition requires `usable_by_cac: false`.
+- Commits: `bb601aa6ba426f4ee1303081fc351742e9d56c89` (canonical data), `31f4a2509c1a897b2158486f27f7dc54443a3846` (index), `a6f79d9fbd022e9ed7fe44b0f41aba4f18c9c5ea` (validator).
+- Post-write verification: 283 canonical records; 9 records now have `race_restriction: Character-only`; all 9 are `character_only` acquisitions and `usable_by_cac: false`; canonical/index deterministic field parity remains true; the new validator invariant is present.
+- Local execution remains unavailable. GitHub status/workflow records have historically returned no actionable checks for these direct commits; do not infer CI success from absence.
+- Exact next task: continue the remaining acquisition cross-field audit, looking specifically for other canonical records whose explicit provenance/race/CaC fields disagree with their `acquisition_type` or with the producer's fresh-build classification. Preserve intentional special cases such as mixed PQ/TP-Medal routes and built-in character actions.
