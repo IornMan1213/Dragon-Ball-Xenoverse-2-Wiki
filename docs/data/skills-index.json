@@ -3137,9 +3137,10 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "Corrected 2026-09-20: CaC-accessible Skill Shop Super; not character-exclusive.",
+      "notes": "2026-09-20 provenance refinement: the dedicated skill reference supports the Skill Shop route after defeating Kid Buu in the main story. The main-story gate is now represented separately from the shop source; no specific saga/chapter threshold is inferred.",
       "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after the Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
-      "source_quest": null
+      "source_quest": "Main story — defeat Kid Buu in the decisive battle with Majin Buu",
+      "source_quest_or_shop": "Skill Shop (Conton City) after defeating Kid Buu in the main story"
     },
     {
       "name": "Time Control",
