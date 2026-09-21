@@ -6294,3 +6294,18 @@ The repository owner has clarified the continuation contract:
 - Corrected the prose to PQ03 and strengthened direct/current sources. No gameplay, DLC, reward-tier, or acquisition fields were changed.
 - Canonical commit: `2e0ee2fa63afa6dd8ee5e6bf5878a9fa42b14ae4`.
 - Exact next batch: continue the single-source audit, checking internal cross-field consistency before adding new records or making semantic changes.
+
+### 2026-09-21 continuation — single-source skill provenance batch
+- Workstream: **P1 skill provenance/source integrity**.
+- Live census before editing: **452 canonical skill records / 452 index records / 0 duplicate IDs / 0 nullable `ki_cost` values / canonical-index deterministic ordering matched**.
+- Bounded batch: **Energy Charge, Rising Rage, Wall of Defense** — the three remaining canonical skill records with only one source URL.
+- Research/evidence:
+  - **Energy Charge:** current skill documentation identifies the First Advancement Test — Easy Class; an independent test record lists Energy Charge as a Basic Reward; a contemporaneous trophy guide independently records the Easy Class skill reward.
+  - **Rising Rage:** current skill documentation identifies it as used exclusively by Broly (Restrained); the Broly (Restrained) character record lists it in his preset; an independent gameplay showcase documents Rising Rage in that character's moveset.
+  - **Wall of Defense:** current skill documentation identifies PQ10 as the unlock source; an independent skill guide lists PQ10; a launch-era all-PQ guide lists Wall of Defense in PQ10's Basic Reward.
+- Changes: strengthened each record from **1 → 3 source URLs**, refreshed `last_verified=2026-09-21`, and appended bounded provenance notes. No gameplay mechanics, costs, DLC labels, acquisition semantics, or CaC restrictions were invented or broadened.
+- Evidence limits: Rising Rage remains intentionally character-only; no CaC acquisition route was inferred. Wall of Defense and Energy Charge preserve their existing acquisition semantics rather than treating source strengthening as a semantic rewrite.
+- Validation after write: **452 / 452 canonical-index parity, 0 duplicate IDs, 0 nullable `ki_cost` values; all three targets now have 3 sources**. No new internal citation-token artifacts were introduced.
+- CI: **no workflow runs were exposed for commit `5633e857cbefea3c935282d0e5b63ea752daad6f`**; no CI success is claimed.
+- Commit: **`5633e857cbefea3c935282d0e5b63ea752daad6f`**.
+- Exact next batch: **recompute the live skill provenance census and inspect the next deterministic cross-field/source integrity issue; prioritize records whose acquisition/source-PQ fields can be checked against independent quest or character evidence.**
