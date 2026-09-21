@@ -3709,3 +3709,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Exact next task: continue auditing canonical acquisition provenance against maintained reward/shop evidence, then inspect validator coverage for remaining cross-field invariants (especially acquisition type vs source_quest, source_quest_or_shop, usable_by_cac, and character_source).
 - Follow-up correction: the first eligibility-invariant edit introduced a malformed same-line `if`; this was immediately corrected in commit `59ddad88a89c4d402acbfc2a5c85e9bacf947033`. The fetched validator now shows the affected guards correctly indented inside the record loop.
 - CI/status check for `3151abebffa7f137e4aaa6511099a8a5c7002280` returned no statuses/workflow runs. CI for the correction commit `59ddad88a89c4d402acbfc2a5c85e9bacf947033` is likewise currently absent; no success/failure is inferred.
+## 2026-09-21 continuation — parallel-quest provenance validator tightening
+- Inspected the live producer after the acquisition-invariant work. `scripts/build_skills_from_research.py` still deliberately distinguishes numeric `source_quest` IDs (canonical quest_or_mission) from textual explicit PQ provenance (parallel_quest).
+- Tightened `scripts/validate_skills.py` so `parallel_quest` additionally requires `source_quest` to be textual, preventing a future numeric PQ ID from being mislabeled as the special parallel_quest acquisition type.
+- This matches the current canonical taxonomy: the lone `parallel_quest` record is Final Pose, while numeric PQ sources remain quest_or_mission. No canonical data were changed.
+- Commit: `8ed50e113458739b71629e8bb059c37541cff1af`.
+- CI status should be checked on the next cycle; current repository Actions have historically returned empty/pre-step failures for these edits.
+- Exact next task: audit the remaining validator cross-field rules against the producer's actual output semantics, especially `character_source`, `usable_by_cac`, and `source_quest_or_shop`, then continue the evidence-backed acquisition conflict census.
