@@ -1190,7 +1190,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 
 ### 2026-09-21 — Master ledger completion marking: Emperor's Death Beam DLC provenance
 - [x] **Emperor's Death Beam DLC provenance normalized.** Canonical `dlc_requirement` changed from `Resurrection 'F' Pack / DLC Pack 3` to **Resurrection 'F' Pack**, separating the originating DLC from the legacy alias.
-- [x] Evidence: current skill documentation identifies Emperor's Death Beam as a Resurrection 'F' DLC skill; the maintained DLC Pack 3 guide lists it among the Resurrection 'F' content and identifies its PQ drop route. citeturn1search2turn1search5
+- [x] Evidence: current skill documentation identifies Emperor's Death Beam as a Resurrection 'F' DLC skill; the maintained DLC Pack 3 guide lists it among the Resurrection 'F' content and identifies its PQ drop route. Sources consulted: Dragon Ball Wiki's Emperor's Death Beam reference and the maintained Steam DLC Pack 3 guide.
 - [x] Preserved the current TP Medal Shop acquisition route, 25 TP Medal price note, Ki-cost data, and all existing restrictions/mechanics; only DLC provenance and verification notes were changed.
 - [x] Post-write canonical validation: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; 0 duplicate IDs.
 - [x] The former `Resurrection 'F' Pack / DLC Pack 3` label now has **0 records**.
