@@ -4184,3 +4184,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - All 8 character-only canonical records are consistently CaC-ineligible with explicit Character-only race scope.
 - 60 canonical records require an Ultimate Finish; all 60 have explicit numbered PQ provenance. No non-PQ record is UF-required, and no false UF flag was found with explicit UF wording in its unlock method.
 - No canonical data changed. Next audit target: compare quest-derived UF flags against maintained detailed reward/provenance evidence.
+
+
+## 2026-09-21 — Ultimate Finish provenance normalization
+- Audited all 60 `ultimate_finish_required=true` records.
+- Normalized explicit UF wording for Earth Splitting Galick Gun (PQ11), Raid Blast (PQ136), and Blazing Attack (PQ136), where maintained reward evidence supported the UF flag but the unlock method still said Basic Reward.
+- Added validator coverage so future true-UF records must expose explicit UF provenance in unlock_method or source_quest_or_shop.
+- Canonical/index remain synchronized at 283 records; no acquisition route or scope changed.
