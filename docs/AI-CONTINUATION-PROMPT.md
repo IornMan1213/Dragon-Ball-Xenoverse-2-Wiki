@@ -3820,3 +3820,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - The canonical records therefore remain unchanged with `race_restriction: null`. This is deliberate evidence preservation, not missing-data inference.
 - No canonical/index commit was made for this sweep.
 - Exact next task: broaden the audit from the final three to all `usable_by_cac=true` records whose race restriction is null/weakly evidenced, using exact-name current-version sources and preserving null whenever explicit scope cannot be established.
+
+
+## 2026-09-21 continuation — live CaC census correction
+- Directly recomputed `docs/data/skills.json`: **283 total / 274 CaC-usable / 3 CaC-usable with null `race_restriction`**.
+- The only null-race CaC records remain **Blaster Stream**, **Chaotic Time Impact**, and **Circle Flash**.
+- No non-null CaC race values use weak placeholder labels such as `Unknown` or `Unspecified`; the remaining 271 non-null CaC records have explicit race/form scopes.
+- Earlier handoff notes reporting 270 CaC-usable records are stale and must not be reused as the current census.
+- No canonical/index data was changed in this cycle.
+- Exact next task: trace the four-record discrepancy from the stale 270 count through recent repository history and audit those records' evidence.
