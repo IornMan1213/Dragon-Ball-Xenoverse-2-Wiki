@@ -348,3 +348,8 @@
 - Reconciled Android 15's Sunglasses → Android 15's Shades & Hat (TP Medal Shop).
 - Reconciled Android 17 (DB Super)'s Ranger Accessory → existing Android 17 (DB Super) Wig identity for PQ152, preserving the research label as a component alias.
 - Kept Android 14's Hat and Bardock (DB Super)'s Scouter unresolved because their PQ evidence documents clothing rewards instead.
+
+## 2026-09-21 — Final unresolved accessory research pass
+- Researched Android 14's Hat (PQ104) and Bardock (DB Super)'s Scouter (PQ146) against current equipment catalogs and PQ reward evidence.
+- Both remain explicitly unresolved because the documented PQ rewards are the corresponding character Clothes, not exact accessory identities.
+- Preserved the unresolved records rather than incorrectly linking them to clothing records.
