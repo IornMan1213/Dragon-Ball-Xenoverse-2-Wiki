@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 129,
-  "linked_skill_edges": 79,
-  "unresolved_skill_endpoints": 50,
-  "fully_linked_mentors": 17,
-  "partially_linked_mentors": 15,
+  "linked_skill_edges": 95,
+  "unresolved_skill_endpoints": 34,
+  "fully_linked_mentors": 21,
+  "partially_linked_mentors": 11,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -382,13 +382,13 @@
         "Fruit of the Tree of Might",
         "Meteor Burst"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Sudden Storm",
-        "Kill Driver",
-        "Fruit of the Tree of Might",
-        "Meteor Burst"
-      ]
+      "linked_skill_ids": [
+        "skill-sudden-storm",
+        "skill-kill-driver",
+        "skill-fruit-of-the-tree-of-might",
+        "skill-meteor-burst"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-broly",
@@ -399,13 +399,13 @@
         "Gigantic Omega",
         "Gigantic Meteor"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Blaster Shell",
-        "Blaster Meteor",
-        "Gigantic Omega",
-        "Gigantic Meteor"
-      ]
+      "linked_skill_ids": [
+        "skill-blaster-shell",
+        "skill-blaster-meteor",
+        "skill-gigantic-omega",
+        "skill-gigantic-meteor"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-beerus",
@@ -416,13 +416,13 @@
         "God of Destruction's Wrath",
         "Sphere of Destruction"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "God of Destruction's Anger",
-        "God of Destruction's Rampage",
-        "God of Destruction's Wrath",
-        "Sphere of Destruction"
-      ]
+      "linked_skill_ids": [
+        "skill-god-of-destruction-s-anger",
+        "skill-god-of-destruction-s-rampage",
+        "skill-god-of-destruction-s-wrath",
+        "skill-sphere-of-destruction"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-whis",
@@ -433,13 +433,13 @@
         "Strike of Revelation",
         "Symphonic Destruction"
       ],
-      "linked_skill_ids": [],
-      "unresolved_skill_names": [
-        "Finishing Blow",
-        "Prelude to Destruction",
-        "Strike of Revelation",
-        "Symphonic Destruction"
-      ]
+      "linked_skill_ids": [
+        "skill-finishing-blow",
+        "skill-prelude-to-destruction",
+        "skill-strike-of-revelation",
+        "skill-symphonic-destruction"
+      ],
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-pan",
@@ -580,5 +580,5 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
   ],
-  "canonical_skill_records": 368
+  "canonical_skill_records": 384
 }
