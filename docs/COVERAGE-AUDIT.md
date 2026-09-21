@@ -4813,3 +4813,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no actionable workflow success claimed.
 - Commit: `6fafe9a8eaecc079b94f59884789cf33f49c2474`.
 - Exact next batch: recompute the nullable-`ki_cost` census and continue with **Majin Buu's four null-cost mentor skills: Innocence Bullet, Angry Hit, Innocence Cannon, Innocence Breath**, if explicit current Ki Used evidence is available.
+
+
+### 2026-09-21 — Majin Buu mentor skill Ki-cost verification
+
+- Live canonical skill census before editing: **428 records; 78 nullable `ki_cost` records**.
+- Bounded batch: **Innocence Bullet, Angry Hit, Innocence Cannon, Innocence Breath** from Majin Buu mentor training.
+- Evidence: current Xenoverse 2 skill references explicitly document **100 Ki** for Innocence Bullet, **100 Ki** for Angry Hit, **100 Ki** for Innocence Cannon, and **300 Ki** for Innocence Breath. The repository already contained the mentor acquisition endpoints and provenance for all four. citeturn1search2turn1search0turn1search1turn1search4
+- Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. No mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs remain **0**, and nullable `ki_cost` count is now **74**. No skill-index Ki-cost projection was introduced because that field is outside the established index projection contract.
+- CI: not yet actionable at this point; inspect the push-triggered runs for the latest commits and do not claim CI success without an exposed successful run. Validators were not weakened.
+- Commit: `cc61629f11788b994cbddc8ba246ba552f6b97b1`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor or other evidence-backed family, prioritizing explicit current `Ki Used` values and preserving variable-cost forms.**
