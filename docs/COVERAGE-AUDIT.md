@@ -4253,3 +4253,16 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Commit: `e758b40ee4f23876cf05a5fd9872cfa1e7e97008`.
 - Live census after editing: **305 skills / 234 numeric PQ-linked skill records / 0 quest_or_mission records missing source_quest**.
 - Exact next batch: inspect the remaining non-numeric `source_quest` values and classify them into true non-PQ acquisition routes versus records whose PQ/story/mentor identifier can be safely normalized. Prioritize deterministic joins first and preserve strings where the source is genuinely not a PQ.
+
+
+### 2026-09-21 cycle update — skill Expert Mission cross-link normalization
+- Live census before editing: **305 canonical skill records**; previous PQ normalization left **42** non-numeric `source_quest` values.
+- Bounded batch: **Data Input (EM-20), Super Spirit Bomb (EM-16), Supernova (EM-6)**.
+- Repository evidence: the three skills already had explicit Expert Mission acquisition text, and the dedicated Expert Mission evidence layers use canonical IDs `EM-20`, `EM-16`, and `EM-6` for these missions. The prior human-readable `source_quest` strings therefore represented deterministic cross-domain join candidates rather than uncertain acquisition claims.
+- Changes: normalized `source_quest` to `EM-20`, `EM-16`, and `EM-6`; retained `source_quest_or_shop` as the human-readable mission title/context and preserved all reward-condition uncertainty. Added dated normalization notes and verification dates.
+- Evidence limits: no drop rate, Z-Rank requirement, or guaranteed reward condition was promoted. The Expert Mission evidence remains partially verified where its own acquisition conditions are unresolved.
+- Validation: `skills.json` re-fetched and parsed successfully; **305 records**, **3 canonical Expert Mission joins**, **39 remaining non-numeric source_quest values**, and **0 internal UI citation artifacts** in the canonical JSON.
+- CI: not exposed for the direct commit; no CI success is claimed.
+- Commit: `e63d045ddeed4d2834d24511ddf1e07e885a5671`.
+- Live census after editing: **305 skills / 3 explicit EM-ID joins / 39 non-numeric source_quest values**.
+- Exact next batch: inspect the remaining 39 non-numeric sources for other already-existing canonical relationship IDs (mentor lessons, Advancement Tests, Time Rifts, story/Future Saga missions, Shenron wishes). Only normalize when a matching repository identifier is already established; do not invent IDs or convert descriptive progression routes into false PQ/EM numbers.
