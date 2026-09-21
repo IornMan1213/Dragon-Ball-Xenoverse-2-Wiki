@@ -3788,3 +3788,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Repository-wide acquisition census remains 283 records with taxonomy 248 quest_or_mission, 1 parallel_quest, 11 skill_shop, 9 tp_medal_shop, 8 character_only, 2 starting_move, 4 other_nonquest; the canonical lone parallel_quest remains Final Pose.
 - Evidence limitation: repository code search returned no indexed matches for source_quest_or_shop, so the mismatch was established by directly inspecting the live producer, validator, schema, canonical catalog, and checked-in skill research batches rather than by inventing acquisition facts.
 - Exact next task: recheck the live validator and producer semantics after this correction, inspect GitHub Actions for an actionable result, then continue the evidence-backed acquisition/provenance census for canonical records whose route conflicts with maintained research evidence. Preserve unresolved routes rather than forcing taxonomy changes.
+
+
+## 2026-09-21 continuation — live race census and builder precedence audit
+- Recomputed the live canonical skill census directly from `docs/data/skills.json`: **283 total / 270 CaC-usable / 3 CaC-usable with null `race_restriction`**.
+- The final three unresolved race-scope records are **Blaster Stream**, **Chaotic Time Impact**, and **Circle Flash**. This supersedes stale historical handoff counts of 182; those older entries remain as historical snapshots.
+- Current Future Warrior reference material confirms these skills are in the Future Warrior technique corpus, but its explicit race/gender restriction statements do not establish an all-race or race-specific restriction for these three exact skills. No race values were inferred.
+- Re-audited acquisition producer logic and found a second bug after the validator correction: `scripts/build_skills_from_research.py` tested the generic non-empty `source_quest` branch before the numbered-PQ branch, making `parallel_quest` unreachable when a record had a non-empty PQ source quest. Fixed the ordering so explicit numbered PQ provenance is classified as `parallel_quest` before the generic quest fallback, while retaining shop/TP-medal precedence.
+- Builder commit: `0c81d620572f8092b27223a44d785343a62d00ba`.
+- Coverage audit commit: `29681a73647ea8bf123c58afe466d9680c4180de`.
+- Validator correction from the preceding cycle remains: `b6e9988beed08c0310e713a6975311aa62ee7209`.
+- No canonical skill data was regenerated or modified by the builder correction.
+- GitHub status/workflow inspection for the correction commits continues to return no reported statuses or workflow runs; do not infer CI success from absence of records.
+- Exact next task: verify builder + validator acquisition semantics together, then exhaustively research the final three null-race skills with exact-name current-version evidence. Preserve null if the evidence remains insufficient.
