@@ -6226,3 +6226,10 @@ The repository owner has clarified the continuation contract:
 - Validation: canonical/index record counts are **448/448**, with 0 duplicate IDs and 0 nullable `ki_cost` values. No gameplay record fields were altered in the metadata repair.
 - CI: no CI success is claimed unless an actual workflow run/check is exposed by GitHub.
 - Exact next task: **identify the four additional Free Update 1 attack names and their acquisition endpoints from reliable launch-era/current evidence, then add only exact bounded records. Do not substitute the separate VIP Corner teacher attacks or paid DLC Pack 1 attacks.**
+
+### 2026-09-21 continuation — Free Update 2 index-order parity correction
+- Post-audit verification found that canonical and index skill ID sets were identical at 448/448, but their record order diverged beginning at the fourth record.
+- Rebuilt `docs/data/skills-index.json` directly from the live canonical `skills.json` using the repository's existing 15-field index projection contract. No canonical gameplay data were changed.
+- Validation after the repair: 448 canonical / 448 index / identical deterministic record ordering / 0 duplicate IDs.
+- Index repair commit: `8acf642edf7e76de7c798d0b505fc6d4672b1d69`.
+- Exact next task remains the bounded Free Update 1 audit: identify the four additional launch-update attack names and their acquisition endpoints from reliable evidence before adding any new records.
