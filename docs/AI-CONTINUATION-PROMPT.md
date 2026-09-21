@@ -4024,3 +4024,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Combined GitHub status for the validator commit currently reports no status entries; no CI success is claimed.
 - The persistent handoff was updated in the preceding schema-enum audit and still needs this latest entry appended before the next cycle if the connector permits.
 - Next task: audit the remaining validator-only semantic invariants against the schema for another safe centralization opportunity, while avoiding moving provenance/business rules into JSON Schema where they require cross-field textual interpretation.
+
+
+## 2026-09-21 continuation — numeric quest ID schema contract
+- Audited remaining validator-only invariants for safe schema centralization.
+- The validator explicitly constrained numeric `source_quest` values to canonical IDs 1 through 186, while the schema only required a nonnegative integer. This was a genuine schema/validator drift risk.
+- Updated `docs/data/skills.schema.json` so numeric `source_quest` values have `minimum: 1` and `maximum: 186` (while preserving the existing string/null alternatives).
+- Removed the duplicate numeric range check from `scripts/validate_skills.py`; JSON Schema now owns that structural constraint.
+- Schema commit: `b4f5ab8c7f22df618fc8e467e1decb8897daa856`.
+- Validator commit: `4fb7fed3ce7929ac6ee36d5509810018bb3d8961`.
+- No canonical skill records or generated index data changed.
+- Next task: continue auditing the remaining acquisition/provenance invariants, distinguishing structural constraints suitable for schema from evidence-dependent semantic rules that must remain validator-only.
