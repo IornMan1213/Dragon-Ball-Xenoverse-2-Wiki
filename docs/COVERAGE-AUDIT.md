@@ -4027,3 +4027,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No Ultimate Finish requirement, drop rate, or current shop claim was inferred.
 - Validation target after the correction: canonical/index remain 283 records with identical ordering; acquisition-critical fields remain synchronized.
 - Exact next task: **continue checking generic shop records for direct contradictions against dedicated unlock tables, prioritizing cases where a shop label may actually be a PQ/mentor/story source.**
+
+
+## 2026-09-20 — final-PQ skill provenance refinement
+- Reconciled **Dark Inscription** against the live PQ182 research record.
+- PQ182 — **“Frieza's Fervent Wish”** explicitly lists Dark Inscription in its Basic Reward / skill-reward set, while the PQ record has no explicit skill drop-condition entry. The skill record therefore now uses the concrete PQ182 Basic Reward provenance without asserting an Ultimate Finish gate or drop probability.
+- Updated `docs/data/skills.json` and `docs/data/skills-index.json` together.
+- Validation target: canonical/index remain **283 records**, record-name ordering remains identical, duplicate-name count remains **0**, and the **60** `ultimate_finish_required=true` flags remain unchanged.
+- Evidence limitation: the maintained PQ corpus establishes the quest and reward classification but does not establish an exact individual RNG probability.
