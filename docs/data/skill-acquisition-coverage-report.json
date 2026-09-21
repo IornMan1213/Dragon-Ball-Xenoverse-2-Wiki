@@ -34,7 +34,7 @@
       ]
     },
     "mentor": {
-      "count": 17,
+      "count": 16,
       "skill_ids": [
         "skill-dancing-parapara",
         "skill-darkness-rush-melee",
@@ -49,7 +49,6 @@
         "skill-rise-to-action",
         "skill-shadow-crusher",
         "skill-spirit-bomb",
-        "skill-super-afterimage",
         "skill-time-skip-back-breaker",
         "skill-time-skip-flash-skewer",
         "skill-time-skip-jump-spike"
@@ -154,8 +153,9 @@
   "notes": [
     "The 71 skills are not automatically missing PQ links. The audit separates legitimate non-PQ acquisition routes from unresolved cases.",
     "The repository's null policy requires unknown values to remain unresolved rather than guessed.",
-    "No acquisition facts were changed in this classification cycle."
+    "No acquisition facts were changed in this classification cycle.",
+    "Mentor layer now contains 33 canonical mentor identities; 10 mentors have verified skill-route links covering 16 canonical skills. Remaining mentor/training-style records are not guessed until their exact mentor lesson relationship is directly verified."
   ],
-  "total_classified": 71,
+  "total_classified": 70,
   "unresolved_nonpq_skills": 0
 }
