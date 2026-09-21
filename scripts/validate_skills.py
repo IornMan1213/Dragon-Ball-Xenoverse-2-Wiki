@@ -3,7 +3,7 @@
 from __future__ import annotations
 import json,re
 from pathlib import Path
-from build_skills_from_research import INDEX_PROJECTION_FIELDS
+from build_skills_from_research import INDEX_PROJECTION_FIELDS, TARGET_COUNTS
 try:
     from jsonschema import Draft202012Validator, FormatChecker
 except ImportError:
@@ -48,6 +48,10 @@ def main():
   if label=='Transformations': continue
   if expected_counts.get(label)!=count:errors.append(f"skills.json category_counts mismatch for {label}: expected {expected_counts.get(label)}, actual {count}")
  if expected_counts.get('Transformations')!=actual_counts.get('Transformations',0):errors.append('skills.json Transformations count does not match Awoken/Race record count')
+ targets=d.get('target_category_counts')
+ expected_targets=dict(TARGET_COUNTS); expected_targets['Transformations']=15
+ if not isinstance(targets,dict):errors.append('skills.json target_category_counts must be an object')
+ elif targets!=expected_targets:errors.append('skills.json target_category_counts drift from builder target metadata')
  for r in rs:
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
