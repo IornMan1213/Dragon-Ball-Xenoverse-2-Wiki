@@ -4158,4 +4158,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `5aa74a31e62466152884ff556e032ce0f651462e` — Preserve enriched research status during skill import.
 - No canonical generated data was manually changed. CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
 - Next task: continue auditing correction-field semantics and duplicate/source precedence, making only fixes demonstrated by the checked-in research conventions.
+## 2026-09-21 continuation — correction metadata enforced at merge time
+- Inspected the checked-in research-batch validator and builder together. Existing batches currently contain no correction records, but the builder accepted malformed `correction_of` / `correction_fields` metadata unless a later operation happened to fail.
+- Added merge-time validation requiring `correction_of` to be an object and `correction_fields` to be a non-empty list of non-empty strings before a correction can alter canonical identity or fields. This keeps the builder's direct execution path consistent with the offline validator rather than relying on a separate validation step.
+- Commit: `9a1da40526f8688c3a5470f124841731385f422b` — Validate correction metadata during skill merge.
+- No canonical generated data was manually changed. CI remains unverified because the GitHub connector exposes no workflow/status entries for these maintenance commits.
+- Next task: inspect whether the merge should reject correction fields that are not actually present in the correction record, and whether duplicate non-correction records are intentionally additive or should fail explicitly.
 
