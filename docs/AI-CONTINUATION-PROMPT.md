@@ -3931,3 +3931,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - No data/index changes were necessary.
 - Local execution remains unavailable; no CI/workflow result is being claimed.
 - Exact next task: continue auditing deterministic field preservation outside acquisition/CaC/UF, especially category/subcategory, verification/research status, and fields that the builder may regenerate or retain through `merge_record`.
+
+
+## 2026-09-21 continuation — category/status preservation audit
+- Audited all 283 canonical records against the builder's `classify()` category semantics and the validator's class/subcategory matrix.
+- Found zero current category/subcategory contradictions: every canonical class maps to an allowed subcategory, and no current `damage_type` evidence contradicts the stored subcategory for Super/Ultimate/Evasive records.
+- Audited verification/research status preservation. The canonical catalog currently contains 78 `verified_current_scope/enriched`, 178 `verified/enriched`, and 27 `verified/verified` records. The 27 fully-verified research records are existing canonical enrichment rather than builder-generated defaults; the builder's `merge_record` protection intentionally preserves existing populated fields, so no status rewrite was made without new evidence.
+- Checked numeric `source_quest` route labels. The only apparent formatting mismatch was Spirit Slash's zero-padded `Parallel Quest 02` label for numeric quest 2; this is semantically equivalent and not a drift.
+- No canonical data/index changes were necessary in this pass.
+- Exact next task: inspect builder field-generation/preservation for `ki_cost`, `damage_type`, `character_source`, `skill_description`, `mechanics_notes`, `last_verified`, and DLC/source metadata, looking for concrete cases where regeneration could overwrite or erase intentional canonical evidence.
