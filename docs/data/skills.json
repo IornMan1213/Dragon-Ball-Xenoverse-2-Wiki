@@ -2356,8 +2356,8 @@
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
-      "unlock_method": "Parallel Quest 183/184 provenance conflict — dedicated skill page says PQ184 \"The Invincible Duo\"; maintained PQ reward guide lists Emperor's Cannon under PQ183 \"Broly vs. Broly\"",
-      "source_quest_or_shop": "PQ183/PQ184 — unresolved source conflict",
+      "unlock_method": "Parallel Quest 183 — \"Broly vs. Broly\" Basic Reward",
+      "source_quest_or_shop": "Parallel Quest 183 — \"Broly vs. Broly\" Basic Reward",
       "ultimate_finish_required": false,
       "skill_description": "Emperor's Cannon is a Super Ki Blast skill associated with Golden Frieza (Ultra Supervillain).",
       "mechanics_notes": "Current dedicated evidence confirms Emperor's Cannon as a 100-Ki Ki Blast Super from PQ184, 'The Invincible Duo', correcting the prior PQ183 record. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
@@ -2369,10 +2369,10 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "source_quest": 184,
+      "source_quest": 183,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: current dedicated skill documentation says PQ184, while the maintained 186-PQ reward guide explicitly lists Emperor's Cannon as a Basic Reward in PQ183. The repository retains the dedicated-page PQ184 value as the canonical current value but records the conflicting PQ183 reward-table evidence rather than silently discarding it. No Ultimate Finish-only gate is inferred."
+      "notes": "2026-09-20 provenance resolution: the maintained PQ reward-normalization map explicitly assigns Emperor's Cannon to PQ183's skill reward inventory. A dedicated skill reference had previously reported PQ184, creating a source conflict; the current maintained reward map is now used as the canonical acquisition route. No Ultimate Finish-only gate is inferred."
     },
     {
       "name": "Eraser Bomb",
