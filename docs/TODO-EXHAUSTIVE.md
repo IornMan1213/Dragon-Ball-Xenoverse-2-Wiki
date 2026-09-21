@@ -1353,3 +1353,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation target: **428 canonical skill records / 0 duplicate IDs / 10 Conton City Vote Pack records / 0 DLC mismatches**.
 - [x] CI success remains unclaimed unless GitHub exposes an actual workflow run/check.
 - [ ] Next provenance batch: fresh live DLC-label/source-relationship census beyond Conton City Vote Pack.
+
+
+### 2026-09-21 — Correction to Conton City Vote Pack census count
+- [x] Corrected the ledger count: the canonical repository has **11 records** labeled `Conton City Vote Pack`, consisting of **10 additional moves/skills** plus **1 character-specific Supersonic Mode awoken skill**. Official store documentation's “10 Additional Moves” count therefore should not be interpreted as ten total canonical records under the DLC label.
+- [x] The ten additional move records are the PQ151–154 skill set; Supersonic Mode is retained separately as the character-specific transformation record.
+- [x] No canonical provenance field was changed by this correction.
