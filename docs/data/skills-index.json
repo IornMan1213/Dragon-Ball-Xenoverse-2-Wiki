@@ -1060,11 +1060,11 @@
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Skill Shop after completing the relevant story progression.",
+      "unlock_method": "Skill Shop after completing \"A Momentous Galactic Battle\" (5,000 Zeni)",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 prerequisite refinement: dedicated skill evidence identifies Punisher Guard as a Skill Shop purchase after completing \"A Momentous Galactic Battle\"; the documented purchase price is 5,000 Zeni. No current shop-rotation claim is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms Punisher Guard as a 300-Stamina Other Evasive from the Skill Shop after story progression. It provides universal invulnerability/super armor for about 3 seconds. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence."
     },
     {
