@@ -4248,3 +4248,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Found one semantic mismatch: `sources` is always merged as provenance regardless of `correction_fields`, so allowing `sources` there would make the declared correction misleading. Added validation rejecting `sources` in `correction_fields` rather than silently ignoring the requested replacement/clear operation.
 - Commit: `46733537bee9a3947fc23cf62f0d15ddadeae2a5` — Protect correction provenance handling.
 - Next task: audit correction field-name validation against the canonical schema and determine whether unsupported/typoed correction fields should fail early rather than silently creating data that is later discarded or rejected.
+
+## 2026-09-21 continuation — correction field schema validation
+- Audited `correction_fields` against `docs/data/skills.schema.json`.
+- Added an explicit canonical field allowlist and reject unsupported/typoed correction field names before merge. This prevents a typo from silently becoming an output-only property that the canonical schema later rejects.
+- `sources` remains separately rejected because provenance is merged rather than replaced/cleared.
+- Commit: `d30b459ded874751dfc5870e261a0d38fa9e5c92` — Validate correction fields against canonical schema.
+- Next task: audit whether correction records themselves can introduce invalid canonical key fields or schema-invalid values before the final validator, and identify any safe early validations that belong in the builder without duplicating the full schema validator.
