@@ -2075,11 +2075,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Crush_Cannon",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Crush Cannon as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only.",
       "source_parallel_quests": [
         147
       ]
@@ -2106,11 +2107,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Crush_Stream",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Crush Stream as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only.",
       "source_parallel_quests": [
         147
       ]
@@ -3422,11 +3424,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Double_Crush",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 2 provenance audit: official Bandai Namco/Nintendo documentation identifies Legendary Pack 2 as containing 4 new Parallel Quests and 10 additional moves; the live canonical records map ten skills to PQ147–150. This pass verifies DLC provenance only and does not normalize free-update skills, reward-tier semantics, or character-only acquisition context. 2026-09-21 provenance strengthening: independent PQ147 reward documentation lists Double Crush as a Basic Reward of PQ147, while official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. Exact individual reward evidence remains the PQ source; the official source is package-level provenance only.",
       "source_parallel_quests": [
         147
       ]
