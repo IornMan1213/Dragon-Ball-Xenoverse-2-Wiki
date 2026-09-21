@@ -1417,6 +1417,48 @@
       },
       "status": "partially_verified",
       "identity_note": "PQ51 route is documented by the current equipment reference and multiple GameFAQs reports; acquisition involves the Great Saiyaman NPC appearing during the quest."
+    },
+    {
+      "id": "accr-101",
+      "canonical_name": "Gine (DB Super) Set",
+      "aliases": [
+        "Gine (DB Super)'s Set",
+        "Gine (DB Super) Set accessory"
+      ],
+      "routes": [
+        "PQ144"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "PQ144 Basic Reward explicitly lists Gine (DB Super) Set; independent Dragon Ball reference identifies it as an accessory and states it can be randomly obtained in PQ144."
+    },
+    {
+      "id": "accr-102",
+      "canonical_name": "Caulifla Wig",
+      "aliases": [],
+      "routes": [
+        "PQ147"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "PQ147 Basic Reward explicitly lists Caulifla Wig; Legendary Pack 2 references independently identify it as a DLC accessory."
+    },
+    {
+      "id": "accr-103",
+      "canonical_name": "Kale Wig",
+      "aliases": [],
+      "routes": [
+        "PQ148"
+      ],
+      "route_refs": {
+        "shop": []
+      },
+      "status": "partially_verified",
+      "identity_note": "PQ148 Basic Reward explicitly lists Kale Wig; independent Dragon Ball reference identifies the accessory and its PQ148 acquisition."
     }
   ],
   "unresolved_alias_groups": [
