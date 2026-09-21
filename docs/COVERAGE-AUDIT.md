@@ -4205,3 +4205,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Added canonical IDs `accr-097` through `accr-100`; synchronized the accessory PQ bridge and bidirectional report.
 - Evidence: maintained 186-PQ Steam guide; current equipment/accessory guide; DLC reference; independent PQ guide and GameFAQs acquisition reports. No unsupported drop rates or additional gates were inferred.
 - Remaining unresolved research identities: 8, excluding the separately conflicted Yamcha's Sword route.
+
+### 2026-09-21 accessory PQ identity batch 3
+- Reconciled three previously unresolved component identities into canonical accessories: **Gine (DB Super) Set (PQ144), Caulifla Wig (PQ147), Kale Wig (PQ148)**.
+- Evidence: PQ reward listings plus independent Dragon Ball/Xenoverse references. The evidence explicitly identifies these as accessories/rewards and establishes their PQ routes.
+- Added canonical IDs `accr-101` through `accr-103`; synchronized the accessory PQ bridge and cross-link report.
+- Deliberately did not force Android 14's Hat, Android 15's Sunglasses, Bardock (DB Super)'s Scouter, or Android 17 (DB Super)'s Ranger Accessory because current evidence found does not establish a distinct canonical inventory identity for those exact research labels.
