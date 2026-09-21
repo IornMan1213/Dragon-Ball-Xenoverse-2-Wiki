@@ -4951,3 +4951,6 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: canonical commit `3dddf371190a0cd8a3cb29940ec922b64ea2b711` had no actionable workflow/status result exposed; **no CI success claimed**.
 - Commit: `3dddf371190a0cd8a3cb29940ec922b64ea2b711`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+### 2026-09-21 — Citation-token correction for Android 16 audit entry
+- The preceding Android 16 audit entry contains internal citation-token text that must not persist in repository prose. This append-only correction preserves the historical entry while clarifying that the underlying evidence supports Eye Beam, Rocket Tackle, and Android Rush at 100 Ki and Hell Flash at 300 Ki.
