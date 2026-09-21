@@ -5280,3 +5280,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Added independent reward sources and preserved the existing PQ131 acquisition.
 - Canonical commit: `2eb625b3cbf1e72b76fd54b8cb84ba1d72319a05`.
 - Next: continue low-source acquisition records, checking cross-field contradictions before provenance-only enrichment.
+
+
+### 2026-09-21 — PQ148 Legendary Pack 2 provenance cluster
+- Strengthened **Blaster Bomb, Blaster Cannon, and Blaster Stream** provenance from two to four sources each.
+- Independent PQ documentation and official Dragon Ball documentation corroborate PQ148 acquisition and Legendary Pack 2 provenance.
+- Canonical commit: `d57e5de80896db12c7e11f438c89dede057acee7`.
+- Next: continue the remaining low-source acquisition/provenance cluster.
