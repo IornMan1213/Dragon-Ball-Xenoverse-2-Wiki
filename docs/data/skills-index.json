@@ -1846,7 +1846,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Destructo-Disc as a 100-Ki Ki Blast Super obtained through Krillin training. It is slow, tracking, and unblockable; existing all-CaC-races restriction retained. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-krillin added for the documented mentor-training acquisition route.",
       "source_quest": "Krillin mentor training",
       "source_quest_or_shop": "Krillin mentor training",
       "source_mentor": [
@@ -1872,7 +1872,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive.",
-      "mechanics_notes": "300 Stamina Ki Blast Evasive. Fires a short-range Ki wave from the user's mouth; the current dedicated page documents six hits, knockback, and guard break when it connects against a blocking opponent. PQ59's maintained reward listing places Dimension Cannon in the Basic Reward section, so no Ultimate Finish-only gate is established. No narrower CaC race/gender/form restriction is established.",
+      "mechanics_notes": "300 Stamina Ki Blast Evasive. Fires a short-range Ki wave from the user's mouth; the current dedicated page documents six hits, knockback, and guard break when it connects against a blocking opponent. PQ59's maintained reward listing places Dimension Cannon in the Basic Reward section, so no Ultimate Finish-only gate is established. No narrower CaC race/gender/form restriction is established. 2026-09-21 cost verification: dedicated Xenoverse 2 skill documentation lists Dimension Cannon at 300 Stamina; no Ki cost is assigned because it is an Evasive.",
       "source_quest": 59,
       "source_quest_or_shop": "Parallel Quest 59 — \"Potara Warrior\"",
       "source_parallel_quests": [
@@ -2112,7 +2112,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
-      "mechanics_notes": "Creates multiple Ki blasts and can fire them in place; official Caulifla material establishes the simultaneous multi-blast behavior and on-the-spot firing option. Exact timing/data beyond the documented description remains unresolved.",
+      "mechanics_notes": "Creates multiple Ki blasts and can fire them in place; the official Caulifla skill description establishes the simultaneous multi-blast behavior and on-the-spot firing option. Exact projectile count/timing beyond the documented description remains outside the verified scope.",
       "source_quest": 147,
       "source_quest_or_shop": "Parallel Quest 147 — \"Caulifla's Saiyan Search\"",
       "source_parallel_quests": [
@@ -2305,7 +2305,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Added during cross-database orphan-skill audit. Preserve the acquisition-route conflict rather than collapsing it into a false drop-slot claim.",
-      "mechanics_notes": "100 Ki. Current evidence identifies Drain Field as a Super 17 skill and a PQ95 reward. Community acquisition reports conflict on whether the reward is tied specifically to the Ultimate Finish; the canonical UF flag remains false because direct acquisition discussion states the skill is not an Ultimate Finish reward. Exact drop slot/percentage remains unresolved.",
+      "mechanics_notes": "100 Ki. Current evidence identifies Drain Field as a Super 17 skill and a PQ95 reward. Community acquisition reports conflict on whether the reward is tied specifically to the Ultimate Finish; the canonical UF flag remains false because direct acquisition discussion states the skill is not an Ultimate Finish reward. Exact drop slot/percentage remains unresolved. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 95, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "source_quest_or_shop": "Parallel Quest 95 — \"Super 17, the Ultimate Android\"",
       "source_parallel_quests": [
         95
@@ -2505,7 +2505,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill.",
+      "mechanics_notes": "Confirmed as Other Super from the First Advancement Test and usable by all CaC races. It is a slow Ki-charge skill. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-easy added from the existing acquisition record.",
       "source_quest": "Advancement Test — Easy Class",
       "source_quest_or_shop": "Advancement Test"
     },
@@ -3029,7 +3029,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance refinement: maintained Parallel Quest reward evidence places Final Pose in PQ74 — \"Galactic Patrol, Away!\" Basic Rewards. Independent player documentation also identifies PQ74 as the acquisition route. No Skill Shop route or Ultimate Finish requirement is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 74, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "source_quest": 74,
       "source_quest_or_shop": "Parallel Quest 74 — \"Galactic Patrol Away\"",
       "source_parallel_quests": [
@@ -3078,7 +3078,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Added during cross-database orphan-skill audit. UF requirement is supported by current/retrieved acquisition evidence; exact probability remains unresolved.",
-      "mechanics_notes": "100 Ki base cost; holding the input continues the barrage and can extend the hit count by spending additional Ki. Current evidence identifies Flash Bomber as a PQ95 Ultimate Finish reward; exact drop percentage remains unresolved.",
+      "mechanics_notes": "100 Ki base cost; holding the input continues the barrage and can extend the hit count by spending additional Ki. Current evidence identifies Flash Bomber as a PQ95 Ultimate Finish reward; exact drop percentage remains unresolved. 2026-09-21 cross-link normalization: source_quest set to canonical PQ numeric ID 95, matching the existing source_quest_or_shop/unlock evidence; this makes the skill directly joinable to the PQ database without changing the documented acquisition semantics.",
       "source_quest_or_shop": "Parallel Quest 95 — \"Super 17, the Ultimate Android\"",
       "source_parallel_quests": [
         95
@@ -3253,7 +3253,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge.",
+      "mechanics_notes": "Confirmed as the Advanced Class Advancement Test charge skill, usable by all CaC races. It charges Ki faster than Energy Charge but slower than Maximum Charge. 2026-09-21 cross-domain normalization: canonical Advancement Test endpoint advancement-test-advanced added from the existing acquisition record.",
       "source_quest": "Advancement Test — Advanced Class",
       "source_quest_or_shop": "Advancement Test - Advanced Class"
     },
@@ -3332,7 +3332,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-19 deterministic acquisition verification: Vegeta mentor training. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
-      "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha.",
+      "mechanics_notes": "Current evidence confirms Galick Gun as a 100-Ki Ki Blast Super obtained through Vegeta mentor training and usable by all CaC races. It is chargeable, with a shorter charge time than Kamehameha. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-vegeta added for the documented mentor-training acquisition route.",
       "source_quest": "Vegeta mentor training — Initiation Test",
       "source_quest_or_shop": "Vegeta mentor training — Initiation Test",
       "source_mentor": [
