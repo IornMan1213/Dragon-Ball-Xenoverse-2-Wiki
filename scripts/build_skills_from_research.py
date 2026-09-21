@@ -98,6 +98,8 @@ def merge_record(m,r,protected=None,blocked=None):
  c=r.get('correction_of')
  if c is not None and not isinstance(c,dict):
   raise ValueError(f"invalid correction metadata for {n}: correction_of must be an object")
+ if isinstance(c,dict) and not c:
+  raise ValueError(f"invalid correction metadata for {n}: correction_of must not be empty")
  c=c or {}; oldname=c.get('name',n); oldclass=c.get('previous_class',c.get('class',r.get('class',''))); oldsub=c.get('previous_subcategory',c.get('subcategory',r.get('subcategory',r.get('class','')))); oldkey=(oldname.casefold(),oldclass,oldsub)
  k=(n.casefold(),r.get('class',''),r.get('subcategory',''))
  if not c and k in blocked:return False
@@ -113,8 +115,8 @@ def merge_record(m,r,protected=None,blocked=None):
   if not isinstance(correction_of := r.get('correction_of'), dict):
    raise ValueError(f"invalid correction metadata for {n}: correction_of must be an object")
   declared_fields=r.get('correction_fields')
-  if not isinstance(declared_fields,list) or not declared_fields or not all(isinstance(field,str) and field for field in declared_fields):
-   raise ValueError(f"invalid correction metadata for {n}: correction_fields must be a non-empty list")
+  if not isinstance(declared_fields,list) or not declared_fields or not all(isinstance(field,str) and field for field in declared_fields) or len(set(declared_fields)) != len(declared_fields):
+   raise ValueError(f"invalid correction metadata for {n}: correction_fields must be a non-empty list of unique field names")
   if oldkey not in m:
    raise ValueError(f"correction target not found for {n}: {oldname}/{oldclass}/{oldsub}")
   if oldkey in blocked:
