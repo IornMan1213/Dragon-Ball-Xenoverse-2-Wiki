@@ -4964,3 +4964,6 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: canonical commit `2b4ee7bb780d6591197b7e79863e75ef9799e053` had no actionable workflow/status result exposed; **no CI success claimed**.
 - Commit: `2b4ee7bb780d6591197b7e79863e75ef9799e053`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+### 2026-09-21 — Citation-token correction for Future Gohan audit entry
+- The preceding Future Gohan audit entry contains internal citation-token text that must not persist in repository prose. This append-only correction preserves the historical entry while clarifying that the underlying evidence supports Sonic Rush at 100 Ki, Energy Dome at up to 320 Ki, and One-Handed Kamehameha mk.II at 400–600 Ki.
