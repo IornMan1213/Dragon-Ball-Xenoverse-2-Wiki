@@ -9935,7 +9935,7 @@
       "source_quest": "Bardock mentor training — Initiation Test.",
       "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.",
       "id": "skill-tyrant-lancer",
       "source_mentor": [
         "mentor-bardock"
@@ -9963,7 +9963,7 @@
       "source_quest": "Bardock mentor training — Lesson 1.",
       "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.",
       "id": "skill-rebellion-spear",
       "source_mentor": [
         "mentor-bardock"
@@ -9991,7 +9991,7 @@
       "source_quest": "Bardock mentor training — Lesson 2.",
       "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.",
       "id": "skill-riot-javelin",
       "source_mentor": [
         "mentor-bardock"
@@ -10019,7 +10019,7 @@
       "source_quest": "Bardock mentor training — Lesson 3.",
       "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.",
       "id": "skill-brave-heat",
       "source_mentor": [
         "mentor-bardock"
