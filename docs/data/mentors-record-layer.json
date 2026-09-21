@@ -566,25 +566,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Eye Beam",
-          "skill_id": null
+          "skill_id": "skill-eye-beam"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Rocket Tackle",
-          "skill_id": null
+          "skill_id": "skill-rocket-tackle"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Android Rush",
-          "skill_id": null
+          "skill_id": "skill-android-rush"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Hell Flash",
-          "skill_id": null
+          "skill_id": "skill-hell-flash"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-eye-beam",
+        "skill-rocket-tackle",
+        "skill-android-rush",
+        "skill-hell-flash"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -1127,7 +1132,9 @@
       "id": "mentor-future-gohan",
       "name": "Gohan (Future)",
       "lessons": [],
-      "skills": [],
+      "skills": [
+        "skill-super-explosive-wave"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -1223,25 +1230,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Reverse Launcher",
-          "skill_id": null
+          "skill_id": "skill-reverse-launcher"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Trap Shooter",
-          "skill_id": null
+          "skill_id": "skill-trap-shooter"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Psycho Barrier",
-          "skill_id": null
+          "skill_id": "skill-psycho-barrier"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Grand Smasher",
-          "skill_id": null
+          "skill_id": "skill-grand-smasher"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-reverse-launcher",
+        "skill-trap-shooter",
+        "skill-psycho-barrier",
+        "skill-grand-smasher"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
