@@ -46,7 +46,8 @@ def main():
   if r.get('race_restriction')=='Character-only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: Character-only restriction requires usable_by_cac=false")
 
   if r.get('acquisition_type')=='character_only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: character_only acquisition requires usable_by_cac=false")
-  if r.get('acquisition_type')=='starting_move' and r.get('usable_by_cac') is not True:errors.append(f"{r.get('name')}: starting_move acquisition requires usable_by_cac=true")  if r.get('class')=='Awoken' and r.get('subcategory')=='Race' and (r.get('usable_by_cac') is not True or not r.get('race_restriction')):errors.append(f"{r.get('name')}: canonical Awoken Race record requires CaC eligibility and race restriction")
+  if r.get('acquisition_type')=='starting_move' and r.get('usable_by_cac') is not True:errors.append(f"{r.get('name')}: starting_move acquisition requires usable_by_cac=true")
+  if r.get('class')=='Awoken' and r.get('subcategory')=='Race' and (r.get('usable_by_cac') is not True or not r.get('race_restriction')):errors.append(f"{r.get('name')}: canonical Awoken Race record requires CaC eligibility and race restriction")
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
   if r.get('acquisition_type') not in ALLOWED_ACQUISITION:errors.append(f"{r.get('name')}: invalid acquisition_type {r.get('acquisition_type')}")
   acquisition=r.get('acquisition_type'); has_quest=r.get('source_quest') not in (None,'')
@@ -55,7 +56,7 @@ def main():
   if acquisition in {'skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'} and not r.get('source_quest_or_shop'):errors.append(f"{r.get('name')}: {acquisition} acquisition requires source_quest_or_shop")
   if acquisition=='parallel_quest' and not any(str(r.get(f,'' )).casefold().find('parallel quest') >= 0 or str(r.get(f,'' )).casefold().find('pq') >= 0 for f in ('source_quest','source_quest_or_shop','unlock_method')):errors.append(f"{r.get('name')}: parallel_quest acquisition requires explicit PQ provenance")
   if acquisition=='skill_shop' and ('starting move' in str(r.get('unlock_method','')).casefold() or 'starting fighting-style choice' in str(r.get('source_quest_or_shop','')).casefold()):errors.append(f"{r.get('name')}: explicit starting-choice route must not be classified as skill_shop")
- if acquisition=='tp_medal_shop' and r.get('source_quest') not in (None,'') and re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', str(r.get('source_quest_or_shop','')).casefold()):errors.append(f"{r.get('name')}: mixed PQ + TP Medal route must preserve quest_or_mission acquisition_type")
+  if acquisition=='tp_medal_shop' and r.get('source_quest') not in (None,'') and re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', str(r.get('source_quest_or_shop','')).casefold()):errors.append(f"{r.get('name')}: mixed PQ + TP Medal route must preserve quest_or_mission acquisition_type")
   if isinstance(r.get('source_quest'),int) and (r.get('source_quest') < 1 or r.get('source_quest') > 186):errors.append(f"{r.get('name')}: numeric source_quest must be a canonical PQ ID from 1 through 186")
   uf=r.get('ultimate_finish_required')
   if uf not in (None,True,False):
