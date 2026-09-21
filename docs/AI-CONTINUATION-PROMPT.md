@@ -6611,3 +6611,15 @@ The repository owner has clarified the continuation contract:
 - Final data commits: canonical `ead49d91a7f7c2fb067482c1f2931f6eecc9cf1e`; index `e07d8f7ba32acdbbb87d0d897c2fd11b198b27aa`. Documentation commits: changelog `c66e3d9f7d6e73ed729ed8facb4bc2edbb554608`; TODO `0b56d1da767a6ea78495374fe1a198c5eb986c11`; prior handoff append `8f690f44cc3fa3c297229bd3d5694f4ae4c389d4`.
 - CI/status: current `main` at `e07d8f7ba32acdbbb87d0d897c2fd11b198b27aa` exposes **no combined statuses and no workflow runs**; no CI success is claimed and validators were not weakened.
 - Exact next task: **recompute the live two-source census and continue the next deterministic low-source record after Energy Field, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 continuation — Energy Release low-source provenance
+- Workstream: **P1 skill acquisition/source provenance cleanup**.
+- Live pre-batch census: **50 exactly-two-source records**.
+- Bounded batch completed: **Energy Release (`skill-energy-release`)**.
+- Evidence: the maintained GameFAQs Xenoverse move guide lists Energy Release in Towa's Super Attack slot, independently corroborating the existing character-only/non-CaC boundary.
+- Changes: added the GameFAQs source to `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**.
+- Evidence limits: this corroborates the skill/user endpoint only; no PQ/shop route or new mechanics were inferred.
+- Validation target: **49 exactly-two-source records**, canonical/index parity, valid JSON, and no internal citation artifacts.
+- CI: inspect exposed workflow/status results; do not claim success when no actionable run is exposed; validators must not be weakened.
+- Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record after Energy Release, checking acquisition/reward semantics before provenance-only strengthening.**
