@@ -5407,3 +5407,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow success claimed.
 - Commit: `f5513cf5e5f8b58e046b1a131bc243d145793ad9`.
 - Exact next batch: recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, beginning with **Frieza's four null-cost skills** if explicit current Ki Used evidence is available.
+
+### 2026-09-21 — Frieza mentor skill Ki-cost verification batch
+- Live canonical skill census before editing: **428 records; 84 nullable `ki_cost` records**.
+- Bounded batch: **Death Beam, Death Crasher, Death Slicer**. The live census contains three, not four, null-cost Frieza mentor records.
+- Current skill references explicitly document **100 Ki** for all three: Death Beam, Death Crasher, and Death Slicer.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`.
+- Validation: canonical count remains **428**, duplicate IDs remain **0**; nullable `ki_cost` count is now **81**. No index Ki-cost projection introduced.
+- CI: no actionable workflow success claimed.
+- Commit: `e40ac514e21b893fa54b88e4642dfcf88deb53b7`.
+- Exact next batch: recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, **Cooler's three null-cost skills: Feint Crash, Fake Blast, Supernova Cooler**, if explicit current Ki Used evidence is available.
