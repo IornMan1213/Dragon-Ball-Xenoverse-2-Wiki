@@ -5671,3 +5671,15 @@ The repository owner has clarified the continuation contract:
 - Preserved the older TODO sections and their historical statuses; section 29 is the current operational ledger and does not replace or delete history.
 - The handoff itself remains append-only: this entry is an additional permanent contract/history record, not a rewrite of earlier cycle entries.
 - Exact next task remains a live-census-first bounded Ki-cost verification batch, unless P0 validation/infrastructure work becomes actionable first.
+
+
+### 2026-09-21 — Evil Ray Strike Ki-cost verification
+- Live canonical skill census before editing: **428 records; 18 nullable `ki_cost` records; 0 duplicate IDs**.
+- Bounded batch: **Evil Ray Strike — 100 Ki**.
+- Research/evidence: a current Xenoverse 2 skill reference explicitly lists **Ki Used: 100** for Evil Ray Strike and identifies Gohan (Kid) mentor training as the acquisition route. The repository already had the corresponding mentor/source provenance; this cycle only addressed the unresolved resource-cost field.
+- Changes: populated only canonical `ki_cost=100` and refreshed `last_verified=2026-09-21`. No unrelated mechanics, acquisition, restrictions, DLC, or variable-cost fields were changed.
+- Validation: canonical skills remain **428/428**; duplicate IDs **0**; nullable `ki_cost` count is now **17**. Targeted record was re-read after the write. Variable-cost records remain unchanged.
+- Coverage/changelog: appended synchronized entries to `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`; the master TODO also received a permanent `[x]` completion entry.
+- CI: canonical commit `dde2188588fdaff5c81c799f06a0bbadcfcc165b` must be checked for exposed status/workflow results; no success is claimed without an actual result.
+- Commits: canonical `dde2188588fdaff5c81c799f06a0bbadcfcc165b`; coverage audit `950141440e4c4c7686e70f29ee9be57269bb1dae`; changelog `7e04c6d0b2655c9fd878f7c6aec7e572fd79dfc0`; TODO completion `0d760b850ad0ed882102974ab5bd1646f2c405a1`.
+- Exact next task: **recompute the live nullable `ki_cost` census and continue with the next tightly bounded unresolved skill/family, prioritizing explicit current `Ki Used` evidence and preserving fixed, zero, and variable costs distinctly.**
