@@ -4743,3 +4743,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - External corroboration: PQs are a major skill source, but rewards can also come from other acquisition systems, so the audit deliberately keeps those systems separate. citeturn0search0turn0search3
 - Validation target for next cycle: build the missing **mentor record layer** first, because 17 direct mentor-training skills plus 3 mentor-like Awoken routes are currently blocked from deterministic bidirectional mentor ↔ skill navigation; then build Expert Mission endpoints for the 3 EM-sourced skills.
 - Exact next batch: **create the canonical mentor record layer and connect the 17 direct mentor-training skills in larger deterministic batches, starting with mentors whose skills are already fully named in canonical skill data; then add Expert Mission records.**
+
+
+### 2026-09-21 cycle update — mentor → skill cross-domain layer
+- Expanded the existing `docs/data/mentors-record-layer.json` from identity-only records into a usable cross-domain layer while preserving its 33 canonical mentor identities.
+- Added verified mentor → skill relationships for **11 mentors / 16 skill edges**: Krillin (2), Gohan (Kid) (1), Vegeta (1), Frieza (1st Form) (1), Cooler (Final Form) (1), Android 18 (1), Lord Slug (2), Pan (1), Goku (2), Cell (1), and Hit (3).
+- Added `source_mentor` to the corresponding canonical skill records and mirrored the field in `skills-index.json`.
+- Extended `docs/data/record-expansion-contract.json` so `source_mentor` is an explicit skill cross-domain field.
+- Created `docs/data/mentor-skill-crosslink-report.json` with the 16 deterministic forward edges and unresolved-edge tracking.
+- Validation: **33 mentors, 11 mentors with linked skills, 16 mentor→skill edges, 16 skills with mentor reverse sources, 0 broken mentor endpoints, skill-index mentor parity = true**.
+- External mentor references corroborate that mentors teach signature skills through initiation/lesson progression; official Bandai Namco documentation confirms the mentor system teaches character moves. citeturn0search4turn0search3
+- The previous coverage audit's mentor count is now refined from 17 directly verified routes to **16**, because only 16 canonical skill records currently contain an exact mentor-training route that could be deterministically linked without guessing.
+- Exact next batch: **finish the remaining mentor acquisition mappings by auditing the existing 33 mentor identities against all skill records, then create the Expert Mission record layer for the 3 EM-linked skills (Data Input, Super Spirit Bomb, Supernova).**
