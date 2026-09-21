@@ -459,7 +459,9 @@
       ],
       "skill_rewards": [],
       "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "super_soul_rewards": [
+        "H-How could he?!"
+      ],
       "dragon_ball_farming": null,
       "verification_status": "partially_verified",
       "sources": [
