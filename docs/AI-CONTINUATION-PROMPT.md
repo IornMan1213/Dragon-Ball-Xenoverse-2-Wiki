@@ -5833,3 +5833,16 @@ The repository owner has clarified the continuation contract:
 - Validation after write: **428 records; 0 duplicate IDs; 0 records remain under the former Base Game + later STP/raid label.**
 - CI: workflow lookup for commit `eefa06170c5d4c3f55f0a678d97977bf44292dfb` has not yet exposed a run; CI success is not claimed.
 - Exact next task: audit the remaining three composite/context-rich DLC labels, beginning with **Resurrection 'F' Pack / DLC Pack 3**, and normalize only where the distinction is genuinely redundant rather than historically/platform meaningful.
+
+
+### 2026-09-21 cycle update — Emperor's Death Beam DLC provenance normalization
+- Workstream: P1 skill acquisition/DLC-version provenance cleanup, continuing the bounded normalization of deterministic originating-DLC labels.
+- Live census before editing: **428 canonical skills; 0 duplicate IDs; 1 nullable `ki_cost` record (Dimension Cannon by design)**. The remaining context-rich DLC labels included Divine Kamehameha (`Free Update 1.14-era distribution / TP Medal Shop`), Emperor's Death Beam (`Resurrection 'F' Pack / DLC Pack 3`), and four Masters Pack skills with explicit platform-dependent context.
+- Researched **Emperor's Death Beam** specifically. Current skill documentation identifies it as a Resurrection 'F' DLC skill; the maintained DLC Pack 3 guide lists Emperor's Death Beam among the Resurrection 'F' content and identifies its PQ acquisition context. citeturn1search2turn1search5
+- Changes: `docs/data/skills.json` — changed `dlc_requirement` from `Resurrection 'F' Pack / DLC Pack 3` to `Resurrection 'F' Pack`; updated `last_verified` to 2026-09-21 and appended a bounded provenance note. The TP Medal Shop acquisition route and 25 TP Medal price note were preserved.
+- Evidence limits: this pass normalized the originating DLC label only. It did not rewrite the current TP Medal Shop acquisition route, Ki-cost/mechanics data, or restrictions. The historical DLC alias was redundant for this record because the source relationship is established; no claim was made that present-day shop availability is exclusive to the original DLC.
+- Validation after write: **428 records; 0 duplicate IDs; 1 nullable `ki_cost` record; the former `Resurrection 'F' Pack / DLC Pack 3` label has 0 records.** The canonical/index projection remains structurally complete; no index field was invented because `dlc_requirement` is not present in the generated index schema.
+- TODO synchronization: appended a permanent dated [x] completion entry to `docs/TODO-EXHAUSTIVE.md`.
+- CI: workflow lookup for commits `dcbbb40de85320944d3faecc3239f2df0a0825a8` and `d682fbdbac622be8e4b3c25d3bc250b581ff69ec` returned **no workflow runs**. CI success is therefore unavailable and is not claimed; validators were not weakened.
+- Commits: `dcbbb40de85320944d3faecc3239f2df0a0825a8` (canonical data), `d682fbdbac622be8e4b3c25d3bc250b581ff69ec` (TODO ledger).
+- Exact next task: **Divine Kamehameha**. Recompute the live DLC-label census first, inspect its source/acquisition relationship, and normalize only if the originating DLC can be established without losing meaningful historical/free-update distribution context. Preserve platform-dependent Masters Pack labels unless direct evidence supports a safe normalization.
