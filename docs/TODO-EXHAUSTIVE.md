@@ -1663,3 +1663,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved the existing Android 18 Lesson 2 acquisition semantics and did not infer unsupported mechanics or reward probabilities.
 - [x] Synchronized canonical/index source projections.
 - [ ] Next task: recompute the live two-source census and continue with **Dimensional Hole (PQ80)**, verifying the source-PQ/reward-tier relationship before adding provenance.
+
+
+### 2026-09-21 — Completed low-source provenance batch: Dimensional Hole
+- [x] Recomputed the live two-source census before editing: **54**.
+- [x] Researched **Dimensional Hole (skill-dimensional-hole)** and independently verified its PQ80 acquisition and **Basic Reward** placement using the maintained all-PQ guide.
+- [x] Added the maintained all-PQ guide as a third source in both canonical and index skill records.
+- [x] Refreshed `last_verified` to **2026-09-21** and preserved all existing acquisition/reward semantics.
+- [x] Do not infer a drop percentage or additional Ultimate Finish requirement from this evidence.
+- [x] Exact next task: recompute the live two-source census and continue with **Do or Die**, verifying its PQ49 source and Basic Reward tier before adding provenance.
