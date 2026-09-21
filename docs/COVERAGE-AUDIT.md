@@ -5048,3 +5048,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - The ten Future Warrior-acquirable skills match the official Ultra Pack 1 skill list and are sourced to PQ133–137 in the canonical data. The two character-only records are separately documented as Ultra Pack 1 character skills and are intentionally retained.
 - No deterministic DLC mismatch was found. Reward-tier conflicts were not rewritten during this provenance-only pass.
 - Canonical records received only a verification-date/provenance-note refresh; no acquisition, cost, restriction, mechanics, or reward-slot semantics were changed.
+
+
+## 2026-09-21 Ultra Pack 2 skill provenance census
+
+- Audited all **8** canonical Ultra Pack 2 skills.
+- All eight map to PQ138–142 and retain `dlc_requirement=Ultra Pack 2`.
+- **0 deterministic DLC mismatches** were found.
+- Only verification dates/provenance notes were refreshed; reward-tier and other mechanics/acquisition semantics were left unchanged.
