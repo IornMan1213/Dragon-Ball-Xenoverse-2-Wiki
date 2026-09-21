@@ -6233,3 +6233,10 @@ The repository owner has clarified the continuation contract:
 - Validation after the repair: 448 canonical / 448 index / identical deterministic record ordering / 0 duplicate IDs.
 - Index repair commit: `8acf642edf7e76de7c798d0b505fc6d4672b1d69`.
 - Exact next task remains the bounded Free Update 1 audit: identify the four additional launch-update attack names and their acquisition endpoints from reliable evidence before adding any new records.
+
+### 2026-09-21 continuation — Free Update 1 evidence pass
+- Re-ran the launch-update investigation using the live repository plus contemporary release documentation.
+- Free Update 1 is consistently documented as two named Awoken skills plus four additional attacks, but the accessible sources reviewed still do not name the four attacks individually.
+- The canonical registry therefore remains intentionally unchanged at **448 records**. The only two records labeled `Free Update 1` are Pure Progress and Super Saiyan Blue Kaioken.
+- Do not infer the four names from later Free Update 2/paid DLC/VIP Corner lists or unrelated character-moveset data.
+- Exact next task: locate a stronger primary/current source naming the four December 2016 attacks and their acquisition endpoints, then promote only exact evidence-backed records.
