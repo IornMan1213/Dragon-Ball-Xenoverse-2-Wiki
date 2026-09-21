@@ -3697,3 +3697,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Evidence limitations: this cycle audited route semantics using the repository's existing canonical records and producer logic; it did not introduce new gameplay/acquisition claims. The two intentional `other_nonquest` exceptions should remain under explicit provenance review if future source evidence establishes a normal acquisition route.
 - Current unresolved scope: PQ unlock census remains **176 canonical records with 0 missing `unlock_condition` fields**. Skill acquisition still has source conflicts/under-specified routes outside this producer-semantics issue.
 - Exact next task: **continue the skill acquisition/provenance audit after the producer hardening, prioritizing records whose canonical route conflicts with dedicated evidence or maintained reward tables; then inspect any remaining producer/validator field-precedence assumptions and recheck GitHub Actions for actionable steps.**
+
+## 2026-09-21 continuation — acquisition eligibility invariants
+- Continued the P1 skill acquisition/provenance audit from the previous handoff.
+- Audited all canonical records with non-quest_or_mission acquisition types for acquisition-route/eligibility conflicts. Current canonical data has **0 character_only records with usable_by_cac != false** and both starting_move records (Afterimage, Super Guard) have usable_by_cac=true.
+- Added deterministic invariants to `scripts/validate_skills.py`: character_only requires usable_by_cac=false; starting_move requires usable_by_cac=true.
+- No canonical skill facts were changed. The acquisition census remains **283 records** with the prior taxonomy: 248 quest_or_mission, 11 skill_shop, 9 tp_medal_shop, 8 character_only, 4 other_nonquest, 2 starting_move, 1 parallel_quest.
+- Producer audit also reconfirmed the only two current classifier differences are intentional special cases: Final Charge and Surging Spirit remain other_nonquest because their records describe character-specific/built-in behavior rather than a separately acquirable CaC skill.
+- Commit: `3151abebffa7f137e4aaa6511099a8a5c7002280` (Validate acquisition eligibility invariants).
+- CI/status for this commit should be checked next; do not infer success if GitHub reports no workflow/status records.
+- Exact next task: continue auditing canonical acquisition provenance against maintained reward/shop evidence, then inspect validator coverage for remaining cross-field invariants (especially acquisition type vs source_quest, source_quest_or_shop, usable_by_cac, and character_source).
