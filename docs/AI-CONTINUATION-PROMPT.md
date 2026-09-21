@@ -4242,3 +4242,9 @@ Only after data-completeness work, expose the improved structured research surfa
 - Added explicit validation that the resolved correction target name, class, and subcategory are non-empty strings before constructing the lookup key. Existing defaults remain intact, so omitted class/subcategory continue to resolve from the replacement record rather than changing curated workflow semantics.
 - Commit: `fb1bdff2cba9ab0a5547912a5c8a07e2bdab42e6` — Validate correction target key fields.
 - Next task: audit the actual correction application semantics for fields explicitly cleared with null/blank values, especially whether inherited non-empty values can survive when a correction intends to remove them; preserve the documented ability to make intentional corrections.
+
+## 2026-09-21 continuation — correction clearing/provenance semantics
+- Audited correction application semantics for explicit clearing. A declared correction field is excluded from inheritance, so a replacement value of `null`, blank, or an empty list can intentionally remove the old value; an omitted correction field continues to inherit the old non-empty value.
+- Found one semantic mismatch: `sources` is always merged as provenance regardless of `correction_fields`, so allowing `sources` there would make the declared correction misleading. Added validation rejecting `sources` in `correction_fields` rather than silently ignoring the requested replacement/clear operation.
+- Commit: `46733537bee9a3947fc23cf62f0d15ddadeae2a5` — Protect correction provenance handling.
+- Next task: audit correction field-name validation against the canonical schema and determine whether unsupported/typoed correction fields should fail early rather than silently creating data that is later discarded or rejected.
