@@ -5872,3 +5872,16 @@ The repository owner has clarified the continuation contract:
 - CI: workflow lookup for canonical commit `eaaa02287ee52f3f53dcf6a0f3e702c0ee741363`, index commit `635945b87f48f1ad2e52e9398dd3ea3c9f32d65a`, and TODO commit `3a69de0259cf79ef9332ded44edca0ae9e19d9fc` must be checked before any CI success claim.
 - Commits: `eaaa02287ee52f3f53dcf6a0f3e702c0ee741363` (canonical), `635945b87f48f1ad2e52e9398dd3ea3c9f32d65a` (index), `3a69de0259cf79ef9332ded44edca0ae9e19d9fc` (TODO).
 - Exact next task: **fresh live census of remaining non-canonical/context-rich DLC labels** after this audit. Do not reopen the four Masters Pack records unless contradictory platform evidence appears; prioritize another deterministic provenance mismatch if one remains.
+
+
+### 2026-09-21 cycle update — Surging Spirit multi-DLC provenance audit
+- Workstream: P1 skill acquisition/DLC provenance cleanup; bounded audit of the only remaining explicitly multi-DLC skill label found in the live census.
+- Live census before editing: **428 canonical skills; 0 duplicate IDs; 1 nullable `ki_cost` (Dimension Cannon by design)**. The only multi-DLC value was `Extra Pack 2; Conton City Vote Pack`, attached to Surging Spirit.
+- Repository evidence: Surging Spirit is a built-in Ultra Instinct action rather than a separately acquired/equipped skill. Its record names both Ultra Instinct Goku and Ultra Instinct -Sign- Goku as character sources.
+- Research/evidence: current Dragon Ball Wiki documentation identifies Surging Spirit with **Extra Pack 2** for Ultra Instinct Goku and with **Conton City Vote Pack** for Ultra Instinct -Sign- Goku. Official Bandai Namco/Nintendo/Steam listings independently establish Conton City Vote Pack as a distinct DLC release.
+- Decision: **preserve** the composite DLC value. Unlike the previously corrected labels, this value does not conflate an acquisition route with an originating pack; it records two genuine DLC character contexts for the same named skill/function. Collapsing it would discard provenance.
+- Change: `docs/data/skills.json` only — updated `last_verified=2026-09-21` and appended a bounded provenance-audit note. No mechanics, acquisition, cost, or restriction fields changed.
+- Validation: **428 records; 0 duplicate IDs; 1 nullable `ki_cost`; composite value remains one intentionally preserved record.** TODO ledger synchronized with a permanent dated completion entry.
+- CI: no workflow run is claimable until Actions exposes one for commit `0b9c2196aa34776f3af49dfb1459db053624b4bb` or the subsequent ledger commit.
+- Commits: `0b9c2196aa34776f3af49dfb1459db053624b4bb` (canonical), `23ab105e4979165f8d06a00ed7ded532d45a3a02` (TODO).
+- Exact next task: **fresh live census of remaining DLC labels against source relationships**, prioritizing deterministic mismatches and leaving intentionally multi-DLC/platform-dependent values intact unless contradictory evidence appears.
