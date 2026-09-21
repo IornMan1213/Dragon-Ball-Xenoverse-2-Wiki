@@ -419,7 +419,7 @@
       "ki_cost": 500,
       "dlc_requirement": "Free Update 1",
       "acquisition_type": "character_only",
-      "notes": ""
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Pure Progress as a Hit-only character transformation, not a CaC Awoken Skill."
     },
     {
       "name": "Super Saiyan 2",
@@ -467,7 +467,7 @@
       "ki_cost": 500,
       "dlc_requirement": "Free Update 1",
       "acquisition_type": "character_only",
-      "notes": ""
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Super Saiyan Blue Kaioken as Goku-only; it is not an independently unlockable CaC Awoken Skill."
     },
     {
       "name": "Supersonic Mode",
@@ -491,7 +491,7 @@
       "ki_cost": 0,
       "dlc_requirement": "Conton City Vote Pack",
       "acquisition_type": "character_only",
-      "notes": ""
+      "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Supersonic Mode as Dyspo-only; it is not an independently unlockable CaC Awoken Skill."
     },
     {
       "name": "Ultra Instinct",
@@ -2505,7 +2505,7 @@
       "race_restriction": "Character-only",
       "dlc_requirement": "Ultra Pack 1",
       "acquisition_type": "character_only",
-      "notes": ""
+      "notes": "2026-09-20 roster-status refinement: dedicated skill references and current community evidence identify this as Super Saiyan Blue Evolved Vegeta's character-specific Final Flash variant; it is not a normal CaC-acquirable Super."
     },
     {
       "name": "Flash Chaser",
@@ -3676,7 +3676,7 @@
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": ""
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Energy Release as a character-exclusive/non-CaC skill rather than a separately acquirable avatar skill."
     },
     {
       "name": "Final Charge",
@@ -3701,7 +3701,7 @@
       "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "race_restriction": "Character-only",
       "acquisition_type": "other_nonquest",
-      "notes": ""
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Final Charge as a Super Saiyan Blue Evolved Vegeta character-exclusive skill; it is not a separately acquirable CaC skill."
     },
     {
       "name": "Full Power Charge",
@@ -3775,7 +3775,7 @@
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": ""
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Instant Charge as a Mira (Final Form) character-exclusive skill; raid/boss usage does not establish a CaC acquisition route."
     },
     {
       "name": "Instant Transmission",
@@ -3966,7 +3966,7 @@
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": ""
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Rising Rage as Broly (Restrained)'s character-exclusive skill; no normal CaC acquisition route is established."
     },
     {
       "name": "Shield Barrier",
@@ -4085,7 +4085,7 @@
       "source_quest_or_shop": "Character-exclusive",
       "mechanics_notes": "Current evidence documents Surging Spirit as an Ultra Instinct built-in CaC action rather than a separately acquired equipable skill; its N/A unlock route is therefore retained.",
       "acquisition_type": "other_nonquest",
-      "notes": "Built-in Ultra Instinct action; not a separately acquired equipable skill."
+      "notes": "2026-09-20 roster-status refinement: this is a built-in Ultra Instinct action rather than a separately acquired equipable skill; its character-specific implementation should not be treated as a standalone CaC skill acquisition route."
     },
     {
       "name": "Time Bullet",
