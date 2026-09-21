@@ -3707,3 +3707,5 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `3151abebffa7f137e4aaa6511099a8a5c7002280` (Validate acquisition eligibility invariants).
 - CI/status for this commit should be checked next; do not infer success if GitHub reports no workflow/status records.
 - Exact next task: continue auditing canonical acquisition provenance against maintained reward/shop evidence, then inspect validator coverage for remaining cross-field invariants (especially acquisition type vs source_quest, source_quest_or_shop, usable_by_cac, and character_source).
+- Follow-up correction: the first eligibility-invariant edit introduced a malformed same-line `if`; this was immediately corrected in commit `59ddad88a89c4d402acbfc2a5c85e9bacf947033`. The fetched validator now shows the affected guards correctly indented inside the record loop.
+- CI/status check for `3151abebffa7f137e4aaa6511099a8a5c7002280` returned no statuses/workflow runs. CI for the correction commit `59ddad88a89c4d402acbfc2a5c85e9bacf947033` is likewise currently absent; no success/failure is inferred.
