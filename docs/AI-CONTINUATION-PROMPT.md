@@ -6555,3 +6555,14 @@ The repository owner has clarified the continuation contract:
 - **Validation target:** 452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, source/verification parity, internal citation-artifact scan, and 53 exactly-two-source records after successful strengthening.
 - **CI:** inspect exposed status/workflow results; do not claim CI success without an actual check/run.
 - **Exact next task:** recompute the live two-source census and continue with **Do or Die (skill-do-or-die)**, verifying PQ49 source and Basic Reward tier before adding provenance.
+
+
+### 2026-09-21 cycle update — Do or Die low-source provenance
+- **Workstream:** P1 skill acquisition/source provenance cleanup.
+- **Pre-batch:** 53 exactly-two-source records across 452 canonical/index records.
+- **Completed:** Do or Die (`skill-do-or-die`), strengthened from 2 to 3 sources.
+- **Evidence:** second maintained Steam PQ reward transcription independently lists Do or Die under PQ49 — Namek Berserker; existing Basic Reward semantics retained.
+- **Commits:** canonical `1acaa6ae5740f168d64836eb2b35dd454007524c`; index `7dea06d767066ec528930db71f447dbdb9870791`.
+- **Validation target:** 52 exactly-two-source records, 452/452 parity, no duplicate IDs/null Ki, and clean artifact scan.
+- **CI:** inspect exposed status/workflow results; do not claim success without an actual check/run.
+- **Exact next task:** recompute the census and continue with **Dragon Thunder (`skill-dragon-thunder`)**, verifying source quest and reward tier before provenance addition.
