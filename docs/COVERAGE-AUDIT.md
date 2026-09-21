@@ -5112,3 +5112,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - All ten canonical records already contained the documented basic rewards and corresponding skill/equipment/Super Soul relationship fields. No canonical reward data change was required.
 - Research coverage remains 186/186 PQs with 0 missing and 0 duplicate quest numbers.
 - Exact reward-slot probabilities remain unresolved where the maintained research does not establish them; no unsupported Ultimate Finish-only semantics were introduced.
+
+### 2026-09-21 — Future Saga Chapter 1 skill provenance correction
+- Corrected **Divine Ray Bomb** DLC provenance from Future Saga Chapter 2 to **Future Saga Chapter 1**. PQ173 “Decoding Dinner” is a Chapter 1 quest, and maintained DLC evidence lists Divine Ray Bomb among the Chapter 1 skill set.
+- Corrected the display-name mismatch **Giant Cluster → Gigantic Cluster** while retaining skill-giant-cluster as the stable ID.
+- Synchronized the skill index's stale record count from 428 to **429**.
+- Validation: 429 canonical records, 429 index records, 0 duplicate IDs, and 15 Chapter 1 DLC-labeled skill records.
