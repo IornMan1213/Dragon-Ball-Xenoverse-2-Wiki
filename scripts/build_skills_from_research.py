@@ -93,6 +93,15 @@ def load_existing():
  return m
 def merge_record(m,r,protected=None,blocked=None):
  protected=protected if protected is not None else set(); blocked=blocked if blocked is not None else set()
+ try:
+  schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
+ except (OSError,json.JSONDecodeError) as exc:
+  raise RuntimeError(f'Failed to load canonical skill schema {SCHEMA}: {exc}') from exc
+ properties=schema.get('properties')
+ if not isinstance(properties,dict) or not properties:
+  raise ValueError(f'{SCHEMA}: schema properties must be a non-empty object')
+ canonical_fields=set(properties)
+ canonical_fields.discard('sources')
  n=r.get('name')
  if not isinstance(n,str) or not n.strip():return False
  target_class=r.get('class',''); target_subcategory=r.get('subcategory','')
@@ -113,7 +122,7 @@ def merge_record(m,r,protected=None,blocked=None):
  if not c and k in protected:
   old=m.get(k,{})
   for field,value in r.items():
-   if field in ('correction_of','correction_fields') or value in (None,'',[],'—'):continue
+   if field in ('correction_of','correction_fields') or field not in canonical_fields or value in (None,'',[],'—'):continue
    if field not in old or old.get(field) in (None,'',[],'—'):old[field]=value
   old['sources']=normalize_sources(old.get('sources',[])+r.get('sources',[]))
   m[k]=old
@@ -126,15 +135,6 @@ def merge_record(m,r,protected=None,blocked=None):
    raise ValueError(f"invalid correction metadata for {n}: correction_fields must be a non-empty list of unique field names")
   if 'sources' in declared_fields:
    raise ValueError(f"invalid correction metadata for {n}: sources is provenance and cannot be replaced or cleared by correction_fields")
-  try:
-   schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
-  except (OSError,json.JSONDecodeError) as exc:
-   raise RuntimeError(f'Failed to load canonical skill schema {SCHEMA}: {exc}') from exc
-  properties=schema.get('properties')
-  if not isinstance(properties,dict) or not properties:
-   raise ValueError(f'{SCHEMA}: schema properties must be a non-empty object')
-  canonical_fields=set(properties)
-  canonical_fields.discard('sources')
   unsupported=[field for field in declared_fields if field not in canonical_fields]
   if unsupported:
    raise ValueError(f"invalid correction metadata for {n}: unsupported correction fields: {', '.join(unsupported)}")
@@ -145,7 +145,7 @@ def merge_record(m,r,protected=None,blocked=None):
   if k in m and k != oldkey:
    raise ValueError(f"correction destination already exists for {n}: {r.get('class','')}/{r.get('subcategory','')}")
   m.pop(oldkey,None); blocked.add(oldkey); protected.add(k)
- old=m.get(k,{}) ; out=dict(r); fields=set(r.get('correction_fields',[]))
+ old=m.get(k,{}) ; out={field:value for field,value in r.items() if field in canonical_fields}; fields=set(r.get('correction_fields',[]))
  for x,v in old.items():
   if x not in fields and v not in (None,'',[],'—'):out[x]=v
  out['sources']=normalize_sources(old.get('sources',[])+r.get('sources',[])); out.pop('correction_fields',None); out.pop('correction_of',None); m[k]=out; return True
