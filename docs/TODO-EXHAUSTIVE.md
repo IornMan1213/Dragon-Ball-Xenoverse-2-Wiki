@@ -1421,3 +1421,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Live research coverage remains **186/186 canonical PQs / 186/186 research-batch records / 0 missing / 0 duplicate**.
 - [x] Exact reward-slot/drop percentages remain unresolved where the research batch does not establish them; no unsupported Ultimate Finish-only gate was inferred.
 - [ ] Next PQ reward task: recompute the live reward-completeness census and select the next bounded PQ range with deterministic research-backed reward gaps.
+
+### 2026-09-21 — Master ledger completion marking: Future Saga Chapter 1 skill provenance correction
+- [x] Audited the complete **15-skill Future Saga Chapter 1** cluster against official DLC scope and maintained PQ evidence.
+- [x] Corrected **Divine Ray Bomb** from Future Saga Chapter 2 to Future Saga Chapter 1; PQ173 is a Chapter 1 quest and the official/maintained DLC inventory places the skill in Chapter 1.
+- [x] Corrected display-name mismatch **Giant Cluster → Gigantic Cluster** while preserving the stable skill-giant-cluster ID.
+- [x] Synchronized docs/data/skills-index.json to the canonical 429-record count and changed records.
+- [x] Validation: **429 canonical / 429 index / 0 duplicate IDs / 15 Chapter 1 skill records**.
+- [ ] Next task: recompute the live DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness mismatch.
