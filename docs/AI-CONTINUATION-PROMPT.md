@@ -3339,3 +3339,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Evidence limitation: the cleanup was deliberately limited to a provenance contradiction that could be falsified directly from the maintained repository PQ corpus. No missing acquisition condition was inferred.
 - Current unresolved scope: genuine source conflicts remain documented, including Emperor's Cannon's PQ183/PQ184 provenance conflict and other reward-table vs explicit-drop-condition discrepancies.
 - Exact next task: **continue the non-PQ source-quality audit, prioritizing time-rift/story/shop records whose provenance notes may contradict their canonical acquisition fields; preserve genuine source conflicts and do not infer missing conditions.**
+
+
+### 2026-09-20 cycle update — wish and TP Medal Shop provenance refinement
+- Continued the non-PQ source-quality audit.
+- Refined **6** records: Flash Fist Crush, Burst Reflection, Namek Finger, Emperor's Death Beam, Final Explosion, and Divine Lasso.
+- Flash Fist Crush is now explicitly the first result/use of Shenron's “I want a new Super Attack!” wish; Burst Reflection is explicitly the second result/use. This follows dedicated current skill/wish evidence and removes ambiguity without inventing a quest route.
+- Namek Finger, Emperor's Death Beam, and Final Explosion now include their documented historical TP Medal Shop prices (30, 25, and 200 TP Medals respectively). These are labeled as documented listings, not asserted as current rotation prices.
+- Divine Lasso now explicitly retains TP Medal Shop plus STP Medal Shop and Double Crystal Raid acquisition routes; official Bandai Namco evidence confirms its TP Medal Shop appearance.
+- Validation: canonical/index **283/283**, zero duplicate names, **60** UF flags. Acquisition-critical fields remain exactly synchronized between canonical and index.
+- Coverage audit commit: **5bb2b2bf12b51ced89d80cf64410cc56e1d03bb5**. Canonical/index commits: **d218e94418ecf5b42acb971fdce2b3b31fde83d1** and **163629ac6a3837ef5fdca518a10436d23965653e**.
+- Evidence limitation: historical shop prices are preserved as historical documentation; current rotation timing/price is not inferred from old listings.
+- Exact next task: **continue auditing remaining non-PQ records with terse shop/wish/character-only provenance, especially records whose unlock text is generic while dedicated sources can establish a concrete route. Preserve genuine uncertainty.**
