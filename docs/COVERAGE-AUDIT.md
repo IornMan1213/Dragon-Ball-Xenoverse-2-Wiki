@@ -4191,3 +4191,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Normalized explicit UF wording for Earth Splitting Galick Gun (PQ11), Raid Blast (PQ136), and Blazing Attack (PQ136), where maintained reward evidence supported the UF flag but the unlock method still said Basic Reward.
 - Added validator coverage so future true-UF records must expose explicit UF provenance in unlock_method or source_quest_or_shop.
 - Canonical/index remain synchronized at 283 records; no acquisition route or scope changed.
+
+## 2026-09-21 accessory PQ identity reconciliation
+
+- Reconciled eight previously unmatched PQ accessory research identities into the canonical accessory identity layer: **Four-Star Dragon Ball Hat (PQ5), Chiaotzu's Hat (With Collar) (PQ9), Dore's Scouter (PQ27), Great Saiyaman Bandana 1 (PQ51), Great Saiyaman Bandana 2 (PQ53), Jaco's State-of-the-Art Radio (PQ72), Tagoma's Scouter (PQ73), and SSGSS Goku Wig (PQ76)**.
+- Updated `docs/data/accessory-canonical-reconciliation.json`, `docs/data/accessory-pq-canonical-bridge.json`, and `docs/data/pq-accessory-crosslink-report.json` together so these routes can now be traversed by deterministic canonical accessory ID.
+- Evidence used: maintained 186-PQ reward guide; current equipment/accessory guide; Dragon Ball reference material for Jaco's Galactic Receiver and scouter identity; archived acquisition reports for Tagoma's Scouter and SSGSS Goku Wig.
+- Preserved uncertainty: these records remain `partially_verified`; no drop probability, Ultimate Finish gate, or shop/rotation behavior was inferred beyond the cited route evidence.
+- Live accessory cross-link coverage moved from **25 matched / 20 unmatched research records / 88 canonical identities** to **33 matched / 12 unmatched research records / 96 canonical identities**.
