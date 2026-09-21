@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 50,
+  "canonical_target_records": 58,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -107,6 +107,30 @@
       "target_name": "Leave the rest to me!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/leave-the-rest-to-me.md"
+    },
+    {
+      "pq_id": "pq-093",
+      "pq_number": 93,
+      "target_id": "super-soul-060",
+      "target_name": "I...hate you!!!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-hate-you.md"
+    },
+    {
+      "pq_id": "pq-160",
+      "pq_number": 160,
+      "target_id": "super-soul-061",
+      "target_name": "Is that all?",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/is-that-all.md"
+    },
+    {
+      "pq_id": "pq-180",
+      "pq_number": 180,
+      "target_id": "super-soul-062",
+      "target_name": "Damn it all!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/damn-it-all.md"
     }
   ],
   "reverse_edges": [
@@ -238,6 +262,36 @@
       ],
       "pq_numbers": [
         131
+      ]
+    },
+    {
+      "target_id": "super-soul-060",
+      "target_name": "I...hate you!!!",
+      "pq_ids": [
+        "pq-093"
+      ],
+      "pq_numbers": [
+        93
+      ]
+    },
+    {
+      "target_id": "super-soul-061",
+      "target_name": "Is that all?",
+      "pq_ids": [
+        "pq-160"
+      ],
+      "pq_numbers": [
+        160
+      ]
+    },
+    {
+      "target_id": "super-soul-062",
+      "target_name": "Damn it all!",
+      "pq_ids": [
+        "pq-180"
+      ],
+      "pq_numbers": [
+        180
       ]
     }
   ],
@@ -425,6 +479,31 @@
     {
       "target_id": "super-soul-054",
       "target_name": "Leave my daddy alone!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-056",
+      "target_name": "I refuse to give up...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-057",
+      "target_name": "Can I attack now?",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-058",
+      "target_name": "Now I'm MAD!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-059",
+      "target_name": "I-I'm sorry!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-063",
+      "target_name": "Zudodoeyaahh!",
       "reason": "no_explicit_pq_endpoint"
     }
   ]
