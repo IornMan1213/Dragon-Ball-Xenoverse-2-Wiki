@@ -1467,3 +1467,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation: **443 canonical / 443 index / 0 duplicate IDs / 0 nullable `ki_cost` values / 8 Extra Pack 2 records**.
 - [x] Canonical commit: `cb7cae9327cdf4b6881d6238e69bae1204ba5b9c`; index commit: `ae196b957734334a964b59f6206815a48385d167`.
 - [ ] Next task: recompute the live DLC/free-update census and select the next deterministic completeness/provenance cluster with a concrete missing endpoint or mismatch.
+
+
+### 2026-09-21 — Master ledger completion marking: DLC package-count semantics reconciliation
+- [x] Recomputed the live DLC-labeled skill census at **443 canonical / 443 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- [x] Audited official package skill/move counts against canonical DLC labels for Ultra Pack 1, Conton City Vote Pack, Extra Pack 3, and Extra Pack 4.
+- [x] Confirmed Ultra Pack 1's **13** canonical records consist of the official **10 Additional Skills** plus three documented character-exclusive Ultra Pack 1 skills: Final Charge, Final Flash (Super), and Pretty Charge.
+- [x] Confirmed Conton City Vote Pack's **11** canonical records consist of the official **10 Additional Moves** plus character-only Supersonic Mode; retained the composite DLC label rather than deleting the character-only endpoint.
+- [x] Confirmed Extra Pack 3 and Extra Pack 4 each have exactly **8** canonical skill records matching official package counts.
+- [x] Determined that this census produced no demonstrated canonical missing endpoint or provenance mismatch; no gameplay data rewrite was made.
+- [x] Coverage audit commit: `b76b6b4c2300e000bfad6a4de9071d8ea0b4e6da`.
+- [ ] Next task: continue the DLC/free-update census into remaining free-update/composite labels and identify a concrete missing endpoint or provenance mismatch before modifying canonical data.
