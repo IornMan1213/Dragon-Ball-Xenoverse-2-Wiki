@@ -5781,3 +5781,25 @@ The repository owner has clarified the continuation contract:
 - TODO synchronization: docs/TODO-EXHAUSTIVE.md received a permanent dated [x] completion entry.
 - CI: next cycle must inspect Actions for commits 39718f8177bf15363db688643d5d00215caec74e and the TODO commit; do not claim CI success without an actual result.
 - Exact next task: **Meteor Crash**. Recompute the live nullable census first, obtain direct current Ki-cost evidence, make only the bounded canonical update, validate, synchronize the TODO ledger, inspect Actions, and append the next handoff entry.
+
+
+### 2026-09-21 cycle update — remaining bounded skill Ki-cost batch
+- Workstream: P1 skill resource-cost verification, following the prior bounded cost audits.
+- Live census before editing: 428 canonical skills; the prior unresolved Ki-cost queue contained Meteor Crash, Fighting Pose C, Psycho Escape, and Kaioken Kamehameha, with Dimension Cannon already documented as a Stamina-only exception.
+- Researched and verified:
+  - Meteor Crash — **100 Ki base activation**; current evidence states continued input consumes additional Ki to slightly more than 300 Ki total.
+  - Fighting Pose C — **0 Ki**.
+  - Psycho Escape — **0 Ki / 200 Stamina**; Evasive activation uses Stamina rather than Ki.
+  - Kaioken Kamehameha — **200 Ki**.
+- Evidence: current Xenoverse 2 skill-reference pages for each target, with PQ/reward corroboration for the acquisition context. citeturn1search0turn2search0turn1search6turn1search1
+- Files changed: `docs/data/skills.json` and `docs/data/skills-index.json`.
+- Canonical changes were limited to the resource-cost fields, the variable-cost note for Meteor Crash, and `last_verified=2026-09-21`.
+- Post-write validation: **428 records; 0 duplicate IDs; 1 nullable `ki_cost` record**. The remaining nullable record is Dimension Cannon, whose current canonical state is intentionally `ki_cost=null` with `stamina_cost=300` because it is a Stamina-only Evasive.
+- CI: commit-associated workflow lookup for both data-update commits returned no workflow runs; no CI success is claimed. Validators were not weakened.
+- Commits: `9ba6a3c73fc18b3044727f0b8fc22bbb3e2e5354` (canonical skills), `363ffdf25d1a7c43cd9bbcfeda744acb09a372cf` (skills index).
+- Exact next task: **recompute the live acquisition/DLC-version provenance census and select a bounded canonical batch**, beginning with the highest-impact evidence-backed records; preserve existing values and uncertainty and do not reopen the completed Ki-cost queue without contradictory evidence.
+
+### 2026-09-21 handoff correction — live Ki-cost state supersedes earlier queue notes
+- The earlier handoff entries that list Meteor Crash, Fighting Pose C, Psycho Escape, and Kaioken Kamehameha as unresolved Ki-cost work are retained as historical state.
+- The authoritative live state is now: **428 canonical skills; 0 duplicate IDs; 1 nullable `ki_cost` record, Dimension Cannon by design**.
+- Next cycle should not spend context re-researching those four costs. Move to acquisition/DLC-version provenance cleanup after a fresh live census.
