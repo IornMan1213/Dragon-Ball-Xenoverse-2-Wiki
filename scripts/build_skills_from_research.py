@@ -146,10 +146,12 @@ def build_record(d,p):
  c,s=classify(d); src=f'https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{p.name}'; r={'name':n,'class':c,'subcategory':s,'verification_status':'partially_verified','research_status':'partially_enriched','sources':[src]}
  if isinstance(d.get('sources'),list):r['sources'] += normalize_sources(d.get('sources',[]))
  if d.get('kiCost') is not None:r['ki_cost']=d['kiCost']
+ if d.get('staminaCost') is not None:r['stamina_cost']=d['staminaCost']
  if d.get('element'):r['damage_type']=str(d['element']).title()
  if d.get('source'):r['source_quest_or_shop']=d['source']; r['unlock_method']='See source record'
  if d.get('mentor'):r['character_source']=d['mentor']
  if isinstance(d.get('properties'),list) and d['properties']:r['mechanics_notes']=r['skill_description']='; '.join(map(str,d['properties']))
+ if d.get('mechanics'):r['mechanics']=str(d['mechanics'])
  if d.get('summary'):r.setdefault('skill_description',str(d['summary']))
  if d.get('lastVerified'):r['last_verified']=str(d['lastVerified'])
  r['acquisition_type']=classify_acquisition(d)
