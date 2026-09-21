@@ -3415,3 +3415,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
 - Audit commit: **7c7aa66516884e522eef59d7b136ddc79e1bd2af**.
 - Exact next task: **continue source-quality auditing generic shop records, then move to remaining under-specified non-PQ records only when a concrete, independently supported acquisition condition exists.**
+
+
+### 2026-09-20 cycle update — shop-route evidence recheck
+- Rechecked Bending Kamehameha, Big Bang Kamehameha, and Divine Kamehameha against dedicated skill pages and Future Warrior acquisition references.
+- Existing routes remain supported; no additional prerequisite is sufficiently established to encode.
+- Historical TP Medal Shop price/rotation evidence remains explicitly historical/documented and was not converted into current availability claims.
+- No dataset changes were necessary.
+- Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
+- Audit commit: **bf15e82a5408b0a10911967aeab5d9b3fdc03ea7**.
+- Exact next task: **continue under-specified acquisition records, prioritizing route conflicts and mixed character-only/CaC evidence.**
