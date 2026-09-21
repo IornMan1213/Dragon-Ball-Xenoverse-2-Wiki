@@ -1451,7 +1451,7 @@
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Data Input in the EM20 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
       "mechanics_notes": "Confirmed as Android 13's 100-Ki Power Up Super from Expert Mission 20, usable by all CaC races. It grants an approximately 20-second automatic-dodge window against incoming attacks.",
-      "source_quest": "Expert Mission 20 — Harbinger of Doom",
+      "source_quest": "EM-20",
       "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom"
     },
     {
@@ -3029,7 +3029,7 @@
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance refinement: maintained Parallel Quest reward evidence places Final Pose in PQ74 — \"Galactic Patrol, Away!\" Basic Rewards. Independent player documentation also identifies PQ74 as the acquisition route. No Skill Shop route or Ultimate Finish requirement is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
-      "source_quest": "PQ74 — \"Galactic Patrol Away\"",
+      "source_quest": 74,
       "source_quest_or_shop": "Parallel Quest 74 — \"Galactic Patrol Away\"",
       "source_parallel_quests": [
         74
@@ -3982,7 +3982,7 @@
       "unlock_method": "Basic Reward in Parallel Quest 90.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
-      "race_restriction": "Majin",
+      "race_restriction": "Majin CaCs",
       "notes": "",
       "mechanics_notes": "Dedicated current-version evidence confirms Ill Bomber as a **100-Ki Ki Blast Super** from PQ90. It is an unblockable close-range explosion that makes the user invisible; it is restricted to Majin CaCs. Explicit current reward evidence lists this skill in PQ90's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
       "source_quest": 90,
@@ -6735,7 +6735,7 @@
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Super Spirit Bomb in the EM16 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
       "mechanics_notes": "300 Ki Ki Blast Ultimate from Expert Mission 16; charges and throws a large Spirit Bomb projectile.",
-      "source_quest": "Expert Mission 16 — In the Realm of the Gods: Vegeta",
+      "source_quest": "EM-16",
       "source_quest_or_shop": "Expert Mission 16 - In the Realm of the Gods: Vegeta"
     },
     {
@@ -6782,7 +6782,7 @@
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 reward-tier refinement: maintained/independent Expert Mission evidence explicitly lists Supernova in the EM6 Basic Reward pool; no Ultimate Finish-only condition is inferred.",
       "mechanics_notes": "500 Ki Ki Blast Ultimate from Expert Mission 6; creates and throws a large Supernova energy sphere.",
-      "source_quest": "Expert Mission 6 — The Depths of Despair",
+      "source_quest": "EM-6",
       "source_quest_or_shop": "Expert Mission 6"
     },
     {
