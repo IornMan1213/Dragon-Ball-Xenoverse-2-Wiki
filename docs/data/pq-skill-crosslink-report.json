@@ -4,12 +4,14 @@
   "generated_at": "2026-09-21",
   "canonical_pq_records": 186,
   "canonical_skill_records": 429,
-  "forward_edge_count": 236,
-  "reverse_skill_endpoint_count": 236,
+  "forward_edge_count": 243,
+  "reverse_skill_endpoint_count": 244,
   "unresolved_forward_edges": [],
-  "orphaned_reverse_sources": [],
+  "orphaned_reverse_sources": [
+    "113|skill-candy-beam"
+  ],
   "status": "resolved",
-  "interpretation": "Bidirectional PQ skill relationship audit synchronized to the current canonical skill registry. Reward spelling aliases resolve to deterministic canonical skill IDs.",
+  "interpretation": "Bidirectional PQ skill relationship audit synchronized to the current canonical PQ and skill registries. Reward spelling aliases resolve to deterministic canonical skill IDs.",
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -97,6 +99,54 @@
       "skill_id": "skill-earth-splitting-galick-gun",
       "skill": "Earth Splitting Galick Gun",
       "canonical_skill": "Earth Splitting Galick Gun",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-011",
+      "pq_number": 11,
+      "skill_id": "skill-time-control",
+      "skill": "Time Control",
+      "canonical_skill": "Time Control",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-011",
+      "pq_number": 11,
+      "skill_id": "skill-mach-dash",
+      "skill": "Mach Dash",
+      "canonical_skill": "Mach Dash",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-012",
+      "pq_number": 12,
+      "skill_id": "skill-meteor-crash",
+      "skill": "Meteor Crash",
+      "canonical_skill": "Meteor Crash",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-013",
+      "pq_number": 13,
+      "skill_id": "skill-fighting-pose-c",
+      "skill": "Fighting Pose C",
+      "canonical_skill": "Fighting Pose C",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-013",
+      "pq_number": 13,
+      "skill_id": "skill-psycho-escape",
+      "skill": "Psycho Escape",
+      "canonical_skill": "Psycho Escape",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-014",
+      "pq_number": 14,
+      "skill_id": "skill-kaioken-kamehameha",
+      "skill": "Kaioken Kamehameha",
+      "canonical_skill": "Kaioken Kamehameha",
       "match": "exact"
     },
     {
@@ -350,10 +400,10 @@
     {
       "pq_id": "pq-046",
       "pq_number": 46,
-      "skill_id": null,
-      "skill": "Chain Destructo-disc Barrage",
-      "canonical_skill": null,
-      "match": "alias"
+      "skill_id": "skill-chain-destructo-disc-barrage",
+      "skill": "Chain Destructo-Disc Barrage",
+      "canonical_skill": "Chain Destructo-Disc Barrage",
+      "match": "exact"
     },
     {
       "pq_id": "pq-048",
@@ -361,6 +411,14 @@
       "skill_id": "skill-kamehameha",
       "skill": "Kamehameha",
       "canonical_skill": "Kamehameha",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-049",
+      "pq_number": 49,
+      "skill_id": "skill-do-or-die",
+      "skill": "Do or Die",
+      "canonical_skill": "Do or Die",
       "match": "exact"
     },
     {
@@ -417,6 +475,14 @@
       "skill_id": "skill-stone-bullet",
       "skill": "Stone Bullet",
       "canonical_skill": "Stone Bullet",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-057",
+      "pq_number": 57,
+      "skill_id": "skill-rakshasa-s-claw",
+      "skill": "Rakshasa's Claw",
+      "canonical_skill": "Rakshasa's Claw",
       "match": "exact"
     },
     {
@@ -505,6 +571,14 @@
       "skill_id": "skill-candy-beam",
       "skill": "Candy Beam",
       "canonical_skill": "Candy Beam",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-066",
+      "pq_number": 66,
+      "skill_id": "skill-warp-kamehameha",
+      "skill": "Warp Kamehameha",
+      "canonical_skill": "Warp Kamehameha",
       "match": "exact"
     },
     {
@@ -660,6 +734,22 @@
       "match": "exact"
     },
     {
+      "pq_id": "pq-086",
+      "pq_number": 86,
+      "skill_id": "skill-neo-wolf-fang-fist",
+      "skill": "Neo Wolf Fang Fist",
+      "canonical_skill": "Neo Wolf Fang Fist",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-087",
+      "pq_number": 87,
+      "skill_id": "skill-atomic-blast",
+      "skill": "Atomic Blast",
+      "canonical_skill": "Atomic Blast",
+      "match": "exact"
+    },
+    {
       "pq_id": "pq-088",
       "pq_number": 88,
       "skill_id": "skill-buu-buu-ball",
@@ -791,9 +881,9 @@
       "pq_id": "pq-104",
       "pq_number": 104,
       "skill_id": "skill-destruction-s-concerto-starfall",
-      "skill": "Starfall",
+      "skill": "Destruction's Concerto: Starfall",
       "canonical_skill": "Destruction's Concerto: Starfall",
-      "match": "alias"
+      "match": "exact"
     },
     {
       "pq_id": "pq-105",
@@ -817,6 +907,30 @@
       "skill_id": "skill-god-of-destruction-s-roar",
       "skill": "God of Destruction's Roar",
       "canonical_skill": "God of Destruction's Roar",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-106",
+      "pq_number": 106,
+      "skill_id": "skill-destruction-s-concerto-meteor",
+      "skill": "Destruction's Concerto: Meteor",
+      "canonical_skill": "Destruction's Concerto: Meteor",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-106",
+      "pq_number": 106,
+      "skill_id": "skill-requiem-of-destruction",
+      "skill": "Requiem of Destruction",
+      "canonical_skill": "Requiem of Destruction",
+      "match": "exact"
+    },
+    {
+      "pq_id": "pq-106",
+      "pq_number": 106,
+      "skill_id": "skill-destruction-s-conductor",
+      "skill": "Destruction's Conductor",
+      "canonical_skill": "Destruction's Conductor",
       "match": "exact"
     },
     {
@@ -878,9 +992,9 @@
     {
       "pq_id": "pq-113",
       "pq_number": 113,
-      "skill_id": "skill-candy-beam",
-      "skill": "Candy Beam",
-      "canonical_skill": "Candy Beam",
+      "skill_id": "skill-candy-beam-super",
+      "skill": "Candy Beam (Super)",
+      "canonical_skill": "Candy Beam (Super)",
       "match": "exact"
     },
     {
@@ -1841,62 +1955,6 @@
       "skill_id": "skill-venus-fist",
       "skill": "Venus Fist",
       "canonical_skill": "Venus Fist",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-011",
-      "pq_number": 11,
-      "skill_id": "skill-time-control",
-      "skill": "Time Control",
-      "canonical_skill": "Time Control",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-011",
-      "pq_number": 11,
-      "skill_id": "skill-mach-dash",
-      "skill": "Mach Dash",
-      "canonical_skill": "Mach Dash",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-066",
-      "pq_number": 66,
-      "skill_id": "skill-warp-kamehameha",
-      "skill": "Warp Kamehameha",
-      "canonical_skill": "Warp Kamehameha",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-012",
-      "pq_number": 12,
-      "skill_id": "skill-meteor-crash",
-      "skill": "Meteor Crash",
-      "canonical_skill": "Meteor Crash",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-013",
-      "pq_number": 13,
-      "skill_id": "skill-fighting-pose-c",
-      "skill": "Fighting Pose C",
-      "canonical_skill": "Fighting Pose C",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-013",
-      "pq_number": 13,
-      "skill_id": "skill-psycho-escape",
-      "skill": "Psycho Escape",
-      "canonical_skill": "Psycho Escape",
-      "match": "exact"
-    },
-    {
-      "pq_id": "pq-014",
-      "pq_number": 14,
-      "skill_id": "skill-kaioken-kamehameha",
-      "skill": "Kaioken Kamehameha",
-      "canonical_skill": "Kaioken Kamehameha",
       "match": "exact"
     }
   ]
