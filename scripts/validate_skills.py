@@ -17,8 +17,8 @@ def main():
  d=json.loads(DATA.read_text(encoding='utf-8')); idx=json.loads(INDEX.read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
  ALLOWED_CLASS=set(schema['properties']['class']['enum']); ALLOWED_SUB=set(schema['properties']['subcategory']['enum']); ALLOWED_RESEARCH=set(schema['properties']['research_status']['enum']); ALLOWED_ACQUISITION=set(schema['properties']['acquisition_type']['enum'])
  projection=set(INDEX_PROJECTION_FIELDS); schema_fields=set(schema.get('properties',{}))
- if not projection.issubset(schema_fields):errors.append(f"index projection contains non-canonical fields: {', '.join(sorted(projection-schema_fields))}")
  rs=d.get('records',[]); ir=idx.get('records',[]); errors=[]
+ if not projection.issubset(schema_fields):errors.append(f"index projection contains non-canonical fields: {', '.join(sorted(projection-schema_fields))}")
  if Draft202012Validator is None:
   errors.append('jsonschema dependency is required for JSON Schema validation')
  else:
@@ -39,6 +39,15 @@ def main():
  keys=[key(r) for r in rs]
  if len(keys)!=len(set(keys)):errors.append('duplicate canonical skill keys')
  if keys!=sorted(keys):errors.append('skills.json records are not in deterministic (casefolded name, class, subcategory) order')
+ actual_counts={}
+ for r in rs:
+  label='Transformations' if r.get('class')=='Awoken' and r.get('subcategory')=='Race' else r.get('subcategory')
+  actual_counts[label]=actual_counts.get(label,0)+1
+ expected_counts=d.get('category_counts',{})
+ for label,count in actual_counts.items():
+  if label=='Transformations': continue
+  if expected_counts.get(label)!=count:errors.append(f"skills.json category_counts mismatch for {label}: expected {expected_counts.get(label)}, actual {count}")
+ if expected_counts.get('Transformations')!=actual_counts.get('Transformations',0):errors.append('skills.json Transformations count does not match Awoken/Race record count')
  for r in rs:
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
