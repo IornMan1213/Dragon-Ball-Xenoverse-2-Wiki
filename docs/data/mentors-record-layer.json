@@ -1084,7 +1084,7 @@
         {
           "lesson": "lesson-3",
           "skill_name": "Time Skip/Tremor Pulse",
-          "skill_id": "skill-time-skip-tremor-pulse"
+          "skill_id": null
         }
       ],
       "skills": [
