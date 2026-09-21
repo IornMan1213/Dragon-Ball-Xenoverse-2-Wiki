@@ -4488,3 +4488,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: **33 mentors / 30 mentor-linked identities / 30 mentor→skill edges / 30 linked skill endpoints / 0 unresolved edges / 0 broken mentor endpoints**. Report and skills-index JSON parsed successfully; all promoted skill IDs exist in the canonical index.
 - CI: no workflow/status result was exposed; no CI success is claimed.
 - Exact next batch: **audit the next four mentors after Piccolo (Raditz, Gohan (Kid), Nappa, Vegeta), promoting only lesson mappings whose corresponding skill IDs exist and whose source_mentor provenance agrees.**
+
+### 2026-09-21 validation correction — mentor-skill census
+- The immediately preceding mentor reconciliation entry overstated the number of linked mentor identities. The verified live count is **33 canonical mentors / 14 mentors with linked skills / 30 mentor→skill edges / 30 unique skill endpoints / 0 unresolved edges / 0 broken skill endpoints**.
+- This is a documentation/count correction only; the 30 deterministic edges written to `docs/data/mentor-skill-crosslink-report.json` are unchanged.
+- Exact next batch remains **Raditz, Gohan (Kid), Nappa, and Vegeta**, using lesson mapping ↔ `source_mentor` parity.
+- Latest report validation was persisted in `docs/data/mentor-skill-crosslink-report.json`.
