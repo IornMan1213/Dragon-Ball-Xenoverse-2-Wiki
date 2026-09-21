@@ -12535,32 +12535,6 @@
       ]
     },
     {
-      "name": "III Bomber",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ill_Bomber",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
-      ],
-      "unlock_method": "Parallel Quest 90 reward.",
-      "ultimate_finish_required": false,
-      "usable_by_cac": true,
-      "source_quest_or_shop": "Parallel Quest 90",
-      "mechanics_notes": "Canonical identity, class, category, and acquisition source verified from dedicated skill evidence. Unsupported mechanics are intentionally deferred.",
-      "last_verified": "2026-09-21",
-      "research_status": "enriched",
-      "race_restriction": "Majin CaCs",
-      "source_quest": 90,
-      "dlc_requirement": "Base Game",
-      "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
-      "id": "skill-ill-bomber",
-      "source_parallel_quests": [
-        90
-      ]
-    },
-    {
       "name": "God of Destruction's Might",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -12691,7 +12665,7 @@
       ]
     }
   ],
-  "record_count": 429,
+  "record_count": 428,
   "skill_id_policy": {
     "format": "skill-{slug}",
     "slug_source": "name",
