@@ -9717,14 +9717,14 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
       ],
       "unlock_method": "Parallel Quest 186 — \"Time to Fight, Goku Black!\" Basic Reward",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim.",
+      "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim. 2026-09-21 provenance strengthening: Bandai Namco's July 8, 2026 official Future Saga Chapter 4 launch announcement independently confirms Chapter 4 includes Parallel Quests and additional moves; existing PQ186/Venus Fist acquisition semantics are unchanged.",
       "mechanics_notes": "500 Ki Strike Ultimate from the Future Saga Chapter 4 PQ reward pool. Exact drop/follow-up behavior remains under research. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Venus Fist. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Basic Reward route; the recorded condition is preserved without inference beyond the maintained corpus.",
       "source_quest": 186,
       "source_quest_or_shop": "Parallel Quest 186 — Basic Reward"
