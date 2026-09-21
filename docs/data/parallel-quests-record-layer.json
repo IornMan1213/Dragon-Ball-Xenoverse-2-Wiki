@@ -5511,7 +5511,12 @@
       "skill_rewards": [
         "Dragon Spiral",
         "Indomitable"
-      ]
+      ],
+      "skill_ids": [
+        "skill-dragon-spiral",
+        "skill-indomitable"
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-186",
@@ -5539,7 +5544,11 @@
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Venus Fist"
-      ]
+      ],
+      "skill_ids": [
+        "skill-venus-fist"
+      ],
+      "last_verified": "2026-09-21"
     }
   ],
   "record_count": 186,
