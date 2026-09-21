@@ -1512,3 +1512,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values / identical canonical-index ordering**.
 - [x] Commits: canonical `6eefd6470e7638488cc7740880028e3769fa5d3f`; index `cc98212b6ace7b56df6cda78efa5c5250a6c3f88`.
 - [ ] Next task: recompute the live DLC/free-update census and continue with the next deterministic character-only/DLC completeness mismatch or provenance correction outside already reconciled clusters.
+
+
+### 2026-09-21 — Master ledger completion marking: Emperor's Death Beam provenance correction
+- [x] Recomputed the live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- [x] Found a concrete provenance mismatch: **Emperor's Death Beam** carried the obsolete `Resurrection 'F' Pack` label.
+- [x] Corrected the canonical DLC classification to **Base Game** using Xenoverse 2 launch-era TP Medal Shop evidence.
+- [x] Preserved acquisition, cost, mechanics, CaC, and restriction fields; no index rewrite was required.
+- [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- [x] Canonical commit: `d61bb7e59769b02ea755f720fd58f1539cbabd8a`.
+- [ ] Next task: recompute the DLC/free-update provenance census and select the next concrete mismatch, prioritizing content-model conflicts over speculative enrichment.
