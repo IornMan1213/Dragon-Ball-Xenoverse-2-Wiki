@@ -700,3 +700,9 @@
 - Rebuilt `docs/data/mentor-skill-crosslink-report.json` to **33 canonical mentors / 18 linked mentors / 44 edges / 44 unique skill endpoints / 0 unresolved / 0 broken skill endpoints**.
 - No skill acquisition semantics were changed; this was a relationship-layer reconciliation only.
 - Exact next batch: **Zarbon, Dodoria, Captain Ginyu, and Frieza (1st Form)**, using the same lesson↔skill-ID↔source_mentor parity check.
+
+### 2026-09-21 cycle update — Zarbon/Dodoria/Captain Ginyu/Frieza mentor-skill reconciliation
+- Promoted **15 deterministic mentor→skill edges** supported by canonical mentor lesson mappings and matching `source_mentor` provenance: Zarbon (4), Dodoria (4), Captain Ginyu (4), Frieza (1st Form) (3 new). Frieza's existing Death Ball edge was preserved without duplication.
+- Rebuilt `docs/data/mentor-skill-crosslink-report.json` to **33 canonical mentors / 20 linked mentors / 59 edges / 59 unique skill endpoints / 0 unresolved / 0 broken skill endpoints**.
+- No skill acquisition semantics were changed; this was a relationship-layer reconciliation only.
+- Exact next batch: **Android 18, Android 17, Cell, and Hercule**, using the same lesson↔skill-ID↔source_mentor parity check.
