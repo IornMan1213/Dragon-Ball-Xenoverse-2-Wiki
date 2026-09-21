@@ -1583,3 +1583,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 ### 2026-09-21 — PQ171 provenance
 - [x] Strengthen Crimson Edge and Divine Spear with direct PQ171 evidence.
 - [ ] Continue the deterministic two-source audit.
+
+
+### 2026-09-21 — Master ledger completion marking: PQ172/PQ174 low-source provenance
+- [x] Recomputed the live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- [x] Completed the next deterministic post-PQ171 low-source acquisition cluster: **Wild Stinger (PQ172)** and **Final Rampage (PQ174)**.
+- [x] Strengthened both records from **2 → 3 sources** with the maintained Parallel Quests reference, preserving their existing PQ relationships and Future Saga Chapter 1 provenance.
+- [x] Preserved existing Ultimate Finish/drop-condition semantics. The maintained Steam all-PQ guide presents both skills in the reward list, while the repository's explicit drop-condition evidence records Wild Stinger at 45% UF and Final Rampage at 60% UF; no unsupported reinterpretation was made.
+- [x] Synchronized canonical/index source projections and verified **0 canonical-index source/verification mismatches**.
+- [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 63 exactly-two-source records remaining**.
+- [x] No internal AI/UI/search citation artifacts were introduced.
+- [ ] Next task: recompute the live two-source census and continue the next deterministic acquisition/provenance cluster after PQ174, checking reward-tier/source-PQ consistency before provenance-only strengthening.
