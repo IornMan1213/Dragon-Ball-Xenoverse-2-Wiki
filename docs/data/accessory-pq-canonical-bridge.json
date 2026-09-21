@@ -63,9 +63,9 @@
       "pq_record_id": "pqacc-008",
       "name": "Yamcha's Sword",
       "pq": 29,
-      "canonical_id": null,
-      "match_status": "conflicted_identity_route",
-      "note": "Canonical shop candidate is not assumed to be the same route; historical PQ36 association remains unresolved."
+      "canonical_id": "accr-104",
+      "match_status": "matched",
+      "note": "PQ36 is the directly documented reward route; the prior PQ29 value in this research record is superseded by the maintained reward table evidence."
     },
     {
       "pq_record_id": "pqacc-009",
@@ -330,9 +330,9 @@
   ],
   "summary": {
     "pq_records": 45,
-    "matched": 25,
-    "unmatched_or_unresolved": 20,
-    "note": "The 25 matched records are identity matches only. They do not promote reward conditions or drop rates to verified status."
+    "matched": 41,
+    "unmatched_or_unresolved": 4,
+    "note": "Matched records establish canonical identity only. They do not promote unsupported reward conditions or drop rates."
   },
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
