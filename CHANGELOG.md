@@ -899,3 +899,6 @@
 ## 2026-09-21 — Frieza mentor skill Ki-cost verification
 - Verified Death Beam (100), Death Crasher (100), and Death Slicer (100) Ki costs from current skill references.
 - The live canonical census contained three null-cost Frieza mentor records, so no unsupported fourth record was added.
+
+## 2026-09-21 — Cooler mentor skill Ki-cost verification
+- Verified Feint Crash (100), Fake Blast (100), and Supernova Cooler (500) Ki costs.
