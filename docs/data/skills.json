@@ -3984,12 +3984,14 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor%27s_Death_Beam",
         "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam",
-        "https://dragonball.fandom.com/wiki/Death_Beam"
+        "https://dragonball.fandom.com/wiki/Death_Beam",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74478792",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74518730"
       ],
       "ki_cost": 300,
       "last_verified": "2026-09-21",
       "ultimate_finish_required": false,
-      "dlc_requirement": "Resurrection 'F' Pack",
+      "dlc_requirement": "Base Game",
       "character_source": "Golden Frieza",
       "mechanics_notes": "Starts at 400 Ki and consumes additional available Ki while firing; the number of beams and total damage scale with the user's stored Ki. The documented skill page lists 400+ Ki used. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records.",
       "source_quest_or_shop": "TP Medal Shop",
@@ -3998,7 +4000,7 @@
       "race_restriction": "All CaC races",
       "research_status": "enriched",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms TP Medal Shop acquisition; the maintained historical shop listing records a 25 TP Medal price. No quest or Ultimate Finish route is inferred. 2026-09-21 DLC provenance verification: Emperor's Death Beam is content from the Resurrection 'F' Pack; the current acquisition route remains TP Medal Shop.",
+      "notes": "2026-09-21 DLC provenance correction: Xenoverse 2 launch-era TP Medal Shop evidence places Emperor's Death Beam in the base game's TP Medal Shop pool; it is not a Resurrection 'F' Pack endpoint. The prior Resurrection 'F' Pack label was a provenance mismatch with the Xenoverse 2 content model.",
       "id": "skill-emperor-s-death-beam"
     },
     {
