@@ -5083,6 +5083,14 @@
         "skill-ultrasonic-blitz",
         "skill-spirit-pulse",
         "skill-celestial-wave"
+      ],
+      "super_soul_ids": [
+        "super-soul-098",
+        "super-soul-100"
+      ],
+      "super_soul_rewards": [
+        "I'll keep adding a bit of power to my attacks!",
+        "I think I'm getting the hang of this."
       ]
     },
     {
@@ -5120,6 +5128,12 @@
       "skill_ids": [
         "skill-justice-kick",
         "skill-justice-blade"
+      ],
+      "super_soul_ids": [
+        "super-soul-101"
+      ],
+      "super_soul_rewards": [
+        "I will put a stop to you, fiend!"
       ]
     },
     {
@@ -5159,6 +5173,14 @@
         "skill-wild-buster",
         "skill-shield-barrier",
         "skill-counter-impact"
+      ],
+      "super_soul_ids": [
+        "super-soul-099",
+        "super-soul-102"
+      ],
+      "super_soul_rewards": [
+        "You're not much of a fun fight!",
+        "There's more where that came from!"
       ]
     },
     {
