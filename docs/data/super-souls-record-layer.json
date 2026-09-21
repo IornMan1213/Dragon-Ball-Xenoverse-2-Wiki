@@ -2795,6 +2795,240 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/emoc-htorf-peas-and-carrots.md",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
+    },
+    {
+      "id": "super-soul-104",
+      "name": "Looks like I mixed up the capsules...",
+      "character_source": "Doctor Briefs",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Raid Quest Event",
+      "acquisition_source": "Transforming Majin Buu Online Raid",
+      "trigger_condition": "Occasionally when using a capsule",
+      "effect_text": "Activates a capsule's effect without losing the capsule.",
+      "effect_magnitude": "",
+      "limit_burst": "Auto Just Guard",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Just Guard",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/looks-like-i-mixed-up-the-capsules.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-105",
+      "name": "I'll be the one to fight you!",
+      "character_source": "Gamma 1",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 157 — Whis's Training: Gohan's Awakening",
+      "trigger_condition": "When the battle begins",
+      "effect_text": "Temporarily (30 seconds): forces all enemies to target you; boosts all attacks; reduces damage taken; boosts stamina recovery speed.",
+      "effect_magnitude": "+30% all attacks; -30% damage taken; +30% stamina recovery speed",
+      "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "source_parallel_quests": [
+        "pq-157"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-be-the-one-to-fight-you.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-106",
+      "name": "This is your true power?",
+      "character_source": "Gamma 1",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 156 — Hunting Down Dr. Hedo",
+      "trigger_condition": "When using Just Guard",
+      "effect_text": "Temporarily reduces strength of all opponent attacks and temporarily increases damage taken from all attacks.",
+      "effect_magnitude": "-5% opponent attacks; -5% damage taken; 10 seconds",
+      "limit_burst": "Auto Just Guard",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Just Guard",
+      "source_parallel_quests": [
+        "pq-156"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/this-is-your-true-power.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-107",
+      "name": "You need to be more careful.",
+      "character_source": "Gamma 2",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 157 — Whis's Training: Gohan's Awakening",
+      "trigger_condition": "Once only when guard is broken / once only when the opponent uses an Ultimate Attack",
+      "effect_text": "Recovers from guard break; recovers stamina.",
+      "effect_magnitude": "+500 Stamina",
+      "limit_burst": "Auto Health and Stamina Recovery!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery!",
+      "source_parallel_quests": [
+        "pq-157"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-need-to-be-more-careful.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-108",
+      "name": "Still haven't figured out you're gonna lose?",
+      "character_source": "Gamma 2",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 156 — Hunting Down Dr. Hedo",
+      "trigger_condition": "When an enemy is KO'ed",
+      "effect_text": "Boosts amount of Ki restored by amount of opponents KO'ed.",
+      "effect_magnitude": "+5%; stacks up to 10 times",
+      "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "source_parallel_quests": [
+        "pq-156"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/still-havent-figured-out-youre-gonna-lose.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-109",
+      "name": "Heh heh! I'm not as rusty as I look!",
+      "character_source": "Gohan (DBS Super Hero)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 158 — Beat Bulma's Minions!",
+      "trigger_condition": "Always / when succeeding at a Just Guard",
+      "effect_text": "Extends own guard break time; boosts all attacks.",
+      "effect_magnitude": "20% guard-break extension; +10% all attacks; stacks up to 3 times",
+      "limit_burst": "Auto Just Guard",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Just Guard",
+      "source_parallel_quests": [
+        "pq-158"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/heh-heh-im-not-as-rusty-as-i-look.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-110",
+      "name": "See? It's a good thing I was here, right?",
+      "character_source": "Krillin (DBS Super Hero)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 158 — Beat Bulma's Minions!",
+      "trigger_condition": "Once only when using Flash Revive",
+      "effect_text": "All allies and self temporarily enter Health Auto-Recovery Mode.",
+      "effect_magnitude": "+0.2% max HP per second; 10 seconds",
+      "limit_burst": "Revive Gauge Auto-Recovery!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Revive Gauge Auto-Recovery!",
+      "source_parallel_quests": [
+        "pq-158"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/see-its-a-good-thing-i-was-here-right.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-111",
+      "name": "I can tell you're an amateur by the way you pose!",
+      "character_source": "Mr. Satan",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations and source-text behavior disputes are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Raid Quest Event",
+      "acquisition_source": "Gamma 2 Online Raid",
+      "trigger_condition": "Once only when locked onto an enemy",
+      "effect_text": "Temporarily weakens strength of all opponent attacks and temporarily reduces amount of opponent's Ki restored.",
+      "effect_magnitude": "-10% opponent attacks; -10% opponent Ki restored; 30 seconds",
+      "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-can-tell-youre-an-amateur-by-the-way-you-pose.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
     }
   ],
   "research_notes": [
@@ -2811,7 +3045,8 @@
     "2026-09-19: expanded raid/event coverage with records 040–043, including Cell, Hercule, Gohan (Adult), and Fused Zamasu raid reward families.",
     "2026-09-19: identified additional raid-exclusive Super Soul candidates 044–047 from raid reward catalog and community raid-exclusive index; mechanics remain partially verified pending item-level reconciliation.",
     "2026-09-19: reconciled raid candidates 044–047 against item-level/community Super Soul catalogue evidence. 044, 045 and 046 now have verified core effects; 047 remains partially verified because the stamina-damage reduction magnitude and exact historical raid mapping remain unresolved.",
-    "2026-09-21: promoted Super Soul research batch 096–103 after live-corpus reconciliation. The prior handoff candidate names were already represented by earlier canonical IDs; the actual next eight unique source-corpus entries were used instead. PQ-sourced records 098–102 were cross-linked only to explicitly named PQ151–153 endpoints."
+    "2026-09-21: promoted Super Soul research batch 096–103 after live-corpus reconciliation. The prior handoff candidate names were already represented by earlier canonical IDs; the actual next eight unique source-corpus entries were used instead. PQ-sourced records 098–102 were cross-linked only to explicitly named PQ151–153 endpoints.",
+    "2026-09-21: promoted Super Soul 104–111 after live-corpus reconciliation. Exact PQ endpoints were accepted for 105/107 (PQ157), 106/108 (PQ156), and 109/110 (PQ158); 104 and 111 remain raid-event acquisition records without inferred PQ routes."
   ],
   "sources": [
     {
