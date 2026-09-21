@@ -9,12 +9,12 @@
     "Ki Blast Evasives": 12,
     "Other Supers": 36,
     "Strike Evasives": 8,
-    "Ki Blast Ultimates": 65,
-    "Ki Blast Supers": 115,
+    "Ki Blast Ultimates": 68,
+    "Ki Blast Supers": 121,
     "Transformations": 15,
-    "Strike Supers": 93,
-    "Strike Ultimates": 17,
-    "Power Up Supers": 12,
+    "Strike Supers": 94,
+    "Strike Ultimates": 18,
+    "Power Up Supers": 14,
     "Power Up Evasives": 2,
     "Other Evasives": 3,
     "Transformation": 4,
@@ -11458,6 +11458,370 @@
       "id": "skill-symphonic-destruction",
       "source_mentor": [
         "mentor-whis"
+      ]
+    },
+    {
+      "name": "Prepare to be Punished",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Prepare_to_be_Punished",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 0,
+      "unlock_method": "Pan mentor training — Lesson 1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "pan mentor training",
+      "mechanics_notes": "Power Up Super that grants an S-level power boost for 10 seconds while requiring the user to remain locked onto the current target; current dedicated evidence lists 0 Ki.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Pan mentor training — Lesson 1.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-prepare-to-be-punished",
+      "source_mentor": [
+        "mentor-pan"
+      ]
+    },
+    {
+      "name": "Feint Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Feint_Shot",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 100,
+      "unlock_method": "Pan mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "pan mentor training",
+      "mechanics_notes": "Ki Blast Super using a feint/teleport sequence before firing a Ki projectile; current dedicated evidence lists 100 Ki.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Pan mentor training — Lesson 2.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-feint-shot",
+      "source_mentor": [
+        "mentor-pan"
+      ]
+    },
+    {
+      "name": "Maiden Blast",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Maiden_Blast",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 300,
+      "unlock_method": "Pan mentor training — Lesson 3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "pan mentor training",
+      "mechanics_notes": "Ki Blast Ultimate that creates a close-range explosion and then concentrates it into a large blast; current dedicated evidence lists 300 Ki.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Pan mentor training — Lesson 3.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-maiden-blast",
+      "source_mentor": [
+        "mentor-pan"
+      ]
+    },
+    {
+      "name": "Hero's Pose",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Hero%27s_Pose",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 0,
+      "unlock_method": "Jaco mentor training — Initiation Test.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "jaco mentor training",
+      "mechanics_notes": "Power Up Super that increases all abilities for a temporary duration; current dedicated evidence lists 0 Ki.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Jaco mentor training — Initiation Test.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-hero-s-pose",
+      "source_mentor": [
+        "mentor-jaco"
+      ]
+    },
+    {
+      "name": "Elite Beam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Elite_Beam",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 100,
+      "unlock_method": "Jaco mentor training — Lesson 1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "jaco mentor training",
+      "mechanics_notes": "Ki Blast Super fired from Jaco's ray gun; current dedicated evidence lists 100 Ki and describes a thin beam with knockback.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Jaco mentor training — Lesson 1.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-elite-beam",
+      "source_mentor": [
+        "mentor-jaco"
+      ]
+    },
+    {
+      "name": "Elite Shooting",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Elite_Shooting",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 100,
+      "unlock_method": "Jaco mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "jaco mentor training",
+      "mechanics_notes": "Ki Blast Super associated with Jaco's Galactic Patrol ray gun; current aggregate testing evidence lists 100 Ki, while the maintained mentor guide establishes the Lesson 2 acquisition.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Jaco mentor training — Lesson 2.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-elite-shooting",
+      "source_mentor": [
+        "mentor-jaco"
+      ]
+    },
+    {
+      "name": "Super Elite Combo",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Elite_Combo",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 300,
+      "unlock_method": "Jaco mentor training — Lesson 3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "jaco mentor training",
+      "mechanics_notes": "Strike Ultimate with a short rush sequence followed by a ray-gun blast; current dedicated evidence lists 300 Ki and a three-hit sequence.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Jaco mentor training — Lesson 3.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-super-elite-combo",
+      "source_mentor": [
+        "mentor-jaco"
+      ]
+    },
+    {
+      "name": "x10 Kamehameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/X10_Kamehameha",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-goku-mentor-master-quest-guide/",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 200,
+      "unlock_method": "Goku mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "goku mentor training",
+      "mechanics_notes": "Chargeable Ki Blast Super with multiple charge stages; current dedicated XV2 evidence lists 200 Ki and five possible charge stages.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Goku mentor training — Lesson 2.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-x10-kamehameha",
+      "source_mentor": [
+        "mentor-goku"
+      ]
+    },
+    {
+      "name": "Super Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Kamehameha",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-goku-mentor-master-quest-guide/",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 300,
+      "unlock_method": "Goku mentor training — Lesson 3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "goku mentor training",
+      "mechanics_notes": "Ki Blast Ultimate that charges and fires a large multi-hit Kamehameha beam; current dedicated XV2 evidence lists 300 Ki for standard users.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Goku mentor training — Lesson 3.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-super-kamehameha",
+      "source_mentor": [
+        "mentor-goku"
+      ]
+    },
+    {
+      "name": "Tyrant Lancer",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Tyrant_Lancer",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 100,
+      "unlock_method": "Bardock mentor training — Initiation Test.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "bardock mentor training",
+      "mechanics_notes": "Ki Blast Super that advances while charging and fires a tracking beam; current dedicated evidence lists 100 Ki.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Bardock mentor training — Initiation Test.",
+      "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-tyrant-lancer",
+      "source_mentor": [
+        "mentor-bardock"
+      ]
+    },
+    {
+      "name": "Rebellion Spear",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Rebellion_Spear",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 100,
+      "unlock_method": "Bardock mentor training — Lesson 1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "bardock mentor training",
+      "mechanics_notes": "Strike Super rush/lariat technique that moves around the target while leaving a Ki trail; current dedicated evidence lists 100 Ki.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Bardock mentor training — Lesson 1.",
+      "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-rebellion-spear",
+      "source_mentor": [
+        "mentor-bardock"
+      ]
+    },
+    {
+      "name": "Riot Javelin",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Riot_Javelin",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 100,
+      "unlock_method": "Bardock mentor training — Lesson 2.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "bardock mentor training",
+      "mechanics_notes": "Ki Blast Super whose projectile becomes substantially stronger at low health; current dedicated evidence lists 100 Ki.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Bardock mentor training — Lesson 2.",
+      "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-riot-javelin",
+      "source_mentor": [
+        "mentor-bardock"
+      ]
+    },
+    {
+      "name": "Brave Heat",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Brave_Heat",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "ki_cost": 300,
+      "unlock_method": "Bardock mentor training — Lesson 3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "bardock mentor training",
+      "mechanics_notes": "Ki Blast Ultimate variant of Bardock's Saiyan Spirit; current dedicated evidence lists 300 Ki and describes a rush into a beam attack.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Bardock mentor training — Lesson 3.",
+      "dlc_requirement": "Masters Pack (platform-dependent; included in base game on Switch)",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data.",
+      "id": "skill-brave-heat",
+      "source_mentor": [
+        "mentor-bardock"
       ]
     }
   ],
