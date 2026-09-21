@@ -6309,3 +6309,13 @@ The repository owner has clarified the continuation contract:
 - CI: **no workflow runs were exposed for commit `5633e857cbefea3c935282d0e5b63ea752daad6f`**; no CI success is claimed.
 - Commit: **`5633e857cbefea3c935282d0e5b63ea752daad6f`**.
 - Exact next batch: **recompute the live skill provenance census and inspect the next deterministic cross-field/source integrity issue; prioritize records whose acquisition/source-PQ fields can be checked against independent quest or character evidence.**
+
+
+### 2026-09-21 continuation — Angry Explosion provenance strengthening
+- Workstream: **P1 skill provenance/source integrity**.
+- Live census after the prior batch: **452 canonical skill records / 452 index records**; no single-source records remained. The next deterministic target was the two-source acquisition cluster.
+- Concrete bounded target: **Angry Explosion**. Its existing Expert Mission 12 acquisition was internally consistent, but provenance was only two sources.
+- Strengthened to **three sources**: direct skill documentation, a launch-era all-Expert-Missions guide listing **EM12 — Attack of the Lone Supersoldier → Angry Explosion** as a Basic Reward, and a contemporaneous EM12 gameplay walkthrough documenting the unlock route. citeturn1search0turn1search7turn1youtube37
+- No acquisition, gameplay, DLC, reward-tier, or character semantics were changed.
+- Canonical commit: **`2cf689d7308f87acb711a28d20eb7fbf6ef6d2ce`**.
+- Exact next batch: **continue the two-source cluster, prioritizing concrete acquisition records where independent quest/reward evidence can strengthen provenance without semantic rewriting.**
