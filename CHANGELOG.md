@@ -958,3 +958,6 @@
 - Updated only canonical `ki_cost` and `last_verified`; variable costs were preserved.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 26 nullable `ki_cost` records**.
 - Commit: `2b4ee7bb780d6591197b7e79863e75ef9799e053`.
+
+### 2026-09-21 — Citation-token correction for Future Gohan changelog entry
+- The preceding Future Gohan changelog entry contains internal citation-token text that must not persist in repository prose. This append-only correction preserves the historical entry while clarifying the documented fixed and variable Ki costs.
