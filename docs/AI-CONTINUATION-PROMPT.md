@@ -4235,3 +4235,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Existing strict checks for missing targets, superseded/blocked targets, and occupied correction destinations remain intact.
 - Commit: `c31c2881ec2df98ac8c653da5a6d536489465528` — Harden correction key and field validation.
 - Next task: inspect whether correction target keys can be ambiguous because class/subcategory defaults differ between canonical records and correction metadata; verify the key normalization rules without weakening curated-data protections.
+
+## 2026-09-21 continuation — correction target key normalization
+- Audited correction target key construction in `merge_record()`.
+- The canonical key is case-insensitive only for the skill name and exact for class/subcategory. Correction metadata previously allowed non-string or blank target components to flow into the tuple, which could produce misleading lookup failures or inconsistent key behavior.
+- Added explicit validation that the resolved correction target name, class, and subcategory are non-empty strings before constructing the lookup key. Existing defaults remain intact, so omitted class/subcategory continue to resolve from the replacement record rather than changing curated workflow semantics.
+- Commit: `fb1bdff2cba9ab0a5547912a5c8a07e2bdab42e6` — Validate correction target key fields.
+- Next task: audit the actual correction application semantics for fields explicitly cleared with null/blank values, especially whether inherited non-empty values can survive when a correction intends to remove them; preserve the documented ability to make intentional corrections.
