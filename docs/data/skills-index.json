@@ -17,7 +17,7 @@
     "Transformation": 4,
     "Other Ultimates": 2
   },
-  "record_count": 428,
+  "record_count": 429,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -10871,6 +10871,27 @@
       ],
       "ki_cost": 200,
       "ki_cost_note": "Current skill evidence lists 200 Ki."
+    },
+    {
+      "id": "skill-pretty-charge",
+      "name": "Pretty Charge",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "character_only",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge",
+        "https://dbxv2.fandom.com/wiki/Characters",
+        "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-ultra-pack-1-trailer"
+      ],
+      "unlock_method": "Ribrianne character-exclusive skill; not obtainable as a normal CaC skill.",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-21",
+      "race_restriction": "Character-exclusive",
+      "notes": "2026-09-21 completeness correction: Pretty Charge was missing from the canonical skill registry despite independent documentation identifying it as Ribrianne's Ultra Pack 1 character-exclusive charging skill. Added as a bounded character-only record; no unsupported numeric Ki cost or acquisition gate is inferred. 0 Ki cost is recorded as activation cost, not as a claim about the amount of Ki restored.",
+      "mechanics_notes": "Ki-charging Super Skill used by Ribrianne with a unique charging pose. The skill is documented as part of Ultra Pack 1; Future Warrior acquisition is not established.",
+      "source_quest_or_shop": "Character-exclusive — Ribrianne"
     }
   ],
   "skill_id_policy": {
