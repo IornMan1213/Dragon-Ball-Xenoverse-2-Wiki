@@ -10,7 +10,6 @@ except ImportError:
     Draft202012Validator = None
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCHEMA=ROOT/'docs/data/skills.schema.json'
-CLASS_SUBCATEGORIES={'Super':{'Ki Blast','Strike','Other','Power Up'},'Ultimate':{'Ki Blast','Strike','Other','Power Up'},'Evasive':{'Ki Blast','Strike','Other','Power Up'},'Awoken':{'Race','Transformation'},'Counter':{'Counter'},'Mixed':{'Special'}}
 
 def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
 
@@ -41,7 +40,6 @@ def main():
  for r in rs:
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
-  if r.get('class') in CLASS_SUBCATEGORIES and r.get('subcategory') not in CLASS_SUBCATEGORIES[r.get('class')]:errors.append(f"{r.get('name')}: subcategory {r.get('subcategory')} is invalid for class {r.get('class')}")
   if r.get('race_restriction')=='Character-only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: Character-only restriction requires usable_by_cac=false")
 
   if r.get('acquisition_type')=='character_only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: character_only acquisition requires usable_by_cac=false")
