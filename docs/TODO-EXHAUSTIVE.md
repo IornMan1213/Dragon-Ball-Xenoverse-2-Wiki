@@ -1342,3 +1342,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Post-write validation target: **428 canonical skill records / 0 duplicate IDs / 10 Legendary Pack 2 skills in PQ147–150 / 0 DLC mismatches**.
 - [x] CI success remains unclaimed unless GitHub exposes an actual workflow run/check.
 - [ ] Next provenance batch: fresh live DLC-label/source-relationship census beyond Legendary Pack 2.
+
+
+### 2026-09-21 — Master ledger completion marking: Conton City Vote Pack provenance census
+- [x] Audited all **10 canonical Conton City Vote Pack skill/move records**, including the eight PQ-linked records, character-specific Supersonic Mode, and the PQ154 skills Sign of Awakening and Circle Flash.
+- [x] Official publisher/store documentation confirms **4 new Parallel Quests and 10 additional moves** for the Conton City Vote Pack; maintained PQ evidence identifies PQ151–154.
+- [x] Live canonical census found **0 DLC mismatches** among the ten records; PQ-linked records map to PQ151–154 and all ten retain `dlc_requirement=Conton City Vote Pack`.
+- [x] Character-only acquisition semantics for Supersonic Mode were preserved; no claim was made that it is a separate CaC-unlockable move.
+- [x] Canonical changes were limited to `last_verified=2026-09-21` and bounded provenance notes; no drop-tier, cost, restriction, or acquisition fields were normalized in this pass.
+- [x] Validation target: **428 canonical skill records / 0 duplicate IDs / 10 Conton City Vote Pack records / 0 DLC mismatches**.
+- [x] CI success remains unclaimed unless GitHub exposes an actual workflow run/check.
+- [ ] Next provenance batch: fresh live DLC-label/source-relationship census beyond Conton City Vote Pack.
