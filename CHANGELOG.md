@@ -941,3 +941,10 @@
 
 ### 2026-09-21 — Citation-token correction for Broly changelog entry
 - The immediately preceding Broly changelog entry contains internal citation-token text that should not be persisted in repository prose. This append-only correction removes no history; it clarifies that the underlying evidence supports Blaster Meteor as a stamina-only Evasive Skill and therefore canonical `ki_cost=0`.
+
+## 2026-09-21 — Android 16 mentor skill Ki-cost verification
+
+- Verified **Eye Beam (100)**, **Rocket Tackle (100)**, **Android Rush (100)**, and **Hell Flash (300)** from current Xenoverse 2 skill references. citeturn0search6turn0search7turn0search10turn0search4
+- Updated only canonical `ki_cost` and `last_verified`.
+- Live canonical skill census: **428 records, 0 duplicate IDs, 29 nullable `ki_cost` records**.
+- Commit: `3dddf371190a0cd8a3cb29940ec922b64ea2b711`.
