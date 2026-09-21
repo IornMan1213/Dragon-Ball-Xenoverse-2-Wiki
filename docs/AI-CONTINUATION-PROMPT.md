@@ -4956,3 +4956,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow/status results were exposed for this cycle's data commits; no CI success is claimed. Validators were not weakened.
 - Commits: `6cbb6e3ddb69ee97ddd7309506495d42c1bfa904` (Super Soul 064-071); `d6e525ff1c5a3f83e1806b694412960435742460` (PQ endpoints); `9829b7623af1752031b8bfb43f98b4b762d2a16b` (crosslink report); `ff2e409da9dc2e7f2c7f75e0ea0bd18436c78b46` (changelog).
 - Exact next batch: **Super Soul 072-079** after live-corpus reconciliation. Continue the canonical frontier, establishing acquisition identity before adding deterministic cross-domain endpoints and regenerating the reverse report.
+
+
+### 2026-09-21 cycle update — Super Soul 072-079 + PQ reverse-link reconciliation
+- Live census before editing: **66 canonical Super Soul records / 186 canonical PQ records**; prior graph: **21 forward / 21 reverse / 45 unresolved**.
+- Bounded batch: **Super Soul 072-079** — Over here, you idiot..., That offer's expired..., Goku! Time for dinner!, That won't work on me!, I'll send you to Hell!!, Tien, please don't die, It's okay! I'll fix you!, and Leave my daddy alone!.
+- Research/evidence: reconciled the next eight source-backed records from the maintained Madreag final-DLC-era corpus. Acquisition identity was established before relationship expansion. Only the explicit PQ135 endpoint was added; raid, shop, NPC-gift, and time-miniature routes were not converted into invented PQ relationships.
+- Changes: added `super-soul-072` through `super-soul-079`; synchronized PQ135 with `super_soul_ids` / `super_soul_rewards`; rebuilt `docs/data/pq-super-soul-crosslink-report.json`.
+- Validation: **74 canonical Super Souls / 186 canonical PQs / 22 forward / 22 reverse PQ↔Super Soul edges / 19 unique PQ endpoints / 22 unique Super Soul endpoints / 52 unresolved Super Soul routes / 0 broken endpoints**. Changed JSON parsed successfully.
+- Evidence limits: community-measured percentages/durations and disputed effect-magnitude interpretations were not promoted to exact canonical values. No relationship was inferred from enemy appearance, character association, or quest theme.
+- CI: no workflow/status results were exposed for this cycle's data commits; no CI success is claimed. Validators were not weakened.
+- Commits: `2279c153847fcf160b475f502ed91e44f234d750` (Super Soul 072-079); `ec03b6b145242035af5cce8d42f103832f7fde03` (PQ135 endpoint); `f8ac4190ca52cea2155ec6ab0cbd70998291eb18` (crosslink report); `d306782b5f7430deb6e61d782cb977e2aa64ac59` (changelog).
+- Exact next batch: **Super Soul 080-087** after live-corpus reconciliation. Continue the canonical frontier, establishing acquisition identity before adding deterministic cross-domain endpoints and regenerating the reverse report.
