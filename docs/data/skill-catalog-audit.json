@@ -40,11 +40,11 @@
     "Patch-era and DLC-era provenance",
     "Dual Ultimate relationships where applicable"
   ],
-  "last_audited": "2026-09-20",
+  "last_audited": "2026-09-21",
   "latest_research_batch": 315,
   "canonical_catalog_generated": "2026-09-14",
   "canonical_sync_pending": false,
-  "current_research_focus": "PQ acquisition provenance and explicit reward-table reconciliation",
+  "current_research_focus": "Skill DLC/PQ provenance and character-only completeness",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "reconciliation_notes": [
@@ -118,7 +118,8 @@
     "2026-09-20: Burning Swan (PQ167) provenance refined. Maintained PQ167 data lists Burning Swan in Basic Rewards and specifies a 45% normal-clear reward condition, while dedicated skill documentation describes it as a random PQ167 drop. Canonical wording now explicitly records the Basic Reward/non-Ultimate-Finish status without inventing exact random-slot semantics.",
     "2026-09-20: Bounded provenance audit rechecked God Breaker (PQ44), Bluff Kamehameha (PQ94), Celestial Wave (PQ151), Final Cannon (PQ52), Side Bridge (PQ39), and Steel Mirage (PQ165). Celestial Wave has an explicit maintained 40% Ultimate Finish bonus roll and is now marked UF-required. The other five retain generic/random wording because no stronger explicit gate was established in the current maintained evidence.",
     "2026-09-20: CaC scope consistency pass checked all 283 canonical records for the high-risk contradiction pattern `usable_by_cac=false` paired with a CaC/race restriction. No such contradiction remains. The eight character-only records (Pure Progress, Super Saiyan Blue Kaioken, Supersonic Mode, Final Flash (Super), Energy Release, Final Charge, Instant Charge, Rising Rage) consistently use `usable_by_cac=false` and `race_restriction=Character-only`. Racially restricted CaC skills remain explicitly usable by CaC with their race restriction; this is a restriction, not a contradiction. External reference material independently documents the Human/Saiyan restriction for Burning Slash and Shining Slash. citeturn1search0turn1search2",
-    "2026-09-20: Completed second-stage CaC race-scope audit across all explicitly race-restricted canonical skills. Verified 26 restricted records: each is marked usable_by_cac=true and has a concrete race restriction. Mixed restrictions (Earthling/Saiyan; Namekian/Majin) and gender/form-qualified restrictions (Majin male; Pure Majin form) are represented rather than collapsed to generic All CaC. External references corroborate representative Namekian, Majin, Saiyan, and Earthling/Saiyan restrictions; no canonical correction was justified. Canonical/index parity remains intact."
+    "2026-09-20: Completed second-stage CaC race-scope audit across all explicitly race-restricted canonical skills. Verified 26 restricted records: each is marked usable_by_cac=true and has a concrete race restriction. Mixed restrictions (Earthling/Saiyan; Namekian/Majin) and gender/form-qualified restrictions (Majin male; Pure Majin form) are represented rather than collapsed to generic All CaC. External references corroborate representative Namekian, Majin, Saiyan, and Earthling/Saiyan restrictions; no canonical correction was justified. Canonical/index parity remains intact.",
+    "2026-09-21: Audited the complete Future Saga Chapter 2 seven-skill DLC cluster against official package scope and the maintained PQ175-PQ178 reward corpus. The seven canonical records are God of Destruction's Poise (PQ175), God of Destruction's Plaything (PQ175), God of Destruction's Might (PQ176), Full Power Destruction (PQ177), Soaring Rush (PQ177), Dragon Spark (PQ177), and Burst Blitz (PQ178). All seven are labeled Future Saga Chapter 2 and their primary source PQs fall within the official Chapter 2 quest set. Official Bandai Namco documentation states Chapter 2 contains 4 Parallel Quests and 7 additional moves. The maintained PQ guide independently lists the seven move endpoints across PQ175-PQ178. No canonical provenance correction was justified; reward-tier conflicts already represented in individual skill records were preserved."
   ],
   "partially_verified_count": 0,
   "verified_count": 205,
