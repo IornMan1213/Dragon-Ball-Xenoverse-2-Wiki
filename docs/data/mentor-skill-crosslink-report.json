@@ -3,8 +3,8 @@
   "game": "Dragon Ball Xenoverse 2",
   "generated_by": "manual_canonical_sync_2026-09-21",
   "canonical_mentor_records": 33,
-  "mentors_with_skill_links": 16,
-  "mentor_to_skill_edge_count": 44,
+  "mentors_with_skill_links": 19,
+  "mentor_to_skill_edge_count": 59,
   "forward_edges": [
     {
       "mentor_id": "mentor-android-18",
@@ -22,9 +22,64 @@
       "skill_id": "skill-shadow-crusher"
     },
     {
+      "mentor_id": "mentor-dodoria",
+      "mentor_name": "Dodoria",
+      "skill_id": "skill-critical-upper"
+    },
+    {
+      "mentor_id": "mentor-dodoria",
+      "mentor_name": "Dodoria",
+      "skill_id": "skill-dodoria-beam"
+    },
+    {
+      "mentor_id": "mentor-dodoria",
+      "mentor_name": "Dodoria",
+      "skill_id": "skill-dodoria-headbutt"
+    },
+    {
+      "mentor_id": "mentor-dodoria",
+      "mentor_name": "Dodoria",
+      "skill_id": "skill-dodoria-launcher"
+    },
+    {
       "mentor_id": "mentor-frieza",
       "mentor_name": "Frieza (1st Form)",
       "skill_id": "skill-death-ball"
+    },
+    {
+      "mentor_id": "mentor-frieza",
+      "mentor_name": "Frieza (1st Form)",
+      "skill_id": "skill-death-beam"
+    },
+    {
+      "mentor_id": "mentor-frieza",
+      "mentor_name": "Frieza (1st Form)",
+      "skill_id": "skill-death-crasher"
+    },
+    {
+      "mentor_id": "mentor-frieza",
+      "mentor_name": "Frieza (1st Form)",
+      "skill_id": "skill-death-slicer"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-body-change"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-fighting-pose-a"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-fighting-pose-f"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-milky-cannon"
     },
     {
       "mentor_id": "mentor-gohan-kid",
@@ -225,6 +280,26 @@
       "mentor_id": "mentor-yamcha",
       "mentor_name": "Yamcha",
       "skill_id": "skill-wolf-fang-fist"
+    },
+    {
+      "mentor_id": "mentor-zarbon",
+      "mentor_name": "Zarbon",
+      "skill_id": "skill-audacious-laugh"
+    },
+    {
+      "mentor_id": "mentor-zarbon",
+      "mentor_name": "Zarbon",
+      "skill_id": "skill-bloody-counter"
+    },
+    {
+      "mentor_id": "mentor-zarbon",
+      "mentor_name": "Zarbon",
+      "skill_id": "skill-elegant-blaster"
+    },
+    {
+      "mentor_id": "mentor-zarbon",
+      "mentor_name": "Zarbon",
+      "skill_id": "skill-gorgeous-shot"
     }
   ],
   "unresolved_edges": [],
@@ -233,13 +308,14 @@
     "Only directly verified lesson→skill routes were linked. Mentor identity records without verified skill mappings remain populated but unlinked.",
     "This layer is intended to support mentor → lesson → skill → skill-detail navigation and later bidirectional reverse lookup.",
     "2026-09-21 reconciliation: Krillin, Tien, Yamcha, and Piccolo lesson routes were already explicit in the canonical mentor layer and corresponding skills-index source_mentor fields; this cycle promoted those 14 deterministic edges into the crosslink report without altering acquisition semantics.",
-    "2026-09-21 reconciliation: Raditz, Gohan (Kid), Nappa, and Vegeta lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Masenko and Galick Gun were already represented in the report and were not duplicated."
+    "2026-09-21 reconciliation: Raditz, Gohan (Kid), Nappa, and Vegeta lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Masenko and Galick Gun were already represented in the report and were not duplicated.",
+    "2026-09-21 reconciliation: Zarbon, Dodoria, Captain Ginyu, and Frieza (1st Form) lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Frieza's Death Ball edge was already present and was not duplicated."
   ],
   "validation": {
     "canonical_mentor_records": 33,
-    "mentors_with_skill_links": 16,
-    "mentor_to_skill_edge_count": 44,
-    "unique_skill_endpoints": 44,
+    "mentors_with_skill_links": 19,
+    "mentor_to_skill_edge_count": 59,
+    "unique_skill_endpoints": 59,
     "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0
   }
