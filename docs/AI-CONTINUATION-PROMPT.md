@@ -4601,3 +4601,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `5884f75e6f409fcf5c2b94a747c8ac45f4766eb0` (skill costs), `1c84fd12029bed798b5c8b4a272baaaf65833f05` (coverage audit).
 - Current live skill census: **305 records**. The active skill second-pass remains the highest-priority research workstream after the completed PQ unlock-field and accessory identity queues.
 - Exact next task: recompute the live skill metadata census and take the next bounded **4–12 record acquisition/restriction/mechanics batch**, prioritizing fields that can improve PQ↔skill and other database cross-links. Preserve nulls where evidence is insufficient and do not reopen completed frontiers without new evidence.
+
+
+### 2026-09-21 cycle update — skill PQ cross-link identifier normalization
+- Live census: **305 canonical skill records**.
+- Bounded batch: **Drain Field (PQ95), Flash Bomber (PQ95), Rakshasa's Claw (PQ57), Final Pose (PQ74)**.
+- Deterministic repository evidence showed the four records already had explicit PQ acquisition text, but three lacked numeric `source_quest` join keys and Final Pose had a non-PQ-specific classification with no numeric key. `source_quest` is now normalized to **95, 95, 57, 74** respectively.
+- No acquisition wording, reward-condition, mechanics, or provenance claims were rewritten. This change specifically improves direct PQ↔skill database joins.
+- Validation: `skills.json` re-fetched/parsed successfully; **305 records**, **234 numeric PQ-linked skill records**, **0 `quest_or_mission` records missing `source_quest`**, and **0 internal UI citation artifacts** in the canonical JSON.
+- Coverage audit appended in `docs/COVERAGE-AUDIT.md`.
+- CI was not exposed for the direct commit; no CI success is claimed.
+- Commits: `e758b40ee4f23876cf05a5fd9872cfa1e7e97008` (canonical skill data), `b8bb306a490e4305fbe6d8100c092f0885b13deb` (coverage audit).
+- Exact next batch: inspect remaining non-numeric `source_quest` values and classify them into genuine non-PQ acquisition routes versus safely normalizable PQ/story/mentor identifiers, prioritizing deterministic cross-database joins and preserving strings where they are semantically correct.
