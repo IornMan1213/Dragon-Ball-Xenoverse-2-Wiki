@@ -688,3 +688,9 @@
 - No acquisition semantics were changed; this was a reverse-link/report reconciliation pass.
 - Validation passed with JSON parsing and canonical skill-ID endpoint checks. CI status unavailable; no CI success claimed.
 - Exact next batch: **Raditz, Gohan (Kid), Nappa, and Vegeta mentor mappings.**
+
+### 2026-09-21 validation correction — mentor-skill census
+- The immediately preceding mentor reconciliation entry overstated the number of linked mentor identities. The verified live count is **33 canonical mentors / 14 mentors with linked skills / 30 mentor→skill edges / 30 unique skill endpoints / 0 unresolved edges / 0 broken skill endpoints**.
+- This is a documentation/count correction only; the 30 deterministic edges written to `docs/data/mentor-skill-crosslink-report.json` are unchanged.
+- Exact next batch remains **Raditz, Gohan (Kid), Nappa, and Vegeta**, using lesson mapping ↔ `source_mentor` parity.
+- Latest report validation was persisted in `docs/data/mentor-skill-crosslink-report.json`.
