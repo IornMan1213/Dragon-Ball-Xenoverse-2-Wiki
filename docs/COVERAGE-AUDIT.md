@@ -4081,3 +4081,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Filled the missing `source_quest_or_shop` for `Final Pose` from its explicit unlock method: Parallel Quest 74 — `Galactic Patrol Away`.
 - Preserved `parallel_quest` acquisition type and all reward/UF semantics.
 - Canonical: `1f5fac03fe0fb4787b62c296bc5374c1463e9ea9`; index: `4bdf986f5aa3aa7e6b7bcad909b30c2d9fdcf472`.
+
+
+## 2026-09-20 — acquisition schema synchronization
+- The canonical skill data uses a dedicated `parallel_quest` acquisition type for `Final Pose`, but `docs/data/skills.schema.json` did not include that enum value.
+- Added `parallel_quest` to the schema enum so the schema matches the documented acquisition taxonomy.
+- No skill record values were changed in this pass.
+- Schema commit: `1f80924b5532a58c4f4cf18cfe9c2cf0006e3347`.
