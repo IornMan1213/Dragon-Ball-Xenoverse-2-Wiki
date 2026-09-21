@@ -4992,3 +4992,17 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: canonical commit `6d465aa0664846960006b2359b0885b9ca1184d2` exposed no workflow runs or status checks through the repository connector; **no CI success claimed**.
 - Commit: `6d465aa0664846960006b2359b0885b9ca1184d2`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next bounded mentor family; prioritize explicit current `Ki Used` evidence and preserve variable-cost forms.**
+
+### 2026-09-21 — Citation-token correction for Zamasu audit entry
+- The preceding Zamasu audit entry contains internal web citation markup from the research session. The underlying facts remain supported, but repository prose must not persist internal tool citation tokens. This append-only correction preserves the historical entry and requires future entries to use plain source descriptions or URLs.
+
+### 2026-09-21 — Brutal Buster Ki-cost verification
+- Live canonical skill census before editing: **428 records; 19 nullable `ki_cost` records**.
+- Bounded batch: **Brutal Buster — 0 Ki**.
+- Evidence: the current Xenoverse 2 skill page classifies Brutal Buster as a Strike Evasive and explicitly documents **300 Stamina Used**; the current Evasive Skill reference independently lists Brutal Buster at **300 stamina**. No Ki expenditure is documented, so canonical `ki_cost=0` follows the repository's stamina-only Evasive convention.
+- Sources consulted: https://dbxv2.fandom.com/wiki/Brutal_Buster and https://dbxv2.fandom.com/wiki/Evasive_Skill
+- Changes: populated only canonical `ki_cost=0` and refreshed `last_verified=2026-09-21`; no stamina, mechanics, acquisition, restriction, or DLC fields were changed.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **18**. Targeted Brutal Buster record was re-read after the write. No skill-index Ki-cost projection was introduced.
+- CI: canonical commit `b6a8da1d28798a8f027a87bd470917205348b8c6` had no actionable workflow/status result exposed through the repository connector; **no CI success claimed**.
+- Commit: `b6a8da1d28798a8f027a87bd470917205348b8c6`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded unresolved skill/family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
