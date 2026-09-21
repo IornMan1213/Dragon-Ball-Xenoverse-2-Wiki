@@ -4558,3 +4558,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: checked the final documentation commit; **no workflow runs were exposed**, so CI remains unavailable/not exposed and no success is claimed.
 - Commits: `fee2aee` canonical identities, `b72d3c0` bridge, `9694a76` cross-link report, `ca9fd8c` coverage audit, `fb9aaa9` changelog.
 - Exact next batch: investigate the remaining **5** unresolved bridge records — **Android 14's Hat (PQ104), Android 15's Sunglasses (PQ unresolved), Bardock (DB Super)'s Scouter (PQ146), Android 17 (DB Super)'s Ranger Accessory (PQ152), Yamcha's Sword (conflicted PQ29/PQ36)**. Prioritize exact inventory identity and source-route reconciliation; do not equate clothes/set/wig records with a component accessory without direct evidence.
+
+
+### 2026-09-21 cycle update — PQ accessory identity reconciliation batch 4
+- Live census before editing: **103 canonical accessory identities; 45 PQ accessory research records; 40 matched PQ accessory endpoints; 5 unresolved research identities**.
+- Bounded batch: **Yamcha's Sword (previously conflicted PQ29/PQ36 route)**.
+- Research/evidence: the maintained PQ reward guide directly lists **Yamcha's Sword under PQ36**; an independent Xenoverse equipment reference lists the same exact inventory item as an **Accessory Shop** item. This supports one canonical identity with multiple acquisition routes rather than separate identities. cite markers were intentionally not copied into repository data.
+- Changes: added canonical `accr-104`; linked `pqacc-008` to it with the corrected PQ36 route; corrected the bridge summary census; regenerated the forward/reverse cross-link report; updated coverage audit and changelog.
+- Evidence limits/conflicts preserved: the old PQ29 value remains represented only as historical/conflicting research context; it is not treated as a second inventory identity. The four remaining unresolved identities are **Android 14's Hat (PQ104), Android 15's Sunglasses (PQ unresolved), Bardock (DB Super)'s Scouter (PQ146), and Android 17 (DB Super)'s Ranger Accessory (PQ152)**. Current evidence continues to distinguish these from clothing/set records.
+- Validation: canonical accessory JSON, bridge, and cross-link report were re-fetched and parsed successfully. Live counts after editing: **104 canonical accessory identities / 41 matched PQ accessory endpoints / 4 unresolved research identities**. Bridge summary now matches computed counts.
+- CI: not rerun after documentation commit; no successful CI result is claimed.
+- Commits: `1fcf2b7` canonical identity, `6ba2398` bridge, `b7b96f2` cross-link report, `a624c72` coverage audit, `f56e706` changelog.
+- Exact next batch: investigate the remaining **4** identities using exact-name/current inventory research: **Android 14's Hat, Android 15's Sunglasses, Bardock (DB Super)'s Scouter, Android 17 (DB Super)'s Ranger Accessory**. If exact canonical inventory identities cannot be established, preserve them as unresolved rather than mapping them to clothes or unrelated accessories.
