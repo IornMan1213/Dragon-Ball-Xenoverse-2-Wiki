@@ -4062,3 +4062,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Normalized 11 remaining shorthand provenance labels (PQ###) where the existing unlock method explicitly supplied the quest title: Spirit Pulse, Wild Buster, Phantom Fist, Shield Barrier, Burning Swan, Heroic Assault, Justice Blade, Justice Kick, Seagull Combination, Shooting Strike, and Apocalyptic Burst.
 - No acquisition semantics, reward tiers, Ultimate Finish flags, or probabilities changed.
 - Canonical: 0a99b958785299078c70eb64dbd3c530842c803d; index: 955277b6b470e92b3898bfd6e15a7dfb609cf8fc.
+
+
+## 2026-09-20 — Maintained PQ title mapping normalization
+- Normalized **43** remaining generic `Parallel Quest N` provenance labels using explicit quest-number/title mappings from the maintained PQ research batches.
+- No acquisition semantics, reward tiers, Ultimate Finish flags, or probabilities were changed.
+- Canonical: `fb6115fbae8286c9a6141923336556708169a703`; index: `37e6c4f377dbb0b13ec4ba64e4ea68e057b32a01`.
