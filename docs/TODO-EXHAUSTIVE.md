@@ -1457,3 +1457,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation: **439 canonical / 439 index / 0 duplicate IDs / 0 nullable `ki_cost` values / 9 Free Update 11 records**.
 - [x] Commits: `8d7e79997949c60dcdd950803363adc54c5df4dd` (canonical) and `5a8f644a1efdff441bc736612a039fa2df06760` (index).
 - [ ] Next task: recompute the live DLC/free-update source census and select the next deterministic completeness/provenance cluster with a concrete missing endpoint or mismatch.
+
+### 2026-09-21 — Master ledger completion marking: Extra Pack 2 skill completeness correction
+- [x] Recomputed the live skill census before editing: **439 canonical / 439 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- [x] Verified official Extra Pack 2 scope: **8 new skills**.
+- [x] Found four missing canonical endpoints: **Confusion Blade, Sneaky Strike, Energy Minefield, Remote Serious Bomb**.
+- [x] Added the four records with bounded Tokipedia completion acquisition and directly evidenced costs.
+- [x] Projected all four into `docs/data/skills-index.json`.
+- [x] Validation: **443 canonical / 443 index / 0 duplicate IDs / 0 nullable `ki_cost` values / 8 Extra Pack 2 records**.
+- [x] Canonical commit: `cb7cae9327cdf4b6881d6238e69bae1204ba5b9c`; index commit: `ae196b957734334a964b59f6206815a48385d167`.
+- [ ] Next task: recompute the live DLC/free-update census and select the next deterministic completeness/provenance cluster with a concrete missing endpoint or mismatch.
