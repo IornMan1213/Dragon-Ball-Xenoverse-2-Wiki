@@ -10747,9 +10747,9 @@
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 176,
-      "dlc_requirement": "Base Game",
+      "dlc_requirement": "Future Saga Chapter 2",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 DLC provenance correction: PQ176 is part of Future Saga Chapter 2; the prior Base Game value was inconsistent with the quest's DLC provenance.",
       "id": "skill-god-of-destruction-s-might",
       "source_parallel_quests": [
         176
