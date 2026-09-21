@@ -10876,7 +10876,9 @@
       "subcategory": "Other",
       "verification_status": "verified",
       "sources": [
-        "https://dragonball.fandom.com/wiki/Solar_Flare"
+        "https://dragonball.fandom.com/wiki/Solar_Flare",
+        "https://dbxv2.fandom.com/wiki/Solar_Flare",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 3 — \"World Tournament Tag Team\" Basic Reward",
@@ -10884,13 +10886,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 3 — \"World Tournament Tag Team\"",
-      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ01, usable by all CaC races. It blinds/stuns opponents in front of the user; positioning matters because it is ineffective from behind. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
-      "last_verified": "2026-09-20",
+      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ03, usable by all CaC races. It blinds/stuns opponents in front of the user; positioning matters because it is ineffective from behind. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "source_quest": 3,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Solar Flare with PQ3, \"World Tournament Tag Team\". The prior PQ1 value was stale and has been replaced; no Ultimate Finish-only condition is inferred because the maintained condition does not establish one. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 source-PQ consistency correction: the mechanics note still contained the stale PQ01 reference even though the canonical acquisition/source_parallel_quests fields correctly identify PQ03. Normalized the prose to PQ03 and added direct/current supporting sources.",
       "id": "skill-solar-flare",
       "source_parallel_quests": [
         3
