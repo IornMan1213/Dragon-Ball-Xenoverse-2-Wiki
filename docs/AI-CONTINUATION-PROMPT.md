@@ -5642,3 +5642,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `b6a8da1d28798a8f027a87bd470917205348b8c6` (canonical), `fc32f7c4467f7ce2e8ba4eef71925b55051516d0` (coverage audit), `a279554e50e276cfba5ca050effc1b2edb731e16` (changelog), plus this handoff update.
 - Evidence limits: this batch establishes only the resource cost; no broader gameplay or acquisition conclusions were added.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded unresolved skill/family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+
+### 2026-09-21 — TODO/handoff synchronization
+- Identified and corrected a documentation drift: `docs/TODO-EXHAUSTIVE.md` had not been tracking the active continuation state maintained here.
+- Added a live synchronization section to the exhaustive TODO covering the current **428 canonical skills / 0 duplicate IDs / 18 nullable `ki_cost` records**, the completed Ki-cost verification frontier, the immediate research queue, validation requirements, and the rule that this TODO must advance with the handoff.
+- The live TODO queue is derived from the canonical census; historical checklist counts remain preserved and must not override live state.
+- TODO synchronization commit: `7823e8ead480221204823d3abe42300c5ee9dbb4`; append-only correction: the queue is explicitly **18 unresolved records**, excluding resolved Brutal Buster.
+- Exact next action remains: recompute the live nullable-`ki_cost` census and continue the next evidence-backed bounded batch, while updating both this handoff and the live TODO state in the same cycle.
