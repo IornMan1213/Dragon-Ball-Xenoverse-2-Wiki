@@ -4089,3 +4089,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Confirmed the schema uses `additionalProperties: false`, and the builder's emitted record fields are represented by the schema's property set; no missing builder field contract was identified.
 - No repository data or scripts required a safe evidence-backed change in this cycle.
 - Next task: inspect repository documentation/tests and any CI/build invocation references for stale validator or index assumptions, then update only if a concrete mismatch is found.
+
+
+## 2026-09-21 continuation — CI dependency contract
+- Inspected repository workflow references after the research/build audit.
+- Found a concrete CI mismatch in `.github/workflows/skills-sync.yml`: the workflow invokes `scripts/validate_skills.py`, which requires the `jsonschema` package, but the sync workflow did not install it. The dedicated `skills-validation.yml` already pins `jsonschema==4.25.1`, making the missing dependency in the sync workflow a real environment-contract gap.
+- Added the same pinned `jsonschema==4.25.1` installation step to `skills-sync.yml` immediately before canonical validation.
+- Commit: `d97163f5dbe57cf8bc16e983ff16898a16a481bf`.
+- No canonical data or generated index files changed.
+- Next task: continue checking CI/build invocations for dependency or path assumptions, then verify workflow status for the maintenance commit where available.
