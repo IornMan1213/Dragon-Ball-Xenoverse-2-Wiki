@@ -6,10 +6,10 @@
     "Ki Blast Evasives": 13,
     "Other Supers": 36,
     "Strike Evasives": 9,
-    "Ki Blast Ultimates": 73,
+    "Ki Blast Ultimates": 74,
     "Ki Blast Supers": 128,
     "Transformations": 15,
-    "Strike Supers": 100,
+    "Strike Supers": 101,
     "Strike Ultimates": 19,
     "Power Up Supers": 14,
     "Power Up Evasives": 2,
@@ -17,7 +17,7 @@
     "Transformation": 4,
     "Other Ultimates": 2
   },
-  "record_count": 418,
+  "record_count": 420,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -10582,6 +10582,60 @@
       "id": "skill-time-skip-tremor-pulse",
       "source_mentor": [
         "mentor-hit"
+      ]
+    },
+    {
+      "name": "Orin Combo",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Orin_Combo",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Krillin mentor training — lesson-1.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Krillin mentor training",
+      "mechanics_notes": "Mentor acquisition and classification corroborated by dedicated skill and mentor references; additional combat mechanics are deferred unless directly evidenced.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Krillin mentor training — lesson-1.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "mentor_training",
+      "notes": "2026-09-21 mentor graph completion.",
+      "id": "skill-orin-combo",
+      "source_mentor": [
+        "mentor-krillin"
+      ]
+    },
+    {
+      "name": "Scatter Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Scatter_Kamehameha",
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+      ],
+      "unlock_method": "Krillin mentor training — lesson-3.",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Krillin mentor training",
+      "mechanics_notes": "Mentor acquisition and classification corroborated by dedicated skill and mentor references; additional combat mechanics are deferred unless directly evidenced.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Krillin mentor training — lesson-3.",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "mentor_training",
+      "notes": "2026-09-21 mentor graph completion.",
+      "id": "skill-scatter-kamehameha",
+      "source_mentor": [
+        "mentor-krillin"
       ]
     }
   ],
