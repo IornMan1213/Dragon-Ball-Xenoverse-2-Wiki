@@ -4188,4 +4188,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Corrected the regex literals in commit `0be4ba7587f780fb7493f63d05a2b901e7d20926` — Fix frontmatter parser regex escaping.
 - The guessed workflow filenames were not present, and repository search returned no direct workflow reference for `build_skills_from_research`; therefore CI execution remains unverified.
 - Next task: locate the actual workflow/build invocation and verify the hardened parser against its expected frontmatter format before further changes.
+## 2026-09-21 continuation — preserve upstream research fields
+- Located the real `skills-sync.yml` workflow. It clones the upstream structured corpus into `/tmp/xv2-research/content/skills`, requires at least 500 Markdown records, then runs `build_skills_from_research.py` before the downstream validators.
+- Inspected an actual upstream skill record (`absolute-zero.md`). It contains `staminaCost` and `mechanics`, both of which the builder previously ignored even though the canonical schema supports `stamina_cost` and `mechanics`. This was a concrete structured-research data-loss path.
+- Updated the builder to preserve both fields during canonical import.
+- Commit: `2dcd6b3bd7a52840d2978f70bf90d2255fd6ccff` — Preserve stamina and mechanics research fields.
+- CI remains unverified from the connector; workflow definition is now confirmed, but no successful run has been observed for the maintenance commits.
+- Next task: audit the remaining upstream frontmatter fields against the canonical schema for other concrete omissions before touching numeric coercion.
 
