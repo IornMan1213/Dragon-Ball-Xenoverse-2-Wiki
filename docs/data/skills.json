@@ -12046,7 +12046,8 @@
       "id": "skill-sonic-rush",
       "source_mentor": [
         "mentor-future-gohan"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Energy Dome",
@@ -12073,7 +12074,8 @@
       "id": "skill-energy-dome",
       "source_mentor": [
         "mentor-future-gohan"
-      ]
+      ],
+      "ki_cost": "up to 320"
     },
     {
       "name": "One-Handed Kamehameha mk.II",
@@ -12100,7 +12102,8 @@
       "id": "skill-one-handed-kamehameha-mk-ii",
       "source_mentor": [
         "mentor-future-gohan"
-      ]
+      ],
+      "ki_cost": "400-600"
     },
     {
       "name": "Reverse Launcher",
