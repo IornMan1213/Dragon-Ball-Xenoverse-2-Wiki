@@ -3731,3 +3731,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Repository-wide code search for maintained reward/shop evidence returned no indexed matches in the GitHub search connector, so no unsupported acquisition facts were introduced from that search failure.
 - Commit: `44bb214ac51bd5385ac1fb28d12f36c745273142`.
 - Exact next task: continue inspecting available repository evidence files and producer/validator semantics; if maintained reward/shop evidence remains unavailable through repository search, document that limitation rather than inventing route corrections. Recheck CI after the validator change.
+
+## 2026-09-21 continuation — PQ regex correction
+- Rechecked the live validator after the explicit PQ-number guard and found the newly inserted regex had been over-escaped in source, which would have searched for literal backslash sequences instead of word boundaries.
+- Corrected `scripts/validate_skills.py` to use the intended raw regex `\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b`.
+- Re-fetched the live file and confirmed the corrected validator line is present. No canonical data changed.
+- Commit: `bfa9709dd3a671042f331a5b450a8887bd643e37`.
+- CI/status check returned 0 statuses; no CI success is inferred.
+- Exact next task: continue repository-side acquisition/evidence audit without adding speculative rules, and recheck GitHub Actions when a workflow result exists.
