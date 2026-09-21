@@ -4143,3 +4143,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - The CaC-usable race field has no placeholder/weak sentinel values such as `Unknown` or `Unspecified`; all non-null values are explicit race/form scopes, including `All CaC races` and specific race combinations.
 - No canonical data change was required: the census correction is documentation-only.
 - Exact next task: trace the four-record difference from the stale 270 figure through recent repository history, then audit the affected records' race evidence before making any further scope changes.
+
+
+## 2026-09-21 — stale 270-CaC discrepancy traced
+- Traced the previously reported **270 CaC-usable** figure against repository history instead of treating it as a live-data change.
+- Direct reads of the canonical `docs/data/skills.json` at commits `281677f38172cca7ca3b9fdb84b19cb8b856b656` and `8de19fa9c1585600e53bd73269b1fb8b16df6848` both already contain **283 total / 274 CaC-usable / 3 null-race CaC records**. The current catalog has the same census.
+- Therefore the difference from 270 to 274 was a **stale handoff/documentation count**, not four newly discovered or silently changed skill records. No four-record data cohort exists to audit from that discrepancy.
+- The historical race-audit commits confirm that recent race work was focused on explicit restrictions and character-only normalization; none of the inspected canonical snapshots support a 270-record live state.
+- No canonical data change was required.
+- Exact next task: continue evidence auditing from the actual live unresolved set (Blaster Stream, Chaotic Time Impact, Circle Flash), or identify another concrete data-quality invariant rather than pursuing the nonexistent four-record discrepancy.
