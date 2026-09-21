@@ -1557,3 +1557,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved existing PQ149/PQ150 acquisition and reward uncertainty; no unsupported Ultimate Finish/drop-rate claim was added.
 - [x] Validation: 452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost; all four target records now have 3 sources and canonical/index parity is preserved.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic low-source acquisition cluster, checking reward-tier/source-PQ consistency before provenance-only enrichment.
+
+### 2026-09-21 — Master ledger completion marking: Legendary Pack 1 low-source provenance batch
+- [x] Strengthened Burning Shot, Destructive Fission, Destructive Flare, and Hyper Tornado with official Legendary Pack 1 package provenance.
+- [x] Preserved exact PQ acquisition semantics and all unresolved reward/drop uncertainty.
+- [x] Canonical/index projection synchronized for the four targets.
+- [ ] Next task: recompute the live two-source census and continue the next deterministic low-source acquisition cluster.
