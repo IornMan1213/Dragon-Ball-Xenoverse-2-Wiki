@@ -1127,3 +1127,7 @@
 ### 2026-09-21 — PQ97/PQ110 provenance strengthening
 - Added independent PQ evidence for Charged Ki Wave (PQ97) and Divinity Unleashed (PQ110).
 - No acquisition semantics or unsupported reward conditions were changed.
+
+### 2026-09-21 — PQ171 provenance strengthening
+- Added direct PQ171 evidence for Crimson Edge and Divine Spear. The Steam guide independently lists both as Basic Rewards for PQ171; a dedicated PQ171 gameplay guide also documents unlocking both skills. citeturn0search0turn0youtube23
+- No drop probabilities, Ultimate Finish conditions, or other unsupported semantics were added.
