@@ -5949,3 +5949,12 @@ The repository owner has clarified the continuation contract:
 - CI target: inspect workflow runs for canonical commit `d9b28c8a4679034d94a855ff4dd9999318751c7a`; do not claim CI success without an exposed run. Validators remain untouched.
 - Commits: `d9b28c8a4679034d94a855ff4dd9999318751c7a` (canonical data); `fe71f9f47954a389790af3fbabf2dc0c46b8e26c` (TODO ledger).
 - Exact next task: **recompute the live DLC/update census and continue with the next independently resolvable provenance mismatch**, preserving intentional historical/composite classifications.
+
+
+### 2026-09-21 cycle update — free-update census recheck
+- Recomputed the live `Free Update*` skill provenance cluster: **10 records**.
+- Reviewed all explicit update labels: Beast (16), Divine Kamehameha (11), Divine Lasso (3), Godly Display (11), Pure Progress (1), Super Saiyan Blue Kaioken (1), Super Saiyan God (13), Super Saiyan God Super Saiyan (5), Super Saiyan God Super Saiyan (Evolved) (9), Ultra Instinct (17).
+- No further deterministic mismatch was established, so no canonical skill data was changed in this pass.
+- Web evidence reconfirmed that Free Update 11 explicitly lists Divine Kamehameha and Godly Display among its nine new skills. Individual technique documentation may separately associate Godly Display with Extra Pack 2 historically; this is why the repository's update/acquisition provenance and character/DLC context must not be conflated.
+- TODO ledger was updated append-only in commit `ff7d21eb8231e899b0e4e896526031944d93a2e3`.
+- Exact next task: move beyond explicit `Free Update*` labels to the next deterministic DLC provenance cluster, prioritizing a single authoritative package/source relationship and preserving unresolved/historical distinctions.
