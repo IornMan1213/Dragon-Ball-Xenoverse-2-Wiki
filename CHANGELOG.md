@@ -895,3 +895,7 @@
 
 ## 2026-09-21 — Dodoria mentor skill Ki-cost verification
 - Verified Dodoria Beam (100), Critical Upper (100), Dodoria Headbutt (100), and Dodoria Launcher (300) Ki costs from current skill references.
+
+## 2026-09-21 — Frieza mentor skill Ki-cost verification
+- Verified Death Beam (100), Death Crasher (100), and Death Slicer (100) Ki costs from current skill references.
+- The live canonical census contained three null-cost Frieza mentor records, so no unsupported fourth record was added.
