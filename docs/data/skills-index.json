@@ -1198,7 +1198,7 @@
       "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the skill shop (conton city) acquisition route. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "Dedicated current-version evidence confirms Final Pose as a 200-Stamina Power Up Evasive from the Skill Shop. It produces a close-range shockwave and temporarily boosts Basic Attack. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": "PQ74 — \"Galactic Patrol Away\"",
-      "source_quest_or_shop": null
+      "source_quest_or_shop": "Parallel Quest 74 — \"Galactic Patrol Away\""
     },
     {
       "name": "Mach Dash",
