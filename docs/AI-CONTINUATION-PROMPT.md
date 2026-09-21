@@ -3988,3 +3988,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - The schema already constrains required identity fields, acquisition type, sources, costs, statuses, dates, and optional mechanics/metadata types. Validator rules additionally enforce class/subcategory compatibility and acquisition semantics that JSON Schema alone does not encode.
 - No concrete schema or validator gap was identified that could be strengthened safely without changing the documented data model. No code/data changes were made in this pass.
 - Next task: inspect the generated index projection itself—verify every indexed field is intentionally sourced from canonical records and identify whether omitted canonical fields could cause stale index metadata after enrichment/correction.
+
+
+## 2026-09-21 continuation — generated index projection audit
+- Audited `skills-index.json` against `skills.json` and the live builder.
+- Found a concrete regeneration gap: the checked-in index contains a 15-field projection (`name`, `class`, `subcategory`, `verification_status`, `research_status`, `acquisition_type`, `sources`, `unlock_method`, `ultimate_finish_required`, `last_verified`, `race_restriction`, `notes`, `mechanics_notes`, `source_quest`, `source_quest_or_shop`), while the builder was only regenerating the first 7 fields.
+- The existing validator also compared only those first 7 fields, so stale/missing index metadata could survive validation.
+- Fixed the builder to generate the complete existing 15-field index projection.
+- Strengthened the validator to compare each index record against that exact projection, including omitted-vs-present fields.
+- Builder commit: `03dacd0c41f55a7b072122a17d4d589b1d929437`.
+- Validator commit: `0d850ec22e001fd540093b4d7b3fe180e4e29a97`.
+- The current checked-in index already matches the complete projection, so no data regeneration was necessary.
+- Next task: inspect whether the index projection field list is duplicated between builder and validator and, if so, centralize/document the contract so future additions cannot drift silently again.
