@@ -1332,3 +1332,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Post-write validation target: **428 canonical skill records / 0 duplicate IDs / 6 Legendary Pack 1 skill records in PQ143–146 / 0 DLC mismatches**.
 - [x] CI success remains unclaimed unless GitHub exposes an actual workflow run/check.
 - [ ] Next provenance batch: fresh live DLC-label/source-relationship census beyond Legendary Pack 1.
+
+
+### 2026-09-21 — Master ledger completion marking: Legendary Pack 2 skill provenance census
+- [x] Audited all **10 canonical Legendary Pack 2 skills**: Blaster Bomb, Blaster Cannon, Blaster Stream, Comet Strike, Crush Cannon, Crush Stream, Double Crush, Impact Flare, Meteor Explosion, and Power Wall.
+- [x] Official Bandai Namco/Nintendo documentation confirms Legendary Pack 2 contains 4 new Parallel Quests and 10 additional moves; the live canonical source-PQ relationships map the ten skills to PQ147–150.
+- [x] Live census found **0 DLC mismatches**: all ten records carry `dlc_requirement=Legendary Pack 2` and source PQ147–150.
+- [x] Canonical changes were limited to `last_verified=2026-09-21` and bounded provenance notes; no mechanics, cost, restriction, acquisition, or reward-tier field was changed.
+- [x] Post-write validation target: **428 canonical skill records / 0 duplicate IDs / 10 Legendary Pack 2 skills in PQ147–150 / 0 DLC mismatches**.
+- [x] CI success remains unclaimed unless GitHub exposes an actual workflow run/check.
+- [ ] Next provenance batch: fresh live DLC-label/source-relationship census beyond Legendary Pack 2.
