@@ -4105,7 +4105,9 @@
       "subcategory": "Other",
       "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Energy_Charge"
+        "https://dbxv2.fandom.com/wiki/Energy_Charge",
+        "https://videogaming.fandom.com/wiki/First_Advancement_Test_-_Easy_Class",
+        "https://www.playstationtrophies.org/game/dragon-ball-xenoverse-2/guide/"
       ],
       "ki_cost": 0,
       "unlock_method": "First Advancement Test — Easy Class reward.",
@@ -4119,7 +4121,7 @@
       "source_quest": "Advancement Test — Easy Class",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred.",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: current skill documentation identifies the First Advancement Test — Easy Class unlock; the independent test record lists Energy Charge as a Basic Reward, and a contemporaneous trophy guide independently records the Easy Class reward. Existing acquisition semantics are preserved.",
       "id": "skill-energy-charge",
       "source_advancement_test": "advancement-test-easy"
     },
@@ -10098,7 +10100,9 @@
       "subcategory": "Other",
       "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Rising_Rage"
+        "https://dbxv2.fandom.com/wiki/Rising_Rage",
+        "https://dbxv2.fandom.com/wiki/Broly_%28Restrained%29",
+        "https://www.youtube.com/watch?v=EhqqYZbt3mo"
       ],
       "ki_cost": 100,
       "unlock_method": "Character-exclusive: Broly (Restrained)",
@@ -10107,11 +10111,11 @@
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Confirmed as Restrained Broly's 100-Ki character-exclusive Other Super; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Rising Rage as Broly (Restrained)'s character-exclusive skill; no normal CaC acquisition route is established.",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Rising Rage as Broly (Restrained)'s character-exclusive skill; no normal CaC acquisition route is established. 2026-09-21 character-only provenance strengthening: the current skill record identifies Rising Rage as used exclusively by Broly (Restrained), the character record lists it in his preset, and an independent gameplay showcase documents the skill in Broly (Restrained)'s moveset. No CaC acquisition route is inferred.",
       "id": "skill-rising-rage"
     },
     {
@@ -13153,7 +13157,9 @@
       "subcategory": "Other",
       "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Wall_of_Defense"
+        "https://dbxv2.fandom.com/wiki/Wall_of_Defense",
+        "https://xvguide.neocities.org/Skill",
+        "https://yhangame.blogspot.com/2016/12/dragon-ball-xenoverse-2-all-100-parallel-quests-rank-z-guide.html"
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" Basic Reward",
@@ -13162,12 +13168,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 10 — \"Saiyan Survivors\"",
       "mechanics_notes": "Confirmed as a 0-Ki Other Super from PQ10, usable by all CaC races. The user teleports in front of an ally and absorbs incoming attacks while held; without an ally it targets the nearest opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "source_quest": 10,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: current skill documentation identifies PQ10 as the unlock source; an independent skill guide lists PQ10 — Wall of Defense, and a launch-era all-PQ guide lists Wall of Defense in PQ10's Basic Reward. Existing acquisition semantics are preserved.",
       "id": "skill-wall-of-defense",
       "source_parallel_quests": [
         10
