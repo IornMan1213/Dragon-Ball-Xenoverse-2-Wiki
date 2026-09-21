@@ -1260,7 +1260,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Golden Frieza (Ultra Supervillain)",
-      "dlc_requirement": "FUTURE SAGA Chapter 3",
+      "dlc_requirement": "Future Saga Chapter 3",
       "ki_cost": 600,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -1271,7 +1271,7 @@
       "mechanics_notes": "Uses 600 Ki; traps/stuns the opponent with a time-bubble effect before the Ki wave. Power scales with accumulated Power of Time and firing the Ki wave resets that accumulation. PQ184 is the documented unlock quest; maintained reward data records a 50% Ultimate Finish bonus reward. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1279,7 +1279,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 184,
-      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred.",
+      "notes": "2026-09-20 source reconciliation: current PQ184 reward data documents a 50% Ultimate Finish bonus slot; the prior Basic Reward classification was stale. Race scope remains unresolved. 2026-09-20 provenance census: normalized source field to Parallel Quest 184 — \"The Invincible Duo\", matching the maintained PQ research record. 2026-09-21 race-scope audit: repository evidence confirms CaC usability but does not establish a narrower race/gender/form restriction; race_restriction remains null rather than being inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records.",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission",
       "id": "skill-chaotic-time-impact",
@@ -1690,7 +1690,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Golden Frieza (Ultra Supervillain)",
-      "dlc_requirement": "FUTURE SAGA Chapter 3",
+      "dlc_requirement": "Future Saga Chapter 3",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -1701,7 +1701,7 @@
       "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1710,7 +1710,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 182,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — \"Frieza's Fervent Wish\" explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred.",
+      "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — \"Frieza's Fervent Wish\" explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records.",
       "id": "skill-dark-inscription",
       "source_parallel_quests": [
         182
@@ -2973,7 +2973,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Golden Frieza (Ultra Supervillain)",
-      "dlc_requirement": "FUTURE SAGA Chapter 3",
+      "dlc_requirement": "Future Saga Chapter 3",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -2984,7 +2984,7 @@
       "mechanics_notes": "Current dedicated evidence has conflicted with the maintained reward map: the dedicated skill page reports PQ184, while the maintained reward-normalization map assigns the skill to PQ183. The canonical acquisition follows the maintained reward map pending further reconciliation. It can generate up to eight Ki Blasts, with some capable of paralysis, and additional input launches them together. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Emperor's_Cannon",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -2993,7 +2993,7 @@
       "source_quest": 183,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance resolution: the maintained PQ reward-normalization map explicitly assigns Emperor's Cannon to PQ183's skill reward inventory. A dedicated skill reference had previously reported PQ184, creating a source conflict; the current maintained reward map is now used as the canonical acquisition route. No Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance resolution: the maintained PQ reward-normalization map explicitly assigns Emperor's Cannon to PQ183's skill reward inventory. A dedicated skill reference had previously reported PQ184, creating a source conflict; the current maintained reward map is now used as the canonical acquisition route. No Ultimate Finish-only gate is inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records.",
       "id": "skill-emperor-s-cannon",
       "source_parallel_quests": [
         183
