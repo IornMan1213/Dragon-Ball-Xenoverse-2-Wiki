@@ -3801,3 +3801,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - No canonical skill data was regenerated or modified by the builder correction.
 - GitHub status/workflow inspection for the correction commits continues to return no reported statuses or workflow runs; do not infer CI success from absence of records.
 - Exact next task: verify builder + validator acquisition semantics together, then exhaustively research the final three null-race skills with exact-name current-version evidence. Preserve null if the evidence remains insufficient.
+
+
+## 2026-09-21 continuation — acquisition path recheck
+- Rechecked the live acquisition producer, validator, and JSON Schema together after the previous builder correction.
+- `build_skills_from_research.py` now checks explicit numbered PQ provenance before the generic `source_quest` fallback; `validate_skills.py` and `skills.schema.json` both allow `parallel_quest`, and the validator requires explicit numbered-PQ provenance across `source_quest`, `source_quest_or_shop`, or `unlock_method`.
+- TP Medal Shop and Skill Shop precedence remains intact; mixed TP Medal + PQ routes are intentionally kept as `quest_or_mission` by the producer and validator.
+- Live canonical `Final Pose` remains the sole `parallel_quest` record and has explicit `PQ74` provenance. The three unresolved race records (`Blaster Stream`, `Chaotic Time Impact`, `Circle Flash`) are all currently classified `quest_or_mission` because their canonical `source_quest` fields are numeric PQ IDs rather than explicit PQ text; their `unlock_method` fields still provide the explicit PQ wording. No acquisition type was changed because the dedicated `parallel_quest` taxonomy is presently used only where the canonical record itself carries the explicit route form expected by the maintained census.
+- No new canonical data change was justified in this pass.
+- GitHub repository search did not expose actionable workflow/status records for the validation path, so CI was not claimed as passing.
+- Exact next task: perform the final three null-race evidence sweep (Blaster Stream, Chaotic Time Impact, Circle Flash) using exact-name current-version sources; only promote a race restriction when explicit evidence exists.
