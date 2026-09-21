@@ -4918,3 +4918,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - The preceding Lord Slug audit entry accidentally contained an internal citation-token fragment in repository prose. This correction records the issue without rewriting historical content, per append-only protection.
 - No canonical skill data was changed by this correction; the authoritative Lord Slug canonical commit remains `e0a1e5ebb5131c037e0d62e96996029d4803305e`.
 - Current live skill census remains **428 records / 0 duplicate IDs / 38 nullable `ki_cost` records**.
+
+### 2026-09-21 — Whis mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 38 nullable `ki_cost` records**.
+- Bounded batch: **Finishing Blow (100), Prelude to Destruction (100), Strike of Revelation (100), Symphonic Destruction (300)** from Whis mentor training.
+- Research/evidence: current Xenoverse 2 references identify all four as Whis skills; a current consolidated skill-cost reference explicitly lists Finishing Blow, Strike of Revelation, and the Whis strike set at **100 Ki**, with Symphonic Destruction documented as a **300-Ki Ultimate** in current skill-cost data. The canonical classifications remain unchanged.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **34**. No skill-index Ki-cost projection introduced.
+- CI: commit `84aecf7a0f768f278f2aabaa45aa703e8a4bb281` had no actionable workflow/status result exposed; **no CI success claimed**.
+- Commit: `84aecf7a0f768f278f2aabaa45aa703e8a4bb281`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
