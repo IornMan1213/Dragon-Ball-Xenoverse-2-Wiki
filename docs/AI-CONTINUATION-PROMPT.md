@@ -3556,3 +3556,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: canonical report-build-status and index deploy were cancelled immediately; the audit build was in progress at inspection. Validators were not weakened.
 - Evidence limitation: no exact RNG probability or UF-only gate was inferred.
 - Exact next task: continue the late-PQ provenance census across PQ169–180, correcting only deterministic source mappings and preserving reward-tier conflicts and unresolved probabilities.
+
+
+### 2026-09-20 cycle update — PQ161–180 provenance-label normalization
+- Continued the late-PQ deterministic provenance census against maintained PQ161–170 and PQ171–180 reward batches.
+- Normalized remaining generic source labels to explicit maintained quest names for Giant Cluster (PQ163), Gigantic Explosion (PQ164), Special Beam Cannon (Beast) (PQ162), Divine Ray Bomb (PQ173), God of Destruction's Poise (PQ175), and Soaring Rush (PQ177).
+- Acquisition semantics, UF flags, and probabilities were not changed; no unsupported reward condition was inferred.
+- Commits: canonical 6ffd74c3b7c82883eb537424d29611e9d936a7a5; index 5f9d1a13d5d972533b3d3977c144c13b2cd473ed; audit 8db328a9df1c697de01c62a1d129c0323c3b06e1.
+- Exact next task: continue the acquisition/provenance census outside PQ161–180, prioritizing remaining generic `source_quest_or_shop` values and contradictory route records; only make deterministic corrections supported by maintained reward evidence.
