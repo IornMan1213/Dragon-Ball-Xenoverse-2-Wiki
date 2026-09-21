@@ -4047,3 +4047,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validator commit: `a73484a81b4119bc234566b00b4ba04c62b62ccd`.
 - No canonical skill records or generated index data changed.
 - Next task: inspect remaining `ultimate_finish_required` and `usable_by_cac` invariants for structural schema coverage, then continue with provenance-only rules.
+
+
+## 2026-09-21 continuation — Ultimate Finish/CaC structural contract
+- Audited `ultimate_finish_required` and `usable_by_cac` after the acquisition-schema work.
+- `ultimate_finish_required` already has a JSON Schema boolean/null type, so the validator's manual type check was redundant and has been removed. The evidence check for `true` remains validator-only because it depends on provenance text.
+- Audited the canonical dataset and found every record already carries `usable_by_cac`; the schema now requires that field (still allowing explicit null) so the canonical eligibility contract cannot silently disappear from records.
+- The validator's `usable_by_cac=true` evidence rule remains because it requires semantic/player-character evidence across multiple text fields.
+- Schema commits: `428c5933463325f01f9ea4281e77022b612f1583`.
+- Validator commit: `cb9de0430095863e50745056343c416ee6992a66`.
+- No canonical skill records or generated index data changed.
+- Next task: continue auditing remaining validator-only invariants for schema duplication, especially cross-field/status/numeric structure, without moving provenance-dependent checks into the schema.
