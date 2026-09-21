@@ -1983,19 +1983,22 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Divine_Ray_Bomb",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.bandai-namcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-releases-its-brand-new-dlc!",
+        "https://en.dragon-ball-official.com/news/01_2604.html"
       ],
       "unlock_method": "Parallel Quest 173 — \"Decoding Dinner\" Ultimate Finish bonus reward (45% bonus slot)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
+      "notes": "2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 provenance correction: Future Saga Chapter 1 contains Divine Ray Bomb; PQ173 “Decoding Dinner” is a Chapter 1 Parallel Quest. Official Bandai Namco documentation lists 15 Chapter 1 skills, and maintained PQ/DLC evidence identifies Divine Ray Bomb among that Chapter 1 skill set. The prior Chapter 2 label was incorrect and is corrected without changing the PQ173 acquisition or reward-tier fields.",
       "mechanics_notes": "Identity and category corroborated; exact numerical mechanics remain under research. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records. 2026-09-20 audit: PQ173's current maintained reward data lists Divine Ray Bomb in a 45% Ultimate Finish bonus slot; the repository now records the concrete gate rather than generic PQ reward wording.",
       "source_quest": 173,
       "source_quest_or_shop": "Parallel Quest 173 — \"Decoding Dinner\"",
       "source_parallel_quests": [
         173
-      ]
+      ],
+      "dlc_requirement": "Future Saga Chapter 1"
     },
     {
       "id": "skill-divine-spear",
@@ -3393,7 +3396,7 @@
     },
     {
       "id": "skill-giant-cluster",
-      "name": "Giant Cluster",
+      "name": "Gigantic Cluster",
       "class": "Super",
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
@@ -3401,20 +3404,21 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Giant_Cluster",
+        "https://dbxv2.fandom.com/wiki/Gigantic_Cluster",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" Ultimate Finish reward (40% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Giant Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Giant Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Gigantic Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Gigantic Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 naming correction: authoritative current technique documentation and maintained PQ reward evidence identify the skill as “Gigantic Cluster.” The stable repository ID remains `skill-giant-cluster` to avoid breaking existing references.",
       "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 163,
       "source_quest_or_shop": "Parallel Quest 163 — \"Broly the Invader\"",
       "source_parallel_quests": [
         163
-      ]
+      ],
+      "skill_description": "Gigantic Cluster is a Super Ki Blast skill associated with Broly."
     },
     {
       "id": "skill-gigantic-breaker",
