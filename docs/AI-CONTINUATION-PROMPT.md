@@ -6419,3 +6419,9 @@ The repository owner has clarified the continuation contract:
 - Canonical commit: `ad74973a48e80c3358f2c33e76953e6f7d7f7e27`; index sync: `1dae9ce373542babde192d4e192f2a6127b305ed`.
 - Web verification confirms PQ97 lists Charged Ki Wave as a Basic Reward and PQ110 lists Divinity Unleashed as a skill reward. citeturn0search14turn0search1
 - Next task: recompute the two-source census, validate canonical/index parity, and continue the next deterministic low-source cluster.
+
+### 2026-09-21 continuation — PQ171 provenance batch
+- Strengthened **Crimson Edge** and **Divine Spear** with direct PQ171 evidence.
+- Canonical commit: `58db6f9ef7a83978c796b7d6fb640661282d10c1`; index commit: `0366bd3d6c467c30b77d6ff78289c57ba0acb999`.
+- Current validation at handoff preparation: **452 canonical / 452 index / 65 exactly-two-source records / parity=true**.
+- Next task: continue the deterministic two-source acquisition audit, beginning with the next PQ cluster after PQ171.
