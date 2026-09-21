@@ -3873,3 +3873,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - These checks agree with the maintained PQ model: skills can be random rewards tied to Ultimate Finish completion, and current research records such as PQ160 and PQ184 explicitly identify UF bonus skill drops. citeturn0search0turn0search1turn0search2
 - No canonical data change was warranted.
 - Exact next task: continue auditing remaining cross-field invariants, especially whether quest-derived `ultimate_finish_required` values agree with the detailed reward/provenance evidence in the maintained research corpus.
+
+
+## 2026-09-21 continuation — Ultimate Finish provenance normalization
+- Audited all **60** canonical records with `ultimate_finish_required: true` against `unlock_method` and `source_quest_or_shop`.
+- Found three records whose canonical boolean was supported by maintained PQ reward evidence but whose `unlock_method` still said `Basic Reward`: **Earth Splitting Galick Gun**, **Raid Blast**, and **Blazing Attack**.
+- Normalized those three `unlock_method` fields to their explicit Ultimate Finish reward/bonus-slot wording (including the maintained 50%/25% evidence). No acquisition route, PQ ID, or CaC scope changed.
+- Added a validator invariant requiring every `ultimate_finish_required: true` record to expose explicit Ultimate Finish provenance in `unlock_method` or `source_quest_or_shop`.
+- Rechecked canonical/index parity: **283/283** records remain synchronized and no true-UF record lacks explicit UF provenance.
+- Next task: continue cross-field reward-tier auditing for unresolved/contradictory PQ reward classifications without inferring gates from generic quest provenance.
