@@ -1312,3 +1312,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Post-write validation: **428 canonical skill records / 0 duplicate IDs / 12 Ultra Pack 1 records / 0 PQ133–137 DLC mismatches**; `skills-index.json` was not modified because it does not represent `dlc_requirement`.
 - [x] CI status: workflow inspection remains required; no success is claimed unless GitHub exposes an actual run/check.
 - [ ] Next provenance batch: recompute the live DLC-label/source-relationship census and select the next deterministic cluster outside Ultra Pack 1, preserving intentional composite/platform-dependent values and source conflicts.
+
+
+### 2026-09-21 — Master ledger completion marking: Ultra Pack 2 skill provenance census
+- [x] Audited all **8 canonical Ultra Pack 2 skills**: Dragon Blitz, Flash Chaser, Brutal Buster, Lightning Impact, Savory Slicer, Total Detonation Ball, Photon Swipe, and Excellent Full Course.
+- [x] Official Bandai Namco documentation confirms Ultra Pack 2 contains 5 Parallel Quests and 8 techniques; the maintained 186-PQ guide maps the canonical skill records to PQ138–142.
+- [x] Live source-PQ census found **0 DLC mismatches**: every one of the eight records has `dlc_requirement=Ultra Pack 2` and a source PQ within 138–142.
+- [x] Canonical data changed only by refreshing `last_verified=2026-09-21` and appending a bounded provenance note to these eight records; no acquisition, mechanics, cost, restriction, or reward-tier field was changed.
+- [x] Post-write target validation: **428 canonical skill records / 0 duplicate IDs / 8 Ultra Pack 2 skill records / 0 PQ138–142 DLC mismatches**.
+- [x] CI remains unclaimed unless GitHub exposes an actual workflow run/check.
+- [ ] Next provenance batch: fresh live DLC-label/source-relationship census outside Ultra Pack 2, selecting the next deterministic cluster and preserving intentional composite/platform-dependent values.
