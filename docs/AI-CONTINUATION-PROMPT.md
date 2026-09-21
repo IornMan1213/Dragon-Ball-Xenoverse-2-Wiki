@@ -5337,3 +5337,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow/status result exposed; **no CI success claimed**.
 - Commits: `ed7b48305fc2eb0174f86f238ddd79b44b169e0b` (PQ141-150 batch), `1c7ff301cd75121a296a946e795e8f4f6410844c` (PQ144 canonical rewards), `40ef4445bf38b420a05168a7600fddc9457f92f2` (batch sync), `c7d3a65fee55907ab2605ec7e69304ea5b119af9` (coverage audit), `f3cfb40a23a8097fd46b78c9552d41bb3d9a3b0d` (changelog).
 - Exact next task: **recompute the full PQ research-range census including the new 141-150 batch, then continue bounded PQ reward/acquisition/version reconciliation, prioritizing explicit incomplete reward inventories and skill-drop semantics.**
+
+### 2026-09-21 cycle update — PQ18-PQ20 documented reward reconciliation
+- Workstream: **P1 Parallel Quest reward/acquisition/version reconciliation**.
+- Live census before editing: **186 canonical PQ records / 186 research-batch records**, with **0 missing** and **0 duplicate** quest numbers.
+- Bounded batch: **PQ18 Force Entrance Exam, PQ19 Fierce Battle! Ginyu Force, PQ20 Frieza! Show Yourself**. Canonical reward arrays were empty although `pq-batch-02.json` already contained explicit basic-reward sets.
+- Evidence: PQ18 `660 Zeni`, `Small Mix Capsule`, `Time Control`, `Mach Dash`; PQ19 `770 Zeni`, `Mach Punch`, `Fighting Pose E`; PQ20 `780 Zeni`, `Energy Shard`, `Small Mix Capsule`, `Mystic Flash`. Exact individual reward-slot/probability semantics remain unresolved.
+- Changes: populated only documented reward/skill fields, refreshed verification metadata/source provenance, and preserved uncertainty. No drop probability or Ultimate Finish-only gate was invented.
+- Validation: canonical/research coverage remains **186/186**, with **0 missing / 0 duplicates**; PQ18-PQ20 canonical rewards match the research-batch basic reward sets.
+- CI: no actionable workflow/status result exposed; **no CI success claimed**.
+- Commit: `28a2e0838aac4eb5b6a0a1e176c622c98687d374` (canonical), `4bc01e1fe5e303e90bef1368c7f2c64d59725ce5` (coverage audit), `7be538b2318317784b4adea7a818706f165393e1` (changelog).
+- Exact next batch: **PQ21-PQ30 reward reconciliation**, comparing canonical empty/partial reward inventories against `pq-batch-03.json`; update only explicitly documented reward fields and preserve unresolved drop semantics.
