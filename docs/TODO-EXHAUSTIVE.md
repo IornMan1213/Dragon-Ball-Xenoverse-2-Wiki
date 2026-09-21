@@ -1717,3 +1717,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Preserved the character-only acquisition boundary; no unsupported PQ/shop route was inferred.
 - [x] Post-write target: **49** exactly-two-source records.
 - [ ] Exact next task: recompute the live two-source census and continue with the next deterministic low-source record after Energy Release, checking acquisition/reward semantics before provenance-only strengthening.
+
+
+### 2026-09-21 — Completed low-source provenance batch: Energy Shot
+- [x] Recomputed the live two-source census before editing: **49**.
+- [x] Verified **Energy Shot** is a PQ22 acquisition; Yhan Game independently lists it as a Basic Reward for **PQ22 — Dragon Ball Brawl**. citeturn1search2
+- [x] Added the independent Yhan Game source to canonical and index records.
+- [x] Preserved existing acquisition/reward-tier and mechanics semantics; no unsupported drop probability was inferred.
+- [x] Post-write target: **48** exactly-two-source records.
+- [ ] Exact next task: recompute the live two-source census and continue with the next deterministic low-source record after Energy Shot, checking acquisition/reward semantics before provenance-only strengthening.
