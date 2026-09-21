@@ -5209,7 +5209,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Added the four missing canonical endpoints with bounded provenance: Chaos Shot (100 Ki Super), Galick Cannon (100 Ki Super), Impulse Slash (300 Ki Ultimate), and Secret Poison (300 Ki Ultimate). All four are recorded as CaC-usable with no narrower race/gender restriction established by the consulted evidence.
 - Projected all four into `docs/data/skills-index.json` and synchronized category/record counts.
 - Evidence limits: the exact four-name mapping is not directly enumerated by the publisher announcement; the repository records the historical secondary identification rather than overstating it as a primary list. No unsupported shop price, rotation, reward probability, Ultimate Finish gate, or extra prerequisite was inferred.
-- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values / identical deterministic ordering / no internal citation-token artifacts**.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values / identical deterministic ordering / newly added records contain no internal citation-token artifacts; older historical audit text was preserved**.
 - CI: no workflow run or status check is exposed for the latest index commit; no CI success claimed.
 - Commits: canonical `6eefd6470e7638488cc7740880028e3769fa5d3f`; index `cc98212b6ace7b56df6cda78efa5c5250a6c3f88`.
 - Exact next batch: recompute the live DLC/free-update source census and choose the next deterministic cluster with a concrete missing endpoint or provenance mismatch; do not reopen reconciled Free Update 1 records unless new contradictory evidence appears.
