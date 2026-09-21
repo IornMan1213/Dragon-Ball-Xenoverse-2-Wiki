@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 122,
+  "canonical_target_records": 130,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -315,6 +315,46 @@
       "target_name": "Shenron really went the extra mile.",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/shenron-really-went-the-extra-mile.md"
+    },
+    {
+      "pq_id": "pq-164",
+      "pq_number": 164,
+      "target_id": "super-soul-132",
+      "target_name": "This place will be your grave!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/this-place-will-be-your-grave.md"
+    },
+    {
+      "pq_id": "pq-166",
+      "pq_number": 166,
+      "target_id": "super-soul-130",
+      "target_name": "Hope you're ready for a trip!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/hope-youre-ready-for-a-trip.md"
+    },
+    {
+      "pq_id": "pq-168",
+      "pq_number": 168,
+      "target_id": "super-soul-131",
+      "target_name": "I'm not about to let Pan see me lose!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/im-not-about-to-let-pan-see-me-lose.md"
+    },
+    {
+      "pq_id": "pq-173",
+      "pq_number": 173,
+      "target_id": "super-soul-134",
+      "target_name": "You will know the power of the gods!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-will-know-the-power-of-the-gods.md"
+    },
+    {
+      "pq_id": "pq-174",
+      "pq_number": 174,
+      "target_id": "super-soul-133",
+      "target_name": "I'll surpass you as I am, with my OWN power!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-surpass-you-as-i-am-with-my-own-power.md"
     },
     {
       "pq_id": "pq-180",
@@ -797,6 +837,56 @@
       "pq_numbers": [
         159
       ]
+    },
+    {
+      "target_id": "super-soul-130",
+      "target_name": "Hope you're ready for a trip!",
+      "pq_ids": [
+        "pq-166"
+      ],
+      "pq_numbers": [
+        166
+      ]
+    },
+    {
+      "target_id": "super-soul-131",
+      "target_name": "I'm not about to let Pan see me lose!",
+      "pq_ids": [
+        "pq-168"
+      ],
+      "pq_numbers": [
+        168
+      ]
+    },
+    {
+      "target_id": "super-soul-132",
+      "target_name": "This place will be your grave!",
+      "pq_ids": [
+        "pq-164"
+      ],
+      "pq_numbers": [
+        164
+      ]
+    },
+    {
+      "target_id": "super-soul-133",
+      "target_name": "I'll surpass you as I am, with my OWN power!",
+      "pq_ids": [
+        "pq-174"
+      ],
+      "pq_numbers": [
+        174
+      ]
+    },
+    {
+      "target_id": "super-soul-134",
+      "target_name": "You will know the power of the gods!",
+      "pq_ids": [
+        "pq-173"
+      ],
+      "pq_numbers": [
+        173
+      ]
     }
   ],
   "unresolved_target_routes": [
@@ -1189,16 +1279,31 @@
       "target_id": "super-soul-127",
       "target_name": "That's a dead ball now, right?",
       "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-128",
+      "target_name": "Nothing beats flying!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-129",
+      "target_name": "There was actually five of me!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-135",
+      "target_name": "I learned a lot from how you fight.",
+      "reason": "no_explicit_pq_endpoint"
     }
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 122,
-    "forward_edge_count": 44,
-    "reverse_edge_count": 44,
-    "unique_pq_endpoints": 34,
-    "unique_target_endpoints": 44,
-    "unresolved_target_route_count": 78,
+    "canonical_target_records": 130,
+    "forward_edge_count": 49,
+    "reverse_edge_count": 49,
+    "unique_pq_endpoints": 39,
+    "unique_target_endpoints": 49,
+    "unresolved_target_route_count": 81,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0
   }
