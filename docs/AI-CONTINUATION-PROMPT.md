@@ -4058,3 +4058,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validator commit: `cb9de0430095863e50745056343c416ee6992a66`.
 - No canonical skill records or generated index data changed.
 - Next task: continue auditing remaining validator-only invariants for schema duplication, especially cross-field/status/numeric structure, without moving provenance-dependent checks into the schema.
+
+
+## 2026-09-21 continuation — remaining validator invariant audit
+- Audited the remaining cross-field/status/numeric checks after the recent schema centralization.
+- Confirmed the remaining acquisition/provenance checks are evidence-dependent: PQ-number detection, Skill Shop wording, TP Medal wording, starting-choice wording, character-only wording, and mixed-route detection all inspect textual provenance and should remain validator-only.
+- Confirmed `ultimate_finish_required` type is now schema-owned while its explicit Ultimate Finish evidence remains validator-only.
+- Confirmed `usable_by_cac=true` evidence remains semantic because it depends on race restriction, character source, and unlock-method evidence rather than field shape alone.
+- Reviewed the apparent `source_quest` cases on non-quest acquisitions; missing fields resolve to null in validator access, while character-only/TP Medal/starting routes use `source_quest_or_shop` for their destination/provenance. No data correction was warranted from this audit.
+- No additional schema/validator duplication was identified that could be safely centralized without encoding provenance/business interpretation.
+- No canonical skill records or generated index data changed in this cycle.
+- Next task: inspect the schema/validator boundary for source URL and metadata structure, then verify the current generated index/build contract and repository status before making any further changes.
