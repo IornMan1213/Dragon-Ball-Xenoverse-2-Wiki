@@ -6265,3 +6265,11 @@ The repository owner has clarified the continuation contract:
 - Canonical commit: `d61bb7e59769b02ea755f720fd58f1539cbabd8a`.
 - CI: no workflow success is claimed unless GitHub exposes an actual run/check.
 - Exact next batch: **recompute the DLC/free-update provenance census and select the next concrete mismatch; prioritize labels whose content model conflicts with Xenoverse 2's actual acquisition/package structure, while preserving intentional character-only/composite labels.**
+
+### 2026-09-21 continuation — Lightning Impact provenance strengthening
+- Workstream: **P1 skill provenance/source-strengthening after DLC census**.
+- Live target: **Lightning Impact** (Ultra Pack 2, PQ142).
+- Existing facts were internally consistent; this was a source-strengthening correction rather than a semantic/DLC relabel. Added independent current skill, contemporaneous PQ reward, and maintained all-PQ guide sources documenting **Parallel Quest 142 — Timespace Tussle, Basic Reward**. citeturn1search1turn1search4turn1search6
+- No gameplay values, DLC classification, Ultimate Finish flag, or acquisition semantics were changed.
+- Canonical commit: `d6013a3c9c4656fe95196fdd93e2e32703567a17`.
+- Exact next batch: **continue the live skill provenance census by checking the remaining low-source-count or semantically fragile DLC records; prioritize a concrete source gap or provenance conflict, and do not rewrite already-consistent records merely for stylistic reasons.**
