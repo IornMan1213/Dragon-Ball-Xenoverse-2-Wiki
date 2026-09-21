@@ -4328,3 +4328,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Added a validator guard requiring every `INDEX_PROJECTION_FIELDS` entry to exist in the canonical schema. This prevents future projection/schema drift from silently generating an index with non-canonical fields.
 - Commit: d4f87a9aa7c95fb278aea41cbb4ea655527c2100 — Validate index projection against canonical schema.
 - Next task: audit deterministic generated metadata (`generated`, category counts, record counts, and schema version) for drift between the builder output and checked-in validation expectations, especially the date-dependent generated field.
+
+
+## 2026-09-21 continuation — generated metadata validation audit
+- Audited `generated`, category counts, record counts, and schema/index metadata for drift.
+- Found and fixed a validator ordering bug introduced during the projection audit: the new projection check referenced `errors` before it was initialized.
+- Added canonical category-count checks so checked-in `category_counts` must agree with the actual records, including the special Transformations count derived from Awoken/Race records. Existing record-count and schema/index consistency checks remain authoritative.
+- The `generated` date remains intentionally compared between `skills.json` and `skills-index.json`; it is build metadata rather than a semantic record field, so the validator does not require it to equal the validator's current wall-clock date.
+- Commit: c670a78dd561b04cc4a3a1577d68a1780beec0d1 — Harden generated skill metadata validation.
+- Next task: audit `target_category_counts` and the builder's target-count assumptions against the current canonical records, ensuring target metadata cannot silently contradict the catalog without an explicit validation finding.
