@@ -597,7 +597,7 @@
       "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "Tapion",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 1",
       "ki_cost": 300,
       "stamina_cost": null,
       "damage_type": "Strike",
@@ -608,7 +608,7 @@
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Brave Sword Attack. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -619,7 +619,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 117,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "id": "skill-brave-sword-attack",
       "source_parallel_quests": [
         117
@@ -631,7 +631,7 @@
       "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "Tapion",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 1",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
@@ -642,7 +642,7 @@
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Strike Super from PQ116, usable by CaCs. Tapion draws the Brave Sword and performs a long-range sword slash; it is one of Tapion's Future Warrior-compatible sword skills. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -652,7 +652,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 116,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Brave Sword Slash in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Brave Sword Slash in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "id": "skill-brave-sword-slash",
       "source_parallel_quests": [
         116
@@ -1135,7 +1135,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Majin Buu (Gohan Absorbed)",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 1",
       "ki_cost": 200,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -1146,7 +1146,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Candy Beam (Super) as a 200-Ki Ki Blast Super from PQ113. It transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage; the existing all-CaC-races restriction is retained.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
@@ -1154,7 +1154,7 @@
       "source_quest": 113,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ113 reward listings explicitly place Candy Beam (Super) in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ113 reward listings explicitly place Candy Beam (Super) in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "id": "skill-candy-beam-super",
       "source_parallel_quests": [
         113
@@ -4658,7 +4658,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Android 13",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 1",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -4669,7 +4669,7 @@
       "mechanics_notes": "Dedicated current-version evidence confirms Handy Canon as a **100-Ki Ki Blast Super** from PQ115. It fires a cancellable barrage of Ki Blasts. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Explicit current reward evidence lists this skill in PQ115's Basic Reward set, so the acquisition route does not require an Ultimate Finish.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Handy_Canon",
@@ -4677,7 +4677,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "source_quest": 115,
       "acquisition_type": "quest_or_mission",
       "id": "skill-handy-canon",
@@ -4796,7 +4796,7 @@
       "ki_cost": 100,
       "usable_by_cac": true,
       "character_source": "Tapion",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 1",
       "stamina_cost": null,
       "damage_type": "Other",
       "unlock_method": "Parallel Quest 116 — \"A Dance of Swords\" Basic Reward",
@@ -4805,11 +4805,11 @@
       "skill_description": "Hero's Flute is a Super Other skill that creates a protective barrier around the user while playing Tapion's flute.",
       "mechanics_notes": "Confirmed as Tapion's 100-Ki Other Super from PQ116. Playing the flute creates a temporary barrier that protects the user from normal/Super melee and Ki Blast attacks; the barrier lasts about 7.5 seconds. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "source_quest": 116,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Hero's Flute in the Basic Reward pool; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 audit: PQ116 reward listings explicitly place Hero's Flute in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "id": "skill-hero-s-flute",
       "source_parallel_quests": [
         116
@@ -6091,7 +6091,7 @@
       "subcategory": "Other",
       "usable_by_cac": true,
       "character_source": "Dabura",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 1",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Other",
@@ -6102,7 +6102,7 @@
       "mechanics_notes": "Confirmed as Dabura's 100-Ki Other Super from PQ114 and usable by all CaC races. The spit petrifies an opponent on contact; the effect ends if the target is struck. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145"
@@ -6110,7 +6110,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 114,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 114. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "id": "skill-petrifying-spit",
       "source_parallel_quests": [
         114
@@ -6212,7 +6212,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Jiren",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 2",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -6223,7 +6223,7 @@
       "mechanics_notes": "PQ reward identity corroborated; Power Impact is classified as a Strike Super, despite the stale Ki Blast subcategory value previously present. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. Classification reconciliation 2026-09-20: current Xenoverse 2 skill page explicitly classifies Power Impact as a Ki Blast Super and gives PQ120 as the unlock. The canonical Strike classification was stale. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "verified",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Impact",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
@@ -6232,7 +6232,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 120,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 2.",
       "id": "skill-power-impact",
       "source_parallel_quests": [
         120
@@ -6273,7 +6273,7 @@
       "subcategory": "Strike",
       "usable_by_cac": true,
       "character_source": "Jiren",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 2",
       "ki_cost": 1000,
       "stamina_cost": null,
       "damage_type": "Strike",
@@ -6284,7 +6284,7 @@
       "mechanics_notes": "1000 Ki Strike Ultimate; 14-hit rushdown. It can only be activated with 1000 Ki. PQ122 is the documented acquisition quest and Power Rush is an Ultimate Finish reward.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -6295,7 +6295,7 @@
       "source_quest": 122,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.",
+      "notes": "2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 2.",
       "id": "skill-power-rush",
       "source_parallel_quests": [
         122
@@ -7049,7 +7049,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Android 13",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 1",
       "ki_cost": 400,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -7060,7 +7060,7 @@
       "mechanics_notes": "PQ reward identity corroborated; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for S.S. Deadly Bomber; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
@@ -7071,7 +7071,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 115,
       "acquisition_type": "quest_or_mission",
-      "notes": "",
+      "notes": " 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "id": "skill-s-s-deadly-bomber",
       "source_parallel_quests": [
         115
@@ -8045,7 +8045,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Majin Buu (Gohan Absorbed)",
-      "dlc_requirement": "Extra Pack 1 / Extra Pack 2",
+      "dlc_requirement": "Extra Pack 1",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -8056,7 +8056,7 @@
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from PQ113. Five ghosts remain in place until launched by another input or after the automatic delay. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Buu_Attack",
@@ -8064,7 +8064,7 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 113 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance normalization: source PQ range maps to Extra Pack 1.",
       "source_quest": 113,
       "acquisition_type": "quest_or_mission",
       "id": "skill-super-ghost-buu-attack",
