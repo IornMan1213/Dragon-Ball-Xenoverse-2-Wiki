@@ -6092,3 +6092,9 @@ The repository owner has clarified the continuation contract:
 - TODO ledger commit: `d4d6e94144127cd5c57fe22e1da18d3b65944dda`; canonical data commit: `f0ece84b7f1168dc7dc0a919c58e5c1fea246556`.
 - Evidence boundary: this is a completeness correction, not a claim that the official “10 additional skills” figure counts character-exclusive moves separately. The distinction is explicitly preserved in the canonical notes.
 - Exact next task: continue the exhaustive character-only/DLC completeness audit for the remaining DLC clusters, starting with the next deterministic cluster and adding missing canonical endpoints only when independently supported.
+
+
+### 2026-09-21 correction — Pretty Charge nullable-cost cleanup
+- The newly added Pretty Charge record initially lacked `ki_cost`, temporarily creating one nullable value. The record was immediately normalized to `ki_cost=0` with an explicit note that this is the activation cost and does not quantify Ki restored.
+- Corrective canonical commit: `9f2682c5d9a843f8f107747f890b78c6c9c456e4`.
+- Current validation target remains **429 records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
