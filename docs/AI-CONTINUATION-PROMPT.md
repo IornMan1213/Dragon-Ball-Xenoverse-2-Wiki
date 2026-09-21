@@ -6025,3 +6025,13 @@ The repository owner has clarified the continuation contract:
 - Validation target: **428 records / 0 duplicate IDs / 10 Legendary Pack 2 skills / 0 PQ147–150 DLC mismatches**.
 - Reward-tier semantics and free-update/character-only distinctions were preserved; this was a provenance-only pass. CI success is not claimed unless GitHub exposes a run/check.
 - Exact next task: fresh live DLC-label/source-relationship census beyond Legendary Pack 2.
+
+
+### 2026-09-21 cycle update — Conton City Vote Pack skill provenance census
+- Live canonical census: **428 records / 0 duplicate IDs**.
+- Bounded batch: all 10 records carrying `dlc_requirement=Conton City Vote Pack`.
+- Official publisher/store documentation confirms 4 new PQs and 10 additional moves; maintained evidence identifies PQ151–154. The canonical data maps the PQ-linked skills to those quests and retains Supersonic Mode as character-specific.
+- Changes: refreshed `last_verified=2026-09-21` and appended bounded provenance notes to all ten records.
+- Validation target: **428 records / 0 duplicate IDs / 10 Conton City Vote Pack records / 0 DLC mismatches**.
+- Existing drop-condition conflicts and character-only semantics were preserved rather than flattened. CI success is not claimed without exposed workflow/check data.
+- Exact next task: fresh live DLC-label/source-relationship census beyond Conton City Vote Pack.
