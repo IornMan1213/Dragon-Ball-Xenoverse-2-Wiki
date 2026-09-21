@@ -3972,3 +3972,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validator change commit: `8fcdd96f529b707e5a7667c7eaa0bd3174dcf637`.
 - No canonical data changes were required.
 - Next task: inspect correction/key collision semantics and acquisition/category invariants for cases where two distinct source records can collapse into one canonical key without an explicit correction, and strengthen validation if a concrete invariant is found.
+
+
+## 2026-09-21 continuation — correction/collision semantics audit
+- Inspected the builder's canonical key `(name.casefold(), class, subcategory)`, normal merge path, and correction path.
+- Searched the repository's research-batch corpus for `correction_of`; no current batch contains an active correction record. Therefore the correction replacement branch is presently dormant, while ordinary repeated keys are treated as enrichment merges.
+- The merge behavior is intentional for repeated evidence about the same canonical skill: nonempty incoming fields fill missing fields, sources are deduplicated, and an explicit correction is required to replace a prior key/class/subcategory.
+- No concrete validator invariant was justified from the current corpus without falsely rejecting legitimate repeated enrichment records. No code/data changes were made in this pass.
+- Next task: audit the validator's remaining cross-file invariants and schema-vs-canonical field requirements, looking specifically for fields the builder can emit or preserve that the validator/schema does not constrain.
