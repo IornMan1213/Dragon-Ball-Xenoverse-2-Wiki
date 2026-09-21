@@ -5291,3 +5291,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: both JSON layers parse; 429/429 records remain; all 10 targeted `mechanics_notes` values match canonical; changed index contains **0 internal AI/UI/search citation artifacts**. Workflow-run lookup and combined status for the index commit returned **no workflow runs and no statuses**; no CI success claimed and validators were not weakened.
 - Commits: `5a9f4bf24d6efeafed6da3543e817ad0734f3a32` (index), `98da8c09f02f2d0c427c2a7475d9127bd99201f7` (coverage audit), `0361a0ce8e6da4b0b83b5a9c8725dfaf5d9ef428` (changelog).
 - Exact next batch: **Super Spirit Bomb, Supernova, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike**, using the same live canonical→index `mechanics_notes` parity check; recompute the live census immediately before editing and preserve unrelated projection families.
+
+
+### 2026-09-21 cycle update — skills-index mechanics projection parity batch 4
+- Workstream: **P1 skill acquisition/DLC-version provenance cleanup**, deterministic canonical→index reconciliation.
+- Live census before/after: **429 canonical skills / 429 skill-index records**.
+- Bounded batch: **5 `mechanics_notes` projections** — Super Spirit Bomb, Supernova, Time Skip/Back Breaker, Time Skip/Flash Skewer, and Time Skip/Jump Spike.
+- Research/evidence: canonical `docs/data/skills.json` is the producer for the index projection. No new gameplay, acquisition, restriction, DLC, or mechanics claim was introduced.
+- Changes: updated only the matching `mechanics_notes` values in `docs/data/skills-index.json`; no unrelated projection fields were regenerated.
+- Evidence limits: deterministic cross-layer parity correction, not a new verification event. The full live `mechanics_notes` projection family now has **0 mismatches**.
+- Validation: both skill JSON layers parse; **429/429** records remain; full `mechanics_notes` parity is clean; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: workflow/status inspection was not exposed for this cycle; **no CI success claimed**. Validators were not weakened.
+- Commits: `971ae7a1bdf30adbdfe1417c2e6ff3d26dc599b1` (index), `bc687d3b4eb7c57a7bdafdaa8085e0bd0bb33ea2` (coverage audit), `5d0344ba7be54d0bc01e968141df03d3f8544280` (changelog).
+- Exact next batch: **recompute the live skill-index projection census and select the next highest-impact deterministic mismatch family**, without regenerating unrelated fields or reopening clean `mechanics_notes` parity.
