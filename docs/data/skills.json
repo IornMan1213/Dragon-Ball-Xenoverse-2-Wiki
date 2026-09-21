@@ -10246,11 +10246,12 @@
       "source_quest": "Frieza (1st Form) mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-death-beam",
       "source_mentor": [
         "mentor-frieza"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Death Crasher",
@@ -10273,11 +10274,12 @@
       "source_quest": "Frieza (1st Form) mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-death-crasher",
       "source_mentor": [
         "mentor-frieza"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Death Slicer",
@@ -10300,11 +10302,12 @@
       "source_quest": "Frieza (1st Form) mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-death-slicer",
       "source_mentor": [
         "mentor-frieza"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Feint Crash",
