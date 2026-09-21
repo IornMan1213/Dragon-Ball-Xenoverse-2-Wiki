@@ -5293,6 +5293,14 @@
       "skill_ids": [
         "skill-heroic-assault",
         "skill-shooting-strike"
+      ],
+      "super_soul_ids": [
+        "super-soul-106",
+        "super-soul-108"
+      ],
+      "super_soul_rewards": [
+        "This is your true power?",
+        "Still haven't figured out you're gonna lose?"
       ]
     },
     {
@@ -5321,6 +5329,14 @@
       "skill_rewards": [],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_ids": [
+        "super-soul-105",
+        "super-soul-107"
+      ],
+      "super_soul_rewards": [
+        "I'll be the one to fight you!",
+        "You need to be more careful."
       ]
     },
     {
@@ -5358,6 +5374,14 @@
       "skill_ids": [
         "skill-super-gamma-blast",
         "skill-core-breaker"
+      ],
+      "super_soul_ids": [
+        "super-soul-109",
+        "super-soul-110"
+      ],
+      "super_soul_rewards": [
+        "Heh heh! I'm not as rusty as I look!",
+        "See? It's a good thing I was here, right?"
       ]
     },
     {
