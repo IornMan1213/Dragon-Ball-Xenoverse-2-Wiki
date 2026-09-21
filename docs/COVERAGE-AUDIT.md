@@ -4763,3 +4763,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: workflow status must be inspected for the latest commit; do not claim CI success unless an actionable successful run is exposed.
 - Commits: `cf2a6ce19ee570c142e36dd0bde183c1294f239a` (canonical skills), `904149c72aac8fa2d2d37cd983536690ae2ab746` / `b6ad513ef14af07d0546171a07d253003a304c46` (index projection correction/scoping).
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next evidence-backed mentor or other tightly bounded family, prioritizing explicit current `Ki Used` values and preserving variable-cost forms.**
+
+### 2026-09-21 — Mentor skill Ki-cost verification batch 3
+- Live canonical skill census before editing: **428 records; 96 nullable `ki_cost` records**.
+- Bounded batch: **Double Sunday, Saturday Crash, Shining Friday, Weekend** from Raditz mentor training.
+- Evidence: current Xenoverse 2 skill references explicitly list **100, 100, 100, and 300 Ki** respectively; the repository already contains their Raditz mentor provenance.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics or acquisition semantics were inferred.
+- Validation: canonical count remains **428/428**, duplicate IDs remain **0**, nullable `ki_cost` count is now **92**. No index Ki-cost projection was introduced because the index contract does not establish that field. No internal AI/UI/search citation artifacts were introduced.
+- CI: no actionable workflow run was exposed for the canonical commit; **no CI success claimed**.
+- Commit: `9f569f62cc896737ee03bd4ff25e21007a85e547`.
+- Exact next batch: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, starting with Zarbon's four null-cost skills (Audacious Laugh, Gorgeous Shot, Bloody Counter, Elegant Blaster) if current explicit `Ki Used` evidence remains available.**
