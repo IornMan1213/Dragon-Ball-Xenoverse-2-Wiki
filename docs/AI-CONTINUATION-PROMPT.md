@@ -6181,3 +6181,16 @@ The repository owner has clarified the continuation contract:
 - CI: inspect the latest canonical/index/documentation commits for workflow runs; no CI success is claimed unless GitHub exposes an actual run/status.
 - Commits: `8d7e79997949c60dcdd950803363adc54c5df4dd` (canonical), `5a8f644a1efdff441bc736612a039fa2df06760` (index), `7f8623f70fa7c6c7559175ed2397afad65acbe80` (coverage before citation-markup cleanup), `85def00857f796eba2a03fd47c2d6a420f44814a` (coverage cleanup), `9d16b6de8354a4742aaf9aa020d769bd0b1a8dbb` (TODO).
 - Exact next task: **recompute the live DLC/free-update source census and select the next deterministic completeness/provenance cluster with a concrete missing endpoint or mismatch; prioritize missing canonical endpoints over low-confidence prose enrichment.**
+
+
+### 2026-09-21 cycle update — Extra Pack 2 skill completeness correction
+- Workstream: P1 skill DLC/free-update provenance and completeness cleanup.
+- Live census before editing: 439 canonical / 439 index / 0 duplicate IDs / 0 nullable ki_cost values.
+- Deterministic cluster: Extra Pack 2's 8 documented skills. The registry had Rough Ranger, Power Impact, Meditation, and Power Rush but was missing Fu's four Tokipedia endpoints: Confusion Blade, Sneaky Strike, Energy Minefield, and Remote Serious Bomb.
+- Research/evidence: official publisher/store listings establish the eight-skill package scope; maintained DLC and Tokipedia evidence identifies the four missing skills and their completion thresholds. Remote Serious Bomb's current dedicated evidence lists 300 Ki.
+- Changes: added the four missing canonical records to docs/data/skills.json; projected them into docs/data/skills-index.json; synchronized counts.
+- Evidence boundaries: recorded only directly supported Tokipedia completion endpoints and costs. No unsupported drop percentages, Ultimate Finish requirements, or additional gates were inferred.
+- Validation: 443 canonical / 443 index / 0 duplicate IDs / 0 nullable ki_cost values / 8 Extra Pack 2 records.
+- CI: workflow endpoint exposed no runs for the commits checked so far; no CI success is claimed.
+- Commits: canonical cb7cae9327cdf4b6881d6238e69bae1204ba5b9c; index ae196b957734334a964b59f6206815a48385d167; coverage de1a5ea858fa591906455f0a6432ab067740137d; TODO 36f25dec995b4771c9d7f4fa24aca4cf7fc8f260.
+- Exact next task: recompute the live DLC/free-update source census again and select the next deterministic cluster with a concrete missing endpoint or provenance mismatch; preserve intentional composite/platform-dependent labels.
