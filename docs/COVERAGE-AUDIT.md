@@ -1,5 +1,11 @@
 ## 2026-09-20 Steel Mirage provenance-note cleanup
 
+- Cleaned the duplicated Steel Mirage reward-condition note in canonical data and synchronized the index.
+- The substantive state is unchanged: maintained drop-condition evidence points to a 45% Ultimate Finish bonus slot, while the maintained all-PQ guide presents it under Basic Rewards. The conflict remains explicitly recorded; no new probability claim was introduced.
+
+
+## 2026-09-20 Steel Mirage provenance-note cleanup
+
 - Cleaned a duplicated/confusing provenance note for **Steel Mirage**.
 - Canonical/index acquisition remains PQ165 Ultimate Finish bonus-slot (45%), while the maintained Steam all-PQ guide's Basic Reward presentation remains explicitly documented as a source conflict.
 - No acquisition semantics were changed; this pass only made the uncertainty statement internally consistent.
