@@ -4298,11 +4298,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Shot",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 low-source provenance strengthening: Yhan Game independently lists Energy Shot as a Basic Reward for PQ22 — Dragon Ball Brawl, corroborating the existing acquisition endpoint and reward-tier classification.",
       "source_parallel_quests": [
         22
       ]
