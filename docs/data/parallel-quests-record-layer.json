@@ -4904,7 +4904,14 @@
         "skill-crush-cannon",
         "skill-double-crush",
         "skill-crush-stream"
-      ]
+      ],
+      "super_soul_ids": [
+        "super-soul-089"
+      ],
+      "super_soul_rewards": [
+        "It's just me and you now!"
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-148",
@@ -4944,7 +4951,14 @@
         "skill-blaster-cannon",
         "skill-blaster-bomb",
         "skill-blaster-stream"
-      ]
+      ],
+      "super_soul_ids": [
+        "super-soul-090"
+      ],
+      "super_soul_rewards": [
+        "My back's getting tingly...!"
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-149",
@@ -4981,7 +4995,14 @@
       "skill_ids": [
         "skill-comet-strike",
         "skill-meteor-explosion"
-      ]
+      ],
+      "super_soul_ids": [
+        "super-soul-088"
+      ],
+      "super_soul_rewards": [
+        "Our two strengths aren't just added together."
+      ],
+      "last_verified": "2026-09-21"
     },
     {
       "id": "pq-150",
