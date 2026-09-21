@@ -4967,3 +4967,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 ### 2026-09-21 — Citation-token correction for Future Gohan audit entry
 - The preceding Future Gohan audit entry contains internal citation-token text that must not persist in repository prose. This append-only correction preserves the historical entry while clarifying that the underlying evidence supports Sonic Rush at 100 Ki, Energy Dome at up to 320 Ki, and One-Handed Kamehameha mk.II at 400–600 Ki.
+
+### 2026-09-21 — Bojack mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 26 nullable `ki_cost` records**.
+- Bounded batch: **Reverse Launcher (100), Trap Shooter (100), Psycho Barrier (100), Grand Smasher (300-400)** from Bojack mentor training.
+- Research/evidence: current Xenoverse 2 skill references document **100 Ki** for Reverse Launcher, Trap Shooter, and Psycho Barrier, and **300-400 Ki** for Grand Smasher. Grand Smasher's additional input consumes an extra 100 Ki, so its variable cost was preserved.
+- Sources consulted: current dedicated skill pages, the mentor reference, and the maintained mentor guide.
+- Changes: populated only canonical `ki_cost`; refreshed `last_verified=2026-09-21`. No unrelated fields were changed.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **22**. Targeted records were re-read. No skill-index Ki-cost projection was introduced. Changed canonical data contains no internal AI/UI/search citation artifacts.
+- CI: commit `56ee3eb6610131a85cf1c9a5ff253a10d57b44bf` exposed **no workflow runs and no status checks**; **no CI success claimed**. Validators were not weakened.
+- Commit: `56ee3eb6610131a85cf1c9a5ff253a10d57b44bf`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and verify the three Zamasu mentor skills — God Splitter, Heavenly Arrow, Instant Severance — using explicit current `Ki Used` evidence; preserve variable-cost forms if encountered.**
