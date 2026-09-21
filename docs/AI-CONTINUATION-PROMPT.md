@@ -5357,3 +5357,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow/status result exposed; **no CI success claimed**.
 - Commits: `9c39f41ec2a55f12a4bd33f8492d4313f052965e` (research batch), `d51a6cdd189f5354d5397c21127d18074be2d04a` (coverage audit), `1e29999aa42169ef164bc14b4492c84fd439d466` (changelog).
 - Exact next task: **recompute the live PQ reward mismatch census, then audit the next bounded reward/skill-drop mismatch family rather than assuming every categorized reward omission is an error.**
+
+### 2026-09-21 cycle update — mentor skill Ki-cost verification
+- Workstream: P1 skill acquisition/mechanics data-quality cleanup, bounded to explicit Ki-cost evidence.
+- Recomputed live canonical skill census: **428 records**. The remaining Ki-cost null set is broad; this cycle deliberately selected a small evidence-backed mentor family rather than inferring values.
+- Updated `docs/data/skills.json` for 8 skills: Evil Explosion 100 Ki; Super Explosive Wave 200; Light Grenade 100; Special Beam Cannon 300; Dodon Ray 0; Volleyball Fist 100; Tri-Beam 100; Neo Tri-Beam 300.
+- Evidence limitations: values represent the documented base `Ki Used`; no variable-cost scaling, alternate variants, or stamina mechanics were inferred. Existing mentor provenance was preserved.
+- Validation: all 8 targeted records now have explicit Ki costs and `last_verified=2026-09-21`; no validators changed. CI status was not actionable, so no CI success is claimed.
+- Commits: `40eb41729ac5ceee63d63e958d4c46516a44cc6a` (skills), `caf933e6c4890c7d02dd5167412af7b40b03e749` (coverage audit), `0f9012e0ad7acc9c058cc4417b4da410b08eff75` (changelog).
+- Exact next task: **continue the bounded skill Ki-cost census with another evidence-backed family, prioritizing records where current sources expose an explicit `Ki Used` value and avoiding inference for variable-cost skills.**
