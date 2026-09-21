@@ -3739,3 +3739,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `bfa9709dd3a671042f331a5b450a8887bd643e37`.
 - CI/status check returned 0 statuses; no CI success is inferred.
 - Exact next task: continue repository-side acquisition/evidence audit without adding speculative rules, and recheck GitHub Actions when a workflow result exists.
+
+## 2026-09-21 continuation — acquisition cross-field re-audit
+- Re-fetched the live producer, validator, schema, and canonical/index datasets after the PQ regex correction.
+- Ran a repository-data census across all 283 canonical records. Current acquisition counts remain: 248 quest_or_mission, 1 parallel_quest, 11 skill_shop, 9 tp_medal_shop, 8 character_only, 2 starting_move, 4 other_nonquest.
+- No current acquisition conflicts were found under the maintained validator semantics: the lone parallel_quest is Final Pose with explicit PQ74 provenance; both starting_move records contain starting-choice markers; no skill_shop record contains a starting-choice marker; no tp_medal_shop record contains PQ-number provenance; all character_only records remain CaC-ineligible.
+- Reconfirmed that the producer's generated metadata currently says schema_version 1.2 while the committed canonical data/index are both 1.1. This is a producer-generation drift worth monitoring, but changing it or regenerating the catalog would alter broader canonical metadata/counts without evidence that such a regeneration is intended, so no speculative data rewrite was made.
+- Exact next task: continue evidence-backed acquisition/provenance review and inspect repository history/automation around catalog generation before changing producer metadata or canonical records.
