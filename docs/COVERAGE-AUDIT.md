@@ -4773,3 +4773,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no actionable workflow run was exposed for the canonical commit; **no CI success claimed**.
 - Commit: `9f569f62cc896737ee03bd4ff25e21007a85e547`.
 - Exact next batch: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, starting with Zarbon's four null-cost skills (Audacious Laugh, Gorgeous Shot, Bloody Counter, Elegant Blaster) if current explicit `Ki Used` evidence remains available.**
+
+### 2026-09-21 — Mentor skill Ki-cost verification batch 4
+- Live canonical skill census before editing: **428 records; 92 nullable `ki_cost` records**.
+- Bounded batch: **Audacious Laugh, Gorgeous Shot, Bloody Counter, Elegant Blaster** from Zarbon mentor training.
+- Evidence: current Xenoverse 2 references explicitly document **100 Ki** for Audacious Laugh and **300 Ki** for Elegant Blaster; the remaining documented behavior for Bloody Counter describes Ki consumption only while its held follow-up is performed, so its base/evasive cost is recorded as **0** rather than inventing a fixed held-cost value. Gorgeous Shot is documented as a Ki Blast Super and is verified at **100 Ki** by the current skill reference data used for this batch.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no variable/held-cost mechanics were flattened into a fixed value beyond the documented base cost.
+- Validation target: canonical count remains **428**, duplicate IDs remain **0**; nullable `ki_cost` count is expected to fall to **88**. No index Ki-cost projection introduced.
+- CI: no actionable workflow run was exposed for the canonical commit; **no CI success claimed**.
+- Commit: `a261ba83cc1814ce9427a4769af5abe0ad387a78`.
+- Exact next batch: **recompute the nullable-`ki_cost` census and continue with the next tightly bounded mentor family, beginning with Dodoria's four null-cost skills if explicit current Ki Used evidence is available.**
