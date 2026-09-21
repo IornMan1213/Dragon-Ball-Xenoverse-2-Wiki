@@ -1055,3 +1055,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [ ] Never delete a completed item just because the repository later changes.
 - [ ] Never silently remove an unresolved item; use a dated correction/supersession entry.
 - [ ] At cycle end, reconcile this ledger against `docs/AI-CONTINUATION-PROMPT.md`, canonical data, audit, and changelog.
+
+
+### 2026-09-21 — Master ledger status update: Evil Ray Strike
+
+- [x] **Evil Ray Strike Ki-cost verification completed.** Canonical `ki_cost=100`; `last_verified=2026-09-21`; canonical commit `dde2188588fdaff5c81c799f06a0bbadcfcc165b`.
+- [x] Live canonical validation after the write: **428 records / 0 duplicate IDs / 17 nullable `ki_cost` records**.
+- [x] Evidence boundary recorded: current skill-cost evidence establishes 100 Ki; no unrelated mechanics or acquisition fields were changed.
+- [ ] Next unresolved Ki-cost task: recompute the live nullable census and select the next bounded evidence-backed record/family.
+
+> The earlier `[ ] Evil Ray Strike` line in section 29.3 is retained as historical ledger state under the append-only rule. This dated entry is the authoritative completion marking for the task.
