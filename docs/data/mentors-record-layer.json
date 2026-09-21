@@ -526,12 +526,12 @@
         {
           "lesson": "initiation",
           "skill_name": "Power Blitz",
-          "skill_id": null
+          "skill_id": "skill-power-blitz"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Endless Shoot",
-          "skill_id": null
+          "skill_id": "skill-endless-shoot"
         },
         {
           "lesson": "lesson-2",
@@ -541,11 +541,14 @@
         {
           "lesson": "lesson-3",
           "skill_name": "Dual Destructo-Disc",
-          "skill_id": null
+          "skill_id": "skill-dual-destructo-disc"
         }
       ],
       "skills": [
-        "skill-deadly-dance"
+        "skill-deadly-dance",
+        "skill-power-blitz",
+        "skill-endless-shoot",
+        "skill-dual-destructo-disc"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -598,12 +601,12 @@
         {
           "lesson": "initiation",
           "skill_name": "All Clear",
-          "skill_id": null
+          "skill_id": "skill-all-clear"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Gravity Impact",
-          "skill_id": null
+          "skill_id": "skill-gravity-impact"
         },
         {
           "lesson": "lesson-2",
@@ -613,11 +616,14 @@
         {
           "lesson": "lesson-3",
           "skill_name": "Perfect Kamehameha",
-          "skill_id": null
+          "skill_id": "skill-perfect-kamehameha"
         }
       ],
       "skills": [
-        "skill-perfect-shot"
+        "skill-perfect-shot",
+        "skill-all-clear",
+        "skill-gravity-impact",
+        "skill-perfect-kamehameha"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
@@ -635,17 +641,17 @@
         {
           "lesson": "initiation",
           "skill_name": "Evil Eyes",
-          "skill_id": null
+          "skill_id": "skill-evil-eyes"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Darkness Eye Beam",
-          "skill_id": null
+          "skill_id": "skill-darkness-eye-beam"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Darkness Twin Star",
-          "skill_id": null
+          "skill_id": "skill-darkness-twin-star"
         },
         {
           "lesson": "lesson-3",
@@ -660,7 +666,10 @@
       ],
       "skills": [
         "skill-darkness-rush-ranged",
-        "skill-darkness-rush-melee"
+        "skill-darkness-rush-melee",
+        "skill-evil-eyes",
+        "skill-darkness-eye-beam",
+        "skill-darkness-twin-star"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
