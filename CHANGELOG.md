@@ -1129,3 +1129,12 @@
 
 ### 2026-09-21 — PQ171 provenance
 - Strengthened Crimson Edge and Divine Spear provenance while preserving existing acquisition semantics.
+
+
+### 2026-09-21 — Dead End Rain low-source provenance strengthening
+- Strengthened **Dead End Rain** from two to three sources using the maintained Expert Mission guide.
+- The added source independently lists **Expert Mission 13 — A History of Mixed Battles!** with Dead End Rain as a **Basic Reward**.
+- Preserved the existing EM13 acquisition, Basic Reward semantics, 300 Ki cost, CaC scope, and Base Game classification.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 55 exactly-two-source records**; canonical/index source parity is clean.
+- No gameplay, reward probability, or restriction fields were inferred or rewritten.
+- Next: recompute the live two-source census and continue the next deterministic low-source acquisition/provenance cluster.
