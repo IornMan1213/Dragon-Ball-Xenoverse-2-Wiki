@@ -445,3 +445,8 @@
 - Preserved mentor provenance bidirectionally through `source_mentor` and mentor lesson `skill_id` fields. No unsupported drop rates, Ultimate Finish gates, or narrower CaC restrictions were inferred.
 - Live skill census after expansion: **397 canonical skills / 397 skill-index records**; taxonomy totals remain synchronized.
 - Mentor coverage after expansion: **108 linked lesson→skill edges / 21 fully linked mentors / 8 partially linked mentors / 34 unresolved lesson endpoints**.
+
+## 2026-09-21 — Mentor graph validation correction
+- Removed the unresolved Hit → Time Skip/Tremor Pulse ID from the mentor reverse index because no canonical skill record exists yet.
+- Preserved Time Skip/Tremor Pulse as an explicit unresolved lesson endpoint rather than inventing a canonical skill record.
+- Mentor relationship coverage remains **108 resolved lesson→skill edges / 21 unresolved lesson endpoints / 25 fully linked mentors / 4 partially linked mentors**, with **0 broken mentor→skill endpoints**.
