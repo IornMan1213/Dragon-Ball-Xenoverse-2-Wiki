@@ -884,3 +884,7 @@
 - Verified Ki costs for Fake Death (0), Wolf Fang Fist (100), Ki Blast Thrust (100), Spirit Ball (300), Bomber DX (100), Arm Crash (100), Genocide Shell (100), and Break Cannon (300+).
 - Refreshed canonical verification dates; preserved Break Cannon's variable-cost form.
 - Kept the generated skill index scoped to its established projection fields rather than introducing a new Ki-cost projection.
+
+## 2026-09-21 — Raditz mentor skill Ki-cost verification
+- Verified Double Sunday (100), Saturday Crash (100), Shining Friday (100), and Weekend (300) Ki costs from current skill references.
+- Updated only canonical Ki-cost and verification-date fields; unresolved mechanics remain untouched.
