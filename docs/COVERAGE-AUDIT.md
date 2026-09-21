@@ -4049,3 +4049,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Normalized generic source fields to explicit maintained quest names for **Demon Ray, Demon Flash Strike, Demon Flurry (PQ160)**; **Sign of Awakening, Circle Flash (PQ154)**; **Heroic Counter, Gamma Blaster, Gamma Impact (PQ155)**; **Super Gamma Blast, Core Breaker (PQ158)**; **Fierce Fist, Demonic Destruction (PQ159)**; and **Chaotic Time Impact (PQ184)**.
 - Existing reward tiers/Ultimate Finish semantics were preserved; this pass changed provenance specificity only.
 - Canonical: `8dd9f7a39cfa3d87cd6d8067cbb3642d4f8fdb60`; index: `4832e8933855ceb7846c2ff9a9dc9024b713ace4`.
+
+
+## 2026-09-20 — Explicit PQ provenance-label normalization (second pass)
+- Audited generic `source_quest_or_shop` labels outside the already-reconciled late-PQ block.
+- Where `unlock_method` itself explicitly contained the quest title, normalized **73** generic provenance labels (for example `Parallel Quest 80` → `Parallel Quest 80 — "The Return of the Giant Ape-Fest"`).
+- This was a provenance-only normalization: no acquisition type, reward tier, Ultimate Finish flag, probability, or route semantics were changed.
+- Canonical: `03d9813feda3269d318378389333c80a1b60a6a9`; index: `52c1fcc481c452d0f3abf080a1dbdda4613ae2f5`.
