@@ -4129,4 +4129,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI status: no actionable workflow run/status was exposed for the latest maintenance commit; validators were not weakened.
 - Current known research frontier: PQ unlock-field census remains 176/176 explicit; current active workstream remains skill acquisition/DLC-version provenance cleanup and build/validation integrity.
 - Exact next task: inspect the remaining `skills-sync.yml` execution path and builder merge/correction semantics for other silent data-loss or non-deterministic failure paths, then make only concrete evidence-backed fixes; inspect CI status again afterward and update this handoff.
+## 2026-09-21 continuation — local research batch and frontmatter failure visibility
+- Continued the P1 skill-catalog build/validation audit.
+- Found two additional silent-drop paths in `scripts/build_skills_from_research.py`: a structured skill Markdown file without frontmatter was converted to an empty record and ignored, and malformed/unreadable checked-in local skill research batches were silently skipped; individual local records without a name were also silently ignored.
+- Fixed all three paths to fail loudly with the affected filename/context. Local batch payloads are now required to be JSON objects with a list-valued `corrections`/ `records` collection, and every record must be an object with a name.
+- Commit: `b1e16c1db1a343299e7d1dbf3f4e2761f77e29e4` — Fail loudly on missing skill research records.
+- Prior builder hardening remains in commit `1feb047268ec7bf8e74ea3f0f0fc5af678a4fc7d`.
+- No canonical generated data was manually changed. CI/status remains unverified because the GitHub connector exposes no workflow runs/status entries for these maintenance commits.
+- Next task: audit `merge_record()` and deterministic source precedence for silent overwrites/loss of researched fields, especially correction handling and duplicate keys; make concrete fixes only where behavior can be demonstrated from the live code.
 
