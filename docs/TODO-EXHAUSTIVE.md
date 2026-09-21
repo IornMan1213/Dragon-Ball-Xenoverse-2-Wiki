@@ -1114,3 +1114,11 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Evidence scope preserved: this cycle changed only the unresolved resource-cost field and verification state; no unsupported damage/mechanics claims were imported into canonical data.
 - [x] Post-write canonical validation: 428 records; 0 duplicate IDs; nullable ki_cost count reduced from 10 to 9.
 - [ ] Next unresolved Ki-cost queue: Giant Storm, Angry Explosion, Dead End Rain, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha, plus the documented Dimension Cannon Stamina-only exception.
+
+
+### 2026-09-21 — Master ledger completion marking: Giant Storm
+
+- [x] **Giant Storm Ki-cost verification completed: 300 Ki.** Current skill evidence explicitly documents kiCost: 300; canonical record updated with ki_cost=300.
+- [x] Evidence scope preserved: only the unresolved resource-cost field was changed; unsupported combat totals were not imported.
+- [x] Post-write canonical validation: 428 records / 0 duplicate IDs / 8 nullable ki_cost records.
+- [ ] Next unresolved Ki-cost queue: **Angry Explosion, Dead End Rain, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**, with Dimension Cannon retained as the documented Stamina-only exception.
