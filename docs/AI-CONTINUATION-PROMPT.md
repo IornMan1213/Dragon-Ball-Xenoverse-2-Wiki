@@ -3919,3 +3919,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Post-fix verification: **0 builder/canonical acquisition drifts across all 283 records**, canonical/index acquisition parity remains true, Final Pose remains `parallel_quest`, and Surging Spirit remains `other_nonquest`.
 - Local execution remains unavailable; the verification above is a direct reimplementation/check of the builder's live classification logic against every canonical record. Do not claim CI success without an actual workflow result.
 - Exact next task: inspect remaining builder-vs-canonical field semantics beyond acquisition type, especially CaC/race and Ultimate-Finish fields, for deterministic regeneration drift. Preserve intentional built-in character actions and unresolved evidence rather than forcing classifications.
+
+
+## 2026-09-21 continuation — CaC/Ultimate Finish semantic drift audit
+- Audited all 283 canonical records against the live builder's preserved-field semantics and the acquisition/CaC/Ultimate-Finish invariants.
+- CaC checks found no current contradictions: all 9 `usable_by_cac=false` records are the intentional `character_only` set; every `Character-only` race restriction has `usable_by_cac=false` and `character_only` acquisition; every `usable_by_cac=true` record has race, character-source, or unlock evidence; no non-character-only race-restricted record is marked unavailable to CaC.
+- Ultimate Finish checks found no drift: all 60 `ultimate_finish_required=true` records have explicit Ultimate Finish/UF provenance, and no `false` record has an explicit Ultimate Finish-only unlock phrase in `unlock_method`.
+- Acquisition provenance recheck found zero missing explicit route markers for `skill_shop`, `tp_medal_shop`, `starting_move`, `character_only`, or `parallel_quest`. Final Pose and Surging Spirit remain the intentional special cases documented in the previous handoff entry.
+- Strengthened `scripts/validate_skills.py` with explicit provenance invariants for those acquisition types so future canonical edits cannot silently lose the route evidence while retaining the acquisition enum.
+- Validator commit: `d8db124e9017f403ee52a01a92c5d4e9ecaac36a`.
+- No data/index changes were necessary.
+- Local execution remains unavailable; no CI/workflow result is being claimed.
+- Exact next task: continue auditing deterministic field preservation outside acquisition/CaC/UF, especially category/subcategory, verification/research status, and fields that the builder may regenerate or retain through `merge_record`.
