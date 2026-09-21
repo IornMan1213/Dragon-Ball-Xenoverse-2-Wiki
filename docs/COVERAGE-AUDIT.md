@@ -4122,5 +4122,5 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No canonical skill records were regenerated or changed by this code-only correction.
 - Builder commit: `0c81d620572f8092b27223a44d785343a62d00ba`.
 - Live canonical race census at inspection: **283 total / 270 CaC-usable / 3 CaC-usable with null `race_restriction`** — `Blaster Stream`, `Chaotic Time Impact`, and `Circle Flash`. This supersedes stale historical counts of 182 in earlier handoff entries.
-- Current Future Warrior evidence lists all three as usable techniques but does not provide an explicit all-race or race-specific statement for these exact records; no race classifications were inferred. citeturn0search0turn1search2
+- Current Future Warrior evidence lists all three as usable techniques but does not provide an explicit all-race or race-specific statement for these exact records; no race classifications were inferred.
 - Exact next task: verify the builder/validator acquisition path together, then continue the final three-record null-race evidence sweep with exact-name current-version sources.
