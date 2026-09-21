@@ -902,3 +902,11 @@
 
 ## 2026-09-21 — Cooler mentor skill Ki-cost verification
 - Verified Feint Crash (100), Fake Blast (100), and Supernova Cooler (500) Ki costs.
+
+
+## 2026-09-21 — Majin Buu mentor skill Ki-cost verification
+
+- Verified Ki costs for **Innocence Bullet (100)**, **Angry Hit (100)**, **Innocence Cannon (100)**, and **Innocence Breath (300)** from current Xenoverse 2 skill references.
+- Updated only canonical `ki_cost` and `last_verified` fields; mentor acquisition provenance and unresolved mechanics were preserved.
+- Live canonical skill census remains **428 records** with **74 nullable `ki_cost` records** after the bounded pass.
+- Commit: `cc61629f11788b994cbddc8ba246ba552f6b97b1`.
