@@ -516,3 +516,9 @@
 - Synchronized Super Soul 010 ("I'll kill all of you!!") with PQ022 and Super Soul 011 ("H-How could he?!") with PQ012.
 - Added the missing structured `super_soul_rewards` entry to PQ012 and normalized both canonical Super Soul acquisition records to their source PQs.
 - Preserved the existing bidirectional master/report relationships and did not force shop/NPC records 012–018 into PQ routes.
+
+
+## 2026-09-21 — Super Soul 012–018 evidence-boundary audit
+- Audited Super Souls 012–018 against all 186 canonical PQ reward records.
+- No exact-name PQ reward matches were found, so no PQ relationships were manufactured.
+- Preserved their existing non-PQ acquisition classifications and recorded the evidence boundary/verification date in the canonical Super Soul records.
