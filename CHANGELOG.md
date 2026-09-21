@@ -522,3 +522,9 @@
 - Audited Super Souls 012–018 against all 186 canonical PQ reward records.
 - No exact-name PQ reward matches were found, so no PQ relationships were manufactured.
 - Preserved their existing non-PQ acquisition classifications and recorded the evidence boundary/verification date in the canonical Super Soul records.
+
+## 2026-09-21 — Super Soul 024–047 crosslink audit
+- Audited Super Souls 024–047 against the complete 186-PQ canonical reward layer.
+- Confirmed PQ28 `Drop dead!!!` and the PQ185/PQ186 Super Soul reward mappings already represented in the canonical crosslink report; no additional PQ routes were inferred for the remaining records.
+- Normalized Super Souls 032–035 to their exact-name PQ185/PQ186 reward provenance and refreshed verification dates.
+- Preserved unresolved/non-PQ acquisition boundaries for Super Souls 024–030 and 036–047.
