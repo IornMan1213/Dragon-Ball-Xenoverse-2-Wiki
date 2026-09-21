@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 90,
+  "canonical_target_records": 98,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -13,18 +13,18 @@
       "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
     },
     {
+      "pq_id": "pq-002",
+      "pq_number": 2,
+      "target_id": "super-soul-066",
+      "target_name": "Flying Nimbus!!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/flying-nimbus.md"
+    },
+    {
       "pq_id": "pq-005",
       "pq_number": 5,
       "target_id": "super-soul-004",
       "target_name": "Your death is imminent!",
-      "status": "source_backed",
-      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-007",
-      "pq_number": 7,
-      "target_id": "super-soul-007",
-      "target_name": "Gyau!!!!",
       "status": "source_backed",
       "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
     },
@@ -37,10 +37,10 @@
       "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
     },
     {
-      "pq_id": "pq-022",
-      "pq_number": 22,
-      "target_id": "super-soul-010",
-      "target_name": "I'll kill all of you!!",
+      "pq_id": "pq-007",
+      "pq_number": 7,
+      "target_id": "super-soul-007",
+      "target_name": "Gyau!!!!",
       "status": "source_backed",
       "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
     },
@@ -53,44 +53,20 @@
       "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
     },
     {
+      "pq_id": "pq-022",
+      "pq_number": 22,
+      "target_id": "super-soul-010",
+      "target_name": "I'll kill all of you!!",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
+    },
+    {
       "pq_id": "pq-028",
       "pq_number": 28,
       "target_id": "super-soul-031",
       "target_name": "Drop dead!!!",
       "status": "source_backed",
       "source": "https://dbxv2.fandom.com/wiki/Super_Soul"
-    },
-    {
-      "pq_id": "pq-185",
-      "pq_number": 185,
-      "target_id": "super-soul-032",
-      "target_name": "This power... It's different from any I've ever had.",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
-    },
-    {
-      "pq_id": "pq-185",
-      "pq_number": 185,
-      "target_id": "super-soul-033",
-      "target_name": "Malice... Existence... Cruelty...",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
-    },
-    {
-      "pq_id": "pq-186",
-      "pq_number": 186,
-      "target_id": "super-soul-034",
-      "target_name": "The final battle begins now.",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
-    },
-    {
-      "pq_id": "pq-186",
-      "pq_number": 186,
-      "target_id": "super-soul-035",
-      "target_name": "I'll use this power to protect everyone!",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
     },
     {
       "pq_id": "pq-058",
@@ -101,14 +77,6 @@
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/killed-all-earthlings.md"
     },
     {
-      "pq_id": "pq-131",
-      "pq_number": 131,
-      "target_id": "super-soul-055",
-      "target_name": "Leave the rest to me!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/leave-the-rest-to-me.md"
-    },
-    {
       "pq_id": "pq-093",
       "pq_number": 93,
       "target_id": "super-soul-060",
@@ -117,20 +85,12 @@
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-hate-you.md"
     },
     {
-      "pq_id": "pq-160",
-      "pq_number": 160,
-      "target_id": "super-soul-061",
-      "target_name": "Is that all?",
+      "pq_id": "pq-105",
+      "pq_number": 105,
+      "target_id": "super-soul-071",
+      "target_name": "Buu Don't Wanna!",
       "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/is-that-all.md"
-    },
-    {
-      "pq_id": "pq-180",
-      "pq_number": 180,
-      "target_id": "super-soul-062",
-      "target_name": "Damn it all!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/damn-it-all.md"
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/buu-dont-wanna.md"
     },
     {
       "pq_id": "pq-107",
@@ -141,22 +101,6 @@
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-cant-win.md"
     },
     {
-      "pq_id": "pq-002",
-      "pq_number": 2,
-      "target_id": "super-soul-066",
-      "target_name": "Flying Nimbus!!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/flying-nimbus.md"
-    },
-    {
-      "pq_id": "pq-133",
-      "pq_number": 133,
-      "target_id": "super-soul-067",
-      "target_name": "Here it comes!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/here-it-comes.md"
-    },
-    {
       "pq_id": "pq-118",
       "pq_number": 118,
       "target_id": "super-soul-068",
@@ -165,12 +109,20 @@
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/now-were-even.md"
     },
     {
-      "pq_id": "pq-105",
-      "pq_number": 105,
-      "target_id": "super-soul-071",
-      "target_name": "Buu Don't Wanna!",
+      "pq_id": "pq-131",
+      "pq_number": 131,
+      "target_id": "super-soul-055",
+      "target_name": "Leave the rest to me!",
       "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/buu-dont-wanna.md"
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/leave-the-rest-to-me.md"
+    },
+    {
+      "pq_id": "pq-133",
+      "pq_number": 133,
+      "target_id": "super-soul-067",
+      "target_name": "Here it comes!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/here-it-comes.md"
     },
     {
       "pq_id": "pq-135",
@@ -205,22 +157,6 @@
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-no-way-you-can-hit-me.md"
     },
     {
-      "pq_id": "pq-150",
-      "pq_number": 150,
-      "target_id": "super-soul-087",
-      "target_name": "I will prevail, no matter the cost!",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-prevail-no-matter-the-cost.md"
-    },
-    {
-      "pq_id": "pq-149",
-      "pq_number": 149,
-      "target_id": "super-soul-088",
-      "target_name": "Our two strengths aren't just added together.",
-      "status": "source_backed",
-      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/our-two-strengths-arent-just-added-together.md"
-    },
-    {
       "pq_id": "pq-147",
       "pq_number": 147,
       "target_id": "super-soul-089",
@@ -235,6 +171,110 @@
       "target_name": "My back's getting tingly...!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/my-backs-getting-tingly.md"
+    },
+    {
+      "pq_id": "pq-149",
+      "pq_number": 149,
+      "target_id": "super-soul-088",
+      "target_name": "Our two strengths aren't just added together.",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/our-two-strengths-arent-just-added-together.md"
+    },
+    {
+      "pq_id": "pq-150",
+      "pq_number": 150,
+      "target_id": "super-soul-087",
+      "target_name": "I will prevail, no matter the cost!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-prevail-no-matter-the-cost.md"
+    },
+    {
+      "pq_id": "pq-151",
+      "pq_number": 151,
+      "target_id": "super-soul-098",
+      "target_name": "I'll keep adding a bit of power to my attacks!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-keep-adding-a-bit-of-power-to-my-attacks.md"
+    },
+    {
+      "pq_id": "pq-151",
+      "pq_number": 151,
+      "target_id": "super-soul-100",
+      "target_name": "I think I'm getting the hang of this.",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-think-im-getting-the-hang-of-this.md"
+    },
+    {
+      "pq_id": "pq-152",
+      "pq_number": 152,
+      "target_id": "super-soul-101",
+      "target_name": "I will put a stop to you, fiend!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-put-a-stop-to-you-fiend.md"
+    },
+    {
+      "pq_id": "pq-153",
+      "pq_number": 153,
+      "target_id": "super-soul-099",
+      "target_name": "You're not much of a fun fight!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/youre-not-much-of-a-fun-fight.md"
+    },
+    {
+      "pq_id": "pq-153",
+      "pq_number": 153,
+      "target_id": "super-soul-102",
+      "target_name": "There's more where that came from!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/theres-more-where-that-came-from.md"
+    },
+    {
+      "pq_id": "pq-160",
+      "pq_number": 160,
+      "target_id": "super-soul-061",
+      "target_name": "Is that all?",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/is-that-all.md"
+    },
+    {
+      "pq_id": "pq-180",
+      "pq_number": 180,
+      "target_id": "super-soul-062",
+      "target_name": "Damn it all!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/damn-it-all.md"
+    },
+    {
+      "pq_id": "pq-185",
+      "pq_number": 185,
+      "target_id": "super-soul-032",
+      "target_name": "This power... It's different from any I've ever had.",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-185",
+      "pq_number": 185,
+      "target_id": "super-soul-033",
+      "target_name": "Malice... Existence... Cruelty...",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "super-soul-034",
+      "target_name": "The final battle begins now.",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+    },
+    {
+      "pq_id": "pq-186",
+      "pq_number": 186,
+      "target_id": "super-soul-035",
+      "target_name": "I'll use this power to protect everyone!",
+      "status": "source_backed",
+      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
     }
   ],
   "reverse_edges": [
@@ -526,6 +566,56 @@
       ],
       "pq_numbers": [
         148
+      ]
+    },
+    {
+      "target_id": "super-soul-098",
+      "target_name": "I'll keep adding a bit of power to my attacks!",
+      "pq_ids": [
+        "pq-151"
+      ],
+      "pq_numbers": [
+        151
+      ]
+    },
+    {
+      "target_id": "super-soul-099",
+      "target_name": "You're not much of a fun fight!",
+      "pq_ids": [
+        "pq-153"
+      ],
+      "pq_numbers": [
+        153
+      ]
+    },
+    {
+      "target_id": "super-soul-100",
+      "target_name": "I think I'm getting the hang of this.",
+      "pq_ids": [
+        "pq-151"
+      ],
+      "pq_numbers": [
+        151
+      ]
+    },
+    {
+      "target_id": "super-soul-101",
+      "target_name": "I will put a stop to you, fiend!",
+      "pq_ids": [
+        "pq-152"
+      ],
+      "pq_numbers": [
+        152
+      ]
+    },
+    {
+      "target_id": "super-soul-102",
+      "target_name": "There's more where that came from!",
+      "pq_ids": [
+        "pq-153"
+      ],
+      "pq_numbers": [
+        153
       ]
     }
   ],
@@ -835,5 +925,16 @@
       "target_name": "I've got something extra special for you!",
       "reason": "no_explicit_pq_endpoint"
     }
-  ]
+  ],
+  "validation": {
+    "canonical_pq_records": 186,
+    "canonical_target_records": 98,
+    "forward_edge_count": 34,
+    "reverse_edge_count": 34,
+    "unique_pq_endpoints": 28,
+    "unique_target_endpoints": 34,
+    "unresolved_target_route_count": 61,
+    "broken_forward_endpoints": 0,
+    "broken_reverse_endpoints": 0
+  }
 }
