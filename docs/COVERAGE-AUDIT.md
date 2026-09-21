@@ -4710,3 +4710,14 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Commits: `df3923a6062e3fdaea5ab7cfa56469628f6ca0c0` (canonical), `8795de7ec345236c4b9afc3d0145f612d55c097e` (index).
 - Live census after editing: **428/428**, with **3 nullable `race_restriction` records** unchanged in value.
 - Exact next batch: **recompute the live unresolved-field census and select the next highest-impact bounded family, prioritizing deterministic canonical/index or validator mismatches before speculative enrichment.**
+
+### 2026-09-21 — PQ141-PQ150 research-batch coverage gap repair
+
+- Live canonical PQ census: **186 records**. The 18 legacy research-batch files contained **176 records** because the entire **PQ141-PQ150** range was missing from the research-batch layer even though the canonical record layer contained all ten.
+- Bounded correction: added `docs/data/parallel-quest-research-batches/pq-batch-141-150.json` with all ten records, individual source arrays, DLC associations, objectives, documented rewards, and the repository's conservative DLC-era unlock route. No sequential prerequisite was invented.
+- Evidence: the maintained Steam all-PQ guide independently documents PQ141-PQ150 names, DLC associations, objectives, and basic rewards; the repository's existing later-DLC research uses the same conservative board-availability wording. Exact drop probabilities remain unresolved unless directly established.
+- Additional reward reconciliation: PQ144's canonical reward inventory was explicitly incomplete. The maintained Steam guide documents the full basic reward list, including Gine (DB Super)'s Clothes, Gine (DB Super) Set, and Artwork 90; the canonical record and new research batch were synchronized to that evidence.
+- Validation: canonical PQ layer **186/186**; new batch **10/10**; range **141-150**; no duplicate numbers in the new batch; PQ144 canonical/batch rewards now match. No validators were weakened.
+- CI: no actionable workflow/status result exposed; **no CI success claimed**.
+- Commits: `ed7b48305fc2eb0174f86f238ddd79b44b169e0b` (new PQ141-150 batch), `1c7ff301cd75121a296a946e795e8f4f6410844c` (canonical PQ144 reward reconciliation), `40ef4445bf38b420a05168a7600fddc9457f92f2` (batch sync).
+- Exact next task: **recompute the full PQ research-range census including the new 141-150 batch, then continue bounded PQ reward/acquisition/version reconciliation, prioritizing explicit incomplete reward inventories and skill-drop semantics.**
