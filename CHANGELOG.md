@@ -1046,3 +1046,9 @@
 - Audited all six canonical Legendary Pack 1 skills against official DLC documentation and live source-PQ relationships.
 - Confirmed all six map to PQ143–146 with matching provenance.
 - No DLC provenance mismatch found; reward-tier semantics were not normalized.
+
+
+### 2026-09-21 — Legendary Pack 2 skill provenance audit
+- Audited all ten canonical Legendary Pack 2 skills against official DLC documentation and live source-PQ relationships.
+- Confirmed all ten map to PQ147–150 with matching provenance.
+- No DLC provenance mismatch found; reward-tier and other semantics were not normalized.
