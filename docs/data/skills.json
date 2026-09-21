@@ -11038,7 +11038,8 @@
       "id": "skill-evil-eyes",
       "source_mentor": [
         "mentor-slug"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Darkness Eye Beam",
@@ -11065,7 +11066,8 @@
       "id": "skill-darkness-eye-beam",
       "source_mentor": [
         "mentor-slug"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Darkness Twin Star",
@@ -11092,7 +11094,8 @@
       "id": "skill-darkness-twin-star",
       "source_mentor": [
         "mentor-slug"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Sudden Storm",
