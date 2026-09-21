@@ -3,8 +3,8 @@
   "game": "Dragon Ball Xenoverse 2",
   "generated_by": "manual_canonical_sync_2026-09-21",
   "canonical_mentor_records": 33,
-  "mentors_with_skill_links": 23,
-  "mentor_to_skill_edge_count": 87,
+  "mentors_with_skill_links": 27,
+  "mentor_to_skill_edge_count": 103,
   "forward_edges": [
     {
       "mentor_id": "mentor-android-16",
@@ -45,6 +45,46 @@
       "mentor_id": "mentor-android-18",
       "mentor_name": "Android 18",
       "skill_id": "skill-power-blitz"
+    },
+    {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-anger"
+    },
+    {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-rampage"
+    },
+    {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-wrath"
+    },
+    {
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-sphere-of-destruction"
+    },
+    {
+      "mentor_id": "mentor-broly",
+      "mentor_name": "Broly",
+      "skill_id": "skill-blaster-meteor"
+    },
+    {
+      "mentor_id": "mentor-broly",
+      "mentor_name": "Broly",
+      "skill_id": "skill-blaster-shell"
+    },
+    {
+      "mentor_id": "mentor-broly",
+      "mentor_name": "Broly",
+      "skill_id": "skill-gigantic-meteor"
+    },
+    {
+      "mentor_id": "mentor-broly",
+      "mentor_name": "Broly",
+      "skill_id": "skill-gigantic-omega"
     },
     {
       "mentor_id": "mentor-cell",
@@ -195,6 +235,26 @@
       "mentor_id": "mentor-goku",
       "mentor_name": "Goku",
       "skill_id": "skill-spirit-bomb"
+    },
+    {
+      "mentor_id": "mentor-gotenks",
+      "mentor_name": "Gotenks",
+      "skill_id": "skill-die-die-missile-barrage"
+    },
+    {
+      "mentor_id": "mentor-gotenks",
+      "mentor_name": "Gotenks",
+      "skill_id": "skill-galactic-donuts"
+    },
+    {
+      "mentor_id": "mentor-gotenks",
+      "mentor_name": "Gotenks",
+      "skill_id": "skill-super-ghost-kamikaze-attack"
+    },
+    {
+      "mentor_id": "mentor-gotenks",
+      "mentor_name": "Gotenks",
+      "skill_id": "skill-super-ghost-kamikaze-attack-ultimate-ki-blast"
     },
     {
       "mentor_id": "mentor-hercule",
@@ -382,6 +442,26 @@
       "skill_id": "skill-volleyball-fist"
     },
     {
+      "mentor_id": "mentor-turles",
+      "mentor_name": "Turles",
+      "skill_id": "skill-fruit-of-the-tree-of-might"
+    },
+    {
+      "mentor_id": "mentor-turles",
+      "mentor_name": "Turles",
+      "skill_id": "skill-kill-driver"
+    },
+    {
+      "mentor_id": "mentor-turles",
+      "mentor_name": "Turles",
+      "skill_id": "skill-meteor-burst"
+    },
+    {
+      "mentor_id": "mentor-turles",
+      "mentor_name": "Turles",
+      "skill_id": "skill-sudden-storm"
+    },
+    {
       "mentor_id": "mentor-vegeta",
       "mentor_name": "Vegeta",
       "skill_id": "skill-final-flash"
@@ -451,13 +531,14 @@
     "2026-09-21 reconciliation: Raditz, Gohan (Kid), Nappa, and Vegeta lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Masenko and Galick Gun were already represented in the report and were not duplicated.",
     "2026-09-21 reconciliation: Zarbon, Dodoria, Captain Ginyu, and Frieza (1st Form) lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Frieza's Death Ball edge was already present and was not duplicated.",
     "2026-09-21 reconciliation: Android 18, Android 16, Cell (Perfect), and Hercule lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The requested Android 17 mentor is not present in the canonical 33-mentor layer, so no unsupported Android 17 relationship was invented.",
-    "2026-09-21 reconciliation: Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Existing Cooler Shadow Crusher and Lord Slug Darkness Rush edges were preserved without duplication."
+    "2026-09-21 reconciliation: Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Existing Cooler Shadow Crusher and Lord Slug Darkness Rush edges were preserved without duplication.",
+    "2026-09-21 reconciliation: Gotenks, Turles, Broly, and God of Destruction Beerus lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The Gotenks ultimate route retains its distinct canonical skill ID despite sharing the displayed skill name with the Super Ghost Kamikaze Attack route."
   ],
   "validation": {
     "canonical_mentor_records": 33,
-    "mentors_with_skill_links": 23,
-    "mentor_to_skill_edge_count": 87,
-    "unique_skill_endpoints": 87,
+    "mentors_with_skill_links": 27,
+    "mentor_to_skill_edge_count": 103,
+    "unique_skill_endpoints": 103,
     "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0
   }
