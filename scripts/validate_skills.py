@@ -46,6 +46,7 @@ def main():
   if r.get('race_restriction')=='Character-only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: Character-only restriction requires usable_by_cac=false")
 
   if r.get('acquisition_type')=='character_only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: character_only acquisition requires usable_by_cac=false")
+  if r.get('race_restriction')=='Character-only' and r.get('acquisition_type')!='character_only':errors.append(f"{r.get('name')}: Character-only race restriction requires character_only acquisition")
   if r.get('acquisition_type')=='starting_move' and r.get('usable_by_cac') is not True:errors.append(f"{r.get('name')}: starting_move acquisition requires usable_by_cac=true")
   if r.get('class')=='Awoken' and r.get('subcategory')=='Race' and (r.get('usable_by_cac') is not True or not r.get('race_restriction')):errors.append(f"{r.get('name')}: canonical Awoken Race record requires CaC eligibility and race restriction")
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
