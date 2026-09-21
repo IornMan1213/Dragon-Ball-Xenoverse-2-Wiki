@@ -7769,7 +7769,8 @@
       "id": "skill-fake-death",
       "source_mentor": [
         "mentor-yamcha"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Wolf Fang Fist",
@@ -7796,7 +7797,8 @@
       "id": "skill-wolf-fang-fist",
       "source_mentor": [
         "mentor-yamcha"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Ki Blast Thrust",
@@ -7823,7 +7825,8 @@
       "id": "skill-ki-blast-thrust",
       "source_mentor": [
         "mentor-yamcha"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Spirit Ball",
@@ -7850,7 +7853,8 @@
       "id": "skill-spirit-ball",
       "source_mentor": [
         "mentor-yamcha"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Bomber DX",
@@ -7877,7 +7881,8 @@
       "id": "skill-bomber-dx",
       "source_mentor": [
         "mentor-nappa"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Arm Crash",
@@ -7904,7 +7909,8 @@
       "id": "skill-arm-crash",
       "source_mentor": [
         "mentor-nappa"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Genocide Shell",
@@ -7931,7 +7937,8 @@
       "id": "skill-genocide-shell",
       "source_mentor": [
         "mentor-nappa"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Break Cannon",
@@ -7958,7 +7965,8 @@
       "id": "skill-break-cannon",
       "source_mentor": [
         "mentor-nappa"
-      ]
+      ],
+      "ki_cost": "300+"
     },
     {
       "name": "Double Sunday",
