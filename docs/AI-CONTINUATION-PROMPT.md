@@ -5058,3 +5058,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: **138 canonical Super Souls / 186 canonical PQ records / 52 forward / 52 reverse edges / 42 unique PQ endpoints / 52 unique Super Soul endpoints / 86 unresolved routes / 0 broken endpoints**; changed JSON parsed and contained 0 internal citation artifacts.
 - Commits: `cf87e747e95d7285fc81ed23e2492b467b5e6fd8`; `c4c5a4e053c34dda4fbd950371cced69997e94d2`; `13d89bcf536af250de8ff44330032dcabea94830`.
 - Exact next batch: **Super Soul 144–151**, after live-corpus reconciliation, beginning after `So, Hakai.`.
+
+
+### 2026-09-21 cycle update — Super Soul 144–151 + PQ reverse-link reconciliation
+- Live census before editing: **138 canonical Super Soul records / 186 canonical PQ records**; the live registry reached ID 143 with intentional ID gaps from prior frontier corrections.
+- Bounded batch: **eight unique records** — Super Soul 144–151: Destroying this planet is our only option!; Here I go!; Poltarat Doddorsi Pupiritt Paro...; Now you're upping the ante!; What good is a new power if I don't try it out?; AAAAAAAGH!; Rejoice! A new ruler is born!; Send me back to the planet I came from!.
+- Duplicate handling: Damn it all! was already canonical as super-soul-062; no duplicate record was created.
+- Evidence: maintained Madreag source corpus and item-level source pages. Explicit PQ endpoints: 145→PQ179, 149→PQ183, 150→PQ182, 151→PQ184. Festival/TP Medal Shop records remain without inferred PQ routes.
+- Changes: canonical Super Soul registry, PQ179/PQ182/PQ183/PQ184 reward projections, crosslink report, coverage audit, and changelog.
+- Evidence limits: community measurements remain bounded; Poltarat's damage-direction conflict remains preserved; no unsupported recurrence/PQ relationship was inferred.
+- Validation: **146 canonical Super Souls / 186 canonical PQs / 56 forward / 56 reverse edges / 46 unique PQ endpoints / 56 unique Super Soul endpoints / 90 unresolved routes / 0 broken endpoints**. JSON parsing and endpoint parity passed; changed files contain no internal UI/search citation artifacts.
+- CI: no workflow/status result exposed; no CI success claimed.
+- Commits: bb05160d73d81411f506c4e3d05bc512d45b7432, cddb1eae26bb966d1a88560b6f9ce5a160c8952e, 213c8ceb1e0d1b5a8b57e605df51d54f32c88298, d1234bb3f573b9c5559435884534eb9225493ff7, 5b4b8eb1e6e8a242358b45e1852f454c01a5bf37.
+- Exact next batch: **the next eight unique records after Send me back to the planet I came from!, beginning with live source-corpus reconciliation and duplicate identity checks.**
