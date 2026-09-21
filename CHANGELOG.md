@@ -307,7 +307,7 @@
 - Corrected the canonical/index source_quest_or_shop and unlock_method labels for Flash Chaser (PQ138) and Photon Swipe (PQ139) to match the maintained PQ research titles.
 - Flash Chaser now points to PQ138 — "The Battle for Earth"; Photon Swipe now points to PQ139 — "War and Pieces".
 - Preserved the existing Ultimate Finish requirement and documented roll percentages; this is a provenance-label correction only.
-- Independent current Steam PQ documentation and the repository's PQ research batches corroborate both PQ numbers/titles and reward associations.,,## 2026-09-21 — Canonical PQ IDs and bidirectional skill-link audit,- Expanded `docs/data/parallel-quests-record-layer.json` from a seven-record seed to the full **186-record** canonical numbered layer, with deterministic `pq-NNN` IDs.,- Synchronized **65** additional skill-reward edges from the maintained PQ research batches into the canonical PQ layer, preserving the evidence-backed reward names and existing uncertainty.,- Upgraded `scripts/validate_pq_skill_links.py` to use stable PQ/skill IDs, emit forward and reverse relationship data, recognize documented aliases, and report unresolved/orphaned endpoints.,- Added three previously missing canonical skill records: `Drain Field`, `Flash Bomber`, and `Rakshasa's Claw`. The live cross-link audit now resolves **217** forward PQ→skill edges across **215** reverse skill endpoints.,- The remaining unresolved canonical PQ→skill endpoints are 19 skills concentrated in PQ141-150 plus two earlier naming/catalog gaps (`Energy Shot`, `Crusher Ball`). They are preserved as explicit unresolved work rather than fabricated records.,,## 2026-09-21 — Complete the 19 unresolved PQ→skill endpoints,- Added all 19 previously unresolved skill endpoints to the canonical skill catalog: Energy Shot, Crusher Ball, Dragon Blitz, Brutal Buster, Excellent Full Course, Hyper Tornado, Burning Shot, Destructive Fracture, Destructive Flare, Destructive Fission, Crush Cannon, Double Crush, Crush Stream, Blaster Cannon, Blaster Bomb, Comet Strike, Meteor Explosion, Impact Flare, and Power Wall.,- Enriched the new records with deterministic IDs, class/subcategory, Ki/Stamina cost where documented, source PQ, DLC provenance, mechanics/description, CaC scope, evidence URLs, and explicit uncertainty language. No exact drop percentages were fabricated.,- Synchronized the deterministic skills index and regenerated the PQ↔skill relationship report.,- Current relationship audit is now **236 resolved forward PQ→skill edges / 234 reverse skill endpoints / 0 unresolved forward edges / 0 orphaned reverse source routes** across 186 canonical PQ records and 305 canonical skill records.,- External checks corroborate the PQ/reward mappings and move classifications: Energy Shot (PQ22), Crusher Ball (PQ34), PQ141 Dragon Blitz/Brutal Buster, PQ142 Excellent Full Course, PQ143 Hyper Tornado/Burning Shot, PQ145/146 Destructive skills, PQ147 Crush family, PQ148 Blaster family, PQ149 Comet Strike/Meteor Explosion, and PQ150 Impact Flare/Power Wall. citeturn0search8turn0search17turn2search6turn0search2turn3search1turn1search3turn0search1turn0search3turn2search1turn1search0turn1search5turn0search0turn1search2turn2search0turn2search4turn3search0turn3search2
+- Independent current Steam PQ documentation and the repository's PQ research batches corroborate both PQ numbers/titles and reward associations.,,## 2026-09-21 — Canonical PQ IDs and bidirectional skill-link audit,- Expanded `docs/data/parallel-quests-record-layer.json` from a seven-record seed to the full **186-record** canonical numbered layer, with deterministic `pq-NNN` IDs.,- Synchronized **65** additional skill-reward edges from the maintained PQ research batches into the canonical PQ layer, preserving the evidence-backed reward names and existing uncertainty.,- Upgraded `scripts/validate_pq_skill_links.py` to use stable PQ/skill IDs, emit forward and reverse relationship data, recognize documented aliases, and report unresolved/orphaned endpoints.,- Added three previously missing canonical skill records: `Drain Field`, `Flash Bomber`, and `Rakshasa's Claw`. The live cross-link audit now resolves **217** forward PQ→skill edges across **215** reverse skill endpoints.,- The remaining unresolved canonical PQ→skill endpoints are 19 skills concentrated in PQ141-150 plus two earlier naming/catalog gaps (`Energy Shot`, `Crusher Ball`). They are preserved as explicit unresolved work rather than fabricated records.,,## 2026-09-21 — Complete the 19 unresolved PQ→skill endpoints,- Added all 19 previously unresolved skill endpoints to the canonical skill catalog: Energy Shot, Crusher Ball, Dragon Blitz, Brutal Buster, Excellent Full Course, Hyper Tornado, Burning Shot, Destructive Fracture, Destructive Flare, Destructive Fission, Crush Cannon, Double Crush, Crush Stream, Blaster Cannon, Blaster Bomb, Comet Strike, Meteor Explosion, Impact Flare, and Power Wall.,- Enriched the new records with deterministic IDs, class/subcategory, Ki/Stamina cost where documented, source PQ, DLC provenance, mechanics/description, CaC scope, evidence URLs, and explicit uncertainty language. No exact drop percentages were fabricated.,- Synchronized the deterministic skills index and regenerated the PQ↔skill relationship report.,- Current relationship audit is now **236 resolved forward PQ→skill edges / 234 reverse skill endpoints / 0 unresolved forward edges / 0 orphaned reverse source routes** across 186 canonical PQ records and 305 canonical skill records.,- External checks corroborate the PQ/reward mappings and move classifications: Energy Shot (PQ22), Crusher Ball (PQ34), PQ141 Dragon Blitz/Brutal Buster, PQ142 Excellent Full Course, PQ143 Hyper Tornado/Burning Shot, PQ145/146 Destructive skills, PQ147 Crush family, PQ148 Blaster family, PQ149 Comet Strike/Meteor Explosion, and PQ150 Impact Flare/Power Wall. 
 
 ## 2026-09-21 — Add PQ cross-links for equipment, accessories, and Super Souls
 - Added deterministic PQ↔equipment, PQ↔accessory, and PQ↔Super Soul relationship reports with forward and reverse indexes.
@@ -387,7 +387,7 @@
 ### 2026-09-21 cycle update — Namekian and Future Saga acquisition endpoints
 - Live census before editing: **305 skills / 305 skill-index records / 5 Time Rift endpoints / 1 Unknown History endpoint**.
 - Bounded batch: **Become Giant** and **The Power to Overcome**.
-- Research/evidence: Become Giant's current external references identify Guru's House / Namekian Awakening as its acquisition endpoint and distinguish the required Namekian progression from the transformation itself. citeturn0search0turn0search11turn0search3 The Power to Overcome is tied to Future Saga Chapter 4 and Quest 31, Ultimate All-Out Showdown; current 2026 guide evidence identifies the final mission as the unlock point and the Chapter 4 DLC as required. citeturn0search8turn0youtube18
+- Research/evidence: Become Giant's current external references identify Guru's House / Namekian Awakening as its acquisition endpoint and distinguish the required Namekian progression from the transformation itself.  The Power to Overcome is tied to Future Saga Chapter 4 and Quest 31, Ultimate All-Out Showdown; current 2026 guide evidence identifies the final mission as the unlock point and the Chapter 4 DLC as required. 
 - Changes: added `source_time_rifts` to Become Giant; created `future-saga-story-record-layer.json`; linked The Power to Overcome to `story-future-saga-chapter-4-quest-31`; formalized the story-mission domain in the expansion contract; updated the bidirectional cross-link report.
 - Evidence limits/conflicts preserved: no unverified mission-number claims were added for older Time Rift routes; The Power to Overcome's mechanics already contain conflicting measured values in the canonical skill record, and those conflicts remain unresolved rather than being flattened.
 - Validation: **305/305 canonical/index parity preserved; 0 broken relationship endpoints; 2 target skill relationship projections match; 0 citation artifacts in changed canonical JSON; 5 Time Rifts + 2 story-mission endpoints; cross-link report now has 11 Time Rift→skill edges and 2 story-skill edges**.
@@ -398,13 +398,13 @@
 
 
 ### 2026-09-21 cycle update — Future Saga Chapter 4 PQ ↔ skill graph completion
-- Researched the remaining Chapter 4 skills already present in canonical data: **Dragon Spiral, Indomitable, and Venus Fist**. Current repository PQ records place Dragon Spiral + Indomitable in PQ185 (A God's Amusement) and Venus Fist in PQ186 (Frieza's Right-Hand Man); current Chapter 4 documentation confirms the DLC contains two Parallel Quests and four new moves including one Awoken Skill. citeturn0search0turn0search1turn0search2
+- Researched the remaining Chapter 4 skills already present in canonical data: **Dragon Spiral, Indomitable, and Venus Fist**. Current repository PQ records place Dragon Spiral + Indomitable in PQ185 (A God's Amusement) and Venus Fist in PQ186 (Frieza's Right-Hand Man); current Chapter 4 documentation confirms the DLC contains two Parallel Quests and four new moves including one Awoken Skill. 
 - Added deterministic `skill_ids` to PQ185/PQ186, `source_parallel_quests` to the three skill records and skill index, and explicit Chapter 4 `skill_relationships`/PQ references in `future-saga-story-record-layer.json`.
 - Expanded `record-expansion-contract.json` with PQ `skill_ids` and skill `source_parallel_quests` cross-domain fields.
 - Expanded `time-rift-skill-crosslink-report.json` with **2 PQ endpoints / 3 PQ→skill edges**.
 - Validation: **305 skills / 305 index records / 186 PQ records / 4 Chapter 4 story-linked skills / 0 broken endpoints / 3 edited skill/index parity checks passed / 0 citation artifacts in canonical JSON**.
 - Exact relationship graph now lets a user traverse **Future Saga Chapter 4 → Quest 31 → The Power to Overcome**, and **Future Saga Chapter 4 → PQ185/PQ186 → individual skills**, while each skill resolves back to its source PQ and Chapter 4 story endpoint.
-- Evidence boundary: the canonical PQ records already distinguish Basic Reward from Ultimate Finish conditions. No new Ultimate Finish requirement or drop probability was inferred here. Current official DLC material confirms Chapter 4's content scope, while the maintained repository reward records supply the exact skill-to-PQ mapping. citeturn0search0turn0search1
+- Evidence boundary: the canonical PQ records already distinguish Basic Reward from Ultimate Finish conditions. No new Ultimate Finish requirement or drop probability was inferred here. Current official DLC material confirms Chapter 4's content scope, while the maintained repository reward records supply the exact skill-to-PQ mapping. 
 - Exact next batch: **audit the broader PQ ↔ skill graph for orphaned `source_quest` skills and PQ `skill_rewards`, starting with the newest DLC/PQ records, and repair deterministic reverse links in larger batches without changing acquisition facts.**
 
 
@@ -418,7 +418,7 @@
 - Validation: **305/305 skills-index parity; 186 PQ endpoints valid; 0 broken relationship endpoints; 0 unresolved reward names; 0 canonical citation artifacts in changed JSON**.
 - CI: commit-associated combined status and workflow-run lookup exposed **no statuses/runs** for the direct data commit; no CI success is claimed.
 - Commits: `fd8410b` (PQ skill IDs), `155f0e8` (skill reverse links), `e746d3c` (skill index), `11015fa` (cross-link report).
-- External/current repository research supports treating PQ reward tables as the primary relationship evidence and confirms PQs are the game's main skill-farming relationship layer. citeturn0search3turn0search5turn0search6
+- External/current repository research supports treating PQ reward tables as the primary relationship evidence and confirms PQs are the game's main skill-farming relationship layer. 
 - Exact next batch: **audit the remaining 71 skills without `source_parallel_quests` by acquisition type, separating non-PQ sources (mentor, shop, Time Rift, story, Advancement Test) from genuinely missing PQ reverse links; then repair only evidence-backed missing routes.**
 
 
@@ -428,7 +428,7 @@
 - Created `docs/data/skill-acquisition-coverage-report.json` to persist this classification and explicitly prevent non-PQ acquisition sources from being forced into the PQ graph.
 - Important architecture finding: the repository currently has **no canonical mentor or Expert Mission record layer** discoverable in the live data tree. Therefore mentor/expert skills retain their textual acquisition facts instead of receiving guessed IDs. This follows the repository null/provenance policy.
 - No canonical acquisition facts were changed in this cycle; the output is a coverage/audit layer identifying the next schema expansion targets.
-- External corroboration: PQs are a major skill source, but rewards can also come from other acquisition systems, so the audit deliberately keeps those systems separate. citeturn0search0turn0search3
+- External corroboration: PQs are a major skill source, but rewards can also come from other acquisition systems, so the audit deliberately keeps those systems separate. 
 - Validation target for next cycle: build the missing **mentor record layer** first, because 17 direct mentor-training skills plus 3 mentor-like Awoken routes are currently blocked from deterministic bidirectional mentor ↔ skill navigation; then build Expert Mission endpoints for the 3 EM-sourced skills.
 - Exact next batch: **create the canonical mentor record layer and connect the 17 direct mentor-training skills in larger deterministic batches, starting with mentors whose skills are already fully named in canonical skill data; then add Expert Mission records.**
 
@@ -440,7 +440,7 @@
 - Extended `docs/data/record-expansion-contract.json` so `source_mentor` is an explicit skill cross-domain field.
 - Created `docs/data/mentor-skill-crosslink-report.json` with the 16 deterministic forward edges and unresolved-edge tracking.
 - Validation: **33 mentors, 11 mentors with linked skills, 16 mentor→skill edges, 16 skills with mentor reverse sources, 0 broken mentor endpoints, skill-index mentor parity = true**.
-- External mentor references corroborate that mentors teach signature skills through initiation/lesson progression; official Bandai Namco documentation confirms the mentor system teaches character moves. citeturn0search4turn0search3
+- External mentor references corroborate that mentors teach signature skills through initiation/lesson progression; official Bandai Namco documentation confirms the mentor system teaches character moves. 
 - The previous coverage audit's mentor count is now refined from 17 directly verified routes to **16**, because only 16 canonical skill records currently contain an exact mentor-training route that could be deterministically linked without guessing.
 - Exact next batch: **finish the remaining mentor acquisition mappings by auditing the existing 33 mentor identities against all skill records, then create the Expert Mission record layer for the 3 EM-linked skills (Data Input, Super Spirit Bomb, Supernova).**
 
@@ -934,7 +934,7 @@
 
 ## 2026-09-21 — Broly mentor skill Ki-cost verification
 
-- Verified **Blaster Meteor — 0 Ki**. It is an Evasive Skill whose documented resource cost is **300 Stamina**, not Ki. citeturn1search0turn1search1
+- Verified **Blaster Meteor — 0 Ki**. It is an Evasive Skill whose documented resource cost is **300 Stamina**, not Ki. 
 - Updated only canonical `ki_cost` and `last_verified`.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 33 nullable `ki_cost` records**.
 - Commit: `0931c19993553d4e8e875a2955a7479a26922c29`.
@@ -944,7 +944,7 @@
 
 ## 2026-09-21 — Android 16 mentor skill Ki-cost verification
 
-- Verified **Eye Beam (100)**, **Rocket Tackle (100)**, **Android Rush (100)**, and **Hell Flash (300)** from current Xenoverse 2 skill references. citeturn0search6turn0search7turn0search10turn0search4
+- Verified **Eye Beam (100)**, **Rocket Tackle (100)**, **Android Rush (100)**, and **Hell Flash (300)** from current Xenoverse 2 skill references. 
 - Updated only canonical `ki_cost` and `last_verified`.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 29 nullable `ki_cost` records**.
 - Commit: `3dddf371190a0cd8a3cb29940ec922b64ea2b711`.
@@ -954,7 +954,7 @@
 
 ## 2026-09-21 — Future Gohan mentor skill Ki-cost verification
 
-- Verified **Sonic Rush (100)**, **Energy Dome (up to 320)**, and **One-Handed Kamehameha mk.II (400–600)** from current Xenoverse 2 skill references. citeturn0search2turn0search0turn0search1
+- Verified **Sonic Rush (100)**, **Energy Dome (up to 320)**, and **One-Handed Kamehameha mk.II (400–600)** from current Xenoverse 2 skill references. 
 - Updated only canonical `ki_cost` and `last_verified`; variable costs were preserved.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 26 nullable `ki_cost` records**.
 - Commit: `2b4ee7bb780d6591197b7e79863e75ef9799e053`.
@@ -980,7 +980,7 @@
 
 ## 2026-09-21 — Zamasu mentor skill Ki-cost verification
 
-- Verified **God Splitter (100)**, **Heavenly Arrow (100)**, and **Instant Severance (300)** from current Xenoverse 2 skill references. citeturn0search0turn0search1turn0search2
+- Verified **God Splitter (100)**, **Heavenly Arrow (100)**, and **Instant Severance (300)** from current Xenoverse 2 skill references. 
 - Updated only canonical `ki_cost` and `last_verified`.
 - Live canonical skill census: **428 records, 0 duplicate IDs, 19 nullable `ki_cost` records**.
 - Commit: `6d465aa0664846960006b2359b0885b9ca1184d2`.
