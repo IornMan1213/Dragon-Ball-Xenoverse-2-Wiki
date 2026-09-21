@@ -961,3 +961,15 @@
 
 ### 2026-09-21 — Citation-token correction for Future Gohan changelog entry
 - The preceding Future Gohan changelog entry contains internal citation-token text that must not persist in repository prose. This append-only correction preserves the historical entry while clarifying the documented fixed and variable Ki costs.
+
+## 2026-09-21 — Bojack mentor skill Ki-cost verification
+
+- Verified **Reverse Launcher (100)**, **Trap Shooter (100)**, **Psycho Barrier (100)**, and **Grand Smasher (300-400)** from current Xenoverse 2 skill references.
+- Preserved Grand Smasher's variable cost because the documented additional detonation input consumes an extra 100 Ki.
+- Updated only canonical `ki_cost` and `last_verified`.
+- Live canonical skill census: **428 records, 0 duplicate IDs, 22 nullable `ki_cost` records**.
+- Sources consulted: current dedicated skill pages, the mentor reference, and the maintained mentor guide.
+- Commit: `56ee3eb6610131a85cf1c9a5ff253a10d57b44bf`.
+
+### 2026-09-21 — Citation-token correction for Bojack changelog entry
+- No internal AI/UI/search citation tokens were persisted in the Bojack entry; sources are described without tool-reference markup.
