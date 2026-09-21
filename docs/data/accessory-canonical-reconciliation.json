@@ -1459,6 +1459,22 @@
       },
       "status": "partially_verified",
       "identity_note": "PQ148 Basic Reward explicitly lists Kale Wig; independent Dragon Ball reference identifies the accessory and its PQ148 acquisition."
+    },
+    {
+      "id": "accr-104",
+      "canonical_name": "Yamcha's Sword",
+      "aliases": [],
+      "routes": [
+        "Accessory Shop",
+        "PQ36"
+      ],
+      "route_refs": {
+        "shop": [
+          "Accessory Shop — source-backed"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "The same exact inventory name is independently documented as an Accessory Shop item and as the PQ36 reward. The previous PQ29/PQ36 conflict was caused by the research record carrying the wrong PQ number; PQ36 is directly listed in the maintained reward guide."
     }
   ],
   "unresolved_alias_groups": [
