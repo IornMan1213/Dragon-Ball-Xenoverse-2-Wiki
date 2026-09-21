@@ -5981,3 +5981,16 @@ The repository owner has clarified the continuation contract:
 - No canonical data changes were made in this pass.
 - TODO ledger updated in commit `5703fff78aba5714c22e1b6c10cfc1aedac3e808`.
 - Exact next task: continue with another character-associated DLC cluster where direct package/source evidence can establish or falsify the current label.
+
+
+### 2026-09-21 cycle update — Ultra Pack 1 skill DLC provenance census
+- Live canonical census before editing: **428 skill records; 0 duplicate IDs**.
+- Bounded batch: the 12 live records labeled `Ultra Pack 1`: Blazing Attack, Burst Charge, Burst Stinger, Final Charge, Final Flash (Super), Formation!, Lovely Cyclone, Pretty Cannon, Prominence Flash, Raid Blast, Ribrianne's Eternal Love, Ultimate Charge.
+- Research/evidence: official Bandai Namco Xenoverse 2 DLC documentation confirms Ultra Pack 1 and its 10 additional Future Warrior-acquirable skills; the maintained 186-PQ Steam guide maps PQ133–137 rewards; current technique references confirm Formation!, Prominence Flash, Pretty Cannon, Lovely Cyclone, and the character-exclusive Final Charge/Final Flash (Super) context. The official pack description and current DLC reference distinguish the ten additional skills from the character-exclusive moves.
+- Changes: refreshed `last_verified=2026-09-21` and appended the same bounded provenance note to the 12 affected canonical records in `docs/data/skills.json`. No unrelated field was changed; `skills-index.json` was not edited because it has no `dlc_requirement` field.
+- Evidence limits/conflicts preserved: Steam's player-facing reward tables place Formation! and Lovely Cyclone in Basic Rewards, while community evidence can describe them as Ultimate Finish drops; this pass does not force a reward-tier conclusion. Character-only Final Charge and Final Flash (Super) remain classified under Ultra Pack 1 because their DLC association is separately documented.
+- Validation: **428 records; 0 duplicate IDs; 12 Ultra Pack 1 records; 0 PQ133–137 DLC mismatches** after the write. Changed canonical records were re-read programmatically; no internal ChatGPT/tool citation markers were added.
+- CI: workflow status remains unavailable unless GitHub exposes an actual run/check; validators were not weakened.
+- Commits: canonical skill update plus this handoff/TODO/audit/changelog cycle.
+- Live census after editing: **428 records; 0 duplicate IDs; 12 Ultra Pack 1 records; 0 PQ133–137 DLC mismatches**.
+- Exact next batch: **fresh live DLC-label/source-relationship census outside Ultra Pack 1**, prioritizing a deterministic source-PQ/package relationship and preserving composite/platform-dependent labels.
