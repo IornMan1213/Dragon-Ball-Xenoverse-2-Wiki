@@ -1233,3 +1233,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; no Base Game skill remains with an unresolved PQ>100 provenance mismatch after accounting for Candy Beam's duplicate reward context.
 - [x] CI: workflow status remains unavailable unless Actions exposes an actual run.
 - [ ] Next provenance batch: fresh live census of source-to-DLC relationships, focusing on any remaining records where the primary acquisition endpoint and `dlc_requirement` disagree.
+
+
+### 2026-09-21 — Master ledger completion marking: Future Saga Chapter 1 move provenance audit
+- [x] **Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger audited as a bounded Future Saga Chapter 1 batch.**
+- [x] Evidence: official Dragon Ball documentation identifies Crimson Edge and Divine Spear as Goku Black (Super Saiyan Rosé) Ultra Supervillain moves and Big Bang Knuckle/Wild Stinger as Vegeta (Super Saiyan God) Ultra Supervillain moves; official Nintendo/Steam listings identify Future Saga Chapter 1 as the DLC containing these characters and 15 additional moves. The maintained PQ guide places the corresponding rewards in PQ171 and PQ172, both explicitly labeled Future Saga Chapter 1.
+- [x] Decision: existing `dlc_requirement=Future Saga Chapter 1` values are confirmed and preserved. No normalization was needed.
+- [x] Change: `docs/data/skills.json` only — updated `last_verified=2026-09-21` and appended bounded provenance-audit notes to the four records. No acquisition, mechanics, cost, restriction, or DLC fields were altered.
+- [x] Validation target: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; four-record batch remains structurally intact.
+- [x] Evidence sources: official Dragon Ball site, Nintendo Future Saga Chapter 1 listing, Steam Future Saga Chapter 1 listing, and repository-linked Steam PQ guide.
+- [ ] Next provenance batch: fresh live census of source-to-DLC relationships, prioritizing a new bounded cluster where the canonical acquisition endpoint can be directly verified.
