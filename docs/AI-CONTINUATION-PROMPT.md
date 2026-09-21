@@ -5650,3 +5650,24 @@ Only after data-completeness work, expose the improved structured research surfa
 - The live TODO queue is derived from the canonical census; historical checklist counts remain preserved and must not override live state.
 - TODO synchronization commit: `7823e8ead480221204823d3abe42300c5ee9dbb4`; append-only correction: the queue is explicitly **18 unresolved records**, excluding resolved Brutal Buster.
 - Exact next action remains: recompute the live nullable-`ki_cost` census and continue the next evidence-backed bounded batch, while updating both this handoff and the live TODO state in the same cycle.
+
+
+### 2026-09-21 — Permanent TODO/handoff operating contract
+
+The repository owner has clarified the continuation contract:
+
+- `docs/AI-CONTINUATION-PROMPT.md` is the **detailed persistent completion/history record**. Every meaningful cycle must append enough detail for a fresh AI chat to understand what was completed, what evidence was used, what was not established, what files changed, what validation occurred, what CI exposed, the resulting live counts, and the exact next task. Do not delete, rewrite, reorder, or truncate historical cycle entries.
+- `docs/TODO-EXHAUSTIVE.md` is the **giant append-only task ledger**. Every discovered task must be added there. Every completed task must be marked off and retained permanently. New work must not exist only in the handoff or chat. Historical checkboxes and counts must remain intact even when stale; newer dated ledger entries establish current state without deleting history.
+- If a task is discovered and completed in one cycle, add it to the TODO ledger and mark it `[x]` in that same cycle, then describe the completion in the handoff.
+- If a task is partially complete, use `[~]` and retain a concrete follow-up task.
+- If evidence shows an apparent task was incorrectly considered complete, do not erase the old completion record. Append a correction and create the reopened task explicitly.
+- The live canonical dataset remains the authority for record-level counts and unresolved queues.
+- Every cycle must reconcile the TODO ledger with the handoff, coverage audit, changelog, and canonical data before ending.
+
+### 2026-09-21 — Master ledger established
+
+- Added **TODO section 29, Append-only master task ledger**, containing a large cross-domain task ledger plus explicit rules for discovered work, completion marking, historical preservation, and handoff synchronization.
+- Recorded completed PQ unlock-field work, the completed Ki-cost verification frontier, repository-quality work already evidenced by the handoff, and the current 18-record nullable `ki_cost` queue.
+- Preserved the older TODO sections and their historical statuses; section 29 is the current operational ledger and does not replace or delete history.
+- The handoff itself remains append-only: this entry is an additional permanent contract/history record, not a rewrite of earlier cycle entries.
+- Exact next task remains a live-census-first bounded Ki-cost verification batch, unless P0 validation/infrastructure work becomes actionable first.
