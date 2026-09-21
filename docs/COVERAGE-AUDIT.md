@@ -4642,3 +4642,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: not exposed for this commit; no CI success claimed.
 - Commit: `20b6a147dae05e99a4b6aa218586709a23f55115`.
 - Exact next batch: **recompute the live projection census and inspect the remaining deterministic drift families, beginning with the 4 canonical/index `notes` mismatches only if the producer relationship is still clearly bounded; otherwise choose the next 4–12-record deterministic family.**
+
+
+### 2026-09-21 — Skill-index mechanics projection parity batch 2
+- Live census: **429 canonical skills / 429 skill-index records**.
+- Bounded deterministic batch: **10 `mechanics_notes` projections** — Destructo-Disc, Dimension Cannon, Double Crush, Drain Field, Energy Charge, Final Pose, Flash Bomber, Full Power Charge, Galick Gun, and Ill Bomber.
+- Evidence: canonical `docs/data/skills.json` is the producer; this pass copied only canonical `mechanics_notes` values into `docs/data/skills-index.json`. No new gameplay, acquisition, restriction, DLC, or mechanics claim was introduced.
+- Validation: both JSON layers parse; record counts remain **429/429**; all 10 targeted `mechanics_notes` values now match canonical; **15** `mechanics_notes` mismatches remain; changed index contains **0 internal AI/UI/search citation artifacts**.
+- CI: inspected after the index commit; no actionable workflow/status result is exposed, so **no CI success is claimed**. Validators were not weakened.
+- Commit: `84d44bd4441d9d178eea9c6208803cd80dce7aca`.
+- Exact next batch: **Instant Transmission, Masenko, Maximum Charge, Neo Wolf Fang Fist, Perfect Shot, Potential Unleashed, Rakshasa's Claw, Rise to Action, Shadow Crusher, and Spirit Bomb**, using the same canonical→index `mechanics_notes` parity check and recomputing the live mismatch census first.
