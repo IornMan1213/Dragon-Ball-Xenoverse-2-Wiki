@@ -51,9 +51,26 @@ def classify(d):
  if c=='awoken':return 'Awoken','Race'
  return 'Mixed','Special'
 def load_existing():
- try:d=json.loads(OUT.read_text(encoding='utf-8'))
- except (OSError,json.JSONDecodeError):return {}
- return {(r.get('name','').casefold(),r.get('class',''),r.get('subcategory','')):r for r in d.get('records',[]) if r.get('name')}
+ if not OUT.exists():
+  return {}
+ try:
+  d=json.loads(OUT.read_text(encoding='utf-8'))
+ except (OSError,json.JSONDecodeError) as exc:
+  raise RuntimeError(f'Failed to load existing canonical skill catalog {OUT}: {exc}') from exc
+ if not isinstance(d,dict):
+  raise ValueError(f'{OUT}: canonical catalog payload must be an object')
+ records=d.get('records')
+ if not isinstance(records,list):
+  raise ValueError(f'{OUT}: canonical catalog records must be a list')
+ m={}
+ for index,r in enumerate(records):
+  if not isinstance(r,dict) or not r.get('name'):
+   raise ValueError(f'{OUT}: canonical record {index} must be an object with a name')
+  k=(r['name'].casefold(),r.get('class',''),r.get('subcategory',''))
+  if k in m:
+   raise ValueError(f'{OUT}: duplicate canonical skill key {k}')
+  m[k]=r
+ return m
 def merge_record(m,r,protected=None,blocked=None):
  protected=protected if protected is not None else set(); blocked=blocked if blocked is not None else set()
  n=r.get('name');
