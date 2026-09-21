@@ -3889,3 +3889,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No additional record met the evidence threshold for a safe route correction in this pass, so no unsupported acquisition details were added.
 - Validation: canonical/index **283/283**; identical record-name ordering; **0 duplicate names**; **60** Ultimate Finish flags; **0** mismatches across acquisition-critical fields (`name`, `acquisition_type`, `unlock_method`, `ultimate_finish_required`, `source_quest`, `race_restriction`).
 - Exact next target: **move the audit to the remaining generic Skill Shop / TP Medal Shop records whose route is known but whose prerequisite/timing wording may still be under-specified, while preserving historical-price uncertainty.**
+
+
+## 2026-09-20 — Skill Shop prerequisite refinement
+- Refined **Punisher Guard** from a generic Skill Shop route to the documented prerequisite: complete **A Momentous Galactic Battle**, then purchase it from the Skill Shop for **5,000 Zeni**.
+- The price is recorded as documented purchase information; no current shop rotation is inferred.
+- Other remaining generic Skill Shop / TP Medal Shop records were reviewed but did not meet the evidence threshold for a further prerequisite correction in this pass.
+- Exact next target: continue checking generic TP Medal Shop and Skill Shop records for concrete prerequisites, while preserving uncertainty around historical rotations/prices.
