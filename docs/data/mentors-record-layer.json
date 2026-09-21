@@ -1,44 +1,509 @@
 {
-  "schema_version":"1.0",
-  "game":"Dragon Ball Xenoverse 2",
-  "status":"indexed_record_population",
-  "source_index":"https://dbxv2.fandom.com/wiki/Mentors",
-  "count":33,
-  "verification_status":"indexed",
-  "record_policy":"Identity is populated from the canonical mentor index; unresolved gameplay fields are null/empty rather than guessed.",
-  "records":[
-    {"id":"mentor-krillin","name":"Krillin","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-tien","name":"Tien","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-yamcha","name":"Yamcha","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-piccolo","name":"Piccolo","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-raditz","name":"Raditz","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-gohan-kid","name":"Gohan (Kid)","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-nappa","name":"Nappa","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-vegeta","name":"Vegeta","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-zarbon","name":"Zarbon","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-dodoria","name":"Dodoria","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-ginyu","name":"Captain Ginyu","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-frieza","name":"Frieza (1st Form)","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-cooler","name":"Cooler (Final Form)","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-android-18","name":"Android 18","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-android-16","name":"Android 16","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-cell","name":"Cell (Perfect)","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-slug","name":"Lord Slug","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-majin-buu","name":"Majin Buu","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-hercule","name":"Hercule","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-gohan-videl","name":"Gohan (Adult) and Videl","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-gotenks","name":"Gotenks","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-turles","name":"Turles","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-broly","name":"Broly","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-beerus","name":"God of Destruction Beerus","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-whis","name":"Whis","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-pan","name":"Pan","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-jaco","name":"Jaco","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-goku","name":"Goku","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-future-gohan","name":"Gohan (Future)","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-bardock","name":"Bardock","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-hit","name":"Hit","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-bojack","name":"Bojack","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]},
-    {"id":"mentor-zamasu","name":"Zamasu","lessons":[],"skills":[],"dual_ultimate":null,"unlock_requirements":null,"friendship_notes":null,"sources":["https://dbxv2.fandom.com/wiki/Mentors"]}
-  ]
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "active",
+  "source_index": "https://dbxv2.fandom.com/wiki/Mentors",
+  "count": 33,
+  "verification_status": "indexed",
+  "record_policy": "Identity is populated from the canonical mentor index; unresolved gameplay fields are null/empty rather than guessed.",
+  "records": [
+    {
+      "id": "mentor-krillin",
+      "name": "Krillin",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-destructo-disc"
+        },
+        {
+          "lesson": "lesson-1",
+          "skill_id": "skill-rise-to-action"
+        }
+      ],
+      "skills": [
+        "skill-destructo-disc",
+        "skill-rise-to-action"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-tien",
+      "name": "Tien",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-yamcha",
+      "name": "Yamcha",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-piccolo",
+      "name": "Piccolo",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-raditz",
+      "name": "Raditz",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-gohan-kid",
+      "name": "Gohan (Kid)",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-masenko"
+        }
+      ],
+      "skills": [
+        "skill-masenko"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-nappa",
+      "name": "Nappa",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-vegeta",
+      "name": "Vegeta",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-galick-gun"
+        }
+      ],
+      "skills": [
+        "skill-galick-gun"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-zarbon",
+      "name": "Zarbon",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-dodoria",
+      "name": "Dodoria",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-ginyu",
+      "name": "Captain Ginyu",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-frieza",
+      "name": "Frieza (1st Form)",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-death-ball"
+        }
+      ],
+      "skills": [
+        "skill-death-ball"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-cooler",
+      "name": "Cooler (Final Form)",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-shadow-crusher"
+        }
+      ],
+      "skills": [
+        "skill-shadow-crusher"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-android-18",
+      "name": "Android 18",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-deadly-dance"
+        }
+      ],
+      "skills": [
+        "skill-deadly-dance"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-android-16",
+      "name": "Android 16",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-cell",
+      "name": "Cell (Perfect)",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-slug",
+      "name": "Lord Slug",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-darkness-rush-melee"
+        },
+        {
+          "lesson": "lesson-1",
+          "skill_id": "skill-darkness-rush-ranged"
+        }
+      ],
+      "skills": [
+        "skill-darkness-rush-melee",
+        "skill-darkness-rush-ranged"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-majin-buu",
+      "name": "Majin Buu",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-hercule",
+      "name": "Hercule",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-gohan-videl",
+      "name": "Gohan (Adult) and Videl",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-gotenks",
+      "name": "Gotenks",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-turles",
+      "name": "Turles",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-broly",
+      "name": "Broly",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-beerus",
+      "name": "God of Destruction Beerus",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-whis",
+      "name": "Whis",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-pan",
+      "name": "Pan",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-dancing-parapara"
+        }
+      ],
+      "skills": [
+        "skill-dancing-parapara"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-jaco",
+      "name": "Jaco",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-goku",
+      "name": "Goku",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-instant-transmission"
+        }
+      ],
+      "skills": [
+        "skill-instant-transmission"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-future-gohan",
+      "name": "Gohan (Future)",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-bardock",
+      "name": "Bardock",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-hit",
+      "name": "Hit",
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-time-skip-back-breaker"
+        },
+        {
+          "lesson": "lesson-1",
+          "skill_id": "skill-time-skip-flash-skewer"
+        },
+        {
+          "lesson": "lesson-2",
+          "skill_id": "skill-time-skip-jump-spike"
+        }
+      ],
+      "skills": [
+        "skill-time-skip-back-breaker",
+        "skill-time-skip-flash-skewer",
+        "skill-time-skip-jump-spike"
+      ],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ],
+      "verification_status": "skill_route_verified"
+    },
+    {
+      "id": "mentor-bojack",
+      "name": "Bojack",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "id": "mentor-zamasu",
+      "name": "Zamasu",
+      "lessons": [],
+      "skills": [],
+      "dual_ultimate": null,
+      "unlock_requirements": null,
+      "friendship_notes": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    }
+  ],
+  "last_verified": "2026-09-21",
+  "cross_domain_policy": "Mentor skills are linked by stable mentor and skill IDs; unresolved mentor fields remain null until directly verified."
 }
