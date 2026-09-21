@@ -3,7 +3,7 @@
 from __future__ import annotations
 import json,re
 from pathlib import Path
-from build_skills_from_research import INDEX_PROJECTION_FIELDS, TARGET_COUNTS
+from build_skills_from_research import CATALOG_GAME, CATALOG_SCHEMA_VERSION, CATALOG_SOURCE_INDEX, INDEX_PROJECTION_FIELDS, TARGET_COUNTS
 try:
     from jsonschema import Draft202012Validator, FormatChecker
 except ImportError:
@@ -18,6 +18,13 @@ def main():
  ALLOWED_CLASS=set(schema['properties']['class']['enum']); ALLOWED_SUB=set(schema['properties']['subcategory']['enum']); ALLOWED_RESEARCH=set(schema['properties']['research_status']['enum']); ALLOWED_ACQUISITION=set(schema['properties']['acquisition_type']['enum'])
  projection=set(INDEX_PROJECTION_FIELDS); schema_fields=set(schema.get('properties',{}))
  rs=d.get('records',[]); ir=idx.get('records',[]); errors=[]
+ if d.get('schema_version') != CATALOG_SCHEMA_VERSION: errors.append(f"skills.json schema_version mismatch: expected {CATALOG_SCHEMA_VERSION!r}")
+ if d.get('game') != CATALOG_GAME: errors.append(f"skills.json game mismatch: expected {CATALOG_GAME!r}")
+ if d.get('source_index') != CATALOG_SOURCE_INDEX: errors.append('skills.json source_index mismatch with builder metadata')
+ if not isinstance(d.get('status'),str) or not d['status'].strip(): errors.append('skills.json status must be a non-empty string')
+ if not isinstance(d.get('notes'),str) or not d['notes'].strip(): errors.append('skills.json notes must be a non-empty string')
+ if idx.get('schema_version') != CATALOG_SCHEMA_VERSION: errors.append(f"skills-index.json schema_version mismatch: expected {CATALOG_SCHEMA_VERSION!r}")
+ if idx.get('source_index') != CATALOG_SOURCE_INDEX: errors.append('skills-index.json source_index mismatch with builder metadata')
  if not projection.issubset(schema_fields):errors.append(f"index projection contains non-canonical fields: {', '.join(sorted(projection-schema_fields))}")
  if Draft202012Validator is None:
   errors.append('jsonschema dependency is required for JSON Schema validation')
