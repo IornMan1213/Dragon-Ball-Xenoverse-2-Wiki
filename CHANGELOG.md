@@ -317,3 +317,8 @@
 - Replaced generic mechanics placeholders with evidence-backed mechanics/evidence boundaries for 12 skills spanning base-game and DLC PQ rewards.
 - Synchronized canonical and index projections; both remain at 305 records.
 - Preserved three surfaced cost conflicts for dedicated reconciliation rather than silently changing canonical values.
+
+## 2026-09-21 — Resolve three skill Ki-cost conflicts
+- Resolved Dimension Ray to 400 Ki and Majin Kamehameha to 100 Ki using current dedicated skill documentation and aggregate skill references.
+- Corrected Neo Wolf Fang Fist from a misleading fixed scalar to a variable-cost representation, documenting its 100–700 Ki range.
+- Synchronized canonical and index projections; both remain at 305 records.
