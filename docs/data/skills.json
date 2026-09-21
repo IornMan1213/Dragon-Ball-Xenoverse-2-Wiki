@@ -12642,6 +12642,7 @@
     },
     {
       "name": "God of Destruction's Might",
+      "ki_cost": 400,
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified_current_scope",
