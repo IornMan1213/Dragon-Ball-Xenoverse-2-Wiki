@@ -4259,7 +4259,8 @@
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Release",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://gamefaqs.gamespot.com/ps4/248428-dragon-ball-xenoverse-dragon-ball-xenoverse-2/faqs/71395?page=3"
       ],
       "ki_cost": 0,
       "unlock_method": "Character-exclusive / non-CaC skill",
@@ -4272,7 +4273,7 @@
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Energy Release as a character-exclusive/non-CaC skill rather than a separately acquirable avatar skill.",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Energy Release as a character-exclusive/non-CaC skill rather than a separately acquirable avatar skill. 2026-09-21 low-source provenance strengthening: the maintained GameFAQs Xenoverse move guide independently lists Energy Release in Towa\'s Super Attack slot, corroborating the character-only acquisition boundary.",
       "id": "skill-energy-release"
     },
     {
