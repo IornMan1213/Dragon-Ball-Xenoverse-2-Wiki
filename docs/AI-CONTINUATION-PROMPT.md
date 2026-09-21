@@ -4647,3 +4647,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI was not exposed for the direct commit; no CI success is claimed.
 - Commit: `9b9cdfb0746bbe10db6ec64ac220ed4d5e406023` (skill data), `51f6481e0753fc6d9e6b9cd22fe4a7a2e61c6480` (coverage audit).
 - Exact next batch: audit Advancement Test and Time Rift/Future Saga acquisition routes for canonical IDs, preserving shop/story prerequisites separately from the actual acquisition endpoint.
+
+
+### 2026-09-21 cycle update — Advancement Test canonical endpoints and skill links
+- Live census: **305 skills**.
+- Created 4 source-backed canonical Advancement Test endpoints: `advancement-test-easy`, `advancement-test-advanced`, `advancement-test-god`, `advancement-test-super`.
+- Added `source_advancement_test` to Energy Charge, Full Power Charge, Maximum Charge, and Potential Unleashed.
+- Formalized the optional skill cross-domain fields (`source_quest`, `source_mentor`, `source_advancement_test`) and added the Advancement Test domain contract to `record-expansion-contract.json`.
+- Validation: **4 endpoints / 4 skill links / 0 broken endpoints / 0 canonical skill citation artifacts**.
+- These Advancement Test records remain indexed relationship endpoints; unresolved test objectives, rank thresholds, progression and complete reward tables were intentionally preserved as unresolved.
+- CI was not exposed for the direct commits; no CI success is claimed.
+- Commits: `46a4577a9d7c401046754d72ff027317f182ff22`, `60ca17d680174b933590fce01d405cd09c08bb70`, `d3a62cf6b1486fb3b225cf135cf4a03eff2ebbdf`, `f6c11876bae5ac8150c1697290a9c25259ed462f`.
+- Exact next batch: establish source-backed canonical Time Rift/Future Saga acquisition endpoints for Super Saiyan, Super Vegeta, Turn Golden, Power Pole Pro, Purification, and Future Super Saiyan without inventing mission numbers.
