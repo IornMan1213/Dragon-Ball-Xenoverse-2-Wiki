@@ -1273,3 +1273,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Deterministic exception review: the only Base Game skill whose source quest list includes a PQ above 100 is Candy Beam (`PQ66` + later `PQ113` context); its canonical Base Game provenance is intentionally retained because PQ66 is its primary acquisition endpoint and the record already documents PQ113 as later Extra Pack 1 reward context.
 - [x] Evidence source reviewed: current Free Update chronology: https://dbxv2.fandom.com/wiki/Free_Update
 - [ ] Next provenance batch: recompute the live DLC/update census and continue with the next independently resolvable provenance mismatch; preserve intentional historical/composite classifications.
+
+
+### 2026-09-21 — Master ledger completion marking: free-update census recheck
+- [x] Recomputed all `Free Update*` skill provenance labels after the previous correction: **10 records** currently use explicit free-update provenance.
+- [x] Reviewed the remaining update-labeled records as a bounded census: Beast (16), Divine Lasso (3), Pure Progress (1), Super Saiyan Blue Kaioken (1), Super Saiyan God (13), Super Saiyan God Super Saiyan (5), Super Saiyan God Super Saiyan (Evolved) (9), and Ultra Instinct (17), plus the two previously corrected Ultra Instinct-era skills (11).
+- [x] No additional deterministic mismatch was established from the available evidence in this pass; existing labels are preserved rather than inferred from neighboring DLC chronology.
+- [x] External evidence reconfirms the important semantic distinction for the Ultra Instinct-era skills: the Free Update 11 reference explicitly lists Divine Kamehameha and Godly Display among that update's nine new skills, while individual technique documentation can separately describe their original Extra Pack 2 character association. The repository therefore keeps the acquisition/update provenance label at Free Update 11 without rewriting character/DLC context.
+- [x] No canonical data changes were needed in this census-only pass.
+- [ ] Next provenance batch: move beyond explicit `Free Update*` labels to another deterministic DLC cluster; prioritize a cluster with a single authoritative package/source relationship and preserve unresolved or historical distinctions.
