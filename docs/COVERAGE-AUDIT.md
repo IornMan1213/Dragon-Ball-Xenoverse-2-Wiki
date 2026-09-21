@@ -4124,3 +4124,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Live canonical race census at inspection: **283 total / 270 CaC-usable / 3 CaC-usable with null `race_restriction`** — `Blaster Stream`, `Chaotic Time Impact`, and `Circle Flash`. This supersedes stale historical counts of 182 in earlier handoff entries.
 - Current Future Warrior evidence lists all three as usable techniques but does not provide an explicit all-race or race-specific statement for these exact records; no race classifications were inferred.
 - Exact next task: verify the builder/validator acquisition path together, then continue the final three-record null-race evidence sweep with exact-name current-version sources.
+
+
+## 2026-09-21 — final three null-race evidence sweep
+- Performed an exact-name evidence sweep for **Blaster Stream**, **Chaotic Time Impact**, and **Circle Flash**.
+- Current evidence independently establishes that all three are usable by CaC/Future Warrior: a current indexed Xenoverse 2 character/skill ID corpus marks each corresponding skill as a CaC skill, while current player documentation also shows Blaster Stream and Circle Flash equipped on CaCs and current DLC-era material demonstrates Chaotic Time Impact in a CaC-focused skill showcase.
+- This evidence establishes CaC usability, but **does not establish a race restriction or an all-race guarantee** for any of the three. The current exact-name searches did not produce reliable current-version wording such as “all races” or a race-specific restriction. Character association (Kale/Kefla, Golden Frieza, Dyspo) is not sufficient evidence of CaC race scope.
+- Therefore all three canonical `race_restriction` values remain **null**. No speculative race classification was made.
+- No canonical/index data changes were justified by this sweep.
+- Evidence limitation: community/player sources are useful corroboration of CaC use but are not treated as authoritative race-scope proof; the repository continues to preserve null where exact restriction evidence is absent.
+- Exact next task: audit the remaining `usable_by_cac=true` records for weaker-than-explicit race-scope evidence and determine whether any other null/ambiguous restrictions remain hidden outside the current three-record census.
