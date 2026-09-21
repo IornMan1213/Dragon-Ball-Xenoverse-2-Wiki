@@ -862,3 +862,9 @@
 - Added the missing PQ141-PQ150 research batch with ten individually sourced records, DLC provenance, objectives, documented rewards, and conservative DLC-era unlock metadata.
 - Reconciled PQ144's incomplete canonical reward inventory against the maintained Steam all-PQ guide and synchronized the new research batch.
 - Canonical PQ coverage remains 186/186; the previously missing research range is now represented.
+
+## 2026-09-21 — PQ18-PQ20 reward reconciliation
+
+- Reconciled the canonical reward inventories for PQ18-PQ20 against the maintained research batch.
+- Added the documented basic rewards and skill rewards already present in repository research data, while preserving unresolved individual drop-slot/probability semantics.
+- Refreshed verification metadata and source provenance for the three records.
