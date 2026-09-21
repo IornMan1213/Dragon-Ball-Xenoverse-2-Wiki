@@ -11899,7 +11899,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Kamehameha_%28SS4_DAIMA%29",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available"
       ],
       "usable_by_cac": true,
       "character_source": "SS4 Goku (DAIMA)",
@@ -11915,7 +11916,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 181,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to PQ181 - \"The Greatest Training Ever\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills.",
+      "notes": "2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to PQ181 - \"The Greatest Training Ever\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills. 2026-09-21 provenance strengthening: Bandai Namco's official Dragon Ball DAIMA Pack announcement confirms the DLC includes Parallel Quests and player skills; maintained PQ/skill evidence supplies the specific PQ179/PQ181 relationships.",
       "id": "skill-super-kamehameha-ss4-daima",
       "source_parallel_quests": [
         181
@@ -12234,12 +12235,13 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Supreme_Fury",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 179,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
+      "notes": "2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-21 provenance strengthening: Bandai Namco's official Dragon Ball DAIMA Pack announcement confirms the DLC includes Parallel Quests and player skills; maintained PQ/skill evidence supplies the specific PQ179/PQ181 relationships.",
       "id": "skill-supreme-fury",
       "source_parallel_quests": [
         179
