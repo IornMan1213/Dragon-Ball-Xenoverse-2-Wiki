@@ -39,15 +39,28 @@ def normalize_sources(values):
    raise ValueError(f'sources[{index}] must be a non-empty string or object with url')
  return list(dict.fromkeys(out))
 def scalar(v):
- v=v.strip().strip('"\''); return int(v) if re.fullmatch(r'\d+',v) else v
+ v=v.strip().strip('"\\'')
+ if not v:
+  return ''
+ if re.fullmatch(r'\\d+',v): return int(v)
+ if v.startswith('[') or v.startswith('{'):
+  raise ValueError(f'unsupported structured frontmatter scalar: {v}')
+ return v
 def parse_frontmatter(p):
  t=p.read_text(encoding='utf-8',errors='replace'); parts=t.split('---',2)
  if len(parts)<3: raise ValueError('missing YAML frontmatter delimiters')
  o={}
- for line in parts[1].splitlines():
-  m=re.match(r'^([A-Za-z][A-Za-z0-9_]*)\s*:\s*(.*)$',line)
-  if not m:continue
-  k,v=m.groups(); o[k]=re.findall(r'"([^"\\]*(?:\\.[^"\\]*)*)"',v) if v.strip().startswith('[') and v.strip().endswith(']') else scalar(v)
+ for line_number,line in enumerate(parts[1].splitlines(),1):
+  if not line.strip(): continue
+  m=re.match(r'^([A-Za-z][A-Za-z0-9_]*)\\s*:\\s*(.*)$',line)
+  if not m: raise ValueError(f'invalid frontmatter line {line_number}: {line!r}')
+  k,v=m.groups()
+  if v.strip().startswith('[') and v.strip().endswith(']'):
+   matches=re.findall(r'"([^"\\]*(?:\\.[^"\\]*)*)"',v)
+   if not matches and v.strip()!='[]': raise ValueError(f'invalid frontmatter list for {k}: {v!r}')
+   o[k]=matches
+  else:
+   o[k]=scalar(v)
  return o
 def classify(d):
  c=str(d.get('class','')).casefold(); e=str(d.get('element','')).casefold().replace('_',' ').replace('-',' ')
@@ -127,8 +140,9 @@ def load_local_batches(m,protected=None,blocked=None):
    r=dict(r); r['research_batch']=payload.get('batch_id'); r.setdefault('research_status',payload.get('research_status','partially_enriched')); imported+=1; merge_record(m,r,protected,blocked)
  return imported
 def build_record(d,p):
- n=d.get('name');
- if not n:return None
+ n=d.get('name')
+ if not isinstance(n,str) or not n.strip():
+  raise ValueError('frontmatter record requires a non-empty name')
  c,s=classify(d); src=f'https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{p.name}'; r={'name':n,'class':c,'subcategory':s,'verification_status':'partially_verified','research_status':'partially_enriched','sources':[src]}
  if isinstance(d.get('sources'),list):r['sources'] += normalize_sources(d.get('sources',[]))
  if d.get('kiCost') is not None:r['ki_cost']=d['kiCost']
