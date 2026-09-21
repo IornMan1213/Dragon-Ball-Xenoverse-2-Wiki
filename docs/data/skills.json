@@ -354,7 +354,7 @@
       "stamina_cost": null,
       "damage_type": "Awoken",
       "unlock_method": "Complete Parallel Quest 8, 'Invade Earth', with an Ultimate Finish.",
-      "source_quest_or_shop": "Parallel Quest reward route",
+      "source_quest_or_shop": "Parallel Quest 8 — \"Invade Earth\"",
       "ultimate_finish_required": true,
       "skill_description": "Universal CaC Awoken Skill with Kaioken, Kaioken x3, and Kaioken x20 stages.",
       "mechanics_notes": "Stages: 100 Ki (+2.5% Strike/Blast; 3.5 Stamina/sec), 300 Ki (+7.5%; -10% Strike Defense/+10% Blast Defense; 7.5 Stamina/sec; reduced Z-Vanish cost), 500 Ki (+15%; -30% both defenses; 33 Stamina/sec; Z-Vanish costs 0). Drain accelerates at higher stages. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Kaioken is explicitly obtained from the PQ8 Ultimate Finish.",
@@ -4374,7 +4374,7 @@
       "character_source": "Recoome",
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock",
       "dlc_requirement": "Base Game",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "skill_shop",
       "notes": "2026-09-20 source-quality refinement: the acquisition route is tied to the story mission \"The Ginyu Force Strikes\" and the subsequent Skill Shop listing; no Ultimate Finish-only condition is inferred."
     },
     {
@@ -4484,7 +4484,7 @@
       "duration_seconds": 20,
       "unlock_method": "Parallel Quest 122 — Basic Reward",
       "source_quest": 122,
-      "source_quest_or_shop": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 122 — \"The Final Battle Before the Final Battle?!\"",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
