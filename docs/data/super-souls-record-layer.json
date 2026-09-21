@@ -1661,6 +1661,237 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/zudodoeyaahh.md",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
+    },
+    {
+      "id": "super-soul-064",
+      "name": "You can't win...",
+      "character_source": "Gohan (Adult)",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 107 — The Future's Greatest Hope!",
+      "first_clear_or_repeat": "Ultimate Finish/first-clear bonus slot; 50% roll",
+      "shop_rotation": null,
+      "trigger_condition": "Once only when using Potential Unleashed",
+      "effect_text": "Temporarily boosts all attacks and stamina recovery speed.",
+      "effect_magnitude": "L all attacks; M stamina recovery speed",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-cant-win.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-107"
+      ]
+    },
+    {
+      "id": "super-soul-065",
+      "name": "Thanks, Dende!",
+      "character_source": "Gohan (Adult)",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Item Shop",
+      "acquisition_source": "Item Shop after completing the Decisive Battle with Majin Buu story saga",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "When resurrected",
+      "effect_text": "Boosts health restored.",
+      "effect_magnitude": "L",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/thanks-dende.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-066",
+      "name": "Flying Nimbus!!",
+      "character_source": "Goku",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 2 — A Deal?! The Saiyan Brothers",
+      "first_clear_or_repeat": "Ultimate Finish; 50% roll",
+      "shop_rotation": null,
+      "trigger_condition": "When using Power Pole Pro",
+      "effect_text": "Boosts all attacks.",
+      "effect_magnitude": "XL",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/flying-nimbus.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-002"
+      ]
+    },
+    {
+      "id": "super-soul-067",
+      "name": "Here it comes!",
+      "character_source": "Rozie",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 133 — Ribrianne's Beauty Lesson",
+      "first_clear_or_repeat": "First-clear bonus slot; 50% roll",
+      "shop_rotation": null,
+      "trigger_condition": "When a charged Ki Blast hits",
+      "effect_text": "Boosts normal attacks and normal Ki Blasts; stacks up to 3 times.",
+      "effect_magnitude": "M to each; max 3 stacks",
+      "duration": null,
+      "stacking_behavior": "Up to three stacks",
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/here-it-comes.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-133"
+      ]
+    },
+    {
+      "id": "super-soul-068",
+      "name": "Now we're even.",
+      "character_source": "Frieza (Final Form)",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 118 — Beerus's Tournament Troubles",
+      "first_clear_or_repeat": "50% drop",
+      "shop_rotation": null,
+      "trigger_condition": "Always; once only when an ally revives",
+      "effect_text": "Shortens revive time; once restores 50% of all allies' and your Ki.",
+      "effect_magnitude": "XL revive-time reduction; one-time 50% Ki restoration",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/now-were-even.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-118"
+      ]
+    },
+    {
+      "id": "super-soul-069",
+      "name": "Just win, okay?",
+      "character_source": "Eis Shenron",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "TP Medal Shop",
+      "acquisition_source": "TP Medal Shop — Limited-Time rotation",
+      "first_clear_or_repeat": null,
+      "shop_rotation": "Limited-Time rotation",
+      "trigger_condition": "Always; when an opponent is KO'ed",
+      "effect_text": "Boosts Ki restored; restores Health when an opponent is KO'ed.",
+      "effect_magnitude": "M Ki restored; S Health",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/just-win-okay.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-070",
+      "name": "As if I'd lose!",
+      "character_source": "Frieza (Final Form)",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Mix Shop",
+      "acquisition_source": "Mix Shop — specific material combination",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "Always; when health is below 25%",
+      "effect_text": "Boosts movement speed; boosts Ki Blast-based skills.",
+      "effect_magnitude": "M movement speed; XL Ki Blast-based skills",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/as-if-id-lose.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-071",
+      "name": "Buu Don't Wanna!",
+      "character_source": "Super Buu",
+      "dlc_requirement": "None identified",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 105",
+      "first_clear_or_repeat": "First-clear bonus slot; 50% roll",
+      "shop_rotation": null,
+      "trigger_condition": "When health is below 25%",
+      "effect_text": "Boosts Stamina recovery speed.",
+      "effect_magnitude": "L",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": null,
+      "limit_burst_trigger": null,
+      "limit_burst_effect": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Community-measured percentages/durations are not promoted to exact canonical values.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/buu-dont-wanna.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ],
+      "source_parallel_quests": [
+        "pq-105"
+      ]
     }
   ],
   "research_notes": [
