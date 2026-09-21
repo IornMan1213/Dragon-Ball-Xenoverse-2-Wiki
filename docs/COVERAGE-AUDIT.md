@@ -4112,3 +4112,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No canonical data was regenerated in this pass; the change prevents future rebuilds from silently collapsing the dedicated PQ classification.
 - Builder commit: `2e151ce3003d7c1fbea0ee21db6fa8e6482fe6a8`.
 - Exact next task: continue auditing every skill-data producer/validator for duplicated acquisition rules and verify the complete validation path.
+
+
+## 2026-09-21 — skill-builder PQ classification precedence fix
+- Re-audited the acquisition taxonomy after the validator provenance fix.
+- Found a remaining producer bug in `scripts/build_skills_from_research.py`: the `source_quest` branch could return `quest_or_mission` before the later PQ-number test, making the dedicated `parallel_quest` classification unreachable for records with a non-empty `source_quest` value containing a PQ reference.
+- This was inconsistent with the documented taxonomy and with the validator/schema support for `parallel_quest`.
+- Fixed the classification order so an explicit numbered Parallel Quest reference is recognized before the generic `source_quest` fallback, while preserving the existing TP Medal/skill-shop precedence and mixed-route safeguards.
+- No canonical skill records were regenerated or changed by this code-only correction.
+- Builder commit: `0c81d620572f8092b27223a44d785343a62d00ba`.
+- Live canonical race census at inspection: **283 total / 270 CaC-usable / 3 CaC-usable with null `race_restriction`** — `Blaster Stream`, `Chaotic Time Impact`, and `Circle Flash`. This supersedes stale historical counts of 182 in earlier handoff entries.
+- Current Future Warrior evidence lists all three as usable techniques but does not provide an explicit all-race or race-specific statement for these exact records; no race classifications were inferred. citeturn0search0turn1search2
+- Exact next task: verify the builder/validator acquisition path together, then continue the final three-record null-race evidence sweep with exact-name current-version sources.
