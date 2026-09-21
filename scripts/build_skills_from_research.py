@@ -222,6 +222,6 @@ def main():
  targets=dict(TARGET_COUNTS); targets['Transformations']=15
  payload={'schema_version':existing.get('schema_version',CATALOG_SCHEMA_VERSION),'game':existing.get('game',CATALOG_GAME),'source_index':existing.get('source_index',CATALOG_SOURCE_INDEX),'generated':date.today().isoformat(),'status':existing.get('status',DEFAULT_CATALOG_STATUS),'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':rows,'notes':existing.get('notes',DEFAULT_CATALOG_NOTES)}
  OUT.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
- INDEX.write_text(json.dumps({'schema_version':'1.2','source_index':payload['source_index'],'generated':payload['generated'],'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':[{k:r[k] for k in INDEX_PROJECTION_FIELDS if k in r} for r in rows]},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+ INDEX.write_text(json.dumps({'schema_version':payload['schema_version'],'source_index':payload['source_index'],'generated':payload['generated'],'category_counts':counts,'target_category_counts':targets,'record_count':len(rows),'records':[{k:r[k] for k in INDEX_PROJECTION_FIELDS if k in r} for r in rows]},indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
  print(f'Imported {imported}; total records={len(rows)}; Awoken parent records={awoken}')
 if __name__=='__main__':raise SystemExit(main())
