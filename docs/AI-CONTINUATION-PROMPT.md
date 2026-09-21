@@ -4796,3 +4796,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no workflow status was exposed for this cycle; no CI success is claimed.
 - Commits: `5a1befb`, `d22c121`, `92ab530`, plus coverage refresh pending this entry.
 - Exact next batch: **Majin Buu, Hercule, Gohan (Adult) and Videl, and Gotenks**; expand/reuse canonical skills for those 16 lesson endpoints, then validate bidirectional links and skill/index parity.
+
+
+### 2026-09-21 cycle update — Buu/Hercule/Gohan-Videl/Gotenks expansion
+- Live census before editing: **343 canonical skills / 343 index records / 33 mentors / 129 lesson entries / 54 linked mentor edges**.
+- Bounded batch: **16 lesson endpoints across Majin Buu, Hercule, Gohan (Adult) and Videl, and Gotenks**.
+- Research/evidence: current mentor documentation and independent mentor guides corroborate the exact reward identities and classifications: Majin Buu (Innocence Bullet, Angry Hit, Innocence Cannon, Innocence Breath), Hercule (Dynamite Kick, Present For You, Rolling Hercule Punch, The Savior Has Come), Gohan/Videl (Eagle Kick, Justice Rush, Hawk Charge, Justice Combination), and Gotenks (Super Ghost Kamikaze Attack, Galactic Donuts, DIE DIE Missile Barrage, Super Ghost Kamikaze Attack Ultimate). citeturn1search1turn1search6turn1search13
+- Changes: **16 new canonical skills** added to `skills.json`, mirrored to `skills-index.json`, and all 16 mentor lesson endpoints linked in `mentors-record-layer.json`; coverage report refreshed.
+- Evidence limits preserved: acquisition/classification is documented; detailed damage, costs, drop rates, and mechanics remain deferred rather than inferred.
+- Validation: **359 skills / 359 index records / 70 linked mentor edges / 59 unresolved endpoints**; **0 broken mentor→skill endpoints, 0 missing index records, 0 reverse mentor-source mismatches**, and category counts sum to 359.
+- CI: no workflow status was exposed for this cycle; no CI success is claimed.
+- Commits: `a66aeaf`, `33507f6`, `d9dd5a4`, coverage refresh below.
+- Exact next batch: **Android 18, Cell (Perfect), Lord Slug, and the next unresolved mentor group after those three**; reuse existing canonical skills where present and add only missing skill records, preserving bidirectional links.
