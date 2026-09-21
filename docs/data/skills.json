@@ -11934,7 +11934,8 @@
       "id": "skill-eye-beam",
       "source_mentor": [
         "mentor-android-16"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Rocket Tackle",
@@ -11961,7 +11962,8 @@
       "id": "skill-rocket-tackle",
       "source_mentor": [
         "mentor-android-16"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Android Rush",
@@ -11988,7 +11990,8 @@
       "id": "skill-android-rush",
       "source_mentor": [
         "mentor-android-16"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Hell Flash",
@@ -12015,7 +12018,8 @@
       "id": "skill-hell-flash",
       "source_mentor": [
         "mentor-android-16"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Sonic Rush",
