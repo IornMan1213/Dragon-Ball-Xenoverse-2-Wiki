@@ -12,6 +12,9 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCHEMA=ROOT/'docs/data/skills.schema.json'
 
 def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
+def expected_skill_id(r):
+ slug=re.sub(r'[^a-z0-9]+','-',str(r.get('name','')).casefold()).strip('-')
+ return f'skill-{slug}'
 def valid_skill_id(value): return isinstance(value,str) and bool(re.fullmatch(r'skill-[a-z0-9]+(?:-[a-z0-9]+)*',value))
 
 def main():
@@ -64,6 +67,7 @@ def main():
  elif targets!=expected_targets:errors.append('skills.json target_category_counts drift from builder target metadata')
  for r in rs:
   if not valid_skill_id(r.get('id')):errors.append(f"{r.get('name')}: invalid or missing deterministic skill id {r.get('id')!r}")
+  if r.get('id') != expected_skill_id(r): errors.append(f"{r.get('name')}: skill id does not match deterministic name slug: {r.get('id')!r}")
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
 
