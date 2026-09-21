@@ -177,8 +177,9 @@
       "pq_record_id": "pqacc-024",
       "name": "Android 15's Sunglasses",
       "pq": null,
-      "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "canonical_id": "accr-105",
+      "match_status": "matched",
+      "note": "Canonical inventory identity is Android 15's Shades & Hat; research label 'Sunglasses' is treated as a component alias. Acquisition is TP Medal Shop, not a PQ reward."
     },
     {
       "pq_record_id": "pqacc-025",
@@ -212,8 +213,9 @@
       "pq_record_id": "pqacc-029",
       "name": "Android 17 (DB Super)'s Ranger Accessory",
       "pq": 152,
-      "canonical_id": null,
-      "match_status": "unresolved_component_identity"
+      "canonical_id": "accr-029",
+      "match_status": "matched_component_alias",
+      "note": "PQ152 reward evidence identifies the canonical inventory item as Android 17 (DB Super) Wig; Ranger Accessory is retained as a component/research alias rather than a duplicate item."
     },
     {
       "pq_record_id": "pqacc-030",
@@ -330,9 +332,9 @@
   ],
   "summary": {
     "pq_records": 45,
-    "matched": 41,
-    "unmatched_or_unresolved": 4,
-    "note": "Matched records establish canonical identity only. They do not promote unsupported reward conditions or drop rates."
+    "matched": 43,
+    "unmatched_or_unresolved": 2,
+    "note": "Matched records establish canonical identity only. Component aliases are not promoted to duplicate inventory items."
   },
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
