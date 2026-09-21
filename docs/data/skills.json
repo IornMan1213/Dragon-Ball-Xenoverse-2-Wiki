@@ -7,13 +7,13 @@
   "notes": "Indexed records establish category membership. Mechanics, costs and unlock methods must be verified before promotion to verified status.",
   "category_counts": {
     "Ki Blast Evasives": 11,
-    "Other Supers": 32,
+    "Other Supers": 36,
     "Strike Evasives": 8,
-    "Ki Blast Ultimates": 55,
-    "Ki Blast Supers": 93,
+    "Ki Blast Ultimates": 60,
+    "Ki Blast Supers": 104,
     "Transformations": 15,
-    "Strike Supers": 75,
-    "Strike Ultimates": 15,
+    "Strike Supers": 86,
+    "Strike Ultimates": 16,
     "Power Up Supers": 12,
     "Power Up Evasives": 2,
     "Other Evasives": 3,
@@ -10351,9 +10351,441 @@
       "source_mentor": [
         "mentor-cooler"
       ]
+    },
+    {
+      "name": "Innocence Bullet",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Innocence Bullet as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Majin Buu mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Majin Buu mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-innocence-bullet",
+      "source_mentor": [
+        "mentor-majin-buu"
+      ]
+    },
+    {
+      "name": "Angry Hit",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Angry Hit as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Majin Buu mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Majin Buu mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-angry-hit",
+      "source_mentor": [
+        "mentor-majin-buu"
+      ]
+    },
+    {
+      "name": "Innocence Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Innocence Cannon as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Majin Buu mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Majin Buu mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-innocence-cannon",
+      "source_mentor": [
+        "mentor-majin-buu"
+      ]
+    },
+    {
+      "name": "Innocence Breath",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Majin Buu's mentor training — complete the corresponding lesson to receive Innocence Breath as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Majin Buu mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Majin Buu mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-innocence-breath",
+      "source_mentor": [
+        "mentor-majin-buu"
+      ]
+    },
+    {
+      "name": "Dynamite Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Hercule's mentor training — complete the corresponding lesson to receive Dynamite Kick as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Hercule mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Hercule mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-dynamite-kick",
+      "source_mentor": [
+        "mentor-hercule"
+      ]
+    },
+    {
+      "name": "Present For You",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Hercule's mentor training — complete the corresponding lesson to receive Present For You as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Hercule mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Hercule mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-present-for-you",
+      "source_mentor": [
+        "mentor-hercule"
+      ]
+    },
+    {
+      "name": "Rolling Hercule Punch",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Hercule's mentor training — complete the corresponding lesson to receive Rolling Hercule Punch as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Hercule mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Hercule mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-rolling-hercule-punch",
+      "source_mentor": [
+        "mentor-hercule"
+      ]
+    },
+    {
+      "name": "The Savior Has Come",
+      "class": "Ultimate",
+      "subcategory": "Other",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Hercule's mentor training — complete the corresponding lesson to receive The Savior Has Come as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Hercule mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Hercule mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-the-savior-has-come",
+      "source_mentor": [
+        "mentor-hercule"
+      ]
+    },
+    {
+      "name": "Eagle Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Gohan (Adult) and Videl's mentor training — complete the corresponding lesson to receive Eagle Kick as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gohan (Adult) and Videl mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-eagle-kick",
+      "source_mentor": [
+        "mentor-gohan-videl"
+      ]
+    },
+    {
+      "name": "Justice Rush",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Gohan (Adult) and Videl's mentor training — complete the corresponding lesson to receive Justice Rush as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gohan (Adult) and Videl mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-justice-rush",
+      "source_mentor": [
+        "mentor-gohan-videl"
+      ]
+    },
+    {
+      "name": "Hawk Charge",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Gohan (Adult) and Videl's mentor training — complete the corresponding lesson to receive Hawk Charge as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gohan (Adult) and Videl mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-hawk-charge",
+      "source_mentor": [
+        "mentor-gohan-videl"
+      ]
+    },
+    {
+      "name": "Justice Combination",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Gohan (Adult) and Videl's mentor training — complete the corresponding lesson to receive Justice Combination as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gohan (Adult) and Videl mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-justice-combination",
+      "source_mentor": [
+        "mentor-gohan-videl"
+      ]
+    },
+    {
+      "name": "Super Ghost Kamikaze Attack",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive Super Ghost Kamikaze Attack as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gotenks mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gotenks mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-super-ghost-kamikaze-attack",
+      "source_mentor": [
+        "mentor-gotenks"
+      ]
+    },
+    {
+      "name": "Galactic Donuts",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive Galactic Donuts as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gotenks mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gotenks mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-galactic-donuts",
+      "source_mentor": [
+        "mentor-gotenks"
+      ]
+    },
+    {
+      "name": "DIE DIE Missile Barrage",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive DIE DIE Missile Barrage as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gotenks mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gotenks mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-die-die-missile-barrage",
+      "source_mentor": [
+        "mentor-gotenks"
+      ]
+    },
+    {
+      "name": "Super Ghost Kamikaze Attack",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Gotenks's mentor training — complete the corresponding lesson to receive Super Ghost Kamikaze Attack as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Gotenks mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Gotenks mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-super-ghost-kamikaze-attack",
+      "source_mentor": [
+        "mentor-gotenks"
+      ]
     }
   ],
-  "record_count": 343,
+  "record_count": 359,
   "skill_id_policy": {
     "format": "skill-{slug}",
     "slug_source": "name",
