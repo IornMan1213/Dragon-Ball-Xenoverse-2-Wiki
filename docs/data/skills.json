@@ -12358,7 +12358,8 @@
       "id": "skill-evil-rise-strike",
       "source_mentor": [
         "mentor-gohan-kid"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Explosive Assault",
@@ -12385,7 +12386,8 @@
       "id": "skill-explosive-assault",
       "source_mentor": [
         "mentor-gohan-kid"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Finish Breaker",
@@ -12412,7 +12414,8 @@
       "id": "skill-finish-breaker",
       "source_mentor": [
         "mentor-vegeta"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Flash Strike",
