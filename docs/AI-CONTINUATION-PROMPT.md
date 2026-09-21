@@ -6381,3 +6381,12 @@ The repository owner has clarified the continuation contract:
 - Exact next batch: recompute the live two-source census and inspect the next deterministic low-source cluster, prioritizing concrete PQ/reward cross-field consistency.
 - Canonical commit: 940f4fe100df4f56dcfee71c3503222a589dad97.
 - Index/coverage/TODO/changelog commits are recorded by their resulting GitHub updates.
+
+### 2026-09-21 continuation — PQ147 Legendary Pack 2 provenance strengthening
+- Live pre-write census: 452 canonical / 452 index; 75 records had exactly two sources.
+- Bounded cluster: Crush Cannon, Double Crush, Crush Stream.
+- Independent PQ147 reward documentation lists all three as Basic Rewards of PQ147 — “Caulifla's Saiyan Search”; official Bandai Namco DLC documentation independently establishes the Legendary Pack 2 package scope. citeturn0search1turn0search3
+- Added the official DLC source to each canonical record and synchronized the index. No acquisition, reward-tier, Ultimate Finish, cost, restriction, or mechanics semantics were changed.
+- Evidence boundary: the official source confirms package-level Legendary Pack 2 provenance, not individual drop slots or probabilities; direct PQ reward evidence remains controlling.
+- Exact next batch: continue the remaining two-source acquisition cluster, prioritizing records with directly checkable PQ/reward evidence and cross-field contradictions.
+- Canonical commit: `6e54ef109816f3e508bc20c4959116db49ae55d0`.
