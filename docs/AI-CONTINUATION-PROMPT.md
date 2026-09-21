@@ -4069,3 +4069,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - No additional schema/validator duplication was identified that could be safely centralized without encoding provenance/business interpretation.
 - No canonical skill records or generated index data changed in this cycle.
 - Next task: inspect the schema/validator boundary for source URL and metadata structure, then verify the current generated index/build contract and repository status before making any further changes.
+
+
+## 2026-09-21 continuation — source/metadata and build-contract audit
+- Audited source URL and metadata structure against the JSON Schema and validator.
+- `sources` already has schema-owned URI typing and `minItems: 1`; the validator's only extra source check targets a repository-specific malformed-string artifact (`543This` / trailing `This`). Audited all 283 canonical records and found no such malformed sources, so no schema or data change was warranted.
+- Numeric metadata constraints (`level_requirement`, `ki_cost`, `stamina_cost`, `duration_seconds`) and date typing for `last_verified` are already schema-owned; no redundant validator checks were found.
+- Reconfirmed the generated index projection is synchronized on the complete 15-field contract shared by builder and validator, with the checked-in index exposing the same field set.
+- Checked GitHub workflow runs and combined status for the current handoff commit: no workflow runs and no status entries were exposed, so CI success is not claimed.
+- No canonical records, generated index data, or scripts changed in this cycle.
+- Next task: inspect the repository's research/build scripts and handoff for any remaining duplicated schema contracts or stale assumptions, then make only evidence-backed maintenance changes.
