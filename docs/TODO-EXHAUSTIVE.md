@@ -1429,3 +1429,9 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Synchronized docs/data/skills-index.json to the canonical 429-record count and changed records.
 - [x] Validation: **429 canonical / 429 index / 0 duplicate IDs / 15 Chapter 1 skill records**.
 - [ ] Next task: recompute the live DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness mismatch.
+
+### 2026-09-21 — Master ledger correction: Pretty Charge index parity
+- [x] Validation found the skills index still had 428 records after the Chapter 1 correction because the previously added canonical Pretty Charge endpoint had not been projected.
+- [x] Added the existing Pretty Charge canonical record to docs/data/skills-index.json and synchronized index record_count to 429.
+- [x] Final parity: **429 canonical / 429 index / 0 duplicate IDs**.
+- [ ] Next task: recompute the live DLC-label/source-relationship census and select the next deterministic character-only/DLC completeness mismatch.
