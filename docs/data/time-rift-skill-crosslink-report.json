@@ -173,6 +173,25 @@
     "skills_with_time_rift_links": 6,
     "forward_skill_edges": 11,
     "story_missions": 2,
-    "story_skill_edges": 2
-  }
+    "story_skill_edges": 2,
+    "parallel_quests": 2,
+    "parallel_quest_skill_edges": 3
+  },
+  "parallel_quest_links": [
+    {
+      "parallel_quest_id": "pq-185",
+      "parallel_quest_name": "A God's Amusement",
+      "skill_ids": [
+        "skill-dragon-spiral",
+        "skill-indomitable"
+      ]
+    },
+    {
+      "parallel_quest_id": "pq-186",
+      "parallel_quest_name": "Frieza's Right-Hand Man",
+      "skill_ids": [
+        "skill-venus-fist"
+      ]
+    }
+  ]
 }
