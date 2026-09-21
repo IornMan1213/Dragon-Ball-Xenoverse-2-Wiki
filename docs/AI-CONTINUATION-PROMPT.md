@@ -5706,3 +5706,19 @@ The repository owner has clarified the continuation contract:
 - Post-write validation: **428 records; 0 duplicate IDs; 12 nullable ki_cost records**.
 - Canonical commit: `6c77534d1f513e331e180a77aa9a3ad701f84997`.
 - Exact next task: recompute the live nullable census and continue with **Dimension Cannon**, using exact-skill evidence before changing its cost.
+
+
+### 2026-09-21 cycle update — bounded Ki-cost verification: Dimension Cannon / Orin Combo / Scatter Kamehameha
+- Workstream: P1 canonical skill Ki-cost verification.
+- Live census before editing: 428 canonical skills; 0 duplicate IDs; 12 nullable ki_cost records.
+- Bounded batch: Dimension Cannon, Orin Combo, Scatter Kamehameha.
+- Research/evidence: current Xenoverse 2 skill-reference evidence. Dimension Cannon is a Ki Blast Evasive with 300 Stamina, so its ki_cost remains null rather than receiving an invented Ki value. Orin Combo is explicitly 100 Ki. Scatter Kamehameha is explicitly 300 Ki.
+- Changes: docs/data/skills.json — Orin Combo ki_cost=100; Scatter Kamehameha ki_cost=300. Dimension Cannon retained ki_cost=null and stamina_cost=300 as the documented Evasive exception.
+- Evidence limits: no unsupported Ki cost was inferred for Dimension Cannon. Variable/range costs elsewhere were not touched.
+- Validation: canonical JSON parsed successfully; 428 records; 0 duplicate IDs; 10 nullable ki_cost records remain. Re-read targets: Dimension Cannon null Ki / 300 Stamina; Orin Combo 100 Ki; Scatter Kamehameha 300 Ki. No internal AI citation markup was introduced.
+- CI: latest observed Repository quality run before this cycle was run 35648883926 for commit 5de91f9f8bb0d165eb8a56e647dd3faacf3f4d7b; it failed in the “Check for internal artifacts” job with zero recorded steps. This remains an opaque pre-step/infrastructure/account signal; validators were not weakened. The new commits must be inspected by the next cycle for resulting runs.
+- Commits: d54f06ee79ceaf572cd720e08f03c5639abf4247 (canonical skill costs); 9bd09312481df075c090c0211a3bc1309e416e40 (TODO ledger completion entry).
+- Current live nullable Ki-cost queue: 10 records — Dimension Cannon, Time Skip/Tremor Pulse, Giant Storm, Angry Explosion, Dead End Rain, God of Destruction's Might, Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha.
+- Dimension Cannon is now an evidence-complete exception and should not be revisited unless new contradictory evidence appears.
+- Exact next task: **Time Skip/Tremor Pulse**. Recompute the live nullable census first, research its exact current Ki cost from direct skill evidence, update only the bounded record/required ledger state, validate, inspect Actions, and append the next handoff entry.
+- TODO synchronization: docs/TODO-EXHAUSTIVE.md now contains dated authoritative completion markings for Dimension Cannon, Orin Combo, and Scatter Kamehameha while preserving all earlier historical checklist entries unchanged.
