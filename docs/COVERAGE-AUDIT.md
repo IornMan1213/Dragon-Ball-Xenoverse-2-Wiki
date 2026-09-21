@@ -4104,3 +4104,11 @@ The underlying skill acquisition routes were already present; this pass only rep
 - No canonical skill records or acquisition semantics changed.
 - Validator commit: `214ff9dc34b66dc044383bac75b36675ab6d92ca`.
 - Exact next task: inspect other duplicated acquisition/schema assumptions and run/verify the repository's validation path where supported.
+
+
+## 2026-09-20 — skill builder taxonomy synchronization
+- Found a third duplicated acquisition taxonomy: `scripts/build_skills_from_research.py` classified every record without numeric `source_quest` as `quest_or_mission`, shop, starting-move, character-only, or `other_nonquest`; it could not emit the dedicated `parallel_quest` type now used by `Final Pose`.
+- Updated the builder to recognize an explicit `Parallel Quest <number>` route as `parallel_quest` when it is not simultaneously a shop/TP-medal route.
+- No canonical data was regenerated in this pass; the change prevents future rebuilds from silently collapsing the dedicated PQ classification.
+- Builder commit: `2e151ce3003d7c1fbea0ee21db6fa8e6482fe6a8`.
+- Exact next task: continue auditing every skill-data producer/validator for duplicated acquisition rules and verify the complete validation path.
