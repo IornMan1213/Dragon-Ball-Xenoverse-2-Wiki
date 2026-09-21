@@ -868,3 +868,9 @@
 - Reconciled the canonical reward inventories for PQ18-PQ20 against the maintained research batch.
 - Added the documented basic rewards and skill rewards already present in repository research data, while preserving unresolved individual drop-slot/probability semantics.
 - Refreshed verification metadata and source provenance for the three records.
+
+## 2026-09-21 — PQ21-PQ30 reward reconciliation
+
+- Compared canonical PQ21-PQ30 rewards with research batch 03.
+- Repaired the one actionable cross-layer omission: PQ22 `Energy Shot` in the research batch's `skill_rewards`.
+- Preserved unresolved reward-slot/drop-probability semantics.
