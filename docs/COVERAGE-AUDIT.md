@@ -5294,3 +5294,12 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Independent PQ reward documentation corroborates both as PQ141 Basic Rewards; a contemporaneous walkthrough documents obtaining them. 
 - Canonical commit: `5d643879eebb9ecee27306719516e5945abd38ec`.
 - Next: continue low-source acquisition/provenance auditing.
+
+### 2026-09-21 — PQ149-150 Legendary Pack 2 provenance strengthening
+- Bounded two-source cluster: Comet Strike, Meteor Explosion, Impact Flare, Power Wall.
+- Existing acquisition semantics remain PQ149 / "Clash of the Clones" for Comet Strike and Meteor Explosion, and PQ150 / "Battle of the Mind" for Impact Flare and Power Wall.
+- Added official Bandai Namco DLC documentation as a third provenance source for each record; it independently confirms Legendary Pack 2 contains four Parallel Quests and ten additional moves. Existing dedicated-skill and maintained all-PQ reward sources remain the exact skill/PQ evidence.
+- No reward-tier, drop-rate, Ultimate Finish, cost, restriction, or acquisition field was changed.
+- Validation: 452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost; all four targets moved from 2 to 3 sources and canonical/index source+verification parity remains synchronized.
+- CI: no success is claimed unless GitHub exposes an actual workflow run/check.
+- Exact next batch: recompute the low-source census and continue with the next deterministic two-source acquisition cluster, prioritizing concrete PQ/reward evidence and cross-field contradictions.
