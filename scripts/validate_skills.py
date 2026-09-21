@@ -12,7 +12,7 @@ DATA=ROOT/'docs/data/skills.json'; INDEX=ROOT/'docs/data/skills-index.json'; SCH
 ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
 ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter','Transformation'}
 ALLOWED_RESEARCH={'indexed','partially_enriched','enriched','page_unavailable'}
-ALLOWED_ACQUISITION={'quest_or_mission','skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'}
+ALLOWED_ACQUISITION={'quest_or_mission','parallel_quest','skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'}
 CLASS_SUBCATEGORIES={'Super':{'Ki Blast','Strike','Other','Power Up'},'Ultimate':{'Ki Blast','Strike','Other','Power Up'},'Evasive':{'Ki Blast','Strike','Other','Power Up'},'Awoken':{'Race','Transformation'},'Counter':{'Counter'},'Mixed':{'Special'}}
 
 def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
