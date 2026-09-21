@@ -847,25 +847,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Sudden Storm",
-          "skill_id": null
+          "skill_id": "skill-sudden-storm"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Kill Driver",
-          "skill_id": null
+          "skill_id": "skill-kill-driver"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Fruit of the Tree of Might",
-          "skill_id": null
+          "skill_id": "skill-fruit-of-the-tree-of-might"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Meteor Burst",
-          "skill_id": null
+          "skill_id": "skill-meteor-burst"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-sudden-storm",
+        "skill-kill-driver",
+        "skill-fruit-of-the-tree-of-might",
+        "skill-meteor-burst"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -882,25 +887,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Blaster Shell",
-          "skill_id": null
+          "skill_id": "skill-blaster-shell"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Blaster Meteor",
-          "skill_id": null
+          "skill_id": "skill-blaster-meteor"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Gigantic Omega",
-          "skill_id": null
+          "skill_id": "skill-gigantic-omega"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Gigantic Meteor",
-          "skill_id": null
+          "skill_id": "skill-gigantic-meteor"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-blaster-shell",
+        "skill-blaster-meteor",
+        "skill-gigantic-omega",
+        "skill-gigantic-meteor"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -917,25 +927,30 @@
         {
           "lesson": "initiation",
           "skill_name": "God of Destruction's Anger",
-          "skill_id": null
+          "skill_id": "skill-god-of-destruction-s-anger"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "God of Destruction's Rampage",
-          "skill_id": null
+          "skill_id": "skill-god-of-destruction-s-rampage"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "God of Destruction's Wrath",
-          "skill_id": null
+          "skill_id": "skill-god-of-destruction-s-wrath"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Sphere of Destruction",
-          "skill_id": null
+          "skill_id": "skill-sphere-of-destruction"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-god-of-destruction-s-anger",
+        "skill-god-of-destruction-s-rampage",
+        "skill-god-of-destruction-s-wrath",
+        "skill-sphere-of-destruction"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -952,25 +967,30 @@
         {
           "lesson": "initiation",
           "skill_name": "Finishing Blow",
-          "skill_id": null
+          "skill_id": "skill-finishing-blow"
         },
         {
           "lesson": "lesson-1",
           "skill_name": "Prelude to Destruction",
-          "skill_id": null
+          "skill_id": "skill-prelude-to-destruction"
         },
         {
           "lesson": "lesson-2",
           "skill_name": "Strike of Revelation",
-          "skill_id": null
+          "skill_id": "skill-strike-of-revelation"
         },
         {
           "lesson": "lesson-3",
           "skill_name": "Symphonic Destruction",
-          "skill_id": null
+          "skill_id": "skill-symphonic-destruction"
         }
       ],
-      "skills": [],
+      "skills": [
+        "skill-finishing-blow",
+        "skill-prelude-to-destruction",
+        "skill-strike-of-revelation",
+        "skill-symphonic-destruction"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
