@@ -6398,3 +6398,11 @@ The repository owner has clarified the continuation contract:
 - Post-repair validation: **452 canonical / 452 index / 0 duplicate IDs / 0 canonical-index source+verification mismatches**; exactly **72** records remain at two sources.
 - Canonical commit: `6e54ef109816f3e508bc20c4959116db49ae55d0`; index parity repair: `718a060c8c49fdf915649413de369ca4bf22bf90`.
 - Exact next task: recompute the two-source census and continue the next deterministic acquisition/provenance cluster, while treating canonical→index parity as a required post-write invariant.
+
+### 2026-09-21 continuation — low-source PQ provenance strengthening
+- Live pre-write census: **452 canonical / 452 index / 72 two-source records**.
+- Bounded targets: **Candy Beam (Super)** (PQ113), **Crusher Ball** (PQ34), and **Destructive Fracture** (PQ145).
+- Added independent direct skill/PQ evidence for Candy Beam (Super) and Crusher Ball; added contemporaneous official Bandai Namco Legendary Pack 1 provenance for Destructive Fracture. The PQ reward evidence remains controlling for the exact individual skill relationships. citeturn3search0turn3search2turn1search2
+- No reward tier, drop probability, Ultimate Finish, acquisition, or mechanics semantics were changed.
+- Canonical commit: `8ce9d9570d3a4fafffad67d77453823a370d8158`.
+- Exact next task: recompute the two-source census, synchronize canonical/index parity if needed, and continue the next deterministic low-source acquisition cluster.
