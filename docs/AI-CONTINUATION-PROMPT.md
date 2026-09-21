@@ -5381,7 +5381,7 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 cycle update — mentor skill Ki-cost verification batch 3
 - Live canonical skill census before editing: **428 records; 96 nullable `ki_cost` records**.
 - Bounded batch: **Double Sunday, Saturday Crash, Shining Friday, Weekend** from Raditz mentor training.
-- Research/evidence: current Xenoverse 2 skill references explicitly document **100, 100, 100, and 300 Ki** respectively, and the repository already has their Raditz mentor provenance. cite refs recorded externally; repository source URLs retained in the canonical records.
+- Research/evidence: current Xenoverse 2 skill references explicitly document **100, 100, 100, and 300 Ki** respectively, and the repository already has their Raditz mentor provenance. Repository source URLs retained in the canonical records; current external references were used only to verify the explicit Ki Used values.
 - Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, or restriction semantics were inferred.
 - Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **92**. The index was not given a new Ki-cost projection because its established projection contract does not include that field. No internal AI/UI/search citation artifacts were introduced.
 - CI: no actionable workflow run was exposed for the canonical commit; **no CI success claimed**.
