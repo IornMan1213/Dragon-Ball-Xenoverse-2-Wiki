@@ -3767,3 +3767,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - The active workflow generates the catalog with that producer and validates it afterward; the canonical checked-in `skills.json` and `skills-index.json` were still `1.1`, creating metadata drift.
 - Updated both checked-in catalog artifacts from schema version `1.1` to `1.2`. No record content, counts, sources, acquisition classifications, or generated date were changed.
 - Next task: re-run/inspect the canonical validator and CI state for the metadata-only alignment, then continue evidence-backed catalog work.
+
+## 2026-09-21 continuation — post-alignment verification
+- Re-fetched the live canonical artifacts after schema alignment. `docs/data/skills.json` and `docs/data/skills-index.json` both now report `schema_version: 1.2`, `record_count: 283`, and `generated: 2026-09-20`.
+- The live validator remains present at SHA `cc8cefc78f7a05246bc176ceaf2747ad2abf94d0`; no validator changes were needed for the metadata-only alignment.
+- GitHub combined status and workflow-run queries for the catalog-alignment commit returned no statuses and no workflow runs. This is an absence of reported CI data, not evidence of success or failure.
+- Attempted to locate a separate `docs/data/skills-index.schema.json`; the path does not exist, so index validation remains part of the canonical validator rather than a separate schema file.
+- No further speculative data changes made. Next task: continue with the canonical validator's remaining cross-field/data checks and repository evidence rather than changing metadata again.
