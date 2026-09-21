@@ -5803,3 +5803,12 @@ The repository owner has clarified the continuation contract:
 - The earlier handoff entries that list Meteor Crash, Fighting Pose C, Psycho Escape, and Kaioken Kamehameha as unresolved Ki-cost work are retained as historical state.
 - The authoritative live state is now: **428 canonical skills; 0 duplicate IDs; 1 nullable `ki_cost` record, Dimension Cannon by design**.
 - Next cycle should not spend context re-researching those four costs. Move to acquisition/DLC-version provenance cleanup after a fresh live census.
+
+
+### 2026-09-21 cycle update — DLC provenance correction for God of Destruction's Might
+- Live census before editing: **428 canonical skills**. Acquisition fields were populated across the catalog, but a targeted consistency check found one high-confidence DLC mismatch: **God of Destruction's Might** was marked Base Game while its source PQ176 belongs to Future Saga Chapter 2.
+- Evidence: the current skill reference identifies PQ176 as the unlock quest; current DLC documentation lists PQ175–178 under **DLC 17 / FUTURE SAGA: Chapter 2**. The maintained Steam PQ guide independently labels PQ176 as Future Saga Chapter 2 and lists God of Destruction's Might as a basic reward. citeturn1search0turn1search2turn1search4
+- Changes: `docs/data/skills.json` and `docs/data/skills-index.json` — `dlc_requirement` corrected from `Base Game` to `Future Saga Chapter 2`; `last_verified` and a provenance correction note updated.
+- Evidence limits: no acquisition route, Ki cost, mechanics, or restriction fields were changed because they were already supported.
+- Commits: `c58185848b12f01687b38282640f03c498247334` (canonical); `35a45e9088084c952b683fd2518ead97239cc390` (index).
+- Exact next task: recompute the live DLC mismatch census, validate canonical/index parity and artifact cleanliness, inspect Actions, then take the next bounded high-confidence provenance correction.
