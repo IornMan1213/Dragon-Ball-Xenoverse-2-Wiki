@@ -1187,11 +1187,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Shot",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.",
       "source_parallel_quests": [
         143
       ]
@@ -2855,11 +2856,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Fission",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.",
       "source_parallel_quests": [
         146
       ]
@@ -2886,11 +2888,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Flare",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.",
       "source_parallel_quests": [
         145
       ]
@@ -7161,11 +7164,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Hyper_Tornado",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.",
       "source_parallel_quests": [
         143
       ]
