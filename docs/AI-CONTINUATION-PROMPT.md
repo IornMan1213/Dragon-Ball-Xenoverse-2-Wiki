@@ -5958,3 +5958,12 @@ The repository owner has clarified the continuation contract:
 - Web evidence reconfirmed that Free Update 11 explicitly lists Divine Kamehameha and Godly Display among its nine new skills. Individual technique documentation may separately associate Godly Display with Extra Pack 2 historically; this is why the repository's update/acquisition provenance and character/DLC context must not be conflated.
 - TODO ledger was updated append-only in commit `ff7d21eb8231e899b0e4e896526031944d93a2e3`.
 - Exact next task: move beyond explicit `Free Update*` labels to the next deterministic DLC provenance cluster, prioritizing a single authoritative package/source relationship and preserving unresolved/historical distinctions.
+
+
+### 2026-09-21 cycle update — Data Input provenance correction
+- Workstream: P1 skill DLC/version provenance cleanup.
+- Deterministic finding: `Data Input` was incorrectly labeled `Extra Pack 1`. Official Extra Pack 1 listings state **13 new skills**; the documented Extra Pack 1 skill roster contains those 13 but not Data Input. Contemporary evidence identifies Data Input as an Expert Mission 20 reward from the free update. citeturn0search0turn1search1turn2search0
+- Canonical change in `docs/data/skills.json`: `Data Input.dlc_requirement` → `Free Update 5`; refreshed `last_verified=2026-09-21`; appended bounded provenance note. Existing acquisition route (`Expert Mission 20`) and all mechanics/cost/restriction fields were preserved.
+- Important distinction: Android 13 has Data Input in its preset, but character association does not establish DLC acquisition provenance; the repository now separates the free-update skill acquisition from the Extra Pack 1 character.
+- Commits: `b6ce3fc487e275c8eefa503921`; `106add48d70278c8685bbabb59ba110811615492` (TODO ledger).
+- Validation/next: recompute the live DLC census, validate 428 records / 0 duplicate IDs / 0 nullable `ki_cost`, scan for internal citation artifacts, inspect workflow runs for the canonical commit, and continue with skills whose DLC label is based primarily on character association rather than direct package/acquisition evidence.
