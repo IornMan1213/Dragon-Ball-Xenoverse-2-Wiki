@@ -68,7 +68,8 @@
       "race_restriction": "Saiyan",
       "notes": "Saiyan CaC-only Awoken Skill. Current references identify it as the Saiyan transformation route; it is not a cast-exclusive form. 2026-09-20 provenance correction: current external walkthrough evidence places Future Super Saiyan in the Unknown History secret story route; the prior Capsule Corporation/Vegeta source wording conflicted with that evidence and was replaced rather than retained as current provenance.",
       "mechanics_notes": "300 Ki; +10% Strike/+5% Blast, no listed defense modifier, and improved Stamina recovery. The in-game Ki wording has historically been reported as a mistranslation.",
-      "source_quest": "Unknown History — secret story mission"
+      "source_quest": "Unknown History — secret story mission",
+      "source_quest_or_shop": "Unknown History — secret story mission"
     },
     {
       "name": "Power Pole Pro",
