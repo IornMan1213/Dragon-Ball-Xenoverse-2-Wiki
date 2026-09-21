@@ -6425,3 +6425,15 @@ The repository owner has clarified the continuation contract:
 - Canonical commit: `58db6f9ef7a83978c796b7d6fb640661282d10c1`; index commit: `0366bd3d6c467c30b77d6ff78289c57ba0acb999`.
 - Current validation at handoff preparation: **452 canonical / 452 index / 65 exactly-two-source records / parity=true**.
 - Next task: continue the deterministic two-source acquisition audit, beginning with the next PQ cluster after PQ171.
+
+### 2026-09-21 continuation — PQ172/PQ174 low-source provenance
+- Workstream: **P1 skill provenance/source integrity**.
+- Live pre-write census: **452 canonical skills / 452 index records / 65 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Wild Stinger (PQ172)** and **Final Rampage (PQ174)**, the next deterministic PQ acquisition records after the completed PQ171 provenance batch.
+- Research/evidence: the maintained Steam all-186-PQ guide identifies Wild Stinger in PQ172 — “Little Big Brother” and Final Rampage in PQ174 — “Hyper Special Training”; the repository's PQ research batch preserves explicit drop-condition evidence of **45% Ultimate Finish** for Wild Stinger and **60% Ultimate Finish** for Final Rampage. The official Dragon Ball site independently identifies Wild Stinger as a Future Saga Chapter 1 move for Vegeta (Super Saiyan God) Ultra Supervillain, and the maintained Parallel Quests reference was added to both records as a third provenance source. citeturn5view2turn5view3turn7search0
+- Changes: added `https://dbxv2.fandom.com/wiki/Parallel_Quests` to both canonical source arrays and synchronized the same source/verification metadata into `docs/data/skills-index.json`. No acquisition, reward-tier, Ultimate Finish, cost, restriction, mechanics, or DLC semantics were rewritten.
+- Evidence limits: the Steam guide's reward-list presentation is broader than the repository's explicit drop-condition classification; this contextual conflict was preserved rather than silently changing the canonical UF flags. Exact Ki-cost uncertainty remains untouched.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 63 exactly-two-source records remaining / 275 records at three or more sources**; canonical/index source+verification parity is clean; no internal AI/UI/search citation artifacts were introduced.
+- CI: no new actionable workflow result was exposed during this cycle; no CI success is claimed and validators were not weakened.
+- Commits: canonical `10c9c4f5868e4fbe9d093db7f21242ffff397b09`; index `a6a11d5c8b19bbbd210d61e76909b2aa7d81e420`; ledger `9fe8f4869e9d7ac7a7a55ae3db636cbc9ee749c7`.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic acquisition/provenance cluster after PQ174, checking reward-tier/source-PQ consistency before provenance-only strengthening.**
