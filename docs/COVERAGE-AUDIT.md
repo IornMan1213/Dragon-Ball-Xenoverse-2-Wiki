@@ -4893,3 +4893,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Final Android 18 mentor family values: **Power Blitz 100, Endless Shoot 100, Deadly Dance 100, Dual Destructo-Disc 300**. `Dead End Rain` is a separate non-mentor record and was not changed.
 - Skill completion commit: `9714e160171d71a35d66d3d92e25a29424194a01`.
 - The earlier audit/handoff entry remains as historical context; this correction is authoritative for the final census.
+
+### 2026-09-21 — Beerus mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 45 nullable `ki_cost` records**.
+- Bounded batch: **God of Destruction's Anger (200), God of Destruction's Rampage (100), God of Destruction's Wrath (100), Sphere of Destruction (300)** from God of Destruction Beerus mentor training.
+- Evidence: current Xenoverse 2 skill references explicitly document **200 Ki** for God of Destruction's Anger, **100 Ki** for God of Destruction's Rampage, **100 Ki** for God of Destruction's Wrath, and **300 Ki** for Sphere of Destruction. The current dedicated Anger page was preferred over an older Xenoverse 1-era reference that lists 100 Ki.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no mechanics, acquisition, restriction, or variable-cost semantics were inferred.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **41**. Targeted records were re-read after the write and contain the expected costs. No skill-index Ki-cost projection was introduced. The edited canonical data contains no internal AI/UI/search citation artifacts.
+- CI: commit `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3` exposed **no workflow runs** through the repository connector; **no CI success claimed**. Validators were not weakened.
+- Commit: `af4e6c1ee72c3f4eb7a930de0030df03ace7caa3`.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded evidence-backed family; prioritize explicit current `Ki Used` values and preserve variable-cost forms.**
