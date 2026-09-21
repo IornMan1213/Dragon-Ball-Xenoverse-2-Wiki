@@ -1186,3 +1186,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation: **428 records; 0 duplicate IDs; Sudden Death Beam now Super Pack 3; the former composite label has 0 records.**
 - [x] CI: Actions status must remain unclaimed unless an actual workflow run is exposed for commit `eefa06170c5d4c3f55f0a678d97977bf44292dfb`.
 - [ ] Next provenance batch: audit the remaining non-canonical/composite DLC labels (`Resurrection 'F' Pack / DLC Pack 3`, `Free Update 1.14-era distribution / TP Medal Shop`, and platform-dependent Masters Pack) without forcing a normalization where the label carries meaningful historical/platform context.
+
+
+### 2026-09-21 — Master ledger completion marking: Emperor's Death Beam DLC provenance
+- [x] **Emperor's Death Beam DLC provenance normalized.** Canonical `dlc_requirement` changed from `Resurrection 'F' Pack / DLC Pack 3` to **Resurrection 'F' Pack**, separating the originating DLC from the legacy alias.
+- [x] Evidence: current skill documentation identifies Emperor's Death Beam as a Resurrection 'F' DLC skill; the maintained DLC Pack 3 guide lists it among the Resurrection 'F' content and identifies its PQ drop route. citeturn1search2turn1search5
+- [x] Preserved the current TP Medal Shop acquisition route, 25 TP Medal price note, Ki-cost data, and all existing restrictions/mechanics; only DLC provenance and verification notes were changed.
+- [x] Post-write canonical validation: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record (Dimension Cannon by design)**; 0 duplicate IDs.
+- [x] The former `Resurrection 'F' Pack / DLC Pack 3` label now has **0 records**.
+- [ ] Next provenance batch: fresh census of remaining non-canonical/context-rich DLC labels, beginning with **Divine Kamehameha — Free Update 1.14-era distribution / TP Medal Shop**; preserve meaningful historical acquisition context unless originating DLC can be established independently.
