@@ -22,14 +22,21 @@ def classify_acquisition(d):
  if 'character-exclusive' in text or 'character exclusive' in text or 'character-only' in text or 'character only' in text or 'character skill' in text: return 'character_only'
  return 'other_nonquest'
 def normalize_sources(values):
+ if values is None:return []
+ if not isinstance(values,list):
+  raise ValueError('sources must be a list')
  out=[]
- for value in values or []:
+ for index,value in enumerate(values):
   if isinstance(value,str) and value:
    out.append(value)
   elif isinstance(value,dict):
    url=value.get('url')
    if isinstance(url,str) and url:
     out.append(url)
+   else:
+    raise ValueError(f'sources[{index}] object must contain a non-empty url')
+  else:
+   raise ValueError(f'sources[{index}] must be a non-empty string or object with url')
  return list(dict.fromkeys(out))
 def scalar(v):
  v=v.strip().strip('"\''); return int(v) if re.fullmatch(r'\d+',v) else v
