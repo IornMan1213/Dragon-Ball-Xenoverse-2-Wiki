@@ -4636,3 +4636,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI was not exposed for the direct commit; no CI success is claimed.
 - Commit: `f5b642db98845c682c91e446a56112d52c93247d` (skill data), `7355344eb3a51ec10a6eba9d00db04ac0ef35c0d` (coverage audit).
 - Exact next batch: populate the remaining deterministic mentor-derived skill links, then formalize/audit the relationship representation so PQ → skill → mentor/other source navigation remains machine-linkable rather than prose-only.
+
+
+### 2026-09-21 cycle update — complete deterministic mentor-to-skill links
+- Live census: **305 skills / 33 indexed mentors**.
+- Added 8 more canonical `source_mentor` links: Masenko, Perfect Shot, Rise to Action, Shadow Crusher, Spirit Bomb, and Hit's three Time Skip skills.
+- Total mentor-linked skills now: **16**.
+- Validation: every `source_mentor` value resolves to an existing `mentor-*` ID; **0** internal UI citation artifacts in canonical skills JSON.
+- Coverage audit updated; no unverified mentor mechanics or reward conditions were promoted.
+- CI was not exposed for the direct commit; no CI success is claimed.
+- Commit: `9b9cdfb0746bbe10db6ec64ac220ed4d5e406023` (skill data), `51f6481e0753fc6d9e6b9cd22fe4a7a2e61c6480` (coverage audit).
+- Exact next batch: audit Advancement Test and Time Rift/Future Saga acquisition routes for canonical IDs, preserving shop/story prerequisites separately from the actual acquisition endpoint.
