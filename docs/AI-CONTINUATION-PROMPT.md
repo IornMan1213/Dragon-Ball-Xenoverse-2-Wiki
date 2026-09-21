@@ -4546,3 +4546,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: not yet exposed for the final documentation commit; no CI success is claimed.
 - Commits: `890441d` canonical identities, `d77a023` bridge, `f0a3c07` cross-link report, `229ffd2` coverage audit, `104f89b` changelog.
 - Exact next batch: reconcile the remaining **8 unmatched research identities** in the accessory bridge — **Android 14's Hat (PQ104), Android 15's Sunglasses (PQ unresolved), Bardock (DB Super)'s Scouter (PQ146), Gine (DB Super)'s Accessory (PQ144), Kale's Accessory (PQ148), Caulifla's Accessory (PQ147), Android 17 (DB Super)'s Ranger Accessory (PQ152), and Yamcha's Sword (conflicted PQ29/PQ36 route)**. Keep the component-identity records separate until direct evidence establishes the canonical inventory item.
+
+
+### 2026-09-21 cycle update — PQ accessory identity reconciliation batch 3
+- Live census before editing: **100 canonical accessory identities; 45 PQ accessory research records; 37 matched PQ accessory endpoints; 8 unresolved research identities**.
+- Bounded batch: **Gine (DB Super)'s Accessory (PQ144), Caulifla's Accessory (PQ147), Kale's Accessory (PQ148)**.
+- Research/evidence: PQ reward guide explicitly lists **Gine (DB Super) Set**, **Caulifla Wig**, and **Kale Wig** for PQ144/PQ147/PQ148 respectively. Independent references identify Gine (DB Super) Set as an accessory and Caulifla/Kale Wigs as DLC accessories. cite markers were intentionally not copied into repository data.
+- Changes: added canonical IDs `accr-101` through `accr-103`; synchronized `docs/data/accessory-pq-canonical-bridge.json` and `docs/data/pq-accessory-crosslink-report.json`; updated coverage audit and changelog.
+- Evidence limits/conflicts preserved: **Android 14's Hat, Android 15's Sunglasses, Bardock (DB Super)'s Scouter, and Android 17 (DB Super)'s Ranger Accessory** were not forced into canonical identities because current evidence does not establish those exact distinct inventory labels. **Yamcha's Sword** remains a separate conflicted route. This is intentional uncertainty preservation, not an omission.
+- Validation: all three JSON layers re-fetched and parsed successfully. Live counts after editing: **103 canonical accessory identities / 40 matched PQ accessory endpoints / 5 unresolved research identities**.
+- CI: checked the final documentation commit; **no workflow runs were exposed**, so CI remains unavailable/not exposed and no success is claimed.
+- Commits: `fee2aee` canonical identities, `b72d3c0` bridge, `9694a76` cross-link report, `ca9fd8c` coverage audit, `fb9aaa9` changelog.
+- Exact next batch: investigate the remaining **5** unresolved bridge records — **Android 14's Hat (PQ104), Android 15's Sunglasses (PQ unresolved), Bardock (DB Super)'s Scouter (PQ146), Android 17 (DB Super)'s Ranger Accessory (PQ152), Yamcha's Sword (conflicted PQ29/PQ36)**. Prioritize exact inventory identity and source-route reconciliation; do not equate clothes/set/wig records with a component accessory without direct evidence.
