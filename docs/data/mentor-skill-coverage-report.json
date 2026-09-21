@@ -6,10 +6,10 @@
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
   "lesson_records_audited": 133,
-  "linked_skill_edges": 130,
-  "unresolved_skill_endpoints": 3,
-  "fully_linked_mentors": 31,
-  "partially_linked_mentors": 2,
+  "linked_skill_edges": 132,
+  "unresolved_skill_endpoints": 1,
+  "fully_linked_mentors": 32,
+  "partially_linked_mentors": 1,
   "records": [
     {
       "mentor_id": "mentor-krillin",
@@ -22,12 +22,11 @@
       ],
       "linked_skill_ids": [
         "skill-rise-to-action",
-        "skill-destructo-disc"
+        "skill-destructo-disc",
+        "skill-orin-combo",
+        "skill-scatter-kamehameha"
       ],
-      "unresolved_skill_names": [
-        "Orin Combo",
-        "Scatter Kamehameha"
-      ]
+      "unresolved_skill_names": []
     },
     {
       "mentor_id": "mentor-tien",
@@ -588,5 +587,5 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
     "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
   ],
-  "canonical_skill_records": 418
+  "canonical_skill_records": 420
 }
