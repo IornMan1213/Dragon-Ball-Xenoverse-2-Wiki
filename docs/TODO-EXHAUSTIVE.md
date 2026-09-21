@@ -1402,3 +1402,16 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Existing intentional character-only classifications were preserved; no DLC labels were reassigned in this pass.
 - [x] Canonical commit: `f0ece84b7f1168dc7dc0a919c58e5c1fea246556`.
 - [ ] Next task: continue the exhaustive character-only/DLC completeness audit for the remaining DLC clusters, starting with the next deterministic cluster and adding missing canonical endpoints only when independently supported.
+
+### 2026-09-21 — Hero of Justice Pack 2 character/DLC completeness audit
+- [x] Recomputed the live canonical skill census before editing: **429 records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- [x] Audited the deterministic Hero of Justice Pack 2 skill cluster against official DLC scope and current PQ/source relationships.
+- [x] Confirmed the official pack contains **7 skills**: Demon Flurry, Demon Ray, Demon Flash Strike, Special Beam Cannon (Beast), Fierce Fist, Demonic Destruction, and Apocalyptic Burst.
+- [x] Found and corrected a provenance mismatch on **Special Beam Cannon (Beast)**: `Future Saga Chapter 1` → `Hero of Justice Pack 2`.
+- [x] Preserved the existing PQ162 acquisition and **45% Ultimate Finish bonus-slot** data because the repository's maintained PQ audit explicitly records that condition; a Steam player-facing guide presents the same skill in its Basic Reward list, so the conflict remains documented rather than flattened.
+- [x] Refreshed `last_verified=2026-09-21` and added official DLC provenance sources to the affected canonical record.
+- [x] Corrected the stale top-level `record_count` metadata from 428 to the actual **429** records; category counts already summed to 429 and required no further change.
+- [x] Validation: **429 records / 0 duplicate IDs / 0 nullable `ki_cost` / 7 Hero of Justice Pack 2 records / 0 internal citation-token artifacts in the canonical records**.
+- [x] Canonical commit: `c6c5c7a0695044d293e6382f0d39e5d120f9fdb5`.
+- [ ] Next task: recompute the live DLC-label/source relationship census and continue the exhaustive character-only/DLC completeness audit with the next deterministic cluster, prioritizing official package scope versus canonical character/source endpoints and preserving reward-tier conflicts.
+
