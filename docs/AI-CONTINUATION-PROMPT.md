@@ -3404,3 +3404,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
 - Audit commit: **4ec408c28d1a51f7b7fc40ce8b8a7c88c0557c50**.
 - Exact next task: **continue source-quality auditing remaining generic shop records, prioritizing multi-route skills and historical shop references that may conceal a more precise current route.**
+
+
+### 2026-09-20 cycle update — multi-route shop source audit
+- Audited remaining multi-route/shop-sensitive records, especially **Sudden Death Beam** and **Divine Lasso**.
+- Confirmed existing multi-route wording is supported; historical Bandai Namco TP Medal Shop schedules were treated as historical evidence only, not current rotation guarantees.
+- Rechecked **Quick Sleep**: Skill Shop route is supported and its Majin-only restriction is already represented in the dataset.
+- Rechecked Bending Kamehameha, Big Bang Kamehameha, and Divine Kamehameha; no sufficiently authoritative new prerequisite was found.
+- No dataset changes were necessary.
+- Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, zero acquisition-critical mismatches.
+- Audit commit: **7c7aa66516884e522eef59d7b136ddc79e1bd2af**.
+- Exact next task: **continue source-quality auditing generic shop records, then move to remaining under-specified non-PQ records only when a concrete, independently supported acquisition condition exists.**
