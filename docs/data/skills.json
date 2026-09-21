@@ -5691,7 +5691,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Full_Power_Destruction",
-        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/81043121"
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/81043121",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/media/1104"
       ],
       "usable_by_cac": true,
       "character_source": "Jiren (Full Power) Ultra Supervillain; Jiren — Customize Partner",
@@ -5702,8 +5703,8 @@
       "ultimate_finish_required": true,
       "mechanics_notes": "Fires tracking Ki Blasts, then a follow-up blast and cinematic explosion if the opening sequence connects. 2026-09-20 verification: current PQ guide reward data is retained as source metadata, while the maintained drop-condition data documents the Ultimate Finish bonus route. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish bonus slot (50%) route; the recorded condition is preserved without inference beyond the maintained corpus.",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
-      "notes": "Dedicated current-version evidence confirms PQ177 acquisition, 500 Ki, Ki Blast Ultimate classification, and Jiren users. The reviewed page does not explicitly establish CaC race/gender/form scope. Keep race_restriction null rather than inferring from Jiren or partner customization.",
+      "last_verified": "2026-09-21",
+      "notes": "Dedicated current-version evidence confirms PQ177 acquisition, 500 Ki, Ki Blast Ultimate classification, and Jiren users. The reviewed page does not explicitly establish CaC race/gender/form scope. Keep race_restriction null rather than inferring from Jiren or partner customization. 2026-09-21 provenance strengthening: Bandai Namco's official FUTURE SAGA Chapter 2 DLC page confirms Chapter 2 contains four new Parallel Quests and seven additional moves; the existing PQ176/PQ177 acquisition records are retained without changing reward-tier semantics.",
       "race_restriction": "All CaC races",
       "source_quest": 177,
       "acquisition_type": "quest_or_mission",
@@ -6384,7 +6385,8 @@
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_of_Destruction%27s_Might",
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/media/1104"
       ],
       "unlock_method": "Parallel Quest 176 reward.",
       "ultimate_finish_required": false,
@@ -6397,7 +6399,7 @@
       "source_quest": 176,
       "dlc_requirement": "Future Saga Chapter 2",
       "acquisition_type": "parallel_quest",
-      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 DLC provenance correction: PQ176 is part of Future Saga Chapter 2; the prior Base Game value was inconsistent with the quest's DLC provenance.",
+      "notes": "Added during PQ cross-domain reconciliation because the canonical relationship layer referenced this skill but the canonical skill registry lacked the endpoint. 2026-09-21 DLC provenance correction: PQ176 is part of Future Saga Chapter 2; the prior Base Game value was inconsistent with the quest's DLC provenance. 2026-09-21 provenance strengthening: Bandai Namco's official FUTURE SAGA Chapter 2 DLC page confirms Chapter 2 contains four new Parallel Quests and seven additional moves; the existing PQ176/PQ177 acquisition records are retained without changing reward-tier semantics.",
       "id": "skill-god-of-destruction-s-might",
       "source_parallel_quests": [
         176
