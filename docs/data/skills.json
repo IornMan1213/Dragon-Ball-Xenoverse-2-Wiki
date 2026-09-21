@@ -11119,7 +11119,8 @@
       "id": "skill-sudden-storm",
       "source_mentor": [
         "mentor-turles"
-      ]
+      ],
+      "ki_cost": 200
     },
     {
       "name": "Kill Driver",
@@ -11146,7 +11147,8 @@
       "id": "skill-kill-driver",
       "source_mentor": [
         "mentor-turles"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Fruit of the Tree of Might",
@@ -11173,7 +11175,8 @@
       "id": "skill-fruit-of-the-tree-of-might",
       "source_mentor": [
         "mentor-turles"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Meteor Burst",
@@ -11200,7 +11203,8 @@
       "id": "skill-meteor-burst",
       "source_mentor": [
         "mentor-turles"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Blaster Shell",
