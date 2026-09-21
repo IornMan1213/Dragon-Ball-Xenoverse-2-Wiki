@@ -589,3 +589,12 @@
 - Rebuilt `docs/data/pq-super-soul-crosslink-report.json`: **29 forward / 29 reverse edges**.
 - Validation: **90 canonical Super Souls / 186 canonical PQs / 25 unique PQ endpoints / 29 unique Super Soul endpoints / 61 unresolved routes / 0 broken endpoints**. Changed JSON parsed successfully.
 - Evidence limits preserved: community measurements and source-text behavior disputes were not promoted to exact canonical values; raid/shop records without explicit PQ identity remain unresolved for PQ linkage.
+
+
+## 2026-09-21 — Super Soul 096–103 frontier correction
+
+- Reconciled the next Super Soul batch against the live Madreag source corpus before assigning IDs. The prior handoff candidate names were already represented by earlier canonical records, so no duplicates were created.
+- Added canonical Super Souls 096–103: It must be some kind of trick..., It all comes down to this!, I'll keep adding a bit of power to my attacks!, You're not much of a fun fight!, I think I'm getting the hang of this., I will put a stop to you, fiend!, There's more where that came from!, and Emoc htorf! Peas and Carrots!.
+- Synchronized PQ151, PQ152, and PQ153 with the five deterministic PQ-sourced records in this batch and rebuilt the bidirectional PQ↔Super Soul report.
+- Validation: 98 canonical Super Souls; 34 forward / 34 reverse PQ↔Super Soul edges; 28 unique PQ endpoints; 64 unresolved Super Soul routes; 0 broken endpoints; changed JSON parsed successfully.
+- Evidence limits preserved: raid/event records remain provenance-labeled; no unsupported recurrence schedule or drop percentage was promoted to canonical data.
