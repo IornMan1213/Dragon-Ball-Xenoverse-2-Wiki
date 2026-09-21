@@ -436,7 +436,7 @@
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
+      "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Burst Reflection as the second-result route of the repeatable “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward.",
       "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
       "source_quest": null
     },
@@ -571,11 +571,11 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Shenron wish \"I want a new Super Attack!\"",
+      "unlock_method": "First use of Shenron wish \"I want a new Super Attack!\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward.",
+      "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Flash Fist Crush as the first-result route of “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward.",
       "mechanics_notes": "Current dataset evidence identifies Flash Fist Crush as a 100-Ki Strike Super obtained from a Shenron wish and a universal counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
       "source_quest": null
     },
@@ -4049,11 +4049,11 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "TP Medal Shop / Namekian Future Warrior acquisition",
+      "unlock_method": "TP Medal Shop; documented listing price 30 TP Medals",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "Namekian",
-      "notes": "",
+      "notes": "2026-09-20 shop-provenance refinement: maintained TP Medal Shop references identify Namek Finger as a TP Medal Shop skill; the documented listing gives a 30 TP Medal price. Shop rotation/timing is not inferred from the historical listing.",
       "mechanics_notes": "100 Ki Strike Super with Namekian-themed finger-extension/grab behavior; documented as a Namekian CaC skill. 2026-09-20 verification: TP Medal Shop acquisition is independently documented; current/archived shop references consistently list Namek Finger as a TP Medal Shop Super."
     },
     {
@@ -4637,11 +4637,11 @@
         "https://dragonball.fandom.com/wiki/Emperor%27s_Death_Beam",
         "https://dragonball.fandom.com/wiki/Death_Beam"
       ],
-      "unlock_method": "TP Medal Shop",
+      "unlock_method": "TP Medal Shop; documented listing price 25 TP Medals",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms TP Medal Shop acquisition; the maintained historical shop listing records a 25 TP Medal price. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "Starts at 400 Ki and consumes additional available Ki while firing; the number of beams and total damage scale with the user's stored Ki. The documented skill page lists 400+ Ki used. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records."
     },
     {
@@ -4675,11 +4675,11 @@
         "https://dragonball.fandom.com/wiki/Final_God_Explosion",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "TP Medal Shop",
+      "unlock_method": "TP Medal Shop; documented listing price 200 TP Medals",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-20",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms TP Medal Shop acquisition and documents a 200 TP Medal purchase price. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "500 Ki Ki Blast Ultimate; user detonates a large area explosion around themselves, consuming health during the technique. 2026-09-20 verification: current canonical source set explicitly identifies the acquisition route as PQ173 Basic Reward / TP Medal Shop, respectively; no unresolved acquisition-condition conflict remains for these records."
     },
     {
@@ -5451,11 +5451,11 @@
         "https://dragonball.fandom.com/wiki/Divine_Lasso",
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
       ],
-      "unlock_method": "TP Medal Shop; STP Medal Shop; Double Crystal Raid Battle",
+      "unlock_method": "TP Medal Shop; also available through STP Medal Shop and Double Crystal Raid Battle",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-20 shop-provenance refinement: official Bandai Namco TP Medal Shop schedule explicitly lists Divine Lasso, while current repository evidence also records STP Medal Shop and Double Crystal Raid Battle routes. No quest or Ultimate Finish route is inferred.",
       "mechanics_notes": "300 Ki Ultimate. TP Medal Shop/STP Medal Shop availability is rotation-dependent; the official 2017 update explicitly scheduled Divine Lasso in the TP Medal Shop."
     },
     {
