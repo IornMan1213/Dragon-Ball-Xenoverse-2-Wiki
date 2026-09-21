@@ -4504,3 +4504,14 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no new successful CI result is claimed; continue inspecting Actions for actionable job steps rather than treating opaque pre-step failures as data-validator failures.
 - Commits: **9509447bda86491eca043d7c3aae0cdb2908d871** (canonical), **51b8a8c08ee1644dea53abde34084badbe54a92b** (index).
 - Exact next batch: resolve the three explicit cost conflicts surfaced here (**Dimension Ray, Majin Kamehameha, Neo Wolf Fang Fist**) by tracing repository PQ/research layers and version-specific evidence, then audit another 8–12 generic mechanics records. Preserve historical/current-version distinctions rather than overwriting curated values.
+
+### 2026-09-21 cycle update — resolved three skill Ki-cost conflicts
+- Live census before editing: **305 canonical skills / 305 index records**.
+- Bounded batch: **Dimension Ray, Majin Kamehameha, Neo Wolf Fang Fist**.
+- Research/evidence: current dedicated Xenoverse 2 skill documentation and the aggregate Ki Blast Ultimate reference resolve Dimension Ray at **400 Ki** and Majin Kamehameha at **100 Ki**; Neo Wolf Fang Fist is explicitly documented as a **variable 100–700 Ki** continuable skill rather than a fixed-cost attack. The Neo Wolf Fang Fist page also documents its 9–33 hit range; independent community testing supports the relationship between additional held Ki and increased damage.
+- Changes: canonical skills now store Dimension Ray ki_cost 400, Majin Kamehameha ki_cost 100, and Neo Wolf Fang Fist ki_cost null because the cost is variable rather than a single scalar. Mechanics notes were updated to record the variable-cost behavior and the resolved conflicts; index projection was synchronized.
+- Evidence limits/conflicts preserved: Neo Wolf Fang Fist's variable cost is represented structurally as null because the current schema's scalar ki_cost field cannot faithfully encode a 100–700 range. No invented minimum/maximum fields were added in this bounded pass; a future schema enhancement may add explicit cost ranges if other variable-cost skills require them.
+- Validation: canonical/index counts remain **305/305**; all three records have exact ki_cost, mechanics_notes, and last_verified parity. JSON was re-fetched and parsed after the writes.
+- CI: no successful CI result claimed; continue inspecting Actions for actionable steps and preserve the existing opaque-runner caveat.
+- Commits: **48fa407dc05be80a67e9808bc2029c789e034581** (canonical), **801dfd5f07b42669a034c683d66e7d020341fb74** (index).
+- Exact next batch: continue the mechanics/acquisition completeness pass with the next **8–12 generic skill records**, prioritizing records where current PQ/DLC provenance already exists and mechanics_notes remain generic; after that, resume the cross-domain graph promotion work while preserving all existing PQ↔skill/equipment/accessory/Super Soul relationship reports.
