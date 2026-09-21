@@ -315,7 +315,7 @@
       "notes": "Universal CaC Awoken Skill. One skill provides Kaioken, x3, and x20 stages according to available Ki; current reference documents 100/300/500 Ki thresholds and stamina drain. 2026-09-20 census note: explicit PQ drop-condition scan reviewed this record; the available condition text is non-specific for Kaioken/Evil Blast/Power Rush, while Lovely Cyclone retains the separately documented source conflict. No automatic gate change was made from generic wording alone.",
       "mechanics_notes": "Stages: 100 Ki (+2.5% Strike/Blast; 3.5 Stamina/sec), 300 Ki (+7.5%; -10% Strike Defense/+10% Blast Defense; 7.5 Stamina/sec; reduced Z-Vanish cost), 500 Ki (+15%; -30% both defenses; 33 Stamina/sec; Z-Vanish costs 0). Drain accelerates at higher stages. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Kaioken is explicitly obtained from the PQ8 Ultimate Finish.",
       "source_quest": 8,
-      "source_quest_or_shop": "Parallel Quest reward route"
+      "source_quest_or_shop": "Parallel Quest 8 — \"Invade Earth\""
     },
     {
       "name": "Potential Unleashed",
@@ -3475,7 +3475,7 @@
       "subcategory": "Power Up",
       "verification_status": "verified",
       "research_status": "enriched",
-      "acquisition_type": "quest_or_mission",
+      "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Power_Up_Supers",
         "https://dbxv2.fandom.com/wiki/Fighting_Pose_K"
@@ -3574,7 +3574,7 @@
       "notes": "2026-09-19 source verification: current PQ documentation identifies Parallel Quest 122 as the acquisition route. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Confirmed as a 0-Ki PQ122 Power Up Super usable by all CaC races. After activation it raises maximum Ki and provides automatic Ki recovery for about 20 seconds in current versions; its interactions with other reinforcement buffs are version-sensitive. UF audit 2026-09-19: acquisition evidence identifies Meditation as a random skill drop from Jiren in PQ122 rather than an Ultimate Finish-only reward; community reports conflict, but direct opponent-drop reports support non-UF gating.",
       "source_quest": 122,
-      "source_quest_or_shop": "Parallel Quest reward"
+      "source_quest_or_shop": "Parallel Quest 122 — \"The Final Battle Before the Final Battle?!\""
     },
     {
       "name": "Taunt",
