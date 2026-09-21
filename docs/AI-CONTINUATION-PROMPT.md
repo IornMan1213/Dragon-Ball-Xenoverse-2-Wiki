@@ -4303,3 +4303,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - Hardened the loader to require `properties` to be a non-empty object before deriving correction fields. This keeps malformed-schema failures explicit while leaving the final jsonschema validation authoritative.
 - Commit: cb41b4902a082212d021838e13011b756deda4f0 — Harden correction schema property validation.
 - Next task: audit correction metadata semantics against the schema's conditional requirements, especially corrections that change acquisition_type, class/subcategory, or race_restriction and could leave inherited fields inconsistent until final validation.
+
+
+## 2026-09-21 continuation — correction conditional semantics audit
+- Audited correction inheritance against the canonical schema's conditional requirements for acquisition_type, class/subcategory, and race_restriction.
+- A correction that changes acquisition_type can inherit an incompatible usable_by_cac value; the canonical schema's `character_only`/`starting_move` conditionals reject that state during the existing final validation step.
+- A correction that changes class/subcategory can inherit an invalid subcategory combination; the schema's class-specific conditionals reject those combinations during final validation.
+- A correction that promotes an Awoken record to the Race subcategory must have race_restriction present; if inheritance leaves it absent/null, the schema rejects the record. Character-only race restrictions likewise trigger the schema's usable_by_cac/acquisition constraints.
+- No additional correction-layer rule was added: duplicating these conditionals in merge_record() would create a second semantic validator and risk drift from the authoritative schema.
+- Next task: audit whether correction records can introduce non-canonical metadata fields that survive merge into skills.json, with particular attention to correction_of/correction_fields, research-only evidence fields, and any additionalProperties=false boundary.
