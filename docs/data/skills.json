@@ -2305,7 +2305,7 @@
       "usable_by_cac": true,
       "character_source": "Super Buu",
       "dlc_requirement": "Base Game",
-      "ki_cost": null,
+      "ki_cost": 0,
       "stamina_cost": 300,
       "damage_type": "Ki Blast",
       "unlock_method": "Parallel Quest 59 — \"Potara Warrior\" Basic Reward",
@@ -2325,7 +2325,7 @@
       "source_quest": 59,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive.",
+      "notes": "2026-09-20 correction: prior canonical classification as a 300-Ki Super was incorrect; current evidence identifies Dimension Cannon as a 300-Stamina Ki Blast Evasive. 2026-09-21 Ki-cost verification: current Dimension Cannon evidence explicitly lists 300 Stamina Used for this Evasive Skill and does not list Ki expenditure; canonical ki_cost=0 follows the repository's stamina-only Evasive convention. No unsupported Ki value was inferred.",
       "id": "skill-dimension-cannon",
       "source_parallel_quests": [
         59
