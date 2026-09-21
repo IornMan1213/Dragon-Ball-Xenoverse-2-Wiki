@@ -5532,11 +5532,14 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 — Broly mentor skill Ki-cost verification
 - Live canonical skill census before editing: **428 records; 48 nullable `ki_cost` records**.
 - Bounded batch: **Blaster Shell, Gigantic Omega, Gigantic Meteor**, plus an explicit evidence check for **Blaster Meteor**.
-- Research/evidence: current Xenoverse 2 references explicitly document **100 Ki** for Blaster Shell, **100 Ki** for Gigantic Omega, and **300 Ki** for Gigantic Meteor. citeturn0search0turn0search11turn0search5
-- Evidence boundary: **Blaster Meteor** is confirmed as Broly's mentor Evasive skill and its current reference documents **300 Stamina**, but the current page does not expose a `Ki Used` value. It was therefore deliberately left nullable rather than inferring a zero-Ki cost. citeturn0search4turn0search3
+- Research/evidence: current Xenoverse 2 references explicitly document **100 Ki** for Blaster Shell, **100 Ki** for Gigantic Omega, and **300 Ki** for Gigantic Meteor. Sources: https://dbxv2.fandom.com/wiki/Blaster_Shell; https://dbxv2.fandom.com/wiki/Gigantic_Omega; https://dbxv2.fandom.com/wiki/Gigantic_Meteor.
+- Evidence boundary: **Blaster Meteor** is confirmed as Broly's mentor Evasive skill and its current reference documents **300 Stamina**, but the current page does not expose a `Ki Used` value. It was therefore deliberately left nullable rather than inferring a zero-Ki cost. Sources: https://dbxv2.fandom.com/wiki/Blaster_Meteor; https://dbxv2.fandom.com/wiki/Broly.
 - Changes: populated only the three evidence-backed canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. No mechanics, acquisition, restriction, or variable-cost semantics were changed.
 - Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **45**. Targeted records were re-read after the write; Blaster Meteor remains nullable. No index Ki-cost projection was introduced. Changed canonical text contains no internal AI/UI/search citation artifacts.
 - CI: commit `45a8dc2645242955eabd5997aa0a408704b76733` had no actionable workflow/status result exposed through the repository connector; **no CI success claimed**.
 - Commit: `45a8dc2645242955eabd5997aa0a408704b76733`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with Beerus's four null-cost mentor skills, using explicit current `Ki Used` evidence; preserve variable-cost forms and leave unsupported values nullable.**
+### 2026-09-21 correction — Broly handoff citation artifact removal
+- The preceding handoff entry accidentally contained internal tool citation tokens. They have been replaced with plain source URLs; no canonical data was changed by this correction.
+- Correct canonical commit remains `45a8dc2645242955eabd5997aa0a408704b76733` and live skill census remains **428 records / 45 nullable `ki_cost`**.
 
