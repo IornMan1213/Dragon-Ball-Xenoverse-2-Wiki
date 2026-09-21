@@ -5573,3 +5573,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: canonical commit `84aecf7a0f768f278f2aabaa45aa703e8a4bb281` had no actionable workflow/status result exposed; **no CI success claimed**.
 - Commits: `84aecf7a0f768f278f2aabaa45aa703e8a4bb281` (canonical), `b36ad2f5b71e00c4396aad725d17390b1ca9a3ff` (audit), `49aa412fbc55078f64de727af3b4da9dcdec478e` (changelog), plus this handoff update.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
+
+### 2026-09-21 — Broly mentor skill Ki-cost verification
+- Live canonical skill census before editing: **428 records; 34 nullable `ki_cost` records**.
+- Bounded batch: **Blaster Meteor — 0 Ki** from Broly mentor training.
+- Evidence: current Xenoverse 2 skill references classify it as an Evasive Skill and document **300 Stamina Used**; no Ki expenditure is documented, matching the canonical convention of `ki_cost=0` for stamina-only evasives.
+- Changes: populated only canonical `ki_cost` and refreshed `last_verified=2026-09-21`; no stamina/mechanics fields were changed.
+- Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **33**. No skill-index Ki-cost projection introduced.
+- CI: canonical commit `0931c19993553d4e8e875a2955a7479a26922c29` had no actionable workflow/status result exposed; **no CI success claimed**.
+- Commits: `0931c19993553d4e8e875a2955a7479a26922c29` (canonical), `c5dab824b9fe5e88d2d7a06aa2f2ea0bfc25f629` (audit), `ec683e18da3467f6709e629869e2725a50965c68` (changelog), plus this handoff update.
+- Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing explicit current `Ki Used` evidence and preserving variable-cost forms.**
