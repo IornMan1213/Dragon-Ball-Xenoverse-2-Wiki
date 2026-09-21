@@ -3198,10 +3198,18 @@
       "ultimate_finish": [
         "Defeat Goku and Vegeta"
       ],
-      "rewards": [],
+      "rewards": [
+        "I...hate you!!!"
+      ],
       "skill_rewards": [],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "I...hate you!!!"
+      ],
+      "super_soul_ids": [
+        "super-soul-060"
       ]
     },
     {
@@ -5327,6 +5335,12 @@
         "skill-demon-ray",
         "skill-demon-flash-strike",
         "skill-demon-flurry"
+      ],
+      "super_soul_rewards": [
+        "Is that all?"
+      ],
+      "super_soul_ids": [
+        "super-soul-061"
       ]
     },
     {
@@ -5962,6 +5976,12 @@
       "skill_ids": [
         "skill-force-edge",
         "skill-burning-blast"
+      ],
+      "super_soul_rewards": [
+        "Damn it all!"
+      ],
+      "super_soul_ids": [
+        "super-soul-062"
       ]
     },
     {
