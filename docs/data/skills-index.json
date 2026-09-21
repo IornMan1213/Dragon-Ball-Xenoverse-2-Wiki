@@ -3147,13 +3147,14 @@
       "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Release",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://gamefaqs.gamespot.com/ps4/248428-dragon-ball-xenoverse-dragon-ball-xenoverse-2/faqs/71395?page=3"
       ],
       "unlock_method": "Character-exclusive / non-CaC skill",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-19",
       "race_restriction": "Character-only",
-      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Energy Release as a character-exclusive/non-CaC skill rather than a separately acquirable avatar skill.",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Energy Release as a character-exclusive/non-CaC skill rather than a separately acquirable avatar skill. 2026-09-21 low-source provenance strengthening: the maintained GameFAQs Xenoverse move guide independently lists Energy Release in Towa\'s Super Attack slot, corroborating the character-only acquisition boundary.",
       "mechanics_notes": "Confirmed as Towa-exclusive Other Super. It is a slow Ki-charge stance and is not obtainable by CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "source_quest_or_shop": "Character skill"
     },
