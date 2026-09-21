@@ -370,3 +370,8 @@
 - Commits: bbcdc5b (Time Rift endpoints), abcffda (Unknown History endpoint), bb298f5 (contract), a552902 (skills), dfe723c (skills index), e7c721d (bidirectional cross-link report).
 - Live census after editing: **5 canonical Time Rift endpoints / 1 canonical story endpoint / 305 skills / 305 skill-index records / 6 skills linked to Time Rift endpoints / 7 forward Time Rift→skill edges / 0 broken endpoints**.
 - Exact next batch: **extend the same deterministic relationship pattern to the remaining race/time-rift acquisition skills (including Become Giant as a reverse-link completion check), then move into Future Saga acquisition endpoints for later Awoken skills.**
+
+
+### 2026-09-21 correction — complete Future Super Saiyan Time Rift fan-out
+- Each of the five canonical Time Rift endpoints now explicitly lists Future Super Saiyan as a dependent unlock relationship because all five Distorted Time Eggs are required for Unknown History.
+- Regenerated the Time Rift/skill cross-link report: **6 skills / 11 forward Time Rift → skill edges / 0 broken endpoints**.
