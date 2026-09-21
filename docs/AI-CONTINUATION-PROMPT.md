@@ -6050,3 +6050,17 @@ The repository owner has clarified the continuation contract:
 - Validation target: **428 records / 0 duplicate IDs / 7 Hero of Justice Pack 1 PQ-linked moves / 0 DLC mismatches**.
 - Acquisition/drop-tier semantics were preserved. CI success is not claimed without exposed workflow/check data.
 - Exact next task: fresh live DLC-label/source-relationship census beyond Hero of Justice Pack 1.
+
+
+### 2026-09-21 cycle update — Final Explosion DLC provenance correction
+- Workstream: P1 skill DLC/version provenance cleanup.
+- Live census before editing: **428 canonical skill records; 0 duplicate IDs; 0 nullable `ki_cost` records**. The live DLC census showed **7** records labeled `Legendary Pack 1`, including Final Explosion.
+- Bounded batch: **Final Explosion** only.
+- Research/evidence: current skill documentation identifies Final Explosion as a TP Medal Shop acquisition; historical 2016-era TP Medal Shop listings independently document the skill in the original game's shop rotation. The later use of Final Explosion by SSGSS Vegeta (Evolved) does not establish Legendary Pack 1 acquisition provenance. Official Bandai Namco DLC documentation states Legendary Pack 1 introduced 6 additional moves, consistent with removing this base-game shop skill from that DLC provenance cluster. cite markers are intentionally not persisted in repository prose; canonical source URLs remain in the skill record.
+- Changes: `docs/data/skills.json` — `Final Explosion.dlc_requirement` changed from `Legendary Pack 1` to `Base Game`; `last_verified` refreshed to `2026-09-21`; bounded provenance note appended. No mechanics, cost, acquisition route, restriction, or character-association field was changed.
+- Validation after write: **428 records / 0 duplicate IDs / 0 nullable `ki_cost` / 6 Legendary Pack 1 records**. Final Explosion was re-read from the live canonical file.
+- Evidence limits: this was a provenance-only correction. The existing canonical record still contains its pre-existing mechanics/cost fields; those were intentionally left outside this batch's scope.
+- CI: canonical commit `9b7021675c6f210be8bece1558dc55904bce97c6` exposed **no workflow runs and no status checks** through the repository connector; no CI success claimed. Validators were not weakened.
+- Commits: `9b7021675c6f210be8bece1558dc55904bce97c6` (canonical data); `d5619cd560c92321c6509548c4a9eaf910faabbf` (TODO ledger).
+- Handoff correction required: the TODO entry appended in this cycle contains a literal placeholder sentence referring to citation markup. It is historical append-only text only; future repository entries must contain plain source descriptions/URLs and no citation/UI markup.
+- Exact next task: **recompute the live DLC-label/source-relationship census and continue with the next independently resolvable provenance mismatch**, preserving intentional historical/composite classifications.
