@@ -1348,12 +1348,14 @@
       "subcategory": "Ki Blast",
       "verification_status": "verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills"
+        "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+        "https://dbxv2.fandom.com/wiki/Burst_Reflection",
+        "https://dragonball.fandom.com/wiki/Burst_Reflection"
       ],
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Second use of Shenron wish \"I want a new Super Attack!\"",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Shenron wish",
@@ -1363,7 +1365,7 @@
       "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
       "source_quest": null,
       "acquisition_type": "other_nonquest",
-      "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Burst Reflection as the second-result route of the repeatable “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward.",
+      "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Burst Reflection as the second-result route of the repeatable “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward. 2026-09-21 provenance correction: replaced the category-only source with direct skill references; the acquisition remains the second Shenron wish for a new Super Attack, with no PQ relationship asserted.",
       "id": "skill-burst-reflection"
     },
     {
