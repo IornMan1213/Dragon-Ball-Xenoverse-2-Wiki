@@ -5206,3 +5206,10 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commits: `ad2bd70044d982245819621ea63c66116ffc1490`, `53959c1bfcf0bbb0c67d6625bdb7c429cd643c0e`, `1edc204ca3a085a19747ea79337833696102c39c`, `6d42478b0b83eabc137d48304613f911e7c9031d`.
 - Exact next batch: **audit 4–12 remaining deterministic skill-index drifts from the recent canonical enrichment, prioritizing one coherent projected field family (first `last_verified` updates) and validating each change against the canonical producer before writing.**
 
+### 2026-09-21 validation correction — Ill Bomber projection persistence
+- The post-cycle live ref check showed that the Ill Bomber `race_restriction` projection was still `Majin CaCs` despite the intended canonical parity correction; this was a persistence/ref-state issue, not new research.
+- Reapplied the deterministic canonical value **`Majin`** to `docs/data/skills-index.json` against the then-current branch head.
+- Validation at commit `b292bf928b64914a1c4b71cb006edbfa852c22b3`: Ill Bomber canonical/index `race_restriction` both resolve to **Majin**; the other four targeted source/restriction values remain aligned. No new acquisition claim was introduced.
+- CI/status remains unavailable; no CI success claimed.
+- Exact next batch remains the bounded **4–12 record projection audit**, beginning with a coherent `last_verified` field family.
+
