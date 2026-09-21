@@ -250,9 +250,9 @@
       "name": "You cocky little...!",
       "character_source": "Nappa",
       "dlc_requirement": "None identified",
-      "acquisition_type": "Unresolved in current record batch",
-      "acquisition_source": null,
-      "first_clear_or_repeat": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 06",
+      "first_clear_or_repeat": "PQ 06 reward",
       "shop_rotation": null,
       "trigger_condition": "Once only, when user HP is under 50%",
       "effect_text": "Decreases damage taken from all attacks.",
@@ -264,12 +264,13 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Acquisition remains unresolved; do not infer it.",
+      "version_notes": "Acquisition remains unresolved; do not infer it. PQ006 reward acquisition is source-backed by the maintained all-PQ reward guide; exact drop condition/percentage is not asserted.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
