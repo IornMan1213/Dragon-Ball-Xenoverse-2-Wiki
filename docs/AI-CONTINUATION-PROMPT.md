@@ -5348,3 +5348,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - CI: no actionable workflow/status result exposed; **no CI success claimed**.
 - Commit: `28a2e0838aac4eb5b6a0a1e176c622c98687d374` (canonical), `4bc01e1fe5e303e90bef1368c7f2c64d59725ce5` (coverage audit), `7be538b2318317784b4adea7a818706f165393e1` (changelog).
 - Exact next batch: **PQ21-PQ30 reward reconciliation**, comparing canonical empty/partial reward inventories against `pq-batch-03.json`; update only explicitly documented reward fields and preserve unresolved drop semantics.
+
+### 2026-09-21 cycle update — PQ21-PQ30 reward reconciliation
+- Live research census: **186/186 PQ records**, 0 missing and 0 duplicate quest numbers.
+- Compared canonical PQ21-PQ30 against `pq-batch-03.json`. Basic reward inventories were aligned. The one actionable cross-layer omission was **PQ22 Energy Shot**: canonical data listed it in `skill_rewards`, while the research batch omitted it.
+- Repaired the PQ22 research record with `Energy Shot` and an explicit unresolved-drop-semantics condition. No probability, slot, or Ultimate Finish-only claim was invented.
+- Validation: PQ21-PQ30 basic reward sets aligned; PQ22 skill reward now matches canonical; research coverage remains 186/186 with 0 gaps/duplicates. No validators changed.
+- CI: no actionable workflow/status result exposed; **no CI success claimed**.
+- Commits: `9c39f41ec2a55f12a4bd33f8492d4313f052965e` (research batch), `d51a6cdd189f5354d5397c21127d18074be2d04a` (coverage audit), `1e29999aa42169ef164bc14b4492c84fd439d466` (changelog).
+- Exact next task: **recompute the live PQ reward mismatch census, then audit the next bounded reward/skill-drop mismatch family rather than assuming every categorized reward omission is an error.**
