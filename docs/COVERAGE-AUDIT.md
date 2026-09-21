@@ -4229,3 +4229,15 @@ The underlying skill acquisition routes were already present; this pass only rep
 - **Android 14's Hat (PQ104): unresolved.** PQ104 directly documents **Android 14's Clothes**, not a separately named hat/accessory. The equipment catalog likewise lists Android 14's Clothes as the PQ104 item. No exact canonical accessory identity was established, so no false merge was made. citeturn0search1turn0search4
 - **Bardock (DB Super)'s Scouter (PQ146): unresolved.** PQ146 directly documents **Bardock (DB Super)'s Clothes**; the maintained reward guide does not list a scouter. No exact canonical accessory identity was established. citeturn0search2turn0search6
 - The bridge now records both as `researched_unresolved` with explicit evidence notes. The cross-link report was regenerated without inventing identities.
+
+
+### 2026-09-21 skill resource-cost gap batch — Brutal Buster / Dimension Cannon / Neo Wolf Fang Fist
+
+- Live skill census before editing: **305 canonical skill records**.
+- Bounded batch: **Brutal Buster, Dimension Cannon, Neo Wolf Fang Fist** — the three records identified by the live cost audit as lacking an explicit resource value.
+- Research/evidence: dedicated Xenoverse 2 skill references document **Brutal Buster = 300 Stamina**, **Dimension Cannon = 300 Stamina**, and **Neo Wolf Fang Fist = 100–700 Ki** depending on continued input. Independent community testing also documents continued Ki consumption for Neo Wolf Fang Fist.
+- Changes: docs/data/skills.json now records stamina_cost 300 for Brutal Buster and Dimension Cannon, and ki_cost 100-700 for Neo Wolf Fang Fist; each record received direct source provenance and a 2026-09-21 verification note.
+- Evidence limits: Evasives do not receive a fabricated Ki cost; their activation resource is Stamina. Neo Wolf Fang Fist retains a variable range rather than being normalized to a fixed cost. No unrelated acquisition or restriction fields were changed.
+- Validation: canonical skill JSON re-fetched and parsed successfully; record count remains **305**. No missing ki_cost remains among non-Evasive records; the remaining null stamina_cost values are outside this bounded resource-cost scope and are not automatically treated as gaps.
+- CI: no workflow runs or combined status checks were exposed for commit 5884f75e6f409fcf5c2b94a747c8ac45f4766eb0; no CI success is claimed. Validators were not weakened.
+- Next: continue the live skill second-pass audit with the next smallest high-impact acquisition/restriction/mechanics gap batch, while preserving the cross-database linking model and avoiding broad speculative rewrites.
