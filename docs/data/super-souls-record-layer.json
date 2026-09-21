@@ -3704,6 +3704,231 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-learned-a-lot-from-how-you-fight.md",
         "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
+    },
+    {
+      "id": "super-soul-136",
+      "name": "You intend to defy me?!",
+      "character_source": "Angol",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Raid Quest Event",
+      "acquisition_source": "Broly (Restrained) Online Raid",
+      "trigger_condition": "When opponent uses an Evasive Skill",
+      "effect_text": "Temporarily boosts Strike Skills.",
+      "effect_magnitude": "+20% for 10 seconds",
+      "limit_burst": "ATK Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-intend-to-defy-me.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-137",
+      "name": "I will NOT give up! EVER!",
+      "character_source": "Pilaf",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "TP Medal Shop",
+      "acquisition_source": "TP Medal Shop / STP Medal Shop",
+      "trigger_condition": "Once only when KO'ed",
+      "effect_text": "Revives with full health; source notes flag the XXL/0.25 implementation detail for verification.",
+      "effect_magnitude": "Full-health revival",
+      "limit_burst": "Auto Revive",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Revive",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/i-will-not-give-up-ever.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-138",
+      "name": "We're tougher than we look!",
+      "character_source": "Shu",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "TP Medal Shop",
+      "acquisition_source": "TP Medal Shop / STP Medal Shop",
+      "trigger_condition": "Once only when health is below 25%",
+      "effect_text": "Restores all allies' and your Ki.",
+      "effect_magnitude": "+500 Ki",
+      "limit_burst": "Ki Recovery Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Ki Recovery Up!",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/were-tougher-than-we-look.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-139",
+      "name": "You're not taking this away from us!",
+      "character_source": "Mai",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "TP Medal Shop",
+      "acquisition_source": "TP Medal Shop / STP Medal Shop",
+      "trigger_condition": "When the battle ends",
+      "effect_text": "Increases Zeni and score earned and boosts item drop rate.",
+      "effect_magnitude": "1.5x Zeni; 1.5x score; +15% item drop rate",
+      "limit_burst": "Item Drop Rate Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Item Drop Rate Up!",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/youre-not-taking-this-away-from-us.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-140",
+      "name": "It's about time...",
+      "character_source": "God of Destruction Belmod",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 175 — Who's the Next Leader?!",
+      "trigger_condition": "Once only when opponent's health is below 25%",
+      "effect_text": "Restores Ki and temporarily boosts allies' and your Strike and Ki Blast Skills.",
+      "effect_magnitude": "+200 Ki; +25% Skills for 10 seconds",
+      "limit_burst": "Ki Recovery Up! ATK Up!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Ki Recovery Up! ATK Up!",
+      "source_parallel_quests": [
+        "pq-175"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/its-about-time.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-141",
+      "name": "Strength is justice! Strength is absolute!",
+      "character_source": "Jiren (Full Power, Ultra Supervillain)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 177 — Warped Sense of Justice",
+      "trigger_condition": "When battle begins / when health is below 10%",
+      "effect_text": "Restores all Ki; boosts all attacks; increases damage taken at the low-health stage.",
+      "effect_magnitude": "+30% attacks; +30% damage taken",
+      "limit_burst": "ATK Up! DEF Down!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! DEF Down!",
+      "source_parallel_quests": [
+        "pq-177"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/strength-is-justice-strength-is-absolute.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-142",
+      "name": "I'll take you all on at once!",
+      "character_source": "Goku (Mini)",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 178 — The Tireless Pursuit of Strength",
+      "trigger_condition": "When battle begins / always",
+      "effect_text": "Temporarily boosts Strike Skills and Ki recovery; always scales attacks and speed by opposing party size.",
+      "effect_magnitude": "+15% Strike; +20% Ki recovery for 20 sec; +10%/+20%/+35% attacks and speed",
+      "limit_burst": "ATK Up! Ki Auto-Recovery!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery!",
+      "source_parallel_quests": [
+        "pq-178"
+      ],
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/ill-take-you-all-on-at-once.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-143",
+      "name": "So, Hakai.",
+      "character_source": "God of Destruction Beerus",
+      "dlc_requirement": "None identified",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "duration": null,
+      "stacking_behavior": null,
+      "usable_by_cac": null,
+      "race_restriction": null,
+      "version_notes": "Source-text/value discrepancies are preserved in notes rather than silently normalized.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-21",
+      "acquisition_type": "TP Medal Shop",
+      "acquisition_source": "TP Medal Shop / STP Medal Shop",
+      "trigger_condition": "When a Heavy Smash hits",
+      "effect_text": "Extends guard-break time, recovers Ki, then temporarily reduces attack strength and increases damage taken.",
+      "effect_magnitude": "+10% guard-break time; +300 Ki; -10% attacks; +10% damage taken",
+      "limit_burst": "ATK Down! DEF Down!",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Down! DEF Down!",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/so-hakai.md",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
     }
   ],
   "research_notes": [
@@ -3724,7 +3949,8 @@
     "2026-09-21: promoted Super Soul 104–111 after live-corpus reconciliation. Exact PQ endpoints were accepted for 105/107 (PQ157), 106/108 (PQ156), and 109/110 (PQ158); 104 and 111 remain raid-event acquisition records without inferred PQ routes.",
     "2026-09-21: promoted Super Soul 112–119 after live-corpus reconciliation. Explicit PQ endpoints: 118→PQ161 and 119→PQ162; shop and raid acquisitions were not assigned invented quest routes.",
     "2026-09-21: promoted Super Soul 120–127 after live-corpus reconciliation. Explicit PQ route: 120/121 → PQ159; shop, festival, and raid acquisitions were not assigned unsupported PQ routes.",
-    "2026-09-21: promoted Super Soul 128–135 after live-corpus reconciliation. Explicit PQ routes: 130→PQ166, 131→PQ168, 132→PQ164, 133→PQ174, 134→PQ173. Raid and Limited Time Event acquisitions were not assigned unsupported PQ routes."
+    "2026-09-21: promoted Super Soul 128–135 after live-corpus reconciliation. Explicit PQ routes: 130→PQ166, 131→PQ168, 132→PQ164, 133→PQ174, 134→PQ173. Raid and Limited Time Event acquisitions were not assigned unsupported PQ routes.",
+    "2026-09-21: promoted Super Soul 136–143 after live-corpus reconciliation. Explicit PQ routes: 140→PQ175, 141→PQ177, 142→PQ178. Raid and TP/STP Medal Shop acquisitions were not assigned unsupported PQ routes; Super Soul 137 retains a verification note on the full-health revival implementation."
   ],
   "sources": [
     {
