@@ -510,3 +510,9 @@
 - Synchronized `parallel-quests-record-layer.json`, `pq-reward-relationships.json`, and `pq-super-soul-crosslink-report.json` in both directions.
 - Normalized the three canonical Super Soul acquisition records to their PQ sources and explicitly preserved uncertainty about exact drop conditions/percentages.
 - No Item Shop records (Super Souls 001, 003, 005, 006, 008) were forced into PQ relationships.
+
+
+## 2026-09-21 — Super Soul 010–011 reconciliation
+- Synchronized Super Soul 010 ("I'll kill all of you!!") with PQ022 and Super Soul 011 ("H-How could he?!") with PQ012.
+- Added the missing structured `super_soul_rewards` entry to PQ012 and normalized both canonical Super Soul acquisition records to their source PQs.
+- Preserved the existing bidirectional master/report relationships and did not force shop/NPC records 012–018 into PQ routes.
