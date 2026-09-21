@@ -15,7 +15,8 @@
       "description": "Saiyan-focused Time Rift containing Vegeta's training and the Saiyan Awakening progression.",
       "skill_unlocks": [
         "skill-super-saiyan",
-        "skill-super-vegeta"
+        "skill-super-vegeta",
+        "skill-future-super-saiyan"
       ],
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Saiyan",
@@ -34,7 +35,8 @@
       ],
       "description": "Namekian-focused Time Rift containing the Namekian Awakening progression.",
       "skill_unlocks": [
-        "skill-become-giant"
+        "skill-become-giant",
+        "skill-future-super-saiyan"
       ],
       "sources": [
         "https://dbxv2.fandom.com/wiki/Become_Giant",
@@ -53,7 +55,8 @@
       ],
       "description": "Frieza Race-focused Time Rift containing Frieza/Meta-Cooler progression and the Turn Golden unlock route.",
       "skill_unlocks": [
-        "skill-turn-golden"
+        "skill-turn-golden",
+        "skill-future-super-saiyan"
       ],
       "sources": [
         "https://dbxv2.fandom.com/wiki/Turn_Golden",
@@ -71,7 +74,8 @@
       ],
       "description": "Majin-focused Time Rift containing the Majin Awakening progression and Purification unlock.",
       "skill_unlocks": [
-        "skill-purification"
+        "skill-purification",
+        "skill-future-super-saiyan"
       ],
       "sources": [
         "https://dbxv2.fandom.com/wiki/Purification",
@@ -90,7 +94,8 @@
       ],
       "description": "Earthling-focused Time Rift containing the Great Saiyaman progression and Power Pole Pro unlock route.",
       "skill_unlocks": [
-        "skill-power-pole-pro"
+        "skill-power-pole-pro",
+        "skill-future-super-saiyan"
       ],
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Pole_Pro",
