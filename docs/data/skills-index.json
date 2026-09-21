@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "generated": "2026-09-20",
+  "generated": "2026-09-21",
   "category_counts": {
     "Ki Blast Evasives": 10,
     "Other Supers": 32,
@@ -1139,7 +1139,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
-      "mechanics_notes": "Launch a chargeable Ki blast; guarding while charging preserves charge level. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "Charge the projectile to increase its power; official Caulifla material notes that guarding can preserve the charge buildup. Exact charge-time/damage breakpoints and drop probability remain unresolved.",
       "source_quest": 147,
       "source_quest_or_shop": "Parallel Quest 147 — \"Caulifla's Saiyan Search\""
     },
@@ -1160,7 +1160,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
-      "mechanics_notes": "Fire two Ki blasts; if both connect, follow with a Ki wave; directional input can reverse the initial throw. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "Fires two initial Ki blasts followed by a larger blast when the setup connects. Community testing documents the two-sphere connection requirement and reverse-direction input; these are retained as community-observed mechanics rather than frame-data claims.",
       "source_quest": 147,
       "source_quest_or_shop": "Parallel Quest 147 — \"Caulifla's Saiyan Search\""
     },
@@ -1579,7 +1579,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
-      "mechanics_notes": "Launch a tracking Hakai Ki ball; additional input creates an unblockable explosion. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "Launches a persistent tracking Hakai projectile that can intercept incoming Ki attacks and continue tracking. Current independent mechanics documentation reports a 20-second maximum active duration and cancellation when the user is hit; older behavior differed, so version history is material.",
       "source_quest": 146,
       "source_quest_or_shop": "Parallel Quest 146 — \"Zen-Ohs' Earthly Excursion\""
     },
@@ -1881,7 +1881,7 @@
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred.",
-      "mechanics_notes": "Set up eight Ki blasts and detonate/home them with additional input. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
+      "mechanics_notes": "Creates multiple Ki blasts and can fire them in place; official Caulifla material establishes the simultaneous multi-blast behavior and on-the-spot firing option. Exact timing/data beyond the documented description remains unresolved.",
       "source_quest": 147,
       "source_quest_or_shop": "Parallel Quest 147 — \"Caulifla's Saiyan Search\""
     },
