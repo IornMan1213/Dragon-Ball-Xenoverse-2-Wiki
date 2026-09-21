@@ -295,3 +295,9 @@
 - Flash Chaser now points to PQ138 — "The Battle for Earth"; Photon Swipe now points to PQ139 — "War and Pieces".
 - Preserved the existing Ultimate Finish requirement and documented roll percentages; this is a provenance-label correction only.
 - Independent current Steam PQ documentation and the repository's PQ research batches corroborate both PQ numbers/titles and reward associations.
+
+## 2026-09-21 — Correct PQ title provenance for two UF skill records
+- Corrected the canonical/index source_quest_or_shop and unlock_method labels for Flash Chaser (PQ138) and Photon Swipe (PQ139) to match the maintained PQ research titles.
+- Flash Chaser now points to PQ138 — "The Battle for Earth"; Photon Swipe now points to PQ139 — "War and Pieces".
+- Preserved the existing Ultimate Finish requirement and documented roll percentages; this is a provenance-label correction only.
+- Independent current Steam PQ documentation and the repository's PQ research batches corroborate both PQ numbers/titles and reward associations.
