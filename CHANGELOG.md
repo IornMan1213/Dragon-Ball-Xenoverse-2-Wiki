@@ -1028,3 +1028,9 @@
 - Post-write validation: **428 records; 0 duplicate IDs; 12 nullable ki_cost records**.
 - Canonical commit: `6c77534d1f513e331e180a77aa9a3ad701f84997`.
 - Exact next task: recompute the live nullable census and continue with **Dimension Cannon**, using exact-skill evidence before changing its cost.
+
+
+### 2026-09-21 — Ultra Pack 1 skill provenance audit
+- Audited all 12 canonical skills currently labeled Ultra Pack 1 against official DLC documentation, the maintained 186-PQ guide, and individual technique references.
+- Confirmed the ten Future Warrior-acquirable Ultra Pack 1 skills map to PQ133–137; preserved the two character-exclusive Ultra Pack 1 skill records separately.
+- No DLC provenance mismatch was found; conflicting reward-tier evidence remains preserved.
