@@ -3811,3 +3811,12 @@ Only after data-completeness work, expose the improved structured research surfa
 - No new canonical data change was justified in this pass.
 - GitHub repository search did not expose actionable workflow/status records for the validation path, so CI was not claimed as passing.
 - Exact next task: perform the final three null-race evidence sweep (Blaster Stream, Chaotic Time Impact, Circle Flash) using exact-name current-version sources; only promote a race restriction when explicit evidence exists.
+
+
+## 2026-09-21 continuation — final three race-scope evidence sweep
+- Exhaustively searched exact-name current/recent evidence for **Blaster Stream**, **Chaotic Time Impact**, and **Circle Flash**.
+- Evidence confirms CaC usability for all three, but no reliable current-version source found in this sweep explicitly says any of them is unrestricted across all CaC races or restricted to a particular CaC race.
+- Blaster Stream appears in current Future Warrior material and CaC player builds; Circle Flash likewise appears in CaC builds; Chaotic Time Impact is documented in a current DLC-era CaC-focused showcase. These establish use by CaCs, not race scope.
+- The canonical records therefore remain unchanged with `race_restriction: null`. This is deliberate evidence preservation, not missing-data inference.
+- No canonical/index commit was made for this sweep.
+- Exact next task: broaden the audit from the final three to all `usable_by_cac=true` records whose race restriction is null/weakly evidenced, using exact-name current-version sources and preserving null whenever explicit scope cannot be established.
