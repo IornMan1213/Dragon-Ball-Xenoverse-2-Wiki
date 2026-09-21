@@ -10779,7 +10779,9 @@
       "id": "skill-meteor-crash",
       "source_parallel_quests": [
         12
-      ]
+      ],
+      "ki_cost": 100,
+      "ki_cost_note": "Base activation costs 100 Ki; holding the input continues the rush and consumes additional Ki until slightly more than 300 Ki total."
     },
     {
       "name": "Fighting Pose C",
@@ -10805,7 +10807,9 @@
       "id": "skill-fighting-pose-c",
       "source_parallel_quests": [
         13
-      ]
+      ],
+      "ki_cost": 0,
+      "ki_cost_note": "Power Up Super; current skill evidence lists 0 Ki."
     },
     {
       "name": "Psycho Escape",
@@ -10831,7 +10835,10 @@
       "id": "skill-psycho-escape",
       "source_parallel_quests": [
         13
-      ]
+      ],
+      "ki_cost": 0,
+      "stamina_cost": 200,
+      "ki_cost_note": "Evasive activation uses Stamina rather than Ki; current skill evidence lists 200 Stamina."
     },
     {
       "name": "Kaioken Kamehameha",
@@ -10857,7 +10864,9 @@
       "id": "skill-kaioken-kamehameha",
       "source_parallel_quests": [
         14
-      ]
+      ],
+      "ki_cost": 200,
+      "ki_cost_note": "Current skill evidence lists 200 Ki."
     }
   ],
   "skill_id_policy": {
