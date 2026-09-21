@@ -10954,7 +10954,8 @@
       "id": "skill-all-clear",
       "source_mentor": [
         "mentor-cell"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Gravity Impact",
@@ -10981,7 +10982,8 @@
       "id": "skill-gravity-impact",
       "source_mentor": [
         "mentor-cell"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Perfect Kamehameha",
@@ -11008,7 +11010,8 @@
       "id": "skill-perfect-kamehameha",
       "source_mentor": [
         "mentor-cell"
-      ]
+      ],
+      "ki_cost": 400
     },
     {
       "name": "Evil Eyes",
