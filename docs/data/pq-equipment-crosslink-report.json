@@ -1,0 +1,357 @@
+{
+  "schema_version": "1.0",
+  "domain": "pq_equipment",
+  "canonical_pq_records": 186,
+  "canonical_target_records": 30,
+  "forward_edges": [
+    {
+      "pq_id": "pq-004",
+      "pq_number": 4,
+      "target_id": "equip-001",
+      "target_name": "Goku's Turtle Hermit Gi",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-003",
+      "pq_number": 3,
+      "target_id": "equip-002",
+      "target_name": "Battle Suit (Raditz)",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-098",
+      "pq_number": 98,
+      "target_id": "equip-003",
+      "target_name": "Lord Slug's Clothes",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-029",
+      "pq_number": 29,
+      "target_id": "equip-008",
+      "target_name": "Android 18's Clothes (Vest & Pants)",
+      "status": "source_backed",
+      "source": "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories"
+    },
+    {
+      "pq_id": "pq-092",
+      "pq_number": 92,
+      "target_id": "equip-012",
+      "target_name": "GT Goku's Gi",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-030",
+      "pq_number": 30,
+      "target_id": "equip-013",
+      "target_name": "Tien Shinhan's Gi",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-003",
+      "pq_number": 3,
+      "target_id": "equip-016",
+      "target_name": "Demon Clothes (Piccolo, with Cape)",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-004",
+      "pq_number": 4,
+      "target_id": "equip-017",
+      "target_name": "Demon Clothes (Gohan, Kid)",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-022",
+      "pq_number": 22,
+      "target_id": "equip-020",
+      "target_name": "Battle Suit (Frieza Saga Vegeta)",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-028",
+      "pq_number": 28,
+      "target_id": "equip-021",
+      "target_name": "Battle Suit (Gohan)",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-021",
+      "pq_number": 21,
+      "target_id": "equip-022",
+      "target_name": "Battle Suit (Krillin)",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-087",
+      "pq_number": 87,
+      "target_id": "equip-023",
+      "target_name": "Training Suit",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-013",
+      "pq_number": 13,
+      "target_id": "equip-026",
+      "target_name": "Battle Suit (Ginyu Force Black)",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-012",
+      "pq_number": 12,
+      "target_id": "equip-028",
+      "target_name": "Battle Suit (Turles)",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    },
+    {
+      "pq_id": "pq-025",
+      "pq_number": 25,
+      "target_id": "equip-029",
+      "target_name": "Android 17's Clothes",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment"
+    }
+  ],
+  "reverse_edges": [
+    {
+      "target_id": "equip-029",
+      "target_name": "Android 17's Clothes",
+      "pq_ids": [
+        "pq-025"
+      ],
+      "pq_numbers": [
+        25
+      ]
+    },
+    {
+      "target_id": "equip-008",
+      "target_name": "Android 18's Clothes (Vest & Pants)",
+      "pq_ids": [
+        "pq-029"
+      ],
+      "pq_numbers": [
+        29
+      ]
+    },
+    {
+      "target_id": "equip-020",
+      "target_name": "Battle Suit (Frieza Saga Vegeta)",
+      "pq_ids": [
+        "pq-022"
+      ],
+      "pq_numbers": [
+        22
+      ]
+    },
+    {
+      "target_id": "equip-026",
+      "target_name": "Battle Suit (Ginyu Force Black)",
+      "pq_ids": [
+        "pq-013"
+      ],
+      "pq_numbers": [
+        13
+      ]
+    },
+    {
+      "target_id": "equip-021",
+      "target_name": "Battle Suit (Gohan)",
+      "pq_ids": [
+        "pq-028"
+      ],
+      "pq_numbers": [
+        28
+      ]
+    },
+    {
+      "target_id": "equip-022",
+      "target_name": "Battle Suit (Krillin)",
+      "pq_ids": [
+        "pq-021"
+      ],
+      "pq_numbers": [
+        21
+      ]
+    },
+    {
+      "target_id": "equip-002",
+      "target_name": "Battle Suit (Raditz)",
+      "pq_ids": [
+        "pq-003"
+      ],
+      "pq_numbers": [
+        3
+      ]
+    },
+    {
+      "target_id": "equip-028",
+      "target_name": "Battle Suit (Turles)",
+      "pq_ids": [
+        "pq-012"
+      ],
+      "pq_numbers": [
+        12
+      ]
+    },
+    {
+      "target_id": "equip-017",
+      "target_name": "Demon Clothes (Gohan, Kid)",
+      "pq_ids": [
+        "pq-004"
+      ],
+      "pq_numbers": [
+        4
+      ]
+    },
+    {
+      "target_id": "equip-016",
+      "target_name": "Demon Clothes (Piccolo, with Cape)",
+      "pq_ids": [
+        "pq-003"
+      ],
+      "pq_numbers": [
+        3
+      ]
+    },
+    {
+      "target_id": "equip-001",
+      "target_name": "Goku's Turtle Hermit Gi",
+      "pq_ids": [
+        "pq-004"
+      ],
+      "pq_numbers": [
+        4
+      ]
+    },
+    {
+      "target_id": "equip-012",
+      "target_name": "GT Goku's Gi",
+      "pq_ids": [
+        "pq-092"
+      ],
+      "pq_numbers": [
+        92
+      ]
+    },
+    {
+      "target_id": "equip-003",
+      "target_name": "Lord Slug's Clothes",
+      "pq_ids": [
+        "pq-098"
+      ],
+      "pq_numbers": [
+        98
+      ]
+    },
+    {
+      "target_id": "equip-013",
+      "target_name": "Tien Shinhan's Gi",
+      "pq_ids": [
+        "pq-030"
+      ],
+      "pq_numbers": [
+        30
+      ]
+    },
+    {
+      "target_id": "equip-023",
+      "target_name": "Training Suit",
+      "pq_ids": [
+        "pq-087"
+      ],
+      "pq_numbers": [
+        87
+      ]
+    }
+  ],
+  "unresolved_target_routes": [
+    {
+      "target_id": "equip-004",
+      "target_name": "Murasaki-style Ninja Suit",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-005",
+      "target_name": "Karinga Tribe Costume",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-006",
+      "target_name": "Saiyuki Costume",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-007",
+      "target_name": "Wild Rider Suit",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-009",
+      "target_name": "GT Trunks' Clothes",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-010",
+      "target_name": "Launch Costume",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-011",
+      "target_name": "Goku's Yardrat Clothes",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-014",
+      "target_name": "Piccolo's Clothes",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-015",
+      "target_name": "Demon Clothes (Piccolo)",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-018",
+      "target_name": "Battle Suit (Nappa)",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-019",
+      "target_name": "Battle Suit (Vegeta, on entry)",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-024",
+      "target_name": "Battle Suit (Bardock)",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-025",
+      "target_name": "Battle Suit (Ginyu Force White)",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-027",
+      "target_name": "Battle Suit (Cooler's Armored Squadron)",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "equip-030",
+      "target_name": "Android 18's Clothes (RR)",
+      "reason": "no_explicit_pq_endpoint"
+    }
+  ]
+}
