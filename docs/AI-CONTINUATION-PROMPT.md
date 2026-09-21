@@ -6287,3 +6287,10 @@ The repository owner has clarified the continuation contract:
 - Replaced the category-only dependency with direct skill references and retained the existing Shenron-wish acquisition without inventing a PQ relationship.
 - Canonical commit: `0b16ab3b7a40930c37f9fb1732cf1f1a08b21706`.
 - Exact next batch: continue auditing the remaining single-source records, prioritizing acquisition claims that lack a direct source or have a plausible naming/PQ conflation risk.
+
+### 2026-09-21 continuation — Solar Flare PQ-reference correction
+- Workstream: **P1 skill provenance/source-PQ integrity**.
+- Concrete mismatch found in live canonical prose: **Solar Flare** correctly pointed to PQ03 in its acquisition fields, but `mechanics_notes` still said PQ01. This was a stale internal reference, not a new acquisition claim.
+- Corrected the prose to PQ03 and strengthened direct/current sources. No gameplay, DLC, reward-tier, or acquisition fields were changed.
+- Canonical commit: `2e0ee2fa63afa6dd8ee5e6bf5878a9fa42b14ae4`.
+- Exact next batch: continue the single-source audit, checking internal cross-field consistency before adding new records or making semantic changes.
