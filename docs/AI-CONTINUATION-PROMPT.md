@@ -4035,3 +4035,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validator commit: `4fb7fed3ce7929ac6ee36d5509810018bb3d8961`.
 - No canonical skill records or generated index data changed.
 - Next task: continue auditing the remaining acquisition/provenance invariants, distinguishing structural constraints suitable for schema from evidence-dependent semantic rules that must remain validator-only.
+
+
+## 2026-09-21 continuation — acquisition structural contract
+- Audited acquisition-related validator rules against the schema and separated structural invariants from provenance/evidence rules.
+- Moved structural constraints into `docs/data/skills.schema.json`: `character_only` requires `usable_by_cac=false`; `starting_move` requires `usable_by_cac=true`; `Character-only` race restriction requires both `usable_by_cac=false` and `character_only`; `quest_or_mission` requires `source_quest`; non-quest acquisition types that require a destination require `source_quest_or_shop`; Awoken/Race records require CaC eligibility and a race restriction.
+- Tightened `source_quest_or_shop` to a non-empty string when present.
+- Removed those duplicated structural checks from `scripts/validate_skills.py`.
+- Preserved provenance-sensitive checks (PQ-number text, Skill Shop wording, TP Medal wording, starting-choice wording, character-only wording, and mixed-route detection) in the validator because they depend on textual evidence rather than JSON shape.
+- Schema commits: `68aac2d03699a803d010df14f8ee979c99162bbc`, `e7095e3fc44e37da84d6b76df9bc7b21e118277`.
+- Validator commit: `a73484a81b4119bc234566b00b4ba04c62b62ccd`.
+- No canonical skill records or generated index data changed.
+- Next task: inspect remaining `ultimate_finish_required` and `usable_by_cac` invariants for structural schema coverage, then continue with provenance-only rules.
