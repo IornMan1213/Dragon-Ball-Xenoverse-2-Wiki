@@ -705,3 +705,353 @@ When the continuation handoff advances a research frontier, update this live TOD
 - The newly added live synchronization section intentionally listed Brutal Buster as a completed-cycle trace, but its checkbox could be misread as unresolved.
 - Authoritative correction: **Brutal Buster is resolved and excluded from the 18-record nullable `ki_cost` queue**. The 18 unresolved names are the remaining records listed after it in the canonical census.
 - Future cycles must derive this queue directly from the live `docs/data/skills.json` census rather than hand-maintaining names independently.
+
+
+# 29. Append-only master task ledger — 2026-09-21
+
+> **Operating rule requested by the repository owner:** this TODO is a giant, append-only task ledger. Never delete a task, historical section, completion record, or correction from this file. When work is completed, mark the corresponding task `[x]` in the current live ledger or add a completed ledger entry; when a task is discovered, append it as a new unchecked task. If an old historical checkbox conflicts with live state, preserve it and use a newer dated ledger entry as the authoritative state. Never erase history to make the checklist look cleaner.
+
+## 29.1 Ledger rules
+
+- [x] Preserve every existing line and historical section in this file.
+- [x] Preserve every completed task as a permanent historical record.
+- [x] Preserve every unresolved task until it is explicitly completed or superseded by a documented correction.
+- [x] Add newly discovered work to this ledger instead of silently tracking it only in chat.
+- [x] Mark a task `[x]` only after the repository change and validation for that task are complete.
+- [~] Use `[~]` for work that is underway or partially verified.
+- [ ] Use `[ ]` for discovered work that remains.
+- [x] Record the date, files/records, evidence limits, validation, commits, and next task in the continuation handoff for every meaningful cycle.
+- [x] Keep the handoff and this ledger synchronized in the same cycle.
+- [x] Derive live record-level queues from canonical data before choosing the next task.
+- [x] Do not replace historical checklist counts with new counts; append a dated live census when counts change.
+- [x] Never treat an indexed record as verified solely because it exists.
+- [x] Never flatten variable costs, conflicting evidence, historical differences, or unresolved provenance into false certainty.
+
+## 29.2 Completed repository work recorded as permanent ledger history
+
+### Core infrastructure / repository quality
+
+- [x] Internal-artifact scanner exists.
+- [x] Canonical skill JSON is parseable.
+- [x] Canonical skill duplicate-ID census currently reports 0 duplicates.
+- [x] Live TODO/handoff synchronization mechanism established.
+- [x] Brutal Buster Ki-cost/resource-cost verification completed and recorded.
+- [x] Historical handoff entries are preserved rather than rewritten.
+- [x] Historical TODO sections are preserved rather than rewritten.
+
+### Parallel Quest unlock-field frontier
+
+- [x] PQ1–10 unlock wording frontier completed.
+- [x] PQ12–20 unlock metadata refinement completed.
+- [x] PQ21–50 bounded unlock metadata completed.
+- [x] PQ51–60 unlock refinement completed.
+- [x] PQ61–70 bounded unlock evidence completed.
+- [x] PQ71–100 unlock-route review completed.
+- [x] PQ101–110 DLC-era unlock provenance completed.
+- [x] PQ111–120 DLC-era unlock provenance completed.
+- [x] PQ121–130 DLC-era unlock provenance completed.
+- [x] PQ131–140 DLC-era unlock provenance completed.
+- [x] PQ151–160 DLC-era unlock provenance completed.
+- [x] PQ36 special numbering/prerequisite case documented.
+- [x] PQ53 special NPC-trigger case documented.
+- [x] PQ54 conflicting unlock-route evidence documented rather than silently resolved.
+- [x] PQ55 prerequisite documented.
+- [x] Repository-wide PQ census reached 176 canonical records with explicit `unlock_condition` field on all 176 records.
+- [x] Known PQ36 numbering/existence anomaly preserved as an unresolved historical/data-model issue.
+
+### Skill Ki-cost verification frontier already completed
+
+- [x] Evil Explosion / Super Explosive Wave / Light Grenade / Special Beam Cannon / Dodon Ray / Volleyball Fist / Tri-Beam / Neo Tri-Beam.
+- [x] Fake Death / Wolf Fang Fist / Ki Blast Thrust / Spirit Ball / Bomber DX / Arm Crash / Genocide Shell / Break Cannon.
+- [x] Raditz mentor batch.
+- [x] Zarbon mentor batch.
+- [x] Dodoria mentor batch.
+- [x] Frieza mentor batch.
+- [x] Cooler mentor batch.
+- [x] Majin Buu mentor batch.
+- [x] Beerus mentor batch.
+- [x] Lord Slug mentor batch.
+- [x] Whis mentor batch.
+- [x] Broly mentor batch.
+- [x] Android 16 mentor batch.
+- [x] Future Gohan mentor batch.
+- [x] Bojack mentor batch.
+- [x] Zamasu mentor batch.
+- [x] Brutal Buster resource-cost verification.
+
+## 29.3 Current canonical skill Ki-cost queue
+
+- [ ] Dimension Cannon.
+- [ ] Evil Ray Strike.
+- [ ] Evil Rise Strike.
+- [ ] Explosive Assault.
+- [ ] Finish Breaker.
+- [ ] Flash Strike.
+- [ ] Final Flash.
+- [ ] Time Skip/Tremor Pulse.
+- [ ] Orin Combo.
+- [ ] Scatter Kamehameha.
+- [ ] Giant Storm.
+- [ ] Angry Explosion.
+- [ ] Dead End Rain.
+- [ ] God of Destruction's Might.
+- [ ] Meteor Crash.
+- [ ] Fighting Pose C.
+- [ ] Psycho Escape.
+- [ ] Kaioken Kamehameha.
+
+### Ki-cost campaign execution tasks
+
+- [ ] Recompute the nullable `ki_cost` census before every bounded research batch.
+- [ ] Research one bounded family/batch at a time using explicit current `Ki Used` evidence where available.
+- [ ] Preserve `null` where evidence is insufficient or conflicting.
+- [ ] Preserve fixed, zero, and variable/range costs distinctly.
+- [ ] Update `last_verified` only for records actually verified in the current batch.
+- [ ] Validate 428 canonical skill records and 0 duplicate IDs after every canonical skill write.
+- [ ] Recompute the exact unresolved queue after every canonical write.
+- [ ] Update this TODO and the continuation handoff together after every meaningful batch.
+- [ ] Check applicable GitHub Actions/status after each canonical or documentation cycle.
+- [ ] Never claim CI success when GitHub exposes no successful check/run.
+- [ ] Scan changed prose for internal AI/tool citation artifacts.
+
+## 29.4 Skills — remaining exhaustive verification work
+
+- [ ] Verify every canonical skill's exact name against current evidence.
+- [ ] Verify every canonical skill category/type.
+- [ ] Verify exact Ki cost.
+- [ ] Verify exact Stamina cost where applicable.
+- [ ] Verify acquisition route.
+- [ ] Verify CaC availability.
+- [ ] Verify race restrictions.
+- [ ] Verify gender restrictions.
+- [ ] Verify character-only status.
+- [ ] Verify Ultimate Finish requirement where acquisition depends on it.
+- [ ] Verify DLC/update provenance.
+- [ ] Verify version-sensitive mechanics.
+- [ ] Verify mechanics/inputs.
+- [ ] Verify source provenance.
+- [ ] Verify verification date.
+- [ ] Resolve or explicitly document every remaining nullable/uncertain field.
+- [ ] Reconcile duplicates across historical skill research batches.
+- [ ] Promote only evidence-backed fields into canonical data.
+- [ ] Create or complete hard-written prose for every canonical skill.
+- [ ] Cross-link every skill to quests, mentors, characters, DLC, and related records.
+- [ ] Build a final skill completeness audit showing no unexplained gaps.
+
+## 29.5 Parallel Quests — remaining exhaustive work beyond unlock fields
+
+- [ ] Verify every canonical PQ number/name.
+- [ ] Verify map/arena.
+- [ ] Verify starting enemies.
+- [ ] Verify reinforcement waves.
+- [ ] Verify conditions and triggers.
+- [ ] Verify failure conditions.
+- [ ] Verify Ultimate Finish requirements.
+- [ ] Verify Ultimate Finish effects.
+- [ ] Verify complete reward pools.
+- [ ] Verify reward-slot semantics.
+- [ ] Verify exact drop percentages where evidence exists.
+- [ ] Verify skill rewards.
+- [ ] Verify Super Soul rewards.
+- [ ] Verify clothing/accessory rewards.
+- [ ] Verify item/material rewards.
+- [ ] Verify TP/Zeni/experience information where appropriate.
+- [ ] Verify DLC/version provenance.
+- [ ] Verify record-level sources.
+- [ ] Cross-link every PQ to referenced skills, characters, items, equipment, and DLC.
+- [ ] Write every PQ individually.
+- [ ] Add farming notes.
+- [ ] Preserve unresolved reward semantics rather than inventing certainty.
+
+## 29.6 Awoken / Transformations
+
+- [ ] Complete exhaustive manifest.
+- [ ] Verify CaC vs character-only.
+- [ ] Verify race/gender restrictions.
+- [ ] Verify stages/forms.
+- [ ] Verify resource requirements.
+- [ ] Verify prerequisites.
+- [ ] Verify effects/stat modifiers.
+- [ ] Verify drain/regen behavior.
+- [ ] Verify form-specific mechanics.
+- [ ] Verify DLC/version provenance.
+- [ ] Write individual transformation pages.
+- [ ] Cross-link transformations to races, skills, characters, quests, and DLC.
+
+## 29.7 Expert Missions
+
+- [ ] Complete EM01–EM27 manifest.
+- [ ] Verify mission numbers/names.
+- [ ] Verify enemy/boss behavior.
+- [ ] Verify Giant Ki Blast mechanics.
+- [ ] Verify phases/objectives.
+- [ ] Verify rewards/drop pools.
+- [ ] Verify skill drops.
+- [ ] Verify first-clear vs repeat behavior.
+- [ ] Verify online/offline mechanics.
+- [ ] Verify version differences.
+- [ ] Write individual EM pages.
+- [ ] Add practical mechanics/strategy documentation.
+
+## 29.8 Characters
+
+- [ ] Verify canonical roster count against current evidence.
+- [ ] Reconcile base characters, forms, presets, bosses, NPCs, and partners.
+- [ ] Verify DLC character records.
+- [ ] Verify race/species.
+- [ ] Verify playable/NPC/boss/partner status.
+- [ ] Verify forms and presets.
+- [ ] Verify unlock routes.
+- [ ] Verify DLC/update provenance.
+- [ ] Verify associated skills.
+- [ ] Verify associated Super Souls.
+- [ ] Verify quest appearances.
+- [ ] Verify Partner Customization eligibility and keys.
+- [ ] Write individual character entries.
+- [ ] Add aliases/search terms.
+- [ ] Cross-link characters to skills, quests, DLC, and related systems.
+
+## 29.9 Super Souls
+
+- [ ] Establish complete manifest.
+- [ ] Verify exact names/effect text.
+- [ ] Verify activation conditions.
+- [ ] Verify duration/stacking.
+- [ ] Verify Limit Burst.
+- [ ] Verify acquisition/rotation.
+- [ ] Verify DLC/update/event provenance.
+- [ ] Verify race/form/skill interactions.
+- [ ] Write individual Super Soul entries.
+- [ ] Cross-link Super Souls to builds, skills, characters, quests, and equipment.
+
+## 29.10 Equipment / QQ Bangs / Items
+
+- [ ] Establish complete clothing manifest.
+- [ ] Verify clothing names/stats/slots.
+- [ ] Verify clothing sources and set relationships.
+- [ ] Verify accessory effects/sources.
+- [ ] Verify mixing recipes/materials.
+- [ ] Verify QQ Bang outcomes and observed six-stat outputs.
+- [ ] Document RNG/variation behavior.
+- [ ] Establish complete item/material/capsule manifest.
+- [ ] Verify item effects and shop/mission/mixing sources.
+- [ ] Verify TP Medal, Zeni, Dragon Ball, and rare-material uses.
+- [ ] Build searchable clothing → QQ Bang → stat relationships.
+- [ ] Write individual equipment/item entries.
+
+## 29.11 Story / Future Saga / Time Rifts / Conton City
+
+- [ ] Complete story chapter/mission manifest.
+- [ ] Verify mission ordering/objectives/enemies.
+- [ ] Verify story unlocks/rewards/prerequisites.
+- [ ] Verify branching and alternate conditions.
+- [ ] Verify Extra Story / Infinite History progression.
+- [ ] Verify Future Saga chapters/content.
+- [ ] Verify Time Rift locations and NPC chains.
+- [ ] Verify Conton City locations, shops, mentors, vendors, and progression gates.
+- [ ] Write exhaustive walkthroughs and location pages.
+
+## 29.12 Shops / Rewards / Raids / Events
+
+- [ ] Complete Skill Shop inventory.
+- [ ] Complete TP Medal Shop inventory.
+- [ ] Complete Clothing Shop inventory.
+- [ ] Complete Item Shop inventory.
+- [ ] Complete Accessory Shop inventory.
+- [ ] Track rotations/history.
+- [ ] Verify unlock/progression requirements.
+- [ ] Verify prices.
+- [ ] Verify DLC restrictions.
+- [ ] Distinguish historical vs current availability.
+- [ ] Establish historical event/raid manifest.
+- [ ] Verify raid bosses/reward pools/exclusive skills/Super Souls/equipment/Partner Keys.
+- [ ] Verify event timing/recurrence and historical availability.
+- [ ] Verify Crystal Raid rules/rewards.
+
+## 29.13 Shenron / Dragon Balls
+
+- [ ] Verify all wishes.
+- [ ] Verify wish unlock conditions.
+- [ ] Verify Dragon Ball farming routes.
+- [ ] Verify time/availability constraints.
+- [ ] Verify character/skill/item/material wishes.
+- [ ] Write every wish and acquisition method.
+
+## 29.14 DLC / Updates / Version History
+
+- [ ] Complete DLC pack manifest.
+- [ ] Verify Super Pass.
+- [ ] Verify Extra Pass.
+- [ ] Verify Ultra Packs.
+- [ ] Verify Legendary Pack.
+- [ ] Verify Hero of Justice Pack.
+- [ ] Verify Future Saga chapters.
+- [ ] Verify DAIMA content.
+- [ ] Verify Legend Patrol/platform-specific content.
+- [ ] Verify free updates.
+- [ ] Track level-cap history.
+- [ ] Track skill changes.
+- [ ] Track character changes.
+- [ ] Track event changes.
+- [ ] Track historical availability.
+
+## 29.15 Mechanics Encyclopedia
+
+- [ ] Document Ki/stamina systems.
+- [ ] Document stamina break, vanish, guard, perfect block/just guard, step/step vanish, dash, attack strings, charged attacks, and Ki cancel.
+- [ ] Document stamina damage, Ki damage, strike vs Ki Blast scaling, grabs, counters, armor/super armor, hyper armor, I-frames, tracking, knockback/knockdown.
+- [ ] Document ground/air behavior and giant-character mechanics.
+- [ ] Document raid-boss and Expert Mission mechanics.
+- [ ] Document Dual Ultimate, customization, friendship, drop/reward, RNG, Z-Rank, time-limit, and AI behavior systems.
+- [ ] Cross-link mechanics to affected records.
+
+## 29.16 Builds / Farming / Completion
+
+- [ ] Create beginner and race/gender-specific CaC builds.
+- [ ] Create strike, Ki Blast, hybrid, PvE, Expert Mission, raid, farming, PvP-reference, and Awoken-specific builds.
+- [ ] Document QQ Bang recommendations with sourced reasoning.
+- [ ] Document Super Soul recommendations with documented effects.
+- [ ] Explain skill synergies.
+- [ ] Build skill/PQ/TP Medal/Zeni/Dragon Ball/Super Soul/clothing/QQ Bang/level/friendship/Partner Key/raid/Crystal Raid/event farming hubs.
+- [ ] Create skill, character, PQ, DLC, Super Soul, and equipment completion checklists.
+
+## 29.17 Sources / automation / presentation
+
+- [ ] Establish and document source hierarchy.
+- [ ] Prefer in-game evidence for exact mechanics.
+- [ ] Use official Bandai/Dimps material for release/DLC facts where available.
+- [ ] Use established references for discovery and cross-checking.
+- [ ] Mark community evidence as community evidence.
+- [ ] Track source date, verification date, conflicts, and staleness.
+- [ ] Verify scanner against the entire current tree.
+- [ ] Add duplicate-record checker.
+- [ ] Add missing-required-field checker.
+- [ ] Add orphan-reference checker.
+- [ ] Add JSON schema validation.
+- [ ] Add Markdown/front-matter validation.
+- [ ] Add search-index completeness validation.
+- [ ] Add hard-writing completeness validation.
+- [ ] Add source URL validation where practical.
+- [ ] Add stale-verification report.
+- [ ] Add canonical-count reconciliation report.
+- [ ] Make CI output actionable.
+- [ ] Resolve opaque pre-step GitHub Actions failures when actionable infrastructure evidence becomes available.
+- [ ] Verify Pages deployment after site changes.
+- [ ] Verify all navigation URLs resolve.
+- [ ] Add category landing pages.
+- [ ] Add record cards/tables where appropriate.
+- [ ] Add mobile navigation polish.
+- [ ] Add related-content blocks.
+- [ ] Add source/verification visual treatment.
+- [ ] Add last-updated metadata.
+- [ ] Add generated recently-researched, needs-verification, coverage, and orphan-page dashboards.
+
+## 29.18 Discovery rule for every future cycle
+
+- [ ] Before editing, inspect the live canonical data and current repository state.
+- [ ] If research reveals a new task, append it here immediately as a new unchecked item.
+- [ ] If that task is completed in the same cycle, mark the newly appended item `[x]` and document the evidence/commit in the handoff.
+- [ ] If a task is partially completed, leave the ledger item `[~]` and append a dated detail entry.
+- [ ] Never delete a completed item just because the repository later changes.
+- [ ] Never silently remove an unresolved item; use a dated correction/supersession entry.
+- [ ] At cycle end, reconcile this ledger against `docs/AI-CONTINUATION-PROMPT.md`, canonical data, audit, and changelog.
