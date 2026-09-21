@@ -1146,3 +1146,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Evidence scope preserved: canonical update was limited to the unresolved ki_cost field; no unsupported combat mechanics were imported.
 - [x] Post-write canonical validation: **428 records / 0 duplicate IDs / 5 nullable ki_cost records**.
 - [ ] Next unresolved Ki-cost queue: **Meteor Crash, Fighting Pose C, Psycho Escape, Kaioken Kamehameha**, with Dimension Cannon retained as the documented Stamina-only exception.
+
+
+### 2026-09-21 — Master ledger completion marking: remaining bounded Ki-cost batch
+- [x] **Meteor Crash Ki-cost verification completed: 100 Ki base activation.** Current skill evidence also documents continued input consuming additional Ki to slightly more than 300 Ki total; the canonical numeric field records the base listed cost and preserves the variable-cost semantics in `ki_cost_note`.
+- [x] **Fighting Pose C Ki-cost verification completed: 0 Ki.** Current skill evidence explicitly lists 0 Ki.
+- [x] **Psycho Escape resource-cost verification completed: 0 Ki / 200 Stamina.** The move is an Evasive; current evidence explicitly lists 200 Stamina, so no Ki cost was inferred.
+- [x] **Kaioken Kamehameha Ki-cost verification completed: 200 Ki.** Current skill evidence explicitly lists 200 Ki.
+- [x] Post-write canonical validation completed: **428 records / 0 duplicate IDs / 1 nullable `ki_cost` record**. The sole nullable record is **Dimension Cannon**, intentionally preserved as a 300-Stamina Evasive rather than assigning an unsupported Ki value.
+- [ ] Next skill workstream: recompute the live acquisition/DLC-version provenance census and select the next bounded evidence-backed canonical batch; do not reopen completed cost records unless new contradictory evidence appears.
+
+> Earlier unchecked skill-cost queue entries remain permanently preserved under the append-only ledger rule. This dated entry is the authoritative completion marking for the four records above.
