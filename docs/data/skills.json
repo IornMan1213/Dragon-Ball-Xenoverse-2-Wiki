@@ -9578,11 +9578,12 @@
       "source_quest": "Yamcha mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 0 Ki used.",
       "id": "skill-fake-death",
       "source_mentor": [
         "mentor-yamcha"
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "name": "Wolf Fang Fist",
@@ -9605,11 +9606,12 @@
       "source_quest": "Yamcha mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-wolf-fang-fist",
       "source_mentor": [
         "mentor-yamcha"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Ki Blast Thrust",
@@ -9632,11 +9634,12 @@
       "source_quest": "Yamcha mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-ki-blast-thrust",
       "source_mentor": [
         "mentor-yamcha"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Spirit Ball",
@@ -9659,11 +9662,12 @@
       "source_quest": "Yamcha mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300 Ki used.",
       "id": "skill-spirit-ball",
       "source_mentor": [
         "mentor-yamcha"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Bomber DX",
@@ -9686,11 +9690,12 @@
       "source_quest": "Nappa mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-bomber-dx",
       "source_mentor": [
         "mentor-nappa"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Arm Crash",
@@ -9713,11 +9718,12 @@
       "source_quest": "Nappa mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-arm-crash",
       "source_mentor": [
         "mentor-nappa"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Genocide Shell",
@@ -9740,11 +9746,12 @@
       "source_quest": "Nappa mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
       "id": "skill-genocide-shell",
       "source_mentor": [
         "mentor-nappa"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Break Cannon",
@@ -9767,11 +9774,12 @@
       "source_quest": "Nappa mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300+ Ki used.",
       "id": "skill-break-cannon",
       "source_mentor": [
         "mentor-nappa"
-      ]
+      ],
+      "ki_cost": "300+"
     },
     {
       "name": "Double Sunday",
