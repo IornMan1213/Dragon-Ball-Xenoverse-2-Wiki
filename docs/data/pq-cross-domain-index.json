@@ -1,13 +1,48 @@
 {
-  "schema_version":"1.0",
-  "scope":"PQ 1-186",
-  "forward_index":"docs/data/pq-reward-relationships.json",
-  "reverse_indexes_to_generate":[
-    {"entity":"skills","key":"skill_id","value":"pq_ids"},
-    {"entity":"super_souls","key":"super_soul_id","value":"pq_ids"},
-    {"entity":"equipment","key":"equipment_id","value":"pq_ids"},
-    {"entity":"characters","key":"character_id","value":"pq_ids"},
-    {"entity":"dlc","key":"dlc_id","value":"pq_ids"}
+  "schema_version": "1.0",
+  "scope": "PQ 1-186",
+  "forward_index": "docs/data/pq-reward-relationships.json",
+  "reverse_indexes_to_generate": [
+    {
+      "entity": "skills",
+      "key": "skill_id",
+      "value": "pq_ids",
+      "report": "docs/data/pq-skill-crosslink-report.json"
+    },
+    {
+      "entity": "super_souls",
+      "key": "super_soul_id",
+      "value": "pq_ids",
+      "report": "docs/data/pq-super-soul-crosslink-report.json"
+    },
+    {
+      "entity": "equipment",
+      "key": "equipment_id",
+      "value": "pq_ids",
+      "report": "docs/data/pq-equipment-crosslink-report.json"
+    },
+    {
+      "entity": "accessories",
+      "key": "accessory_id",
+      "value": "pq_ids",
+      "report": "docs/data/pq-accessory-crosslink-report.json"
+    },
+    {
+      "entity": "characters",
+      "key": "character_id",
+      "value": "pq_ids"
+    },
+    {
+      "entity": "dlc",
+      "key": "dlc_id",
+      "value": "pq_ids"
+    }
   ],
-  "completion_rule":"Every explicitly populated reward relationship in canonical PQ batch data must resolve to one normalized target record or be recorded as unresolved/conflict."
+  "completion_rule": "Every explicitly populated reward relationship in canonical PQ batch data must resolve to one normalized target record or be recorded as unresolved/conflict.",
+  "relationship_reports": {
+    "skills": "docs/data/pq-skill-crosslink-report.json",
+    "equipment": "docs/data/pq-equipment-crosslink-report.json",
+    "accessories": "docs/data/pq-accessory-crosslink-report.json",
+    "super_souls": "docs/data/pq-super-soul-crosslink-report.json"
+  }
 }
