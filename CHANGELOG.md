@@ -723,3 +723,9 @@
 - Final live validation shows **33 canonical mentors / 21 linked mentors / 73 edges / 73 unique skill endpoints / 0 unresolved / 0 broken endpoints**. The immediately preceding “23 linked mentors” figure was an arithmetic overstatement and is corrected here.
 - The 14 promoted edges are unchanged, and Android 17 remains absent from the canonical mentor layer.
 - Exact next batch remains **Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl**.
+
+### 2026-09-21 cycle update — Cooler/Slug/Buu/Gohan-Videl mentor-skill reconciliation
+- Promoted **14 deterministic mentor→skill edges**: Cooler (Final Form) (3 new), Lord Slug (3 new), Majin Buu (4), and Gohan (Adult) and Videl (4). Existing Cooler Shadow Crusher and Lord Slug Darkness Rush edges were preserved without duplication.
+- Live report totals: **33 canonical mentors / 25 linked mentors / 87 edges / 87 unique skill endpoints / 0 unresolved / 0 broken endpoints**.
+- No skill acquisition semantics were changed.
+- Exact next batch: **Gotenks, Turles, Broly, and God of Destruction Beerus**, using the same lesson↔skill-ID↔source_mentor parity check.
