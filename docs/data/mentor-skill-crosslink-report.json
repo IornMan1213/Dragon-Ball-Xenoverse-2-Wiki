@@ -3,8 +3,8 @@
   "game": "Dragon Ball Xenoverse 2",
   "generated_by": "manual_canonical_sync_2026-09-21",
   "canonical_mentor_records": 33,
-  "mentors_with_skill_links": 27,
-  "mentor_to_skill_edge_count": 103,
+  "mentors_with_skill_links": 29,
+  "mentor_to_skill_edge_count": 116,
   "forward_edges": [
     {
       "mentor_id": "mentor-android-16",
@@ -47,26 +47,6 @@
       "skill_id": "skill-power-blitz"
     },
     {
-      "mentor_id": "mentor-beerus",
-      "mentor_name": "God of Destruction Beerus",
-      "skill_id": "skill-god-of-destruction-s-anger"
-    },
-    {
-      "mentor_id": "mentor-beerus",
-      "mentor_name": "God of Destruction Beerus",
-      "skill_id": "skill-god-of-destruction-s-rampage"
-    },
-    {
-      "mentor_id": "mentor-beerus",
-      "mentor_name": "God of Destruction Beerus",
-      "skill_id": "skill-god-of-destruction-s-wrath"
-    },
-    {
-      "mentor_id": "mentor-beerus",
-      "mentor_name": "God of Destruction Beerus",
-      "skill_id": "skill-sphere-of-destruction"
-    },
-    {
       "mentor_id": "mentor-broly",
       "mentor_name": "Broly",
       "skill_id": "skill-blaster-meteor"
@@ -85,6 +65,26 @@
       "mentor_id": "mentor-broly",
       "mentor_name": "Broly",
       "skill_id": "skill-gigantic-omega"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-body-change"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-fighting-pose-a"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-fighting-pose-f"
+    },
+    {
+      "mentor_id": "mentor-ginyu",
+      "mentor_name": "Captain Ginyu",
+      "skill_id": "skill-milky-cannon"
     },
     {
       "mentor_id": "mentor-cell",
@@ -167,44 +167,24 @@
       "skill_id": "skill-death-slicer"
     },
     {
-      "mentor_id": "mentor-ginyu",
-      "mentor_name": "Captain Ginyu",
-      "skill_id": "skill-body-change"
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-anger"
     },
     {
-      "mentor_id": "mentor-ginyu",
-      "mentor_name": "Captain Ginyu",
-      "skill_id": "skill-fighting-pose-a"
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-rampage"
     },
     {
-      "mentor_id": "mentor-ginyu",
-      "mentor_name": "Captain Ginyu",
-      "skill_id": "skill-fighting-pose-f"
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-god-of-destruction-s-wrath"
     },
     {
-      "mentor_id": "mentor-ginyu",
-      "mentor_name": "Captain Ginyu",
-      "skill_id": "skill-milky-cannon"
-    },
-    {
-      "mentor_id": "mentor-gohan-kid",
-      "mentor_name": "Gohan (Kid)",
-      "skill_id": "skill-evil-ray-strike"
-    },
-    {
-      "mentor_id": "mentor-gohan-kid",
-      "mentor_name": "Gohan (Kid)",
-      "skill_id": "skill-evil-rise-strike"
-    },
-    {
-      "mentor_id": "mentor-gohan-kid",
-      "mentor_name": "Gohan (Kid)",
-      "skill_id": "skill-explosive-assault"
-    },
-    {
-      "mentor_id": "mentor-gohan-kid",
-      "mentor_name": "Gohan (Kid)",
-      "skill_id": "skill-masenko"
+      "mentor_id": "mentor-beerus",
+      "mentor_name": "God of Destruction Beerus",
+      "skill_id": "skill-sphere-of-destruction"
     },
     {
       "mentor_id": "mentor-gohan-videl",
@@ -227,6 +207,26 @@
       "skill_id": "skill-justice-rush"
     },
     {
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "skill_id": "skill-evil-ray-strike"
+    },
+    {
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "skill_id": "skill-evil-rise-strike"
+    },
+    {
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "skill_id": "skill-explosive-assault"
+    },
+    {
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "skill_id": "skill-masenko"
+    },
+    {
       "mentor_id": "mentor-goku",
       "mentor_name": "Goku",
       "skill_id": "skill-instant-transmission"
@@ -235,6 +235,16 @@
       "mentor_id": "mentor-goku",
       "mentor_name": "Goku",
       "skill_id": "skill-spirit-bomb"
+    },
+    {
+      "mentor_id": "mentor-goku",
+      "mentor_name": "Goku",
+      "skill_id": "skill-super-kamehameha"
+    },
+    {
+      "mentor_id": "mentor-goku",
+      "mentor_name": "Goku",
+      "skill_id": "skill-x10-kamehameha"
     },
     {
       "mentor_id": "mentor-gotenks",
@@ -292,6 +302,26 @@
       "skill_id": "skill-time-skip-jump-spike"
     },
     {
+      "mentor_id": "mentor-jaco",
+      "mentor_name": "Jaco",
+      "skill_id": "skill-elite-beam"
+    },
+    {
+      "mentor_id": "mentor-jaco",
+      "mentor_name": "Jaco",
+      "skill_id": "skill-elite-shooting"
+    },
+    {
+      "mentor_id": "mentor-jaco",
+      "mentor_name": "Jaco",
+      "skill_id": "skill-hero-s-pose"
+    },
+    {
+      "mentor_id": "mentor-jaco",
+      "mentor_name": "Jaco",
+      "skill_id": "skill-super-elite-combo"
+    },
+    {
       "mentor_id": "mentor-krillin",
       "mentor_name": "Krillin",
       "skill_id": "skill-destructo-disc"
@@ -310,6 +340,31 @@
       "mentor_id": "mentor-krillin",
       "mentor_name": "Krillin",
       "skill_id": "skill-scatter-kamehameha"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-eye-beam"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-rush-melee"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-rush-ranged"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-darkness-twin-star"
+    },
+    {
+      "mentor_id": "mentor-slug",
+      "mentor_name": "Lord Slug",
+      "skill_id": "skill-evil-eyes"
     },
     {
       "mentor_id": "mentor-majin-buu",
@@ -357,6 +412,21 @@
       "skill_id": "skill-dancing-parapara"
     },
     {
+      "mentor_id": "mentor-pan",
+      "mentor_name": "Pan",
+      "skill_id": "skill-feint-shot"
+    },
+    {
+      "mentor_id": "mentor-pan",
+      "mentor_name": "Pan",
+      "skill_id": "skill-maiden-blast"
+    },
+    {
+      "mentor_id": "mentor-pan",
+      "mentor_name": "Pan",
+      "skill_id": "skill-prepare-to-be-punished"
+    },
+    {
       "mentor_id": "mentor-piccolo",
       "mentor_name": "Piccolo",
       "skill_id": "skill-evil-explosion"
@@ -395,31 +465,6 @@
       "mentor_id": "mentor-raditz",
       "mentor_name": "Raditz",
       "skill_id": "skill-weekend"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-eye-beam"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-rush-melee"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-rush-ranged"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-darkness-twin-star"
-    },
-    {
-      "mentor_id": "mentor-slug",
-      "mentor_name": "Lord Slug",
-      "skill_id": "skill-evil-eyes"
     },
     {
       "mentor_id": "mentor-tien",
@@ -482,6 +527,26 @@
       "skill_id": "skill-galick-gun"
     },
     {
+      "mentor_id": "mentor-whis",
+      "mentor_name": "Whis",
+      "skill_id": "skill-finishing-blow"
+    },
+    {
+      "mentor_id": "mentor-whis",
+      "mentor_name": "Whis",
+      "skill_id": "skill-prelude-to-destruction"
+    },
+    {
+      "mentor_id": "mentor-whis",
+      "mentor_name": "Whis",
+      "skill_id": "skill-strike-of-revelation"
+    },
+    {
+      "mentor_id": "mentor-whis",
+      "mentor_name": "Whis",
+      "skill_id": "skill-symphonic-destruction"
+    },
+    {
       "mentor_id": "mentor-yamcha",
       "mentor_name": "Yamcha",
       "skill_id": "skill-fake-death"
@@ -532,13 +597,14 @@
     "2026-09-21 reconciliation: Zarbon, Dodoria, Captain Ginyu, and Frieza (1st Form) lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Frieza's Death Ball edge was already present and was not duplicated.",
     "2026-09-21 reconciliation: Android 18, Android 16, Cell (Perfect), and Hercule lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The requested Android 17 mentor is not present in the canonical 33-mentor layer, so no unsupported Android 17 relationship was invented.",
     "2026-09-21 reconciliation: Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Existing Cooler Shadow Crusher and Lord Slug Darkness Rush edges were preserved without duplication.",
-    "2026-09-21 reconciliation: Gotenks, Turles, Broly, and God of Destruction Beerus lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The Gotenks ultimate route retains its distinct canonical skill ID despite sharing the displayed skill name with the Super Ghost Kamikaze Attack route."
+    "2026-09-21 reconciliation: Gotenks, Turles, Broly, and God of Destruction Beerus lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The Gotenks ultimate route retains its distinct canonical skill ID despite sharing the displayed skill name with the Super Ghost Kamikaze Attack route.",
+    "2026-09-21 reconciliation: Whis, Pan, Jaco, and Goku lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Pan's existing Dancing Parapara edge and Goku's existing Spirit Bomb/Instant Transmission edges were preserved without duplication."
   ],
   "validation": {
     "canonical_mentor_records": 33,
-    "mentors_with_skill_links": 27,
-    "mentor_to_skill_edge_count": 103,
-    "unique_skill_endpoints": 103,
+    "mentors_with_skill_links": 29,
+    "mentor_to_skill_edge_count": 116,
+    "unique_skill_endpoints": 116,
     "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0
   }
