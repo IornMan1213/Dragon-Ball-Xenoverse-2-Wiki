@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_accessory",
   "canonical_pq_records": 186,
-  "canonical_identity_records": 88,
+  "canonical_identity_records": 96,
   "research_pq_records": 45,
   "matched_forward_edges": [
     {
@@ -11,7 +11,26 @@
       "target_id": "accr-012",
       "target_name": "Piccolo's Turban",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-005",
+      "pq_number": 5,
+      "target_id": "accr-089",
+      "target_name": "Four-Star Dragon Ball Hat",
+      "status": "identity_matched",
+      "source_backed": true,
+      "source": "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories"
+    },
+    {
+      "pq_id": "pq-009",
+      "pq_number": 9,
+      "target_id": "accr-090",
+      "target_name": "Chiaotzu's Hat (With Collar)",
+      "status": "identity_matched",
+      "source_backed": true,
+      "source": "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories"
     },
     {
       "pq_id": "pq-025",
@@ -19,7 +38,8 @@
       "target_id": "accr-014",
       "target_name": "Goku's Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-028",
@@ -27,7 +47,17 @@
       "target_id": "accr-039",
       "target_name": "Android 19's Hat",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-027",
+      "pq_number": 27,
+      "target_id": "accr-091",
+      "target_name": "Dore's Scouter",
+      "status": "identity_matched",
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-022",
@@ -35,7 +65,26 @@
       "target_id": "accr-006",
       "target_name": "Tapion's Sword",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-051",
+      "pq_number": 51,
+      "target_id": "accr-092",
+      "target_name": "Great Saiyaman Bandana 1",
+      "status": "identity_matched",
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-053",
+      "pq_number": 53,
+      "target_id": "accr-093",
+      "target_name": "Great Saiyaman Bandana 2",
+      "status": "identity_matched",
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-063",
@@ -43,7 +92,35 @@
       "target_id": "accr-015",
       "target_name": "Goku Wig (Super Saiyan)",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq_id": "pq-072",
+      "pq_number": 72,
+      "target_id": "accr-094",
+      "target_name": "Jaco's State-of-the-Art Radio",
+      "status": "identity_matched",
+      "source_backed": true,
+      "source": "https://dragonball.fandom.com/wiki/Galactic_Receiver"
+    },
+    {
+      "pq_id": "pq-073",
+      "pq_number": 73,
+      "target_id": "accr-095",
+      "target_name": "Tagoma's Scouter",
+      "status": "identity_matched",
+      "source_backed": true,
+      "source": "https://dragonball.fandom.com/wiki/Scouter"
+    },
+    {
+      "pq_id": "pq-076",
+      "pq_number": 76,
+      "target_id": "accr-096",
+      "target_name": "SSGSS Goku Wig",
+      "status": "identity_matched",
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-093",
@@ -51,7 +128,8 @@
       "target_id": "accr-013",
       "target_name": "Pan's Bandana",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-110",
@@ -59,7 +137,8 @@
       "target_id": "accr-018",
       "target_name": "SS4 Wig & Tail (Goku)",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-111",
@@ -67,7 +146,8 @@
       "target_id": "accr-028",
       "target_name": "Resistance Helmet",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-105",
@@ -75,7 +155,8 @@
       "target_id": "accr-027",
       "target_name": "Android 13's Hat",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-160",
@@ -83,7 +164,8 @@
       "target_id": "accr-034",
       "target_name": "Red Ribbon Army Helmet",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-162",
@@ -91,7 +173,8 @@
       "target_id": "accr-016",
       "target_name": "Gohan (Beast) Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-168",
@@ -99,7 +182,8 @@
       "target_id": "accr-017",
       "target_name": "Videl (DB Super) Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-159",
@@ -107,7 +191,8 @@
       "target_id": "accr-033",
       "target_name": "Dr. Hedo Hood",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-179",
@@ -115,7 +200,8 @@
       "target_id": "accr-019",
       "target_name": "SS4 Goku (DAIMA) Wig & Tail",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-180",
@@ -123,7 +209,8 @@
       "target_id": "accr-020",
       "target_name": "SS3 Vegeta (DAIMA) Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-181",
@@ -131,7 +218,8 @@
       "target_id": "accr-021",
       "target_name": "Glorio Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-181",
@@ -139,7 +227,8 @@
       "target_id": "accr-022",
       "target_name": "Panzy Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-182",
@@ -147,7 +236,8 @@
       "target_id": "accr-023",
       "target_name": "Golden Frieza Head",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-183",
@@ -155,7 +245,8 @@
       "target_id": "accr-024",
       "target_name": "Broly Wig (Black Hair, Normal)",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-184",
@@ -163,7 +254,8 @@
       "target_id": "accr-025",
       "target_name": "Dragon Ball Balloon",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-185",
@@ -171,7 +263,8 @@
       "target_id": "accr-026",
       "target_name": "Goku (Ultra Supervillain Quelled) Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-152",
@@ -179,7 +272,8 @@
       "target_id": "accr-029",
       "target_name": "Android 17 (DB Super) Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-154",
@@ -187,7 +281,8 @@
       "target_id": "accr-030",
       "target_name": "King Vegeta (DB Super) Wig",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-155",
@@ -195,7 +290,8 @@
       "target_id": "accr-031",
       "target_name": "Gamma 2's Helmet",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
       "pq_id": "pq-156",
@@ -203,7 +299,8 @@
       "target_id": "accr-032",
       "target_name": "Gamma 1's Helmet",
       "status": "identity_matched",
-      "source_backed": true
+      "source_backed": true,
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "reverse_edges": [
@@ -248,6 +345,26 @@
       ]
     },
     {
+      "target_id": "accr-090",
+      "target_name": "Chiaotzu's Hat (With Collar)",
+      "pq_ids": [
+        "pq-009"
+      ],
+      "pq_numbers": [
+        9
+      ]
+    },
+    {
+      "target_id": "accr-091",
+      "target_name": "Dore's Scouter",
+      "pq_ids": [
+        "pq-027"
+      ],
+      "pq_numbers": [
+        27
+      ]
+    },
+    {
       "target_id": "accr-033",
       "target_name": "Dr. Hedo Hood",
       "pq_ids": [
@@ -265,6 +382,16 @@
       ],
       "pq_numbers": [
         184
+      ]
+    },
+    {
+      "target_id": "accr-089",
+      "target_name": "Four-Star Dragon Ball Hat",
+      "pq_ids": [
+        "pq-005"
+      ],
+      "pq_numbers": [
+        5
       ]
     },
     {
@@ -345,6 +472,36 @@
       ],
       "pq_numbers": [
         182
+      ]
+    },
+    {
+      "target_id": "accr-092",
+      "target_name": "Great Saiyaman Bandana 1",
+      "pq_ids": [
+        "pq-051"
+      ],
+      "pq_numbers": [
+        51
+      ]
+    },
+    {
+      "target_id": "accr-093",
+      "target_name": "Great Saiyaman Bandana 2",
+      "pq_ids": [
+        "pq-053"
+      ],
+      "pq_numbers": [
+        53
+      ]
+    },
+    {
+      "target_id": "accr-094",
+      "target_name": "Jaco's State-of-the-Art Radio",
+      "pq_ids": [
+        "pq-072"
+      ],
+      "pq_numbers": [
+        72
       ]
     },
     {
@@ -438,6 +595,26 @@
       ]
     },
     {
+      "target_id": "accr-096",
+      "target_name": "SSGSS Goku Wig",
+      "pq_ids": [
+        "pq-076"
+      ],
+      "pq_numbers": [
+        76
+      ]
+    },
+    {
+      "target_id": "accr-095",
+      "target_name": "Tagoma's Scouter",
+      "pq_ids": [
+        "pq-073"
+      ],
+      "pq_numbers": [
+        73
+      ]
+    },
+    {
       "target_id": "accr-006",
       "target_name": "Tapion's Sword",
       "pq_ids": [
@@ -460,58 +637,10 @@
   ],
   "unmatched_research_records": [
     {
-      "pq_record_id": "pqacc-002",
-      "name": "Four-Star Dragon Ball Hat",
-      "pq_number": 5,
-      "match_status": "unmatched_identity"
-    },
-    {
-      "pq_record_id": "pqacc-003",
-      "name": "Chiaotzu's Hat (With Collar)",
-      "pq_number": 9,
-      "match_status": "unmatched_identity"
-    },
-    {
-      "pq_record_id": "pqacc-006",
-      "name": "Dore's Scouter",
-      "pq_number": 27,
-      "match_status": "unmatched_identity"
-    },
-    {
       "pq_record_id": "pqacc-008",
       "name": "Yamcha's Sword",
       "pq_number": 29,
       "match_status": "conflicted_identity_route"
-    },
-    {
-      "pq_record_id": "pqacc-009",
-      "name": "Great Saiyaman Bandana 1",
-      "pq_number": 51,
-      "match_status": "unmatched_identity"
-    },
-    {
-      "pq_record_id": "pqacc-010",
-      "name": "Great Saiyaman Bandana 2",
-      "pq_number": 53,
-      "match_status": "unmatched_identity"
-    },
-    {
-      "pq_record_id": "pqacc-012",
-      "name": "Jaco's State-of-the-Art Radio",
-      "pq_number": 72,
-      "match_status": "unmatched_identity"
-    },
-    {
-      "pq_record_id": "pqacc-013",
-      "name": "Tagoma's Scouter",
-      "pq_number": 73,
-      "match_status": "unmatched_identity"
-    },
-    {
-      "pq_record_id": "pqacc-014",
-      "name": "SSGSS Goku Wig",
-      "pq_number": 76,
-      "match_status": "unmatched_identity"
     },
     {
       "pq_record_id": "pqacc-016",
