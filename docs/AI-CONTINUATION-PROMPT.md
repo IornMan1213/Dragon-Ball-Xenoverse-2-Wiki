@@ -3386,3 +3386,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Validation: canonical/index **283/283**, identical names, zero duplicates, **60** UF flags, and zero acquisition-critical mismatches.
 - Audit commit: **48a63aab1ec7a7d654c6ca42847f5714c37e07aa**.
 - Exact next task: **audit remaining generic Skill Shop / TP Medal Shop records for concrete prerequisite/timing wording, without treating historical shop prices or rotations as current facts.**
+
+
+### 2026-09-20 cycle update — Skill Shop prerequisite refinement
+- Refined **Punisher Guard** to its documented Skill Shop prerequisite: complete **A Momentous Galactic Battle**, then purchase for **5,000 Zeni**.
+- The price is documented purchase information, not a claim about current shop rotation.
+- Remaining generic Skill Shop / TP Medal Shop records were reviewed conservatively; no unsupported prerequisites were added.
+- Audit commit: **c8bc61a21c33aac846025ad70a25f16ea89dd9ec**.
+- Exact next task: continue checking generic TP Medal Shop and Skill Shop records for concrete prerequisites while preserving historical rotation/price uncertainty.
