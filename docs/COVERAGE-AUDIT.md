@@ -5213,3 +5213,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - CI: no workflow run or status check is exposed for the latest index commit; no CI success claimed.
 - Commits: canonical `6eefd6470e7638488cc7740880028e3769fa5d3f`; index `cc98212b6ace7b56df6cda78efa5c5250a6c3f88`.
 - Exact next batch: recompute the live DLC/free-update source census and choose the next deterministic cluster with a concrete missing endpoint or provenance mismatch; do not reopen reconciled Free Update 1 records unless new contradictory evidence appears.
+
+
+### 2026-09-21 — Emperor's Death Beam provenance correction
+- Live canonical skill census before correction: **452 records / 452 index records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Concrete mismatch: **Emperor's Death Beam** was labeled `Resurrection 'F' Pack`. Xenoverse 2 launch-era TP Medal Shop evidence lists the skill in the base game's shop pool; the Resurrection 'F' Pack label belongs to the earlier Xenoverse context and does not describe this Xenoverse 2 endpoint.
+- Corrected only `dlc_requirement` to **Base Game**, refreshed verification metadata, and added bounded launch-era shop sources. No gameplay or acquisition semantics were rewritten.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values**; index intentionally unchanged because DLC classification is not part of its projection.
+- Evidence: current skill reference plus contemporaneous Xenoverse 2 TP Medal Shop listings/location discussion. citeturn3search0turn3search1turn3search3
+- Canonical commit: `d61bb7e59769b02ea755f720fd58f1539cbabd8a`.
+- Exact next batch: recompute the live DLC/free-update provenance census and identify the next concrete mismatch; preserve intentional composite and character-only labels.
