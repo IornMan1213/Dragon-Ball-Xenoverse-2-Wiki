@@ -3623,3 +3623,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - All seven acquisition types currently present in data are represented by the schema enum; no unsupported or unused enum values remain.
 - Reviewed non-PQ records for obvious route/type contradictions (shop, TP Medal Shop, Shenron, character-only, starting-move, mentor/time-rift routes); no deterministic correction was supported by the current taxonomy/evidence, so no speculative reclassification was made.
 - Exact next task: continue source-evidence auditing for the remaining pooled/multi-source records and inspect repository documentation/validators for any other stale taxonomy assumptions.
+
+
+## 2026-09-20 — validator acquisition taxonomy synchronization
+- Found a second taxonomy mismatch after adding `parallel_quest` to the JSON Schema: `scripts/validate_skills.py` maintained its own `ALLOWED_ACQUISITION` set and still rejected `parallel_quest`.
+- Added `parallel_quest` to the validator allowlist. This is required for the existing canonical `Final Pose` record to pass CI.
+- No canonical skill records or acquisition semantics changed.
+- Validator commit: `214ff9dc34b66dc044383bac75b36675ab6d92ca`.
+- Exact next task: inspect other duplicated acquisition/schema assumptions and run/verify the repository's validation path where supported.
