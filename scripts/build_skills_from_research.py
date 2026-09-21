@@ -150,12 +150,18 @@ def load_local_batches(m,protected=None,blocked=None):
   except (OSError,json.JSONDecodeError) as exc:
    raise RuntimeError(f'Failed to load local research batch {p.name}: {exc}') from exc
   if not isinstance(payload,dict): raise ValueError(f'{p.name}: batch payload must be an object')
+  batch_id=payload.get('batch_id')
+  if not isinstance(batch_id,str) or not batch_id.strip():
+   raise ValueError(f'{p.name}: batch_id must be a non-empty string')
+  batch_status=payload.get('research_status','partially_enriched')
+  if batch_status not in ('indexed','partially_enriched','enriched','page_unavailable'):
+   raise ValueError(f'{p.name}: invalid research_status: {batch_status!r}')
   rs=payload.get('corrections',[]) if payload.get('corrections') else payload.get('records',[])
   if not isinstance(rs,list): raise ValueError(f'{p.name}: corrections/records must be a list')
   for r in rs:
    if not isinstance(r,dict) or not r.get('name'):
     raise ValueError(f'{p.name}: research record must be an object with a name')
-   r=dict(r); r['research_batch']=payload.get('batch_id'); r.setdefault('research_status',payload.get('research_status','partially_enriched')); imported+=1; merge_record(m,r,protected,blocked)
+   r=dict(r); r['research_batch']=batch_id; r.setdefault('research_status',batch_status); imported+=1; merge_record(m,r,protected,blocked)
  return imported
 def build_record(d,p):
  n=d.get('name')
