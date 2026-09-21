@@ -4534,3 +4534,15 @@ Only after data-completeness work, expose the improved structured research surfa
 - The GitHub connector exposed **no pull-request workflow runs** for this commit, so CI is **unavailable/not exposed**, not successful. No validator was changed or weakened.
 - Repository validation remains locally consistent for the bounded batch: 96 canonical accessory identities, 33 matched PQ accessory endpoints, 12 unresolved research identities, and no newly introduced internal citation artifacts in the edited JSON/report files.
 - Exact next batch remains the eight accessory identities listed in the preceding cycle entry.
+
+
+### 2026-09-21 cycle update — PQ accessory identity reconciliation batch 2
+- Live census before editing: **96 canonical accessory identities; 45 PQ accessory research records; 33 matched PQ accessory endpoints; 12 unresolved research identities**.
+- Bounded batch: **Yamcha's Baseball Hat (PQ97), SSGSS Vegeta Wig (PQ100), Bulma (Kid) Wig (PQ149), Great Saiyaman Helmet (PQ51)**.
+- Research/evidence: maintained 186-PQ Steam reward guide confirms Yamcha's Baseball Hat and SSGSS Vegeta Wig; current equipment/accessory reference confirms SSGSS Vegeta Wig and Great Saiyaman Helmet; DLC/reference material establishes Bulma (Kid) Wig as PQ149 content; GameFAQs independently documents the Great Saiyaman Helmet PQ51 acquisition route. Evidence was sufficient for identity + route, but not for unsupported drop rates.
+- Changes: added canonical IDs `accr-097` through `accr-100`; synchronized `docs/data/accessory-pq-canonical-bridge.json` and `docs/data/pq-accessory-crosslink-report.json`; updated `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
+- Evidence limits/conflicts preserved: Great Saiyaman Helmet's NPC spawn behavior is documented as conditional/reported, but no exact probability was inferred. Existing Yamcha's Sword conflict and component-identity records remain unresolved.
+- Validation: all three JSON layers were re-fetched and parsed; canonical identities increased to **100**, matched PQ accessory endpoints to **37**, and unresolved research records to **8**. No data-model fields outside the bounded identity/link scope were rewritten.
+- CI: not yet exposed for the final documentation commit; no CI success is claimed.
+- Commits: `890441d` canonical identities, `d77a023` bridge, `f0a3c07` cross-link report, `229ffd2` coverage audit, `104f89b` changelog.
+- Exact next batch: reconcile the remaining **8 unmatched research identities** in the accessory bridge — **Android 14's Hat (PQ104), Android 15's Sunglasses (PQ unresolved), Bardock (DB Super)'s Scouter (PQ146), Gine (DB Super)'s Accessory (PQ144), Kale's Accessory (PQ148), Caulifla's Accessory (PQ147), Android 17 (DB Super)'s Ranger Accessory (PQ152), and Yamcha's Sword (conflicted PQ29/PQ36 route)**. Keep the component-identity records separate until direct evidence establishes the canonical inventory item.
