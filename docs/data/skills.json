@@ -12442,7 +12442,8 @@
       "id": "skill-flash-strike",
       "source_mentor": [
         "mentor-vegeta"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Final Flash",
@@ -12469,7 +12470,8 @@
       "id": "skill-final-flash",
       "source_mentor": [
         "mentor-vegeta"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "Time Skip/Tremor Pulse",
