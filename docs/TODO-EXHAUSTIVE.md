@@ -1594,3 +1594,13 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 63 exactly-two-source records remaining**.
 - [x] No internal AI/UI/search citation artifacts were introduced.
 - [ ] Next task: recompute the live two-source census and continue the next deterministic acquisition/provenance cluster after PQ174, checking reward-tier/source-PQ consistency before provenance-only strengthening.
+
+
+### 2026-09-21 — Future Saga Chapter 2 skill provenance strengthening
+- [x] Continued the live two-source census after the PQ172/PQ174 batch.
+- [x] Strengthened **God of Destruction's Might (PQ176)** and **Full Power Destruction (PQ177)** with the official Bandai Namco Future Saga Chapter 2 DLC page as a third provenance source.
+- [x] Preserved existing PQ176/PQ177 reward-tier semantics: PQ176 remains the documented basic-reward relationship in the maintained PQ record; PQ177 remains the documented **50% Ultimate Finish bonus-slot** route.
+- [x] Preserved the existing Future Saga Chapter 2 DLC classification and all skill mechanics/restriction fields; no unsupported inference was added.
+- [x] Synchronized canonical/index source projections and verification dates.
+- [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 61 exactly-two-source records remaining**.
+- [ ] Next task: recompute the live two-source census and continue with the next deterministic low-source cluster after PQ177, verifying the source-PQ/reward-tier relationship before adding provenance.
