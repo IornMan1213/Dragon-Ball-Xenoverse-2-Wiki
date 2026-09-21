@@ -6602,3 +6602,12 @@ The repository owner has clarified the continuation contract:
 - CI: inspect exposed workflow/status results; do not claim success when no actionable run is exposed; validators must not be weakened.
 - Commits: `5a36578001b65faa89d57bd29f7572d63be9a628` (canonical), `f10d8b18f74696119ff12c37325751b85c9c351a` (index), `c66e3d9f7d6e73ed729ed8facb4bc2edbb554608` (changelog), `0b56d1da767a6ea78495374fe1a198c5eb986c11` (TODO), plus this handoff commit.
 - Exact next task: **recompute the live two-source census and continue with the next deterministic low-source record after Energy Field, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 final cycle correction — Energy Field validation and commit reconciliation
+- Final live census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 50 exactly-two-source records**.
+- Canonical/index parity is clean for source and verification metadata; Energy Field now has exactly three sources and `last_verified: 2026-09-21`.
+- JSON validation passed for both `docs/data/skills.json` and `docs/data/skills-index.json`; the earlier temporary escaping/duplicate-note issue was repaired before final validation.
+- Final data commits: canonical `ead49d91a7f7c2fb067482c1f2931f6eecc9cf1e`; index `e07d8f7ba32acdbbb87d0d897c2fd11b198b27aa`. Documentation commits: changelog `c66e3d9f7d6e73ed729ed8facb4bc2edbb554608`; TODO `0b56d1da767a6ea78495374fe1a198c5eb986c11`; prior handoff append `8f690f44cc3fa3c297229bd3d5694f4ae4c389d4`.
+- CI/status: current `main` at `e07d8f7ba32acdbbb87d0d897c2fd11b198b27aa` exposes **no combined statuses and no workflow runs**; no CI success is claimed and validators were not weakened.
+- Exact next task: **recompute the live two-source census and continue the next deterministic low-source record after Energy Field, checking acquisition/reward semantics before provenance-only strengthening.**
