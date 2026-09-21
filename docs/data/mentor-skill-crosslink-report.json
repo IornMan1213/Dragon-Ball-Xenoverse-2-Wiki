@@ -3,8 +3,8 @@
   "game": "Dragon Ball Xenoverse 2",
   "generated_by": "manual_canonical_sync_2026-09-21",
   "canonical_mentor_records": 33,
-  "mentors_with_skill_links": 29,
-  "mentor_to_skill_edge_count": 116,
+  "mentors_with_skill_links": 33,
+  "mentor_to_skill_edge_count": 131,
   "forward_edges": [
     {
       "mentor_id": "mentor-android-16",
@@ -45,6 +45,46 @@
       "mentor_id": "mentor-android-18",
       "mentor_name": "Android 18",
       "skill_id": "skill-power-blitz"
+    },
+    {
+      "mentor_id": "mentor-bardock",
+      "mentor_name": "Bardock",
+      "skill_id": "skill-brave-heat"
+    },
+    {
+      "mentor_id": "mentor-bardock",
+      "mentor_name": "Bardock",
+      "skill_id": "skill-rebellion-spear"
+    },
+    {
+      "mentor_id": "mentor-bardock",
+      "mentor_name": "Bardock",
+      "skill_id": "skill-riot-javelin"
+    },
+    {
+      "mentor_id": "mentor-bardock",
+      "mentor_name": "Bardock",
+      "skill_id": "skill-tyrant-lancer"
+    },
+    {
+      "mentor_id": "mentor-bojack",
+      "mentor_name": "Bojack",
+      "skill_id": "skill-grand-smasher"
+    },
+    {
+      "mentor_id": "mentor-bojack",
+      "mentor_name": "Bojack",
+      "skill_id": "skill-psycho-barrier"
+    },
+    {
+      "mentor_id": "mentor-bojack",
+      "mentor_name": "Bojack",
+      "skill_id": "skill-reverse-launcher"
+    },
+    {
+      "mentor_id": "mentor-bojack",
+      "mentor_name": "Bojack",
+      "skill_id": "skill-trap-shooter"
     },
     {
       "mentor_id": "mentor-broly",
@@ -205,6 +245,26 @@
       "mentor_id": "mentor-gohan-videl",
       "mentor_name": "Gohan (Adult) and Videl",
       "skill_id": "skill-justice-rush"
+    },
+    {
+      "mentor_id": "mentor-future-gohan",
+      "mentor_name": "Gohan (Future)",
+      "skill_id": "skill-energy-dome"
+    },
+    {
+      "mentor_id": "mentor-future-gohan",
+      "mentor_name": "Gohan (Future)",
+      "skill_id": "skill-one-handed-kamehameha-mk-ii"
+    },
+    {
+      "mentor_id": "mentor-future-gohan",
+      "mentor_name": "Gohan (Future)",
+      "skill_id": "skill-sonic-rush"
+    },
+    {
+      "mentor_id": "mentor-future-gohan",
+      "mentor_name": "Gohan (Future)",
+      "skill_id": "skill-super-explosive-wave"
     },
     {
       "mentor_id": "mentor-gohan-kid",
@@ -567,6 +627,21 @@
       "skill_id": "skill-wolf-fang-fist"
     },
     {
+      "mentor_id": "mentor-zamasu",
+      "mentor_name": "Zamasu",
+      "skill_id": "skill-god-splitter"
+    },
+    {
+      "mentor_id": "mentor-zamasu",
+      "mentor_name": "Zamasu",
+      "skill_id": "skill-heavenly-arrow"
+    },
+    {
+      "mentor_id": "mentor-zamasu",
+      "mentor_name": "Zamasu",
+      "skill_id": "skill-instant-severance"
+    },
+    {
       "mentor_id": "mentor-zarbon",
       "mentor_name": "Zarbon",
       "skill_id": "skill-audacious-laugh"
@@ -598,13 +673,14 @@
     "2026-09-21 reconciliation: Android 18, Android 16, Cell (Perfect), and Hercule lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The requested Android 17 mentor is not present in the canonical 33-mentor layer, so no unsupported Android 17 relationship was invented.",
     "2026-09-21 reconciliation: Cooler (Final Form), Lord Slug, Majin Buu, and Gohan (Adult) and Videl lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Existing Cooler Shadow Crusher and Lord Slug Darkness Rush edges were preserved without duplication.",
     "2026-09-21 reconciliation: Gotenks, Turles, Broly, and God of Destruction Beerus lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. The Gotenks ultimate route retains its distinct canonical skill ID despite sharing the displayed skill name with the Super Ghost Kamikaze Attack route.",
-    "2026-09-21 reconciliation: Whis, Pan, Jaco, and Goku lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Pan's existing Dancing Parapara edge and Goku's existing Spirit Bomb/Instant Transmission edges were preserved without duplication."
+    "2026-09-21 reconciliation: Whis, Pan, Jaco, and Goku lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Pan's existing Dancing Parapara edge and Goku's existing Spirit Bomb/Instant Transmission edges were preserved without duplication.",
+    "2026-09-21 reconciliation: Gohan (Future), Bardock, Bojack, and Zamasu lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Zamasu's initiation lesson has no canonical skill ID and was intentionally left unlinked."
   ],
   "validation": {
     "canonical_mentor_records": 33,
-    "mentors_with_skill_links": 29,
-    "mentor_to_skill_edge_count": 116,
-    "unique_skill_endpoints": 116,
+    "mentors_with_skill_links": 33,
+    "mentor_to_skill_edge_count": 131,
+    "unique_skill_endpoints": 130,
     "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0
   }
