@@ -3,6 +3,7 @@
 from __future__ import annotations
 import json,re
 from pathlib import Path
+from build_skills_from_research import INDEX_PROJECTION_FIELDS
 try:
     from jsonschema import Draft202012Validator, FormatChecker
 except ImportError:
@@ -80,7 +81,6 @@ def main():
  ikeys=[key(r) for r in ir]
  if keys!=ikeys:errors.append('skills-index.json is not in the same deterministic record order/content key sequence as skills.json')
  for a,b in zip(rs,ir):
-  index_projection_fields=('name','class','subcategory','verification_status','research_status','acquisition_type','sources','unlock_method','ultimate_finish_required','last_verified','race_restriction','notes','mechanics_notes','source_quest','source_quest_or_shop')
  for a,b in zip(rs,ir):
   expected={f:a[f] for f in index_projection_fields if f in a}
   if b != expected: errors.append(f"index projection mismatch for {a.get('name')}")
