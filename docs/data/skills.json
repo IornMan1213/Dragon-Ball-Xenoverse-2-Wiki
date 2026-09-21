@@ -11231,7 +11231,8 @@
       "id": "skill-blaster-shell",
       "source_mentor": [
         "mentor-broly"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Blaster Meteor",
@@ -11285,7 +11286,8 @@
       "id": "skill-gigantic-omega",
       "source_mentor": [
         "mentor-broly"
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "name": "Gigantic Meteor",
@@ -11312,7 +11314,8 @@
       "id": "skill-gigantic-meteor",
       "source_mentor": [
         "mentor-broly"
-      ]
+      ],
+      "ki_cost": 300
     },
     {
       "name": "God of Destruction's Anger",
