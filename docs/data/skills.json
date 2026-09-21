@@ -10463,7 +10463,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Gohan (Beast)",
-      "dlc_requirement": "Future Saga Chapter 1",
+      "dlc_requirement": "Hero of Justice Pack 2",
       "ki_cost": 500,
       "stamina_cost": null,
       "damage_type": "Ki Blast",
@@ -10474,16 +10474,18 @@
       "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. 2026-09-20 verification: current PQ/reward data confirms the documented acquisition relationship; maintained drop-condition data supplies the specific reward tier. 2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_(Beast)",
-        "https://dragonball.fandom.com/wiki/Special_Beam_Cannon_%28Beast%29"
+        "https://dragonball.fandom.com/wiki/Special_Beam_Cannon_%28Beast%29",
+        "https://en.dragon-ball-official.com/news/01_1870.html",
+        "https://www.bandainamcoent.asia/sea/news/dragon-ball-xenoverse-2s-new-paid-dlc-hero-of-justice-pack-2-now-available"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 162,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
+      "notes": "2026-09-20 audit: PQ162's current maintained reward data lists Special Beam Cannon (Beast) in a 45% Ultimate Finish bonus slot; no separate prerequisite is inferred. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 provenance correction: official Hero of Justice Pack 2 documentation lists Special Beam Cannon (Beast) among the DLC's seven skills, and current DLC/PQ mapping places it in Hero of Justice Pack 2 PQ162. The maintained PQ audit records a 45% Ultimate Finish bonus slot; a Steam player-facing guide lists the skill in its Basic Reward presentation, so the reward-tier conflict is preserved rather than normalized.",
       "id": "skill-special-beam-cannon-beast",
       "source_parallel_quests": [
         162
@@ -12806,7 +12808,7 @@
       ]
     }
   ],
-  "record_count": 428,
+  "record_count": 429,
   "skill_id_policy": {
     "format": "skill-{slug}",
     "slug_source": "name",
