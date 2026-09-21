@@ -5303,3 +5303,8 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation: 452 canonical / 452 index / 0 duplicate IDs / 0 nullable ki_cost; all four targets moved from 2 to 3 sources and canonical/index source+verification parity remains synchronized.
 - CI: no success is claimed unless GitHub exposes an actual workflow run/check.
 - Exact next batch: recompute the low-source census and continue with the next deterministic two-source acquisition cluster, prioritizing concrete PQ/reward evidence and cross-field contradictions.
+
+### 2026-09-21 — Legendary Pack 1 provenance strengthening
+- Strengthened four low-source Legendary Pack 1 skill records with official package documentation.
+- Individual PQ relationships remain sourced by the maintained PQ research layer; no drop-rate or reward-tier claims were inferred.
+- Post-write live validation: 452 canonical records; recompute source-count census before next batch.
