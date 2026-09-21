@@ -1200,7 +1200,7 @@
 
 ## 2026-09-21 — Energy Shot low-source provenance strengthening
 - Recomputed the live low-source census before editing: **49 exactly-two-source records**.
-- Strengthened **Energy Shot** from two to three provenance sources with Yhan Game's Xenoverse 2 Parallel Quest guide, independently listing Energy Shot as a **Basic Reward for PQ22 — Dragon Ball Brawl**. citeturn1search2
+- Strengthened **Energy Shot** from two to three provenance sources with Yhan Game's Xenoverse 2 Parallel Quest guide, independently listing Energy Shot as a **Basic Reward for PQ22 — Dragon Ball Brawl**.
 - Preserved the existing PQ22 acquisition endpoint, Basic Reward semantics, Base Game classification, and 100-Ki cost; no unsupported drop probability or Ultimate Finish gate was inferred.
 - Synchronized canonical and index skill data.
 - Post-write target: **48 exactly-two-source records**.
