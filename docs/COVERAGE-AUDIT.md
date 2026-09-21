@@ -4075,3 +4075,9 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Corrected `Fighting Pose K` from `quest_or_mission` to `skill_shop`: its recorded route explicitly says the story unlocks the listing and the skill is purchased from the Skill Shop.
 - No unsupported probabilities, UF gates, or reward semantics were introduced.
 - Canonical: `3dc2c0200bc23ee1bbf2d159722653f15d9afdad`; index: `c7461142afa2ddc9d7918e3e4f7db3e31713c158`.
+
+
+## 2026-09-20 — Final Pose source completion
+- Filled the missing `source_quest_or_shop` for `Final Pose` from its explicit unlock method: Parallel Quest 74 — `Galactic Patrol Away`.
+- Preserved `parallel_quest` acquisition type and all reward/UF semantics.
+- Canonical: `1f5fac03fe0fb4787b62c296bc5374c1463e9ea9`; index: `4bdf986f5aa3aa7e6b7bcad909b30c2d9fdcf472`.
