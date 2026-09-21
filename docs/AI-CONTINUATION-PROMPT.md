@@ -4144,4 +4144,11 @@ Only after data-completeness work, expose the improved structured research surfa
 - Commit: `c8855cd66591779511c70c20332fe6bd6f668515` — Reject unresolved skill corrections during merge.
 - No generated canonical data was manually altered. CI remains unverified because no workflow/status entries are exposed by the GitHub connector for the maintenance commits.
 - Next task: continue auditing merge precedence for duplicate non-correction records and source/field preservation, then update this handoff after the next concrete fix.
+## 2026-09-21 continuation — canonical input integrity
+- Audited the builder's existing-catalog load path against the live `skills-sync.yml` workflow. The workflow rebuilds from the checked-in/generated catalog, so silently replacing an unreadable or malformed existing `skills.json` with an empty map could discard canonical records before validation runs.
+- Also found that duplicate canonical keys in an otherwise readable existing catalog were silently collapsed by a dict comprehension, losing one record without an error.
+- Hardened `load_existing()`: missing output remains valid for a first build, but unreadable/invalid JSON, malformed payloads/records, missing names, and duplicate canonical keys now fail before any generated files are written.
+- Commit: `baffd5b6c02d163a4030070400c079b04dcfb5c4` — Fail loudly on invalid canonical catalog state.
+- No canonical generated data was manually changed. CI remains unverified because the GitHub connector exposes no workflow/status entries for the maintenance commits.
+- Next task: continue auditing duplicate non-correction merge precedence and correction-field preservation; inspect actual batch conventions before changing semantics.
 
