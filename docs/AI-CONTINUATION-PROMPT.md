@@ -6254,3 +6254,14 @@ The repository owner has clarified the continuation contract:
 - Commits: canonical `6eefd6470e7638488cc7740880028e3769fa5d3f`; index `cc98212b6ace7b56df6cda78efa5c5250a6c3f88`.
 - Live census after editing: **452 canonical / 452 index / 0 duplicates / 0 nullable `ki_cost`**; Free Update 1 now has **6 canonical skill records** total (2 named Awoken + 4 newly identified attacks).
 - Exact next batch: **recompute the live DLC/free-update source census and select the next deterministic character-only/DLC completeness mismatch or provenance correction outside the reconciled Free Update 1/2 and DAIMA/Chapter 1/2/3 clusters; preserve intentional composite and character-only classifications.**
+
+### 2026-09-21 continuation — Emperor's Death Beam base-game provenance correction
+- Workstream: **P1 skill DLC/free-update provenance and character-only completeness cleanup**.
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Deterministic mismatch: **Emperor's Death Beam** was labeled `Resurrection 'F' Pack`, but Xenoverse 2 launch-era TP Medal Shop evidence places it in the base game's TP Medal Shop pool; the cited Resurrection 'F' Pack is from the original Xenoverse context and is not the correct Xenoverse 2 DLC classification.
+- Changes: corrected only `dlc_requirement` from `Resurrection 'F' Pack` to `Base Game`, refreshed verification metadata, and added launch-era TP Medal Shop evidence. No cost, mechanics, acquisition, or CaC fields were changed.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` values**. The index was not changed because `dlc_requirement` is outside its projection.
+- Evidence: current dedicated skill reference identifies TP Medal Shop acquisition; contemporaneous Xenoverse 2 TP Medal Shop listings and location discussion place Emperor's Death Beam in the base game's shop pool. citeturn3search0turn3search1turn3search3
+- Canonical commit: `d61bb7e59769b02ea755f720fd58f1539cbabd8a`.
+- CI: no workflow success is claimed unless GitHub exposes an actual run/check.
+- Exact next batch: **recompute the DLC/free-update provenance census and select the next concrete mismatch; prioritize labels whose content model conflicts with Xenoverse 2's actual acquisition/package structure, while preserving intentional character-only/composite labels.**
