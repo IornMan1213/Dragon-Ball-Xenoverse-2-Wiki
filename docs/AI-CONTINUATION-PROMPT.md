@@ -5519,10 +5519,13 @@ Only after data-completeness work, expose the improved structured research surfa
 ### 2026-09-21 — Turles mentor skill Ki-cost verification
 - Live canonical skill census before editing: **428 records; 52 nullable `ki_cost` records**.
 - Bounded batch: **Sudden Storm, Kill Driver, Fruit of the Tree of Might, Meteor Burst** from Turles mentor training.
-- Research/evidence: current Xenoverse 2 skill references explicitly document **200 Ki** for Sudden Storm, **100 Ki** for Kill Driver, **100 Ki** for Fruit of the Tree of Might, and **300 Ki** for Meteor Burst. The repository already contained the Turles mentor endpoints and provenance. citeturn6search7turn6search1turn6search0turn6search3
+- Research/evidence: current Xenoverse 2 skill references explicitly document **200 Ki** for Sudden Storm, **100 Ki** for Kill Driver, **100 Ki** for Fruit of the Tree of Might, and **300 Ki** for Meteor Burst. The repository already contained the Turles mentor endpoints and provenance. Sources: https://dbxv2.fandom.com/wiki/Sudden_Storm; https://dbxv2.fandom.com/wiki/Kill_Driver; https://dbxv2.fandom.com/wiki/Fruit_of_the_Tree_of_Might; https://dbxv2.fandom.com/wiki/Meteor_Burst.
 - Changes: populated only canonical `ki_cost` values and refreshed `last_verified=2026-09-21`. No mechanics, acquisition, restriction, or variable-cost semantics were changed.
 - Validation: canonical skills remain **428/428**, duplicate IDs **0**, nullable `ki_cost` count is now **48**. Targeted records contain the expected costs. No index Ki-cost projection was introduced. Changed canonical text contains no internal AI/UI/search citation artifacts.
 - CI: commit `5d3fd20e96c71a0dddb228b086ea813a0fe33fd2` had no actionable workflow/status result exposed through the repository connector; **no CI success claimed**.
 - Commit: `5d3fd20e96c71a0dddb228b086ea813a0fe33fd2`.
 - Exact next batch: **recompute the live nullable-`ki_cost` census and continue with the next tightly bounded mentor family, prioritizing Broly's four null-cost skills and explicit current `Ki Used` evidence; preserve variable-cost forms rather than flattening them.**
+### 2026-09-21 correction — Turles handoff citation artifact removal
+- The preceding handoff entry accidentally contained an internal tool citation token. It has been replaced with the four plain source URLs above; no canonical data was changed by this correction.
+- Correct canonical commit remains `5d3fd20e96c71a0dddb228b086ea813a0fe33fd2` and live skill census remains **428 records / 48 nullable `ki_cost`**.
 
