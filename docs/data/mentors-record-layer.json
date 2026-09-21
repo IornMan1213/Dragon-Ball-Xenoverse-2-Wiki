@@ -243,8 +243,15 @@
     {
       "id": "mentor-cell",
       "name": "Cell (Perfect)",
-      "lessons": [],
-      "skills": [],
+      "lessons": [
+        {
+          "lesson": "initiation",
+          "skill_id": "skill-perfect-shot"
+        }
+      ],
+      "skills": [
+        "skill-perfect-shot"
+      ],
       "dual_ultimate": null,
       "unlock_requirements": null,
       "friendship_notes": null,
@@ -412,10 +419,15 @@
         {
           "lesson": "initiation",
           "skill_id": "skill-instant-transmission"
+        },
+        {
+          "lesson": "lesson-1",
+          "skill_id": "skill-spirit-bomb"
         }
       ],
       "skills": [
-        "skill-instant-transmission"
+        "skill-instant-transmission",
+        "skill-spirit-bomb"
       ],
       "dual_ultimate": null,
       "unlock_requirements": null,
