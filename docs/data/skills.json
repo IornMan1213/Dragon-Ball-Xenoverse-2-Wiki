@@ -253,7 +253,7 @@
       "ultimate_finish_required": false,
       "ki_cost": 300,
       "mechanics_notes": "300 Ki; replaces the moveset, grants hyper armor, continuously drains about 20 Stamina/sec, and prevents Ultimate/Evasive use while active. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "notes": "Namekian CaC-only Awoken Skill. Requires 300 Ki; has a continuous Stamina drain and no Ultimate/Evasive slot while active.",
       "unlock_method": "Complete the Namekian Awakening quest at Guru's House as a Namekian CaC.",
       "research_status": "enriched",
@@ -261,7 +261,10 @@
       "source_quest": "Namekian Awakening quest — Guru's House",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-become-giant"
+      "id": "skill-become-giant",
+      "source_time_rifts": [
+        "time-rift-gurus-house"
+      ]
     },
     {
       "name": "Bending Kamehameha",
@@ -7906,7 +7909,7 @@
       "mechanics_notes": "Two-stage Awoken. Current evidence supports Stage 1 at +20% all-damage defense and +5% movement speed, with automatic HP recovery below 50% and an unblockable sword-strike replacement for grabs. Re-inputting the Awoken command activates Unleashed Stage 2 for about 12 seconds of effectively/infinite Ki regeneration, +15% basic attack damage, +30% Strike/Ki Super damage, increased movement speed, and HP drain. Exact values remain intentionally unresolved where current sources conflict: Stage 1 defense has a 20% report and a 25% self-test report; Stage 2 speed has +10% and +15% reports; cooldown has about 24 and about 30 second reports; HP regeneration is reported around 1 bar/60 seconds and about 1 bar/65 seconds. Do not collapse these into false precision.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
@@ -7917,7 +7920,8 @@
       "notes": "Core identity, universal CaC availability, DLC requirement, and unlock route are verified. Current evidence consistently supports +20% Stage 1 defense, +5% Stage 1 speed, +15% Stage 2 basic attack, and +30% Stage 2 Strike/Ki Super damage, while conflicting measurements remain for exact Stage 1 defense, Stage 2 speed/cooldown, and HP regeneration.",
       "source_quest": "Future Saga Chapter 4 — Quest 31, Ultimate All-Out Showdown",
       "acquisition_type": "quest_or_mission",
-      "id": "skill-the-power-to-overcome"
+      "id": "skill-the-power-to-overcome",
+      "source_story_mission": "story-future-saga-chapter-4-quest-31"
     },
     {
       "name": "Thunder Flash",
