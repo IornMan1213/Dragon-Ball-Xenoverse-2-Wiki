@@ -6035,3 +6035,8 @@ The repository owner has clarified the continuation contract:
 - Validation target: **428 records / 0 duplicate IDs / 10 Conton City Vote Pack records / 0 DLC mismatches**.
 - Existing drop-condition conflicts and character-only semantics were preserved rather than flattened. CI success is not claimed without exposed workflow/check data.
 - Exact next task: fresh live DLC-label/source-relationship census beyond Conton City Vote Pack.
+
+
+### 2026-09-21 correction — Conton City Vote Pack count
+- Corrected prior cycle wording: live canonical data contains **11 records** with `dlc_requirement=Conton City Vote Pack`: 10 additional move/skill records plus character-specific Supersonic Mode.
+- Official documentation's 10 additional moves count refers to the move set, not the total number of canonical records carrying the DLC label.
