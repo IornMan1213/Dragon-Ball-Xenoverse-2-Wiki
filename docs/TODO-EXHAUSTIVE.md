@@ -1478,3 +1478,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Determined that this census produced no demonstrated canonical missing endpoint or provenance mismatch; no gameplay data rewrite was made.
 - [x] Coverage audit commit: `b76b6b4c2300e000bfad6a4de9071d8ea0b4e6da`.
 - [ ] Next task: continue the DLC/free-update census into remaining free-update/composite labels and identify a concrete missing endpoint or provenance mismatch before modifying canonical data.
+
+### 2026-09-21 — Master ledger completion marking: Free Update 2 skill completeness correction
+- [x] Recomputed the live skill census before editing: 443 canonical / 443 index / 0 duplicate IDs / 0 nullable ki_cost values.
+- [x] Verified official Free Update 2 scope: five new attacks — Jumping Energy Wave, Menacing Flare, Focus Flash, Wild Hunt, and Tail Slicer.
+- [x] Found all five endpoints absent from the canonical registry and added them with bounded acquisition/provenance.
+- [x] Projected all five endpoints into docs/data/skills-index.json.
+- [x] Validation: 448 canonical / 448 index / 0 duplicate IDs / 0 nullable ki_cost values / 5 Free Update 2 records.
+- [x] Canonical commit: 523b69e207c72f3acc01b57292d650c2a8170a02; index commit: 854fc1e4e7fe44b3572fd9099bef26db2dd9447d.
+- [ ] Next task: continue the remaining free-update census, starting with Free Update 1's documented launch-update skill/attack scope, and only add endpoints after exact names and acquisition evidence are established.
