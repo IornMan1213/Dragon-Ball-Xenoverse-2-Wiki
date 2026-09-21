@@ -12135,7 +12135,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_Splitter",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Zamasu"
       ],
       "unlock_method": "Zamasu mentor training — lesson-1.",
       "ultimate_finish_required": false,
@@ -12146,9 +12147,9 @@
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Zamasu mentor training — lesson-1.",
-      "dlc_requirement": "DLC",
+      "dlc_requirement": "Extra Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
       "id": "skill-god-splitter",
       "source_mentor": [
         "mentor-zamasu"
@@ -12162,7 +12163,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heavenly_Arrow",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Zamasu"
       ],
       "unlock_method": "Zamasu mentor training — lesson-2.",
       "ultimate_finish_required": false,
@@ -12173,9 +12175,9 @@
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Zamasu mentor training — lesson-2.",
-      "dlc_requirement": "DLC",
+      "dlc_requirement": "Extra Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
       "id": "skill-heavenly-arrow",
       "source_mentor": [
         "mentor-zamasu"
@@ -12189,7 +12191,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Instant_Severance",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
+        "https://dbxv2.fandom.com/wiki/Zamasu"
       ],
       "unlock_method": "Zamasu mentor training — lesson-3.",
       "ultimate_finish_required": false,
@@ -12200,9 +12203,9 @@
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Zamasu mentor training — lesson-3.",
-      "dlc_requirement": "DLC",
+      "dlc_requirement": "Extra Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
       "id": "skill-instant-severance",
       "source_mentor": [
         "mentor-zamasu"
@@ -12389,9 +12392,9 @@
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Hit mentor training — lesson-3.",
-      "dlc_requirement": "DLC",
+      "dlc_requirement": "Super Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.",
+      "notes": "2026-09-21 mentor expansion: canonical skill identity verified from independent skill/mentor references; combat details intentionally bounded to verified evidence.\n2026-09-21 DLC provenance refinement: replaced the generic DLC label with the documented mentor DLC pack.",
       "id": "skill-time-skip-tremor-pulse",
       "source_mentor": [
         "mentor-hit"
