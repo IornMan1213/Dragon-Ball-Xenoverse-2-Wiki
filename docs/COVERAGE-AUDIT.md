@@ -3819,3 +3819,13 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Validation after the change: canonical/index **283 records**, exact name/order parity, UF count **60**; the targeted terse mentor/test census now returns **0** records under the current audit pattern.
 - Commits: canonical **77617ca0ad0ed0edaf0aec8251fcb371c7fffcf6**; index **21cc5cc53ea465cdda3330ff751656565f175d2d**.
 - Next: audit the remaining non-PQ quest/mission records for **source-quality and specificity rather than simple terseness**, especially time-rift, story, shop, and Expert Mission routes; preserve unresolved conditions and source conflicts.
+
+
+## 2026-09-20 — non-PQ source-quality refinement continuation
+- Refined **5** remaining quest/mission acquisition records where source evidence supported a more concrete provenance or reward tier: **Future Super Saiyan**, **Data Input**, **Super Spirit Bomb**, **Supernova**, and **Fighting Pose K**.
+- Corrected **Future Super Saiyan** from the prior Capsule Corporation/Vegeta route to the **Unknown History secret story mission** route. Current external walkthrough evidence explicitly ties the transformation to completion of Unknown History after the five Distorted Time Eggs; the prior repository wording conflicted with this evidence and was replaced rather than silently retained. citeturn1search0turn1search3
+- Refined **Data Input → Expert Mission 20 "Harbinger of Doom" Basic Reward**, **Super Spirit Bomb → Expert Mission 16 "In the Realm of the Gods: Vegeta" Basic Reward**, and **Supernova → Expert Mission 6 "The Depths of Despair" Basic Reward**. Maintained/independent Expert Mission reward evidence explicitly lists each skill in the corresponding Basic Reward pool. citeturn3youtube41turn3search1turn3search2
+- Refined **Fighting Pose K** to the story/Skill Shop relationship: completing **"The Ginyu Force Strikes"** unlocks the Skill Shop route, where Fighting Pose K is purchased. No Ultimate Finish-only condition was inferred. citeturn3reddit42
+- Validation target remains canonical/index **283 records**, exact record-order parity, and UF count **60**; no reward gate was changed by this cycle.
+- Commits: canonical **8466316b9b41199c8524e3821a2d03d6863e54b1**; index **d6fc033d206cc2dc5ffcc4f6f729b3a46723c50d**.
+- Exact next task: **continue auditing the remaining non-PQ acquisition records for source-quality conflicts and missing concrete conditions, prioritizing time-rift/story routes and any records whose dedicated research disagrees with canonical provenance. Preserve documented conflicts rather than inferring a winner when evidence remains mixed.**
