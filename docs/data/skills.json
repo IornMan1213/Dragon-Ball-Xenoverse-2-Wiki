@@ -9,7 +9,7 @@
     "Ki Blast Evasives": 13,
     "Other Supers": 36,
     "Strike Evasives": 9,
-    "Ki Blast Ultimates": 76,
+    "Ki Blast Ultimates": 77,
     "Ki Blast Supers": 128,
     "Transformations": 15,
     "Strike Supers": 101,
@@ -12499,9 +12499,35 @@
         "mentor-nappa",
         "mentor-majin-buu"
       ]
+    },
+    {
+      "name": "Dead End Rain",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dead_End_Rain",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ],
+      "unlock_method": "Expert Mission 13 - A History of Mixed Battles!",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Expert Mission 13",
+      "mechanics_notes": "Canonical skill identity, classification, and acquisition source verified; detailed combat mechanics remain bounded to directly evidenced fields.",
+      "last_verified": "2026-09-21",
+      "research_status": "enriched",
+      "race_restriction": "All CaC races",
+      "source_quest": "Expert Mission 13",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "expert_mission",
+      "notes": "Added during Dual Ultimate relationship audit because DUAL Dead End Rain uses this canonical base technique.",
+      "id": "skill-dead-end-rain",
+      "source_mentor": [
+        "mentor-android-18"
+      ]
     }
   ],
-  "record_count": 422,
+  "record_count": 423,
   "skill_id_policy": {
     "format": "skill-{slug}",
     "slug_source": "name",
