@@ -3901,7 +3901,7 @@ The underlying skill acquisition routes were already present; this pass only rep
 ## 2026-09-20 — generic shop audit continuation
 - Rechecked the remaining generic Skill Shop and TP Medal Shop records against maintained repository evidence and current external references.
 - Confirmed that most remaining generic shop records do not have a sufficiently supported additional prerequisite/timing condition to encode without risking false precision. This includes the current TP Medal Shop records where historical rotation evidence exists but does not establish present-day availability.
-- Punisher Guard remains the concrete prerequisite refinement from the preceding cycle: Skill Shop after completing **A Momentous Galactic Battle**, 5,000 Zeni. Current references independently support that route. citeturn0search0turn0search1
+- Punisher Guard remains the concrete prerequisite refinement from the preceding cycle: Skill Shop after completing **A Momentous Galactic Battle**, 5,000 Zeni. Current references independently support that route. 
 - No additional dataset changes were necessary in this pass.
 - Validation: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, and **0** acquisition-critical mismatches.
 - Exact next target: **continue source-quality auditing of the remaining generic shop records, prioritizing records with multiple acquisition routes or historical shop references that may conceal a more precise current route.**
@@ -3909,10 +3909,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 ## 2026-09-20 — multi-route shop source audit
 - Audited the remaining multi-route / shop-sensitive records, prioritizing **Sudden Death Beam** and **Divine Lasso**.
-- **Sudden Death Beam** is consistently documented as TP Medal Shop acquisition; current repository evidence also records STP Medal Shop and Double Crystal Raid Battle. Bandai Namco's historical 2017 schedule explicitly placed it in the TP Medal Shop rotation. This supports the existing multi-route wording, but does **not** justify a current rotation/timing claim. citeturn0search3turn0search7
-- **Divine Lasso** likewise has documented TP Medal Shop acquisition, with current repository evidence retaining STP Medal Shop and Double Crystal Raid Battle as additional routes. Bandai Namco's historical schedule explicitly listed Divine Lasso in the TP Medal Shop rotation. No additional prerequisite is established. citeturn0search3turn0search5
-- **Quick Sleep** was rechecked: dedicated skill evidence confirms Skill Shop acquisition and that it is restricted to Majin CaCs. This restriction is already represented by the repository's race field, so no dataset edit was necessary. citeturn1search0turn1search12
-- **Bending Kamehameha**, **Big Bang Kamehameha**, and **Divine Kamehameha** were also rechecked. The available evidence confirms their respective Skill Shop / TP Medal Shop routes but does not provide a sufficiently authoritative concrete prerequisite that should replace the current conservative wording. citeturn1search2turn1search8turn0search0
+- **Sudden Death Beam** is consistently documented as TP Medal Shop acquisition; current repository evidence also records STP Medal Shop and Double Crystal Raid Battle. Bandai Namco's historical 2017 schedule explicitly placed it in the TP Medal Shop rotation. This supports the existing multi-route wording, but does **not** justify a current rotation/timing claim. 
+- **Divine Lasso** likewise has documented TP Medal Shop acquisition, with current repository evidence retaining STP Medal Shop and Double Crystal Raid Battle as additional routes. Bandai Namco's historical schedule explicitly listed Divine Lasso in the TP Medal Shop rotation. No additional prerequisite is established. 
+- **Quick Sleep** was rechecked: dedicated skill evidence confirms Skill Shop acquisition and that it is restricted to Majin CaCs. This restriction is already represented by the repository's race field, so no dataset edit was necessary. 
+- **Bending Kamehameha**, **Big Bang Kamehameha**, and **Divine Kamehameha** were also rechecked. The available evidence confirms their respective Skill Shop / TP Medal Shop routes but does not provide a sufficiently authoritative concrete prerequisite that should replace the current conservative wording. 
 - No dataset changes were necessary in this cycle.
 - Validation remains: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, **0** acquisition-critical mismatches.
 - Exact next target: **continue source-quality auditing generic shop records, then move to any remaining under-specified non-PQ records only when a concrete, independently supported acquisition condition is available.**
@@ -3931,8 +3931,8 @@ The underlying skill acquisition routes were already present; this pass only rep
 
 
 ## 2026-09-20 — built-in / character-only acquisition-status refinement
-- Refined **Surging Spirit** to explicitly describe its current CaC behavior: it is a **built-in Ultra Instinct action**, not a separately acquired/equipped skill. Current Ultra Instinct documentation states that the Future Warrior can use Surging Spirit while Ultra Instinct is active. citeturn1search7turn1search15
-- Refined **Dragon Thunder** to use the explicit **Character-only** race restriction. Dedicated Xenoverse 2 skill evidence identifies it as Omega Shenron's Strike Super and states it is unavailable to CaCs. citeturn1search2turn1search5
+- Refined **Surging Spirit** to explicitly describe its current CaC behavior: it is a **built-in Ultra Instinct action**, not a separately acquired/equipped skill. Current Ultra Instinct documentation states that the Future Warrior can use Surging Spirit while Ultra Instinct is active. 
+- Refined **Dragon Thunder** to use the explicit **Character-only** race restriction. Dedicated Xenoverse 2 skill evidence identifies it as Omega Shenron's Strike Super and states it is unavailable to CaCs. 
 - Updated both canonical and synchronized index records; no quest or Ultimate Finish provenance was introduced.
 - Validation: canonical/index **283/283**, identical record-name ordering, **0 duplicate names**, **60** Ultimate Finish flags, **0** acquisition-critical mismatches.
 - Exact next target: **continue auditing under-specified non-PQ records for explicit built-in, character-only, starting-move, wish, or other deterministic acquisition-status evidence before touching generic quest records again.**
