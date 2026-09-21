@@ -4472,3 +4472,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - The deterministic PQ↔Super Soul report now contains **56 forward / 56 reverse edges**, **46 unique PQ endpoints**, **56 unique Super Soul endpoints**, **90 unresolved routes**, and **0 broken endpoints**.
 - PQ reward projections were synchronized for PQ179, PQ182, PQ183, and PQ184. Community-measured magnitudes/durations and the Poltarat damage-direction conflict remain explicitly bounded.
 - This section supersedes the stale Super Soul milestone text above for live-count purposes.
+
+## 2026-09-21 live Super Soul census correction — 152–153 terminal source-corpus batch
+
+- The maintained Madreag source corpus had exactly two unique records after the 144–151 frontier: **So fast! Are they learning how to use their power?!** and **Enough food for one person...**. Both were reconciled against the canonical registry before assignment.
+- Added **super-soul-152** and **super-soul-153**. Both are 5th Festival of Universes Total Glory Point rewards with TP Medal Shop rotation; neither has an explicit PQ endpoint, so no PQ relationship was inferred.
+- Deterministic crosslink report remains endpoint-clean: **56 forward / 56 reverse edges / 46 unique PQ endpoints / 56 unique Super Soul endpoints / 92 unresolved routes / 0 broken endpoints**.
+- The source corpus is now exhausted at this frontier: no further source-backed Super Soul records remain after super-soul-153 in the maintained corpus inspected for this cycle. Future work should pivot to the next highest-priority validator/audit or another repository corpus rather than inventing additional Super Souls.
