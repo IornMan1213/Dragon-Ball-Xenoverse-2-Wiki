@@ -1735,3 +1735,12 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Recorded the conflict in the skill notes instead of silently selecting one interpretation.
 - [x] Post-write target: **47** exactly-two-source records.
 - [ ] Exact next task: recompute the live two-source census and continue with the next deterministic low-source record after Excellent Full Course, **Fighting Pose C**, checking acquisition/reward semantics before provenance-only strengthening.
+
+
+### 2026-09-21 — Completed low-source provenance batch: Fighting Pose C
+- [x] Recomputed the live two-source census before editing: **47**.
+- [x] Verified **Fighting Pose C (`skill-fighting-pose-c`)** as a PQ13 acquisition; Yhan Game independently lists it as a Basic Reward for **PQ13 — Namekian Dragon Balls**.
+- [x] Added the independent Yhan Game source to canonical and index records.
+- [x] Preserved existing acquisition, classification, and mechanics semantics; no unsupported drop probability or Ultimate Finish gate was inferred.
+- [x] Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 46 exactly-two-source records**; canonical/index source parity confirmed.
+- [ ] Exact next task: recompute the live two-source census and continue with **Fighting Pose E**, checking acquisition/reward semantics before provenance-only strengthening.
