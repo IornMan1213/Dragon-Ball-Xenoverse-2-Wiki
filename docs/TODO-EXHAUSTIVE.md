@@ -699,3 +699,9 @@ As of the 2026-09-21 live census, the remaining nullable records are:
 ## 28.5 Synchronization rule
 
 When the continuation handoff advances a research frontier, update this live TODO section in the same cycle. Do not rely on historical checklist labels or old category totals to determine the next action. The next chat should begin from the live canonical census and this section, then reconcile any discrepancy before editing data.
+
+
+### 2026-09-21 — TODO live-queue correction
+- The newly added live synchronization section intentionally listed Brutal Buster as a completed-cycle trace, but its checkbox could be misread as unresolved.
+- Authoritative correction: **Brutal Buster is resolved and excluded from the 18-record nullable `ki_cost` queue**. The 18 unresolved names are the remaining records listed after it in the canonical census.
+- Future cycles must derive this queue directly from the live `docs/data/skills.json` census rather than hand-maintaining names independently.
