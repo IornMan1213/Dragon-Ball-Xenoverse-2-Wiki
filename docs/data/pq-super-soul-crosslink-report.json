@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 58,
+  "canonical_target_records": 66,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -131,6 +131,46 @@
       "target_name": "Damn it all!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/damn-it-all.md"
+    },
+    {
+      "pq_id": "pq-107",
+      "pq_number": 107,
+      "target_id": "super-soul-064",
+      "target_name": "You can't win...",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/you-cant-win.md"
+    },
+    {
+      "pq_id": "pq-002",
+      "pq_number": 2,
+      "target_id": "super-soul-066",
+      "target_name": "Flying Nimbus!!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/flying-nimbus.md"
+    },
+    {
+      "pq_id": "pq-133",
+      "pq_number": 133,
+      "target_id": "super-soul-067",
+      "target_name": "Here it comes!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/here-it-comes.md"
+    },
+    {
+      "pq_id": "pq-118",
+      "pq_number": 118,
+      "target_id": "super-soul-068",
+      "target_name": "Now we're even.",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/now-were-even.md"
+    },
+    {
+      "pq_id": "pq-105",
+      "pq_number": 105,
+      "target_id": "super-soul-071",
+      "target_name": "Buu Don't Wanna!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/buu-dont-wanna.md"
     }
   ],
   "reverse_edges": [
@@ -292,6 +332,56 @@
       ],
       "pq_numbers": [
         180
+      ]
+    },
+    {
+      "target_id": "super-soul-064",
+      "target_name": "You can't win...",
+      "pq_ids": [
+        "pq-107"
+      ],
+      "pq_numbers": [
+        107
+      ]
+    },
+    {
+      "target_id": "super-soul-066",
+      "target_name": "Flying Nimbus!!",
+      "pq_ids": [
+        "pq-002"
+      ],
+      "pq_numbers": [
+        2
+      ]
+    },
+    {
+      "target_id": "super-soul-067",
+      "target_name": "Here it comes!",
+      "pq_ids": [
+        "pq-133"
+      ],
+      "pq_numbers": [
+        133
+      ]
+    },
+    {
+      "target_id": "super-soul-068",
+      "target_name": "Now we're even.",
+      "pq_ids": [
+        "pq-118"
+      ],
+      "pq_numbers": [
+        118
+      ]
+    },
+    {
+      "target_id": "super-soul-071",
+      "target_name": "Buu Don't Wanna!",
+      "pq_ids": [
+        "pq-105"
+      ],
+      "pq_numbers": [
+        105
       ]
     }
   ],
@@ -504,6 +594,21 @@
     {
       "target_id": "super-soul-063",
       "target_name": "Zudodoeyaahh!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-065",
+      "target_name": "Thanks, Dende!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-069",
+      "target_name": "Just win, okay?",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-070",
+      "target_name": "As if I'd lose!",
       "reason": "no_explicit_pq_endpoint"
     }
   ]
