@@ -5,10 +5,10 @@
   "scope": "All 33 mentor lesson-to-skill coverage audit",
   "canonical_mentor_records": 33,
   "mentors_audited": 33,
-  "lesson_records_audited": 129,
-  "linked_skill_edges": 117,
+  "lesson_records_audited": 133,
+  "linked_skill_edges": 120,
   "unresolved_skill_endpoints": 13,
-  "fully_linked_mentors": 27,
+  "fully_linked_mentors": 28,
   "partially_linked_mentors": 4,
   "records": [
     {
@@ -495,9 +495,17 @@
     {
       "mentor_id": "mentor-future-gohan",
       "mentor_name": "Gohan (Future)",
-      "lesson_skill_names": [],
+      "lesson_skill_names": [
+        "Super Explosive Wave",
+        "Sonic Rush",
+        "Energy Dome",
+        "One-Handed Kamehameha mk.II"
+      ],
       "linked_skill_ids": [
-        "skill-super-explosive-wave"
+        "skill-super-explosive-wave",
+        "skill-sonic-rush",
+        "skill-energy-dome",
+        "skill-one-handed-kamehameha-mk-ii"
       ],
       "unresolved_skill_names": []
     },
