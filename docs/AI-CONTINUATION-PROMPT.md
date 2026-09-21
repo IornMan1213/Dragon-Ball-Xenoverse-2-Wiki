@@ -4359,3 +4359,13 @@ Only after data-completeness work, expose the improved structured research surfa
 - Evidence limitation: the repository connector did not expose a local execution environment for running the Python validator directly; validation was therefore limited to source/diff inspection and live repository metadata checks.
 - Current skill census remains 283 canonical records; the previously documented unresolved race-scope set remains 3 CaC-usable records with null `race_restriction`: Blaster Stream, Chaotic Time Impact, and Circle Flash.
 - Exact next task: audit the remaining builder/validator top-level metadata and generated-artifact assumptions for another concrete drift path, then inspect actionable CI logs if they become available. Do not fabricate a passing CI result and do not weaken validators.
+
+
+## 2026-09-21 continuation — builder category-count drift audit
+- Continued the remaining generated-artifact audit from the previous handoff.
+- Found a concrete producer/validator contradiction in `scripts/build_skills_from_research.py`: the builder populated `category_counts` directly from `TARGET_COUNTS`, while `scripts/validate_skills.py` requires `category_counts` to equal counts derived from the actual canonical records. The checked-in catalog already demonstrates the distinction: e.g. Ki Blast Supers 181 vs target 183, Strike Supers 131 vs target 130, and Ki Blast Ultimates 111 vs target 110.
+- Fixed the builder to derive `category_counts` from the generated canonical rows, with Awoken/Race rows counted under `Transformations`; `target_category_counts` remains the separate benchmark metadata sourced from `TARGET_COUNTS`.
+- This prevents a rebuild from producing a catalog that immediately fails its own validator solely because benchmark targets differ from the current record census.
+- Commit: `3646e8a40a01e3a8c5c4cd7c738d6bc01d83cfba` (PR #41, merged to `main`).
+- CI limitation remains: GitHub connector exposed no actionable workflow/status results for the merge commit, so no passing CI result is claimed.
+- Exact next task: audit remaining generated index metadata and deterministic projection behavior for producer/validator contradictions, especially the hard-coded index `schema_version` versus the canonical payload and whether projected records can silently omit newly canonical fields needed by downstream consumers.
