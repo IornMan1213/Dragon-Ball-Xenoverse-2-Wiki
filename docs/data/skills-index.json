@@ -6,10 +6,10 @@
     "Ki Blast Evasives": 11,
     "Other Supers": 36,
     "Strike Evasives": 8,
-    "Ki Blast Ultimates": 60,
-    "Ki Blast Supers": 104,
+    "Ki Blast Ultimates": 62,
+    "Ki Blast Supers": 110,
     "Transformations": 15,
-    "Strike Supers": 86,
+    "Strike Supers": 87,
     "Strike Ultimates": 16,
     "Power Up Supers": 12,
     "Power Up Evasives": 2,
@@ -17,7 +17,7 @@
     "Transformation": 4,
     "Other Ultimates": 2
   },
-  "record_count": 359,
+  "record_count": 368,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -8975,6 +8975,249 @@
       "id": "skill-super-ghost-kamikaze-attack-ultimate-ki-blast",
       "source_mentor": [
         "mentor-gotenks"
+      ]
+    },
+    {
+      "name": "Power Blitz",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Android 18's mentor training — complete the corresponding lesson to receive Power Blitz as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Android 18 mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Android 18 mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-power-blitz",
+      "source_mentor": [
+        "mentor-android-18"
+      ]
+    },
+    {
+      "name": "Endless Shoot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Android 18's mentor training — complete the corresponding lesson to receive Endless Shoot as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Android 18 mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Android 18 mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-endless-shoot",
+      "source_mentor": [
+        "mentor-android-18"
+      ]
+    },
+    {
+      "name": "Dual Destructo-Disc",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Android 18's mentor training — complete the corresponding lesson to receive Dual Destructo-Disc as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Android 18 mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Android 18 mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-dual-destructo-disc",
+      "source_mentor": [
+        "mentor-android-18"
+      ]
+    },
+    {
+      "name": "All Clear",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Cell (Perfect)'s mentor training — complete the corresponding lesson to receive All Clear as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Cell (Perfect) mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Cell (Perfect) mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-all-clear",
+      "source_mentor": [
+        "mentor-cell"
+      ]
+    },
+    {
+      "name": "Gravity Impact",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Cell (Perfect)'s mentor training — complete the corresponding lesson to receive Gravity Impact as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Cell (Perfect) mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Cell (Perfect) mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-gravity-impact",
+      "source_mentor": [
+        "mentor-cell"
+      ]
+    },
+    {
+      "name": "Perfect Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Cell (Perfect)'s mentor training — complete the corresponding lesson to receive Perfect Kamehameha as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Cell (Perfect) mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Cell (Perfect) mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-perfect-kamehameha",
+      "source_mentor": [
+        "mentor-cell"
+      ]
+    },
+    {
+      "name": "Evil Eyes",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Lord Slug's mentor training — complete the corresponding lesson to receive Evil Eyes as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Lord Slug mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Lord Slug mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-evil-eyes",
+      "source_mentor": [
+        "mentor-slug"
+      ]
+    },
+    {
+      "name": "Darkness Eye Beam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Lord Slug's mentor training — complete the corresponding lesson to receive Darkness Eye Beam as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Lord Slug mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Lord Slug mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-darkness-eye-beam",
+      "source_mentor": [
+        "mentor-slug"
+      ]
+    },
+    {
+      "name": "Darkness Twin Star",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dbxenoverse.fandom.com/wiki/Mentors",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+      ],
+      "unlock_method": "Lord Slug's mentor training — complete the corresponding lesson to receive Darkness Twin Star as the Basic Reward.",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Lord Slug mentor training",
+      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "last_verified": "2026-09-21",
+      "race_restriction": "All CaC races",
+      "source_quest": "Lord Slug mentor training",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "id": "skill-darkness-twin-star",
+      "source_mentor": [
+        "mentor-slug"
       ]
     }
   ],
