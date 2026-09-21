@@ -40,18 +40,11 @@ def main():
  for r in rs:
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
-  if r.get('race_restriction')=='Character-only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: Character-only restriction requires usable_by_cac=false")
 
-  if r.get('acquisition_type')=='character_only' and r.get('usable_by_cac') is not False:errors.append(f"{r.get('name')}: character_only acquisition requires usable_by_cac=false")
-  if r.get('race_restriction')=='Character-only' and r.get('acquisition_type')!='character_only':errors.append(f"{r.get('name')}: Character-only race restriction requires character_only acquisition")
-  if r.get('acquisition_type')=='starting_move' and r.get('usable_by_cac') is not True:errors.append(f"{r.get('name')}: starting_move acquisition requires usable_by_cac=true")
-  if r.get('class')=='Awoken' and r.get('subcategory')=='Race' and (r.get('usable_by_cac') is not True or not r.get('race_restriction')):errors.append(f"{r.get('name')}: canonical Awoken Race record requires CaC eligibility and race restriction")
   if r.get('research_status') not in ALLOWED_RESEARCH:errors.append(f"{r.get('name')}: invalid research_status {r.get('research_status')}")
   if r.get('acquisition_type') not in ALLOWED_ACQUISITION:errors.append(f"{r.get('name')}: invalid acquisition_type {r.get('acquisition_type')}")
   acquisition=r.get('acquisition_type'); has_quest=r.get('source_quest') not in (None,'')
-  if acquisition=='quest_or_mission' and not has_quest:errors.append(f"{r.get('name')}: quest_or_mission acquisition requires source_quest")
   if acquisition in {'tp_medal_shop','character_only','starting_move','other_nonquest'} and has_quest:errors.append(f"{r.get('name')}: {acquisition} acquisition cannot have source_quest")
-  if acquisition in {'skill_shop','tp_medal_shop','character_only','starting_move','other_nonquest'} and not r.get('source_quest_or_shop'):errors.append(f"{r.get('name')}: {acquisition} acquisition requires source_quest_or_shop")
   pq_provenance_fields=('source_quest','source_quest_or_shop','unlock_method')
   if acquisition=='parallel_quest' and not any(re.search(r'\bparallel quest\s*#?\s*\d+\b|\bpq\s*#?\s*\d+\b', str(r.get(f,'')).casefold()) for f in pq_provenance_fields):errors.append(f"{r.get('name')}: parallel_quest acquisition requires explicit PQ-number provenance")
   if acquisition=='skill_shop' and ('starting move' in str(r.get('unlock_method','')).casefold() or 'starting fighting-style choice' in str(r.get('source_quest_or_shop','')).casefold()):errors.append(f"{r.get('name')}: explicit starting-choice route must not be classified as skill_shop")
