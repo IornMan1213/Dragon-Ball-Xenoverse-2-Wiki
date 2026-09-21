@@ -4035,3 +4035,10 @@ The underlying skill acquisition routes were already present; this pass only rep
 - Updated `docs/data/skills.json` and `docs/data/skills-index.json` together.
 - Validation target: canonical/index remain **283 records**, record-name ordering remains identical, duplicate-name count remains **0**, and the **60** `ultimate_finish_required=true` flags remain unchanged.
 - Evidence limitation: the maintained PQ corpus establishes the quest and reward classification but does not establish an exact individual RNG probability.
+
+
+## 2026-09-20 — PQ161–180 provenance-label normalization
+- Continued the late-PQ deterministic provenance census using the maintained PQ161–170 and PQ171–180 reward batches.
+- Normalized remaining generic `source_quest_or_shop` labels to explicit maintained quest names for **Giant Cluster (PQ163)**, **Gigantic Explosion (PQ164)**, **Special Beam Cannon (Beast) (PQ162)**, **Divine Ray Bomb (PQ173)**, **God of Destruction's Poise (PQ175)**, and **Soaring Rush (PQ177)**.
+- Acquisition semantics were not changed; no new Ultimate Finish gates or probabilities were inferred.
+- Canonical commit: `6ffd74c3b7c82883eb537424d29611e9d936a7a5`; index commit: `5f9d1a13d5d972533b3d3977c144c13b2cd473ed`.
