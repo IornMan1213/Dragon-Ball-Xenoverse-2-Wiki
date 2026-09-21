@@ -562,3 +562,12 @@
 - Rebuilt `docs/data/pq-super-soul-crosslink-report.json` from the live Super Soul registry: **21 forward / 21 reverse edges**.
 - Validation: **66 canonical Super Souls / 186 canonical PQs / 14 unique PQ endpoints / 21 unique Super Soul endpoints / 45 unresolved Super Soul routes / 0 broken relationship endpoints**. Changed JSON parsed successfully.
 - Evidence limits preserved: source-backed acquisition types and quest identities were recorded without promoting community-measured percentages/durations to exact canonical values. No PQ relationship was inferred from character appearance or quest theme.
+
+
+## 2026-09-21 — Super Soul 072-079 + PQ reverse-link reconciliation
+
+- Added canonical Super Soul records `super-soul-072` through `super-soul-079`: Over here, you idiot..., That offer's expired..., Goku! Time for dinner!, That won't work on me!, I'll send you to Hell!!, Tien, please don't die, It's okay! I'll fix you!, and Leave my daddy alone!.
+- Synchronized PQ135 with the explicit Super Soul endpoint for `That won't work on me!`; the other batch records retain their source-backed raid/shop/NPC acquisition routes without inferred PQ links.
+- Rebuilt `docs/data/pq-super-soul-crosslink-report.json`: **22 forward / 22 reverse edges**, with **52** Super Souls lacking explicit PQ endpoints.
+- Validation: **74 canonical Super Souls / 186 canonical PQs / 19 unique PQ endpoints / 22 unique Super Soul endpoints / 0 broken relationship endpoints**. Changed JSON parsed successfully.
+- Evidence limits preserved: community-measured percentages/durations and disputed in-game magnitude interpretations were not promoted to exact canonical values. No PQ relationship was inferred from character appearance or quest theme.
