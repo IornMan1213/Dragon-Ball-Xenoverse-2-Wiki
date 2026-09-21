@@ -1,3 +1,10 @@
+## 2026-09-20 Teleporting Vanishing Ball provenance clarification
+
+- Reconciled **Teleporting Vanishing Ball** against the current PQ62 reward listing and dedicated skill documentation.
+- The maintained PQ guide lists the skill in **PQ62 Basic Rewards**, and the dedicated skill page identifies PQ62 as the unlock quest. Historical community discussion questioned Ultimate Finish requirements, but the current evidence does not establish an UF-only gate.
+- Canonical and index data now use the concrete PQ62 Basic Reward wording and retain `ultimate_finish_required: false`; exact reward-slot probability remains unresolved.
+
+
 ## 2026-09-20 Emperor's Cannon conflict recheck
 
 - Rechecked the unresolved **Emperor's Cannon** PQ183/PQ184 discrepancy against current web evidence.
