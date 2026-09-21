@@ -3,8 +3,8 @@
   "game": "Dragon Ball Xenoverse 2",
   "generated_by": "manual_canonical_sync_2026-09-21",
   "canonical_mentor_records": 33,
-  "mentors_with_skill_links": 14,
-  "mentor_to_skill_edge_count": 30,
+  "mentors_with_skill_links": 16,
+  "mentor_to_skill_edge_count": 44,
   "forward_edges": [
     {
       "mentor_id": "mentor-android-18",
@@ -25,6 +25,21 @@
       "mentor_id": "mentor-frieza",
       "mentor_name": "Frieza (1st Form)",
       "skill_id": "skill-death-ball"
+    },
+    {
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "skill_id": "skill-evil-ray-strike"
+    },
+    {
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "skill_id": "skill-evil-rise-strike"
+    },
+    {
+      "mentor_id": "mentor-gohan-kid",
+      "mentor_name": "Gohan (Kid)",
+      "skill_id": "skill-explosive-assault"
     },
     {
       "mentor_id": "mentor-gohan-kid",
@@ -77,6 +92,26 @@
       "skill_id": "skill-scatter-kamehameha"
     },
     {
+      "mentor_id": "mentor-nappa",
+      "mentor_name": "Nappa",
+      "skill_id": "skill-arm-crash"
+    },
+    {
+      "mentor_id": "mentor-nappa",
+      "mentor_name": "Nappa",
+      "skill_id": "skill-bomber-dx"
+    },
+    {
+      "mentor_id": "mentor-nappa",
+      "mentor_name": "Nappa",
+      "skill_id": "skill-break-cannon"
+    },
+    {
+      "mentor_id": "mentor-nappa",
+      "mentor_name": "Nappa",
+      "skill_id": "skill-genocide-shell"
+    },
+    {
       "mentor_id": "mentor-pan",
       "mentor_name": "Pan",
       "skill_id": "skill-dancing-parapara"
@@ -100,6 +135,26 @@
       "mentor_id": "mentor-piccolo",
       "mentor_name": "Piccolo",
       "skill_id": "skill-super-explosive-wave"
+    },
+    {
+      "mentor_id": "mentor-raditz",
+      "mentor_name": "Raditz",
+      "skill_id": "skill-double-sunday"
+    },
+    {
+      "mentor_id": "mentor-raditz",
+      "mentor_name": "Raditz",
+      "skill_id": "skill-saturday-crash"
+    },
+    {
+      "mentor_id": "mentor-raditz",
+      "mentor_name": "Raditz",
+      "skill_id": "skill-shining-friday"
+    },
+    {
+      "mentor_id": "mentor-raditz",
+      "mentor_name": "Raditz",
+      "skill_id": "skill-weekend"
     },
     {
       "mentor_id": "mentor-slug",
@@ -134,6 +189,21 @@
     {
       "mentor_id": "mentor-vegeta",
       "mentor_name": "Vegeta",
+      "skill_id": "skill-final-flash"
+    },
+    {
+      "mentor_id": "mentor-vegeta",
+      "mentor_name": "Vegeta",
+      "skill_id": "skill-finish-breaker"
+    },
+    {
+      "mentor_id": "mentor-vegeta",
+      "mentor_name": "Vegeta",
+      "skill_id": "skill-flash-strike"
+    },
+    {
+      "mentor_id": "mentor-vegeta",
+      "mentor_name": "Vegeta",
       "skill_id": "skill-galick-gun"
     },
     {
@@ -162,13 +232,14 @@
   "notes": [
     "Only directly verified lesson→skill routes were linked. Mentor identity records without verified skill mappings remain populated but unlinked.",
     "This layer is intended to support mentor → lesson → skill → skill-detail navigation and later bidirectional reverse lookup.",
-    "2026-09-21 reconciliation: Krillin, Tien, Yamcha, and Piccolo lesson routes were already explicit in the canonical mentor layer and corresponding skills-index source_mentor fields; this cycle promoted those 14 deterministic edges into the crosslink report without altering acquisition semantics."
+    "2026-09-21 reconciliation: Krillin, Tien, Yamcha, and Piccolo lesson routes were already explicit in the canonical mentor layer and corresponding skills-index source_mentor fields; this cycle promoted those 14 deterministic edges into the crosslink report without altering acquisition semantics.",
+    "2026-09-21 reconciliation: Raditz, Gohan (Kid), Nappa, and Vegeta lesson routes were promoted only where the canonical skill index contained the same skill ID and matching source_mentor provenance. Masenko and Galick Gun were already represented in the report and were not duplicated."
   ],
   "validation": {
     "canonical_mentor_records": 33,
-    "mentors_with_skill_links": 14,
-    "mentor_to_skill_edge_count": 30,
-    "unique_skill_endpoints": 30,
+    "mentors_with_skill_links": 16,
+    "mentor_to_skill_edge_count": 44,
+    "unique_skill_endpoints": 44,
     "unresolved_edge_count": 0,
     "broken_skill_endpoints": 0
   }
