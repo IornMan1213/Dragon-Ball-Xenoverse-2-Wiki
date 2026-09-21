@@ -3,11 +3,11 @@
   "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
   "generated": "2026-09-21",
   "category_counts": {
-    "Ki Blast Evasives": 13,
+    "Ki Blast Evasives": 14,
     "Other Supers": 36,
     "Strike Evasives": 9,
-    "Ki Blast Ultimates": 78,
-    "Ki Blast Supers": 130,
+    "Ki Blast Ultimates": 79,
+    "Ki Blast Supers": 131,
     "Transformations": 15,
     "Strike Supers": 102,
     "Strike Ultimates": 19,
@@ -17,7 +17,7 @@
     "Transformation": 4,
     "Other Ultimates": 2
   },
-  "record_count": 429,
+  "record_count": 432,
   "records": [
     {
       "id": "skill-absolute-zero",
@@ -10892,6 +10892,84 @@
       "notes": "2026-09-21 completeness correction: Pretty Charge was missing from the canonical skill registry despite independent documentation identifying it as Ribrianne's Ultra Pack 1 character-exclusive charging skill. Added as a bounded character-only record; no unsupported numeric Ki cost or acquisition gate is inferred. 0 Ki cost is recorded as activation cost, not as a claim about the amount of Ki restored.",
       "mechanics_notes": "Ki-charging Super Skill used by Ribrianne with a unique charging pose. The skill is documented as part of Ultra Pack 1; Future Warrior acquisition is not established.",
       "source_quest_or_shop": "Character-exclusive — Ribrianne"
+    },
+    {
+      "name": "Gigantic Cross",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Cross",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+      ],
+      "unlock_method": "Conton City Patrol 04 — Teach Me, Broly! (Part 1).",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "last_verified": "2026-09-21",
+      "race_restriction": null,
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Cross as a Chapter 3 skill unlocked through Conton City Patrol 04. No unsupported reward/PQ gate was inferred.",
+      "mechanics_notes": "Fires a chargeable green mouth-generated Ki Blast that arcs forward and ends in an explosion; current skill evidence lists 100 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
+      "source_quest_or_shop": "Conton City Patrol 04 — Teach Me, Broly! (Part 1)",
+      "source_quest": "Conton City Patrol 04",
+      "dlc_requirement": "Future Saga Chapter 3",
+      "id": "skill-gigantic-cross",
+      "ki_cost": 100,
+      "stamina_cost": null
+    },
+    {
+      "name": "Gigantic Nova",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Nova",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+      ],
+      "unlock_method": "Conton City Patrol 17 — Teach Me, Broly! (Part 3).",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "last_verified": "2026-09-21",
+      "race_restriction": null,
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Nova as a Chapter 3 skill unlocked through Conton City Patrol 17. No unsupported reward/PQ gate was inferred.",
+      "mechanics_notes": "Creates and launches a massive green Ki sphere that ends in a large explosion; current skill evidence lists 300 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
+      "source_quest_or_shop": "Conton City Patrol 17 — Teach Me, Broly! (Part 3)",
+      "source_quest": "Conton City Patrol 17",
+      "dlc_requirement": "Future Saga Chapter 3",
+      "id": "skill-gigantic-nova",
+      "ki_cost": 300,
+      "stamina_cost": null
+    },
+    {
+      "name": "Saiyan Blaster",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Saiyan_Blaster",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content"
+      ],
+      "unlock_method": "Conton City Patrol 10 — Teach Me, Broly! (Part 2).",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "last_verified": "2026-09-21",
+      "race_restriction": null,
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Saiyan Blaster as a Chapter 3 skill unlocked through Conton City Patrol 10. The 400 Stamina cost is directly documented; no unsupported PQ/reward gate was inferred.",
+      "mechanics_notes": "Creates a giant green pillar/barrier and permits immediate Awoken Skill activation; current skill evidence lists a 400 Stamina cost. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
+      "source_quest_or_shop": "Conton City Patrol 10 — Teach Me, Broly! (Part 2)",
+      "source_quest": "Conton City Patrol 10",
+      "dlc_requirement": "Future Saga Chapter 3",
+      "id": "skill-saiyan-blaster",
+      "ki_cost": 0,
+      "stamina_cost": 400
     }
   ],
   "skill_id_policy": {
