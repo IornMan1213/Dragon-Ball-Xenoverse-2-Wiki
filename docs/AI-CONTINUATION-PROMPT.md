@@ -6329,3 +6329,13 @@ The repository owner has clarified the continuation contract:
 - Existing acquisition semantics were preserved; no drop-rate, Ultimate Finish, DLC, or gameplay semantics were invented.
 - Canonical commit: **`7b33e464fba3c887b8cce2e3ac23d287e83930ca`**.
 - Exact next batch: **continue the remaining two-source cluster, prioritizing quest/PQ acquisition records with directly checkable independent reward evidence.**
+
+
+### 2026-09-21 continuation — Assault Vanish cross-field correction
+- Workstream: **P1 skill provenance/source integrity** with a concrete acquisition-field integrity correction.
+- Target: **Assault Vanish** / **PQ131 — Fight of the Fusions! Vegito vs Gogeta**.
+- Independent PQ documentation lists Assault Vanish in **PQ131's Basic Reward**, while the prior canonical record claimed a **25% Ultimate Finish roll**.
+- Corrected `unlock_method` to **Parallel Quest 131 Basic Reward**, `ultimate_finish_required` to **false**, and the quest label to the actual PQ name. Added independent PQ reward sources. citeturn1search0turn1search1turn0search8
+- No new drop percentage or unsupported prerequisite was retained.
+- Canonical commit: **`2eb625b3cbf1e72b76fd54b8cb84ba1d72319a05`**.
+- Exact next batch: **recompute the two-source census and continue checking low-source acquisition records for concrete source-PQ / reward-tier contradictions before merely adding provenance.**
