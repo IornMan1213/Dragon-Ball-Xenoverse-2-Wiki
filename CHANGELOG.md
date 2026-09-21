@@ -1212,3 +1212,11 @@
 - The added source describes acquisition through an Ultimate Finish, while the maintained Steam PQ guide lists Excellent Full Course under PQ142's Basic Reward.
 - Preserved the existing `ultimate_finish_required: false` rather than silently resolving the documented conflict; no exact drop probability was inferred.
 - Canonical and index records were synchronized; post-write low-source target: **47**.
+
+
+## 2026-09-21 — Fighting Pose C low-source provenance strengthening
+- Recomputed the live census after the preceding batch: **47 exactly-two-source records**.
+- Strengthened **Fighting Pose C** from two to three provenance sources with Yhan Game's Parallel Quest guide, independently listing it as a **Basic Reward for PQ13 — Namekian Dragon Balls**.
+- Preserved the existing PQ13 acquisition endpoint, Base Game classification, Power Up/Super classification, and 0-Ki value; no unsupported drop probability or Ultimate Finish requirement was inferred.
+- Synchronized canonical and index skill data.
+- Live post-write census: **46 exactly-two-source records**.
