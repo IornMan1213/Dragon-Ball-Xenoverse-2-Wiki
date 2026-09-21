@@ -11,7 +11,12 @@ CATALOG_SOURCE_INDEX='https://dbxv2.fandom.com/wiki/Category:Skills'
 DEFAULT_CATALOG_STATUS='structured_research_catalog'
 DEFAULT_CATALOG_NOTES='Transformation category counts canonical parent records (15); five additional named forms are documented as stages in the Awoken parent records. Unresolved fields remain blank rather than inferred.'
 TARGET_COUNTS={"Ki Blast Supers":183,"Strike Supers":130,"Ki Blast Ultimates":110,"Strike Ultimates":30,"Other Supers":32,"Power Up Supers":20,"Ki Blast Evasives":23,"Strike Evasives":16,"Other Evasives":11,"Power Up Evasives":2,"Other Ultimates":3,"Saiyan Skills":10,"Majin Skills":10,"Namekian Skills":4,"Frieza Race Skills":4,"Human Skills":4,"Unavailable for CaC":37,"Counter Skills":25}
-INDEX_PROJECTION_FIELDS=('name','class','subcategory','verification_status','research_status','acquisition_type','sources','unlock_method','ultimate_finish_required','last_verified','race_restriction','notes','mechanics_notes','source_quest','source_quest_or_shop')
+INDEX_PROJECTION_FIELDS=('id','name','class','subcategory','verification_status','research_status','acquisition_type','sources','unlock_method','ultimate_finish_required','last_verified','race_restriction','notes','mechanics_notes','source_quest','source_quest_or_shop')
+def skill_id(name, skill_class, subcategory):
+ slug=re.sub(r'[^a-z0-9]+','-',str(name).casefold()).strip('-')
+ base=f'skill-{slug}'
+ return base
+
 def classify_acquisition(d):
  text=' '.join(str(d.get(k,'')) for k in ('source_quest','source_quest_or_shop','unlock_method')).casefold()
  if 'starting move' in text or 'starting fighting-style choice' in text: return 'starting_move'
@@ -180,7 +185,7 @@ def build_record(d,p):
  n=d.get('name')
  if not isinstance(n,str) or not n.strip():
   raise ValueError('frontmatter record requires a non-empty name')
- c,s=classify(d); src=f'https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{p.name}'; r={'name':n,'class':c,'subcategory':s,'verification_status':'partially_verified','research_status':'partially_enriched','sources':[src]}
+ c,s=classify(d); src=f'https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/{p.name}'; r={'id':skill_id(n,c,s),'name':n,'class':c,'subcategory':s,'verification_status':'partially_verified','research_status':'partially_enriched','sources':[src]}
  if isinstance(d.get('sources'),list):r['sources'] += normalize_sources(d.get('sources',[]))
  if d.get('kiCost') is not None:r['ki_cost']=d['kiCost']
  if d.get('staminaCost') is not None:r['stamina_cost']=d['staminaCost']
