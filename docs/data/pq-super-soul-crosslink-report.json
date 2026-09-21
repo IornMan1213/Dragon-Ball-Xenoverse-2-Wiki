@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_super_soul",
   "canonical_pq_records": 186,
-  "canonical_target_records": 66,
+  "canonical_target_records": 74,
   "forward_edges": [
     {
       "pq_id": "pq-002",
@@ -171,6 +171,14 @@
       "target_name": "Buu Don't Wanna!",
       "status": "source_backed",
       "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/buu-dont-wanna.md"
+    },
+    {
+      "pq_id": "pq-135",
+      "pq_number": 135,
+      "target_id": "super-soul-075",
+      "target_name": "That won't work on me!",
+      "status": "source_backed",
+      "source": "https://github.com/Madreag/xenoverse_2_wiki/blob/ab84bd4952e498d576d8eb66963fdae897beffc2/content/super-souls/that-wont-work-on-me.md"
     }
   ],
   "reverse_edges": [
@@ -382,6 +390,16 @@
       ],
       "pq_numbers": [
         105
+      ]
+    },
+    {
+      "target_id": "super-soul-075",
+      "target_name": "That won't work on me!",
+      "pq_ids": [
+        "pq-135"
+      ],
+      "pq_numbers": [
+        135
       ]
     }
   ],
@@ -609,6 +627,41 @@
     {
       "target_id": "super-soul-070",
       "target_name": "As if I'd lose!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-072",
+      "target_name": "Over here, you idiot...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-073",
+      "target_name": "That offer's expired...",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-074",
+      "target_name": "Goku! Time for dinner!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-076",
+      "target_name": "I'll send you to Hell!!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-077",
+      "target_name": "Tien, please don't die",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-078",
+      "target_name": "It's okay! I'll fix you!",
+      "reason": "no_explicit_pq_endpoint"
+    },
+    {
+      "target_id": "super-soul-079",
+      "target_name": "Leave my daddy alone!",
       "reason": "no_explicit_pq_endpoint"
     }
   ]
