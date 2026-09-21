@@ -3906,3 +3906,16 @@ Only after data-completeness work, expose the improved structured research surfa
 - Post-write verification: 283 canonical records; 9 records now have `race_restriction: Character-only`; all 9 are `character_only` acquisitions and `usable_by_cac: false`; canonical/index deterministic field parity remains true; the new validator invariant is present.
 - Local execution remains unavailable. GitHub status/workflow records have historically returned no actionable checks for these direct commits; do not infer CI success from absence.
 - Exact next task: continue the remaining acquisition cross-field audit, looking specifically for other canonical records whose explicit provenance/race/CaC fields disagree with their `acquisition_type` or with the producer's fresh-build classification. Preserve intentional special cases such as mixed PQ/TP-Medal routes and built-in character actions.
+
+
+## 2026-09-21 continuation — fresh-build acquisition drift eliminated
+- Compared the live 283-record canonical catalog against the exact acquisition classifier in `scripts/build_skills_from_research.py` rather than relying only on static field heuristics.
+- Found **2 fresh-build classification drifts**:
+  - **Final Pose**: canonical `parallel_quest`, but the builder treated its explicit textual `PQ74` source as generic `quest_or_mission` because the earlier safeguard only allowed `parallel_quest` when `source_quest` was empty. This was too broad and would make the canonical explicit PQ route unstable on regeneration.
+  - **Surging Spirit**: canonical `other_nonquest`, but the builder saw `Character-exclusive` and classified it as `character_only`, despite the same provenance explicitly identifying it as a built-in Ultra Instinct action that is not separately acquirable. This is an intentional special case and should not become a character-only acquisition route.
+- Corrected `scripts/build_skills_from_research.py` so explicit PQ wording in the `source_quest` field is sufficient for `parallel_quest`, while bare/numeric quest identifiers still remain `quest_or_mission`; this preserves the earlier 211-record PQ-source guard. Added an explicit built-in/not-separately-acquirable exception before character-exclusive classification.
+- Builder commit: `fef243987372c73c2d0e0b6371e703c68959f9c2`.
+- No canonical/index rewrite was necessary because the live records already preserve the intended classifications.
+- Post-fix verification: **0 builder/canonical acquisition drifts across all 283 records**, canonical/index acquisition parity remains true, Final Pose remains `parallel_quest`, and Surging Spirit remains `other_nonquest`.
+- Local execution remains unavailable; the verification above is a direct reimplementation/check of the builder's live classification logic against every canonical record. Do not claim CI success without an actual workflow result.
+- Exact next task: inspect remaining builder-vs-canonical field semantics beyond acquisition type, especially CaC/race and Ultimate-Finish fields, for deterministic regeneration drift. Preserve intentional built-in character actions and unresolved evidence rather than forcing classifications.
