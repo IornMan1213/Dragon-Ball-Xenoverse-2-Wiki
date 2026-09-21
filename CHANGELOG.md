@@ -450,3 +450,12 @@
 - Removed the unresolved Hit → Time Skip/Tremor Pulse ID from the mentor reverse index because no canonical skill record exists yet.
 - Preserved Time Skip/Tremor Pulse as an explicit unresolved lesson endpoint rather than inventing a canonical skill record.
 - Mentor relationship coverage remains **108 resolved lesson→skill edges / 21 unresolved lesson endpoints / 25 fully linked mentors / 4 partially linked mentors**, with **0 broken mentor→skill endpoints**.
+
+## 2026-09-21 — Android 16 / Future Gohan / Bojack mentor expansion
+- Expanded the canonical skill graph for **Android 16, Future Gohan, and Bojack**.
+- Added **11 missing canonical skill records**: Eye Beam, Rocket Tackle, Android Rush, Hell Flash, Sonic Rush, Energy Dome, One-Handed Kamehameha mk.II, Reverse Launcher, Trap Shooter, Psycho Barrier, and Grand Smasher.
+- Reused the existing canonical **Super Explosive Wave** record for Future Gohan rather than duplicating it; its `source_mentor` provenance now preserves both Piccolo and Future Gohan because both mentor endpoints teach the same canonical skill.
+- Restored the previously empty Future Gohan lesson layer with all four exact lesson endpoints and synchronized the mentor coverage report.
+- Evidence: maintained instructor guide plus independent mentor/skill references establish the exact lesson sequence and classifications. No unsupported numerical costs or drop rates were fabricated; combat mechanics remain intentionally deferred where not directly verified.
+- Validation after expansion: **408 canonical skills / 408 skill-index records / taxonomy total 408 / 133 mentor lessons / 120 resolved mentor→skill edges / 13 unresolved lesson endpoints / 28 fully linked mentors / 4 partially linked mentors / 0 duplicate canonical skill IDs / 0 citation artifacts**.
+- Next unresolved mentor frontier is now concentrated in existing incomplete endpoints rather than the completed Android 16/Future Gohan/Bojack batch.
