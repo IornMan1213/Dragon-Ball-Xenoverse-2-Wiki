@@ -1697,3 +1697,16 @@
 - [x] Validator commit: `93cf57755cbca321b476f5d5e4aac52b717b40c3`; audit refresh: `43f44fff1fe3477bf01f0e18acb6cfb764646b24`.
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [ ] Exact next batch: continue from the cross-domain registry into the next registered consumer after published Character/DLC navigation, prioritizing deterministic Search/landing or reverse-navigation validators with remaining silent set/dictionary collapse or endpoint-shape assumptions.
+
+### 2026-09-22 cycle update — published Search consumer contract hardening
+- Active workstream: P1/P2 cross-domain presentation/navigation integrity.
+- Bounded batch: `docs/Search.md`, `docs/assets/search.js`, and `docs/search-data.html`.
+- [x] Audited the published Search landing consumer after the character/DLC navigation chain. The page exposes the required search input/results/status hooks; the JS accepts `?q=` and seeds the initial query; the producer emits `/search-data.json` from the local `site.pages` corpus while excluding its own generator page.
+- [x] Added `scripts/validate_search_consumer.py` as a deterministic presentation-contract validator. It rejects missing hooks/query handling/local-index wiring and rejects external fetch endpoints in Search JS.
+- [x] Added `docs/data/search-consumer-audit.json` and registered both the audit and validator in `docs/data/pq-cross-domain-index.json`.
+- [x] Static live-source result: **Search permalink/hook contract clean; `?q=` contract clean; local generated search-index fetch clean; external Search-JS fetch endpoints = 0; search-data producer/self-exclusion contract clean**.
+- Evidence boundary: this validates Search presentation wiring only. It does not claim exhaustive search ranking or that every canonical structured database record is materialized as a searchable page.
+- CI/Actions: no successful workflow/check exposed for this direct-commit chain; CI success is not claimed.
+- Commits: validator `d0b319c5974c9a6861bff364136f6b2deaad0a0b`; audit `99474ac1c291d4c49b85cd6ce2d1c853f9d63440`; registry `c041e968d72fe23d54c778d42e73b0d40bf9b21d`; TODO `634c62bb8c90358f9026fc55b2fb6a99ca10074d`.
+- Exact next batch: inspect the next registered Search/landing consumer or unvalidated cross-domain producer for deterministic one-way navigation, stale scalar/list assumptions, or canonical endpoint drift. Prefer exact local consumer parity; do not infer new relationships.
+
