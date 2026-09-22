@@ -1101,3 +1101,13 @@
 - [ ] Runtime/CI remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical 520fcdea2c573ea25575213cde3a481361062fc2; index 9c86cf1aaac62eff3a61409292b1abd4d4c9f6b5.
 - [ ] Exact next batch: continue the P1 skill provenance census with Apocalyptic Burst (skill-apocalyptic-burst), then proceed sequentially through the stale-last_verified queue while preserving reward-tier conflicts.
+
+
+### 2026-09-22 cycle update — Apocalyptic Burst provenance reconciliation
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs**; bounded record: `skill-apocalyptic-burst`.
+- [x] Independent evidence confirms PQ161 — “Scream Team vs. Dream Team” as the acquisition endpoint. Current external sources conflict on reward tier: the maintained all-186-PQ Steam guide and an independent PQ161 gameplay record display Apocalyptic Burst in the Basic Reward list, while the repository's existing reward-tier evidence records a 45% Ultimate Finish bonus slot. citeturn0search2turn0youtube12turn0youtube13
+- [x] Conflict preserved rather than silently changing the canonical `ultimate_finish_required: true` field or inventing a drop probability. Canonical/index provenance notes and `last_verified` were refreshed only.
+- [x] Static validation: 452/452 records, no duplicate IDs, and exact canonical/index parity for verification date, unlock method, Ultimate Finish flag, and source count.
+- [ ] Runtime/CI remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `7168f8391783a3bf42c2f8530ea96a0551e8eefa`; index `fdd951c143a99e99e237d38c14c70d4d91a53dce`.
+- [ ] Exact next batch: continue the stale-`last_verified` P1 skill provenance queue with **Arm Crash (`skill-arm-crash`)**, then proceed sequentially while preserving evidence conflicts.
