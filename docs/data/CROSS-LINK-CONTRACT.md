@@ -80,3 +80,11 @@ Every relationship batch should report:
 
 A successful validation means the relationship structure is internally consistent. It does **not** mean every real-world game relationship has been discovered.
 
+### Canonical endpoint alias and granularity bridge
+
+The file docs/data/pq-endpoint-alias-granularity-map.json is the deterministic presentation/identity bridge for known endpoint naming and DLC-granularity conflicts. It does not modify docs/data/pq-reward-relationships.json and must never be counted as additional canonical edges.
+
+- Equipment name variants are explicit conflict records until inventory-level evidence establishes identity.
+- Broad DLC pass/bundle labels may map to one or more individually canonical pack requirements; this is a granularity mapping, not an entity merge.
+- One-to-many mappings must remain labeled as granularity and must not be converted into duplicate canonical relationships.
+- Downstream pages may use this bridge to resolve navigation while retaining the canonical target identity and provenance.
