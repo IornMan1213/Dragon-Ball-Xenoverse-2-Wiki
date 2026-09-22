@@ -42,10 +42,10 @@
   ],
   "evidence_boundary": "Standalone reverse indexes remain projections of normalized source maps. Canonical-vs-standalone differences documented in pq-standalone-reverse-index-audit.json are informational and must not be used to rewrite canonical relationships. No destructive regeneration was required.",
   "validation": {
-    "canonical_current_relationship_baseline": 860,
+    "canonical_current_relationship_baseline": 859,
     "skills": 244,
     "super_souls": 151,
-    "equipment": 125,
+    "equipment": 124,
     "characters": 247,
     "dlc": 86,
     "farming": 7,
@@ -53,5 +53,5 @@
     "destructive_changes": 0,
     "excluded_artwork_references": 64
   },
-  "next_action": "Move past the resolved standalone source-map parity check and audit the next highest-impact cross-domain producer/consumer surface for stale canonical counts, aliases, or one-way navigation; preserve historical audit entries."
+  "next_action": "Runtime execution of scripts/validate_pq_reverse_indexes.py is still unavailable in the web-client environment; preserve the exact source-map parity audit and do not regenerate canonical relationships from partial maps."
 }
