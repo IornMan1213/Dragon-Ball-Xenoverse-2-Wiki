@@ -286,6 +286,11 @@
     "reverse_set_mismatches": 0,
     "consumer": "docs/Skills-All.html",
     "validator": "scripts/validate_skills_pq_reverse_navigation.py",
-    "status": "clean"
+    "status": "clean_exact_forward_reverse_parity",
+    "exact_forward_reverse_pair_parity": true,
+    "missing_reverse_pairs": [],
+    "extra_reverse_pairs": [],
+    "unresolved_canonical_targets": [],
+    "duplicate_reverse_pairs": []
   }
 }
