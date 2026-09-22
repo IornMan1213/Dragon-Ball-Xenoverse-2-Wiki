@@ -7552,11 +7552,12 @@
       ],
       "unlock_method": "Skill Shop (Conton City)",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 shop-provenance refinement: dedicated skill evidence confirms the Conton City Skill Shop route. A GameFAQs community answer reports the skill appearing after completing the Distorted Time Egg sidequest, but the dedicated skill pages do not establish that prerequisite; the repository therefore preserves the Skill Shop source without promoting the community timing claim to a deterministic gate.",
-      "mechanics_notes": "100 Ki Strike Super from the Conton City Skill Shop; short-range strike technique used to pressure the opponent.",
-      "source_quest_or_shop": "Skill Shop (Conton City)"
+      "mechanics_notes": "100-Ki Strike Super from the Conton City Skill Shop. Taunts/guards against incoming attacks and can counter an opponent that strikes during its active window; dedicated references identify it as a counter-style Strike Super. The Skill Shop route is retained, while the reported Distorted Time Egg timing claim remains unpromoted to a deterministic prerequisite.",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "ki_cost": 100
     },
     {
       "id": "skill-pretty-cannon",
@@ -7574,15 +7575,17 @@
       ],
       "unlock_method": "Parallel Quest 133 — \"The Ultimate Legendary Super Saiyan\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ133 reward listings explicitly place Pretty Cannon in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
-      "mechanics_notes": "Confirmed as Ribrianne's 100-Ki Ki Blast Super from PQ133. Exact drop/Ultimate Finish condition and detailed numerical mechanics remain bounded. Future Warrior technique-list evidence establishes that the skill is usable by the Future Warrior; no narrower CaC race/gender/form restriction is identified in the reviewed evidence.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ133 — The Ultimate Legendary Super Saiyan, Basic Reward. Fires a heart-themed energy projectile associated with Ribrianne. The PQ133 Basic Reward route is retained and no Ultimate Finish-only gate is asserted.",
       "source_quest": 133,
       "source_quest_or_shop": "Parallel Quest 133 — \"The Ultimate Legendary Super Saiyan\"",
       "source_parallel_quests": [
         133
-      ]
+      ],
+      "ki_cost": 100,
+      "stamina_cost": null
     },
     {
       "id": "skill-pretty-charge",
@@ -7599,11 +7602,12 @@
       ],
       "unlock_method": "Ribrianne character-exclusive skill; not obtainable as a normal CaC skill.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "Character-exclusive",
       "notes": "2026-09-21 completeness correction: Pretty Charge was missing from the canonical skill registry despite independent documentation identifying it as Ribrianne's Ultra Pack 1 character-exclusive charging skill. Added as a bounded character-only record; no unsupported numeric Ki cost or acquisition gate is inferred. 0 Ki cost is recorded as activation cost, not as a claim about the amount of Ki restored.",
-      "mechanics_notes": "Ki-charging Super Skill used by Ribrianne with a unique charging pose. The skill is documented as part of Ultra Pack 1; Future Warrior acquisition is not established.",
-      "source_quest_or_shop": "Character-exclusive — Ribrianne"
+      "mechanics_notes": "0-Ki Power Up Super used by Ribrianne as a character-exclusive Ultra Pack 1 skill. It is a charging skill rather than a normal CaC acquisition; activation does not spend Ki and instead charges/replenishes Ki while active. No Future Warrior acquisition is inferred.",
+      "source_quest_or_shop": "Character-exclusive — Ribrianne",
+      "ki_cost": 0
     },
     {
       "id": "skill-prominence-flash",
@@ -7645,15 +7649,17 @@
       ],
       "unlock_method": "Parallel Quest 73 — \"Frieza’s Siege Against Earth!\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance refinement: current maintained PQ reward evidence identifies the exact quest title and lists Psychic Move in Basic Reward. No unsupported drop probability or Ultimate Finish-only gate is asserted.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Psychic Move as a 300-Stamina Strike Evasive from PQ73. It teleports behind the opponent and creates a short-range shockwave. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
+      "mechanics_notes": "300-Stamina Strike Evasive from PQ73 — Frieza's Siege Against Earth!, Basic Reward. Teleports behind the opponent and releases a short-range shockwave. Current evidence establishes CaC availability and the Basic Reward route without a narrower race restriction or UF-only gate.",
       "source_quest": 73,
       "source_quest_or_shop": "Parallel Quest 73 — \"Frieza’s Siege Against Earth!\"",
       "source_parallel_quests": [
         73
-      ]
+      ],
+      "ki_cost": 0,
+      "stamina_cost": 300
     },
     {
       "id": "skill-psycho-barrier",
@@ -7670,12 +7676,13 @@
       ],
       "unlock_method": "Bojack mentor training — Lesson 2.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-21 mentor coverage expansion: exact lesson endpoint verified from the maintained instructor guide and independent mentor documentation; unsupported combat values were intentionally left unresolved.",
-      "mechanics_notes": "Mentor acquisition endpoint, skill identity, and classification are directly corroborated; numerical combat mechanics remain deferred until separately verified.",
+      "mechanics_notes": "100-Ki Ki Blast Super from Bojack mentor training Lesson 2. Current dedicated evidence establishes the mentor endpoint, classification, and cost; finer numerical combat details remain deferred.",
       "source_quest": "Bojack mentor training — Lesson 2.",
-      "source_quest_or_shop": "Bojack mentor training"
+      "source_quest_or_shop": "Bojack mentor training",
+      "ki_cost": 100
     },
     {
       "id": "skill-psycho-escape",
@@ -7717,12 +7724,14 @@
       ],
       "unlock_method": "Skill Shop after completing \"A Momentous Galactic Battle\" (5,000 Zeni)",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 prerequisite refinement: dedicated skill evidence identifies Punisher Guard as a Skill Shop purchase after completing \"A Momentous Galactic Battle\"; the documented purchase price is 5,000 Zeni. No current shop-rotation claim is inferred.",
-      "mechanics_notes": "Dedicated current-version evidence confirms Punisher Guard as a 300-Stamina Other Evasive from the Skill Shop after story progression. It provides universal invulnerability/super armor for about 3 seconds. No unsupported CaC race/gender/form restriction was inferred. Reviewed in the current null-race census; Future Warrior/CaC availability is documented, and no narrower CaC race/gender/form restriction is established in the reviewed evidence.",
+      "mechanics_notes": "300-Stamina Other Evasive obtained from the Skill Shop after completing A Momentous Galactic Battle; documented purchase price is 5,000 Zeni. Provides a temporary defensive/invulnerability state for roughly three seconds in dedicated current references. No additional shop-rotation condition is inferred.",
       "source_quest": "A Momentous Galactic Battle — completion",
-      "source_quest_or_shop": "Skill Shop after completing A Momentous Galactic Battle"
+      "source_quest_or_shop": "Skill Shop after completing A Momentous Galactic Battle",
+      "ki_cost": 0,
+      "stamina_cost": 300
     },
     {
       "id": "skill-punisher-shield",
@@ -7739,15 +7748,16 @@
       ],
       "unlock_method": "Parallel Quest 129 — \"Frieza Force on the Hunt\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 audit: PQ129 reward listings explicitly include Punisher Shield in the Basic Reward pool; dedicated skill documentation confirms PQ129 acquisition.",
-      "mechanics_notes": "Current dedicated evidence confirms Punisher Shield as a 100-Ki Ki Blast Super, universal counter, from PQ129. SSGSS Gogeta is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "mechanics_notes": "100-Ki Ki Blast Super/counter from PQ129 — Frieza Force on the Hunt, Basic Reward. It nullifies/reflects incoming Ki-based attacks and launches a projectile back at the attacker. Current dedicated evidence supports universal CaC availability and the PQ129 Basic Reward route.",
       "source_quest": 129,
       "source_quest_or_shop": "Parallel Quest 129 — \"Frieza Force on the Hunt\"",
       "source_parallel_quests": [
         129
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-pure-progress",
@@ -7765,11 +7775,12 @@
       ],
       "unlock_method": "Character-only / non-CaC roster use",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-22",
       "race_restriction": "Character-only",
       "notes": "2026-09-20 roster-status refinement: maintained transformation research classifies Pure Progress as a Hit-only character transformation, not a CaC Awoken Skill.",
-      "mechanics_notes": "500 Ki is required and consumed for each transformation stage; Stage 1 and Stage 2 use the character-only Pure Progress transformation. Current reference documents 500 Ki consumed on transformation. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate. Race restriction is not applicable to CaC races because this is a character-only roster transformation.",
-      "source_quest_or_shop": "Character-only Awoken Skill / roster use"
+      "mechanics_notes": "Character-only Awoken transformation used by Hit, not an equipable CaC Awoken Skill. Each transformation stage requires 500 Ki; current transformation research identifies the character-only roster status and distinguishes it from CaC unlocks.",
+      "source_quest_or_shop": "Character-only Awoken Skill / roster use",
+      "ki_cost": 500
     },
     {
       "id": "skill-purification",
@@ -7787,12 +7798,13 @@
       ],
       "unlock_method": "Progress the Majin Buu's House Time Rift until Buu has the required family members, then complete the associated Purification unlock fight as a Majin CaC.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-22",
       "race_restriction": "Majin",
       "notes": "Majin CaC-only Awoken Skill. Requires 300 Ki and replaces the user's moveset while active.",
-      "mechanics_notes": "300 Ki; +20% Strike/+15% Blast, -20% Strike Defense, halts Stamina recovery and replaces the user's moveset. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
+      "mechanics_notes": "300-Ki Majin-only CaC Awoken Skill obtained through the Majin Buu's House Time Rift unlock sequence. It replaces the user's moveset while active; current repository evidence records its transformation effects and the dedicated acquisition endpoint without asserting an Ultimate Finish condition.",
       "source_quest": "Majin Buu's House Time Rift — Purification unlock fight",
-      "source_quest_or_shop": "Majin Buu's House Time Rift — Purification unlock fight"
+      "source_quest_or_shop": "Majin Buu's House Time Rift — Purification unlock fight",
+      "ki_cost": 300
     },
     {
       "id": "skill-quick-sleep",
@@ -7809,11 +7821,12 @@
       ],
       "unlock_method": "Skill Shop (Conton City), after defeating Mira (Final Form) in the main story",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-22",
       "race_restriction": "Majin only",
       "notes": "2026-09-19 shop acquisition verification: current skill documentation confirms the listed shop/wish-start route; no Ultimate Finish is involved.",
-      "mechanics_notes": "Confirmed as a 0-Ki Other Super sold in the Skill Shop after defeating Mira (Final Form). It puts the user to sleep to recover stamina/health while vulnerable; restricted to Majin CaCs.",
-      "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story"
+      "mechanics_notes": "0-Ki Other Super restricted to Majin CaCs and sold through the Skill Shop after the documented main-story progression. The user sleeps to recover resources while vulnerable; dedicated references describe recovery of health, Ki, and Stamina. No Ultimate Finish condition is involved.",
+      "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
+      "ki_cost": 0
     },
     {
       "id": "skill-raid-blast",
