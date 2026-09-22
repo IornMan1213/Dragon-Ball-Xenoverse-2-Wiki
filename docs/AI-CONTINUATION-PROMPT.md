@@ -101,3 +101,16 @@
 - Commits: pending until all writes complete.
 - Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 11 exactly-two-source records**.
 - Exact next batch: **Super Guard** (`skill-super-guard`); recompute the census first, inspect canonical/index records, and independently verify acquisition/source semantics before provenance strengthening.
+
+
+### 2026-09-22 cycle update — Super Guard provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 11 exactly-two-source canonical records**.
+- Bounded batch: **Super Guard** (`skill-super-guard`).
+- Research/evidence: GameFAQs independently corroborates the CaC starting route: create a new character and choose **"I want to fight up close"** to receive Super Guard; the same discussion mentions the Skill Shop as an alternate route. citeturn0search3
+- Changes: canonical/index sources gained `https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74501799`; `last_verified` refreshed to 2026-09-22; provenance note synchronized.
+- Evidence limits preserved: existing starting-move/Skill Shop semantics, 100-Ki base cost, all-CaC-race scope, and barrier mechanics remain unchanged; no additional shop timing or purchase condition is inferred.
+- Validation: JSON parse succeeded; **452/452**, **0 duplicates**, **0 nullable canonical `ki_cost`**; exactly-two-source census reduced to **10**; canonical/index source parity clean; no internal AI/UI/search citation artifacts detected.
+- CI: no exposed status/check for the direct-commit chain; CI success is not claimed.
+- Commits: pending until all writes complete.
+- Live census after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 10 exactly-two-source records**.
+- Exact next batch: **Supernova** (`skill-supernova`); recompute the census first, inspect canonical/index records, and independently verify acquisition/source semantics before provenance strengthening.
