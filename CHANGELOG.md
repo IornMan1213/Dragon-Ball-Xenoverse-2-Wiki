@@ -1422,3 +1422,8 @@
 ## 2026-09-22 — Super Guard provenance
 - Strengthened `skill-super-guard` with independent GameFAQs evidence for its CaC starting-fighting-style acquisition.
 - Preserved the existing Skill Shop alternate route and mechanics semantics.
+
+
+## 2026-09-22 — Supernova provenance
+- Strengthened `skill-supernova` with independent maintained Steam Expert Mission evidence for EM06 acquisition.
+- Preserved existing Basic Reward and no-Ultimate-Finish semantics.
