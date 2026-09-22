@@ -2764,3 +2764,14 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: canonical 893a0d482810082d6b4119bae4d49e2c8c9d6c3f; index 5f131fc0583eb094a60b2817d577166e9c37d861; audit 43ca04c477d51e95498ca3605eb845323c12d50f; cross-domain registration acd2777f4c01c7c1bfcab1ef21070dcceabbeb23.
 - [ ] Exact next batch: **Thunder Flash, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Time Skip/Tremor Pulse, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden**; recompute live census first.
+
+
+### 2026-09-22 cycle update — Thunder Flash through Turn Golden provenance batch
+- [x] Fresh live census before editing: 452 canonical / 452 index / 0 duplicate IDs / 28 stale; refreshed Thunder Flash, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Time Skip/Tremor Pulse, Total Detonation Ball, Trap Shooter, Tri-Beam, and Turn Golden.
+- [x] Synchronized canonical/index verification dates; preserved PQ Basic/First-Clear reward semantics, Hit/Bojack/Tien mentor endpoints, and Frieza Race transformation scope.
+- [x] Added and registered docs/data/skill-thunder-flash-through-turn-golden-provenance-audit-2026-09-22.json.
+- [x] Preserved evidence boundaries and did not invent reward probabilities or unsupported combat measurements.
+- [x] Post-edit validation: 452/452, 0 duplicate IDs, canonical/index parity true, 18 stale remain.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: canonical 9269089027552fa7ef020e7c04ccf6c1d9954908; index eef81a7d0b2b5768eac106cb72877168cd2b6e3d; audit 21167472a33bb135e26544098d5d48fba1f22037; cross-domain registration 00551746a598d792fcd6ba3c4c8a3d956c47157e.
+- [ ] Exact next batch: **Tyrant Lancer, Ultimate Charge, Ultrasonic Blitz, Vanishing Ball, Variable Snipe Shot, Variant Drive, Victory Cannon, Volleyball Fist, Wall of Defense, Warp Kamehameha**; recompute live census first.
