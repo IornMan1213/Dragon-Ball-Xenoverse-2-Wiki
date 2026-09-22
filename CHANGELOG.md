@@ -1792,3 +1792,9 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - Re-verified `skill-absolute-zero` against the maintained all-186-PQ guide and dedicated skill documentation.
 - PQ96 Basic Reward placement is independently corroborated; an older UF claim remains preserved as a source conflict.
 - Refreshed canonical/index `last_verified` and provenance notes without changing the acquisition identity or cross-domain relationship.
+
+
+## 2026-09-22 — All Clear mentor provenance verification
+- Re-verified `skill-all-clear` against independent instructor-quest and mentor references.
+- Confirmed Cell's Initiation Test Basic Reward / Cell (Perfect) mentor-training endpoint.
+- Refreshed canonical/index provenance notes and verification date; no acquisition identity or classification change was necessary.
