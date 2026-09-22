@@ -2552,3 +2552,14 @@
 - [x] Validation after writes: canonical/index parity target remains **452/452** with unique IDs preserved; selected batch is current.
 - [ ] CI/runtime remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census, then continue with the next alphabetical stale records rather than relying on historical counts.
+
+
+### 2026-09-22 cycle update — skill provenance refresh: Heat Dome Attack through Holy Wrath
+- Scope: first 10 records from the fresh alphabetical stale census.
+- Records: Heat Dome Attack; Heat Wave; Heavenly Arrow; Hell Flash; Hero's Flute; Hero's Pose; Heroic Assault; Heroic Counter; Holy Inscription; Holy Wrath.
+- Canonical/index changes: all 10 `last_verified` values advanced to 2026-09-22; index synchronized. Holy Wrath's incorrect skill-description “Ultimate” label was corrected to “Ki Blast Super.” Heroic Assault's mechanics wording now explicitly reflects the maintained 40% Ultimate Finish roll while retaining evidence limits.
+- Audit: `docs/data/skill-heat-dome-attack-through-holy-wrath-provenance-audit-2026-09-22.json`, registered in `docs/data/pq-cross-domain-index.json`.
+- Evidence policy: existing source provenance, conflicts, nulls, and unresolved mechanics were preserved; no unsupported probabilities, gates, or restrictions were inferred.
+- Validation target: canonical/index parity, duplicate IDs, selected-record freshness, and stale census must be recomputed after the doc updates.
+- CI status: no successful workflow/check exposed for this direct-commit chain.
+- Exact next step: recompute the stale census and process the next first-ten stale alphabetical skill batch.
