@@ -423,3 +423,10 @@
 - [x] Added and registered `docs/data/equipment/equipment-031-040-detail-audit.json`.
 - [x] Live validation: 139 equipment records, 174 combined equipment/accessory records, 0 duplicate IDs, 125 equipment edges / 123 unique targets / 0 unresolved / 0 broken.
 - [ ] Exact next batch: enrich `equip-041`–`equip-050` with independently verified category/slot, restrictions/effects, and DLC provenance.
+
+
+### 2026-09-22 cycle update — equipment detail enrichment equip-041–050
+- [x] Enriched equip-041–050 across both equipment layers with source-backed category, slot coverage, restrictions, and existing DLC/PQ provenance.
+- [x] Added `docs/data/equipment/equipment-041-050-detail-audit.json` and registered it in the cross-domain index.
+- [x] Validation: 139 equipment records / 174 combined records / 0 duplicate IDs; canonical equipment graph remains 125 edges / 123 targets; all 10 batch relationships are source-backed with 0 unresolved/broken endpoints.
+- [ ] Exact next batch: enrich equip-051–060 with the same evidence and parity workflow.
