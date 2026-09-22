@@ -1,11 +1,12 @@
 ---
 layout: wiki
 title: Every Awoken Skill
+description: Canonical local Awoken/Transformation catalog derived from the maintained skill database.
 ---
 
 # Every Awoken Skill Explorer
 
-This page separates **CaC transformations** from character-only transformation references and lets the detailed research corpus remain current without pretending every field is independently verified.
+Search the repository's **canonical local skill database** for explicitly classified Awoken/Transformation records. No external corpus is substituted at presentation time.
 
 <div class="wiki-tools">
   <input id="q" type="search" placeholder="Search transformation, race, unlock, effect…" aria-label="Search Awoken Skills">
@@ -16,35 +17,24 @@ This page separates **CaC transformations** from character-only transformation r
 
 <script>
 (async function(){
-  const api='https://api.github.com/repos/Madreag/xenoverse_2_wiki/contents/content/skills';
-  const [source] = await Promise.all([fetch(api+'?per_page=100&page=1')]);
-  const items=await source.json();
-  const rows=[];
-  // The public structured corpus has dedicated fields for awoken records; load
-  // only records explicitly classified as awoken rather than guessing from names.
-  for(let page=1;page<=12;page++){
-    const r=page===1?{ok:true,json:async()=>items}:await fetch(api+'?per_page=100&page='+page).then(async x=>({ok:x.ok,json:()=>x.json()}));
-    if(!r.ok) break;
-    const arr=await r.json();
-    if(!arr.length) break;
-    for(const f of arr){
-      try{
-        const t=await (await fetch(f.download_url)).text();
-        const fm=(t.match(/^---([\s\S]*?)---/)||[])[1]||'';
-        const get=k=>{const m=fm.match(new RegExp('^'+k+'\\s*:\\s*(.+)$','m'));return m?m[1].replace(/^['"]|['"]$/g,''):''};
-        if(get('class').toLowerCase()!=='awoken') continue;
-        rows.push({name:get('name')||f.name.replace('.md',''),race:get('race')||get('races')||'All',text:t,html:f.html_url});
-      }catch(e){}
-    }
-    if(arr.length<100) break;
-  }
+  const localUrl='{{ "/data/skills.json" | relative_url }}';
   const q=document.getElementById('q'), race=document.getElementById('race'), results=document.getElementById('results'), stats=document.getElementById('stats');
+  const esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const norm=v=>String(v??'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'');
+  const searchUrl=v=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(v);
+  let rows=[];
   function render(){
-    const term=q.value.toLowerCase().trim(), rr=race.value.toLowerCase();
-    const out=rows.filter(x=>(!term||(x.name+' '+x.text).toLowerCase().includes(term))&&(!rr||x.race.toLowerCase().includes(rr)));
-    stats.textContent=`${out.length} Awoken records shown · ${rows.length} awoken records discovered in the source corpus`;
-    results.innerHTML=out.map(x=>`<a class="card" href="${x.html}" target="_blank" rel="noopener"><span class="tag">${x.race}</span><h3>${x.name}</h3><p>${x.text.replace(/^---[\s\S]*?---/,'').replace(/[#*`]/g,'').replace(/\n+/g,' ').slice(0,300)}…</p><span class="arrow">→</span></a>`).join('');
+    const term=norm(q.value.trim()), rr=norm(race.value);
+    const out=rows.filter(x=>(!term||norm([x.name,x.class,x.subcategory,x.race_restriction,x.unlock_method,x.source_quest_or_shop,x.mechanics_notes,x.skill_description,x.notes].join(' ')).includes(term))&&(!rr||norm(x.race_restriction||'All').includes(rr)));
+    stats.textContent=out.length+' of '+rows.length+' canonical Awoken/Transformation records shown';
+    results.innerHTML=out.map(x=>'<article class="card"><span class="tag">'+esc(x.race_restriction||'All')+' · '+esc(x.verification_status||'indexed')+'</span><h3>'+esc(x.name)+'</h3><p>'+esc(x.skill_description||x.mechanics_notes||x.notes||'Detailed mechanics are still being independently verified.')+'</p><p><strong>Unlock:</strong> '+esc(x.unlock_method||x.source_quest_or_shop||'Not yet populated')+'</p><p><a href="'+esc(searchUrl(x.name))+'">Search this transformation in the wiki ↗</a></p></article>').join('');
   }
-  q.addEventListener('input',render); race.addEventListener('change',render); render();
-})().catch(()=>document.getElementById('stats').textContent='The live Awoken source is temporarily unavailable.');
+  try{
+    const res=await fetch(localUrl,{cache:'no-store'}); if(!res.ok) throw new Error('Local skill database returned '+res.status);
+    const data=await res.json();
+    rows=(data.records||[]).filter(x=>String(x.class||'').toLowerCase()==='awoken'||String(x.subcategory||'').toLowerCase().includes('transformation')).sort((a,b)=>String(a.name).localeCompare(String(b.name)));
+    render();
+  }catch(e){stats.textContent='The canonical local skill database could not be loaded.';results.innerHTML='<div class="card"><h3>Catalog unavailable</h3><p>'+esc(e.message)+'</p></div>'}
+  q.addEventListener('input',render); race.addEventListener('change',render);
+})();
 </script>
