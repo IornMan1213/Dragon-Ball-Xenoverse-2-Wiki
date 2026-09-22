@@ -1748,7 +1748,7 @@ When the continuation handoff advances a research frontier, update this live TOD
 
 ### 2026-09-21 — Completed low-source provenance batch: Fighting Pose E
 - [x] Recomputed the live two-source census before editing: **46**.
-- [x] Verified **Fighting Pose E (`skill-fighting-pose-e`)** as a PQ19 Basic Reward; an independent PQ19 gameplay listing corroborates the reward identity. citeturn0youtube12turn0search1
+- [x] Verified **Fighting Pose E (`skill-fighting-pose-e`)** as a PQ19 Basic Reward; an independent PQ19 gameplay listing corroborates the reward identity.
 - [x] Added the independent source to canonical and index records and refreshed `last_verified` to **2026-09-21**.
 - [x] Preserved existing acquisition/reward-tier and mechanics semantics; no unsupported drop probability or Ultimate Finish gate was inferred.
 - [x] Post-write target: **45** exactly-two-source records.
