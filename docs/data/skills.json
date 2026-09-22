@@ -12398,15 +12398,16 @@
       "mechanics_notes": "Confirmed as Hercule's 0-Ki Power Up Super from PQ45. The user performs a taunting pose that can draw opponent attention; it is usable by CaCs. Current evidence supports CaC usability without a narrower race/gender/form restriction. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Taunt"
+        "https://dbxv2.fandom.com/wiki/Taunt",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/577631-where-to-get-quottauntquotmove-xenoverse-2"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 45,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Taunt with PQ45, \"Take Back the Dragon Balls!\". The prior unlock text naming PQ20 was stale and has been replaced; the available condition remains reward-documented without an established exact drop tier or Ultimate Finish-only gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance correction: the maintained PQ reward data explicitly associates Taunt with PQ45, \"Take Back the Dragon Balls!\". The prior unlock text naming PQ20 was stale and has been replaced; the available condition remains reward-documented without an established exact drop tier or Ultimate Finish-only gate. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: an independent GameFAQs Q&A corroborates Taunt as the PQ45 — Take Back the Dragon Balls! acquisition endpoint; it does not establish a drop probability or override the maintained Basic Reward semantics.",
       "id": "skill-taunt",
       "source_parallel_quests": [
         45
