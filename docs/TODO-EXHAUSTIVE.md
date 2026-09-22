@@ -85,3 +85,10 @@
 - [x] Validation: **169 canonical equipment-accessory records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved / 0 broken endpoints / 186 canonical PQs**.
 - [x] Canonical-source-of-truth rule preserved: relationship endpoints were promoted only from source-backed evidence already present in the repository; unresolved category, slot, restriction, effect, DLC, and reward-slot fields remain unresolved rather than inferred.
 - [ ] Exact next task: enrich **`equip-031`–`equip-040`** with independently verified category/slot, DLC provenance, and directly evidenced restrictions/effects, then re-run canonical endpoint and relationship parity validation.
+
+### 2026-09-22 — Equipment provenance batch `equip-031`–`equip-040`
+- [x] Added an independent maintained equipment-catalog provenance source to `equip-031` through `equip-040`.
+- [x] Reconciled DLC provenance: `031–032` Extra Pack 2/PQ121; `033–036` Extra Pack 3/PQ123/125/127; `037–039` Extra Pack 4/PQ130/131/132; `040` Ultra Pack 1/PQ133.
+- [x] Preserved unresolved reward/drop semantics and unsupported mechanics rather than inferring them.
+- [x] Revalidated canonical equipment count and PQ→equipment endpoint parity: 169 records, 0 duplicate IDs, 124 forward, 122 reverse, 0 unresolved, 0 broken endpoints.
+- [ ] Exact next task: enrich **`equip-041`–`equip-050`** using the same evidence-boundary rules.
