@@ -1577,3 +1577,14 @@
 - [ ] Runtime/CI execution remains unavailable; validation was static direct-fetch JSON parsing and exact pair comparison.
 - [x] Commits: acquisition projection `887f754bc86370d5de981ad60d32ca0a6c879e7c`, source-spelling correction `e883d4df5a01d50adb97b8e3175cd06911b543f9`, reconciliation audit `50a341a0cb5ff61e051896015c74c48d571e1476`.
 - [ ] Exact next batch: independently reconcile the remaining six missing Super Soul pairs, beginning with **PQ58 `Killed all Earthlings!`**, then **PQ158**, while preserving the unresolved PQ158 source spelling and the two capitalization variants as noncanonical projection findings.
+
+
+### 2026-09-22 cycle update — Super Soul acquisition reconciliation PQ58
+- [x] Bounded batch: reconciled canonical PQ58 → Super Soul `Killed all Earthlings!` into the partial PQ41–186 acquisition projection.
+- [x] External evidence: the maintained Super Soul/PQ references explicitly identify `Killed all Earthlings!` as obtained from **Parallel Quest 58**. citeturn0search0turn0search2
+- [x] No canonical relationship was modified; this was a provenance/projection reconciliation only.
+- [x] Exact post-edit comparison: **133** canonical PQ41–186 Super Soul pairs / **128** indexed pairs / **126** exact overlap / **7** remaining differences. Remaining differences are five exact canonical gaps (both PQ158 entries, PQ174, PQ178, PQ179) plus the two capitalization variants at PQ164/PQ173.
+- [x] Updated `docs/data/super-souls/pq-acquisition-index-041-186.json` and `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json`.
+- [ ] Runtime/CI remains unavailable; validation was static direct-fetch JSON parsing and exact pair comparison.
+- [x] Commits: acquisition projection `6ff4b3eb2e39cd413917ad46e527d36e19727802`; reconciliation audit `52f0fc86d78277fa4648edebcca26975a8506bf0`.
+- [ ] Exact next batch: independently reconcile the **two PQ158 Super Soul pairs**, preserving the existing source spelling conflict, then PQ174/PQ178/PQ179.
