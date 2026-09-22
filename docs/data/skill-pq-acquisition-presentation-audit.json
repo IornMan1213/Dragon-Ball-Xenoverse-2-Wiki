@@ -83,6 +83,18 @@
       "status": "repaired",
       "issue": "The index contained all 452 canonical skill identities but projected zero of the 239 canonical source_parallel_quests fields.",
       "resolution": "Synchronized all 239 available canonical skill PQ crosslinks into the index; projection now matches canonical data across all 452 records."
+    },
+    {
+      "file": "docs/data/skills.json",
+      "status": "repaired",
+      "issue": "Kamehameha carried only PQ05 in source_parallel_quests while the canonical PQ relationship index contains pq-005 and pq-048.",
+      "resolution": "Synchronized source_parallel_quests to [5,48] and preserved the existing research-layer conflict as a note; canonical relationship data was not altered."
+    },
+    {
+      "file": "docs/data/skills-index.json",
+      "status": "repaired",
+      "issue": "Kamehameha index projection was missing canonical PQ48 after the skill record was synchronized.",
+      "resolution": "Projected [5,48] so the index matches the canonical skill record and canonical relationship graph."
     }
   ],
   "canonical_relationship_baseline": {
