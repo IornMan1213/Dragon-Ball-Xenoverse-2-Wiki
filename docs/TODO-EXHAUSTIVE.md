@@ -1599,3 +1599,14 @@
 - [x] Updated `docs/data/super-souls/pq-acquisition-index-041-186.json` and `docs/data/super-souls/pq-acquisition-index-reconciliation-audit.json`; no canonical relationship identity was added, removed, or renamed.
 - [ ] Runtime/CI execution remains unavailable; validation is static JSON parsing and exact pair/census comparison only.
 - [ ] Exact next batch: audit the two remaining capitalization variants (**PQ164** and **PQ173**) against an independent exact-text source; if no stronger evidence resolves them, preserve them as presentation/source-normalization differences and move to the next structural cross-domain gap.
+
+
+### 2026-09-22 cycle update — Super Soul acquisition projection exact parity and capitalization audit
+- [x] Independently checked the two previously flagged capitalization variants: PQ164 is “This place will be your grave!” and PQ173 is “You will know the power of the gods!”. External Super Soul/PQ references support those spellings. citeturn0search0turn0search10
+- [x] Re-read the live canonical relationship layer: it contains 133 PQ41–186 Super Soul relationships, including alternate repository wording at PQ158 and PQ178.
+- [x] Preserved canonical relationship targets exactly in the acquisition projection, including both PQ158 wording forms and both PQ178 wording forms, rather than silently rewriting canonical data.
+- [x] Final exact-pair validation: 133 canonical / 133 indexed / 133 exact overlap / 0 missing / 0 extra; 83 unique PQ records / 133 unique pairs / 0 duplicate pairs.
+- [x] Updated the acquisition projection and reconciliation audit.
+- [ ] Runtime/CI remains unavailable; validation is static JSON parsing and exact pair comparison only.
+- [x] Acquisition projection parity commit: 9edc9d308fc57d9ebfee6ceed4979d4d321c7fef.
+- [ ] Exact next batch: move to the next highest-priority structural cross-domain gap using the live TODO/handoff priority.
