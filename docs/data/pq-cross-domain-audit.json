@@ -456,11 +456,11 @@
     ]
   },
   "current_final_state_2026_09_22": {
-    "total_edges": 860,
+    "total_edges": 859,
     "counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
