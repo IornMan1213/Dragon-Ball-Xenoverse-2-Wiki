@@ -4,7 +4,7 @@ Skills (Super, Ultimate, Evasive, Awoken) are obtained through multiple overlapp
 
 ## Primary Methods
 1. **Mentor Training** — Complete the four lessons of each available instructor. Guaranteed skill rewards. Many mentors require story progress or Advancement Test ranks.
-2. **Parallel Quests** — Large number of skills drop from specific PQs, especially with Ultimate Finish. Rotate high-value PQs and check descriptions for skill rewards.
+2. **Parallel Quests** — Many skills are associated with specific PQ reward tables. Ultimate Finish conditions and reward triggers are separate evidence fields; consult the canonical PQ/skill records rather than assuming an Ultimate Finish guarantees a listed skill.
 3. **TP Medal Shop** — Rotating stock of skills, Super Souls, and clothing. Check frequently (especially weekend rotations historically).
 4. **Shenron Wishes** — Specific Super and Ultimate attacks via the corresponding wishes (limited uses / progressive).
 5. **Crystal Raids / Double Crystal Raids** — Can drop a wide range of skills (including many that are otherwise PQ-locked). Useful for filling gaps.
