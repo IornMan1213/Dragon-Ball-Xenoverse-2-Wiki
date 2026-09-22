@@ -1803,3 +1803,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 ## 2026-09-22 — Afterimage starting-skill provenance verification
 - Re-verified `skill-afterimage` as the Mixed fighting-style starting skill.
 - Refreshed canonical/index provenance notes and verification date without changing the acquisition endpoint.
+
+## 2026-09-22 — Big Bang Knuckle provenance verification
+- Refreshed Big Bang Knuckle (skill-big-bang-knuckle) provenance to 2026-09-22.
+- Confirmed PQ172 — "Little Big Brother" as the acquisition endpoint with current dedicated skill evidence and confirmed FUTURE SAGA Chapter 1 / Vegeta (Super Saiyan God) Ultra Supervillain context from official Dragon Ball documentation.
+- Preserved the repository's existing 40% Ultimate Finish bonus-slot evidence and conflicting Basic Reward presentation; no unsupported probability or reward-tier correction was made.
+- Added docs/data/skill-big-bang-knuckle-provenance-audit-2026-09-22.json and registered it in the cross-domain index.
+- Runtime/CI remains unavailable.
