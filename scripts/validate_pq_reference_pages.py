@@ -50,9 +50,7 @@ def main():
         "canonical_pq_count_is_186": canonical == 186,
         "canonical_pq_numbers_are_exact_1_to_186": pq_numbers == list(range(1, 187)),
         "canonical_pq_ids_are_unique": len(pq_ids) == len(set(pq_ids)),
-        "canonical_relationship_types_are_known": {
-            str(e.get("relationship")) for e in rel
-        } <= expected_relationship_types,
+        "canonical_relationship_types_are_known": {str(e.get("relationship")) for e in rel} <= expected_relationship_types,
         "canonical_relationship_keys_are_unique": len(relationship_keys) == len(set(relationship_keys)),
         "canonical_relationship_pq_ids_resolve": not invalid_relationship_pq_ids,
         "canonical_pq_numbers_are_unique": duplicate_pq_numbers == 0,
@@ -64,22 +62,22 @@ def main():
         "explorer_has_canonical_search_surface": '"/Search/"' in explorer,
         "reference_page_declares_186_records": "**186 numbered PQ records" in page,
         "audit_declares_pq186": "through **PQ186**" in audit,
-        "relationship_total_is_860": sum(edge_counts.values()) == 860,
+        "relationship_total_is_859": sum(edge_counts.values()) == 859,
         "skill_edge_count_is_244": edge_counts.get("pq_rewards_skill", 0) == 244,
         "super_soul_edge_count_is_151": edge_counts.get("pq_rewards_super_soul", 0) == 151,
-        "equipment_edge_count_is_125": edge_counts.get("pq_rewards_equipment", 0) == 125,
+        "equipment_edge_count_is_124": edge_counts.get("pq_rewards_equipment", 0) == 124,
         "character_edge_count_is_247": edge_counts.get("pq_features_character", 0) == 247,
         "dlc_edge_count_is_86": edge_counts.get("pq_requires_dlc", 0) == 86,
         "farming_edge_count_is_7": edge_counts.get("pq_farming_route", 0) == 7,
-        "reference_page_declares_860_edges": "**860 unique edges**" in page,
-        "audit_declares_860_edges": "**860 unique edges**" in audit,
+        "reference_page_declares_859_edges": "**859 unique edges**" in page,
+        "audit_declares_859_edges": "**859 unique edges**" in audit,
         "farming_set_matches_canonical": farming == expected_farming,
         "reference_page_farming_set_matches": "15 / 22 / 44 / 45 / 68 / 83 / 88" in page,
         "stale_pq13_farming_claim_absent": "13 / 15 / 22 / 68" not in page,
         "reference_page_links_live_explorer": "Parallel-Quests-All.html" in page,
     }
     result = {
-        "schema_version": "1.1.0",
+        "schema_version": "1.2.0",
         "scope": "general PQ reference/index pages",
         "sources": [
             "docs/data/parallel-quests-record-layer.json",
