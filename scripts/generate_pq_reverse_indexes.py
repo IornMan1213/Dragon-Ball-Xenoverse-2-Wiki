@@ -41,12 +41,11 @@ def source_records(data):
         if records and "rewards" in records[0]:
             return [(int(row["pq"]), row.get("rewards", {})) for row in records]
         return [
-            (int(row["pq"]), {
-                "skills": [name for name, kind in row.get("rewards", []) if kind == "skill"],
-                "super_souls": [name for name, kind in row.get("rewards", []) if kind == "super_soul"],
-                "clothing": [name for name, kind in row.get("rewards", []) if kind == "clothing"],
-                "accessories": [name for name, kind in row.get("rewards", []) if kind == "accessory"],
-            })
+            (int(row["pq"]), (
+                row.get("rewards", {})
+                if "rewards" in row
+                else {domain: list(row.get(domain, [])) for domain in DOMAINS + ("artworks",)}
+            ))
             for row in records
         ]
     return [
