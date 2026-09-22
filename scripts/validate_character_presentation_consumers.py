@@ -22,7 +22,7 @@ def main():
     characters_page=(ROOT/"docs"/"Characters.md").read_text(encoding="utf-8")
     core_profiles=(ROOT/"docs"/"Character-Core-Profiles.md").read_text(encoding="utf-8")
     import re
-    preset_label_pattern=re.compile(r"(?i)\\b(?:[A-Za-z][A-Za-z0-9()'’ -]+\\s+)?Preset\\s+\\d+")
+    preset_label_pattern=re.compile(r"(?i)\b(?:[A-Za-z][A-Za-z0-9()'’ -]+\s+)?Preset\s+\d+")
     markdown_preset_labels=sorted(set(preset_label_pattern.findall(characters_page+"\\n"+core_profiles)))
     characters_explorer_link="Characters-All.html" in characters_page or "Characters-All.md" in characters_page
     core_profile_search_design="Search/" in core_profiles
