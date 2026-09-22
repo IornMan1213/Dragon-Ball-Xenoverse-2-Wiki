@@ -219,3 +219,11 @@
 - Evidence boundary: the alias resolves identity only. It does not assert that the two labels are different skills, alter reward probability, or change Ultimate Finish semantics.
 - CI/Actions: no success is claimed unless a resulting workflow/status is exposed.
 - Exact next batch: **recompute the wider cross-database relationship census for PQ reward targets (skills, Super Souls, equipment) against their reverse indexes, focusing first on deterministic endpoint/count drift rather than provenance-only enrichment.**
+
+
+### Canonical-data authority rule — 2026-09-22
+- **Canonical database records are the sole source of truth for repository cross-links, identity, field values, and projections.**
+- `verification_status` (including `verified` / `verified_secondary`) is **metadata about evidence confidence, not an alternate source of truth** and must never be treated as permission to override canonical data.
+- Research, community, wiki, guide, and other external/source-backed material may be used to discover or verify candidates, but changes to canonical data must be explicitly reconciled into the canonical record first. Downstream indexes/reports must then be regenerated or synchronized from canonical records.
+- No downstream relationship layer may create a target merely because an external source calls it verified. If a target is absent from canonical data, it remains unresolved until the canonical database is updated through the repository's normal evidence/review process.
+- Naming aliases may resolve endpoint identity only when explicitly documented; they must not silently replace canonical names or create competing identities.
