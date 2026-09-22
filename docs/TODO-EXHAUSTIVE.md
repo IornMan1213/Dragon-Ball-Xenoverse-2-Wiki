@@ -2296,3 +2296,19 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical be2f1223d93a61f3cbbe5c2862de97dab7029e49; index 7c391ca17232905342f8111c3213de7e16186394; audit fb60a310bce67fd2b9f53078be71014f6cadd375; cross-domain registration fa3f4e185707e852b2b2ac8a3a34a75b4191c186.
 - [ ] Exact next batch: **Raid Blast, Rakshasa's Claw, Ray Blast, Rebellion Spear, Recoome Kick, Remote Serious Bomb, Revenge Death Ball, Revenge Final Flash, Reverse Launcher, Reverse Mabakusenko**; recompute the live stale census before editing and continue with the same bounded provenance policy.
+
+
+### 2026-09-22 cycle completion tracking — Raid Blast through Reverse Mabakusenko
+- [x] Raid Blast provenance refresh
+- [x] Rakshasa's Claw provenance refresh
+- [x] Ray Blast provenance refresh
+- [x] Rebellion Spear provenance refresh
+- [x] Recoome Kick provenance refresh
+- [x] Remote Serious Bomb provenance refresh
+- [x] Revenge Death Ball provenance refresh
+- [x] Revenge Final Flash provenance refresh + deterministic classification correction
+- [x] Reverse Launcher provenance refresh
+- [x] Reverse Mabakusenko provenance refresh
+- [x] Canonical/index parity validated after batch
+- [x] Audit registered
+- [ ] Next batch: Reverse Shot, Ribrianne's Eternal Love, Riot Javelin, Rise to Action, Rising Rage, Rocket Tackle, Rolling Bullet, Rolling Hercule Punch, Rough Ranger, S.S. Deadly Bomber.
