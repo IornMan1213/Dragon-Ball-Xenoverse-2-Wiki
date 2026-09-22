@@ -1311,3 +1311,11 @@
 - Preserved existing Extra Pack 4, PQ132, Broly (Full Power Super Saiyan), 500 Ki, Ultimate/Ki Blast, and CaC semantics. No unsupported drop probability or race/form scope was inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
 - Post-write target: **35 exactly-two-source records**.
+
+## 2026-09-21 — God of Destruction's Roar low-source provenance strengthening
+- Live pre-batch census: **452 canonical / 452 index / 35 exactly-two-source records**.
+- Strengthened **God of Destruction's Roar (skill-god-of-destruction-s-roar)** from two to three provenance sources by adding the Videogaming Wiki PQ105 page.
+- The independent PQ page lists **God of Destruction's Roar** under **Basic Reward** for **PQ105 — Champa's Hellish Holiday**, corroborating the repository's acquisition route and no-Ultimate-Finish requirement.
+- Preserved Super Pack 2, PQ105, Strike Super classification, Champa association, 100 Ki, and existing CaC semantics. No unsupported drop probability or reward condition was inferred.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
+- Post-write target: **34 exactly-two-source records**.
