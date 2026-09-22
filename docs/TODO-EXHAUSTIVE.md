@@ -1313,3 +1313,15 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `341ae3a77fa8c438061032f052318c0d23f12edb`, `cfd663d80d12c734d2e032f76a4836f9f9e831f3`, `fbc54443a0e52801b1e408ce359a4bd0140124ce`, `e19050eb728114da712d1bcb900abd07aa6ba675`.
 - [ ] Exact next batch: inspect the remaining registered local Search/DLC/equipment landing consumers for one-way navigation and stale duplicated canonical counts, continuing from the cross-domain registry rather than introducing new inferred relationships.
+
+
+### 2026-09-22 cycle update — Skill reverse-PQ validator hardening
+- [x] Continued the registered reverse-navigation chain into `scripts/validate_skills_pq_reverse_navigation.py`.
+- [x] Fixed a latent validator initialization defect where `canonical_pairs` was referenced before initialization.
+- [x] Added deterministic duplicate canonical `(Skill,PQ)` pair detection to the reverse-navigation contract.
+- [x] Refreshed `docs/data/skill-pq-acquisition-presentation-audit.json` to audit version **1.1** with the hardened validator commit.
+- [x] Existing canonical baseline remains **452 skill records / 244 PQ→skill edges / 0 reverse mismatches / 0 missing pairs / 0 extra pairs / 0 unresolved targets / 0 duplicate canonical pairs**.
+- [x] No canonical skill identity or PQ→skill relationship was changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `810b923f691ba80e35821910e028f85827506700`, `3a717bf13d8434c86571d37df282bfe026faff6d`.
+- [ ] Exact next batch: continue the reverse-navigation chain through `scripts/validate_record_reverse_pq_navigation.py` and its Super Soul/Equipment consumers, checking deterministic pair uniqueness and stale/one-way landing links without promoting source-conflict metadata into canonical relationships.
