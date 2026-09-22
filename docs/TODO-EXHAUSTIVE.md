@@ -1933,3 +1933,15 @@
 - [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `5b61b4eb782fec2dc5ad8c420c89db73381d70b8`; index `d9d8abfb764d3f03c814347a3896d3bf0273dccd`; audit `048a300608adfbd854464e782d49ca4cf04f4778`; registry `0be8682b70fbc23184876c443e132c7be36b6b05`.
 - [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with the next stale record after `skill-breaker-energy-wave`, preserving conflicts and projection semantics.
+
+
+### 2026-09-22 cycle update — Burning Attack provenance verification
+- [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 389 stale**; bounded target: `skill-burning-attack`.
+- [x] Dedicated Xenoverse 2 documentation confirms Burning Attack as a **100-Ki Ki Blast Super** associated with **Future Trunks**, with projectile/explosive 2-hit launching behavior and PQ41 acquisition. Independent PQ41 reward guides place it in the **Basic Reward** pool. citeturn1search0turn1search12turn1search4
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22**, refreshed mechanics/provenance notes and sources, and preserved the existing PQ41 Basic Reward / no-Ultimate-Finish-only semantics.
+- [x] Corrected an index projection mismatch discovered during validation: `character_source`, `ki_cost`, and `damage_type` were aligned with the canonical record.
+- [x] Added and registered `docs/data/skill-burning-attack-provenance-audit-2026-09-22.json`.
+- [x] Final static validation: **452/452**, **0 duplicate IDs**, **388 stale remaining**, affected canonical/index fields now semantically aligned.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [x] Commits: canonical `1b2d995822bc013f9d23d9791eb18adc0385ea7c`; index `f57b693c3fc17f078dfcb180001617b42fa2c135` + projection fix `d1f59d6949cf8ab5b5f8d51079e0f0e9d94e68ef`; audit `473970513eebc7750cde8ed167567ae2139c7245` + validation `2dad25a7ac384d22a304ef2a5a4dac43ca74daf6`; registry `be0f618601192493cfc4e0ef17cc8709e27782b1`.
+- [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 queue with the next stale record after `skill-burning-attack`.
