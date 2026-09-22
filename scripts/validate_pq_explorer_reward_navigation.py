@@ -68,6 +68,8 @@ def main():
 
     dlc = load("dlc/canonical-dlc-identity.json")["records"]
     dlc_names = {record["name"] for record in dlc}
+    dlc_ids = {record.get("id") for record in dlc if record.get("id")}
+    dlc_name_to_id = {record["name"]: record.get("id") for record in dlc if record.get("name")}
     dlc_edges = [
         edge for edge in rel
         if edge.get("relationship") == "pq_requires_dlc"
@@ -77,6 +79,10 @@ def main():
         for edge in dlc_edges
         if edge.get("target") not in dlc_names
     })
+    dlc_pairs = [(str(edge.get("pq")), str(edge.get("target"))) for edge in dlc_edges]
+    dlc_duplicate_pairs = len(dlc_pairs) - len(set(dlc_pairs))
+    dlc_duplicate_names = len(dlc_names) != len(dlc)
+    dlc_duplicate_ids = len(dlc_ids) != len(dlc)
 
     skills = {record["name"] for record in load("skills.json")["records"]}
     souls = {record["name"] for record in load("super-souls-record-layer.json")["records"]}
@@ -107,6 +113,10 @@ def main():
         "pq_equipment_links_present": "rewardLinks(r.equipment_rewards,'Equipment',equipmentUrl)" in h,
         "pq_dlc_links_present": "dlcUrl" in h and "dlcByPq" in h and "pq_requires_dlc" in h,
         "dlc_targets_resolve": not dlc_unresolved,
+        "dlc_identity_names_unique": not dlc_duplicate_names,
+        "dlc_identity_ids_unique": not dlc_duplicate_ids,
+        "dlc_relationship_pairs_unique": dlc_duplicate_pairs == 0,
+        "dlc_identity_has_id_for_every_name": len(dlc_name_to_id) == len(dlc_names),
         "skill_targets_resolve": not unresolved["skills"],
         "soul_targets_resolve": not unresolved["souls"],
         "equipment_targets_resolve": not unresolved["equipment"],
@@ -138,10 +148,19 @@ def main():
             "equipment": len(canonical_sets["equipment"]),
             "dlc_edges": len(dlc_edges),
             "dlc_unique_targets": len({edge["target"] for edge in dlc_edges}),
+            "dlc_identity_records": len(dlc),
+            "dlc_duplicate_pairs": dlc_duplicate_pairs,
         },
         "unresolved_canonical_targets": unresolved,
         "checks": checks,
         "structured_reward_consumer_parity": parity,
+        "dlc_identity_contract": {
+            "duplicate_names": dlc_duplicate_names,
+            "duplicate_ids": dlc_duplicate_ids,
+            "identity_name_count": len(dlc_names),
+            "identity_id_count": len(dlc_ids),
+            "relationship_pair_count": len(dlc_pairs),
+        },
         "status": "clean" if all(checks.values()) else "unresolved",
         "evidence_boundary": (
             "Canonical PQ reward and DLC identity layers are authoritative. "
