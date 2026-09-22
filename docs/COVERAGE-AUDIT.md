@@ -1421,3 +1421,12 @@
 - Current projection metadata is synchronized to the corrected 860-edge canonical PQ relationship baseline: 244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming.
 - Reverse projection parity remains clean: 239 skill endpoints, 148 Super Soul endpoints, 123 equipment endpoints, and 28 accessory endpoints; 0 missing/orphan/PQ-set mismatches.
 - Historical 862/840 figures remain preserved as historical audit evidence.
+
+
+### 2026-09-22 cycle update — non-PQ projection producer census
+- Audited the four maintained generated PQ projection reports against the canonical relationship layer and their own reverse arrays.
+- Skill report: **244 forward / 239 reverse endpoints**; Super Soul: **151 / 148**; Equipment: **125 / 123**; Accessory: **28 / 28**.
+- All four reports have **0 duplicate keys, 0 invalid PQ references, 0 unresolved forward edges, and 0 orphan reverse sources** in their declared scopes.
+- The accessory report is intentionally a dedicated 28-edge accessory projection of the broader 125-edge equipment domain; no false one-to-one count equality was introduced.
+- No canonical relationship records required modification. This cycle added synchronized machine-readable producer metadata so future cycles can detect drift deterministically.
+- Exact next batch: **audit the remaining generated/reconciliation artifacts outside the four primary cross-link reports for stale current-state counts or mismatched scopes**, then repair only deterministic drift.
