@@ -8969,7 +8969,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
-        "https://dbxv2.fandom.com/wiki/Perfect_Shot"
+        "https://dbxv2.fandom.com/wiki/Perfect_Shot",
+        "https://dragonball.fandom.com/wiki/Perfect_Shot"
       ],
       "ki_cost": 100,
       "unlock_method": "Cell (Perfect) mentor training — Lesson 2.",
@@ -8984,7 +8985,7 @@
       "mechanics_notes": "Confirmed as a 100-Ki Ki Blast Super from Cell (Perfect) mentor training and usable by all CaC races. It is a slow, tracking, charged finger shot. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-cell added for the documented mentor-training acquisition route.",
       "source_quest": "Cell (Perfect) mentor training",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved.",
+      "notes": "2026-09-19 mentor-training verification: explicit mentor lesson/test evidence confirms this acquisition route; no Ultimate Finish is involved. 2026-09-21 provenance strengthening: Dragon Ball Wiki independently identifies Perfect Shot as a Xenoverse 2 mentor reward from Cell (Perfect)'s School Quest Lesson 2. Existing Cell mentor/Lesson 2 acquisition semantics are preserved; no Ultimate Finish requirement is introduced.",
       "id": "skill-perfect-shot",
       "source_mentor": [
         "mentor-cell"
