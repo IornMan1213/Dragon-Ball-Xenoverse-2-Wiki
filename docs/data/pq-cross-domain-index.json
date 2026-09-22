@@ -152,6 +152,7 @@
     "skill_burst_kamehameha_provenance": "docs/data/skill-burst-kamehameha-provenance-audit-2026-09-22.json",
     "skill_celestial_wave_provenance": "docs/data/skill-celestial-wave-provenance-audit-2026-09-22.json",
     "skill_chain_destructo_disc_barrage_provenance": "docs/data/skill-chain-destructo-disc-barrage-provenance-audit-2026-09-22.json",
-    "skill_chaos_wall_provenance": "docs/data/skill-chaos-wall-provenance-audit-2026-09-22.json"
+    "skill_chaos_wall_provenance": "docs/data/skill-chaos-wall-provenance-audit-2026-09-22.json",
+    "skill_chaotic_time_impact_provenance": "docs/data/skill-chaotic-time-impact-provenance-audit-2026-09-22.json"
   }
 }
