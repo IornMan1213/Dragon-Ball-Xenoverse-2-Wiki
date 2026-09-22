@@ -1737,3 +1737,10 @@
 - [x] Existing provenance conflicts and measurement uncertainty preserved explicitly.
 - [x] Audit added/registered; validation shows 452/452 parity, 0 duplicate IDs, and 28 stale records remaining.
 - [ ] Next batch: **Thunder Flash, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Time Skip/Tremor Pulse, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden**.
+
+
+### 2026-09-22 cycle update — Thunder Flash through Turn Golden provenance batch
+- [x] Ten stale records refreshed and synchronized across canonical/index layers.
+- [x] Provenance audit added/registered; evidence boundaries preserved.
+- [x] Validation: 452/452 parity, 0 duplicate IDs, 18 stale records remaining.
+- [ ] Next batch: **Tyrant Lancer, Ultimate Charge, Ultrasonic Blitz, Vanishing Ball, Variable Snipe Shot, Variant Drive, Victory Cannon, Volleyball Fist, Wall of Defense, Warp Kamehameha**.
