@@ -110,7 +110,9 @@ def main() -> int:
         expected = expected_payload(source, scope, source_name)
         output_path = data_dir / output_name
         actual = load(output_path) if output_path.exists() else None
-        actual_index = (actual or {}).get("indexes", {})
+        actual_index = ((actual or {}).get("indexes")
+                        if isinstance(actual, dict) and "indexes" in actual
+                        else {domain: (actual or {}).get(domain, {}) for domain in DOMAINS})
         same = actual is not None and actual_index == expected["indexes"]
         results.append({
             "range": scope,
@@ -123,7 +125,11 @@ def main() -> int:
                 output_path.write_text(canonical_json(expected), encoding="utf-8")
             else:
                 updated = dict(actual)
-                updated["indexes"] = expected["indexes"]
+                if "indexes" in updated:
+                    updated["indexes"] = expected["indexes"]
+                else:
+                    for domain in DOMAINS:
+                        updated[domain] = expected["indexes"][domain]
                 output_path.write_text(canonical_json(updated), encoding="utf-8")
         elif not same:
             failures.append(scope)
