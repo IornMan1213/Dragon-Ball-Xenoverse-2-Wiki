@@ -3058,173 +3058,191 @@
     {
       "id": "equip-111",
       "name": "Goku (Ultra Supervillain Quelled)'s Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 185 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Future Saga Chapter 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         185
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Current equipment evidence identifies Goku (Ultra Supervillain Quelled)'s Clothes as a full clothing set; no reward probability is inferred.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-112",
       "name": "Goku (Ultra Supervillain Quelled) Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 185 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Future Saga Chapter 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         185
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Current equipment evidence identifies Goku (Ultra Supervillain Quelled) Wig as a wig accessory.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-113",
       "name": "Fu (Ultra Supervillain)'s Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 186 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Future Saga Chapter 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         186
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Current equipment evidence identifies Fu (Ultra Supervillain)'s Clothes as a full clothing set.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-114",
       "name": "Fu (Ultra Supervillain) Set",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 186 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Future Saga Chapter 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         186
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Current equipment evidence identifies Fu (Ultra Supervillain) Set as an accessory set; it is not promoted to a clothing set.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-115",
       "name": "Fu Set 2",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 186 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Future Saga Chapter 4",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         186
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Current equipment evidence identifies Fu Set 2 as an accessory set; exact internal component semantics remain outside this bounded pass.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-116",
       "name": "Pan's Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 93 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         93
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation explicitly lists Pan's Clothes as a four-piece clothing set and PQ93 as an acquisition route.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-117",
       "name": "Pan's Bandanna",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 93 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         93
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained PQ documentation lists Pan's Bandanna as a PQ93 reward; it is an accessory.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-118",
       "name": "Super 17's Clothes",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 95 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         95
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation lists Super 17's Clothes as a four-piece clothing set; PQ95 is an acquisition route.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-119",
       "name": "GT Vegeta's Jacket",
-      "category": "unclassified",
+      "category": "clothing",
       "acquisition_routes": [
         "Parallel Quest 96 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         96
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone. Maintained equipment documentation identifies GT Vegeta's Jacket as clothing; the bounded pass records the jacket as upper-body rather than inferring a full set.",
+      "last_verified": "2026-09-22"
     },
     {
       "id": "equip-121",
