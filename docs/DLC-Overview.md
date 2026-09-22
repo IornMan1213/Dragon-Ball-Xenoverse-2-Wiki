@@ -209,4 +209,7 @@ The machine-readable DLC relationship layer is backed by a standalone canonical 
 - [PQ → DLC reverse index](./data/dlc/pq-reverse-index.json)
 - [DLC reverse-navigation audit](./data/dlc/pq-reverse-navigation-audit.json)
 
+- [Future Saga content map](./data/future-saga-content-map.json)
+- [DLC presentation consumer audit](./data/dlc/dlc-presentation-consumer-audit.json)
+
 The canonical relationship layer remains authoritative. The identity projection exists to make existing `pq_requires_dlc` targets navigable and validator-resolvable; it is not a replacement for the official DLC baseline or a source for new relationships.
