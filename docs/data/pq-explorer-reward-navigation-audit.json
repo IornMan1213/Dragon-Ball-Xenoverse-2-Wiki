@@ -7,7 +7,8 @@
     "docs/data/pq-equipment-crosslink-report.json",
     "docs/data/skills.json",
     "docs/data/super-souls-record-layer.json",
-    "docs/data/equipment-accessories-record-layer.json"
+    "docs/data/equipment-accessories-record-layer.json",
+    "docs/data/dlc/canonical-dlc-identity.json"
   ],
   "consumer": "docs/Parallel-Quests-All.html",
   "counts": {
@@ -35,5 +36,27 @@
     "dlc_targets_resolve": true
   },
   "status": "clean",
-  "evidence_boundary": "Canonical PQ reward and DLC identity layers are authoritative. The explorer uses pq_requires_dlc relationships rather than the broader 'Super Pass' presentation field; local Search/overview destinations do not imply dedicated per-record pages."
+  "evidence_boundary": "Canonical PQ reward and DLC identity layers are authoritative. The explorer uses pq_requires_dlc relationships rather than the broader 'Super Pass' presentation field; local Search/overview destinations do not imply dedicated per-record pages.",
+  "date": "2026-09-22",
+  "validator": "scripts/validate_pq_explorer_reward_navigation.py",
+  "structured_reward_consumer_parity": {
+    "skills": {
+      "canonical": 244,
+      "structured": 244,
+      "missing": 0,
+      "extra": 0
+    },
+    "super_souls": {
+      "canonical": 151,
+      "structured": 151,
+      "missing": 0,
+      "extra": 0
+    },
+    "equipment": {
+      "canonical": 125,
+      "structured": 125,
+      "missing": 0,
+      "extra": 0
+    }
+  }
 }
