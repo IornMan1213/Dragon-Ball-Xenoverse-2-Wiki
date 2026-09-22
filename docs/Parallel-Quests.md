@@ -47,7 +47,7 @@ Selected and organized from the full list for usefulness (farming, key skills, p
 - **Future Saga Chapters 1–4**: Extensive set of high-difficulty PQs (roughly 163+) with new skills (including Dragon Spiral, Indomitable, Venus Fist and others), artwork, and some of the highest Zeni rewards in the game. Chapter 4 contains some of the newest content.
 
 ## Canonical Relationship & Navigation Notes
-The repository treats `docs/data/pq-reward-relationships.json` as the authoritative relationship layer. The current canonical PQ relationship census is **860 unique edges** across skills, Super Souls, equipment, characters, DLC, and farming. The maintained local explorer is the presentation surface for the 186 canonical PQ records.
+The repository treats `docs/data/pq-reward-relationships.json` as the authoritative relationship layer. The current canonical PQ relationship census is **859 unique edges** across skills, Super Souls, equipment, characters, DLC, and farming. The maintained local explorer is the presentation surface for the 186 canonical PQ records.
 
 - **Skill rewards:** resolve through the canonical PQ → Skill relationship layer and the local Skills explorer.
 - **Super Souls:** resolve through the canonical PQ → Super Soul relationship layer; detailed per-record navigation currently uses the local Search surface.
