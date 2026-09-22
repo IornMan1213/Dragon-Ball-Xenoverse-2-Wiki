@@ -6959,3 +6959,15 @@ The repository owner has clarified the continuation contract:
 - Commits: canonical/index commits recorded immediately above; handoff commit pending.
 - Live census after editing: **23 exactly-two-source records**.
 - Exact next batch: **Mystic Flash (`skill-mystic-flash`)**; recompute the live census first, then independently verify its acquisition endpoint and strengthen provenance only where the evidence threshold is met.
+
+
+### 2026-09-21 cycle update — Mystic Flash provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 24 exactly-two-source canonical records**.
+- Bounded batch: **Mystic Flash (`skill-mystic-flash`)**.
+- Evidence: Yhan Game's maintained all-100 Parallel Quest guide explicitly lists **Mystic Flash** under **PQ20 — Frieza! Show Yourself — Basic Reward**, independently corroborating the existing PQ20 acquisition endpoint.
+- Changes: added the maintained PQ guide's Steam mirror source `https://steamcommunity.com/sharedfiles/filedetails/?id=808851543` to both canonical and index records; refreshed `last_verified` to **2026-09-21** and recorded the corroboration in notes.
+- Limits preserved: no drop probability or additional Ultimate Finish requirement was inferred.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 23 exactly-two-source records**; canonical/index source and verification parity clean; no internal citation artifacts.
+- CI: GitHub exposed no workflow runs/status checks for the handoff commit; no CI success is claimed.
+- Commits: canonical `b1c343bf447e646e5bcf586ce9cdc28c92417a66`; index `91fb873bfac818d61070bc0b4e07af30350278fa`.
+- Exact next batch: **Mystic Gohan (DLC) (`skill-mystic-gohan-dlc`)**; recompute the live census first, then independently verify its acquisition endpoint and strengthen provenance only where the evidence threshold is met.
