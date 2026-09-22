@@ -519,3 +519,9 @@
 - [x] Preserved the canonical-source-of-truth rule. Reverse/index/audit artifacts are projections and do not create or rename character identities.
 - [x] Preserved identity limits: the canonical character layer currently uses names rather than stable character IDs, so no IDs were invented; generic enemy appearances were not converted into relationships.
 - [ ] Exact next task: audit the broader PQ page/index consumers for one-way links, orphan page references, and legacy display-only names against the canonical relationship layer; repair only deterministic navigation projections and record unresolved coverage rather than inferring relationships.
+
+
+### 2026-09-22 — Character reverse-index key clarification
+- [x] Updated docs/data/pq-cross-domain-index.json to use canonical_character_name for the character reverse projection because the live character layer has names, not stable character IDs.
+- [x] No canonical relationship data changed; this prevents downstream consumers from assuming a nonexistent character-ID layer.
+- [x] Commit: c46f937382a0f8b154e5dbe15bc0263eb7eb6d76.
