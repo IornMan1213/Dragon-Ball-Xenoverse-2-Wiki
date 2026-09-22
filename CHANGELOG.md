@@ -1,3 +1,10 @@
+## 2026-09-22 — Equipment detail enrichment 111-120
+
+- Enriched `equip-111`–`equip-120` with source-backed category, slot, and DLC provenance.
+- Added `docs/data/equipment/equipment-111-120-detail-audit.json`.
+- Validation: **174 combined records / 0 duplicate IDs / 125 PQ→equipment edges / 123 unique targets / 0 broken endpoints**.
+- No reward probability, guarantee, combat/stat effect, or unsupported restriction was inferred.
+
 ## 2026-09-22 — Equipment detail enrichment 101-110
 
 - Enriched `equip-101`–`equip-110` with source-backed category, slot, and DLC provenance.
