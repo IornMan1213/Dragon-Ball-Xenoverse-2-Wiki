@@ -15508,3 +15508,13 @@ The directive to populate the live-state fields from the current repository and 
 - Super Soul acquisition index: **80 PQ records / 122 typed references**. Exact pair comparison against canonical Super Soul relationships found **108 overlaps**, **14 research-layer-only pairs**, and **43 canonical pairs absent from the index**, of which **25 are within its PQ41-186 scope**. These differences are preserved as reconciliation work; canonical truth was not overwritten by research-layer data.
 - No canonical relationship identities were changed.
 - Exact next batch: **audit the remaining PQ reverse-index artifacts for PQ81-186 and other domain-specific acquisition projections, using exact relationship-pair comparison and preserving canonical-vs-research distinctions.**
+
+
+### 2026-09-22 cycle update — PQ reverse-index structural/scope audit
+- Audited the remaining range reverse indexes for PQ81-186.
+- Found and repaired a deterministic structural defect in `pq-reverse-index-081-120.json`: the JSON artifact was missing its final root closing brace. No indexed data was changed; the repaired file now parses successfully and explicitly records its PQ81-120 scope audit.
+- PQ121-142 reverse index: **89 typed references across all 22 PQs**, declared status `partially_verified`.
+- PQ163-186 reverse index: **169 typed references across all 24 PQs**, declared status `partially_verified`, source map `pq-163-186-reward-map.json`.
+- Repository directory inspection confirms no separate PQ143-162 reverse-index artifact currently exists; this absence is recorded as a coverage gap rather than inferred data.
+- Canonical relationship data was not altered.
+- Exact next batch: **audit the PQ81-120, PQ121-142, and PQ163-186 reverse indexes against their underlying normalized reward maps at the exact relationship-pair level, then address the missing PQ143-162 reverse-index projection if its source data supports deterministic generation.**
