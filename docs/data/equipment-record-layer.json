@@ -984,7 +984,7 @@
     {
       "id": "equip-041",
       "name": "Kakunsa's Wig and Mask",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-133 reward",
       "pq_sources": [
@@ -993,15 +993,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Kakunsa"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-042",
       "name": "Kakunsa's Tail",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-133 reward",
       "pq_sources": [
@@ -1010,15 +1014,19 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Kakunsa"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-043",
       "name": "Rozie's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-135 reward",
       "pq_sources": [
@@ -1027,15 +1035,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://reddit.com/r/DragonBallXenoverse2/comments/ylj119/is_there_a_compile_list_of_equipment_sets_that/"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-044",
       "name": "Rozie's Hood and Goggles",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-135 reward",
       "pq_sources": [
@@ -1044,15 +1059,18 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-045",
       "name": "Android 21's Lab Uniform",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-139 reward",
       "pq_sources": [
@@ -1061,15 +1079,20 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/558294-is-android-21s-lab-coat-a-full-outfit",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body"
       ]
     },
     {
       "id": "equip-046",
       "name": "Universe 7 Baseball Uniform",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-139 reward",
       "pq_sources": [
@@ -1078,15 +1101,22 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-047",
       "name": "Universe 7 Baseball Cap",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-139 reward",
       "pq_sources": [
@@ -1095,15 +1125,20 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Baseball_Uniform",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-048",
       "name": "Universe 6 Baseball Uniform",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-142 reward",
       "pq_sources": [
@@ -1112,15 +1147,23 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78255876",
+        "https://gamefaqs.gamespot.com/switch/190457-dragon-ball-xenoverse-2/answers/623505-is-there-a-universe-6-baseball-cap-and-where-do-i-get-it",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "feet"
       ]
     },
     {
       "id": "equip-049",
       "name": "Gine (DB Super)'s Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-144 reward",
       "pq_sources": [
@@ -1129,15 +1172,23 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://ultradragonball.fandom.com/wiki/Gine",
+        "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-new-dlc-character-and-7-day-consecutive-world-tournament"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-050",
       "name": "Gine (DB Super) Set",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-144 reward",
       "pq_sources": [
@@ -1146,9 +1197,13 @@
       "dlc_requirement": null,
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Detail enrichment: category and slot coverage independently verified; exact reward/drop probability remains unresolved.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://ultradragonball.fandom.com/wiki/Gine"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
