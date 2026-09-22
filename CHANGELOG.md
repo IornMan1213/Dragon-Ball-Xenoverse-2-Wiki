@@ -1407,3 +1407,8 @@
 ## 2026-09-22 — Rise to Action provenance
 - Strengthened `skill-rise-to-action` with independent Twinfinite corroboration of the Krillin mentor acquisition endpoint.
 - Preserved existing acquisition, cost, CaC, and Ultimate Finish semantics; no unsupported reward probability or prerequisite was added.
+
+
+## 2026-09-22 — Shield Barrier provenance
+- Strengthened `skill-shield-barrier` with independent maintained Steam PQ evidence for PQ153 acquisition.
+- Preserved the existing explicit Ultimate Finish bonus-roll condition despite the Steam guide's Basic Reward presentation; the conflict remains documented.
