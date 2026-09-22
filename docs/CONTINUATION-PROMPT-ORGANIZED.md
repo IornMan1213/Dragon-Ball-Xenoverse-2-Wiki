@@ -15472,3 +15472,12 @@ The directive to populate the live-state fields from the current repository and 
 - CI: no successful workflow/check exposed for this direct-commit chain.
 - Current master remains **862 relationships**: 244 skill / 151 Super Soul / 125 equipment / 247 character / 88 DLC / 7 farming.
 - Exact next batch: **trace the 247 character edges and 88 DLC edges back to their canonical PQ records and identify any target/alias normalization gaps, without treating source text as a canonical source of truth.**
+
+
+### 2026-09-22 cycle update — current PQ projection census correction
+- Recomputed the current PQ projection census from the corrected **860-edge canonical relationship array**.
+- Corrected stale current-state endpoint/final-consistency metadata in the cross-domain audit/status artifacts; historical 862/840 records remain preserved.
+- Current counts: **244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming = 860**.
+- Reverse projection parity: **239 skill / 148 Super Soul / 123 equipment / 28 accessory endpoints**, with 0 missing, 0 orphan, and 0 PQ-set mismatch cases. DLC: 86 forward edges / 20 unique reverse endpoints.
+- No canonical relationship identities changed in this batch.
+- Exact next batch: **scan remaining non-PQ relationship producers and generated projection metadata for current-count drift**, repairing only deterministic mismatches before new provenance research.
