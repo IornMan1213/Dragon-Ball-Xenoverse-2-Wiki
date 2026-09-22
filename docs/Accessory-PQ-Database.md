@@ -21,7 +21,7 @@ The Parallel Quest accessory research layer connects individual accessories to t
 
 ## Current research population
 
-The machine-readable layer now contains **45 accessory/PQ research records**. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
+The machine-readable layer now contains **45 accessory/PQ research records**. The canonical accessory identity layer now contains **58 `acc-###` records**, with **16 PQ→accessory identity matches** and **29 research identities still unresolved**. Eight early/base-game identities were promoted or normalized in the latest reconciliation pass; the remaining research leads stay unresolved where inventory-level evidence is insufficient. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
 
 | Accessory / research item | PQ | State |
 |---|---:|---|
@@ -111,11 +111,19 @@ The database therefore does **not** invent a drop percentage when the underlying
 
 ### Yamcha's Sword
 
-Historical sources disagree on its PQ association. The current record retains PQ29 while documenting the competing PQ36 claim rather than silently selecting one. This needs direct current-version reconciliation.
+Historical sources disagree on its PQ association. The current record retains the research-layer association while documenting the competing PQ36 claim rather than silently selecting one. This needs direct current-version reconciliation.
 
 ### Goku's Wig
 
 PQ25 is the current mapping used by the research layer, but older inventories can differ in numbering or presentation. It remains partially verified until that historical discrepancy is resolved.
+
+### SSGSS Goku Wig
+
+The canonical identity is `acc-058`. Independent evidence supports PQ76, while legacy equipment/normalized data records PQ66; both routes are preserved in the canonical record until version-specific evidence resolves the discrepancy.
+
+### Canonical identity reconciliation
+
+The canonical source of truth is `docs/data/equipment-accessories-record-layer.json`. The PQ bridge and cross-link report use its `acc-###` IDs. Four older equipment endpoints (`equip-071`, `equip-081`, `equip-083`, and `equip-091`) were normalized to canonical accessory IDs instead of creating duplicate identities. Verification status and research evidence remain supporting metadata, not competing sources of truth.
 
 ### TP/STP overlap
 
