@@ -2420,3 +2420,14 @@
 - [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **324 stale canonical records remain**; all ten targets have `last_verified: 2026-09-22`; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Double Crush, Double Death Slicer, Double Sunday, Dragon Blitz, Dragon Burn, Dragon Fist, Dragon Spark, Dragon Spiral**, then adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Double Crush through Dragon Spiral provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 324 stale**.
+- [x] Bounded batch completed for **Double Crush, Double Death Slicer, Double Sunday, Dragon Blitz, Dragon Burn, Dragon Fist, Dragon Spark, and Dragon Spiral**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all eight records and refreshed bounded mechanics/provenance notes.
+- [x] Preserved documented evidence boundaries: Double Crush remains PQ147/Legendary Pack 2; Dragon Burn remains a 200-Stamina Evasive; Dragon Spark retains its explicit PQ177 Ultimate-Finish route and conflicting reward-list context; Dragon Spiral retains the explicit PQ185 route over older alternate PQ186 references.
+- [x] No unsupported drop probability, reward gate, or CaC restriction was invented; historical gameplay observations are kept distinct from canonical numeric fields.
+- [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **316 stale canonical records remain**; all eight targets have `last_verified: 2026-09-22`; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Dragon Thunder, Drain Field, Dual Destructo-Disc, Dust Attack**, then adjacent stale records where evidence remains bounded.
