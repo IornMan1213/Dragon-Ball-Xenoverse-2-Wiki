@@ -550,3 +550,18 @@
 - Repository directory inspection confirms no separate PQ143-162 reverse-index artifact currently exists; this absence is recorded as a coverage gap rather than inferred data.
 - Canonical relationship data was not altered.
 - Exact next batch: **audit the PQ81-120, PQ121-142, and PQ163-186 reverse indexes against their underlying normalized reward maps at the exact relationship-pair level, then address the missing PQ143-162 reverse-index projection if its source data supports deterministic generation.**
+
+
+## 2026-09-22 cycle update — PQ81-162 reverse-index structural reconciliation
+- Active workstream: PQ reverse-index / cross-database projection integrity.
+- Live pre-edit structural census: normalized reward maps exist for PQ81-120, PQ121-142, and PQ143-162; PQ143-162 previously lacked a standalone reverse-index artifact while the unified reverse index already contained its typed entries.
+- Completed: added standalone deterministic reverse-index projections for PQ121-142 and PQ143-162; PQ81-120 standalone index was inspected and retained.
+- PQ143-162 new projection commit: f40a588758ef0a0c4388e5c6e4520608a24583a0.
+- Projection counts from the normalized maps: PQ81-120 = 108 indexed identities / 109 references; PQ121-142 = 88 indexed identities / 88 references; PQ143-162 = 151 indexed identities / 151 references.
+- Evidence boundary: these are deterministic projections of the repository's normalized reward maps. They do not promote source-layer claims into canonical relationship truth and do not infer missing rewards.
+- Validation: generated projections were derived directly from their source maps; PQ143-162 has 40 skill identities, 26 Super Soul identities, 11 clothing identities, 10 accessory identities, and 64 artwork identifiers. Existing PQ81-120 and PQ121-142 artifacts were inspected for structural parity and preserved historical metadata.
+- Canonical source-of-truth rule preserved: canonical PQ/reward relationship data remains authoritative; reverse indexes are projections only.
+- CI: no successful GitHub Actions result exposed for this direct-commit chain; no CI success claimed.
+- Current live state: reverse-index gap for PQ143-162 is closed; PQ81-162 now has standalone reverse-index artifacts for all three maintained normalized ranges.
+- Exact next batch: compare PQ81-120, PQ121-142, and PQ143-162 standalone indexes against the unified reverse index at exact relationship-pair level, identify any deterministic omissions/extra pairs, then repair only projection drift.
+
