@@ -2022,3 +2022,12 @@
 - [x] Static validation: **452/452**, **0 duplicate canonical IDs**, **366 stale canonical records remain**, all seven targets refreshed, audited shared canonical/index fields **0 mismatches**, and all seven audit registrations resolve.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live census after merge and continue the stale P1 skill provenance queue alphabetically with **`skill-dancing-parapara`**, then adjacent stale records where evidence and validation remain bounded.
+
+
+## 2026-09-22 — Dancing-through-Darkness provenance batch
+- Refreshed six adjacent stale P1 skill records: Dancing Parapara, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), and Darkness Twin Star.
+- Added six provenance audits and registered them in pq-cross-domain-index.json.
+- Corrected Darkness Rush (Melee) race scope to all CaC races except Namekian, matching direct skill evidence; retained Darkness Rush (Ranged) as Namekian-only.
+- Rechecked mentor/PQ acquisition evidence and preserved existing acquisition semantics where no direct contradiction was established.
+- Validation target: six records set to 2026-09-22; canonical/index parity and audit registration to be verified before merge. CI success is not claimed.
+- Next target: recompute live stale census and continue with the next stale records beginning Data Input / Dead End Rain / Deadly Dance, batching adjacent skills where evidence remains bounded.
