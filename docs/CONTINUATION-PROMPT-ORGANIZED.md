@@ -1730,3 +1730,10 @@
 - [x] Transformation scope and progression distinctions preserved; no unsupported acquisition gates added.
 - [x] Provenance audit added/registered; validation shows 452/452 parity and 38 stale records remaining.
 - [ ] Next batch: **Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction, Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come**.
+
+
+### 2026-09-22 cycle update — Supersonic Mode through The Savior Has Come provenance batch
+- [x] Ten stale records refreshed and synchronized across canonical/index layers.
+- [x] Existing provenance conflicts and measurement uncertainty preserved explicitly.
+- [x] Audit added/registered; validation shows 452/452 parity, 0 duplicate IDs, and 28 stale records remaining.
+- [ ] Next batch: **Thunder Flash, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Time Skip/Tremor Pulse, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden**.
