@@ -4818,9 +4818,9 @@
       ],
       "unlock_method": "Parallel Quest 126 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 200-Ki Ki Blast Super identity, Kefla association, and PQ126 Basic Reward route. No Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version evidence identifies Gigantic Breaker as Kefla's Ki Blast Super; the Future Warrior can obtain it as a random PQ126 reward. CaC race/gender scope is not explicitly stated, so race_restriction remains null. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Gigantic Breaker in the Basic Reward section of Parallel Quest 126, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
       "source_quest": 126,
       "source_quest_or_shop": "Parallel Quest 126 — \"Catch Kefla If You Can!\"",
@@ -4843,9 +4843,9 @@
       ],
       "unlock_method": "Parallel Quest 127 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": " 2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 500-Ki Ki Blast Ultimate identity, Kefla (Super Saiyan) association, and PQ127 Basic Reward route. No Ultimate Finish-only gate is inferred.",
       "mechanics_notes": "Dedicated current-version skill evidence explicitly states that Gigantic Burst is a Ki Blast Ultimate used by Kefla (Super Saiyan) and is available for CaCs; PQ127 is the listed unlock. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists Gigantic Burst in the Basic Reward section of Parallel Quest 127 — Multiverse Match of the Century, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward route; no Ultimate Finish-only gate is asserted.",
       "source_quest": 127,
       "source_quest_or_shop": "Parallel Quest 127 — Multiverse Match of the Century",
@@ -4865,13 +4865,14 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Charge",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Gigantic_Charge"
       ],
       "unlock_method": "Parallel Quest 128 — Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 deterministic mechanics correction retained: current dedicated evidence classifies this as a 200-Ki Strike Super with a 300-Stamina cost while damaged, rather than Ki Blast. The chargeable rush is unblockable; PQ128 is a Basic Reward route.",
       "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 128,
       "source_quest_or_shop": "Parallel Quest 128 — \"Legendary Super Saiyan Smackdown\"",
@@ -4890,13 +4891,14 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Cluster",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Gigantic_Cluster"
       ],
       "unlock_method": "Parallel Quest 163 — \"Broly the Invader\" Ultimate Finish reward (40% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Gigantic Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Gigantic Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 naming correction: authoritative current technique documentation and maintained PQ reward evidence identify the skill as “Gigantic Cluster.” The stable repository ID remains `skill-giant-cluster` to avoid breaking existing references.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Gigantic Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Gigantic Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 naming correction: authoritative current technique documentation and maintained PQ reward evidence identify the skill as “Gigantic Cluster.” The stable repository ID remains `skill-giant-cluster` to avoid breaking existing references. 2026-09-22 provenance refresh: explicit maintained PQ163 drop-condition data continues to support the 40% Ultimate Finish route despite the separate reward transcription displaying the name in a Basic Reward array; the conflict is preserved rather than silently flattened. The stable ID remains skill-giant-cluster.",
       "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 163,
       "source_quest_or_shop": "Parallel Quest 163 — \"Broly the Invader\"",
@@ -4919,9 +4921,9 @@
       ],
       "unlock_method": "Conton City Patrol 04 — Teach Me, Broly! (Part 1).",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": null,
-      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Cross as a Chapter 3 skill unlocked through Conton City Patrol 04. No unsupported reward/PQ gate was inferred.",
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Cross as a Chapter 3 skill unlocked through Conton City Patrol 04. No unsupported reward/PQ gate was inferred. 2026-09-22 Chapter 3 provenance/mechanics refresh: current evidence confirms the Conton City Patrol 04 endpoint and a chargeable green mouth-generated Ki Blast ending in an explosion. No unsupported reward/PQ gate is inferred.",
       "mechanics_notes": "Fires a chargeable green mouth-generated Ki Blast that arcs forward and ends in an explosion; current skill evidence lists 100 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
       "source_quest": "Conton City Patrol 04",
       "source_quest_or_shop": "Conton City Patrol 04 — Teach Me, Broly! (Part 1)"
@@ -4937,13 +4939,14 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Explosion",
-        "https://videogaming.fandom.com/wiki/Gigantic_Explosion_%28Dragon_Ball%3A_Xenoverse_2%29"
+        "https://videogaming.fandom.com/wiki/Gigantic_Explosion_%28Dragon_Ball%3A_Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Gigantic_Explosion"
       ],
       "unlock_method": "Parallel Quest 164 — Ultimate Finish (40%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
+      "notes": "2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 600-Ki Ultimate, 400-Stamina continuation while taking damage, CaC Awoken requirement, and PQ164 Ultimate Finish route.",
       "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest. 2026-09-20 verification: current skill page identifies PQ164 as the unlock; maintained drop-condition data documents the Ultimate Finish route. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish (40%) route; the recorded condition is preserved without inference beyond the maintained corpus.",
       "source_quest": 164,
       "source_quest_or_shop": "Parallel Quest 164 — \"Where is Goku?!\"",
@@ -4962,16 +4965,20 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Gigantic_Meteor"
       ],
       "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Gigantic Meteor as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 mentor provenance refresh: current evidence confirms Broly mentor training as the Basic Reward endpoint and 300 Ki cost. Detailed combat mechanics remain bounded pending stronger dedicated evidence.",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
       "source_quest": "Broly mentor training",
-      "source_quest_or_shop": "Broly mentor training"
+      "source_quest_or_shop": "Broly mentor training",
+      "source_mentor": [
+        "mentor-broly"
+      ]
     },
     {
       "id": "skill-gigantic-nova",
@@ -4988,9 +4995,9 @@
       ],
       "unlock_method": "Conton City Patrol 17 — Teach Me, Broly! (Part 3).",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": null,
-      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Nova as a Chapter 3 skill unlocked through Conton City Patrol 17. No unsupported reward/PQ gate was inferred.",
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Nova as a Chapter 3 skill unlocked through Conton City Patrol 17. No unsupported reward/PQ gate was inferred. 2026-09-22 Chapter 3 provenance/mechanics refresh: current evidence confirms the Conton City Patrol 17 endpoint, 300 Ki cost, and massive green Ki sphere followed by a large explosion. No unsupported reward/PQ gate is inferred.",
       "mechanics_notes": "Creates and launches a massive green Ki sphere that ends in a large explosion; current skill evidence lists 300 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred.",
       "source_quest": "Conton City Patrol 17",
       "source_quest_or_shop": "Conton City Patrol 17 — Teach Me, Broly! (Part 3)"
@@ -5006,16 +5013,20 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Gigantic_Omega"
       ],
       "unlock_method": "Broly's mentor training — complete the corresponding lesson to receive Gigantic Omega as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 mentor provenance refresh: current evidence confirms Broly mentor training as the Basic Reward endpoint and 100 Ki cost. Detailed combat mechanics remain bounded pending stronger dedicated evidence.",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
       "source_quest": "Broly mentor training",
-      "source_quest_or_shop": "Broly mentor training"
+      "source_quest_or_shop": "Broly mentor training",
+      "source_mentor": [
+        "mentor-broly"
+      ]
     },
     {
       "id": "skill-gigantic-rage",
@@ -5033,9 +5044,9 @@
       ],
       "unlock_method": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 200-Ki Strike Super, five-hit close-range grab/hard-knockdown sequence, and PQ130 Basic Reward route. Super Armor documented for Broly is not generalized to CaC use.",
       "mechanics_notes": "200 Ki; close-range grab sequence with five hits and hard knockdown. Super Armor is documented for Broly's own use; it should not be generalized to CaC use without direct evidence. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
       "source_quest": 130,
       "source_quest_or_shop": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\"",
