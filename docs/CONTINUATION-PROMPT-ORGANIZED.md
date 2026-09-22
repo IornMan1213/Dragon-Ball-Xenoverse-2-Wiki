@@ -1616,3 +1616,5 @@
 - [ ] CI: no successful workflow/check exposed for this direct-commit chain; do not claim CI success.
 - [x] Commits: `cb9ae099cf0c20bda26e74a60c8fecbdb7d4aa4f`, `c1984a62a43943277ba5a0e194204df9641a1872`, `5c7c3dd8c364b4849ac2ee4e627fe8d90d7ac7c2`, `49c3746b7315f487ce8fb2d6f069d78c22a38d1e`.
 - [ ] Exact next batch: recompute the live stale census from `docs/data/skills.json` and continue with the first ten stale canonical skills after **Holy Wrath**; do not assume the historical next batch if intervening verification changes alter the ordering.
+
+- [x] Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 10 selected current / 0 ID-set mismatches**; stale remaining **198**. Exact next batch is **Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, Indomitable, Innocence Breath, Innocence Bullet, Innocence Cannon, Instant Charge**.
