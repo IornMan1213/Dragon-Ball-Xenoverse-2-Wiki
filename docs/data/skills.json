@@ -7463,7 +7463,8 @@
       "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Instant_Charge",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dragonball.fandom.com/wiki/Mira"
       ],
       "ki_cost": 0,
       "unlock_method": "Character-exclusive: Mira (Final Form); also used by certain raid/boss encounters",
@@ -7472,11 +7473,11 @@
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
       "mechanics_notes": "Character/boss charge skill; no CaC acquisition route established. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-21",
       "race_restriction": "Character-only",
       "dlc_requirement": "Base Game",
       "acquisition_type": "character_only",
-      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Instant Charge as a Mira (Final Form) character-exclusive skill; raid/boss usage does not establish a CaC acquisition route.",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Instant Charge as a Mira (Final Form) character-exclusive skill; raid/boss usage does not establish a CaC acquisition route. 2026-09-21 provenance strengthening: Dragon Ball Wiki's Mira reference independently identifies Instant Charge as one of Final Form Mira's techniques, corroborating the existing character-exclusive scope; no CaC acquisition route is inferred.",
       "id": "skill-instant-charge"
     },
     {
