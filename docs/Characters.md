@@ -2,6 +2,10 @@
 
 The character section is being built as a **record-by-record encyclopedia**, not merely a roster list. The source reconciliation currently contains **149 canonical character identities** from a source category that exposed 155 items, plus a separately tracked 54-entry DLC-character category. The difference is intentional: category/template/race-navigation items are not silently counted as characters.
 
+## Canonical character explorer
+
+The published **[Every Character Explorer](Characters-All.md)** now exposes all 149 canonical identities with indexed preset records and explicit PQ reverse-navigation links. It is a navigation/index surface, not a claim that every character's unlock, preset, DLC, or gameplay field is fully researched.
+
 ## Hard-written character profiles
 
 The first hard-written pass is now available in **[Character Core Profiles](Character-Core-Profiles.md)**. It covers Goku, Vegeta, Piccolo, Gohan (Adult), and Frieza (Final Form), chosen because they connect strongly to mentors, presets, skills, transformations, quests, DLC and equipment. These profiles are `partially_verified`; unresolved fields remain explicit rather than being guessed.
