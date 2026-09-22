@@ -18,10 +18,10 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Leave the 840-edge baseline intact and perform only evidence-driven expansion when stronger source coverage is found; re-run the same integrity/reconciliation checks after any additions.",
+  "next_completion_gate": "The deterministic master reward relationship index is now synchronized to the current skill, Super Soul, and equipment cross-link reports. Preserve the 862-edge live baseline and only expand it when evidence-driven additions occur.",
   "current_counts": {
-    "skill": 236,
-    "super_soul": 137,
+    "skill": 244,
+    "super_soul": 151,
     "equipment": 125,
     "character": 247,
     "dlc": 88,
@@ -33,7 +33,7 @@
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
     "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
   },
-  "status": "reward_relationship_consistency_audited_after_pq_12_14",
+  "status": "deterministic_cross_domain_index_reconciled",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
   "full_corpus_audit": {
     "canonical_reward_maps": 6,
@@ -147,13 +147,13 @@
     "conclusion": "No duplicate non-reward edges found; no evidence reviewed in this tranche justified adding inferred character, DLC, or farming edges."
   },
   "integrity_review": {
-    "date": "2026-09-19",
+    "date": "2026-09-22",
     "scope": "repository-wide relationship/source integrity review",
     "checks": {
-      "total_edges": 840,
+      "total_edges": 862,
       "counts": {
-        "pq_rewards_skill": 236,
-        "pq_rewards_super_soul": 137,
+        "pq_rewards_skill": 244,
+        "pq_rewards_super_soul": 151,
         "pq_rewards_equipment": 125,
         "pq_features_character": 247,
         "pq_requires_dlc": 88,
@@ -225,37 +225,37 @@
     ]
   },
   "final_stable_baseline": {
-    "date": "2026-09-19",
-    "scope": "final cross-domain reconciliation",
+    "date": "2026-09-22",
+    "scope": "deterministic cross-domain reward relationship synchronization",
     "result": "stable_baseline",
     "forward_counts": {
-      "skill": 236,
-      "super_soul": 137,
+      "skill": 244,
+      "super_soul": 151,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
       "farming": 7
     },
-    "total_edges": 840,
+    "total_edges": 862,
     "reverse_counts": {
-      "skill": 236,
-      "super_soul": 137,
+      "skill": 244,
+      "super_soul": 151,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
       "farming": 7
     },
     "audit_counts": {
-      "skill": 236,
-      "super_soul": 137,
+      "skill": 244,
+      "super_soul": 151,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
       "farming": 7
     },
     "status_counts": {
-      "skill": 236,
-      "super_soul": 137,
+      "skill": 244,
+      "super_soul": 151,
       "equipment": 125,
       "character": 247,
       "dlc": 88,
@@ -276,5 +276,22 @@
       "Character edges are limited to explicit objective/ultimate-finish references; generic appearances are not inferred.",
       "DLC and farming edges require explicit source evidence."
     ]
+  },
+  "deterministic_reconciliation_2026_09_22": {
+    "master_index_total": 862,
+    "master_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "actions": [
+      "Added 9 missing skill edges from current PQ skill report and removed obsolete Starfall alias edge.",
+      "Added 13 missing Super Soul edges and removed 2 stale capitalization variants.",
+      "Added 3 missing equipment edges (PQ76 Whis Symbol Gi, PQ152 Android 17 (DB Super) Wig, PQ155 Gamma 2's Helmet) and removed 2 stale equipment edges (PQ50 Mr. Shape Up M, PQ66 Whis Symbol Gi)."
+    ],
+    "result": "pass"
   }
 }
