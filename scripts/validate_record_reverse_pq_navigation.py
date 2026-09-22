@@ -33,8 +33,19 @@ def audit(domain, record_file, html, relationship, structured_field):
         canonical.setdefault(e["target"], []).append(e["pq"])
     unresolved = sorted(set(canonical) - set(by_name))
     structured_mismatches = []
+    noncanonical_structured_pq_fields = []
     source_route_conflicts = []
     source_route_subsets = []
+
+    canonical_names = set(canonical)
+    for record in records:
+        name = record.get("name")
+        if name not in canonical_names and record.get(structured_field):
+            noncanonical_structured_pq_fields.append({
+                "id": record.get("id"), "name": name,
+                "structured_pqs": sorted(set(record.get(structured_field) or [])),
+                "interpretation": "Preserved source/acquisition metadata; not a canonical PQ relationship target."
+            })
 
     for name, target_pqs in sorted(canonical.items()):
         record = by_name.get(name)
@@ -86,6 +97,7 @@ def audit(domain, record_file, html, relationship, structured_field):
         "unresolved_targets": unresolved,
         "structured_field": structured_field,
         "structured_pq_mismatches": structured_mismatches,
+        "noncanonical_structured_pq_fields": noncanonical_structured_pq_fields,
         "source_route_conflicts": source_route_conflicts,
         "source_route_subsets": source_route_subsets,
         "checks": checks,
