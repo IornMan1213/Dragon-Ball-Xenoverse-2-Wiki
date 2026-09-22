@@ -12466,11 +12466,12 @@
       "last_verified": "2026-09-21",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Temporal_Holy_Ray",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80920604"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Temporal Holy Ray as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Temporal Holy Ray as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-21 provenance strengthening: an independent GameFAQs Conton City Tournament reference corroborates Temporal Holy Ray as a tournament skill and specifically places it at Conton City Tournament 3 / \"Time for the Quarterfinals!\"; no drop probability is inferred.",
       "id": "skill-temporal-holy-ray"
     },
     {
