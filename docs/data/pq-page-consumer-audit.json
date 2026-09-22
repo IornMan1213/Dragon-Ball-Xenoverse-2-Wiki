@@ -26,6 +26,16 @@
       "structured_pairs": 125,
       "missing": 0,
       "extra": 0
+    },
+    "pq_features_character": {
+      "canonical_pairs": 247,
+      "projection": "docs/data/pq-reward-relationships.json -> characterByPq in docs/Parallel-Quests-All.html",
+      "missing_pq_ids": 0
+    },
+    "pq_requires_dlc": {
+      "canonical_pairs": 86,
+      "projection": "docs/data/pq-reward-relationships.json -> dlcByPq in docs/Parallel-Quests-All.html",
+      "missing_pq_ids": 0
     }
   },
   "repair": [
@@ -44,5 +54,12 @@
   ],
   "evidence_boundary": "Only exact canonical reward-target fields were synchronized. Existing alias/granularity conflicts remain preserved in their dedicated audits; no targets were inferred or renamed.",
   "validator": "scripts/validate_pq_page_consumers.py",
-  "status": "clean_after_deterministic_repair"
+  "status": "clean_after_deterministic_navigation_hardening",
+  "navigation_contract": {
+    "character_projection": "Canonical pq_features_character edges are loaded directly and rendered through local Search query links.",
+    "dlc_projection": "Canonical pq_requires_dlc edges are loaded directly and rendered through local DLC Overview query links.",
+    "duplicate_dlc_pq_check": "0 PQs have multiple canonical DLC requirement edges, so scalar dlcByPq projection is deterministic.",
+    "target_identity_preserved": true
+  },
+  "last_verified": "2026-09-22"
 }
