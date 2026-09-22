@@ -10375,12 +10375,13 @@
       ],
       "unlock_method": "Bardock mentor training — Initiation Test.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made.",
-      "mechanics_notes": "Ki Blast Super that advances while charging and fires a tracking beam; current dedicated evidence lists 100 Ki.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor lesson identity, classification, and acquisition endpoint verified; detailed mechanics are limited to directly evidenced current data. 2026-09-21 DLC provenance audit: Masters Pack remains intentionally platform-dependent; the pack is distributed as free DLC on PC/Xbox/PlayStation while the Nintendo Switch release includes the Masters content in the base game. No normalization to a platform-neutral label was made. 2026-09-22 provenance refresh: dedicated current skill evidence confirms the 100-Ki cost and forward/early-fire tracking behavior; mentor acquisition remains Bardock's Initiation Test.",
+      "mechanics_notes": "Ki Blast Super; current dedicated skill evidence confirms 100 Ki, forward movement while charging, a tracking beam, and earlier firing when used close to the target. Bardock mentor training is the acquisition endpoint.",
       "source_quest": "Bardock mentor training — Initiation Test.",
-      "source_quest_or_shop": "bardock mentor training"
+      "source_quest_or_shop": "bardock mentor training",
+      "ki_cost": 100
     },
     {
       "id": "skill-ultimate-charge",
@@ -10399,15 +10400,16 @@
       ],
       "unlock_method": "Parallel Quest 134 — \"Universe 7's Next God of Destruction\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Ultimate Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
-      "mechanics_notes": "Confirmed as the 0-Ki Other Super from PQ134's Ultimate Finish, usable by all CaC races. Its charge rate improves the longer the charge is maintained.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Ultimate Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-22 provenance refresh: current dedicated skill documentation confirms the slow-to-fast charge behavior. Independent PQ134 evidence continues to support an Ultimate Finish route, while the maintained reward presentation remains conflicting; no unsupported probability or prerequisite was promoted.",
+      "mechanics_notes": "0-Ki Other Super that charges slowly at first and accelerates the longer the charge is maintained. Current dedicated evidence confirms the charge behavior; PQ134 reward-tier evidence remains conflicting between player-facing Basic Reward presentation and explicit Ultimate Finish/drop-condition reports.",
       "source_quest": 134,
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
       "source_parallel_quests": [
         134
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "id": "skill-ultra-instinct",
@@ -10447,15 +10449,16 @@
       ],
       "unlock_method": "Parallel Quest 151 — \"Even Further Beyond\" Ultimate Finish reward (50% roll)",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 source reconciliation: the maintained PQ151 reward listing also displays this skill in its Basic Reward array, while the explicit maintained drop-condition assigns it to a 50% Ultimate Finish roll. The canonical gate follows the explicit drop condition; the conflicting reward-array presentation is preserved as source metadata. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics.",
-      "mechanics_notes": "100-Ki Strike Super counter. The user enters a counter stance for up to about 2 seconds; when struck, the user vanishes behind the opponent and performs the follow-up strike. The maintained PQ151 drop-condition data assigns Ultrasonic Blitz to an explicit Ultimate Finish roll; this is the controlling current condition.",
+      "notes": "2026-09-20 source reconciliation: the maintained PQ151 reward listing also displays this skill in its Basic Reward array, while the explicit maintained drop-condition assigns it to a 50% Ultimate Finish roll. The canonical gate follows the explicit drop condition; the conflicting reward-array presentation is preserved as source metadata. 2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: dedicated current evidence reconfirms the 100-Ki counter behavior and approximately 2-second stance window; the explicit PQ151 Ultimate Finish condition remains controlling while the conflicting reward-array presentation is preserved.",
+      "mechanics_notes": "100-Ki Strike Super counter. The user enters a counter stance for no more than about 2 seconds; when struck, the user vanishes behind the opponent and performs the follow-up strike. The maintained PQ151 drop-condition data assigns the skill to an explicit 50% Ultimate Finish roll.",
       "source_quest": 151,
       "source_quest_or_shop": "Parallel Quest 151 - Even Further Beyond",
       "source_parallel_quests": [
         151
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-unrelenting-barrage",
@@ -10497,15 +10500,16 @@
       ],
       "unlock_method": "Parallel Quest 58 — \"Majin Banquet\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "Majin (Pure Majin form)",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 58 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 58 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance refresh: current Future Warrior documentation reconfirms Pure Majin scope, while PQ58 reward evidence explicitly lists Vanishing Ball as a Basic Reward.",
+      "mechanics_notes": "100-Ki Ki Blast Super used by Pure Majin. Current Future Warrior technique documentation identifies Vanishing Ball as a Pure Majin skill; PQ58 reward evidence places it in the Basic Reward list. Detailed numerical damage/gating beyond the documented acquisition route remains unresolved.",
       "source_quest": 58,
       "source_quest_or_shop": "Parallel Quest 58 — \"Majin Banquet\"",
       "source_parallel_quests": [
         58
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-variable-snipe-shot",
@@ -10522,15 +10526,16 @@
       ],
       "unlock_method": "Parallel Quest 165 — \"Anniversary Antics\" Ultimate Finish reward (45%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 165 is documented as an acquisition route; the explicit drop-condition record now documents an Ultimate Finish requirement. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.",
-      "mechanics_notes": "Confirmed as Android 18 (DB Super)'s 100-Ki Ki Blast Super from Future Saga Chapter 1/PQ165. It has multiple input variations, including a charged overhead blast and a back-jump shot. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Ultimate Finish reward-condition listing in the maintained PQ guide the explicit drop-condition record assigns this skill to the Ultimate Finish reward condition.",
+      "notes": "2026-09-19 deterministic acquisition verification: Parallel Quest 165 is documented as an acquisition route; the explicit drop-condition record now documents an Ultimate Finish requirement. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 45% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context. 2026-09-22 provenance refresh: current PQ165 evidence reconfirms Variable Snipe Shot in the quest reward data; the explicit 45% Ultimate Finish condition remains the canonical gate while the conflicting Basic Reward presentation is retained as source context.",
+      "mechanics_notes": "100-Ki Ki Blast Super associated with Android 18 (DB Super). It has multiple input variations, including a charged overhead shot and a back-jump shot. The maintained explicit drop-condition assigns a 45% Ultimate Finish route, while the maintained PQ reward table also presents the skill under Basic Reward; the conflict is preserved.",
       "source_quest": 165,
       "source_quest_or_shop": "Parallel Quest 165 — \"Anniversary Antics\"",
       "source_parallel_quests": [
         165
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-variant-drive",
@@ -10549,15 +10554,16 @@
       ],
       "unlock_method": "Parallel Quest 123 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Variant Drive from PQ123. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races.",
-      "mechanics_notes": "PQ reward identity corroborated by quest reward research; exact drop/Ultimate Finish condition and detailed numerical mechanics remain under research. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill in the Basic Reward section, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current skill page explicitly states PQ123 unlock and Strike Super classification; the PQ123 reward guide independently lists Variant Drive as a Basic Reward. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-20 race-scope reconciliation: Dragon Ball Wiki explicitly lists Future Warrior as a Xenoverse 2 user and states the Future Warrior can obtain Variant Drive from PQ123. This establishes CaC availability; no narrower race/gender/form restriction is documented, so the canonical scope is All CaC races. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki Strike classification, PQ123 acquisition, rush/shockwave behavior, and Extra Pack 3 provenance.",
+      "mechanics_notes": "100-Ki Strike Super from PQ123. The user rushes forward with a punch/knee sequence and can use an additional directional input plus attack input to fire an unblockable shockwave; guarding cancels the rush. Current evidence identifies PQ123 as the acquisition route and Extra Pack 3 as DLC provenance.",
       "source_quest": 123,
       "source_quest_or_shop": "Parallel Quest 123 — \"Planetary Possession\"",
       "source_parallel_quests": [
         123
-      ]
+      ],
+      "ki_cost": 100
     },
     {
       "id": "skill-venus-fist",
@@ -10599,15 +10605,16 @@
       ],
       "unlock_method": "Parallel Quest 54 — \"Majin Revival\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Victory Cannon in Basic Reward. No Ultimate Finish-only gate is asserted.",
-      "mechanics_notes": "Corrected to a **Ki Blast Evasive**, 300 Stamina, PQ54. Fires a mouth Ki Wave while recoil propels the user backward. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. Current reward-section evidence places this skill in the Basic Reward/acquisition listing for its PQ; no Ultimate Finish-only acquisition gate is established.",
+      "notes": "2026-09-20 provenance refinement: current dedicated skill documentation and the maintained PQ reward guide identify the exact quest title and place Victory Cannon in Basic Reward. No Ultimate Finish-only gate is asserted. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms PQ54, Ki Blast Evasive classification, and 300-Stamina recoil behavior.",
+      "mechanics_notes": "300-Stamina Ki Blast Evasive from PQ54. The user fires a mouth Ki Wave that launches nearby opponents and recoil-propels the user backward for distance. Current dedicated evidence confirms the Evasive classification and stamina cost.",
       "source_quest": 54,
       "source_quest_or_shop": "Parallel Quest 54 — \"Majin Revival\"",
       "source_parallel_quests": [
         54
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "id": "skill-victory-rush",
@@ -10649,12 +10656,13 @@
       ],
       "unlock_method": "Tien's Lesson 1 — complete the instructor lesson to receive Volleyball Fist as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used.",
-      "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 100-Ki cost and three-stage rush/knockdown behavior; Tien Lesson 1 remains the deterministic acquisition endpoint.",
+      "mechanics_notes": "100-Ki Strike Super with a three-stage rush/knockdown sequence. The user dashes to the target, performs the volleyball-themed attack, and spikes the opponent down. Tien's Lesson 1 is the Future Warrior acquisition endpoint.",
       "source_quest": "Tien mentor training — Lesson 1",
-      "source_quest_or_shop": "Tien mentor training — Lesson 1"
+      "source_quest_or_shop": "Tien mentor training — Lesson 1",
+      "ki_cost": 100
     },
     {
       "id": "skill-wall-of-defense",
@@ -10671,15 +10679,16 @@
       ],
       "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: current skill documentation identifies PQ10 as the unlock source; an independent skill guide lists PQ10 — Wall of Defense, and a launch-era all-PQ guide lists Wall of Defense in PQ10's Basic Reward. Existing acquisition semantics are preserved.",
-      "mechanics_notes": "Confirmed as a 0-Ki Other Super from PQ10, usable by all CaC races. The user teleports in front of an ally and absorbs incoming attacks while held; without an ally it targets the nearest opponent. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ10; no Ultimate Finish-only condition is established for this record. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-21 provenance strengthening: current skill documentation identifies PQ10 as the unlock source; an independent skill guide lists PQ10 — Wall of Defense, and a launch-era all-PQ guide lists Wall of Defense in PQ10's Basic Reward. Existing acquisition semantics are preserved. 2026-09-22 provenance refresh: dedicated current skill evidence reconfirms the 0-Ki defensive behavior and PQ10 acquisition; no unsupported stamina or damage values were added.",
+      "mechanics_notes": "0-Ki Other Super from PQ10. The user teleports in front of an ally and absorbs incoming attacks while held; when no ally is available it targets the nearest enemy. Holding the command extends the stance, which functions as a block and consumes stamina when attacks connect.",
       "source_quest": 10,
       "source_quest_or_shop": "Parallel Quest 10 — \"Saiyan Survivors\"",
       "source_parallel_quests": [
         10
-      ]
+      ],
+      "ki_cost": 0
     },
     {
       "id": "skill-warp-kamehameha",
@@ -10696,16 +10705,17 @@
       ],
       "unlock_method": "Parallel Quest 76 — Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "",
-      "mechanics_notes": "PQ reward identity is corroborated; exact drop gating and detailed numerical mechanics remain under research. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ/reward data explicitly confirms the documented acquisition route for Warp Kamehameha; no Ultimate Finish requirement is recorded for this route. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted.",
+      "notes": "2026-09-22 deterministic correction: dedicated current skill evidence reports Warp Kamehameha at 400 Ki, correcting the stale 300-Ki canonical value. The same evidence confirms the teleport-to-target, 24-hit beam behavior; conflicting PQ76 reward-tier presentations remain explicit.",
+      "mechanics_notes": "400-Ki Ki Blast Ultimate. The user charges a Kamehameha, teleports to the locked-on target, and fires the beam; dedicated current evidence reports 24 hits and approximately 30% damage. PQ76 is the canonical acquisition endpoint. Reward-tier evidence is conflicting across maintained sources, so no new Ultimate Finish gate is asserted.",
       "source_quest": 76,
       "source_quest_or_shop": "Parallel Quest 76 — \"Eternal Rival\"",
       "source_parallel_quests": [
         66,
         76
-      ]
+      ],
+      "ki_cost": 400
     },
     {
       "id": "skill-weekend",
