@@ -1812,3 +1812,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Research evidence: Dragon Ball Wiki corroborates the skill identity and tournament acquisition; the repository's existing official Bandai Namco DLC source remains retained.
 - [ ] CI/Actions: not yet verified for this direct-commit chain; do not claim CI success.
 - [ ] Exact next task: **Rise to Action** (`skill-rise-to-action`); recompute the census first and verify the acquisition/source relationship before provenance-only strengthening.
+
+
+### 2026-09-22 bounded provenance cycle — Rise to Action
+- [x] Independent mentor acquisition corroboration added via Twinfinite.
+- [x] Canonical/index source parity synchronized.
+- [x] Existing evidence boundaries preserved; no unsupported probability/prerequisite added.
+- [x] Post-edit audit recorded in AI continuation handoff.
