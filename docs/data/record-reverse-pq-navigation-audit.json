@@ -57,9 +57,45 @@
         }
       ],
       "source_route_subsets": [],
-      "status": "clean"
+      "status": "clean",
+      "noncanonical_structured_pq_fields": [
+        {
+          "id": "acc-054",
+          "name": "Great Saiyaman Bandana 1",
+          "structured_pqs": [
+            51
+          ],
+          "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
+        },
+        {
+          "id": "acc-055",
+          "name": "Great Saiyaman Bandana 2",
+          "structured_pqs": [
+            53
+          ],
+          "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
+        },
+        {
+          "id": "acc-056",
+          "name": "Jaco's State-of-the-Art Radio",
+          "structured_pqs": [
+            72
+          ],
+          "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
+        },
+        {
+          "id": "acc-057",
+          "name": "Tagoma's Scouter",
+          "structured_pqs": [
+            73
+          ],
+          "interpretation": "Preserved source/acquisition metadata; not a canonical pq_rewards_equipment target."
+        }
+      ],
+      "interpretation_note": "Four equipment/accessory records retain PQ IDs in their acquisition metadata even though those names have no canonical pq_rewards_equipment edge. The validator now reports these as noncanonical metadata rather than treating them as reverse-link failures."
     }
   },
   "validator": "scripts/validate_record_reverse_pq_navigation.py",
-  "evidence_boundary": "Canonical PQ links and structured PQ ID fields establish relationship identity only. Acquisition prose may preserve historical/source conflicts and does not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims."
+  "evidence_boundary": "Canonical PQ links and structured PQ ID fields establish relationship identity only. Acquisition prose may preserve historical/source conflicts and does not establish reward guarantees, Ultimate Finish requirements, drop rates, or unresolved acquisition claims.",
+  "date": "2026-09-22"
 }
