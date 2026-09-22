@@ -2223,11 +2223,18 @@
       ]
     }
   ],
-  "unresolved_target_routes": [
-    {
-      "pq_id": "pq-002",
-      "target_name": "Flying Nimbus!!",
-      "reason": "no_canonical_equipment_endpoint"
-    }
-  ]
+  "unresolved_target_routes": [],
+  "validation": {
+    "canonical_pq_records": 186,
+    "canonical_target_records": 140,
+    "forward_edge_count": 124,
+    "reverse_edge_count": 122,
+    "unique_pq_endpoints": 88,
+    "unique_target_endpoints": 122,
+    "unresolved_target_route_count": 0,
+    "broken_forward_endpoints": 0,
+    "broken_reverse_endpoints": 0,
+    "last_recomputed": "2026-09-22",
+    "unresolved_target_routes": 0
+  }
 }
