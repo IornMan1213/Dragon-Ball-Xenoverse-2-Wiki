@@ -2091,171 +2091,228 @@
     {
       "id": "equip-091",
       "name": "SSGSS Goku Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-066 reward",
       "pq_sources": [
         "pq-pq-066"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "base_game",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Legacy endpoint normalized to canonical accessory acc-058. Independent sources document the accessory identity; PQ66 remains the legacy route while acc-058 preserves the documented PQ76/PQ66 conflict.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-092",
       "name": "Vegeta's Shirt",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-079 reward",
       "pq_sources": [
         "pq-pq-079"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "base_game",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent PQ79 reward evidence confirms Vegeta's Shirt. Exact component semantics beyond the shirt/upper-body endpoint are not inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body"
       ]
     },
     {
       "id": "equip-093",
       "name": "Videl (DB Super) Wig",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-168 reward",
       "pq_sources": [
         "pq-pq-168"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Future Saga Chapter 1 — PQ168",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent DLC and PQ evidence confirms this is Videl (DB Super)'s Wig; accessory classification is explicit and no combat effect is inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-094",
       "name": "Orange Piccolo's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-169 reward",
       "pq_sources": [
         "pq-pq-169"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Future Saga Chapter 1 — PQ169",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent equipment evidence indicates Orange Piccolo's Clothes is a three-piece set with no hands component; no reward probability is inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "feet"
       ]
     },
     {
       "id": "equip-095",
       "name": "Videl (DB Super)'s Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-170 reward",
       "pq_sources": [
         "pq-pq-170"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Future Saga Chapter 1 — PQ170",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent equipment evidence identifies Videl (DB Super)'s Clothes as a four-piece clothing set including hand pieces; no reward probability is inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-096",
       "name": "Belmod's Clothes",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-176 reward",
       "pq_sources": [
         "pq-pq-176"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Future Saga Chapter 2 — PQ176",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent DLC/PQ evidence confirms Belmod's Clothes as the PQ176 costume reward and a clothing set; exact component exceptions are not inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-097",
       "name": "Goku (Mini)'s Gi",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-178 reward",
       "pq_sources": [
         "pq-pq-178"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Future Saga Chapter 2 — PQ178",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Independent DLC/PQ evidence confirms Goku (Mini)'s Gi as the PQ178 costume reward and a clothing set; exact component exceptions are not inferred.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-098",
       "name": "SS4 Goku (DAIMA) Suit",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-179 reward",
       "pq_sources": [
         "pq-pq-179"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Dragon Ball DAIMA Pack — PQ179",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Bandai Namco and independent PQ documentation confirm the DAIMA suit as a PQ179 costume reward; full four-piece coverage follows the maintained equipment catalog.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
       "id": "equip-099",
       "name": "SS4 Goku (DAIMA) Wig & Tail",
-      "category": "costume_or_accessory",
+      "category": "accessory",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-179 reward",
       "pq_sources": [
         "pq-pq-179"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Dragon Ball DAIMA Pack — PQ179",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Bandai Namco and independent PQ documentation confirm the DAIMA wig/tail as a PQ179 costume/accessory reward; accessory classification is explicit.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "accessory"
       ]
     },
     {
       "id": "equip-100",
       "name": "SS3 Vegeta (DAIMA) Battle Suit",
-      "category": "costume_or_accessory",
+      "category": "clothing",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest pq-180 reward",
       "pq_sources": [
         "pq-pq-180"
       ],
-      "dlc_requirement": null,
+      "dlc_requirement": "Dragon Ball DAIMA Pack — PQ180",
       "verification_status": "indexed",
       "last_verified": "2026-09-22",
-      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched.",
+      "notes": "Canonical endpoint indexed from the repository's PQ reward relationship layer. Exact reward conditions, slot/type details, and broader acquisition routes remain unresolved until separately researched. Bandai Namco confirms the SS3 Vegeta (DAIMA) Battle Suit as DAIMA Pack content; the maintained equipment catalog treats the battle suit as a full clothing set.",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "slot_coverage": [
+        "upper_body",
+        "lower_body",
+        "hands",
+        "feet"
       ]
     },
     {
