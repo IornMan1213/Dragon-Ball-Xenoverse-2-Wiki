@@ -35,7 +35,8 @@
     {
       "entity": "dlc",
       "key": "dlc_id",
-      "value": "pq_ids"
+      "value": "pq_ids",
+      "report": "docs/data/dlc/pq-reverse-index.json"
     }
   ],
   "completion_rule": "Every canonical relationship endpoint must resolve to a canonical target record, or be represented by an explicit conflict/granularity record; presentation aliases must never alter canonical relationship identities.",
@@ -49,7 +50,8 @@
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
     "alias_granularity": "docs/data/pq-endpoint-alias-granularity-map.json",
     "canonical_endpoint_validation": "docs/data/pq-endpoint-navigation-validation.json",
-    "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.json"
+    "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.json",
+    "canonical_dlc_reverse": "docs/data/dlc/pq-reverse-navigation-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py"
