@@ -2452,3 +2452,21 @@
 - [x] Turn Golden
 - [x] Canonical/index parity and audit registration completed
 - [ ] Next live batch: **Tyrant Lancer, Ultimate Charge, Ultrasonic Blitz, Vanishing Ball, Variable Snipe Shot, Variant Drive, Victory Cannon, Volleyball Fist, Wall of Defense, Warp Kamehameha**.
+
+
+### 2026-09-22 cycle completion tracking — Tyrant Lancer through Warp Kamehameha
+- [x] Tyrant Lancer provenance refresh
+- [x] Ultimate Charge provenance refresh with reward-tier conflict preserved
+- [x] Ultrasonic Blitz provenance refresh with explicit Ultimate Finish condition preserved
+- [x] Vanishing Ball provenance refresh
+- [x] Variable Snipe Shot provenance refresh with reward-tier conflict preserved
+- [x] Variant Drive provenance refresh
+- [x] Victory Cannon provenance refresh
+- [x] Volleyball Fist provenance refresh
+- [x] Wall of Defense provenance refresh
+- [x] Warp Kamehameha provenance refresh + deterministic 300-Ki → 400-Ki correction
+- [x] Canonical/index parity validated: 452/452, 0 duplicate IDs
+- [x] Audit added and registered: docs/data/skill-tyrant-lancer-through-warp-kamehameha-provenance-audit-2026-09-22.json
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed
+- [ ] Live stale count after batch: 8
+- [ ] Exact next batch: **Weekend, Wild Buster, Wild Hunt, Wild Stinger, Wolf Fang Fist, X 100 Big Bang Kamehameha, x10 Kamehameha, Zigzag Express**; recompute the live stale census before editing and continue the same bounded provenance policy.
