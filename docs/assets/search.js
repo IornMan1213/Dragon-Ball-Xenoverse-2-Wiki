@@ -50,6 +50,10 @@
     return value;
   };
 
+  const params = new URLSearchParams(window.location.search);
+  const initialQuery = params.get('q');
+  if (initialQuery) input.value = initialQuery;
+
   const render = () => {
     const raw = input.value.trim();
     const query = normalize(raw);
