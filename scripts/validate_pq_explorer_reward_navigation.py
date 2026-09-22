@@ -8,6 +8,11 @@ def load(name):
     with (DATA/name).open(encoding="utf-8") as f:return json.load(f)
 def main():
     reports={"skills":load("pq-skill-crosslink-report.json"),"souls":load("pq-super-soul-crosslink-report.json"),"equipment":load("pq-equipment-crosslink-report.json")}
+    rel=load("pq-reward-relationships.json")["verified_relationships"]
+    dlc=load("dlc/canonical-dlc-identity.json")["records"]
+    dlc_names={r["name"] for r in dlc}
+    dlc_edges=[e for e in rel if e.get("relationship")=="pq_requires_dlc"]
+    dlc_unresolved=sorted({e.get("target") for e in dlc_edges if e.get("target") not in dlc_names})
     skills={r["name"] for r in load("skills.json")["records"]}
     souls={r["name"] for r in load("super-souls-record-layer.json")["records"]}
     equipment={r["name"] for r in load("equipment-accessories-record-layer.json")["records"]}
@@ -16,19 +21,21 @@ def main():
       "skills":sorted({e.get("target_name") for e in reports["skills"]["forward_edges"] if e.get("target_name") and e["target_name"] not in skills}),
       "souls":sorted({e.get("target_name") for e in reports["souls"]["forward_edges"] if e.get("target_name") and e["target_name"] not in souls}),
       "equipment":sorted({e.get("target_name") for e in reports["equipment"]["forward_edges"] if e.get("target_name") and e["target_name"] not in equipment}),
+      "dlc":dlc_unresolved,
     }
     checks={
       "skill_explorer_query_support":'new URLSearchParams(location.search).get(\'q\')' in (ROOT/"docs"/"Skills-All.html").read_text(encoding="utf-8"),
       "pq_skill_links_use_skill_explorer":'skillUrl' in h and 'rewardLinks(r.skill_rewards,\'Skills\',skillUrl)' in h,
       "pq_soul_links_present":'rewardLinks(r.super_soul_rewards,\'Super Souls\',soulUrl)' in h,
       "pq_equipment_links_present":'rewardLinks(r.equipment_rewards,\'Equipment\',equipmentUrl)' in h,
-      "pq_dlc_links_present":'dlcUrl' in h,
+      "pq_dlc_links_present":'dlcUrl' in h and 'dlcByPq' in h and 'pq_requires_dlc' in h,
+      "dlc_targets_resolve":not dlc_unresolved,
       "skill_targets_resolve":not unresolved["skills"],
       "soul_targets_resolve":not unresolved["souls"],
       "equipment_targets_resolve":not unresolved["equipment"],
     }
     out={"schema_version":"1.0.0","scope":"PQ explorer reward-domain navigation",
-      "canonical_sources":["docs/data/pq-skill-crosslink-report.json","docs/data/pq-super-soul-crosslink-report.json","docs/data/pq-equipment-crosslink-report.json","docs/data/skills.json","docs/data/super-souls-record-layer.json","docs/data/equipment-accessories-record-layer.json"],
+      "canonical_sources":["docs/data/pq-reward-relationships.json","docs/data/dlc/canonical-dlc-identity.json","docs/data/pq-skill-crosslink-report.json","docs/data/pq-super-soul-crosslink-report.json","docs/data/pq-equipment-crosslink-report.json","docs/data/skills.json","docs/data/super-souls-record-layer.json","docs/data/equipment-accessories-record-layer.json"],
       "consumer":"docs/Parallel-Quests-All.html",
       "counts":{k:reports[k]["forward_edge_count"] if "forward_edge_count" in reports[k] else len(reports[k]["forward_edges"]) for k in reports},
       "unresolved_canonical_targets":unresolved,"checks":checks,
