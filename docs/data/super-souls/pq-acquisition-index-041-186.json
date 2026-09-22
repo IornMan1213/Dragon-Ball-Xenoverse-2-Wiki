@@ -432,7 +432,6 @@
       "pq": 158,
       "super_souls": [
         "Heh heh! I'm not as rusty as I look!",
-        "See? It's a good thing I was here, right?",
         "See? It's a good thing I was here, right?"
       ]
     },
@@ -492,12 +491,6 @@
       ]
     },
     {
-      "pq": 174,
-      "super_souls": [
-        "I'll surpass you as I am, with my OWN power!"
-      ]
-    },
-    {
       "pq": 175,
       "super_souls": [
         "It's about time..."
@@ -513,12 +506,6 @@
       "pq": 178,
       "super_souls": [
         "I'll take you all on at once!"
-      ]
-    },
-    {
-      "pq": 179,
-      "super_souls": [
-        "Here I go!"
       ]
     },
     {
@@ -597,9 +584,9 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
   ],
   "scope_audit": {
-    "record_count": 85,
+    "record_count": 83,
     "pq_count": 83,
-    "typed_relationship_references": 134,
+    "typed_relationship_references": 131,
     "canonical_relationship_references_for_same_domain": 151,
     "exact_pair_overlap": 131,
     "research_layer_only_pairs": 14,
