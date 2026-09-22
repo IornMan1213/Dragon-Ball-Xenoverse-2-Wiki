@@ -2272,3 +2272,15 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical 0927fd3e9e7222fd309f168188d6ead2687c24f3; index 0c652b13c2d9c87ba4ea52dd08752520e856ed97; audit 715616c34d4c36bb6621413053bc7f482a41ba6c; cross-domain registration f884496cde0e99b4c7bc322d119daabb6646002d.
 - [ ] Exact next batch: **Photon Swipe, Power Blitz, Power Impact, Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You**; recompute the live stale census before editing and continue with the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Photon Swipe through Present For You provenance batch
+- [x] Fresh live stale census before editing: 452 canonical skills / 452 index records / 0 duplicate IDs / 138 stale; exact first ten stale records were **Photon Swipe, Power Blitz, Power Impact, Power Pole Pro, Power Rush, Power Wall, Powered Shell, Prelude to Destruction, Prepare to be Punished, Present For You**.
+- [x] Refreshed all ten canonical records in docs/data/skills.json and synchronized the corresponding index projections in docs/data/skills-index.json to last_verified: 2026-09-22.
+- [x] Expanded bounded mechanics/provenance across PQ139/PQ120/PQ122/PQ128/PQ150 and Android 18, Whis, Pan, and Hercule mentor endpoints.
+- [x] Deterministic classification corrections: **Power Impact** and **Powered Shell** are recorded as Ki Blast Supers, correcting stale Strike descriptions in their legacy prose.
+- [x] Added and registered docs/data/skill-photon-swipe-through-present-for-you-provenance-audit-2026-09-22.json.
+- [x] Final validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 128 stale canonical records remain.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical d01a8d6d03aaa1ab9f380e0a4608a17c9bbe43fd; index be8e1b94a491986ae8426b18e9099615161925b9; audit 4d9d8ba8edc59c8f3b1f8838b4afff051336d5f7; cross-domain registration 2534b53890e6f29564e059bd744be3966c91d2a9.
+- [ ] Exact next batch: **Pressure Sign, Pretty Cannon, Pretty Charge, Psychic Move, Psycho Barrier, Punisher Guard, Punisher Shield, Pure Progress, Purification, Quick Sleep**; recompute the live stale census before editing and continue with the same bounded provenance policy.
