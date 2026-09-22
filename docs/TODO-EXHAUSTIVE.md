@@ -1968,3 +1968,15 @@
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [x] Commits: canonical `dee4dc1ff461dd80cbf73ac298f3d0c742570a99`; index `33f64df7aa6b05c5605f354cb6cbb705eb5f69b0` + projection fix `db889513dd6aed7340db654b23e0e3d3f5ced9da`; audit `f21969f8f88dafe4b494bd07cf151414c2ae2343` + validation `51ba23974c0006741041606b01d217052c2e92f0`; registry `60c1b29c0e395ed8d438b80d45df92dfc6ce2545`.
 - [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 queue with the next stale record after `skill-burning-swan`.
+
+
+### 2026-09-22 cycle update — Burst Blitz provenance reconciliation
+- [x] Live census before edit: **452 canonical / 452 index / 0 duplicate IDs / 386 stale**; bounded target: `skill-burst-blitz`.
+- [x] Dedicated Xenoverse 2 documentation identifies Burst Blitz as a **300-Ki Strike Ultimate** used by **Goku (Mini)**, with a 5-hit Power Pole rush/kick sequence and PQ178 acquisition. The maintained PQ178 guide lists it under **Basic Reward**. citeturn1search0turn1search5turn1search1
+- [x] Corrected a substantive stale-record mismatch: canonical/index classification changed from **Super** to **Ultimate**, and identity/description/mechanics/provenance were refreshed.
+- [x] Preserved the existing Ultimate Finish/50% projection only as conflict context because the current PQ reward guide presents Burst Blitz as a Basic Reward; no new numeric probability was asserted.
+- [x] Added and registered `docs/data/skill-burst-blitz-provenance-audit-2026-09-22.json`.
+- [x] Final static validation: **452/452**, **0 duplicate IDs**, **385 stale remaining**, affected shared semantic fields aligned.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [x] Commits: canonical `7c0bcf116c30252309c2299b110e8d973ab78b76`; index `3fd978670c956b46aabbf4da9586242e5d18a186`; audit `77a18557d1840af90c3e38f55361fa6f636e8cc9` + validation update; registry `7896a071ebff7b882ea82f93f68c268c4692ac48`.
+- [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 queue with the next stale record after `skill-burst-blitz`.
