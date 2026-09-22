@@ -199,3 +199,12 @@
 - Current projection census: **38 canonical/index field mismatches** remain across projected fields: **33 notes**, **2 mechanics_notes**, **1 unlock_method**, **1 ultimate_finish_required**, **1 source_quest_or_shop**.
 - Exact next batch: **fix the two deterministic `mechanics_notes` projection mismatches — Assault Vanish and Solar Flare — using canonical values as the source of truth, then recompute the projection census before selecting the next family.** This is a two-record batch because only two mechanics mismatches remain and the invariant is directly deterministic.
 - Subsequent queue after that batch: reconcile the remaining **33 notes** projection mismatches in bounded related groups; do not overwrite canonical values.
+
+
+### 2026-09-22 cycle update — Projection parity completed
+- Completed the planned projection-integrity batch directly on `main`.
+- Corrected `skills-index.json` mechanics projections for **Assault Vanish** and **Solar Flare** from canonical values.
+- Then reconciled the remaining **32 `notes` projection mismatches** in one deterministic canonical-to-index batch: Afterimage Strike, Angry Explosion, Blaster Bomb, Blaster Cannon, Blaster Stream, Brutal Buster, Burning Shot, Burst Reflection, Comet Strike, Crush Cannon, Crush Stream, Destructive Fission, Destructive Flare, Double Crush, Dragon Blitz, Emperor's Death Beam, Energy Charge, Hyper Tornado, Impact Flare, Kamehameha, Lightning Impact, Meteor Explosion, Power Wall, Rising Rage, Solar Flare, Time Bullet, Timespace Impact, Ultra Instinct, Unrelenting Barrage, Venus Fist, Victory Rush, and Wall of Defense.
+- Post-write validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 0 canonical-index projection mismatches** across the audited fields (`name`, classification, verification/research/acquisition fields, sources, unlock/UF fields, timestamps, race restriction, notes, mechanics, source quest/shop).
+- Exact next task: **recompute the wider repository consistency census and identify the next highest-priority structural gap outside the now-clean skills canonical/index projection layer.** Prefer cross-database relationship/projection drift or the largest unresolved required-field cohort; do not invent missing data.
+- Recent commits: **23f6dfc941120ddb7b43d0b04ca56c169346ba35**, **a56ae109e789ffde34b9b7dbf6d848c2ee6d58f3**, **e5e5f5bc43d8f634852fb8b1b858ecf1301c8d76**.
