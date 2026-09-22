@@ -6,7 +6,9 @@
   "consumers": [
     "docs/data/character-presets-record-layer.json",
     "docs/data/partner-customization-key-record-layer.json",
-    "docs/data/partner-customization-key-reconciliation.json"
+    "docs/data/partner-customization-key-reconciliation.json",
+    "docs/Characters-All.html",
+    "scripts/validate_character_explorer.py"
   ],
   "results": {
     "canonical_character_names": 149,
@@ -21,9 +23,19 @@
     "invalid_bridge_targets": [],
     "partner_reconciliation_id_parity_differences": [],
     "partner_display_name_mismatches": [],
-    "status": "clean"
+    "status": "clean",
+    "character_explorer": {
+      "canonical_character_names": 149,
+      "preset_records": 45,
+      "preset_distinct_character_ids": 17,
+      "explicit_pq_reverse_targets": 75,
+      "explicit_pq_reverse_references": 247,
+      "unresolved_preset_character_ids": [],
+      "orphan_reverse_character_targets": [],
+      "status": "clean"
+    }
   },
-  "evidence_boundary": "Identity/navigation parity is clean. This does not establish complete preset numbering/loadouts, raid rotation, DLC ownership, TP Medal costs, or historical chronology.",
+  "evidence_boundary": "Identity/navigation parity is clean. The explorer exposes canonical identities, indexed preset records, and explicit PQ reverse references. This does not establish complete preset numbering/loadouts, unlock routes, raid rotation, DLC ownership, TP Medal costs, drop rates, or historical chronology.",
   "rules": [
     "Canonical character names remain authoritative.",
     "Presentation IDs resolve only through the explicit bridge.",
