@@ -51,7 +51,8 @@
     "alias_granularity": "docs/data/pq-endpoint-alias-granularity-map.json",
     "canonical_endpoint_validation": "docs/data/pq-endpoint-navigation-validation.json",
     "canonical_dlc_identity": "docs/data/dlc/canonical-dlc-identity.json",
-    "canonical_dlc_reverse": "docs/data/dlc/pq-reverse-navigation-audit.json"
+    "canonical_dlc_reverse": "docs/data/dlc/pq-reverse-navigation-audit.json",
+    "dlc_content_projection": "docs/data/dlc/dlc-content-link-audit.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py"
