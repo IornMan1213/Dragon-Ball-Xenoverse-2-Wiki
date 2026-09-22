@@ -31,6 +31,8 @@ def main() -> int:
     expected = list(range(1, 21))
     key_numbers = [x.get("key_number") for x in key_records]
     recon_numbers = [x.get("key") for x in recon_records]
+    duplicate_key_numbers = sorted(k for k,v in __import__("collections").Counter(key_numbers).items() if v > 1)
+    duplicate_recon_numbers = sorted(k for k,v in __import__("collections").Counter(recon_numbers).items() if v > 1)
 
     failures = []
     checks = {
@@ -38,6 +40,8 @@ def main() -> int:
         "exact_key_numbers": sorted(key_numbers) == expected,
         "exact_reconciliation_count": len(recon_records) == 20,
         "reconciliation_key_numbers": sorted(recon_numbers) == expected,
+        "key_numbers_unique": not duplicate_key_numbers,
+        "reconciliation_key_numbers_unique": not duplicate_recon_numbers,
         "all_key_character_ids_bridged": all(x.get("character_id") in bridge_by_id for x in key_records),
         "all_bridge_targets_canonical": all(name in canonical for name in bridge_by_id.values()),
         "key_reconciliation_identity_parity": all(
@@ -60,6 +64,7 @@ def main() -> int:
     missing_links = sorted(expected_names - linked_names)
     extra_links = sorted(linked_names - expected_names)
     checks["page_has_exactly_20_key_search_links"] = len(search_links) == 20
+    checks["page_search_link_targets_match_partner_names"] = all(name in expected_names for name, _ in search_links)
     checks["all_key_partners_have_search_links"] = not missing_links
     checks["no_unmapped_extra_partner_search_links"] = not extra_links
 
@@ -87,6 +92,8 @@ def main() -> int:
         "checks": checks,
         "missing_page_search_links": missing_links,
         "extra_page_search_links": extra_links,
+        "duplicate_key_numbers": duplicate_key_numbers,
+        "duplicate_reconciliation_key_numbers": duplicate_recon_numbers,
         "identity_mismatches": [x for x in failures if isinstance(x, dict)],
         "status": "clean" if not failures else "unresolved",
         "evidence_boundary": "This audit validates identity/navigation only. It does not verify DLC ownership, raid rotation, TP Medal costs, or other partially verified Partner Customization facts.",
