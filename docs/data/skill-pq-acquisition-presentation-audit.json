@@ -10,7 +10,8 @@
     "docs/Skills-Complete-Database.md",
     "docs/Skills-Unlock-Database.md",
     "docs/Farming-Hub.md",
-    "docs/Farming-Routes.md"
+    "docs/Farming-Routes.md",
+    "docs/data/parallel-quest-skill-acquisition-early-base-game.json"
   ],
   "findings": [
     {
@@ -48,6 +49,12 @@
       "status": "repaired",
       "issue": "Skill farming route summary used high-value PQs with Ultimate Finish as generic guidance.",
       "resolution": "Route guidance now requires canonical skill relationships and separately verified Ultimate Finish/reward-trigger conditions."
+    },
+    {
+      "file": "docs/data/parallel-quest-skill-acquisition-early-base-game.json",
+      "status": "repaired",
+      "issue": "Kaioken/PQ8 was typed as an Ultimate-Finish route with conditional guarantee semantics even though the record's own evidence said the current reward roll remained unresolved.",
+      "resolution": "Downgraded route/finish/guarantee fields to unknown while preserving the historical Ultimate-Finish association in trigger_scope and the unresolved evidence."
     }
   ],
   "canonical_relationship_baseline": {
