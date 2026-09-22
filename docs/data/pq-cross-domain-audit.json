@@ -363,5 +363,65 @@
     },
     "result": "clean",
     "interpretation": "Reverse endpoint counts are unique target endpoints, not relationship counts; each reverse endpoint was compared against the complete forward-derived PQ set. No orphan, missing, or mismatched reverse endpoint was found."
+  },
+  "target_normalization_audit_2026_09_22": {
+    "schema_version": "1.0",
+    "date": "2026-09-22",
+    "scope": "PQ character/DLC relationship target normalization",
+    "source_of_truth": "canonical PQ record layer and canonical character identity layer; relationship/reverse-index layers are projections",
+    "character": {
+      "forward_edges": 247,
+      "unique_targets": 75,
+      "canonical_character_record_count": 149,
+      "exact_target_identity_matches": 75,
+      "missing_canonical_targets": 0,
+      "documented_aliases": 5,
+      "alias_map": {
+        "Beerus": "God of Destruction Beerus",
+        "Android 17 (Super)": "Android 17 (DB Super)",
+        "Android 18 (Super)": "Android 18 (DB Super)",
+        "Great Saiyaman 1": "Great Saiyaman",
+        "Jiren (Full Power, Ultra Supervillain)": "Jiren (Full Power) Ultra Supervillain"
+      },
+      "result": "clean"
+    },
+    "dlc": {
+      "forward_edges": 88,
+      "unique_targets": 21,
+      "exact_target_matches_to_pq_requirement_values": 15,
+      "source_backed_pack_names_outside_pq_requirement_field": [
+        "Super Pack 1",
+        "Super Pack 2",
+        "Super Pack 3",
+        "Super Pack 4"
+      ],
+      "canonical_case_normalization": {
+        "relationship_target_before": "FUTURE SAGA Chapter 4",
+        "canonical_pq_requirement": "Future Saga Chapter 4",
+        "affected_pqs": [
+          185,
+          186
+        ],
+        "action": "normalized relationship target and removed duplicate case-only reverse-index key"
+      },
+      "duplicate_casefold_keys_before": 1,
+      "duplicate_casefold_keys_after": 0,
+      "result": "clean_after_deterministic_normalization"
+    },
+    "invariants": {
+      "total_relationships_before": 862,
+      "total_relationships_after": 862,
+      "character_edges": 247,
+      "dlc_edges": 88,
+      "duplicate_relationship_keys": 0,
+      "invalid_pq_numbers": 0,
+      "empty_targets": 0
+    },
+    "evidence_boundary": [
+      "Character target normalization was checked against docs/data/characters-record-layer.json; all 75 current relationship targets resolve to canonical character names.",
+      "The five documented character aliases remain explicit and were not collapsed into duplicate canonical identities.",
+      "Super Pack 1-4 are retained as source-backed DLC relationship targets rather than being silently collapsed into the broader Super Pass requirement used by some canonical PQ records.",
+      "Only the case-only FUTURE SAGA Chapter 4 duplicate was normalized because the canonical PQ records establish the exact display spelling."
+    ]
   }
 }
