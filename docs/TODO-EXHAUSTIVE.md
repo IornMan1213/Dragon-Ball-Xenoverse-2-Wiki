@@ -632,3 +632,14 @@
 - [x] Direct PQ-page template inspection found **no individual PQ HTML/Markdown page template** in the repository; the maintained presentation consumer is `docs/Parallel-Quests-All.html` plus the general `docs/Parallel-Quests.md` reference page. No unsupported per-PQ route was invented.
 - [x] Evidence boundary preserved: the canonical DLC relationship layer determines PQ→DLC identity; the legacy `Super Pass` field remains historical/presentation metadata and is not promoted to a specific pack identity.
 - [ ] Exact next batch: audit the general PQ reference/index pages (`docs/Parallel-Quests.md`, `docs/Parallel-Quest-Audit.md`, and related PQ-facing docs) for stale reward/navigation claims and reconcile them against the canonical 186-record PQ layer without rewriting unsupported mechanics or acquisition semantics.
+
+
+### 2026-09-22 — PQ reference/index consumer reconciliation
+- [x] Audited the general PQ reference/index consumers: `docs/Parallel-Quests.md`, `docs/Parallel-Quest-Audit.md`, `docs/Parallel-Quest-Walkthrough.md`, `docs/Farming-Routes.md`, `docs/Farming-Hub.md`, and `docs/data/parallel-quests-index.json`.
+- [x] Removed unqualified canonical treatment of PQ23 as the Dragon Ball farming route; the canonical farming relationship set is **PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88**.
+- [x] Clarified that route efficiency/ranking, drop probability, and Ultimate Finish requirements are separate evidence fields and are not created by a farming relationship.
+- [x] Clarified the canonical 186-record PQ layer versus external/datemined PQ36/183-standalone numbering interpretations.
+- [x] Updated the PQ seed index to expose the canonical farming set while preserving its non-canonical/indexed semantics.
+- [x] No canonical PQ relationship identities or edges were changed; live relationship baseline remains **860 unique edges**.
+- [x] Updated CHANGELOG with the completed reconciliation.
+- [ ] Exact next task: search remaining PQ-facing documentation/index consumers for stale canonical-count, farming-route, or external-corpus claims and repair only deterministic local presentation drift.
