@@ -173,8 +173,8 @@
     "unified_reverse_index": {
       "file": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
       "live_reference_counts": {
-        "skill": 236,
-        "super_soul": 137,
+        "skill": 244,
+        "super_soul": 151,
         "equipment": 125,
         "character": 247,
         "dlc": 86,
@@ -188,7 +188,7 @@
         "dlc": 86,
         "farming": 7
       },
-      "deterministic_stale_field_corrected": "dlc 88 -> 86",
+      "deterministic_stale_field_corrected": "skill 236 -> 244; super_soul 137 -> 151; DLC 88 -> 86; three canonical skill-name key drifts corrected",
       "semantics": "partial source-normalized reverse index"
     },
     "super_soul_acquisition_index": {
