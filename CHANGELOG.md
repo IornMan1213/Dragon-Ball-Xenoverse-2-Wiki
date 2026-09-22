@@ -1224,7 +1224,7 @@
 
 ## 2026-09-21 — Fighting Pose E low-source provenance strengthening
 - Recomputed the live low-source census before editing: **46 exactly-two-source records**.
-- Strengthened **Fighting Pose E (`skill-fighting-pose-e`)** from two to three sources with an independent PQ19 gameplay listing that identifies Fighting Pose E as a Basic Reward. citeturn0youtube12turn0search1
+- Strengthened **Fighting Pose E (`skill-fighting-pose-e`)** from two to three sources with an independent PQ19 gameplay listing that identifies Fighting Pose E as a Basic Reward.
 - Preserved the existing PQ19 acquisition, Basic Reward classification, 0-Ki semantics, and `ultimate_finish_required: false`; no unsupported drop probability was inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index records.
 - Post-write live target: **45 exactly-two-source records**.
