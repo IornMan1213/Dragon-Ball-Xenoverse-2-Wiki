@@ -1787,3 +1787,10 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Synchronized canonical/index records; preserved existing CaC, cost, and Ultimate Finish semantics.
 - [x] Removed internal citation artifacts from the persistent handoff while updating it with plain source references.
 - [ ] Next task: **Kai Kai (`skill-kai-kai`)**.
+
+
+### 2026-09-21 — Kai Kai provenance strengthening
+- [x] Recomputed live census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 29 exactly-two-source records**.
+- [x] Added independent GameFAQs walkthrough evidence for PQ63 → Kai Kai, preserving the Basic Reward/no-Ultimate-Finish-only interpretation.
+- [x] Synchronized canonical/index records and refreshed verification date.
+- [ ] Next task: **Kaioken Kamehameha (`skill-kaioken-kamehameha`)**.
