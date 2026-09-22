@@ -652,3 +652,14 @@
 - [x] Updated the unified index semantics to explicitly make canonical relationship data authoritative; partial normalized source maps remain provenance/research layers and cannot override canonical relationships.
 - [x] Updated the validator so standalone indexes are checked against normalized source maps, while the unified index is checked against canonical relationships; equipment is validated as the union of clothing/accessory projections.
 - [ ] Exact next task: perform a full repository-wide cross-link integrity audit so PQ pages, skill/Super Soul/equipment/character/DLC/farming records all resolve through the canonical relationship layer without orphaned or one-way links. Preserve source provenance and historical audit entries.
+
+### 2026-09-22 cycle update — PQ record/canonical cross-link integrity audit
+- [x] Audited all 186 PQ records against the canonical docs/data/pq-reward-relationships.json relationship layer.
+- [x] Skills: 244/244 exact, 0 missing, 0 extra. Super Souls: 151/151 exact, 0 missing, 0 extra.
+- [x] Equipment: canonical has 125 unique edges while PQ record equipment_rewards contains 123 exact-name edges. Two deterministic naming conflicts were isolated without changing canonical data: PQ152 has canonical Android 17 (DB Super) Ranger Wig and Android 17 (DB Super) Wig; PQ155 has canonical Gamma 2 Helmet and Gamma 2's Helmet. The PQ record preserves its existing source-backed wording rather than inventing aliases.
+- [x] DLC: record and canonical counts both equal 86, but 20 PQ101-120 endpoints use broad Super Pass/similar record-layer wording while canonical relationships use individual pack targets. This is recorded as a granularity conflict, not silently normalized.
+- [x] Confirmed all PQ IDs pq-001 through pq-186 exist in the canonical record layer.
+- [x] Added docs/data/pq-cross-link-integrity-audit.json to preserve the exact mismatch classification and prevent future cycles from treating naming/granularity differences as missing acquisition evidence.
+- [x] Reverted a temporary attempted equipment-name normalization after determining the canonical layer contains distinct target strings; no unsupported alias was promoted.
+- [ ] Exact next batch: inspect the repository cross-link contract and existing alias/index artifacts, then define a deterministic canonical-name alias/granularity layer for equipment and DLC presentation without altering canonical relationship identities. Use it to make downstream PQ↔reward navigation resolve both source naming and canonical target naming.
+
