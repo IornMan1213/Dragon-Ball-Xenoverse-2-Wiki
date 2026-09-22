@@ -1764,13 +1764,14 @@
       "sources": [
         "https://dragonball.fandom.com/wiki/Para_Para_Boogie",
         "https://dbxv2.fandom.com/wiki/Pan",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxenoverse.fandom.com/wiki/Dancing_Parapara_%28Skill%29"
       ],
       "unlock_method": "Pan's Initiation Test — complete the instructor lesson to receive Dancing Parapara as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 deterministic acquisition verification: Pan initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races.",
       "mechanics_notes": "Confirmed as Pan mentor-training Other Super. While dancing, the skill rapidly restores the user's Stamina; repository retains 100 Ki cost pending stronger numerical evidence. No narrower CaC race/gender/form restriction is established by the current evidence. Reviewed in the current null-race census; current Future Warrior/CaC evidence does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-pan added for the documented mentor-training acquisition route.",
       "source_quest": "Pan's mentor training — Initiation Test",
       "source_quest_or_shop": "Pan's mentor training — Initiation Test"
@@ -1786,13 +1787,14 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Dark_Inscription",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dragonball.fandom.com/wiki/Dark_Inscription"
       ],
       "unlock_method": "Parallel Quest 182 - \"Frieza's Fervent Wish\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — \"Frieza's Fervent Wish\" explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records.",
+      "notes": "2026-09-20 final-PQ provenance refinement: PQ182 — \"Frieza's Fervent Wish\" explicitly lists Dark Inscription in its Basic Reward / skill-reward set. The maintained PQ182 record has no skill_drop_conditions entry, so no Ultimate Finish-only gate or drop probability is inferred. 2026-09-21 DLC label normalization: aligned to canonical Future Saga Chapter naming used by adjacent records. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races.",
       "mechanics_notes": "Current evidence confirms Dark Inscription as a 100+ Ki Ki Blast Super from PQ182, used by Golden Frieza (Ultra Supervillain). Additional inputs create more rifts and build Power of Time; no explicit CaC race/gender/form restriction is established in the current evidence, so none is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
       "source_quest": 182,
       "source_quest_or_shop": "Parallel Quest 182 — \"Frieza's Fervent Wish\" Basic Reward",
@@ -1811,13 +1813,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Darkness_Eye_Beam",
+        "https://www.player.one/dragon-ball-xenoverse-2-mentor-guide-how-unlock-every-skill-and-lesson-565288"
       ],
       "unlock_method": "Lord Slug's mentor training — complete the corresponding lesson to receive Darkness Eye Beam as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races.",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
       "source_quest": "Lord Slug mentor training",
       "source_quest_or_shop": "Lord Slug mentor training"
@@ -1834,13 +1838,14 @@
         "https://dbxv2.fandom.com/wiki/Category:Human_Skills",
         "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Melee%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29"
       ],
       "unlock_method": "Lord Slug's Lesson 3 — complete the instructor lesson; the Basic Reward includes Darkness Rush (Melee) and Darkness Rush (Ranged).",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
-      "race_restriction": "All CaC races",
-      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "last_verified": "2026-09-22",
+      "race_restriction": "All CaC races except Namekian",
+      "notes": " 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races.",
       "mechanics_notes": "300 Ki Strike Ultimate learned from Lord Slug, Lesson 3; close-range rushing/grab sequence followed by a finishing attack. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-lord-slug added for the documented mentor-training acquisition route.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "source_quest_or_shop": "Lord Slug mentor training — Lesson 3"
@@ -1858,13 +1863,14 @@
         "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Ranged%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Darkness_Rush_%28Melee%29",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "Lord Slug's Lesson 3 — complete the instructor lesson; the Basic Reward includes Darkness Rush (Ranged) and Darkness Rush (Melee).",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "Namekian",
-      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "Namekian-only CaC Ultimate. The separate Darkness Rush (Melee) route is for non-Namekian Future Warriors. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races.",
       "mechanics_notes": "300 Ki; Namekian-only CaC Ultimate. Lord Slug's Lesson 3 unlocks the Ranged version; the attack is a long-range grab/rush followed by an Eye Laser-style blast. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-lord-slug added for the documented mentor-training acquisition route.",
       "source_quest": "Lord Slug mentor training — Lesson 3",
       "source_quest_or_shop": "Lord Slug mentor training — Lesson 3"
@@ -1880,13 +1886,14 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://www.player.one/dragon-ball-xenoverse-2-mentor-guide-how-unlock-every-skill-and-lesson-565288"
       ],
       "unlock_method": "Lord Slug's mentor training — complete the corresponding lesson to receive Darkness Twin Star as the Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 provenance refresh: current independent skill/mentor evidence was rechecked; acquisition and scope were retained unless directly contradicted. Darkness Rush (Melee) is explicitly non-Namekian, so its race restriction is normalized to non-Namekian rather than All CaC races.",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
       "source_quest": "Lord Slug mentor training",
       "source_quest_or_shop": "Lord Slug mentor training"
