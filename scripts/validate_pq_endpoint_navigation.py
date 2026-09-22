@@ -100,25 +100,53 @@ def main() -> int:
     for item in bridge.get("equipment", []):
         targets = item.get("canonical_targets", [])
         unresolved = [t for t in targets if t not in canonical["equipment"]]
+        structural = []
+        if not item.get("pq"):
+            structural.append("missing_pq")
+        if not item.get("source_label"):
+            structural.append("missing_source_label")
+        if item.get("status") != "explicit_conflict":
+            structural.append("missing_explicit_conflict_status")
+        if len(targets) < 2:
+            structural.append("conflict_requires_multiple_canonical_targets")
+        if not item.get("evidence"):
+            structural.append("missing_evidence")
         if item.get("status") == "explicit_conflict":
             explicit_conflict_counts["equipment"] += 1
+        if unresolved or structural:
+            failures.extend(f"equipment bridge {item.get('pq')}: {issue}" for issue in [*structural, *[f"unresolved_target:{t}" for t in unresolved]])
         bridge_checks.append({
             "pq": item.get("pq"),
             "domain": "equipment",
-            "status": "clean" if not unresolved else "unresolved",
+            "status": "clean" if not unresolved and not structural else "unresolved",
             "classification": item.get("status"),
             "canonical_targets": targets,
             "unresolved_targets": unresolved,
+            "structural_errors": structural,
+            "evidence_count": len(item.get("evidence", [])),
         })
     for item in bridge.get("dlc", []):
+        structural = []
+        targets = item.get("canonical_targets", [])
+        if not item.get("pq_range"):
+            structural.append("missing_pq_range")
+        if not item.get("source_label"):
+            structural.append("missing_source_label")
+        if item.get("status") != "deterministic_granularity":
+            structural.append("missing_deterministic_granularity_status")
+        if not targets:
+            structural.append("missing_canonical_targets")
+        if structural:
+            failures.extend(f"dlc bridge {item.get('pq_range')}: {issue}" for issue in structural)
         if item.get("status") == "deterministic_granularity":
             explicit_granularity_counts["dlc"] += 1
         bridge_checks.append({
             "pq_range": item.get("pq_range"),
             "domain": "dlc",
-            "status": "explicit_granularity",
+            "status": "explicit_granularity" if not structural else "unresolved",
             "classification": item.get("status"),
-            "canonical_targets": item.get("canonical_targets", []),
+            "canonical_targets": targets,
+            "structural_errors": structural,
         })
 
     identity_resolution = {}
