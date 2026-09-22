@@ -1253,3 +1253,11 @@
 - Preserved the existing character-only/non-CaC boundary and Ultra Pack 1 provenance; no CaC acquisition route or reward semantics were inferred.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
 - Post-write live target: **41 exactly-two-source records**.
+
+
+## 2026-09-21 — Final Flash (Super) low-source provenance strengthening
+- Live pre-edit low-source census: **41 exactly-two-source records**.
+- Strengthened **Final Flash (Super)** from two to three provenance sources with the Dragon Ball Wiki Final Flash entry, which documents the Xenoverse 2 Ultra Pack 1 SSGSS (Evolved) Vegeta-exclusive Super Skill variant.
+- Preserved the existing character-only/non-CaC boundary and did not infer a reward or acquisition route.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
+- Post-write target: **40 exactly-two-source records**.
