@@ -7318,3 +7318,18 @@ The repository owner has clarified the continuation contract:
 - Known limitation: GitHub Actions status is not exposed as a successful check for this direct-commit chain; validators must not be weakened or treated as passing by assumption.
 - Last artifact scan: changed canonical/index/changelog content scanned for internal citation/UI markers; **0 detected**.
 - Files requiring synchronization next cycle: `docs/data/skills.json`, `docs/data/skills-index.json`, `CHANGELOG.md`, and this handoff only if the Phantom Fist batch changes canonical data.
+
+
+### 2026-09-22 cycle update — Phantom Fist provenance strengthening
+- Active workstream: P1 skill acquisition/DLC-version provenance cleanup.
+- Bounded batch: Phantom Fist (skill-phantom-fist).
+- Evidence used: Dragon Ball Wiki's Phantom Fist entry independently states that in Xenoverse 2 the Future Warrior can obtain Phantom Fist as a reward in Parallel Quest 97: “Insidious Plot”, and identifies it as a Super Skill. The maintained Steam all-186 PQ guide independently lists Phantom Fist under PQ97 Basic Reward. Source URLs: https://dragonball.fandom.com/wiki/Phantom_Fist and https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+- Fields changed: canonical and index sources gained https://dragonball.fandom.com/wiki/Phantom_Fist; last_verified refreshed to 2026-09-22; provenance note synchronized.
+- Evidence limits preserved: exact drop probability, any additional prerequisite, and any Ultimate-Finish-only condition remain unresolved/not inferred.
+- Pre-edit census: 452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost / 19 exactly-two-source canonical records.
+- Post-edit census: 452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost / 18 exactly-two-source canonical records.
+- Cross-layer validation: canonical/index source parity clean; Phantom Fist has exactly 3 sources in both layers; no internal AI/UI/search citation artifacts remain in changed data.
+- CI/Actions: no successful workflow/check was exposed for the resulting direct-commit chain; do not claim CI success.
+- Commits: canonical 896f8b4e5308234de9ee08d57b93e1d90a6a00d8; index 09f4ab2054d74b23dfac19a671e87510b2838002.
+- Exact next batch: Potential Unleashed (skill-potential-unleashed). Recompute the live two-source census first, then independently verify its acquisition/source endpoint before adding provenance.
+- Why next: Potential Unleashed is the next remaining deterministic two-source record in the live canonical ordering after Phantom Fist.
