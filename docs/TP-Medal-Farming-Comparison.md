@@ -21,7 +21,7 @@ This page compares the main methods for farming TP Medals in *Dragon Ball Xenove
 | **EM 16/17 Offline** | 16 | 1–3 minutes | Reliable solo option | Offline players |
 | **EM 18 Offline** | 18 | 1.5–3+ minutes | Higher medals but more variable | Offline with good build |
 | **Expert Mission Tour (Online)** | 60–80+ per full tour | 5–12 minutes | Best overall hourly rate when lobby is good | Group play |
-| **Shenron “I want medals!”** | 200 | Depends on Dragon Ball farm (PQ 23 etc.) | High burst, requires 7 Dragon Balls each time | Occasional big boosts |
+| **Shenron “I want medals!”** | 200 | Depends on Dragon Ball collection | High burst, requires 7 Dragon Balls each time | Occasional big boosts |
 | **Daily Missions** | Up to ~190/day | Varies | Free daily income | Passive |
 | **Raids / Festival Events** | Variable (often high) | Event-dependent | Excellent when active | Event periods |
 
@@ -31,7 +31,7 @@ This page compares the main methods for farming TP Medals in *Dragon Ball Xenove
 - EM 16 and 17 are preferred for pure speed and consistency. EM 18 offers more medals per clear if your group/build can finish it quickly.
 - Online multiplayer significantly increases medal rewards compared to offline (often +5 to +10 or more per run).
 - Double TP Medal campaigns dramatically improve all Expert Mission methods — prioritize farming during these periods.
-- Shenron wishes provide a strong alternative or supplement but are gated by Dragon Ball collection speed (PQ 23 is the usual route).
+- Shenron wishes provide a strong alternative or supplement but are gated by Dragon Ball collection. Use the canonical Dragon Ball farming relationship set in the Farming Hub rather than treating a single PQ as the canonical route.
 - First-time Parallel Quest clears give medals only once and are not suitable for sustained farming.
 
 ## Recommended Strategy
