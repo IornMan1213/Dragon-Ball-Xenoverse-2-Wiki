@@ -1435,3 +1435,12 @@
 - Rechecked mentor/PQ acquisition evidence and preserved existing acquisition semantics where no direct contradiction was established.
 - Validation target: six records set to 2026-09-22; canonical/index parity and audit registration to be verified before merge. CI success is not claimed.
 - Next target: recompute live stale census and continue with the next stale records beginning Data Input / Dead End Rain / Deadly Dance, batching adjacent skills where evidence remains bounded.
+\n### 2026-09-22 cycle update — Data Input through Death Slicer provenance refresh
+- [x] Fresh live census: **452 canonical skills / 452 index records / 0 duplicate IDs / 357 stale before this batch**.
+- [x] Refreshed **9** adjacent stale skill records: Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, Death Crasher, Death Psycho Bomb, Death Slash, Death Slicer.
+- [x] Synchronized canonical/index `last_verified` and shared identity/classification fields for all 9.
+- [x] Added current evidence-backed mechanics/provenance details; preserved acquisition semantics and uncertainty boundaries.
+- [x] Corrected **Death Slash** from Strike to **Ki Blast Super** in canonical/index `subcategory` and `damage_type`, based on current dedicated Xenoverse 2 evidence.
+- [x] Static validation: **452/452**, **0 duplicate IDs**, **351 stale remaining**, all 9 targets refreshed and canonical/index parity clean.
+- [ ] CI/runtime execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute census and continue alphabetically with **Demon Flash Strike** and adjacent stale records.\n
