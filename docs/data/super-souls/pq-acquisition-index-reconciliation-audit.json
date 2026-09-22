@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-22",
+  "scope": "Super Soul PQ acquisition-index exact pair reconciliation for PQ41-186",
+  "source_of_truth": "docs/data/pq-reward-relationships.json",
+  "projection": "docs/data/super-souls/pq-acquisition-index-041-186.json",
+  "semantics": "The acquisition index is a partial source-normalized research projection. Canonical relationship differences are audit findings, not permission to rewrite canonical relationships or promote research-only pairs.",
+  "counts": {
+    "canonical_pairs_within_scope": 133,
+    "index_pairs": 122,
+    "exact_pair_overlap": 120,
+    "canonical_missing_from_index": 13,
+    "index_only_pairs": 2
+  },
+  "classification": {
+    "exact_missing_pairs": 11,
+    "case_variant_pairs": 2,
+    "case_variant_pairs_detail": [
+      {
+        "pq": 164,
+        "canonical": "This place will be your grave!",
+        "indexed": "This place Will be your grave!"
+      },
+      {
+        "pq": 173,
+        "canonical": "You will know the power of the gods!",
+        "indexed": "You Will know the power of the gods!"
+      }
+    ],
+    "canonical_missing_pairs": [
+      [
+        "Killed all Earthlings!",
+        58
+      ],
+      [
+        "I think I'm getting the hang of this.",
+        151
+      ],
+      [
+        "I'll keep adding a bit of power to my attacks!",
+        151
+      ],
+      [
+        "I will put a stop to you, fiend!",
+        152
+      ],
+      [
+        "There's more where that came from!",
+        153
+      ],
+      [
+        "You're not much of a fun fight!",
+        153
+      ],
+      [
+        "Heh heh! I'm not as rusty as I look!",
+        158
+      ],
+      [
+        "See? It's a good thing I was here, right?",
+        158
+      ],
+      [
+        "I'll surpass you as I am, with my OWN power!",
+        174
+      ],
+      [
+        "I'll take you all on at once!",
+        178
+      ],
+      [
+        "Here I go!",
+        179
+      ]
+    ]
+  },
+  "evidence_boundary": "The 11 exact missing pairs are coverage gaps between the canonical relationship layer and this partial acquisition projection. They are not promoted into the acquisition index without fresh source-map evidence. The 2 capitalization variants are deterministic identity-name drift but remain source-layer entries until their source map is reconciled.",
+  "result": "clean_audit_with_13_reconciliation_findings",
+  "next_action": "Use the 11 exact missing pairs as a bounded Super Soul acquisition research queue; independently verify each against maintained reward evidence before changing the partial acquisition projection or canonical relationship layer."
+}
