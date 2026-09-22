@@ -11,7 +11,7 @@ This page keeps core skill information **on-wiki**. Full exhaustive tables live 
 ## Acquisition Methods (All Local)
 | Method | Notes |
 |--------|-------|
-| Mentor Lessons | Guaranteed skills from each instructor’s 4 training missions |
+| Mentor Lessons | Lesson-specific rewards; exact mentor/lesson records are authoritative for the unlock |
 | Parallel Quests | Many skills listed as rewards; reward trigger/Ultimate Finish status must be separately evidenced |
 | TP Medal Shop | Rotating stock of skills and Super Souls |
 | Shenron Wishes | Specific Super / Ultimate attacks via dedicated wishes |
