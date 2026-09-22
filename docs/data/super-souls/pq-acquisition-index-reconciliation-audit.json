@@ -7,13 +7,13 @@
   "semantics": "The acquisition index is a partial source-normalized research projection. Canonical relationship differences are audit findings, not permission to rewrite canonical relationships or promote research-only pairs.",
   "counts": {
     "canonical_pairs_within_scope": 133,
-    "index_pairs": 122,
-    "exact_pair_overlap": 127,
-    "canonical_missing_from_index": 6,
+    "index_pairs": 127,
+    "exact_pair_overlap": 125,
+    "canonical_missing_from_index": 8,
     "index_only_pairs": 2
   },
   "classification": {
-    "exact_missing_pairs": 4,
+    "exact_missing_pairs": 6,
     "case_variant_pairs": 2,
     "case_variant_pairs_detail": [
       {
@@ -33,6 +33,14 @@
         58
       ],
       [
+        "Heh heh! I'm not as rusty as I look!",
+        158
+      ],
+      [
+        "See? It's a good thing I was here, right?",
+        158
+      ],
+      [
         "I'll surpass you as I am, with my OWN power!",
         174
       ],
@@ -46,16 +54,16 @@
       ]
     ]
   },
-  "evidence_boundary": "Seven previously missing canonical pairs were reconciled into the partial acquisition index using maintained reward evidence. The remaining six findings are not promoted without fresh evidence: four exact pairs plus two capitalization variants.",
-  "result": "clean_audit_with_6_reconciliation_findings",
-  "next_action": "Use the remaining four exact missing pairs as the next bounded Super Soul acquisition research queue; independently verify them against maintained reward evidence before changing the partial acquisition projection or canonical relationship layer.",
+  "evidence_boundary": "Five previously missing canonical pairs were reconciled into the partial acquisition index using maintained reward evidence. The PQ158 source-layer spelling conflict is preserved as unresolved; six exact missing pairs and two capitalization variants remain.",
+  "result": "clean_audit_with_8_reconciliation_findings",
+  "next_action": "Use the remaining six exact missing pairs as the next bounded Super Soul acquisition research queue; independently verify them against maintained reward evidence before changing the partial acquisition projection or canonical relationship layer.",
   "structural_validation": {
     "index_records": 80,
     "unique_index_pq_count": 80,
     "malformed_records": 0,
     "duplicate_record_pqs": [],
-    "structured_pairs": 129,
-    "unique_structured_pairs": 129,
+    "structured_pairs": 127,
+    "unique_structured_pairs": 127,
     "duplicate_structured_pair_count": 0
   },
   "validator": "scripts/validate_super_soul_acquisition_index.py",
