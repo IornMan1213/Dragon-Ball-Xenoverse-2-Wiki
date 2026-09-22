@@ -8810,13 +8810,14 @@
       "acquisition_type": "starting_move",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Super_Guard"
+        "https://dbxv2.fandom.com/wiki/Super_Guard",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74501799"
       ],
       "unlock_method": "Starting fighting-style choice ('I want to fight up close') or Skill Shop",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 starting-move refinement: Super Guard is a CaC starting Super associated with the initial close-range fighting-style choice; maintained references also list it in the Skill Shop. It is not a PQ/UF reward.",
+      "notes": "2026-09-20 starting-move refinement: Super Guard is a CaC starting Super associated with the initial close-range fighting-style choice; maintained references also list it in the Skill Shop. It is not a PQ/UF reward. 2026-09-22 provenance strengthening: GameFAQs independently corroborates the CaC starting route: create a new character and choose \"I want to fight up close\" to receive Super Guard. The discussion also mentions the Skill Shop as an alternate acquisition route, consistent with the repository's existing wording. No additional shop timing or purchase condition is inferred.",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super usable by all CaC races. Holding it maintains a barrier that grants damage immunity while continuously draining Ki.",
       "source_quest": null,
       "source_quest_or_shop": "Starting fighting-style choice ('I want to fight up close') or Skill Shop"
