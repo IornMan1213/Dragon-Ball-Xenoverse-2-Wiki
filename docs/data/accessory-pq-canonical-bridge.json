@@ -374,7 +374,7 @@
     "pq_records": 45,
     "matched": 16,
     "unmatched_or_unresolved": 29,
-    "canonical_accessory_records": 54,
+    "canonical_accessory_records": 58,
     "remapped_by_exact_name": 16
   },
   "sources": [
@@ -387,7 +387,7 @@
   ],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_accessory_records": 54,
+    "canonical_accessory_records": 58,
     "research_records": 45,
     "forward_edge_count": 16,
     "reverse_edge_count": 16,
