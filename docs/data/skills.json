@@ -1499,7 +1499,7 @@
       "mechanics_notes": "Current evidence confirms the base Candy Beam record as a 100-Ki Ki Blast Super from PQ66. The current record's explicit Majin CaC restriction is retained; the 200-Ki Candy Beam (Super) variant is a separate skill entry.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Candy_Beam",
@@ -1508,7 +1508,7 @@
       "source_quest": 66,
       "race_restriction": "Majin",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: PQ66 reward listings explicitly place Candy Beam in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance audit: the record remains Base Game because its primary Future Warrior acquisition is PQ66; the additional PQ113 reference reflects the later Extra Pack 1 Candy Beam reward context and does not change the canonical base skill's originating acquisition.",
+      "notes": "2026-09-20 audit: PQ66 reward listings explicitly place Candy Beam in the Basic Reward pool; no Ultimate Finish-only gate is inferred. 2026-09-21 DLC provenance audit: the record remains Base Game because its primary Future Warrior acquisition is PQ66; the additional PQ113 reference reflects the later Extra Pack 1 Candy Beam reward context and does not change the canonical base skill's originating acquisition. 2026-09-22 provenance verification: PQ66 — \"Stop Beerus' Destruction\" is independently documented as a Candy Beam acquisition point, including a dedicated skill reference and maintained reward list. The maintained all-186-PQ guide also lists Candy Beam as a Basic Reward at PQ113, so the existing source_parallel_quests [66,113] is retained. The canonical base-game record remains anchored to PQ66; PQ113 is preserved as later Extra Pack 1 reward context alongside the separate Candy Beam (Super) record. Community reports discuss Ultimate-Finish attempts and RNG but do not establish a mandatory Ultimate Finish gate or a drop probability. A current dedicated reference labels a Candy Beam Evasive variant, so no class/mechanics normalization was made in this provenance-only pass.",
       "id": "skill-candy-beam",
       "source_parallel_quests": [
         66,
