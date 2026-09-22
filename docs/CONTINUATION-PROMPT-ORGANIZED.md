@@ -15518,3 +15518,13 @@ The directive to populate the live-state fields from the current repository and 
 - Repository directory inspection confirms no separate PQ143-162 reverse-index artifact currently exists; this absence is recorded as a coverage gap rather than inferred data.
 - Canonical relationship data was not altered.
 - Exact next batch: **audit the PQ81-120, PQ121-142, and PQ163-186 reverse indexes against their underlying normalized reward maps at the exact relationship-pair level, then address the missing PQ143-162 reverse-index projection if its source data supports deterministic generation.**
+
+## Current live-state refresh — 2026-09-22
+
+- Live branch: `main`; current canonical PQ relationship baseline: **860 unique edges** — 244 skill, 151 Super Soul, 125 equipment, 247 character, 86 DLC, 7 farming.
+- Last completed batch: deterministic unified reverse-index producer/status metadata drift repair.
+- Current unresolved structural issue: historical handoff/TODO entries claim `scripts/generate_pq_reverse_indexes.py` and `scripts/validate_pq_reverse_indexes.py` exist, but the live repository fetch/search did not find either file. This must be resolved before relying on those historical validation claims.
+- Last artifact scan: changed JSON layers parse successfully and current master/audit/status/producer counts agree; 0 duplicate relationship keys, 0 invalid PQ numbers, 0 empty targets, and 0 reverse endpoint mismatches.
+- CI limitation: no successful workflow/check is exposed for the direct-commit chain; do not claim CI success.
+- Exact next batch: inspect the live `scripts/` inventory; if the claimed reverse-index validator/generator scripts are absent, restore them with schema-aware implementations that treat canonical relationship data as authoritative and preserve partial/research reverse-index semantics. Then run/record their validation before evaluating unified reverse-index generation.
+- Historical counts and prior next-task entries remain audit history and must not be deleted or rewritten merely to match the current state.
