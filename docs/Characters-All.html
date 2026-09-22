@@ -32,7 +32,7 @@ Search the canonical character identity layer. Preset records and explicit Paral
   stats.textContent=rows.length+' of '+names.length+' canonical characters shown • '+presets.length+' indexed preset records • '+total+' explicit PQ references';
   results.innerHTML=rows.map(name=>{
    const ps=presets.filter(p=>bridge[name]===p.character_id), pqs=index[name]||[];
-   return '<article class="card"><span class="tag">'+esc(ps.length+' preset records')+'</span><h3>'+esc(name)+'</h3>'+
+   return '<article class="card"><span class="tag">'+esc(ps.length+' preset records')+'</span><h3><a href="'+esc(searchUrl(name))+'">'+esc(name)+'</a></h3>'+
     (ps.length?'<p><strong>Presets:</strong> '+ps.slice(0,8).map(p=>esc(p.name)).join(' • ')+(ps.length>8?' • …':'')+'</p>':'<p><strong>Presets:</strong> none indexed for this identity</p>')+
     (pqs.length?'<div class="character-links"><strong>Explicit PQ references:</strong> '+pqs.map(n=>'<a href="'+esc(pqUrl(n))+'">PQ '+esc(n)+'</a>').join(', ')+'</div>':'<p class="muted"><strong>Explicit PQ references:</strong> none in the canonical reverse index.</p>')+
     '<p><a href="'+esc(searchUrl(name))+'">Open local wiki search ↗</a></p></article>';
