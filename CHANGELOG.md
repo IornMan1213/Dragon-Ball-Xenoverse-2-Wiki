@@ -1427,3 +1427,11 @@
 ## 2026-09-22 — Supernova provenance
 - Strengthened `skill-supernova` with independent maintained Steam Expert Mission evidence for EM06 acquisition.
 - Preserved existing Basic Reward and no-Ultimate-Finish semantics.
+
+
+## 2026-09-21 — Taunt low-source provenance strengthening
+- Live pre-batch census: **452 canonical / 452 index / 9 exactly-two-source records**.
+- Strengthened **Taunt (`skill-taunt`)** from two to three provenance sources using an independent GameFAQs Q&A corroborating **PQ45 — Take Back the Dragon Balls!**.
+- Preserved the existing Basic Reward, PQ45, 0-Ki Power Up, CaC, and no-Ultimate-Finish-only semantics; no unsupported drop probability was added.
+- Updated canonical/index source lists and refreshed `last_verified` to **2026-09-21**.
+- Post-write target: **8 exactly-two-source canonical records**.
