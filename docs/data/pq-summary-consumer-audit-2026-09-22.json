@@ -66,5 +66,6 @@
     "Historical handoff entries containing older 860/125 counts remain preserved under append-only policy; they are not current-state claims.",
     "Runtime/CI execution remains unavailable."
   ],
-  "next_gate": "Continue repository-wide PQ-facing consumer census into direct PQ page templates and DLC requirement presentation, checking canonical endpoint navigation and stale field-level scalars before provenance expansion."
+  "next_gate": "Continue repository-wide PQ-facing consumer census into direct PQ page templates and DLC requirement presentation, checking canonical endpoint navigation and stale field-level scalars before provenance expansion.",
+  "farming_routes_commit": "c5c467d76dba1d0b67a9d12a5ca7c5df2914eda3"
 }
