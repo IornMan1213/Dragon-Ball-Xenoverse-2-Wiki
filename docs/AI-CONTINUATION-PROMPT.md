@@ -2049,3 +2049,13 @@
 - [x] Validation: 452 canonical / 452 index / 0 duplicate IDs; affected canonical/index records remain semantically aligned. No PQ relationship or skill identity changed.
 - [ ] Runtime/CI remains unavailable; no CI success claimed.
 - [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with the next unfinished skill after Beast, recomputing the live canonical/index census first.
+
+
+### 2026-09-22 cycle update — Become Giant provenance verification
+- [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded record: skill-become-giant.
+- [x] Independently verified the existing Become Giant acquisition semantics: Namekian Awakening at Guru's House, including the documented Namekian/level-35 prerequisites and quest flow. Dedicated quest documentation and an independent GameFAQs walkthrough corroborate the route.
+- [x] Refreshed docs/data/skills.json and docs/data/skills-index.json: last_verified -> 2026-09-22 and provenance source/note synchronized.
+- [x] Added docs/data/skill-become-giant-provenance-audit-2026-09-22.json; registered it in docs/data/pq-cross-domain-index.json.
+- [x] Validation: 452 canonical / 452 index / 0 duplicate IDs; affected canonical/index records remain semantically aligned. No PQ relationship or skill identity changed.
+- [ ] Runtime/CI remains unavailable; no CI success claimed.
+- [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with Big Bang Knuckle (skill-big-bang-knuckle), recomputing the live canonical/index census first.
