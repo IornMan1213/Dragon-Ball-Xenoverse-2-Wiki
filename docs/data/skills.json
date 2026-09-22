@@ -1027,12 +1027,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Nappa mentor training — Lesson 3",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Nappa mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300+ Ki used.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 300+ Ki used. 2026-09-22 provenance verification: independent instructor documentation confirms Nappa Lesson 3 as the Break Cannon reward and identifies it as Nappa's Ki Blast Ultimate; no acquisition correction required.",
       "id": "skill-break-cannon",
       "source_mentor": [
         "mentor-nappa"
@@ -1090,7 +1090,7 @@
       "mechanics_notes": "Create a shockwave around yourself; repeated input charges it and a full charge can break guard. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented. 2026-09-21 cost verification: dedicated Xenoverse 2 skill documentation lists Brutal Buster at 300 Stamina; no Ki cost is assigned because it is an Evasive.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Brutal_Buster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1099,7 +1099,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: PQ141 — Uub's Ultimate Challenge reward documentation independently lists this skill among the Basic Rewards; a contemporaneous PQ141 walkthrough also documents obtaining it. Existing PQ141/Ultra Pack 2 acquisition semantics are preserved.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Ultra Pack 2 provenance audit: official Bandai Namco documentation confirms Ultra Pack 2 contains five Parallel Quests and eight techniques; the maintained 186-PQ guide maps the eight canonical skills to PQ138–142. The live canonical source-PQ relationships agree with the DLC label for all eight records. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: PQ141 — Uub's Ultimate Challenge reward documentation independently lists this skill among the Basic Rewards; a contemporaneous PQ141 walkthrough also documents obtaining it. Existing PQ141/Ultra Pack 2 acquisition semantics are preserved. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ141 — \"Uub's Ultimate Challenge\" and the 300-Stamina Strike Evasive classification. Existing PQ/DLC semantics are preserved.",
       "source_parallel_quests": [
         141
       ]
@@ -1154,14 +1154,14 @@
       "mechanics_notes": "Identity and acquisition are corroborated; exact numerical mechanics and CaC restrictions remain subject to reconciliation. Current evidence does not establish a narrower CaC race/gender/form restriction; race_restriction remains null rather than being inferred from character association.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Blast",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "mechanics": "200 Ki; optional 300 Stamina consumption enables use while under pressure and grants temporary Super Armor.",
-      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Ultimate Finish reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills.",
+      "notes": "2026-09-20 audit: Steam's current all-PQ reward guide explicitly lists Burning Blast in PQ180's Ultimate Finish reward pool alongside Force Edge. The repository retains PQ180 as the acquisition quest; no separate drop gate is inferred. 2026-09-20 reward-condition reconciliation: maintained PQ drop-condition data explicitly assigns this skill to a 50% ultimate finish route. The maintained Steam all-PQ guide also displays the skill in its Basic Reward (conflicting reward-table presentation) listing; the canonical Ultimate Finish flag follows the explicit drop-condition record while the reward-list presentation is preserved as conflicting source context.\n2026-09-21 DLC provenance census: Dragon Ball DAIMA Pack is the documented DLC provenance for this skill; the live canonical acquisition endpoint maps to Parallel Quest 180 — \"Battle of Resolve: VS Goku Black\". Bandai Namco's official DAIMA Pack announcement confirms the pack contains Parallel Quests and player-character skills. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ180 and the 200-Ki/optional-300-Stamina Ki Blast Super identity. Existing 50% Ultimate Finish evidence and conflicting reward-list presentation are preserved.",
       "race_restriction": "All CaC races",
       "source_quest": 180,
       "acquisition_type": "quest_or_mission",
@@ -1189,7 +1189,7 @@
       "mechanics_notes": "Fiery kick followed by a chasing chop after the initial hit. Current evidence establishes the PQ source and skill classification/cost; an Ultimate Finish-only requirement or exact drop probability is not asserted unless directly documented.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burning_Shot",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -1197,7 +1197,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship.",
+      "notes": "Added during the bounded PQ↔skill endpoint completion batch. The relationship is now represented by a deterministic skill ID and canonical PQ source; no unsupported exact drop rate was inferred. 2026-09-21 Legendary Pack 1 provenance audit: official Bandai Namco documentation identifies Legendary Pack 1 as containing 4 characters, 4 Parallel Quests, and 6 additional moves; the live canonical records map the six Legendary Pack 1 skills to PQ143–146. This pass verifies DLC provenance only and does not normalize reward-tier semantics. 2026-09-21 provenance strengthening: official Bandai Namco DLC documentation independently confirms Legendary Pack 1 scope (4 characters, 4 Parallel Quests, 6 additional moves); the maintained PQ143-PQ146 research layer remains the exact source for each skill's individual quest relationship. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ143 — \"Other World Offensive\" and the 100-Ki Strike Super identity. Independent gameplay evidence reports obtaining it after an Ultimate Finish, but this does not establish a universal mandatory gate; existing canonical semantics remain unchanged.",
       "source_parallel_quests": [
         143
       ]
@@ -1316,7 +1316,7 @@
       "unlock_method": "Parallel Quest 134 — \"Universe 7's Next God of Destruction\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 134 - Universe 7's Next God of Destruction",
       "research_status": "enriched",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "ultimate_finish_required": false,
       "source_quest": 134,
       "usable_by_cac": true,
@@ -1324,7 +1324,7 @@
       "dlc_requirement": "Ultra Pack 1",
       "mechanics_notes": "Confirmed as Other Super from PQ134 and usable by all CaC races. It starts charging extremely quickly and slows over time, making short bursts its intended use.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Burst Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ134; no Ultimate Finish-only condition is established for this record. 2026-09-20 provenance refinement: the maintained Steam all-PQ guide explicitly lists Burst Charge in PQ134's Basic Reward section. A maintained datamined record separately reports a 25% first-clear slot; that first-clear classification is preserved as conflicting evidence rather than promoted over the player-facing reward listing. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-22 provenance verification: dedicated skill documentation confirms PQ134 and Burst Charge's Other Super identity. Independent player reports describe an Ultimate Finish requirement for the charge-skill rewards, conflicting with the repository's retained Basic Reward presentation; no reward-tier correction is made in this provenance pass.",
       "id": "skill-burst-charge",
       "source_parallel_quests": [
         134
@@ -1375,7 +1375,7 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Second use of Shenron wish \"I want a new Super Attack!\"",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Shenron wish",
@@ -1385,7 +1385,7 @@
       "mechanics_notes": "Counter stance that reflects incoming attacks; current record retains the documented Shenron-wish acquisition and partial verification.",
       "source_quest": null,
       "acquisition_type": "other_nonquest",
-      "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Burst Reflection as the second-result route of the repeatable “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward. 2026-09-21 provenance correction: replaced the category-only source with direct skill references; the acquisition remains the second Shenron wish for a new Super Attack, with no PQ relationship asserted.",
+      "notes": "2026-09-20 wish-route refinement: dedicated skill evidence identifies Burst Reflection as the second-result route of the repeatable “I want a new Super Attack!” wish. The route is non-PQ and not an Ultimate Finish reward. 2026-09-21 provenance correction: replaced the category-only source with direct skill references; the acquisition remains the second Shenron wish for a new Super Attack, with no PQ relationship asserted. 2026-09-22 provenance verification: dedicated skill documentation confirms the \"I want a new Super Attack!\" Shenron-wish route and 100-Ki Ki Blast Super classification. No PQ or Ultimate Finish relationship is inferred.",
       "id": "skill-burst-reflection"
     },
     {
