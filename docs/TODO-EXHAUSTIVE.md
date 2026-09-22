@@ -1756,3 +1756,14 @@
 - [x] Static validation: 452/452, no duplicate IDs; affected records remain synchronized.
 - [ ] Runtime/CI unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute live census and continue after Brave Sword Slash.
+
+
+### 2026-09-22 cycle update — Break Cannon / Brutal Buster / Burning Blast / Burning Shot / Burst Charge / Burst Reflection provenance
+- [x] Fresh live skill census: 452 canonical / 452 index / 0 duplicate IDs; bounded batch: six stale P1 skill records.
+- [x] Independent evidence corroborated Nappa Lesson 3, PQ141, PQ180, PQ143, PQ134, and the Shenron-wish acquisition route. citeturn0search8turn0search1turn0search7turn0search4turn0search3turn0search2
+- [x] Refreshed canonical/index last_verified to 2026-09-22.
+- [x] Preserved the Burst Charge reward-condition conflict and Burning Shot evidence boundary; no unsupported probability or mandatory gate was inferred.
+- [x] Added docs/data/skill-provenance-audit-2026-09-22-break-through-burst.json.
+- [x] Static validation: 452/452, no duplicate IDs; affected records remain synchronized.
+- [ ] Runtime/CI unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute live census and continue after Burst Reflection.
