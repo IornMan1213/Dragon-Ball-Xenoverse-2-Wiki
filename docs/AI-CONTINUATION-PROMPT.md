@@ -6723,3 +6723,13 @@ The repository owner has clarified the continuation contract:
 - Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 40 exactly-two-source records**, with canonical/index source parity for Final Flash (Super).
 - CI: inspect workflow runs for the latest repository commit; do not claim CI success unless GitHub exposes an actual run/check.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Final Flash (Super), checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 cycle update — Full Power Charge low-source provenance strengthening
+- Live pre-edit census: **452 canonical / 452 index / 40 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Full Power Charge (`skill-full-power-charge`)**.
+- Evidence: an independent Advancement Test page documents Full Power Charge as a Basic Reward of Advancement Test - Advanced Class in Xenoverse 2. citeturn0search10
+- Changes: added the source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
+- Evidence limits preserved: the existing Advanced Class acquisition endpoint remains unchanged and no Ultimate Finish requirement was inferred.
+- Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 39 exactly-two-source records**, with canonical/index source parity for Full Power Charge.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Full Power Charge, checking acquisition/reward semantics before provenance-only strengthening.**
