@@ -70,7 +70,7 @@ The name, classification, mechanical behavior, costs, and acquisition route have
 ## Primary acquisition channels
 
 1. **Mentor lessons** — signature Super and Ultimate attacks taught by instructors.
-2. **Parallel Quest rewards** — many rare Supers, Ultimates, Evasives and DLC skills are reward-table drops, often on Ultimate Finish.
+2. **Parallel Quest rewards** — many rare Supers, Ultimates, Evasives and DLC skills are associated with PQ reward data. An association must not be read as a guaranteed drop or as proof of an Ultimate-Finish trigger unless those fields are independently evidenced.
 3. **Expert Missions** — some special skills are tied to Expert Mission reward pools.
 4. **Skill Shop / TP Medal Shop / STP Medal Shop** — direct purchases and rotating availability.
 5. **Shenron wishes** — a limited group of exclusive skills.
