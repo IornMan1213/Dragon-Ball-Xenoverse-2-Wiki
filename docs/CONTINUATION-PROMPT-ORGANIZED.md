@@ -171,3 +171,11 @@
 - [x] Preserved PQ36 numbering conflicts as provenance/history rather than replacing the canonical player-facing record layer.
 - [x] No canonical relationship edges were changed.
 - [ ] Exact next task: search remaining PQ-facing consumers for stale canonical-count, farming-route, or external-corpus claims and repair deterministic presentation drift.
+
+### 2026-09-22 cycle update — remaining PQ numbering-consumer cleanup
+- [x] Searched the remaining PQ-facing metadata after the prior reference/index reconciliation for stale canonical-count, PQ36, legacy-100, and numbering-gap semantics.
+- [x] Reconciled deterministic stale metadata in `docs/data/pq-coverage.json`, `docs/data/pq-record-requirements.json`, `docs/data/completeness-rules.json`, `docs/data/pq-record-batches/pq-061-080-audit.json`, `docs/data/parallel-quest-research-batches/pq-batch-19-numbering-reconciliation.json`, `docs/data/pq-record-batches/pq-021-040-notes.md`, `docs/data/pq-record-batches/pq-021-040-source-conflicts.json`, `docs/data/pass-3-ready.md`, and `docs/Parallel-Quest-Walkthrough.md`.
+- [x] Canonical policy is now explicit in the affected consumers: **PQ1-PQ186 / 186 numbered player-facing records**, with PQ36 retained in the canonical layer. Older PQ36-cut/183-standalone interpretations remain historical provenance and cannot replace the canonical layer.
+- [x] Preserved historical entries rather than deleting them, in accordance with the exhaustive handoff/TODO rules.
+- [x] Re-read changed files from `main`; no canonical PQ relationship edge or identity was changed.
+- [ ] Exact next batch: continue the PQ-facing census beyond numbering metadata, targeting remaining stale **reward/acquisition/farming/navigation** claims in catalog/index/summary consumers. Prefer deterministic presentation drift only; do not promote source-dependent reward mechanics without canonical evidence.
