@@ -1003,21 +1003,22 @@
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://en.dragon-ball-official.com/news/01_2573",
         "https://dbxv2.fandom.com/wiki/Burning_Swan",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 167 — \"Fighting for Family\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 verification: Current acquisition reference identifies Burning Swan as a PQ167 reward; no exclusive Ultimate Finish condition is established by the cited evidence. 2026-09-19 source reconciliation: Steam's current all-PQ guide lists Burning Swan as a Basic Reward for PQ167 (Fighting for Family), while a dedicated skill page describes it as a random drop from that PQ. This confirms the PQ source but does not establish an Ultimate Finish-only gate. 2026-09-20 provenance refinement: maintained PQ167 data explicitly lists Burning Swan as a Basic Reward and separately records a 45% normal-clear reward condition; dedicated skill documentation describes it as a random PQ167 drop. The evidence supports a non-Ultimate-Finish acquisition, while exact random-slot semantics remain unresolved.",
-      "mechanics_notes": "Confirmed as Videl's 100-Ki Strike Super from Future Saga Chapter 1 PQ167. It performs a rapid series of acrobatic strikes; current evidence supports CaC usability. No narrower CaC race/gender/form restriction is established by the current evidence; restriction remains null rather than inferred from character association. Reviewed in the current null-race census; current character/Future Warrior evidence identifies source-character associations but does not establish a CaC race/gender/form restriction, so no narrower restriction is inferred. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition.",
+      "notes": "2026-09-22 provenance reconciliation: official Dragon Ball material confirms Burning Swan as Videl's Super Attack and describes its slow-moving, chargeable Ki Blast behavior. Dedicated Xenoverse 2/PQ documentation identifies PQ167 as the source, and the maintained PQ167 guide explicitly lists Burning Swan as a Basic Reward. A separate skill reference describes the acquisition as a random PQ167 drop; this does not establish a numeric probability or Ultimate Finish-only gate, so those remain unresolved.",
+      "mechanics_notes": "Current official Dragon Ball documentation identifies Burning Swan as Videl's Super Attack: a slowly moving Ki Blast whose charge increases movement speed and hit count. Dedicated Xenoverse 2 documentation confirms it is a 100-Ki Super and a PQ167 acquisition; the maintained PQ167 guide lists it under Basic Reward. Current evidence supports CaC usability, but no narrower CaC race/gender/form restriction is established beyond the repository's existing all-CaC-races projection.",
       "source_quest": 167,
       "source_quest_or_shop": "Parallel Quest 167 — \"Fighting for Family\"",
       "source_parallel_quests": [
         167
-      ]
+      ],
+      "character_source": "Videl"
     },
     {
       "id": "skill-burst-blitz",
