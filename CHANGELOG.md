@@ -1779,3 +1779,10 @@ Added/confirmed standalone reverse-index projections for PQ81-120, PQ121-142, an
 - [ ] Runtime/CI remains unavailable; validation was static direct-fetch JSON parsing and exact pair comparison.
 - [x] Commits: acquisition projection `6ff4b3eb2e39cd413917ad46e527d36e19727802`; reconciliation audit `52f0fc86d78277fa4648edebcca26975a8506bf0`.
 - [ ] Exact next batch: independently reconcile the **two PQ158 Super Soul pairs**, preserving the existing source spelling conflict, then PQ174/PQ178/PQ179.
+
+
+## 2026-09-22 — Requiem of Destruction provenance verification
+- Bounded P1 skill provenance audit for `skill-requiem-of-destruction`.
+- Verified the canonical and index records are already aligned: 300 Ki Ultimate/Ki Blast, PQ106 Basic Reward, Super Pack 2, All CaC races, and no Ultimate Finish requirement.
+- Independent maintained PQ guide and PQ106 gameplay evidence corroborate the Basic Reward endpoint. No drop probability was inferred.
+- No data-layer modification was necessary; this cycle records provenance verification and advances the persistent next-work pointer.
