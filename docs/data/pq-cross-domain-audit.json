@@ -496,5 +496,49 @@
       "pq_set_mismatches": 0
     },
     "note": "Earlier 862-edge endpoint/final-stable fields are preserved as historical records. This object is the authoritative current projection census after the duplicate PQ185/PQ186 DLC evidence merge."
+  },
+  "current_projection_report_census_2026_09_22": {
+    "date": "2026-09-22",
+    "source_of_truth": "docs/data/pq-reward-relationships.json",
+    "reports": {
+      "skills": {
+        "report": "docs/data/pq-skill-crosslink-report.json",
+        "forward_edges": 244,
+        "reverse_endpoints": 239,
+        "duplicate_keys": 0,
+        "invalid_pq": 0,
+        "unresolved": 0,
+        "orphan_reverse": 0
+      },
+      "super_souls": {
+        "report": "docs/data/pq-super-soul-crosslink-report.json",
+        "forward_edges": 151,
+        "reverse_endpoints": 148,
+        "duplicate_keys": 0,
+        "invalid_pq": 0,
+        "unresolved": 0,
+        "orphan_reverse": 0
+      },
+      "equipment": {
+        "report": "docs/data/pq-equipment-crosslink-report.json",
+        "forward_edges": 125,
+        "reverse_endpoints": 123,
+        "duplicate_keys": 0,
+        "invalid_pq": 0,
+        "unresolved": 0,
+        "orphan_reverse": 0
+      },
+      "accessories": {
+        "report": "docs/data/pq-accessory-crosslink-report.json",
+        "forward_edges": 28,
+        "reverse_endpoints": 28,
+        "duplicate_keys": 0,
+        "invalid_pq": 0,
+        "unresolved": 0,
+        "orphan_reverse": 0
+      }
+    },
+    "result": "clean_current_projection_reports",
+    "note": "Accessory report is a dedicated 28-edge accessory projection of the 125 canonical equipment-domain edges; clothing/equipment edges remain represented by the equipment report. No source-of-truth changes were required."
   }
 }
