@@ -810,3 +810,14 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] Commits: `1e80247f62b77a517ca1f7f82dd354f9cf37bab7`, `b99f389f8ac03eb4fe3caf8a2233f632cf04037a`.
 - [ ] Exact next batch: inspect the next registered PQ-facing search/landing consumer after the Character explorer consumer for duplicate structured pairs, one-way navigation, or stale hard-coded canonical counts.
+
+
+### 2026-09-22 cycle update — PQ explorer canonical DLC identity reconciliation
+- [x] Reconciled the published PQ explorer's displayed DLC labels with the canonical `pq_requires_dlc` relationship target instead of the legacy per-record `dlc_requirement` field.
+- [x] Hardened `scripts/validate_pq_explorer_reward_navigation.py` to validate canonical DLC identity uniqueness, IDs, exact relationship-pair uniqueness, and canonical-label consumption.
+- [x] Live canonical values remain: **86 PQ→DLC edges / 20 unique canonical DLC targets / 20 identity records / 0 unresolved targets / 0 duplicate identity names / 0 duplicate IDs / 0 duplicate PQ→DLC pairs**.
+- [x] Refreshed `docs/data/pq-explorer-reward-navigation-audit.json` to schema **1.2.0**.
+- [x] No PQ→DLC relationship or DLC identity was added, removed, renamed, or inferred.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `341ae3a77fa8c438061032f052318c0d23f12edb`, `cfd663d80d12c734d2e032f76a4836f9f9e831f3`, `fbc54443a0e52801b1e408ce359a4bd0140124ce`, `e19050eb728114da712d1bcb900abd07aa6ba675`.
+- [ ] Exact next batch: inspect the remaining registered local Search/DLC/equipment landing consumers for one-way navigation and stale duplicated canonical counts, continuing from the cross-domain registry rather than introducing new inferred relationships.
