@@ -1846,3 +1846,11 @@
 - Current identity-resolution status remains clean: 0 unresolved endpoints, 0 duplicate pairs, 0 invalid PQ IDs, with 2 explicit equipment conflicts and 6 DLC granularity mappings.
 - CI/runtime execution remains unavailable; no CI success claimed.
 - Exact next task: continue the non-PQ presentation/identity consumer census beyond scalar baselines, focusing on endpoint naming/display mappings and any consumer that could bypass the explicit alias/granularity bridge; make only independently evidenced deterministic repairs.
+
+
+### 2026-09-22 — Explicit bridge metadata validation hardening
+- [x] Audited the non-PQ presentation/identity consumer chain: cross-link contract → alias/granularity bridge → endpoint-navigation validator → generated navigation/identity reports.
+- [x] Confirmed the current canonical baseline remains **859 relationships / 124 equipment**, and stale 860/125 references found by repository search are historical audit material rather than current projection fields.
+- [x] Hardened `scripts/validate_pq_endpoint_navigation.py` so equipment conflict bridge records must carry a PQ ID, source label, explicit-conflict classification, at least two canonical targets, and evidence; DLC granularity records must carry a PQ range, source label, explicit deterministic-granularity classification, and canonical targets.
+- [x] Validator bridge failures are now included in the overall non-zero failure path instead of allowing structurally incomplete presentation mappings to appear clean.
+- [ ] Next gate: inspect the remaining registered presentation consumers and generated reports for field-level schema drift, then perform a full executable validation when repository runtime/CI execution is available.
