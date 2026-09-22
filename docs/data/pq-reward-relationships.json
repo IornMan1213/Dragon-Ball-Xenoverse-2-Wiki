@@ -6300,7 +6300,7 @@
     "super_soul": 151,
     "equipment": 125,
     "character": 247,
-    "dlc": 88,
+    "dlc": 86,
     "farming": 7
   },
   "last_reconciled_scope": "PQ 1-186 reward relationship index synchronized against current canonical cross-link reports; stale equipment endpoints removed and newly reconciled skill/Super Soul/equipment edges added. Canonical relationship reports remain the authoritative projection of canonical data.",
