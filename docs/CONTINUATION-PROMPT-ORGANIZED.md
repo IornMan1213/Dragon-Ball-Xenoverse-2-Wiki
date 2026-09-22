@@ -416,3 +416,10 @@
 - [x] Evidence boundary preserved: this validates producer/presentation identity and structural parity only; it does not establish complete preset numbering, loadouts, unlock routes, DLC ownership, or historical numbering.
 - [x] Commits: `c368209bd74663c5c0d3a755354ed9018db24e07`, `b764c3799bf8332b4254ee1bfff5cae2f22f20eb`.
 - [ ] Exact next batch: inspect character-facing Markdown/HTML consumers for hard-coded preset labels or alternate preset lists, then either route them through the canonical explorer/Search surface or record why they are intentionally separate evidence surfaces.
+
+
+### 2026-09-22 cycle update — equipment detail enrichment equip-031–040
+- [x] Enriched 10 equipment/accessory records with source-backed category and slot coverage while preserving unresolved reward/drop/stat mechanics.
+- [x] Added and registered `docs/data/equipment/equipment-031-040-detail-audit.json`.
+- [x] Live validation: 139 equipment records, 174 combined equipment/accessory records, 0 duplicate IDs, 125 equipment edges / 123 unique targets / 0 unresolved / 0 broken.
+- [ ] Exact next batch: enrich `equip-041`–`equip-050` with independently verified category/slot, restrictions/effects, and DLC provenance.
