@@ -1,8 +1,12 @@
 ## 2026-09-22 — Petrifying Spit low-source provenance strengthening
 - Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 20 exactly-two-source canonical records**.
-- Strengthened **Petrifying Spit (`skill-petrifying-spit`)** from two to three provenance sources using the Dragon Ball Wiki's **Stone Spit** entry, which independently identifies Xenoverse 2's Petrifying Spit as a Future Warrior reward from **Parallel Quest 114** and as one of Dabura's Super Skills.
-- Preserved the existing PQ114 Basic Reward endpoint, Extra Pack 1 provenance, CaC scope, 100-Ki record, and no-Ultimate-Finish semantics; no unsupported prerequisite or reward probability was added.
-- Canonical/index synchronization and post-write validation will be recorded in the persistent handoff.
+- Bounded batch: **Petrifying Spit (`skill-petrifying-spit`)**.
+- Evidence: Dragon Ball Wiki's **Stone Spit** entry independently confirms that Xenoverse 2 names the technique Petrifying Spit, makes it a Future Warrior reward from **Parallel Quest 114**, and identifies it as one of Dabura's Super Skills. citeturn1search1
+- Changes: added `https://dragonball.fandom.com/wiki/Stone_Spit` as a third provenance source to Petrifying Spit in both `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-22**.
+- Evidence limits preserved: no new drop probability, Ultimate Finish gate, or prerequisite was inferred; existing PQ114 Basic Reward and Extra Pack 1 semantics remain unchanged.
+- Validation after editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 19 exactly-two-source canonical records**; canonical/index source parity clean; no internal citation artifacts detected.
+- CI: no successful workflow/check was exposed for the resulting direct-commit chain.
+- Exact next batch: **Phantom Fist (`skill-phantom-fist`)**. Recompute the live two-source census first, then independently verify its acquisition/source endpoint before provenance-only strengthening.
 
 ## 2026-09-21 — Perfect Shot low-source provenance strengthening
 - Recomputed the live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 21 exactly-two-source canonical records**.
