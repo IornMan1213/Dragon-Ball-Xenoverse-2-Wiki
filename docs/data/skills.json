@@ -9030,7 +9030,8 @@
       "verification_status": "verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
-        "https://dbxv2.fandom.com/wiki/Phantom_Fist"
+        "https://dbxv2.fandom.com/wiki/Phantom_Fist",
+        "https://dragonball.fandom.com/wiki/Phantom_Fist"
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 97 — \"Insidious Plot\" Basic Reward",
@@ -9039,12 +9040,12 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "Parallel Quest 97 — \"Insidious Plot\"",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
       "source_quest": 97,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-19 PQ acquisition verification: current reward documentation confirms the skill is obtainable from PQ97; no Ultimate Finish-only condition is established for this record. 2026-09-19 deterministic acquisition verification: Parallel Quest 97. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki's Phantom Fist entry independently confirms Xenoverse 2 acquisition by the Future Warrior as a reward from Parallel Quest 97, while identifying Phantom Fist as a Super Skill; no new drop probability, Ultimate Finish gate, or prerequisite is inferred.",
       "id": "skill-phantom-fist",
       "source_parallel_quests": [
         97
