@@ -1436,3 +1436,13 @@
 - Validation: canonical skills 452; index skills 452; duplicate IDs 0; stale canonical records 366; all seven targets verified 2026-09-22; audited shared-field parity mismatches 0; audit registrations missing 0.
 - CI success was not claimed.
 - Next stale batch begins with skill-dancing-parapara, followed by adjacent stale D-series records; recompute the live census before editing.
+
+
+## 2026-09-22 — Charge-through-Counter provenance batch
+- Completed the next stale P1 skill batch: Charge, Charged Ki Wave, Circle Flash, Comet Strike, Confusion Blade, Core Breaker, and Counter Burst.
+- Refreshed canonical/index verification dates to 2026-09-22 and kept the two skill registries synchronized.
+- Added seven dedicated provenance audits under docs/data and registered all seven in pq-cross-domain-index.json.
+- Preserved evidence conflicts instead of silently normalizing them: Charged Ki Wave has conflicting historical reward-tier reporting; Circle Flash has Basic Reward vs current 40% Ultimate-Finish bonus-slot reporting; Charge has differing character presentation across sources. Core Breaker remains race-scope unresolved despite legacy canonical wording.
+- Validation: 452 canonical skills, 452 index skills, zero duplicate canonical IDs, seven targets verified on 2026-09-22, and bounded shared-field parity check passed with zero mismatches; all seven audit registrations resolve.
+- CI success was not claimed because repository CI/billing availability remains outside this cycle's control.
+- Next target: recompute the live stale census on main and continue with the next stale P1 skills after Counter Burst, batching adjacent records where evidence and validation remain bounded.
