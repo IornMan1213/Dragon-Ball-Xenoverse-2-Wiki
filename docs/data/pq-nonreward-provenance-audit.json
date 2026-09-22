@@ -27,9 +27,9 @@
       ]
     },
     "pq_requires_dlc": {
-      "edges": 88,
+      "edges": 86,
       "unique_pq": 86,
-      "unique_targets": 21,
+      "unique_targets": 20,
       "status_counts": {
         "source_backed": 88
       },
@@ -38,18 +38,18 @@
       "source_routes": [
         {
           "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-          "edges": 83,
-          "share": 0.9431818181818182
+          "edges": 81,
+          "share": 0.9418604651162791
         },
         {
           "source": "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content",
           "edges": 3,
-          "share": 0.03409090909090909
+          "share": 0.03488372093023256
         },
         {
           "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
           "edges": 2,
-          "share": 0.022727272727272728
+          "share": 0.023255813953488372
         }
       ]
     },
@@ -82,6 +82,12 @@
     "duplicate_pairs": 0,
     "inferred_edges_added": 0,
     "canonical_targets_overridden": 0,
-    "evidence_boundary": "These domains are already source-backed in the canonical relationship index. This batch records provenance concentration and explicit evidence boundaries; it does not promote source text into canonical truth or fabricate missing relationships."
+    "evidence_boundary": "These domains are already source-backed in the canonical relationship index. This batch records provenance concentration and explicit evidence boundaries; it does not promote source text into canonical truth or fabricate missing relationships.",
+    "dlc_live_census": {
+      "edges": 86,
+      "unique_pq": 86,
+      "unique_targets": 20,
+      "duplicate_pairs": 0
+    }
   }
 }
