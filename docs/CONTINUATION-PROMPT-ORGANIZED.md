@@ -1597,3 +1597,12 @@
 - [x] Validation target: canonical/index counts remain **452/452**, duplicate IDs remain **0**, and all ten selected records now carry the current verification date.
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; do not claim CI success.
 - [ ] Exact next batch: recompute the stale census and continue with the next alphabetical stale records after this refresh; do not assume the prior list remains unchanged.
+
+
+### 2026-09-22 cycle update — God Punisher through Headshot verification refresh
+- [x] Fresh live stale census selected the next ten alphabetical records: **God Punisher, God Splitter, Godly Chronos Cannon, Godly Display, Gorgeous Shot, Grand Smasher, Gravity Impact, Handy Canon, Hawk Charge, Headshot**.
+- [x] Refreshed canonical and index verification dates to `2026-09-22`; preserved existing acquisition/classification evidence, conflicts, and deferred mechanics boundaries without inventing drop rates, gates, or restrictions.
+- [x] Added `docs/data/skill-god-punisher-through-headshot-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Validation after writes: canonical/index parity target remains **452/452** with unique IDs preserved; selected batch is current.
+- [ ] CI/runtime remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census, then continue with the next alphabetical stale records rather than relying on historical counts.
