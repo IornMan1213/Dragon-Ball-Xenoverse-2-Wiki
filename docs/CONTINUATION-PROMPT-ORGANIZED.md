@@ -15400,3 +15400,6 @@ The throughput rules explicitly prefer one batch of 8–20 related records, one 
 The scope control rule emphasizes that the objective is a complete and reliable wiki, not an infinite sequence of micro-audits, so inventing work solely to increase commit count, splitting logically related batches into unnecessary commits, re-auditing already clean fields without new evidence, prioritizing low-impact third-source additions over missing domain layers, marking records verified merely because they have a source URL, treating a populated field as proof of correctness, or claiming CI success when no successful workflow/check is exposed are all prohibited.
 
 The directive to populate the live-state fields from the current repository and select the next batch using the operational override before making any repository edit in the next cycle is emphasized as immediate next-cycle requirement.
+
+### 2026-09-22 correction — Accessory batch handoff commit metadata
+- Correction to the immediately preceding handoff entry: audit commit is d596b78d57c28456dbc61438d745cf26dddc2a02. All other commit IDs in that entry are unchanged.
