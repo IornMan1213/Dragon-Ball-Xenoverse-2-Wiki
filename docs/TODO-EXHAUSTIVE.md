@@ -914,3 +914,16 @@
 - [ ] CI: no successful workflow/check exposed for this direct-commit chain; do not claim CI success.
 - [x] Commits: d210aeb5ce0e11db5d6a0501b731baca0dc090a8, db5d6b71e618ee28d089523d61331aca59a5d9e8, 1d81110d97e328ad9f99d3874305c89ac5d729d1, 3a276172456fbbdc0a45c5f308ceea6896f0c1d8.
 - [ ] Exact next batch: enrich equip-041–equip-050 with independently verified category/slot coverage, restrictions/effects, and DLC provenance; synchronize both equipment layers, preserve unresolved reward/drop semantics, and re-run canonical endpoint/relationship parity.
+
+
+### 2026-09-22 cycle update — equipment detail enrichment equip-041–050
+- [x] Live census before editing: 139 canonical equipment records and 174 combined equipment/accessory records; target batch was equip-041 through equip-050.
+- [x] Enriched all 10 records with explicit category and slot coverage: Kakunsa accessories, Rozie full clothing/accessory, Android 21 Lab Uniform upper-body-only, Universe 7 full uniform + cap, Universe 6 upper/lower/feet without hands, and Gine full clothing + accessory.
+- [x] Added explicit restrictions where supported, including Android 21 Lab Uniform being upper-body-only and Universe 6 Baseball Uniform lacking hands; preserved uncertainty rather than inventing mechanics.
+- [x] Added docs/data/equipment/equipment-041-050-detail-audit.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Evidence used: maintained DBXV2 Equipment catalog; Dragon Ball Wiki character/equipment documentation; GameFAQs evidence for Android 21 Lab Uniform and Universe 6 Baseball Uniform; Bandai Namco documentation for Gine clothing; maintained PQ guide for acquisition endpoints.
+- [x] Validation: 139 equipment records, 174 combined records, 0 duplicate IDs; all 10 batch records have category, slot coverage, PQ source, and DLC provenance. Canonical PQ equipment graph remains 125 forward edges / 123 unique targets, with all 10 batch names present as source-backed relationships and 0 unresolved/broken endpoints.
+- [x] Evidence boundary: no reward probability, guaranteed-drop claim, or unsupported combat/stat effect was promoted. Accessory records are cosmetic only where the item identity is explicitly an accessory.
+- [ ] CI: no successful workflow/check exposed; CI success not claimed.
+- [x] Commits: a553707af0aeb34bf155fb001f556ef6a676c6e4, 627f624049575b4aaae8a41f4facabba20ec61b3, a0c353cd69a62109927a0fe3a3fcdf2a3c4c9d81, bf93107a82e02082d4dbc696339f53292e12cddf, 319ccedb835c4452044c838382055137525b06bd.
+- [ ] Exact next batch: continue equipment enrichment with **equip-051–equip-060**, using the same two-layer synchronization, independent slot/category verification, and canonical PQ relationship parity checks.
