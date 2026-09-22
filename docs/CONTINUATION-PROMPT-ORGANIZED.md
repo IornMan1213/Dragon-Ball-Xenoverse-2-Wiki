@@ -163,3 +163,11 @@
 - [x] Direct PQ-page template inspection found **no individual PQ HTML/Markdown page template** in the repository; the maintained presentation consumer is `docs/Parallel-Quests-All.html` plus the general `docs/Parallel-Quests.md` reference page. No unsupported per-PQ route was invented.
 - [x] Evidence boundary preserved: the canonical DLC relationship layer determines PQ→DLC identity; the legacy `Super Pass` field remains historical/presentation metadata and is not promoted to a specific pack identity.
 - [ ] Exact next batch: audit the general PQ reference/index pages (`docs/Parallel-Quests.md`, `docs/Parallel-Quest-Audit.md`, and related PQ-facing docs) for stale reward/navigation claims and reconcile them against the canonical 186-record PQ layer without rewriting unsupported mechanics or acquisition semantics.
+
+
+### 2026-09-22 cycle update — PQ reference/index consumer reconciliation
+- [x] Reconciled the general PQ reference/index consumers against the canonical 860-edge relationship layer and 186-record PQ layer.
+- [x] Corrected PQ farming presentation to the canonical route set: PQ15, PQ22, PQ44, PQ45, PQ68, PQ83, PQ88.
+- [x] Preserved PQ36 numbering conflicts as provenance/history rather than replacing the canonical player-facing record layer.
+- [x] No canonical relationship edges were changed.
+- [ ] Exact next task: search remaining PQ-facing consumers for stale canonical-count, farming-route, or external-corpus claims and repair deterministic presentation drift.
