@@ -2753,3 +2753,14 @@
 - [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
 - [x] Commits: canonical a138827372e659f76f42ebfa07e7b899bcb5a5d5; index 23c77e418670413682ace6bd2765509fd321419f; audit 1887b3845d3ee386523a8f4f47d9447ff6f1617f; cross-domain registration 508fab5ae822c0035c59b14beb25d97fef2c42b3.
 - [ ] Exact next batch: **Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction, Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come**; recompute live census first.
+
+
+### 2026-09-22 cycle update — Supersonic Mode through The Savior Has Come provenance batch
+- [x] Fresh live census before editing: 452 canonical / 452 index / 0 duplicate IDs / 38 stale; refreshed the exact next ten: Supersonic Mode, Supreme Fury, Surging Spirit, Symphonic Destruction, Tail Slicer, Taunt, Teleporting Vanishing Ball, Temporal Holy Ray, The Power to Overcome, The Savior Has Come.
+- [x] Synchronized canonical/index verification dates and preserved existing acquisition/provenance semantics, including Dyspo-only Supersonic Mode, built-in Surging Spirit, PQ/mentor/tournament endpoints, and Future Saga progression.
+- [x] Added and registered docs/data/skill-supersonic-mode-through-the-savior-has-come-provenance-audit-2026-09-22.json.
+- [x] Preserved evidence boundaries: Supreme Fury's conflicting reward presentations, Teleporting Vanishing Ball's unresolved UF gate, and The Power to Overcome's conflicting measured values remain explicit.
+- [x] Post-edit validation: 452/452, 0 duplicate IDs, canonical/index parity true, 28 stale remain.
+- [ ] CI/runtime: no successful workflow/check exposed; no CI success claimed.
+- [x] Commits: canonical 893a0d482810082d6b4119bae4d49e2c8c9d6c3f; index 5f131fc0583eb094a60b2817d577166e9c37d861; audit 43ca04c477d51e95498ca3605eb845323c12d50f; cross-domain registration acd2777f4c01c7c1bfcab1ef21070dcceabbeb23.
+- [ ] Exact next batch: **Thunder Flash, Time Control, Time Skip/Back Breaker, Time Skip/Flash Skewer, Time Skip/Jump Spike, Time Skip/Tremor Pulse, Total Detonation Ball, Trap Shooter, Tri-Beam, Turn Golden**; recompute live census first.
