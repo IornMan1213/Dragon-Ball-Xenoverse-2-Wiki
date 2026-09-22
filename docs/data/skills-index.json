@@ -1,7 +1,7 @@
 {
   "schema_version": "1.2",
   "source_index": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "category_counts": {
     "Ki Blast Evasives": 15,
     "Other Supers": 36,
@@ -9351,13 +9351,14 @@
       "acquisition_type": "skill_shop",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Bullet",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dragonball.fandom.com/wiki/Time_Bullet"
       ],
       "unlock_method": "Skill Shop after defeating Kid Buu in the main story.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: the dedicated skill reference supports the Skill Shop route after defeating Kid Buu in the main story. The main-story gate is now represented separately from the shop source; no specific saga/chapter threshold is inferred.",
+      "notes": "2026-09-20 provenance refinement: the dedicated skill reference supports the Skill Shop route after defeating Kid Buu in the main story. The main-story gate is now represented separately from the shop source; no specific saga/chapter threshold is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates the Xenoverse 2 Skill Shop route after defeating Kid Buu. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred.",
       "mechanics_notes": "Current evidence identifies Time Bullet as a 100-Ki Other Super available to CaCs from the Skill Shop after the Decisive Battle with Majin Buu; this corrects the prior character-exclusive classification.",
       "source_quest": "Main story — defeat Kid Buu in the decisive battle with Majin Buu",
       "source_quest_or_shop": "Skill Shop (Conton City) after defeating Kid Buu in the main story"
@@ -9483,13 +9484,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Timespace_Impact",
-        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc"
+        "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+        "https://dragonball.fandom.com/wiki/Timespace_Impact"
       ],
       "unlock_method": "Conton City Tournament Match 5 — \"The Fated Finale\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Timespace Impact as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint.",
+      "notes": "2026-09-21 Free Update 11 completeness correction: official/current Free Update documentation identifies Timespace Impact as one of the nine skills introduced in Free Update 11; the canonical registry previously omitted this endpoint. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates the Xenoverse 2 Conton City Tournament Match 5 endpoint. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred.",
       "mechanics_notes": "Current skill evidence lists 500 Ki; the opening restraint prevents the target from flying away, enabling follow-up attacks.",
       "source_quest_or_shop": "Conton City Tournament Match 5"
     },
@@ -9638,13 +9640,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
-        "https://dbxv2.fandom.com/wiki/Category:Transformations"
+        "https://dbxv2.fandom.com/wiki/Category:Transformations",
+        "https://dragonball.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "unlock_method": "After the relevant story/unlock route makes Full Power Jiren available, clear the 'In Pursuit of Mastery' challenge against Jiren (Full Power) to receive Ultra Instinct.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior. 2026-09-20 provenance refinement: current unlock evidence identifies Full Power Jiren's 'In Pursuit of Mastery' challenge as the acquisition encounter; no Ultimate Finish gate is inferred.",
+      "notes": "Universal CaC Awoken Skill. Requires 500 Ki to activate but does not consume the Ki under current mechanics; auto-dodge consumes 100 Stamina per dodge. Update 1.22.00 changed the transformation behavior. 2026-09-20 provenance refinement: current unlock evidence identifies Full Power Jiren's 'In Pursuit of Mastery' challenge as the acquisition encounter; no Ultimate Finish gate is inferred. 2026-09-22 provenance strengthening: Dragon Ball Wiki independently corroborates the Future Warrior's Ultra Instinct awakening by battling Jiren (Full Power) in In Pursuit of Mastery. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred.",
       "mechanics_notes": "500 Ki required but not consumed after Update 1.22.00; no attack/defense/speed modifiers. Auto-dodge consumes 100 Stamina, successful dodge can be followed by a 100 Ki counter; guarding + Heavy Attack provides a built-in charge action; normal/charged Ki Blasts are replaced. Current acquisition evidence distinguishes this Awoken unlock from an Ultimate Finish gate.",
       "source_quest": "Jiren (Full Power) — In Pursuit of Mastery",
       "source_quest_or_shop": "Ultra Instinct unlock route"
@@ -9682,13 +9685,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage"
+        "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage",
+        "https://gamefaqs.gamespot.com/pc/229598-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/faqs/74285"
       ],
       "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" Basic Reward.",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "",
+      "notes": "2026-09-22 provenance strengthening: A maintained GameFAQs walkthrough independently lists Unrelenting Barrage in PQ10's reward table. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred.",
       "mechanics_notes": "300 Ki Strike Ultimate. PQ10 is the documented acquisition quest; exact drop gating remains under research. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Unrelenting Barrage. 2026-09-20 PQ reward-tier refinement: maintained PQ batch data lists this skill in the Basic Reward section; no Ultimate Finish gate is asserted.",
       "source_quest": 10,
       "source_quest_or_shop": "Parallel Quest 10 — \"Saiyan Survivors\""
@@ -9771,13 +9775,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/app/454650/discussions/0/564787571097573891/"
       ],
       "unlock_method": "Parallel Quest 186 — \"Time to Fight, Goku Black!\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim. 2026-09-21 provenance strengthening: Bandai Namco's July 8, 2026 official Future Saga Chapter 4 launch announcement independently confirms Chapter 4 includes Parallel Quests and additional moves; existing PQ186/Venus Fist acquisition semantics are unchanged.",
+      "notes": "2026-09-20 provenance cleanup: the maintained PQ reward guide explicitly places Venus Fist in PQ186's Basic Reward list. Older/secondary references have described a broader PQ185–186 reward pool; the canonical route follows the maintained explicit PQ186 listing while retaining no unsupported PQ185 claim. 2026-09-21 provenance strengthening: Bandai Namco's July 8, 2026 official Future Saga Chapter 4 launch announcement independently confirms Chapter 4 includes Parallel Quests and additional moves; existing PQ186/Venus Fist acquisition semantics are unchanged. 2026-09-22 provenance strengthening: An independent Steam discussion corroborates Venus Fist as the move from PQ186 without establishing a drop rate. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred.",
       "mechanics_notes": "500 Ki Strike Ultimate from the Future Saga Chapter 4 PQ reward pool. Exact drop/follow-up behavior remains under research. UF audit 2026-09-19: the maintained PQ guide places this skill in the quest's Basic Reward list, separate from the listed Ultimate Finish conditions. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Venus Fist. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Basic Reward route; the recorded condition is preserved without inference beyond the maintained corpus.",
       "source_quest": 186,
       "source_quest_or_shop": "Parallel Quest 186 — Basic Reward"
@@ -9814,13 +9819,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Strike_Ultimates",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74526115"
       ],
       "unlock_method": "Parallel Quest 89 — \"Super-Super Ultimate Series of Battles!\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 provenance strengthening: A GameFAQs discussion independently identifies Victory Rush as a PQ89 drop. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred.",
       "mechanics_notes": "300 Ki Strike Ultimate. Parallel Quest 89 is the documented acquisition quest. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current reward data explicitly confirms the documented acquisition route for Victory Rush.",
       "source_quest": 89,
       "source_quest_or_shop": "Parallel Quest 89 — \"Super-Super Ultimate Series of Battles!\""
