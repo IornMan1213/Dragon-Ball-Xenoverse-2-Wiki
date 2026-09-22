@@ -345,3 +345,11 @@
 - [x] Existing repository pair audits remain 0 missing / 0 extra for PQ81-186 typed relationships.
 - [ ] Runtime execution of generator/validator in a repository-capable environment and recording the full output.
 - [ ] Only after runtime validation: assess deterministic unified reverse-index generation without overwriting partial/research-layer semantics.
+
+
+### 2026-09-22 — PQ reverse-index generator schema compatibility
+- [x] Audited live standalone reverse-index schema variants before generation automation.
+- [x] Corrected generator compatibility for the legacy PQ121-142 top-level-domain schema while preserving newer nested-`indexes` schemas.
+- [x] Confirmed generator writes only projection fields and does not migrate schemas or modify canonical relationships.
+- [ ] Complete schema-aware dry-run/runtime comparison of all four standalone reverse indexes against normalized source maps.
+- [ ] Only after that validation, evaluate unified reverse-index generation support.
