@@ -3768,13 +3768,14 @@
       "acquisition_type": "character_only",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Charge",
-        "https://dragonball.fandom.com/wiki/Full_Power_Charge"
+        "https://dragonball.fandom.com/wiki/Full_Power_Charge",
+        "https://as.com/meristation/2019/07/11/noticias/1562818133_637511.html"
       ],
       "unlock_method": "Character-exclusive to Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "Character-only",
-      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Final Charge as a Super Saiyan Blue Evolved Vegeta character-exclusive skill; it is not a separately acquirable CaC skill. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict.",
+      "notes": "2026-09-20 roster-status refinement: maintained skill references classify Final Charge as a Super Saiyan Blue Evolved Vegeta character-exclusive skill; it is not a separately acquirable CaC skill. 2026-09-21 Ultra Pack 1 provenance audit: official Bandai Namco documentation identifies Ultra Pack 1 as containing 10 additional skills and five Parallel Quests (PQ133–137); the maintained all-PQ guide independently maps the ten player-acquirable skills to those quests. Character-only Final Charge and Final Flash (Super) are retained under Ultra Pack 1 because current technique documentation identifies them as Ultra Pack 1 character-exclusive skills; they are distinct from the ten Future Warrior-acquirable skills listed for the pack. This pass verifies DLC provenance only and does not infer reward-slot semantics where sources conflict. 2026-09-21 low-source provenance strengthening: MeriStation's July 2019 Ultra Pack 1 coverage independently identifies Final Charge among SSGSS Evolved Vegeta's skills and places the character in Ultra Pack 1. It corroborates DLC provenance and character ownership; no CaC acquisition route or reward semantics are inferred.",
       "mechanics_notes": "Character-exclusive charge skill for Super Saiyan God Super Saiyan (Evolved) Vegeta; unavailable to CaCs. Current evidence confirms the skill is character/boss-only or otherwise not acquired by CaCs; no Ultimate Finish acquisition gate is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable.",
       "source_quest_or_shop": "Character-exclusive"
     },
