@@ -998,3 +998,15 @@
 - [x] Updated pq-endpoint-alias-granularity-map.json current baseline from 860 to 859 while preserving the two explicit equipment naming conflicts and six DLC granularity mappings.
 - [x] No equip-141 through equip-150 records exist in the live legacy equipment layer; maximum legacy ID remains equip-140, so no nonexistent records were invented.
 - [ ] Exact next task: fresh census, then audit the remaining registered cross-domain presentation/identity consumers for stale 859/124 baselines; after that, use the alias/granularity bridge to resolve only independently evidenced equipment naming conflicts.
+
+
+### 2026-09-22 cycle update — registered non-PQ consumer baseline census
+- [x] Completed a fresh static direct-fetch census of the registered non-PQ presentation/identity consumers after the 859/124 correction chain.
+- [x] Audited 16 registered consumer/projection artifacts spanning producer census, endpoint identity/navigation, presentation reverse indexes, PQ explorer/reference consumers, skill/Super Soul acquisition projections, Search, standalone/unified reverse indexes, alias/granularity metadata, and mixed historical/current cross-domain audit/status layers.
+- [x] Confirmed the authoritative current baseline remains **859 unique relationships = 244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming**; equipment projection remains **124 forward / 122 unique reverse endpoints**.
+- [x] Found **0 deterministic current 860/862/125/123 scalar mismatches** in the audited consumer set. Historical snapshots remain intentionally preserved and are excluded from current-state interpretation.
+- [x] Added `docs/data/pq-non-pq-consumer-census-2026-09-22.json` and `scripts/validate_pq_non_pq_consumer_census.py`, and registered both in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the two explicit equipment naming conflicts and six DLC granularity mappings; no canonical relationship or identity was changed.
+- [x] Super Soul acquisition projection still has its documented 13 reconciliation findings (11 exact missing pairs + 2 capitalization variants); these remain a research/projection queue rather than baseline drift.
+- [ ] Runtime/CI execution remains unavailable; this cycle claims static direct-fetch/structural inspection only, not executable validation.
+- [ ] Exact next task: return to the **P1 skill provenance queue at Prominence Flash (`skill-prominence-flash`)**, recompute the live two-source census first, independently verify its acquisition/source endpoint, and make provenance-only changes within the existing canonical relationship contract.
