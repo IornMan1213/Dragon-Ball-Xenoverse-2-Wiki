@@ -1,7 +1,8 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "scope": "PQ explorer reward-domain navigation",
   "canonical_sources": [
+    "docs/data/pq-reward-relationships.json",
     "docs/data/pq-skill-crosslink-report.json",
     "docs/data/pq-super-soul-crosslink-report.json",
     "docs/data/pq-equipment-crosslink-report.json",
@@ -33,30 +34,40 @@
     "skill_targets_resolve": true,
     "soul_targets_resolve": true,
     "equipment_targets_resolve": true,
-    "dlc_targets_resolve": true
+    "dlc_targets_resolve": true,
+    "skill_pair_parity": true,
+    "soul_pair_parity": true,
+    "equipment_pair_parity": true,
+    "no_duplicate_structured_skill_pairs": true,
+    "no_duplicate_structured_soul_pairs": true,
+    "no_duplicate_structured_equipment_pairs": true
   },
   "status": "clean",
-  "evidence_boundary": "Canonical PQ reward and DLC identity layers are authoritative. The explorer uses pq_requires_dlc relationships rather than the broader 'Super Pass' presentation field; local Search/overview destinations do not imply dedicated per-record pages.",
+  "evidence_boundary": "Canonical PQ reward and DLC identity layers are authoritative. The explorer uses canonical PQ reward relationships and pq_requires_dlc relationships; this audit now checks exact (PQ,target) parity for the structured reward crosslink reports, target identity resolution, and HTML link construction. Search/landing-page destinations do not imply dedicated per-record pages.",
   "date": "2026-09-22",
   "validator": "scripts/validate_pq_explorer_reward_navigation.py",
+  "validator_commit": "00dfd24c3d9c5f8f4fbc8261a261c152211cf69b",
   "structured_reward_consumer_parity": {
     "skills": {
       "canonical": 244,
       "structured": 244,
       "missing": 0,
-      "extra": 0
+      "extra": 0,
+      "duplicate_pairs": 0
     },
     "super_souls": {
       "canonical": 151,
       "structured": 151,
       "missing": 0,
-      "extra": 0
+      "extra": 0,
+      "duplicate_pairs": 0
     },
     "equipment": {
       "canonical": 125,
       "structured": 125,
       "missing": 0,
-      "extra": 0
+      "extra": 0,
+      "duplicate_pairs": 0
     }
   }
 }
