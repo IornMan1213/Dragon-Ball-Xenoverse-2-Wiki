@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "PQ explorer reward-domain navigation",
+  "canonical_sources": [
+    "docs/data/pq-skill-crosslink-report.json",
+    "docs/data/pq-super-soul-crosslink-report.json",
+    "docs/data/pq-equipment-crosslink-report.json",
+    "docs/data/skills.json",
+    "docs/data/super-souls-record-layer.json",
+    "docs/data/equipment-accessories-record-layer.json"
+  ],
+  "consumer": "docs/Parallel-Quests-All.html",
+  "counts": {
+    "skills": 244,
+    "super_souls": 151,
+    "equipment": 125
+  },
+  "unresolved_canonical_targets": {
+    "skills": [],
+    "souls": [],
+    "equipment": []
+  },
+  "checks": {
+    "skill_explorer_query_support": true,
+    "pq_skill_links_use_skill_explorer": true,
+    "pq_soul_links_present": true,
+    "pq_equipment_links_present": true,
+    "pq_dlc_links_present": true,
+    "skill_targets_resolve": true,
+    "soul_targets_resolve": true,
+    "equipment_targets_resolve": true
+  },
+  "status": "clean",
+  "evidence_boundary": "Canonical target identity and link construction are clean. Soul/equipment/DLC destinations currently use local search/overview navigation where no dedicated record explorer is present; this does not imply dedicated per-record pages."
+}
