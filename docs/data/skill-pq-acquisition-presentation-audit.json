@@ -1,0 +1,43 @@
+{
+  "audit_version": "1.0",
+  "date": "2026-09-22",
+  "scope": "PQ-facing skill acquisition summary consumers",
+  "canonical_authority": "docs/data/pq-reward-relationships.json",
+  "research_authority": "docs/data/parallel-quest-skill-acquisition-model.json",
+  "audited_files": [
+    "docs/Skill-Unlock-Methods.md",
+    "docs/Skills-Database.md",
+    "docs/Skills-Complete-Database.md"
+  ],
+  "findings": [
+    {
+      "file": "docs/Skill-Unlock-Methods.md",
+      "status": "repaired",
+      "issue": "Generic mentor/PQ wording could be read as establishing reward mechanics from a broad method description.",
+      "resolution": "Mentor rewards are described as lesson-specific; PQ associations are explicitly separated from Ultimate Finish, trigger, guarantee, enemy, and drop-rate evidence."
+    },
+    {
+      "file": "docs/Skills-Database.md",
+      "status": "repaired",
+      "issue": "PQ reward summary did not explicitly separate canonical association from reward mechanics.",
+      "resolution": "Added canonical acquisition boundary and required independent evidence for trigger, Ultimate Finish, guarantee, enemy source, and numerical drop rate."
+    },
+    {
+      "file": "docs/Skills-Complete-Database.md",
+      "status": "repaired",
+      "issue": "PQ rewards were described as reward-table drops, often on Ultimate Finish, without an explicit evidence boundary.",
+      "resolution": "Changed summary to canonical association wording and explicitly requires independent evidence before asserting a guaranteed drop or Ultimate Finish trigger."
+    }
+  ],
+  "canonical_relationship_baseline": {
+    "total_edges": 860,
+    "pq_rewards_skill_edges": 244
+  },
+  "rules_preserved": [
+    "Canonical relationship data remains the source of truth for PQ-to-skill identity/association.",
+    "Research fields such as ultimate_finish_required, trigger_scope, guarantee_status, and drop_rate are evidence metadata and cannot override canonical identities/edges.",
+    "Historical/research-batch evidence was not deleted or rewritten merely because it contains unresolved or conflicting claims.",
+    "No canonical relationship edge or skill identity was added, removed, or renamed."
+  ],
+  "validation": "Changed files were fetched from main after each write; replacement targets were verified before mutation. No CI success is claimed."
+}
