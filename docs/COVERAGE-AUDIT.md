@@ -1139,3 +1139,12 @@
 - Preserved the existing PQ61 acquisition endpoint, Basic Reward semantics, 0-Ki Power Up classification, CaC availability, and 20-second duration; no unsupported drop probability or Ultimate Finish gate was inferred.
 - Synchronized canonical/index source projections and refreshed `last_verified` to **2026-09-21**.
 - Post-write live target: **44 exactly-two-source records**.
+
+
+## 2026-09-21 — Fighting Pose K low-source provenance strengthening
+- Recomputed the live skill census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable `ki_cost` / 43 exactly-two-source records**.
+- Strengthened **Fighting Pose K (`skill-fighting-pose-k`)** from two to three provenance sources with an independent community discussion corroborating Skill Shop / Parallel Quest availability.
+- Preserved the existing exact endpoint: Story — **The Ginyu Force Strikes** unlocks the Skill Shop listing, then Fighting Pose K is purchased there.
+- The added source does not independently establish the exact story-trigger wording, so no acquisition semantics were broadened or rewritten.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
+- Post-write live target: **42 exactly-two-source records**.
