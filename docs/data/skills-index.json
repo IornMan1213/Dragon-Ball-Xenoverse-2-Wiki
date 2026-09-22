@@ -4416,7 +4416,8 @@
       "acquisition_type": "skill_shop_or_expert_mission",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Giant_Storm",
-        "https://dbxv2.fandom.com/wiki/Mentors"
+        "https://dbxv2.fandom.com/wiki/Mentors",
+        "https://dragonball.fandom.com/wiki/Volcano_Explosion"
       ],
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": false,
