@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Current canonical relationship baseline is 860 unique edges (244 skill / 151 Super Soul / 125 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840 counts remain preserved only in dated audit/history fields; repair deterministic projection drift before new provenance research.",
+  "next_completion_gate": "Current canonical relationship baseline is 859 unique edges (244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840/860 counts remain preserved only in dated audit/history fields; repair deterministic projection drift before new provenance research.",
   "current_counts": {
     "skill": 244,
     "super_soul": 151,
@@ -495,7 +495,7 @@
       "orphan": 0,
       "pq_set_mismatches": 0
     },
-    "note": "Earlier 862-edge endpoint/final-stable fields are preserved as historical records. This object is the authoritative current projection census after the duplicate PQ185/PQ186 DLC evidence merge."
+    "note": "Earlier 862/840/860-edge fields are preserved as historical records. This object is the authoritative current projection census after removal of the false PQ99 equipment relationship for Mr. Shape Up L."
   },
   "current_projection_report_census_2026_09_22": {
     "date": "2026-09-22",
