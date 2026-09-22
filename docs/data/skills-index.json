@@ -7525,13 +7525,14 @@
       "acquisition_type": "quest_or_mission",
       "sources": [
         "https://dragonball.fandom.com/wiki/Rise_to_Action",
-        "https://dbxv2.fandom.com/wiki/Rise_to_Action"
+        "https://dbxv2.fandom.com/wiki/Rise_to_Action",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-krillin-mentor-quest-guide/"
       ],
       "unlock_method": "Krillin's Initiation Test — complete the instructor lesson to receive Rise to Action as the Basic Reward.",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred.",
+      "notes": "2026-09-19 deterministic acquisition verification: Krillin initiation/mentor. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 provenance strengthening: Twinfinite's Krillin mentor guide independently corroborates Rise to Action as the first Krillin mentor reward and describes the mentor lesson endpoint; its stamina-restoration description is consistent with the repository's existing mechanics scope. No unsupported reward probability or additional prerequisite is inferred.",
       "mechanics_notes": "Confirmed as Krillin's 100-Ki mentor Super usable by all CaC races. The user slaps their cheeks to restore Stamina. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-krillin added for the documented mentor-training acquisition route.",
       "source_quest": "Krillin mentor training — Initiation Test",
       "source_quest_or_shop": "Krillin mentor training — Initiation Test"
