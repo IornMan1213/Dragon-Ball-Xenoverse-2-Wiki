@@ -21,7 +21,7 @@ The Parallel Quest accessory research layer connects individual accessories to t
 
 ## Current research population
 
-The machine-readable layer now contains **45 accessory/PQ research records**. The canonical accessory identity layer now contains **58 `acc-###` records**, with **16 PQ→accessory identity matches** and **29 research identities still unresolved**. Eight early/base-game identities were promoted or normalized in the latest reconciliation pass; the remaining research leads stay unresolved where inventory-level evidence is insufficient. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
+The machine-readable layer contains **45 accessory/PQ research records**. The canonical accessory identity layer now contains **64 `acc-###` records**, with **22 PQ→accessory identity matches** and **23 research identities still unresolved**. Eight early/base-game identities were promoted or normalized in the latest reconciliation pass; the remaining research leads stay unresolved where inventory-level evidence is insufficient. Some records are deliberately `indexed` rather than `partially_verified` where the evidence establishes a research lead but not the exact inventory component.
 
 | Accessory / research item | PQ | State |
 |---|---:|---|
@@ -117,6 +117,10 @@ Historical sources disagree on its PQ association. The current record retains th
 
 PQ25 is the current mapping used by the research layer, but older inventories can differ in numbering or presentation. It remains partially verified until that historical discrepancy is resolved.
 
+### Yamcha's Baseball Hat
+
+The canonical identity is `acc-062`. PQ97 is independently documented as the acquisition route; the older `equip-120` endpoint has been normalized to the canonical accessory ID.
+
 ### SSGSS Goku Wig
 
 The canonical identity is `acc-058`. Independent evidence supports PQ76, while legacy equipment/normalized data records PQ66; both routes are preserved in the canonical record until version-specific evidence resolves the discrepancy.
@@ -124,6 +128,26 @@ The canonical identity is `acc-058`. Independent evidence supports PQ76, while l
 ### Canonical identity reconciliation
 
 The canonical source of truth is `docs/data/equipment-accessories-record-layer.json`. The PQ bridge and cross-link report use its `acc-###` IDs. Four older equipment endpoints (`equip-071`, `equip-081`, `equip-083`, and `equip-091`) were normalized to canonical accessory IDs instead of creating duplicate identities. Verification status and research evidence remain supporting metadata, not competing sources of truth.
+
+### SSGSS Vegeta Wig
+
+The canonical identity is `acc-063`. PQ100 is independently documented as the acquisition route; the older `equip-123` endpoint has been normalized to the canonical accessory ID.
+
+### SS4 Wig & Tail (Goku)
+
+The canonical identity is `acc-064`. PQ110 is independently documented as the acquisition route, with current research indicating the Ultimate Finish reward condition; the older `equip-133` endpoint has been normalized.
+
+### Bulma (Kid) Wig
+
+The canonical identity is `acc-059`. PQ149 is independently documented as the acquisition route; the older `equip-057` endpoint has been normalized.
+
+### Red Ribbon Army Helmet
+
+The canonical identity is `acc-060`. PQ160 is independently documented as the acquisition route; the older `equip-066` endpoint has been normalized.
+
+### Gohan (Beast) Wig
+
+The canonical identity is `acc-061`. PQ162 is independently documented as the acquisition route; the older `equip-069` endpoint has been normalized.
 
 ### TP/STP overlap
 
