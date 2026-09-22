@@ -1908,3 +1908,16 @@
 - [ ] Runtime/CI execution remains unavailable.
 - [x] Commits: canonical `1e50889fea89027eaca0f3739a21cfa39a29f778`; index `cfa120a20fb92164a31cef241b2e39959e2975c6`; audit `4392aff7f67fb7b5558c355911cfe9b41818bcb4`; registry `44c0f5a37584f336518986145fd56f90392858da`.
 - [ ] Exact next batch: recompute the live census and continue with `skill-bluff-kamehameha`.
+
+
+### 2026-09-22 cycle update — Bluff Kamehameha provenance verification
+- [x] Fresh live skill census: **452 canonical / 452 index / 0 duplicate IDs / 391 stale before edit**; bounded record: `skill-bluff-kamehameha`.
+- [x] Independent evidence confirms **Bluff Kamehameha** as a **100-Ki Super** with **PQ94 — “Ultimate Power, Ultimate Saiyan”** acquisition; the maintained PQ reward guide lists Bluff Kamehameha in PQ94 rewards. Dedicated Xenoverse 2 documentation presents it under **Other Supers** and describes its chargeable Ki-drain behavior. citeturn2search1turn3search0turn2search0
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** and added current dedicated provenance sources.
+- [x] Preserved the existing canonical **Ki Blast** classification, All-CaC-races restriction, PQ94 Basic Reward semantics, and no-Ultimate-Finish-only meaning. The current Other-category presentation is recorded as a taxonomy/source conflict rather than silently normalized in a provenance-only pass.
+- [x] Evidence boundary preserved: reward listings establish availability but do not establish an individual drop probability; character/source presentation differences were not promoted into a new identity assertion.
+- [x] Added `docs/data/skill-bluff-kamehameha-provenance-audit-2026-09-22.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Static validation after writes: **452/452** records, **0 duplicate IDs**, **390 stale remaining**, affected canonical/index semantic parity preserved.
+- [ ] Runtime/CI execution remains unavailable; no executable CI success claimed.
+- [x] Commits: canonical `311c6952c780c4830b541e443156d6df10a2c2b1` / source cleanup `172e38cc0e2771ee73482e9c8f79da327835b2af`; index `4b5e1752e7ff7000998084e50e3d53b1e459728f` / source cleanup `117913c1ba1d0d714716c7269a618b7a25a0ea7f`; audit `3455db649a20464cb17f577dab8a6c24b94ab6d5`; registry `b9b471aa4bfe59f149bc4f972d3bb7aeac1e59c0`.
+- [ ] Exact next batch: recompute the live census and continue the stale-`last_verified` P1 skill provenance queue with **Breaker Energy Wave (`skill-breaker-energy-wave`)**, preserving acquisition conflicts and projection semantics.
