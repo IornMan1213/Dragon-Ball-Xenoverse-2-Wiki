@@ -494,7 +494,7 @@
       "source_quest": "Main story — completion unlocks the Skill Shop listing",
       "id": "skill-bending-kamehameha"
     },
-    {
+        {
       "name": "Big Bang Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -502,7 +502,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://xvguide.neocities.org/Skill",
-        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/"
+        "https://www.reddit.com/r/dbxv/comments/xenoverse2_tp_medal_shop_rotation/",
+        "https://dbxv2.fandom.com/wiki/Big_Bang_Kamehameha"
       ],
       "ki_cost": 100,
       "unlock_method": "TP Medal Shop purchase",
@@ -510,13 +511,13 @@
       "skill_description": "Ki Blast Super Skill associated with Vegeta that fires a large beam after charging.",
       "mechanics_notes": "Dedicated current-version evidence confirms Big Bang Kamehameha as a 100-Ki Ki Blast Super from the TP Medal Shop. Full charge can trigger the Saiyan CaC warp behavior when a Super Saiyan transformation is equipped; existing all-CaC-races restriction is retained.",
       "research_status": "enriched",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-22",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-19 acquisition verification: TP Medal Shop purchase. Current reference material explicitly lists Big Bang Kamehameha in the TP Medal Shop rotation.",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Big Bang Kamehameha as a 100-Ki Ki Blast Super acquired from the TP Medal Shop. It documents chargeable beam behavior, 9–15 hits, knockback, and a Super Saiyan warp interaction for Saiyan CaCs. The current record's TP Medal Shop acquisition is retained without adding an unsupported shop rotation/date claim.",
       "id": "skill-big-bang-kamehameha"
     },
     {
