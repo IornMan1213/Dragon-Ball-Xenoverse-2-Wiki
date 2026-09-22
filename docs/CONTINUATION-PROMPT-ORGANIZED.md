@@ -1667,3 +1667,15 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
 - [x] Commits: canonical ae715e0ff1a6b556849a1bc2d7f04a48afb78b87; index d1c61d76554b240be581063b01ad6bc8b5217f3f; audit 1d1facc3a03c00679fc2dea6ba7a1bd71c27534e; cross-domain registration 16fdb0cb080dcc3953e0c6103c1800ba6e6acff5.
 - [ ] Exact next batch: **Meditation, Menacing Flare, Meteor Blow, Meteor Burst, Meteor Crash, Meteor Explosion, Meteor Strike, Mighty Explosive Wave, Milky Cannon, Mystic Flash**; recompute the live stale census before editing and continue with the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Meditation through Mystic Flash provenance batch
+- [x] Fresh live stale census before editing: 452 canonical skills / 452 index records / 0 duplicate IDs / 158 stale; exact first ten stale records were **Meditation, Menacing Flare, Meteor Blow, Meteor Burst, Meteor Crash, Meteor Explosion, Meteor Strike, Mighty Explosive Wave, Milky Cannon, Mystic Flash**.
+- [x] Refreshed all ten canonical records in docs/data/skills.json and synchronized the corresponding index projections in docs/data/skills-index.json to last_verified: 2026-09-22.
+- [x] Expanded bounded mechanics/provenance for PQ122/PQ9/PQ12/PQ149/PQ6/PQ79/PQ20 plus TP Medal Shop and Turles/Captain Ginyu mentor endpoints. Preserved unresolved reward probabilities and conflicting community claims rather than forcing unsupported gates.
+- [x] Clarified distinct skill variants: Mighty Explosive Wave's equipable 100-Ki Super is kept separate from Jiren (Full Power)'s Evasive variation; Meteor Burst remains the Turles mentor Ultimate; Meditation remains the PQ122 Power-Up Super.
+- [x] Added and registered docs/data/skill-meditation-through-mystic-flash-provenance-audit-2026-09-22.json.
+- [x] Final validation: 452/452 canonical/index, 0 duplicate IDs, ID sets match, 10/10 selected records current, 148 stale canonical records remain.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; no CI success claimed.
+- [x] Commits: canonical a681187ae288ae4758c0d08bf2b86867f2d21790; index 630795667471ca9d9c8e877b88ae6f03825e68ae; audit 7aa25e563a6b9ce95a20bfc0b184a8037f7913d5; cross-domain registration 527bb458631c14749237f90f7af1407218097583.
+- [ ] Exact next batch: **Namek Finger, Neo Tri-Beam, Neo Wolf Fang Fist, One-Handed Kamehameha mk.II, Orin Combo, Paralysis, Paralyze Beam, Pendulum Bullet, Perfect Kamehameha, Perfect Shot**; recompute the live stale census before editing and continue with the same bounded provenance policy.
