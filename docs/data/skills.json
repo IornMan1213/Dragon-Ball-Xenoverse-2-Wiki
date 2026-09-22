@@ -123,12 +123,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Cell (Perfect) mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred.",
-      "last_verified": "2026-09-21",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
       "source_quest": "Cell (Perfect) mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 independent provenance check: the maintained instructor-quest guide lists All Clear as Cell's Initiation Test Basic Reward; the dedicated All Clear reference states it is obtained from training with Cell (Perfect), and the mentor roster independently lists All Clear among Cell's rewards. No quest/PQ acquisition or Ultimate Finish gate is inferred.",
       "id": "skill-all-clear",
       "source_mentor": [
         "mentor-cell"
