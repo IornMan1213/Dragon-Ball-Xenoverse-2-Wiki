@@ -1642,3 +1642,15 @@
 - [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; do not claim CI success.
 - [x] Commits: `5bd60f04eaf8d96862bfb8671299e2396f8299c8`, `e5f46b756c25cc172a8d45ba90d3c51d1b0ebb7d`, `15b082ca7a910b14b2f492036f306d9fa265bc7a`, `da126b2e3e92dfc11b17c3d9bdc9588da4c84ffe`.
 - [ ] Exact next batch: **Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, Light Grenade**; recompute the live stale census before editing and preserve the same bounded provenance policy.
+
+
+### 2026-09-22 cycle update — Kai Kai through Light Grenade provenance batch
+- [x] Fresh live stale census before editing: **452 canonical skills / 452 index records / 0 duplicate IDs / 178 stale**; the first ten alphabetical stale records were **Kai Kai, Kaioken, Kaioken Kamehameha, Kairos Cannon, Kamehameha, Ki Blast Thrust, Ki Explosion, Kill Driver, Last Emperor, and Light Grenade**.
+- [x] Refreshed all ten canonical records in `docs/data/skills.json` and synchronized their index projections in `docs/data/skills-index.json` to `last_verified: 2026-09-22`.
+- [x] Expanded bounded mechanics/provenance for the batch: Kai Kai teleportation; Kaioken x1/x3/x20 thresholds and stamina drain; Kaioken Kamehameha's 200-Ki/22-hit identity; Kairos Cannon's delayed/manual projectile behavior and Holy Inscription scaling; Kamehameha's three charge levels; Ki Blast Thrust's 100-Ki mentor endpoint; Ki Explosion's hold-to-extend behavior; Kill Driver's 100-Ki mentor endpoint; Last Emperor's 0-Ki low-health one-use restriction; and Light Grenade's 100-Ki mentor endpoint.
+- [x] Deterministic correction: **Kamehameha** `source_parallel_quests` is now **[5]** only. PQ48 rewards the distinct **Kamekameha** skill; the prior PQ48 reverse reference was stale even though the canonical note already described the distinction.
+- [x] Final live validation: **452/452 canonical/index records**, **0 duplicate IDs**, **0 canonical↔index ID-set mismatches**, **10/10 selected records current**, **168 stale canonical records remaining**.
+- [x] Finalized and registered `docs/data/skill-kai-through-light-grenade-provenance-audit-2026-09-22.json`; the audit preserves independent evidence and explicit limits rather than promoting unsupported probabilities or gates.
+- [ ] CI/runtime: no successful workflow/check is exposed for this direct-commit chain; do not claim CI success.
+- [x] Commits: canonical `214dfb8d53ad3838ea254815b9d30b536e112719`; index `5db843c42dd62471afdc163da2461213cfe9a811`; audit `7117f8e6360b1f265258b69e4abfdc4b4d78561a`; cross-domain registration `1880a5bff250603b65e4ae82060c3646a28cf247`.
+- [ ] Exact next batch: **Lightning Impact, Lightning of Absolution, Lovely Cyclone, Mach Dash, Mach Punch, Maiden Blast, Maiden Burst, Majin Kamehameha, Masenko, Maximum Charge**; recompute the live stale census before editing and preserve the same bounded provenance policy.
