@@ -1269,3 +1269,11 @@
 - Preserved the existing acquisition endpoint and did not add an Ultimate Finish requirement.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
 - Post-write target: **39 exactly-two-source records**.
+
+
+## 2026-09-21 — Galick Gun low-source provenance strengthening
+- Live pre-edit low-source census: **39 exactly-two-source records**.
+- Strengthened **Galick Gun** from two to three provenance sources with Twinfinite's Xenoverse 2 Vegeta Mentor / Master Quest Guide, which documents Galick Gun as the reward from Vegeta's Initiation Test.
+- Preserved the existing Vegeta mentor-training endpoint and no-Ultimate-Finish inference.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
+- Post-write target: **38 exactly-two-source records**.
