@@ -51,14 +51,15 @@ def audit(domain, record_file, html, relationship, structured_field):
 
     for record in records:
         for raw_pq in (record.get(structured_field) or []):
-            try:
-                pq_num = int(raw_pq)
-            except (TypeError, ValueError):
+            tokens = pq_tokens(raw_pq)
+            if not tokens:
                 invalid_structured_pq_ids.append({"id": record.get("id"), "name": record.get("name"), "value": raw_pq})
                 continue
-            if not 1 <= pq_num <= 186:
-                invalid_structured_pq_ids.append({"id": record.get("id"), "name": record.get("name"), "value": raw_pq})
-            structured_pair_keys.add((record.get("name"), f"pq-{pq_num:03d}"))
+            for pq in tokens:
+                pq_num = int(pq.split("-")[1])
+                if not 1 <= pq_num <= 186:
+                    invalid_structured_pq_ids.append({"id": record.get("id"), "name": record.get("name"), "value": raw_pq})
+                structured_pair_keys.add((record.get("name"), pq))
 
     canonical_pair_keys = {(e.get("target"), e.get("pq")) for e in edges}
     canonical_target_pairs = {(name, pq) for name, pqs in canonical.items() for pq in pqs}
