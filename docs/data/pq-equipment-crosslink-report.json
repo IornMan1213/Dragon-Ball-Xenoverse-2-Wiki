@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_equipment",
   "canonical_pq_records": 186,
-  "canonical_target_records": 140,
+  "canonical_target_records": 169,
   "forward_edges": [
     {
       "pq_id": "pq-121",
@@ -391,7 +391,7 @@
     {
       "pq_id": "pq-036",
       "pq_number": 36,
-      "target_id": "equip-074",
+      "target_id": "acc-028",
       "target_name": "Yamcha's Sword",
       "status": "source_backed",
       "source": "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
@@ -447,7 +447,7 @@
     {
       "pq_id": "pq-003",
       "pq_number": 3,
-      "target_id": "equip-080",
+      "target_id": "acc-001",
       "target_name": "Piccolo's Turban",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -543,7 +543,7 @@
     {
       "pq_id": "pq-063",
       "pq_number": 63,
-      "target_id": "equip-088",
+      "target_id": "acc-012",
       "target_name": "Goku Wig (Super Saiyan)",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -1483,7 +1483,7 @@
       ]
     },
     {
-      "target_id": "equip-074",
+      "target_id": "acc-028",
       "target_name": "Yamcha's Sword",
       "pq_ids": [
         "pq-036"
@@ -1553,7 +1553,7 @@
       ]
     },
     {
-      "target_id": "equip-080",
+      "target_id": "acc-001",
       "target_name": "Piccolo's Turban",
       "pq_ids": [
         "pq-003"
@@ -1653,7 +1653,7 @@
       ]
     },
     {
-      "target_id": "equip-088",
+      "target_id": "acc-012",
       "target_name": "Goku Wig (Super Saiyan)",
       "pq_ids": [
         "pq-063"
@@ -2226,7 +2226,7 @@
   "unresolved_target_routes": [],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 140,
+    "canonical_target_records": 169,
     "forward_edge_count": 124,
     "reverse_edge_count": 122,
     "unique_pq_endpoints": 88,
@@ -2235,6 +2235,8 @@
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0,
     "last_recomputed": "2026-09-22",
-    "unresolved_target_routes": 0
+    "unresolved_target_routes": 0,
+    "identity_note": "Canonical equipment identities are authoritative. Three historical report IDs were normalized to existing canonical accessory IDs by exact-name identity: equip-074→acc-028 (Yamcha's Sword), equip-080→acc-001 (Piccolo's Turban), equip-088→acc-012 (Goku Wig (Super Saiyan)). The remaining PQ reward endpoints now exist as canonical equipment records.",
+    "canonical_endpoint_parity": "pass"
   }
 }
