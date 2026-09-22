@@ -534,3 +534,13 @@
 - [x] Updated `docs/Parallel-Quest-Audit.md` so its current research target reflects the completed canonical skill cross-link gate and the remaining PQ navigation-consumer audit.
 - [x] No canonical relationship edges were added, removed, or renamed; live relationship baseline remains 860 unique edges.
 - [ ] Exact next task: inspect the generated PQ catalog/page implementation and templates/index data for displayed reward, character, and DLC links; add a deterministic consumer validator or repair only confirmed stale/orphan references. Do not infer relationships from page prose.
+
+
+### 2026-09-22 — PQ page consumer repair
+- [x] Audited the actual `docs/Parallel-Quests-All.html` implementation rather than relying only on documentation.
+- [x] Removed its direct dependency on the external Madreag PQ API/raw records and switched it to the canonical local `docs/data/parallel-quests-record-layer.json`.
+- [x] Preserved verification state, objectives, Ultimate Finish, rewards, DLC/unlock metadata, and local reward-domain cross-navigation.
+- [x] Added `?q=` support to `docs/assets/search.js` so PQ reward links can open the local published Search surface with deterministic queries.
+- [x] Added and registered `scripts/validate_pq_page_consumers.py` to enforce the consumer contract.
+- [x] Canonical relationship data was unchanged; this was a presentation/source-of-truth repair.
+- [ ] Exact next task: inspect remaining published PQ/skill/character/DLC index consumers for direct external-corpus dependencies or stale display-only navigation and repair only deterministic local consumers.
