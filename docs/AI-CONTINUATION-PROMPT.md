@@ -6883,3 +6883,14 @@ The repository owner has clarified the continuation contract:
 - CI: no success claim without an exposed workflow/check.
 - Commits: `2d6cb1de9c845bc0e66641a849a7bb625df33387` (canonical), `5355aadb3cf37d8c3cd3d61ae5b98e9a234b163c` (index), plus this handoff/TODO update.
 - Exact next batch: **Kaioken Kamehameha (`skill-kaioken-kamehameha`)**. Recompute the live two-source census first and independently verify its acquisition/reward endpoint.
+
+
+### 2026-09-21 cycle update — Kaioken Kamehameha provenance
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 28 exactly-two-source canonical records**.
+- Bounded batch: **Kaioken Kamehameha (`skill-kaioken-kamehameha`)**.
+- Evidence: the dedicated skill reference identifies PQ14 — “Saiyan Pride” as the unlock; the maintained Steam all-PQ guide independently lists Kaioken Kamehameha in PQ14 Basic Reward. The PQ14 page separates the Ultimate Finish conditions from the Basic Reward list, so the existing no-Ultimate-Finish-only interpretation is preserved.
+- Changes: added the maintained Steam guide as a third provenance source to canonical/index records and refreshed `last_verified` to 2026-09-21. No gameplay or acquisition semantics were broadened.
+- Validation: target now has 3 sources; exactly-two-source count reduced to **27**.
+- CI: no success claim without an exposed workflow/check.
+- Commits: `342b18637d3efc5d45bd571a8e7c9a145e0ffccd` (canonical), `a4fc162d1712e21639f9ef3d1624b732efd78b6d` (index).
+- Exact next batch: **Kairos Cannon (`skill-kairos-cannon`)**. Recompute the live two-source census first and independently verify its acquisition/DLC endpoint.
