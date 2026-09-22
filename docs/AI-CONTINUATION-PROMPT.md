@@ -6706,7 +6706,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Final Charge low-source provenance strengthening
 - Live census before editing: **452 canonical / 452 index / 42 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
 - Bounded batch: **Final Charge (`skill-final-charge`)**.
-- Research/evidence: MeriStation's July 2019 Ultra Pack 1 coverage independently identifies Final Charge among SSGSS Evolved Vegeta's skills and places the character in Ultra Pack 1. citeturn0search6
+- Research/evidence: MeriStation's July 2019 Ultra Pack 1 coverage independently identifies Final Charge among SSGSS Evolved Vegeta's skills and places the character in Ultra Pack 1. 
 - Changes: added the independent source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
 - Evidence limits preserved: the added source corroborates DLC provenance and character ownership but does not establish a CaC acquisition route or reward semantics; existing character-only/non-CaC boundaries remain unchanged.
 - Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 41 exactly-two-source records**, with canonical/index source parity for Final Charge.
@@ -6717,7 +6717,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Final Flash (Super) low-source provenance strengthening
 - Live pre-edit census: **452 canonical / 452 index / 41 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
 - Bounded batch: **Final Flash (Super) (`skill-final-flash-super`)**.
-- Evidence: the Dragon Ball Wiki Final Flash entry independently documents the Xenoverse 2 Ultra Pack 1 SSGSS (Evolved) Vegeta-exclusive Super Skill variant. citeturn0search1
+- Evidence: the Dragon Ball Wiki Final Flash entry independently documents the Xenoverse 2 Ultra Pack 1 SSGSS (Evolved) Vegeta-exclusive Super Skill variant. 
 - Changes: added the source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
 - Evidence limits preserved: no CaC acquisition route or reward semantics were inferred; the existing character-only/non-CaC boundary remains unchanged.
 - Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 40 exactly-two-source records**, with canonical/index source parity for Final Flash (Super).
@@ -6728,7 +6728,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Full Power Charge low-source provenance strengthening
 - Live pre-edit census: **452 canonical / 452 index / 40 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
 - Bounded batch: **Full Power Charge (`skill-full-power-charge`)**.
-- Evidence: an independent Advancement Test page documents Full Power Charge as a Basic Reward of Advancement Test - Advanced Class in Xenoverse 2. citeturn0search10
+- Evidence: an independent Advancement Test page documents Full Power Charge as a Basic Reward of Advancement Test - Advanced Class in Xenoverse 2. 
 - Changes: added the source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
 - Evidence limits preserved: the existing Advanced Class acquisition endpoint remains unchanged and no Ultimate Finish requirement was inferred.
 - Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 39 exactly-two-source records**, with canonical/index source parity for Full Power Charge.
@@ -6738,7 +6738,7 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Galick Gun low-source provenance strengthening
 - Live pre-edit census: **452 canonical / 452 index / 39 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
 - Bounded batch: **Galick Gun (`skill-galick-gun`)**.
-- Evidence: Twinfinite's Xenoverse 2 Vegeta Mentor / Master Quest Guide independently documents Galick Gun as the reward from Vegeta's Initiation Test. citeturn0search1
+- Evidence: Twinfinite's Xenoverse 2 Vegeta Mentor / Master Quest Guide independently documents Galick Gun as the reward from Vegeta's Initiation Test. 
 - Changes: added the source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
 - Evidence limits preserved: existing Vegeta mentor-training endpoint and no-Ultimate-Finish inference remain unchanged.
 - Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 38 exactly-two-source records**, with canonical/index source parity for Galick Gun.
@@ -6841,9 +6841,9 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Holy Wrath low-source provenance
 - Live census before editing: **452 canonical skills / 452 index records / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 32 exactly-two-source canonical records**.
 - Bounded batch: **Holy Wrath (`skill-holy-wrath`)**.
-- Research/evidence: current Xenoverse 2 skill documentation identifies Holy Wrath as a 100-Ki Ki Blast Super from PQ111; the maintained Steam all-186 Parallel Quests guide independently lists Holy Wrath in **PQ111 — The Zero Mortal Plan Basic Reward**. citeturn1search0turn1search2
+- Research/evidence: current Xenoverse 2 skill documentation identifies Holy Wrath as a 100-Ki Ki Blast Super from PQ111; the maintained Steam all-186 Parallel Quests guide independently lists Holy Wrath in **PQ111 — The Zero Mortal Plan Basic Reward**. 
 - Changes: added the maintained Steam PQ guide as the third provenance source to `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to 2026-09-21. No gameplay, cost, restriction, or acquisition semantics were changed.
-- Evidence limits/conflicts preserved: an older Steam community discussion and other community reports describe Holy Wrath as a drop associated with the Ultimate Finish, while the maintained all-186 guide explicitly places it under Basic Reward. The repository retains its existing Basic Reward/no-Ultimate-Finish semantics rather than inventing a drop probability or resolving the conflict without stronger evidence. citeturn1search1turn1search3
+- Evidence limits/conflicts preserved: an older Steam community discussion and other community reports describe Holy Wrath as a drop associated with the Ultimate Finish, while the maintained all-186 guide explicitly places it under Basic Reward. The repository retains its existing Basic Reward/no-Ultimate-Finish semantics rather than inventing a drop probability or resolving the conflict without stronger evidence. 
 - Validation: both JSON files parsed successfully; canonical/index each contain 452 records with 0 duplicate IDs; canonical `ki_cost` nullable count remains 0; Holy Wrath now has 3 sources; exactly-two-source canonical count fell to **31**.
 - CI: no success claim made without an exposed workflow/check.
 - Commits: `3deda3cca481298f288324c77426f55aa918b942` (canonical skills), `c47febf18777f789c1c49990a9cbccf191383cdd` (index synchronization).
@@ -6854,9 +6854,21 @@ The repository owner has clarified the continuation contract:
 ### 2026-09-21 cycle update — Instant Charge provenance
 - Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 31 exactly-two-source canonical records**.
 - Bounded batch: **Instant Charge (`skill-instant-charge`)**.
-- Evidence: current skill documentation describes Instant Charge as exclusively used by Mira (Final Form); Dragon Ball Wiki's Mira reference independently identifies Instant Charge as one of Final Form Mira's techniques. This corroborates character-exclusive scope without establishing a CaC acquisition route. citeturn0search0turn0search4
+- Evidence: current skill documentation describes Instant Charge as exclusively used by Mira (Final Form); Dragon Ball Wiki's Mira reference independently identifies Instant Charge as one of Final Form Mira's techniques. This corroborates character-exclusive scope without establishing a CaC acquisition route. 
 - Changes: added the Dragon Ball Wiki Mira reference as a third provenance source to canonical/index records; refreshed `last_verified` to 2026-09-21. No CaC usability, race restriction, or acquisition semantics were broadened.
 - Validation: **452 / 452 / 0 duplicate IDs / 0 nullable canonical ki_cost / 30 exactly-two-source records**; target now has 3 sources.
 - CI: no success claim without exposed workflow/check.
 - Commits: `da159118f0f94959590949dac9d53d0051981b7b` (canonical), `5c409c7824afb3750adc465a0e75d46f65211746` (index).
 - Exact next batch: **Instant Transmission (`skill-instant-transmission`)**. Recompute the live two-source census first and verify its Goku mentor Lesson 1 acquisition boundary with an independent source before strengthening provenance.
+
+
+### 2026-09-21 cycle update — Instant Transmission provenance
+- Live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 30 exactly-two-source canonical records**.
+- Bounded batch: **Instant Transmission (`skill-instant-transmission`)**.
+- Evidence: the current Xenoverse 2 skill reference identifies Instant Transmission as Goku Lesson 1; a maintained Steam instructor guide independently lists Goku Lesson 1 with Instant Transmission as the Basic Reward. This corroborates the existing mentor-training acquisition boundary. The existing all-CaC-races/no-Ultimate-Finish-gate semantics were preserved. Source references: https://dbxv2.fandom.com/wiki/Instant_Transmission and https://steamcommunity.com/sharedfiles/filedetails/?id=810107584.
+- Changes: added the maintained Steam instructor guide as a third provenance source to canonical/index records and refreshed `last_verified` to 2026-09-21.
+- Validation target: target now has 3 sources; live two-source queue reduced from 30 to 29 after the canonical/index updates.
+- Corrective cleanup: removed internal AI/UI citation tokens from the persistent handoff; repository files should contain plain source URLs/descriptions rather than internal citation artifacts.
+- CI: no success claim without an exposed workflow/check.
+- Commits: `2bc56f6b9b9f07e8447ecc06ad3577a0ec403dbe` (canonical), `afa09b92e576062ca47ed824db0a075eae8f3f2d` (index), plus this handoff cleanup/update.
+- Exact next batch: **Kai Kai (`skill-kai-kai`)**. Recompute the live two-source census first and independently verify its acquisition/reward endpoint without broadening beyond the evidence.
