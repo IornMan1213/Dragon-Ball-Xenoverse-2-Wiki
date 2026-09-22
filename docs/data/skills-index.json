@@ -279,7 +279,7 @@
         131
       ]
     },
-        {
+    {
       "id": "skill-atomic-blast",
       "name": "Atomic Blast",
       "class": "Super",
@@ -375,7 +375,7 @@
       "source_quest": "Namekian Awakening quest — Guru's House",
       "source_quest_or_shop": "Namekian Awakening quest — Guru's House"
     },
-        {
+    {
       "id": "skill-bending-kamehameha",
       "name": "Bending Kamehameha",
       "class": "Super",
@@ -399,7 +399,7 @@
       "source_quest": "Main story — completion unlocks the Skill Shop listing",
       "source_quest_or_shop": "Skill Shop (Conton City) after main-story completion"
     },
-        {
+    {
       "id": "skill-big-bang-kamehameha",
       "name": "Big Bang Kamehameha",
       "class": "Super",
@@ -472,7 +472,7 @@
         112
       ]
     },
-        {
+    {
       "id": "skill-blaster-ball",
       "name": "Blaster Ball",
       "class": "Super",
@@ -838,27 +838,31 @@
     {
       "id": "skill-breaker-energy-wave",
       "name": "Breaker Energy Wave",
-      "class": "Super",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "verified",
       "research_status": "enriched",
       "acquisition_type": "quest_or_mission",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Breaker_Energy_Wave",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/Angry_Kamehameha",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 101 — \"Seeking Fighters for Tournament\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: the maintained PQ101 reward guide explicitly lists Breaker Energy Wave as a Basic Reward, matching the dedicated skill page's PQ101 acquisition.",
-      "mechanics_notes": "Current evidence confirms Breaker Energy Wave as a 100-Ki Ki Blast Super from PQ101. It is a close/medium-range energy-wave attack associated with Hit; no unsupported CaC race/gender/form restriction was inferred. Current evidence confirms CaC availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. Reviewed in the current null-race census; current Future Warrior/CaC evidence establishes availability; no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred.",
+      "notes": "2026-09-22 provenance reconciliation: dedicated Xenoverse 2 skill documentation and Dragon Ball technique documentation agree on Goku identity, Ki Blast Ultimate classification, 0 Ki cost, one-use/low-health behavior, CaC availability, and PQ101 acquisition. The maintained PQ101 reward guide explicitly lists Breaker Energy Wave as a Basic Reward. Historical GameFAQs/Steam reports associate successful acquisition with Ultimate Finish completion, but those reports do not establish a formal reward-tier rule or drop probability; the canonical record therefore retains Basic Reward semantics without asserting a numeric chance.",
+      "mechanics_notes": "Current dedicated Xenoverse 2 documentation identifies Breaker Energy Wave as a Ki Blast Ultimate used by Goku, with 0 Ki cost. It is a multi-hit yellow beam that can only be used once when the opponent is at low health. The dedicated reference lists PQ101 as the unlock source and confirms CaC availability. Historical player reports describe obtaining it after Ultimate Finish, but the maintained PQ reward guide and dedicated PQ documentation place it in Basic Reward; this conflict is retained rather than inventing a drop probability.",
       "source_quest": 101,
       "source_quest_or_shop": "Parallel Quest 101 — \"Seeking Fighters for Tournament\"",
       "source_parallel_quests": [
         101
-      ]
+      ],
+      "character_source": "Goku",
+      "ki_cost": 0,
+      "damage_type": "Ki Blast",
+      "skill_description": "Breaker Energy Wave is a Ki Blast Ultimate Skill used by Goku and available to CaCs."
     },
     {
       "id": "skill-brutal-buster",
@@ -1291,7 +1295,7 @@
         46
       ]
     },
-        {
+    {
       "id": "skill-change-the-future",
       "name": "Change The Future",
       "class": "Super",
@@ -1318,7 +1322,7 @@
         43
       ]
     },
-        {
+    {
       "id": "skill-chaos-shot",
       "name": "Chaos Shot",
       "class": "Super",
