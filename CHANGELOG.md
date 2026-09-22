@@ -1245,3 +1245,11 @@
 - The added source does not independently establish the exact story-trigger wording, so no acquisition semantics were broadened or rewritten.
 - Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
 - Post-write live target: **43 exactly-two-source records**.
+
+
+## 2026-09-21 — Final Charge low-source provenance strengthening
+- Recomputed the live low-source census before editing: **42 exactly-two-source records**.
+- Strengthened **Final Charge** from two to three provenance sources with MeriStation's July 2019 Ultra Pack 1 coverage, independently identifying Final Charge among SSGSS Evolved Vegeta's skills and placing the character in Ultra Pack 1.
+- Preserved the existing character-only/non-CaC boundary and Ultra Pack 1 provenance; no CaC acquisition route or reward semantics were inferred.
+- Refreshed `last_verified` to **2026-09-21** and synchronized canonical/index source projections.
+- Post-write live target: **41 exactly-two-source records**.
