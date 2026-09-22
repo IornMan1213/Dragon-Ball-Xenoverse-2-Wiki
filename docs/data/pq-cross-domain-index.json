@@ -47,6 +47,10 @@
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
-    "alias_granularity": "docs/data/pq-endpoint-alias-granularity-map.json"
+    "alias_granularity": "docs/data/pq-endpoint-alias-granularity-map.json",
+    "canonical_endpoint_validation": "docs/data/pq-endpoint-navigation-validation.json"
+  },
+  "validation_tools": {
+    "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py"
   }
 }
