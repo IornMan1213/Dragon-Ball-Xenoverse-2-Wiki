@@ -1466,7 +1466,7 @@
       "mechanics_notes": "300 Stamina Strike Evasive from PQ88; the user rolls into a controllable ball and bounces repeatedly. Current dedicated skill evidence classifies it as an Evasive rather than a Super.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Buu_Buu_Ball",
@@ -1476,7 +1476,7 @@
       "source_quest": 88,
       "race_restriction": "Majin (Pure Majin form)",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 CaC provenance correction: current Dragon Ball Xenoverse 2 documentation identifies Buu Buu Ball as a Strike Evasive with a 300-Stamina cost from PQ88; it is usable by Majin CaCs. The prior Super/Ki Blast/100-Ki classification was inconsistent with the dedicated skill record.",
+      "notes": "2026-09-20 CaC provenance correction: current Dragon Ball Xenoverse 2 documentation identifies Buu Buu Ball as a Strike Evasive with a 300-Stamina cost from PQ88; it is usable by Majin CaCs. The prior Super/Ki Blast/100-Ki classification was inconsistent with the dedicated skill record. 2026-09-22 provenance verification: dedicated Buu Buu Ball documentation confirms Parallel Quest 88 — \"Evil Seeks Dragon Balls Yet Again!\" as the unlock and identifies it as a 300-Stamina Strike Evasive usable by Majin CaCs. The maintained all-186-PQ guide, an independent PQ88 gameplay record, and a GameFAQs walkthrough list Buu Buu Ball in PQ88 Basic Rewards. The existing Base Game, Majin restriction, Basic Reward, and no-Ultimate-Finish-only semantics are therefore retained; no drop probability is inferred.",
       "id": "skill-buu-buu-ball",
       "source_parallel_quests": [
         88
