@@ -27,7 +27,7 @@ The repository's canonical farming relationship layer identifies **PQ15, PQ22, P
 
 ## Skills & Super Souls
 - Mentor lessons (guaranteed).
-- Parallel Quests + Ultimate Finish.
+- Parallel Quests with skill relationships. Ultimate Finish requirements and reward triggers are separate fields; do not treat the existence of a PQ→skill relationship as proof of a guaranteed or Ultimate-Finish-only skill reward.
 - TP Medal Shop rotation.
 - Crystal Raids / Double Crystal Raids.
 - Shenron skill wishes.
