@@ -19,26 +19,26 @@ There are 20 documented Customization Unlock Keys. The complete mapping is maint
 
 | Key | Partner | DLC / ownership note | Status |
 |---:|---|---|---|
-| 1 | Goku (Super Saiyan 4) | Free | partially_verified |
-| 2 | Vegeta (Super Saiyan 4) | Free | partially_verified |
-| 3 | Future Trunks | Free | partially_verified |
-| 4 | SSGSS Vegito | Super Pack 4 | partially_verified |
-| 5 | SSGSS Gogeta | Extra Pack 4 | partially_verified |
-| 6 | Tapion | Extra Pack 1 | partially_verified |
-| 7 | Rosé Goku Black | Super Pack 3 | partially_verified |
-| 8 | Android 17 (DB Super) | Extra Pack 2 | partially_verified |
-| 9 | Janemba | Free | partially_verified |
-| 10 | Broly (Full Power Super Saiyan) | Extra Pack 4 | partially_verified |
-| 11 | Goku (GT) | Free | partially_verified |
-| 12 | Omega Shenron | Free | partially_verified |
-| 13 | Majin Buu (Gohan Absorbed) | Extra Pack 1 | partially_verified |
-| 14 | Jiren | Extra Pack 2 | partially_verified |
-| 15 | Kefla (Super Saiyan) | Extra Pack 3 | partially_verified |
-| 16 | Goku (Super Saiyan God) | Free | partially_verified |
-| 17 | Gogeta (Super Saiyan 4) | Free | partially_verified |
-| 18 | Vegeta (Super Saiyan God) | Ultra Pack 1 | partially_verified |
-| 19 | Super Baby 2 | Extra Pack 3 | partially_verified |
-| 20 | Goku Black | Pre-order Bonus | partially_verified |
+| 1 | [Goku (Super Saiyan 4)](Search/?q=Goku+(Super+Saiyan+4)) | Free | partially_verified |
+| 2 | [Vegeta (Super Saiyan 4)](Search/?q=Vegeta+(Super+Saiyan+4)) | Free | partially_verified |
+| 3 | [Future Trunks](Search/?q=Future+Trunks) | Free | partially_verified |
+| 4 | [SSGSS Vegito](Search/?q=SSGSS+Vegito) | Super Pack 4 | partially_verified |
+| 5 | [SSGSS Gogeta](Search/?q=SSGSS+Gogeta) | Extra Pack 4 | partially_verified |
+| 6 | [Tapion](Search/?q=Tapion) | Extra Pack 1 | partially_verified |
+| 7 | [Rosé Goku Black](Search/?q=Ros%C3%A9+Goku+Black) | Super Pack 3 | partially_verified |
+| 8 | [Android 17 (DB Super)](Search/?q=Android+17+(DB+Super)) | Extra Pack 2 | partially_verified |
+| 9 | [Janemba](Search/?q=Janemba) | Free | partially_verified |
+| 10 | [Broly (Full Power Super Saiyan)](Search/?q=Broly+(Full+Power+Super+Saiyan)) | Extra Pack 4 | partially_verified |
+| 11 | [Goku (GT)](Search/?q=Goku+(GT)) | Free | partially_verified |
+| 12 | [Omega Shenron](Search/?q=Omega+Shenron) | Free | partially_verified |
+| 13 | [Majin Buu (Gohan Absorbed)](Search/?q=Majin+Buu+(Gohan+Absorbed)) | Extra Pack 1 | partially_verified |
+| 14 | [Jiren](Search/?q=Jiren) | Extra Pack 2 | partially_verified |
+| 15 | [Kefla (Super Saiyan)](Search/?q=Kefla+(Super+Saiyan)) | Extra Pack 3 | partially_verified |
+| 16 | [Goku (Super Saiyan God)](Search/?q=Goku+(Super+Saiyan+God)) | Free | partially_verified |
+| 17 | [Gogeta (Super Saiyan 4)](Search/?q=Gogeta+(Super+Saiyan+4)) | Free | partially_verified |
+| 18 | [Vegeta (Super Saiyan God)](Search/?q=Vegeta+(Super+Saiyan+God)) | Ultra Pack 1 | partially_verified |
+| 19 | [Super Baby 2](Search/?q=Super+Baby+2) | Extra Pack 3 | partially_verified |
+| 20 | [Goku Black](Search/?q=Goku+Black) | Pre-order Bonus | partially_verified |
 
 Complete mapping source: https://dbxv2.fandom.com/wiki/Customization_Key
 
