@@ -1111,3 +1111,12 @@
 - [ ] Runtime/CI remains unavailable; no executable CI success claimed.
 - [x] Commits: canonical `7168f8391783a3bf42c2f8530ea96a0551e8eefa`; index `fdd951c143a99e99e237d38c14c70d4d91a53dce`.
 - [ ] Exact next batch: continue the stale-`last_verified` P1 skill provenance queue with **Arm Crash (`skill-arm-crash`)**, then proceed sequentially while preserving evidence conflicts.
+
+
+### 2026-09-22 cycle update — Beast provenance verification
+- [x] Completed the next P1 stale-last_verified skill provenance batch: skill-beast.
+- [x] Confirmed the existing acquisition route with independent evidence: max friendship with Gohan (Adult) & Videl and Piccolo, followed by Piccolo's special training / Cell Max unlock mission.
+- [x] Refreshed canonical/index provenance, added docs/data/skill-beast-provenance-audit-2026-09-22.json, and registered the audit in docs/data/pq-cross-domain-index.json.
+- [x] Static validation: 452/452 canonical/index records, 0 duplicate IDs; no semantic skill or PQ relationship changes.
+- [ ] Runtime/CI unavailable; no CI success claimed.
+- [ ] Exact next batch: continue the stale-last_verified P1 skill provenance queue with the next unfinished skill after Beast.
