@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "domain": "pq_equipment",
   "canonical_pq_records": 186,
-  "canonical_target_records": 169,
+  "canonical_target_records": 168,
   "forward_edges": [
     {
       "pq_id": "pq-121",
@@ -517,14 +517,6 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq_id": "pq-050",
-      "pq_number": 50,
-      "target_id": "equip-085",
-      "target_name": "Mr. Shape Up M",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
       "pq_id": "pq-061",
       "pq_number": 61,
       "target_id": "equip-086",
@@ -557,12 +549,12 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq_id": "pq-066",
-      "pq_number": 66,
+      "pq_id": "pq-076",
+      "pq_number": 76,
       "target_id": "equip-090",
       "target_name": "Whis Symbol Gi",
       "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      "source": "https://xvguide.neocities.org/clothes"
     },
     {
       "pq_id": "pq-066",
@@ -1623,16 +1615,6 @@
       ]
     },
     {
-      "target_id": "equip-085",
-      "target_name": "Mr. Shape Up M",
-      "pq_ids": [
-        "pq-050"
-      ],
-      "pq_numbers": [
-        50
-      ]
-    },
-    {
       "target_id": "equip-086",
       "target_name": "Battle Suit (CC)",
       "pq_ids": [
@@ -1676,10 +1658,10 @@
       "target_id": "equip-090",
       "target_name": "Whis Symbol Gi",
       "pq_ids": [
-        "pq-066"
+        "pq-076"
       ],
       "pq_numbers": [
-        66
+        76
       ]
     },
     {
@@ -2226,19 +2208,19 @@
   "unresolved_target_routes": [],
   "validation": {
     "canonical_pq_records": 186,
-    "canonical_target_records": 169,
-    "forward_edge_count": 124,
-    "reverse_edge_count": 122,
+    "canonical_target_records": 168,
+    "forward_edge_count": 123,
+    "reverse_edge_count": 121,
     "unique_pq_endpoints": 88,
-    "unique_target_endpoints": 122,
+    "unique_target_endpoints": 121,
     "unresolved_target_route_count": 0,
     "broken_forward_endpoints": 0,
     "broken_reverse_endpoints": 0,
     "last_recomputed": "2026-09-22",
     "unresolved_target_routes": 0,
-    "identity_note": "Canonical equipment identities are authoritative. Three historical report IDs were normalized to existing canonical accessory IDs by exact-name identity: equip-074→acc-028 (Yamcha's Sword), equip-080→acc-001 (Piccolo's Turban), equip-088→acc-012 (Goku Wig (Super Saiyan)). The remaining PQ reward endpoints now exist as canonical equipment records.",
+    "identity_note": "Canonical equipment identities are authoritative. Historical duplicate endpoints are normalized to canonical accessory IDs; no duplicate canonical identities are created.",
     "canonical_endpoint_parity": "pass",
-    "enrichment_batch": "equip-071..equip-079 (canonical records present in requested 071-080 range)",
-    "enrichment_note": "Canonical records 071-073 and 075-079 were enriched with independent maintained equipment-catalog provenance and explicit base-game provenance/classification. IDs 074 and 080 are not separate records in the live canonical layer because their identities are represented by existing accessory records; no duplicate canonical identities were created."
+    "enrichment_batch": "equip-081..equip-090",
+    "enrichment_note": "Equipment 081-090 audit synchronized: equip-085 removed because it is a consumable capsule/material rather than equipment; equip-090 Whis Symbol Gi moved from PQ66 to PQ76. Historical equip-088 remains normalized to canonical accessory acc-012."
   }
 }
