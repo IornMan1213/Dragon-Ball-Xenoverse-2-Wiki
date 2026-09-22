@@ -1,57 +1,77 @@
 {
-  "schema_version": "1.0.0",
-  "scope": "PQ equipment/accessory downstream navigation",
+  "schema_version": "1.1.0",
+  "date": "2026-09-22",
+  "scope": "PQ 1-186 canonical endpoint navigation and exact identity/pair integrity",
   "source_of_truth": "docs/data/pq-reward-relationships.json",
-  "identity_source": "docs/data/equipment-accessories-record-layer.json",
-  "bridge": "docs/data/pq-endpoint-alias-granularity-map.json",
-  "status": "clean_with_explicit_identity_conflicts",
-  "rules": [
-    "Forward canonical relationship targets are never renamed or deleted by this audit.",
-    "Navigation resolves canonical target strings to their canonical identity record when an exact identity exists.",
-    "Legacy/source naming is retained as a searchable presentation alias only when an explicit identity bridge supports it.",
-    "Known equipment/accessory naming conflicts remain distinct endpoints until identity evidence authorizes a merge."
-  ],
-  "resolved_navigation": [
-    {
-      "pq": "pq-152",
-      "source_target": "Android 17 (DB Super) Wig",
-      "canonical_identity_id": "acc-065",
-      "canonical_identity_name": "Android 17 (DB Super) Wig",
-      "resolution": "exact_identity"
-    },
-    {
-      "pq": "pq-152",
-      "source_target": "Android 17 (DB Super) Ranger Wig",
-      "canonical_identity_id": "equip-059",
-      "canonical_identity_name": "Android 17 (DB Super) Ranger Wig",
-      "resolution": "distinct_canonical_endpoint"
-    },
-    {
-      "pq": "pq-155",
-      "source_target": "Gamma 2's Helmet",
-      "canonical_identity_id": "acc-067",
-      "canonical_identity_name": "Gamma 2's Helmet",
-      "resolution": "exact_identity"
-    },
-    {
-      "pq": "pq-155",
-      "source_target": "Gamma 2 Helmet",
-      "canonical_identity_id": "equip-062",
-      "canonical_identity_name": "Gamma 2 Helmet",
-      "resolution": "distinct_canonical_endpoint"
-    }
-  ],
-  "reverse_index_integrity": {
-    "equipment_report": "docs/data/pq-equipment-crosslink-report.json",
-    "accessory_report": "docs/data/pq-accessory-crosslink-report.json",
-    "equipment_forward_edges": 125,
-    "equipment_reverse_endpoints": 123,
-    "accessory_forward_projection_edges": 28,
-    "accessory_reverse_endpoints": 28,
-    "missing_reverse_endpoints": 0,
-    "orphan_reverse_endpoints": 0,
-    "pq_set_mismatches": 0
+  "identity_layers": {
+    "pq": "docs/data/parallel-quests-record-layer.json",
+    "skills": "docs/data/skills.json",
+    "super_souls": "docs/data/super-souls-record-layer.json",
+    "equipment": "docs/data/equipment-accessories-record-layer.json",
+    "characters": "docs/data/characters-record-layer.json",
+    "dlc": "docs/data/dlc/canonical-dlc-identity.json"
   },
-  "result": "No downstream reverse-index repair is required for the current canonical endpoints. The two known naming conflicts are explicitly resolvable to separate canonical records; the bridge prevents presentation-layer normalization from silently changing canonical relationships.",
-  "next_action": "Extend the same identity-resolution audit to skill, Super Soul, character, and DLC page/index navigation, then add automated validation that every canonical relationship endpoint either resolves exactly or is listed as an explicit conflict."
+  "canonical_pq_identity": {
+    "record_count": 186,
+    "unique_id_count": 186,
+    "unique_number_count": 186,
+    "expected_number_range": "1-186"
+  },
+  "results": {
+    "skills": {
+      "edge_count": 244,
+      "unique_pair_count": 244,
+      "duplicate_pair_count": 0,
+      "missing_target_count": 0,
+      "invalid_pq_id_count": 0,
+      "status": "clean"
+    },
+    "super_souls": {
+      "edge_count": 151,
+      "unique_pair_count": 151,
+      "duplicate_pair_count": 0,
+      "missing_target_count": 0,
+      "invalid_pq_id_count": 0,
+      "status": "clean"
+    },
+    "equipment": {
+      "edge_count": 125,
+      "unique_pair_count": 125,
+      "duplicate_pair_count": 0,
+      "missing_target_count": 0,
+      "invalid_pq_id_count": 0,
+      "status": "clean"
+    },
+    "characters": {
+      "edge_count": 247,
+      "unique_pair_count": 247,
+      "duplicate_pair_count": 0,
+      "missing_target_count": 0,
+      "invalid_pq_id_count": 0,
+      "status": "clean"
+    },
+    "dlc": {
+      "edge_count": 86,
+      "unique_pair_count": 86,
+      "duplicate_pair_count": 0,
+      "missing_target_count": 0,
+      "invalid_pq_id_count": 0,
+      "status": "clean"
+    }
+  },
+  "bridge_checks": {
+    "equipment_entries": 2,
+    "dlc_entries": 6,
+    "unresolved_equipment_targets": [],
+    "granularity_records_preserved": true
+  },
+  "rules": [
+    "Canonical relationship data is authoritative.",
+    "Every canonical endpoint must resolve to an exact canonical identity or an explicit conflict/granularity record.",
+    "Every structured relationship pair is unique; duplicate (PQ,target) pairs are rejected.",
+    "Every relationship PQ identifier resolves to the canonical PQ record layer.",
+    "Presentation aliases never alter canonical relationship identities."
+  ],
+  "validator": "scripts/validate_pq_endpoint_navigation.py",
+  "status": "clean"
 }
