@@ -28,10 +28,33 @@ def load(path: Path):
 
 def source_index(data):
     out = {domain: {} for domain in DOMAINS}
-    for record in data["records"]:
-        pq = int(record["pq"])
+    records = data["records"]
+    if isinstance(records, dict):
+        normalized = [
+            (int(pq), {
+                "skills": [name for name, kind in rewards if kind == "skill"],
+                "super_souls": [name for name, kind in rewards if kind == "super_soul"],
+                "clothing": [name for name, kind in rewards if kind == "clothing"],
+                "accessories": [name for name, kind in rewards if kind == "accessory"],
+            })
+            for pq, rewards in records.items()
+        ]
+    else:
+        normalized = []
+        for record in records:
+            if "rewards" in record:
+                normalized.append((int(record["pq"]), record.get("rewards", {})))
+            else:
+                pairs = record.get("rewards", [])
+                normalized.append((int(record["pq"]), {
+                    "skills": [name for name, kind in pairs if kind == "skill"],
+                    "super_souls": [name for name, kind in pairs if kind == "super_soul"],
+                    "clothing": [name for name, kind in pairs if kind == "clothing"],
+                    "accessories": [name for name, kind in pairs if kind == "accessory"],
+                }))
+    for pq, reward_map in normalized:
         for domain in DOMAINS:
-            for name in record.get(domain, []):
+            for name in reward_map.get(domain, []):
                 out[domain].setdefault(str(name), []).append(pq)
     return out
 
