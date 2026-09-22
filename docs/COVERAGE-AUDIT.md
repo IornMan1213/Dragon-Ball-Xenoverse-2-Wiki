@@ -1234,3 +1234,10 @@
 - Canonical/index source parity was synchronized; no acquisition, Ultimate Finish, DLC/version, or restriction field was changed solely from the new corroborating sources.
 - The live exactly-two-source skill queue is expected to reach **0** after post-write validation.
 - Evidence boundary: Venus Fist's independent Steam discussion corroborates the PQ186 endpoint but does not override the maintained Basic Reward classification or establish a probability.
+
+
+## 2026-09-22 — PQ↔skill endpoint naming repair
+- Recomputed the live 186-PQ/452-skill relationship layer and found one naming-only endpoint defect: **Giant Cluster** in PQ163 versus canonical **Gigantic Cluster**.
+- Added the documented validator alias `giant cluster → gigantic cluster`; canonical records were not renamed.
+- Regenerated the relationship report with **244 unique forward edges, 239 reverse skill endpoints, 0 unresolved, 0 orphaned**.
+- The alias layer now explicitly records both naming variants; no acquisition probability or reward gating was inferred.
