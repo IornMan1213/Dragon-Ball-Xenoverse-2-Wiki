@@ -823,3 +823,13 @@
 - Updated `docs/DLC-Overview.md` to expose deterministic links to the canonical DLC identity layer, PQ reverse index, and reverse-navigation audit.
 - No new DLC relationships were created. Canonical relationship count remains 860.
 - Exact next batch: audit remaining character/DLC presentation consumers and structured links for deterministic resolution, then update validators/audits only from confirmed repository data.
+
+
+### 2026-09-22 cycle update — character presentation identity bridge
+- [x] Audited the character presentation layers and confirmed the canonical character layer intentionally exposes **149 names**, not stable `character_id` values.
+- [x] Found that character preset and Partner Customization records use 29 distinct existing `character_id` values that therefore require an explicit presentation-to-canonical bridge for deterministic navigation.
+- [x] Added `docs/data/characters/character-id-identity-bridge.json` with 29 explicit mappings to canonical character names. This is a presentation bridge only; it does not promote IDs into the canonical character layer or create relationships.
+- [x] Added `scripts/validate_character_id_identity_bridge.py` to require every preset/key character ID to resolve through the bridge and every bridge target to exist in the canonical character name layer.
+- [x] Registered the bridge and validator in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved explicit naming boundaries, including `frieza-first-form` → `Frieza (1st Form)` and `rose-goku-black` → `Rosé Goku Black`; no slug inference is used as canonical truth.
+- [x] Exact next batch: audit DLC presentation consumers and future-saga content maps for `dlc_id` resolution against the 20-record canonical DLC identity layer.
