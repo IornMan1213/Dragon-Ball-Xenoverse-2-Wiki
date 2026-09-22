@@ -38,3 +38,10 @@
 - [x] Confirmed the remaining mismatch families: **33 `notes`**, **2 `mechanics_notes`**, **1 `unlock_method`**, **1 `ultimate_finish_required`**, and **1 `source_quest_or_shop`**.
 - [ ] Exact next task: fix the two deterministic **`mechanics_notes`** mismatches for **Assault Vanish** and **Solar Flare** from canonical values, then recompute the full projection census.
 - [ ] Subsequent task: reconcile the remaining **33 `notes`** projection mismatches in bounded related groups without overwriting canonical research.
+
+
+### 2026-09-22 — Skill projection parity completion
+- [x] Corrected the two deterministic `mechanics_notes` mismatches for **Assault Vanish** and **Solar Flare**.
+- [x] Recomputed the projection census and reconciled the remaining **32 `notes` mismatches** from canonical to index.
+- [x] Final skill projection validation: **0 mismatches** across the audited canonical/index projection fields; **452/452** records remain aligned.
+- [ ] Exact next task: perform a wider repository consistency census and select the highest-priority unresolved structural gap outside the skill projection layer.
