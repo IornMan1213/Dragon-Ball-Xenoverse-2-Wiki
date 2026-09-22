@@ -601,3 +601,14 @@
 - Commit: `67e1ef75d97becb093b1c64f9e6127c5aa0c733b`.
 - Runtime execution remains unavailable through the current GitHub connector; no local generator/validator pass is claimed.
 - Exact next batch: perform a complete schema-aware dry-run comparison of all four standalone reverse indexes against their normalized maps, then document any remaining deterministic projection differences before touching unified-index generation.
+
+
+### 2026-09-22 cycle update — complete source-shape audit for PQ reverse-index generation
+- Audited all four normalized PQ source maps and all four standalone reverse indexes directly from the live repository.
+- Identified three source shapes that generation/validation must support: PQ81-120 object-map typed pairs, PQ121-162 record arrays with nested `rewards`, and PQ163-186 record arrays with direct typed domain arrays.
+- Corrected `scripts/generate_pq_reverse_indexes.py` for both the object-map and direct-typed record shapes.
+- Corrected `scripts/validate_pq_reverse_indexes.py` for direct-typed PQ163-186 records as well as the existing object-map/nested-reward forms.
+- Generator/validator remain projection-only and do not infer or rewrite canonical relationships.
+- Commits: `5a378cbae1a5fdc27bb6d416cfe90afe3d45ede2`, `60c4b7f3697d3d674c9d573a8b8c5d464ff3b2d8`, `636f155ff6a21eeefe8bd979f31b2236060572ee`.
+- Runtime execution is still not available through the current GitHub connector, so no execution pass is claimed.
+- Next task: obtain a repository-capable runtime for the generator/validator, or if unavailable, build a static schema/parity audit artifact from the live JSON and explicitly separate static verification from runtime verification.
