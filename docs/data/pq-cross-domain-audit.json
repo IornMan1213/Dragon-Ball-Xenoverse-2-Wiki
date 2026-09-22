@@ -112,7 +112,7 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 840,
+    "total_edges": 862,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
     "stale_count_fields": 0,
@@ -121,7 +121,15 @@
       1
     ],
     "pq_12_14_added": true,
-    "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated."
+    "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated.",
+    "reverse_counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    }
   },
   "non_reward_audit": {
     "date": "2026-09-19",
@@ -169,6 +177,13 @@
         "accessories": 38
       },
       "status": "clean"
+    },
+    "reverse_counts": {
+      "skills": 244,
+      "super_souls": 151,
+      "equipment": 125,
+      "clothing": 87,
+      "accessories": 38
     }
   },
   "schema_documentation_consumer_review": {
@@ -183,32 +198,32 @@
     },
     "counts": {
       "forward": {
-        "skill": 236,
-        "super_soul": 137,
+        "skill": 244,
+        "super_soul": 151,
         "equipment": 125,
         "character": 247,
         "dlc": 88,
         "farming": 7
       },
       "audit": {
-        "skill": 236,
-        "super_soul": 137,
+        "skill": 244,
+        "super_soul": 151,
         "equipment": 125,
         "character": 247,
         "dlc": 88,
         "farming": 7
       },
       "status": {
-        "skill": 236,
-        "super_soul": 137,
+        "skill": 244,
+        "super_soul": 151,
         "equipment": 125,
         "character": 247,
         "dlc": 88,
         "farming": 7
       },
       "reverse": {
-        "skill": 236,
-        "super_soul": 137,
+        "skill": 244,
+        "super_soul": 151,
         "equipment": 125,
         "character": 247,
         "dlc": 88,
@@ -219,9 +234,9 @@
     "reverse_character_alias_count": 5,
     "notes": [
       "All five relationship artifacts use schema_version 1.0.",
-      "Forward, reverse, audit, and status counts agree at 840 total edges.",
       "Reverse index generated_from intentionally names six normalized reward-map files; the canonical 015-020 through 163-186 batch files are separate evidence and are not incorrectly substituted for the partial normalized maps.",
-      "No schema migration or consumer-facing field change is required in this tranche."
+      "No schema migration or consumer-facing field change is required in this tranche.",
+      "All current forward, reverse, audit, and status counts agree at 862 total edges after the 2026-09-22 deterministic reconciliation."
     ]
   },
   "final_stable_baseline": {
