@@ -378,6 +378,45 @@
         73
       ],
       "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Yamcha's Baseball Hat",
+      "canonical_id": "acc-062",
+      "layers": [
+        "canonical_accessory",
+        "accessory_pq",
+        "equipment_endpoint"
+      ],
+      "pq": [
+        97
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Bulma (Kid) Wig",
+      "canonical_id": "acc-059",
+      "layers": [
+        "canonical_accessory",
+        "accessory_pq",
+        "equipment_endpoint"
+      ],
+      "pq": [
+        149
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Red Ribbon Army Helmet",
+      "canonical_id": "acc-060",
+      "layers": [
+        "canonical_accessory",
+        "accessory_pq",
+        "equipment_endpoint"
+      ],
+      "pq": [
+        160
+      ],
+      "status": "partially_verified"
     }
   ],
   "intentional_non_merges": [
@@ -420,5 +459,8 @@
     "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
     "https://dragonball.fandom.com/wiki/Galactic_Receiver",
     "https://dragonball.fandom.com/wiki/Scouter"
+  ],
+  "notes": [
+    "Six legacy equipment accessory endpoints were normalized to canonical acc-### identities in the 2026-09-22 bounded reconciliation batch."
   ]
 }
