@@ -6894,3 +6894,16 @@ The repository owner has clarified the continuation contract:
 - CI: no success claim without an exposed workflow/check.
 - Commits: `342b18637d3efc5d45bd571a8e7c9a145e0ffccd` (canonical), `a4fc162d1712e21639f9ef3d1624b732efd78b6d` (index).
 - Exact next batch: **Kairos Cannon (`skill-kairos-cannon`)**. Recompute the live two-source census first and independently verify its acquisition/DLC endpoint.
+
+
+### 2026-09-21 cycle update — Kairos Cannon provenance strengthening
+- Live census before editing: **452 canonical skill records / 452 index records / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 27 exactly-two-source canonical records**.
+- Bounded batch: **Kairos Cannon (`skill-kairos-cannon`)**.
+- Research/evidence: Dragon Ball Xenoverse 2 Wiki documents Kairos Cannon as the Conton City Tournament Match 2 — "Thinning the Herd" unlock and lists its 100-Ki Ki Blast Super properties; the Dragon Ball Wiki independently corroborates Kairos Cannon as a Chronoa/Supreme Kai of Time skill and its Conton City Tournament acquisition. The existing official Bandai Namco DLC source continues to provide Free Update 11 provenance. cite artifacts are not stored in repository files; repository source URLs remain plain URLs only.
+- Changes: added `https://dragonball.fandom.com/wiki/Kairos_Cannon` as a third provenance source to the canonical Kairos Cannon record in `docs/data/skills.json`; synchronized the same source and verification date in `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21** and documented the corroboration without changing the existing Match 2 acquisition wording.
+- Evidence limits/conflicts preserved: the added source corroborates the skill identity and tournament acquisition but does not justify changing the repository's more specific Match 2 wording, so no acquisition or mechanics fields were rewritten beyond provenance/date/notes.
+- Validation: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 26 exactly-two-source records** after the write; canonical/index source and verification parity is clean; no internal AI/UI/search citation artifacts detected in the changed canonical data.
+- CI: no workflow runs and no combined-status checks were exposed for commit `390b84ea1febfc42473341f213ddabd02f52d3c1`; do not treat that as CI success or failure, and do not weaken validators.
+- Commits: `eab3f7cca8caf6b5553f3a7b3e9e204aeb02d198` (canonical Kairos provenance), `390b84ea1febfc42473341f213ddabd02f52d3c1` (index synchronization).
+- Live census after editing: **26 exactly-two-source records**; the deterministic next low-source record is **Last Emperor (`skill-last-emperor`)**.
+- Exact next batch: recompute the live two-source census, then research **Last Emperor** and independently verify its **PQ71 / Basic Reward** acquisition before adding provenance-only strengthening; preserve existing mechanics, reward semantics, and unresolved evidence boundaries.
