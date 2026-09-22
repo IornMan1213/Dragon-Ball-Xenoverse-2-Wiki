@@ -8,34 +8,18 @@
     "canonical_dlc_edges": 86,
     "identity_targets_with_reverse_pq": 20,
     "missing_reverse_targets": [],
-    "orphan_reverse_targets": [
-      "super-pack-1",
-      "super-pack-2",
-      "super-pack-3",
-      "super-pack-4",
-      "extra-pack-1",
-      "extra-pack-2",
-      "extra-pack-3",
-      "extra-pack-4",
-      "ultra-pack-1",
-      "ultra-pack-2",
-      "legendary-pack-1",
-      "legendary-pack-2",
-      "hero-of-justice-pack-1",
-      "hero-of-justice-pack-2",
-      "conton-city-vote-pack",
-      "dragon-ball-daima-pack",
-      "future-saga-chapter-1",
-      "future-saga-chapter-2",
-      "future-saga-chapter-3",
-      "future-saga-chapter-4"
-    ],
-    "one_way_content_link_records": 3
+    "orphan_reverse_targets": [],
+    "one_way_content_link_records": 3,
+    "reverse_pairs": 86,
+    "forward_edges": 86,
+    "forward_to_reverse_mismatches": 0
   },
   "rules": [
     "PQ→DLC relationships are canonical and authoritative.",
     "Reverse PQ navigation is generated from canonical pq_requires_dlc edges; it never creates new edges.",
     "docs/data/relationships/dlc-content-links.json is a broader content-domain projection and must not be treated as a complete DLC identity index.",
     "Missing downstream content-domain links remain explicit rather than inferred."
-  ]
+  ],
+  "generated": "2026-09-22",
+  "conclusion": "All 20 canonical DLC identity targets have reverse PQ navigation covering all 86 canonical pq_requires_dlc edges. No orphan reverse targets or missing reverse targets remain. This is a projection of canonical relationships and does not create relationships."
 }
