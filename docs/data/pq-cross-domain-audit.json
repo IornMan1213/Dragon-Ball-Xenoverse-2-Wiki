@@ -387,7 +387,7 @@
     },
     "dlc": {
       "forward_edges": 88,
-      "unique_targets": 21,
+      "unique_targets": 20,
       "exact_target_matches_to_pq_requirement_values": 15,
       "source_backed_pack_names_outside_pq_requirement_field": [
         "Super Pack 1",
@@ -410,9 +410,9 @@
     },
     "invariants": {
       "total_relationships_before": 862,
-      "total_relationships_after": 862,
+      "total_relationships_after": 860,
       "character_edges": 247,
-      "dlc_edges": 88,
+      "dlc_edges": 86,
       "duplicate_relationship_keys": 0,
       "invalid_pq_numbers": 0,
       "empty_targets": 0
@@ -423,5 +423,19 @@
       "Super Pack 1-4 are retained as source-backed DLC relationship targets rather than being silently collapsed into the broader Super Pass requirement used by some canonical PQ records.",
       "Only the case-only FUTURE SAGA Chapter 4 duplicate was normalized because the canonical PQ records establish the exact display spelling."
     ]
+  },
+  "current_final_state_2026_09_22": {
+    "total_edges": 860,
+    "counts": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7
+    },
+    "duplicate_relationship_keys": 0,
+    "invalid_pq_numbers": 0,
+    "empty_targets": 0
   }
 }
