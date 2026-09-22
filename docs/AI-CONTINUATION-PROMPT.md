@@ -2375,3 +2375,15 @@
 - Rechecked mentor/PQ acquisition evidence and preserved existing acquisition semantics where no direct contradiction was established.
 - Validation target: six records set to 2026-09-22; canonical/index parity and audit registration to be verified before merge. CI success is not claimed.
 - Next target: recompute live stale census and continue with the next stale records beginning Data Input / Dead End Rain / Deadly Dance, batching adjacent skills where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Data Input through Death Slicer provenance refresh
+- [x] Fresh live census after the prior Dancing-through-Darkness batch: **452 canonical skills / 452 index records / 0 duplicate IDs / 357 stale before this batch**.
+- [x] Bounded provenance batch completed for **Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, Death Crasher, Death Psycho Bomb, Death Slash, and Death Slicer**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all nine records and synchronized shared identity/classification fields.
+- [x] Research corrections/enrichment: Data Input mechanics now document the approximately 20-second stationary auto-dodge; Dead End Rain documents its 22-hit overhead barrage; Deadly Dance documents its five-hit kick/deflection/launch behavior; Death Ball documents the current 400-Ki tracking 18-hit presentation; Death Beam documents three rapid beam inputs; Death Crasher documents its chargeable rush; Death Psycho Bomb documents its psychic trap/grab; Death Slicer documents its tracking follow-up input.
+- [x] **Death Slash** received a substantive deterministic correction: current dedicated Xenoverse 2 evidence classifies it as a **Ki Blast Super**, so canonical/index `subcategory` and `damage_type` were corrected from Strike to Ki Blast while preserving the existing PQ23 acquisition endpoint.
+- [x] Created dedicated provenance audit files for Data Input, Dead End Rain, Deadly Dance, Death Ball, Death Beam, and Death Crasher. The remaining three refreshed records retain their existing provenance/audit coverage until the audit-file write path is available without tool safety blocking.
+- [x] Static validation: **452/452** canonical/index records, **0 duplicate canonical IDs**, **351 stale canonical records remain**, and all nine bounded records have `last_verified: 2026-09-22`; canonical/index name/class/subcategory parity is clean for all nine.
+- [ ] Runtime/CI execution remains unavailable; no CI success is claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with the next stale records after Death Slicer: **Demon Flash Strike** and adjacent stale records where evidence remains bounded. Preserve canonical identity, acquisition semantics, and source conflicts; do not invent probabilities or gates.
