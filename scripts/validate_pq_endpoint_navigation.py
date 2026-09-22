@@ -2,7 +2,8 @@
 """Validate canonical PQ endpoint navigation without promoting evidence layers.
 
 Canonical relationship data is authoritative. This validator checks exact endpoint
-resolution for skills, Super Souls, equipment/accessories, and characters, plus the standalone canonical DLC identity layer.
+resolution, canonical PQ identity resolution, and duplicate structured (PQ,target)
+pairs for every registered relationship domain, plus the explicit alias/granularity bridge.
 """
 from __future__ import annotations
 
@@ -42,6 +43,9 @@ def canonical_names(data, domain):
 
 def main() -> int:
     relationships = load(REL).get("verified_relationships", [])
+    pq_records = load(DATA / "parallel-quests-record-layer.json").get("records", [])
+    canonical_pq_ids = {record.get("id") for record in pq_records if record.get("id")}
+    canonical_pq_numbers = {record.get("number") for record in pq_records}
     bridge = load(BRIDGE)
 
     dlc_names = {record["name"] for record in load(DLC).get("records", []) if record.get("name")}
@@ -56,7 +60,10 @@ def main() -> int:
     results = {}
     failures = []
     for domain, relationship in DOMAIN_TO_REL.items():
-        edges = [e for e in relationships if e.get("relationship") == relationship]
+        edges = [e for e in relationships if e.get("relationship") == relationship and e.get("pq") and e.get("target")]
+        pairs = [(e.get("pq"), e.get("target")) for e in edges]
+        duplicate_pair_count = len(pairs) - len(set(pairs))
+        invalid_pq_ids = sorted({e.get("pq") for e in edges if e.get("pq") not in canonical_pq_ids})
         targets = sorted({e.get("target") for e in edges if e.get("target")})
         if domain == "dlc":
             missing = [name for name in targets if name not in dlc_names]
@@ -72,11 +79,18 @@ def main() -> int:
             "unique_target_count": len(targets),
             "missing_target_count": len(missing),
             "missing_targets": missing,
-            "status": status,
+            "duplicate_pair_count": duplicate_pair_count,
+            "invalid_pq_id_count": len(invalid_pq_ids),
+            "invalid_pq_ids": invalid_pq_ids,
+            "status": status if not duplicate_pair_count and not invalid_pq_ids else "unresolved",
             "note": note,
         }
         if missing:
             failures.extend(f"{domain}: {name}" for name in missing)
+        if duplicate_pair_count:
+            failures.append(f"{domain}: duplicate (PQ,target) pairs={duplicate_pair_count}")
+        if invalid_pq_ids:
+            failures.extend(f"{domain}: invalid PQ id {pq}" for pq in invalid_pq_ids)
 
     bridge_checks = []
     for item in bridge.get("equipment", []):
@@ -97,7 +111,7 @@ def main() -> int:
         })
 
     report = {
-        "schema_version": "1.0.0",
+        "schema_version": "1.1.0",
         "scope": "PQ 1-186 canonical endpoint navigation",
         "source_of_truth": str(REL.relative_to(ROOT)),
         "canonical_identity_layers": {
@@ -106,6 +120,12 @@ def main() -> int:
             "equipment": str(EQUIPMENT.relative_to(ROOT)),
             "characters": str(CHARACTERS.relative_to(ROOT)),
             "dlc": str(DLC.relative_to(ROOT)),
+        },
+        "canonical_pq_identity": {
+            "record_count": len(pq_records),
+            "unique_id_count": len(canonical_pq_ids),
+            "unique_number_count": len(canonical_pq_numbers),
+            "expected_number_range": "1-186",
         },
         "results": results,
         "bridge_checks": bridge_checks,
