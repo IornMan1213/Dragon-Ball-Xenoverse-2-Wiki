@@ -4554,7 +4554,7 @@
       ],
       "unlock_method": "Parallel Quest 164 — Ultimate Finish (40%).",
       "ultimate_finish_required": true,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-21",
       "race_restriction": "All CaC races",
       "notes": "2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred.",
       "mechanics_notes": "Uses 600 Ki and can consume 400 Stamina to continue the attack while taking damage. Requires an Awoken Skill for CaCs; Broly (Restrained) can use it without separately activating an Awoken Skill. The skill page lists PQ164 as the unlock quest. 2026-09-20 verification: current skill page identifies PQ164 as the unlock; maintained drop-condition data documents the Ultimate Finish route. 2026-09-20 reward-tier refinement: maintained PQ data documents this as the Ultimate Finish (40%) route; the recorded condition is preserved without inference beyond the maintained corpus.",
