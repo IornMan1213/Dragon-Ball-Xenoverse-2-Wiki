@@ -7,3 +7,11 @@
 - [x] Preserved the existing Basic Reward, PQ45, CaC, 0-Ki Power Up, and no-Ultimate-Finish-only semantics; no unsupported drop probability was inferred.
 - [x] Post-write target: **8 exactly-two-source records** with canonical/index source parity.
 - [ ] Exact next task: recompute the live two-source census and continue with the next deterministic low-source record after Taunt, verifying acquisition/source semantics before provenance-only strengthening.
+
+
+### 2026-09-21 — Temporal Holy Ray low-source provenance strengthening
+- [x] Recomputed the live low-source sequence after Taunt; **Temporal Holy Ray** was the next deterministic exactly-two-source skill.
+- [x] Independently corroborated **Temporal Holy Ray** as a **Conton City Tournament 3 — "Time for the Quarterfinals!"** acquisition using GameFAQs tournament documentation.
+- [x] Added the GameFAQs source to canonical and index records and refreshed `last_verified` to **2026-09-21**.
+- [x] Preserved existing Free Update 11 provenance and did not infer a drop probability.
+- [ ] Exact next task: recompute the live two-source census and continue the next deterministic low-source record after Temporal Holy Ray.
