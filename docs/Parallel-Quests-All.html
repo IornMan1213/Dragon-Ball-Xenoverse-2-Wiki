@@ -24,6 +24,12 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
   const normalize=v=>String(v??'').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'');
   const searchUrl=(term)=>'{{ "/Search/" | relative_url }}?q='+encodeURIComponent(term);
   let records=[];
+  let characterByPq={};
+  function characterLinks(pqId){
+    const values=characterByPq[pqId]||[];
+    if(!values.length) return '';
+    return '<div class="pq-links"><strong>Characters:</strong> '+values.map(v=>'<a href="'+escapeHtml(searchUrl(v))+'">'+escapeHtml(v)+'</a>').join(', ')+'</div>';
+  }
   function rewardLinks(values,label){
     if(!Array.isArray(values)||!values.length) return '';
     return '<div class="pq-links"><strong>'+label+':</strong> '+values.map(v=>'<a href="'+escapeHtml(searchUrl(v))+'">'+escapeHtml(v)+'</a>').join(', ')+'</div>';
@@ -43,14 +49,23 @@ Search the **canonical local PQ record layer**. This explorer does not substitut
       const objectives=(r.objectives||[]).slice(0,3);
       const uf=(r.ultimate_finish||[]).slice(0,2);
       const meta=[r.dlc_requirement?'DLC: '+r.dlc_requirement:'',r.unlock_method?'Unlock: '+r.unlock_method:'',r.last_verified?'Verified: '+r.last_verified:''].filter(Boolean);
-      return '<article class="card" id="'+escapeHtml(r.id)+'"><span class="tag">PQ '+escapeHtml(r.number)+' · '+escapeHtml(r.difficulty)+'★ · '+escapeHtml(r.verification_status||'indexed')+'</span><h3>'+escapeHtml(r.name)+'</h3><p><strong>Objectives:</strong> '+escapeHtml(objectives.join(' • ')||'Not yet populated')+'</p><p><strong>Ultimate Finish:</strong> '+escapeHtml(uf.join(' • ')||'Not yet populated')+'</p>'+rewardLinks(r.skill_rewards,'Skills')+rewardLinks(r.super_soul_rewards,'Super Souls')+rewardLinks(r.equipment_rewards,'Equipment')+(rewards.length?'<p><strong>Rewards:</strong> '+escapeHtml(rewards.join(' • '))+'</p>':'')+(meta.length?'<p class="pq-meta">'+escapeHtml(meta.join(' • '))+'</p>':'')+'<p><a href="'+escapeHtml(searchUrl('PQ '+r.number+' '+r.name))+'">Search this PQ in the published wiki ↗</a></p></article>';
+      return '<article class="card" id="'+escapeHtml(r.id)+'"><span class="tag">PQ '+escapeHtml(r.number)+' · '+escapeHtml(r.difficulty)+'★ · '+escapeHtml(r.verification_status||'indexed')+'</span><h3>'+escapeHtml(r.name)+'</h3><p><strong>Objectives:</strong> '+escapeHtml(objectives.join(' • ')||'Not yet populated')+'</p><p><strong>Ultimate Finish:</strong> '+escapeHtml(uf.join(' • ')||'Not yet populated')+'</p>'+rewardLinks(r.skill_rewards,'Skills')+rewardLinks(r.super_soul_rewards,'Super Souls')+rewardLinks(r.equipment_rewards,'Equipment')+(rewards.length?'<p><strong>Rewards:</strong> '+escapeHtml(rewards.join(' • '))+'</p>':'')+characterLinks(r.id)+(meta.length?'<p class="pq-meta">'+escapeHtml(meta.join(' • '))+'</p>':'')+'<p><a href="'+escapeHtml(searchUrl('PQ '+r.number+' '+r.name))+'">Search this PQ in the published wiki ↗</a></p></article>';
     }).join('');
   }
   try{
-    const res=await fetch(localUrl,{cache:'no-store'});
-    if(!res.ok) throw new Error('Local PQ record layer returned '+res.status);
-    const data=await res.json();
+    const [pqRes,relRes]=await Promise.all([
+      fetch(localUrl,{cache:'no-store'}),
+      fetch('{{ "/data/pq-reward-relationships.json" | relative_url }}',{cache:'no-store'})
+    ]);
+    if(!pqRes.ok) throw new Error('Local PQ record layer returned '+pqRes.status);
+    if(!relRes.ok) throw new Error('Canonical PQ relationship layer returned '+relRes.status);
+    const data=await pqRes.json(), rel=await relRes.json();
     records=Array.isArray(data.records)?data.records:[];
+    for(const edge of (rel.verified_relationships||[])){
+      if(edge.relationship!=='pq_features_character'||!edge.pq||!edge.target) continue;
+      (characterByPq[edge.pq]??=[]).push(edge.target);
+    }
+    for(const key of Object.keys(characterByPq)) characterByPq[key]=[...new Set(characterByPq[key])].sort();
     render();
   }catch(e){
     stats.textContent='The canonical local PQ record layer could not be loaded.';
