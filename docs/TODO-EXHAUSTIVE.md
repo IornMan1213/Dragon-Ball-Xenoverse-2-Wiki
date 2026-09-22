@@ -154,3 +154,13 @@
 - [x] Post-write reconciliation now reports **0 mismatches** for Skills, Super Souls, and Equipment.
 - [x] Preserved the canonical-source-of-truth rule: downstream reports are projections of canonical records; verification/source-backed status does not override canonical identities.
 - [ ] Next structural task: reconcile the separate accessory relationship layer with the canonical PQ reward model without collapsing accessories into equipment or inventing an `accessory_rewards` field unless the schema contract explicitly requires it.
+
+## 2026-09-22 — PQ accessory relationship-layer reconciliation
+- [x] Audited `pq-accessory-crosslink-report.json`, `accessory-pq-canonical-bridge.json`, `accessory-pq-canonical-remaining.json`, and the canonical equipment/accessory identity layer against the cross-link contract.
+- [x] Found and removed stale `accr-###` relationship endpoints: those IDs do not exist in the current canonical accessory layer, whose live accessory identities use `acc-###`.
+- [x] Reconciled the 8 exact-name matches that have real current canonical accessory identities: Piccolo's Turban, Goku's Wig, Android 19's Hat, Tapion's Sword, Yamcha's Sword, Pan's Bandana, Great Saiyaman Helmet, and Goku Wig (Super Saiyan).
+- [x] Rebuilt the PQ accessory report: **8 forward / 8 reverse / 0 stale IDs / 0 duplicate edges**.
+- [x] Preserved **37 unresolved research records** instead of inventing accessory identities from clothing/set names or stale historical IDs.
+- [x] Refreshed the canonical bridge and unresolved backlog so they now reflect the live canonical accessory layer.
+- [x] Kept accessories as a distinct relationship domain; no unsupported `accessory_rewards` field was added to canonical PQ records.
+- [ ] Next structural task: expand/reconcile the remaining 37 accessory research leads against independent inventory-level evidence and promote only exact canonical identities into the bridge/report.
