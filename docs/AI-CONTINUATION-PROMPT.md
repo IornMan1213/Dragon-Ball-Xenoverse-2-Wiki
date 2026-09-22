@@ -833,3 +833,12 @@
 - [x] Registered the bridge and validator in `docs/data/pq-cross-domain-index.json`.
 - [x] Preserved explicit naming boundaries, including `frieza-first-form` → `Frieza (1st Form)` and `rose-goku-black` → `Rosé Goku Black`; no slug inference is used as canonical truth.
 - [x] Exact next batch: audit DLC presentation consumers and future-saga content maps for `dlc_id` resolution against the 20-record canonical DLC identity layer.
+
+
+### 2026-09-22 — DLC presentation consumer and Future Saga identity audit
+- [x] Audited the live canonical DLC identity layer against the three existing DLC content-domain projection records, the Future Saga content map, and the published DLC overview navigation.
+- [x] Added `scripts/validate_dlc_presentation_consumers.py` to enforce deterministic `dlc_id` resolution for DLC presentation consumers and Future Saga Chapters 1–4.
+- [x] Added `docs/data/dlc/dlc-presentation-consumer-audit.json` with the current identity-resolution result: **20/20 canonical DLC identities resolved; 6/6 DLC projection references resolved; 4/4 Future Saga chapter references resolved; chapter set exactly 1–4; 0 unresolved identity targets**.
+- [x] Registered the validator and audit in `docs/data/pq-cross-domain-index.json` and exposed the Future Saga content map plus presentation audit from `docs/DLC-Overview.md`.
+- [x] Preserved the canonical-source-of-truth rule: no DLC identity, PQ relationship, or content-domain relationship was inferred or renamed. The audit only proves identity/navigation resolution; missing concrete content records remain unresolved.
+- [ ] Exact next task: inspect remaining published character/DLC pages and structured indexes for direct external-corpus dependencies and stale/non-canonical navigation; then repair only deterministic local consumers. After that, continue exhaustive DLC content-domain reconciliation from existing canonical records.
