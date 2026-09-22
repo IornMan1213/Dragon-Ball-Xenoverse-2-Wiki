@@ -63,7 +63,9 @@
       "skill_rewards": [
         "Spirit Slash"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Goku's Damaged Turtle Hermit Gi"
+      ],
       "super_soul_rewards": [
         "Flying Nimbus!!"
       ],
@@ -107,7 +109,10 @@
       "skill_rewards": [
         "Solar Flare"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Demon Clothes (Piccolo, with Cape)",
+        "Piccolo's Turban"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
       "verification_status": "partially_verified",
@@ -146,7 +151,10 @@
       "skill_rewards": [
         "Paralyze Beam"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Demon Clothes (Gohan, Kid)",
+        "Goku's Turtle Hermit Gi"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
       "verification_status": "partially_verified",
@@ -186,7 +194,9 @@
       "skill_rewards": [
         "Kamehameha"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Four-Star Dragon Ball Hat"
+      ],
       "super_soul_rewards": [
         "Your death is imminent!"
       ],
@@ -307,7 +317,9 @@
       "skill_rewards": [
         "Kaioken"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Goku's Turtle Hermit Gi (King Kai)"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
       "verification_status": "partially_verified",
@@ -345,7 +357,9 @@
       "skill_rewards": [
         "Meteor Blow"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Chiaotzu's Hat (With Collar)"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
       "verification_status": "partially_verified",
@@ -467,9 +481,12 @@
       "skill_rewards": [
         "Meteor Crash"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Battle Suit (Turles)"
+      ],
       "super_soul_rewards": [
-        "H-How could he?!"
+        "H-How could he?!",
+        "I actually felt that one..."
       ],
       "dragon_ball_farming": null,
       "verification_status": "partially_verified",
@@ -507,7 +524,9 @@
         "Fighting Pose C",
         "Psycho Escape"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Battle Suit (Ginyu Force Black)"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
       "verification_status": "partially_verified",
@@ -546,7 +565,9 @@
       "skill_rewards": [
         "Kaioken Kamehameha"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Goku's Turtle Hermit Gi (Go)"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
       "verification_status": "partially_verified",
@@ -832,10 +853,13 @@
         "Evil Flight Strike"
       ],
       "equipment_rewards": [
-        "Battle Suit (Krillin)"
+        "Battle Suit (Krillin)",
+        "Hercule's Clothes",
+        "Tien Shinhan's Gi"
       ],
       "super_soul_rewards": [
-        "I am the universe's strongest!"
+        "I am the universe's strongest!",
+        "I'm neither Kami nor Piccolo..."
       ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
@@ -1928,11 +1952,10 @@
         "Trunks"
       ],
       "rewards": [
-        "Kamekameha"
+        "Kamehameha"
       ],
       "skill_rewards": [
-        "Kamehameha",
-        "Kamekameha"
+        "Kamehameha"
       ],
       "equipment_rewards": [],
       "super_soul_rewards": [],
@@ -1971,8 +1994,12 @@
       "skill_rewards": [
         "Do or Die"
       ],
-      "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "equipment_rewards": [
+        "Piccolo's School Clothes"
+      ],
+      "super_soul_rewards": [
+        "Do or Die"
+      ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
@@ -2405,6 +2432,9 @@
       "skill_ids": [
         "skill-recoome-kick",
         "skill-fighting-pose-h"
+      ],
+      "equipment_rewards": [
+        "Battle Suit (CC)"
       ]
     },
     {
@@ -2434,6 +2464,9 @@
       ],
       "skill_ids": [
         "skill-teleporting-vanishing-ball"
+      ],
+      "equipment_rewards": [
+        "Frieza's Suit (Final Form)"
       ]
     },
     {
@@ -2465,6 +2498,12 @@
       ],
       "skill_ids": [
         "skill-kai-kai"
+      ],
+      "super_soul_rewards": [
+        "Before creation comes ruin..."
+      ],
+      "equipment_rewards": [
+        "Goku Wig (Super Saiyan)"
       ]
     },
     {
@@ -2495,6 +2534,9 @@
       ],
       "skill_ids": [
         "skill-ill-rain"
+      ],
+      "super_soul_rewards": [
+        "Janemba! Janemba!"
       ]
     },
     {
@@ -2526,6 +2568,12 @@
       ],
       "skill_ids": [
         "skill-scissors-paper-rock"
+      ],
+      "super_soul_rewards": [
+        "I never knew this world existed!"
+      ],
+      "equipment_rewards": [
+        "Gohan's Gi (Adult)"
       ]
     },
     {
@@ -2557,6 +2605,9 @@
       "skill_ids": [
         "skill-candy-beam",
         "skill-warp-kamehameha"
+      ],
+      "equipment_rewards": [
+        "SSGSS Goku Wig"
       ]
     },
     {
@@ -2798,6 +2849,9 @@
       ],
       "skill_ids": [
         "skill-warp-kamehameha"
+      ],
+      "equipment_rewards": [
+        "Whis Symbol Gi"
       ]
     },
     {
@@ -2883,6 +2937,9 @@
       ],
       "skill_ids": [
         "skill-mighty-explosive-wave"
+      ],
+      "equipment_rewards": [
+        "Vegeta's Shirt"
       ]
     },
     {
@@ -3216,6 +3273,12 @@
       ],
       "skill_ids": [
         "skill-maiden-burst"
+      ],
+      "super_soul_rewards": [
+        "Everyone, lend me your energy!"
+      ],
+      "equipment_rewards": [
+        "GT Goku's Gi"
       ]
     },
     {
@@ -3238,10 +3301,15 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "super_soul_rewards": [
-        "I...hate you!!!"
+        "I...hate you!!!",
+        "Finally, some excitement."
       ],
       "super_soul_ids": [
         "super-soul-060"
+      ],
+      "equipment_rewards": [
+        "Pan's Clothes",
+        "Pan's Bandanna"
       ]
     },
     {
@@ -3265,6 +3333,9 @@
       ],
       "skill_ids": [
         "skill-bluff-kamehameha"
+      ],
+      "super_soul_rewards": [
+        "Strengthen me, Shadow Dragons!"
       ]
     },
     {
@@ -3290,6 +3361,9 @@
       "skill_ids": [
         "skill-flash-bomber",
         "skill-drain-field"
+      ],
+      "equipment_rewards": [
+        "Super 17's Clothes"
       ]
     },
     {
@@ -3313,6 +3387,9 @@
       ],
       "skill_ids": [
         "skill-absolute-zero"
+      ],
+      "equipment_rewards": [
+        "GT Vegeta's Jacket"
       ]
     },
     {
@@ -3338,6 +3415,13 @@
       "skill_ids": [
         "skill-charged-ki-wave",
         "skill-phantom-fist"
+      ],
+      "super_soul_rewards": [
+        "Someone, satisfy me...",
+        "Revival of the Demon Realm is at hand"
+      ],
+      "equipment_rewards": [
+        "Yamcha's Baseball Hat"
       ]
     },
     {
@@ -3361,6 +3445,9 @@
       ],
       "skill_ids": [
         "skill-dimension-ray"
+      ],
+      "equipment_rewards": [
+        "Lord Slug's Clothes"
       ]
     },
     {
@@ -3388,6 +3475,9 @@
       ],
       "skill_ids": [
         "skill-emperor-s-edge"
+      ],
+      "equipment_rewards": [
+        "Mr. Shape Up L"
       ]
     },
     {
@@ -3416,6 +3506,10 @@
       ],
       "skill_ids": [
         "skill-x-100-big-bang-kamehameha"
+      ],
+      "equipment_rewards": [
+        "Whis Symbol Battle Suit",
+        "SSGSS Vegeta Wig"
       ]
     },
     {
@@ -3443,6 +3537,9 @@
       ],
       "skill_ids": [
         "skill-breaker-energy-wave"
+      ],
+      "equipment_rewards": [
+        "Champa's Clothes"
       ]
     },
     {
@@ -3467,7 +3564,14 @@
         "Battle Suit (Cabba)"
       ],
       "verification_status": "partially_verified",
-      "skill_rewards": []
+      "skill_rewards": [],
+      "super_soul_rewards": [
+        "I'll make you regret that!",
+        "Don't quit! Get up!"
+      ],
+      "equipment_rewards": [
+        "Battle Suit (Cabba)"
+      ]
     },
     {
       "id": "pq-103",
@@ -3490,7 +3594,12 @@
         "Now you understand. Surrender."
       ],
       "verification_status": "partially_verified",
-      "skill_rewards": []
+      "skill_rewards": [],
+      "super_soul_rewards": [
+        "This is not a weapon.",
+        "I've been saving this! Kaioken!",
+        "Now you understand. Surrender."
+      ]
     },
     {
       "id": "pq-104",
@@ -3521,6 +3630,12 @@
       "skill_ids": [
         "skill-destruction-s-concerto-comet",
         "skill-destruction-s-concerto-starfall"
+      ],
+      "super_soul_rewards": [
+        "How Dare You...! That's My Bulma"
+      ],
+      "equipment_rewards": [
+        "Android 14's Clothes"
       ]
     },
     {
@@ -3561,7 +3676,11 @@
         "super-soul-071"
       ],
       "super_soul_rewards": [
-        "Buu Don't Wanna!"
+        "Buu Don't Wanna!",
+        "Me...Protecting Some Pipsqueak"
+      ],
+      "equipment_rewards": [
+        "Android 13's Clothes"
       ]
     },
     {
@@ -3597,6 +3716,14 @@
         "skill-destruction-s-concerto-meteor",
         "skill-requiem-of-destruction",
         "skill-destruction-s-conductor"
+      ],
+      "super_soul_rewards": [
+        "You're Just Pieces in a Game",
+        "Watch Your Tongue",
+        "Eehee hee hee heee!"
+      ],
+      "equipment_rewards": [
+        "Super Android 13's Clothes"
       ]
     },
     {
@@ -3625,6 +3752,9 @@
       ],
       "super_soul_rewards": [
         "You can't win..."
+      ],
+      "equipment_rewards": [
+        "Future Mai's Clothes"
       ]
     },
     {
@@ -3647,7 +3777,14 @@
         "Eehee hee hee heee!"
       ],
       "verification_status": "partially_verified",
-      "skill_rewards": []
+      "skill_rewards": [],
+      "super_soul_rewards": [
+        "Now, give your father a message for me.",
+        "Eehee hee hee heee!"
+      ],
+      "equipment_rewards": [
+        "Goku Black's Clothes"
+      ]
     },
     {
       "id": "pq-109",
@@ -3676,6 +3813,13 @@
       ],
       "skill_ids": [
         "skill-super-black-kamehameha-rose"
+      ],
+      "super_soul_rewards": [
+        "I really do love being immortal.",
+        "I like you better when you're mad!"
+      ],
+      "equipment_rewards": [
+        "Zamasu's Clothes"
       ]
     },
     {
@@ -3705,6 +3849,14 @@
       ],
       "skill_ids": [
         "skill-divinity-unleashed"
+      ],
+      "super_soul_rewards": [
+        "This fight is only just beginning!",
+        "I shall show you my great godly might!"
+      ],
+      "equipment_rewards": [
+        "Super Saiyan 4 Suit (Goku)",
+        "SS4 Wig & Tail (Goku)"
       ]
     },
     {
@@ -3737,6 +3889,13 @@
       "skill_ids": [
         "skill-lightning-of-absolution",
         "skill-holy-wrath"
+      ],
+      "super_soul_rewards": [
+        "I feel it... Everyone, lend me your power!"
+      ],
+      "equipment_rewards": [
+        "Resistance Clothes",
+        "Resistance Helmet"
       ]
     },
     {
@@ -3768,6 +3927,11 @@
       "skill_ids": [
         "skill-blades-of-judgment",
         "skill-divine-wrath-purification"
+      ],
+      "super_soul_rewards": [
+        "Sorry. You were way open there.",
+        "I ain't losin'! Here's my full power!",
+        "I'm never going to forgive him!"
       ]
     },
     {
@@ -3802,6 +3966,10 @@
         "skill-super-ghost-buu-attack",
         "skill-candy-beam-super",
         "skill-candy-beam"
+      ],
+      "super_soul_rewards": [
+        "I'll make good use of you!",
+        "I'm stronger than ever now!"
       ]
     },
     {
@@ -3833,6 +4001,13 @@
       "skill_ids": [
         "skill-petrifying-spit",
         "skill-evil-blast"
+      ],
+      "super_soul_rewards": [
+        "The real fight starts now!"
+      ],
+      "equipment_rewards": [
+        "Pride Trooper Uniform",
+        "Toppo's Moustache"
       ]
     },
     {
@@ -3866,6 +4041,13 @@
       "skill_ids": [
         "skill-handy-canon",
         "skill-s-s-deadly-bomber"
+      ],
+      "super_soul_rewards": [
+        "Looks like you're done!"
+      ],
+      "equipment_rewards": [
+        "Ribrianne's Clothes",
+        "Ribrianne's Hood"
       ]
     },
     {
@@ -3896,6 +4078,10 @@
       "skill_ids": [
         "skill-brave-sword-slash",
         "skill-hero-s-flute"
+      ],
+      "super_soul_rewards": [
+        "If I don't do it, who will?",
+        "Earth is in your hands now!"
       ]
     },
     {
@@ -3926,6 +4112,9 @@
       "skill_ids": [
         "skill-evil-flame",
         "skill-brave-sword-attack"
+      ],
+      "super_soul_rewards": [
+        "Get serious, would you?"
       ]
     },
     {
@@ -3953,7 +4142,8 @@
         "super-soul-068"
       ],
       "super_soul_rewards": [
-        "Now we're even."
+        "Now we're even.",
+        "I hate what I've become!"
       ]
     },
     {
@@ -3981,6 +4171,9 @@
       ],
       "skill_ids": [
         "skill-rough-ranger"
+      ],
+      "super_soul_rewards": [
+        "Time to get serious, I guess."
       ]
     },
     {
@@ -4009,6 +4202,10 @@
       ],
       "skill_ids": [
         "skill-power-impact"
+      ],
+      "super_soul_rewards": [
+        "Hmph! For justice!",
+        "This heat...will be your downfall!"
       ]
     },
     {
@@ -4035,6 +4232,13 @@
       "skill_rewards": [],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "Right, then... Let's begin the experiment!"
+      ],
+      "equipment_rewards": [
+        "Tuxedo",
+        "Wedding Dress"
       ]
     },
     {
@@ -4071,6 +4275,10 @@
       "skill_ids": [
         "skill-meditation",
         "skill-power-rush"
+      ],
+      "super_soul_rewards": [
+        "For beauty! For elegance! For love!",
+        "This Super Saiyan 2 is crazy strong!"
       ]
     },
     {
@@ -4103,6 +4311,9 @@
       "skill_ids": [
         "skill-reverse-shot",
         "skill-variant-drive"
+      ],
+      "equipment_rewards": [
+        "Arabian Costume"
       ]
     },
     {
@@ -4132,6 +4343,9 @@
       ],
       "skill_ids": [
         "skill-revenge-final-flash"
+      ],
+      "super_soul_rewards": [
+        "Don't think I'm the same as before!"
       ]
     },
     {
@@ -4164,6 +4378,9 @@
       "skill_ids": [
         "skill-blaster-ball",
         "skill-ray-blast"
+      ],
+      "equipment_rewards": [
+        "Goku Wig (Ultra Instinct)"
       ]
     },
     {
@@ -4193,6 +4410,9 @@
       ],
       "skill_ids": [
         "skill-gigantic-breaker"
+      ],
+      "super_soul_rewards": [
+        "Alright! Let's go wreck some faces!"
       ]
     },
     {
@@ -4226,6 +4446,10 @@
       "skill_ids": [
         "skill-gigantic-burst",
         "skill-revenge-death-ball"
+      ],
+      "equipment_rewards": [
+        "Janemba Suit",
+        "Janemba Head"
       ]
     },
     {
@@ -4260,6 +4484,11 @@
       "skill_ids": [
         "skill-powered-shell",
         "skill-gigantic-charge"
+      ],
+      "super_soul_rewards": [
+        "GAAAGH!",
+        "Your father has been killed!",
+        "I've waited an unbelievably long time for this..."
       ]
     },
     {
@@ -4294,6 +4523,11 @@
       "skill_ids": [
         "skill-spirit-blaster",
         "skill-punisher-shield"
+      ],
+      "super_soul_rewards": [
+        "Heh heh! Now THIS is real power!",
+        "Hey, you think you could fight a little quieter?!",
+        "Don't think I'm gonna show you any gratitude!"
       ]
     },
     {
@@ -4326,6 +4560,14 @@
       ],
       "skill_ids": [
         "skill-gigantic-rage"
+      ],
+      "super_soul_rewards": [
+        "Hey, you! You ready for me?!",
+        "Hmph. I'm off to take a nap.",
+        "Th-Thanks..."
+      ],
+      "equipment_rewards": [
+        "Broly (Full Power Super Saiyan)'s Clothes"
       ]
     },
     {
@@ -4360,10 +4602,15 @@
         "skill-assault-vanish"
       ],
       "super_soul_rewards": [
-        "Leave the rest to me!"
+        "Leave the rest to me!",
+        "You'd better survive, you got that?!",
+        "Shall we pick up where we left off?"
       ],
       "super_soul_ids": [
         "super-soul-055"
+      ],
+      "equipment_rewards": [
+        "SSGSS Gogeta's Clothes"
       ]
     },
     {
@@ -4399,6 +4646,14 @@
       "skill_ids": [
         "skill-god-punisher",
         "skill-gigantic-roar"
+      ],
+      "super_soul_rewards": [
+        "Whoa, it's freezing here!",
+        "This is no time to mess around...",
+        "I can't have you dying on me!"
+      ],
+      "equipment_rewards": [
+        "Broly Wig (Legendary Super Saiyan)"
       ]
     },
     {
@@ -4440,7 +4695,13 @@
         "super-soul-067"
       ],
       "super_soul_rewards": [
-        "Here it comes!"
+        "Here it comes!",
+        "I got my claws in you, and fangs too!"
+      ],
+      "equipment_rewards": [
+        "Kakunsa's Clothes",
+        "Kakunsa's Wig and Mask",
+        "Kakunsa's Tail"
       ]
     },
     {
@@ -4473,6 +4734,9 @@
       "skill_ids": [
         "skill-ultimate-charge",
         "skill-burst-charge"
+      ],
+      "super_soul_rewards": [
+        "Power! A lotta power! It's great!"
       ]
     },
     {
@@ -4510,6 +4774,10 @@
       ],
       "super_soul_rewards": [
         "That won't work on me!"
+      ],
+      "equipment_rewards": [
+        "Rozie's Clothes",
+        "Rozie's Hood and Goggles"
       ]
     },
     {
@@ -4546,6 +4814,10 @@
         "skill-burst-stinger",
         "skill-raid-blast",
         "skill-blazing-attack"
+      ],
+      "super_soul_rewards": [
+        "Pathetic",
+        "Justice is nothing to me now."
       ]
     },
     {
@@ -4579,6 +4851,10 @@
       "skill_ids": [
         "skill-ribrianne-s-eternal-love",
         "skill-prominence-flash"
+      ],
+      "super_soul_rewards": [
+        "This is everything I've got!",
+        "That heat... I'll have to match it."
       ]
     },
     {
@@ -4609,6 +4885,10 @@
       ],
       "skill_ids": [
         "skill-flash-chaser"
+      ],
+      "super_soul_rewards": [
+        "I'm not gonna die until I defeat you!",
+        "I just flew around the whole world!"
       ]
     },
     {
@@ -4643,6 +4923,11 @@
       "skill_ids": [
         "skill-total-detonation-ball",
         "skill-photon-swipe"
+      ],
+      "equipment_rewards": [
+        "Android 21's Lab Uniform",
+        "Universe 7 Baseball Uniform",
+        "Universe 7 Baseball Cap"
       ]
     },
     {
@@ -4673,6 +4958,10 @@
       ],
       "skill_ids": [
         "skill-savory-slicer"
+      ],
+      "super_soul_rewards": [
+        "This thing carries hopes of everyone on Earth!",
+        "Now then, time for another delightful hunt!"
       ]
     },
     {
@@ -4706,6 +4995,10 @@
       "skill_ids": [
         "skill-dragon-blitz",
         "skill-brutal-buster"
+      ],
+      "super_soul_rewards": [
+        "D-Don't talk bad about my family!",
+        "This oughta make things interesting."
       ]
     },
     {
@@ -4739,6 +5032,12 @@
       "skill_ids": [
         "skill-lightning-impact",
         "skill-excellent-full-course"
+      ],
+      "super_soul_rewards": [
+        "I don't want them to get hurt!"
+      ],
+      "equipment_rewards": [
+        "Universe 6 Baseball Uniform"
       ]
     },
     {
@@ -4775,6 +5074,9 @@
       "skill_ids": [
         "skill-hyper-tornado",
         "skill-burning-shot"
+      ],
+      "super_soul_rewards": [
+        "This is as far as you go."
       ]
     },
     {
@@ -4813,7 +5115,11 @@
         "You've awakened my true power...",
         "I won't forgive those who best my comrades!"
       ],
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-09-21",
+      "equipment_rewards": [
+        "Gine (DB Super)'s Clothes",
+        "Gine (DB Super) Set"
+      ]
     },
     {
       "id": "pq-145",
@@ -4853,6 +5159,9 @@
       "skill_ids": [
         "skill-destructive-fracture",
         "skill-destructive-flare"
+      ],
+      "super_soul_rewards": [
+        "I've cast aside everything for this!"
       ]
     },
     {
@@ -4898,7 +5207,10 @@
       "super_soul_rewards": [
         "There's no way you can hit me!"
       ],
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-09-21",
+      "equipment_rewards": [
+        "Bardock (DB Super)'s Clothes"
+      ]
     },
     {
       "id": "pq-147",
@@ -4945,7 +5257,11 @@
       "super_soul_rewards": [
         "It's just me and you now!"
       ],
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-09-21",
+      "equipment_rewards": [
+        "Caulifla's Clothes",
+        "Caulifla Wig"
+      ]
     },
     {
       "id": "pq-148",
@@ -4992,7 +5308,11 @@
       "super_soul_rewards": [
         "My back's getting tingly...!"
       ],
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-09-21",
+      "equipment_rewards": [
+        "Kale's Clothes",
+        "Kale Wig"
+      ]
     },
     {
       "id": "pq-149",
@@ -5036,7 +5356,11 @@
       "super_soul_rewards": [
         "Our two strengths aren't just added together."
       ],
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-09-21",
+      "equipment_rewards": [
+        "Bulma (Kid)'s Clothes",
+        "Bulma (Kid) Wig"
+      ]
     },
     {
       "id": "pq-150",
@@ -5124,7 +5448,9 @@
       ],
       "super_soul_rewards": [
         "I'll keep adding a bit of power to my attacks!",
-        "I think I'm getting the hang of this."
+        "I think I'm getting the hang of this.",
+        "I'll never forgive you!",
+        "I'm not gonna die until I defeat you!"
       ]
     },
     {
@@ -5167,7 +5493,12 @@
         "super-soul-101"
       ],
       "super_soul_rewards": [
-        "I will put a stop to you, fiend!"
+        "I will put a stop to you, fiend!",
+        "I'll show you the power of a true warrior!"
+      ],
+      "equipment_rewards": [
+        "Android 17 (DB Super) Ranger Outfit",
+        "Android 17 (DB Super) Ranger Wig"
       ]
     },
     {
@@ -5214,7 +5545,9 @@
       ],
       "super_soul_rewards": [
         "You're not much of a fun fight!",
-        "There's more where that came from!"
+        "There's more where that came from!",
+        "Don't underestimate my power!",
+        "I won't forgive you!"
       ]
     },
     {
@@ -5251,6 +5584,13 @@
       "skill_ids": [
         "skill-sign-of-awakening",
         "skill-circle-flash"
+      ],
+      "super_soul_rewards": [
+        "I'm the one who will win!"
+      ],
+      "equipment_rewards": [
+        "King Vegeta (DB Super)'s Battle Suit",
+        "King Vegeta (DB Super) Wig"
       ]
     },
     {
@@ -5289,6 +5629,12 @@
         "skill-heroic-counter",
         "skill-gamma-blaster",
         "skill-gamma-impact"
+      ],
+      "super_soul_rewards": [
+        "This is the ultimate hero!"
+      ],
+      "equipment_rewards": [
+        "Gamma 2 Helmet"
       ]
     },
     {
@@ -5335,6 +5681,9 @@
       "super_soul_rewards": [
         "This is your true power?",
         "Still haven't figured out you're gonna lose?"
+      ],
+      "equipment_rewards": [
+        "Gamma 1's Helmet"
       ]
     },
     {
@@ -5415,7 +5764,11 @@
       ],
       "super_soul_rewards": [
         "Heh heh! I'm not as rusty as I look!",
-        "See? It's a good thing I was here, right?"
+        "See? It's a good thing I was here, right?",
+        "Heh heh! I'm not a rusty as I look!"
+      ],
+      "equipment_rewards": [
+        "Gamma 2's Clothes"
       ]
     },
     {
@@ -5461,6 +5814,9 @@
       "super_soul_rewards": [
         "Enter the hero!",
         "The Red Ribbon Army is back in business!"
+      ],
+      "equipment_rewards": [
+        "Dr. Hedo Hood"
       ]
     },
     {
@@ -5506,6 +5862,9 @@
       ],
       "super_soul_ids": [
         "super-soul-061"
+      ],
+      "equipment_rewards": [
+        "Red Ribbon Army Helmet"
       ]
     },
     {
@@ -5545,6 +5904,9 @@
       ],
       "super_soul_rewards": [
         "I'm a whole new me."
+      ],
+      "equipment_rewards": [
+        "Red Ribbon Soldier 94 Clothes"
       ]
     },
     {
@@ -5585,6 +5947,10 @@
       ],
       "super_soul_rewards": [
         "Shenron really went the extra mile."
+      ],
+      "equipment_rewards": [
+        "Dr. Hedo Suit",
+        "Gohan (Beast) Wig"
       ]
     },
     {
@@ -5798,6 +6164,9 @@
       ],
       "super_soul_rewards": [
         "I'm not about to let Pan see me lose!"
+      ],
+      "equipment_rewards": [
+        "Videl (DB Super) Wig"
       ]
     },
     {
@@ -5822,7 +6191,10 @@
         "Artwork 596"
       ],
       "verification_status": "partially_verified",
-      "skill_rewards": []
+      "skill_rewards": [],
+      "equipment_rewards": [
+        "Orange Piccolo's Clothes"
+      ]
     },
     {
       "id": "pq-170",
@@ -5846,7 +6218,10 @@
         "Artwork 597"
       ],
       "verification_status": "partially_verified",
-      "skill_rewards": []
+      "skill_rewards": [],
+      "equipment_rewards": [
+        "Videl (DB Super)'s Clothes"
+      ]
     },
     {
       "id": "pq-171",
@@ -6057,6 +6432,9 @@
       ],
       "skill_ids": [
         "skill-god-of-destruction-s-might"
+      ],
+      "equipment_rewards": [
+        "Belmod's Clothes"
       ]
     },
     {
@@ -6133,7 +6511,11 @@
         "super-soul-142"
       ],
       "super_soul_rewards": [
-        "I'll take you all on at once!"
+        "I'll take you all on at once!",
+        "I'll take all of you on at once!"
+      ],
+      "equipment_rewards": [
+        "Goku (Mini)'s Gi"
       ]
     },
     {
@@ -6173,6 +6555,10 @@
       ],
       "super_soul_ids": [
         "super-soul-145"
+      ],
+      "equipment_rewards": [
+        "SS4 Goku (DAIMA) Suit",
+        "SS4 Goku (DAIMA) Wig & Tail"
       ]
     },
     {
@@ -6213,6 +6599,10 @@
       ],
       "super_soul_ids": [
         "super-soul-062"
+      ],
+      "equipment_rewards": [
+        "SS3 Vegeta (DAIMA) Battle Suit",
+        "SS3 Vegeta (DAIMA) Wig"
       ]
     },
     {
@@ -6247,6 +6637,12 @@
       "skill_ids": [
         "skill-super-kamehameha-ss4-daima",
         "skill-final-flash-ss3-daima"
+      ],
+      "equipment_rewards": [
+        "Glorio's Clothes",
+        "Panzy's Clothes",
+        "Glorio Wig",
+        "Panzy Wig"
       ]
     },
     {
@@ -6283,6 +6679,10 @@
       ],
       "super_soul_ids": [
         "super-soul-150"
+      ],
+      "equipment_rewards": [
+        "Golden Frieza Suit",
+        "Golden Frieza Head"
       ]
     },
     {
@@ -6320,6 +6720,10 @@
       ],
       "super_soul_ids": [
         "super-soul-149"
+      ],
+      "equipment_rewards": [
+        "Cheelai's Coat",
+        "Broly Wig (Black Hair, Normal)"
       ]
     },
     {
@@ -6357,6 +6761,9 @@
       ],
       "super_soul_ids": [
         "super-soul-151"
+      ],
+      "equipment_rewards": [
+        "Dragon Ball Balloon"
       ]
     },
     {
@@ -6392,7 +6799,15 @@
         "skill-dragon-spiral",
         "skill-indomitable"
       ],
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-09-21",
+      "super_soul_rewards": [
+        "This power... It's different from any I've ever had.",
+        "Malice... Existence... Cruelty..."
+      ],
+      "equipment_rewards": [
+        "Goku (Ultra Supervillain Quelled)'s Clothes",
+        "Goku (Ultra Supervillain Quelled) Wig"
+      ]
     },
     {
       "id": "pq-186",
@@ -6424,9 +6839,19 @@
       "skill_ids": [
         "skill-venus-fist"
       ],
-      "last_verified": "2026-09-21"
+      "last_verified": "2026-09-21",
+      "super_soul_rewards": [
+        "The final battle begins now.",
+        "I'll use this power to protect everyone!"
+      ],
+      "equipment_rewards": [
+        "Fu (Ultra Supervillain)'s Clothes",
+        "Fu (Ultra Supervillain) Set",
+        "Fu Set 2"
+      ]
     }
   ],
   "record_count": 186,
-  "id_policy": "Deterministic: pq- followed by the zero-padded three-digit player-facing PQ number."
+  "id_policy": "Deterministic: pq- followed by the zero-padded three-digit player-facing PQ number.",
+  "sha": "a43d7d3ef286fd3d9d43fde7d93516b7fba14cac"
 }
