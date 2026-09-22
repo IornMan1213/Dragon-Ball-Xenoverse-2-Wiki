@@ -777,3 +777,9 @@
 - Validation note: GitHub API inspection confirmed the changed files and deterministic counts; local repository execution was unavailable because the runtime could not resolve github.com, so no CI/build success is claimed.
 - Commits: `be9fe89c79747a121f915487411f5699fb0ae6e2`, `96cb7ce6f17a5c835ac875efc94f6c0cee7c1cbe`, `24790e65ff0f731074a772c47ebaa94ca9083ad8`, `ce2db43e5dfab73427ca254725f5ae18ddbfa05c`.
 - Exact next batch: audit the **broader PQ page/index consumers** against the canonical relationship layer, prioritizing direct PQ pages and any character/skill/Super Soul/equipment/DLC presentation indexes that still expose display-only names or one-way navigation. Do not add new relationship edges; record unresolved page targets explicitly and preserve all aliases/history.
+
+
+### 2026-09-22 cycle clarification — character reverse index key semantics
+- [x] Clarified `docs/data/pq-cross-domain-index.json`: the character reverse projection key is `canonical_character_name`, not `character_id`, because the live canonical character layer currently exposes names and does not provide stable character IDs.
+- [x] No relationship data changed; this is a schema/documentation clarification only.
+- [x] Additional commit: `c46f937382a0f8b154e5dbe15bc0263eb7eb6d76`.
