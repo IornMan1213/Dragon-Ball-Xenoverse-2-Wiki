@@ -18,7 +18,7 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Current canonical relationship baseline is 859 unique edges (244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840/860 counts remain preserved only in dated audit/history fields; repair deterministic projection drift before new provenance research.",
+  "next_completion_gate": "Current canonical relationship baseline is 859 unique edges (244 skill / 151 Super Soul / 124 equipment / 247 character / 86 DLC / 7 farming). Historical 862/840/860 counts remain preserved only in dated audit/history fields. Standalone reverse-index source-map parity is resolved; runtime validator execution remains the next gate before deterministic regeneration.",
   "current_counts": {
     "skill": 244,
     "super_soul": 151,
@@ -112,7 +112,7 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 860,
+    "total_edges": 859,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
     "stale_count_fields": 0,
@@ -125,7 +125,7 @@
     "reverse_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -133,7 +133,7 @@
     "forward_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -141,7 +141,7 @@
     "audit_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -149,7 +149,7 @@
     "status_counts": {
       "skill": 244,
       "super_soul": 151,
-      "equipment": 125,
+      "equipment": 124,
       "character": 247,
       "dlc": 86,
       "farming": 7
@@ -588,5 +588,9 @@
     "result": "no_deterministic_current_count_drift_found_in_audited_reconciliation_artifacts",
     "source_of_truth": "docs/data/pq-reward-relationships.json",
     "current_total_edges": 859
+  },
+  "equipment_reverse_coverage": {
+    "forward_edges": 124,
+    "missing_reverse_edges": 0
   }
 }
