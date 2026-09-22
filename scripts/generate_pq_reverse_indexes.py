@@ -38,14 +38,26 @@ def source_records(data):
             for pq, rewards in records.items()
         ]
     if isinstance(records, list):
-        if records and "rewards" in records[0]:
+        if not records:
+            return []
+        if isinstance(records[0], (list, tuple)) and len(records[0]) == 2:
+            return [
+                (int(pq), {
+                    "skills": [name for name, kind in rewards if kind == "skill"],
+                    "super_souls": [name for name, kind in rewards if kind == "super_soul"],
+                    "clothing": [name for name, kind in rewards if kind == "clothing"],
+                    "accessories": [name for name, kind in rewards if kind == "accessory"],
+                    "artworks": [name for name, kind in rewards if kind == "artwork"],
+                })
+                for pq, rewards in records
+            ]
+        if "rewards" in records[0]:
             return [(int(row["pq"]), row.get("rewards", {})) for row in records]
         return [
-            (int(row["pq"]), (
-                row.get("rewards", {})
-                if "rewards" in row
-                else {domain: list(row.get(domain, [])) for domain in DOMAINS + ("artworks",)}
-            ))
+            (int(row["pq"]), {
+                domain: list(row.get(domain, []))
+                for domain in DOMAINS + ("artworks",)
+            })
             for row in records
         ]
     return [
