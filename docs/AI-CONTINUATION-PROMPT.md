@@ -6689,3 +6689,15 @@ The repository owner has clarified the continuation contract:
 - Commits: `74c79fb5cf2b68043ff105c69f54b11551de0db3` (canonical skill), `dd74713a5f66338be8d98280a8061bae7792e937` (skill index), `4f386b8919de2f9924037a81b819635d2aeea112` (coverage audit), `24790e71032905ca3e53128738f14b3fe41d80ec` (changelog), plus this handoff commit.
 - Live census after editing: **452 canonical / 452 index / 44 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
 - Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Fighting Pose H, checking acquisition/reward semantics before provenance-only strengthening.**
+
+
+### 2026-09-21 cycle update — Fighting Pose K low-source provenance strengthening
+- Live census before editing: **452 canonical / 452 index / 43 exactly-two-source records / 0 duplicate IDs / 0 nullable `ki_cost` values**.
+- Bounded batch: **Fighting Pose K (`skill-fighting-pose-k`)**.
+- Research/evidence: an independent community discussion corroborates Fighting Pose K availability through the Skill Shop or a Parallel Quest. The repository's existing Fandom skill record remains the stronger source for the exact endpoint: The Ginyu Force Strikes unlocks the Skill Shop listing.
+- Changes: added the independent community source to canonical `docs/data/skills.json` and `docs/data/skills-index.json`; refreshed `last_verified` to **2026-09-21**; documented the cycle in `docs/COVERAGE-AUDIT.md` and `CHANGELOG.md`.
+- Evidence limits preserved: the added source does not independently establish the exact story-trigger wording, so the canonical Skill Shop-after-The Ginyu Force Strikes endpoint, 0-Ki cost, 8-second Super Armor, CaC scope, and no-Ultimate-Finish semantics were not broadened or rewritten.
+- Validation target after edit: **452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, 42 exactly-two-source records**, with canonical/index source parity for Fighting Pose K.
+- CI: inspect workflow runs for the latest repository commit; no CI success is claimed unless GitHub exposes an actual run/check.
+- Commits: `6e9db14228f744cdcbc052ad891c5dc519339348` (canonical skill), `274b76c12a2dc293c5d4a17cd58f256937ebbe7e` (skill index), `5cc47cc93f1fb9f0272f9cd3656ead37ba74a6ef` (changelog), `dd4814da75e353caf21c279bab33854e2b6ab79d` (coverage audit), plus this handoff commit.
+- Exact next batch: **recompute the live two-source census and continue the next deterministic low-source record after Fighting Pose K, checking acquisition/reward semantics before provenance-only strengthening.**
