@@ -1291,3 +1291,14 @@
 - [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
 - [x] **TODO completion:** PQ reference/explorer dependency contract hardening.
 - [ ] Exact next batch: inspect the next PQ-facing search/landing consumer or cross-domain registry for one-way navigation and stale hard-coded counts.
+
+
+### 2026-09-22 cycle update — PQ explorer Character navigation exact-pair hardening
+- [x] Audited the registered `scripts/validate_pq_explorer_character_navigation.py` consumer and its published explorer.
+- [x] Hardened validation to load the canonical 186-record PQ layer instead of reconstructing the PQ range, reject malformed character relationship records, and reject duplicate structured `(PQ,Character)` pairs.
+- [x] Live result remains clean: **247 canonical Character edges / 75 unique character targets / 143 source PQs / 0 missing targets / 0 invalid PQ IDs / 0 duplicate pairs / 0 malformed records**.
+- [x] Refreshed `docs/data/pq-explorer-character-navigation-audit.json` to schema **1.1.0**.
+- [x] No canonical Character relationship or roster identity was changed.
+- [ ] CI: no successful GitHub Actions status exposed; CI success not claimed.
+- [x] Commits: `1e80247f62b77a517ca1f7f82dd354f9cf37bab7`, `b99f389f8ac03eb4fe3caf8a2233f632cf04037a`.
+- [ ] Exact next batch: inspect the next registered PQ-facing search/landing consumer after the Character explorer consumer for duplicate structured pairs, one-way navigation, or stale hard-coded canonical counts.
