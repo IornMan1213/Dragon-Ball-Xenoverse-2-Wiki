@@ -814,3 +814,12 @@
 - The PQ explorer repair from the previous cycle remains intact.
 - No canonical relationship edges were created or modified in this sweep; this is a presentation/source-of-truth repair.
 - Exact next batch: continue searching the live repository for remaining direct external catalog consumers, then audit character/DLC presentation indexes and deterministic target links.
+
+
+### 2026-09-22 cycle update — DLC navigation reconciliation
+- Inspected the live canonical DLC identity layer and discovered the identity records were already present for all 20 canonical `pq_requires_dlc` targets; the remaining inconsistency was stale reverse-navigation audit metadata, not missing identities.
+- Reconciled `docs/data/dlc/pq-reverse-navigation-audit.json`: 20/20 identity targets, 86/86 canonical DLC edges, 0 missing reverse targets, 0 orphan reverse targets, 0 forward/reverse mismatches.
+- Corrected the DLC endpoint validator's stale documentation so the standalone canonical DLC identity layer is explicitly part of endpoint validation.
+- Updated `docs/DLC-Overview.md` to expose deterministic links to the canonical DLC identity layer, PQ reverse index, and reverse-navigation audit.
+- No new DLC relationships were created. Canonical relationship count remains 860.
+- Exact next batch: audit remaining character/DLC presentation consumers and structured links for deterministic resolution, then update validators/audits only from confirmed repository data.
