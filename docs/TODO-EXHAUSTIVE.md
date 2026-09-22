@@ -1801,3 +1801,14 @@ When the continuation handoff advances a research frontier, update this live TOD
 - [x] Added maintained Steam all-PQ guide evidence for PQ14 → Kaioken Kamehameha Basic Reward.
 - [x] Synchronized canonical/index records and preserved the existing no-Ultimate-Finish-only interpretation.
 - [ ] Next task: **Kairos Cannon (`skill-kairos-cannon`)**.
+
+
+### 2026-09-21 cycle update — Kairos Cannon provenance strengthening
+- [x] Recomputed the live skill census before editing: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 14 exactly-two-source canonical records**.
+- [x] Strengthened **Kairos Cannon (`skill-kairos-cannon`)** with the independent Dragon Ball Wiki technique entry, corroborating Chronoa/Supreme Kai of Time ownership and the Conton City Tournament 02 — “Thinning the Herd” acquisition endpoint.
+- [x] Preserved the existing repository acquisition wording, Free Update 11 classification, mechanics, and character-scope semantics; no reward probability or additional gate was inferred.
+- [x] Synchronized canonical/index source projections and verification date; source parity remains clean.
+- [x] Validation target after write: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical `ki_cost` / 14 exactly-two-source records**.
+- [x] Research evidence: Dragon Ball Wiki corroborates the skill identity and tournament acquisition; the repository's existing official Bandai Namco DLC source remains retained.
+- [ ] CI/Actions: not yet verified for this direct-commit chain; do not claim CI success.
+- [ ] Exact next task: **Rise to Action** (`skill-rise-to-action`); recompute the census first and verify the acquisition/source relationship before provenance-only strengthening.
