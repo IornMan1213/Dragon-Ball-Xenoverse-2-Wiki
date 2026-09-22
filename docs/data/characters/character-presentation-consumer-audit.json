@@ -8,7 +8,9 @@
     "docs/data/partner-customization-key-record-layer.json",
     "docs/data/partner-customization-key-reconciliation.json",
     "docs/Characters-All.html",
-    "scripts/validate_character_explorer.py"
+    "scripts/validate_character_explorer.py",
+    "docs/data/characters/partner-customization-character-navigation-audit.json",
+    "scripts/validate_partner_customization_character_navigation.py"
   ],
   "results": {
     "canonical_character_names": 149,
@@ -82,5 +84,15 @@
     "Canonical character names remain authoritative.",
     "Presentation IDs resolve only through the explicit bridge.",
     "No slug/display-name similarity is promoted to canonical identity."
-  ]
+  ],
+  "partner_customization_navigation": {
+    "key_records": 20,
+    "reconciliation_records": 20,
+    "bridge_records": 29,
+    "canonical_character_names": 149,
+    "page_search_links": 20,
+    "unresolved_character_ids": [],
+    "name_mismatches": [],
+    "status": "clean"
+  }
 }
