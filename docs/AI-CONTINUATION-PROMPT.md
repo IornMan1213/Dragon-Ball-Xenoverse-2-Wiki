@@ -2563,3 +2563,5 @@
 - Validation target: canonical/index parity, duplicate IDs, selected-record freshness, and stale census must be recomputed after the doc updates.
 - CI status: no successful workflow/check exposed for this direct-commit chain.
 - Exact next step: recompute the stale census and process the next first-ten stale alphabetical skill batch.
+
+- Post-write validation result for this cycle: **452 canonical / 452 index / 0 duplicate IDs / 10 selected current / 0 canonical↔index ID-set or field mismatches**; stale remaining **198**. Exact next batch: **Hyper Tornado, Ill Bomber, Ill Rain, Impact Flare, Impulse Slash, Indomitable, Innocence Breath, Innocence Bullet, Innocence Cannon, Instant Charge**.
