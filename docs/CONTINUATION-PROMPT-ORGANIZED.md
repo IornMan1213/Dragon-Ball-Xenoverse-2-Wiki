@@ -15403,3 +15403,10 @@ The directive to populate the live-state fields from the current repository and 
 
 ### 2026-09-22 correction — Accessory batch handoff commit metadata
 - Correction to the immediately preceding handoff entry: audit commit is d596b78d57c28456dbc61438d745cf26dddc2a02. All other commit IDs in that entry are unchanged.
+
+
+## Current live-state correction — 2026-09-22
+- Recomputed PQ→equipment relationship coverage is **125 forward / 123 reverse / 0 unresolved / 0 broken endpoints**. The earlier 129-forward figure is superseded.
+- Canonical equipment/accessory count remains **174**, including **70 canonical accessory IDs**.
+- PQ→accessory remains **28 forward / 28 reverse / 16 unresolved**.
+- Exact next batch remains the full cross-database reward/reverse-index census across skills, Super Souls, equipment, and accessories.
