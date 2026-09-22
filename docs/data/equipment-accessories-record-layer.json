@@ -1447,192 +1447,202 @@
     {
       "id": "equip-051",
       "name": "Bardock (DB Super)'s Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 146 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 1 — PQ 146",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         146
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-052",
       "name": "Caulifla's Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 147 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 2 — PQ 147",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         147
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-053",
       "name": "Caulifla Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 147 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 2 — PQ 147",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         147
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-054",
       "name": "Kale's Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 148 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 2 — PQ 148",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         148
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-055",
       "name": "Kale Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 148 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 2 — PQ 148",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         148
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-056",
       "name": "Bulma (Kid)'s Clothes",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 149 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 2 — PQ 149",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         149
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-057",
       "name": "Bulma (Kid) Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 149 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Legendary Pack 2 — PQ 149",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         149
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-058",
       "name": "Android 17 (DB Super) Ranger Outfit",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 152 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Conton City Vote Pack — PQ 152",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         152
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-059",
       "name": "Android 17 (DB Super) Ranger Wig",
-      "category": "unclassified",
+      "category": "accessory",
       "acquisition_routes": [
         "Parallel Quest 152 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Conton City Vote Pack — PQ 152",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         152
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-060",
       "name": "King Vegeta (DB Super)'s Battle Suit",
-      "category": "unclassified",
+      "category": "equipment",
       "acquisition_routes": [
         "Parallel Quest 154 — reward endpoint documented by the canonical PQ equipment relationship layer (exact reward-slot semantics unresolved)."
       ],
-      "dlc_provenance": "unresolved",
+      "dlc_provenance": "Conton City Vote Pack — PQ 154",
       "restrictions": null,
       "combat_effect": "unresolved",
       "verification_status": "partially_verified",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Equipment"
       ],
       "parallel_quest_ids": [
         154
       ],
-      "notes": "Canonical identity promoted from a source-backed PQ equipment reward endpoint. Exact equipment slot/category, current acquisition availability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved until independently reconciled; no such values are inferred from the relationship endpoint alone."
+      "notes": "Canonical identity is source-backed by the PQ reward record and independently corroborated by the maintained equipment catalog. The PQ/DLC grouping is explicitly documented for this item. Exact reward probability, reward-slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced; canonical data remains authoritative."
     },
     {
       "id": "equip-061",
