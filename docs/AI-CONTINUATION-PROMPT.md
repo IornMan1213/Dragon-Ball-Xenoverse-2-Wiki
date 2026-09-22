@@ -6780,3 +6780,10 @@ The repository owner has clarified the continuation contract:
 - Validation target after write: **36 exactly-two-source records**, with 452/452 records, 0 duplicate IDs, 0 nullable `ki_cost`, and canonical/index source parity.
 - CI: no success is claimed unless a status/workflow result is exposed for the final handoff commit.
 - Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Gigantic Explosion**. Preserve conflicts/nulls, verify acquisition/reward semantics from repository evidence plus independent evidence, and synchronize canonical/index records.
+
+
+### 2026-09-21 correction/update — Gigantic Explosion provenance batch
+- Correction: the initial batch attempt added the already-present dedicated dbxv2.fandom source and therefore did **not** increase the source count. That was corrected by adding an actually independent Videogaming Wiki entry: https://videogaming.fandom.com/wiki/Gigantic_Explosion_%28Dragon_Ball%3A_Xenoverse_2%29 .
+- Final batch state: Gigantic Explosion now has **3 distinct sources**, the live exactly-two-source census is **36**, and canonical/index parity is clean.
+- Evidence boundaries: Videogaming Wiki independently confirms Future Saga Chapter 1, PQ164, Broly users, the Awoken Skill requirement, and 400-Stamina continuation. The maintained Steam PQ guide lists the skill as a PQ164 Basic Reward. The repository's existing **Ultimate Finish (40%)** acquisition condition was preserved rather than inferred from those sources.
+- Exact next batch: **recompute the live two-source census first, then continue with the next deterministic low-source record after Gigantic Explosion**.
