@@ -1631,3 +1631,13 @@
 - [x] No canonical skill identity, acquisition relationship, DLC identity, or reward-tier field required modification; provenance was already correctly represented.
 - [ ] Runtime/CI remains unavailable; validation is static direct-fetch, source comparison, and canonical/index parity.
 - [ ] Exact next batch: continue the P1 skill provenance census with the next unfinished skill identified by the live handoff/TODO, without repeating completed Prominence Flash or Requiem of Destruction work.
+
+
+### 2026-09-22 cycle update — Absolute Zero provenance and reward-tier reconciliation
+- [x] Live skill census: **452 canonical / 452 index / 0 duplicate IDs / 0 nullable canonical ki_cost**; bounded record: `skill-absolute-zero`.
+- [x] Independent evidence: the maintained all-186-PQ Steam guide explicitly lists **Absolute Zero** under **PQ96 — The Shadow Dragons — Basic Reward**; the dedicated skill reference independently identifies PQ96 as its Xenoverse 2 acquisition route. citeturn0search3turn0search0
+- [x] The repository's existing older video evidence reports Absolute Zero as a PQ96 Ultimate Finish reward. The conflict is retained rather than erased; the current maintained reward transcription supports the canonical `ultimate_finish_required: false` value without inferring a probability.
+- [x] Canonical/index parity preserved; only `last_verified` and provenance notes were strengthened to record the fresh independent check.
+- [x] Cross-domain links already exist: PQ96 → Absolute Zero is represented in the PQ skill crosslink and unified reverse index.
+- [ ] Runtime/CI remains unavailable; validation is static JSON parsing, canonical/index parity, and source-endpoint comparison.
+- [ ] Exact next batch: continue the P1 skill provenance census with **All Clear (`skill-all-clear`)**, then proceed sequentially through the unfinished skill queue while preserving evidence conflicts.
