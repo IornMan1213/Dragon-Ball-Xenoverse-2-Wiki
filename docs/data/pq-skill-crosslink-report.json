@@ -448,7 +448,7 @@
       "pq_number": 46,
       "pq_name": "16 of the Official History",
       "skill_id": "skill-chain-destructo-disc-barrage",
-      "skill": "Chain Destructo-disc Barrage",
+      "skill": "Chain Destructo-Disc Barrage",
       "canonical_skill": "Chain Destructo-Disc Barrage",
       "match": "exact"
     },
@@ -862,9 +862,9 @@
       "pq_number": 90,
       "pq_name": "Gathering of the Great Evil Alliance",
       "skill_id": "skill-ill-bomber",
-      "skill": "III Bomber",
+      "skill": "Ill Bomber",
       "canonical_skill": "Ill Bomber",
-      "match": "alias"
+      "match": "exact"
     },
     {
       "pq_id": "pq-091",
@@ -1906,9 +1906,9 @@
       "pq_number": 163,
       "pq_name": "Broly the Invader",
       "skill_id": "skill-giant-cluster",
-      "skill": "Giant Cluster",
+      "skill": "Gigantic Cluster",
       "canonical_skill": "Gigantic Cluster",
-      "match": "alias"
+      "match": "exact"
     },
     {
       "pq_id": "pq-163",
