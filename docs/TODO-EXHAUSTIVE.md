@@ -2049,3 +2049,14 @@
 - [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **341 stale canonical records remain**; all ten targets have `last_verified: 2026-09-22`; shared canonical/index fields (`name`, `class`, `subcategory`, `last_verified`) have **0 mismatches**.
 - [ ] Runtime/CI execution remains unavailable; no CI success claimed.
 - [ ] Exact next batch: recompute the live stale census and continue alphabetically after Destructive Flare with **Destructive Fracture, Destructo-Disc**, and adjacent stale records where evidence remains bounded.
+
+
+### 2026-09-22 cycle update — Destructive Fracture through Divine Kamehameha provenance batch
+- [x] Fresh live census before editing: **452 canonical / 452 index / 0 duplicate IDs / 341 stale**.
+- [x] Bounded batch completed for **Destructive Fracture, Destructo-Disc, DIE DIE Missile Barrage, Dimension Cannon, Dimension Ray, Dimensional Hole, and Divine Kamehameha**.
+- [x] Refreshed canonical/index `last_verified` to **2026-09-22** for all seven records and expanded bounded mechanics/provenance notes.
+- [x] Preserved deterministic corrections already established: Dimension Cannon remains a **300-Stamina Ki Blast Evasive**, not a Ki-cost Super; Dimension Ray remains **400 Ki**; Divine Kamehameha retains its **Free Update 11** provenance separately from TP Medal Shop acquisition.
+- [x] No unsupported drop probability, Ultimate-Finish gate, or positive Ki cost was invented. DIE DIE Missile Barrage mechanics remain explicitly deferred because current mentor evidence establishes acquisition but not enough mechanics detail.
+- [x] Static validation after editing: **452/452** canonical/index; **0 duplicate canonical IDs**; **334 stale canonical records remain**; all seven targets have `last_verified: 2026-09-22`; shared `name`, `class`, `subcategory`, and `last_verified` fields have **0 mismatches**.
+- [ ] Runtime/CI execution remains unavailable; no CI success claimed.
+- [ ] Exact next batch: recompute the live stale census and continue alphabetically with **Divine Lasso, Divine Ray Bomb, Divine Spear, Divine Wrath: Purification, Divinity Unleashed, Do or Die, Dodon Ray**, then adjacent stale records where evidence remains bounded.
