@@ -190,3 +190,11 @@
 - [x] Validation: **172 total equipment/accessory records / 64 canonical accessory IDs / 0 duplicate canonical IDs / 0 duplicate accessory names**. Equipment relationship layer remains **123 forward / 121 reverse / 0 broken**.
 - [x] Evidence included the maintained PQ reward guide, current/maintained equipment references, independent PQ149 evidence, PQ160/PQ162 current research, and TP Medal Shop evidence for the still-unresolved Android 13's Hat.
 - [ ] Exact next task: reconcile the next **8–20** remaining accessory research identities, prioritizing PQ152–156 and PQ159–168 where existing research suggests exact inventory names or component aliases, but promote only when the current canonical layer can support an exact identity.
+
+
+### 2026-09-22 — Accessory canonical identity batch: PQ152–168
+- [x] Reconciled six source-backed accessory identities: Android 17 (DB Super) Wig, King Vegeta (DB Super) Wig, Gamma 2's Helmet, Gamma 1's Helmet, Dr. Hedo Hood, and Videl (DB Super) Wig.
+- [x] Mapped the Android 17 Ranger Accessory research label to the Android 17 wig as a component alias; no duplicate canonical identity created.
+- [x] Normalized legacy equipment identities to canonical accessory IDs and synchronized PQ→equipment and PQ→accessory reports.
+- [x] Validation: 174 total equipment/accessory records, 70 canonical accessory IDs, 28 accessory forward/reverse edges, 16 unresolved accessory research records, 129 equipment forward / 123 reverse / 0 unresolved / 0 broken.
+- [ ] Exact next task: perform the full cross-database reward/reverse-index census and repair deterministic endpoint/count drift before beginning another provenance-only accessory batch.
