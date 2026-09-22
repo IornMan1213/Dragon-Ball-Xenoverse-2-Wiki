@@ -561,3 +561,12 @@
 - [x] Added explicit canonical DLC identity/reverse-index/audit links to `docs/DLC-Overview.md`.
 - [x] Preserved canonical relationship count at 860; no new edges were inferred.
 - [ ] Continue auditing character/DLC presentation consumers and structured links for deterministic resolution.
+
+
+### 2026-09-22 — Character presentation identity bridge
+- [x] Audited character presentation layers: canonical character data intentionally uses names, while presets/Partner Customization use existing `character_id` values.
+- [x] Added explicit 29-record `character_id` → canonical-name presentation bridge.
+- [x] Added validator covering preset and Partner Customization character IDs.
+- [x] Registered the bridge/validator in the cross-domain index.
+- [x] Preserved canonical-name authority; no IDs or relationships were invented.
+- [ ] Audit DLC presentation consumers and Future Saga maps for deterministic `dlc_id` resolution.
