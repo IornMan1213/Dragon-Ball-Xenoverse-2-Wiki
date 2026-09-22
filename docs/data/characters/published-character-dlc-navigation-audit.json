@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "date": "2026-09-22",
   "scope": "published Character/DLC page local navigation plus canonical identity resolution",
   "pages": {
@@ -13,7 +13,8 @@
       "repaired": [
         "Characters.md → Characters-All.html"
       ],
-      "status": "clean"
+      "status": "clean",
+      "link_occurrence_exactly_once": true
     },
     "docs/DLC-Overview.md": {
       "checked_links": [
@@ -23,19 +24,23 @@
         "./data/future-saga-content-map.json",
         "./data/dlc/dlc-presentation-consumer-audit.json"
       ],
-      "status": "clean"
+      "status": "clean",
+      "link_occurrence_exactly_once": true
     }
   },
   "identity_contracts": {
     "character_layer": {
       "canonical_character_count": 149,
-      "canonical_character_unique_count": 149
+      "canonical_character_unique_count": 149,
+      "canonical_character_types_ok": true
     },
     "dlc_character_bridge": {
       "bridge_records": 15,
       "resolved_targets_missing_from_canonical": [],
       "unresolved_records_with_canonical_target": [],
-      "duplicate_source_names": 0
+      "duplicate_source_names": 0,
+      "duplicate_canonical_targets": 0,
+      "malformed_source_names": []
     },
     "canonical_dlc_identity": {
       "canonical_pq_dlc_edges": 86,
@@ -44,7 +49,11 @@
       "missing_canonical_targets": [],
       "orphan_identity_names": [],
       "duplicate_ids": 0,
-      "duplicate_names": 0
+      "duplicate_names": 0,
+      "malformed_ids": [],
+      "malformed_names": [],
+      "malformed_pq_dlc_targets": [],
+      "duplicate_pq_dlc_targets": []
     }
   },
   "findings": [
@@ -52,14 +61,17 @@
     "All checked local Character/DLC navigation targets exist on main.",
     "Resolved DLC-character provenance aliases map only to canonical character identities; two unresolved source labels remain explicit.",
     "All 20 canonical pq_requires_dlc targets resolve exactly once to the standalone DLC identity layer; no orphan DLC identity record is present.",
-    "No canonical character, DLC, or PQ relationship identity was changed."
+    "No canonical character, DLC, or PQ relationship identity was changed.",
+    "Validator hardening now rejects duplicate published href occurrences, malformed character/DLC identity field types, duplicate bridge targets, duplicate canonical PQ→DLC targets, and malformed PQ→DLC target values."
   ],
   "validator": "scripts/validate_published_character_dlc_navigation.py",
   "validation": {
     "page_links": "clean",
     "character_identity_bridge": "clean",
     "canonical_dlc_identity": "clean",
-    "live_census": "149 canonical characters / 15 DLC-character bridge records / 20 canonical DLC identities / 86 canonical PQ→DLC edges"
+    "live_census": "149 canonical characters / 15 DLC-character bridge records / 20 canonical DLC identities / 86 canonical PQ→DLC edges",
+    "validator_hardening": "clean"
   },
-  "status": "clean"
+  "status": "clean",
+  "validator_commit": "93cf57755cbca321b476f5d5e4aac52b717b40c3"
 }
