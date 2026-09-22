@@ -1287,7 +1287,7 @@
         46
       ]
     },
-    {
+        {
       "id": "skill-change-the-future",
       "name": "Change The Future",
       "class": "Super",
@@ -1298,13 +1298,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Change_the_Future_%28Parallel_Quest%29",
         "https://dragonball.fandom.com/wiki/Change_the_Future",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Change_The_Future",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "unlock_method": "Parallel Quest 43 — \"Change the Future\" Basic Reward",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-09-22",
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 canonical refinement: corrected acquisition wording to the exact PQ43 title and Basic Reward section. Dedicated skill evidence confirms the 100-Ki Ki Blast Super classification and Ki-Blast counter behavior.",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation independently confirms Change The Future as a 100-Ki Ki Blast Super and counter skill; the maintained all-186-PQ guide independently lists it as the PQ43 Basic Reward. No Ultimate Finish-only gate or drop probability is inferred.",
       "mechanics_notes": "100-Ki Ki Blast Super melee counter. The dedicated skill documentation describes it as a counter to Ki Blasts/skills: when triggered, the user moves toward the attacker and fires a Ki Blast. Current maintained PQ43 reward evidence places it in Basic Reward; no Ultimate Finish-only gate is established.",
       "source_quest": 43,
       "source_quest_or_shop": "Parallel Quest 43 — \"Change the Future\"",
