@@ -92,3 +92,8 @@ The current key list is **partially_verified**. The 1–20 mapping is consistent
 - https://dbxv2.fandom.com/wiki/Customization_Key
 - https://dbxv2.fandom.com/wiki/Partner_Customization
 - https://dragonball.fandom.com/wiki/Future_Warrior_(Xenoverse_2)
+
+
+## Canonical character navigation
+
+Partner Customization key records now resolve their `character_id` values through the explicit canonical character identity bridge. The current identity/navigation audit reports complete parity across the 20 key records and their reconciliation layer. See [character presentation consumer audit](data/characters/character-presentation-consumer-audit.json) and [character identity bridge](data/characters/character-id-identity-bridge.json).
