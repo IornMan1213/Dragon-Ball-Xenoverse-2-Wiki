@@ -302,3 +302,14 @@
 - CI: no successful workflow/check exposed; no CI success claimed.
 - Commits: canonical equipment `c56b8c09348e64f69110a69d6c1f2502af684143`; crosslink metadata `699ad8e9595120cc693e626b7e4952c892730f5a`.
 - Exact next batch: **`equip-061`–`equip-070`**. Recompute the live census first, then independently reconcile identity, category, PQ acquisition, DLC provenance, and directly evidenced restrictions/effects.
+
+### 2026-09-22 cycle update — equipment provenance batch `equip-061`–`equip-070`
+- Active workstream: P2 equipment/accessory canonical detail and provenance enrichment.
+- Bounded batch completed: `equip-061`–`equip-070`.
+- Evidence: maintained DBXV2 equipment catalog independently corroborates the item identities/classifications; maintained PQ guide corroborates reward endpoints. DLC mapping was independently reconciled: PQ154 Conton City Vote Pack; PQ155/156/158 Hero of Justice Pack 1; PQ159–162 Hero of Justice Pack 2; PQ25 base game.
+- Changes: classified the 10 records as equipment/accessory, added the maintained equipment catalog as independent provenance, and replaced unresolved DLC provenance with documented PQ/DLC provenance. `equip-070` retains its canonical PQ25 acquisition route while being classified as base-game content.
+- Evidence limits: exact reward probability/slot semantics, restrictions, and combat/stat effects remain unresolved unless directly evidenced. Canonical data remains the source of truth; verification status remains evidence metadata only.
+- Validation: **169 canonical equipment records / 0 duplicate IDs / 124 forward edges / 122 reverse endpoints / 0 unresolved / 0 broken endpoints**. All 10 batch records have 2 sources and explicit category/DLC provenance. Artifact scan passed.
+- CI: no successful workflow/check exposed; no CI success claimed.
+- Commits: canonical equipment `262096a9e1e6cbde2790bc88ffc1d52a53d1d2be`; crosslink metadata `b9408a5b1ec73b23317ad91f1528e9ef3bb4bb95`.
+- Exact next batch: **`equip-071`–`equip-080`**. Recompute the live census first, then independently reconcile identity, category, PQ acquisition, DLC provenance, and directly evidenced restrictions/effects.
