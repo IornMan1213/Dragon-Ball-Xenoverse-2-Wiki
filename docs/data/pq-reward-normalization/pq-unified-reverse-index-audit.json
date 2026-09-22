@@ -64,5 +64,60 @@
     "duplicate_relationship_keys": 0,
     "invalid_pq_numbers": 0
   },
-  "next_action": "Keep this audit coupled to a deterministic validator so canonical target spelling and exact PQ-set parity remain machine-checkable."
+  "next_action": "Keep this audit coupled to deterministic exact (target,PQ) parity across all unified reverse-index domains, including the combined clothing/accessories equipment projection; continue to the next registered consumer only after this invariant remains clean.",
+  "live_exact_reconciliation": {
+    "source_of_truth": "docs/data/pq-reward-relationships.json",
+    "canonical_pairs": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7,
+      "total": 860
+    },
+    "unified_projection_pairs": {
+      "skill": 244,
+      "super_soul": 151,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7,
+      "total": 860
+    },
+    "equipment_projection_domains": {
+      "clothing": 83,
+      "accessories": 40,
+      "combined": 125
+    },
+    "mismatches": {
+      "skill": {
+        "missing": 0,
+        "extra": 0
+      },
+      "super_soul": {
+        "missing": 0,
+        "extra": 0
+      },
+      "equipment": {
+        "missing": 0,
+        "extra": 0
+      },
+      "character": {
+        "missing": 0,
+        "extra": 0
+      },
+      "dlc": {
+        "missing": 0,
+        "extra": 0
+      },
+      "farming": {
+        "missing": 0,
+        "extra": 0
+      }
+    },
+    "invalid_pq_numbers": 0,
+    "duplicate_relationship_keys": 0,
+    "result": "clean"
+  }
 }
