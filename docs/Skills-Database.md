@@ -12,12 +12,15 @@ This page keeps core skill information **on-wiki**. Full exhaustive tables live 
 | Method | Notes |
 |--------|-------|
 | Mentor Lessons | Lesson-specific rewards; exact mentor/lesson records are authoritative for the unlock |
-| Parallel Quests | Many skills listed as rewards; reward trigger/Ultimate Finish status must be separately evidenced |
+| Parallel Quests | Skills may be listed as rewards; reward trigger, Ultimate Finish status, guarantee, and drop chance must be separately evidenced |
 | TP Medal Shop | Rotating stock of skills and Super Souls |
 | Shenron Wishes | Specific Super / Ultimate attacks via dedicated wishes |
 | Crystal Raids / Double Crystal Raids | Broad skill pool |
 | DLC Extra Missions & PQs | Exclusive skills per pack / Future Saga chapter |
 | Events / Festival | Temporary or permanent rewards |
+
+## Canonical acquisition boundary
+For PQ skill acquisition, the canonical `pq_rewards_skill` relationship is the source of truth for the identity of the PQ→skill association. It does not, by itself, establish that the skill is guaranteed, requires an Ultimate Finish, comes from a particular enemy, or has a numerical drop rate. Those are research/evidence fields and require independent support.
 
 ## Awoken Skills (Transformations)
 **Universal / Multi-race**
