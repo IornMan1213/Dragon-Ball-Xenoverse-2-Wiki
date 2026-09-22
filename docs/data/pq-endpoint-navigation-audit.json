@@ -35,8 +35,8 @@
       "status": "clean"
     },
     "equipment": {
-      "edge_count": 125,
-      "unique_pair_count": 125,
+      "edge_count": 124,
+      "unique_pair_count": 124,
       "duplicate_pair_count": 0,
       "missing_target_count": 0,
       "invalid_pq_id_count": 0,
