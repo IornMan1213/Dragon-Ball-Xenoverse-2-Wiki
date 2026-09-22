@@ -10,6 +10,9 @@ IDENTITY=DATA/"dlc"/"canonical-dlc-identity.json"
 CONTENT=DATA/"relationships"/"dlc-content-links.json"
 FUTURE=DATA/"future-saga-content-map.json"
 OVERVIEW=ROOT/"docs"/"DLC-Overview.md"
+PQ=DATA/"pq-reward-relationships.json"
+DLC_REVERSE=DATA/"dlc"/"pq-reverse-index.json"
+DLC_REVERSE_AUDIT=DATA/"dlc"/"pq-reverse-navigation-audit.json"
 
 def load(path: Path):
     with path.open(encoding="utf-8") as f:
@@ -37,7 +40,7 @@ def main():
     reverse=load(DLC_REVERSE)
     reverse_audit=load(DLC_REVERSE_AUDIT)
     forward_pairs={(e.get("pq"),e.get("target")) for e in pq.get("verified_relationships",[]) if e.get("relationship")=="pq_requires_dlc"}
-    reverse_pairs={(pq_id,target) for target,values in reverse.get("reverse_index",{}).items() for pq_id in values}
+    reverse_pairs={(pq_id,target) for rec in reverse.get("records",[]) for pq_id in rec.get("pq_ids",[]) for target in [rec.get("dlc_id")]}
     overview=OVERVIEW.read_text(encoding="utf-8")
     required_links=[
         "./data/dlc/canonical-dlc-identity.json",
